@@ -12,24 +12,26 @@ public class BehaviorAspectDescriptor implements jetbrains.mps.smodel.runtime.Be
 
   public BehaviorDescriptor getDescriptor(String fqName) {
     switch (Arrays.binarySearch(stringSwitchCases_846f5o_a0a0b, fqName)) {
-      case 6:
+      case 7:
         return new Table_BehaviorDescriptor();
-      case 0:
-        return new Column_BehaviorDescriptor();
-      case 4:
-        return new JoinTables_BehaviorDescriptor();
-      case 2:
-        return new FutureTableRef_BehaviorDescriptor();
-      case 1:
-        return new FutureTable_BehaviorDescriptor();
       case 5:
-        return new StatementList_BehaviorDescriptor();
+        return new JoinTables_BehaviorDescriptor();
       case 3:
+        return new FutureTableRef_BehaviorDescriptor();
+      case 2:
+        return new FutureTable_BehaviorDescriptor();
+      case 6:
+        return new StatementList_BehaviorDescriptor();
+      case 4:
         return new ImportTable_BehaviorDescriptor();
+      case 0:
+        return new ColumnRef_BehaviorDescriptor();
+      case 1:
+        return new CommonColumnSelection_BehaviorDescriptor();
       default:
         return BehaviorAspectInterpreted.getInstance().getDescriptor(fqName);
     }
   }
 
-  private static String[] stringSwitchCases_846f5o_a0a0b = new String[]{"org.campagnelab.hta.tables.structure.Column", "org.campagnelab.hta.tables.structure.FutureTable", "org.campagnelab.hta.tables.structure.FutureTableRef", "org.campagnelab.hta.tables.structure.ImportTable", "org.campagnelab.hta.tables.structure.JoinTables", "org.campagnelab.hta.tables.structure.StatementList", "org.campagnelab.hta.tables.structure.Table"};
+  private static String[] stringSwitchCases_846f5o_a0a0b = new String[]{"org.campagnelab.hta.tables.structure.ColumnRef", "org.campagnelab.hta.tables.structure.CommonColumnSelection", "org.campagnelab.hta.tables.structure.FutureTable", "org.campagnelab.hta.tables.structure.FutureTableRef", "org.campagnelab.hta.tables.structure.ImportTable", "org.campagnelab.hta.tables.structure.JoinTables", "org.campagnelab.hta.tables.structure.StatementList", "org.campagnelab.hta.tables.structure.Table"};
 }
