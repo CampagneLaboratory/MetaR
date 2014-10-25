@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<history>
+  <StructureModification>
+    <dependencies>
+      <model index="8gqa" modelUID="r:c14853f5-5f2e-4acc-825a-4fec67caca67(org.campagnelab.hta.tables.editor)" version="-1" />
+      <model index="jrxw" modelUID="r:9f2bbfbf-f8b7-4b3b-92b1-b6a0e9642c10(org.campagnelab.hta.tables.structure)" version="-1" />
+      <model index="5ryu" modelUID="r:91256194-1375-495d-ab72-ff76cfde3569(org.campagnelab.hta.script.structure)" version="-1" />
+      <model index="2t3w" modelUID="r:eae2f850-e61a-46c6-b9a7-d565fe947f2f(org.campagnelab.hta.script.editor)" version="-1" />
+    </dependencies>
+    <move id="5ryu.3402264987260070711" to="jrxw.3402264987261520276" />
+    <move id="5ryu.3402264987259814046" to="jrxw.3402264987261520277" />
+    <move id="5ryu.3402264987260149341" to="jrxw.3402264987261520275" />
+    <move id="2t3w.3402264987260070836" to="8gqa.3402264987261520292" />
+    <move id="2t3w.3402264987260070816" to="8gqa.3402264987261520284" />
+    <move id="2t3w.3402264987260070788" to="8gqa.3402264987261520293" />
+    <move id="2t3w.3402264987260178497" to="8gqa.3402264987261520290" />
+    <move id="2t3w.3402264987260070810" to="8gqa.3402264987261520280" />
+    <move id="2t3w.3402264987260177489" to="8gqa.3402264987261520287" />
+    <move id="2t3w.3402264987260070785" to="8gqa.3402264987261520279" />
+    <move id="2t3w.3402264987260070821" to="8gqa.3402264987261520285" />
+    <move id="2t3w.3402264987260178499" to="8gqa.3402264987261520291" />
+    <move id="2t3w.3402264987260065370" to="8gqa.3402264987261520283" />
+    <move id="2t3w.3402264987260070783" to="8gqa.3402264987261520278" />
+    <move id="2t3w.3402264987260177572" to="8gqa.3402264987261520288" />
+    <move id="2t3w.3402264987260065365" to="8gqa.3402264987261520281" />
+    <move id="2t3w.3402264987260178058" to="8gqa.3402264987261520289" />
+    <move id="2t3w.3402264987260065367" to="8gqa.3402264987261520282" />
+    <move id="2t3w.3402264987260177488" to="8gqa.3402264987261520286" />
+  </StructureModification>
+</history>
+
