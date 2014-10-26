@@ -39,5 +39,11 @@
     </dependencies>
     <rename id="jrxw.3402264987262235696" type="CHILD" from="byColumns" to="byKeySelection" />
   </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="jrxw" modelUID="r:9f2bbfbf-f8b7-4b3b-92b1-b6a0e9642c10(org.campagnelab.hta.tables.structure)" version="2" />
+    </dependencies>
+    <rename id="jrxw.3402264987266660979" type="REFERENCE" from="group" to="byGroup" />
+  </StructureModification>
 </history>
 
