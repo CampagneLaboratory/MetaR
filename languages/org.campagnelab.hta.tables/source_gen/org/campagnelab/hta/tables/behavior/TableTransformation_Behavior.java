@@ -17,6 +17,9 @@ import jetbrains.mps.internal.collections.runtime.IWhereFilter;
 import jetbrains.mps.internal.collections.runtime.ISelector;
 import jetbrains.mps.internal.collections.runtime.ITranslator2;
 import jetbrains.mps.scope.ListScope;
+import org.jetbrains.mps.openapi.language.SConceptRepository;
+import jetbrains.mps.util.NameUtil;
+import org.jetbrains.mps.openapi.language.SAbstractConcept;
 import org.apache.log4j.Logger;
 import org.apache.log4j.LogManager;
 
@@ -34,7 +37,7 @@ public class TableTransformation_Behavior {
         public void visit(SNode table) {
           ListSequence.fromList(SLinkOperations.getTargets(SLinkOperations.getTarget(SLinkOperations.getTarget(table, "table", false), "table", false), "columns", true)).visitAll(new IVisitor<SNode>() {
             public void visit(SNode column) {
-              int count = 0;
+              int count;
               count = (columnNameCount.containsKey(SPropertyOperations.getString(column, "name").toString()) ? columnNameCount.get(SPropertyOperations.getString(column, "name").toString()) : 0);
               columnNameCount.put(SPropertyOperations.getString(column, "name").toString(), count + 1);
               if (LOG.isEnabledFor(Level.ERROR)) {
@@ -73,7 +76,14 @@ public class TableTransformation_Behavior {
       return ListScope.forNamedElements(ListSequence.fromList(columnSet).distinct());
     }
     return null;
+  }
 
+  public static String call_Rname_772483346259656770(SNode thisNode, String fileId) {
+    return TableTransformation_Behavior.call_RName_772483346259745987(SConceptRepository.getInstance().getConcept(NameUtil.nodeFQName(SConceptOperations.findConceptDeclaration("org.campagnelab.hta.tables.structure.TableTransformation"))), fileId);
+  }
+
+  public static String call_RName_772483346259745987(SAbstractConcept thisConcept, String inputName) {
+    return inputName.replaceAll("[\\.+/-!@$#%\\^\\&*\\(\\)]", "_");
   }
 
   protected static Logger LOG = LogManager.getLogger(TableTransformation_Behavior.class);

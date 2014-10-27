@@ -7,27 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d7fb88e6-6771-4f53-a414-3deabf22ebe0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solutions/Playground/source_gen/Tables/map_Script.R" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.hta.script/generator/classes_gen/org/campagnelab/hta/script/generator/template/main/QueriesGenerated.class" afterPath="$PROJECT_DIR$/languages/org.campagnelab.hta.script/generator/classes_gen/org/campagnelab/hta/script/generator/template/main/QueriesGenerated.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.hta.tables/generator/classes_gen/org/campagnelab/hta/tables/generator/template/main/QueriesGenerated.class" afterPath="$PROJECT_DIR$/languages/org.campagnelab.hta.tables/generator/classes_gen/org/campagnelab/hta/tables/generator/template/main/QueriesGenerated.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.hta.script/generator/source_gen/org/campagnelab/hta/script/generator/template/main/QueriesGenerated.java" afterPath="$PROJECT_DIR$/languages/org.campagnelab.hta.script/generator/source_gen/org/campagnelab/hta/script/generator/template/main/QueriesGenerated.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.hta.tables/generator/source_gen/org/campagnelab/hta/tables/generator/template/main/QueriesGenerated.java" afterPath="$PROJECT_DIR$/languages/org.campagnelab.hta.tables/generator/source_gen/org/campagnelab/hta/tables/generator/template/main/QueriesGenerated.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/Playground/models/Tables.mps" afterPath="$PROJECT_DIR$/solutions/Playground/models/Tables.mps" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.hta.script/generator/source_gen.caches/org/campagnelab/hta/script/generator/template/main/dependencies" afterPath="$PROJECT_DIR$/languages/org.campagnelab.hta.script/generator/source_gen.caches/org/campagnelab/hta/script/generator/template/main/dependencies" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.hta.tables/generator/source_gen.caches/org/campagnelab/hta/tables/generator/template/main/dependencies" afterPath="$PROJECT_DIR$/languages/org.campagnelab.hta.tables/generator/source_gen.caches/org/campagnelab/hta/tables/generator/template/main/dependencies" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/Playground/source_gen.caches/Tables/dependencies" afterPath="$PROJECT_DIR$/solutions/Playground/source_gen.caches/Tables/dependencies" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.hta.script/generator/source_gen.caches/org/campagnelab/hta/script/generator/template/main/generated" afterPath="$PROJECT_DIR$/languages/org.campagnelab.hta.script/generator/source_gen.caches/org/campagnelab/hta/script/generator/template/main/generated" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.hta.script/source_gen.caches/org/campagnelab/hta/script/generated" afterPath="$PROJECT_DIR$/languages/org.campagnelab.hta.script/source_gen.caches/org/campagnelab/hta/script/generated" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.hta.script/source_gen.caches/org/campagnelab/hta/script/behavior/generated" afterPath="$PROJECT_DIR$/languages/org.campagnelab.hta.script/source_gen.caches/org/campagnelab/hta/script/behavior/generated" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.hta.script/source_gen.caches/org/campagnelab/hta/script/editor/generated" afterPath="$PROJECT_DIR$/languages/org.campagnelab.hta.script/source_gen.caches/org/campagnelab/hta/script/editor/generated" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.hta.script/source_gen.caches/org/campagnelab/hta/script/structure/generated" afterPath="$PROJECT_DIR$/languages/org.campagnelab.hta.script/source_gen.caches/org/campagnelab/hta/script/structure/generated" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.hta.tables/generator/source_gen.caches/org/campagnelab/hta/tables/generator/template/main/generated" afterPath="$PROJECT_DIR$/languages/org.campagnelab.hta.tables/generator/source_gen.caches/org/campagnelab/hta/tables/generator/template/main/generated" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.hta.tables/source_gen.caches/org/campagnelab/hta/tables/generated" afterPath="$PROJECT_DIR$/languages/org.campagnelab.hta.tables/source_gen.caches/org/campagnelab/hta/tables/generated" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/Playground/source_gen.caches/Tables/generated" afterPath="$PROJECT_DIR$/solutions/Playground/source_gen.caches/Tables/generated" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.hta.script/generator/template/main@generator.mps" afterPath="$PROJECT_DIR$/languages/org.campagnelab.hta.script/generator/template/main@generator.mps" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.hta.tables/generator/template/main@generator.mps" afterPath="$PROJECT_DIR$/languages/org.campagnelab.hta.tables/generator/template/main@generator.mps" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.hta.script/org.campagnelab.hta.script.mpl" afterPath="$PROJECT_DIR$/languages/org.campagnelab.hta.script/org.campagnelab.hta.script.mpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.hta.tables/org.campagnelab.hta.tables.mpl" afterPath="$PROJECT_DIR$/languages/org.campagnelab.hta.tables/org.campagnelab.hta.tables.mpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/org.campagnelab.hta.tables/source_gen/org/campagnelab/hta/tables/generationhelpers/NameHelper.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.mps/workspace.xml" afterPath="$PROJECT_DIR$/.mps/workspace.xml" />
     </list>
     <ignored path="HTAnalysis.iws" />
@@ -44,7 +24,7 @@
       <list>
         <TabState>
           <option name="title" value="Console" />
-          <option name="history" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#10;&lt;model modelUID=&quot;r:3c0def07-3c8e-4a26-8fa2-ff367a497499(TempModel_1414256658291331000)&quot;&gt;&#10;  &lt;persistence version=&quot;8&quot; /&gt;&#10;  &lt;language namespace=&quot;de1ad86d-6e50-4a02-b306-d4d17f64c375(jetbrains.mps.console.base)&quot; /&gt;&#10;  &lt;language namespace=&quot;f26691d2-0def-4c06-aec6-2cb90c4af0a4(jetbrains.mps.console.scripts)&quot; /&gt;&#10;  &lt;language namespace=&quot;1a8554c4-eb84-43ba-8c34-6f0d90c6e75a(jetbrains.mps.console.blCommand)&quot; /&gt;&#10;  &lt;language namespace=&quot;a5e4de53-46a3-44da-aab3-68fdf1c34ed0(jetbrains.mps.console.ideCommands)&quot; /&gt;&#10;  &lt;language namespace=&quot;995a7394-7f76-4b8b-a929-c53448708106(jetbrains.mps.console.internalCommands)&quot; /&gt;&#10;  &lt;devkit namespace=&quot;fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)&quot; /&gt;&#10;  &lt;import index=&quot;eynw&quot; modelUID=&quot;r:359b1d2b-77c4-46df-9bf2-b25cbea32254(jetbrains.mps.console.base.structure)&quot; version=&quot;1&quot; /&gt;&#10;  &lt;import index=&quot;z2sp&quot; modelUID=&quot;r:e712f353-5c3c-4288-adce-87c956a52ffb(jetbrains.mps.console.scripts.structure)&quot; version=&quot;0&quot; /&gt;&#10;  &lt;import index=&quot;3xdn&quot; modelUID=&quot;r:935ba0ee-7291-4caa-a807-d76e8fc69391(jetbrains.mps.console.blCommand.structure)&quot; version=&quot;3&quot; /&gt;&#10;  &lt;import index=&quot;caxt&quot; modelUID=&quot;r:135a606f-0376-4c5c-9ab8-4030f051a062(jetbrains.mps.console.ideCommands.structure)&quot; version=&quot;-1&quot; /&gt;&#10;  &lt;import index=&quot;wns9&quot; modelUID=&quot;r:90445206-a973-4c1d-b760-30e5c77b7497(jetbrains.mps.console.internalCommands.structure)&quot; version=&quot;-1&quot; /&gt;&#10;  &lt;import index=&quot;tpck&quot; modelUID=&quot;r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)&quot; version=&quot;0&quot; implicit=&quot;yes&quot; /&gt;&#10;  &lt;root type=&quot;eynw.ConsoleRoot&quot; typeId=&quot;eynw.1583916890557930028&quot; id=&quot;3402264987258972711&quot; nodeInfo=&quot;ng&quot;&gt;&#10;    &lt;node role=&quot;history&quot; roleId=&quot;eynw.1583916890557930415&quot; type=&quot;eynw.History&quot; typeId=&quot;eynw.757553790980850366&quot; id=&quot;3402264987258972712&quot; nodeInfo=&quot;ng&quot; /&gt;&#10;    &lt;node role=&quot;commandHolder&quot; roleId=&quot;eynw.1583916890557930417&quot; type=&quot;eynw.CommandHolder&quot; typeId=&quot;eynw.351968380916615243&quot; id=&quot;3402264987258972713&quot; nodeInfo=&quot;ng&quot;&gt;&#10;      &lt;property name=&quot;name&quot; nameId=&quot;tpck.1169194664001&quot; value=&quot;CommandHolder&quot; /&gt;&#10;    &lt;/node&gt;&#10;  &lt;/root&gt;&#10;&lt;/model&gt;&#10;&#10;" />
+          <option name="history" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#10;&lt;model modelUID=&quot;r:7df46271-4766-4cb8-8bd0-9ab548c7cf53(TempModel_1414434790434531000)&quot;&gt;&#10;  &lt;persistence version=&quot;8&quot; /&gt;&#10;  &lt;language namespace=&quot;de1ad86d-6e50-4a02-b306-d4d17f64c375(jetbrains.mps.console.base)&quot; /&gt;&#10;  &lt;language namespace=&quot;f26691d2-0def-4c06-aec6-2cb90c4af0a4(jetbrains.mps.console.scripts)&quot; /&gt;&#10;  &lt;language namespace=&quot;1a8554c4-eb84-43ba-8c34-6f0d90c6e75a(jetbrains.mps.console.blCommand)&quot; /&gt;&#10;  &lt;language namespace=&quot;a5e4de53-46a3-44da-aab3-68fdf1c34ed0(jetbrains.mps.console.ideCommands)&quot; /&gt;&#10;  &lt;language namespace=&quot;995a7394-7f76-4b8b-a929-c53448708106(jetbrains.mps.console.internalCommands)&quot; /&gt;&#10;  &lt;devkit namespace=&quot;fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)&quot; /&gt;&#10;  &lt;import index=&quot;eynw&quot; modelUID=&quot;r:359b1d2b-77c4-46df-9bf2-b25cbea32254(jetbrains.mps.console.base.structure)&quot; version=&quot;1&quot; /&gt;&#10;  &lt;import index=&quot;z2sp&quot; modelUID=&quot;r:e712f353-5c3c-4288-adce-87c956a52ffb(jetbrains.mps.console.scripts.structure)&quot; version=&quot;0&quot; /&gt;&#10;  &lt;import index=&quot;3xdn&quot; modelUID=&quot;r:935ba0ee-7291-4caa-a807-d76e8fc69391(jetbrains.mps.console.blCommand.structure)&quot; version=&quot;3&quot; /&gt;&#10;  &lt;import index=&quot;caxt&quot; modelUID=&quot;r:135a606f-0376-4c5c-9ab8-4030f051a062(jetbrains.mps.console.ideCommands.structure)&quot; version=&quot;-1&quot; /&gt;&#10;  &lt;import index=&quot;wns9&quot; modelUID=&quot;r:90445206-a973-4c1d-b760-30e5c77b7497(jetbrains.mps.console.internalCommands.structure)&quot; version=&quot;-1&quot; /&gt;&#10;  &lt;import index=&quot;tpck&quot; modelUID=&quot;r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)&quot; version=&quot;0&quot; implicit=&quot;yes&quot; /&gt;&#10;  &lt;root type=&quot;eynw.ConsoleRoot&quot; typeId=&quot;eynw.1583916890557930028&quot; id=&quot;8459500803716265908&quot; nodeInfo=&quot;ng&quot;&gt;&#10;    &lt;node role=&quot;history&quot; roleId=&quot;eynw.1583916890557930415&quot; type=&quot;eynw.History&quot; typeId=&quot;eynw.757553790980850366&quot; id=&quot;3402264987258972712&quot; nodeInfo=&quot;ng&quot;&gt;&#10;      &lt;node role=&quot;item&quot; roleId=&quot;eynw.7195119950189425818&quot; type=&quot;eynw.CommandHolder&quot; typeId=&quot;eynw.351968380916615243&quot; id=&quot;772483346260429916&quot; nodeInfo=&quot;ng&quot;&gt;&#10;        &lt;property name=&quot;name&quot; nameId=&quot;tpck.1169194664001&quot; value=&quot;CommandHolder&quot; /&gt;&#10;        &lt;node role=&quot;command&quot; roleId=&quot;eynw.351968380916615460&quot; type=&quot;3xdn.BLExpression&quot; typeId=&quot;3xdn.7656298970878093785&quot; id=&quot;772483346260429917&quot; nodeInfo=&quot;ng&quot;&gt;&#10;          &lt;node role=&quot;expression&quot; roleId=&quot;3xdn.7656298970878093890&quot; type=&quot;caxt.Clean&quot; typeId=&quot;caxt.2840424593938220297&quot; id=&quot;772483346260429918&quot; nodeInfo=&quot;ng&quot;&gt;&#10;            &lt;node role=&quot;parameter&quot; roleId=&quot;3xdn.4307205004132279624&quot; type=&quot;3xdn.QueryParameterList&quot; typeId=&quot;3xdn.4307205004132277753&quot; id=&quot;772483346260429919&quot; nodeInfo=&quot;ng&quot; /&gt;&#10;          &lt;/node&gt;&#10;        &lt;/node&gt;&#10;      &lt;/node&gt;&#10;      &lt;node role=&quot;item&quot; roleId=&quot;eynw.7195119950189425818&quot; type=&quot;eynw.CommandHolder&quot; typeId=&quot;eynw.351968380916615243&quot; id=&quot;8459500803717171889&quot; nodeInfo=&quot;ng&quot;&gt;&#10;        &lt;property name=&quot;name&quot; nameId=&quot;tpck.1169194664001&quot; value=&quot;CommandHolder&quot; /&gt;&#10;        &lt;node role=&quot;command&quot; roleId=&quot;eynw.351968380916615460&quot; type=&quot;3xdn.BLExpression&quot; typeId=&quot;3xdn.7656298970878093785&quot; id=&quot;8459500803717171890&quot; nodeInfo=&quot;ng&quot;&gt;&#10;          &lt;node role=&quot;expression&quot; roleId=&quot;3xdn.7656298970878093890&quot; type=&quot;caxt.Clean&quot; typeId=&quot;caxt.2840424593938220297&quot; id=&quot;8459500803717171891&quot; nodeInfo=&quot;ng&quot;&gt;&#10;            &lt;node role=&quot;parameter&quot; roleId=&quot;3xdn.4307205004132279624&quot; type=&quot;3xdn.QueryParameterList&quot; typeId=&quot;3xdn.4307205004132277753&quot; id=&quot;8459500803717171892&quot; nodeInfo=&quot;ng&quot; /&gt;&#10;          &lt;/node&gt;&#10;        &lt;/node&gt;&#10;      &lt;/node&gt;&#10;    &lt;/node&gt;&#10;    &lt;node role=&quot;commandHolder&quot; roleId=&quot;eynw.1583916890557930417&quot; type=&quot;eynw.CommandHolder&quot; typeId=&quot;eynw.351968380916615243&quot; id=&quot;8459500803716265909&quot; nodeInfo=&quot;ng&quot;&gt;&#10;      &lt;property name=&quot;name&quot; nameId=&quot;tpck.1169194664001&quot; value=&quot;CommandHolder&quot; /&gt;&#10;    &lt;/node&gt;&#10;  &lt;/root&gt;&#10;&lt;/model&gt;&#10;&#10;" />
         </TabState>
       </list>
     </option>
@@ -65,157 +45,17 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="main" pinned="false" current="false" current-in-tab="false">
-        <entry file="mps://node://org.campagnelab.hta.tables#3402264987258972825/org.campagnelab.hta.tables.generator.template.main@generator/main">
-          <provider selected="true" editor-type-id="MPSFileEditor">
-            <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-              <memento viewPositionX="0" viewPositionY="315">
-                <selectionStack>
-                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                    <property name="hasNonTrivialSelection" value="false" />
-                    <property name="caretXRelative" value="36" />
-                    <property name="caretX" value="337" />
-                    <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="property_name" cellNumber="0" isInList="false">
-                      <node node_reference="r:ff825a5c-7d67-471c-8044-76c3cc7b519b(org.campagnelab.hta.tables.generator.template.main@generator)/3402264987267809961" />
-                    </cellInfo>
-                  </stackElement>
-                </selectionStack>
-                <errorLabels />
-                <folded />
-                <enabledHints />
-              </memento>
-              <inspectorMemento currentlyEditedNode="r:ff825a5c-7d67-471c-8044-76c3cc7b519b(org.campagnelab.hta.tables.generator.template.main@generator)/3402264987267873049" viewPositionX="0" viewPositionY="0">
-                <selectionStack />
-                <errorLabels />
-                <folded />
-                <enabledHints />
-              </inspectorMemento>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StatementList" pinned="false" current="true" current-in-tab="true">
-        <entry file="mps://node://org.campagnelab.hta.tables/org.campagnelab.hta.tables.structure/StatementList">
-          <provider selected="true" editor-type-id="MPSFileEditor">
-            <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
-              <memento viewPositionX="0" viewPositionY="0">
-                <selectionStack>
-                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                    <property name="hasNonTrivialSelection" value="false" />
-                    <property name="caretXRelative" value="49" />
-                    <property name="caretX" value="102" />
-                    <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="Constant_vmyx7q_a0" cellNumber="0" isInList="false">
-                      <node node_reference="r:ff825a5c-7d67-471c-8044-76c3cc7b519b(org.campagnelab.hta.tables.generator.template.main@generator)/3402264987267873049" />
-                    </cellInfo>
-                  </stackElement>
-                </selectionStack>
-                <errorLabels />
-                <folded />
-                <enabledHints />
-              </memento>
-              <inspectorMemento currentlyEditedNode="r:ff825a5c-7d67-471c-8044-76c3cc7b519b(org.campagnelab.hta.tables.generator.template.main@generator)/3402264987267873049" viewPositionX="0" viewPositionY="0">
-                <selectionStack />
-                <errorLabels />
-                <folded />
-                <enabledHints />
-              </inspectorMemento>
-              <node node_ref="r:ff825a5c-7d67-471c-8044-76c3cc7b519b(org.campagnelab.hta.tables.generator.template.main@generator)/3402264987267800931" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="reduce_StatementList" pinned="false" current="false" current-in-tab="false">
-        <entry file="mps://node://org.campagnelab.hta.tables#3402264987258972825/org.campagnelab.hta.tables.generator.template.main@generator/reduce_StatementList">
-          <provider selected="true" editor-type-id="MPSFileEditor">
-            <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-              <memento viewPositionX="0" viewPositionY="0">
-                <selectionStack>
-                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                    <property name="hasNonTrivialSelection" value="false" />
-                    <property name="caretXRelative" value="0" />
-                    <property name="caretX" value="164" />
-                    <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="property_text" cellNumber="0" isInList="false">
-                      <node node_reference="r:ff825a5c-7d67-471c-8044-76c3cc7b519b(org.campagnelab.hta.tables.generator.template.main@generator)/3402264987267873045" />
-                    </cellInfo>
-                  </stackElement>
-                </selectionStack>
-                <errorLabels />
-                <folded />
-                <enabledHints />
-              </memento>
-              <inspectorMemento currentlyEditedNode="r:ff825a5c-7d67-471c-8044-76c3cc7b519b(org.campagnelab.hta.tables.generator.template.main@generator)/3402264987267873049" viewPositionX="0" viewPositionY="0">
-                <selectionStack />
-                <errorLabels />
-                <folded />
-                <enabledHints />
-              </inspectorMemento>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MyJoinTest" pinned="false" current="false" current-in-tab="false">
-        <entry file="mps://node://Playground/Tables/MyJoinTest">
-          <provider selected="true" editor-type-id="MPSFileEditor">
-            <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-              <memento viewPositionX="0" viewPositionY="0">
-                <selectionStack>
-                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                    <property name="hasNonTrivialSelection" value="false" />
-                    <property name="caretXRelative" value="9" />
-                    <property name="caretX" value="24" />
-                    <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="Constant_u338ov_a0" cellNumber="0" isInList="false">
-                      <node node_reference="r:31d75cce-9b4e-45c2-8411-6c65880e7354(Tables)/3402264987260291647" />
-                    </cellInfo>
-                  </stackElement>
-                </selectionStack>
-                <errorLabels />
-                <folded />
-                <enabledHints />
-              </memento>
-              <inspectorMemento currentlyEditedNode="r:ff825a5c-7d67-471c-8044-76c3cc7b519b(org.campagnelab.hta.tables.generator.template.main@generator)/3402264987267873049" viewPositionX="0" viewPositionY="0">
-                <selectionStack />
-                <errorLabels />
-                <folded />
-                <enabledHints />
-              </inspectorMemento>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="map_Script.R" pinned="false" current="false" current-in-tab="false">
-        <entry file="previewTables/map_Script.R">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="105">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Script" pinned="false" current="false" current-in-tab="false">
         <entry file="mps://node://org.campagnelab.hta.script/org.campagnelab.hta.script.structure/Script">
           <provider selected="true" editor-type-id="MPSFileEditor">
             <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
               <memento viewPositionX="0" viewPositionY="0">
-                <selectionStack>
-                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                    <property name="hasNonTrivialSelection" value="false" />
-                    <property name="caretXRelative" value="63" />
-                    <property name="caretX" value="212" />
-                    <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="property_text" cellNumber="0" isInList="false">
-                      <node node_reference="r:1db035cc-a160-4140-a5a8-5cdb936ac3b7(org.campagnelab.hta.script.generator.template.main@generator)/3402264987267201212" />
-                    </cellInfo>
-                  </stackElement>
-                </selectionStack>
+                <selectionStack />
                 <errorLabels />
                 <folded />
                 <enabledHints />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:ff825a5c-7d67-471c-8044-76c3cc7b519b(org.campagnelab.hta.tables.generator.template.main@generator)/3402264987267873049" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:20059f57-5dbc-44d9-90cc-68a47f43e4d6(org.campagnelab.hta.tables.generationhelpers)/772483346259704661" viewPositionX="0" viewPositionY="-4">
                 <selectionStack />
                 <errorLabels />
                 <folded />
@@ -226,19 +66,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main" pinned="false" current="false" current-in-tab="false">
-        <entry file="mps://node://org.campagnelab.hta.script#3402264987259813729/org.campagnelab.hta.script.generator.template.main@generator/main">
+      <file leaf-file-name="NameHelper" pinned="false" current="false" current-in-tab="false">
+        <entry file="mps://node://org.campagnelab.hta.tables/org.campagnelab.hta.tables.generationhelpers/NameHelper">
           <provider selected="true" editor-type-id="MPSFileEditor">
             <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-              <memento viewPositionX="0" viewPositionY="189">
+              <memento viewPositionX="0" viewPositionY="0">
                 <selectionStack>
                   <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                     <property name="hasNonTrivialSelection" value="false" />
-                    <property name="caretXRelative" value="31" />
-                    <property name="caretX" value="332" />
+                    <property name="caretXRelative" value="208" />
+                    <property name="caretX" value="431" />
                     <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="templateName" cellNumber="0" isInList="false">
-                      <node node_reference="r:1db035cc-a160-4140-a5a8-5cdb936ac3b7(org.campagnelab.hta.script.generator.template.main@generator)/3402264987267191713" />
+                    <cellInfo cellId="property_value" cellNumber="0" isInList="false">
+                      <node node_reference="r:20059f57-5dbc-44d9-90cc-68a47f43e4d6(org.campagnelab.hta.tables.generationhelpers)/772483346259704661" />
                     </cellInfo>
                   </stackElement>
                 </selectionStack>
@@ -246,7 +86,7 @@
                 <folded />
                 <enabledHints />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:ff825a5c-7d67-471c-8044-76c3cc7b519b(org.campagnelab.hta.tables.generator.template.main@generator)/3402264987267873049" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:20059f57-5dbc-44d9-90cc-68a47f43e4d6(org.campagnelab.hta.tables.generationhelpers)/772483346259704661" viewPositionX="0" viewPositionY="-4">
                 <selectionStack />
                 <errorLabels />
                 <folded />
@@ -256,19 +96,27 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Statement" pinned="false" current="false" current-in-tab="false">
-        <entry file="mps://node://org.campagnelab.hta.tables/org.campagnelab.hta.tables.structure/Statement">
+      <file leaf-file-name="map_Script.R" pinned="false" current="true" current-in-tab="true">
+        <entry file="previewTables/map_Script.R">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.14681892" vertical-offset="0" max-vertical-offset="613">
+              <caret line="6" column="35" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main" pinned="false" current="false" current-in-tab="false">
+        <entry file="mps://node://org.campagnelab.hta.tables#3402264987258972825/org.campagnelab.hta.tables.generator.template.main@generator/main">
           <provider selected="true" editor-type-id="MPSFileEditor">
-            <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
+            <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
               <memento viewPositionX="0" viewPositionY="0">
                 <selectionStack>
-                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                    <property name="hasNonTrivialSelection" value="false" />
-                    <property name="caretXRelative" value="4" />
-                    <property name="caretX" value="166" />
+                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellSelection">
+                    <property name="caretXRelative" value="-31" />
+                    <property name="caretX" value="0" />
                     <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="TransactionalProperty_ueqr71_d0a" cellNumber="0" isInList="false">
-                      <node node_reference="r:9f2bbfbf-f8b7-4b3b-92b1-b6a0e9642c10(org.campagnelab.hta.tables.structure)/3402264987261520275" />
+                    <cellInfo cellId="Collection_c84kqv_a" cellNumber="0" isInList="false">
+                      <node node_reference="r:ff825a5c-7d67-471c-8044-76c3cc7b519b(org.campagnelab.hta.tables.generator.template.main@generator)/3402264987267356681" />
                     </cellInfo>
                   </stackElement>
                 </selectionStack>
@@ -276,13 +124,43 @@
                 <folded />
                 <enabledHints />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:ff825a5c-7d67-471c-8044-76c3cc7b519b(org.campagnelab.hta.tables.generator.template.main@generator)/3402264987267873049" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:20059f57-5dbc-44d9-90cc-68a47f43e4d6(org.campagnelab.hta.tables.generationhelpers)/772483346259704661" viewPositionX="0" viewPositionY="-4">
                 <selectionStack />
                 <errorLabels />
                 <folded />
                 <enabledHints />
               </inspectorMemento>
-              <node node_ref="r:9f2bbfbf-f8b7-4b3b-92b1-b6a0e9642c10(org.campagnelab.hta.tables.structure)/3402264987261520275" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ImportTable" pinned="false" current="false" current-in-tab="false">
+        <entry file="mps://node://org.campagnelab.hta.tables/org.campagnelab.hta.tables.structure/ImportTable">
+          <provider selected="true" editor-type-id="MPSFileEditor">
+            <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
+              <memento viewPositionX="0" viewPositionY="0">
+                <selectionStack>
+                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                    <property name="hasNonTrivialSelection" value="false" />
+                    <property name="caretXRelative" value="4" />
+                    <property name="caretX" value="87" />
+                    <property name="sideSelectDirection" value="NONE" />
+                    <cellInfo cellId="property_name" cellNumber="0" isInList="false">
+                      <node node_reference="r:ff825a5c-7d67-471c-8044-76c3cc7b519b(org.campagnelab.hta.tables.generator.template.main@generator)/3402264987267530161" />
+                    </cellInfo>
+                  </stackElement>
+                </selectionStack>
+                <errorLabels />
+                <folded />
+                <enabledHints />
+              </memento>
+              <inspectorMemento currentlyEditedNode="r:20059f57-5dbc-44d9-90cc-68a47f43e4d6(org.campagnelab.hta.tables.generationhelpers)/772483346259704661" viewPositionX="0" viewPositionY="-4">
+                <selectionStack />
+                <errorLabels />
+                <folded />
+                <enabledHints />
+              </inspectorMemento>
+              <node node_ref="r:ff825a5c-7d67-471c-8044-76c3cc7b519b(org.campagnelab.hta.tables.generator.template.main@generator)/3402264987267530161" />
             </state>
           </provider>
         </entry>
@@ -296,7 +174,7 @@
                   <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                     <property name="hasNonTrivialSelection" value="false" />
                     <property name="caretXRelative" value="4" />
-                    <property name="caretX" value="95" />
+                    <property name="caretX" value="87" />
                     <property name="sideSelectDirection" value="NONE" />
                     <cellInfo cellId="property_name" cellNumber="0" isInList="false">
                       <node node_reference="r:ff825a5c-7d67-471c-8044-76c3cc7b519b(org.campagnelab.hta.tables.generator.template.main@generator)/3402264987267540419" />
@@ -307,7 +185,7 @@
                 <folded />
                 <enabledHints />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:ff825a5c-7d67-471c-8044-76c3cc7b519b(org.campagnelab.hta.tables.generator.template.main@generator)/3402264987267873049" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:20059f57-5dbc-44d9-90cc-68a47f43e4d6(org.campagnelab.hta.tables.generationhelpers)/772483346259704661" viewPositionX="0" viewPositionY="-4">
                 <selectionStack />
                 <errorLabels />
                 <folded />
@@ -318,19 +196,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TableTransformation" pinned="false" current="false" current-in-tab="false">
-        <entry file="mps://node://org.campagnelab.hta.tables/org.campagnelab.hta.tables.structure/TableTransformation">
+      <file leaf-file-name="MyJoinTest" pinned="false" current="false" current-in-tab="false">
+        <entry file="mps://node://Playground/Tables/MyJoinTest">
           <provider selected="true" editor-type-id="MPSFileEditor">
-            <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
+            <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
               <memento viewPositionX="0" viewPositionY="0">
                 <selectionStack>
                   <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                    <property name="hasNonTrivialSelection" value="false" />
-                    <property name="caretXRelative" value="4" />
-                    <property name="caretX" value="166" />
+                    <property name="selectionEnd" value="12" />
+                    <property name="hasNonTrivialSelection" value="true" />
+                    <property name="caretXRelative" value="96" />
+                    <property name="selectionStart" value="7" />
+                    <property name="caretX" value="127" />
                     <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="TransactionalProperty_ueqr71_d0a" cellNumber="0" isInList="false">
-                      <node node_reference="r:9f2bbfbf-f8b7-4b3b-92b1-b6a0e9642c10(org.campagnelab.hta.tables.structure)/3402264987259164677" />
+                    <cellInfo cellId="Constant_so5ebl_a0" cellNumber="0" isInList="false">
+                      <node node_reference="r:31d75cce-9b4e-45c2-8411-6c65880e7354(Tables)/3402264987262148138" />
                     </cellInfo>
                   </stackElement>
                 </selectionStack>
@@ -338,13 +218,60 @@
                 <folded />
                 <enabledHints />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:ff825a5c-7d67-471c-8044-76c3cc7b519b(org.campagnelab.hta.tables.generator.template.main@generator)/3402264987267873049" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:20059f57-5dbc-44d9-90cc-68a47f43e4d6(org.campagnelab.hta.tables.generationhelpers)/772483346259704661" viewPositionX="0" viewPositionY="-4">
                 <selectionStack />
                 <errorLabels />
                 <folded />
                 <enabledHints />
               </inspectorMemento>
-              <node node_ref="r:9f2bbfbf-f8b7-4b3b-92b1-b6a0e9642c10(org.campagnelab.hta.tables.structure)/3402264987259164677" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="map_Script.R" pinned="false" current="false" current-in-tab="false">
+        <entry file="previewTables/map_Script.R">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
+              <caret line="6" column="38" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="QueriesGenerated.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="previewo.c.h.s.g.template.main@generator/QueriesGenerated.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="435">
+              <caret line="23" column="22" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main" pinned="false" current="false" current-in-tab="false">
+        <entry file="mps://node://org.campagnelab.hta.script#3402264987259813729/org.campagnelab.hta.script.generator.template.main@generator/main">
+          <provider selected="true" editor-type-id="MPSFileEditor">
+            <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+              <memento viewPositionX="0" viewPositionY="0">
+                <selectionStack>
+                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                    <property name="hasNonTrivialSelection" value="false" />
+                    <property name="caretXRelative" value="36" />
+                    <property name="caretX" value="309" />
+                    <property name="sideSelectDirection" value="NONE" />
+                    <cellInfo cellId="templateName" cellNumber="0" isInList="false">
+                      <node node_reference="r:1db035cc-a160-4140-a5a8-5cdb936ac3b7(org.campagnelab.hta.script.generator.template.main@generator)/3402264987267191713" />
+                    </cellInfo>
+                  </stackElement>
+                </selectionStack>
+                <errorLabels />
+                <folded />
+                <enabledHints />
+              </memento>
+              <inspectorMemento currentlyEditedNode="r:20059f57-5dbc-44d9-90cc-68a47f43e4d6(org.campagnelab.hta.tables.generationhelpers)/772483346259704661" viewPositionX="0" viewPositionY="-4">
+                <selectionStack />
+                <errorLabels />
+                <folded />
+                <enabledHints />
+              </inspectorMemento>
             </state>
           </provider>
         </entry>
@@ -376,9 +303,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
-    <option name="width" value="1280" />
-    <option name="height" value="773" />
+    <option name="y" value="22" />
+    <option name="width" value="1920" />
+    <option name="height" value="1054" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -462,30 +389,6 @@
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="Modules Pool">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Empty">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="Modules Pool">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="Languages">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Empty">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
             <PATH_ELEMENT USER_OBJECT="Project">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
@@ -508,15 +411,11 @@
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="org.campagnelab.hta.tables#3402264987258972825">
+            <PATH_ELEMENT USER_OBJECT="accessories">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="org">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="org.campagnelab.hta.tables.generator.template.main">
+            <PATH_ELEMENT USER_OBJECT="org.campagnelab.hta.tables.generationhelpers">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
@@ -527,72 +426,6 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT USER_OBJECT="Project">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="org.campagnelab.hta.tables">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="org.campagnelab.hta.tables.structure">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Empty">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="Project">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="org.campagnelab.hta.script">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Empty">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="Project">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="org.campagnelab.hta.script">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="org.campagnelab.hta.script#3402264987259813729">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="org">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="org.campagnelab.hta.script.generator.template.main">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Empty">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="Project">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="org.campagnelab.hta.script">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="org.campagnelab.hta.script.structure">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
@@ -631,6 +464,7 @@
     <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="FullScreen" value="false" />
   </component>
   <component name="RunManager">
     <list size="0" />
@@ -674,36 +508,42 @@
     <configuration useDefault="false">$USER_HOME$/.subversion_IDEA</configuration>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="773" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="22" width="1920" height="1054" extended-state="6" />
+    <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Usages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Supertypes" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32937685" sideWeight="0.50039715" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Migration" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Model Checker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32937685" sideWeight="0.49960285" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Bookmarks" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Generation Tracer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2494043" sideWeight="0.5" order="-1" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Classpath Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="RefactoringView" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32937685" sideWeight="0.49960285" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspector" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32937685" sideWeight="0.50039715" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Node Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32937685" sideWeight="0.49960285" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Typesystem Trace" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Typechecker State" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Dependencies Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32937685" sideWeight="0.5949166" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Module Dependencies" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Class Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Cell Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Usages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Supertypes" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32937685" sideWeight="0.50039715" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32984293" sideWeight="0.4997367" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Migration" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Model Checker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879582" sideWeight="0.49921012" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Bookmarks" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Generation Tracer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24907847" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Classpath Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="RefactoringView" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32937685" sideWeight="0.49960285" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspector" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879582" sideWeight="0.4570827" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Node Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32889345" sideWeight="0.49960285" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Typesystem Trace" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Typechecker State" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Dependencies Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32879582" sideWeight="0.5429173" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Module Dependencies" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Class Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cell Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="UsagesViewTool">
@@ -731,9 +571,306 @@
     <MESSAGE value="Initial commit of HTA languages. Uses XChart for table TSV support. Mockup of the table transformation language." />
     <MESSAGE value="Fix scope for intersection of column names." />
     <MESSAGE value="Add column groups as an annotation on the XChart column, and support defining joins by group of columns. When a user defines an ID column group for each table, it becomes very convenient to join by ID." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add column groups as an annotation on the XChart column, and support defining joins by group of columns. When a user defines an ID column group for each table, it becomes very convenient to join by ID." />
+    <MESSAGE value="Fix generation to R code. Now requires TextOutput 1.0.2 (not yet released publicly)." />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix generation to R code. Now requires TextOutput 1.0.2 (not yet released publicly)." />
   </component>
   <component name="editorHistoryManager">
+    <entry file="mps://node://org.campagnelab.hta.script/org.campagnelab.hta.script.structure/Script">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </memento>
+          <inspectorMemento viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </inspectorMemento>
+          <node node_ref="r:1db035cc-a160-4140-a5a8-5cdb936ac3b7(org.campagnelab.hta.script.generator.template.main@generator)/3402264987267195010" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://org.campagnelab.hta.tables/org.campagnelab.hta.tables.generationhelpers/NameHelper">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </memento>
+          <inspectorMemento viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://org.campagnelab.hta.tables/org.campagnelab.hta.tables.structure/ImportTable">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:31d75cce-9b4e-45c2-8411-6c65880e7354(Tables)/3402264987262148138" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </inspectorMemento>
+          <node node_ref="r:ff825a5c-7d67-471c-8044-76c3cc7b519b(org.campagnelab.hta.tables.generator.template.main@generator)/3402264987267530161" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://org.campagnelab.hta.tables/org.campagnelab.hta.tables.structure/JoinTables">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:31d75cce-9b4e-45c2-8411-6c65880e7354(Tables)/3402264987262148138" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </inspectorMemento>
+          <node node_ref="r:ff825a5c-7d67-471c-8044-76c3cc7b519b(org.campagnelab.hta.tables.generator.template.main@generator)/3402264987267540419" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://Playground/Tables/MyJoinTest">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:31d75cce-9b4e-45c2-8411-6c65880e7354(Tables)/3402264987262148138" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://org.campagnelab.hta.script#3402264987259813729/org.campagnelab.hta.script.generator.template.main@generator/main">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:31d75cce-9b4e-45c2-8411-6c65880e7354(Tables)/3402264987262148138" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://org.campagnelab.hta.script/org.campagnelab.hta.script.structure/Script">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </memento>
+          <inspectorMemento viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </inspectorMemento>
+          <node node_ref="r:1db035cc-a160-4140-a5a8-5cdb936ac3b7(org.campagnelab.hta.script.generator.template.main@generator)/3402264987267195010" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://org.campagnelab.hta.tables/org.campagnelab.hta.tables.generationhelpers/NameHelper">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </memento>
+          <inspectorMemento viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://org.campagnelab.hta.tables/org.campagnelab.hta.tables.structure/ImportTable">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:31d75cce-9b4e-45c2-8411-6c65880e7354(Tables)/3402264987262148138" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </inspectorMemento>
+          <node node_ref="r:ff825a5c-7d67-471c-8044-76c3cc7b519b(org.campagnelab.hta.tables.generator.template.main@generator)/3402264987267530161" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://org.campagnelab.hta.tables/org.campagnelab.hta.tables.structure/JoinTables">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:31d75cce-9b4e-45c2-8411-6c65880e7354(Tables)/3402264987262148138" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </inspectorMemento>
+          <node node_ref="r:ff825a5c-7d67-471c-8044-76c3cc7b519b(org.campagnelab.hta.tables.generator.template.main@generator)/3402264987267540419" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://Playground/Tables/MyJoinTest">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:31d75cce-9b4e-45c2-8411-6c65880e7354(Tables)/3402264987262148138" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://org.campagnelab.hta.script/org.campagnelab.hta.script.structure/Script">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:ff825a5c-7d67-471c-8044-76c3cc7b519b(org.campagnelab.hta.tables.generator.template.main@generator)/3402264987267800931" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </inspectorMemento>
+          <node node_ref="r:1db035cc-a160-4140-a5a8-5cdb936ac3b7(org.campagnelab.hta.script.generator.template.main@generator)/3402264987267195010" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://org.campagnelab.hta.script#3402264987259813729/org.campagnelab.hta.script.generator.template.main@generator/main">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:ff825a5c-7d67-471c-8044-76c3cc7b519b(org.campagnelab.hta.tables.generator.template.main@generator)/3402264987267800931" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://Playground/Tables/MyJoinTest">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:ff825a5c-7d67-471c-8044-76c3cc7b519b(org.campagnelab.hta.tables.generator.template.main@generator)/3402264987267873049" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://org.campagnelab.hta.script/org.campagnelab.hta.script.structure/Script">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:ff825a5c-7d67-471c-8044-76c3cc7b519b(org.campagnelab.hta.tables.generator.template.main@generator)/3402264987267873049" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </inspectorMemento>
+          <node node_ref="r:1db035cc-a160-4140-a5a8-5cdb936ac3b7(org.campagnelab.hta.script.generator.template.main@generator)/3402264987267195010" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://org.campagnelab.hta.script#3402264987259813729/org.campagnelab.hta.script.generator.template.main@generator/main">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:ff825a5c-7d67-471c-8044-76c3cc7b519b(org.campagnelab.hta.tables.generator.template.main@generator)/3402264987267873049" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
     <entry file="mps://node://org.campagnelab.hta.script/org.campagnelab.hta.script.structure/EmptyLine">
       <provider selected="true" editor-type-id="MPSFileEditor">
         <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
@@ -879,346 +1016,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="mps://node://org.campagnelab.hta.tables/org.campagnelab.hta.tables.structure/ColumnRef">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
-          <memento viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretXRelative" value="40" />
-                <property name="caretX" value="221" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
-                  <node node_reference="r:c14853f5-5f2e-4acc-825a-4fec67caca67(org.campagnelab.hta.tables.editor)/3402264987263400686" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:c14853f5-5f2e-4acc-825a-4fec67caca67(org.campagnelab.hta.tables.editor)/3402264987265442711" viewPositionX="0" viewPositionY="-6">
-            <selectionStack />
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </inspectorMemento>
-          <node node_ref="r:c14853f5-5f2e-4acc-825a-4fec67caca67(org.campagnelab.hta.tables.editor)/3402264987263400621" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://org.campagnelab.mps.XChart/org.campagnelab.mps.XChart.structure/DataFile">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
-          <memento viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretXRelative" value="76" />
-                <property name="caretX" value="239" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
-                  <node node_reference="r:fbd71c0b-f517-4268-8dd6-be04c874a752(org.campagnelab.mps.XChart.behavior)/3597430320022539914" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:989540b8-cc89-4ed5-ba78-cf2ce766b8ce(org.campagnelab.mps.XChart.structure)/2202909375770430354" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </inspectorMemento>
-          <node node_ref="r:fbd71c0b-f517-4268-8dd6-be04c874a752(org.campagnelab.mps.XChart.behavior)/3597430320022539914" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/languages/org.campagnelab.hta.tables/source_gen/org/campagnelab/hta/tables/behavior/TableTransformation_Behavior.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="692" max-vertical-offset="1080">
           <caret line="52" column="13" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://org.campagnelab.hta.tables/org.campagnelab.hta.tables.editor/FutureTableInspectorComponent">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-          <memento viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretXRelative" value="22" />
-                <property name="caretX" value="629" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="ReadOnlyModelAccessor_abi8e8_a" cellNumber="0" isInList="false">
-                  <node node_reference="r:c14853f5-5f2e-4acc-825a-4fec67caca67(org.campagnelab.hta.tables.editor)/3402264987265493726" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:c14853f5-5f2e-4acc-825a-4fec67caca67(org.campagnelab.hta.tables.editor)/3402264987265516927" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </inspectorMemento>
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://org.campagnelab.mps.XChart/org.campagnelab.mps.XChart.structure/Tsvfile">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
-          <memento viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretXRelative" value="67" />
-                <property name="caretX" value="318" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
-                  <node node_reference="r:989540b8-cc89-4ed5-ba78-cf2ce766b8ce(org.campagnelab.mps.XChart.structure)/3597430320022583657" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:31d75cce-9b4e-45c2-8411-6c65880e7354(Tables)/3402264987260065252" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </inspectorMemento>
-          <node node_ref="r:989540b8-cc89-4ed5-ba78-cf2ce766b8ce(org.campagnelab.mps.XChart.structure)/3597430320022583657" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://org.campagnelab.mps.XChart/org.campagnelab.mps.XChart.structure/DelimitedFile">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
-          <memento viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretXRelative" value="49" />
-                <property name="caretX" value="354" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
-                  <node node_reference="r:989540b8-cc89-4ed5-ba78-cf2ce766b8ce(org.campagnelab.mps.XChart.structure)/2202909375770430354" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:9f2bbfbf-f8b7-4b3b-92b1-b6a0e9642c10(org.campagnelab.hta.tables.structure)/3402264987265829804" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </inspectorMemento>
-          <node node_ref="r:989540b8-cc89-4ed5-ba78-cf2ce766b8ce(org.campagnelab.mps.XChart.structure)/2202909375770430354" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://org.campagnelab.mps.XChart/org.campagnelab.mps.XChart.structure/ColumnToDoubles">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
-          <memento viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretXRelative" value="139" />
-                <property name="caretX" value="302" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
-                  <node node_reference="r:fbd71c0b-f517-4268-8dd6-be04c874a752(org.campagnelab.mps.XChart.behavior)/2202909375770436533" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:9f2bbfbf-f8b7-4b3b-92b1-b6a0e9642c10(org.campagnelab.hta.tables.structure)/3402264987265829883" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </inspectorMemento>
-          <node node_ref="r:fbd71c0b-f517-4268-8dd6-be04c874a752(org.campagnelab.mps.XChart.behavior)/2202909375770436533" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://org.campagnelab.mps.XChart/org.campagnelab.mps.XChart.structure/Doubles">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
-          <memento viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:31d75cce-9b4e-45c2-8411-6c65880e7354(Tables)/3402264987260065253" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </inspectorMemento>
-          <node node_ref="r:fbd71c0b-f517-4268-8dd6-be04c874a752(org.campagnelab.mps.XChart.behavior)/2202909375770435121" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://org.campagnelab.hta.tables/org.campagnelab.hta.tables.structure/FutureTableRef">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
-          <memento viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretXRelative" value="4" />
-                <property name="caretX" value="274" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
-                  <node node_reference="r:c14853f5-5f2e-4acc-825a-4fec67caca67(org.campagnelab.hta.tables.editor)/3402264987259816885" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:31d75cce-9b4e-45c2-8411-6c65880e7354(Tables)/3402264987262148138" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </inspectorMemento>
-          <node node_ref="r:c14853f5-5f2e-4acc-825a-4fec67caca67(org.campagnelab.hta.tables.editor)/3402264987259816885" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://org.campagnelab.hta.tables/org.campagnelab.hta.tables.structure/ColumnGroupContainer">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
-          <memento viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretXRelative" value="81" />
-                <property name="caretX" value="292" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="ALIAS_EDITOR_COMPONENT" cellNumber="0" isInList="false">
-                  <node node_reference="r:db1b133e-9a0f-4319-b384-413408eb1729(org.campagnelab.hta.tables.behavior)/3402264987266379554" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:31d75cce-9b4e-45c2-8411-6c65880e7354(Tables)/3402264987266616927" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </inspectorMemento>
-          <node node_ref="r:db1b133e-9a0f-4319-b384-413408eb1729(org.campagnelab.hta.tables.behavior)/3402264987266367785" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://org.campagnelab.hta.tables/org.campagnelab.hta.tables.structure/ColumnGroupReference">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
-          <memento viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretXRelative" value="13" />
-                <property name="caretX" value="249" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="ReadOnlyModelAccessor_mtiojs_a" cellNumber="0" isInList="false">
-                  <node node_reference="r:c14853f5-5f2e-4acc-825a-4fec67caca67(org.campagnelab.hta.tables.editor)/3402264987265829900" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:c14853f5-5f2e-4acc-825a-4fec67caca67(org.campagnelab.hta.tables.editor)/3402264987266019259" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </inspectorMemento>
-          <node node_ref="r:c14853f5-5f2e-4acc-825a-4fec67caca67(org.campagnelab.hta.tables.editor)/3402264987265829897" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://org.campagnelab.mps.XChart/org.campagnelab.mps.XChart.structure/Column">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
-          <memento viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretXRelative" value="31" />
-                <property name="caretX" value="99" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
-                  <node node_reference="r:cfb31b41-ab7a-42c8-913f-b1491325cb39(org.campagnelab.mps.XChart.editor)/3597430320022715475" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:9f2bbfbf-f8b7-4b3b-92b1-b6a0e9642c10(org.campagnelab.hta.tables.structure)/3402264987265829883" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </inspectorMemento>
-          <node node_ref="r:cfb31b41-ab7a-42c8-913f-b1491325cb39(org.campagnelab.mps.XChart.editor)/3597430320022713388" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://org.campagnelab.hta.tables/org.campagnelab.hta.tables.editor/AddGroupsToColumn">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-          <memento viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretXRelative" value="40" />
-                <property name="caretX" value="149" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="property_everyModel" cellNumber="0" isInList="false">
-                  <node node_reference="r:c14853f5-5f2e-4acc-825a-4fec67caca67(org.campagnelab.hta.tables.editor)/3402264987266019259" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:31d75cce-9b4e-45c2-8411-6c65880e7354(Tables)/3402264987266616933" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </inspectorMemento>
         </state>
       </provider>
     </entry>
@@ -1278,34 +1079,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="mps://node://org.campagnelab.hta.tables/org.campagnelab.hta.tables.editor/DeleteColumnGroup">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-          <memento viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretXRelative" value="40" />
-                <property name="caretX" value="715" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="Constant_ttt6c2_a" cellNumber="0" isInList="false">
-                  <node node_reference="r:c14853f5-5f2e-4acc-825a-4fec67caca67(org.campagnelab.hta.tables.editor)/3402264987266463117" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:31d75cce-9b4e-45c2-8411-6c65880e7354(Tables)/3402264987266876309" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </inspectorMemento>
-        </state>
-      </provider>
-    </entry>
     <entry file="mps://node://Playground/Tables/VVVUNGV_ALTR_vs_OA+OL_PT.tsv">
       <provider selected="true" editor-type-id="MPSFileEditor">
         <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
@@ -1334,18 +1107,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="mps://node://org.campagnelab.hta.tables/org.campagnelab.hta.tables.structure/ColumnGroup">
+    <entry file="mps://node://org.campagnelab.hta.script/org.campagnelab.hta.script.structure/Script">
       <provider selected="true" editor-type-id="MPSFileEditor">
         <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:20059f57-5dbc-44d9-90cc-68a47f43e4d6(org.campagnelab.hta.tables.generationhelpers)/772483346259704661" viewPositionX="0" viewPositionY="-4">
+            <selectionStack />
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </inspectorMemento>
+          <node node_ref="r:1db035cc-a160-4140-a5a8-5cdb936ac3b7(org.campagnelab.hta.script.generator.template.main@generator)/3402264987267195010" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://org.campagnelab.hta.tables/org.campagnelab.hta.tables.generationhelpers/NameHelper">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
           <memento viewPositionX="0" viewPositionY="0">
             <selectionStack>
               <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                 <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretXRelative" value="0" />
-                <property name="caretX" value="15" />
+                <property name="caretXRelative" value="208" />
+                <property name="caretX" value="431" />
                 <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="Constant_ueqr71_c0a" cellNumber="0" isInList="false">
-                  <node node_reference="r:9f2bbfbf-f8b7-4b3b-92b1-b6a0e9642c10(org.campagnelab.hta.tables.structure)/3402264987265829883" />
+                <cellInfo cellId="property_value" cellNumber="0" isInList="false">
+                  <node node_reference="r:20059f57-5dbc-44d9-90cc-68a47f43e4d6(org.campagnelab.hta.tables.generationhelpers)/772483346259704661" />
                 </cellInfo>
               </stackElement>
             </selectionStack>
@@ -1353,167 +1145,12 @@
             <folded />
             <enabledHints />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:1db035cc-a160-4140-a5a8-5cdb936ac3b7(org.campagnelab.hta.script.generator.template.main@generator)/3402264987267191713" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:20059f57-5dbc-44d9-90cc-68a47f43e4d6(org.campagnelab.hta.tables.generationhelpers)/772483346259704661" viewPositionX="0" viewPositionY="-4">
             <selectionStack />
             <errorLabels />
             <folded />
             <enabledHints />
           </inspectorMemento>
-          <node node_ref="r:9f2bbfbf-f8b7-4b3b-92b1-b6a0e9642c10(org.campagnelab.hta.tables.structure)/3402264987265829883" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://org.campagnelab.hta.tables/org.campagnelab.hta.tables.structure/ColumnAnnotation">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
-          <memento viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:31d75cce-9b4e-45c2-8411-6c65880e7354(Tables)/3402264987260291646" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </inspectorMemento>
-          <node node_ref="r:db1b133e-9a0f-4319-b384-413408eb1729(org.campagnelab.hta.tables.behavior)/3402264987266178454" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://org.campagnelab.hta.tables/org.campagnelab.hta.tables.structure/CommonColumnSelection">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
-          <memento viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:a940462e-c3f4-41dd-9094-6d42bca50be8(Tables@0)/3402264987260291646" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </inspectorMemento>
-          <node node_ref="r:c14853f5-5f2e-4acc-825a-4fec67caca67(org.campagnelab.hta.tables.editor)/3402264987267100658" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://org.campagnelab.hta.tables/org.campagnelab.hta.tables.structure/KeySelection">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
-          <memento viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretXRelative" value="13" />
-                <property name="caretX" value="104" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="property_conceptAlias" cellNumber="0" isInList="false">
-                  <node node_reference="r:9f2bbfbf-f8b7-4b3b-92b1-b6a0e9642c10(org.campagnelab.hta.tables.structure)/3402264987262239184" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:370504c6-cd18-45ee-ac23-39d47fc47dcb(Tables@1_0)/3402264987260291646" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </inspectorMemento>
-          <node node_ref="r:9f2bbfbf-f8b7-4b3b-92b1-b6a0e9642c10(org.campagnelab.hta.tables.structure)/3402264987262239184" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://org.campagnelab.hta.tables/org.campagnelab.hta.tables.structure/SelectByGroup">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
-          <memento viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretXRelative" value="63" />
-                <property name="caretX" value="78" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="Constant_ueqr71_c0a" cellNumber="0" isInList="false">
-                  <node node_reference="r:9f2bbfbf-f8b7-4b3b-92b1-b6a0e9642c10(org.campagnelab.hta.tables.structure)/3402264987266660978" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:ff825a5c-7d67-471c-8044-76c3cc7b519b(org.campagnelab.hta.tables.generator.template.main@generator)/3402264987267356687" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </inspectorMemento>
-          <node node_ref="r:9f2bbfbf-f8b7-4b3b-92b1-b6a0e9642c10(org.campagnelab.hta.tables.structure)/3402264987266660978" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://org.campagnelab.hta.tables/org.campagnelab.hta.tables.structure/FutureTable">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
-          <memento viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretXRelative" value="27" />
-                <property name="caretX" value="126" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
-                  <node node_reference="r:9f2bbfbf-f8b7-4b3b-92b1-b6a0e9642c10(org.campagnelab.hta.tables.structure)/3402264987259919103" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:31d75cce-9b4e-45c2-8411-6c65880e7354(Tables)/3402264987262148184" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </inspectorMemento>
-          <node node_ref="r:9f2bbfbf-f8b7-4b3b-92b1-b6a0e9642c10(org.campagnelab.hta.tables.structure)/3402264987259919045" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://org.campagnelab.hta.tables/org.campagnelab.hta.tables.structure/Table">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
-          <memento viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretXRelative" value="31" />
-                <property name="caretX" value="264" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
-                  <node node_reference="r:9f2bbfbf-f8b7-4b3b-92b1-b6a0e9642c10(org.campagnelab.hta.tables.structure)/3402264987258987827" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:9f2bbfbf-f8b7-4b3b-92b1-b6a0e9642c10(org.campagnelab.hta.tables.structure)/3402264987261520275" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </inspectorMemento>
-          <node node_ref="r:9f2bbfbf-f8b7-4b3b-92b1-b6a0e9642c10(org.campagnelab.hta.tables.structure)/3402264987258987827" />
         </state>
       </provider>
     </entry>
@@ -1525,7 +1162,7 @@
               <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                 <property name="hasNonTrivialSelection" value="false" />
                 <property name="caretXRelative" value="4" />
-                <property name="caretX" value="95" />
+                <property name="caretX" value="87" />
                 <property name="sideSelectDirection" value="NONE" />
                 <cellInfo cellId="property_name" cellNumber="0" isInList="false">
                   <node node_reference="r:ff825a5c-7d67-471c-8044-76c3cc7b519b(org.campagnelab.hta.tables.generator.template.main@generator)/3402264987267530161" />
@@ -1536,7 +1173,7 @@
             <folded />
             <enabledHints />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:ff825a5c-7d67-471c-8044-76c3cc7b519b(org.campagnelab.hta.tables.generator.template.main@generator)/3402264987267806062" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:20059f57-5dbc-44d9-90cc-68a47f43e4d6(org.campagnelab.hta.tables.generationhelpers)/772483346259704661" viewPositionX="0" viewPositionY="-4">
             <selectionStack />
             <errorLabels />
             <folded />
@@ -1546,18 +1183,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="mps://node://org.campagnelab.hta.tables#3402264987258972825/org.campagnelab.hta.tables.generator.template.main@generator/reduce_ImportTable">
+    <entry file="mps://node://Playground/Tables/MyJoinTest">
       <provider selected="true" editor-type-id="MPSFileEditor">
         <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
           <memento viewPositionX="0" viewPositionY="0">
             <selectionStack>
               <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretXRelative" value="4" />
-                <property name="caretX" value="69" />
+                <property name="selectionEnd" value="12" />
+                <property name="hasNonTrivialSelection" value="true" />
+                <property name="caretXRelative" value="96" />
+                <property name="selectionStart" value="7" />
+                <property name="caretX" value="127" />
                 <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="Constant_y5igai_a0" cellNumber="0" isInList="false">
-                  <node node_reference="r:ff825a5c-7d67-471c-8044-76c3cc7b519b(org.campagnelab.hta.tables.generator.template.main@generator)/3402264987267372634" />
+                <cellInfo cellId="Constant_so5ebl_a0" cellNumber="0" isInList="false">
+                  <node node_reference="r:31d75cce-9b4e-45c2-8411-6c65880e7354(Tables)/3402264987262148138" />
                 </cellInfo>
               </stackElement>
             </selectionStack>
@@ -1565,41 +1204,12 @@
             <folded />
             <enabledHints />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:31d75cce-9b4e-45c2-8411-6c65880e7354(Tables)/3402264987262148184" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:20059f57-5dbc-44d9-90cc-68a47f43e4d6(org.campagnelab.hta.tables.generationhelpers)/772483346259704661" viewPositionX="0" viewPositionY="-4">
             <selectionStack />
             <errorLabels />
             <folded />
             <enabledHints />
           </inspectorMemento>
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://org.campagnelab.hta.tables/org.campagnelab.hta.tables.structure/Statement">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
-          <memento viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretXRelative" value="4" />
-                <property name="caretX" value="166" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="TransactionalProperty_ueqr71_d0a" cellNumber="0" isInList="false">
-                  <node node_reference="r:9f2bbfbf-f8b7-4b3b-92b1-b6a0e9642c10(org.campagnelab.hta.tables.structure)/3402264987261520275" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:ff825a5c-7d67-471c-8044-76c3cc7b519b(org.campagnelab.hta.tables.generator.template.main@generator)/3402264987267873049" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </inspectorMemento>
-          <node node_ref="r:9f2bbfbf-f8b7-4b3b-92b1-b6a0e9642c10(org.campagnelab.hta.tables.structure)/3402264987261520275" />
         </state>
       </provider>
     </entry>
@@ -1611,7 +1221,7 @@
               <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                 <property name="hasNonTrivialSelection" value="false" />
                 <property name="caretXRelative" value="4" />
-                <property name="caretX" value="95" />
+                <property name="caretX" value="87" />
                 <property name="sideSelectDirection" value="NONE" />
                 <cellInfo cellId="property_name" cellNumber="0" isInList="false">
                   <node node_reference="r:ff825a5c-7d67-471c-8044-76c3cc7b519b(org.campagnelab.hta.tables.generator.template.main@generator)/3402264987267540419" />
@@ -1622,7 +1232,7 @@
             <folded />
             <enabledHints />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:ff825a5c-7d67-471c-8044-76c3cc7b519b(org.campagnelab.hta.tables.generator.template.main@generator)/3402264987267873049" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:20059f57-5dbc-44d9-90cc-68a47f43e4d6(org.campagnelab.hta.tables.generationhelpers)/772483346259704661" viewPositionX="0" viewPositionY="-4">
             <selectionStack />
             <errorLabels />
             <folded />
@@ -1632,186 +1242,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="mps://node://org.campagnelab.hta.tables/org.campagnelab.hta.tables.structure/TableTransformation">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
-          <memento viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretXRelative" value="4" />
-                <property name="caretX" value="166" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="TransactionalProperty_ueqr71_d0a" cellNumber="0" isInList="false">
-                  <node node_reference="r:9f2bbfbf-f8b7-4b3b-92b1-b6a0e9642c10(org.campagnelab.hta.tables.structure)/3402264987259164677" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:ff825a5c-7d67-471c-8044-76c3cc7b519b(org.campagnelab.hta.tables.generator.template.main@generator)/3402264987267873049" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </inspectorMemento>
-          <node node_ref="r:9f2bbfbf-f8b7-4b3b-92b1-b6a0e9642c10(org.campagnelab.hta.tables.structure)/3402264987259164677" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://org.campagnelab.hta.tables#3402264987258972825/org.campagnelab.hta.tables.generator.template.main@generator/main">
+    <entry file="mps://node://org.campagnelab.hta.script#3402264987259813729/org.campagnelab.hta.script.generator.template.main@generator/main">
       <provider selected="true" editor-type-id="MPSFileEditor">
         <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-          <memento viewPositionX="0" viewPositionY="315">
+          <memento viewPositionX="0" viewPositionY="0">
             <selectionStack>
               <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                 <property name="hasNonTrivialSelection" value="false" />
                 <property name="caretXRelative" value="36" />
-                <property name="caretX" value="337" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
-                  <node node_reference="r:ff825a5c-7d67-471c-8044-76c3cc7b519b(org.campagnelab.hta.tables.generator.template.main@generator)/3402264987267809961" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:ff825a5c-7d67-471c-8044-76c3cc7b519b(org.campagnelab.hta.tables.generator.template.main@generator)/3402264987267873049" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </inspectorMemento>
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://org.campagnelab.hta.tables/org.campagnelab.hta.tables.structure/StatementList">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
-          <memento viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretXRelative" value="49" />
-                <property name="caretX" value="102" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="Constant_vmyx7q_a0" cellNumber="0" isInList="false">
-                  <node node_reference="r:ff825a5c-7d67-471c-8044-76c3cc7b519b(org.campagnelab.hta.tables.generator.template.main@generator)/3402264987267873049" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:ff825a5c-7d67-471c-8044-76c3cc7b519b(org.campagnelab.hta.tables.generator.template.main@generator)/3402264987267873049" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </inspectorMemento>
-          <node node_ref="r:ff825a5c-7d67-471c-8044-76c3cc7b519b(org.campagnelab.hta.tables.generator.template.main@generator)/3402264987267800931" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://org.campagnelab.hta.tables#3402264987258972825/org.campagnelab.hta.tables.generator.template.main@generator/reduce_StatementList">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-          <memento viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretXRelative" value="0" />
-                <property name="caretX" value="164" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="property_text" cellNumber="0" isInList="false">
-                  <node node_reference="r:ff825a5c-7d67-471c-8044-76c3cc7b519b(org.campagnelab.hta.tables.generator.template.main@generator)/3402264987267873045" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:ff825a5c-7d67-471c-8044-76c3cc7b519b(org.campagnelab.hta.tables.generator.template.main@generator)/3402264987267873049" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </inspectorMemento>
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://Playground/Tables/MyJoinTest">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-          <memento viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretXRelative" value="9" />
-                <property name="caretX" value="24" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="Constant_u338ov_a0" cellNumber="0" isInList="false">
-                  <node node_reference="r:31d75cce-9b4e-45c2-8411-6c65880e7354(Tables)/3402264987260291647" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:ff825a5c-7d67-471c-8044-76c3cc7b519b(org.campagnelab.hta.tables.generator.template.main@generator)/3402264987267873049" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </inspectorMemento>
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://org.campagnelab.hta.script/org.campagnelab.hta.script.structure/Script">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
-          <memento viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretXRelative" value="63" />
-                <property name="caretX" value="212" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="property_text" cellNumber="0" isInList="false">
-                  <node node_reference="r:1db035cc-a160-4140-a5a8-5cdb936ac3b7(org.campagnelab.hta.script.generator.template.main@generator)/3402264987267201212" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:ff825a5c-7d67-471c-8044-76c3cc7b519b(org.campagnelab.hta.tables.generator.template.main@generator)/3402264987267873049" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </inspectorMemento>
-          <node node_ref="r:1db035cc-a160-4140-a5a8-5cdb936ac3b7(org.campagnelab.hta.script.generator.template.main@generator)/3402264987267195010" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://org.campagnelab.hta.script#3402264987259813729/org.campagnelab.hta.script.generator.template.main@generator/main">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-          <memento viewPositionX="0" viewPositionY="189">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretXRelative" value="31" />
-                <property name="caretX" value="332" />
+                <property name="caretX" value="309" />
                 <property name="sideSelectDirection" value="NONE" />
                 <cellInfo cellId="templateName" cellNumber="0" isInList="false">
                   <node node_reference="r:1db035cc-a160-4140-a5a8-5cdb936ac3b7(org.campagnelab.hta.script.generator.template.main@generator)/3402264987267191713" />
@@ -1822,7 +1261,34 @@
             <folded />
             <enabledHints />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:ff825a5c-7d67-471c-8044-76c3cc7b519b(org.campagnelab.hta.tables.generator.template.main@generator)/3402264987267873049" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:20059f57-5dbc-44d9-90cc-68a47f43e4d6(org.campagnelab.hta.tables.generationhelpers)/772483346259704661" viewPositionX="0" viewPositionY="-4">
+            <selectionStack />
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://org.campagnelab.hta.tables#3402264987258972825/org.campagnelab.hta.tables.generator.template.main@generator/main">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellSelection">
+                <property name="caretXRelative" value="-31" />
+                <property name="caretX" value="0" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="Collection_c84kqv_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:ff825a5c-7d67-471c-8044-76c3cc7b519b(org.campagnelab.hta.tables.generator.template.main@generator)/3402264987267356681" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:20059f57-5dbc-44d9-90cc-68a47f43e4d6(org.campagnelab.hta.tables.generationhelpers)/772483346259704661" viewPositionX="0" viewPositionY="-4">
             <selectionStack />
             <errorLabels />
             <folded />

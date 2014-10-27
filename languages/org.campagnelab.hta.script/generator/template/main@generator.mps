@@ -89,28 +89,43 @@
       </node>
     </node>
     <node role="lineContainer" roleId="p6sl.5039633819243297498" type="p6sl.Lines" typeId="p6sl.5039633819242576787" id="3402264987267195011" nodeInfo="ng">
-      <property name="text" nameId="p6sl.5493669862519718600" value="library(&quot;data.table&quot;)" />
+      <property name="text" nameId="p6sl.5493669862519718600" value="" />
       <node role="phrases" roleId="p6sl.1680136183140337477" type="p6sl.Phrase" typeId="p6sl.1680136183140337486" id="3402264987267195012" nodeInfo="ng">
         <property name="text" nameId="p6sl.1680136183140337487" value="" />
       </node>
-    </node>
-    <node role="lineContainer" roleId="p6sl.5039633819243297498" type="p6sl.Lines" typeId="p6sl.5039633819242576787" id="3402264987267201212" nodeInfo="ng">
-      <property name="text" nameId="p6sl.5493669862519718600" value=" statements go here" />
-      <node role="phrases" roleId="p6sl.1680136183140337477" type="p6sl.Phrase" typeId="p6sl.1680136183140337486" id="3402264987267201213" nodeInfo="ng">
-        <property name="text" nameId="p6sl.1680136183140337487" value="" />
+      <node role="lines" roleId="p6sl.5039633819242576854" type="p6sl.Line" typeId="p6sl.5493669862519709805" id="772483346259555055" nodeInfo="ng">
+        <property name="text" nameId="p6sl.5493669862519718600" value="library(&quot;data.table&quot;)" />
       </node>
-      <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpf8.CopySrcNodeMacro" typeId="tpf8.1114706874351" id="3402264987267201977" nodeInfo="nn">
-        <node role="sourceNodeQuery" roleId="tpf8.1168024447342" type="tpf8.SourceSubstituteMacro_SourceNodeQuery" typeId="tpf8.1168024337012" id="3402264987267201978" nodeInfo="nn">
-          <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="3402264987267201979" nodeInfo="sn">
-            <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="3402264987267201985" nodeInfo="nn">
-              <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="3402264987267201980" nodeInfo="nn">
-                <node role="operation" roleId="tpee.1197027833540" type="tp25.SLinkAccess" typeId="tp25.1138056143562" id="3402264987267201983" nodeInfo="nn">
-                  <link role="link" roleId="tp25.1138056516764" targetNodeId="5ryu.3402264987260070768" />
+    </node>
+    <node role="lineContainer" roleId="p6sl.5039633819243297498" type="p6sl.Lines" typeId="p6sl.5039633819242576787" id="772483346259557715" nodeInfo="ng">
+      <property name="text" nameId="p6sl.5493669862519718600" value="" />
+      <node role="lines" roleId="p6sl.5039633819242576854" type="p6sl.Line" typeId="p6sl.5493669862519709805" id="772483346259557716" nodeInfo="ng">
+        <property name="text" nameId="p6sl.5493669862519718600" value="" />
+        <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpf8.CopySrcNodeMacro" typeId="tpf8.1114706874351" id="772483346259559061" nodeInfo="nn">
+          <node role="sourceNodeQuery" roleId="tpf8.1168024447342" type="tpf8.SourceSubstituteMacro_SourceNodeQuery" typeId="tpf8.1168024337012" id="772483346259559062" nodeInfo="nn">
+            <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="772483346259583757" nodeInfo="sn">
+              <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="772483346259585993" nodeInfo="nn">
+                <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="772483346259583758" nodeInfo="nn">
+                  <node role="operation" roleId="tpee.1197027833540" type="tp25.SLinkAccess" typeId="tp25.1138056143562" id="772483346259583761" nodeInfo="nn">
+                    <link role="link" roleId="tp25.1138056516764" targetNodeId="5ryu.3402264987260070768" />
+                  </node>
+                  <node role="operand" roleId="tpee.1197027771414" type="tpf8.TemplateFunctionParameter_sourceNode" typeId="tpf8.1167169188348" id="772483346259585992" nodeInfo="nn" />
                 </node>
-                <node role="operand" roleId="tpee.1197027771414" type="tpf8.TemplateFunctionParameter_sourceNode" typeId="tpf8.1167169188348" id="3402264987267201984" nodeInfo="nn" />
               </node>
             </node>
           </node>
+        </node>
+        <node role="phrases" roleId="p6sl.1680136183140337477" type="p6sl.Phrase" typeId="p6sl.1680136183140337486" id="772483346259586230" nodeInfo="ng">
+          <property name="text" nameId="p6sl.1680136183140337487" value="STATEMENTS GO HERE" />
+        </node>
+      </node>
+      <node role="phrases" roleId="p6sl.1680136183140337477" type="p6sl.Phrase" typeId="p6sl.1680136183140337486" id="772483346259557851" nodeInfo="ng">
+        <property name="text" nameId="p6sl.1680136183140337487" value="" />
+      </node>
+      <node role="lines" roleId="p6sl.5039633819242576854" type="p6sl.Line" typeId="p6sl.5493669862519709805" id="772483346259557853" nodeInfo="ng">
+        <property name="text" nameId="p6sl.5493669862519718600" value="" />
+        <node role="phrases" roleId="p6sl.1680136183140337477" type="p6sl.Phrase" typeId="p6sl.1680136183140337486" id="772483346259557854" nodeInfo="ng">
+          <property name="text" nameId="p6sl.1680136183140337487" value="" />
         </node>
       </node>
     </node>

@@ -9,6 +9,7 @@
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ListSequence" />
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations" />
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations" />
+    <classNode dependClassName="org.campagnelab.hta.tables.generationhelpers.NameHelper" />
     <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
   </dependency>
 </dependenciesRoot>
