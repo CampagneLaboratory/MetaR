@@ -8,7 +8,13 @@ import org.campagnelab.hta.tables.generationhelpers.NameHelper;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
+import jetbrains.mps.internal.collections.runtime.IterableUtils;
+import jetbrains.mps.internal.collections.runtime.IWhereFilter;
 import org.jetbrains.mps.openapi.model.SNode;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.AttributeOperations;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.IAttributeDescriptor;
+import jetbrains.mps.internal.collections.runtime.ISelector;
+import jetbrains.mps.generator.template.IfMacroContext;
 import jetbrains.mps.generator.template.SourceSubstituteMacroNodesContext;
 
 @Generated
@@ -33,6 +39,54 @@ public class QueriesGenerated {
 
   public static Object propertyMacro_GetPropertyValue_3402264987267619503(final PropertyMacroContext _context) {
     return NameHelper.RName(SPropertyOperations.getString(SLinkOperations.getTarget(SLinkOperations.getTarget(ListSequence.fromList(SLinkOperations.getTargets(_context.getNode(), "inputTables", true)).last(), "table", false), "table", false), "name"));
+  }
+
+  public static Object propertyMacro_GetPropertyValue_8459500803717501074(final PropertyMacroContext _context) {
+    return NameHelper.RName(SPropertyOperations.getString(SLinkOperations.getTarget(_context.getNode(), "future", true), "name"));
+  }
+
+  public static Object propertyMacro_GetPropertyValue_8459500803717509382(final PropertyMacroContext _context) {
+    return SPropertyOperations.getString(SLinkOperations.getTarget(_context.getNode(), "table", false), "path");
+  }
+
+  public static Object propertyMacro_GetPropertyValue_8459500803717528539(final PropertyMacroContext _context) {
+    return NameHelper.RName(SPropertyOperations.getString(SLinkOperations.getTarget(_context.getNode(), "future", true), "name"));
+  }
+
+  public static Object propertyMacro_GetPropertyValue_8459500803717530121(final PropertyMacroContext _context) {
+    return IterableUtils.join(ListSequence.fromList(SLinkOperations.getTargets(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "future", true), "table", false), "columns", true)).where(new IWhereFilter<SNode>() {
+      public boolean accept(SNode it) {
+        return (AttributeOperations.getAttribute(it, new IAttributeDescriptor.NodeAttribute("org.campagnelab.hta.tables.structure.ColumnAnnotation")) != null) && ListSequence.fromList(SLinkOperations.getTargets(AttributeOperations.getAttribute(it, new IAttributeDescriptor.NodeAttribute("org.campagnelab.hta.tables.structure.ColumnAnnotation")), "groups", true)).where(new IWhereFilter<SNode>() {
+          public boolean accept(SNode it) {
+            return (SLinkOperations.getTarget(it, "columnGroup", false) != null);
+          }
+        }).select(new ISelector<SNode, SNode>() {
+          public SNode select(SNode it) {
+            return SLinkOperations.getTarget(it, "columnGroup", false);
+          }
+        }).any(new IWhereFilter<SNode>() {
+          public boolean accept(SNode it) {
+            return "ID".equals(SPropertyOperations.getString(it, "name"));
+          }
+        });
+      }
+    }).select(new ISelector<SNode, String>() {
+      public String select(SNode it) {
+        return SPropertyOperations.getString(it, "name");
+      }
+    }), ",");
+  }
+
+  public static boolean ifMacro_Condition_8459500803717791795(final IfMacroContext _context) {
+    return ListSequence.fromList(SLinkOperations.getTargets(SLinkOperations.getTarget(_context.getNode(), "table", false), "columns", true)).any(new IWhereFilter<SNode>() {
+      public boolean accept(SNode column) {
+        return ListSequence.fromList(SLinkOperations.getTargets(AttributeOperations.getAttribute(column, new IAttributeDescriptor.NodeAttribute("org.campagnelab.hta.tables.structure.ColumnAnnotation")), "groups", true)).any(new IWhereFilter<SNode>() {
+          public boolean accept(SNode group) {
+            return "ID".equals(SPropertyOperations.getString(SLinkOperations.getTarget(group, "columnGroup", false), "name"));
+          }
+        });
+      }
+    });
   }
 
   public static Iterable<SNode> sourceNodesQuery_3402264987267873052(final SourceSubstituteMacroNodesContext _context) {
