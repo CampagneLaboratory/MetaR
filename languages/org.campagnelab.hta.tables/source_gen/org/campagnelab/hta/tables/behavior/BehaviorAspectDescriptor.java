@@ -42,10 +42,12 @@ public class BehaviorAspectDescriptor implements jetbrains.mps.smodel.runtime.Be
         return new Heatmap_BehaviorDescriptor();
       case 11:
         return new Plot_BehaviorDescriptor();
+      case 15:
+        return new UsageType_BehaviorDescriptor();
       default:
         return BehaviorAspectInterpreted.getInstance().getDescriptor(fqName);
     }
   }
 
-  private static String[] stringSwitchCases_846f5o_a0a0b = new String[]{"org.campagnelab.hta.tables.structure.ColumnAnnotation", "org.campagnelab.hta.tables.structure.ColumnGroup", "org.campagnelab.hta.tables.structure.ColumnGroupContainer", "org.campagnelab.hta.tables.structure.ColumnGroupReference", "org.campagnelab.hta.tables.structure.ColumnRef", "org.campagnelab.hta.tables.structure.CommonColumnSelection", "org.campagnelab.hta.tables.structure.FutureTable", "org.campagnelab.hta.tables.structure.FutureTableRef", "org.campagnelab.hta.tables.structure.Heatmap", "org.campagnelab.hta.tables.structure.ImportTable", "org.campagnelab.hta.tables.structure.JoinTables", "org.campagnelab.hta.tables.structure.Plot", "org.campagnelab.hta.tables.structure.SelectByGroup", "org.campagnelab.hta.tables.structure.StatementList", "org.campagnelab.hta.tables.structure.Table"};
+  private static String[] stringSwitchCases_846f5o_a0a0b = new String[]{"org.campagnelab.hta.tables.structure.ColumnAnnotation", "org.campagnelab.hta.tables.structure.ColumnGroup", "org.campagnelab.hta.tables.structure.ColumnGroupContainer", "org.campagnelab.hta.tables.structure.ColumnGroupReference", "org.campagnelab.hta.tables.structure.ColumnRef", "org.campagnelab.hta.tables.structure.CommonColumnSelection", "org.campagnelab.hta.tables.structure.FutureTable", "org.campagnelab.hta.tables.structure.FutureTableRef", "org.campagnelab.hta.tables.structure.Heatmap", "org.campagnelab.hta.tables.structure.ImportTable", "org.campagnelab.hta.tables.structure.JoinTables", "org.campagnelab.hta.tables.structure.Plot", "org.campagnelab.hta.tables.structure.SelectByGroup", "org.campagnelab.hta.tables.structure.StatementList", "org.campagnelab.hta.tables.structure.Table", "org.campagnelab.hta.tables.structure.UsageType"};
 }

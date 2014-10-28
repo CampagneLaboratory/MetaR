@@ -4,7 +4,7 @@ package org.campagnelab.hta.tables.behavior;
 
 import jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor;
 
-public abstract class KeySelection_BehaviorDescriptor extends BaseConcept_BehaviorDescriptor {
+public abstract class KeySelection_BehaviorDescriptor extends BaseConcept_BehaviorDescriptor implements IColumnNames_BehaviorDescriptor {
   public KeySelection_BehaviorDescriptor() {
   }
 
