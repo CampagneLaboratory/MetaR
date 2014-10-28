@@ -30,16 +30,20 @@ public class EditorAspectDescriptorImpl implements EditorAspectDescriptor {
       case 6:
         return Collections.<ConceptEditor>singletonList(new FutureTableRef_Editor());
       case 7:
-        return Collections.<ConceptEditor>singletonList(new ImportTable_Editor());
+        return Collections.<ConceptEditor>singletonList(new Heatmap_Editor());
       case 8:
-        return Collections.<ConceptEditor>singletonList(new JoinTables_Editor());
+        return Collections.<ConceptEditor>singletonList(new ImportTable_Editor());
       case 9:
-        return Collections.<ConceptEditor>singletonList(new SelectByGroup_Editor());
+        return Collections.<ConceptEditor>singletonList(new JoinTables_Editor());
       case 10:
-        return Collections.<ConceptEditor>singletonList(new StatementList_Editor());
+        return Collections.<ConceptEditor>singletonList(new Plot_Editor());
       case 11:
-        return Collections.<ConceptEditor>singletonList(new Table_Editor());
+        return Collections.<ConceptEditor>singletonList(new SelectByGroup_Editor());
       case 12:
+        return Collections.<ConceptEditor>singletonList(new StatementList_Editor());
+      case 13:
+        return Collections.<ConceptEditor>singletonList(new Table_Editor());
+      case 14:
         return Collections.<ConceptEditor>singletonList(new TableTransformation_Editor());
       default:
     }
@@ -60,6 +64,6 @@ public class EditorAspectDescriptorImpl implements EditorAspectDescriptor {
 
 
 
-  private static String[] stringSwitchCases_xbvbvu_a0a0b = new String[]{"org.campagnelab.hta.tables.structure.ColumnAnnotation", "org.campagnelab.hta.tables.structure.ColumnGroup", "org.campagnelab.hta.tables.structure.ColumnGroupReference", "org.campagnelab.hta.tables.structure.ColumnRef", "org.campagnelab.hta.tables.structure.CommonColumnSelection", "org.campagnelab.hta.tables.structure.FutureTable", "org.campagnelab.hta.tables.structure.FutureTableRef", "org.campagnelab.hta.tables.structure.ImportTable", "org.campagnelab.hta.tables.structure.JoinTables", "org.campagnelab.hta.tables.structure.SelectByGroup", "org.campagnelab.hta.tables.structure.StatementList", "org.campagnelab.hta.tables.structure.Table", "org.campagnelab.hta.tables.structure.TableTransformation"};
+  private static String[] stringSwitchCases_xbvbvu_a0a0b = new String[]{"org.campagnelab.hta.tables.structure.ColumnAnnotation", "org.campagnelab.hta.tables.structure.ColumnGroup", "org.campagnelab.hta.tables.structure.ColumnGroupReference", "org.campagnelab.hta.tables.structure.ColumnRef", "org.campagnelab.hta.tables.structure.CommonColumnSelection", "org.campagnelab.hta.tables.structure.FutureTable", "org.campagnelab.hta.tables.structure.FutureTableRef", "org.campagnelab.hta.tables.structure.Heatmap", "org.campagnelab.hta.tables.structure.ImportTable", "org.campagnelab.hta.tables.structure.JoinTables", "org.campagnelab.hta.tables.structure.Plot", "org.campagnelab.hta.tables.structure.SelectByGroup", "org.campagnelab.hta.tables.structure.StatementList", "org.campagnelab.hta.tables.structure.Table", "org.campagnelab.hta.tables.structure.TableTransformation"};
   private static String[] stringSwitchCases_xbvbvu_a0a0c = new String[]{"org.campagnelab.hta.tables.structure.FutureTable"};
 }
