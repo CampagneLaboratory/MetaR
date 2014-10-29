@@ -1482,22 +1482,19 @@
           <property name="text" nameId="p6sl.5493669862519718600" value="         clustering_method=&quot;complete&quot;,members = NULL," />
         </node>
         <node role="lines" roleId="p6sl.5039633819242576854" type="p6sl.Line" typeId="p6sl.5493669862519709805" id="8016431400518052262" nodeInfo="ng">
-          <property name="text" nameId="p6sl.5493669862519718600" value="         kmeans_k = NA,breaks = NA, fontsize=9," />
+          <property name="text" nameId="p6sl.5493669862519718600" value="         kmeans_k = NA,breaks = NA, fontsize=6," />
         </node>
         <node role="lines" roleId="p6sl.5039633819242576854" type="p6sl.Line" typeId="p6sl.5493669862519709805" id="8016431400518052263" nodeInfo="ng">
           <property name="text" nameId="p6sl.5493669862519718600" value="         show_colnames=T," />
-        </node>
-        <node role="lines" roleId="p6sl.5039633819242576854" type="p6sl.Line" typeId="p6sl.5493669862519709805" id="8016431400518052264" nodeInfo="ng">
-          <property name="text" nameId="p6sl.5493669862519718600" value="         legend_breaks = -5:10," />
         </node>
         <node role="lines" roleId="p6sl.5039633819242576854" type="p6sl.Line" typeId="p6sl.5493669862519709805" id="8016431400518052265" nodeInfo="ng">
           <property name="text" nameId="p6sl.5493669862519718600" value="         annotation=legend," />
         </node>
         <node role="lines" roleId="p6sl.5039633819242576854" type="p6sl.Line" typeId="p6sl.5493669862519709805" id="8016431400518052266" nodeInfo="ng">
-          <property name="text" nameId="p6sl.5493669862519718600" value="         cellwidth = 18, cellheight = 12, fontsize_row=12, scale = &quot;none&quot;," />
+          <property name="text" nameId="p6sl.5493669862519718600" value="         cellwidth = 8, cellheight = 6, fontsize_row=6, scale = &quot;none&quot;," />
         </node>
         <node role="lines" roleId="p6sl.5039633819242576854" type="p6sl.Line" typeId="p6sl.5493669862519709805" id="8016431400518052267" nodeInfo="ng">
-          <property name="text" nameId="p6sl.5493669862519718600" value="         Legend=F" />
+          <property name="text" nameId="p6sl.5493669862519718600" value="         Legend=TRUE" />
         </node>
         <node role="lines" roleId="p6sl.5039633819242576854" type="p6sl.Line" typeId="p6sl.5493669862519709805" id="8016431400518052268" nodeInfo="ng">
           <property name="text" nameId="p6sl.5493669862519718600" value=")" />
