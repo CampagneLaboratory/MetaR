@@ -12,17 +12,17 @@ public class BehaviorAspectDescriptor implements jetbrains.mps.smodel.runtime.Be
 
   public BehaviorDescriptor getDescriptor(String fqName) {
     switch (Arrays.binarySearch(stringSwitchCases_846f5o_a0a0b, fqName)) {
-      case 14:
+      case 19:
         return new Table_BehaviorDescriptor();
-      case 10:
-        return new JoinTables_BehaviorDescriptor();
-      case 7:
-        return new FutureTableRef_BehaviorDescriptor();
-      case 6:
-        return new FutureTable_BehaviorDescriptor();
       case 13:
-        return new StatementList_BehaviorDescriptor();
+        return new JoinTables_BehaviorDescriptor();
       case 9:
+        return new FutureTableRef_BehaviorDescriptor();
+      case 8:
+        return new FutureTable_BehaviorDescriptor();
+      case 17:
+        return new StatementList_BehaviorDescriptor();
+      case 12:
         return new ImportTable_BehaviorDescriptor();
       case 4:
         return new ColumnRef_BehaviorDescriptor();
@@ -36,18 +36,28 @@ public class BehaviorAspectDescriptor implements jetbrains.mps.smodel.runtime.Be
         return new ColumnGroupContainer_BehaviorDescriptor();
       case 3:
         return new ColumnGroupReference_BehaviorDescriptor();
-      case 12:
-        return new SelectByGroup_BehaviorDescriptor();
-      case 8:
-        return new Heatmap_BehaviorDescriptor();
-      case 11:
-        return new Plot_BehaviorDescriptor();
       case 15:
+        return new SelectByGroup_BehaviorDescriptor();
+      case 10:
+        return new Heatmap_BehaviorDescriptor();
+      case 14:
+        return new Plot_BehaviorDescriptor();
+      case 20:
         return new UsageType_BehaviorDescriptor();
+      case 18:
+        return new SubSetTableRows_BehaviorDescriptor();
+      case 7:
+        return new FilterWithIDList_BehaviorDescriptor();
+      case 16:
+        return new SetOfIds_BehaviorDescriptor();
+      case 11:
+        return new ID_BehaviorDescriptor();
+      case 6:
+        return new Define_BehaviorDescriptor();
       default:
         return BehaviorAspectInterpreted.getInstance().getDescriptor(fqName);
     }
   }
 
-  private static String[] stringSwitchCases_846f5o_a0a0b = new String[]{"org.campagnelab.hta.tables.structure.ColumnAnnotation", "org.campagnelab.hta.tables.structure.ColumnGroup", "org.campagnelab.hta.tables.structure.ColumnGroupContainer", "org.campagnelab.hta.tables.structure.ColumnGroupReference", "org.campagnelab.hta.tables.structure.ColumnRef", "org.campagnelab.hta.tables.structure.CommonColumnSelection", "org.campagnelab.hta.tables.structure.FutureTable", "org.campagnelab.hta.tables.structure.FutureTableRef", "org.campagnelab.hta.tables.structure.Heatmap", "org.campagnelab.hta.tables.structure.ImportTable", "org.campagnelab.hta.tables.structure.JoinTables", "org.campagnelab.hta.tables.structure.Plot", "org.campagnelab.hta.tables.structure.SelectByGroup", "org.campagnelab.hta.tables.structure.StatementList", "org.campagnelab.hta.tables.structure.Table", "org.campagnelab.hta.tables.structure.UsageType"};
+  private static String[] stringSwitchCases_846f5o_a0a0b = new String[]{"org.campagnelab.hta.tables.structure.ColumnAnnotation", "org.campagnelab.hta.tables.structure.ColumnGroup", "org.campagnelab.hta.tables.structure.ColumnGroupContainer", "org.campagnelab.hta.tables.structure.ColumnGroupReference", "org.campagnelab.hta.tables.structure.ColumnRef", "org.campagnelab.hta.tables.structure.CommonColumnSelection", "org.campagnelab.hta.tables.structure.Define", "org.campagnelab.hta.tables.structure.FilterWithIDList", "org.campagnelab.hta.tables.structure.FutureTable", "org.campagnelab.hta.tables.structure.FutureTableRef", "org.campagnelab.hta.tables.structure.Heatmap", "org.campagnelab.hta.tables.structure.ID", "org.campagnelab.hta.tables.structure.ImportTable", "org.campagnelab.hta.tables.structure.JoinTables", "org.campagnelab.hta.tables.structure.Plot", "org.campagnelab.hta.tables.structure.SelectByGroup", "org.campagnelab.hta.tables.structure.SetOfIds", "org.campagnelab.hta.tables.structure.StatementList", "org.campagnelab.hta.tables.structure.SubSetTableRows", "org.campagnelab.hta.tables.structure.Table", "org.campagnelab.hta.tables.structure.UsageType"};
 }

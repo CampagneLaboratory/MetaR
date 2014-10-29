@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dependenciesRoot>
+  <dependency className="org.campagnelab.hta.tables.behavior.AbstractRowFilter_BehaviorDescriptor" file="AbstractRowFilter_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor" />
+    <classNode dependClassName="org.campagnelab.hta.tables.behavior.RowFilter_BehaviorDescriptor" />
+    <classNode extendsClassName="java.lang.Cloneable" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
   <dependency className="org.campagnelab.hta.tables.behavior.BehaviorAspectDescriptor" file="BehaviorAspectDescriptor.java">
     <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="java.util.Arrays" />
@@ -11,14 +19,19 @@
     <classNode dependClassName="org.campagnelab.hta.tables.behavior.ColumnGroup_BehaviorDescriptor" />
     <classNode dependClassName="org.campagnelab.hta.tables.behavior.ColumnRef_BehaviorDescriptor" />
     <classNode dependClassName="org.campagnelab.hta.tables.behavior.CommonColumnSelection_BehaviorDescriptor" />
+    <classNode dependClassName="org.campagnelab.hta.tables.behavior.Define_BehaviorDescriptor" />
+    <classNode dependClassName="org.campagnelab.hta.tables.behavior.FilterWithIDList_BehaviorDescriptor" />
     <classNode dependClassName="org.campagnelab.hta.tables.behavior.FutureTableRef_BehaviorDescriptor" />
     <classNode dependClassName="org.campagnelab.hta.tables.behavior.FutureTable_BehaviorDescriptor" />
     <classNode dependClassName="org.campagnelab.hta.tables.behavior.Heatmap_BehaviorDescriptor" />
+    <classNode dependClassName="org.campagnelab.hta.tables.behavior.ID_BehaviorDescriptor" />
     <classNode dependClassName="org.campagnelab.hta.tables.behavior.ImportTable_BehaviorDescriptor" />
     <classNode dependClassName="org.campagnelab.hta.tables.behavior.JoinTables_BehaviorDescriptor" />
     <classNode dependClassName="org.campagnelab.hta.tables.behavior.Plot_BehaviorDescriptor" />
     <classNode dependClassName="org.campagnelab.hta.tables.behavior.SelectByGroup_BehaviorDescriptor" />
+    <classNode dependClassName="org.campagnelab.hta.tables.behavior.SetOfIds_BehaviorDescriptor" />
     <classNode dependClassName="org.campagnelab.hta.tables.behavior.StatementList_BehaviorDescriptor" />
+    <classNode dependClassName="org.campagnelab.hta.tables.behavior.SubSetTableRows_BehaviorDescriptor" />
     <classNode dependClassName="org.campagnelab.hta.tables.behavior.Table_BehaviorDescriptor" />
     <classNode dependClassName="org.campagnelab.hta.tables.behavior.UsageType_BehaviorDescriptor" />
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.BehaviorAspectDescriptor" />
@@ -85,6 +98,24 @@
     <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
   </dependency>
+  <dependency className="org.campagnelab.hta.tables.behavior.DefinableObject_BehaviorDescriptor" file="DefinableObject_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="org.campagnelab.hta.tables.behavior.Define_BehaviorDescriptor" file="Define_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="org.campagnelab.hta.tables.behavior.Statement_BehaviorDescriptor" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="org.campagnelab.hta.tables.behavior.FilterWithIDList_BehaviorDescriptor" file="FilterWithIDList_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="org.campagnelab.hta.tables.behavior.AbstractRowFilter_BehaviorDescriptor" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
   <dependency className="org.campagnelab.hta.tables.behavior.FutureTableRef_BehaviorDescriptor" file="FutureTableRef_BehaviorDescriptor.java">
     <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="java.lang.String" />
@@ -135,6 +166,12 @@
     <classNode dependClassName="java.util.Set" />
     <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
   </dependency>
+  <dependency className="org.campagnelab.hta.tables.behavior.ID_BehaviorDescriptor" file="ID_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
   <dependency className="org.campagnelab.hta.tables.behavior.ImportTable_BehaviorDescriptor" file="ImportTable_BehaviorDescriptor.java">
     <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="java.lang.String" />
@@ -174,6 +211,10 @@
     <classNode extendsClassName="java.lang.Cloneable" />
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
   </dependency>
+  <dependency className="org.campagnelab.hta.tables.behavior.RowFilter_Behavior" file="RowFilter_Behavior.java">
+    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
+  </dependency>
+  <dependency className="org.campagnelab.hta.tables.behavior.RowFilter_BehaviorDescriptor" file="RowFilter_BehaviorDescriptor.java" />
   <dependency className="org.campagnelab.hta.tables.behavior.SelectByGroup_Behavior" file="SelectByGroup_Behavior.java">
     <classNode dependClassName="java.lang.Iterable" />
     <classNode dependClassName="java.lang.String" />
@@ -198,6 +239,16 @@
     <classNode dependClassName="org.campagnelab.hta.tables.behavior.KeySelection_BehaviorDescriptor" />
     <classNode dependClassName="org.campagnelab.hta.tables.behavior.SelectByGroup_Behavior" />
     <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="org.campagnelab.hta.tables.behavior.SetOfIds_BehaviorDescriptor" file="SetOfIds_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.lang.core.behavior.INamedConcept_Behavior" />
+    <classNode dependClassName="jetbrains.mps.lang.core.behavior.INamedConcept_BehaviorDescriptor" />
+    <classNode dependClassName="org.campagnelab.hta.tables.behavior.DefinableObject_BehaviorDescriptor" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
+    <classNode extendsClassName="java.lang.Cloneable" />
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
   </dependency>
   <dependency className="org.campagnelab.hta.tables.behavior.StatementList_Behavior" file="StatementList_Behavior.java">
@@ -231,6 +282,12 @@
     <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="org.campagnelab.hta.tables.behavior.SubSetTableRows_BehaviorDescriptor" file="SubSetTableRows_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="org.campagnelab.hta.tables.behavior.Statement_BehaviorDescriptor" />
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
   </dependency>
   <dependency className="org.campagnelab.hta.tables.behavior.TableTransformation_Behavior" file="TableTransformation_Behavior.java">
