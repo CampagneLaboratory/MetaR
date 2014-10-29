@@ -34,7 +34,7 @@ public class StructureAspectDescriptor implements jetbrains.mps.smodel.runtime.S
       case 9:
         return new ConceptDescriptorBuilder("org.campagnelab.hta.tables.structure.FilterWithIDList").super_("org.campagnelab.hta.tables.structure.AbstractRowFilter").parents("org.campagnelab.hta.tables.structure.AbstractRowFilter").references("set").alias("with IDs", "Filter rows that match a set of IDs").create();
       case 10:
-        return new ConceptDescriptorBuilder("org.campagnelab.hta.tables.structure.FutureTable").super_("jetbrains.mps.lang.core.structure.BaseConcept").parents("jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.lang.core.structure.INamedConcept").references("table").create();
+        return new ConceptDescriptorBuilder("org.campagnelab.hta.tables.structure.FutureTable").super_("jetbrains.mps.lang.core.structure.BaseConcept").parents("jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.lang.core.structure.INamedConcept").properties("id").references("table").children(new String[]{"myOwnTable"}, new boolean[]{false}).create();
       case 11:
         return new ConceptDescriptorBuilder("org.campagnelab.hta.tables.structure.FutureTableRef").super_("jetbrains.mps.lang.core.structure.BaseConcept").parents("jetbrains.mps.lang.core.structure.BaseConcept").references("table").create();
       case 12:

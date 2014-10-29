@@ -7,6 +7,13 @@ import org.jetbrains.mps.openapi.language.SConceptRepository;
 import jetbrains.mps.util.NameUtil;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
+import jetbrains.mps.util.MacrosFactory;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
+import jetbrains.mps.internal.collections.runtime.ListSequence;
+import jetbrains.mps.internal.collections.runtime.IVisitor;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.AttributeOperations;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.IAttributeDescriptor;
 
 public class FutureTable_Behavior {
   public static void init(SNode thisNode) {
@@ -14,5 +21,34 @@ public class FutureTable_Behavior {
 
   public static String call_Rname_772483346259741683(SNode thisNode) {
     return TableTransformation_Behavior.call_RName_772483346259745987(SConceptRepository.getInstance().getConcept(NameUtil.nodeFQName(SConceptOperations.findConceptDeclaration("org.campagnelab.hta.tables.structure.TableTransformation"))), SPropertyOperations.getString(thisNode, "name"));
+  }
+
+  public static String call_getCleanTableName_4166618652720345586(SNode thisNode) {
+    return SPropertyOperations.getString(thisNode, "name").replaceAll("[\\.+\\/\\-\\!\\@\\$\\#\\%\\^\\&*\\(\\)]", "_");
+  }
+
+  public static String call_getColumnTablePath_4166618652719916891(SNode thisNode) {
+
+    String path = MacrosFactory.getGlobal().expandPath("${org.campagnelab.hta.results_dir}/table_" + FutureTable_Behavior.call_getCleanTableName_4166618652720345586(thisNode) + "_" + (SPropertyOperations.getInteger(thisNode, "id")) + ".tsv");
+    return path;
+  }
+
+  public static void call_setSchemaFrom_4166618652721995042(final SNode thisNode, SNode fsource) {
+    SNode source = SLinkOperations.getTarget(fsource, "table", false);
+    SLinkOperations.setTarget(thisNode, "myOwnTable", SConceptOperations.createNewNode("org.campagnelab.hta.tables.structure.Table", null), true);
+    SLinkOperations.setTarget(thisNode, "table", SLinkOperations.getTarget(thisNode, "myOwnTable", true), false);
+    ListSequence.fromList(SLinkOperations.getTargets(SLinkOperations.getTarget(thisNode, "table", false), "columns", true)).clear();
+    ListSequence.fromList(SLinkOperations.getTargets(source, "columns", true)).visitAll(new IVisitor<SNode>() {
+      public void visit(SNode it) {
+        final SNode col = SNodeOperations.copyNode(it);
+        AttributeOperations.setAttribute(col, new IAttributeDescriptor.NodeAttribute("org.campagnelab.hta.tables.structure.ColumnAnnotation"), SNodeOperations.copyNode(AttributeOperations.getAttribute(it, new IAttributeDescriptor.NodeAttribute("org.campagnelab.hta.tables.structure.ColumnAnnotation"))));
+        ListSequence.fromList(SLinkOperations.getTargets(SLinkOperations.getTarget(thisNode, "table", false), "columns", true)).addElement(col);
+        ListSequence.fromList(SLinkOperations.getTargets(it, "smodelAttribute", true)).visitAll(new IVisitor<SNode>() {
+          public void visit(SNode it) {
+            ListSequence.fromList(SLinkOperations.getTargets(col, "smodelAttribute", true)).addElement(SNodeOperations.copyNode(it));
+          }
+        });
+      }
+    });
   }
 }

@@ -15,6 +15,7 @@ import jetbrains.mps.internal.collections.runtime.SetSequence;
 import jetbrains.mps.smodel.behaviour.BehaviorReflection;
 import java.util.Set;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
+import org.campagnelab.hta.tables.behavior.FutureTable_Behavior;
 import java.util.List;
 import java.util.ArrayList;
 import jetbrains.mps.internal.collections.runtime.ISelector;
@@ -24,6 +25,7 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.IAttributeDescriptor;
 import org.campagnelab.hta.tables.behavior.Plot_Behavior;
 import jetbrains.mps.generator.template.IfMacroContext;
 import jetbrains.mps.generator.template.SourceSubstituteMacroNodesContext;
+import jetbrains.mps.generator.template.MappingScriptContext;
 import jetbrains.mps.generator.template.TemplateQueryContext;
 
 @Generated
@@ -71,11 +73,11 @@ public class QueriesGenerated {
   }
 
   public static Object propertyMacro_GetPropertyValue_8016431400513898053(final PropertyMacroContext _context) {
-    return NameHelper.RName(SPropertyOperations.getString(SLinkOperations.getTarget(_context.getNode(), "outputTable", true), "name"));
+    return SPropertyOperations.getInteger(SLinkOperations.getTarget(_context.getNode(), "outputTable", true), "id");
   }
 
   public static Object propertyMacro_GetPropertyValue_8016431400514098092(final PropertyMacroContext _context) {
-    return NameHelper.RName(SPropertyOperations.getString(SLinkOperations.getTarget(_context.getNode(), "outputTable", true), "name"));
+    return FutureTable_Behavior.call_getCleanTableName_4166618652720345586(SLinkOperations.getTarget(_context.getNode(), "outputTable", true));
   }
 
   public static Object propertyMacro_GetPropertyValue_8016431400516940527(final PropertyMacroContext _context) {
@@ -176,12 +178,12 @@ public class QueriesGenerated {
     }), ",");
   }
 
-  public static Object propertyMacro_GetPropertyValue_4166618652719511209(final PropertyMacroContext _context) {
-    return NameHelper.RName(SPropertyOperations.getString(SLinkOperations.getTarget(_context.getNode(), "destination", true), "name"));
+  public static Object propertyMacro_GetPropertyValue_4166618652720481126(final PropertyMacroContext _context) {
+    return SPropertyOperations.getInteger(SLinkOperations.getTarget(_context.getNode(), "destination", true), "id");
   }
 
-  public static Object propertyMacro_GetPropertyValue_4166618652719543129(final PropertyMacroContext _context) {
-    return NameHelper.RName(SPropertyOperations.getString(SLinkOperations.getTarget(_context.getNode(), "destination", true), "name"));
+  public static Object propertyMacro_GetPropertyValue_4166618652720481135(final PropertyMacroContext _context) {
+    return FutureTable_Behavior.call_getCleanTableName_4166618652720345586(SLinkOperations.getTarget(_context.getNode(), "destination", true));
   }
 
   public static boolean ifMacro_Condition_1549006859295113839(final IfMacroContext _context) {
@@ -210,6 +212,12 @@ public class QueriesGenerated {
 
   public static Iterable<SNode> sourceNodesQuery_3402264987267873052(final SourceSubstituteMacroNodesContext _context) {
     return SLinkOperations.getTargets(_context.getNode(), "transformations", true);
+  }
+
+  public static void mappingScript_CodeBlock_4166618652720374776(final MappingScriptContext _context) {
+    // increment the ids for future tables so that columns names never reuse the same filename 
+    // <node> 
+    // <node> 
   }
 
   public static Object insertMacro_varValue_1549006859294834854(final TemplateQueryContext _context) {

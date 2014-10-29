@@ -8,6 +8,9 @@
     <classNode dependClassName="org.campagnelab.hta.inspect.behavior.InspectTable_BehaviorDescriptor" />
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.BehaviorAspectDescriptor" />
   </dependency>
+  <dependency className="org.campagnelab.hta.inspect.behavior.InspectTable_Behavior" file="InspectTable_Behavior.java">
+    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
+  </dependency>
   <dependency className="org.campagnelab.hta.inspect.behavior.InspectTable_BehaviorDescriptor" file="InspectTable_BehaviorDescriptor.java">
     <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="java.lang.String" />
