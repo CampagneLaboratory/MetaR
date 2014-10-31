@@ -10,10 +10,14 @@ import jetbrains.mps.build.util.Context;
 import jetbrains.mps.build.util.RelativePathHelper;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
+import jetbrains.mps.internal.collections.runtime.ListSequence;
+import jetbrains.mps.internal.collections.runtime.ITranslator2;
+import jetbrains.mps.smodel.behaviour.BehaviorReflection;
+import jetbrains.mps.smodel.behaviour.BehaviorManager;
 
 public class Script_Behavior {
   public static void init(SNode thisNode) {
-    SLinkOperations.setTarget(thisNode, "statements", SConceptOperations.createNewNode("org.campagnelab.hta.tables.structure.StatementList", null), true);
+    SLinkOperations.setTarget(thisNode, "statements", SConceptOperations.createNewNode("org.campagnelab.hta.script.structure.StatementList", null), true);
   }
 
   @Nullable
@@ -33,5 +37,24 @@ public class Script_Behavior {
 
   public static String call_getOutputFileName_4915877860351551360(SNode thisNode) {
     return SPropertyOperations.getString(thisNode, "name") + "_script.R";
+  }
+
+  public static Iterable<SNode> virtual_dependencies_7074867102585843604(SNode thisNode) {
+    // return any package that script components depend upon: 
+    return ListSequence.fromList(SNodeOperations.getDescendants(thisNode, "org.campagnelab.hta.script.structure.StatementList", false, new String[]{})).translate(new ITranslator2<SNode, SNode>() {
+      public Iterable<SNode> translate(SNode statement) {
+        return BehaviorReflection.invokeVirtual((Class<Iterable<SNode>>) ((Class) Object.class), statement, "virtual_dependencies_7074867102589608499", new Object[]{});
+      }
+    });
+  }
+
+  @Deprecated
+  public static Iterable<SNode> call_dependencies_7074867102585843604(SNode thisNode) {
+    return BehaviorReflection.invokeVirtual((Class<Iterable<SNode>>) ((Class) Object.class), thisNode, "virtual_dependencies_7074867102585843604", new Object[]{});
+  }
+
+  @Deprecated
+  public static Iterable<SNode> callSuper_dependencies_7074867102585843604(SNode thisNode, String callerConceptFqName) {
+    return BehaviorManager.getInstance().invokeSuper((Class<Iterable<SNode>>) ((Class) Object.class), SNodeOperations.cast(thisNode, "org.campagnelab.hta.script.structure.Script"), callerConceptFqName, "virtual_dependencies_7074867102585843604", new Class[]{SNode.class}, new Object[]{});
   }
 }

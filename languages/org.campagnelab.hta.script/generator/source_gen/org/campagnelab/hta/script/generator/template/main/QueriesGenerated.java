@@ -9,6 +9,7 @@ import jetbrains.mps.smodel.behaviour.BehaviorReflection;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.generator.template.SourceSubstituteMacroNodeContext;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
+import jetbrains.mps.generator.template.SourceSubstituteMacroNodesContext;
 import org.apache.log4j.Logger;
 import org.apache.log4j.LogManager;
 
@@ -17,6 +18,10 @@ public class QueriesGenerated {
   public final boolean NEEDS_OPCONTEXT = false;
 
   public static Object propertyMacro_GetPropertyValue_3402264987267838443(final PropertyMacroContext _context) {
+    return SPropertyOperations.getString(_context.getNode(), "name");
+  }
+
+  public static Object propertyMacro_GetPropertyValue_7074867102586338905(final PropertyMacroContext _context) {
     return SPropertyOperations.getString(_context.getNode(), "name");
   }
 
@@ -36,6 +41,10 @@ public class QueriesGenerated {
 
   public static SNode sourceNodeQuery_772483346259559062(final SourceSubstituteMacroNodeContext _context) {
     return SLinkOperations.getTarget(_context.getNode(), "statements", true);
+  }
+
+  public static Iterable<SNode> sourceNodesQuery_7074867102586328914(final SourceSubstituteMacroNodesContext _context) {
+    return BehaviorReflection.invokeVirtual((Class<Iterable<SNode>>) ((Class) Object.class), _context.getNode(), "virtual_dependencies_7074867102585843604", new Object[]{});
   }
 
   protected static Logger LOG = LogManager.getLogger(QueriesGenerated.class);

@@ -8,6 +8,7 @@
   </models>
   <accessoryModels>
     <model modelUID="r:20059f57-5dbc-44d9-90cc-68a47f43e4d6(org.campagnelab.hta.tables.generationhelpers)" />
+    <model modelUID="r:3806f072-87bb-4583-9203-f99cc6c9d118(org.campagnelab.hta.tables.requiredpackages)" />
   </accessoryModels>
   <generators>
     <generator name="" generatorUID="org.campagnelab.hta.tables#3402264987258972825" uuid="f8960ca5-9f20-4fc0-b9f7-20a20893f26d">
@@ -66,6 +67,7 @@
     <extendedLanguage>5ec1cd3d-0a50-4049-a8fa-ae768d7baa25(org.campagnelab.mps.XChart)</extendedLanguage>
     <extendedLanguage>ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)</extendedLanguage>
     <extendedLanguage>901f5cf3-dc77-4c1e-bc5a-6382baee28b4(org.campagnelab.textoutput)</extendedLanguage>
+    <extendedLanguage>6cb95bb7-1c17-4ab0-9822-5c15b43af051(org.campagnelab.hta.script)</extendedLanguage>
   </extendedLanguages>
 </language>
 

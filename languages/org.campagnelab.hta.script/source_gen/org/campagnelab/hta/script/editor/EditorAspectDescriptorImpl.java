@@ -18,7 +18,11 @@ public class EditorAspectDescriptorImpl implements EditorAspectDescriptor {
       case 0:
         return Collections.<ConceptEditor>singletonList(new EmptyLine_Editor());
       case 1:
+        return Collections.<ConceptEditor>singletonList(new R_Package_Editor());
+      case 2:
         return Collections.<ConceptEditor>singletonList(new Script_Editor());
+      case 3:
+        return Collections.<ConceptEditor>singletonList(new StatementList_Editor());
       default:
     }
     return Collections.<ConceptEditor>emptyList();
@@ -30,5 +34,5 @@ public class EditorAspectDescriptorImpl implements EditorAspectDescriptor {
 
 
 
-  private static String[] stringSwitchCases_xbvbvu_a0a0b = new String[]{"org.campagnelab.hta.script.structure.EmptyLine", "org.campagnelab.hta.script.structure.Script"};
+  private static String[] stringSwitchCases_xbvbvu_a0a0b = new String[]{"org.campagnelab.hta.script.structure.EmptyLine", "org.campagnelab.hta.script.structure.R_Package", "org.campagnelab.hta.script.structure.Script", "org.campagnelab.hta.script.structure.StatementList"};
 }

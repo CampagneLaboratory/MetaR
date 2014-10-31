@@ -12,7 +12,7 @@ public class BehaviorAspectDescriptor implements jetbrains.mps.smodel.runtime.Be
 
   public BehaviorDescriptor getDescriptor(String fqName) {
     switch (Arrays.binarySearch(stringSwitchCases_846f5o_a0a0b, fqName)) {
-      case 19:
+      case 18:
         return new Table_BehaviorDescriptor();
       case 13:
         return new JoinTables_BehaviorDescriptor();
@@ -20,8 +20,6 @@ public class BehaviorAspectDescriptor implements jetbrains.mps.smodel.runtime.Be
         return new FutureTableRef_BehaviorDescriptor();
       case 8:
         return new FutureTable_BehaviorDescriptor();
-      case 17:
-        return new StatementList_BehaviorDescriptor();
       case 12:
         return new ImportTable_BehaviorDescriptor();
       case 4:
@@ -42,9 +40,9 @@ public class BehaviorAspectDescriptor implements jetbrains.mps.smodel.runtime.Be
         return new Heatmap_BehaviorDescriptor();
       case 14:
         return new Plot_BehaviorDescriptor();
-      case 20:
+      case 19:
         return new UsageType_BehaviorDescriptor();
-      case 18:
+      case 17:
         return new SubSetTableRows_BehaviorDescriptor();
       case 7:
         return new FilterWithIDList_BehaviorDescriptor();
@@ -59,5 +57,5 @@ public class BehaviorAspectDescriptor implements jetbrains.mps.smodel.runtime.Be
     }
   }
 
-  private static String[] stringSwitchCases_846f5o_a0a0b = new String[]{"org.campagnelab.hta.tables.structure.ColumnAnnotation", "org.campagnelab.hta.tables.structure.ColumnGroup", "org.campagnelab.hta.tables.structure.ColumnGroupContainer", "org.campagnelab.hta.tables.structure.ColumnGroupReference", "org.campagnelab.hta.tables.structure.ColumnRef", "org.campagnelab.hta.tables.structure.CommonColumnSelection", "org.campagnelab.hta.tables.structure.Define", "org.campagnelab.hta.tables.structure.FilterWithIDList", "org.campagnelab.hta.tables.structure.FutureTable", "org.campagnelab.hta.tables.structure.FutureTableRef", "org.campagnelab.hta.tables.structure.Heatmap", "org.campagnelab.hta.tables.structure.ID", "org.campagnelab.hta.tables.structure.ImportTable", "org.campagnelab.hta.tables.structure.JoinTables", "org.campagnelab.hta.tables.structure.Plot", "org.campagnelab.hta.tables.structure.SelectByGroup", "org.campagnelab.hta.tables.structure.SetOfIds", "org.campagnelab.hta.tables.structure.StatementList", "org.campagnelab.hta.tables.structure.SubSetTableRows", "org.campagnelab.hta.tables.structure.Table", "org.campagnelab.hta.tables.structure.UsageType"};
+  private static String[] stringSwitchCases_846f5o_a0a0b = new String[]{"org.campagnelab.hta.tables.structure.ColumnAnnotation", "org.campagnelab.hta.tables.structure.ColumnGroup", "org.campagnelab.hta.tables.structure.ColumnGroupContainer", "org.campagnelab.hta.tables.structure.ColumnGroupReference", "org.campagnelab.hta.tables.structure.ColumnRef", "org.campagnelab.hta.tables.structure.CommonColumnSelection", "org.campagnelab.hta.tables.structure.Define", "org.campagnelab.hta.tables.structure.FilterWithIDList", "org.campagnelab.hta.tables.structure.FutureTable", "org.campagnelab.hta.tables.structure.FutureTableRef", "org.campagnelab.hta.tables.structure.Heatmap", "org.campagnelab.hta.tables.structure.ID", "org.campagnelab.hta.tables.structure.ImportTable", "org.campagnelab.hta.tables.structure.JoinTables", "org.campagnelab.hta.tables.structure.Plot", "org.campagnelab.hta.tables.structure.SelectByGroup", "org.campagnelab.hta.tables.structure.SetOfIds", "org.campagnelab.hta.tables.structure.SubSetTableRows", "org.campagnelab.hta.tables.structure.Table", "org.campagnelab.hta.tables.structure.UsageType"};
 }

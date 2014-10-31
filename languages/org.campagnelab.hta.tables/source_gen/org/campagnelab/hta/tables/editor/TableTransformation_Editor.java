@@ -61,7 +61,7 @@ public class TableTransformation_Editor extends DefaultNodeEditor {
     }
 
     public String getReplacementConceptName() {
-      return "org.campagnelab.hta.tables.structure.Statement";
+      return "org.campagnelab.hta.script.structure.Statement";
     }
   }
 

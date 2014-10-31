@@ -11,6 +11,10 @@ public class Script_BehaviorDescriptor extends BaseConcept_BehaviorDescriptor im
   public Script_BehaviorDescriptor() {
   }
 
+  public Iterable<SNode> virtual_dependencies_7074867102585843604(SNode thisNode) {
+    return Script_Behavior.virtual_dependencies_7074867102585843604(thisNode);
+  }
+
   public String virtual_getFqName_1213877404258(SNode thisNode) {
     return INamedConcept_Behavior.virtual_getFqName_1213877404258(thisNode);
   }

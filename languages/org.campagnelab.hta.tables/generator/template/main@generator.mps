@@ -9,10 +9,11 @@
   <language namespace="32f503e8-061b-451e-bcb0-fef56aa05eb9(org.campagnelab.hta.inspect)" />
   <language namespace="13744753-c81f-424a-9c1b-cf8943bf4e86(jetbrains.mps.lang.sharedConcepts)" />
   <devkit namespace="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
-  <import index="jrxw" modelUID="r:9f2bbfbf-f8b7-4b3b-92b1-b6a0e9642c10(org.campagnelab.hta.tables.structure)" version="4" />
+  <import index="jrxw" modelUID="r:9f2bbfbf-f8b7-4b3b-92b1-b6a0e9642c10(org.campagnelab.hta.tables.structure)" version="5" />
   <import index="ztlb" modelUID="r:989540b8-cc89-4ed5-ba78-cf2ce766b8ce(org.campagnelab.mps.XChart.structure)" version="5" />
   <import index="czy4" modelUID="r:20059f57-5dbc-44d9-90cc-68a47f43e4d6(org.campagnelab.hta.tables.generationhelpers)" version="-1" />
-  <import index="v8sa" modelUID="r:db1b133e-9a0f-4319-b384-413408eb1729(org.campagnelab.hta.tables.behavior)" version="-1" />
+  <import index="v8sa" modelUID="r:db1b133e-9a0f-4319-b384-413408eb1729(org.campagnelab.hta.tables.behavior)" version="0" />
+  <import index="5ryu" modelUID="r:91256194-1375-495d-ab72-ff76cfde3569(org.campagnelab.hta.script.structure)" version="3" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
   <import index="tpf8" modelUID="r:00000000-0000-4000-0000-011c895902e8(jetbrains.mps.lang.generator.structure)" version="2" implicit="yes" />
   <import index="tp25" modelUID="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" version="16" implicit="yes" />
@@ -39,12 +40,6 @@
       <link role="applicableConcept" roleId="tpf8.1167169349424" targetNodeId="jrxw.3402264987259164676" resolveInfo="JoinTables" />
       <node role="ruleConsequence" roleId="tpf8.1169672767469" type="tpf8.TemplateDeclarationReference" typeId="tpf8.1168559333462" id="1549006859295565054" nodeInfo="nn">
         <link role="template" roleId="tpf8.1722980698497626483" targetNodeId="8459500803719555118" resolveInfo="reduce_JoinTables2" />
-      </node>
-    </node>
-    <node role="reductionMappingRule" roleId="tpf8.1167328349397" type="tpf8.Reduction_MappingRule" typeId="tpf8.1167327847730" id="3402264987267806045" nodeInfo="ng">
-      <link role="applicableConcept" roleId="tpf8.1167169349424" targetNodeId="jrxw.3402264987261520276" resolveInfo="StatementList" />
-      <node role="ruleConsequence" roleId="tpf8.1169672767469" type="tpf8.TemplateDeclarationReference" typeId="tpf8.1168559333462" id="3402264987267809961" nodeInfo="nn">
-        <link role="template" roleId="tpf8.1722980698497626483" targetNodeId="3402264987267800931" resolveInfo="reduce_StatementList" />
       </node>
     </node>
     <node role="reductionMappingRule" roleId="tpf8.1167328349397" type="tpf8.Reduction_MappingRule" typeId="tpf8.1167327847730" id="1549006859295772380" nodeInfo="ng">
@@ -85,7 +80,7 @@
   </root>
   <root type="tpf8.TemplateDeclaration" typeId="tpf8.1092059087312" id="3402264987267800931" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="reduce_StatementList" />
-    <link role="applicableConcept" roleId="tpf8.1168285871518" targetNodeId="jrxw.3402264987261520276" resolveInfo="StatementList" />
+    <link role="applicableConcept" roleId="tpf8.1168285871518" targetNodeId="5ryu.7074867102588635873" resolveInfo="StatementList" />
     <node role="contentNode" roleId="tpf8.1092060348987" type="p6sl.Lines" typeId="p6sl.5039633819242576787" id="3402264987267873037" nodeInfo="ng">
       <property name="text" nameId="p6sl.5493669862519718600" value="" />
       <node role="phrases" roleId="p6sl.1680136183140337477" type="p6sl.Phrase" typeId="p6sl.1680136183140337486" id="3402264987267873040" nodeInfo="ng">
@@ -101,7 +96,7 @@
                 <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="3402264987267873054" nodeInfo="nn">
                   <node role="operand" roleId="tpee.1197027771414" type="tpf8.TemplateFunctionParameter_sourceNode" typeId="tpf8.1167169188348" id="3402264987267873058" nodeInfo="nn" />
                   <node role="operation" roleId="tpee.1197027833540" type="tp25.SLinkListAccess" typeId="tp25.1138056282393" id="3402264987267889125" nodeInfo="nn">
-                    <link role="link" roleId="tp25.1138056546658" targetNodeId="jrxw.3402264987261520277" />
+                    <link role="link" roleId="tp25.1138056546658" targetNodeId="5ryu.7074867102588635874" />
                   </node>
                 </node>
               </node>

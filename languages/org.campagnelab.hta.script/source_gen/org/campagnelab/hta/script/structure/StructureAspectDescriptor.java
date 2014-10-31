@@ -14,13 +14,21 @@ public class StructureAspectDescriptor implements jetbrains.mps.smodel.runtime.S
   public ConceptDescriptor getDescriptor(String conceptFqName) {
     switch (Arrays.binarySearch(stringSwitchCases_1htk8d_a0a0b, conceptFqName)) {
       case 0:
-        return new ConceptDescriptorBuilder("org.campagnelab.hta.script.structure.EmptyLine").super_("org.campagnelab.hta.tables.structure.Statement").parents("org.campagnelab.hta.tables.structure.Statement").alias("<empty line> ", "").create();
+        return new ConceptDescriptorBuilder("org.campagnelab.hta.script.structure.DependentOnPackage").super_("jetbrains.mps.lang.core.structure.BaseConcept").parents("jetbrains.mps.lang.core.structure.BaseConcept").references("package").create();
       case 1:
+        return new ConceptDescriptorBuilder("org.campagnelab.hta.script.structure.EmptyLine").super_("org.campagnelab.hta.script.structure.Statement").parents("org.campagnelab.hta.script.structure.Statement").alias("<empty line> ", "").create();
+      case 2:
+        return new ConceptDescriptorBuilder("org.campagnelab.hta.script.structure.R_Package").super_("jetbrains.mps.lang.core.structure.BaseConcept").parents("jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.lang.core.structure.INamedConcept").alias("R Package", "Models an R package").create();
+      case 3:
         return new ConceptDescriptorBuilder("org.campagnelab.hta.script.structure.Script").super_("jetbrains.mps.lang.core.structure.BaseConcept").parents("jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.lang.core.structure.INamedConcept").children(new String[]{"statements"}, new boolean[]{false}).alias("script", "").create();
+      case 4:
+        return new ConceptDescriptorBuilder("org.campagnelab.hta.script.structure.Statement").super_("jetbrains.mps.lang.core.structure.BaseConcept").parents("jetbrains.mps.lang.core.structure.BaseConcept").abstract_().create();
+      case 5:
+        return new ConceptDescriptorBuilder("org.campagnelab.hta.script.structure.StatementList").super_("jetbrains.mps.lang.core.structure.BaseConcept").parents("jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.lang.core.structure.ScopeProvider").children(new String[]{"transformations"}, new boolean[]{true}).create();
       default:
         return StructureAspectInterpreted.getInstance().getDescriptor(conceptFqName);
     }
   }
 
-  private static String[] stringSwitchCases_1htk8d_a0a0b = new String[]{"org.campagnelab.hta.script.structure.EmptyLine", "org.campagnelab.hta.script.structure.Script"};
+  private static String[] stringSwitchCases_1htk8d_a0a0b = new String[]{"org.campagnelab.hta.script.structure.DependentOnPackage", "org.campagnelab.hta.script.structure.EmptyLine", "org.campagnelab.hta.script.structure.R_Package", "org.campagnelab.hta.script.structure.Script", "org.campagnelab.hta.script.structure.Statement", "org.campagnelab.hta.script.structure.StatementList"};
 }

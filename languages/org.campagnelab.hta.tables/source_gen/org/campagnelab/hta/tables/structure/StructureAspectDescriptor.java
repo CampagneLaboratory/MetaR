@@ -30,7 +30,7 @@ public class StructureAspectDescriptor implements jetbrains.mps.smodel.runtime.S
       case 7:
         return new ConceptDescriptorBuilder("org.campagnelab.hta.tables.structure.DefinableObject").super_("jetbrains.mps.lang.core.structure.BaseConcept").parents("jetbrains.mps.lang.core.structure.BaseConcept").abstract_().create();
       case 8:
-        return new ConceptDescriptorBuilder("org.campagnelab.hta.tables.structure.Define").super_("org.campagnelab.hta.tables.structure.Statement").parents("org.campagnelab.hta.tables.structure.Statement").children(new String[]{"object"}, new boolean[]{false}).create();
+        return new ConceptDescriptorBuilder("org.campagnelab.hta.tables.structure.Define").super_("org.campagnelab.hta.script.structure.Statement").parents("org.campagnelab.hta.script.structure.Statement").children(new String[]{"object"}, new boolean[]{false}).create();
       case 9:
         return new ConceptDescriptorBuilder("org.campagnelab.hta.tables.structure.FilterWithIDList").super_("org.campagnelab.hta.tables.structure.AbstractRowFilter").parents("org.campagnelab.hta.tables.structure.AbstractRowFilter").references("set").alias("with IDs", "Filter rows that match a set of IDs").create();
       case 10:
@@ -38,13 +38,13 @@ public class StructureAspectDescriptor implements jetbrains.mps.smodel.runtime.S
       case 11:
         return new ConceptDescriptorBuilder("org.campagnelab.hta.tables.structure.FutureTableRef").super_("jetbrains.mps.lang.core.structure.BaseConcept").parents("jetbrains.mps.lang.core.structure.BaseConcept").references("table").create();
       case 12:
-        return new ConceptDescriptorBuilder("org.campagnelab.hta.tables.structure.Heatmap").super_("org.campagnelab.hta.tables.structure.Statement").parents("org.campagnelab.hta.tables.structure.Statement").references("table").children(new String[]{"dataSelection", "plot"}, new boolean[]{false, false}).alias("build heatmap", "").create();
+        return new ConceptDescriptorBuilder("org.campagnelab.hta.tables.structure.Heatmap").super_("org.campagnelab.hta.script.structure.Statement").parents("org.campagnelab.hta.script.structure.Statement").references("table").children(new String[]{"dataSelection", "plot"}, new boolean[]{false, false}).alias("build heatmap", "").create();
       case 13:
         return new ConceptDescriptorBuilder("org.campagnelab.hta.tables.structure.IColumnNames").interface_().create();
       case 14:
         return new ConceptDescriptorBuilder("org.campagnelab.hta.tables.structure.ID").super_("jetbrains.mps.lang.core.structure.BaseConcept").parents("jetbrains.mps.lang.core.structure.BaseConcept").properties("id").create();
       case 15:
-        return new ConceptDescriptorBuilder("org.campagnelab.hta.tables.structure.ImportTable").super_("org.campagnelab.hta.tables.structure.Statement").parents("org.campagnelab.hta.tables.structure.Statement").references("table").children(new String[]{"future"}, new boolean[]{false}).alias("import table", "").create();
+        return new ConceptDescriptorBuilder("org.campagnelab.hta.tables.structure.ImportTable").super_("org.campagnelab.hta.script.structure.Statement").parents("org.campagnelab.hta.script.structure.Statement").references("table").children(new String[]{"future"}, new boolean[]{false}).alias("import table", "").create();
       case 16:
         return new ConceptDescriptorBuilder("org.campagnelab.hta.tables.structure.JoinTables").super_("org.campagnelab.hta.tables.structure.TableTransformation").parents("org.campagnelab.hta.tables.structure.TableTransformation").children(new String[]{"byKeySelection"}, new boolean[]{false}).alias("join", "").create();
       case 17:
@@ -58,21 +58,17 @@ public class StructureAspectDescriptor implements jetbrains.mps.smodel.runtime.S
       case 21:
         return new ConceptDescriptorBuilder("org.campagnelab.hta.tables.structure.SetOfIds").super_("org.campagnelab.hta.tables.structure.DefinableObject").parents("org.campagnelab.hta.tables.structure.DefinableObject", "jetbrains.mps.lang.core.structure.INamedConcept").children(new String[]{"ids"}, new boolean[]{true}).alias("set of IDs", "A set of IDs").create();
       case 22:
-        return new ConceptDescriptorBuilder("org.campagnelab.hta.tables.structure.Statement").super_("jetbrains.mps.lang.core.structure.BaseConcept").parents("jetbrains.mps.lang.core.structure.BaseConcept").abstract_().create();
+        return new ConceptDescriptorBuilder("org.campagnelab.hta.tables.structure.SubSetTableRows").super_("org.campagnelab.hta.script.structure.Statement").parents("org.campagnelab.hta.script.structure.Statement").references("table").children(new String[]{"rowFilter", "destination"}, new boolean[]{false, false}).alias("subset of rows", "Calculates the subset of rows for a table").create();
       case 23:
-        return new ConceptDescriptorBuilder("org.campagnelab.hta.tables.structure.StatementList").super_("jetbrains.mps.lang.core.structure.BaseConcept").parents("jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.lang.core.structure.ScopeProvider").children(new String[]{"transformations"}, new boolean[]{true}).create();
-      case 24:
-        return new ConceptDescriptorBuilder("org.campagnelab.hta.tables.structure.SubSetTableRows").super_("org.campagnelab.hta.tables.structure.Statement").parents("org.campagnelab.hta.tables.structure.Statement").references("table").children(new String[]{"rowFilter", "destination"}, new boolean[]{false, false}).alias("subset of rows", "Calculates the subset of rows for a table").create();
-      case 25:
         return new ConceptDescriptorBuilder("org.campagnelab.hta.tables.structure.Table").super_("org.campagnelab.mps.XChart.structure.Tsvfile").parents("org.campagnelab.mps.XChart.structure.Tsvfile", "jetbrains.mps.lang.core.structure.INamedConcept").alias("Table", "").create();
-      case 26:
-        return new ConceptDescriptorBuilder("org.campagnelab.hta.tables.structure.TableTransformation").super_("org.campagnelab.hta.tables.structure.Statement").parents("org.campagnelab.hta.tables.structure.Statement", "jetbrains.mps.lang.core.structure.ScopeProvider").children(new String[]{"inputTables", "outputTable"}, new boolean[]{true, false}).abstract_().create();
-      case 27:
+      case 24:
+        return new ConceptDescriptorBuilder("org.campagnelab.hta.tables.structure.TableTransformation").super_("org.campagnelab.hta.script.structure.Statement").parents("org.campagnelab.hta.script.structure.Statement", "jetbrains.mps.lang.core.structure.ScopeProvider").children(new String[]{"inputTables", "outputTable"}, new boolean[]{true, false}).abstract_().create();
+      case 25:
         return new ConceptDescriptorBuilder("org.campagnelab.hta.tables.structure.UsageType").super_("jetbrains.mps.lang.core.structure.BaseConcept").parents("jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.lang.core.structure.INamedConcept").create();
       default:
         return StructureAspectInterpreted.getInstance().getDescriptor(conceptFqName);
     }
   }
 
-  private static String[] stringSwitchCases_1htk8d_a0a0b = new String[]{"org.campagnelab.hta.tables.structure.AbstractRowFilter", "org.campagnelab.hta.tables.structure.ColumnAnnotation", "org.campagnelab.hta.tables.structure.ColumnGroup", "org.campagnelab.hta.tables.structure.ColumnGroupContainer", "org.campagnelab.hta.tables.structure.ColumnGroupReference", "org.campagnelab.hta.tables.structure.ColumnRef", "org.campagnelab.hta.tables.structure.CommonColumnSelection", "org.campagnelab.hta.tables.structure.DefinableObject", "org.campagnelab.hta.tables.structure.Define", "org.campagnelab.hta.tables.structure.FilterWithIDList", "org.campagnelab.hta.tables.structure.FutureTable", "org.campagnelab.hta.tables.structure.FutureTableRef", "org.campagnelab.hta.tables.structure.Heatmap", "org.campagnelab.hta.tables.structure.IColumnNames", "org.campagnelab.hta.tables.structure.ID", "org.campagnelab.hta.tables.structure.ImportTable", "org.campagnelab.hta.tables.structure.JoinTables", "org.campagnelab.hta.tables.structure.KeySelection", "org.campagnelab.hta.tables.structure.Plot", "org.campagnelab.hta.tables.structure.RowFilter", "org.campagnelab.hta.tables.structure.SelectByGroup", "org.campagnelab.hta.tables.structure.SetOfIds", "org.campagnelab.hta.tables.structure.Statement", "org.campagnelab.hta.tables.structure.StatementList", "org.campagnelab.hta.tables.structure.SubSetTableRows", "org.campagnelab.hta.tables.structure.Table", "org.campagnelab.hta.tables.structure.TableTransformation", "org.campagnelab.hta.tables.structure.UsageType"};
+  private static String[] stringSwitchCases_1htk8d_a0a0b = new String[]{"org.campagnelab.hta.tables.structure.AbstractRowFilter", "org.campagnelab.hta.tables.structure.ColumnAnnotation", "org.campagnelab.hta.tables.structure.ColumnGroup", "org.campagnelab.hta.tables.structure.ColumnGroupContainer", "org.campagnelab.hta.tables.structure.ColumnGroupReference", "org.campagnelab.hta.tables.structure.ColumnRef", "org.campagnelab.hta.tables.structure.CommonColumnSelection", "org.campagnelab.hta.tables.structure.DefinableObject", "org.campagnelab.hta.tables.structure.Define", "org.campagnelab.hta.tables.structure.FilterWithIDList", "org.campagnelab.hta.tables.structure.FutureTable", "org.campagnelab.hta.tables.structure.FutureTableRef", "org.campagnelab.hta.tables.structure.Heatmap", "org.campagnelab.hta.tables.structure.IColumnNames", "org.campagnelab.hta.tables.structure.ID", "org.campagnelab.hta.tables.structure.ImportTable", "org.campagnelab.hta.tables.structure.JoinTables", "org.campagnelab.hta.tables.structure.KeySelection", "org.campagnelab.hta.tables.structure.Plot", "org.campagnelab.hta.tables.structure.RowFilter", "org.campagnelab.hta.tables.structure.SelectByGroup", "org.campagnelab.hta.tables.structure.SetOfIds", "org.campagnelab.hta.tables.structure.SubSetTableRows", "org.campagnelab.hta.tables.structure.Table", "org.campagnelab.hta.tables.structure.TableTransformation", "org.campagnelab.hta.tables.structure.UsageType"};
 }

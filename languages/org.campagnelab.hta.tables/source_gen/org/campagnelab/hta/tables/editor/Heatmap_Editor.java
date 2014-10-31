@@ -15,10 +15,24 @@ import jetbrains.mps.nodeEditor.EditorManager;
 import jetbrains.mps.nodeEditor.InlineCellProvider;
 import jetbrains.mps.lang.editor.cellProviders.PropertyCellProvider;
 import jetbrains.mps.lang.editor.cellProviders.RefNodeCellProvider;
+import jetbrains.mps.nodeEditor.cells.EditorCell_Property;
+import jetbrains.mps.nodeEditor.cells.ModelAccessor;
+import jetbrains.mps.internal.collections.runtime.IterableUtils;
+import jetbrains.mps.internal.collections.runtime.Sequence;
+import jetbrains.mps.smodel.behaviour.BehaviorReflection;
+import jetbrains.mps.internal.collections.runtime.ISelector;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
+import jetbrains.mps.util.EqualUtil;
+import jetbrains.mps.openapi.editor.cells.CellActionType;
+import jetbrains.mps.editor.runtime.cells.EmptyCellAction;
 
 public class Heatmap_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
     return this.createCollection_qzxcs0_a(editorContext, node);
+  }
+
+  public EditorCell createInspectedCell(EditorContext editorContext, SNode node) {
+    return this.createCollection_qzxcs0_a_0(editorContext, node);
   }
 
   private EditorCell createCollection_qzxcs0_a(EditorContext editorContext, SNode node) {
@@ -155,6 +169,45 @@ public class Heatmap_Editor extends DefaultNodeEditor {
       EditorManager manager = EditorManager.getInstanceFromContext(opContext);
       return manager.createNodeRoleAttributeCell(editorContext, attributeConcept, attributeKind, editorCell);
     } else
+    return editorCell;
+  }
+
+  private EditorCell createCollection_qzxcs0_a_0(EditorContext editorContext, SNode node) {
+    EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
+    editorCell.setCellId("Collection_qzxcs0_a_0");
+    editorCell.setBig(true);
+    editorCell.addEditorCell(this.createConstant_qzxcs0_a0_0(editorContext, node));
+    editorCell.addEditorCell(this.createReadOnlyModelAccessor_qzxcs0_b0(editorContext, node));
+    return editorCell;
+  }
+
+  private EditorCell createConstant_qzxcs0_a0_0(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "depends on ");
+    editorCell.setCellId("Constant_qzxcs0_a0_0");
+    editorCell.setDefaultText("");
+    return editorCell;
+  }
+
+  private EditorCell createReadOnlyModelAccessor_qzxcs0_b0(final EditorContext editorContext, final SNode node) {
+    EditorCell_Property editorCell = EditorCell_Property.create(editorContext, new ModelAccessor() {
+      public String getText() {
+        return IterableUtils.join(Sequence.fromIterable(BehaviorReflection.invokeVirtual((Class<Iterable<SNode>>) ((Class) Object.class), node, "virtual_dependencies_7074867102586673760", new Object[]{})).select(new ISelector<SNode, String>() {
+          public String select(SNode it) {
+            return SPropertyOperations.getString(it, "name");
+          }
+        }), ", ");
+      }
+
+      public void setText(String s) {
+      }
+
+      public boolean isValidText(String s) {
+        return EqualUtil.equals(s, getText());
+      }
+    }, node);
+    editorCell.setAction(CellActionType.DELETE, EmptyCellAction.getInstance());
+    editorCell.setAction(CellActionType.BACKSPACE, EmptyCellAction.getInstance());
+    editorCell.setCellId("ReadOnlyModelAccessor_qzxcs0_b0");
     return editorCell;
   }
 }
