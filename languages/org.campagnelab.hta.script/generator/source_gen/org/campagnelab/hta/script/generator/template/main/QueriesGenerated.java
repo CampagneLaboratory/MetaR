@@ -20,6 +20,10 @@ public class QueriesGenerated {
     return SPropertyOperations.getString(_context.getNode(), "name");
   }
 
+  public static Object propertyMacro_GetPropertyValue_1488175004227207860(final PropertyMacroContext _context) {
+    return SPropertyOperations.getString(_context.getNode(), "name") + "_script";
+  }
+
   public static Object propertyMacro_GetPropertyValue_2234076393225943587(final PropertyMacroContext _context) {
 
     if (LOG.isInfoEnabled()) {

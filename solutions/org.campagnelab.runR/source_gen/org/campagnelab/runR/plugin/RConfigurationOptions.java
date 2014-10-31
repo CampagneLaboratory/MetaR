@@ -9,40 +9,47 @@ import java.awt.GridBagLayout;
 import com.intellij.ui.components.JBLabel;
 import jetbrains.mps.ide.common.LayoutUtil;
 import org.jetbrains.annotations.Nullable;
+import java.io.File;
 
 public class RConfigurationOptions extends JBPanel {
   private final RawLineEditorComponent myProgramParameters;
   private final FieldWithPathChooseDialog myWorkingDirectory;
+  private final FieldWithPathChooseDialog R_HOME_Directory;
 
   public RConfigurationOptions() {
     super(new GridBagLayout());
     myWorkingDirectory = new FieldWithPathChooseDialog();
+    R_HOME_Directory = new FieldWithPathChooseDialog();
     myProgramParameters = new RawLineEditorComponent();
     myProgramParameters.setDialogCaption("Program parameters");
-
-    add(new JBLabel("Program parameters:"), LayoutUtil.createLabelConstraints(2));
-    add(myProgramParameters, LayoutUtil.createPanelConstraints(3));
-    add(new JBLabel("Working directory:"), LayoutUtil.createLabelConstraints(4));
-    add(myWorkingDirectory, LayoutUtil.createPanelConstraints(5));
+    add(new JBLabel("R_HOME directory:"), LayoutUtil.createLabelConstraints(1));
+    add(R_HOME_Directory, LayoutUtil.createPanelConstraints(2));
+    add(new JBLabel("Program parameters:"), LayoutUtil.createLabelConstraints(3));
+    add(myProgramParameters, LayoutUtil.createPanelConstraints(4));
+    add(new JBLabel("Working directory:"), LayoutUtil.createLabelConstraints(5));
+    add(myWorkingDirectory, LayoutUtil.createPanelConstraints(6));
   }
 
 
 
-  public void reset(@Nullable R_Options R_home) {
-    if (R_home == null) {
+  public void reset(@Nullable R_Options options) {
+    if (options == null) {
       return;
     }
-    myProgramParameters.setText(R_home.R_HOME());
+    R_HOME_Directory.setText(options.R_HOME());
+    myWorkingDirectory.setText(options.workingDirectory().getAbsolutePath());
   }
 
-  public void apply(@Nullable R_Options rHomeOption) {
-    if (rHomeOption == null) {
+  public void apply(@Nullable R_Options options) {
+    if (options == null) {
       return;
     }
-    rHomeOption.R_HOME(myProgramParameters.getText());
+    options.R_HOME(R_HOME_Directory.getText());
+    options.workingDirectory(new File(myWorkingDirectory.getText()));
   }
 
   public void dispose() {
+    R_HOME_Directory.dispose();
     myProgramParameters.dispose();
     myWorkingDirectory.dispose();
   }

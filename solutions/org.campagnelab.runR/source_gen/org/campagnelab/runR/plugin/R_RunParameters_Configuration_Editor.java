@@ -9,6 +9,7 @@ import com.intellij.openapi.util.Factory;
 
 public class R_RunParameters_Configuration_Editor extends SettingsEditorEx<R_RunParameters_Configuration> {
   private RConfigurationOptions myROptionsEditor = new RConfigurationOptions();
+  private R_RunParameters_Configuration mySettings = new R_RunParameters_Configuration();
 
   public void disposeEditor() {
     myROptionsEditor.dispose();
@@ -20,11 +21,11 @@ public class R_RunParameters_Configuration_Editor extends SettingsEditorEx<R_Run
   }
 
   public void applyEditorTo(final R_RunParameters_Configuration configuration) throws ConfigurationException {
-    myROptionsEditor.apply(configuration.getRRunParameters());
+    myROptionsEditor.apply(configuration.getPARAMS());
   }
 
   public void resetEditorFrom(final R_RunParameters_Configuration configuration) {
-    myROptionsEditor.reset(configuration.getRRunParameters());
+    myROptionsEditor.reset(configuration.getPARAMS());
   }
 
   public R_RunParameters_Configuration_Editor() {

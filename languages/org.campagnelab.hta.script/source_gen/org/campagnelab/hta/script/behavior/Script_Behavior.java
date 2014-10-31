@@ -5,9 +5,33 @@ package org.campagnelab.hta.script.behavior;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
+import org.jetbrains.annotations.Nullable;
+import jetbrains.mps.build.util.Context;
+import jetbrains.mps.build.util.RelativePathHelper;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 
 public class Script_Behavior {
   public static void init(SNode thisNode) {
     SLinkOperations.setTarget(thisNode, "statements", SConceptOperations.createNewNode("org.campagnelab.hta.tables.structure.StatementList", null), true);
+  }
+
+  @Nullable
+  public static String call_getScriptsPath_4796668409958419284(SNode thisNode, Context context) {
+    return Script_Behavior.call_getBasePath_4959435991187146924(thisNode, context);
+  }
+
+  @Nullable
+  public static String call_getBasePath_4959435991187146924(SNode thisNode, Context context) {
+    RelativePathHelper relativePathHelper = context.getRelativePathHelper(SNodeOperations.getModel(thisNode));
+    if (relativePathHelper == null) {
+      // model is packaged, i.e. no base path for it 
+      return null;
+    }
+    return relativePathHelper.getBasePath();
+  }
+
+  public static String call_getOutputFileName_4915877860351551360(SNode thisNode) {
+    return SPropertyOperations.getString(thisNode, "name") + "_script.R";
   }
 }

@@ -11,6 +11,7 @@ import com.intellij.openapi.util.WriteExternalException;
 import com.intellij.util.xmlb.XmlSerializer;
 import com.intellij.openapi.util.InvalidDataException;
 import org.apache.log4j.Level;
+import java.io.File;
 import jetbrains.mps.execution.api.settings.SettingsEditorEx;
 import org.apache.log4j.Logger;
 import org.apache.log4j.LogManager;
@@ -35,12 +36,12 @@ public class R_RunParameters_Configuration implements IPersistentConfiguration, 
     XmlSerializer.deserializeInto(myState, (Element) element.getChildren().get(0));
   }
 
-  public R_Options getRRunParameters() {
-    return myState.myRRunParameters;
+  public R_Options getPARAMS() {
+    return myState.myPARAMS;
   }
 
-  public void setRRunParameters(R_Options value) {
-    myState.myRRunParameters = value;
+  public void setPARAMS(R_Options value) {
+    myState.myPARAMS = value;
   }
 
   @Override
@@ -59,7 +60,7 @@ public class R_RunParameters_Configuration implements IPersistentConfiguration, 
   }
 
   public class MyState {
-    public R_Options myRRunParameters = new R_Options(null);
+    public R_Options myPARAMS = new R_Options("", new File("."));
 
     public MyState() {
     }
@@ -67,8 +68,8 @@ public class R_RunParameters_Configuration implements IPersistentConfiguration, 
     @Override
     public Object clone() throws CloneNotSupportedException {
       R_RunParameters_Configuration.MyState state = new R_RunParameters_Configuration.MyState();
-      if (myRRunParameters != null) {
-        state.myRRunParameters = myRRunParameters.clone();
+      if (myPARAMS != null) {
+        state.myPARAMS = myPARAMS.clone();
       }
       return state;
     }

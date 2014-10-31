@@ -3,6 +3,7 @@
   <dependency className="org.campagnelab.runR.plugin.RConfigurationOptions" file="RConfigurationOptions.java">
     <classNode dependClassName="com.intellij.ui.components.JBLabel" />
     <classNode dependClassName="java.awt.GridBagLayout" />
+    <classNode dependClassName="java.io.File" />
     <classNode dependClassName="jetbrains.mps.execution.lib.ui.FieldWithPathChooseDialog" />
     <classNode dependClassName="jetbrains.mps.execution.lib.ui.RawLineEditorComponent" />
     <classNode dependClassName="jetbrains.mps.ide.common.LayoutUtil" />
@@ -101,27 +102,38 @@
     <classNode dependClassName="com.intellij.execution.runners.ProgramRunner" />
     <classNode dependClassName="com.intellij.execution.ui.ConsoleView" />
     <classNode dependClassName="com.intellij.openapi.project.Project" />
+    <classNode dependClassName="java.lang.Runnable" />
     <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.baseLanguage.closures.runtime.Wrappers" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.closures.runtime._FunctionTypes" />
+    <classNode dependClassName="jetbrains.mps.build.util.Context" />
     <classNode dependClassName="jetbrains.mps.execution.api.configurations.ConsoleCreator" />
     <classNode dependClassName="jetbrains.mps.execution.api.configurations.ConsoleProcessListener" />
     <classNode dependClassName="jetbrains.mps.execution.api.configurations.DefaultExecutionConsole" />
     <classNode dependClassName="jetbrains.mps.execution.api.configurations.DefaultExecutionResult" />
     <classNode dependClassName="jetbrains.mps.ide.actions.StandaloneMPSStackTraceFilter" />
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SModelOperations" />
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations" />
+    <classNode dependClassName="jetbrains.mps.smodel.ModelAccess" />
+    <classNode dependClassName="jetbrains.mps.vfs.FileSystem" />
+    <classNode dependClassName="jetbrains.mps.vfs.IFile" />
+    <classNode dependClassName="org.campagnelab.hta.script.behavior.Script_Behavior" />
     <classNode dependClassName="org.campagnelab.runR.plugin.R_Configuration" />
     <classNode dependClassName="org.campagnelab.runR.plugin.Run_R_Command" />
     <classNode dependClassName="org.jetbrains.annotations.NotNull" />
     <classNode dependClassName="org.jetbrains.annotations.Nullable" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
     <classNode dependClassName="org.jetbrains.mps.openapi.model.SNodeReference" />
     <classNode extendsClassName="com.intellij.execution.configurations.RunProfileState" />
   </dependency>
   <dependency className="org.campagnelab.runR.plugin.R_Options" file="R_Options.java">
+    <classNode dependClassName="java.io.File" />
     <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="java.lang.SuppressWarnings" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.tuples.runtime.MultiTuple" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.tuples.runtime.Tuples" />
     <classNode extendsClassName="java.lang.Cloneable" />
-    <classNode extendsClassName="jetbrains.mps.baseLanguage.tuples.runtime._1" />
+    <classNode extendsClassName="jetbrains.mps.baseLanguage.tuples.runtime._2" />
   </dependency>
   <dependency className="org.campagnelab.runR.plugin.R_Producer" file="R_Producer.java">
     <classNode dependClassName="com.intellij.execution.configurations.ConfigurationType" />
@@ -145,6 +157,7 @@
     <classNode dependClassName="com.intellij.openapi.util.InvalidDataException" />
     <classNode dependClassName="com.intellij.openapi.util.WriteExternalException" />
     <classNode dependClassName="com.intellij.util.xmlb.XmlSerializer" />
+    <classNode dependClassName="java.io.File" />
     <classNode dependClassName="java.lang.CloneNotSupportedException" />
     <classNode dependClassName="java.lang.Object" />
     <classNode dependClassName="java.lang.Override" />
@@ -203,6 +216,8 @@
     <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="java.lang.System" />
     <classNode dependClassName="jetbrains.mps.execution.api.commands.ProcessHandlerBuilder" />
+    <classNode dependClassName="org.apache.log4j.LogManager" />
+    <classNode dependClassName="org.apache.log4j.Logger" />
     <classNode dependClassName="org.jetbrains.mps.openapi.model.SNodeReference" />
   </dependency>
 </dependenciesRoot>

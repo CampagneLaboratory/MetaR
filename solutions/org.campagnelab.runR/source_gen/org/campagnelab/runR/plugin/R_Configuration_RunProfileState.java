@@ -17,6 +17,15 @@ import com.intellij.execution.ui.ConsoleView;
 import jetbrains.mps.execution.api.configurations.ConsoleCreator;
 import jetbrains.mps.ide.actions.StandaloneMPSStackTraceFilter;
 import org.jetbrains.mps.openapi.model.SNodeReference;
+import jetbrains.mps.baseLanguage.closures.runtime.Wrappers;
+import jetbrains.mps.vfs.IFile;
+import jetbrains.mps.smodel.ModelAccess;
+import org.jetbrains.mps.openapi.model.SNode;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
+import org.campagnelab.hta.script.behavior.Script_Behavior;
+import jetbrains.mps.build.util.Context;
+import jetbrains.mps.vfs.FileSystem;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SModelOperations;
 import com.intellij.execution.process.ProcessHandler;
 import jetbrains.mps.execution.api.configurations.ConsoleProcessListener;
 import jetbrains.mps.execution.api.configurations.DefaultExecutionResult;
@@ -52,8 +61,24 @@ public class R_Configuration_RunProfileState implements RunProfileState {
     if (reference == null) {
       throw new ExecutionException("No node selected.");
     }
+
+    final Wrappers._T<IFile> file = new Wrappers._T<IFile>(null);
+    ModelAccess.instance().runReadAction(new Runnable() {
+      public void run() {
+        SNode node = SNodeOperations.cast(myRunConfiguration.getNode().getNode(), "org.campagnelab.hta.script.structure.Script");
+        String scriptPath = Script_Behavior.call_getScriptsPath_4796668409958419284(node, Context.defaultContext());
+        if (scriptPath != null) {
+          file.value = FileSystem.getInstance().getFileByPath(scriptPath + "/classes_gen/" + SModelOperations.getModelName(SNodeOperations.getModel(node)));
+          file.value = file.value.getDescendant(Script_Behavior.call_getOutputFileName_4915877860351551360(node));
+        }
+      }
+    });
+    if (file.value == null) {
+      throw new ExecutionException("Cannot find generated R script " + myRunConfiguration.getNode());
+    }
+
     {
-      ProcessHandler _processHandler = new Run_R_Command().createProcess(reference);
+      ProcessHandler _processHandler = new Run_R_Command().setScriptPath_String(file.value.getPath()).setWorkingDirectory_File(myRunConfiguration.getRunParameters().getPARAMS().workingDirectory()).createProcess(reference);
       final ConsoleView _consoleView = console;
       _processHandler.addProcessListener(new ConsoleProcessListener(_consoleView));
       return new DefaultExecutionResult(_processHandler, new DefaultExecutionConsole(_consoleView.getComponent(), new _FunctionTypes._void_P0_E0() {
@@ -62,6 +87,8 @@ public class R_Configuration_RunProfileState implements RunProfileState {
         }
       }));
     }
+    // <node> 
+
   }
 
   public static boolean canExecute(String executorId) {

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debugInfo>
+  <unitInfo fileName="BehaviorAspectDescriptor.java" startLine="9" startPosition="0" endLine="26" endPosition="0" unitName="org.campagnelab.hta.script.behavior.BehaviorAspectDescriptor" />
+  <unitInfo fileName="EmptyLine_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="org.campagnelab.hta.script.behavior.EmptyLine_BehaviorDescriptor" />
+  <unitInfo fileName="Script_BehaviorDescriptor.java" startLine="10" startPosition="0" endLine="23" endPosition="0" unitName="org.campagnelab.hta.script.behavior.Script_BehaviorDescriptor" />
+  <root nodeRef="r:6b438781-4964-4ce9-992b-f8250b395bf4(org.campagnelab.hta.script.behavior)/3402264987260079786">
+    <nodeInfo nodeId="3402264987260079841" fileName="Script_Behavior.java" startLine="15" startPosition="43" endLine="16" endPosition="154" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4796668409958419339" fileName="Script_Behavior.java" startLine="20" startPosition="97" endLine="21" endPosition="83" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1841835149314794694" fileName="Script_Behavior.java" startLine="25" startPosition="94" endLine="26" endPosition="110" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="1841835149314794827" fileName="Script_Behavior.java" startLine="27" startPosition="37" endLine="28" endPosition="53" conceptFqName="jetbrains.mps.baseLanguage.structure.SingleLineComment" />
+    <nodeInfo nodeId="1841835149314794779" fileName="Script_Behavior.java" startLine="28" startPosition="53" endLine="29" endPosition="18" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1841835149314794847" fileName="Script_Behavior.java" startLine="30" startPosition="5" endLine="31" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1488175004227209149" fileName="Script_Behavior.java" startLine="34" startPosition="83" endLine="35" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="3402264987260079786" fileName="Script_Behavior.java" startLine="15" startPosition="0" endLine="18" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+    <nodeInfo nodeId="3402264987260079786" fileName="Script_Behavior.java" startLine="34" startPosition="0" endLine="37" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="call_getOutputFileName_4915877860351551360#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+    <nodeInfo nodeId="3402264987260079786" fileName="Script_Behavior.java" startLine="19" startPosition="0" endLine="23" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="call_getScriptsPath_4796668409958419284#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/build/util/Context;)Ljava/lang/String;" />
+    <nodeInfo nodeId="1841835149314794754" fileName="Script_Behavior.java" startLine="26" startPosition="110" endLine="30" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="3402264987260079786" fileName="Script_Behavior.java" startLine="24" startPosition="0" endLine="33" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="call_getBasePath_4959435991187146924#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/build/util/Context;)Ljava/lang/String;" />
+    <scopeInfo nodeId="3402264987260079788" fileName="Script_Behavior.java" startLine="15" startPosition="43" endLine="16" endPosition="154" />
+    <scopeInfo nodeId="4796668409958419287" fileName="Script_Behavior.java" startLine="20" startPosition="97" endLine="21" endPosition="83" />
+    <scopeInfo nodeId="4915877860351551363" fileName="Script_Behavior.java" startLine="34" startPosition="83" endLine="35" endPosition="73" />
+    <scopeInfo nodeId="1841835149314794755" fileName="Script_Behavior.java" startLine="27" startPosition="37" endLine="29" endPosition="18" />
+    <scopeInfo nodeId="3402264987260079786" fileName="Script_Behavior.java" startLine="15" startPosition="0" endLine="18" endPosition="0">
+      <varInfo nodeId="3402264987260079786" varName="thisNode" />
+    </scopeInfo>
+    <scopeInfo nodeId="3402264987260079786" fileName="Script_Behavior.java" startLine="34" startPosition="0" endLine="37" endPosition="0">
+      <varInfo nodeId="3402264987260079786" varName="thisNode" />
+    </scopeInfo>
+    <scopeInfo nodeId="3402264987260079786" fileName="Script_Behavior.java" startLine="19" startPosition="0" endLine="23" endPosition="0">
+      <varInfo nodeId="6432389088572870584" varName="context" />
+      <varInfo nodeId="3402264987260079786" varName="thisNode" />
+    </scopeInfo>
+    <scopeInfo nodeId="4959435991187146926" fileName="Script_Behavior.java" startLine="25" startPosition="94" endLine="31" endPosition="44">
+      <varInfo nodeId="1841835149314794695" varName="relativePathHelper" />
+    </scopeInfo>
+    <scopeInfo nodeId="3402264987260079786" fileName="Script_Behavior.java" startLine="24" startPosition="0" endLine="33" endPosition="0">
+      <varInfo nodeId="6432389088572863298" varName="context" />
+      <varInfo nodeId="3402264987260079786" varName="thisNode" />
+    </scopeInfo>
+    <unitInfo nodeId="3402264987260079786" fileName="Script_Behavior.java" startLine="14" startPosition="0" endLine="38" endPosition="0" unitName="org.campagnelab.hta.script.behavior.Script_Behavior" />
+  </root>
+</debugInfo>
+
