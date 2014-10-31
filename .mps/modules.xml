@@ -6,6 +6,8 @@
       <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.hta.script/org.campagnelab.hta.script.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.hta.tables/org.campagnelab.hta.tables.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/Playground/Playground.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/org.apache.commons.exec/org.apache.commons.exec.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/org.campagnelab.runR/org.campagnelab.runR.msd" folder="" />
     </projectModules>
   </component>
 </project>

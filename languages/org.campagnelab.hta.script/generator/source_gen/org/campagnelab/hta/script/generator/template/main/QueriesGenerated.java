@@ -5,9 +5,12 @@ package org.campagnelab.hta.script.generator.template.main;
 import jetbrains.mps.generator.runtime.Generated;
 import jetbrains.mps.generator.template.PropertyMacroContext;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
+import jetbrains.mps.smodel.behaviour.BehaviorReflection;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.generator.template.SourceSubstituteMacroNodeContext;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
+import org.apache.log4j.Logger;
+import org.apache.log4j.LogManager;
 
 @Generated
 public class QueriesGenerated {
@@ -17,7 +20,19 @@ public class QueriesGenerated {
     return SPropertyOperations.getString(_context.getNode(), "name");
   }
 
+  public static Object propertyMacro_GetPropertyValue_2234076393225943587(final PropertyMacroContext _context) {
+
+    if (LOG.isInfoEnabled()) {
+      LOG.info("model fqName:" + BehaviorReflection.invokeVirtual(String.class, _context.getNode(), "virtual_getUnitName_4666195181811081431", new Object[]{}));
+    }
+    // <node> 
+    return BehaviorReflection.invokeVirtual(String.class, _context.getNode(), "virtual_getUnitName_4666195181811081431", new Object[]{});
+
+  }
+
   public static SNode sourceNodeQuery_772483346259559062(final SourceSubstituteMacroNodeContext _context) {
     return SLinkOperations.getTarget(_context.getNode(), "statements", true);
   }
+
+  protected static Logger LOG = LogManager.getLogger(QueriesGenerated.class);
 }
