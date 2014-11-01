@@ -26,8 +26,6 @@ import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.internal.collections.runtime.ITranslator2;
 import jetbrains.mps.smodel.behaviour.BehaviorReflection;
-import jetbrains.mps.internal.collections.runtime.ISelector;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.util.EqualUtil;
 import jetbrains.mps.editor.runtime.cells.EmptyCellAction;
 
@@ -137,13 +135,9 @@ public class StatementList_Editor extends DefaultNodeEditor {
   private EditorCell createReadOnlyModelAccessor_u338ov_b0(final EditorContext editorContext, final SNode node) {
     EditorCell_Property editorCell = EditorCell_Property.create(editorContext, new ModelAccessor() {
       public String getText() {
-        return IterableUtils.join(ListSequence.fromList(SLinkOperations.getTargets(node, "transformations", true)).translate(new ITranslator2<SNode, SNode>() {
-          public Iterable<SNode> translate(SNode it) {
-            return BehaviorReflection.invokeVirtual((Class<Iterable<SNode>>) ((Class) Object.class), it, "virtual_dependencies_7074867102588635969", new Object[]{});
-          }
-        }).select(new ISelector<SNode, String>() {
-          public String select(SNode it) {
-            return SPropertyOperations.getString(it, "name");
+        return IterableUtils.join(ListSequence.fromList(SLinkOperations.getTargets(node, "transformations", true)).translate(new ITranslator2<SNode, String>() {
+          public Iterable<String> translate(SNode it) {
+            return BehaviorReflection.invokeVirtual((Class<Iterable<String>>) ((Class) Object.class), it, "virtual_dependencies_6853668812000956111", new Object[]{});
           }
         }), ", ");
       }

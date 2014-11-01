@@ -9,8 +9,8 @@ public class Heatmap_BehaviorDescriptor extends Statement_BehaviorDescriptor {
   public Heatmap_BehaviorDescriptor() {
   }
 
-  public Iterable<SNode> virtual_dependencies_7074867102586673760(SNode thisNode) {
-    return Heatmap_Behavior.virtual_dependencies_7074867102586673760(thisNode);
+  public Iterable<String> virtual_dependencies_6853668812000956111(SNode thisNode) {
+    return Heatmap_Behavior.virtual_dependencies_6853668812000956111(thisNode);
   }
 
   @Override

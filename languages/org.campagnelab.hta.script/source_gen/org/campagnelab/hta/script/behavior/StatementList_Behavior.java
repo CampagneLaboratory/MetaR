@@ -15,7 +15,6 @@ import jetbrains.mps.scope.ListScope;
 import jetbrains.mps.smodel.behaviour.BehaviorReflection;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.internal.collections.runtime.ITranslator2;
-import jetbrains.mps.smodel.behaviour.BehaviorManager;
 
 public class StatementList_Behavior {
   public static void init(SNode thisNode) {
@@ -40,21 +39,11 @@ public class StatementList_Behavior {
     return BehaviorReflection.invokeSuper(Scope.class, thisNode, "jetbrains.mps.lang.core.structure.ScopeProvider", "virtual_getScope_7722139651431880752", new Object[]{kind, role, index});
   }
 
-  public static Iterable<SNode> virtual_dependencies_7074867102589608499(SNode thisNode) {
-    return ListSequence.fromList(SLinkOperations.getTargets(thisNode, "transformations", true)).translate(new ITranslator2<SNode, SNode>() {
-      public Iterable<SNode> translate(SNode it) {
-        return BehaviorReflection.invokeVirtual((Class<Iterable<SNode>>) ((Class) Object.class), it, "virtual_dependencies_7074867102588635969", new Object[]{});
+  public static Iterable<String> virtual_dependencies_6853668812000956111(SNode thisNode) {
+    return ListSequence.fromList(SLinkOperations.getTargets(thisNode, "transformations", true)).translate(new ITranslator2<SNode, String>() {
+      public Iterable<String> translate(SNode it) {
+        return BehaviorReflection.invokeVirtual((Class<Iterable<String>>) ((Class) Object.class), it, "virtual_dependencies_6853668812000956111", new Object[]{});
       }
     });
-  }
-
-  @Deprecated
-  public static Iterable<SNode> call_dependencies_7074867102589608499(SNode thisNode) {
-    return BehaviorReflection.invokeVirtual((Class<Iterable<SNode>>) ((Class) Object.class), thisNode, "virtual_dependencies_7074867102589608499", new Object[]{});
-  }
-
-  @Deprecated
-  public static Iterable<SNode> callSuper_dependencies_7074867102589608499(SNode thisNode, String callerConceptFqName) {
-    return BehaviorManager.getInstance().invokeSuper((Class<Iterable<SNode>>) ((Class) Object.class), SNodeOperations.cast(thisNode, "org.campagnelab.hta.script.structure.StatementList"), callerConceptFqName, "virtual_dependencies_7074867102589608499", new Class[]{SNode.class}, new Object[]{});
   }
 }

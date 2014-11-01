@@ -11,7 +11,7 @@ public class Script_BehaviorDescriptor extends BaseConcept_BehaviorDescriptor im
   public Script_BehaviorDescriptor() {
   }
 
-  public Iterable<SNode> virtual_dependencies_7074867102585843604(SNode thisNode) {
+  public Iterable<String> virtual_dependencies_7074867102585843604(SNode thisNode) {
     return Script_Behavior.virtual_dependencies_7074867102585843604(thisNode);
   }
 

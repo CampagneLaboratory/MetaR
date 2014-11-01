@@ -5,12 +5,12 @@ package org.campagnelab.hta.script.behavior;
 import jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor;
 import org.jetbrains.mps.openapi.model.SNode;
 
-public abstract class Statement_BehaviorDescriptor extends BaseConcept_BehaviorDescriptor {
+public abstract class Statement_BehaviorDescriptor extends BaseConcept_BehaviorDescriptor implements StatementDependencies_BehaviorDescriptor {
   public Statement_BehaviorDescriptor() {
   }
 
-  public Iterable<SNode> virtual_dependencies_7074867102588635969(SNode thisNode) {
-    return Statement_Behavior.virtual_dependencies_7074867102588635969(thisNode);
+  public Iterable<String> virtual_dependencies_6853668812000956111(SNode thisNode) {
+    return StatementDependencies_Behavior.virtual_dependencies_6853668812000956111(thisNode);
   }
 
   @Override

@@ -83,7 +83,7 @@
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="3402264987261651661" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="ImportTable" />
     <property name="conceptAlias" nameId="tpce.5092175715804935370" value="import table" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="5ryu.7074867102588635872" resolveInfo="Statement" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="6853668812000783449" resolveInfo="DataTableStatement" />
     <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="3402264987261692715" nodeInfo="ig">
       <property name="metaClass" nameId="tpce.1071599937831" value="reference" />
       <property name="role" nameId="tpce.1071599776563" value="table" />
@@ -348,6 +348,19 @@
     <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="4166618652717462013" nodeInfo="ig">
       <link role="intfc" roleId="tpce.1169127628841" targetNodeId="4166618652716281040" resolveInfo="RowFilter" />
     </node>
+  </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="6853668812000783449" nodeInfo="ig">
+    <property name="name" nameId="tpck.1169194664001" value="DataTableStatement" />
+    <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="A Statement that generates to data.table function calls" />
+    <property name="abstract" nameId="tpce.4628067390765956802" value="true" />
+    <property name="final" nameId="tpce.4628067390765956807" value="false" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="5ryu.7074867102588635872" resolveInfo="Statement" />
+    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="6853668812000959494" nodeInfo="ig">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="5ryu.6853668812000955881" resolveInfo="StatementDependencies" />
+    </node>
+  </root>
+  <root type="tpce.InterfaceConceptDeclaration" typeId="tpce.1169125989551" id="6853668812000880059" nodeInfo="ig">
+    <property name="name" nameId="tpck.1169194664001" value="UsesDataTable" />
   </root>
 </model>
 

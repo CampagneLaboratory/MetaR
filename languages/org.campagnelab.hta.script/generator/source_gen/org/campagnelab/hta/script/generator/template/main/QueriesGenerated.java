@@ -5,11 +5,13 @@ package org.campagnelab.hta.script.generator.template.main;
 import jetbrains.mps.generator.runtime.Generated;
 import jetbrains.mps.generator.template.PropertyMacroContext;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
+import jetbrains.mps.internal.collections.runtime.IterableUtils;
+import jetbrains.mps.internal.collections.runtime.Sequence;
+import jetbrains.mps.smodel.behaviour.BehaviorReflection;
+import jetbrains.mps.internal.collections.runtime.ISelector;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.generator.template.SourceSubstituteMacroNodeContext;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
-import jetbrains.mps.generator.template.SourceSubstituteMacroNodesContext;
-import jetbrains.mps.smodel.behaviour.BehaviorReflection;
 
 @Generated
 public class QueriesGenerated {
@@ -19,8 +21,12 @@ public class QueriesGenerated {
     return SPropertyOperations.getString(_context.getNode(), "name");
   }
 
-  public static Object propertyMacro_GetPropertyValue_7074867102586338905(final PropertyMacroContext _context) {
-    return SPropertyOperations.getString(_context.getNode(), "name");
+  public static Object propertyMacro_GetPropertyValue_6853668812000652063(final PropertyMacroContext _context) {
+    return IterableUtils.join(Sequence.fromIterable(BehaviorReflection.invokeVirtual((Class<Iterable<String>>) ((Class) Object.class), _context.getNode(), "virtual_dependencies_7074867102585843604", new Object[]{})).select(new ISelector<String, String>() {
+      public String select(String it) {
+        return "if (!require(\"" + it + "\")) {install.packages(\"" + it + "\")}";
+      }
+    }), "\n");
   }
 
   public static Object propertyMacro_GetPropertyValue_1488175004227207860(final PropertyMacroContext _context) {
@@ -29,9 +35,5 @@ public class QueriesGenerated {
 
   public static SNode sourceNodeQuery_772483346259559062(final SourceSubstituteMacroNodeContext _context) {
     return SLinkOperations.getTarget(_context.getNode(), "statements", true);
-  }
-
-  public static Iterable<SNode> sourceNodesQuery_7074867102586328914(final SourceSubstituteMacroNodesContext _context) {
-    return BehaviorReflection.invokeVirtual((Class<Iterable<SNode>>) ((Class) Object.class), _context.getNode(), "virtual_dependencies_7074867102585843604", new Object[]{});
   }
 }
