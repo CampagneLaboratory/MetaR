@@ -78,7 +78,7 @@ public class R_Configuration_RunProfileState implements RunProfileState {
     }
 
     {
-      ProcessHandler _processHandler = new Run_R_Command().setWorkingDirectory_File(myRunConfiguration.getRunParameters().getPARAMS().workingDirectory()).createProcess(reference, myRunConfiguration.getRunParameters().getPARAMS().R_HOME(), file.value.getPath());
+      ProcessHandler _processHandler = new Run_R_Command().setWorkingDirectory_File(myRunConfiguration.getRunParameters().getPARAMS().workingDirectory()).createProcess(reference, file.value.getPath());
       final ConsoleView _consoleView = console;
       _processHandler.addProcessListener(new ConsoleProcessListener(_consoleView));
       return new DefaultExecutionResult(_processHandler, new DefaultExecutionConsole(_consoleView.getComponent(), new _FunctionTypes._void_P0_E0() {

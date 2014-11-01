@@ -6,11 +6,11 @@ import jetbrains.mps.execution.api.settings.IPersistentConfiguration;
 import jetbrains.mps.execution.api.settings.ITemplatePersistentConfiguration;
 import org.jetbrains.annotations.NotNull;
 import com.intellij.execution.configurations.RuntimeConfigurationException;
-import org.apache.log4j.Level;
 import org.jdom.Element;
 import com.intellij.openapi.util.WriteExternalException;
 import com.intellij.util.xmlb.XmlSerializer;
 import com.intellij.openapi.util.InvalidDataException;
+import org.apache.log4j.Level;
 import jetbrains.mps.execution.api.settings.SettingsEditorEx;
 import org.apache.log4j.Logger;
 import org.apache.log4j.LogManager;
@@ -20,11 +20,6 @@ public class R_RunParameters_Configuration implements IPersistentConfiguration, 
   private R_RunParameters_Configuration.MyState myState = new R_RunParameters_Configuration.MyState();
 
   public void checkConfiguration() throws RuntimeConfigurationException {
-    if (this.getPARAMS().R_HOME() == null) {
-      if (LOG.isEnabledFor(Level.ERROR)) {
-        LOG.error("You must define R_HOME");
-      }
-    }
   }
 
   @Override
