@@ -5,6 +5,9 @@ package org.campagnelab.hta.tables.behavior;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import java.util.ArrayList;
+import jetbrains.mps.smodel.behaviour.BehaviorReflection;
+import jetbrains.mps.smodel.behaviour.BehaviorManager;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 
 public class UsesDataTable_Behavior {
   public static void init(SNode thisNode) {
@@ -12,5 +15,15 @@ public class UsesDataTable_Behavior {
 
   public static Iterable<String> virtual_dependencies_6853668812000956111(SNode thisNode) {
     return ListSequence.fromListAndArray(new ArrayList<String>(), "data.table");
+  }
+
+  @Deprecated
+  public static Iterable<String> call_dependencies_6853668812000880840(SNode thisNode) {
+    return BehaviorReflection.invokeVirtual((Class<Iterable<String>>) ((Class) Object.class), thisNode, "virtual_dependencies_6853668812000956111", new Object[]{});
+  }
+
+  @Deprecated
+  public static Iterable<String> callSuper_dependencies_6853668812000880840(SNode thisNode, String callerConceptFqName) {
+    return BehaviorManager.getInstance().invokeSuper((Class<Iterable<String>>) ((Class) Object.class), SNodeOperations.cast(thisNode, "org.campagnelab.hta.tables.structure.UsesDataTable"), callerConceptFqName, "virtual_dependencies_6853668812000956111", new Class[]{SNode.class}, new Object[]{});
   }
 }

@@ -198,5 +198,8 @@
       </node>
     </node>
   </root>
+  <root type="tp1t.ConceptConstraints" typeId="tp1t.1213093968558" id="6825610851347318229" nodeInfo="ng">
+    <link role="concept" roleId="tp1t.1213093996982" targetNodeId="jrxw.3402264987259164676" resolveInfo="JoinTables" />
+  </root>
 </model>
 

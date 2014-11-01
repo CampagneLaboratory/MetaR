@@ -11,25 +11,9 @@ import org.apache.log4j.Logger;
 import org.apache.log4j.LogManager;
 
 public class Run_R_Command {
-  private String myR_HOME_String = "/Library/Frameworks/R.framework/Resources/";
-  private String myScriptPath_String;
   private File myWorkingDirectory_File;
 
   public Run_R_Command() {
-  }
-
-  public Run_R_Command setR_HOME_String(String R_HOME) {
-    if (R_HOME != null) {
-      myR_HOME_String = R_HOME;
-    }
-    return this;
-  }
-
-  public Run_R_Command setScriptPath_String(String scriptPath) {
-    if (scriptPath != null) {
-      myScriptPath_String = scriptPath;
-    }
-    return this;
   }
 
   public Run_R_Command setWorkingDirectory_File(File workingDirectory) {
@@ -39,17 +23,17 @@ public class Run_R_Command {
     return this;
   }
 
-  public ProcessHandler createProcess(SNodeReference nodePointer) throws ExecutionException {
-    String R_HOME = Run_R_Command.getRHome(myR_HOME_String);
+  public ProcessHandler createProcess(SNodeReference nodePointer, String R_HOME, String scriptPath) throws ExecutionException {
+    String R_HOME_var = Run_R_Command.getRHome(R_HOME);
     if (LOG.isInfoEnabled()) {
-      LOG.info("obtained R_HOME:" + R_HOME);
+      LOG.info("obtained R_HOME:" + R_HOME_var);
     }
     if (LOG.isInfoEnabled()) {
       LOG.info("obtained working directory:" + myWorkingDirectory_File);
     }
     // the below line is created with a ProcessBuilder. The process builder accepts command parts, but does not render 
     // explicitely. 
-    return new ProcessHandlerBuilder().append(Run_R_Command.getR(R_HOME)).append(Run_R_Command.protect(myScriptPath_String)).build(myWorkingDirectory_File);
+    return new ProcessHandlerBuilder().append(Run_R_Command.getR(R_HOME_var)).append(Run_R_Command.protect(scriptPath)).build(myWorkingDirectory_File);
   }
 
   private static File getR(String R_HOME) {

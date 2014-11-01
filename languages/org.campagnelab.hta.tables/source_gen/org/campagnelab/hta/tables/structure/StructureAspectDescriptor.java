@@ -48,7 +48,7 @@ public class StructureAspectDescriptor implements jetbrains.mps.smodel.runtime.S
       case 16:
         return new ConceptDescriptorBuilder("org.campagnelab.hta.tables.structure.ImportTable").super_("org.campagnelab.hta.tables.structure.DataTableStatement").parents("org.campagnelab.hta.tables.structure.DataTableStatement").references("table").children(new String[]{"future"}, new boolean[]{false}).alias("import table", "").create();
       case 17:
-        return new ConceptDescriptorBuilder("org.campagnelab.hta.tables.structure.JoinTables").super_("org.campagnelab.hta.tables.structure.TableTransformation").parents("org.campagnelab.hta.tables.structure.TableTransformation").children(new String[]{"byKeySelection"}, new boolean[]{false}).alias("join", "").create();
+        return new ConceptDescriptorBuilder("org.campagnelab.hta.tables.structure.JoinTables").super_("org.campagnelab.hta.tables.structure.TableTransformation").parents("org.campagnelab.hta.tables.structure.TableTransformation", "jetbrains.mps.lang.core.structure.ScopeProvider").children(new String[]{"byKeySelection"}, new boolean[]{false}).alias("join", "").create();
       case 18:
         return new ConceptDescriptorBuilder("org.campagnelab.hta.tables.structure.KeySelection").super_("jetbrains.mps.lang.core.structure.BaseConcept").parents("jetbrains.mps.lang.core.structure.BaseConcept", "org.campagnelab.hta.tables.structure.IColumnNames").abstract_().alias("key", "").create();
       case 19:
@@ -68,7 +68,7 @@ public class StructureAspectDescriptor implements jetbrains.mps.smodel.runtime.S
       case 26:
         return new ConceptDescriptorBuilder("org.campagnelab.hta.tables.structure.UsageType").super_("jetbrains.mps.lang.core.structure.BaseConcept").parents("jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.lang.core.structure.INamedConcept").create();
       case 27:
-        return new ConceptDescriptorBuilder("org.campagnelab.hta.tables.structure.UsesDataTable").interface_().create();
+        return new ConceptDescriptorBuilder("org.campagnelab.hta.tables.structure.UsesDataTable").interface_().parents("org.campagnelab.hta.script.structure.StatementDependencies").create();
       default:
         return StructureAspectInterpreted.getInstance().getDescriptor(conceptFqName);
     }

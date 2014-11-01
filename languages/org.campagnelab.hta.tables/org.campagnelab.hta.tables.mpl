@@ -54,6 +54,7 @@
     <usedLanguage>9ded098b-ad6a-4657-bfd9-48636cfe8bc3(jetbrains.mps.lang.traceable)</usedLanguage>
     <usedLanguage>7a5dda62-9140-4668-ab76-d5ed1746f2b2(jetbrains.mps.lang.typesystem)</usedLanguage>
     <usedLanguage>32f503e8-061b-451e-bcb0-fef56aa05eb9(org.campagnelab.hta.inspect)</usedLanguage>
+    <usedLanguage>6cb95bb7-1c17-4ab0-9822-5c15b43af051(org.campagnelab.hta.script)</usedLanguage>
     <usedLanguage>5ec1cd3d-0a50-4049-a8fa-ae768d7baa25(org.campagnelab.mps.XChart)</usedLanguage>
     <usedLanguage>901f5cf3-dc77-4c1e-bc5a-6382baee28b4(org.campagnelab.textoutput)</usedLanguage>
   </usedLanguages>

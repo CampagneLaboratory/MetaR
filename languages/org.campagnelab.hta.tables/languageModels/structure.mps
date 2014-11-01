@@ -27,6 +27,9 @@
       <property name="sourceCardinality" nameId="tpce.1071599893252" value="1" />
       <link role="target" roleId="tpce.1071599976176" targetNodeId="3402264987262239184" resolveInfo="KeySelection" />
     </node>
+    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="6825610851347322208" nodeInfo="ig">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="tpck.3734116213129792499" resolveInfo="ScopeProvider" />
+    </node>
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="3402264987259164677" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="TableTransformation" />
@@ -364,6 +367,9 @@
   </root>
   <root type="tpce.InterfaceConceptDeclaration" typeId="tpce.1169125989551" id="6853668812000880059" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="UsesDataTable" />
+    <node role="extends" roleId="tpce.1169127546356" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="7821610625920230067" nodeInfo="ig">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="5ryu.6853668812000955881" resolveInfo="StatementDependencies" />
+    </node>
   </root>
 </model>
 
