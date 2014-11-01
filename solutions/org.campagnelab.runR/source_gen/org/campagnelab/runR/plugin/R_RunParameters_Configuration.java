@@ -11,7 +11,6 @@ import com.intellij.openapi.util.WriteExternalException;
 import com.intellij.util.xmlb.XmlSerializer;
 import com.intellij.openapi.util.InvalidDataException;
 import org.apache.log4j.Level;
-import java.io.File;
 import jetbrains.mps.execution.api.settings.SettingsEditorEx;
 import org.apache.log4j.Logger;
 import org.apache.log4j.LogManager;
@@ -60,7 +59,7 @@ public class R_RunParameters_Configuration implements IPersistentConfiguration, 
   }
 
   public class MyState {
-    public R_Options myPARAMS = new R_Options("", new File("."));
+    public R_Options myPARAMS = new R_Options(null, null);
 
     public MyState() {
     }

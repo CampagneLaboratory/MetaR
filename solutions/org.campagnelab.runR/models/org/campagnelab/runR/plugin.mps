@@ -1088,20 +1088,11 @@
         <link role="tupleDeclaration" roleId="cx9y.1239560008022" targetNodeId="1488175004225184888" resolveInfo="R_Options" />
         <node role="componentRef" roleId="cx9y.1239560910577" type="cx9y.NamedTupleComponentReference" typeId="cx9y.1239560581441" id="1488175004225221795" nodeInfo="ng">
           <link role="componentDeclaration" roleId="cx9y.1239560595302" targetNodeId="1488175004225184903" resolveInfo="R_HOME" />
-          <node role="value" roleId="cx9y.1239560837729" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="1488175004229349932" nodeInfo="nn">
-            <property name="value" nameId="tpee.1070475926801" value="" />
-          </node>
+          <node role="value" roleId="cx9y.1239560837729" type="tpee.NullLiteral" typeId="tpee.1070534058343" id="8441088421949294908" nodeInfo="nn" />
         </node>
         <node role="componentRef" roleId="cx9y.1239560910577" type="cx9y.NamedTupleComponentReference" typeId="cx9y.1239560581441" id="1488175004228373471" nodeInfo="ng">
           <link role="componentDeclaration" roleId="cx9y.1239560595302" targetNodeId="1488175004228304465" resolveInfo="workingDirectory" />
-          <node role="value" roleId="cx9y.1239560837729" type="tpee.GenericNewExpression" typeId="tpee.1145552977093" id="1488175004228380946" nodeInfo="nn">
-            <node role="creator" roleId="tpee.1145553007750" type="tpee.ClassCreator" typeId="tpee.1212685548494" id="1488175004228384044" nodeInfo="nn">
-              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="fxg7.~File%d&lt;init&gt;(java%dlang%dString)" resolveInfo="File" />
-              <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="1488175004228384582" nodeInfo="nn">
-                <property name="value" nameId="tpee.1070475926801" value="." />
-              </node>
-            </node>
-          </node>
+          <node role="value" roleId="cx9y.1239560837729" type="tpee.NullLiteral" typeId="tpee.1070534058343" id="8441088421949295765" nodeInfo="nn" />
         </node>
       </node>
     </node>
@@ -1495,38 +1486,37 @@
       </node>
       <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="1488175004225968648" nodeInfo="nn" />
       <node role="body" roleId="tpee.1068580123135" type="tpee.StatementList" typeId="tpee.1068580123136" id="1488175004225968649" nodeInfo="sn">
-        <node role="statement" roleId="tpee.1068581517665" type="tpee.LocalVariableDeclarationStatement" typeId="tpee.1068581242864" id="1488175004226069943" nodeInfo="nn">
-          <node role="localVariableDeclaration" roleId="tpee.1068581242865" type="tpee.LocalVariableDeclaration" typeId="tpee.1068581242863" id="1488175004226069946" nodeInfo="nr">
-            <property name="name" nameId="tpck.1169194664001" value="cloned" />
-            <node role="type" roleId="tpee.5680397130376446158" type="cx9y.NamedTupleType" typeId="cx9y.1239531918181" id="1488175004226069942" nodeInfo="in">
-              <link role="classifier" roleId="tpee.1107535924139" targetNodeId="1488175004225184888" resolveInfo="R_Options" />
-            </node>
-            <node role="initializer" roleId="tpee.1068431790190" type="cx9y.NamedTupleLiteral" typeId="cx9y.1239559992092" id="1488175004226203722" nodeInfo="nn">
-              <link role="tupleDeclaration" roleId="cx9y.1239560008022" targetNodeId="1488175004225184888" resolveInfo="R_Options" />
-              <node role="componentRef" roleId="cx9y.1239560910577" type="cx9y.NamedTupleComponentReference" typeId="cx9y.1239560581441" id="1488175004226203720" nodeInfo="ng">
-                <link role="componentDeclaration" roleId="cx9y.1239560595302" targetNodeId="1488175004225184903" resolveInfo="R_HOME" />
-                <node role="value" roleId="cx9y.1239560837729" type="tpee.DotExpression" typeId="tpee.1197027756228" id="1488175004226204174" nodeInfo="nn">
-                  <node role="operand" roleId="tpee.1197027771414" type="tpee.ThisExpression" typeId="tpee.1070475354124" id="1488175004226203772" nodeInfo="nn" />
-                  <node role="operation" roleId="tpee.1197027833540" type="cx9y.NamedTupleComponentAccessOperation" typeId="cx9y.1239576519914" id="1488175004226209804" nodeInfo="nn">
-                    <link role="component" roleId="cx9y.1239576542472" targetNodeId="1488175004225184903" resolveInfo="R_HOME" />
-                  </node>
-                </node>
-              </node>
-              <node role="componentRef" roleId="cx9y.1239560910577" type="cx9y.NamedTupleComponentReference" typeId="cx9y.1239560581441" id="1488175004228314185" nodeInfo="ng">
-                <link role="componentDeclaration" roleId="cx9y.1239560595302" targetNodeId="1488175004228304465" resolveInfo="workingDirectory" />
-                <node role="value" roleId="cx9y.1239560837729" type="tpee.DotExpression" typeId="tpee.1197027756228" id="1488175004228315203" nodeInfo="nn">
-                  <node role="operand" roleId="tpee.1197027771414" type="tpee.ThisExpression" typeId="tpee.1070475354124" id="1488175004228314313" nodeInfo="nn" />
-                  <node role="operation" roleId="tpee.1197027833540" type="cx9y.NamedTupleComponentAccessOperation" typeId="cx9y.1239576519914" id="1488175004228322045" nodeInfo="nn">
-                    <link role="component" roleId="cx9y.1239576542472" targetNodeId="1488175004228304465" resolveInfo="workingDirectory" />
-                  </node>
-                </node>
-              </node>
-            </node>
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.SingleLineComment" typeId="tpee.6329021646629104954" id="8441088421949432934" nodeInfo="nn">
+          <node role="commentPart" roleId="tpee.6329021646629175155" type="tpee.TextCommentPart" typeId="tpee.6329021646629104957" id="8441088421949433009" nodeInfo="nn">
+            <property name="text" nameId="tpee.6329021646629104958" value="clone by instanciating a literal of R_Options" />
           </node>
         </node>
-        <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="1488175004226255935" nodeInfo="nn">
-          <node role="expression" roleId="tpee.1068580123156" type="tpee.VariableReference" typeId="tpee.1068498886296" id="1488175004226255933" nodeInfo="nn">
-            <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="1488175004226069946" resolveInfo="cloned" />
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.SingleLineComment" typeId="tpee.6329021646629104954" id="8441088421949433701" nodeInfo="nn">
+          <node role="commentPart" roleId="tpee.6329021646629175155" type="tpee.TextCommentPart" typeId="tpee.6329021646629104957" id="8441088421949433778" nodeInfo="nn">
+            <property name="text" nameId="tpee.6329021646629104958" value="first choice in auto-completion menu: R_Options literal" />
+          </node>
+        </node>
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="8441088421949415395" nodeInfo="nn">
+          <node role="expression" roleId="tpee.1068580123156" type="cx9y.NamedTupleLiteral" typeId="cx9y.1239559992092" id="8441088421949415394" nodeInfo="nn">
+            <link role="tupleDeclaration" roleId="cx9y.1239560008022" targetNodeId="1488175004225184888" resolveInfo="R_Options" />
+            <node role="componentRef" roleId="cx9y.1239560910577" type="cx9y.NamedTupleComponentReference" typeId="cx9y.1239560581441" id="8441088421949415390" nodeInfo="ng">
+              <link role="componentDeclaration" roleId="cx9y.1239560595302" targetNodeId="1488175004225184903" resolveInfo="R_HOME" />
+              <node role="value" roleId="cx9y.1239560837729" type="tpee.DotExpression" typeId="tpee.1197027756228" id="8441088421949418018" nodeInfo="nn">
+                <node role="operand" roleId="tpee.1197027771414" type="tpee.ThisExpression" typeId="tpee.1070475354124" id="8441088421949415667" nodeInfo="nn" />
+                <node role="operation" roleId="tpee.1197027833540" type="cx9y.NamedTupleComponentAccessOperation" typeId="cx9y.1239576519914" id="8441088421949424592" nodeInfo="nn">
+                  <link role="component" roleId="cx9y.1239576542472" targetNodeId="1488175004225184903" resolveInfo="R_HOME" />
+                </node>
+              </node>
+            </node>
+            <node role="componentRef" roleId="cx9y.1239560910577" type="cx9y.NamedTupleComponentReference" typeId="cx9y.1239560581441" id="8441088421949415392" nodeInfo="ng">
+              <link role="componentDeclaration" roleId="cx9y.1239560595302" targetNodeId="1488175004228304465" resolveInfo="workingDirectory" />
+              <node role="value" roleId="cx9y.1239560837729" type="tpee.DotExpression" typeId="tpee.1197027756228" id="8441088421949425677" nodeInfo="nn">
+                <node role="operand" roleId="tpee.1197027771414" type="tpee.ThisExpression" typeId="tpee.1070475354124" id="8441088421949424793" nodeInfo="nn" />
+                <node role="operation" roleId="tpee.1197027833540" type="cx9y.NamedTupleComponentAccessOperation" typeId="cx9y.1239576519914" id="8441088421949432507" nodeInfo="nn">
+                  <link role="component" roleId="cx9y.1239576542472" targetNodeId="1488175004228304465" resolveInfo="workingDirectory" />
+                </node>
+              </node>
+            </node>
           </node>
         </node>
       </node>

@@ -37,7 +37,8 @@ public class R_Options extends MultiTuple._2<String, File> implements Cloneable 
   }
 
   public R_Options clone() {
-    R_Options cloned = new R_Options(this.R_HOME(), this.workingDirectory());
-    return cloned;
+    // clone by instanciating a literal of R_Options 
+    // first choice in auto-completion menu: R_Options literal 
+    return new R_Options(this.R_HOME(), this.workingDirectory());
   }
 }
