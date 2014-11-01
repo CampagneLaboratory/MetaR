@@ -40,7 +40,7 @@ public class StructureAspectDescriptor implements jetbrains.mps.smodel.runtime.S
       case 12:
         return new ConceptDescriptorBuilder("org.campagnelab.hta.tables.structure.FutureTableRef").super_("jetbrains.mps.lang.core.structure.BaseConcept").parents("jetbrains.mps.lang.core.structure.BaseConcept").references("table").create();
       case 13:
-        return new ConceptDescriptorBuilder("org.campagnelab.hta.tables.structure.Heatmap").super_("org.campagnelab.hta.script.structure.Statement").parents("org.campagnelab.hta.script.structure.Statement").references("table").children(new String[]{"dataSelection", "plot"}, new boolean[]{false, false}).alias("build heatmap", "").create();
+        return new ConceptDescriptorBuilder("org.campagnelab.hta.tables.structure.Heatmap").super_("org.campagnelab.hta.script.structure.Statement").parents("org.campagnelab.hta.script.structure.Statement", "jetbrains.mps.lang.core.structure.ScopeProvider").references("table").children(new String[]{"dataSelection", "plot"}, new boolean[]{false, false}).alias("build heatmap", "").create();
       case 14:
         return new ConceptDescriptorBuilder("org.campagnelab.hta.tables.structure.IColumnNames").interface_().create();
       case 15:

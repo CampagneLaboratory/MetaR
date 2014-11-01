@@ -1,0 +1,21 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Script ExecTest" type="R Script" factoryName="R">
+    <MyState />
+    <myNode>
+      <MyState>
+        <option name="myNodeId" value="2234076393226800360" />
+        <option name="myModelId" value="r:31d75cce-9b4e-45c2-8411-6c65880e7354(Tables)" />
+      </MyState>
+    </myNode>
+    <myRunParameters>
+      <MyState>
+        <option name="myPARAMS">
+          <R_Options />
+        </option>
+      </MyState>
+    </myRunParameters>
+    <RunnerSettings RunnerId="Default Runner" />
+    <ConfigurationWrapper RunnerId="Default Runner" />
+    <method />
+  </configuration>
+</component>
