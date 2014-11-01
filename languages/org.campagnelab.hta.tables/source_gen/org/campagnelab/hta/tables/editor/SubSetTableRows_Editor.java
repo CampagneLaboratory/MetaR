@@ -83,7 +83,7 @@ public class SubSetTableRows_Editor extends DefaultNodeEditor {
   private EditorCell createRefNode_bjhzqb_c0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
     provider.setRole("rowFilter");
-    provider.setNoTargetText("<no rowFilter>");
+    provider.setNoTargetText("filter?");
     EditorCell editorCell;
     editorCell = provider.createEditorCell(editorContext);
     if (editorCell.getRole() == null) {

@@ -24,7 +24,7 @@ public class QueriesGenerated {
   public static Object propertyMacro_GetPropertyValue_6853668812000652063(final PropertyMacroContext _context) {
     return IterableUtils.join(Sequence.fromIterable(BehaviorReflection.invokeVirtual((Class<Iterable<String>>) ((Class) Object.class), _context.getNode(), "virtual_dependencies_7074867102585843604", new Object[]{})).select(new ISelector<String, String>() {
       public String select(String it) {
-        return "if (!require(\"" + it + "\")) {install.packages(\"" + it + "\",repos='http://cran.us.r-project.org')}";
+        return "if (!require(\"" + it + "\")) {install.packages(\"" + it + "\",repos='http://cran.us.r-project.org') library(\"" + it + "\")}";
       }
     }), "\n");
   }

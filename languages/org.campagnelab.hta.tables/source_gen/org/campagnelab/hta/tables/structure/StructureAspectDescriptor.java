@@ -14,7 +14,7 @@ public class StructureAspectDescriptor implements jetbrains.mps.smodel.runtime.S
   public ConceptDescriptor getDescriptor(String conceptFqName) {
     switch (Arrays.binarySearch(stringSwitchCases_1htk8d_a0a0b, conceptFqName)) {
       case 0:
-        return new ConceptDescriptorBuilder("org.campagnelab.hta.tables.structure.AbstractRowFilter").super_("jetbrains.mps.lang.core.structure.BaseConcept").parents("jetbrains.mps.lang.core.structure.BaseConcept", "org.campagnelab.hta.tables.structure.RowFilter").abstract_().create();
+        return new ConceptDescriptorBuilder("org.campagnelab.hta.tables.structure.AbstractRowFilter").super_("jetbrains.mps.lang.core.structure.BaseConcept").parents("jetbrains.mps.lang.core.structure.BaseConcept", "org.campagnelab.hta.tables.structure.RowFilter").abstract_().alias("filter how?", "Sub-concepts filter in different ways").create();
       case 1:
         return new ConceptDescriptorBuilder("org.campagnelab.hta.tables.structure.ColumnAnnotation").super_("jetbrains.mps.lang.core.structure.NodeAttribute").parents("jetbrains.mps.lang.core.structure.NodeAttribute").children(new String[]{"groups"}, new boolean[]{true}).create();
       case 2:
