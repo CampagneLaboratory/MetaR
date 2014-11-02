@@ -11,17 +11,9 @@ import org.apache.log4j.Logger;
 import org.apache.log4j.LogManager;
 
 public class Run_R_Command {
-  private String myR_HOME_String = "/Library/Frameworks/R.framework/Resources/";
   private File myWorkingDirectory_File;
 
   public Run_R_Command() {
-  }
-
-  public Run_R_Command setR_HOME_String(String R_HOME) {
-    if (R_HOME != null) {
-      myR_HOME_String = R_HOME;
-    }
-    return this;
   }
 
   public Run_R_Command setWorkingDirectory_File(File workingDirectory) {
@@ -31,8 +23,8 @@ public class Run_R_Command {
     return this;
   }
 
-  public ProcessHandler createProcess(SNodeReference nodePointer, String scriptPath) throws ExecutionException {
-    String R_HOME_var = Run_R_Command.getRHome(myR_HOME_String);
+  public ProcessHandler createProcess(SNodeReference nodePointer, String R_HOME, String scriptPath) throws ExecutionException {
+    String R_HOME_var = Run_R_Command.getRHome(R_HOME);
     if (LOG.isInfoEnabled()) {
       LOG.info("obtained R_HOME:" + R_HOME_var);
     }

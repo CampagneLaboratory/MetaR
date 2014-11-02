@@ -162,7 +162,7 @@
                                     </node>
                                   </node>
                                   <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="6853668812001118072" nodeInfo="nn">
-                                    <property name="value" nameId="tpee.1070475926801" value="\&quot;,repos='http://cran.us.r-project.org') library(\&quot;" />
+                                    <property name="value" nameId="tpee.1070475926801" value="\&quot;,repos='http://cran.us.r-project.org'); library(\&quot;" />
                                   </node>
                                 </node>
                                 <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.VariableReference" typeId="tpee.1068498886296" id="6825610851347845848" nodeInfo="nn">
