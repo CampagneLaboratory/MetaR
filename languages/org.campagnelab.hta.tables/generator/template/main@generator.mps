@@ -1391,6 +1391,12 @@
             <property name="text" nameId="p6sl.1680136183140337487" value="" />
           </node>
         </node>
+        <node role="lines" roleId="p6sl.5039633819242576854" type="p6sl.Line" typeId="p6sl.5493669862519709805" id="2950154556687420034" nodeInfo="ng">
+          <property name="text" nameId="p6sl.5493669862519718600" value="cluster=TRUE" />
+        </node>
+        <node role="lines" roleId="p6sl.5039633819242576854" type="p6sl.Line" typeId="p6sl.5493669862519709805" id="2950154556686119935" nodeInfo="ng">
+          <property name="text" nameId="p6sl.5493669862519718600" value="if(length(MX2)[1]&gt;=2){MX2=t(MX2); cluster=FALSE}" />
+        </node>
         <node role="lines" roleId="p6sl.5039633819242576854" type="p6sl.Line" typeId="p6sl.5493669862519709805" id="8016431400515493339" nodeInfo="ng" />
       </node>
       <node role="lines" roleId="p6sl.5039633819242576854" type="p6sl.Lines" typeId="p6sl.5039633819242576787" id="8016431400517946101" nodeInfo="ng">
@@ -1545,7 +1551,6 @@
         </node>
       </node>
       <node role="lines" roleId="p6sl.5039633819242576854" type="p6sl.Line" typeId="p6sl.5493669862519709805" id="8016431400517943465" nodeInfo="ng">
-        <property name="text" nameId="p6sl.5493669862519718600" value="" />
         <node role="phrases" roleId="p6sl.1680136183140337477" type="p6sl.Phrase" typeId="p6sl.1680136183140337486" id="8016431400518040029" nodeInfo="ng">
           <property name="text" nameId="p6sl.1680136183140337487" value="" />
         </node>
@@ -1562,7 +1567,7 @@
           <property name="text" nameId="p6sl.5493669862519718600" value="pheatmap(MX2," />
         </node>
         <node role="lines" roleId="p6sl.5039633819242576854" type="p6sl.Line" typeId="p6sl.5493669862519709805" id="8016431400518052256" nodeInfo="ng">
-          <property name="text" nameId="p6sl.5493669862519718600" value="         cluster_rows=TRUE,cluster_cols = F," />
+          <property name="text" nameId="p6sl.5493669862519718600" value="         cluster_rows=cluster,cluster_cols = F," />
         </node>
         <node role="lines" roleId="p6sl.5039633819242576854" type="p6sl.Line" typeId="p6sl.5493669862519709805" id="8016431400518052257" nodeInfo="ng">
           <property name="text" nameId="p6sl.5493669862519718600" value="" />

@@ -14,5 +14,6 @@ public class IntentionsDescriptor extends BaseIntentionsDescriptor {
 
   public void init() {
     IntentionsManager.getInstance().registerIntentionFactory(new ApplyGroup_Intention());
+    IntentionsManager.getInstance().registerIntentionFactory(new RootTable_Intention());
   }
 }
