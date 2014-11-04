@@ -15,10 +15,12 @@ public class StructureAspectDescriptor implements jetbrains.mps.smodel.runtime.S
     switch (Arrays.binarySearch(stringSwitchCases_1htk8d_a0a0b, conceptFqName)) {
       case 0:
         return new ConceptDescriptorBuilder("org.campagnelab.hta.inspect.structure.InspectTable").super_("org.campagnelab.textoutput.structure.Line").parents("org.campagnelab.textoutput.structure.Line").properties("tableId", "tableName").alias("inspect table", "").create();
+      case 1:
+        return new ConceptDescriptorBuilder("org.campagnelab.hta.inspect.structure.StatementTrace").super_("org.campagnelab.textoutput.structure.Lines").parents("org.campagnelab.textoutput.structure.Lines").properties("id").create();
       default:
         return StructureAspectInterpreted.getInstance().getDescriptor(conceptFqName);
     }
   }
 
-  private static String[] stringSwitchCases_1htk8d_a0a0b = new String[]{"org.campagnelab.hta.inspect.structure.InspectTable"};
+  private static String[] stringSwitchCases_1htk8d_a0a0b = new String[]{"org.campagnelab.hta.inspect.structure.InspectTable", "org.campagnelab.hta.inspect.structure.StatementTrace"};
 }

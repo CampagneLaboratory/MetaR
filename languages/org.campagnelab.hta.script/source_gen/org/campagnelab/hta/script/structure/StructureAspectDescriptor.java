@@ -22,7 +22,7 @@ public class StructureAspectDescriptor implements jetbrains.mps.smodel.runtime.S
       case 3:
         return new ConceptDescriptorBuilder("org.campagnelab.hta.script.structure.Script").super_("jetbrains.mps.lang.core.structure.BaseConcept").parents("jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.lang.core.structure.INamedConcept").children(new String[]{"statements"}, new boolean[]{false}).alias("script", "").create();
       case 4:
-        return new ConceptDescriptorBuilder("org.campagnelab.hta.script.structure.Statement").super_("jetbrains.mps.lang.core.structure.BaseConcept").parents("jetbrains.mps.lang.core.structure.BaseConcept", "org.campagnelab.hta.script.structure.StatementDependencies").abstract_().create();
+        return new ConceptDescriptorBuilder("org.campagnelab.hta.script.structure.Statement").super_("jetbrains.mps.lang.core.structure.BaseConcept").parents("jetbrains.mps.lang.core.structure.BaseConcept", "org.campagnelab.hta.script.structure.StatementDependencies").properties("id").abstract_().create();
       case 5:
         return new ConceptDescriptorBuilder("org.campagnelab.hta.script.structure.StatementDependencies").interface_().create();
       case 6:

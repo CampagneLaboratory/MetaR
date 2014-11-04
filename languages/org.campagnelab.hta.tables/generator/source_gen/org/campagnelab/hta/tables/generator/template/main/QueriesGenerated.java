@@ -44,6 +44,10 @@ public class QueriesGenerated {
     return SPropertyOperations.getString(SLinkOperations.getTarget(_context.getNode(), "table", false), "path");
   }
 
+  public static Object propertyMacro_GetPropertyValue_962445451564484796(final PropertyMacroContext _context) {
+    return ((SNode) _context.getNode()).getNodeId().toString();
+  }
+
   public static Object propertyMacro_GetPropertyValue_1549006859294737198(final PropertyMacroContext _context) {
     return NameHelper.RName(SPropertyOperations.getString(((SNode) _context.getVariable("var:table")), "name"));
   }
@@ -70,6 +74,10 @@ public class QueriesGenerated {
 
   public static Object propertyMacro_GetPropertyValue_8459500803719561670(final PropertyMacroContext _context) {
     return NameHelper.RName(SPropertyOperations.getString(SLinkOperations.getTarget(SLinkOperations.getTarget(ListSequence.fromList(SLinkOperations.getTargets(_context.getNode(), "inputTables", true)).last(), "table", false), "table", false), "name"));
+  }
+
+  public static Object propertyMacro_GetPropertyValue_962445451565867504(final PropertyMacroContext _context) {
+    return ((SNode) _context.getNode()).getNodeId().toString();
   }
 
   public static Object propertyMacro_GetPropertyValue_8016431400513898053(final PropertyMacroContext _context) {
@@ -102,7 +110,7 @@ public class QueriesGenerated {
         public boolean accept(SNode it) {
           return ListSequence.fromList(SLinkOperations.getTargets(SLinkOperations.getTarget(it, "columnGroup", false), "uses", true)).any(new IWhereFilter<SNode>() {
             public boolean accept(SNode use) {
-              return eq_x583g4_a0a0a0a0a0a0a0a0a0a0a0a0a8a31(SPropertyOperations.getString(use, "name"), "heatmap");
+              return eq_x583g4_a0a0a0a0a0a0a0a0a0a0a0a0a8a51(SPropertyOperations.getString(use, "name"), "heatmap");
             }
           });
         }
@@ -149,7 +157,7 @@ public class QueriesGenerated {
       public boolean accept(SNode it) {
         return ListSequence.fromList(SLinkOperations.getTargets(AttributeOperations.getAttribute(it, new IAttributeDescriptor.NodeAttribute("org.campagnelab.hta.tables.structure.ColumnAnnotation")), "groups", true)).any(new IWhereFilter<SNode>() {
           public boolean accept(SNode it) {
-            return eq_x583g4_a0a0a0a0a0a0a0a0a0a0a71(SPropertyOperations.getString(SLinkOperations.getTarget(it, "columnGroup", false), "name"), "ID");
+            return eq_x583g4_a0a0a0a0a0a0a0a0a0a0a91(SPropertyOperations.getString(SLinkOperations.getTarget(it, "columnGroup", false), "name"), "ID");
           }
         });
       }
@@ -158,6 +166,10 @@ public class QueriesGenerated {
 
   public static Object propertyMacro_GetPropertyValue_8016431400518316174(final PropertyMacroContext _context) {
     return Plot_Behavior.call_getPath_8016431400518331231(SLinkOperations.getTarget(_context.getNode(), "plot", true));
+  }
+
+  public static Object propertyMacro_GetPropertyValue_962445451565905959(final PropertyMacroContext _context) {
+    return ((SNode) _context.getNode()).getNodeId().toString();
   }
 
   public static Object propertyMacro_GetPropertyValue_4166618652718861915(final PropertyMacroContext _context) {
@@ -174,7 +186,7 @@ public class QueriesGenerated {
       public boolean accept(SNode col) {
         return ListSequence.fromList(SLinkOperations.getTargets(AttributeOperations.getAttribute(col, new IAttributeDescriptor.NodeAttribute("org.campagnelab.hta.tables.structure.ColumnAnnotation")), "groups", true)).any(new IWhereFilter<SNode>() {
           public boolean accept(SNode g) {
-            return eq_x583g4_a0a0a0a0a0a0a0a0a0a1a12("ID", SPropertyOperations.getString(SLinkOperations.getTarget(g, "columnGroup", false), "name"));
+            return eq_x583g4_a0a0a0a0a0a0a0a0a0a1a42("ID", SPropertyOperations.getString(SLinkOperations.getTarget(g, "columnGroup", false), "name"));
           }
         });
       }
@@ -196,6 +208,10 @@ public class QueriesGenerated {
 
   public static Object propertyMacro_GetPropertyValue_4166618652720481135(final PropertyMacroContext _context) {
     return FutureTable_Behavior.call_getCleanTableName_4166618652720345586(SLinkOperations.getTarget(_context.getNode(), "destination", true));
+  }
+
+  public static Object propertyMacro_GetPropertyValue_962445451565883665(final PropertyMacroContext _context) {
+    return ((SNode) _context.getNode()).getNodeId().toString();
   }
 
   public static boolean ifMacro_Condition_1549006859295113839(final IfMacroContext _context) {
@@ -240,15 +256,15 @@ public class QueriesGenerated {
     return SLinkOperations.getTarget(ListSequence.fromList(SLinkOperations.getTargets(_context.getNode(), "inputTables", true)).first(), "table", false);
   }
 
-  private static boolean eq_x583g4_a0a0a0a0a0a0a0a0a0a0a0a0a8a31(Object a, Object b) {
+  private static boolean eq_x583g4_a0a0a0a0a0a0a0a0a0a0a0a0a8a51(Object a, Object b) {
     return (a != null ? a.equals(b) : a == b);
   }
 
-  private static boolean eq_x583g4_a0a0a0a0a0a0a0a0a0a0a71(Object a, Object b) {
+  private static boolean eq_x583g4_a0a0a0a0a0a0a0a0a0a0a91(Object a, Object b) {
     return (a != null ? a.equals(b) : a == b);
   }
 
-  private static boolean eq_x583g4_a0a0a0a0a0a0a0a0a0a1a12(Object a, Object b) {
+  private static boolean eq_x583g4_a0a0a0a0a0a0a0a0a0a1a42(Object a, Object b) {
     return (a != null ? a.equals(b) : a == b);
   }
 }

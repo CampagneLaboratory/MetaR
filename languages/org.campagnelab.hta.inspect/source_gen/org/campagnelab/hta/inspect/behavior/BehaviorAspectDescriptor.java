@@ -14,10 +14,12 @@ public class BehaviorAspectDescriptor implements jetbrains.mps.smodel.runtime.Be
     switch (Arrays.binarySearch(stringSwitchCases_846f5o_a0a0b, fqName)) {
       case 0:
         return new InspectTable_BehaviorDescriptor();
+      case 1:
+        return new StatementTrace_BehaviorDescriptor();
       default:
         return BehaviorAspectInterpreted.getInstance().getDescriptor(fqName);
     }
   }
 
-  private static String[] stringSwitchCases_846f5o_a0a0b = new String[]{"org.campagnelab.hta.inspect.structure.InspectTable"};
+  private static String[] stringSwitchCases_846f5o_a0a0b = new String[]{"org.campagnelab.hta.inspect.structure.InspectTable", "org.campagnelab.hta.inspect.structure.StatementTrace"};
 }

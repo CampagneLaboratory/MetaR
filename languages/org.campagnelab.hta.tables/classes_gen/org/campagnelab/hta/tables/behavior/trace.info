@@ -1,0 +1,575 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debugInfo>
+  <unitInfo fileName="AbstractRowFilter_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="org.campagnelab.hta.tables.behavior.AbstractRowFilter_BehaviorDescriptor" />
+  <unitInfo fileName="BehaviorAspectDescriptor.java" startLine="9" startPosition="0" endLine="62" endPosition="0" unitName="org.campagnelab.hta.tables.behavior.BehaviorAspectDescriptor" />
+  <unitInfo fileName="ColumnAnnotation_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="org.campagnelab.hta.tables.behavior.ColumnAnnotation_BehaviorDescriptor" />
+  <unitInfo fileName="ColumnGroupContainer_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="org.campagnelab.hta.tables.behavior.ColumnGroupContainer_BehaviorDescriptor" />
+  <unitInfo fileName="ColumnGroupReference_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="org.campagnelab.hta.tables.behavior.ColumnGroupReference_BehaviorDescriptor" />
+  <unitInfo fileName="ColumnGroup_BehaviorDescriptor.java" startLine="10" startPosition="0" endLine="23" endPosition="0" unitName="org.campagnelab.hta.tables.behavior.ColumnGroup_BehaviorDescriptor" />
+  <unitInfo fileName="ColumnRef_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="org.campagnelab.hta.tables.behavior.ColumnRef_BehaviorDescriptor" />
+  <unitInfo fileName="CommonColumnSelection_BehaviorDescriptor.java" startLine="8" startPosition="0" endLine="21" endPosition="0" unitName="org.campagnelab.hta.tables.behavior.CommonColumnSelection_BehaviorDescriptor" />
+  <unitInfo fileName="DataTableStatement_BehaviorDescriptor.java" startLine="9" startPosition="0" endLine="22" endPosition="0" unitName="org.campagnelab.hta.tables.behavior.DataTableStatement_BehaviorDescriptor" />
+  <unitInfo fileName="DefinableObject_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="org.campagnelab.hta.tables.behavior.DefinableObject_BehaviorDescriptor" />
+  <unitInfo fileName="Define_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="org.campagnelab.hta.tables.behavior.Define_BehaviorDescriptor" />
+  <unitInfo fileName="FilterWithIDList_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="org.campagnelab.hta.tables.behavior.FilterWithIDList_BehaviorDescriptor" />
+  <unitInfo fileName="FutureTableRef_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="org.campagnelab.hta.tables.behavior.FutureTableRef_BehaviorDescriptor" />
+  <unitInfo fileName="FutureTable_BehaviorDescriptor.java" startLine="10" startPosition="0" endLine="23" endPosition="0" unitName="org.campagnelab.hta.tables.behavior.FutureTable_BehaviorDescriptor" />
+  <unitInfo fileName="Heatmap_BehaviorDescriptor.java" startLine="11" startPosition="0" endLine="32" endPosition="0" unitName="org.campagnelab.hta.tables.behavior.Heatmap_BehaviorDescriptor" />
+  <unitInfo fileName="IColumnNames_BehaviorDescriptor.java" startLine="8" startPosition="0" endLine="11" endPosition="0" unitName="org.campagnelab.hta.tables.behavior.IColumnNames_BehaviorDescriptor" />
+  <unitInfo fileName="ID_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="org.campagnelab.hta.tables.behavior.ID_BehaviorDescriptor" />
+  <unitInfo fileName="ImportTable_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="org.campagnelab.hta.tables.behavior.ImportTable_BehaviorDescriptor" />
+  <unitInfo fileName="JoinTables_BehaviorDescriptor.java" startLine="9" startPosition="0" endLine="26" endPosition="0" unitName="org.campagnelab.hta.tables.behavior.JoinTables_BehaviorDescriptor" />
+  <unitInfo fileName="KeySelection_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="org.campagnelab.hta.tables.behavior.KeySelection_BehaviorDescriptor" />
+  <unitInfo fileName="Plot_BehaviorDescriptor.java" startLine="10" startPosition="0" endLine="23" endPosition="0" unitName="org.campagnelab.hta.tables.behavior.Plot_BehaviorDescriptor" />
+  <unitInfo fileName="RowFilter_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="8" endPosition="0" unitName="org.campagnelab.hta.tables.behavior.RowFilter_BehaviorDescriptor" />
+  <unitInfo fileName="SelectByGroup_BehaviorDescriptor.java" startLine="8" startPosition="0" endLine="21" endPosition="0" unitName="org.campagnelab.hta.tables.behavior.SelectByGroup_BehaviorDescriptor" />
+  <unitInfo fileName="SetOfIds_BehaviorDescriptor.java" startLine="9" startPosition="0" endLine="22" endPosition="0" unitName="org.campagnelab.hta.tables.behavior.SetOfIds_BehaviorDescriptor" />
+  <unitInfo fileName="SubSetTableRows_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="org.campagnelab.hta.tables.behavior.SubSetTableRows_BehaviorDescriptor" />
+  <unitInfo fileName="TableTransformation_BehaviorDescriptor.java" startLine="11" startPosition="0" endLine="28" endPosition="0" unitName="org.campagnelab.hta.tables.behavior.TableTransformation_BehaviorDescriptor" />
+  <unitInfo fileName="Table_BehaviorDescriptor.java" startLine="10" startPosition="0" endLine="23" endPosition="0" unitName="org.campagnelab.hta.tables.behavior.Table_BehaviorDescriptor" />
+  <unitInfo fileName="UsageType_BehaviorDescriptor.java" startLine="10" startPosition="0" endLine="23" endPosition="0" unitName="org.campagnelab.hta.tables.behavior.UsageType_BehaviorDescriptor" />
+  <unitInfo fileName="UsesDataTable_BehaviorDescriptor.java" startLine="8" startPosition="0" endLine="11" endPosition="0" unitName="org.campagnelab.hta.tables.behavior.UsesDataTable_BehaviorDescriptor" />
+  <root nodeRef="r:db1b133e-9a0f-4319-b384-413408eb1729(org.campagnelab.hta.tables.behavior)/3402264987259878127">
+    <nodeInfo nodeId="3402264987259878333" fileName="TableTransformation_Behavior.java" startLine="27" startPosition="43" endLine="28" endPosition="153" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3402264987262425913" fileName="TableTransformation_Behavior.java" startLine="32" startPosition="107" endLine="33" endPosition="76" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3402264987264071029" fileName="TableTransformation_Behavior.java" startLine="33" startPosition="76" endLine="34" endPosition="86" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3402264987264465339" fileName="TableTransformation_Behavior.java" startLine="34" startPosition="86" endLine="35" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
+    <nodeInfo nodeId="3402264987265124832" fileName="TableTransformation_Behavior.java" startLine="39" startPosition="45" endLine="40" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3402264987265124836" fileName="TableTransformation_Behavior.java" startLine="40" startPosition="24" endLine="41" endPosition="194" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3402264987265124859" fileName="TableTransformation_Behavior.java" startLine="41" startPosition="194" endLine="42" endPosition="103" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3402264987265124871" fileName="TableTransformation_Behavior.java" startLine="43" startPosition="50" endLine="44" endPosition="102" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3402264987263544393" fileName="TableTransformation_Behavior.java" startLine="49" startPosition="9" endLine="50" endPosition="121" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3402264987263698935" fileName="TableTransformation_Behavior.java" startLine="52" startPosition="41" endLine="53" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="3402264987263698935" fileName="TableTransformation_Behavior.java" startLine="56" startPosition="39" endLine="57" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="3402264987263698935" fileName="TableTransformation_Behavior.java" startLine="60" startPosition="41" endLine="61" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="3402264987263698935" fileName="TableTransformation_Behavior.java" startLine="64" startPosition="39" endLine="65" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="3402264987263699734" fileName="TableTransformation_Behavior.java" startLine="68" startPosition="52" endLine="69" endPosition="65" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="3402264987264451184" fileName="TableTransformation_Behavior.java" startLine="72" startPosition="45" endLine="73" endPosition="108" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="3402264987262534656" fileName="TableTransformation_Behavior.java" startLine="75" startPosition="10" endLine="76" endPosition="85" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="3402264987262537799" fileName="TableTransformation_Behavior.java" startLine="77" startPosition="5" endLine="78" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="772483346259749824" fileName="TableTransformation_Behavior.java" startLine="81" startPosition="85" endLine="82" endPosition="247" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="772483346259697556" fileName="TableTransformation_Behavior.java" startLine="85" startPosition="102" endLine="86" endPosition="67" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="3402264987259878127" fileName="TableTransformation_Behavior.java" startLine="89" startPosition="0" endLine="90" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="LOG" />
+    <nodeInfo nodeId="3402264987259878127" fileName="TableTransformation_Behavior.java" startLine="27" startPosition="0" endLine="30" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+    <nodeInfo nodeId="3402264987265124871" fileName="TableTransformation_Behavior.java" startLine="42" startPosition="103" endLine="45" endPosition="15" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="3402264987265124871" fileName="TableTransformation_Behavior.java" startLine="42" startPosition="103" endLine="45" endPosition="15" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="3402264987263698935" fileName="TableTransformation_Behavior.java" startLine="52" startPosition="0" endLine="55" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="accept#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
+    <nodeInfo nodeId="3402264987263698935" fileName="TableTransformation_Behavior.java" startLine="56" startPosition="0" endLine="59" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="select#(Lorg/jetbrains/mps/openapi/model/SNode;)Lorg/jetbrains/mps/openapi/model/SNode;" />
+    <nodeInfo nodeId="3402264987263698935" fileName="TableTransformation_Behavior.java" startLine="60" startPosition="0" endLine="63" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="accept#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
+    <nodeInfo nodeId="3402264987263698935" fileName="TableTransformation_Behavior.java" startLine="64" startPosition="0" endLine="67" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="select#(Lorg/jetbrains/mps/openapi/model/SNode;)Lorg/jetbrains/mps/openapi/model/SNode;" />
+    <nodeInfo nodeId="3402264987263699734" fileName="TableTransformation_Behavior.java" startLine="68" startPosition="0" endLine="71" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="translate#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/Iterable;" />
+    <nodeInfo nodeId="3402264987264451182" fileName="TableTransformation_Behavior.java" startLine="72" startPosition="0" endLine="75" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="accept#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
+    <nodeInfo nodeId="3402264987259878127" fileName="TableTransformation_Behavior.java" startLine="81" startPosition="0" endLine="84" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="call_Rname_772483346259656770#(Lorg/jetbrains/mps/openapi/model/SNode;Ljava/lang/String;)Ljava/lang/String;" />
+    <nodeInfo nodeId="3402264987259878127" fileName="TableTransformation_Behavior.java" startLine="85" startPosition="0" endLine="88" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="call_RName_772483346259745987#(Lorg/jetbrains/mps/openapi/language/SAbstractConcept;Ljava/lang/String;)Ljava/lang/String;" />
+    <nodeInfo nodeId="3402264987265123284" fileName="TableTransformation_Behavior.java" startLine="39" startPosition="0" endLine="47" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="visit#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+    <nodeInfo nodeId="3402264987265095914" fileName="TableTransformation_Behavior.java" startLine="37" startPosition="40" endLine="47" endPosition="13" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3402264987265095002" fileName="TableTransformation_Behavior.java" startLine="37" startPosition="0" endLine="49" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="visit#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+    <nodeInfo nodeId="3402264987265084141" fileName="TableTransformation_Behavior.java" startLine="35" startPosition="0" endLine="49" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3402264987263669988" fileName="TableTransformation_Behavior.java" startLine="50" startPosition="121" endLine="75" endPosition="10" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3402264987262311353" fileName="TableTransformation_Behavior.java" startLine="31" startPosition="101" endLine="77" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="3402264987259878127" fileName="TableTransformation_Behavior.java" startLine="31" startPosition="0" endLine="80" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_getScope_3734116213129936182#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/scope/Scope;" />
+    <scopeInfo nodeId="3402264987259878280" fileName="TableTransformation_Behavior.java" startLine="27" startPosition="43" endLine="28" endPosition="153" />
+    <scopeInfo nodeId="3402264987265124871" fileName="TableTransformation_Behavior.java" startLine="43" startPosition="50" endLine="44" endPosition="102" />
+    <scopeInfo nodeId="3402264987263698935" fileName="TableTransformation_Behavior.java" startLine="52" startPosition="41" endLine="53" endPosition="73" />
+    <scopeInfo nodeId="3402264987263698935" fileName="TableTransformation_Behavior.java" startLine="56" startPosition="39" endLine="57" endPosition="63" />
+    <scopeInfo nodeId="3402264987263698935" fileName="TableTransformation_Behavior.java" startLine="60" startPosition="41" endLine="61" endPosition="73" />
+    <scopeInfo nodeId="3402264987263698935" fileName="TableTransformation_Behavior.java" startLine="64" startPosition="39" endLine="65" endPosition="63" />
+    <scopeInfo nodeId="3402264987263699734" fileName="TableTransformation_Behavior.java" startLine="68" startPosition="52" endLine="69" endPosition="65" />
+    <scopeInfo nodeId="3402264987264451183" fileName="TableTransformation_Behavior.java" startLine="72" startPosition="45" endLine="73" endPosition="108" />
+    <scopeInfo nodeId="772483346259656924" fileName="TableTransformation_Behavior.java" startLine="81" startPosition="85" endLine="82" endPosition="247" />
+    <scopeInfo nodeId="772483346259745990" fileName="TableTransformation_Behavior.java" startLine="85" startPosition="102" endLine="86" endPosition="67" />
+    <scopeInfo nodeId="3402264987259878127" fileName="TableTransformation_Behavior.java" startLine="27" startPosition="0" endLine="30" endPosition="0">
+      <varInfo nodeId="3402264987259878127" varName="thisNode" />
+    </scopeInfo>
+    <scopeInfo nodeId="3402264987265124871" fileName="TableTransformation_Behavior.java" startLine="42" startPosition="103" endLine="45" endPosition="15" />
+    <scopeInfo nodeId="3402264987263698935" fileName="TableTransformation_Behavior.java" startLine="52" startPosition="0" endLine="55" endPosition="0">
+      <varInfo nodeId="3402264987263698935" varName="it" />
+    </scopeInfo>
+    <scopeInfo nodeId="3402264987263698935" fileName="TableTransformation_Behavior.java" startLine="56" startPosition="0" endLine="59" endPosition="0">
+      <varInfo nodeId="3402264987263698935" varName="it" />
+    </scopeInfo>
+    <scopeInfo nodeId="3402264987263698935" fileName="TableTransformation_Behavior.java" startLine="60" startPosition="0" endLine="63" endPosition="0">
+      <varInfo nodeId="3402264987263698935" varName="it" />
+    </scopeInfo>
+    <scopeInfo nodeId="3402264987263698935" fileName="TableTransformation_Behavior.java" startLine="64" startPosition="0" endLine="67" endPosition="0">
+      <varInfo nodeId="3402264987263698935" varName="it" />
+    </scopeInfo>
+    <scopeInfo nodeId="3402264987263699734" fileName="TableTransformation_Behavior.java" startLine="68" startPosition="0" endLine="71" endPosition="0">
+      <varInfo nodeId="3402264987263699734" varName="it" />
+    </scopeInfo>
+    <scopeInfo nodeId="3402264987264451182" fileName="TableTransformation_Behavior.java" startLine="72" startPosition="0" endLine="75" endPosition="0">
+      <varInfo nodeId="3402264987264451182" varName="column" />
+    </scopeInfo>
+    <scopeInfo nodeId="3402264987259878127" fileName="TableTransformation_Behavior.java" startLine="81" startPosition="0" endLine="84" endPosition="0">
+      <varInfo nodeId="772483346259657660" varName="fileId" />
+      <varInfo nodeId="3402264987259878127" varName="thisNode" />
+    </scopeInfo>
+    <scopeInfo nodeId="3402264987259878127" fileName="TableTransformation_Behavior.java" startLine="85" startPosition="0" endLine="88" endPosition="0">
+      <varInfo nodeId="772483346259751715" varName="inputName" />
+      <varInfo nodeId="3402264987259878127" varName="thisConcept" />
+    </scopeInfo>
+    <scopeInfo nodeId="3402264987265123285" fileName="TableTransformation_Behavior.java" startLine="39" startPosition="45" endLine="45" endPosition="15">
+      <varInfo nodeId="3402264987265124833" varName="count" />
+    </scopeInfo>
+    <scopeInfo nodeId="3402264987265123284" fileName="TableTransformation_Behavior.java" startLine="39" startPosition="0" endLine="47" endPosition="0">
+      <varInfo nodeId="3402264987265123284" varName="column" />
+    </scopeInfo>
+    <scopeInfo nodeId="3402264987265095003" fileName="TableTransformation_Behavior.java" startLine="37" startPosition="40" endLine="47" endPosition="13" />
+    <scopeInfo nodeId="3402264987265095002" fileName="TableTransformation_Behavior.java" startLine="37" startPosition="0" endLine="49" endPosition="0">
+      <varInfo nodeId="3402264987265095002" varName="table" />
+    </scopeInfo>
+    <scopeInfo nodeId="3402264987262311354" fileName="TableTransformation_Behavior.java" startLine="32" startPosition="107" endLine="76" endPosition="85">
+      <varInfo nodeId="3402264987264071030" varName="columnNameCount" />
+      <varInfo nodeId="3402264987262425916" varName="columnSet" />
+      <varInfo nodeId="3402264987263544396" varName="numTables" />
+    </scopeInfo>
+    <scopeInfo nodeId="3402264987262311127" fileName="TableTransformation_Behavior.java" startLine="31" startPosition="101" endLine="78" endPosition="16" />
+    <scopeInfo nodeId="3402264987259878127" fileName="TableTransformation_Behavior.java" startLine="31" startPosition="0" endLine="80" endPosition="0">
+      <varInfo nodeId="3402264987262311130" varName="child" />
+      <varInfo nodeId="3402264987262311128" varName="kind" />
+      <varInfo nodeId="3402264987259878127" varName="thisNode" />
+    </scopeInfo>
+    <unitInfo nodeId="3402264987263698935" fileName="TableTransformation_Behavior.java" startLine="51" startPosition="142" endLine="55" endPosition="7" unitName="org.campagnelab.hta.tables.behavior.TableTransformation_Behavior$2" />
+    <unitInfo nodeId="3402264987263698935" fileName="TableTransformation_Behavior.java" startLine="55" startPosition="20" endLine="59" endPosition="7" unitName="org.campagnelab.hta.tables.behavior.TableTransformation_Behavior$3" />
+    <unitInfo nodeId="3402264987263698935" fileName="TableTransformation_Behavior.java" startLine="59" startPosition="19" endLine="63" endPosition="7" unitName="org.campagnelab.hta.tables.behavior.TableTransformation_Behavior$4" />
+    <unitInfo nodeId="3402264987263698935" fileName="TableTransformation_Behavior.java" startLine="63" startPosition="20" endLine="67" endPosition="7" unitName="org.campagnelab.hta.tables.behavior.TableTransformation_Behavior$5" />
+    <unitInfo nodeId="3402264987263699734" fileName="TableTransformation_Behavior.java" startLine="67" startPosition="23" endLine="71" endPosition="7" unitName="org.campagnelab.hta.tables.behavior.TableTransformation_Behavior$6" />
+    <unitInfo nodeId="3402264987264451182" fileName="TableTransformation_Behavior.java" startLine="71" startPosition="19" endLine="75" endPosition="7" unitName="org.campagnelab.hta.tables.behavior.TableTransformation_Behavior$7" />
+    <unitInfo nodeId="3402264987265123284" fileName="TableTransformation_Behavior.java" startLine="38" startPosition="183" endLine="47" endPosition="11" unitName="org.campagnelab.hta.tables.behavior.TableTransformation_Behavior$2" />
+    <unitInfo nodeId="3402264987265095002" fileName="TableTransformation_Behavior.java" startLine="36" startPosition="100" endLine="49" endPosition="7" unitName="org.campagnelab.hta.tables.behavior.TableTransformation_Behavior$1" />
+    <unitInfo nodeId="3402264987259878127" fileName="TableTransformation_Behavior.java" startLine="26" startPosition="0" endLine="91" endPosition="0" unitName="org.campagnelab.hta.tables.behavior.TableTransformation_Behavior" />
+  </root>
+  <root nodeRef="r:db1b133e-9a0f-4319-b384-413408eb1729(org.campagnelab.hta.tables.behavior)/3402264987260032015">
+    <nodeInfo nodeId="3402264987260032019" fileName="Table_Behavior.java" startLine="9" startPosition="43" endLine="10" endPosition="50" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3402264987260032015" fileName="Table_Behavior.java" startLine="9" startPosition="0" endLine="12" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+    <scopeInfo nodeId="3402264987260032017" fileName="Table_Behavior.java" startLine="9" startPosition="43" endLine="10" endPosition="50" />
+    <scopeInfo nodeId="3402264987260032015" fileName="Table_Behavior.java" startLine="9" startPosition="0" endLine="12" endPosition="0">
+      <varInfo nodeId="3402264987260032015" varName="thisNode" />
+    </scopeInfo>
+    <unitInfo nodeId="3402264987260032015" fileName="Table_Behavior.java" startLine="8" startPosition="0" endLine="13" endPosition="0" unitName="org.campagnelab.hta.tables.behavior.Table_Behavior" />
+  </root>
+  <root nodeRef="r:db1b133e-9a0f-4319-b384-413408eb1729(org.campagnelab.hta.tables.behavior)/3402264987266178454">
+    <nodeInfo nodeId="3402264987266178454" fileName="ColumnAnnotation_Behavior.java" startLine="8" startPosition="0" endLine="10" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+    <scopeInfo nodeId="3402264987266178456" fileName="ColumnAnnotation_Behavior.java" startLine="8" startPosition="43" endLine="8" endPosition="43" />
+    <scopeInfo nodeId="3402264987266178454" fileName="ColumnAnnotation_Behavior.java" startLine="8" startPosition="0" endLine="10" endPosition="0">
+      <varInfo nodeId="3402264987266178454" varName="thisNode" />
+    </scopeInfo>
+    <unitInfo nodeId="3402264987266178454" fileName="ColumnAnnotation_Behavior.java" startLine="7" startPosition="0" endLine="11" endPosition="0" unitName="org.campagnelab.hta.tables.behavior.ColumnAnnotation_Behavior" />
+  </root>
+  <root nodeRef="r:db1b133e-9a0f-4319-b384-413408eb1729(org.campagnelab.hta.tables.behavior)/3402264987266367785">
+    <nodeInfo nodeId="3402264987266367864" fileName="ColumnGroupContainer_Behavior.java" startLine="15" startPosition="105" endLine="16" endPosition="164" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3402264987266374098" fileName="ColumnGroupContainer_Behavior.java" startLine="17" startPosition="28" endLine="18" endPosition="23" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="3402264987266380853" fileName="ColumnGroupContainer_Behavior.java" startLine="19" startPosition="5" endLine="20" endPosition="125" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3402264987266386058" fileName="ColumnGroupContainer_Behavior.java" startLine="20" startPosition="125" endLine="21" endPosition="21" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="3402264987266367785" fileName="ColumnGroupContainer_Behavior.java" startLine="12" startPosition="0" endLine="14" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+    <nodeInfo nodeId="3402264987266372739" fileName="ColumnGroupContainer_Behavior.java" startLine="16" startPosition="164" endLine="19" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="3402264987266367785" fileName="ColumnGroupContainer_Behavior.java" startLine="15" startPosition="0" endLine="23" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="call_getContainer_3402264987266367839#(Lorg/jetbrains/mps/openapi/language/SAbstractConcept;Lorg/jetbrains/mps/openapi/model/SModel;)Lorg/jetbrains/mps/openapi/model/SNode;" />
+    <scopeInfo nodeId="3402264987266367787" fileName="ColumnGroupContainer_Behavior.java" startLine="12" startPosition="43" endLine="12" endPosition="43" />
+    <scopeInfo nodeId="3402264987266372742" fileName="ColumnGroupContainer_Behavior.java" startLine="17" startPosition="28" endLine="18" endPosition="23" />
+    <scopeInfo nodeId="3402264987266367785" fileName="ColumnGroupContainer_Behavior.java" startLine="12" startPosition="0" endLine="14" endPosition="0">
+      <varInfo nodeId="3402264987266367785" varName="thisNode" />
+    </scopeInfo>
+    <scopeInfo nodeId="3402264987266367842" fileName="ColumnGroupContainer_Behavior.java" startLine="15" startPosition="105" endLine="21" endPosition="21">
+      <varInfo nodeId="3402264987266367867" varName="container" />
+    </scopeInfo>
+    <scopeInfo nodeId="3402264987266367785" fileName="ColumnGroupContainer_Behavior.java" startLine="15" startPosition="0" endLine="23" endPosition="0">
+      <varInfo nodeId="3402264987266368556" varName="model" />
+      <varInfo nodeId="3402264987266367785" varName="thisConcept" />
+    </scopeInfo>
+    <unitInfo nodeId="3402264987266367785" fileName="ColumnGroupContainer_Behavior.java" startLine="11" startPosition="0" endLine="24" endPosition="0" unitName="org.campagnelab.hta.tables.behavior.ColumnGroupContainer_Behavior" />
+  </root>
+  <root nodeRef="r:db1b133e-9a0f-4319-b384-413408eb1729(org.campagnelab.hta.tables.behavior)/4166618652716281041">
+    <nodeInfo nodeId="4166618652716281041" fileName="RowFilter_Behavior.java" startLine="8" startPosition="0" endLine="10" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+    <scopeInfo nodeId="4166618652716281345" fileName="RowFilter_Behavior.java" startLine="8" startPosition="43" endLine="8" endPosition="43" />
+    <scopeInfo nodeId="4166618652716281041" fileName="RowFilter_Behavior.java" startLine="8" startPosition="0" endLine="10" endPosition="0">
+      <varInfo nodeId="4166618652716281041" varName="thisNode" />
+    </scopeInfo>
+    <unitInfo nodeId="4166618652716281041" fileName="RowFilter_Behavior.java" startLine="7" startPosition="0" endLine="11" endPosition="0" unitName="org.campagnelab.hta.tables.behavior.RowFilter_Behavior" />
+  </root>
+  <root nodeRef="r:db1b133e-9a0f-4319-b384-413408eb1729(org.campagnelab.hta.tables.behavior)/6825610851347871563">
+    <nodeInfo nodeId="6825610851347872258" fileName="SubSetTableRows_Behavior.java" startLine="11" startPosition="43" endLine="12" endPosition="153" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6825610851347875024" fileName="SubSetTableRows_Behavior.java" startLine="12" startPosition="153" endLine="13" endPosition="104" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6825610851347871563" fileName="SubSetTableRows_Behavior.java" startLine="11" startPosition="0" endLine="15" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+    <scopeInfo nodeId="6825610851347871565" fileName="SubSetTableRows_Behavior.java" startLine="11" startPosition="43" endLine="13" endPosition="104" />
+    <scopeInfo nodeId="6825610851347871563" fileName="SubSetTableRows_Behavior.java" startLine="11" startPosition="0" endLine="15" endPosition="0">
+      <varInfo nodeId="6825610851347871563" varName="thisNode" />
+    </scopeInfo>
+    <unitInfo nodeId="6825610851347871563" fileName="SubSetTableRows_Behavior.java" startLine="10" startPosition="0" endLine="16" endPosition="0" unitName="org.campagnelab.hta.tables.behavior.SubSetTableRows_Behavior" />
+  </root>
+  <root nodeRef="r:db1b133e-9a0f-4319-b384-413408eb1729(org.campagnelab.hta.tables.behavior)/6853668812000783395">
+    <nodeInfo nodeId="6853668812000783395" fileName="ImportTable_Behavior.java" startLine="8" startPosition="0" endLine="10" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+    <scopeInfo nodeId="6853668812000783397" fileName="ImportTable_Behavior.java" startLine="8" startPosition="43" endLine="8" endPosition="43" />
+    <scopeInfo nodeId="6853668812000783395" fileName="ImportTable_Behavior.java" startLine="8" startPosition="0" endLine="10" endPosition="0">
+      <varInfo nodeId="6853668812000783395" varName="thisNode" />
+    </scopeInfo>
+    <unitInfo nodeId="6853668812000783395" fileName="ImportTable_Behavior.java" startLine="7" startPosition="0" endLine="11" endPosition="0" unitName="org.campagnelab.hta.tables.behavior.ImportTable_Behavior" />
+  </root>
+  <root nodeRef="r:db1b133e-9a0f-4319-b384-413408eb1729(org.campagnelab.hta.tables.behavior)/6853668812000783517">
+    <nodeInfo nodeId="6853668812000784355" fileName="DataTableStatement_Behavior.java" startLine="13" startPosition="91" endLine="14" endPosition="80" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6853668812000783517" fileName="DataTableStatement_Behavior.java" startLine="10" startPosition="0" endLine="12" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+    <nodeInfo nodeId="6853668812000783517" fileName="DataTableStatement_Behavior.java" startLine="13" startPosition="0" endLine="16" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_dependencies_6853668812000956111#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/Iterable;" />
+    <scopeInfo nodeId="6853668812000783519" fileName="DataTableStatement_Behavior.java" startLine="10" startPosition="43" endLine="10" endPosition="43" />
+    <scopeInfo nodeId="6853668812000783529" fileName="DataTableStatement_Behavior.java" startLine="13" startPosition="91" endLine="14" endPosition="80" />
+    <scopeInfo nodeId="6853668812000783517" fileName="DataTableStatement_Behavior.java" startLine="10" startPosition="0" endLine="12" endPosition="0">
+      <varInfo nodeId="6853668812000783517" varName="thisNode" />
+    </scopeInfo>
+    <scopeInfo nodeId="6853668812000783517" fileName="DataTableStatement_Behavior.java" startLine="13" startPosition="0" endLine="16" endPosition="0">
+      <varInfo nodeId="6853668812000783517" varName="thisNode" />
+    </scopeInfo>
+    <unitInfo nodeId="6853668812000783517" fileName="DataTableStatement_Behavior.java" startLine="9" startPosition="0" endLine="17" endPosition="0" unitName="org.campagnelab.hta.tables.behavior.DataTableStatement_Behavior" />
+  </root>
+  <root nodeRef="r:db1b133e-9a0f-4319-b384-413408eb1729(org.campagnelab.hta.tables.behavior)/6853668812000880060">
+    <nodeInfo nodeId="6853668812000880843" fileName="UsesDataTable_Behavior.java" startLine="16" startPosition="91" endLine="17" endPosition="80" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6853668812000880060" fileName="UsesDataTable_Behavior.java" startLine="21" startPosition="88" endLine="22" endPosition="164" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6853668812000880060" fileName="UsesDataTable_Behavior.java" startLine="26" startPosition="121" endLine="27" endPosition="296" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6853668812000880060" fileName="UsesDataTable_Behavior.java" startLine="13" startPosition="0" endLine="15" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+    <nodeInfo nodeId="6853668812000880060" fileName="UsesDataTable_Behavior.java" startLine="16" startPosition="0" endLine="19" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_dependencies_6853668812000956111#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/Iterable;" />
+    <nodeInfo nodeId="6853668812000880060" fileName="UsesDataTable_Behavior.java" startLine="20" startPosition="0" endLine="24" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="call_dependencies_6853668812000880840#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/Iterable;" />
+    <nodeInfo nodeId="6853668812000880060" fileName="UsesDataTable_Behavior.java" startLine="25" startPosition="0" endLine="29" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="callSuper_dependencies_6853668812000880840#(Lorg/jetbrains/mps/openapi/model/SNode;Ljava/lang/String;)Ljava/lang/Iterable;" />
+    <scopeInfo nodeId="6853668812000880062" fileName="UsesDataTable_Behavior.java" startLine="13" startPosition="43" endLine="13" endPosition="43" />
+    <scopeInfo nodeId="6853668812000880842" fileName="UsesDataTable_Behavior.java" startLine="16" startPosition="91" endLine="17" endPosition="80" />
+    <scopeInfo nodeId="6853668812000880060" fileName="UsesDataTable_Behavior.java" startLine="21" startPosition="88" endLine="22" endPosition="164" />
+    <scopeInfo nodeId="6853668812000880060" fileName="UsesDataTable_Behavior.java" startLine="26" startPosition="121" endLine="27" endPosition="296" />
+    <scopeInfo nodeId="6853668812000880060" fileName="UsesDataTable_Behavior.java" startLine="13" startPosition="0" endLine="15" endPosition="0">
+      <varInfo nodeId="6853668812000880060" varName="thisNode" />
+    </scopeInfo>
+    <scopeInfo nodeId="6853668812000880060" fileName="UsesDataTable_Behavior.java" startLine="16" startPosition="0" endLine="19" endPosition="0">
+      <varInfo nodeId="6853668812000880060" varName="thisNode" />
+    </scopeInfo>
+    <scopeInfo nodeId="6853668812000880060" fileName="UsesDataTable_Behavior.java" startLine="20" startPosition="0" endLine="24" endPosition="0">
+      <varInfo nodeId="6853668812000880060" varName="thisNode" />
+    </scopeInfo>
+    <scopeInfo nodeId="6853668812000880060" fileName="UsesDataTable_Behavior.java" startLine="25" startPosition="0" endLine="29" endPosition="0">
+      <varInfo nodeId="6853668812000880060" varName="callerConceptFqName" />
+      <varInfo nodeId="6853668812000880060" varName="thisNode" />
+    </scopeInfo>
+    <unitInfo nodeId="6853668812000880060" fileName="UsesDataTable_Behavior.java" startLine="12" startPosition="0" endLine="30" endPosition="0" unitName="org.campagnelab.hta.tables.behavior.UsesDataTable_Behavior" />
+  </root>
+  <root nodeRef="r:db1b133e-9a0f-4319-b384-413408eb1729(org.campagnelab.hta.tables.behavior)/7074867102586666512">
+    <nodeInfo nodeId="7074867102586674184" fileName="Heatmap_Behavior.java" startLine="24" startPosition="91" endLine="25" endPosition="95" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6853668812000244291" fileName="Heatmap_Behavior.java" startLine="25" startPosition="95" endLine="26" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8441088421950224041" fileName="Heatmap_Behavior.java" startLine="29" startPosition="101" endLine="30" endPosition="27" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="8709280678588496060" fileName="Heatmap_Behavior.java" startLine="34" startPosition="43" endLine="35" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8709280678588496060" fileName="Heatmap_Behavior.java" startLine="38" startPosition="41" endLine="39" endPosition="71" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8441088421949928107" fileName="Heatmap_Behavior.java" startLine="44" startPosition="112" endLine="45" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8441088421949968455" fileName="Heatmap_Behavior.java" startLine="46" startPosition="5" endLine="47" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="7074867102586666512" fileName="Heatmap_Behavior.java" startLine="21" startPosition="0" endLine="23" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+    <nodeInfo nodeId="8709280678588496060" fileName="Heatmap_Behavior.java" startLine="34" startPosition="0" endLine="37" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="accept#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
+    <nodeInfo nodeId="8709280678588496060" fileName="Heatmap_Behavior.java" startLine="38" startPosition="0" endLine="41" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="select#(Lorg/jetbrains/mps/openapi/model/SNode;)Lorg/jetbrains/mps/openapi/model/SNode;" />
+    <nodeInfo nodeId="8441088421949927681" fileName="Heatmap_Behavior.java" startLine="43" startPosition="7" endLine="46" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="7074867102586666512" fileName="Heatmap_Behavior.java" startLine="24" startPosition="0" endLine="28" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_dependencies_6853668812000956111#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/Iterable;" />
+    <nodeInfo nodeId="8709280678588496059" fileName="Heatmap_Behavior.java" startLine="32" startPosition="50" endLine="41" endPosition="11" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8709280678588496057" fileName="Heatmap_Behavior.java" startLine="32" startPosition="0" endLine="43" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="translate#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/Iterable;" />
+    <nodeInfo nodeId="8441088421950224242" fileName="Heatmap_Behavior.java" startLine="30" startPosition="27" endLine="43" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="7074867102586666512" fileName="Heatmap_Behavior.java" startLine="29" startPosition="0" endLine="49" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_getScope_3734116213129936182#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/scope/Scope;" />
+    <scopeInfo nodeId="7074867102586666514" fileName="Heatmap_Behavior.java" startLine="21" startPosition="43" endLine="21" endPosition="43" />
+    <scopeInfo nodeId="8709280678588496060" fileName="Heatmap_Behavior.java" startLine="34" startPosition="43" endLine="35" endPosition="81" />
+    <scopeInfo nodeId="8709280678588496060" fileName="Heatmap_Behavior.java" startLine="38" startPosition="41" endLine="39" endPosition="71" />
+    <scopeInfo nodeId="8441088421949927682" fileName="Heatmap_Behavior.java" startLine="44" startPosition="112" endLine="45" endPosition="82" />
+    <scopeInfo nodeId="7074867102586666512" fileName="Heatmap_Behavior.java" startLine="21" startPosition="0" endLine="23" endPosition="0">
+      <varInfo nodeId="7074867102586666512" varName="thisNode" />
+    </scopeInfo>
+    <scopeInfo nodeId="6853668812000209245" fileName="Heatmap_Behavior.java" startLine="24" startPosition="91" endLine="26" endPosition="20">
+      <varInfo nodeId="7074867102586674187" varName="packages" />
+    </scopeInfo>
+    <scopeInfo nodeId="8709280678588496060" fileName="Heatmap_Behavior.java" startLine="34" startPosition="0" endLine="37" endPosition="0">
+      <varInfo nodeId="8709280678588496060" varName="it" />
+    </scopeInfo>
+    <scopeInfo nodeId="8709280678588496060" fileName="Heatmap_Behavior.java" startLine="38" startPosition="0" endLine="41" endPosition="0">
+      <varInfo nodeId="8709280678588496060" varName="it" />
+    </scopeInfo>
+    <scopeInfo nodeId="7074867102586666512" fileName="Heatmap_Behavior.java" startLine="24" startPosition="0" endLine="28" endPosition="0">
+      <varInfo nodeId="7074867102586666512" varName="thisNode" />
+    </scopeInfo>
+    <scopeInfo nodeId="8709280678588496058" fileName="Heatmap_Behavior.java" startLine="32" startPosition="50" endLine="41" endPosition="11" />
+    <scopeInfo nodeId="8709280678588496057" fileName="Heatmap_Behavior.java" startLine="32" startPosition="0" endLine="43" endPosition="0">
+      <varInfo nodeId="8709280678588496057" varName="it" />
+    </scopeInfo>
+    <scopeInfo nodeId="8441088421949925222" fileName="Heatmap_Behavior.java" startLine="29" startPosition="101" endLine="47" endPosition="16">
+      <varInfo nodeId="8441088421950224044" varName="groups" />
+    </scopeInfo>
+    <scopeInfo nodeId="7074867102586666512" fileName="Heatmap_Behavior.java" startLine="29" startPosition="0" endLine="49" endPosition="0">
+      <varInfo nodeId="8441088421949925225" varName="child" />
+      <varInfo nodeId="8441088421949925223" varName="kind" />
+      <varInfo nodeId="7074867102586666512" varName="thisNode" />
+    </scopeInfo>
+    <unitInfo nodeId="8709280678588496060" fileName="Heatmap_Behavior.java" startLine="33" startPosition="226" endLine="37" endPosition="9" unitName="org.campagnelab.hta.tables.behavior.Heatmap_Behavior$2" />
+    <unitInfo nodeId="8709280678588496060" fileName="Heatmap_Behavior.java" startLine="37" startPosition="22" endLine="41" endPosition="9" unitName="org.campagnelab.hta.tables.behavior.Heatmap_Behavior$2" />
+    <unitInfo nodeId="8709280678588496057" fileName="Heatmap_Behavior.java" startLine="31" startPosition="190" endLine="43" endPosition="5" unitName="org.campagnelab.hta.tables.behavior.Heatmap_Behavior$1" />
+    <unitInfo nodeId="7074867102586666512" fileName="Heatmap_Behavior.java" startLine="20" startPosition="0" endLine="50" endPosition="0" unitName="org.campagnelab.hta.tables.behavior.Heatmap_Behavior" />
+  </root>
+  <root nodeRef="r:db1b133e-9a0f-4319-b384-413408eb1729(org.campagnelab.hta.tables.behavior)/7074867102589853551">
+    <nodeInfo nodeId="7074867102589853667" fileName="JoinTables_Behavior.java" startLine="28" startPosition="90" endLine="29" endPosition="103" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="7074867102589853673" fileName="JoinTables_Behavior.java" startLine="29" startPosition="103" endLine="30" endPosition="53" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="7074867102589853679" fileName="JoinTables_Behavior.java" startLine="30" startPosition="53" endLine="31" endPosition="84" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="7074867102589853687" fileName="JoinTables_Behavior.java" startLine="31" startPosition="84" endLine="32" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6825610851347330000" fileName="JoinTables_Behavior.java" startLine="35" startPosition="101" endLine="36" endPosition="27" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6825610851347360723" fileName="JoinTables_Behavior.java" startLine="38" startPosition="37" endLine="39" endPosition="61" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6825610851347330007" fileName="JoinTables_Behavior.java" startLine="42" startPosition="39" endLine="43" endPosition="71" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6825610851347330007" fileName="JoinTables_Behavior.java" startLine="46" startPosition="37" endLine="47" endPosition="61" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6825610851347555473" fileName="JoinTables_Behavior.java" startLine="50" startPosition="50" endLine="51" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6825610851347330019" fileName="JoinTables_Behavior.java" startLine="56" startPosition="43" endLine="57" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6825610851347330019" fileName="JoinTables_Behavior.java" startLine="60" startPosition="41" endLine="61" endPosition="71" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6825610851347330031" fileName="JoinTables_Behavior.java" startLine="66" startPosition="112" endLine="67" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6825610851347330039" fileName="JoinTables_Behavior.java" startLine="68" startPosition="5" endLine="69" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="7074867102589853551" fileName="JoinTables_Behavior.java" startLine="73" startPosition="87" endLine="74" endPosition="163" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="7074867102589853551" fileName="JoinTables_Behavior.java" startLine="78" startPosition="120" endLine="79" endPosition="292" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="7074867102589853551" fileName="JoinTables_Behavior.java" startLine="25" startPosition="0" endLine="27" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+    <nodeInfo nodeId="6825610851347360721" fileName="JoinTables_Behavior.java" startLine="38" startPosition="0" endLine="41" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="select#(Lorg/jetbrains/mps/openapi/model/SNode;)Lorg/jetbrains/mps/openapi/model/SNode;" />
+    <nodeInfo nodeId="6825610851347330007" fileName="JoinTables_Behavior.java" startLine="42" startPosition="0" endLine="45" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="accept#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
+    <nodeInfo nodeId="6825610851347330007" fileName="JoinTables_Behavior.java" startLine="46" startPosition="0" endLine="49" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="select#(Lorg/jetbrains/mps/openapi/model/SNode;)Lorg/jetbrains/mps/openapi/model/SNode;" />
+    <nodeInfo nodeId="6825610851347555473" fileName="JoinTables_Behavior.java" startLine="50" startPosition="0" endLine="53" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="translate#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/Iterable;" />
+    <nodeInfo nodeId="6825610851347330019" fileName="JoinTables_Behavior.java" startLine="56" startPosition="0" endLine="59" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="accept#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
+    <nodeInfo nodeId="6825610851347330019" fileName="JoinTables_Behavior.java" startLine="60" startPosition="0" endLine="63" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="select#(Lorg/jetbrains/mps/openapi/model/SNode;)Lorg/jetbrains/mps/openapi/model/SNode;" />
+    <nodeInfo nodeId="6825610851347330029" fileName="JoinTables_Behavior.java" startLine="65" startPosition="7" endLine="68" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="7074867102589853551" fileName="JoinTables_Behavior.java" startLine="72" startPosition="0" endLine="76" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="call_dependencies_7074867102589853662#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/Iterable;" />
+    <nodeInfo nodeId="7074867102589853551" fileName="JoinTables_Behavior.java" startLine="77" startPosition="0" endLine="81" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="callSuper_dependencies_7074867102589853662#(Lorg/jetbrains/mps/openapi/model/SNode;Ljava/lang/String;)Ljava/lang/Iterable;" />
+    <nodeInfo nodeId="7074867102589853551" fileName="JoinTables_Behavior.java" startLine="28" startPosition="0" endLine="34" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_dependencies_7074867102589853662#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/Iterable;" />
+    <nodeInfo nodeId="6825610851347330018" fileName="JoinTables_Behavior.java" startLine="54" startPosition="50" endLine="63" endPosition="11" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6825610851347330016" fileName="JoinTables_Behavior.java" startLine="54" startPosition="0" endLine="65" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="translate#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/Iterable;" />
+    <nodeInfo nodeId="6825610851347330004" fileName="JoinTables_Behavior.java" startLine="36" startPosition="27" endLine="65" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="7074867102589853551" fileName="JoinTables_Behavior.java" startLine="35" startPosition="0" endLine="71" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_getScope_3734116213129936182#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/scope/Scope;" />
+    <scopeInfo nodeId="7074867102589853553" fileName="JoinTables_Behavior.java" startLine="25" startPosition="43" endLine="25" endPosition="43" />
+    <scopeInfo nodeId="6825610851347360722" fileName="JoinTables_Behavior.java" startLine="38" startPosition="37" endLine="39" endPosition="61" />
+    <scopeInfo nodeId="6825610851347330007" fileName="JoinTables_Behavior.java" startLine="42" startPosition="39" endLine="43" endPosition="71" />
+    <scopeInfo nodeId="6825610851347330007" fileName="JoinTables_Behavior.java" startLine="46" startPosition="37" endLine="47" endPosition="61" />
+    <scopeInfo nodeId="6825610851347555473" fileName="JoinTables_Behavior.java" startLine="50" startPosition="50" endLine="51" endPosition="63" />
+    <scopeInfo nodeId="6825610851347330019" fileName="JoinTables_Behavior.java" startLine="56" startPosition="43" endLine="57" endPosition="81" />
+    <scopeInfo nodeId="6825610851347330019" fileName="JoinTables_Behavior.java" startLine="60" startPosition="41" endLine="61" endPosition="71" />
+    <scopeInfo nodeId="6825610851347330030" fileName="JoinTables_Behavior.java" startLine="66" startPosition="112" endLine="67" endPosition="82" />
+    <scopeInfo nodeId="7074867102589853551" fileName="JoinTables_Behavior.java" startLine="73" startPosition="87" endLine="74" endPosition="163" />
+    <scopeInfo nodeId="7074867102589853551" fileName="JoinTables_Behavior.java" startLine="78" startPosition="120" endLine="79" endPosition="292" />
+    <scopeInfo nodeId="7074867102589853551" fileName="JoinTables_Behavior.java" startLine="25" startPosition="0" endLine="27" endPosition="0">
+      <varInfo nodeId="7074867102589853551" varName="thisNode" />
+    </scopeInfo>
+    <scopeInfo nodeId="6825610851347360721" fileName="JoinTables_Behavior.java" startLine="38" startPosition="0" endLine="41" endPosition="0">
+      <varInfo nodeId="6825610851347360721" varName="it" />
+    </scopeInfo>
+    <scopeInfo nodeId="6825610851347330007" fileName="JoinTables_Behavior.java" startLine="42" startPosition="0" endLine="45" endPosition="0">
+      <varInfo nodeId="6825610851347330007" varName="it" />
+    </scopeInfo>
+    <scopeInfo nodeId="6825610851347330007" fileName="JoinTables_Behavior.java" startLine="46" startPosition="0" endLine="49" endPosition="0">
+      <varInfo nodeId="6825610851347330007" varName="it" />
+    </scopeInfo>
+    <scopeInfo nodeId="6825610851347555473" fileName="JoinTables_Behavior.java" startLine="50" startPosition="0" endLine="53" endPosition="0">
+      <varInfo nodeId="6825610851347555473" varName="it" />
+    </scopeInfo>
+    <scopeInfo nodeId="6825610851347330019" fileName="JoinTables_Behavior.java" startLine="56" startPosition="0" endLine="59" endPosition="0">
+      <varInfo nodeId="6825610851347330019" varName="it" />
+    </scopeInfo>
+    <scopeInfo nodeId="6825610851347330019" fileName="JoinTables_Behavior.java" startLine="60" startPosition="0" endLine="63" endPosition="0">
+      <varInfo nodeId="6825610851347330019" varName="it" />
+    </scopeInfo>
+    <scopeInfo nodeId="7074867102589853666" fileName="JoinTables_Behavior.java" startLine="28" startPosition="90" endLine="32" endPosition="20">
+      <varInfo nodeId="7074867102589853668" varName="p" />
+      <varInfo nodeId="7074867102589853680" varName="packages" />
+    </scopeInfo>
+    <scopeInfo nodeId="7074867102589853551" fileName="JoinTables_Behavior.java" startLine="72" startPosition="0" endLine="76" endPosition="0">
+      <varInfo nodeId="7074867102589853551" varName="thisNode" />
+    </scopeInfo>
+    <scopeInfo nodeId="7074867102589853551" fileName="JoinTables_Behavior.java" startLine="77" startPosition="0" endLine="81" endPosition="0">
+      <varInfo nodeId="7074867102589853551" varName="callerConceptFqName" />
+      <varInfo nodeId="7074867102589853551" varName="thisNode" />
+    </scopeInfo>
+    <scopeInfo nodeId="7074867102589853551" fileName="JoinTables_Behavior.java" startLine="28" startPosition="0" endLine="34" endPosition="0">
+      <varInfo nodeId="7074867102589853551" varName="thisNode" />
+    </scopeInfo>
+    <scopeInfo nodeId="6825610851347330017" fileName="JoinTables_Behavior.java" startLine="54" startPosition="50" endLine="63" endPosition="11" />
+    <scopeInfo nodeId="6825610851347330016" fileName="JoinTables_Behavior.java" startLine="54" startPosition="0" endLine="65" endPosition="0">
+      <varInfo nodeId="6825610851347330016" varName="it" />
+    </scopeInfo>
+    <scopeInfo nodeId="6825610851347329999" fileName="JoinTables_Behavior.java" startLine="35" startPosition="101" endLine="69" endPosition="16">
+      <varInfo nodeId="6825610851347330001" varName="groups" />
+    </scopeInfo>
+    <scopeInfo nodeId="7074867102589853551" fileName="JoinTables_Behavior.java" startLine="35" startPosition="0" endLine="71" endPosition="0">
+      <varInfo nodeId="6825610851347330043" varName="child" />
+      <varInfo nodeId="6825610851347330041" varName="kind" />
+      <varInfo nodeId="7074867102589853551" varName="thisNode" />
+    </scopeInfo>
+    <unitInfo nodeId="6825610851347360721" fileName="JoinTables_Behavior.java" startLine="37" startPosition="105" endLine="41" endPosition="5" unitName="org.campagnelab.hta.tables.behavior.JoinTables_Behavior$1" />
+    <unitInfo nodeId="6825610851347330007" fileName="JoinTables_Behavior.java" startLine="41" startPosition="17" endLine="45" endPosition="5" unitName="org.campagnelab.hta.tables.behavior.JoinTables_Behavior$2" />
+    <unitInfo nodeId="6825610851347330007" fileName="JoinTables_Behavior.java" startLine="45" startPosition="18" endLine="49" endPosition="5" unitName="org.campagnelab.hta.tables.behavior.JoinTables_Behavior$3" />
+    <unitInfo nodeId="6825610851347555473" fileName="JoinTables_Behavior.java" startLine="49" startPosition="21" endLine="53" endPosition="5" unitName="org.campagnelab.hta.tables.behavior.JoinTables_Behavior$4" />
+    <unitInfo nodeId="6825610851347330019" fileName="JoinTables_Behavior.java" startLine="55" startPosition="226" endLine="59" endPosition="9" unitName="org.campagnelab.hta.tables.behavior.JoinTables_Behavior$6" />
+    <unitInfo nodeId="6825610851347330019" fileName="JoinTables_Behavior.java" startLine="59" startPosition="22" endLine="63" endPosition="9" unitName="org.campagnelab.hta.tables.behavior.JoinTables_Behavior$6" />
+    <unitInfo nodeId="6825610851347330016" fileName="JoinTables_Behavior.java" startLine="53" startPosition="21" endLine="65" endPosition="5" unitName="org.campagnelab.hta.tables.behavior.JoinTables_Behavior$5" />
+    <unitInfo nodeId="7074867102589853551" fileName="JoinTables_Behavior.java" startLine="24" startPosition="0" endLine="82" endPosition="0" unitName="org.campagnelab.hta.tables.behavior.JoinTables_Behavior" />
+  </root>
+  <root nodeRef="r:db1b133e-9a0f-4319-b384-413408eb1729(org.campagnelab.hta.tables.behavior)/772483346259741680">
+    <nodeInfo nodeId="772483346259741694" fileName="FutureTable_Behavior.java" startLine="22" startPosition="70" endLine="23" endPosition="288" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4166618652720345598" fileName="FutureTable_Behavior.java" startLine="26" startPosition="83" endLine="27" endPosition="119" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4166618652719948281" fileName="FutureTable_Behavior.java" startLine="30" startPosition="84" endLine="31" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
+    <nodeInfo nodeId="4166618652719885008" fileName="FutureTable_Behavior.java" startLine="31" startPosition="0" endLine="32" endPosition="242" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="4166618652719922455" fileName="FutureTable_Behavior.java" startLine="32" startPosition="242" endLine="33" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4166618652722780590" fileName="FutureTable_Behavior.java" startLine="36" startPosition="98" endLine="37" endPosition="70" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="4166618652722882337" fileName="FutureTable_Behavior.java" startLine="37" startPosition="70" endLine="38" endPosition="146" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4166618652721995253" fileName="FutureTable_Behavior.java" startLine="38" startPosition="146" endLine="39" endPosition="113" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4166618652722028169" fileName="FutureTable_Behavior.java" startLine="39" startPosition="113" endLine="40" endPosition="132" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4166618652722371381" fileName="FutureTable_Behavior.java" startLine="42" startPosition="35" endLine="43" endPosition="55" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="4166618652722384410" fileName="FutureTable_Behavior.java" startLine="43" startPosition="55" endLine="44" endPosition="304" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4166618652722074436" fileName="FutureTable_Behavior.java" startLine="44" startPosition="304" endLine="45" endPosition="144" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4166618652723188848" fileName="FutureTable_Behavior.java" startLine="47" startPosition="39" endLine="48" endPosition="133" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="772483346259741680" fileName="FutureTable_Behavior.java" startLine="19" startPosition="0" endLine="21" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+    <nodeInfo nodeId="772483346259741680" fileName="FutureTable_Behavior.java" startLine="22" startPosition="0" endLine="25" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="call_Rname_772483346259741683#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+    <nodeInfo nodeId="772483346259741680" fileName="FutureTable_Behavior.java" startLine="26" startPosition="0" endLine="29" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="call_getCleanTableName_4166618652720345586#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+    <nodeInfo nodeId="4166618652723185057" fileName="FutureTable_Behavior.java" startLine="47" startPosition="0" endLine="50" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="visit#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+    <nodeInfo nodeId="772483346259741680" fileName="FutureTable_Behavior.java" startLine="30" startPosition="0" endLine="35" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="call_getColumnTablePath_4166618652719916891#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+    <nodeInfo nodeId="4166618652723162493" fileName="FutureTable_Behavior.java" startLine="45" startPosition="144" endLine="50" endPosition="11" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4166618652722066904" fileName="FutureTable_Behavior.java" startLine="42" startPosition="0" endLine="52" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="visit#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+    <nodeInfo nodeId="4166618652722056598" fileName="FutureTable_Behavior.java" startLine="40" startPosition="132" endLine="52" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="772483346259741680" fileName="FutureTable_Behavior.java" startLine="36" startPosition="0" endLine="54" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="call_setSchemaFrom_4166618652721995042#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+    <scopeInfo nodeId="772483346259741682" fileName="FutureTable_Behavior.java" startLine="19" startPosition="43" endLine="19" endPosition="43" />
+    <scopeInfo nodeId="772483346259741686" fileName="FutureTable_Behavior.java" startLine="22" startPosition="70" endLine="23" endPosition="288" />
+    <scopeInfo nodeId="4166618652720345589" fileName="FutureTable_Behavior.java" startLine="26" startPosition="83" endLine="27" endPosition="119" />
+    <scopeInfo nodeId="4166618652723185058" fileName="FutureTable_Behavior.java" startLine="47" startPosition="39" endLine="48" endPosition="133" />
+    <scopeInfo nodeId="772483346259741680" fileName="FutureTable_Behavior.java" startLine="19" startPosition="0" endLine="21" endPosition="0">
+      <varInfo nodeId="772483346259741680" varName="thisNode" />
+    </scopeInfo>
+    <scopeInfo nodeId="772483346259741680" fileName="FutureTable_Behavior.java" startLine="22" startPosition="0" endLine="25" endPosition="0">
+      <varInfo nodeId="772483346259741680" varName="thisNode" />
+    </scopeInfo>
+    <scopeInfo nodeId="772483346259741680" fileName="FutureTable_Behavior.java" startLine="26" startPosition="0" endLine="29" endPosition="0">
+      <varInfo nodeId="772483346259741680" varName="thisNode" />
+    </scopeInfo>
+    <scopeInfo nodeId="4166618652719916894" fileName="FutureTable_Behavior.java" startLine="30" startPosition="84" endLine="33" endPosition="16">
+      <varInfo nodeId="4166618652719885011" varName="path" />
+    </scopeInfo>
+    <scopeInfo nodeId="4166618652723185057" fileName="FutureTable_Behavior.java" startLine="47" startPosition="0" endLine="50" endPosition="0">
+      <varInfo nodeId="4166618652723185057" varName="it" />
+    </scopeInfo>
+    <scopeInfo nodeId="772483346259741680" fileName="FutureTable_Behavior.java" startLine="30" startPosition="0" endLine="35" endPosition="0">
+      <varInfo nodeId="772483346259741680" varName="thisNode" />
+    </scopeInfo>
+    <scopeInfo nodeId="4166618652722066905" fileName="FutureTable_Behavior.java" startLine="42" startPosition="35" endLine="50" endPosition="11">
+      <varInfo nodeId="4166618652722371384" varName="col" />
+    </scopeInfo>
+    <scopeInfo nodeId="4166618652722066904" fileName="FutureTable_Behavior.java" startLine="42" startPosition="0" endLine="52" endPosition="0">
+      <varInfo nodeId="4166618652722066904" varName="it" />
+    </scopeInfo>
+    <scopeInfo nodeId="4166618652721995045" fileName="FutureTable_Behavior.java" startLine="36" startPosition="98" endLine="52" endPosition="7">
+      <varInfo nodeId="4166618652722780593" varName="source" />
+    </scopeInfo>
+    <scopeInfo nodeId="772483346259741680" fileName="FutureTable_Behavior.java" startLine="36" startPosition="0" endLine="54" endPosition="0">
+      <varInfo nodeId="4166618652721995229" varName="fsource" />
+      <varInfo nodeId="772483346259741680" varName="thisNode" />
+    </scopeInfo>
+    <unitInfo nodeId="4166618652723185057" fileName="FutureTable_Behavior.java" startLine="46" startPosition="100" endLine="50" endPosition="9" unitName="org.campagnelab.hta.tables.behavior.FutureTable_Behavior$2" />
+    <unitInfo nodeId="4166618652722066904" fileName="FutureTable_Behavior.java" startLine="41" startPosition="92" endLine="52" endPosition="5" unitName="org.campagnelab.hta.tables.behavior.FutureTable_Behavior$1" />
+    <unitInfo nodeId="772483346259741680" fileName="FutureTable_Behavior.java" startLine="18" startPosition="0" endLine="55" endPosition="0" unitName="org.campagnelab.hta.tables.behavior.FutureTable_Behavior" />
+  </root>
+  <root nodeRef="r:db1b133e-9a0f-4319-b384-413408eb1729(org.campagnelab.hta.tables.behavior)/8016431400515511646">
+    <nodeInfo nodeId="8016431400515511646" fileName="KeySelection_Behavior.java" startLine="8" startPosition="0" endLine="10" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+    <scopeInfo nodeId="8016431400515511648" fileName="KeySelection_Behavior.java" startLine="8" startPosition="43" endLine="8" endPosition="43" />
+    <scopeInfo nodeId="8016431400515511646" fileName="KeySelection_Behavior.java" startLine="8" startPosition="0" endLine="10" endPosition="0">
+      <varInfo nodeId="8016431400515511646" varName="thisNode" />
+    </scopeInfo>
+    <unitInfo nodeId="8016431400515511646" fileName="KeySelection_Behavior.java" startLine="7" startPosition="0" endLine="11" endPosition="0" unitName="org.campagnelab.hta.tables.behavior.KeySelection_Behavior" />
+  </root>
+  <root nodeRef="r:db1b133e-9a0f-4319-b384-413408eb1729(org.campagnelab.hta.tables.behavior)/8016431400515512059">
+    <nodeInfo nodeId="8016431400515512059" fileName="IColumnNames_Behavior.java" startLine="17" startPosition="110" endLine="18" endPosition="168" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8016431400515512059" fileName="IColumnNames_Behavior.java" startLine="22" startPosition="143" endLine="23" endPosition="316" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8016431400515512059" fileName="IColumnNames_Behavior.java" startLine="13" startPosition="0" endLine="15" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+    <nodeInfo nodeId="8016431400515512059" fileName="IColumnNames_Behavior.java" startLine="16" startPosition="0" endLine="20" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="call_getColumnNames_8016431400515512083#(Lorg/jetbrains/mps/openapi/model/SNode;Ljava/lang/Iterable;)Ljava/util/Set;" />
+    <nodeInfo nodeId="8016431400515512059" fileName="IColumnNames_Behavior.java" startLine="21" startPosition="0" endLine="25" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="callSuper_getColumnNames_8016431400515512083#(Lorg/jetbrains/mps/openapi/model/SNode;Ljava/lang/String;Ljava/lang/Iterable;)Ljava/util/Set;" />
+    <scopeInfo nodeId="8016431400515512061" fileName="IColumnNames_Behavior.java" startLine="13" startPosition="43" endLine="13" endPosition="43" />
+    <scopeInfo nodeId="8016431400515512059" fileName="IColumnNames_Behavior.java" startLine="17" startPosition="110" endLine="18" endPosition="168" />
+    <scopeInfo nodeId="8016431400515512059" fileName="IColumnNames_Behavior.java" startLine="22" startPosition="143" endLine="23" endPosition="316" />
+    <scopeInfo nodeId="8016431400515512059" fileName="IColumnNames_Behavior.java" startLine="13" startPosition="0" endLine="15" endPosition="0">
+      <varInfo nodeId="8016431400515512059" varName="thisNode" />
+    </scopeInfo>
+    <scopeInfo nodeId="8016431400515512059" fileName="IColumnNames_Behavior.java" startLine="16" startPosition="0" endLine="20" endPosition="0">
+      <varInfo nodeId="8016431400515538047" varName="columns" />
+      <varInfo nodeId="8016431400515512059" varName="thisNode" />
+    </scopeInfo>
+    <scopeInfo nodeId="8016431400515512059" fileName="IColumnNames_Behavior.java" startLine="21" startPosition="0" endLine="25" endPosition="0">
+      <varInfo nodeId="8016431400515512059" varName="callerConceptFqName" />
+      <varInfo nodeId="8016431400515538047" varName="columns" />
+      <varInfo nodeId="8016431400515512059" varName="thisNode" />
+    </scopeInfo>
+    <unitInfo nodeId="8016431400515512059" fileName="IColumnNames_Behavior.java" startLine="12" startPosition="0" endLine="26" endPosition="0" unitName="org.campagnelab.hta.tables.behavior.IColumnNames_Behavior" />
+  </root>
+  <root nodeRef="r:db1b133e-9a0f-4319-b384-413408eb1729(org.campagnelab.hta.tables.behavior)/8016431400515558552">
+    <nodeInfo nodeId="8016431400515600649" fileName="SelectByGroup_Behavior.java" startLine="22" startPosition="119" endLine="23" endPosition="67" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="8459500803719664495" fileName="SelectByGroup_Behavior.java" startLine="27" startPosition="43" endLine="28" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8459500803719664495" fileName="SelectByGroup_Behavior.java" startLine="31" startPosition="41" endLine="32" endPosition="71" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8459500803719664507" fileName="SelectByGroup_Behavior.java" startLine="35" startPosition="43" endLine="36" endPosition="162" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8459500803719670519" fileName="SelectByGroup_Behavior.java" startLine="41" startPosition="38" endLine="42" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8016431400515627675" fileName="SelectByGroup_Behavior.java" startLine="44" startPosition="8" endLine="45" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8016431400515558552" fileName="SelectByGroup_Behavior.java" startLine="19" startPosition="0" endLine="21" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+    <nodeInfo nodeId="8459500803719664495" fileName="SelectByGroup_Behavior.java" startLine="27" startPosition="0" endLine="30" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="accept#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
+    <nodeInfo nodeId="8459500803719664495" fileName="SelectByGroup_Behavior.java" startLine="31" startPosition="0" endLine="34" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="select#(Lorg/jetbrains/mps/openapi/model/SNode;)Lorg/jetbrains/mps/openapi/model/SNode;" />
+    <nodeInfo nodeId="8459500803719664505" fileName="SelectByGroup_Behavior.java" startLine="35" startPosition="0" endLine="38" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="accept#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
+    <nodeInfo nodeId="8459500803719670517" fileName="SelectByGroup_Behavior.java" startLine="41" startPosition="0" endLine="44" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="select#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+    <nodeInfo nodeId="8459500803719664493" fileName="SelectByGroup_Behavior.java" startLine="25" startPosition="39" endLine="38" endPosition="11" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8459500803719664491" fileName="SelectByGroup_Behavior.java" startLine="25" startPosition="0" endLine="40" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="accept#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
+    <nodeInfo nodeId="8016431400515605581" fileName="SelectByGroup_Behavior.java" startLine="23" startPosition="67" endLine="44" endPosition="8" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8016431400515558552" fileName="SelectByGroup_Behavior.java" startLine="22" startPosition="0" endLine="47" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_getColumnNames_8016431400515512083#(Lorg/jetbrains/mps/openapi/model/SNode;Ljava/lang/Iterable;)Ljava/util/Set;" />
+    <scopeInfo nodeId="8016431400515558554" fileName="SelectByGroup_Behavior.java" startLine="19" startPosition="43" endLine="19" endPosition="43" />
+    <scopeInfo nodeId="8459500803719664495" fileName="SelectByGroup_Behavior.java" startLine="27" startPosition="43" endLine="28" endPosition="81" />
+    <scopeInfo nodeId="8459500803719664495" fileName="SelectByGroup_Behavior.java" startLine="31" startPosition="41" endLine="32" endPosition="71" />
+    <scopeInfo nodeId="8459500803719664506" fileName="SelectByGroup_Behavior.java" startLine="35" startPosition="43" endLine="36" endPosition="162" />
+    <scopeInfo nodeId="8459500803719670518" fileName="SelectByGroup_Behavior.java" startLine="41" startPosition="38" endLine="42" endPosition="57" />
+    <scopeInfo nodeId="8016431400515558552" fileName="SelectByGroup_Behavior.java" startLine="19" startPosition="0" endLine="21" endPosition="0">
+      <varInfo nodeId="8016431400515558552" varName="thisNode" />
+    </scopeInfo>
+    <scopeInfo nodeId="8459500803719664495" fileName="SelectByGroup_Behavior.java" startLine="27" startPosition="0" endLine="30" endPosition="0">
+      <varInfo nodeId="8459500803719664495" varName="it" />
+    </scopeInfo>
+    <scopeInfo nodeId="8459500803719664495" fileName="SelectByGroup_Behavior.java" startLine="31" startPosition="0" endLine="34" endPosition="0">
+      <varInfo nodeId="8459500803719664495" varName="it" />
+    </scopeInfo>
+    <scopeInfo nodeId="8459500803719664505" fileName="SelectByGroup_Behavior.java" startLine="35" startPosition="0" endLine="38" endPosition="0">
+      <varInfo nodeId="8459500803719664505" varName="it" />
+    </scopeInfo>
+    <scopeInfo nodeId="8459500803719670517" fileName="SelectByGroup_Behavior.java" startLine="41" startPosition="0" endLine="44" endPosition="0">
+      <varInfo nodeId="8459500803719670517" varName="it" />
+    </scopeInfo>
+    <scopeInfo nodeId="8459500803719664492" fileName="SelectByGroup_Behavior.java" startLine="25" startPosition="39" endLine="38" endPosition="11" />
+    <scopeInfo nodeId="8459500803719664491" fileName="SelectByGroup_Behavior.java" startLine="25" startPosition="0" endLine="40" endPosition="0">
+      <varInfo nodeId="8459500803719664491" varName="it" />
+    </scopeInfo>
+    <scopeInfo nodeId="8016431400515558563" fileName="SelectByGroup_Behavior.java" startLine="22" startPosition="119" endLine="45" endPosition="17">
+      <varInfo nodeId="8016431400515600652" varName="names" />
+    </scopeInfo>
+    <scopeInfo nodeId="8016431400515558552" fileName="SelectByGroup_Behavior.java" startLine="22" startPosition="0" endLine="47" endPosition="0">
+      <varInfo nodeId="8016431400515558564" varName="columns" />
+      <varInfo nodeId="8016431400515558552" varName="thisNode" />
+    </scopeInfo>
+    <unitInfo nodeId="8459500803719664495" fileName="SelectByGroup_Behavior.java" startLine="26" startPosition="373" endLine="30" endPosition="9" unitName="org.campagnelab.hta.tables.behavior.SelectByGroup_Behavior$2" />
+    <unitInfo nodeId="8459500803719664495" fileName="SelectByGroup_Behavior.java" startLine="30" startPosition="22" endLine="34" endPosition="9" unitName="org.campagnelab.hta.tables.behavior.SelectByGroup_Behavior$2" />
+    <unitInfo nodeId="8459500803719664505" fileName="SelectByGroup_Behavior.java" startLine="34" startPosition="19" endLine="38" endPosition="9" unitName="org.campagnelab.hta.tables.behavior.SelectByGroup_Behavior$2" />
+    <unitInfo nodeId="8459500803719670517" fileName="SelectByGroup_Behavior.java" startLine="40" startPosition="18" endLine="44" endPosition="5" unitName="org.campagnelab.hta.tables.behavior.SelectByGroup_Behavior$2" />
+    <unitInfo nodeId="8459500803719664491" fileName="SelectByGroup_Behavior.java" startLine="24" startPosition="84" endLine="40" endPosition="5" unitName="org.campagnelab.hta.tables.behavior.SelectByGroup_Behavior$1" />
+    <unitInfo nodeId="8016431400515558552" fileName="SelectByGroup_Behavior.java" startLine="18" startPosition="0" endLine="48" endPosition="0" unitName="org.campagnelab.hta.tables.behavior.SelectByGroup_Behavior" />
+  </root>
+  <root nodeRef="r:db1b133e-9a0f-4319-b384-413408eb1729(org.campagnelab.hta.tables.behavior)/8016431400516012420">
+    <nodeInfo nodeId="8016431400516029218" fileName="CommonColumnSelection_Behavior.java" startLine="14" startPosition="113" endLine="15" endPosition="54" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8016431400516012420" fileName="CommonColumnSelection_Behavior.java" startLine="11" startPosition="0" endLine="13" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+    <nodeInfo nodeId="8016431400516012420" fileName="CommonColumnSelection_Behavior.java" startLine="14" startPosition="0" endLine="17" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_getColumnNames_8016431400515512083#(Lorg/jetbrains/mps/openapi/model/SNode;Ljava/lang/Iterable;)Ljava/util/Set;" />
+    <scopeInfo nodeId="8016431400516012422" fileName="CommonColumnSelection_Behavior.java" startLine="11" startPosition="43" endLine="11" endPosition="43" />
+    <scopeInfo nodeId="8016431400516012431" fileName="CommonColumnSelection_Behavior.java" startLine="14" startPosition="113" endLine="15" endPosition="54" />
+    <scopeInfo nodeId="8016431400516012420" fileName="CommonColumnSelection_Behavior.java" startLine="11" startPosition="0" endLine="13" endPosition="0">
+      <varInfo nodeId="8016431400516012420" varName="thisNode" />
+    </scopeInfo>
+    <scopeInfo nodeId="8016431400516012420" fileName="CommonColumnSelection_Behavior.java" startLine="14" startPosition="0" endLine="17" endPosition="0">
+      <varInfo nodeId="8016431400516012432" varName="columns" />
+      <varInfo nodeId="8016431400516012420" varName="thisNode" />
+    </scopeInfo>
+    <unitInfo nodeId="8016431400516012420" fileName="CommonColumnSelection_Behavior.java" startLine="10" startPosition="0" endLine="18" endPosition="0" unitName="org.campagnelab.hta.tables.behavior.CommonColumnSelection_Behavior" />
+  </root>
+  <root nodeRef="r:db1b133e-9a0f-4319-b384-413408eb1729(org.campagnelab.hta.tables.behavior)/8016431400518331177">
+    <nodeInfo nodeId="4166618652723553920" fileName="Plot_Behavior.java" startLine="14" startPosition="73" endLine="15" endPosition="236" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8016431400518331177" fileName="Plot_Behavior.java" startLine="11" startPosition="0" endLine="13" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+    <nodeInfo nodeId="8016431400518331177" fileName="Plot_Behavior.java" startLine="14" startPosition="0" endLine="17" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="call_getPath_8016431400518331231#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+    <scopeInfo nodeId="8016431400518331179" fileName="Plot_Behavior.java" startLine="11" startPosition="43" endLine="11" endPosition="43" />
+    <scopeInfo nodeId="8016431400518331234" fileName="Plot_Behavior.java" startLine="14" startPosition="73" endLine="15" endPosition="236" />
+    <scopeInfo nodeId="8016431400518331177" fileName="Plot_Behavior.java" startLine="11" startPosition="0" endLine="13" endPosition="0">
+      <varInfo nodeId="8016431400518331177" varName="thisNode" />
+    </scopeInfo>
+    <scopeInfo nodeId="8016431400518331177" fileName="Plot_Behavior.java" startLine="14" startPosition="0" endLine="17" endPosition="0">
+      <varInfo nodeId="8016431400518331177" varName="thisNode" />
+    </scopeInfo>
+    <unitInfo nodeId="8016431400518331177" fileName="Plot_Behavior.java" startLine="10" startPosition="0" endLine="18" endPosition="0" unitName="org.campagnelab.hta.tables.behavior.Plot_Behavior" />
+  </root>
+</debugInfo>
+

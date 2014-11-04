@@ -17,6 +17,8 @@ public class EditorAspectDescriptorImpl implements EditorAspectDescriptor {
     switch (Arrays.binarySearch(stringSwitchCases_xbvbvu_a0a0b, descriptor.getConceptFqName())) {
       case 0:
         return Collections.<ConceptEditor>singletonList(new InspectTable_Editor());
+      case 1:
+        return Collections.<ConceptEditor>singletonList(new StatementTrace_Editor());
       default:
     }
     return Collections.<ConceptEditor>emptyList();
@@ -28,5 +30,5 @@ public class EditorAspectDescriptorImpl implements EditorAspectDescriptor {
 
 
 
-  private static String[] stringSwitchCases_xbvbvu_a0a0b = new String[]{"org.campagnelab.hta.inspect.structure.InspectTable"};
+  private static String[] stringSwitchCases_xbvbvu_a0a0b = new String[]{"org.campagnelab.hta.inspect.structure.InspectTable", "org.campagnelab.hta.inspect.structure.StatementTrace"};
 }

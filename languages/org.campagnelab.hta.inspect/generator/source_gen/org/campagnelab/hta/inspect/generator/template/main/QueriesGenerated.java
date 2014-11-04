@@ -22,4 +22,8 @@ public class QueriesGenerated {
   public static Object propertyMacro_GetPropertyValue_8016431400514009759(final PropertyMacroContext _context) {
     return SPropertyOperations.getString(_context.getNode(), "tableName") + "_" + Integer.toString(SPropertyOperations.getInteger(_context.getNode(), "tableId"));
   }
+
+  public static Object propertyMacro_GetPropertyValue_962445451564175837(final PropertyMacroContext _context) {
+    return SPropertyOperations.getString(_context.getNode(), "id");
+  }
 }

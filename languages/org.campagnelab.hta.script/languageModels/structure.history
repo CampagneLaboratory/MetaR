@@ -157,5 +157,13 @@
     <move id="v8sa.3402264987262205749" to="zi61.7074867102588635915" />
     <move id="v8sa.7074867102586670108" to="zi61.7074867102588635971" />
   </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="8vtd" modelUID="r:cbd13695-fd32-4d39-aded-ba7e630ac2c3(org.campagnelab.hta.inspect.structure)" version="-1" />
+      <model index="5ryu" modelUID="r:91256194-1375-495d-ab72-ff76cfde3569(org.campagnelab.hta.script.structure)" version="3" />
+    </dependencies>
+    <move id="5ryu.962445451564171227" to="8vtd.962445451564373967" />
+    <move id="5ryu.962445451564167492" to="8vtd.962445451564373966" />
+  </StructureModification>
 </history>
 
