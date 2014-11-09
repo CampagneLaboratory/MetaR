@@ -214,6 +214,38 @@ public class QueriesGenerated {
     return ((SNode) _context.getNode()).getNodeId().toString();
   }
 
+  public static Object propertyMacro_GetPropertyValue_6001041468486989837(final PropertyMacroContext _context) {
+    return "\"" + SPropertyOperations.getString(SLinkOperations.getTarget(_context.getNode(), "x", false), "name") + "\",\"" + SPropertyOperations.getString(SLinkOperations.getTarget(_context.getNode(), "y", false), "name") + "\"";
+  }
+
+  public static Object propertyMacro_GetPropertyValue_6001041468487574285(final PropertyMacroContext _context) {
+    return NameHelper.RName(SPropertyOperations.getString(SLinkOperations.getTarget(_context.getNode(), "table", false), "name"));
+  }
+
+  public static Object propertyMacro_GetPropertyValue_6001041468487863213(final PropertyMacroContext _context) {
+    return NameHelper.RName(SPropertyOperations.getString(SLinkOperations.getTarget(_context.getNode(), "table", false), "name"));
+  }
+
+  public static Object propertyMacro_GetPropertyValue_6001041468487040669(final PropertyMacroContext _context) {
+    return SPropertyOperations.getString(SLinkOperations.getTarget(_context.getNode(), "y", false), "name");
+  }
+
+  public static Object propertyMacro_GetPropertyValue_6001041468487047756(final PropertyMacroContext _context) {
+    return SPropertyOperations.getString(SLinkOperations.getTarget(_context.getNode(), "x", false), "name");
+  }
+
+  public static Object propertyMacro_GetPropertyValue_6001041468488153342(final PropertyMacroContext _context) {
+    return Plot_Behavior.call_getPath_8016431400518331231(SLinkOperations.getTarget(_context.getNode(), "plot", true));
+  }
+
+  public static Object propertyMacro_GetPropertyValue_6001041468487057584(final PropertyMacroContext _context) {
+    return SPropertyOperations.getString(SLinkOperations.getTarget(_context.getNode(), "x", false), "name");
+  }
+
+  public static Object propertyMacro_GetPropertyValue_6001041468487052823(final PropertyMacroContext _context) {
+    return SPropertyOperations.getString(SLinkOperations.getTarget(_context.getNode(), "y", false), "name");
+  }
+
   public static boolean ifMacro_Condition_1549006859295113839(final IfMacroContext _context) {
     return ListSequence.fromList(SLinkOperations.getTargets(SLinkOperations.getTarget(((SNode) _context.getVariable("var:table")), "table", false), "columns", true)).any(new IWhereFilter<SNode>() {
       public boolean accept(SNode column) {
@@ -236,6 +268,10 @@ public class QueriesGenerated {
         });
       }
     });
+  }
+
+  public static boolean ifMacro_Condition_6001041468487572972(final IfMacroContext _context) {
+    return false;
   }
 
   public static Iterable<SNode> sourceNodesQuery_3402264987267873052(final SourceSubstituteMacroNodesContext _context) {

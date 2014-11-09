@@ -187,6 +187,7 @@
     <classNode dependClassName="org.campagnelab.hta.tables.editor.CommonColumnSelection_Editor" />
     <classNode dependClassName="org.campagnelab.hta.tables.editor.Define_Editor" />
     <classNode dependClassName="org.campagnelab.hta.tables.editor.FilterWithIDListEditorComponent" />
+    <classNode dependClassName="org.campagnelab.hta.tables.editor.FitXByY_Editor" />
     <classNode dependClassName="org.campagnelab.hta.tables.editor.FutureTableEditorComponent" />
     <classNode dependClassName="org.campagnelab.hta.tables.editor.FutureTableInspectorComponent" />
     <classNode dependClassName="org.campagnelab.hta.tables.editor.FutureTableRef_Editor" />
@@ -226,6 +227,26 @@
     <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
     <classNode extendsClassName="jetbrains.mps.nodeEditor.InlineCellProvider" />
     <classNode extendsClassName="jetbrains.mps.openapi.editor.descriptor.ConceptEditorComponent" />
+  </dependency>
+  <dependency className="org.campagnelab.hta.tables.editor.FitXByY_Editor" file="FitXByY_Editor.java">
+    <classNode dependClassName="java.lang.Class" />
+    <classNode dependClassName="jetbrains.mps.editor.runtime.style.StyleAttributes" />
+    <classNode dependClassName="jetbrains.mps.editor.runtime.style.StyleImpl" />
+    <classNode dependClassName="jetbrains.mps.lang.editor.cellProviders.PropertyCellProvider" />
+    <classNode dependClassName="jetbrains.mps.lang.editor.cellProviders.RefCellCellProvider" />
+    <classNode dependClassName="jetbrains.mps.lang.editor.cellProviders.RefNodeCellProvider" />
+    <classNode dependClassName="jetbrains.mps.nodeEditor.EditorManager" />
+    <classNode dependClassName="jetbrains.mps.nodeEditor.MPSFonts" />
+    <classNode dependClassName="jetbrains.mps.nodeEditor.cellProviders.CellProviderWithRole" />
+    <classNode dependClassName="jetbrains.mps.nodeEditor.cells.EditorCell_Collection" />
+    <classNode dependClassName="jetbrains.mps.nodeEditor.cells.EditorCell_Constant" />
+    <classNode dependClassName="jetbrains.mps.openapi.editor.EditorContext" />
+    <classNode dependClassName="jetbrains.mps.openapi.editor.cells.EditorCell" />
+    <classNode dependClassName="jetbrains.mps.openapi.editor.style.Style" />
+    <classNode dependClassName="jetbrains.mps.smodel.IOperationContext" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
+    <classNode extendsClassName="jetbrains.mps.nodeEditor.DefaultNodeEditor" />
+    <classNode extendsClassName="jetbrains.mps.nodeEditor.InlineCellProvider" />
   </dependency>
   <dependency className="org.campagnelab.hta.tables.editor.FutureTableEditorComponent" file="FutureTableEditorComponent.java">
     <classNode dependClassName="java.lang.Class" />

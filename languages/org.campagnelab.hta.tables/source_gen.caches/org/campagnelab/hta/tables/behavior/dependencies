@@ -21,6 +21,7 @@
     <classNode dependClassName="org.campagnelab.hta.tables.behavior.CommonColumnSelection_BehaviorDescriptor" />
     <classNode dependClassName="org.campagnelab.hta.tables.behavior.Define_BehaviorDescriptor" />
     <classNode dependClassName="org.campagnelab.hta.tables.behavior.FilterWithIDList_BehaviorDescriptor" />
+    <classNode dependClassName="org.campagnelab.hta.tables.behavior.FitXByY_BehaviorDescriptor" />
     <classNode dependClassName="org.campagnelab.hta.tables.behavior.FutureTableRef_BehaviorDescriptor" />
     <classNode dependClassName="org.campagnelab.hta.tables.behavior.FutureTable_BehaviorDescriptor" />
     <classNode dependClassName="org.campagnelab.hta.tables.behavior.Heatmap_BehaviorDescriptor" />
@@ -131,6 +132,23 @@
     <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="org.campagnelab.hta.tables.behavior.AbstractRowFilter_BehaviorDescriptor" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="org.campagnelab.hta.tables.behavior.FitXByY_Behavior" file="FitXByY_Behavior.java">
+    <classNode dependClassName="java.lang.Iterable" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.Sequence" />
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations" />
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
+  </dependency>
+  <dependency className="org.campagnelab.hta.tables.behavior.FitXByY_BehaviorDescriptor" file="FitXByY_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Iterable" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="org.campagnelab.hta.script.behavior.Statement_BehaviorDescriptor" />
+    <classNode dependClassName="org.campagnelab.hta.tables.behavior.FitXByY_Behavior" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
   </dependency>
   <dependency className="org.campagnelab.hta.tables.behavior.FutureTableRef_BehaviorDescriptor" file="FutureTableRef_BehaviorDescriptor.java">
