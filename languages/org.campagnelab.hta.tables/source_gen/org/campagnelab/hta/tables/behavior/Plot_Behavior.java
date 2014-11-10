@@ -12,6 +12,6 @@ public class Plot_Behavior {
   }
 
   public static String call_getPath_8016431400518331231(SNode thisNode) {
-    return new File(MacrosFactory.getGlobal().expandPath("${org.campagnelab.hta.results_dir}/plot_" + SPropertyOperations.getString(thisNode, "name") + "_" + (SPropertyOperations.getInteger(thisNode, "id")) + ".png")).getAbsolutePath();
+    return new File(MacrosFactory.getGlobal().expandPath("${org.campagnelab.hta.results_dir}/plot_" + SPropertyOperations.getString(thisNode, "name").replaceAll(" ", "_") + "_" + (SPropertyOperations.getInteger(thisNode, "id")) + ".png")).getAbsolutePath();
   }
 }
