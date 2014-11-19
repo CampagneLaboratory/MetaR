@@ -154,6 +154,9 @@ public class TableTransformation_Editor extends DefaultNodeEditor {
     if (editorCell.getRole() == null) {
       editorCell.setRole("outputTable");
     }
+    Style style = new StyleImpl();
+    TableStyleSheet_StyleSheet.apply_FutureTable(style, editorCell);
+    editorCell.getStyle().putAll(style);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();

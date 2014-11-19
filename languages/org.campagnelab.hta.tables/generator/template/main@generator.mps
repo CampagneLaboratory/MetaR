@@ -1767,31 +1767,6 @@
       <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpf8.TemplateFragment" typeId="tpf8.1095672379244" id="1549006859295772861" nodeInfo="ng" />
     </node>
   </root>
-  <root type="tpf8.TemplateDeclaration" typeId="tpf8.1092059087312" id="8016431400520271840" nodeInfo="ng">
-    <property name="name" nameId="tpck.1169194664001" value="SomeName" />
-    <link role="applicableConcept" roleId="tpf8.1168285871518" targetNodeId="jrxw.3402264987265829883" resolveInfo="ColumnGroup" />
-    <node role="contentNode" roleId="tpf8.1092060348987" type="p6sl.Lines" typeId="p6sl.5039633819242576787" id="8016431400520271842" nodeInfo="ng">
-      <property name="text" nameId="p6sl.5493669862519718600" value="" />
-      <node role="lines" roleId="p6sl.5039633819242576854" type="p6sl.Line" typeId="p6sl.5493669862519709805" id="8016431400520271843" nodeInfo="ng">
-        <property name="text" nameId="p6sl.5493669862519718600" value="1" />
-      </node>
-      <node role="lines" roleId="p6sl.5039633819242576854" type="p6sl.Line" typeId="p6sl.5493669862519709805" id="8016431400520271855" nodeInfo="ng">
-        <property name="text" nameId="p6sl.5493669862519718600" value="2" />
-        <node role="phrases" roleId="p6sl.1680136183140337477" type="p6sl.Phrase" typeId="p6sl.1680136183140337486" id="8016431400520271856" nodeInfo="ng">
-          <property name="text" nameId="p6sl.1680136183140337487" value="" />
-        </node>
-      </node>
-      <node role="phrases" roleId="p6sl.1680136183140337477" type="p6sl.Phrase" typeId="p6sl.1680136183140337486" id="8016431400520271845" nodeInfo="ng">
-        <property name="text" nameId="p6sl.1680136183140337487" value="" />
-      </node>
-      <node role="lines" roleId="p6sl.5039633819242576854" type="p6sl.Line" typeId="p6sl.5493669862519709805" id="8016431400520271847" nodeInfo="ng">
-        <property name="text" nameId="p6sl.5493669862519718600" value="3" />
-        <node role="phrases" roleId="p6sl.1680136183140337477" type="p6sl.Phrase" typeId="p6sl.1680136183140337486" id="8016431400520271848" nodeInfo="ng">
-          <property name="text" nameId="p6sl.1680136183140337487" value="" />
-        </node>
-      </node>
-    </node>
-  </root>
   <root type="tpf8.TemplateDeclaration" typeId="tpf8.1092059087312" id="4166618652718860876" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="reduce_SubSetTableRowsWithIDList" />
     <property name="virtualPackage" nameId="tpck.1193676396447" value="rowfilters" />

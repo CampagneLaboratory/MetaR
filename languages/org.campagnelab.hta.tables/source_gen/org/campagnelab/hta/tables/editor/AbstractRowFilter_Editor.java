@@ -40,6 +40,7 @@ public class AbstractRowFilter_Editor extends DefaultNodeEditor {
   private EditorCell createComponent_4hi9ny_a0(EditorContext editorContext, SNode node) {
     EditorCell editorCell = editorContext.getCellFactory().createEditorComponentCell(node, "jetbrains.mps.lang.core.editor.alias");
     Style style = new StyleImpl();
+    TableStyleSheet_StyleSheet.apply_Descriptive(style, editorCell);
     style.set(StyleAttributes.EDITABLE, true);
     editorCell.getStyle().putAll(style);
     editorCell.setSubstituteInfo(new CompositeSubstituteInfo(editorContext, new BasicCellContext(node), new SubstituteInfoPartExt[]{new AbstractRowFilter_Editor.ReplaceWith_AbstractRowFilter_cellMenu_4hi9ny_a0a0()}));

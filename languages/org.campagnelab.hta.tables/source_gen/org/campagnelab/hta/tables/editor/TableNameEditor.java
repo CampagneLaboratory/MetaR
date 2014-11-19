@@ -41,6 +41,7 @@ public class TableNameEditor implements ConceptEditorComponent {
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setCellId("TNE_property_name");
     Style style = new StyleImpl();
+    TableStyleSheet_StyleSheet.apply_FutureTable(style, editorCell);
     style.set(StyleAttributes.EDITABLE, true);
     editorCell.getStyle().putAll(style);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());

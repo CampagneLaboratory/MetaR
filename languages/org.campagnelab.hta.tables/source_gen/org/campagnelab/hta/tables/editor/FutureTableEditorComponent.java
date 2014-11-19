@@ -116,6 +116,9 @@ public class FutureTableEditorComponent implements ConceptEditorComponent {
       EditorCell editorCell;
       editorCell = provider.createEditorCell(editorContext);
       editorCell.setCellId("FTEC_property_name_1");
+      Style style = new StyleImpl();
+      TableStyleSheet_StyleSheet.apply_FutureTable(style, editorCell);
+      editorCell.getStyle().putAll(style);
       editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
       SNode attributeConcept = provider.getRoleAttribute();
       Class attributeKind = provider.getRoleAttributeClass();

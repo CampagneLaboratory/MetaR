@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
   <unitInfo fileName="AbstractRowFilter_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="org.campagnelab.hta.tables.behavior.AbstractRowFilter_BehaviorDescriptor" />
-  <unitInfo fileName="BehaviorAspectDescriptor.java" startLine="9" startPosition="0" endLine="62" endPosition="0" unitName="org.campagnelab.hta.tables.behavior.BehaviorAspectDescriptor" />
+  <unitInfo fileName="BehaviorAspectDescriptor.java" startLine="9" startPosition="0" endLine="64" endPosition="0" unitName="org.campagnelab.hta.tables.behavior.BehaviorAspectDescriptor" />
   <unitInfo fileName="ColumnAnnotation_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="org.campagnelab.hta.tables.behavior.ColumnAnnotation_BehaviorDescriptor" />
   <unitInfo fileName="ColumnGroupContainer_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="org.campagnelab.hta.tables.behavior.ColumnGroupContainer_BehaviorDescriptor" />
   <unitInfo fileName="ColumnGroupReference_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="org.campagnelab.hta.tables.behavior.ColumnGroupReference_BehaviorDescriptor" />
@@ -11,6 +11,7 @@
   <unitInfo fileName="DataTableStatement_BehaviorDescriptor.java" startLine="9" startPosition="0" endLine="22" endPosition="0" unitName="org.campagnelab.hta.tables.behavior.DataTableStatement_BehaviorDescriptor" />
   <unitInfo fileName="DefinableObject_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="org.campagnelab.hta.tables.behavior.DefinableObject_BehaviorDescriptor" />
   <unitInfo fileName="Define_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="org.campagnelab.hta.tables.behavior.Define_BehaviorDescriptor" />
+  <unitInfo fileName="FilterWithExpression_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="org.campagnelab.hta.tables.behavior.FilterWithExpression_BehaviorDescriptor" />
   <unitInfo fileName="FilterWithIDList_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="org.campagnelab.hta.tables.behavior.FilterWithIDList_BehaviorDescriptor" />
   <unitInfo fileName="FutureTableRef_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="org.campagnelab.hta.tables.behavior.FutureTableRef_BehaviorDescriptor" />
   <unitInfo fileName="FutureTable_BehaviorDescriptor.java" startLine="10" startPosition="0" endLine="23" endPosition="0" unitName="org.campagnelab.hta.tables.behavior.FutureTable_BehaviorDescriptor" />
@@ -456,6 +457,15 @@
     <unitInfo nodeId="4166618652723185057" fileName="FutureTable_Behavior.java" startLine="46" startPosition="100" endLine="50" endPosition="9" unitName="org.campagnelab.hta.tables.behavior.FutureTable_Behavior$2" />
     <unitInfo nodeId="4166618652722066904" fileName="FutureTable_Behavior.java" startLine="41" startPosition="92" endLine="52" endPosition="5" unitName="org.campagnelab.hta.tables.behavior.FutureTable_Behavior$1" />
     <unitInfo nodeId="772483346259741680" fileName="FutureTable_Behavior.java" startLine="18" startPosition="0" endLine="55" endPosition="0" unitName="org.campagnelab.hta.tables.behavior.FutureTable_Behavior" />
+  </root>
+  <root nodeRef="r:db1b133e-9a0f-4319-b384-413408eb1729(org.campagnelab.hta.tables.behavior)/7783277237108573424">
+    <nodeInfo nodeId="7783277237108576955" fileName="FilterWithExpression_Behavior.java" startLine="10" startPosition="43" endLine="11" endPosition="151" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="7783277237108573424" fileName="FilterWithExpression_Behavior.java" startLine="10" startPosition="0" endLine="13" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+    <scopeInfo nodeId="7783277237108573728" fileName="FilterWithExpression_Behavior.java" startLine="10" startPosition="43" endLine="11" endPosition="151" />
+    <scopeInfo nodeId="7783277237108573424" fileName="FilterWithExpression_Behavior.java" startLine="10" startPosition="0" endLine="13" endPosition="0">
+      <varInfo nodeId="7783277237108573424" varName="thisNode" />
+    </scopeInfo>
+    <unitInfo nodeId="7783277237108573424" fileName="FilterWithExpression_Behavior.java" startLine="9" startPosition="0" endLine="14" endPosition="0" unitName="org.campagnelab.hta.tables.behavior.FilterWithExpression_Behavior" />
   </root>
   <root nodeRef="r:db1b133e-9a0f-4319-b384-413408eb1729(org.campagnelab.hta.tables.behavior)/8016431400515511646">
     <nodeInfo nodeId="8016431400515511646" fileName="KeySelection_Behavior.java" startLine="8" startPosition="0" endLine="10" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
