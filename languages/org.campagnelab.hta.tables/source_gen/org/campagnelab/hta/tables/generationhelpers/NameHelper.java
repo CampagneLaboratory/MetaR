@@ -5,11 +5,11 @@ package org.campagnelab.hta.tables.generationhelpers;
 
 public class NameHelper {
   public static String RName(String inputName) {
-    inputName.replaceAll("[\\.+\\/\\-\\!\\@\\$\\#\\%\\^\\&*\\(\\)]", "_");
-    if (Character.isDigit(inputName.charAt(0))) {
-      return "t_" + inputName;
+    String s = inputName.replaceAll("[\\s\\-\\\\.+\\/\\-\\!\\@\\$\\#\\%\\^\\&*\\(\\)]", "_").replace(".", "_");
+    if (Character.isDigit(s.charAt(0))) {
+      return "t_" + s;
     } else {
-      return inputName;
+      return s;
     }
 
   }

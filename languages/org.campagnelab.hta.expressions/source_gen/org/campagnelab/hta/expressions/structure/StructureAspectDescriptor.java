@@ -17,12 +17,10 @@ public class StructureAspectDescriptor implements jetbrains.mps.smodel.runtime.S
         return new ConceptDescriptorBuilder("org.campagnelab.hta.expressions.structure.ColumnValue").super_("jetbrains.mps.baseLanguage.structure.Expression").parents("jetbrains.mps.baseLanguage.structure.Expression").references("column").alias("$", "").create();
       case 1:
         return new ConceptDescriptorBuilder("org.campagnelab.hta.expressions.structure.ExpressionContainer").super_("jetbrains.mps.lang.core.structure.BaseConcept").parents("jetbrains.mps.lang.core.structure.BaseConcept").children(new String[]{"expression"}, new boolean[]{true}).create();
-      case 2:
-        return new ConceptDescriptorBuilder("org.campagnelab.hta.expressions.structure.Phrases").super_("org.campagnelab.textoutput.structure.Phrase").parents("org.campagnelab.textoutput.structure.Phrase").children(new String[]{"phrases"}, new boolean[]{true}).create();
       default:
         return StructureAspectInterpreted.getInstance().getDescriptor(conceptFqName);
     }
   }
 
-  private static String[] stringSwitchCases_1htk8d_a0a0b = new String[]{"org.campagnelab.hta.expressions.structure.ColumnValue", "org.campagnelab.hta.expressions.structure.ExpressionContainer", "org.campagnelab.hta.expressions.structure.Phrases"};
+  private static String[] stringSwitchCases_1htk8d_a0a0b = new String[]{"org.campagnelab.hta.expressions.structure.ColumnValue", "org.campagnelab.hta.expressions.structure.ExpressionContainer"};
 }

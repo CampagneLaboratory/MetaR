@@ -17,8 +17,6 @@ public class EditorAspectDescriptorImpl implements EditorAspectDescriptor {
     switch (Arrays.binarySearch(stringSwitchCases_xbvbvu_a0a0b, descriptor.getConceptFqName())) {
       case 0:
         return Collections.<ConceptEditor>singletonList(new ColumnValue_Editor());
-      case 1:
-        return Collections.<ConceptEditor>singletonList(new Phrases_Editor());
       default:
     }
     return Collections.<ConceptEditor>emptyList();
@@ -30,5 +28,5 @@ public class EditorAspectDescriptorImpl implements EditorAspectDescriptor {
 
 
 
-  private static String[] stringSwitchCases_xbvbvu_a0a0b = new String[]{"org.campagnelab.hta.expressions.structure.ColumnValue", "org.campagnelab.hta.expressions.structure.Phrases"};
+  private static String[] stringSwitchCases_xbvbvu_a0a0b = new String[]{"org.campagnelab.hta.expressions.structure.ColumnValue"};
 }

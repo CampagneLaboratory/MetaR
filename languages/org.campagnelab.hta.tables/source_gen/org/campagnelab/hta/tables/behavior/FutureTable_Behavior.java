@@ -24,7 +24,7 @@ public class FutureTable_Behavior {
   }
 
   public static String call_getCleanTableName_4166618652720345586(SNode thisNode) {
-    return SPropertyOperations.getString(thisNode, "name").replaceAll("[\\.+\\/\\-\\!\\@\\$\\#\\%\\^\\&*\\(\\)]", "_");
+    return SPropertyOperations.getString(thisNode, "name").replaceAll("[\\\\s\\.+\\/\\-\\!\\@\\$\\#\\%\\^\\&*\\(\\)]", "_");
   }
 
   public static String call_getColumnTablePath_4166618652719916891(SNode thisNode) {

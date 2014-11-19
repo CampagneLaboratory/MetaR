@@ -12,8 +12,6 @@ public class BehaviorAspectDescriptor implements jetbrains.mps.smodel.runtime.Be
 
   public BehaviorDescriptor getDescriptor(String fqName) {
     switch (Arrays.binarySearch(stringSwitchCases_846f5o_a0a0b, fqName)) {
-      case 2:
-        return new LessThan_BehaviorDescriptor();
       case 1:
         return new ExpressionContainer_BehaviorDescriptor();
       case 0:
@@ -23,5 +21,5 @@ public class BehaviorAspectDescriptor implements jetbrains.mps.smodel.runtime.Be
     }
   }
 
-  private static String[] stringSwitchCases_846f5o_a0a0b = new String[]{"org.campagnelab.hta.expressions.structure.ColumnValue", "org.campagnelab.hta.expressions.structure.ExpressionContainer", "org.campagnelab.hta.expressions.structure.LessThan"};
+  private static String[] stringSwitchCases_846f5o_a0a0b = new String[]{"org.campagnelab.hta.expressions.structure.ColumnValue", "org.campagnelab.hta.expressions.structure.ExpressionContainer"};
 }

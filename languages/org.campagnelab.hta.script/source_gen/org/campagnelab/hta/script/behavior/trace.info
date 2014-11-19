@@ -4,7 +4,7 @@
   <unitInfo fileName="DependentOnPackage_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="org.campagnelab.hta.script.behavior.DependentOnPackage_BehaviorDescriptor" />
   <unitInfo fileName="EmptyLine_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="org.campagnelab.hta.script.behavior.EmptyLine_BehaviorDescriptor" />
   <unitInfo fileName="R_Package_BehaviorDescriptor.java" startLine="10" startPosition="0" endLine="23" endPosition="0" unitName="org.campagnelab.hta.script.behavior.R_Package_BehaviorDescriptor" />
-  <unitInfo fileName="Script_BehaviorDescriptor.java" startLine="10" startPosition="0" endLine="27" endPosition="0" unitName="org.campagnelab.hta.script.behavior.Script_BehaviorDescriptor" />
+  <unitInfo fileName="Script_BehaviorDescriptor.java" startLine="13" startPosition="0" endLine="38" endPosition="0" unitName="org.campagnelab.hta.script.behavior.Script_BehaviorDescriptor" />
   <unitInfo fileName="StatementDependencies_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="10" endPosition="0" unitName="org.campagnelab.hta.script.behavior.StatementDependencies_BehaviorDescriptor" />
   <unitInfo fileName="StatementList_BehaviorDescriptor.java" startLine="9" startPosition="0" endLine="30" endPosition="0" unitName="org.campagnelab.hta.script.behavior.StatementList_BehaviorDescriptor" />
   <unitInfo fileName="Statement_BehaviorDescriptor.java" startLine="8" startPosition="0" endLine="21" endPosition="0" unitName="org.campagnelab.hta.script.behavior.Statement_BehaviorDescriptor" />

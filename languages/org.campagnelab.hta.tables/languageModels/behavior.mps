@@ -585,7 +585,7 @@
             <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="4166618652720409796" nodeInfo="nn">
               <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="e2lb.~String%dreplaceAll(java%dlang%dString,java%dlang%dString)%cjava%dlang%dString" resolveInfo="replaceAll" />
               <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="4166618652720409797" nodeInfo="nn">
-                <property name="value" nameId="tpee.1070475926801" value="[\\.+\\/\\-\\!\\@\\$\\#\\%\\^\\&amp;*\\(\\)]" />
+                <property name="value" nameId="tpee.1070475926801" value="[\\\\s\\.+\\/\\-\\!\\@\\$\\#\\%\\^\\&amp;*\\(\\)]" />
               </node>
               <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="4166618652720409798" nodeInfo="nn">
                 <property name="value" nameId="tpee.1070475926801" value="_" />

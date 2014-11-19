@@ -23,6 +23,15 @@ import jetbrains.mps.openapi.editor.cells.CellActionType;
 import jetbrains.mps.editor.runtime.cells.EmptyCellAction;
 import jetbrains.mps.lang.editor.cellProviders.RefCellCellProvider;
 import jetbrains.mps.nodeEditor.InlineCellProvider;
+import jetbrains.mps.internal.collections.runtime.IterableUtils;
+import jetbrains.mps.internal.collections.runtime.ListSequence;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
+import jetbrains.mps.internal.collections.runtime.ISelector;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.AttributeOperations;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.IAttributeDescriptor;
+import jetbrains.mps.internal.collections.runtime.ITranslator2;
+import jetbrains.mps.internal.collections.runtime.IWhereFilter;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.nodeEditor.cellProviders.AbstractCellListHandler;
 import jetbrains.mps.nodeEditor.cellLayout.CellLayout_Horizontal;
 import jetbrains.mps.lang.editor.cellProviders.RefNodeListHandler;
@@ -80,7 +89,9 @@ public class FutureTable_Editor extends DefaultNodeEditor {
     editorCell.addEditorCell(this.createConstant_o51t1s_e0(editorContext, node));
     editorCell.addEditorCell(this.createRefCell_o51t1s_f0(editorContext, node));
     editorCell.addEditorCell(this.createConstant_o51t1s_g0(editorContext, node));
-    editorCell.addEditorCell(this.createRefCell_o51t1s_h0(editorContext, node));
+    editorCell.addEditorCell(this.createReadOnlyModelAccessor_o51t1s_h0(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_o51t1s_i0(editorContext, node));
+    editorCell.addEditorCell(this.createRefCell_o51t1s_j0(editorContext, node));
     return editorCell;
   }
 
@@ -201,8 +212,54 @@ public class FutureTable_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_o51t1s_g0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "columns:");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "groups=");
     editorCell.setCellId("Constant_o51t1s_g0");
+    editorCell.setDefaultText("");
+    return editorCell;
+  }
+
+  private EditorCell createReadOnlyModelAccessor_o51t1s_h0(final EditorContext editorContext, final SNode node) {
+    EditorCell_Property editorCell = EditorCell_Property.create(editorContext, new ModelAccessor() {
+      public String getText() {
+        return IterableUtils.join(ListSequence.fromList(SLinkOperations.getTargets(SLinkOperations.getTarget(node, "table", false), "columns", true)).select(new ISelector<SNode, SNode>() {
+          public SNode select(SNode it) {
+            return AttributeOperations.getAttribute(it, new IAttributeDescriptor.NodeAttribute("org.campagnelab.hta.tables.structure.ColumnAnnotation"));
+          }
+        }).translate(new ITranslator2<SNode, SNode>() {
+          public Iterable<SNode> translate(SNode it) {
+            return SLinkOperations.getTargets(it, "groups", true);
+          }
+        }).where(new IWhereFilter<SNode>() {
+          public boolean accept(SNode it) {
+            return (SLinkOperations.getTarget(it, "columnGroup", false) != null);
+          }
+        }).select(new ISelector<SNode, SNode>() {
+          public SNode select(SNode it) {
+            return SLinkOperations.getTarget(it, "columnGroup", false);
+          }
+        }).select(new ISelector<SNode, String>() {
+          public String select(SNode group) {
+            return SPropertyOperations.getString(group, "name");
+          }
+        }).distinct(), ",");
+      }
+
+      public void setText(String s) {
+      }
+
+      public boolean isValidText(String s) {
+        return EqualUtil.equals(s, getText());
+      }
+    }, node);
+    editorCell.setAction(CellActionType.DELETE, EmptyCellAction.getInstance());
+    editorCell.setAction(CellActionType.BACKSPACE, EmptyCellAction.getInstance());
+    editorCell.setCellId("ReadOnlyModelAccessor_o51t1s_h0");
+    return editorCell;
+  }
+
+  private EditorCell createConstant_o51t1s_i0(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "columns:");
+    editorCell.setCellId("Constant_o51t1s_i0");
     Style style = new StyleImpl();
     style.set(StyleAttributes.INDENT_LAYOUT_ON_NEW_LINE, true);
     editorCell.getStyle().putAll(style);
@@ -210,12 +267,12 @@ public class FutureTable_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createRefCell_o51t1s_h0(EditorContext editorContext, SNode node) {
+  private EditorCell createRefCell_o51t1s_j0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefCellCellProvider(node, editorContext);
     provider.setRole("table");
     provider.setNoTargetText("<no table>");
     EditorCell editorCell;
-    provider.setAuxiliaryCellProvider(new FutureTable_Editor._Inline_o51t1s_a7a());
+    provider.setAuxiliaryCellProvider(new FutureTable_Editor._Inline_o51t1s_a9a());
     editorCell = provider.createEditorCell(editorContext);
     if (editorCell.getRole() == null) {
       editorCell.setReferenceCell(true);
@@ -232,8 +289,8 @@ public class FutureTable_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public static class _Inline_o51t1s_a7a extends InlineCellProvider {
-    public _Inline_o51t1s_a7a() {
+  public static class _Inline_o51t1s_a9a extends InlineCellProvider {
+    public _Inline_o51t1s_a9a() {
       super();
     }
 
@@ -242,26 +299,26 @@ public class FutureTable_Editor extends DefaultNodeEditor {
     }
 
     public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-      return this.createCollection_o51t1s_a0h0(editorContext, node);
+      return this.createCollection_o51t1s_a0j0(editorContext, node);
     }
 
-    private EditorCell createCollection_o51t1s_a0h0(EditorContext editorContext, SNode node) {
+    private EditorCell createCollection_o51t1s_a0j0(EditorContext editorContext, SNode node) {
       EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
-      editorCell.setCellId("Collection_o51t1s_a0h0");
-      editorCell.addEditorCell(this.createRefNodeList_o51t1s_a0a7a(editorContext, node));
+      editorCell.setCellId("Collection_o51t1s_a0j0");
+      editorCell.addEditorCell(this.createRefNodeList_o51t1s_a0a9a(editorContext, node));
       return editorCell;
     }
 
-    private EditorCell createRefNodeList_o51t1s_a0a7a(EditorContext editorContext, SNode node) {
-      AbstractCellListHandler handler = new FutureTable_Editor._Inline_o51t1s_a7a.columnsListHandler_o51t1s_a0a7a(node, "columns", editorContext);
+    private EditorCell createRefNodeList_o51t1s_a0a9a(EditorContext editorContext, SNode node) {
+      AbstractCellListHandler handler = new FutureTable_Editor._Inline_o51t1s_a9a.columnsListHandler_o51t1s_a0a9a(node, "columns", editorContext);
       EditorCell_Collection editorCell = handler.createCells(editorContext, new CellLayout_Horizontal(), false);
       editorCell.setCellId("refNodeList_columns");
       editorCell.setRole(handler.getElementRole());
       return editorCell;
     }
 
-    private static class columnsListHandler_o51t1s_a0a7a extends RefNodeListHandler {
-      public columnsListHandler_o51t1s_a0a7a(SNode ownerNode, String childRole, EditorContext context) {
+    private static class columnsListHandler_o51t1s_a0a9a extends RefNodeListHandler {
+      public columnsListHandler_o51t1s_a0a9a(SNode ownerNode, String childRole, EditorContext context) {
         super(ownerNode, childRole, context, false);
       }
 

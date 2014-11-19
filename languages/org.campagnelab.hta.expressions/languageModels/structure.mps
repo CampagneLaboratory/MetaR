@@ -7,7 +7,6 @@
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
   <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="5" implicit="yes" />
   <import index="ztlb" modelUID="r:989540b8-cc89-4ed5-ba78-cf2ce766b8ce(org.campagnelab.mps.XChart.structure)" version="5" implicit="yes" />
-  <import index="p6sl" modelUID="r:175e6779-7e81-49b1-b295-33bbabafa8d6(org.campagnelab.textoutput.structure)" version="1" implicit="yes" />
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="7783277237108235053" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="ExpressionContainer" />
     <property name="rootable" nameId="tpce.1096454100552" value="true" />
@@ -28,16 +27,6 @@
       <property name="role" nameId="tpce.1071599776563" value="column" />
       <property name="sourceCardinality" nameId="tpce.1071599893252" value="1" />
       <link role="target" roleId="tpce.1071599976176" targetNodeId="ztlb.2202909375770434159" resolveInfo="Column" />
-    </node>
-  </root>
-  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="7783277237109801806" nodeInfo="ig">
-    <property name="name" nameId="tpck.1169194664001" value="Phrases" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="p6sl.1680136183140337486" resolveInfo="Phrase" />
-    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="7783277237109801858" nodeInfo="ig">
-      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
-      <property name="role" nameId="tpce.1071599776563" value="phrases" />
-      <property name="sourceCardinality" nameId="tpce.1071599893252" value="1..n" />
-      <link role="target" roleId="tpce.1071599976176" targetNodeId="p6sl.1680136183140337486" resolveInfo="Phrase" />
     </node>
   </root>
 </model>

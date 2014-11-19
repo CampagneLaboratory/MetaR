@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
-  <unitInfo fileName="ConstraintsAspectDescriptor.java" startLine="9" startPosition="0" endLine="39" endPosition="0" unitName="org.campagnelab.hta.tables.constraints.ConstraintsAspectDescriptor" />
+  <unitInfo fileName="ConstraintsAspectDescriptor.java" startLine="9" startPosition="0" endLine="41" endPosition="0" unitName="org.campagnelab.hta.tables.constraints.ConstraintsAspectDescriptor" />
   <root nodeRef="r:377e7fab-b099-4462-b9f3-2050d4b23cf6(org.campagnelab.hta.tables.constraints)/3402264987261612150">
     <nodeInfo nodeId="3402264987261612150" fileName="FutureTableRef_Constraints.java" startLine="23" startPosition="39" endLine="24" endPosition="65" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
     <nodeInfo nodeId="3402264987261612150" fileName="FutureTableRef_Constraints.java" startLine="28" startPosition="83" endLine="29" endPosition="75" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
@@ -220,6 +220,98 @@
     <unitInfo nodeId="4166618652721976329" fileName="SubSetTableRows_Constraints.java" startLine="49" startPosition="19" endLine="49" endPosition="41" unitName="org.campagnelab.hta.tables.constraints.SubSetTableRows_Constraints$2" />
     <unitInfo nodeId="4166618652721976329" fileName="SubSetTableRows_Constraints.java" startLine="26" startPosition="32" endLine="51" endPosition="5" unitName="org.campagnelab.hta.tables.constraints.SubSetTableRows_Constraints$1" />
     <unitInfo nodeId="4166618652721976329" fileName="SubSetTableRows_Constraints.java" startLine="18" startPosition="0" endLine="59" endPosition="0" unitName="org.campagnelab.hta.tables.constraints.SubSetTableRows_Constraints" />
+  </root>
+  <root nodeRef="r:377e7fab-b099-4462-b9f3-2050d4b23cf6(org.campagnelab.hta.tables.constraints)/6001041468488432865">
+    <nodeInfo nodeId="6001041468488432865" fileName="FitXByY_Constraints.java" startLine="26" startPosition="32" endLine="27" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+    <nodeInfo nodeId="6001041468488432865" fileName="FitXByY_Constraints.java" startLine="31" startPosition="83" endLine="32" endPosition="75" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6001041468488432865" fileName="FitXByY_Constraints.java" startLine="35" startPosition="52" endLine="36" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6001041468488432865" fileName="FitXByY_Constraints.java" startLine="40" startPosition="116" endLine="41" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6001041468488552139" fileName="FitXByY_Constraints.java" startLine="45" startPosition="119" endLine="46" endPosition="60" conceptFqName="jetbrains.mps.baseLanguage.structure.SingleLineComment" />
+    <nodeInfo nodeId="6001041468488466898" fileName="FitXByY_Constraints.java" startLine="48" startPosition="43" endLine="49" endPosition="202" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6001041468488432865" fileName="FitXByY_Constraints.java" startLine="55" startPosition="44" endLine="56" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6001041468488432865" fileName="FitXByY_Constraints.java" startLine="64" startPosition="63" endLine="65" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6001041468488432865" fileName="FitXByY_Constraints.java" startLine="69" startPosition="122" endLine="70" endPosition="77" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="6001041468488672782" fileName="FitXByY_Constraints.java" startLine="69" startPosition="122" endLine="70" endPosition="77" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6001041468488432865" fileName="FitXByY_Constraints.java" startLine="77" startPosition="44" endLine="78" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6001041468488432865" fileName="FitXByY_Constraints.java" startLine="86" startPosition="63" endLine="87" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6001041468488432865" fileName="FitXByY_Constraints.java" startLine="91" startPosition="122" endLine="92" endPosition="77" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="6001041468488684674" fileName="FitXByY_Constraints.java" startLine="91" startPosition="122" endLine="92" endPosition="77" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6001041468488432865" fileName="FitXByY_Constraints.java" startLine="96" startPosition="7" endLine="97" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6001041468488432865" fileName="FitXByY_Constraints.java" startLine="100" startPosition="0" endLine="101" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="breakingNode_nlbal5_a0a0a0a0a4a0b0a1a1" />
+    <nodeInfo nodeId="6001041468488432865" fileName="FitXByY_Constraints.java" startLine="101" startPosition="0" endLine="102" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="breakingNode_nlbal5_a0a0a0a0a1a0b0a2a1" />
+    <nodeInfo nodeId="6001041468488432865" fileName="FitXByY_Constraints.java" startLine="26" startPosition="0" endLine="29" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="FitXByY_Constraints#()V" />
+    <nodeInfo nodeId="6001041468488466396" fileName="FitXByY_Constraints.java" startLine="48" startPosition="0" endLine="51" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="accept#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
+    <nodeInfo nodeId="6001041468488432865" fileName="FitXByY_Constraints.java" startLine="34" startPosition="0" endLine="38" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="hasOwnOnReferenceSetHandler#()Z" />
+    <nodeInfo nodeId="6001041468488432865" fileName="FitXByY_Constraints.java" startLine="39" startPosition="0" endLine="43" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="validate#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
+    <nodeInfo nodeId="6001041468488432865" fileName="FitXByY_Constraints.java" startLine="54" startPosition="0" endLine="58" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="hasOwnScopeProvider#()Z" />
+    <nodeInfo nodeId="6001041468488432865" fileName="FitXByY_Constraints.java" startLine="63" startPosition="0" endLine="67" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getSearchScopeValidatorNode#()Lorg/jetbrains/mps/openapi/model/SNodeReference;" />
+    <nodeInfo nodeId="6001041468488432865" fileName="FitXByY_Constraints.java" startLine="68" startPosition="0" endLine="72" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createScope#(Ljetbrains/mps/smodel/IOperationContext;Ljetbrains/mps/smodel/runtime/ReferenceConstraintsContext;)Ljetbrains/mps/scope/Scope;" />
+    <nodeInfo nodeId="6001041468488432865" fileName="FitXByY_Constraints.java" startLine="76" startPosition="0" endLine="80" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="hasOwnScopeProvider#()Z" />
+    <nodeInfo nodeId="6001041468488432865" fileName="FitXByY_Constraints.java" startLine="85" startPosition="0" endLine="89" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getSearchScopeValidatorNode#()Lorg/jetbrains/mps/openapi/model/SNodeReference;" />
+    <nodeInfo nodeId="6001041468488432865" fileName="FitXByY_Constraints.java" startLine="90" startPosition="0" endLine="94" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createScope#(Ljetbrains/mps/smodel/IOperationContext;Ljetbrains/mps/smodel/runtime/ReferenceConstraintsContext;)Ljetbrains/mps/scope/Scope;" />
+    <nodeInfo nodeId="6001041468488435440" fileName="FitXByY_Constraints.java" startLine="46" startPosition="60" endLine="51" endPosition="36" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6001041468488432865" fileName="FitXByY_Constraints.java" startLine="44" startPosition="0" endLine="53" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="onReferenceSet#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+    <nodeInfo nodeId="6001041468488432865" fileName="FitXByY_Constraints.java" startLine="61" startPosition="56" endLine="72" endPosition="10" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6001041468488432865" fileName="FitXByY_Constraints.java" startLine="83" startPosition="56" endLine="94" endPosition="10" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6001041468488432865" fileName="FitXByY_Constraints.java" startLine="59" startPosition="0" endLine="74" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getScopeProvider#()Ljetbrains/mps/smodel/runtime/ReferenceScopeProvider;" />
+    <nodeInfo nodeId="6001041468488432865" fileName="FitXByY_Constraints.java" startLine="81" startPosition="0" endLine="96" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getScopeProvider#()Ljetbrains/mps/smodel/runtime/ReferenceScopeProvider;" />
+    <nodeInfo nodeId="6001041468488432865" fileName="FitXByY_Constraints.java" startLine="74" startPosition="7" endLine="96" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6001041468488432865" fileName="FitXByY_Constraints.java" startLine="32" startPosition="75" endLine="74" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6001041468488432865" fileName="FitXByY_Constraints.java" startLine="30" startPosition="0" endLine="99" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getNotDefaultReferences#()Ljava/util/Map;" />
+    <scopeInfo nodeId="6001041468488432865" fileName="FitXByY_Constraints.java" startLine="26" startPosition="32" endLine="27" endPosition="58" />
+    <scopeInfo nodeId="6001041468488432865" fileName="FitXByY_Constraints.java" startLine="35" startPosition="52" endLine="36" endPosition="20" />
+    <scopeInfo nodeId="6001041468488432865" fileName="FitXByY_Constraints.java" startLine="40" startPosition="116" endLine="41" endPosition="20" />
+    <scopeInfo nodeId="6001041468488466397" fileName="FitXByY_Constraints.java" startLine="48" startPosition="43" endLine="49" endPosition="202" />
+    <scopeInfo nodeId="6001041468488432865" fileName="FitXByY_Constraints.java" startLine="55" startPosition="44" endLine="56" endPosition="20" />
+    <scopeInfo nodeId="6001041468488432865" fileName="FitXByY_Constraints.java" startLine="64" startPosition="63" endLine="65" endPosition="58" />
+    <scopeInfo nodeId="6001041468488432865" fileName="FitXByY_Constraints.java" startLine="69" startPosition="122" endLine="70" endPosition="77" />
+    <scopeInfo nodeId="6001041468488598572" fileName="FitXByY_Constraints.java" startLine="69" startPosition="122" endLine="70" endPosition="77" />
+    <scopeInfo nodeId="6001041468488432865" fileName="FitXByY_Constraints.java" startLine="77" startPosition="44" endLine="78" endPosition="20" />
+    <scopeInfo nodeId="6001041468488432865" fileName="FitXByY_Constraints.java" startLine="86" startPosition="63" endLine="87" endPosition="58" />
+    <scopeInfo nodeId="6001041468488432865" fileName="FitXByY_Constraints.java" startLine="91" startPosition="122" endLine="92" endPosition="77" />
+    <scopeInfo nodeId="6001041468488684635" fileName="FitXByY_Constraints.java" startLine="91" startPosition="122" endLine="92" endPosition="77" />
+    <scopeInfo nodeId="6001041468488432865" fileName="FitXByY_Constraints.java" startLine="26" startPosition="0" endLine="29" endPosition="0" />
+    <scopeInfo nodeId="6001041468488466396" fileName="FitXByY_Constraints.java" startLine="48" startPosition="0" endLine="51" endPosition="0">
+      <varInfo nodeId="6001041468488466396" varName="it" />
+    </scopeInfo>
+    <scopeInfo nodeId="6001041468488432865" fileName="FitXByY_Constraints.java" startLine="34" startPosition="0" endLine="38" endPosition="0" />
+    <scopeInfo nodeId="6001041468488432865" fileName="FitXByY_Constraints.java" startLine="39" startPosition="0" endLine="43" endPosition="0">
+      <varInfo nodeId="6001041468488432865" varName="newReferentNode" />
+      <varInfo nodeId="6001041468488432865" varName="oldReferentNode" />
+      <varInfo nodeId="6001041468488432865" varName="referenceNode" />
+    </scopeInfo>
+    <scopeInfo nodeId="6001041468488432865" fileName="FitXByY_Constraints.java" startLine="54" startPosition="0" endLine="58" endPosition="0" />
+    <scopeInfo nodeId="6001041468488432865" fileName="FitXByY_Constraints.java" startLine="63" startPosition="0" endLine="67" endPosition="0" />
+    <scopeInfo nodeId="6001041468488432865" fileName="FitXByY_Constraints.java" startLine="68" startPosition="0" endLine="72" endPosition="0">
+      <varInfo nodeId="6001041468488432865" varName="_context" />
+      <varInfo nodeId="6001041468488432865" varName="operationContext" />
+    </scopeInfo>
+    <scopeInfo nodeId="6001041468488432865" fileName="FitXByY_Constraints.java" startLine="76" startPosition="0" endLine="80" endPosition="0" />
+    <scopeInfo nodeId="6001041468488432865" fileName="FitXByY_Constraints.java" startLine="85" startPosition="0" endLine="89" endPosition="0" />
+    <scopeInfo nodeId="6001041468488432865" fileName="FitXByY_Constraints.java" startLine="90" startPosition="0" endLine="94" endPosition="0">
+      <varInfo nodeId="6001041468488432865" varName="_context" />
+      <varInfo nodeId="6001041468488432865" varName="operationContext" />
+    </scopeInfo>
+    <scopeInfo nodeId="6001041468488433630" fileName="FitXByY_Constraints.java" startLine="45" startPosition="119" endLine="51" endPosition="36" />
+    <scopeInfo nodeId="6001041468488432865" fileName="FitXByY_Constraints.java" startLine="44" startPosition="0" endLine="53" endPosition="0">
+      <varInfo nodeId="6001041468488432865" varName="newReferentNode" />
+      <varInfo nodeId="6001041468488432865" varName="oldReferentNode" />
+      <varInfo nodeId="6001041468488432865" varName="referenceNode" />
+    </scopeInfo>
+    <scopeInfo nodeId="6001041468488432865" fileName="FitXByY_Constraints.java" startLine="61" startPosition="56" endLine="72" endPosition="10" />
+    <scopeInfo nodeId="6001041468488432865" fileName="FitXByY_Constraints.java" startLine="83" startPosition="56" endLine="94" endPosition="10" />
+    <scopeInfo nodeId="6001041468488432865" fileName="FitXByY_Constraints.java" startLine="59" startPosition="0" endLine="74" endPosition="0" />
+    <scopeInfo nodeId="6001041468488432865" fileName="FitXByY_Constraints.java" startLine="81" startPosition="0" endLine="96" endPosition="0" />
+    <scopeInfo nodeId="6001041468488432865" fileName="FitXByY_Constraints.java" startLine="31" startPosition="83" endLine="97" endPosition="22">
+      <varInfo nodeId="6001041468488432865" varName="references" />
+    </scopeInfo>
+    <scopeInfo nodeId="6001041468488432865" fileName="FitXByY_Constraints.java" startLine="30" startPosition="0" endLine="99" endPosition="0" />
+    <unitInfo nodeId="6001041468488466396" fileName="FitXByY_Constraints.java" startLine="47" startPosition="332" endLine="51" endPosition="9" unitName="org.campagnelab.hta.tables.constraints.FitXByY_Constraints$2" />
+    <unitInfo nodeId="6001041468488432865" fileName="FitXByY_Constraints.java" startLine="62" startPosition="19" endLine="72" endPosition="9" unitName="org.campagnelab.hta.tables.constraints.FitXByY_Constraints$2" />
+    <unitInfo nodeId="6001041468488432865" fileName="FitXByY_Constraints.java" startLine="84" startPosition="19" endLine="94" endPosition="9" unitName="org.campagnelab.hta.tables.constraints.FitXByY_Constraints$3" />
+    <unitInfo nodeId="6001041468488432865" fileName="FitXByY_Constraints.java" startLine="75" startPosition="28" endLine="96" endPosition="5" unitName="org.campagnelab.hta.tables.constraints.FitXByY_Constraints$2" />
+    <unitInfo nodeId="6001041468488432865" fileName="FitXByY_Constraints.java" startLine="33" startPosition="28" endLine="74" endPosition="5" unitName="org.campagnelab.hta.tables.constraints.FitXByY_Constraints$1" />
+    <unitInfo nodeId="6001041468488432865" fileName="FitXByY_Constraints.java" startLine="25" startPosition="0" endLine="103" endPosition="0" unitName="org.campagnelab.hta.tables.constraints.FitXByY_Constraints" />
   </root>
   <root nodeRef="r:377e7fab-b099-4462-b9f3-2050d4b23cf6(org.campagnelab.hta.tables.constraints)/6825610851347318229">
     <nodeInfo nodeId="6825610851347318229" fileName="JoinTables_Constraints.java" startLine="8" startPosition="35" endLine="9" endPosition="61" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
