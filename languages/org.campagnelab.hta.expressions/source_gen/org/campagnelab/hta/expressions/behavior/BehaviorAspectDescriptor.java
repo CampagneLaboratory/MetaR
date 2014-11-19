@@ -14,14 +14,14 @@ public class BehaviorAspectDescriptor implements jetbrains.mps.smodel.runtime.Be
     switch (Arrays.binarySearch(stringSwitchCases_846f5o_a0a0b, fqName)) {
       case 2:
         return new LessThan_BehaviorDescriptor();
-      case 0:
-        return new BinaryBooleanExpression_BehaviorDescriptor();
       case 1:
         return new ExpressionContainer_BehaviorDescriptor();
+      case 0:
+        return new ColumnValue_BehaviorDescriptor();
       default:
         return BehaviorAspectInterpreted.getInstance().getDescriptor(fqName);
     }
   }
 
-  private static String[] stringSwitchCases_846f5o_a0a0b = new String[]{"org.campagnelab.hta.expressions.structure.BinaryBooleanExpression", "org.campagnelab.hta.expressions.structure.ExpressionContainer", "org.campagnelab.hta.expressions.structure.LessThan"};
+  private static String[] stringSwitchCases_846f5o_a0a0b = new String[]{"org.campagnelab.hta.expressions.structure.ColumnValue", "org.campagnelab.hta.expressions.structure.ExpressionContainer", "org.campagnelab.hta.expressions.structure.LessThan"};
 }

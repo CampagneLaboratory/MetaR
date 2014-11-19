@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
   <unitInfo fileName="BehaviorAspectDescriptor.java" startLine="9" startPosition="0" endLine="28" endPosition="0" unitName="org.campagnelab.hta.expressions.behavior.BehaviorAspectDescriptor" />
-  <unitInfo fileName="BinaryBooleanExpression_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="org.campagnelab.hta.expressions.behavior.BinaryBooleanExpression_BehaviorDescriptor" />
-  <unitInfo fileName="BinaryOperator_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="org.campagnelab.hta.expressions.behavior.BinaryOperator_BehaviorDescriptor" />
+  <unitInfo fileName="ColumnValue_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="org.campagnelab.hta.expressions.behavior.ColumnValue_BehaviorDescriptor" />
   <unitInfo fileName="ExpressionContainer_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="org.campagnelab.hta.expressions.behavior.ExpressionContainer_BehaviorDescriptor" />
-  <unitInfo fileName="LessThan_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="org.campagnelab.hta.expressions.behavior.LessThan_BehaviorDescriptor" />
+  <unitInfo fileName="LessThan_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="org.campagnelab.hta.expressions.behavior.LessThan_BehaviorDescriptor" />
 </debugInfo>
 

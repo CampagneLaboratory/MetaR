@@ -31,28 +31,5 @@
       <link role="concept" roleId="tpd4.1174642800329" targetNodeId="rg56.7783277237108466470" resolveInfo="ColumnValue" />
     </node>
   </root>
-  <root type="tpd4.InferenceRule" typeId="tpd4.1174643105530" id="7783277237108534994" nodeInfo="ng">
-    <property name="name" nameId="tpck.1169194664001" value="typeof_BinaryBooleanExpression" />
-    <node role="body" roleId="tpd4.1195213635060" type="tpee.StatementList" typeId="tpee.1068580123136" id="7783277237108534995" nodeInfo="sn">
-      <node role="statement" roleId="tpee.1068581517665" type="tpd4.CreateLessThanInequationStatement" typeId="tpd4.1174663118805" id="7783277237108535316" nodeInfo="nn">
-        <node role="rightExpression" roleId="tpd4.1174660783414" type="tpd4.NormalTypeClause" typeId="tpd4.1185788614172" id="7783277237108535339" nodeInfo="ng">
-          <node role="normalType" roleId="tpd4.1185788644032" type="tp3r.Quotation" typeId="tp3r.1196350785113" id="7783277237108535335" nodeInfo="nn">
-            <node role="quotedNode" roleId="tp3r.1196350785114" type="tpee.BooleanType" typeId="tpee.1070534644030" id="7783277237108535372" nodeInfo="in" />
-          </node>
-        </node>
-        <node role="leftExpression" roleId="tpd4.1174660783413" type="tpd4.NormalTypeClause" typeId="tpd4.1185788614172" id="7783277237108535319" nodeInfo="ng">
-          <node role="normalType" roleId="tpd4.1185788644032" type="tpd4.TypeOfExpression" typeId="tpd4.1174657487114" id="7783277237108535004" nodeInfo="nn">
-            <node role="term" roleId="tpd4.1174657509053" type="tpd4.ApplicableNodeReference" typeId="tpd4.1174650418652" id="7783277237108535043" nodeInfo="nn">
-              <link role="applicableNode" roleId="tpd4.1174650432090" targetNodeId="7783277237108534997" resolveInfo="binaryBooleanExpression" />
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-    <node role="applicableNode" roleId="tpd4.1174648101952" type="tpd4.ConceptReference" typeId="tpd4.1174642788531" id="7783277237108534997" nodeInfo="ig">
-      <property name="name" nameId="tpck.1169194664001" value="binaryBooleanExpression" />
-      <link role="concept" roleId="tpd4.1174642800329" targetNodeId="rg56.7783277237108217327" resolveInfo="BinaryBooleanExpression" />
-    </node>
-  </root>
 </model>
 

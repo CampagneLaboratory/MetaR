@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
-  <unitInfo fileName="TypesystemDescriptor.java" startLine="8" startPosition="0" endLine="20" endPosition="0" unitName="org.campagnelab.hta.expressions.typesystem.TypesystemDescriptor" />
+  <unitInfo fileName="TypesystemDescriptor.java" startLine="8" startPosition="0" endLine="16" endPosition="0" unitName="org.campagnelab.hta.expressions.typesystem.TypesystemDescriptor" />
   <root nodeRef="r:feb05a40-03c0-48d7-8c1e-54c91666ecf8(org.campagnelab.hta.expressions.typesystem)/7783277237108524990">
     <nodeInfo nodeId="7783277237108527616" fileName="typeof_ColumnValue_InferenceRule.java" startLine="19" startPosition="5" endLine="20" endPosition="53" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="7783277237108527616" fileName="typeof_ColumnValue_InferenceRule.java" startLine="20" startPosition="53" endLine="21" endPosition="208" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
@@ -53,59 +53,6 @@
       <varInfo nodeId="7783277237108524990" varName="typeCheckingContext" />
     </scopeInfo>
     <unitInfo nodeId="7783277237108524990" fileName="typeof_ColumnValue_InferenceRule.java" startLine="14" startPosition="0" endLine="48" endPosition="0" unitName="org.campagnelab.hta.expressions.typesystem.typeof_ColumnValue_InferenceRule" />
-  </root>
-  <root nodeRef="r:feb05a40-03c0-48d7-8c1e-54c91666ecf8(org.campagnelab.hta.expressions.typesystem)/7783277237108534994">
-    <nodeInfo nodeId="7783277237108535316" fileName="typeof_BinaryBooleanExpression_InferenceRule.java" startLine="19" startPosition="5" endLine="20" endPosition="65" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="7783277237108535316" fileName="typeof_BinaryBooleanExpression_InferenceRule.java" startLine="20" startPosition="65" endLine="21" endPosition="208" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="7783277237108535316" fileName="typeof_BinaryBooleanExpression_InferenceRule.java" startLine="21" startPosition="208" endLine="22" endPosition="308" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7783277237108534994" fileName="typeof_BinaryBooleanExpression_InferenceRule.java" startLine="26" startPosition="46" endLine="27" endPosition="79" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="7783277237108534994" fileName="typeof_BinaryBooleanExpression_InferenceRule.java" startLine="31" startPosition="5" endLine="32" endPosition="130" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="7783277237108534994" fileName="typeof_BinaryBooleanExpression_InferenceRule.java" startLine="32" startPosition="130" endLine="33" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="7783277237108534994" fileName="typeof_BinaryBooleanExpression_InferenceRule.java" startLine="37" startPosition="30" endLine="38" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="7783277237108535335" fileName="typeof_BinaryBooleanExpression_InferenceRule.java" startLine="41" startPosition="61" endLine="42" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="7783277237108535335" fileName="typeof_BinaryBooleanExpression_InferenceRule.java" startLine="42" startPosition="63" endLine="43" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="7783277237108535335" fileName="typeof_BinaryBooleanExpression_InferenceRule.java" startLine="43" startPosition="30" endLine="44" endPosition="135" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="7783277237108535335" fileName="typeof_BinaryBooleanExpression_InferenceRule.java" startLine="43" startPosition="30" endLine="44" endPosition="135" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="7783277237108535335" fileName="typeof_BinaryBooleanExpression_InferenceRule.java" startLine="43" startPosition="30" endLine="44" endPosition="135" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7783277237108535335" fileName="typeof_BinaryBooleanExpression_InferenceRule.java" startLine="44" startPosition="135" endLine="45" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="7783277237108534994" fileName="typeof_BinaryBooleanExpression_InferenceRule.java" startLine="15" startPosition="0" endLine="17" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="typeof_BinaryBooleanExpression_InferenceRule#()V" />
-    <nodeInfo nodeId="7783277237108534994" fileName="typeof_BinaryBooleanExpression_InferenceRule.java" startLine="26" startPosition="0" endLine="29" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getApplicableConceptFQName#()Ljava/lang/String;" />
-    <nodeInfo nodeId="7783277237108534994" fileName="typeof_BinaryBooleanExpression_InferenceRule.java" startLine="37" startPosition="0" endLine="40" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="overrides#()Z" />
-    <nodeInfo nodeId="7783277237108534994" fileName="typeof_BinaryBooleanExpression_InferenceRule.java" startLine="30" startPosition="68" endLine="34" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="7783277237108535316" fileName="typeof_BinaryBooleanExpression_InferenceRule.java" startLine="18" startPosition="136" endLine="23" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="7783277237108534994" fileName="typeof_BinaryBooleanExpression_InferenceRule.java" startLine="30" startPosition="0" endLine="36" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isApplicableAndPattern#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;" />
-    <nodeInfo nodeId="7783277237108535335" fileName="typeof_BinaryBooleanExpression_InferenceRule.java" startLine="41" startPosition="0" endLine="47" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="_quotation_createNode_6xldkj_a0a0b#()Lorg/jetbrains/mps/openapi/model/SNode;" />
-    <nodeInfo nodeId="7783277237108534994" fileName="typeof_BinaryBooleanExpression_InferenceRule.java" startLine="18" startPosition="0" endLine="25" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="applyRule#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/typesystem/inference/TypeCheckingContext;Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;)V" />
-    <scopeInfo nodeId="7783277237108534994" fileName="typeof_BinaryBooleanExpression_InferenceRule.java" startLine="15" startPosition="57" endLine="15" endPosition="57" />
-    <scopeInfo nodeId="7783277237108534994" fileName="typeof_BinaryBooleanExpression_InferenceRule.java" startLine="26" startPosition="46" endLine="27" endPosition="79" />
-    <scopeInfo nodeId="7783277237108534994" fileName="typeof_BinaryBooleanExpression_InferenceRule.java" startLine="37" startPosition="30" endLine="38" endPosition="17" />
-    <scopeInfo nodeId="7783277237108535335" fileName="typeof_BinaryBooleanExpression_InferenceRule.java" startLine="43" startPosition="30" endLine="44" endPosition="135" />
-    <scopeInfo nodeId="7783277237108534994" fileName="typeof_BinaryBooleanExpression_InferenceRule.java" startLine="15" startPosition="0" endLine="17" endPosition="0" />
-    <scopeInfo nodeId="7783277237108534994" fileName="typeof_BinaryBooleanExpression_InferenceRule.java" startLine="31" startPosition="5" endLine="33" endPosition="45">
-      <varInfo nodeId="7783277237108534994" varName="b" />
-    </scopeInfo>
-    <scopeInfo nodeId="7783277237108535316" fileName="typeof_BinaryBooleanExpression_InferenceRule.java" startLine="19" startPosition="5" endLine="22" endPosition="308">
-      <varInfo nodeId="7783277237108535316" varName="_info_12389875345" />
-      <varInfo nodeId="7783277237108535316" varName="_nodeToCheck_1029348928467" />
-    </scopeInfo>
-    <scopeInfo nodeId="7783277237108534994" fileName="typeof_BinaryBooleanExpression_InferenceRule.java" startLine="26" startPosition="0" endLine="29" endPosition="0" />
-    <scopeInfo nodeId="7783277237108534994" fileName="typeof_BinaryBooleanExpression_InferenceRule.java" startLine="37" startPosition="0" endLine="40" endPosition="0" />
-    <scopeInfo nodeId="7783277237108534994" fileName="typeof_BinaryBooleanExpression_InferenceRule.java" startLine="30" startPosition="68" endLine="34" endPosition="5" />
-    <scopeInfo nodeId="7783277237108535335" fileName="typeof_BinaryBooleanExpression_InferenceRule.java" startLine="41" startPosition="61" endLine="45" endPosition="24">
-      <varInfo nodeId="7783277237108535335" varName="facade" />
-      <varInfo nodeId="7783277237108535335" varName="quotedNode_1" />
-    </scopeInfo>
-    <scopeInfo nodeId="7783277237108534995" fileName="typeof_BinaryBooleanExpression_InferenceRule.java" startLine="18" startPosition="136" endLine="23" endPosition="5" />
-    <scopeInfo nodeId="7783277237108534994" fileName="typeof_BinaryBooleanExpression_InferenceRule.java" startLine="30" startPosition="0" endLine="36" endPosition="0">
-      <varInfo nodeId="7783277237108534994" varName="argument" />
-    </scopeInfo>
-    <scopeInfo nodeId="7783277237108535335" fileName="typeof_BinaryBooleanExpression_InferenceRule.java" startLine="41" startPosition="0" endLine="47" endPosition="0" />
-    <scopeInfo nodeId="7783277237108534994" fileName="typeof_BinaryBooleanExpression_InferenceRule.java" startLine="18" startPosition="0" endLine="25" endPosition="0">
-      <varInfo nodeId="7783277237108534994" varName="binaryBooleanExpression" />
-      <varInfo nodeId="7783277237108534994" varName="status" />
-      <varInfo nodeId="7783277237108534994" varName="typeCheckingContext" />
-    </scopeInfo>
-    <unitInfo nodeId="7783277237108534994" fileName="typeof_BinaryBooleanExpression_InferenceRule.java" startLine="14" startPosition="0" endLine="48" endPosition="0" unitName="org.campagnelab.hta.expressions.typesystem.typeof_BinaryBooleanExpression_InferenceRule" />
   </root>
 </debugInfo>
 
