@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debugInfo>
+  <root nodeRef="r:1443b642-fea5-4479-9b81-d28e6be6c4d2(org.campagnelab.hta.tables.scopes)/6001041468488663608">
+    <nodeInfo nodeId="6001041468488643415" fileName="ImportedTableScope.java" startLine="16" startPosition="50" endLine="17" endPosition="149" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6001041468488642889" fileName="ImportedTableScope.java" startLine="16" startPosition="0" endLine="19" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="translate#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/Iterable;" />
+    <nodeInfo nodeId="6001041468488609662" fileName="ImportedTableScope.java" startLine="14" startPosition="54" endLine="19" endPosition="8" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6001041468488663738" fileName="ImportedTableScope.java" startLine="14" startPosition="0" endLine="21" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="allImported#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/scope/Scope;" />
+    <scopeInfo nodeId="6001041468488642890" fileName="ImportedTableScope.java" startLine="16" startPosition="50" endLine="17" endPosition="149" />
+    <scopeInfo nodeId="6001041468488642889" fileName="ImportedTableScope.java" startLine="16" startPosition="0" endLine="19" endPosition="0">
+      <varInfo nodeId="6001041468488642889" varName="it" />
+    </scopeInfo>
+    <scopeInfo nodeId="6001041468488663742" fileName="ImportedTableScope.java" startLine="14" startPosition="54" endLine="19" endPosition="8" />
+    <scopeInfo nodeId="6001041468488663738" fileName="ImportedTableScope.java" startLine="14" startPosition="0" endLine="21" endPosition="0">
+      <varInfo nodeId="6001041468488666910" varName="contextNode" />
+    </scopeInfo>
+    <unitInfo nodeId="6001041468488642889" fileName="ImportedTableScope.java" startLine="15" startPosition="284" endLine="19" endPosition="5" unitName="org.campagnelab.hta.tables.scopes.ImportedTableScope$1" />
+    <unitInfo nodeId="6001041468488663608" fileName="ImportedTableScope.java" startLine="13" startPosition="0" endLine="22" endPosition="0" unitName="org.campagnelab.hta.tables.scopes.ImportedTableScope" />
+  </root>
+</debugInfo>
+
