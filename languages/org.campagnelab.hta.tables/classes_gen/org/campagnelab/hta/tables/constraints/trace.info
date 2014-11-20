@@ -171,55 +171,11 @@
     <unitInfo nodeId="3402264987262308193" fileName="ColumnRef_Constraints.java" startLine="22" startPosition="0" endLine="60" endPosition="0" unitName="org.campagnelab.hta.tables.constraints.ColumnRef_Constraints" />
   </root>
   <root nodeRef="r:377e7fab-b099-4462-b9f3-2050d4b23cf6(org.campagnelab.hta.tables.constraints)/4166618652721976329">
-    <nodeInfo nodeId="4166618652721976329" fileName="SubSetTableRows_Constraints.java" startLine="19" startPosition="40" endLine="20" endPosition="66" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
-    <nodeInfo nodeId="4166618652721976329" fileName="SubSetTableRows_Constraints.java" startLine="24" startPosition="83" endLine="25" endPosition="75" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="4166618652721976329" fileName="SubSetTableRows_Constraints.java" startLine="28" startPosition="52" endLine="29" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="4166618652721976329" fileName="SubSetTableRows_Constraints.java" startLine="33" startPosition="116" endLine="34" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="4166618652721976374" fileName="SubSetTableRows_Constraints.java" startLine="38" startPosition="119" endLine="39" endPosition="96" conceptFqName="jetbrains.mps.baseLanguage.structure.SingleLineComment" />
-    <nodeInfo nodeId="4166618652721976384" fileName="SubSetTableRows_Constraints.java" startLine="39" startPosition="96" endLine="40" endPosition="184" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4166618652722677917" fileName="SubSetTableRows_Constraints.java" startLine="41" startPosition="173" endLine="42" endPosition="250" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4166618652721976329" fileName="SubSetTableRows_Constraints.java" startLine="48" startPosition="56" endLine="49" endPosition="42" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="4166618652721976329" fileName="SubSetTableRows_Constraints.java" startLine="51" startPosition="7" endLine="52" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="4166618652722677811" fileName="SubSetTableRows_Constraints.java" startLine="55" startPosition="52" endLine="56" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="4166618652721976329" fileName="SubSetTableRows_Constraints.java" startLine="19" startPosition="0" endLine="22" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="SubSetTableRows_Constraints#()V" />
-    <nodeInfo nodeId="4166618652722666756" fileName="SubSetTableRows_Constraints.java" startLine="40" startPosition="184" endLine="43" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="4166618652722677811" fileName="SubSetTableRows_Constraints.java" startLine="55" startPosition="0" endLine="58" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="isEmptyString#(Ljava/lang/String;)Z" />
-    <nodeInfo nodeId="4166618652721976329" fileName="SubSetTableRows_Constraints.java" startLine="27" startPosition="0" endLine="31" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="hasOwnOnReferenceSetHandler#()Z" />
-    <nodeInfo nodeId="4166618652721976329" fileName="SubSetTableRows_Constraints.java" startLine="32" startPosition="0" endLine="36" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="validate#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
-    <nodeInfo nodeId="4166618652721976329" fileName="SubSetTableRows_Constraints.java" startLine="46" startPosition="0" endLine="51" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getScopeProvider#()Ljetbrains/mps/smodel/runtime/ReferenceScopeProvider;" />
-    <nodeInfo nodeId="4166618652721976329" fileName="SubSetTableRows_Constraints.java" startLine="37" startPosition="0" endLine="45" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="onReferenceSet#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
-    <nodeInfo nodeId="4166618652721976329" fileName="SubSetTableRows_Constraints.java" startLine="25" startPosition="75" endLine="51" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4166618652721976329" fileName="SubSetTableRows_Constraints.java" startLine="23" startPosition="0" endLine="54" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getNotDefaultReferences#()Ljava/util/Map;" />
-    <scopeInfo nodeId="4166618652721976329" fileName="SubSetTableRows_Constraints.java" startLine="19" startPosition="40" endLine="20" endPosition="66" />
-    <scopeInfo nodeId="4166618652721976329" fileName="SubSetTableRows_Constraints.java" startLine="28" startPosition="52" endLine="29" endPosition="20" />
-    <scopeInfo nodeId="4166618652721976329" fileName="SubSetTableRows_Constraints.java" startLine="33" startPosition="116" endLine="34" endPosition="20" />
-    <scopeInfo nodeId="4166618652722666759" fileName="SubSetTableRows_Constraints.java" startLine="41" startPosition="173" endLine="42" endPosition="250" />
-    <scopeInfo nodeId="4166618652721976329" fileName="SubSetTableRows_Constraints.java" startLine="48" startPosition="56" endLine="49" endPosition="42" />
-    <scopeInfo nodeId="4166618652722677811" fileName="SubSetTableRows_Constraints.java" startLine="55" startPosition="52" endLine="56" endPosition="44" />
-    <scopeInfo nodeId="4166618652721976329" fileName="SubSetTableRows_Constraints.java" startLine="19" startPosition="0" endLine="22" endPosition="0" />
-    <scopeInfo nodeId="4166618652722677811" fileName="SubSetTableRows_Constraints.java" startLine="55" startPosition="0" endLine="58" endPosition="0">
-      <varInfo nodeId="4166618652722677811" varName="str" />
-    </scopeInfo>
-    <scopeInfo nodeId="4166618652721976329" fileName="SubSetTableRows_Constraints.java" startLine="27" startPosition="0" endLine="31" endPosition="0" />
-    <scopeInfo nodeId="4166618652721976329" fileName="SubSetTableRows_Constraints.java" startLine="32" startPosition="0" endLine="36" endPosition="0">
-      <varInfo nodeId="4166618652721976329" varName="newReferentNode" />
-      <varInfo nodeId="4166618652721976329" varName="oldReferentNode" />
-      <varInfo nodeId="4166618652721976329" varName="referenceNode" />
-    </scopeInfo>
-    <scopeInfo nodeId="4166618652721976371" fileName="SubSetTableRows_Constraints.java" startLine="38" startPosition="119" endLine="43" endPosition="9" />
-    <scopeInfo nodeId="4166618652721976329" fileName="SubSetTableRows_Constraints.java" startLine="46" startPosition="0" endLine="51" endPosition="0" />
-    <scopeInfo nodeId="4166618652721976329" fileName="SubSetTableRows_Constraints.java" startLine="37" startPosition="0" endLine="45" endPosition="0">
-      <varInfo nodeId="4166618652721976329" varName="newReferentNode" />
-      <varInfo nodeId="4166618652721976329" varName="oldReferentNode" />
-      <varInfo nodeId="4166618652721976329" varName="referenceNode" />
-    </scopeInfo>
-    <scopeInfo nodeId="4166618652721976329" fileName="SubSetTableRows_Constraints.java" startLine="24" startPosition="83" endLine="52" endPosition="22">
-      <varInfo nodeId="4166618652721976329" varName="references" />
-    </scopeInfo>
-    <scopeInfo nodeId="4166618652721976329" fileName="SubSetTableRows_Constraints.java" startLine="23" startPosition="0" endLine="54" endPosition="0" />
-    <unitInfo nodeId="4166618652721976329" fileName="SubSetTableRows_Constraints.java" startLine="49" startPosition="19" endLine="49" endPosition="41" unitName="org.campagnelab.hta.tables.constraints.SubSetTableRows_Constraints$2" />
-    <unitInfo nodeId="4166618652721976329" fileName="SubSetTableRows_Constraints.java" startLine="26" startPosition="27" endLine="51" endPosition="5" unitName="org.campagnelab.hta.tables.constraints.SubSetTableRows_Constraints$1" />
-    <unitInfo nodeId="4166618652721976329" fileName="SubSetTableRows_Constraints.java" startLine="18" startPosition="0" endLine="59" endPosition="0" unitName="org.campagnelab.hta.tables.constraints.SubSetTableRows_Constraints" />
+    <nodeInfo nodeId="4166618652721976329" fileName="SubSetTableRows_Constraints.java" startLine="8" startPosition="40" endLine="9" endPosition="66" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+    <nodeInfo nodeId="4166618652721976329" fileName="SubSetTableRows_Constraints.java" startLine="8" startPosition="0" endLine="11" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="SubSetTableRows_Constraints#()V" />
+    <scopeInfo nodeId="4166618652721976329" fileName="SubSetTableRows_Constraints.java" startLine="8" startPosition="40" endLine="9" endPosition="66" />
+    <scopeInfo nodeId="4166618652721976329" fileName="SubSetTableRows_Constraints.java" startLine="8" startPosition="0" endLine="11" endPosition="0" />
+    <unitInfo nodeId="4166618652721976329" fileName="SubSetTableRows_Constraints.java" startLine="7" startPosition="0" endLine="12" endPosition="0" unitName="org.campagnelab.hta.tables.constraints.SubSetTableRows_Constraints" />
   </root>
   <root nodeRef="r:377e7fab-b099-4462-b9f3-2050d4b23cf6(org.campagnelab.hta.tables.constraints)/4451133196879838605">
     <nodeInfo nodeId="4451133196879838605" fileName="TableRef_Constraints.java" startLine="25" startPosition="33" endLine="26" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
@@ -300,7 +256,7 @@
     <nodeInfo nodeId="6001041468488432865" fileName="FitXByY_Constraints.java" startLine="76" startPosition="0" endLine="80" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="hasOwnScopeProvider#()Z" />
     <nodeInfo nodeId="6001041468488432865" fileName="FitXByY_Constraints.java" startLine="85" startPosition="0" endLine="89" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getSearchScopeValidatorNode#()Lorg/jetbrains/mps/openapi/model/SNodeReference;" />
     <nodeInfo nodeId="6001041468488432865" fileName="FitXByY_Constraints.java" startLine="90" startPosition="0" endLine="94" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createScope#(Ljetbrains/mps/smodel/IOperationContext;Ljetbrains/mps/smodel/runtime/ReferenceConstraintsContext;)Ljetbrains/mps/scope/Scope;" />
-    <nodeInfo nodeId="6001041468488435440" fileName="FitXByY_Constraints.java" startLine="46" startPosition="60" endLine="51" endPosition="36" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6001041468488435440" fileName="FitXByY_Constraints.java" startLine="46" startPosition="60" endLine="51" endPosition="53" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="6001041468488432865" fileName="FitXByY_Constraints.java" startLine="44" startPosition="0" endLine="53" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="onReferenceSet#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
     <nodeInfo nodeId="6001041468488432865" fileName="FitXByY_Constraints.java" startLine="61" startPosition="56" endLine="72" endPosition="10" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="6001041468488432865" fileName="FitXByY_Constraints.java" startLine="83" startPosition="56" endLine="94" endPosition="10" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
@@ -343,7 +299,7 @@
       <varInfo nodeId="6001041468488432865" varName="_context" />
       <varInfo nodeId="6001041468488432865" varName="operationContext" />
     </scopeInfo>
-    <scopeInfo nodeId="6001041468488433630" fileName="FitXByY_Constraints.java" startLine="45" startPosition="119" endLine="51" endPosition="36" />
+    <scopeInfo nodeId="6001041468488433630" fileName="FitXByY_Constraints.java" startLine="45" startPosition="119" endLine="51" endPosition="53" />
     <scopeInfo nodeId="6001041468488432865" fileName="FitXByY_Constraints.java" startLine="44" startPosition="0" endLine="53" endPosition="0">
       <varInfo nodeId="6001041468488432865" varName="newReferentNode" />
       <varInfo nodeId="6001041468488432865" varName="oldReferentNode" />
@@ -357,7 +313,7 @@
       <varInfo nodeId="6001041468488432865" varName="references" />
     </scopeInfo>
     <scopeInfo nodeId="6001041468488432865" fileName="FitXByY_Constraints.java" startLine="30" startPosition="0" endLine="99" endPosition="0" />
-    <unitInfo nodeId="6001041468488466396" fileName="FitXByY_Constraints.java" startLine="47" startPosition="327" endLine="51" endPosition="9" unitName="org.campagnelab.hta.tables.constraints.FitXByY_Constraints$2" />
+    <unitInfo nodeId="6001041468488466396" fileName="FitXByY_Constraints.java" startLine="47" startPosition="400" endLine="51" endPosition="9" unitName="org.campagnelab.hta.tables.constraints.FitXByY_Constraints$2" />
     <unitInfo nodeId="6001041468488432865" fileName="FitXByY_Constraints.java" startLine="62" startPosition="19" endLine="72" endPosition="9" unitName="org.campagnelab.hta.tables.constraints.FitXByY_Constraints$2" />
     <unitInfo nodeId="6001041468488432865" fileName="FitXByY_Constraints.java" startLine="84" startPosition="19" endLine="94" endPosition="9" unitName="org.campagnelab.hta.tables.constraints.FitXByY_Constraints$3" />
     <unitInfo nodeId="6001041468488432865" fileName="FitXByY_Constraints.java" startLine="75" startPosition="28" endLine="96" endPosition="5" unitName="org.campagnelab.hta.tables.constraints.FitXByY_Constraints$2" />

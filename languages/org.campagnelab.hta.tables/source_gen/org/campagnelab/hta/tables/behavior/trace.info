@@ -313,7 +313,7 @@
     </scopeInfo>
     <unitInfo nodeId="8709280678588496060" fileName="Heatmap_Behavior.java" startLine="33" startPosition="226" endLine="37" endPosition="9" unitName="org.campagnelab.hta.tables.behavior.Heatmap_Behavior$2" />
     <unitInfo nodeId="8709280678588496060" fileName="Heatmap_Behavior.java" startLine="37" startPosition="22" endLine="41" endPosition="9" unitName="org.campagnelab.hta.tables.behavior.Heatmap_Behavior$2" />
-    <unitInfo nodeId="8709280678588496057" fileName="Heatmap_Behavior.java" startLine="31" startPosition="185" endLine="43" endPosition="5" unitName="org.campagnelab.hta.tables.behavior.Heatmap_Behavior$1" />
+    <unitInfo nodeId="8709280678588496057" fileName="Heatmap_Behavior.java" startLine="31" startPosition="189" endLine="43" endPosition="5" unitName="org.campagnelab.hta.tables.behavior.Heatmap_Behavior$1" />
     <unitInfo nodeId="7074867102586666512" fileName="Heatmap_Behavior.java" startLine="20" startPosition="0" endLine="50" endPosition="0" unitName="org.campagnelab.hta.tables.behavior.Heatmap_Behavior" />
   </root>
   <root nodeRef="r:db1b133e-9a0f-4319-b384-413408eb1729(org.campagnelab.hta.tables.behavior)/7074867102589853551">
