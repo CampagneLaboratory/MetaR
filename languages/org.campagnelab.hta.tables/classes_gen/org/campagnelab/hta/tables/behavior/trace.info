@@ -415,7 +415,7 @@
   </root>
   <root nodeRef="r:db1b133e-9a0f-4319-b384-413408eb1729(org.campagnelab.hta.tables.behavior)/772483346259741680">
     <nodeInfo nodeId="772483346259741694" fileName="FutureTable_Behavior.java" startLine="22" startPosition="70" endLine="23" endPosition="288" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="4166618652720345598" fileName="FutureTable_Behavior.java" startLine="26" startPosition="83" endLine="27" endPosition="124" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4166618652720345598" fileName="FutureTable_Behavior.java" startLine="26" startPosition="83" endLine="27" endPosition="91" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="4166618652719948281" fileName="FutureTable_Behavior.java" startLine="30" startPosition="84" endLine="31" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
     <nodeInfo nodeId="4166618652719885008" fileName="FutureTable_Behavior.java" startLine="31" startPosition="0" endLine="32" endPosition="242" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="4166618652719922455" fileName="FutureTable_Behavior.java" startLine="32" startPosition="242" endLine="33" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
@@ -438,7 +438,7 @@
     <nodeInfo nodeId="772483346259741680" fileName="FutureTable_Behavior.java" startLine="36" startPosition="0" endLine="54" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="call_setSchemaFrom_4166618652721995042#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
     <scopeInfo nodeId="772483346259741682" fileName="FutureTable_Behavior.java" startLine="19" startPosition="43" endLine="19" endPosition="43" />
     <scopeInfo nodeId="772483346259741686" fileName="FutureTable_Behavior.java" startLine="22" startPosition="70" endLine="23" endPosition="288" />
-    <scopeInfo nodeId="4166618652720345589" fileName="FutureTable_Behavior.java" startLine="26" startPosition="83" endLine="27" endPosition="124" />
+    <scopeInfo nodeId="4166618652720345589" fileName="FutureTable_Behavior.java" startLine="26" startPosition="83" endLine="27" endPosition="91" />
     <scopeInfo nodeId="4166618652723185058" fileName="FutureTable_Behavior.java" startLine="47" startPosition="39" endLine="48" endPosition="133" />
     <scopeInfo nodeId="772483346259741680" fileName="FutureTable_Behavior.java" startLine="19" startPosition="0" endLine="21" endPosition="0">
       <varInfo nodeId="772483346259741680" varName="thisNode" />
