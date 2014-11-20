@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
   <unitInfo fileName="AbstractRowFilter_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="org.campagnelab.hta.tables.behavior.AbstractRowFilter_BehaviorDescriptor" />
-  <unitInfo fileName="BehaviorAspectDescriptor.java" startLine="9" startPosition="0" endLine="66" endPosition="0" unitName="org.campagnelab.hta.tables.behavior.BehaviorAspectDescriptor" />
+  <unitInfo fileName="BehaviorAspectDescriptor.java" startLine="9" startPosition="0" endLine="68" endPosition="0" unitName="org.campagnelab.hta.tables.behavior.BehaviorAspectDescriptor" />
   <unitInfo fileName="ColumnAnnotation_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="org.campagnelab.hta.tables.behavior.ColumnAnnotation_BehaviorDescriptor" />
   <unitInfo fileName="ColumnGroupContainer_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="org.campagnelab.hta.tables.behavior.ColumnGroupContainer_BehaviorDescriptor" />
   <unitInfo fileName="ColumnGroupReference_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="org.campagnelab.hta.tables.behavior.ColumnGroupReference_BehaviorDescriptor" />
@@ -27,6 +27,7 @@
   <unitInfo fileName="SelectByGroup_BehaviorDescriptor.java" startLine="8" startPosition="0" endLine="21" endPosition="0" unitName="org.campagnelab.hta.tables.behavior.SelectByGroup_BehaviorDescriptor" />
   <unitInfo fileName="SetOfIds_BehaviorDescriptor.java" startLine="9" startPosition="0" endLine="22" endPosition="0" unitName="org.campagnelab.hta.tables.behavior.SetOfIds_BehaviorDescriptor" />
   <unitInfo fileName="SubSetTableRows_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="org.campagnelab.hta.tables.behavior.SubSetTableRows_BehaviorDescriptor" />
+  <unitInfo fileName="TableRef_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="org.campagnelab.hta.tables.behavior.TableRef_BehaviorDescriptor" />
   <unitInfo fileName="TableTransformation_BehaviorDescriptor.java" startLine="11" startPosition="0" endLine="28" endPosition="0" unitName="org.campagnelab.hta.tables.behavior.TableTransformation_BehaviorDescriptor" />
   <unitInfo fileName="Table_BehaviorDescriptor.java" startLine="10" startPosition="0" endLine="23" endPosition="0" unitName="org.campagnelab.hta.tables.behavior.Table_BehaviorDescriptor" />
   <unitInfo fileName="UsageType_BehaviorDescriptor.java" startLine="10" startPosition="0" endLine="23" endPosition="0" unitName="org.campagnelab.hta.tables.behavior.UsageType_BehaviorDescriptor" />
@@ -312,7 +313,7 @@
     </scopeInfo>
     <unitInfo nodeId="8709280678588496060" fileName="Heatmap_Behavior.java" startLine="33" startPosition="226" endLine="37" endPosition="9" unitName="org.campagnelab.hta.tables.behavior.Heatmap_Behavior$2" />
     <unitInfo nodeId="8709280678588496060" fileName="Heatmap_Behavior.java" startLine="37" startPosition="22" endLine="41" endPosition="9" unitName="org.campagnelab.hta.tables.behavior.Heatmap_Behavior$2" />
-    <unitInfo nodeId="8709280678588496057" fileName="Heatmap_Behavior.java" startLine="31" startPosition="190" endLine="43" endPosition="5" unitName="org.campagnelab.hta.tables.behavior.Heatmap_Behavior$1" />
+    <unitInfo nodeId="8709280678588496057" fileName="Heatmap_Behavior.java" startLine="31" startPosition="189" endLine="43" endPosition="5" unitName="org.campagnelab.hta.tables.behavior.Heatmap_Behavior$1" />
     <unitInfo nodeId="7074867102586666512" fileName="Heatmap_Behavior.java" startLine="20" startPosition="0" endLine="50" endPosition="0" unitName="org.campagnelab.hta.tables.behavior.Heatmap_Behavior" />
   </root>
   <root nodeRef="r:db1b133e-9a0f-4319-b384-413408eb1729(org.campagnelab.hta.tables.behavior)/7074867102589853551">

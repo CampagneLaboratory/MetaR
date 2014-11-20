@@ -34,7 +34,7 @@ public class FitXByY_Editor extends DefaultNodeEditor {
     editorCell.addEditorCell(this.createConstant_j9wuyg_c0(editorContext, node));
     editorCell.addEditorCell(this.createRefCell_j9wuyg_d0(editorContext, node));
     editorCell.addEditorCell(this.createConstant_j9wuyg_e0(editorContext, node));
-    editorCell.addEditorCell(this.createRefCell_j9wuyg_f0(editorContext, node));
+    editorCell.addEditorCell(this.createRefNode_j9wuyg_f0(editorContext, node));
     editorCell.addEditorCell(this.createConstant_j9wuyg_g0(editorContext, node));
     editorCell.addEditorCell(this.createRefNode_j9wuyg_h0(editorContext, node));
     return editorCell;
@@ -177,15 +177,13 @@ public class FitXByY_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createRefCell_j9wuyg_f0(EditorContext editorContext, SNode node) {
-    CellProviderWithRole provider = new RefCellCellProvider(node, editorContext);
+  private EditorCell createRefNode_j9wuyg_f0(EditorContext editorContext, SNode node) {
+    CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
     provider.setRole("table");
     provider.setNoTargetText("<no table>");
     EditorCell editorCell;
-    provider.setAuxiliaryCellProvider(new FitXByY_Editor._Inline_j9wuyg_a5a());
     editorCell = provider.createEditorCell(editorContext);
     if (editorCell.getRole() == null) {
-      editorCell.setReferenceCell(true);
       editorCell.setRole("table");
     }
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
@@ -197,25 +195,6 @@ public class FitXByY_Editor extends DefaultNodeEditor {
       return manager.createNodeRoleAttributeCell(editorContext, attributeConcept, attributeKind, editorCell);
     } else
     return editorCell;
-  }
-
-  public static class _Inline_j9wuyg_a5a extends InlineCellProvider {
-    public _Inline_j9wuyg_a5a() {
-      super();
-    }
-
-    public EditorCell createEditorCell(EditorContext editorContext) {
-      return this.createEditorCell(editorContext, this.getSNode());
-    }
-
-    public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-      return this.createComponent_j9wuyg_a0f0(editorContext, node);
-    }
-
-    private EditorCell createComponent_j9wuyg_a0f0(EditorContext editorContext, SNode node) {
-      EditorCell editorCell = editorContext.getCellFactory().createEditorComponentCell(node, "org.campagnelab.hta.tables.editor.FutureTableEditorComponent");
-      return editorCell;
-    }
   }
 
   private EditorCell createConstant_j9wuyg_g0(EditorContext editorContext, SNode node) {

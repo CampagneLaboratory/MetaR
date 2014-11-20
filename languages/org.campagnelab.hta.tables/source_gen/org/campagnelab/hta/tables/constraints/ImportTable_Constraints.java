@@ -39,6 +39,7 @@ public class ImportTable_Constraints extends BaseConstraintsDescriptor {
         SLinkOperations.setTarget(referenceNode, "future", SConceptOperations.createNewNode("org.campagnelab.hta.tables.structure.FutureTable", null), true);
         SLinkOperations.setTarget(SLinkOperations.getTarget(referenceNode, "future", true), "table", newReferentNode, false);
         SPropertyOperations.set(SLinkOperations.getTarget(referenceNode, "future", true), "name", SPropertyOperations.getString(newReferentNode, "name"));
+        SPropertyOperations.set(SLinkOperations.getTarget(SLinkOperations.getTarget(referenceNode, "future", true), "table", false), "name", SPropertyOperations.getString(newReferentNode, "name"));
       }
 
       @Nullable

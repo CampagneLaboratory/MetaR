@@ -38,6 +38,7 @@ public class R_Options extends MultiTuple._2<String, File> implements Cloneable 
   }
 
   public R_Options clone() {
+    // set default values here. tuples do not appear to have a constructor.. 
     String env = System.getenv().get("R_HOME");
     if (this.R_HOME() == null && env != null) {
       this.R_HOME(env);
