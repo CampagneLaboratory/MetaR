@@ -60,6 +60,9 @@ public class FilterWithIDListEditorComponent implements ConceptEditorComponent {
       editorCell.setReferenceCell(true);
       editorCell.setRole("set");
     }
+    Style style = new StyleImpl();
+    TableStyleSheet_StyleSheet.apply_GeneListName(style, editorCell);
+    editorCell.getStyle().putAll(style);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();
