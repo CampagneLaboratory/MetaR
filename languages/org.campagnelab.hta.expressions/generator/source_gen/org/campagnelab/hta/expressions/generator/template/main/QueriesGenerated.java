@@ -38,8 +38,12 @@ public class QueriesGenerated {
     return NameHelper.RName(SPropertyOperations.getString(SNodeOperations.getAncestor(SLinkOperations.getTarget(_context.getNode(), "column", false), "org.campagnelab.hta.tables.structure.Table", false, false), "name")) + "$" + SPropertyOperations.getString(SLinkOperations.getTarget(_context.getNode(), "column", false), "name");
   }
 
-  public static Object propertyMacro_GetPropertyValue_8044300460862743519(final PropertyMacroContext _context) {
-    return NameHelper.RName(SPropertyOperations.getString(SNodeOperations.getAncestor(SLinkOperations.getTarget(_context.getNode(), "column", false), "org.campagnelab.hta.tables.structure.Table", false, false), "name")) + "$" + SPropertyOperations.getString(SLinkOperations.getTarget(_context.getNode(), "column", false), "name");
+  public static Object propertyMacro_GetPropertyValue_4140623938104565278(final PropertyMacroContext _context) {
+    return NameHelper.RName(SPropertyOperations.getString(SNodeOperations.cast(SNodeOperations.getParent(SLinkOperations.getTarget(_context.getNode(), "column", false)), "org.campagnelab.hta.tables.structure.Table"), "name"));
+  }
+
+  public static Object propertyMacro_GetPropertyValue_4140623938104483050(final PropertyMacroContext _context) {
+    return SPropertyOperations.getString(SLinkOperations.getTarget(_context.getNode(), "column", false), "name");
   }
 
   public static SNode sourceNodeQuery_548459537434081223(final SourceSubstituteMacroNodeContext _context) {
