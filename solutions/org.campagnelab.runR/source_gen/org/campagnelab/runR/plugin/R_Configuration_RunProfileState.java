@@ -26,7 +26,6 @@ import org.campagnelab.hta.script.behavior.Script_Behavior;
 import jetbrains.mps.build.util.Context;
 import jetbrains.mps.vfs.FileSystem;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SModelOperations;
-import java.io.File;
 import com.intellij.execution.process.ProcessHandler;
 import jetbrains.mps.execution.api.configurations.ConsoleProcessListener;
 import jetbrains.mps.execution.api.configurations.DefaultExecutionResult;
@@ -76,21 +75,20 @@ public class R_Configuration_RunProfileState implements RunProfileState {
     });
     if (file.value == null) {
       throw new ExecutionException("Cannot find generated R script " + myRunConfiguration.getNode());
+
+    } else {
+      {
+        ProcessHandler _processHandler = new Run_R_Command().setR_HOME_String(myRunConfiguration.getRunParameters().getProperties().R_HOME()).setScriptPath_String(file.value.getPath()).setWorkingDirectory_File(myRunConfiguration.getRunParameters().getProperties().workingDirectory()).createProcess(reference);
+        final ConsoleView _consoleView = console;
+        _processHandler.addProcessListener(new ConsoleProcessListener(_consoleView));
+        return new DefaultExecutionResult(_processHandler, new DefaultExecutionConsole(_consoleView.getComponent(), new _FunctionTypes._void_P0_E0() {
+          public void invoke() {
+            _consoleView.dispose();
+          }
+        }));
+      }
     }
-    File wd = myRunConfiguration.getRunParameters().getPARAMS().workingDirectory();
-    if (wd == null) {
-      wd = new File(".");
-    }
-    {
-      ProcessHandler _processHandler = new Run_R_Command().setWorkingDirectory_File(wd).createProcess(reference, myRunConfiguration.getRunParameters().getPARAMS().R_HOME(), file.value.getPath());
-      final ConsoleView _consoleView = console;
-      _processHandler.addProcessListener(new ConsoleProcessListener(_consoleView));
-      return new DefaultExecutionResult(_processHandler, new DefaultExecutionConsole(_consoleView.getComponent(), new _FunctionTypes._void_P0_E0() {
-        public void invoke() {
-          _consoleView.dispose();
-        }
-      }));
-    }
+
     // <node> 
 
   }

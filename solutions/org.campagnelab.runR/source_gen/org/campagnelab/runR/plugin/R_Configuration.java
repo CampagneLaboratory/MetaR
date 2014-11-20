@@ -43,6 +43,7 @@ public class R_Configuration extends BaseMpsRunConfiguration implements IPersist
 
   public void checkConfiguration() throws RuntimeConfigurationException {
     this.getNode().checkConfiguration();
+    this.getRunParameters().checkConfiguration();
   }
 
   @Override

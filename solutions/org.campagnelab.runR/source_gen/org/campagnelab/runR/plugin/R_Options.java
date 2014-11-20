@@ -5,6 +5,7 @@ package org.campagnelab.runR.plugin;
 import jetbrains.mps.baseLanguage.tuples.runtime.MultiTuple;
 import java.io.File;
 import jetbrains.mps.baseLanguage.tuples.runtime.Tuples;
+import jetbrains.mps.util.MacrosFactory;
 
 public class R_Options extends MultiTuple._2<String, File> implements Cloneable {
   public R_Options() {
@@ -37,6 +38,21 @@ public class R_Options extends MultiTuple._2<String, File> implements Cloneable 
   }
 
   public R_Options clone() {
+    String env = System.getenv().get("R_HOME");
+    if (this.R_HOME() == null && env != null) {
+      this.R_HOME(env);
+    }
+
+    String pathVar = MacrosFactory.getGlobal().expandPath("${R_HOME}");
+    if (this.R_HOME() == null && pathVar != null) {
+      this.R_HOME(pathVar);
+    }
+    String dir = MacrosFactory.getGlobal().expandPath("${org.campagnelab.hta.results_dir}");
+    File workingDir = new File(dir);
+    if (this.workingDirectory() == null && workingDir.exists()) {
+      this.workingDirectory(workingDir);
+    }
+
     // clone by instanciating a literal of R_Options 
     // first choice in auto-completion menu: R_Options literal 
     return new R_Options(this.R_HOME(), this.workingDirectory());

@@ -6,14 +6,31 @@ import java.io.File;
 import com.intellij.execution.process.ProcessHandler;
 import org.jetbrains.mps.openapi.model.SNodeReference;
 import com.intellij.execution.ExecutionException;
+import org.apache.log4j.Level;
 import jetbrains.mps.execution.api.commands.ProcessHandlerBuilder;
 import org.apache.log4j.Logger;
 import org.apache.log4j.LogManager;
 
 public class Run_R_Command {
+  private String myR_HOME_String;
+  private String myScriptPath_String;
   private File myWorkingDirectory_File;
 
   public Run_R_Command() {
+  }
+
+  public Run_R_Command setR_HOME_String(String R_HOME) {
+    if (R_HOME != null) {
+      myR_HOME_String = R_HOME;
+    }
+    return this;
+  }
+
+  public Run_R_Command setScriptPath_String(String scriptPath) {
+    if (scriptPath != null) {
+      myScriptPath_String = scriptPath;
+    }
+    return this;
   }
 
   public Run_R_Command setWorkingDirectory_File(File workingDirectory) {
@@ -23,8 +40,21 @@ public class Run_R_Command {
     return this;
   }
 
-  public ProcessHandler createProcess(SNodeReference nodePointer, String R_HOME, String scriptPath) throws ExecutionException {
-    String R_HOME_var = Run_R_Command.getRHome(R_HOME);
+  public ProcessHandler createProcess(SNodeReference nodePointer) throws ExecutionException {
+    boolean configIsValid = true;
+    if (myR_HOME_String == null || !(Run_R_Command.getR(myR_HOME_String).exists())) {
+      if (LOG.isEnabledFor(Level.ERROR)) {
+        LOG.error("R_HOME must be defined and valid.");
+      }
+      configIsValid = false;
+    }
+    if (myWorkingDirectory_File == null || !(myWorkingDirectory_File.exists())) {
+      if (LOG.isEnabledFor(Level.ERROR)) {
+        LOG.error("working directory must be defined.");
+      }
+      configIsValid = false;
+    }
+    String R_HOME_var = Run_R_Command.getRHome(myR_HOME_String);
     if (LOG.isInfoEnabled()) {
       LOG.info("obtained R_HOME:" + R_HOME_var);
     }
@@ -33,7 +63,11 @@ public class Run_R_Command {
     }
     // the below line is created with a ProcessBuilder. The process builder accepts command parts, but does not render 
     // explicitely. 
-    return new ProcessHandlerBuilder().append(Run_R_Command.getR(R_HOME_var)).append(Run_R_Command.protect(scriptPath)).build(myWorkingDirectory_File);
+    if (configIsValid) {
+      return new ProcessHandlerBuilder().append(Run_R_Command.getR(myR_HOME_String)).append(Run_R_Command.protect(myScriptPath_String)).build(myWorkingDirectory_File);
+    } else {
+      throw new ExecutionException("Configuration parameters were not valid");
+    }
   }
 
   private static File getR(String R_HOME) {

@@ -20,9 +20,9 @@ public class R_RunParameters_Configuration implements IPersistentConfiguration, 
   private R_RunParameters_Configuration.MyState myState = new R_RunParameters_Configuration.MyState();
 
   public void checkConfiguration() throws RuntimeConfigurationException {
-    if (this.getPARAMS().R_HOME() == null || this.getPARAMS().workingDirectory() != null) {
+    if (this.getProperties().R_HOME() == null || this.getProperties().workingDirectory() == null) {
       if (LOG.isEnabledFor(Level.ERROR)) {
-        LOG.error("Missing parameters");
+        LOG.error("Missing parameter(s)");
       }
     }
   }
@@ -40,12 +40,12 @@ public class R_RunParameters_Configuration implements IPersistentConfiguration, 
     XmlSerializer.deserializeInto(myState, (Element) element.getChildren().get(0));
   }
 
-  public R_Options getPARAMS() {
-    return myState.myPARAMS;
+  public R_Options getProperties() {
+    return myState.myProperties;
   }
 
-  public void setPARAMS(R_Options value) {
-    myState.myPARAMS = value;
+  public void setProperties(R_Options value) {
+    myState.myProperties = value;
   }
 
   @Override
@@ -64,7 +64,7 @@ public class R_RunParameters_Configuration implements IPersistentConfiguration, 
   }
 
   public class MyState {
-    public R_Options myPARAMS = new R_Options(null, null);
+    public R_Options myProperties = new R_Options(null, null);
 
     public MyState() {
     }
@@ -72,8 +72,8 @@ public class R_RunParameters_Configuration implements IPersistentConfiguration, 
     @Override
     public Object clone() throws CloneNotSupportedException {
       R_RunParameters_Configuration.MyState state = new R_RunParameters_Configuration.MyState();
-      if (myPARAMS != null) {
-        state.myPARAMS = myPARAMS.clone();
+      if (myProperties != null) {
+        state.myProperties = myProperties.clone();
       }
       return state;
     }

@@ -5,42 +5,28 @@ package org.campagnelab.runR.plugin;
 import jetbrains.mps.execution.api.settings.SettingsEditorEx;
 import org.jetbrains.annotations.NotNull;
 import com.intellij.openapi.options.ConfigurationException;
-import jetbrains.mps.util.MacrosFactory;
-import java.io.File;
 import com.intellij.openapi.util.Factory;
 
 public class R_RunParameters_Configuration_Editor extends SettingsEditorEx<R_RunParameters_Configuration> {
-  private RConfigurationOptions myROptionsEditor = new RConfigurationOptions();
+  private RConfigurationOptions myPanel = new RConfigurationOptions();
   private R_RunParameters_Configuration mySettings = new R_RunParameters_Configuration();
 
   public void disposeEditor() {
-    myROptionsEditor.dispose();
+    myPanel.dispose();
   }
 
   @NotNull
   public RConfigurationOptions createEditor() {
-    myROptionsEditor.apply(new R_Options(mySettings.getPARAMS().R_HOME(), mySettings.getPARAMS().workingDirectory()));
-    return myROptionsEditor;
-
+    myPanel.apply(new R_Options(mySettings.getProperties().R_HOME(), mySettings.getProperties().workingDirectory()));
+    return myPanel;
   }
 
   public void applyEditorTo(final R_RunParameters_Configuration configuration) throws ConfigurationException {
-    myROptionsEditor.apply(configuration.getPARAMS());
+    myPanel.apply(configuration.getProperties());
   }
 
   public void resetEditorFrom(final R_RunParameters_Configuration configuration) {
-    {
-      String env = System.getenv().get("R_HOME");
-      String pathVar = MacrosFactory.getGlobal().expandPath("${R_HOME}");
-      if (configuration.getPARAMS().R_HOME() == null) {
-        configuration.getPARAMS().R_HOME((pathVar != null ? pathVar : env));
-      }
-      if (configuration.getPARAMS().workingDirectory() == null) {
-        String dir = MacrosFactory.getGlobal().expandPath("${org.campagnelab.hta.results_dir}");
-        configuration.getPARAMS().workingDirectory(new File(dir));
-      }
-      myROptionsEditor.reset(configuration.getPARAMS());
-    }
+    myPanel.reset(configuration.getProperties());
   }
 
   public R_RunParameters_Configuration_Editor() {
