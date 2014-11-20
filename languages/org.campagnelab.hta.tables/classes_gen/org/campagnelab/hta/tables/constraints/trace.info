@@ -176,13 +176,13 @@
     <nodeInfo nodeId="4166618652721976329" fileName="SubSetTableRows_Constraints.java" startLine="28" startPosition="52" endLine="29" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="4166618652721976329" fileName="SubSetTableRows_Constraints.java" startLine="33" startPosition="116" endLine="34" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="4166618652721976374" fileName="SubSetTableRows_Constraints.java" startLine="38" startPosition="119" endLine="39" endPosition="96" conceptFqName="jetbrains.mps.baseLanguage.structure.SingleLineComment" />
-    <nodeInfo nodeId="4166618652721976384" fileName="SubSetTableRows_Constraints.java" startLine="39" startPosition="96" endLine="40" endPosition="189" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4166618652721976384" fileName="SubSetTableRows_Constraints.java" startLine="39" startPosition="96" endLine="40" endPosition="184" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="4166618652722677917" fileName="SubSetTableRows_Constraints.java" startLine="41" startPosition="173" endLine="42" endPosition="250" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="4166618652721976329" fileName="SubSetTableRows_Constraints.java" startLine="48" startPosition="56" endLine="49" endPosition="42" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="4166618652721976329" fileName="SubSetTableRows_Constraints.java" startLine="51" startPosition="7" endLine="52" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="4166618652722677811" fileName="SubSetTableRows_Constraints.java" startLine="55" startPosition="52" endLine="56" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="4166618652721976329" fileName="SubSetTableRows_Constraints.java" startLine="19" startPosition="0" endLine="22" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="SubSetTableRows_Constraints#()V" />
-    <nodeInfo nodeId="4166618652722666756" fileName="SubSetTableRows_Constraints.java" startLine="40" startPosition="189" endLine="43" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="4166618652722666756" fileName="SubSetTableRows_Constraints.java" startLine="40" startPosition="184" endLine="43" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
     <nodeInfo nodeId="4166618652722677811" fileName="SubSetTableRows_Constraints.java" startLine="55" startPosition="0" endLine="58" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="isEmptyString#(Ljava/lang/String;)Z" />
     <nodeInfo nodeId="4166618652721976329" fileName="SubSetTableRows_Constraints.java" startLine="27" startPosition="0" endLine="31" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="hasOwnOnReferenceSetHandler#()Z" />
     <nodeInfo nodeId="4166618652721976329" fileName="SubSetTableRows_Constraints.java" startLine="32" startPosition="0" endLine="36" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="validate#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
@@ -218,7 +218,7 @@
     </scopeInfo>
     <scopeInfo nodeId="4166618652721976329" fileName="SubSetTableRows_Constraints.java" startLine="23" startPosition="0" endLine="54" endPosition="0" />
     <unitInfo nodeId="4166618652721976329" fileName="SubSetTableRows_Constraints.java" startLine="49" startPosition="19" endLine="49" endPosition="41" unitName="org.campagnelab.hta.tables.constraints.SubSetTableRows_Constraints$2" />
-    <unitInfo nodeId="4166618652721976329" fileName="SubSetTableRows_Constraints.java" startLine="26" startPosition="32" endLine="51" endPosition="5" unitName="org.campagnelab.hta.tables.constraints.SubSetTableRows_Constraints$1" />
+    <unitInfo nodeId="4166618652721976329" fileName="SubSetTableRows_Constraints.java" startLine="26" startPosition="27" endLine="51" endPosition="5" unitName="org.campagnelab.hta.tables.constraints.SubSetTableRows_Constraints$1" />
     <unitInfo nodeId="4166618652721976329" fileName="SubSetTableRows_Constraints.java" startLine="18" startPosition="0" endLine="59" endPosition="0" unitName="org.campagnelab.hta.tables.constraints.SubSetTableRows_Constraints" />
   </root>
   <root nodeRef="r:377e7fab-b099-4462-b9f3-2050d4b23cf6(org.campagnelab.hta.tables.constraints)/4451133196879838605">
@@ -357,7 +357,7 @@
       <varInfo nodeId="6001041468488432865" varName="references" />
     </scopeInfo>
     <scopeInfo nodeId="6001041468488432865" fileName="FitXByY_Constraints.java" startLine="30" startPosition="0" endLine="99" endPosition="0" />
-    <unitInfo nodeId="6001041468488466396" fileName="FitXByY_Constraints.java" startLine="47" startPosition="332" endLine="51" endPosition="9" unitName="org.campagnelab.hta.tables.constraints.FitXByY_Constraints$2" />
+    <unitInfo nodeId="6001041468488466396" fileName="FitXByY_Constraints.java" startLine="47" startPosition="327" endLine="51" endPosition="9" unitName="org.campagnelab.hta.tables.constraints.FitXByY_Constraints$2" />
     <unitInfo nodeId="6001041468488432865" fileName="FitXByY_Constraints.java" startLine="62" startPosition="19" endLine="72" endPosition="9" unitName="org.campagnelab.hta.tables.constraints.FitXByY_Constraints$2" />
     <unitInfo nodeId="6001041468488432865" fileName="FitXByY_Constraints.java" startLine="84" startPosition="19" endLine="94" endPosition="9" unitName="org.campagnelab.hta.tables.constraints.FitXByY_Constraints$3" />
     <unitInfo nodeId="6001041468488432865" fileName="FitXByY_Constraints.java" startLine="75" startPosition="28" endLine="96" endPosition="5" unitName="org.campagnelab.hta.tables.constraints.FitXByY_Constraints$2" />

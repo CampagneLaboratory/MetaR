@@ -23,7 +23,7 @@ public class SubSetTableRows_Constraints extends BaseConstraintsDescriptor {
   @Override
   protected Map<String, ReferenceConstraintsDescriptor> getNotDefaultReferences() {
     Map<String, ReferenceConstraintsDescriptor> references = new HashMap();
-    references.put("table", new BaseReferenceConstraintsDescriptor("table", this) {
+    references.put("", new BaseReferenceConstraintsDescriptor("", this) {
       @Override
       public boolean hasOwnOnReferenceSetHandler() {
         return true;
@@ -37,7 +37,7 @@ public class SubSetTableRows_Constraints extends BaseConstraintsDescriptor {
       @Override
       public void onReferenceSet(final SNode referenceNode, final SNode oldReferentNode, final SNode newReferentNode) {
         // copy columns from source to destination: subseting does not change the table columns 
-        FutureTable_Behavior.call_setSchemaFrom_4166618652721995042(SLinkOperations.getTarget(referenceNode, "destination", true), SLinkOperations.getTarget(referenceNode, "table", false));
+        FutureTable_Behavior.call_setSchemaFrom_4166618652721995042(SLinkOperations.getTarget(referenceNode, "destination", true), SLinkOperations.getTarget(referenceNode, "", false));
         if (isEmptyString(SPropertyOperations.getString(SLinkOperations.getTarget(SLinkOperations.getTarget(referenceNode, "destination", true), "table", false), "name"))) {
           SPropertyOperations.set(SLinkOperations.getTarget(SLinkOperations.getTarget(referenceNode, "destination", true), "table", false), "name", SPropertyOperations.getString(SLinkOperations.getTarget(referenceNode, "destination", true), "name"));
         }

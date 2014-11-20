@@ -22,7 +22,6 @@
     <dependency reexport="false">933a68f9-aab6-401b-b5c5-5ca7783dce5f(jetbrains.mps.execution.configurations.pluginSolution)</dependency>
     <dependency reexport="false">04b376d5-fc16-403b-a344-c68b30193c6a(jetbrains.mps.execution.library)</dependency>
     <dependency reexport="false">4caf0310-491e-41f5-8a9b-2006b3a94898(jetbrains.mps.execution.util)</dependency>
-    <dependency reexport="false">e6385186-a555-4baa-881f-4ea4c431b926(org.campagnelab.gobyweb.plugins.test.run)</dependency>
     <dependency reexport="false">6cb95bb7-1c17-4ab0-9822-5c15b43af051(org.campagnelab.hta.script)</dependency>
   </dependencies>
   <usedLanguages>
