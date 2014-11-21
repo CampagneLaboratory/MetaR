@@ -1,6 +1,714 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
-  <unitInfo fileName="EditorAspectDescriptorImpl.java" startLine="13" startPosition="0" endLine="106" endPosition="0" unitName="org.campagnelab.hta.tables.editor.EditorAspectDescriptorImpl" />
+  <unitInfo fileName="EditorAspectDescriptorImpl.java" startLine="13" startPosition="0" endLine="114" endPosition="0" unitName="org.campagnelab.hta.tables.editor.EditorAspectDescriptorImpl" />
+  <root nodeRef="r:c14853f5-5f2e-4acc-825a-4fec67caca67(org.campagnelab.hta.tables.editor)/3105090771424561506">
+    <nodeInfo nodeId="3105090771424561506" fileName="Multiplot_Editor.java" startLine="33" startPosition="79" endLine="34" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="3105090771424561506" fileName="Multiplot_Editor.java" startLine="37" startPosition="89" endLine="38" endPosition="97" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3105090771424561506" fileName="Multiplot_Editor.java" startLine="38" startPosition="97" endLine="39" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3105090771424561506" fileName="Multiplot_Editor.java" startLine="39" startPosition="48" endLine="40" endPosition="28" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3105090771424561506" fileName="Multiplot_Editor.java" startLine="40" startPosition="28" endLine="41" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3105090771424561506" fileName="Multiplot_Editor.java" startLine="41" startPosition="34" endLine="42" endPosition="49" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3105090771424561506" fileName="Multiplot_Editor.java" startLine="42" startPosition="49" endLine="43" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3105090771424561506" fileName="Multiplot_Editor.java" startLine="43" startPosition="40" endLine="44" endPosition="83" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="3105090771424561506" fileName="Multiplot_Editor.java" startLine="43" startPosition="40" endLine="44" endPosition="83" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3105090771424561506" fileName="Multiplot_Editor.java" startLine="44" startPosition="83" endLine="45" endPosition="78" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="3105090771424561506" fileName="Multiplot_Editor.java" startLine="44" startPosition="83" endLine="45" endPosition="78" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3105090771424561506" fileName="Multiplot_Editor.java" startLine="45" startPosition="78" endLine="46" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="3105090771424561506" fileName="Multiplot_Editor.java" startLine="49" startPosition="90" endLine="50" endPosition="99" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3105090771424561506" fileName="Multiplot_Editor.java" startLine="50" startPosition="99" endLine="51" endPosition="49" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3105090771424561506" fileName="Multiplot_Editor.java" startLine="51" startPosition="49" endLine="52" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3105090771424561506" fileName="Multiplot_Editor.java" startLine="52" startPosition="34" endLine="53" endPosition="49" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3105090771424561506" fileName="Multiplot_Editor.java" startLine="53" startPosition="49" endLine="54" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3105090771424561506" fileName="Multiplot_Editor.java" startLine="54" startPosition="40" endLine="55" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="3105090771424561506" fileName="Multiplot_Editor.java" startLine="54" startPosition="40" endLine="55" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3105090771424561506" fileName="Multiplot_Editor.java" startLine="55" startPosition="82" endLine="56" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="3105090771424561506" fileName="Multiplot_Editor.java" startLine="55" startPosition="82" endLine="56" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3105090771424561506" fileName="Multiplot_Editor.java" startLine="56" startPosition="82" endLine="57" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="3105090771424561506" fileName="Multiplot_Editor.java" startLine="56" startPosition="82" endLine="57" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3105090771424561506" fileName="Multiplot_Editor.java" startLine="57" startPosition="81" endLine="58" endPosition="84" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="3105090771424561506" fileName="Multiplot_Editor.java" startLine="57" startPosition="81" endLine="58" endPosition="84" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3105090771424561506" fileName="Multiplot_Editor.java" startLine="58" startPosition="84" endLine="59" endPosition="85" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="3105090771424561506" fileName="Multiplot_Editor.java" startLine="58" startPosition="84" endLine="59" endPosition="85" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3105090771424561506" fileName="Multiplot_Editor.java" startLine="59" startPosition="85" endLine="60" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="3105090771425879674" fileName="Multiplot_Editor.java" startLine="63" startPosition="89" endLine="64" endPosition="95" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3105090771425879674" fileName="Multiplot_Editor.java" startLine="64" startPosition="95" endLine="65" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3105090771425879674" fileName="Multiplot_Editor.java" startLine="65" startPosition="48" endLine="66" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3105090771425879674" fileName="Multiplot_Editor.java" startLine="66" startPosition="34" endLine="67" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="3105090771426095781" fileName="Multiplot_Editor.java" startLine="70" startPosition="89" endLine="71" endPosition="88" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3105090771426095781" fileName="Multiplot_Editor.java" startLine="71" startPosition="88" endLine="72" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3105090771426095781" fileName="Multiplot_Editor.java" startLine="72" startPosition="48" endLine="73" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3105090771426095781" fileName="Multiplot_Editor.java" startLine="73" startPosition="34" endLine="74" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="3105090771426097637" fileName="Multiplot_Editor.java" startLine="77" startPosition="88" endLine="78" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3105090771426097637" fileName="Multiplot_Editor.java" startLine="78" startPosition="81" endLine="79" endPosition="36" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3105090771426097637" fileName="Multiplot_Editor.java" startLine="79" startPosition="36" endLine="80" endPosition="49" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3105090771426097637" fileName="Multiplot_Editor.java" startLine="80" startPosition="49" endLine="81" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3105090771426097637" fileName="Multiplot_Editor.java" startLine="81" startPosition="26" endLine="82" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3105090771426097637" fileName="Multiplot_Editor.java" startLine="83" startPosition="39" endLine="84" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3105090771426097637" fileName="Multiplot_Editor.java" startLine="85" startPosition="5" endLine="86" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3105090771426097637" fileName="Multiplot_Editor.java" startLine="86" startPosition="73" endLine="87" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3105090771426097637" fileName="Multiplot_Editor.java" startLine="87" startPosition="57" endLine="88" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3105090771426097637" fileName="Multiplot_Editor.java" startLine="89" startPosition="35" endLine="90" endPosition="72" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3105090771426097637" fileName="Multiplot_Editor.java" startLine="90" startPosition="72" endLine="91" endPosition="78" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3105090771426097637" fileName="Multiplot_Editor.java" startLine="91" startPosition="78" endLine="92" endPosition="109" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="3105090771426097637" fileName="Multiplot_Editor.java" startLine="93" startPosition="10" endLine="94" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="3105090771424561506" fileName="Multiplot_Editor.java" startLine="97" startPosition="91" endLine="98" endPosition="99" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3105090771424561506" fileName="Multiplot_Editor.java" startLine="98" startPosition="99" endLine="99" endPosition="50" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3105090771424561506" fileName="Multiplot_Editor.java" startLine="99" startPosition="50" endLine="100" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3105090771424561506" fileName="Multiplot_Editor.java" startLine="100" startPosition="34" endLine="101" endPosition="49" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3105090771424561506" fileName="Multiplot_Editor.java" startLine="101" startPosition="49" endLine="102" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3105090771424561506" fileName="Multiplot_Editor.java" startLine="102" startPosition="40" endLine="103" endPosition="83" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="3105090771424561506" fileName="Multiplot_Editor.java" startLine="102" startPosition="40" endLine="103" endPosition="83" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3105090771424561506" fileName="Multiplot_Editor.java" startLine="103" startPosition="83" endLine="104" endPosition="83" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="3105090771424561506" fileName="Multiplot_Editor.java" startLine="103" startPosition="83" endLine="104" endPosition="83" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3105090771424561506" fileName="Multiplot_Editor.java" startLine="104" startPosition="83" endLine="105" endPosition="83" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="3105090771424561506" fileName="Multiplot_Editor.java" startLine="104" startPosition="83" endLine="105" endPosition="83" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3105090771424561506" fileName="Multiplot_Editor.java" startLine="105" startPosition="83" endLine="106" endPosition="83" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="3105090771424561506" fileName="Multiplot_Editor.java" startLine="105" startPosition="83" endLine="106" endPosition="83" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3105090771424561506" fileName="Multiplot_Editor.java" startLine="106" startPosition="83" endLine="107" endPosition="83" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="3105090771424561506" fileName="Multiplot_Editor.java" startLine="106" startPosition="83" endLine="107" endPosition="83" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3105090771424561506" fileName="Multiplot_Editor.java" startLine="107" startPosition="83" endLine="108" endPosition="83" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="3105090771424561506" fileName="Multiplot_Editor.java" startLine="107" startPosition="83" endLine="108" endPosition="83" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3105090771424561506" fileName="Multiplot_Editor.java" startLine="108" startPosition="83" endLine="109" endPosition="83" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="3105090771424561506" fileName="Multiplot_Editor.java" startLine="108" startPosition="83" endLine="109" endPosition="83" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3105090771424561506" fileName="Multiplot_Editor.java" startLine="109" startPosition="83" endLine="110" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="3105090771425645767" fileName="Multiplot_Editor.java" startLine="113" startPosition="90" endLine="114" endPosition="88" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3105090771425645767" fileName="Multiplot_Editor.java" startLine="114" startPosition="88" endLine="115" endPosition="49" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3105090771425645767" fileName="Multiplot_Editor.java" startLine="115" startPosition="49" endLine="116" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3105090771425645767" fileName="Multiplot_Editor.java" startLine="116" startPosition="34" endLine="117" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="3105090771425645772" fileName="Multiplot_Editor.java" startLine="120" startPosition="90" endLine="121" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3105090771425645772" fileName="Multiplot_Editor.java" startLine="121" startPosition="82" endLine="122" endPosition="35" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3105090771425645772" fileName="Multiplot_Editor.java" startLine="122" startPosition="35" endLine="123" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3105090771425645772" fileName="Multiplot_Editor.java" startLine="123" startPosition="48" endLine="124" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3105090771425645772" fileName="Multiplot_Editor.java" startLine="124" startPosition="26" endLine="125" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3105090771425645772" fileName="Multiplot_Editor.java" startLine="125" startPosition="58" endLine="126" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3105090771425645772" fileName="Multiplot_Editor.java" startLine="126" startPosition="48" endLine="127" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3105090771425645772" fileName="Multiplot_Editor.java" startLine="127" startPosition="73" endLine="128" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3105090771425645772" fileName="Multiplot_Editor.java" startLine="128" startPosition="57" endLine="129" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3105090771425645772" fileName="Multiplot_Editor.java" startLine="130" startPosition="35" endLine="131" endPosition="72" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3105090771425645772" fileName="Multiplot_Editor.java" startLine="131" startPosition="72" endLine="132" endPosition="78" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3105090771425645772" fileName="Multiplot_Editor.java" startLine="132" startPosition="78" endLine="133" endPosition="109" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="3105090771425645772" fileName="Multiplot_Editor.java" startLine="134" startPosition="10" endLine="135" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8962032619586046497" fileName="Multiplot_Editor.java" startLine="138" startPosition="90" endLine="139" endPosition="90" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="8962032619586046497" fileName="Multiplot_Editor.java" startLine="139" startPosition="90" endLine="140" endPosition="49" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8962032619586046497" fileName="Multiplot_Editor.java" startLine="140" startPosition="49" endLine="141" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8962032619586046497" fileName="Multiplot_Editor.java" startLine="141" startPosition="34" endLine="142" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="3105090771425645780" fileName="Multiplot_Editor.java" startLine="145" startPosition="90" endLine="146" endPosition="87" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3105090771425645780" fileName="Multiplot_Editor.java" startLine="146" startPosition="87" endLine="147" endPosition="49" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3105090771425645780" fileName="Multiplot_Editor.java" startLine="147" startPosition="49" endLine="148" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3105090771425645780" fileName="Multiplot_Editor.java" startLine="148" startPosition="34" endLine="149" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="3105090771425645790" fileName="Multiplot_Editor.java" startLine="152" startPosition="90" endLine="153" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3105090771425645790" fileName="Multiplot_Editor.java" startLine="153" startPosition="82" endLine="154" endPosition="32" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3105090771425645790" fileName="Multiplot_Editor.java" startLine="154" startPosition="32" endLine="155" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3105090771425645790" fileName="Multiplot_Editor.java" startLine="155" startPosition="45" endLine="156" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3105090771425645790" fileName="Multiplot_Editor.java" startLine="156" startPosition="26" endLine="157" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3105090771425645790" fileName="Multiplot_Editor.java" startLine="157" startPosition="58" endLine="158" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3105090771425645790" fileName="Multiplot_Editor.java" startLine="158" startPosition="45" endLine="159" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3105090771425645790" fileName="Multiplot_Editor.java" startLine="159" startPosition="73" endLine="160" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3105090771425645790" fileName="Multiplot_Editor.java" startLine="160" startPosition="57" endLine="161" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3105090771425645790" fileName="Multiplot_Editor.java" startLine="162" startPosition="35" endLine="163" endPosition="72" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3105090771425645790" fileName="Multiplot_Editor.java" startLine="163" startPosition="72" endLine="164" endPosition="78" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3105090771425645790" fileName="Multiplot_Editor.java" startLine="164" startPosition="78" endLine="165" endPosition="109" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="3105090771425645790" fileName="Multiplot_Editor.java" startLine="166" startPosition="10" endLine="167" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8962032619586046513" fileName="Multiplot_Editor.java" startLine="170" startPosition="90" endLine="171" endPosition="90" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="8962032619586046513" fileName="Multiplot_Editor.java" startLine="171" startPosition="90" endLine="172" endPosition="49" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8962032619586046513" fileName="Multiplot_Editor.java" startLine="172" startPosition="49" endLine="173" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8962032619586046513" fileName="Multiplot_Editor.java" startLine="173" startPosition="34" endLine="174" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="3105090771426303303" fileName="Multiplot_Editor.java" startLine="177" startPosition="90" endLine="178" endPosition="87" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3105090771426303303" fileName="Multiplot_Editor.java" startLine="178" startPosition="87" endLine="179" endPosition="49" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3105090771426303303" fileName="Multiplot_Editor.java" startLine="179" startPosition="49" endLine="180" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3105090771426303303" fileName="Multiplot_Editor.java" startLine="180" startPosition="34" endLine="181" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="3105090771424561506" fileName="Multiplot_Editor.java" startLine="184" startPosition="92" endLine="185" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3105090771424561506" fileName="Multiplot_Editor.java" startLine="185" startPosition="40" endLine="186" endPosition="96" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3105090771424561506" fileName="Multiplot_Editor.java" startLine="186" startPosition="96" endLine="187" endPosition="33" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3105090771424561506" fileName="Multiplot_Editor.java" startLine="188" startPosition="31" endLine="189" endPosition="74" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3105090771424561506" fileName="Multiplot_Editor.java" startLine="190" startPosition="12" endLine="191" endPosition="76" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3105090771424561506" fileName="Multiplot_Editor.java" startLine="192" startPosition="5" endLine="193" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="3687343996977265354" fileName="Multiplot_Editor.java" startLine="196" startPosition="98" endLine="197" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="3105090771424561506" fileName="Multiplot_Editor.java" startLine="200" startPosition="92" endLine="201" endPosition="184" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3105090771424561506" fileName="Multiplot_Editor.java" startLine="201" startPosition="184" endLine="202" endPosition="51" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3105090771424561506" fileName="Multiplot_Editor.java" startLine="202" startPosition="51" endLine="203" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="3105090771424561506" fileName="Multiplot_Editor.java" startLine="209" startPosition="9" endLine="210" endPosition="41" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3687343996975927518" fileName="Multiplot_Editor.java" startLine="210" startPosition="41" endLine="211" endPosition="65" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3105090771424561506" fileName="Multiplot_Editor.java" startLine="214" startPosition="6" endLine="215" endPosition="78" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="3105090771424561506" fileName="Multiplot_Editor.java" startLine="215" startPosition="78" endLine="216" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
+    <nodeInfo nodeId="3105090771424561506" fileName="Multiplot_Editor.java" startLine="219" startPosition="94" endLine="220" endPosition="188" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3105090771424561506" fileName="Multiplot_Editor.java" startLine="220" startPosition="188" endLine="221" endPosition="53" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3105090771424561506" fileName="Multiplot_Editor.java" startLine="221" startPosition="53" endLine="222" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="3105090771424561506" fileName="Multiplot_Editor.java" startLine="228" startPosition="9" endLine="229" endPosition="41" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3687343996975980752" fileName="Multiplot_Editor.java" startLine="229" startPosition="41" endLine="230" endPosition="64" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3105090771424561506" fileName="Multiplot_Editor.java" startLine="233" startPosition="6" endLine="234" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="3105090771424561506" fileName="Multiplot_Editor.java" startLine="234" startPosition="73" endLine="235" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
+    <nodeInfo nodeId="3105090771424785748" fileName="Multiplot_Editor.java" startLine="242" startPosition="39" endLine="243" endPosition="70" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="3105090771424792136" fileName="Multiplot_Editor.java" startLine="246" startPosition="36" endLine="247" endPosition="67" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="3105090771425275639" fileName="Multiplot_Editor.java" startLine="250" startPosition="48" endLine="251" endPosition="77" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3105090771424793868" fileName="Multiplot_Editor.java" startLine="251" startPosition="77" endLine="252" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3105090771426731368" fileName="Multiplot_Editor.java" startLine="255" startPosition="56" endLine="256" endPosition="138" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="3105090771424859993" fileName="Multiplot_Editor.java" startLine="259" startPosition="58" endLine="260" endPosition="193" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3105090771424889790" fileName="Multiplot_Editor.java" startLine="263" startPosition="72" endLine="264" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="3105090771425080077" fileName="Multiplot_Editor.java" startLine="267" startPosition="48" endLine="268" endPosition="113" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3105090771424811453" fileName="Multiplot_Editor.java" startLine="271" startPosition="54" endLine="272" endPosition="132" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3105090771425088865" fileName="Multiplot_Editor.java" startLine="275" startPosition="54" endLine="276" endPosition="119" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3105090771424892077" fileName="Multiplot_Editor.java" startLine="279" startPosition="58" endLine="280" endPosition="23" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="3105090771424570870" fileName="Multiplot_Editor.java" startLine="284" startPosition="6" endLine="285" endPosition="190" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3105090771424570870" fileName="Multiplot_Editor.java" startLine="285" startPosition="190" endLine="286" endPosition="46" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3105090771424570870" fileName="Multiplot_Editor.java" startLine="286" startPosition="46" endLine="287" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3105090771424570870" fileName="Multiplot_Editor.java" startLine="287" startPosition="34" endLine="288" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3105090771424570870" fileName="Multiplot_Editor.java" startLine="288" startPosition="63" endLine="289" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3105090771424570870" fileName="Multiplot_Editor.java" startLine="289" startPosition="63" endLine="290" endPosition="60" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3105090771424570870" fileName="Multiplot_Editor.java" startLine="290" startPosition="60" endLine="291" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3105090771424570870" fileName="Multiplot_Editor.java" startLine="291" startPosition="40" endLine="292" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="3105090771424561506" fileName="Multiplot_Editor.java" startLine="190" startPosition="10" endLine="192" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="3105090771424561506" fileName="Multiplot_Editor.java" startLine="33" startPosition="0" endLine="36" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <nodeInfo nodeId="3105090771426097637" fileName="Multiplot_Editor.java" startLine="82" startPosition="58" endLine="85" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="3687343996977262355" fileName="Multiplot_Editor.java" startLine="196" startPosition="0" endLine="199" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="renderingCondition_3oqcxl_a4a0#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Z" />
+    <nodeInfo nodeId="3105090771424784487" fileName="Multiplot_Editor.java" startLine="242" startPosition="0" endLine="245" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getColumnCount#()I" />
+    <nodeInfo nodeId="3105090771424784493" fileName="Multiplot_Editor.java" startLine="246" startPosition="0" endLine="249" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getRowCount#()I" />
+    <nodeInfo nodeId="3105090771424784507" fileName="Multiplot_Editor.java" startLine="255" startPosition="0" endLine="258" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getValueAt#(II)Lorg/jetbrains/mps/openapi/model/SNode;" />
+    <nodeInfo nodeId="3105090771424784517" fileName="Multiplot_Editor.java" startLine="259" startPosition="0" endLine="262" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createElement#(II)V" />
+    <nodeInfo nodeId="3105090771424784527" fileName="Multiplot_Editor.java" startLine="263" startPosition="0" endLine="266" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getSubstituteInfo#(II)Ljetbrains/mps/openapi/editor/cells/SubstituteInfo;" />
+    <nodeInfo nodeId="3105090771424784537" fileName="Multiplot_Editor.java" startLine="267" startPosition="0" endLine="270" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="insertRow#(I)V" />
+    <nodeInfo nodeId="3105090771424784545" fileName="Multiplot_Editor.java" startLine="271" startPosition="0" endLine="274" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="deleteColumn#(I)V" />
+    <nodeInfo nodeId="3105090771424784553" fileName="Multiplot_Editor.java" startLine="275" startPosition="0" endLine="278" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="insertColumn#(I)V" />
+    <nodeInfo nodeId="3105090771424784561" fileName="Multiplot_Editor.java" startLine="279" startPosition="0" endLine="282" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getMaxColumnWidth#(I)I" />
+    <nodeInfo nodeId="3105090771424561506" fileName="Multiplot_Editor.java" startLine="208" startPosition="77" endLine="212" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="3105090771424561506" fileName="Multiplot_Editor.java" startLine="227" startPosition="77" endLine="231" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="3105090771424784499" fileName="Multiplot_Editor.java" startLine="250" startPosition="0" endLine="254" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="deleteRow#(I)V" />
+    <nodeInfo nodeId="3105090771424561506" fileName="Multiplot_Editor.java" startLine="187" startPosition="33" endLine="192" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="3105090771424561506" fileName="Multiplot_Editor.java" startLine="200" startPosition="0" endLine="205" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createJComponent_3oqcxl_a4a0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <nodeInfo nodeId="3105090771424561506" fileName="Multiplot_Editor.java" startLine="219" startPosition="0" endLine="224" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createJComponent_3oqcxl_a4a0_0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <nodeInfo nodeId="3105090771425879674" fileName="Multiplot_Editor.java" startLine="63" startPosition="0" endLine="69" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createConstant_3oqcxl_a0a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <nodeInfo nodeId="3105090771426095781" fileName="Multiplot_Editor.java" startLine="70" startPosition="0" endLine="76" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createConstant_3oqcxl_b0a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <nodeInfo nodeId="3105090771426097637" fileName="Multiplot_Editor.java" startLine="88" startPosition="59" endLine="94" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="3105090771425645767" fileName="Multiplot_Editor.java" startLine="113" startPosition="0" endLine="119" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createConstant_3oqcxl_a3a0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <nodeInfo nodeId="3105090771425645772" fileName="Multiplot_Editor.java" startLine="129" startPosition="59" endLine="135" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="8962032619586046497" fileName="Multiplot_Editor.java" startLine="138" startPosition="0" endLine="144" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createConstant_3oqcxl_c3a0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <nodeInfo nodeId="3105090771425645780" fileName="Multiplot_Editor.java" startLine="145" startPosition="0" endLine="151" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createConstant_3oqcxl_d3a0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <nodeInfo nodeId="3105090771425645790" fileName="Multiplot_Editor.java" startLine="161" startPosition="59" endLine="167" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="8962032619586046513" fileName="Multiplot_Editor.java" startLine="170" startPosition="0" endLine="176" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createConstant_3oqcxl_f3a0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <nodeInfo nodeId="3105090771426303303" fileName="Multiplot_Editor.java" startLine="177" startPosition="0" endLine="183" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createConstant_3oqcxl_g3a0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <nodeInfo nodeId="3105090771424561506" fileName="Multiplot_Editor.java" startLine="208" startPosition="0" endLine="214" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="process#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
+    <nodeInfo nodeId="3105090771424561506" fileName="Multiplot_Editor.java" startLine="227" startPosition="0" endLine="233" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="process#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
+    <nodeInfo nodeId="3105090771424561506" fileName="Multiplot_Editor.java" startLine="206" startPosition="121" endLine="214" endPosition="6" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3105090771424561506" fileName="Multiplot_Editor.java" startLine="225" startPosition="123" endLine="233" endPosition="6" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3105090771424561506" fileName="Multiplot_Editor.java" startLine="37" startPosition="0" endLine="48" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createCollection_3oqcxl_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <nodeInfo nodeId="3105090771424561506" fileName="Multiplot_Editor.java" startLine="184" startPosition="0" endLine="195" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createAlternation_3oqcxl_e0a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <nodeInfo nodeId="3105090771424561506" fileName="Multiplot_Editor.java" startLine="206" startPosition="0" endLine="218" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="_QueryFunction_JComponent_3oqcxl_a0e0a#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Ljavax/swing/JComponent;" />
+    <nodeInfo nodeId="3105090771424561506" fileName="Multiplot_Editor.java" startLine="225" startPosition="0" endLine="237" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="_QueryFunction_JComponent_3oqcxl_a0e0a_0#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Ljavax/swing/JComponent;" />
+    <nodeInfo nodeId="3105090771424561506" fileName="Multiplot_Editor.java" startLine="49" startPosition="0" endLine="62" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createCollection_3oqcxl_a0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <nodeInfo nodeId="3105090771424561506" fileName="Multiplot_Editor.java" startLine="97" startPosition="0" endLine="112" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createCollection_3oqcxl_d0a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <nodeInfo nodeId="3105090771425645772" fileName="Multiplot_Editor.java" startLine="120" startPosition="0" endLine="137" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createProperty_3oqcxl_b3a0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <nodeInfo nodeId="3105090771425645790" fileName="Multiplot_Editor.java" startLine="152" startPosition="0" endLine="169" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createProperty_3oqcxl_e3a0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <nodeInfo nodeId="3105090771426097637" fileName="Multiplot_Editor.java" startLine="77" startPosition="0" endLine="96" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createRefNode_3oqcxl_c0a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <nodeInfo nodeId="3105090771424829367" fileName="Multiplot_Editor.java" startLine="240" startPosition="95" endLine="282" endPosition="10" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="3105090771424570870" fileName="Multiplot_Editor.java" startLine="240" startPosition="0" endLine="284" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createTableModel#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Ljetbrains/mps/lang/editor/table/runtime/TableModel;" />
+    <nodeInfo nodeId="3105090771424570870" fileName="Multiplot_Editor.java" startLine="238" startPosition="85" endLine="284" endPosition="6" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3105090771424570870" fileName="Multiplot_Editor.java" startLine="238" startPosition="0" endLine="294" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createTable_3oqcxl_b0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <scopeInfo nodeId="3105090771424561506" fileName="Multiplot_Editor.java" startLine="33" startPosition="79" endLine="34" endPosition="63" />
+    <scopeInfo nodeId="3105090771424561506" fileName="Multiplot_Editor.java" startLine="43" startPosition="40" endLine="44" endPosition="83" />
+    <scopeInfo nodeId="3105090771424561506" fileName="Multiplot_Editor.java" startLine="44" startPosition="83" endLine="45" endPosition="78" />
+    <scopeInfo nodeId="3105090771424561506" fileName="Multiplot_Editor.java" startLine="54" startPosition="40" endLine="55" endPosition="82" />
+    <scopeInfo nodeId="3105090771424561506" fileName="Multiplot_Editor.java" startLine="55" startPosition="82" endLine="56" endPosition="82" />
+    <scopeInfo nodeId="3105090771424561506" fileName="Multiplot_Editor.java" startLine="56" startPosition="82" endLine="57" endPosition="81" />
+    <scopeInfo nodeId="3105090771424561506" fileName="Multiplot_Editor.java" startLine="57" startPosition="81" endLine="58" endPosition="84" />
+    <scopeInfo nodeId="3105090771424561506" fileName="Multiplot_Editor.java" startLine="58" startPosition="84" endLine="59" endPosition="85" />
+    <scopeInfo nodeId="3105090771426097637" fileName="Multiplot_Editor.java" startLine="83" startPosition="39" endLine="84" endPosition="40" />
+    <scopeInfo nodeId="3105090771424561506" fileName="Multiplot_Editor.java" startLine="102" startPosition="40" endLine="103" endPosition="83" />
+    <scopeInfo nodeId="3105090771424561506" fileName="Multiplot_Editor.java" startLine="103" startPosition="83" endLine="104" endPosition="83" />
+    <scopeInfo nodeId="3105090771424561506" fileName="Multiplot_Editor.java" startLine="104" startPosition="83" endLine="105" endPosition="83" />
+    <scopeInfo nodeId="3105090771424561506" fileName="Multiplot_Editor.java" startLine="105" startPosition="83" endLine="106" endPosition="83" />
+    <scopeInfo nodeId="3105090771424561506" fileName="Multiplot_Editor.java" startLine="106" startPosition="83" endLine="107" endPosition="83" />
+    <scopeInfo nodeId="3105090771424561506" fileName="Multiplot_Editor.java" startLine="107" startPosition="83" endLine="108" endPosition="83" />
+    <scopeInfo nodeId="3105090771424561506" fileName="Multiplot_Editor.java" startLine="108" startPosition="83" endLine="109" endPosition="83" />
+    <scopeInfo nodeId="3105090771424561506" fileName="Multiplot_Editor.java" startLine="188" startPosition="31" endLine="189" endPosition="74" />
+    <scopeInfo nodeId="3105090771424561506" fileName="Multiplot_Editor.java" startLine="190" startPosition="12" endLine="191" endPosition="76" />
+    <scopeInfo nodeId="3687343996977262357" fileName="Multiplot_Editor.java" startLine="196" startPosition="98" endLine="197" endPosition="59" />
+    <scopeInfo nodeId="3105090771424784491" fileName="Multiplot_Editor.java" startLine="242" startPosition="39" endLine="243" endPosition="70" />
+    <scopeInfo nodeId="3105090771424784497" fileName="Multiplot_Editor.java" startLine="246" startPosition="36" endLine="247" endPosition="67" />
+    <scopeInfo nodeId="3105090771424784515" fileName="Multiplot_Editor.java" startLine="255" startPosition="56" endLine="256" endPosition="138" />
+    <scopeInfo nodeId="3105090771424784525" fileName="Multiplot_Editor.java" startLine="259" startPosition="58" endLine="260" endPosition="193" />
+    <scopeInfo nodeId="3105090771424784535" fileName="Multiplot_Editor.java" startLine="263" startPosition="72" endLine="264" endPosition="24" />
+    <scopeInfo nodeId="3105090771424784543" fileName="Multiplot_Editor.java" startLine="267" startPosition="48" endLine="268" endPosition="113" />
+    <scopeInfo nodeId="3105090771424784551" fileName="Multiplot_Editor.java" startLine="271" startPosition="54" endLine="272" endPosition="132" />
+    <scopeInfo nodeId="3105090771424784559" fileName="Multiplot_Editor.java" startLine="275" startPosition="54" endLine="276" endPosition="119" />
+    <scopeInfo nodeId="3105090771424784567" fileName="Multiplot_Editor.java" startLine="279" startPosition="58" endLine="280" endPosition="23" />
+    <scopeInfo nodeId="3105090771424561506" fileName="Multiplot_Editor.java" startLine="209" startPosition="9" endLine="211" endPosition="65">
+      <varInfo nodeId="3105090771424561506" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="3105090771424561506" fileName="Multiplot_Editor.java" startLine="228" startPosition="9" endLine="230" endPosition="64">
+      <varInfo nodeId="3105090771424561506" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="3105090771424784505" fileName="Multiplot_Editor.java" startLine="250" startPosition="48" endLine="252" endPosition="81">
+      <varInfo nodeId="3105090771425275642" varName="newVal" />
+    </scopeInfo>
+    <scopeInfo nodeId="3105090771424561506" fileName="Multiplot_Editor.java" startLine="33" startPosition="0" endLine="36" endPosition="0">
+      <varInfo nodeId="3105090771424561506" varName="editorContext" />
+      <varInfo nodeId="3105090771424561506" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="3105090771426097637" fileName="Multiplot_Editor.java" startLine="89" startPosition="35" endLine="92" endPosition="109">
+      <varInfo nodeId="3105090771426097637" varName="manager" />
+      <varInfo nodeId="3105090771426097637" varName="opContext" />
+    </scopeInfo>
+    <scopeInfo nodeId="3105090771425645772" fileName="Multiplot_Editor.java" startLine="130" startPosition="35" endLine="133" endPosition="109">
+      <varInfo nodeId="3105090771425645772" varName="manager" />
+      <varInfo nodeId="3105090771425645772" varName="opContext" />
+    </scopeInfo>
+    <scopeInfo nodeId="3105090771425645790" fileName="Multiplot_Editor.java" startLine="162" startPosition="35" endLine="165" endPosition="109">
+      <varInfo nodeId="3105090771425645790" varName="manager" />
+      <varInfo nodeId="3105090771425645790" varName="opContext" />
+    </scopeInfo>
+    <scopeInfo nodeId="3687343996977262355" fileName="Multiplot_Editor.java" startLine="196" startPosition="0" endLine="199" endPosition="0">
+      <varInfo nodeId="3687343996977262355" varName="editorContext" />
+      <varInfo nodeId="3687343996977262355" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="3105090771424561506" fileName="Multiplot_Editor.java" startLine="200" startPosition="92" endLine="203" endPosition="22">
+      <varInfo nodeId="3105090771424561506" varName="editorCell" />
+    </scopeInfo>
+    <scopeInfo nodeId="3105090771424561506" fileName="Multiplot_Editor.java" startLine="219" startPosition="94" endLine="222" endPosition="22">
+      <varInfo nodeId="3105090771424561506" varName="editorCell" />
+    </scopeInfo>
+    <scopeInfo nodeId="3105090771424784487" fileName="Multiplot_Editor.java" startLine="242" startPosition="0" endLine="245" endPosition="0" />
+    <scopeInfo nodeId="3105090771424784493" fileName="Multiplot_Editor.java" startLine="246" startPosition="0" endLine="249" endPosition="0" />
+    <scopeInfo nodeId="3105090771424784507" fileName="Multiplot_Editor.java" startLine="255" startPosition="0" endLine="258" endPosition="0">
+      <varInfo nodeId="3105090771424784513" varName="column" />
+      <varInfo nodeId="3105090771424784511" varName="row" />
+    </scopeInfo>
+    <scopeInfo nodeId="3105090771424784517" fileName="Multiplot_Editor.java" startLine="259" startPosition="0" endLine="262" endPosition="0">
+      <varInfo nodeId="3105090771424784523" varName="column" />
+      <varInfo nodeId="3105090771424784518" varName="row" />
+    </scopeInfo>
+    <scopeInfo nodeId="3105090771424784527" fileName="Multiplot_Editor.java" startLine="263" startPosition="0" endLine="266" endPosition="0">
+      <varInfo nodeId="3105090771424784533" varName="column" />
+      <varInfo nodeId="3105090771424784529" varName="row" />
+    </scopeInfo>
+    <scopeInfo nodeId="3105090771424784537" fileName="Multiplot_Editor.java" startLine="267" startPosition="0" endLine="270" endPosition="0">
+      <varInfo nodeId="3105090771424784538" varName="rowNumber" />
+    </scopeInfo>
+    <scopeInfo nodeId="3105090771424784545" fileName="Multiplot_Editor.java" startLine="271" startPosition="0" endLine="274" endPosition="0">
+      <varInfo nodeId="3105090771424784546" varName="columnNumber" />
+    </scopeInfo>
+    <scopeInfo nodeId="3105090771424784553" fileName="Multiplot_Editor.java" startLine="275" startPosition="0" endLine="278" endPosition="0">
+      <varInfo nodeId="3105090771424784554" varName="columnNumber" />
+    </scopeInfo>
+    <scopeInfo nodeId="3105090771424784561" fileName="Multiplot_Editor.java" startLine="279" startPosition="0" endLine="282" endPosition="0">
+      <varInfo nodeId="3105090771424784562" varName="columnNumber" />
+    </scopeInfo>
+    <scopeInfo nodeId="3105090771425879674" fileName="Multiplot_Editor.java" startLine="63" startPosition="89" endLine="67" endPosition="22">
+      <varInfo nodeId="3105090771425879674" varName="editorCell" />
+    </scopeInfo>
+    <scopeInfo nodeId="3105090771426095781" fileName="Multiplot_Editor.java" startLine="70" startPosition="89" endLine="74" endPosition="22">
+      <varInfo nodeId="3105090771426095781" varName="editorCell" />
+    </scopeInfo>
+    <scopeInfo nodeId="3105090771425645767" fileName="Multiplot_Editor.java" startLine="113" startPosition="90" endLine="117" endPosition="22">
+      <varInfo nodeId="3105090771425645767" varName="editorCell" />
+    </scopeInfo>
+    <scopeInfo nodeId="8962032619586046497" fileName="Multiplot_Editor.java" startLine="138" startPosition="90" endLine="142" endPosition="22">
+      <varInfo nodeId="8962032619586046497" varName="editorCell" />
+    </scopeInfo>
+    <scopeInfo nodeId="3105090771425645780" fileName="Multiplot_Editor.java" startLine="145" startPosition="90" endLine="149" endPosition="22">
+      <varInfo nodeId="3105090771425645780" varName="editorCell" />
+    </scopeInfo>
+    <scopeInfo nodeId="8962032619586046513" fileName="Multiplot_Editor.java" startLine="170" startPosition="90" endLine="174" endPosition="22">
+      <varInfo nodeId="8962032619586046513" varName="editorCell" />
+    </scopeInfo>
+    <scopeInfo nodeId="3105090771426303303" fileName="Multiplot_Editor.java" startLine="177" startPosition="90" endLine="181" endPosition="22">
+      <varInfo nodeId="3105090771426303303" varName="editorCell" />
+    </scopeInfo>
+    <scopeInfo nodeId="3105090771424561506" fileName="Multiplot_Editor.java" startLine="208" startPosition="77" endLine="212" endPosition="9" />
+    <scopeInfo nodeId="3105090771424561506" fileName="Multiplot_Editor.java" startLine="227" startPosition="77" endLine="231" endPosition="9" />
+    <scopeInfo nodeId="3105090771424784499" fileName="Multiplot_Editor.java" startLine="250" startPosition="0" endLine="254" endPosition="0">
+      <varInfo nodeId="3105090771424784501" varName="rowNumber" />
+    </scopeInfo>
+    <scopeInfo nodeId="3105090771424561506" fileName="Multiplot_Editor.java" startLine="200" startPosition="0" endLine="205" endPosition="0">
+      <varInfo nodeId="3105090771424561506" varName="editorContext" />
+      <varInfo nodeId="3105090771424561506" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="3105090771424561506" fileName="Multiplot_Editor.java" startLine="219" startPosition="0" endLine="224" endPosition="0">
+      <varInfo nodeId="3105090771424561506" varName="editorContext" />
+      <varInfo nodeId="3105090771424561506" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="3105090771425879674" fileName="Multiplot_Editor.java" startLine="63" startPosition="0" endLine="69" endPosition="0">
+      <varInfo nodeId="3105090771425879674" varName="editorContext" />
+      <varInfo nodeId="3105090771425879674" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="3105090771426095781" fileName="Multiplot_Editor.java" startLine="70" startPosition="0" endLine="76" endPosition="0">
+      <varInfo nodeId="3105090771426095781" varName="editorContext" />
+      <varInfo nodeId="3105090771426095781" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="3105090771425645767" fileName="Multiplot_Editor.java" startLine="113" startPosition="0" endLine="119" endPosition="0">
+      <varInfo nodeId="3105090771425645767" varName="editorContext" />
+      <varInfo nodeId="3105090771425645767" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="8962032619586046497" fileName="Multiplot_Editor.java" startLine="138" startPosition="0" endLine="144" endPosition="0">
+      <varInfo nodeId="8962032619586046497" varName="editorContext" />
+      <varInfo nodeId="8962032619586046497" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="3105090771425645780" fileName="Multiplot_Editor.java" startLine="145" startPosition="0" endLine="151" endPosition="0">
+      <varInfo nodeId="3105090771425645780" varName="editorContext" />
+      <varInfo nodeId="3105090771425645780" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="8962032619586046513" fileName="Multiplot_Editor.java" startLine="170" startPosition="0" endLine="176" endPosition="0">
+      <varInfo nodeId="8962032619586046513" varName="editorContext" />
+      <varInfo nodeId="8962032619586046513" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="3105090771426303303" fileName="Multiplot_Editor.java" startLine="177" startPosition="0" endLine="183" endPosition="0">
+      <varInfo nodeId="3105090771426303303" varName="editorContext" />
+      <varInfo nodeId="3105090771426303303" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="3105090771424561506" fileName="Multiplot_Editor.java" startLine="208" startPosition="0" endLine="214" endPosition="0">
+      <varInfo nodeId="3105090771424561506" varName="editorContext" />
+      <varInfo nodeId="3105090771424561506" varName="n" />
+    </scopeInfo>
+    <scopeInfo nodeId="3105090771424561506" fileName="Multiplot_Editor.java" startLine="227" startPosition="0" endLine="233" endPosition="0">
+      <varInfo nodeId="3105090771424561506" varName="editorContext" />
+      <varInfo nodeId="3105090771424561506" varName="n" />
+    </scopeInfo>
+    <scopeInfo nodeId="3105090771424561506" fileName="Multiplot_Editor.java" startLine="37" startPosition="89" endLine="46" endPosition="22">
+      <varInfo nodeId="3105090771424561506" varName="editorCell" />
+      <varInfo nodeId="3105090771424561506" varName="style" />
+    </scopeInfo>
+    <scopeInfo nodeId="3105090771424561506" fileName="Multiplot_Editor.java" startLine="184" startPosition="92" endLine="193" endPosition="22">
+      <varInfo nodeId="3105090771424561506" varName="alternationCondition" />
+      <varInfo nodeId="3105090771424561506" varName="editorCell" />
+    </scopeInfo>
+    <scopeInfo nodeId="3105090771424561506" fileName="Multiplot_Editor.java" startLine="206" startPosition="121" endLine="216" endPosition="0">
+      <varInfo nodeId="3105090771424561506" varName="callback" />
+    </scopeInfo>
+    <scopeInfo nodeId="3105090771424561506" fileName="Multiplot_Editor.java" startLine="225" startPosition="123" endLine="235" endPosition="0">
+      <varInfo nodeId="3105090771424561506" varName="callback" />
+    </scopeInfo>
+    <scopeInfo nodeId="3105090771424561506" fileName="Multiplot_Editor.java" startLine="37" startPosition="0" endLine="48" endPosition="0">
+      <varInfo nodeId="3105090771424561506" varName="editorContext" />
+      <varInfo nodeId="3105090771424561506" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="3105090771424561506" fileName="Multiplot_Editor.java" startLine="49" startPosition="90" endLine="60" endPosition="22">
+      <varInfo nodeId="3105090771424561506" varName="editorCell" />
+      <varInfo nodeId="3105090771424561506" varName="style" />
+    </scopeInfo>
+    <scopeInfo nodeId="3105090771424561506" fileName="Multiplot_Editor.java" startLine="184" startPosition="0" endLine="195" endPosition="0">
+      <varInfo nodeId="3105090771424561506" varName="editorContext" />
+      <varInfo nodeId="3105090771424561506" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="3105090771424561506" fileName="Multiplot_Editor.java" startLine="206" startPosition="0" endLine="218" endPosition="0">
+      <varInfo nodeId="3105090771424561506" varName="editorContext" />
+      <varInfo nodeId="3105090771424561506" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="3105090771424561506" fileName="Multiplot_Editor.java" startLine="225" startPosition="0" endLine="237" endPosition="0">
+      <varInfo nodeId="3105090771424561506" varName="editorContext" />
+      <varInfo nodeId="3105090771424561506" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="3105090771424561506" fileName="Multiplot_Editor.java" startLine="49" startPosition="0" endLine="62" endPosition="0">
+      <varInfo nodeId="3105090771424561506" varName="editorContext" />
+      <varInfo nodeId="3105090771424561506" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="3105090771424561506" fileName="Multiplot_Editor.java" startLine="97" startPosition="91" endLine="110" endPosition="22">
+      <varInfo nodeId="3105090771424561506" varName="editorCell" />
+      <varInfo nodeId="3105090771424561506" varName="style" />
+    </scopeInfo>
+    <scopeInfo nodeId="3105090771424561506" fileName="Multiplot_Editor.java" startLine="97" startPosition="0" endLine="112" endPosition="0">
+      <varInfo nodeId="3105090771424561506" varName="editorContext" />
+      <varInfo nodeId="3105090771424561506" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="3105090771425645772" fileName="Multiplot_Editor.java" startLine="120" startPosition="90" endLine="135" endPosition="22">
+      <varInfo nodeId="3105090771425645772" varName="attributeConcept" />
+      <varInfo nodeId="3105090771425645772" varName="attributeKind" />
+      <varInfo nodeId="3105090771425645772" varName="editorCell" />
+      <varInfo nodeId="3105090771425645772" varName="provider" />
+    </scopeInfo>
+    <scopeInfo nodeId="3105090771425645790" fileName="Multiplot_Editor.java" startLine="152" startPosition="90" endLine="167" endPosition="22">
+      <varInfo nodeId="3105090771425645790" varName="attributeConcept" />
+      <varInfo nodeId="3105090771425645790" varName="attributeKind" />
+      <varInfo nodeId="3105090771425645790" varName="editorCell" />
+      <varInfo nodeId="3105090771425645790" varName="provider" />
+    </scopeInfo>
+    <scopeInfo nodeId="3105090771426097637" fileName="Multiplot_Editor.java" startLine="77" startPosition="88" endLine="94" endPosition="22">
+      <varInfo nodeId="3105090771426097637" varName="attributeConcept" />
+      <varInfo nodeId="3105090771426097637" varName="attributeKind" />
+      <varInfo nodeId="3105090771426097637" varName="editorCell" />
+      <varInfo nodeId="3105090771426097637" varName="provider" />
+    </scopeInfo>
+    <scopeInfo nodeId="3105090771425645772" fileName="Multiplot_Editor.java" startLine="120" startPosition="0" endLine="137" endPosition="0">
+      <varInfo nodeId="3105090771425645772" varName="editorContext" />
+      <varInfo nodeId="3105090771425645772" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="3105090771425645790" fileName="Multiplot_Editor.java" startLine="152" startPosition="0" endLine="169" endPosition="0">
+      <varInfo nodeId="3105090771425645790" varName="editorContext" />
+      <varInfo nodeId="3105090771425645790" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="3105090771426097637" fileName="Multiplot_Editor.java" startLine="77" startPosition="0" endLine="96" endPosition="0">
+      <varInfo nodeId="3105090771426097637" varName="editorContext" />
+      <varInfo nodeId="3105090771426097637" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="3105090771424570870" fileName="Multiplot_Editor.java" startLine="240" startPosition="95" endLine="282" endPosition="10" />
+    <scopeInfo nodeId="3105090771424570870" fileName="Multiplot_Editor.java" startLine="240" startPosition="0" endLine="284" endPosition="0">
+      <varInfo nodeId="3105090771424570870" varName="editorContext" />
+      <varInfo nodeId="3105090771424570870" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="3105090771424570870" fileName="Multiplot_Editor.java" startLine="238" startPosition="85" endLine="292" endPosition="22">
+      <varInfo nodeId="3105090771424570870" varName="creator" />
+      <varInfo nodeId="3105090771424570870" varName="editorCell" />
+      <varInfo nodeId="3105090771424570870" varName="style" />
+    </scopeInfo>
+    <scopeInfo nodeId="3105090771424570870" fileName="Multiplot_Editor.java" startLine="238" startPosition="0" endLine="294" endPosition="0">
+      <varInfo nodeId="3105090771424570870" varName="editorContext" />
+      <varInfo nodeId="3105090771424570870" varName="node" />
+    </scopeInfo>
+    <unitInfo nodeId="3105090771424561506" fileName="Multiplot_Editor.java" startLine="207" startPosition="34" endLine="214" endPosition="5" unitName="org.campagnelab.hta.tables.editor.Multiplot_Editor$1" />
+    <unitInfo nodeId="3105090771424561506" fileName="Multiplot_Editor.java" startLine="226" startPosition="34" endLine="233" endPosition="5" unitName="org.campagnelab.hta.tables.editor.Multiplot_Editor$2" />
+    <unitInfo nodeId="3105090771424784485" fileName="Multiplot_Editor.java" startLine="241" startPosition="19" endLine="282" endPosition="9" unitName="org.campagnelab.hta.tables.editor.Multiplot_Editor$4" />
+    <unitInfo nodeId="3105090771424570870" fileName="Multiplot_Editor.java" startLine="239" startPosition="36" endLine="284" endPosition="5" unitName="org.campagnelab.hta.tables.editor.Multiplot_Editor$3" />
+    <unitInfo nodeId="3105090771424561506" fileName="Multiplot_Editor.java" startLine="32" startPosition="0" endLine="295" endPosition="0" unitName="org.campagnelab.hta.tables.editor.Multiplot_Editor" />
+  </root>
+  <root nodeRef="r:c14853f5-5f2e-4acc-825a-4fec67caca67(org.campagnelab.hta.tables.editor)/3105090771426523947">
+    <nodeInfo nodeId="3105090771426523947" fileName="PlotRef_Editor.java" startLine="21" startPosition="79" endLine="22" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="3105090771426523947" fileName="PlotRef_Editor.java" startLine="25" startPosition="89" endLine="26" endPosition="96" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3105090771426523947" fileName="PlotRef_Editor.java" startLine="26" startPosition="96" endLine="27" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3105090771426523947" fileName="PlotRef_Editor.java" startLine="27" startPosition="48" endLine="28" endPosition="28" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3105090771426523947" fileName="PlotRef_Editor.java" startLine="28" startPosition="28" endLine="29" endPosition="80" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="3105090771426523947" fileName="PlotRef_Editor.java" startLine="28" startPosition="28" endLine="29" endPosition="80" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3105090771426523947" fileName="PlotRef_Editor.java" startLine="29" startPosition="80" endLine="30" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="3105090771426523947" fileName="PlotRef_Editor.java" startLine="33" startPosition="87" endLine="34" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3105090771426523947" fileName="PlotRef_Editor.java" startLine="34" startPosition="81" endLine="35" endPosition="29" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3105090771426523947" fileName="PlotRef_Editor.java" startLine="35" startPosition="29" endLine="36" endPosition="42" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3105090771426523947" fileName="PlotRef_Editor.java" startLine="36" startPosition="42" endLine="37" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3105090771426523947" fileName="PlotRef_Editor.java" startLine="37" startPosition="26" endLine="38" endPosition="79" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3105090771426523947" fileName="PlotRef_Editor.java" startLine="38" startPosition="79" endLine="39" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3105090771426523947" fileName="PlotRef_Editor.java" startLine="40" startPosition="39" endLine="41" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3105090771426523947" fileName="PlotRef_Editor.java" startLine="41" startPosition="40" endLine="42" endPosition="33" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3105090771426523947" fileName="PlotRef_Editor.java" startLine="43" startPosition="5" endLine="44" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3105090771426523947" fileName="PlotRef_Editor.java" startLine="44" startPosition="73" endLine="45" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3105090771426523947" fileName="PlotRef_Editor.java" startLine="45" startPosition="57" endLine="46" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3105090771426523947" fileName="PlotRef_Editor.java" startLine="47" startPosition="35" endLine="48" endPosition="72" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3105090771426523947" fileName="PlotRef_Editor.java" startLine="48" startPosition="72" endLine="49" endPosition="78" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3105090771426523947" fileName="PlotRef_Editor.java" startLine="49" startPosition="78" endLine="50" endPosition="109" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="3105090771426523947" fileName="PlotRef_Editor.java" startLine="51" startPosition="10" endLine="52" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="3105090771426523954" fileName="PlotRef_Editor.java" startLine="56" startPosition="33" endLine="57" endPosition="14" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+    <nodeInfo nodeId="3105090771426523954" fileName="PlotRef_Editor.java" startLine="60" startPosition="69" endLine="61" endPosition="67" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="3105090771426523954" fileName="PlotRef_Editor.java" startLine="64" startPosition="81" endLine="65" endPosition="66" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="3105090771426523961" fileName="PlotRef_Editor.java" startLine="68" startPosition="92" endLine="69" endPosition="84" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3105090771426523961" fileName="PlotRef_Editor.java" startLine="69" startPosition="84" endLine="70" endPosition="31" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3105090771426523961" fileName="PlotRef_Editor.java" startLine="70" startPosition="31" endLine="71" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3105090771426523961" fileName="PlotRef_Editor.java" startLine="71" startPosition="44" endLine="72" endPosition="33" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3105090771426523961" fileName="PlotRef_Editor.java" startLine="72" startPosition="33" endLine="73" endPosition="28" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3105090771426523961" fileName="PlotRef_Editor.java" startLine="73" startPosition="28" endLine="74" endPosition="60" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3105090771426523961" fileName="PlotRef_Editor.java" startLine="74" startPosition="60" endLine="75" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3105090771426523961" fileName="PlotRef_Editor.java" startLine="75" startPosition="44" endLine="76" endPosition="36" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3105090771426523961" fileName="PlotRef_Editor.java" startLine="76" startPosition="36" endLine="77" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3105090771426523961" fileName="PlotRef_Editor.java" startLine="77" startPosition="63" endLine="78" endPosition="54" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3105090771426523961" fileName="PlotRef_Editor.java" startLine="78" startPosition="54" endLine="79" endPosition="42" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3105090771426523961" fileName="PlotRef_Editor.java" startLine="79" startPosition="42" endLine="80" endPosition="75" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3105090771426523961" fileName="PlotRef_Editor.java" startLine="80" startPosition="75" endLine="81" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3105090771426523961" fileName="PlotRef_Editor.java" startLine="81" startPosition="59" endLine="82" endPosition="61" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3105090771426523961" fileName="PlotRef_Editor.java" startLine="83" startPosition="37" endLine="84" endPosition="74" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3105090771426523961" fileName="PlotRef_Editor.java" startLine="84" startPosition="74" endLine="85" endPosition="80" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3105090771426523961" fileName="PlotRef_Editor.java" startLine="85" startPosition="80" endLine="86" endPosition="111" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="3105090771426523961" fileName="PlotRef_Editor.java" startLine="87" startPosition="12" endLine="88" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="3105090771426523947" fileName="PlotRef_Editor.java" startLine="21" startPosition="0" endLine="24" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <nodeInfo nodeId="3105090771426523954" fileName="PlotRef_Editor.java" startLine="56" startPosition="0" endLine="59" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="_Inline_92fp71_a0a#()V" />
+    <nodeInfo nodeId="3105090771426523954" fileName="PlotRef_Editor.java" startLine="60" startPosition="0" endLine="63" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <nodeInfo nodeId="3105090771426523954" fileName="PlotRef_Editor.java" startLine="64" startPosition="0" endLine="67" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <nodeInfo nodeId="3105090771426523947" fileName="PlotRef_Editor.java" startLine="39" startPosition="58" endLine="43" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="3105090771426523947" fileName="PlotRef_Editor.java" startLine="46" startPosition="59" endLine="52" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="3105090771426523961" fileName="PlotRef_Editor.java" startLine="82" startPosition="61" endLine="88" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="3105090771426523947" fileName="PlotRef_Editor.java" startLine="25" startPosition="0" endLine="32" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createCollection_92fp71_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <nodeInfo nodeId="3105090771426523947" fileName="PlotRef_Editor.java" startLine="33" startPosition="0" endLine="54" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createRefCell_92fp71_a0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <nodeInfo nodeId="3105090771426523961" fileName="PlotRef_Editor.java" startLine="68" startPosition="0" endLine="90" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createProperty_92fp71_a0a0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <scopeInfo nodeId="3105090771426523947" fileName="PlotRef_Editor.java" startLine="21" startPosition="79" endLine="22" endPosition="63" />
+    <scopeInfo nodeId="3105090771426523947" fileName="PlotRef_Editor.java" startLine="28" startPosition="28" endLine="29" endPosition="80" />
+    <scopeInfo nodeId="3105090771426523954" fileName="PlotRef_Editor.java" startLine="56" startPosition="33" endLine="57" endPosition="14" />
+    <scopeInfo nodeId="3105090771426523954" fileName="PlotRef_Editor.java" startLine="60" startPosition="69" endLine="61" endPosition="67" />
+    <scopeInfo nodeId="3105090771426523954" fileName="PlotRef_Editor.java" startLine="64" startPosition="81" endLine="65" endPosition="66" />
+    <scopeInfo nodeId="3105090771426523947" fileName="PlotRef_Editor.java" startLine="40" startPosition="39" endLine="42" endPosition="33" />
+    <scopeInfo nodeId="3105090771426523947" fileName="PlotRef_Editor.java" startLine="21" startPosition="0" endLine="24" endPosition="0">
+      <varInfo nodeId="3105090771426523947" varName="editorContext" />
+      <varInfo nodeId="3105090771426523947" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="3105090771426523947" fileName="PlotRef_Editor.java" startLine="47" startPosition="35" endLine="50" endPosition="109">
+      <varInfo nodeId="3105090771426523947" varName="manager" />
+      <varInfo nodeId="3105090771426523947" varName="opContext" />
+    </scopeInfo>
+    <scopeInfo nodeId="3105090771426523954" fileName="PlotRef_Editor.java" startLine="56" startPosition="0" endLine="59" endPosition="0" />
+    <scopeInfo nodeId="3105090771426523954" fileName="PlotRef_Editor.java" startLine="60" startPosition="0" endLine="63" endPosition="0">
+      <varInfo nodeId="3105090771426523954" varName="editorContext" />
+    </scopeInfo>
+    <scopeInfo nodeId="3105090771426523954" fileName="PlotRef_Editor.java" startLine="64" startPosition="0" endLine="67" endPosition="0">
+      <varInfo nodeId="3105090771426523954" varName="editorContext" />
+      <varInfo nodeId="3105090771426523954" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="3105090771426523961" fileName="PlotRef_Editor.java" startLine="83" startPosition="37" endLine="86" endPosition="111">
+      <varInfo nodeId="3105090771426523961" varName="manager" />
+      <varInfo nodeId="3105090771426523961" varName="opContext" />
+    </scopeInfo>
+    <scopeInfo nodeId="3105090771426523947" fileName="PlotRef_Editor.java" startLine="25" startPosition="89" endLine="30" endPosition="22">
+      <varInfo nodeId="3105090771426523947" varName="editorCell" />
+    </scopeInfo>
+    <scopeInfo nodeId="3105090771426523947" fileName="PlotRef_Editor.java" startLine="25" startPosition="0" endLine="32" endPosition="0">
+      <varInfo nodeId="3105090771426523947" varName="editorContext" />
+      <varInfo nodeId="3105090771426523947" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="3105090771426523947" fileName="PlotRef_Editor.java" startLine="33" startPosition="87" endLine="52" endPosition="22">
+      <varInfo nodeId="3105090771426523947" varName="attributeConcept" />
+      <varInfo nodeId="3105090771426523947" varName="attributeKind" />
+      <varInfo nodeId="3105090771426523947" varName="editorCell" />
+      <varInfo nodeId="3105090771426523947" varName="provider" />
+    </scopeInfo>
+    <scopeInfo nodeId="3105090771426523961" fileName="PlotRef_Editor.java" startLine="68" startPosition="92" endLine="88" endPosition="24">
+      <varInfo nodeId="3105090771426523961" varName="attributeConcept" />
+      <varInfo nodeId="3105090771426523961" varName="attributeKind" />
+      <varInfo nodeId="3105090771426523961" varName="editorCell" />
+      <varInfo nodeId="3105090771426523961" varName="provider" />
+      <varInfo nodeId="3105090771426523961" varName="style" />
+    </scopeInfo>
+    <scopeInfo nodeId="3105090771426523947" fileName="PlotRef_Editor.java" startLine="33" startPosition="0" endLine="54" endPosition="0">
+      <varInfo nodeId="3105090771426523947" varName="editorContext" />
+      <varInfo nodeId="3105090771426523947" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="3105090771426523961" fileName="PlotRef_Editor.java" startLine="68" startPosition="0" endLine="90" endPosition="0">
+      <varInfo nodeId="3105090771426523961" varName="editorContext" />
+      <varInfo nodeId="3105090771426523961" varName="node" />
+    </scopeInfo>
+    <unitInfo nodeId="3105090771426523954" fileName="PlotRef_Editor.java" startLine="55" startPosition="0" endLine="91" endPosition="0" unitName="org.campagnelab.hta.tables.editor.PlotRef_Editor$_Inline_92fp71_a0a" />
+    <unitInfo nodeId="3105090771426523947" fileName="PlotRef_Editor.java" startLine="20" startPosition="0" endLine="92" endPosition="0" unitName="org.campagnelab.hta.tables.editor.PlotRef_Editor" />
+  </root>
+  <root nodeRef="r:c14853f5-5f2e-4acc-825a-4fec67caca67(org.campagnelab.hta.tables.editor)/3105090771426933689">
+    <nodeInfo nodeId="3105090771426933689" fileName="PlotRefWithPreview_Editor.java" startLine="26" startPosition="79" endLine="27" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="3105090771426933689" fileName="PlotRefWithPreview_Editor.java" startLine="30" startPosition="89" endLine="31" endPosition="97" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3105090771426933689" fileName="PlotRefWithPreview_Editor.java" startLine="31" startPosition="97" endLine="32" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3105090771426933689" fileName="PlotRefWithPreview_Editor.java" startLine="32" startPosition="48" endLine="33" endPosition="28" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3105090771426933689" fileName="PlotRefWithPreview_Editor.java" startLine="33" startPosition="28" endLine="34" endPosition="80" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="3105090771426933689" fileName="PlotRefWithPreview_Editor.java" startLine="33" startPosition="28" endLine="34" endPosition="80" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3105090771426933689" fileName="PlotRefWithPreview_Editor.java" startLine="35" startPosition="61" endLine="36" endPosition="80" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3105090771426933689" fileName="PlotRefWithPreview_Editor.java" startLine="37" startPosition="5" endLine="38" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="3105090771426933689" fileName="PlotRefWithPreview_Editor.java" startLine="41" startPosition="87" endLine="42" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3105090771426933689" fileName="PlotRefWithPreview_Editor.java" startLine="42" startPosition="81" endLine="43" endPosition="29" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3105090771426933689" fileName="PlotRefWithPreview_Editor.java" startLine="43" startPosition="29" endLine="44" endPosition="42" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3105090771426933689" fileName="PlotRefWithPreview_Editor.java" startLine="44" startPosition="42" endLine="45" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3105090771426933689" fileName="PlotRefWithPreview_Editor.java" startLine="45" startPosition="26" endLine="46" endPosition="90" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3105090771426933689" fileName="PlotRefWithPreview_Editor.java" startLine="46" startPosition="90" endLine="47" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3105090771426933689" fileName="PlotRefWithPreview_Editor.java" startLine="48" startPosition="39" endLine="49" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3105090771426933689" fileName="PlotRefWithPreview_Editor.java" startLine="49" startPosition="40" endLine="50" endPosition="33" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3105090771426933689" fileName="PlotRefWithPreview_Editor.java" startLine="51" startPosition="5" endLine="52" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3105090771426933689" fileName="PlotRefWithPreview_Editor.java" startLine="52" startPosition="34" endLine="53" endPosition="61" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3105090771426933689" fileName="PlotRefWithPreview_Editor.java" startLine="53" startPosition="61" endLine="54" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3105090771426933689" fileName="PlotRefWithPreview_Editor.java" startLine="54" startPosition="40" endLine="55" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3105090771426933689" fileName="PlotRefWithPreview_Editor.java" startLine="55" startPosition="73" endLine="56" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3105090771426933689" fileName="PlotRefWithPreview_Editor.java" startLine="56" startPosition="57" endLine="57" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3105090771426933689" fileName="PlotRefWithPreview_Editor.java" startLine="58" startPosition="35" endLine="59" endPosition="72" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3105090771426933689" fileName="PlotRefWithPreview_Editor.java" startLine="59" startPosition="72" endLine="60" endPosition="78" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3105090771426933689" fileName="PlotRefWithPreview_Editor.java" startLine="60" startPosition="78" endLine="61" endPosition="109" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="3105090771426933689" fileName="PlotRefWithPreview_Editor.java" startLine="62" startPosition="10" endLine="63" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="3105090771426933754" fileName="PlotRefWithPreview_Editor.java" startLine="67" startPosition="33" endLine="68" endPosition="14" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+    <nodeInfo nodeId="3105090771426933754" fileName="PlotRefWithPreview_Editor.java" startLine="71" startPosition="69" endLine="72" endPosition="67" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="3105090771426933754" fileName="PlotRefWithPreview_Editor.java" startLine="75" startPosition="81" endLine="76" endPosition="66" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="3105090771426933761" fileName="PlotRefWithPreview_Editor.java" startLine="79" startPosition="92" endLine="80" endPosition="84" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3105090771426933761" fileName="PlotRefWithPreview_Editor.java" startLine="80" startPosition="84" endLine="81" endPosition="31" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3105090771426933761" fileName="PlotRefWithPreview_Editor.java" startLine="81" startPosition="31" endLine="82" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3105090771426933761" fileName="PlotRefWithPreview_Editor.java" startLine="82" startPosition="44" endLine="83" endPosition="33" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3105090771426933761" fileName="PlotRefWithPreview_Editor.java" startLine="83" startPosition="33" endLine="84" endPosition="28" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3105090771426933761" fileName="PlotRefWithPreview_Editor.java" startLine="84" startPosition="28" endLine="85" endPosition="60" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3105090771426933761" fileName="PlotRefWithPreview_Editor.java" startLine="85" startPosition="60" endLine="86" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3105090771426933761" fileName="PlotRefWithPreview_Editor.java" startLine="86" startPosition="44" endLine="87" endPosition="75" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3105090771426933761" fileName="PlotRefWithPreview_Editor.java" startLine="87" startPosition="75" endLine="88" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3105090771426933761" fileName="PlotRefWithPreview_Editor.java" startLine="88" startPosition="59" endLine="89" endPosition="61" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3105090771426933761" fileName="PlotRefWithPreview_Editor.java" startLine="90" startPosition="37" endLine="91" endPosition="74" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3105090771426933761" fileName="PlotRefWithPreview_Editor.java" startLine="91" startPosition="74" endLine="92" endPosition="80" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3105090771426933761" fileName="PlotRefWithPreview_Editor.java" startLine="92" startPosition="80" endLine="93" endPosition="111" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="3105090771426933761" fileName="PlotRefWithPreview_Editor.java" startLine="94" startPosition="12" endLine="95" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="3105090771426933689" fileName="PlotRefWithPreview_Editor.java" startLine="99" startPosition="97" endLine="100" endPosition="32" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3105090771426935388" fileName="PlotRefWithPreview_Editor.java" startLine="102" startPosition="30" endLine="103" endPosition="110" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="3105090771426933689" fileName="PlotRefWithPreview_Editor.java" startLine="105" startPosition="16" endLine="106" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3105090771426933689" fileName="PlotRefWithPreview_Editor.java" startLine="106" startPosition="44" endLine="107" endPosition="29" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3105090771426933689" fileName="PlotRefWithPreview_Editor.java" startLine="107" startPosition="29" endLine="108" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="3687343996977054998" fileName="PlotRefWithPreview_Editor.java" startLine="111" startPosition="97" endLine="112" endPosition="152" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="3105090771426933689" fileName="PlotRefWithPreview_Editor.java" startLine="26" startPosition="0" endLine="29" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <nodeInfo nodeId="3105090771426933689" fileName="PlotRefWithPreview_Editor.java" startLine="34" startPosition="80" endLine="37" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="3105090771426933689" fileName="PlotRefWithPreview_Editor.java" startLine="34" startPosition="80" endLine="37" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="3105090771426933754" fileName="PlotRefWithPreview_Editor.java" startLine="67" startPosition="0" endLine="70" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="_Inline_9p3cny_a0a#()V" />
+    <nodeInfo nodeId="3105090771426933754" fileName="PlotRefWithPreview_Editor.java" startLine="71" startPosition="0" endLine="74" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <nodeInfo nodeId="3105090771426933754" fileName="PlotRefWithPreview_Editor.java" startLine="75" startPosition="0" endLine="78" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <nodeInfo nodeId="3105090771426933689" fileName="PlotRefWithPreview_Editor.java" startLine="102" startPosition="0" endLine="105" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="invoke#()Ljava/lang/String;" />
+    <nodeInfo nodeId="3687343996977053559" fileName="PlotRefWithPreview_Editor.java" startLine="111" startPosition="0" endLine="114" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="renderingCondition_9p3cny_a1a#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Z" />
+    <nodeInfo nodeId="3105090771426933689" fileName="PlotRefWithPreview_Editor.java" startLine="47" startPosition="58" endLine="51" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="3105090771426933689" fileName="PlotRefWithPreview_Editor.java" startLine="100" startPosition="32" endLine="105" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3105090771426933689" fileName="PlotRefWithPreview_Editor.java" startLine="57" startPosition="59" endLine="63" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="3105090771426933761" fileName="PlotRefWithPreview_Editor.java" startLine="89" startPosition="61" endLine="95" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="3105090771426933689" fileName="PlotRefWithPreview_Editor.java" startLine="30" startPosition="0" endLine="40" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createCollection_9p3cny_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <nodeInfo nodeId="3105090771426933689" fileName="PlotRefWithPreview_Editor.java" startLine="99" startPosition="0" endLine="110" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createImage_9p3cny_b0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <nodeInfo nodeId="3105090771426933761" fileName="PlotRefWithPreview_Editor.java" startLine="79" startPosition="0" endLine="97" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createProperty_9p3cny_a0a0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <nodeInfo nodeId="3105090771426933689" fileName="PlotRefWithPreview_Editor.java" startLine="41" startPosition="0" endLine="65" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createRefCell_9p3cny_a0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <scopeInfo nodeId="3105090771426933689" fileName="PlotRefWithPreview_Editor.java" startLine="26" startPosition="79" endLine="27" endPosition="63" />
+    <scopeInfo nodeId="3105090771426933689" fileName="PlotRefWithPreview_Editor.java" startLine="33" startPosition="28" endLine="34" endPosition="80" />
+    <scopeInfo nodeId="3105090771426933689" fileName="PlotRefWithPreview_Editor.java" startLine="35" startPosition="61" endLine="36" endPosition="80" />
+    <scopeInfo nodeId="3105090771426933754" fileName="PlotRefWithPreview_Editor.java" startLine="67" startPosition="33" endLine="68" endPosition="14" />
+    <scopeInfo nodeId="3105090771426933754" fileName="PlotRefWithPreview_Editor.java" startLine="71" startPosition="69" endLine="72" endPosition="67" />
+    <scopeInfo nodeId="3105090771426933754" fileName="PlotRefWithPreview_Editor.java" startLine="75" startPosition="81" endLine="76" endPosition="66" />
+    <scopeInfo nodeId="3105090771426935041" fileName="PlotRefWithPreview_Editor.java" startLine="102" startPosition="30" endLine="103" endPosition="110" />
+    <scopeInfo nodeId="3687343996977053560" fileName="PlotRefWithPreview_Editor.java" startLine="111" startPosition="97" endLine="112" endPosition="152" />
+    <scopeInfo nodeId="3105090771426933689" fileName="PlotRefWithPreview_Editor.java" startLine="48" startPosition="39" endLine="50" endPosition="33" />
+    <scopeInfo nodeId="3105090771426933689" fileName="PlotRefWithPreview_Editor.java" startLine="26" startPosition="0" endLine="29" endPosition="0">
+      <varInfo nodeId="3105090771426933689" varName="editorContext" />
+      <varInfo nodeId="3105090771426933689" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="3105090771426933689" fileName="PlotRefWithPreview_Editor.java" startLine="34" startPosition="80" endLine="37" endPosition="5" />
+    <scopeInfo nodeId="3105090771426933689" fileName="PlotRefWithPreview_Editor.java" startLine="58" startPosition="35" endLine="61" endPosition="109">
+      <varInfo nodeId="3105090771426933689" varName="manager" />
+      <varInfo nodeId="3105090771426933689" varName="opContext" />
+    </scopeInfo>
+    <scopeInfo nodeId="3105090771426933754" fileName="PlotRefWithPreview_Editor.java" startLine="67" startPosition="0" endLine="70" endPosition="0" />
+    <scopeInfo nodeId="3105090771426933754" fileName="PlotRefWithPreview_Editor.java" startLine="71" startPosition="0" endLine="74" endPosition="0">
+      <varInfo nodeId="3105090771426933754" varName="editorContext" />
+    </scopeInfo>
+    <scopeInfo nodeId="3105090771426933754" fileName="PlotRefWithPreview_Editor.java" startLine="75" startPosition="0" endLine="78" endPosition="0">
+      <varInfo nodeId="3105090771426933754" varName="editorContext" />
+      <varInfo nodeId="3105090771426933754" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="3105090771426933761" fileName="PlotRefWithPreview_Editor.java" startLine="90" startPosition="37" endLine="93" endPosition="111">
+      <varInfo nodeId="3105090771426933761" varName="manager" />
+      <varInfo nodeId="3105090771426933761" varName="opContext" />
+    </scopeInfo>
+    <scopeInfo nodeId="3105090771426933689" fileName="PlotRefWithPreview_Editor.java" startLine="102" startPosition="0" endLine="105" endPosition="0" />
+    <scopeInfo nodeId="3687343996977053559" fileName="PlotRefWithPreview_Editor.java" startLine="111" startPosition="0" endLine="114" endPosition="0">
+      <varInfo nodeId="3687343996977053559" varName="editorContext" />
+      <varInfo nodeId="3687343996977053559" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="3105090771426933689" fileName="PlotRefWithPreview_Editor.java" startLine="30" startPosition="89" endLine="38" endPosition="22">
+      <varInfo nodeId="3105090771426933689" varName="editorCell" />
+    </scopeInfo>
+    <scopeInfo nodeId="3105090771426933689" fileName="PlotRefWithPreview_Editor.java" startLine="99" startPosition="97" endLine="108" endPosition="22">
+      <varInfo nodeId="3105090771426933689" varName="editorCell" />
+    </scopeInfo>
+    <scopeInfo nodeId="3105090771426933689" fileName="PlotRefWithPreview_Editor.java" startLine="30" startPosition="0" endLine="40" endPosition="0">
+      <varInfo nodeId="3105090771426933689" varName="editorContext" />
+      <varInfo nodeId="3105090771426933689" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="3105090771426933689" fileName="PlotRefWithPreview_Editor.java" startLine="99" startPosition="0" endLine="110" endPosition="0">
+      <varInfo nodeId="3105090771426933689" varName="editorContext" />
+      <varInfo nodeId="3105090771426933689" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="3105090771426933761" fileName="PlotRefWithPreview_Editor.java" startLine="79" startPosition="92" endLine="95" endPosition="24">
+      <varInfo nodeId="3105090771426933761" varName="attributeConcept" />
+      <varInfo nodeId="3105090771426933761" varName="attributeKind" />
+      <varInfo nodeId="3105090771426933761" varName="editorCell" />
+      <varInfo nodeId="3105090771426933761" varName="provider" />
+    </scopeInfo>
+    <scopeInfo nodeId="3105090771426933761" fileName="PlotRefWithPreview_Editor.java" startLine="79" startPosition="0" endLine="97" endPosition="0">
+      <varInfo nodeId="3105090771426933761" varName="editorContext" />
+      <varInfo nodeId="3105090771426933761" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="3105090771426933689" fileName="PlotRefWithPreview_Editor.java" startLine="41" startPosition="87" endLine="63" endPosition="22">
+      <varInfo nodeId="3105090771426933689" varName="attributeConcept" />
+      <varInfo nodeId="3105090771426933689" varName="attributeKind" />
+      <varInfo nodeId="3105090771426933689" varName="editorCell" />
+      <varInfo nodeId="3105090771426933689" varName="provider" />
+      <varInfo nodeId="3105090771426933689" varName="style" />
+    </scopeInfo>
+    <scopeInfo nodeId="3105090771426933689" fileName="PlotRefWithPreview_Editor.java" startLine="41" startPosition="0" endLine="65" endPosition="0">
+      <varInfo nodeId="3105090771426933689" varName="editorContext" />
+      <varInfo nodeId="3105090771426933689" varName="node" />
+    </scopeInfo>
+    <unitInfo nodeId="3105090771426933689" fileName="PlotRefWithPreview_Editor.java" startLine="101" startPosition="75" endLine="105" endPosition="5" unitName="org.campagnelab.hta.tables.editor.PlotRefWithPreview_Editor$1" />
+    <unitInfo nodeId="3105090771426933754" fileName="PlotRefWithPreview_Editor.java" startLine="66" startPosition="0" endLine="98" endPosition="0" unitName="org.campagnelab.hta.tables.editor.PlotRefWithPreview_Editor$_Inline_9p3cny_a0a" />
+    <unitInfo nodeId="3105090771426933689" fileName="PlotRefWithPreview_Editor.java" startLine="25" startPosition="0" endLine="115" endPosition="0" unitName="org.campagnelab.hta.tables.editor.PlotRefWithPreview_Editor" />
+  </root>
   <root nodeRef="r:c14853f5-5f2e-4acc-825a-4fec67caca67(org.campagnelab.hta.tables.editor)/3402264987259043363">
     <nodeInfo nodeId="3402264987259043363" fileName="Table_Editor.java" startLine="28" startPosition="79" endLine="29" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="3402264987259043363" fileName="Table_Editor.java" startLine="32" startPosition="89" endLine="33" endPosition="96" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
@@ -4658,6 +5366,219 @@
       <varInfo nodeId="8887138449909893488" varName="style" />
     </scopeInfo>
     <unitInfo nodeId="8887138449909893488" fileName="TableStyleSheet_StyleSheet.java" startLine="12" startPosition="0" endLine="35" endPosition="0" unitName="org.campagnelab.hta.tables.editor.TableStyleSheet_StyleSheet" />
+  </root>
+  <root nodeRef="r:c14853f5-5f2e-4acc-825a-4fec67caca67(org.campagnelab.hta.tables.editor)/8962032619582305409">
+    <nodeInfo nodeId="8962032619582305409" fileName="StatementList_Editor.java" startLine="33" startPosition="79" endLine="34" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8962032619582305409" fileName="StatementList_Editor.java" startLine="37" startPosition="82" endLine="38" endPosition="65" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8962032619582305409" fileName="StatementList_Editor.java" startLine="41" startPosition="89" endLine="42" endPosition="96" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="8962032619582305409" fileName="StatementList_Editor.java" startLine="42" startPosition="96" endLine="43" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8962032619582305409" fileName="StatementList_Editor.java" startLine="43" startPosition="48" endLine="44" endPosition="28" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8962032619582305409" fileName="StatementList_Editor.java" startLine="44" startPosition="28" endLine="45" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="8962032619582305409" fileName="StatementList_Editor.java" startLine="44" startPosition="28" endLine="45" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8962032619582305409" fileName="StatementList_Editor.java" startLine="45" startPosition="81" endLine="46" endPosition="84" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="8962032619582305409" fileName="StatementList_Editor.java" startLine="45" startPosition="81" endLine="46" endPosition="84" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8962032619582305409" fileName="StatementList_Editor.java" startLine="46" startPosition="84" endLine="47" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="8962032619582305409" fileName="StatementList_Editor.java" startLine="46" startPosition="84" endLine="47" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8962032619582305409" fileName="StatementList_Editor.java" startLine="47" startPosition="81" endLine="48" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8962032619582305411" fileName="StatementList_Editor.java" startLine="51" startPosition="88" endLine="52" endPosition="87" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="8962032619582305411" fileName="StatementList_Editor.java" startLine="52" startPosition="87" endLine="53" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8962032619582305411" fileName="StatementList_Editor.java" startLine="53" startPosition="47" endLine="54" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8962032619582305411" fileName="StatementList_Editor.java" startLine="54" startPosition="34" endLine="55" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8962032619582305409" fileName="StatementList_Editor.java" startLine="58" startPosition="91" endLine="59" endPosition="140" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="8962032619582305409" fileName="StatementList_Editor.java" startLine="59" startPosition="140" endLine="60" endPosition="106" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="8962032619582305409" fileName="StatementList_Editor.java" startLine="60" startPosition="106" endLine="61" endPosition="56" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8962032619582305409" fileName="StatementList_Editor.java" startLine="61" startPosition="56" endLine="62" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="8962032619582305409" fileName="StatementList_Editor.java" startLine="62" startPosition="34" endLine="63" endPosition="68" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8962032619582305409" fileName="StatementList_Editor.java" startLine="63" startPosition="68" endLine="64" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8962032619582305409" fileName="StatementList_Editor.java" startLine="64" startPosition="63" endLine="65" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8962032619582305409" fileName="StatementList_Editor.java" startLine="65" startPosition="58" endLine="66" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8962032619582305409" fileName="StatementList_Editor.java" startLine="66" startPosition="40" endLine="67" endPosition="49" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8962032619582305409" fileName="StatementList_Editor.java" startLine="67" startPosition="49" endLine="68" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8962032619582305409" fileName="StatementList_Editor.java" startLine="72" startPosition="107" endLine="73" endPosition="50" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+    <nodeInfo nodeId="8962032619582305409" fileName="StatementList_Editor.java" startLine="76" startPosition="66" endLine="77" endPosition="41" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="8962032619582305409" fileName="StatementList_Editor.java" startLine="77" startPosition="41" endLine="78" endPosition="56" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8962032619582305419" fileName="StatementList_Editor.java" startLine="81" startPosition="71" endLine="82" endPosition="102" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8962032619582305409" fileName="StatementList_Editor.java" startLine="85" startPosition="86" endLine="86" endPosition="80" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="8962032619582305409" fileName="StatementList_Editor.java" startLine="86" startPosition="80" endLine="87" endPosition="95" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8962032619582305409" fileName="StatementList_Editor.java" startLine="87" startPosition="95" endLine="88" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8962032619582305409" fileName="StatementList_Editor.java" startLine="91" startPosition="68" endLine="92" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="8962032619582305409" fileName="StatementList_Editor.java" startLine="92" startPosition="34" endLine="93" endPosition="55" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8962032619582305409" fileName="StatementList_Editor.java" startLine="93" startPosition="55" endLine="94" endPosition="87" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8962032619582305409" fileName="StatementList_Editor.java" startLine="94" startPosition="87" endLine="95" endPosition="23" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8962032619582305409" fileName="StatementList_Editor.java" startLine="99" startPosition="96" endLine="100" endPosition="134" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8962032619582305409" fileName="StatementList_Editor.java" startLine="101" startPosition="34" endLine="102" endPosition="95" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8962032619582305409" fileName="StatementList_Editor.java" startLine="102" startPosition="95" endLine="103" endPosition="98" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8962032619582305409" fileName="StatementList_Editor.java" startLine="105" startPosition="131" endLine="106" endPosition="139" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8962032619582305423" fileName="StatementList_Editor.java" startLine="112" startPosition="88" endLine="113" endPosition="87" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="8962032619582305423" fileName="StatementList_Editor.java" startLine="113" startPosition="87" endLine="114" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8962032619582305423" fileName="StatementList_Editor.java" startLine="114" startPosition="47" endLine="115" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8962032619582305423" fileName="StatementList_Editor.java" startLine="115" startPosition="34" endLine="116" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8962032619582305409" fileName="StatementList_Editor.java" startLine="119" startPosition="91" endLine="120" endPosition="96" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="8962032619582305409" fileName="StatementList_Editor.java" startLine="120" startPosition="96" endLine="121" endPosition="50" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8962032619582305409" fileName="StatementList_Editor.java" startLine="121" startPosition="50" endLine="122" endPosition="28" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8962032619582305409" fileName="StatementList_Editor.java" startLine="122" startPosition="28" endLine="123" endPosition="83" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="8962032619582305409" fileName="StatementList_Editor.java" startLine="122" startPosition="28" endLine="123" endPosition="83" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8962032619582305409" fileName="StatementList_Editor.java" startLine="123" startPosition="83" endLine="124" endPosition="94" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="8962032619582305409" fileName="StatementList_Editor.java" startLine="123" startPosition="83" endLine="124" endPosition="94" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8962032619582305409" fileName="StatementList_Editor.java" startLine="124" startPosition="94" endLine="125" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8962032619582305427" fileName="StatementList_Editor.java" startLine="128" startPosition="90" endLine="129" endPosition="109" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="8962032619582305427" fileName="StatementList_Editor.java" startLine="129" startPosition="109" endLine="130" endPosition="49" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8962032619582305427" fileName="StatementList_Editor.java" startLine="130" startPosition="49" endLine="131" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8962032619582305427" fileName="StatementList_Editor.java" startLine="131" startPosition="34" endLine="132" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8962032619582305441" fileName="StatementList_Editor.java" startLine="139" startPosition="55" endLine="140" endPosition="166" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8962032619582305428" fileName="StatementList_Editor.java" startLine="148" startPosition="44" endLine="149" endPosition="46" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8962032619582305428" fileName="StatementList_Editor.java" startLine="151" startPosition="13" endLine="152" endPosition="79" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8962032619582305428" fileName="StatementList_Editor.java" startLine="152" startPosition="79" endLine="153" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8962032619582305428" fileName="StatementList_Editor.java" startLine="153" startPosition="82" endLine="154" endPosition="60" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8962032619582305428" fileName="StatementList_Editor.java" startLine="154" startPosition="60" endLine="155" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8962032619582305428" fileName="StatementList_Editor.java" startLine="145" startPosition="0" endLine="147" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setText#(Ljava/lang/String;)V" />
+    <nodeInfo nodeId="8962032619582305409" fileName="StatementList_Editor.java" startLine="33" startPosition="0" endLine="36" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <nodeInfo nodeId="8962032619582305409" fileName="StatementList_Editor.java" startLine="37" startPosition="0" endLine="40" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createInspectedCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <nodeInfo nodeId="8962032619582305409" fileName="StatementList_Editor.java" startLine="72" startPosition="0" endLine="75" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="transformationsListHandler_u338ov_b0#(Lorg/jetbrains/mps/openapi/model/SNode;Ljava/lang/String;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
+    <nodeInfo nodeId="8962032619582305409" fileName="StatementList_Editor.java" startLine="81" startPosition="0" endLine="84" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="nodeFactory#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Lorg/jetbrains/mps/openapi/model/SNode;" />
+    <nodeInfo nodeId="8962032619582305409" fileName="StatementList_Editor.java" startLine="104" startPosition="9" endLine="107" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="8962032619582305439" fileName="StatementList_Editor.java" startLine="139" startPosition="0" endLine="142" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="translate#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/Iterable;" />
+    <nodeInfo nodeId="8962032619582305428" fileName="StatementList_Editor.java" startLine="148" startPosition="0" endLine="151" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isValidText#(Ljava/lang/String;)Z" />
+    <nodeInfo nodeId="8962032619582305409" fileName="StatementList_Editor.java" startLine="76" startPosition="0" endLine="80" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createNodeToInsert#(Ljetbrains/mps/openapi/editor/EditorContext;)Lorg/jetbrains/mps/openapi/model/SNode;" />
+    <nodeInfo nodeId="8962032619582305409" fileName="StatementList_Editor.java" startLine="100" startPosition="134" endLine="104" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="8962032619582305409" fileName="StatementList_Editor.java" startLine="85" startPosition="0" endLine="90" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createNodeCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <nodeInfo nodeId="8962032619582305432" fileName="StatementList_Editor.java" startLine="137" startPosition="31" endLine="142" endPosition="18" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8962032619582305411" fileName="StatementList_Editor.java" startLine="51" startPosition="0" endLine="57" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createConstant_u338ov_a0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <nodeInfo nodeId="8962032619582305409" fileName="StatementList_Editor.java" startLine="91" startPosition="0" endLine="97" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createEmptyCell#(Ljetbrains/mps/openapi/editor/EditorContext;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <nodeInfo nodeId="8962032619582305423" fileName="StatementList_Editor.java" startLine="112" startPosition="0" endLine="118" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createConstant_u338ov_c0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <nodeInfo nodeId="8962032619582305427" fileName="StatementList_Editor.java" startLine="128" startPosition="0" endLine="134" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createConstant_u338ov_a0_0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <nodeInfo nodeId="8962032619582305428" fileName="StatementList_Editor.java" startLine="137" startPosition="0" endLine="144" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getText#()Ljava/lang/String;" />
+    <nodeInfo nodeId="8962032619582305409" fileName="StatementList_Editor.java" startLine="119" startPosition="0" endLine="127" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createCollection_u338ov_a_0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <nodeInfo nodeId="8962032619582305409" fileName="StatementList_Editor.java" startLine="41" startPosition="0" endLine="50" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createCollection_u338ov_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <nodeInfo nodeId="8962032619582305409" fileName="StatementList_Editor.java" startLine="98" startPosition="132" endLine="108" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="8962032619582305409" fileName="StatementList_Editor.java" startLine="58" startPosition="0" endLine="70" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createRefNodeList_u338ov_b0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <nodeInfo nodeId="8962032619582305409" fileName="StatementList_Editor.java" startLine="98" startPosition="0" endLine="110" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="installElementCellActions#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/cells/EditorCell;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
+    <nodeInfo nodeId="8962032619582305428" fileName="StatementList_Editor.java" startLine="135" startPosition="113" endLine="151" endPosition="13" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="8962032619582305428" fileName="StatementList_Editor.java" startLine="135" startPosition="0" endLine="157" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createReadOnlyModelAccessor_u338ov_b0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <scopeInfo nodeId="8962032619582305428" fileName="StatementList_Editor.java" startLine="145" startPosition="37" endLine="145" endPosition="37" />
+    <scopeInfo nodeId="8962032619582305409" fileName="StatementList_Editor.java" startLine="33" startPosition="79" endLine="34" endPosition="63" />
+    <scopeInfo nodeId="8962032619582305409" fileName="StatementList_Editor.java" startLine="37" startPosition="82" endLine="38" endPosition="65" />
+    <scopeInfo nodeId="8962032619582305409" fileName="StatementList_Editor.java" startLine="44" startPosition="28" endLine="45" endPosition="81" />
+    <scopeInfo nodeId="8962032619582305409" fileName="StatementList_Editor.java" startLine="45" startPosition="81" endLine="46" endPosition="84" />
+    <scopeInfo nodeId="8962032619582305409" fileName="StatementList_Editor.java" startLine="46" startPosition="84" endLine="47" endPosition="81" />
+    <scopeInfo nodeId="8962032619582305409" fileName="StatementList_Editor.java" startLine="72" startPosition="107" endLine="73" endPosition="50" />
+    <scopeInfo nodeId="8962032619582305418" fileName="StatementList_Editor.java" startLine="81" startPosition="71" endLine="82" endPosition="102" />
+    <scopeInfo nodeId="8962032619582305409" fileName="StatementList_Editor.java" startLine="105" startPosition="131" endLine="106" endPosition="139" />
+    <scopeInfo nodeId="8962032619582305409" fileName="StatementList_Editor.java" startLine="122" startPosition="28" endLine="123" endPosition="83" />
+    <scopeInfo nodeId="8962032619582305409" fileName="StatementList_Editor.java" startLine="123" startPosition="83" endLine="124" endPosition="94" />
+    <scopeInfo nodeId="8962032619582305440" fileName="StatementList_Editor.java" startLine="139" startPosition="55" endLine="140" endPosition="166" />
+    <scopeInfo nodeId="8962032619582305428" fileName="StatementList_Editor.java" startLine="148" startPosition="44" endLine="149" endPosition="46" />
+    <scopeInfo nodeId="8962032619582305409" fileName="StatementList_Editor.java" startLine="76" startPosition="66" endLine="78" endPosition="56">
+      <varInfo nodeId="8962032619582305409" varName="listOwner" />
+    </scopeInfo>
+    <scopeInfo nodeId="8962032619582305409" fileName="StatementList_Editor.java" startLine="101" startPosition="34" endLine="103" endPosition="98" />
+    <scopeInfo nodeId="8962032619582305428" fileName="StatementList_Editor.java" startLine="145" startPosition="0" endLine="147" endPosition="0">
+      <varInfo nodeId="8962032619582305428" varName="s" />
+    </scopeInfo>
+    <scopeInfo nodeId="8962032619582305409" fileName="StatementList_Editor.java" startLine="33" startPosition="0" endLine="36" endPosition="0">
+      <varInfo nodeId="8962032619582305409" varName="editorContext" />
+      <varInfo nodeId="8962032619582305409" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="8962032619582305409" fileName="StatementList_Editor.java" startLine="37" startPosition="0" endLine="40" endPosition="0">
+      <varInfo nodeId="8962032619582305409" varName="editorContext" />
+      <varInfo nodeId="8962032619582305409" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="8962032619582305409" fileName="StatementList_Editor.java" startLine="72" startPosition="0" endLine="75" endPosition="0">
+      <varInfo nodeId="8962032619582305409" varName="childRole" />
+      <varInfo nodeId="8962032619582305409" varName="context" />
+      <varInfo nodeId="8962032619582305409" varName="ownerNode" />
+    </scopeInfo>
+    <scopeInfo nodeId="8962032619582305409" fileName="StatementList_Editor.java" startLine="81" startPosition="0" endLine="84" endPosition="0">
+      <varInfo nodeId="8962032619582305409" varName="editorContext" />
+      <varInfo nodeId="8962032619582305409" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="8962032619582305409" fileName="StatementList_Editor.java" startLine="85" startPosition="86" endLine="88" endPosition="25">
+      <varInfo nodeId="8962032619582305409" varName="elementCell" />
+    </scopeInfo>
+    <scopeInfo nodeId="8962032619582305439" fileName="StatementList_Editor.java" startLine="139" startPosition="0" endLine="142" endPosition="0">
+      <varInfo nodeId="8962032619582305439" varName="it" />
+    </scopeInfo>
+    <scopeInfo nodeId="8962032619582305428" fileName="StatementList_Editor.java" startLine="148" startPosition="0" endLine="151" endPosition="0">
+      <varInfo nodeId="8962032619582305428" varName="s" />
+    </scopeInfo>
+    <scopeInfo nodeId="8962032619582305411" fileName="StatementList_Editor.java" startLine="51" startPosition="88" endLine="55" endPosition="22">
+      <varInfo nodeId="8962032619582305411" varName="editorCell" />
+    </scopeInfo>
+    <scopeInfo nodeId="8962032619582305409" fileName="StatementList_Editor.java" startLine="76" startPosition="0" endLine="80" endPosition="0">
+      <varInfo nodeId="8962032619582305409" varName="editorContext" />
+    </scopeInfo>
+    <scopeInfo nodeId="8962032619582305409" fileName="StatementList_Editor.java" startLine="91" startPosition="68" endLine="95" endPosition="23">
+      <varInfo nodeId="8962032619582305409" varName="emptyCell" />
+    </scopeInfo>
+    <scopeInfo nodeId="8962032619582305423" fileName="StatementList_Editor.java" startLine="112" startPosition="88" endLine="116" endPosition="22">
+      <varInfo nodeId="8962032619582305423" varName="editorCell" />
+    </scopeInfo>
+    <scopeInfo nodeId="8962032619582305427" fileName="StatementList_Editor.java" startLine="128" startPosition="90" endLine="132" endPosition="22">
+      <varInfo nodeId="8962032619582305427" varName="editorCell" />
+    </scopeInfo>
+    <scopeInfo nodeId="8962032619582305409" fileName="StatementList_Editor.java" startLine="85" startPosition="0" endLine="90" endPosition="0">
+      <varInfo nodeId="8962032619582305409" varName="editorContext" />
+      <varInfo nodeId="8962032619582305409" varName="elementNode" />
+    </scopeInfo>
+    <scopeInfo nodeId="8962032619582305431" fileName="StatementList_Editor.java" startLine="137" startPosition="31" endLine="142" endPosition="18" />
+    <scopeInfo nodeId="8962032619582305411" fileName="StatementList_Editor.java" startLine="51" startPosition="0" endLine="57" endPosition="0">
+      <varInfo nodeId="8962032619582305411" varName="editorContext" />
+      <varInfo nodeId="8962032619582305411" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="8962032619582305409" fileName="StatementList_Editor.java" startLine="91" startPosition="0" endLine="97" endPosition="0">
+      <varInfo nodeId="8962032619582305409" varName="editorContext" />
+    </scopeInfo>
+    <scopeInfo nodeId="8962032619582305423" fileName="StatementList_Editor.java" startLine="112" startPosition="0" endLine="118" endPosition="0">
+      <varInfo nodeId="8962032619582305423" varName="editorContext" />
+      <varInfo nodeId="8962032619582305423" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="8962032619582305409" fileName="StatementList_Editor.java" startLine="119" startPosition="91" endLine="125" endPosition="22">
+      <varInfo nodeId="8962032619582305409" varName="editorCell" />
+    </scopeInfo>
+    <scopeInfo nodeId="8962032619582305427" fileName="StatementList_Editor.java" startLine="128" startPosition="0" endLine="134" endPosition="0">
+      <varInfo nodeId="8962032619582305427" varName="editorContext" />
+      <varInfo nodeId="8962032619582305427" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="8962032619582305409" fileName="StatementList_Editor.java" startLine="41" startPosition="89" endLine="48" endPosition="22">
+      <varInfo nodeId="8962032619582305409" varName="editorCell" />
+    </scopeInfo>
+    <scopeInfo nodeId="8962032619582305428" fileName="StatementList_Editor.java" startLine="137" startPosition="0" endLine="144" endPosition="0" />
+    <scopeInfo nodeId="8962032619582305409" fileName="StatementList_Editor.java" startLine="99" startPosition="96" endLine="107" endPosition="9" />
+    <scopeInfo nodeId="8962032619582305409" fileName="StatementList_Editor.java" startLine="119" startPosition="0" endLine="127" endPosition="0">
+      <varInfo nodeId="8962032619582305409" varName="editorContext" />
+      <varInfo nodeId="8962032619582305409" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="8962032619582305409" fileName="StatementList_Editor.java" startLine="41" startPosition="0" endLine="50" endPosition="0">
+      <varInfo nodeId="8962032619582305409" varName="editorContext" />
+      <varInfo nodeId="8962032619582305409" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="8962032619582305409" fileName="StatementList_Editor.java" startLine="58" startPosition="91" endLine="68" endPosition="22">
+      <varInfo nodeId="8962032619582305409" varName="editorCell" />
+      <varInfo nodeId="8962032619582305409" varName="handler" />
+      <varInfo nodeId="8962032619582305409" varName="style" />
+    </scopeInfo>
+    <scopeInfo nodeId="8962032619582305409" fileName="StatementList_Editor.java" startLine="98" startPosition="132" endLine="108" endPosition="7" />
+    <scopeInfo nodeId="8962032619582305409" fileName="StatementList_Editor.java" startLine="58" startPosition="0" endLine="70" endPosition="0">
+      <varInfo nodeId="8962032619582305409" varName="editorContext" />
+      <varInfo nodeId="8962032619582305409" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="8962032619582305409" fileName="StatementList_Editor.java" startLine="98" startPosition="0" endLine="110" endPosition="0">
+      <varInfo nodeId="8962032619582305409" varName="editorContext" />
+      <varInfo nodeId="8962032619582305409" varName="elementCell" />
+      <varInfo nodeId="8962032619582305409" varName="elementNode" />
+      <varInfo nodeId="8962032619582305409" varName="listOwner" />
+    </scopeInfo>
+    <scopeInfo nodeId="8962032619582305428" fileName="StatementList_Editor.java" startLine="135" startPosition="113" endLine="155" endPosition="22">
+      <varInfo nodeId="8962032619582305428" varName="editorCell" />
+    </scopeInfo>
+    <scopeInfo nodeId="8962032619582305428" fileName="StatementList_Editor.java" startLine="135" startPosition="0" endLine="157" endPosition="0">
+      <varInfo nodeId="8962032619582305428" varName="editorContext" />
+      <varInfo nodeId="8962032619582305428" varName="node" />
+    </scopeInfo>
+    <unitInfo nodeId="8962032619582305439" fileName="StatementList_Editor.java" startLine="138" startPosition="129" endLine="142" endPosition="9" unitName="org.campagnelab.hta.tables.editor.StatementList_Editor$2" />
+    <unitInfo nodeId="8962032619582305428" fileName="StatementList_Editor.java" startLine="136" startPosition="83" endLine="151" endPosition="5" unitName="org.campagnelab.hta.tables.editor.StatementList_Editor$1" />
+    <unitInfo nodeId="8962032619582305409" fileName="StatementList_Editor.java" startLine="71" startPosition="0" endLine="111" endPosition="0" unitName="org.campagnelab.hta.tables.editor.StatementList_Editor$transformationsListHandler_u338ov_b0" />
+    <unitInfo nodeId="8962032619582305409" fileName="StatementList_Editor.java" startLine="32" startPosition="0" endLine="158" endPosition="0" unitName="org.campagnelab.hta.tables.editor.StatementList_Editor" />
   </root>
 </debugInfo>
 

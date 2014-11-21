@@ -13,6 +13,10 @@ public class FitXByY_BehaviorDescriptor extends Statement_BehaviorDescriptor {
     return FitXByY_Behavior.virtual_dependencies_6853668812000956111(thisNode);
   }
 
+  public String virtual_getSourceTableName_3687343996978026849(SNode thisNode) {
+    return FitXByY_Behavior.virtual_getSourceTableName_3687343996978026849(thisNode);
+  }
+
   @Override
   public String getConceptFqName() {
     return "org.campagnelab.hta.tables.structure.FitXByY";

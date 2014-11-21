@@ -21,7 +21,6 @@
         <dependency reexport="false">86ef8290-12bb-4ca7-947f-093788f263a9(jetbrains.mps.lang.project)</dependency>
         <dependency reexport="false">32f503e8-061b-451e-bcb0-fef56aa05eb9(org.campagnelab.hta.inspect)</dependency>
         <dependency reexport="false">6cb95bb7-1c17-4ab0-9822-5c15b43af051(org.campagnelab.hta.script)</dependency>
-        <dependency reexport="false">f8960ca5-9f20-4fc0-b9f7-20a20893f26d(org.campagnelab.hta.tables#3402264987258972825)</dependency>
       </dependencies>
       <usedLanguages>
         <usedLanguage>b401a680-8325-4110-8fd3-84331ff25bef(jetbrains.mps.lang.generator)</usedLanguage>

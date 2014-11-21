@@ -239,15 +239,15 @@ public class QueriesGenerated {
     return ((SNode) _context.getNode()).getNodeId().toString();
   }
 
+  public static Object propertyMacro_GetPropertyValue_3687343996977891854(final PropertyMacroContext _context) {
+    return SPropertyOperations.getString(_context.getNode(), "id");
+  }
+
   public static Object propertyMacro_GetPropertyValue_6001041468486989837(final PropertyMacroContext _context) {
     return "\"" + SPropertyOperations.getString(SLinkOperations.getTarget(_context.getNode(), "x", false), "name") + "\",\"" + SPropertyOperations.getString(SLinkOperations.getTarget(_context.getNode(), "y", false), "name") + "\"";
   }
 
   public static Object propertyMacro_GetPropertyValue_6001041468487574285(final PropertyMacroContext _context) {
-    return NameHelper.RName(SPropertyOperations.getString(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "table", true), "table", false), "name"));
-  }
-
-  public static Object propertyMacro_GetPropertyValue_6001041468487863213(final PropertyMacroContext _context) {
     return NameHelper.RName(SPropertyOperations.getString(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "table", true), "table", false), "name"));
   }
 
@@ -259,16 +259,44 @@ public class QueriesGenerated {
     return SPropertyOperations.getString(SLinkOperations.getTarget(_context.getNode(), "x", false), "name");
   }
 
-  public static Object propertyMacro_GetPropertyValue_6001041468488153342(final PropertyMacroContext _context) {
-    return Plot_Behavior.call_getPath_8016431400518331231(SLinkOperations.getTarget(_context.getNode(), "plot", true));
-  }
-
   public static Object propertyMacro_GetPropertyValue_6001041468487057584(final PropertyMacroContext _context) {
     return SPropertyOperations.getString(SLinkOperations.getTarget(_context.getNode(), "x", false), "name");
   }
 
   public static Object propertyMacro_GetPropertyValue_6001041468487052823(final PropertyMacroContext _context) {
     return SPropertyOperations.getString(SLinkOperations.getTarget(_context.getNode(), "y", false), "name");
+  }
+
+  public static Object propertyMacro_GetPropertyValue_6001041468488153342(final PropertyMacroContext _context) {
+    return Plot_Behavior.call_getPath_8016431400518331231(SLinkOperations.getTarget(_context.getNode(), "plot", true));
+  }
+
+  public static Object propertyMacro_GetPropertyValue_3687343996977896525(final PropertyMacroContext _context) {
+    return SPropertyOperations.getString(_context.getNode(), "id");
+  }
+
+  public static Object propertyMacro_GetPropertyValue_3687343996977814405(final PropertyMacroContext _context) {
+    return NameHelper.RName(SPropertyOperations.getString(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "table", true), "table", false), "name"));
+  }
+
+  public static Object propertyMacro_GetPropertyValue_8962032619585609533(final PropertyMacroContext _context) {
+    return Plot_Behavior.call_getPath_8016431400518331231(SLinkOperations.getTarget(_context.getNode(), "destination", true));
+  }
+
+  public static Object propertyMacro_GetPropertyValue_3687343996977485903(final PropertyMacroContext _context) {
+    return Integer.toString(SPropertyOperations.getInteger(_context.getNode(), "numRows"));
+  }
+
+  public static Object propertyMacro_GetPropertyValue_3687343996977498069(final PropertyMacroContext _context) {
+    return Integer.toString(SPropertyOperations.getInteger(_context.getNode(), "numColumns"));
+  }
+
+  public static Object propertyMacro_GetPropertyValue_3687343996977968654(final PropertyMacroContext _context) {
+    return SPropertyOperations.getString(SNodeOperations.cast(SNodeOperations.getParent(SLinkOperations.getTarget(_context.getNode(), "plot", false)), "org.campagnelab.hta.script.structure.Statement"), "id");
+  }
+
+  public static Object propertyMacro_GetPropertyValue_3687343996978017155(final PropertyMacroContext _context) {
+    return BehaviorReflection.invokeVirtual(String.class, SNodeOperations.cast(SNodeOperations.getParent(_context.getNode()), "org.campagnelab.hta.script.structure.Statement"), "virtual_getSourceTableName_3687343996978026849", new Object[]{});
   }
 
   public static boolean ifMacro_Condition_1549006859295113839(final IfMacroContext _context) {
@@ -305,6 +333,10 @@ public class QueriesGenerated {
 
   public static Iterable<SNode> sourceNodesQuery_3402264987267873052(final SourceSubstituteMacroNodesContext _context) {
     return SLinkOperations.getTargets(_context.getNode(), "transformations", true);
+  }
+
+  public static Iterable<SNode> sourceNodesQuery_3687343996977966817(final SourceSubstituteMacroNodesContext _context) {
+    return SLinkOperations.getTargets(_context.getNode(), "plots", true);
   }
 
   public static void mappingScript_CodeBlock_4166618652720374776(final MappingScriptContext _context) {

@@ -6,6 +6,8 @@ import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
 import jetbrains.mps.internal.collections.runtime.Sequence;
+import org.campagnelab.hta.tables.generationhelpers.NameHelper;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 
 public class FitXByY_Behavior {
   public static void init(SNode thisNode) {
@@ -14,5 +16,9 @@ public class FitXByY_Behavior {
 
   public static Iterable<String> virtual_dependencies_6853668812000956111(SNode thisNode) {
     return Sequence.<String>singleton("ggplot2");
+  }
+
+  public static String virtual_getSourceTableName_3687343996978026849(SNode thisNode) {
+    return NameHelper.RName(SPropertyOperations.getString(SLinkOperations.getTarget(SLinkOperations.getTarget(thisNode, "table", true), "table", false), "name"));
   }
 }

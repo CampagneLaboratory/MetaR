@@ -12,7 +12,7 @@ public class BehaviorAspectDescriptor implements jetbrains.mps.smodel.runtime.Be
 
   public BehaviorDescriptor getDescriptor(String fqName) {
     switch (Arrays.binarySearch(stringSwitchCases_846f5o_a0a0b, fqName)) {
-      case 20:
+      case 24:
         return new Table_BehaviorDescriptor();
       case 15:
         return new JoinTables_BehaviorDescriptor();
@@ -34,19 +34,19 @@ public class BehaviorAspectDescriptor implements jetbrains.mps.smodel.runtime.Be
         return new ColumnGroupContainer_BehaviorDescriptor();
       case 3:
         return new ColumnGroupReference_BehaviorDescriptor();
-      case 17:
+      case 20:
         return new SelectByGroup_BehaviorDescriptor();
       case 12:
         return new Heatmap_BehaviorDescriptor();
-      case 16:
+      case 17:
         return new Plot_BehaviorDescriptor();
-      case 22:
+      case 26:
         return new UsageType_BehaviorDescriptor();
-      case 19:
+      case 23:
         return new SubSetTableRows_BehaviorDescriptor();
       case 8:
         return new FilterWithIDList_BehaviorDescriptor();
-      case 18:
+      case 21:
         return new SetOfIds_BehaviorDescriptor();
       case 13:
         return new ID_BehaviorDescriptor();
@@ -56,12 +56,20 @@ public class BehaviorAspectDescriptor implements jetbrains.mps.smodel.runtime.Be
         return new FilterWithExpression_BehaviorDescriptor();
       case 9:
         return new FitXByY_BehaviorDescriptor();
-      case 21:
+      case 25:
         return new TableRef_BehaviorDescriptor();
+      case 16:
+        return new Multiplot_BehaviorDescriptor();
+      case 18:
+        return new PlotRef_BehaviorDescriptor();
+      case 19:
+        return new PlotRefWithPreview_BehaviorDescriptor();
+      case 22:
+        return new StatementList_BehaviorDescriptor();
       default:
         return BehaviorAspectInterpreted.getInstance().getDescriptor(fqName);
     }
   }
 
-  private static String[] stringSwitchCases_846f5o_a0a0b = new String[]{"org.campagnelab.hta.tables.structure.ColumnAnnotation", "org.campagnelab.hta.tables.structure.ColumnGroup", "org.campagnelab.hta.tables.structure.ColumnGroupContainer", "org.campagnelab.hta.tables.structure.ColumnGroupReference", "org.campagnelab.hta.tables.structure.ColumnRef", "org.campagnelab.hta.tables.structure.CommonColumnSelection", "org.campagnelab.hta.tables.structure.Define", "org.campagnelab.hta.tables.structure.FilterWithExpression", "org.campagnelab.hta.tables.structure.FilterWithIDList", "org.campagnelab.hta.tables.structure.FitXByY", "org.campagnelab.hta.tables.structure.FutureTable", "org.campagnelab.hta.tables.structure.FutureTableRef", "org.campagnelab.hta.tables.structure.Heatmap", "org.campagnelab.hta.tables.structure.ID", "org.campagnelab.hta.tables.structure.ImportTable", "org.campagnelab.hta.tables.structure.JoinTables", "org.campagnelab.hta.tables.structure.Plot", "org.campagnelab.hta.tables.structure.SelectByGroup", "org.campagnelab.hta.tables.structure.SetOfIds", "org.campagnelab.hta.tables.structure.SubSetTableRows", "org.campagnelab.hta.tables.structure.Table", "org.campagnelab.hta.tables.structure.TableRef", "org.campagnelab.hta.tables.structure.UsageType"};
+  private static String[] stringSwitchCases_846f5o_a0a0b = new String[]{"org.campagnelab.hta.tables.structure.ColumnAnnotation", "org.campagnelab.hta.tables.structure.ColumnGroup", "org.campagnelab.hta.tables.structure.ColumnGroupContainer", "org.campagnelab.hta.tables.structure.ColumnGroupReference", "org.campagnelab.hta.tables.structure.ColumnRef", "org.campagnelab.hta.tables.structure.CommonColumnSelection", "org.campagnelab.hta.tables.structure.Define", "org.campagnelab.hta.tables.structure.FilterWithExpression", "org.campagnelab.hta.tables.structure.FilterWithIDList", "org.campagnelab.hta.tables.structure.FitXByY", "org.campagnelab.hta.tables.structure.FutureTable", "org.campagnelab.hta.tables.structure.FutureTableRef", "org.campagnelab.hta.tables.structure.Heatmap", "org.campagnelab.hta.tables.structure.ID", "org.campagnelab.hta.tables.structure.ImportTable", "org.campagnelab.hta.tables.structure.JoinTables", "org.campagnelab.hta.tables.structure.Multiplot", "org.campagnelab.hta.tables.structure.Plot", "org.campagnelab.hta.tables.structure.PlotRef", "org.campagnelab.hta.tables.structure.PlotRefWithPreview", "org.campagnelab.hta.tables.structure.SelectByGroup", "org.campagnelab.hta.tables.structure.SetOfIds", "org.campagnelab.hta.tables.structure.StatementList", "org.campagnelab.hta.tables.structure.SubSetTableRows", "org.campagnelab.hta.tables.structure.Table", "org.campagnelab.hta.tables.structure.TableRef", "org.campagnelab.hta.tables.structure.UsageType"};
 }

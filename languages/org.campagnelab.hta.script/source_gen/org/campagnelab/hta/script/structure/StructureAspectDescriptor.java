@@ -25,12 +25,10 @@ public class StructureAspectDescriptor implements jetbrains.mps.smodel.runtime.S
         return new ConceptDescriptorBuilder("org.campagnelab.hta.script.structure.Statement").super_("jetbrains.mps.lang.core.structure.BaseConcept").parents("jetbrains.mps.lang.core.structure.BaseConcept", "org.campagnelab.hta.script.structure.StatementDependencies").properties("id").abstract_().create();
       case 5:
         return new ConceptDescriptorBuilder("org.campagnelab.hta.script.structure.StatementDependencies").interface_().create();
-      case 6:
-        return new ConceptDescriptorBuilder("org.campagnelab.hta.script.structure.StatementList").super_("org.campagnelab.hta.script.structure.Statement").parents("org.campagnelab.hta.script.structure.Statement", "jetbrains.mps.lang.core.structure.ScopeProvider").children(new String[]{"transformations"}, new boolean[]{true}).create();
       default:
         return StructureAspectInterpreted.getInstance().getDescriptor(conceptFqName);
     }
   }
 
-  private static String[] stringSwitchCases_1htk8d_a0a0b = new String[]{"org.campagnelab.hta.script.structure.DependentOnPackage", "org.campagnelab.hta.script.structure.EmptyLine", "org.campagnelab.hta.script.structure.R_Package", "org.campagnelab.hta.script.structure.Script", "org.campagnelab.hta.script.structure.Statement", "org.campagnelab.hta.script.structure.StatementDependencies", "org.campagnelab.hta.script.structure.StatementList"};
+  private static String[] stringSwitchCases_1htk8d_a0a0b = new String[]{"org.campagnelab.hta.script.structure.DependentOnPackage", "org.campagnelab.hta.script.structure.EmptyLine", "org.campagnelab.hta.script.structure.R_Package", "org.campagnelab.hta.script.structure.Script", "org.campagnelab.hta.script.structure.Statement", "org.campagnelab.hta.script.structure.StatementDependencies"};
 }

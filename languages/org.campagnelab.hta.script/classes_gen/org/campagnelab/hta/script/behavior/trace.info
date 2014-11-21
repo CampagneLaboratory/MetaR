@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
-  <unitInfo fileName="BehaviorAspectDescriptor.java" startLine="9" startPosition="0" endLine="32" endPosition="0" unitName="org.campagnelab.hta.script.behavior.BehaviorAspectDescriptor" />
+  <unitInfo fileName="BehaviorAspectDescriptor.java" startLine="9" startPosition="0" endLine="30" endPosition="0" unitName="org.campagnelab.hta.script.behavior.BehaviorAspectDescriptor" />
   <unitInfo fileName="DependentOnPackage_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="org.campagnelab.hta.script.behavior.DependentOnPackage_BehaviorDescriptor" />
   <unitInfo fileName="EmptyLine_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="org.campagnelab.hta.script.behavior.EmptyLine_BehaviorDescriptor" />
   <unitInfo fileName="R_Package_BehaviorDescriptor.java" startLine="10" startPosition="0" endLine="23" endPosition="0" unitName="org.campagnelab.hta.script.behavior.R_Package_BehaviorDescriptor" />
   <unitInfo fileName="Script_BehaviorDescriptor.java" startLine="13" startPosition="0" endLine="38" endPosition="0" unitName="org.campagnelab.hta.script.behavior.Script_BehaviorDescriptor" />
   <unitInfo fileName="StatementDependencies_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="10" endPosition="0" unitName="org.campagnelab.hta.script.behavior.StatementDependencies_BehaviorDescriptor" />
-  <unitInfo fileName="StatementList_BehaviorDescriptor.java" startLine="9" startPosition="0" endLine="30" endPosition="0" unitName="org.campagnelab.hta.script.behavior.StatementList_BehaviorDescriptor" />
-  <unitInfo fileName="Statement_BehaviorDescriptor.java" startLine="8" startPosition="0" endLine="21" endPosition="0" unitName="org.campagnelab.hta.script.behavior.Statement_BehaviorDescriptor" />
+  <unitInfo fileName="Statement_BehaviorDescriptor.java" startLine="8" startPosition="0" endLine="25" endPosition="0" unitName="org.campagnelab.hta.script.behavior.Statement_BehaviorDescriptor" />
   <root nodeRef="r:6b438781-4964-4ce9-992b-f8250b395bf4(org.campagnelab.hta.script.behavior)/3402264987260079786">
     <nodeInfo nodeId="3402264987260079841" fileName="Script_Behavior.java" startLine="22" startPosition="43" endLine="23" endPosition="154" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="4796668409958419339" fileName="Script_Behavior.java" startLine="27" startPosition="97" endLine="28" endPosition="83" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
@@ -102,96 +101,59 @@
     </scopeInfo>
     <unitInfo nodeId="6853668812000956035" fileName="StatementDependencies_Behavior.java" startLine="12" startPosition="0" endLine="30" endPosition="0" unitName="org.campagnelab.hta.script.behavior.StatementDependencies_Behavior" />
   </root>
-  <root nodeRef="r:6b438781-4964-4ce9-992b-f8250b395bf4(org.campagnelab.hta.script.behavior)/7074867102588635892">
-    <nodeInfo nodeId="7074867102588635898" fileName="StatementList_Behavior.java" startLine="23" startPosition="101" endLine="24" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
-    <nodeInfo nodeId="7074867102588635901" fileName="StatementList_Behavior.java" startLine="25" startPosition="112" endLine="26" endPosition="102" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="7074867102588635907" fileName="StatementList_Behavior.java" startLine="26" startPosition="102" endLine="27" endPosition="53" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="7074867102588635923" fileName="StatementList_Behavior.java" startLine="29" startPosition="41" endLine="30" endPosition="152" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="7074867102588635936" fileName="StatementList_Behavior.java" startLine="32" startPosition="9" endLine="33" endPosition="124" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="7074867102588635944" fileName="StatementList_Behavior.java" startLine="34" startPosition="5" endLine="35" endPosition="54" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="7074867102588635954" fileName="StatementList_Behavior.java" startLine="38" startPosition="112" endLine="39" endPosition="189" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="7074867102589620921" fileName="StatementList_Behavior.java" startLine="44" startPosition="51" endLine="45" endPosition="162" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="7074867102588635892" fileName="StatementList_Behavior.java" startLine="20" startPosition="0" endLine="22" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
-    <nodeInfo nodeId="7074867102588635921" fileName="StatementList_Behavior.java" startLine="29" startPosition="0" endLine="32" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="accept#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
-    <nodeInfo nodeId="7074867102588635892" fileName="StatementList_Behavior.java" startLine="38" startPosition="0" endLine="41" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_getScope_7722139651431880752#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Ljava/lang/String;I)Ljetbrains/mps/scope/Scope;" />
-    <nodeInfo nodeId="7074867102589620573" fileName="StatementList_Behavior.java" startLine="44" startPosition="0" endLine="47" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="translate#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/Iterable;" />
-    <nodeInfo nodeId="7074867102588635914" fileName="StatementList_Behavior.java" startLine="27" startPosition="53" endLine="32" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="7074867102589609072" fileName="StatementList_Behavior.java" startLine="42" startPosition="91" endLine="47" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="7074867102588635892" fileName="StatementList_Behavior.java" startLine="42" startPosition="0" endLine="49" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_dependencies_6853668812000956111#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/Iterable;" />
-    <nodeInfo nodeId="7074867102588635899" fileName="StatementList_Behavior.java" startLine="24" startPosition="0" endLine="34" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="7074867102588635892" fileName="StatementList_Behavior.java" startLine="23" startPosition="0" endLine="37" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_getScope_3734116213129936182#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/scope/Scope;" />
-    <scopeInfo nodeId="7074867102588635894" fileName="StatementList_Behavior.java" startLine="20" startPosition="43" endLine="20" endPosition="43" />
-    <scopeInfo nodeId="7074867102588635922" fileName="StatementList_Behavior.java" startLine="29" startPosition="41" endLine="30" endPosition="152" />
-    <scopeInfo nodeId="7074867102588635953" fileName="StatementList_Behavior.java" startLine="38" startPosition="112" endLine="39" endPosition="189" />
-    <scopeInfo nodeId="7074867102589620574" fileName="StatementList_Behavior.java" startLine="44" startPosition="51" endLine="45" endPosition="162" />
-    <scopeInfo nodeId="7074867102588635892" fileName="StatementList_Behavior.java" startLine="20" startPosition="0" endLine="22" endPosition="0">
-      <varInfo nodeId="7074867102588635892" varName="thisNode" />
-    </scopeInfo>
-    <scopeInfo nodeId="7074867102588635921" fileName="StatementList_Behavior.java" startLine="29" startPosition="0" endLine="32" endPosition="0">
-      <varInfo nodeId="7074867102588635921" varName="it" />
-    </scopeInfo>
-    <scopeInfo nodeId="7074867102588635892" fileName="StatementList_Behavior.java" startLine="38" startPosition="0" endLine="41" endPosition="0">
-      <varInfo nodeId="7074867102588635965" varName="index" />
-      <varInfo nodeId="7074867102588635961" varName="kind" />
-      <varInfo nodeId="7074867102588635963" varName="role" />
-      <varInfo nodeId="7074867102588635892" varName="thisNode" />
-    </scopeInfo>
-    <scopeInfo nodeId="7074867102589620573" fileName="StatementList_Behavior.java" startLine="44" startPosition="0" endLine="47" endPosition="0">
-      <varInfo nodeId="7074867102589620573" varName="it" />
-    </scopeInfo>
-    <scopeInfo nodeId="6853668812000194111" fileName="StatementList_Behavior.java" startLine="42" startPosition="91" endLine="47" endPosition="7" />
-    <scopeInfo nodeId="7074867102588635892" fileName="StatementList_Behavior.java" startLine="42" startPosition="0" endLine="49" endPosition="0">
-      <varInfo nodeId="7074867102588635892" varName="thisNode" />
-    </scopeInfo>
-    <scopeInfo nodeId="7074867102588635900" fileName="StatementList_Behavior.java" startLine="25" startPosition="112" endLine="33" endPosition="124">
-      <varInfo nodeId="7074867102588635915" varName="before" />
-      <varInfo nodeId="7074867102588635902" varName="descendants" />
-      <varInfo nodeId="7074867102588635908" varName="myIndex" />
-    </scopeInfo>
-    <scopeInfo nodeId="7074867102588635897" fileName="StatementList_Behavior.java" startLine="23" startPosition="101" endLine="35" endPosition="54" />
-    <scopeInfo nodeId="7074867102588635892" fileName="StatementList_Behavior.java" startLine="23" startPosition="0" endLine="37" endPosition="0">
-      <varInfo nodeId="7074867102588635948" varName="child" />
-      <varInfo nodeId="7074867102588635946" varName="kind" />
-      <varInfo nodeId="7074867102588635892" varName="thisNode" />
-    </scopeInfo>
-    <unitInfo nodeId="7074867102588635921" fileName="StatementList_Behavior.java" startLine="28" startPosition="76" endLine="32" endPosition="7" unitName="org.campagnelab.hta.script.behavior.StatementList_Behavior$1" />
-    <unitInfo nodeId="7074867102589620573" fileName="StatementList_Behavior.java" startLine="43" startPosition="110" endLine="47" endPosition="5" unitName="org.campagnelab.hta.script.behavior.StatementList_Behavior$2" />
-    <unitInfo nodeId="7074867102588635892" fileName="StatementList_Behavior.java" startLine="19" startPosition="0" endLine="50" endPosition="0" unitName="org.campagnelab.hta.script.behavior.StatementList_Behavior" />
-  </root>
   <root nodeRef="r:6b438781-4964-4ce9-992b-f8250b395bf4(org.campagnelab.hta.script.behavior)/7074867102588635968">
-    <nodeInfo nodeId="962445451564956455" fileName="Statement_Behavior.java" startLine="14" startPosition="43" endLine="15" endPosition="265" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="8273662917780737757" fileName="Statement_Behavior.java" startLine="18" startPosition="104" endLine="19" endPosition="28" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="8273662917780737762" fileName="Statement_Behavior.java" startLine="19" startPosition="28" endLine="20" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
-    <nodeInfo nodeId="8273662917780737763" fileName="Statement_Behavior.java" startLine="20" startPosition="0" endLine="21" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="8273662917780737767" fileName="Statement_Behavior.java" startLine="21" startPosition="20" endLine="22" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="8273662917780737773" fileName="Statement_Behavior.java" startLine="22" startPosition="22" endLine="23" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="8273662917780737781" fileName="Statement_Behavior.java" startLine="24" startPosition="38" endLine="25" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="8273662917780737795" fileName="Statement_Behavior.java" startLine="25" startPosition="45" endLine="26" endPosition="15" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="8273662917780737807" fileName="Statement_Behavior.java" startLine="27" startPosition="5" endLine="28" endPosition="15" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="7074867102588635968" fileName="Statement_Behavior.java" startLine="14" startPosition="0" endLine="17" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
-    <nodeInfo nodeId="8273662917780737779" fileName="Statement_Behavior.java" startLine="23" startPosition="22" endLine="27" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForStatement" />
-    <nodeInfo nodeId="7074867102588635968" fileName="Statement_Behavior.java" startLine="18" startPosition="0" endLine="30" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="call_randomCreate_8273662917780737753#(Lorg/jetbrains/mps/openapi/language/SAbstractConcept;I)Ljava/lang/String;" />
-    <scopeInfo nodeId="7074867102588635979" fileName="Statement_Behavior.java" startLine="14" startPosition="43" endLine="15" endPosition="265" />
-    <scopeInfo nodeId="8273662917780737780" fileName="Statement_Behavior.java" startLine="24" startPosition="38" endLine="26" endPosition="15">
+    <nodeInfo nodeId="962445451564956455" fileName="Statement_Behavior.java" startLine="17" startPosition="43" endLine="18" endPosition="265" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8273662917780737757" fileName="Statement_Behavior.java" startLine="21" startPosition="104" endLine="22" endPosition="28" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="8273662917780737762" fileName="Statement_Behavior.java" startLine="22" startPosition="28" endLine="23" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
+    <nodeInfo nodeId="8273662917780737763" fileName="Statement_Behavior.java" startLine="23" startPosition="0" endLine="24" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="8273662917780737767" fileName="Statement_Behavior.java" startLine="24" startPosition="20" endLine="25" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="8273662917780737773" fileName="Statement_Behavior.java" startLine="25" startPosition="22" endLine="26" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="8273662917780737781" fileName="Statement_Behavior.java" startLine="27" startPosition="38" endLine="28" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="8273662917780737795" fileName="Statement_Behavior.java" startLine="28" startPosition="45" endLine="29" endPosition="15" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8273662917780737807" fileName="Statement_Behavior.java" startLine="30" startPosition="5" endLine="31" endPosition="15" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="3687343996978047054" fileName="Statement_Behavior.java" startLine="34" startPosition="87" endLine="35" endPosition="14" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="7074867102588635968" fileName="Statement_Behavior.java" startLine="39" startPosition="84" endLine="40" endPosition="134" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="7074867102588635968" fileName="Statement_Behavior.java" startLine="44" startPosition="117" endLine="45" endPosition="262" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="7074867102588635968" fileName="Statement_Behavior.java" startLine="17" startPosition="0" endLine="20" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+    <nodeInfo nodeId="7074867102588635968" fileName="Statement_Behavior.java" startLine="34" startPosition="0" endLine="37" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_getSourceTableName_3687343996978026849#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+    <nodeInfo nodeId="8273662917780737779" fileName="Statement_Behavior.java" startLine="26" startPosition="22" endLine="30" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForStatement" />
+    <nodeInfo nodeId="7074867102588635968" fileName="Statement_Behavior.java" startLine="38" startPosition="0" endLine="42" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="call_getSourceTableName_3687343996978026849#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+    <nodeInfo nodeId="7074867102588635968" fileName="Statement_Behavior.java" startLine="43" startPosition="0" endLine="47" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="callSuper_getSourceTableName_3687343996978026849#(Lorg/jetbrains/mps/openapi/model/SNode;Ljava/lang/String;)Ljava/lang/String;" />
+    <nodeInfo nodeId="7074867102588635968" fileName="Statement_Behavior.java" startLine="21" startPosition="0" endLine="33" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="call_randomCreate_8273662917780737753#(Lorg/jetbrains/mps/openapi/language/SAbstractConcept;I)Ljava/lang/String;" />
+    <scopeInfo nodeId="7074867102588635979" fileName="Statement_Behavior.java" startLine="17" startPosition="43" endLine="18" endPosition="265" />
+    <scopeInfo nodeId="3687343996978027003" fileName="Statement_Behavior.java" startLine="34" startPosition="87" endLine="35" endPosition="14" />
+    <scopeInfo nodeId="7074867102588635968" fileName="Statement_Behavior.java" startLine="39" startPosition="84" endLine="40" endPosition="134" />
+    <scopeInfo nodeId="7074867102588635968" fileName="Statement_Behavior.java" startLine="44" startPosition="117" endLine="45" endPosition="262" />
+    <scopeInfo nodeId="8273662917780737780" fileName="Statement_Behavior.java" startLine="27" startPosition="38" endLine="29" endPosition="15">
       <varInfo nodeId="8273662917780737782" varName="c" />
     </scopeInfo>
-    <scopeInfo nodeId="7074867102588635968" fileName="Statement_Behavior.java" startLine="14" startPosition="0" endLine="17" endPosition="0">
+    <scopeInfo nodeId="7074867102588635968" fileName="Statement_Behavior.java" startLine="17" startPosition="0" endLine="20" endPosition="0">
       <varInfo nodeId="7074867102588635968" varName="thisNode" />
     </scopeInfo>
-    <scopeInfo nodeId="8273662917780737779" fileName="Statement_Behavior.java" startLine="23" startPosition="22" endLine="27" endPosition="5">
+    <scopeInfo nodeId="7074867102588635968" fileName="Statement_Behavior.java" startLine="34" startPosition="0" endLine="37" endPosition="0">
+      <varInfo nodeId="7074867102588635968" varName="thisNode" />
+    </scopeInfo>
+    <scopeInfo nodeId="8273662917780737779" fileName="Statement_Behavior.java" startLine="26" startPosition="22" endLine="30" endPosition="5">
       <varInfo nodeId="8273662917780737799" varName="i" />
     </scopeInfo>
-    <scopeInfo nodeId="8273662917780737756" fileName="Statement_Behavior.java" startLine="18" startPosition="104" endLine="28" endPosition="15">
+    <scopeInfo nodeId="7074867102588635968" fileName="Statement_Behavior.java" startLine="38" startPosition="0" endLine="42" endPosition="0">
+      <varInfo nodeId="7074867102588635968" varName="thisNode" />
+    </scopeInfo>
+    <scopeInfo nodeId="7074867102588635968" fileName="Statement_Behavior.java" startLine="43" startPosition="0" endLine="47" endPosition="0">
+      <varInfo nodeId="7074867102588635968" varName="callerConceptFqName" />
+      <varInfo nodeId="7074867102588635968" varName="thisNode" />
+    </scopeInfo>
+    <scopeInfo nodeId="8273662917780737756" fileName="Statement_Behavior.java" startLine="21" startPosition="104" endLine="31" endPosition="15">
       <varInfo nodeId="8273662917780737774" varName="A" />
       <varInfo nodeId="8273662917780737768" varName="Z" />
       <varInfo nodeId="8273662917780737758" varName="r" />
       <varInfo nodeId="8273662917780737764" varName="tag" />
     </scopeInfo>
-    <scopeInfo nodeId="7074867102588635968" fileName="Statement_Behavior.java" startLine="18" startPosition="0" endLine="30" endPosition="0">
+    <scopeInfo nodeId="7074867102588635968" fileName="Statement_Behavior.java" startLine="21" startPosition="0" endLine="33" endPosition="0">
       <varInfo nodeId="8273662917780737809" varName="length" />
       <varInfo nodeId="7074867102588635968" varName="thisConcept" />
     </scopeInfo>
-    <unitInfo nodeId="7074867102588635968" fileName="Statement_Behavior.java" startLine="13" startPosition="0" endLine="31" endPosition="0" unitName="org.campagnelab.hta.script.behavior.Statement_Behavior" />
+    <unitInfo nodeId="7074867102588635968" fileName="Statement_Behavior.java" startLine="16" startPosition="0" endLine="48" endPosition="0" unitName="org.campagnelab.hta.script.behavior.Statement_Behavior" />
   </root>
 </debugInfo>
 

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
   <unitInfo fileName="AbstractRowFilter_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="org.campagnelab.hta.tables.behavior.AbstractRowFilter_BehaviorDescriptor" />
-  <unitInfo fileName="BehaviorAspectDescriptor.java" startLine="9" startPosition="0" endLine="68" endPosition="0" unitName="org.campagnelab.hta.tables.behavior.BehaviorAspectDescriptor" />
+  <unitInfo fileName="BehaviorAspectDescriptor.java" startLine="9" startPosition="0" endLine="76" endPosition="0" unitName="org.campagnelab.hta.tables.behavior.BehaviorAspectDescriptor" />
   <unitInfo fileName="ColumnAnnotation_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="org.campagnelab.hta.tables.behavior.ColumnAnnotation_BehaviorDescriptor" />
   <unitInfo fileName="ColumnGroupContainer_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="org.campagnelab.hta.tables.behavior.ColumnGroupContainer_BehaviorDescriptor" />
   <unitInfo fileName="ColumnGroupReference_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="org.campagnelab.hta.tables.behavior.ColumnGroupReference_BehaviorDescriptor" />
@@ -13,7 +13,7 @@
   <unitInfo fileName="Define_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="org.campagnelab.hta.tables.behavior.Define_BehaviorDescriptor" />
   <unitInfo fileName="FilterWithExpression_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="org.campagnelab.hta.tables.behavior.FilterWithExpression_BehaviorDescriptor" />
   <unitInfo fileName="FilterWithIDList_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="org.campagnelab.hta.tables.behavior.FilterWithIDList_BehaviorDescriptor" />
-  <unitInfo fileName="FitXByY_BehaviorDescriptor.java" startLine="8" startPosition="0" endLine="21" endPosition="0" unitName="org.campagnelab.hta.tables.behavior.FitXByY_BehaviorDescriptor" />
+  <unitInfo fileName="FitXByY_BehaviorDescriptor.java" startLine="8" startPosition="0" endLine="25" endPosition="0" unitName="org.campagnelab.hta.tables.behavior.FitXByY_BehaviorDescriptor" />
   <unitInfo fileName="FutureTableRef_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="org.campagnelab.hta.tables.behavior.FutureTableRef_BehaviorDescriptor" />
   <unitInfo fileName="FutureTable_BehaviorDescriptor.java" startLine="10" startPosition="0" endLine="23" endPosition="0" unitName="org.campagnelab.hta.tables.behavior.FutureTable_BehaviorDescriptor" />
   <unitInfo fileName="Heatmap_BehaviorDescriptor.java" startLine="11" startPosition="0" endLine="32" endPosition="0" unitName="org.campagnelab.hta.tables.behavior.Heatmap_BehaviorDescriptor" />
@@ -22,10 +22,14 @@
   <unitInfo fileName="ImportTable_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="org.campagnelab.hta.tables.behavior.ImportTable_BehaviorDescriptor" />
   <unitInfo fileName="JoinTables_BehaviorDescriptor.java" startLine="9" startPosition="0" endLine="26" endPosition="0" unitName="org.campagnelab.hta.tables.behavior.JoinTables_BehaviorDescriptor" />
   <unitInfo fileName="KeySelection_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="org.campagnelab.hta.tables.behavior.KeySelection_BehaviorDescriptor" />
+  <unitInfo fileName="Multiplot_BehaviorDescriptor.java" startLine="10" startPosition="0" endLine="23" endPosition="0" unitName="org.campagnelab.hta.tables.behavior.Multiplot_BehaviorDescriptor" />
+  <unitInfo fileName="PlotRefWithPreview_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="org.campagnelab.hta.tables.behavior.PlotRefWithPreview_BehaviorDescriptor" />
+  <unitInfo fileName="PlotRef_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="org.campagnelab.hta.tables.behavior.PlotRef_BehaviorDescriptor" />
   <unitInfo fileName="Plot_BehaviorDescriptor.java" startLine="10" startPosition="0" endLine="23" endPosition="0" unitName="org.campagnelab.hta.tables.behavior.Plot_BehaviorDescriptor" />
   <unitInfo fileName="RowFilter_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="8" endPosition="0" unitName="org.campagnelab.hta.tables.behavior.RowFilter_BehaviorDescriptor" />
   <unitInfo fileName="SelectByGroup_BehaviorDescriptor.java" startLine="8" startPosition="0" endLine="21" endPosition="0" unitName="org.campagnelab.hta.tables.behavior.SelectByGroup_BehaviorDescriptor" />
   <unitInfo fileName="SetOfIds_BehaviorDescriptor.java" startLine="9" startPosition="0" endLine="22" endPosition="0" unitName="org.campagnelab.hta.tables.behavior.SetOfIds_BehaviorDescriptor" />
+  <unitInfo fileName="StatementList_BehaviorDescriptor.java" startLine="11" startPosition="0" endLine="28" endPosition="0" unitName="org.campagnelab.hta.tables.behavior.StatementList_BehaviorDescriptor" />
   <unitInfo fileName="SubSetTableRows_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="org.campagnelab.hta.tables.behavior.SubSetTableRows_BehaviorDescriptor" />
   <unitInfo fileName="TableRef_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="org.campagnelab.hta.tables.behavior.TableRef_BehaviorDescriptor" />
   <unitInfo fileName="TableTransformation_BehaviorDescriptor.java" startLine="11" startPosition="0" endLine="28" endPosition="0" unitName="org.campagnelab.hta.tables.behavior.TableTransformation_BehaviorDescriptor" />
@@ -261,19 +265,25 @@
     <unitInfo nodeId="4166618652716281041" fileName="RowFilter_Behavior.java" startLine="7" startPosition="0" endLine="11" endPosition="0" unitName="org.campagnelab.hta.tables.behavior.RowFilter_Behavior" />
   </root>
   <root nodeRef="r:db1b133e-9a0f-4319-b384-413408eb1729(org.campagnelab.hta.tables.behavior)/6001041468486702017">
-    <nodeInfo nodeId="6001041468486706138" fileName="FitXByY_Behavior.java" startLine="11" startPosition="43" endLine="12" endPosition="139" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="6001041468488014416" fileName="FitXByY_Behavior.java" startLine="15" startPosition="91" endLine="16" endPosition="49" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="6001041468486702017" fileName="FitXByY_Behavior.java" startLine="11" startPosition="0" endLine="14" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
-    <nodeInfo nodeId="6001041468486702017" fileName="FitXByY_Behavior.java" startLine="15" startPosition="0" endLine="18" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_dependencies_6853668812000956111#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/Iterable;" />
-    <scopeInfo nodeId="6001041468486702321" fileName="FitXByY_Behavior.java" startLine="11" startPosition="43" endLine="12" endPosition="139" />
-    <scopeInfo nodeId="6001041468488014111" fileName="FitXByY_Behavior.java" startLine="15" startPosition="91" endLine="16" endPosition="49" />
-    <scopeInfo nodeId="6001041468486702017" fileName="FitXByY_Behavior.java" startLine="11" startPosition="0" endLine="14" endPosition="0">
+    <nodeInfo nodeId="6001041468486706138" fileName="FitXByY_Behavior.java" startLine="13" startPosition="43" endLine="14" endPosition="139" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6001041468488014416" fileName="FitXByY_Behavior.java" startLine="17" startPosition="91" endLine="18" endPosition="49" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="3687343996978094717" fileName="FitXByY_Behavior.java" startLine="21" startPosition="87" endLine="22" endPosition="162" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6001041468486702017" fileName="FitXByY_Behavior.java" startLine="13" startPosition="0" endLine="16" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+    <nodeInfo nodeId="6001041468486702017" fileName="FitXByY_Behavior.java" startLine="17" startPosition="0" endLine="20" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_dependencies_6853668812000956111#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/Iterable;" />
+    <nodeInfo nodeId="6001041468486702017" fileName="FitXByY_Behavior.java" startLine="21" startPosition="0" endLine="24" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_getSourceTableName_3687343996978026849#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+    <scopeInfo nodeId="6001041468486702321" fileName="FitXByY_Behavior.java" startLine="13" startPosition="43" endLine="14" endPosition="139" />
+    <scopeInfo nodeId="6001041468488014111" fileName="FitXByY_Behavior.java" startLine="17" startPosition="91" endLine="18" endPosition="49" />
+    <scopeInfo nodeId="8962032619585047768" fileName="FitXByY_Behavior.java" startLine="21" startPosition="87" endLine="22" endPosition="162" />
+    <scopeInfo nodeId="6001041468486702017" fileName="FitXByY_Behavior.java" startLine="13" startPosition="0" endLine="16" endPosition="0">
       <varInfo nodeId="6001041468486702017" varName="thisNode" />
     </scopeInfo>
-    <scopeInfo nodeId="6001041468486702017" fileName="FitXByY_Behavior.java" startLine="15" startPosition="0" endLine="18" endPosition="0">
+    <scopeInfo nodeId="6001041468486702017" fileName="FitXByY_Behavior.java" startLine="17" startPosition="0" endLine="20" endPosition="0">
       <varInfo nodeId="6001041468486702017" varName="thisNode" />
     </scopeInfo>
-    <unitInfo nodeId="6001041468486702017" fileName="FitXByY_Behavior.java" startLine="10" startPosition="0" endLine="19" endPosition="0" unitName="org.campagnelab.hta.tables.behavior.FitXByY_Behavior" />
+    <scopeInfo nodeId="6001041468486702017" fileName="FitXByY_Behavior.java" startLine="21" startPosition="0" endLine="24" endPosition="0">
+      <varInfo nodeId="6001041468486702017" varName="thisNode" />
+    </scopeInfo>
+    <unitInfo nodeId="6001041468486702017" fileName="FitXByY_Behavior.java" startLine="12" startPosition="0" endLine="25" endPosition="0" unitName="org.campagnelab.hta.tables.behavior.FitXByY_Behavior" />
   </root>
   <root nodeRef="r:db1b133e-9a0f-4319-b384-413408eb1729(org.campagnelab.hta.tables.behavior)/6825610851347871563">
     <nodeInfo nodeId="6825610851347872258" fileName="SubSetTableRows_Behavior.java" startLine="11" startPosition="43" endLine="12" endPosition="153" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
