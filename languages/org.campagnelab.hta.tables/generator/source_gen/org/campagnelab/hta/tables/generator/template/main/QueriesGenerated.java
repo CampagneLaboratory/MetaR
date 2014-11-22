@@ -261,12 +261,24 @@ public class QueriesGenerated {
     return SPropertyOperations.getString(SLinkOperations.getTarget(_context.getNode(), "x", false), "name");
   }
 
+  public static Object propertyMacro_GetPropertyValue_5333555603574514247(final PropertyMacroContext _context) {
+    return SPropertyOperations.getString(SLinkOperations.getTarget(_context.getNode(), "style", false), "title");
+  }
+
   public static Object propertyMacro_GetPropertyValue_6001041468487057584(final PropertyMacroContext _context) {
     return SPropertyOperations.getString(SLinkOperations.getTarget(_context.getNode(), "x", false), "name");
   }
 
   public static Object propertyMacro_GetPropertyValue_6001041468487052823(final PropertyMacroContext _context) {
     return SPropertyOperations.getString(SLinkOperations.getTarget(_context.getNode(), "y", false), "name");
+  }
+
+  public static Object propertyMacro_GetPropertyValue_5333555603574492550(final PropertyMacroContext _context) {
+    return SPropertyOperations.getString(SLinkOperations.getTarget(_context.getNode(), "style", false), "xLabel");
+  }
+
+  public static Object propertyMacro_GetPropertyValue_5333555603574505248(final PropertyMacroContext _context) {
+    return SPropertyOperations.getString(SLinkOperations.getTarget(_context.getNode(), "style", false), "yLabel");
   }
 
   public static Object propertyMacro_GetPropertyValue_6001041468488153342(final PropertyMacroContext _context) {

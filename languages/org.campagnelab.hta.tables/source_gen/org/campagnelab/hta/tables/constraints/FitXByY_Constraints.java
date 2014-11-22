@@ -20,6 +20,7 @@ import jetbrains.mps.scope.Scope;
 import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.smodel.runtime.ReferenceConstraintsContext;
 import org.campagnelab.hta.tables.scopes.ImportedTableScope;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.smodel.SNodePointer;
 
 public class FitXByY_Constraints extends BaseConstraintsDescriptor {
@@ -92,6 +93,29 @@ public class FitXByY_Constraints extends BaseConstraintsDescriptor {
             return ImportedTableScope.allImported(_context.getContextNode());
           }
         };
+      }
+    });
+    references.put("style", new BaseReferenceConstraintsDescriptor("style", this) {
+      @Override
+      public boolean hasOwnOnReferenceSetHandler() {
+        return true;
+      }
+
+      @Override
+      public boolean validate(final SNode referenceNode, final SNode oldReferentNode, final SNode newReferentNode) {
+        return true;
+      }
+
+      @Override
+      public void onReferenceSet(final SNode referenceNode, final SNode oldReferentNode, final SNode newReferentNode) {
+        SPropertyOperations.set(SLinkOperations.getTarget(referenceNode, "plot", true), "width", "" + (SPropertyOperations.getInteger(newReferentNode, "pixelWidth")));
+        SPropertyOperations.set(SLinkOperations.getTarget(referenceNode, "plot", true), "height", "" + (SPropertyOperations.getInteger(newReferentNode, "pixelHeight")));
+      }
+
+      @Nullable
+      @Override
+      public ReferenceScopeProvider getScopeProvider() {
+        return new BaseScopeProvider() {};
       }
     });
     return references;
