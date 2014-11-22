@@ -44,7 +44,7 @@ public class ColumnValue_Constraints extends BaseConstraintsDescriptor {
           public Object createSearchScopeOrListOfNodes(final IOperationContext operationContext, final ReferenceConstraintsContext _context) {
             // restrict to columns in the table referenced by the parent statement in current script.  
             // TODO: calculate column visibility according to data transformations 
-            return ListSequence.fromList(SNodeOperations.getDescendants(SNodeOperations.getAncestor(_context.getEnclosingNode(), "org.campagnelab.hta.script.structure.Statement", true, false), "org.campagnelab.hta.tables.structure.TableRef", false, new String[]{})).where(new IWhereFilter<SNode>() {
+            return ListSequence.fromList(SNodeOperations.getDescendants(SNodeOperations.getAncestor(_context.getEnclosingNode(), "org.campagnelab.hta.tables.structure.Statement", true, false), "org.campagnelab.hta.tables.structure.TableRef", false, new String[]{})).where(new IWhereFilter<SNode>() {
               public boolean accept(SNode it) {
                 return (SLinkOperations.getTarget(it, "table", false) != null);
               }

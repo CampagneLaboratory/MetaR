@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debugInfo>
+  <unitInfo fileName="QueriesGenerated.java" startLine="6" startPosition="0" endLine="8" endPosition="0" unitName="org.campagnelab.hta.tables.actions.QueriesGenerated" />
+  <root nodeRef="r:5c9afbc5-4577-4abf-8cda-fcb0ba29a8f3(org.campagnelab.hta.tables.actions)/8962032619593737388">
+    <nodeInfo nodeId="8962032619593737389" fileName="ReIdStatement_PastePostProcessor_0.java" startLine="10" startPosition="39" endLine="11" endPosition="103" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8962032619595267874" fileName="ReIdStatement_PastePostProcessor_0.java" startLine="14" startPosition="48" endLine="15" endPosition="14" conceptFqName="jetbrains.mps.baseLanguage.structure.SingleLineComment" />
+    <nodeInfo nodeId="8962032619595268685" fileName="ReIdStatement_PastePostProcessor_0.java" startLine="15" startPosition="14" endLine="16" endPosition="14" conceptFqName="jetbrains.mps.baseLanguage.structure.SingleLineComment" />
+    <nodeInfo nodeId="8962032619593737425" fileName="ReIdStatement_PastePostProcessor_0.java" startLine="19" startPosition="72" endLine="20" endPosition="46" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8962032619593737389" fileName="ReIdStatement_PastePostProcessor_0.java" startLine="10" startPosition="0" endLine="13" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getApplicableConcept#()Lorg/jetbrains/mps/openapi/model/SNode;" />
+    <nodeInfo nodeId="8962032619593737425" fileName="ReIdStatement_PastePostProcessor_0.java" startLine="19" startPosition="0" endLine="22" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="eq_kgn89z_a0a0a0a0a0a0b0b#(Ljava/lang/Object;Ljava/lang/Object;)Z" />
+    <nodeInfo nodeId="8962032619593737389" fileName="ReIdStatement_PastePostProcessor_0.java" startLine="14" startPosition="0" endLine="18" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="postProcesNode#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+    <scopeInfo nodeId="8962032619593737389" fileName="ReIdStatement_PastePostProcessor_0.java" startLine="10" startPosition="39" endLine="11" endPosition="103" />
+    <scopeInfo nodeId="8962032619593737425" fileName="ReIdStatement_PastePostProcessor_0.java" startLine="19" startPosition="72" endLine="20" endPosition="46" />
+    <scopeInfo nodeId="8962032619593737391" fileName="ReIdStatement_PastePostProcessor_0.java" startLine="14" startPosition="48" endLine="16" endPosition="14" />
+    <scopeInfo nodeId="8962032619593737389" fileName="ReIdStatement_PastePostProcessor_0.java" startLine="10" startPosition="0" endLine="13" endPosition="0" />
+    <scopeInfo nodeId="8962032619593737425" fileName="ReIdStatement_PastePostProcessor_0.java" startLine="19" startPosition="0" endLine="22" endPosition="0">
+      <varInfo nodeId="8962032619593737425" varName="a" />
+      <varInfo nodeId="8962032619593737425" varName="b" />
+    </scopeInfo>
+    <scopeInfo nodeId="8962032619593737389" fileName="ReIdStatement_PastePostProcessor_0.java" startLine="14" startPosition="0" endLine="18" endPosition="0">
+      <varInfo nodeId="8962032619593737389" varName="pastedNode" />
+    </scopeInfo>
+    <unitInfo nodeId="8962032619593737389" fileName="ReIdStatement_PastePostProcessor_0.java" startLine="9" startPosition="0" endLine="23" endPosition="0" unitName="org.campagnelab.hta.tables.actions.ReIdStatement_PastePostProcessor_0" />
+  </root>
+</debugInfo>
+

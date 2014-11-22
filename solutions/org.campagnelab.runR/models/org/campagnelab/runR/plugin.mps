@@ -49,11 +49,11 @@
   <import index="vbkb" modelUID="r:08f2b659-8469-4592-93bf-a6edb46ec86d(jetbrains.mps.build.behavior)" version="0" />
   <import index="8xvf" modelUID="r:ed179f4d-7cf2-479d-8348-50c1fc63b96a(jetbrains.mps.build.workflow.structure)" version="0" />
   <import index="ximz" modelUID="r:d3378a35-13da-49cb-8ad1-afbd30e88ad8(jetbrains.mps.ant.execution)" version="-1" />
-  <import index="5ryu" modelUID="r:91256194-1375-495d-ab72-ff76cfde3569(org.campagnelab.hta.script.structure)" version="5" />
-  <import index="zi61" modelUID="r:6b438781-4964-4ce9-992b-f8250b395bf4(org.campagnelab.hta.script.behavior)" version="0" />
   <import index="msyo" modelUID="f:java_stub#6ed54515-acc8-4d1e-a16c-9fd6cfe951ea#jetbrains.mps.util(MPS.Core/jetbrains.mps.util@java_stub)" version="-1" />
   <import index="k7g3" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.util(JDK/java.util@java_stub)" version="-1" />
   <import index="zxm0" modelUID="f:java_stub#498d89d2-c2e9-11e2-ad49-6cf049e62fe5#com.intellij.icons(MPS.IDEA/com.intellij.icons@java_stub)" version="-1" />
+  <import index="jrxw" modelUID="r:9f2bbfbf-f8b7-4b3b-92b1-b6a0e9642c10(org.campagnelab.hta.tables.structure)" version="7" />
+  <import index="v8sa" modelUID="r:db1b133e-9a0f-4319-b384-413408eb1729(org.campagnelab.hta.tables.behavior)" version="1" />
   <import index="tgbt" modelUID="r:c70ee934-afb1-4c02-b6a9-1c4d1908a792(jetbrains.mps.lang.plugin.standalone.structure)" version="1" implicit="yes" />
   <import index="rzqf" modelUID="r:d78df0bb-be4f-4e0d-8142-c0b2df70a5a3(jetbrains.mps.execution.commands.structure)" version="0" implicit="yes" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
@@ -677,7 +677,7 @@
         <node role="creator" roleId="tpee.1145553007750" type="fb9u.PersistentConfigurationTemplateInitializer" typeId="fb9u.946964771156066582" id="6062668769033909556" nodeInfo="nn">
           <link role="template" roleId="fb9u.946964771156066583" targetNodeId="awpe.8278380780105768314" resolveInfo="NodeByConcept" />
           <node role="parameter" roleId="fb9u.946964771156066584" type="tp25.ConceptFqNameRefExpression" typeId="tp25.8339862546319741524" id="1488175004224193872" nodeInfo="nn">
-            <link role="conceptDeclaration" roleId="tp25.8339862546319741525" targetNodeId="5ryu.3402264987259813991" resolveInfo="Script" />
+            <link role="conceptDeclaration" roleId="tp25.8339862546319741525" targetNodeId="jrxw.8962032619593737380" resolveInfo="Script" />
           </node>
           <node role="parameter" roleId="fb9u.946964771156066584" type="tp2c.ClosureLiteral" typeId="tp2c.1199569711397" id="1488175004224248436" nodeInfo="nn">
             <node role="body" roleId="tp2c.1199569916463" type="tpee.StatementList" typeId="tpee.1068580123136" id="1488175004224248438" nodeInfo="sn">
@@ -864,10 +864,10 @@
                     <node role="localVariableDeclaration" roleId="tpee.1068581242865" type="tpee.LocalVariableDeclaration" typeId="tpee.1068581242863" id="2034046503361585723" nodeInfo="nr">
                       <property name="name" nameId="tpck.1169194664001" value="node" />
                       <node role="type" roleId="tpee.5680397130376446158" type="tp25.SNodeType" typeId="tp25.1138055754698" id="2034046503361585724" nodeInfo="in">
-                        <link role="concept" roleId="tp25.1138405853777" targetNodeId="5ryu.3402264987259813991" resolveInfo="Script" />
+                        <link role="concept" roleId="tp25.1138405853777" targetNodeId="jrxw.8962032619593737380" resolveInfo="Script" />
                       </node>
                       <node role="initializer" roleId="tpee.1068431790190" type="tp25.SNodeTypeCastExpression" typeId="tp25.1140137987495" id="2034046503361585725" nodeInfo="nn">
-                        <link role="concept" roleId="tp25.1140138128738" targetNodeId="5ryu.3402264987259813991" resolveInfo="Script" />
+                        <link role="concept" roleId="tp25.1140138128738" targetNodeId="jrxw.8962032619593737380" resolveInfo="Script" />
                         <node role="leftExpression" roleId="tp25.1140138123956" type="tpee.DotExpression" typeId="tpee.1197027756228" id="2034046503361585726" nodeInfo="nn">
                           <node role="operand" roleId="tpee.1197027771414" type="tpee.DotExpression" typeId="tpee.1197027756228" id="2034046503361585727" nodeInfo="nn">
                             <node role="operand" roleId="tpee.1197027771414" type="uhxm.ConfigurationFromExecutorReference" typeId="uhxm.7806358006983738927" id="2034046503361585728" nodeInfo="nn" />
@@ -891,7 +891,7 @@
                           <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="2034046503361585723" resolveInfo="node" />
                         </node>
                         <node role="operation" roleId="tpee.1197027833540" type="tp25.Node_ConceptMethodCall" typeId="tp25.1179409122411" id="2034046503361585736" nodeInfo="nn">
-                          <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="zi61.4796668409958419284" resolveInfo="getScriptsPath" />
+                          <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="v8sa.8962032619593737433" resolveInfo="getScriptsPath" />
                           <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="2034046503361585737" nodeInfo="nn">
                             <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="o3n2.4959435991187147167" resolveInfo="Context" />
                             <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="o3n2.4959435991187166413" resolveInfo="defaultContext" />
@@ -956,7 +956,7 @@
                                   <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="2034046503361585723" resolveInfo="node" />
                                 </node>
                                 <node role="operation" roleId="tpee.1197027833540" type="tp25.Node_ConceptMethodCall" typeId="tp25.1179409122411" id="2034046503361585759" nodeInfo="nn">
-                                  <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="zi61.4915877860351551360" resolveInfo="getOutputFileName" />
+                                  <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="v8sa.8962032619593737472" resolveInfo="getOutputFileName" />
                                 </node>
                               </node>
                             </node>
@@ -1134,7 +1134,7 @@
         </node>
       </node>
       <node role="source" roleId="uhxm.7301162575811113551" type="uhxm.NodeSource" typeId="uhxm.7301162575811126385" id="6062668769033909716" nodeInfo="ng">
-        <link role="concept" roleId="uhxm.7301162575811126914" targetNodeId="5ryu.3402264987259813991" resolveInfo="Script" />
+        <link role="concept" roleId="uhxm.7301162575811126914" targetNodeId="jrxw.8962032619593737380" resolveInfo="Script" />
       </node>
     </node>
   </root>

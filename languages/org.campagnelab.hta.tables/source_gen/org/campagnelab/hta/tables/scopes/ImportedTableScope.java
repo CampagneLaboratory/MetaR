@@ -12,7 +12,7 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 
 public class ImportedTableScope {
   public static Scope allImported(SNode contextNode) {
-    return ListScope.forNamedElements(ListSequence.fromList(SNodeOperations.getDescendants(SNodeOperations.getAncestor(contextNode, "org.campagnelab.hta.script.structure.Script", false, false), "org.campagnelab.hta.tables.structure.ImportTable", false, new String[]{})).translate(new ITranslator2<SNode, SNode>() {
+    return ListScope.forNamedElements(ListSequence.fromList(SNodeOperations.getDescendants(SNodeOperations.getAncestor(contextNode, "org.campagnelab.hta.tables.structure.Script", false, false), "org.campagnelab.hta.tables.structure.ImportTable", false, new String[]{})).translate(new ITranslator2<SNode, SNode>() {
       public Iterable<SNode> translate(SNode it) {
         return SLinkOperations.getTargets(SLinkOperations.getTarget(SLinkOperations.getTarget(it, "future", true), "table", false), "columns", true);
       }

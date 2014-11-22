@@ -70,7 +70,11 @@ public class Plot_Editor extends DefaultNodeEditor {
     editorCell.addEditorCell(this.createProperty_233c5h_b0(editorContext, node));
     editorCell.addEditorCell(this.createConstant_233c5h_c0(editorContext, node));
     editorCell.addEditorCell(this.createReadOnlyModelAccessor_233c5h_d0(editorContext, node));
-    editorCell.addEditorCell(this.createImage_233c5h_e0(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_233c5h_e0(editorContext, node));
+    editorCell.addEditorCell(this.createProperty_233c5h_f0(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_233c5h_g0(editorContext, node));
+    editorCell.addEditorCell(this.createProperty_233c5h_h0(editorContext, node));
+    editorCell.addEditorCell(this.createImage_233c5h_i0(editorContext, node));
     return editorCell;
   }
 
@@ -128,14 +132,64 @@ public class Plot_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createImage_233c5h_e0(final EditorContext editorContext, final SNode node) {
+  private EditorCell createConstant_233c5h_e0(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "width=");
+    editorCell.setCellId("Constant_233c5h_e0");
+    editorCell.setDefaultText("");
+    return editorCell;
+  }
+
+  private EditorCell createProperty_233c5h_f0(EditorContext editorContext, SNode node) {
+    CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
+    provider.setRole("width");
+    provider.setNoTargetText("<no width>");
+    EditorCell editorCell;
+    editorCell = provider.createEditorCell(editorContext);
+    editorCell.setCellId("property_width");
+    editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
+    SNode attributeConcept = provider.getRoleAttribute();
+    Class attributeKind = provider.getRoleAttributeClass();
+    if (attributeConcept != null) {
+      IOperationContext opContext = editorContext.getOperationContext();
+      EditorManager manager = EditorManager.getInstanceFromContext(opContext);
+      return manager.createNodeRoleAttributeCell(editorContext, attributeConcept, attributeKind, editorCell);
+    } else
+    return editorCell;
+  }
+
+  private EditorCell createConstant_233c5h_g0(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "height=");
+    editorCell.setCellId("Constant_233c5h_g0");
+    editorCell.setDefaultText("");
+    return editorCell;
+  }
+
+  private EditorCell createProperty_233c5h_h0(EditorContext editorContext, SNode node) {
+    CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
+    provider.setRole("height");
+    provider.setNoTargetText("<no height>");
+    EditorCell editorCell;
+    editorCell = provider.createEditorCell(editorContext);
+    editorCell.setCellId("property_height");
+    editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
+    SNode attributeConcept = provider.getRoleAttribute();
+    Class attributeKind = provider.getRoleAttributeClass();
+    if (attributeConcept != null) {
+      IOperationContext opContext = editorContext.getOperationContext();
+      EditorManager manager = EditorManager.getInstanceFromContext(opContext);
+      return manager.createNodeRoleAttributeCell(editorContext, attributeConcept, attributeKind, editorCell);
+    } else
+    return editorCell;
+  }
+
+  private EditorCell createImage_233c5h_i0(final EditorContext editorContext, final SNode node) {
     EditorCell_Image editorCell;
     editorCell = EditorCell_Image.createImageCell(editorContext, node, new _FunctionTypes._return_P0_E0<String>() {
       public String invoke() {
         return Plot_Behavior.call_getPath_8016431400518331231(node);
       }
     }.invoke());
-    editorCell.setCellId("Image_233c5h_e0");
+    editorCell.setCellId("Image_233c5h_i0");
     Style style = new StyleImpl();
     style.set(StyleAttributes.INDENT_LAYOUT_ON_NEW_LINE, true);
     editorCell.getStyle().putAll(style);

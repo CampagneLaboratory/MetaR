@@ -34,7 +34,7 @@ import org.apache.log4j.LogManager;
 public class R_Configuration extends BaseMpsRunConfiguration implements IPersistentConfiguration {
   @NotNull
   private R_Configuration.MyState myState = new R_Configuration.MyState();
-  private NodeByConcept_Configuration myNode = new NodeByConcept_Configuration("org.campagnelab.hta.script.structure.Script", new _FunctionTypes._return_P1_E0<Boolean, SNode>() {
+  private NodeByConcept_Configuration myNode = new NodeByConcept_Configuration("org.campagnelab.hta.tables.structure.Script", new _FunctionTypes._return_P1_E0<Boolean, SNode>() {
     public Boolean invoke(SNode node) {
       return true;
     }

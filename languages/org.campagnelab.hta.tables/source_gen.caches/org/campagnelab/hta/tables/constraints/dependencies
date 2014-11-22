@@ -35,6 +35,7 @@
     <classNode dependClassName="org.campagnelab.hta.tables.constraints.FutureTable_Constraints" />
     <classNode dependClassName="org.campagnelab.hta.tables.constraints.ImportTable_Constraints" />
     <classNode dependClassName="org.campagnelab.hta.tables.constraints.JoinTables_Constraints" />
+    <classNode dependClassName="org.campagnelab.hta.tables.constraints.Multiplot_Constraints" />
     <classNode dependClassName="org.campagnelab.hta.tables.constraints.SelectByGroup_Constraints" />
     <classNode dependClassName="org.campagnelab.hta.tables.constraints.SubSetTableRows_Constraints" />
     <classNode dependClassName="org.campagnelab.hta.tables.constraints.TableRef_Constraints" />
@@ -112,6 +113,9 @@
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.base.BaseConstraintsDescriptor" />
   </dependency>
   <dependency className="org.campagnelab.hta.tables.constraints.JoinTables_Constraints" file="JoinTables_Constraints.java">
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.base.BaseConstraintsDescriptor" />
+  </dependency>
+  <dependency className="org.campagnelab.hta.tables.constraints.Multiplot_Constraints" file="Multiplot_Constraints.java">
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.base.BaseConstraintsDescriptor" />
   </dependency>
   <dependency className="org.campagnelab.hta.tables.constraints.SelectByGroup_Constraints" file="SelectByGroup_Constraints.java">

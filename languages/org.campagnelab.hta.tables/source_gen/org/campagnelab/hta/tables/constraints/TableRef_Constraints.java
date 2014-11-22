@@ -41,7 +41,7 @@ public class TableRef_Constraints extends BaseConstraintsDescriptor {
         return new BaseReferenceScopeProvider() {
           @Override
           public Object createSearchScopeOrListOfNodes(final IOperationContext operationContext, final ReferenceConstraintsContext _context) {
-            return ListSequence.fromList(SNodeOperations.getDescendants(SNodeOperations.getAncestor(_context.getEnclosingNode(), "org.campagnelab.hta.script.structure.Script", false, false), "org.campagnelab.hta.tables.structure.FutureTable", false, new String[]{})).where(new IWhereFilter<SNode>() {
+            return ListSequence.fromList(SNodeOperations.getDescendants(SNodeOperations.getAncestor(_context.getEnclosingNode(), "org.campagnelab.hta.tables.structure.Script", false, false), "org.campagnelab.hta.tables.structure.FutureTable", false, new String[]{})).where(new IWhereFilter<SNode>() {
               public boolean accept(SNode it) {
                 return (SLinkOperations.getTarget(it, "table", false) != null);
               }

@@ -159,7 +159,7 @@ public class Heatmap_Editor extends DefaultNodeEditor {
   private EditorCell createReadOnlyModelAccessor_qzxcs0_b0(final EditorContext editorContext, final SNode node) {
     EditorCell_Property editorCell = EditorCell_Property.create(editorContext, new ModelAccessor() {
       public String getText() {
-        return IterableUtils.join(Sequence.fromIterable(BehaviorReflection.invokeVirtual((Class<Iterable<String>>) ((Class) Object.class), node, "virtual_dependencies_6853668812000956111", new Object[]{})), ", ");
+        return IterableUtils.join(Sequence.fromIterable(BehaviorReflection.invokeVirtual((Class<Iterable<String>>) ((Class) Object.class), node, "virtual_dependencies_8962032619593737608", new Object[]{})), ", ");
       }
 
       public void setText(String s) {

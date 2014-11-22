@@ -23,8 +23,9 @@ import org.campagnelab.ui.code.Swing.ButtonCallback;
 import org.campagnelab.ui.code.Swing.Button;
 import jetbrains.mps.lang.editor.table.runtime.TableModelFactory;
 import jetbrains.mps.lang.editor.table.runtime.TableModel;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
+import org.campagnelab.hta.tables.behavior.Multiplot_Behavior;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
 import jetbrains.mps.openapi.editor.cells.SubstituteInfo;
 import jetbrains.mps.lang.editor.table.runtime.EditorCell_Table;
@@ -253,7 +254,7 @@ public class Multiplot_Editor extends DefaultNodeEditor {
           }
 
           public SNode getValueAt(int row, int column) {
-            return SLinkOperations.getTargets(node, "plots", true).get(row * SPropertyOperations.getInteger(node, "numColumns") + column);
+            return Multiplot_Behavior.call_getAt_8962032619587151678(node, row, column);
           }
 
           public void createElement(int row, int column) {
@@ -277,7 +278,11 @@ public class Multiplot_Editor extends DefaultNodeEditor {
           }
 
           public int getMaxColumnWidth(int columnNumber) {
-            return 100;
+            int maxWidth = 0;
+            for (int rowIndex = 0; rowIndex < SPropertyOperations.getInteger(node, "numColumns"); rowIndex++) {
+              maxWidth = Math.max(maxWidth, SPropertyOperations.getInteger(SLinkOperations.getTarget(Multiplot_Behavior.call_getAt_8962032619587151678(node, rowIndex, columnNumber), "plot", false), "width"));
+            }
+            return maxWidth;
           }
         };
       }

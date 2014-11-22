@@ -26,7 +26,7 @@ public class JoinTables_Behavior {
   }
 
   public static Iterable<SNode> virtual_dependencies_7074867102589853662(SNode thisNode) {
-    SNode p = SConceptOperations.createNewNode("org.campagnelab.hta.script.structure.R_Package", null);
+    SNode p = SConceptOperations.createNewNode("org.campagnelab.hta.tables.structure.R_Package", null);
     SPropertyOperations.set(p, "name", "data.table");
     List<SNode> packages = ListSequence.fromListAndArray(new ArrayList<SNode>(), p);
     return packages;

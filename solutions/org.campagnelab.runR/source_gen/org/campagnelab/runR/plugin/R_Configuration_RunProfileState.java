@@ -22,7 +22,7 @@ import jetbrains.mps.vfs.IFile;
 import jetbrains.mps.smodel.ModelAccess;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
-import org.campagnelab.hta.script.behavior.Script_Behavior;
+import org.campagnelab.hta.tables.behavior.Script_Behavior;
 import jetbrains.mps.build.util.Context;
 import jetbrains.mps.vfs.FileSystem;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SModelOperations;
@@ -65,11 +65,11 @@ public class R_Configuration_RunProfileState implements RunProfileState {
     final Wrappers._T<IFile> file = new Wrappers._T<IFile>(null);
     ModelAccess.instance().runReadAction(new Runnable() {
       public void run() {
-        SNode node = SNodeOperations.cast(myRunConfiguration.getNode().getNode(), "org.campagnelab.hta.script.structure.Script");
-        String scriptPath = Script_Behavior.call_getScriptsPath_4796668409958419284(node, Context.defaultContext());
+        SNode node = SNodeOperations.cast(myRunConfiguration.getNode().getNode(), "org.campagnelab.hta.tables.structure.Script");
+        String scriptPath = Script_Behavior.call_getScriptsPath_8962032619593737433(node, Context.defaultContext());
         if (scriptPath != null) {
           file.value = FileSystem.getInstance().getFileByPath(scriptPath + "/classes_gen/" + SModelOperations.getModelName(SNodeOperations.getModel(node)));
-          file.value = file.value.getDescendant(Script_Behavior.call_getOutputFileName_4915877860351551360(node));
+          file.value = file.value.getDescendant(Script_Behavior.call_getOutputFileName_8962032619593737472(node));
         }
       }
     });

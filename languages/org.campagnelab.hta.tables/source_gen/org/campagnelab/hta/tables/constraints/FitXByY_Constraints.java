@@ -44,7 +44,7 @@ public class FitXByY_Constraints extends BaseConstraintsDescriptor {
       @Override
       public void onReferenceSet(final SNode referenceNode, final SNode oldReferentNode, final SNode newReferentNode) {
         // set table to the table that contains this column 
-        SLinkOperations.setTarget(SLinkOperations.getTarget(referenceNode, "table", true), "table", SLinkOperations.getTarget(SLinkOperations.getTarget(ListSequence.fromList(SNodeOperations.getDescendants(SNodeOperations.getAncestor(referenceNode, "org.campagnelab.hta.script.structure.Script", false, false), "org.campagnelab.hta.tables.structure.ImportTable", false, new String[]{})).findFirst(new IWhereFilter<SNode>() {
+        SLinkOperations.setTarget(SLinkOperations.getTarget(referenceNode, "table", true), "table", SLinkOperations.getTarget(SLinkOperations.getTarget(ListSequence.fromList(SNodeOperations.getDescendants(SNodeOperations.getAncestor(referenceNode, "org.campagnelab.hta.tables.structure.Script", false, false), "org.campagnelab.hta.tables.structure.ImportTable", false, new String[]{})).findFirst(new IWhereFilter<SNode>() {
           public boolean accept(SNode it) {
             return ListSequence.fromList(SLinkOperations.getTargets(SLinkOperations.getTarget(SLinkOperations.getTarget(it, "future", true), "table", false), "columns", true)).contains(newReferentNode);
           }

@@ -5,7 +5,6 @@
       <modulePath path="$PROJECT_DIR$/devkits/org.campagnelab.HTAnalysis.devkit" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.hta.expressions/org.campagnelab.hta.expressions.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.hta.inspect/org.campagnelab.hta.inspect.mpl" folder="" />
-      <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.hta.script/org.campagnelab.hta.script.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.hta.tables/org.campagnelab.hta.tables.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/Playground/Playground.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/org.campagnelab.runR/org.campagnelab.runR.msd" folder="" />

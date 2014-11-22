@@ -117,7 +117,7 @@
     <classNode dependClassName="jetbrains.mps.smodel.ModelAccess" />
     <classNode dependClassName="jetbrains.mps.vfs.FileSystem" />
     <classNode dependClassName="jetbrains.mps.vfs.IFile" />
-    <classNode dependClassName="org.campagnelab.hta.script.behavior.Script_Behavior" />
+    <classNode dependClassName="org.campagnelab.hta.tables.behavior.Script_Behavior" />
     <classNode dependClassName="org.campagnelab.runR.plugin.R_Configuration" />
     <classNode dependClassName="org.campagnelab.runR.plugin.Run_R_Command" />
     <classNode dependClassName="org.jetbrains.annotations.NotNull" />

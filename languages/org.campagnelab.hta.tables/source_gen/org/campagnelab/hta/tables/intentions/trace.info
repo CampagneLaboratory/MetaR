@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
-  <unitInfo fileName="IntentionsDescriptor.java" startLine="10" startPosition="0" endLine="21" endPosition="0" unitName="org.campagnelab.hta.tables.intentions.IntentionsDescriptor" />
+  <unitInfo fileName="IntentionsDescriptor.java" startLine="10" startPosition="0" endLine="22" endPosition="0" unitName="org.campagnelab.hta.tables.intentions.IntentionsDescriptor" />
   <root nodeRef="r:597299e2-456c-40ec-87e4-c5fdcfc8d153(org.campagnelab.hta.tables.intentions)/2433240172667571480">
     <nodeInfo nodeId="2433240172667571480" fileName="RootTable_Intention.java" startLine="20" startPosition="0" endLine="21" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myCachedExecutable" />
     <nodeInfo nodeId="2433240172667571480" fileName="RootTable_Intention.java" startLine="25" startPosition="30" endLine="26" endPosition="62" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
@@ -341,6 +341,91 @@
     <unitInfo nodeId="8459500803718688287" fileName="ApplyGroup_Intention.java" startLine="93" startPosition="246" endLine="114" endPosition="5" unitName="org.campagnelab.hta.tables.intentions.ApplyGroup_Intention$1" />
     <unitInfo nodeId="8459500803718255267" fileName="ApplyGroup_Intention.java" startLine="118" startPosition="0" endLine="152" endPosition="0" unitName="org.campagnelab.hta.tables.intentions.ApplyGroup_Intention$IntentionImplementation" />
     <unitInfo nodeId="8459500803718255267" fileName="ApplyGroup_Intention.java" startLine="33" startPosition="0" endLine="153" endPosition="0" unitName="org.campagnelab.hta.tables.intentions.ApplyGroup_Intention" />
+  </root>
+  <root nodeRef="r:597299e2-456c-40ec-87e4-c5fdcfc8d153(org.campagnelab.hta.tables.intentions)/8962032619593737648">
+    <nodeInfo nodeId="8962032619593737648" fileName="AssignNewIds_Intention.java" startLine="25" startPosition="0" endLine="26" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myCachedExecutable" />
+    <nodeInfo nodeId="8962032619593737648" fileName="AssignNewIds_Intention.java" startLine="30" startPosition="30" endLine="31" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8962032619593737648" fileName="AssignNewIds_Intention.java" startLine="34" startPosition="35" endLine="35" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8962032619593737648" fileName="AssignNewIds_Intention.java" startLine="38" startPosition="41" endLine="39" endPosition="74" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8962032619593737648" fileName="AssignNewIds_Intention.java" startLine="42" startPosition="37" endLine="43" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8962032619593737648" fileName="AssignNewIds_Intention.java" startLine="46" startPosition="34" endLine="47" endPosition="32" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8962032619593737648" fileName="AssignNewIds_Intention.java" startLine="50" startPosition="44" endLine="51" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8962032619593737648" fileName="AssignNewIds_Intention.java" startLine="54" startPosition="84" endLine="55" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8962032619593737648" fileName="AssignNewIds_Intention.java" startLine="58" startPosition="53" endLine="59" endPosition="132" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8962032619593737648" fileName="AssignNewIds_Intention.java" startLine="62" startPosition="35" endLine="63" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8962032619593737648" fileName="AssignNewIds_Intention.java" startLine="67" startPosition="37" endLine="68" endPosition="128" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8962032619593737648" fileName="AssignNewIds_Intention.java" startLine="69" startPosition="5" endLine="70" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8962032619593737651" fileName="AssignNewIds_Intention.java" startLine="77" startPosition="87" endLine="78" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8962032619593737665" fileName="AssignNewIds_Intention.java" startLine="83" startPosition="37" endLine="84" endPosition="265" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8962032619593737648" fileName="AssignNewIds_Intention.java" startLine="89" startPosition="48" endLine="90" endPosition="41" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8962032619593737648" fileName="AssignNewIds_Intention.java" startLine="27" startPosition="0" endLine="29" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="AssignNewIds_Intention#()V" />
+    <nodeInfo nodeId="8962032619593737648" fileName="AssignNewIds_Intention.java" startLine="74" startPosition="0" endLine="76" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="IntentionImplementation#()V" />
+    <nodeInfo nodeId="8962032619593737648" fileName="AssignNewIds_Intention.java" startLine="30" startPosition="0" endLine="33" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getConcept#()Ljava/lang/String;" />
+    <nodeInfo nodeId="8962032619593737648" fileName="AssignNewIds_Intention.java" startLine="34" startPosition="0" endLine="37" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getPresentation#()Ljava/lang/String;" />
+    <nodeInfo nodeId="8962032619593737648" fileName="AssignNewIds_Intention.java" startLine="38" startPosition="0" endLine="41" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getPersistentStateKey#()Ljava/lang/String;" />
+    <nodeInfo nodeId="8962032619593737648" fileName="AssignNewIds_Intention.java" startLine="42" startPosition="0" endLine="45" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getLanguageFqName#()Ljava/lang/String;" />
+    <nodeInfo nodeId="8962032619593737648" fileName="AssignNewIds_Intention.java" startLine="46" startPosition="0" endLine="49" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getType#()Ljetbrains/mps/intentions/IntentionType;" />
+    <nodeInfo nodeId="8962032619593737648" fileName="AssignNewIds_Intention.java" startLine="50" startPosition="0" endLine="53" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isAvailableInChildNodes#()Z" />
+    <nodeInfo nodeId="8962032619593737648" fileName="AssignNewIds_Intention.java" startLine="54" startPosition="0" endLine="57" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isApplicable#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Z" />
+    <nodeInfo nodeId="8962032619593737648" fileName="AssignNewIds_Intention.java" startLine="58" startPosition="0" endLine="61" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getIntentionNodeReference#()Lorg/jetbrains/mps/openapi/model/SNodeReference;" />
+    <nodeInfo nodeId="8962032619593737648" fileName="AssignNewIds_Intention.java" startLine="62" startPosition="0" endLine="65" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isSurroundWith#()Z" />
+    <nodeInfo nodeId="8962032619593737648" fileName="AssignNewIds_Intention.java" startLine="66" startPosition="99" endLine="69" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="8962032619593737648" fileName="AssignNewIds_Intention.java" startLine="77" startPosition="0" endLine="80" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getDescription#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Ljava/lang/String;" />
+    <nodeInfo nodeId="8962032619593737663" fileName="AssignNewIds_Intention.java" startLine="83" startPosition="0" endLine="86" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="visit#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+    <nodeInfo nodeId="8962032619593737648" fileName="AssignNewIds_Intention.java" startLine="89" startPosition="0" endLine="92" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getDescriptor#()Ljetbrains/mps/intentions/IntentionDescriptor;" />
+    <nodeInfo nodeId="8962032619593737655" fileName="AssignNewIds_Intention.java" startLine="81" startPosition="78" endLine="86" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8962032619593737648" fileName="AssignNewIds_Intention.java" startLine="66" startPosition="0" endLine="72" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="instances#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Ljava/util/Collection;" />
+    <nodeInfo nodeId="8962032619593737648" fileName="AssignNewIds_Intention.java" startLine="81" startPosition="0" endLine="88" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="execute#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
+    <scopeInfo nodeId="8962032619593737648" fileName="AssignNewIds_Intention.java" startLine="27" startPosition="35" endLine="27" endPosition="35" />
+    <scopeInfo nodeId="8962032619593737648" fileName="AssignNewIds_Intention.java" startLine="74" startPosition="38" endLine="74" endPosition="38" />
+    <scopeInfo nodeId="8962032619593737648" fileName="AssignNewIds_Intention.java" startLine="30" startPosition="30" endLine="31" endPosition="57" />
+    <scopeInfo nodeId="8962032619593737648" fileName="AssignNewIds_Intention.java" startLine="34" startPosition="35" endLine="35" endPosition="26" />
+    <scopeInfo nodeId="8962032619593737648" fileName="AssignNewIds_Intention.java" startLine="38" startPosition="41" endLine="39" endPosition="74" />
+    <scopeInfo nodeId="8962032619593737648" fileName="AssignNewIds_Intention.java" startLine="42" startPosition="37" endLine="43" endPosition="40" />
+    <scopeInfo nodeId="8962032619593737648" fileName="AssignNewIds_Intention.java" startLine="46" startPosition="34" endLine="47" endPosition="32" />
+    <scopeInfo nodeId="8962032619593737648" fileName="AssignNewIds_Intention.java" startLine="50" startPosition="44" endLine="51" endPosition="17" />
+    <scopeInfo nodeId="8962032619593737648" fileName="AssignNewIds_Intention.java" startLine="54" startPosition="84" endLine="55" endPosition="16" />
+    <scopeInfo nodeId="8962032619593737648" fileName="AssignNewIds_Intention.java" startLine="58" startPosition="53" endLine="59" endPosition="132" />
+    <scopeInfo nodeId="8962032619593737648" fileName="AssignNewIds_Intention.java" startLine="62" startPosition="35" endLine="63" endPosition="17" />
+    <scopeInfo nodeId="8962032619593737648" fileName="AssignNewIds_Intention.java" startLine="67" startPosition="37" endLine="68" endPosition="128" />
+    <scopeInfo nodeId="8962032619593737650" fileName="AssignNewIds_Intention.java" startLine="77" startPosition="87" endLine="78" endPosition="44" />
+    <scopeInfo nodeId="8962032619593737664" fileName="AssignNewIds_Intention.java" startLine="83" startPosition="37" endLine="84" endPosition="265" />
+    <scopeInfo nodeId="8962032619593737648" fileName="AssignNewIds_Intention.java" startLine="89" startPosition="48" endLine="90" endPosition="41" />
+    <scopeInfo nodeId="8962032619593737648" fileName="AssignNewIds_Intention.java" startLine="27" startPosition="0" endLine="29" endPosition="0" />
+    <scopeInfo nodeId="8962032619593737648" fileName="AssignNewIds_Intention.java" startLine="74" startPosition="0" endLine="76" endPosition="0" />
+    <scopeInfo nodeId="8962032619593737648" fileName="AssignNewIds_Intention.java" startLine="30" startPosition="0" endLine="33" endPosition="0" />
+    <scopeInfo nodeId="8962032619593737648" fileName="AssignNewIds_Intention.java" startLine="34" startPosition="0" endLine="37" endPosition="0" />
+    <scopeInfo nodeId="8962032619593737648" fileName="AssignNewIds_Intention.java" startLine="38" startPosition="0" endLine="41" endPosition="0" />
+    <scopeInfo nodeId="8962032619593737648" fileName="AssignNewIds_Intention.java" startLine="42" startPosition="0" endLine="45" endPosition="0" />
+    <scopeInfo nodeId="8962032619593737648" fileName="AssignNewIds_Intention.java" startLine="46" startPosition="0" endLine="49" endPosition="0" />
+    <scopeInfo nodeId="8962032619593737648" fileName="AssignNewIds_Intention.java" startLine="50" startPosition="0" endLine="53" endPosition="0" />
+    <scopeInfo nodeId="8962032619593737648" fileName="AssignNewIds_Intention.java" startLine="54" startPosition="0" endLine="57" endPosition="0">
+      <varInfo nodeId="8962032619593737648" varName="editorContext" />
+      <varInfo nodeId="8962032619593737648" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="8962032619593737648" fileName="AssignNewIds_Intention.java" startLine="58" startPosition="0" endLine="61" endPosition="0" />
+    <scopeInfo nodeId="8962032619593737648" fileName="AssignNewIds_Intention.java" startLine="62" startPosition="0" endLine="65" endPosition="0" />
+    <scopeInfo nodeId="8962032619593737648" fileName="AssignNewIds_Intention.java" startLine="77" startPosition="0" endLine="80" endPosition="0">
+      <varInfo nodeId="8962032619593737648" varName="editorContext" />
+      <varInfo nodeId="8962032619593737648" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="8962032619593737663" fileName="AssignNewIds_Intention.java" startLine="83" startPosition="0" endLine="86" endPosition="0">
+      <varInfo nodeId="8962032619593737663" varName="it" />
+    </scopeInfo>
+    <scopeInfo nodeId="8962032619593737648" fileName="AssignNewIds_Intention.java" startLine="89" startPosition="0" endLine="92" endPosition="0" />
+    <scopeInfo nodeId="8962032619593737648" fileName="AssignNewIds_Intention.java" startLine="66" startPosition="99" endLine="70" endPosition="30" />
+    <scopeInfo nodeId="8962032619593737654" fileName="AssignNewIds_Intention.java" startLine="81" startPosition="78" endLine="86" endPosition="9" />
+    <scopeInfo nodeId="8962032619593737648" fileName="AssignNewIds_Intention.java" startLine="66" startPosition="0" endLine="72" endPosition="0">
+      <varInfo nodeId="8962032619593737648" varName="context" />
+      <varInfo nodeId="8962032619593737648" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="8962032619593737648" fileName="AssignNewIds_Intention.java" startLine="81" startPosition="0" endLine="88" endPosition="0">
+      <varInfo nodeId="8962032619593737648" varName="editorContext" />
+      <varInfo nodeId="8962032619593737648" varName="node" />
+    </scopeInfo>
+    <unitInfo nodeId="8962032619593737663" fileName="AssignNewIds_Intention.java" startLine="82" startPosition="152" endLine="86" endPosition="7" unitName="org.campagnelab.hta.tables.intentions.AssignNewIds_Intention$1" />
+    <unitInfo nodeId="8962032619593737648" fileName="AssignNewIds_Intention.java" startLine="73" startPosition="0" endLine="93" endPosition="0" unitName="org.campagnelab.hta.tables.intentions.AssignNewIds_Intention$IntentionImplementation" />
+    <unitInfo nodeId="8962032619593737648" fileName="AssignNewIds_Intention.java" startLine="24" startPosition="0" endLine="94" endPosition="0" unitName="org.campagnelab.hta.tables.intentions.AssignNewIds_Intention" />
   </root>
 </debugInfo>
 

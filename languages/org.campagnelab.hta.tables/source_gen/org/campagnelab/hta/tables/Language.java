@@ -15,7 +15,7 @@ import jetbrains.mps.openapi.editor.descriptor.EditorAspectDescriptor;
 
 public class Language extends LanguageRuntime {
   public static String MODULE_REF = "5d6bde84-4ce4-4eb5-a37e-25a5edd55129(org.campagnelab.hta.tables)";
-  private static String[] EXTENDED_LANGUAGE_IDS = new String[]{"org.campagnelab.hta.inspect", "org.campagnelab.mps.XChart", "jetbrains.mps.lang.core", "org.campagnelab.hta.script", "org.campagnelab.textoutput"};
+  private static String[] EXTENDED_LANGUAGE_IDS = new String[]{"org.campagnelab.hta.inspect", "org.campagnelab.mps.XChart", "jetbrains.mps.lang.core", "org.campagnelab.textoutput"};
   private EditorAspectDescriptorImpl myEditorAspectDescriptor;
 
   public Language() {

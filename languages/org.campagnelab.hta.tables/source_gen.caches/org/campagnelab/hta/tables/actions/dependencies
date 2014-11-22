@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dependenciesRoot>
+  <dependency className="org.campagnelab.hta.tables.actions.QueriesGenerated" file="QueriesGenerated.java" />
+  <dependency className="org.campagnelab.hta.tables.actions.ReIdStatement_PastePostProcessor_0" file="ReIdStatement_PastePostProcessor_0.java">
+    <classNode dependClassName="java.lang.Object" />
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
+    <classNode extendsClassName="jetbrains.mps.datatransfer.PastePostProcessor" />
+  </dependency>
+</dependenciesRoot>
+

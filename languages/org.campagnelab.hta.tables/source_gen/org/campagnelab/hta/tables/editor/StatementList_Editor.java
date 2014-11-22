@@ -79,7 +79,7 @@ public class StatementList_Editor extends DefaultNodeEditor {
     }
 
     public SNode nodeFactory(SNode node, EditorContext editorContext) {
-      return SConceptOperations.createNewNode("org.campagnelab.hta.script.structure.EmptyLine", null);
+      return SConceptOperations.createNewNode("org.campagnelab.hta.tables.structure.EmptyLine", null);
     }
 
     public EditorCell createNodeCell(EditorContext editorContext, SNode elementNode) {
@@ -137,7 +137,7 @@ public class StatementList_Editor extends DefaultNodeEditor {
       public String getText() {
         return IterableUtils.join(ListSequence.fromList(SLinkOperations.getTargets(node, "transformations", true)).translate(new ITranslator2<SNode, String>() {
           public Iterable<String> translate(SNode it) {
-            return BehaviorReflection.invokeVirtual((Class<Iterable<String>>) ((Class) Object.class), it, "virtual_dependencies_6853668812000956111", new Object[]{});
+            return BehaviorReflection.invokeVirtual((Class<Iterable<String>>) ((Class) Object.class), it, "virtual_dependencies_8962032619593737608", new Object[]{});
           }
         }), ", ");
       }

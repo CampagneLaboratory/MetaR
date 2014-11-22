@@ -75,6 +75,7 @@ public class PlotRef_Editor extends DefaultNodeEditor {
       editorCell.setCellId("property_name");
       Style style = new StyleImpl();
       TableStyleSheet_StyleSheet.apply_Plot(style, editorCell);
+      style.set(StyleAttributes.EDITABLE, false);
       style.set(StyleAttributes.AUTO_DELETABLE, true);
       editorCell.getStyle().putAll(style);
       editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());

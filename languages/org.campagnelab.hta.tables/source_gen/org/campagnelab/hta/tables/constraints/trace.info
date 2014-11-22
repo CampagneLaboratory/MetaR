@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
-  <unitInfo fileName="ConstraintsAspectDescriptor.java" startLine="9" startPosition="0" endLine="43" endPosition="0" unitName="org.campagnelab.hta.tables.constraints.ConstraintsAspectDescriptor" />
+  <unitInfo fileName="ConstraintsAspectDescriptor.java" startLine="9" startPosition="0" endLine="45" endPosition="0" unitName="org.campagnelab.hta.tables.constraints.ConstraintsAspectDescriptor" />
   <root nodeRef="r:377e7fab-b099-4462-b9f3-2050d4b23cf6(org.campagnelab.hta.tables.constraints)/3402264987261612150">
     <nodeInfo nodeId="3402264987261612150" fileName="FutureTableRef_Constraints.java" startLine="23" startPosition="39" endLine="24" endPosition="65" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
     <nodeInfo nodeId="3402264987261612150" fileName="FutureTableRef_Constraints.java" startLine="28" startPosition="83" endLine="29" endPosition="75" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
@@ -369,6 +369,13 @@
     <unitInfo nodeId="8441088421949785760" fileName="SelectByGroup_Constraints.java" startLine="39" startPosition="19" endLine="52" endPosition="9" unitName="org.campagnelab.hta.tables.constraints.SelectByGroup_Constraints$2" />
     <unitInfo nodeId="8441088421949785760" fileName="SelectByGroup_Constraints.java" startLine="30" startPosition="34" endLine="54" endPosition="5" unitName="org.campagnelab.hta.tables.constraints.SelectByGroup_Constraints$1" />
     <unitInfo nodeId="8441088421949785760" fileName="SelectByGroup_Constraints.java" startLine="22" startPosition="0" endLine="60" endPosition="0" unitName="org.campagnelab.hta.tables.constraints.SelectByGroup_Constraints" />
+  </root>
+  <root nodeRef="r:377e7fab-b099-4462-b9f3-2050d4b23cf6(org.campagnelab.hta.tables.constraints)/8962032619590812992">
+    <nodeInfo nodeId="8962032619590812992" fileName="Multiplot_Constraints.java" startLine="8" startPosition="34" endLine="9" endPosition="60" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+    <nodeInfo nodeId="8962032619590812992" fileName="Multiplot_Constraints.java" startLine="8" startPosition="0" endLine="11" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="Multiplot_Constraints#()V" />
+    <scopeInfo nodeId="8962032619590812992" fileName="Multiplot_Constraints.java" startLine="8" startPosition="34" endLine="9" endPosition="60" />
+    <scopeInfo nodeId="8962032619590812992" fileName="Multiplot_Constraints.java" startLine="8" startPosition="0" endLine="11" endPosition="0" />
+    <unitInfo nodeId="8962032619590812992" fileName="Multiplot_Constraints.java" startLine="7" startPosition="0" endLine="12" endPosition="0" unitName="org.campagnelab.hta.tables.constraints.Multiplot_Constraints" />
   </root>
 </debugInfo>
 

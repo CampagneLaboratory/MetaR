@@ -12,15 +12,15 @@ public class BehaviorAspectDescriptor implements jetbrains.mps.smodel.runtime.Be
 
   public BehaviorDescriptor getDescriptor(String fqName) {
     switch (Arrays.binarySearch(stringSwitchCases_846f5o_a0a0b, fqName)) {
-      case 24:
+      case 28:
         return new Table_BehaviorDescriptor();
-      case 15:
+      case 17:
         return new JoinTables_BehaviorDescriptor();
-      case 11:
+      case 13:
         return new FutureTableRef_BehaviorDescriptor();
-      case 10:
+      case 12:
         return new FutureTable_BehaviorDescriptor();
-      case 14:
+      case 16:
         return new ImportTable_BehaviorDescriptor();
       case 4:
         return new ColumnRef_BehaviorDescriptor();
@@ -34,42 +34,50 @@ public class BehaviorAspectDescriptor implements jetbrains.mps.smodel.runtime.Be
         return new ColumnGroupContainer_BehaviorDescriptor();
       case 3:
         return new ColumnGroupReference_BehaviorDescriptor();
-      case 20:
+      case 24:
         return new SelectByGroup_BehaviorDescriptor();
-      case 12:
+      case 14:
         return new Heatmap_BehaviorDescriptor();
-      case 17:
+      case 19:
         return new Plot_BehaviorDescriptor();
-      case 26:
+      case 30:
         return new UsageType_BehaviorDescriptor();
-      case 23:
+      case 27:
         return new SubSetTableRows_BehaviorDescriptor();
-      case 8:
+      case 10:
         return new FilterWithIDList_BehaviorDescriptor();
-      case 21:
+      case 25:
         return new SetOfIds_BehaviorDescriptor();
-      case 13:
+      case 15:
         return new ID_BehaviorDescriptor();
       case 6:
         return new Define_BehaviorDescriptor();
-      case 7:
-        return new FilterWithExpression_BehaviorDescriptor();
       case 9:
+        return new FilterWithExpression_BehaviorDescriptor();
+      case 11:
         return new FitXByY_BehaviorDescriptor();
-      case 25:
+      case 29:
         return new TableRef_BehaviorDescriptor();
-      case 16:
-        return new Multiplot_BehaviorDescriptor();
       case 18:
+        return new Multiplot_BehaviorDescriptor();
+      case 20:
         return new PlotRef_BehaviorDescriptor();
-      case 19:
+      case 21:
         return new PlotRefWithPreview_BehaviorDescriptor();
-      case 22:
+      case 26:
         return new StatementList_BehaviorDescriptor();
+      case 7:
+        return new DependentOnPackage_BehaviorDescriptor();
+      case 8:
+        return new EmptyLine_BehaviorDescriptor();
+      case 22:
+        return new R_Package_BehaviorDescriptor();
+      case 23:
+        return new Script_BehaviorDescriptor();
       default:
         return BehaviorAspectInterpreted.getInstance().getDescriptor(fqName);
     }
   }
 
-  private static String[] stringSwitchCases_846f5o_a0a0b = new String[]{"org.campagnelab.hta.tables.structure.ColumnAnnotation", "org.campagnelab.hta.tables.structure.ColumnGroup", "org.campagnelab.hta.tables.structure.ColumnGroupContainer", "org.campagnelab.hta.tables.structure.ColumnGroupReference", "org.campagnelab.hta.tables.structure.ColumnRef", "org.campagnelab.hta.tables.structure.CommonColumnSelection", "org.campagnelab.hta.tables.structure.Define", "org.campagnelab.hta.tables.structure.FilterWithExpression", "org.campagnelab.hta.tables.structure.FilterWithIDList", "org.campagnelab.hta.tables.structure.FitXByY", "org.campagnelab.hta.tables.structure.FutureTable", "org.campagnelab.hta.tables.structure.FutureTableRef", "org.campagnelab.hta.tables.structure.Heatmap", "org.campagnelab.hta.tables.structure.ID", "org.campagnelab.hta.tables.structure.ImportTable", "org.campagnelab.hta.tables.structure.JoinTables", "org.campagnelab.hta.tables.structure.Multiplot", "org.campagnelab.hta.tables.structure.Plot", "org.campagnelab.hta.tables.structure.PlotRef", "org.campagnelab.hta.tables.structure.PlotRefWithPreview", "org.campagnelab.hta.tables.structure.SelectByGroup", "org.campagnelab.hta.tables.structure.SetOfIds", "org.campagnelab.hta.tables.structure.StatementList", "org.campagnelab.hta.tables.structure.SubSetTableRows", "org.campagnelab.hta.tables.structure.Table", "org.campagnelab.hta.tables.structure.TableRef", "org.campagnelab.hta.tables.structure.UsageType"};
+  private static String[] stringSwitchCases_846f5o_a0a0b = new String[]{"org.campagnelab.hta.tables.structure.ColumnAnnotation", "org.campagnelab.hta.tables.structure.ColumnGroup", "org.campagnelab.hta.tables.structure.ColumnGroupContainer", "org.campagnelab.hta.tables.structure.ColumnGroupReference", "org.campagnelab.hta.tables.structure.ColumnRef", "org.campagnelab.hta.tables.structure.CommonColumnSelection", "org.campagnelab.hta.tables.structure.Define", "org.campagnelab.hta.tables.structure.DependentOnPackage", "org.campagnelab.hta.tables.structure.EmptyLine", "org.campagnelab.hta.tables.structure.FilterWithExpression", "org.campagnelab.hta.tables.structure.FilterWithIDList", "org.campagnelab.hta.tables.structure.FitXByY", "org.campagnelab.hta.tables.structure.FutureTable", "org.campagnelab.hta.tables.structure.FutureTableRef", "org.campagnelab.hta.tables.structure.Heatmap", "org.campagnelab.hta.tables.structure.ID", "org.campagnelab.hta.tables.structure.ImportTable", "org.campagnelab.hta.tables.structure.JoinTables", "org.campagnelab.hta.tables.structure.Multiplot", "org.campagnelab.hta.tables.structure.Plot", "org.campagnelab.hta.tables.structure.PlotRef", "org.campagnelab.hta.tables.structure.PlotRefWithPreview", "org.campagnelab.hta.tables.structure.R_Package", "org.campagnelab.hta.tables.structure.Script", "org.campagnelab.hta.tables.structure.SelectByGroup", "org.campagnelab.hta.tables.structure.SetOfIds", "org.campagnelab.hta.tables.structure.StatementList", "org.campagnelab.hta.tables.structure.SubSetTableRows", "org.campagnelab.hta.tables.structure.Table", "org.campagnelab.hta.tables.structure.TableRef", "org.campagnelab.hta.tables.structure.UsageType"};
 }

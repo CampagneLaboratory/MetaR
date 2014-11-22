@@ -14,11 +14,11 @@ public class FitXByY_Behavior {
     SLinkOperations.setTarget(thisNode, "plot", SConceptOperations.createNewNode("org.campagnelab.hta.tables.structure.Plot", null), true);
   }
 
-  public static Iterable<String> virtual_dependencies_6853668812000956111(SNode thisNode) {
+  public static Iterable<String> virtual_dependencies_8962032619593737608(SNode thisNode) {
     return Sequence.<String>singleton("ggplot2");
   }
 
-  public static String virtual_getSourceTableName_3687343996978026849(SNode thisNode) {
+  public static String virtual_getSourceTableName_8962032619593737588(SNode thisNode) {
     return NameHelper.RName(SPropertyOperations.getString(SLinkOperations.getTarget(SLinkOperations.getTarget(thisNode, "table", true), "table", false), "name"));
   }
 }

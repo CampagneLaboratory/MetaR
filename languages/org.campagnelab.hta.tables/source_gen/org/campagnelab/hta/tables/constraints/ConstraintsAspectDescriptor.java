@@ -22,21 +22,23 @@ public class ConstraintsAspectDescriptor implements jetbrains.mps.smodel.runtime
         return new CommonColumnSelection_Constraints();
       case 0:
         return new ColumnRef_Constraints();
-      case 8:
+      case 9:
         return new SubSetTableRows_Constraints();
-      case 7:
+      case 8:
         return new SelectByGroup_Constraints();
       case 6:
         return new JoinTables_Constraints();
       case 2:
         return new FitXByY_Constraints();
-      case 9:
+      case 10:
         return new TableRef_Constraints();
+      case 7:
+        return new Multiplot_Constraints();
       default:
         // todo: illegal in some cases? 
         return new BaseConstraintsDescriptor(fqName);
     }
   }
 
-  private static String[] stringSwitchCases_2qnle6_a0a0b = new String[]{"org.campagnelab.hta.tables.structure.ColumnRef", "org.campagnelab.hta.tables.structure.CommonColumnSelection", "org.campagnelab.hta.tables.structure.FitXByY", "org.campagnelab.hta.tables.structure.FutureTable", "org.campagnelab.hta.tables.structure.FutureTableRef", "org.campagnelab.hta.tables.structure.ImportTable", "org.campagnelab.hta.tables.structure.JoinTables", "org.campagnelab.hta.tables.structure.SelectByGroup", "org.campagnelab.hta.tables.structure.SubSetTableRows", "org.campagnelab.hta.tables.structure.TableRef"};
+  private static String[] stringSwitchCases_2qnle6_a0a0b = new String[]{"org.campagnelab.hta.tables.structure.ColumnRef", "org.campagnelab.hta.tables.structure.CommonColumnSelection", "org.campagnelab.hta.tables.structure.FitXByY", "org.campagnelab.hta.tables.structure.FutureTable", "org.campagnelab.hta.tables.structure.FutureTableRef", "org.campagnelab.hta.tables.structure.ImportTable", "org.campagnelab.hta.tables.structure.JoinTables", "org.campagnelab.hta.tables.structure.Multiplot", "org.campagnelab.hta.tables.structure.SelectByGroup", "org.campagnelab.hta.tables.structure.SubSetTableRows", "org.campagnelab.hta.tables.structure.TableRef"};
 }

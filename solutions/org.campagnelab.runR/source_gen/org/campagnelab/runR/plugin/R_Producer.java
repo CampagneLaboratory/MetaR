@@ -32,7 +32,7 @@ public class R_Producer {
     }
 
     protected boolean isApplicable(Object source) {
-      return source instanceof SNode && SNodeOperations.isInstanceOf(((SNode) source), "org.campagnelab.hta.script.structure.Script");
+      return source instanceof SNode && SNodeOperations.isInstanceOf(((SNode) source), "org.campagnelab.hta.tables.structure.Script");
     }
 
     protected R_Configuration doCreateConfiguration(final SNode source) {
