@@ -672,20 +672,20 @@
     <unitInfo nodeId="8016431400516012420" fileName="CommonColumnSelection_Behavior.java" startLine="10" startPosition="0" endLine="18" endPosition="0" unitName="org.campagnelab.hta.tables.behavior.CommonColumnSelection_Behavior" />
   </root>
   <root nodeRef="r:db1b133e-9a0f-4319-b384-413408eb1729(org.campagnelab.hta.tables.behavior)/8016431400518331177">
-    <nodeInfo nodeId="8962032619586504048" fileName="Plot_Behavior.java" startLine="11" startPosition="43" endLine="12" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="8962032619586510375" fileName="Plot_Behavior.java" startLine="12" startPosition="59" endLine="13" endPosition="60" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4166618652723553920" fileName="Plot_Behavior.java" startLine="16" startPosition="73" endLine="17" endPosition="257" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="8016431400518331177" fileName="Plot_Behavior.java" startLine="16" startPosition="0" endLine="19" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="call_getPath_8016431400518331231#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
-    <nodeInfo nodeId="8016431400518331177" fileName="Plot_Behavior.java" startLine="11" startPosition="0" endLine="15" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
-    <scopeInfo nodeId="8016431400518331234" fileName="Plot_Behavior.java" startLine="16" startPosition="73" endLine="17" endPosition="257" />
-    <scopeInfo nodeId="8016431400518331179" fileName="Plot_Behavior.java" startLine="11" startPosition="43" endLine="13" endPosition="60" />
-    <scopeInfo nodeId="8016431400518331177" fileName="Plot_Behavior.java" startLine="16" startPosition="0" endLine="19" endPosition="0">
+    <nodeInfo nodeId="8962032619586504048" fileName="Plot_Behavior.java" startLine="12" startPosition="43" endLine="13" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8962032619586510375" fileName="Plot_Behavior.java" startLine="13" startPosition="59" endLine="14" endPosition="60" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4166618652723553920" fileName="Plot_Behavior.java" startLine="17" startPosition="73" endLine="18" endPosition="333" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8016431400518331177" fileName="Plot_Behavior.java" startLine="17" startPosition="0" endLine="20" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="call_getPath_8016431400518331231#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+    <nodeInfo nodeId="8016431400518331177" fileName="Plot_Behavior.java" startLine="12" startPosition="0" endLine="16" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+    <scopeInfo nodeId="8016431400518331234" fileName="Plot_Behavior.java" startLine="17" startPosition="73" endLine="18" endPosition="333" />
+    <scopeInfo nodeId="8016431400518331179" fileName="Plot_Behavior.java" startLine="12" startPosition="43" endLine="14" endPosition="60" />
+    <scopeInfo nodeId="8016431400518331177" fileName="Plot_Behavior.java" startLine="17" startPosition="0" endLine="20" endPosition="0">
       <varInfo nodeId="8016431400518331177" varName="thisNode" />
     </scopeInfo>
-    <scopeInfo nodeId="8016431400518331177" fileName="Plot_Behavior.java" startLine="11" startPosition="0" endLine="15" endPosition="0">
+    <scopeInfo nodeId="8016431400518331177" fileName="Plot_Behavior.java" startLine="12" startPosition="0" endLine="16" endPosition="0">
       <varInfo nodeId="8016431400518331177" varName="thisNode" />
     </scopeInfo>
-    <unitInfo nodeId="8016431400518331177" fileName="Plot_Behavior.java" startLine="10" startPosition="0" endLine="20" endPosition="0" unitName="org.campagnelab.hta.tables.behavior.Plot_Behavior" />
+    <unitInfo nodeId="8016431400518331177" fileName="Plot_Behavior.java" startLine="11" startPosition="0" endLine="21" endPosition="0" unitName="org.campagnelab.hta.tables.behavior.Plot_Behavior" />
   </root>
   <root nodeRef="r:db1b133e-9a0f-4319-b384-413408eb1729(org.campagnelab.hta.tables.behavior)/8962032619587151624">
     <nodeInfo nodeId="2517666855464429773" fileName="Multiplot_Behavior.java" startLine="17" startPosition="5" endLine="18" endPosition="156" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />

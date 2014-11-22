@@ -295,7 +295,7 @@ public class QueriesGenerated {
 
   public static Object propertyMacro_GetPropertyValue_2517666855465633575(final PropertyMacroContext _context) {
     int colWidth = 0;
-    for (int colIndex = 0; colIndex < SPropertyOperations.getInteger(_context.getNode(), "numRows"); colIndex++) {
+    for (int colIndex = 0; colIndex < SPropertyOperations.getInteger(_context.getNode(), "numColumns"); colIndex++) {
       colWidth = colWidth + SPropertyOperations.getInteger(SLinkOperations.getTarget(Multiplot_Behavior.call_getAt_8962032619587151678(_context.getNode(), 0, colIndex), "plot", false), "width");
     }
     return Integer.toString(colWidth);

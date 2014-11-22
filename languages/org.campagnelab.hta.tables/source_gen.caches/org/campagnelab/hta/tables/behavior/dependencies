@@ -364,6 +364,7 @@
   <dependency className="org.campagnelab.hta.tables.behavior.Plot_Behavior" file="Plot_Behavior.java">
     <classNode dependClassName="java.io.File" />
     <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations" />
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations" />
     <classNode dependClassName="jetbrains.mps.util.MacrosFactory" />
     <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
