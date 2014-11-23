@@ -2,6 +2,7 @@
 <dependenciesRoot>
   <dependency className="org.campagnelab.hta.tables.generator.template.main.QueriesGenerated" file="QueriesGenerated.java">
     <classNode dependClassName="java.lang.Class" />
+    <classNode dependClassName="java.lang.Double" />
     <classNode dependClassName="java.lang.Integer" />
     <classNode dependClassName="java.lang.Iterable" />
     <classNode dependClassName="java.lang.Object" />
@@ -32,6 +33,7 @@
     <classNode dependClassName="org.campagnelab.hta.tables.behavior.FutureTable_Behavior" />
     <classNode dependClassName="org.campagnelab.hta.tables.behavior.Multiplot_Behavior" />
     <classNode dependClassName="org.campagnelab.hta.tables.behavior.Plot_Behavior" />
+    <classNode dependClassName="org.campagnelab.hta.tables.behavior.Render_Behavior" />
     <classNode dependClassName="org.campagnelab.hta.tables.generationhelpers.NameHelper" />
     <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
   </dependency>

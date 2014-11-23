@@ -37,7 +37,55 @@ public class Multiplot_Behavior {
     return plots;
   }
 
+  public static List<Double> call_getMaxWidths_4842667988070020633(SNode thisNode) {
+    double[] widths = new double[SPropertyOperations.getInteger(thisNode, "numColumns")];
+    for (int rowIndex = 0; rowIndex < SPropertyOperations.getInteger(thisNode, "numRows"); rowIndex++) {
+      for (int colIndex = 0; colIndex < SPropertyOperations.getInteger(thisNode, "numColumns"); colIndex++) {
+        double plotWidth = SPropertyOperations.getInteger(SLinkOperations.getTarget(Multiplot_Behavior.call_getAt_8962032619587151678(thisNode, rowIndex, colIndex), "plot", false), "width");
+        double maxWidth = Math.max(widths[colIndex], plotWidth);
+        widths[colIndex] = maxWidth;
+      }
+    }
+    List<Double> result = ListSequence.fromList(new ArrayList<Double>());
+    for (double element : widths) {
+      ListSequence.fromList(result).addElement(element);
+    }
+    return result;
+  }
+
+  public static List<Double> call_getMaxHeights_4842667988070188543(SNode thisNode) {
+    double[] heights = new double[SPropertyOperations.getInteger(thisNode, "numRows")];
+    for (int rowIndex = 0; rowIndex < SPropertyOperations.getInteger(thisNode, "numRows"); rowIndex++) {
+      for (int colIndex = 0; colIndex < SPropertyOperations.getInteger(thisNode, "numColumns"); colIndex++) {
+        double plotWidth = SPropertyOperations.getInteger(SLinkOperations.getTarget(Multiplot_Behavior.call_getAt_8962032619587151678(thisNode, rowIndex, colIndex), "plot", false), "height");
+        double maxWidth = Math.max(heights[rowIndex], plotWidth);
+        heights[rowIndex] = maxWidth;
+      }
+    }
+    List<Double> result = ListSequence.fromList(new ArrayList<Double>());
+    for (double element : heights) {
+      ListSequence.fromList(result).addElement(element);
+    }
+    return result;
+  }
+
   public static String virtual_getTableName_8013388156564360086(SNode thisNode) {
     return "null";
+  }
+
+  public static double virtual_estimateWidth_4842667988071989466(SNode thisNode) {
+    double colWidth = 0;
+    for (int colIndex = 0; colIndex < SPropertyOperations.getInteger(thisNode, "numColumns"); colIndex++) {
+      colWidth = colWidth + SPropertyOperations.getInteger(SLinkOperations.getTarget(Multiplot_Behavior.call_getAt_8962032619587151678(thisNode, 0, colIndex), "plot", false), "width");
+    }
+    return colWidth;
+  }
+
+  public static double virtual_estimateHeight_4842667988071995771(SNode thisNode) {
+    double rowHeight = 0;
+    for (int rowIndex = 0; rowIndex < SPropertyOperations.getInteger(thisNode, "numRows"); rowIndex++) {
+      rowHeight = rowHeight + SPropertyOperations.getInteger(SLinkOperations.getTarget(Multiplot_Behavior.call_getAt_8962032619587151678(thisNode, rowIndex, 0), "plot", false), "height");
+    }
+    return rowHeight;
   }
 }

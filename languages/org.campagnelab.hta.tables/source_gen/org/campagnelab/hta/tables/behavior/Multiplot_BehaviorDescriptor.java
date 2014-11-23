@@ -10,6 +10,14 @@ public class Multiplot_BehaviorDescriptor extends PlotBuilderStatement_BehaviorD
   public Multiplot_BehaviorDescriptor() {
   }
 
+  public double virtual_estimateHeight_4842667988071995771(SNode thisNode) {
+    return Multiplot_Behavior.virtual_estimateHeight_4842667988071995771(thisNode);
+  }
+
+  public double virtual_estimateWidth_4842667988071989466(SNode thisNode) {
+    return Multiplot_Behavior.virtual_estimateWidth_4842667988071989466(thisNode);
+  }
+
   public String virtual_getFqName_1213877404258(SNode thisNode) {
     return INamedConcept_Behavior.virtual_getFqName_1213877404258(thisNode);
   }

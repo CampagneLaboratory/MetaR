@@ -1,6 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
-  <unitInfo fileName="QueriesGenerated.java" startLine="6" startPosition="0" endLine="8" endPosition="0" unitName="org.campagnelab.hta.tables.actions.QueriesGenerated" />
+  <unitInfo fileName="QueriesGenerated.java" startLine="11" startPosition="0" endLine="19" endPosition="0" unitName="org.campagnelab.hta.tables.actions.QueriesGenerated" />
+  <root nodeRef="r:5c9afbc5-4577-4abf-8cda-fcb0ba29a8f3(org.campagnelab.hta.tables.actions)/4842667988072570629">
+    <nodeInfo nodeId="4842667988072575063" fileName="QueriesGenerated.java" startLine="13" startPosition="85" endLine="14" endPosition="140" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="4842667988072575180" fileName="QueriesGenerated.java" startLine="14" startPosition="140" endLine="15" endPosition="78" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4842667988072570731" fileName="QueriesGenerated.java" startLine="12" startPosition="146" endLine="16" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="4842667988072570726" fileName="QueriesGenerated.java" startLine="12" startPosition="0" endLine="18" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="nodeFactory_NodeSetup_Render_4842667988072570726#(Ljetbrains/mps/smodel/IOperationContext;Ljetbrains/mps/smodel/action/NodeSetupContext;)V" />
+    <scopeInfo nodeId="4842667988072570732" fileName="QueriesGenerated.java" startLine="13" startPosition="85" endLine="15" endPosition="78">
+      <varInfo nodeId="4842667988072575066" varName="style" />
+    </scopeInfo>
+    <scopeInfo nodeId="4842667988072570727" fileName="QueriesGenerated.java" startLine="12" startPosition="146" endLine="16" endPosition="5" />
+    <scopeInfo nodeId="4842667988072570726" fileName="QueriesGenerated.java" startLine="12" startPosition="0" endLine="18" endPosition="0">
+      <varInfo nodeId="4842667988072570726" varName="_context" />
+      <varInfo nodeId="4842667988072570726" varName="operationContext" />
+    </scopeInfo>
+  </root>
   <root nodeRef="r:5c9afbc5-4577-4abf-8cda-fcb0ba29a8f3(org.campagnelab.hta.tables.actions)/8962032619593737388">
     <nodeInfo nodeId="8962032619593737389" fileName="ReIdStatement_PastePostProcessor_0.java" startLine="17" startPosition="39" endLine="18" endPosition="103" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="8962032619593737392" fileName="ReIdStatement_PastePostProcessor_0.java" startLine="21" startPosition="48" endLine="22" endPosition="76" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />

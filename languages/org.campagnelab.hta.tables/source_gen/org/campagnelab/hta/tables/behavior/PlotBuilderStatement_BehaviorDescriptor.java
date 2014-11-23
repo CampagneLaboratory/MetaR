@@ -8,6 +8,14 @@ public class PlotBuilderStatement_BehaviorDescriptor extends Statement_BehaviorD
   public PlotBuilderStatement_BehaviorDescriptor() {
   }
 
+  public double virtual_estimateHeight_4842667988071995771(SNode thisNode) {
+    return PlotBuilderStatement_Behavior.virtual_estimateHeight_4842667988071995771(thisNode);
+  }
+
+  public double virtual_estimateWidth_4842667988071989466(SNode thisNode) {
+    return PlotBuilderStatement_Behavior.virtual_estimateWidth_4842667988071989466(thisNode);
+  }
+
   public String virtual_getTableName_8013388156564360086(SNode thisNode) {
     return PlotBuilderStatement_Behavior.virtual_getTableName_8013388156564360086(thisNode);
   }

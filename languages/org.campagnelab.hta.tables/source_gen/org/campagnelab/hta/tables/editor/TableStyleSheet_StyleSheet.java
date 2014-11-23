@@ -30,5 +30,10 @@ public class TableStyleSheet_StyleSheet {
     style.set(StyleAttributes.FONT_STYLE, 0, MPSFonts.PLAIN);
   }
 
+  public static void apply_Style(Style style, EditorCell editorCell) {
+    style.set(StyleAttributes.TEXT_BACKGROUND_COLOR, 0, StyleRegistry.getInstance().getSimpleColor(MPSColors.lightGray));
+    style.set(StyleAttributes.EDITABLE, 0, false);
+  }
+
 
 }

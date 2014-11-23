@@ -15,6 +15,14 @@ public class PlotBuilderStatement_Behavior {
     return "null";
   }
 
+  public static double virtual_estimateWidth_4842667988071989466(SNode thisNode) {
+    return 200;
+  }
+
+  public static double virtual_estimateHeight_4842667988071995771(SNode thisNode) {
+    return 200;
+  }
+
   @Deprecated
   public static String call_getTableName_8013388156564360086(SNode thisNode) {
     return BehaviorReflection.invokeVirtual(String.class, thisNode, "virtual_getTableName_8013388156564360086", new Object[]{});
@@ -23,5 +31,25 @@ public class PlotBuilderStatement_Behavior {
   @Deprecated
   public static String callSuper_getTableName_8013388156564360086(SNode thisNode, String callerConceptFqName) {
     return BehaviorManager.getInstance().invokeSuper(String.class, SNodeOperations.cast(thisNode, "org.campagnelab.hta.tables.structure.PlotBuilderStatement"), callerConceptFqName, "virtual_getTableName_8013388156564360086", new Class[]{SNode.class}, new Object[]{});
+  }
+
+  @Deprecated
+  public static double call_estimateWidth_4842667988071989466(SNode thisNode) {
+    return BehaviorReflection.invokeVirtual(Double.TYPE, thisNode, "virtual_estimateWidth_4842667988071989466", new Object[]{});
+  }
+
+  @Deprecated
+  public static double callSuper_estimateWidth_4842667988071989466(SNode thisNode, String callerConceptFqName) {
+    return BehaviorManager.getInstance().invokeSuper(Double.TYPE, SNodeOperations.cast(thisNode, "org.campagnelab.hta.tables.structure.PlotBuilderStatement"), callerConceptFqName, "virtual_estimateWidth_4842667988071989466", new Class[]{SNode.class}, new Object[]{});
+  }
+
+  @Deprecated
+  public static double call_estimateHeight_4842667988071995771(SNode thisNode) {
+    return BehaviorReflection.invokeVirtual(Double.TYPE, thisNode, "virtual_estimateHeight_4842667988071995771", new Object[]{});
+  }
+
+  @Deprecated
+  public static double callSuper_estimateHeight_4842667988071995771(SNode thisNode, String callerConceptFqName) {
+    return BehaviorManager.getInstance().invokeSuper(Double.TYPE, SNodeOperations.cast(thisNode, "org.campagnelab.hta.tables.structure.PlotBuilderStatement"), callerConceptFqName, "virtual_estimateHeight_4842667988071995771", new Class[]{SNode.class}, new Object[]{});
   }
 }

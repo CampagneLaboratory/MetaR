@@ -25,6 +25,7 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.IAttributeDescriptor;
 import org.campagnelab.hta.tables.behavior.Plot_Behavior;
 import org.campagnelab.hta.tables.behavior.Multiplot_Behavior;
 import jetbrains.mps.internal.collections.runtime.Sequence;
+import org.campagnelab.hta.tables.behavior.Render_Behavior;
 import jetbrains.mps.generator.template.IfMacroContext;
 import jetbrains.mps.generator.template.SourceSubstituteMacroNodeContext;
 import jetbrains.mps.generator.template.SourceSubstituteMacroNodesContext;
@@ -365,6 +366,34 @@ public class QueriesGenerated {
     return Integer.toString(SPropertyOperations.getInteger(_context.getNode(), "numColumns"));
   }
 
+  public static Object propertyMacro_GetPropertyValue_4842667988069520977(final PropertyMacroContext _context) {
+    return Integer.toString(SPropertyOperations.getInteger(_context.getNode(), "numColumns") * SPropertyOperations.getInteger(_context.getNode(), "numRows"));
+  }
+
+  public static Object propertyMacro_GetPropertyValue_4842667988069572975(final PropertyMacroContext _context) {
+    return Integer.toString(SPropertyOperations.getInteger(_context.getNode(), "numRows"));
+  }
+
+  public static Object propertyMacro_GetPropertyValue_4842667988069575658(final PropertyMacroContext _context) {
+    return Integer.toString(SPropertyOperations.getInteger(_context.getNode(), "numColumns"));
+  }
+
+  public static Object propertyMacro_GetPropertyValue_4842667988069640645(final PropertyMacroContext _context) {
+    return IterableUtils.join(ListSequence.fromList(Multiplot_Behavior.call_getMaxWidths_4842667988070020633(_context.getNode())).select(new ISelector<Double, String>() {
+      public String select(Double it) {
+        return Double.toString(it);
+      }
+    }), ",");
+  }
+
+  public static Object propertyMacro_GetPropertyValue_4842667988069643418(final PropertyMacroContext _context) {
+    return IterableUtils.join(ListSequence.fromList(Multiplot_Behavior.call_getMaxHeights_4842667988070188543(_context.getNode())).select(new ISelector<Double, String>() {
+      public String select(Double it) {
+        return Double.toString(it);
+      }
+    }), ",");
+  }
+
   public static Object propertyMacro_GetPropertyValue_3687343996977968654(final PropertyMacroContext _context) {
     return Plot_Behavior.call_getStatementId_8013388156563811997(SLinkOperations.getTarget(_context.getNode(), "plot", false));
   }
@@ -379,19 +408,11 @@ public class QueriesGenerated {
   }
 
   public static Object propertyMacro_GetPropertyValue_2517666855465633575(final PropertyMacroContext _context) {
-    int colWidth = 0;
-    for (int colIndex = 0; colIndex < SPropertyOperations.getInteger(_context.getNode(), "numColumns"); colIndex++) {
-      colWidth = colWidth + SPropertyOperations.getInteger(SLinkOperations.getTarget(Multiplot_Behavior.call_getAt_8962032619587151678(_context.getNode(), 0, colIndex), "plot", false), "width");
-    }
-    return Integer.toString(colWidth);
+    return Double.toString(BehaviorReflection.invokeVirtual(Double.TYPE, _context.getNode(), "virtual_estimateWidth_4842667988071989466", new Object[]{}));
   }
 
   public static Object propertyMacro_GetPropertyValue_8962032619588507046(final PropertyMacroContext _context) {
-    int rowHeight = 0;
-    for (int rowIndex = 0; rowIndex < SPropertyOperations.getInteger(_context.getNode(), "numRows"); rowIndex++) {
-      rowHeight = rowHeight + SPropertyOperations.getInteger(SLinkOperations.getTarget(Multiplot_Behavior.call_getAt_8962032619587151678(_context.getNode(), rowIndex, 0), "plot", false), "height");
-    }
-    return Integer.toString(rowHeight);
+    return Double.toString(BehaviorReflection.invokeVirtual(Double.TYPE, _context.getNode(), "virtual_estimateHeight_4842667988071995771", new Object[]{}));
   }
 
   public static Object propertyMacro_GetPropertyValue_8013388156564134449(final PropertyMacroContext _context) {
@@ -422,10 +443,6 @@ public class QueriesGenerated {
     return SPropertyOperations.getString(_context.getNode(), "name") + "_script";
   }
 
-  public static Object propertyMacro_GetPropertyValue_8013388156563864288(final PropertyMacroContext _context) {
-    return SPropertyOperations.getString(_context.getNode(), "filename");
-  }
-
   public static Object propertyMacro_GetPropertyValue_8013388156563793440(final PropertyMacroContext _context) {
     return Plot_Behavior.call_getStatementId_8013388156563811997(SLinkOperations.getTarget(_context.getNode(), "plot", false));
   }
@@ -436,6 +453,22 @@ public class QueriesGenerated {
 
   public static Object propertyMacro_GetPropertyValue_4842667988067759226(final PropertyMacroContext _context) {
     return SPropertyOperations.getString(_context.getNode(), "id");
+  }
+
+  public static Object propertyMacro_GetPropertyValue_4842667988071959723(final PropertyMacroContext _context) {
+    return Render_Behavior.call_getDestinationPath_4842667988071587758(SNodeOperations.getAncestor(_context.getNode(), "org.campagnelab.hta.tables.structure.Render", false, false));
+  }
+
+  public static Object propertyMacro_GetPropertyValue_4842667988071972393(final PropertyMacroContext _context) {
+    SNode render = SNodeOperations.getAncestor(_context.getNode(), "org.campagnelab.hta.tables.structure.Render", false, false);
+    double width = BehaviorReflection.invokeVirtual(Double.TYPE, SNodeOperations.cast(SNodeOperations.getParent(SLinkOperations.getTarget(render, "plot", false)), "org.campagnelab.hta.tables.structure.PlotBuilderStatement"), "virtual_estimateWidth_4842667988071989466", new Object[]{});
+    return Double.toString(width / (SPropertyOperations.getInteger(SLinkOperations.getTarget(render, "style", false), "pixelsPerInch")));
+  }
+
+  public static Object propertyMacro_GetPropertyValue_4842667988072079168(final PropertyMacroContext _context) {
+    SNode render = SNodeOperations.getAncestor(_context.getNode(), "org.campagnelab.hta.tables.structure.Render", false, false);
+    double height = BehaviorReflection.invokeVirtual(Double.TYPE, SNodeOperations.getAncestor(SLinkOperations.getTarget(render, "plot", false), "org.campagnelab.hta.tables.structure.PlotBuilderStatement", false, false), "virtual_estimateHeight_4842667988071995771", new Object[]{});
+    return Double.toString(height / SPropertyOperations.getInteger(SLinkOperations.getTarget(render, "style", false), "pixelsPerInch"));
   }
 
   public static boolean ifMacro_Condition_1549006859295113839(final IfMacroContext _context) {
@@ -492,6 +525,10 @@ public class QueriesGenerated {
 
   public static SNode sourceNodeQuery_772483346259559062(final SourceSubstituteMacroNodeContext _context) {
     return SLinkOperations.getTarget(_context.getNode(), "statements", true);
+  }
+
+  public static SNode sourceNodeQuery_4842667988071956352(final SourceSubstituteMacroNodeContext _context) {
+    return SLinkOperations.getTarget(_context.getNode(), "output", true);
   }
 
   public static Iterable<SNode> sourceNodesQuery_3402264987267873052(final SourceSubstituteMacroNodesContext _context) {
