@@ -3289,7 +3289,7 @@
             </node>
           </node>
           <node role="phrases" roleId="p6sl.1680136183140337477" type="p6sl.Phrase" typeId="p6sl.1680136183140337486" id="5333555603574513112" nodeInfo="ng">
-            <property name="text" nameId="p6sl.1680136183140337487" value="&quot;," />
+            <property name="text" nameId="p6sl.1680136183140337487" value="&quot;, cex.main=2," />
           </node>
         </node>
         <node role="lines" roleId="p6sl.5039633819242576854" type="p6sl.Lines" typeId="p6sl.5039633819242576787" id="4842667988068023019" nodeInfo="ng">
@@ -3623,7 +3623,7 @@
                     </node>
                   </node>
                   <node role="phrases" roleId="p6sl.1680136183140337477" type="p6sl.Phrase" typeId="p6sl.1680136183140337486" id="6001041468486989826" nodeInfo="ng">
-                    <property name="text" nameId="p6sl.1680136183140337487" value="&quot;)" />
+                    <property name="text" nameId="p6sl.1680136183140337487" value="&quot;, cex.lab=1.75)" />
                   </node>
                 </node>
               </node>
