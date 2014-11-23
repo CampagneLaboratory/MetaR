@@ -13,6 +13,7 @@
   <import index="tpce" modelUID="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" version="0" implicit="yes" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
   <import index="jrxw" modelUID="r:9f2bbfbf-f8b7-4b3b-92b1-b6a0e9642c10(org.campagnelab.hta.tables.structure)" version="7" implicit="yes" />
+  <import index="tpc2" modelUID="r:00000000-0000-4000-0000-011c8959029e(jetbrains.mps.lang.editor.structure)" version="35" implicit="yes" />
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="3402264987258987827" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="Table" />
     <property name="conceptAlias" nameId="tpce.5092175715804935370" value="Table" />
@@ -597,6 +598,16 @@
     <property name="name" nameId="tpck.1169194664001" value="ScatterPlotStyle" />
     <property name="rootable" nameId="tpce.1096454100552" value="true" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="5333555603574035147" resolveInfo="PlotStyle" />
+    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="8286430004407883654" nodeInfo="ig">
+      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
+      <property name="role" nameId="tpce.1071599776563" value="xRange" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="8286430004407881520" resolveInfo="Range" />
+    </node>
+    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="8286430004407883656" nodeInfo="ig">
+      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
+      <property name="role" nameId="tpce.1071599776563" value="yRange" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="8286430004407881520" resolveInfo="Range" />
+    </node>
     <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="5333555603574055809" nodeInfo="ig">
       <property name="name" nameId="tpck.1169194664001" value="xLabel" />
       <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpck.1082983041843" resolveInfo="string" />
@@ -604,6 +615,19 @@
     <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="5333555603574055811" nodeInfo="ig">
       <property name="name" nameId="tpck.1169194664001" value="yLabel" />
       <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpck.1082983041843" resolveInfo="string" />
+    </node>
+  </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="8286430004407881520" nodeInfo="ig">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="plots" />
+    <property name="name" nameId="tpck.1169194664001" value="Range" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
+    <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="8286430004407883630" nodeInfo="ig">
+      <property name="name" nameId="tpck.1169194664001" value="min" />
+      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpc2.1239805001815" resolveInfo="_FloatOrInteger_String" />
+    </node>
+    <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="8286430004407883632" nodeInfo="ig">
+      <property name="name" nameId="tpck.1169194664001" value="max" />
+      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpc2.1239805001815" resolveInfo="_FloatOrInteger_String" />
     </node>
   </root>
 </model>

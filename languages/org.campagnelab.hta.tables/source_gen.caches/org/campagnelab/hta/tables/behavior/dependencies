@@ -37,6 +37,7 @@
     <classNode dependClassName="org.campagnelab.hta.tables.behavior.PlotStyle_BehaviorDescriptor" />
     <classNode dependClassName="org.campagnelab.hta.tables.behavior.Plot_BehaviorDescriptor" />
     <classNode dependClassName="org.campagnelab.hta.tables.behavior.R_Package_BehaviorDescriptor" />
+    <classNode dependClassName="org.campagnelab.hta.tables.behavior.Range_BehaviorDescriptor" />
     <classNode dependClassName="org.campagnelab.hta.tables.behavior.ScatterPlotStyle_BehaviorDescriptor" />
     <classNode dependClassName="org.campagnelab.hta.tables.behavior.Script_BehaviorDescriptor" />
     <classNode dependClassName="org.campagnelab.hta.tables.behavior.SelectByGroup_BehaviorDescriptor" />
@@ -408,6 +409,12 @@
     <classNode dependClassName="jetbrains.mps.lang.core.behavior.INamedConcept_BehaviorDescriptor" />
     <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
     <classNode extendsClassName="java.lang.Cloneable" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="org.campagnelab.hta.tables.behavior.Range_BehaviorDescriptor" file="Range_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor" />
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
   </dependency>
   <dependency className="org.campagnelab.hta.tables.behavior.RowFilter_Behavior" file="RowFilter_Behavior.java">

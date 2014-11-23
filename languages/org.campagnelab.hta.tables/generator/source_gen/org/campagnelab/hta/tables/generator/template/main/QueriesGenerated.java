@@ -269,6 +269,22 @@ public class QueriesGenerated {
     return SPropertyOperations.getString(SLinkOperations.getTarget(_context.getNode(), "y", false), "name");
   }
 
+  public static Object propertyMacro_GetPropertyValue_8286430004408149347(final PropertyMacroContext _context) {
+    return SPropertyOperations.getString(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "style", false), "xRange", true), "min");
+  }
+
+  public static Object propertyMacro_GetPropertyValue_8286430004408162182(final PropertyMacroContext _context) {
+    return SPropertyOperations.getString(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "style", false), "xRange", true), "max");
+  }
+
+  public static Object propertyMacro_GetPropertyValue_8286430004408178285(final PropertyMacroContext _context) {
+    return SPropertyOperations.getString(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "style", false), "yRange", true), "min");
+  }
+
+  public static Object propertyMacro_GetPropertyValue_8286430004408178299(final PropertyMacroContext _context) {
+    return SPropertyOperations.getString(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "style", false), "yRange", true), "max");
+  }
+
   public static Object propertyMacro_GetPropertyValue_3442436599519391775(final PropertyMacroContext _context) {
     return SPropertyOperations.getString(SLinkOperations.getTarget(_context.getNode(), "groupBy", false), "name");
   }
@@ -399,6 +415,14 @@ public class QueriesGenerated {
 
   public static boolean ifMacro_Condition_6001041468487572972(final IfMacroContext _context) {
     return false;
+  }
+
+  public static boolean ifMacro_Condition_8286430004408199559(final IfMacroContext _context) {
+    return (SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "style", false), "xRange", true) != null);
+  }
+
+  public static boolean ifMacro_Condition_8286430004408210438(final IfMacroContext _context) {
+    return (SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "style", false), "yRange", true) != null);
   }
 
   public static boolean ifMacro_Condition_3442436599519404533(final IfMacroContext _context) {

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
   <unitInfo fileName="AbstractRowFilter_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="org.campagnelab.hta.tables.behavior.AbstractRowFilter_BehaviorDescriptor" />
-  <unitInfo fileName="BehaviorAspectDescriptor.java" startLine="9" startPosition="0" endLine="88" endPosition="0" unitName="org.campagnelab.hta.tables.behavior.BehaviorAspectDescriptor" />
+  <unitInfo fileName="BehaviorAspectDescriptor.java" startLine="9" startPosition="0" endLine="90" endPosition="0" unitName="org.campagnelab.hta.tables.behavior.BehaviorAspectDescriptor" />
   <unitInfo fileName="ColumnAnnotation_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="org.campagnelab.hta.tables.behavior.ColumnAnnotation_BehaviorDescriptor" />
   <unitInfo fileName="ColumnGroupContainer_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="org.campagnelab.hta.tables.behavior.ColumnGroupContainer_BehaviorDescriptor" />
   <unitInfo fileName="ColumnGroupReference_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="org.campagnelab.hta.tables.behavior.ColumnGroupReference_BehaviorDescriptor" />
@@ -30,6 +30,7 @@
   <unitInfo fileName="PlotStyle_BehaviorDescriptor.java" startLine="10" startPosition="0" endLine="23" endPosition="0" unitName="org.campagnelab.hta.tables.behavior.PlotStyle_BehaviorDescriptor" />
   <unitInfo fileName="Plot_BehaviorDescriptor.java" startLine="10" startPosition="0" endLine="23" endPosition="0" unitName="org.campagnelab.hta.tables.behavior.Plot_BehaviorDescriptor" />
   <unitInfo fileName="R_Package_BehaviorDescriptor.java" startLine="10" startPosition="0" endLine="23" endPosition="0" unitName="org.campagnelab.hta.tables.behavior.R_Package_BehaviorDescriptor" />
+  <unitInfo fileName="Range_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="org.campagnelab.hta.tables.behavior.Range_BehaviorDescriptor" />
   <unitInfo fileName="RowFilter_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="8" endPosition="0" unitName="org.campagnelab.hta.tables.behavior.RowFilter_BehaviorDescriptor" />
   <unitInfo fileName="ScatterPlotStyle_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="org.campagnelab.hta.tables.behavior.ScatterPlotStyle_BehaviorDescriptor" />
   <unitInfo fileName="Script_BehaviorDescriptor.java" startLine="13" startPosition="0" endLine="38" endPosition="0" unitName="org.campagnelab.hta.tables.behavior.Script_BehaviorDescriptor" />
