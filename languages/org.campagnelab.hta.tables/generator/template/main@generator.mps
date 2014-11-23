@@ -3391,8 +3391,32 @@
         <node role="lines" roleId="p6sl.5039633819242576854" type="p6sl.Line" typeId="p6sl.5493669862519709805" id="6001041468486989761" nodeInfo="ng">
           <property name="text" nameId="p6sl.5493669862519718600" value="pValue&lt;-summary.lm(mDiscovery)$coefficients[2,4]" />
         </node>
-        <node role="lines" roleId="p6sl.5039633819242576854" type="p6sl.Line" typeId="p6sl.5493669862519709805" id="6001041468486989762" nodeInfo="ng">
-          <property name="text" nameId="p6sl.5493669862519718600" value="mtext(paste(&quot;Adj. r^2:&quot;,round(summary.lm(mDiscovery)$adj.r.squared,digits=3),&quot;P-Value:&quot;,round(pValue,digits=3)))" />
+        <node role="lines" roleId="p6sl.5039633819242576854" type="p6sl.Lines" typeId="p6sl.5039633819242576787" id="945949652762647084" nodeInfo="ng">
+          <property name="text" nameId="p6sl.5493669862519718600" value="" />
+          <node role="lines" roleId="p6sl.5039633819242576854" type="p6sl.Line" typeId="p6sl.5493669862519709805" id="945949652762647085" nodeInfo="ng">
+            <property name="text" nameId="p6sl.5493669862519718600" value="" />
+          </node>
+          <node role="lines" roleId="p6sl.5039633819242576854" type="p6sl.Line" typeId="p6sl.5493669862519709805" id="945949652762647086" nodeInfo="ng">
+            <property name="text" nameId="p6sl.5493669862519718600" value="mtext(adj=0,c(expression(r^2~adj.)))" />
+          </node>
+          <node role="lines" roleId="p6sl.5039633819242576854" type="p6sl.Line" typeId="p6sl.5493669862519709805" id="945949652762647087" nodeInfo="ng">
+            <property name="text" nameId="p6sl.5493669862519718600" value="mtext(adj=0.2,round(summary.lm(mDiscovery)$adj.r.squared,digits=3))" />
+          </node>
+          <node role="lines" roleId="p6sl.5039633819242576854" type="p6sl.Line" typeId="p6sl.5493669862519709805" id="945949652762647088" nodeInfo="ng">
+            <property name="text" nameId="p6sl.5493669862519718600" value="mtext(adj=0.8,paste(&quot;P-value:&quot;))" />
+          </node>
+        </node>
+        <node role="lines" roleId="p6sl.5039633819242576854" type="p6sl.Line" typeId="p6sl.5493669862519709805" id="945949652762650790" nodeInfo="ng">
+          <property name="text" nameId="p6sl.5493669862519718600" value="mtext(adj=1.0,round(pValue,digits=3))" />
+          <node role="phrases" roleId="p6sl.1680136183140337477" type="p6sl.Phrase" typeId="p6sl.1680136183140337486" id="945949652762650791" nodeInfo="ng">
+            <property name="text" nameId="p6sl.1680136183140337487" value="" />
+          </node>
+        </node>
+        <node role="lines" roleId="p6sl.5039633819242576854" type="p6sl.Line" typeId="p6sl.5493669862519709805" id="945949652762632594" nodeInfo="ng">
+          <property name="text" nameId="p6sl.5493669862519718600" value="" />
+          <node role="phrases" roleId="p6sl.1680136183140337477" type="p6sl.Phrase" typeId="p6sl.1680136183140337486" id="945949652762632662" nodeInfo="ng">
+            <property name="text" nameId="p6sl.1680136183140337487" value="" />
+          </node>
         </node>
       </node>
       <node role="lines" roleId="p6sl.5039633819242576854" type="p6sl.Line" typeId="p6sl.5493669862519709805" id="2517666855462649415" nodeInfo="ng">
