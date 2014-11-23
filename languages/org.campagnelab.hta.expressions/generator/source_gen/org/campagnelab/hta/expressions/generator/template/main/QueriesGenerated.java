@@ -46,6 +46,10 @@ public class QueriesGenerated {
     return SPropertyOperations.getString(SLinkOperations.getTarget(_context.getNode(), "column", false), "name");
   }
 
+  public static Object propertyMacro_GetPropertyValue_5821174364903479560(final PropertyMacroContext _context) {
+    return SPropertyOperations.getString(_context.getNode(), "value");
+  }
+
   public static SNode sourceNodeQuery_548459537434081223(final SourceSubstituteMacroNodeContext _context) {
     return SLinkOperations.getTarget(_context.getNode(), "leftExpression", true);
   }
