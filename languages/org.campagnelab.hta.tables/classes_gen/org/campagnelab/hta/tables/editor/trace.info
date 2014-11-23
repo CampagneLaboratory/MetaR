@@ -149,7 +149,7 @@
     <nodeInfo nodeId="3105090771424811453" fileName="Multiplot_Editor.java" startLine="272" startPosition="54" endLine="273" endPosition="132" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="3105090771425088865" fileName="Multiplot_Editor.java" startLine="276" startPosition="54" endLine="277" endPosition="119" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="2517666855466390231" fileName="Multiplot_Editor.java" startLine="280" startPosition="58" endLine="281" endPosition="29" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="2517666855466390734" fileName="Multiplot_Editor.java" startLine="282" startPosition="111" endLine="283" endPosition="208" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="2517666855466390734" fileName="Multiplot_Editor.java" startLine="282" startPosition="108" endLine="283" endPosition="208" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="2517666855466403274" fileName="Multiplot_Editor.java" startLine="284" startPosition="13" endLine="285" endPosition="28" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="3105090771424570870" fileName="Multiplot_Editor.java" startLine="289" startPosition="6" endLine="290" endPosition="190" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="3105090771424570870" fileName="Multiplot_Editor.java" startLine="290" startPosition="190" endLine="291" endPosition="46" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
@@ -233,7 +233,7 @@
     <scopeInfo nodeId="3105090771424784543" fileName="Multiplot_Editor.java" startLine="268" startPosition="48" endLine="269" endPosition="113" />
     <scopeInfo nodeId="3105090771424784551" fileName="Multiplot_Editor.java" startLine="272" startPosition="54" endLine="273" endPosition="132" />
     <scopeInfo nodeId="3105090771424784559" fileName="Multiplot_Editor.java" startLine="276" startPosition="54" endLine="277" endPosition="119" />
-    <scopeInfo nodeId="2517666855466366901" fileName="Multiplot_Editor.java" startLine="282" startPosition="111" endLine="283" endPosition="208" />
+    <scopeInfo nodeId="2517666855466366901" fileName="Multiplot_Editor.java" startLine="282" startPosition="108" endLine="283" endPosition="208" />
     <scopeInfo nodeId="3105090771424561506" fileName="Multiplot_Editor.java" startLine="210" startPosition="9" endLine="212" endPosition="65">
       <varInfo nodeId="3105090771424561506" varName="node" />
     </scopeInfo>

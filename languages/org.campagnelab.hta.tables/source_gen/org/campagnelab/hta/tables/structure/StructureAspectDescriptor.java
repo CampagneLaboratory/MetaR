@@ -42,7 +42,7 @@ public class StructureAspectDescriptor implements jetbrains.mps.smodel.runtime.S
       case 13:
         return new ConceptDescriptorBuilder("org.campagnelab.hta.tables.structure.FilterWithIDList").super_("org.campagnelab.hta.tables.structure.AbstractRowFilter").parents("org.campagnelab.hta.tables.structure.AbstractRowFilter").references("set").alias("with IDs", "Filter rows that match a set of IDs").create();
       case 14:
-        return new ConceptDescriptorBuilder("org.campagnelab.hta.tables.structure.FitXByY").super_("org.campagnelab.hta.tables.structure.Statement").parents("org.campagnelab.hta.tables.structure.Statement").references("x", "y", "style").children(new String[]{"table", "plot"}, new boolean[]{false, false}).alias("fit x by y", "fit a linear model and show an annotated plot of the fit").create();
+        return new ConceptDescriptorBuilder("org.campagnelab.hta.tables.structure.FitXByY").super_("org.campagnelab.hta.tables.structure.Statement").parents("org.campagnelab.hta.tables.structure.Statement").references("x", "y", "groupBy", "style").children(new String[]{"table", "plot"}, new boolean[]{false, false}).alias("fit x by y", "fit a linear model and show an annotated plot of the fit").create();
       case 15:
         return new ConceptDescriptorBuilder("org.campagnelab.hta.tables.structure.FutureTable").super_("jetbrains.mps.lang.core.structure.BaseConcept").parents("jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.lang.core.structure.INamedConcept").properties("id").references("table").children(new String[]{"myOwnTable"}, new boolean[]{false}).create();
       case 16:

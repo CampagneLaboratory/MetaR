@@ -279,7 +279,7 @@ public class Multiplot_Editor extends DefaultNodeEditor {
 
           public int getMaxColumnWidth(int columnNumber) {
             int maxWidth = 0;
-            for (int rowIndex = 0; rowIndex < SPropertyOperations.getInteger(node, "numColumns"); rowIndex++) {
+            for (int rowIndex = 0; rowIndex < SPropertyOperations.getInteger(node, "numRows"); rowIndex++) {
               maxWidth = Math.max(maxWidth, SPropertyOperations.getInteger(SLinkOperations.getTarget(Multiplot_Behavior.call_getAt_8962032619587151678(node, rowIndex, columnNumber), "plot", false), "width"));
             }
             return maxWidth;

@@ -18,7 +18,7 @@ public class FitXByY_Behavior {
   }
 
   public static Iterable<String> virtual_dependencies_8962032619593737608(SNode thisNode) {
-    return Sequence.<String>singleton("ggplot2");
+    return Sequence.<String>singleton("car");
   }
 
   public static String virtual_getSourceTableName_8962032619593737588(SNode thisNode) {

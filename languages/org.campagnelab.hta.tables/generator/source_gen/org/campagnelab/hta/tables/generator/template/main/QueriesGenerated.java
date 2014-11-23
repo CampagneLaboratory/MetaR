@@ -246,7 +246,7 @@ public class QueriesGenerated {
   }
 
   public static Object propertyMacro_GetPropertyValue_6001041468486989837(final PropertyMacroContext _context) {
-    return "\"" + SPropertyOperations.getString(SLinkOperations.getTarget(_context.getNode(), "x", false), "name") + "\",\"" + SPropertyOperations.getString(SLinkOperations.getTarget(_context.getNode(), "y", false), "name") + "\"";
+    return "\"" + SPropertyOperations.getString(SLinkOperations.getTarget(_context.getNode(), "x", false), "name") + "\",\"" + SPropertyOperations.getString(SLinkOperations.getTarget(_context.getNode(), "y", false), "name") + "\"" + (((SLinkOperations.getTarget(_context.getNode(), "groupBy", false) != null) ? "\"" + SPropertyOperations.getString(SLinkOperations.getTarget(_context.getNode(), "groupBy", false), "name") + "\"" : ""));
   }
 
   public static Object propertyMacro_GetPropertyValue_6001041468487574285(final PropertyMacroContext _context) {
@@ -259,6 +259,26 @@ public class QueriesGenerated {
 
   public static Object propertyMacro_GetPropertyValue_6001041468487047756(final PropertyMacroContext _context) {
     return SPropertyOperations.getString(SLinkOperations.getTarget(_context.getNode(), "x", false), "name");
+  }
+
+  public static Object propertyMacro_GetPropertyValue_3442436599519388467(final PropertyMacroContext _context) {
+    return SPropertyOperations.getString(SLinkOperations.getTarget(_context.getNode(), "x", false), "name");
+  }
+
+  public static Object propertyMacro_GetPropertyValue_3442436599519389386(final PropertyMacroContext _context) {
+    return SPropertyOperations.getString(SLinkOperations.getTarget(_context.getNode(), "y", false), "name");
+  }
+
+  public static Object propertyMacro_GetPropertyValue_3442436599519391775(final PropertyMacroContext _context) {
+    return SPropertyOperations.getString(SLinkOperations.getTarget(_context.getNode(), "groupBy", false), "name");
+  }
+
+  public static Object propertyMacro_GetPropertyValue_3442436599519473717(final PropertyMacroContext _context) {
+    return SPropertyOperations.getString(SLinkOperations.getTarget(_context.getNode(), "style", false), "xLabel");
+  }
+
+  public static Object propertyMacro_GetPropertyValue_3442436599519485503(final PropertyMacroContext _context) {
+    return SPropertyOperations.getString(SLinkOperations.getTarget(_context.getNode(), "style", false), "yLabel");
   }
 
   public static Object propertyMacro_GetPropertyValue_5333555603574514247(final PropertyMacroContext _context) {
@@ -379,6 +399,10 @@ public class QueriesGenerated {
 
   public static boolean ifMacro_Condition_6001041468487572972(final IfMacroContext _context) {
     return false;
+  }
+
+  public static boolean ifMacro_Condition_3442436599519404533(final IfMacroContext _context) {
+    return (SLinkOperations.getTarget(_context.getNode(), "groupBy", false) != null);
   }
 
   public static SNode sourceNodeQuery_7783277237109349553(final SourceSubstituteMacroNodeContext _context) {
