@@ -3200,7 +3200,7 @@
           <property name="text" nameId="p6sl.5493669862519718600" value="pValue&lt;-summary.lm(mDiscovery)$coefficients[2,4]" />
         </node>
         <node role="lines" roleId="p6sl.5039633819242576854" type="p6sl.Line" typeId="p6sl.5493669862519709805" id="6001041468486989762" nodeInfo="ng">
-          <property name="text" nameId="p6sl.5493669862519718600" value="mtext(paste(&quot;Adj. r^2:&quot;,round(summary.lm(mDiscovery)$adj.r.squared,digits=3)),&quot;P-Value:&quot;,round(pValue,digits=3))" />
+          <property name="text" nameId="p6sl.5493669862519718600" value="mtext(paste(&quot;Adj. r^2:&quot;,round(summary.lm(mDiscovery)$adj.r.squared,digits=3),&quot;P-Value:&quot;,round(pValue,digits=3)))" />
         </node>
       </node>
       <node role="lines" roleId="p6sl.5039633819242576854" type="p6sl.Line" typeId="p6sl.5493669862519709805" id="2517666855462649415" nodeInfo="ng">
@@ -3505,7 +3505,7 @@
             <property name="text" nameId="p6sl.1680136183140337487" value="&quot;, width=" />
           </node>
           <node role="phrases" roleId="p6sl.1680136183140337477" type="p6sl.Phrase" typeId="p6sl.1680136183140337486" id="2517666855465632179" nodeInfo="ng">
-            <property name="text" nameId="p6sl.1680136183140337487" value=".w.." />
+            <property name="text" nameId="p6sl.1680136183140337487" value="w" />
             <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpf8.PropertyMacro" typeId="tpf8.1087833241328" id="2517666855465633574" nodeInfo="nn">
               <property name="propertyName" nameId="tpck.1757699476691236117" value="text" />
               <node role="propertyValueFunction" roleId="tpf8.1167756362303" type="tpf8.PropertyMacro_GetPropertyValue" typeId="tpf8.1167756080639" id="2517666855465633575" nodeInfo="nn">
