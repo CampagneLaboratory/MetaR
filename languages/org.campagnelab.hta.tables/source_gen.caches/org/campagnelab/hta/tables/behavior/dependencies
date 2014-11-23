@@ -32,12 +32,15 @@
     <classNode dependClassName="org.campagnelab.hta.tables.behavior.ImportTable_BehaviorDescriptor" />
     <classNode dependClassName="org.campagnelab.hta.tables.behavior.JoinTables_BehaviorDescriptor" />
     <classNode dependClassName="org.campagnelab.hta.tables.behavior.Multiplot_BehaviorDescriptor" />
+    <classNode dependClassName="org.campagnelab.hta.tables.behavior.PDF_BehaviorDescriptor" />
+    <classNode dependClassName="org.campagnelab.hta.tables.behavior.PlotBuilderStatement_BehaviorDescriptor" />
     <classNode dependClassName="org.campagnelab.hta.tables.behavior.PlotRefWithPreview_BehaviorDescriptor" />
     <classNode dependClassName="org.campagnelab.hta.tables.behavior.PlotRef_BehaviorDescriptor" />
     <classNode dependClassName="org.campagnelab.hta.tables.behavior.PlotStyle_BehaviorDescriptor" />
     <classNode dependClassName="org.campagnelab.hta.tables.behavior.Plot_BehaviorDescriptor" />
     <classNode dependClassName="org.campagnelab.hta.tables.behavior.R_Package_BehaviorDescriptor" />
     <classNode dependClassName="org.campagnelab.hta.tables.behavior.Range_BehaviorDescriptor" />
+    <classNode dependClassName="org.campagnelab.hta.tables.behavior.Render_BehaviorDescriptor" />
     <classNode dependClassName="org.campagnelab.hta.tables.behavior.ScatterPlotStyle_BehaviorDescriptor" />
     <classNode dependClassName="org.campagnelab.hta.tables.behavior.Script_BehaviorDescriptor" />
     <classNode dependClassName="org.campagnelab.hta.tables.behavior.SelectByGroup_BehaviorDescriptor" />
@@ -188,7 +191,7 @@
     <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="org.campagnelab.hta.tables.behavior.FitXByY_Behavior" />
-    <classNode dependClassName="org.campagnelab.hta.tables.behavior.Statement_BehaviorDescriptor" />
+    <classNode dependClassName="org.campagnelab.hta.tables.behavior.PlotBuilderStatement_BehaviorDescriptor" />
     <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
   </dependency>
@@ -338,6 +341,9 @@
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
   </dependency>
   <dependency className="org.campagnelab.hta.tables.behavior.Multiplot_Behavior" file="Multiplot_Behavior.java">
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.util.ArrayList" />
+    <classNode dependClassName="java.util.List" />
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ListSequence" />
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations" />
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations" />
@@ -350,9 +356,34 @@
     <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="jetbrains.mps.lang.core.behavior.INamedConcept_Behavior" />
     <classNode dependClassName="jetbrains.mps.lang.core.behavior.INamedConcept_BehaviorDescriptor" />
-    <classNode dependClassName="org.campagnelab.hta.tables.behavior.Statement_BehaviorDescriptor" />
+    <classNode dependClassName="org.campagnelab.hta.tables.behavior.Multiplot_Behavior" />
+    <classNode dependClassName="org.campagnelab.hta.tables.behavior.PlotBuilderStatement_BehaviorDescriptor" />
     <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
     <classNode extendsClassName="java.lang.Cloneable" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="org.campagnelab.hta.tables.behavior.PDF_BehaviorDescriptor" file="PDF_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="org.campagnelab.hta.tables.behavior.RenderingFormat_BehaviorDescriptor" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="org.campagnelab.hta.tables.behavior.PlotBuilderStatement_Behavior" file="PlotBuilderStatement_Behavior.java">
+    <classNode dependClassName="java.lang.Class" />
+    <classNode dependClassName="java.lang.Deprecated" />
+    <classNode dependClassName="java.lang.Object" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations" />
+    <classNode dependClassName="jetbrains.mps.smodel.behaviour.BehaviorManager" />
+    <classNode dependClassName="jetbrains.mps.smodel.behaviour.BehaviorReflection" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
+  </dependency>
+  <dependency className="org.campagnelab.hta.tables.behavior.PlotBuilderStatement_BehaviorDescriptor" file="PlotBuilderStatement_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="org.campagnelab.hta.tables.behavior.PlotBuilderStatement_Behavior" />
+    <classNode dependClassName="org.campagnelab.hta.tables.behavior.Statement_BehaviorDescriptor" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
   </dependency>
   <dependency className="org.campagnelab.hta.tables.behavior.PlotRefWithPreview_BehaviorDescriptor" file="PlotRefWithPreview_BehaviorDescriptor.java">
@@ -385,9 +416,11 @@
   </dependency>
   <dependency className="org.campagnelab.hta.tables.behavior.Plot_Behavior" file="Plot_Behavior.java">
     <classNode dependClassName="java.io.File" />
+    <classNode dependClassName="java.lang.Object" />
     <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations" />
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations" />
+    <classNode dependClassName="jetbrains.mps.smodel.behaviour.BehaviorReflection" />
     <classNode dependClassName="jetbrains.mps.util.MacrosFactory" />
     <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
   </dependency>
@@ -412,6 +445,18 @@
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
   </dependency>
   <dependency className="org.campagnelab.hta.tables.behavior.Range_BehaviorDescriptor" file="Range_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="org.campagnelab.hta.tables.behavior.Render_BehaviorDescriptor" file="Render_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="org.campagnelab.hta.tables.behavior.Statement_BehaviorDescriptor" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="org.campagnelab.hta.tables.behavior.RenderingFormat_BehaviorDescriptor" file="RenderingFormat_BehaviorDescriptor.java">
     <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor" />
@@ -556,16 +601,10 @@
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
   </dependency>
   <dependency className="org.campagnelab.hta.tables.behavior.Statement_Behavior" file="Statement_Behavior.java">
-    <classNode dependClassName="java.lang.Class" />
-    <classNode dependClassName="java.lang.Deprecated" />
-    <classNode dependClassName="java.lang.Object" />
     <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="java.util.Random" />
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations" />
-    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations" />
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations" />
-    <classNode dependClassName="jetbrains.mps.smodel.behaviour.BehaviorManager" />
-    <classNode dependClassName="jetbrains.mps.smodel.behaviour.BehaviorReflection" />
     <classNode dependClassName="jetbrains.mps.util.NameUtil" />
     <classNode dependClassName="org.jetbrains.mps.openapi.language.SAbstractConcept" />
     <classNode dependClassName="org.jetbrains.mps.openapi.language.SConceptRepository" />
@@ -578,7 +617,6 @@
     <classNode dependClassName="jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor" />
     <classNode dependClassName="org.campagnelab.hta.tables.behavior.StatementDependencies_Behavior" />
     <classNode dependClassName="org.campagnelab.hta.tables.behavior.StatementDependencies_BehaviorDescriptor" />
-    <classNode dependClassName="org.campagnelab.hta.tables.behavior.Statement_Behavior" />
     <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
     <classNode extendsClassName="java.lang.Cloneable" />
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />

@@ -20,7 +20,7 @@ import jetbrains.mps.smodel.behaviour.BehaviorManager;
 
 public class Script_Behavior {
   public static void init(SNode thisNode) {
-    SLinkOperations.setTarget(thisNode, "statements", SConceptOperations.createNewNode("jetbrains.mps.baseLanguage.structure.StatementList", null), true);
+    SLinkOperations.setTarget(thisNode, "statements", SConceptOperations.createNewNode("org.campagnelab.hta.tables.structure.StatementList", null), true);
   }
 
   @Nullable

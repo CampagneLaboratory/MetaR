@@ -7,6 +7,7 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import java.io.File;
 import jetbrains.mps.util.MacrosFactory;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
+import jetbrains.mps.smodel.behaviour.BehaviorReflection;
 
 public class Plot_Behavior {
   public static void init(SNode thisNode) {
@@ -16,5 +17,14 @@ public class Plot_Behavior {
 
   public static String call_getPath_8016431400518331231(SNode thisNode) {
     return new File(MacrosFactory.getGlobal().expandPath("${org.campagnelab.hta.results_dir}/plot_" + SPropertyOperations.getString(SNodeOperations.cast(SNodeOperations.getParent(thisNode), "org.campagnelab.hta.tables.structure.Statement"), "id") + "_" + (SPropertyOperations.getInteger(thisNode, "id")) + ".png")).getAbsolutePath();
+  }
+
+  public static String call_getStatementId_8013388156563811997(SNode thisNode) {
+    return SPropertyOperations.getString(SNodeOperations.cast(SNodeOperations.getParent(thisNode), "org.campagnelab.hta.tables.structure.Statement"), "id");
+  }
+
+  public static String call_getTableName_8013388156564326838(SNode thisNode) {
+    String tableName = BehaviorReflection.invokeVirtual(String.class, SNodeOperations.cast(SNodeOperations.getParent(thisNode), "org.campagnelab.hta.tables.structure.PlotBuilderStatement"), "virtual_getTableName_8013388156564360086", new Object[]{});
+    return tableName;
   }
 }

@@ -6,12 +6,16 @@ import jetbrains.mps.lang.core.behavior.INamedConcept_BehaviorDescriptor;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.lang.core.behavior.INamedConcept_Behavior;
 
-public class Multiplot_BehaviorDescriptor extends Statement_BehaviorDescriptor implements INamedConcept_BehaviorDescriptor {
+public class Multiplot_BehaviorDescriptor extends PlotBuilderStatement_BehaviorDescriptor implements INamedConcept_BehaviorDescriptor {
   public Multiplot_BehaviorDescriptor() {
   }
 
   public String virtual_getFqName_1213877404258(SNode thisNode) {
     return INamedConcept_Behavior.virtual_getFqName_1213877404258(thisNode);
+  }
+
+  public String virtual_getTableName_8013388156564360086(SNode thisNode) {
+    return Multiplot_Behavior.virtual_getTableName_8013388156564360086(thisNode);
   }
 
   @Override

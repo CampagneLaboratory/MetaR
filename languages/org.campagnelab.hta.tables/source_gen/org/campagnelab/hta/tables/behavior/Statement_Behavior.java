@@ -9,9 +9,6 @@ import jetbrains.mps.util.NameUtil;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
 import org.jetbrains.mps.openapi.language.SAbstractConcept;
 import java.util.Random;
-import jetbrains.mps.smodel.behaviour.BehaviorReflection;
-import jetbrains.mps.smodel.behaviour.BehaviorManager;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 
 public class Statement_Behavior {
   public static void init(SNode thisNode) {
@@ -29,19 +26,5 @@ public class Statement_Behavior {
       tag += c;
     }
     return tag;
-  }
-
-  public static String virtual_getSourceTableName_8962032619593737588(SNode thisNode) {
-    return "";
-  }
-
-  @Deprecated
-  public static String call_getSourceTableName_8962032619593737588(SNode thisNode) {
-    return BehaviorReflection.invokeVirtual(String.class, thisNode, "virtual_getSourceTableName_8962032619593737588", new Object[]{});
-  }
-
-  @Deprecated
-  public static String callSuper_getSourceTableName_8962032619593737588(SNode thisNode, String callerConceptFqName) {
-    return BehaviorManager.getInstance().invokeSuper(String.class, SNodeOperations.cast(thisNode, "org.campagnelab.hta.tables.structure.Statement"), callerConceptFqName, "virtual_getSourceTableName_8962032619593737588", new Class[]{SNode.class}, new Object[]{});
   }
 }

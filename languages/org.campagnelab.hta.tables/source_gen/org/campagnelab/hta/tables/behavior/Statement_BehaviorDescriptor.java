@@ -13,10 +13,6 @@ public abstract class Statement_BehaviorDescriptor extends BaseConcept_BehaviorD
     return StatementDependencies_Behavior.virtual_dependencies_8962032619593737608(thisNode);
   }
 
-  public String virtual_getSourceTableName_8962032619593737588(SNode thisNode) {
-    return Statement_Behavior.virtual_getSourceTableName_8962032619593737588(thisNode);
-  }
-
   @Override
   public String getConceptFqName() {
     return "org.campagnelab.hta.tables.structure.Statement";

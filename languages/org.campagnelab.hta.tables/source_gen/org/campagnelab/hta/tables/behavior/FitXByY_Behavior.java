@@ -21,7 +21,7 @@ public class FitXByY_Behavior {
     return Sequence.<String>singleton("car");
   }
 
-  public static String virtual_getSourceTableName_8962032619593737588(SNode thisNode) {
+  public static String virtual_getTableName_8013388156564360086(SNode thisNode) {
     return NameHelper.RName(SPropertyOperations.getString(SLinkOperations.getTarget(SLinkOperations.getTarget(thisNode, "table", true), "table", false), "name"));
   }
 }

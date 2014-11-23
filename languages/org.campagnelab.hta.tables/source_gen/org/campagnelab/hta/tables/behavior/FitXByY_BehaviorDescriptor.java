@@ -4,7 +4,7 @@ package org.campagnelab.hta.tables.behavior;
 
 import org.jetbrains.mps.openapi.model.SNode;
 
-public class FitXByY_BehaviorDescriptor extends Statement_BehaviorDescriptor {
+public class FitXByY_BehaviorDescriptor extends PlotBuilderStatement_BehaviorDescriptor {
   public FitXByY_BehaviorDescriptor() {
   }
 
@@ -12,8 +12,8 @@ public class FitXByY_BehaviorDescriptor extends Statement_BehaviorDescriptor {
     return FitXByY_Behavior.virtual_dependencies_8962032619593737608(thisNode);
   }
 
-  public String virtual_getSourceTableName_8962032619593737588(SNode thisNode) {
-    return FitXByY_Behavior.virtual_getSourceTableName_8962032619593737588(thisNode);
+  public String virtual_getTableName_8013388156564360086(SNode thisNode) {
+    return FitXByY_Behavior.virtual_getTableName_8013388156564360086(thisNode);
   }
 
   @Override

@@ -8,6 +8,8 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
+import java.util.List;
+import java.util.ArrayList;
 
 public class Multiplot_Behavior {
   public static void init(SNode thisNode) {
@@ -23,5 +25,19 @@ public class Multiplot_Behavior {
     SNode preview = SConceptOperations.createNewNode("org.campagnelab.hta.tables.structure.PlotRefWithPreview", null);
     ListSequence.fromList(SLinkOperations.getTargets(thisNode, "plots", true)).addElement(preview);
     return preview;
+  }
+
+  public static List<SNode> call_getPlotsInRowOrder_4842667988068961113(SNode thisNode) {
+    List<SNode> plots = ListSequence.fromList(new ArrayList<SNode>());
+    for (int rowIndex = 0; rowIndex < SPropertyOperations.getInteger(thisNode, "numRows"); rowIndex++) {
+      for (int colIndex = 0; colIndex < SPropertyOperations.getInteger(thisNode, "numColumns"); colIndex++) {
+        ListSequence.fromList(plots).addElement(Multiplot_Behavior.call_getAt_8962032619587151678(thisNode, rowIndex, colIndex));
+      }
+    }
+    return plots;
+  }
+
+  public static String virtual_getTableName_8013388156564360086(SNode thisNode) {
+    return "null";
   }
 }
