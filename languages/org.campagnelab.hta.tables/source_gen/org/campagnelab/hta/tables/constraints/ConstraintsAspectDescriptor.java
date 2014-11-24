@@ -12,33 +12,35 @@ public class ConstraintsAspectDescriptor implements jetbrains.mps.smodel.runtime
 
   public ConstraintsDescriptor getDescriptor(String fqName) {
     switch (Arrays.binarySearch(stringSwitchCases_2qnle6_a0a0b, fqName)) {
-      case 4:
-        return new FutureTableRef_Constraints();
       case 5:
+        return new FutureTableRef_Constraints();
+      case 6:
         return new ImportTable_Constraints();
-      case 3:
+      case 4:
         return new FutureTable_Constraints();
       case 1:
         return new CommonColumnSelection_Constraints();
       case 0:
         return new ColumnRef_Constraints();
-      case 9:
+      case 10:
         return new SubSetTableRows_Constraints();
-      case 8:
+      case 9:
         return new SelectByGroup_Constraints();
-      case 6:
+      case 7:
         return new JoinTables_Constraints();
       case 2:
         return new FitXByY_Constraints();
-      case 10:
+      case 11:
         return new TableRef_Constraints();
-      case 7:
+      case 8:
         return new Multiplot_Constraints();
+      case 3:
+        return new Formula_Constraints();
       default:
         // todo: illegal in some cases? 
         return new BaseConstraintsDescriptor(fqName);
     }
   }
 
-  private static String[] stringSwitchCases_2qnle6_a0a0b = new String[]{"org.campagnelab.hta.tables.structure.ColumnRef", "org.campagnelab.hta.tables.structure.CommonColumnSelection", "org.campagnelab.hta.tables.structure.FitXByY", "org.campagnelab.hta.tables.structure.FutureTable", "org.campagnelab.hta.tables.structure.FutureTableRef", "org.campagnelab.hta.tables.structure.ImportTable", "org.campagnelab.hta.tables.structure.JoinTables", "org.campagnelab.hta.tables.structure.Multiplot", "org.campagnelab.hta.tables.structure.SelectByGroup", "org.campagnelab.hta.tables.structure.SubSetTableRows", "org.campagnelab.hta.tables.structure.TableRef"};
+  private static String[] stringSwitchCases_2qnle6_a0a0b = new String[]{"org.campagnelab.hta.tables.structure.ColumnRef", "org.campagnelab.hta.tables.structure.CommonColumnSelection", "org.campagnelab.hta.tables.structure.FitXByY", "org.campagnelab.hta.tables.structure.Formula", "org.campagnelab.hta.tables.structure.FutureTable", "org.campagnelab.hta.tables.structure.FutureTableRef", "org.campagnelab.hta.tables.structure.ImportTable", "org.campagnelab.hta.tables.structure.JoinTables", "org.campagnelab.hta.tables.structure.Multiplot", "org.campagnelab.hta.tables.structure.SelectByGroup", "org.campagnelab.hta.tables.structure.SubSetTableRows", "org.campagnelab.hta.tables.structure.TableRef"};
 }

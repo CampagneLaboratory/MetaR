@@ -226,8 +226,8 @@
       <model index="v8sa" modelUID="r:db1b133e-9a0f-4319-b384-413408eb1729(org.campagnelab.hta.tables.behavior)" version="0" />
       <model index="8gqa" modelUID="r:c14853f5-5f2e-4acc-825a-4fec67caca67(org.campagnelab.hta.tables.editor)" version="2" />
       <model index="7934" modelUID="r:3cdf3c64-bcc9-4f73-8074-771654b2dcc1(org.campagnelab.hta.script.intentions)" version="-1" />
-      <model index="zi61" modelUID="r:6b438781-4964-4ce9-992b-f8250b395bf4(org.campagnelab.hta.script.behavior)" version="0" />
       <model index="obax" modelUID="r:5c9afbc5-4577-4abf-8cda-fcb0ba29a8f3(org.campagnelab.hta.tables.actions)" version="-1" />
+      <model index="zi61" modelUID="r:6b438781-4964-4ce9-992b-f8250b395bf4(org.campagnelab.hta.script.behavior)" version="0" />
       <model index="jrxw" modelUID="r:9f2bbfbf-f8b7-4b3b-92b1-b6a0e9642c10(org.campagnelab.hta.tables.structure)" version="6" />
       <model index="bfkm" modelUID="r:83786097-1edd-4e87-85bb-647b9c09c7fd(org.campagnelab.hta.script.actions)" version="-1" />
       <model index="5ryu" modelUID="r:91256194-1375-495d-ab72-ff76cfde3569(org.campagnelab.hta.script.structure)" version="5" />
@@ -534,6 +534,12 @@
     <move id="7934.8962032619589755650" to="195s.8962032619593737663" />
     <move id="7934.8962032619589755652" to="195s.8962032619593737674" />
     <move id="7934.8962032619589764582" to="195s.8962032619593737666" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="jrxw" modelUID="r:9f2bbfbf-f8b7-4b3b-92b1-b6a0e9642c10(org.campagnelab.hta.tables.structure)" version="7" />
+    </dependencies>
+    <rename id="jrxw.2807244893505464740" type="CHILD" from="x" to="predictors" />
   </StructureModification>
 </history>
 

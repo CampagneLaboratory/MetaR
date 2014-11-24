@@ -35,5 +35,14 @@ public class TableStyleSheet_StyleSheet {
     style.set(StyleAttributes.EDITABLE, 0, false);
   }
 
+  public static void apply_ColumnName(Style style, EditorCell editorCell) {
+    style.set(StyleAttributes.FONT_STYLE, 0, MPSFonts.ITALIC);
+  }
+
+  public static void apply_Model(Style style, EditorCell editorCell) {
+    style.set(StyleAttributes.TEXT_COLOR, 0, StyleRegistry.getInstance().getSimpleColor(MPSColors.orange));
+    style.set(StyleAttributes.FONT_STYLE, 0, MPSFonts.BOLD);
+  }
+
 
 }
