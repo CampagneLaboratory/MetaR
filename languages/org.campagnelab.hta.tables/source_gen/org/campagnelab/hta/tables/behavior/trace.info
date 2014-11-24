@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
   <unitInfo fileName="AbstractRowFilter_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="org.campagnelab.hta.tables.behavior.AbstractRowFilter_BehaviorDescriptor" />
-  <unitInfo fileName="BehaviorAspectDescriptor.java" startLine="9" startPosition="0" endLine="104" endPosition="0" unitName="org.campagnelab.hta.tables.behavior.BehaviorAspectDescriptor" />
+  <unitInfo fileName="BehaviorAspectDescriptor.java" startLine="9" startPosition="0" endLine="106" endPosition="0" unitName="org.campagnelab.hta.tables.behavior.BehaviorAspectDescriptor" />
   <unitInfo fileName="ColumnAnnotation_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="org.campagnelab.hta.tables.behavior.ColumnAnnotation_BehaviorDescriptor" />
   <unitInfo fileName="ColumnGroupContainer_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="org.campagnelab.hta.tables.behavior.ColumnGroupContainer_BehaviorDescriptor" />
   <unitInfo fileName="ColumnGroupReference_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="org.campagnelab.hta.tables.behavior.ColumnGroupReference_BehaviorDescriptor" />
@@ -33,6 +33,7 @@
   <unitInfo fileName="PlotRef_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="org.campagnelab.hta.tables.behavior.PlotRef_BehaviorDescriptor" />
   <unitInfo fileName="PlotStyle_BehaviorDescriptor.java" startLine="10" startPosition="0" endLine="23" endPosition="0" unitName="org.campagnelab.hta.tables.behavior.PlotStyle_BehaviorDescriptor" />
   <unitInfo fileName="Plot_BehaviorDescriptor.java" startLine="10" startPosition="0" endLine="23" endPosition="0" unitName="org.campagnelab.hta.tables.behavior.Plot_BehaviorDescriptor" />
+  <unitInfo fileName="PredictWithModel_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="org.campagnelab.hta.tables.behavior.PredictWithModel_BehaviorDescriptor" />
   <unitInfo fileName="R_Package_BehaviorDescriptor.java" startLine="10" startPosition="0" endLine="23" endPosition="0" unitName="org.campagnelab.hta.tables.behavior.R_Package_BehaviorDescriptor" />
   <unitInfo fileName="Range_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="org.campagnelab.hta.tables.behavior.Range_BehaviorDescriptor" />
   <unitInfo fileName="RenderStyle_BehaviorDescriptor.java" startLine="10" startPosition="0" endLine="23" endPosition="0" unitName="org.campagnelab.hta.tables.behavior.RenderStyle_BehaviorDescriptor" />
@@ -53,6 +54,34 @@
   <unitInfo fileName="TrainLinearModel_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="org.campagnelab.hta.tables.behavior.TrainLinearModel_BehaviorDescriptor" />
   <unitInfo fileName="UsageType_BehaviorDescriptor.java" startLine="10" startPosition="0" endLine="23" endPosition="0" unitName="org.campagnelab.hta.tables.behavior.UsageType_BehaviorDescriptor" />
   <unitInfo fileName="UsesDataTable_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="10" endPosition="0" unitName="org.campagnelab.hta.tables.behavior.UsesDataTable_BehaviorDescriptor" />
+  <root nodeRef="r:db1b133e-9a0f-4319-b384-413408eb1729(org.campagnelab.hta.tables.behavior)/2807244893511566376">
+    <nodeInfo nodeId="2807244893511582586" fileName="Model_Behavior.java" startLine="12" startPosition="83" endLine="13" endPosition="91" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="2807244893511566376" fileName="Model_Behavior.java" startLine="9" startPosition="0" endLine="11" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+    <nodeInfo nodeId="2807244893511566376" fileName="Model_Behavior.java" startLine="12" startPosition="0" endLine="15" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="call_getCleanModelName_2807244893511582582#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+    <scopeInfo nodeId="2807244893511566378" fileName="Model_Behavior.java" startLine="9" startPosition="43" endLine="9" endPosition="43" />
+    <scopeInfo nodeId="2807244893511582585" fileName="Model_Behavior.java" startLine="12" startPosition="83" endLine="13" endPosition="91" />
+    <scopeInfo nodeId="2807244893511566376" fileName="Model_Behavior.java" startLine="9" startPosition="0" endLine="11" endPosition="0">
+      <varInfo nodeId="2807244893511566376" varName="thisNode" />
+    </scopeInfo>
+    <scopeInfo nodeId="2807244893511566376" fileName="Model_Behavior.java" startLine="12" startPosition="0" endLine="15" endPosition="0">
+      <varInfo nodeId="2807244893511566376" varName="thisNode" />
+    </scopeInfo>
+    <unitInfo nodeId="2807244893511566376" fileName="Model_Behavior.java" startLine="8" startPosition="0" endLine="16" endPosition="0" unitName="org.campagnelab.hta.tables.behavior.Model_Behavior" />
+  </root>
+  <root nodeRef="r:db1b133e-9a0f-4319-b384-413408eb1729(org.campagnelab.hta.tables.behavior)/2807244893512026353">
+    <nodeInfo nodeId="2807244893512039179" fileName="ColumnRef_Behavior.java" startLine="13" startPosition="84" endLine="14" endPosition="132" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="2807244893512026353" fileName="ColumnRef_Behavior.java" startLine="10" startPosition="0" endLine="12" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+    <nodeInfo nodeId="2807244893512026353" fileName="ColumnRef_Behavior.java" startLine="13" startPosition="0" endLine="16" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="call_getCleanColumnName_2807244893512039175#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+    <scopeInfo nodeId="2807244893512026355" fileName="ColumnRef_Behavior.java" startLine="10" startPosition="43" endLine="10" endPosition="43" />
+    <scopeInfo nodeId="2807244893512039178" fileName="ColumnRef_Behavior.java" startLine="13" startPosition="84" endLine="14" endPosition="132" />
+    <scopeInfo nodeId="2807244893512026353" fileName="ColumnRef_Behavior.java" startLine="10" startPosition="0" endLine="12" endPosition="0">
+      <varInfo nodeId="2807244893512026353" varName="thisNode" />
+    </scopeInfo>
+    <scopeInfo nodeId="2807244893512026353" fileName="ColumnRef_Behavior.java" startLine="13" startPosition="0" endLine="16" endPosition="0">
+      <varInfo nodeId="2807244893512026353" varName="thisNode" />
+    </scopeInfo>
+    <unitInfo nodeId="2807244893512026353" fileName="ColumnRef_Behavior.java" startLine="9" startPosition="0" endLine="17" endPosition="0" unitName="org.campagnelab.hta.tables.behavior.ColumnRef_Behavior" />
+  </root>
   <root nodeRef="r:db1b133e-9a0f-4319-b384-413408eb1729(org.campagnelab.hta.tables.behavior)/3402264987259878127">
     <nodeInfo nodeId="3402264987259878333" fileName="TableTransformation_Behavior.java" startLine="27" startPosition="43" endLine="28" endPosition="153" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="3402264987262425913" fileName="TableTransformation_Behavior.java" startLine="32" startPosition="107" endLine="33" endPosition="76" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />

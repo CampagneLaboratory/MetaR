@@ -1,6 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
-  <unitInfo fileName="TypesystemDescriptor.java" startLine="9" startPosition="0" endLine="25" endPosition="0" unitName="org.campagnelab.hta.tables.typesystem.TypesystemDescriptor" />
+  <unitInfo fileName="TypesystemDescriptor.java" startLine="9" startPosition="0" endLine="29" endPosition="0" unitName="org.campagnelab.hta.tables.typesystem.TypesystemDescriptor" />
+  <root nodeRef="r:ccfe7aab-49c3-4336-8a96-a894ec9d0e17(org.campagnelab.hta.tables.typesystem)/2807244893515902357">
+    <nodeInfo nodeId="2807244893515931967" fileName="check_FitXByY_NonTypesystemRule.java" startLine="24" startPosition="7" endLine="25" endPosition="60" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="2807244893515931967" fileName="check_FitXByY_NonTypesystemRule.java" startLine="25" startPosition="60" endLine="26" endPosition="54" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="2807244893515931967" fileName="check_FitXByY_NonTypesystemRule.java" startLine="26" startPosition="54" endLine="27" endPosition="261" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="2807244893515902357" fileName="check_FitXByY_NonTypesystemRule.java" startLine="32" startPosition="46" endLine="33" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="2807244893515902357" fileName="check_FitXByY_NonTypesystemRule.java" startLine="37" startPosition="5" endLine="38" endPosition="130" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="2807244893515902357" fileName="check_FitXByY_NonTypesystemRule.java" startLine="38" startPosition="130" endLine="39" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="2807244893515902357" fileName="check_FitXByY_NonTypesystemRule.java" startLine="43" startPosition="30" endLine="44" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="2807244893515902357" fileName="check_FitXByY_NonTypesystemRule.java" startLine="19" startPosition="0" endLine="21" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="check_FitXByY_NonTypesystemRule#()V" />
+    <nodeInfo nodeId="2807244893515902357" fileName="check_FitXByY_NonTypesystemRule.java" startLine="32" startPosition="0" endLine="35" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getApplicableConceptFQName#()Ljava/lang/String;" />
+    <nodeInfo nodeId="2807244893515902357" fileName="check_FitXByY_NonTypesystemRule.java" startLine="43" startPosition="0" endLine="46" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="overrides#()Z" />
+    <nodeInfo nodeId="2807244893515902357" fileName="check_FitXByY_NonTypesystemRule.java" startLine="36" startPosition="68" endLine="40" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="2807244893515931967" fileName="check_FitXByY_NonTypesystemRule.java" startLine="23" startPosition="177" endLine="28" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="2807244893515902357" fileName="check_FitXByY_NonTypesystemRule.java" startLine="36" startPosition="0" endLine="42" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isApplicableAndPattern#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;" />
+    <nodeInfo nodeId="2807244893515906518" fileName="check_FitXByY_NonTypesystemRule.java" startLine="22" startPosition="120" endLine="29" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="2807244893515902357" fileName="check_FitXByY_NonTypesystemRule.java" startLine="22" startPosition="0" endLine="31" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="applyRule#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/typesystem/inference/TypeCheckingContext;Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;)V" />
+    <scopeInfo nodeId="2807244893515902357" fileName="check_FitXByY_NonTypesystemRule.java" startLine="19" startPosition="44" endLine="19" endPosition="44" />
+    <scopeInfo nodeId="2807244893515902357" fileName="check_FitXByY_NonTypesystemRule.java" startLine="32" startPosition="46" endLine="33" endPosition="58" />
+    <scopeInfo nodeId="2807244893515902357" fileName="check_FitXByY_NonTypesystemRule.java" startLine="43" startPosition="30" endLine="44" endPosition="17" />
+    <scopeInfo nodeId="2807244893515902357" fileName="check_FitXByY_NonTypesystemRule.java" startLine="19" startPosition="0" endLine="21" endPosition="0" />
+    <scopeInfo nodeId="2807244893515902357" fileName="check_FitXByY_NonTypesystemRule.java" startLine="37" startPosition="5" endLine="39" endPosition="45">
+      <varInfo nodeId="2807244893515902357" varName="b" />
+    </scopeInfo>
+    <scopeInfo nodeId="2807244893515931967" fileName="check_FitXByY_NonTypesystemRule.java" startLine="24" startPosition="7" endLine="27" endPosition="261">
+      <varInfo nodeId="2807244893515931967" varName="_reporter_2309309498" />
+      <varInfo nodeId="2807244893515931967" varName="errorTarget" />
+    </scopeInfo>
+    <scopeInfo nodeId="2807244893515902357" fileName="check_FitXByY_NonTypesystemRule.java" startLine="32" startPosition="0" endLine="35" endPosition="0" />
+    <scopeInfo nodeId="2807244893515902357" fileName="check_FitXByY_NonTypesystemRule.java" startLine="43" startPosition="0" endLine="46" endPosition="0" />
+    <scopeInfo nodeId="2807244893515902357" fileName="check_FitXByY_NonTypesystemRule.java" startLine="36" startPosition="68" endLine="40" endPosition="5" />
+    <scopeInfo nodeId="2807244893515906519" fileName="check_FitXByY_NonTypesystemRule.java" startLine="23" startPosition="177" endLine="28" endPosition="7" />
+    <scopeInfo nodeId="2807244893515902357" fileName="check_FitXByY_NonTypesystemRule.java" startLine="36" startPosition="0" endLine="42" endPosition="0">
+      <varInfo nodeId="2807244893515902357" varName="argument" />
+    </scopeInfo>
+    <scopeInfo nodeId="2807244893515902358" fileName="check_FitXByY_NonTypesystemRule.java" startLine="22" startPosition="120" endLine="29" endPosition="5" />
+    <scopeInfo nodeId="2807244893515902357" fileName="check_FitXByY_NonTypesystemRule.java" startLine="22" startPosition="0" endLine="31" endPosition="0">
+      <varInfo nodeId="2807244893515902357" varName="fitXByY" />
+      <varInfo nodeId="2807244893515902357" varName="status" />
+      <varInfo nodeId="2807244893515902357" varName="typeCheckingContext" />
+    </scopeInfo>
+    <unitInfo nodeId="2807244893515902357" fileName="check_FitXByY_NonTypesystemRule.java" startLine="18" startPosition="0" endLine="47" endPosition="0" unitName="org.campagnelab.hta.tables.typesystem.check_FitXByY_NonTypesystemRule" />
+  </root>
   <root nodeRef="r:ccfe7aab-49c3-4336-8a96-a894ec9d0e17(org.campagnelab.hta.tables.typesystem)/4140623938104690067">
     <nodeInfo nodeId="4140623938104720275" fileName="CheckInputTableHasId_NonTypesystemRule.java" startLine="23" startPosition="7" endLine="24" endPosition="60" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="4140623938104720275" fileName="CheckInputTableHasId_NonTypesystemRule.java" startLine="24" startPosition="60" endLine="25" endPosition="313" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />

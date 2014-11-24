@@ -26,11 +26,13 @@ import org.campagnelab.hta.tables.behavior.Plot_Behavior;
 import org.campagnelab.hta.tables.behavior.Multiplot_Behavior;
 import jetbrains.mps.internal.collections.runtime.Sequence;
 import org.campagnelab.hta.tables.behavior.Render_Behavior;
+import org.campagnelab.hta.tables.behavior.ColumnRef_Behavior;
+import org.campagnelab.hta.tables.behavior.Model_Behavior;
 import jetbrains.mps.generator.template.IfMacroContext;
 import jetbrains.mps.generator.template.SourceSubstituteMacroNodeContext;
+import jetbrains.mps.generator.template.TemplateQueryContext;
 import jetbrains.mps.generator.template.SourceSubstituteMacroNodesContext;
 import jetbrains.mps.generator.template.MappingScriptContext;
-import jetbrains.mps.generator.template.TemplateQueryContext;
 
 @Generated
 public class QueriesGenerated {
@@ -471,22 +473,130 @@ public class QueriesGenerated {
     return Double.toString(height / SPropertyOperations.getInteger(SLinkOperations.getTarget(render, "style", false), "pixelsPerInch"));
   }
 
-  public static Object propertyMacro_GetPropertyValue_2807244893507536160(final PropertyMacroContext _context) {
-    return NameHelper.RName(SPropertyOperations.getString(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "table", true), "table", false), "name"));
+  public static Object propertyMacro_GetPropertyValue_2807244893511923656(final PropertyMacroContext _context) {
+    return SPropertyOperations.getString(SLinkOperations.getTarget(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "formula", true), "y", true), "col", false), "name");
+  }
+
+  public static Object propertyMacro_GetPropertyValue_2807244893511932586(final PropertyMacroContext _context) {
+    return IterableUtils.join(ListSequence.fromList(SLinkOperations.getTargets(SLinkOperations.getTarget(_context.getNode(), "formula", true), "predictors", true)).select(new ISelector<SNode, String>() {
+      public String select(SNode it) {
+        return "\"" + SPropertyOperations.getString(SLinkOperations.getTarget(it, "col", false), "name") + "\"";
+      }
+    }), ",");
+  }
+
+  public static Object propertyMacro_GetPropertyValue_2807244893512244615(final PropertyMacroContext _context) {
+    return ColumnRef_Behavior.call_getCleanColumnName_2807244893512039175(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "formula", true), "y", true));
+  }
+
+  public static Object propertyMacro_GetPropertyValue_2807244893512024087(final PropertyMacroContext _context) {
+    return IterableUtils.join(ListSequence.fromList(SLinkOperations.getTargets(SLinkOperations.getTarget(_context.getNode(), "formula", true), "predictors", true)).select(new ISelector<SNode, String>() {
+      public String select(SNode colRef) {
+        return "\"" + ColumnRef_Behavior.call_getCleanColumnName_2807244893512039175(colRef) + "\"";
+      }
+    }), ",");
+  }
+
+  public static Object propertyMacro_GetPropertyValue_2807244893512010244(final PropertyMacroContext _context) {
+    return SPropertyOperations.getString(SLinkOperations.getTarget(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "formula", true), "y", true), "col", false), "name");
+  }
+
+  public static Object propertyMacro_GetPropertyValue_2807244893512007793(final PropertyMacroContext _context) {
+    return IterableUtils.join(ListSequence.fromList(SLinkOperations.getTargets(SLinkOperations.getTarget(_context.getNode(), "formula", true), "predictors", true)).select(new ISelector<SNode, String>() {
+      public String select(SNode it) {
+        return "\"" + SPropertyOperations.getString(SLinkOperations.getTarget(it, "col", false), "name") + "\"";
+      }
+    }), ",");
+  }
+
+  public static Object propertyMacro_GetPropertyValue_2807244893511557803(final PropertyMacroContext _context) {
+    return Model_Behavior.call_getCleanModelName_2807244893511582582(SLinkOperations.getTarget(_context.getNode(), "model", true));
   }
 
   public static Object propertyMacro_GetPropertyValue_2807244893507585514(final PropertyMacroContext _context) {
-    String tableName = NameHelper.RName(((String) _context.getVariable("tableName")));
-    return tableName + "$\"" + SPropertyOperations.getString(SLinkOperations.getTarget(_context.getNode(), "y", false), "name") + "\"";
+    return ColumnRef_Behavior.call_getCleanColumnName_2807244893512039175(SLinkOperations.getTarget(_context.getNode(), "y", true));
   }
 
   public static Object propertyMacro_GetPropertyValue_2807244893507594517(final PropertyMacroContext _context) {
-    final String tableName = NameHelper.RName(((String) _context.getVariable("tableName")));
+    // <node> 
     return IterableUtils.join(ListSequence.fromList(SLinkOperations.getTargets(_context.getNode(), "predictors", true)).select(new ISelector<SNode, String>() {
       public String select(SNode x) {
-        return tableName + "$\"" + SPropertyOperations.getString(SLinkOperations.getTarget(x, "col", false), "name") + "\"";
+        return ColumnRef_Behavior.call_getCleanColumnName_2807244893512039175(x);
       }
     }), "+");
+    // <node> 
+  }
+
+  public static Object propertyMacro_GetPropertyValue_2807244893514667734(final PropertyMacroContext _context) {
+    return NameHelper.RName(SPropertyOperations.getString(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "inputTable", true), "table", false), "name"));
+  }
+
+  public static Object propertyMacro_GetPropertyValue_2807244893514173344(final PropertyMacroContext _context) {
+    return SPropertyOperations.getString(SLinkOperations.getTarget(SLinkOperations.getTarget(((SNode) _context.getVariable("formula")), "y", true), "col", false), "name");
+  }
+
+  public static Object propertyMacro_GetPropertyValue_2807244893514173359(final PropertyMacroContext _context) {
+    return IterableUtils.join(ListSequence.fromList(SLinkOperations.getTargets(((SNode) _context.getVariable("formula")), "predictors", true)).select(new ISelector<SNode, String>() {
+      public String select(SNode it) {
+        return "\"" + SPropertyOperations.getString(SLinkOperations.getTarget(it, "col", false), "name") + "\"";
+      }
+    }), ",");
+  }
+
+  public static Object propertyMacro_GetPropertyValue_2807244893514173391(final PropertyMacroContext _context) {
+    return ColumnRef_Behavior.call_getCleanColumnName_2807244893512039175(SLinkOperations.getTarget(((SNode) _context.getVariable("formula")), "y", true));
+  }
+
+  public static Object propertyMacro_GetPropertyValue_2807244893514173404(final PropertyMacroContext _context) {
+    return IterableUtils.join(ListSequence.fromList(SLinkOperations.getTargets(((SNode) _context.getVariable("formula")), "predictors", true)).select(new ISelector<SNode, String>() {
+      public String select(SNode colRef) {
+        return "\"" + ColumnRef_Behavior.call_getCleanColumnName_2807244893512039175(colRef) + "\"";
+      }
+    }), ",");
+  }
+
+  public static Object propertyMacro_GetPropertyValue_2807244893514173432(final PropertyMacroContext _context) {
+    return SPropertyOperations.getString(SLinkOperations.getTarget(SLinkOperations.getTarget(((SNode) _context.getVariable("formula")), "y", true), "col", false), "name");
+  }
+
+  public static Object propertyMacro_GetPropertyValue_2807244893514173447(final PropertyMacroContext _context) {
+    return IterableUtils.join(ListSequence.fromList(SLinkOperations.getTargets(((SNode) _context.getVariable("formula")), "predictors", true)).select(new ISelector<SNode, String>() {
+      public String select(SNode it) {
+        return "\"" + SPropertyOperations.getString(SLinkOperations.getTarget(it, "col", false), "name") + "\"";
+      }
+    }), ",");
+  }
+
+  public static Object propertyMacro_GetPropertyValue_2807244893515316778(final PropertyMacroContext _context) {
+    return FutureTable_Behavior.call_getCleanTableName_4166618652720345586(SLinkOperations.getTarget(_context.getNode(), "table", true));
+  }
+
+  public static Object propertyMacro_GetPropertyValue_2807244893515326875(final PropertyMacroContext _context) {
+    return NameHelper.RName(SPropertyOperations.getString(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "inputTable", true), "table", false), "name"));
+  }
+
+  public static Object propertyMacro_GetPropertyValue_2807244893510499695(final PropertyMacroContext _context) {
+    return FutureTable_Behavior.call_getCleanTableName_4166618652720345586(SLinkOperations.getTarget(_context.getNode(), "table", true));
+  }
+
+  public static Object propertyMacro_GetPropertyValue_2807244893510516687(final PropertyMacroContext _context) {
+    return SPropertyOperations.getString(_context.getNode(), "columnName");
+  }
+
+  public static Object propertyMacro_GetPropertyValue_2807244893510504483(final PropertyMacroContext _context) {
+    return Model_Behavior.call_getCleanModelName_2807244893511582582(SLinkOperations.getTarget(_context.getNode(), "model", false));
+  }
+
+  public static Object propertyMacro_GetPropertyValue_2807244893515518334(final PropertyMacroContext _context) {
+    return FutureTable_Behavior.call_getCleanTableName_4166618652720345586(SLinkOperations.getTarget(_context.getNode(), "table", true));
+  }
+
+  public static Object propertyMacro_GetPropertyValue_2807244893515534291(final PropertyMacroContext _context) {
+    return SPropertyOperations.getInteger(SLinkOperations.getTarget(_context.getNode(), "table", true), "id");
+  }
+
+  public static Object propertyMacro_GetPropertyValue_2807244893515511094(final PropertyMacroContext _context) {
+    return SPropertyOperations.getString(_context.getNode(), "id");
   }
 
   public static boolean ifMacro_Condition_1549006859295113839(final IfMacroContext _context) {
@@ -551,6 +661,10 @@ public class QueriesGenerated {
 
   public static SNode sourceNodeQuery_2807244893508634567(final SourceSubstituteMacroNodeContext _context) {
     return SLinkOperations.getTarget(_context.getNode(), "formula", true);
+  }
+
+  public static Object templateArgumentQuery_2807244893514263516(final TemplateQueryContext _context) {
+    return ListSequence.fromList(SNodeOperations.getDescendants(SNodeOperations.getParent(SLinkOperations.getTarget(_context.getNode(), "model", false)), "org.campagnelab.hta.tables.structure.Formula", false, new String[]{})).first();
   }
 
   public static Iterable<SNode> sourceNodesQuery_3402264987267873052(final SourceSubstituteMacroNodesContext _context) {

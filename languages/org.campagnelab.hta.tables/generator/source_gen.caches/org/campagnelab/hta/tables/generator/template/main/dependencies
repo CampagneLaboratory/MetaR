@@ -30,7 +30,9 @@
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations" />
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations" />
     <classNode dependClassName="jetbrains.mps.smodel.behaviour.BehaviorReflection" />
+    <classNode dependClassName="org.campagnelab.hta.tables.behavior.ColumnRef_Behavior" />
     <classNode dependClassName="org.campagnelab.hta.tables.behavior.FutureTable_Behavior" />
+    <classNode dependClassName="org.campagnelab.hta.tables.behavior.Model_Behavior" />
     <classNode dependClassName="org.campagnelab.hta.tables.behavior.Multiplot_Behavior" />
     <classNode dependClassName="org.campagnelab.hta.tables.behavior.Plot_Behavior" />
     <classNode dependClassName="org.campagnelab.hta.tables.behavior.Render_Behavior" />
