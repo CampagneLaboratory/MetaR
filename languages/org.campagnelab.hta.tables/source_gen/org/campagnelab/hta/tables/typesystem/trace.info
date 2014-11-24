@@ -13,7 +13,7 @@
     <nodeInfo nodeId="2807244893515902357" fileName="check_FitXByY_NonTypesystemRule.java" startLine="32" startPosition="0" endLine="35" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getApplicableConceptFQName#()Ljava/lang/String;" />
     <nodeInfo nodeId="2807244893515902357" fileName="check_FitXByY_NonTypesystemRule.java" startLine="43" startPosition="0" endLine="46" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="overrides#()Z" />
     <nodeInfo nodeId="2807244893515902357" fileName="check_FitXByY_NonTypesystemRule.java" startLine="36" startPosition="68" endLine="40" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="2807244893515931967" fileName="check_FitXByY_NonTypesystemRule.java" startLine="23" startPosition="177" endLine="28" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="2807244893515931967" fileName="check_FitXByY_NonTypesystemRule.java" startLine="23" startPosition="175" endLine="28" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
     <nodeInfo nodeId="2807244893515902357" fileName="check_FitXByY_NonTypesystemRule.java" startLine="36" startPosition="0" endLine="42" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isApplicableAndPattern#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;" />
     <nodeInfo nodeId="2807244893515906518" fileName="check_FitXByY_NonTypesystemRule.java" startLine="22" startPosition="120" endLine="29" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
     <nodeInfo nodeId="2807244893515902357" fileName="check_FitXByY_NonTypesystemRule.java" startLine="22" startPosition="0" endLine="31" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="applyRule#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/typesystem/inference/TypeCheckingContext;Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;)V" />
@@ -31,7 +31,7 @@
     <scopeInfo nodeId="2807244893515902357" fileName="check_FitXByY_NonTypesystemRule.java" startLine="32" startPosition="0" endLine="35" endPosition="0" />
     <scopeInfo nodeId="2807244893515902357" fileName="check_FitXByY_NonTypesystemRule.java" startLine="43" startPosition="0" endLine="46" endPosition="0" />
     <scopeInfo nodeId="2807244893515902357" fileName="check_FitXByY_NonTypesystemRule.java" startLine="36" startPosition="68" endLine="40" endPosition="5" />
-    <scopeInfo nodeId="2807244893515906519" fileName="check_FitXByY_NonTypesystemRule.java" startLine="23" startPosition="177" endLine="28" endPosition="7" />
+    <scopeInfo nodeId="2807244893515906519" fileName="check_FitXByY_NonTypesystemRule.java" startLine="23" startPosition="175" endLine="28" endPosition="7" />
     <scopeInfo nodeId="2807244893515902357" fileName="check_FitXByY_NonTypesystemRule.java" startLine="36" startPosition="0" endLine="42" endPosition="0">
       <varInfo nodeId="2807244893515902357" varName="argument" />
     </scopeInfo>

@@ -20,7 +20,7 @@ public class check_FitXByY_NonTypesystemRule extends AbstractNonTypesystemRule_R
   }
 
   public void applyRule(final SNode fitXByY, final TypeCheckingContext typeCheckingContext, IsApplicableStatus status) {
-    if (SNodeOperations.getContainingRoot(SLinkOperations.getTarget(fitXByY, "x", false)) != SNodeOperations.getContainingRoot(SLinkOperations.getTarget(fitXByY, "y", false))) {
+    if (SNodeOperations.getContainingRoot(SLinkOperations.getTarget(fitXByY, "x", true)) != SNodeOperations.getContainingRoot(SLinkOperations.getTarget(fitXByY, "y", true))) {
       {
         MessageTarget errorTarget = new NodeMessageTarget();
         errorTarget = new ReferenceMessageTarget("y");

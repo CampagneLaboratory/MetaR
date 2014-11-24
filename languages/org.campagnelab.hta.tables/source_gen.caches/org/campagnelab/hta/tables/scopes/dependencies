@@ -7,6 +7,7 @@
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ListSequence" />
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations" />
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations" />
+    <classNode dependClassName="jetbrains.mps.scope.CompositeScope" />
     <classNode dependClassName="jetbrains.mps.scope.ListScope" />
     <classNode dependClassName="jetbrains.mps.scope.Scope" />
     <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />

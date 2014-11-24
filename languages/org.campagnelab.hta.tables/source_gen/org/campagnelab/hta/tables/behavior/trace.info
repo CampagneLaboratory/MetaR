@@ -378,12 +378,12 @@
   <root nodeRef="r:db1b133e-9a0f-4319-b384-413408eb1729(org.campagnelab.hta.tables.behavior)/6001041468486702017">
     <nodeInfo nodeId="6001041468486706138" fileName="FitXByY_Behavior.java" startLine="15" startPosition="43" endLine="16" endPosition="139" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="5333555603574755491" fileName="FitXByY_Behavior.java" startLine="16" startPosition="139" endLine="17" endPosition="290" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="6001041468488014416" fileName="FitXByY_Behavior.java" startLine="20" startPosition="91" endLine="21" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6001041468488014416" fileName="FitXByY_Behavior.java" startLine="20" startPosition="91" endLine="21" endPosition="50" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="3687343996978094717" fileName="FitXByY_Behavior.java" startLine="24" startPosition="81" endLine="25" endPosition="162" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="6001041468486702017" fileName="FitXByY_Behavior.java" startLine="20" startPosition="0" endLine="23" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_dependencies_8962032619593737608#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/Iterable;" />
     <nodeInfo nodeId="6001041468486702017" fileName="FitXByY_Behavior.java" startLine="24" startPosition="0" endLine="27" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_getTableName_8013388156564360086#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
     <nodeInfo nodeId="6001041468486702017" fileName="FitXByY_Behavior.java" startLine="15" startPosition="0" endLine="19" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
-    <scopeInfo nodeId="6001041468488014111" fileName="FitXByY_Behavior.java" startLine="20" startPosition="91" endLine="21" endPosition="45" />
+    <scopeInfo nodeId="6001041468488014111" fileName="FitXByY_Behavior.java" startLine="20" startPosition="91" endLine="21" endPosition="50" />
     <scopeInfo nodeId="8962032619585047768" fileName="FitXByY_Behavior.java" startLine="24" startPosition="81" endLine="25" endPosition="162" />
     <scopeInfo nodeId="6001041468486702321" fileName="FitXByY_Behavior.java" startLine="15" startPosition="43" endLine="17" endPosition="290" />
     <scopeInfo nodeId="6001041468486702017" fileName="FitXByY_Behavior.java" startLine="20" startPosition="0" endLine="23" endPosition="0">

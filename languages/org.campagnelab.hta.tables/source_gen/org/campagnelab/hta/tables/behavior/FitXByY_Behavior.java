@@ -18,7 +18,7 @@ public class FitXByY_Behavior {
   }
 
   public static Iterable<String> virtual_dependencies_8962032619593737608(SNode thisNode) {
-    return Sequence.<String>singleton("car");
+    return Sequence.<String>singleton("graphics");
   }
 
   public static String virtual_getTableName_8013388156564360086(SNode thisNode) {

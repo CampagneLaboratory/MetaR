@@ -8,20 +8,11 @@ import jetbrains.mps.smodel.runtime.ReferenceConstraintsDescriptor;
 import java.util.HashMap;
 import jetbrains.mps.smodel.runtime.base.BaseReferenceConstraintsDescriptor;
 import org.jetbrains.mps.openapi.model.SNode;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
-import jetbrains.mps.internal.collections.runtime.ListSequence;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
-import jetbrains.mps.internal.collections.runtime.IWhereFilter;
 import org.jetbrains.annotations.Nullable;
 import jetbrains.mps.smodel.runtime.ReferenceScopeProvider;
 import jetbrains.mps.smodel.runtime.base.BaseScopeProvider;
-import org.jetbrains.mps.openapi.model.SNodeReference;
-import jetbrains.mps.scope.Scope;
-import jetbrains.mps.smodel.IOperationContext;
-import jetbrains.mps.smodel.runtime.ReferenceConstraintsContext;
-import org.campagnelab.hta.tables.scopes.ImportedTableScope;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
-import jetbrains.mps.smodel.SNodePointer;
 
 public class FitXByY_Constraints extends BaseConstraintsDescriptor {
   public FitXByY_Constraints() {
@@ -31,70 +22,6 @@ public class FitXByY_Constraints extends BaseConstraintsDescriptor {
   @Override
   protected Map<String, ReferenceConstraintsDescriptor> getNotDefaultReferences() {
     Map<String, ReferenceConstraintsDescriptor> references = new HashMap();
-    references.put("x", new BaseReferenceConstraintsDescriptor("x", this) {
-      @Override
-      public boolean hasOwnOnReferenceSetHandler() {
-        return true;
-      }
-
-      @Override
-      public boolean validate(final SNode referenceNode, final SNode oldReferentNode, final SNode newReferentNode) {
-        return true;
-      }
-
-      @Override
-      public void onReferenceSet(final SNode referenceNode, final SNode oldReferentNode, final SNode newReferentNode) {
-        // set table to the table that contains this column 
-        SLinkOperations.setTarget(SLinkOperations.getTarget(referenceNode, "table", true), "table", SLinkOperations.getTarget(SLinkOperations.getTarget(ListSequence.fromList(SNodeOperations.getDescendants(SNodeOperations.getAncestor(referenceNode, "org.campagnelab.hta.tables.structure.Script", false, false), "org.campagnelab.hta.tables.structure.ImportTable", false, new String[]{})).findFirst(new IWhereFilter<SNode>() {
-          public boolean accept(SNode it) {
-            return ListSequence.fromList(SLinkOperations.getTargets(SLinkOperations.getTarget(SLinkOperations.getTarget(it, "future", true), "table", false), "columns", true)).contains(newReferentNode);
-          }
-        }), "future", true), "table", false), false);
-      }
-
-      @Override
-      public boolean hasOwnScopeProvider() {
-        return true;
-      }
-
-      @Nullable
-      @Override
-      public ReferenceScopeProvider getScopeProvider() {
-        return new BaseScopeProvider() {
-          @Override
-          public SNodeReference getSearchScopeValidatorNode() {
-            return breakingNode_nlbal5_a0a0a0a0a4a0b0a1a1;
-          }
-
-          @Override
-          public Scope createScope(final IOperationContext operationContext, final ReferenceConstraintsContext _context) {
-            return ImportedTableScope.allImported(_context.getContextNode());
-          }
-        };
-      }
-    });
-    references.put("y", new BaseReferenceConstraintsDescriptor("y", this) {
-      @Override
-      public boolean hasOwnScopeProvider() {
-        return true;
-      }
-
-      @Nullable
-      @Override
-      public ReferenceScopeProvider getScopeProvider() {
-        return new BaseScopeProvider() {
-          @Override
-          public SNodeReference getSearchScopeValidatorNode() {
-            return breakingNode_nlbal5_a0a0a0a0a1a0b0a2a1;
-          }
-
-          @Override
-          public Scope createScope(final IOperationContext operationContext, final ReferenceConstraintsContext _context) {
-            return ImportedTableScope.allImported(_context.getContextNode());
-          }
-        };
-      }
-    });
     references.put("style", new BaseReferenceConstraintsDescriptor("style", this) {
       @Override
       public boolean hasOwnOnReferenceSetHandler() {
@@ -120,7 +47,4 @@ public class FitXByY_Constraints extends BaseConstraintsDescriptor {
     });
     return references;
   }
-
-  private static SNodePointer breakingNode_nlbal5_a0a0a0a0a4a0b0a1a1 = new SNodePointer("r:377e7fab-b099-4462-b9f3-2050d4b23cf6(org.campagnelab.hta.tables.constraints)", "6001041468488598571");
-  private static SNodePointer breakingNode_nlbal5_a0a0a0a0a1a0b0a2a1 = new SNodePointer("r:377e7fab-b099-4462-b9f3-2050d4b23cf6(org.campagnelab.hta.tables.constraints)", "6001041468488684633");
 }

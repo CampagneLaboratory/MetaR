@@ -28,14 +28,14 @@ public class ConstraintsAspectDescriptor implements jetbrains.mps.smodel.runtime
         return new SelectByGroup_Constraints();
       case 7:
         return new JoinTables_Constraints();
-      case 2:
-        return new FitXByY_Constraints();
       case 11:
         return new TableRef_Constraints();
       case 8:
         return new Multiplot_Constraints();
       case 3:
         return new Formula_Constraints();
+      case 2:
+        return new FitXByY_Constraints();
       default:
         // todo: illegal in some cases? 
         return new BaseConstraintsDescriptor(fqName);

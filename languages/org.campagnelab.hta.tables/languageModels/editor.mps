@@ -1028,29 +1028,15 @@
       <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="6001041468486411489" nodeInfo="nn">
         <property name="text" nameId="tpc2.1073389577007" value="fit" />
       </node>
-      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_RefCell" typeId="tpc2.1088013125922" id="6001041468486411495" nodeInfo="ng">
-        <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="jrxw.6001041468486325410" />
-        <node role="editorComponent" roleId="tpc2.1088186146602" type="tpc2.InlineEditorComponent" typeId="tpc2.1088185857835" id="6001041468486411497" nodeInfo="ng">
-          <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_Property" typeId="tpc2.1073389658414" id="6001041468486411508" nodeInfo="ng">
-            <property name="readOnly" nameId="tpc2.1140017977771" value="true" />
-            <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="tpck.1169194664001" resolveInfo="name" />
-            <link role="parentStyleClass" roleId="tpc2.1381004262292426837" targetNodeId="2807244893505218379" resolveInfo="ColumnName" />
-          </node>
-        </node>
+      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_RefNode" typeId="tpc2.1073389882823" id="2807244893515992655" nodeInfo="ng">
+        <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="jrxw.2807244893515991461" />
       </node>
       <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="6001041468486411517" nodeInfo="nn">
         <property name="text" nameId="tpc2.1073389577007" value="by" />
         <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.FontStyleStyleClassItem" typeId="tpc2.1186403751766" id="6001041468486438128" nodeInfo="nn" />
       </node>
-      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_RefCell" typeId="tpc2.1088013125922" id="6001041468486411545" nodeInfo="ng">
-        <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="jrxw.6001041468486325416" />
-        <node role="editorComponent" roleId="tpc2.1088186146602" type="tpc2.InlineEditorComponent" typeId="tpc2.1088185857835" id="6001041468486411547" nodeInfo="ng">
-          <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_Property" typeId="tpc2.1073389658414" id="6001041468486411559" nodeInfo="ng">
-            <property name="readOnly" nameId="tpc2.1140017977771" value="true" />
-            <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="tpck.1169194664001" resolveInfo="name" />
-            <link role="parentStyleClass" roleId="tpc2.1381004262292426837" targetNodeId="2807244893505218379" resolveInfo="ColumnName" />
-          </node>
-        </node>
+      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_RefNode" typeId="tpc2.1073389882823" id="2807244893515992597" nodeInfo="ng">
+        <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="jrxw.2807244893515991619" />
       </node>
       <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="6001041468487587748" nodeInfo="nn">
         <property name="text" nameId="tpc2.1073389577007" value="with table" />

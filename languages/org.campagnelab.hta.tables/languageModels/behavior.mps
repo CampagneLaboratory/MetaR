@@ -1802,7 +1802,7 @@
             <node role="creator" roleId="tpee.1145553007750" type="tp2q.SingletonSequenceCreator" typeId="tp2q.1235573135402" id="6001041468488014446" nodeInfo="nn">
               <node role="elementType" roleId="tp2q.1235573175711" type="tpee.StringType" typeId="tpee.1225271177708" id="6001041468488014447" nodeInfo="in" />
               <node role="singletonValue" roleId="tp2q.1235573187520" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="6001041468488014509" nodeInfo="nn">
-                <property name="value" nameId="tpee.1070475926801" value="car" />
+                <property name="value" nameId="tpee.1070475926801" value="graphics" />
               </node>
             </node>
           </node>

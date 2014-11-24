@@ -249,7 +249,7 @@ public class QueriesGenerated {
   }
 
   public static Object propertyMacro_GetPropertyValue_6001041468486989837(final PropertyMacroContext _context) {
-    return "\"" + SPropertyOperations.getString(SLinkOperations.getTarget(_context.getNode(), "x", false), "name") + "\",\"" + SPropertyOperations.getString(SLinkOperations.getTarget(_context.getNode(), "y", false), "name") + "\"" + (((SLinkOperations.getTarget(_context.getNode(), "groupBy", false) != null) ? "\"" + SPropertyOperations.getString(SLinkOperations.getTarget(_context.getNode(), "groupBy", false), "name") + "\"" : ""));
+    return "\"" + SPropertyOperations.getString(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "x", true), "col", false), "name") + "\",\"" + SPropertyOperations.getString(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "y", true), "col", false), "name") + "\"" + (((SLinkOperations.getTarget(_context.getNode(), "groupBy", true) != null) ? "\"" + SPropertyOperations.getString(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "groupBy", true), "col", false), "name") + "\"" : ""));
   }
 
   public static Object propertyMacro_GetPropertyValue_6001041468487574285(final PropertyMacroContext _context) {
@@ -257,19 +257,19 @@ public class QueriesGenerated {
   }
 
   public static Object propertyMacro_GetPropertyValue_6001041468487040669(final PropertyMacroContext _context) {
-    return SPropertyOperations.getString(SLinkOperations.getTarget(_context.getNode(), "y", false), "name");
+    return SPropertyOperations.getString(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "y", true), "col", false), "name");
   }
 
   public static Object propertyMacro_GetPropertyValue_6001041468487047756(final PropertyMacroContext _context) {
-    return SPropertyOperations.getString(SLinkOperations.getTarget(_context.getNode(), "x", false), "name");
+    return SPropertyOperations.getString(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "x", true), "col", false), "name");
   }
 
   public static Object propertyMacro_GetPropertyValue_3442436599519388467(final PropertyMacroContext _context) {
-    return SPropertyOperations.getString(SLinkOperations.getTarget(_context.getNode(), "x", false), "name");
+    return SPropertyOperations.getString(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "x", true), "col", false), "name");
   }
 
   public static Object propertyMacro_GetPropertyValue_3442436599519389386(final PropertyMacroContext _context) {
-    return SPropertyOperations.getString(SLinkOperations.getTarget(_context.getNode(), "y", false), "name");
+    return SPropertyOperations.getString(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "y", true), "col", false), "name");
   }
 
   public static Object propertyMacro_GetPropertyValue_8286430004408149347(final PropertyMacroContext _context) {
@@ -289,7 +289,7 @@ public class QueriesGenerated {
   }
 
   public static Object propertyMacro_GetPropertyValue_3442436599519391775(final PropertyMacroContext _context) {
-    return SPropertyOperations.getString(SLinkOperations.getTarget(_context.getNode(), "groupBy", false), "name");
+    return SPropertyOperations.getString(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "groupBy", true), "col", false), "name");
   }
 
   public static Object propertyMacro_GetPropertyValue_3442436599519473717(final PropertyMacroContext _context) {
@@ -305,7 +305,7 @@ public class QueriesGenerated {
   }
 
   public static Object propertyMacro_GetPropertyValue_6001041468487057584(final PropertyMacroContext _context) {
-    return SPropertyOperations.getString(SLinkOperations.getTarget(_context.getNode(), "x", false), "name");
+    return SPropertyOperations.getString(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "x", true), "col", false), "name");
   }
 
   public static Object propertyMacro_GetPropertyValue_4842667988068041245(final PropertyMacroContext _context) {
@@ -325,7 +325,7 @@ public class QueriesGenerated {
   }
 
   public static Object propertyMacro_GetPropertyValue_6001041468487052823(final PropertyMacroContext _context) {
-    return SPropertyOperations.getString(SLinkOperations.getTarget(_context.getNode(), "y", false), "name");
+    return SPropertyOperations.getString(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "y", true), "col", false), "name");
   }
 
   public static Object propertyMacro_GetPropertyValue_5333555603574492550(final PropertyMacroContext _context) {
@@ -636,7 +636,7 @@ public class QueriesGenerated {
   }
 
   public static boolean ifMacro_Condition_3442436599519404533(final IfMacroContext _context) {
-    return (SLinkOperations.getTarget(_context.getNode(), "groupBy", false) != null);
+    return (SLinkOperations.getTarget(_context.getNode(), "groupBy", true) != null);
   }
 
   public static boolean ifMacro_Condition_4842667988068041272(final IfMacroContext _context) {
