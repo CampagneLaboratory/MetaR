@@ -52,7 +52,7 @@
   <import index="msyo" modelUID="f:java_stub#6ed54515-acc8-4d1e-a16c-9fd6cfe951ea#jetbrains.mps.util(MPS.Core/jetbrains.mps.util@java_stub)" version="-1" />
   <import index="k7g3" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.util(JDK/java.util@java_stub)" version="-1" />
   <import index="zxm0" modelUID="f:java_stub#498d89d2-c2e9-11e2-ad49-6cf049e62fe5#com.intellij.icons(MPS.IDEA/com.intellij.icons@java_stub)" version="-1" />
-  <import index="jrxw" modelUID="r:9f2bbfbf-f8b7-4b3b-92b1-b6a0e9642c10(org.campagnelab.hta.tables.structure)" version="8" />
+  <import index="jrxw" modelUID="r:9f2bbfbf-f8b7-4b3b-92b1-b6a0e9642c10(org.campagnelab.hta.tables.structure)" version="9" />
   <import index="v8sa" modelUID="r:db1b133e-9a0f-4319-b384-413408eb1729(org.campagnelab.hta.tables.behavior)" version="1" />
   <import index="tgbt" modelUID="r:c70ee934-afb1-4c02-b6a9-1c4d1908a792(jetbrains.mps.lang.plugin.standalone.structure)" version="1" implicit="yes" />
   <import index="rzqf" modelUID="r:d78df0bb-be4f-4e0d-8142-c0b2df70a5a3(jetbrains.mps.execution.commands.structure)" version="0" implicit="yes" />
@@ -677,7 +677,7 @@
         <node role="creator" roleId="tpee.1145553007750" type="fb9u.PersistentConfigurationTemplateInitializer" typeId="fb9u.946964771156066582" id="6062668769033909556" nodeInfo="nn">
           <link role="template" roleId="fb9u.946964771156066583" targetNodeId="awpe.8278380780105768314" resolveInfo="NodeByConcept" />
           <node role="parameter" roleId="fb9u.946964771156066584" type="tp25.ConceptFqNameRefExpression" typeId="tp25.8339862546319741524" id="1488175004224193872" nodeInfo="nn">
-            <link role="conceptDeclaration" roleId="tp25.8339862546319741525" targetNodeId="jrxw.8962032619593737380" resolveInfo="Script" />
+            <link role="conceptDeclaration" roleId="tp25.8339862546319741525" targetNodeId="jrxw.8962032619593737380" resolveInfo="Analysis" />
           </node>
           <node role="parameter" roleId="fb9u.946964771156066584" type="tp2c.ClosureLiteral" typeId="tp2c.1199569711397" id="1488175004224248436" nodeInfo="nn">
             <node role="body" roleId="tp2c.1199569916463" type="tpee.StatementList" typeId="tpee.1068580123136" id="1488175004224248438" nodeInfo="sn">
@@ -864,10 +864,10 @@
                     <node role="localVariableDeclaration" roleId="tpee.1068581242865" type="tpee.LocalVariableDeclaration" typeId="tpee.1068581242863" id="2034046503361585723" nodeInfo="nr">
                       <property name="name" nameId="tpck.1169194664001" value="node" />
                       <node role="type" roleId="tpee.5680397130376446158" type="tp25.SNodeType" typeId="tp25.1138055754698" id="2034046503361585724" nodeInfo="in">
-                        <link role="concept" roleId="tp25.1138405853777" targetNodeId="jrxw.8962032619593737380" resolveInfo="Script" />
+                        <link role="concept" roleId="tp25.1138405853777" targetNodeId="jrxw.8962032619593737380" resolveInfo="Analysis" />
                       </node>
                       <node role="initializer" roleId="tpee.1068431790190" type="tp25.SNodeTypeCastExpression" typeId="tp25.1140137987495" id="2034046503361585725" nodeInfo="nn">
-                        <link role="concept" roleId="tp25.1140138128738" targetNodeId="jrxw.8962032619593737380" resolveInfo="Script" />
+                        <link role="concept" roleId="tp25.1140138128738" targetNodeId="jrxw.8962032619593737380" resolveInfo="Analysis" />
                         <node role="leftExpression" roleId="tp25.1140138123956" type="tpee.DotExpression" typeId="tpee.1197027756228" id="2034046503361585726" nodeInfo="nn">
                           <node role="operand" roleId="tpee.1197027771414" type="tpee.DotExpression" typeId="tpee.1197027756228" id="2034046503361585727" nodeInfo="nn">
                             <node role="operand" roleId="tpee.1197027771414" type="uhxm.ConfigurationFromExecutorReference" typeId="uhxm.7806358006983738927" id="2034046503361585728" nodeInfo="nn" />
@@ -1134,7 +1134,7 @@
         </node>
       </node>
       <node role="source" roleId="uhxm.7301162575811113551" type="uhxm.NodeSource" typeId="uhxm.7301162575811126385" id="6062668769033909716" nodeInfo="ng">
-        <link role="concept" roleId="uhxm.7301162575811126914" targetNodeId="jrxw.8962032619593737380" resolveInfo="Script" />
+        <link role="concept" roleId="uhxm.7301162575811126914" targetNodeId="jrxw.8962032619593737380" resolveInfo="Analysis" />
       </node>
     </node>
   </root>

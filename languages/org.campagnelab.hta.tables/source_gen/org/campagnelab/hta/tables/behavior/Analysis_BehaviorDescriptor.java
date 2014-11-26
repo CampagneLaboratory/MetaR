@@ -10,12 +10,12 @@ import jetbrains.mps.lang.core.behavior.INamedConcept_Behavior;
 import jetbrains.mps.scope.Scope;
 import jetbrains.mps.lang.core.behavior.ScopeProvider_Behavior;
 
-public class Script_BehaviorDescriptor extends BaseConcept_BehaviorDescriptor implements INamedConcept_BehaviorDescriptor, ScopeProvider_BehaviorDescriptor {
-  public Script_BehaviorDescriptor() {
+public class Analysis_BehaviorDescriptor extends BaseConcept_BehaviorDescriptor implements INamedConcept_BehaviorDescriptor, ScopeProvider_BehaviorDescriptor {
+  public Analysis_BehaviorDescriptor() {
   }
 
   public Iterable<String> virtual_dependencies_8962032619593737482(SNode thisNode) {
-    return Script_Behavior.virtual_dependencies_8962032619593737482(thisNode);
+    return Analysis_Behavior.virtual_dependencies_8962032619593737482(thisNode);
   }
 
   public String virtual_getFqName_1213877404258(SNode thisNode) {
@@ -32,6 +32,6 @@ public class Script_BehaviorDescriptor extends BaseConcept_BehaviorDescriptor im
 
   @Override
   public String getConceptFqName() {
-    return "org.campagnelab.hta.tables.structure.Script";
+    return "org.campagnelab.hta.tables.structure.Analysis";
   }
 }

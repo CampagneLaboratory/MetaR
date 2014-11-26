@@ -22,17 +22,17 @@ public class R_Producer {
 
   public static List<RuntimeConfigurationProducer> getProducers(ConfigurationType configurationType) {
     List<RuntimeConfigurationProducer> creators = ListSequence.fromList(new ArrayList<RuntimeConfigurationProducer>());
-    ListSequence.fromList(creators).addElement(new R_Producer.ProducerPart_NodeScript_jzp8tc_a(configurationType, CONFIGURATION_FACTORY_CLASS_NAME));
+    ListSequence.fromList(creators).addElement(new R_Producer.ProducerPart_NodeAnalysis_jzp8tc_a(configurationType, CONFIGURATION_FACTORY_CLASS_NAME));
     return creators;
   }
 
-  public static class ProducerPart_NodeScript_jzp8tc_a extends BaseMpsProducer<SNode> {
-    public ProducerPart_NodeScript_jzp8tc_a(ConfigurationType configurationType, String factoryName) {
+  public static class ProducerPart_NodeAnalysis_jzp8tc_a extends BaseMpsProducer<SNode> {
+    public ProducerPart_NodeAnalysis_jzp8tc_a(ConfigurationType configurationType, String factoryName) {
       super(configurationType, factoryName);
     }
 
     protected boolean isApplicable(Object source) {
-      return source instanceof SNode && SNodeOperations.isInstanceOf(((SNode) source), "org.campagnelab.hta.tables.structure.Script");
+      return source instanceof SNode && SNodeOperations.isInstanceOf(((SNode) source), "org.campagnelab.hta.tables.structure.Analysis");
     }
 
     protected R_Configuration doCreateConfiguration(final SNode source) {
@@ -43,8 +43,8 @@ public class R_Producer {
     }
 
     @Override
-    public R_Producer.ProducerPart_NodeScript_jzp8tc_a clone() {
-      return (R_Producer.ProducerPart_NodeScript_jzp8tc_a) super.clone();
+    public R_Producer.ProducerPart_NodeAnalysis_jzp8tc_a clone() {
+      return (R_Producer.ProducerPart_NodeAnalysis_jzp8tc_a) super.clone();
     }
   }
 }

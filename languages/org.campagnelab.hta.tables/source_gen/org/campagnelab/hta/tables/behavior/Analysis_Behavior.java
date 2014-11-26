@@ -18,14 +18,14 @@ import jetbrains.mps.internal.collections.runtime.ITranslator2;
 import jetbrains.mps.smodel.behaviour.BehaviorReflection;
 import jetbrains.mps.smodel.behaviour.BehaviorManager;
 
-public class Script_Behavior {
+public class Analysis_Behavior {
   public static void init(SNode thisNode) {
     SLinkOperations.setTarget(thisNode, "statements", SConceptOperations.createNewNode("org.campagnelab.hta.tables.structure.StatementList", null), true);
   }
 
   @Nullable
   public static String call_getScriptsPath_8962032619593737433(SNode thisNode, Context context) {
-    return Script_Behavior.call_getBasePath_8962032619593737443(thisNode, context);
+    return Analysis_Behavior.call_getBasePath_8962032619593737443(thisNode, context);
   }
 
   @Nullable
@@ -60,6 +60,6 @@ public class Script_Behavior {
 
   @Deprecated
   public static Iterable<String> callSuper_dependencies_8962032619593737482(SNode thisNode, String callerConceptFqName) {
-    return BehaviorManager.getInstance().invokeSuper((Class<Iterable<String>>) ((Class) Object.class), SNodeOperations.cast(thisNode, "org.campagnelab.hta.tables.structure.Script"), callerConceptFqName, "virtual_dependencies_8962032619593737482", new Class[]{SNode.class}, new Object[]{});
+    return BehaviorManager.getInstance().invokeSuper((Class<Iterable<String>>) ((Class) Object.class), SNodeOperations.cast(thisNode, "org.campagnelab.hta.tables.structure.Analysis"), callerConceptFqName, "virtual_dependencies_8962032619593737482", new Class[]{SNode.class}, new Object[]{});
   }
 }

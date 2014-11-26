@@ -20,7 +20,7 @@ public class ReIdStatement_PastePostProcessor_0 implements PastePostProcessor {
 
   public void postProcesNode(SNode pastedNode) {
     final String pastedId = SPropertyOperations.getString(pastedNode, "id");
-    if (ListSequence.fromList(SNodeOperations.getDescendants(SNodeOperations.getAncestor(pastedNode, "org.campagnelab.hta.tables.structure.Script", false, false), "org.campagnelab.hta.tables.structure.Statement", false, new String[]{})).any(new IWhereFilter<SNode>() {
+    if (ListSequence.fromList(SNodeOperations.getDescendants(SNodeOperations.getAncestor(pastedNode, "org.campagnelab.hta.tables.structure.Analysis", false, false), "org.campagnelab.hta.tables.structure.Statement", false, new String[]{})).any(new IWhereFilter<SNode>() {
       public boolean accept(SNode it) {
         return eq_kgn89z_a0a0a0a0a0b0b(SPropertyOperations.getString(it, "id"), pastedId);
       }

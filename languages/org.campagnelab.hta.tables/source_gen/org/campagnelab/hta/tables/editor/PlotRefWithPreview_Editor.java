@@ -113,7 +113,7 @@ public class PlotRefWithPreview_Editor extends DefaultNodeEditor {
       }
 
       public List<?> createParameterObjects(final SNode node, IOperationContext operationContext, EditorContext editorContext) {
-        return ListSequence.fromList(SNodeOperations.getDescendants(SNodeOperations.getAncestor(node, "org.campagnelab.hta.tables.structure.Script", false, false), "org.campagnelab.hta.tables.structure.Plot", false, new String[]{})).where(new IWhereFilter<SNode>() {
+        return ListSequence.fromList(SNodeOperations.getDescendants(SNodeOperations.getAncestor(node, "org.campagnelab.hta.tables.structure.Analysis", false, false), "org.campagnelab.hta.tables.structure.Plot", false, new String[]{})).where(new IWhereFilter<SNode>() {
           public boolean accept(SNode it) {
             return neq_9p3cny_a0a0a0a0a0a0a1e3(it, node);
           }

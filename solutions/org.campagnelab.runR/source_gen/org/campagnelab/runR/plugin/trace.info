@@ -636,7 +636,7 @@
       <varInfo nodeId="6062668769033909448" varName="icon" />
     </scopeInfo>
     <scopeInfo nodeId="6062668769033909448" fileName="R_Configuration_Factory.java" startLine="25" startPosition="0" endLine="33" endPosition="0" />
-    <unitInfo nodeId="1488175004224248436" fileName="R_Configuration.java" startLine="37" startPosition="130" endLine="41" endPosition="3" unitName="org.campagnelab.runR.plugin.R_Configuration$1" />
+    <unitInfo nodeId="1488175004224248436" fileName="R_Configuration.java" startLine="37" startPosition="132" endLine="41" endPosition="3" unitName="org.campagnelab.runR.plugin.R_Configuration$1" />
     <unitInfo nodeId="6062668769033909448" fileName="R_Configuration.java" startLine="117" startPosition="0" endLine="127" endPosition="0" unitName="org.campagnelab.runR.plugin.R_Configuration$MyState" />
     <unitInfo nodeId="6062668769033909448" fileName="R_Configuration.java" startLine="34" startPosition="0" endLine="169" endPosition="0" unitName="org.campagnelab.runR.plugin.R_Configuration" />
     <unitInfo nodeId="6062668769033909448" fileName="R_Configuration_Editor.java" startLine="15" startPosition="0" endLine="57" endPosition="0" unitName="org.campagnelab.runR.plugin.R_Configuration_Editor" />
@@ -697,10 +697,10 @@
     <nodeInfo nodeId="2403604400354646161" fileName="R_Configuration_RunProfileState.java" startLine="61" startPosition="28" endLine="62" endPosition="56" conceptFqName="jetbrains.mps.baseLanguage.structure.ThrowStatement" />
     <nodeInfo nodeId="1488175004227011802" fileName="R_Configuration_RunProfileState.java" startLine="63" startPosition="5" endLine="64" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
     <nodeInfo nodeId="352677614185351913" fileName="R_Configuration_RunProfileState.java" startLine="64" startPosition="0" endLine="65" endPosition="65" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="2034046503361585722" fileName="R_Configuration_RunProfileState.java" startLine="67" startPosition="25" endLine="68" endPosition="129" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="2034046503361585731" fileName="R_Configuration_RunProfileState.java" startLine="68" startPosition="129" endLine="69" endPosition="116" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="2034046503361585722" fileName="R_Configuration_RunProfileState.java" startLine="67" startPosition="25" endLine="68" endPosition="131" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="2034046503361585731" fileName="R_Configuration_RunProfileState.java" startLine="68" startPosition="131" endLine="69" endPosition="118" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="2034046503361585743" fileName="R_Configuration_RunProfileState.java" startLine="70" startPosition="33" endLine="71" endPosition="156" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="2034046503361585752" fileName="R_Configuration_RunProfileState.java" startLine="71" startPosition="156" endLine="72" endPosition="114" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="2034046503361585752" fileName="R_Configuration_RunProfileState.java" startLine="71" startPosition="156" endLine="72" endPosition="116" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="3066236890325155864" fileName="R_Configuration_RunProfileState.java" startLine="76" startPosition="29" endLine="77" endPosition="101" conceptFqName="jetbrains.mps.baseLanguage.structure.ThrowStatement" />
     <nodeInfo nodeId="4451133196878694865" fileName="R_Configuration_RunProfileState.java" startLine="77" startPosition="101" endLine="78" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
     <nodeInfo nodeId="6062668769033909668" fileName="R_Configuration_RunProfileState.java" startLine="80" startPosition="7" endLine="81" endPosition="309" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
@@ -720,7 +720,7 @@
     <nodeInfo nodeId="6062668769033909668" fileName="R_Configuration_RunProfileState.java" startLine="85" startPosition="0" endLine="88" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="invoke#()V" />
     <nodeInfo nodeId="6062668769033909643" fileName="R_Configuration_RunProfileState.java" startLine="96" startPosition="55" endLine="99" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
     <nodeInfo nodeId="6062668769033909643" fileName="R_Configuration_RunProfileState.java" startLine="42" startPosition="0" endLine="46" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="R_Configuration_RunProfileState#(Lorg/campagnelab/runR/plugin/R_Configuration;Lcom/intellij/execution/Executor;Lcom/intellij/execution/runners/ExecutionEnvironment;)V" />
-    <nodeInfo nodeId="2034046503361585738" fileName="R_Configuration_RunProfileState.java" startLine="69" startPosition="116" endLine="73" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="2034046503361585738" fileName="R_Configuration_RunProfileState.java" startLine="69" startPosition="118" endLine="73" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
     <nodeInfo nodeId="6062668769033909668" fileName="R_Configuration_RunProfileState.java" startLine="83" startPosition="85" endLine="88" endPosition="12" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="6062668769033909643" fileName="R_Configuration_RunProfileState.java" startLine="96" startPosition="0" endLine="102" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="canExecute#(Ljava/lang/String;)Z" />
     <nodeInfo nodeId="2034046503361585720" fileName="R_Configuration_RunProfileState.java" startLine="67" startPosition="0" endLine="75" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="run#()V" />
@@ -735,7 +735,7 @@
     <scopeInfo nodeId="6062668769033909668" fileName="R_Configuration_RunProfileState.java" startLine="85" startPosition="32" endLine="86" endPosition="35" />
     <scopeInfo nodeId="6062668769033909643" fileName="R_Configuration_RunProfileState.java" startLine="97" startPosition="60" endLine="98" endPosition="18" />
     <scopeInfo nodeId="6062668769033909643" fileName="R_Configuration_RunProfileState.java" startLine="42" startPosition="153" endLine="44" endPosition="32" />
-    <scopeInfo nodeId="2034046503361585742" fileName="R_Configuration_RunProfileState.java" startLine="70" startPosition="33" endLine="72" endPosition="114" />
+    <scopeInfo nodeId="2034046503361585742" fileName="R_Configuration_RunProfileState.java" startLine="70" startPosition="33" endLine="72" endPosition="116" />
     <scopeInfo nodeId="3066236890325142093" fileName="R_Configuration_RunProfileState.java" startLine="76" startPosition="29" endLine="78" endPosition="0" />
     <scopeInfo nodeId="6062668769033909643" fileName="R_Configuration_RunProfileState.java" startLine="47" startPosition="0" endLine="50" endPosition="0" />
     <scopeInfo nodeId="6062668769033909643" fileName="R_Configuration_RunProfileState.java" startLine="51" startPosition="0" endLine="54" endPosition="0" />
@@ -776,25 +776,25 @@
   <root nodeRef="r:1b4467f9-9100-4799-aca8-5e1dda676616(org.campagnelab.runR.plugin)/6062668769033909683">
     <nodeInfo nodeId="6062668769033909683" fileName="R_Producer.java" startLine="18" startPosition="0" endLine="19" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="CONFIGURATION_FACTORY_CLASS_NAME" />
     <nodeInfo nodeId="6062668769033909683" fileName="R_Producer.java" startLine="23" startPosition="102" endLine="24" endPosition="119" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="6062668769033909683" fileName="R_Producer.java" startLine="24" startPosition="119" endLine="25" endPosition="149" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="6062668769033909683" fileName="R_Producer.java" startLine="25" startPosition="149" endLine="26" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="6062668769033909683" fileName="R_Producer.java" startLine="30" startPosition="102" endLine="31" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
-    <nodeInfo nodeId="6062668769033909683" fileName="R_Producer.java" startLine="34" startPosition="51" endLine="35" endPosition="134" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6062668769033909683" fileName="R_Producer.java" startLine="24" startPosition="119" endLine="25" endPosition="151" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6062668769033909683" fileName="R_Producer.java" startLine="25" startPosition="151" endLine="26" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6062668769033909683" fileName="R_Producer.java" startLine="30" startPosition="104" endLine="31" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+    <nodeInfo nodeId="6062668769033909683" fileName="R_Producer.java" startLine="34" startPosition="51" endLine="35" endPosition="136" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="6062668769033909683" fileName="R_Producer.java" startLine="38" startPosition="73" endLine="39" endPosition="50" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="6062668769033909697" fileName="R_Producer.java" startLine="39" startPosition="50" endLine="40" endPosition="316" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="6062668769033909707" fileName="R_Producer.java" startLine="40" startPosition="316" endLine="41" endPosition="46" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="6062668769033909714" fileName="R_Producer.java" startLine="41" startPosition="46" endLine="42" endPosition="27" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="6062668769033909683" fileName="R_Producer.java" startLine="46" startPosition="64" endLine="47" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6062668769033909683" fileName="R_Producer.java" startLine="46" startPosition="66" endLine="47" endPosition="75" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="6062668769033909683" fileName="R_Producer.java" startLine="20" startPosition="0" endLine="22" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="R_Producer#()V" />
-    <nodeInfo nodeId="6062668769033909683" fileName="R_Producer.java" startLine="30" startPosition="0" endLine="33" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="ProducerPart_NodeScript_jzp8tc_a#(Lcom/intellij/execution/configurations/ConfigurationType;Ljava/lang/String;)V" />
+    <nodeInfo nodeId="6062668769033909683" fileName="R_Producer.java" startLine="30" startPosition="0" endLine="33" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="ProducerPart_NodeAnalysis_jzp8tc_a#(Lcom/intellij/execution/configurations/ConfigurationType;Ljava/lang/String;)V" />
     <nodeInfo nodeId="6062668769033909683" fileName="R_Producer.java" startLine="34" startPosition="0" endLine="37" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isApplicable#(Ljava/lang/Object;)Z" />
-    <nodeInfo nodeId="6062668769033909683" fileName="R_Producer.java" startLine="45" startPosition="0" endLine="49" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="clone#()Lorg/campagnelab/runR/plugin/R_Producer/ProducerPart_NodeScript_jzp8tc_a;" />
+    <nodeInfo nodeId="6062668769033909683" fileName="R_Producer.java" startLine="45" startPosition="0" endLine="49" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="clone#()Lorg/campagnelab/runR/plugin/R_Producer/ProducerPart_NodeAnalysis_jzp8tc_a;" />
     <nodeInfo nodeId="6062668769033909683" fileName="R_Producer.java" startLine="23" startPosition="0" endLine="28" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="getProducers#(Lcom/intellij/execution/configurations/ConfigurationType;)Ljava/util/List;" />
     <nodeInfo nodeId="6062668769033909683" fileName="R_Producer.java" startLine="38" startPosition="0" endLine="44" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="doCreateConfiguration#(Lorg/jetbrains/mps/openapi/model/SNode;)Lcom/intellij/execution/configurations/RunConfigurationBase;" />
     <scopeInfo nodeId="6062668769033909683" fileName="R_Producer.java" startLine="20" startPosition="23" endLine="20" endPosition="23" />
-    <scopeInfo nodeId="6062668769033909683" fileName="R_Producer.java" startLine="30" startPosition="102" endLine="31" endPosition="44" />
-    <scopeInfo nodeId="6062668769033909683" fileName="R_Producer.java" startLine="34" startPosition="51" endLine="35" endPosition="134" />
-    <scopeInfo nodeId="6062668769033909683" fileName="R_Producer.java" startLine="46" startPosition="64" endLine="47" endPosition="73" />
+    <scopeInfo nodeId="6062668769033909683" fileName="R_Producer.java" startLine="30" startPosition="104" endLine="31" endPosition="44" />
+    <scopeInfo nodeId="6062668769033909683" fileName="R_Producer.java" startLine="34" startPosition="51" endLine="35" endPosition="136" />
+    <scopeInfo nodeId="6062668769033909683" fileName="R_Producer.java" startLine="46" startPosition="66" endLine="47" endPosition="75" />
     <scopeInfo nodeId="6062668769033909683" fileName="R_Producer.java" startLine="20" startPosition="0" endLine="22" endPosition="0" />
     <scopeInfo nodeId="6062668769033909683" fileName="R_Producer.java" startLine="23" startPosition="102" endLine="26" endPosition="20">
       <varInfo nodeId="6062668769033909683" varName="creators" />
@@ -816,7 +816,7 @@
     <scopeInfo nodeId="6062668769033909683" fileName="R_Producer.java" startLine="38" startPosition="0" endLine="44" endPosition="0">
       <varInfo nodeId="6062668769033909683" varName="source" />
     </scopeInfo>
-    <unitInfo nodeId="6062668769033909683" fileName="R_Producer.java" startLine="29" startPosition="0" endLine="50" endPosition="0" unitName="org.campagnelab.runR.plugin.R_Producer$ProducerPart_NodeScript_jzp8tc_a" />
+    <unitInfo nodeId="6062668769033909683" fileName="R_Producer.java" startLine="29" startPosition="0" endLine="50" endPosition="0" unitName="org.campagnelab.runR.plugin.R_Producer$ProducerPart_NodeAnalysis_jzp8tc_a" />
     <unitInfo nodeId="6062668769033909683" fileName="R_Producer.java" startLine="17" startPosition="0" endLine="51" endPosition="0" unitName="org.campagnelab.runR.plugin.R_Producer" />
   </root>
 </debugInfo>

@@ -9,7 +9,7 @@
   <language namespace="32f503e8-061b-451e-bcb0-fef56aa05eb9(org.campagnelab.hta.inspect)" />
   <language namespace="13744753-c81f-424a-9c1b-cf8943bf4e86(jetbrains.mps.lang.sharedConcepts)" />
   <devkit namespace="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
-  <import index="jrxw" modelUID="r:9f2bbfbf-f8b7-4b3b-92b1-b6a0e9642c10(org.campagnelab.hta.tables.structure)" version="8" />
+  <import index="jrxw" modelUID="r:9f2bbfbf-f8b7-4b3b-92b1-b6a0e9642c10(org.campagnelab.hta.tables.structure)" version="9" />
   <import index="ztlb" modelUID="r:989540b8-cc89-4ed5-ba78-cf2ce766b8ce(org.campagnelab.mps.XChart.structure)" version="5" />
   <import index="czy4" modelUID="r:20059f57-5dbc-44d9-90cc-68a47f43e4d6(org.campagnelab.hta.tables.generationhelpers)" version="-1" />
   <import index="v8sa" modelUID="r:db1b133e-9a0f-4319-b384-413408eb1729(org.campagnelab.hta.tables.behavior)" version="1" />
@@ -29,16 +29,16 @@
     <property name="name" nameId="tpck.1169194664001" value="main" />
     <node role="mappingLabel" roleId="tpf8.1200911492601" type="tpf8.MappingLabelDeclaration" typeId="tpf8.1200911316486" id="2517666855462450775" nodeInfo="ng">
       <property name="name" nameId="tpck.1169194664001" value="R_SCRIPT" />
-      <link role="sourceConcept" roleId="tpf8.1200911342686" targetNodeId="jrxw.8962032619593737380" resolveInfo="Script" />
+      <link role="sourceConcept" roleId="tpf8.1200911342686" targetNodeId="jrxw.8962032619593737380" resolveInfo="Analysis" />
       <link role="targetConcept" roleId="tpf8.1200913004646" targetNodeId="p6sl.6874736155931251147" resolveInfo="TextOutput" />
     </node>
     <node role="rootMappingRule" roleId="tpf8.1167514678247" type="tpf8.Root_MappingRule" typeId="tpf8.1167514355419" id="3402264987267191713" nodeInfo="ng">
       <property name="keepSourceRoot" nameId="tpf8.1177959072138" value="true" />
-      <link role="applicableConcept" roleId="tpf8.1167169349424" targetNodeId="jrxw.8962032619593737380" resolveInfo="Script" />
+      <link role="applicableConcept" roleId="tpf8.1167169349424" targetNodeId="jrxw.8962032619593737380" resolveInfo="Analysis" />
       <link role="template" roleId="tpf8.1167514355421" targetNodeId="3402264987267195010" resolveInfo="map_Script" />
     </node>
     <node role="dropRootRule" roleId="tpf8.1219952894531" type="tpf8.DropRootRule" typeId="tpf8.1219952072943" id="8887138449909182460" nodeInfo="ng">
-      <link role="applicableConcept" roleId="tpf8.1219952338328" targetNodeId="jrxw.8962032619593737380" resolveInfo="Script" />
+      <link role="applicableConcept" roleId="tpf8.1219952338328" targetNodeId="jrxw.8962032619593737380" resolveInfo="Analysis" />
     </node>
     <node role="preMappingScript" roleId="tpf8.1195502100749" type="tpf8.MappingScriptReference" typeId="tpf8.1195502151594" id="4166618652720611772" nodeInfo="ng">
       <link role="mappingScript" roleId="tpf8.1195502167610" targetNodeId="4166618652720374775" resolveInfo="IncrementAllFutureTableIds" />
@@ -4790,7 +4790,7 @@
       </node>
     </node>
     <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpf8.RootTemplateAnnotation" typeId="tpf8.1168619357332" id="3402264987267195014" nodeInfo="ng">
-      <link role="applicableConcept" roleId="tpf8.1168619429071" targetNodeId="jrxw.8962032619593737380" resolveInfo="Script" />
+      <link role="applicableConcept" roleId="tpf8.1168619429071" targetNodeId="jrxw.8962032619593737380" resolveInfo="Analysis" />
     </node>
     <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpf8.MapSrcNodeMacro" typeId="tpf8.1131073187192" id="2234076393225953654" nodeInfo="nn">
       <link role="mappingLabel" roleId="tpf8.1200912223215" targetNodeId="2517666855462450775" resolveInfo="R_SCRIPT" />

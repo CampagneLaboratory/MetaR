@@ -18,57 +18,57 @@ public class EditorAspectDescriptorImpl implements EditorAspectDescriptor {
       case 0:
         return Collections.<ConceptEditor>singletonList(new AbstractRowFilter_Editor());
       case 1:
-        return Collections.<ConceptEditor>singletonList(new ColumnAnnotation_Editor());
+        return Collections.<ConceptEditor>singletonList(new Analysis_Editor());
       case 2:
-        return Collections.<ConceptEditor>singletonList(new ColumnGroup_Editor());
+        return Collections.<ConceptEditor>singletonList(new ColumnAnnotation_Editor());
       case 3:
-        return Collections.<ConceptEditor>singletonList(new ColumnGroupReference_Editor());
+        return Collections.<ConceptEditor>singletonList(new ColumnGroup_Editor());
       case 4:
-        return Collections.<ConceptEditor>singletonList(new ColumnRef_Editor());
+        return Collections.<ConceptEditor>singletonList(new ColumnGroupReference_Editor());
       case 5:
-        return Collections.<ConceptEditor>singletonList(new CommonColumnSelection_Editor());
+        return Collections.<ConceptEditor>singletonList(new ColumnRef_Editor());
       case 6:
-        return Collections.<ConceptEditor>singletonList(new Define_Editor());
+        return Collections.<ConceptEditor>singletonList(new CommonColumnSelection_Editor());
       case 7:
-        return Collections.<ConceptEditor>singletonList(new EmptyLine_Editor());
+        return Collections.<ConceptEditor>singletonList(new Define_Editor());
       case 8:
-        return Collections.<ConceptEditor>singletonList(new FilterWithExpression_Editor());
+        return Collections.<ConceptEditor>singletonList(new EmptyLine_Editor());
       case 9:
-        return Collections.<ConceptEditor>singletonList(new FitXByY_Editor());
+        return Collections.<ConceptEditor>singletonList(new FilterWithExpression_Editor());
       case 10:
-        return Collections.<ConceptEditor>singletonList(new Formula_Editor());
+        return Collections.<ConceptEditor>singletonList(new FitXByY_Editor());
       case 11:
-        return Collections.<ConceptEditor>singletonList(new FutureTable_Editor());
+        return Collections.<ConceptEditor>singletonList(new Formula_Editor());
       case 12:
-        return Collections.<ConceptEditor>singletonList(new FutureTableRef_Editor());
+        return Collections.<ConceptEditor>singletonList(new FutureTable_Editor());
       case 13:
-        return Collections.<ConceptEditor>singletonList(new Heatmap_Editor());
+        return Collections.<ConceptEditor>singletonList(new FutureTableRef_Editor());
       case 14:
-        return Collections.<ConceptEditor>singletonList(new ID_Editor());
+        return Collections.<ConceptEditor>singletonList(new Heatmap_Editor());
       case 15:
-        return Collections.<ConceptEditor>singletonList(new ImportTable_Editor());
+        return Collections.<ConceptEditor>singletonList(new ID_Editor());
       case 16:
-        return Collections.<ConceptEditor>singletonList(new JoinTables_Editor());
+        return Collections.<ConceptEditor>singletonList(new ImportTable_Editor());
       case 17:
-        return Collections.<ConceptEditor>singletonList(new Model_Editor());
+        return Collections.<ConceptEditor>singletonList(new JoinTables_Editor());
       case 18:
-        return Collections.<ConceptEditor>singletonList(new Multiplot_Editor());
+        return Collections.<ConceptEditor>singletonList(new Model_Editor());
       case 19:
-        return Collections.<ConceptEditor>singletonList(new Plot_Editor());
+        return Collections.<ConceptEditor>singletonList(new Multiplot_Editor());
       case 20:
-        return Collections.<ConceptEditor>singletonList(new PlotRef_Editor());
+        return Collections.<ConceptEditor>singletonList(new Plot_Editor());
       case 21:
-        return Collections.<ConceptEditor>singletonList(new PlotRefWithPreview_Editor());
+        return Collections.<ConceptEditor>singletonList(new PlotRef_Editor());
       case 22:
-        return Collections.<ConceptEditor>singletonList(new PredictWithModel_Editor());
+        return Collections.<ConceptEditor>singletonList(new PlotRefWithPreview_Editor());
       case 23:
-        return Collections.<ConceptEditor>singletonList(new R_Package_Editor());
+        return Collections.<ConceptEditor>singletonList(new PredictWithModel_Editor());
       case 24:
-        return Collections.<ConceptEditor>singletonList(new Range_Editor());
+        return Collections.<ConceptEditor>singletonList(new R_Package_Editor());
       case 25:
-        return Collections.<ConceptEditor>singletonList(new Render_Editor());
+        return Collections.<ConceptEditor>singletonList(new Range_Editor());
       case 26:
-        return Collections.<ConceptEditor>singletonList(new Script_Editor());
+        return Collections.<ConceptEditor>singletonList(new Render_Editor());
       case 27:
         return Collections.<ConceptEditor>singletonList(new SelectByGroup_Editor());
       case 28:
@@ -125,7 +125,7 @@ public class EditorAspectDescriptorImpl implements EditorAspectDescriptor {
 
 
 
-  private static String[] stringSwitchCases_xbvbvu_a0a0b = new String[]{"org.campagnelab.hta.tables.structure.AbstractRowFilter", "org.campagnelab.hta.tables.structure.ColumnAnnotation", "org.campagnelab.hta.tables.structure.ColumnGroup", "org.campagnelab.hta.tables.structure.ColumnGroupReference", "org.campagnelab.hta.tables.structure.ColumnRef", "org.campagnelab.hta.tables.structure.CommonColumnSelection", "org.campagnelab.hta.tables.structure.Define", "org.campagnelab.hta.tables.structure.EmptyLine", "org.campagnelab.hta.tables.structure.FilterWithExpression", "org.campagnelab.hta.tables.structure.FitXByY", "org.campagnelab.hta.tables.structure.Formula", "org.campagnelab.hta.tables.structure.FutureTable", "org.campagnelab.hta.tables.structure.FutureTableRef", "org.campagnelab.hta.tables.structure.Heatmap", "org.campagnelab.hta.tables.structure.ID", "org.campagnelab.hta.tables.structure.ImportTable", "org.campagnelab.hta.tables.structure.JoinTables", "org.campagnelab.hta.tables.structure.Model", "org.campagnelab.hta.tables.structure.Multiplot", "org.campagnelab.hta.tables.structure.Plot", "org.campagnelab.hta.tables.structure.PlotRef", "org.campagnelab.hta.tables.structure.PlotRefWithPreview", "org.campagnelab.hta.tables.structure.PredictWithModel", "org.campagnelab.hta.tables.structure.R_Package", "org.campagnelab.hta.tables.structure.Range", "org.campagnelab.hta.tables.structure.Render", "org.campagnelab.hta.tables.structure.Script", "org.campagnelab.hta.tables.structure.SelectByGroup", "org.campagnelab.hta.tables.structure.SetOfIds", "org.campagnelab.hta.tables.structure.StatementList", "org.campagnelab.hta.tables.structure.SubSetTableRows", "org.campagnelab.hta.tables.structure.Table", "org.campagnelab.hta.tables.structure.TableRef", "org.campagnelab.hta.tables.structure.TableTransformation", "org.campagnelab.hta.tables.structure.TrainLinearModel", "org.campagnelab.hta.tables.structure.UsageType"};
+  private static String[] stringSwitchCases_xbvbvu_a0a0b = new String[]{"org.campagnelab.hta.tables.structure.AbstractRowFilter", "org.campagnelab.hta.tables.structure.Analysis", "org.campagnelab.hta.tables.structure.ColumnAnnotation", "org.campagnelab.hta.tables.structure.ColumnGroup", "org.campagnelab.hta.tables.structure.ColumnGroupReference", "org.campagnelab.hta.tables.structure.ColumnRef", "org.campagnelab.hta.tables.structure.CommonColumnSelection", "org.campagnelab.hta.tables.structure.Define", "org.campagnelab.hta.tables.structure.EmptyLine", "org.campagnelab.hta.tables.structure.FilterWithExpression", "org.campagnelab.hta.tables.structure.FitXByY", "org.campagnelab.hta.tables.structure.Formula", "org.campagnelab.hta.tables.structure.FutureTable", "org.campagnelab.hta.tables.structure.FutureTableRef", "org.campagnelab.hta.tables.structure.Heatmap", "org.campagnelab.hta.tables.structure.ID", "org.campagnelab.hta.tables.structure.ImportTable", "org.campagnelab.hta.tables.structure.JoinTables", "org.campagnelab.hta.tables.structure.Model", "org.campagnelab.hta.tables.structure.Multiplot", "org.campagnelab.hta.tables.structure.Plot", "org.campagnelab.hta.tables.structure.PlotRef", "org.campagnelab.hta.tables.structure.PlotRefWithPreview", "org.campagnelab.hta.tables.structure.PredictWithModel", "org.campagnelab.hta.tables.structure.R_Package", "org.campagnelab.hta.tables.structure.Range", "org.campagnelab.hta.tables.structure.Render", "org.campagnelab.hta.tables.structure.SelectByGroup", "org.campagnelab.hta.tables.structure.SetOfIds", "org.campagnelab.hta.tables.structure.StatementList", "org.campagnelab.hta.tables.structure.SubSetTableRows", "org.campagnelab.hta.tables.structure.Table", "org.campagnelab.hta.tables.structure.TableRef", "org.campagnelab.hta.tables.structure.TableTransformation", "org.campagnelab.hta.tables.structure.TrainLinearModel", "org.campagnelab.hta.tables.structure.UsageType"};
   private static String[] stringSwitchCases_xbvbvu_a0a0c0a2 = new String[]{"org.campagnelab.hta.tables.editor.FutureTableEditorComponent", "org.campagnelab.hta.tables.editor.FutureTableInspectorComponent"};
   private static String[] stringSwitchCases_xbvbvu_a0a0c = new String[]{"org.campagnelab.hta.tables.structure.AbstractRowFilter", "org.campagnelab.hta.tables.structure.FilterWithIDList", "org.campagnelab.hta.tables.structure.FutureTable", "org.campagnelab.hta.tables.structure.Table"};
 }

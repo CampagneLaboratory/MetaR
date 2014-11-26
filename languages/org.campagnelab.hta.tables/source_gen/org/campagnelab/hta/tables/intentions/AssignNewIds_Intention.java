@@ -28,7 +28,7 @@ public class AssignNewIds_Intention implements IntentionFactory {
   }
 
   public String getConcept() {
-    return "org.campagnelab.hta.tables.structure.Script";
+    return "org.campagnelab.hta.tables.structure.Analysis";
   }
 
   public String getPresentation() {

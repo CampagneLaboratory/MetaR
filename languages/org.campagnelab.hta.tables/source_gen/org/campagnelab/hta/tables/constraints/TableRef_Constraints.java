@@ -12,10 +12,13 @@ import jetbrains.mps.smodel.runtime.ReferenceScopeProvider;
 import jetbrains.mps.smodel.runtime.base.BaseReferenceScopeProvider;
 import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.smodel.runtime.ReferenceConstraintsContext;
-import jetbrains.mps.internal.collections.runtime.ListSequence;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
-import jetbrains.mps.internal.collections.runtime.IWhereFilter;
+import java.util.List;
 import org.jetbrains.mps.openapi.model.SNode;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
+import jetbrains.mps.baseLanguage.closures.runtime.Wrappers;
+import jetbrains.mps.internal.collections.runtime.ListSequence;
+import jetbrains.mps.internal.collections.runtime.IWhereFilter;
+import jetbrains.mps.internal.collections.runtime.ITranslator2;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.internal.collections.runtime.ISelector;
 import org.jetbrains.mps.openapi.model.SNodeReference;
@@ -41,7 +44,19 @@ public class TableRef_Constraints extends BaseConstraintsDescriptor {
         return new BaseReferenceScopeProvider() {
           @Override
           public Object createSearchScopeOrListOfNodes(final IOperationContext operationContext, final ReferenceConstraintsContext _context) {
-            return ListSequence.fromList(SNodeOperations.getDescendants(SNodeOperations.getAncestor(_context.getEnclosingNode(), "org.campagnelab.hta.tables.structure.Script", false, false), "org.campagnelab.hta.tables.structure.FutureTable", false, new String[]{})).where(new IWhereFilter<SNode>() {
+            // find the tables defined before this reference: 
+            List<SNode> statements = SNodeOperations.getDescendants(SNodeOperations.getAncestor(_context.getEnclosingNode(), "org.campagnelab.hta.tables.structure.Analysis", false, false), "org.campagnelab.hta.tables.structure.Statement", true, new String[]{});
+            final SNode thisStatement = SNodeOperations.getAncestor(_context.getEnclosingNode(), "org.campagnelab.hta.tables.structure.Statement", true, false);
+            final Wrappers._boolean before = new Wrappers._boolean(true);
+            return ListSequence.fromList(statements).where(new IWhereFilter<SNode>() {
+              public boolean accept(SNode it) {
+                return before.value && (before.value = (it != thisStatement));
+              }
+            }).translate(new ITranslator2<SNode, SNode>() {
+              public Iterable<SNode> translate(SNode it) {
+                return SNodeOperations.getDescendants(it, "org.campagnelab.hta.tables.structure.FutureTable", false, new String[]{});
+              }
+            }).where(new IWhereFilter<SNode>() {
               public boolean accept(SNode it) {
                 return (SLinkOperations.getTarget(it, "table", false) != null);
               }

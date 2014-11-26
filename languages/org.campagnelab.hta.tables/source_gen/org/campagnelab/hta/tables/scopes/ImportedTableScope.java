@@ -13,7 +13,7 @@ import jetbrains.mps.scope.CompositeScope;
 
 public class ImportedTableScope {
   public static Scope allImported(SNode contextNode) {
-    SNode script = SNodeOperations.getAncestor(contextNode, "org.campagnelab.hta.tables.structure.Script", false, false);
+    SNode script = SNodeOperations.getAncestor(contextNode, "org.campagnelab.hta.tables.structure.Analysis", false, false);
     Scope imported = ListScope.forNamedElements(ListSequence.fromList(SNodeOperations.getDescendants(script, "org.campagnelab.hta.tables.structure.ImportTable", false, new String[]{})).translate(new ITranslator2<SNode, SNode>() {
       public Iterable<SNode> translate(SNode it) {
         return SLinkOperations.getTargets(SLinkOperations.getTarget(SLinkOperations.getTarget(it, "future", true), "table", false), "columns", true);
