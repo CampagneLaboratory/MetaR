@@ -17,5 +17,6 @@ public class IntentionsDescriptor extends BaseIntentionsDescriptor {
     IntentionsManager.getInstance().registerIntentionFactory(new AssignNewIds_Intention());
     IntentionsManager.getInstance().registerIntentionFactory(new RefreshPlot_Intention());
     IntentionsManager.getInstance().registerIntentionFactory(new RootTable_Intention());
+    IntentionsManager.getInstance().registerIntentionFactory(new SwitchXandY_Intention());
   }
 }

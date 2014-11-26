@@ -314,6 +314,37 @@
         </node>
       </node>
     </node>
+    <node role="reductionMappingRule" roleId="tpf8.1167328349397" type="tpf8.Reduction_MappingRule" typeId="tpf8.1167327847730" id="2807244893518306780" nodeInfo="ng">
+      <link role="applicableConcept" roleId="tpf8.1167169349424" targetNodeId="tpee.1079359253375" resolveInfo="ParenthesizedExpression" />
+      <node role="ruleConsequence" roleId="tpf8.1169672767469" type="tpf8.InlineTemplate_RuleConsequence" typeId="tpf8.1177093525992" id="2807244893518306911" nodeInfo="ng">
+        <node role="templateNode" roleId="tpf8.1177093586806" type="p6sl.Phrases" typeId="p6sl.8986731840034603051" id="2807244893518306917" nodeInfo="ng">
+          <property name="text" nameId="p6sl.1680136183140337487" value="" />
+          <node role="phrases" roleId="p6sl.8986731840034613153" type="p6sl.Phrase" typeId="p6sl.1680136183140337486" id="2807244893518306923" nodeInfo="ng">
+            <property name="text" nameId="p6sl.1680136183140337487" value="(" />
+          </node>
+          <node role="phrases" roleId="p6sl.8986731840034613153" type="p6sl.Phrase" typeId="p6sl.1680136183140337486" id="2807244893518306941" nodeInfo="ng">
+            <property name="text" nameId="p6sl.1680136183140337487" value="expression" />
+            <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpf8.CopySrcNodeMacro" typeId="tpf8.1114706874351" id="2807244893518306973" nodeInfo="nn">
+              <node role="sourceNodeQuery" roleId="tpf8.1168024447342" type="tpf8.SourceSubstituteMacro_SourceNodeQuery" typeId="tpf8.1168024337012" id="2807244893518306976" nodeInfo="nn">
+                <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="2807244893518306977" nodeInfo="sn">
+                  <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="2807244893518307059" nodeInfo="nn">
+                    <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="2807244893518307194" nodeInfo="nn">
+                      <node role="operand" roleId="tpee.1197027771414" type="tpf8.TemplateFunctionParameter_sourceNode" typeId="tpf8.1167169188348" id="2807244893518307058" nodeInfo="nn" />
+                      <node role="operation" roleId="tpee.1197027833540" type="tp25.SLinkAccess" typeId="tp25.1138056143562" id="2807244893518308426" nodeInfo="nn">
+                        <link role="link" roleId="tp25.1138056516764" targetNodeId="tpee.1079359253376" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node role="phrases" roleId="p6sl.8986731840034613153" type="p6sl.Phrase" typeId="p6sl.1680136183140337486" id="2807244893518306962" nodeInfo="ng">
+            <property name="text" nameId="p6sl.1680136183140337487" value=")" />
+          </node>
+        </node>
+      </node>
+    </node>
   </root>
   <root type="p6sl.TextOutput" typeId="p6sl.6874736155931251147" id="8044300460862380345" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="map_ExpressionContainer" />
