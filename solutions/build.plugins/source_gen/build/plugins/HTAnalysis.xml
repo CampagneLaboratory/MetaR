@@ -6,7 +6,7 @@
   <property name="mps_home" location="" />
   <property name="org.campagnelab.hta.results_dir" location="" />
   <property name="org.campagnelab.goby.workbench.home" location="${basedir}/../NYoSh" />
-  <property name="R_Mate_Version" value="1.0.0" />
+  <property name="metaR_version" value="1.0.0" />
   <property name="textoutput_version" value="1.2.1" />
   <property name="artifacts.mps" location="${mps_home}" />
   <property name="artifacts.org.campagnelab.TextOutput" location="${org.campagnelab.goby.workbench.home}/build/artifacts/org.campagnelab.TextOutput" />
@@ -38,14 +38,14 @@
   
   <target name="assemble" depends="classes, declare-mps-tasks">
     <mkdir dir="${build.layout}" />
-    <mkdir dir="${build.tmp}/default/RMate__dl__lbrace_R_Mate_Version_rbrace_.zip" />
-    <mkdir dir="${build.tmp}/default/RMate__dl__lbrace_R_Mate_Version_rbrace_.zip/RMate" />
-    <mkdir dir="${build.tmp}/default/RMate__dl__lbrace_R_Mate_Version_rbrace_.zip/RMate/META-INF" />
-    <echoxml file="${build.tmp}/default/RMate__dl__lbrace_R_Mate_Version_rbrace_.zip/RMate/META-INF/plugin.xml">
+    <mkdir dir="${build.tmp}/default/metaR__dl__lbrace_metaR_version_rbrace_.zip" />
+    <mkdir dir="${build.tmp}/default/metaR__dl__lbrace_metaR_version_rbrace_.zip/metaR" />
+    <mkdir dir="${build.tmp}/default/metaR__dl__lbrace_metaR_version_rbrace_.zip/metaR/META-INF" />
+    <echoxml file="${build.tmp}/default/metaR__dl__lbrace_metaR_version_rbrace_.zip/metaR/META-INF/plugin.xml">
       <idea-plugin version="2" xmlns:xi="http://www.w3.org/2001/XInclude">
-        <id>org.campagnelab.RMate</id>
-        <name>RMate</name>
-        <version>${R_Mate_Version}</version>
+        <id>org.campagnelab.metaR</id>
+        <name>org.campagnelab.metaR</name>
+        <version>${metaR_version}</version>
         <vendor url="http://workbench.campagnelab.org" logo="/MPS16.png">Campagne Laboratory</vendor>
         <depends>jetbrains.mps.core</depends>
         <depends>org.campagnelab.TextOutput</depends>
@@ -63,8 +63,8 @@
         </extensions>
       </idea-plugin>
     </echoxml>
-    <mkdir dir="${build.tmp}/default/RMate__dl__lbrace_R_Mate_Version_rbrace_.zip/RMate/languages" />
-    <mkdir dir="${build.tmp}/default/RMate__dl__lbrace_R_Mate_Version_rbrace_.zip/RMate/languages/RMate" />
+    <mkdir dir="${build.tmp}/default/metaR__dl__lbrace_metaR_version_rbrace_.zip/metaR/languages" />
+    <mkdir dir="${build.tmp}/default/metaR__dl__lbrace_metaR_version_rbrace_.zip/metaR/languages/metaR" />
     <mkdir dir="${build.tmp}/default/org.campagnelab.hta.expressions.jar" />
     <mkdir dir="${build.tmp}/default/org.campagnelab.hta.expressions.jar/META-INF" />
     <echoxml file="${build.tmp}/default/org.campagnelab.hta.expressions.jar/META-INF/module.xml">
@@ -85,12 +85,12 @@
         <sources jar="org.campagnelab.hta.expressions-src.jar" descriptor="org.campagnelab.hta.expressions.mpl" />
       </module>
     </echoxml>
-    <jar destfile="${build.tmp}/default/RMate__dl__lbrace_R_Mate_Version_rbrace_.zip/RMate/languages/RMate/org.campagnelab.hta.expressions.jar">
+    <jar destfile="${build.tmp}/default/metaR__dl__lbrace_metaR_version_rbrace_.zip/metaR/languages/metaR/org.campagnelab.hta.expressions.jar">
       <fileset dir="${build.tmp}/java/out/org.campagnelab.hta.expressions" />
       <fileset dir="${basedir}/languages/org.campagnelab.hta.expressions" includes="icons/**, resources/**" />
       <fileset dir="${build.tmp}/default/org.campagnelab.hta.expressions.jar" />
     </jar>
-    <jar destfile="${build.tmp}/default/RMate__dl__lbrace_R_Mate_Version_rbrace_.zip/RMate/languages/RMate/org.campagnelab.hta.expressions-generator.jar">
+    <jar destfile="${build.tmp}/default/metaR__dl__lbrace_metaR_version_rbrace_.zip/metaR/languages/metaR/org.campagnelab.hta.expressions-generator.jar">
       <fileset dir="${build.tmp}/java/out/org.campagnelab.hta.expressions#7783277237108175286" />
     </jar>
     <copyModels todir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.hta.expressions-generator-template">
@@ -99,7 +99,7 @@
     <copyModels todir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.hta.expressions-languageModels">
       <fileset dir="${basedir}/languages/org.campagnelab.hta.expressions/languageModels" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
     </copyModels>
-    <jar destfile="${build.tmp}/default/RMate__dl__lbrace_R_Mate_Version_rbrace_.zip/RMate/languages/RMate/org.campagnelab.hta.expressions-src.jar">
+    <jar destfile="${build.tmp}/default/metaR__dl__lbrace_metaR_version_rbrace_.zip/metaR/languages/metaR/org.campagnelab.hta.expressions-src.jar">
       <fileset dir="${basedir}/languages/org.campagnelab.hta.expressions/generator/source_gen">
         <exclude name="**/trace.info" />
       </fileset>
@@ -132,12 +132,12 @@
         <sources jar="org.campagnelab.hta.tables-src.jar" descriptor="org.campagnelab.hta.tables.mpl" />
       </module>
     </echoxml>
-    <jar destfile="${build.tmp}/default/RMate__dl__lbrace_R_Mate_Version_rbrace_.zip/RMate/languages/RMate/org.campagnelab.hta.tables.jar">
+    <jar destfile="${build.tmp}/default/metaR__dl__lbrace_metaR_version_rbrace_.zip/metaR/languages/metaR/org.campagnelab.hta.tables.jar">
       <fileset dir="${build.tmp}/java/out/org.campagnelab.hta.tables" />
       <fileset dir="${basedir}/languages/org.campagnelab.hta.tables" includes="icons/**, resources/**" />
       <fileset dir="${build.tmp}/default/org.campagnelab.hta.tables.jar" />
     </jar>
-    <jar destfile="${build.tmp}/default/RMate__dl__lbrace_R_Mate_Version_rbrace_.zip/RMate/languages/RMate/org.campagnelab.hta.tables-generator.jar">
+    <jar destfile="${build.tmp}/default/metaR__dl__lbrace_metaR_version_rbrace_.zip/metaR/languages/metaR/org.campagnelab.hta.tables-generator.jar">
       <fileset dir="${build.tmp}/java/out/org.campagnelab.hta.tables#3402264987258972825" />
     </jar>
     <copyModels todir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.hta.tables-generator-template">
@@ -149,7 +149,7 @@
     <copyModels todir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.hta.tables-languageModels">
       <fileset dir="${basedir}/languages/org.campagnelab.hta.tables/languageModels" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
     </copyModels>
-    <jar destfile="${build.tmp}/default/RMate__dl__lbrace_R_Mate_Version_rbrace_.zip/RMate/languages/RMate/org.campagnelab.hta.tables-src.jar">
+    <jar destfile="${build.tmp}/default/metaR__dl__lbrace_metaR_version_rbrace_.zip/metaR/languages/metaR/org.campagnelab.hta.tables-src.jar">
       <fileset dir="${basedir}/languages/org.campagnelab.hta.tables/generator/source_gen">
         <exclude name="**/trace.info" />
       </fileset>
@@ -184,7 +184,7 @@
         <sources jar="org.campagnelab.runR-src.jar" descriptor="org.campagnelab.runR.msd" />
       </module>
     </echoxml>
-    <jar destfile="${build.tmp}/default/RMate__dl__lbrace_R_Mate_Version_rbrace_.zip/RMate/languages/RMate/org.campagnelab.runR.jar">
+    <jar destfile="${build.tmp}/default/metaR__dl__lbrace_metaR_version_rbrace_.zip/metaR/languages/metaR/org.campagnelab.runR.jar">
       <fileset dir="${build.tmp}/java/out/org.campagnelab.runR" />
       <fileset dir="${basedir}/solutions/org.campagnelab.runR" includes="icons/**, resources/**" />
       <fileset dir="${build.tmp}/default/org.campagnelab.runR.jar" />
@@ -192,7 +192,7 @@
     <copyModels todir="${build.tmp}/customProcessors/copyModels/solutions-org.campagnelab.runR-models">
       <fileset dir="${basedir}/solutions/org.campagnelab.runR/models" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
     </copyModels>
-    <jar destfile="${build.tmp}/default/RMate__dl__lbrace_R_Mate_Version_rbrace_.zip/RMate/languages/RMate/org.campagnelab.runR-src.jar">
+    <jar destfile="${build.tmp}/default/metaR__dl__lbrace_metaR_version_rbrace_.zip/metaR/languages/metaR/org.campagnelab.runR-src.jar">
       <fileset dir="${basedir}/solutions/org.campagnelab.runR/source_gen">
         <exclude name="**/trace.info" />
       </fileset>
@@ -219,12 +219,12 @@
         <sources jar="org.campagnelab.hta.inspect-src.jar" descriptor="org.campagnelab.hta.inspect.mpl" />
       </module>
     </echoxml>
-    <jar destfile="${build.tmp}/default/RMate__dl__lbrace_R_Mate_Version_rbrace_.zip/RMate/languages/RMate/org.campagnelab.hta.inspect.jar">
+    <jar destfile="${build.tmp}/default/metaR__dl__lbrace_metaR_version_rbrace_.zip/metaR/languages/metaR/org.campagnelab.hta.inspect.jar">
       <fileset dir="${build.tmp}/java/out/org.campagnelab.hta.inspect" />
       <fileset dir="${basedir}/languages/org.campagnelab.hta.inspect" includes="icons/**, resources/**" />
       <fileset dir="${build.tmp}/default/org.campagnelab.hta.inspect.jar" />
     </jar>
-    <jar destfile="${build.tmp}/default/RMate__dl__lbrace_R_Mate_Version_rbrace_.zip/RMate/languages/RMate/org.campagnelab.hta.inspect-generator.jar">
+    <jar destfile="${build.tmp}/default/metaR__dl__lbrace_metaR_version_rbrace_.zip/metaR/languages/metaR/org.campagnelab.hta.inspect-generator.jar">
       <fileset dir="${build.tmp}/java/out/org.campagnelab.hta.inspect#1549006859295776220" />
     </jar>
     <copyModels todir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.hta.inspect-generator-template">
@@ -233,7 +233,7 @@
     <copyModels todir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.hta.inspect-languageModels">
       <fileset dir="${basedir}/languages/org.campagnelab.hta.inspect/languageModels" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
     </copyModels>
-    <jar destfile="${build.tmp}/default/RMate__dl__lbrace_R_Mate_Version_rbrace_.zip/RMate/languages/RMate/org.campagnelab.hta.inspect-src.jar">
+    <jar destfile="${build.tmp}/default/metaR__dl__lbrace_metaR_version_rbrace_.zip/metaR/languages/metaR/org.campagnelab.hta.inspect-src.jar">
       <fileset dir="${basedir}/languages/org.campagnelab.hta.inspect/generator/source_gen">
         <exclude name="**/trace.info" />
       </fileset>
@@ -244,26 +244,26 @@
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.hta.inspect-generator-template" prefix="module/generator/template" />
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.hta.inspect-languageModels" prefix="module/languageModels" />
     </jar>
-    <mkdir dir="${build.tmp}/default/RMate__dl__lbrace_R_Mate_Version_rbrace_.zip/RMate/lib" />
-    <jar destfile="${build.tmp}/default/RMate__dl__lbrace_R_Mate_Version_rbrace_.zip/RMate/lib/icons.jar">
+    <mkdir dir="${build.tmp}/default/metaR__dl__lbrace_metaR_version_rbrace_.zip/metaR/lib" />
+    <jar destfile="${build.tmp}/default/metaR__dl__lbrace_metaR_version_rbrace_.zip/metaR/lib/icons.jar">
       <fileset file="${org.campagnelab.goby.workbench.home}/icons/MPS16.png" />
     </jar>
-    <zip destfile="${build.layout}/RMate_${R_Mate_Version}.zip">
-      <zipfileset file="${basedir}/devkits/org.campagnelab.HTAnalysis.devkit" prefix="RMate/languages/RMate" />
-      <fileset dir="${build.tmp}/default/RMate__dl__lbrace_R_Mate_Version_rbrace_.zip" />
+    <zip destfile="${build.layout}/metaR_${metaR_version}.zip">
+      <zipfileset file="${basedir}/devkits/org.campagnelab.HTAnalysis.devkit" prefix="metaR/languages/metaR" />
+      <fileset dir="${build.tmp}/default/metaR__dl__lbrace_metaR_version_rbrace_.zip" />
     </zip>
-    <echo file="${build.layout}/build.properties">HTAnalysis.R_Mate_Version=${R_Mate_Version}${line.separator}HTAnalysis.textoutput_version=${textoutput_version}${line.separator}mps.build.number=${mps.build.number}${line.separator}mps.date=${mps.date}${line.separator}mps.build.vcs.number=${mps.build.vcs.number}${line.separator}mps.teamcity.buildConfName=${mps.teamcity.buildConfName}${line.separator}mps.idea.platform.build.number=${mps.idea.platform.build.number}${line.separator}mpsBootstrapCore.version=${mpsBootstrapCore.version}${line.separator}org.campagnelab.TextOutput.build_number=${org.campagnelab.TextOutput.build_number}${line.separator}org.campagnelab.TextOutput.textoutput_version=${org.campagnelab.TextOutput.textoutput_version}${line.separator}org.campagnelab.mps.UI.ui_version=${org.campagnelab.mps.UI.ui_version}${line.separator}org.campagnelab.mps.UI.build_number=${org.campagnelab.mps.UI.build_number}${line.separator}XChart.XChart_version=${XChart.XChart_version}</echo>
+    <echo file="${build.layout}/build.properties">HTAnalysis.metaR_version=${metaR_version}${line.separator}HTAnalysis.textoutput_version=${textoutput_version}${line.separator}mps.build.number=${mps.build.number}${line.separator}mps.date=${mps.date}${line.separator}mps.build.vcs.number=${mps.build.vcs.number}${line.separator}mps.teamcity.buildConfName=${mps.teamcity.buildConfName}${line.separator}mps.idea.platform.build.number=${mps.idea.platform.build.number}${line.separator}mpsBootstrapCore.version=${mpsBootstrapCore.version}${line.separator}org.campagnelab.TextOutput.build_number=${org.campagnelab.TextOutput.build_number}${line.separator}org.campagnelab.TextOutput.textoutput_version=${org.campagnelab.TextOutput.textoutput_version}${line.separator}org.campagnelab.mps.UI.ui_version=${org.campagnelab.mps.UI.ui_version}${line.separator}org.campagnelab.mps.UI.build_number=${org.campagnelab.mps.UI.build_number}${line.separator}XChart.XChart_version=${XChart.XChart_version}</echo>
   </target>
   
   <target name="buildDependents" />
   
   <target name="fetchDependencies">
-    <mkdir dir="${build.tmp}/deps/org.campagnelab.TextOutput/org.campagnelab.TextOutput-_dl__lbrace_textoutput_version_rbrace_.zip" />
-    <unzip src="${artifacts.org.campagnelab.TextOutput}/org.campagnelab.TextOutput-${org.campagnelab.TextOutput.textoutput_version}.zip" dest="${build.tmp}/deps/org.campagnelab.TextOutput/org.campagnelab.TextOutput-_dl__lbrace_textoutput_version_rbrace_.zip" />
-    <mkdir dir="${build.tmp}/deps/org.campagnelab.mps.UI/org.campagnelab.UI-_dl__lbrace_ui_version_rbrace_.zip" />
-    <unzip src="${artifacts.org.campagnelab.mps.UI}/org.campagnelab.UI-${org.campagnelab.mps.UI.ui_version}.zip" dest="${build.tmp}/deps/org.campagnelab.mps.UI/org.campagnelab.UI-_dl__lbrace_ui_version_rbrace_.zip" />
     <mkdir dir="${build.tmp}/deps/XChart/XChart__dl__lbrace_XChart_version_rbrace_.zip" />
     <unzip src="${artifacts.XChart}/XChart_${XChart.XChart_version}.zip" dest="${build.tmp}/deps/XChart/XChart__dl__lbrace_XChart_version_rbrace_.zip" />
+    <mkdir dir="${build.tmp}/deps/org.campagnelab.mps.UI/org.campagnelab.UI-_dl__lbrace_ui_version_rbrace_.zip" />
+    <unzip src="${artifacts.org.campagnelab.mps.UI}/org.campagnelab.UI-${org.campagnelab.mps.UI.ui_version}.zip" dest="${build.tmp}/deps/org.campagnelab.mps.UI/org.campagnelab.UI-_dl__lbrace_ui_version_rbrace_.zip" />
+    <mkdir dir="${build.tmp}/deps/org.campagnelab.TextOutput/org.campagnelab.TextOutput-_dl__lbrace_textoutput_version_rbrace_.zip" />
+    <unzip src="${artifacts.org.campagnelab.TextOutput}/org.campagnelab.TextOutput-${org.campagnelab.TextOutput.textoutput_version}.zip" dest="${build.tmp}/deps/org.campagnelab.TextOutput/org.campagnelab.TextOutput-_dl__lbrace_textoutput_version_rbrace_.zip" />
   </target>
   
   <target name="build" depends="assemble" />
@@ -384,8 +384,8 @@
         <module file="${basedir}/solutions/org.campagnelab.runR/org.campagnelab.runR.msd" />
       </chunk>
       <chunk>
-        <module file="${basedir}/devkits/org.campagnelab.HTAnalysis.devkit" />
         <module file="${basedir}/languages/org.campagnelab.hta.expressions/org.campagnelab.hta.expressions.mpl" />
+        <module file="${basedir}/devkits/org.campagnelab.HTAnalysis.devkit" />
       </chunk>
       <chunk />
       <jvmargs>

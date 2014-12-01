@@ -7,53 +7,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d7fb88e6-6771-4f53-a414-3deabf22ebe0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solutions/build.plugins/source_gen/build/plugins/HTAnalysis.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solutions/build.plugins/build.plugins.msd" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solutions/build.plugins/source_gen.caches/build/plugins/dependencies" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solutions/build.plugins/source_gen.caches/build/plugins/generated" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solutions/build.plugins/models/build/plugins.mps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solutions/build.plugins/classes_gen/build/plugins/trace.info" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solutions/build.plugins/source_gen/build/plugins/trace.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/org.campagnelab.runR/classes_gen/org/campagnelab/runR/plugin/RConfigurationOptions.class" afterPath="$PROJECT_DIR$/solutions/org.campagnelab.runR/classes_gen/org/campagnelab/runR/plugin/RConfigurationOptions.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/org.campagnelab.runR/classes_gen/org/campagnelab/runR/plugin/R_Configuration_RunProfileState$1.class" afterPath="$PROJECT_DIR$/solutions/org.campagnelab.runR/classes_gen/org/campagnelab/runR/plugin/R_Configuration_RunProfileState$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/org.campagnelab.runR/classes_gen/org/campagnelab/runR/plugin/R_RunParameters_Configuration$MyState.class" afterPath="$PROJECT_DIR$/solutions/org.campagnelab.runR/classes_gen/org/campagnelab/runR/plugin/R_RunParameters_Configuration$MyState.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/org.campagnelab.runR/classes_gen/org/campagnelab/runR/plugin/R_RunParameters_Configuration.class" afterPath="$PROJECT_DIR$/solutions/org.campagnelab.runR/classes_gen/org/campagnelab/runR/plugin/R_RunParameters_Configuration.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.hta.tables/source_gen/org/campagnelab/hta/tables/behavior/Analysis_Behavior.java" afterPath="$PROJECT_DIR$/languages/org.campagnelab.hta.tables/source_gen/org/campagnelab/hta/tables/behavior/Analysis_Behavior.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/org.campagnelab.runR/source_gen/org/campagnelab/runR/plugin/RConfigurationOptions.java" afterPath="$PROJECT_DIR$/solutions/org.campagnelab.runR/source_gen/org/campagnelab/runR/plugin/RConfigurationOptions.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/org.campagnelab.runR/source_gen/org/campagnelab/runR/plugin/R_Configuration_RunProfileState.java" afterPath="$PROJECT_DIR$/solutions/org.campagnelab.runR/source_gen/org/campagnelab/runR/plugin/R_Configuration_RunProfileState.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/org.campagnelab.runR/source_gen/org/campagnelab/runR/plugin/R_RunParameters_Configuration.java" afterPath="$PROJECT_DIR$/solutions/org.campagnelab.runR/source_gen/org/campagnelab/runR/plugin/R_RunParameters_Configuration.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.hta.tables/languageModels/behavior.mps" afterPath="$PROJECT_DIR$/languages/org.campagnelab.hta.tables/languageModels/behavior.mps" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.hta.tables/languageModels/constraints.mps" afterPath="$PROJECT_DIR$/languages/org.campagnelab.hta.tables/languageModels/constraints.mps" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.hta.tables/source_gen.caches/org/campagnelab/hta/tables/behavior/dependencies" afterPath="$PROJECT_DIR$/languages/org.campagnelab.hta.tables/source_gen.caches/org/campagnelab/hta/tables/behavior/dependencies" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/org.campagnelab.runR/source_gen.caches/org/campagnelab/runR/plugin/dependencies" afterPath="$PROJECT_DIR$/solutions/org.campagnelab.runR/source_gen.caches/org/campagnelab/runR/plugin/dependencies" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.hta.tables/languageModels/editor.mps" afterPath="$PROJECT_DIR$/languages/org.campagnelab.hta.tables/languageModels/editor.mps" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.hta.inspect/generator/source_gen.caches/org/campagnelab/hta/inspect/generator/template/main/generated" afterPath="$PROJECT_DIR$/languages/org.campagnelab.hta.inspect/generator/source_gen.caches/org/campagnelab/hta/inspect/generator/template/main/generated" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.hta.inspect/source_gen.caches/org/campagnelab/hta/inspect/generated" afterPath="$PROJECT_DIR$/languages/org.campagnelab.hta.inspect/source_gen.caches/org/campagnelab/hta/inspect/generated" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.hta.tables/source_gen.caches/org/campagnelab/hta/tables/generated" afterPath="$PROJECT_DIR$/languages/org.campagnelab.hta.tables/source_gen.caches/org/campagnelab/hta/tables/generated" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.hta.tables/source_gen.caches/org/campagnelab/hta/tables/behavior/generated" afterPath="$PROJECT_DIR$/languages/org.campagnelab.hta.tables/source_gen.caches/org/campagnelab/hta/tables/behavior/generated" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.hta.tables/source_gen.caches/org/campagnelab/hta/tables/constraints/generated" afterPath="$PROJECT_DIR$/languages/org.campagnelab.hta.tables/source_gen.caches/org/campagnelab/hta/tables/constraints/generated" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.hta.tables/source_gen.caches/org/campagnelab/hta/tables/editor/generated" afterPath="$PROJECT_DIR$/languages/org.campagnelab.hta.tables/source_gen.caches/org/campagnelab/hta/tables/editor/generated" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.hta.tables/source_gen.caches/org/campagnelab/hta/tables/scopes/generated" afterPath="$PROJECT_DIR$/languages/org.campagnelab.hta.tables/source_gen.caches/org/campagnelab/hta/tables/scopes/generated" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.hta.tables/source_gen.caches/org/campagnelab/hta/tables/structure/generated" afterPath="$PROJECT_DIR$/languages/org.campagnelab.hta.tables/source_gen.caches/org/campagnelab/hta/tables/structure/generated" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.hta.tables/source_gen.caches/org/campagnelab/hta/tables/typesystem/generated" afterPath="$PROJECT_DIR$/languages/org.campagnelab.hta.tables/source_gen.caches/org/campagnelab/hta/tables/typesystem/generated" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/build.plugins/source_gen/build/plugins/HTAnalysis.xml" afterPath="$PROJECT_DIR$/solutions/build.plugins/source_gen/build/plugins/HTAnalysis.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/Playground/Playground.msd" afterPath="$PROJECT_DIR$/solutions/Playground/Playground.msd" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.xml" afterPath="$PROJECT_DIR$/build.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.hta.expressions/generator/source_gen.caches/org/campagnelab/hta/expressions/generator/template/main/generated" afterPath="$PROJECT_DIR$/languages/org.campagnelab.hta.expressions/generator/source_gen.caches/org/campagnelab/hta/expressions/generator/template/main/generated" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.hta.expressions/source_gen.caches/org/campagnelab/hta/expressions/generated" afterPath="$PROJECT_DIR$/languages/org.campagnelab.hta.expressions/source_gen.caches/org/campagnelab/hta/expressions/generated" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/build.plugins/source_gen.caches/build/plugins/generated" afterPath="$PROJECT_DIR$/solutions/build.plugins/source_gen.caches/build/plugins/generated" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/org.campagnelab.runR/source_gen.caches/org/campagnelab/runR/plugin/generated" afterPath="$PROJECT_DIR$/solutions/org.campagnelab.runR/source_gen.caches/org/campagnelab/runR/plugin/generated" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.hta.expressions/generator/template/main@generator.mps" afterPath="$PROJECT_DIR$/languages/org.campagnelab.hta.expressions/generator/template/main@generator.mps" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.hta.inspect/generator/template/main@generator.mps" afterPath="$PROJECT_DIR$/languages/org.campagnelab.hta.inspect/generator/template/main@generator.mps" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.mps/modules.xml" afterPath="$PROJECT_DIR$/.mps/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/devkits/org.campagnelab.HTAnalysis.devkit" afterPath="$PROJECT_DIR$/devkits/org.campagnelab.HTAnalysis.devkit" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.hta.expressions/org.campagnelab.hta.expressions.mpl" afterPath="$PROJECT_DIR$/languages/org.campagnelab.hta.expressions/org.campagnelab.hta.expressions.mpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.hta.inspect/org.campagnelab.hta.inspect.mpl" afterPath="$PROJECT_DIR$/languages/org.campagnelab.hta.inspect/org.campagnelab.hta.inspect.mpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.hta.tables/org.campagnelab.hta.tables.mpl" afterPath="$PROJECT_DIR$/languages/org.campagnelab.hta.tables/org.campagnelab.hta.tables.mpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/org.campagnelab.runR/org.campagnelab.runR.msd" afterPath="$PROJECT_DIR$/solutions/org.campagnelab.runR/org.campagnelab.runR.msd" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/org.campagnelab.runR/models/org/campagnelab/runR/plugin.mps" afterPath="$PROJECT_DIR$/solutions/org.campagnelab.runR/models/org/campagnelab/runR/plugin.mps" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.hta.tables/languageAccessories/org/campagnelab/hta/tables/scopes.mps" afterPath="$PROJECT_DIR$/languages/org.campagnelab.hta.tables/languageAccessories/org/campagnelab/hta/tables/scopes.mps" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.hta.tables/languageModels/structure.mps" afterPath="$PROJECT_DIR$/languages/org.campagnelab.hta.tables/languageModels/structure.mps" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.hta.tables/classes_gen/org/campagnelab/hta/tables/behavior/trace.info" afterPath="$PROJECT_DIR$/languages/org.campagnelab.hta.tables/classes_gen/org/campagnelab/hta/tables/behavior/trace.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.hta.tables/source_gen/org/campagnelab/hta/tables/behavior/trace.info" afterPath="$PROJECT_DIR$/languages/org.campagnelab.hta.tables/source_gen/org/campagnelab/hta/tables/behavior/trace.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/org.campagnelab.runR/classes_gen/org/campagnelab/runR/plugin/trace.info" afterPath="$PROJECT_DIR$/solutions/org.campagnelab.runR/classes_gen/org/campagnelab/runR/plugin/trace.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/org.campagnelab.runR/source_gen/org/campagnelab/runR/plugin/trace.info" afterPath="$PROJECT_DIR$/solutions/org.campagnelab.runR/source_gen/org/campagnelab/runR/plugin/trace.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.hta.tables/languageModels/typesystem.mps" afterPath="$PROJECT_DIR$/languages/org.campagnelab.hta.tables/languageModels/typesystem.mps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/build.plugins/models/build/plugins.mps" afterPath="$PROJECT_DIR$/solutions/build.plugins/models/build/plugins.mps" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.mps/workspace.xml" afterPath="$PROJECT_DIR$/.mps/workspace.xml" />
     </list>
     <ignored path="HTAnalysis.iws" />
@@ -70,7 +32,7 @@
       <list>
         <TabState>
           <option name="title" value="Console" />
-          <option name="history" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#10;&lt;model modelUID=&quot;r:1250dba5-41cd-4ee6-9251-89b95dd6dde8(TempModel_1417455498704770000)&quot;&gt;&#10;  &lt;persistence version=&quot;8&quot; /&gt;&#10;  &lt;language namespace=&quot;de1ad86d-6e50-4a02-b306-d4d17f64c375(jetbrains.mps.console.base)&quot; /&gt;&#10;  &lt;language namespace=&quot;f26691d2-0def-4c06-aec6-2cb90c4af0a4(jetbrains.mps.console.scripts)&quot; /&gt;&#10;  &lt;language namespace=&quot;1a8554c4-eb84-43ba-8c34-6f0d90c6e75a(jetbrains.mps.console.blCommand)&quot; /&gt;&#10;  &lt;language namespace=&quot;a5e4de53-46a3-44da-aab3-68fdf1c34ed0(jetbrains.mps.console.ideCommands)&quot; /&gt;&#10;  &lt;language namespace=&quot;995a7394-7f76-4b8b-a929-c53448708106(jetbrains.mps.console.internalCommands)&quot; /&gt;&#10;  &lt;devkit namespace=&quot;fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)&quot; /&gt;&#10;  &lt;import index=&quot;eynw&quot; modelUID=&quot;r:359b1d2b-77c4-46df-9bf2-b25cbea32254(jetbrains.mps.console.base.structure)&quot; version=&quot;1&quot; /&gt;&#10;  &lt;import index=&quot;z2sp&quot; modelUID=&quot;r:e712f353-5c3c-4288-adce-87c956a52ffb(jetbrains.mps.console.scripts.structure)&quot; version=&quot;0&quot; /&gt;&#10;  &lt;import index=&quot;3xdn&quot; modelUID=&quot;r:935ba0ee-7291-4caa-a807-d76e8fc69391(jetbrains.mps.console.blCommand.structure)&quot; version=&quot;3&quot; /&gt;&#10;  &lt;import index=&quot;caxt&quot; modelUID=&quot;r:135a606f-0376-4c5c-9ab8-4030f051a062(jetbrains.mps.console.ideCommands.structure)&quot; version=&quot;-1&quot; /&gt;&#10;  &lt;import index=&quot;wns9&quot; modelUID=&quot;r:90445206-a973-4c1d-b760-30e5c77b7497(jetbrains.mps.console.internalCommands.structure)&quot; version=&quot;-1&quot; /&gt;&#10;  &lt;import index=&quot;tpck&quot; modelUID=&quot;r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)&quot; version=&quot;0&quot; implicit=&quot;yes&quot; /&gt;&#10;  &lt;import index=&quot;tpee&quot; modelUID=&quot;r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)&quot; version=&quot;5&quot; implicit=&quot;yes&quot; /&gt;&#10;  &lt;import index=&quot;tp25&quot; modelUID=&quot;r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)&quot; version=&quot;16&quot; implicit=&quot;yes&quot; /&gt;&#10;  &lt;root type=&quot;eynw.ConsoleRoot&quot; typeId=&quot;eynw.1583916890557930028&quot; id=&quot;9012942620029376959&quot; nodeInfo=&quot;ng&quot;&gt;&#10;    &lt;node role=&quot;history&quot; roleId=&quot;eynw.1583916890557930415&quot; type=&quot;eynw.History&quot; typeId=&quot;eynw.757553790980850366&quot; id=&quot;3402264987258972712&quot; nodeInfo=&quot;ng&quot;&gt;&#10;      &lt;node role=&quot;item&quot; roleId=&quot;eynw.7195119950189425818&quot; type=&quot;eynw.CommandHolder&quot; typeId=&quot;eynw.351968380916615243&quot; id=&quot;772483346260429916&quot; nodeInfo=&quot;ng&quot;&gt;&#10;        &lt;property name=&quot;name&quot; nameId=&quot;tpck.1169194664001&quot; value=&quot;CommandHolder&quot; /&gt;&#10;        &lt;node role=&quot;command&quot; roleId=&quot;eynw.351968380916615460&quot; type=&quot;3xdn.BLExpression&quot; typeId=&quot;3xdn.7656298970878093785&quot; id=&quot;772483346260429917&quot; nodeInfo=&quot;ng&quot;&gt;&#10;          &lt;node role=&quot;expression&quot; roleId=&quot;3xdn.7656298970878093890&quot; type=&quot;caxt.Clean&quot; typeId=&quot;caxt.2840424593938220297&quot; id=&quot;772483346260429918&quot; nodeInfo=&quot;ng&quot;&gt;&#10;            &lt;node role=&quot;parameter&quot; roleId=&quot;3xdn.4307205004132279624&quot; type=&quot;3xdn.QueryParameterList&quot; typeId=&quot;3xdn.4307205004132277753&quot; id=&quot;772483346260429919&quot; nodeInfo=&quot;ng&quot; /&gt;&#10;          &lt;/node&gt;&#10;        &lt;/node&gt;&#10;      &lt;/node&gt;&#10;      &lt;node role=&quot;item&quot; roleId=&quot;eynw.7195119950189425818&quot; type=&quot;eynw.CommandHolder&quot; typeId=&quot;eynw.351968380916615243&quot; id=&quot;8459500803717171889&quot; nodeInfo=&quot;ng&quot;&gt;&#10;        &lt;property name=&quot;name&quot; nameId=&quot;tpck.1169194664001&quot; value=&quot;CommandHolder&quot; /&gt;&#10;        &lt;node role=&quot;command&quot; roleId=&quot;eynw.351968380916615460&quot; type=&quot;3xdn.BLExpression&quot; typeId=&quot;3xdn.7656298970878093785&quot; id=&quot;8459500803717171890&quot; nodeInfo=&quot;ng&quot;&gt;&#10;          &lt;node role=&quot;expression&quot; roleId=&quot;3xdn.7656298970878093890&quot; type=&quot;caxt.Clean&quot; typeId=&quot;caxt.2840424593938220297&quot; id=&quot;8459500803717171891&quot; nodeInfo=&quot;ng&quot;&gt;&#10;            &lt;node role=&quot;parameter&quot; roleId=&quot;3xdn.4307205004132279624&quot; type=&quot;3xdn.QueryParameterList&quot; typeId=&quot;3xdn.4307205004132277753&quot; id=&quot;8459500803717171892&quot; nodeInfo=&quot;ng&quot; /&gt;&#10;          &lt;/node&gt;&#10;        &lt;/node&gt;&#10;      &lt;/node&gt;&#10;      &lt;node role=&quot;item&quot; roleId=&quot;eynw.7195119950189425818&quot; type=&quot;eynw.CommandHolder&quot; typeId=&quot;eynw.351968380916615243&quot; id=&quot;7074867102587228079&quot; nodeInfo=&quot;ng&quot;&gt;&#10;        &lt;property name=&quot;name&quot; nameId=&quot;tpck.1169194664001&quot; value=&quot;CommandHolder&quot; /&gt;&#10;        &lt;node role=&quot;command&quot; roleId=&quot;eynw.351968380916615460&quot; type=&quot;3xdn.BLCommand&quot; typeId=&quot;3xdn.5464054275389846505&quot; id=&quot;7074867102587228080&quot; nodeInfo=&quot;ng&quot;&gt;&#10;          &lt;node role=&quot;body&quot; roleId=&quot;3xdn.1769790395579689573&quot; type=&quot;tpee.StatementList&quot; typeId=&quot;tpee.1068580123136&quot; id=&quot;7074867102587228081&quot; nodeInfo=&quot;sn&quot;&gt;&#10;            &lt;node role=&quot;statement&quot; roleId=&quot;tpee.1068581517665&quot; type=&quot;tpee.ExpressionStatement&quot; typeId=&quot;tpee.1068580123155&quot; id=&quot;7074867102587228082&quot; nodeInfo=&quot;nn&quot;&gt;&#10;              &lt;node role=&quot;expression&quot; roleId=&quot;tpee.1068580123156&quot; type=&quot;3xdn.ShowExpression&quot; typeId=&quot;3xdn.8483375838963816351&quot; id=&quot;7074867102587228083&quot; nodeInfo=&quot;ng&quot;&gt;&#10;                &lt;node role=&quot;object&quot; roleId=&quot;3xdn.7600370246423275637&quot; type=&quot;3xdn.ModelsExpression&quot; typeId=&quot;3xdn.6864030874027862829&quot; id=&quot;7074867102587228084&quot; nodeInfo=&quot;ng&quot;&gt;&#10;                  &lt;node role=&quot;parameter&quot; roleId=&quot;3xdn.4307205004132279624&quot; type=&quot;3xdn.QueryParameterList&quot; typeId=&quot;3xdn.4307205004132277753&quot; id=&quot;7074867102587228085&quot; nodeInfo=&quot;ng&quot; /&gt;&#10;                &lt;/node&gt;&#10;              &lt;/node&gt;&#10;            &lt;/node&gt;&#10;          &lt;/node&gt;&#10;        &lt;/node&gt;&#10;      &lt;/node&gt;&#10;      &lt;node role=&quot;item&quot; roleId=&quot;eynw.7195119950189425818&quot; type=&quot;eynw.CommandHolder&quot; typeId=&quot;eynw.351968380916615243&quot; id=&quot;7074867102587234958&quot; nodeInfo=&quot;ng&quot;&gt;&#10;        &lt;property name=&quot;name&quot; nameId=&quot;tpck.1169194664001&quot; value=&quot;CommandHolder&quot; /&gt;&#10;        &lt;node role=&quot;command&quot; roleId=&quot;eynw.351968380916615460&quot; type=&quot;3xdn.BLExpression&quot; typeId=&quot;3xdn.7656298970878093785&quot; id=&quot;7074867102587234959&quot; nodeInfo=&quot;ng&quot;&gt;&#10;          &lt;node role=&quot;expression&quot; roleId=&quot;3xdn.7656298970878093890&quot; type=&quot;tpee.DotExpression&quot; typeId=&quot;tpee.1197027756228&quot; id=&quot;7074867102587234960&quot; nodeInfo=&quot;nn&quot;&gt;&#10;            &lt;node role=&quot;operand&quot; roleId=&quot;tpee.1197027771414&quot; type=&quot;tp25.ModelReferenceExpression&quot; typeId=&quot;tp25.559557797393017698&quot; id=&quot;7074867102587234961&quot; nodeInfo=&quot;nn&quot;&gt;&#10;              &lt;property name=&quot;name&quot; nameId=&quot;tp25.559557797393017702&quot; value=&quot;Tables&quot; /&gt;&#10;              &lt;property name=&quot;stereotype&quot; nameId=&quot;tp25.559557797393021807&quot; value=&quot;&quot; /&gt;&#10;            &lt;/node&gt;&#10;            &lt;node role=&quot;operation&quot; roleId=&quot;tpee.1197027833540&quot; type=&quot;tp25.Model_RootsOperation&quot; typeId=&quot;tp25.1171315804604&quot; id=&quot;7074867102587234962&quot; nodeInfo=&quot;nn&quot; /&gt;&#10;          &lt;/node&gt;&#10;        &lt;/node&gt;&#10;      &lt;/node&gt;&#10;      &lt;node role=&quot;item&quot; roleId=&quot;eynw.7195119950189425818&quot; type=&quot;eynw.Response&quot; typeId=&quot;eynw.5637103006918228482&quot; id=&quot;7074867102587234964&quot; nodeInfo=&quot;ng&quot;&gt;&#10;        &lt;node role=&quot;item&quot; roleId=&quot;eynw.5637103006919120621&quot; type=&quot;eynw.NodeResponseItem&quot; typeId=&quot;eynw.5637103006919121940&quot; id=&quot;7074867102587234965&quot; nodeInfo=&quot;ng&quot;&gt;&#10;          &lt;node role=&quot;node&quot; roleId=&quot;eynw.5637103006919121941&quot; type=&quot;eynw.NodeWithClosure&quot; typeId=&quot;eynw.1111629987770987206&quot; id=&quot;7074867102587234963&quot; nodeInfo=&quot;ng&quot;&gt;&#10;            &lt;property name=&quot;text&quot; nameId=&quot;eynw.3894227536041201194&quot; value=&quot;6 nodes&quot; /&gt;&#10;          &lt;/node&gt;&#10;        &lt;/node&gt;&#10;      &lt;/node&gt;&#10;      &lt;node role=&quot;item&quot; roleId=&quot;eynw.7195119950189425818&quot; type=&quot;eynw.CommandHolder&quot; typeId=&quot;eynw.351968380916615243&quot; id=&quot;6853668811999375140&quot; nodeInfo=&quot;ng&quot;&gt;&#10;        &lt;property name=&quot;name&quot; nameId=&quot;tpck.1169194664001&quot; value=&quot;CommandHolder&quot; /&gt;&#10;        &lt;node role=&quot;command&quot; roleId=&quot;eynw.351968380916615460&quot; type=&quot;3xdn.BLExpression&quot; typeId=&quot;3xdn.7656298970878093785&quot; id=&quot;6853668811999375141&quot; nodeInfo=&quot;ng&quot;&gt;&#10;          &lt;node role=&quot;expression&quot; roleId=&quot;3xdn.7656298970878093890&quot; type=&quot;tpee.DotExpression&quot; typeId=&quot;tpee.1197027756228&quot; id=&quot;6853668811999375142&quot; nodeInfo=&quot;nn&quot;&gt;&#10;            &lt;node role=&quot;operand&quot; roleId=&quot;tpee.1197027771414&quot; type=&quot;tp25.ModelReferenceExpression&quot; typeId=&quot;tp25.559557797393017698&quot; id=&quot;6853668811999375143&quot; nodeInfo=&quot;nn&quot;&gt;&#10;              &lt;property name=&quot;name&quot; nameId=&quot;tp25.559557797393017702&quot; value=&quot;Tables&quot; /&gt;&#10;              &lt;property name=&quot;stereotype&quot; nameId=&quot;tp25.559557797393021807&quot; value=&quot;&quot; /&gt;&#10;            &lt;/node&gt;&#10;            &lt;node role=&quot;operation&quot; roleId=&quot;tpee.1197027833540&quot; type=&quot;tp25.Model_RootsOperation&quot; typeId=&quot;tp25.1171315804604&quot; id=&quot;6853668811999375144&quot; nodeInfo=&quot;nn&quot; /&gt;&#10;          &lt;/node&gt;&#10;        &lt;/node&gt;&#10;      &lt;/node&gt;&#10;      &lt;node role=&quot;item&quot; roleId=&quot;eynw.7195119950189425818&quot; type=&quot;eynw.Response&quot; typeId=&quot;eynw.5637103006918228482&quot; id=&quot;6853668811999375146&quot; nodeInfo=&quot;ng&quot;&gt;&#10;        &lt;node role=&quot;item&quot; roleId=&quot;eynw.5637103006919120621&quot; type=&quot;eynw.NodeResponseItem&quot; typeId=&quot;eynw.5637103006919121940&quot; id=&quot;6853668811999375147&quot; nodeInfo=&quot;ng&quot;&gt;&#10;          &lt;node role=&quot;node&quot; roleId=&quot;eynw.5637103006919121941&quot; type=&quot;eynw.NodeWithClosure&quot; typeId=&quot;eynw.1111629987770987206&quot; id=&quot;6853668811999375145&quot; nodeInfo=&quot;ng&quot;&gt;&#10;            &lt;property name=&quot;text&quot; nameId=&quot;eynw.3894227536041201194&quot; value=&quot;6 nodes&quot; /&gt;&#10;          &lt;/node&gt;&#10;        &lt;/node&gt;&#10;      &lt;/node&gt;&#10;      &lt;node role=&quot;item&quot; roleId=&quot;eynw.7195119950189425818&quot; type=&quot;eynw.CommandHolder&quot; typeId=&quot;eynw.351968380916615243&quot; id=&quot;6853668811999380671&quot; nodeInfo=&quot;ng&quot;&gt;&#10;        &lt;property name=&quot;name&quot; nameId=&quot;tpck.1169194664001&quot; value=&quot;CommandHolder&quot; /&gt;&#10;        &lt;node role=&quot;command&quot; roleId=&quot;eynw.351968380916615460&quot; type=&quot;3xdn.BLExpression&quot; typeId=&quot;3xdn.7656298970878093785&quot; id=&quot;6853668811999380672&quot; nodeInfo=&quot;ng&quot;&gt;&#10;          &lt;node role=&quot;expression&quot; roleId=&quot;3xdn.7656298970878093890&quot; type=&quot;caxt.Clean&quot; typeId=&quot;caxt.2840424593938220297&quot; id=&quot;6853668811999380673&quot; nodeInfo=&quot;ng&quot;&gt;&#10;            &lt;node role=&quot;parameter&quot; roleId=&quot;3xdn.4307205004132279624&quot; type=&quot;3xdn.QueryParameterList&quot; typeId=&quot;3xdn.4307205004132277753&quot; id=&quot;6853668811999380674&quot; nodeInfo=&quot;ng&quot; /&gt;&#10;          &lt;/node&gt;&#10;        &lt;/node&gt;&#10;      &lt;/node&gt;&#10;      &lt;node role=&quot;item&quot; roleId=&quot;eynw.7195119950189425818&quot; type=&quot;eynw.CommandHolder&quot; typeId=&quot;eynw.351968380916615243&quot; id=&quot;7821610625920017667&quot; nodeInfo=&quot;ng&quot;&gt;&#10;        &lt;property name=&quot;name&quot; nameId=&quot;tpck.1169194664001&quot; value=&quot;CommandHolder&quot; /&gt;&#10;        &lt;node role=&quot;command&quot; roleId=&quot;eynw.351968380916615460&quot; type=&quot;3xdn.BLExpression&quot; typeId=&quot;3xdn.7656298970878093785&quot; id=&quot;7821610625920017668&quot; nodeInfo=&quot;ng&quot;&gt;&#10;          &lt;node role=&quot;expression&quot; roleId=&quot;3xdn.7656298970878093890&quot; type=&quot;caxt.Clean&quot; typeId=&quot;caxt.2840424593938220297&quot; id=&quot;7821610625920017669&quot; nodeInfo=&quot;ng&quot;&gt;&#10;            &lt;node role=&quot;parameter&quot; roleId=&quot;3xdn.4307205004132279624&quot; type=&quot;3xdn.QueryParameterList&quot; typeId=&quot;3xdn.4307205004132277753&quot; id=&quot;7821610625920017670&quot; nodeInfo=&quot;ng&quot; /&gt;&#10;          &lt;/node&gt;&#10;        &lt;/node&gt;&#10;      &lt;/node&gt;&#10;      &lt;node role=&quot;item&quot; roleId=&quot;eynw.7195119950189425818&quot; type=&quot;eynw.CommandHolder&quot; typeId=&quot;eynw.351968380916615243&quot; id=&quot;7783277237110070598&quot; nodeInfo=&quot;ng&quot;&gt;&#10;        &lt;property name=&quot;name&quot; nameId=&quot;tpck.1169194664001&quot; value=&quot;CommandHolder&quot; /&gt;&#10;        &lt;node role=&quot;command&quot; roleId=&quot;eynw.351968380916615460&quot; type=&quot;3xdn.BLExpression&quot; typeId=&quot;3xdn.7656298970878093785&quot; id=&quot;7783277237110070599&quot; nodeInfo=&quot;ng&quot;&gt;&#10;          &lt;node role=&quot;expression&quot; roleId=&quot;3xdn.7656298970878093890&quot; type=&quot;caxt.Clean&quot; typeId=&quot;caxt.2840424593938220297&quot; id=&quot;7783277237110070600&quot; nodeInfo=&quot;ng&quot;&gt;&#10;            &lt;node role=&quot;parameter&quot; roleId=&quot;3xdn.4307205004132279624&quot; type=&quot;3xdn.QueryParameterList&quot; typeId=&quot;3xdn.4307205004132277753&quot; id=&quot;7783277237110070601&quot; nodeInfo=&quot;ng&quot; /&gt;&#10;          &lt;/node&gt;&#10;        &lt;/node&gt;&#10;      &lt;/node&gt;&#10;      &lt;node role=&quot;item&quot; roleId=&quot;eynw.7195119950189425818&quot; type=&quot;eynw.CommandHolder&quot; typeId=&quot;eynw.351968380916615243&quot; id=&quot;4253354357985770450&quot; nodeInfo=&quot;ng&quot;&gt;&#10;        &lt;property name=&quot;name&quot; nameId=&quot;tpck.1169194664001&quot; value=&quot;CommandHolder&quot; /&gt;&#10;        &lt;node role=&quot;command&quot; roleId=&quot;eynw.351968380916615460&quot; type=&quot;3xdn.BLExpression&quot; typeId=&quot;3xdn.7656298970878093785&quot; id=&quot;4253354357985770451&quot; nodeInfo=&quot;ng&quot;&gt;&#10;          &lt;node role=&quot;expression&quot; roleId=&quot;3xdn.7656298970878093890&quot; type=&quot;caxt.Clean&quot; typeId=&quot;caxt.2840424593938220297&quot; id=&quot;4253354357985770452&quot; nodeInfo=&quot;ng&quot;&gt;&#10;            &lt;node role=&quot;parameter&quot; roleId=&quot;3xdn.4307205004132279624&quot; type=&quot;3xdn.QueryParameterList&quot; typeId=&quot;3xdn.4307205004132277753&quot; id=&quot;4253354357985770453&quot; nodeInfo=&quot;ng&quot; /&gt;&#10;          &lt;/node&gt;&#10;        &lt;/node&gt;&#10;      &lt;/node&gt;&#10;      &lt;node role=&quot;item&quot; roleId=&quot;eynw.7195119950189425818&quot; type=&quot;eynw.CommandHolder&quot; typeId=&quot;eynw.351968380916615243&quot; id=&quot;7152706666065610392&quot; nodeInfo=&quot;ng&quot;&gt;&#10;        &lt;property name=&quot;name&quot; nameId=&quot;tpck.1169194664001&quot; value=&quot;CommandHolder&quot; /&gt;&#10;        &lt;node role=&quot;command&quot; roleId=&quot;eynw.351968380916615460&quot; type=&quot;3xdn.BLExpression&quot; typeId=&quot;3xdn.7656298970878093785&quot; id=&quot;7152706666065610393&quot; nodeInfo=&quot;ng&quot;&gt;&#10;          &lt;node role=&quot;expression&quot; roleId=&quot;3xdn.7656298970878093890&quot; type=&quot;caxt.Clean&quot; typeId=&quot;caxt.2840424593938220297&quot; id=&quot;7152706666065610394&quot; nodeInfo=&quot;ng&quot;&gt;&#10;            &lt;node role=&quot;parameter&quot; roleId=&quot;3xdn.4307205004132279624&quot; type=&quot;3xdn.QueryParameterList&quot; typeId=&quot;3xdn.4307205004132277753&quot; id=&quot;7152706666065610395&quot; nodeInfo=&quot;ng&quot; /&gt;&#10;          &lt;/node&gt;&#10;        &lt;/node&gt;&#10;      &lt;/node&gt;&#10;      &lt;node role=&quot;item&quot; roleId=&quot;eynw.7195119950189425818&quot; type=&quot;eynw.CommandHolder&quot; typeId=&quot;eynw.351968380916615243&quot; id=&quot;8013388156565264750&quot; nodeInfo=&quot;ng&quot;&gt;&#10;        &lt;property name=&quot;name&quot; nameId=&quot;tpck.1169194664001&quot; value=&quot;CommandHolder&quot; /&gt;&#10;        &lt;node role=&quot;command&quot; roleId=&quot;eynw.351968380916615460&quot; type=&quot;3xdn.BLExpression&quot; typeId=&quot;3xdn.7656298970878093785&quot; id=&quot;8013388156565264751&quot; nodeInfo=&quot;ng&quot;&gt;&#10;          &lt;node role=&quot;expression&quot; roleId=&quot;3xdn.7656298970878093890&quot; type=&quot;caxt.Clean&quot; typeId=&quot;caxt.2840424593938220297&quot; id=&quot;8013388156565264752&quot; nodeInfo=&quot;ng&quot;&gt;&#10;            &lt;node role=&quot;parameter&quot; roleId=&quot;3xdn.4307205004132279624&quot; type=&quot;3xdn.QueryParameterList&quot; typeId=&quot;3xdn.4307205004132277753&quot; id=&quot;8013388156565264753&quot; nodeInfo=&quot;ng&quot; /&gt;&#10;          &lt;/node&gt;&#10;        &lt;/node&gt;&#10;      &lt;/node&gt;&#10;    &lt;/node&gt;&#10;    &lt;node role=&quot;commandHolder&quot; roleId=&quot;eynw.1583916890557930417&quot; type=&quot;eynw.CommandHolder&quot; typeId=&quot;eynw.351968380916615243&quot; id=&quot;9012942620029376960&quot; nodeInfo=&quot;ng&quot;&gt;&#10;      &lt;property name=&quot;name&quot; nameId=&quot;tpck.1169194664001&quot; value=&quot;CommandHolder&quot; /&gt;&#10;    &lt;/node&gt;&#10;  &lt;/root&gt;&#10;&lt;/model&gt;&#10;&#10;" />
+          <option name="history" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#10;&lt;model modelUID=&quot;r:1e86e9e0-e96c-446b-9c1b-35512d96fc5b(TempModel_1417457534392679000)&quot;&gt;&#10;  &lt;persistence version=&quot;8&quot; /&gt;&#10;  &lt;language namespace=&quot;de1ad86d-6e50-4a02-b306-d4d17f64c375(jetbrains.mps.console.base)&quot; /&gt;&#10;  &lt;language namespace=&quot;f26691d2-0def-4c06-aec6-2cb90c4af0a4(jetbrains.mps.console.scripts)&quot; /&gt;&#10;  &lt;language namespace=&quot;1a8554c4-eb84-43ba-8c34-6f0d90c6e75a(jetbrains.mps.console.blCommand)&quot; /&gt;&#10;  &lt;language namespace=&quot;a5e4de53-46a3-44da-aab3-68fdf1c34ed0(jetbrains.mps.console.ideCommands)&quot; /&gt;&#10;  &lt;language namespace=&quot;995a7394-7f76-4b8b-a929-c53448708106(jetbrains.mps.console.internalCommands)&quot; /&gt;&#10;  &lt;devkit namespace=&quot;fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)&quot; /&gt;&#10;  &lt;import index=&quot;eynw&quot; modelUID=&quot;r:359b1d2b-77c4-46df-9bf2-b25cbea32254(jetbrains.mps.console.base.structure)&quot; version=&quot;1&quot; /&gt;&#10;  &lt;import index=&quot;z2sp&quot; modelUID=&quot;r:e712f353-5c3c-4288-adce-87c956a52ffb(jetbrains.mps.console.scripts.structure)&quot; version=&quot;0&quot; /&gt;&#10;  &lt;import index=&quot;3xdn&quot; modelUID=&quot;r:935ba0ee-7291-4caa-a807-d76e8fc69391(jetbrains.mps.console.blCommand.structure)&quot; version=&quot;3&quot; /&gt;&#10;  &lt;import index=&quot;caxt&quot; modelUID=&quot;r:135a606f-0376-4c5c-9ab8-4030f051a062(jetbrains.mps.console.ideCommands.structure)&quot; version=&quot;-1&quot; /&gt;&#10;  &lt;import index=&quot;wns9&quot; modelUID=&quot;r:90445206-a973-4c1d-b760-30e5c77b7497(jetbrains.mps.console.internalCommands.structure)&quot; version=&quot;-1&quot; /&gt;&#10;  &lt;import index=&quot;tpck&quot; modelUID=&quot;r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)&quot; version=&quot;0&quot; implicit=&quot;yes&quot; /&gt;&#10;  &lt;import index=&quot;tpee&quot; modelUID=&quot;r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)&quot; version=&quot;5&quot; implicit=&quot;yes&quot; /&gt;&#10;  &lt;import index=&quot;tp25&quot; modelUID=&quot;r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)&quot; version=&quot;16&quot; implicit=&quot;yes&quot; /&gt;&#10;  &lt;root type=&quot;eynw.ConsoleRoot&quot; typeId=&quot;eynw.1583916890557930028&quot; id=&quot;508214836486375013&quot; nodeInfo=&quot;ng&quot;&gt;&#10;    &lt;node role=&quot;history&quot; roleId=&quot;eynw.1583916890557930415&quot; type=&quot;eynw.History&quot; typeId=&quot;eynw.757553790980850366&quot; id=&quot;3402264987258972712&quot; nodeInfo=&quot;ng&quot;&gt;&#10;      &lt;node role=&quot;item&quot; roleId=&quot;eynw.7195119950189425818&quot; type=&quot;eynw.CommandHolder&quot; typeId=&quot;eynw.351968380916615243&quot; id=&quot;772483346260429916&quot; nodeInfo=&quot;ng&quot;&gt;&#10;        &lt;property name=&quot;name&quot; nameId=&quot;tpck.1169194664001&quot; value=&quot;CommandHolder&quot; /&gt;&#10;        &lt;node role=&quot;command&quot; roleId=&quot;eynw.351968380916615460&quot; type=&quot;3xdn.BLExpression&quot; typeId=&quot;3xdn.7656298970878093785&quot; id=&quot;772483346260429917&quot; nodeInfo=&quot;ng&quot;&gt;&#10;          &lt;node role=&quot;expression&quot; roleId=&quot;3xdn.7656298970878093890&quot; type=&quot;caxt.Clean&quot; typeId=&quot;caxt.2840424593938220297&quot; id=&quot;772483346260429918&quot; nodeInfo=&quot;ng&quot;&gt;&#10;            &lt;node role=&quot;parameter&quot; roleId=&quot;3xdn.4307205004132279624&quot; type=&quot;3xdn.QueryParameterList&quot; typeId=&quot;3xdn.4307205004132277753&quot; id=&quot;772483346260429919&quot; nodeInfo=&quot;ng&quot; /&gt;&#10;          &lt;/node&gt;&#10;        &lt;/node&gt;&#10;      &lt;/node&gt;&#10;      &lt;node role=&quot;item&quot; roleId=&quot;eynw.7195119950189425818&quot; type=&quot;eynw.CommandHolder&quot; typeId=&quot;eynw.351968380916615243&quot; id=&quot;8459500803717171889&quot; nodeInfo=&quot;ng&quot;&gt;&#10;        &lt;property name=&quot;name&quot; nameId=&quot;tpck.1169194664001&quot; value=&quot;CommandHolder&quot; /&gt;&#10;        &lt;node role=&quot;command&quot; roleId=&quot;eynw.351968380916615460&quot; type=&quot;3xdn.BLExpression&quot; typeId=&quot;3xdn.7656298970878093785&quot; id=&quot;8459500803717171890&quot; nodeInfo=&quot;ng&quot;&gt;&#10;          &lt;node role=&quot;expression&quot; roleId=&quot;3xdn.7656298970878093890&quot; type=&quot;caxt.Clean&quot; typeId=&quot;caxt.2840424593938220297&quot; id=&quot;8459500803717171891&quot; nodeInfo=&quot;ng&quot;&gt;&#10;            &lt;node role=&quot;parameter&quot; roleId=&quot;3xdn.4307205004132279624&quot; type=&quot;3xdn.QueryParameterList&quot; typeId=&quot;3xdn.4307205004132277753&quot; id=&quot;8459500803717171892&quot; nodeInfo=&quot;ng&quot; /&gt;&#10;          &lt;/node&gt;&#10;        &lt;/node&gt;&#10;      &lt;/node&gt;&#10;      &lt;node role=&quot;item&quot; roleId=&quot;eynw.7195119950189425818&quot; type=&quot;eynw.CommandHolder&quot; typeId=&quot;eynw.351968380916615243&quot; id=&quot;7074867102587228079&quot; nodeInfo=&quot;ng&quot;&gt;&#10;        &lt;property name=&quot;name&quot; nameId=&quot;tpck.1169194664001&quot; value=&quot;CommandHolder&quot; /&gt;&#10;        &lt;node role=&quot;command&quot; roleId=&quot;eynw.351968380916615460&quot; type=&quot;3xdn.BLCommand&quot; typeId=&quot;3xdn.5464054275389846505&quot; id=&quot;7074867102587228080&quot; nodeInfo=&quot;ng&quot;&gt;&#10;          &lt;node role=&quot;body&quot; roleId=&quot;3xdn.1769790395579689573&quot; type=&quot;tpee.StatementList&quot; typeId=&quot;tpee.1068580123136&quot; id=&quot;7074867102587228081&quot; nodeInfo=&quot;sn&quot;&gt;&#10;            &lt;node role=&quot;statement&quot; roleId=&quot;tpee.1068581517665&quot; type=&quot;tpee.ExpressionStatement&quot; typeId=&quot;tpee.1068580123155&quot; id=&quot;7074867102587228082&quot; nodeInfo=&quot;nn&quot;&gt;&#10;              &lt;node role=&quot;expression&quot; roleId=&quot;tpee.1068580123156&quot; type=&quot;3xdn.ShowExpression&quot; typeId=&quot;3xdn.8483375838963816351&quot; id=&quot;7074867102587228083&quot; nodeInfo=&quot;ng&quot;&gt;&#10;                &lt;node role=&quot;object&quot; roleId=&quot;3xdn.7600370246423275637&quot; type=&quot;3xdn.ModelsExpression&quot; typeId=&quot;3xdn.6864030874027862829&quot; id=&quot;7074867102587228084&quot; nodeInfo=&quot;ng&quot;&gt;&#10;                  &lt;node role=&quot;parameter&quot; roleId=&quot;3xdn.4307205004132279624&quot; type=&quot;3xdn.QueryParameterList&quot; typeId=&quot;3xdn.4307205004132277753&quot; id=&quot;7074867102587228085&quot; nodeInfo=&quot;ng&quot; /&gt;&#10;                &lt;/node&gt;&#10;              &lt;/node&gt;&#10;            &lt;/node&gt;&#10;          &lt;/node&gt;&#10;        &lt;/node&gt;&#10;      &lt;/node&gt;&#10;      &lt;node role=&quot;item&quot; roleId=&quot;eynw.7195119950189425818&quot; type=&quot;eynw.CommandHolder&quot; typeId=&quot;eynw.351968380916615243&quot; id=&quot;7074867102587234958&quot; nodeInfo=&quot;ng&quot;&gt;&#10;        &lt;property name=&quot;name&quot; nameId=&quot;tpck.1169194664001&quot; value=&quot;CommandHolder&quot; /&gt;&#10;        &lt;node role=&quot;command&quot; roleId=&quot;eynw.351968380916615460&quot; type=&quot;3xdn.BLExpression&quot; typeId=&quot;3xdn.7656298970878093785&quot; id=&quot;7074867102587234959&quot; nodeInfo=&quot;ng&quot;&gt;&#10;          &lt;node role=&quot;expression&quot; roleId=&quot;3xdn.7656298970878093890&quot; type=&quot;tpee.DotExpression&quot; typeId=&quot;tpee.1197027756228&quot; id=&quot;7074867102587234960&quot; nodeInfo=&quot;nn&quot;&gt;&#10;            &lt;node role=&quot;operand&quot; roleId=&quot;tpee.1197027771414&quot; type=&quot;tp25.ModelReferenceExpression&quot; typeId=&quot;tp25.559557797393017698&quot; id=&quot;7074867102587234961&quot; nodeInfo=&quot;nn&quot;&gt;&#10;              &lt;property name=&quot;name&quot; nameId=&quot;tp25.559557797393017702&quot; value=&quot;Tables&quot; /&gt;&#10;              &lt;property name=&quot;stereotype&quot; nameId=&quot;tp25.559557797393021807&quot; value=&quot;&quot; /&gt;&#10;            &lt;/node&gt;&#10;            &lt;node role=&quot;operation&quot; roleId=&quot;tpee.1197027833540&quot; type=&quot;tp25.Model_RootsOperation&quot; typeId=&quot;tp25.1171315804604&quot; id=&quot;7074867102587234962&quot; nodeInfo=&quot;nn&quot; /&gt;&#10;          &lt;/node&gt;&#10;        &lt;/node&gt;&#10;      &lt;/node&gt;&#10;      &lt;node role=&quot;item&quot; roleId=&quot;eynw.7195119950189425818&quot; type=&quot;eynw.Response&quot; typeId=&quot;eynw.5637103006918228482&quot; id=&quot;7074867102587234964&quot; nodeInfo=&quot;ng&quot;&gt;&#10;        &lt;node role=&quot;item&quot; roleId=&quot;eynw.5637103006919120621&quot; type=&quot;eynw.NodeResponseItem&quot; typeId=&quot;eynw.5637103006919121940&quot; id=&quot;7074867102587234965&quot; nodeInfo=&quot;ng&quot;&gt;&#10;          &lt;node role=&quot;node&quot; roleId=&quot;eynw.5637103006919121941&quot; type=&quot;eynw.NodeWithClosure&quot; typeId=&quot;eynw.1111629987770987206&quot; id=&quot;7074867102587234963&quot; nodeInfo=&quot;ng&quot;&gt;&#10;            &lt;property name=&quot;text&quot; nameId=&quot;eynw.3894227536041201194&quot; value=&quot;6 nodes&quot; /&gt;&#10;          &lt;/node&gt;&#10;        &lt;/node&gt;&#10;      &lt;/node&gt;&#10;      &lt;node role=&quot;item&quot; roleId=&quot;eynw.7195119950189425818&quot; type=&quot;eynw.CommandHolder&quot; typeId=&quot;eynw.351968380916615243&quot; id=&quot;6853668811999375140&quot; nodeInfo=&quot;ng&quot;&gt;&#10;        &lt;property name=&quot;name&quot; nameId=&quot;tpck.1169194664001&quot; value=&quot;CommandHolder&quot; /&gt;&#10;        &lt;node role=&quot;command&quot; roleId=&quot;eynw.351968380916615460&quot; type=&quot;3xdn.BLExpression&quot; typeId=&quot;3xdn.7656298970878093785&quot; id=&quot;6853668811999375141&quot; nodeInfo=&quot;ng&quot;&gt;&#10;          &lt;node role=&quot;expression&quot; roleId=&quot;3xdn.7656298970878093890&quot; type=&quot;tpee.DotExpression&quot; typeId=&quot;tpee.1197027756228&quot; id=&quot;6853668811999375142&quot; nodeInfo=&quot;nn&quot;&gt;&#10;            &lt;node role=&quot;operand&quot; roleId=&quot;tpee.1197027771414&quot; type=&quot;tp25.ModelReferenceExpression&quot; typeId=&quot;tp25.559557797393017698&quot; id=&quot;6853668811999375143&quot; nodeInfo=&quot;nn&quot;&gt;&#10;              &lt;property name=&quot;name&quot; nameId=&quot;tp25.559557797393017702&quot; value=&quot;Tables&quot; /&gt;&#10;              &lt;property name=&quot;stereotype&quot; nameId=&quot;tp25.559557797393021807&quot; value=&quot;&quot; /&gt;&#10;            &lt;/node&gt;&#10;            &lt;node role=&quot;operation&quot; roleId=&quot;tpee.1197027833540&quot; type=&quot;tp25.Model_RootsOperation&quot; typeId=&quot;tp25.1171315804604&quot; id=&quot;6853668811999375144&quot; nodeInfo=&quot;nn&quot; /&gt;&#10;          &lt;/node&gt;&#10;        &lt;/node&gt;&#10;      &lt;/node&gt;&#10;      &lt;node role=&quot;item&quot; roleId=&quot;eynw.7195119950189425818&quot; type=&quot;eynw.Response&quot; typeId=&quot;eynw.5637103006918228482&quot; id=&quot;6853668811999375146&quot; nodeInfo=&quot;ng&quot;&gt;&#10;        &lt;node role=&quot;item&quot; roleId=&quot;eynw.5637103006919120621&quot; type=&quot;eynw.NodeResponseItem&quot; typeId=&quot;eynw.5637103006919121940&quot; id=&quot;6853668811999375147&quot; nodeInfo=&quot;ng&quot;&gt;&#10;          &lt;node role=&quot;node&quot; roleId=&quot;eynw.5637103006919121941&quot; type=&quot;eynw.NodeWithClosure&quot; typeId=&quot;eynw.1111629987770987206&quot; id=&quot;6853668811999375145&quot; nodeInfo=&quot;ng&quot;&gt;&#10;            &lt;property name=&quot;text&quot; nameId=&quot;eynw.3894227536041201194&quot; value=&quot;6 nodes&quot; /&gt;&#10;          &lt;/node&gt;&#10;        &lt;/node&gt;&#10;      &lt;/node&gt;&#10;      &lt;node role=&quot;item&quot; roleId=&quot;eynw.7195119950189425818&quot; type=&quot;eynw.CommandHolder&quot; typeId=&quot;eynw.351968380916615243&quot; id=&quot;6853668811999380671&quot; nodeInfo=&quot;ng&quot;&gt;&#10;        &lt;property name=&quot;name&quot; nameId=&quot;tpck.1169194664001&quot; value=&quot;CommandHolder&quot; /&gt;&#10;        &lt;node role=&quot;command&quot; roleId=&quot;eynw.351968380916615460&quot; type=&quot;3xdn.BLExpression&quot; typeId=&quot;3xdn.7656298970878093785&quot; id=&quot;6853668811999380672&quot; nodeInfo=&quot;ng&quot;&gt;&#10;          &lt;node role=&quot;expression&quot; roleId=&quot;3xdn.7656298970878093890&quot; type=&quot;caxt.Clean&quot; typeId=&quot;caxt.2840424593938220297&quot; id=&quot;6853668811999380673&quot; nodeInfo=&quot;ng&quot;&gt;&#10;            &lt;node role=&quot;parameter&quot; roleId=&quot;3xdn.4307205004132279624&quot; type=&quot;3xdn.QueryParameterList&quot; typeId=&quot;3xdn.4307205004132277753&quot; id=&quot;6853668811999380674&quot; nodeInfo=&quot;ng&quot; /&gt;&#10;          &lt;/node&gt;&#10;        &lt;/node&gt;&#10;      &lt;/node&gt;&#10;      &lt;node role=&quot;item&quot; roleId=&quot;eynw.7195119950189425818&quot; type=&quot;eynw.CommandHolder&quot; typeId=&quot;eynw.351968380916615243&quot; id=&quot;7821610625920017667&quot; nodeInfo=&quot;ng&quot;&gt;&#10;        &lt;property name=&quot;name&quot; nameId=&quot;tpck.1169194664001&quot; value=&quot;CommandHolder&quot; /&gt;&#10;        &lt;node role=&quot;command&quot; roleId=&quot;eynw.351968380916615460&quot; type=&quot;3xdn.BLExpression&quot; typeId=&quot;3xdn.7656298970878093785&quot; id=&quot;7821610625920017668&quot; nodeInfo=&quot;ng&quot;&gt;&#10;          &lt;node role=&quot;expression&quot; roleId=&quot;3xdn.7656298970878093890&quot; type=&quot;caxt.Clean&quot; typeId=&quot;caxt.2840424593938220297&quot; id=&quot;7821610625920017669&quot; nodeInfo=&quot;ng&quot;&gt;&#10;            &lt;node role=&quot;parameter&quot; roleId=&quot;3xdn.4307205004132279624&quot; type=&quot;3xdn.QueryParameterList&quot; typeId=&quot;3xdn.4307205004132277753&quot; id=&quot;7821610625920017670&quot; nodeInfo=&quot;ng&quot; /&gt;&#10;          &lt;/node&gt;&#10;        &lt;/node&gt;&#10;      &lt;/node&gt;&#10;      &lt;node role=&quot;item&quot; roleId=&quot;eynw.7195119950189425818&quot; type=&quot;eynw.CommandHolder&quot; typeId=&quot;eynw.351968380916615243&quot; id=&quot;7783277237110070598&quot; nodeInfo=&quot;ng&quot;&gt;&#10;        &lt;property name=&quot;name&quot; nameId=&quot;tpck.1169194664001&quot; value=&quot;CommandHolder&quot; /&gt;&#10;        &lt;node role=&quot;command&quot; roleId=&quot;eynw.351968380916615460&quot; type=&quot;3xdn.BLExpression&quot; typeId=&quot;3xdn.7656298970878093785&quot; id=&quot;7783277237110070599&quot; nodeInfo=&quot;ng&quot;&gt;&#10;          &lt;node role=&quot;expression&quot; roleId=&quot;3xdn.7656298970878093890&quot; type=&quot;caxt.Clean&quot; typeId=&quot;caxt.2840424593938220297&quot; id=&quot;7783277237110070600&quot; nodeInfo=&quot;ng&quot;&gt;&#10;            &lt;node role=&quot;parameter&quot; roleId=&quot;3xdn.4307205004132279624&quot; type=&quot;3xdn.QueryParameterList&quot; typeId=&quot;3xdn.4307205004132277753&quot; id=&quot;7783277237110070601&quot; nodeInfo=&quot;ng&quot; /&gt;&#10;          &lt;/node&gt;&#10;        &lt;/node&gt;&#10;      &lt;/node&gt;&#10;      &lt;node role=&quot;item&quot; roleId=&quot;eynw.7195119950189425818&quot; type=&quot;eynw.CommandHolder&quot; typeId=&quot;eynw.351968380916615243&quot; id=&quot;4253354357985770450&quot; nodeInfo=&quot;ng&quot;&gt;&#10;        &lt;property name=&quot;name&quot; nameId=&quot;tpck.1169194664001&quot; value=&quot;CommandHolder&quot; /&gt;&#10;        &lt;node role=&quot;command&quot; roleId=&quot;eynw.351968380916615460&quot; type=&quot;3xdn.BLExpression&quot; typeId=&quot;3xdn.7656298970878093785&quot; id=&quot;4253354357985770451&quot; nodeInfo=&quot;ng&quot;&gt;&#10;          &lt;node role=&quot;expression&quot; roleId=&quot;3xdn.7656298970878093890&quot; type=&quot;caxt.Clean&quot; typeId=&quot;caxt.2840424593938220297&quot; id=&quot;4253354357985770452&quot; nodeInfo=&quot;ng&quot;&gt;&#10;            &lt;node role=&quot;parameter&quot; roleId=&quot;3xdn.4307205004132279624&quot; type=&quot;3xdn.QueryParameterList&quot; typeId=&quot;3xdn.4307205004132277753&quot; id=&quot;4253354357985770453&quot; nodeInfo=&quot;ng&quot; /&gt;&#10;          &lt;/node&gt;&#10;        &lt;/node&gt;&#10;      &lt;/node&gt;&#10;      &lt;node role=&quot;item&quot; roleId=&quot;eynw.7195119950189425818&quot; type=&quot;eynw.CommandHolder&quot; typeId=&quot;eynw.351968380916615243&quot; id=&quot;7152706666065610392&quot; nodeInfo=&quot;ng&quot;&gt;&#10;        &lt;property name=&quot;name&quot; nameId=&quot;tpck.1169194664001&quot; value=&quot;CommandHolder&quot; /&gt;&#10;        &lt;node role=&quot;command&quot; roleId=&quot;eynw.351968380916615460&quot; type=&quot;3xdn.BLExpression&quot; typeId=&quot;3xdn.7656298970878093785&quot; id=&quot;7152706666065610393&quot; nodeInfo=&quot;ng&quot;&gt;&#10;          &lt;node role=&quot;expression&quot; roleId=&quot;3xdn.7656298970878093890&quot; type=&quot;caxt.Clean&quot; typeId=&quot;caxt.2840424593938220297&quot; id=&quot;7152706666065610394&quot; nodeInfo=&quot;ng&quot;&gt;&#10;            &lt;node role=&quot;parameter&quot; roleId=&quot;3xdn.4307205004132279624&quot; type=&quot;3xdn.QueryParameterList&quot; typeId=&quot;3xdn.4307205004132277753&quot; id=&quot;7152706666065610395&quot; nodeInfo=&quot;ng&quot; /&gt;&#10;          &lt;/node&gt;&#10;        &lt;/node&gt;&#10;      &lt;/node&gt;&#10;      &lt;node role=&quot;item&quot; roleId=&quot;eynw.7195119950189425818&quot; type=&quot;eynw.CommandHolder&quot; typeId=&quot;eynw.351968380916615243&quot; id=&quot;8013388156565264750&quot; nodeInfo=&quot;ng&quot;&gt;&#10;        &lt;property name=&quot;name&quot; nameId=&quot;tpck.1169194664001&quot; value=&quot;CommandHolder&quot; /&gt;&#10;        &lt;node role=&quot;command&quot; roleId=&quot;eynw.351968380916615460&quot; type=&quot;3xdn.BLExpression&quot; typeId=&quot;3xdn.7656298970878093785&quot; id=&quot;8013388156565264751&quot; nodeInfo=&quot;ng&quot;&gt;&#10;          &lt;node role=&quot;expression&quot; roleId=&quot;3xdn.7656298970878093890&quot; type=&quot;caxt.Clean&quot; typeId=&quot;caxt.2840424593938220297&quot; id=&quot;8013388156565264752&quot; nodeInfo=&quot;ng&quot;&gt;&#10;            &lt;node role=&quot;parameter&quot; roleId=&quot;3xdn.4307205004132279624&quot; type=&quot;3xdn.QueryParameterList&quot; typeId=&quot;3xdn.4307205004132277753&quot; id=&quot;8013388156565264753&quot; nodeInfo=&quot;ng&quot; /&gt;&#10;          &lt;/node&gt;&#10;        &lt;/node&gt;&#10;      &lt;/node&gt;&#10;    &lt;/node&gt;&#10;    &lt;node role=&quot;commandHolder&quot; roleId=&quot;eynw.1583916890557930417&quot; type=&quot;eynw.CommandHolder&quot; typeId=&quot;eynw.351968380916615243&quot; id=&quot;508214836486375014&quot; nodeInfo=&quot;ng&quot;&gt;&#10;      &lt;property name=&quot;name&quot; nameId=&quot;tpck.1169194664001&quot; value=&quot;CommandHolder&quot; /&gt;&#10;    &lt;/node&gt;&#10;  &lt;/root&gt;&#10;&lt;/model&gt;&#10;&#10;" />
         </TabState>
       </list>
     </option>
@@ -103,7 +65,7 @@
                     <folded />
                     <enabledHints />
                   </memento>
-                  <inspectorMemento currentlyEditedNode="r:f0ddd417-c8a1-40da-9335-f5b63a47dd8c(build.plugins)/3761139488787358649" viewPositionX="0" viewPositionY="0">
+                  <inspectorMemento currentlyEditedNode="r:1b4467f9-9100-4799-aca8-5e1dda676616(org.campagnelab.runR.plugin)/558452619581599346" viewPositionX="0" viewPositionY="0">
                     <selectionStack />
                     <errorLabels />
                     <folded />
@@ -114,19 +76,19 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="HTAnalysis" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="HTAnalysis" pinned="false" current="false" current-in-tab="true">
             <entry file="mps://node://build.plugins/build.plugins/HTAnalysis">
               <provider selected="true" editor-type-id="MPSFileEditor">
                 <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-                  <memento viewPositionX="0" viewPositionY="80">
+                  <memento viewPositionX="0" viewPositionY="0">
                     <selectionStack>
                       <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                         <property name="hasNonTrivialSelection" value="false" />
-                        <property name="caretXRelative" value="8" />
-                        <property name="caretX" value="303" />
+                        <property name="caretXRelative" value="44" />
+                        <property name="caretX" value="271" />
                         <property name="sideSelectDirection" value="NONE" />
-                        <cellInfo cellId="Constant_jumb3f_d1a" cellNumber="0" isInList="false">
-                          <node node_reference="r:f0ddd417-c8a1-40da-9335-f5b63a47dd8c(build.plugins)/3761139488787358649" />
+                        <cellInfo cellId="property_text_3" cellNumber="0" isInList="false">
+                          <node node_reference="r:f0ddd417-c8a1-40da-9335-f5b63a47dd8c(build.plugins)/9012942620034211548" />
                         </cellInfo>
                       </stackElement>
                     </selectionStack>
@@ -134,7 +96,7 @@
                     <folded />
                     <enabledHints />
                   </memento>
-                  <inspectorMemento currentlyEditedNode="r:f0ddd417-c8a1-40da-9335-f5b63a47dd8c(build.plugins)/3761139488787358649" viewPositionX="0" viewPositionY="0">
+                  <inspectorMemento currentlyEditedNode="r:1b4467f9-9100-4799-aca8-5e1dda676616(org.campagnelab.runR.plugin)/558452619581599346" viewPositionX="0" viewPositionY="0">
                     <selectionStack />
                     <errorLabels />
                     <folded />
@@ -164,7 +126,7 @@
                     <folded />
                     <enabledHints />
                   </memento>
-                  <inspectorMemento currentlyEditedNode="r:f0ddd417-c8a1-40da-9335-f5b63a47dd8c(build.plugins)/3761139488787358649" viewPositionX="0" viewPositionY="0">
+                  <inspectorMemento currentlyEditedNode="r:1b4467f9-9100-4799-aca8-5e1dda676616(org.campagnelab.runR.plugin)/558452619581599346" viewPositionX="0" viewPositionY="0">
                     <selectionStack />
                     <errorLabels />
                     <folded />
@@ -193,7 +155,7 @@
                     <folded />
                     <enabledHints />
                   </memento>
-                  <inspectorMemento currentlyEditedNode="r:f0ddd417-c8a1-40da-9335-f5b63a47dd8c(build.plugins)/3761139488787358649" viewPositionX="0" viewPositionY="0">
+                  <inspectorMemento currentlyEditedNode="r:1b4467f9-9100-4799-aca8-5e1dda676616(org.campagnelab.runR.plugin)/558452619581599346" viewPositionX="0" viewPositionY="0">
                     <selectionStack />
                     <errorLabels />
                     <folded />
@@ -207,13 +169,13 @@
             <entry file="mps://node://org.campagnelab.runR/org.campagnelab.runR.plugin/R">
               <provider selected="true" editor-type-id="MPSFileEditor">
                 <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
-                  <memento viewPositionX="0" viewPositionY="247">
+                  <memento viewPositionX="0" viewPositionY="0">
                     <selectionStack />
                     <errorLabels />
                     <folded />
                     <enabledHints />
                   </memento>
-                  <inspectorMemento currentlyEditedNode="r:f0ddd417-c8a1-40da-9335-f5b63a47dd8c(build.plugins)/3761139488787358649" viewPositionX="0" viewPositionY="0">
+                  <inspectorMemento currentlyEditedNode="r:1b4467f9-9100-4799-aca8-5e1dda676616(org.campagnelab.runR.plugin)/558452619581599346" viewPositionX="0" viewPositionY="0">
                     <selectionStack />
                     <errorLabels />
                     <folded />
@@ -251,7 +213,7 @@
                     <folded />
                     <enabledHints />
                   </memento>
-                  <inspectorMemento currentlyEditedNode="r:f0ddd417-c8a1-40da-9335-f5b63a47dd8c(build.plugins)/3761139488787358649" viewPositionX="0" viewPositionY="0">
+                  <inspectorMemento currentlyEditedNode="r:1b4467f9-9100-4799-aca8-5e1dda676616(org.campagnelab.runR.plugin)/558452619581599346" viewPositionX="0" viewPositionY="0">
                     <selectionStack />
                     <errorLabels />
                     <folded />
@@ -281,7 +243,7 @@
                     <folded />
                     <enabledHints />
                   </memento>
-                  <inspectorMemento currentlyEditedNode="r:f0ddd417-c8a1-40da-9335-f5b63a47dd8c(build.plugins)/3761139488787358649" viewPositionX="0" viewPositionY="0">
+                  <inspectorMemento currentlyEditedNode="r:1b4467f9-9100-4799-aca8-5e1dda676616(org.campagnelab.runR.plugin)/558452619581599346" viewPositionX="0" viewPositionY="0">
                     <selectionStack />
                     <errorLabels />
                     <folded />
@@ -311,7 +273,7 @@
                     <folded />
                     <enabledHints />
                   </memento>
-                  <inspectorMemento currentlyEditedNode="r:f0ddd417-c8a1-40da-9335-f5b63a47dd8c(build.plugins)/3761139488787358649" viewPositionX="0" viewPositionY="0">
+                  <inspectorMemento currentlyEditedNode="r:1b4467f9-9100-4799-aca8-5e1dda676616(org.campagnelab.runR.plugin)/558452619581599346" viewPositionX="0" viewPositionY="0">
                     <selectionStack />
                     <errorLabels />
                     <folded />
@@ -324,7 +286,7 @@
           <file leaf-file-name="Multiplot_Editor.java" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/languages/org.campagnelab.hta.tables/source_gen/org/campagnelab/hta/tables/editor/Multiplot_Editor.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="4575">
+                <state vertical-scroll-proportion="0.0" vertical-offset="315" max-vertical-offset="4575">
                   <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
                 </state>
               </provider>
@@ -340,7 +302,7 @@
                     <folded />
                     <enabledHints />
                   </memento>
-                  <inspectorMemento currentlyEditedNode="r:f0ddd417-c8a1-40da-9335-f5b63a47dd8c(build.plugins)/3761139488787358649" viewPositionX="0" viewPositionY="0">
+                  <inspectorMemento currentlyEditedNode="r:1b4467f9-9100-4799-aca8-5e1dda676616(org.campagnelab.runR.plugin)/558452619581599346" viewPositionX="0" viewPositionY="0">
                     <selectionStack />
                     <errorLabels />
                     <folded />
@@ -355,19 +317,19 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="RConfigurationOptions" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="RConfigurationOptions" pinned="false" current="true" current-in-tab="true">
             <entry file="mps://node://org.campagnelab.runR/org.campagnelab.runR.plugin/RConfigurationOptions">
               <provider selected="true" editor-type-id="MPSFileEditor">
                 <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-                  <memento viewPositionX="0" viewPositionY="235">
+                  <memento viewPositionX="0" viewPositionY="40">
                     <selectionStack>
                       <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                         <property name="hasNonTrivialSelection" value="false" />
-                        <property name="caretXRelative" value="4" />
-                        <property name="caretX" value="87" />
+                        <property name="caretXRelative" value="32" />
+                        <property name="caretX" value="231" />
                         <property name="sideSelectDirection" value="NONE" />
-                        <cellInfo cellId="ALIAS_EDITOR_COMPONENT" cellNumber="0" isInList="false">
-                          <node node_reference="r:1b4467f9-9100-4799-aca8-5e1dda676616(org.campagnelab.runR.plugin)/8962032619593737468" />
+                        <cellInfo cellId="property_name" cellNumber="0" isInList="false">
+                          <node node_reference="r:1b4467f9-9100-4799-aca8-5e1dda676616(org.campagnelab.runR.plugin)/558452619581599346" />
                         </cellInfo>
                       </stackElement>
                     </selectionStack>
@@ -375,7 +337,7 @@
                     <folded />
                     <enabledHints />
                   </memento>
-                  <inspectorMemento currentlyEditedNode="r:f0ddd417-c8a1-40da-9335-f5b63a47dd8c(build.plugins)/3761139488787358649" viewPositionX="0" viewPositionY="0">
+                  <inspectorMemento currentlyEditedNode="r:1b4467f9-9100-4799-aca8-5e1dda676616(org.campagnelab.runR.plugin)/558452619581599346" viewPositionX="0" viewPositionY="0">
                     <selectionStack />
                     <errorLabels />
                     <folded />
@@ -560,180 +522,6 @@
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="Modules Pool">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Empty">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="Modules Pool">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="Languages">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Empty">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="Modules Pool">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="Languages">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="jetbrains">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="jetbrains.mps.build">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Empty">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="Modules Pool">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="Languages">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="jetbrains">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="jetbrains.mps.build">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="util models">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="jetbrains.mps.build.util">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Empty">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="Modules Pool">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="Languages">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="jetbrains">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Empty">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="Modules Pool">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="Languages">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="jetbrains">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="build">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Empty">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="Modules Pool">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="Languages">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="jetbrains">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="build">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="jetbrains.mps.build.mps">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Empty">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="Modules Pool">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="Languages">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="jetbrains">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="build">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="jetbrains.mps.build.mps">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="jetbrains.mps.build.mps#3189788309732033979">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="jetbrains">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="jetbrains.mps.build.mps.generator.template.main">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT USER_OBJECT="Empty">
@@ -806,25 +594,6 @@
     <property name="restartRequiresConfirmation" value="true" />
   </component>
   <component name="RunManager" selected="Build Script.HTAnalysis">
-    <configuration default="false" name="HTAnalysis" type="Build Script" factoryName="Build Script" temporary="true">
-      <MyState />
-      <myNode>
-        <MyState>
-          <option name="myNodeId" value="3761139488787358645" />
-          <option name="myModelId" value="r:f0ddd417-c8a1-40da-9335-f5b63a47dd8c(build.plugins)" />
-        </MyState>
-      </myNode>
-      <mySettings>
-        <MyState>
-          <option name="myUseOtherAntLocation" value="false" />
-          <option name="myOtherAntLocation" />
-          <option name="myAntOptions" />
-        </MyState>
-      </mySettings>
-      <RunnerSettings RunnerId="Default Runner" />
-      <ConfigurationWrapper RunnerId="Default Runner" />
-      <method />
-    </configuration>
     <configuration default="false" name="Script ExecTest" type="R Script" factoryName="R" temporary="true">
       <MyState />
       <myNode>
@@ -901,6 +670,25 @@
       <ConfigurationWrapper RunnerId="Default Runner" />
       <method />
     </configuration>
+    <configuration default="false" name="HTAnalysis" type="Build Script" factoryName="Build Script" temporary="true">
+      <MyState />
+      <myNode>
+        <MyState>
+          <option name="myNodeId" value="3761139488787358645" />
+          <option name="myModelId" value="r:f0ddd417-c8a1-40da-9335-f5b63a47dd8c(build.plugins)" />
+        </MyState>
+      </myNode>
+      <mySettings>
+        <MyState>
+          <option name="myUseOtherAntLocation" value="false" />
+          <option name="myOtherAntLocation" />
+          <option name="myAntOptions" />
+        </MyState>
+      </mySettings>
+      <RunnerSettings RunnerId="Default Runner" />
+      <ConfigurationWrapper RunnerId="Default Runner" />
+      <method />
+    </configuration>
     <configuration default="true" type="R Script" factoryName="R">
       <MyState />
       <myNode>
@@ -936,11 +724,11 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Build Script.HTAnalysis" />
-      <item index="1" class="java.lang.String" itemvalue="R Script.Script ExecTest" />
-      <item index="2" class="java.lang.String" itemvalue="R Script.Script Heatmap test" />
-      <item index="3" class="java.lang.String" itemvalue="R Script.Script SimpleMultiPlot" />
-      <item index="4" class="java.lang.String" itemvalue="R Script.Script TrainModel" />
+      <item index="0" class="java.lang.String" itemvalue="R Script.Script ExecTest" />
+      <item index="1" class="java.lang.String" itemvalue="R Script.Script Heatmap test" />
+      <item index="2" class="java.lang.String" itemvalue="R Script.Script SimpleMultiPlot" />
+      <item index="3" class="java.lang.String" itemvalue="R Script.Script TrainModel" />
+      <item index="4" class="java.lang.String" itemvalue="Build Script.HTAnalysis" />
     </list>
     <recent_temporary>
       <list size="1">
@@ -1002,7 +790,7 @@
       <window_info id="Bookmarks" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Generation Tracer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21011059" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4056604" sideWeight="0.70563453" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4056604" sideWeight="0.70563453" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Classpath Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="RefactoringView" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32704404" sideWeight="0.4986835" order="7" side_tool="false" content_ui="tabs" />
@@ -1030,8 +818,8 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Supertypes" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33382788" sideWeight="0.61318505" order="6" side_tool="true" content_ui="tabs" />
-      <window_info id="Migration" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3264095" sideWeight="0.4988086" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Migration" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32937685" sideWeight="0.49960285" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Model Checker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3264095" sideWeight="0.5202542" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
@@ -1082,7 +870,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="Add hta.expression language, reusing most of baselanguage expressions, but supporting column values.&#10;Fix future table name handling. The new scheme works when future tables are renamed.&#10;Use the expression language to implement filtering by expression." />
     <MESSAGE value="Fix generation of expression toTextOutput language." />
     <MESSAGE value="Merge branch 'master' of bitbucket.org:campagnelaboratory/htanalysis&#10;&#10;Conflicts:&#10;&#9;.mps/workspace.xml&#10;&#9;languages/org.campagnelab.hta.script/source_gen.caches/org/campagnelab/hta/script/structure/generated&#10;&#9;languages/org.campagnelab.hta.tables/classes_gen/org/campagnelab/hta/tables/behavior/BehaviorAspectDescriptor.class&#10;&#9;languages/org.campagnelab.hta.tables/classes_gen/org/campagnelab/hta/tables/behavior/trace.info&#10;&#9;languages/org.campagnelab.hta.tables/classes_gen/org/campagnelab/hta/tables/constraints/trace.info&#10;&#9;languages/org.campagnelab.hta.tables/classes_gen/org/campagnelab/hta/tables/editor/EditorAspectDescriptorImpl.class&#10;&#9;languages/org.campagnelab.hta.tables/classes_gen/org/campagnelab/hta/tables/editor/trace.info&#10;&#9;languages/org.campagnelab.hta.tables/classes_gen/org/campagnelab/hta/tables/structure/StructureAspectDescriptor.class&#10;&#9;languages/org.campagnelab.hta.tables/classes_gen/org/campagnelab/hta/tables/structure/trace.info&#10;&#9;languages/org.campagnelab.hta.tables/classes_gen/org/campagnelab/hta/tables/typesystem/trace.info&#10;&#9;languages/org.campagnelab.hta.tables/generator/classes_gen/org/campagnelab/hta/tables/generator/template/main/QueriesGenerated.class&#10;&#9;languages/org.campagnelab.hta.tables/generator/classes_gen/org/campagnelab/hta/tables/generator/template/main/trace.info&#10;&#9;languages/org.campagnelab.hta.tables/generator/source_gen.caches/org/campagnelab/hta/tables/generator/template/main/generated&#10;&#9;languages/org.campagnelab.hta.tables/generator/source_gen/org/campagnelab/hta/tables/generator/template/main/QueriesGenerated.java&#10;&#9;languages/org.campagnelab.hta.tables/generator/source_gen/org/campagnelab/hta/tables/generator/template/main/trace.info&#10;&#9;languages/org.campagnelab.hta.tables/source_gen.caches/org/campagnelab/hta/tables/behavior/generated&#10;&#9;languages/org.campagnelab.hta.tables/source_gen.caches/org/campagnelab/hta/tables/constraints/generated&#10;&#9;languages/org.campagnelab.hta.tables/source_gen.caches/org/campagnelab/hta/tables/editor/generated&#10;&#9;languages/org.campagnelab.hta.tables/source_gen.caches/org/campagnelab/hta/tables/generated&#10;&#9;languages/org.campagnelab.hta.tables/source_gen.caches/org/campagnelab/hta/tables/generationhelpers/generated&#10;&#9;languages/org.campagnelab.hta.tables/source_gen.caches/org/campagnelab/hta/tables/intentions/generated&#10;&#9;languages/org.campagnelab.hta.tables/source_gen.caches/org/campagnelab/hta/tables/structure/generated&#10;&#9;languages/org.campagnelab.hta.tables/source_gen/org/campagnelab/hta/tables/behavior/BehaviorAspectDescriptor.java&#10;&#9;languages/org.campagnelab.hta.tables/source_gen/org/campagnelab/hta/tables/behavior/trace.info&#10;&#9;languages/org.campagnelab.hta.tables/source_gen/org/campagnelab/hta/tables/constraints/trace.info&#10;&#9;languages/org.campagnelab.hta.tables/source_gen/org/campagnelab/hta/tables/editor/EditorAspectDescriptorImpl.java&#10;&#9;languages/org.campagnelab.hta.tables/source_gen/org/campagnelab/hta/tables/editor/trace.info&#10;&#9;languages/org.campagnelab.hta.tables/source_gen/org/campagnelab/hta/tables/structure/StructureAspectDescriptor.java&#10;&#9;languages/org.campagnelab.hta.tables/source_gen/org/campagnelab/hta/tables/structure/trace.info&#10;&#9;languages/org.campagnelab.hta.tables/source_gen/org/campagnelab/hta/tables/typesystem/trace.info&#10;&#9;solutions/Playground/classes_gen/Tables/MyJoinTest_script.R&#10;&#9;solutions/Playground/source_gen.caches/Tables/generated&#10;&#9;solutions/Playground/source_gen/Tables/ExecTest_script.R&#10;" />
     <MESSAGE value="Set default values for run configuration inside the tuple clone method. Tuples do not appear to have constructors, but this seems to do the trick.&#10;" />
@@ -1107,9 +894,353 @@
     <MESSAGE value="Add support for parenthetized expressions. Add presentation for ColumnRef.&#10;Show style in FitXByY.&#10;Add intention to switch X and Y in FitXByY.&#10;Fix TrainModel to calculate predicted values on the correct platform." />
     <MESSAGE value="Revise to use latest allogenomics tsv file." />
     <MESSAGE value="Rename script as analysis.&#10;Try to improve scope for TableRef, not working yet." />
-    <option name="LAST_COMMIT_MESSAGE" value="Rename script as analysis.&#10;Try to improve scope for TableRef, not working yet." />
+    <MESSAGE value="Add plugin build script for version 1.0.0." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add plugin build script for version 1.0.0." />
   </component>
   <component name="editorHistoryManager">
+    <entry file="mps://node://org.campagnelab.runR/org.campagnelab.runR.plugin/RConfigurationOptions">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:f0ddd417-c8a1-40da-9335-f5b63a47dd8c(build.plugins)/9012942620034211548" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://org.campagnelab.hta.tables/org.campagnelab.hta.tables.structure/Analysis">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:f0ddd417-c8a1-40da-9335-f5b63a47dd8c(build.plugins)/3761139488787358646" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </inspectorMemento>
+          <node node_ref="r:db1b133e-9a0f-4319-b384-413408eb1729(org.campagnelab.hta.tables.behavior)/8962032619593737432" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://build.plugins/build.plugins/HTAnalysis">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:f0ddd417-c8a1-40da-9335-f5b63a47dd8c(build.plugins)/3761139488787358646" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://jetbrains.mps.build/jetbrains.mps.build.util/Context">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:f0ddd417-c8a1-40da-9335-f5b63a47dd8c(build.plugins)/3761139488787358646" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://jetbrains.mps.build.mps#3189788309732033979/jetbrains.mps.build.mps.generator.template.main@generator/weave_Tasks">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:f0ddd417-c8a1-40da-9335-f5b63a47dd8c(build.plugins)/3761139488787358646" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://org.campagnelab.runR/org.campagnelab.runR.plugin/R">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:f0ddd417-c8a1-40da-9335-f5b63a47dd8c(build.plugins)/3761139488787358646" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </inspectorMemento>
+          <node node_ref="r:1b4467f9-9100-4799-aca8-5e1dda676616(org.campagnelab.runR.plugin)/6062668769033909643" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://org.campagnelab.runR/org.campagnelab.runR.plugin/RConfigurationOptions">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:f0ddd417-c8a1-40da-9335-f5b63a47dd8c(build.plugins)/3761139488787358646" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://org.campagnelab.runR/org.campagnelab.runR.plugin/R_RunParameters">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:f0ddd417-c8a1-40da-9335-f5b63a47dd8c(build.plugins)/3761139488787358646" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://org.campagnelab.runR/org.campagnelab.runR.plugin/Run_R">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:f0ddd417-c8a1-40da-9335-f5b63a47dd8c(build.plugins)/3761139488787358646" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/languages/org.campagnelab.hta.tables/source_gen/org/campagnelab/hta/tables/editor/Multiplot_Editor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="315" max-vertical-offset="4575">
+          <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://org.campagnelab.hta.tables/org.campagnelab.hta.tables.structure/Analysis">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:f0ddd417-c8a1-40da-9335-f5b63a47dd8c(build.plugins)/3761139488787358646" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </inspectorMemento>
+          <node node_ref="r:db1b133e-9a0f-4319-b384-413408eb1729(org.campagnelab.hta.tables.behavior)/8962032619593737432" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://build.plugins/build.plugins/HTAnalysis">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:f0ddd417-c8a1-40da-9335-f5b63a47dd8c(build.plugins)/3761139488787358646" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://jetbrains.mps.build/jetbrains.mps.build.util/Context">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:f0ddd417-c8a1-40da-9335-f5b63a47dd8c(build.plugins)/3761139488787358646" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://jetbrains.mps.build.mps#3189788309732033979/jetbrains.mps.build.mps.generator.template.main@generator/weave_Tasks">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:f0ddd417-c8a1-40da-9335-f5b63a47dd8c(build.plugins)/3761139488787358646" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://org.campagnelab.runR/org.campagnelab.runR.plugin/R">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:f0ddd417-c8a1-40da-9335-f5b63a47dd8c(build.plugins)/3761139488787358646" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </inspectorMemento>
+          <node node_ref="r:1b4467f9-9100-4799-aca8-5e1dda676616(org.campagnelab.runR.plugin)/6062668769033909643" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://org.campagnelab.runR/org.campagnelab.runR.plugin/R_RunParameters">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:f0ddd417-c8a1-40da-9335-f5b63a47dd8c(build.plugins)/3761139488787358646" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://org.campagnelab.runR/org.campagnelab.runR.plugin/Run_R">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:f0ddd417-c8a1-40da-9335-f5b63a47dd8c(build.plugins)/3761139488787358646" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/languages/org.campagnelab.hta.tables/source_gen/org/campagnelab/hta/tables/editor/Multiplot_Editor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="4575">
+          <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://org.campagnelab.hta.tables/org.campagnelab.hta.tables.structure/Multiplot">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:f0ddd417-c8a1-40da-9335-f5b63a47dd8c(build.plugins)/3761139488787358646" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </inspectorMemento>
+          <node node_ref="r:c14853f5-5f2e-4acc-825a-4fec67caca67(org.campagnelab.hta.tables.editor)/3105090771424561506" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://org.campagnelab.runR/org.campagnelab.runR.plugin/RConfigurationOptions">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:f0ddd417-c8a1-40da-9335-f5b63a47dd8c(build.plugins)/3761139488787358646" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
     <entry file="mps://node://NYoSh.build-plugins/org.campagnelab.build.Interactive/org.campagnelab.Interactive">
       <provider selected="true" editor-type-id="MPSFileEditor">
         <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
@@ -1347,8 +1478,8 @@
           <memento viewPositionX="0" viewPositionY="0">
             <selectionStack>
               <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="true" />
                 <property name="selectionEnd" value="26" />
+                <property name="hasNonTrivialSelection" value="true" />
                 <property name="caretXRelative" value="180" />
                 <property name="selectionStart" value="0" />
                 <property name="caretX" value="239" />
@@ -1500,8 +1631,8 @@
                 </cellInfo>
               </stackElement>
               <stackElement className="jetbrains.mps.nodeEditor.selection.NodeRangeSelection">
-                <property name="lastNodeId" value="2714333670779114271" />
                 <property name="modelId" value="r:7a1d0bd8-1aba-4125-b773-9acdceb69280(org.campagnelab.build.Interactive)" />
+                <property name="lastNodeId" value="2714333670779114271" />
                 <property name="parentNodeId" value="2714333670779110348" />
                 <property name="firstNodeId" value="2714333670779114271" />
                 <property name="role" value="dependencies" />
@@ -1543,7 +1674,7 @@
             <folded />
             <enabledHints />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:f0ddd417-c8a1-40da-9335-f5b63a47dd8c(build.plugins)/3761139488787358649" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:1b4467f9-9100-4799-aca8-5e1dda676616(org.campagnelab.runR.plugin)/558452619581599346" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorLabels />
             <folded />
@@ -1556,13 +1687,13 @@
     <entry file="mps://node://org.campagnelab.runR/org.campagnelab.runR.plugin/R">
       <provider selected="true" editor-type-id="MPSFileEditor">
         <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
-          <memento viewPositionX="0" viewPositionY="247">
+          <memento viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorLabels />
             <folded />
             <enabledHints />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:f0ddd417-c8a1-40da-9335-f5b63a47dd8c(build.plugins)/3761139488787358649" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:1b4467f9-9100-4799-aca8-5e1dda676616(org.campagnelab.runR.plugin)/558452619581599346" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorLabels />
             <folded />
@@ -1591,7 +1722,7 @@
             <folded />
             <enabledHints />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:f0ddd417-c8a1-40da-9335-f5b63a47dd8c(build.plugins)/3761139488787358649" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:1b4467f9-9100-4799-aca8-5e1dda676616(org.campagnelab.runR.plugin)/558452619581599346" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorLabels />
             <folded />
@@ -1646,7 +1777,7 @@
             <folded />
             <enabledHints />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:f0ddd417-c8a1-40da-9335-f5b63a47dd8c(build.plugins)/3761139488787358649" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:1b4467f9-9100-4799-aca8-5e1dda676616(org.campagnelab.runR.plugin)/558452619581599346" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorLabels />
             <folded />
@@ -1674,42 +1805,7 @@
             <folded />
             <enabledHints />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:f0ddd417-c8a1-40da-9335-f5b63a47dd8c(build.plugins)/3761139488787358649" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </inspectorMemento>
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://org.campagnelab.runR/org.campagnelab.runR.plugin/RConfigurationOptions">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-          <memento viewPositionX="0" viewPositionY="400">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretXRelative" value="52" />
-                <property name="caretX" value="191" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="BMDNCC_property_name" cellNumber="0" isInList="false">
-                  <node node_reference="r:1b4467f9-9100-4799-aca8-5e1dda676616(org.campagnelab.runR.plugin)/9012942620030000975" />
-                </cellInfo>
-              </stackElement>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.NodeRangeSelection">
-                <property name="lastNodeId" value="9012942620030000975" />
-                <property name="modelId" value="r:1b4467f9-9100-4799-aca8-5e1dda676616(org.campagnelab.runR.plugin)" />
-                <property name="parentNodeId" value="558452619579580285" />
-                <property name="firstNodeId" value="9012942620030000975" />
-                <property name="role" value="member" />
-              </stackElement>
-            </selectionStack>
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:f0ddd417-c8a1-40da-9335-f5b63a47dd8c(build.plugins)/3761139488787358649" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:1b4467f9-9100-4799-aca8-5e1dda676616(org.campagnelab.runR.plugin)/558452619581599346" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorLabels />
             <folded />
@@ -1721,15 +1817,15 @@
     <entry file="mps://node://build.plugins/build.plugins/HTAnalysis">
       <provider selected="true" editor-type-id="MPSFileEditor">
         <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-          <memento viewPositionX="0" viewPositionY="80">
+          <memento viewPositionX="0" viewPositionY="0">
             <selectionStack>
               <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                 <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretXRelative" value="8" />
-                <property name="caretX" value="303" />
+                <property name="caretXRelative" value="44" />
+                <property name="caretX" value="271" />
                 <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="Constant_jumb3f_d1a" cellNumber="0" isInList="false">
-                  <node node_reference="r:f0ddd417-c8a1-40da-9335-f5b63a47dd8c(build.plugins)/3761139488787358649" />
+                <cellInfo cellId="property_text_3" cellNumber="0" isInList="false">
+                  <node node_reference="r:f0ddd417-c8a1-40da-9335-f5b63a47dd8c(build.plugins)/9012942620034211548" />
                 </cellInfo>
               </stackElement>
             </selectionStack>
@@ -1737,7 +1833,7 @@
             <folded />
             <enabledHints />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:f0ddd417-c8a1-40da-9335-f5b63a47dd8c(build.plugins)/3761139488787358649" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:1b4467f9-9100-4799-aca8-5e1dda676616(org.campagnelab.runR.plugin)/558452619581599346" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorLabels />
             <folded />
@@ -1764,7 +1860,7 @@
             <folded />
             <enabledHints />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:f0ddd417-c8a1-40da-9335-f5b63a47dd8c(build.plugins)/3761139488787358649" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:1b4467f9-9100-4799-aca8-5e1dda676616(org.campagnelab.runR.plugin)/558452619581599346" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorLabels />
             <folded />
@@ -1782,13 +1878,41 @@
             <folded />
             <enabledHints />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:f0ddd417-c8a1-40da-9335-f5b63a47dd8c(build.plugins)/3761139488787358649" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:1b4467f9-9100-4799-aca8-5e1dda676616(org.campagnelab.runR.plugin)/558452619581599346" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorLabels />
             <folded />
             <enabledHints />
           </inspectorMemento>
           <node node_ref="r:c14853f5-5f2e-4acc-825a-4fec67caca67(org.campagnelab.hta.tables.editor)/3105090771424561506" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://org.campagnelab.runR/org.campagnelab.runR.plugin/RConfigurationOptions">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento viewPositionX="0" viewPositionY="40">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretXRelative" value="32" />
+                <property name="caretX" value="231" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
+                  <node node_reference="r:1b4467f9-9100-4799-aca8-5e1dda676616(org.campagnelab.runR.plugin)/558452619581599346" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:1b4467f9-9100-4799-aca8-5e1dda676616(org.campagnelab.runR.plugin)/558452619581599346" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </inspectorMemento>
         </state>
       </provider>
     </entry>

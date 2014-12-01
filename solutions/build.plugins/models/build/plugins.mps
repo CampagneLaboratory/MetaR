@@ -35,7 +35,7 @@
       </node>
     </node>
     <node role="macros" roleId="3ior.5617550519002745378" type="3ior.BuildVariableMacro" typeId="3ior.3767587139141066978" id="3761139488788867865" nodeInfo="ng">
-      <property name="name" nameId="tpck.1169194664001" value="R_Mate_Version" />
+      <property name="name" nameId="tpck.1169194664001" value="metaR_version" />
       <node role="initialValue" roleId="3ior.2755237150521975432" type="3ior.BuildVariableMacroInitWithString" typeId="3ior.2755237150521975431" id="3761139488788867955" nodeInfo="ng">
         <node role="value" roleId="3ior.2755237150521975437" type="3ior.BuildString" typeId="3ior.4380385936562003279" id="3761139488788867954" nodeInfo="ng">
           <node role="parts" roleId="3ior.4903714810883783243" type="3ior.BuildTextStringPart" typeId="3ior.4903714810883702019" id="3761139488788867953" nodeInfo="ng">
@@ -126,10 +126,10 @@
       <node role="children" roleId="3ior.7389400916848037006" type="3ior.BuildLayout_Zip" typeId="3ior.7389400916848050071" id="9178698721097033469" nodeInfo="ng">
         <node role="containerName" roleId="3ior.4380385936562148502" type="3ior.BuildStringNotEmpty" typeId="3ior.841011766566059607" id="9178698721097033470" nodeInfo="ng">
           <node role="parts" roleId="3ior.4903714810883783243" type="3ior.BuildTextStringPart" typeId="3ior.4903714810883702019" id="9178698721097033471" nodeInfo="ng">
-            <property name="text" nameId="3ior.4903714810883755350" value="RMate_" />
+            <property name="text" nameId="3ior.4903714810883755350" value="metaR_" />
           </node>
           <node role="parts" roleId="3ior.4903714810883783243" type="3ior.BuildVarRefStringPart" typeId="3ior.4903714810883702017" id="3797805458484488366" nodeInfo="ng">
-            <link role="macro" roleId="3ior.4903714810883702018" targetNodeId="3761139488788867865" resolveInfo="R_Mate_Version" />
+            <link role="macro" roleId="3ior.4903714810883702018" targetNodeId="3761139488788867865" resolveInfo="metaR_version" />
           </node>
           <node role="parts" roleId="3ior.4903714810883783243" type="3ior.BuildTextStringPart" typeId="3ior.4903714810883702019" id="3797805458484488365" nodeInfo="ng">
             <property name="text" nameId="3ior.4903714810883755350" value=".zip" />
@@ -141,7 +141,7 @@
       </node>
     </node>
     <node role="parts" roleId="3ior.7389400916848080626" type="kdzh.BuildMps_IdeaPlugin" typeId="kdzh.6592112598314498932" id="3761139488787358687" nodeInfo="ng">
-      <property name="id" nameId="kdzh.6592112598314498927" value="org.campagnelab.RMate" />
+      <property name="id" nameId="kdzh.6592112598314498927" value="org.campagnelab.metaR" />
       <node role="xml" roleId="kdzh.1359186315025500371" type="iuxj.XmlElement" typeId="iuxj.6666499814681415858" id="6642819616994420405" nodeInfo="ng">
         <property name="tagName" nameId="iuxj.6666499814681415862" value="idea-version" />
         <node role="attributes" roleId="iuxj.6666499814681415861" type="iuxj.XmlAttribute" typeId="iuxj.6666499814681447923" id="6642819616994420683" nodeInfo="ng">
@@ -159,16 +159,16 @@
       </node>
       <node role="name" roleId="kdzh.6592112598314499021" type="3ior.BuildStringNotEmpty" typeId="3ior.841011766566059607" id="3761139488787358688" nodeInfo="ng">
         <node role="parts" roleId="3ior.4903714810883783243" type="3ior.BuildTextStringPart" typeId="3ior.4903714810883702019" id="3761139488787358689" nodeInfo="ng">
-          <property name="text" nameId="3ior.4903714810883755350" value="RMate" />
+          <property name="text" nameId="3ior.4903714810883755350" value="org.campagnelab.metaR" />
         </node>
       </node>
       <node role="version" roleId="kdzh.6592112598314498931" type="3ior.BuildStringNotEmpty" typeId="3ior.841011766566059607" id="3761139488787358690" nodeInfo="ng">
         <node role="parts" roleId="3ior.4903714810883783243" type="3ior.BuildVarRefStringPart" typeId="3ior.4903714810883702017" id="3761139488788868029" nodeInfo="ng">
-          <link role="macro" roleId="3ior.4903714810883702018" targetNodeId="3761139488788867865" resolveInfo="R_Mate_Version" />
+          <link role="macro" roleId="3ior.4903714810883702018" targetNodeId="3761139488788867865" resolveInfo="metaR_version" />
         </node>
       </node>
       <node role="content" roleId="kdzh.6592112598314499050" type="kdzh.BuildMps_IdeaPluginGroup" typeId="kdzh.6592112598314586625" id="3761139488787358692" nodeInfo="ng">
-        <link role="group" roleId="kdzh.6592112598314586626" targetNodeId="3761139488787358686" resolveInfo="RMate" />
+        <link role="group" roleId="kdzh.6592112598314586626" targetNodeId="3761139488787358686" resolveInfo="metaR" />
       </node>
       <node role="dependencies" roleId="kdzh.6592112598314499028" type="kdzh.BuildMps_IdeaPluginDependency" typeId="kdzh.6592112598314499027" id="3761139488787358693" nodeInfo="ng">
         <link role="target" roleId="kdzh.6592112598314499066" targetNodeId="ffeo.4973949960459588488" />
@@ -199,7 +199,7 @@
       </node>
       <node role="containerName" roleId="kdzh.6592112598314855574" type="3ior.BuildStringNotEmpty" typeId="3ior.841011766566059607" id="3761139488787358694" nodeInfo="ng">
         <node role="parts" roleId="3ior.4903714810883783243" type="3ior.BuildTextStringPart" typeId="3ior.4903714810883702019" id="3761139488787358695" nodeInfo="ng">
-          <property name="text" nameId="3ior.4903714810883755350" value="RMate" />
+          <property name="text" nameId="3ior.4903714810883755350" value="metaR" />
         </node>
       </node>
       <node role="vendor" roleId="kdzh.7832771629084912518" type="kdzh.BuildMps_IdeaPluginVendor" typeId="kdzh.7832771629084799699" id="9012942620032330910" nodeInfo="ng">
@@ -217,7 +217,7 @@
       </node>
     </node>
     <node role="parts" roleId="3ior.7389400916848080626" type="kdzh.BuildMps_Group" typeId="kdzh.1500819558095907805" id="3761139488787358686" nodeInfo="ng">
-      <property name="name" nameId="tpck.1169194664001" value="RMate" />
+      <property name="name" nameId="tpck.1169194664001" value="metaR" />
       <node role="modules" roleId="kdzh.1500819558095907806" type="kdzh.BuildMps_Language" typeId="kdzh.3189788309731840248" id="3761139488787358662" nodeInfo="ng">
         <property name="compact" nameId="kdzh.8369506495128725901" value="true" />
         <property name="name" nameId="tpck.1169194664001" value="org.campagnelab.hta.expressions" />
@@ -282,7 +282,7 @@
       </node>
       <node role="modules" roleId="kdzh.1500819558095907806" type="kdzh.BuildMps_DevKit" typeId="kdzh.322010710375794190" id="3761139488787358667" nodeInfo="ng">
         <property name="compact" nameId="kdzh.8369506495128725901" value="true" />
-        <property name="name" nameId="tpck.1169194664001" value="org.campagnelab.RMate" />
+        <property name="name" nameId="tpck.1169194664001" value="org.campagnelab.metaR" />
         <property name="uuid" nameId="kdzh.322010710375892619" value="8a3636fa-c6ec-4cb0-bc2a-b7143f2a4937" />
         <node role="path" roleId="kdzh.322010710375956261" type="3ior.BuildSourceProjectRelativePath" typeId="3ior.5481553824944787378" id="3761139488787358663" nodeInfo="ng">
           <node role="compositePart" roleId="3ior.7321017245477039051" type="3ior.BuildCompositePath" typeId="3ior.8618885170173601777" id="3761139488787358664" nodeInfo="nn">
@@ -300,6 +300,12 @@
         </node>
         <node role="exports" roleId="kdzh.322010710375832962" type="kdzh.BuildMps_DevKitExportLanguage" typeId="kdzh.322010710375832938" id="3761139488787394351" nodeInfo="ng">
           <link role="language" roleId="kdzh.322010710375832947" targetNodeId="3761139488787358673" resolveInfo="org.campagnelab.hta.tables" />
+        </node>
+        <node role="exports" roleId="kdzh.322010710375832962" type="kdzh.BuildMps_DevKitExportLanguage" typeId="kdzh.322010710375832938" id="508214836485685875" nodeInfo="ng">
+          <link role="language" roleId="kdzh.322010710375832947" targetNodeId="9b59.9178698721097033439" resolveInfo="org.campagnelab.mps.XChart" />
+        </node>
+        <node role="exports" roleId="kdzh.322010710375832962" type="kdzh.BuildMps_DevKitExportLanguage" typeId="kdzh.322010710375832938" id="508214836485685876" nodeInfo="ng">
+          <link role="language" roleId="kdzh.322010710375832947" targetNodeId="ael0.6642819616994328590" resolveInfo="org.campagnelab.ui" />
         </node>
       </node>
       <node role="modules" roleId="kdzh.1500819558095907806" type="kdzh.BuildMps_Language" typeId="kdzh.3189788309731840248" id="3761139488787358673" nodeInfo="ng">
