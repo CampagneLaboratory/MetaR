@@ -39,7 +39,7 @@
       <node role="initialValue" roleId="3ior.2755237150521975432" type="3ior.BuildVariableMacroInitWithString" typeId="3ior.2755237150521975431" id="3761139488788867955" nodeInfo="ng">
         <node role="value" roleId="3ior.2755237150521975437" type="3ior.BuildString" typeId="3ior.4380385936562003279" id="3761139488788867954" nodeInfo="ng">
           <node role="parts" roleId="3ior.4903714810883783243" type="3ior.BuildTextStringPart" typeId="3ior.4903714810883702019" id="3761139488788867953" nodeInfo="ng">
-            <property name="text" nameId="3ior.4903714810883755350" value="1.0.0" />
+            <property name="text" nameId="3ior.4903714810883755350" value="1.0.2" />
           </node>
         </node>
       </node>
@@ -213,6 +213,11 @@
               <property name="head" nameId="3ior.8618885170173601779" value="MPS16.png" />
             </node>
           </node>
+        </node>
+      </node>
+      <node role="description" roleId="kdzh.2172791612906637490" type="3ior.BuildStringNotEmpty" typeId="3ior.841011766566059607" id="810902398794763120" nodeInfo="ng">
+        <node role="parts" roleId="3ior.4903714810883783243" type="3ior.BuildTextStringPart" typeId="3ior.4903714810883702019" id="810902398794767960" nodeInfo="ng">
+          <property name="text" nameId="3ior.4903714810883755350" value="MetaR is a set of languages for interactive data analysis. Programs written with metaR generate to the R language, but are composable. MetaR is part of the NYoSh Data Analysis Workbench (see http://workbench.campagnelab.org)." />
         </node>
       </node>
     </node>
