@@ -5,15 +5,12 @@ package org.campagnelab.hta.tables.behavior;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
-import org.jetbrains.annotations.Nullable;
-import jetbrains.mps.build.util.Context;
-import jetbrains.mps.build.util.RelativePathHelper;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import java.util.Set;
 import jetbrains.mps.internal.collections.runtime.SetSequence;
 import java.util.HashSet;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.internal.collections.runtime.ITranslator2;
 import jetbrains.mps.smodel.behaviour.BehaviorReflection;
 import jetbrains.mps.smodel.behaviour.BehaviorManager;
@@ -21,21 +18,6 @@ import jetbrains.mps.smodel.behaviour.BehaviorManager;
 public class Analysis_Behavior {
   public static void init(SNode thisNode) {
     SLinkOperations.setTarget(thisNode, "statements", SConceptOperations.createNewNode("org.campagnelab.hta.tables.structure.StatementList", null), true);
-  }
-
-  @Nullable
-  public static String call_getScriptsPath_8962032619593737433(SNode thisNode, Context context) {
-    return Analysis_Behavior.call_getBasePath_8962032619593737443(thisNode, context);
-  }
-
-  @Nullable
-  public static String call_getBasePath_8962032619593737443(SNode thisNode, Context context) {
-    RelativePathHelper relativePathHelper = context.getRelativePathHelper(SNodeOperations.getModel(thisNode));
-    if (relativePathHelper == null) {
-      // model is packaged, i.e. no base path for it 
-      return null;
-    }
-    return relativePathHelper.getBasePath();
   }
 
   public static String call_getOutputFileName_8962032619593737472(SNode thisNode) {

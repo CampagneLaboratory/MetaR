@@ -10,6 +10,9 @@ import com.intellij.ui.components.JBLabel;
 import jetbrains.mps.ide.common.LayoutUtil;
 import org.jetbrains.annotations.Nullable;
 import java.io.File;
+import jetbrains.mps.build.util.Context;
+import org.jetbrains.mps.openapi.model.SModel;
+import jetbrains.mps.build.util.RelativePathHelper;
 
 public class RConfigurationOptions extends JBPanel {
   private final RawLineEditorComponent myProgramParameters;
@@ -53,4 +56,21 @@ public class RConfigurationOptions extends JBPanel {
     myProgramParameters.dispose();
     myWorkingDirectory.dispose();
   }
+
+  @Nullable
+  public String getScriptsPath(Context context, SModel model) {
+    return getScriptsPath(context, model);
+  }
+
+  @Nullable
+  public String getBasePath(Context context, SModel model) {
+    RelativePathHelper relativePathHelper = context.getRelativePathHelper(model);
+    if (relativePathHelper == null) {
+      // model is packaged, i.e. no base path for it 
+      return null;
+    }
+    return relativePathHelper.getBasePath();
+  }
+
+
 }

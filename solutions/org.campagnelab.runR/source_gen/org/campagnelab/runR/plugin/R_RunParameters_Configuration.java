@@ -11,6 +11,9 @@ import org.jdom.Element;
 import com.intellij.openapi.util.WriteExternalException;
 import com.intellij.util.xmlb.XmlSerializer;
 import com.intellij.openapi.util.InvalidDataException;
+import jetbrains.mps.build.util.Context;
+import org.jetbrains.mps.openapi.model.SModel;
+import jetbrains.mps.build.util.RelativePathHelper;
 import jetbrains.mps.execution.api.settings.SettingsEditorEx;
 import org.apache.log4j.Logger;
 import org.apache.log4j.LogManager;
@@ -46,6 +49,15 @@ public class R_RunParameters_Configuration implements IPersistentConfiguration, 
 
   public void setProperties(R_Options value) {
     myState.myProperties = value;
+  }
+
+  /*package*/ String getScriptPath(Context context, SModel model) {
+    RelativePathHelper relativePathHelper = context.getRelativePathHelper(model);
+    if (relativePathHelper == null) {
+      // model is packaged, i.e. no base path for it 
+      return null;
+    }
+    return relativePathHelper.getBasePath();
   }
 
   @Override
