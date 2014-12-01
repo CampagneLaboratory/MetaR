@@ -23,8 +23,9 @@ import jetbrains.mps.smodel.ModelAccess;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.build.util.Context;
-import jetbrains.mps.vfs.FileSystem;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SModelOperations;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
+import jetbrains.mps.vfs.FileSystem;
 import org.campagnelab.hta.tables.behavior.Analysis_Behavior;
 import com.intellij.execution.process.ProcessHandler;
 import jetbrains.mps.execution.api.configurations.ConsoleProcessListener;
@@ -32,6 +33,8 @@ import jetbrains.mps.execution.api.configurations.DefaultExecutionResult;
 import jetbrains.mps.execution.api.configurations.DefaultExecutionConsole;
 import jetbrains.mps.baseLanguage.closures.runtime._FunctionTypes;
 import com.intellij.execution.executors.DefaultRunExecutor;
+import org.apache.log4j.Logger;
+import org.apache.log4j.LogManager;
 
 public class R_Configuration_RunProfileState implements RunProfileState {
   @NotNull
@@ -66,10 +69,23 @@ public class R_Configuration_RunProfileState implements RunProfileState {
     ModelAccess.instance().runReadAction(new Runnable() {
       public void run() {
         SNode node = SNodeOperations.cast(myRunConfiguration.getNode().getNode(), "org.campagnelab.hta.tables.structure.Analysis");
+        // <node> 
         String scriptPath = myRunConfiguration.getRunParameters().getScriptPath(Context.defaultContext(), SNodeOperations.getModel(node));
         if (scriptPath != null) {
-          file.value = FileSystem.getInstance().getFileByPath(scriptPath + "/classes_gen/" + SModelOperations.getModelName(SNodeOperations.getModel(node)));
+          String modelName = SModelOperations.getModelName(SNodeOperations.getModel(node)).replaceAll("[\\.]", "/");
+          if (LOG.isInfoEnabled()) {
+            LOG.info("node.model.name=" + modelName);
+          }
+          if (LOG.isInfoEnabled()) {
+            LOG.info("node.virtualPackage=" + SPropertyOperations.getString(node, "virtualPackage"));
+          }
+
+          file.value = FileSystem.getInstance().getFileByPath(scriptPath + "/classes_gen/" + modelName);
+          if (LOG.isInfoEnabled()) {
+            LOG.info("dir=" + file.value.getAbsolutePath());
+          }
           file.value = file.value.getDescendant(Analysis_Behavior.call_getOutputFileName_8962032619593737472(node));
+
         }
       }
     });
@@ -99,4 +115,6 @@ public class R_Configuration_RunProfileState implements RunProfileState {
     }
     return false;
   }
+
+  protected static Logger LOG = LogManager.getLogger(R_Configuration_RunProfileState.class);
 }
