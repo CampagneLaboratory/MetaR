@@ -24,9 +24,8 @@ import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.build.util.Context;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SModelOperations;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.vfs.FileSystem;
-import org.campagnelab.hta.tables.behavior.Analysis_Behavior;
+import org.campagnelab.metar.tables.behavior.Analysis_Behavior;
 import com.intellij.execution.process.ProcessHandler;
 import jetbrains.mps.execution.api.configurations.ConsoleProcessListener;
 import jetbrains.mps.execution.api.configurations.DefaultExecutionResult;
@@ -68,22 +67,15 @@ public class R_Configuration_RunProfileState implements RunProfileState {
     final Wrappers._T<IFile> file = new Wrappers._T<IFile>(null);
     ModelAccess.instance().runReadAction(new Runnable() {
       public void run() {
-        SNode node = SNodeOperations.cast(myRunConfiguration.getNode().getNode(), "org.campagnelab.hta.tables.structure.Analysis");
+        SNode node = SNodeOperations.cast(myRunConfiguration.getNode().getNode(), "org.campagnelab.metar.tables.structure.Analysis");
         // <node> 
         String scriptPath = myRunConfiguration.getRunParameters().getScriptPath(Context.defaultContext(), SNodeOperations.getModel(node));
         if (scriptPath != null) {
           String modelName = SModelOperations.getModelName(SNodeOperations.getModel(node)).replaceAll("[\\.]", "/");
-          if (LOG.isInfoEnabled()) {
-            LOG.info("node.model.name=" + modelName);
-          }
-          if (LOG.isInfoEnabled()) {
-            LOG.info("node.virtualPackage=" + SPropertyOperations.getString(node, "virtualPackage"));
-          }
+          // <node> 
+          // <node> 
 
           file.value = FileSystem.getInstance().getFileByPath(scriptPath + "/classes_gen/" + modelName);
-          if (LOG.isInfoEnabled()) {
-            LOG.info("dir=" + file.value.getAbsolutePath());
-          }
           file.value = file.value.getDescendant(Analysis_Behavior.call_getOutputFileName_8962032619593737472(node));
 
         }

@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<debugInfo>
-  <unitInfo fileName="BehaviorAspectDescriptor.java" startLine="9" startPosition="0" endLine="26" endPosition="0" unitName="org.campagnelab.hta.expressions.behavior.BehaviorAspectDescriptor" />
-  <unitInfo fileName="ColumnValue_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="org.campagnelab.hta.expressions.behavior.ColumnValue_BehaviorDescriptor" />
-  <unitInfo fileName="ExpressionContainer_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="org.campagnelab.hta.expressions.behavior.ExpressionContainer_BehaviorDescriptor" />
-</debugInfo>
-

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<history>
+  <StructureModification>
+    <dependencies>
+      <model index="8vtd" modelUID="r:cbd13695-fd32-4d39-aded-ba7e630ac2c3(org.campagnelab.hta.inspect.structure)" version="-1" />
+      <model index="5ryu" modelUID="r:91256194-1375-495d-ab72-ff76cfde3569(org.campagnelab.hta.script.structure)" version="3" />
+    </dependencies>
+    <move id="5ryu.962445451564171227" to="8vtd.962445451564373967" />
+    <move id="5ryu.962445451564167492" to="8vtd.962445451564373966" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="wx1x" modelUID="r:fc09d37c-7f41-488d-9e27-7aff0c73b85b(org.campagnelab.hta.inspect.editor)" version="-1" />
+      <model index="sd4r" modelUID="r:29eccbba-5358-4580-92e9-d09a352dc9db(org.campagnelab.hta.inspect.constraints)" version="-1" />
+      <model index="8vtd" modelUID="r:cbd13695-fd32-4d39-aded-ba7e630ac2c3(org.campagnelab.hta.inspect.structure)" version="0" />
+      <model index="o86e" modelUID="r:947ba659-3524-4d6f-9384-16cf5c91519f(org.campagnelab.hta.inspect.typesystem)" version="-1" />
+      <model index="2k4h" modelUID="r:930671f0-37d5-4b40-acdb-7bfbc083292a(org.campagnelab.hta.inspect.behavior)" version="-1" />
+      <model index="e0an" modelUID="r:22516e59-f7cc-411f-80b8-f782ec2acb3b(org.campagnelab.hta.inspect.generator.template.main@generator)" version="-1" />
+    </dependencies>
+    <RenameModel oldModel="r:fc09d37c-7f41-488d-9e27-7aff0c73b85b(org.campagnelab.hta.inspect.editor)" newModel="r:fc09d37c-7f41-488d-9e27-7aff0c73b85b(org.campagnelab.metar.inspect.editor)" />
+    <RenameModel oldModel="r:930671f0-37d5-4b40-acdb-7bfbc083292a(org.campagnelab.hta.inspect.behavior)" newModel="r:930671f0-37d5-4b40-acdb-7bfbc083292a(org.campagnelab.metar.inspect.behavior)" />
+    <RenameModel oldModel="r:cbd13695-fd32-4d39-aded-ba7e630ac2c3(org.campagnelab.hta.inspect.structure)" newModel="r:cbd13695-fd32-4d39-aded-ba7e630ac2c3(org.campagnelab.metar.inspect.structure)" />
+    <RenameModel oldModel="r:947ba659-3524-4d6f-9384-16cf5c91519f(org.campagnelab.hta.inspect.typesystem)" newModel="r:947ba659-3524-4d6f-9384-16cf5c91519f(org.campagnelab.metar.inspect.typesystem)" />
+    <RenameModel oldModel="r:29eccbba-5358-4580-92e9-d09a352dc9db(org.campagnelab.hta.inspect.constraints)" newModel="r:29eccbba-5358-4580-92e9-d09a352dc9db(org.campagnelab.metar.inspect.constraints)" />
+    <RenameModel oldModel="r:22516e59-f7cc-411f-80b8-f782ec2acb3b(org.campagnelab.hta.inspect.generator.template.main@generator)" newModel="r:22516e59-f7cc-411f-80b8-f782ec2acb3b(org.campagnelab.metar.inspect.generator.template.main@generator)" />
+  </StructureModification>
+</history>
+

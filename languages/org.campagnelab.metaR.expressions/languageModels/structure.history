@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<history>
+  <StructureModification>
+    <dependencies>
+      <model index="j9mn" modelUID="r:8a384be7-5894-46d0-ba1b-8d6b26098923(org.campagnelab.hta.expressions.behavior)" version="-1" />
+      <model index="rg56" modelUID="r:ab341ca2-6df8-46ee-bf23-741319c06425(org.campagnelab.hta.expressions.structure)" version="-1" />
+      <model index="k83" modelUID="r:ba5d3597-eba8-4e65-ad21-cd8e280ee11f(org.campagnelab.hta.expressions.constraints)" version="-1" />
+      <model index="fbdd" modelUID="r:79e778bd-ec95-4e98-8d4b-c5d12fde26a5(org.campagnelab.hta.expressions.generator.template.main@generator)" version="-1" />
+      <model index="6co6" modelUID="r:feb05a40-03c0-48d7-8c1e-54c91666ecf8(org.campagnelab.hta.expressions.typesystem)" version="-1" />
+      <model index="80jm" modelUID="r:e8edceb4-42cb-41ee-b8f8-86cabd309d52(org.campagnelab.hta.expressions.editor)" version="-1" />
+    </dependencies>
+    <RenameModel oldModel="r:e8edceb4-42cb-41ee-b8f8-86cabd309d52(org.campagnelab.hta.expressions.editor)" newModel="r:e8edceb4-42cb-41ee-b8f8-86cabd309d52(org.campagnelab.metaR.expressions.editor)" />
+    <RenameModel oldModel="r:8a384be7-5894-46d0-ba1b-8d6b26098923(org.campagnelab.hta.expressions.behavior)" newModel="r:8a384be7-5894-46d0-ba1b-8d6b26098923(org.campagnelab.metaR.expressions.behavior)" />
+    <RenameModel oldModel="r:ab341ca2-6df8-46ee-bf23-741319c06425(org.campagnelab.hta.expressions.structure)" newModel="r:ab341ca2-6df8-46ee-bf23-741319c06425(org.campagnelab.metaR.expressions.structure)" />
+    <RenameModel oldModel="r:feb05a40-03c0-48d7-8c1e-54c91666ecf8(org.campagnelab.hta.expressions.typesystem)" newModel="r:feb05a40-03c0-48d7-8c1e-54c91666ecf8(org.campagnelab.metaR.expressions.typesystem)" />
+    <RenameModel oldModel="r:ba5d3597-eba8-4e65-ad21-cd8e280ee11f(org.campagnelab.hta.expressions.constraints)" newModel="r:ba5d3597-eba8-4e65-ad21-cd8e280ee11f(org.campagnelab.metaR.expressions.constraints)" />
+    <RenameModel oldModel="r:79e778bd-ec95-4e98-8d4b-c5d12fde26a5(org.campagnelab.hta.expressions.generator.template.main@generator)" newModel="r:79e778bd-ec95-4e98-8d4b-c5d12fde26a5(org.campagnelab.metaR.expressions.generator.template.main@generator)" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="j9mn" modelUID="r:8a384be7-5894-46d0-ba1b-8d6b26098923(org.campagnelab.metaR.expressions.behavior)" version="0" />
+      <model index="rg56" modelUID="r:ab341ca2-6df8-46ee-bf23-741319c06425(org.campagnelab.metaR.expressions.structure)" version="0" />
+      <model index="k83" modelUID="r:ba5d3597-eba8-4e65-ad21-cd8e280ee11f(org.campagnelab.metaR.expressions.constraints)" version="0" />
+      <model index="fbdd" modelUID="r:79e778bd-ec95-4e98-8d4b-c5d12fde26a5(org.campagnelab.metaR.expressions.generator.template.main@generator)" version="0" />
+      <model index="6co6" modelUID="r:feb05a40-03c0-48d7-8c1e-54c91666ecf8(org.campagnelab.metaR.expressions.typesystem)" version="0" />
+      <model index="80jm" modelUID="r:e8edceb4-42cb-41ee-b8f8-86cabd309d52(org.campagnelab.metaR.expressions.editor)" version="0" />
+    </dependencies>
+    <RenameModel oldModel="r:e8edceb4-42cb-41ee-b8f8-86cabd309d52(org.campagnelab.metaR.expressions.editor)" newModel="r:e8edceb4-42cb-41ee-b8f8-86cabd309d52(org.campagnelab.metar.expressions.editor)" />
+    <RenameModel oldModel="r:8a384be7-5894-46d0-ba1b-8d6b26098923(org.campagnelab.metaR.expressions.behavior)" newModel="r:8a384be7-5894-46d0-ba1b-8d6b26098923(org.campagnelab.metar.expressions.behavior)" />
+    <RenameModel oldModel="r:ab341ca2-6df8-46ee-bf23-741319c06425(org.campagnelab.metaR.expressions.structure)" newModel="r:ab341ca2-6df8-46ee-bf23-741319c06425(org.campagnelab.metar.expressions.structure)" />
+    <RenameModel oldModel="r:feb05a40-03c0-48d7-8c1e-54c91666ecf8(org.campagnelab.metaR.expressions.typesystem)" newModel="r:feb05a40-03c0-48d7-8c1e-54c91666ecf8(org.campagnelab.metar.expressions.typesystem)" />
+    <RenameModel oldModel="r:ba5d3597-eba8-4e65-ad21-cd8e280ee11f(org.campagnelab.metaR.expressions.constraints)" newModel="r:ba5d3597-eba8-4e65-ad21-cd8e280ee11f(org.campagnelab.metar.expressions.constraints)" />
+    <RenameModel oldModel="r:79e778bd-ec95-4e98-8d4b-c5d12fde26a5(org.campagnelab.metaR.expressions.generator.template.main@generator)" newModel="r:79e778bd-ec95-4e98-8d4b-c5d12fde26a5(org.campagnelab.metar.expressions.generator.template.main@generator)" />
+  </StructureModification>
+</history>
+

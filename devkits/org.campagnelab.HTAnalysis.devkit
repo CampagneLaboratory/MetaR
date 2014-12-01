@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dev-kit name="org.campagnelab.metaR" uuid="8a3636fa-c6ec-4cb0-bc2a-b7143f2a4937">
-  <exported-language name="32f503e8-061b-451e-bcb0-fef56aa05eb9(org.campagnelab.hta.inspect)" />
   <exported-language name="5ec1cd3d-0a50-4049-a8fa-ae768d7baa25(org.campagnelab.mps.XChart)" />
-  <exported-language name="5d6bde84-4ce4-4eb5-a37e-25a5edd55129(org.campagnelab.hta.tables)" />
-  <exported-language name="13025dcf-3a29-4fb4-8af6-9e29bd98ee42(org.campagnelab.hta.expressions)" />
   <exported-language name="c1ba4037-e4db-47d8-8b61-b3c805b648f2(org.campagnelab.ui)" />
+  <exported-language name="32f503e8-061b-451e-bcb0-fef56aa05eb9(org.campagnelab.metar.inspect)" />
+  <exported-language name="5d6bde84-4ce4-4eb5-a37e-25a5edd55129(org.campagnelab.metar.tables)" />
+  <exported-language name="13025dcf-3a29-4fb4-8af6-9e29bd98ee42(org.campagnelab.metar.expressions)" />
 </dev-kit>
 

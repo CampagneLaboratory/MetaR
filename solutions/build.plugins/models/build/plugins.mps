@@ -13,7 +13,7 @@
   <import index="kdzh" modelUID="r:0353b795-df17-4050-9687-ee47eeb7094f(jetbrains.mps.build.mps.structure)" version="3" implicit="yes" />
   <import index="iuxj" modelUID="r:64db3a92-5968-4a73-b456-34504a2d97a6(jetbrains.mps.core.xml.structure)" version="2" implicit="yes" />
   <root type="3ior.BuildProject" typeId="3ior.5617550519002745363" id="3761139488787358645" nodeInfo="ng">
-    <property name="name" nameId="tpck.1169194664001" value="HTAnalysis" />
+    <property name="name" nameId="tpck.1169194664001" value="MetaR" />
     <property name="internalBaseDirectory" nameId="3ior.5204048710541015587" value="../../" />
     <node role="plugins" roleId="3ior.6647099934206700656" type="3ior.BuildJavaPlugin" typeId="3ior.6647099934206700647" id="3761139488787358646" nodeInfo="ng" />
     <node role="plugins" roleId="3ior.6647099934206700656" type="kdzh.BuildMPSPlugin" typeId="kdzh.868032131020265945" id="3761139488787358647" nodeInfo="ng" />
@@ -39,7 +39,7 @@
       <node role="initialValue" roleId="3ior.2755237150521975432" type="3ior.BuildVariableMacroInitWithString" typeId="3ior.2755237150521975431" id="3761139488788867955" nodeInfo="ng">
         <node role="value" roleId="3ior.2755237150521975437" type="3ior.BuildString" typeId="3ior.4380385936562003279" id="3761139488788867954" nodeInfo="ng">
           <node role="parts" roleId="3ior.4903714810883783243" type="3ior.BuildTextStringPart" typeId="3ior.4903714810883702019" id="3761139488788867953" nodeInfo="ng">
-            <property name="text" nameId="3ior.4903714810883755350" value="1.0.2" />
+            <property name="text" nameId="3ior.4903714810883755350" value="1.0.3" />
           </node>
         </node>
       </node>
@@ -225,16 +225,16 @@
       <property name="name" nameId="tpck.1169194664001" value="metaR" />
       <node role="modules" roleId="kdzh.1500819558095907806" type="kdzh.BuildMps_Language" typeId="kdzh.3189788309731840248" id="3761139488787358662" nodeInfo="ng">
         <property name="compact" nameId="kdzh.8369506495128725901" value="true" />
-        <property name="name" nameId="tpck.1169194664001" value="org.campagnelab.hta.expressions" />
+        <property name="name" nameId="tpck.1169194664001" value="org.campagnelab.metar.expressions" />
         <property name="uuid" nameId="kdzh.322010710375892619" value="13025dcf-3a29-4fb4-8af6-9e29bd98ee42" />
         <property name="doNotCompile" nameId="kdzh.1500819558096356884" value="false" />
         <node role="path" roleId="kdzh.322010710375956261" type="3ior.BuildSourceProjectRelativePath" typeId="3ior.5481553824944787378" id="3761139488787358657" nodeInfo="ng">
           <node role="compositePart" roleId="3ior.7321017245477039051" type="3ior.BuildCompositePath" typeId="3ior.8618885170173601777" id="3761139488787358658" nodeInfo="nn">
             <property name="head" nameId="3ior.8618885170173601779" value="languages" />
             <node role="tail" roleId="3ior.8618885170173601778" type="3ior.BuildCompositePath" typeId="3ior.8618885170173601777" id="3761139488787358659" nodeInfo="nn">
-              <property name="head" nameId="3ior.8618885170173601779" value="org.campagnelab.hta.expressions" />
+              <property name="head" nameId="3ior.8618885170173601779" value="org.campagnelab.metaR.expressions" />
               <node role="tail" roleId="3ior.8618885170173601778" type="3ior.BuildCompositePath" typeId="3ior.8618885170173601777" id="3761139488787358660" nodeInfo="nn">
-                <property name="head" nameId="3ior.8618885170173601779" value="org.campagnelab.hta.expressions.mpl" />
+                <property name="head" nameId="3ior.8618885170173601779" value="org.campagnelab.metaR.expressions.mpl" />
               </node>
             </node>
           </node>
@@ -242,7 +242,7 @@
         <node role="dependencies" roleId="kdzh.5253498789149547704" type="kdzh.BuildMps_ExtractedModuleDependency" typeId="kdzh.7259033139236285166" id="3761139488787394347" nodeInfo="nn">
           <node role="dependency" roleId="kdzh.7259033139236285167" type="kdzh.BuildMps_ModuleDependencyOnModule" typeId="kdzh.5253498789149585690" id="3761139488787394348" nodeInfo="ng">
             <property name="reexport" nameId="kdzh.5253498789149547713" value="true" />
-            <link role="module" roleId="kdzh.5253498789149547705" targetNodeId="3761139488787358673" resolveInfo="org.campagnelab.hta.tables" />
+            <link role="module" roleId="kdzh.5253498789149547705" targetNodeId="3761139488787358673" resolveInfo="org.campagnelab.metar.tables" />
           </node>
         </node>
         <node role="dependencies" roleId="kdzh.5253498789149547704" type="kdzh.BuildMps_ExtractedModuleDependency" typeId="kdzh.7259033139236285166" id="3761139488788791329" nodeInfo="nn">
@@ -262,19 +262,19 @@
           </node>
         </node>
         <node role="generator" roleId="kdzh.9200313594498201639" type="kdzh.BuildMps_Generator" typeId="kdzh.5507251971038816436" id="3761139488788791335" nodeInfo="ng">
-          <property name="name" nameId="tpck.1169194664001" value="org.campagnelab.hta.expressions#7783277237108175286" />
+          <property name="name" nameId="tpck.1169194664001" value="org.campagnelab.metar.expressions#7783277237108175286" />
           <property name="uuid" nameId="kdzh.322010710375892619" value="4e784fe1-db1a-4570-847b-08ed1f164572" />
           <property name="doNotCompile" nameId="kdzh.1500819558096356884" value="false" />
           <node role="dependencies" roleId="kdzh.5253498789149547704" type="kdzh.BuildMps_ExtractedModuleDependency" typeId="kdzh.7259033139236285166" id="3761139488788791340" nodeInfo="nn">
             <node role="dependency" roleId="kdzh.7259033139236285167" type="kdzh.BuildMps_ModuleDependencyOnModule" typeId="kdzh.5253498789149585690" id="3761139488788791341" nodeInfo="ng">
               <property name="reexport" nameId="kdzh.5253498789149547713" value="false" />
-              <link role="module" roleId="kdzh.5253498789149547705" targetNodeId="3761139488787358662" resolveInfo="org.campagnelab.hta.expressions" />
+              <link role="module" roleId="kdzh.5253498789149547705" targetNodeId="3761139488787358662" resolveInfo="org.campagnelab.metar.expressions" />
             </node>
           </node>
           <node role="dependencies" roleId="kdzh.5253498789149547704" type="kdzh.BuildMps_ExtractedModuleDependency" typeId="kdzh.7259033139236285166" id="3761139488788791342" nodeInfo="nn">
             <node role="dependency" roleId="kdzh.7259033139236285167" type="kdzh.BuildMps_ModuleDependencyOnModule" typeId="kdzh.5253498789149585690" id="3761139488788791343" nodeInfo="ng">
               <property name="reexport" nameId="kdzh.5253498789149547713" value="false" />
-              <link role="module" roleId="kdzh.5253498789149547705" targetNodeId="3761139488787358673" resolveInfo="org.campagnelab.hta.tables" />
+              <link role="module" roleId="kdzh.5253498789149547705" targetNodeId="3761139488787358673" resolveInfo="org.campagnelab.metar.tables" />
             </node>
           </node>
           <node role="dependencies" roleId="kdzh.5253498789149547704" type="kdzh.BuildMps_ExtractedModuleDependency" typeId="kdzh.7259033139236285166" id="3761139488788791344" nodeInfo="nn">
@@ -298,13 +298,13 @@
           </node>
         </node>
         <node role="exports" roleId="kdzh.322010710375832962" type="kdzh.BuildMps_DevKitExportLanguage" typeId="kdzh.322010710375832938" id="3761139488787394349" nodeInfo="ng">
-          <link role="language" roleId="kdzh.322010710375832947" targetNodeId="3761139488787358685" resolveInfo="org.campagnelab.hta.inspect" />
+          <link role="language" roleId="kdzh.322010710375832947" targetNodeId="3761139488787358685" resolveInfo="org.campagnelab.metar.inspect" />
         </node>
         <node role="exports" roleId="kdzh.322010710375832962" type="kdzh.BuildMps_DevKitExportLanguage" typeId="kdzh.322010710375832938" id="3761139488787394350" nodeInfo="ng">
-          <link role="language" roleId="kdzh.322010710375832947" targetNodeId="3761139488787358662" resolveInfo="org.campagnelab.hta.expressions" />
+          <link role="language" roleId="kdzh.322010710375832947" targetNodeId="3761139488787358662" resolveInfo="org.campagnelab.metar.expressions" />
         </node>
         <node role="exports" roleId="kdzh.322010710375832962" type="kdzh.BuildMps_DevKitExportLanguage" typeId="kdzh.322010710375832938" id="3761139488787394351" nodeInfo="ng">
-          <link role="language" roleId="kdzh.322010710375832947" targetNodeId="3761139488787358673" resolveInfo="org.campagnelab.hta.tables" />
+          <link role="language" roleId="kdzh.322010710375832947" targetNodeId="3761139488787358673" resolveInfo="org.campagnelab.metar.tables" />
         </node>
         <node role="exports" roleId="kdzh.322010710375832962" type="kdzh.BuildMps_DevKitExportLanguage" typeId="kdzh.322010710375832938" id="508214836485685875" nodeInfo="ng">
           <link role="language" roleId="kdzh.322010710375832947" targetNodeId="9b59.9178698721097033439" resolveInfo="org.campagnelab.mps.XChart" />
@@ -315,16 +315,16 @@
       </node>
       <node role="modules" roleId="kdzh.1500819558095907806" type="kdzh.BuildMps_Language" typeId="kdzh.3189788309731840248" id="3761139488787358673" nodeInfo="ng">
         <property name="compact" nameId="kdzh.8369506495128725901" value="true" />
-        <property name="name" nameId="tpck.1169194664001" value="org.campagnelab.hta.tables" />
+        <property name="name" nameId="tpck.1169194664001" value="org.campagnelab.metar.tables" />
         <property name="uuid" nameId="kdzh.322010710375892619" value="5d6bde84-4ce4-4eb5-a37e-25a5edd55129" />
         <property name="doNotCompile" nameId="kdzh.1500819558096356884" value="false" />
         <node role="path" roleId="kdzh.322010710375956261" type="3ior.BuildSourceProjectRelativePath" typeId="3ior.5481553824944787378" id="3761139488787358668" nodeInfo="ng">
           <node role="compositePart" roleId="3ior.7321017245477039051" type="3ior.BuildCompositePath" typeId="3ior.8618885170173601777" id="3761139488787358669" nodeInfo="nn">
             <property name="head" nameId="3ior.8618885170173601779" value="languages" />
             <node role="tail" roleId="3ior.8618885170173601778" type="3ior.BuildCompositePath" typeId="3ior.8618885170173601777" id="3761139488787358670" nodeInfo="nn">
-              <property name="head" nameId="3ior.8618885170173601779" value="org.campagnelab.hta.tables" />
+              <property name="head" nameId="3ior.8618885170173601779" value="org.campagnelab.metaR.tables" />
               <node role="tail" roleId="3ior.8618885170173601778" type="3ior.BuildCompositePath" typeId="3ior.8618885170173601777" id="3761139488787358671" nodeInfo="nn">
-                <property name="head" nameId="3ior.8618885170173601779" value="org.campagnelab.hta.tables.mpl" />
+                <property name="head" nameId="3ior.8618885170173601779" value="org.campagnelab.metaR.tables.mpl" />
               </node>
             </node>
           </node>
@@ -361,7 +361,7 @@
         </node>
         <node role="dependencies" roleId="kdzh.5253498789149547704" type="kdzh.BuildMps_ExtractedModuleDependency" typeId="kdzh.7259033139236285166" id="3761139488788790567" nodeInfo="nn">
           <node role="dependency" roleId="kdzh.7259033139236285167" type="kdzh.BuildMps_ModuleDependencyExtendLanguage" typeId="kdzh.4278635856200794926" id="3761139488788790568" nodeInfo="ng">
-            <link role="language" roleId="kdzh.4278635856200794928" targetNodeId="3761139488787358685" resolveInfo="org.campagnelab.hta.inspect" />
+            <link role="language" roleId="kdzh.4278635856200794928" targetNodeId="3761139488787358685" resolveInfo="org.campagnelab.metar.inspect" />
           </node>
         </node>
         <node role="dependencies" roleId="kdzh.5253498789149547704" type="kdzh.BuildMps_ExtractedModuleDependency" typeId="kdzh.7259033139236285166" id="3761139488788791355" nodeInfo="nn">
@@ -380,7 +380,7 @@
           </node>
         </node>
         <node role="generator" roleId="kdzh.9200313594498201639" type="kdzh.BuildMps_Generator" typeId="kdzh.5507251971038816436" id="3761139488788791361" nodeInfo="ng">
-          <property name="name" nameId="tpck.1169194664001" value="org.campagnelab.hta.tables#3402264987258972825" />
+          <property name="name" nameId="tpck.1169194664001" value="org.campagnelab.metar.tables#3402264987258972825" />
           <property name="uuid" nameId="kdzh.322010710375892619" value="f8960ca5-9f20-4fc0-b9f7-20a20893f26d" />
           <property name="doNotCompile" nameId="kdzh.1500819558096356884" value="false" />
           <node role="dependencies" roleId="kdzh.5253498789149547704" type="kdzh.BuildMps_ExtractedModuleDependency" typeId="kdzh.7259033139236285166" id="3761139488788791362" nodeInfo="nn">
@@ -398,7 +398,7 @@
           <node role="dependencies" roleId="kdzh.5253498789149547704" type="kdzh.BuildMps_ExtractedModuleDependency" typeId="kdzh.7259033139236285166" id="3761139488788791366" nodeInfo="nn">
             <node role="dependency" roleId="kdzh.7259033139236285167" type="kdzh.BuildMps_ModuleDependencyOnModule" typeId="kdzh.5253498789149585690" id="3761139488788791367" nodeInfo="ng">
               <property name="reexport" nameId="kdzh.5253498789149547713" value="false" />
-              <link role="module" roleId="kdzh.5253498789149547705" targetNodeId="3761139488787358673" resolveInfo="org.campagnelab.hta.tables" />
+              <link role="module" roleId="kdzh.5253498789149547705" targetNodeId="3761139488787358673" resolveInfo="org.campagnelab.metar.tables" />
             </node>
           </node>
         </node>
@@ -434,7 +434,7 @@
         <node role="dependencies" roleId="kdzh.5253498789149547704" type="kdzh.BuildMps_ExtractedModuleDependency" typeId="kdzh.7259033139236285166" id="3761139488787394360" nodeInfo="nn">
           <node role="dependency" roleId="kdzh.7259033139236285167" type="kdzh.BuildMps_ModuleDependencyOnModule" typeId="kdzh.5253498789149585690" id="3761139488787394361" nodeInfo="ng">
             <property name="reexport" nameId="kdzh.5253498789149547713" value="false" />
-            <link role="module" roleId="kdzh.5253498789149547705" targetNodeId="3761139488787358673" resolveInfo="org.campagnelab.hta.tables" />
+            <link role="module" roleId="kdzh.5253498789149547705" targetNodeId="3761139488787358673" resolveInfo="org.campagnelab.metar.tables" />
           </node>
         </node>
         <node role="dependencies" roleId="kdzh.5253498789149547704" type="kdzh.BuildMps_ExtractedModuleDependency" typeId="kdzh.7259033139236285166" id="3761139488787394362" nodeInfo="nn">
@@ -488,16 +488,16 @@
       </node>
       <node role="modules" roleId="kdzh.1500819558095907806" type="kdzh.BuildMps_Language" typeId="kdzh.3189788309731840248" id="3761139488787358685" nodeInfo="ng">
         <property name="compact" nameId="kdzh.8369506495128725901" value="true" />
-        <property name="name" nameId="tpck.1169194664001" value="org.campagnelab.hta.inspect" />
+        <property name="name" nameId="tpck.1169194664001" value="org.campagnelab.metar.inspect" />
         <property name="uuid" nameId="kdzh.322010710375892619" value="32f503e8-061b-451e-bcb0-fef56aa05eb9" />
         <property name="doNotCompile" nameId="kdzh.1500819558096356884" value="false" />
         <node role="path" roleId="kdzh.322010710375956261" type="3ior.BuildSourceProjectRelativePath" typeId="3ior.5481553824944787378" id="3761139488787358680" nodeInfo="ng">
           <node role="compositePart" roleId="3ior.7321017245477039051" type="3ior.BuildCompositePath" typeId="3ior.8618885170173601777" id="3761139488787358681" nodeInfo="nn">
             <property name="head" nameId="3ior.8618885170173601779" value="languages" />
             <node role="tail" roleId="3ior.8618885170173601778" type="3ior.BuildCompositePath" typeId="3ior.8618885170173601777" id="3761139488787358682" nodeInfo="nn">
-              <property name="head" nameId="3ior.8618885170173601779" value="org.campagnelab.hta.inspect" />
+              <property name="head" nameId="3ior.8618885170173601779" value="org.campagnelab.metaR.inspect" />
               <node role="tail" roleId="3ior.8618885170173601778" type="3ior.BuildCompositePath" typeId="3ior.8618885170173601777" id="3761139488787358683" nodeInfo="nn">
-                <property name="head" nameId="3ior.8618885170173601779" value="org.campagnelab.hta.inspect.mpl" />
+                <property name="head" nameId="3ior.8618885170173601779" value="org.campagnelab.metaR.inspect.mpl" />
               </node>
             </node>
           </node>
@@ -508,13 +508,13 @@
           </node>
         </node>
         <node role="generator" roleId="kdzh.9200313594498201639" type="kdzh.BuildMps_Generator" typeId="kdzh.5507251971038816436" id="3761139488788691126" nodeInfo="ng">
-          <property name="name" nameId="tpck.1169194664001" value="org.campagnelab.hta.inspect#1549006859295776220" />
+          <property name="name" nameId="tpck.1169194664001" value="org.campagnelab.metar.inspect#1549006859295776220" />
           <property name="uuid" nameId="kdzh.322010710375892619" value="60b98457-2b49-4643-8291-f13cfce80eaa" />
           <property name="doNotCompile" nameId="kdzh.1500819558096356884" value="false" />
           <node role="dependencies" roleId="kdzh.5253498789149547704" type="kdzh.BuildMps_ExtractedModuleDependency" typeId="kdzh.7259033139236285166" id="3761139488788691127" nodeInfo="nn">
             <node role="dependency" roleId="kdzh.7259033139236285167" type="kdzh.BuildMps_ModuleDependencyOnModule" typeId="kdzh.5253498789149585690" id="3761139488788691128" nodeInfo="ng">
               <property name="reexport" nameId="kdzh.5253498789149547713" value="false" />
-              <link role="module" roleId="kdzh.5253498789149547705" targetNodeId="3761139488787358685" resolveInfo="org.campagnelab.hta.inspect" />
+              <link role="module" roleId="kdzh.5253498789149547705" targetNodeId="3761139488787358685" resolveInfo="org.campagnelab.metar.inspect" />
             </node>
           </node>
           <node role="dependencies" roleId="kdzh.5253498789149547704" type="kdzh.BuildMps_ExtractedModuleDependency" typeId="kdzh.7259033139236285166" id="3761139488788691133" nodeInfo="nn">
