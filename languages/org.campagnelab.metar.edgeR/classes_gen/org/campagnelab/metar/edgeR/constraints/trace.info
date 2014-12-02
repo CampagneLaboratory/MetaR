@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debugInfo>
+  <unitInfo fileName="ConstraintsAspectDescriptor.java" startLine="9" startPosition="0" endLine="27" endPosition="0" unitName="org.campagnelab.metar.edgeR.constraints.ConstraintsAspectDescriptor" />
+  <root nodeRef="r:846b15be-6f92-4735-be77-ad398b16c9d7(org.campagnelab.metar.edgeR.constraints)/8725455673820612529">
+    <nodeInfo nodeId="8725455673820612529" fileName="NoIntercept_Constraints.java" startLine="8" startPosition="36" endLine="9" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+    <nodeInfo nodeId="8725455673820612529" fileName="NoIntercept_Constraints.java" startLine="8" startPosition="0" endLine="11" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="NoIntercept_Constraints#()V" />
+    <scopeInfo nodeId="8725455673820612529" fileName="NoIntercept_Constraints.java" startLine="8" startPosition="36" endLine="9" endPosition="63" />
+    <scopeInfo nodeId="8725455673820612529" fileName="NoIntercept_Constraints.java" startLine="8" startPosition="0" endLine="11" endPosition="0" />
+    <unitInfo nodeId="8725455673820612529" fileName="NoIntercept_Constraints.java" startLine="7" startPosition="0" endLine="12" endPosition="0" unitName="org.campagnelab.metar.edgeR.constraints.NoIntercept_Constraints" />
+  </root>
+  <root nodeRef="r:846b15be-6f92-4735-be77-ad398b16c9d7(org.campagnelab.metar.edgeR.constraints)/8725455673820991684">
+    <nodeInfo nodeId="8725455673820991684" fileName="GroupUsageRef_Constraints.java" startLine="8" startPosition="38" endLine="9" endPosition="65" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+    <nodeInfo nodeId="8725455673820991684" fileName="GroupUsageRef_Constraints.java" startLine="8" startPosition="0" endLine="11" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="GroupUsageRef_Constraints#()V" />
+    <scopeInfo nodeId="8725455673820991684" fileName="GroupUsageRef_Constraints.java" startLine="8" startPosition="38" endLine="9" endPosition="65" />
+    <scopeInfo nodeId="8725455673820991684" fileName="GroupUsageRef_Constraints.java" startLine="8" startPosition="0" endLine="11" endPosition="0" />
+    <unitInfo nodeId="8725455673820991684" fileName="GroupUsageRef_Constraints.java" startLine="7" startPosition="0" endLine="12" endPosition="0" unitName="org.campagnelab.metar.edgeR.constraints.GroupUsageRef_Constraints" />
+  </root>
+</debugInfo>
+
