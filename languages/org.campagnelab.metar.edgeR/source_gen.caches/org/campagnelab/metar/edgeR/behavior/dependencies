@@ -6,10 +6,12 @@
     <classNode dependClassName="jetbrains.mps.smodel.runtime.BehaviorDescriptor" />
     <classNode dependClassName="jetbrains.mps.smodel.runtime.interpreted.BehaviorAspectInterpreted" />
     <classNode dependClassName="org.campagnelab.metar.edgeR.behavior.CommonDispersion_BehaviorDescriptor" />
+    <classNode dependClassName="org.campagnelab.metar.edgeR.behavior.ConstrastsBinaryOperator_BehaviorDescriptor" />
     <classNode dependClassName="org.campagnelab.metar.edgeR.behavior.EdgeRTest_BehaviorDescriptor" />
     <classNode dependClassName="org.campagnelab.metar.edgeR.behavior.GroupFormula_BehaviorDescriptor" />
     <classNode dependClassName="org.campagnelab.metar.edgeR.behavior.GroupRef_BehaviorDescriptor" />
     <classNode dependClassName="org.campagnelab.metar.edgeR.behavior.GroupUsageRef_BehaviorDescriptor" />
+    <classNode dependClassName="org.campagnelab.metar.edgeR.behavior.Mean_BehaviorDescriptor" />
     <classNode dependClassName="org.campagnelab.metar.edgeR.behavior.Minus_BehaviorDescriptor" />
     <classNode dependClassName="org.campagnelab.metar.edgeR.behavior.NoIntercept_BehaviorDescriptor" />
     <classNode dependClassName="org.campagnelab.metar.edgeR.behavior.Plus_BehaviorDescriptor" />
@@ -28,6 +30,12 @@
     <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="org.campagnelab.metar.edgeR.behavior.DispersionMethod_BehaviorDescriptor" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="org.campagnelab.metar.edgeR.behavior.ConstrastsBinaryOperator_BehaviorDescriptor" file="ConstrastsBinaryOperator_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="org.campagnelab.metar.edgeR.behavior.GroupExpression_BehaviorDescriptor" />
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
   </dependency>
   <dependency className="org.campagnelab.metar.edgeR.behavior.DispersionMethod_BehaviorDescriptor" file="DispersionMethod_BehaviorDescriptor.java">
@@ -75,6 +83,12 @@
     <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="org.campagnelab.metar.edgeR.behavior.GroupUsageExpression_BehaviorDescriptor" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="org.campagnelab.metar.edgeR.behavior.Mean_BehaviorDescriptor" file="Mean_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor" />
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
   </dependency>
   <dependency className="org.campagnelab.metar.edgeR.behavior.Minus_BehaviorDescriptor" file="Minus_BehaviorDescriptor.java">
