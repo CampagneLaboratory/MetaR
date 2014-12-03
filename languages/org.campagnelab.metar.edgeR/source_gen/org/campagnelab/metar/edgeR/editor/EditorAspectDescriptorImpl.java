@@ -20,7 +20,7 @@ public class EditorAspectDescriptorImpl implements EditorAspectDescriptor {
       case 1:
         return Collections.<ConceptEditor>singletonList(new CommonDispersion_Editor());
       case 2:
-        return Collections.<ConceptEditor>singletonList(new ConstrastsBinaryOperator_Editor());
+        return Collections.<ConceptEditor>singletonList(new ContrastsBinaryOperator_Editor());
       case 3:
         return Collections.<ConceptEditor>singletonList(new DispersionMethod_Editor());
       case 4:
@@ -46,5 +46,5 @@ public class EditorAspectDescriptorImpl implements EditorAspectDescriptor {
 
 
 
-  private static String[] stringSwitchCases_xbvbvu_a0a0b = new String[]{"org.campagnelab.metar.edgeR.structure.BinaryExpression", "org.campagnelab.metar.edgeR.structure.CommonDispersion", "org.campagnelab.metar.edgeR.structure.ConstrastsBinaryOperator", "org.campagnelab.metar.edgeR.structure.DispersionMethod", "org.campagnelab.metar.edgeR.structure.EdgeRTest", "org.campagnelab.metar.edgeR.structure.GroupFormula", "org.campagnelab.metar.edgeR.structure.GroupRef", "org.campagnelab.metar.edgeR.structure.GroupUsageRef", "org.campagnelab.metar.edgeR.structure.Mean", "org.campagnelab.metar.edgeR.structure.NoIntercept"};
+  private static String[] stringSwitchCases_xbvbvu_a0a0b = new String[]{"org.campagnelab.metar.edgeR.structure.BinaryExpression", "org.campagnelab.metar.edgeR.structure.CommonDispersion", "org.campagnelab.metar.edgeR.structure.ContrastsBinaryOperator", "org.campagnelab.metar.edgeR.structure.DispersionMethod", "org.campagnelab.metar.edgeR.structure.EdgeRTest", "org.campagnelab.metar.edgeR.structure.GroupFormula", "org.campagnelab.metar.edgeR.structure.GroupRef", "org.campagnelab.metar.edgeR.structure.GroupUsageRef", "org.campagnelab.metar.edgeR.structure.Mean", "org.campagnelab.metar.edgeR.structure.NoIntercept"};
 }

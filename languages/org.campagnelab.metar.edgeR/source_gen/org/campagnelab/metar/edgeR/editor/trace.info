@@ -2,107 +2,107 @@
 <debugInfo>
   <unitInfo fileName="EditorAspectDescriptorImpl.java" startLine="13" startPosition="0" endLine="51" endPosition="0" unitName="org.campagnelab.metar.edgeR.editor.EditorAspectDescriptorImpl" />
   <root nodeRef="r:775a1c7f-7da8-4c30-a7d2-4b75964c9755(org.campagnelab.metar.edgeR.editor)/8031339867716512549">
-    <nodeInfo nodeId="8031339867716512549" fileName="ConstrastsBinaryOperator_Editor.java" startLine="16" startPosition="79" endLine="17" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="8031339867716512549" fileName="ConstrastsBinaryOperator_Editor.java" startLine="20" startPosition="89" endLine="21" endPosition="96" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="8031339867716512549" fileName="ConstrastsBinaryOperator_Editor.java" startLine="21" startPosition="96" endLine="22" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="8031339867716512549" fileName="ConstrastsBinaryOperator_Editor.java" startLine="22" startPosition="48" endLine="23" endPosition="28" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="8031339867716512549" fileName="ConstrastsBinaryOperator_Editor.java" startLine="23" startPosition="28" endLine="24" endPosition="80" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="8031339867716512549" fileName="ConstrastsBinaryOperator_Editor.java" startLine="23" startPosition="28" endLine="24" endPosition="80" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="8031339867716512549" fileName="ConstrastsBinaryOperator_Editor.java" startLine="24" startPosition="80" endLine="25" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="8031339867716512549" fileName="ConstrastsBinaryOperator_Editor.java" startLine="24" startPosition="80" endLine="25" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="8031339867716512549" fileName="ConstrastsBinaryOperator_Editor.java" startLine="25" startPosition="82" endLine="26" endPosition="80" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="8031339867716512549" fileName="ConstrastsBinaryOperator_Editor.java" startLine="25" startPosition="82" endLine="26" endPosition="80" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="8031339867716512549" fileName="ConstrastsBinaryOperator_Editor.java" startLine="26" startPosition="80" endLine="27" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="8031339867716518525" fileName="ConstrastsBinaryOperator_Editor.java" startLine="30" startPosition="87" endLine="31" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="8031339867716518525" fileName="ConstrastsBinaryOperator_Editor.java" startLine="31" startPosition="81" endLine="32" endPosition="29" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="8031339867716518525" fileName="ConstrastsBinaryOperator_Editor.java" startLine="32" startPosition="29" endLine="33" endPosition="42" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="8031339867716518525" fileName="ConstrastsBinaryOperator_Editor.java" startLine="33" startPosition="42" endLine="34" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="8031339867716518525" fileName="ConstrastsBinaryOperator_Editor.java" startLine="34" startPosition="26" endLine="35" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="8031339867716518525" fileName="ConstrastsBinaryOperator_Editor.java" startLine="36" startPosition="39" endLine="37" endPosition="33" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="8031339867716518525" fileName="ConstrastsBinaryOperator_Editor.java" startLine="38" startPosition="5" endLine="39" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="8031339867716518525" fileName="ConstrastsBinaryOperator_Editor.java" startLine="39" startPosition="73" endLine="40" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="8031339867716518525" fileName="ConstrastsBinaryOperator_Editor.java" startLine="40" startPosition="57" endLine="41" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="8031339867716518525" fileName="ConstrastsBinaryOperator_Editor.java" startLine="42" startPosition="35" endLine="43" endPosition="72" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="8031339867716518525" fileName="ConstrastsBinaryOperator_Editor.java" startLine="43" startPosition="72" endLine="44" endPosition="78" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="8031339867716518525" fileName="ConstrastsBinaryOperator_Editor.java" startLine="44" startPosition="78" endLine="45" endPosition="109" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="8031339867716518525" fileName="ConstrastsBinaryOperator_Editor.java" startLine="46" startPosition="10" endLine="47" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="8031339867716518531" fileName="ConstrastsBinaryOperator_Editor.java" startLine="50" startPosition="89" endLine="51" endPosition="131" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="8031339867716518531" fileName="ConstrastsBinaryOperator_Editor.java" startLine="51" startPosition="131" endLine="52" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="8031339867716518543" fileName="ConstrastsBinaryOperator_Editor.java" startLine="55" startPosition="87" endLine="56" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="8031339867716518543" fileName="ConstrastsBinaryOperator_Editor.java" startLine="56" startPosition="81" endLine="57" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="8031339867716518543" fileName="ConstrastsBinaryOperator_Editor.java" startLine="57" startPosition="30" endLine="58" endPosition="43" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="8031339867716518543" fileName="ConstrastsBinaryOperator_Editor.java" startLine="58" startPosition="43" endLine="59" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="8031339867716518543" fileName="ConstrastsBinaryOperator_Editor.java" startLine="59" startPosition="26" endLine="60" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="8031339867716518543" fileName="ConstrastsBinaryOperator_Editor.java" startLine="61" startPosition="39" endLine="62" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="8031339867716518543" fileName="ConstrastsBinaryOperator_Editor.java" startLine="63" startPosition="5" endLine="64" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="8031339867716518543" fileName="ConstrastsBinaryOperator_Editor.java" startLine="64" startPosition="73" endLine="65" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="8031339867716518543" fileName="ConstrastsBinaryOperator_Editor.java" startLine="65" startPosition="57" endLine="66" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="8031339867716518543" fileName="ConstrastsBinaryOperator_Editor.java" startLine="67" startPosition="35" endLine="68" endPosition="72" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="8031339867716518543" fileName="ConstrastsBinaryOperator_Editor.java" startLine="68" startPosition="72" endLine="69" endPosition="78" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="8031339867716518543" fileName="ConstrastsBinaryOperator_Editor.java" startLine="69" startPosition="78" endLine="70" endPosition="109" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="8031339867716518543" fileName="ConstrastsBinaryOperator_Editor.java" startLine="71" startPosition="10" endLine="72" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="8031339867716512549" fileName="ConstrastsBinaryOperator_Editor.java" startLine="16" startPosition="0" endLine="19" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-    <nodeInfo nodeId="8031339867716518525" fileName="ConstrastsBinaryOperator_Editor.java" startLine="35" startPosition="58" endLine="38" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="8031339867716518543" fileName="ConstrastsBinaryOperator_Editor.java" startLine="60" startPosition="58" endLine="63" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="8031339867716518531" fileName="ConstrastsBinaryOperator_Editor.java" startLine="50" startPosition="0" endLine="54" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createComponent_b9web7_b0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-    <nodeInfo nodeId="8031339867716518525" fileName="ConstrastsBinaryOperator_Editor.java" startLine="41" startPosition="59" endLine="47" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="8031339867716518543" fileName="ConstrastsBinaryOperator_Editor.java" startLine="66" startPosition="59" endLine="72" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="8031339867716512549" fileName="ConstrastsBinaryOperator_Editor.java" startLine="20" startPosition="0" endLine="29" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createCollection_b9web7_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-    <nodeInfo nodeId="8031339867716518525" fileName="ConstrastsBinaryOperator_Editor.java" startLine="30" startPosition="0" endLine="49" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createRefNode_b9web7_a0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-    <nodeInfo nodeId="8031339867716518543" fileName="ConstrastsBinaryOperator_Editor.java" startLine="55" startPosition="0" endLine="74" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createRefNode_b9web7_c0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-    <scopeInfo nodeId="8031339867716512549" fileName="ConstrastsBinaryOperator_Editor.java" startLine="16" startPosition="79" endLine="17" endPosition="63" />
-    <scopeInfo nodeId="8031339867716512549" fileName="ConstrastsBinaryOperator_Editor.java" startLine="23" startPosition="28" endLine="24" endPosition="80" />
-    <scopeInfo nodeId="8031339867716512549" fileName="ConstrastsBinaryOperator_Editor.java" startLine="24" startPosition="80" endLine="25" endPosition="82" />
-    <scopeInfo nodeId="8031339867716512549" fileName="ConstrastsBinaryOperator_Editor.java" startLine="25" startPosition="82" endLine="26" endPosition="80" />
-    <scopeInfo nodeId="8031339867716518525" fileName="ConstrastsBinaryOperator_Editor.java" startLine="36" startPosition="39" endLine="37" endPosition="33" />
-    <scopeInfo nodeId="8031339867716518543" fileName="ConstrastsBinaryOperator_Editor.java" startLine="61" startPosition="39" endLine="62" endPosition="34" />
-    <scopeInfo nodeId="8031339867716518531" fileName="ConstrastsBinaryOperator_Editor.java" startLine="50" startPosition="89" endLine="52" endPosition="22">
+    <nodeInfo nodeId="8031339867716512549" fileName="ContrastsBinaryOperator_Editor.java" startLine="16" startPosition="79" endLine="17" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8031339867716512549" fileName="ContrastsBinaryOperator_Editor.java" startLine="20" startPosition="89" endLine="21" endPosition="96" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="8031339867716512549" fileName="ContrastsBinaryOperator_Editor.java" startLine="21" startPosition="96" endLine="22" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8031339867716512549" fileName="ContrastsBinaryOperator_Editor.java" startLine="22" startPosition="48" endLine="23" endPosition="28" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8031339867716512549" fileName="ContrastsBinaryOperator_Editor.java" startLine="23" startPosition="28" endLine="24" endPosition="80" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="8031339867716512549" fileName="ContrastsBinaryOperator_Editor.java" startLine="23" startPosition="28" endLine="24" endPosition="80" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8031339867716512549" fileName="ContrastsBinaryOperator_Editor.java" startLine="24" startPosition="80" endLine="25" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="8031339867716512549" fileName="ContrastsBinaryOperator_Editor.java" startLine="24" startPosition="80" endLine="25" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8031339867716512549" fileName="ContrastsBinaryOperator_Editor.java" startLine="25" startPosition="82" endLine="26" endPosition="80" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="8031339867716512549" fileName="ContrastsBinaryOperator_Editor.java" startLine="25" startPosition="82" endLine="26" endPosition="80" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8031339867716512549" fileName="ContrastsBinaryOperator_Editor.java" startLine="26" startPosition="80" endLine="27" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8031339867716518525" fileName="ContrastsBinaryOperator_Editor.java" startLine="30" startPosition="87" endLine="31" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="8031339867716518525" fileName="ContrastsBinaryOperator_Editor.java" startLine="31" startPosition="81" endLine="32" endPosition="29" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8031339867716518525" fileName="ContrastsBinaryOperator_Editor.java" startLine="32" startPosition="29" endLine="33" endPosition="42" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8031339867716518525" fileName="ContrastsBinaryOperator_Editor.java" startLine="33" startPosition="42" endLine="34" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="8031339867716518525" fileName="ContrastsBinaryOperator_Editor.java" startLine="34" startPosition="26" endLine="35" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8031339867716518525" fileName="ContrastsBinaryOperator_Editor.java" startLine="36" startPosition="39" endLine="37" endPosition="33" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8031339867716518525" fileName="ContrastsBinaryOperator_Editor.java" startLine="38" startPosition="5" endLine="39" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8031339867716518525" fileName="ContrastsBinaryOperator_Editor.java" startLine="39" startPosition="73" endLine="40" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="8031339867716518525" fileName="ContrastsBinaryOperator_Editor.java" startLine="40" startPosition="57" endLine="41" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="8031339867716518525" fileName="ContrastsBinaryOperator_Editor.java" startLine="42" startPosition="35" endLine="43" endPosition="72" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="8031339867716518525" fileName="ContrastsBinaryOperator_Editor.java" startLine="43" startPosition="72" endLine="44" endPosition="78" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="8031339867716518525" fileName="ContrastsBinaryOperator_Editor.java" startLine="44" startPosition="78" endLine="45" endPosition="109" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8031339867716518525" fileName="ContrastsBinaryOperator_Editor.java" startLine="46" startPosition="10" endLine="47" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8031339867716518531" fileName="ContrastsBinaryOperator_Editor.java" startLine="50" startPosition="89" endLine="51" endPosition="131" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="8031339867716518531" fileName="ContrastsBinaryOperator_Editor.java" startLine="51" startPosition="131" endLine="52" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8031339867716518543" fileName="ContrastsBinaryOperator_Editor.java" startLine="55" startPosition="87" endLine="56" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="8031339867716518543" fileName="ContrastsBinaryOperator_Editor.java" startLine="56" startPosition="81" endLine="57" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8031339867716518543" fileName="ContrastsBinaryOperator_Editor.java" startLine="57" startPosition="30" endLine="58" endPosition="43" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8031339867716518543" fileName="ContrastsBinaryOperator_Editor.java" startLine="58" startPosition="43" endLine="59" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="8031339867716518543" fileName="ContrastsBinaryOperator_Editor.java" startLine="59" startPosition="26" endLine="60" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8031339867716518543" fileName="ContrastsBinaryOperator_Editor.java" startLine="61" startPosition="39" endLine="62" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8031339867716518543" fileName="ContrastsBinaryOperator_Editor.java" startLine="63" startPosition="5" endLine="64" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8031339867716518543" fileName="ContrastsBinaryOperator_Editor.java" startLine="64" startPosition="73" endLine="65" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="8031339867716518543" fileName="ContrastsBinaryOperator_Editor.java" startLine="65" startPosition="57" endLine="66" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="8031339867716518543" fileName="ContrastsBinaryOperator_Editor.java" startLine="67" startPosition="35" endLine="68" endPosition="72" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="8031339867716518543" fileName="ContrastsBinaryOperator_Editor.java" startLine="68" startPosition="72" endLine="69" endPosition="78" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="8031339867716518543" fileName="ContrastsBinaryOperator_Editor.java" startLine="69" startPosition="78" endLine="70" endPosition="109" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8031339867716518543" fileName="ContrastsBinaryOperator_Editor.java" startLine="71" startPosition="10" endLine="72" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8031339867716512549" fileName="ContrastsBinaryOperator_Editor.java" startLine="16" startPosition="0" endLine="19" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <nodeInfo nodeId="8031339867716518525" fileName="ContrastsBinaryOperator_Editor.java" startLine="35" startPosition="58" endLine="38" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="8031339867716518543" fileName="ContrastsBinaryOperator_Editor.java" startLine="60" startPosition="58" endLine="63" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="8031339867716518531" fileName="ContrastsBinaryOperator_Editor.java" startLine="50" startPosition="0" endLine="54" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createComponent_6n89i3_b0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <nodeInfo nodeId="8031339867716518525" fileName="ContrastsBinaryOperator_Editor.java" startLine="41" startPosition="59" endLine="47" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="8031339867716518543" fileName="ContrastsBinaryOperator_Editor.java" startLine="66" startPosition="59" endLine="72" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="8031339867716512549" fileName="ContrastsBinaryOperator_Editor.java" startLine="20" startPosition="0" endLine="29" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createCollection_6n89i3_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <nodeInfo nodeId="8031339867716518525" fileName="ContrastsBinaryOperator_Editor.java" startLine="30" startPosition="0" endLine="49" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createRefNode_6n89i3_a0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <nodeInfo nodeId="8031339867716518543" fileName="ContrastsBinaryOperator_Editor.java" startLine="55" startPosition="0" endLine="74" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createRefNode_6n89i3_c0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <scopeInfo nodeId="8031339867716512549" fileName="ContrastsBinaryOperator_Editor.java" startLine="16" startPosition="79" endLine="17" endPosition="63" />
+    <scopeInfo nodeId="8031339867716512549" fileName="ContrastsBinaryOperator_Editor.java" startLine="23" startPosition="28" endLine="24" endPosition="80" />
+    <scopeInfo nodeId="8031339867716512549" fileName="ContrastsBinaryOperator_Editor.java" startLine="24" startPosition="80" endLine="25" endPosition="82" />
+    <scopeInfo nodeId="8031339867716512549" fileName="ContrastsBinaryOperator_Editor.java" startLine="25" startPosition="82" endLine="26" endPosition="80" />
+    <scopeInfo nodeId="8031339867716518525" fileName="ContrastsBinaryOperator_Editor.java" startLine="36" startPosition="39" endLine="37" endPosition="33" />
+    <scopeInfo nodeId="8031339867716518543" fileName="ContrastsBinaryOperator_Editor.java" startLine="61" startPosition="39" endLine="62" endPosition="34" />
+    <scopeInfo nodeId="8031339867716518531" fileName="ContrastsBinaryOperator_Editor.java" startLine="50" startPosition="89" endLine="52" endPosition="22">
       <varInfo nodeId="8031339867716518531" varName="editorCell" />
     </scopeInfo>
-    <scopeInfo nodeId="8031339867716512549" fileName="ConstrastsBinaryOperator_Editor.java" startLine="16" startPosition="0" endLine="19" endPosition="0">
+    <scopeInfo nodeId="8031339867716512549" fileName="ContrastsBinaryOperator_Editor.java" startLine="16" startPosition="0" endLine="19" endPosition="0">
       <varInfo nodeId="8031339867716512549" varName="editorContext" />
       <varInfo nodeId="8031339867716512549" varName="node" />
     </scopeInfo>
-    <scopeInfo nodeId="8031339867716518525" fileName="ConstrastsBinaryOperator_Editor.java" startLine="42" startPosition="35" endLine="45" endPosition="109">
+    <scopeInfo nodeId="8031339867716518525" fileName="ContrastsBinaryOperator_Editor.java" startLine="42" startPosition="35" endLine="45" endPosition="109">
       <varInfo nodeId="8031339867716518525" varName="manager" />
       <varInfo nodeId="8031339867716518525" varName="opContext" />
     </scopeInfo>
-    <scopeInfo nodeId="8031339867716518543" fileName="ConstrastsBinaryOperator_Editor.java" startLine="67" startPosition="35" endLine="70" endPosition="109">
+    <scopeInfo nodeId="8031339867716518543" fileName="ContrastsBinaryOperator_Editor.java" startLine="67" startPosition="35" endLine="70" endPosition="109">
       <varInfo nodeId="8031339867716518543" varName="manager" />
       <varInfo nodeId="8031339867716518543" varName="opContext" />
     </scopeInfo>
-    <scopeInfo nodeId="8031339867716518531" fileName="ConstrastsBinaryOperator_Editor.java" startLine="50" startPosition="0" endLine="54" endPosition="0">
+    <scopeInfo nodeId="8031339867716518531" fileName="ContrastsBinaryOperator_Editor.java" startLine="50" startPosition="0" endLine="54" endPosition="0">
       <varInfo nodeId="8031339867716518531" varName="editorContext" />
       <varInfo nodeId="8031339867716518531" varName="node" />
     </scopeInfo>
-    <scopeInfo nodeId="8031339867716512549" fileName="ConstrastsBinaryOperator_Editor.java" startLine="20" startPosition="89" endLine="27" endPosition="22">
+    <scopeInfo nodeId="8031339867716512549" fileName="ContrastsBinaryOperator_Editor.java" startLine="20" startPosition="89" endLine="27" endPosition="22">
       <varInfo nodeId="8031339867716512549" varName="editorCell" />
     </scopeInfo>
-    <scopeInfo nodeId="8031339867716512549" fileName="ConstrastsBinaryOperator_Editor.java" startLine="20" startPosition="0" endLine="29" endPosition="0">
+    <scopeInfo nodeId="8031339867716512549" fileName="ContrastsBinaryOperator_Editor.java" startLine="20" startPosition="0" endLine="29" endPosition="0">
       <varInfo nodeId="8031339867716512549" varName="editorContext" />
       <varInfo nodeId="8031339867716512549" varName="node" />
     </scopeInfo>
-    <scopeInfo nodeId="8031339867716518525" fileName="ConstrastsBinaryOperator_Editor.java" startLine="30" startPosition="87" endLine="47" endPosition="22">
+    <scopeInfo nodeId="8031339867716518525" fileName="ContrastsBinaryOperator_Editor.java" startLine="30" startPosition="87" endLine="47" endPosition="22">
       <varInfo nodeId="8031339867716518525" varName="attributeConcept" />
       <varInfo nodeId="8031339867716518525" varName="attributeKind" />
       <varInfo nodeId="8031339867716518525" varName="editorCell" />
       <varInfo nodeId="8031339867716518525" varName="provider" />
     </scopeInfo>
-    <scopeInfo nodeId="8031339867716518543" fileName="ConstrastsBinaryOperator_Editor.java" startLine="55" startPosition="87" endLine="72" endPosition="22">
+    <scopeInfo nodeId="8031339867716518543" fileName="ContrastsBinaryOperator_Editor.java" startLine="55" startPosition="87" endLine="72" endPosition="22">
       <varInfo nodeId="8031339867716518543" varName="attributeConcept" />
       <varInfo nodeId="8031339867716518543" varName="attributeKind" />
       <varInfo nodeId="8031339867716518543" varName="editorCell" />
       <varInfo nodeId="8031339867716518543" varName="provider" />
     </scopeInfo>
-    <scopeInfo nodeId="8031339867716518525" fileName="ConstrastsBinaryOperator_Editor.java" startLine="30" startPosition="0" endLine="49" endPosition="0">
+    <scopeInfo nodeId="8031339867716518525" fileName="ContrastsBinaryOperator_Editor.java" startLine="30" startPosition="0" endLine="49" endPosition="0">
       <varInfo nodeId="8031339867716518525" varName="editorContext" />
       <varInfo nodeId="8031339867716518525" varName="node" />
     </scopeInfo>
-    <scopeInfo nodeId="8031339867716518543" fileName="ConstrastsBinaryOperator_Editor.java" startLine="55" startPosition="0" endLine="74" endPosition="0">
+    <scopeInfo nodeId="8031339867716518543" fileName="ContrastsBinaryOperator_Editor.java" startLine="55" startPosition="0" endLine="74" endPosition="0">
       <varInfo nodeId="8031339867716518543" varName="editorContext" />
       <varInfo nodeId="8031339867716518543" varName="node" />
     </scopeInfo>
-    <unitInfo nodeId="8031339867716512549" fileName="ConstrastsBinaryOperator_Editor.java" startLine="15" startPosition="0" endLine="75" endPosition="0" unitName="org.campagnelab.metar.edgeR.editor.ConstrastsBinaryOperator_Editor" />
+    <unitInfo nodeId="8031339867716512549" fileName="ContrastsBinaryOperator_Editor.java" startLine="15" startPosition="0" endLine="75" endPosition="0" unitName="org.campagnelab.metar.edgeR.editor.ContrastsBinaryOperator_Editor" />
   </root>
   <root nodeRef="r:775a1c7f-7da8-4c30-a7d2-4b75964c9755(org.campagnelab.metar.edgeR.editor)/8031339867716518835">
     <nodeInfo nodeId="8031339867716518835" fileName="Mean_Editor.java" startLine="30" startPosition="79" endLine="31" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />

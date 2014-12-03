@@ -12,22 +12,22 @@ import jetbrains.mps.lang.editor.cellProviders.RefNodeCellProvider;
 import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.nodeEditor.EditorManager;
 
-public class ConstrastsBinaryOperator_Editor extends DefaultNodeEditor {
+public class ContrastsBinaryOperator_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return this.createCollection_b9web7_a(editorContext, node);
+    return this.createCollection_6n89i3_a(editorContext, node);
   }
 
-  private EditorCell createCollection_b9web7_a(EditorContext editorContext, SNode node) {
+  private EditorCell createCollection_6n89i3_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
-    editorCell.setCellId("Collection_b9web7_a");
+    editorCell.setCellId("Collection_6n89i3_a");
     editorCell.setBig(true);
-    editorCell.addEditorCell(this.createRefNode_b9web7_a0(editorContext, node));
-    editorCell.addEditorCell(this.createComponent_b9web7_b0(editorContext, node));
-    editorCell.addEditorCell(this.createRefNode_b9web7_c0(editorContext, node));
+    editorCell.addEditorCell(this.createRefNode_6n89i3_a0(editorContext, node));
+    editorCell.addEditorCell(this.createComponent_6n89i3_b0(editorContext, node));
+    editorCell.addEditorCell(this.createRefNode_6n89i3_c0(editorContext, node));
     return editorCell;
   }
 
-  private EditorCell createRefNode_b9web7_a0(EditorContext editorContext, SNode node) {
+  private EditorCell createRefNode_6n89i3_a0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
     provider.setRole("left");
     provider.setNoTargetText("<no left>");
@@ -47,12 +47,12 @@ public class ConstrastsBinaryOperator_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createComponent_b9web7_b0(EditorContext editorContext, SNode node) {
+  private EditorCell createComponent_6n89i3_b0(EditorContext editorContext, SNode node) {
     EditorCell editorCell = editorContext.getCellFactory().createEditorComponentCell(node, "jetbrains.mps.lang.core.editor.alias");
     return editorCell;
   }
 
-  private EditorCell createRefNode_b9web7_c0(EditorContext editorContext, SNode node) {
+  private EditorCell createRefNode_6n89i3_c0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
     provider.setRole("right");
     provider.setNoTargetText("<no right>");

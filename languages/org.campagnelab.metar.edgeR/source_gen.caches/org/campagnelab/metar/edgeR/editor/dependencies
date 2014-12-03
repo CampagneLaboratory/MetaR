@@ -25,7 +25,7 @@
     <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
     <classNode extendsClassName="jetbrains.mps.nodeEditor.DefaultNodeEditor" />
   </dependency>
-  <dependency className="org.campagnelab.metar.edgeR.editor.ConstrastsBinaryOperator_Editor" file="ConstrastsBinaryOperator_Editor.java">
+  <dependency className="org.campagnelab.metar.edgeR.editor.ContrastsBinaryOperator_Editor" file="ContrastsBinaryOperator_Editor.java">
     <classNode dependClassName="java.lang.Class" />
     <classNode dependClassName="jetbrains.mps.lang.editor.cellProviders.RefNodeCellProvider" />
     <classNode dependClassName="jetbrains.mps.nodeEditor.EditorManager" />
@@ -71,7 +71,7 @@
     <classNode dependClassName="jetbrains.mps.smodel.runtime.ConceptDescriptor" />
     <classNode dependClassName="org.campagnelab.metar.edgeR.editor.BinaryExpression_Editor" />
     <classNode dependClassName="org.campagnelab.metar.edgeR.editor.CommonDispersion_Editor" />
-    <classNode dependClassName="org.campagnelab.metar.edgeR.editor.ConstrastsBinaryOperator_Editor" />
+    <classNode dependClassName="org.campagnelab.metar.edgeR.editor.ContrastsBinaryOperator_Editor" />
     <classNode dependClassName="org.campagnelab.metar.edgeR.editor.DispersionMethod_Editor" />
     <classNode dependClassName="org.campagnelab.metar.edgeR.editor.EdgeRTest_Editor" />
     <classNode dependClassName="org.campagnelab.metar.edgeR.editor.GroupFormula_Editor" />

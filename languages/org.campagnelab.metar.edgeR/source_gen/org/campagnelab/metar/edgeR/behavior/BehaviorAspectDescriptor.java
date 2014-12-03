@@ -34,14 +34,14 @@ public class BehaviorAspectDescriptor implements jetbrains.mps.smodel.runtime.Be
         return new Minus_BehaviorDescriptor();
       case 4:
         return new GroupRef_BehaviorDescriptor();
-      case 1:
-        return new ConstrastsBinaryOperator_BehaviorDescriptor();
       case 6:
         return new Mean_BehaviorDescriptor();
+      case 1:
+        return new ContrastMinus_BehaviorDescriptor();
       default:
         return BehaviorAspectInterpreted.getInstance().getDescriptor(fqName);
     }
   }
 
-  private static String[] stringSwitchCases_846f5o_a0a0b = new String[]{"org.campagnelab.metar.edgeR.structure.CommonDispersion", "org.campagnelab.metar.edgeR.structure.ConstrastsBinaryOperator", "org.campagnelab.metar.edgeR.structure.EdgeRTest", "org.campagnelab.metar.edgeR.structure.GroupFormula", "org.campagnelab.metar.edgeR.structure.GroupRef", "org.campagnelab.metar.edgeR.structure.GroupUsageRef", "org.campagnelab.metar.edgeR.structure.Mean", "org.campagnelab.metar.edgeR.structure.Minus", "org.campagnelab.metar.edgeR.structure.NoIntercept", "org.campagnelab.metar.edgeR.structure.Plus", "org.campagnelab.metar.edgeR.structure.TagWiseDispersion", "org.campagnelab.metar.edgeR.structure.Times", "org.campagnelab.metar.edgeR.structure.TrendedDispersion"};
+  private static String[] stringSwitchCases_846f5o_a0a0b = new String[]{"org.campagnelab.metar.edgeR.structure.CommonDispersion", "org.campagnelab.metar.edgeR.structure.ContrastMinus", "org.campagnelab.metar.edgeR.structure.EdgeRTest", "org.campagnelab.metar.edgeR.structure.GroupFormula", "org.campagnelab.metar.edgeR.structure.GroupRef", "org.campagnelab.metar.edgeR.structure.GroupUsageRef", "org.campagnelab.metar.edgeR.structure.Mean", "org.campagnelab.metar.edgeR.structure.Minus", "org.campagnelab.metar.edgeR.structure.NoIntercept", "org.campagnelab.metar.edgeR.structure.Plus", "org.campagnelab.metar.edgeR.structure.TagWiseDispersion", "org.campagnelab.metar.edgeR.structure.Times", "org.campagnelab.metar.edgeR.structure.TrendedDispersion"};
 }

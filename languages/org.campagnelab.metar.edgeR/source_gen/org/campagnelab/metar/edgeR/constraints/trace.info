@@ -2,60 +2,54 @@
 <debugInfo>
   <unitInfo fileName="ConstraintsAspectDescriptor.java" startLine="9" startPosition="0" endLine="29" endPosition="0" unitName="org.campagnelab.metar.edgeR.constraints.ConstraintsAspectDescriptor" />
   <root nodeRef="r:846b15be-6f92-4735-be77-ad398b16c9d7(org.campagnelab.metar.edgeR.constraints)/8043901499795686493">
-    <nodeInfo nodeId="8043901499795686493" fileName="GroupRef_Constraints.java" startLine="30" startPosition="33" endLine="31" endPosition="60" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
-    <nodeInfo nodeId="8043901499795686493" fileName="GroupRef_Constraints.java" startLine="35" startPosition="83" endLine="36" endPosition="75" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="8043901499795686493" fileName="GroupRef_Constraints.java" startLine="39" startPosition="44" endLine="40" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="8043901499795686493" fileName="GroupRef_Constraints.java" startLine="48" startPosition="63" endLine="49" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="8043901499795862030" fileName="GroupRef_Constraints.java" startLine="54" startPosition="13" endLine="55" endPosition="83" conceptFqName="jetbrains.mps.baseLanguage.structure.SingleLineComment" />
-    <nodeInfo nodeId="8031339867712549053" fileName="GroupRef_Constraints.java" startLine="57" startPosition="60" endLine="58" endPosition="137" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="8031339867713150226" fileName="GroupRef_Constraints.java" startLine="61" startPosition="40" endLine="62" endPosition="76" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="8043901499795778351" fileName="GroupRef_Constraints.java" startLine="63" startPosition="15" endLine="64" endPosition="56" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="8043901499795686493" fileName="GroupRef_Constraints.java" startLine="69" startPosition="7" endLine="70" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="8043901499795686493" fileName="GroupRef_Constraints.java" startLine="73" startPosition="0" endLine="74" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="LOG" />
-    <nodeInfo nodeId="8043901499795686493" fileName="GroupRef_Constraints.java" startLine="74" startPosition="0" endLine="75" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="breakingNode_efiolh_a0a0a0a0a1a0b0a1a1" />
-    <nodeInfo nodeId="8043901499795686493" fileName="GroupRef_Constraints.java" startLine="30" startPosition="0" endLine="33" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="GroupRef_Constraints#()V" />
-    <nodeInfo nodeId="8031339867712548503" fileName="GroupRef_Constraints.java" startLine="57" startPosition="0" endLine="60" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="translate#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/Iterable;" />
-    <nodeInfo nodeId="8031339867713150226" fileName="GroupRef_Constraints.java" startLine="60" startPosition="17" endLine="63" endPosition="15" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="8031339867713150226" fileName="GroupRef_Constraints.java" startLine="60" startPosition="17" endLine="63" endPosition="15" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="8043901499795686493" fileName="GroupRef_Constraints.java" startLine="38" startPosition="0" endLine="42" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="hasOwnScopeProvider#()Z" />
-    <nodeInfo nodeId="8043901499795686493" fileName="GroupRef_Constraints.java" startLine="47" startPosition="0" endLine="51" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getSearchScopeValidatorNode#()Lorg/jetbrains/mps/openapi/model/SNodeReference;" />
-    <nodeInfo nodeId="8043901499795765272" fileName="GroupRef_Constraints.java" startLine="55" startPosition="83" endLine="60" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="8043901499795686493" fileName="GroupRef_Constraints.java" startLine="53" startPosition="122" endLine="65" endPosition="13" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="8043901499795686493" fileName="GroupRef_Constraints.java" startLine="52" startPosition="0" endLine="67" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createScope#(Ljetbrains/mps/smodel/IOperationContext;Ljetbrains/mps/smodel/runtime/ReferenceConstraintsContext;)Ljetbrains/mps/scope/Scope;" />
-    <nodeInfo nodeId="8043901499795686493" fileName="GroupRef_Constraints.java" startLine="45" startPosition="56" endLine="67" endPosition="10" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="8043901499795686493" fileName="GroupRef_Constraints.java" startLine="43" startPosition="0" endLine="69" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getScopeProvider#()Ljetbrains/mps/smodel/runtime/ReferenceScopeProvider;" />
-    <nodeInfo nodeId="8043901499795686493" fileName="GroupRef_Constraints.java" startLine="36" startPosition="75" endLine="69" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="8043901499795686493" fileName="GroupRef_Constraints.java" startLine="34" startPosition="0" endLine="72" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getNotDefaultReferences#()Ljava/util/Map;" />
-    <scopeInfo nodeId="8043901499795686493" fileName="GroupRef_Constraints.java" startLine="30" startPosition="33" endLine="31" endPosition="60" />
-    <scopeInfo nodeId="8043901499795686493" fileName="GroupRef_Constraints.java" startLine="39" startPosition="44" endLine="40" endPosition="20" />
-    <scopeInfo nodeId="8043901499795686493" fileName="GroupRef_Constraints.java" startLine="48" startPosition="63" endLine="49" endPosition="58" />
-    <scopeInfo nodeId="8031339867712548504" fileName="GroupRef_Constraints.java" startLine="57" startPosition="60" endLine="58" endPosition="137" />
-    <scopeInfo nodeId="8031339867713150226" fileName="GroupRef_Constraints.java" startLine="61" startPosition="40" endLine="62" endPosition="76" />
-    <scopeInfo nodeId="8043901499795686493" fileName="GroupRef_Constraints.java" startLine="30" startPosition="0" endLine="33" endPosition="0" />
-    <scopeInfo nodeId="8031339867712548503" fileName="GroupRef_Constraints.java" startLine="57" startPosition="0" endLine="60" endPosition="0">
+    <nodeInfo nodeId="8043901499795686493" fileName="GroupRef_Constraints.java" startLine="27" startPosition="33" endLine="28" endPosition="60" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+    <nodeInfo nodeId="8043901499795686493" fileName="GroupRef_Constraints.java" startLine="32" startPosition="83" endLine="33" endPosition="75" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="8043901499795686493" fileName="GroupRef_Constraints.java" startLine="36" startPosition="44" endLine="37" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8043901499795686493" fileName="GroupRef_Constraints.java" startLine="45" startPosition="63" endLine="46" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8043901499795862030" fileName="GroupRef_Constraints.java" startLine="51" startPosition="13" endLine="52" endPosition="83" conceptFqName="jetbrains.mps.baseLanguage.structure.SingleLineComment" />
+    <nodeInfo nodeId="8031339867712549053" fileName="GroupRef_Constraints.java" startLine="54" startPosition="60" endLine="55" endPosition="137" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8043901499795778351" fileName="GroupRef_Constraints.java" startLine="57" startPosition="17" endLine="58" endPosition="56" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8043901499795686493" fileName="GroupRef_Constraints.java" startLine="63" startPosition="7" endLine="64" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8043901499795686493" fileName="GroupRef_Constraints.java" startLine="67" startPosition="0" endLine="68" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="breakingNode_efiolh_a0a0a0a0a1a0b0a1a1" />
+    <nodeInfo nodeId="8043901499795686493" fileName="GroupRef_Constraints.java" startLine="27" startPosition="0" endLine="30" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="GroupRef_Constraints#()V" />
+    <nodeInfo nodeId="8031339867712548503" fileName="GroupRef_Constraints.java" startLine="54" startPosition="0" endLine="57" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="translate#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/Iterable;" />
+    <nodeInfo nodeId="8043901499795686493" fileName="GroupRef_Constraints.java" startLine="35" startPosition="0" endLine="39" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="hasOwnScopeProvider#()Z" />
+    <nodeInfo nodeId="8043901499795686493" fileName="GroupRef_Constraints.java" startLine="44" startPosition="0" endLine="48" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getSearchScopeValidatorNode#()Lorg/jetbrains/mps/openapi/model/SNodeReference;" />
+    <nodeInfo nodeId="8043901499795765272" fileName="GroupRef_Constraints.java" startLine="52" startPosition="83" endLine="57" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="8043901499795686493" fileName="GroupRef_Constraints.java" startLine="50" startPosition="122" endLine="59" endPosition="13" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="8043901499795686493" fileName="GroupRef_Constraints.java" startLine="49" startPosition="0" endLine="61" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createScope#(Ljetbrains/mps/smodel/IOperationContext;Ljetbrains/mps/smodel/runtime/ReferenceConstraintsContext;)Ljetbrains/mps/scope/Scope;" />
+    <nodeInfo nodeId="8043901499795686493" fileName="GroupRef_Constraints.java" startLine="42" startPosition="56" endLine="61" endPosition="10" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8043901499795686493" fileName="GroupRef_Constraints.java" startLine="40" startPosition="0" endLine="63" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getScopeProvider#()Ljetbrains/mps/smodel/runtime/ReferenceScopeProvider;" />
+    <nodeInfo nodeId="8043901499795686493" fileName="GroupRef_Constraints.java" startLine="33" startPosition="75" endLine="63" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8043901499795686493" fileName="GroupRef_Constraints.java" startLine="31" startPosition="0" endLine="66" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getNotDefaultReferences#()Ljava/util/Map;" />
+    <scopeInfo nodeId="8043901499795686493" fileName="GroupRef_Constraints.java" startLine="27" startPosition="33" endLine="28" endPosition="60" />
+    <scopeInfo nodeId="8043901499795686493" fileName="GroupRef_Constraints.java" startLine="36" startPosition="44" endLine="37" endPosition="20" />
+    <scopeInfo nodeId="8043901499795686493" fileName="GroupRef_Constraints.java" startLine="45" startPosition="63" endLine="46" endPosition="58" />
+    <scopeInfo nodeId="8031339867712548504" fileName="GroupRef_Constraints.java" startLine="54" startPosition="60" endLine="55" endPosition="137" />
+    <scopeInfo nodeId="8043901499795686493" fileName="GroupRef_Constraints.java" startLine="27" startPosition="0" endLine="30" endPosition="0" />
+    <scopeInfo nodeId="8031339867712548503" fileName="GroupRef_Constraints.java" startLine="54" startPosition="0" endLine="57" endPosition="0">
       <varInfo nodeId="8031339867712548503" varName="it" />
     </scopeInfo>
-    <scopeInfo nodeId="8031339867713150226" fileName="GroupRef_Constraints.java" startLine="60" startPosition="17" endLine="63" endPosition="15" />
-    <scopeInfo nodeId="8043901499795686493" fileName="GroupRef_Constraints.java" startLine="38" startPosition="0" endLine="42" endPosition="0" />
-    <scopeInfo nodeId="8043901499795686493" fileName="GroupRef_Constraints.java" startLine="47" startPosition="0" endLine="51" endPosition="0" />
-    <scopeInfo nodeId="8043901499795687155" fileName="GroupRef_Constraints.java" startLine="54" startPosition="13" endLine="64" endPosition="56">
+    <scopeInfo nodeId="8043901499795686493" fileName="GroupRef_Constraints.java" startLine="35" startPosition="0" endLine="39" endPosition="0" />
+    <scopeInfo nodeId="8043901499795686493" fileName="GroupRef_Constraints.java" startLine="44" startPosition="0" endLine="48" endPosition="0" />
+    <scopeInfo nodeId="8043901499795687155" fileName="GroupRef_Constraints.java" startLine="51" startPosition="13" endLine="58" endPosition="56">
       <varInfo nodeId="8043901499795765275" varName="groups" />
     </scopeInfo>
-    <scopeInfo nodeId="8043901499795686493" fileName="GroupRef_Constraints.java" startLine="53" startPosition="122" endLine="65" endPosition="13" />
-    <scopeInfo nodeId="8043901499795686493" fileName="GroupRef_Constraints.java" startLine="52" startPosition="0" endLine="67" endPosition="0">
+    <scopeInfo nodeId="8043901499795686493" fileName="GroupRef_Constraints.java" startLine="50" startPosition="122" endLine="59" endPosition="13" />
+    <scopeInfo nodeId="8043901499795686493" fileName="GroupRef_Constraints.java" startLine="49" startPosition="0" endLine="61" endPosition="0">
       <varInfo nodeId="8043901499795686493" varName="_context" />
       <varInfo nodeId="8043901499795686493" varName="operationContext" />
     </scopeInfo>
-    <scopeInfo nodeId="8043901499795686493" fileName="GroupRef_Constraints.java" startLine="45" startPosition="56" endLine="67" endPosition="10" />
-    <scopeInfo nodeId="8043901499795686493" fileName="GroupRef_Constraints.java" startLine="43" startPosition="0" endLine="69" endPosition="0" />
-    <scopeInfo nodeId="8043901499795686493" fileName="GroupRef_Constraints.java" startLine="35" startPosition="83" endLine="70" endPosition="22">
+    <scopeInfo nodeId="8043901499795686493" fileName="GroupRef_Constraints.java" startLine="42" startPosition="56" endLine="61" endPosition="10" />
+    <scopeInfo nodeId="8043901499795686493" fileName="GroupRef_Constraints.java" startLine="40" startPosition="0" endLine="63" endPosition="0" />
+    <scopeInfo nodeId="8043901499795686493" fileName="GroupRef_Constraints.java" startLine="32" startPosition="83" endLine="64" endPosition="22">
       <varInfo nodeId="8043901499795686493" varName="references" />
     </scopeInfo>
-    <scopeInfo nodeId="8043901499795686493" fileName="GroupRef_Constraints.java" startLine="34" startPosition="0" endLine="72" endPosition="0" />
-    <unitInfo nodeId="8031339867712548503" fileName="GroupRef_Constraints.java" startLine="56" startPosition="408" endLine="60" endPosition="15" unitName="org.campagnelab.metar.edgeR.constraints.GroupRef_Constraints$3" />
-    <unitInfo nodeId="8043901499795686493" fileName="GroupRef_Constraints.java" startLine="46" startPosition="19" endLine="67" endPosition="9" unitName="org.campagnelab.metar.edgeR.constraints.GroupRef_Constraints$2" />
-    <unitInfo nodeId="8043901499795686493" fileName="GroupRef_Constraints.java" startLine="37" startPosition="32" endLine="69" endPosition="5" unitName="org.campagnelab.metar.edgeR.constraints.GroupRef_Constraints$1" />
-    <unitInfo nodeId="8043901499795686493" fileName="GroupRef_Constraints.java" startLine="29" startPosition="0" endLine="76" endPosition="0" unitName="org.campagnelab.metar.edgeR.constraints.GroupRef_Constraints" />
+    <scopeInfo nodeId="8043901499795686493" fileName="GroupRef_Constraints.java" startLine="31" startPosition="0" endLine="66" endPosition="0" />
+    <unitInfo nodeId="8031339867712548503" fileName="GroupRef_Constraints.java" startLine="53" startPosition="408" endLine="57" endPosition="15" unitName="org.campagnelab.metar.edgeR.constraints.GroupRef_Constraints$3" />
+    <unitInfo nodeId="8043901499795686493" fileName="GroupRef_Constraints.java" startLine="43" startPosition="19" endLine="61" endPosition="9" unitName="org.campagnelab.metar.edgeR.constraints.GroupRef_Constraints$2" />
+    <unitInfo nodeId="8043901499795686493" fileName="GroupRef_Constraints.java" startLine="34" startPosition="32" endLine="63" endPosition="5" unitName="org.campagnelab.metar.edgeR.constraints.GroupRef_Constraints$1" />
+    <unitInfo nodeId="8043901499795686493" fileName="GroupRef_Constraints.java" startLine="26" startPosition="0" endLine="69" endPosition="0" unitName="org.campagnelab.metar.edgeR.constraints.GroupRef_Constraints" />
   </root>
   <root nodeRef="r:846b15be-6f92-4735-be77-ad398b16c9d7(org.campagnelab.metar.edgeR.constraints)/8725455673820612529">
     <nodeInfo nodeId="8725455673820612529" fileName="NoIntercept_Constraints.java" startLine="8" startPosition="36" endLine="9" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />

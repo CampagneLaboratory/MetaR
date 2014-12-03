@@ -20,10 +20,7 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.internal.collections.runtime.ITranslator2;
 import org.campagnelab.metar.tables.behavior.UsageType_Behavior;
-import jetbrains.mps.internal.collections.runtime.Sequence;
 import jetbrains.mps.scope.ListScope;
-import org.apache.log4j.Logger;
-import org.apache.log4j.LogManager;
 import jetbrains.mps.smodel.SNodePointer;
 
 public class GroupRef_Constraints extends BaseConstraintsDescriptor {
@@ -58,9 +55,6 @@ public class GroupRef_Constraints extends BaseConstraintsDescriptor {
                   return UsageType_Behavior.call_columnsWithType_8031339867712208994(SLinkOperations.getTarget(it, "groupUsage", false));
                 }
               });
-              if (LOG.isInfoEnabled()) {
-                LOG.info("groups=" + Sequence.fromIterable(groups).count());
-              }
               return ListScope.forNamedElements(groups);
             }
           }
@@ -70,6 +64,5 @@ public class GroupRef_Constraints extends BaseConstraintsDescriptor {
     return references;
   }
 
-  protected static Logger LOG = LogManager.getLogger(GroupRef_Constraints.class);
   private static SNodePointer breakingNode_efiolh_a0a0a0a0a1a0b0a1a1 = new SNodePointer("r:846b15be-6f92-4735-be77-ad398b16c9d7(org.campagnelab.metar.edgeR.constraints)", "8043901499795687153");
 }

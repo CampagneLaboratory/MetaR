@@ -3,7 +3,8 @@
   <unitInfo fileName="BehaviorAspectDescriptor.java" startLine="9" startPosition="0" endLine="48" endPosition="0" unitName="org.campagnelab.metar.edgeR.behavior.BehaviorAspectDescriptor" />
   <unitInfo fileName="BinaryExpression_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="org.campagnelab.metar.edgeR.behavior.BinaryExpression_BehaviorDescriptor" />
   <unitInfo fileName="CommonDispersion_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="org.campagnelab.metar.edgeR.behavior.CommonDispersion_BehaviorDescriptor" />
-  <unitInfo fileName="ConstrastsBinaryOperator_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="org.campagnelab.metar.edgeR.behavior.ConstrastsBinaryOperator_BehaviorDescriptor" />
+  <unitInfo fileName="ContrastMinus_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="org.campagnelab.metar.edgeR.behavior.ContrastMinus_BehaviorDescriptor" />
+  <unitInfo fileName="ContrastsBinaryOperator_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="org.campagnelab.metar.edgeR.behavior.ContrastsBinaryOperator_BehaviorDescriptor" />
   <unitInfo fileName="DispersionMethod_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="org.campagnelab.metar.edgeR.behavior.DispersionMethod_BehaviorDescriptor" />
   <unitInfo fileName="EdgeRTest_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="org.campagnelab.metar.edgeR.behavior.EdgeRTest_BehaviorDescriptor" />
   <unitInfo fileName="GroupExpression_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="org.campagnelab.metar.edgeR.behavior.GroupExpression_BehaviorDescriptor" />
@@ -11,7 +12,7 @@
   <unitInfo fileName="GroupRef_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="org.campagnelab.metar.edgeR.behavior.GroupRef_BehaviorDescriptor" />
   <unitInfo fileName="GroupUsageExpression_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="org.campagnelab.metar.edgeR.behavior.GroupUsageExpression_BehaviorDescriptor" />
   <unitInfo fileName="GroupUsageRef_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="org.campagnelab.metar.edgeR.behavior.GroupUsageRef_BehaviorDescriptor" />
-  <unitInfo fileName="Mean_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="org.campagnelab.metar.edgeR.behavior.Mean_BehaviorDescriptor" />
+  <unitInfo fileName="Mean_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="org.campagnelab.metar.edgeR.behavior.Mean_BehaviorDescriptor" />
   <unitInfo fileName="Minus_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="org.campagnelab.metar.edgeR.behavior.Minus_BehaviorDescriptor" />
   <unitInfo fileName="NoIntercept_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="org.campagnelab.metar.edgeR.behavior.NoIntercept_BehaviorDescriptor" />
   <unitInfo fileName="Plus_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="org.campagnelab.metar.edgeR.behavior.Plus_BehaviorDescriptor" />
