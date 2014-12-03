@@ -12,15 +12,17 @@ public class ConstraintsAspectDescriptor implements jetbrains.mps.smodel.runtime
 
   public ConstraintsDescriptor getDescriptor(String fqName) {
     switch (Arrays.binarySearch(stringSwitchCases_2qnle6_a0a0b, fqName)) {
-      case 1:
+      case 2:
         return new NoIntercept_Constraints();
-      case 0:
+      case 1:
         return new GroupUsageRef_Constraints();
+      case 0:
+        return new GroupRef_Constraints();
       default:
         // todo: illegal in some cases? 
         return new BaseConstraintsDescriptor(fqName);
     }
   }
 
-  private static String[] stringSwitchCases_2qnle6_a0a0b = new String[]{"org.campagnelab.metar.edgeR.structure.GroupUsageRef", "org.campagnelab.metar.edgeR.structure.NoIntercept"};
+  private static String[] stringSwitchCases_2qnle6_a0a0b = new String[]{"org.campagnelab.metar.edgeR.structure.GroupRef", "org.campagnelab.metar.edgeR.structure.GroupUsageRef", "org.campagnelab.metar.edgeR.structure.NoIntercept"};
 }

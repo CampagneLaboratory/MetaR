@@ -3,7 +3,7 @@
   <persistence version="8" />
   <language namespace="aee9cad2-acd4-4608-aef2-0004f6a1cdbd(jetbrains.mps.lang.actions)" />
   <devkit namespace="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
-  <import index="izt2" modelUID="r:b5f8abba-ade6-48ed-8b03-df617183a3f0(org.campagnelab.metar.edgeR.structure)" version="5" />
+  <import index="izt2" modelUID="r:b5f8abba-ade6-48ed-8b03-df617183a3f0(org.campagnelab.metar.edgeR.structure)" version="6" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
   <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="5" implicit="yes" />
   <import index="tpdg" modelUID="r:00000000-0000-4000-0000-011c895902a8(jetbrains.mps.lang.actions.structure)" version="23" implicit="yes" />
@@ -12,7 +12,7 @@
     <property name="name" nameId="tpck.1169194664001" value="BinaryExpressions" />
     <node role="actionsBuilder" roleId="tpdg.1138079416599" type="tpdg.SideTransformHintSubstituteActionsBuilder" typeId="tpdg.1138079221458" id="8725455673819919533" nodeInfo="ng">
       <property name="transformTag" nameId="tpdg.1140829165817" value="default_RTransform" />
-      <link role="applicableConcept" roleId="tpdg.1138079221462" targetNodeId="izt2.8725455673819917020" resolveInfo="GroupExpression" />
+      <link role="applicableConcept" roleId="tpdg.1138079221462" targetNodeId="izt2.8725455673819917020" resolveInfo="GroupUsageExpression" />
       <node role="part" roleId="tpdg.1177442283389" type="tpdg.ConceptRightTransformPart" typeId="tpdg.1182819125053" id="8725455673819998532" nodeInfo="ng">
         <link role="concept" roleId="tpdg.1182819234902" targetNodeId="izt2.8725455673820336285" resolveInfo="BinaryExpression" />
         <node role="handler" roleId="tpdg.1182819210322" type="tpdg.QueryFunction_SideTransform_ConceptHandler" typeId="tpdg.1177526592562" id="8725455673819998534" nodeInfo="nn">
@@ -46,7 +46,7 @@
     <node role="actionsBuilder" roleId="tpdg.1138079416599" type="tpdg.SideTransformHintSubstituteActionsBuilder" typeId="tpdg.1138079221458" id="8725455673820335916" nodeInfo="ng">
       <property name="side" nameId="tpdg.1215605257730" value="left" />
       <property name="transformTag" nameId="tpdg.1140829165817" value="default_RTransform" />
-      <link role="applicableConcept" roleId="tpdg.1138079221462" targetNodeId="izt2.8725455673819917020" resolveInfo="GroupExpression" />
+      <link role="applicableConcept" roleId="tpdg.1138079221462" targetNodeId="izt2.8725455673819917020" resolveInfo="GroupUsageExpression" />
       <node role="part" roleId="tpdg.1177442283389" type="tpdg.ConceptRightTransformPart" typeId="tpdg.1182819125053" id="8725455673820342409" nodeInfo="ng">
         <link role="concept" roleId="tpdg.1182819234902" targetNodeId="izt2.8725455673820336285" resolveInfo="BinaryExpression" />
         <node role="handler" roleId="tpdg.1182819210322" type="tpdg.QueryFunction_SideTransform_ConceptHandler" typeId="tpdg.1177526592562" id="8725455673820342411" nodeInfo="nn">

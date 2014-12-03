@@ -873,6 +873,44 @@
     </scopeInfo>
     <unitInfo nodeId="8016431400518331177" fileName="Plot_Behavior.java" startLine="12" startPosition="0" endLine="31" endPosition="0" unitName="org.campagnelab.metar.tables.behavior.Plot_Behavior" />
   </root>
+  <root nodeRef="r:db1b133e-9a0f-4319-b384-413408eb1729(org.campagnelab.metar.tables.behavior)/8031339867712179430">
+    <nodeInfo nodeId="8031339867712343241" fileName="UsageType_Behavior.java" startLine="16" startPosition="96" endLine="17" endPosition="133" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="8031339867713301924" fileName="UsageType_Behavior.java" startLine="21" startPosition="44" endLine="22" endPosition="144" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8031339867715118660" fileName="UsageType_Behavior.java" startLine="29" startPosition="78" endLine="30" endPosition="46" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8031339867712179430" fileName="UsageType_Behavior.java" startLine="13" startPosition="0" endLine="15" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+    <nodeInfo nodeId="8031339867713283889" fileName="UsageType_Behavior.java" startLine="21" startPosition="0" endLine="24" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="accept#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
+    <nodeInfo nodeId="8031339867715118660" fileName="UsageType_Behavior.java" startLine="29" startPosition="0" endLine="32" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="eq_1jebxn_a0a0a0a0a0a0a0a0a0b0b#(Ljava/lang/Object;Ljava/lang/Object;)Z" />
+    <nodeInfo nodeId="8031339867712461254" fileName="UsageType_Behavior.java" startLine="19" startPosition="48" endLine="24" endPosition="11" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8031339867712460990" fileName="UsageType_Behavior.java" startLine="19" startPosition="0" endLine="26" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="accept#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
+    <nodeInfo nodeId="8031339867713167035" fileName="UsageType_Behavior.java" startLine="17" startPosition="133" endLine="26" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8031339867712179430" fileName="UsageType_Behavior.java" startLine="16" startPosition="0" endLine="28" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="call_columnsWithType_8031339867712208994#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/Iterable;" />
+    <scopeInfo nodeId="8031339867712193879" fileName="UsageType_Behavior.java" startLine="13" startPosition="43" endLine="13" endPosition="43" />
+    <scopeInfo nodeId="8031339867713283890" fileName="UsageType_Behavior.java" startLine="21" startPosition="44" endLine="22" endPosition="144" />
+    <scopeInfo nodeId="8031339867715118660" fileName="UsageType_Behavior.java" startLine="29" startPosition="78" endLine="30" endPosition="46" />
+    <scopeInfo nodeId="8031339867712179430" fileName="UsageType_Behavior.java" startLine="13" startPosition="0" endLine="15" endPosition="0">
+      <varInfo nodeId="8031339867712179430" varName="thisNode" />
+    </scopeInfo>
+    <scopeInfo nodeId="8031339867713283889" fileName="UsageType_Behavior.java" startLine="21" startPosition="0" endLine="24" endPosition="0">
+      <varInfo nodeId="8031339867713283889" varName="use" />
+    </scopeInfo>
+    <scopeInfo nodeId="8031339867715118660" fileName="UsageType_Behavior.java" startLine="29" startPosition="0" endLine="32" endPosition="0">
+      <varInfo nodeId="8031339867715118660" varName="a" />
+      <varInfo nodeId="8031339867715118660" varName="b" />
+    </scopeInfo>
+    <scopeInfo nodeId="8031339867712460991" fileName="UsageType_Behavior.java" startLine="19" startPosition="48" endLine="24" endPosition="11" />
+    <scopeInfo nodeId="8031339867712460990" fileName="UsageType_Behavior.java" startLine="19" startPosition="0" endLine="26" endPosition="0">
+      <varInfo nodeId="8031339867712460990" varName="columnGroup" />
+    </scopeInfo>
+    <scopeInfo nodeId="8031339867712208997" fileName="UsageType_Behavior.java" startLine="16" startPosition="96" endLine="26" endPosition="7">
+      <varInfo nodeId="8031339867712343244" varName="table" />
+    </scopeInfo>
+    <scopeInfo nodeId="8031339867712179430" fileName="UsageType_Behavior.java" startLine="16" startPosition="0" endLine="28" endPosition="0">
+      <varInfo nodeId="8031339867712179430" varName="thisNode" />
+    </scopeInfo>
+    <unitInfo nodeId="8031339867713283889" fileName="UsageType_Behavior.java" startLine="20" startPosition="100" endLine="24" endPosition="9" unitName="org.campagnelab.metar.tables.behavior.UsageType_Behavior$2" />
+    <unitInfo nodeId="8031339867712460990" fileName="UsageType_Behavior.java" startLine="18" startPosition="94" endLine="26" endPosition="5" unitName="org.campagnelab.metar.tables.behavior.UsageType_Behavior$1" />
+    <unitInfo nodeId="8031339867712179430" fileName="UsageType_Behavior.java" startLine="12" startPosition="0" endLine="33" endPosition="0" unitName="org.campagnelab.metar.tables.behavior.UsageType_Behavior" />
+  </root>
   <root nodeRef="r:db1b133e-9a0f-4319-b384-413408eb1729(org.campagnelab.metar.tables.behavior)/8962032619587151624">
     <nodeInfo nodeId="2517666855464429773" fileName="Multiplot_Behavior.java" startLine="19" startPosition="5" endLine="20" endPosition="156" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="2517666855464444523" fileName="Multiplot_Behavior.java" startLine="21" startPosition="111" endLine="22" endPosition="23" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />

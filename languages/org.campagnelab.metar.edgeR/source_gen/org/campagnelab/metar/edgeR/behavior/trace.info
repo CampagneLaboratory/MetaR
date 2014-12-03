@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
-  <unitInfo fileName="BehaviorAspectDescriptor.java" startLine="9" startPosition="0" endLine="42" endPosition="0" unitName="org.campagnelab.metar.edgeR.behavior.BehaviorAspectDescriptor" />
+  <unitInfo fileName="BehaviorAspectDescriptor.java" startLine="9" startPosition="0" endLine="44" endPosition="0" unitName="org.campagnelab.metar.edgeR.behavior.BehaviorAspectDescriptor" />
   <unitInfo fileName="BinaryExpression_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="org.campagnelab.metar.edgeR.behavior.BinaryExpression_BehaviorDescriptor" />
   <unitInfo fileName="CommonDispersion_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="org.campagnelab.metar.edgeR.behavior.CommonDispersion_BehaviorDescriptor" />
   <unitInfo fileName="DispersionMethod_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="org.campagnelab.metar.edgeR.behavior.DispersionMethod_BehaviorDescriptor" />
   <unitInfo fileName="EdgeRTest_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="org.campagnelab.metar.edgeR.behavior.EdgeRTest_BehaviorDescriptor" />
   <unitInfo fileName="GroupExpression_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="org.campagnelab.metar.edgeR.behavior.GroupExpression_BehaviorDescriptor" />
   <unitInfo fileName="GroupFormula_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="org.campagnelab.metar.edgeR.behavior.GroupFormula_BehaviorDescriptor" />
+  <unitInfo fileName="GroupRef_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="org.campagnelab.metar.edgeR.behavior.GroupRef_BehaviorDescriptor" />
+  <unitInfo fileName="GroupUsageExpression_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="org.campagnelab.metar.edgeR.behavior.GroupUsageExpression_BehaviorDescriptor" />
   <unitInfo fileName="GroupUsageRef_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="org.campagnelab.metar.edgeR.behavior.GroupUsageRef_BehaviorDescriptor" />
   <unitInfo fileName="Minus_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="org.campagnelab.metar.edgeR.behavior.Minus_BehaviorDescriptor" />
   <unitInfo fileName="NoIntercept_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="org.campagnelab.metar.edgeR.behavior.NoIntercept_BehaviorDescriptor" />
@@ -18,9 +20,9 @@
     <nodeInfo nodeId="8725455673819578670" fileName="EdgeRTest_Behavior.java" startLine="10" startPosition="43" endLine="11" endPosition="160" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="8725455673819655898" fileName="EdgeRTest_Behavior.java" startLine="11" startPosition="160" endLine="12" endPosition="156" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="8725455673820831119" fileName="EdgeRTest_Behavior.java" startLine="12" startPosition="156" endLine="13" endPosition="164" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="8725455673820939071" fileName="EdgeRTest_Behavior.java" startLine="13" startPosition="164" endLine="14" endPosition="156" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8725455673820939071" fileName="EdgeRTest_Behavior.java" startLine="13" startPosition="164" endLine="14" endPosition="161" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="8725455673819577723" fileName="EdgeRTest_Behavior.java" startLine="10" startPosition="0" endLine="16" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
-    <scopeInfo nodeId="8725455673819577876" fileName="EdgeRTest_Behavior.java" startLine="10" startPosition="43" endLine="14" endPosition="156" />
+    <scopeInfo nodeId="8725455673819577876" fileName="EdgeRTest_Behavior.java" startLine="10" startPosition="43" endLine="14" endPosition="161" />
     <scopeInfo nodeId="8725455673819577723" fileName="EdgeRTest_Behavior.java" startLine="10" startPosition="0" endLine="16" endPosition="0">
       <varInfo nodeId="8725455673819577723" varName="thisNode" />
     </scopeInfo>

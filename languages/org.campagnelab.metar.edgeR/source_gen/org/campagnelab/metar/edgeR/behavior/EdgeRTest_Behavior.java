@@ -11,6 +11,6 @@ public class EdgeRTest_Behavior {
     SLinkOperations.setTarget(thisNode, "destinationTable", SConceptOperations.createNewNode("org.campagnelab.metar.tables.structure.FutureTable", null), true);
     SLinkOperations.setTarget(thisNode, "modelFormula", SConceptOperations.createNewNode("org.campagnelab.metar.edgeR.structure.GroupFormula", null), true);
     SLinkOperations.setTarget(thisNode, "dispersionMethod", SConceptOperations.createNewNode("org.campagnelab.metar.edgeR.structure.CommonDispersion", null), true);
-    SLinkOperations.setTarget(thisNode, "contrasts", SConceptOperations.createNewNode("org.campagnelab.metar.edgeR.structure.GroupExpression", null), true);
+    SLinkOperations.setTarget(thisNode, "contrasts", SConceptOperations.createNewNode("org.campagnelab.metar.edgeR.structure.GroupUsageExpression", null), true);
   }
 }

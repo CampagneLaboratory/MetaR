@@ -16,26 +16,28 @@ public class BehaviorAspectDescriptor implements jetbrains.mps.smodel.runtime.Be
         return new EdgeRTest_BehaviorDescriptor();
       case 2:
         return new GroupFormula_BehaviorDescriptor();
-      case 3:
+      case 4:
         return new GroupUsageRef_BehaviorDescriptor();
-      case 6:
-        return new Plus_BehaviorDescriptor();
-      case 8:
-        return new Times_BehaviorDescriptor();
-      case 5:
-        return new NoIntercept_BehaviorDescriptor();
-      case 9:
-        return new TrendedDispersion_BehaviorDescriptor();
       case 7:
+        return new Plus_BehaviorDescriptor();
+      case 9:
+        return new Times_BehaviorDescriptor();
+      case 6:
+        return new NoIntercept_BehaviorDescriptor();
+      case 10:
+        return new TrendedDispersion_BehaviorDescriptor();
+      case 8:
         return new TagWiseDispersion_BehaviorDescriptor();
       case 0:
         return new CommonDispersion_BehaviorDescriptor();
-      case 4:
+      case 5:
         return new Minus_BehaviorDescriptor();
+      case 3:
+        return new GroupRef_BehaviorDescriptor();
       default:
         return BehaviorAspectInterpreted.getInstance().getDescriptor(fqName);
     }
   }
 
-  private static String[] stringSwitchCases_846f5o_a0a0b = new String[]{"org.campagnelab.metar.edgeR.structure.CommonDispersion", "org.campagnelab.metar.edgeR.structure.EdgeRTest", "org.campagnelab.metar.edgeR.structure.GroupFormula", "org.campagnelab.metar.edgeR.structure.GroupUsageRef", "org.campagnelab.metar.edgeR.structure.Minus", "org.campagnelab.metar.edgeR.structure.NoIntercept", "org.campagnelab.metar.edgeR.structure.Plus", "org.campagnelab.metar.edgeR.structure.TagWiseDispersion", "org.campagnelab.metar.edgeR.structure.Times", "org.campagnelab.metar.edgeR.structure.TrendedDispersion"};
+  private static String[] stringSwitchCases_846f5o_a0a0b = new String[]{"org.campagnelab.metar.edgeR.structure.CommonDispersion", "org.campagnelab.metar.edgeR.structure.EdgeRTest", "org.campagnelab.metar.edgeR.structure.GroupFormula", "org.campagnelab.metar.edgeR.structure.GroupRef", "org.campagnelab.metar.edgeR.structure.GroupUsageRef", "org.campagnelab.metar.edgeR.structure.Minus", "org.campagnelab.metar.edgeR.structure.NoIntercept", "org.campagnelab.metar.edgeR.structure.Plus", "org.campagnelab.metar.edgeR.structure.TagWiseDispersion", "org.campagnelab.metar.edgeR.structure.Times", "org.campagnelab.metar.edgeR.structure.TrendedDispersion"};
 }

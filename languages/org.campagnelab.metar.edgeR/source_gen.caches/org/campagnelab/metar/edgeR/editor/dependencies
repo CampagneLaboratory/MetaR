@@ -62,6 +62,7 @@
     <classNode dependClassName="org.campagnelab.metar.edgeR.editor.DispersionMethod_Editor" />
     <classNode dependClassName="org.campagnelab.metar.edgeR.editor.EdgeRTest_Editor" />
     <classNode dependClassName="org.campagnelab.metar.edgeR.editor.GroupFormula_Editor" />
+    <classNode dependClassName="org.campagnelab.metar.edgeR.editor.GroupRef_Editor" />
     <classNode dependClassName="org.campagnelab.metar.edgeR.editor.GroupUsageRef_Editor" />
     <classNode dependClassName="org.campagnelab.metar.edgeR.editor.NoIntercept_Editor" />
     <classNode extendsClassName="jetbrains.mps.openapi.editor.descriptor.EditorAspectDescriptor" />
@@ -82,6 +83,24 @@
     <classNode dependClassName="jetbrains.mps.smodel.IOperationContext" />
     <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
     <classNode extendsClassName="jetbrains.mps.nodeEditor.DefaultNodeEditor" />
+  </dependency>
+  <dependency className="org.campagnelab.metar.edgeR.editor.GroupRef_Editor" file="GroupRef_Editor.java">
+    <classNode dependClassName="java.lang.Class" />
+    <classNode dependClassName="jetbrains.mps.editor.runtime.style.StyleAttributes" />
+    <classNode dependClassName="jetbrains.mps.editor.runtime.style.StyleImpl" />
+    <classNode dependClassName="jetbrains.mps.lang.editor.cellProviders.PropertyCellProvider" />
+    <classNode dependClassName="jetbrains.mps.lang.editor.cellProviders.RefCellCellProvider" />
+    <classNode dependClassName="jetbrains.mps.nodeEditor.EditorManager" />
+    <classNode dependClassName="jetbrains.mps.nodeEditor.cellProviders.CellProviderWithRole" />
+    <classNode dependClassName="jetbrains.mps.nodeEditor.cells.EditorCell_Collection" />
+    <classNode dependClassName="jetbrains.mps.openapi.editor.EditorContext" />
+    <classNode dependClassName="jetbrains.mps.openapi.editor.cells.EditorCell" />
+    <classNode dependClassName="jetbrains.mps.openapi.editor.style.Style" />
+    <classNode dependClassName="jetbrains.mps.smodel.IOperationContext" />
+    <classNode dependClassName="org.campagnelab.metar.tables.editor.TableStyleSheet_StyleSheet" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
+    <classNode extendsClassName="jetbrains.mps.nodeEditor.DefaultNodeEditor" />
+    <classNode extendsClassName="jetbrains.mps.nodeEditor.InlineCellProvider" />
   </dependency>
   <dependency className="org.campagnelab.metar.edgeR.editor.GroupUsageRef_Editor" file="GroupUsageRef_Editor.java">
     <classNode dependClassName="java.lang.Class" />

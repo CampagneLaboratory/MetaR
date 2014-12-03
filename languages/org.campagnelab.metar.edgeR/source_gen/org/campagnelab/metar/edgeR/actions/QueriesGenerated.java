@@ -19,7 +19,7 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.smodel.action.NodeSubstituteActionWrapper;
 
 public class QueriesGenerated {
-  public static List<SubstituteAction> sideTransform_ActionsFactory_GroupExpression_8725455673819919533(final IOperationContext operationContext, final SideTransformActionsBuilderContext _context) {
+  public static List<SubstituteAction> sideTransform_ActionsFactory_GroupUsageExpression_8725455673819919533(final IOperationContext operationContext, final SideTransformActionsBuilderContext _context) {
     List<SubstituteAction> result = ListSequence.fromList(new ArrayList<SubstituteAction>());
     {
       final String[] lastPattern = new String[1];
@@ -47,7 +47,7 @@ public class QueriesGenerated {
     return result;
   }
 
-  public static List<SubstituteAction> sideTransform_ActionsFactory_GroupExpression_8725455673820335916(final IOperationContext operationContext, final SideTransformActionsBuilderContext _context) {
+  public static List<SubstituteAction> sideTransform_ActionsFactory_GroupUsageExpression_8725455673820335916(final IOperationContext operationContext, final SideTransformActionsBuilderContext _context) {
     List<SubstituteAction> result = ListSequence.fromList(new ArrayList<SubstituteAction>());
     {
       final String[] lastPattern = new String[1];
