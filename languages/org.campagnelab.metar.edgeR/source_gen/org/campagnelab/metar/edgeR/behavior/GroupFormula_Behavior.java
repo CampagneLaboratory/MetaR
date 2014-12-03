@@ -14,4 +14,8 @@ public class GroupFormula_Behavior {
   public static boolean call_hasIntercept_8031339867717031252(SNode thisNode) {
     return !(ListSequence.fromList(SNodeOperations.getDescendants(SLinkOperations.getTarget(thisNode, "groupExpression", true), "org.campagnelab.metar.edgeR.structure.NoIntercept", false, new String[]{})).isNotEmpty());
   }
+
+  public static boolean call_oneFactor_8031339867717509466(SNode thisNode) {
+    return ListSequence.fromList(SNodeOperations.getDescendants(SLinkOperations.getTarget(thisNode, "groupExpression", true), "org.campagnelab.metar.edgeR.structure.GroupRef", false, new String[]{})).count() == 1;
+  }
 }

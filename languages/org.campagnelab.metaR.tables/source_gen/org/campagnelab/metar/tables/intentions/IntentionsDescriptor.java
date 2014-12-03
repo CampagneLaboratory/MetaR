@@ -13,6 +13,7 @@ public class IntentionsDescriptor extends BaseIntentionsDescriptor {
   }
 
   public void init() {
+    IntentionsManager.getInstance().registerIntentionFactory(new AddGroupToAll_Intention());
     IntentionsManager.getInstance().registerIntentionFactory(new ApplyGroup_Intention());
     IntentionsManager.getInstance().registerIntentionFactory(new AssignNewIds_Intention());
     IntentionsManager.getInstance().registerIntentionFactory(new RefreshPlot_Intention());
