@@ -9,8 +9,10 @@ import jetbrains.mps.internal.collections.runtime.ListSequence;
 import java.util.ArrayList;
 import java.util.List;
 import jetbrains.mps.internal.collections.runtime.Sequence;
-import jetbrains.mps.internal.collections.runtime.ISelector;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
+import jetbrains.mps.internal.collections.runtime.ISelector;
+import org.apache.log4j.Logger;
+import org.apache.log4j.LogManager;
 
 public class EdgeRTest_Behavior {
   public static void init(SNode thisNode) {
@@ -27,16 +29,26 @@ public class EdgeRTest_Behavior {
   public static Iterable<String> call_enumerateFactorLevels_8031339867727856905(SNode thisNode, Iterable<SNode> restrictToGroups) {
     List<String> result = ListSequence.fromList(new ArrayList<String>());
     for (SNode factor : Sequence.fromIterable(GroupFormula_Behavior.call_calculateGroupUsageNames_8031339867724617718(SLinkOperations.getTarget(thisNode, "modelFormula", true)))) {
-      if (restrictToGroups != null && Sequence.fromIterable(restrictToGroups).select(new ISelector<SNode, String>() {
-        public String select(SNode it) {
-          return SPropertyOperations.getString(SLinkOperations.getTarget(it, "group", false), "name");
-        }
-      }).contains(SPropertyOperations.getString(factor, "name"))) {
+      if (LOG.isInfoEnabled()) {
+        LOG.info("Processing factor:" + SPropertyOperations.getString(factor, "name"));
+      }
+      if (LOG.isInfoEnabled()) {
+        LOG.info("Filtering with restrictToGroups: " + restrictToGroups);
       }
       for (SNode level : Sequence.fromIterable(GroupExpression_Behavior.call_levels_8031339867727867563(SLinkOperations.getTarget(thisNode, "contrasts", true), SPropertyOperations.getString(factor, "name")))) {
-        ListSequence.fromList(result).addElement(factor + SPropertyOperations.getString(level, "name"));
+        if (restrictToGroups != null && Sequence.fromIterable(restrictToGroups).select(new ISelector<SNode, String>() {
+          public String select(SNode it) {
+            return SPropertyOperations.getString(SLinkOperations.getTarget(it, "group", false), "name");
+          }
+        }).contains(SPropertyOperations.getString(level, "name"))) {
+          ListSequence.fromList(result).addElement(factor + SPropertyOperations.getString(level, "name"));
+        }
+
       }
+
     }
     return result;
   }
+
+  protected static Logger LOG = LogManager.getLogger(EdgeRTest_Behavior.class);
 }

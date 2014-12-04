@@ -9,7 +9,7 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
 import org.campagnelab.metar.edgeR.behavior.GroupFormula_Behavior;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.generator.template.PropertyMacroContext;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
+import jetbrains.mps.smodel.behaviour.BehaviorReflection;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.internal.collections.runtime.IterableUtils;
 import jetbrains.mps.internal.collections.runtime.Sequence;
@@ -17,6 +17,7 @@ import org.campagnelab.metar.edgeR.behavior.EdgeRTest_Behavior;
 import jetbrains.mps.internal.collections.runtime.ISelector;
 import org.campagnelab.metar.tables.generationhelpers.NameHelper;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import org.campagnelab.metar.tables.behavior.TableRef_Behavior;
 import jetbrains.mps.internal.collections.runtime.IWhereFilter;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.AttributeOperations;
@@ -66,7 +67,7 @@ public class QueriesGenerated {
   }
 
   public static Object propertyMacro_GetPropertyValue_8031339867717094839(final PropertyMacroContext _context) {
-    return SPropertyOperations.getString(_context.getNode(), "alias");
+    return BehaviorReflection.invokeVirtual(String.class, _context.getNode(), "virtual_getPresentation_1213877396640", new Object[]{});
   }
 
   public static Object propertyMacro_GetPropertyValue_8031339867717141124(final PropertyMacroContext _context) {
@@ -164,6 +165,17 @@ public class QueriesGenerated {
     }), " +");
   }
 
+  public static Object propertyMacro_GetPropertyValue_8031339867729316435(final PropertyMacroContext _context) {
+    SNode edgeR = SNodeOperations.getAncestor(_context.getNode(), "org.campagnelab.metar.edgeR.structure.EdgeRTest", false, false);
+    Iterable<SNode> one = Sequence.<SNode>singleton(_context.getNode());
+    return IterableUtils.join(Sequence.fromIterable(EdgeRTest_Behavior.call_enumerateFactorLevels_8031339867727856905(edgeR, one)).select(new ISelector<String, String>() {
+      public String select(String it) {
+        return NameHelper.RName(it);
+      }
+    }), " ");
+
+  }
+
   public static boolean ifMacro_Condition_8031339867726629965(final IfMacroContext _context) {
     return GroupFormula_Behavior.call_oneFactor_8031339867717509466(SLinkOperations.getTarget(_context.getNode(), "modelFormula", true));
   }
@@ -185,10 +197,6 @@ public class QueriesGenerated {
   }
 
   public static SNode sourceNodeQuery_8031339867726638648(final SourceSubstituteMacroNodeContext _context) {
-    return SLinkOperations.getTarget(_context.getNode(), "contrasts", true);
-  }
-
-  public static SNode sourceNodeQuery_8031339867717136229(final SourceSubstituteMacroNodeContext _context) {
     return SLinkOperations.getTarget(_context.getNode(), "contrasts", true);
   }
 
