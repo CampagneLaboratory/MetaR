@@ -5,7 +5,7 @@ package org.campagnelab.metar.tables.generationhelpers;
 
 public class NameHelper {
   public static String RName(String inputName) {
-    String s = inputName.replaceAll("[\\s\\-\\\\.+\\/\\-\\!\\@\\$\\#\\%\\^\\&*\\(\\)]", "_").replace(".", "_");
+    String s = inputName.replaceAll("[^a-zA-Z0-9\\.\"]", "_");
     if (Character.isDigit(s.charAt(0))) {
       return "t_" + s;
     } else {

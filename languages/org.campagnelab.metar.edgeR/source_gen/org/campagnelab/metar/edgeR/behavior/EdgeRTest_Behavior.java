@@ -7,6 +7,10 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import java.util.ArrayList;
+import java.util.List;
+import jetbrains.mps.internal.collections.runtime.Sequence;
+import jetbrains.mps.internal.collections.runtime.ISelector;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 
 public class EdgeRTest_Behavior {
   public static void init(SNode thisNode) {
@@ -18,5 +22,21 @@ public class EdgeRTest_Behavior {
 
   public static Iterable<String> virtual_dependencies_8962032619593737608(SNode thisNode) {
     return ListSequence.fromListAndArray(new ArrayList<String>(), "Cairo", "limma", "edgeR");
+  }
+
+  public static Iterable<String> call_enumerateFactorLevels_8031339867727856905(SNode thisNode, Iterable<SNode> restrictToGroups) {
+    List<String> result = ListSequence.fromList(new ArrayList<String>());
+    for (SNode factor : Sequence.fromIterable(GroupFormula_Behavior.call_calculateGroupUsageNames_8031339867724617718(SLinkOperations.getTarget(thisNode, "modelFormula", true)))) {
+      if (restrictToGroups != null && Sequence.fromIterable(restrictToGroups).select(new ISelector<SNode, String>() {
+        public String select(SNode it) {
+          return SPropertyOperations.getString(SLinkOperations.getTarget(it, "group", false), "name");
+        }
+      }).contains(SPropertyOperations.getString(factor, "name"))) {
+      }
+      for (SNode level : Sequence.fromIterable(GroupExpression_Behavior.call_levels_8031339867727867563(SLinkOperations.getTarget(thisNode, "contrasts", true), SPropertyOperations.getString(factor, "name")))) {
+        ListSequence.fromList(result).addElement(factor + SPropertyOperations.getString(level, "name"));
+      }
+    }
+    return result;
   }
 }

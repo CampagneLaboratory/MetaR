@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
   <root nodeRef="r:20059f57-5dbc-44d9-90cc-68a47f43e4d6(org.campagnelab.metar.tables.generationhelpers)/772483346260563820">
-    <nodeInfo nodeId="8044300460861060918" fileName="NameHelper.java" startLine="7" startPosition="48" endLine="8" endPosition="111" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="8044300460861060918" fileName="NameHelper.java" startLine="7" startPosition="48" endLine="8" endPosition="62" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="6001041468487150789" fileName="NameHelper.java" startLine="9" startPosition="41" endLine="10" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="6001041468487153333" fileName="NameHelper.java" startLine="11" startPosition="12" endLine="12" endPosition="15" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="6001041468487152277" fileName="NameHelper.java" startLine="13" startPosition="5" endLine="14" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
     <nodeInfo nodeId="6001041468487152827" fileName="NameHelper.java" startLine="11" startPosition="10" endLine="13" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="6001041468487143833" fileName="NameHelper.java" startLine="8" startPosition="111" endLine="13" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="6001041468487143833" fileName="NameHelper.java" startLine="8" startPosition="62" endLine="13" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
     <nodeInfo nodeId="772483346260563933" fileName="NameHelper.java" startLine="7" startPosition="0" endLine="16" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="RName#(Ljava/lang/String;)Ljava/lang/String;" />
     <scopeInfo nodeId="6001041468487143836" fileName="NameHelper.java" startLine="9" startPosition="41" endLine="10" endPosition="22" />
     <scopeInfo nodeId="6001041468487152828" fileName="NameHelper.java" startLine="11" startPosition="12" endLine="12" endPosition="15" />
