@@ -7,18 +7,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d7fb88e6-6771-4f53-a414-3deabf22ebe0" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.metar.edgeR/source_gen/org/campagnelab/metar/edgeR/behavior/EdgeRTest_Behavior.java" afterPath="$PROJECT_DIR$/languages/org.campagnelab.metar.edgeR/source_gen/org/campagnelab/metar/edgeR/behavior/EdgeRTest_Behavior.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.metar.edgeR/generator/source_gen/org/campagnelab/metar/edgeR/generator/template/main/QueriesGenerated.java" afterPath="$PROJECT_DIR$/languages/org.campagnelab.metar.edgeR/generator/source_gen/org/campagnelab/metar/edgeR/generator/template/main/QueriesGenerated.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.metar.edgeR/languageModels/behavior.mps" afterPath="$PROJECT_DIR$/languages/org.campagnelab.metar.edgeR/languageModels/behavior.mps" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.metar.edgeR/generator/source_gen.caches/org/campagnelab/metar/edgeR/generator/template/main/dependencies" afterPath="$PROJECT_DIR$/languages/org.campagnelab.metar.edgeR/generator/source_gen.caches/org/campagnelab/metar/edgeR/generator/template/main/dependencies" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.metar.edgeR/source_gen.caches/org/campagnelab/metar/edgeR/behavior/dependencies" afterPath="$PROJECT_DIR$/languages/org.campagnelab.metar.edgeR/source_gen.caches/org/campagnelab/metar/edgeR/behavior/dependencies" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/Playground/source_gen/Diamond/fit edgeR model_script.R" afterPath="$PROJECT_DIR$/solutions/Playground/source_gen/Diamond/fit edgeR model_script.R" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.metar.edgeR/generator/source_gen.caches/org/campagnelab/metar/edgeR/generator/template/main/generated" afterPath="$PROJECT_DIR$/languages/org.campagnelab.metar.edgeR/generator/source_gen.caches/org/campagnelab/metar/edgeR/generator/template/main/generated" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.metar.edgeR/source_gen.caches/org/campagnelab/metar/edgeR/generated" afterPath="$PROJECT_DIR$/languages/org.campagnelab.metar.edgeR/source_gen.caches/org/campagnelab/metar/edgeR/generated" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.metar.edgeR/source_gen.caches/org/campagnelab/metar/edgeR/behavior/generated" afterPath="$PROJECT_DIR$/languages/org.campagnelab.metar.edgeR/source_gen.caches/org/campagnelab/metar/edgeR/behavior/generated" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/Playground/source_gen.caches/Diamond/generated" afterPath="$PROJECT_DIR$/solutions/Playground/source_gen.caches/Diamond/generated" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.metar.edgeR/generator/template/main@generator.mps" afterPath="$PROJECT_DIR$/languages/org.campagnelab.metar.edgeR/generator/template/main@generator.mps" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.metar.edgeR/classes_gen/org/campagnelab/metar/edgeR/behavior/trace.info" afterPath="$PROJECT_DIR$/languages/org.campagnelab.metar.edgeR/classes_gen/org/campagnelab/metar/edgeR/behavior/trace.info" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.metar.edgeR/generator/source_gen/org/campagnelab/metar/edgeR/generator/template/main/trace.info" afterPath="$PROJECT_DIR$/languages/org.campagnelab.metar.edgeR/generator/source_gen/org/campagnelab/metar/edgeR/generator/template/main/trace.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.metar.edgeR/source_gen/org/campagnelab/metar/edgeR/behavior/trace.info" afterPath="$PROJECT_DIR$/languages/org.campagnelab.metar.edgeR/source_gen/org/campagnelab/metar/edgeR/behavior/trace.info" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.mps/workspace.xml" afterPath="$PROJECT_DIR$/.mps/workspace.xml" />
     </list>
     <ignored path="HTAnalysis.iws" />
@@ -65,10 +60,10 @@
                   <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                     <property name="hasNonTrivialSelection" value="false" />
                     <property name="caretXRelative" value="4" />
-                    <property name="caretX" value="87" />
+                    <property name="caretX" value="152" />
                     <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="property_name" cellNumber="0" isInList="false">
-                      <node node_reference="r:b8f62bc7-cfc9-4f34-8e06-7b1a81a9ab7a(org.campagnelab.metar.edgeR.generator.template.main@generator)/8031339867717136179" />
+                    <cellInfo cellId="Constant_y5igai_a0" cellNumber="0" isInList="false">
+                      <node node_reference="r:b8f62bc7-cfc9-4f34-8e06-7b1a81a9ab7a(org.campagnelab.metar.edgeR.generator.template.main@generator)/8031339867729707905" />
                     </cellInfo>
                   </stackElement>
                 </selectionStack>
@@ -76,7 +71,7 @@
                 <folded />
                 <enabledHints />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:624b8210-f4b3-400e-9df0-aad09dfbdddd(Diamond)/8031339867728766019" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:624b8210-f4b3-400e-9df0-aad09dfbdddd(Diamond)/8031339867730246171" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorLabels />
                 <folded />
@@ -91,15 +86,15 @@
         <entry file="mps://node://org.campagnelab.metar.edgeR#8725455673819557209/org.campagnelab.metar.edgeR.generator.template.main@generator/main">
           <provider selected="true" editor-type-id="MPSFileEditor">
             <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-              <memento viewPositionX="0" viewPositionY="20">
+              <memento viewPositionX="0" viewPositionY="100">
                 <selectionStack>
                   <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                     <property name="hasNonTrivialSelection" value="false" />
-                    <property name="caretXRelative" value="0" />
-                    <property name="caretX" value="233" />
+                    <property name="caretXRelative" value="88" />
+                    <property name="caretX" value="329" />
                     <property name="sideSelectDirection" value="NONE" />
                     <cellInfo cellId="property_name" cellNumber="0" isInList="false">
-                      <node node_reference="r:b8f62bc7-cfc9-4f34-8e06-7b1a81a9ab7a(org.campagnelab.metar.edgeR.generator.template.main@generator)/8031339867729316416" />
+                      <node node_reference="r:b8f62bc7-cfc9-4f34-8e06-7b1a81a9ab7a(org.campagnelab.metar.edgeR.generator.template.main@generator)/8031339867717136181" />
                     </cellInfo>
                   </stackElement>
                 </selectionStack>
@@ -107,7 +102,7 @@
                 <folded />
                 <enabledHints />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:624b8210-f4b3-400e-9df0-aad09dfbdddd(Diamond)/8031339867728766019" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:624b8210-f4b3-400e-9df0-aad09dfbdddd(Diamond)/8031339867730246171" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorLabels />
                 <folded />
@@ -136,43 +131,13 @@
                 <folded />
                 <enabledHints />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:624b8210-f4b3-400e-9df0-aad09dfbdddd(Diamond)/8031339867728766019" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:624b8210-f4b3-400e-9df0-aad09dfbdddd(Diamond)/8031339867730246171" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorLabels />
                 <folded />
                 <enabledHints />
               </inspectorMemento>
               <node node_ref="r:fe30046f-5b05-4311-bf4c-7ad8897afe05(org.campagnelab.metar.edgeR.behavior)/8031339867727867560" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NameHelper" pinned="false" current="false" current-in-tab="false">
-        <entry file="mps://node://org.campagnelab.metar.tables/org.campagnelab.metar.tables.generationhelpers/NameHelper">
-          <provider selected="true" editor-type-id="MPSFileEditor">
-            <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-              <memento viewPositionX="0" viewPositionY="0">
-                <selectionStack>
-                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                    <property name="hasNonTrivialSelection" value="false" />
-                    <property name="caretXRelative" value="120" />
-                    <property name="caretX" value="431" />
-                    <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="property_value" cellNumber="0" isInList="false">
-                      <node node_reference="r:20059f57-5dbc-44d9-90cc-68a47f43e4d6(org.campagnelab.metar.tables.generationhelpers)/772483346259704661" />
-                    </cellInfo>
-                  </stackElement>
-                </selectionStack>
-                <errorLabels />
-                <folded />
-                <enabledHints />
-              </memento>
-              <inspectorMemento currentlyEditedNode="r:624b8210-f4b3-400e-9df0-aad09dfbdddd(Diamond)/8031339867728766019" viewPositionX="0" viewPositionY="0">
-                <selectionStack />
-                <errorLabels />
-                <folded />
-                <enabledHints />
-              </inspectorMemento>
             </state>
           </provider>
         </entry>
@@ -197,7 +162,7 @@
                 <folded />
                 <enabledHints />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:624b8210-f4b3-400e-9df0-aad09dfbdddd(Diamond)/8031339867728766019" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:624b8210-f4b3-400e-9df0-aad09dfbdddd(Diamond)/8031339867730246171" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorLabels />
                 <folded />
@@ -218,52 +183,13 @@
                 <folded />
                 <enabledHints />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:624b8210-f4b3-400e-9df0-aad09dfbdddd(Diamond)/8031339867728766019" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:624b8210-f4b3-400e-9df0-aad09dfbdddd(Diamond)/8031339867730246171" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorLabels />
                 <folded />
                 <enabledHints />
               </inspectorMemento>
               <node node_ref="r:b8f62bc7-cfc9-4f34-8e06-7b1a81a9ab7a(org.campagnelab.metar.edgeR.generator.template.main@generator)/8031339867729316414" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="fit edgeR model" pinned="false" current="false" current-in-tab="false">
-        <entry file="mps://node://Playground/Diamond/fit edgeR model">
-          <provider selected="true" editor-type-id="MPSFileEditor">
-            <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-              <memento viewPositionX="0" viewPositionY="0">
-                <selectionStack>
-                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                    <property name="hasNonTrivialSelection" value="false" />
-                    <property name="caretXRelative" value="20" />
-                    <property name="caretX" value="409" />
-                    <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="property_name" cellNumber="0" isInList="false">
-                      <node node_reference="r:624b8210-f4b3-400e-9df0-aad09dfbdddd(Diamond)/8031339867728766019" />
-                    </cellInfo>
-                  </stackElement>
-                </selectionStack>
-                <errorLabels />
-                <folded />
-                <enabledHints />
-              </memento>
-              <inspectorMemento currentlyEditedNode="r:624b8210-f4b3-400e-9df0-aad09dfbdddd(Diamond)/8031339867728766019" viewPositionX="0" viewPositionY="0">
-                <selectionStack />
-                <errorLabels />
-                <folded />
-                <enabledHints />
-              </inspectorMemento>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="fit edgeR model_script.R" pinned="false" current="true" current-in-tab="true">
-        <entry file="previewDiamond/fit edgeR model_script.R">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.65217394" vertical-offset="0" max-vertical-offset="1515">
-              <caret line="27" column="46" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
             </state>
           </provider>
         </entry>
@@ -288,7 +214,7 @@
                 <folded />
                 <enabledHints />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:624b8210-f4b3-400e-9df0-aad09dfbdddd(Diamond)/8031339867728766019" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:624b8210-f4b3-400e-9df0-aad09dfbdddd(Diamond)/8031339867730246171" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorLabels />
                 <folded />
@@ -299,19 +225,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ContrastMinus" pinned="false" current="false" current-in-tab="false">
-        <entry file="mps://node://org.campagnelab.metar.edgeR/org.campagnelab.metar.edgeR.structure/ContrastMinus">
+      <file leaf-file-name="TableTransformation" pinned="false" current="false" current-in-tab="false">
+        <entry file="mps://node://org.campagnelab.metar.tables/org.campagnelab.metar.tables.structure/TableTransformation">
           <provider selected="true" editor-type-id="MPSFileEditor">
             <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
               <memento viewPositionX="0" viewPositionY="0">
                 <selectionStack>
                   <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                    <property name="hasNonTrivialSelection" value="false" />
-                    <property name="caretXRelative" value="0" />
-                    <property name="caretX" value="15" />
+                    <property name="selectionEnd" value="5" />
+                    <property name="hasNonTrivialSelection" value="true" />
+                    <property name="caretXRelative" value="20" />
+                    <property name="selectionStart" value="0" />
+                    <property name="caretX" value="215" />
                     <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="Constant_ueqr71_c0a" cellNumber="0" isInList="false">
-                      <node node_reference="r:b5f8abba-ade6-48ed-8b03-df617183a3f0(org.campagnelab.metar.edgeR.structure)/8031339867716707809" />
+                    <cellInfo cellId="property_name" cellNumber="0" isInList="false">
+                      <node node_reference="r:db1b133e-9a0f-4319-b384-413408eb1729(org.campagnelab.metar.tables.behavior)/772483346259745987" />
                     </cellInfo>
                   </stackElement>
                 </selectionStack>
@@ -319,13 +247,83 @@
                 <folded />
                 <enabledHints />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:624b8210-f4b3-400e-9df0-aad09dfbdddd(Diamond)/8031339867728766019" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:624b8210-f4b3-400e-9df0-aad09dfbdddd(Diamond)/8031339867730246171" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorLabels />
                 <folded />
                 <enabledHints />
               </inspectorMemento>
-              <node node_ref="r:b5f8abba-ade6-48ed-8b03-df617183a3f0(org.campagnelab.metar.edgeR.structure)/8031339867716707809" />
+              <node node_ref="r:db1b133e-9a0f-4319-b384-413408eb1729(org.campagnelab.metar.tables.behavior)/3402264987259878127" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FutureTable" pinned="false" current="false" current-in-tab="false">
+        <entry file="mps://node://org.campagnelab.metar.tables/org.campagnelab.metar.tables.structure/FutureTable">
+          <provider selected="true" editor-type-id="MPSFileEditor">
+            <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
+              <memento viewPositionX="0" viewPositionY="0">
+                <selectionStack>
+                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                    <property name="hasNonTrivialSelection" value="false" />
+                    <property name="caretXRelative" value="4" />
+                    <property name="caretX" value="151" />
+                    <property name="sideSelectDirection" value="NONE" />
+                    <cellInfo cellId="property_name" cellNumber="0" isInList="false">
+                      <node node_reference="r:db1b133e-9a0f-4319-b384-413408eb1729(org.campagnelab.metar.tables.behavior)/772483346259741680" />
+                    </cellInfo>
+                  </stackElement>
+                </selectionStack>
+                <errorLabels />
+                <folded />
+                <enabledHints />
+              </memento>
+              <inspectorMemento currentlyEditedNode="r:624b8210-f4b3-400e-9df0-aad09dfbdddd(Diamond)/8031339867730246171" viewPositionX="0" viewPositionY="0">
+                <selectionStack />
+                <errorLabels />
+                <folded />
+                <enabledHints />
+              </inspectorMemento>
+              <node node_ref="r:db1b133e-9a0f-4319-b384-413408eb1729(org.campagnelab.metar.tables.behavior)/772483346259741680" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fit edgeR model" pinned="false" current="true" current-in-tab="true">
+        <entry file="mps://node://Playground/Diamond/fit edgeR model">
+          <provider selected="true" editor-type-id="MPSFileEditor">
+            <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+              <memento viewPositionX="0" viewPositionY="0">
+                <selectionStack>
+                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                    <property name="hasNonTrivialSelection" value="false" />
+                    <property name="caretXRelative" value="0" />
+                    <property name="caretX" value="31" />
+                    <property name="sideSelectDirection" value="NONE" />
+                    <cellInfo cellId="Constant_s23fc5_a0" cellNumber="0" isInList="false">
+                      <node node_reference="r:624b8210-f4b3-400e-9df0-aad09dfbdddd(Diamond)/8031339867730246171" />
+                    </cellInfo>
+                  </stackElement>
+                </selectionStack>
+                <errorLabels />
+                <folded />
+                <enabledHints />
+              </memento>
+              <inspectorMemento currentlyEditedNode="r:624b8210-f4b3-400e-9df0-aad09dfbdddd(Diamond)/8031339867730246171" viewPositionX="0" viewPositionY="0">
+                <selectionStack />
+                <errorLabels />
+                <folded />
+                <enabledHints />
+              </inspectorMemento>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fit edgeR model_script.R" pinned="false" current="false" current-in-tab="false">
+        <entry file="previewDiamond/fit edgeR model_script.R">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1515">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
             </state>
           </provider>
         </entry>
@@ -439,12 +437,6 @@
     <panes>
       <pane id="ProjectPane">
         <subPane>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Empty">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
           <PATH>
             <PATH_ELEMENT USER_OBJECT="Empty">
               <option name="myItemId" value="" />
@@ -770,130 +762,6 @@
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="org.campagnelab.metar.edgeR">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="org.campagnelab.metar.edgeR.typesystem">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="formula">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Empty">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="Project">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="org.campagnelab.metar.edgeR">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="org.campagnelab.metar.edgeR.behavior">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Empty">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="Project">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="org.campagnelab.metar.edgeR">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="org.campagnelab.metar.edgeR.behavior">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="formula">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Empty">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="Project">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="org.campagnelab.metar.edgeR">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="org.campagnelab.metar.edgeR.behavior">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="contrasts">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Empty">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="Project">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="org.campagnelab.metar.edgeR">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="org.campagnelab.metar.edgeR.structure">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Empty">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="Project">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="org.campagnelab.metar.edgeR">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="org.campagnelab.metar.edgeR.structure">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="contrasts">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Empty">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="Project">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
             <PATH_ELEMENT USER_OBJECT="Playground">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
@@ -1105,6 +973,8 @@
           </option>
         </MyState>
       </myRunParameters>
+      <RunnerSettings RunnerId="Default Runner" />
+      <ConfigurationWrapper RunnerId="Default Runner" />
       <method />
     </configuration>
     <configuration default="true" type="R Script" factoryName="R">
@@ -1238,17 +1108,17 @@
       <window_info id="Bookmarks" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Generation Tracer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21011059" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4056604" sideWeight="0.70563453" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4056604" sideWeight="0.70563453" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Classpath Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="RefactoringView" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32704404" sideWeight="0.4986835" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspector" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30607966" sideWeight="0.49605057" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspector" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4056604" sideWeight="0.29436547" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Node Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32389936" sideWeight="0.46603477" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Typesystem Trace" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Typechecker State" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Dependencies Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32914045" sideWeight="0.4997367" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30607966" sideWeight="0.50394946" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30607966" sideWeight="0.50394946" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Module Dependencies" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32914045" sideWeight="0.49921012" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Class Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1306,6 +1176,10 @@
             <children>
               <jetbrains.mps.ide.findusages.findalgorithm.resultproviders.treenodes.FinderNode>
                 <children />
+                <generated_finder class_name="jetbrains.mps.baseLanguage.findUsages.ExactMethodUsages_Finder" />
+              </jetbrains.mps.ide.findusages.findalgorithm.resultproviders.treenodes.FinderNode>
+              <jetbrains.mps.ide.findusages.findalgorithm.resultproviders.treenodes.FinderNode>
+                <children />
                 <generated_finder class_name="jetbrains.mps.lang.structure.findUsages.NodeUsages_Finder" />
               </jetbrains.mps.ide.findusages.findalgorithm.resultproviders.treenodes.FinderNode>
             </children>
@@ -1314,7 +1188,7 @@
             <scope scope_class="jetbrains.mps.ide.findusages.model.scopes.ProjectScope" />
             <holder holder_class="jetbrains.mps.ide.findusages.model.holders.NodeHolder">
               <node>
-                <node model="r:9f2bbfbf-f8b7-4b3b-92b1-b6a0e9642c10(org.campagnelab.metar.tables.structure)" id="8016431400517087652" />
+                <node model="r:db1b133e-9a0f-4319-b384-413408eb1729(org.campagnelab.metar.tables.behavior)" id="772483346259745987" />
               </node>
             </holder>
           </query>
@@ -1344,24 +1218,24 @@
                           </data>
                           <children>
                             <child>
-                              <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModelNodeData" caption="org.campagnelab.metar.tables.structure" info="" excluded="false" expanded="false" isresult="false" results_section="false">
+                              <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModelNodeData" caption="org.campagnelab.metar.tables.behavior" info="" excluded="false" expanded="false" isresult="false" results_section="false">
                                 <role name="model" />
-                                <model uid="r:9f2bbfbf-f8b7-4b3b-92b1-b6a0e9642c10(org.campagnelab.metar.tables.structure)" />
+                                <model uid="r:db1b133e-9a0f-4319-b384-413408eb1729(org.campagnelab.metar.tables.behavior)" />
                               </data>
                               <children>
                                 <child>
-                                  <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="ColumnGroup" info="" excluded="false" expanded="true" isresult="false" results_section="false">
+                                  <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="TableTransformation_Behavior" info="" excluded="false" expanded="true" isresult="false" results_section="false">
                                     <role name="root" />
                                     <node>
-                                      <node model="r:9f2bbfbf-f8b7-4b3b-92b1-b6a0e9642c10(org.campagnelab.metar.tables.structure)" id="3402264987265829883" />
+                                      <node model="r:db1b133e-9a0f-4319-b384-413408eb1729(org.campagnelab.metar.tables.behavior)" id="3402264987259878127" />
                                     </node>
                                   </data>
                                   <children>
                                     <child>
-                                      <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="uses" info="role: &lt;i&gt;linkDeclaration&lt;/i&gt;; in: &lt;i&gt;ColumnGroup&lt;/i&gt;" excluded="false" expanded="false" isresult="true" results_section="false">
+                                      <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="RName(string):string" info="role: &lt;i&gt;method&lt;/i&gt;; in: &lt;i&gt;TableTransformation_Behavior&lt;/i&gt;" excluded="false" expanded="false" isresult="true" results_section="false">
                                         <role name="target" />
                                         <node>
-                                          <node model="r:9f2bbfbf-f8b7-4b3b-92b1-b6a0e9642c10(org.campagnelab.metar.tables.structure)" id="8016431400517087652" />
+                                          <node model="r:db1b133e-9a0f-4319-b384-413408eb1729(org.campagnelab.metar.tables.behavior)" id="772483346259745987" />
                                         </node>
                                       </data>
                                       <children />
@@ -1382,6 +1256,94 @@
                   </data>
                   <children>
                     <child>
+                      <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.CategoryNodeData" caption="&lt;b&gt;Exact Mathod Usages&lt;/b&gt;" info="" excluded="false" expanded="true" isresult="false" results_section="true" category="Exact Mathod Usages" category_kind="Category">
+                        <role name="category:Category" />
+                      </data>
+                      <children>
+                        <child>
+                          <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModuleNodeData" caption="org.campagnelab.metar.tables" info="" excluded="false" expanded="true" isresult="false" results_section="true" module_ref="5d6bde84-4ce4-4eb5-a37e-25a5edd55129(org.campagnelab.metar.tables)">
+                            <role name="module" />
+                          </data>
+                          <children>
+                            <child>
+                              <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModelNodeData" caption="org.campagnelab.metar.tables.behavior" info="" excluded="false" expanded="true" isresult="false" results_section="true">
+                                <role name="model" />
+                                <model uid="r:db1b133e-9a0f-4319-b384-413408eb1729(org.campagnelab.metar.tables.behavior)" />
+                              </data>
+                              <children>
+                                <child>
+                                  <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="TableTransformation_Behavior" info="" excluded="false" expanded="true" isresult="false" results_section="true">
+                                    <role name="root" />
+                                    <node>
+                                      <node model="r:db1b133e-9a0f-4319-b384-413408eb1729(org.campagnelab.metar.tables.behavior)" id="3402264987259878127" />
+                                    </node>
+                                  </data>
+                                  <children>
+                                    <child>
+                                      <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="Rname(string):string" info="role: &lt;i&gt;method&lt;/i&gt;; in: &lt;i&gt;TableTransformation_Behavior&lt;/i&gt;" excluded="false" expanded="false" isresult="false" results_section="true">
+                                        <role name="root to target" />
+                                        <node>
+                                          <node model="r:db1b133e-9a0f-4319-b384-413408eb1729(org.campagnelab.metar.tables.behavior)" id="772483346259656770" />
+                                        </node>
+                                      </data>
+                                      <children>
+                                        <child>
+                                          <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="RName(string):string" info="role: &lt;i&gt;operation&lt;/i&gt;; in: &lt;i&gt;DotExpression&lt;/i&gt;" excluded="false" expanded="false" isresult="true" results_section="true">
+                                            <role name="target" />
+                                            <node>
+                                              <node model="r:db1b133e-9a0f-4319-b384-413408eb1729(org.campagnelab.metar.tables.behavior)" id="772483346259751562" />
+                                            </node>
+                                          </data>
+                                          <children />
+                                        </child>
+                                      </children>
+                                    </child>
+                                  </children>
+                                </child>
+                              </children>
+                            </child>
+                            <child>
+                              <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModelNodeData" caption="org.campagnelab.metar.tables.behavior" info="" excluded="false" expanded="false" isresult="false" results_section="true">
+                                <role name="model" />
+                                <model uid="r:db1b133e-9a0f-4319-b384-413408eb1729(org.campagnelab.metar.tables.behavior)" />
+                              </data>
+                              <children>
+                                <child>
+                                  <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="FutureTable_Behavior" info="" excluded="false" expanded="true" isresult="false" results_section="true">
+                                    <role name="root" />
+                                    <node>
+                                      <node model="r:db1b133e-9a0f-4319-b384-413408eb1729(org.campagnelab.metar.tables.behavior)" id="772483346259741680" />
+                                    </node>
+                                  </data>
+                                  <children>
+                                    <child>
+                                      <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="Rname():string" info="role: &lt;i&gt;method&lt;/i&gt;; in: &lt;i&gt;FutureTable_Behavior&lt;/i&gt;" excluded="false" expanded="false" isresult="false" results_section="true">
+                                        <role name="root to target" />
+                                        <node>
+                                          <node model="r:db1b133e-9a0f-4319-b384-413408eb1729(org.campagnelab.metar.tables.behavior)" id="772483346259741683" />
+                                        </node>
+                                      </data>
+                                      <children>
+                                        <child>
+                                          <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="RName(string):string" info="role: &lt;i&gt;operation&lt;/i&gt;; in: &lt;i&gt;DotExpression&lt;/i&gt;" excluded="false" expanded="false" isresult="true" results_section="true">
+                                            <role name="target" />
+                                            <node>
+                                              <node model="r:db1b133e-9a0f-4319-b384-413408eb1729(org.campagnelab.metar.tables.behavior)" id="772483346259756157" />
+                                            </node>
+                                          </data>
+                                          <children />
+                                        </child>
+                                      </children>
+                                    </child>
+                                  </children>
+                                </child>
+                              </children>
+                            </child>
+                          </children>
+                        </child>
+                      </children>
+                    </child>
+                    <child>
                       <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.CategoryNodeData" caption="&lt;b&gt;Node Usages&lt;/b&gt;" info="" excluded="false" expanded="true" isresult="false" results_section="true" category="Node Usages" category_kind="Category">
                         <role name="category:Category" />
                       </data>
@@ -1392,108 +1354,74 @@
                           </data>
                           <children>
                             <child>
-                              <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModelNodeData" caption="org.campagnelab.metar.tables.editor" info="" excluded="false" expanded="true" isresult="false" results_section="true">
+                              <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModelNodeData" caption="org.campagnelab.metar.tables.behavior" info="" excluded="false" expanded="false" isresult="false" results_section="true">
                                 <role name="model" />
-                                <model uid="r:c14853f5-5f2e-4acc-825a-4fec67caca67(org.campagnelab.metar.tables.editor)" />
+                                <model uid="r:db1b133e-9a0f-4319-b384-413408eb1729(org.campagnelab.metar.tables.behavior)" />
                               </data>
                               <children>
                                 <child>
-                                  <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="ColumnGroup_Editor" info="" excluded="false" expanded="true" isresult="false" results_section="true">
+                                  <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="TableTransformation_Behavior" info="" excluded="false" expanded="false" isresult="false" results_section="true">
                                     <role name="root" />
                                     <node>
-                                      <node model="r:c14853f5-5f2e-4acc-825a-4fec67caca67(org.campagnelab.metar.tables.editor)" id="3402264987266246735" />
+                                      <node model="r:db1b133e-9a0f-4319-b384-413408eb1729(org.campagnelab.metar.tables.behavior)" id="3402264987259878127" />
                                     </node>
                                   </data>
                                   <children>
                                     <child>
-                                      <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="%uses%" info="role: &lt;i&gt;childCellModel&lt;/i&gt;; in: &lt;i&gt;collection&lt;/i&gt;" excluded="false" expanded="false" isresult="true" results_section="true">
-                                        <role name="target" />
+                                      <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="Rname(string):string" info="role: &lt;i&gt;method&lt;/i&gt;; in: &lt;i&gt;TableTransformation_Behavior&lt;/i&gt;" excluded="false" expanded="false" isresult="false" results_section="true">
+                                        <role name="root to target" />
                                         <node>
-                                          <node model="r:c14853f5-5f2e-4acc-825a-4fec67caca67(org.campagnelab.metar.tables.editor)" id="8016431400517088154" />
+                                          <node model="r:db1b133e-9a0f-4319-b384-413408eb1729(org.campagnelab.metar.tables.behavior)" id="772483346259656770" />
                                         </node>
                                       </data>
-                                      <children />
+                                      <children>
+                                        <child>
+                                          <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="RName(string):string" info="role: &lt;i&gt;operation&lt;/i&gt;; in: &lt;i&gt;DotExpression&lt;/i&gt;" excluded="false" expanded="false" isresult="true" results_section="true">
+                                            <role name="target" />
+                                            <node>
+                                              <node model="r:db1b133e-9a0f-4319-b384-413408eb1729(org.campagnelab.metar.tables.behavior)" id="772483346259751562" />
+                                            </node>
+                                          </data>
+                                          <children />
+                                        </child>
+                                      </children>
                                     </child>
                                   </children>
                                 </child>
                               </children>
                             </child>
                             <child>
-                              <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModelNodeData" caption="org.campagnelab.metar.tables.editor" info="" excluded="false" expanded="false" isresult="false" results_section="true">
+                              <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModelNodeData" caption="org.campagnelab.metar.tables.behavior" info="" excluded="false" expanded="false" isresult="false" results_section="true">
                                 <role name="model" />
-                                <model uid="r:c14853f5-5f2e-4acc-825a-4fec67caca67(org.campagnelab.metar.tables.editor)" />
+                                <model uid="r:db1b133e-9a0f-4319-b384-413408eb1729(org.campagnelab.metar.tables.behavior)" />
                               </data>
                               <children>
                                 <child>
-                                  <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="ColumnGroup_Editor" info="" excluded="false" expanded="false" isresult="false" results_section="true">
+                                  <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="FutureTable_Behavior" info="" excluded="false" expanded="false" isresult="false" results_section="true">
                                     <role name="root" />
                                     <node>
-                                      <node model="r:c14853f5-5f2e-4acc-825a-4fec67caca67(org.campagnelab.metar.tables.editor)" id="3402264987266246735" />
+                                      <node model="r:db1b133e-9a0f-4319-b384-413408eb1729(org.campagnelab.metar.tables.behavior)" id="772483346259741680" />
                                     </node>
                                   </data>
                                   <children>
                                     <child>
-                                      <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="uses" info="role: &lt;i&gt;operation&lt;/i&gt;; in: &lt;i&gt;DotExpression&lt;/i&gt;" excluded="false" expanded="false" isresult="true" results_section="true">
-                                        <role name="target" />
+                                      <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="Rname():string" info="role: &lt;i&gt;method&lt;/i&gt;; in: &lt;i&gt;FutureTable_Behavior&lt;/i&gt;" excluded="false" expanded="false" isresult="false" results_section="true">
+                                        <role name="root to target" />
                                         <node>
-                                          <node model="r:c14853f5-5f2e-4acc-825a-4fec67caca67(org.campagnelab.metar.tables.editor)" id="8031339867720336777" />
+                                          <node model="r:db1b133e-9a0f-4319-b384-413408eb1729(org.campagnelab.metar.tables.behavior)" id="772483346259741683" />
                                         </node>
                                       </data>
-                                      <children />
-                                    </child>
-                                  </children>
-                                </child>
-                              </children>
-                            </child>
-                            <child>
-                              <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModelNodeData" caption="org.campagnelab.metar.tables.scripts" info="" excluded="false" expanded="true" isresult="false" results_section="true">
-                                <role name="model" />
-                                <model uid="r:b8801778-8270-4737-91e5-83864290a257(org.campagnelab.metar.tables.scripts)" />
-                              </data>
-                              <children>
-                                <child>
-                                  <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="MigrateGroupUsages" info="" excluded="false" expanded="true" isresult="false" results_section="true">
-                                    <role name="root" />
-                                    <node>
-                                      <node model="r:b8801778-8270-4737-91e5-83864290a257(org.campagnelab.metar.tables.scripts)" id="8031339867720116828" />
-                                    </node>
-                                  </data>
-                                  <children>
-                                    <child>
-                                      <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="uses" info="role: &lt;i&gt;operation&lt;/i&gt;; in: &lt;i&gt;DotExpression&lt;/i&gt;" excluded="false" expanded="false" isresult="true" results_section="true">
-                                        <role name="target" />
-                                        <node>
-                                          <node model="r:b8801778-8270-4737-91e5-83864290a257(org.campagnelab.metar.tables.scripts)" id="8031339867720134754" />
-                                        </node>
-                                      </data>
-                                      <children />
-                                    </child>
-                                  </children>
-                                </child>
-                              </children>
-                            </child>
-                            <child>
-                              <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModelNodeData" caption="org.campagnelab.metar.tables.scripts" info="" excluded="false" expanded="false" isresult="false" results_section="true">
-                                <role name="model" />
-                                <model uid="r:b8801778-8270-4737-91e5-83864290a257(org.campagnelab.metar.tables.scripts)" />
-                              </data>
-                              <children>
-                                <child>
-                                  <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="MigrateGroupUsages" info="" excluded="false" expanded="false" isresult="false" results_section="true">
-                                    <role name="root" />
-                                    <node>
-                                      <node model="r:b8801778-8270-4737-91e5-83864290a257(org.campagnelab.metar.tables.scripts)" id="8031339867720116828" />
-                                    </node>
-                                  </data>
-                                  <children>
-                                    <child>
-                                      <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="uses" info="role: &lt;i&gt;operation&lt;/i&gt;; in: &lt;i&gt;DotExpression&lt;/i&gt;" excluded="false" expanded="false" isresult="true" results_section="true">
-                                        <role name="target" />
-                                        <node>
-                                          <node model="r:b8801778-8270-4737-91e5-83864290a257(org.campagnelab.metar.tables.scripts)" id="8031339867720119864" />
-                                        </node>
-                                      </data>
-                                      <children />
+                                      <children>
+                                        <child>
+                                          <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="RName(string):string" info="role: &lt;i&gt;operation&lt;/i&gt;; in: &lt;i&gt;DotExpression&lt;/i&gt;" excluded="false" expanded="false" isresult="true" results_section="true">
+                                            <role name="target" />
+                                            <node>
+                                              <node model="r:db1b133e-9a0f-4319-b384-413408eb1729(org.campagnelab.metar.tables.behavior)" id="772483346259756157" />
+                                            </node>
+                                          </data>
+                                          <children />
+                                        </child>
+                                      </children>
                                     </child>
                                   </children>
                                 </child>
@@ -1530,7 +1458,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="Add the ability to define xmin xmax on scatterplots." />
     <MESSAGE value="Add support for strings in expressions. This makes it possible to subset the allogenomics cohorts into validation and discovery and generate figures 1 and 2 automatically." />
     <MESSAGE value="Write r^2 with an expression to format nicely." />
     <MESSAGE value="Introduce ability to render a plot (or multi-plot) to PDF. Had to revert the use of scatterplot from car to graphics, because car does not play nicely with mfrow/mfcol and this is necessary to package multiple plots on one page." />
@@ -1555,67 +1482,10 @@
     <MESSAGE value="New intention to add a group to all columns of a Table." />
     <MESSAGE value="Generate edgeR up to the point where we estimate dispersion." />
     <MESSAGE value="Now produce results in an R table, but not connected to concept output table yet." />
-    <option name="LAST_COMMIT_MESSAGE" value="Now produce results in an R table, but not connected to concept output table yet." />
+    <MESSAGE value="Fix generation of - binary operator." />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix generation of - binary operator." />
   </component>
   <component name="editorHistoryManager">
-    <entry file="mps://node://org.campagnelab.metar.edgeR/org.campagnelab.metar.edgeR.structure/Plus">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
-          <memento viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretXRelative" value="56" />
-                <property name="caretX" value="71" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="Constant_ueqr71_c0a" cellNumber="0" isInList="false">
-                  <node node_reference="r:b5f8abba-ade6-48ed-8b03-df617183a3f0(org.campagnelab.metar.edgeR.structure)/8725455673819917021" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:624b8210-f4b3-400e-9df0-aad09dfbdddd(Diamond)/8725455673820913424" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </inspectorMemento>
-          <node node_ref="r:b5f8abba-ade6-48ed-8b03-df617183a3f0(org.campagnelab.metar.edgeR.structure)/8725455673819917021" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://org.campagnelab.metar.edgeR/org.campagnelab.metar.edgeR.structure/Minus">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
-          <memento viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretXRelative" value="12" />
-                <property name="caretX" value="95" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="property_conceptAlias" cellNumber="0" isInList="false">
-                  <node node_reference="r:b5f8abba-ade6-48ed-8b03-df617183a3f0(org.campagnelab.metar.edgeR.structure)/8725455673820948380" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:624b8210-f4b3-400e-9df0-aad09dfbdddd(Diamond)/8725455673820761801" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </inspectorMemento>
-          <node node_ref="r:b5f8abba-ade6-48ed-8b03-df617183a3f0(org.campagnelab.metar.edgeR.structure)/8725455673820948380" />
-        </state>
-      </provider>
-    </entry>
     <entry file="mps://node://org.campagnelab.metar.tables/org.campagnelab.metar.tables.structure/ColumnAnnotation">
       <provider selected="true" editor-type-id="MPSFileEditor">
         <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
@@ -2273,10 +2143,10 @@
               <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                 <property name="hasNonTrivialSelection" value="false" />
                 <property name="caretXRelative" value="4" />
-                <property name="caretX" value="87" />
+                <property name="caretX" value="152" />
                 <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
-                  <node node_reference="r:b8f62bc7-cfc9-4f34-8e06-7b1a81a9ab7a(org.campagnelab.metar.edgeR.generator.template.main@generator)/8031339867717136179" />
+                <cellInfo cellId="Constant_y5igai_a0" cellNumber="0" isInList="false">
+                  <node node_reference="r:b8f62bc7-cfc9-4f34-8e06-7b1a81a9ab7a(org.campagnelab.metar.edgeR.generator.template.main@generator)/8031339867729707905" />
                 </cellInfo>
               </stackElement>
             </selectionStack>
@@ -2284,7 +2154,7 @@
             <folded />
             <enabledHints />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:624b8210-f4b3-400e-9df0-aad09dfbdddd(Diamond)/8031339867728766019" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:624b8210-f4b3-400e-9df0-aad09dfbdddd(Diamond)/8031339867730246171" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorLabels />
             <folded />
@@ -2760,34 +2630,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="mps://node://Playground/Diamond/fit edgeR model">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-          <memento viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretXRelative" value="20" />
-                <property name="caretX" value="409" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
-                  <node node_reference="r:624b8210-f4b3-400e-9df0-aad09dfbdddd(Diamond)/8031339867728766019" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:624b8210-f4b3-400e-9df0-aad09dfbdddd(Diamond)/8031339867728766019" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </inspectorMemento>
-        </state>
-      </provider>
-    </entry>
     <entry file="mps://node://Playground/Diamond/RERMTCK-counts-table.tsv">
       <provider selected="true" editor-type-id="MPSFileEditor">
         <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
@@ -2835,8 +2677,18 @@
             <folded />
             <enabledHints />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:624b8210-f4b3-400e-9df0-aad09dfbdddd(Diamond)/8031339867728766019" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
+          <inspectorMemento currentlyEditedNode="r:b8f62bc7-cfc9-4f34-8e06-7b1a81a9ab7a(org.campagnelab.metar.edgeR.generator.template.main@generator)/8031339867729707905" viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretXRelative" value="8" />
+                <property name="caretX" value="423" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="Constant_arlg9k_c0" cellNumber="0" isInList="false">
+                  <node node_reference="r:b8f62bc7-cfc9-4f34-8e06-7b1a81a9ab7a(org.campagnelab.metar.edgeR.generator.template.main@generator)/8031339867730146190" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
             <errorLabels />
             <folded />
             <enabledHints />
@@ -2892,7 +2744,7 @@
             <folded />
             <enabledHints />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:624b8210-f4b3-400e-9df0-aad09dfbdddd(Diamond)/8031339867728766019" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:624b8210-f4b3-400e-9df0-aad09dfbdddd(Diamond)/8031339867730246171" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorLabels />
             <folded />
@@ -2905,15 +2757,15 @@
     <entry file="mps://node://org.campagnelab.metar.edgeR#8725455673819557209/org.campagnelab.metar.edgeR.generator.template.main@generator/main">
       <provider selected="true" editor-type-id="MPSFileEditor">
         <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-          <memento viewPositionX="0" viewPositionY="20">
+          <memento viewPositionX="0" viewPositionY="100">
             <selectionStack>
               <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                 <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretXRelative" value="0" />
-                <property name="caretX" value="233" />
+                <property name="caretXRelative" value="88" />
+                <property name="caretX" value="329" />
                 <property name="sideSelectDirection" value="NONE" />
                 <cellInfo cellId="property_name" cellNumber="0" isInList="false">
-                  <node node_reference="r:b8f62bc7-cfc9-4f34-8e06-7b1a81a9ab7a(org.campagnelab.metar.edgeR.generator.template.main@generator)/8031339867729316416" />
+                  <node node_reference="r:b8f62bc7-cfc9-4f34-8e06-7b1a81a9ab7a(org.campagnelab.metar.edgeR.generator.template.main@generator)/8031339867717136181" />
                 </cellInfo>
               </stackElement>
             </selectionStack>
@@ -2921,7 +2773,7 @@
             <folded />
             <enabledHints />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:624b8210-f4b3-400e-9df0-aad09dfbdddd(Diamond)/8031339867728766019" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:624b8210-f4b3-400e-9df0-aad09dfbdddd(Diamond)/8031339867730246171" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorLabels />
             <folded />
@@ -2949,7 +2801,7 @@
             <folded />
             <enabledHints />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:624b8210-f4b3-400e-9df0-aad09dfbdddd(Diamond)/8031339867728766019" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:624b8210-f4b3-400e-9df0-aad09dfbdddd(Diamond)/8031339867730246171" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorLabels />
             <folded />
@@ -2977,7 +2829,7 @@
             <folded />
             <enabledHints />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:624b8210-f4b3-400e-9df0-aad09dfbdddd(Diamond)/8031339867728766019" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:624b8210-f4b3-400e-9df0-aad09dfbdddd(Diamond)/8031339867730246171" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorLabels />
             <folded />
@@ -2996,13 +2848,101 @@
             <folded />
             <enabledHints />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:624b8210-f4b3-400e-9df0-aad09dfbdddd(Diamond)/8031339867728766019" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:624b8210-f4b3-400e-9df0-aad09dfbdddd(Diamond)/8031339867730246171" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorLabels />
             <folded />
             <enabledHints />
           </inspectorMemento>
           <node node_ref="r:b8f62bc7-cfc9-4f34-8e06-7b1a81a9ab7a(org.campagnelab.metar.edgeR.generator.template.main@generator)/8031339867729316414" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://org.campagnelab.metar.tables/org.campagnelab.metar.tables.structure/TableTransformation">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="selectionEnd" value="5" />
+                <property name="hasNonTrivialSelection" value="true" />
+                <property name="caretXRelative" value="20" />
+                <property name="selectionStart" value="0" />
+                <property name="caretX" value="215" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
+                  <node node_reference="r:db1b133e-9a0f-4319-b384-413408eb1729(org.campagnelab.metar.tables.behavior)/772483346259745987" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:624b8210-f4b3-400e-9df0-aad09dfbdddd(Diamond)/8031339867730246171" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </inspectorMemento>
+          <node node_ref="r:db1b133e-9a0f-4319-b384-413408eb1729(org.campagnelab.metar.tables.behavior)/3402264987259878127" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://org.campagnelab.metar.tables/org.campagnelab.metar.tables.structure/FutureTable">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretXRelative" value="4" />
+                <property name="caretX" value="151" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
+                  <node node_reference="r:db1b133e-9a0f-4319-b384-413408eb1729(org.campagnelab.metar.tables.behavior)/772483346259741680" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:624b8210-f4b3-400e-9df0-aad09dfbdddd(Diamond)/8031339867730246171" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </inspectorMemento>
+          <node node_ref="r:db1b133e-9a0f-4319-b384-413408eb1729(org.campagnelab.metar.tables.behavior)/772483346259741680" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://Playground/Diamond/fit edgeR model">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretXRelative" value="0" />
+                <property name="caretX" value="31" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="Constant_s23fc5_a0" cellNumber="0" isInList="false">
+                  <node node_reference="r:624b8210-f4b3-400e-9df0-aad09dfbdddd(Diamond)/8031339867730246171" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:624b8210-f4b3-400e-9df0-aad09dfbdddd(Diamond)/8031339867730246171" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </inspectorMemento>
         </state>
       </provider>
     </entry>

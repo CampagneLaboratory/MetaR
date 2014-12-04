@@ -29,6 +29,7 @@
     <classNode dependClassName="org.campagnelab.metar.edgeR.behavior.EdgeRTest_Behavior" />
     <classNode dependClassName="org.campagnelab.metar.edgeR.behavior.GroupFormula_Behavior" />
     <classNode dependClassName="org.campagnelab.metar.tables.behavior.ColumnGroup_Behavior" />
+    <classNode dependClassName="org.campagnelab.metar.tables.behavior.FutureTable_Behavior" />
     <classNode dependClassName="org.campagnelab.metar.tables.behavior.TableRef_Behavior" />
     <classNode dependClassName="org.campagnelab.metar.tables.generationhelpers.NameHelper" />
     <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
