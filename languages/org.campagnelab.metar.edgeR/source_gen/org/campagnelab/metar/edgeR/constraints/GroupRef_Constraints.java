@@ -52,7 +52,7 @@ public class GroupRef_Constraints extends BaseConstraintsDescriptor {
               // find groups that include the group usages described in the model: 
               Iterable<SNode> groups = ListSequence.fromList(SNodeOperations.getDescendants(SLinkOperations.getTarget(SLinkOperations.getTarget(SNodeOperations.getAncestor(_context.getEnclosingNode(), "org.campagnelab.metar.edgeR.structure.EdgeRTest", true, false), "modelFormula", true), "groupExpression", true), "org.campagnelab.metar.edgeR.structure.GroupUsageRef", false, new String[]{})).translate(new ITranslator2<SNode, SNode>() {
                 public Iterable<SNode> translate(SNode it) {
-                  return UsageType_Behavior.call_columnsWithType_8031339867712208994(SLinkOperations.getTarget(it, "groupUsage", false));
+                  return UsageType_Behavior.call_columnsWithThisUsageType_8031339867712208994(SLinkOperations.getTarget(it, "groupUsage", false));
                 }
               });
               return ListScope.forNamedElements(groups);

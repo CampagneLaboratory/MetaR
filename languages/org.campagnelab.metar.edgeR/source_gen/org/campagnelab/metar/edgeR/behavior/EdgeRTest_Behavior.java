@@ -5,6 +5,8 @@ package org.campagnelab.metar.edgeR.behavior;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
+import jetbrains.mps.internal.collections.runtime.ListSequence;
+import java.util.ArrayList;
 
 public class EdgeRTest_Behavior {
   public static void init(SNode thisNode) {
@@ -12,5 +14,9 @@ public class EdgeRTest_Behavior {
     SLinkOperations.setTarget(thisNode, "modelFormula", SConceptOperations.createNewNode("org.campagnelab.metar.edgeR.structure.GroupFormula", null), true);
     SLinkOperations.setTarget(thisNode, "dispersionMethod", SConceptOperations.createNewNode("org.campagnelab.metar.edgeR.structure.CommonDispersion", null), true);
     SLinkOperations.setTarget(thisNode, "contrasts", SConceptOperations.createNewNode("org.campagnelab.metar.edgeR.structure.GroupExpression", null), true);
+  }
+
+  public static Iterable<String> virtual_dependencies_8962032619593737608(SNode thisNode) {
+    return ListSequence.fromListAndArray(new ArrayList<String>(), "Cairo", "limma", "edgeR");
   }
 }

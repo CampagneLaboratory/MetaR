@@ -30,6 +30,7 @@
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations" />
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations" />
     <classNode dependClassName="jetbrains.mps.smodel.behaviour.BehaviorReflection" />
+    <classNode dependClassName="org.campagnelab.metar.tables.behavior.ColumnGroup_Behavior" />
     <classNode dependClassName="org.campagnelab.metar.tables.behavior.ColumnRef_Behavior" />
     <classNode dependClassName="org.campagnelab.metar.tables.behavior.FutureTable_Behavior" />
     <classNode dependClassName="org.campagnelab.metar.tables.behavior.Model_Behavior" />

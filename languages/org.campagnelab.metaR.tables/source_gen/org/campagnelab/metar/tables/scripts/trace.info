@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debugInfo>
+  <root nodeRef="r:b8801778-8270-4737-91e5-83864290a257(org.campagnelab.metar.tables.scripts)/8031339867720116828">
+    <nodeInfo nodeId="8031339867720116828" fileName="MigrateGroupUsages_MigrationScript.java" startLine="19" startPosition="81" endLine="20" endPosition="41" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+    <nodeInfo nodeId="8031339867720117111" fileName="MigrateGroupUsages_MigrationScript.java" startLine="22" startPosition="31" endLine="23" endPosition="46" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8031339867720117111" fileName="MigrateGroupUsages_MigrationScript.java" startLine="26" startPosition="41" endLine="27" endPosition="46" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8031339867720117111" fileName="MigrateGroupUsages_MigrationScript.java" startLine="30" startPosition="59" endLine="31" endPosition="68" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8031339867720117772" fileName="MigrateGroupUsages_MigrationScript.java" startLine="34" startPosition="59" endLine="35" endPosition="98" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8031339867720141268" fileName="MigrateGroupUsages_MigrationScript.java" startLine="38" startPosition="58" endLine="39" endPosition="184" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="8031339867720241809" fileName="MigrateGroupUsages_MigrationScript.java" startLine="41" startPosition="46" endLine="42" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8031339867720191797" fileName="MigrateGroupUsages_MigrationScript.java" startLine="42" startPosition="44" endLine="43" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
+    <nodeInfo nodeId="8031339867720178698" fileName="MigrateGroupUsages_MigrationScript.java" startLine="45" startPosition="47" endLine="46" endPosition="116" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8031339867720195713" fileName="MigrateGroupUsages_MigrationScript.java" startLine="49" startPosition="36" endLine="50" endPosition="107" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8031339867720300339" fileName="MigrateGroupUsages_MigrationScript.java" startLine="50" startPosition="107" endLine="51" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8031339867720282292" fileName="MigrateGroupUsages_MigrationScript.java" startLine="52" startPosition="13" endLine="53" endPosition="118" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="8031339867720290467" fileName="MigrateGroupUsages_MigrationScript.java" startLine="53" startPosition="118" endLine="54" endPosition="70" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8031339867720250695" fileName="MigrateGroupUsages_MigrationScript.java" startLine="54" startPosition="70" endLine="55" endPosition="102" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8031339867720277553" fileName="MigrateGroupUsages_MigrationScript.java" startLine="55" startPosition="102" endLine="56" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
+    <nodeInfo nodeId="8031339867720117111" fileName="MigrateGroupUsages_MigrationScript.java" startLine="61" startPosition="42" endLine="62" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8031339867720117111" fileName="MigrateGroupUsages_MigrationScript.java" startLine="22" startPosition="0" endLine="25" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getName#()Ljava/lang/String;" />
+    <nodeInfo nodeId="8031339867720117111" fileName="MigrateGroupUsages_MigrationScript.java" startLine="26" startPosition="0" endLine="29" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getAdditionalInfo#()Ljava/lang/String;" />
+    <nodeInfo nodeId="8031339867720117111" fileName="MigrateGroupUsages_MigrationScript.java" startLine="30" startPosition="0" endLine="33" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getFqNameOfConceptToSearchInstances#()Ljava/lang/String;" />
+    <nodeInfo nodeId="8031339867720117111" fileName="MigrateGroupUsages_MigrationScript.java" startLine="34" startPosition="0" endLine="37" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isApplicableInstanceNode#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
+    <nodeInfo nodeId="8031339867720178282" fileName="MigrateGroupUsages_MigrationScript.java" startLine="45" startPosition="0" endLine="48" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="accept#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
+    <nodeInfo nodeId="8031339867720117111" fileName="MigrateGroupUsages_MigrationScript.java" startLine="61" startPosition="0" endLine="64" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isShowAsIntention#()Z" />
+    <nodeInfo nodeId="8031339867720193169" fileName="MigrateGroupUsages_MigrationScript.java" startLine="48" startPosition="15" endLine="52" endPosition="13" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="8031339867720187928" fileName="MigrateGroupUsages_MigrationScript.java" startLine="43" startPosition="0" endLine="48" endPosition="15" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="8031339867720140814" fileName="MigrateGroupUsages_MigrationScript.java" startLine="41" startPosition="0" endLine="58" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="visit#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+    <nodeInfo nodeId="8031339867720134070" fileName="MigrateGroupUsages_MigrationScript.java" startLine="39" startPosition="184" endLine="58" endPosition="11" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8031339867720117111" fileName="MigrateGroupUsages_MigrationScript.java" startLine="38" startPosition="0" endLine="60" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="doUpdateInstanceNode#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+    <nodeInfo nodeId="8031339867720116828" fileName="MigrateGroupUsages_MigrationScript.java" startLine="20" startPosition="41" endLine="64" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="8031339867720117111" fileName="MigrateGroupUsages_MigrationScript.java" startLine="20" startPosition="41" endLine="64" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8031339867720116828" fileName="MigrateGroupUsages_MigrationScript.java" startLine="19" startPosition="0" endLine="66" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="MigrateGroupUsages_MigrationScript#(Ljetbrains/mps/smodel/IOperationContext;)V" />
+    <scopeInfo nodeId="8031339867720117111" fileName="MigrateGroupUsages_MigrationScript.java" startLine="22" startPosition="31" endLine="23" endPosition="46" />
+    <scopeInfo nodeId="8031339867720117111" fileName="MigrateGroupUsages_MigrationScript.java" startLine="26" startPosition="41" endLine="27" endPosition="46" />
+    <scopeInfo nodeId="8031339867720117111" fileName="MigrateGroupUsages_MigrationScript.java" startLine="30" startPosition="59" endLine="31" endPosition="68" />
+    <scopeInfo nodeId="8031339867720117121" fileName="MigrateGroupUsages_MigrationScript.java" startLine="34" startPosition="59" endLine="35" endPosition="98" />
+    <scopeInfo nodeId="8031339867720178283" fileName="MigrateGroupUsages_MigrationScript.java" startLine="45" startPosition="47" endLine="46" endPosition="116" />
+    <scopeInfo nodeId="8031339867720117111" fileName="MigrateGroupUsages_MigrationScript.java" startLine="61" startPosition="42" endLine="62" endPosition="20" />
+    <scopeInfo nodeId="8031339867720193172" fileName="MigrateGroupUsages_MigrationScript.java" startLine="49" startPosition="36" endLine="51" endPosition="30" />
+    <scopeInfo nodeId="8031339867720117111" fileName="MigrateGroupUsages_MigrationScript.java" startLine="22" startPosition="0" endLine="25" endPosition="0" />
+    <scopeInfo nodeId="8031339867720117111" fileName="MigrateGroupUsages_MigrationScript.java" startLine="26" startPosition="0" endLine="29" endPosition="0" />
+    <scopeInfo nodeId="8031339867720117111" fileName="MigrateGroupUsages_MigrationScript.java" startLine="30" startPosition="0" endLine="33" endPosition="0" />
+    <scopeInfo nodeId="8031339867720117111" fileName="MigrateGroupUsages_MigrationScript.java" startLine="34" startPosition="0" endLine="37" endPosition="0">
+      <varInfo nodeId="8031339867720117111" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="8031339867720178282" fileName="MigrateGroupUsages_MigrationScript.java" startLine="45" startPosition="0" endLine="48" endPosition="0">
+      <varInfo nodeId="8031339867720178282" varName="it" />
+    </scopeInfo>
+    <scopeInfo nodeId="8031339867720117111" fileName="MigrateGroupUsages_MigrationScript.java" startLine="61" startPosition="0" endLine="64" endPosition="0" />
+    <scopeInfo nodeId="8031339867720140815" fileName="MigrateGroupUsages_MigrationScript.java" startLine="41" startPosition="46" endLine="56" endPosition="0">
+      <varInfo nodeId="8031339867720282295" varName="ref" />
+      <varInfo nodeId="8031339867720187931" varName="usageType" />
+    </scopeInfo>
+    <scopeInfo nodeId="8031339867720140814" fileName="MigrateGroupUsages_MigrationScript.java" startLine="41" startPosition="0" endLine="58" endPosition="0">
+      <varInfo nodeId="8031339867720140814" varName="use" />
+    </scopeInfo>
+    <scopeInfo nodeId="8031339867720117115" fileName="MigrateGroupUsages_MigrationScript.java" startLine="38" startPosition="58" endLine="58" endPosition="11">
+      <varInfo nodeId="8031339867720141271" varName="container" />
+    </scopeInfo>
+    <scopeInfo nodeId="8031339867720117111" fileName="MigrateGroupUsages_MigrationScript.java" startLine="38" startPosition="0" endLine="60" endPosition="0">
+      <varInfo nodeId="8031339867720117111" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="8031339867720117111" fileName="MigrateGroupUsages_MigrationScript.java" startLine="20" startPosition="41" endLine="64" endPosition="7" />
+    <scopeInfo nodeId="8031339867720116828" fileName="MigrateGroupUsages_MigrationScript.java" startLine="19" startPosition="81" endLine="64" endPosition="7" />
+    <scopeInfo nodeId="8031339867720116828" fileName="MigrateGroupUsages_MigrationScript.java" startLine="19" startPosition="0" endLine="66" endPosition="0">
+      <varInfo nodeId="8031339867720116828" varName="operationContext" />
+    </scopeInfo>
+    <unitInfo nodeId="8031339867720178282" fileName="MigrateGroupUsages_MigrationScript.java" startLine="44" startPosition="121" endLine="48" endPosition="13" unitName="org.campagnelab.metar.tables.scripts.MigrateGroupUsages_MigrationScript$3" />
+    <unitInfo nodeId="8031339867720140814" fileName="MigrateGroupUsages_MigrationScript.java" startLine="40" startPosition="91" endLine="58" endPosition="9" unitName="org.campagnelab.metar.tables.scripts.MigrateGroupUsages_MigrationScript$2" />
+    <unitInfo nodeId="8031339867720117111" fileName="MigrateGroupUsages_MigrationScript.java" startLine="21" startPosition="28" endLine="64" endPosition="5" unitName="org.campagnelab.metar.tables.scripts.MigrateGroupUsages_MigrationScript$1" />
+    <unitInfo nodeId="8031339867720116828" fileName="MigrateGroupUsages_MigrationScript.java" startLine="18" startPosition="0" endLine="67" endPosition="0" unitName="org.campagnelab.metar.tables.scripts.MigrateGroupUsages_MigrationScript" />
+  </root>
+</debugInfo>
+

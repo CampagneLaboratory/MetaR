@@ -7,17 +7,18 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.internal.collections.runtime.IWhereFilter;
+import jetbrains.mps.internal.collections.runtime.Sequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 
 public class UsageType_Behavior {
   public static void init(SNode thisNode) {
   }
 
-  public static Iterable<SNode> call_columnsWithType_8031339867712208994(final SNode thisNode) {
+  public static Iterable<SNode> call_columnsWithThisUsageType_8031339867712208994(final SNode thisNode) {
     SNode table = SNodeOperations.getAncestor(thisNode, "org.campagnelab.metar.tables.structure.ColumnGroupContainer", false, false);
     return ListSequence.fromList(SLinkOperations.getTargets(table, "groups", true)).where(new IWhereFilter<SNode>() {
       public boolean accept(SNode columnGroup) {
-        return ListSequence.fromList(SLinkOperations.getTargets(columnGroup, "uses", true)).any(new IWhereFilter<SNode>() {
+        return Sequence.fromIterable(ColumnGroup_Behavior.call_uses_8031339867721231487(columnGroup)).any(new IWhereFilter<SNode>() {
           public boolean accept(SNode use) {
             return eq_1jebxn_a0a0a0a0a0a0a0a0a0b0b(SPropertyOperations.getString(use, "name"), SPropertyOperations.getString(thisNode, "name"));
           }

@@ -439,5 +439,9 @@
       </node>
     </node>
   </root>
+  <root type="tp1t.ConceptConstraints" typeId="tp1t.1213093968558" id="8031339867721231242" nodeInfo="ng">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="annotations" />
+    <link role="concept" roleId="tp1t.1213093996982" targetNodeId="jrxw.3402264987265829883" resolveInfo="ColumnGroup" />
+  </root>
 </model>
 

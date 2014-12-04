@@ -22,9 +22,10 @@ import jetbrains.mps.internal.collections.runtime.ISelector;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.AttributeOperations;
 import jetbrains.mps.internal.collections.runtime.IWhereFilter;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.IAttributeDescriptor;
+import jetbrains.mps.internal.collections.runtime.Sequence;
+import org.campagnelab.metar.tables.behavior.ColumnGroup_Behavior;
 import org.campagnelab.metar.tables.behavior.Plot_Behavior;
 import org.campagnelab.metar.tables.behavior.Multiplot_Behavior;
-import jetbrains.mps.internal.collections.runtime.Sequence;
 import org.campagnelab.metar.tables.behavior.Render_Behavior;
 import org.campagnelab.metar.tables.behavior.ColumnRef_Behavior;
 import org.campagnelab.metar.tables.behavior.Model_Behavior;
@@ -118,7 +119,7 @@ public class QueriesGenerated {
         }
       }), new IAttributeDescriptor.NodeAttribute("org.campagnelab.metar.tables.structure.ColumnAnnotation")), "groups", true)).where(new IWhereFilter<SNode>() {
         public boolean accept(SNode it) {
-          return ListSequence.fromList(SLinkOperations.getTargets(SLinkOperations.getTarget(it, "columnGroup", false), "uses", true)).any(new IWhereFilter<SNode>() {
+          return Sequence.fromIterable(ColumnGroup_Behavior.call_uses_8031339867721231487(SLinkOperations.getTarget(it, "columnGroup", false))).any(new IWhereFilter<SNode>() {
             public boolean accept(SNode use) {
               return eq_x583g4_a0a0a0a0a0a0a0a0a0a0a0a0a8a61(SPropertyOperations.getString(use, "name"), "heatmap");
             }

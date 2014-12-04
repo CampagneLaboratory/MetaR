@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dependenciesRoot>
+  <dependency className="org.campagnelab.metar.tables.constraints.ColumnGroup_Constraints" file="ColumnGroup_Constraints.java">
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.base.BaseConstraintsDescriptor" />
+  </dependency>
   <dependency className="org.campagnelab.metar.tables.constraints.ColumnRef_Constraints" file="ColumnRef_Constraints.java">
     <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="java.lang.String" />
@@ -29,6 +32,7 @@
     <classNode dependClassName="java.util.Arrays" />
     <classNode dependClassName="jetbrains.mps.smodel.runtime.ConstraintsDescriptor" />
     <classNode dependClassName="jetbrains.mps.smodel.runtime.base.BaseConstraintsDescriptor" />
+    <classNode dependClassName="org.campagnelab.metar.tables.constraints.ColumnGroup_Constraints" />
     <classNode dependClassName="org.campagnelab.metar.tables.constraints.ColumnRef_Constraints" />
     <classNode dependClassName="org.campagnelab.metar.tables.constraints.CommonColumnSelection_Constraints" />
     <classNode dependClassName="org.campagnelab.metar.tables.constraints.FitXByY_Constraints" />

@@ -6,6 +6,13 @@ import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
+import jetbrains.mps.internal.collections.runtime.ISelector;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SModelOperations;
+import jetbrains.mps.internal.collections.runtime.ITranslator2;
+import org.campagnelab.metar.tables.behavior.ColumnGroup_Behavior;
+import jetbrains.mps.internal.collections.runtime.IWhereFilter;
+import jetbrains.mps.internal.collections.runtime.Sequence;
 
 public class GroupFormula_Behavior {
   public static void init(SNode thisNode) {
@@ -17,5 +24,28 @@ public class GroupFormula_Behavior {
 
   public static boolean call_oneFactor_8031339867717509466(SNode thisNode) {
     return ListSequence.fromList(SNodeOperations.getDescendants(SLinkOperations.getTarget(thisNode, "groupExpression", true), "org.campagnelab.metar.edgeR.structure.GroupRef", false, new String[]{})).count() == 1;
+  }
+
+  public static Iterable<SNode> call_calculateGroupUsageNames_8031339867724617718(SNode thisNode) {
+    final Iterable<String> groupUsageNames = ListSequence.fromList(SNodeOperations.getDescendants(thisNode, "org.campagnelab.metar.edgeR.structure.GroupUsageRef", false, new String[]{})).select(new ISelector<SNode, String>() {
+      public String select(SNode it) {
+        return SPropertyOperations.getString(SLinkOperations.getTarget(it, "groupUsage", false), "name");
+      }
+    }).distinct();
+    // calculate the set of groups that have usage in the model formula: 
+    // remove each column that is not labeled with the counts group 
+    return ListSequence.fromList(SModelOperations.getRoots(SNodeOperations.getModel(thisNode), "org.campagnelab.metar.tables.structure.ColumnGroupContainer")).translate(new ITranslator2<SNode, SNode>() {
+      public Iterable<SNode> translate(SNode it) {
+        return SLinkOperations.getTargets(it, "groups", true);
+      }
+    }).translate(new ITranslator2<SNode, SNode>() {
+      public Iterable<SNode> translate(SNode it) {
+        return ColumnGroup_Behavior.call_uses_8031339867721231487(it);
+      }
+    }).where(new IWhereFilter<SNode>() {
+      public boolean accept(SNode use) {
+        return Sequence.fromIterable(groupUsageNames).contains(SPropertyOperations.getString(use, "name"));
+      }
+    }).distinct();
   }
 }

@@ -7,7 +7,7 @@
     <nodeInfo nodeId="8043901499795686493" fileName="GroupRef_Constraints.java" startLine="36" startPosition="44" endLine="37" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="8043901499795686493" fileName="GroupRef_Constraints.java" startLine="45" startPosition="63" endLine="46" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="8043901499795862030" fileName="GroupRef_Constraints.java" startLine="51" startPosition="13" endLine="52" endPosition="83" conceptFqName="jetbrains.mps.baseLanguage.structure.SingleLineComment" />
-    <nodeInfo nodeId="8031339867712549053" fileName="GroupRef_Constraints.java" startLine="54" startPosition="60" endLine="55" endPosition="137" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8031339867712549053" fileName="GroupRef_Constraints.java" startLine="54" startPosition="60" endLine="55" endPosition="146" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="8043901499795778351" fileName="GroupRef_Constraints.java" startLine="57" startPosition="17" endLine="58" endPosition="56" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="8043901499795686493" fileName="GroupRef_Constraints.java" startLine="63" startPosition="7" endLine="64" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="8043901499795686493" fileName="GroupRef_Constraints.java" startLine="67" startPosition="0" endLine="68" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="breakingNode_efiolh_a0a0a0a0a1a0b0a1a1" />
@@ -25,7 +25,7 @@
     <scopeInfo nodeId="8043901499795686493" fileName="GroupRef_Constraints.java" startLine="27" startPosition="33" endLine="28" endPosition="60" />
     <scopeInfo nodeId="8043901499795686493" fileName="GroupRef_Constraints.java" startLine="36" startPosition="44" endLine="37" endPosition="20" />
     <scopeInfo nodeId="8043901499795686493" fileName="GroupRef_Constraints.java" startLine="45" startPosition="63" endLine="46" endPosition="58" />
-    <scopeInfo nodeId="8031339867712548504" fileName="GroupRef_Constraints.java" startLine="54" startPosition="60" endLine="55" endPosition="137" />
+    <scopeInfo nodeId="8031339867712548504" fileName="GroupRef_Constraints.java" startLine="54" startPosition="60" endLine="55" endPosition="146" />
     <scopeInfo nodeId="8043901499795686493" fileName="GroupRef_Constraints.java" startLine="27" startPosition="0" endLine="30" endPosition="0" />
     <scopeInfo nodeId="8031339867712548503" fileName="GroupRef_Constraints.java" startLine="54" startPosition="0" endLine="57" endPosition="0">
       <varInfo nodeId="8031339867712548503" varName="it" />
