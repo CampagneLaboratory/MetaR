@@ -2,7 +2,7 @@
 <debugInfo>
   <unitInfo fileName="AbstractRowFilter_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="org.campagnelab.metar.tables.behavior.AbstractRowFilter_BehaviorDescriptor" />
   <unitInfo fileName="Analysis_BehaviorDescriptor.java" startLine="13" startPosition="0" endLine="38" endPosition="0" unitName="org.campagnelab.metar.tables.behavior.Analysis_BehaviorDescriptor" />
-  <unitInfo fileName="BehaviorAspectDescriptor.java" startLine="9" startPosition="0" endLine="108" endPosition="0" unitName="org.campagnelab.metar.tables.behavior.BehaviorAspectDescriptor" />
+  <unitInfo fileName="BehaviorAspectDescriptor.java" startLine="9" startPosition="0" endLine="110" endPosition="0" unitName="org.campagnelab.metar.tables.behavior.BehaviorAspectDescriptor" />
   <unitInfo fileName="ColumnAnnotation_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="org.campagnelab.metar.tables.behavior.ColumnAnnotation_BehaviorDescriptor" />
   <unitInfo fileName="ColumnGroupContainer_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="org.campagnelab.metar.tables.behavior.ColumnGroupContainer_BehaviorDescriptor" />
   <unitInfo fileName="ColumnGroupReference_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="org.campagnelab.metar.tables.behavior.ColumnGroupReference_BehaviorDescriptor" />
@@ -21,6 +21,7 @@
   <unitInfo fileName="FutureTableRef_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="org.campagnelab.metar.tables.behavior.FutureTableRef_BehaviorDescriptor" />
   <unitInfo fileName="FutureTable_BehaviorDescriptor.java" startLine="10" startPosition="0" endLine="23" endPosition="0" unitName="org.campagnelab.metar.tables.behavior.FutureTable_BehaviorDescriptor" />
   <unitInfo fileName="Heatmap_BehaviorDescriptor.java" startLine="10" startPosition="0" endLine="31" endPosition="0" unitName="org.campagnelab.metar.tables.behavior.Heatmap_BehaviorDescriptor" />
+  <unitInfo fileName="Histogram_BehaviorDescriptor.java" startLine="10" startPosition="0" endLine="31" endPosition="0" unitName="org.campagnelab.metar.tables.behavior.Histogram_BehaviorDescriptor" />
   <unitInfo fileName="IColumnNames_BehaviorDescriptor.java" startLine="8" startPosition="0" endLine="11" endPosition="0" unitName="org.campagnelab.metar.tables.behavior.IColumnNames_BehaviorDescriptor" />
   <unitInfo fileName="ID_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="org.campagnelab.metar.tables.behavior.ID_BehaviorDescriptor" />
   <unitInfo fileName="ImportTable_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="org.campagnelab.metar.tables.behavior.ImportTable_BehaviorDescriptor" />
@@ -361,6 +362,59 @@
       <varInfo nodeId="4842667988072577706" varName="thisNode" />
     </scopeInfo>
     <unitInfo nodeId="4842667988072577706" fileName="RenderStyle_Behavior.java" startLine="8" startPosition="0" endLine="13" endPosition="0" unitName="org.campagnelab.metar.tables.behavior.RenderStyle_Behavior" />
+  </root>
+  <root nodeRef="r:db1b133e-9a0f-4319-b384-413408eb1729(org.campagnelab.metar.tables.behavior)/4977909310693662139">
+    <nodeInfo nodeId="4977909310693666304" fileName="Histogram_Behavior.java" startLine="24" startPosition="91" endLine="25" endPosition="95" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="4977909310693666312" fileName="Histogram_Behavior.java" startLine="25" startPosition="95" endLine="26" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4977909310698203508" fileName="Histogram_Behavior.java" startLine="29" startPosition="101" endLine="30" endPosition="27" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="4977909310698203527" fileName="Histogram_Behavior.java" startLine="34" startPosition="43" endLine="35" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4977909310698203527" fileName="Histogram_Behavior.java" startLine="38" startPosition="41" endLine="39" endPosition="71" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4977909310698203539" fileName="Histogram_Behavior.java" startLine="44" startPosition="114" endLine="45" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4977909310698203547" fileName="Histogram_Behavior.java" startLine="46" startPosition="5" endLine="47" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4977909310693662139" fileName="Histogram_Behavior.java" startLine="21" startPosition="0" endLine="23" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+    <nodeInfo nodeId="4977909310698203527" fileName="Histogram_Behavior.java" startLine="34" startPosition="0" endLine="37" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="accept#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
+    <nodeInfo nodeId="4977909310698203527" fileName="Histogram_Behavior.java" startLine="38" startPosition="0" endLine="41" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="select#(Lorg/jetbrains/mps/openapi/model/SNode;)Lorg/jetbrains/mps/openapi/model/SNode;" />
+    <nodeInfo nodeId="4977909310698203537" fileName="Histogram_Behavior.java" startLine="43" startPosition="7" endLine="46" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="4977909310693662139" fileName="Histogram_Behavior.java" startLine="24" startPosition="0" endLine="28" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_dependencies_8962032619593737608#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/Iterable;" />
+    <nodeInfo nodeId="4977909310698203526" fileName="Histogram_Behavior.java" startLine="32" startPosition="50" endLine="41" endPosition="11" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4977909310698203524" fileName="Histogram_Behavior.java" startLine="32" startPosition="0" endLine="43" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="translate#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/Iterable;" />
+    <nodeInfo nodeId="4977909310698203512" fileName="Histogram_Behavior.java" startLine="30" startPosition="27" endLine="43" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4977909310693662139" fileName="Histogram_Behavior.java" startLine="29" startPosition="0" endLine="49" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_getScope_3734116213129936182#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/scope/Scope;" />
+    <scopeInfo nodeId="4977909310693662292" fileName="Histogram_Behavior.java" startLine="21" startPosition="43" endLine="21" endPosition="43" />
+    <scopeInfo nodeId="4977909310698203527" fileName="Histogram_Behavior.java" startLine="34" startPosition="43" endLine="35" endPosition="81" />
+    <scopeInfo nodeId="4977909310698203527" fileName="Histogram_Behavior.java" startLine="38" startPosition="41" endLine="39" endPosition="71" />
+    <scopeInfo nodeId="4977909310698203538" fileName="Histogram_Behavior.java" startLine="44" startPosition="114" endLine="45" endPosition="82" />
+    <scopeInfo nodeId="4977909310693662139" fileName="Histogram_Behavior.java" startLine="21" startPosition="0" endLine="23" endPosition="0">
+      <varInfo nodeId="4977909310693662139" varName="thisNode" />
+    </scopeInfo>
+    <scopeInfo nodeId="4977909310693666303" fileName="Histogram_Behavior.java" startLine="24" startPosition="91" endLine="26" endPosition="20">
+      <varInfo nodeId="4977909310693666305" varName="packages" />
+    </scopeInfo>
+    <scopeInfo nodeId="4977909310698203527" fileName="Histogram_Behavior.java" startLine="34" startPosition="0" endLine="37" endPosition="0">
+      <varInfo nodeId="4977909310698203527" varName="it" />
+    </scopeInfo>
+    <scopeInfo nodeId="4977909310698203527" fileName="Histogram_Behavior.java" startLine="38" startPosition="0" endLine="41" endPosition="0">
+      <varInfo nodeId="4977909310698203527" varName="it" />
+    </scopeInfo>
+    <scopeInfo nodeId="4977909310693662139" fileName="Histogram_Behavior.java" startLine="24" startPosition="0" endLine="28" endPosition="0">
+      <varInfo nodeId="4977909310693662139" varName="thisNode" />
+    </scopeInfo>
+    <scopeInfo nodeId="4977909310698203525" fileName="Histogram_Behavior.java" startLine="32" startPosition="50" endLine="41" endPosition="11" />
+    <scopeInfo nodeId="4977909310698203524" fileName="Histogram_Behavior.java" startLine="32" startPosition="0" endLine="43" endPosition="0">
+      <varInfo nodeId="4977909310698203524" varName="it" />
+    </scopeInfo>
+    <scopeInfo nodeId="4977909310698203507" fileName="Histogram_Behavior.java" startLine="29" startPosition="101" endLine="47" endPosition="16">
+      <varInfo nodeId="4977909310698203509" varName="groups" />
+    </scopeInfo>
+    <scopeInfo nodeId="4977909310693662139" fileName="Histogram_Behavior.java" startLine="29" startPosition="0" endLine="49" endPosition="0">
+      <varInfo nodeId="4977909310698203551" varName="child" />
+      <varInfo nodeId="4977909310698203549" varName="kind" />
+      <varInfo nodeId="4977909310693662139" varName="thisNode" />
+    </scopeInfo>
+    <unitInfo nodeId="4977909310698203527" fileName="Histogram_Behavior.java" startLine="33" startPosition="228" endLine="37" endPosition="9" unitName="org.campagnelab.metar.tables.behavior.Histogram_Behavior$2" />
+    <unitInfo nodeId="4977909310698203527" fileName="Histogram_Behavior.java" startLine="37" startPosition="22" endLine="41" endPosition="9" unitName="org.campagnelab.metar.tables.behavior.Histogram_Behavior$2" />
+    <unitInfo nodeId="4977909310698203524" fileName="Histogram_Behavior.java" startLine="31" startPosition="189" endLine="43" endPosition="5" unitName="org.campagnelab.metar.tables.behavior.Histogram_Behavior$1" />
+    <unitInfo nodeId="4977909310693662139" fileName="Histogram_Behavior.java" startLine="20" startPosition="0" endLine="50" endPosition="0" unitName="org.campagnelab.metar.tables.behavior.Histogram_Behavior" />
   </root>
   <root nodeRef="r:db1b133e-9a0f-4319-b384-413408eb1729(org.campagnelab.metar.tables.behavior)/5333555603574743159">
     <nodeInfo nodeId="5333555603574743592" fileName="PlotStyle_Behavior.java" startLine="14" startPosition="94" endLine="15" endPosition="107" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />

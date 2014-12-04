@@ -600,6 +600,19 @@ public class QueriesGenerated {
     return SPropertyOperations.getString(_context.getNode(), "id");
   }
 
+  public static Object propertyMacro_GetPropertyValue_4977909310697451091(final PropertyMacroContext _context) {
+    return Plot_Behavior.call_getPath_8016431400518331231(SLinkOperations.getTarget(_context.getNode(), "plot", true));
+  }
+
+  public static Object propertyMacro_GetPropertyValue_4977909310699800474(final PropertyMacroContext _context) {
+    return NameHelper.RName(SPropertyOperations.getString(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "table", true), "table", false), "name"));
+
+  }
+
+  public static Object propertyMacro_GetPropertyValue_4977909310693684829(final PropertyMacroContext _context) {
+    return ((SNode) _context.getNode()).getNodeId().toString();
+  }
+
   public static boolean ifMacro_Condition_1549006859295113839(final IfMacroContext _context) {
     return ListSequence.fromList(SLinkOperations.getTargets(SLinkOperations.getTarget(((SNode) _context.getVariable("var:table")), "table", false), "columns", true)).any(new IWhereFilter<SNode>() {
       public boolean accept(SNode column) {
