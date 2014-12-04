@@ -1,3 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="5rl7vdc1vqubpbx8b4m30fe2yudi45d" />
+<dependencies version="2" modelHash="5rl7vdc1vqubpbx8b4m30fe2yudi45d">
+  <dep model="r:41c5e6e6-d21c-4739-aa05-3b0328c9486c(org.campagnelab.build.TextOutput)" hash="7rihsyhpg0xh9semof7x7mzcxip3jlb" />
+  <dep model="r:54537613-52b5-40a8-b223-e87f0960b04f(jetbrains.mps.build.mps.generator.template.main@generator)" hash="-41bkl3hsv7tltenb2y8p4edyuahfxfl" />
+  <dep model="r:874d959d-e3b4-4d04-b931-ca849af130dd(jetbrains.mps.ide.build)" hash="16uetnj2j6v04lnnqhlgd5br52635ao" />
+  <dep model="r:cc7a346d-c5cf-4c03-b1fd-d5006736ae3a(org.campagnelab.build.UI)" hash="bmb50sy45s4nqf80l6t3anu8t1p17wy" />
+  <dep model="r:d2c1095a-594a-4ff4-97d7-a186cca5ed85(XChart.build)" hash="-dlnn5gygri138o9rn9ru3e8v3kls13c" />
+  <dep model="r:d8d06a40-eb90-4ad9-a679-19e3fc235859(jetbrains.mps.build.workflow.generator.template.main@generator)" hash="2z1ts4v77srp8lktdojvl9w7aby1kwi" />
+  <dep model="r:ed179f4d-7cf2-479d-8348-50c1fc63b96a(jetbrains.mps.build.workflow.structure)" hash="1zcaenwdxabv98ggujzfb757e5odwn9" />
+  <dep model="r:fdebfc98-bbd7-4c50-8a8d-eda16da9406e(jetbrains.mps.build.generator.template.main@generator)" hash="-6he4i96uisto2i1kh4g6wt0gjbmjfw2" />
+  <common hash="978vwawo0alftjhtpkoqkpcb5h9ayv8" />
+  <source id="3761139488787358645" name="MetaR" hash="5xrprk4qdth41htq6cli1cgotsaddig">
+    <dep model="r:41c5e6e6-d21c-4739-aa05-3b0328c9486c(org.campagnelab.build.TextOutput)" />
+    <dep model="r:54537613-52b5-40a8-b223-e87f0960b04f(jetbrains.mps.build.mps.generator.template.main@generator)" />
+    <dep model="r:874d959d-e3b4-4d04-b931-ca849af130dd(jetbrains.mps.ide.build)" />
+    <dep model="r:cc7a346d-c5cf-4c03-b1fd-d5006736ae3a(org.campagnelab.build.UI)" />
+    <dep model="r:d2c1095a-594a-4ff4-97d7-a186cca5ed85(XChart.build)" />
+    <dep model="r:d8d06a40-eb90-4ad9-a679-19e3fc235859(jetbrains.mps.build.workflow.generator.template.main@generator)" />
+    <dep model="r:ed179f4d-7cf2-479d-8348-50c1fc63b96a(jetbrains.mps.build.workflow.structure)" />
+    <dep model="r:fdebfc98-bbd7-4c50-8a8d-eda16da9406e(jetbrains.mps.build.generator.template.main@generator)" />
+    <file name="MetaR.xml" />
+  </source>
+</dependencies>
 

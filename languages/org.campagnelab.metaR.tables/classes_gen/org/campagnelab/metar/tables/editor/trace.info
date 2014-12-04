@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
-  <unitInfo fileName="EditorAspectDescriptorImpl.java" startLine="13" startPosition="0" endLine="132" endPosition="0" unitName="org.campagnelab.metar.tables.editor.EditorAspectDescriptorImpl" />
+  <unitInfo fileName="EditorAspectDescriptorImpl.java" startLine="13" startPosition="0" endLine="134" endPosition="0" unitName="org.campagnelab.metar.tables.editor.EditorAspectDescriptorImpl" />
   <root nodeRef="r:c14853f5-5f2e-4acc-825a-4fec67caca67(org.campagnelab.metar.tables.editor)/2807244893505479059">
     <nodeInfo nodeId="2807244893505479059" fileName="Formula_Editor.java" startLine="28" startPosition="79" endLine="29" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="2807244893505479059" fileName="Formula_Editor.java" startLine="32" startPosition="89" endLine="33" endPosition="96" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
@@ -5154,6 +5154,198 @@
     </scopeInfo>
     <unitInfo nodeId="4451133196879838595" fileName="TableRef_Editor.java" startLine="58" startPosition="0" endLine="93" endPosition="0" unitName="org.campagnelab.metar.tables.editor.TableRef_Editor$_Inline_lkjm2r_a0a" />
     <unitInfo nodeId="4451133196879830030" fileName="TableRef_Editor.java" startLine="20" startPosition="0" endLine="94" endPosition="0" unitName="org.campagnelab.metar.tables.editor.TableRef_Editor" />
+  </root>
+  <root nodeRef="r:c14853f5-5f2e-4acc-825a-4fec67caca67(org.campagnelab.metar.tables.editor)/4977909310695238129">
+    <nodeInfo nodeId="4977909310695238129" fileName="Histogram_Editor.java" startLine="19" startPosition="79" endLine="20" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4977909310695238129" fileName="Histogram_Editor.java" startLine="23" startPosition="89" endLine="24" endPosition="96" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="4977909310695238129" fileName="Histogram_Editor.java" startLine="24" startPosition="96" endLine="25" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4977909310695238129" fileName="Histogram_Editor.java" startLine="25" startPosition="48" endLine="26" endPosition="28" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4977909310695238129" fileName="Histogram_Editor.java" startLine="26" startPosition="28" endLine="27" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="4977909310695238129" fileName="Histogram_Editor.java" startLine="26" startPosition="28" endLine="27" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4977909310695238129" fileName="Histogram_Editor.java" startLine="27" startPosition="81" endLine="28" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="4977909310695238129" fileName="Histogram_Editor.java" startLine="27" startPosition="81" endLine="28" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4977909310695238129" fileName="Histogram_Editor.java" startLine="28" startPosition="81" endLine="29" endPosition="80" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="4977909310695238129" fileName="Histogram_Editor.java" startLine="28" startPosition="81" endLine="29" endPosition="80" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4977909310695238129" fileName="Histogram_Editor.java" startLine="29" startPosition="80" endLine="30" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="4977909310695238129" fileName="Histogram_Editor.java" startLine="29" startPosition="80" endLine="30" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4977909310695238129" fileName="Histogram_Editor.java" startLine="30" startPosition="81" endLine="31" endPosition="80" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="4977909310695238129" fileName="Histogram_Editor.java" startLine="30" startPosition="81" endLine="31" endPosition="80" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4977909310695238129" fileName="Histogram_Editor.java" startLine="31" startPosition="80" endLine="32" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="4977909310695238129" fileName="Histogram_Editor.java" startLine="31" startPosition="80" endLine="32" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4977909310695238129" fileName="Histogram_Editor.java" startLine="32" startPosition="81" endLine="33" endPosition="80" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="4977909310695238129" fileName="Histogram_Editor.java" startLine="32" startPosition="81" endLine="33" endPosition="80" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4977909310695238129" fileName="Histogram_Editor.java" startLine="33" startPosition="80" endLine="34" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4977909310695239032" fileName="Histogram_Editor.java" startLine="37" startPosition="88" endLine="38" endPosition="101" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="4977909310695239032" fileName="Histogram_Editor.java" startLine="38" startPosition="101" endLine="39" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4977909310695239032" fileName="Histogram_Editor.java" startLine="39" startPosition="47" endLine="40" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4977909310695239032" fileName="Histogram_Editor.java" startLine="40" startPosition="34" endLine="41" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4977909310695239033" fileName="Histogram_Editor.java" startLine="44" startPosition="88" endLine="45" endPosition="90" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="4977909310695239033" fileName="Histogram_Editor.java" startLine="45" startPosition="90" endLine="46" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4977909310695239033" fileName="Histogram_Editor.java" startLine="46" startPosition="47" endLine="47" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="4977909310695239033" fileName="Histogram_Editor.java" startLine="47" startPosition="34" endLine="48" endPosition="68" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4977909310695239033" fileName="Histogram_Editor.java" startLine="48" startPosition="68" endLine="49" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4977909310695239033" fileName="Histogram_Editor.java" startLine="49" startPosition="40" endLine="50" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4977909310695239033" fileName="Histogram_Editor.java" startLine="50" startPosition="34" endLine="51" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4977909310695239034" fileName="Histogram_Editor.java" startLine="54" startPosition="87" endLine="55" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="4977909310695239034" fileName="Histogram_Editor.java" startLine="55" startPosition="81" endLine="56" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4977909310695239034" fileName="Histogram_Editor.java" startLine="56" startPosition="30" endLine="57" endPosition="43" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4977909310695239034" fileName="Histogram_Editor.java" startLine="57" startPosition="43" endLine="58" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="4977909310695239034" fileName="Histogram_Editor.java" startLine="58" startPosition="26" endLine="59" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4977909310695239034" fileName="Histogram_Editor.java" startLine="60" startPosition="39" endLine="61" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4977909310695239034" fileName="Histogram_Editor.java" startLine="62" startPosition="5" endLine="63" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4977909310695239034" fileName="Histogram_Editor.java" startLine="63" startPosition="73" endLine="64" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="4977909310695239034" fileName="Histogram_Editor.java" startLine="64" startPosition="57" endLine="65" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="4977909310695239034" fileName="Histogram_Editor.java" startLine="66" startPosition="35" endLine="67" endPosition="72" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="4977909310695239034" fileName="Histogram_Editor.java" startLine="67" startPosition="72" endLine="68" endPosition="78" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="4977909310695239034" fileName="Histogram_Editor.java" startLine="68" startPosition="78" endLine="69" endPosition="109" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4977909310695239034" fileName="Histogram_Editor.java" startLine="70" startPosition="10" endLine="71" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4977909310695239035" fileName="Histogram_Editor.java" startLine="74" startPosition="88" endLine="75" endPosition="100" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="4977909310695239035" fileName="Histogram_Editor.java" startLine="75" startPosition="100" endLine="76" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4977909310695239035" fileName="Histogram_Editor.java" startLine="76" startPosition="47" endLine="77" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="4977909310695239035" fileName="Histogram_Editor.java" startLine="77" startPosition="34" endLine="78" endPosition="68" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4977909310695239035" fileName="Histogram_Editor.java" startLine="78" startPosition="68" endLine="79" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4977909310695239035" fileName="Histogram_Editor.java" startLine="79" startPosition="40" endLine="80" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4977909310695239035" fileName="Histogram_Editor.java" startLine="80" startPosition="34" endLine="81" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4977909310695239036" fileName="Histogram_Editor.java" startLine="84" startPosition="87" endLine="85" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="4977909310695239036" fileName="Histogram_Editor.java" startLine="85" startPosition="81" endLine="86" endPosition="38" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4977909310695239036" fileName="Histogram_Editor.java" startLine="86" startPosition="38" endLine="87" endPosition="51" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4977909310695239036" fileName="Histogram_Editor.java" startLine="87" startPosition="51" endLine="88" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="4977909310695239036" fileName="Histogram_Editor.java" startLine="88" startPosition="26" endLine="89" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4977909310695239036" fileName="Histogram_Editor.java" startLine="90" startPosition="39" endLine="91" endPosition="42" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4977909310695239036" fileName="Histogram_Editor.java" startLine="92" startPosition="5" endLine="93" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4977909310695239036" fileName="Histogram_Editor.java" startLine="93" startPosition="73" endLine="94" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="4977909310695239036" fileName="Histogram_Editor.java" startLine="94" startPosition="57" endLine="95" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="4977909310695239036" fileName="Histogram_Editor.java" startLine="96" startPosition="35" endLine="97" endPosition="72" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="4977909310695239036" fileName="Histogram_Editor.java" startLine="97" startPosition="72" endLine="98" endPosition="78" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="4977909310695239036" fileName="Histogram_Editor.java" startLine="98" startPosition="78" endLine="99" endPosition="109" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4977909310695239036" fileName="Histogram_Editor.java" startLine="100" startPosition="10" endLine="101" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4977909310695239037" fileName="Histogram_Editor.java" startLine="104" startPosition="88" endLine="105" endPosition="88" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="4977909310695239037" fileName="Histogram_Editor.java" startLine="105" startPosition="88" endLine="106" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4977909310695239037" fileName="Histogram_Editor.java" startLine="106" startPosition="47" endLine="107" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4977909310695239037" fileName="Histogram_Editor.java" startLine="107" startPosition="34" endLine="108" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4977909310695239038" fileName="Histogram_Editor.java" startLine="111" startPosition="87" endLine="112" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="4977909310695239038" fileName="Histogram_Editor.java" startLine="112" startPosition="81" endLine="113" endPosition="29" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4977909310695239038" fileName="Histogram_Editor.java" startLine="113" startPosition="29" endLine="114" endPosition="42" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4977909310695239038" fileName="Histogram_Editor.java" startLine="114" startPosition="42" endLine="115" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="4977909310695239038" fileName="Histogram_Editor.java" startLine="115" startPosition="26" endLine="116" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4977909310695239038" fileName="Histogram_Editor.java" startLine="117" startPosition="39" endLine="118" endPosition="33" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4977909310695239038" fileName="Histogram_Editor.java" startLine="119" startPosition="5" endLine="120" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4977909310695239038" fileName="Histogram_Editor.java" startLine="120" startPosition="73" endLine="121" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="4977909310695239038" fileName="Histogram_Editor.java" startLine="121" startPosition="57" endLine="122" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="4977909310695239038" fileName="Histogram_Editor.java" startLine="123" startPosition="35" endLine="124" endPosition="72" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="4977909310695239038" fileName="Histogram_Editor.java" startLine="124" startPosition="72" endLine="125" endPosition="78" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="4977909310695239038" fileName="Histogram_Editor.java" startLine="125" startPosition="78" endLine="126" endPosition="109" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4977909310695239038" fileName="Histogram_Editor.java" startLine="127" startPosition="10" endLine="128" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4977909310695238129" fileName="Histogram_Editor.java" startLine="19" startPosition="0" endLine="22" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <nodeInfo nodeId="4977909310695239034" fileName="Histogram_Editor.java" startLine="59" startPosition="58" endLine="62" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="4977909310695239036" fileName="Histogram_Editor.java" startLine="89" startPosition="58" endLine="92" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="4977909310695239038" fileName="Histogram_Editor.java" startLine="116" startPosition="58" endLine="119" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="4977909310695239032" fileName="Histogram_Editor.java" startLine="37" startPosition="0" endLine="43" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createConstant_dnpd9w_a0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <nodeInfo nodeId="4977909310695239034" fileName="Histogram_Editor.java" startLine="65" startPosition="59" endLine="71" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="4977909310695239036" fileName="Histogram_Editor.java" startLine="95" startPosition="59" endLine="101" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="4977909310695239037" fileName="Histogram_Editor.java" startLine="104" startPosition="0" endLine="110" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createConstant_dnpd9w_f0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <nodeInfo nodeId="4977909310695239038" fileName="Histogram_Editor.java" startLine="122" startPosition="59" endLine="128" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="4977909310695239033" fileName="Histogram_Editor.java" startLine="44" startPosition="0" endLine="53" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createConstant_dnpd9w_b0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <nodeInfo nodeId="4977909310695239035" fileName="Histogram_Editor.java" startLine="74" startPosition="0" endLine="83" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createConstant_dnpd9w_d0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <nodeInfo nodeId="4977909310695238129" fileName="Histogram_Editor.java" startLine="23" startPosition="0" endLine="36" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createCollection_dnpd9w_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <nodeInfo nodeId="4977909310695239034" fileName="Histogram_Editor.java" startLine="54" startPosition="0" endLine="73" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createRefNode_dnpd9w_c0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <nodeInfo nodeId="4977909310695239036" fileName="Histogram_Editor.java" startLine="84" startPosition="0" endLine="103" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createRefNode_dnpd9w_e0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <nodeInfo nodeId="4977909310695239038" fileName="Histogram_Editor.java" startLine="111" startPosition="0" endLine="130" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createRefNode_dnpd9w_g0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <scopeInfo nodeId="4977909310695238129" fileName="Histogram_Editor.java" startLine="19" startPosition="79" endLine="20" endPosition="63" />
+    <scopeInfo nodeId="4977909310695238129" fileName="Histogram_Editor.java" startLine="26" startPosition="28" endLine="27" endPosition="81" />
+    <scopeInfo nodeId="4977909310695238129" fileName="Histogram_Editor.java" startLine="27" startPosition="81" endLine="28" endPosition="81" />
+    <scopeInfo nodeId="4977909310695238129" fileName="Histogram_Editor.java" startLine="28" startPosition="81" endLine="29" endPosition="80" />
+    <scopeInfo nodeId="4977909310695238129" fileName="Histogram_Editor.java" startLine="29" startPosition="80" endLine="30" endPosition="81" />
+    <scopeInfo nodeId="4977909310695238129" fileName="Histogram_Editor.java" startLine="30" startPosition="81" endLine="31" endPosition="80" />
+    <scopeInfo nodeId="4977909310695238129" fileName="Histogram_Editor.java" startLine="31" startPosition="80" endLine="32" endPosition="81" />
+    <scopeInfo nodeId="4977909310695238129" fileName="Histogram_Editor.java" startLine="32" startPosition="81" endLine="33" endPosition="80" />
+    <scopeInfo nodeId="4977909310695239034" fileName="Histogram_Editor.java" startLine="60" startPosition="39" endLine="61" endPosition="34" />
+    <scopeInfo nodeId="4977909310695239036" fileName="Histogram_Editor.java" startLine="90" startPosition="39" endLine="91" endPosition="42" />
+    <scopeInfo nodeId="4977909310695239038" fileName="Histogram_Editor.java" startLine="117" startPosition="39" endLine="118" endPosition="33" />
+    <scopeInfo nodeId="4977909310695238129" fileName="Histogram_Editor.java" startLine="19" startPosition="0" endLine="22" endPosition="0">
+      <varInfo nodeId="4977909310695238129" varName="editorContext" />
+      <varInfo nodeId="4977909310695238129" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="4977909310695239034" fileName="Histogram_Editor.java" startLine="66" startPosition="35" endLine="69" endPosition="109">
+      <varInfo nodeId="4977909310695239034" varName="manager" />
+      <varInfo nodeId="4977909310695239034" varName="opContext" />
+    </scopeInfo>
+    <scopeInfo nodeId="4977909310695239036" fileName="Histogram_Editor.java" startLine="96" startPosition="35" endLine="99" endPosition="109">
+      <varInfo nodeId="4977909310695239036" varName="manager" />
+      <varInfo nodeId="4977909310695239036" varName="opContext" />
+    </scopeInfo>
+    <scopeInfo nodeId="4977909310695239038" fileName="Histogram_Editor.java" startLine="123" startPosition="35" endLine="126" endPosition="109">
+      <varInfo nodeId="4977909310695239038" varName="manager" />
+      <varInfo nodeId="4977909310695239038" varName="opContext" />
+    </scopeInfo>
+    <scopeInfo nodeId="4977909310695239032" fileName="Histogram_Editor.java" startLine="37" startPosition="88" endLine="41" endPosition="22">
+      <varInfo nodeId="4977909310695239032" varName="editorCell" />
+    </scopeInfo>
+    <scopeInfo nodeId="4977909310695239037" fileName="Histogram_Editor.java" startLine="104" startPosition="88" endLine="108" endPosition="22">
+      <varInfo nodeId="4977909310695239037" varName="editorCell" />
+    </scopeInfo>
+    <scopeInfo nodeId="4977909310695239032" fileName="Histogram_Editor.java" startLine="37" startPosition="0" endLine="43" endPosition="0">
+      <varInfo nodeId="4977909310695239032" varName="editorContext" />
+      <varInfo nodeId="4977909310695239032" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="4977909310695239037" fileName="Histogram_Editor.java" startLine="104" startPosition="0" endLine="110" endPosition="0">
+      <varInfo nodeId="4977909310695239037" varName="editorContext" />
+      <varInfo nodeId="4977909310695239037" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="4977909310695239033" fileName="Histogram_Editor.java" startLine="44" startPosition="88" endLine="51" endPosition="22">
+      <varInfo nodeId="4977909310695239033" varName="editorCell" />
+      <varInfo nodeId="4977909310695239033" varName="style" />
+    </scopeInfo>
+    <scopeInfo nodeId="4977909310695239035" fileName="Histogram_Editor.java" startLine="74" startPosition="88" endLine="81" endPosition="22">
+      <varInfo nodeId="4977909310695239035" varName="editorCell" />
+      <varInfo nodeId="4977909310695239035" varName="style" />
+    </scopeInfo>
+    <scopeInfo nodeId="4977909310695239033" fileName="Histogram_Editor.java" startLine="44" startPosition="0" endLine="53" endPosition="0">
+      <varInfo nodeId="4977909310695239033" varName="editorContext" />
+      <varInfo nodeId="4977909310695239033" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="4977909310695239035" fileName="Histogram_Editor.java" startLine="74" startPosition="0" endLine="83" endPosition="0">
+      <varInfo nodeId="4977909310695239035" varName="editorContext" />
+      <varInfo nodeId="4977909310695239035" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="4977909310695238129" fileName="Histogram_Editor.java" startLine="23" startPosition="89" endLine="34" endPosition="22">
+      <varInfo nodeId="4977909310695238129" varName="editorCell" />
+    </scopeInfo>
+    <scopeInfo nodeId="4977909310695238129" fileName="Histogram_Editor.java" startLine="23" startPosition="0" endLine="36" endPosition="0">
+      <varInfo nodeId="4977909310695238129" varName="editorContext" />
+      <varInfo nodeId="4977909310695238129" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="4977909310695239034" fileName="Histogram_Editor.java" startLine="54" startPosition="87" endLine="71" endPosition="22">
+      <varInfo nodeId="4977909310695239034" varName="attributeConcept" />
+      <varInfo nodeId="4977909310695239034" varName="attributeKind" />
+      <varInfo nodeId="4977909310695239034" varName="editorCell" />
+      <varInfo nodeId="4977909310695239034" varName="provider" />
+    </scopeInfo>
+    <scopeInfo nodeId="4977909310695239036" fileName="Histogram_Editor.java" startLine="84" startPosition="87" endLine="101" endPosition="22">
+      <varInfo nodeId="4977909310695239036" varName="attributeConcept" />
+      <varInfo nodeId="4977909310695239036" varName="attributeKind" />
+      <varInfo nodeId="4977909310695239036" varName="editorCell" />
+      <varInfo nodeId="4977909310695239036" varName="provider" />
+    </scopeInfo>
+    <scopeInfo nodeId="4977909310695239038" fileName="Histogram_Editor.java" startLine="111" startPosition="87" endLine="128" endPosition="22">
+      <varInfo nodeId="4977909310695239038" varName="attributeConcept" />
+      <varInfo nodeId="4977909310695239038" varName="attributeKind" />
+      <varInfo nodeId="4977909310695239038" varName="editorCell" />
+      <varInfo nodeId="4977909310695239038" varName="provider" />
+    </scopeInfo>
+    <scopeInfo nodeId="4977909310695239034" fileName="Histogram_Editor.java" startLine="54" startPosition="0" endLine="73" endPosition="0">
+      <varInfo nodeId="4977909310695239034" varName="editorContext" />
+      <varInfo nodeId="4977909310695239034" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="4977909310695239036" fileName="Histogram_Editor.java" startLine="84" startPosition="0" endLine="103" endPosition="0">
+      <varInfo nodeId="4977909310695239036" varName="editorContext" />
+      <varInfo nodeId="4977909310695239036" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="4977909310695239038" fileName="Histogram_Editor.java" startLine="111" startPosition="0" endLine="130" endPosition="0">
+      <varInfo nodeId="4977909310695239038" varName="editorContext" />
+      <varInfo nodeId="4977909310695239038" varName="node" />
+    </scopeInfo>
+    <unitInfo nodeId="4977909310695238129" fileName="Histogram_Editor.java" startLine="18" startPosition="0" endLine="131" endPosition="0" unitName="org.campagnelab.metar.tables.editor.Histogram_Editor" />
   </root>
   <root nodeRef="r:c14853f5-5f2e-4acc-825a-4fec67caca67(org.campagnelab.metar.tables.editor)/6001041468486400701">
     <nodeInfo nodeId="6001041468486400701" fileName="FitXByY_Editor.java" startLine="24" startPosition="79" endLine="25" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />

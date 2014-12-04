@@ -1,3 +1,127 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="5qerb4oolox4wh99zv3wiefck3c4heq" />
+<dependencies version="2" modelHash="5jenh36vqonvx82nouhnwtz7sah0n05">
+  <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" hash="5sdbpqxziyuazpb9j1p4zdk6bnvbn49" />
+  <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" hash="-5mgxduek28h3ywdzzsk4capaz4hgjm0" />
+  <dep model="r:00000000-0000-4000-0000-011c895902cd(jetbrains.mps.baseLanguage.generator.java.main@generator)" hash="303xz1b2lyseld0axia86q3lpvucmq6" />
+  <dep model="r:989540b8-cc89-4ed5-ba78-cf2ce766b8ce(org.campagnelab.mps.XChart.structure)" hash="aiuvjic5l9smbhl7d4s2o0id84f4ka8" />
+  <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" hash="b4ewbuz42qcbg1awca5bacgi0vopxqt" />
+  <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" hash="a8elw7fctzg6sg8fe36u9gzu42axhdb" />
+  <common hash="-aoyje4fhyfv3t3yuhnvmoi92eo07ja1" dependsOnNodes="true">
+    <dep root="2807244893505464088" />
+    <dep root="2807244893505464737" />
+    <dep root="2807244893506112159" />
+    <dep root="2807244893509897173" />
+    <dep root="3105090771424556187" />
+    <dep root="3105090771424833148" />
+    <dep root="3105090771426712763" />
+    <dep root="3402264987258987827" />
+    <dep root="3402264987259164676" />
+    <dep root="3402264987259164677" />
+    <dep root="3402264987259789239" />
+    <dep root="3402264987259919045" />
+    <dep root="3402264987261651661" />
+    <dep root="3402264987262235801" />
+    <dep root="3402264987262239184" />
+    <dep root="3402264987262239188" />
+    <dep root="3402264987265829804" />
+    <dep root="3402264987265829883" />
+    <dep root="3402264987265829888" />
+    <dep root="3402264987265829895" />
+    <dep root="3402264987266660978" />
+    <dep root="4166618652716277483" />
+    <dep root="4166618652716281040" />
+    <dep root="4166618652716485498" />
+    <dep root="4166618652716485499" />
+    <dep root="4166618652716485500" />
+    <dep root="4166618652716705715" />
+    <dep root="4166618652716705716" />
+    <dep root="4166618652717462012" />
+    <dep root="4451133196879828915" />
+    <dep root="4842667988072481933" />
+    <dep root="4977909310693613102" />
+    <dep root="5333555603574035147" />
+    <dep root="5333555603574046783" />
+    <dep root="6001041468486314166" />
+    <dep root="6853668812000783449" />
+    <dep root="6853668812000880059" />
+    <dep root="7783277237108572280" />
+    <dep root="8013388156563115186" />
+    <dep root="8013388156563171421" />
+    <dep root="8013388156563171422" />
+    <dep root="8013388156564358393" />
+    <dep root="8016431400515512013" />
+    <dep root="8016431400517087678" />
+    <dep root="8286430004407881520" />
+    <dep root="8459500803719286639" />
+    <dep root="8459500803719374384" />
+    <dep root="8962032619582305406" />
+    <dep root="8962032619593737375" />
+    <dep root="8962032619593737377" />
+    <dep root="8962032619593737378" />
+    <dep root="8962032619593737380" />
+    <dep root="8962032619593737384" />
+    <dep root="8962032619593737387" />
+    <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
+    <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
+    <dep model="r:00000000-0000-4000-0000-011c895902cd(jetbrains.mps.baseLanguage.generator.java.main@generator)" />
+    <dep model="r:989540b8-cc89-4ed5-ba78-cf2ce766b8ce(org.campagnelab.mps.XChart.structure)" />
+    <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" />
+    <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" />
+    <file name="StructureAspectDescriptor.java" />
+  </common>
+  <source id="3402264987258987827" name="Table" hash="-7qkgfm1uws0ji3w91hv1k952lxhbg8l" />
+  <source id="3402264987259164676" name="JoinTables" hash="4g0sjazg5v373qra0n9s61v8ru6h2nk" />
+  <source id="3402264987259164677" name="TableTransformation" hash="6i6xhz884y309rt5h2d0ubud6lr7nkw" />
+  <source id="3402264987259789239" name="FutureTableRef" hash="d408h97rneqqlewdu125u2q5gvvwbxl" />
+  <source id="3402264987259919045" name="FutureTable" hash="-bmig4szagnbr0bw75pofwhaprnx8xe0" />
+  <source id="3402264987261651661" name="ImportTable" hash="e73cxr7ef4hya1aubbux1hcq8b6oohx" />
+  <source id="3402264987262235801" name="ColumnRef" hash="-6ne4a9765rjkdxen9ypf8nyipglyklx" />
+  <source id="3402264987262239184" name="KeySelection" hash="74vc5dcannnn2vx8f2mso4peuuf2l7r" />
+  <source id="3402264987262239188" name="CommonColumnSelection" hash="-6e02mrroyfkzgkeh2spfmogwodi1obw" />
+  <source id="3402264987265829804" name="ColumnAnnotation" hash="vq8xdbplydvc5vs5anbu3hfar05h7l" />
+  <source id="3402264987265829883" name="ColumnGroup" hash="-47uftlhm7ngyn7gqmzlal22oks1ms8j" />
+  <source id="3402264987265829888" name="ColumnGroupContainer" hash="8twd39kwjl2xteqczqechjrpmncjf0b" />
+  <source id="3402264987265829895" name="ColumnGroupReference" hash="-21assqvlst5fvs9z9ws7iddq0drgs4c" />
+  <source id="3402264987266660978" name="SelectByGroup" hash="1vhgtvvalukzrulqjuwtvg3pls6ql4y" />
+  <source id="8459500803719286639" name="Heatmap" hash="5n3s3hojb74ehn5ymn6hszywncljlga" />
+  <source id="8459500803719374384" name="Plot" hash="e8amio8xgh9xyu69fdgsok5gm1mu1v6" />
+  <source id="8016431400515512013" name="IColumnNames" hash="-28znc6zbsjyyt2au91j6if5ghtmo9pd" />
+  <source id="8016431400517087678" name="UsageType" hash="-77ogylazgkq9q4vot6dyewox4u7imc9" />
+  <source id="4166618652716277483" name="SubSetTableRows" hash="7m38applgoiix9cke8dw0px7mi1r8k6" />
+  <source id="4166618652716281040" name="RowFilter" hash="5u8veeb1061kpexjrznqdi1jalyv0d9" />
+  <source id="4166618652716485498" name="FilterWithIDList" hash="-8lewlaex5v5nynljblupw34y69525xm" />
+  <source id="4166618652716485499" name="SetOfIds" hash="-6ly718rvwo0kximzlz715uq62h9d07z" />
+  <source id="4166618652716485500" name="ID" hash="3ningogbfff5vduog36kys5080v3i9x" />
+  <source id="4166618652716705715" name="Define" hash="exrq1iuhjlo1xetfjmldty84zf59pk8" />
+  <source id="4166618652716705716" name="DefinableObject" hash="1gfx7jadnf4b2pujckzopqv5hkj2rw0" />
+  <source id="4166618652717462012" name="AbstractRowFilter" hash="-3uqi55lvtoy6uypkhkc3pn2ejacr858" />
+  <source id="6853668812000783449" name="DataTableStatement" hash="3gb65puyqz1p1agsnnearabjsdduffz" />
+  <source id="6853668812000880059" name="UsesDataTable" hash="4p8nvzypvtfjoy6t0y3bvvruccpabld" />
+  <source id="7783277237108572280" name="FilterWithExpression" hash="-2iedpnyyaiggoo1p9hhqiscyzs79s1o" />
+  <source id="6001041468486314166" name="FitXByY" hash="arwpe0s4myd2cy90wtpmm9rtzaoga8j" />
+  <source id="4451133196879828915" name="TableRef" hash="-8ksbon6ucixmeqchh8i5le40nmkz10m" />
+  <source id="3105090771424556187" name="Multiplot" hash="-ex2czhhaas5ofj2swbmje6eubh9dt8l" />
+  <source id="3105090771424833148" name="PlotRef" hash="-5z89gibcx6blw2dngnq42exf2hw7eyu" />
+  <source id="3105090771426712763" name="PlotRefWithPreview" hash="9fdz5swvweu9j9rq09a9dk2i1b1cjmr" />
+  <source id="8962032619582305406" name="StatementList" hash="bmlikvj3gzhg8y83tpvn1uavv77m41k" />
+  <source id="8962032619593737375" name="DependentOnPackage" hash="6lwfi3y3a8gpjmc3rdcwol7akmc1bg3" />
+  <source id="8962032619593737377" name="EmptyLine" hash="-4r5vixruz4y94smrb27tq0pr4yr8353" />
+  <source id="8962032619593737378" name="R_Package" hash="6973b39pavauky164p6c1hrds91w7bg" />
+  <source id="8962032619593737380" name="Analysis" hash="-57v24k9plnedymneov0dlqxah2r7kt" />
+  <source id="8962032619593737384" name="Statement" hash="2c4ss4tjtuixbllfz69sg1d1pudzlg1" />
+  <source id="8962032619593737387" name="StatementDependencies" hash="1pj22vewtsmtaq4cx39lvt20j12oizs" />
+  <source id="5333555603574035147" name="PlotStyle" hash="-30lvr8uv5he8r9dbhfyuqw06i8dmfee" />
+  <source id="5333555603574046783" name="ScatterPlotStyle" hash="erv1hzmoxa8kdhxj3jjgb94ogwr7j8c" />
+  <source id="8286430004407881520" name="Range" hash="-dmgp4y5i7socyjgrw910gl1wyt0r14f" />
+  <source id="8013388156563115186" name="Render" hash="dpc9ttmiu58nd7ymgcyjmgmneem8z6n" />
+  <source id="8013388156563171421" name="PDF" hash="-33vdi4w29clnflufzzvuvdolj12jawi" />
+  <source id="8013388156563171422" name="RenderingFormat" hash="anbsrjwqftmmrrp3nusoqz59p21b5yr" />
+  <source id="8013388156564358393" name="PlotBuilderStatement" hash="34djs98yzaz0s8a9vyeasr134mow3dv" />
+  <source id="4842667988072481933" name="RenderStyle" hash="bce6luv9bin98oclbo5tqylohaux9g8" />
+  <source id="2807244893505464088" name="TrainLinearModel" hash="4d8e8vsyjoajjvt8hpzcqegtqvuzl1p" />
+  <source id="2807244893505464737" name="Formula" hash="9l8aycqv90vi82sx4s6u1p4igicc6y7" />
+  <source id="2807244893506112159" name="Model" hash="-9nn69uhg59yl9fawj9aoiehj6wstfio" />
+  <source id="2807244893509897173" name="PredictWithModel" hash="-d56tfsafyml1uuwz6hg98aejtucwma" />
+  <source id="4977909310693613102" name="Histogram" hash="3o398qxq6o215ffljgpu54jcugy9goa" />
+</dependencies>
 
