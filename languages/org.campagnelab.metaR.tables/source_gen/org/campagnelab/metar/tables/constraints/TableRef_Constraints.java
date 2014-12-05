@@ -15,13 +15,16 @@ import jetbrains.mps.smodel.runtime.ReferenceConstraintsContext;
 import java.util.List;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.baseLanguage.closures.runtime.Wrappers;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.internal.collections.runtime.IWhereFilter;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
 import jetbrains.mps.internal.collections.runtime.ITranslator2;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.internal.collections.runtime.ISelector;
 import org.jetbrains.mps.openapi.model.SNodeReference;
+import org.apache.log4j.Logger;
+import org.apache.log4j.LogManager;
 import jetbrains.mps.smodel.SNodePointer;
 
 public class TableRef_Constraints extends BaseConstraintsDescriptor {
@@ -45,15 +48,21 @@ public class TableRef_Constraints extends BaseConstraintsDescriptor {
           @Override
           public Object createSearchScopeOrListOfNodes(final IOperationContext operationContext, final ReferenceConstraintsContext _context) {
             // find the tables defined before this reference: 
-            List<SNode> statements = SNodeOperations.getDescendants(SNodeOperations.getAncestor(_context.getEnclosingNode(), "org.campagnelab.metar.tables.structure.Analysis", false, false), "org.campagnelab.metar.tables.structure.Statement", true, new String[]{});
-            final SNode thisStatement = SNodeOperations.getAncestor(_context.getEnclosingNode(), "org.campagnelab.metar.tables.structure.Statement", true, false);
+            List<SNode> statements = SNodeOperations.getDescendants(SLinkOperations.getTarget(SNodeOperations.getAncestor(_context.getContextNode(), "org.campagnelab.metar.tables.structure.Analysis", true, false), "statements", true), "org.campagnelab.metar.tables.structure.Statement", true, new String[]{});
+            final SNode thisStatement = _context.getContextNode();
+            if (LOG.isInfoEnabled()) {
+              LOG.info("contextNode:" + _context.getContextNode());
+            }
             final Wrappers._boolean before = new Wrappers._boolean(true);
             return ListSequence.fromList(statements).where(new IWhereFilter<SNode>() {
               public boolean accept(SNode it) {
-                return before.value && (before.value = (it != thisStatement));
+                return before.value && (before.value = (it != thisStatement)) && !(SNodeOperations.getConceptDeclaration(it) == SConceptOperations.findConceptDeclaration("org.campagnelab.metar.tables.structure.StatementList"));
               }
             }).translate(new ITranslator2<SNode, SNode>() {
               public Iterable<SNode> translate(SNode it) {
+                if (LOG.isInfoEnabled()) {
+                  LOG.info("scanning " + it);
+                }
                 return SNodeOperations.getDescendants(it, "org.campagnelab.metar.tables.structure.FutureTable", false, new String[]{});
               }
             }).where(new IWhereFilter<SNode>() {
@@ -77,5 +86,6 @@ public class TableRef_Constraints extends BaseConstraintsDescriptor {
     return references;
   }
 
+  protected static Logger LOG = LogManager.getLogger(TableRef_Constraints.class);
   private static SNodePointer breakingNode_1duni_a0a1a0a0a1a0b0a1a1 = new SNodePointer("r:377e7fab-b099-4462-b9f3-2050d4b23cf6(org.campagnelab.metar.tables.constraints)", "4451133196880007445");
 }

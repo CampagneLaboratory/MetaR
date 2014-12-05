@@ -2243,5 +2243,37 @@
       </node>
     </node>
   </root>
+  <root type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="8031339867733060266" nodeInfo="ng">
+    <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="jrxw.8031339867733060044" resolveInfo="WriteTable" />
+    <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_Collection" typeId="tpc2.1073389446423" id="8031339867733061237" nodeInfo="nn">
+      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="8031339867733061244" nodeInfo="nn">
+        <property name="text" nameId="tpc2.1073389577007" value="write" />
+      </node>
+      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_RefNode" typeId="tpc2.1073389882823" id="8031339867733061250" nodeInfo="ng">
+        <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="jrxw.8031339867733060257" />
+      </node>
+      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="8031339867733061258" nodeInfo="nn">
+        <property name="text" nameId="tpc2.1073389577007" value="to" />
+      </node>
+      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Property" typeId="tpc2.1073389658414" id="8031339867733061268" nodeInfo="ng">
+        <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="jrxw.8031339867733060259" resolveInfo="path" />
+      </node>
+      <node role="childCellModel" roleId="tpc2.1073389446424" type="hut6.SingleFileSelection" typeId="hut6.5704832314575181087" id="8031339867733061280" nodeInfo="ng">
+        <property name="acceptFiles" nameId="hut6.9057833467352772432" value="true" />
+        <property name="defaultPath" nameId="hut6.9057833467352772434" value="./table.tsv" />
+        <link role="property" roleId="hut6.5704832314577455573" targetNodeId="jrxw.8031339867733060259" resolveInfo="path" />
+        <node role="button" roleId="hut6.5704832314575223446" type="hut6.FileSelectionButton" typeId="hut6.2954990197977599794" id="8031339867733061369" nodeInfo="ng">
+          <property name="acceptFiles" nameId="hut6.5693159665555023471" value="true" />
+          <node role="defaultPath" roleId="hut6.2020659516091712533" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="8031339867733061370" nodeInfo="nn">
+            <property name="value" nameId="tpee.1070475926801" value="./" />
+          </node>
+          <node role="handler" roleId="hut6.2020659516093754639" type="hut6.ProcessPathHandler" typeId="hut6.2020659516093694820" id="8031339867733061371" nodeInfo="ng">
+            <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="8031339867733061372" nodeInfo="sn" />
+          </node>
+        </node>
+      </node>
+      <node role="cellLayout" roleId="tpc2.1106270802874" type="tpc2.CellLayout_Indent" typeId="tpc2.1237303669825" id="8031339867733061240" nodeInfo="nn" />
+    </node>
+  </root>
 </model>
 
