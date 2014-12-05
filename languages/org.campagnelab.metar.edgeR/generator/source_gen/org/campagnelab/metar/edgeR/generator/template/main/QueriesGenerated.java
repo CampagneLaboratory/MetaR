@@ -171,7 +171,7 @@ public class QueriesGenerated {
   }
 
   public static Object propertyMacro_GetPropertyValue_8031339867733381206(final PropertyMacroContext _context) {
-    return SPropertyOperations.getString(SLinkOperations.getTarget(_context.getNode(), "destinationTable", true), "name");
+    return NameHelper.RName(SPropertyOperations.getString(SLinkOperations.getTarget(_context.getNode(), "destinationTable", true), "name"));
   }
 
   public static Object propertyMacro_GetPropertyValue_8031339867733399660(final PropertyMacroContext _context) {
