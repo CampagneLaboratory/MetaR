@@ -2208,15 +2208,8 @@
         <property name="text" nameId="tpc2.1073389577007" value="with" />
         <link role="parentStyleClass" roleId="tpc2.1381004262292426837" targetNodeId="8887138449911738305" resolveInfo="Descriptive" />
       </node>
-      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_RefNode" typeId="tpc2.1073389882823" id="4977909310695239034" nodeInfo="ng">
-        <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="jrxw.4977909310693660584" />
-      </node>
-      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="4977909310695239035" nodeInfo="nn">
-        <property name="text" nameId="tpc2.1073389577007" value="select data by" />
-        <link role="parentStyleClass" roleId="tpc2.1381004262292426837" targetNodeId="8887138449911738305" resolveInfo="Descriptive" />
-      </node>
       <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_RefNode" typeId="tpc2.1073389882823" id="4977909310695239036" nodeInfo="ng">
-        <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="jrxw.4977909310695251916" />
+        <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="jrxw.4977909310704831599" />
       </node>
       <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="4977909310695239037" nodeInfo="nn">
         <property name="text" nameId="tpc2.1073389577007" value="-&gt;" />
