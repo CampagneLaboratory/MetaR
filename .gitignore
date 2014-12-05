@@ -1,0 +1,10 @@
+.mps/workspace.xml
+*/*/source_gen/**/*
+*/*/source_gen.caches/**/*
+*/*/classes_gen/**/*.class
+*/*/classes_gen/**/trace.info
+*.R
+trace.info
+dependencies
+generated
+#QueriesGenerated.java
