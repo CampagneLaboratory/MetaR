@@ -181,6 +181,10 @@ public class QueriesGenerated {
 
   }
 
+  public static boolean ifMacro_Condition_8031339867730269722(final IfMacroContext _context) {
+    return SNodeOperations.getConceptDeclaration(SLinkOperations.getTarget(_context.getNode(), "dispersionMethod", true)) == SConceptOperations.findConceptDeclaration("org.campagnelab.metar.edgeR.structure.TagWiseDispersion");
+  }
+
   public static boolean ifMacro_Condition_8031339867726629965(final IfMacroContext _context) {
     return GroupFormula_Behavior.call_oneFactor_8031339867717509466(SLinkOperations.getTarget(_context.getNode(), "modelFormula", true));
   }
@@ -197,7 +201,7 @@ public class QueriesGenerated {
     return SLinkOperations.getTarget(_context.getNode(), "right", true);
   }
 
-  public static SNode sourceNodeQuery_8031339867719092263(final SourceSubstituteMacroNodeContext _context) {
+  public static SNode sourceNodeQuery_8031339867730262914(final SourceSubstituteMacroNodeContext _context) {
     return SLinkOperations.getTarget(_context.getNode(), "dispersionMethod", true);
   }
 
@@ -220,7 +224,7 @@ public class QueriesGenerated {
       public boolean accept(SNode it) {
         return ListSequence.fromList(SLinkOperations.getTargets(AttributeOperations.getAttribute(it, new IAttributeDescriptor.NodeAttribute("org.campagnelab.metar.tables.structure.ColumnAnnotation")), "groups", true)).all(new IWhereFilter<SNode>() {
           public boolean accept(SNode it) {
-            return neq_x583g4_a0a0a0a0a0a0a0a0a0c0db(SPropertyOperations.getString(SLinkOperations.getTarget(it, "columnGroup", false), "name"), "counts");
+            return neq_x583g4_a0a0a0a0a0a0a0a0a0c0eb(SPropertyOperations.getString(SLinkOperations.getTarget(it, "columnGroup", false), "name"), "counts");
           }
         });
       }
@@ -254,7 +258,7 @@ public class QueriesGenerated {
     return (a != null ? a.equals(b) : a == b);
   }
 
-  private static boolean neq_x583g4_a0a0a0a0a0a0a0a0a0c0db(Object a, Object b) {
+  private static boolean neq_x583g4_a0a0a0a0a0a0a0a0a0c0eb(Object a, Object b) {
     return !((a != null ? a.equals(b) : a == b));
   }
 }
