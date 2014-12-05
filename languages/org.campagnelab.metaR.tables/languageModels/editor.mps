@@ -2197,22 +2197,6 @@
       <node role="cellLayout" roleId="tpc2.1106270802874" type="tpc2.CellLayout_Vertical" typeId="tpc2.1106270571710" id="8031339867719795750" nodeInfo="nn" />
     </node>
   </root>
-  <root type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="8031339867720916367" nodeInfo="ng">
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="annotations" />
-    <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="jrxw.8031339867720116703" resolveInfo="UsageTypeRef" />
-    <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_RefCell" typeId="tpc2.1088013125922" id="8031339867720916372" nodeInfo="ng">
-      <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="jrxw.8031339867720116704" />
-      <node role="editorComponent" roleId="tpc2.1088186146602" type="tpc2.InlineEditorComponent" typeId="tpc2.1088185857835" id="8031339867720916374" nodeInfo="ng">
-        <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_Property" typeId="tpc2.1073389658414" id="8031339867720916381" nodeInfo="ng">
-          <property name="readOnly" nameId="tpc2.1140017977771" value="true" />
-          <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="tpck.1169194664001" resolveInfo="name" />
-          <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.EditableStyleClassItem" typeId="tpc2.1186414860679" id="8031339867720940175" nodeInfo="nn">
-            <property name="flag" nameId="tpc2.1186414551515" value="false" />
-          </node>
-        </node>
-      </node>
-    </node>
-  </root>
   <root type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="4977909310695238129" nodeInfo="ng">
     <property name="virtualPackage" nameId="tpck.1193676396447" value="histogram" />
     <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="jrxw.4977909310693613102" resolveInfo="Histogram" />
@@ -2241,6 +2225,22 @@
         <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="jrxw.4977909310693733650" />
       </node>
       <node role="cellLayout" roleId="tpc2.1106270802874" type="tpc2.CellLayout_Indent" typeId="tpc2.1237303669825" id="4977909310695239039" nodeInfo="nn" />
+    </node>
+  </root>
+  <root type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="8031339867720916367" nodeInfo="ng">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="annotations" />
+    <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="jrxw.8031339867720116703" resolveInfo="UsageTypeRef" />
+    <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_RefCell" typeId="tpc2.1088013125922" id="8031339867720916372" nodeInfo="ng">
+      <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="jrxw.8031339867720116704" />
+      <node role="editorComponent" roleId="tpc2.1088186146602" type="tpc2.InlineEditorComponent" typeId="tpc2.1088185857835" id="8031339867720916374" nodeInfo="ng">
+        <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_Property" typeId="tpc2.1073389658414" id="8031339867720916381" nodeInfo="ng">
+          <property name="readOnly" nameId="tpc2.1140017977771" value="true" />
+          <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="tpck.1169194664001" resolveInfo="name" />
+          <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.EditableStyleClassItem" typeId="tpc2.1186414860679" id="8031339867720940175" nodeInfo="nn">
+            <property name="flag" nameId="tpc2.1186414551515" value="false" />
+          </node>
+        </node>
+      </node>
     </node>
   </root>
 </model>
