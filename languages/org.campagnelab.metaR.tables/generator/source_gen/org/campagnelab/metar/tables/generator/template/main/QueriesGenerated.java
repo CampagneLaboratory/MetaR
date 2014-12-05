@@ -29,6 +29,7 @@ import org.campagnelab.metar.tables.behavior.Multiplot_Behavior;
 import org.campagnelab.metar.tables.behavior.Render_Behavior;
 import org.campagnelab.metar.tables.behavior.ColumnRef_Behavior;
 import org.campagnelab.metar.tables.behavior.Model_Behavior;
+import jetbrains.mps.util.MacrosFactory;
 import jetbrains.mps.generator.template.IfMacroContext;
 import jetbrains.mps.generator.template.SourceSubstituteMacroNodeContext;
 import jetbrains.mps.generator.template.TemplateQueryContext;
@@ -611,6 +612,26 @@ public class QueriesGenerated {
 
   public static Object propertyMacro_GetPropertyValue_4977909310693684829(final PropertyMacroContext _context) {
     return ((SNode) _context.getNode()).getNodeId().toString();
+  }
+
+  public static Object propertyMacro_GetPropertyValue_8016431400514006106(final PropertyMacroContext _context) {
+    return NameHelper.RName(SPropertyOperations.getString(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "table", true), "table", false), "name"));
+  }
+
+  public static Object propertyMacro_GetPropertyValue_4166618652719892520(final PropertyMacroContext _context) {
+    return MacrosFactory.getGlobal().expandPath("${org.campagnelab.hta.results_dir}");
+  }
+
+  public static Object propertyMacro_GetPropertyValue_8016431400514009759(final PropertyMacroContext _context) {
+    return SPropertyOperations.getString(_context.getNode(), "path");
+  }
+
+  public static Object propertyMacro_GetPropertyValue_8031339867735055323(final PropertyMacroContext _context) {
+    return SPropertyOperations.getString(_context.getNode(), "separator");
+  }
+
+  public static Object propertyMacro_GetPropertyValue_8031339867734638773(final PropertyMacroContext _context) {
+    return (SPropertyOperations.getBoolean(_context.getNode(), "withQuotes") ? "TRUE" : "FALSE");
   }
 
   public static boolean ifMacro_Condition_1549006859295113839(final IfMacroContext _context) {

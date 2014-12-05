@@ -2,7 +2,7 @@
 <debugInfo>
   <unitInfo fileName="AbstractRowFilter_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="org.campagnelab.metar.tables.behavior.AbstractRowFilter_BehaviorDescriptor" />
   <unitInfo fileName="Analysis_BehaviorDescriptor.java" startLine="13" startPosition="0" endLine="38" endPosition="0" unitName="org.campagnelab.metar.tables.behavior.Analysis_BehaviorDescriptor" />
-  <unitInfo fileName="BehaviorAspectDescriptor.java" startLine="9" startPosition="0" endLine="110" endPosition="0" unitName="org.campagnelab.metar.tables.behavior.BehaviorAspectDescriptor" />
+  <unitInfo fileName="BehaviorAspectDescriptor.java" startLine="9" startPosition="0" endLine="112" endPosition="0" unitName="org.campagnelab.metar.tables.behavior.BehaviorAspectDescriptor" />
   <unitInfo fileName="ColumnAnnotation_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="org.campagnelab.metar.tables.behavior.ColumnAnnotation_BehaviorDescriptor" />
   <unitInfo fileName="ColumnGroupContainer_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="org.campagnelab.metar.tables.behavior.ColumnGroupContainer_BehaviorDescriptor" />
   <unitInfo fileName="ColumnGroupReference_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="org.campagnelab.metar.tables.behavior.ColumnGroupReference_BehaviorDescriptor" />
@@ -56,6 +56,7 @@
   <unitInfo fileName="UsageTypeRef_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="org.campagnelab.metar.tables.behavior.UsageTypeRef_BehaviorDescriptor" />
   <unitInfo fileName="UsageType_BehaviorDescriptor.java" startLine="10" startPosition="0" endLine="23" endPosition="0" unitName="org.campagnelab.metar.tables.behavior.UsageType_BehaviorDescriptor" />
   <unitInfo fileName="UsesDataTable_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="10" endPosition="0" unitName="org.campagnelab.metar.tables.behavior.UsesDataTable_BehaviorDescriptor" />
+  <unitInfo fileName="WriteTable_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="org.campagnelab.metar.tables.behavior.WriteTable_BehaviorDescriptor" />
   <root nodeRef="r:db1b133e-9a0f-4319-b384-413408eb1729(org.campagnelab.metar.tables.behavior)/2807244893511566376">
     <nodeInfo nodeId="2807244893511582586" fileName="Model_Behavior.java" startLine="12" startPosition="83" endLine="13" endPosition="91" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="2807244893511566376" fileName="Model_Behavior.java" startLine="9" startPosition="0" endLine="11" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
@@ -1014,6 +1015,16 @@
     </scopeInfo>
     <unitInfo nodeId="8031339867721246376" fileName="ColumnGroup_Behavior.java" startLine="15" startPosition="100" endLine="19" endPosition="5" unitName="org.campagnelab.metar.tables.behavior.ColumnGroup_Behavior$1" />
     <unitInfo nodeId="8031339867721231484" fileName="ColumnGroup_Behavior.java" startLine="10" startPosition="0" endLine="22" endPosition="0" unitName="org.campagnelab.metar.tables.behavior.ColumnGroup_Behavior" />
+  </root>
+  <root nodeRef="r:db1b133e-9a0f-4319-b384-413408eb1729(org.campagnelab.metar.tables.behavior)/8031339867734631478">
+    <nodeInfo nodeId="8031339867734633329" fileName="WriteTable_Behavior.java" startLine="9" startPosition="43" endLine="10" endPosition="65" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8031339867734757719" fileName="WriteTable_Behavior.java" startLine="10" startPosition="65" endLine="11" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8031339867734631478" fileName="WriteTable_Behavior.java" startLine="9" startPosition="0" endLine="13" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+    <scopeInfo nodeId="8031339867734631480" fileName="WriteTable_Behavior.java" startLine="9" startPosition="43" endLine="11" endPosition="58" />
+    <scopeInfo nodeId="8031339867734631478" fileName="WriteTable_Behavior.java" startLine="9" startPosition="0" endLine="13" endPosition="0">
+      <varInfo nodeId="8031339867734631478" varName="thisNode" />
+    </scopeInfo>
+    <unitInfo nodeId="8031339867734631478" fileName="WriteTable_Behavior.java" startLine="8" startPosition="0" endLine="14" endPosition="0" unitName="org.campagnelab.metar.tables.behavior.WriteTable_Behavior" />
   </root>
   <root nodeRef="r:db1b133e-9a0f-4319-b384-413408eb1729(org.campagnelab.metar.tables.behavior)/8962032619587151624">
     <nodeInfo nodeId="2517666855464429773" fileName="Multiplot_Behavior.java" startLine="19" startPosition="5" endLine="20" endPosition="156" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />

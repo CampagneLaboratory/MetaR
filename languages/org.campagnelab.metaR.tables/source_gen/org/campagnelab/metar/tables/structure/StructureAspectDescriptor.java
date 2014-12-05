@@ -124,7 +124,7 @@ public class StructureAspectDescriptor implements jetbrains.mps.smodel.runtime.S
       case 54:
         return new ConceptDescriptorBuilder("org.campagnelab.metar.tables.structure.UsesDataTable").interface_().parents("org.campagnelab.metar.tables.structure.StatementDependencies").create();
       case 55:
-        return new ConceptDescriptorBuilder("org.campagnelab.metar.tables.structure.WriteTable").super_("org.campagnelab.metar.tables.structure.Statement").parents("org.campagnelab.metar.tables.structure.Statement").properties("path").children(new String[]{"table"}, new boolean[]{false}).alias("write", "").create();
+        return new ConceptDescriptorBuilder("org.campagnelab.metar.tables.structure.WriteTable").super_("org.campagnelab.metar.tables.structure.Statement").parents("org.campagnelab.metar.tables.structure.Statement").properties("path", "withQuotes", "separator").children(new String[]{"table"}, new boolean[]{false}).alias("write", "").create();
       default:
         return StructureAspectInterpreted.getInstance().getDescriptor(conceptFqName);
     }
