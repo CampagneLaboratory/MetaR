@@ -1,17 +1,3 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="961s82tvrl8m76c0gszmalf4fhxlshv">
-  <dep model="r:00000000-0000-4000-0000-011c895902cd(jetbrains.mps.baseLanguage.generator.java.main@generator)" hash="303xz1b2lyseld0axia86q3lpvucmq6" />
-  <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" hash="b4ewbuz42qcbg1awca5bacgi0vopxqt" />
-  <dep model="r:e8edceb4-42cb-41ee-b8f8-86cabd309d52(org.campagnelab.metar.expressions.editor)" hash="-ark64zvfpgwcfmz54hyh181a2ofuqpe" />
-  <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" hash="a8elw7fctzg6sg8fe36u9gzu42axhdb" />
-  <dep model="r:feb05a40-03c0-48d7-8c1e-54c91666ecf8(org.campagnelab.metar.expressions.typesystem)" hash="3dg19yzhv6vyksfyo9zlj6lgg2yscku" />
-  <common dependsOnNodes="true">
-    <dep model="r:00000000-0000-4000-0000-011c895902cd(jetbrains.mps.baseLanguage.generator.java.main@generator)" />
-    <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" />
-    <dep model="r:e8edceb4-42cb-41ee-b8f8-86cabd309d52(org.campagnelab.metar.expressions.editor)" />
-    <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" />
-    <dep model="r:feb05a40-03c0-48d7-8c1e-54c91666ecf8(org.campagnelab.metar.expressions.typesystem)" />
-    <file name="Language.java" />
-  </common>
-</dependencies>
+<dependencies version="2" modelHash="961s82tvrl8m76c0gszmalf4fhxlshv" />
 

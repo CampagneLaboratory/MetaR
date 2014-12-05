@@ -385,8 +385,8 @@
   </root>
   <root nodeRef="r:ff825a5c-7d67-471c-8044-76c3cc7b519b(org.campagnelab.metar.tables.generator.template.main@generator)/4977909310693684475">
     <nodeInfo nodeId="4977909310697451787" fileName="QueriesGenerated.java" startLine="604" startPosition="112" endLine="605" endPosition="119" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="4977909310700576540" fileName="QueriesGenerated.java" startLine="608" startPosition="112" endLine="609" endPosition="172" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="4977909310700576139" fileName="QueriesGenerated.java" startLine="609" startPosition="172" endLine="610" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
+    <nodeInfo nodeId="4977909310700576540" fileName="QueriesGenerated.java" startLine="608" startPosition="112" endLine="609" endPosition="402" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4977909310700576139" fileName="QueriesGenerated.java" startLine="609" startPosition="402" endLine="610" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
     <nodeInfo nodeId="4977909310693684831" fileName="QueriesGenerated.java" startLine="613" startPosition="112" endLine="614" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <scopeInfo nodeId="4977909310697451092" fileName="QueriesGenerated.java" startLine="604" startPosition="112" endLine="605" endPosition="119" />
     <scopeInfo nodeId="4977909310693684830" fileName="QueriesGenerated.java" startLine="613" startPosition="112" endLine="614" endPosition="63" />

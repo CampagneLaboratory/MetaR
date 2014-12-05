@@ -1,11 +1,3 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="9ybtg58mzc2qzcvqopo8x8hurftmkqp">
-  <common hash="9ilycf0cveuayk6rmfo95f9vl4wwmhy" />
-  <source id="7074867102586503442" name="data.table" hash="3tuv039tlstj47l17nhb0wc61qnvvhv">
-    <file name="data.table" />
-  </source>
-  <source id="7074867102586503605" name="pheatmap" hash="3kpmhyh7ro60w30ceby4uqhtig9ay13">
-    <file name="pheatmap" />
-  </source>
-</dependencies>
+<dependencies version="2" modelHash="9ybtg58mzc2qzcvqopo8x8hurftmkqp" />
 

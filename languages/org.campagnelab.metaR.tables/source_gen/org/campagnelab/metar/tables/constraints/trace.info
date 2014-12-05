@@ -194,88 +194,77 @@
     <unitInfo nodeId="4166618652721976329" fileName="SubSetTableRows_Constraints.java" startLine="7" startPosition="0" endLine="12" endPosition="0" unitName="org.campagnelab.metar.tables.constraints.SubSetTableRows_Constraints" />
   </root>
   <root nodeRef="r:377e7fab-b099-4462-b9f3-2050d4b23cf6(org.campagnelab.metar.tables.constraints)/4451133196879838605">
-    <nodeInfo nodeId="4451133196879838605" fileName="TableRef_Constraints.java" startLine="31" startPosition="33" endLine="32" endPosition="61" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
-    <nodeInfo nodeId="4451133196879838605" fileName="TableRef_Constraints.java" startLine="36" startPosition="83" endLine="37" endPosition="75" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="4451133196879838605" fileName="TableRef_Constraints.java" startLine="40" startPosition="44" endLine="41" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="2765506299463194332" fileName="TableRef_Constraints.java" startLine="49" startPosition="142" endLine="50" endPosition="62" conceptFqName="jetbrains.mps.baseLanguage.structure.SingleLineComment" />
-    <nodeInfo nodeId="2765506299462575030" fileName="TableRef_Constraints.java" startLine="50" startPosition="62" endLine="51" endPosition="309" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="2765506299463016462" fileName="TableRef_Constraints.java" startLine="51" startPosition="309" endLine="52" endPosition="66" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="8031339867733693250" fileName="TableRef_Constraints.java" startLine="53" startPosition="38" endLine="54" endPosition="67" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="2765506299462882132" fileName="TableRef_Constraints.java" startLine="55" startPosition="13" endLine="56" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="2765506299463228271" fileName="TableRef_Constraints.java" startLine="58" startPosition="47" endLine="59" endPosition="227" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="8031339867733631512" fileName="TableRef_Constraints.java" startLine="63" startPosition="42" endLine="64" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="2765506299463116167" fileName="TableRef_Constraints.java" startLine="65" startPosition="17" endLine="66" endPosition="135" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="2765506299463175872" fileName="TableRef_Constraints.java" startLine="69" startPosition="47" endLine="70" endPosition="79" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="2765506299463175872" fileName="TableRef_Constraints.java" startLine="73" startPosition="45" endLine="74" endPosition="69" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="4451133196879838605" fileName="TableRef_Constraints.java" startLine="80" startPosition="63" endLine="81" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="4451133196879838605" fileName="TableRef_Constraints.java" startLine="85" startPosition="7" endLine="86" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="4451133196879838605" fileName="TableRef_Constraints.java" startLine="89" startPosition="0" endLine="90" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="LOG" />
-    <nodeInfo nodeId="4451133196879838605" fileName="TableRef_Constraints.java" startLine="90" startPosition="0" endLine="91" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="breakingNode_1duni_a0a1a0a0a1a0b0a1a1" />
-    <nodeInfo nodeId="4451133196879838605" fileName="TableRef_Constraints.java" startLine="31" startPosition="0" endLine="34" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="TableRef_Constraints#()V" />
-    <nodeInfo nodeId="8031339867733693250" fileName="TableRef_Constraints.java" startLine="52" startPosition="66" endLine="55" endPosition="13" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="8031339867733693250" fileName="TableRef_Constraints.java" startLine="52" startPosition="66" endLine="55" endPosition="13" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="2765506299462976549" fileName="TableRef_Constraints.java" startLine="58" startPosition="0" endLine="61" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="accept#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
-    <nodeInfo nodeId="8031339867733631512" fileName="TableRef_Constraints.java" startLine="62" startPosition="58" endLine="65" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="8031339867733631512" fileName="TableRef_Constraints.java" startLine="62" startPosition="58" endLine="65" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="2765506299463175872" fileName="TableRef_Constraints.java" startLine="69" startPosition="0" endLine="72" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="accept#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
-    <nodeInfo nodeId="2765506299463175872" fileName="TableRef_Constraints.java" startLine="73" startPosition="0" endLine="76" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="select#(Lorg/jetbrains/mps/openapi/model/SNode;)Lorg/jetbrains/mps/openapi/model/SNode;" />
-    <nodeInfo nodeId="4451133196879838605" fileName="TableRef_Constraints.java" startLine="39" startPosition="0" endLine="43" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="hasOwnScopeProvider#()Z" />
-    <nodeInfo nodeId="4451133196879838605" fileName="TableRef_Constraints.java" startLine="79" startPosition="0" endLine="83" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getSearchScopeValidatorNode#()Lorg/jetbrains/mps/openapi/model/SNodeReference;" />
-    <nodeInfo nodeId="2765506299463108699" fileName="TableRef_Constraints.java" startLine="62" startPosition="0" endLine="68" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="translate#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/Iterable;" />
-    <nodeInfo nodeId="2765506299462933569" fileName="TableRef_Constraints.java" startLine="56" startPosition="73" endLine="76" endPosition="15" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="4451133196879838605" fileName="TableRef_Constraints.java" startLine="48" startPosition="0" endLine="78" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createSearchScopeOrListOfNodes#(Ljetbrains/mps/smodel/IOperationContext;Ljetbrains/mps/smodel/runtime/ReferenceConstraintsContext;)Ljava/lang/Object;" />
-    <nodeInfo nodeId="4451133196879838605" fileName="TableRef_Constraints.java" startLine="46" startPosition="56" endLine="83" endPosition="10" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="4451133196879838605" fileName="TableRef_Constraints.java" startLine="44" startPosition="0" endLine="85" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getScopeProvider#()Ljetbrains/mps/smodel/runtime/ReferenceScopeProvider;" />
-    <nodeInfo nodeId="4451133196879838605" fileName="TableRef_Constraints.java" startLine="37" startPosition="75" endLine="85" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4451133196879838605" fileName="TableRef_Constraints.java" startLine="35" startPosition="0" endLine="88" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getNotDefaultReferences#()Ljava/util/Map;" />
-    <scopeInfo nodeId="4451133196879838605" fileName="TableRef_Constraints.java" startLine="31" startPosition="33" endLine="32" endPosition="61" />
-    <scopeInfo nodeId="4451133196879838605" fileName="TableRef_Constraints.java" startLine="40" startPosition="44" endLine="41" endPosition="20" />
-    <scopeInfo nodeId="8031339867733693250" fileName="TableRef_Constraints.java" startLine="53" startPosition="38" endLine="54" endPosition="67" />
-    <scopeInfo nodeId="2765506299462976550" fileName="TableRef_Constraints.java" startLine="58" startPosition="47" endLine="59" endPosition="227" />
-    <scopeInfo nodeId="8031339867733631512" fileName="TableRef_Constraints.java" startLine="63" startPosition="42" endLine="64" endPosition="45" />
-    <scopeInfo nodeId="2765506299463175872" fileName="TableRef_Constraints.java" startLine="69" startPosition="47" endLine="70" endPosition="79" />
-    <scopeInfo nodeId="2765506299463175872" fileName="TableRef_Constraints.java" startLine="73" startPosition="45" endLine="74" endPosition="69" />
-    <scopeInfo nodeId="4451133196879838605" fileName="TableRef_Constraints.java" startLine="80" startPosition="63" endLine="81" endPosition="57" />
-    <scopeInfo nodeId="4451133196879838605" fileName="TableRef_Constraints.java" startLine="31" startPosition="0" endLine="34" endPosition="0" />
-    <scopeInfo nodeId="8031339867733693250" fileName="TableRef_Constraints.java" startLine="52" startPosition="66" endLine="55" endPosition="13" />
-    <scopeInfo nodeId="2765506299462976549" fileName="TableRef_Constraints.java" startLine="58" startPosition="0" endLine="61" endPosition="0">
+    <nodeInfo nodeId="4451133196879838605" fileName="TableRef_Constraints.java" startLine="29" startPosition="33" endLine="30" endPosition="61" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+    <nodeInfo nodeId="4451133196879838605" fileName="TableRef_Constraints.java" startLine="34" startPosition="83" endLine="35" endPosition="75" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="4451133196879838605" fileName="TableRef_Constraints.java" startLine="38" startPosition="44" endLine="39" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="2765506299463194332" fileName="TableRef_Constraints.java" startLine="47" startPosition="142" endLine="48" endPosition="62" conceptFqName="jetbrains.mps.baseLanguage.structure.SingleLineComment" />
+    <nodeInfo nodeId="2765506299462575030" fileName="TableRef_Constraints.java" startLine="48" startPosition="62" endLine="49" endPosition="309" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="2765506299463016462" fileName="TableRef_Constraints.java" startLine="49" startPosition="309" endLine="50" endPosition="66" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="2765506299462882132" fileName="TableRef_Constraints.java" startLine="50" startPosition="66" endLine="51" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="2765506299463228271" fileName="TableRef_Constraints.java" startLine="53" startPosition="47" endLine="54" endPosition="227" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="2765506299463116167" fileName="TableRef_Constraints.java" startLine="57" startPosition="58" endLine="58" endPosition="135" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="2765506299463175872" fileName="TableRef_Constraints.java" startLine="61" startPosition="47" endLine="62" endPosition="79" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="2765506299463175872" fileName="TableRef_Constraints.java" startLine="65" startPosition="45" endLine="66" endPosition="69" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4451133196879838605" fileName="TableRef_Constraints.java" startLine="72" startPosition="63" endLine="73" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4451133196879838605" fileName="TableRef_Constraints.java" startLine="77" startPosition="7" endLine="78" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4451133196879838605" fileName="TableRef_Constraints.java" startLine="81" startPosition="0" endLine="82" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="breakingNode_1duni_a0a1a0a0a1a0b0a1a1" />
+    <nodeInfo nodeId="4451133196879838605" fileName="TableRef_Constraints.java" startLine="29" startPosition="0" endLine="32" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="TableRef_Constraints#()V" />
+    <nodeInfo nodeId="2765506299462976549" fileName="TableRef_Constraints.java" startLine="53" startPosition="0" endLine="56" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="accept#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
+    <nodeInfo nodeId="2765506299463108699" fileName="TableRef_Constraints.java" startLine="57" startPosition="0" endLine="60" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="translate#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/Iterable;" />
+    <nodeInfo nodeId="2765506299463175872" fileName="TableRef_Constraints.java" startLine="61" startPosition="0" endLine="64" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="accept#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
+    <nodeInfo nodeId="2765506299463175872" fileName="TableRef_Constraints.java" startLine="65" startPosition="0" endLine="68" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="select#(Lorg/jetbrains/mps/openapi/model/SNode;)Lorg/jetbrains/mps/openapi/model/SNode;" />
+    <nodeInfo nodeId="4451133196879838605" fileName="TableRef_Constraints.java" startLine="37" startPosition="0" endLine="41" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="hasOwnScopeProvider#()Z" />
+    <nodeInfo nodeId="4451133196879838605" fileName="TableRef_Constraints.java" startLine="71" startPosition="0" endLine="75" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getSearchScopeValidatorNode#()Lorg/jetbrains/mps/openapi/model/SNodeReference;" />
+    <nodeInfo nodeId="2765506299462933569" fileName="TableRef_Constraints.java" startLine="51" startPosition="73" endLine="68" endPosition="15" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4451133196879838605" fileName="TableRef_Constraints.java" startLine="46" startPosition="0" endLine="70" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createSearchScopeOrListOfNodes#(Ljetbrains/mps/smodel/IOperationContext;Ljetbrains/mps/smodel/runtime/ReferenceConstraintsContext;)Ljava/lang/Object;" />
+    <nodeInfo nodeId="4451133196879838605" fileName="TableRef_Constraints.java" startLine="44" startPosition="56" endLine="75" endPosition="10" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4451133196879838605" fileName="TableRef_Constraints.java" startLine="42" startPosition="0" endLine="77" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getScopeProvider#()Ljetbrains/mps/smodel/runtime/ReferenceScopeProvider;" />
+    <nodeInfo nodeId="4451133196879838605" fileName="TableRef_Constraints.java" startLine="35" startPosition="75" endLine="77" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4451133196879838605" fileName="TableRef_Constraints.java" startLine="33" startPosition="0" endLine="80" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getNotDefaultReferences#()Ljava/util/Map;" />
+    <scopeInfo nodeId="4451133196879838605" fileName="TableRef_Constraints.java" startLine="29" startPosition="33" endLine="30" endPosition="61" />
+    <scopeInfo nodeId="4451133196879838605" fileName="TableRef_Constraints.java" startLine="38" startPosition="44" endLine="39" endPosition="20" />
+    <scopeInfo nodeId="2765506299462976550" fileName="TableRef_Constraints.java" startLine="53" startPosition="47" endLine="54" endPosition="227" />
+    <scopeInfo nodeId="2765506299463108700" fileName="TableRef_Constraints.java" startLine="57" startPosition="58" endLine="58" endPosition="135" />
+    <scopeInfo nodeId="2765506299463175872" fileName="TableRef_Constraints.java" startLine="61" startPosition="47" endLine="62" endPosition="79" />
+    <scopeInfo nodeId="2765506299463175872" fileName="TableRef_Constraints.java" startLine="65" startPosition="45" endLine="66" endPosition="69" />
+    <scopeInfo nodeId="4451133196879838605" fileName="TableRef_Constraints.java" startLine="72" startPosition="63" endLine="73" endPosition="57" />
+    <scopeInfo nodeId="4451133196879838605" fileName="TableRef_Constraints.java" startLine="29" startPosition="0" endLine="32" endPosition="0" />
+    <scopeInfo nodeId="2765506299462976549" fileName="TableRef_Constraints.java" startLine="53" startPosition="0" endLine="56" endPosition="0">
       <varInfo nodeId="2765506299462976549" varName="it" />
     </scopeInfo>
-    <scopeInfo nodeId="8031339867733631512" fileName="TableRef_Constraints.java" startLine="62" startPosition="58" endLine="65" endPosition="17" />
-    <scopeInfo nodeId="2765506299463175872" fileName="TableRef_Constraints.java" startLine="69" startPosition="0" endLine="72" endPosition="0">
-      <varInfo nodeId="2765506299463175872" varName="it" />
-    </scopeInfo>
-    <scopeInfo nodeId="2765506299463175872" fileName="TableRef_Constraints.java" startLine="73" startPosition="0" endLine="76" endPosition="0">
-      <varInfo nodeId="2765506299463175872" varName="it" />
-    </scopeInfo>
-    <scopeInfo nodeId="4451133196879838605" fileName="TableRef_Constraints.java" startLine="39" startPosition="0" endLine="43" endPosition="0" />
-    <scopeInfo nodeId="2765506299463108700" fileName="TableRef_Constraints.java" startLine="62" startPosition="58" endLine="66" endPosition="135" />
-    <scopeInfo nodeId="4451133196879838605" fileName="TableRef_Constraints.java" startLine="79" startPosition="0" endLine="83" endPosition="0" />
-    <scopeInfo nodeId="2765506299463108699" fileName="TableRef_Constraints.java" startLine="62" startPosition="0" endLine="68" endPosition="0">
+    <scopeInfo nodeId="2765506299463108699" fileName="TableRef_Constraints.java" startLine="57" startPosition="0" endLine="60" endPosition="0">
       <varInfo nodeId="2765506299463108699" varName="it" />
     </scopeInfo>
-    <scopeInfo nodeId="4451133196880007446" fileName="TableRef_Constraints.java" startLine="49" startPosition="142" endLine="76" endPosition="15">
+    <scopeInfo nodeId="2765506299463175872" fileName="TableRef_Constraints.java" startLine="61" startPosition="0" endLine="64" endPosition="0">
+      <varInfo nodeId="2765506299463175872" varName="it" />
+    </scopeInfo>
+    <scopeInfo nodeId="2765506299463175872" fileName="TableRef_Constraints.java" startLine="65" startPosition="0" endLine="68" endPosition="0">
+      <varInfo nodeId="2765506299463175872" varName="it" />
+    </scopeInfo>
+    <scopeInfo nodeId="4451133196879838605" fileName="TableRef_Constraints.java" startLine="37" startPosition="0" endLine="41" endPosition="0" />
+    <scopeInfo nodeId="4451133196879838605" fileName="TableRef_Constraints.java" startLine="71" startPosition="0" endLine="75" endPosition="0" />
+    <scopeInfo nodeId="4451133196880007446" fileName="TableRef_Constraints.java" startLine="47" startPosition="142" endLine="68" endPosition="15">
       <varInfo nodeId="2765506299462882135" varName="before" />
       <varInfo nodeId="2765506299462575033" varName="statements" />
       <varInfo nodeId="2765506299463016465" varName="thisStatement" />
     </scopeInfo>
-    <scopeInfo nodeId="4451133196879838605" fileName="TableRef_Constraints.java" startLine="48" startPosition="0" endLine="78" endPosition="0">
+    <scopeInfo nodeId="4451133196879838605" fileName="TableRef_Constraints.java" startLine="46" startPosition="0" endLine="70" endPosition="0">
       <varInfo nodeId="4451133196879838605" varName="_context" />
       <varInfo nodeId="4451133196879838605" varName="operationContext" />
     </scopeInfo>
-    <scopeInfo nodeId="4451133196879838605" fileName="TableRef_Constraints.java" startLine="46" startPosition="56" endLine="83" endPosition="10" />
-    <scopeInfo nodeId="4451133196879838605" fileName="TableRef_Constraints.java" startLine="44" startPosition="0" endLine="85" endPosition="0" />
-    <scopeInfo nodeId="4451133196879838605" fileName="TableRef_Constraints.java" startLine="36" startPosition="83" endLine="86" endPosition="22">
+    <scopeInfo nodeId="4451133196879838605" fileName="TableRef_Constraints.java" startLine="44" startPosition="56" endLine="75" endPosition="10" />
+    <scopeInfo nodeId="4451133196879838605" fileName="TableRef_Constraints.java" startLine="42" startPosition="0" endLine="77" endPosition="0" />
+    <scopeInfo nodeId="4451133196879838605" fileName="TableRef_Constraints.java" startLine="34" startPosition="83" endLine="78" endPosition="22">
       <varInfo nodeId="4451133196879838605" varName="references" />
     </scopeInfo>
-    <scopeInfo nodeId="4451133196879838605" fileName="TableRef_Constraints.java" startLine="35" startPosition="0" endLine="88" endPosition="0" />
-    <unitInfo nodeId="2765506299462976549" fileName="TableRef_Constraints.java" startLine="57" startPosition="63" endLine="61" endPosition="13" unitName="org.campagnelab.metar.tables.constraints.TableRef_Constraints$3" />
-    <unitInfo nodeId="2765506299463175872" fileName="TableRef_Constraints.java" startLine="68" startPosition="25" endLine="72" endPosition="13" unitName="org.campagnelab.metar.tables.constraints.TableRef_Constraints$3" />
-    <unitInfo nodeId="2765506299463175872" fileName="TableRef_Constraints.java" startLine="72" startPosition="26" endLine="76" endPosition="13" unitName="org.campagnelab.metar.tables.constraints.TableRef_Constraints$3" />
-    <unitInfo nodeId="2765506299463108699" fileName="TableRef_Constraints.java" startLine="61" startPosition="29" endLine="68" endPosition="13" unitName="org.campagnelab.metar.tables.constraints.TableRef_Constraints$3" />
-    <unitInfo nodeId="4451133196879838605" fileName="TableRef_Constraints.java" startLine="47" startPosition="19" endLine="83" endPosition="9" unitName="org.campagnelab.metar.tables.constraints.TableRef_Constraints$2" />
-    <unitInfo nodeId="4451133196879838605" fileName="TableRef_Constraints.java" startLine="38" startPosition="32" endLine="85" endPosition="5" unitName="org.campagnelab.metar.tables.constraints.TableRef_Constraints$1" />
-    <unitInfo nodeId="4451133196879838605" fileName="TableRef_Constraints.java" startLine="30" startPosition="0" endLine="92" endPosition="0" unitName="org.campagnelab.metar.tables.constraints.TableRef_Constraints" />
+    <scopeInfo nodeId="4451133196879838605" fileName="TableRef_Constraints.java" startLine="33" startPosition="0" endLine="80" endPosition="0" />
+    <unitInfo nodeId="2765506299462976549" fileName="TableRef_Constraints.java" startLine="52" startPosition="63" endLine="56" endPosition="13" unitName="org.campagnelab.metar.tables.constraints.TableRef_Constraints$3" />
+    <unitInfo nodeId="2765506299463108699" fileName="TableRef_Constraints.java" startLine="56" startPosition="29" endLine="60" endPosition="13" unitName="org.campagnelab.metar.tables.constraints.TableRef_Constraints$3" />
+    <unitInfo nodeId="2765506299463175872" fileName="TableRef_Constraints.java" startLine="60" startPosition="25" endLine="64" endPosition="13" unitName="org.campagnelab.metar.tables.constraints.TableRef_Constraints$3" />
+    <unitInfo nodeId="2765506299463175872" fileName="TableRef_Constraints.java" startLine="64" startPosition="26" endLine="68" endPosition="13" unitName="org.campagnelab.metar.tables.constraints.TableRef_Constraints$3" />
+    <unitInfo nodeId="4451133196879838605" fileName="TableRef_Constraints.java" startLine="45" startPosition="19" endLine="75" endPosition="9" unitName="org.campagnelab.metar.tables.constraints.TableRef_Constraints$2" />
+    <unitInfo nodeId="4451133196879838605" fileName="TableRef_Constraints.java" startLine="36" startPosition="32" endLine="77" endPosition="5" unitName="org.campagnelab.metar.tables.constraints.TableRef_Constraints$1" />
+    <unitInfo nodeId="4451133196879838605" fileName="TableRef_Constraints.java" startLine="28" startPosition="0" endLine="83" endPosition="0" unitName="org.campagnelab.metar.tables.constraints.TableRef_Constraints" />
   </root>
   <root nodeRef="r:377e7fab-b099-4462-b9f3-2050d4b23cf6(org.campagnelab.metar.tables.constraints)/6001041468488432865">
     <nodeInfo nodeId="6001041468488432865" fileName="FitXByY_Constraints.java" startLine="18" startPosition="32" endLine="19" endPosition="60" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />

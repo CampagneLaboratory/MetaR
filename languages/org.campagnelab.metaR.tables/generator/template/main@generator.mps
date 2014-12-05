@@ -1835,7 +1835,7 @@
           <property name="text" nameId="p6sl.5493669862519718600" value="pheatmap(MX2," />
         </node>
         <node role="lines" roleId="p6sl.5039633819242576854" type="p6sl.Line" typeId="p6sl.5493669862519709805" id="8016431400518052256" nodeInfo="ng">
-          <property name="text" nameId="p6sl.5493669862519718600" value="         cluster_rows=cluster,cluster_cols = F," />
+          <property name="text" nameId="p6sl.5493669862519718600" value="         cluster_rows=FALSE,cluster_cols = FALSE," />
         </node>
         <node role="lines" roleId="p6sl.5039633819242576854" type="p6sl.Line" typeId="p6sl.5493669862519709805" id="8016431400518052257" nodeInfo="ng">
           <property name="text" nameId="p6sl.5493669862519718600" value="" />
@@ -6762,7 +6762,7 @@
           </node>
         </node>
         <node role="phrases" roleId="p6sl.1680136183140337477" type="p6sl.Phrase" typeId="p6sl.1680136183140337486" id="8031339867735054241" nodeInfo="ng">
-          <property name="text" nameId="p6sl.1680136183140337487" value="&quot;,quote=" />
+          <property name="text" nameId="p6sl.1680136183140337487" value="&quot;,row.names=FALSE ,quote=" />
         </node>
         <node role="phrases" roleId="p6sl.1680136183140337477" type="p6sl.Phrase" typeId="p6sl.1680136183140337486" id="8031339867734637794" nodeInfo="ng">
           <property name="text" nameId="p6sl.1680136183140337487" value="TRUE" />
