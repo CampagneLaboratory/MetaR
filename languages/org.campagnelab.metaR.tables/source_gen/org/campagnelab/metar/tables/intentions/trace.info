@@ -1,6 +1,149 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
-  <unitInfo fileName="IntentionsDescriptor.java" startLine="10" startPosition="0" endLine="24" endPosition="0" unitName="org.campagnelab.metar.tables.intentions.IntentionsDescriptor" />
+  <unitInfo fileName="IntentionsDescriptor.java" startLine="10" startPosition="0" endLine="25" endPosition="0" unitName="org.campagnelab.metar.tables.intentions.IntentionsDescriptor" />
+  <root nodeRef="r:597299e2-456c-40ec-87e4-c5fdcfc8d153(org.campagnelab.metar.tables.intentions)/2133144034278076335">
+    <nodeInfo nodeId="2133144034278076335" fileName="TransferGroupsFrom_Intention.java" startLine="32" startPosition="30" endLine="33" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="2133144034278076335" fileName="TransferGroupsFrom_Intention.java" startLine="36" startPosition="35" endLine="37" endPosition="32" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="2133144034278076335" fileName="TransferGroupsFrom_Intention.java" startLine="40" startPosition="41" endLine="41" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="2133144034278076335" fileName="TransferGroupsFrom_Intention.java" startLine="44" startPosition="37" endLine="45" endPosition="42" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="2133144034278076335" fileName="TransferGroupsFrom_Intention.java" startLine="48" startPosition="34" endLine="49" endPosition="32" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="2133144034278076335" fileName="TransferGroupsFrom_Intention.java" startLine="52" startPosition="44" endLine="53" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="2133144034278076335" fileName="TransferGroupsFrom_Intention.java" startLine="56" startPosition="84" endLine="57" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="2133144034278076335" fileName="TransferGroupsFrom_Intention.java" startLine="60" startPosition="53" endLine="61" endPosition="134" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="2133144034278076335" fileName="TransferGroupsFrom_Intention.java" startLine="64" startPosition="35" endLine="65" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="2133144034278076335" fileName="TransferGroupsFrom_Intention.java" startLine="68" startPosition="99" endLine="69" endPosition="97" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="2133144034278076335" fileName="TransferGroupsFrom_Intention.java" startLine="69" startPosition="97" endLine="70" endPosition="53" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="2133144034278076335" fileName="TransferGroupsFrom_Intention.java" startLine="72" startPosition="37" endLine="73" endPosition="112" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="2133144034278076335" fileName="TransferGroupsFrom_Intention.java" startLine="75" startPosition="5" endLine="76" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="2133144034278235106" fileName="TransferGroupsFrom_Intention.java" startLine="83" startPosition="43" endLine="84" endPosition="234" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="2133144034278076335" fileName="TransferGroupsFrom_Intention.java" startLine="92" startPosition="0" endLine="93" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myParameter" />
+    <nodeInfo nodeId="2133144034278076335" fileName="TransferGroupsFrom_Intention.java" startLine="94" startPosition="53" endLine="95" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="2133144034278108818" fileName="TransferGroupsFrom_Intention.java" startLine="98" startPosition="87" endLine="99" endPosition="101" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="2133144034278323600" fileName="TransferGroupsFrom_Intention.java" startLine="102" startPosition="78" endLine="103" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="2133144034278391566" fileName="TransferGroupsFrom_Intention.java" startLine="106" startPosition="170" endLine="107" endPosition="255" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="2133144034279052458" fileName="TransferGroupsFrom_Intention.java" startLine="108" startPosition="11" endLine="109" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
+    <nodeInfo nodeId="2133144034278339758" fileName="TransferGroupsFrom_Intention.java" startLine="111" startPosition="52" endLine="112" endPosition="158" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="2133144034278377790" fileName="TransferGroupsFrom_Intention.java" startLine="114" startPosition="130" endLine="115" endPosition="270" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="2133144034278076335" fileName="TransferGroupsFrom_Intention.java" startLine="120" startPosition="48" endLine="121" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="2133144034278343084" fileName="TransferGroupsFrom_Intention.java" startLine="125" startPosition="82" endLine="126" endPosition="46" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="2133144034278076335" fileName="TransferGroupsFrom_Intention.java" startLine="29" startPosition="0" endLine="31" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="TransferGroupsFrom_Intention#()V" />
+    <nodeInfo nodeId="2133144034278076335" fileName="TransferGroupsFrom_Intention.java" startLine="32" startPosition="0" endLine="35" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getConcept#()Ljava/lang/String;" />
+    <nodeInfo nodeId="2133144034278076335" fileName="TransferGroupsFrom_Intention.java" startLine="36" startPosition="0" endLine="39" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getPresentation#()Ljava/lang/String;" />
+    <nodeInfo nodeId="2133144034278076335" fileName="TransferGroupsFrom_Intention.java" startLine="40" startPosition="0" endLine="43" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getPersistentStateKey#()Ljava/lang/String;" />
+    <nodeInfo nodeId="2133144034278076335" fileName="TransferGroupsFrom_Intention.java" startLine="44" startPosition="0" endLine="47" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getLanguageFqName#()Ljava/lang/String;" />
+    <nodeInfo nodeId="2133144034278076335" fileName="TransferGroupsFrom_Intention.java" startLine="48" startPosition="0" endLine="51" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getType#()Ljetbrains/mps/intentions/IntentionType;" />
+    <nodeInfo nodeId="2133144034278076335" fileName="TransferGroupsFrom_Intention.java" startLine="52" startPosition="0" endLine="55" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isAvailableInChildNodes#()Z" />
+    <nodeInfo nodeId="2133144034278076335" fileName="TransferGroupsFrom_Intention.java" startLine="56" startPosition="0" endLine="59" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isApplicable#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Z" />
+    <nodeInfo nodeId="2133144034278076335" fileName="TransferGroupsFrom_Intention.java" startLine="60" startPosition="0" endLine="63" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getIntentionNodeReference#()Lorg/jetbrains/mps/openapi/model/SNodeReference;" />
+    <nodeInfo nodeId="2133144034278076335" fileName="TransferGroupsFrom_Intention.java" startLine="64" startPosition="0" endLine="67" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isSurroundWith#()Z" />
+    <nodeInfo nodeId="2133144034278076335" fileName="TransferGroupsFrom_Intention.java" startLine="71" startPosition="28" endLine="74" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+    <nodeInfo nodeId="2133144034278229337" fileName="TransferGroupsFrom_Intention.java" startLine="83" startPosition="0" endLine="86" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="accept#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
+    <nodeInfo nodeId="2133144034278076335" fileName="TransferGroupsFrom_Intention.java" startLine="94" startPosition="0" endLine="97" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="IntentionImplementation#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+    <nodeInfo nodeId="2133144034278076335" fileName="TransferGroupsFrom_Intention.java" startLine="98" startPosition="0" endLine="101" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getDescription#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Ljava/lang/String;" />
+    <nodeInfo nodeId="2133144034278382048" fileName="TransferGroupsFrom_Intention.java" startLine="105" startPosition="51" endLine="108" endPosition="11" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="2133144034278339213" fileName="TransferGroupsFrom_Intention.java" startLine="111" startPosition="0" endLine="114" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="accept#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
+    <nodeInfo nodeId="2133144034278076335" fileName="TransferGroupsFrom_Intention.java" startLine="120" startPosition="0" endLine="123" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getDescriptor#()Ljetbrains/mps/intentions/IntentionDescriptor;" />
+    <nodeInfo nodeId="2133144034278343084" fileName="TransferGroupsFrom_Intention.java" startLine="125" startPosition="0" endLine="128" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="eq_ekgebv_a0a0a0a0a0a0a2a0a0a0a1a3m#(Ljava/lang/Object;Ljava/lang/Object;)Z" />
+    <nodeInfo nodeId="2133144034278076335" fileName="TransferGroupsFrom_Intention.java" startLine="70" startPosition="53" endLine="75" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="2133144034278177731" fileName="TransferGroupsFrom_Intention.java" startLine="81" startPosition="39" endLine="86" endPosition="11" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="2133144034278451721" fileName="TransferGroupsFrom_Intention.java" startLine="109" startPosition="0" endLine="114" endPosition="130" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="2133144034278172057" fileName="TransferGroupsFrom_Intention.java" startLine="81" startPosition="0" endLine="88" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="accept#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
+    <nodeInfo nodeId="2133144034278088050" fileName="TransferGroupsFrom_Intention.java" startLine="79" startPosition="86" endLine="88" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="2133144034278076335" fileName="TransferGroupsFrom_Intention.java" startLine="68" startPosition="0" endLine="78" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="instances#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Ljava/util/Collection;" />
+    <nodeInfo nodeId="2133144034278076335" fileName="TransferGroupsFrom_Intention.java" startLine="79" startPosition="0" endLine="90" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="parameter#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Ljava/util/List;" />
+    <nodeInfo nodeId="2133144034278322320" fileName="TransferGroupsFrom_Intention.java" startLine="105" startPosition="0" endLine="117" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="visit#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+    <nodeInfo nodeId="2133144034278308541" fileName="TransferGroupsFrom_Intention.java" startLine="103" startPosition="44" endLine="117" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="2133144034278076335" fileName="TransferGroupsFrom_Intention.java" startLine="102" startPosition="0" endLine="119" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="execute#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
+    <scopeInfo nodeId="2133144034278076335" fileName="TransferGroupsFrom_Intention.java" startLine="29" startPosition="41" endLine="29" endPosition="41" />
+    <scopeInfo nodeId="2133144034278076335" fileName="TransferGroupsFrom_Intention.java" startLine="32" startPosition="30" endLine="33" endPosition="58" />
+    <scopeInfo nodeId="2133144034278076335" fileName="TransferGroupsFrom_Intention.java" startLine="36" startPosition="35" endLine="37" endPosition="32" />
+    <scopeInfo nodeId="2133144034278076335" fileName="TransferGroupsFrom_Intention.java" startLine="40" startPosition="41" endLine="41" endPosition="82" />
+    <scopeInfo nodeId="2133144034278076335" fileName="TransferGroupsFrom_Intention.java" startLine="44" startPosition="37" endLine="45" endPosition="42" />
+    <scopeInfo nodeId="2133144034278076335" fileName="TransferGroupsFrom_Intention.java" startLine="48" startPosition="34" endLine="49" endPosition="32" />
+    <scopeInfo nodeId="2133144034278076335" fileName="TransferGroupsFrom_Intention.java" startLine="52" startPosition="44" endLine="53" endPosition="17" />
+    <scopeInfo nodeId="2133144034278076335" fileName="TransferGroupsFrom_Intention.java" startLine="56" startPosition="84" endLine="57" endPosition="16" />
+    <scopeInfo nodeId="2133144034278076335" fileName="TransferGroupsFrom_Intention.java" startLine="60" startPosition="53" endLine="61" endPosition="134" />
+    <scopeInfo nodeId="2133144034278076335" fileName="TransferGroupsFrom_Intention.java" startLine="64" startPosition="35" endLine="65" endPosition="17" />
+    <scopeInfo nodeId="2133144034278076335" fileName="TransferGroupsFrom_Intention.java" startLine="72" startPosition="37" endLine="73" endPosition="112" />
+    <scopeInfo nodeId="2133144034278229338" fileName="TransferGroupsFrom_Intention.java" startLine="83" startPosition="43" endLine="84" endPosition="234" />
+    <scopeInfo nodeId="2133144034278076335" fileName="TransferGroupsFrom_Intention.java" startLine="94" startPosition="53" endLine="95" endPosition="30" />
+    <scopeInfo nodeId="2133144034278076337" fileName="TransferGroupsFrom_Intention.java" startLine="98" startPosition="87" endLine="99" endPosition="101" />
+    <scopeInfo nodeId="2133144034278382051" fileName="TransferGroupsFrom_Intention.java" startLine="106" startPosition="170" endLine="107" endPosition="255" />
+    <scopeInfo nodeId="2133144034278339214" fileName="TransferGroupsFrom_Intention.java" startLine="111" startPosition="52" endLine="112" endPosition="158" />
+    <scopeInfo nodeId="2133144034278076335" fileName="TransferGroupsFrom_Intention.java" startLine="120" startPosition="48" endLine="121" endPosition="47" />
+    <scopeInfo nodeId="2133144034278343084" fileName="TransferGroupsFrom_Intention.java" startLine="125" startPosition="82" endLine="126" endPosition="46" />
+    <scopeInfo nodeId="2133144034278076335" fileName="TransferGroupsFrom_Intention.java" startLine="29" startPosition="0" endLine="31" endPosition="0" />
+    <scopeInfo nodeId="2133144034278076335" fileName="TransferGroupsFrom_Intention.java" startLine="32" startPosition="0" endLine="35" endPosition="0" />
+    <scopeInfo nodeId="2133144034278076335" fileName="TransferGroupsFrom_Intention.java" startLine="36" startPosition="0" endLine="39" endPosition="0" />
+    <scopeInfo nodeId="2133144034278076335" fileName="TransferGroupsFrom_Intention.java" startLine="40" startPosition="0" endLine="43" endPosition="0" />
+    <scopeInfo nodeId="2133144034278076335" fileName="TransferGroupsFrom_Intention.java" startLine="44" startPosition="0" endLine="47" endPosition="0" />
+    <scopeInfo nodeId="2133144034278076335" fileName="TransferGroupsFrom_Intention.java" startLine="48" startPosition="0" endLine="51" endPosition="0" />
+    <scopeInfo nodeId="2133144034278076335" fileName="TransferGroupsFrom_Intention.java" startLine="52" startPosition="0" endLine="55" endPosition="0" />
+    <scopeInfo nodeId="2133144034278076335" fileName="TransferGroupsFrom_Intention.java" startLine="56" startPosition="0" endLine="59" endPosition="0">
+      <varInfo nodeId="2133144034278076335" varName="editorContext" />
+      <varInfo nodeId="2133144034278076335" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="2133144034278076335" fileName="TransferGroupsFrom_Intention.java" startLine="60" startPosition="0" endLine="63" endPosition="0" />
+    <scopeInfo nodeId="2133144034278076335" fileName="TransferGroupsFrom_Intention.java" startLine="64" startPosition="0" endLine="67" endPosition="0" />
+    <scopeInfo nodeId="2133144034278076335" fileName="TransferGroupsFrom_Intention.java" startLine="71" startPosition="28" endLine="74" endPosition="7" />
+    <scopeInfo nodeId="2133144034278076335" fileName="TransferGroupsFrom_Intention.java" startLine="71" startPosition="28" endLine="74" endPosition="7">
+      <varInfo nodeId="2133144034278076335" varName="param" />
+    </scopeInfo>
+    <scopeInfo nodeId="2133144034278229337" fileName="TransferGroupsFrom_Intention.java" startLine="83" startPosition="0" endLine="86" endPosition="0">
+      <varInfo nodeId="2133144034278229337" varName="it" />
+    </scopeInfo>
+    <scopeInfo nodeId="2133144034278076335" fileName="TransferGroupsFrom_Intention.java" startLine="94" startPosition="0" endLine="97" endPosition="0">
+      <varInfo nodeId="2133144034278076335" varName="parameter" />
+    </scopeInfo>
+    <scopeInfo nodeId="2133144034278076335" fileName="TransferGroupsFrom_Intention.java" startLine="98" startPosition="0" endLine="101" endPosition="0">
+      <varInfo nodeId="2133144034278076335" varName="editorContext" />
+      <varInfo nodeId="2133144034278076335" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="2133144034278339213" fileName="TransferGroupsFrom_Intention.java" startLine="111" startPosition="0" endLine="114" endPosition="0">
+      <varInfo nodeId="2133144034278339213" varName="sourceCol" />
+    </scopeInfo>
+    <scopeInfo nodeId="2133144034278076335" fileName="TransferGroupsFrom_Intention.java" startLine="120" startPosition="0" endLine="123" endPosition="0" />
+    <scopeInfo nodeId="2133144034278343084" fileName="TransferGroupsFrom_Intention.java" startLine="125" startPosition="0" endLine="128" endPosition="0">
+      <varInfo nodeId="2133144034278343084" varName="a" />
+      <varInfo nodeId="2133144034278343084" varName="b" />
+    </scopeInfo>
+    <scopeInfo nodeId="2133144034278172058" fileName="TransferGroupsFrom_Intention.java" startLine="81" startPosition="39" endLine="86" endPosition="11" />
+    <scopeInfo nodeId="2133144034278172057" fileName="TransferGroupsFrom_Intention.java" startLine="81" startPosition="0" endLine="88" endPosition="0">
+      <varInfo nodeId="2133144034278172057" varName="it" />
+    </scopeInfo>
+    <scopeInfo nodeId="2133144034278076335" fileName="TransferGroupsFrom_Intention.java" startLine="68" startPosition="99" endLine="76" endPosition="16">
+      <varInfo nodeId="2133144034278076335" varName="list" />
+      <varInfo nodeId="2133144034278076335" varName="paramList" />
+    </scopeInfo>
+    <scopeInfo nodeId="2133144034278076335" fileName="TransferGroupsFrom_Intention.java" startLine="79" startPosition="86" endLine="88" endPosition="24" />
+    <scopeInfo nodeId="2133144034278076335" fileName="TransferGroupsFrom_Intention.java" startLine="68" startPosition="0" endLine="78" endPosition="0">
+      <varInfo nodeId="2133144034278076335" varName="context" />
+      <varInfo nodeId="2133144034278076335" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="2133144034278322321" fileName="TransferGroupsFrom_Intention.java" startLine="105" startPosition="51" endLine="115" endPosition="270">
+      <varInfo nodeId="2133144034278451724" varName="sourceGroups" />
+    </scopeInfo>
+    <scopeInfo nodeId="2133144034278076335" fileName="TransferGroupsFrom_Intention.java" startLine="79" startPosition="0" endLine="90" endPosition="0">
+      <varInfo nodeId="2133144034278076335" varName="editorContext" />
+      <varInfo nodeId="2133144034278076335" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="2133144034278322320" fileName="TransferGroupsFrom_Intention.java" startLine="105" startPosition="0" endLine="117" endPosition="0">
+      <varInfo nodeId="2133144034278322320" varName="destColumn" />
+    </scopeInfo>
+    <scopeInfo nodeId="2133144034278076339" fileName="TransferGroupsFrom_Intention.java" startLine="102" startPosition="78" endLine="117" endPosition="9">
+      <varInfo nodeId="2133144034278323603" varName="sourceTable" />
+    </scopeInfo>
+    <scopeInfo nodeId="2133144034278076335" fileName="TransferGroupsFrom_Intention.java" startLine="102" startPosition="0" endLine="119" endPosition="0">
+      <varInfo nodeId="2133144034278076335" varName="editorContext" />
+      <varInfo nodeId="2133144034278076335" varName="node" />
+    </scopeInfo>
+    <unitInfo nodeId="2133144034278229337" fileName="TransferGroupsFrom_Intention.java" startLine="82" startPosition="94" endLine="86" endPosition="9" unitName="org.campagnelab.metar.tables.intentions.TransferGroupsFrom_Intention$2" />
+    <unitInfo nodeId="2133144034278339213" fileName="TransferGroupsFrom_Intention.java" startLine="110" startPosition="195" endLine="114" endPosition="11" unitName="org.campagnelab.metar.tables.intentions.TransferGroupsFrom_Intention$2" />
+    <unitInfo nodeId="2133144034278172057" fileName="TransferGroupsFrom_Intention.java" startLine="80" startPosition="150" endLine="88" endPosition="5" unitName="org.campagnelab.metar.tables.intentions.TransferGroupsFrom_Intention$1" />
+    <unitInfo nodeId="2133144034278322320" fileName="TransferGroupsFrom_Intention.java" startLine="104" startPosition="92" endLine="117" endPosition="7" unitName="org.campagnelab.metar.tables.intentions.TransferGroupsFrom_Intention$1" />
+    <unitInfo nodeId="2133144034278076335" fileName="TransferGroupsFrom_Intention.java" startLine="91" startPosition="0" endLine="124" endPosition="0" unitName="org.campagnelab.metar.tables.intentions.TransferGroupsFrom_Intention$IntentionImplementation" />
+    <unitInfo nodeId="2133144034278076335" fileName="TransferGroupsFrom_Intention.java" startLine="28" startPosition="0" endLine="129" endPosition="0" unitName="org.campagnelab.metar.tables.intentions.TransferGroupsFrom_Intention" />
+  </root>
   <root nodeRef="r:597299e2-456c-40ec-87e4-c5fdcfc8d153(org.campagnelab.metar.tables.intentions)/2433240172667571480">
     <nodeInfo nodeId="2433240172667571480" fileName="RootTable_Intention.java" startLine="20" startPosition="0" endLine="21" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myCachedExecutable" />
     <nodeInfo nodeId="2433240172667571480" fileName="RootTable_Intention.java" startLine="25" startPosition="30" endLine="26" endPosition="64" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
