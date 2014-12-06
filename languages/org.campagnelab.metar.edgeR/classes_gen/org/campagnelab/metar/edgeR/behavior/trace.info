@@ -23,11 +23,12 @@
     <nodeInfo nodeId="8031339867717031264" fileName="GroupFormula_Behavior.java" startLine="21" startPosition="79" endLine="22" endPosition="219" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="8031339867717509606" fileName="GroupFormula_Behavior.java" startLine="25" startPosition="76" endLine="26" endPosition="213" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="8031339867719269943" fileName="GroupFormula_Behavior.java" startLine="31" startPosition="38" endLine="32" endPosition="105" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="8031339867718983842" fileName="GroupFormula_Behavior.java" startLine="34" startPosition="18" endLine="35" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.SingleLineComment" />
+    <nodeInfo nodeId="8031339867718983842" fileName="GroupFormula_Behavior.java" startLine="34" startPosition="7" endLine="35" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.SingleLineComment" />
     <nodeInfo nodeId="8031339867718983844" fileName="GroupFormula_Behavior.java" startLine="35" startPosition="73" endLine="36" endPosition="68" conceptFqName="jetbrains.mps.baseLanguage.structure.SingleLineComment" />
     <nodeInfo nodeId="8031339867719480995" fileName="GroupFormula_Behavior.java" startLine="38" startPosition="50" endLine="39" endPosition="62" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="8031339867722666504" fileName="GroupFormula_Behavior.java" startLine="42" startPosition="50" endLine="43" endPosition="70" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="8031339867719694917" fileName="GroupFormula_Behavior.java" startLine="46" startPosition="40" endLine="47" endPosition="107" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="2133144034276789112" fileName="GroupFormula_Behavior.java" startLine="50" startPosition="39" endLine="51" endPosition="105" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="8031339867717031163" fileName="GroupFormula_Behavior.java" startLine="18" startPosition="0" endLine="20" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
     <nodeInfo nodeId="8031339867717031163" fileName="GroupFormula_Behavior.java" startLine="21" startPosition="0" endLine="24" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="call_hasIntercept_8031339867717031252#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
     <nodeInfo nodeId="8031339867717031163" fileName="GroupFormula_Behavior.java" startLine="25" startPosition="0" endLine="28" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="call_oneFactor_8031339867717509466#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
@@ -35,9 +36,10 @@
     <nodeInfo nodeId="8031339867719480995" fileName="GroupFormula_Behavior.java" startLine="38" startPosition="0" endLine="41" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="translate#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/Iterable;" />
     <nodeInfo nodeId="8031339867722666502" fileName="GroupFormula_Behavior.java" startLine="42" startPosition="0" endLine="45" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="translate#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/Iterable;" />
     <nodeInfo nodeId="8031339867719678644" fileName="GroupFormula_Behavior.java" startLine="46" startPosition="0" endLine="49" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="accept#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
-    <nodeInfo nodeId="8031339867719232365" fileName="GroupFormula_Behavior.java" startLine="29" startPosition="99" endLine="34" endPosition="18" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="8031339867719458789" fileName="GroupFormula_Behavior.java" startLine="36" startPosition="68" endLine="49" endPosition="18" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="8031339867717031163" fileName="GroupFormula_Behavior.java" startLine="29" startPosition="0" endLine="51" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="call_calculateGroupUsageNames_8031339867724617718#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/Iterable;" />
+    <nodeInfo nodeId="2133144034276788762" fileName="GroupFormula_Behavior.java" startLine="50" startPosition="0" endLine="53" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="select#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/Integer;" />
+    <nodeInfo nodeId="8031339867719232365" fileName="GroupFormula_Behavior.java" startLine="29" startPosition="99" endLine="34" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="8031339867719458789" fileName="GroupFormula_Behavior.java" startLine="36" startPosition="68" endLine="53" endPosition="14" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8031339867717031163" fileName="GroupFormula_Behavior.java" startLine="29" startPosition="0" endLine="55" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="call_calculateGroupUsageNames_8031339867724617718#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/Iterable;" />
     <scopeInfo nodeId="8031339867717031165" fileName="GroupFormula_Behavior.java" startLine="18" startPosition="43" endLine="18" endPosition="43" />
     <scopeInfo nodeId="8031339867717031255" fileName="GroupFormula_Behavior.java" startLine="21" startPosition="79" endLine="22" endPosition="219" />
     <scopeInfo nodeId="8031339867717509469" fileName="GroupFormula_Behavior.java" startLine="25" startPosition="76" endLine="26" endPosition="213" />
@@ -45,6 +47,7 @@
     <scopeInfo nodeId="8031339867719480995" fileName="GroupFormula_Behavior.java" startLine="38" startPosition="50" endLine="39" endPosition="62" />
     <scopeInfo nodeId="8031339867722666503" fileName="GroupFormula_Behavior.java" startLine="42" startPosition="50" endLine="43" endPosition="70" />
     <scopeInfo nodeId="8031339867719678645" fileName="GroupFormula_Behavior.java" startLine="46" startPosition="40" endLine="47" endPosition="107" />
+    <scopeInfo nodeId="2133144034276788763" fileName="GroupFormula_Behavior.java" startLine="50" startPosition="39" endLine="51" endPosition="105" />
     <scopeInfo nodeId="8031339867717031163" fileName="GroupFormula_Behavior.java" startLine="18" startPosition="0" endLine="20" endPosition="0">
       <varInfo nodeId="8031339867717031163" varName="thisNode" />
     </scopeInfo>
@@ -66,17 +69,21 @@
     <scopeInfo nodeId="8031339867719678644" fileName="GroupFormula_Behavior.java" startLine="46" startPosition="0" endLine="49" endPosition="0">
       <varInfo nodeId="8031339867719678644" varName="use" />
     </scopeInfo>
-    <scopeInfo nodeId="8031339867724617721" fileName="GroupFormula_Behavior.java" startLine="29" startPosition="99" endLine="49" endPosition="18">
+    <scopeInfo nodeId="2133144034276788762" fileName="GroupFormula_Behavior.java" startLine="50" startPosition="0" endLine="53" endPosition="0">
+      <varInfo nodeId="2133144034276788762" varName="it" />
+    </scopeInfo>
+    <scopeInfo nodeId="8031339867724617721" fileName="GroupFormula_Behavior.java" startLine="29" startPosition="99" endLine="53" endPosition="14">
       <varInfo nodeId="8031339867719232368" varName="groupUsageNames" />
     </scopeInfo>
-    <scopeInfo nodeId="8031339867717031163" fileName="GroupFormula_Behavior.java" startLine="29" startPosition="0" endLine="51" endPosition="0">
+    <scopeInfo nodeId="8031339867717031163" fileName="GroupFormula_Behavior.java" startLine="29" startPosition="0" endLine="55" endPosition="0">
       <varInfo nodeId="8031339867717031163" varName="thisNode" />
     </scopeInfo>
     <unitInfo nodeId="8031339867719267282" fileName="GroupFormula_Behavior.java" startLine="30" startPosition="198" endLine="34" endPosition="5" unitName="org.campagnelab.metar.edgeR.behavior.GroupFormula_Behavior$1" />
     <unitInfo nodeId="8031339867719480995" fileName="GroupFormula_Behavior.java" startLine="37" startPosition="173" endLine="41" endPosition="5" unitName="org.campagnelab.metar.edgeR.behavior.GroupFormula_Behavior$2" />
     <unitInfo nodeId="8031339867722666502" fileName="GroupFormula_Behavior.java" startLine="41" startPosition="21" endLine="45" endPosition="5" unitName="org.campagnelab.metar.edgeR.behavior.GroupFormula_Behavior$3" />
     <unitInfo nodeId="8031339867719678644" fileName="GroupFormula_Behavior.java" startLine="45" startPosition="17" endLine="49" endPosition="5" unitName="org.campagnelab.metar.edgeR.behavior.GroupFormula_Behavior$4" />
-    <unitInfo nodeId="8031339867717031163" fileName="GroupFormula_Behavior.java" startLine="17" startPosition="0" endLine="52" endPosition="0" unitName="org.campagnelab.metar.edgeR.behavior.GroupFormula_Behavior" />
+    <unitInfo nodeId="2133144034276788762" fileName="GroupFormula_Behavior.java" startLine="49" startPosition="27" endLine="53" endPosition="5" unitName="org.campagnelab.metar.edgeR.behavior.GroupFormula_Behavior$5" />
+    <unitInfo nodeId="8031339867717031163" fileName="GroupFormula_Behavior.java" startLine="17" startPosition="0" endLine="56" endPosition="0" unitName="org.campagnelab.metar.edgeR.behavior.GroupFormula_Behavior" />
   </root>
   <root nodeRef="r:fe30046f-5b05-4311-bf4c-7ad8897afe05(org.campagnelab.metar.edgeR.behavior)/8031339867727536983">
     <nodeInfo nodeId="8031339867727536983" fileName="GroupRef_Behavior.java" startLine="8" startPosition="0" endLine="10" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />

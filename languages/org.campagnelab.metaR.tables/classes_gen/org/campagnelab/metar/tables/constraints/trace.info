@@ -95,39 +95,89 @@
     <unitInfo nodeId="3402264987261692727" fileName="ImportTable_Constraints.java" startLine="18" startPosition="0" endLine="54" endPosition="0" unitName="org.campagnelab.metar.tables.constraints.ImportTable_Constraints" />
   </root>
   <root nodeRef="r:377e7fab-b099-4462-b9f3-2050d4b23cf6(org.campagnelab.metar.tables.constraints)/3402264987261849012">
-    <nodeInfo nodeId="3402264987261849012" fileName="FutureTable_Constraints.java" startLine="15" startPosition="36" endLine="16" endPosition="64" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
-    <nodeInfo nodeId="3402264987261849012" fileName="FutureTable_Constraints.java" startLine="20" startPosition="82" endLine="21" endPosition="74" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="3402264987261849012" fileName="FutureTable_Constraints.java" startLine="24" startPosition="37" endLine="25" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="3402264987261849012" fileName="FutureTable_Constraints.java" startLine="29" startPosition="62" endLine="30" endPosition="37" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="7783277237109101454" fileName="FutureTable_Constraints.java" startLine="31" startPosition="72" endLine="32" endPosition="139" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7783277237109107608" fileName="FutureTable_Constraints.java" startLine="33" startPosition="9" endLine="34" endPosition="94" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="3402264987261849012" fileName="FutureTable_Constraints.java" startLine="36" startPosition="7" endLine="37" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="3402264987261849012" fileName="FutureTable_Constraints.java" startLine="15" startPosition="0" endLine="18" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="FutureTable_Constraints#()V" />
-    <nodeInfo nodeId="7783277237109101065" fileName="FutureTable_Constraints.java" startLine="30" startPosition="37" endLine="33" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="3402264987261849012" fileName="FutureTable_Constraints.java" startLine="23" startPosition="0" endLine="27" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="hasOwnSetter#()Z" />
-    <nodeInfo nodeId="3402264987261849012" fileName="FutureTable_Constraints.java" startLine="30" startPosition="37" endLine="34" endPosition="94" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="3402264987261849012" fileName="FutureTable_Constraints.java" startLine="28" startPosition="0" endLine="36" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setValue#(Lorg/jetbrains/mps/openapi/model/SNode;Ljava/lang/String;)V" />
-    <nodeInfo nodeId="3402264987261849012" fileName="FutureTable_Constraints.java" startLine="21" startPosition="74" endLine="36" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="3402264987261849012" fileName="FutureTable_Constraints.java" startLine="19" startPosition="0" endLine="39" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getNotDefaultProperties#()Ljava/util/Map;" />
-    <scopeInfo nodeId="3402264987261849012" fileName="FutureTable_Constraints.java" startLine="15" startPosition="36" endLine="16" endPosition="64" />
-    <scopeInfo nodeId="3402264987261849012" fileName="FutureTable_Constraints.java" startLine="24" startPosition="37" endLine="25" endPosition="20" />
-    <scopeInfo nodeId="7783277237109101068" fileName="FutureTable_Constraints.java" startLine="31" startPosition="72" endLine="32" endPosition="139" />
-    <scopeInfo nodeId="3402264987261849012" fileName="FutureTable_Constraints.java" startLine="15" startPosition="0" endLine="18" endPosition="0" />
-    <scopeInfo nodeId="3402264987261849012" fileName="FutureTable_Constraints.java" startLine="23" startPosition="0" endLine="27" endPosition="0" />
-    <scopeInfo nodeId="7783277237109094678" fileName="FutureTable_Constraints.java" startLine="30" startPosition="37" endLine="34" endPosition="94" />
-    <scopeInfo nodeId="3402264987261849012" fileName="FutureTable_Constraints.java" startLine="29" startPosition="62" endLine="34" endPosition="94">
+    <nodeInfo nodeId="3402264987261849012" fileName="FutureTable_Constraints.java" startLine="20" startPosition="36" endLine="21" endPosition="64" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+    <nodeInfo nodeId="3402264987261849012" fileName="FutureTable_Constraints.java" startLine="25" startPosition="82" endLine="26" endPosition="74" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3402264987261849012" fileName="FutureTable_Constraints.java" startLine="29" startPosition="37" endLine="30" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="3402264987261849012" fileName="FutureTable_Constraints.java" startLine="34" startPosition="62" endLine="35" endPosition="37" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="2133144034277320225" fileName="FutureTable_Constraints.java" startLine="35" startPosition="37" endLine="36" endPosition="78" conceptFqName="jetbrains.mps.baseLanguage.structure.SingleLineComment" />
+    <nodeInfo nodeId="2133144034277294623" fileName="FutureTable_Constraints.java" startLine="37" startPosition="177" endLine="38" endPosition="64" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="7783277237109101454" fileName="FutureTable_Constraints.java" startLine="40" startPosition="72" endLine="41" endPosition="139" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="7783277237109107608" fileName="FutureTable_Constraints.java" startLine="42" startPosition="9" endLine="43" endPosition="94" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="2133144034277975893" fileName="FutureTable_Constraints.java" startLine="44" startPosition="76" endLine="45" endPosition="143" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="2133144034278022912" fileName="FutureTable_Constraints.java" startLine="45" startPosition="143" endLine="46" endPosition="111" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3402264987261849012" fileName="FutureTable_Constraints.java" startLine="49" startPosition="7" endLine="50" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="3402264987261849012" fileName="FutureTable_Constraints.java" startLine="54" startPosition="83" endLine="55" endPosition="75" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3402264987261849012" fileName="FutureTable_Constraints.java" startLine="58" startPosition="52" endLine="59" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="3402264987261849012" fileName="FutureTable_Constraints.java" startLine="63" startPosition="116" endLine="64" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="2133144034277845568" fileName="FutureTable_Constraints.java" startLine="68" startPosition="119" endLine="69" endPosition="111" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="2133144034277853173" fileName="FutureTable_Constraints.java" startLine="69" startPosition="111" endLine="70" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3402264987261849012" fileName="FutureTable_Constraints.java" startLine="75" startPosition="56" endLine="76" endPosition="42" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="3402264987261849012" fileName="FutureTable_Constraints.java" startLine="78" startPosition="7" endLine="79" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="2133144034277932161" fileName="FutureTable_Constraints.java" startLine="82" startPosition="73" endLine="83" endPosition="49" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="3402264987261849012" fileName="FutureTable_Constraints.java" startLine="20" startPosition="0" endLine="23" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="FutureTable_Constraints#()V" />
+    <nodeInfo nodeId="2133144034277924919" fileName="FutureTable_Constraints.java" startLine="36" startPosition="78" endLine="39" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="7783277237109101065" fileName="FutureTable_Constraints.java" startLine="39" startPosition="9" endLine="42" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="2133144034277932161" fileName="FutureTable_Constraints.java" startLine="82" startPosition="0" endLine="85" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="neq_2iz075_a0b0b0b0a1a0b0b#(Ljava/lang/Object;Ljava/lang/Object;)Z" />
+    <nodeInfo nodeId="3402264987261849012" fileName="FutureTable_Constraints.java" startLine="28" startPosition="0" endLine="32" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="hasOwnSetter#()Z" />
+    <nodeInfo nodeId="2133144034277976944" fileName="FutureTable_Constraints.java" startLine="43" startPosition="94" endLine="47" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="3402264987261849012" fileName="FutureTable_Constraints.java" startLine="57" startPosition="0" endLine="61" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="hasOwnOnReferenceSetHandler#()Z" />
+    <nodeInfo nodeId="3402264987261849012" fileName="FutureTable_Constraints.java" startLine="62" startPosition="0" endLine="66" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="validate#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
+    <nodeInfo nodeId="3402264987261849012" fileName="FutureTable_Constraints.java" startLine="67" startPosition="0" endLine="72" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="onReferenceSet#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+    <nodeInfo nodeId="3402264987261849012" fileName="FutureTable_Constraints.java" startLine="73" startPosition="0" endLine="78" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getScopeProvider#()Ljetbrains/mps/smodel/runtime/ReferenceScopeProvider;" />
+    <nodeInfo nodeId="3402264987261849012" fileName="FutureTable_Constraints.java" startLine="35" startPosition="37" endLine="47" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="3402264987261849012" fileName="FutureTable_Constraints.java" startLine="33" startPosition="0" endLine="49" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setValue#(Lorg/jetbrains/mps/openapi/model/SNode;Ljava/lang/String;)V" />
+    <nodeInfo nodeId="3402264987261849012" fileName="FutureTable_Constraints.java" startLine="26" startPosition="74" endLine="49" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3402264987261849012" fileName="FutureTable_Constraints.java" startLine="55" startPosition="75" endLine="78" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3402264987261849012" fileName="FutureTable_Constraints.java" startLine="24" startPosition="0" endLine="52" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getNotDefaultProperties#()Ljava/util/Map;" />
+    <nodeInfo nodeId="3402264987261849012" fileName="FutureTable_Constraints.java" startLine="53" startPosition="0" endLine="81" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getNotDefaultReferences#()Ljava/util/Map;" />
+    <scopeInfo nodeId="3402264987261849012" fileName="FutureTable_Constraints.java" startLine="20" startPosition="36" endLine="21" endPosition="64" />
+    <scopeInfo nodeId="3402264987261849012" fileName="FutureTable_Constraints.java" startLine="29" startPosition="37" endLine="30" endPosition="20" />
+    <scopeInfo nodeId="2133144034277924922" fileName="FutureTable_Constraints.java" startLine="37" startPosition="177" endLine="38" endPosition="64" />
+    <scopeInfo nodeId="7783277237109101068" fileName="FutureTable_Constraints.java" startLine="40" startPosition="72" endLine="41" endPosition="139" />
+    <scopeInfo nodeId="3402264987261849012" fileName="FutureTable_Constraints.java" startLine="58" startPosition="52" endLine="59" endPosition="20" />
+    <scopeInfo nodeId="3402264987261849012" fileName="FutureTable_Constraints.java" startLine="63" startPosition="116" endLine="64" endPosition="20" />
+    <scopeInfo nodeId="3402264987261849012" fileName="FutureTable_Constraints.java" startLine="75" startPosition="56" endLine="76" endPosition="42" />
+    <scopeInfo nodeId="2133144034277932161" fileName="FutureTable_Constraints.java" startLine="82" startPosition="73" endLine="83" endPosition="49" />
+    <scopeInfo nodeId="2133144034277976947" fileName="FutureTable_Constraints.java" startLine="44" startPosition="76" endLine="46" endPosition="111" />
+    <scopeInfo nodeId="2133144034277845564" fileName="FutureTable_Constraints.java" startLine="68" startPosition="119" endLine="70" endPosition="82" />
+    <scopeInfo nodeId="3402264987261849012" fileName="FutureTable_Constraints.java" startLine="20" startPosition="0" endLine="23" endPosition="0" />
+    <scopeInfo nodeId="2133144034277932161" fileName="FutureTable_Constraints.java" startLine="82" startPosition="0" endLine="85" endPosition="0">
+      <varInfo nodeId="2133144034277932161" varName="a" />
+      <varInfo nodeId="2133144034277932161" varName="b" />
+    </scopeInfo>
+    <scopeInfo nodeId="3402264987261849012" fileName="FutureTable_Constraints.java" startLine="28" startPosition="0" endLine="32" endPosition="0" />
+    <scopeInfo nodeId="3402264987261849012" fileName="FutureTable_Constraints.java" startLine="57" startPosition="0" endLine="61" endPosition="0" />
+    <scopeInfo nodeId="3402264987261849012" fileName="FutureTable_Constraints.java" startLine="62" startPosition="0" endLine="66" endPosition="0">
+      <varInfo nodeId="3402264987261849012" varName="newReferentNode" />
+      <varInfo nodeId="3402264987261849012" varName="oldReferentNode" />
+      <varInfo nodeId="3402264987261849012" varName="referenceNode" />
+    </scopeInfo>
+    <scopeInfo nodeId="3402264987261849012" fileName="FutureTable_Constraints.java" startLine="67" startPosition="0" endLine="72" endPosition="0">
+      <varInfo nodeId="3402264987261849012" varName="newReferentNode" />
+      <varInfo nodeId="3402264987261849012" varName="oldReferentNode" />
+      <varInfo nodeId="3402264987261849012" varName="referenceNode" />
+    </scopeInfo>
+    <scopeInfo nodeId="3402264987261849012" fileName="FutureTable_Constraints.java" startLine="73" startPosition="0" endLine="78" endPosition="0" />
+    <scopeInfo nodeId="7783277237109094678" fileName="FutureTable_Constraints.java" startLine="35" startPosition="37" endLine="47" endPosition="9" />
+    <scopeInfo nodeId="3402264987261849012" fileName="FutureTable_Constraints.java" startLine="34" startPosition="62" endLine="47" endPosition="9">
       <varInfo nodeId="3402264987261849012" varName="propertyName" />
     </scopeInfo>
-    <scopeInfo nodeId="3402264987261849012" fileName="FutureTable_Constraints.java" startLine="28" startPosition="0" endLine="36" endPosition="0">
+    <scopeInfo nodeId="3402264987261849012" fileName="FutureTable_Constraints.java" startLine="33" startPosition="0" endLine="49" endPosition="0">
       <varInfo nodeId="3402264987261849012" varName="node" />
       <varInfo nodeId="3402264987261849012" varName="propertyValue" />
     </scopeInfo>
-    <scopeInfo nodeId="3402264987261849012" fileName="FutureTable_Constraints.java" startLine="20" startPosition="82" endLine="37" endPosition="22">
+    <scopeInfo nodeId="3402264987261849012" fileName="FutureTable_Constraints.java" startLine="25" startPosition="82" endLine="50" endPosition="22">
       <varInfo nodeId="3402264987261849012" varName="properties" />
     </scopeInfo>
-    <scopeInfo nodeId="3402264987261849012" fileName="FutureTable_Constraints.java" startLine="19" startPosition="0" endLine="39" endPosition="0" />
-    <unitInfo nodeId="3402264987261849012" fileName="FutureTable_Constraints.java" startLine="22" startPosition="31" endLine="36" endPosition="5" unitName="org.campagnelab.metar.tables.constraints.FutureTable_Constraints$1" />
-    <unitInfo nodeId="3402264987261849012" fileName="FutureTable_Constraints.java" startLine="14" startPosition="0" endLine="40" endPosition="0" unitName="org.campagnelab.metar.tables.constraints.FutureTable_Constraints" />
+    <scopeInfo nodeId="3402264987261849012" fileName="FutureTable_Constraints.java" startLine="54" startPosition="83" endLine="79" endPosition="22">
+      <varInfo nodeId="3402264987261849012" varName="references" />
+    </scopeInfo>
+    <scopeInfo nodeId="3402264987261849012" fileName="FutureTable_Constraints.java" startLine="24" startPosition="0" endLine="52" endPosition="0" />
+    <scopeInfo nodeId="3402264987261849012" fileName="FutureTable_Constraints.java" startLine="53" startPosition="0" endLine="81" endPosition="0" />
+    <unitInfo nodeId="3402264987261849012" fileName="FutureTable_Constraints.java" startLine="76" startPosition="19" endLine="76" endPosition="41" unitName="org.campagnelab.metar.tables.constraints.FutureTable_Constraints$3" />
+    <unitInfo nodeId="3402264987261849012" fileName="FutureTable_Constraints.java" startLine="27" startPosition="31" endLine="49" endPosition="5" unitName="org.campagnelab.metar.tables.constraints.FutureTable_Constraints$1" />
+    <unitInfo nodeId="3402264987261849012" fileName="FutureTable_Constraints.java" startLine="56" startPosition="32" endLine="78" endPosition="5" unitName="org.campagnelab.metar.tables.constraints.FutureTable_Constraints$2" />
+    <unitInfo nodeId="3402264987261849012" fileName="FutureTable_Constraints.java" startLine="19" startPosition="0" endLine="86" endPosition="0" unitName="org.campagnelab.metar.tables.constraints.FutureTable_Constraints" />
   </root>
   <root nodeRef="r:377e7fab-b099-4462-b9f3-2050d4b23cf6(org.campagnelab.metar.tables.constraints)/3402264987262308141">
     <nodeInfo nodeId="3402264987262308141" fileName="CommonColumnSelection_Constraints.java" startLine="8" startPosition="46" endLine="9" endPosition="74" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />

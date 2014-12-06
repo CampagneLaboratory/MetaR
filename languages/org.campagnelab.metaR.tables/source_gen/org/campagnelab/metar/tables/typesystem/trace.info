@@ -1,6 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
-  <unitInfo fileName="TypesystemDescriptor.java" startLine="9" startPosition="0" endLine="29" endPosition="0" unitName="org.campagnelab.metar.tables.typesystem.TypesystemDescriptor" />
+  <unitInfo fileName="TypesystemDescriptor.java" startLine="9" startPosition="0" endLine="33" endPosition="0" unitName="org.campagnelab.metar.tables.typesystem.TypesystemDescriptor" />
+  <root nodeRef="r:ccfe7aab-49c3-4336-8a96-a894ec9d0e17(org.campagnelab.metar.tables.typesystem)/2133144034277783981">
+    <nodeInfo nodeId="2133144034277792589" fileName="CheckFutureTable_NonTypesystemRule.java" startLine="22" startPosition="7" endLine="23" endPosition="60" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="2133144034277792589" fileName="CheckFutureTable_NonTypesystemRule.java" startLine="23" startPosition="60" endLine="24" endPosition="252" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="2133144034277783981" fileName="CheckFutureTable_NonTypesystemRule.java" startLine="29" startPosition="46" endLine="30" endPosition="64" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="2133144034277783981" fileName="CheckFutureTable_NonTypesystemRule.java" startLine="34" startPosition="5" endLine="35" endPosition="130" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="2133144034277783981" fileName="CheckFutureTable_NonTypesystemRule.java" startLine="35" startPosition="130" endLine="36" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="2133144034277783981" fileName="CheckFutureTable_NonTypesystemRule.java" startLine="40" startPosition="30" endLine="41" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="2133144034277783981" fileName="CheckFutureTable_NonTypesystemRule.java" startLine="17" startPosition="0" endLine="19" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="CheckFutureTable_NonTypesystemRule#()V" />
+    <nodeInfo nodeId="2133144034277783981" fileName="CheckFutureTable_NonTypesystemRule.java" startLine="29" startPosition="0" endLine="32" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getApplicableConceptFQName#()Ljava/lang/String;" />
+    <nodeInfo nodeId="2133144034277783981" fileName="CheckFutureTable_NonTypesystemRule.java" startLine="40" startPosition="0" endLine="43" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="overrides#()Z" />
+    <nodeInfo nodeId="2133144034277792589" fileName="CheckFutureTable_NonTypesystemRule.java" startLine="21" startPosition="70" endLine="25" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="2133144034277783981" fileName="CheckFutureTable_NonTypesystemRule.java" startLine="33" startPosition="68" endLine="37" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="2133144034277784023" fileName="CheckFutureTable_NonTypesystemRule.java" startLine="20" startPosition="119" endLine="26" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="2133144034277783981" fileName="CheckFutureTable_NonTypesystemRule.java" startLine="33" startPosition="0" endLine="39" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isApplicableAndPattern#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;" />
+    <nodeInfo nodeId="2133144034277783981" fileName="CheckFutureTable_NonTypesystemRule.java" startLine="20" startPosition="0" endLine="28" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="applyRule#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/typesystem/inference/TypeCheckingContext;Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;)V" />
+    <scopeInfo nodeId="2133144034277783981" fileName="CheckFutureTable_NonTypesystemRule.java" startLine="17" startPosition="47" endLine="17" endPosition="47" />
+    <scopeInfo nodeId="2133144034277783981" fileName="CheckFutureTable_NonTypesystemRule.java" startLine="29" startPosition="46" endLine="30" endPosition="64" />
+    <scopeInfo nodeId="2133144034277783981" fileName="CheckFutureTable_NonTypesystemRule.java" startLine="40" startPosition="30" endLine="41" endPosition="17" />
+    <scopeInfo nodeId="2133144034277783981" fileName="CheckFutureTable_NonTypesystemRule.java" startLine="17" startPosition="0" endLine="19" endPosition="0" />
+    <scopeInfo nodeId="2133144034277792589" fileName="CheckFutureTable_NonTypesystemRule.java" startLine="22" startPosition="7" endLine="24" endPosition="252">
+      <varInfo nodeId="2133144034277792589" varName="_reporter_2309309498" />
+      <varInfo nodeId="2133144034277792589" varName="errorTarget" />
+    </scopeInfo>
+    <scopeInfo nodeId="2133144034277783981" fileName="CheckFutureTable_NonTypesystemRule.java" startLine="34" startPosition="5" endLine="36" endPosition="45">
+      <varInfo nodeId="2133144034277783981" varName="b" />
+    </scopeInfo>
+    <scopeInfo nodeId="2133144034277783981" fileName="CheckFutureTable_NonTypesystemRule.java" startLine="29" startPosition="0" endLine="32" endPosition="0" />
+    <scopeInfo nodeId="2133144034277783981" fileName="CheckFutureTable_NonTypesystemRule.java" startLine="40" startPosition="0" endLine="43" endPosition="0" />
+    <scopeInfo nodeId="2133144034277784024" fileName="CheckFutureTable_NonTypesystemRule.java" startLine="21" startPosition="70" endLine="25" endPosition="7" />
+    <scopeInfo nodeId="2133144034277783981" fileName="CheckFutureTable_NonTypesystemRule.java" startLine="33" startPosition="68" endLine="37" endPosition="5" />
+    <scopeInfo nodeId="2133144034277783982" fileName="CheckFutureTable_NonTypesystemRule.java" startLine="20" startPosition="119" endLine="26" endPosition="5" />
+    <scopeInfo nodeId="2133144034277783981" fileName="CheckFutureTable_NonTypesystemRule.java" startLine="33" startPosition="0" endLine="39" endPosition="0">
+      <varInfo nodeId="2133144034277783981" varName="argument" />
+    </scopeInfo>
+    <scopeInfo nodeId="2133144034277783981" fileName="CheckFutureTable_NonTypesystemRule.java" startLine="20" startPosition="0" endLine="28" endPosition="0">
+      <varInfo nodeId="2133144034277783981" varName="fTable" />
+      <varInfo nodeId="2133144034277783981" varName="status" />
+      <varInfo nodeId="2133144034277783981" varName="typeCheckingContext" />
+    </scopeInfo>
+    <unitInfo nodeId="2133144034277783981" fileName="CheckFutureTable_NonTypesystemRule.java" startLine="16" startPosition="0" endLine="44" endPosition="0" unitName="org.campagnelab.metar.tables.typesystem.CheckFutureTable_NonTypesystemRule" />
+  </root>
   <root nodeRef="r:ccfe7aab-49c3-4336-8a96-a894ec9d0e17(org.campagnelab.metar.tables.typesystem)/2807244893515902357">
     <nodeInfo nodeId="2807244893515931967" fileName="check_FitXByY_NonTypesystemRule.java" startLine="24" startPosition="7" endLine="25" endPosition="60" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="2807244893515931967" fileName="check_FitXByY_NonTypesystemRule.java" startLine="25" startPosition="60" endLine="26" endPosition="54" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
