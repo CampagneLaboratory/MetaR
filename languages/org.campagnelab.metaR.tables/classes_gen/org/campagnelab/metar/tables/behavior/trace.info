@@ -20,7 +20,7 @@
   <unitInfo fileName="Formula_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="org.campagnelab.metar.tables.behavior.Formula_BehaviorDescriptor" />
   <unitInfo fileName="FutureTableRef_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="org.campagnelab.metar.tables.behavior.FutureTableRef_BehaviorDescriptor" />
   <unitInfo fileName="FutureTable_BehaviorDescriptor.java" startLine="10" startPosition="0" endLine="23" endPosition="0" unitName="org.campagnelab.metar.tables.behavior.FutureTable_BehaviorDescriptor" />
-  <unitInfo fileName="Heatmap_BehaviorDescriptor.java" startLine="10" startPosition="0" endLine="31" endPosition="0" unitName="org.campagnelab.metar.tables.behavior.Heatmap_BehaviorDescriptor" />
+  <unitInfo fileName="Heatmap_BehaviorDescriptor.java" startLine="10" startPosition="0" endLine="35" endPosition="0" unitName="org.campagnelab.metar.tables.behavior.Heatmap_BehaviorDescriptor" />
   <unitInfo fileName="Histogram_BehaviorDescriptor.java" startLine="10" startPosition="0" endLine="31" endPosition="0" unitName="org.campagnelab.metar.tables.behavior.Histogram_BehaviorDescriptor" />
   <unitInfo fileName="IColumnNames_BehaviorDescriptor.java" startLine="8" startPosition="0" endLine="11" endPosition="0" unitName="org.campagnelab.metar.tables.behavior.IColumnNames_BehaviorDescriptor" />
   <unitInfo fileName="ID_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="org.campagnelab.metar.tables.behavior.ID_BehaviorDescriptor" />
@@ -532,57 +532,63 @@
     <unitInfo nodeId="6853668812000880060" fileName="UsesDataTable_Behavior.java" startLine="12" startPosition="0" endLine="30" endPosition="0" unitName="org.campagnelab.metar.tables.behavior.UsesDataTable_Behavior" />
   </root>
   <root nodeRef="r:db1b133e-9a0f-4319-b384-413408eb1729(org.campagnelab.metar.tables.behavior)/7074867102586666512">
-    <nodeInfo nodeId="7074867102586674184" fileName="Heatmap_Behavior.java" startLine="24" startPosition="91" endLine="25" endPosition="95" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="6853668812000244291" fileName="Heatmap_Behavior.java" startLine="25" startPosition="95" endLine="26" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="8441088421950224041" fileName="Heatmap_Behavior.java" startLine="29" startPosition="101" endLine="30" endPosition="27" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="8709280678588496060" fileName="Heatmap_Behavior.java" startLine="34" startPosition="43" endLine="35" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="8709280678588496060" fileName="Heatmap_Behavior.java" startLine="38" startPosition="41" endLine="39" endPosition="71" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="8441088421949928107" fileName="Heatmap_Behavior.java" startLine="44" startPosition="114" endLine="45" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="8441088421949968455" fileName="Heatmap_Behavior.java" startLine="46" startPosition="5" endLine="47" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="7074867102586666512" fileName="Heatmap_Behavior.java" startLine="21" startPosition="0" endLine="23" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
-    <nodeInfo nodeId="8709280678588496060" fileName="Heatmap_Behavior.java" startLine="34" startPosition="0" endLine="37" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="accept#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
-    <nodeInfo nodeId="8709280678588496060" fileName="Heatmap_Behavior.java" startLine="38" startPosition="0" endLine="41" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="select#(Lorg/jetbrains/mps/openapi/model/SNode;)Lorg/jetbrains/mps/openapi/model/SNode;" />
-    <nodeInfo nodeId="8441088421949927681" fileName="Heatmap_Behavior.java" startLine="43" startPosition="7" endLine="46" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="7074867102586666512" fileName="Heatmap_Behavior.java" startLine="24" startPosition="0" endLine="28" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_dependencies_8962032619593737608#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/Iterable;" />
-    <nodeInfo nodeId="8709280678588496059" fileName="Heatmap_Behavior.java" startLine="32" startPosition="50" endLine="41" endPosition="11" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="8709280678588496057" fileName="Heatmap_Behavior.java" startLine="32" startPosition="0" endLine="43" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="translate#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/Iterable;" />
-    <nodeInfo nodeId="8441088421950224242" fileName="Heatmap_Behavior.java" startLine="30" startPosition="27" endLine="43" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7074867102586666512" fileName="Heatmap_Behavior.java" startLine="29" startPosition="0" endLine="49" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_getScope_3734116213129936182#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/scope/Scope;" />
-    <scopeInfo nodeId="7074867102586666514" fileName="Heatmap_Behavior.java" startLine="21" startPosition="43" endLine="21" endPosition="43" />
-    <scopeInfo nodeId="8709280678588496060" fileName="Heatmap_Behavior.java" startLine="34" startPosition="43" endLine="35" endPosition="81" />
-    <scopeInfo nodeId="8709280678588496060" fileName="Heatmap_Behavior.java" startLine="38" startPosition="41" endLine="39" endPosition="71" />
-    <scopeInfo nodeId="8441088421949927682" fileName="Heatmap_Behavior.java" startLine="44" startPosition="114" endLine="45" endPosition="82" />
-    <scopeInfo nodeId="7074867102586666512" fileName="Heatmap_Behavior.java" startLine="21" startPosition="0" endLine="23" endPosition="0">
+    <nodeInfo nodeId="7074867102586674184" fileName="Heatmap_Behavior.java" startLine="26" startPosition="91" endLine="27" endPosition="95" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6853668812000244291" fileName="Heatmap_Behavior.java" startLine="27" startPosition="95" endLine="28" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5703306641526405728" fileName="Heatmap_Behavior.java" startLine="31" startPosition="81" endLine="32" endPosition="162" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8441088421950224041" fileName="Heatmap_Behavior.java" startLine="35" startPosition="101" endLine="36" endPosition="27" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="8709280678588496060" fileName="Heatmap_Behavior.java" startLine="40" startPosition="43" endLine="41" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8709280678588496060" fileName="Heatmap_Behavior.java" startLine="44" startPosition="41" endLine="45" endPosition="71" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8441088421949928107" fileName="Heatmap_Behavior.java" startLine="50" startPosition="114" endLine="51" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8441088421949968455" fileName="Heatmap_Behavior.java" startLine="52" startPosition="5" endLine="53" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="7074867102586666512" fileName="Heatmap_Behavior.java" startLine="23" startPosition="0" endLine="25" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+    <nodeInfo nodeId="7074867102586666512" fileName="Heatmap_Behavior.java" startLine="31" startPosition="0" endLine="34" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_getTableName_8013388156564360086#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+    <nodeInfo nodeId="8709280678588496060" fileName="Heatmap_Behavior.java" startLine="40" startPosition="0" endLine="43" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="accept#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
+    <nodeInfo nodeId="8709280678588496060" fileName="Heatmap_Behavior.java" startLine="44" startPosition="0" endLine="47" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="select#(Lorg/jetbrains/mps/openapi/model/SNode;)Lorg/jetbrains/mps/openapi/model/SNode;" />
+    <nodeInfo nodeId="8441088421949927681" fileName="Heatmap_Behavior.java" startLine="49" startPosition="7" endLine="52" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="7074867102586666512" fileName="Heatmap_Behavior.java" startLine="26" startPosition="0" endLine="30" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_dependencies_8962032619593737608#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/Iterable;" />
+    <nodeInfo nodeId="8709280678588496059" fileName="Heatmap_Behavior.java" startLine="38" startPosition="50" endLine="47" endPosition="11" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8709280678588496057" fileName="Heatmap_Behavior.java" startLine="38" startPosition="0" endLine="49" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="translate#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/Iterable;" />
+    <nodeInfo nodeId="8441088421950224242" fileName="Heatmap_Behavior.java" startLine="36" startPosition="27" endLine="49" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="7074867102586666512" fileName="Heatmap_Behavior.java" startLine="35" startPosition="0" endLine="55" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_getScope_3734116213129936182#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/scope/Scope;" />
+    <scopeInfo nodeId="7074867102586666514" fileName="Heatmap_Behavior.java" startLine="23" startPosition="43" endLine="23" endPosition="43" />
+    <scopeInfo nodeId="2133144034281503695" fileName="Heatmap_Behavior.java" startLine="31" startPosition="81" endLine="32" endPosition="162" />
+    <scopeInfo nodeId="8709280678588496060" fileName="Heatmap_Behavior.java" startLine="40" startPosition="43" endLine="41" endPosition="81" />
+    <scopeInfo nodeId="8709280678588496060" fileName="Heatmap_Behavior.java" startLine="44" startPosition="41" endLine="45" endPosition="71" />
+    <scopeInfo nodeId="8441088421949927682" fileName="Heatmap_Behavior.java" startLine="50" startPosition="114" endLine="51" endPosition="82" />
+    <scopeInfo nodeId="7074867102586666512" fileName="Heatmap_Behavior.java" startLine="23" startPosition="0" endLine="25" endPosition="0">
       <varInfo nodeId="7074867102586666512" varName="thisNode" />
     </scopeInfo>
-    <scopeInfo nodeId="6853668812000209245" fileName="Heatmap_Behavior.java" startLine="24" startPosition="91" endLine="26" endPosition="20">
+    <scopeInfo nodeId="6853668812000209245" fileName="Heatmap_Behavior.java" startLine="26" startPosition="91" endLine="28" endPosition="20">
       <varInfo nodeId="7074867102586674187" varName="packages" />
     </scopeInfo>
-    <scopeInfo nodeId="8709280678588496060" fileName="Heatmap_Behavior.java" startLine="34" startPosition="0" endLine="37" endPosition="0">
-      <varInfo nodeId="8709280678588496060" varName="it" />
-    </scopeInfo>
-    <scopeInfo nodeId="8709280678588496060" fileName="Heatmap_Behavior.java" startLine="38" startPosition="0" endLine="41" endPosition="0">
-      <varInfo nodeId="8709280678588496060" varName="it" />
-    </scopeInfo>
-    <scopeInfo nodeId="7074867102586666512" fileName="Heatmap_Behavior.java" startLine="24" startPosition="0" endLine="28" endPosition="0">
+    <scopeInfo nodeId="7074867102586666512" fileName="Heatmap_Behavior.java" startLine="31" startPosition="0" endLine="34" endPosition="0">
       <varInfo nodeId="7074867102586666512" varName="thisNode" />
     </scopeInfo>
-    <scopeInfo nodeId="8709280678588496058" fileName="Heatmap_Behavior.java" startLine="32" startPosition="50" endLine="41" endPosition="11" />
-    <scopeInfo nodeId="8709280678588496057" fileName="Heatmap_Behavior.java" startLine="32" startPosition="0" endLine="43" endPosition="0">
+    <scopeInfo nodeId="8709280678588496060" fileName="Heatmap_Behavior.java" startLine="40" startPosition="0" endLine="43" endPosition="0">
+      <varInfo nodeId="8709280678588496060" varName="it" />
+    </scopeInfo>
+    <scopeInfo nodeId="8709280678588496060" fileName="Heatmap_Behavior.java" startLine="44" startPosition="0" endLine="47" endPosition="0">
+      <varInfo nodeId="8709280678588496060" varName="it" />
+    </scopeInfo>
+    <scopeInfo nodeId="7074867102586666512" fileName="Heatmap_Behavior.java" startLine="26" startPosition="0" endLine="30" endPosition="0">
+      <varInfo nodeId="7074867102586666512" varName="thisNode" />
+    </scopeInfo>
+    <scopeInfo nodeId="8709280678588496058" fileName="Heatmap_Behavior.java" startLine="38" startPosition="50" endLine="47" endPosition="11" />
+    <scopeInfo nodeId="8709280678588496057" fileName="Heatmap_Behavior.java" startLine="38" startPosition="0" endLine="49" endPosition="0">
       <varInfo nodeId="8709280678588496057" varName="it" />
     </scopeInfo>
-    <scopeInfo nodeId="8441088421949925222" fileName="Heatmap_Behavior.java" startLine="29" startPosition="101" endLine="47" endPosition="16">
+    <scopeInfo nodeId="8441088421949925222" fileName="Heatmap_Behavior.java" startLine="35" startPosition="101" endLine="53" endPosition="16">
       <varInfo nodeId="8441088421950224044" varName="groups" />
     </scopeInfo>
-    <scopeInfo nodeId="7074867102586666512" fileName="Heatmap_Behavior.java" startLine="29" startPosition="0" endLine="49" endPosition="0">
+    <scopeInfo nodeId="7074867102586666512" fileName="Heatmap_Behavior.java" startLine="35" startPosition="0" endLine="55" endPosition="0">
       <varInfo nodeId="8441088421949925225" varName="child" />
       <varInfo nodeId="8441088421949925223" varName="kind" />
       <varInfo nodeId="7074867102586666512" varName="thisNode" />
     </scopeInfo>
-    <unitInfo nodeId="8709280678588496060" fileName="Heatmap_Behavior.java" startLine="33" startPosition="228" endLine="37" endPosition="9" unitName="org.campagnelab.metar.tables.behavior.Heatmap_Behavior$2" />
-    <unitInfo nodeId="8709280678588496060" fileName="Heatmap_Behavior.java" startLine="37" startPosition="22" endLine="41" endPosition="9" unitName="org.campagnelab.metar.tables.behavior.Heatmap_Behavior$2" />
-    <unitInfo nodeId="8709280678588496057" fileName="Heatmap_Behavior.java" startLine="31" startPosition="189" endLine="43" endPosition="5" unitName="org.campagnelab.metar.tables.behavior.Heatmap_Behavior$1" />
-    <unitInfo nodeId="7074867102586666512" fileName="Heatmap_Behavior.java" startLine="20" startPosition="0" endLine="50" endPosition="0" unitName="org.campagnelab.metar.tables.behavior.Heatmap_Behavior" />
+    <unitInfo nodeId="8709280678588496060" fileName="Heatmap_Behavior.java" startLine="39" startPosition="228" endLine="43" endPosition="9" unitName="org.campagnelab.metar.tables.behavior.Heatmap_Behavior$2" />
+    <unitInfo nodeId="8709280678588496060" fileName="Heatmap_Behavior.java" startLine="43" startPosition="22" endLine="47" endPosition="9" unitName="org.campagnelab.metar.tables.behavior.Heatmap_Behavior$2" />
+    <unitInfo nodeId="8709280678588496057" fileName="Heatmap_Behavior.java" startLine="37" startPosition="189" endLine="49" endPosition="5" unitName="org.campagnelab.metar.tables.behavior.Heatmap_Behavior$1" />
+    <unitInfo nodeId="7074867102586666512" fileName="Heatmap_Behavior.java" startLine="22" startPosition="0" endLine="56" endPosition="0" unitName="org.campagnelab.metar.tables.behavior.Heatmap_Behavior" />
   </root>
   <root nodeRef="r:db1b133e-9a0f-4319-b384-413408eb1729(org.campagnelab.metar.tables.behavior)/7074867102589853551">
     <nodeInfo nodeId="7074867102589853667" fileName="JoinTables_Behavior.java" startLine="28" startPosition="90" endLine="29" endPosition="105" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />

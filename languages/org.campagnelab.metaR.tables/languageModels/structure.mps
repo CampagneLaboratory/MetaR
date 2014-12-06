@@ -219,7 +219,7 @@
     <property name="name" nameId="tpck.1169194664001" value="Heatmap" />
     <property name="virtualPackage" nameId="tpck.1193676396447" value="heatmap" />
     <property name="conceptAlias" nameId="tpce.5092175715804935370" value="build heatmap" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="8962032619593737384" resolveInfo="Statement" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="8013388156564358393" resolveInfo="PlotBuilderStatement" />
     <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="8459500803719286733" nodeInfo="ig">
       <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
       <property name="role" nameId="tpce.1071599776563" value="dataSelection" />
