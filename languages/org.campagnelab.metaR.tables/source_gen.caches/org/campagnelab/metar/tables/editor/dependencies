@@ -265,6 +265,7 @@
     <classNode dependClassName="org.campagnelab.metar.tables.editor.Range_Editor" />
     <classNode dependClassName="org.campagnelab.metar.tables.editor.Render_Editor" />
     <classNode dependClassName="org.campagnelab.metar.tables.editor.SelectByGroup_Editor" />
+    <classNode dependClassName="org.campagnelab.metar.tables.editor.SelectMultipleGroups_Editor" />
     <classNode dependClassName="org.campagnelab.metar.tables.editor.SetOfIds_Editor" />
     <classNode dependClassName="org.campagnelab.metar.tables.editor.StatementList_Editor" />
     <classNode dependClassName="org.campagnelab.metar.tables.editor.SubSetTableRows_Editor" />
@@ -806,6 +807,29 @@
     <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
     <classNode extendsClassName="jetbrains.mps.nodeEditor.DefaultNodeEditor" />
     <classNode extendsClassName="jetbrains.mps.nodeEditor.InlineCellProvider" />
+  </dependency>
+  <dependency className="org.campagnelab.metar.tables.editor.SelectMultipleGroups_Editor" file="SelectMultipleGroups_Editor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.editor.runtime.style.StyleAttributes" />
+    <classNode dependClassName="jetbrains.mps.editor.runtime.style.StyleImpl" />
+    <classNode dependClassName="jetbrains.mps.lang.editor.cellProviders.RefNodeListHandlerElementKeyMap" />
+    <classNode dependClassName="jetbrains.mps.nodeEditor.cellActions.CellAction_DeleteNode" />
+    <classNode dependClassName="jetbrains.mps.nodeEditor.cellLayout.CellLayout_Indent" />
+    <classNode dependClassName="jetbrains.mps.nodeEditor.cellMenu.DefaultChildSubstituteInfo" />
+    <classNode dependClassName="jetbrains.mps.nodeEditor.cellMenu.DefaultReferenceSubstituteInfo" />
+    <classNode dependClassName="jetbrains.mps.nodeEditor.cellProviders.AbstractCellListHandler" />
+    <classNode dependClassName="jetbrains.mps.nodeEditor.cells.EditorCell_Collection" />
+    <classNode dependClassName="jetbrains.mps.nodeEditor.cells.EditorCell_Constant" />
+    <classNode dependClassName="jetbrains.mps.openapi.editor.EditorContext" />
+    <classNode dependClassName="jetbrains.mps.openapi.editor.cells.CellActionType" />
+    <classNode dependClassName="jetbrains.mps.openapi.editor.cells.EditorCell" />
+    <classNode dependClassName="jetbrains.mps.openapi.editor.style.Style" />
+    <classNode dependClassName="jetbrains.mps.smodel.action.NodeFactoryManager" />
+    <classNode dependClassName="org.campagnelab.metar.tables.editor.TableStyleSheet_StyleSheet" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
+    <classNode extendsClassName="jetbrains.mps.lang.editor.cellProviders.RefNodeListHandler" />
+    <classNode extendsClassName="jetbrains.mps.nodeEditor.DefaultNodeEditor" />
   </dependency>
   <dependency className="org.campagnelab.metar.tables.editor.SetOfIds_Editor" file="SetOfIds_Editor.java">
     <classNode dependClassName="java.lang.Class" />

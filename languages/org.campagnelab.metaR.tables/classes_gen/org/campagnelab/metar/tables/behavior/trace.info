@@ -2,7 +2,7 @@
 <debugInfo>
   <unitInfo fileName="AbstractRowFilter_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="org.campagnelab.metar.tables.behavior.AbstractRowFilter_BehaviorDescriptor" />
   <unitInfo fileName="Analysis_BehaviorDescriptor.java" startLine="13" startPosition="0" endLine="38" endPosition="0" unitName="org.campagnelab.metar.tables.behavior.Analysis_BehaviorDescriptor" />
-  <unitInfo fileName="BehaviorAspectDescriptor.java" startLine="9" startPosition="0" endLine="112" endPosition="0" unitName="org.campagnelab.metar.tables.behavior.BehaviorAspectDescriptor" />
+  <unitInfo fileName="BehaviorAspectDescriptor.java" startLine="9" startPosition="0" endLine="114" endPosition="0" unitName="org.campagnelab.metar.tables.behavior.BehaviorAspectDescriptor" />
   <unitInfo fileName="ColumnAnnotation_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="org.campagnelab.metar.tables.behavior.ColumnAnnotation_BehaviorDescriptor" />
   <unitInfo fileName="ColumnGroupContainer_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="org.campagnelab.metar.tables.behavior.ColumnGroupContainer_BehaviorDescriptor" />
   <unitInfo fileName="ColumnGroupReference_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="org.campagnelab.metar.tables.behavior.ColumnGroupReference_BehaviorDescriptor" />
@@ -44,6 +44,7 @@
   <unitInfo fileName="RowFilter_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="8" endPosition="0" unitName="org.campagnelab.metar.tables.behavior.RowFilter_BehaviorDescriptor" />
   <unitInfo fileName="ScatterPlotStyle_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="org.campagnelab.metar.tables.behavior.ScatterPlotStyle_BehaviorDescriptor" />
   <unitInfo fileName="SelectByGroup_BehaviorDescriptor.java" startLine="8" startPosition="0" endLine="21" endPosition="0" unitName="org.campagnelab.metar.tables.behavior.SelectByGroup_BehaviorDescriptor" />
+  <unitInfo fileName="SelectMultipleGroups_BehaviorDescriptor.java" startLine="8" startPosition="0" endLine="21" endPosition="0" unitName="org.campagnelab.metar.tables.behavior.SelectMultipleGroups_BehaviorDescriptor" />
   <unitInfo fileName="SetOfIds_BehaviorDescriptor.java" startLine="9" startPosition="0" endLine="22" endPosition="0" unitName="org.campagnelab.metar.tables.behavior.SetOfIds_BehaviorDescriptor" />
   <unitInfo fileName="StatementDependencies_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="10" endPosition="0" unitName="org.campagnelab.metar.tables.behavior.StatementDependencies_BehaviorDescriptor" />
   <unitInfo fileName="StatementList_BehaviorDescriptor.java" startLine="9" startPosition="0" endLine="30" endPosition="0" unitName="org.campagnelab.metar.tables.behavior.StatementList_BehaviorDescriptor" />
@@ -57,6 +58,32 @@
   <unitInfo fileName="UsageType_BehaviorDescriptor.java" startLine="10" startPosition="0" endLine="23" endPosition="0" unitName="org.campagnelab.metar.tables.behavior.UsageType_BehaviorDescriptor" />
   <unitInfo fileName="UsesDataTable_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="10" endPosition="0" unitName="org.campagnelab.metar.tables.behavior.UsesDataTable_BehaviorDescriptor" />
   <unitInfo fileName="WriteTable_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="org.campagnelab.metar.tables.behavior.WriteTable_BehaviorDescriptor" />
+  <root nodeRef="r:db1b133e-9a0f-4319-b384-413408eb1729(org.campagnelab.metar.tables.behavior)/2133144034279816046">
+    <nodeInfo nodeId="2133144034279824605" fileName="SelectMultipleGroups_Behavior.java" startLine="18" startPosition="119" endLine="19" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="2133144034279859678" fileName="SelectMultipleGroups_Behavior.java" startLine="21" startPosition="41" endLine="22" endPosition="226" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="2133144034279824666" fileName="SelectMultipleGroups_Behavior.java" startLine="24" startPosition="7" endLine="25" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="2133144034279816046" fileName="SelectMultipleGroups_Behavior.java" startLine="15" startPosition="0" endLine="17" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+    <nodeInfo nodeId="2133144034279858690" fileName="SelectMultipleGroups_Behavior.java" startLine="21" startPosition="0" endLine="24" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="visit#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+    <nodeInfo nodeId="2133144034279845198" fileName="SelectMultipleGroups_Behavior.java" startLine="19" startPosition="73" endLine="24" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="2133144034279816046" fileName="SelectMultipleGroups_Behavior.java" startLine="18" startPosition="0" endLine="27" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_getColumnNames_8016431400515512083#(Lorg/jetbrains/mps/openapi/model/SNode;Ljava/lang/Iterable;)Ljava/util/Set;" />
+    <scopeInfo nodeId="2133144034279816048" fileName="SelectMultipleGroups_Behavior.java" startLine="15" startPosition="43" endLine="15" endPosition="43" />
+    <scopeInfo nodeId="2133144034279858691" fileName="SelectMultipleGroups_Behavior.java" startLine="21" startPosition="41" endLine="22" endPosition="226" />
+    <scopeInfo nodeId="2133144034279816046" fileName="SelectMultipleGroups_Behavior.java" startLine="15" startPosition="0" endLine="17" endPosition="0">
+      <varInfo nodeId="2133144034279816046" varName="thisNode" />
+    </scopeInfo>
+    <scopeInfo nodeId="2133144034279858690" fileName="SelectMultipleGroups_Behavior.java" startLine="21" startPosition="0" endLine="24" endPosition="0">
+      <varInfo nodeId="2133144034279858690" varName="groupSel" />
+    </scopeInfo>
+    <scopeInfo nodeId="2133144034279817867" fileName="SelectMultipleGroups_Behavior.java" startLine="18" startPosition="119" endLine="25" endPosition="17">
+      <varInfo nodeId="2133144034279824606" varName="names" />
+    </scopeInfo>
+    <scopeInfo nodeId="2133144034279816046" fileName="SelectMultipleGroups_Behavior.java" startLine="18" startPosition="0" endLine="27" endPosition="0">
+      <varInfo nodeId="2133144034279817868" varName="columns" />
+      <varInfo nodeId="2133144034279816046" varName="thisNode" />
+    </scopeInfo>
+    <unitInfo nodeId="2133144034279858690" fileName="SelectMultipleGroups_Behavior.java" startLine="20" startPosition="102" endLine="24" endPosition="5" unitName="org.campagnelab.metar.tables.behavior.SelectMultipleGroups_Behavior$1" />
+    <unitInfo nodeId="2133144034279816046" fileName="SelectMultipleGroups_Behavior.java" startLine="14" startPosition="0" endLine="28" endPosition="0" unitName="org.campagnelab.metar.tables.behavior.SelectMultipleGroups_Behavior" />
+  </root>
   <root nodeRef="r:db1b133e-9a0f-4319-b384-413408eb1729(org.campagnelab.metar.tables.behavior)/2807244893511566376">
     <nodeInfo nodeId="2807244893511582586" fileName="Model_Behavior.java" startLine="12" startPosition="83" endLine="13" endPosition="91" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="2807244893511566376" fileName="Model_Behavior.java" startLine="9" startPosition="0" endLine="11" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />

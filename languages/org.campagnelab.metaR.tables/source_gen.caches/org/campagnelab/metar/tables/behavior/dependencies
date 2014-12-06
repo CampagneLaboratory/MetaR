@@ -83,6 +83,7 @@
     <classNode dependClassName="org.campagnelab.metar.tables.behavior.Render_BehaviorDescriptor" />
     <classNode dependClassName="org.campagnelab.metar.tables.behavior.ScatterPlotStyle_BehaviorDescriptor" />
     <classNode dependClassName="org.campagnelab.metar.tables.behavior.SelectByGroup_BehaviorDescriptor" />
+    <classNode dependClassName="org.campagnelab.metar.tables.behavior.SelectMultipleGroups_BehaviorDescriptor" />
     <classNode dependClassName="org.campagnelab.metar.tables.behavior.SetOfIds_BehaviorDescriptor" />
     <classNode dependClassName="org.campagnelab.metar.tables.behavior.StatementList_BehaviorDescriptor" />
     <classNode dependClassName="org.campagnelab.metar.tables.behavior.SubSetTableRows_BehaviorDescriptor" />
@@ -629,6 +630,30 @@
     <classNode dependClassName="java.util.Set" />
     <classNode dependClassName="org.campagnelab.metar.tables.behavior.KeySelection_BehaviorDescriptor" />
     <classNode dependClassName="org.campagnelab.metar.tables.behavior.SelectByGroup_Behavior" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="org.campagnelab.metar.tables.behavior.SelectMultipleGroups_Behavior" file="SelectMultipleGroups_Behavior.java">
+    <classNode dependClassName="java.lang.Class" />
+    <classNode dependClassName="java.lang.Iterable" />
+    <classNode dependClassName="java.lang.Object" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.util.HashSet" />
+    <classNode dependClassName="java.util.Set" />
+    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.IVisitor" />
+    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ListSequence" />
+    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.SetSequence" />
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations" />
+    <classNode dependClassName="jetbrains.mps.smodel.behaviour.BehaviorReflection" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
+  </dependency>
+  <dependency className="org.campagnelab.metar.tables.behavior.SelectMultipleGroups_BehaviorDescriptor" file="SelectMultipleGroups_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Iterable" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.util.Set" />
+    <classNode dependClassName="org.campagnelab.metar.tables.behavior.KeySelection_BehaviorDescriptor" />
+    <classNode dependClassName="org.campagnelab.metar.tables.behavior.SelectMultipleGroups_Behavior" />
     <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
   </dependency>

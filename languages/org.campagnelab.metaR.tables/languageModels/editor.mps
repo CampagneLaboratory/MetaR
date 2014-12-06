@@ -2286,5 +2286,21 @@
       </node>
     </node>
   </root>
+  <root type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="2133144034280110283" nodeInfo="ng">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="keysel" />
+    <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="jrxw.2133144034279815880" resolveInfo="SelectMultipleGroups" />
+    <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_Collection" typeId="tpc2.1073389446423" id="2133144034280110285" nodeInfo="nn">
+      <node role="cellLayout" roleId="tpc2.1106270802874" type="tpc2.CellLayout_Indent" typeId="tpc2.1237303669825" id="2133144034280110286" nodeInfo="nn" />
+      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="2133144034280110287" nodeInfo="nn">
+        <property name="text" nameId="tpc2.1073389577007" value="one or more" />
+        <link role="parentStyleClass" roleId="tpc2.1381004262292426837" targetNodeId="8887138449911738305" resolveInfo="Descriptive" />
+      </node>
+      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_RefNodeList" typeId="tpc2.1073390211982" id="2133144034280110289" nodeInfo="ng">
+        <property name="separatorText" nameId="tpc2.1140524450557" value="," />
+        <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="jrxw.2133144034279816044" />
+        <node role="cellLayout" roleId="tpc2.1140524464360" type="tpc2.CellLayout_Indent" typeId="tpc2.1237303669825" id="2133144034280110290" nodeInfo="nn" />
+      </node>
+    </node>
+  </root>
 </model>
 
