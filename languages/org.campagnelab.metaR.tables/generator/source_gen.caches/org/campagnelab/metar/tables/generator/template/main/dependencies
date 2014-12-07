@@ -19,6 +19,8 @@
     <classNode dependClassName="jetbrains.mps.generator.template.SourceSubstituteMacroNodesContext" />
     <classNode dependClassName="jetbrains.mps.generator.template.TemplateQueryContext" />
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ISelector" />
+    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ITranslator2" />
+    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.IVisitor" />
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.IWhereFilter" />
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.IterableUtils" />
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ListSequence" />
@@ -31,13 +33,17 @@
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations" />
     <classNode dependClassName="jetbrains.mps.smodel.behaviour.BehaviorReflection" />
     <classNode dependClassName="jetbrains.mps.util.MacrosFactory" />
+    <classNode dependClassName="org.apache.log4j.LogManager" />
+    <classNode dependClassName="org.apache.log4j.Logger" />
     <classNode dependClassName="org.campagnelab.metar.tables.behavior.ColumnGroup_Behavior" />
     <classNode dependClassName="org.campagnelab.metar.tables.behavior.ColumnRef_Behavior" />
     <classNode dependClassName="org.campagnelab.metar.tables.behavior.FutureTable_Behavior" />
+    <classNode dependClassName="org.campagnelab.metar.tables.behavior.Heatmap_Behavior" />
     <classNode dependClassName="org.campagnelab.metar.tables.behavior.Model_Behavior" />
     <classNode dependClassName="org.campagnelab.metar.tables.behavior.Multiplot_Behavior" />
     <classNode dependClassName="org.campagnelab.metar.tables.behavior.Plot_Behavior" />
     <classNode dependClassName="org.campagnelab.metar.tables.behavior.Render_Behavior" />
+    <classNode dependClassName="org.campagnelab.metar.tables.behavior.TableRef_Behavior" />
     <classNode dependClassName="org.campagnelab.metar.tables.generationhelpers.NameHelper" />
     <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
   </dependency>

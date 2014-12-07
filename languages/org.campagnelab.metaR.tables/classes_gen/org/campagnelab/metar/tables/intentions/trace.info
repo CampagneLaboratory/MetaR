@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
-  <unitInfo fileName="IntentionsDescriptor.java" startLine="10" startPosition="0" endLine="25" endPosition="0" unitName="org.campagnelab.metar.tables.intentions.IntentionsDescriptor" />
+  <unitInfo fileName="IntentionsDescriptor.java" startLine="10" startPosition="0" endLine="26" endPosition="0" unitName="org.campagnelab.metar.tables.intentions.IntentionsDescriptor" />
   <root nodeRef="r:597299e2-456c-40ec-87e4-c5fdcfc8d153(org.campagnelab.metar.tables.intentions)/2133144034278076335">
     <nodeInfo nodeId="2133144034278076335" fileName="TransferGroupsFrom_Intention.java" startLine="32" startPosition="30" endLine="33" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="2133144034278076335" fileName="TransferGroupsFrom_Intention.java" startLine="36" startPosition="35" endLine="37" endPosition="32" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
@@ -238,6 +238,84 @@
     </scopeInfo>
     <unitInfo nodeId="2433240172667571480" fileName="RootTable_Intention.java" startLine="75" startPosition="0" endLine="91" endPosition="0" unitName="org.campagnelab.metar.tables.intentions.RootTable_Intention$IntentionImplementation" />
     <unitInfo nodeId="2433240172667571480" fileName="RootTable_Intention.java" startLine="19" startPosition="0" endLine="92" endPosition="0" unitName="org.campagnelab.metar.tables.intentions.RootTable_Intention" />
+  </root>
+  <root nodeRef="r:597299e2-456c-40ec-87e4-c5fdcfc8d153(org.campagnelab.metar.tables.intentions)/5703306641527645340">
+    <nodeInfo nodeId="5703306641527645340" fileName="ToggleAnnotations_Intention.java" startLine="19" startPosition="0" endLine="20" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myCachedExecutable" />
+    <nodeInfo nodeId="5703306641527645340" fileName="ToggleAnnotations_Intention.java" startLine="24" startPosition="30" endLine="25" endPosition="60" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5703306641527645340" fileName="ToggleAnnotations_Intention.java" startLine="28" startPosition="35" endLine="29" endPosition="31" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5703306641527645340" fileName="ToggleAnnotations_Intention.java" startLine="32" startPosition="41" endLine="33" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5703306641527645340" fileName="ToggleAnnotations_Intention.java" startLine="36" startPosition="37" endLine="37" endPosition="42" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5703306641527645340" fileName="ToggleAnnotations_Intention.java" startLine="40" startPosition="34" endLine="41" endPosition="32" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5703306641527645340" fileName="ToggleAnnotations_Intention.java" startLine="44" startPosition="44" endLine="45" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5703306641527645340" fileName="ToggleAnnotations_Intention.java" startLine="48" startPosition="84" endLine="49" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5703306641527645340" fileName="ToggleAnnotations_Intention.java" startLine="52" startPosition="53" endLine="53" endPosition="134" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5703306641527645340" fileName="ToggleAnnotations_Intention.java" startLine="56" startPosition="35" endLine="57" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5703306641527645340" fileName="ToggleAnnotations_Intention.java" startLine="61" startPosition="37" endLine="62" endPosition="133" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5703306641527645340" fileName="ToggleAnnotations_Intention.java" startLine="63" startPosition="5" endLine="64" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5703306641527648346" fileName="ToggleAnnotations_Intention.java" startLine="71" startPosition="87" endLine="72" endPosition="116" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5703306641527669747" fileName="ToggleAnnotations_Intention.java" startLine="75" startPosition="78" endLine="76" endPosition="234" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5703306641527645340" fileName="ToggleAnnotations_Intention.java" startLine="79" startPosition="48" endLine="80" endPosition="46" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5703306641527645340" fileName="ToggleAnnotations_Intention.java" startLine="21" startPosition="0" endLine="23" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="ToggleAnnotations_Intention#()V" />
+    <nodeInfo nodeId="5703306641527645340" fileName="ToggleAnnotations_Intention.java" startLine="68" startPosition="0" endLine="70" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="IntentionImplementation#()V" />
+    <nodeInfo nodeId="5703306641527645340" fileName="ToggleAnnotations_Intention.java" startLine="24" startPosition="0" endLine="27" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getConcept#()Ljava/lang/String;" />
+    <nodeInfo nodeId="5703306641527645340" fileName="ToggleAnnotations_Intention.java" startLine="28" startPosition="0" endLine="31" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getPresentation#()Ljava/lang/String;" />
+    <nodeInfo nodeId="5703306641527645340" fileName="ToggleAnnotations_Intention.java" startLine="32" startPosition="0" endLine="35" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getPersistentStateKey#()Ljava/lang/String;" />
+    <nodeInfo nodeId="5703306641527645340" fileName="ToggleAnnotations_Intention.java" startLine="36" startPosition="0" endLine="39" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getLanguageFqName#()Ljava/lang/String;" />
+    <nodeInfo nodeId="5703306641527645340" fileName="ToggleAnnotations_Intention.java" startLine="40" startPosition="0" endLine="43" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getType#()Ljetbrains/mps/intentions/IntentionType;" />
+    <nodeInfo nodeId="5703306641527645340" fileName="ToggleAnnotations_Intention.java" startLine="44" startPosition="0" endLine="47" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isAvailableInChildNodes#()Z" />
+    <nodeInfo nodeId="5703306641527645340" fileName="ToggleAnnotations_Intention.java" startLine="48" startPosition="0" endLine="51" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isApplicable#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Z" />
+    <nodeInfo nodeId="5703306641527645340" fileName="ToggleAnnotations_Intention.java" startLine="52" startPosition="0" endLine="55" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getIntentionNodeReference#()Lorg/jetbrains/mps/openapi/model/SNodeReference;" />
+    <nodeInfo nodeId="5703306641527645340" fileName="ToggleAnnotations_Intention.java" startLine="56" startPosition="0" endLine="59" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isSurroundWith#()Z" />
+    <nodeInfo nodeId="5703306641527645340" fileName="ToggleAnnotations_Intention.java" startLine="60" startPosition="99" endLine="63" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="5703306641527645340" fileName="ToggleAnnotations_Intention.java" startLine="71" startPosition="0" endLine="74" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getDescription#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Ljava/lang/String;" />
+    <nodeInfo nodeId="5703306641527645340" fileName="ToggleAnnotations_Intention.java" startLine="75" startPosition="0" endLine="78" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="execute#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
+    <nodeInfo nodeId="5703306641527645340" fileName="ToggleAnnotations_Intention.java" startLine="79" startPosition="0" endLine="82" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getDescriptor#()Ljetbrains/mps/intentions/IntentionDescriptor;" />
+    <nodeInfo nodeId="5703306641527645340" fileName="ToggleAnnotations_Intention.java" startLine="60" startPosition="0" endLine="66" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="instances#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Ljava/util/Collection;" />
+    <scopeInfo nodeId="5703306641527645340" fileName="ToggleAnnotations_Intention.java" startLine="21" startPosition="40" endLine="21" endPosition="40" />
+    <scopeInfo nodeId="5703306641527645340" fileName="ToggleAnnotations_Intention.java" startLine="68" startPosition="38" endLine="68" endPosition="38" />
+    <scopeInfo nodeId="5703306641527645340" fileName="ToggleAnnotations_Intention.java" startLine="24" startPosition="30" endLine="25" endPosition="60" />
+    <scopeInfo nodeId="5703306641527645340" fileName="ToggleAnnotations_Intention.java" startLine="28" startPosition="35" endLine="29" endPosition="31" />
+    <scopeInfo nodeId="5703306641527645340" fileName="ToggleAnnotations_Intention.java" startLine="32" startPosition="41" endLine="33" endPosition="81" />
+    <scopeInfo nodeId="5703306641527645340" fileName="ToggleAnnotations_Intention.java" startLine="36" startPosition="37" endLine="37" endPosition="42" />
+    <scopeInfo nodeId="5703306641527645340" fileName="ToggleAnnotations_Intention.java" startLine="40" startPosition="34" endLine="41" endPosition="32" />
+    <scopeInfo nodeId="5703306641527645340" fileName="ToggleAnnotations_Intention.java" startLine="44" startPosition="44" endLine="45" endPosition="17" />
+    <scopeInfo nodeId="5703306641527645340" fileName="ToggleAnnotations_Intention.java" startLine="48" startPosition="84" endLine="49" endPosition="16" />
+    <scopeInfo nodeId="5703306641527645340" fileName="ToggleAnnotations_Intention.java" startLine="52" startPosition="53" endLine="53" endPosition="134" />
+    <scopeInfo nodeId="5703306641527645340" fileName="ToggleAnnotations_Intention.java" startLine="56" startPosition="35" endLine="57" endPosition="17" />
+    <scopeInfo nodeId="5703306641527645340" fileName="ToggleAnnotations_Intention.java" startLine="61" startPosition="37" endLine="62" endPosition="133" />
+    <scopeInfo nodeId="5703306641527645342" fileName="ToggleAnnotations_Intention.java" startLine="71" startPosition="87" endLine="72" endPosition="116" />
+    <scopeInfo nodeId="5703306641527645344" fileName="ToggleAnnotations_Intention.java" startLine="75" startPosition="78" endLine="76" endPosition="234" />
+    <scopeInfo nodeId="5703306641527645340" fileName="ToggleAnnotations_Intention.java" startLine="79" startPosition="48" endLine="80" endPosition="46" />
+    <scopeInfo nodeId="5703306641527645340" fileName="ToggleAnnotations_Intention.java" startLine="21" startPosition="0" endLine="23" endPosition="0" />
+    <scopeInfo nodeId="5703306641527645340" fileName="ToggleAnnotations_Intention.java" startLine="68" startPosition="0" endLine="70" endPosition="0" />
+    <scopeInfo nodeId="5703306641527645340" fileName="ToggleAnnotations_Intention.java" startLine="24" startPosition="0" endLine="27" endPosition="0" />
+    <scopeInfo nodeId="5703306641527645340" fileName="ToggleAnnotations_Intention.java" startLine="28" startPosition="0" endLine="31" endPosition="0" />
+    <scopeInfo nodeId="5703306641527645340" fileName="ToggleAnnotations_Intention.java" startLine="32" startPosition="0" endLine="35" endPosition="0" />
+    <scopeInfo nodeId="5703306641527645340" fileName="ToggleAnnotations_Intention.java" startLine="36" startPosition="0" endLine="39" endPosition="0" />
+    <scopeInfo nodeId="5703306641527645340" fileName="ToggleAnnotations_Intention.java" startLine="40" startPosition="0" endLine="43" endPosition="0" />
+    <scopeInfo nodeId="5703306641527645340" fileName="ToggleAnnotations_Intention.java" startLine="44" startPosition="0" endLine="47" endPosition="0" />
+    <scopeInfo nodeId="5703306641527645340" fileName="ToggleAnnotations_Intention.java" startLine="48" startPosition="0" endLine="51" endPosition="0">
+      <varInfo nodeId="5703306641527645340" varName="editorContext" />
+      <varInfo nodeId="5703306641527645340" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="5703306641527645340" fileName="ToggleAnnotations_Intention.java" startLine="52" startPosition="0" endLine="55" endPosition="0" />
+    <scopeInfo nodeId="5703306641527645340" fileName="ToggleAnnotations_Intention.java" startLine="56" startPosition="0" endLine="59" endPosition="0" />
+    <scopeInfo nodeId="5703306641527645340" fileName="ToggleAnnotations_Intention.java" startLine="71" startPosition="0" endLine="74" endPosition="0">
+      <varInfo nodeId="5703306641527645340" varName="editorContext" />
+      <varInfo nodeId="5703306641527645340" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="5703306641527645340" fileName="ToggleAnnotations_Intention.java" startLine="75" startPosition="0" endLine="78" endPosition="0">
+      <varInfo nodeId="5703306641527645340" varName="editorContext" />
+      <varInfo nodeId="5703306641527645340" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="5703306641527645340" fileName="ToggleAnnotations_Intention.java" startLine="79" startPosition="0" endLine="82" endPosition="0" />
+    <scopeInfo nodeId="5703306641527645340" fileName="ToggleAnnotations_Intention.java" startLine="60" startPosition="99" endLine="64" endPosition="30" />
+    <scopeInfo nodeId="5703306641527645340" fileName="ToggleAnnotations_Intention.java" startLine="60" startPosition="0" endLine="66" endPosition="0">
+      <varInfo nodeId="5703306641527645340" varName="context" />
+      <varInfo nodeId="5703306641527645340" varName="node" />
+    </scopeInfo>
+    <unitInfo nodeId="5703306641527645340" fileName="ToggleAnnotations_Intention.java" startLine="67" startPosition="0" endLine="83" endPosition="0" unitName="org.campagnelab.metar.tables.intentions.ToggleAnnotations_Intention$IntentionImplementation" />
+    <unitInfo nodeId="5703306641527645340" fileName="ToggleAnnotations_Intention.java" startLine="18" startPosition="0" endLine="84" endPosition="0" unitName="org.campagnelab.metar.tables.intentions.ToggleAnnotations_Intention" />
   </root>
   <root nodeRef="r:597299e2-456c-40ec-87e4-c5fdcfc8d153(org.campagnelab.metar.tables.intentions)/6001041468488399013">
     <nodeInfo nodeId="6001041468488399013" fileName="RefreshPlot_Intention.java" startLine="17" startPosition="0" endLine="18" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myCachedExecutable" />
