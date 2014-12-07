@@ -1818,8 +1818,11 @@
         <node role="lines" roleId="p6sl.5039633819242576854" type="p6sl.Line" typeId="p6sl.5493669862519709805" id="8016431400517946103" nodeInfo="ng">
           <property name="text" nameId="p6sl.5493669862519718600" value="as.data.frame(LegendFrameSorted[,-2]) -&gt; legend" />
         </node>
-        <node role="lines" roleId="p6sl.5039633819242576854" type="p6sl.Line" typeId="p6sl.5493669862519709805" id="8016431400517946104" nodeInfo="ng">
-          <property name="text" nameId="p6sl.5493669862519718600" value="rownames(legend) &lt;- rownames(LegendFrameSorted)" />
+        <node role="lines" roleId="p6sl.5039633819242576854" type="p6sl.Line" typeId="p6sl.5493669862519709805" id="5703306641528989274" nodeInfo="ng">
+          <property name="text" nameId="p6sl.5493669862519718600" value="row.names(legend)=LegendFrameSorted$SampleId" />
+          <node role="phrases" roleId="p6sl.1680136183140337477" type="p6sl.Phrase" typeId="p6sl.1680136183140337486" id="5703306641528989275" nodeInfo="ng">
+            <property name="text" nameId="p6sl.1680136183140337487" value="" />
+          </node>
         </node>
         <node role="lines" roleId="p6sl.5039633819242576854" type="p6sl.Line" typeId="p6sl.5493669862519709805" id="8016431400517946105" nodeInfo="ng">
           <property name="text" nameId="p6sl.5493669862519718600" value="# re-label Annotation to &quot;Group&quot;" />
