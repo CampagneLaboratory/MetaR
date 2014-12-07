@@ -566,12 +566,19 @@ public class QueriesGenerated {
 
   public static Object propertyMacro_GetPropertyValue_4842667988071972393(final PropertyMacroContext _context) {
     SNode render = SNodeOperations.getAncestor(_context.getNode(), "org.campagnelab.metar.tables.structure.Render", false, false);
+    if (isNotEmptyString(SPropertyOperations.getString(render, "width"))) {
+      return SPropertyOperations.getString(render, "width");
+    }
     double width = BehaviorReflection.invokeVirtual(Double.TYPE, SNodeOperations.cast(SNodeOperations.getParent(SLinkOperations.getTarget(render, "plot", false)), "org.campagnelab.metar.tables.structure.PlotBuilderStatement"), "virtual_estimateWidth_4842667988071989466", new Object[]{});
     return Double.toString(width / (SPropertyOperations.getInteger(SLinkOperations.getTarget(render, "style", false), "pixelsPerInch")));
   }
 
   public static Object propertyMacro_GetPropertyValue_4842667988072079168(final PropertyMacroContext _context) {
     SNode render = SNodeOperations.getAncestor(_context.getNode(), "org.campagnelab.metar.tables.structure.Render", false, false);
+    if (isNotEmptyString(SPropertyOperations.getString(render, "height"))) {
+      return SPropertyOperations.getString(render, "height");
+    }
+
     double height = BehaviorReflection.invokeVirtual(Double.TYPE, SNodeOperations.getAncestor(SLinkOperations.getTarget(render, "plot", false), "org.campagnelab.metar.tables.structure.PlotBuilderStatement", false, false), "virtual_estimateHeight_4842667988071995771", new Object[]{});
     return Double.toString(height / SPropertyOperations.getInteger(SLinkOperations.getTarget(render, "style", false), "pixelsPerInch"));
   }
@@ -760,7 +767,8 @@ public class QueriesGenerated {
   }
 
   public static boolean ifMacro_Condition_5703306641533761565(final IfMacroContext _context) {
-    return SNodeOperations.getIndexInParent(_context.getNode()) + 1 != ((Integer) _context.getSessionObject("lastIndex"));
+    return true;
+    // <node> 
   }
 
   public static boolean ifMacro_Condition_5703306641529057522(final IfMacroContext _context) {
@@ -901,5 +909,9 @@ public class QueriesGenerated {
 
   private static boolean eq_x583g4_a0a0a0a0a0a0a0a0a0a1a53(Object a, Object b) {
     return (a != null ? a.equals(b) : a == b);
+  }
+
+  private static boolean isNotEmptyString(String str) {
+    return str != null && str.length() > 0;
   }
 }

@@ -2084,6 +2084,21 @@
         </node>
       </node>
     </node>
+    <node role="inspectedCellModel" roleId="tpc2.1078153129734" type="tpc2.CellModel_Collection" typeId="tpc2.1073389446423" id="7501650211371761558" nodeInfo="nn">
+      <node role="cellLayout" roleId="tpc2.1106270802874" type="tpc2.CellLayout_Indent" typeId="tpc2.1237303669825" id="7501650211371761559" nodeInfo="nn" />
+      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="7501650211371762536" nodeInfo="nn">
+        <property name="text" nameId="tpc2.1073389577007" value="width in inches:" />
+      </node>
+      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Property" typeId="tpc2.1073389658414" id="7501650211371762541" nodeInfo="ng">
+        <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="jrxw.7501650211371751513" resolveInfo="width" />
+      </node>
+      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="7501650211371762549" nodeInfo="nn">
+        <property name="text" nameId="tpc2.1073389577007" value="height in inches:" />
+      </node>
+      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Property" typeId="tpc2.1073389658414" id="7501650211371762559" nodeInfo="ng">
+        <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="jrxw.7501650211371753390" resolveInfo="height" />
+      </node>
+    </node>
   </root>
   <root type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="2807244893505479059" nodeInfo="ng">
     <property name="virtualPackage" nameId="tpck.1193676396447" value="models" />

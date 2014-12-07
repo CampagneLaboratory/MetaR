@@ -19,24 +19,19 @@
   <component name="ChangeListManager">
     <list default="true" id="d7fb88e6-6771-4f53-a414-3deabf22ebe0" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/Playground/models/Diamond.mps" afterPath="$PROJECT_DIR$/solutions/Playground/models/Diamond.mps" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.metaR.tables/languageModels/behavior.mps" afterPath="$PROJECT_DIR$/languages/org.campagnelab.metaR.tables/languageModels/behavior.mps" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.metaR.tables/source_gen.caches/org/campagnelab/metar/tables/behavior/dependencies" afterPath="$PROJECT_DIR$/languages/org.campagnelab.metaR.tables/source_gen.caches/org/campagnelab/metar/tables/behavior/dependencies" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.metar.edgeR/source_gen.caches/org/campagnelab/metar/edgeR/behavior/dependencies" afterPath="$PROJECT_DIR$/languages/org.campagnelab.metar.edgeR/source_gen.caches/org/campagnelab/metar/edgeR/behavior/dependencies" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/Playground/classes_gen/Diamond/fit edgeR model_script.R" afterPath="$PROJECT_DIR$/solutions/Playground/classes_gen/Diamond/fit edgeR model_script.R" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/Playground/source_gen/Diamond/fit edgeR model_script.R" afterPath="$PROJECT_DIR$/solutions/Playground/source_gen/Diamond/fit edgeR model_script.R" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.metaR.tables/generator/source_gen/org/campagnelab/metar/tables/generator/template/main/QueriesGenerated.java" afterPath="$PROJECT_DIR$/languages/org.campagnelab.metaR.tables/generator/source_gen/org/campagnelab/metar/tables/generator/template/main/QueriesGenerated.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.metaR.tables/languageModels/editor.mps" afterPath="$PROJECT_DIR$/languages/org.campagnelab.metaR.tables/languageModels/editor.mps" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.metaR.tables/generator/source_gen.caches/org/campagnelab/metar/tables/generator/template/main/generated" afterPath="$PROJECT_DIR$/languages/org.campagnelab.metaR.tables/generator/source_gen.caches/org/campagnelab/metar/tables/generator/template/main/generated" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.metaR.tables/source_gen.caches/org/campagnelab/metar/tables/generated" afterPath="$PROJECT_DIR$/languages/org.campagnelab.metaR.tables/source_gen.caches/org/campagnelab/metar/tables/generated" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.metaR.tables/source_gen.caches/org/campagnelab/metar/tables/behavior/generated" afterPath="$PROJECT_DIR$/languages/org.campagnelab.metaR.tables/source_gen.caches/org/campagnelab/metar/tables/behavior/generated" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.metar.edgeR/generator/source_gen.caches/org/campagnelab/metar/edgeR/generator/template/main/generated" afterPath="$PROJECT_DIR$/languages/org.campagnelab.metar.edgeR/generator/source_gen.caches/org/campagnelab/metar/edgeR/generator/template/main/generated" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.metar.edgeR/source_gen.caches/org/campagnelab/metar/edgeR/generated" afterPath="$PROJECT_DIR$/languages/org.campagnelab.metar.edgeR/source_gen.caches/org/campagnelab/metar/edgeR/generated" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.metar.edgeR/source_gen.caches/org/campagnelab/metar/edgeR/behavior/generated" afterPath="$PROJECT_DIR$/languages/org.campagnelab.metar.edgeR/source_gen.caches/org/campagnelab/metar/edgeR/behavior/generated" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.metaR.tables/source_gen.caches/org/campagnelab/metar/tables/editor/generated" afterPath="$PROJECT_DIR$/languages/org.campagnelab.metaR.tables/source_gen.caches/org/campagnelab/metar/tables/editor/generated" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.metaR.tables/source_gen.caches/org/campagnelab/metar/tables/structure/generated" afterPath="$PROJECT_DIR$/languages/org.campagnelab.metaR.tables/source_gen.caches/org/campagnelab/metar/tables/structure/generated" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/Playground/source_gen.caches/Diamond/generated" afterPath="$PROJECT_DIR$/solutions/Playground/source_gen.caches/Diamond/generated" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.metaR.tables/generator/template/main@generator.mps" afterPath="$PROJECT_DIR$/languages/org.campagnelab.metaR.tables/generator/template/main@generator.mps" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.metar.edgeR/generator/template/main@generator.mps" afterPath="$PROJECT_DIR$/languages/org.campagnelab.metar.edgeR/generator/template/main@generator.mps" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.metaR.tables/classes_gen/org/campagnelab/metar/tables/behavior/trace.info" afterPath="$PROJECT_DIR$/languages/org.campagnelab.metaR.tables/classes_gen/org/campagnelab/metar/tables/behavior/trace.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.metaR.tables/source_gen/org/campagnelab/metar/tables/behavior/trace.info" afterPath="$PROJECT_DIR$/languages/org.campagnelab.metaR.tables/source_gen/org/campagnelab/metar/tables/behavior/trace.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.metar.edgeR/classes_gen/org/campagnelab/metar/edgeR/behavior/trace.info" afterPath="$PROJECT_DIR$/languages/org.campagnelab.metar.edgeR/classes_gen/org/campagnelab/metar/edgeR/behavior/trace.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.metar.edgeR/source_gen/org/campagnelab/metar/edgeR/behavior/trace.info" afterPath="$PROJECT_DIR$/languages/org.campagnelab.metar.edgeR/source_gen/org/campagnelab/metar/edgeR/behavior/trace.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.metaR.tables/languageModels/structure.mps" afterPath="$PROJECT_DIR$/languages/org.campagnelab.metaR.tables/languageModels/structure.mps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.metaR.tables/classes_gen/org/campagnelab/metar/tables/editor/trace.info" afterPath="$PROJECT_DIR$/languages/org.campagnelab.metaR.tables/classes_gen/org/campagnelab/metar/tables/editor/trace.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.metaR.tables/generator/classes_gen/org/campagnelab/metar/tables/generator/template/main/trace.info" afterPath="$PROJECT_DIR$/languages/org.campagnelab.metaR.tables/generator/classes_gen/org/campagnelab/metar/tables/generator/template/main/trace.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.metaR.tables/generator/source_gen/org/campagnelab/metar/tables/generator/template/main/trace.info" afterPath="$PROJECT_DIR$/languages/org.campagnelab.metaR.tables/generator/source_gen/org/campagnelab/metar/tables/generator/template/main/trace.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.metaR.tables/source_gen/org/campagnelab/metar/tables/editor/trace.info" afterPath="$PROJECT_DIR$/languages/org.campagnelab.metaR.tables/source_gen/org/campagnelab/metar/tables/editor/trace.info" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.mps/workspace.xml" afterPath="$PROJECT_DIR$/.mps/workspace.xml" />
     </list>
     <list id="7ebde426-22eb-4750-a763-c5a50e3adc09" name="ignore&#10;" comment="">
@@ -77,21 +72,19 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="RERMTCK-counts-table.tsv" pinned="false" current="false" current-in-tab="false">
-        <entry file="mps://node://Playground/Diamond/RERMTCK-counts-table.tsv">
+      <file leaf-file-name="Heatmap" pinned="false" current="false" current-in-tab="false">
+        <entry file="mps://node://org.campagnelab.metar.tables/org.campagnelab.metar.tables.structure/Heatmap">
           <provider selected="true" editor-type-id="MPSFileEditor">
-            <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+            <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
               <memento viewPositionX="0" viewPositionY="0">
                 <selectionStack>
                   <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                    <property name="selectionEnd" value="6" />
-                    <property name="hasNonTrivialSelection" value="true" />
-                    <property name="caretXRelative" value="58" />
-                    <property name="selectionStart" value="5" />
-                    <property name="caretX" value="382" />
+                    <property name="hasNonTrivialSelection" value="false" />
+                    <property name="caretXRelative" value="63" />
+                    <property name="caretX" value="290" />
                     <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="property_name" cellNumber="0" isInList="false">
-                      <node node_reference="r:624b8210-f4b3-400e-9df0-aad09dfbdddd(Diamond)/8725455673819557037" />
+                    <cellInfo cellId="property_text" cellNumber="0" isInList="false">
+                      <node node_reference="r:ff825a5c-7d67-471c-8044-76c3cc7b519b(org.campagnelab.metar.tables.generator.template.main@generator)/5703306641535151199" />
                     </cellInfo>
                   </stackElement>
                 </selectionStack>
@@ -99,67 +92,30 @@
                 <folded />
                 <enabledHints />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:624b8210-f4b3-400e-9df0-aad09dfbdddd(Diamond)/2133144034281346052" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:624b8210-f4b3-400e-9df0-aad09dfbdddd(Diamond)/2133144034281345997" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorLabels />
                 <folded />
                 <enabledHints />
               </inspectorMemento>
+              <node node_ref="r:ff825a5c-7d67-471c-8044-76c3cc7b519b(org.campagnelab.metar.tables.generator.template.main@generator)/1549006859295772378" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Heatmap" pinned="true" current="false" current-in-tab="false">
+      <file leaf-file-name="Heatmap" pinned="true" current="true" current-in-tab="true">
         <entry file="mps://node://Playground/Diamond/Heatmap">
-          <provider selected="true" editor-type-id="MPSFileEditor">
-            <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-              <memento viewPositionX="0" viewPositionY="380">
-                <selectionStack>
-                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellSelection">
-                    <property name="caretXRelative" value="-43" />
-                    <property name="caretX" value="0" />
-                    <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="Image_9p3cny_b0" cellNumber="0" isInList="false">
-                      <node node_reference="r:624b8210-f4b3-400e-9df0-aad09dfbdddd(Diamond)/2133144034281346052" />
-                    </cellInfo>
-                  </stackElement>
-                </selectionStack>
-                <errorLabels />
-                <folded />
-                <enabledHints />
-              </memento>
-              <inspectorMemento currentlyEditedNode="r:624b8210-f4b3-400e-9df0-aad09dfbdddd(Diamond)/2133144034281346052" viewPositionX="0" viewPositionY="0">
-                <selectionStack />
-                <errorLabels />
-                <folded />
-                <enabledHints />
-              </inspectorMemento>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Heatmap_script.R" pinned="false" current="true" current-in-tab="true">
-        <entry file="previewDiamond/Heatmap_script.R">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.17067307" vertical-offset="1084" max-vertical-offset="1500">
-              <caret line="77" column="53" selection-start-line="77" selection-start-column="19" selection-end-line="77" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="20FDR_merged.tsv" pinned="false" current="false" current-in-tab="false">
-        <entry file="mps://node://Playground/Diamond/20FDR_merged.tsv">
           <provider selected="true" editor-type-id="MPSFileEditor">
             <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
               <memento viewPositionX="0" viewPositionY="0">
                 <selectionStack>
                   <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                     <property name="hasNonTrivialSelection" value="false" />
-                    <property name="caretXRelative" value="22" />
-                    <property name="caretX" value="121" />
+                    <property name="caretXRelative" value="0" />
+                    <property name="caretX" value="33" />
                     <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="property_name" cellNumber="0" isInList="false">
-                      <node node_reference="r:624b8210-f4b3-400e-9df0-aad09dfbdddd(Diamond)/7501650211370569520" />
+                    <cellInfo cellId="Constant_3oqcxl_a0a" cellNumber="0" isInList="false">
+                      <node node_reference="r:624b8210-f4b3-400e-9df0-aad09dfbdddd(Diamond)/2133144034281345997" />
                     </cellInfo>
                   </stackElement>
                 </selectionStack>
@@ -167,12 +123,159 @@
                 <folded />
                 <enabledHints />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:624b8210-f4b3-400e-9df0-aad09dfbdddd(Diamond)/2133144034281346052" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:624b8210-f4b3-400e-9df0-aad09dfbdddd(Diamond)/2133144034281345997" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorLabels />
                 <folded />
                 <enabledHints />
               </inspectorMemento>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Heatmap_script.R" pinned="false" current="false" current-in-tab="false">
+        <entry file="previewDiamond/Heatmap_script.R">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="1114" max-vertical-offset="1530">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Render" pinned="false" current="false" current-in-tab="false">
+        <entry file="mps://node://org.campagnelab.metar.tables/org.campagnelab.metar.tables.structure/Render">
+          <provider selected="true" editor-type-id="MPSFileEditor">
+            <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
+              <memento viewPositionX="0" viewPositionY="0">
+                <selectionStack>
+                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                    <property name="hasNonTrivialSelection" value="false" />
+                    <property name="caretXRelative" value="58" />
+                    <property name="caretX" value="184" />
+                    <property name="sideSelectDirection" value="NONE" />
+                    <cellInfo cellId="property_name" cellNumber="0" isInList="false">
+                      <node node_reference="r:9f2bbfbf-f8b7-4b3b-92b1-b6a0e9642c10(org.campagnelab.metar.tables.structure)/7501650211371753390" />
+                    </cellInfo>
+                  </stackElement>
+                </selectionStack>
+                <errorLabels />
+                <folded />
+                <enabledHints />
+              </memento>
+              <inspectorMemento currentlyEditedNode="r:624b8210-f4b3-400e-9df0-aad09dfbdddd(Diamond)/2133144034281345997" viewPositionX="0" viewPositionY="0">
+                <selectionStack />
+                <errorLabels />
+                <folded />
+                <enabledHints />
+              </inspectorMemento>
+              <node node_ref="r:9f2bbfbf-f8b7-4b3b-92b1-b6a0e9642c10(org.campagnelab.metar.tables.structure)/8013388156563115186" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_FloatNumberValue" pinned="false" current="false" current-in-tab="false">
+        <entry file="mps://node://jetbrains.mps.baseLanguage/jetbrains.mps.baseLanguage.structure/_FloatNumberValue">
+          <provider selected="true" editor-type-id="MPSFileEditor">
+            <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+              <memento viewPositionX="0" viewPositionY="0">
+                <selectionStack>
+                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                    <property name="hasNonTrivialSelection" value="false" />
+                    <property name="caretXRelative" value="4" />
+                    <property name="caretX" value="275" />
+                    <property name="sideSelectDirection" value="NONE" />
+                    <cellInfo cellId="property_name" cellNumber="0" isInList="false">
+                      <node node_reference="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)/5279705229678483898" />
+                    </cellInfo>
+                  </stackElement>
+                </selectionStack>
+                <errorLabels />
+                <folded />
+                <enabledHints />
+              </memento>
+              <inspectorMemento currentlyEditedNode="r:624b8210-f4b3-400e-9df0-aad09dfbdddd(Diamond)/2133144034281345997" viewPositionX="0" viewPositionY="0">
+                <selectionStack />
+                <errorLabels />
+                <folded />
+                <enabledHints />
+              </inspectorMemento>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PDF" pinned="false" current="false" current-in-tab="false">
+        <entry file="mps://node://org.campagnelab.metar.tables/org.campagnelab.metar.tables.structure/PDF">
+          <provider selected="true" editor-type-id="MPSFileEditor">
+            <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
+              <memento viewPositionX="0" viewPositionY="0">
+                <selectionStack>
+                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                    <property name="hasNonTrivialSelection" value="false" />
+                    <property name="caretXRelative" value="4" />
+                    <property name="caretX" value="419" />
+                    <property name="sideSelectDirection" value="NONE" />
+                    <cellInfo cellId="Constant_y5igai_a0" cellNumber="0" isInList="false">
+                      <node node_reference="r:ff825a5c-7d67-471c-8044-76c3cc7b519b(org.campagnelab.metar.tables.generator.template.main@generator)/4842667988072079167" />
+                    </cellInfo>
+                  </stackElement>
+                </selectionStack>
+                <errorLabels />
+                <folded />
+                <enabledHints />
+              </memento>
+              <inspectorMemento currentlyEditedNode="r:624b8210-f4b3-400e-9df0-aad09dfbdddd(Diamond)/2133144034281345997" viewPositionX="0" viewPositionY="0">
+                <selectionStack />
+                <errorLabels />
+                <folded />
+                <enabledHints />
+              </inspectorMemento>
+              <node node_ref="r:ff825a5c-7d67-471c-8044-76c3cc7b519b(org.campagnelab.metar.tables.generator.template.main@generator)/4842667988071959669" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PlotBuilderStatement" pinned="false" current="false" current-in-tab="false">
+        <entry file="mps://node://org.campagnelab.metar.tables/org.campagnelab.metar.tables.structure/PlotBuilderStatement">
+          <provider selected="true" editor-type-id="MPSFileEditor">
+            <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
+              <memento viewPositionX="0" viewPositionY="0">
+                <selectionStack>
+                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                    <property name="hasNonTrivialSelection" value="false" />
+                    <property name="caretXRelative" value="9" />
+                    <property name="caretX" value="42" />
+                    <property name="sideSelectDirection" value="NONE" />
+                    <cellInfo cellId="ALIAS_EDITOR_COMPONENT" cellNumber="0" isInList="false">
+                      <node node_reference="r:db1b133e-9a0f-4319-b384-413408eb1729(org.campagnelab.metar.tables.behavior)/4842667988071989467" />
+                    </cellInfo>
+                  </stackElement>
+                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellSelection">
+                    <property name="caretXRelative" value="-33" />
+                    <property name="caretX" value="0" />
+                    <property name="sideSelectDirection" value="NONE" />
+                    <cellInfo cellId="Collection_gmtuod_a" cellNumber="0" isInList="false">
+                      <node node_reference="r:db1b133e-9a0f-4319-b384-413408eb1729(org.campagnelab.metar.tables.behavior)/4842667988071989466" />
+                    </cellInfo>
+                  </stackElement>
+                  <stackElement className="jetbrains.mps.nodeEditor.selection.NodeRangeSelection">
+                    <property name="lastNodeId" value="4842667988071995771" />
+                    <property name="modelId" value="r:db1b133e-9a0f-4319-b384-413408eb1729(org.campagnelab.metar.tables.behavior)" />
+                    <property name="parentNodeId" value="8013388156564360083" />
+                    <property name="firstNodeId" value="4842667988071989466" />
+                    <property name="role" value="method" />
+                  </stackElement>
+                </selectionStack>
+                <errorLabels />
+                <folded />
+                <enabledHints />
+              </memento>
+              <inspectorMemento currentlyEditedNode="r:624b8210-f4b3-400e-9df0-aad09dfbdddd(Diamond)/2133144034281345997" viewPositionX="0" viewPositionY="0">
+                <selectionStack />
+                <errorLabels />
+                <folded />
+                <enabledHints />
+              </inspectorMemento>
+              <node node_ref="r:db1b133e-9a0f-4319-b384-413408eb1729(org.campagnelab.metar.tables.behavior)/8013388156564360083" />
             </state>
           </provider>
         </entry>
@@ -197,7 +300,7 @@
                 <folded />
                 <enabledHints />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:624b8210-f4b3-400e-9df0-aad09dfbdddd(Diamond)/2133144034281346052" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:624b8210-f4b3-400e-9df0-aad09dfbdddd(Diamond)/2133144034281345997" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorLabels />
                 <folded />
@@ -227,67 +330,7 @@
                 <folded />
                 <enabledHints />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:624b8210-f4b3-400e-9df0-aad09dfbdddd(Diamond)/2133144034281346052" viewPositionX="0" viewPositionY="0">
-                <selectionStack />
-                <errorLabels />
-                <folded />
-                <enabledHints />
-              </inspectorMemento>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="affected-trended-dispersion TSV" pinned="false" current="false" current-in-tab="false">
-        <entry file="mps://node://Playground/Diamond/affected-trended-dispersion TSV">
-          <provider selected="true" editor-type-id="MPSFileEditor">
-            <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-              <memento viewPositionX="0" viewPositionY="0">
-                <selectionStack>
-                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                    <property name="hasNonTrivialSelection" value="false" />
-                    <property name="caretXRelative" value="279" />
-                    <property name="caretX" value="330" />
-                    <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="property_name" cellNumber="0" isInList="false">
-                      <node node_reference="r:624b8210-f4b3-400e-9df0-aad09dfbdddd(Diamond)/2133144034277332733" />
-                    </cellInfo>
-                  </stackElement>
-                </selectionStack>
-                <errorLabels />
-                <folded />
-                <enabledHints />
-              </memento>
-              <inspectorMemento currentlyEditedNode="r:624b8210-f4b3-400e-9df0-aad09dfbdddd(Diamond)/2133144034281346052" viewPositionX="0" viewPositionY="0">
-                <selectionStack />
-                <errorLabels />
-                <folded />
-                <enabledHints />
-              </inspectorMemento>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="fit edgeR model affected" pinned="false" current="false" current-in-tab="false">
-        <entry file="mps://node://Playground/Diamond/fit edgeR model affected">
-          <provider selected="true" editor-type-id="MPSFileEditor">
-            <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-              <memento viewPositionX="0" viewPositionY="0">
-                <selectionStack>
-                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                    <property name="hasNonTrivialSelection" value="false" />
-                    <property name="caretXRelative" value="220" />
-                    <property name="caretX" value="311" />
-                    <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="property_name" cellNumber="0" isInList="false">
-                      <node node_reference="r:624b8210-f4b3-400e-9df0-aad09dfbdddd(Diamond)/8031339867738453331" />
-                    </cellInfo>
-                  </stackElement>
-                </selectionStack>
-                <errorLabels />
-                <folded />
-                <enabledHints />
-              </memento>
-              <inspectorMemento currentlyEditedNode="r:624b8210-f4b3-400e-9df0-aad09dfbdddd(Diamond)/2133144034281346052" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:624b8210-f4b3-400e-9df0-aad09dfbdddd(Diamond)/2133144034281345997" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorLabels />
                 <folded />
@@ -317,43 +360,13 @@
                 <folded />
                 <enabledHints />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:624b8210-f4b3-400e-9df0-aad09dfbdddd(Diamond)/2133144034281346052" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:624b8210-f4b3-400e-9df0-aad09dfbdddd(Diamond)/2133144034281345997" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorLabels />
                 <folded />
                 <enabledHints />
               </inspectorMemento>
               <node node_ref="r:b8f62bc7-cfc9-4f34-8e06-7b1a81a9ab7a(org.campagnelab.metar.edgeR.generator.template.main@generator)/8031339867717136179" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FindTopHits" pinned="false" current="false" current-in-tab="false">
-        <entry file="mps://node://Playground/Diamond/FindTopHits">
-          <provider selected="true" editor-type-id="MPSFileEditor">
-            <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-              <memento viewPositionX="0" viewPositionY="0">
-                <selectionStack>
-                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                    <property name="hasNonTrivialSelection" value="false" />
-                    <property name="caretXRelative" value="31" />
-                    <property name="caretX" value="176" />
-                    <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="property_name" cellNumber="0" isInList="false">
-                      <node node_reference="r:624b8210-f4b3-400e-9df0-aad09dfbdddd(Diamond)/2133144034276932456" />
-                    </cellInfo>
-                  </stackElement>
-                </selectionStack>
-                <errorLabels />
-                <folded />
-                <enabledHints />
-              </memento>
-              <inspectorMemento currentlyEditedNode="r:624b8210-f4b3-400e-9df0-aad09dfbdddd(Diamond)/2133144034281346052" viewPositionX="0" viewPositionY="0">
-                <selectionStack />
-                <errorLabels />
-                <folded />
-                <enabledHints />
-              </inspectorMemento>
             </state>
           </provider>
         </entry>
@@ -487,6 +500,96 @@
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Modules Pool">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Empty">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Modules Pool">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Languages">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Empty">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Modules Pool">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Languages">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="jetbrains">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Empty">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Modules Pool">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Languages">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="jetbrains">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="jetbrains.mps.baseLanguage">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Empty">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Modules Pool">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Languages">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="jetbrains">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="jetbrains.mps.baseLanguage">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="jetbrains.mps.baseLanguage.structure">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Empty">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
             <PATH_ELEMENT USER_OBJECT="Project">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
@@ -502,6 +605,92 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT USER_OBJECT="org.campagnelab.metar.tables">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Empty">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Project">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="org.campagnelab.metar.tables">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="org.campagnelab.metar.tables#3402264987258972825">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="org">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="org.campagnelab.metar.tables.generator.template.main">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Empty">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Project">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="org.campagnelab.metar.tables">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="org.campagnelab.metar.tables#3402264987258972825">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="org">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="org.campagnelab.metar.tables.generator.template.main">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="plots">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Empty">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Project">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="org.campagnelab.metar.tables">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="org.campagnelab.metar.tables#3402264987258972825">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="org">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="org.campagnelab.metar.tables.generator.template.main">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="heatmap">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
@@ -520,6 +709,28 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT USER_OBJECT="org.campagnelab.metar.tables.behavior">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Empty">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Project">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="org.campagnelab.metar.tables">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="org.campagnelab.metar.tables.behavior">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="plots">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
@@ -555,7 +766,11 @@
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="org.campagnelab.metar.edgeR">
+            <PATH_ELEMENT USER_OBJECT="org.campagnelab.metar.tables">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="org.campagnelab.metar.tables.structure">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
@@ -569,19 +784,37 @@
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="org.campagnelab.metar.edgeR">
+            <PATH_ELEMENT USER_OBJECT="org.campagnelab.metar.tables">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="org.campagnelab.metar.edgeR#8725455673819557209">
+            <PATH_ELEMENT USER_OBJECT="org.campagnelab.metar.tables.structure">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="org">
+            <PATH_ELEMENT USER_OBJECT="plots">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="org.campagnelab.metar.edgeR.generator.template.main">
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Empty">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Project">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="org.campagnelab.metar.tables">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="org.campagnelab.metar.tables.structure">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="heatmap">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
@@ -807,9 +1040,8 @@
       <item index="4" class="java.lang.String" itemvalue="R Script.Script join tables" />
     </list>
     <recent_temporary>
-      <list size="2">
+      <list size="1">
         <item index="0" class="java.lang.String" itemvalue="R Script.Script Heatmap" />
-        <item index="1" class="java.lang.String" itemvalue="R Script.Script join tables" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="Application" default="true" selected="false">
@@ -867,17 +1099,17 @@
       <window_info id="Bookmarks" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Generation Tracer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20889595" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.40059346" sideWeight="0.38919777" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.40059346" sideWeight="0.38919777" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Classpath Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="RefactoringView" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32656378" sideWeight="0.4986215" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspector" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28783384" sideWeight="0.451946" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspector" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.40059346" sideWeight="0.61080223" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Node Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32344213" sideWeight="0.41064337" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Typesystem Trace" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Typechecker State" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Dependencies Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32914045" sideWeight="0.4997367" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28783384" sideWeight="0.54805404" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28783384" sideWeight="0.54805404" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Module Dependencies" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32789317" sideWeight="0.4988086" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Class Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -947,7 +1179,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="Rename script as analysis.&#10;Try to improve scope for TableRef, not working yet." />
     <MESSAGE value="Add plugin build script for version 1.0.0." />
     <MESSAGE value="Include XChart and UI in the devkit. Rename to metaR. Use long name for plugin." />
     <MESSAGE value="Rename to metaR.&#10;Fix script calculation and support virtual packages." />
@@ -972,93 +1203,10 @@
     <MESSAGE value="Refactor heatmap generation to make it compatible with multiplot (heatmap now renders inside a function called plot_..). This makes it possible to use heatmaps in multiplot or also render them to PDF." />
     <MESSAGE value="Fix legend for heatmap." />
     <MESSAGE value="Add a new way to specify annotations for heatmap. Use the intention add/remove annotations to enable/disable." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add a new way to specify annotations for heatmap. Use the intention add/remove annotations to enable/disable." />
+    <MESSAGE value="Use common dispersion before tagwise, trended dispersion does not seem too stable. &#10;heatmap: do not sort sample columns, this disrupts the order by group usage that is now determined by heatmap annotations." />
+    <option name="LAST_COMMIT_MESSAGE" value="Use common dispersion before tagwise, trended dispersion does not seem too stable. &#10;heatmap: do not sort sample columns, this disrupts the order by group usage that is now determined by heatmap annotations." />
   </component>
   <component name="editorHistoryManager">
-    <entry file="mps://node://org.campagnelab.metar.tables/org.campagnelab.metar.tables.structure/ImportTable">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
-          <memento viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretXRelative" value="13" />
-                <property name="caretX" value="333" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="ReadOnlyModelAccessor_mtiojs_a" cellNumber="0" isInList="false">
-                  <node node_reference="r:c14853f5-5f2e-4acc-825a-4fec67caca67(org.campagnelab.metar.tables.editor)/3402264987261756155" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:597299e2-456c-40ec-87e4-c5fdcfc8d153(org.campagnelab.metar.tables.intentions)/2133144034278610000" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </inspectorMemento>
-          <node node_ref="r:c14853f5-5f2e-4acc-825a-4fec67caca67(org.campagnelab.metar.tables.editor)/3402264987261651728" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://org.campagnelab.metar.tables/org.campagnelab.metar.tables.scopes/ImportedTableScope">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-          <memento viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretXRelative" value="63" />
-                <property name="caretX" value="249" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="property_name_1" cellNumber="0" isInList="false">
-                  <node node_reference="r:1443b642-fea5-4479-9b81-d28e6be6c4d2(org.campagnelab.metar.tables.scopes)/2807244893516947433" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:624b8210-f4b3-400e-9df0-aad09dfbdddd(Diamond)/2133144034278064002" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </inspectorMemento>
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://jetbrains.mps.kernel/jetbrains.mps.scope/Scope">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-          <memento viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellSelection">
-                <property name="caretXRelative" value="-33" />
-                <property name="caretX" value="0" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="Collection_359zr8_a" cellNumber="0" isInList="false">
-                  <node node_reference="r:314576fc-3aee-4386-a0a5-a38348ac317d(jetbrains.mps.scope)/3734116213129862471" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:624b8210-f4b3-400e-9df0-aad09dfbdddd(Diamond)/2133144034278064002" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </inspectorMemento>
-        </state>
-      </provider>
-    </entry>
     <entry file="mps://node://org.campagnelab.metar.tables/org.campagnelab.metar.tables.intentions/TransferGroupsFrom">
       <provider selected="true" editor-type-id="MPSFileEditor">
         <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
@@ -1349,25 +1497,6 @@
             <enabledHints />
           </inspectorMemento>
           <node node_ref="r:db1b133e-9a0f-4319-b384-413408eb1729(org.campagnelab.metar.tables.behavior)/8016431400518331177" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://org.campagnelab.metar.tables/org.campagnelab.metar.tables.structure/PlotBuilderStatement">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
-          <memento viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </memento>
-          <inspectorMemento viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </inspectorMemento>
-          <node node_ref="r:db1b133e-9a0f-4319-b384-413408eb1729(org.campagnelab.metar.tables.behavior)/8013388156564360083" />
         </state>
       </provider>
     </entry>
@@ -1940,35 +2069,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="mps://node://org.campagnelab.metar.tables/org.campagnelab.metar.tables.structure/Heatmap">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
-          <memento viewPositionX="0" viewPositionY="340">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretXRelative" value="9" />
-                <property name="caretX" value="66" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="property_text" cellNumber="0" isInList="false">
-                  <node node_reference="r:ff825a5c-7d67-471c-8044-76c3cc7b519b(org.campagnelab.metar.tables.generator.template.main@generator)/8016431400518195977" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:624b8210-f4b3-400e-9df0-aad09dfbdddd(Diamond)/2133144034275742934" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </inspectorMemento>
-          <node node_ref="r:ff825a5c-7d67-471c-8044-76c3cc7b519b(org.campagnelab.metar.tables.generator.template.main@generator)/1549006859295772378" />
-        </state>
-      </provider>
-    </entry>
     <entry file="mps://node://org.campagnelab.mps.XChart/org.campagnelab.mps.XChart.structure/DataFile">
       <provider selected="true" editor-type-id="MPSFileEditor">
         <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
@@ -2067,14 +2167,15 @@
     <entry file="mps://node://Playground/Diamond/Heatmap">
       <provider selected="true" editor-type-id="MPSFileEditor">
         <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-          <memento viewPositionX="0" viewPositionY="456">
+          <memento viewPositionX="0" viewPositionY="0">
             <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellSelection">
-                <property name="caretXRelative" value="-43" />
-                <property name="caretX" value="0" />
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretXRelative" value="0" />
+                <property name="caretX" value="33" />
                 <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="Image_9p3cny_b0" cellNumber="0" isInList="false">
-                  <node node_reference="r:624b8210-f4b3-400e-9df0-aad09dfbdddd(Diamond)/2133144034281346052" />
+                <cellInfo cellId="Constant_3oqcxl_a0a" cellNumber="0" isInList="false">
+                  <node node_reference="r:624b8210-f4b3-400e-9df0-aad09dfbdddd(Diamond)/2133144034281345997" />
                 </cellInfo>
               </stackElement>
             </selectionStack>
@@ -2082,7 +2183,7 @@
             <folded />
             <enabledHints />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:624b8210-f4b3-400e-9df0-aad09dfbdddd(Diamond)/2133144034281346052" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:624b8210-f4b3-400e-9df0-aad09dfbdddd(Diamond)/2133144034281345997" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorLabels />
             <folded />
@@ -2138,7 +2239,7 @@
             <folded />
             <enabledHints />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:624b8210-f4b3-400e-9df0-aad09dfbdddd(Diamond)/2133144034281346052" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:624b8210-f4b3-400e-9df0-aad09dfbdddd(Diamond)/2133144034279203251" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorLabels />
             <folded />
@@ -2166,7 +2267,7 @@
             <folded />
             <enabledHints />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:624b8210-f4b3-400e-9df0-aad09dfbdddd(Diamond)/2133144034281346052" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:ff825a5c-7d67-471c-8044-76c3cc7b519b(org.campagnelab.metar.tables.generator.template.main@generator)/8013388156563783343" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorLabels />
             <folded />
@@ -2194,8 +2295,18 @@
             <folded />
             <enabledHints />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:624b8210-f4b3-400e-9df0-aad09dfbdddd(Diamond)/2133144034281346052" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
+          <inspectorMemento currentlyEditedNode="r:ff825a5c-7d67-471c-8044-76c3cc7b519b(org.campagnelab.metar.tables.generator.template.main@generator)/4842667988071972392" viewPositionX="257" viewPositionY="9">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretXRelative" value="72" />
+                <property name="caretX" value="681" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
+                  <node node_reference="r:ff825a5c-7d67-471c-8044-76c3cc7b519b(org.campagnelab.metar.tables.generator.template.main@generator)/4842667988073994664" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
             <errorLabels />
             <folded />
             <enabledHints />
@@ -2222,8 +2333,18 @@
             <folded />
             <enabledHints />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:624b8210-f4b3-400e-9df0-aad09dfbdddd(Diamond)/2133144034281346052" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
+          <inspectorMemento currentlyEditedNode="r:624b8210-f4b3-400e-9df0-aad09dfbdddd(Diamond)/2133144034281345999" viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretXRelative" value="13" />
+                <property name="caretX" value="667" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="property_height" cellNumber="0" isInList="false">
+                  <node node_reference="r:624b8210-f4b3-400e-9df0-aad09dfbdddd(Diamond)/2133144034281345999" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
             <errorLabels />
             <folded />
             <enabledHints />
@@ -2252,7 +2373,7 @@
             <folded />
             <enabledHints />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:624b8210-f4b3-400e-9df0-aad09dfbdddd(Diamond)/2133144034281346052" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:9f2bbfbf-f8b7-4b3b-92b1-b6a0e9642c10(org.campagnelab.metar.tables.structure)/7501650211371751513" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorLabels />
             <folded />
@@ -2280,7 +2401,7 @@
             <folded />
             <enabledHints />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:624b8210-f4b3-400e-9df0-aad09dfbdddd(Diamond)/2133144034281346052" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:624b8210-f4b3-400e-9df0-aad09dfbdddd(Diamond)/2133144034281345997" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorLabels />
             <folded />
@@ -2308,7 +2429,7 @@
             <folded />
             <enabledHints />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:624b8210-f4b3-400e-9df0-aad09dfbdddd(Diamond)/2133144034281346052" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:624b8210-f4b3-400e-9df0-aad09dfbdddd(Diamond)/2133144034281345997" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorLabels />
             <folded />
@@ -2336,13 +2457,172 @@
             <folded />
             <enabledHints />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:624b8210-f4b3-400e-9df0-aad09dfbdddd(Diamond)/2133144034281346052" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:624b8210-f4b3-400e-9df0-aad09dfbdddd(Diamond)/2133144034281345997" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorLabels />
             <folded />
             <enabledHints />
           </inspectorMemento>
           <node node_ref="r:b8f62bc7-cfc9-4f34-8e06-7b1a81a9ab7a(org.campagnelab.metar.edgeR.generator.template.main@generator)/8031339867717136179" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://org.campagnelab.metar.tables/org.campagnelab.metar.tables.structure/Heatmap">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretXRelative" value="63" />
+                <property name="caretX" value="290" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="property_text" cellNumber="0" isInList="false">
+                  <node node_reference="r:ff825a5c-7d67-471c-8044-76c3cc7b519b(org.campagnelab.metar.tables.generator.template.main@generator)/5703306641535151199" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:624b8210-f4b3-400e-9df0-aad09dfbdddd(Diamond)/2133144034281345997" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </inspectorMemento>
+          <node node_ref="r:ff825a5c-7d67-471c-8044-76c3cc7b519b(org.campagnelab.metar.tables.generator.template.main@generator)/1549006859295772378" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://org.campagnelab.metar.tables/org.campagnelab.metar.tables.structure/Render">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretXRelative" value="58" />
+                <property name="caretX" value="184" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
+                  <node node_reference="r:9f2bbfbf-f8b7-4b3b-92b1-b6a0e9642c10(org.campagnelab.metar.tables.structure)/7501650211371753390" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:624b8210-f4b3-400e-9df0-aad09dfbdddd(Diamond)/2133144034281345997" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </inspectorMemento>
+          <node node_ref="r:9f2bbfbf-f8b7-4b3b-92b1-b6a0e9642c10(org.campagnelab.metar.tables.structure)/8013388156563115186" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://org.campagnelab.metar.tables/org.campagnelab.metar.tables.structure/PDF">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretXRelative" value="4" />
+                <property name="caretX" value="419" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="Constant_y5igai_a0" cellNumber="0" isInList="false">
+                  <node node_reference="r:ff825a5c-7d67-471c-8044-76c3cc7b519b(org.campagnelab.metar.tables.generator.template.main@generator)/4842667988072079167" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:624b8210-f4b3-400e-9df0-aad09dfbdddd(Diamond)/2133144034281345997" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </inspectorMemento>
+          <node node_ref="r:ff825a5c-7d67-471c-8044-76c3cc7b519b(org.campagnelab.metar.tables.generator.template.main@generator)/4842667988071959669" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://org.campagnelab.metar.tables/org.campagnelab.metar.tables.structure/PlotBuilderStatement">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretXRelative" value="9" />
+                <property name="caretX" value="42" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="ALIAS_EDITOR_COMPONENT" cellNumber="0" isInList="false">
+                  <node node_reference="r:db1b133e-9a0f-4319-b384-413408eb1729(org.campagnelab.metar.tables.behavior)/4842667988071989467" />
+                </cellInfo>
+              </stackElement>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellSelection">
+                <property name="caretXRelative" value="-33" />
+                <property name="caretX" value="0" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="Collection_gmtuod_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:db1b133e-9a0f-4319-b384-413408eb1729(org.campagnelab.metar.tables.behavior)/4842667988071989466" />
+                </cellInfo>
+              </stackElement>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.NodeRangeSelection">
+                <property name="lastNodeId" value="4842667988071995771" />
+                <property name="modelId" value="r:db1b133e-9a0f-4319-b384-413408eb1729(org.campagnelab.metar.tables.behavior)" />
+                <property name="parentNodeId" value="8013388156564360083" />
+                <property name="firstNodeId" value="4842667988071989466" />
+                <property name="role" value="method" />
+              </stackElement>
+            </selectionStack>
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:624b8210-f4b3-400e-9df0-aad09dfbdddd(Diamond)/2133144034281345997" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </inspectorMemento>
+          <node node_ref="r:db1b133e-9a0f-4319-b384-413408eb1729(org.campagnelab.metar.tables.behavior)/8013388156564360083" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://jetbrains.mps.baseLanguage/jetbrains.mps.baseLanguage.structure/_FloatNumberValue">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretXRelative" value="4" />
+                <property name="caretX" value="275" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
+                  <node node_reference="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)/5279705229678483898" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:624b8210-f4b3-400e-9df0-aad09dfbdddd(Diamond)/2133144034281345997" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </inspectorMemento>
         </state>
       </provider>
     </entry>
