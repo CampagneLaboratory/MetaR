@@ -144,65 +144,54 @@
     <unitInfo nodeId="8031339867727867560" fileName="GroupExpression_Behavior.java" startLine="13" startPosition="0" endLine="41" endPosition="0" unitName="org.campagnelab.metar.edgeR.behavior.GroupExpression_Behavior" />
   </root>
   <root nodeRef="r:fe30046f-5b05-4311-bf4c-7ad8897afe05(org.campagnelab.metar.edgeR.behavior)/8725455673819577723">
-    <nodeInfo nodeId="8725455673819578670" fileName="EdgeRTest_Behavior.java" startLine="18" startPosition="43" endLine="19" endPosition="160" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="8725455673819655898" fileName="EdgeRTest_Behavior.java" startLine="19" startPosition="160" endLine="20" endPosition="156" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="8725455673820831119" fileName="EdgeRTest_Behavior.java" startLine="20" startPosition="156" endLine="21" endPosition="164" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="8725455673820939071" fileName="EdgeRTest_Behavior.java" startLine="21" startPosition="164" endLine="22" endPosition="156" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="8031339867718955385" fileName="EdgeRTest_Behavior.java" startLine="25" startPosition="91" endLine="26" endPosition="93" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="8031339867727857088" fileName="EdgeRTest_Behavior.java" startLine="29" startPosition="131" endLine="30" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="8031339867729136677" fileName="EdgeRTest_Behavior.java" startLine="32" startPosition="32" endLine="33" endPosition="87" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="8031339867729089135" fileName="EdgeRTest_Behavior.java" startLine="35" startPosition="32" endLine="36" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="8031339867728340302" fileName="EdgeRTest_Behavior.java" startLine="40" startPosition="42" endLine="41" endPosition="104" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="8031339867727935651" fileName="EdgeRTest_Behavior.java" startLine="43" startPosition="68" endLine="44" endPosition="106" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="8031339867729240411" fileName="EdgeRTest_Behavior.java" startLine="45" startPosition="9" endLine="46" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
-    <nodeInfo nodeId="8031339867729238287" fileName="EdgeRTest_Behavior.java" startLine="47" startPosition="7" endLine="48" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
-    <nodeInfo nodeId="8031339867727857254" fileName="EdgeRTest_Behavior.java" startLine="49" startPosition="5" endLine="50" endPosition="18" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="8725455673819577723" fileName="EdgeRTest_Behavior.java" startLine="53" startPosition="0" endLine="54" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="LOG" />
-    <nodeInfo nodeId="8725455673819577723" fileName="EdgeRTest_Behavior.java" startLine="25" startPosition="0" endLine="28" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_dependencies_8962032619593737608#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/Iterable;" />
-    <nodeInfo nodeId="8031339867729136677" fileName="EdgeRTest_Behavior.java" startLine="31" startPosition="180" endLine="34" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="8031339867729136677" fileName="EdgeRTest_Behavior.java" startLine="31" startPosition="180" endLine="34" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="8031339867729089135" fileName="EdgeRTest_Behavior.java" startLine="34" startPosition="7" endLine="37" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="8031339867729089135" fileName="EdgeRTest_Behavior.java" startLine="34" startPosition="7" endLine="37" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="8031339867728339250" fileName="EdgeRTest_Behavior.java" startLine="40" startPosition="0" endLine="43" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="select#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
-    <nodeInfo nodeId="8725455673819577723" fileName="EdgeRTest_Behavior.java" startLine="18" startPosition="0" endLine="24" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
-    <nodeInfo nodeId="8031339867728328512" fileName="EdgeRTest_Behavior.java" startLine="38" startPosition="210" endLine="45" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="8031339867727862385" fileName="EdgeRTest_Behavior.java" startLine="37" startPosition="7" endLine="47" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
-    <nodeInfo nodeId="8031339867727857402" fileName="EdgeRTest_Behavior.java" startLine="30" startPosition="73" endLine="49" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
-    <nodeInfo nodeId="8725455673819577723" fileName="EdgeRTest_Behavior.java" startLine="29" startPosition="0" endLine="52" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="call_enumerateFactorLevels_8031339867727856905#(Lorg/jetbrains/mps/openapi/model/SNode;Ljava/lang/Iterable;)Ljava/lang/Iterable;" />
-    <scopeInfo nodeId="8031339867718955062" fileName="EdgeRTest_Behavior.java" startLine="25" startPosition="91" endLine="26" endPosition="93" />
-    <scopeInfo nodeId="8031339867729136677" fileName="EdgeRTest_Behavior.java" startLine="32" startPosition="32" endLine="33" endPosition="87" />
-    <scopeInfo nodeId="8031339867729089135" fileName="EdgeRTest_Behavior.java" startLine="35" startPosition="32" endLine="36" endPosition="73" />
-    <scopeInfo nodeId="8031339867728339251" fileName="EdgeRTest_Behavior.java" startLine="40" startPosition="42" endLine="41" endPosition="104" />
-    <scopeInfo nodeId="8031339867728328515" fileName="EdgeRTest_Behavior.java" startLine="43" startPosition="68" endLine="44" endPosition="106" />
-    <scopeInfo nodeId="8725455673819577723" fileName="EdgeRTest_Behavior.java" startLine="25" startPosition="0" endLine="28" endPosition="0">
+    <nodeInfo nodeId="8725455673819578670" fileName="EdgeRTest_Behavior.java" startLine="16" startPosition="43" endLine="17" endPosition="160" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8725455673819655898" fileName="EdgeRTest_Behavior.java" startLine="17" startPosition="160" endLine="18" endPosition="156" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8725455673820831119" fileName="EdgeRTest_Behavior.java" startLine="18" startPosition="156" endLine="19" endPosition="164" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8725455673820939071" fileName="EdgeRTest_Behavior.java" startLine="19" startPosition="164" endLine="20" endPosition="156" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8031339867718955385" fileName="EdgeRTest_Behavior.java" startLine="23" startPosition="91" endLine="24" endPosition="93" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8031339867727857088" fileName="EdgeRTest_Behavior.java" startLine="27" startPosition="131" endLine="28" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="8031339867728340302" fileName="EdgeRTest_Behavior.java" startLine="32" startPosition="42" endLine="33" endPosition="104" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8031339867727935651" fileName="EdgeRTest_Behavior.java" startLine="35" startPosition="68" endLine="36" endPosition="106" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8031339867729240411" fileName="EdgeRTest_Behavior.java" startLine="37" startPosition="9" endLine="38" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
+    <nodeInfo nodeId="8031339867729238287" fileName="EdgeRTest_Behavior.java" startLine="39" startPosition="7" endLine="40" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
+    <nodeInfo nodeId="8031339867727857254" fileName="EdgeRTest_Behavior.java" startLine="41" startPosition="5" endLine="42" endPosition="18" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8725455673819577723" fileName="EdgeRTest_Behavior.java" startLine="23" startPosition="0" endLine="26" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_dependencies_8962032619593737608#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/Iterable;" />
+    <nodeInfo nodeId="8031339867728339250" fileName="EdgeRTest_Behavior.java" startLine="32" startPosition="0" endLine="35" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="select#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+    <nodeInfo nodeId="8725455673819577723" fileName="EdgeRTest_Behavior.java" startLine="16" startPosition="0" endLine="22" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+    <nodeInfo nodeId="8031339867728328512" fileName="EdgeRTest_Behavior.java" startLine="30" startPosition="210" endLine="37" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="8031339867727862385" fileName="EdgeRTest_Behavior.java" startLine="29" startPosition="180" endLine="39" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+    <nodeInfo nodeId="8031339867727857402" fileName="EdgeRTest_Behavior.java" startLine="28" startPosition="73" endLine="41" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+    <nodeInfo nodeId="8725455673819577723" fileName="EdgeRTest_Behavior.java" startLine="27" startPosition="0" endLine="44" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="call_enumerateFactorLevels_8031339867727856905#(Lorg/jetbrains/mps/openapi/model/SNode;Ljava/lang/Iterable;)Ljava/lang/Iterable;" />
+    <scopeInfo nodeId="8031339867718955062" fileName="EdgeRTest_Behavior.java" startLine="23" startPosition="91" endLine="24" endPosition="93" />
+    <scopeInfo nodeId="8031339867728339251" fileName="EdgeRTest_Behavior.java" startLine="32" startPosition="42" endLine="33" endPosition="104" />
+    <scopeInfo nodeId="8031339867728328515" fileName="EdgeRTest_Behavior.java" startLine="35" startPosition="68" endLine="36" endPosition="106" />
+    <scopeInfo nodeId="8725455673819577723" fileName="EdgeRTest_Behavior.java" startLine="23" startPosition="0" endLine="26" endPosition="0">
       <varInfo nodeId="8725455673819577723" varName="thisNode" />
     </scopeInfo>
-    <scopeInfo nodeId="8031339867729136677" fileName="EdgeRTest_Behavior.java" startLine="31" startPosition="180" endLine="34" endPosition="7" />
-    <scopeInfo nodeId="8031339867729089135" fileName="EdgeRTest_Behavior.java" startLine="34" startPosition="7" endLine="37" endPosition="7" />
-    <scopeInfo nodeId="8031339867728339250" fileName="EdgeRTest_Behavior.java" startLine="40" startPosition="0" endLine="43" endPosition="0">
+    <scopeInfo nodeId="8031339867728339250" fileName="EdgeRTest_Behavior.java" startLine="32" startPosition="0" endLine="35" endPosition="0">
       <varInfo nodeId="8031339867728339250" varName="it" />
     </scopeInfo>
-    <scopeInfo nodeId="8725455673819577876" fileName="EdgeRTest_Behavior.java" startLine="18" startPosition="43" endLine="22" endPosition="156" />
-    <scopeInfo nodeId="8725455673819577723" fileName="EdgeRTest_Behavior.java" startLine="18" startPosition="0" endLine="24" endPosition="0">
+    <scopeInfo nodeId="8725455673819577876" fileName="EdgeRTest_Behavior.java" startLine="16" startPosition="43" endLine="20" endPosition="156" />
+    <scopeInfo nodeId="8725455673819577723" fileName="EdgeRTest_Behavior.java" startLine="16" startPosition="0" endLine="22" endPosition="0">
       <varInfo nodeId="8725455673819577723" varName="thisNode" />
     </scopeInfo>
-    <scopeInfo nodeId="8031339867727862391" fileName="EdgeRTest_Behavior.java" startLine="38" startPosition="210" endLine="46" endPosition="0" />
-    <scopeInfo nodeId="8031339867727862385" fileName="EdgeRTest_Behavior.java" startLine="37" startPosition="7" endLine="47" endPosition="7">
+    <scopeInfo nodeId="8031339867727862391" fileName="EdgeRTest_Behavior.java" startLine="30" startPosition="210" endLine="38" endPosition="0" />
+    <scopeInfo nodeId="8031339867727862385" fileName="EdgeRTest_Behavior.java" startLine="29" startPosition="180" endLine="39" endPosition="7">
       <varInfo nodeId="8031339867727862387" varName="level" />
     </scopeInfo>
-    <scopeInfo nodeId="8031339867727857408" fileName="EdgeRTest_Behavior.java" startLine="31" startPosition="180" endLine="48" endPosition="0" />
-    <scopeInfo nodeId="8031339867727857402" fileName="EdgeRTest_Behavior.java" startLine="30" startPosition="73" endLine="49" endPosition="5">
+    <scopeInfo nodeId="8031339867727857408" fileName="EdgeRTest_Behavior.java" startLine="29" startPosition="180" endLine="40" endPosition="0" />
+    <scopeInfo nodeId="8031339867727857402" fileName="EdgeRTest_Behavior.java" startLine="28" startPosition="73" endLine="41" endPosition="5">
       <varInfo nodeId="8031339867727857404" varName="factor" />
     </scopeInfo>
-    <scopeInfo nodeId="8031339867727856908" fileName="EdgeRTest_Behavior.java" startLine="29" startPosition="131" endLine="50" endPosition="18">
+    <scopeInfo nodeId="8031339867727856908" fileName="EdgeRTest_Behavior.java" startLine="27" startPosition="131" endLine="42" endPosition="18">
       <varInfo nodeId="8031339867727857091" varName="result" />
     </scopeInfo>
-    <scopeInfo nodeId="8725455673819577723" fileName="EdgeRTest_Behavior.java" startLine="29" startPosition="0" endLine="52" endPosition="0">
+    <scopeInfo nodeId="8725455673819577723" fileName="EdgeRTest_Behavior.java" startLine="27" startPosition="0" endLine="44" endPosition="0">
       <varInfo nodeId="8031339867728327170" varName="restrictToGroups" />
       <varInfo nodeId="8725455673819577723" varName="thisNode" />
     </scopeInfo>
-    <unitInfo nodeId="8031339867728339250" fileName="EdgeRTest_Behavior.java" startLine="39" startPosition="91" endLine="43" endPosition="9" unitName="org.campagnelab.metar.edgeR.behavior.EdgeRTest_Behavior$1" />
-    <unitInfo nodeId="8725455673819577723" fileName="EdgeRTest_Behavior.java" startLine="17" startPosition="0" endLine="55" endPosition="0" unitName="org.campagnelab.metar.edgeR.behavior.EdgeRTest_Behavior" />
+    <unitInfo nodeId="8031339867728339250" fileName="EdgeRTest_Behavior.java" startLine="31" startPosition="91" endLine="35" endPosition="9" unitName="org.campagnelab.metar.edgeR.behavior.EdgeRTest_Behavior$1" />
+    <unitInfo nodeId="8725455673819577723" fileName="EdgeRTest_Behavior.java" startLine="15" startPosition="0" endLine="45" endPosition="0" unitName="org.campagnelab.metar.edgeR.behavior.EdgeRTest_Behavior" />
   </root>
 </debugInfo>
 

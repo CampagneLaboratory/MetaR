@@ -1292,7 +1292,7 @@
               <property name="text" nameId="p6sl.1680136183140337487" value="" />
             </node>
             <node role="phrases" roleId="p6sl.8986731840034613153" type="p6sl.Phrase" typeId="p6sl.1680136183140337486" id="8031339867719085723" nodeInfo="ng">
-              <property name="text" nameId="p6sl.1680136183140337487" value="estimateGLMTrendedDisp" />
+              <property name="text" nameId="p6sl.1680136183140337487" value="estimateGLMCommonDisp" />
             </node>
             <node role="phrases" roleId="p6sl.8986731840034613153" type="p6sl.Phrase" typeId="p6sl.1680136183140337486" id="8031339867719140467" nodeInfo="ng">
               <property name="text" nameId="p6sl.1680136183140337487" value="(data,design)" />
