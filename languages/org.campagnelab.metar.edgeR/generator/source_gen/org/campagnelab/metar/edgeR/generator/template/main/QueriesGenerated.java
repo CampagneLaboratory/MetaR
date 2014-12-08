@@ -9,15 +9,15 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
 import org.campagnelab.metar.edgeR.behavior.GroupFormula_Behavior;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.generator.template.PropertyMacroContext;
+import org.campagnelab.metar.tables.generationhelpers.NameHelper;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.smodel.behaviour.BehaviorReflection;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.internal.collections.runtime.IterableUtils;
 import jetbrains.mps.internal.collections.runtime.Sequence;
 import org.campagnelab.metar.edgeR.behavior.EdgeRTest_Behavior;
 import jetbrains.mps.internal.collections.runtime.ISelector;
-import org.campagnelab.metar.tables.generationhelpers.NameHelper;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import org.campagnelab.metar.tables.behavior.TableRef_Behavior;
 import jetbrains.mps.internal.collections.runtime.IWhereFilter;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.AttributeOperations;
@@ -65,6 +65,10 @@ public class QueriesGenerated {
 
   public static boolean baseMappingRule_Condition_8031339867719169517(final BaseMappingRuleContext _context) {
     return !(GroupFormula_Behavior.call_oneFactor_8031339867717509466(SLinkOperations.getTarget(SNodeOperations.cast(SNodeOperations.getParent(_context.getNode()), "org.campagnelab.metar.edgeR.structure.EdgeRTest"), "modelFormula", true)));
+  }
+
+  public static Object propertyMacro_GetPropertyValue_2133144034276439136(final PropertyMacroContext _context) {
+    return NameHelper.RName(SPropertyOperations.getString(SLinkOperations.getTarget(_context.getNode(), "groupUsage", false), "name"));
   }
 
   public static Object propertyMacro_GetPropertyValue_8031339867717094839(final PropertyMacroContext _context) {
@@ -131,7 +135,7 @@ public class QueriesGenerated {
           }
         }).any(new IWhereFilter<SNode>() {
           public boolean accept(SNode usage) {
-            return eq_x583g4_a0a0a0a0a0a0a0a0a0a0a1a71(SPropertyOperations.getString(usage, "name"), SPropertyOperations.getString(_context.getNode(), "name"));
+            return eq_x583g4_a0a0a0a0a0a0a0a0a0a0a1a81(SPropertyOperations.getString(usage, "name"), SPropertyOperations.getString(_context.getNode(), "name"));
           }
         });
       }
@@ -189,6 +193,10 @@ public class QueriesGenerated {
 
   }
 
+  public static Object propertyMacro_GetPropertyValue_2133144034276125174(final PropertyMacroContext _context) {
+    return BehaviorReflection.invokeVirtual(String.class, _context.getNode(), "virtual_getPresentation_1213877396640", new Object[]{});
+  }
+
   public static boolean ifMacro_Condition_8031339867730269722(final IfMacroContext _context) {
     return SNodeOperations.getConceptDeclaration(SLinkOperations.getTarget(_context.getNode(), "dispersionMethod", true)) == SConceptOperations.findConceptDeclaration("org.campagnelab.metar.edgeR.structure.TagWiseDispersion");
   }
@@ -217,6 +225,14 @@ public class QueriesGenerated {
     return SLinkOperations.getTarget(_context.getNode(), "contrasts", true);
   }
 
+  public static SNode sourceNodeQuery_2133144034276124715(final SourceSubstituteMacroNodeContext _context) {
+    return SLinkOperations.getTarget(_context.getNode(), "left", true);
+  }
+
+  public static SNode sourceNodeQuery_2133144034276124945(final SourceSubstituteMacroNodeContext _context) {
+    return SLinkOperations.getTarget(_context.getNode(), "right", true);
+  }
+
   public static Object templateArgumentQuery_8031339867718393870(final TemplateQueryContext _context) {
     return NameHelper.RName(SPropertyOperations.getString(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "countsTable", true), "table", false), "name"));
   }
@@ -232,7 +248,7 @@ public class QueriesGenerated {
       public boolean accept(SNode it) {
         return ListSequence.fromList(SLinkOperations.getTargets(AttributeOperations.getAttribute(it, new IAttributeDescriptor.NodeAttribute("org.campagnelab.metar.tables.structure.ColumnAnnotation")), "groups", true)).all(new IWhereFilter<SNode>() {
           public boolean accept(SNode it) {
-            return neq_x583g4_a0a0a0a0a0a0a0a0a0c0gb(SPropertyOperations.getString(SLinkOperations.getTarget(it, "columnGroup", false), "name"), "counts");
+            return neq_x583g4_a0a0a0a0a0a0a0a0a0c0kb(SPropertyOperations.getString(SLinkOperations.getTarget(it, "columnGroup", false), "name"), "counts");
           }
         });
       }
@@ -262,11 +278,11 @@ public class QueriesGenerated {
     }).distinct();
   }
 
-  private static boolean eq_x583g4_a0a0a0a0a0a0a0a0a0a0a1a71(Object a, Object b) {
+  private static boolean eq_x583g4_a0a0a0a0a0a0a0a0a0a0a1a81(Object a, Object b) {
     return (a != null ? a.equals(b) : a == b);
   }
 
-  private static boolean neq_x583g4_a0a0a0a0a0a0a0a0a0c0gb(Object a, Object b) {
+  private static boolean neq_x583g4_a0a0a0a0a0a0a0a0a0c0kb(Object a, Object b) {
     return !((a != null ? a.equals(b) : a == b));
   }
 }
