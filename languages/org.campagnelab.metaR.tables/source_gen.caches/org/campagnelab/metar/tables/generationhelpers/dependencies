@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<dependenciesRoot>
-  <dependency className="org.campagnelab.metar.tables.generationhelpers.NameHelper" file="NameHelper.java">
-    <classNode dependClassName="java.lang.Character" />
-    <classNode dependClassName="java.lang.String" />
-  </dependency>
-</dependenciesRoot>
-
