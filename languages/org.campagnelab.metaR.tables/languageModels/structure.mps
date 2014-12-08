@@ -865,6 +865,11 @@
       <property name="sourceCardinality" nameId="tpce.1071599893252" value="1..n" />
       <link role="target" roleId="tpce.1071599976176" targetNodeId="5703306641526703227" resolveInfo="SelectGroupUsage" />
     </node>
+    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="6583618001716896682" nodeInfo="ig">
+      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
+      <property name="role" nameId="tpce.1071599776563" value="scaling" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="6583618001716898909" resolveInfo="ScalingMethod" />
+    </node>
     <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="5703306641529927332" nodeInfo="ig">
       <link role="intfc" roleId="tpce.1169127628841" targetNodeId="5703306641526703125" resolveInfo="IGroupUsageNames" />
     </node>
@@ -886,6 +891,27 @@
     <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="5703306641526703228" nodeInfo="ig">
       <link role="intfc" roleId="tpce.1169127628841" targetNodeId="5703306641526703125" resolveInfo="IGroupUsageNames" />
     </node>
+  </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="6583618001716898909" nodeInfo="ig">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="heatmap" />
+    <property name="name" nameId="tpck.1169194664001" value="ScalingMethod" />
+    <property name="abstract" nameId="tpce.4628067390765956802" value="true" />
+    <property name="final" nameId="tpce.4628067390765956807" value="false" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
+  </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="6583618001716898910" nodeInfo="ig">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="heatmap" />
+    <property name="name" nameId="tpck.1169194664001" value="ScaleByRow" />
+    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="by row" />
+    <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="Scale values by row (normalize within each row)" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="6583618001716898909" resolveInfo="ScalingMethod" />
+  </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="6583618001716938052" nodeInfo="ig">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="heatmap" />
+    <property name="name" nameId="tpck.1169194664001" value="ScaleByColumn" />
+    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="by column" />
+    <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="Scale values by column (normalize within each column" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="6583618001716898909" resolveInfo="ScalingMethod" />
   </root>
 </model>
 
