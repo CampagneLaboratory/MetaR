@@ -1637,7 +1637,7 @@
           </node>
         </node>
         <node role="lines" roleId="p6sl.5039633819242576854" type="p6sl.Line" typeId="p6sl.5493669862519709805" id="8016431400515493338" nodeInfo="ng">
-          <property name="text" nameId="p6sl.5493669862519718600" value="MX2&lt;-log2(MX)" />
+          <property name="text" nameId="p6sl.5493669862519718600" value="MX2&lt;- MX #MX2&lt;-log2(MX)" />
         </node>
         <node role="lines" roleId="p6sl.5039633819242576854" type="p6sl.Line" typeId="p6sl.5493669862519709805" id="8016431400518195977" nodeInfo="ng">
           <property name="text" nameId="p6sl.5493669862519718600" value="#MX2=MX2[,order(LegendFrame$Group,LegendFrame$SampleId)]" />
