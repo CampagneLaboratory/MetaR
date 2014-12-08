@@ -2257,7 +2257,7 @@
     <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="jrxw.4977909310693613102" resolveInfo="Histogram" />
     <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_Collection" typeId="tpc2.1073389446423" id="4977909310695239031" nodeInfo="nn">
       <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="4977909310695239032" nodeInfo="nn">
-        <property name="text" nameId="tpc2.1073389577007" value="build histogram" />
+        <property name="text" nameId="tpc2.1073389577007" value="histogram" />
       </node>
       <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="4977909310695239033" nodeInfo="nn">
         <property name="text" nameId="tpc2.1073389577007" value="with" />

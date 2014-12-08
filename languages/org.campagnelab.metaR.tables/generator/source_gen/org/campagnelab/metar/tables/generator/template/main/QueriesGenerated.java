@@ -709,13 +709,25 @@ public class QueriesGenerated {
     return SPropertyOperations.getString(_context.getNode(), "id");
   }
 
-  public static Object propertyMacro_GetPropertyValue_4977909310697451091(final PropertyMacroContext _context) {
+  public static Object propertyMacro_GetPropertyValue_6070133740820404926(final PropertyMacroContext _context) {
+    return SPropertyOperations.getString(_context.getNode(), "id");
+  }
+
+  public static Object propertyMacro_GetPropertyValue_6070133740820413506(final PropertyMacroContext _context) {
+    return ColumnRef_Behavior.call_getCleanColumnName_2807244893512039175(SLinkOperations.getTarget(_context.getNode(), "ColumnRef", true));
+
+  }
+
+  public static Object propertyMacro_GetPropertyValue_6070133740820410840(final PropertyMacroContext _context) {
     return Plot_Behavior.call_getPath_8016431400518331231(SLinkOperations.getTarget(_context.getNode(), "plot", true));
   }
 
-  public static Object propertyMacro_GetPropertyValue_4977909310699800474(final PropertyMacroContext _context) {
-    return NameHelper.RName(SPropertyOperations.getString(SNodeOperations.getAncestor(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "ColumnRef", true), "col", false), "org.campagnelab.metar.tables.structure.Table", false, false), "name")) + "$" + ColumnRef_Behavior.call_getCleanColumnName_2807244893512039175(SLinkOperations.getTarget(_context.getNode(), "ColumnRef", true));
+  public static Object propertyMacro_GetPropertyValue_6070133740820477669(final PropertyMacroContext _context) {
+    return SPropertyOperations.getString(_context.getNode(), "id");
+  }
 
+  public static Object propertyMacro_GetPropertyValue_6070133740820481398(final PropertyMacroContext _context) {
+    return NameHelper.RName(SPropertyOperations.getString(SNodeOperations.getAncestor(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "ColumnRef", true), "col", false), "org.campagnelab.metar.tables.structure.Table", false, false), "name"));
   }
 
   public static Object propertyMacro_GetPropertyValue_4977909310693684829(final PropertyMacroContext _context) {
