@@ -226,8 +226,8 @@
       <model index="v8sa" modelUID="r:db1b133e-9a0f-4319-b384-413408eb1729(org.campagnelab.hta.tables.behavior)" version="0" />
       <model index="8gqa" modelUID="r:c14853f5-5f2e-4acc-825a-4fec67caca67(org.campagnelab.hta.tables.editor)" version="2" />
       <model index="7934" modelUID="r:3cdf3c64-bcc9-4f73-8074-771654b2dcc1(org.campagnelab.hta.script.intentions)" version="-1" />
-      <model index="obax" modelUID="r:5c9afbc5-4577-4abf-8cda-fcb0ba29a8f3(org.campagnelab.hta.tables.actions)" version="-1" />
       <model index="zi61" modelUID="r:6b438781-4964-4ce9-992b-f8250b395bf4(org.campagnelab.hta.script.behavior)" version="0" />
+      <model index="obax" modelUID="r:5c9afbc5-4577-4abf-8cda-fcb0ba29a8f3(org.campagnelab.hta.tables.actions)" version="-1" />
       <model index="jrxw" modelUID="r:9f2bbfbf-f8b7-4b3b-92b1-b6a0e9642c10(org.campagnelab.hta.tables.structure)" version="6" />
       <model index="bfkm" modelUID="r:83786097-1edd-4e87-85bb-647b9c09c7fd(org.campagnelab.hta.script.actions)" version="-1" />
       <model index="5ryu" modelUID="r:91256194-1375-495d-ab72-ff76cfde3569(org.campagnelab.hta.script.structure)" version="5" />
@@ -550,16 +550,16 @@
   <StructureModification>
     <dependencies>
       <model index="195s" modelUID="r:597299e2-456c-40ec-87e4-c5fdcfc8d153(org.campagnelab.hta.tables.intentions)" version="0" />
-      <model index="rwbr" modelUID="r:1443b642-fea5-4479-9b81-d28e6be6c4d2(org.campagnelab.hta.tables.scopes)" version="-1" />
-      <model index="ghzy" modelUID="r:ccfe7aab-49c3-4336-8a96-a894ec9d0e17(org.campagnelab.hta.tables.typesystem)" version="-1" />
       <model index="v8sa" modelUID="r:db1b133e-9a0f-4319-b384-413408eb1729(org.campagnelab.hta.tables.behavior)" version="1" />
+      <model index="ghzy" modelUID="r:ccfe7aab-49c3-4336-8a96-a894ec9d0e17(org.campagnelab.hta.tables.typesystem)" version="-1" />
+      <model index="rwbr" modelUID="r:1443b642-fea5-4479-9b81-d28e6be6c4d2(org.campagnelab.hta.tables.scopes)" version="-1" />
       <model index="8gqa" modelUID="r:c14853f5-5f2e-4acc-825a-4fec67caca67(org.campagnelab.hta.tables.editor)" version="3" />
       <model index="czy4" modelUID="r:20059f57-5dbc-44d9-90cc-68a47f43e4d6(org.campagnelab.hta.tables.generationhelpers)" version="-1" />
       <model index="obax" modelUID="r:5c9afbc5-4577-4abf-8cda-fcb0ba29a8f3(org.campagnelab.hta.tables.actions)" version="0" />
       <model index="jrxw" modelUID="r:9f2bbfbf-f8b7-4b3b-92b1-b6a0e9642c10(org.campagnelab.hta.tables.structure)" version="9" />
       <model index="2u54" modelUID="r:ff825a5c-7d67-471c-8044-76c3cc7b519b(org.campagnelab.hta.tables.generator.template.main@generator)" version="-1" />
-      <model index="wjn9" modelUID="r:3806f072-87bb-4583-9203-f99cc6c9d118(org.campagnelab.hta.tables.requiredpackages)" version="-1" />
       <model index="qbn3" modelUID="r:377e7fab-b099-4462-b9f3-2050d4b23cf6(org.campagnelab.hta.tables.constraints)" version="-1" />
+      <model index="wjn9" modelUID="r:3806f072-87bb-4583-9203-f99cc6c9d118(org.campagnelab.hta.tables.requiredpackages)" version="-1" />
     </dependencies>
     <RenameModel oldModel="r:c14853f5-5f2e-4acc-825a-4fec67caca67(org.campagnelab.hta.tables.editor)" newModel="r:c14853f5-5f2e-4acc-825a-4fec67caca67(org.campagnelab.metaR.tables.editor)" />
     <RenameModel oldModel="r:5c9afbc5-4577-4abf-8cda-fcb0ba29a8f3(org.campagnelab.hta.tables.actions)" newModel="r:5c9afbc5-4577-4abf-8cda-fcb0ba29a8f3(org.campagnelab.metaR.tables.actions)" />
@@ -576,16 +576,16 @@
   <StructureModification>
     <dependencies>
       <model index="195s" modelUID="r:597299e2-456c-40ec-87e4-c5fdcfc8d153(org.campagnelab.metaR.tables.intentions)" version="1" />
-      <model index="rwbr" modelUID="r:1443b642-fea5-4479-9b81-d28e6be6c4d2(org.campagnelab.metaR.tables.scopes)" version="0" />
-      <model index="ghzy" modelUID="r:ccfe7aab-49c3-4336-8a96-a894ec9d0e17(org.campagnelab.metaR.tables.typesystem)" version="0" />
       <model index="v8sa" modelUID="r:db1b133e-9a0f-4319-b384-413408eb1729(org.campagnelab.metaR.tables.behavior)" version="2" />
+      <model index="ghzy" modelUID="r:ccfe7aab-49c3-4336-8a96-a894ec9d0e17(org.campagnelab.metaR.tables.typesystem)" version="0" />
+      <model index="rwbr" modelUID="r:1443b642-fea5-4479-9b81-d28e6be6c4d2(org.campagnelab.metaR.tables.scopes)" version="0" />
       <model index="8gqa" modelUID="r:c14853f5-5f2e-4acc-825a-4fec67caca67(org.campagnelab.metaR.tables.editor)" version="4" />
       <model index="czy4" modelUID="r:20059f57-5dbc-44d9-90cc-68a47f43e4d6(org.campagnelab.metaR.tables.generationhelpers)" version="0" />
       <model index="obax" modelUID="r:5c9afbc5-4577-4abf-8cda-fcb0ba29a8f3(org.campagnelab.metaR.tables.actions)" version="1" />
       <model index="jrxw" modelUID="r:9f2bbfbf-f8b7-4b3b-92b1-b6a0e9642c10(org.campagnelab.metaR.tables.structure)" version="10" />
       <model index="2u54" modelUID="r:ff825a5c-7d67-471c-8044-76c3cc7b519b(org.campagnelab.metaR.tables.generator.template.main@generator)" version="0" />
-      <model index="wjn9" modelUID="r:3806f072-87bb-4583-9203-f99cc6c9d118(org.campagnelab.metaR.tables.requiredpackages)" version="0" />
       <model index="qbn3" modelUID="r:377e7fab-b099-4462-b9f3-2050d4b23cf6(org.campagnelab.metaR.tables.constraints)" version="0" />
+      <model index="wjn9" modelUID="r:3806f072-87bb-4583-9203-f99cc6c9d118(org.campagnelab.metaR.tables.requiredpackages)" version="0" />
     </dependencies>
     <RenameModel oldModel="r:c14853f5-5f2e-4acc-825a-4fec67caca67(org.campagnelab.metaR.tables.editor)" newModel="r:c14853f5-5f2e-4acc-825a-4fec67caca67(org.campagnelab.metar.tables.editor)" />
     <RenameModel oldModel="r:5c9afbc5-4577-4abf-8cda-fcb0ba29a8f3(org.campagnelab.metaR.tables.actions)" newModel="r:5c9afbc5-4577-4abf-8cda-fcb0ba29a8f3(org.campagnelab.metar.tables.actions)" />
@@ -598,6 +598,12 @@
     <RenameModel oldModel="r:3806f072-87bb-4583-9203-f99cc6c9d118(org.campagnelab.metaR.tables.requiredpackages)" newModel="r:3806f072-87bb-4583-9203-f99cc6c9d118(org.campagnelab.metar.tables.requiredpackages)" />
     <RenameModel oldModel="r:20059f57-5dbc-44d9-90cc-68a47f43e4d6(org.campagnelab.metaR.tables.generationhelpers)" newModel="r:20059f57-5dbc-44d9-90cc-68a47f43e4d6(org.campagnelab.metar.tables.generationhelpers)" />
     <RenameModel oldModel="r:ff825a5c-7d67-471c-8044-76c3cc7b519b(org.campagnelab.metaR.tables.generator.template.main@generator)" newModel="r:ff825a5c-7d67-471c-8044-76c3cc7b519b(org.campagnelab.metar.tables.generator.template.main@generator)" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="jrxw" modelUID="r:9f2bbfbf-f8b7-4b3b-92b1-b6a0e9642c10(org.campagnelab.metar.tables.structure)" version="11" />
+    </dependencies>
+    <rename id="jrxw.6070133740826952603" type="CHILD" from="ColumnRef" to="ColumnRefs" />
   </StructureModification>
 </history>
 

@@ -765,6 +765,56 @@ public class QueriesGenerated {
     return (SPropertyOperations.getBoolean(_context.getNode(), "withQuotes") ? "TRUE" : "FALSE");
   }
 
+  public static Object propertyMacro_GetPropertyValue_6070133740826980103(final PropertyMacroContext _context) {
+    return SPropertyOperations.getString(_context.getNode(), "id");
+  }
+
+  public static Object propertyMacro_GetPropertyValue_6070133740826980119(final PropertyMacroContext _context) {
+    StringBuilder builder = new StringBuilder();
+    for (SNode ref : ListSequence.fromList(SLinkOperations.getTargets(_context.getNode(), "ColumnRefs", true))) {
+      builder.append("c(").append(NameHelper.RName(SPropertyOperations.getString(SNodeOperations.getAncestor(SLinkOperations.getTarget(ref, "col", false), "org.campagnelab.metar.tables.structure.Table", false, false), "name"))).append("$").append(ColumnRef_Behavior.call_getCleanColumnName_2807244893512039175(ref)).append("),");
+    }
+    String out = builder.toString();
+    return out.substring(0, out.length() - 1);
+  }
+
+  public static Object propertyMacro_GetPropertyValue_2312637992596216066(final PropertyMacroContext _context) {
+    StringBuilder builder = new StringBuilder();
+    for (SNode ref : ListSequence.fromList(SLinkOperations.getTargets(_context.getNode(), "ColumnRefs", true))) {
+      builder.append("\"").append(ColumnRef_Behavior.call_getCleanColumnName_2807244893512039175(ref)).append("\",");
+    }
+    String out = builder.toString();
+    return out.substring(0, out.length() - 1);
+  }
+
+  public static Object propertyMacro_GetPropertyValue_2312637992598580208(final PropertyMacroContext _context) {
+    StringBuilder builder = new StringBuilder();
+    String[] alternateColors = new String[]{"red", "sienna", "palevioletred1", "royalblue2"};
+    int index = 0;
+    for (SNode ref : ListSequence.fromList(SLinkOperations.getTargets(_context.getNode(), "ColumnRefs", true))) {
+      builder.append("\"").append(alternateColors[index++ % alternateColors.length]).append("\",");
+    }
+    String out = builder.toString();
+    return out.substring(0, out.length() - 1);
+
+  }
+
+  public static Object propertyMacro_GetPropertyValue_6070133740826980145(final PropertyMacroContext _context) {
+    return Plot_Behavior.call_getPath_8016431400518331231(SLinkOperations.getTarget(_context.getNode(), "plot", true));
+  }
+
+  public static Object propertyMacro_GetPropertyValue_6070133740826980159(final PropertyMacroContext _context) {
+    return SPropertyOperations.getString(_context.getNode(), "id");
+  }
+
+  public static Object propertyMacro_GetPropertyValue_6070133740826980168(final PropertyMacroContext _context) {
+    return "";
+  }
+
+  public static Object propertyMacro_GetPropertyValue_6070133740826980191(final PropertyMacroContext _context) {
+    return ((SNode) _context.getNode()).getNodeId().toString();
+  }
+
   public static boolean ifMacro_Condition_1549006859295113839(final IfMacroContext _context) {
     return ListSequence.fromList(SLinkOperations.getTargets(SLinkOperations.getTarget(((SNode) _context.getVariable("var:table")), "table", false), "columns", true)).any(new IWhereFilter<SNode>() {
       public boolean accept(SNode column) {
