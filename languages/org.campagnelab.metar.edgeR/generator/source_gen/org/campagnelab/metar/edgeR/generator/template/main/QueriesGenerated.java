@@ -239,16 +239,16 @@ public class QueriesGenerated {
     return BehaviorReflection.invokeVirtual(String.class, _context.getNode(), "virtual_getPresentation_1213877396640", new Object[]{});
   }
 
-  public static Object propertyMacro_GetPropertyValue_6583618001726046369(final PropertyMacroContext _context) {
-    return SPropertyOperations.getString(Sequence.fromIterable(GroupFormula_Behavior.call_calculateGroupUsageNames_8031339867724617718(SLinkOperations.getTarget(_context.getNode(), "modelFormula", true))).first(), "name");
-  }
-
   public static Object propertyMacro_GetPropertyValue_8031339867724616579(final PropertyMacroContext _context) {
     return IterableUtils.join(Sequence.fromIterable(GroupFormula_Behavior.call_calculateGroupUsageNames_8031339867724617718(SLinkOperations.getTarget(_context.getNode(), "modelFormula", true))).select(new ISelector<SNode, String>() {
       public String select(SNode it) {
         return SPropertyOperations.getString(it, "name");
       }
     }), " +");
+  }
+
+  public static Object propertyMacro_GetPropertyValue_6583618001726046369(final PropertyMacroContext _context) {
+    return SPropertyOperations.getString(Sequence.fromIterable(GroupFormula_Behavior.call_calculateGroupUsageNames_8031339867724617718(SLinkOperations.getTarget(_context.getNode(), "modelFormula", true))).first(), "name");
   }
 
   public static boolean ifMacro_Condition_6583618001718586960(final IfMacroContext _context) {
