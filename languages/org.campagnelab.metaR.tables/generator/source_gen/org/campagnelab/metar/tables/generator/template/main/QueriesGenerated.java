@@ -749,6 +749,21 @@ public class QueriesGenerated {
 
   }
 
+  public static Object propertyMacro_GetPropertyValue_2312637992615388348(final PropertyMacroContext _context) {
+    if ((SLinkOperations.getTarget(_context.getNode(), "style", false) != null) && ListSequence.fromList(SLinkOperations.getTargets(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "style", false), "colors", false), "colors", true)).count() > 0) {
+      StringBuilder builder = new StringBuilder();
+      builder.append("col=c(");
+      for (SNode ref : ListSequence.fromList(SLinkOperations.getTargets(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "style", false), "colors", false), "colors", true))) {
+        builder.append("\"").append(SPropertyOperations.getString(SLinkOperations.getTarget(ref, "color", false), "name")).append("\",");
+      }
+      String out = builder.toString();
+      out = out.substring(0, out.length() - 1);
+      return out + "),";
+    } else {
+      return "";
+    }
+  }
+
   public static Object propertyMacro_GetPropertyValue_6070133740820410840(final PropertyMacroContext _context) {
     return Plot_Behavior.call_getPath_8016431400518331231(SLinkOperations.getTarget(_context.getNode(), "plot", true));
   }
@@ -807,15 +822,21 @@ public class QueriesGenerated {
     return out.substring(0, out.length() - 1);
   }
 
-  public static Object propertyMacro_GetPropertyValue_2312637992598580208(final PropertyMacroContext _context) {
-    StringBuilder builder = new StringBuilder();
-    String[] alternateColors = new String[]{"red", "sienna", "palevioletred1", "royalblue2"};
-    int index = 0;
-    for (SNode ref : ListSequence.fromList(SLinkOperations.getTargets(_context.getNode(), "ColumnRefs", true))) {
-      builder.append("\"").append(alternateColors[index++ % alternateColors.length]).append("\",");
+  public static Object propertyMacro_GetPropertyValue_2312637992612587889(final PropertyMacroContext _context) {
+    if ((SLinkOperations.getTarget(_context.getNode(), "style", false) != null) && ListSequence.fromList(SLinkOperations.getTargets(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "style", false), "colors", false), "colors", true)).count() > 0) {
+      StringBuilder builder = new StringBuilder();
+      builder.append("col=c(");
+      int index = 0;
+      for (SNode ref : ListSequence.fromList(SLinkOperations.getTargets(_context.getNode(), "ColumnRefs", true))) {
+        builder.append("\"").append(SPropertyOperations.getString(SLinkOperations.getTarget(ListSequence.fromList(SLinkOperations.getTargets(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "style", false), "colors", false), "colors", true)).getElement(index), "color", false), "name")).append("\",");
+        index = (index + 1) % ListSequence.fromList(SLinkOperations.getTargets(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "style", false), "colors", false), "colors", true)).count();
+      }
+      String out = builder.toString();
+      out = out.substring(0, out.length() - 1);
+      return out + "),";
+    } else {
+      return "";
     }
-    String out = builder.toString();
-    return out.substring(0, out.length() - 1);
 
   }
 
