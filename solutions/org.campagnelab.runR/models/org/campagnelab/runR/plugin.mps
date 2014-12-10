@@ -15,6 +15,7 @@
   <language namespace="22e72e4c-0f69-46ce-8403-6750153aa615(jetbrains.mps.execution.configurations)" />
   <language namespace="756e911c-3f1f-4a48-bdf5-a2ceb91b723c(jetbrains.mps.execution.settings)" />
   <language namespace="982eb8df-2c96-4bd7-9963-11712ea622e5(jetbrains.mps.lang.resources)" />
+  <language namespace="5d6bde84-4ce4-4eb5-a37e-25a5edd55129(org.campagnelab.metar.tables)" />
   <import index="dbrf" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#javax.swing(JDK/javax.swing@java_stub)" version="-1" />
   <import index="cu2c" modelUID="f:java_stub#6ed54515-acc8-4d1e-a16c-9fd6cfe951ea#jetbrains.mps.smodel(MPS.Core/jetbrains.mps.smodel@java_stub)" version="-1" />
   <import index="xk9i" modelUID="r:49e49752-a85e-4d81-811e-1dc850a8e4cd(jetbrains.mps.execution.lib.ui)" version="1" />
@@ -2262,6 +2263,10 @@
           <property name="path" nameId="1oap.8974276187400029899" value="/Users/fac2003/MPSProjects/git/HTAnalysis/icons/datatypes/table.png" />
         </node>
       </node>
+    </node>
+    <node role="icons" roleId="1oap.8974276187400029886" type="1oap.IconResourceDeclaration" typeId="1oap.8974276187400029888" id="6583618001741194241" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="A" />
+      <node role="iconExpression" roleId="1oap.8974276187400029889" type="tpee.Expression" typeId="tpee.1068431790191" id="6583618001741194242" nodeInfo="nn" />
     </node>
   </root>
 </model>

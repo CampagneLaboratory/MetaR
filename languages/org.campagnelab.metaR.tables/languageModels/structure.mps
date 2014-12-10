@@ -8,7 +8,7 @@
   <import index="tpc2" modelUID="r:00000000-0000-4000-0000-011c8959029e(jetbrains.mps.lang.editor.structure)" version="35" />
   <import index="tpce" modelUID="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" version="0" implicit="yes" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
-  <import index="jrxw" modelUID="r:9f2bbfbf-f8b7-4b3b-92b1-b6a0e9642c10(org.campagnelab.metar.tables.structure)" version="11" implicit="yes" />
+  <import index="jrxw" modelUID="r:9f2bbfbf-f8b7-4b3b-92b1-b6a0e9642c10(org.campagnelab.metar.tables.structure)" version="13" implicit="yes" />
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="3402264987258987827" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="Table" />
     <property name="conceptAlias" nameId="tpce.5092175715804935370" value="Table" />
@@ -180,6 +180,7 @@
     <property name="virtualPackage" nameId="tpck.1193676396447" value="annotations" />
     <property name="name" nameId="tpck.1169194664001" value="ColumnGroupContainer" />
     <property name="rootable" nameId="tpce.1096454100552" value="true" />
+    <property name="iconPath" nameId="tpce.1160488491229" value="${module}/icons/columns.png" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
     <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="8031339867719794365" nodeInfo="ig">
       <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
@@ -556,6 +557,7 @@
     <property name="name" nameId="tpck.1169194664001" value="Analysis" />
     <property name="conceptAlias" nameId="tpce.5092175715804935370" value="Analysis" />
     <property name="rootable" nameId="tpce.1096454100552" value="true" />
+    <property name="iconPath" nameId="tpce.1160488491229" value="${module}/icons/analysis.png" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
     <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="8962032619593737381" nodeInfo="ig">
       <link role="intfc" roleId="tpce.1169127628841" targetNodeId="tpck.1169194658468" resolveInfo="INamedConcept" />
@@ -590,6 +592,7 @@
     <property name="virtualPackage" nameId="tpck.1193676396447" value="plots" />
     <property name="name" nameId="tpck.1169194664001" value="PlotStyle" />
     <property name="rootable" nameId="tpce.1096454100552" value="true" />
+    <property name="iconPath" nameId="tpce.1160488491229" value="${module}/icons/style.png" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
     <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="5333555603574055814" nodeInfo="ig">
       <property name="name" nameId="tpck.1169194664001" value="title" />
@@ -703,6 +706,7 @@
     <property name="virtualPackage" nameId="tpck.1193676396447" value="plots" />
     <property name="name" nameId="tpck.1169194664001" value="RenderStyle" />
     <property name="rootable" nameId="tpce.1096454100552" value="true" />
+    <property name="iconPath" nameId="tpce.1160488491229" value="${module}/icons/style.png" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
     <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="4842667988072482117" nodeInfo="ig">
       <property name="name" nameId="tpck.1169194664001" value="pixelsPerInch" />
