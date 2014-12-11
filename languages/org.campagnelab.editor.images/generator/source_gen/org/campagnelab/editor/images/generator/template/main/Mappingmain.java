@@ -31,7 +31,7 @@ public class Mappingmain implements TemplateMappingConfiguration {
 
   public Mappingmain(TemplateModel model) {
     this.myModel = model;
-    rules = TemplateUtil.<TemplateReductionRule>asCollection(new Mappingmain.ReductionRule0());
+    rules = TemplateUtil.<TemplateReductionRule>asCollection(new Mappingmain.ReductionRule0(), new Mappingmain.ReductionRule1());
   }
 
   public String getName() {
@@ -84,7 +84,7 @@ public class Mappingmain implements TemplateMappingConfiguration {
 
   public final class ReductionRule0 extends ReductionRuleBase {
     public ReductionRule0() {
-      super(new SNodePointer("r:4d30284c-d4f6-4b68-8efd-29ee046f3381(org.campagnelab.editor.images.generator.template.main@generator)", "4772059062238773466"), "org.campagnelab.editor.images.structure.RefreshableImage", false);
+      super(new SNodePointer("r:4d30284c-d4f6-4b68-8efd-29ee046f3381(org.campagnelab.editor.images.generator.template.main@generator)", "4772059062238773466"), "org.campagnelab.editor.images.structure.Cell_RefreshableImage", false);
     }
 
     @Override
@@ -124,7 +124,22 @@ public class Mappingmain implements TemplateMappingConfiguration {
     }
   }
 
+  public final class ReductionRule1 extends ReductionRuleBase {
+    public ReductionRule1() {
+      super(new SNodePointer("r:4d30284c-d4f6-4b68-8efd-29ee046f3381(org.campagnelab.editor.images.generator.template.main@generator)", "3596766244870987146"), "org.campagnelab.editor.images.structure.Image", false);
+    }
+
+    @Override
+    protected Collection<SNode> doApply(@NotNull final TemplateContext context) throws GenerationException {
+      final TemplateExecutionEnvironment environment = context.getEnvironment();
+      environment.getTracer().pushRuleConsequence(conseq_417xrn_a0a1a1q);
+      Collection<SNode> tlist1 = new Templatereduce__Image().apply(environment, context);
+      return tlist1;
+    }
+  }
+
   private static SNodePointer conseq_417xrn_a0a1a1p = new SNodePointer("r:4d30284c-d4f6-4b68-8efd-29ee046f3381(org.campagnelab.editor.images.generator.template.main@generator)", "4772059062238773467");
   private static SNodePointer callMacro_417xrn_a0a0a3a1p = new SNodePointer("r:4d30284c-d4f6-4b68-8efd-29ee046f3381(org.campagnelab.editor.images.generator.template.main@generator)", "4772059062238773472");
   private static SNodePointer callMacro_417xrn_a0a0a5a1p = new SNodePointer("r:4d30284c-d4f6-4b68-8efd-29ee046f3381(org.campagnelab.editor.images.generator.template.main@generator)", "4772059062238773475");
+  private static SNodePointer conseq_417xrn_a0a1a1q = new SNodePointer("r:4d30284c-d4f6-4b68-8efd-29ee046f3381(org.campagnelab.editor.images.generator.template.main@generator)", "3596766244870987147");
 }

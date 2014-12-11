@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<history>
+  <StructureModification>
+    <dependencies>
+      <model index="6hgq" modelUID="r:eecca0f3-a7f2-4995-9f62-819ef5f4e912(org.campagnelab.editor.images.structure)" version="-1" />
+    </dependencies>
+    <rename id="6hgq.1813939192108520174" type="CONCEPT" from="RefreshableImage" to="Cell_RefreshableImage" />
+  </StructureModification>
+</history>
+

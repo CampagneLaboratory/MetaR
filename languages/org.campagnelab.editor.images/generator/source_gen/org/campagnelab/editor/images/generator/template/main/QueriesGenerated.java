@@ -50,6 +50,10 @@ public class QueriesGenerated extends QueryProviderBase {
     return SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "imagePathProvider", true), "body", true);
   }
 
+  public static SNode sourceNodeQuery_9069541211335211129(final SourceSubstituteMacroNodeContext _context) {
+    return SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "imagePathProvider", true), "body", true);
+  }
+
   public static TemplateModel getDescriptor(TemplateModule module) {
     return new TemplateModelImpl(module);
   }
@@ -59,6 +63,7 @@ public class QueriesGenerated extends QueryProviderBase {
   {
     int i = 0;
     snqMethods.put("2732009320861350583", new QueriesGenerated.SNQ(i++));
+    snqMethods.put("9069541211335211129", new QueriesGenerated.SNQ(i++));
   }
 
   @NotNull
@@ -83,6 +88,8 @@ public class QueriesGenerated extends QueryProviderBase {
       switch (methodKey) {
         case 0:
           return QueriesGenerated.sourceNodeQuery_2732009320861350583(ctx);
+        case 1:
+          return QueriesGenerated.sourceNodeQuery_9069541211335211129(ctx);
         default:
           throw new GenerationFailureException(String.format("Inconsistent QueriesGenerated: there's no method for query %s (key: #%d)", ctx.getTemplateNode(), methodKey));
       }

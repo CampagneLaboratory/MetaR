@@ -60,6 +60,13 @@ public class TemplateModelImpl implements TemplateModel {
         }
         return new Templatereduce__RefreshableImage();
       }
+      if (idValue == 3596766244870986718L) {
+        if (arguments.length != 0) {
+          // TODO report `wrong arguments count` 
+          return null;
+        }
+        return new Templatereduce__Image();
+      }
     }
     return null;
   }
