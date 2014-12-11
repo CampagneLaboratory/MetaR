@@ -21,10 +21,6 @@
       <property name="role" nameId="tpce.1071599776563" value="imagePathProvider" />
       <link role="target" roleId="tpce.1071599976176" targetNodeId="tpc2.1176899348742" resolveInfo="QueryFunction_ImagePath" />
     </node>
-    <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="3596766244870980032" nodeInfo="ig">
-      <property name="name" nameId="tpck.1169194664001" value="path" />
-      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpck.1082983041843" resolveInfo="string" />
-    </node>
   </root>
 </model>
 
