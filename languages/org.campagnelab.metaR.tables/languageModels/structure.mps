@@ -13,6 +13,7 @@
     <property name="name" nameId="tpck.1169194664001" value="Table" />
     <property name="conceptAlias" nameId="tpce.5092175715804935370" value="Table" />
     <property name="rootable" nameId="tpce.1096454100552" value="true" />
+    <property name="iconPath" nameId="tpce.1160488491229" value="${module}/icons/table.png" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="ztlb.3597430320022583657" resolveInfo="Tsvfile" />
     <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="3402264987259043346" nodeInfo="ig">
       <link role="intfc" roleId="tpce.1169127628841" targetNodeId="tpck.1169194658468" resolveInfo="INamedConcept" />
@@ -65,6 +66,7 @@
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="3402264987259919045" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="FutureTable" />
+    <property name="iconPath" nameId="tpce.1160488491229" value="${module}/icons/folders.png" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
     <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="4166618652720259019" nodeInfo="ig">
       <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
@@ -178,6 +180,7 @@
     <property name="virtualPackage" nameId="tpck.1193676396447" value="annotations" />
     <property name="name" nameId="tpck.1169194664001" value="ColumnGroupContainer" />
     <property name="rootable" nameId="tpce.1096454100552" value="true" />
+    <property name="iconPath" nameId="tpce.1160488491229" value="${module}/icons/columns.png" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
     <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="8031339867719794365" nodeInfo="ig">
       <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
@@ -554,6 +557,7 @@
     <property name="name" nameId="tpck.1169194664001" value="Analysis" />
     <property name="conceptAlias" nameId="tpce.5092175715804935370" value="Analysis" />
     <property name="rootable" nameId="tpce.1096454100552" value="true" />
+    <property name="iconPath" nameId="tpce.1160488491229" value="${module}/icons/analysis.png" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
     <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="8962032619593737381" nodeInfo="ig">
       <link role="intfc" roleId="tpce.1169127628841" targetNodeId="tpck.1169194658468" resolveInfo="INamedConcept" />
@@ -588,6 +592,7 @@
     <property name="virtualPackage" nameId="tpck.1193676396447" value="plots" />
     <property name="name" nameId="tpck.1169194664001" value="PlotStyle" />
     <property name="rootable" nameId="tpce.1096454100552" value="true" />
+    <property name="iconPath" nameId="tpce.1160488491229" value="${module}/icons/style.png" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
     <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="5333555603574055814" nodeInfo="ig">
       <property name="name" nameId="tpck.1169194664001" value="title" />
@@ -701,6 +706,7 @@
     <property name="virtualPackage" nameId="tpck.1193676396447" value="plots" />
     <property name="name" nameId="tpck.1169194664001" value="RenderStyle" />
     <property name="rootable" nameId="tpce.1096454100552" value="true" />
+    <property name="iconPath" nameId="tpce.1160488491229" value="${module}/icons/style.png" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
     <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="4842667988072482117" nodeInfo="ig">
       <property name="name" nameId="tpck.1169194664001" value="pixelsPerInch" />
@@ -926,29 +932,6 @@
     <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="Scale values by column (normalize within each column" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="6583618001716898909" resolveInfo="ScalingMethod" />
   </root>
-  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="6070133740826950348" nodeInfo="ig">
-    <property name="name" nameId="tpck.1169194664001" value="BoxPlot" />
-    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="boxplot" />
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="boxplot" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="8013388156564358393" resolveInfo="PlotBuilderStatement" />
-    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="2312637992610194931" nodeInfo="ig">
-      <property name="metaClass" nameId="tpce.1071599937831" value="reference" />
-      <property name="role" nameId="tpce.1071599776563" value="style" />
-      <link role="target" roleId="tpce.1071599976176" targetNodeId="2312637992603016560" resolveInfo="ColorPlotStyle" />
-    </node>
-    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="6070133740826952602" nodeInfo="ig">
-      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
-      <property name="role" nameId="tpce.1071599776563" value="plot" />
-      <property name="sourceCardinality" nameId="tpce.1071599893252" value="1" />
-      <link role="target" roleId="tpce.1071599976176" targetNodeId="8459500803719374384" resolveInfo="Plot" />
-    </node>
-    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="6070133740826952603" nodeInfo="ig">
-      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
-      <property name="role" nameId="tpce.1071599776563" value="ColumnRefs" />
-      <property name="sourceCardinality" nameId="tpce.1071599893252" value="1..n" />
-      <link role="target" roleId="tpce.1071599976176" targetNodeId="3402264987262235801" resolveInfo="ColumnRef" />
-    </node>
-  </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="6583618001726813705" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="SetKey" />
     <property name="conceptAlias" nameId="tpce.5092175715804935370" value="set key" />
@@ -964,18 +947,6 @@
       <property name="role" nameId="tpce.1071599776563" value="column" />
       <property name="sourceCardinality" nameId="tpce.1071599893252" value="1" />
       <link role="target" roleId="tpce.1071599976176" targetNodeId="3402264987262235801" resolveInfo="ColumnRef" />
-    </node>
-  </root>
-  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="2312637992603016560" nodeInfo="ig">
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="plots" />
-    <property name="name" nameId="tpck.1169194664001" value="ColorPlotStyle" />
-    <property name="rootable" nameId="tpce.1096454100552" value="true" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="5333555603574035147" resolveInfo="PlotStyle" />
-    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="2312637992610193780" nodeInfo="ig">
-      <property name="metaClass" nameId="tpce.1071599937831" value="reference" />
-      <property name="role" nameId="tpce.1071599776563" value="colors" />
-      <property name="sourceCardinality" nameId="tpce.1071599893252" value="1" />
-      <link role="target" roleId="tpce.1071599976176" targetNodeId="2312637992603017818" resolveInfo="ColorPalette" />
     </node>
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="2312637992603016748" nodeInfo="ig">
@@ -1011,6 +982,41 @@
       <property name="role" nameId="tpce.1071599776563" value="color" />
       <property name="sourceCardinality" nameId="tpce.1071599893252" value="1" />
       <link role="target" roleId="tpce.1071599976176" targetNodeId="2312637992603016748" resolveInfo="Color" />
+    </node>
+  </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="2312637992603016560" nodeInfo="ig">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="plots" />
+    <property name="name" nameId="tpck.1169194664001" value="ColorPlotStyle" />
+    <property name="rootable" nameId="tpce.1096454100552" value="true" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="5333555603574035147" resolveInfo="PlotStyle" />
+    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="2312637992610193780" nodeInfo="ig">
+      <property name="metaClass" nameId="tpce.1071599937831" value="reference" />
+      <property name="role" nameId="tpce.1071599776563" value="colors" />
+      <property name="sourceCardinality" nameId="tpce.1071599893252" value="1" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="2312637992603017818" resolveInfo="ColorPalette" />
+    </node>
+  </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="6070133740826950348" nodeInfo="ig">
+    <property name="name" nameId="tpck.1169194664001" value="BoxPlot" />
+    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="boxplot" />
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="boxplot" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="8013388156564358393" resolveInfo="PlotBuilderStatement" />
+    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="2312637992610194931" nodeInfo="ig">
+      <property name="metaClass" nameId="tpce.1071599937831" value="reference" />
+      <property name="role" nameId="tpce.1071599776563" value="style" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="2312637992603016560" resolveInfo="ColorPlotStyle" />
+    </node>
+    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="6070133740826952602" nodeInfo="ig">
+      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
+      <property name="role" nameId="tpce.1071599776563" value="plot" />
+      <property name="sourceCardinality" nameId="tpce.1071599893252" value="1" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="8459500803719374384" resolveInfo="Plot" />
+    </node>
+    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="6070133740826952603" nodeInfo="ig">
+      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
+      <property name="role" nameId="tpce.1071599776563" value="ColumnRefs" />
+      <property name="sourceCardinality" nameId="tpce.1071599893252" value="1..n" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="3402264987262235801" resolveInfo="ColumnRef" />
     </node>
   </root>
 </model>
