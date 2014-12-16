@@ -2260,13 +2260,9 @@
       <property name="name" nameId="tpck.1169194664001" value="Table" />
       <node role="iconExpression" roleId="1oap.8974276187400029889" type="1oap.IconResourceExpression" typeId="1oap.8974276187400029891" id="6583618001738822892" nodeInfo="nn">
         <node role="icon" roleId="1oap.8974276187400029893" type="1oap.IconResource" typeId="1oap.8974276187400029883" id="6583618001738822894" nodeInfo="ng">
-          <property name="path" nameId="1oap.8974276187400029899" value="/Users/fac2003/MPSProjects/git/HTAnalysis/icons/datatypes/table.png" />
+          <property name="path" nameId="1oap.8974276187400029899" value="/Users/fac2003/MPSProjects/git/metar/icons/datatypes/table.png" />
         </node>
       </node>
-    </node>
-    <node role="icons" roleId="1oap.8974276187400029886" type="1oap.IconResourceDeclaration" typeId="1oap.8974276187400029888" id="6583618001741194241" nodeInfo="ng">
-      <property name="name" nameId="tpck.1169194664001" value="A" />
-      <node role="iconExpression" roleId="1oap.8974276187400029889" type="tpee.Expression" typeId="tpee.1068431790191" id="6583618001741194242" nodeInfo="nn" />
     </node>
   </root>
 </model>
