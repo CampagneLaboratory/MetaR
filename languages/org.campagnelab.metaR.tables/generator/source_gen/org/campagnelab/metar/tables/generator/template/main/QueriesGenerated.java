@@ -953,7 +953,7 @@ public class QueriesGenerated {
   }
 
   public static SNode sourceNodeQuery_7783277237109349553(final SourceSubstituteMacroNodeContext _context) {
-    return SLinkOperations.getTarget(SNodeOperations.cast(SLinkOperations.getTarget(_context.getNode(), "rowFilter", true), "org.campagnelab.metar.tables.structure.FilterWithExpression"), "expression", true);
+    return SLinkOperations.getTarget(SNodeOperations.cast(SLinkOperations.getTarget(_context.getNode(), "rowFilter", true), "org.campagnelab.metar.tables.structure.FilterWithExpression"), "filter", true);
   }
 
   public static SNode sourceNodeQuery_772483346259559062(final SourceSubstituteMacroNodeContext _context) {
