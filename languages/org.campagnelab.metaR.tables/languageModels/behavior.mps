@@ -2061,8 +2061,8 @@
     <node role="method" roleId="1i04.1225194240805" type="1i04.ConceptMethodDeclaration" typeId="1i04.1225194472830" id="6106414325997865918" nodeInfo="ng">
       <property name="isAbstract" nameId="1i04.1225194472834" value="false" />
       <property name="isVirtual" nameId="1i04.1225194472832" value="false" />
-      <property name="name" nameId="tpck.1169194664001" value="futureColumns" />
-      <link role="overriddenMethod" roleId="1i04.1225194472831" targetNodeId="6106414325997852966" resolveInfo="futureColumns" />
+      <property name="name" nameId="tpck.1169194664001" value="getFutureColumns" />
+      <link role="overriddenMethod" roleId="1i04.1225194472831" targetNodeId="6106414325997852966" resolveInfo="getFutureColumns" />
       <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="6106414325997865919" nodeInfo="nn" />
       <node role="body" roleId="tpee.1068580123135" type="tpee.StatementList" typeId="tpee.1068580123136" id="6106414325997865923" nodeInfo="sn">
         <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="6106414325997879117" nodeInfo="nn">
@@ -2216,13 +2216,13 @@
     <node role="method" roleId="1i04.1225194240805" type="1i04.ConceptMethodDeclaration" typeId="1i04.1225194472830" id="6106414325997863224" nodeInfo="ng">
       <property name="isAbstract" nameId="1i04.1225194472834" value="false" />
       <property name="isVirtual" nameId="1i04.1225194472832" value="false" />
-      <property name="name" nameId="tpck.1169194664001" value="futureColumns" />
-      <link role="overriddenMethod" roleId="1i04.1225194472831" targetNodeId="6106414325997852966" resolveInfo="futureColumns" />
+      <property name="name" nameId="tpck.1169194664001" value="getFutureColumns" />
+      <link role="overriddenMethod" roleId="1i04.1225194472831" targetNodeId="6106414325997852966" resolveInfo="getFutureColumns" />
       <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="6106414325997863225" nodeInfo="nn" />
       <node role="body" roleId="tpee.1068580123135" type="tpee.StatementList" typeId="tpee.1068580123136" id="6106414325997863229" nodeInfo="sn">
         <node role="statement" roleId="tpee.1068581517665" type="tpee.SingleLineComment" typeId="tpee.6329021646629104954" id="6106414326002094756" nodeInfo="nn">
           <node role="commentPart" roleId="tpee.6329021646629175155" type="tpee.TextCommentPart" typeId="tpee.6329021646629104957" id="6106414326002095053" nodeInfo="nn">
-            <property name="text" nameId="tpee.6329021646629104958" value="the future table will have the same columns of the original tables" />
+            <property name="text" nameId="tpee.6329021646629104958" value="the future table will have the same columns of the original table" />
           </node>
         </node>
         <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="6106414325997875487" nodeInfo="nn">
@@ -5267,7 +5267,7 @@
     <node role="method" roleId="1i04.1225194240805" type="1i04.ConceptMethodDeclaration" typeId="1i04.1225194472830" id="6106414325997852966" nodeInfo="ng">
       <property name="isAbstract" nameId="1i04.1225194472834" value="true" />
       <property name="isVirtual" nameId="1i04.1225194472832" value="true" />
-      <property name="name" nameId="tpck.1169194664001" value="futureColumns" />
+      <property name="name" nameId="tpck.1169194664001" value="getFutureColumns" />
       <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="6106414325997852967" nodeInfo="nn" />
       <node role="returnType" roleId="tpee.1068580123133" type="tp2q.ListType" typeId="tp2q.1151688443754" id="6106414325997852974" nodeInfo="in">
         <node role="elementType" roleId="tp2q.1151688676805" type="tp25.SNodeType" typeId="tp25.1138055754698" id="6106414325997859267" nodeInfo="in">
