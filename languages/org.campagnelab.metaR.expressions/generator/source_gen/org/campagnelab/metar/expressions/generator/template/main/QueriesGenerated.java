@@ -30,8 +30,12 @@ public class QueriesGenerated {
     return SPropertyOperations.getString(_context.getNode(), "value");
   }
 
-  public static Object propertyMacro_GetPropertyValue_8044300460862479313(final PropertyMacroContext _context) {
+  public static Object propertyMacro_GetPropertyValue_2826789978053353317(final PropertyMacroContext _context) {
     return Integer.toString(SPropertyOperations.getInteger(_context.getNode(), "value"));
+  }
+
+  public static Object propertyMacro_GetPropertyValue_8044300460862479313(final PropertyMacroContext _context) {
+    return Boolean.toString(SPropertyOperations.getBoolean(_context.getNode(), "value")).toUpperCase();
   }
 
   public static Object propertyMacro_GetPropertyValue_7783277237109724852(final PropertyMacroContext _context) {
@@ -59,6 +63,10 @@ public class QueriesGenerated {
   }
 
   public static SNode sourceNodeQuery_2807244893518306976(final SourceSubstituteMacroNodeContext _context) {
+    return SLinkOperations.getTarget(_context.getNode(), "expression", true);
+  }
+
+  public static SNode sourceNodeQuery_2826789978062877903(final SourceSubstituteMacroNodeContext _context) {
     return SLinkOperations.getTarget(_context.getNode(), "expression", true);
   }
 
