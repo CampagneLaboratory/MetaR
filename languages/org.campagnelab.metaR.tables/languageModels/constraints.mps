@@ -3,8 +3,8 @@
   <persistence version="8" />
   <language namespace="3f4bc5f5-c6c1-4a28-8b10-c83066ffa4a1(jetbrains.mps.lang.constraints)" />
   <devkit namespace="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
-  <import index="jrxw" modelUID="r:9f2bbfbf-f8b7-4b3b-92b1-b6a0e9642c10(org.campagnelab.metar.tables.structure)" version="12" />
-  <import index="ztlb" modelUID="r:989540b8-cc89-4ed5-ba78-cf2ce766b8ce(org.campagnelab.mps.XChart.structure)" version="5" />
+  <import index="jrxw" modelUID="r:9f2bbfbf-f8b7-4b3b-92b1-b6a0e9642c10(org.campagnelab.metar.tables.structure)" version="13" />
+  <import index="ztlb" modelUID="r:989540b8-cc89-4ed5-ba78-cf2ce766b8ce(org.campagnelab.mps.XChart.structure)" version="11" />
   <import index="rwbr" modelUID="r:1443b642-fea5-4479-9b81-d28e6be6c4d2(org.campagnelab.metar.tables.scopes)" version="1" />
   <import index="tp1t" modelUID="r:00000000-0000-4000-0000-011c8959030d(jetbrains.mps.lang.constraints.structure)" version="9" implicit="yes" />
   <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="5" implicit="yes" />
@@ -564,6 +564,26 @@
   <root type="tp1t.ConceptConstraints" typeId="tp1t.1213093968558" id="8031339867721231242" nodeInfo="ng">
     <property name="virtualPackage" nameId="tpck.1193676396447" value="annotations" />
     <link role="concept" roleId="tp1t.1213093996982" targetNodeId="jrxw.3402264987265829883" resolveInfo="ColumnGroup" />
+  </root>
+  <root type="tp1t.ConceptConstraints" typeId="tp1t.1213093968558" id="2826789978068916898" nodeInfo="ng">
+    <link role="concept" roleId="tp1t.1213093996982" targetNodeId="jrxw.8962032619593737380" resolveInfo="Analysis" />
+    <node role="canBeAncestor" roleId="tp1t.7852712695066883424" type="tp1t.ConstraintFunction_CanBeAnAncestor" typeId="tp1t.7855321458717464197" id="2826789978068916914" nodeInfo="nn">
+      <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="2826789978068916915" nodeInfo="sn">
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.SingleLineComment" typeId="tpee.6329021646629104954" id="2826789978068925248" nodeInfo="nn">
+          <node role="commentPart" roleId="tpee.6329021646629175155" type="tpee.TextCommentPart" typeId="tpee.6329021646629104957" id="2826789978068925965" nodeInfo="nn">
+            <property name="text" nameId="tpee.6329021646629104958" value="we use columnValue from tables that requires more constraints than a simple XChart value." />
+          </node>
+        </node>
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="2826789978068917565" nodeInfo="nn">
+          <node role="expression" roleId="tpee.1068580123156" type="tpee.NotEqualsExpression" typeId="tpee.1073239437375" id="2826789978068919833" nodeInfo="nn">
+            <node role="rightExpression" roleId="tpee.1081773367579" type="tp1t.ConstraintFunctionParameter_childConcept" typeId="tp1t.1203001236505" id="2826789978068924144" nodeInfo="nn" />
+            <node role="leftExpression" roleId="tpee.1081773367580" type="tp25.ConceptRefExpression" typeId="tp25.1172424058054" id="2826789978068917564" nodeInfo="nn">
+              <link role="conceptDeclaration" roleId="tp25.1172424100906" targetNodeId="ztlb.1229772424348862809" resolveInfo="TypedColumnValue" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
   </root>
 </model>
 
