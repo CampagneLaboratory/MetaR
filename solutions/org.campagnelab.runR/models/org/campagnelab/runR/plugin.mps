@@ -34,7 +34,7 @@
   <import index="msyo" modelUID="f:java_stub#6ed54515-acc8-4d1e-a16c-9fd6cfe951ea#jetbrains.mps.util(MPS.Core/jetbrains.mps.util@java_stub)" version="-1" />
   <import index="k7g3" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.util(JDK/java.util@java_stub)" version="-1" />
   <import index="zxm0" modelUID="f:java_stub#498d89d2-c2e9-11e2-ad49-6cf049e62fe5#com.intellij.icons(MPS.IDEA/com.intellij.icons@java_stub)" version="-1" />
-  <import index="jrxw" modelUID="r:9f2bbfbf-f8b7-4b3b-92b1-b6a0e9642c10(org.campagnelab.metar.tables.structure)" version="14" />
+  <import index="jrxw" modelUID="r:9f2bbfbf-f8b7-4b3b-92b1-b6a0e9642c10(org.campagnelab.metar.tables.structure)" version="15" />
   <import index="v8sa" modelUID="r:db1b133e-9a0f-4319-b384-413408eb1729(org.campagnelab.metar.tables.behavior)" version="3" />
   <import index="c4ym" modelUID="f:java_stub#742f6602-5a2f-4313-aa6e-ae1cd4ffdc61#jetbrains.mps.icons(MPS.Platform/jetbrains.mps.icons@java_stub)" version="-1" />
   <import index="9a8" modelUID="f:java_stub#1ed103c3-3aa6-49b7-9c21-6765ee11f224#jetbrains.mps.nodeEditor(MPS.Editor/jetbrains.mps.nodeEditor@java_stub)" version="-1" />
@@ -2326,7 +2326,7 @@
     <node role="methodDeclaration" roleId="tp4k.1205851242421" type="tp4f.DefaultClassifierMethodDeclaration" typeId="tp4f.1205769003971" id="6354194863340390614" nodeInfo="ng">
       <property name="name" nameId="tpck.1169194664001" value="getSingleLineComment" />
       <node role="returnType" roleId="tpee.1068580123133" type="tp25.SNodeType" typeId="tp25.1138055754698" id="6354194863340390615" nodeInfo="in">
-        <link role="concept" roleId="tp25.1138405853777" targetNodeId="jrxw.2814838647967227455" resolveInfo="SingleLineComment" />
+        <link role="concept" roleId="tp25.1138405853777" targetNodeId="jrxw.2814838647967227455" resolveInfo="TSingleLineComment" />
       </node>
       <node role="body" roleId="tpee.1068580123135" type="tpee.StatementList" typeId="tpee.1068580123136" id="6354194863340390616" nodeInfo="sn">
         <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="6354194863340390617" nodeInfo="nn">
@@ -2340,7 +2340,7 @@
             <node role="operation" roleId="tpee.1197027833540" type="tp25.Node_GetAncestorOperation" typeId="tp25.1171407110247" id="6354194863340390622" nodeInfo="nn">
               <node role="parameter" roleId="tp25.1144104376918" type="tp25.OperationParm_Concept" typeId="tp25.1144101972840" id="6354194863340390623" nodeInfo="ng">
                 <node role="conceptArgument" roleId="tp25.1207343664468" type="tp25.RefConcept_Reference" typeId="tp25.1177026924588" id="2814838647971672505" nodeInfo="nn">
-                  <link role="conceptDeclaration" roleId="tp25.1177026940964" targetNodeId="jrxw.2814838647967227455" resolveInfo="SingleLineComment" />
+                  <link role="conceptDeclaration" roleId="tp25.1177026940964" targetNodeId="jrxw.2814838647967227455" resolveInfo="TSingleLineComment" />
                 </node>
               </node>
               <node role="parameter" roleId="tp25.1144104376918" type="tp25.OperationParm_Inclusion" typeId="tp25.1144100932627" id="6354194863340390625" nodeInfo="ng" />
@@ -2372,7 +2372,7 @@
           <node role="localVariableDeclaration" roleId="tpee.1068581242865" type="tpee.LocalVariableDeclaration" typeId="tpee.1068581242863" id="6354194863340390636" nodeInfo="nr">
             <property name="name" nameId="tpck.1169194664001" value="singleLineComment" />
             <node role="type" roleId="tpee.5680397130376446158" type="tp25.SNodeType" typeId="tp25.1138055754698" id="6354194863340390637" nodeInfo="in">
-              <link role="concept" roleId="tp25.1138405853777" targetNodeId="jrxw.2814838647967227455" resolveInfo="SingleLineComment" />
+              <link role="concept" roleId="tp25.1138405853777" targetNodeId="jrxw.2814838647967227455" resolveInfo="TSingleLineComment" />
             </node>
             <node role="initializer" roleId="tpee.1068431790190" type="tpee.DotExpression" typeId="tpee.1197027756228" id="6354194863340390638" nodeInfo="nn">
               <node role="operand" roleId="tpee.1197027771414" type="tp4f.ThisClassifierExpression" typeId="tp4f.1205752633985" id="6354194863340390639" nodeInfo="nn" />
@@ -2496,14 +2496,14 @@
                 <node role="localVariableDeclaration" roleId="tpee.1068581242865" type="tpee.LocalVariableDeclaration" typeId="tpee.1068581242863" id="6354194863340390684" nodeInfo="nr">
                   <property name="name" nameId="tpck.1169194664001" value="comment" />
                   <node role="type" roleId="tpee.5680397130376446158" type="tp25.SNodeType" typeId="tp25.1138055754698" id="6354194863340390685" nodeInfo="in">
-                    <link role="concept" roleId="tp25.1138405853777" targetNodeId="jrxw.2814838647967227455" resolveInfo="SingleLineComment" />
+                    <link role="concept" roleId="tp25.1138405853777" targetNodeId="jrxw.2814838647967227455" resolveInfo="TSingleLineComment" />
                   </node>
                   <node role="initializer" roleId="tpee.1068431790190" type="tpee.DotExpression" typeId="tpee.1197027756228" id="6354194863340390686" nodeInfo="nn">
                     <node role="operand" roleId="tpee.1197027771414" type="tpee.VariableReference" typeId="tpee.1068498886296" id="4265636116363068366" nodeInfo="nn">
                       <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="6354194863340390671" resolveInfo="statement" />
                     </node>
                     <node role="operation" roleId="tpee.1197027833540" type="tp25.Node_ReplaceWithNewOperation" typeId="tp25.1139867745658" id="6354194863340390688" nodeInfo="nn">
-                      <link role="concept" roleId="tp25.1139867957129" targetNodeId="jrxw.2814838647967227455" resolveInfo="SingleLineComment" />
+                      <link role="concept" roleId="tp25.1139867957129" targetNodeId="jrxw.2814838647967227455" resolveInfo="TSingleLineComment" />
                     </node>
                   </node>
                 </node>
@@ -2621,7 +2621,7 @@
           <node role="localVariableDeclaration" roleId="tpee.1068581242865" type="tpee.LocalVariableDeclaration" typeId="tpee.1068581242863" id="6354194863340390715" nodeInfo="nr">
             <property name="name" nameId="tpck.1169194664001" value="singleLineComment" />
             <node role="type" roleId="tpee.5680397130376446158" type="tp25.SNodeType" typeId="tp25.1138055754698" id="6354194863340390716" nodeInfo="in">
-              <link role="concept" roleId="tp25.1138405853777" targetNodeId="jrxw.2814838647967227455" resolveInfo="SingleLineComment" />
+              <link role="concept" roleId="tp25.1138405853777" targetNodeId="jrxw.2814838647967227455" resolveInfo="TSingleLineComment" />
             </node>
             <node role="initializer" roleId="tpee.1068431790190" type="tpee.DotExpression" typeId="tpee.1197027756228" id="6354194863340390717" nodeInfo="nn">
               <node role="operand" roleId="tpee.1197027771414" type="tp4f.ThisClassifierExpression" typeId="tp4f.1205752633985" id="6354194863340390718" nodeInfo="nn" />
