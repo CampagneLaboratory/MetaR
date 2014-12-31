@@ -880,6 +880,10 @@ public class QueriesGenerated {
     return (SLinkOperations.getTarget(_context.getNode(), "annotations", true) != null);
   }
 
+  public static boolean ifMacro_Condition_2814838647966786236(final IfMacroContext _context) {
+    return (SLinkOperations.getTarget(_context.getNode(), "annotations", true) != null);
+  }
+
   public static boolean ifMacro_Condition_6001041468487572972(final IfMacroContext _context) {
     return false;
   }
