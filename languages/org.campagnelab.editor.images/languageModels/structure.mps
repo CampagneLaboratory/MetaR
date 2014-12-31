@@ -11,6 +11,7 @@
     <property name="conceptAlias" nameId="tpce.5092175715804935370" value="refreshable_image" />
     <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="refreshable cell for an image" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpc2.1139744628335" resolveInfo="CellModel_Image" />
+    <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpce.DeprecatedNodeAnnotation" typeId="tpce.1224240836180" id="266596039716564609" nodeInfo="ig" />
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="3596766244870978231" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="Image" />
