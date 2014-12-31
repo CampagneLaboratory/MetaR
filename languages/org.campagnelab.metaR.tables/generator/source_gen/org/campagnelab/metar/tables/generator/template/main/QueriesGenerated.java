@@ -88,7 +88,7 @@ public class QueriesGenerated {
   }
 
   public static Object propertyMacro_GetPropertyValue_2826789978070559645(final PropertyMacroContext _context) {
-    return IterableUtils.join(SetSequence.fromSet(BehaviorReflection.invokeVirtual((Class<Set<String>>) ((Class) Object.class), SLinkOperations.getTarget(SNodeOperations.getAncestor(_context.getNode(), "org.campagnelab.metar.tables.structure.JoinTables", false, false), "byKeySelection", true), "virtual_getColumnNames_8016431400515512083", new Object[]{SLinkOperations.getTargets(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "table", false), "table", false), "columns", true)})), ",");
+    return IterableUtils.join(SetSequence.fromSet(BehaviorReflection.invokeVirtual((Class<Set<String>>) ((Class) Object.class), SLinkOperations.getTarget(SNodeOperations.getAncestor(_context.getNode(), "org.campagnelab.metar.tables.structure.JoinTables", false, false), "byKeySelection", true), "virtual_getColumnNames_8016431400515512083", new Object[]{SLinkOperations.getTargets(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "table", false), "table", false), "columns", true)})), "\",\"");
   }
 
   public static Object propertyMacro_GetPropertyValue_2826789978070879122(final PropertyMacroContext _context) {

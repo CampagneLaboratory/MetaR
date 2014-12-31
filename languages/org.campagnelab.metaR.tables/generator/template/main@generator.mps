@@ -581,7 +581,7 @@
                     </node>
                     <node role="operation" roleId="tpee.1197027833540" type="tp2q.JoinOperation" typeId="tp2q.1240687580870" id="2826789978071205565" nodeInfo="nn">
                       <node role="delimiter" roleId="tp2q.1240687658305" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="2826789978071222521" nodeInfo="nn">
-                        <property name="value" nameId="tpee.1070475926801" value="," />
+                        <property name="value" nameId="tpee.1070475926801" value="\&quot;,\&quot;" />
                       </node>
                     </node>
                   </node>
