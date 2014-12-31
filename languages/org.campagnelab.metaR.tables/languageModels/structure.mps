@@ -1046,5 +1046,21 @@
       <link role="intfc" roleId="tpce.1169127628841" targetNodeId="tpck.3393165121846091587" resolveInfo="ISuppressErrors" />
     </node>
   </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="4067230457178079076" nodeInfo="ig">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="comments" />
+    <property name="name" nameId="tpck.1169194664001" value="CommentedStatementsBlock" />
+    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="/*" />
+    <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="Block Comment" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="8962032619593737384" resolveInfo="Statement" />
+    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="4067230457178080983" nodeInfo="ig">
+      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
+      <property name="role" nameId="tpce.1071599776563" value="statements" />
+      <property name="sourceCardinality" nameId="tpce.1071599893252" value="0..n" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="8962032619593737384" resolveInfo="Statement" />
+    </node>
+    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="4067230457178079280" nodeInfo="ig">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="tpck.3393165121846091587" resolveInfo="ISuppressErrors" />
+    </node>
+  </root>
 </model>
 
