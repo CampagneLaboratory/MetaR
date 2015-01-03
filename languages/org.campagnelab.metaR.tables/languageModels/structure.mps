@@ -1037,6 +1037,10 @@
   </root>
   <root type="tpce.InterfaceConceptDeclaration" typeId="tpce.1169125989551" id="6106414325997850090" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="FutureTableCreator" />
+    <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="9080041854829670092" nodeInfo="ig">
+      <property name="name" nameId="tpck.1169194664001" value="inputChanged" />
+      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpck.1082983657063" resolveInfo="boolean" />
+    </node>
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="2814838647967227455" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="TSingleLineComment" />
