@@ -296,7 +296,7 @@
   </root>
   <root type="tp33.MigrationScript" typeId="tp33.1177457067821" id="9080041854840924900" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="AddInputChangedProp" />
-    <property name="title" nameId="tp33.1177457669450" value="Add InputChanged property to FutureTableCreatord" />
+    <property name="title" nameId="tp33.1177457669450" value="Add InputChanged property to FutureTableCreator" />
     <node role="part" roleId="tp33.1177458178889" type="tp33.MigrationScriptPart_Instance" typeId="tp33.1177457850499" id="9080041854840925080" nodeInfo="ng">
       <property name="description" nameId="tp33.1177457972041" value="Add InputChanged property" />
       <property name="showAsIntention" nameId="tp33.1225457189692" value="true" />
