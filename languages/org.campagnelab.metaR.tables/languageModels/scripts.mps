@@ -336,7 +336,9 @@
                 <property name="value" nameId="tpee.1068580123138" value="false" />
               </node>
               <node role="lValue" roleId="tpee.1068498886295" type="tpee.DotExpression" typeId="tpee.1197027756228" id="8882561231654121961" nodeInfo="nn">
-                <node role="operand" roleId="tpee.1197027771414" type="tp33.MigrationScriptPart_node" typeId="tp33.1177458237937" id="8882561231654121799" nodeInfo="nn" />
+                <node role="operand" roleId="tpee.1197027771414" type="tpee.VariableReference" typeId="tpee.1068498886296" id="8882561231657264982" nodeInfo="nn">
+                  <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="8882561231654117879" resolveInfo="newStatement" />
+                </node>
                 <node role="operation" roleId="tpee.1197027833540" type="tp25.SPropertyAccess" typeId="tp25.1138056022639" id="8882561231654123712" nodeInfo="nn">
                   <link role="property" roleId="tp25.1138056395725" targetNodeId="jrxw.9080041854829670092" resolveInfo="inputChanged" />
                 </node>
@@ -439,7 +441,9 @@
                 <property name="value" nameId="tpee.1068580123138" value="false" />
               </node>
               <node role="lValue" roleId="tpee.1068498886295" type="tpee.DotExpression" typeId="tpee.1197027756228" id="8882561231655841409" nodeInfo="nn">
-                <node role="operand" roleId="tpee.1197027771414" type="tp33.MigrationScriptPart_node" typeId="tp33.1177458237937" id="8882561231655840992" nodeInfo="nn" />
+                <node role="operand" roleId="tpee.1197027771414" type="tpee.VariableReference" typeId="tpee.1068498886296" id="8882561231657265575" nodeInfo="nn">
+                  <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="8882561231655806649" resolveInfo="newStatement" />
+                </node>
                 <node role="operation" roleId="tpee.1197027833540" type="tp25.SPropertyAccess" typeId="tp25.1138056022639" id="8882561231655844751" nodeInfo="nn">
                   <link role="property" roleId="tp25.1138056395725" targetNodeId="jrxw.9080041854829670092" resolveInfo="inputChanged" />
                 </node>
@@ -544,7 +548,9 @@
                 <property name="value" nameId="tpee.1068580123138" value="false" />
               </node>
               <node role="lValue" roleId="tpee.1068498886295" type="tpee.DotExpression" typeId="tpee.1197027756228" id="8882561231655937886" nodeInfo="nn">
-                <node role="operand" roleId="tpee.1197027771414" type="tp33.MigrationScriptPart_node" typeId="tp33.1177458237937" id="8882561231655937699" nodeInfo="nn" />
+                <node role="operand" roleId="tpee.1197027771414" type="tpee.VariableReference" typeId="tpee.1068498886296" id="8882561231657266192" nodeInfo="nn">
+                  <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="8882561231655922891" resolveInfo="newStatement" />
+                </node>
                 <node role="operation" roleId="tpee.1197027833540" type="tp25.SPropertyAccess" typeId="tp25.1138056022639" id="8882561231655939654" nodeInfo="nn">
                   <link role="property" roleId="tp25.1138056395725" targetNodeId="jrxw.9080041854829670092" resolveInfo="inputChanged" />
                 </node>
