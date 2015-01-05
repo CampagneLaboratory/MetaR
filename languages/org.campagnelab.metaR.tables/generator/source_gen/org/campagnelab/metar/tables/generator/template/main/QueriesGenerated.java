@@ -752,8 +752,12 @@ public class QueriesGenerated {
     return SPropertyOperations.getString(_context.getNode(), "id");
   }
 
+  public static Object propertyMacro_GetPropertyValue_229475681291068172(final PropertyMacroContext _context) {
+    return NameHelper.RName(SPropertyOperations.getString(ColumnRef_Behavior.call_getTable_229475681291125658(SLinkOperations.getTarget(_context.getNode(), "ColumnRef", true)), "name"));
+  }
+
   public static Object propertyMacro_GetPropertyValue_6070133740820413506(final PropertyMacroContext _context) {
-    return ColumnRef_Behavior.call_getCleanColumnName_2807244893512039175(SLinkOperations.getTarget(_context.getNode(), "ColumnRef", true));
+    return ColumnRef_Behavior.call_getColumnName_229475681292662876(SLinkOperations.getTarget(_context.getNode(), "ColumnRef", true));
 
   }
 
