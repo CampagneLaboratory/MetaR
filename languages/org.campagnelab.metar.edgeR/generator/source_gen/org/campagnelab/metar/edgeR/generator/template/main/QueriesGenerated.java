@@ -216,6 +216,10 @@ public class QueriesGenerated {
     return FutureTable_Behavior.call_getCleanTableName_4166618652720345586(SLinkOperations.getTarget(_context.getNode(), "destinationTable", true));
   }
 
+  public static Object propertyMacro_GetPropertyValue_962445451565867504(final PropertyMacroContext _context) {
+    return ((SNode) _context.getNode()).getNodeId().toString();
+  }
+
   public static Object propertyMacro_GetPropertyValue_8031339867733381206(final PropertyMacroContext _context) {
     return NameHelper.RName(SPropertyOperations.getString(SLinkOperations.getTarget(_context.getNode(), "destinationTable", true), "name"));
   }
@@ -322,7 +326,7 @@ public class QueriesGenerated {
       public boolean accept(SNode it) {
         return ListSequence.fromList(SLinkOperations.getTargets(AttributeOperations.getAttribute(it, new IAttributeDescriptor.NodeAttribute("org.campagnelab.metar.tables.structure.ColumnAnnotation")), "groups", true)).all(new IWhereFilter<SNode>() {
           public boolean accept(SNode it) {
-            return neq_x583g4_a0a0a0a0a0a0a0a0a0c0ub(SPropertyOperations.getString(SLinkOperations.getTarget(it, "columnGroup", false), "name"), "counts");
+            return neq_x583g4_a0a0a0a0a0a0a0a0a0c0vb(SPropertyOperations.getString(SLinkOperations.getTarget(it, "columnGroup", false), "name"), "counts");
           }
         });
       }
@@ -356,7 +360,7 @@ public class QueriesGenerated {
     return (a != null ? a.equals(b) : a == b);
   }
 
-  private static boolean neq_x583g4_a0a0a0a0a0a0a0a0a0c0ub(Object a, Object b) {
+  private static boolean neq_x583g4_a0a0a0a0a0a0a0a0a0c0vb(Object a, Object b) {
     return !((a != null ? a.equals(b) : a == b));
   }
 }
