@@ -41,6 +41,9 @@
       <property name="sourceCardinality" nameId="tpce.1071599893252" value="1" />
       <link role="target" roleId="tpce.1071599976176" targetNodeId="8725455673820802671" resolveInfo="DispersionMethod" />
     </node>
+    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="5365057051047580957" nodeInfo="ig">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="jrxw.6106414325997850090" resolveInfo="FutureTableCreator" />
+    </node>
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="8725455673819916854" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="GroupFormula" />
