@@ -9455,9 +9455,7 @@
     <node role="contentNode" roleId="tpf8.1092060348987" type="p6sl.Lines" typeId="p6sl.5039633819242576787" id="4067230457182238029" nodeInfo="ng">
       <property name="text" nameId="p6sl.5493669862519718600" value="" />
       <node role="lines" roleId="p6sl.5039633819242576854" type="p6sl.Line" typeId="p6sl.5493669862519709805" id="4067230457182238030" nodeInfo="ng">
-        <node role="phrases" roleId="p6sl.1680136183140337477" type="p6sl.Phrase" typeId="p6sl.1680136183140337486" id="4067230457182266934" nodeInfo="ng">
-          <property name="text" nameId="p6sl.1680136183140337487" value="%" />
-        </node>
+        <property name="text" nameId="p6sl.5493669862519718600" value="#" />
         <node role="phrases" roleId="p6sl.1680136183140337477" type="p6sl.Phrase" typeId="p6sl.1680136183140337486" id="4067230457182266935" nodeInfo="ng">
           <property name="text" nameId="p6sl.1680136183140337487" value="text" />
           <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpf8.PropertyMacro" typeId="tpf8.1087833241328" id="4067230457182267924" nodeInfo="nn">
