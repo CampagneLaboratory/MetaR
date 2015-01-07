@@ -18,9 +18,6 @@
     <link role="concept" roleId="tp1t.1213093996982" targetNodeId="jrxw.3402264987259789239" resolveInfo="FutureTableRef" />
     <node role="referent" roleId="tp1t.1213100494875" type="tp1t.NodeReferentConstraint" typeId="tp1t.1148687176410" id="3402264987261612202" nodeInfo="ng">
       <link role="applicableLink" roleId="tp1t.1148687202698" targetNodeId="jrxw.3402264987259798245" />
-      <node role="searchScopeFactory" roleId="tp1t.1148687345559" type="tp1t.InheritedNodeScopeFactory" typeId="tp1t.8401916545537438642" id="3402264987262099913" nodeInfo="ng">
-        <link role="kind" roleId="tp1t.8401916545537438643" targetNodeId="jrxw.3402264987259919045" resolveInfo="FutureTable" />
-      </node>
       <node role="referentSetHandler" roleId="tp1t.1163203787401" type="tp1t.ConstraintFunction_ReferentSetHandler" typeId="tp1t.1163200368514" id="667853661329665292" nodeInfo="nn">
         <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="667853661329665293" nodeInfo="sn">
           <node role="statement" roleId="tpee.1068581517665" type="tpee.SingleLineComment" typeId="tpee.6329021646629104954" id="9080041854829680644" nodeInfo="nn">
@@ -161,6 +158,9 @@
             </node>
           </node>
         </node>
+      </node>
+      <node role="searchScopeFactory" roleId="tp1t.1148687345559" type="tp1t.InheritedNodeScopeFactory" typeId="tp1t.8401916545537438642" id="3402264987262099913" nodeInfo="ng">
+        <link role="kind" roleId="tp1t.8401916545537438643" targetNodeId="jrxw.3402264987259919045" resolveInfo="FutureTable" />
       </node>
     </node>
   </root>
@@ -866,6 +866,16 @@
             </node>
           </node>
         </node>
+      </node>
+    </node>
+  </root>
+  <root type="tp1t.ConceptConstraints" typeId="tp1t.1213093968558" id="3377220465487045170" nodeInfo="ng">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="plots" />
+    <link role="concept" roleId="tp1t.1213093996982" targetNodeId="jrxw.3105090771426712763" resolveInfo="PlotRefWithPreview" />
+    <node role="referent" roleId="tp1t.1213100494875" type="tp1t.NodeReferentConstraint" typeId="tp1t.1148687176410" id="3377220465487045460" nodeInfo="ng">
+      <link role="applicableLink" roleId="tp1t.1148687202698" targetNodeId="jrxw.3105090771424833149" />
+      <node role="searchScopeFactory" roleId="tp1t.1148687345559" type="tp1t.InheritedNodeScopeFactory" typeId="tp1t.8401916545537438642" id="3377220465487045464" nodeInfo="ng">
+        <link role="kind" roleId="tp1t.8401916545537438643" targetNodeId="jrxw.8459500803719374384" resolveInfo="Plot" />
       </node>
     </node>
   </root>

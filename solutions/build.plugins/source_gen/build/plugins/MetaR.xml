@@ -30,6 +30,7 @@
   <property name="org.campagnelab.TextOutput.textoutput_version" value="${import.org.campagnelab.TextOutput.org.campagnelab.TextOutput.textoutput_version}" />
   <property name="org.campagnelab.mps.UI.ui_version" value="${import.org.campagnelab.mps.UI.org.campagnelab.mps.UI.ui_version}" />
   <property name="org.campagnelab.mps.UI.build_number" value="${import.org.campagnelab.mps.UI.org.campagnelab.mps.UI.build_number}" />
+  <property name="XChart.build_number" value="${import.XChart.XChart.build_number}" />
   <property name="XChart.XChart_version" value="${import.XChart.XChart.XChart_version}" />
   
   <path id="path.mps.ant.path">
@@ -305,18 +306,18 @@
       <zipfileset file="${basedir}/devkits/org.campagnelab.HTAnalysis.devkit" prefix="metaR/languages/metaR" />
       <fileset dir="${build.tmp}/default/metaR__dl__lbrace_metaR_version_rbrace_.zip" />
     </zip>
-    <echo file="${build.layout}/build.properties">MetaR.org.campagnelab.metaR=${org.campagnelab.metaR}${line.separator}MetaR.metaR_version=${metaR_version}${line.separator}MetaR.textoutput_version=${textoutput_version}${line.separator}mps.build.number=${mps.build.number}${line.separator}mps.date=${mps.date}${line.separator}mps.build.vcs.number=${mps.build.vcs.number}${line.separator}mps.teamcity.buildConfName=${mps.teamcity.buildConfName}${line.separator}mps.idea.platform.build.number=${mps.idea.platform.build.number}${line.separator}mpsBootstrapCore.version=${mpsBootstrapCore.version}${line.separator}org.campagnelab.TextOutput.build_number=${org.campagnelab.TextOutput.build_number}${line.separator}org.campagnelab.TextOutput.textoutput_version=${org.campagnelab.TextOutput.textoutput_version}${line.separator}org.campagnelab.mps.UI.ui_version=${org.campagnelab.mps.UI.ui_version}${line.separator}org.campagnelab.mps.UI.build_number=${org.campagnelab.mps.UI.build_number}${line.separator}XChart.XChart_version=${XChart.XChart_version}</echo>
+    <echo file="${build.layout}/build.properties">MetaR.org.campagnelab.metaR=${org.campagnelab.metaR}${line.separator}MetaR.metaR_version=${metaR_version}${line.separator}MetaR.textoutput_version=${textoutput_version}${line.separator}mps.build.number=${mps.build.number}${line.separator}mps.date=${mps.date}${line.separator}mps.build.vcs.number=${mps.build.vcs.number}${line.separator}mps.teamcity.buildConfName=${mps.teamcity.buildConfName}${line.separator}mps.idea.platform.build.number=${mps.idea.platform.build.number}${line.separator}mpsBootstrapCore.version=${mpsBootstrapCore.version}${line.separator}org.campagnelab.TextOutput.build_number=${org.campagnelab.TextOutput.build_number}${line.separator}org.campagnelab.TextOutput.textoutput_version=${org.campagnelab.TextOutput.textoutput_version}${line.separator}org.campagnelab.mps.UI.ui_version=${org.campagnelab.mps.UI.ui_version}${line.separator}org.campagnelab.mps.UI.build_number=${org.campagnelab.mps.UI.build_number}${line.separator}XChart.build_number=${XChart.build_number}${line.separator}XChart.XChart_version=${XChart.XChart_version}</echo>
   </target>
   
   <target name="buildDependents" />
   
   <target name="fetchDependencies">
-    <mkdir dir="${build.tmp}/deps/org.campagnelab.mps.UI/org.campagnelab.UI-_dl__lbrace_ui_version_rbrace_.zip" />
-    <unzip src="${artifacts.org.campagnelab.mps.UI}/org.campagnelab.UI-${org.campagnelab.mps.UI.ui_version}.zip" dest="${build.tmp}/deps/org.campagnelab.mps.UI/org.campagnelab.UI-_dl__lbrace_ui_version_rbrace_.zip" />
-    <mkdir dir="${build.tmp}/deps/org.campagnelab.TextOutput/org.campagnelab.TextOutput-_dl__lbrace_textoutput_version_rbrace_.zip" />
-    <unzip src="${artifacts.org.campagnelab.TextOutput}/org.campagnelab.TextOutput-${org.campagnelab.TextOutput.textoutput_version}.zip" dest="${build.tmp}/deps/org.campagnelab.TextOutput/org.campagnelab.TextOutput-_dl__lbrace_textoutput_version_rbrace_.zip" />
     <mkdir dir="${build.tmp}/deps/XChart/XChart__dl__lbrace_XChart_version_rbrace_.zip" />
     <unzip src="${artifacts.XChart}/XChart_${XChart.XChart_version}.zip" dest="${build.tmp}/deps/XChart/XChart__dl__lbrace_XChart_version_rbrace_.zip" />
+    <mkdir dir="${build.tmp}/deps/org.campagnelab.TextOutput/org.campagnelab.TextOutput-_dl__lbrace_textoutput_version_rbrace_.zip" />
+    <unzip src="${artifacts.org.campagnelab.TextOutput}/org.campagnelab.TextOutput-${org.campagnelab.TextOutput.textoutput_version}.zip" dest="${build.tmp}/deps/org.campagnelab.TextOutput/org.campagnelab.TextOutput-_dl__lbrace_textoutput_version_rbrace_.zip" />
+    <mkdir dir="${build.tmp}/deps/org.campagnelab.mps.UI/org.campagnelab.UI-_dl__lbrace_ui_version_rbrace_.zip" />
+    <unzip src="${artifacts.org.campagnelab.mps.UI}/org.campagnelab.UI-${org.campagnelab.mps.UI.ui_version}.zip" dest="${build.tmp}/deps/org.campagnelab.mps.UI/org.campagnelab.UI-_dl__lbrace_ui_version_rbrace_.zip" />
   </target>
   
   <target name="build" depends="assemble" />
@@ -427,6 +428,7 @@
       <library file="${artifacts.mps}/plugins/mps-java/lib/mps-java-common.jar" />
       <library file="${artifacts.mps}/plugins/mps-testing/languages/baseLanguage/jetbrains.mps.baseLanguage.unitTest.jar" />
       <library file="${build.tmp}/deps/XChart/XChart__dl__lbrace_XChart_version_rbrace_.zip/XChart/languages/XChart/org.campagnelab.mps.XChart.jar" />
+      <library file="${build.tmp}/deps/XChart/XChart__dl__lbrace_XChart_version_rbrace_.zip/XChart/languages/XChart/org.campagnelab.mps.XChart.types.jar" />
       <library file="${build.tmp}/deps/org.campagnelab.TextOutput/org.campagnelab.TextOutput-_dl__lbrace_textoutput_version_rbrace_.zip/TextOutput/languages/TextOutput/org.campagnelab.textoutput.jar" />
       <library file="${build.tmp}/deps/org.campagnelab.mps.UI/org.campagnelab.UI-_dl__lbrace_ui_version_rbrace_.zip/UI/languages/org.campagnelab.ui.code.jar" />
       <library file="${build.tmp}/deps/org.campagnelab.mps.UI/org.campagnelab.UI-_dl__lbrace_ui_version_rbrace_.zip/UI/languages/org.campagnelab.ui.jar" />
@@ -483,6 +485,7 @@
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/lib/jdom.jar" />
         <fileset file="${artifacts.mps}/lib/ecj-4.3.2.jar" />
+        <fileset file="${artifacts.mps}/lib/ecj-4.4.jar" />
         <fileset file="${artifacts.mps}/lib/trove4j.jar" />
         <fileset file="${artifacts.mps}/lib/xstream-1.4.3.jar" />
         <fileset file="${artifacts.mps}/lib/asm4-all.jar" />
@@ -499,6 +502,7 @@
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.structure.jar" />
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.traceable.jar" />
         <fileset file="${build.tmp}/deps/XChart/XChart__dl__lbrace_XChart_version_rbrace_.zip/XChart/languages/XChart/org.campagnelab.mps.XChart.jar" />
+        <fileset file="${build.tmp}/deps/XChart/XChart__dl__lbrace_XChart_version_rbrace_.zip/XChart/languages/XChart/org.campagnelab.mps.XChart.types.jar" />
         <fileset file="${build.tmp}/deps/org.campagnelab.TextOutput/org.campagnelab.TextOutput-_dl__lbrace_textoutput_version_rbrace_.zip/TextOutput/languages/TextOutput/org.campagnelab.textoutput.jar" />
       </classpath>
     </javac>
@@ -530,6 +534,7 @@
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/lib/jdom.jar" />
         <fileset file="${artifacts.mps}/lib/ecj-4.3.2.jar" />
+        <fileset file="${artifacts.mps}/lib/ecj-4.4.jar" />
         <fileset file="${artifacts.mps}/lib/trove4j.jar" />
         <fileset file="${artifacts.mps}/lib/xstream-1.4.3.jar" />
         <fileset file="${artifacts.mps}/lib/asm4-all.jar" />
@@ -546,6 +551,7 @@
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.structure.jar" />
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.traceable.jar" />
         <fileset file="${build.tmp}/deps/XChart/XChart__dl__lbrace_XChart_version_rbrace_.zip/XChart/languages/XChart/org.campagnelab.mps.XChart.jar" />
+        <fileset file="${build.tmp}/deps/XChart/XChart__dl__lbrace_XChart_version_rbrace_.zip/XChart/languages/XChart/org.campagnelab.mps.XChart.types.jar" />
         <fileset file="${build.tmp}/deps/org.campagnelab.TextOutput/org.campagnelab.TextOutput-_dl__lbrace_textoutput_version_rbrace_.zip/TextOutput/languages/TextOutput/org.campagnelab.textoutput.jar" />
       </classpath>
     </javac>
@@ -576,6 +582,7 @@
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/lib/jdom.jar" />
         <fileset file="${artifacts.mps}/lib/ecj-4.3.2.jar" />
+        <fileset file="${artifacts.mps}/lib/ecj-4.4.jar" />
         <fileset file="${artifacts.mps}/lib/trove4j.jar" />
         <fileset file="${artifacts.mps}/lib/xstream-1.4.3.jar" />
         <fileset file="${artifacts.mps}/lib/asm4-all.jar" />
@@ -600,6 +607,7 @@
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.structure.jar" />
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.traceable.jar" />
         <fileset file="${build.tmp}/deps/XChart/XChart__dl__lbrace_XChart_version_rbrace_.zip/XChart/languages/XChart/org.campagnelab.mps.XChart.jar" />
+        <fileset file="${build.tmp}/deps/XChart/XChart__dl__lbrace_XChart_version_rbrace_.zip/XChart/languages/XChart/org.campagnelab.mps.XChart.types.jar" />
         <fileset file="${build.tmp}/deps/org.campagnelab.TextOutput/org.campagnelab.TextOutput-_dl__lbrace_textoutput_version_rbrace_.zip/TextOutput/languages/TextOutput/org.campagnelab.textoutput.jar" />
         <fileset file="${build.tmp}/deps/org.campagnelab.mps.UI/org.campagnelab.UI-_dl__lbrace_ui_version_rbrace_.zip/UI/languages/org.campagnelab.ui.code.jar" />
       </classpath>
@@ -631,6 +639,7 @@
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/lib/jdom.jar" />
         <fileset file="${artifacts.mps}/lib/ecj-4.3.2.jar" />
+        <fileset file="${artifacts.mps}/lib/ecj-4.4.jar" />
         <fileset file="${artifacts.mps}/lib/trove4j.jar" />
         <fileset file="${artifacts.mps}/lib/xstream-1.4.3.jar" />
         <fileset file="${artifacts.mps}/lib/asm4-all.jar" />
@@ -647,6 +656,7 @@
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.structure.jar" />
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.traceable.jar" />
         <fileset file="${build.tmp}/deps/XChart/XChart__dl__lbrace_XChart_version_rbrace_.zip/XChart/languages/XChart/org.campagnelab.mps.XChart.jar" />
+        <fileset file="${build.tmp}/deps/XChart/XChart__dl__lbrace_XChart_version_rbrace_.zip/XChart/languages/XChart/org.campagnelab.mps.XChart.types.jar" />
         <fileset file="${build.tmp}/deps/org.campagnelab.TextOutput/org.campagnelab.TextOutput-_dl__lbrace_textoutput_version_rbrace_.zip/TextOutput/languages/TextOutput/org.campagnelab.textoutput.jar" />
       </classpath>
     </javac>
@@ -674,6 +684,7 @@
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/lib/jdom.jar" />
         <fileset file="${artifacts.mps}/lib/ecj-4.3.2.jar" />
+        <fileset file="${artifacts.mps}/lib/ecj-4.4.jar" />
         <fileset file="${artifacts.mps}/lib/trove4j.jar" />
         <fileset file="${artifacts.mps}/lib/xstream-1.4.3.jar" />
         <fileset file="${artifacts.mps}/lib/asm4-all.jar" />
@@ -721,6 +732,7 @@
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/lib/jdom.jar" />
         <fileset file="${artifacts.mps}/lib/ecj-4.3.2.jar" />
+        <fileset file="${artifacts.mps}/lib/ecj-4.4.jar" />
         <fileset file="${artifacts.mps}/lib/trove4j.jar" />
         <fileset file="${artifacts.mps}/lib/xstream-1.4.3.jar" />
         <fileset file="${artifacts.mps}/lib/asm4-all.jar" />
@@ -767,6 +779,7 @@
         <pathelement path="${build.tmp}/java/out/org.campagnelab.metar.tables" />
         <fileset file="${artifacts.mps}/plugins/mps-execution-api/lib/execution-api.jar" />
         <fileset file="${artifacts.mps}/plugins/mps-execution-languages/lib/execution-languages.jar" />
+        <fileset file="${artifacts.mps}/plugins/mps-java/lib/mps-java-common.jar" />
         <fileset file="${artifacts.mps}/lib/mps-icons.jar" />
         <fileset file="${artifacts.mps}/lib/mps-workbench.jar" />
         <fileset file="${artifacts.mps}/plugins/mps-debugger-api/lib/debugger-api.jar" />
@@ -775,6 +788,7 @@
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/lib/jdom.jar" />
         <fileset file="${artifacts.mps}/lib/ecj-4.3.2.jar" />
+        <fileset file="${artifacts.mps}/lib/ecj-4.4.jar" />
         <fileset file="${artifacts.mps}/lib/trove4j.jar" />
         <fileset file="${artifacts.mps}/lib/xstream-1.4.3.jar" />
         <fileset file="${artifacts.mps}/lib/asm4-all.jar" />
@@ -797,6 +811,7 @@
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.structure.jar" />
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.traceable.jar" />
         <fileset file="${build.tmp}/deps/XChart/XChart__dl__lbrace_XChart_version_rbrace_.zip/XChart/languages/XChart/org.campagnelab.mps.XChart.jar" />
+        <fileset file="${build.tmp}/deps/XChart/XChart__dl__lbrace_XChart_version_rbrace_.zip/XChart/languages/XChart/org.campagnelab.mps.XChart.types.jar" />
         <fileset file="${build.tmp}/deps/org.campagnelab.TextOutput/org.campagnelab.TextOutput-_dl__lbrace_textoutput_version_rbrace_.zip/TextOutput/languages/TextOutput/org.campagnelab.textoutput.jar" />
       </classpath>
     </javac>
@@ -824,6 +839,7 @@
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/lib/jdom.jar" />
         <fileset file="${artifacts.mps}/lib/ecj-4.3.2.jar" />
+        <fileset file="${artifacts.mps}/lib/ecj-4.4.jar" />
         <fileset file="${artifacts.mps}/lib/trove4j.jar" />
         <fileset file="${artifacts.mps}/lib/xstream-1.4.3.jar" />
         <fileset file="${artifacts.mps}/lib/asm4-all.jar" />
@@ -866,6 +882,7 @@
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/lib/jdom.jar" />
         <fileset file="${artifacts.mps}/lib/ecj-4.3.2.jar" />
+        <fileset file="${artifacts.mps}/lib/ecj-4.4.jar" />
         <fileset file="${artifacts.mps}/lib/trove4j.jar" />
         <fileset file="${artifacts.mps}/lib/xstream-1.4.3.jar" />
         <fileset file="${artifacts.mps}/lib/asm4-all.jar" />
@@ -893,7 +910,7 @@
     <delete dir="${basedir}/languages/org.campagnelab.metaR.tables/source_gen" />
     <delete dir="${basedir}/solutions/org.campagnelab.runR/source_gen" />
     <delete dir="${basedir}/languages/org.campagnelab.metaR.expressions/source_gen" />
-    <delete dir="${basedir}/languages/org.campagnelab.metaR.tables/generator/source_gen" />
     <delete dir="${basedir}/languages/org.campagnelab.metaR.expressions/generator/source_gen" />
+    <delete dir="${basedir}/languages/org.campagnelab.metaR.tables/generator/source_gen" />
   </target>
 </project>
