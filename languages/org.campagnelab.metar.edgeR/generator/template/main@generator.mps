@@ -600,7 +600,7 @@
         <node role="lines" roleId="p6sl.5039633819242576854" type="p6sl.Line" typeId="p6sl.5493669862519709805" id="8031339867718840750" nodeInfo="ng">
           <property name="text" nameId="p6sl.5493669862519718600" value="" />
           <node role="phrases" roleId="p6sl.1680136183140337477" type="p6sl.Phrase" typeId="p6sl.1680136183140337486" id="8031339867718843421" nodeInfo="ng">
-            <property name="text" nameId="p6sl.1680136183140337487" value="  countsTable &lt;- " />
+            <property name="text" nameId="p6sl.1680136183140337487" value="  countsTable &lt;- copy(" />
           </node>
           <node role="phrases" roleId="p6sl.1680136183140337477" type="p6sl.Phrase" typeId="p6sl.1680136183140337486" id="8031339867718843422" nodeInfo="ng">
             <property name="text" nameId="p6sl.1680136183140337487" value="countsTableName" />
@@ -619,6 +619,9 @@
                 </node>
               </node>
             </node>
+          </node>
+          <node role="phrases" roleId="p6sl.1680136183140337477" type="p6sl.Phrase" typeId="p6sl.1680136183140337486" id="8154356758110118122" nodeInfo="ng">
+            <property name="text" nameId="p6sl.1680136183140337487" value=")" />
           </node>
           <node role="phrases" roleId="p6sl.1680136183140337477" type="p6sl.Phrase" typeId="p6sl.1680136183140337486" id="8031339867718840751" nodeInfo="ng">
             <property name="text" nameId="p6sl.1680136183140337487" value="" />

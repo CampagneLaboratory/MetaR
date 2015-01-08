@@ -100,6 +100,18 @@ public class QueriesGenerated {
     return IterableUtils.join(SetSequence.fromSet(BehaviorReflection.invokeVirtual((Class<Set<String>>) ((Class) Object.class), SLinkOperations.getTarget(SNodeOperations.getAncestor(_context.getNode(), "org.campagnelab.metar.tables.structure.JoinTables", false, false), "byKeySelection", true), "virtual_getColumnNames_8016431400515512083", new Object[]{SLinkOperations.getTargets(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "table", false), "table", false), "columns", true)})), "\",\"");
   }
 
+  public static Object propertyMacro_GetPropertyValue_8154356758110986075(final PropertyMacroContext _context) {
+    return NameHelper.RName(SPropertyOperations.getString(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "table", false), "table", false), "name"));
+  }
+
+  public static Object propertyMacro_GetPropertyValue_8154356758111009676(final PropertyMacroContext _context) {
+    return ((String) _context.getVariable("var:columnName"));
+  }
+
+  public static Object propertyMacro_GetPropertyValue_8154356758111146799(final PropertyMacroContext _context) {
+    return ((String) _context.getVariable("var:globalColName"));
+  }
+
   public static Object propertyMacro_GetPropertyValue_2826789978070879122(final PropertyMacroContext _context) {
     return NameHelper.RName(SPropertyOperations.getString(SLinkOperations.getTarget(_context.getNode(), "outputTable", true), "name"));
   }
@@ -158,7 +170,7 @@ public class QueriesGenerated {
         public boolean accept(SNode it) {
           return Sequence.fromIterable(ColumnGroup_Behavior.call_uses_8031339867721231487(SLinkOperations.getTarget(it, "columnGroup", false))).any(new IWhereFilter<SNode>() {
             public boolean accept(SNode use) {
-              return eq_x583g4_a0a0a0a0a0a0a0a0a0a0a0a0a8a71(SPropertyOperations.getString(use, "name"), "heatmap");
+              return eq_x583g4_a0a0a0a0a0a0a0a0a0a0a0a0a8a02(SPropertyOperations.getString(use, "name"), "heatmap");
             }
           });
         }
@@ -214,7 +226,7 @@ public class QueriesGenerated {
         }
         ListSequence.fromList(colGroups).addElement(SPropertyOperations.getString(ListSequence.fromList(SLinkOperations.getTargets(AttributeOperations.getAttribute(ListSequence.fromList(SLinkOperations.getTargets(SLinkOperations.getTarget(SLinkOperations.getTarget(heatmap, "table", true), "table", false), "columns", true)).findFirst(new IWhereFilter<SNode>() {
           public boolean accept(SNode it) {
-            return eq_x583g4_a0a0a0a0a0a0a0a0a0a1a0a0a0a4a12(SPropertyOperations.getString(it, "name"), sampleName);
+            return eq_x583g4_a0a0a0a0a0a0a0a0a0a1a0a0a0a4a42(SPropertyOperations.getString(it, "name"), sampleName);
           }
         }), new IAttributeDescriptor.NodeAttribute("org.campagnelab.metar.tables.structure.ColumnAnnotation")), "groups", true)).where(new IWhereFilter<SNode>() {
           public boolean accept(SNode it) {
@@ -236,7 +248,7 @@ public class QueriesGenerated {
               }
             }).any(new IWhereFilter<SNode>() {
               public boolean accept(SNode usage) {
-                return eq_x583g4_a0a0a0a0a0a0a0a0a0a0a1a0a0a0a4a12(SPropertyOperations.getString(usage, "name"), SPropertyOperations.getString(_context.getNode(), "name"));
+                return eq_x583g4_a0a0a0a0a0a0a0a0a0a0a1a0a0a0a4a42(SPropertyOperations.getString(usage, "name"), SPropertyOperations.getString(_context.getNode(), "name"));
               }
             });
           }
@@ -268,7 +280,7 @@ public class QueriesGenerated {
       public boolean accept(SNode it) {
         return ListSequence.fromList(SLinkOperations.getTargets(AttributeOperations.getAttribute(it, new IAttributeDescriptor.NodeAttribute("org.campagnelab.metar.tables.structure.ColumnAnnotation")), "groups", true)).any(new IWhereFilter<SNode>() {
           public boolean accept(SNode it) {
-            return eq_x583g4_a0a0a0a0a0a0a0a0a0a0a42(SPropertyOperations.getString(SLinkOperations.getTarget(it, "columnGroup", false), "name"), "ID");
+            return eq_x583g4_a0a0a0a0a0a0a0a0a0a0a72(SPropertyOperations.getString(SLinkOperations.getTarget(it, "columnGroup", false), "name"), "ID");
           }
         });
       }
@@ -335,7 +347,7 @@ public class QueriesGenerated {
       public boolean accept(SNode col) {
         return ListSequence.fromList(SLinkOperations.getTargets(AttributeOperations.getAttribute(col, new IAttributeDescriptor.NodeAttribute("org.campagnelab.metar.tables.structure.ColumnAnnotation")), "groups", true)).any(new IWhereFilter<SNode>() {
           public boolean accept(SNode g) {
-            return eq_x583g4_a0a0a0a0a0a0a0a0a0a1a73("ID", SPropertyOperations.getString(SLinkOperations.getTarget(g, "columnGroup", false), "name"));
+            return eq_x583g4_a0a0a0a0a0a0a0a0a0a1a04("ID", SPropertyOperations.getString(SLinkOperations.getTarget(g, "columnGroup", false), "name"));
           }
         });
       }
@@ -900,6 +912,10 @@ public class QueriesGenerated {
     });
   }
 
+  public static boolean ifMacro_Condition_8154356758117595221(final IfMacroContext _context) {
+    return neq_x583g4_a0a0xf(((String) _context.getVariable("var:columnName")), ((String) _context.getVariable("var:globalColName")));
+  }
+
   public static boolean ifMacro_Condition_5703306641533761565(final IfMacroContext _context) {
     return true;
     // <node> 
@@ -969,6 +985,10 @@ public class QueriesGenerated {
     return SLinkOperations.getTargets(_context.getNode(), "inputTables", true);
   }
 
+  public static Iterable<SNode> sourceNodesQuery_8154356758110974819(final SourceSubstituteMacroNodesContext _context) {
+    return SLinkOperations.getTargets(_context.getNode(), "inputTables", true);
+  }
+
   public static Iterable<SNode> sourceNodesQuery_5703306641529033578(final SourceSubstituteMacroNodesContext _context) {
     final Iterable<String> usageNames = BehaviorReflection.invokeVirtual((Class<Iterable<String>>) ((Class) Object.class), SLinkOperations.getTarget(_context.getNode(), "annotations", true), "virtual_getColumnUsageNames_5703306641526703176", new Object[]{TableRef_Behavior.call_getReferencedUsageTypes_5703306641530424876(SLinkOperations.getTarget(_context.getNode(), "table", true))});
     Iterable<SNode> result = ListSequence.fromList(SLinkOperations.getTargets(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "table", true), "table", false), "columns", true)).translate(new ITranslator2<SNode, SNode>() {
@@ -1023,6 +1043,32 @@ public class QueriesGenerated {
     // <node> 
   }
 
+  public static Object insertMacro_varValue_8154356758117554819(final TemplateQueryContext _context) {
+    return SPropertyOperations.getString(ListSequence.fromList(SLinkOperations.getTargets(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "table", false), "table", false), "columns", true)).findFirst(new IWhereFilter<SNode>() {
+      public boolean accept(SNode col) {
+        return ListSequence.fromList(SLinkOperations.getTargets(AttributeOperations.getAttribute(col, new IAttributeDescriptor.NodeAttribute("org.campagnelab.metar.tables.structure.ColumnAnnotation")), "groups", true)).where(new IWhereFilter<SNode>() {
+          public boolean accept(SNode it) {
+            return (SLinkOperations.getTarget(it, "columnGroup", false) != null);
+          }
+        }).select(new ISelector<SNode, SNode>() {
+          public SNode select(SNode it) {
+            return SLinkOperations.getTarget(it, "columnGroup", false);
+          }
+        }).any(new IWhereFilter<SNode>() {
+          public boolean accept(SNode group) {
+            return eq_x583g4_a0a0a0a0a0a0a0a0a0a0a671(SPropertyOperations.getString(group, "name"), "ID");
+          }
+        });
+      }
+    }), "name");
+  }
+
+  public static Object insertMacro_varValue_8154356758117577428(final TemplateQueryContext _context) {
+    SNode joinStatement = SNodeOperations.getAncestor(_context.getNode(), "org.campagnelab.metar.tables.structure.JoinTables", false, false);
+    String columnName = SetSequence.fromSet(BehaviorReflection.invokeVirtual((Class<Set<String>>) ((Class) Object.class), SLinkOperations.getTarget(joinStatement, "byKeySelection", true), "virtual_getColumnNames_8016431400515512083", new Object[]{SLinkOperations.getTargets(SLinkOperations.getTarget(SLinkOperations.getTarget(ListSequence.fromList(SLinkOperations.getTargets(joinStatement, "inputTables", true)).first(), "table", false), "table", false), "columns", true)})).first();
+    return columnName;
+  }
+
   public static Object insertMacro_varValue_5703306641531810262(final TemplateQueryContext _context) {
     return _context.getNode();
   }
@@ -1033,27 +1079,35 @@ public class QueriesGenerated {
 
   protected static Logger LOG = LogManager.getLogger(QueriesGenerated.class);
 
-  private static boolean eq_x583g4_a0a0a0a0a0a0a0a0a0a0a0a0a8a71(Object a, Object b) {
+  private static boolean eq_x583g4_a0a0a0a0a0a0a0a0a0a0a0a0a8a02(Object a, Object b) {
     return (a != null ? a.equals(b) : a == b);
   }
 
-  private static boolean eq_x583g4_a0a0a0a0a0a0a0a0a0a1a0a0a0a4a12(Object a, Object b) {
+  private static boolean eq_x583g4_a0a0a0a0a0a0a0a0a0a1a0a0a0a4a42(Object a, Object b) {
     return (a != null ? a.equals(b) : a == b);
   }
 
-  private static boolean eq_x583g4_a0a0a0a0a0a0a0a0a0a0a1a0a0a0a4a12(Object a, Object b) {
+  private static boolean eq_x583g4_a0a0a0a0a0a0a0a0a0a0a1a0a0a0a4a42(Object a, Object b) {
     return (a != null ? a.equals(b) : a == b);
   }
 
-  private static boolean eq_x583g4_a0a0a0a0a0a0a0a0a0a0a42(Object a, Object b) {
+  private static boolean eq_x583g4_a0a0a0a0a0a0a0a0a0a0a72(Object a, Object b) {
     return (a != null ? a.equals(b) : a == b);
   }
 
-  private static boolean eq_x583g4_a0a0a0a0a0a0a0a0a0a1a73(Object a, Object b) {
+  private static boolean eq_x583g4_a0a0a0a0a0a0a0a0a0a1a04(Object a, Object b) {
     return (a != null ? a.equals(b) : a == b);
   }
 
   private static boolean isNotEmptyString(String str) {
     return str != null && str.length() > 0;
+  }
+
+  private static boolean neq_x583g4_a0a0xf(Object a, Object b) {
+    return !((a != null ? a.equals(b) : a == b));
+  }
+
+  private static boolean eq_x583g4_a0a0a0a0a0a0a0a0a0a0a671(Object a, Object b) {
+    return (a != null ? a.equals(b) : a == b);
   }
 }
