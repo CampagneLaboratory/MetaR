@@ -276,11 +276,11 @@
         <property name="id" nameId="jrxw.8962032619593737385" value="SVDBXLDYHG" />
         <property name="inputChanged" nameId="jrxw.9080041854829670092" value="false" />
         <node role="destination" roleId="jrxw.4166618652718302640" type="jrxw.FutureTable" typeId="jrxw.3402264987259919045" id="578023650350749274" nodeInfo="ng">
-          <property name="name" nameId="tpck.1169194664001" value="counts" />
-          <link role="table" roleId="jrxw.3402264987259919103" targetNodeId="578023650350749275" resolveInfo="counts" />
+          <property name="name" nameId="tpck.1169194664001" value="filtered" />
+          <link role="table" roleId="jrxw.3402264987259919103" targetNodeId="578023650350749275" resolveInfo="filtered" />
           <node role="myOwnTable" roleId="jrxw.4166618652720259019" type="jrxw.Table" typeId="jrxw.3402264987258987827" id="578023650350749275" nodeInfo="ng">
             <property name="delimitor" nameId="ztlb.2202909375770898234" value="&#9;" />
-            <property name="name" nameId="tpck.1169194664001" value="counts" />
+            <property name="name" nameId="tpck.1169194664001" value="filtered" />
             <node role="columns" roleId="ztlb.2202909375770434164" type="ztlb.Column" typeId="ztlb.2202909375770434159" id="578023650350749452" nodeInfo="ng">
               <property name="name" nameId="tpck.1169194664001" value="gene" />
               <link role="type" roleId="ztlb.3328299660867197501" targetNodeId="9nc5.1993150283055518321" resolveInfo="String" />
@@ -576,7 +576,7 @@
           </node>
         </node>
         <node role="countsTable" roleId="izt2.8725455673819568087" type="jrxw.TableRef" typeId="jrxw.4451133196879828915" id="578023650350750391" nodeInfo="ng">
-          <link role="table" roleId="jrxw.4451133196879830023" targetNodeId="578023650350749275" resolveInfo="counts" />
+          <link role="table" roleId="jrxw.4451133196879830023" targetNodeId="578023650350749275" resolveInfo="filtered" />
         </node>
       </node>
       <node role="transformations" roleId="jrxw.8962032619582305407" type="jrxw.TSingleLineComment" typeId="jrxw.2814838647967227455" id="578023650350771357" nodeInfo="ng">
@@ -600,8 +600,14 @@
           <link role="col" roleId="jrxw.3402264987262235802" targetNodeId="578023650350756880" resolveInfo="genes" />
         </node>
       </node>
-      <node role="transformations" roleId="jrxw.8962032619582305407" type="jrxw.EmptyLine" typeId="jrxw.8962032619593737377" id="578023650350766652" nodeInfo="ng">
-        <property name="id" nameId="jrxw.8962032619593737385" value="SQCJIPLDDJ" />
+      <node role="transformations" roleId="jrxw.8962032619582305407" type="jrxw.SetKey" typeId="jrxw.6583618001726813705" id="578023650351338493" nodeInfo="ng">
+        <property name="id" nameId="jrxw.8962032619593737385" value="MDKTTBEGEP" />
+        <node role="table" roleId="jrxw.6583618001729676210" type="jrxw.TableRef" typeId="jrxw.4451133196879828915" id="578023650351338937" nodeInfo="ng">
+          <link role="table" roleId="jrxw.4451133196879830023" targetNodeId="578023650350749275" resolveInfo="filtered" />
+        </node>
+        <node role="column" roleId="jrxw.6583618001726813810" type="jrxw.ColumnRef" typeId="jrxw.3402264987262235801" id="578023650351338940" nodeInfo="ng">
+          <link role="col" roleId="jrxw.3402264987262235802" targetNodeId="578023650350749452" resolveInfo="gene" />
+        </node>
       </node>
       <node role="transformations" roleId="jrxw.8962032619582305407" type="jrxw.JoinTables" typeId="jrxw.3402264987259164676" id="667853661334014409" nodeInfo="ng">
         <property name="id" nameId="jrxw.8962032619593737385" value="HYSDOFQWMA" />
@@ -859,14 +865,14 @@
             </node>
           </node>
         </node>
-        <node role="byKeySelection" roleId="jrxw.3402264987262235696" type="jrxw.SelectByGroup" typeId="jrxw.3402264987266660978" id="667853661334014850" nodeInfo="ng">
-          <link role="byGroup" roleId="jrxw.3402264987266660979" targetNodeId="5365057051049754988" resolveInfo="ID" />
-        </node>
         <node role="inputTables" roleId="jrxw.3402264987259798258" type="jrxw.FutureTableRef" typeId="jrxw.3402264987259789239" id="578023650350755998" nodeInfo="ng">
-          <link role="table" roleId="jrxw.3402264987259798245" targetNodeId="578023650350749274" resolveInfo="counts" />
+          <link role="table" roleId="jrxw.3402264987259798245" targetNodeId="578023650350749274" resolveInfo="filtered" />
         </node>
         <node role="inputTables" roleId="jrxw.3402264987259798258" type="jrxw.FutureTableRef" typeId="jrxw.3402264987259789239" id="667853661334014448" nodeInfo="ng">
           <link role="table" roleId="jrxw.3402264987259798245" targetNodeId="5365057051056918243" resolveInfo="Results" />
+        </node>
+        <node role="byKeySelection" roleId="jrxw.3402264987262235696" type="jrxw.SelectByGroup" typeId="jrxw.3402264987266660978" id="578023650351340434" nodeInfo="ng">
+          <link role="byGroup" roleId="jrxw.3402264987266660979" targetNodeId="5365057051049754988" resolveInfo="ID" />
         </node>
       </node>
       <node role="transformations" roleId="jrxw.8962032619582305407" type="jrxw.SubSetTableRows" typeId="jrxw.4166618652716277483" id="667853661334015445" nodeInfo="ng">
