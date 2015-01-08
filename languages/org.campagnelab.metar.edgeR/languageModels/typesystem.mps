@@ -12,6 +12,7 @@
   <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="5" implicit="yes" />
   <import index="tp25" modelUID="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" version="16" implicit="yes" />
   <import index="tp2q" modelUID="r:00000000-0000-4000-0000-011c8959032e(jetbrains.mps.baseLanguage.collections.structure)" version="7" implicit="yes" />
+  <import index="v8sa" modelUID="r:db1b133e-9a0f-4319-b384-413408eb1729(org.campagnelab.metar.tables.behavior)" version="3" implicit="yes" />
   <root type="tpd4.NonTypesystemRule" typeId="tpd4.1195214364922" id="8031339867724789537" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="check_GroupFormula" />
     <property name="virtualPackage" nameId="tpck.1193676396447" value="formula" />
@@ -355,6 +356,49 @@
       </node>
     </node>
     <node role="applicableNode" roleId="tpd4.1174648101952" type="tpd4.ConceptReference" typeId="tpd4.1174642788531" id="8031339867724789540" nodeInfo="ig">
+      <property name="name" nameId="tpck.1169194664001" value="edgeRTest" />
+      <link role="concept" roleId="tpd4.1174642800329" targetNodeId="izt2.8725455673819557579" resolveInfo="EdgeRTest" />
+    </node>
+  </root>
+  <root type="tpd4.NonTypesystemRule" typeId="tpd4.1195214364922" id="578023650350608562" nodeInfo="ng">
+    <property name="name" nameId="tpck.1169194664001" value="CheckTableHasCountsColumns" />
+    <node role="body" roleId="tpd4.1195213635060" type="tpee.StatementList" typeId="tpee.1068580123136" id="578023650350608563" nodeInfo="sn">
+      <node role="statement" roleId="tpee.1068581517665" type="tpee.IfStatement" typeId="tpee.1068580123159" id="578023650350608734" nodeInfo="nn">
+        <node role="ifTrue" roleId="tpee.1068580123161" type="tpee.StatementList" typeId="tpee.1068580123136" id="578023650350608735" nodeInfo="sn">
+          <node role="statement" roleId="tpee.1068581517665" type="tpd4.ReportErrorStatement" typeId="tpd4.1175517767210" id="578023650350680871" nodeInfo="nn">
+            <node role="errorString" roleId="tpd4.1175517851849" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="578023650350680889" nodeInfo="nn">
+              <property name="value" nameId="tpee.1070475926801" value="counts table must have some columns marked with group \&quot;counts\&quot;" />
+            </node>
+            <node role="nodeToReport" roleId="tpd4.1227096802790" type="tpd4.ApplicableNodeReference" typeId="tpd4.1174650418652" id="578023650350684263" nodeInfo="nn">
+              <link role="applicableNode" roleId="tpd4.1174650432090" targetNodeId="578023650350608719" resolveInfo="edgeRTest" />
+            </node>
+            <node role="messageTarget" roleId="tpd4.1227096836496" type="tpd4.ReferenceMessageTarget" typeId="tpd4.1227096620180" id="578023650350684352" nodeInfo="ng">
+              <link role="linkDeclaration" roleId="tpd4.1227096645744" targetNodeId="izt2.8725455673819568087" />
+            </node>
+          </node>
+        </node>
+        <node role="condition" roleId="tpee.1068580123160" type="tpee.EqualsExpression" typeId="tpee.1068580123152" id="578023650350720508" nodeInfo="nn">
+          <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.NullLiteral" typeId="tpee.1070534058343" id="578023650350720651" nodeInfo="nn" />
+          <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.DotExpression" typeId="tpee.1197027756228" id="578023650350611550" nodeInfo="nn">
+            <node role="operand" roleId="tpee.1197027771414" type="tpee.DotExpression" typeId="tpee.1197027756228" id="578023650350608966" nodeInfo="nn">
+              <node role="operand" roleId="tpee.1197027771414" type="tpd4.ApplicableNodeReference" typeId="tpd4.1174650418652" id="578023650350608752" nodeInfo="nn">
+                <link role="applicableNode" roleId="tpd4.1174650432090" targetNodeId="578023650350608719" resolveInfo="edgeRTest" />
+              </node>
+              <node role="operation" roleId="tpee.1197027833540" type="tp25.SLinkAccess" typeId="tp25.1138056143562" id="578023650350610554" nodeInfo="nn">
+                <link role="link" roleId="tp25.1138056516764" targetNodeId="izt2.8725455673819568087" />
+              </node>
+            </node>
+            <node role="operation" roleId="tpee.1197027833540" type="tp25.Node_ConceptMethodCall" typeId="tp25.1179409122411" id="578023650350720063" nodeInfo="nn">
+              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="v8sa.8031339867718453028" resolveInfo="firstColumnWithGroup" />
+              <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="578023650350720143" nodeInfo="nn">
+                <property name="value" nameId="tpee.1070475926801" value="counts" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node role="applicableNode" roleId="tpd4.1174648101952" type="tpd4.ConceptReference" typeId="tpd4.1174642788531" id="578023650350608719" nodeInfo="ig">
       <property name="name" nameId="tpck.1169194664001" value="edgeRTest" />
       <link role="concept" roleId="tpd4.1174642800329" targetNodeId="izt2.8725455673819557579" resolveInfo="EdgeRTest" />
     </node>
