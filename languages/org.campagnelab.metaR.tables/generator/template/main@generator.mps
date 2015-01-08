@@ -428,8 +428,8 @@
                         <link role="link" roleId="tp25.1138056516764" targetNodeId="jrxw.3402264987261692715" />
                       </node>
                     </node>
-                    <node role="operation" roleId="tpee.1197027833540" type="tp25.SPropertyAccess" typeId="tp25.1138056022639" id="8459500803717513655" nodeInfo="nn">
-                      <link role="property" roleId="tp25.1138056395725" targetNodeId="ztlb.2202909375770434162" resolveInfo="path" />
+                    <node role="operation" roleId="tpee.1197027833540" type="tp25.Node_ConceptMethodCall" typeId="tp25.1179409122411" id="578023650347604779" nodeInfo="nn">
+                      <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="v8sa.578023650347534658" resolveInfo="resolvePath" />
                     </node>
                   </node>
                 </node>

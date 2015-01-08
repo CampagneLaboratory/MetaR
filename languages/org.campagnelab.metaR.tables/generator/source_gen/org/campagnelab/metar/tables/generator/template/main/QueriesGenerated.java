@@ -12,8 +12,8 @@ import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.generator.template.PropertyMacroContext;
 import org.campagnelab.metar.tables.generationhelpers.NameHelper;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
-import jetbrains.mps.internal.collections.runtime.IterableUtils;
 import org.campagnelab.metar.tables.behavior.Table_Behavior;
+import jetbrains.mps.internal.collections.runtime.IterableUtils;
 import jetbrains.mps.internal.collections.runtime.ISelector;
 import jetbrains.mps.internal.collections.runtime.SetSequence;
 import jetbrains.mps.smodel.behaviour.BehaviorReflection;
@@ -77,7 +77,7 @@ public class QueriesGenerated {
   }
 
   public static Object propertyMacro_GetPropertyValue_8459500803717509382(final PropertyMacroContext _context) {
-    return SPropertyOperations.getString(SLinkOperations.getTarget(_context.getNode(), "table", false), "path");
+    return Table_Behavior.call_resolvePath_578023650347534658(SLinkOperations.getTarget(_context.getNode(), "table", false));
   }
 
   public static Object propertyMacro_GetPropertyValue_3377220465482237537(final PropertyMacroContext _context) {

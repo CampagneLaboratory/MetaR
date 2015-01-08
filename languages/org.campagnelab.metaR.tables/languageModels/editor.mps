@@ -38,7 +38,7 @@
         <property name="text" nameId="tpc2.1073389577007" value="Table" />
       </node>
       <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Property" typeId="tpc2.1073389658414" id="3402264987259654993" nodeInfo="ng">
-        <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="ztlb.2202909375770434162" resolveInfo="path" />
+        <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="jrxw.578023650349875540" resolveInfo="pathToResolve" />
       </node>
       <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="3402264987259655078" nodeInfo="nn">
         <property name="text" nameId="tpc2.1073389577007" value="(" />
