@@ -879,11 +879,11 @@
         <property name="id" nameId="jrxw.8962032619593737385" value="UAGPBOCHXI" />
         <property name="inputChanged" nameId="jrxw.9080041854829670092" value="false" />
         <node role="destination" roleId="jrxw.4166618652718302640" type="jrxw.FutureTable" typeId="jrxw.3402264987259919045" id="667853661334015446" nodeInfo="ng">
-          <property name="name" nameId="tpck.1169194664001" value="10% FDR" />
-          <link role="table" roleId="jrxw.3402264987259919103" targetNodeId="667853661334015447" resolveInfo="10% FDR" />
+          <property name="name" nameId="tpck.1169194664001" value="5% FDR" />
+          <link role="table" roleId="jrxw.3402264987259919103" targetNodeId="667853661334015447" resolveInfo="5% FDR" />
           <node role="myOwnTable" roleId="jrxw.4166618652720259019" type="jrxw.Table" typeId="jrxw.3402264987258987827" id="667853661334015447" nodeInfo="ng">
             <property name="delimitor" nameId="ztlb.2202909375770898234" value="&#9;" />
-            <property name="name" nameId="tpck.1169194664001" value="10% FDR" />
+            <property name="name" nameId="tpck.1169194664001" value="5% FDR" />
             <node role="columns" roleId="ztlb.2202909375770434164" type="ztlb.Column" typeId="ztlb.2202909375770434159" id="8154356758127864819" nodeInfo="ng">
               <property name="name" nameId="tpck.1169194664001" value="genes" />
               <link role="type" roleId="ztlb.3328299660867197501" targetNodeId="9nc5.1993150283055518321" resolveInfo="String" />
@@ -1134,7 +1134,7 @@
           <node role="filter" roleId="jrxw.2826789978062873521" type="rg56.ExpressionWrapper" typeId="rg56.2826789978062873800" id="667853661334015795" nodeInfo="ng">
             <node role="expression" roleId="rg56.2826789978062873820" type="tpee.LessThanExpression" typeId="tpee.1081506773034" id="667853661334016748" nodeInfo="nn">
               <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.FloatingPointConstant" typeId="tpee.1111509017652" id="667853661334017993" nodeInfo="nn">
-                <property name="value" nameId="tpee.1113006610751" value="0.1" />
+                <property name="value" nameId="tpee.1113006610751" value="0.05" />
               </node>
               <node role="leftExpression" roleId="tpee.1081773367580" type="rg56.ColumnValue" typeId="rg56.7783277237108466470" id="667853661334015806" nodeInfo="ng">
                 <link role="column" roleId="rg56.7783277237108513861" targetNodeId="8154356758127863757" resolveInfo="FDR" />
@@ -1149,14 +1149,15 @@
       <node role="transformations" roleId="jrxw.8962032619582305407" type="jrxw.Heatmap" typeId="jrxw.8459500803719286639" id="667853661334022445" nodeInfo="ng">
         <property name="id" nameId="jrxw.8962032619593737385" value="JUAPKOICRV" />
         <node role="plot" roleId="jrxw.8459500803719374387" type="jrxw.Plot" typeId="jrxw.8459500803719374384" id="667853661334022615" nodeInfo="ng">
-          <property name="width" nameId="jrxw.8962032619586498917" value="400" />
-          <property name="height" nameId="jrxw.8962032619586499111" value="600" />
+          <property name="width" nameId="jrxw.8962032619586498917" value="300" />
+          <property name="height" nameId="jrxw.8962032619586499111" value="500" />
           <property name="name" nameId="tpck.1169194664001" value="plot" />
         </node>
         <node role="table" roleId="jrxw.4451133196879916916" type="jrxw.TableRef" typeId="jrxw.4451133196879828915" id="8154356758118987780" nodeInfo="ng">
-          <link role="table" roleId="jrxw.4451133196879830023" targetNodeId="667853661334015447" resolveInfo="10% FDR" />
+          <link role="table" roleId="jrxw.4451133196879830023" targetNodeId="667853661334015447" resolveInfo="5% FDR" />
         </node>
         <node role="annotations" roleId="jrxw.5703306641526697040" type="jrxw.HeatmapAnnotations" typeId="jrxw.5703306641526702642" id="8154356758119001103" nodeInfo="ng">
+          <property name="clusterRows" nameId="jrxw.6583618001731900686" value="true" />
           <node role="usages" roleId="jrxw.5703306641526703109" type="jrxw.SelectGroupUsage" typeId="jrxw.5703306641526703227" id="8154356758119001105" nodeInfo="ng">
             <link role="usage" roleId="jrxw.5703306641526703277" targetNodeId="5365057051049752382" resolveInfo="LPS" />
           </node>
@@ -1169,6 +1170,20 @@
           <node role="groupSelections" roleId="jrxw.2133144034279816044" type="jrxw.SelectByGroup" typeId="jrxw.3402264987266660978" id="8154356758119084817" nodeInfo="ng">
             <link role="byGroup" roleId="jrxw.3402264987266660979" targetNodeId="5365057051049752388" resolveInfo="LPS=NO" />
           </node>
+        </node>
+      </node>
+      <node role="transformations" roleId="jrxw.8962032619582305407" type="jrxw.Multiplot" typeId="jrxw.3105090771424556187" id="8154356758129449360" nodeInfo="ng">
+        <property name="id" nameId="jrxw.8962032619593737385" value="XRRGBIHNEP" />
+        <property name="numColumns" nameId="jrxw.3105090771424561488" value="1" />
+        <property name="numRows" nameId="jrxw.3105090771424561486" value="1" />
+        <property name="preview" nameId="jrxw.3105090771427134128" value="true" />
+        <node role="destination" roleId="jrxw.3105090771426088552" type="jrxw.Plot" typeId="jrxw.8459500803719374384" id="8154356758129449362" nodeInfo="ng">
+          <property name="width" nameId="jrxw.8962032619586498917" value="200" />
+          <property name="height" nameId="jrxw.8962032619586499111" value="200" />
+          <property name="name" nameId="tpck.1169194664001" value="PreviewHeatmap" />
+        </node>
+        <node role="plots" roleId="jrxw.3105090771424832493" type="jrxw.PlotRefWithPreview" typeId="jrxw.3105090771426712763" id="8154356758129449817" nodeInfo="ng">
+          <link role="plot" roleId="jrxw.3105090771424833149" targetNodeId="667853661334022615" resolveInfo="plot" />
         </node>
       </node>
       <node role="transformations" roleId="jrxw.8962032619582305407" type="jrxw.Render" typeId="jrxw.8013388156563115186" id="8154356758119007301" nodeInfo="ng">
