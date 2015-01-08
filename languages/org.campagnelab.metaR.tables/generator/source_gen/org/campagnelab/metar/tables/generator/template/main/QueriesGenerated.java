@@ -16,8 +16,7 @@ import org.campagnelab.metar.tables.behavior.Table_Behavior;
 import jetbrains.mps.internal.collections.runtime.IterableUtils;
 import jetbrains.mps.internal.collections.runtime.ISelector;
 import jetbrains.mps.internal.collections.runtime.SetSequence;
-import jetbrains.mps.smodel.behaviour.BehaviorReflection;
-import java.util.Set;
+import org.campagnelab.metar.tables.behavior.IColumnNames_Behavior;
 import org.campagnelab.metar.tables.behavior.FutureTable_Behavior;
 import java.util.List;
 import java.util.ArrayList;
@@ -30,6 +29,7 @@ import jetbrains.mps.internal.collections.runtime.IVisitor;
 import org.campagnelab.metar.tables.behavior.Plot_Behavior;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
 import org.campagnelab.metar.tables.behavior.Multiplot_Behavior;
+import jetbrains.mps.smodel.behaviour.BehaviorReflection;
 import org.campagnelab.metar.tables.behavior.Render_Behavior;
 import org.campagnelab.metar.tables.behavior.ColumnRef_Behavior;
 import org.campagnelab.metar.tables.behavior.Model_Behavior;
@@ -41,6 +41,7 @@ import jetbrains.mps.generator.template.SourceSubstituteMacroNodesContext;
 import org.campagnelab.metar.tables.behavior.TableRef_Behavior;
 import jetbrains.mps.internal.collections.runtime.ITranslator2;
 import jetbrains.mps.generator.template.MappingScriptContext;
+import java.util.Set;
 import org.apache.log4j.Logger;
 import org.apache.log4j.LogManager;
 
@@ -97,7 +98,7 @@ public class QueriesGenerated {
   }
 
   public static Object propertyMacro_GetPropertyValue_2826789978070559645(final PropertyMacroContext _context) {
-    return IterableUtils.join(SetSequence.fromSet(BehaviorReflection.invokeVirtual((Class<Set<String>>) ((Class) Object.class), SLinkOperations.getTarget(SNodeOperations.getAncestor(_context.getNode(), "org.campagnelab.metar.tables.structure.JoinTables", false, false), "byKeySelection", true), "virtual_getColumnNames_8016431400515512083", new Object[]{SLinkOperations.getTargets(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "table", false), "table", false), "columns", true)})), "\",\"");
+    return IterableUtils.join(SetSequence.fromSet(IColumnNames_Behavior.call_getColumnNames_8154356758121880727(SLinkOperations.getTarget(SNodeOperations.getAncestor(_context.getNode(), "org.campagnelab.metar.tables.structure.JoinTables", false, false), "byKeySelection", true), SLinkOperations.getTargets(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "table", false), "table", false), "columns", true))), "\",\"");
   }
 
   public static Object propertyMacro_GetPropertyValue_8154356758110986075(final PropertyMacroContext _context) {
@@ -153,9 +154,9 @@ public class QueriesGenerated {
     List<String> columnNames = ListSequence.fromList(new ArrayList<String>());
     String c1 = "c(";
     String c2 = "c(";
-    ListSequence.fromList(columnNames).addSequence(SetSequence.fromSet(BehaviorReflection.invokeVirtual((Class<Set<String>>) ((Class) Object.class), SLinkOperations.getTarget(_context.getNode(), "dataSelection", true), "virtual_getColumnNames_8016431400515512083", new Object[]{SLinkOperations.getTargets(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "table", true), "table", false), "columns", true)})));
+    ListSequence.fromList(columnNames).addSequence(SetSequence.fromSet(IColumnNames_Behavior.call_getColumnNames_8154356758121880727(SLinkOperations.getTarget(_context.getNode(), "dataSelection", true), SLinkOperations.getTargets(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "table", true), "table", false), "columns", true))));
 
-    IterableUtils.join(SetSequence.fromSet(BehaviorReflection.invokeVirtual((Class<Set<String>>) ((Class) Object.class), SLinkOperations.getTarget(_context.getNode(), "dataSelection", true), "virtual_getColumnNames_8016431400515512083", new Object[]{SLinkOperations.getTargets(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "table", true), "table", false), "columns", true)})).select(new ISelector<String, String>() {
+    IterableUtils.join(SetSequence.fromSet(IColumnNames_Behavior.call_getColumnNames_8154356758121880727(SLinkOperations.getTarget(_context.getNode(), "dataSelection", true), SLinkOperations.getTargets(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "table", true), "table", false), "columns", true))).select(new ISelector<String, String>() {
       public String select(String it) {
         return "\"" + it + "\"";
       }
@@ -225,8 +226,8 @@ public class QueriesGenerated {
           LOG.info("sampleName:" + sampleName);
         }
         ListSequence.fromList(colGroups).addElement(SPropertyOperations.getString(ListSequence.fromList(SLinkOperations.getTargets(AttributeOperations.getAttribute(ListSequence.fromList(SLinkOperations.getTargets(SLinkOperations.getTarget(SLinkOperations.getTarget(heatmap, "table", true), "table", false), "columns", true)).findFirst(new IWhereFilter<SNode>() {
-          public boolean accept(SNode it) {
-            return eq_x583g4_a0a0a0a0a0a0a0a0a0a1a0a0a0a4a42(SPropertyOperations.getString(it, "name"), sampleName);
+          public boolean accept(SNode col) {
+            return eq_x583g4_a0a0a0a0a0a0a0a0a0a1a0a0a0a4a42(SPropertyOperations.getString(col, "name"), sampleName);
           }
         }), new IAttributeDescriptor.NodeAttribute("org.campagnelab.metar.tables.structure.ColumnAnnotation")), "groups", true)).where(new IWhereFilter<SNode>() {
           public boolean accept(SNode it) {
@@ -264,7 +265,7 @@ public class QueriesGenerated {
   }
 
   public static Object propertyMacro_GetPropertyValue_5703306641531276227(final PropertyMacroContext _context) {
-    return IterableUtils.join(SetSequence.fromSet(BehaviorReflection.invokeVirtual((Class<Set<String>>) ((Class) Object.class), SLinkOperations.getTarget(_context.getNode(), "dataSelection", true), "virtual_getColumnNames_8016431400515512083", new Object[]{SLinkOperations.getTargets(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "table", true), "table", false), "columns", true)})).select(new ISelector<String, String>() {
+    return IterableUtils.join(SetSequence.fromSet(IColumnNames_Behavior.call_getColumnNames_8154356758121880727(SLinkOperations.getTarget(_context.getNode(), "dataSelection", true), SLinkOperations.getTargets(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "table", true), "table", false), "columns", true))).select(new ISelector<String, String>() {
       public String select(String col) {
         return "\"" + col + "\"";
       }
@@ -1065,7 +1066,7 @@ public class QueriesGenerated {
 
   public static Object insertMacro_varValue_8154356758117577428(final TemplateQueryContext _context) {
     SNode joinStatement = SNodeOperations.getAncestor(_context.getNode(), "org.campagnelab.metar.tables.structure.JoinTables", false, false);
-    String columnName = SetSequence.fromSet(BehaviorReflection.invokeVirtual((Class<Set<String>>) ((Class) Object.class), SLinkOperations.getTarget(joinStatement, "byKeySelection", true), "virtual_getColumnNames_8016431400515512083", new Object[]{SLinkOperations.getTargets(SLinkOperations.getTarget(SLinkOperations.getTarget(ListSequence.fromList(SLinkOperations.getTargets(joinStatement, "inputTables", true)).first(), "table", false), "table", false), "columns", true)})).first();
+    String columnName = SetSequence.fromSet(BehaviorReflection.invokeVirtual((Class<Set<String>>) ((Class) Object.class), SLinkOperations.getTarget(joinStatement, "byKeySelection", true), "virtual_getColumnNames_8016431400515512083", new Object[]{SLinkOperations.getTargets(SLinkOperations.getTarget(SLinkOperations.getTarget(ListSequence.fromList(SLinkOperations.getTargets(joinStatement, "inputTables", true)).first(), "table", false), "table", false), "columns", true), null})).first();
     return columnName;
   }
 

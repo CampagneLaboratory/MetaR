@@ -30,6 +30,8 @@ import jetbrains.mps.generator.template.TemplateQueryContext;
 import jetbrains.mps.generator.template.SourceSubstituteMacroNodesContext;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SModelOperations;
 import org.campagnelab.metar.tables.behavior.ColumnGroup_Behavior;
+import org.apache.log4j.Logger;
+import org.apache.log4j.LogManager;
 
 @Generated
 public class QueriesGenerated {
@@ -118,7 +120,7 @@ public class QueriesGenerated {
     // find the columns with usage contained in the model formula 
     return IterableUtils.join(ListSequence.fromList(SLinkOperations.getTargets(SLinkOperations.getTarget(((SNode) _context.getVariable("countsTable")), "table", false), "columns", true)).where(new IWhereFilter<SNode>() {
       public boolean accept(SNode col) {
-        return ListSequence.fromList(SLinkOperations.getTargets(AttributeOperations.getAttribute(col, new IAttributeDescriptor.NodeAttribute("org.campagnelab.metar.tables.structure.ColumnAnnotation")), "groups", true)).where(new IWhereFilter<SNode>() {
+        boolean result = ListSequence.fromList(SLinkOperations.getTargets(AttributeOperations.getAttribute(col, new IAttributeDescriptor.NodeAttribute("org.campagnelab.metar.tables.structure.ColumnAnnotation")), "groups", true)).where(new IWhereFilter<SNode>() {
           public boolean accept(SNode it) {
             return (SLinkOperations.getTarget(it, "columnGroup", false) != null);
           }
@@ -140,9 +142,13 @@ public class QueriesGenerated {
           }
         }).any(new IWhereFilter<SNode>() {
           public boolean accept(SNode usage) {
-            return Sequence.fromIterable(usages).contains(usage);
+            return usage != null && Sequence.fromIterable(usages).contains(usage);
           }
         });
+        if (LOG.isInfoEnabled()) {
+          LOG.info("column:" + SPropertyOperations.getString(col, "name") + " expression: " + result);
+        }
+        return result;
       }
     }).select(new ISelector<SNode, String>() {
       public String select(SNode column) {
@@ -363,6 +369,8 @@ public class QueriesGenerated {
       }
     }).distinct();
   }
+
+  protected static Logger LOG = LogManager.getLogger(QueriesGenerated.class);
 
   private static boolean eq_x583g4_a0a0a0a0a0a0a0a0a0a0a1a12(Object a, Object b) {
     return (a != null ? a.equals(b) : a == b);
