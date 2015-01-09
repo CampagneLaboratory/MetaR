@@ -916,7 +916,7 @@
   <root type="tp1t.ConceptConstraints" typeId="tp1t.1213093968558" id="578023650349738354" nodeInfo="ng">
     <link role="concept" roleId="tp1t.1213093996982" targetNodeId="jrxw.3402264987258987827" resolveInfo="Table" />
     <node role="property" roleId="tp1t.1213098023997" type="tp1t.NodePropertyConstraint" typeId="tp1t.1147467115080" id="578023650349738807" nodeInfo="ng">
-      <link role="applicableProperty" roleId="tp1t.1147467295099" targetNodeId="ztlb.2202909375770434162" resolveInfo="path" />
+      <link role="applicableProperty" roleId="tp1t.1147467295099" targetNodeId="jrxw.578023650349875540" resolveInfo="pathToResolve" />
       <node role="propertySetter" roleId="tp1t.1152963095733" type="tp1t.ConstraintFunction_PropertySetter" typeId="tp1t.1152959968041" id="578023650349738809" nodeInfo="nn">
         <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="578023650349738810" nodeInfo="sn">
           <node role="statement" roleId="tpee.1068581517665" type="tpee.LocalVariableDeclarationStatement" typeId="tpee.1068581242864" id="578023650349769197" nodeInfo="nn">
