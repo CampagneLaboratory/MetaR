@@ -1,0 +1,56 @@
+#!/bin/bash
+
+#installation script for MetaR 1.1.2 (works with MPS3.1.x on macos)
+# 
+# plugins installed by the script:
+#  MetaR 1.1.2
+#  TextOutput 1.2.1
+#  XChart 1.1.9
+#  UI 1.0.3
+#  Logger 1.0.2
+
+function cleanup() {
+	echo "Removing installation files..."
+	rm -rf "${WORKING_DIR}/download"
+	echo "done"	
+}
+
+function download() {
+	echo "Downloading $2..."
+	curl -fsSLJ -o download/$2 $1; status=$?
+	if [ $status -ne 0 ]; then
+        	echo "Error: MetaR installer cannot download a required file ($2) -- make sure you can connect the internet"
+		cleanup
+		exit 1
+	fi
+	
+}
+
+
+WORKING_DIR=`pwd`
+rm -rf "${WORKING_DIR}/download"
+mkdir "${WORKING_DIR}/download"
+
+download "http://campagnelab.org/?wpdmact=process&did=MTAzLmhvdGxpbms" metaR.zip
+download "http://campagnelab.org/?wpdmact=process&did=MTAwLmhvdGxpbms" XChart.zip
+download "http://campagnelab.org/?wpdmact=process&did=OTQuaG90bGluaw" TextOutput.zip
+download "http://campagnelab.org/?wpdmact=process&did=ODguaG90bGluaw" UI.zip 
+download "http://campagnelab.org/?wpdmact=process&did=MTAyLmhvdGxpbms" Logger.zip
+
+TARGET_INSTALLATION_DIR="${HOME}/Library/Application Support/MPS31"
+mkdir -p "${TARGET_INSTALLATION_DIR}"
+
+ls ${WORKING_DIR}/download/*.zip
+for plugin_file in `ls ${WORKING_DIR}/download/*.zip`; do
+	echo "Installing ${filename}"
+	cp "$plugin_file" "${TARGET_INSTALLATION_DIR}"
+	filename=`basename $plugin_file`
+	cd "${TARGET_INSTALLATION_DIR}"
+	rm -rf "${TARGET_INSTALLATION_DIR}/${filename%.zip}"
+	unzip "${filename}"
+	rm "${filename}"
+	cd "${WORKING_DIR}"
+	echo "${plugin_file} installed."
+done
+cleanup
+echo "MetaR has been successfully installed."
