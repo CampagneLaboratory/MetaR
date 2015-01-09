@@ -855,7 +855,7 @@
                       </node>
                       <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.PlusExpression" typeId="tpee.1068581242875" id="4166618652720400021" nodeInfo="nn">
                         <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="4166618652719627601" nodeInfo="nn">
-                          <property name="value" nameId="tpee.1070475926801" value="${org.campagnelab.hta.results_dir}/table_" />
+                          <property name="value" nameId="tpee.1070475926801" value="${org.campagnelab.metaR.results_dir}/table_" />
                         </node>
                         <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.DotExpression" typeId="tpee.1197027756228" id="4166618652720400412" nodeInfo="nn">
                           <node role="operand" roleId="tpee.1197027771414" type="1i04.ThisNodeExpression" typeId="1i04.1225194691553" id="4166618652720400132" nodeInfo="nn" />
@@ -1436,7 +1436,7 @@
                               </node>
                             </node>
                             <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="4166618652723429881" nodeInfo="nn">
-                              <property name="value" nameId="tpee.1070475926801" value="${org.campagnelab.hta.results_dir}/plot_" />
+                              <property name="value" nameId="tpee.1070475926801" value="${org.campagnelab.metaR.results_dir}/plot_" />
                             </node>
                           </node>
                         </node>
@@ -5404,7 +5404,7 @@
                     <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="msyo.~MacroHelper%dexpandPath(java%dlang%dString)%cjava%dlang%dString" resolveInfo="expandPath" />
                     <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.PlusExpression" typeId="tpee.1068581242875" id="4842667988071587873" nodeInfo="nn">
                       <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="4842667988071587880" nodeInfo="nn">
-                        <property name="value" nameId="tpee.1070475926801" value="${org.campagnelab.hta.results_dir}/" />
+                        <property name="value" nameId="tpee.1070475926801" value="${org.campagnelab.metaR.results_dir}/" />
                       </node>
                       <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.DotExpression" typeId="tpee.1197027756228" id="4842667988071598763" nodeInfo="nn">
                         <node role="operand" roleId="tpee.1197027771414" type="1i04.ThisNodeExpression" typeId="1i04.1225194691553" id="4842667988071598420" nodeInfo="nn" />

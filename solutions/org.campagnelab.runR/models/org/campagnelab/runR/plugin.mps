@@ -2190,7 +2190,7 @@
               <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="2433240172667400589" nodeInfo="nn">
                 <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="msyo.~MacroHelper%dexpandPath(java%dlang%dString)%cjava%dlang%dString" resolveInfo="expandPath" />
                 <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="2433240172667401909" nodeInfo="nn">
-                  <property name="value" nameId="tpee.1070475926801" value="${org.campagnelab.hta.results_dir}" />
+                  <property name="value" nameId="tpee.1070475926801" value="${org.campagnelab.metaR.results_dir}" />
                 </node>
               </node>
             </node>

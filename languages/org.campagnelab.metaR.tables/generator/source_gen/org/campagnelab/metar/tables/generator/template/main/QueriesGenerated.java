@@ -835,7 +835,7 @@ public class QueriesGenerated {
   }
 
   public static Object propertyMacro_GetPropertyValue_4166618652719892520(final PropertyMacroContext _context) {
-    return MacrosFactory.getGlobal().expandPath("${org.campagnelab.hta.results_dir}");
+    return MacrosFactory.getGlobal().expandPath("${org.campagnelab.metaR.results_dir}");
   }
 
   public static Object propertyMacro_GetPropertyValue_8016431400514009759(final PropertyMacroContext _context) {
