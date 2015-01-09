@@ -3931,7 +3931,7 @@
     <node role="places" roleId="tp4k.394857668356997869" type="tp4k.EverywhereActionPlace" typeId="tp4k.394857668357342104" id="815468622585485041" nodeInfo="ng" />
     <node role="icon" roleId="tp4k.8976425910813834639" type="1oap.IconResource" typeId="1oap.8974276187400029883" id="8377252926920933844" nodeInfo="ng">
       <node role="iconExpression" roleId="1oap.6976585500156684809" type="1oap.IconResourceReference" typeId="1oap.8974276187400029895" id="8377252926920960807" nodeInfo="nn">
-        <link role="declaration" roleId="1oap.8974276187400029896" targetNodeId="8377252926920950919" resolveInfo="Analysis" />
+        <link role="declaration" roleId="1oap.8974276187400029896" targetNodeId="6583618001738815936" resolveInfo="Table" />
       </node>
     </node>
   </root>
