@@ -30,7 +30,6 @@ function download() {
 WORKING_DIR=`pwd`
 rm -rf "${WORKING_DIR}/download"
 mkdir "${WORKING_DIR}/download"
-
 download "http://campagnelab.org/?wpdmact=process&did=MTAzLmhvdGxpbms" metaR.zip
 download "http://campagnelab.org/?wpdmact=process&did=MTAwLmhvdGxpbms" XChart.zip
 download "http://campagnelab.org/?wpdmact=process&did=OTQuaG90bGluaw" TextOutput.zip
