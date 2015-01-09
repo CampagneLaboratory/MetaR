@@ -336,6 +336,9 @@
         <node role="exports" roleId="kdzh.322010710375832962" type="kdzh.BuildMps_DevKitExportLanguage" typeId="kdzh.322010710375832938" id="508214836485685876" nodeInfo="ng">
           <link role="language" roleId="kdzh.322010710375832947" targetNodeId="ael0.6642819616994328590" resolveInfo="org.campagnelab.ui" />
         </node>
+        <node role="exports" roleId="kdzh.322010710375832962" type="kdzh.BuildMps_DevKitExportSolution" typeId="kdzh.322010710375832954" id="8377252926920748782" nodeInfo="ng">
+          <link role="solution" roleId="kdzh.322010710375832955" targetNodeId="3761139488787358679" resolveInfo="org.campagnelab.runR" />
+        </node>
       </node>
       <node role="modules" roleId="kdzh.1500819558095907806" type="kdzh.BuildMps_Language" typeId="kdzh.3189788309731840248" id="3761139488787358673" nodeInfo="ng">
         <property name="compact" nameId="kdzh.8369506495128725901" value="true" />
