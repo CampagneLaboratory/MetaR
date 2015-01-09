@@ -1146,6 +1146,9 @@
           <link role="table" roleId="jrxw.4451133196879830023" targetNodeId="667853661334014412" resolveInfo="MergedResults" />
         </node>
       </node>
+      <node role="transformations" roleId="jrxw.8962032619582305407" type="jrxw.EmptyLine" typeId="jrxw.8962032619593737377" id="8154356758129457325" nodeInfo="ng">
+        <property name="id" nameId="jrxw.8962032619593737385" value="WROLXNNAME" />
+      </node>
       <node role="transformations" roleId="jrxw.8962032619582305407" type="jrxw.Heatmap" typeId="jrxw.8459500803719286639" id="667853661334022445" nodeInfo="ng">
         <property name="id" nameId="jrxw.8962032619593737385" value="JUAPKOICRV" />
         <node role="plot" roleId="jrxw.8459500803719374387" type="jrxw.Plot" typeId="jrxw.8459500803719374384" id="667853661334022615" nodeInfo="ng">
@@ -1199,6 +1202,7 @@
   </root>
   <root type="jrxw.RenderStyle" typeId="jrxw.4842667988072481933" id="8154356758119007303" nodeInfo="ng">
     <property name="pixelsPerInch" nameId="jrxw.4842667988072482117" value="72" />
+    <property name="name" nameId="tpck.1169194664001" value="72dpi" />
   </root>
   <root type="jrxw.RenderStyle" typeId="jrxw.4842667988072481933" id="8154356758119014323" nodeInfo="ng">
     <property name="pixelsPerInch" nameId="jrxw.4842667988072482117" value="72" />
