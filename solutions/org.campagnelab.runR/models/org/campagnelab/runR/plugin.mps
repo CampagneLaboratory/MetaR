@@ -41,7 +41,7 @@
   <import index="msyo" modelUID="f:java_stub#6ed54515-acc8-4d1e-a16c-9fd6cfe951ea#jetbrains.mps.util(MPS.Core/jetbrains.mps.util@java_stub)" version="-1" />
   <import index="k7g3" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.util(JDK/java.util@java_stub)" version="-1" />
   <import index="zxm0" modelUID="f:java_stub#498d89d2-c2e9-11e2-ad49-6cf049e62fe5#com.intellij.icons(MPS.IDEA/com.intellij.icons@java_stub)" version="-1" />
-  <import index="jrxw" modelUID="r:9f2bbfbf-f8b7-4b3b-92b1-b6a0e9642c10(org.campagnelab.metar.tables.structure)" version="15" />
+  <import index="jrxw" modelUID="r:9f2bbfbf-f8b7-4b3b-92b1-b6a0e9642c10(org.campagnelab.metar.tables.structure)" version="16" />
   <import index="v8sa" modelUID="r:db1b133e-9a0f-4319-b384-413408eb1729(org.campagnelab.metar.tables.behavior)" version="3" />
   <import index="c4ym" modelUID="f:java_stub#742f6602-5a2f-4313-aa6e-ae1cd4ffdc61#jetbrains.mps.icons(MPS.Platform/jetbrains.mps.icons@java_stub)" version="-1" />
   <import index="9a8" modelUID="f:java_stub#1ed103c3-3aa6-49b7-9c21-6765ee11f224#jetbrains.mps.nodeEditor(MPS.Editor/jetbrains.mps.nodeEditor@java_stub)" version="-1" />
@@ -2360,6 +2360,14 @@
         </node>
       </node>
     </node>
+    <node role="icons" roleId="1oap.8974276187400029886" type="1oap.IconResourceDeclaration" typeId="1oap.8974276187400029888" id="8377252926920950919" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="Analysis" />
+      <node role="iconExpression" roleId="1oap.8974276187400029889" type="1oap.IconResourceExpression" typeId="1oap.8974276187400029891" id="8377252926920953033" nodeInfo="nn">
+        <node role="icon" roleId="1oap.8974276187400029893" type="1oap.IconResource" typeId="1oap.8974276187400029883" id="8377252926920953035" nodeInfo="ng">
+          <property name="path" nameId="1oap.8974276187400029899" value="${org.campagnelab.metaR.home}/icons/datatypes/analysis.png" />
+        </node>
+      </node>
+    </node>
   </root>
   <root type="tp4k.KeymapChangesDeclaration" typeId="tp4k.1562714432501166197" id="225095413451950156" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="Default" />
@@ -2382,9 +2390,6 @@
     <property name="name" nameId="tpck.1169194664001" value="CommentLineAction" />
     <property name="description" nameId="tp4k.1213273179528" value="Comment/Uncomment a Single Statement" />
     <property name="caption" nameId="tp4k.1205250923097" value="Comment/Uncomment a Statement" />
-    <node role="icon" roleId="tp4k.8976425910813834639" type="1oap.IconResource" typeId="1oap.8974276187400029883" id="815468622586055936" nodeInfo="ng">
-      <property name="path" nameId="1oap.8974276187400029899" value="${org.campagnelab.metaR.home}/icons/datatypes/analysis.png" />
-    </node>
     <node role="methodDeclaration" roleId="tp4k.1205851242421" type="tp4f.DefaultClassifierMethodDeclaration" typeId="tp4f.1205769003971" id="6354194863340390601" nodeInfo="ng">
       <property name="name" nameId="tpck.1169194664001" value="getStatement" />
       <node role="returnType" roleId="tpee.1068580123133" type="tp25.SNodeType" typeId="tp25.1138055754698" id="6354194863340390602" nodeInfo="in">
@@ -2891,6 +2896,11 @@
       </node>
     </node>
     <node role="places" roleId="tp4k.394857668356997869" type="tp4k.EverywhereActionPlace" typeId="tp4k.394857668357342104" id="2814838647972879800" nodeInfo="ng" />
+    <node role="icon" roleId="tp4k.8976425910813834639" type="1oap.IconResource" typeId="1oap.8974276187400029883" id="8377252926920974368" nodeInfo="ng">
+      <node role="iconExpression" roleId="1oap.6976585500156684809" type="1oap.IconResourceReference" typeId="1oap.8974276187400029895" id="8377252926921071076" nodeInfo="nn">
+        <link role="declaration" roleId="1oap.8974276187400029896" targetNodeId="8377252926920950919" resolveInfo="Analysis" />
+      </node>
+    </node>
   </root>
   <root type="tp4k.ActionGroupDeclaration" typeId="tp4k.1203087890642" id="2814838647970583916" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="AddCommentActionsToMenu" />
@@ -2925,9 +2935,6 @@
     <property name="name" nameId="tpck.1169194664001" value="CommentStatements" />
     <property name="caption" nameId="tp4k.1205250923097" value="Comment/Uncomment Statements" />
     <property name="virtualPackage" nameId="tpck.1193676396447" value="Actions" />
-    <node role="icon" roleId="tp4k.8976425910813834639" type="1oap.IconResource" typeId="1oap.8974276187400029883" id="815468622586232406" nodeInfo="ng">
-      <property name="path" nameId="1oap.8974276187400029899" value="${org.campagnelab.metaR.home}/icons/datatypes/analysis.png" />
-    </node>
     <node role="executeFunction" roleId="tp4k.1203083461638" type="tp4k.ExecuteBlock" typeId="tp4k.1203083511112" id="6354194863340390816" nodeInfo="nn">
       <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="6354194863340390817" nodeInfo="sn">
         <node role="statement" roleId="tpee.1068581517665" type="tpee.IfStatement" typeId="tpee.1068580123159" id="4067230457179336979" nodeInfo="nn">
@@ -3147,6 +3154,11 @@
       <property name="name" nameId="tpck.1169194664001" value="editorComponent" />
       <link role="key" roleId="tp4k.1217252646389" targetNodeId="1d7m.~MPSEditorDataKeys%dEDITOR_COMPONENT" resolveInfo="EDITOR_COMPONENT" />
       <node role="condition" roleId="tp4k.5538333046911298738" type="tp4k.RequiredCondition" typeId="tp4k.5538333046911348654" id="6354194863340390863" nodeInfo="ng" />
+    </node>
+    <node role="icon" roleId="tp4k.8976425910813834639" type="1oap.IconResource" typeId="1oap.8974276187400029883" id="8377252926920967996" nodeInfo="ng">
+      <node role="iconExpression" roleId="1oap.6976585500156684809" type="1oap.IconResourceReference" typeId="1oap.8974276187400029895" id="8377252926920969615" nodeInfo="nn">
+        <link role="declaration" roleId="1oap.8974276187400029896" targetNodeId="8377252926920950919" resolveInfo="Analysis" />
+      </node>
     </node>
   </root>
   <root type="tp4k.ActionDeclaration" typeId="tp4k.1203071646776" id="815468622579554009" nodeInfo="ng">
@@ -3736,9 +3748,6 @@
         </node>
       </node>
     </node>
-    <node role="icon" roleId="tp4k.8976425910813834639" type="1oap.IconResource" typeId="1oap.8974276187400029883" id="815468622584901785" nodeInfo="ng">
-      <property name="path" nameId="1oap.8974276187400029899" value="${org.campagnelab.metaR.home}/icons/datatypes/table.png" />
-    </node>
     <node role="updateBlock" roleId="tp4k.1203083196627" type="tp4k.IsApplicableBlock" typeId="tp4k.1205681243813" id="815468622585182249" nodeInfo="nn">
       <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="815468622585182250" nodeInfo="sn">
         <node role="statement" roleId="tpee.1068581517665" type="tpee.SingleLineComment" typeId="tpee.6329021646629104954" id="815468622585320803" nodeInfo="nn">
@@ -3920,6 +3929,11 @@
       </node>
     </node>
     <node role="places" roleId="tp4k.394857668356997869" type="tp4k.EverywhereActionPlace" typeId="tp4k.394857668357342104" id="815468622585485041" nodeInfo="ng" />
+    <node role="icon" roleId="tp4k.8976425910813834639" type="1oap.IconResource" typeId="1oap.8974276187400029883" id="8377252926920933844" nodeInfo="ng">
+      <node role="iconExpression" roleId="1oap.6976585500156684809" type="1oap.IconResourceReference" typeId="1oap.8974276187400029895" id="8377252926920960807" nodeInfo="nn">
+        <link role="declaration" roleId="1oap.8974276187400029896" targetNodeId="8377252926920950919" resolveInfo="Analysis" />
+      </node>
+    </node>
   </root>
 </model>
 
