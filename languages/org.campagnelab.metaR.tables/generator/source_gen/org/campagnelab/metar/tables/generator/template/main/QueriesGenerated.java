@@ -982,6 +982,10 @@ public class QueriesGenerated {
     return Sequence.fromIterable(BehaviorReflection.invokeVirtual((Class<Iterable<String>>) ((Class) Object.class), _context.getNode(), "virtual_bioConductorDependencies_6583618001733614174", new Object[]{})).isNotEmpty();
   }
 
+  public static SNode sourceNodeQuery_2826789978062877903(final SourceSubstituteMacroNodeContext _context) {
+    return SLinkOperations.getTarget(_context.getNode(), "expression", true);
+  }
+
   public static SNode sourceNodeQuery_7783277237109349553(final SourceSubstituteMacroNodeContext _context) {
     return SLinkOperations.getTarget(SNodeOperations.cast(SLinkOperations.getTarget(_context.getNode(), "rowFilter", true), "org.campagnelab.metar.tables.structure.FilterWithExpression"), "filter", true);
   }
@@ -1085,7 +1089,7 @@ public class QueriesGenerated {
           }
         }).any(new IWhereFilter<SNode>() {
           public boolean accept(SNode group) {
-            return eq_x583g4_a0a0a0a0a0a0a0a0a0a0a381(SPropertyOperations.getString(group, "name"), "ID");
+            return eq_x583g4_a0a0a0a0a0a0a0a0a0a0a481(SPropertyOperations.getString(group, "name"), "ID");
           }
         });
       }
@@ -1111,7 +1115,7 @@ public class QueriesGenerated {
           }
         }).any(new IWhereFilter<SNode>() {
           public boolean accept(SNode group) {
-            return eq_x583g4_a0a0a0a0a0a0a0a0a0a0a581(SPropertyOperations.getString(group, "name"), "ID");
+            return eq_x583g4_a0a0a0a0a0a0a0a0a0a0a681(SPropertyOperations.getString(group, "name"), "ID");
           }
         });
       }
@@ -1166,11 +1170,11 @@ public class QueriesGenerated {
     return !((a != null ? a.equals(b) : a == b));
   }
 
-  private static boolean eq_x583g4_a0a0a0a0a0a0a0a0a0a0a381(Object a, Object b) {
+  private static boolean eq_x583g4_a0a0a0a0a0a0a0a0a0a0a481(Object a, Object b) {
     return (a != null ? a.equals(b) : a == b);
   }
 
-  private static boolean eq_x583g4_a0a0a0a0a0a0a0a0a0a0a581(Object a, Object b) {
+  private static boolean eq_x583g4_a0a0a0a0a0a0a0a0a0a0a681(Object a, Object b) {
     return (a != null ? a.equals(b) : a == b);
   }
 }
