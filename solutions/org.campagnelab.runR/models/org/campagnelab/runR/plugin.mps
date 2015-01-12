@@ -2379,7 +2379,7 @@
       <property name="name" nameId="tpck.1169194664001" value="Table" />
       <node role="iconExpression" roleId="1oap.8974276187400029889" type="1oap.IconResourceExpression" typeId="1oap.8974276187400029891" id="6583618001738822892" nodeInfo="nn">
         <node role="icon" roleId="1oap.8974276187400029893" type="1oap.IconResource" typeId="1oap.8974276187400029883" id="6583618001738822894" nodeInfo="ng">
-          <property name="path" nameId="1oap.8974276187400029899" value="/Users/fac2003/MPSProjects/git/metar/icons/datatypes/table.png" />
+          <property name="path" nameId="1oap.8974276187400029899" value="${org.campagnelab.metaR.home}/languages/org.campagnelab.metaR.tables/icons/table.png" />
         </node>
       </node>
     </node>
@@ -2387,7 +2387,7 @@
       <property name="name" nameId="tpck.1169194664001" value="Analysis" />
       <node role="iconExpression" roleId="1oap.8974276187400029889" type="1oap.IconResourceExpression" typeId="1oap.8974276187400029891" id="8377252926920953033" nodeInfo="nn">
         <node role="icon" roleId="1oap.8974276187400029893" type="1oap.IconResource" typeId="1oap.8974276187400029883" id="8377252926920953035" nodeInfo="ng">
-          <property name="path" nameId="1oap.8974276187400029899" value="${org.campagnelab.metaR.home}/icons/datatypes/analysis.png" />
+          <property name="path" nameId="1oap.8974276187400029899" value="${org.campagnelab.metaR.home}/languages/org.campagnelab.metaR.tables/icons/analysis.png" />
         </node>
       </node>
     </node>
