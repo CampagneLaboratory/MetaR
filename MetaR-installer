@@ -9,6 +9,35 @@
 #  UI 1.0.3
 #  Logger 1.0.2
 
+function detectTargetDir() {
+
+ case "$(uname -s)" in
+
+   Darwin)
+     echo 'Mac OS X platform detected.'
+     TARGET_INSTALLATION_DIR="${HOME}/Library/Application Support/MPS31"
+     ;;
+
+   Linux)
+     echo 'Linux platform detected.'
+     TARGET_INSTALLATION_DIR="${HOME}/.MPS31/config/plugins/"
+    ;;
+
+   CYGWIN*|MINGW32*|MSYS*)
+     echo 'MS Windows platform detected.'
+     echo "This installer does not work on a Windows machine."
+     cleanup
+     exit 1
+     ;;
+
+   *)
+     echo 'No platform detected, assuming Mac OS X.'
+     TARGET_INSTALLATION_DIR="${HOME}/Library/Application Support/MPS31" 
+     ;;
+ esac
+
+}
+
 function cleanup() {
 	echo "Removing installation files..."
 	rm -rf "${WORKING_DIR}/download"
@@ -36,10 +65,9 @@ download "http://campagnelab.org/?wpdmact=process&did=OTQuaG90bGluaw" TextOutput
 download "http://campagnelab.org/?wpdmact=process&did=ODguaG90bGluaw" UI.zip 
 download "http://campagnelab.org/?wpdmact=process&did=MTAyLmhvdGxpbms" Logger.zip
 
-TARGET_INSTALLATION_DIR="${HOME}/Library/Application Support/MPS31"
+detectTargetDir
 mkdir -p "${TARGET_INSTALLATION_DIR}"
 
-ls ${WORKING_DIR}/download/*.zip
 for plugin_file in `ls ${WORKING_DIR}/download/*.zip`; do
 	echo "Installing ${filename}"
 	cp "$plugin_file" "${TARGET_INSTALLATION_DIR}"
