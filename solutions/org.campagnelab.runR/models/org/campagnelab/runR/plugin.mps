@@ -368,8 +368,14 @@
                     <node role="operand" roleId="tpee.1197027771414" type="tp4f.ThisClassifierExpression" typeId="tp4f.1205752633985" id="1488175004230046243" nodeInfo="nn" />
                     <node role="operation" roleId="tpee.1197027833540" type="tp4f.DefaultClassifierMethodCallOperation" typeId="tp4f.1205769149993" id="1488175004230047228" nodeInfo="nn">
                       <link role="member" roleId="tp4f.1205756909548" targetNodeId="1488175004222241289" resolveInfo="getR" />
-                      <node role="actualArgument" roleId="tp4f.1205770614681" type="rzqf.CommandParameterReference" typeId="rzqf.856705193941281756" id="4451133196878757023" nodeInfo="nn">
-                        <link role="parameter" roleId="rzqf.856705193941281758" targetNodeId="1488175004226504514" resolveInfo="R_HOME" />
+                      <node role="actualArgument" roleId="tp4f.1205770614681" type="tpee.DotExpression" typeId="tpee.1197027756228" id="1936101284886941645" nodeInfo="nn">
+                        <node role="operand" roleId="tpee.1197027771414" type="tp4f.ThisClassifierExpression" typeId="tp4f.1205752633985" id="1936101284886941648" nodeInfo="nn" />
+                        <node role="operation" roleId="tpee.1197027833540" type="tp4f.DefaultClassifierMethodCallOperation" typeId="tp4f.1205769149993" id="1936101284886941650" nodeInfo="nn">
+                          <link role="member" roleId="tp4f.1205756909548" targetNodeId="1240470842553275777" resolveInfo="protect" />
+                          <node role="actualArgument" roleId="tp4f.1205770614681" type="rzqf.CommandParameterReference" typeId="rzqf.856705193941281756" id="1936101284886943018" nodeInfo="nn">
+                            <link role="parameter" roleId="rzqf.856705193941281758" targetNodeId="1488175004226504514" resolveInfo="R_HOME" />
+                          </node>
+                        </node>
                       </node>
                     </node>
                   </node>
@@ -382,7 +388,7 @@
                       </node>
                     </node>
                   </node>
-                  <node role="workingDirectory" roleId="rzqf.2343546112398330902" type="rzqf.CommandParameterReference" typeId="rzqf.856705193941281756" id="1488175004230109106" nodeInfo="nn">
+                  <node role="workingDirectory" roleId="rzqf.2343546112398330902" type="rzqf.CommandParameterReference" typeId="rzqf.856705193941281756" id="1936101284886946804" nodeInfo="nn">
                     <link role="parameter" roleId="rzqf.856705193941281758" targetNodeId="1488175004228279715" resolveInfo="workingDirectory" />
                   </node>
                 </node>
