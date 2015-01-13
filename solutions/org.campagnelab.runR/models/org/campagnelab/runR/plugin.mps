@@ -2017,17 +2017,21 @@
     <property name="name" nameId="tpck.1169194664001" value="MetaR" />
     <node role="icons" roleId="1oap.8974276187400029886" type="1oap.IconResourceDeclaration" typeId="1oap.8974276187400029888" id="6583618001738815936" nodeInfo="ng">
       <property name="name" nameId="tpck.1169194664001" value="Table" />
-      <node role="iconExpression" roleId="1oap.8974276187400029889" type="1oap.IconResourceExpression" typeId="1oap.8974276187400029891" id="6583618001738822892" nodeInfo="nn">
-        <node role="icon" roleId="1oap.8974276187400029893" type="1oap.IconResource" typeId="1oap.8974276187400029883" id="6583618001738822894" nodeInfo="ng">
-          <property name="path" nameId="1oap.8974276187400029899" value="C:/Users/fac2003/MPSProjects/metar/languages/org.campagnelab.metaR.tables/icons/table.png" />
+      <node role="iconExpression" roleId="1oap.8974276187400029889" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="3839019907943894239" nodeInfo="nn">
+        <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="msyo.~IconUtil" resolveInfo="IconUtil" />
+        <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="msyo.~IconUtil%dgetIcon(java%dlang%dString)%cjavax%dswing%dIcon" resolveInfo="getIcon" />
+        <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="3839019907943894263" nodeInfo="nn">
+          <property name="value" nameId="tpee.1070475926801" value="tables.png" />
         </node>
       </node>
     </node>
     <node role="icons" roleId="1oap.8974276187400029886" type="1oap.IconResourceDeclaration" typeId="1oap.8974276187400029888" id="8377252926920950919" nodeInfo="ng">
       <property name="name" nameId="tpck.1169194664001" value="Analysis" />
-      <node role="iconExpression" roleId="1oap.8974276187400029889" type="1oap.IconResourceExpression" typeId="1oap.8974276187400029891" id="8377252926920953033" nodeInfo="nn">
-        <node role="icon" roleId="1oap.8974276187400029893" type="1oap.IconResource" typeId="1oap.8974276187400029883" id="8377252926920953035" nodeInfo="ng">
-          <property name="path" nameId="1oap.8974276187400029899" value="C:/Users/fac2003/MPSProjects/metar/languages/org.campagnelab.metaR.tables/icons/analysis.png" />
+      <node role="iconExpression" roleId="1oap.8974276187400029889" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="3839019907943895022" nodeInfo="nn">
+        <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="msyo.~IconUtil%dgetIcon(java%dlang%dString)%cjavax%dswing%dIcon" resolveInfo="getIcon" />
+        <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="msyo.~IconUtil" resolveInfo="IconUtil" />
+        <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="3839019907943895023" nodeInfo="nn">
+          <property name="value" nameId="tpee.1070475926801" value="analysis.png" />
         </node>
       </node>
     </node>
