@@ -134,7 +134,7 @@
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="3402264987262239188" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="CommonColumnSelection" />
     <property name="virtualPackage" nameId="tpck.1193676396447" value="keysel" />
-    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="column" />
+    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="columns" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="3402264987262239184" resolveInfo="KeySelection" />
     <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="3402264987262239189" nodeInfo="ig">
       <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
