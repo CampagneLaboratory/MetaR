@@ -8,8 +8,6 @@
   </models>
   <accessoryModels>
     <model modelUID="r:20059f57-5dbc-44d9-90cc-68a47f43e4d6(org.campagnelab.metar.tables.generationhelpers)" />
-    <model modelUID="r:3806f072-87bb-4583-9203-f99cc6c9d118(org.campagnelab.metar.tables.requiredpackages)" />
-    <model modelUID="r:1443b642-fea5-4479-9b81-d28e6be6c4d2(org.campagnelab.metar.tables.scopes)" />
   </accessoryModels>
   <generators>
     <generator name="" generatorUID="org.campagnelab.metar.tables#3402264987258972825" uuid="f8960ca5-9f20-4fc0-b9f7-20a20893f26d">
