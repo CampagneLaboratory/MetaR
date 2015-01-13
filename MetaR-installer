@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#installation script for MetaR 1.1.2 (works with MPS3.1.x on macos)
+#installation script for MetaR 1.1.2 (works with MPS3.1.x on macosi and Linux)
 # 
 # plugins installed by the script:
 #  MetaR 1.1.2
