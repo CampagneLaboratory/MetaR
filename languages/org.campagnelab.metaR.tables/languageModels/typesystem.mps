@@ -374,7 +374,7 @@
               </node>
             </node>
             <node role="errorString" roleId="tpd4.1175517851849" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="4140623938105060778" nodeInfo="nn">
-              <property name="value" nameId="tpee.1070475926801" value="Source table must some columns labeled with a group with usage intent: heatmap" />
+              <property name="value" nameId="tpee.1070475926801" value="Source table must have some columns labeled with a group with usage intent: heatmap" />
             </node>
           </node>
         </node>
