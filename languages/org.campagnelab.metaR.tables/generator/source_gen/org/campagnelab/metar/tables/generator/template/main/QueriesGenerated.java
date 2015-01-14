@@ -35,6 +35,7 @@ import org.campagnelab.metar.tables.behavior.Render_Behavior;
 import org.campagnelab.metar.tables.behavior.ColumnRef_Behavior;
 import org.campagnelab.metar.tables.behavior.Model_Behavior;
 import jetbrains.mps.util.MacrosFactory;
+import java.io.File;
 import jetbrains.mps.generator.template.IfMacroContext;
 import jetbrains.mps.generator.template.SourceSubstituteMacroNodeContext;
 import jetbrains.mps.generator.template.TemplateQueryContext;
@@ -835,12 +836,8 @@ public class QueriesGenerated {
     return NameHelper.RName(SPropertyOperations.getString(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "table", true), "table", false), "name"));
   }
 
-  public static Object propertyMacro_GetPropertyValue_4166618652719892520(final PropertyMacroContext _context) {
-    return MacrosFactory.getGlobal().expandPath("${org.campagnelab.metaR.results_dir}");
-  }
-
   public static Object propertyMacro_GetPropertyValue_8016431400514009759(final PropertyMacroContext _context) {
-    return SPropertyOperations.getString(_context.getNode(), "path");
+    return RPath.convert(MacrosFactory.getGlobal().expandPath("${org.campagnelab.metaR.results_dir}") + File.separator + SPropertyOperations.getString(_context.getNode(), "path"));
   }
 
   public static Object propertyMacro_GetPropertyValue_8031339867735055323(final PropertyMacroContext _context) {
@@ -935,11 +932,11 @@ public class QueriesGenerated {
   }
 
   public static boolean ifMacro_Condition_8154356758117595221(final IfMacroContext _context) {
-    return neq_x583g4_a0a0cg(((String) _context.getVariable("var:columnName")), ((String) _context.getVariable("var:globalColName")));
+    return neq_x583g4_a0a0bg(((String) _context.getVariable("var:columnName")), ((String) _context.getVariable("var:globalColName")));
   }
 
   public static boolean ifMacro_Condition_8154356758127906746(final IfMacroContext _context) {
-    return neq_x583g4_a0a0dg(((String) _context.getVariable("var:columnName")), ((String) _context.getVariable("var:globalColName")));
+    return neq_x583g4_a0a0cg(((String) _context.getVariable("var:columnName")), ((String) _context.getVariable("var:globalColName")));
   }
 
   public static boolean ifMacro_Condition_5703306641533761565(final IfMacroContext _context) {
@@ -1090,7 +1087,7 @@ public class QueriesGenerated {
           }
         }).any(new IWhereFilter<SNode>() {
           public boolean accept(SNode group) {
-            return eq_x583g4_a0a0a0a0a0a0a0a0a0a0a481(SPropertyOperations.getString(group, "name"), "ID");
+            return eq_x583g4_a0a0a0a0a0a0a0a0a0a0a381(SPropertyOperations.getString(group, "name"), "ID");
           }
         });
       }
@@ -1116,7 +1113,7 @@ public class QueriesGenerated {
           }
         }).any(new IWhereFilter<SNode>() {
           public boolean accept(SNode group) {
-            return eq_x583g4_a0a0a0a0a0a0a0a0a0a0a681(SPropertyOperations.getString(group, "name"), "ID");
+            return eq_x583g4_a0a0a0a0a0a0a0a0a0a0a581(SPropertyOperations.getString(group, "name"), "ID");
           }
         });
       }
@@ -1163,19 +1160,19 @@ public class QueriesGenerated {
     return str != null && str.length() > 0;
   }
 
+  private static boolean neq_x583g4_a0a0bg(Object a, Object b) {
+    return !((a != null ? a.equals(b) : a == b));
+  }
+
   private static boolean neq_x583g4_a0a0cg(Object a, Object b) {
     return !((a != null ? a.equals(b) : a == b));
   }
 
-  private static boolean neq_x583g4_a0a0dg(Object a, Object b) {
-    return !((a != null ? a.equals(b) : a == b));
-  }
-
-  private static boolean eq_x583g4_a0a0a0a0a0a0a0a0a0a0a481(Object a, Object b) {
+  private static boolean eq_x583g4_a0a0a0a0a0a0a0a0a0a0a381(Object a, Object b) {
     return (a != null ? a.equals(b) : a == b);
   }
 
-  private static boolean eq_x583g4_a0a0a0a0a0a0a0a0a0a0a681(Object a, Object b) {
+  private static boolean eq_x583g4_a0a0a0a0a0a0a0a0a0a0a581(Object a, Object b) {
     return (a != null ? a.equals(b) : a == b);
   }
 }
