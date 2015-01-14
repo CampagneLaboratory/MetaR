@@ -532,7 +532,7 @@
                 <property name="value" nameId="tpee.1070475926801" value="Total" />
               </node>
               <node role="leftExpression" roleId="tpee.1081773367580" type="rg56.ColumnValue" typeId="rg56.7783277237108466470" id="578023650350749747" nodeInfo="ng">
-                <link role="column" roleId="rg56.7783277237108513861" targetNodeId="5365057051049752711" resolveInfo="gene" />
+                <link role="column" roleId="rg56.7783277237108513861" targetNodeId="2172361557621061864" resolveInfo="gene" />
               </node>
             </node>
           </node>
