@@ -23,6 +23,7 @@
         <usedLanguage>d7706f63-9be2-479c-a3da-ae92af1e64d5(jetbrains.mps.lang.generator.generationContext)</usedLanguage>
         <usedLanguage>7a5dda62-9140-4668-ab76-d5ed1746f2b2(jetbrains.mps.lang.typesystem)</usedLanguage>
         <usedLanguage>32f503e8-061b-451e-bcb0-fef56aa05eb9(org.campagnelab.metar.inspect)</usedLanguage>
+        <usedLanguage>5d6bde84-4ce4-4eb5-a37e-25a5edd55129(org.campagnelab.metar.tables)</usedLanguage>
         <usedLanguage>901f5cf3-dc77-4c1e-bc5a-6382baee28b4(org.campagnelab.textoutput)</usedLanguage>
       </usedLanguages>
       <usedDevKits>
@@ -33,6 +34,7 @@
   </generators>
   <sourcePath />
   <usedLanguages>
+    <usedLanguage>5d6bde84-4ce4-4eb5-a37e-25a5edd55129(org.campagnelab.metar.tables)</usedLanguage>
     <usedLanguage>901f5cf3-dc77-4c1e-bc5a-6382baee28b4(org.campagnelab.textoutput)</usedLanguage>
   </usedLanguages>
   <usedDevKits>
