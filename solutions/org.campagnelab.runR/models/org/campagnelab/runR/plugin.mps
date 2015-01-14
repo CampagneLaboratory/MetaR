@@ -59,6 +59,8 @@
   <import index="e2lb" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" version="-1" />
   <import index="h08b" modelUID="r:1b4467f9-9100-4799-aca8-5e1dda676616(org.campagnelab.runR.plugin)" version="-1" />
   <import index="ztlb" modelUID="r:989540b8-cc89-4ed5-ba78-cf2ce766b8ce(org.campagnelab.mps.XChart.structure)" version="11" />
+  <import index="ai1m" modelUID="f:java_stub#742f6602-5a2f-4313-aa6e-ae1cd4ffdc61#jetbrains.mps.ide.icons(MPS.Platform/jetbrains.mps.ide.icons@java_stub)" version="-1" />
+  <import index="sn11" modelUID="r:836426ab-a6f4-4fa3-9a9c-34c02ed6ab5d(jetbrains.mps.ide.icons)" version="-1" />
   <import index="tgbt" modelUID="r:c70ee934-afb1-4c02-b6a9-1c4d1908a792(jetbrains.mps.lang.plugin.standalone.structure)" version="1" implicit="yes" />
   <import index="rzqf" modelUID="r:d78df0bb-be4f-4e0d-8142-c0b2df70a5a3(jetbrains.mps.execution.commands.structure)" version="0" implicit="yes" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
@@ -2017,21 +2019,21 @@
     <property name="name" nameId="tpck.1169194664001" value="MetaR" />
     <node role="icons" roleId="1oap.8974276187400029886" type="1oap.IconResourceDeclaration" typeId="1oap.8974276187400029888" id="6583618001738815936" nodeInfo="ng">
       <property name="name" nameId="tpck.1169194664001" value="Table" />
-      <node role="iconExpression" roleId="1oap.8974276187400029889" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="3839019907943894239" nodeInfo="nn">
-        <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="msyo.~IconUtil" resolveInfo="IconUtil" />
-        <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="msyo.~IconUtil%dgetIcon(java%dlang%dString)%cjavax%dswing%dIcon" resolveInfo="getIcon" />
-        <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="3839019907943894263" nodeInfo="nn">
-          <property name="value" nameId="tpee.1070475926801" value="tables.png" />
+      <node role="iconExpression" roleId="1oap.8974276187400029889" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="10133014732267716" nodeInfo="nn">
+        <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="sn11.2434140849679604580" resolveInfo="getIconForConceptFQName" />
+        <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="sn11.2434140849679604371" resolveInfo="IconManager" />
+        <node role="actualArgument" roleId="tpee.1068499141038" type="tp25.ConceptFqNameRefExpression" typeId="tp25.8339862546319741524" id="10133014732268452" nodeInfo="nn">
+          <link role="conceptDeclaration" roleId="tp25.8339862546319741525" targetNodeId="jrxw.3402264987258987827" resolveInfo="Table" />
         </node>
       </node>
     </node>
     <node role="icons" roleId="1oap.8974276187400029886" type="1oap.IconResourceDeclaration" typeId="1oap.8974276187400029888" id="8377252926920950919" nodeInfo="ng">
       <property name="name" nameId="tpck.1169194664001" value="Analysis" />
-      <node role="iconExpression" roleId="1oap.8974276187400029889" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="3839019907943895022" nodeInfo="nn">
-        <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="msyo.~IconUtil%dgetIcon(java%dlang%dString)%cjavax%dswing%dIcon" resolveInfo="getIcon" />
-        <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="msyo.~IconUtil" resolveInfo="IconUtil" />
-        <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="3839019907943895023" nodeInfo="nn">
-          <property name="value" nameId="tpee.1070475926801" value="analysis.png" />
+      <node role="iconExpression" roleId="1oap.8974276187400029889" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="10133014732277431" nodeInfo="nn">
+        <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="sn11.2434140849679604371" resolveInfo="IconManager" />
+        <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="sn11.2434140849679604580" resolveInfo="getIconForConceptFQName" />
+        <node role="actualArgument" roleId="tpee.1068499141038" type="tp25.ConceptFqNameRefExpression" typeId="tp25.8339862546319741524" id="10133014732277432" nodeInfo="nn">
+          <link role="conceptDeclaration" roleId="tp25.8339862546319741525" targetNodeId="jrxw.8962032619593737380" resolveInfo="Analysis" />
         </node>
       </node>
     </node>
