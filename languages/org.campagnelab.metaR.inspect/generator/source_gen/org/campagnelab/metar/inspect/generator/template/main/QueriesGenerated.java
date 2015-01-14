@@ -5,7 +5,9 @@ package org.campagnelab.metar.inspect.generator.template.main;
 import jetbrains.mps.generator.runtime.Generated;
 import jetbrains.mps.generator.template.PropertyMacroContext;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
+import org.campagnelab.metar.tables.generationhelpers.RPath;
 import jetbrains.mps.util.MacrosFactory;
+import java.io.File;
 
 @Generated
 public class QueriesGenerated {
@@ -15,12 +17,8 @@ public class QueriesGenerated {
     return SPropertyOperations.getString(_context.getNode(), "tableName");
   }
 
-  public static Object propertyMacro_GetPropertyValue_4166618652719892520(final PropertyMacroContext _context) {
-    return MacrosFactory.getGlobal().expandPath("${org.campagnelab.metaR.results_dir}");
-  }
-
   public static Object propertyMacro_GetPropertyValue_8016431400514009759(final PropertyMacroContext _context) {
-    return SPropertyOperations.getString(_context.getNode(), "tableName") + "_" + Integer.toString(SPropertyOperations.getInteger(_context.getNode(), "tableId"));
+    return RPath.escape(MacrosFactory.getGlobal().expandPath("${org.campagnelab.metaR.results_dir}") + File.separator + "table_" + SPropertyOperations.getString(_context.getNode(), "tableName") + "_" + Integer.toString(SPropertyOperations.getInteger(_context.getNode(), "tableId")));
   }
 
   public static Object propertyMacro_GetPropertyValue_962445451564175837(final PropertyMacroContext _context) {
