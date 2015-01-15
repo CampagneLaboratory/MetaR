@@ -5,7 +5,7 @@ package org.campagnelab.metar.inspect.generator.template.main;
 import jetbrains.mps.generator.runtime.Generated;
 import jetbrains.mps.generator.template.PropertyMacroContext;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
-import org.campagnelab.metar.tables.generationhelpers.RPath;
+import org.campagnelab.metar.inspect.generatorhelpers.RPath;
 import jetbrains.mps.util.MacrosFactory;
 import java.io.File;
 

@@ -379,6 +379,9 @@
     <copyModels todir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.metaR.inspect-generator-template">
       <fileset dir="${basedir}/languages/org.campagnelab.metaR.inspect/generator/template" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
     </copyModels>
+    <copyModels todir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.metaR.inspect-languageAccessories">
+      <fileset dir="${basedir}/languages/org.campagnelab.metaR.inspect/languageAccessories" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
+    </copyModels>
     <copyModels todir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.metaR.inspect-languageModels">
       <fileset dir="${basedir}/languages/org.campagnelab.metaR.inspect/languageModels" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
     </copyModels>
@@ -391,6 +394,7 @@
       </fileset>
       <zipfileset file="${basedir}/languages/org.campagnelab.metaR.inspect/org.campagnelab.metaR.inspect.mpl" prefix="module" />
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.metaR.inspect-generator-template" prefix="module/generator/template" />
+      <zipfileset dir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.metaR.inspect-languageAccessories" prefix="module/languageAccessories" />
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.metaR.inspect-languageModels" prefix="module/languageModels" />
     </jar>
     <mkdir dir="${build.tmp}/default/metaR__dl__lbrace_metaR_version_rbrace_.zip/metaR/lib" />
@@ -1191,9 +1195,9 @@
     <delete dir="${basedir}/languages/org.campagnelab.metar.accessories/source_gen" />
     <delete dir="${basedir}/languages/org.campagnelab.metar.edgeR/generator/source_gen" />
     <delete dir="${basedir}/languages/org.campagnelab.metaR.expressions/source_gen" />
-    <delete dir="${basedir}/languages/org.campagnelab.metaR.tables/generator/source_gen" />
     <delete dir="${basedir}/solutions/org.campagnelab.runR/source_gen" />
     <delete dir="${basedir}/languages/org.campagnelab.metar.accessories/generator/source_gen" />
     <delete dir="${basedir}/languages/org.campagnelab.metaR.expressions/generator/source_gen" />
+    <delete dir="${basedir}/languages/org.campagnelab.metaR.tables/generator/source_gen" />
   </target>
 </project>
