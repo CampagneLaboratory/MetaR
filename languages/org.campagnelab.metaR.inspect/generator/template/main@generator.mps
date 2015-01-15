@@ -179,24 +179,6 @@
           <property name="text" nameId="p6sl.1680136183140337487" value="/&quot;)" />
         </node>
       </node>
-      <node role="lines" roleId="p6sl.5039633819242576854" type="p6sl.Lines" typeId="p6sl.5039633819242576787" id="1801587365865368814" nodeInfo="ng">
-        <property name="text" nameId="p6sl.5493669862519718600" value="" />
-        <node role="lines" roleId="p6sl.5039633819242576854" type="p6sl.Line" typeId="p6sl.5493669862519709805" id="1801587365865368816" nodeInfo="ng">
-          <property name="text" nameId="p6sl.5493669862519718600" value="" />
-          <node role="phrases" roleId="p6sl.1680136183140337477" type="p6sl.Phrase" typeId="p6sl.1680136183140337486" id="1801587365865368817" nodeInfo="ng">
-            <property name="text" nameId="p6sl.1680136183140337487" value="&quot;)" />
-          </node>
-        </node>
-      </node>
-      <node role="lines" roleId="p6sl.5039633819242576854" type="p6sl.Lines" typeId="p6sl.5039633819242576787" id="1766811153632283091" nodeInfo="ng">
-        <property name="text" nameId="p6sl.5493669862519718600" value="" />
-        <node role="lines" roleId="p6sl.5039633819242576854" type="p6sl.Line" typeId="p6sl.5493669862519709805" id="1766811153632283093" nodeInfo="ng">
-          <property name="text" nameId="p6sl.5493669862519718600" value="" />
-          <node role="phrases" roleId="p6sl.1680136183140337477" type="p6sl.Phrase" typeId="p6sl.1680136183140337486" id="1766811153632283094" nodeInfo="ng">
-            <property name="text" nameId="p6sl.1680136183140337487" value="&quot;)" />
-          </node>
-        </node>
-      </node>
     </node>
   </root>
 </model>
