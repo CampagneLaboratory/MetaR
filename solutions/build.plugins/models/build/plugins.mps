@@ -247,6 +247,34 @@
     </node>
     <node role="parts" roleId="3ior.7389400916848080626" type="kdzh.BuildMps_Group" typeId="kdzh.1500819558095907805" id="3761139488787358686" nodeInfo="ng">
       <property name="name" nameId="tpck.1169194664001" value="metaR" />
+      <node role="modules" roleId="kdzh.1500819558095907806" type="kdzh.BuildMps_Language" typeId="kdzh.3189788309731840248" id="1801587365865409180" nodeInfo="ng">
+        <property name="compact" nameId="kdzh.8369506495128725901" value="true" />
+        <property name="name" nameId="tpck.1169194664001" value="org.campagnelab.metar.code" />
+        <property name="uuid" nameId="kdzh.322010710375892619" value="c901f7a1-ed4f-4b52-8d35-10d1a33974f0" />
+        <property name="doNotCompile" nameId="kdzh.1500819558096356884" value="false" />
+        <node role="path" roleId="kdzh.322010710375956261" type="3ior.BuildSourceProjectRelativePath" typeId="3ior.5481553824944787378" id="1801587365865409183" nodeInfo="ng">
+          <node role="compositePart" roleId="3ior.7321017245477039051" type="3ior.BuildCompositePath" typeId="3ior.8618885170173601777" id="1801587365865409678" nodeInfo="nn">
+            <property name="head" nameId="3ior.8618885170173601779" value="languages" />
+            <node role="tail" roleId="3ior.8618885170173601778" type="3ior.BuildCompositePath" typeId="3ior.8618885170173601777" id="1801587365865409830" nodeInfo="nn">
+              <property name="head" nameId="3ior.8618885170173601779" value="org.campagnelab.metar.code" />
+              <node role="tail" roleId="3ior.8618885170173601778" type="3ior.BuildCompositePath" typeId="3ior.8618885170173601777" id="1801587365865409982" nodeInfo="nn">
+                <property name="head" nameId="3ior.8618885170173601779" value="org.campagnelab.metar.code.mpl" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node role="dependencies" roleId="kdzh.5253498789149547704" type="kdzh.BuildMps_ExtractedModuleDependency" typeId="kdzh.7259033139236285166" id="1801587365865410280" nodeInfo="nn">
+          <node role="dependency" roleId="kdzh.7259033139236285167" type="kdzh.BuildMps_ModuleDependencyOnModule" typeId="kdzh.5253498789149585690" id="1801587365865410281" nodeInfo="ng">
+            <property name="reexport" nameId="kdzh.5253498789149547713" value="false" />
+            <link role="module" roleId="kdzh.5253498789149547705" targetNodeId="ffeo.413682502717652307" resolveInfo="JDK" />
+          </node>
+        </node>
+        <node role="generator" roleId="kdzh.9200313594498201639" type="kdzh.BuildMps_Generator" typeId="kdzh.5507251971038816436" id="1801587365865410282" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="org.campagnelab.metar.code#6287645532292043083" />
+          <property name="uuid" nameId="kdzh.322010710375892619" value="947531d7-77fb-4f96-8144-1d49cfe61277" />
+          <property name="doNotCompile" nameId="kdzh.1500819558096356884" value="false" />
+        </node>
+      </node>
       <node role="modules" roleId="kdzh.1500819558095907806" type="kdzh.BuildMps_Language" typeId="kdzh.3189788309731840248" id="3761139488787358662" nodeInfo="ng">
         <property name="compact" nameId="kdzh.8369506495128725901" value="true" />
         <property name="name" nameId="tpck.1169194664001" value="org.campagnelab.metar.expressions" />
@@ -307,6 +335,18 @@
               <link role="module" roleId="kdzh.5253498789149547705" targetNodeId="ffeo.8939513996048535435" resolveInfo="jetbrains.mps.baseLanguage" />
             </node>
           </node>
+          <node role="dependencies" roleId="kdzh.5253498789149547704" type="kdzh.BuildMps_ExtractedModuleDependency" typeId="kdzh.7259033139236285166" id="1801587365865410298" nodeInfo="nn">
+            <node role="dependency" roleId="kdzh.7259033139236285167" type="kdzh.BuildMps_ModuleDependencyOnModule" typeId="kdzh.5253498789149585690" id="1801587365865410299" nodeInfo="ng">
+              <property name="reexport" nameId="kdzh.5253498789149547713" value="false" />
+              <link role="module" roleId="kdzh.5253498789149547705" targetNodeId="1801587365865409180" resolveInfo="org.campagnelab.metar.code" />
+            </node>
+          </node>
+        </node>
+        <node role="dependencies" roleId="kdzh.5253498789149547704" type="kdzh.BuildMps_ExtractedModuleDependency" typeId="kdzh.7259033139236285166" id="1801587365865410296" nodeInfo="nn">
+          <node role="dependency" roleId="kdzh.7259033139236285167" type="kdzh.BuildMps_ModuleDependencyOnModule" typeId="kdzh.5253498789149585690" id="1801587365865410297" nodeInfo="ng">
+            <property name="reexport" nameId="kdzh.5253498789149547713" value="false" />
+            <link role="module" roleId="kdzh.5253498789149547705" targetNodeId="1801587365865409180" resolveInfo="org.campagnelab.metar.code" />
+          </node>
         </node>
       </node>
       <node role="modules" roleId="kdzh.1500819558095907806" type="kdzh.BuildMps_DevKit" typeId="kdzh.322010710375794190" id="3761139488787358667" nodeInfo="ng">
@@ -341,6 +381,9 @@
         </node>
         <node role="exports" roleId="kdzh.322010710375832962" type="kdzh.BuildMps_DevKitExportLanguage" typeId="kdzh.322010710375832938" id="2172361557616918884" nodeInfo="ng">
           <link role="language" roleId="kdzh.322010710375832947" targetNodeId="2172361557616918215" resolveInfo="org.campagnelab.metar.accessories" />
+        </node>
+        <node role="exports" roleId="kdzh.322010710375832962" type="kdzh.BuildMps_DevKitExportLanguage" typeId="kdzh.322010710375832938" id="1801587365865410309" nodeInfo="ng">
+          <link role="language" roleId="kdzh.322010710375832947" targetNodeId="1801587365865409180" resolveInfo="org.campagnelab.metar.code" />
         </node>
       </node>
       <node role="modules" roleId="kdzh.1500819558095907806" type="kdzh.BuildMps_Language" typeId="kdzh.3189788309731840248" id="3761139488787358673" nodeInfo="ng">
@@ -449,6 +492,12 @@
               <link role="module" roleId="kdzh.5253498789149547705" targetNodeId="ffeo.8939513996048535435" resolveInfo="jetbrains.mps.baseLanguage" />
             </node>
           </node>
+          <node role="dependencies" roleId="kdzh.5253498789149547704" type="kdzh.BuildMps_ExtractedModuleDependency" typeId="kdzh.7259033139236285166" id="1801587365865410312" nodeInfo="nn">
+            <node role="dependency" roleId="kdzh.7259033139236285167" type="kdzh.BuildMps_ModuleDependencyOnModule" typeId="kdzh.5253498789149585690" id="1801587365865410313" nodeInfo="ng">
+              <property name="reexport" nameId="kdzh.5253498789149547713" value="false" />
+              <link role="module" roleId="kdzh.5253498789149547705" targetNodeId="1801587365865409180" resolveInfo="org.campagnelab.metar.code" />
+            </node>
+          </node>
         </node>
         <node role="dependencies" roleId="kdzh.5253498789149547704" type="kdzh.BuildMps_ExtractedModuleDependency" typeId="kdzh.7259033139236285166" id="9012942620034112133" nodeInfo="nn">
           <node role="dependency" roleId="kdzh.7259033139236285167" type="kdzh.BuildMps_ModuleDependencyOnModule" typeId="kdzh.5253498789149585690" id="9012942620034112134" nodeInfo="ng">
@@ -484,6 +533,12 @@
           <node role="dependency" roleId="kdzh.7259033139236285167" type="kdzh.BuildMps_ModuleDependencyOnModule" typeId="kdzh.5253498789149585690" id="5052319772296197957" nodeInfo="ng">
             <property name="reexport" nameId="kdzh.5253498789149547713" value="false" />
             <link role="module" roleId="kdzh.5253498789149547705" targetNodeId="9b5a.9178698721097033439" resolveInfo="org.campagnelab.mps.XChart" />
+          </node>
+        </node>
+        <node role="dependencies" roleId="kdzh.5253498789149547704" type="kdzh.BuildMps_ExtractedModuleDependency" typeId="kdzh.7259033139236285166" id="1801587365865410310" nodeInfo="nn">
+          <node role="dependency" roleId="kdzh.7259033139236285167" type="kdzh.BuildMps_ModuleDependencyOnModule" typeId="kdzh.5253498789149585690" id="1801587365865410311" nodeInfo="ng">
+            <property name="reexport" nameId="kdzh.5253498789149547713" value="false" />
+            <link role="module" roleId="kdzh.5253498789149547705" targetNodeId="1801587365865409180" resolveInfo="org.campagnelab.metar.code" />
           </node>
         </node>
       </node>
@@ -558,6 +613,12 @@
             <node role="dependency" roleId="kdzh.7259033139236285167" type="kdzh.BuildMps_ModuleDependencyOnModule" typeId="kdzh.5253498789149585690" id="8434387403769263217" nodeInfo="ng">
               <property name="reexport" nameId="kdzh.5253498789149547713" value="false" />
               <link role="module" roleId="kdzh.5253498789149547705" targetNodeId="3761139488787358673" resolveInfo="org.campagnelab.metar.tables" />
+            </node>
+          </node>
+          <node role="dependencies" roleId="kdzh.5253498789149547704" type="kdzh.BuildMps_ExtractedModuleDependency" typeId="kdzh.7259033139236285166" id="1801587365865410327" nodeInfo="nn">
+            <node role="dependency" roleId="kdzh.7259033139236285167" type="kdzh.BuildMps_ModuleDependencyOnModule" typeId="kdzh.5253498789149585690" id="1801587365865410328" nodeInfo="ng">
+              <property name="reexport" nameId="kdzh.5253498789149547713" value="false" />
+              <link role="module" roleId="kdzh.5253498789149547705" targetNodeId="1801587365865409180" resolveInfo="org.campagnelab.metar.code" />
             </node>
           </node>
         </node>
@@ -837,6 +898,12 @@
             <node role="dependency" roleId="kdzh.7259033139236285167" type="kdzh.BuildMps_ModuleDependencyOnModule" typeId="kdzh.5253498789149585690" id="3761139488788691134" nodeInfo="ng">
               <property name="reexport" nameId="kdzh.5253498789149547713" value="false" />
               <link role="module" roleId="kdzh.5253498789149547705" targetNodeId="ffeo.2182758403694705590" resolveInfo="MPS.Core" />
+            </node>
+          </node>
+          <node role="dependencies" roleId="kdzh.5253498789149547704" type="kdzh.BuildMps_ExtractedModuleDependency" typeId="kdzh.7259033139236285166" id="1801587365865410368" nodeInfo="nn">
+            <node role="dependency" roleId="kdzh.7259033139236285167" type="kdzh.BuildMps_ModuleDependencyOnModule" typeId="kdzh.5253498789149585690" id="1801587365865410369" nodeInfo="ng">
+              <property name="reexport" nameId="kdzh.5253498789149547713" value="false" />
+              <link role="module" roleId="kdzh.5253498789149547705" targetNodeId="1801587365865409180" resolveInfo="org.campagnelab.metar.code" />
             </node>
           </node>
         </node>
