@@ -29,6 +29,7 @@
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="3402264987259164676" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="JoinTables" />
     <property name="conceptAlias" nameId="tpce.5092175715804935370" value="join" />
+    <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="Join/combine two or more tables" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="3402264987259164677" resolveInfo="TableTransformation" />
     <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="3402264987262235696" nodeInfo="ig">
       <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
@@ -99,6 +100,7 @@
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="3402264987261651661" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="ImportTable" />
     <property name="conceptAlias" nameId="tpce.5092175715804935370" value="import table" />
+    <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="Import a table in this analysis" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="6853668812000783449" resolveInfo="DataTableStatement" />
     <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="3402264987261692715" nodeInfo="ig">
       <property name="metaClass" nameId="tpce.1071599937831" value="reference" />
@@ -138,6 +140,7 @@
     <property name="name" nameId="tpck.1169194664001" value="CommonColumnSelection" />
     <property name="virtualPackage" nameId="tpck.1193676396447" value="keysel" />
     <property name="conceptAlias" nameId="tpce.5092175715804935370" value="columns" />
+    <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="identify a set of columns" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="3402264987262239184" resolveInfo="KeySelection" />
     <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="3402264987262239189" nodeInfo="ig">
       <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
@@ -220,6 +223,7 @@
     <property name="virtualPackage" nameId="tpck.1193676396447" value="keysel" />
     <property name="name" nameId="tpck.1169194664001" value="SelectByGroup" />
     <property name="conceptAlias" nameId="tpce.5092175715804935370" value="group" />
+    <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="select one group" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="3402264987262239184" resolveInfo="KeySelection" />
     <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="3402264987266660979" nodeInfo="ig">
       <property name="metaClass" nameId="tpce.1071599937831" value="reference" />
@@ -232,6 +236,7 @@
     <property name="name" nameId="tpck.1169194664001" value="Heatmap" />
     <property name="virtualPackage" nameId="tpck.1193676396447" value="heatmap" />
     <property name="conceptAlias" nameId="tpce.5092175715804935370" value="build heatmap" />
+    <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="Plot a heatmap" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="8013388156564358393" resolveInfo="PlotBuilderStatement" />
     <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="8459500803719286733" nodeInfo="ig">
       <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
@@ -348,7 +353,7 @@
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="4166618652716485499" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="SetOfIds" />
     <property name="conceptAlias" nameId="tpce.5092175715804935370" value="set of IDs" />
-    <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="A set of IDs" />
+    <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="A set of IDs, such as gene list" />
     <property name="virtualPackage" nameId="tpck.1193676396447" value="ids" />
     <property name="rootable" nameId="tpce.1096454100552" value="true" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="4166618652716705716" resolveInfo="DefinableObject" />
@@ -373,6 +378,8 @@
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="4166618652716705715" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="Define" />
+    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="define" />
+    <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="define something" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="8962032619593737384" resolveInfo="Statement" />
     <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="4166618652716705717" nodeInfo="ig">
       <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
@@ -385,6 +392,7 @@
     <property name="name" nameId="tpck.1169194664001" value="DefinableObject" />
     <property name="abstract" nameId="tpce.4628067390765956802" value="true" />
     <property name="final" nameId="tpce.4628067390765956807" value="false" />
+    <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="An object to be defined" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="4166618652717462012" nodeInfo="ig">
@@ -536,6 +544,8 @@
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="8962032619582305406" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="StatementList" />
+    <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="List of statements { ... }" />
+    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="{" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="8962032619593737384" resolveInfo="Statement" />
     <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="8962032619582305407" nodeInfo="ig">
       <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
@@ -560,6 +570,7 @@
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="8962032619593737377" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="EmptyLine" />
     <property name="conceptAlias" nameId="tpce.5092175715804935370" value="&lt;empty line&gt; " />
+    <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value=" " />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="8962032619593737384" resolveInfo="Statement" />
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="8962032619593737378" nodeInfo="ig">
@@ -719,6 +730,8 @@
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="8013388156564358393" nodeInfo="ig">
     <property name="virtualPackage" nameId="tpck.1193676396447" value="plots" />
     <property name="name" nameId="tpck.1169194664001" value="PlotBuilderStatement" />
+    <property name="abstract" nameId="tpce.4628067390765956802" value="true" />
+    <property name="final" nameId="tpce.4628067390765956807" value="false" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="8962032619593737384" resolveInfo="Statement" />
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="4842667988072481933" nodeInfo="ig">
@@ -831,6 +844,7 @@
     <property name="name" nameId="tpck.1169194664001" value="Histogram" />
     <property name="conceptAlias" nameId="tpce.5092175715804935370" value="histogram" />
     <property name="virtualPackage" nameId="tpck.1193676396447" value="histogram" />
+    <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="Plot a histogram" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="8013388156564358393" resolveInfo="PlotBuilderStatement" />
     <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="2312637992615384801" nodeInfo="ig">
       <property name="metaClass" nameId="tpce.1071599937831" value="reference" />
@@ -856,6 +870,7 @@
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="8031339867733060044" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="WriteTable" />
     <property name="conceptAlias" nameId="tpce.5092175715804935370" value="write" />
+    <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="write a table to a file" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="8962032619593737384" resolveInfo="Statement" />
     <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="8031339867733060259" nodeInfo="ig">
       <property name="name" nameId="tpck.1169194664001" value="path" />
@@ -880,6 +895,7 @@
     <property name="virtualPackage" nameId="tpck.1193676396447" value="keysel" />
     <property name="name" nameId="tpck.1169194664001" value="SelectMultipleGroups" />
     <property name="conceptAlias" nameId="tpce.5092175715804935370" value="groups" />
+    <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="select multiple groups" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="3402264987262239184" resolveInfo="KeySelection" />
     <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="2133144034279816044" nodeInfo="ig">
       <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
@@ -957,6 +973,7 @@
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="6583618001726813705" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="SetKey" />
     <property name="conceptAlias" nameId="tpce.5092175715804935370" value="set key" />
+    <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="define one column as key of a table" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="8962032619593737384" resolveInfo="Statement" />
     <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="6583618001729676210" nodeInfo="ig">
       <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
@@ -1022,6 +1039,7 @@
     <property name="name" nameId="tpck.1169194664001" value="BoxPlot" />
     <property name="conceptAlias" nameId="tpce.5092175715804935370" value="boxplot" />
     <property name="virtualPackage" nameId="tpck.1193676396447" value="boxplot" />
+    <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="Plot a box plot" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="8013388156564358393" resolveInfo="PlotBuilderStatement" />
     <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="2312637992610194931" nodeInfo="ig">
       <property name="metaClass" nameId="tpce.1071599937831" value="reference" />

@@ -1045,7 +1045,7 @@
                   <link role="conceptDeclaration" roleId="tp25.1172424100906" targetNodeId="tpee.1224500790866" resolveInfo="BitwiseOrExpression" />
                 </node>
                 <node role="initValue" roleId="tpee.1154542803372" type="tp25.ConceptRefExpression" typeId="tp25.1172424058054" id="9213945826187060612" nodeInfo="nn">
-                  <link role="conceptDeclaration" roleId="tp25.1172424100906" targetNodeId="tpee.1225894555487" resolveInfo="BitwiseNotExpression" />
+                  <link role="conceptDeclaration" roleId="tp25.1172424100906" targetNodeId="tpee.1081516740877" resolveInfo="NotExpression" />
                 </node>
                 <node role="initValue" roleId="tpee.1154542803372" type="tp25.ConceptRefExpression" typeId="tp25.1172424058054" id="9213945826187282156" nodeInfo="nn">
                   <link role="conceptDeclaration" roleId="tp25.1172424100906" targetNodeId="tpee.1079359253375" resolveInfo="ParenthesizedExpression" />
@@ -1071,6 +1071,10 @@
         </node>
       </node>
     </node>
+  </root>
+  <root type="tp1t.ConceptConstraints" typeId="tp1t.1213093968558" id="9213945826187762408" nodeInfo="ng">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="plots" />
+    <link role="concept" roleId="tp1t.1213093996982" targetNodeId="jrxw.8013388156564358393" resolveInfo="PlotBuilderStatement" />
   </root>
 </model>
 
