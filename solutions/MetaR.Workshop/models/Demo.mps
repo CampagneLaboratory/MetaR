@@ -6,7 +6,7 @@
   <devkit namespace="8a3636fa-c6ec-4cb0-bc2a-b7143f2a4937(org.campagnelab.metaR)" />
   <import index="jrxw" modelUID="r:9f2bbfbf-f8b7-4b3b-92b1-b6a0e9642c10(org.campagnelab.metar.tables.structure)" version="16" implicit="yes" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
-  <import index="ztlb" modelUID="r:989540b8-cc89-4ed5-ba78-cf2ce766b8ce(org.campagnelab.mps.XChart.structure)" version="12" implicit="yes" />
+  <import index="ztlb" modelUID="r:989540b8-cc89-4ed5-ba78-cf2ce766b8ce(org.campagnelab.mps.XChart.structure)" version="11" implicit="yes" />
   <import index="9nc5" modelUID="r:d1a256e6-591a-459f-809c-7fc9df45e4d5(org.campagnelab.mps.XChart.types.roots)" version="-1" implicit="yes" />
   <import index="izt2" modelUID="r:b5f8abba-ade6-48ed-8b03-df617183a3f0(org.campagnelab.metar.edgeR.structure)" version="9" implicit="yes" />
   <import index="rg56" modelUID="r:ab341ca2-6df8-46ee-bf23-741319c06425(org.campagnelab.metar.expressions.structure)" version="2" implicit="yes" />
@@ -292,8 +292,8 @@
           <link role="table" roleId="jrxw.3402264987259919103" targetNodeId="5365057051049752581" resolveInfo="GSE59364_DC_all.csv" />
         </node>
       </node>
-      <node role="transformations" roleId="jrxw.8962032619582305407" type="jrxw.EmptyLine" typeId="jrxw.8962032619593737377" id="578023650350751025" nodeInfo="ng">
-        <property name="id" nameId="jrxw.8962032619593737385" value="QGJLTLSFUV" />
+      <node role="transformations" roleId="jrxw.8962032619582305407" type="jrxw.EmptyLine" typeId="jrxw.8962032619593737377" id="5325491425803622445" nodeInfo="ng">
+        <property name="id" nameId="jrxw.8962032619593737385" value="XQADJCDGNP" />
       </node>
       <node role="transformations" roleId="jrxw.8962032619582305407" type="jrxw.SubSetTableRows" typeId="jrxw.4166618652716277483" id="578023650350749273" nodeInfo="ng">
         <property name="id" nameId="jrxw.8962032619593737385" value="SVDBXLDYHG" />
@@ -528,11 +528,11 @@
         <node role="rowFilter" roleId="jrxw.4166618652716281037" type="jrxw.FilterWithExpression" typeId="jrxw.7783277237108572280" id="578023650350749734" nodeInfo="ng">
           <node role="filter" roleId="jrxw.2826789978062873521" type="jrxw.ExpressionWrapper" typeId="jrxw.5052319772298911308" id="578023650350749736" nodeInfo="ng">
             <node role="expression" roleId="jrxw.5052319772298911309" type="tpee.NotEqualsExpression" typeId="tpee.1073239437375" id="578023650350750118" nodeInfo="nn">
-              <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="578023650350750173" nodeInfo="nn">
-                <property name="value" nameId="tpee.1070475926801" value="Total" />
-              </node>
               <node role="leftExpression" roleId="tpee.1081773367580" type="rg56.ColumnValue" typeId="rg56.7783277237108466470" id="9213945826186773930" nodeInfo="ng">
                 <link role="column" roleId="rg56.7783277237108513861" targetNodeId="2172361557621061864" resolveInfo="gene" />
+              </node>
+              <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="578023650350750173" nodeInfo="nn">
+                <property name="value" nameId="tpee.1070475926801" value="Total" />
               </node>
             </node>
           </node>
@@ -1197,7 +1197,7 @@
         <property name="id" nameId="jrxw.8962032619593737385" value="XRRGBIHNEP" />
         <property name="numColumns" nameId="jrxw.3105090771424561488" value="1" />
         <property name="numRows" nameId="jrxw.3105090771424561486" value="1" />
-        <property name="preview" nameId="jrxw.3105090771427134128" value="true" />
+        <property name="preview" nameId="jrxw.3105090771427134128" value="false" />
         <node role="destination" roleId="jrxw.3105090771426088552" type="jrxw.Plot" typeId="jrxw.8459500803719374384" id="8154356758129449362" nodeInfo="ng">
           <property name="width" nameId="jrxw.8962032619586498917" value="200" />
           <property name="height" nameId="jrxw.8962032619586499111" value="200" />
