@@ -67,6 +67,7 @@
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="3402264987259789239" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="FutureTableRef" />
+    <property name="iconPath" nameId="tpce.1160488491229" value="${module}/icons/table.png" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
     <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="3402264987259798245" nodeInfo="ig">
       <property name="metaClass" nameId="tpce.1071599937831" value="reference" />
@@ -77,7 +78,7 @@
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="3402264987259919045" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="FutureTable" />
-    <property name="iconPath" nameId="tpce.1160488491229" value="${module}/icons/folders.png" />
+    <property name="iconPath" nameId="tpce.1160488491229" value="${module}/icons/table.png" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
     <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="4166618652720259019" nodeInfo="ig">
       <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
@@ -267,6 +268,7 @@
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="8459500803719374384" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="Plot" />
     <property name="virtualPackage" nameId="tpck.1193676396447" value="plots" />
+    <property name="iconPath" nameId="tpce.1160488491229" value="${module}/icons/plot.png" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
     <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="4166618652723451261" nodeInfo="ig">
       <property name="name" nameId="tpck.1169194664001" value="id" />
@@ -529,6 +531,7 @@
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="3105090771424833148" nodeInfo="ig">
     <property name="virtualPackage" nameId="tpck.1193676396447" value="plots" />
     <property name="name" nameId="tpck.1169194664001" value="PlotRef" />
+    <property name="iconPath" nameId="tpce.1160488491229" value="${module}/icons/plot.png" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
     <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="3105090771424833149" nodeInfo="ig">
       <property name="metaClass" nameId="tpce.1071599937831" value="reference" />
