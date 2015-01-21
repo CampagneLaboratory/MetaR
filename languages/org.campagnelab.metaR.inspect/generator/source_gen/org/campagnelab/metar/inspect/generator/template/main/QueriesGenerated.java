@@ -18,7 +18,7 @@ public class QueriesGenerated {
   }
 
   public static Object propertyMacro_GetPropertyValue_8016431400514009759(final PropertyMacroContext _context) {
-    return RPath.escape(MacrosFactory.getGlobal().expandPath("${org.campagnelab.metaR.results_dir}") + File.separator + "table_" + SPropertyOperations.getString(_context.getNode(), "tableName") + "_" + Integer.toString(SPropertyOperations.getInteger(_context.getNode(), "tableId")) + ".tsv");
+    return new RPath(MacrosFactory.getGlobal().expandPath("${org.campagnelab.metaR.results_dir}") + File.separator + "table_" + SPropertyOperations.getString(_context.getNode(), "tableName") + "_" + Integer.toString(SPropertyOperations.getInteger(_context.getNode(), "tableId")) + ".tsv").toString();
   }
 
   public static Object propertyMacro_GetPropertyValue_962445451564175837(final PropertyMacroContext _context) {

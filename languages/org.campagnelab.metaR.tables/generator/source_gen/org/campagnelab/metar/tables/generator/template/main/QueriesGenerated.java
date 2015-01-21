@@ -80,7 +80,7 @@ public class QueriesGenerated {
   }
 
   public static Object propertyMacro_GetPropertyValue_8459500803717509382(final PropertyMacroContext _context) {
-    return RPath.escape(Table_Behavior.call_resolvePath_578023650347534658(SLinkOperations.getTarget(_context.getNode(), "table", false)));
+    return new RPath(Table_Behavior.call_resolvePath_578023650347534658(SLinkOperations.getTarget(_context.getNode(), "table", false))).toString();
   }
 
   public static Object propertyMacro_GetPropertyValue_3377220465482237537(final PropertyMacroContext _context) {
@@ -319,7 +319,7 @@ public class QueriesGenerated {
   }
 
   public static Object propertyMacro_GetPropertyValue_8016431400518316174(final PropertyMacroContext _context) {
-    return RPath.escape(Plot_Behavior.call_getPath_8016431400518331231(SLinkOperations.getTarget(_context.getNode(), "plot", true)));
+    return new RPath(Plot_Behavior.call_getPath_8016431400518331231(SLinkOperations.getTarget(_context.getNode(), "plot", true))).toString();
   }
 
   public static Object propertyMacro_GetPropertyValue_6583618001716976677(final PropertyMacroContext _context) {
@@ -333,7 +333,7 @@ public class QueriesGenerated {
   }
 
   public static Object propertyMacro_GetPropertyValue_5703306641526063165(final PropertyMacroContext _context) {
-    return RPath.escape(Plot_Behavior.call_getPath_8016431400518331231(SLinkOperations.getTarget(_context.getNode(), "plot", true)));
+    return new RPath(Plot_Behavior.call_getPath_8016431400518331231(SLinkOperations.getTarget(_context.getNode(), "plot", true))).toString();
   }
 
   public static Object propertyMacro_GetPropertyValue_5703306641526063176(final PropertyMacroContext _context) {
@@ -511,7 +511,7 @@ public class QueriesGenerated {
   }
 
   public static Object propertyMacro_GetPropertyValue_6001041468488153342(final PropertyMacroContext _context) {
-    return RPath.escape(Plot_Behavior.call_getPath_8016431400518331231(SLinkOperations.getTarget(_context.getNode(), "plot", true)));
+    return new RPath(Plot_Behavior.call_getPath_8016431400518331231(SLinkOperations.getTarget(_context.getNode(), "plot", true))).toString();
   }
 
   public static Object propertyMacro_GetPropertyValue_8962032619586874007(final PropertyMacroContext _context) {
@@ -580,7 +580,7 @@ public class QueriesGenerated {
   }
 
   public static Object propertyMacro_GetPropertyValue_8962032619585609533(final PropertyMacroContext _context) {
-    return RPath.escape(Plot_Behavior.call_getPath_8016431400518331231(SLinkOperations.getTarget(_context.getNode(), "destination", true)));
+    return new RPath(Plot_Behavior.call_getPath_8016431400518331231(SLinkOperations.getTarget(_context.getNode(), "destination", true))).toString();
   }
 
   public static Object propertyMacro_GetPropertyValue_2517666855465633575(final PropertyMacroContext _context) {
@@ -640,7 +640,7 @@ public class QueriesGenerated {
   }
 
   public static Object propertyMacro_GetPropertyValue_4842667988071959723(final PropertyMacroContext _context) {
-    return RPath.escape(Render_Behavior.call_getDestinationPath_4842667988071587758(SNodeOperations.getAncestor(_context.getNode(), "org.campagnelab.metar.tables.structure.Render", false, false)));
+    return new RPath(Render_Behavior.call_getDestinationPath_4842667988071587758(SNodeOperations.getAncestor(_context.getNode(), "org.campagnelab.metar.tables.structure.Render", false, false))).toString();
   }
 
   public static Object propertyMacro_GetPropertyValue_4842667988071972393(final PropertyMacroContext _context) {
@@ -817,7 +817,7 @@ public class QueriesGenerated {
   }
 
   public static Object propertyMacro_GetPropertyValue_6070133740820410840(final PropertyMacroContext _context) {
-    return RPath.escape(Plot_Behavior.call_getPath_8016431400518331231(SLinkOperations.getTarget(_context.getNode(), "plot", true)));
+    return new RPath(Plot_Behavior.call_getPath_8016431400518331231(SLinkOperations.getTarget(_context.getNode(), "plot", true))).toString();
   }
 
   public static Object propertyMacro_GetPropertyValue_6070133740820477669(final PropertyMacroContext _context) {
@@ -837,7 +837,7 @@ public class QueriesGenerated {
   }
 
   public static Object propertyMacro_GetPropertyValue_8016431400514009759(final PropertyMacroContext _context) {
-    return RPath.escape(MacrosFactory.getGlobal().expandPath("${org.campagnelab.metaR.results_dir}") + File.separator + SPropertyOperations.getString(_context.getNode(), "path"));
+    return new RPath(MacrosFactory.getGlobal().expandPath("${org.campagnelab.metaR.results_dir}") + File.separator + SPropertyOperations.getString(_context.getNode(), "path")).toString();
   }
 
   public static Object propertyMacro_GetPropertyValue_8031339867735055323(final PropertyMacroContext _context) {
@@ -889,7 +889,7 @@ public class QueriesGenerated {
   }
 
   public static Object propertyMacro_GetPropertyValue_6070133740826980145(final PropertyMacroContext _context) {
-    return RPath.escape(Plot_Behavior.call_getPath_8016431400518331231(SLinkOperations.getTarget(_context.getNode(), "plot", true)));
+    return new RPath(Plot_Behavior.call_getPath_8016431400518331231(SLinkOperations.getTarget(_context.getNode(), "plot", true))).toString();
   }
 
   public static Object propertyMacro_GetPropertyValue_6070133740826980159(final PropertyMacroContext _context) {
