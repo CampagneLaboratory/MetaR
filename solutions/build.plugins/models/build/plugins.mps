@@ -72,6 +72,12 @@
     <node role="macros" roleId="3ior.5617550519002745378" type="3ior.BuildVariableMacro" typeId="3ior.3767587139141066978" id="5618357232192241851" nodeInfo="ng">
       <property name="name" nameId="tpck.1169194664001" value="build_number" />
     </node>
+    <node role="macros" roleId="3ior.5617550519002745378" type="3ior.BuildVariableMacro" typeId="3ior.3767587139141066978" id="5618357232192896817" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="reference_commit" />
+    </node>
+    <node role="macros" roleId="3ior.5617550519002745378" type="3ior.BuildVariableMacro" typeId="3ior.3767587139141066978" id="5618357232192897424" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="reference_branch" />
+    </node>
     <node role="dependencies" roleId="3ior.5617550519002745381" type="3ior.BuildProjectDependency" typeId="3ior.4993211115183325728" id="3761139488787358649" nodeInfo="ng">
       <link role="script" roleId="3ior.5617550519002745380" targetNodeId="ffeo.4301118715654192646" resolveInfo="mps" />
       <node role="artifacts" roleId="3ior.4129895186893471026" type="3ior.BuildSourceMacroRelativePath" typeId="3ior.7389400916848153117" id="3761139488787358650" nodeInfo="ng">
@@ -248,6 +254,18 @@
         </node>
         <node role="parts" roleId="3ior.4903714810883783243" type="3ior.BuildVarRefStringPart" typeId="3ior.4903714810883702017" id="5618357232192243513" nodeInfo="ng">
           <link role="macro" roleId="3ior.4903714810883702018" targetNodeId="5618357232192241851" resolveInfo="build_number" />
+        </node>
+        <node role="parts" roleId="3ior.4903714810883783243" type="3ior.BuildTextStringPart" typeId="3ior.4903714810883702019" id="5618357232192897642" nodeInfo="ng">
+          <property name="text" nameId="3ior.4903714810883755350" value=", commit: " />
+        </node>
+        <node role="parts" roleId="3ior.4903714810883783243" type="3ior.BuildVarRefStringPart" typeId="3ior.4903714810883702017" id="5618357232192897823" nodeInfo="ng">
+          <link role="macro" roleId="3ior.4903714810883702018" targetNodeId="5618357232192896817" resolveInfo="reference_commit" />
+        </node>
+        <node role="parts" roleId="3ior.4903714810883783243" type="3ior.BuildTextStringPart" typeId="3ior.4903714810883702019" id="5618357232192898180" nodeInfo="ng">
+          <property name="text" nameId="3ior.4903714810883755350" value=", branch: " />
+        </node>
+        <node role="parts" roleId="3ior.4903714810883783243" type="3ior.BuildVarRefStringPart" typeId="3ior.4903714810883702017" id="5618357232192898365" nodeInfo="ng">
+          <link role="macro" roleId="3ior.4903714810883702018" targetNodeId="5618357232192897424" resolveInfo="reference_branch" />
         </node>
       </node>
     </node>
