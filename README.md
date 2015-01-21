@@ -9,5 +9,5 @@ MetaR takes advantage of Language Workbench Technology to facilitate data analys
 
 The following snapshot illustrates how metaR simplifies data analysis: we call differentially expressed genes with edgeR, join the resulting table with the table of counts, and produce a heatmap for the top 5% differentially regulated genes:
 
-![MetaR snapshot](http://campagnelab.org/files/WorkFlow_-_HTAnalysis_-____MPSProjects_git_metar__-_JetBrains_MPS__MPS__MPS-135_1462-950x1024.png)
+![MetaR snapshot](http://campagnelab.org/files/MetaR_Better_Snapshot.png)
 
