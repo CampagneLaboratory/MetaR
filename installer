@@ -25,7 +25,7 @@ function detectTargetDir() {
 
    CYGWIN*)
      echo 'MS Windows platform with CYGWIN detected.'
-     TARGET_INSTALLATION_DIR="${HOME}/.MPS31/config/plugins/"
+     TARGET_INSTALLATION_DIR="${USERPROFILE}/.MPS31/config/plugins/"
      ;;
 
    MINGW32*|MSYS*|Windows*)
