@@ -1348,7 +1348,7 @@
               </node>
             </node>
             <node role="phrases" roleId="p6sl.1680136183140337477" type="p6sl.Phrase" typeId="p6sl.1680136183140337486" id="8154356758128212445" nodeInfo="ng">
-              <property name="text" nameId="p6sl.1680136183140337487" value="$" />
+              <property name="text" nameId="p6sl.1680136183140337487" value="$&quot;" />
             </node>
             <node role="phrases" roleId="p6sl.1680136183140337477" type="p6sl.Phrase" typeId="p6sl.1680136183140337486" id="8154356758127906652" nodeInfo="ng">
               <property name="text" nameId="p6sl.1680136183140337487" value="GlobalColName" />
@@ -1358,7 +1358,7 @@
                   <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="8154356758127906655" nodeInfo="sn">
                     <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="8154356758127906656" nodeInfo="nn">
                       <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="8154356758127906657" nodeInfo="nn">
-                        <node role="operand" roleId="tpee.1197027771414" type="tpf3.TemplateFunctionParameter_generationContext" typeId="tpf3.1216860049635" id="8154356758127906658" nodeInfo="nn" />
+                        <node role="operand" roleId="tpee.1197027771414" type="tpf3.TemplateFunctionParameter_generationContext" typeId="tpf3.1216860049635" id="8283158092913992124" nodeInfo="nn" />
                         <node role="operation" roleId="tpee.1197027833540" type="tpf3.GenerationContextOp_VarRef" typeId="tpf3.2721957369897614808" id="8154356758127906659" nodeInfo="nn">
                           <link role="varmacro" roleId="tpf3.2721957369897614810" targetNodeId="8154356758127906709" resolveInfo="globalColName" />
                         </node>
@@ -1369,7 +1369,7 @@
               </node>
             </node>
             <node role="phrases" roleId="p6sl.1680136183140337477" type="p6sl.Phrase" typeId="p6sl.1680136183140337486" id="8154356758127906660" nodeInfo="ng">
-              <property name="text" nameId="p6sl.1680136183140337487" value="]" />
+              <property name="text" nameId="p6sl.1680136183140337487" value="&quot;]" />
             </node>
             <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpf8.LoopMacro" typeId="tpf8.1118786554307" id="8154356758127906661" nodeInfo="nn">
               <node role="sourceNodesQuery" roleId="tpf8.1167952069335" type="tpf8.SourceSubstituteMacro_SourceNodesQuery" typeId="tpf8.1167951910403" id="8154356758127906662" nodeInfo="nn">
