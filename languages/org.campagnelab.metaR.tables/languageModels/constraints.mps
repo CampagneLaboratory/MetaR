@@ -404,6 +404,9 @@
           </node>
         </node>
       </node>
+      <node role="searchScopeFactory" roleId="tp1t.1148687345559" type="tp1t.InheritedNodeScopeFactory" typeId="tp1t.8401916545537438642" id="3929971219787527467" nodeInfo="ng">
+        <link role="kind" roleId="tp1t.8401916545537438643" targetNodeId="jrxw.3402264987258987827" resolveInfo="Table" />
+      </node>
     </node>
   </root>
   <root type="tp1t.ConceptConstraints" typeId="tp1t.1213093968558" id="3402264987261849012" nodeInfo="ng">
