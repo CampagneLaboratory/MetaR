@@ -1223,6 +1223,9 @@
                 <node role="initValue" roleId="tpee.1154542803372" type="tp25.ConceptRefExpression" typeId="tp25.1172424058054" id="9213945826187282156" nodeInfo="nn">
                   <link role="conceptDeclaration" roleId="tp25.1172424100906" targetNodeId="tpee.1079359253375" resolveInfo="ParenthesizedExpression" />
                 </node>
+                <node role="initValue" roleId="tpee.1154542803372" type="tp25.ConceptRefExpression" typeId="tp25.1172424058054" id="3929971219798583278" nodeInfo="nn">
+                  <link role="conceptDeclaration" roleId="tp25.1172424100906" targetNodeId="tpee.1068580123152" resolveInfo="EqualsExpression" />
+                </node>
                 <node role="componentType" roleId="tpee.1154542793668" type="tp25.SConceptType" typeId="tp25.1172420572800" id="9213945826186667707" nodeInfo="in" />
               </node>
             </node>
