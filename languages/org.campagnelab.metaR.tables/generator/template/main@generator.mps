@@ -1292,7 +1292,7 @@
               </node>
             </node>
             <node role="phrases" roleId="p6sl.1680136183140337477" type="p6sl.Phrase" typeId="p6sl.1680136183140337486" id="8154356758127906642" nodeInfo="ng">
-              <property name="text" nameId="p6sl.1680136183140337487" value="[," />
+              <property name="text" nameId="p6sl.1680136183140337487" value="[,&quot;" />
             </node>
             <node role="phrases" roleId="p6sl.1680136183140337477" type="p6sl.Phrase" typeId="p6sl.1680136183140337486" id="8154356758127906643" nodeInfo="ng">
               <property name="text" nameId="p6sl.1680136183140337487" value="columnName" />
@@ -1313,7 +1313,7 @@
               </node>
             </node>
             <node role="phrases" roleId="p6sl.1680136183140337477" type="p6sl.Phrase" typeId="p6sl.1680136183140337486" id="8154356758128212443" nodeInfo="ng">
-              <property name="text" nameId="p6sl.1680136183140337487" value=":=" />
+              <property name="text" nameId="p6sl.1680136183140337487" value="&quot;:=" />
             </node>
             <node role="phrases" roleId="p6sl.1680136183140337477" type="p6sl.Phrase" typeId="p6sl.1680136183140337486" id="8154356758128212444" nodeInfo="ng">
               <property name="text" nameId="p6sl.1680136183140337487" value="X" />
