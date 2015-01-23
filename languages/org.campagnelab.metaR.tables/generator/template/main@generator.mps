@@ -389,14 +389,14 @@
                           <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="1mjk.772483346260563933" resolveInfo="RName" />
                           <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.DotExpression" typeId="tpee.1197027756228" id="3929971219793502176" nodeInfo="nn">
                             <node role="operand" roleId="tpee.1197027771414" type="tpee.DotExpression" typeId="tpee.1197027756228" id="3929971219793502177" nodeInfo="nn">
+                              <node role="operation" roleId="tpee.1197027833540" type="tp25.SLinkAccess" typeId="tp25.1138056143562" id="3929971219794306236" nodeInfo="nn">
+                                <link role="link" roleId="tp25.1138056516764" targetNodeId="jrxw.3402264987259919103" />
+                              </node>
                               <node role="operand" roleId="tpee.1197027771414" type="tpee.DotExpression" typeId="tpee.1197027756228" id="3929971219793502178" nodeInfo="nn">
-                                <node role="operand" roleId="tpee.1197027771414" type="tpf8.TemplateFunctionParameter_sourceNode" typeId="tpf8.1167169188348" id="3929971219793502179" nodeInfo="nn" />
-                                <node role="operation" roleId="tpee.1197027833540" type="tp25.SLinkAccess" typeId="tp25.1138056143562" id="3929971219793504045" nodeInfo="nn">
+                                <node role="operation" roleId="tpee.1197027833540" type="tp25.SLinkAccess" typeId="tp25.1138056143562" id="3929971219794300443" nodeInfo="nn">
                                   <link role="link" roleId="tp25.1138056516764" targetNodeId="jrxw.3929971219790215785" />
                                 </node>
-                              </node>
-                              <node role="operation" roleId="tpee.1197027833540" type="tp25.SLinkAccess" typeId="tp25.1138056143562" id="3929971219793502181" nodeInfo="nn">
-                                <link role="link" roleId="tp25.1138056516764" targetNodeId="jrxw.3402264987259798245" />
+                                <node role="operand" roleId="tpee.1197027771414" type="tpf8.TemplateFunctionParameter_sourceNode" typeId="tpf8.1167169188348" id="3929971219793502179" nodeInfo="nn" />
                               </node>
                             </node>
                             <node role="operation" roleId="tpee.1197027833540" type="tp25.SPropertyAccess" typeId="tp25.1138056022639" id="3929971219793502182" nodeInfo="nn">
@@ -413,7 +413,7 @@
                 <property name="text" nameId="p6sl.1680136183140337487" value="=copy(" />
               </node>
               <node role="phrases" roleId="p6sl.1680136183140337477" type="p6sl.Phrase" typeId="p6sl.1680136183140337486" id="3929971219793483986" nodeInfo="ng">
-                <property name="text" nameId="p6sl.1680136183140337487" value="inputTable)" />
+                <property name="text" nameId="p6sl.1680136183140337487" value="inputTable" />
                 <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpf8.PropertyMacro" typeId="tpf8.1087833241328" id="3929971219793483992" nodeInfo="nn">
                   <property name="propertyName" nameId="tpck.1757699476691236117" value="text" />
                   <node role="propertyValueFunction" roleId="tpf8.1167756362303" type="tpf8.PropertyMacro_GetPropertyValue" typeId="tpf8.1167756080639" id="3929971219793483993" nodeInfo="nn">
@@ -443,6 +443,9 @@
                     </node>
                   </node>
                 </node>
+              </node>
+              <node role="phrases" roleId="p6sl.1680136183140337477" type="p6sl.Phrase" typeId="p6sl.1680136183140337486" id="3929971219794312561" nodeInfo="ng">
+                <property name="text" nameId="p6sl.1680136183140337487" value=")" />
               </node>
               <node role="phrases" roleId="p6sl.1680136183140337477" type="p6sl.Phrase" typeId="p6sl.1680136183140337486" id="3929971219793481310" nodeInfo="ng">
                 <property name="text" nameId="p6sl.1680136183140337487" value="" />
