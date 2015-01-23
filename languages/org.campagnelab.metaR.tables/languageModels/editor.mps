@@ -2196,20 +2196,8 @@
         <property name="text" nameId="tpc2.1073389577007" value="named" />
         <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.FontStyleStyleClassItem" typeId="tpc2.1186403751766" id="8013388156563250242" nodeInfo="nn" />
       </node>
-      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="8013388156563250059" nodeInfo="nn">
-        <property name="text" nameId="tpc2.1073389577007" value="&quot;" />
-      </node>
-      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Property" typeId="tpc2.1073389658414" id="8013388156563250079" nodeInfo="ng">
-        <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="jrxw.8013388156563171419" resolveInfo="filename" />
-        <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.PunctuationLeftStyleClassItem" typeId="tpc2.1233758997495" id="3929971219796539049" nodeInfo="nn">
-          <property name="flag" nameId="tpc2.1186414551515" value="true" />
-        </node>
-        <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.PunctuationRightStyleClassItem" typeId="tpc2.1233759184865" id="3929971219796540486" nodeInfo="nn">
-          <property name="flag" nameId="tpc2.1186414551515" value="true" />
-        </node>
-      </node>
-      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="8013388156563250101" nodeInfo="nn">
-        <property name="text" nameId="tpc2.1073389577007" value="&quot;" />
+      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_RefNode" typeId="tpc2.1073389882823" id="3929971219797766625" nodeInfo="ng">
+        <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="jrxw.3929971219796733619" />
       </node>
       <node role="cellLayout" roleId="tpc2.1106270802874" type="tpc2.CellLayout_Indent" typeId="tpc2.1237303669825" id="8013388156563183723" nodeInfo="nn" />
       <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_RefCell" typeId="tpc2.1088013125922" id="4842667988073093781" nodeInfo="ng">
@@ -2473,22 +2461,8 @@
       <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="8031339867733061258" nodeInfo="nn">
         <property name="text" nameId="tpc2.1073389577007" value="to" />
       </node>
-      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Property" typeId="tpc2.1073389658414" id="8031339867733061268" nodeInfo="ng">
-        <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="jrxw.8031339867733060259" resolveInfo="path" />
-      </node>
-      <node role="childCellModel" roleId="tpc2.1073389446424" type="hut6.SingleFileSelection" typeId="hut6.5704832314575181087" id="8031339867733061280" nodeInfo="ng">
-        <property name="acceptFiles" nameId="hut6.9057833467352772432" value="true" />
-        <property name="defaultPath" nameId="hut6.9057833467352772434" value="./table.tsv" />
-        <link role="property" roleId="hut6.5704832314577455573" targetNodeId="jrxw.8031339867733060259" resolveInfo="path" />
-        <node role="button" roleId="hut6.5704832314575223446" type="hut6.FileSelectionButton" typeId="hut6.2954990197977599794" id="8031339867733061369" nodeInfo="ng">
-          <property name="acceptFiles" nameId="hut6.5693159665555023471" value="true" />
-          <node role="defaultPath" roleId="hut6.2020659516091712533" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="8031339867733061370" nodeInfo="nn">
-            <property name="value" nameId="tpee.1070475926801" value="./" />
-          </node>
-          <node role="handler" roleId="hut6.2020659516093754639" type="hut6.ProcessPathHandler" typeId="hut6.2020659516093694820" id="8031339867733061371" nodeInfo="ng">
-            <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="8031339867733061372" nodeInfo="sn" />
-          </node>
-        </node>
+      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_RefNode" typeId="tpc2.1073389882823" id="3929971219798686026" nodeInfo="ng">
+        <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="jrxw.3929971219796718185" />
       </node>
       <node role="cellLayout" roleId="tpc2.1106270802874" type="tpc2.CellLayout_Indent" typeId="tpc2.1237303669825" id="8031339867733061240" nodeInfo="nn" />
     </node>
@@ -3220,6 +3194,42 @@
         <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="jrxw.3929971219789681022" />
       </node>
       <node role="cellLayout" roleId="tpc2.1106270802874" type="tpc2.CellLayout_Indent" typeId="tpc2.1237303669825" id="3929971219794141991" nodeInfo="nn" />
+    </node>
+  </root>
+  <root type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="3929971219797766699" nodeInfo="ng">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="files" />
+    <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="jrxw.3929971219796704543" resolveInfo="OutputFile" />
+    <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_Collection" typeId="tpc2.1073389446423" id="3929971219798686051" nodeInfo="nn">
+      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="3929971219798827390" nodeInfo="nn">
+        <property name="text" nameId="tpc2.1073389577007" value="&quot;" />
+      </node>
+      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Property" typeId="tpc2.1073389658414" id="3929971219798686120" nodeInfo="ng">
+        <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="jrxw.3929971219796704769" resolveInfo="path" />
+        <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.PunctuationLeftStyleClassItem" typeId="tpc2.1233758997495" id="3929971219798827522" nodeInfo="nn">
+          <property name="flag" nameId="tpc2.1186414551515" value="true" />
+        </node>
+        <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.PunctuationRightStyleClassItem" typeId="tpc2.1233759184865" id="3929971219798827631" nodeInfo="nn">
+          <property name="flag" nameId="tpc2.1186414551515" value="true" />
+        </node>
+      </node>
+      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="3929971219798827408" nodeInfo="nn">
+        <property name="text" nameId="tpc2.1073389577007" value="&quot;" />
+      </node>
+      <node role="childCellModel" roleId="tpc2.1073389446424" type="hut6.SingleFileSelection" typeId="hut6.5704832314575181087" id="8031339867733061280" nodeInfo="ng">
+        <property name="acceptFiles" nameId="hut6.9057833467352772432" value="true" />
+        <property name="defaultPath" nameId="hut6.9057833467352772434" value="./table.tsv" />
+        <link role="property" roleId="hut6.5704832314577455573" targetNodeId="jrxw.3929971219796704769" resolveInfo="path" />
+        <node role="button" roleId="hut6.5704832314575223446" type="hut6.FileSelectionButton" typeId="hut6.2954990197977599794" id="8031339867733061369" nodeInfo="ng">
+          <property name="acceptFiles" nameId="hut6.5693159665555023471" value="true" />
+          <node role="defaultPath" roleId="hut6.2020659516091712533" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="8031339867733061370" nodeInfo="nn">
+            <property name="value" nameId="tpee.1070475926801" value="./" />
+          </node>
+          <node role="handler" roleId="hut6.2020659516093754639" type="hut6.ProcessPathHandler" typeId="hut6.2020659516093694820" id="8031339867733061371" nodeInfo="ng">
+            <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="8031339867733061372" nodeInfo="sn" />
+          </node>
+        </node>
+      </node>
+      <node role="cellLayout" roleId="tpc2.1106270802874" type="tpc2.CellLayout_Indent" typeId="tpc2.1237303669825" id="3929971219798686054" nodeInfo="nn" />
     </node>
   </root>
 </model>

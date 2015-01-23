@@ -692,6 +692,12 @@
       <property name="sourceCardinality" nameId="tpce.1071599893252" value="1" />
       <link role="target" roleId="tpce.1071599976176" targetNodeId="8013388156563171422" resolveInfo="RenderingFormat" />
     </node>
+    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="3929971219796733619" nodeInfo="ig">
+      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
+      <property name="role" nameId="tpce.1071599776563" value="path" />
+      <property name="sourceCardinality" nameId="tpce.1071599893252" value="1" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="3929971219796704543" resolveInfo="OutputFile" />
+    </node>
     <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="4842667988072482391" nodeInfo="ig">
       <property name="metaClass" nameId="tpce.1071599937831" value="reference" />
       <property name="role" nameId="tpce.1071599776563" value="style" />
@@ -707,6 +713,10 @@
     <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="8013388156563171419" nodeInfo="ig">
       <property name="name" nameId="tpck.1169194664001" value="filename" />
       <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpck.1082983041843" resolveInfo="string" />
+      <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpce.DeprecatedNodeAnnotation" typeId="tpce.1224240836180" id="3929971219796733674" nodeInfo="ig">
+        <property name="comment" nameId="tpce.1225118933224" value="Use path instead" />
+        <property name="build" nameId="tpce.1225118929411" value="1.1.5" />
+      </node>
     </node>
     <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="7501650211371751513" nodeInfo="ig">
       <property name="name" nameId="tpck.1169194664001" value="width" />
@@ -875,9 +885,19 @@
     <property name="conceptAlias" nameId="tpce.5092175715804935370" value="write" />
     <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="write a table to a file" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="8962032619593737384" resolveInfo="Statement" />
+    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="3929971219796718185" nodeInfo="ig">
+      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
+      <property name="role" nameId="tpce.1071599776563" value="outputPath" />
+      <property name="sourceCardinality" nameId="tpce.1071599893252" value="1" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="3929971219796704543" resolveInfo="OutputFile" />
+    </node>
     <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="8031339867733060259" nodeInfo="ig">
       <property name="name" nameId="tpck.1169194664001" value="path" />
       <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpck.1082983041843" resolveInfo="string" />
+      <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpce.DeprecatedNodeAnnotation" typeId="tpce.1224240836180" id="3929971219796718188" nodeInfo="ig">
+        <property name="comment" nameId="tpce.1225118933224" value="Use OutputFile instead" />
+        <property name="build" nameId="tpce.1225118929411" value="1.1.5" />
+      </node>
     </node>
     <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="8031339867734631313" nodeInfo="ig">
       <property name="name" nameId="tpck.1169194664001" value="withQuotes" />
@@ -1167,6 +1187,15 @@
       <property name="role" nameId="tpce.1071599776563" value="col" />
       <property name="sourceCardinality" nameId="tpce.1071599893252" value="1" />
       <link role="target" roleId="tpce.1071599976176" targetNodeId="3402264987262235801" resolveInfo="ColumnRef" />
+    </node>
+  </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="3929971219796704543" nodeInfo="ig">
+    <property name="name" nameId="tpck.1169194664001" value="OutputFile" />
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="files" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
+    <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="3929971219796704769" nodeInfo="ig">
+      <property name="name" nameId="tpck.1169194664001" value="path" />
+      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpck.1082983041843" resolveInfo="string" />
     </node>
   </root>
 </model>

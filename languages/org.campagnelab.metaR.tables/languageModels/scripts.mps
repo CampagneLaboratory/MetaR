@@ -14,7 +14,7 @@
   <import index="tp33" modelUID="r:00000000-0000-4000-0000-011c89590323(jetbrains.mps.lang.script.structure)" version="0" implicit="yes" />
   <root type="tp33.MigrationScript" typeId="tp33.1177457067821" id="8031339867720116828" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="MigrateGroupUsages" />
-    <property name="title" nameId="tp33.1177457669450" value="Migrate column group usages" />
+    <property name="title" nameId="tp33.1177457669450" value="MetaR: Migrate Column Group Usages" />
     <node role="part" roleId="tp33.1177458178889" type="tp33.MigrationScriptPart_Instance" typeId="tp33.1177457850499" id="8031339867720117111" nodeInfo="ng">
       <property name="description" nameId="tp33.1177457972041" value="Migrate Usages to References" />
       <property name="showAsIntention" nameId="tp33.1225457189692" value="true" />
@@ -225,7 +225,7 @@
   </root>
   <root type="tp33.MigrationScript" typeId="tp33.1177457067821" id="2826789978066366898" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="MigrateExpression" />
-    <property name="title" nameId="tp33.1177457669450" value="Migrate Expression for Column filters" />
+    <property name="title" nameId="tp33.1177457669450" value="MetaR: Migrate Expression for Column Filters" />
     <node role="part" roleId="tp33.1177458178889" type="tp33.MigrationScriptPart_Instance" typeId="tp33.1177457850499" id="2826789978066367426" nodeInfo="ng">
       <property name="description" nameId="tp33.1177457972041" value="migrate expression" />
       <property name="showAsIntention" nameId="tp33.1225457189692" value="true" />
@@ -296,7 +296,7 @@
   </root>
   <root type="tp33.MigrationScript" typeId="tp33.1177457067821" id="9080041854840924900" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="AddInputChangedProp" />
-    <property name="title" nameId="tp33.1177457669450" value="Add InputChanged property to FutureTableCreator" />
+    <property name="title" nameId="tp33.1177457669450" value="MetaR: Add InputChanged Property to FutureTableCreator" />
     <node role="part" roleId="tp33.1177458178889" type="tp33.MigrationScriptPart_Instance" typeId="tp33.1177457850499" id="9080041854840925080" nodeInfo="ng">
       <property name="description" nameId="tp33.1177457972041" value="Add InputChanged property" />
       <property name="showAsIntention" nameId="tp33.1225457189692" value="true" />
@@ -636,7 +636,7 @@
   </root>
   <root type="tp33.MigrationScript" typeId="tp33.1177457067821" id="8305352736415398941" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="AddPathToResolveProp" />
-    <property name="title" nameId="tp33.1177457669450" value="Add PathToResolve property to Tables" />
+    <property name="title" nameId="tp33.1177457669450" value="MetaR: Add PathToResolve Property to Tables" />
     <node role="part" roleId="tp33.1177458178889" type="tp33.MigrationScriptPart_Instance" typeId="tp33.1177457850499" id="8305352736415405550" nodeInfo="ng">
       <property name="description" nameId="tp33.1177457972041" value="Add PathToResolve property" />
       <property name="showAsIntention" nameId="tp33.1225457189692" value="true" />
@@ -888,6 +888,156 @@
                       <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="2826789978072740710" resolveInfo="copy" />
                     </node>
                   </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </root>
+  <root type="tp33.MigrationScript" typeId="tp33.1177457067821" id="3929971219797695115" nodeInfo="ng">
+    <property name="name" nameId="tpck.1169194664001" value="MigrateToOutputFile" />
+    <property name="title" nameId="tp33.1177457669450" value="MetaR: Migrate Output Filenames" />
+    <node role="part" roleId="tp33.1177458178889" type="tp33.MigrationScriptPart_Instance" typeId="tp33.1177457850499" id="3929971219797695563" nodeInfo="ng">
+      <property name="description" nameId="tp33.1177457972041" value="Migrate Render Output Filenames" />
+      <property name="showAsIntention" nameId="tp33.1225457189692" value="true" />
+      <link role="affectedInstanceConcept" roleId="tp33.1177457957477" targetNodeId="jrxw.8013388156563115186" resolveInfo="Render" />
+      <node role="affectedInstanceUpdater" roleId="tp33.1177458005323" type="tp33.MigrationScriptPart_Instance_Updater" typeId="tp33.1177458491964" id="3929971219797695565" nodeInfo="nn">
+        <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="3929971219797695567" nodeInfo="sn">
+          <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="3929971219797701815" nodeInfo="nn">
+            <node role="expression" roleId="tpee.1068580123156" type="tpee.AssignmentExpression" typeId="tpee.1068498886294" id="3929971219797703478" nodeInfo="nn">
+              <node role="rValue" roleId="tpee.1068498886297" type="tpee.GenericNewExpression" typeId="tpee.1145552977093" id="3929971219797703665" nodeInfo="nn">
+                <node role="creator" roleId="tpee.1145553007750" type="tp25.SNodeCreator" typeId="tp25.1180636770613" id="3929971219797703536" nodeInfo="nn">
+                  <node role="createdType" roleId="tp25.1180636770616" type="tp25.SNodeType" typeId="tp25.1138055754698" id="3929971219797703537" nodeInfo="in">
+                    <link role="concept" roleId="tp25.1138405853777" targetNodeId="jrxw.3929971219796704543" resolveInfo="OutputFile" />
+                  </node>
+                </node>
+              </node>
+              <node role="lValue" roleId="tpee.1068498886295" type="tpee.DotExpression" typeId="tpee.1197027756228" id="3929971219797701931" nodeInfo="nn">
+                <node role="operand" roleId="tpee.1197027771414" type="tp33.MigrationScriptPart_node" typeId="tp33.1177458237937" id="3929971219797701814" nodeInfo="nn" />
+                <node role="operation" roleId="tpee.1197027833540" type="tp25.SLinkAccess" typeId="tp25.1138056143562" id="3929971219797704486" nodeInfo="nn">
+                  <link role="link" roleId="tp25.1138056516764" targetNodeId="jrxw.3929971219796733619" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="3929971219797704967" nodeInfo="nn">
+            <node role="expression" roleId="tpee.1068580123156" type="tpee.AssignmentExpression" typeId="tpee.1068498886294" id="3929971219797710544" nodeInfo="nn">
+              <node role="rValue" roleId="tpee.1068498886297" type="tpee.DotExpression" typeId="tpee.1197027756228" id="3929971219797710900" nodeInfo="nn">
+                <node role="operand" roleId="tpee.1197027771414" type="tp33.MigrationScriptPart_node" typeId="tp33.1177458237937" id="3929971219797710775" nodeInfo="nn" />
+                <node role="operation" roleId="tpee.1197027833540" type="tp25.SPropertyAccess" typeId="tp25.1138056022639" id="3929971219797711603" nodeInfo="nn">
+                  <link role="property" roleId="tp25.1138056395725" targetNodeId="jrxw.8013388156563171419" resolveInfo="filename" />
+                </node>
+              </node>
+              <node role="lValue" roleId="tpee.1068498886295" type="tpee.DotExpression" typeId="tpee.1197027756228" id="3929971219797708452" nodeInfo="nn">
+                <node role="operand" roleId="tpee.1197027771414" type="tpee.DotExpression" typeId="tpee.1197027756228" id="3929971219797705099" nodeInfo="nn">
+                  <node role="operand" roleId="tpee.1197027771414" type="tp33.MigrationScriptPart_node" typeId="tp33.1177458237937" id="3929971219797704965" nodeInfo="nn" />
+                  <node role="operation" roleId="tpee.1197027833540" type="tp25.SLinkAccess" typeId="tp25.1138056143562" id="3929971219797706818" nodeInfo="nn">
+                    <link role="link" roleId="tp25.1138056516764" targetNodeId="jrxw.3929971219796733619" />
+                  </node>
+                </node>
+                <node role="operation" roleId="tpee.1197027833540" type="tp25.SPropertyAccess" typeId="tp25.1138056022639" id="3929971219797709436" nodeInfo="nn">
+                  <link role="property" roleId="tp25.1138056395725" targetNodeId="jrxw.3929971219796704769" resolveInfo="path" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="3929971219797712164" nodeInfo="nn">
+            <node role="expression" roleId="tpee.1068580123156" type="tpee.AssignmentExpression" typeId="tpee.1068498886294" id="3929971219797715366" nodeInfo="nn">
+              <node role="rValue" roleId="tpee.1068498886297" type="tpee.NullLiteral" typeId="tpee.1070534058343" id="3929971219797715419" nodeInfo="nn" />
+              <node role="lValue" roleId="tpee.1068498886295" type="tpee.DotExpression" typeId="tpee.1197027756228" id="3929971219797712310" nodeInfo="nn">
+                <node role="operand" roleId="tpee.1197027771414" type="tp33.MigrationScriptPart_node" typeId="tp33.1177458237937" id="3929971219797712162" nodeInfo="nn" />
+                <node role="operation" roleId="tpee.1197027833540" type="tp25.SPropertyAccess" typeId="tp25.1138056022639" id="3929971219797714045" nodeInfo="nn">
+                  <link role="property" roleId="tp25.1138056395725" targetNodeId="jrxw.8013388156563171419" resolveInfo="filename" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node role="affectedInstancePredicate" roleId="tp33.1177457957478" type="tp33.MigrationScriptPart_Instance_Predicate" typeId="tp33.1177458061340" id="3929971219797695572" nodeInfo="nn">
+        <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="3929971219797695573" nodeInfo="sn">
+          <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="3929971219797696223" nodeInfo="nn">
+            <node role="expression" roleId="tpee.1068580123156" type="tpee.NotEqualsExpression" typeId="tpee.1073239437375" id="3929971219797700657" nodeInfo="nn">
+              <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.NullLiteral" typeId="tpee.1070534058343" id="3929971219797701043" nodeInfo="nn" />
+              <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.DotExpression" typeId="tpee.1197027756228" id="3929971219797696541" nodeInfo="nn">
+                <node role="operand" roleId="tpee.1197027771414" type="tp33.MigrationScriptPart_node" typeId="tp33.1177458237937" id="3929971219797696222" nodeInfo="nn" />
+                <node role="operation" roleId="tpee.1197027833540" type="tp25.SPropertyAccess" typeId="tp25.1138056022639" id="3929971219797698547" nodeInfo="nn">
+                  <link role="property" roleId="tp25.1138056395725" targetNodeId="jrxw.8013388156563171419" resolveInfo="filename" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node role="part" roleId="tp33.1177458178889" type="tp33.MigrationScriptPart_Instance" typeId="tp33.1177457850499" id="3929971219797726941" nodeInfo="ng">
+      <property name="description" nameId="tp33.1177457972041" value="Migrate WriteTable Output Filenames" />
+      <property name="showAsIntention" nameId="tp33.1225457189692" value="true" />
+      <link role="affectedInstanceConcept" roleId="tp33.1177457957477" targetNodeId="jrxw.8031339867733060044" resolveInfo="WriteTable" />
+      <node role="affectedInstanceUpdater" roleId="tp33.1177458005323" type="tp33.MigrationScriptPart_Instance_Updater" typeId="tp33.1177458491964" id="3929971219797726943" nodeInfo="nn">
+        <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="3929971219797726945" nodeInfo="sn">
+          <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="3929971219797734583" nodeInfo="nn">
+            <node role="expression" roleId="tpee.1068580123156" type="tpee.AssignmentExpression" typeId="tpee.1068498886294" id="3929971219797734584" nodeInfo="nn">
+              <node role="rValue" roleId="tpee.1068498886297" type="tpee.GenericNewExpression" typeId="tpee.1145552977093" id="3929971219797734585" nodeInfo="nn">
+                <node role="creator" roleId="tpee.1145553007750" type="tp25.SNodeCreator" typeId="tp25.1180636770613" id="3929971219797734586" nodeInfo="nn">
+                  <node role="createdType" roleId="tp25.1180636770616" type="tp25.SNodeType" typeId="tp25.1138055754698" id="3929971219797734587" nodeInfo="in">
+                    <link role="concept" roleId="tp25.1138405853777" targetNodeId="jrxw.3929971219796704543" resolveInfo="OutputFile" />
+                  </node>
+                </node>
+              </node>
+              <node role="lValue" roleId="tpee.1068498886295" type="tpee.DotExpression" typeId="tpee.1197027756228" id="3929971219797734588" nodeInfo="nn">
+                <node role="operand" roleId="tpee.1197027771414" type="tp33.MigrationScriptPart_node" typeId="tp33.1177458237937" id="3929971219797734589" nodeInfo="nn" />
+                <node role="operation" roleId="tpee.1197027833540" type="tp25.SLinkAccess" typeId="tp25.1138056143562" id="3929971219797740586" nodeInfo="nn">
+                  <link role="link" roleId="tp25.1138056516764" targetNodeId="jrxw.3929971219796718185" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="3929971219797734591" nodeInfo="nn">
+            <node role="expression" roleId="tpee.1068580123156" type="tpee.AssignmentExpression" typeId="tpee.1068498886294" id="3929971219797734592" nodeInfo="nn">
+              <node role="rValue" roleId="tpee.1068498886297" type="tpee.DotExpression" typeId="tpee.1197027756228" id="3929971219797734593" nodeInfo="nn">
+                <node role="operand" roleId="tpee.1197027771414" type="tp33.MigrationScriptPart_node" typeId="tp33.1177458237937" id="3929971219797734594" nodeInfo="nn" />
+                <node role="operation" roleId="tpee.1197027833540" type="tp25.SPropertyAccess" typeId="tp25.1138056022639" id="3929971219797745132" nodeInfo="nn">
+                  <link role="property" roleId="tp25.1138056395725" targetNodeId="jrxw.8031339867733060259" resolveInfo="path" />
+                </node>
+              </node>
+              <node role="lValue" roleId="tpee.1068498886295" type="tpee.DotExpression" typeId="tpee.1197027756228" id="3929971219797734596" nodeInfo="nn">
+                <node role="operand" roleId="tpee.1197027771414" type="tpee.DotExpression" typeId="tpee.1197027756228" id="3929971219797734597" nodeInfo="nn">
+                  <node role="operand" roleId="tpee.1197027771414" type="tp33.MigrationScriptPart_node" typeId="tp33.1177458237937" id="3929971219797734598" nodeInfo="nn" />
+                  <node role="operation" roleId="tpee.1197027833540" type="tp25.SLinkAccess" typeId="tp25.1138056143562" id="3929971219797742788" nodeInfo="nn">
+                    <link role="link" roleId="tp25.1138056516764" targetNodeId="jrxw.3929971219796718185" />
+                  </node>
+                </node>
+                <node role="operation" roleId="tpee.1197027833540" type="tp25.SPropertyAccess" typeId="tp25.1138056022639" id="3929971219797734600" nodeInfo="nn">
+                  <link role="property" roleId="tp25.1138056395725" targetNodeId="jrxw.3929971219796704769" resolveInfo="path" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="3929971219797734601" nodeInfo="nn">
+            <node role="expression" roleId="tpee.1068580123156" type="tpee.AssignmentExpression" typeId="tpee.1068498886294" id="3929971219797734602" nodeInfo="nn">
+              <node role="rValue" roleId="tpee.1068498886297" type="tpee.NullLiteral" typeId="tpee.1070534058343" id="3929971219797734603" nodeInfo="nn" />
+              <node role="lValue" roleId="tpee.1068498886295" type="tpee.DotExpression" typeId="tpee.1197027756228" id="3929971219797734604" nodeInfo="nn">
+                <node role="operand" roleId="tpee.1197027771414" type="tp33.MigrationScriptPart_node" typeId="tp33.1177458237937" id="3929971219797734605" nodeInfo="nn" />
+                <node role="operation" roleId="tpee.1197027833540" type="tp25.SPropertyAccess" typeId="tp25.1138056022639" id="3929971219797747057" nodeInfo="nn">
+                  <link role="property" roleId="tp25.1138056395725" targetNodeId="jrxw.8031339867733060259" resolveInfo="path" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node role="affectedInstancePredicate" roleId="tp33.1177457957478" type="tp33.MigrationScriptPart_Instance_Predicate" typeId="tp33.1177458061340" id="3929971219797728217" nodeInfo="nn">
+        <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="3929971219797728218" nodeInfo="sn">
+          <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="3929971219797728868" nodeInfo="nn">
+            <node role="expression" roleId="tpee.1068580123156" type="tpee.NotEqualsExpression" typeId="tpee.1073239437375" id="3929971219797733321" nodeInfo="nn">
+              <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.NullLiteral" typeId="tpee.1070534058343" id="3929971219797733706" nodeInfo="nn" />
+              <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.DotExpression" typeId="tpee.1197027756228" id="3929971219797729186" nodeInfo="nn">
+                <node role="operand" roleId="tpee.1197027771414" type="tp33.MigrationScriptPart_node" typeId="tp33.1177458237937" id="3929971219797728867" nodeInfo="nn" />
+                <node role="operation" roleId="tpee.1197027833540" type="tp25.SPropertyAccess" typeId="tp25.1138056022639" id="3929971219797731193" nodeInfo="nn">
+                  <link role="property" roleId="tp25.1138056395725" targetNodeId="jrxw.8031339867733060259" resolveInfo="path" />
                 </node>
               </node>
             </node>
