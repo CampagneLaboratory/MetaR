@@ -137,11 +137,11 @@ public class QueriesGenerated {
       public String select(SNode it) {
         return "";
       }
-    }), "\", \".") + "\"";
+    }), "\", \"") + "\"";
   }
 
   public static Object propertyMacro_GetPropertyValue_1069056208673320418(final PropertyMacroContext _context) {
-    String colNames = SetSequence.fromSet(IColumnNames_Behavior.call_getColumnNames_8154356758121880727(SLinkOperations.getTarget(_context.getNode(), "byKeySelection", true), ListSequence.fromList(SLinkOperations.getTargets(_context.getNode(), "inputTables", true)).where(new IWhereFilter<SNode>() {
+    String colNames = IterableUtils.join(SetSequence.fromSet(IColumnNames_Behavior.call_getColumnNames_8154356758121880727(SLinkOperations.getTarget(_context.getNode(), "byKeySelection", true), ListSequence.fromList(SLinkOperations.getTargets(_context.getNode(), "inputTables", true)).where(new IWhereFilter<SNode>() {
       public boolean accept(SNode it) {
         return (SLinkOperations.getTarget(it, "table", false) != null);
       }
@@ -165,7 +165,7 @@ public class QueriesGenerated {
       public String select(String it) {
         return "\"" + it + "\"";
       }
-    }).first();
+    }), ",");
     return colNames;
   }
 
@@ -1096,7 +1096,7 @@ public class QueriesGenerated {
   public static Iterable<SNode> sourceNodesQuery_7828334301290977218(final SourceSubstituteMacroNodesContext _context) {
     if (ListSequence.fromList(SLinkOperations.getTargets(_context.getNode(), "inputTables", true)).count() >= 2) {
       // we exclude the first two 
-      return ListSequence.fromList(SLinkOperations.getTargets(_context.getNode(), "inputTables", true)).subListSequence(2, ListSequence.fromList(SLinkOperations.getTargets(_context.getNode(), "inputTables", true)).count());
+      return SLinkOperations.getTargets(_context.getNode(), "inputTables", true);
     } else {
       // otherwise there is nothing to do 
       return Sequence.fromIterable(Collections.<SNode>emptyList());
