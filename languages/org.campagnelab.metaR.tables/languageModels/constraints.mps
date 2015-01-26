@@ -1252,5 +1252,36 @@
     <property name="virtualPackage" nameId="tpck.1193676396447" value="plots" />
     <link role="concept" roleId="tp1t.1213093996982" targetNodeId="jrxw.8013388156564358393" resolveInfo="PlotBuilderStatement" />
   </root>
+  <root type="tp1t.ConceptConstraints" typeId="tp1t.1213093968558" id="8361613543707835698" nodeInfo="ng">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="annotations" />
+    <link role="concept" roleId="tp1t.1213093996982" targetNodeId="jrxw.8031339867720116703" resolveInfo="UsageTypeRef" />
+    <node role="referent" roleId="tp1t.1213100494875" type="tp1t.NodeReferentConstraint" typeId="tp1t.1148687176410" id="8361613543707836301" nodeInfo="ng">
+      <link role="applicableLink" roleId="tp1t.1148687202698" targetNodeId="jrxw.8031339867720116704" />
+      <node role="searchScopeFactory" roleId="tp1t.1148687345559" type="tp1t.ConstraintFunction_ReferentSearchScope_Scope" typeId="tp1t.5676632058862809931" id="8361613543707836305" nodeInfo="nn">
+        <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="8361613543707836307" nodeInfo="sn">
+          <node role="statement" roleId="tpee.1068581517665" type="tpee.ReturnStatement" typeId="tpee.1068581242878" id="8361613543707910798" nodeInfo="nn">
+            <node role="expression" roleId="tpee.1068581517676" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="8361613543707837016" nodeInfo="nn">
+              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="vyt2.~ListScope%dforNamedElements(java%dlang%dIterable)%cjetbrains%dmps%dscope%dListScope" resolveInfo="forNamedElements" />
+              <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="vyt2.~ListScope" resolveInfo="ListScope" />
+              <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.DotExpression" typeId="tpee.1197027756228" id="8361613543707901594" nodeInfo="nn">
+                <node role="operand" roleId="tpee.1197027771414" type="tpee.DotExpression" typeId="tpee.1197027756228" id="8361613543707883232" nodeInfo="nn">
+                  <node role="operand" roleId="tpee.1197027771414" type="tpee.DotExpression" typeId="tpee.1197027756228" id="8361613543707838705" nodeInfo="nn">
+                    <node role="operand" roleId="tpee.1197027771414" type="tpcw.ConceptFunctionParameter_model" typeId="tpcw.1161622665029" id="8361613543707837825" nodeInfo="nn" />
+                    <node role="operation" roleId="tpee.1197027833540" type="tp25.Model_RootsOperation" typeId="tp25.1171315804604" id="8361613543707840055" nodeInfo="nn">
+                      <link role="concept" roleId="tp25.1171315804605" targetNodeId="jrxw.3402264987265829888" resolveInfo="ColumnGroupContainer" />
+                    </node>
+                  </node>
+                  <node role="operation" roleId="tpee.1197027833540" type="tp2q.GetFirstOperation" typeId="tp2q.1165525191778" id="8361613543707895775" nodeInfo="nn" />
+                </node>
+                <node role="operation" roleId="tpee.1197027833540" type="tp25.SLinkListAccess" typeId="tp25.1138056282393" id="8361613543707902908" nodeInfo="nn">
+                  <link role="link" roleId="tp25.1138056546658" targetNodeId="jrxw.8031339867719794365" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </root>
 </model>
 
