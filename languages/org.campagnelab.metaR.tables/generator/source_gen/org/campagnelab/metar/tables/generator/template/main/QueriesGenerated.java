@@ -40,6 +40,9 @@ import jetbrains.mps.generator.template.IfMacroContext;
 import jetbrains.mps.generator.template.SourceSubstituteMacroNodeContext;
 import jetbrains.mps.generator.template.TemplateQueryContext;
 import jetbrains.mps.generator.template.SourceSubstituteMacroNodesContext;
+import jetbrains.mps.util.Triplet;
+import org.campagnelab.metar.tables.behavior.JoinTables_Behavior;
+import java.util.Collections;
 import org.campagnelab.metar.tables.behavior.TableRef_Behavior;
 import jetbrains.mps.generator.template.MappingScriptContext;
 import java.util.Set;
@@ -122,12 +125,9 @@ public class QueriesGenerated {
     return ((String) _context.getVariable("var:globalColName"));
   }
 
-  public static Object propertyMacro_GetPropertyValue_2826789978070879122(final PropertyMacroContext _context) {
-    return NameHelper.RName(SPropertyOperations.getString(SLinkOperations.getTarget(_context.getNode(), "outputTable", true), "name"));
-  }
-
-  public static Object propertyMacro_GetPropertyValue_3377220465483753723(final PropertyMacroContext _context) {
-    return IterableUtils.join(ListSequence.fromList(SLinkOperations.getTargets(_context.getNode(), "inputTables", true)).where(new IWhereFilter<SNode>() {
+  public static Object propertyMacro_GetPropertyValue_1069056208673260529(final PropertyMacroContext _context) {
+    // we will use empty suffixes, columns at this point have been already renamed 
+    return "\"" + IterableUtils.join(ListSequence.fromList(SLinkOperations.getTargets(_context.getNode(), "inputTables", true)).where(new IWhereFilter<SNode>() {
       public boolean accept(SNode it) {
         return (SLinkOperations.getTarget(it, "table", false) != null);
       }
@@ -137,13 +137,13 @@ public class QueriesGenerated {
       }
     }).select(new ISelector<SNode, String>() {
       public String select(SNode it) {
-        return NameHelper.RName(SPropertyOperations.getString(it, "name"));
+        return "";
       }
-    }), ", ");
+    }), "\", \"") + "\"";
   }
 
-  public static Object propertyMacro_GetPropertyValue_3929971219788022406(final PropertyMacroContext _context) {
-    String colName = SetSequence.fromSet(IColumnNames_Behavior.call_getColumnNames_8154356758121880727(SLinkOperations.getTarget(_context.getNode(), "byKeySelection", true), ListSequence.fromList(SLinkOperations.getTargets(_context.getNode(), "inputTables", true)).where(new IWhereFilter<SNode>() {
+  public static Object propertyMacro_GetPropertyValue_1069056208673320418(final PropertyMacroContext _context) {
+    String colNames = IterableUtils.join(SetSequence.fromSet(IColumnNames_Behavior.call_getColumnNames_8154356758121880727(SLinkOperations.getTarget(_context.getNode(), "byKeySelection", true), ListSequence.fromList(SLinkOperations.getTargets(_context.getNode(), "inputTables", true)).where(new IWhereFilter<SNode>() {
       public boolean accept(SNode it) {
         return (SLinkOperations.getTarget(it, "table", false) != null);
       }
@@ -167,45 +167,36 @@ public class QueriesGenerated {
       public String select(String it) {
         return "\"" + it + "\"";
       }
-    }).first();
-    return colName;
+    }), ",");
+    return colNames;
   }
 
-  public static Object propertyMacro_GetPropertyValue_1069056208663943300(final PropertyMacroContext _context) {
-    return "\"." + IterableUtils.join(ListSequence.fromList(SLinkOperations.getTargets(_context.getNode(), "inputTables", true)).where(new IWhereFilter<SNode>() {
-      public boolean accept(SNode it) {
-        return (SLinkOperations.getTarget(it, "table", false) != null);
-      }
-    }).select(new ISelector<SNode, SNode>() {
-      public SNode select(SNode it) {
-        return SLinkOperations.getTarget(it, "table", false);
-      }
-    }).select(new ISelector<SNode, String>() {
-      public String select(SNode it) {
-        return NameHelper.RName(SPropertyOperations.getString(it, "name"));
-      }
-    }), "\", \".") + "\"";
-
+  public static Object propertyMacro_GetPropertyValue_6237938626191448462(final PropertyMacroContext _context) {
+    return NameHelper.RName(SPropertyOperations.getString(SLinkOperations.getTarget(ListSequence.fromList(SLinkOperations.getTargets(_context.getNode(), "inputTables", true)).getElement(0), "table", false), "name"));
   }
 
-  public static Object propertyMacro_GetPropertyValue_8154356758127951453(final PropertyMacroContext _context) {
-    return NameHelper.RName(SPropertyOperations.getString(SLinkOperations.getTarget(SNodeOperations.getAncestor(_context.getNode(), "org.campagnelab.metar.tables.structure.JoinTables", false, false), "outputTable", true), "name"));
+  public static Object propertyMacro_GetPropertyValue_1069056208674467814(final PropertyMacroContext _context) {
+    return NameHelper.RName(SPropertyOperations.getString(SLinkOperations.getTarget(SNodeOperations.cast(_context.getNode(), "org.campagnelab.metar.tables.structure.FutureTableRef"), "table", false), "name"));
   }
 
-  public static Object propertyMacro_GetPropertyValue_8154356758127906631(final PropertyMacroContext _context) {
-    return NameHelper.RName(SPropertyOperations.getString(SLinkOperations.getTarget(SNodeOperations.getAncestor(_context.getNode(), "org.campagnelab.metar.tables.structure.JoinTables", false, false), "outputTable", true), "name"));
+  public static Object propertyMacro_GetPropertyValue_6237938626192318759(final PropertyMacroContext _context) {
+    return NameHelper.RName("merged" + SPropertyOperations.getString(SLinkOperations.getTarget(SNodeOperations.cast(_context.getNode(), "org.campagnelab.metar.tables.structure.FutureTableRef"), "table", false), "name"));
   }
 
-  public static Object propertyMacro_GetPropertyValue_8154356758127906645(final PropertyMacroContext _context) {
-    return ((String) _context.getVariable("var:columnName"));
+  public static Object propertyMacro_GetPropertyValue_6237938626192724756(final PropertyMacroContext _context) {
+    return NameHelper.RName("merged" + SPropertyOperations.getString(SLinkOperations.getTarget(SNodeOperations.cast(_context.getNode(), "org.campagnelab.metar.tables.structure.FutureTableRef"), "table", false), "name"));
   }
 
-  public static Object propertyMacro_GetPropertyValue_8154356758128214908(final PropertyMacroContext _context) {
-    return NameHelper.RName(SPropertyOperations.getString(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "table", false), "table", false), "name"));
+  public static Object propertyMacro_GetPropertyValue_1069056208673454305(final PropertyMacroContext _context) {
+    return NameHelper.RName(SPropertyOperations.getString(SLinkOperations.getTarget(_context.getNode(), "outputTable", true), "name"));
   }
 
-  public static Object propertyMacro_GetPropertyValue_8154356758127906654(final PropertyMacroContext _context) {
-    return ((String) _context.getVariable("var:globalColName"));
+  public static Object propertyMacro_GetPropertyValue_6237938626192369264(final PropertyMacroContext _context) {
+    return NameHelper.RName("merged" + SPropertyOperations.getString(SLinkOperations.getTarget(ListSequence.fromList(SLinkOperations.getTargets(_context.getNode(), "inputTables", true)).last(), "table", false), "name"));
+  }
+
+  public static Object propertyMacro_GetPropertyValue_6237938626192406160(final PropertyMacroContext _context) {
+    return NameHelper.RName("merged" + SPropertyOperations.getString(SLinkOperations.getTarget(ListSequence.fromList(SLinkOperations.getTargets(_context.getNode(), "inputTables", true)).last(), "table", false), "name"));
   }
 
   public static Object propertyMacro_GetPropertyValue_3929971219794998773(final PropertyMacroContext _context) {
@@ -1015,12 +1006,8 @@ public class QueriesGenerated {
     return neq_x583g4_a0a0mg(((String) _context.getVariable("var:columnName")), ((String) _context.getVariable("var:globalColName")));
   }
 
-  public static boolean ifMacro_Condition_8154356758127906746(final IfMacroContext _context) {
-    return neq_x583g4_a0a0ng(((String) _context.getVariable("var:columnName")), ((String) _context.getVariable("var:globalColName")));
-  }
-
   public static boolean ifMacro_Condition_3929971219794998888(final IfMacroContext _context) {
-    return neq_x583g4_a0a0og(((String) _context.getVariable("var:columnName")), ((String) _context.getVariable("var:globalColName")));
+    return neq_x583g4_a0a0ng(((String) _context.getVariable("var:columnName")), ((String) _context.getVariable("var:globalColName")));
   }
 
   public static boolean ifMacro_Condition_5703306641533761565(final IfMacroContext _context) {
@@ -1104,8 +1091,42 @@ public class QueriesGenerated {
     return SLinkOperations.getTargets(_context.getNode(), "inputTables", true);
   }
 
-  public static Iterable<SNode> sourceNodesQuery_8154356758127906662(final SourceSubstituteMacroNodesContext _context) {
-    return SLinkOperations.getTargets(_context.getNode(), "inputTables", true);
+  public static Iterable<SNode> sourceNodesQuery_6237938626196222413(final SourceSubstituteMacroNodesContext _context) {
+    List<SNode> lines = ListSequence.fromList(new ArrayList<SNode>());
+    for (Triplet<String, String, String> col : ListSequence.fromList(JoinTables_Behavior.call_getColumnsToRename_1069056208669412476(_context.getNode()))) {
+      StringBuilder builder = new StringBuilder();
+      builder.append("rename(").append(col.first());
+      builder.append(", c(\"").append(col.second());
+      builder.append("\"=\"").append(col.third()).append("\"))");
+      SNode line = SConceptOperations.createNewNode("org.campagnelab.textoutput.structure.Phrase", null);
+      SPropertyOperations.set(line, "text", builder.toString());
+      ListSequence.fromList(lines).addElement(line);
+    }
+    return lines;
+  }
+
+  public static Iterable<SNode> sourceNodesQuery_7828334301290977218(final SourceSubstituteMacroNodesContext _context) {
+    if (ListSequence.fromList(SLinkOperations.getTargets(_context.getNode(), "inputTables", true)).count() >= 2) {
+      // we exclude the first one 
+      return ListSequence.fromList(SLinkOperations.getTargets(_context.getNode(), "inputTables", true)).subListSequence(1, ListSequence.fromList(SLinkOperations.getTargets(_context.getNode(), "inputTables", true)).count());
+    } else {
+      // otherwise there is nothing to do 
+      return Sequence.fromIterable(Collections.<SNode>emptyList());
+    }
+  }
+
+  public static Iterable<SNode> sourceNodesQuery_6237938626199004877(final SourceSubstituteMacroNodesContext _context) {
+    List<SNode> lines = ListSequence.fromList(new ArrayList<SNode>());
+    for (Triplet<String, String, String> col : ListSequence.fromList(JoinTables_Behavior.call_getColumnsToRename_1069056208669412476(_context.getNode()))) {
+      StringBuilder builder = new StringBuilder();
+      builder.append("rename(").append(col.first());
+      builder.append(", c(\"").append(col.third());
+      builder.append("\"=\"").append(col.second()).append("\"))");
+      SNode line = SConceptOperations.createNewNode("org.campagnelab.textoutput.structure.Phrase", null);
+      SPropertyOperations.set(line, "text", builder.toString());
+      ListSequence.fromList(lines).addElement(line);
+    }
+    return lines;
   }
 
   public static Iterable<SNode> sourceNodesQuery_3929971219794998804(final SourceSubstituteMacroNodesContext _context) {
@@ -1179,7 +1200,7 @@ public class QueriesGenerated {
           }
         }).any(new IWhereFilter<SNode>() {
           public boolean accept(SNode group) {
-            return eq_x583g4_a0a0a0a0a0a0a0a0a0a0a791(SPropertyOperations.getString(group, "name"), "ID");
+            return eq_x583g4_a0a0a0a0a0a0a0a0a0a0a891(SPropertyOperations.getString(group, "name"), "ID");
           }
         });
       }
@@ -1187,32 +1208,6 @@ public class QueriesGenerated {
   }
 
   public static Object insertMacro_varValue_8154356758117577428(final TemplateQueryContext _context) {
-    SNode joinStatement = SNodeOperations.getAncestor(_context.getNode(), "org.campagnelab.metar.tables.structure.JoinTables", false, false);
-    String columnName = SetSequence.fromSet(BehaviorReflection.invokeVirtual((Class<Set<String>>) ((Class) Object.class), SLinkOperations.getTarget(joinStatement, "byKeySelection", true), "virtual_getColumnNames_8016431400515512083", new Object[]{SLinkOperations.getTargets(SLinkOperations.getTarget(SLinkOperations.getTarget(ListSequence.fromList(SLinkOperations.getTargets(joinStatement, "inputTables", true)).first(), "table", false), "table", false), "columns", true), null})).first();
-    return columnName;
-  }
-
-  public static Object insertMacro_varValue_8154356758127906669(final TemplateQueryContext _context) {
-    return SPropertyOperations.getString(ListSequence.fromList(SLinkOperations.getTargets(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "table", false), "table", false), "columns", true)).findFirst(new IWhereFilter<SNode>() {
-      public boolean accept(SNode col) {
-        return ListSequence.fromList(SLinkOperations.getTargets(AttributeOperations.getAttribute(col, new IAttributeDescriptor.NodeAttribute("org.campagnelab.metar.tables.structure.ColumnAnnotation")), "groups", true)).where(new IWhereFilter<SNode>() {
-          public boolean accept(SNode it) {
-            return (SLinkOperations.getTarget(it, "columnGroup", false) != null);
-          }
-        }).select(new ISelector<SNode, SNode>() {
-          public SNode select(SNode it) {
-            return SLinkOperations.getTarget(it, "columnGroup", false);
-          }
-        }).any(new IWhereFilter<SNode>() {
-          public boolean accept(SNode group) {
-            return eq_x583g4_a0a0a0a0a0a0a0a0a0a0a991(SPropertyOperations.getString(group, "name"), "ID");
-          }
-        });
-      }
-    }), "name");
-  }
-
-  public static Object insertMacro_varValue_8154356758127906710(final TemplateQueryContext _context) {
     SNode joinStatement = SNodeOperations.getAncestor(_context.getNode(), "org.campagnelab.metar.tables.structure.JoinTables", false, false);
     String columnName = SetSequence.fromSet(BehaviorReflection.invokeVirtual((Class<Set<String>>) ((Class) Object.class), SLinkOperations.getTarget(joinStatement, "byKeySelection", true), "virtual_getColumnNames_8016431400515512083", new Object[]{SLinkOperations.getTargets(SLinkOperations.getTarget(SLinkOperations.getTarget(ListSequence.fromList(SLinkOperations.getTargets(joinStatement, "inputTables", true)).first(), "table", false), "table", false), "columns", true), null})).first();
     return columnName;
@@ -1231,7 +1226,7 @@ public class QueriesGenerated {
           }
         }).any(new IWhereFilter<SNode>() {
           public boolean accept(SNode group) {
-            return eq_x583g4_a0a0a0a0a0a0a0a0a0a0a102(SPropertyOperations.getString(group, "name"), "ID");
+            return eq_x583g4_a0a0a0a0a0a0a0a0a0a0a002(SPropertyOperations.getString(group, "name"), "ID");
           }
         });
       }
@@ -1286,19 +1281,11 @@ public class QueriesGenerated {
     return !((a != null ? a.equals(b) : a == b));
   }
 
-  private static boolean neq_x583g4_a0a0og(Object a, Object b) {
-    return !((a != null ? a.equals(b) : a == b));
-  }
-
-  private static boolean eq_x583g4_a0a0a0a0a0a0a0a0a0a0a791(Object a, Object b) {
+  private static boolean eq_x583g4_a0a0a0a0a0a0a0a0a0a0a891(Object a, Object b) {
     return (a != null ? a.equals(b) : a == b);
   }
 
-  private static boolean eq_x583g4_a0a0a0a0a0a0a0a0a0a0a991(Object a, Object b) {
-    return (a != null ? a.equals(b) : a == b);
-  }
-
-  private static boolean eq_x583g4_a0a0a0a0a0a0a0a0a0a0a102(Object a, Object b) {
+  private static boolean eq_x583g4_a0a0a0a0a0a0a0a0a0a0a002(Object a, Object b) {
     return (a != null ? a.equals(b) : a == b);
   }
 }
