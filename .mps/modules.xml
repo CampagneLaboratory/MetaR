@@ -15,6 +15,7 @@
       <modulePath path="$PROJECT_DIR$/solutions/MetaR.Workshop/MetaR.Workshop.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/build.plugins/build.plugins.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/org.campagnelab.runR/org.campagnelab.runR.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/../MetaR_LabModels/solutions/Playground.msd" folder="" />
     </projectModules>
   </component>
 </project>
