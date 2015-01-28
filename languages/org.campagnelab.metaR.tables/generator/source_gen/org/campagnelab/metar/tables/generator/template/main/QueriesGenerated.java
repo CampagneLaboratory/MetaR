@@ -31,7 +31,6 @@ import org.campagnelab.metar.tables.behavior.Heatmap_Behavior;
 import jetbrains.mps.internal.collections.runtime.IVisitor;
 import org.campagnelab.metar.tables.behavior.Plot_Behavior;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
-import org.campagnelab.metar.tables.behavior.Statement_Behavior;
 import org.campagnelab.metar.tables.behavior.Multiplot_Behavior;
 import jetbrains.mps.smodel.behaviour.BehaviorReflection;
 import org.campagnelab.metar.tables.behavior.Render_Behavior;
@@ -1076,6 +1075,25 @@ public class QueriesGenerated {
       // otherwise there is nothing to do 
       return Sequence.fromIterable(Collections.<SNode>emptyList());
     }
+  }
+
+  public static Iterable<SNode> sourceNodesQuery_7541398758688356343(final SourceSubstituteMacroNodesContext _context) {
+    List<SNode> lines = ListSequence.fromList(new ArrayList<SNode>());
+    String mergedTable = NameHelper.RName(SPropertyOperations.getString(SLinkOperations.getTarget(_context.getNode(), "outputTable", true), "name"));
+    for (Triplet<String, String, String> col : ListSequence.fromList(JoinTables_Behavior.call_getJoiningColumnsToRename_6237938626203970885(_context.getNode()))) {
+      if (!(col.second().equalsIgnoreCase(col.third()))) {
+        StringBuilder builder = new StringBuilder();
+        builder.append(mergedTable).append(" <- ");
+        builder.append(mergedTable).append("[,\"");
+        builder.append(col.second()).append("\":=");
+        builder.append(mergedTable).append("$\"");
+        builder.append(col.third()).append("\"]");
+        SNode line = SConceptOperations.createNewNode("org.campagnelab.textoutput.structure.Phrase", null);
+        SPropertyOperations.set(line, "text", builder.toString());
+        ListSequence.fromList(lines).addElement(line);
+      }
+    }
+    return lines;
   }
 
   public static Iterable<SNode> sourceNodesQuery_6237938626199004877(final SourceSubstituteMacroNodesContext _context) {
