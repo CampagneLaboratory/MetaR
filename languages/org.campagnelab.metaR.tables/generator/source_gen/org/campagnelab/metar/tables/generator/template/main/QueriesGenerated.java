@@ -18,7 +18,7 @@ import jetbrains.mps.internal.collections.runtime.IterableUtils;
 import jetbrains.mps.internal.collections.runtime.ISelector;
 import jetbrains.mps.internal.collections.runtime.SetSequence;
 import org.campagnelab.metar.tables.behavior.IColumnNames_Behavior;
-import jetbrains.mps.internal.collections.runtime.ITranslator2;
+import org.campagnelab.metar.tables.behavior.JoinTables_Behavior;
 import org.campagnelab.metar.tables.behavior.FutureTable_Behavior;
 import java.util.List;
 import java.util.ArrayList;
@@ -42,9 +42,9 @@ import jetbrains.mps.generator.template.SourceSubstituteMacroNodeContext;
 import jetbrains.mps.generator.template.TemplateQueryContext;
 import jetbrains.mps.generator.template.SourceSubstituteMacroNodesContext;
 import jetbrains.mps.util.Triplet;
-import org.campagnelab.metar.tables.behavior.JoinTables_Behavior;
 import java.util.Collections;
 import org.campagnelab.metar.tables.behavior.TableRef_Behavior;
+import jetbrains.mps.internal.collections.runtime.ITranslator2;
 import jetbrains.mps.generator.template.MappingScriptContext;
 import org.apache.log4j.Logger;
 import org.apache.log4j.LogManager;
@@ -131,32 +131,11 @@ public class QueriesGenerated {
   }
 
   public static Object propertyMacro_GetPropertyValue_1069056208673320418(final PropertyMacroContext _context) {
-    String colNames = IterableUtils.join(SetSequence.fromSet(IColumnNames_Behavior.call_getColumnNames_8154356758121880727(SLinkOperations.getTarget(_context.getNode(), "byKeySelection", true), ListSequence.fromList(SLinkOperations.getTargets(_context.getNode(), "inputTables", true)).where(new IWhereFilter<SNode>() {
-      public boolean accept(SNode it) {
-        return (SLinkOperations.getTarget(it, "table", false) != null);
-      }
-    }).select(new ISelector<SNode, SNode>() {
-      public SNode select(SNode it) {
-        return SLinkOperations.getTarget(it, "table", false);
-      }
-    }).where(new IWhereFilter<SNode>() {
-      public boolean accept(SNode it) {
-        return (SLinkOperations.getTarget(it, "table", false) != null);
-      }
-    }).select(new ISelector<SNode, SNode>() {
-      public SNode select(SNode it) {
-        return SLinkOperations.getTarget(it, "table", false);
-      }
-    }).translate(new ITranslator2<SNode, SNode>() {
-      public Iterable<SNode> translate(SNode it) {
-        return SLinkOperations.getTargets(it, "columns", true);
-      }
-    }))).select(new ISelector<String, String>() {
+    return IterableUtils.join(SetSequence.fromSet(JoinTables_Behavior.call_detectJoiningColumns_4624315854823697610(_context.getNode())).select(new ISelector<String, String>() {
       public String select(String it) {
         return "\"" + it + "\"";
       }
     }), ",");
-    return colNames;
   }
 
   public static Object propertyMacro_GetPropertyValue_6237938626191448462(final PropertyMacroContext _context) {
