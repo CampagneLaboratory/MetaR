@@ -56,15 +56,15 @@
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="8969925079115431553" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="TryAndReport" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="p6sl.5039633819242576787" resolveInfo="Lines" />
+    <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="8969925079115431616" nodeInfo="ig">
+      <property name="name" nameId="tpck.1169194664001" value="nodeId" />
+      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpck.1082983041843" resolveInfo="string" />
+    </node>
     <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="8969925079115431619" nodeInfo="ig">
       <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
       <property name="role" nameId="tpce.1071599776563" value="try" />
       <property name="sourceCardinality" nameId="tpce.1071599893252" value="1" />
       <link role="target" roleId="tpce.1071599976176" targetNodeId="p6sl.5039633819242576787" resolveInfo="Lines" />
-    </node>
-    <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="8969925079115431616" nodeInfo="ig">
-      <property name="name" nameId="tpck.1169194664001" value="nodeId" />
-      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpck.1082983041843" resolveInfo="string" />
     </node>
   </root>
 </model>
