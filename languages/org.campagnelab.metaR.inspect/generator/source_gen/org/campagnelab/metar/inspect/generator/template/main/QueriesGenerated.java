@@ -8,6 +8,10 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import org.campagnelab.metar.code.generator.helpers.RPath;
 import jetbrains.mps.util.MacrosFactory;
 import java.io.File;
+import jetbrains.mps.generator.template.IfMacroContext;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
+import org.jetbrains.mps.openapi.model.SNode;
+import jetbrains.mps.generator.template.SourceSubstituteMacroNodeContext;
 
 @Generated
 public class QueriesGenerated {
@@ -23,5 +27,49 @@ public class QueriesGenerated {
 
   public static Object propertyMacro_GetPropertyValue_962445451564175837(final PropertyMacroContext _context) {
     return SPropertyOperations.getString(_context.getNode(), "id");
+  }
+
+  public static Object propertyMacro_GetPropertyValue_8969925079115479160(final PropertyMacroContext _context) {
+    return SPropertyOperations.getString(_context.getNode(), "nodeId");
+  }
+
+  public static Object propertyMacro_GetPropertyValue_8969925079115480042(final PropertyMacroContext _context) {
+    return SPropertyOperations.getString(_context.getNode(), "nodeId");
+  }
+
+  public static Object propertyMacro_GetPropertyValue_8969925079117923797(final PropertyMacroContext _context) {
+    return SPropertyOperations.getString(_context.getNode(), "nodeId");
+  }
+
+  public static boolean ifMacro_Condition_8969925079114015604(final IfMacroContext _context) {
+    return (SLinkOperations.getTarget(_context.getNode(), "uponWarning", true) != null);
+  }
+
+  public static boolean ifMacro_Condition_8969925079114026167(final IfMacroContext _context) {
+    return (SLinkOperations.getTarget(_context.getNode(), "uponError", true) != null);
+  }
+
+  public static boolean ifMacro_Condition_8969925079114029632(final IfMacroContext _context) {
+    return (SLinkOperations.getTarget(_context.getNode(), "finally", true) != null);
+  }
+
+  public static SNode sourceNodeQuery_8969925079114969752(final SourceSubstituteMacroNodeContext _context) {
+    return SLinkOperations.getTarget(_context.getNode(), "try", true);
+  }
+
+  public static SNode sourceNodeQuery_8969925079114038095(final SourceSubstituteMacroNodeContext _context) {
+    return SLinkOperations.getTarget(_context.getNode(), "uponWarning", true);
+  }
+
+  public static SNode sourceNodeQuery_8969925079114036199(final SourceSubstituteMacroNodeContext _context) {
+    return SLinkOperations.getTarget(_context.getNode(), "uponError", true);
+  }
+
+  public static SNode sourceNodeQuery_8969925079114030952(final SourceSubstituteMacroNodeContext _context) {
+    return SLinkOperations.getTarget(_context.getNode(), "finally", true);
+  }
+
+  public static SNode sourceNodeQuery_8969925079115471486(final SourceSubstituteMacroNodeContext _context) {
+    return SLinkOperations.getTarget(_context.getNode(), "try", true);
   }
 }
