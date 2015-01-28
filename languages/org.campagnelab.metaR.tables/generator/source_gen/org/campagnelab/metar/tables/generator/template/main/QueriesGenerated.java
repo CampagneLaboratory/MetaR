@@ -166,16 +166,16 @@ public class QueriesGenerated {
     return NameHelper.RName("merged" + SPropertyOperations.getString(SLinkOperations.getTarget(ListSequence.fromList(SLinkOperations.getTargets(_context.getNode(), "inputTables", true)).last(), "table", false), "name"));
   }
 
-  public static Object propertyMacro_GetPropertyValue_962445451565867504(final PropertyMacroContext _context) {
-    return ((SNode) _context.getNode()).getNodeId().toString();
-  }
-
   public static Object propertyMacro_GetPropertyValue_8016431400513898053(final PropertyMacroContext _context) {
     return SPropertyOperations.getInteger(SLinkOperations.getTarget(_context.getNode(), "outputTable", true), "id");
   }
 
   public static Object propertyMacro_GetPropertyValue_8016431400514098092(final PropertyMacroContext _context) {
     return FutureTable_Behavior.call_getCleanTableName_4166618652720345586(SLinkOperations.getTarget(_context.getNode(), "outputTable", true));
+  }
+
+  public static Object propertyMacro_GetPropertyValue_7541398758695530194(final PropertyMacroContext _context) {
+    return Statement_Behavior.call_id_3007013211740741445(_context.getNode());
   }
 
   public static Object propertyMacro_GetPropertyValue_5703306641526023067(final PropertyMacroContext _context) {
