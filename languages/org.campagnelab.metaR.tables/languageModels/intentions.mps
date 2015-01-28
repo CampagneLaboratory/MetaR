@@ -1232,7 +1232,7 @@
     </node>
   </root>
   <root type="tp3j.IntentionDeclaration" typeId="tp3j.1192794744107" id="6106414325999515493" nodeInfo="ng">
-    <property name="name" nameId="tpck.1169194664001" value="PropagateColumnsToFutureTableIntention" />
+    <property name="name" nameId="tpck.1169194664001" value="SynchronizeFutureTable" />
     <property name="isAvailableInChildNodes" nameId="tp3j.2522969319638091386" value="true" />
     <link role="forConcept" roleId="tp3j.2522969319638198290" targetNodeId="jrxw.6106414325997850090" resolveInfo="FutureTableCreator" />
     <node role="isApplicableFunction" roleId="tp3j.2522969319638093995" type="tp3j.IsApplicableBlock" typeId="tp3j.1192795771125" id="8305352736401802819" nodeInfo="nn">
@@ -1249,27 +1249,9 @@
     </node>
     <node role="descriptionFunction" roleId="tp3j.2522969319638093993" type="tp3j.DescriptionBlock" typeId="tp3j.1192794782375" id="6106414325999515494" nodeInfo="nn">
       <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="6106414325999515495" nodeInfo="sn">
-        <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="6106414325999518380" nodeInfo="nn">
-          <node role="expression" roleId="tpee.1068580123156" type="tpee.PlusExpression" typeId="tpee.1068581242875" id="6106414326003318699" nodeInfo="nn">
-            <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="6106414326003319876" nodeInfo="nn">
-              <property name="value" nameId="tpee.1070475926801" value=" Table" />
-            </node>
-            <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.PlusExpression" typeId="tpee.1068581242875" id="6106414326003305684" nodeInfo="nn">
-              <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="6106414325999518379" nodeInfo="nn">
-                <property name="value" nameId="tpee.1070475926801" value="Assign Columns to output " />
-              </node>
-              <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.DotExpression" typeId="tpee.1197027756228" id="6106414326003309896" nodeInfo="nn">
-                <node role="operand" roleId="tpee.1197027771414" type="tpee.DotExpression" typeId="tpee.1197027756228" id="6106414326003307113" nodeInfo="nn">
-                  <node role="operand" roleId="tpee.1197027771414" type="tp3j.ConceptFunctionParameter_node" typeId="tp3j.1192796902958" id="6106414326003306370" nodeInfo="nn" />
-                  <node role="operation" roleId="tpee.1197027833540" type="tp25.Node_ConceptMethodCall" typeId="tp25.1179409122411" id="6106414326003309448" nodeInfo="nn">
-                    <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="v8sa.6106414325999552247" resolveInfo="getFutureTable" />
-                  </node>
-                </node>
-                <node role="operation" roleId="tpee.1197027833540" type="tp25.SPropertyAccess" typeId="tp25.1138056022639" id="6106414326003316773" nodeInfo="nn">
-                  <link role="property" roleId="tp25.1138056395725" targetNodeId="tpck.1169194664001" resolveInfo="name" />
-                </node>
-              </node>
-            </node>
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="7541398758672188861" nodeInfo="nn">
+          <node role="expression" roleId="tpee.1068580123156" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="7541398758672188860" nodeInfo="nn">
+            <property name="value" nameId="tpee.1070475926801" value="Synchronize Statement" />
           </node>
         </node>
       </node>
@@ -1288,7 +1270,7 @@
     </node>
   </root>
   <root type="tp3j.IntentionDeclaration" typeId="tp3j.1192794744107" id="6237938626202366271" nodeInfo="ng">
-    <property name="name" nameId="tpck.1169194664001" value="Synchronize" />
+    <property name="name" nameId="tpck.1169194664001" value="SynchronizeAnalysis" />
     <property name="isAvailableInChildNodes" nameId="tp3j.2522969319638091386" value="true" />
     <link role="forConcept" roleId="tp3j.2522969319638198290" targetNodeId="jrxw.8962032619593737380" resolveInfo="Analysis" />
     <node role="descriptionFunction" roleId="tp3j.2522969319638093993" type="tp3j.DescriptionBlock" typeId="tp3j.1192794782375" id="6237938626202366272" nodeInfo="nn">
