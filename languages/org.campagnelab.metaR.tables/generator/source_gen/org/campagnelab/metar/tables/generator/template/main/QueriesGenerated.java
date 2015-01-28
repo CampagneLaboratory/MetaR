@@ -1056,13 +1056,15 @@ public class QueriesGenerated {
   public static Iterable<SNode> sourceNodesQuery_6237938626196222413(final SourceSubstituteMacroNodesContext _context) {
     List<SNode> lines = ListSequence.fromList(new ArrayList<SNode>());
     for (Triplet<String, String, String> col : ListSequence.fromList(JoinTables_Behavior.call_getColumnsToRename_1069056208669412476(_context.getNode()))) {
-      StringBuilder builder = new StringBuilder();
-      builder.append("rename(").append(col.first());
-      builder.append(", c(\"").append(col.second());
-      builder.append("\"=\"").append(col.third()).append("\"))");
-      SNode line = SConceptOperations.createNewNode("org.campagnelab.textoutput.structure.Phrase", null);
-      SPropertyOperations.set(line, "text", builder.toString());
-      ListSequence.fromList(lines).addElement(line);
+      if (!(col.second().equalsIgnoreCase(col.third()))) {
+        StringBuilder builder = new StringBuilder();
+        builder.append("rename(").append(col.first());
+        builder.append(", c(\"").append(col.second());
+        builder.append("\"=\"").append(col.third()).append("\"))");
+        SNode line = SConceptOperations.createNewNode("org.campagnelab.textoutput.structure.Phrase", null);
+        SPropertyOperations.set(line, "text", builder.toString());
+        ListSequence.fromList(lines).addElement(line);
+      }
     }
     return lines;
   }
@@ -1099,13 +1101,15 @@ public class QueriesGenerated {
   public static Iterable<SNode> sourceNodesQuery_6237938626199004877(final SourceSubstituteMacroNodesContext _context) {
     List<SNode> lines = ListSequence.fromList(new ArrayList<SNode>());
     for (Triplet<String, String, String> col : ListSequence.fromList(JoinTables_Behavior.call_getColumnsToRename_1069056208669412476(_context.getNode()))) {
-      StringBuilder builder = new StringBuilder();
-      builder.append("rename(").append(col.first());
-      builder.append(", c(\"").append(col.third());
-      builder.append("\"=\"").append(col.second()).append("\"))");
-      SNode line = SConceptOperations.createNewNode("org.campagnelab.textoutput.structure.Phrase", null);
-      SPropertyOperations.set(line, "text", builder.toString());
-      ListSequence.fromList(lines).addElement(line);
+      if (!(col.third().equalsIgnoreCase(col.second()))) {
+        StringBuilder builder = new StringBuilder();
+        builder.append("rename(").append(col.first());
+        builder.append(", c(\"").append(col.third());
+        builder.append("\"=\"").append(col.second()).append("\"))");
+        SNode line = SConceptOperations.createNewNode("org.campagnelab.textoutput.structure.Phrase", null);
+        SPropertyOperations.set(line, "text", builder.toString());
+        ListSequence.fromList(lines).addElement(line);
+      }
     }
     return lines;
   }
