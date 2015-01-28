@@ -1271,7 +1271,6 @@
   </root>
   <root type="tp3j.IntentionDeclaration" typeId="tp3j.1192794744107" id="6237938626202366271" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="SynchronizeAnalysis" />
-    <property name="isAvailableInChildNodes" nameId="tp3j.2522969319638091386" value="true" />
     <link role="forConcept" roleId="tp3j.2522969319638198290" targetNodeId="jrxw.8962032619593737380" resolveInfo="Analysis" />
     <node role="descriptionFunction" roleId="tp3j.2522969319638093993" type="tp3j.DescriptionBlock" typeId="tp3j.1192794782375" id="6237938626202366272" nodeInfo="nn">
       <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="6237938626202366273" nodeInfo="sn">
