@@ -16,6 +16,7 @@ import org.campagnelab.metar.code.generator.helpers.RPath;
 import org.campagnelab.metar.tables.behavior.Table_Behavior;
 import jetbrains.mps.internal.collections.runtime.IterableUtils;
 import jetbrains.mps.internal.collections.runtime.ISelector;
+import org.campagnelab.metar.tables.behavior.Statement_Behavior;
 import jetbrains.mps.internal.collections.runtime.SetSequence;
 import org.campagnelab.metar.tables.behavior.IColumnNames_Behavior;
 import org.campagnelab.metar.tables.behavior.JoinTables_Behavior;
@@ -101,8 +102,8 @@ public class QueriesGenerated {
     }), ", ");
   }
 
-  public static Object propertyMacro_GetPropertyValue_962445451564484796(final PropertyMacroContext _context) {
-    return ((SNode) _context.getNode()).getNodeId().toString();
+  public static Object propertyMacro_GetPropertyValue_3007013211742635513(final PropertyMacroContext _context) {
+    return Statement_Behavior.call_id_3007013211740741445(_context.getNode());
   }
 
   public static Object propertyMacro_GetPropertyValue_1549006859294737198(final PropertyMacroContext _context) {
@@ -343,6 +344,10 @@ public class QueriesGenerated {
     return "none";
   }
 
+  public static Object propertyMacro_GetPropertyValue_3007013211742974435(final PropertyMacroContext _context) {
+    return Statement_Behavior.call_id_3007013211740741445(_context.getNode());
+  }
+
   public static Object propertyMacro_GetPropertyValue_5703306641526063165(final PropertyMacroContext _context) {
     return new RPath(Plot_Behavior.call_getPath_8016431400518331231(SLinkOperations.getTarget(_context.getNode(), "plot", true))).toString();
   }
@@ -363,11 +368,7 @@ public class QueriesGenerated {
     return NameHelper.RName(SPropertyOperations.getString(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "table", true), "table", false), "name"));
   }
 
-  public static Object propertyMacro_GetPropertyValue_962445451565905959(final PropertyMacroContext _context) {
-    return ((SNode) _context.getNode()).getNodeId().toString();
-  }
-
-  public static Object propertyMacro_GetPropertyValue_3007013211741886898(final PropertyMacroContext _context) {
+  public static Object propertyMacro_GetPropertyValue_3007013211743119878(final PropertyMacroContext _context) {
     return Statement_Behavior.call_id_3007013211740741445(_context.getNode());
   }
 
@@ -409,8 +410,8 @@ public class QueriesGenerated {
     return FutureTable_Behavior.call_getCleanTableName_4166618652720345586(SLinkOperations.getTarget(_context.getNode(), "destination", true));
   }
 
-  public static Object propertyMacro_GetPropertyValue_962445451565883665(final PropertyMacroContext _context) {
-    return ((SNode) _context.getNode()).getNodeId().toString();
+  public static Object propertyMacro_GetPropertyValue_3007013211742695927(final PropertyMacroContext _context) {
+    return Statement_Behavior.call_id_3007013211740741445(_context.getNode());
   }
 
   public static Object propertyMacro_GetPropertyValue_7783277237109312574(final PropertyMacroContext _context) {
@@ -437,8 +438,8 @@ public class QueriesGenerated {
     return FutureTable_Behavior.call_getCleanTableName_4166618652720345586(SLinkOperations.getTarget(_context.getNode(), "destination", true));
   }
 
-  public static Object propertyMacro_GetPropertyValue_7783277237109312700(final PropertyMacroContext _context) {
-    return ((SNode) _context.getNode()).getNodeId().toString();
+  public static Object propertyMacro_GetPropertyValue_3007013211742672554(final PropertyMacroContext _context) {
+    return Statement_Behavior.call_id_3007013211740741445(_context.getNode());
   }
 
   public static Object propertyMacro_GetPropertyValue_3687343996977891854(final PropertyMacroContext _context) {
@@ -553,6 +554,10 @@ public class QueriesGenerated {
     return NameHelper.RName(SPropertyOperations.getString(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "table", true), "table", false), "name"));
   }
 
+  public static Object propertyMacro_GetPropertyValue_3007013211742887139(final PropertyMacroContext _context) {
+    return Statement_Behavior.call_id_3007013211740741445(_context.getNode());
+  }
+
   public static Object propertyMacro_GetPropertyValue_8013388156564094629(final PropertyMacroContext _context) {
     return SPropertyOperations.getString(_context.getNode(), "id");
   }
@@ -622,8 +627,8 @@ public class QueriesGenerated {
     return BehaviorReflection.invokeVirtual(String.class, _context.getNode(), "virtual_getTableName_8013388156564360086", new Object[]{});
   }
 
-  public static Object propertyMacro_GetPropertyValue_4842667988067748143(final PropertyMacroContext _context) {
-    return SPropertyOperations.getString(_context.getNode(), "id");
+  public static Object propertyMacro_GetPropertyValue_3007013211742741564(final PropertyMacroContext _context) {
+    return Statement_Behavior.call_id_3007013211740741445(_context.getNode());
   }
 
   public static Object propertyMacro_GetPropertyValue_3402264987267838443(final PropertyMacroContext _context) {
@@ -658,8 +663,8 @@ public class QueriesGenerated {
     return Plot_Behavior.call_getTableName_8013388156564326838(SLinkOperations.getTarget(_context.getNode(), "plot", false));
   }
 
-  public static Object propertyMacro_GetPropertyValue_4842667988067759226(final PropertyMacroContext _context) {
-    return SPropertyOperations.getString(_context.getNode(), "id");
+  public static Object propertyMacro_GetPropertyValue_3007013211742761309(final PropertyMacroContext _context) {
+    return Statement_Behavior.call_id_3007013211740741445(_context.getNode());
   }
 
   public static Object propertyMacro_GetPropertyValue_4842667988071959723(final PropertyMacroContext _context) {
@@ -723,6 +728,10 @@ public class QueriesGenerated {
 
   public static Object propertyMacro_GetPropertyValue_2807244893511557803(final PropertyMacroContext _context) {
     return Model_Behavior.call_getCleanModelName_2807244893511582582(SLinkOperations.getTarget(_context.getNode(), "model", true));
+  }
+
+  public static Object propertyMacro_GetPropertyValue_3007013211742803479(final PropertyMacroContext _context) {
+    return Statement_Behavior.call_id_3007013211740741445(_context.getNode());
   }
 
   public static Object propertyMacro_GetPropertyValue_2807244893507585514(final PropertyMacroContext _context) {
@@ -805,8 +814,8 @@ public class QueriesGenerated {
     return SPropertyOperations.getInteger(SLinkOperations.getTarget(_context.getNode(), "table", true), "id");
   }
 
-  public static Object propertyMacro_GetPropertyValue_2807244893515511094(final PropertyMacroContext _context) {
-    return SPropertyOperations.getString(_context.getNode(), "id");
+  public static Object propertyMacro_GetPropertyValue_3007013211742782105(final PropertyMacroContext _context) {
+    return Statement_Behavior.call_id_3007013211740741445(_context.getNode());
   }
 
   public static Object propertyMacro_GetPropertyValue_6070133740820404926(final PropertyMacroContext _context) {
@@ -849,8 +858,8 @@ public class QueriesGenerated {
     return NameHelper.RName(SPropertyOperations.getString(SNodeOperations.getAncestor(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "ColumnRef", true), "col", false), "org.campagnelab.metar.tables.structure.Table", false, false), "name"));
   }
 
-  public static Object propertyMacro_GetPropertyValue_4977909310693684829(final PropertyMacroContext _context) {
-    return ((SNode) _context.getNode()).getNodeId().toString();
+  public static Object propertyMacro_GetPropertyValue_3007013211742832953(final PropertyMacroContext _context) {
+    return Statement_Behavior.call_id_3007013211740741445(_context.getNode());
   }
 
   public static Object propertyMacro_GetPropertyValue_8016431400514006106(final PropertyMacroContext _context) {
@@ -867,6 +876,10 @@ public class QueriesGenerated {
 
   public static Object propertyMacro_GetPropertyValue_8031339867734638773(final PropertyMacroContext _context) {
     return (SPropertyOperations.getBoolean(_context.getNode(), "withQuotes") ? "TRUE" : "FALSE");
+  }
+
+  public static Object propertyMacro_GetPropertyValue_3007013211742656334(final PropertyMacroContext _context) {
+    return Statement_Behavior.call_id_3007013211740741445(_context.getNode());
   }
 
   public static Object propertyMacro_GetPropertyValue_6070133740826980103(final PropertyMacroContext _context) {
@@ -921,8 +934,8 @@ public class QueriesGenerated {
     return "";
   }
 
-  public static Object propertyMacro_GetPropertyValue_6070133740826980191(final PropertyMacroContext _context) {
-    return ((SNode) _context.getNode()).getNodeId().toString();
+  public static Object propertyMacro_GetPropertyValue_3007013211742901911(final PropertyMacroContext _context) {
+    return Statement_Behavior.call_id_3007013211740741445(_context.getNode());
   }
 
   public static Object propertyMacro_GetPropertyValue_6583618001727205788(final PropertyMacroContext _context) {
@@ -934,6 +947,10 @@ public class QueriesGenerated {
       LOG.info("column=" + SLinkOperations.getTarget(_context.getNode(), "column", true));
     }
     return ColumnRef_Behavior.call_getCleanColumnName_2807244893512039175(SLinkOperations.getTarget(_context.getNode(), "column", true));
+  }
+
+  public static Object propertyMacro_GetPropertyValue_3007013211742646280(final PropertyMacroContext _context) {
+    return Statement_Behavior.call_id_3007013211740741445(_context.getNode());
   }
 
   public static Object propertyMacro_GetPropertyValue_4067230457182267927(final PropertyMacroContext _context) {

@@ -289,12 +289,6 @@
           <node role="phrases" roleId="p6sl.1680136183140337477" type="p6sl.Phrase" typeId="p6sl.1680136183140337486" id="8969925079114015203" nodeInfo="ng">
             <property name="text" nameId="p6sl.1680136183140337487" value="" />
           </node>
-          <node role="lines" roleId="p6sl.5039633819242576854" type="p6sl.Line" typeId="p6sl.5493669862519709805" id="8969925079114015205" nodeInfo="ng">
-            <property name="text" nameId="p6sl.5493669862519718600" value="" />
-            <node role="phrases" roleId="p6sl.1680136183140337477" type="p6sl.Phrase" typeId="p6sl.1680136183140337486" id="8969925079114015206" nodeInfo="ng">
-              <property name="text" nameId="p6sl.1680136183140337487" value="" />
-            </node>
-          </node>
           <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpf8.IfMacro" typeId="tpf8.1118773211870" id="8969925079114015602" nodeInfo="nn">
             <node role="conditionFunction" roleId="tpf8.1167945861827" type="tpf8.IfMacro_Condition" typeId="tpf8.1167945743726" id="8969925079114015604" nodeInfo="nn">
               <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="8969925079114015606" nodeInfo="sn">
@@ -352,12 +346,6 @@
           </node>
           <node role="phrases" roleId="p6sl.1680136183140337477" type="p6sl.Phrase" typeId="p6sl.1680136183140337486" id="8969925079114026163" nodeInfo="ng">
             <property name="text" nameId="p6sl.1680136183140337487" value="" />
-          </node>
-          <node role="lines" roleId="p6sl.5039633819242576854" type="p6sl.Line" typeId="p6sl.5493669862519709805" id="8969925079114026164" nodeInfo="ng">
-            <property name="text" nameId="p6sl.5493669862519718600" value="" />
-            <node role="phrases" roleId="p6sl.1680136183140337477" type="p6sl.Phrase" typeId="p6sl.1680136183140337486" id="8969925079114026165" nodeInfo="ng">
-              <property name="text" nameId="p6sl.1680136183140337487" value="" />
-            </node>
           </node>
           <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpf8.IfMacro" typeId="tpf8.1118773211870" id="8969925079114026166" nodeInfo="nn">
             <node role="conditionFunction" roleId="tpf8.1167945861827" type="tpf8.IfMacro_Condition" typeId="tpf8.1167945743726" id="8969925079114026167" nodeInfo="nn">
