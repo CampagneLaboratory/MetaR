@@ -5144,8 +5144,11 @@
                 </node>
               </node>
             </node>
-            <node role="phrases" roleId="p6sl.1680136183140337477" type="p6sl.Phrase" typeId="p6sl.1680136183140337486" id="3929971219785668476" nodeInfo="ng">
-              <property name="text" nameId="p6sl.1680136183140337487" value=". Following statements may fail if they expect results after filtering.&quot;)" />
+            <node role="phrases" roleId="p6sl.1680136183140337477" type="p6sl.Phrase" typeId="p6sl.1680136183140337486" id="280962132771295349" nodeInfo="ng">
+              <property name="text" nameId="p6sl.1680136183140337487" value=". Following statements may fail if they expect results after filtering.\" />
+            </node>
+            <node role="phrases" roleId="p6sl.1680136183140337477" type="p6sl.Phrase" typeId="p6sl.1680136183140337486" id="280962132771295350" nodeInfo="ng">
+              <property name="text" nameId="p6sl.1680136183140337487" value="n&quot;)" />
             </node>
           </node>
           <node role="lines" roleId="p6sl.5039633819242576854" type="p6sl.Line" typeId="p6sl.5493669862519709805" id="3929971219785654423" nodeInfo="ng">
