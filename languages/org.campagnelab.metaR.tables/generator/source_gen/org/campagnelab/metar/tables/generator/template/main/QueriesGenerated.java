@@ -689,6 +689,10 @@ public class QueriesGenerated {
     return Double.toString(height / SPropertyOperations.getInteger(SLinkOperations.getTarget(render, "style", false), "pixelsPerInch"));
   }
 
+  public static Object propertyMacro_GetPropertyValue_9017354417595520805(final PropertyMacroContext _context) {
+    return NameHelper.RName(SPropertyOperations.getString(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "table", true), "table", false), "name"));
+  }
+
   public static Object propertyMacro_GetPropertyValue_2807244893511923656(final PropertyMacroContext _context) {
     return SPropertyOperations.getString(SLinkOperations.getTarget(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "formula", true), "y", true), "col", false), "name");
   }
