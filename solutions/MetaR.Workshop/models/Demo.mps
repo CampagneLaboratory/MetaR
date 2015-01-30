@@ -1173,6 +1173,17 @@
           <property name="path" nameId="jrxw.3929971219796704769" value="heatmap.pdf" />
         </node>
       </node>
+      <node role="transformations" roleId="jrxw.8962032619582305407" type="jrxw.WriteTable" typeId="jrxw.8031339867733060044" id="7221311353734394056" nodeInfo="ng">
+        <property name="id" nameId="jrxw.8962032619593737385" value="APUYNDLVBT" />
+        <property name="withQuotes" nameId="jrxw.8031339867734631313" value="false" />
+        <property name="separator" nameId="jrxw.8031339867734757239" value="\t" />
+        <node role="outputPath" roleId="jrxw.3929971219796718185" type="jrxw.OutputFile" typeId="jrxw.3929971219796704543" id="7221311353734394058" nodeInfo="ng">
+          <property name="path" nameId="jrxw.3929971219796704769" value="results.tsv" />
+        </node>
+        <node role="table" roleId="jrxw.8031339867733060257" type="jrxw.TableRef" typeId="jrxw.4451133196879828915" id="7221311353734394362" nodeInfo="ng">
+          <link role="table" roleId="jrxw.4451133196879830023" targetNodeId="5365057051056918253" resolveInfo="Results" />
+        </node>
+      </node>
     </node>
   </root>
   <root type="jrxw.RenderStyle" typeId="jrxw.4842667988072481933" id="8154356758119007303" nodeInfo="ng">
@@ -1182,6 +1193,10 @@
   <root type="jrxw.RenderStyle" typeId="jrxw.4842667988072481933" id="8154356758119014323" nodeInfo="ng">
     <property name="pixelsPerInch" nameId="jrxw.4842667988072482117" value="72" />
     <property name="name" nameId="tpck.1169194664001" value="rendering" />
+  </root>
+  <root type="jrxw.RenderStyle" typeId="jrxw.4842667988072481933" id="7221311353730984140" nodeInfo="ng">
+    <property name="pixelsPerInch" nameId="jrxw.4842667988072482117" value="72" />
+    <property name="name" nameId="tpck.1169194664001" value="72dpi" />
   </root>
 </model>
 
