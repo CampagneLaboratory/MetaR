@@ -403,6 +403,9 @@
         <node role="exports" roleId="kdzh.322010710375832962" type="kdzh.BuildMps_DevKitExportLanguage" typeId="kdzh.322010710375832938" id="1801587365865410309" nodeInfo="ng">
           <link role="language" roleId="kdzh.322010710375832947" targetNodeId="1801587365865409180" resolveInfo="org.campagnelab.metar.code" />
         </node>
+        <node role="exports" roleId="kdzh.322010710375832962" type="kdzh.BuildMps_DevKitExportLanguage" typeId="kdzh.322010710375832938" id="7221311353730183752" nodeInfo="ng">
+          <link role="language" roleId="kdzh.322010710375832947" targetNodeId="ffeo.8939513996048535435" resolveInfo="jetbrains.mps.baseLanguage" />
+        </node>
       </node>
       <node role="modules" roleId="kdzh.1500819558095907806" type="kdzh.BuildMps_Language" typeId="kdzh.3189788309731840248" id="3761139488787358673" nodeInfo="ng">
         <property name="compact" nameId="kdzh.8369506495128725901" value="true" />
