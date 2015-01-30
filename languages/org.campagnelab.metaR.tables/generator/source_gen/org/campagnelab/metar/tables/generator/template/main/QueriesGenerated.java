@@ -870,7 +870,7 @@ public class QueriesGenerated {
   }
 
   public static Object propertyMacro_GetPropertyValue_8016431400514009759(final PropertyMacroContext _context) {
-    return OutputFile_Behavior.call_getAbsolutePath_3929971219796711000(SLinkOperations.getTarget(_context.getNode(), "outputPath", true));
+    return new RPath(OutputFile_Behavior.call_getAbsolutePath_3929971219796711000(SLinkOperations.getTarget(_context.getNode(), "outputPath", true))).toString();
   }
 
   public static Object propertyMacro_GetPropertyValue_8031339867735055323(final PropertyMacroContext _context) {
