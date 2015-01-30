@@ -1,9 +1,9 @@
 #!/bin/bash
 
-#installation script for MetaR 1.1.4 (works with MPS3.1.x on MacOS and Linux)
+#installation script for MetaR 1.1.5 (works with MPS3.1.x on MacOS, Linux and Windows with CYGWIN)
 # 
 # plugins installed by the script:
-#  MetaR 1.1.4
+#  MetaR 1.1.5
 #  TextOutput 1.2.1
 #  XChart 1.1.10
 #  UI 1.0.3
@@ -64,7 +64,7 @@ function download() {
 WORKING_DIR=`pwd`
 rm -rf "${WORKING_DIR}/download"
 mkdir "${WORKING_DIR}/download"
-download "http://campagnelab.org/?wpdmact=process&did=MTA2LmhvdGxpbms" metaR.zip
+download "http://campagnelab.org/?wpdmact=process&did=MTA3LmhvdGxpbms" metaR.zip
 download "http://campagnelab.org/?wpdmact=process&did=MTA0LmhvdGxpbms" XChart.zip
 download "http://campagnelab.org/?wpdmact=process&did=OTQuaG90bGluaw" TextOutput.zip
 download "http://campagnelab.org/?wpdmact=process&did=ODguaG90bGluaw" UI.zip 
