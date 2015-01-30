@@ -837,11 +837,11 @@
         <property name="id" nameId="jrxw.8962032619593737385" value="BESKSFFWLJ" />
         <property name="inputChanged" nameId="jrxw.9080041854829670092" value="false" />
         <node role="destination" roleId="jrxw.4166618652718302640" type="jrxw.FutureTable" typeId="jrxw.3402264987259919045" id="667853661334015446" nodeInfo="ng">
-          <property name="name" nameId="tpck.1169194664001" value="5% FDR" />
-          <link role="table" roleId="jrxw.3402264987259919103" targetNodeId="667853661334015447" resolveInfo="5% FDR" />
+          <property name="name" nameId="tpck.1169194664001" value="1% FDR" />
+          <link role="table" roleId="jrxw.3402264987259919103" targetNodeId="667853661334015447" resolveInfo="1% FDR" />
           <node role="myOwnTable" roleId="jrxw.4166618652720259019" type="jrxw.Table" typeId="jrxw.3402264987258987827" id="667853661334015447" nodeInfo="ng">
             <property name="delimitor" nameId="ztlb.2202909375770898234" value="&#9;" />
-            <property name="name" nameId="tpck.1169194664001" value="5% FDR" />
+            <property name="name" nameId="tpck.1169194664001" value="1% FDR" />
             <node role="columns" roleId="ztlb.2202909375770434164" type="ztlb.Column" typeId="ztlb.2202909375770434159" id="7221311353730352361" nodeInfo="ng">
               <property name="name" nameId="tpck.1169194664001" value="gene" />
               <link role="type" roleId="ztlb.3328299660867197501" targetNodeId="9nc5.1993150283055518321" resolveInfo="String" />
@@ -1092,7 +1092,7 @@
                       <link role="column" roleId="rg56.7783277237108513861" targetNodeId="7221311353730352878" resolveInfo="logFC" />
                     </node>
                     <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="9213945826187746188" nodeInfo="nn">
-                      <property name="value" nameId="tpee.1068580320021" value="2" />
+                      <property name="value" nameId="tpee.1068580320021" value="-2" />
                     </node>
                   </node>
                   <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.GreaterThanExpression" typeId="tpee.1081506762703" id="9213945826187324232" nodeInfo="nn">
@@ -1130,7 +1130,7 @@
           <property name="name" nameId="tpck.1169194664001" value="plot" />
         </node>
         <node role="table" roleId="jrxw.4451133196879916916" type="jrxw.TableRef" typeId="jrxw.4451133196879828915" id="8154356758118987780" nodeInfo="ng">
-          <link role="table" roleId="jrxw.4451133196879830023" targetNodeId="667853661334015447" resolveInfo="5% FDR" />
+          <link role="table" roleId="jrxw.4451133196879830023" targetNodeId="667853661334015447" resolveInfo="1% FDR" />
         </node>
         <node role="annotations" roleId="jrxw.5703306641526697040" type="jrxw.HeatmapAnnotations" typeId="jrxw.5703306641526702642" id="8154356758119001103" nodeInfo="ng">
           <property name="clusterRows" nameId="jrxw.6583618001731900686" value="true" />
