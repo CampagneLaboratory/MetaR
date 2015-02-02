@@ -4,7 +4,7 @@
   <language namespace="5d6bde84-4ce4-4eb5-a37e-25a5edd55129(org.campagnelab.metar.tables)" />
   <devkit namespace="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
-  <import index="jrxw" modelUID="r:9f2bbfbf-f8b7-4b3b-92b1-b6a0e9642c10(org.campagnelab.metar.tables.structure)" version="16" implicit="yes" />
+  <import index="jrxw" modelUID="r:9f2bbfbf-f8b7-4b3b-92b1-b6a0e9642c10(org.campagnelab.metar.tables.structure)" version="20" implicit="yes" />
   <root type="jrxw.ColorPalette" typeId="jrxw.2312637992603017818" id="8434387403773305023" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="DefaultGrayPalette" />
     <node role="colors" roleId="jrxw.2312637992603020205" type="jrxw.ColorRef" typeId="jrxw.2312637992608988873" id="8434387403773305024" nodeInfo="ng">
