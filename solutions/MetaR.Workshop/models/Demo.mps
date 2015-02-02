@@ -273,7 +273,7 @@
     </node>
   </root>
   <root type="jrxw.Analysis" typeId="jrxw.8962032619593737380" id="5365057051054273729" nodeInfo="ng">
-    <property name="name" nameId="tpck.1169194664001" value="edgeR diff exp" />
+    <property name="name" nameId="tpck.1169194664001" value="WorkFlow" />
     <node role="statements" roleId="jrxw.8962032619593737383" type="jrxw.StatementList" typeId="jrxw.8962032619582305406" id="5365057051054273730" nodeInfo="ng">
       <property name="id" nameId="jrxw.8962032619593737385" value="CAILXBHGTE" />
       <node role="transformations" roleId="jrxw.8962032619582305407" type="jrxw.ImportTable" typeId="jrxw.3402264987261651661" id="5365057051055513614" nodeInfo="ng">
@@ -1126,7 +1126,7 @@
         <property name="id" nameId="jrxw.8962032619593737385" value="FSKNYXFMLW" />
         <node role="plot" roleId="jrxw.8459500803719374387" type="jrxw.Plot" typeId="jrxw.8459500803719374384" id="667853661334022615" nodeInfo="ng">
           <property name="width" nameId="jrxw.8962032619586498917" value="300" />
-          <property name="height" nameId="jrxw.8962032619586499111" value="200" />
+          <property name="height" nameId="jrxw.8962032619586499111" value="500" />
           <property name="name" nameId="tpck.1169194664001" value="plot" />
         </node>
         <node role="table" roleId="jrxw.4451133196879916916" type="jrxw.TableRef" typeId="jrxw.4451133196879828915" id="8154356758118987780" nodeInfo="ng">
@@ -1152,10 +1152,10 @@
         <property name="id" nameId="jrxw.8962032619593737385" value="TNESFOQHSM" />
         <property name="numColumns" nameId="jrxw.3105090771424561488" value="1" />
         <property name="numRows" nameId="jrxw.3105090771424561486" value="1" />
-        <property name="preview" nameId="jrxw.3105090771427134128" value="true" />
+        <property name="preview" nameId="jrxw.3105090771427134128" value="false" />
         <node role="destination" roleId="jrxw.3105090771426088552" type="jrxw.Plot" typeId="jrxw.8459500803719374384" id="8154356758129449362" nodeInfo="ng">
-          <property name="width" nameId="jrxw.8962032619586498917" value="400" />
-          <property name="height" nameId="jrxw.8962032619586499111" value="400" />
+          <property name="width" nameId="jrxw.8962032619586498917" value="200" />
+          <property name="height" nameId="jrxw.8962032619586499111" value="200" />
           <property name="name" nameId="tpck.1169194664001" value="PreviewHeatmap" />
         </node>
         <node role="plots" roleId="jrxw.3105090771424832493" type="jrxw.PlotRefWithPreview" typeId="jrxw.3105090771426712763" id="8154356758129449817" nodeInfo="ng">

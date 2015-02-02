@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model modelUID="r:9f2bbfbf-f8b7-4b3b-92b1-b6a0e9642c10(org.campagnelab.metar.tables.structure)" version="17">
+<model modelUID="r:9f2bbfbf-f8b7-4b3b-92b1-b6a0e9642c10(org.campagnelab.metar.tables.structure)" version="20">
   <persistence version="8" />
   <language namespace="c72da2b9-7cce-4447-8389-f407dc1158b7(jetbrains.mps.lang.structure)" />
   <language namespace="f2801650-65d5-424e-bb1b-463a8781b786(jetbrains.mps.baseLanguage.javadoc)" />
@@ -10,7 +10,7 @@
   <import index="msyo" modelUID="f:java_stub#6ed54515-acc8-4d1e-a16c-9fd6cfe951ea#jetbrains.mps.util(MPS.Core/jetbrains.mps.util@java_stub)" version="-1" />
   <import index="tpce" modelUID="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" version="0" implicit="yes" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
-  <import index="jrxw" modelUID="r:9f2bbfbf-f8b7-4b3b-92b1-b6a0e9642c10(org.campagnelab.metar.tables.structure)" version="17" implicit="yes" />
+  <import index="jrxw" modelUID="r:9f2bbfbf-f8b7-4b3b-92b1-b6a0e9642c10(org.campagnelab.metar.tables.structure)" version="20" implicit="yes" />
   <import index="tp2q" modelUID="r:00000000-0000-4000-0000-011c8959032e(jetbrains.mps.baseLanguage.collections.structure)" version="7" implicit="yes" />
   <import index="tp2c" modelUID="r:00000000-0000-4000-0000-011c89590338(jetbrains.mps.baseLanguage.closures.structure)" version="3" implicit="yes" />
   <import index="m373" modelUID="r:4095af4f-a097-4799-aaa9-03df087ddfa6(jetbrains.mps.baseLanguage.javadoc.structure)" version="5" implicit="yes" />
@@ -1186,18 +1186,20 @@
     <property name="name" nameId="tpck.1169194664001" value="TableOperation" />
     <property name="abstract" nameId="tpce.4628067390765956802" value="true" />
     <property name="final" nameId="tpce.4628067390765956807" value="false" />
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="operations" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="3929971219789681021" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="DropColumnOperation" />
     <property name="conceptAlias" nameId="tpce.5092175715804935370" value="drop" />
     <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="Drop a column from the input table" />
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="operations" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="3929971219789681008" resolveInfo="TableOperation" />
     <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="3929971219789681022" nodeInfo="ig">
       <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
       <property name="role" nameId="tpce.1071599776563" value="col" />
       <property name="sourceCardinality" nameId="tpce.1071599893252" value="1" />
-      <link role="target" roleId="tpce.1071599976176" targetNodeId="3402264987262235801" resolveInfo="ColumnRef" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="8081253674584199902" resolveInfo="OperationColumnRef" />
     </node>
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="3929971219796704543" nodeInfo="ig">
@@ -1537,6 +1539,31 @@
       </node>
     </node>
     <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="7541398758673755932" nodeInfo="nn" />
+  </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="8081253674570416584" nodeInfo="ig">
+    <property name="name" nameId="tpck.1169194664001" value="ColumnValue" />
+    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="$" />
+    <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="Row value for a column" />
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="expressions" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1068431790191" resolveInfo="Expression" />
+    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="8081253674570416585" nodeInfo="ig">
+      <property name="metaClass" nameId="tpce.1071599937831" value="reference" />
+      <property name="role" nameId="tpce.1071599776563" value="column" />
+      <property name="sourceCardinality" nameId="tpce.1071599893252" value="1" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="ztlb.2202909375770434159" resolveInfo="Column" />
+    </node>
+  </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="8081253674584199902" nodeInfo="ig">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="operations" />
+    <property name="name" nameId="tpck.1169194664001" value="OperationColumnRef" />
+    <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="a column ref in the context of a table operation" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
+    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="8081253674598527902" nodeInfo="ig">
+      <property name="metaClass" nameId="tpce.1071599937831" value="reference" />
+      <property name="role" nameId="tpce.1071599776563" value="col" />
+      <property name="sourceCardinality" nameId="tpce.1071599893252" value="1" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="ztlb.2202909375770434159" resolveInfo="Column" />
+    </node>
   </root>
 </model>
 
