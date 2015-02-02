@@ -416,9 +416,6 @@
           <node role="byColumn" roleId="jrxw.3402264987262239189" type="jrxw.ColumnRef" typeId="jrxw.3402264987262235801" id="8081253674580725650" nodeInfo="ng">
             <link role="col" roleId="jrxw.3402264987262235802" targetNodeId="7221311353727166766" resolveInfo="Column1" />
           </node>
-          <node role="byColumn" roleId="jrxw.3402264987262239189" type="jrxw.ColumnRef" typeId="jrxw.3402264987262235801" id="8081253674600112825" nodeInfo="ng">
-            <link role="col" roleId="jrxw.3402264987262235802" targetNodeId="7221311353727166739" resolveInfo="Column11" />
-          </node>
         </node>
         <node role="inputTables" roleId="jrxw.3402264987259798258" type="jrxw.FutureTableRef" typeId="jrxw.3402264987259789239" id="7541398758698221216" nodeInfo="ng">
           <link role="table" roleId="jrxw.3402264987259798245" targetNodeId="7541398758697742334" resolveInfo="TableA.csv" />
@@ -759,8 +756,8 @@
           <property name="height" nameId="jrxw.8962032619586499111" value="200" />
           <property name="name" nameId="tpck.1169194664001" value="fds" />
         </node>
-        <node role="ColumnRefs" roleId="jrxw.6070133740826952603" type="jrxw.ColumnRef" typeId="jrxw.3402264987262235801" id="8081253674577381757" nodeInfo="ng">
-          <link role="col" roleId="jrxw.3402264987262235802" targetNodeId="7221311353727166736" resolveInfo="Column1" />
+        <node role="ColumnRefs" roleId="jrxw.6070133740826952603" type="jrxw.ColumnRef" typeId="jrxw.3402264987262235801" id="690290678955782324" nodeInfo="ng">
+          <link role="col" roleId="jrxw.3402264987262235802" targetNodeId="7221311353727166739" resolveInfo="Column11" />
         </node>
       </node>
       <node role="transformations" roleId="jrxw.8962032619582305407" type="jrxw.FitXByY" typeId="jrxw.6001041468486314166" id="8081253674584173035" nodeInfo="ng">
