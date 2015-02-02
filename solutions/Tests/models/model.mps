@@ -3,11 +3,10 @@
   <persistence version="8" />
   <language namespace="46803809-20ee-443f-bea9-0bee114b90b3(org.campagnelab.metar.edgeR)" />
   <devkit namespace="8a3636fa-c6ec-4cb0-bc2a-b7143f2a4937(org.campagnelab.metaR)" />
-  <import index="jrxw" modelUID="r:9f2bbfbf-f8b7-4b3b-92b1-b6a0e9642c10(org.campagnelab.metar.tables.structure)" version="17" implicit="yes" />
+  <import index="jrxw" modelUID="r:9f2bbfbf-f8b7-4b3b-92b1-b6a0e9642c10(org.campagnelab.metar.tables.structure)" version="20" implicit="yes" />
   <import index="ztlb" modelUID="r:989540b8-cc89-4ed5-ba78-cf2ce766b8ce(org.campagnelab.mps.XChart.structure)" version="12" implicit="yes" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
   <import index="9nc5" modelUID="r:d1a256e6-591a-459f-809c-7fc9df45e4d5(org.campagnelab.mps.XChart.types.roots)" version="-1" implicit="yes" />
-  <import index="rg56" modelUID="r:ab341ca2-6df8-46ee-bf23-741319c06425(org.campagnelab.metar.expressions.structure)" version="2" implicit="yes" />
   <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="5" implicit="yes" />
   <import index="izt2" modelUID="r:b5f8abba-ade6-48ed-8b03-df617183a3f0(org.campagnelab.metar.edgeR.structure)" version="9" implicit="yes" />
   <root type="jrxw.Table" typeId="jrxw.3402264987258987827" id="7541398758696222962" nodeInfo="ng">
@@ -227,8 +226,8 @@
               <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="7541398758698037228" nodeInfo="nn">
                 <property name="value" nameId="tpee.1070475926801" value="CAT1" />
               </node>
-              <node role="leftExpression" roleId="tpee.1081773367580" type="rg56.ColumnValue" typeId="rg56.7783277237108466470" id="7541398758701929823" nodeInfo="ng">
-                <link role="column" roleId="rg56.7783277237108513861" targetNodeId="7221311353727166766" resolveInfo="Column1" />
+              <node role="leftExpression" roleId="tpee.1081773367580" type="jrxw.ColumnValue" typeId="jrxw.8081253674570416584" id="7541398758701929823" nodeInfo="ng">
+                <link role="column" roleId="jrxw.8081253674570416585" targetNodeId="7221311353727166766" resolveInfo="Column1" />
               </node>
             </node>
           </node>
@@ -237,8 +236,103 @@
           <link role="table" roleId="jrxw.4451133196879830023" targetNodeId="7541398758696222962" resolveInfo="TableA.csv" />
         </node>
       </node>
-      <node role="transformations" roleId="jrxw.8962032619582305407" type="jrxw.EmptyLine" typeId="jrxw.8962032619593737377" id="7541398758698221126" nodeInfo="ng">
-        <property name="id" nameId="jrxw.8962032619593737385" value="YLRXLVQGLJ" />
+      <node role="transformations" roleId="jrxw.8962032619582305407" type="jrxw.ImportTable" typeId="jrxw.3402264987261651661" id="3431770340962158314" nodeInfo="ng">
+        <property name="id" nameId="jrxw.8962032619593737385" value="BHKSSWIBTK" />
+        <link role="table" roleId="jrxw.3402264987261692715" targetNodeId="3431770340962157685" resolveInfo="TableA_clone.csv" />
+        <node role="future" roleId="jrxw.3402264987261651716" type="jrxw.FutureTable" typeId="jrxw.3402264987259919045" id="3431770340962158467" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="TableA_clone.csv" />
+          <link role="table" roleId="jrxw.3402264987259919103" targetNodeId="3431770340962157685" resolveInfo="TableA_clone.csv" />
+        </node>
+      </node>
+      <node role="transformations" roleId="jrxw.8962032619582305407" type="jrxw.JoinTables" typeId="jrxw.3402264987259164676" id="3431770340962158147" nodeInfo="ng">
+        <property name="id" nameId="jrxw.8962032619593737385" value="JKUTUBNJXR" />
+        <property name="inputChanged" nameId="jrxw.9080041854829670092" value="false" />
+        <node role="outputTable" roleId="jrxw.3402264987259853630" type="jrxw.FutureTable" typeId="jrxw.3402264987259919045" id="3431770340962158151" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="Results" />
+          <link role="table" roleId="jrxw.3402264987259919103" targetNodeId="3431770340962158152" resolveInfo="Results" />
+          <node role="myOwnTable" roleId="jrxw.4166618652720259019" type="jrxw.Table" typeId="jrxw.3402264987258987827" id="3431770340962158152" nodeInfo="ng">
+            <property name="delimitor" nameId="ztlb.2202909375770898234" value="&#9;" />
+            <property name="name" nameId="tpck.1169194664001" value="Results" />
+            <node role="columns" roleId="ztlb.2202909375770434164" type="ztlb.Column" typeId="ztlb.2202909375770434159" id="3431770340962158488" nodeInfo="ng">
+              <property name="name" nameId="tpck.1169194664001" value="Column3.TableA.csv" />
+              <link role="type" roleId="ztlb.3328299660867197501" targetNodeId="9nc5.1993150283055518188" resolveInfo="Numeric" />
+            </node>
+            <node role="columns" roleId="ztlb.2202909375770434164" type="ztlb.Column" typeId="ztlb.2202909375770434159" id="3431770340962158476" nodeInfo="ng">
+              <property name="name" nameId="tpck.1169194664001" value="Column1.TableA.csv" />
+              <link role="type" roleId="ztlb.3328299660867197501" targetNodeId="9nc5.1993150283055518321" resolveInfo="String" />
+              <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="jrxw.ColumnAnnotation" typeId="jrxw.3402264987265829804" id="3431770340962158477" nodeInfo="ng">
+                <node role="groups" roleId="jrxw.3402264987265831176" type="jrxw.ColumnGroupReference" typeId="jrxw.3402264987265829895" id="3431770340962158478" nodeInfo="ng">
+                  <link role="columnGroup" roleId="jrxw.3402264987265829896" targetNodeId="7541398758696223087" resolveInfo="ID" />
+                </node>
+              </node>
+            </node>
+            <node role="columns" roleId="ztlb.2202909375770434164" type="ztlb.Column" typeId="ztlb.2202909375770434159" id="3431770340962158481" nodeInfo="ng">
+              <property name="name" nameId="tpck.1169194664001" value="Column2.TableA.csv" />
+              <link role="type" roleId="ztlb.3328299660867197501" targetNodeId="9nc5.1993150283055518188" resolveInfo="Numeric" />
+              <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="jrxw.ColumnAnnotation" typeId="jrxw.3402264987265829804" id="3431770340962158482" nodeInfo="ng">
+                <node role="groups" roleId="jrxw.3402264987265831176" type="jrxw.ColumnGroupReference" typeId="jrxw.3402264987265829895" id="3431770340962158483" nodeInfo="ng">
+                  <link role="columnGroup" roleId="jrxw.3402264987265829896" targetNodeId="7221311353727175274" resolveInfo="counts" />
+                </node>
+                <node role="groups" roleId="jrxw.3402264987265831176" type="jrxw.ColumnGroupReference" typeId="jrxw.3402264987265829895" id="3431770340962158484" nodeInfo="ng">
+                  <link role="columnGroup" roleId="jrxw.3402264987265829896" targetNodeId="7221311353727198858" resolveInfo="heatmapTest" />
+                </node>
+              </node>
+            </node>
+            <node role="columns" roleId="ztlb.2202909375770434164" type="ztlb.Column" typeId="ztlb.2202909375770434159" id="3431770340962158503" nodeInfo="ng">
+              <property name="name" nameId="tpck.1169194664001" value="Column3.TableA_clone.csv" />
+              <link role="type" roleId="ztlb.3328299660867197501" targetNodeId="9nc5.1993150283055518188" resolveInfo="Numeric" />
+            </node>
+            <node role="columns" roleId="ztlb.2202909375770434164" type="ztlb.Column" typeId="ztlb.2202909375770434159" id="3431770340962158490" nodeInfo="ng">
+              <property name="name" nameId="tpck.1169194664001" value="Column5.TableA.csv" />
+              <link role="type" roleId="ztlb.3328299660867197501" targetNodeId="9nc5.1993150283055518321" resolveInfo="String" />
+            </node>
+            <node role="columns" roleId="ztlb.2202909375770434164" type="ztlb.Column" typeId="ztlb.2202909375770434159" id="3431770340962158505" nodeInfo="ng">
+              <property name="name" nameId="tpck.1169194664001" value="Column5.TableA_clone.csv" />
+              <link role="type" roleId="ztlb.3328299660867197501" targetNodeId="9nc5.1993150283055518321" resolveInfo="String" />
+            </node>
+            <node role="columns" roleId="ztlb.2202909375770434164" type="ztlb.Column" typeId="ztlb.2202909375770434159" id="3431770340962158491" nodeInfo="ng">
+              <property name="name" nameId="tpck.1169194664001" value="Column1.TableA_clone.csv" />
+              <link role="type" roleId="ztlb.3328299660867197501" targetNodeId="9nc5.1993150283055518321" resolveInfo="String" />
+              <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="jrxw.ColumnAnnotation" typeId="jrxw.3402264987265829804" id="3431770340962158492" nodeInfo="ng">
+                <node role="groups" roleId="jrxw.3402264987265831176" type="jrxw.ColumnGroupReference" typeId="jrxw.3402264987265829895" id="3431770340962158493" nodeInfo="ng">
+                  <link role="columnGroup" roleId="jrxw.3402264987265829896" targetNodeId="7541398758696223087" resolveInfo="ID" />
+                </node>
+              </node>
+            </node>
+            <node role="columns" roleId="ztlb.2202909375770434164" type="ztlb.Column" typeId="ztlb.2202909375770434159" id="3431770340962158496" nodeInfo="ng">
+              <property name="name" nameId="tpck.1169194664001" value="Column2.TableA_clone.csv" />
+              <link role="type" roleId="ztlb.3328299660867197501" targetNodeId="9nc5.1993150283055518188" resolveInfo="Numeric" />
+              <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="jrxw.ColumnAnnotation" typeId="jrxw.3402264987265829804" id="3431770340962158497" nodeInfo="ng">
+                <node role="groups" roleId="jrxw.3402264987265831176" type="jrxw.ColumnGroupReference" typeId="jrxw.3402264987265829895" id="3431770340962158498" nodeInfo="ng">
+                  <link role="columnGroup" roleId="jrxw.3402264987265829896" targetNodeId="7221311353727175274" resolveInfo="counts" />
+                </node>
+                <node role="groups" roleId="jrxw.3402264987265831176" type="jrxw.ColumnGroupReference" typeId="jrxw.3402264987265829895" id="3431770340962158499" nodeInfo="ng">
+                  <link role="columnGroup" roleId="jrxw.3402264987265829896" targetNodeId="7221311353727198858" resolveInfo="heatmapTest" />
+                </node>
+              </node>
+            </node>
+            <node role="columns" roleId="ztlb.2202909375770434164" type="ztlb.Column" typeId="ztlb.2202909375770434159" id="3431770340962158504" nodeInfo="ng">
+              <property name="name" nameId="tpck.1169194664001" value="Column4.TableA_clone.csv" />
+              <link role="type" roleId="ztlb.3328299660867197501" targetNodeId="9nc5.1993150283055518188" resolveInfo="Numeric" />
+            </node>
+            <node role="columns" roleId="ztlb.2202909375770434164" type="ztlb.Column" typeId="ztlb.2202909375770434159" id="3431770340962158489" nodeInfo="ng">
+              <property name="name" nameId="tpck.1169194664001" value="Column4.TableA.csv" />
+              <link role="type" roleId="ztlb.3328299660867197501" targetNodeId="9nc5.1993150283055518188" resolveInfo="Numeric" />
+            </node>
+          </node>
+        </node>
+        <node role="byKeySelection" roleId="jrxw.3402264987262235696" type="jrxw.SelectByGroup" typeId="jrxw.3402264987266660978" id="3431770340962158473" nodeInfo="ng">
+          <link role="byGroup" roleId="jrxw.3402264987266660979" targetNodeId="7541398758696223087" resolveInfo="ID" />
+        </node>
+        <node role="inputTables" roleId="jrxw.3402264987259798258" type="jrxw.FutureTableRef" typeId="jrxw.3402264987259789239" id="3431770340962158308" nodeInfo="ng">
+          <link role="table" roleId="jrxw.3402264987259798245" targetNodeId="7541398758697742334" resolveInfo="TableA.csv" />
+        </node>
+        <node role="inputTables" roleId="jrxw.3402264987259798258" type="jrxw.FutureTableRef" typeId="jrxw.3402264987259789239" id="3431770340962158469" nodeInfo="ng">
+          <link role="table" roleId="jrxw.3402264987259798245" targetNodeId="3431770340962158467" resolveInfo="TableA_clone.csv" />
+        </node>
+      </node>
+      <node role="transformations" roleId="jrxw.8962032619582305407" type="jrxw.EmptyLine" typeId="jrxw.8962032619593737377" id="3431770340962158000" nodeInfo="ng">
+        <property name="id" nameId="jrxw.8962032619593737385" value="XIBHYUUNTU" />
       </node>
       <node role="transformations" roleId="jrxw.8962032619582305407" type="jrxw.JoinTables" typeId="jrxw.3402264987259164676" id="7541398758698221177" nodeInfo="ng">
         <property name="id" nameId="jrxw.8962032619593737385" value="UANDXBOCWN" />
@@ -356,13 +450,13 @@
           <link role="table" roleId="jrxw.3402264987259798245" targetNodeId="7541398758698221180" resolveInfo="joinedByColumn" />
         </node>
         <node role="operations" roleId="jrxw.3929971219789675273" type="jrxw.DropColumnOperation" typeId="jrxw.3929971219789681021" id="7221311353727112797" nodeInfo="ng">
-          <node role="col" roleId="jrxw.3929971219789681022" type="jrxw.ColumnRef" typeId="jrxw.3402264987262235801" id="7221311353727167051" nodeInfo="ng">
-            <link role="col" roleId="jrxw.3402264987262235802" targetNodeId="7221311353727166988" resolveInfo="Column4.TableA.csv" />
+          <node role="col" roleId="jrxw.3929971219789681022" type="jrxw.OperationColumnRef" typeId="jrxw.8081253674584199902" id="3431770340962157627" nodeInfo="ng">
+            <link role="col" roleId="jrxw.8081253674598527902" targetNodeId="7221311353727166988" resolveInfo="Column4.TableA.csv" />
           </node>
         </node>
         <node role="operations" roleId="jrxw.3929971219789675273" type="jrxw.DropColumnOperation" typeId="jrxw.3929971219789681021" id="7221311353727167084" nodeInfo="ng">
-          <node role="col" roleId="jrxw.3929971219789681022" type="jrxw.ColumnRef" typeId="jrxw.3402264987262235801" id="7221311353727167092" nodeInfo="ng">
-            <link role="col" roleId="jrxw.3402264987262235802" targetNodeId="7221311353727166993" resolveInfo="Column5.TableC.csv" />
+          <node role="col" roleId="jrxw.3929971219789681022" type="jrxw.OperationColumnRef" typeId="jrxw.8081253674584199902" id="3431770340962157632" nodeInfo="ng">
+            <link role="col" roleId="jrxw.8081253674598527902" targetNodeId="7221311353727166989" resolveInfo="Column5.TableA.csv" />
           </node>
         </node>
       </node>
@@ -559,13 +653,13 @@
           <link role="table" roleId="jrxw.3402264987259798245" targetNodeId="7221311353727154320" resolveInfo="joinedByOneGroup" />
         </node>
         <node role="operations" roleId="jrxw.3929971219789675273" type="jrxw.DropColumnOperation" typeId="jrxw.3929971219789681021" id="7221311353727207222" nodeInfo="ng">
-          <node role="col" roleId="jrxw.3929971219789681022" type="jrxw.ColumnRef" typeId="jrxw.3402264987262235801" id="7221311353727207289" nodeInfo="ng">
-            <link role="col" roleId="jrxw.3402264987262235802" targetNodeId="7221311353727175672" resolveInfo="Column1" />
+          <node role="col" roleId="jrxw.3929971219789681022" type="jrxw.OperationColumnRef" typeId="jrxw.8081253674584199902" id="3431770340962157635" nodeInfo="ng">
+            <link role="col" roleId="jrxw.8081253674598527902" targetNodeId="7221311353727175672" resolveInfo="Column1" />
           </node>
         </node>
         <node role="operations" roleId="jrxw.3929971219789675273" type="jrxw.DropColumnOperation" typeId="jrxw.3929971219789681021" id="7221311353727207308" nodeInfo="ng">
-          <node role="col" roleId="jrxw.3929971219789681022" type="jrxw.ColumnRef" typeId="jrxw.3402264987262235801" id="7221311353727207316" nodeInfo="ng">
-            <link role="col" roleId="jrxw.3402264987262235802" targetNodeId="7221311353727175704" resolveInfo="Column4.TableC.csv" />
+          <node role="col" roleId="jrxw.3929971219789681022" type="jrxw.OperationColumnRef" typeId="jrxw.8081253674584199902" id="3431770340962157638" nodeInfo="ng">
+            <link role="col" roleId="jrxw.8081253674598527902" targetNodeId="7221311353727175704" resolveInfo="Column4.TableC.csv" />
           </node>
         </node>
       </node>
@@ -633,6 +727,45 @@
       <node role="transformations" roleId="jrxw.8962032619582305407" type="jrxw.EmptyLine" typeId="jrxw.8962032619593737377" id="7221311353727175167" nodeInfo="ng">
         <property name="id" nameId="jrxw.8962032619593737385" value="KHCLNPBCQI" />
       </node>
+    </node>
+  </root>
+  <root type="jrxw.Table" typeId="jrxw.3402264987258987827" id="3431770340962157685" nodeInfo="ng">
+    <property name="delimitor" nameId="ztlb.2202909375770898234" value="&#9;" />
+    <property name="path" nameId="ztlb.2202909375770434162" value="/Users/mas2182/Lab/Projects/MPS/MetaR/data/tests/TableA.csv" />
+    <property name="name" nameId="tpck.1169194664001" value="TableA_clone.csv" />
+    <property name="pathToResolve" nameId="jrxw.578023650349875540" value="${org.campagnelab.metaR.home}/data/tests/TableA.csv" />
+    <node role="columns" roleId="ztlb.2202909375770434164" type="ztlb.Column" typeId="ztlb.2202909375770434159" id="3431770340962157686" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="Column1" />
+      <link role="type" roleId="ztlb.3328299660867197501" targetNodeId="9nc5.1993150283055518321" resolveInfo="String" />
+      <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="jrxw.ColumnAnnotation" typeId="jrxw.3402264987265829804" id="3431770340962157687" nodeInfo="ng">
+        <node role="groups" roleId="jrxw.3402264987265831176" type="jrxw.ColumnGroupReference" typeId="jrxw.3402264987265829895" id="3431770340962157688" nodeInfo="ng">
+          <link role="columnGroup" roleId="jrxw.3402264987265829896" targetNodeId="7541398758696223087" resolveInfo="ID" />
+        </node>
+      </node>
+    </node>
+    <node role="columns" roleId="ztlb.2202909375770434164" type="ztlb.Column" typeId="ztlb.2202909375770434159" id="3431770340962157689" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="Column2" />
+      <link role="type" roleId="ztlb.3328299660867197501" targetNodeId="9nc5.1993150283055518188" resolveInfo="Numeric" />
+      <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="jrxw.ColumnAnnotation" typeId="jrxw.3402264987265829804" id="3431770340962157690" nodeInfo="ng">
+        <node role="groups" roleId="jrxw.3402264987265831176" type="jrxw.ColumnGroupReference" typeId="jrxw.3402264987265829895" id="3431770340962157691" nodeInfo="ng">
+          <link role="columnGroup" roleId="jrxw.3402264987265829896" targetNodeId="7221311353727175274" resolveInfo="counts" />
+        </node>
+        <node role="groups" roleId="jrxw.3402264987265831176" type="jrxw.ColumnGroupReference" typeId="jrxw.3402264987265829895" id="3431770340962157692" nodeInfo="ng">
+          <link role="columnGroup" roleId="jrxw.3402264987265829896" targetNodeId="7221311353727198858" resolveInfo="heatmapTest" />
+        </node>
+      </node>
+    </node>
+    <node role="columns" roleId="ztlb.2202909375770434164" type="ztlb.Column" typeId="ztlb.2202909375770434159" id="3431770340962157693" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="Column3" />
+      <link role="type" roleId="ztlb.3328299660867197501" targetNodeId="9nc5.1993150283055518188" resolveInfo="Numeric" />
+    </node>
+    <node role="columns" roleId="ztlb.2202909375770434164" type="ztlb.Column" typeId="ztlb.2202909375770434159" id="3431770340962157694" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="Column4" />
+      <link role="type" roleId="ztlb.3328299660867197501" targetNodeId="9nc5.1993150283055518188" resolveInfo="Numeric" />
+    </node>
+    <node role="columns" roleId="ztlb.2202909375770434164" type="ztlb.Column" typeId="ztlb.2202909375770434159" id="3431770340962157695" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="Column5" />
+      <link role="type" roleId="ztlb.3328299660867197501" targetNodeId="9nc5.1993150283055518321" resolveInfo="String" />
     </node>
   </root>
 </model>
