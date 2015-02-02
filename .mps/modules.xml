@@ -6,7 +6,6 @@
       <modulePath path="${org.campagnelab.xchart.home}/solutions/XChart.build0/XChart.build.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/devkits/org.campagnelab.HTAnalysis.devkit" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.editor.images/org.campagnelab.editor.images.mpl" folder="" />
-      <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.metaR.expressions/org.campagnelab.metaR.expressions.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.metaR.inspect/org.campagnelab.metaR.inspect.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.metaR.tables/org.campagnelab.metaR.tables.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.metar.accessories/org.campagnelab.metar.accessories.mpl" folder="" />

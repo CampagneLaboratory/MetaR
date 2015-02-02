@@ -8,10 +8,9 @@
   <language namespace="901f5cf3-dc77-4c1e-bc5a-6382baee28b4(org.campagnelab.textoutput)" />
   <language namespace="32f503e8-061b-451e-bcb0-fef56aa05eb9(org.campagnelab.metar.inspect)" />
   <language namespace="13744753-c81f-424a-9c1b-cf8943bf4e86(jetbrains.mps.lang.sharedConcepts)" />
-  <language namespace="13025dcf-3a29-4fb4-8af6-9e29bd98ee42(org.campagnelab.metar.expressions)" />
   <language namespace="c901f7a1-ed4f-4b52-8d35-10d1a33974f0(org.campagnelab.metar.code)" />
   <devkit namespace="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
-  <import index="jrxw" modelUID="r:9f2bbfbf-f8b7-4b3b-92b1-b6a0e9642c10(org.campagnelab.metar.tables.structure)" version="17" />
+  <import index="jrxw" modelUID="r:9f2bbfbf-f8b7-4b3b-92b1-b6a0e9642c10(org.campagnelab.metar.tables.structure)" version="20" />
   <import index="ztlb" modelUID="r:989540b8-cc89-4ed5-ba78-cf2ce766b8ce(org.campagnelab.mps.XChart.structure)" version="12" />
   <import index="v8sa" modelUID="r:db1b133e-9a0f-4319-b384-413408eb1729(org.campagnelab.metar.tables.behavior)" version="3" />
   <import index="p6sl" modelUID="r:175e6779-7e81-49b1-b295-33bbabafa8d6(org.campagnelab.textoutput.structure)" version="1" />
@@ -33,6 +32,7 @@
   <import index="tpib" modelUID="r:00000000-0000-4000-0000-011c8959057f(jetbrains.mps.baseLanguage.logging.structure)" version="0" implicit="yes" />
   <root type="tpf8.MappingConfiguration" typeId="tpf8.1095416546421" id="3402264987258972826" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="main" />
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="operations" />
     <node role="mappingLabel" roleId="tpf8.1200911492601" type="tpf8.MappingLabelDeclaration" typeId="tpf8.1200911316486" id="2517666855462450775" nodeInfo="ng">
       <property name="name" nameId="tpck.1169194664001" value="R_SCRIPT" />
       <link role="sourceConcept" roleId="tpf8.1200911342686" targetNodeId="jrxw.8962032619593737380" resolveInfo="Analysis" />
@@ -10788,6 +10788,7 @@
   </root>
   <root type="tpf8.TemplateDeclaration" typeId="tpf8.1092059087312" id="3929971219792692928" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="reduce_DropColumnOperation" />
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="operations" />
     <link role="applicableConcept" roleId="tpf8.1168285871518" targetNodeId="jrxw.3929971219789681021" resolveInfo="DropColumnOperation" />
     <node role="contentNode" roleId="tpf8.1092060348987" type="p6sl.Lines" typeId="p6sl.5039633819242576787" id="3929971219792692933" nodeInfo="ng">
       <property name="text" nameId="p6sl.5493669862519718600" value="" />
