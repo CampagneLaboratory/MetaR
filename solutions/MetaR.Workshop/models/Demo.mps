@@ -1161,14 +1161,12 @@
           <link role="plot" roleId="jrxw.3105090771424833149" targetNodeId="667853661334022615" resolveInfo="plot" />
         </node>
       </node>
-      <node role="transformations" roleId="jrxw.8962032619582305407" type="jrxw.Render" typeId="jrxw.8013388156563115186" id="8154356758119007301" nodeInfo="ng">
-        <property name="id" nameId="jrxw.8962032619593737385" value="UUNMUNWLNK" />
-        <property name="width" nameId="jrxw.7501650211371751513" value="5" />
-        <property name="height" nameId="jrxw.7501650211371753390" value="10" />
+      <node role="transformations" roleId="jrxw.8962032619582305407" type="jrxw.Render" typeId="jrxw.8013388156563115186" id="9110547144677467150" nodeInfo="ng">
+        <property name="id" nameId="jrxw.8962032619593737385" value="JLFTGERULV" />
+        <link role="style" roleId="jrxw.4842667988072482391" targetNodeId="9110547144677467152" resolveInfo="72dpi" />
         <link role="plot" roleId="jrxw.8013388156563171415" targetNodeId="667853661334022615" resolveInfo="plot" />
-        <link role="style" roleId="jrxw.4842667988072482391" targetNodeId="8154356758119014323" resolveInfo="rendering" />
-        <node role="output" roleId="jrxw.8013388156563171423" type="jrxw.PDF" typeId="jrxw.8013388156563171421" id="8154356758119007598" nodeInfo="ng" />
-        <node role="path" roleId="jrxw.3929971219796733619" type="jrxw.OutputFile" typeId="jrxw.3929971219796704543" id="8361613543711998673" nodeInfo="ng">
+        <node role="output" roleId="jrxw.8013388156563171423" type="jrxw.PDF" typeId="jrxw.8013388156563171421" id="9110547144677467459" nodeInfo="ng" />
+        <node role="path" roleId="jrxw.3929971219796733619" type="jrxw.OutputFile" typeId="jrxw.3929971219796704543" id="9110547144677467155" nodeInfo="ng">
           <property name="path" nameId="jrxw.3929971219796704769" value="heatmap.pdf" />
         </node>
       </node>
@@ -1194,6 +1192,10 @@
     <property name="name" nameId="tpck.1169194664001" value="rendering" />
   </root>
   <root type="jrxw.RenderStyle" typeId="jrxw.4842667988072481933" id="7221311353730984140" nodeInfo="ng">
+    <property name="pixelsPerInch" nameId="jrxw.4842667988072482117" value="72" />
+    <property name="name" nameId="tpck.1169194664001" value="72dpi" />
+  </root>
+  <root type="jrxw.RenderStyle" typeId="jrxw.4842667988072481933" id="9110547144677467152" nodeInfo="ng">
     <property name="pixelsPerInch" nameId="jrxw.4842667988072482117" value="72" />
     <property name="name" nameId="tpck.1169194664001" value="72dpi" />
   </root>
