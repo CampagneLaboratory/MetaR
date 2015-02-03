@@ -1210,6 +1210,10 @@
       <property name="name" nameId="tpck.1169194664001" value="path" />
       <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpck.1082983041843" resolveInfo="string" />
     </node>
+    <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="9110547144672268403" nodeInfo="ig">
+      <property name="name" nameId="tpck.1169194664001" value="ext" />
+      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpck.1082983041843" resolveInfo="string" />
+    </node>
   </root>
   <root type="tpce.InterfaceConceptDeclaration" typeId="tpce.1169125989551" id="7541398758672550890" nodeInfo="ig">
     <property name="virtualPackage" nameId="tpck.1193676396447" value="keysel" />
