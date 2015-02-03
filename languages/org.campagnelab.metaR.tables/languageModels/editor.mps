@@ -956,7 +956,7 @@
     <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="jrxw.8459500803719286639" resolveInfo="Heatmap" />
     <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_Collection" typeId="tpc2.1073389446423" id="8459500803719287456" nodeInfo="nn">
       <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="8459500803719287463" nodeInfo="nn">
-        <property name="text" nameId="tpc2.1073389577007" value="build heatmap" />
+        <property name="text" nameId="tpc2.1073389577007" value="heatmap" />
       </node>
       <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="8459500803719287469" nodeInfo="nn">
         <property name="text" nameId="tpc2.1073389577007" value="with" />
