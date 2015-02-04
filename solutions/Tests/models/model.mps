@@ -741,48 +741,6 @@
           </node>
         </node>
       </node>
-      <node role="transformations" roleId="jrxw.8962032619582305407" type="jrxw.BoxPlot" typeId="jrxw.6070133740826950348" id="8081253674577381605" nodeInfo="ng">
-        <property name="id" nameId="jrxw.8962032619593737385" value="PPABRBHIYJ" />
-        <node role="plot" roleId="jrxw.6070133740826952602" type="jrxw.Plot" typeId="jrxw.8459500803719374384" id="8081253674584176591" nodeInfo="ng">
-          <property name="width" nameId="jrxw.8962032619586498917" value="200" />
-          <property name="height" nameId="jrxw.8962032619586499111" value="200" />
-          <property name="name" nameId="tpck.1169194664001" value="fds" />
-        </node>
-        <node role="ColumnRefs" roleId="jrxw.6070133740826952603" type="jrxw.ColumnRef" typeId="jrxw.3402264987262235801" id="690290678955782324" nodeInfo="ng">
-          <link role="col" roleId="jrxw.3402264987262235802" targetNodeId="7221311353727166739" resolveInfo="Column11" />
-        </node>
-        <node role="ColumnRefs" roleId="jrxw.6070133740826952603" type="jrxw.ColumnRef" typeId="jrxw.3402264987262235801" id="2497029342006263608" nodeInfo="ng">
-          <link role="col" roleId="jrxw.3402264987262235802" targetNodeId="7221311353727166772" resolveInfo="Column5" />
-        </node>
-      </node>
-      <node role="transformations" roleId="jrxw.8962032619582305407" type="jrxw.FitXByY" typeId="jrxw.6001041468486314166" id="8081253674584173035" nodeInfo="ng">
-        <property name="id" nameId="jrxw.8962032619593737385" value="WLGLEXORSB" />
-        <link role="style" roleId="jrxw.5333555603574055843" targetNodeId="8081253674584176920" resolveInfo="style" />
-        <node role="plot" roleId="jrxw.6001041468486400692" type="jrxw.Plot" typeId="jrxw.8459500803719374384" id="8081253674584173036" nodeInfo="ng">
-          <property name="width" nameId="jrxw.8962032619586498917" value="0" />
-          <property name="height" nameId="jrxw.8962032619586499111" value="0" />
-          <property name="name" nameId="tpck.1169194664001" value="p" />
-        </node>
-        <node role="table" roleId="jrxw.4451133196880278727" type="jrxw.TableRef" typeId="jrxw.4451133196879828915" id="8081253674595497819" nodeInfo="ng">
-          <link role="table" roleId="jrxw.4451133196879830023" targetNodeId="7541398758696223062" resolveInfo="TableB.csv" />
-        </node>
-        <node role="x" roleId="jrxw.2807244893515991461" type="jrxw.ColumnRef" typeId="jrxw.3402264987262235801" id="2497029342009795338" nodeInfo="ng">
-          <link role="col" roleId="jrxw.3402264987262235802" targetNodeId="7221311353727166755" resolveInfo="Column7" />
-        </node>
-        <node role="y" roleId="jrxw.2807244893515991619" type="jrxw.ColumnRef" typeId="jrxw.3402264987262235801" id="8081253674600112822" nodeInfo="ng">
-          <link role="col" roleId="jrxw.3402264987262235802" targetNodeId="7221311353727166752" resolveInfo="Column6" />
-        </node>
-      </node>
-      <node role="transformations" roleId="jrxw.8962032619582305407" type="jrxw.Histogram" typeId="jrxw.4977909310693613102" id="2497029342008059842" nodeInfo="ng">
-        <property name="id" nameId="jrxw.8962032619593737385" value="XCEIMRGAKB" />
-        <node role="plot" roleId="jrxw.4977909310693733650" type="jrxw.Plot" typeId="jrxw.8459500803719374384" id="2497029342008059844" nodeInfo="ng">
-          <property name="width" nameId="jrxw.8962032619586498917" value="200" />
-          <property name="height" nameId="jrxw.8962032619586499111" value="200" />
-        </node>
-        <node role="ColumnRef" roleId="jrxw.4977909310704831599" type="jrxw.ColumnRef" typeId="jrxw.3402264987262235801" id="2497029342008060798" nodeInfo="ng">
-          <link role="col" roleId="jrxw.3402264987262235802" targetNodeId="7221311353727166772" resolveInfo="Column5" />
-        </node>
-      </node>
       <node role="transformations" roleId="jrxw.8962032619582305407" type="jrxw.EmptyLine" typeId="jrxw.8962032619593737377" id="2497029342009795603" nodeInfo="ng">
         <property name="id" nameId="jrxw.8962032619593737385" value="WEDCNHAEBB" />
       </node>

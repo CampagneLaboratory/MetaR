@@ -634,6 +634,10 @@ public class QueriesGenerated {
     return SPropertyOperations.getString(_context.getNode(), "name");
   }
 
+  public static Object propertyMacro_GetPropertyValue_2497029342011493581(final PropertyMacroContext _context) {
+    return System.getProperty("user.home");
+  }
+
   public static Object propertyMacro_GetPropertyValue_6583618001733640982(final PropertyMacroContext _context) {
     return IterableUtils.join(Sequence.fromIterable(BehaviorReflection.invokeVirtual((Class<Iterable<String>>) ((Class) Object.class), _context.getNode(), "virtual_bioConductorDependencies_6583618001733614174", new Object[]{})).select(new ISelector<String, String>() {
       public String select(String it) {
