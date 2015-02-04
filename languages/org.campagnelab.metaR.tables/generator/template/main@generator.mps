@@ -7342,6 +7342,66 @@
     </node>
     <node role="lineContainer" roleId="p6sl.5039633819243297498" type="p6sl.Lines" typeId="p6sl.5039633819242576787" id="3402264987267195011" nodeInfo="ng">
       <property name="text" nameId="p6sl.5493669862519718600" value="" />
+      <node role="lines" roleId="p6sl.5039633819242576854" type="p6sl.Line" typeId="p6sl.5493669862519709805" id="2497029342011468161" nodeInfo="ng">
+        <node role="phrases" roleId="p6sl.1680136183140337477" type="p6sl.Phrase" typeId="p6sl.1680136183140337486" id="2497029342011475641" nodeInfo="ng">
+          <property name="text" nameId="p6sl.1680136183140337487" value="" />
+        </node>
+        <node role="phrases" roleId="p6sl.1680136183140337477" type="p6sl.Phrase" typeId="p6sl.1680136183140337486" id="2497029342011468229" nodeInfo="ng">
+          <property name="text" nameId="p6sl.1680136183140337487" value="" />
+        </node>
+      </node>
+      <node role="lines" roleId="p6sl.5039633819242576854" type="p6sl.Line" typeId="p6sl.5493669862519709805" id="2497029342011475658" nodeInfo="ng">
+        <property name="text" nameId="p6sl.5493669862519718600" value="#Create installation dir for packages" />
+        <node role="phrases" roleId="p6sl.1680136183140337477" type="p6sl.Phrase" typeId="p6sl.1680136183140337486" id="2497029342011478632" nodeInfo="ng">
+          <property name="text" nameId="p6sl.1680136183140337487" value="" />
+        </node>
+        <node role="phrases" roleId="p6sl.1680136183140337477" type="p6sl.Phrase" typeId="p6sl.1680136183140337486" id="2497029342011475659" nodeInfo="ng">
+          <property name="text" nameId="p6sl.1680136183140337487" value="" />
+        </node>
+      </node>
+      <node role="lines" roleId="p6sl.5039633819242576854" type="p6sl.Lines" typeId="p6sl.5039633819242576787" id="2497029342011490545" nodeInfo="ng">
+        <property name="text" nameId="p6sl.5493669862519718600" value="" />
+        <node role="lines" roleId="p6sl.5039633819242576854" type="p6sl.Line" typeId="p6sl.5493669862519709805" id="2497029342011490547" nodeInfo="ng">
+          <property name="text" nameId="p6sl.5493669862519718600" value="" />
+          <node role="phrases" roleId="p6sl.1680136183140337477" type="p6sl.Phrase" typeId="p6sl.1680136183140337486" id="2497029342011493562" nodeInfo="ng">
+            <property name="text" nameId="p6sl.1680136183140337487" value="libDir &lt;- &quot;" />
+          </node>
+          <node role="phrases" roleId="p6sl.1680136183140337477" type="p6sl.Phrase" typeId="p6sl.1680136183140337486" id="2497029342011493563" nodeInfo="ng">
+            <property name="text" nameId="p6sl.1680136183140337487" value="home" />
+            <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpf8.PropertyMacro" typeId="tpf8.1087833241328" id="2497029342011493580" nodeInfo="nn">
+              <property name="propertyName" nameId="tpck.1757699476691236117" value="text" />
+              <node role="propertyValueFunction" roleId="tpf8.1167756362303" type="tpf8.PropertyMacro_GetPropertyValue" typeId="tpf8.1167756080639" id="2497029342011493581" nodeInfo="nn">
+                <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="2497029342011493582" nodeInfo="sn">
+                  <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="2497029342011499585" nodeInfo="nn">
+                    <node role="expression" roleId="tpee.1068580123156" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="2497029342011501476" nodeInfo="nn">
+                      <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="e2lb.~System%dgetProperty(java%dlang%dString)%cjava%dlang%dString" resolveInfo="getProperty" />
+                      <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="e2lb.~System" resolveInfo="System" />
+                      <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="2497029342011502236" nodeInfo="nn">
+                        <property name="value" nameId="tpee.1070475926801" value="user.home" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node role="phrases" roleId="p6sl.1680136183140337477" type="p6sl.Phrase" typeId="p6sl.1680136183140337486" id="2497029342011493564" nodeInfo="ng">
+            <property name="text" nameId="p6sl.1680136183140337487" value="/.metaRlibs&quot;" />
+          </node>
+        </node>
+        <node role="lines" roleId="p6sl.5039633819242576854" type="p6sl.Line" typeId="p6sl.5493669862519709805" id="2497029342011490548" nodeInfo="ng">
+          <property name="text" nameId="p6sl.5493669862519718600" value="dir.create(file.path(libDir), showWarnings = FALSE, recursive = TRUE)" />
+        </node>
+        <node role="lines" roleId="p6sl.5039633819242576854" type="p6sl.Line" typeId="p6sl.5493669862519709805" id="2497029342011490550" nodeInfo="ng">
+          <property name="text" nameId="p6sl.5493669862519718600" value=".libPaths(c(libDir))" />
+        </node>
+      </node>
+      <node role="lines" roleId="p6sl.5039633819242576854" type="p6sl.Line" typeId="p6sl.5493669862519709805" id="2497029342011478644" nodeInfo="ng">
+        <property name="text" nameId="p6sl.5493669862519718600" value="" />
+        <node role="phrases" roleId="p6sl.1680136183140337477" type="p6sl.Phrase" typeId="p6sl.1680136183140337486" id="2497029342011478645" nodeInfo="ng">
+          <property name="text" nameId="p6sl.1680136183140337487" value="" />
+        </node>
+      </node>
       <node role="lines" roleId="p6sl.5039633819242576854" type="p6sl.Lines" typeId="p6sl.5039633819242576787" id="6583618001733606581" nodeInfo="ng">
         <property name="text" nameId="p6sl.5493669862519718600" value="" />
         <node role="lines" roleId="p6sl.5039633819242576854" type="p6sl.Line" typeId="p6sl.5493669862519709805" id="6583618001734372241" nodeInfo="ng">
@@ -7354,7 +7414,7 @@
           <property name="text" nameId="p6sl.5493669862519718600" value="# Install bioconductor packages:" />
         </node>
         <node role="lines" roleId="p6sl.5039633819242576854" type="p6sl.Line" typeId="p6sl.5493669862519709805" id="6583618001733606583" nodeInfo="ng">
-          <property name="text" nameId="p6sl.5493669862519718600" value="source(&quot;http://bioconductor.org/biocLite.R&quot;)" />
+          <property name="text" nameId="p6sl.5493669862519718600" value="source(&quot;http://bioconductor.org/biocLite.R&quot;, local=TRUE)" />
         </node>
         <node role="lines" roleId="p6sl.5039633819242576854" type="p6sl.Line" typeId="p6sl.5493669862519709805" id="6583618001733606584" nodeInfo="ng">
           <property name="text" nameId="p6sl.5493669862519718600" value="" />
