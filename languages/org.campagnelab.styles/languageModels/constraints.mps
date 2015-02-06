@@ -236,8 +236,8 @@
               </node>
               <node role="operation" roleId="tpee.1197027833540" type="tp25.Node_GetModelOperation" typeId="tp25.1143234257716" id="5397636476161674491" nodeInfo="nn" />
             </node>
-            <node role="operation" roleId="tpee.1197027833540" type="tp25.Model_RootsOperation" typeId="tp25.1171315804604" id="5397636476161678015" nodeInfo="nn">
-              <link role="concept" roleId="tp25.1171315804605" targetNodeId="onla.5397636476160560846" resolveInfo="StyleContainer" />
+            <node role="operation" roleId="tpee.1197027833540" type="tp25.Model_RootsIncludingImportedOperation" typeId="tp25.1176109685393" id="5397636476163143950" nodeInfo="nn">
+              <link role="concept" roleId="tp25.1176109685394" targetNodeId="onla.5397636476160560846" resolveInfo="StyleContainer" />
             </node>
           </node>
         </node>
