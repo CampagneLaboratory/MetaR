@@ -31,6 +31,7 @@ import org.campagnelab.metar.tables.behavior.Heatmap_Behavior;
 import jetbrains.mps.internal.collections.runtime.IVisitor;
 import org.campagnelab.metar.tables.behavior.Plot_Behavior;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
+import org.campagnelab.metar.tables.behavior.FitXByY_Behavior;
 import org.campagnelab.metar.tables.behavior.Multiplot_Behavior;
 import jetbrains.mps.smodel.behaviour.BehaviorReflection;
 import org.campagnelab.metar.tables.behavior.Render_Behavior;
@@ -470,19 +471,19 @@ public class QueriesGenerated {
   }
 
   public static Object propertyMacro_GetPropertyValue_8286430004408149347(final PropertyMacroContext _context) {
-    return SPropertyOperations.getString(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "style", false), "xRange", true), "min");
+    return SPropertyOperations.getString(FitXByY_Behavior.call_getXRange_5397636476166599130(_context.getNode()), "min");
   }
 
   public static Object propertyMacro_GetPropertyValue_8286430004408162182(final PropertyMacroContext _context) {
-    return SPropertyOperations.getString(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "style", false), "xRange", true), "max");
+    return SPropertyOperations.getString(FitXByY_Behavior.call_getXRange_5397636476166599130(_context.getNode()), "max");
   }
 
   public static Object propertyMacro_GetPropertyValue_8286430004408178285(final PropertyMacroContext _context) {
-    return SPropertyOperations.getString(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "style", false), "yRange", true), "min");
+    return SPropertyOperations.getString(FitXByY_Behavior.call_getYRange_5397636476166766708(_context.getNode()), "min");
   }
 
   public static Object propertyMacro_GetPropertyValue_8286430004408178299(final PropertyMacroContext _context) {
-    return SPropertyOperations.getString(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "style", false), "yRange", true), "max");
+    return SPropertyOperations.getString(FitXByY_Behavior.call_getYRange_5397636476166766708(_context.getNode()), "max");
   }
 
   public static Object propertyMacro_GetPropertyValue_3442436599519391775(final PropertyMacroContext _context) {
@@ -490,15 +491,15 @@ public class QueriesGenerated {
   }
 
   public static Object propertyMacro_GetPropertyValue_3442436599519473717(final PropertyMacroContext _context) {
-    return SPropertyOperations.getString(SLinkOperations.getTarget(_context.getNode(), "style", false), "xLabel");
+    return SPropertyOperations.getString(FitXByY_Behavior.call_getXLabel_5397636476166840205(_context.getNode()), "value");
   }
 
   public static Object propertyMacro_GetPropertyValue_3442436599519485503(final PropertyMacroContext _context) {
-    return SPropertyOperations.getString(SLinkOperations.getTarget(_context.getNode(), "style", false), "yLabel");
+    return SPropertyOperations.getString(FitXByY_Behavior.call_getYLabel_5397636476166840217(_context.getNode()), "value");
   }
 
   public static Object propertyMacro_GetPropertyValue_5333555603574514247(final PropertyMacroContext _context) {
-    return SPropertyOperations.getString(SLinkOperations.getTarget(_context.getNode(), "style", false), "title");
+    return SPropertyOperations.getString(FitXByY_Behavior.call_getTitle_5397636476166783092(_context.getNode()), "value");
   }
 
   public static Object propertyMacro_GetPropertyValue_6001041468487057584(final PropertyMacroContext _context) {
@@ -506,19 +507,19 @@ public class QueriesGenerated {
   }
 
   public static Object propertyMacro_GetPropertyValue_4842667988068041245(final PropertyMacroContext _context) {
-    return SPropertyOperations.getString(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "style", false), "xRange", true), "min");
+    return SPropertyOperations.getString(FitXByY_Behavior.call_getXRange_5397636476166599130(_context.getNode()), "min");
   }
 
   public static Object propertyMacro_GetPropertyValue_4842667988068041258(final PropertyMacroContext _context) {
-    return SPropertyOperations.getString(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "style", false), "xRange", true), "max");
+    return SPropertyOperations.getString(FitXByY_Behavior.call_getXRange_5397636476166599130(_context.getNode()), "max");
   }
 
   public static Object propertyMacro_GetPropertyValue_4842667988068043231(final PropertyMacroContext _context) {
-    return SPropertyOperations.getString(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "style", false), "yRange", true), "min");
+    return SPropertyOperations.getString(FitXByY_Behavior.call_getYRange_5397636476166766708(_context.getNode()), "min");
   }
 
   public static Object propertyMacro_GetPropertyValue_4842667988068043244(final PropertyMacroContext _context) {
-    return SPropertyOperations.getString(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "style", false), "yRange", true), "max");
+    return SPropertyOperations.getString(FitXByY_Behavior.call_getYRange_5397636476166766708(_context.getNode()), "max");
   }
 
   public static Object propertyMacro_GetPropertyValue_6001041468487052823(final PropertyMacroContext _context) {
@@ -526,11 +527,11 @@ public class QueriesGenerated {
   }
 
   public static Object propertyMacro_GetPropertyValue_5333555603574492550(final PropertyMacroContext _context) {
-    return SPropertyOperations.getString(SLinkOperations.getTarget(_context.getNode(), "style", false), "xLabel");
+    return SPropertyOperations.getString(FitXByY_Behavior.call_getXLabel_5397636476166840205(_context.getNode()), "value");
   }
 
   public static Object propertyMacro_GetPropertyValue_5333555603574505248(final PropertyMacroContext _context) {
-    return SPropertyOperations.getString(SLinkOperations.getTarget(_context.getNode(), "style", false), "yLabel");
+    return SPropertyOperations.getString(FitXByY_Behavior.call_getYLabel_5397636476166840217(_context.getNode()), "value");
   }
 
   public static Object propertyMacro_GetPropertyValue_6001041468488153342(final PropertyMacroContext _context) {
@@ -1002,11 +1003,11 @@ public class QueriesGenerated {
   }
 
   public static boolean ifMacro_Condition_8286430004408199559(final IfMacroContext _context) {
-    return (SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "style", false), "xRange", true) != null);
+    return FitXByY_Behavior.call_hasXRange_5397636476166583581(_context.getNode());
   }
 
   public static boolean ifMacro_Condition_8286430004408210438(final IfMacroContext _context) {
-    return (SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "style", false), "yRange", true) != null);
+    return FitXByY_Behavior.call_hasYRange_5397636476166591563(_context.getNode());
   }
 
   public static boolean ifMacro_Condition_3442436599519404533(final IfMacroContext _context) {
@@ -1014,11 +1015,11 @@ public class QueriesGenerated {
   }
 
   public static boolean ifMacro_Condition_4842667988068041272(final IfMacroContext _context) {
-    return (SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "style", false), "xRange", true) != null);
+    return FitXByY_Behavior.call_hasXRange_5397636476166583581(_context.getNode());
   }
 
   public static boolean ifMacro_Condition_4842667988068043258(final IfMacroContext _context) {
-    return (SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "style", false), "yRange", true) != null);
+    return FitXByY_Behavior.call_hasYRange_5397636476166591563(_context.getNode());
   }
 
   public static boolean ifMacro_Condition_6583618001733606651(final IfMacroContext _context) {
