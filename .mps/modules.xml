@@ -12,7 +12,7 @@
       <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.metar.code/org.campagnelab.metar.code.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.metar.edgeR/org.campagnelab.metar.edgeR.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.metar.limma.voom/org.campagnelab.metar.limma.voom.mpl" folder="" />
-      <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.metar.styles/org.campagnelab.metar.styles.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.styles/org.campagnelab.styles.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/MetaR.Workshop/MetaR.Workshop.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/Tests/Tests.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/build.plugins/build.plugins.msd" folder="" />
