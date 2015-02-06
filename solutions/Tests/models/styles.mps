@@ -25,6 +25,9 @@
       <property name="min" nameId="onla.5397636476166021502" value="2" />
       <property name="max" nameId="onla.5397636476166021503" value="100" />
     </node>
+    <node role="elements" roleId="onla.5397636476160567172" type="onla.YRange" typeId="onla.5397636476166080970" id="5397636476170335830" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="Y range" />
+    </node>
   </root>
   <root type="onla.StyleContainer" typeId="onla.5397636476160560846" id="5397636476163172704" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="ChildStyle" />
@@ -32,7 +35,9 @@
   </root>
   <root type="onla.StyleContainer" typeId="onla.5397636476160560846" id="5397636476163172707" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="GrandChildStyle" />
-    <link role="extends" roleId="onla.5397636476160801466" targetNodeId="5397636476163172704" resolveInfo="ChildStyle" />
+  </root>
+  <root type="onla.StyleContainer" typeId="onla.5397636476160560846" id="5397636476170340641" nodeInfo="ng">
+    <property name="name" nameId="tpck.1169194664001" value="FitStyle" />
   </root>
 </model>
 
