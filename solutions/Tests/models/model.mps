@@ -785,9 +785,6 @@
       <link role="type" roleId="ztlb.3328299660867197501" targetNodeId="9nc5.1993150283055518321" resolveInfo="String" />
     </node>
   </root>
-  <root type="jrxw.ScatterPlotStyle" typeId="jrxw.5333555603574046783" id="8081253674584176920" nodeInfo="ng">
-    <property name="name" nameId="tpck.1169194664001" value="style" />
-  </root>
   <root type="jrxw.Table" typeId="jrxw.3402264987258987827" id="3431770340960084083" nodeInfo="ng">
     <property name="delimitor" nameId="ztlb.2202909375770898234" value="&#9;" />
     <property name="path" nameId="ztlb.2202909375770434162" value="/Users/mas2182/Lab/Projects/MPS/MetaR/data/tests/TableA.csv" />
