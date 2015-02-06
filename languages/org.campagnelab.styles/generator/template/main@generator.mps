@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model modelUID="r:445a29b3-3f0c-4499-8311-f416b97130bd(org.campagnelab.metar.styles.generator.template.main@generator)">
+<model modelUID="r:445a29b3-3f0c-4499-8311-f416b97130bd(org.campagnelab.styles.generator.template.main@generator)" version="0">
   <persistence version="8" />
-  <language namespace="43f31864-fc67-43f5-873e-ab79cc279a2d(org.campagnelab.metar.styles)" />
+  <language namespace="43f31864-fc67-43f5-873e-ab79cc279a2d(org.campagnelab.styles)" />
   <language namespace="ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)" />
   <language namespace="d7706f63-9be2-479c-a3da-ae92af1e64d5(jetbrains.mps.lang.generator.generationContext)" />
   <language namespace="b401a680-8325-4110-8fd3-84331ff25bef(jetbrains.mps.lang.generator)" />
