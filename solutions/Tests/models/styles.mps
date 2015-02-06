@@ -8,6 +8,15 @@
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
   <root type="onla.StyleContainer" typeId="onla.5397636476160560846" id="5397636476163172635" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="RootStyle" />
+    <node role="elements" roleId="onla.5397636476160567172" type="onla.Label" typeId="onla.5397636476163237583" id="5397636476163278850" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="x" />
+      <property name="value" nameId="onla.5397636476163237594" value="label for x" />
+    </node>
+    <node role="elements" roleId="onla.5397636476160567172" type="onla.Range" typeId="onla.8286430004407881520" id="5397636476165605012" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="x" />
+      <property name="min" nameId="onla.8286430004407883630" value="1" />
+      <property name="max" nameId="onla.8286430004407883632" value="100" />
+    </node>
   </root>
   <root type="onla.StyleContainer" typeId="onla.5397636476160560846" id="5397636476163172704" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="ChildStyle" />
