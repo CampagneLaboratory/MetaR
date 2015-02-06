@@ -37,8 +37,39 @@
   </root>
   <root type="tpce.InterfaceConceptDeclaration" typeId="tpce.1169125989551" id="5397636476160567168" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="StyleElement" />
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="elements" />
     <node role="extends" roleId="tpce.1169127546356" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="5397636476160567169" nodeInfo="ig">
       <link role="intfc" roleId="tpce.1169127628841" targetNodeId="tpck.1169194658468" resolveInfo="INamedConcept" />
+    </node>
+  </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="5397636476163237583" nodeInfo="ig">
+    <property name="name" nameId="tpck.1169194664001" value="Label" />
+    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="label" />
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="elements" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
+    <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="5397636476163237594" nodeInfo="ig">
+      <property name="name" nameId="tpck.1169194664001" value="value" />
+      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpck.1082983041843" resolveInfo="string" />
+    </node>
+    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="5397636476163237592" nodeInfo="ig">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="5397636476160567168" resolveInfo="StyleElement" />
+    </node>
+  </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="8286430004407881520" nodeInfo="ig">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="elements" />
+    <property name="name" nameId="tpck.1169194664001" value="Range" />
+    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="range" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
+    <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="8286430004407883630" nodeInfo="ig">
+      <property name="name" nameId="tpck.1169194664001" value="min" />
+      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpck.1082983041843" resolveInfo="string" />
+    </node>
+    <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="8286430004407883632" nodeInfo="ig">
+      <property name="name" nameId="tpck.1169194664001" value="max" />
+      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpck.1082983041843" resolveInfo="string" />
+    </node>
+    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="5397636476163237617" nodeInfo="ig">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="5397636476160567168" resolveInfo="StyleElement" />
     </node>
   </root>
 </model>
