@@ -5,8 +5,8 @@
       <model index="onla" modelUID="r:b81182ba-13d2-441a-9b65-76fe2bd96f30(org.campagnelab.metar.styles.structure)" version="-1" />
       <model index="42z1" modelUID="r:61980467-5cf8-4450-9d24-d597512183ad(org.campagnelab.metar.styles.behavior)" version="-1" />
       <model index="2e11" modelUID="r:a1192c71-f025-46a2-b46d-790f47627959(org.campagnelab.metar.styles.typesystem)" version="-1" />
-      <model index="h23j" modelUID="r:5e0b7baa-a427-417f-968a-1e4912c5f643(org.campagnelab.metar.styles.editor)" version="-1" />
       <model index="hu87" modelUID="r:348ee4dd-8a6d-4637-bc15-4ff6de435f5b(org.campagnelab.metar.styles.constraints)" version="-1" />
+      <model index="h23j" modelUID="r:5e0b7baa-a427-417f-968a-1e4912c5f643(org.campagnelab.metar.styles.editor)" version="-1" />
       <model index="ee0x" modelUID="r:445a29b3-3f0c-4499-8311-f416b97130bd(org.campagnelab.metar.styles.generator.template.main@generator)" version="-1" />
     </dependencies>
     <RenameModel oldModel="r:b81182ba-13d2-441a-9b65-76fe2bd96f30(org.campagnelab.metar.styles.structure)" newModel="r:b81182ba-13d2-441a-9b65-76fe2bd96f30(org.campagnelab.styles.structure)" />
@@ -33,6 +33,18 @@
       <model index="onla" modelUID="r:b81182ba-13d2-441a-9b65-76fe2bd96f30(org.campagnelab.styles.structure)" version="2" />
     </dependencies>
     <rename id="onla.5397636476165968416" type="CONCEPT" from="StringStyleElement" to="StringStyleClass" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="onla" modelUID="r:b81182ba-13d2-441a-9b65-76fe2bd96f30(org.campagnelab.styles.structure)" version="3" />
+    </dependencies>
+    <rename id="onla.5397636476161828355" type="REFERENCE" from="style" to="styleItems" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="onla" modelUID="r:b81182ba-13d2-441a-9b65-76fe2bd96f30(org.campagnelab.styles.structure)" version="4" />
+    </dependencies>
+    <rename id="onla.5397636476161828355" type="REFERENCE" from="styleItems" to="useStyle" />
   </StructureModification>
 </history>
 
