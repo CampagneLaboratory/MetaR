@@ -273,10 +273,6 @@
               <node role="creator" roleId="tpee.1145553007750" type="tpee.ClassCreator" typeId="tpee.1212685548494" id="5397636476163198883" nodeInfo="nn">
                 <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="5397636476163175834" resolveInfo="UseStyleSearchScope" />
                 <node role="actualArgument" roleId="tpee.1068499141038" type="tp1t.ConstraintFunctionParameter_referenceNode" typeId="tp1t.1163200647017" id="5397636476163199903" nodeInfo="nn" />
-                <node role="actualArgument" roleId="tpee.1068499141038" type="tp25.SNodeTypeCastExpression" typeId="tp25.1140137987495" id="5397636476163204056" nodeInfo="nn">
-                  <link role="concept" roleId="tp25.1140138128738" targetNodeId="onla.5397636476160560846" resolveInfo="StyleContainer" />
-                  <node role="leftExpression" roleId="tp25.1140138123956" type="tp1t.ConstraintFunctionParameter_contextNode" typeId="tp1t.8966504967485224688" id="5397636476163200263" nodeInfo="nn" />
-                </node>
               </node>
             </node>
           </node>
@@ -371,16 +367,6 @@
         <property name="isFinal" nameId="tpee.1176718929932" value="true" />
         <node role="type" roleId="tpee.5680397130376446158" type="tp25.SNodeType" typeId="tp25.1138055754698" id="5397636476163175876" nodeInfo="in">
           <link role="concept" roleId="tp25.1138405853777" targetNodeId="onla.5397636476160524896" resolveInfo="UseStyle" />
-        </node>
-      </node>
-      <node role="parameter" roleId="tpee.1068580123134" type="tpee.ParameterDeclaration" typeId="tpee.1068498886292" id="5397636476163175835" nodeInfo="ir">
-        <property name="name" nameId="tpck.1169194664001" value="linked" />
-        <property name="isFinal" nameId="tpee.1176718929932" value="true" />
-        <node role="annotation" roleId="tpee.1188208488637" type="tpee.AnnotationInstance" typeId="tpee.1188207840427" id="5397636476163175836" nodeInfo="nn">
-          <link role="annotation" roleId="tpee.1188208074048" targetNodeId="as9o.~Nullable" resolveInfo="Nullable" />
-        </node>
-        <node role="type" roleId="tpee.5680397130376446158" type="tp25.SNodeType" typeId="tp25.1138055754698" id="5397636476163175837" nodeInfo="in">
-          <link role="concept" roleId="tp25.1138405853777" targetNodeId="onla.5397636476160560846" resolveInfo="StyleContainer" />
         </node>
       </node>
     </node>
