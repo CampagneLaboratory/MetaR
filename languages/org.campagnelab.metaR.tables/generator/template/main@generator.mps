@@ -10842,7 +10842,7 @@
                       </node>
                     </node>
                     <node role="operation" roleId="tpee.1197027833540" type="tp25.Node_ConceptMethodCall" typeId="tp25.1179409122411" id="3929971219792737993" nodeInfo="nn">
-                      <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="v8sa.229475681292662876" resolveInfo="getColumnName" />
+                      <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="v8sa.8081253674598531134" resolveInfo="getColumnName" />
                     </node>
                   </node>
                 </node>
