@@ -682,6 +682,10 @@
       <property name="name" nameId="tpck.1169194664001" value="yLabel" />
       <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpck.1082983041843" resolveInfo="string" />
     </node>
+    <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpce.DeprecatedNodeAnnotation" typeId="tpce.1224240836180" id="5397636476180759259" nodeInfo="ig">
+      <property name="comment" nameId="tpce.1225118933224" value="Use colors from styles language instead" />
+      <property name="build" nameId="tpce.1225118929411" value="1.1.7" />
+    </node>
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="8286430004407881520" nodeInfo="ig">
     <property name="virtualPackage" nameId="tpck.1193676396447" value="plots" />
