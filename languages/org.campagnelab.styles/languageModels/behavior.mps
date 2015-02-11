@@ -4,7 +4,7 @@
   <language namespace="af65afd8-f0dd-4942-87d9-63a55f2a9db1(jetbrains.mps.lang.behavior)" />
   <language namespace="f2801650-65d5-424e-bb1b-463a8781b786(jetbrains.mps.baseLanguage.javadoc)" />
   <devkit namespace="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
-  <import index="onla" modelUID="r:b81182ba-13d2-441a-9b65-76fe2bd96f30(org.campagnelab.styles.structure)" version="10" />
+  <import index="onla" modelUID="r:b81182ba-13d2-441a-9b65-76fe2bd96f30(org.campagnelab.styles.structure)" version="11" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
   <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="5" implicit="yes" />
   <import index="1i04" modelUID="r:3270011d-8b2d-4938-8dff-d256a759e017(jetbrains.mps.lang.behavior.structure)" version="-1" implicit="yes" />
@@ -218,7 +218,7 @@
     </node>
   </root>
   <root type="1i04.ConceptBehavior" typeId="1i04.1225194240794" id="5397636476165896609" nodeInfo="ng">
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="elements" />
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="elements.strings" />
     <link role="concept" roleId="1i04.1225194240799" targetNodeId="onla.5397636476165880425" resolveInfo="YLabel" />
     <node role="constructor" roleId="1i04.1225194240801" type="1i04.ConceptConstructorDeclaration" typeId="1i04.1225194413805" id="5397636476165896610" nodeInfo="nn">
       <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="5397636476165896611" nodeInfo="sn">
@@ -239,7 +239,7 @@
     </node>
   </root>
   <root type="1i04.ConceptBehavior" typeId="1i04.1225194240794" id="5397636476165902081" nodeInfo="ng">
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="elements" />
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="elements.strings" />
     <link role="concept" roleId="1i04.1225194240799" targetNodeId="onla.5397636476163237583" resolveInfo="XLabel" />
     <node role="constructor" roleId="1i04.1225194240801" type="1i04.ConceptConstructorDeclaration" typeId="1i04.1225194413805" id="5397636476165902082" nodeInfo="nn">
       <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="5397636476165902083" nodeInfo="sn">
@@ -260,7 +260,7 @@
     </node>
   </root>
   <root type="1i04.ConceptBehavior" typeId="1i04.1225194240794" id="5397636476165969314" nodeInfo="ng">
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="elements" />
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="elements.strings" />
     <link role="concept" roleId="1i04.1225194240799" targetNodeId="onla.5397636476165961030" resolveInfo="Title" />
     <node role="constructor" roleId="1i04.1225194240801" type="1i04.ConceptConstructorDeclaration" typeId="1i04.1225194413805" id="5397636476165969315" nodeInfo="nn">
       <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="5397636476165969316" nodeInfo="sn">
@@ -281,7 +281,7 @@
     </node>
   </root>
   <root type="1i04.ConceptBehavior" typeId="1i04.1225194240794" id="5397636476166081270" nodeInfo="ng">
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="elements" />
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="elements.ranges" />
     <link role="concept" roleId="1i04.1225194240799" targetNodeId="onla.5397636476166080970" resolveInfo="YRange" />
     <node role="constructor" roleId="1i04.1225194240801" type="1i04.ConceptConstructorDeclaration" typeId="1i04.1225194413805" id="5397636476166081271" nodeInfo="nn">
       <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="5397636476166081272" nodeInfo="sn">
@@ -302,7 +302,7 @@
     </node>
   </root>
   <root type="1i04.ConceptBehavior" typeId="1i04.1225194240794" id="5397636476166086070" nodeInfo="ng">
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="elements" />
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="elements.ranges" />
     <link role="concept" roleId="1i04.1225194240799" targetNodeId="onla.5397636476166074709" resolveInfo="XRange" />
     <node role="constructor" roleId="1i04.1225194240801" type="1i04.ConceptConstructorDeclaration" typeId="1i04.1225194413805" id="5397636476166086071" nodeInfo="nn">
       <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="5397636476166086072" nodeInfo="sn">
@@ -531,7 +531,7 @@
     </node>
   </root>
   <root type="1i04.ConceptBehavior" typeId="1i04.1225194240794" id="5397636476170193799" nodeInfo="ng">
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="elements" />
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="elements.strings" />
     <link role="concept" roleId="1i04.1225194240799" targetNodeId="onla.5397636476165968416" resolveInfo="StringStyleClass" />
     <node role="method" roleId="1i04.1225194240805" type="1i04.ConceptMethodDeclaration" typeId="1i04.1225194472830" id="5397636476170193802" nodeInfo="ng">
       <property name="name" nameId="tpck.1169194664001" value="getValue" />
@@ -553,7 +553,7 @@
     </node>
   </root>
   <root type="1i04.ConceptBehavior" typeId="1i04.1225194240794" id="5397636476170198636" nodeInfo="ng">
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="elements" />
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="elements.ranges" />
     <link role="concept" roleId="1i04.1225194240799" targetNodeId="onla.5397636476166014163" resolveInfo="RangeStyleClass" />
     <node role="method" roleId="1i04.1225194240805" type="1i04.ConceptMethodDeclaration" typeId="1i04.1225194472830" id="5397636476170198639" nodeInfo="ng">
       <property name="name" nameId="tpck.1169194664001" value="getMin" />
@@ -590,7 +590,7 @@
     </node>
   </root>
   <root type="1i04.ConceptBehavior" typeId="1i04.1225194240794" id="3501083140123919650" nodeInfo="ng">
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="elements" />
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="elements.ints" />
     <link role="concept" roleId="1i04.1225194240799" targetNodeId="onla.3501083140123917949" resolveInfo="IntegerStyleClass" />
     <node role="method" roleId="1i04.1225194240805" type="1i04.ConceptMethodDeclaration" typeId="1i04.1225194472830" id="3501083140123919964" nodeInfo="ng">
       <property name="name" nameId="tpck.1169194664001" value="getValue" />

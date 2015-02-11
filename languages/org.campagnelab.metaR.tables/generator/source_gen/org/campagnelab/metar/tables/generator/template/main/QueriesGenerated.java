@@ -40,6 +40,7 @@ import org.campagnelab.metar.tables.behavior.Render_Behavior;
 import org.campagnelab.metar.tables.behavior.ColumnRef_Behavior;
 import org.campagnelab.metar.tables.behavior.Model_Behavior;
 import org.campagnelab.metar.tables.behavior.OutputFile_Behavior;
+import org.campagnelab.metar.tables.behavior.OperationColumnRef_Behavior;
 import jetbrains.mps.generator.template.IfMacroContext;
 import jetbrains.mps.generator.template.SourceSubstituteMacroNodeContext;
 import jetbrains.mps.generator.template.TemplateQueryContext;
@@ -972,7 +973,7 @@ public class QueriesGenerated {
   }
 
   public static Object propertyMacro_GetPropertyValue_3929971219792727902(final PropertyMacroContext _context) {
-    return ColumnRef_Behavior.call_getColumnName_229475681292662876(SLinkOperations.getTarget(_context.getNode(), "col", true));
+    return OperationColumnRef_Behavior.call_getColumnName_8081253674598531134(SLinkOperations.getTarget(_context.getNode(), "col", true));
   }
 
   public static boolean ifMacro_Condition_1549006859295113839(final IfMacroContext _context) {
