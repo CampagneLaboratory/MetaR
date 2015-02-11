@@ -31,9 +31,7 @@ import org.campagnelab.metar.tables.behavior.Heatmap_Behavior;
 import jetbrains.mps.internal.collections.runtime.IVisitor;
 import org.campagnelab.metar.tables.behavior.Plot_Behavior;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
-import org.campagnelab.styles.behavior.RangeStyleClass_Behavior;
 import org.campagnelab.metar.tables.behavior.FitXByY_Behavior;
-import org.campagnelab.styles.behavior.StringStyleClass_Behavior;
 import org.campagnelab.metar.tables.behavior.Multiplot_Behavior;
 import jetbrains.mps.smodel.behaviour.BehaviorReflection;
 import org.campagnelab.metar.tables.behavior.Render_Behavior;
@@ -476,19 +474,19 @@ public class QueriesGenerated {
   }
 
   public static Object propertyMacro_GetPropertyValue_8286430004408149347(final PropertyMacroContext _context) {
-    return RangeStyleClass_Behavior.call_getMin_5397636476170198639(FitXByY_Behavior.call_getXRange_5397636476166599130(_context.getNode()));
+    return FitXByY_Behavior.call_getXRangeMin_5397636476166599130(_context.getNode());
   }
 
   public static Object propertyMacro_GetPropertyValue_8286430004408162182(final PropertyMacroContext _context) {
-    return RangeStyleClass_Behavior.call_getMax_5397636476170201416(FitXByY_Behavior.call_getXRange_5397636476166599130(_context.getNode()));
+    return FitXByY_Behavior.call_getXRangeMax_899140891889017792(_context.getNode());
   }
 
   public static Object propertyMacro_GetPropertyValue_8286430004408178285(final PropertyMacroContext _context) {
-    return RangeStyleClass_Behavior.call_getMin_5397636476170198639(FitXByY_Behavior.call_getYRange_5397636476166766708(_context.getNode()));
+    return FitXByY_Behavior.call_getYRangeMin_899140891889036360(_context.getNode());
   }
 
   public static Object propertyMacro_GetPropertyValue_8286430004408178299(final PropertyMacroContext _context) {
-    return RangeStyleClass_Behavior.call_getMax_5397636476170201416(FitXByY_Behavior.call_getYRange_5397636476166766708(_context.getNode()));
+    return FitXByY_Behavior.call_getYRangeMax_899140891889036381(_context.getNode());
   }
 
   public static Object propertyMacro_GetPropertyValue_3442436599519391775(final PropertyMacroContext _context) {
@@ -496,15 +494,15 @@ public class QueriesGenerated {
   }
 
   public static Object propertyMacro_GetPropertyValue_3442436599519473717(final PropertyMacroContext _context) {
-    return StringStyleClass_Behavior.call_getValue_5397636476170193802(FitXByY_Behavior.call_getXLabel_5397636476166840205(_context.getNode()));
+    return FitXByY_Behavior.call_getXLabel_899140891889057959(_context.getNode());
   }
 
   public static Object propertyMacro_GetPropertyValue_3442436599519485503(final PropertyMacroContext _context) {
-    return StringStyleClass_Behavior.call_getValue_5397636476170193802(FitXByY_Behavior.call_getYLabel_5397636476166840217(_context.getNode()));
+    return FitXByY_Behavior.call_getYLabel_899140891889084354(_context.getNode());
   }
 
   public static Object propertyMacro_GetPropertyValue_5333555603574514247(final PropertyMacroContext _context) {
-    return StringStyleClass_Behavior.call_getValue_5397636476170193802(FitXByY_Behavior.call_getTitle_5397636476166783092(_context.getNode()));
+    return FitXByY_Behavior.call_getTitle_899140891889098834(_context.getNode());
   }
 
   public static Object propertyMacro_GetPropertyValue_6001041468487057584(final PropertyMacroContext _context) {
@@ -512,19 +510,19 @@ public class QueriesGenerated {
   }
 
   public static Object propertyMacro_GetPropertyValue_4842667988068041245(final PropertyMacroContext _context) {
-    return RangeStyleClass_Behavior.call_getMin_5397636476170198639(FitXByY_Behavior.call_getXRange_5397636476166599130(_context.getNode()));
+    return FitXByY_Behavior.call_getXRangeMin_5397636476166599130(_context.getNode());
   }
 
   public static Object propertyMacro_GetPropertyValue_4842667988068041258(final PropertyMacroContext _context) {
-    return RangeStyleClass_Behavior.call_getMax_5397636476170201416(FitXByY_Behavior.call_getXRange_5397636476166599130(_context.getNode()));
+    return FitXByY_Behavior.call_getXRangeMax_899140891889017792(_context.getNode());
   }
 
   public static Object propertyMacro_GetPropertyValue_4842667988068043231(final PropertyMacroContext _context) {
-    return RangeStyleClass_Behavior.call_getMin_5397636476170198639(FitXByY_Behavior.call_getYRange_5397636476166766708(_context.getNode()));
+    return FitXByY_Behavior.call_getYRangeMin_899140891889036360(_context.getNode());
   }
 
   public static Object propertyMacro_GetPropertyValue_4842667988068043244(final PropertyMacroContext _context) {
-    return RangeStyleClass_Behavior.call_getMax_5397636476170201416(FitXByY_Behavior.call_getYRange_5397636476166766708(_context.getNode()));
+    return FitXByY_Behavior.call_getYRangeMax_899140891889036381(_context.getNode());
   }
 
   public static Object propertyMacro_GetPropertyValue_6001041468487052823(final PropertyMacroContext _context) {
@@ -532,11 +530,11 @@ public class QueriesGenerated {
   }
 
   public static Object propertyMacro_GetPropertyValue_5333555603574492550(final PropertyMacroContext _context) {
-    return StringStyleClass_Behavior.call_getValue_5397636476170193802(FitXByY_Behavior.call_getXLabel_5397636476166840205(_context.getNode()));
+    return FitXByY_Behavior.call_getXLabel_899140891889057959(_context.getNode());
   }
 
   public static Object propertyMacro_GetPropertyValue_5333555603574505248(final PropertyMacroContext _context) {
-    return StringStyleClass_Behavior.call_getValue_5397636476170193802(FitXByY_Behavior.call_getYLabel_5397636476166840217(_context.getNode()));
+    return FitXByY_Behavior.call_getYLabel_899140891889084354(_context.getNode());
   }
 
   public static Object propertyMacro_GetPropertyValue_6001041468488153342(final PropertyMacroContext _context) {
