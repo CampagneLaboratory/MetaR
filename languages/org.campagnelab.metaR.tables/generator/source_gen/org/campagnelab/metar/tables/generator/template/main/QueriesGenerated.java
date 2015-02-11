@@ -39,7 +39,9 @@ import jetbrains.mps.smodel.behaviour.BehaviorReflection;
 import org.campagnelab.metar.tables.behavior.Render_Behavior;
 import org.campagnelab.metar.tables.behavior.ColumnRef_Behavior;
 import org.campagnelab.metar.tables.behavior.Model_Behavior;
+import org.campagnelab.metar.tables.behavior.Histogram_Behavior;
 import org.campagnelab.metar.tables.behavior.OutputFile_Behavior;
+import org.campagnelab.metar.tables.behavior.BoxPlot_Behavior;
 import org.campagnelab.metar.tables.behavior.OperationColumnRef_Behavior;
 import jetbrains.mps.generator.template.IfMacroContext;
 import jetbrains.mps.generator.template.SourceSubstituteMacroNodeContext;
@@ -843,11 +845,12 @@ public class QueriesGenerated {
   }
 
   public static Object propertyMacro_GetPropertyValue_2312637992615388348(final PropertyMacroContext _context) {
-    if ((SLinkOperations.getTarget(_context.getNode(), "style", false) != null) && ListSequence.fromList(SLinkOperations.getTargets(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "style", false), "colors", false), "colors", true)).count() > 0) {
+    String[] colors = Histogram_Behavior.call_listColors_5397636476180790100(_context.getNode());
+    if (colors.length > 0) {
       StringBuilder builder = new StringBuilder();
       builder.append("col=c(");
-      for (SNode ref : ListSequence.fromList(SLinkOperations.getTargets(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "style", false), "colors", false), "colors", true))) {
-        builder.append("\"").append(SPropertyOperations.getString(SLinkOperations.getTarget(ref, "color", false), "name")).append("\",");
+      for (String ref : colors) {
+        builder.append("\"").append(ref).append("\",");
       }
       String out = builder.toString();
       out = out.substring(0, out.length() - 1);
@@ -855,6 +858,7 @@ public class QueriesGenerated {
     } else {
       return "";
     }
+
   }
 
   public static Object propertyMacro_GetPropertyValue_6070133740820410840(final PropertyMacroContext _context) {
@@ -916,13 +920,14 @@ public class QueriesGenerated {
   }
 
   public static Object propertyMacro_GetPropertyValue_2312637992612587889(final PropertyMacroContext _context) {
-    if ((SLinkOperations.getTarget(_context.getNode(), "style", false) != null) && ListSequence.fromList(SLinkOperations.getTargets(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "style", false), "colors", false), "colors", true)).count() > 0) {
+    String[] colors = BoxPlot_Behavior.call_listColors_5397636476180922406(_context.getNode());
+    if (colors.length > 0) {
       StringBuilder builder = new StringBuilder();
       builder.append("col=c(");
       int index = 0;
       for (SNode ref : ListSequence.fromList(SLinkOperations.getTargets(_context.getNode(), "ColumnRefs", true))) {
-        builder.append("\"").append(SPropertyOperations.getString(SLinkOperations.getTarget(ListSequence.fromList(SLinkOperations.getTargets(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "style", false), "colors", false), "colors", true)).getElement(index), "color", false), "name")).append("\",");
-        index = (index + 1) % ListSequence.fromList(SLinkOperations.getTargets(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "style", false), "colors", false), "colors", true)).count();
+        builder.append("\"").append(colors[index]).append("\",");
+        index = (index + 1) % colors.length;
       }
       String out = builder.toString();
       out = out.substring(0, out.length() - 1);
