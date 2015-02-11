@@ -291,7 +291,7 @@
       <property name="name" nameId="tpck.1169194664001" value="width" />
       <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpck.1082983657062" resolveInfo="integer" />
       <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpce.DeprecatedNodeAnnotation" typeId="tpce.1224240836180" id="3501083140124021820" nodeInfo="ig">
-        <property name="comment" nameId="tpce.1225118933224" value="use the style attached to the plot" />
+        <property name="comment" nameId="tpce.1225118933224" value="use the referenced style instead" />
         <property name="build" nameId="tpce.1225118929411" value="1.1.7" />
       </node>
     </node>
@@ -299,11 +299,11 @@
       <property name="name" nameId="tpck.1169194664001" value="height" />
       <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpck.1082983657062" resolveInfo="integer" />
       <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpce.DeprecatedNodeAnnotation" typeId="tpce.1224240836180" id="3501083140124021822" nodeInfo="ig">
-        <property name="comment" nameId="tpce.1225118933224" value="use the style attached to the plot" />
+        <property name="comment" nameId="tpce.1225118933224" value="use the referenced style instead" />
         <property name="build" nameId="tpce.1225118929411" value="1.1.7" />
       </node>
     </node>
-    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="3501083140123954591" nodeInfo="ig">
+    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="3501083140134148494" nodeInfo="ig">
       <link role="intfc" roleId="tpce.1169127628841" targetNodeId="onla.5397636476160524896" resolveInfo="UseStyle" />
     </node>
     <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="8459500803719449989" nodeInfo="ig">
