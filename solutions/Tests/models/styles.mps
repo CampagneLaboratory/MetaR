@@ -3,6 +3,7 @@
   <persistence version="8" />
   <language namespace="43f31864-fc67-43f5-873e-ab79cc279a2d(org.campagnelab.styles)" />
   <language namespace="46803809-20ee-443f-bea9-0bee114b90b3(org.campagnelab.metar.edgeR)" />
+  <language namespace="65e78f51-5ed0-4cd0-994e-550ec4f053ed(org.campagnelab.metar.accessories)" />
   <devkit namespace="8a3636fa-c6ec-4cb0-bc2a-b7143f2a4937(org.campagnelab.metaR)" />
   <import index="1jxa" modelUID="r:11bfb29e-93ee-486d-81f1-c62151df6fcc(model)" version="-1" />
   <import index="onla" modelUID="r:b81182ba-13d2-441a-9b65-76fe2bd96f30(org.campagnelab.styles.structure)" version="11" implicit="yes" />
@@ -97,8 +98,27 @@
           <link role="table" roleId="jrxw.3402264987259919103" targetNodeId="5397636476172194810" resolveInfo="TableA.csv" />
         </node>
       </node>
-      <node role="transformations" roleId="jrxw.8962032619582305407" type="jrxw.EmptyLine" typeId="jrxw.8962032619593737377" id="5397636476172204902" nodeInfo="ng">
-        <property name="id" nameId="jrxw.8962032619593737385" value="QKYBTKOPLA" />
+      <node role="transformations" roleId="jrxw.8962032619582305407" type="jrxw.Histogram" typeId="jrxw.4977909310693613102" id="899140891883735564" nodeInfo="ng">
+        <property name="id" nameId="jrxw.8962032619593737385" value="UUOXKGROCM" />
+        <node role="plot" roleId="jrxw.4977909310693733650" type="jrxw.Plot" typeId="jrxw.8459500803719374384" id="899140891883735586" nodeInfo="ng">
+          <property name="width" nameId="jrxw.8962032619586498917" value="200" />
+          <property name="height" nameId="jrxw.8962032619586499111" value="200" />
+          <property name="name" nameId="tpck.1169194664001" value="hist" />
+        </node>
+        <node role="ColumnRef" roleId="jrxw.4977909310704831599" type="jrxw.ColumnRef" typeId="jrxw.3402264987262235801" id="899140891883735592" nodeInfo="ng">
+          <link role="col" roleId="jrxw.3402264987262235802" targetNodeId="7221311353727166769" resolveInfo="Column2" />
+        </node>
+      </node>
+      <node role="transformations" roleId="jrxw.8962032619582305407" type="jrxw.BoxPlot" typeId="jrxw.6070133740826950348" id="899140891886153206" nodeInfo="ng">
+        <property name="id" nameId="jrxw.8962032619593737385" value="HDVVAIHQVH" />
+        <node role="plot" roleId="jrxw.6070133740826952602" type="jrxw.Plot" typeId="jrxw.8459500803719374384" id="899140891886153208" nodeInfo="ng">
+          <property name="width" nameId="jrxw.8962032619586498917" value="200" />
+          <property name="height" nameId="jrxw.8962032619586499111" value="200" />
+          <property name="name" nameId="tpck.1169194664001" value="box" />
+        </node>
+        <node role="ColumnRefs" roleId="jrxw.6070133740826952603" type="jrxw.ColumnRef" typeId="jrxw.3402264987262235801" id="899140891886153230" nodeInfo="ng">
+          <link role="col" roleId="jrxw.3402264987262235802" targetNodeId="7221311353727166769" resolveInfo="Column2" />
+        </node>
       </node>
       <node role="transformations" roleId="jrxw.8962032619582305407" type="jrxw.FitXByY" typeId="jrxw.6001041468486314166" id="5397636476172204911" nodeInfo="ng">
         <property name="id" nameId="jrxw.8962032619593737385" value="FIDHYYDVXD" />
@@ -116,6 +136,17 @@
           <link role="col" roleId="jrxw.3402264987262235802" targetNodeId="7221311353727166769" resolveInfo="Column2" />
         </node>
       </node>
+      <node role="transformations" roleId="jrxw.8962032619582305407" type="jrxw.FitXByY" typeId="jrxw.6001041468486314166" id="899140891887949126" nodeInfo="ng">
+        <property name="id" nameId="jrxw.8962032619593737385" value="MGDSTWLPXR" />
+        <link role="useStyle" roleId="onla.5397636476161828355" targetNodeId="3501083140134140265" resolveInfo="BasePlotStyle" />
+        <node role="plot" roleId="jrxw.6001041468486400692" type="jrxw.Plot" typeId="jrxw.8459500803719374384" id="899140891887949127" nodeInfo="ng">
+          <property name="width" nameId="jrxw.8962032619586498917" value="200" />
+          <property name="height" nameId="jrxw.8962032619586499111" value="200" />
+        </node>
+        <node role="table" roleId="jrxw.4451133196880278727" type="jrxw.TableRef" typeId="jrxw.4451133196879828915" id="899140891887949129" nodeInfo="ng" />
+        <node role="x" roleId="jrxw.2807244893515991461" type="jrxw.ColumnRef" typeId="jrxw.3402264987262235801" id="899140891887949131" nodeInfo="ng" />
+        <node role="y" roleId="jrxw.2807244893515991619" type="jrxw.ColumnRef" typeId="jrxw.3402264987262235801" id="899140891887949133" nodeInfo="ng" />
+      </node>
       <node role="transformations" roleId="jrxw.8962032619582305407" type="jrxw.Heatmap" typeId="jrxw.8459500803719286639" id="3501083140137557841" nodeInfo="ng">
         <property name="id" nameId="jrxw.8962032619593737385" value="PAKIDGGROQ" />
         <node role="plot" roleId="jrxw.8459500803719374387" type="jrxw.Plot" typeId="jrxw.8459500803719374384" id="3501083140137557843" nodeInfo="ng">
@@ -123,6 +154,11 @@
         </node>
         <node role="table" roleId="jrxw.4451133196879916916" type="jrxw.TableRef" typeId="jrxw.4451133196879828915" id="3501083140137557858" nodeInfo="ng">
           <link role="table" roleId="jrxw.4451133196879830023" targetNodeId="5397636476172194810" resolveInfo="TableA.csv" />
+        </node>
+        <node role="dataSelection" roleId="jrxw.8459500803719286733" type="jrxw.CommonColumnSelection" typeId="jrxw.3402264987262239188" id="899140891883735940" nodeInfo="ng">
+          <node role="byColumn" roleId="jrxw.3402264987262239189" type="jrxw.ColumnRef" typeId="jrxw.3402264987262235801" id="899140891883735942" nodeInfo="ng">
+            <link role="col" roleId="jrxw.3402264987262235802" targetNodeId="7221311353727166766" resolveInfo="Column1" />
+          </node>
         </node>
       </node>
     </node>
@@ -161,12 +197,6 @@
     </node>
     <node role="elements" roleId="onla.5397636476160567172" type="onla.Width" typeId="onla.3501083140123924006" id="3501083140134140271" nodeInfo="ng">
       <property name="value" nameId="onla.3501083140123918023" value="200" />
-    </node>
-  </root>
-  <root type="onla.StyleContainer" typeId="onla.5397636476160560846" id="5397636476178882483" nodeInfo="ng">
-    <property name="name" nameId="tpck.1169194664001" value="ColorPalette" />
-    <node role="elements" roleId="onla.5397636476160567172" type="onla.Color" typeId="onla.2312637992603016748" id="5397636476178882533" nodeInfo="ng">
-      <node role="value" roleId="onla.5397636476177079364" type="onla.ColorValue" typeId="onla.2312637992603017818" id="5397636476178882549" nodeInfo="ng" />
     </node>
   </root>
 </model>
