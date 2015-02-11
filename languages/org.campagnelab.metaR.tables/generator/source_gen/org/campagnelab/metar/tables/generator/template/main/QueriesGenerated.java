@@ -355,11 +355,11 @@ public class QueriesGenerated {
   }
 
   public static Object propertyMacro_GetPropertyValue_5703306641526063176(final PropertyMacroContext _context) {
-    return Integer.toString(SPropertyOperations.getInteger(SLinkOperations.getTarget(_context.getNode(), "plot", true), "width"));
+    return Integer.toString(Plot_Behavior.call_getWidth_3501083140124021570(SLinkOperations.getTarget(_context.getNode(), "plot", true)));
   }
 
   public static Object propertyMacro_GetPropertyValue_5703306641526063188(final PropertyMacroContext _context) {
-    return Integer.toString(SPropertyOperations.getInteger(SLinkOperations.getTarget(_context.getNode(), "plot", true), "height"));
+    return Integer.toString(Plot_Behavior.call_getHeight_3501083140124055285(SLinkOperations.getTarget(_context.getNode(), "plot", true)));
   }
 
   public static Object propertyMacro_GetPropertyValue_5703306641526099747(final PropertyMacroContext _context) {
@@ -541,11 +541,11 @@ public class QueriesGenerated {
   }
 
   public static Object propertyMacro_GetPropertyValue_8962032619586874007(final PropertyMacroContext _context) {
-    return Integer.toString(SPropertyOperations.getInteger(SLinkOperations.getTarget(_context.getNode(), "plot", true), "width"));
+    return Integer.toString(Plot_Behavior.call_getWidth_3501083140124021570(SLinkOperations.getTarget(_context.getNode(), "plot", true)));
   }
 
   public static Object propertyMacro_GetPropertyValue_8962032619586885769(final PropertyMacroContext _context) {
-    return Integer.toString(SPropertyOperations.getInteger(SLinkOperations.getTarget(_context.getNode(), "plot", true), "height"));
+    return Integer.toString(Plot_Behavior.call_getHeight_3501083140124055285(SLinkOperations.getTarget(_context.getNode(), "plot", true)));
   }
 
   public static Object propertyMacro_GetPropertyValue_3687343996977896525(final PropertyMacroContext _context) {

@@ -5888,8 +5888,8 @@
                               <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="3377220465467060195" resolveInfo="plotRef" />
                             </node>
                           </node>
-                          <node role="operation" roleId="tpee.1197027833540" type="tp25.SPropertyAccess" typeId="tp25.1138056022639" id="4842667988070151428" nodeInfo="nn">
-                            <link role="property" roleId="tp25.1138056395725" targetNodeId="jrxw.8962032619586498917" resolveInfo="width" />
+                          <node role="operation" roleId="tpee.1197027833540" type="tp25.Node_ConceptMethodCall" typeId="tp25.1179409122411" id="3501083140134163888" nodeInfo="nn">
+                            <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="3501083140124021570" resolveInfo="getWidth" />
                           </node>
                         </node>
                       </node>
@@ -6106,8 +6106,8 @@
                               <link role="link" roleId="tp25.1138056516764" targetNodeId="jrxw.3105090771424833149" />
                             </node>
                           </node>
-                          <node role="operation" roleId="tpee.1197027833540" type="tp25.SPropertyAccess" typeId="tp25.1138056022639" id="4842667988071423727" nodeInfo="nn">
-                            <link role="property" roleId="tp25.1138056395725" targetNodeId="jrxw.8962032619586499111" resolveInfo="height" />
+                          <node role="operation" roleId="tpee.1197027833540" type="tp25.Node_ConceptMethodCall" typeId="tp25.1179409122411" id="3501083140134173043" nodeInfo="nn">
+                            <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="3501083140124055285" resolveInfo="getHeight" />
                           </node>
                         </node>
                       </node>
@@ -6321,8 +6321,8 @@
                             <link role="link" roleId="tp25.1138056516764" targetNodeId="jrxw.3105090771424833149" />
                           </node>
                         </node>
-                        <node role="operation" roleId="tpee.1197027833540" type="tp25.SPropertyAccess" typeId="tp25.1138056022639" id="2517666855465647459" nodeInfo="nn">
-                          <link role="property" roleId="tp25.1138056395725" targetNodeId="jrxw.8962032619586498917" resolveInfo="width" />
+                        <node role="operation" roleId="tpee.1197027833540" type="tp25.Node_ConceptMethodCall" typeId="tp25.1179409122411" id="3501083140134166077" nodeInfo="nn">
+                          <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="3501083140124021570" resolveInfo="getWidth" />
                         </node>
                       </node>
                     </node>
@@ -6427,8 +6427,8 @@
                             <link role="link" roleId="tp25.1138056516764" targetNodeId="jrxw.3105090771424833149" />
                           </node>
                         </node>
-                        <node role="operation" roleId="tpee.1197027833540" type="tp25.SPropertyAccess" typeId="tp25.1138056022639" id="2517666855465654554" nodeInfo="nn">
-                          <link role="property" roleId="tp25.1138056395725" targetNodeId="jrxw.8962032619586499111" resolveInfo="height" />
+                        <node role="operation" roleId="tpee.1197027833540" type="tp25.Node_ConceptMethodCall" typeId="tp25.1179409122411" id="3501083140134168921" nodeInfo="nn">
+                          <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="3501083140124055285" resolveInfo="getHeight" />
                         </node>
                       </node>
                     </node>
