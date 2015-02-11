@@ -5,7 +5,7 @@
   <language namespace="46803809-20ee-443f-bea9-0bee114b90b3(org.campagnelab.metar.edgeR)" />
   <devkit namespace="8a3636fa-c6ec-4cb0-bc2a-b7143f2a4937(org.campagnelab.metaR)" />
   <import index="1jxa" modelUID="r:11bfb29e-93ee-486d-81f1-c62151df6fcc(model)" version="-1" />
-  <import index="onla" modelUID="r:b81182ba-13d2-441a-9b65-76fe2bd96f30(org.campagnelab.styles.structure)" version="10" implicit="yes" />
+  <import index="onla" modelUID="r:b81182ba-13d2-441a-9b65-76fe2bd96f30(org.campagnelab.styles.structure)" version="11" implicit="yes" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
   <import index="9nc5" modelUID="r:d1a256e6-591a-459f-809c-7fc9df45e4d5(org.campagnelab.mps.XChart.types.roots)" version="-1" implicit="yes" />
   <import index="jrxw" modelUID="r:9f2bbfbf-f8b7-4b3b-92b1-b6a0e9642c10(org.campagnelab.metar.tables.structure)" version="20" implicit="yes" />
@@ -161,6 +161,12 @@
     </node>
     <node role="elements" roleId="onla.5397636476160567172" type="onla.Width" typeId="onla.3501083140123924006" id="3501083140134140271" nodeInfo="ng">
       <property name="value" nameId="onla.3501083140123918023" value="200" />
+    </node>
+  </root>
+  <root type="onla.StyleContainer" typeId="onla.5397636476160560846" id="5397636476178882483" nodeInfo="ng">
+    <property name="name" nameId="tpck.1169194664001" value="ColorPalette" />
+    <node role="elements" roleId="onla.5397636476160567172" type="onla.Color" typeId="onla.2312637992603016748" id="5397636476178882533" nodeInfo="ng">
+      <node role="value" roleId="onla.5397636476177079364" type="onla.ColorValue" typeId="onla.2312637992603017818" id="5397636476178882549" nodeInfo="ng" />
     </node>
   </root>
 </model>
