@@ -42,11 +42,6 @@
       <property name="min" nameId="onla.5397636476166021502" value="2" />
       <property name="max" nameId="onla.5397636476166021503" value="100" />
     </node>
-    <node role="elements" roleId="onla.5397636476160567172" type="onla.YRange" typeId="onla.5397636476166080970" id="5397636476170335830" nodeInfo="ng">
-      <property name="name" nameId="tpck.1169194664001" value="Y range" />
-      <property name="min" nameId="onla.5397636476166021502" value="2" />
-      <property name="max" nameId="onla.5397636476166021503" value="300" />
-    </node>
   </root>
   <root type="jrxw.Table" typeId="jrxw.3402264987258987827" id="5397636476172194810" nodeInfo="ng">
     <property name="delimitor" nameId="ztlb.2202909375770898234" value="&#9;" />
