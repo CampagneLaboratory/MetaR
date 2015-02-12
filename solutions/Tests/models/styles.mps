@@ -194,5 +194,11 @@
       <property name="value" nameId="onla.3501083140123918023" value="72" />
     </node>
   </root>
+  <root type="onla.StyleContainer" typeId="onla.5397636476160560846" id="3501083140149036837" nodeInfo="ng">
+    <property name="name" nameId="tpck.1169194664001" value="Test wih Icon" />
+    <node role="elements" roleId="onla.5397636476160567172" type="onla.PixelsPerInch" typeId="onla.3501083140141870820" id="3501083140149037046" nodeInfo="ng">
+      <property name="value" nameId="onla.3501083140123918023" value="36" />
+    </node>
+  </root>
 </model>
 
