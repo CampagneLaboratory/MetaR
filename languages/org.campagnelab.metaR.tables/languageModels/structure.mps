@@ -683,7 +683,7 @@
       <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpck.1082983041843" resolveInfo="string" />
     </node>
     <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpce.DeprecatedNodeAnnotation" typeId="tpce.1224240836180" id="5397636476180759259" nodeInfo="ig">
-      <property name="comment" nameId="tpce.1225118933224" value="Use colors from styles language instead" />
+      <property name="comment" nameId="tpce.1225118933224" value="Create a style with the styles language instead" />
       <property name="build" nameId="tpce.1225118929411" value="1.1.7" />
     </node>
   </root>
@@ -746,6 +746,9 @@
       <property name="name" nameId="tpck.1169194664001" value="height" />
       <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpck.1082983041843" resolveInfo="string" />
     </node>
+    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="3501083140141869574" nodeInfo="ig">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="onla.5397636476160524896" resolveInfo="UseStyle" />
+    </node>
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="8013388156563171421" nodeInfo="ig">
     <property name="virtualPackage" nameId="tpck.1193676396447" value="plots" />
@@ -779,6 +782,10 @@
     </node>
     <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="4842667988073093821" nodeInfo="ig">
       <link role="intfc" roleId="tpce.1169127628841" targetNodeId="tpck.1169194658468" resolveInfo="INamedConcept" />
+    </node>
+    <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpce.DeprecatedNodeAnnotation" typeId="tpce.1224240836180" id="3501083140141870020" nodeInfo="ig">
+      <property name="comment" nameId="tpce.1225118933224" value="Create a style with the styles language instead" />
+      <property name="build" nameId="tpce.1225118929411" value="1.1.7" />
     </node>
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="2807244893505464088" nodeInfo="ig">
