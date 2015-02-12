@@ -94,5 +94,11 @@
     </dependencies>
     <rename id="onla.3501083140137599858" type="REFERENCE" from="s" to="useStyle" />
   </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="onla" modelUID="r:b81182ba-13d2-441a-9b65-76fe2bd96f30(org.campagnelab.styles.structure)" version="13" />
+    </dependencies>
+    <rename id="onla.3501083140141870820" type="CONCEPT" from="pixelsPerInch" to="PixelsPerInch" />
+  </StructureModification>
 </history>
 

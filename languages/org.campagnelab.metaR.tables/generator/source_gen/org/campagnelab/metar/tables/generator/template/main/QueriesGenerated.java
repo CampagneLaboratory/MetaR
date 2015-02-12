@@ -684,7 +684,7 @@ public class QueriesGenerated {
       return SPropertyOperations.getString(render, "width");
     }
     double width = BehaviorReflection.invokeVirtual(Double.TYPE, SNodeOperations.cast(SNodeOperations.getParent(SLinkOperations.getTarget(render, "plot", false)), "org.campagnelab.metar.tables.structure.PlotBuilderStatement"), "virtual_estimateWidth_4842667988071989466", new Object[]{});
-    return Double.toString(width / (SPropertyOperations.getInteger(SLinkOperations.getTarget(render, "style", false), "pixelsPerInch")));
+    return Double.toString(width / (Render_Behavior.call_getPixelsPerInch_3501083140141894998(render)));
   }
 
   public static Object propertyMacro_GetPropertyValue_4842667988072079168(final PropertyMacroContext _context) {
@@ -694,7 +694,7 @@ public class QueriesGenerated {
     }
 
     double height = BehaviorReflection.invokeVirtual(Double.TYPE, SNodeOperations.getAncestor(SLinkOperations.getTarget(render, "plot", false), "org.campagnelab.metar.tables.structure.PlotBuilderStatement", false, false), "virtual_estimateHeight_4842667988071995771", new Object[]{});
-    return Double.toString(height / SPropertyOperations.getInteger(SLinkOperations.getTarget(render, "style", false), "pixelsPerInch"));
+    return Double.toString(height / Render_Behavior.call_getPixelsPerInch_3501083140141894998(render));
   }
 
   public static Object propertyMacro_GetPropertyValue_9017354417595520805(final PropertyMacroContext _context) {
