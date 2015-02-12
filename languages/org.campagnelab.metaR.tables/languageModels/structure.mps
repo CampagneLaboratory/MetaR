@@ -703,6 +703,10 @@
       <property name="name" nameId="tpck.1169194664001" value="max" />
       <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpck.1082983041843" resolveInfo="string" />
     </node>
+    <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpce.DeprecatedNodeAnnotation" typeId="tpce.1224240836180" id="3501083140149037102" nodeInfo="ig">
+      <property name="comment" nameId="tpce.1225118933224" value="Use sub-concepts of RangeStyleClass from styles language" />
+      <property name="build" nameId="tpce.1225118929411" value="1.1.7" />
+    </node>
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="8013388156563115186" nodeInfo="ig">
     <property name="virtualPackage" nameId="tpck.1193676396447" value="plots" />
