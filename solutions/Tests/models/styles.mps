@@ -37,10 +37,15 @@
   <root type="onla.StyleContainer" typeId="onla.5397636476160560846" id="5397636476170340641" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="FitStyle" />
     <link role="extends" roleId="onla.5397636476160801466" targetNodeId="3501083140134140265" resolveInfo="BasePlotStyle" />
-    <node role="elements" roleId="onla.5397636476160567172" type="onla.XRange" typeId="onla.5397636476166074709" id="5397636476166133984" nodeInfo="ng">
+    <node role="elements" roleId="onla.5397636476160567172" type="onla.YRange" typeId="onla.5397636476166080970" id="3501083140141766191" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="Y range" />
+      <property name="min" nameId="onla.5397636476166021502" value="3" />
+      <property name="max" nameId="onla.5397636476166021503" value="200" />
+    </node>
+    <node role="elements" roleId="onla.5397636476160567172" type="onla.XRange" typeId="onla.5397636476166074709" id="3501083140141869426" nodeInfo="ng">
       <property name="name" nameId="tpck.1169194664001" value="X range" />
-      <property name="min" nameId="onla.5397636476166021502" value="2" />
-      <property name="max" nameId="onla.5397636476166021503" value="100" />
+      <property name="min" nameId="onla.5397636476166021502" value="1" />
+      <property name="max" nameId="onla.5397636476166021503" value="200" />
     </node>
   </root>
   <root type="jrxw.Table" typeId="jrxw.3402264987258987827" id="5397636476172194810" nodeInfo="ng">
@@ -120,7 +125,7 @@
       </node>
       <node role="transformations" roleId="jrxw.8962032619582305407" type="jrxw.FitXByY" typeId="jrxw.6001041468486314166" id="3501083140141184040" nodeInfo="ng">
         <property name="id" nameId="jrxw.8962032619593737385" value="CIOGNGNAKB" />
-        <link role="useStyle" roleId="onla.3501083140137599858" targetNodeId="5397636476170340641" resolveInfo="FitStyle" />
+        <link role="useStyle" roleId="onla.3501083140137599858" targetNodeId="3501083140134140265" resolveInfo="BasePlotStyle" />
         <node role="plot" roleId="jrxw.6001041468486400692" type="jrxw.Plot" typeId="jrxw.8459500803719374384" id="3501083140141184041" nodeInfo="ng">
           <property name="width" nameId="jrxw.8962032619586498917" value="200" />
           <property name="height" nameId="jrxw.8962032619586499111" value="200" />
