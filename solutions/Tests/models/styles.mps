@@ -125,7 +125,7 @@
       </node>
       <node role="transformations" roleId="jrxw.8962032619582305407" type="jrxw.FitXByY" typeId="jrxw.6001041468486314166" id="3501083140141184040" nodeInfo="ng">
         <property name="id" nameId="jrxw.8962032619593737385" value="CIOGNGNAKB" />
-        <link role="useStyle" roleId="onla.3501083140137599858" targetNodeId="5397636476163172704" resolveInfo="EmptyStyle" />
+        <link role="useStyle" roleId="onla.3501083140137599858" targetNodeId="5397636476170340641" resolveInfo="FitStyle" />
         <node role="plot" roleId="jrxw.6001041468486400692" type="jrxw.Plot" typeId="jrxw.8459500803719374384" id="3501083140141184041" nodeInfo="ng">
           <property name="width" nameId="jrxw.8962032619586498917" value="200" />
           <property name="height" nameId="jrxw.8962032619586499111" value="200" />
