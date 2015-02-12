@@ -37,7 +37,7 @@
   </root>
   <root type="tpce.InterfaceConceptDeclaration" typeId="tpce.1169125989551" id="5397636476160567168" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="StyleElement" />
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="elements.ranges" />
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="" />
     <node role="extends" roleId="tpce.1169127546356" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="5397636476160567169" nodeInfo="ig">
       <link role="intfc" roleId="tpce.1169127628841" targetNodeId="tpck.1169194658468" resolveInfo="INamedConcept" />
     </node>
