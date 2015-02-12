@@ -28,11 +28,11 @@
     </node>
   </root>
   <root type="onla.StyleContainer" typeId="onla.5397636476160560846" id="5397636476163172704" nodeInfo="ng">
-    <property name="name" nameId="tpck.1169194664001" value="ChildStyle" />
+    <property name="name" nameId="tpck.1169194664001" value="EmptyStyle" />
   </root>
   <root type="onla.StyleContainer" typeId="onla.5397636476160560846" id="5397636476163172707" nodeInfo="ng">
-    <property name="name" nameId="tpck.1169194664001" value="GrandChildStyle" />
-    <link role="extends" roleId="onla.5397636476160801466" targetNodeId="5397636476163172704" resolveInfo="ChildStyle" />
+    <property name="name" nameId="tpck.1169194664001" value="ChildEmptyStyle" />
+    <link role="extends" roleId="onla.5397636476160801466" targetNodeId="5397636476163172704" resolveInfo="EmptyStyle" />
   </root>
   <root type="onla.StyleContainer" typeId="onla.5397636476160560846" id="5397636476170340641" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="FitStyle" />
@@ -125,7 +125,7 @@
       </node>
       <node role="transformations" roleId="jrxw.8962032619582305407" type="jrxw.FitXByY" typeId="jrxw.6001041468486314166" id="3501083140141184040" nodeInfo="ng">
         <property name="id" nameId="jrxw.8962032619593737385" value="CIOGNGNAKB" />
-        <link role="useStyle" roleId="onla.3501083140137599858" targetNodeId="5397636476170340641" resolveInfo="FitStyle" />
+        <link role="useStyle" roleId="onla.3501083140137599858" targetNodeId="5397636476163172704" resolveInfo="EmptyStyle" />
         <node role="plot" roleId="jrxw.6001041468486400692" type="jrxw.Plot" typeId="jrxw.8459500803719374384" id="3501083140141184041" nodeInfo="ng">
           <property name="width" nameId="jrxw.8962032619586498917" value="200" />
           <property name="height" nameId="jrxw.8962032619586499111" value="200" />
