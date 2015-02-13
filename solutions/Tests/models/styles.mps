@@ -16,15 +16,15 @@
     <property name="name" nameId="tpck.1169194664001" value="BaseRootStyle" />
     <node role="elements" roleId="onla.5397636476160567172" type="onla.Title" typeId="onla.5397636476165961030" id="5397636476166014067" nodeInfo="ng">
       <property name="name" nameId="tpck.1169194664001" value="Title" />
-      <property name="value" nameId="onla.5397636476165968417" value="title" />
+      <property name="value" nameId="onla.5397636476165968417" value="Box plot title" />
     </node>
     <node role="elements" roleId="onla.5397636476160567172" type="onla.XLabel" typeId="onla.5397636476163237583" id="5397636476166014075" nodeInfo="ng">
       <property name="name" nameId="tpck.1169194664001" value="X label" />
-      <property name="value" nameId="onla.5397636476165968417" value="label for X" />
+      <property name="value" nameId="onla.5397636476165968417" value="X" />
     </node>
     <node role="elements" roleId="onla.5397636476160567172" type="onla.YLabel" typeId="onla.5397636476165880425" id="5397636476166014085" nodeInfo="ng">
       <property name="name" nameId="tpck.1169194664001" value="Y label" />
-      <property name="value" nameId="onla.5397636476165968417" value="label for Y" />
+      <property name="value" nameId="onla.5397636476165968417" value="Y" />
     </node>
   </root>
   <root type="onla.StyleContainer" typeId="onla.5397636476160560846" id="5397636476163172704" nodeInfo="ng">
@@ -40,12 +40,12 @@
     <node role="elements" roleId="onla.5397636476160567172" type="onla.YRange" typeId="onla.5397636476166080970" id="3501083140141766191" nodeInfo="ng">
       <property name="name" nameId="tpck.1169194664001" value="Y range" />
       <property name="min" nameId="onla.5397636476166021502" value="3" />
-      <property name="max" nameId="onla.5397636476166021503" value="200" />
+      <property name="max" nameId="onla.5397636476166021503" value="100" />
     </node>
     <node role="elements" roleId="onla.5397636476160567172" type="onla.XRange" typeId="onla.5397636476166074709" id="3501083140141869426" nodeInfo="ng">
       <property name="name" nameId="tpck.1169194664001" value="X range" />
       <property name="min" nameId="onla.5397636476166021502" value="1" />
-      <property name="max" nameId="onla.5397636476166021503" value="200" />
+      <property name="max" nameId="onla.5397636476166021503" value="300" />
     </node>
   </root>
   <root type="jrxw.Table" typeId="jrxw.3402264987258987827" id="5397636476172194810" nodeInfo="ng">
@@ -99,16 +99,24 @@
           <link role="table" roleId="jrxw.3402264987259919103" targetNodeId="5397636476172194810" resolveInfo="TableA.csv" />
         </node>
       </node>
+      <node role="transformations" roleId="jrxw.8962032619582305407" type="jrxw.ImportTable" typeId="jrxw.3402264987261651661" id="899140891892637875" nodeInfo="ng">
+        <property name="id" nameId="jrxw.8962032619593737385" value="NUUVYUFBHH" />
+        <link role="table" roleId="jrxw.3402264987261692715" targetNodeId="899140891892636929" resolveInfo="GSE59364_DC_all.csv" />
+        <node role="future" roleId="jrxw.3402264987261651716" type="jrxw.FutureTable" typeId="jrxw.3402264987259919045" id="899140891892637894" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="GSE59364_DC_all.csv" />
+          <link role="table" roleId="jrxw.3402264987259919103" targetNodeId="899140891892636929" resolveInfo="GSE59364_DC_all.csv" />
+        </node>
+      </node>
       <node role="transformations" roleId="jrxw.8962032619582305407" type="jrxw.Histogram" typeId="jrxw.4977909310693613102" id="3501083140139354931" nodeInfo="ng">
         <property name="id" nameId="jrxw.8962032619593737385" value="WPXHFLINHY" />
-        <link role="useStyle" roleId="onla.3501083140137599858" targetNodeId="gs9e.5397636476178960760" resolveInfo="DefaultColorPalette" />
+        <link role="useStyle" roleId="onla.3501083140137599858" targetNodeId="gs9e.5397636476179108567" resolveInfo="DefaultGrayPalette" />
         <node role="plot" roleId="jrxw.4977909310693733650" type="jrxw.Plot" typeId="jrxw.8459500803719374384" id="3501083140139354933" nodeInfo="ng">
           <property name="width" nameId="jrxw.8962032619586498917" value="200" />
           <property name="height" nameId="jrxw.8962032619586499111" value="200" />
           <property name="name" nameId="tpck.1169194664001" value="histo" />
         </node>
-        <node role="ColumnRef" roleId="jrxw.4977909310704831599" type="jrxw.ColumnRef" typeId="jrxw.3402264987262235801" id="3501083140139354954" nodeInfo="ng">
-          <link role="col" roleId="jrxw.3402264987262235802" targetNodeId="3501083140147221816" resolveInfo="Column2" />
+        <node role="ColumnRef" roleId="jrxw.4977909310704831599" type="jrxw.ColumnRef" typeId="jrxw.3402264987262235801" id="899140891892644322" nodeInfo="ng">
+          <link role="col" roleId="jrxw.3402264987262235802" targetNodeId="899140891892637252" resolveInfo="DC_treated" />
         </node>
       </node>
       <node role="transformations" roleId="jrxw.8962032619582305407" type="jrxw.BoxPlot" typeId="jrxw.6070133740826950348" id="3501083140139354981" nodeInfo="ng">
@@ -119,35 +127,35 @@
           <property name="height" nameId="jrxw.8962032619586499111" value="200" />
           <property name="name" nameId="tpck.1169194664001" value="boxp" />
         </node>
-        <node role="ColumnRefs" roleId="jrxw.6070133740826952603" type="jrxw.ColumnRef" typeId="jrxw.3402264987262235801" id="3501083140139354996" nodeInfo="ng">
-          <link role="col" roleId="jrxw.3402264987262235802" targetNodeId="3501083140147221821" resolveInfo="Column4" />
+        <node role="ColumnRefs" roleId="jrxw.6070133740826952603" type="jrxw.ColumnRef" typeId="jrxw.3402264987262235801" id="899140891892657171" nodeInfo="ng">
+          <link role="col" roleId="jrxw.3402264987262235802" targetNodeId="899140891892637265" resolveInfo="C3DC" />
         </node>
       </node>
-      <node role="transformations" roleId="jrxw.8962032619582305407" type="jrxw.FitXByY" typeId="jrxw.6001041468486314166" id="3501083140141184040" nodeInfo="ng">
-        <property name="id" nameId="jrxw.8962032619593737385" value="CIOGNGNAKB" />
-        <link role="useStyle" roleId="onla.3501083140137599858" targetNodeId="5397636476170340641" resolveInfo="FitStyle" />
-        <node role="plot" roleId="jrxw.6001041468486400692" type="jrxw.Plot" typeId="jrxw.8459500803719374384" id="3501083140141184041" nodeInfo="ng">
-          <property name="width" nameId="jrxw.8962032619586498917" value="200" />
-          <property name="height" nameId="jrxw.8962032619586499111" value="200" />
-          <property name="name" nameId="tpck.1169194664001" value="fit" />
+      <node role="transformations" roleId="jrxw.8962032619582305407" type="jrxw.FitXByY" typeId="jrxw.6001041468486314166" id="8981057170511334344" nodeInfo="ng">
+        <property name="id" nameId="jrxw.8962032619593737385" value="ANOFIESYUO" />
+        <link role="useStyle" roleId="onla.3501083140137599858" targetNodeId="3501083140143741006" resolveInfo="RenderNewStyle" />
+        <node role="plot" roleId="jrxw.6001041468486400692" type="jrxw.Plot" typeId="jrxw.8459500803719374384" id="8981057170511334345" nodeInfo="ng">
+          <property name="width" nameId="jrxw.8962032619586498917" value="0" />
+          <property name="height" nameId="jrxw.8962032619586499111" value="0" />
+          <property name="name" nameId="tpck.1169194664001" value="pp" />
         </node>
-        <node role="table" roleId="jrxw.4451133196880278727" type="jrxw.TableRef" typeId="jrxw.4451133196879828915" id="3501083140141184068" nodeInfo="ng">
-          <link role="table" roleId="jrxw.4451133196879830023" targetNodeId="5397636476172194810" resolveInfo="TableA.csv" />
+        <node role="table" roleId="jrxw.4451133196880278727" type="jrxw.TableRef" typeId="jrxw.4451133196879828915" id="8981057170511334377" nodeInfo="ng">
+          <link role="table" roleId="jrxw.4451133196879830023" targetNodeId="899140891892636929" resolveInfo="GSE59364_DC_all.csv" />
         </node>
-        <node role="x" roleId="jrxw.2807244893515991461" type="jrxw.ColumnRef" typeId="jrxw.3402264987262235801" id="3501083140141184062" nodeInfo="ng">
-          <link role="col" roleId="jrxw.3402264987262235802" targetNodeId="3501083140147221820" resolveInfo="Column3" />
+        <node role="x" roleId="jrxw.2807244893515991461" type="jrxw.ColumnRef" typeId="jrxw.3402264987262235801" id="8981057170511334371" nodeInfo="ng">
+          <link role="col" roleId="jrxw.3402264987262235802" targetNodeId="899140891892637257" resolveInfo="A_DC" />
         </node>
-        <node role="y" roleId="jrxw.2807244893515991619" type="jrxw.ColumnRef" typeId="jrxw.3402264987262235801" id="3501083140141184065" nodeInfo="ng">
-          <link role="col" roleId="jrxw.3402264987262235802" targetNodeId="3501083140147221821" resolveInfo="Column4" />
+        <node role="y" roleId="jrxw.2807244893515991619" type="jrxw.ColumnRef" typeId="jrxw.3402264987262235801" id="8981057170511334374" nodeInfo="ng">
+          <link role="col" roleId="jrxw.3402264987262235802" targetNodeId="899140891892637257" resolveInfo="A_DC" />
         </node>
       </node>
-      <node role="transformations" roleId="jrxw.8962032619582305407" type="jrxw.Render" typeId="jrxw.8013388156563115186" id="3501083140145486047" nodeInfo="ng">
-        <property name="id" nameId="jrxw.8962032619593737385" value="YLAAFSKPAX" />
+      <node role="transformations" roleId="jrxw.8962032619582305407" type="jrxw.Render" typeId="jrxw.8013388156563115186" id="8981057170511334210" nodeInfo="ng">
+        <property name="id" nameId="jrxw.8962032619593737385" value="HCGUXJYFGX" />
         <link role="plot" roleId="jrxw.8013388156563171415" targetNodeId="3501083140139354983" resolveInfo="boxp" />
         <link role="useStyle" roleId="onla.3501083140137599858" targetNodeId="3501083140143741006" resolveInfo="RenderNewStyle" />
-        <node role="output" roleId="jrxw.8013388156563171423" type="jrxw.PDF" typeId="jrxw.8013388156563171421" id="3501083140145486069" nodeInfo="ng" />
-        <node role="path" roleId="jrxw.3929971219796733619" type="jrxw.OutputFile" typeId="jrxw.3929971219796704543" id="3501083140145486051" nodeInfo="ng">
-          <property name="path" nameId="jrxw.3929971219796704769" value="box.pdf" />
+        <node role="output" roleId="jrxw.8013388156563171423" type="jrxw.PDF" typeId="jrxw.8013388156563171421" id="8981057170511334234" nodeInfo="ng" />
+        <node role="path" roleId="jrxw.3929971219796733619" type="jrxw.OutputFile" typeId="jrxw.3929971219796704543" id="8981057170511334214" nodeInfo="ng">
+          <property name="path" nameId="jrxw.3929971219796704769" value="h.pdf" />
         </node>
       </node>
     </node>
@@ -198,6 +206,93 @@
     <property name="name" nameId="tpck.1169194664001" value="Test wih Icon" />
     <node role="elements" roleId="onla.5397636476160567172" type="onla.PixelsPerInch" typeId="onla.3501083140141870820" id="3501083140149037046" nodeInfo="ng">
       <property name="value" nameId="onla.3501083140123918023" value="36" />
+    </node>
+  </root>
+  <root type="jrxw.Table" typeId="jrxw.3402264987258987827" id="899140891892636929" nodeInfo="ng">
+    <property name="delimitor" nameId="ztlb.2202909375770898234" value="&#9;" />
+    <property name="path" nameId="ztlb.2202909375770434162" value="/Users/mas2182/Lab/Projects/MPS/MetaR/data/tests/GSE59364_DC_all.csv" />
+    <property name="name" nameId="tpck.1169194664001" value="GSE59364_DC_all.csv" />
+    <property name="pathToResolve" nameId="jrxw.578023650349875540" value="${org.campagnelab.metaR.home}/data/tests/GSE59364_DC_all.csv" />
+    <node role="columns" roleId="ztlb.2202909375770434164" type="ztlb.Column" typeId="ztlb.2202909375770434159" id="899140891892637248" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="gene" />
+      <link role="type" roleId="ztlb.3328299660867197501" targetNodeId="9nc5.1993150283055518321" resolveInfo="String" />
+      <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="jrxw.ColumnAnnotation" typeId="jrxw.3402264987265829804" id="899140891892637374" nodeInfo="ng">
+        <node role="groups" roleId="jrxw.3402264987265831176" type="jrxw.ColumnGroupReference" typeId="jrxw.3402264987265829895" id="899140891892637386" nodeInfo="ng">
+          <link role="columnGroup" roleId="jrxw.3402264987265829896" targetNodeId="3501083140134139986" resolveInfo="ID" />
+        </node>
+      </node>
+    </node>
+    <node role="columns" roleId="ztlb.2202909375770434164" type="ztlb.Column" typeId="ztlb.2202909375770434159" id="899140891892637249" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="mRNA len" />
+      <link role="type" roleId="ztlb.3328299660867197501" targetNodeId="9nc5.1993150283055518188" resolveInfo="Numeric" />
+    </node>
+    <node role="columns" roleId="ztlb.2202909375770434164" type="ztlb.Column" typeId="ztlb.2202909375770434159" id="899140891892637250" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="genomic span" />
+      <link role="type" roleId="ztlb.3328299660867197501" targetNodeId="9nc5.1993150283055518188" resolveInfo="Numeric" />
+    </node>
+    <node role="columns" roleId="ztlb.2202909375770434164" type="ztlb.Column" typeId="ztlb.2202909375770434159" id="899140891892637251" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="DC_normal" />
+      <link role="type" roleId="ztlb.3328299660867197501" targetNodeId="9nc5.1993150283055518188" resolveInfo="Numeric" />
+    </node>
+    <node role="columns" roleId="ztlb.2202909375770434164" type="ztlb.Column" typeId="ztlb.2202909375770434159" id="899140891892637252" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="DC_treated" />
+      <link role="type" roleId="ztlb.3328299660867197501" targetNodeId="9nc5.1993150283055518188" resolveInfo="Numeric" />
+    </node>
+    <node role="columns" roleId="ztlb.2202909375770434164" type="ztlb.Column" typeId="ztlb.2202909375770434159" id="899140891892637253" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="DC0904" />
+      <link role="type" roleId="ztlb.3328299660867197501" targetNodeId="9nc5.1993150283055518188" resolveInfo="Numeric" />
+    </node>
+    <node role="columns" roleId="ztlb.2202909375770434164" type="ztlb.Column" typeId="ztlb.2202909375770434159" id="899140891892637254" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="DC0907" />
+      <link role="type" roleId="ztlb.3328299660867197501" targetNodeId="9nc5.1993150283055518188" resolveInfo="Numeric" />
+    </node>
+    <node role="columns" roleId="ztlb.2202909375770434164" type="ztlb.Column" typeId="ztlb.2202909375770434159" id="899140891892637255" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="DCLPS0910" />
+      <link role="type" roleId="ztlb.3328299660867197501" targetNodeId="9nc5.1993150283055518188" resolveInfo="Numeric" />
+    </node>
+    <node role="columns" roleId="ztlb.2202909375770434164" type="ztlb.Column" typeId="ztlb.2202909375770434159" id="899140891892637256" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="DCLPS0913" />
+      <link role="type" roleId="ztlb.3328299660867197501" targetNodeId="9nc5.1993150283055518188" resolveInfo="Numeric" />
+    </node>
+    <node role="columns" roleId="ztlb.2202909375770434164" type="ztlb.Column" typeId="ztlb.2202909375770434159" id="899140891892637257" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="A_DC" />
+      <link role="type" roleId="ztlb.3328299660867197501" targetNodeId="9nc5.1993150283055518188" resolveInfo="Numeric" />
+    </node>
+    <node role="columns" roleId="ztlb.2202909375770434164" type="ztlb.Column" typeId="ztlb.2202909375770434159" id="899140891892637258" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="A_DC_LPS" />
+      <link role="type" roleId="ztlb.3328299660867197501" targetNodeId="9nc5.1993150283055518188" resolveInfo="Numeric" />
+    </node>
+    <node role="columns" roleId="ztlb.2202909375770434164" type="ztlb.Column" typeId="ztlb.2202909375770434159" id="899140891892637259" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="B_DC" />
+      <link role="type" roleId="ztlb.3328299660867197501" targetNodeId="9nc5.1993150283055518188" resolveInfo="Numeric" />
+    </node>
+    <node role="columns" roleId="ztlb.2202909375770434164" type="ztlb.Column" typeId="ztlb.2202909375770434159" id="899140891892637260" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="B_DC_LPS" />
+      <link role="type" roleId="ztlb.3328299660867197501" targetNodeId="9nc5.1993150283055518188" resolveInfo="Numeric" />
+    </node>
+    <node role="columns" roleId="ztlb.2202909375770434164" type="ztlb.Column" typeId="ztlb.2202909375770434159" id="899140891892637261" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="C_DC" />
+      <link role="type" roleId="ztlb.3328299660867197501" targetNodeId="9nc5.1993150283055518188" resolveInfo="Numeric" />
+    </node>
+    <node role="columns" roleId="ztlb.2202909375770434164" type="ztlb.Column" typeId="ztlb.2202909375770434159" id="899140891892637262" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="C_DC_LPS" />
+      <link role="type" roleId="ztlb.3328299660867197501" targetNodeId="9nc5.1993150283055518188" resolveInfo="Numeric" />
+    </node>
+    <node role="columns" roleId="ztlb.2202909375770434164" type="ztlb.Column" typeId="ztlb.2202909375770434159" id="899140891892637263" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="C2DC" />
+      <link role="type" roleId="ztlb.3328299660867197501" targetNodeId="9nc5.1993150283055518188" resolveInfo="Numeric" />
+    </node>
+    <node role="columns" roleId="ztlb.2202909375770434164" type="ztlb.Column" typeId="ztlb.2202909375770434159" id="899140891892637264" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="C2DCLPS" />
+      <link role="type" roleId="ztlb.3328299660867197501" targetNodeId="9nc5.1993150283055518188" resolveInfo="Numeric" />
+    </node>
+    <node role="columns" roleId="ztlb.2202909375770434164" type="ztlb.Column" typeId="ztlb.2202909375770434159" id="899140891892637265" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="C3DC" />
+      <link role="type" roleId="ztlb.3328299660867197501" targetNodeId="9nc5.1993150283055518188" resolveInfo="Numeric" />
+    </node>
+    <node role="columns" roleId="ztlb.2202909375770434164" type="ztlb.Column" typeId="ztlb.2202909375770434159" id="899140891892637266" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="C3DCLPS" />
+      <link role="type" roleId="ztlb.3328299660867197501" targetNodeId="9nc5.1993150283055518188" resolveInfo="Numeric" />
     </node>
   </root>
 </model>
