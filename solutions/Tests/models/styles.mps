@@ -33,11 +33,8 @@
   <root type="onla.StyleContainer" typeId="onla.5397636476160560846" id="5397636476163172707" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="ChildEmptyStyle" />
     <link role="extends" roleId="onla.5397636476160801466" targetNodeId="5397636476163172704" resolveInfo="EmptyStyle" />
-    <node role="elements" roleId="onla.5397636476160567172" type="onla.Height" typeId="onla.3501083140123940557" id="8981057170511584139" nodeInfo="ng">
-      <property name="value" nameId="onla.3501083140123918023" value="2" />
-    </node>
-    <node role="elements" roleId="onla.5397636476160567172" type="onla.PixelsPerInch" typeId="onla.3501083140141870820" id="8981057170511584144" nodeInfo="ng">
-      <property name="value" nameId="onla.3501083140123918023" value="45" />
+    <node role="elements" roleId="onla.5397636476160567172" type="onla.Color" typeId="onla.2312637992603016748" id="3784961786042475661" nodeInfo="ng">
+      <link role="value" roleId="onla.5397636476179034704" targetNodeId="gs9e.5397636476178960758" resolveInfo="aliceblue" />
     </node>
   </root>
   <root type="onla.StyleContainer" typeId="onla.5397636476160560846" id="5397636476170340641" nodeInfo="ng">
@@ -115,7 +112,7 @@
       </node>
       <node role="transformations" roleId="jrxw.8962032619582305407" type="jrxw.Histogram" typeId="jrxw.4977909310693613102" id="3501083140139354931" nodeInfo="ng">
         <property name="id" nameId="jrxw.8962032619593737385" value="WPXHFLINHY" />
-        <link role="useStyle" roleId="onla.3501083140137599858" targetNodeId="gs9e.5397636476179108567" resolveInfo="DefaultGrayPalette" />
+        <link role="useStyle" roleId="onla.3501083140137599858" targetNodeId="5397636476163172704" resolveInfo="EmptyStyle" />
         <node role="plot" roleId="jrxw.4977909310693733650" type="jrxw.Plot" typeId="jrxw.8459500803719374384" id="3501083140139354933" nodeInfo="ng">
           <property name="width" nameId="jrxw.8962032619586498917" value="200" />
           <property name="height" nameId="jrxw.8962032619586499111" value="200" />
@@ -139,10 +136,10 @@
       </node>
       <node role="transformations" roleId="jrxw.8962032619582305407" type="jrxw.FitXByY" typeId="jrxw.6001041468486314166" id="8981057170511334344" nodeInfo="ng">
         <property name="id" nameId="jrxw.8962032619593737385" value="ANOFIESYUO" />
-        <link role="useStyle" roleId="onla.3501083140137599858" targetNodeId="gs9e.5397636476179108567" resolveInfo="DefaultGrayPalette" />
+        <link role="useStyle" roleId="onla.3501083140137599858" targetNodeId="3501083140134140265" resolveInfo="BasePlotStyle" />
         <node role="plot" roleId="jrxw.6001041468486400692" type="jrxw.Plot" typeId="jrxw.8459500803719374384" id="8981057170511334345" nodeInfo="ng">
-          <property name="width" nameId="jrxw.8962032619586498917" value="0" />
-          <property name="height" nameId="jrxw.8962032619586499111" value="0" />
+          <property name="width" nameId="jrxw.8962032619586498917" value="200" />
+          <property name="height" nameId="jrxw.8962032619586499111" value="200" />
           <property name="name" nameId="tpck.1169194664001" value="pp" />
         </node>
         <node role="table" roleId="jrxw.4451133196880278727" type="jrxw.TableRef" typeId="jrxw.4451133196879828915" id="8981057170511334377" nodeInfo="ng">
@@ -158,7 +155,7 @@
       <node role="transformations" roleId="jrxw.8962032619582305407" type="jrxw.Render" typeId="jrxw.8013388156563115186" id="8981057170511334210" nodeInfo="ng">
         <property name="id" nameId="jrxw.8962032619593737385" value="HCGUXJYFGX" />
         <link role="plot" roleId="jrxw.8013388156563171415" targetNodeId="3501083140139354983" resolveInfo="boxp" />
-        <link role="useStyle" roleId="onla.3501083140137599858" targetNodeId="5397636476163172707" resolveInfo="ChildEmptyStyle" />
+        <link role="useStyle" roleId="onla.3501083140137599858" targetNodeId="3501083140143741006" resolveInfo="RenderNewStyle" />
         <node role="output" roleId="jrxw.8013388156563171423" type="jrxw.PDF" typeId="jrxw.8013388156563171421" id="8981057170511334234" nodeInfo="ng" />
         <node role="path" roleId="jrxw.3929971219796733619" type="jrxw.OutputFile" typeId="jrxw.3929971219796704543" id="8981057170511334214" nodeInfo="ng">
           <property name="path" nameId="jrxw.3929971219796704769" value="h.pdf" />
@@ -201,6 +198,7 @@
     <node role="elements" roleId="onla.5397636476160567172" type="onla.Width" typeId="onla.3501083140123924006" id="3501083140134140271" nodeInfo="ng">
       <property name="value" nameId="onla.3501083140123918023" value="200" />
     </node>
+    <node role="elements" roleId="onla.5397636476160567172" type="onla.StyleElement" typeId="onla.5397636476160567168" id="3784961786043625051" nodeInfo="ng" />
   </root>
   <root type="onla.StyleContainer" typeId="onla.5397636476160560846" id="3501083140143741006" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="RenderNewStyle" />
