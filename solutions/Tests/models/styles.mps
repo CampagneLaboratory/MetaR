@@ -155,7 +155,6 @@
       <node role="transformations" roleId="jrxw.8962032619582305407" type="jrxw.Render" typeId="jrxw.8013388156563115186" id="8981057170511334210" nodeInfo="ng">
         <property name="id" nameId="jrxw.8962032619593737385" value="HCGUXJYFGX" />
         <link role="plot" roleId="jrxw.8013388156563171415" targetNodeId="3501083140139354983" resolveInfo="boxp" />
-        <link role="useStyle" roleId="onla.3501083140137599858" targetNodeId="3501083140143741006" resolveInfo="RenderNewStyle" />
         <node role="output" roleId="jrxw.8013388156563171423" type="jrxw.PDF" typeId="jrxw.8013388156563171421" id="8981057170511334234" nodeInfo="ng" />
         <node role="path" roleId="jrxw.3929971219796733619" type="jrxw.OutputFile" typeId="jrxw.3929971219796704543" id="8981057170511334214" nodeInfo="ng">
           <property name="path" nameId="jrxw.3929971219796704769" value="h.pdf" />
@@ -207,10 +206,20 @@
     </node>
   </root>
   <root type="onla.StyleContainer" typeId="onla.5397636476160560846" id="3501083140149036837" nodeInfo="ng">
-    <property name="name" nameId="tpck.1169194664001" value="Test wih Icon" />
+    <property name="name" nameId="tpck.1169194664001" value="RenderStyle" />
     <node role="elements" roleId="onla.5397636476160567172" type="onla.PixelsPerInch" typeId="onla.3501083140141870820" id="3501083140149037046" nodeInfo="ng">
       <property name="value" nameId="onla.3501083140123918023" value="36" />
     </node>
+    <node role="elements" roleId="onla.5397636476160567172" type="onla.Color" typeId="onla.2312637992603016748" id="3784961786044598891" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="Color" />
+      <link role="value" roleId="onla.5397636476179034704" targetNodeId="gs9e.5397636476178960758" resolveInfo="aliceblue" />
+    </node>
+    <node role="elements" roleId="onla.5397636476160567172" type="onla.XRange" typeId="onla.5397636476166074709" id="3784961786044688018" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="X range" />
+      <property name="min" nameId="onla.5397636476166021502" value="2" />
+      <property name="max" nameId="onla.5397636476166021503" value="200" />
+    </node>
+    <node role="elements" roleId="onla.5397636476160567172" type="onla.StyleElement" typeId="onla.5397636476160567168" id="3784961786045218062" nodeInfo="ng" />
   </root>
   <root type="jrxw.Table" typeId="jrxw.3402264987258987827" id="899140891892636929" nodeInfo="ng">
     <property name="delimitor" nameId="ztlb.2202909375770898234" value="&#9;" />
