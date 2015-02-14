@@ -155,6 +155,7 @@
       <node role="transformations" roleId="jrxw.8962032619582305407" type="jrxw.Render" typeId="jrxw.8013388156563115186" id="8981057170511334210" nodeInfo="ng">
         <property name="id" nameId="jrxw.8962032619593737385" value="HCGUXJYFGX" />
         <link role="plot" roleId="jrxw.8013388156563171415" targetNodeId="3501083140139354983" resolveInfo="boxp" />
+        <link role="useStyle" roleId="onla.3501083140137599858" targetNodeId="3784961786045777962" resolveInfo="DefaultStyle" />
         <node role="output" roleId="jrxw.8013388156563171423" type="jrxw.PDF" typeId="jrxw.8013388156563171421" id="8981057170511334234" nodeInfo="ng" />
         <node role="path" roleId="jrxw.3929971219796733619" type="jrxw.OutputFile" typeId="jrxw.3929971219796704543" id="8981057170511334214" nodeInfo="ng">
           <property name="path" nameId="jrxw.3929971219796704769" value="h.pdf" />
@@ -307,6 +308,12 @@
       <property name="name" nameId="tpck.1169194664001" value="C3DCLPS" />
       <link role="type" roleId="ztlb.3328299660867197501" targetNodeId="9nc5.1993150283055518188" resolveInfo="Numeric" />
     </node>
+  </root>
+  <root type="onla.StyleContainer" typeId="onla.5397636476160560846" id="3784961786045546961" nodeInfo="ng">
+    <property name="name" nameId="tpck.1169194664001" value="DefaultStyleFornull" />
+  </root>
+  <root type="onla.StyleContainer" typeId="onla.5397636476160560846" id="3784961786045777962" nodeInfo="ng">
+    <property name="name" nameId="tpck.1169194664001" value="DefaultStyle" />
   </root>
 </model>
 
