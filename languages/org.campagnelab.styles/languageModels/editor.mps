@@ -103,6 +103,9 @@
       <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="5397636476166074603" nodeInfo="nn">
         <property name="text" nameId="tpc2.1073389577007" value=":" />
       </node>
+      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="27429407117184585" nodeInfo="nn">
+        <property name="text" nameId="tpc2.1073389577007" value="[" />
+      </node>
       <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Property" typeId="tpc2.1073389658414" id="5397636476166074604" nodeInfo="ng">
         <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="onla.5397636476166021502" resolveInfo="min" />
       </node>
@@ -111,6 +114,9 @@
       </node>
       <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Property" typeId="tpc2.1073389658414" id="5397636476166074606" nodeInfo="ng">
         <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="onla.5397636476166021503" resolveInfo="max" />
+      </node>
+      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="27429407117184607" nodeInfo="nn">
+        <property name="text" nameId="tpc2.1073389577007" value="]" />
       </node>
       <node role="cellLayout" roleId="tpc2.1106270802874" type="tpc2.CellLayout_Indent" typeId="tpc2.1237303669825" id="5397636476166074607" nodeInfo="nn" />
     </node>
