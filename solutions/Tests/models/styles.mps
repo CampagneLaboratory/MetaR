@@ -50,6 +50,7 @@
       <property name="min" nameId="onla.5397636476166021502" value="1" />
       <property name="max" nameId="onla.5397636476166021503" value="300" />
     </node>
+    <node role="elements" roleId="onla.5397636476160567172" type="onla.StyleElement" typeId="onla.5397636476160567168" id="27429407119649676" nodeInfo="ng" />
   </root>
   <root type="jrxw.Table" typeId="jrxw.3402264987258987827" id="5397636476172194810" nodeInfo="ng">
     <property name="delimitor" nameId="ztlb.2202909375770898234" value="&#9;" />
@@ -155,11 +156,23 @@
       <node role="transformations" roleId="jrxw.8962032619582305407" type="jrxw.Render" typeId="jrxw.8013388156563115186" id="8981057170511334210" nodeInfo="ng">
         <property name="id" nameId="jrxw.8962032619593737385" value="HCGUXJYFGX" />
         <link role="plot" roleId="jrxw.8013388156563171415" targetNodeId="3501083140139354983" resolveInfo="boxp" />
-        <link role="useStyle" roleId="onla.3501083140137599858" targetNodeId="3784961786045777962" resolveInfo="DefaultStyle" />
         <node role="output" roleId="jrxw.8013388156563171423" type="jrxw.PDF" typeId="jrxw.8013388156563171421" id="8981057170511334234" nodeInfo="ng" />
         <node role="path" roleId="jrxw.3929971219796733619" type="jrxw.OutputFile" typeId="jrxw.3929971219796704543" id="8981057170511334214" nodeInfo="ng">
           <property name="path" nameId="jrxw.3929971219796704769" value="h.pdf" />
         </node>
+      </node>
+      <node role="transformations" roleId="jrxw.8962032619582305407" type="jrxw.Render" typeId="jrxw.8013388156563115186" id="27429407117012177" nodeInfo="ng">
+        <property name="id" nameId="jrxw.8962032619593737385" value="QNFUSCOQUH" />
+        <link role="plot" roleId="jrxw.8013388156563171415" targetNodeId="3501083140139354983" resolveInfo="boxp" />
+        <link role="useStyle" roleId="onla.3501083140137599858" targetNodeId="3784961786045777962" resolveInfo="DefaultStyle" />
+        <node role="output" roleId="jrxw.8013388156563171423" type="jrxw.PDF" typeId="jrxw.8013388156563171421" id="27429407117012204" nodeInfo="ng" />
+        <node role="path" roleId="jrxw.3929971219796733619" type="jrxw.OutputFile" typeId="jrxw.3929971219796704543" id="27429407117012181" nodeInfo="ng" />
+      </node>
+      <node role="transformations" roleId="jrxw.8962032619582305407" type="jrxw.Render" typeId="jrxw.8013388156563115186" id="27429407119649148" nodeInfo="ng">
+        <property name="id" nameId="jrxw.8962032619593737385" value="CBGATBMVKF" />
+        <link role="useStyle" roleId="onla.3501083140137599858" targetNodeId="3784961786045777962" resolveInfo="DefaultStyle" />
+        <node role="output" roleId="jrxw.8013388156563171423" type="jrxw.RenderingFormat" typeId="jrxw.8013388156563171422" id="27429407119649150" nodeInfo="ng" />
+        <node role="path" roleId="jrxw.3929971219796733619" type="jrxw.OutputFile" typeId="jrxw.3929971219796704543" id="27429407119649152" nodeInfo="ng" />
       </node>
     </node>
   </root>
@@ -314,6 +327,17 @@
   </root>
   <root type="onla.StyleContainer" typeId="onla.5397636476160560846" id="3784961786045777962" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="DefaultStyle" />
+  </root>
+  <root type="onla.StyleContainer" typeId="onla.5397636476160560846" id="8981057170515529329" nodeInfo="ng">
+    <property name="name" nameId="tpck.1169194664001" value="testnames" />
+    <node role="elements" roleId="onla.5397636476160567172" type="onla.PixelsPerInch" typeId="onla.3501083140141870820" id="8981057170515529583" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="Pixels per Inch" />
+    </node>
+    <node role="elements" roleId="onla.5397636476160567172" type="onla.XRange" typeId="onla.5397636476166074709" id="27429407117643886" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="X range" />
+      <property name="min" nameId="onla.5397636476166021502" value="s" />
+      <property name="max" nameId="onla.5397636476166021503" value="d" />
+    </node>
   </root>
 </model>
 
