@@ -2,6 +2,7 @@
 <dev-kit name="org.campagnelab.metaR" uuid="8a3636fa-c6ec-4cb0-bc2a-b7143f2a4937">
   <exported-language name="32f503e8-061b-451e-bcb0-fef56aa05eb9(org.campagnelab.metar.inspect)" />
   <exported-language name="5ec1cd3d-0a50-4049-a8fa-ae768d7baa25(org.campagnelab.mps.XChart)" />
+  <exported-language name="43f31864-fc67-43f5-873e-ab79cc279a2d(org.campagnelab.styles)" />
   <exported-language name="c901f7a1-ed4f-4b52-8d35-10d1a33974f0(org.campagnelab.metar.code)" />
   <exported-language name="5d6bde84-4ce4-4eb5-a37e-25a5edd55129(org.campagnelab.metar.tables)" />
   <exported-language name="65e78f51-5ed0-4cd0-994e-550ec4f053ed(org.campagnelab.metar.accessories)" />
