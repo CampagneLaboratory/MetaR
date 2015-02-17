@@ -1050,11 +1050,10 @@
   </root>
   <root type="tp33.MigrationScript" typeId="tp33.1177457067821" id="899140891892685507" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="MigrateStyles" />
-    <property name="title" nameId="tp33.1177457669450" value="Meta R: migrate styles" />
+    <property name="title" nameId="tp33.1177457669450" value="Meta R: Migrate Styles" />
     <property name="type" nameId="tp33.5299416737274925395" value="enhancement" />
     <node role="part" roleId="tp33.1177458178889" type="tp33.MigrationScriptPart_Instance" typeId="tp33.1177457850499" id="899140891892685508" nodeInfo="ng">
-      <property name="description" nameId="tp33.1177457972041" value="migrate ScatteredPlotStyle(s)" />
-      <property name="showAsIntention" nameId="tp33.1225457189692" value="true" />
+      <property name="description" nameId="tp33.1177457972041" value="Migrate ScatteredPlotStyle" />
       <link role="affectedInstanceConcept" roleId="tp33.1177457957477" targetNodeId="jrxw.5333555603574046783" resolveInfo="ScatterPlotStyle" />
       <node role="affectedInstanceUpdater" roleId="tp33.1177458005323" type="tp33.MigrationScriptPart_Instance_Updater" typeId="tp33.1177458491964" id="899140891892685509" nodeInfo="nn">
         <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="899140891892685510" nodeInfo="sn">
@@ -1609,8 +1608,7 @@
       </node>
     </node>
     <node role="part" roleId="tp33.1177458178889" type="tp33.MigrationScriptPart_Instance" typeId="tp33.1177457850499" id="3784961786049474667" nodeInfo="ng">
-      <property name="description" nameId="tp33.1177457972041" value="migrate RenderStyle(s)" />
-      <property name="showAsIntention" nameId="tp33.1225457189692" value="true" />
+      <property name="description" nameId="tp33.1177457972041" value="Migrate RenderStyle" />
       <link role="affectedInstanceConcept" roleId="tp33.1177457957477" targetNodeId="jrxw.4842667988072481933" resolveInfo="RenderStyle" />
       <node role="affectedInstanceUpdater" roleId="tp33.1177458005323" type="tp33.MigrationScriptPart_Instance_Updater" typeId="tp33.1177458491964" id="3784961786049474669" nodeInfo="nn">
         <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="3784961786049474671" nodeInfo="sn">
@@ -1809,7 +1807,7 @@
       </node>
     </node>
     <node role="part" roleId="tp33.1177458178889" type="tp33.MigrationScriptPart_Instance" typeId="tp33.1177457850499" id="3784961786049521048" nodeInfo="ng">
-      <property name="description" nameId="tp33.1177457972041" value="migrate ColorSPlottyle(s)" />
+      <property name="description" nameId="tp33.1177457972041" value="Migrate ColorPlotStyle" />
       <link role="affectedInstanceConcept" roleId="tp33.1177457957477" targetNodeId="jrxw.2312637992603016560" resolveInfo="ColorPlotStyle" />
       <node role="affectedInstanceUpdater" roleId="tp33.1177458005323" type="tp33.MigrationScriptPart_Instance_Updater" typeId="tp33.1177458491964" id="3784961786049521050" nodeInfo="nn">
         <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="3784961786049521052" nodeInfo="sn">
