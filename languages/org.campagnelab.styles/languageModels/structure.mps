@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model modelUID="r:b81182ba-13d2-441a-9b65-76fe2bd96f30(org.campagnelab.styles.structure)" version="14">
+<model modelUID="r:b81182ba-13d2-441a-9b65-76fe2bd96f30(org.campagnelab.styles.structure)" version="22">
   <persistence version="8" />
   <language namespace="c72da2b9-7cce-4447-8389-f407dc1158b7(jetbrains.mps.lang.structure)" />
   <devkit namespace="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   <import index="tpce" modelUID="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" version="0" implicit="yes" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
-  <import index="onla" modelUID="r:b81182ba-13d2-441a-9b65-76fe2bd96f30(org.campagnelab.styles.structure)" version="14" implicit="yes" />
+  <import index="onla" modelUID="r:b81182ba-13d2-441a-9b65-76fe2bd96f30(org.campagnelab.styles.structure)" version="22" implicit="yes" />
   <root type="tpce.InterfaceConceptDeclaration" typeId="tpce.1169125989551" id="5397636476160524896" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="UseStyle" />
     <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="3501083140137599858" nodeInfo="ig">
@@ -135,17 +135,26 @@
     <property name="name" nameId="tpck.1169194664001" value="Color" />
     <property name="conceptAlias" nameId="tpce.5092175715804935370" value="Color" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="3784961786045218297" resolveInfo="ColorStyleClass" />
-    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="5397636476179034704" nodeInfo="ig">
+    <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="27429407127623468" nodeInfo="ig">
+      <property name="name" nameId="tpck.1169194664001" value="select" />
+      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpck.1082983041843" resolveInfo="string" />
+    </node>
+    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="27429407126155065" nodeInfo="ig">
       <property name="metaClass" nameId="tpce.1071599937831" value="reference" />
-      <property name="role" nameId="tpce.1071599776563" value="value" />
-      <property name="sourceCardinality" nameId="tpce.1071599893252" value="1" />
-      <link role="target" roleId="tpce.1071599976176" targetNodeId="2312637992603017818" resolveInfo="ColorValue" />
+      <property name="role" nameId="tpce.1071599776563" value="byName" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="27429407124987915" resolveInfo="ColorValueByName" />
+    </node>
+    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="27429407125893003" nodeInfo="ig">
+      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
+      <property name="role" nameId="tpce.1071599776563" value="bYRGB" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="27429407124782379" resolveInfo="ColorValueByRGB" />
     </node>
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="2312637992603017818" nodeInfo="ig">
     <property name="virtualPackage" nameId="tpck.1193676396447" value="elements.colors" />
     <property name="name" nameId="tpck.1169194664001" value="ColorValue" />
-    <property name="rootable" nameId="tpce.1096454100552" value="true" />
+    <property name="final" nameId="tpce.4628067390765956807" value="false" />
+    <property name="abstract" nameId="tpce.4628067390765956802" value="true" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
     <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="2312637992606630061" nodeInfo="ig">
       <link role="intfc" roleId="tpce.1169127628841" targetNodeId="tpck.1169194658468" resolveInfo="INamedConcept" />
@@ -164,6 +173,50 @@
     <property name="final" nameId="tpce.4628067390765956807" value="false" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
     <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="3784961786045218329" nodeInfo="ig">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="5397636476160567168" resolveInfo="StyleElement" />
+    </node>
+  </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="27429407124782379" nodeInfo="ig">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="elements.colors" />
+    <property name="name" nameId="tpck.1169194664001" value="ColorValueByRGB" />
+    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="#" />
+    <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="#RRGGBB" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="2312637992603017818" resolveInfo="ColorValue" />
+  </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="27429407124987915" nodeInfo="ig">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="elements.colors" />
+    <property name="name" nameId="tpck.1169194664001" value="ColorValueByName" />
+    <property name="rootable" nameId="tpce.1096454100552" value="true" />
+    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="Color Name" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="2312637992603017818" resolveInfo="ColorValue" />
+  </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="27429407125142994" nodeInfo="ig">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="elements.colors" />
+    <property name="name" nameId="tpck.1169194664001" value="ColorPalette" />
+    <property name="rootable" nameId="tpce.1096454100552" value="true" />
+    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="Color palette" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
+    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="27429407125142997" nodeInfo="ig">
+      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
+      <property name="role" nameId="tpce.1071599776563" value="colors" />
+      <property name="sourceCardinality" nameId="tpce.1071599893252" value="0..n" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="2312637992603016748" resolveInfo="Color" />
+    </node>
+    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="27429407128487345" nodeInfo="ig">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="tpck.1169194658468" resolveInfo="INamedConcept" />
+    </node>
+  </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="27429407128487350" nodeInfo="ig">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="elements.colors" />
+    <property name="name" nameId="tpck.1169194664001" value="ColorPaletteRef" />
+    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="Color palette" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
+    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="27429407128487353" nodeInfo="ig">
+      <property name="metaClass" nameId="tpce.1071599937831" value="reference" />
+      <property name="role" nameId="tpce.1071599776563" value="palette" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="27429407125142994" resolveInfo="ColorPalette" />
+    </node>
+    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="27429407128487351" nodeInfo="ig">
       <link role="intfc" roleId="tpce.1169127628841" targetNodeId="5397636476160567168" resolveInfo="StyleElement" />
     </node>
   </root>

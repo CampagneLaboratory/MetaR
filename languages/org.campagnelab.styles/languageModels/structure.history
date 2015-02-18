@@ -5,8 +5,8 @@
       <model index="onla" modelUID="r:b81182ba-13d2-441a-9b65-76fe2bd96f30(org.campagnelab.metar.styles.structure)" version="-1" />
       <model index="42z1" modelUID="r:61980467-5cf8-4450-9d24-d597512183ad(org.campagnelab.metar.styles.behavior)" version="-1" />
       <model index="2e11" modelUID="r:a1192c71-f025-46a2-b46d-790f47627959(org.campagnelab.metar.styles.typesystem)" version="-1" />
-      <model index="hu87" modelUID="r:348ee4dd-8a6d-4637-bc15-4ff6de435f5b(org.campagnelab.metar.styles.constraints)" version="-1" />
       <model index="h23j" modelUID="r:5e0b7baa-a427-417f-968a-1e4912c5f643(org.campagnelab.metar.styles.editor)" version="-1" />
+      <model index="hu87" modelUID="r:348ee4dd-8a6d-4637-bc15-4ff6de435f5b(org.campagnelab.metar.styles.constraints)" version="-1" />
       <model index="ee0x" modelUID="r:445a29b3-3f0c-4499-8311-f416b97130bd(org.campagnelab.metar.styles.generator.template.main@generator)" version="-1" />
     </dependencies>
     <RenameModel oldModel="r:b81182ba-13d2-441a-9b65-76fe2bd96f30(org.campagnelab.metar.styles.structure)" newModel="r:b81182ba-13d2-441a-9b65-76fe2bd96f30(org.campagnelab.styles.structure)" />
@@ -99,6 +99,54 @@
       <model index="onla" modelUID="r:b81182ba-13d2-441a-9b65-76fe2bd96f30(org.campagnelab.styles.structure)" version="13" />
     </dependencies>
     <rename id="onla.3501083140141870820" type="CONCEPT" from="pixelsPerInch" to="PixelsPerInch" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="onla" modelUID="r:b81182ba-13d2-441a-9b65-76fe2bd96f30(org.campagnelab.styles.structure)" version="14" />
+    </dependencies>
+    <rename id="onla.27429407124987915" type="CONCEPT" from="NamedColor" to="ColorNameValue" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="onla" modelUID="r:b81182ba-13d2-441a-9b65-76fe2bd96f30(org.campagnelab.styles.structure)" version="15" />
+    </dependencies>
+    <rename id="onla.27429407124991239" type="CHILD" from="value" to="name" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="onla" modelUID="r:b81182ba-13d2-441a-9b65-76fe2bd96f30(org.campagnelab.styles.structure)" version="16" />
+    </dependencies>
+    <rename id="onla.27429407124991239" type="CHILD" from="name" to="value" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="onla" modelUID="r:b81182ba-13d2-441a-9b65-76fe2bd96f30(org.campagnelab.styles.structure)" version="17" />
+    </dependencies>
+    <rename id="onla.27429407124987915" type="CONCEPT" from="ColorNameValue" to="ColorName" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="onla" modelUID="r:b81182ba-13d2-441a-9b65-76fe2bd96f30(org.campagnelab.styles.structure)" version="18" />
+    </dependencies>
+    <rename id="onla.27429407124987915" type="CONCEPT" from="ColorName" to="ColorValueByName" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="onla" modelUID="r:b81182ba-13d2-441a-9b65-76fe2bd96f30(org.campagnelab.styles.structure)" version="19" />
+    </dependencies>
+    <rename id="onla.27429407124782379" type="CONCEPT" from="ColorRGBValue" to="ColorValueByRGB" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="onla" modelUID="r:b81182ba-13d2-441a-9b65-76fe2bd96f30(org.campagnelab.styles.structure)" version="20" />
+    </dependencies>
+    <rename id="onla.27429407124991239" type="CHILD" from="value" to="byValue" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="onla" modelUID="r:b81182ba-13d2-441a-9b65-76fe2bd96f30(org.campagnelab.styles.structure)" version="21" />
+    </dependencies>
+    <rename id="onla.27429407125893003" type="CHILD" from="value" to="bYRGB" />
   </StructureModification>
 </history>
 
