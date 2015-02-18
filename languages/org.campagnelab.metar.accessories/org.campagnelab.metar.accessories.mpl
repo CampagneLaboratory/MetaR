@@ -8,7 +8,7 @@
   </models>
   <accessoryModels>
     <model modelUID="r:8442a0af-7ac4-4a84-bd4e-4f793cfdccb5(org.campagnelab.metar.accessories.defaultcolors)" />
-    <model modelUID="r:ba6f964a-58b1-46b7-ab91-91d63260c039(org.campagnelab.metar.styles.defaultcolors)" />
+    <model modelUID="r:6bfd7c1b-dea3-4f98-9ed3-bce7739b7a8d(org.campagnelab.metar.accessories.styles.colors)" />
   </accessoryModels>
   <generators>
     <generator name="" generatorUID="org.campagnelab.metar.accessories#8434387403773304096" uuid="ad369b69-69eb-4091-9dff-5c0feb22bbe0">
