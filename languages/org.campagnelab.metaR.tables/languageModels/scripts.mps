@@ -1881,7 +1881,7 @@
                 <node role="localVariableDeclaration" roleId="tpee.1068581242865" type="tpee.LocalVariableDeclaration" typeId="tpee.1068581242863" id="3784961786049639502" nodeInfo="nr">
                   <property name="name" nameId="tpck.1169194664001" value="value" />
                   <node role="type" roleId="tpee.5680397130376446158" type="tp25.SNodeType" typeId="tp25.1138055754698" id="3784961786049639497" nodeInfo="in">
-                    <link role="concept" roleId="tp25.1138405853777" targetNodeId="onla.2312637992603017818" resolveInfo="ColorValue" />
+                    <link role="concept" roleId="tp25.1138405853777" targetNodeId="onla.27429407124987915" resolveInfo="ColorValueByName" />
                   </node>
                   <node role="initializer" roleId="tpee.1068431790190" type="tpee.DotExpression" typeId="tpee.1197027756228" id="3784961786049689391" nodeInfo="nn">
                     <node role="operand" roleId="tpee.1197027771414" type="tpee.DotExpression" typeId="tpee.1197027756228" id="3784961786049649495" nodeInfo="nn">
@@ -1891,7 +1891,7 @@
                           <node role="operation" roleId="tpee.1197027833540" type="tp25.Node_GetModelOperation" typeId="tp25.1143234257716" id="3784961786049641166" nodeInfo="nn" />
                         </node>
                         <node role="operation" roleId="tpee.1197027833540" type="tp25.Model_RootsIncludingImportedOperation" typeId="tp25.1176109685393" id="3784961786049643837" nodeInfo="nn">
-                          <link role="concept" roleId="tp25.1176109685394" targetNodeId="onla.2312637992603017818" resolveInfo="ColorValue" />
+                          <link role="concept" roleId="tp25.1176109685394" targetNodeId="onla.27429407124987915" resolveInfo="ColorValueByName" />
                         </node>
                       </node>
                       <node role="operation" roleId="tpee.1197027833540" type="tp2q.WhereOperation" typeId="tp2q.1202120902084" id="3784961786049662749" nodeInfo="nn">
@@ -1950,7 +1950,7 @@
                           <node role="operation" roleId="tpee.1197027833540" type="tp25.Node_GetModelOperation" typeId="tp25.1143234257716" id="3784961786049712358" nodeInfo="nn" />
                         </node>
                         <node role="operation" roleId="tpee.1197027833540" type="tp25.Model_CreateNewRootNodeOperation" typeId="tp25.1166648550386" id="3784961786049713800" nodeInfo="nn">
-                          <link role="concept" roleId="tp25.1143235391024" targetNodeId="onla.2312637992603017818" resolveInfo="ColorValue" />
+                          <link role="concept" roleId="tp25.1143235391024" targetNodeId="onla.27429407124987915" resolveInfo="ColorValueByName" />
                         </node>
                       </node>
                     </node>
@@ -1997,8 +1997,8 @@
                     <node role="operand" roleId="tpee.1197027771414" type="tpee.VariableReference" typeId="tpee.1068498886296" id="3784961786049697283" nodeInfo="nn">
                       <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="3784961786049598433" resolveInfo="newColor" />
                     </node>
-                    <node role="operation" roleId="tpee.1197027833540" type="tp25.SLinkAccess" typeId="tp25.1138056143562" id="3784961786049698903" nodeInfo="nn">
-                      <link role="link" roleId="tp25.1138056516764" targetNodeId="onla.5397636476179034704" />
+                    <node role="operation" roleId="tpee.1197027833540" type="tp25.SLinkAccess" typeId="tp25.1138056143562" id="27429407128793936" nodeInfo="nn">
+                      <link role="link" roleId="tp25.1138056516764" targetNodeId="onla.27429407126155065" />
                     </node>
                   </node>
                 </node>
