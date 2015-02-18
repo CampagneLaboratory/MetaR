@@ -337,6 +337,23 @@ public class QueriesGenerated {
     return new RPath(Plot_Behavior.call_getPath_8016431400518331231(SLinkOperations.getTarget(_context.getNode(), "plot", true))).toString();
   }
 
+  public static Object propertyMacro_GetPropertyValue_2742007948267609246(final PropertyMacroContext _context) {
+    String[] colors = Heatmap_Behavior.call_listColors_2742007948264762000(_context.getNode());
+    if (colors.length > 0) {
+      StringBuilder builder = new StringBuilder();
+      for (String ref : colors) {
+        builder.append("\"").append(ref).append("\",");
+      }
+      String out = builder.toString();
+      out = out.substring(0, out.length() - 1);
+      return out;
+    } else {
+      return "\"#f1a340\",\"#f7f7f7\",\"#998ec3\"";
+    }
+
+
+  }
+
   public static Object propertyMacro_GetPropertyValue_6583618001716976677(final PropertyMacroContext _context) {
     if ((SLinkOperations.getTarget(_context.getNode(), "annotations", true) != null) && SConceptOperations.isExactly(SNodeOperations.getConceptDeclaration(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "annotations", true), "scaling", true)), "org.campagnelab.metar.tables.structure.ScaleByRow")) {
       return "row";
@@ -389,7 +406,7 @@ public class QueriesGenerated {
       public boolean accept(SNode col) {
         return ListSequence.fromList(SLinkOperations.getTargets(AttributeOperations.getAttribute(col, new IAttributeDescriptor.NodeAttribute("org.campagnelab.metar.tables.structure.ColumnAnnotation")), "groups", true)).any(new IWhereFilter<SNode>() {
           public boolean accept(SNode g) {
-            return eq_x583g4_a0a0a0a0a0a0a0a0a0a1a74("ID", SPropertyOperations.getString(SLinkOperations.getTarget(g, "columnGroup", false), "name"));
+            return eq_x583g4_a0a0a0a0a0a0a0a0a0a1a84("ID", SPropertyOperations.getString(SLinkOperations.getTarget(g, "columnGroup", false), "name"));
           }
         });
       }
@@ -1209,7 +1226,7 @@ public class QueriesGenerated {
     return (a != null ? a.equals(b) : a == b);
   }
 
-  private static boolean eq_x583g4_a0a0a0a0a0a0a0a0a0a1a74(Object a, Object b) {
+  private static boolean eq_x583g4_a0a0a0a0a0a0a0a0a0a1a84(Object a, Object b) {
     return (a != null ? a.equals(b) : a == b);
   }
 

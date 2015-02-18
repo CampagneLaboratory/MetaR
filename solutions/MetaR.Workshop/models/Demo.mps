@@ -10,6 +10,7 @@
   <import index="9nc5" modelUID="r:d1a256e6-591a-459f-809c-7fc9df45e4d5(org.campagnelab.mps.XChart.types.roots)" version="-1" implicit="yes" />
   <import index="izt2" modelUID="r:b5f8abba-ade6-48ed-8b03-df617183a3f0(org.campagnelab.metar.edgeR.structure)" version="9" implicit="yes" />
   <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="5" implicit="yes" />
+  <import index="onla" modelUID="r:b81182ba-13d2-441a-9b65-76fe2bd96f30(org.campagnelab.styles.structure)" version="22" implicit="yes" />
   <root type="jrxw.ColumnGroupContainer" typeId="jrxw.3402264987265829888" id="5365057051049744570" nodeInfo="ng">
     <node role="groups" roleId="jrxw.3402264987265829889" type="jrxw.ColumnGroup" typeId="jrxw.3402264987265829883" id="5365057051049752384" nodeInfo="ng">
       <property name="name" nameId="tpck.1169194664001" value="LPS=YES" />
@@ -1163,8 +1164,8 @@
       </node>
       <node role="transformations" roleId="jrxw.8962032619582305407" type="jrxw.Render" typeId="jrxw.8013388156563115186" id="9110547144677467150" nodeInfo="ng">
         <property name="id" nameId="jrxw.8962032619593737385" value="JLFTGERULV" />
-        <link role="style" roleId="jrxw.4842667988072482391" targetNodeId="9110547144677467152" resolveInfo="72dpi" />
         <link role="plot" roleId="jrxw.8013388156563171415" targetNodeId="667853661334022615" resolveInfo="plot" />
+        <link role="useStyle" roleId="onla.3501083140137599858" targetNodeId="2742007948273011335" resolveInfo="72dpi" />
         <node role="output" roleId="jrxw.8013388156563171423" type="jrxw.PDF" typeId="jrxw.8013388156563171421" id="9110547144677467459" nodeInfo="ng" />
         <node role="path" roleId="jrxw.3929971219796733619" type="jrxw.OutputFile" typeId="jrxw.3929971219796704543" id="9110547144677467155" nodeInfo="ng">
           <property name="path" nameId="jrxw.3929971219796704769" value="heatmap.pdf" />
@@ -1198,6 +1199,34 @@
   <root type="jrxw.RenderStyle" typeId="jrxw.4842667988072481933" id="9110547144677467152" nodeInfo="ng">
     <property name="pixelsPerInch" nameId="jrxw.4842667988072482117" value="72" />
     <property name="name" nameId="tpck.1169194664001" value="72dpi" />
+  </root>
+  <root type="onla.StyleContainer" typeId="onla.5397636476160560846" id="2742007948273010934" nodeInfo="ng">
+    <property name="name" nameId="tpck.1169194664001" value="72dpi" />
+    <node role="elements" roleId="onla.5397636476160567172" type="onla.PixelsPerInch" typeId="onla.3501083140141870820" id="2742007948273010935" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="Pixels per Inch" />
+      <property name="value" nameId="onla.3501083140123918023" value="72" />
+    </node>
+  </root>
+  <root type="onla.StyleContainer" typeId="onla.5397636476160560846" id="2742007948273010937" nodeInfo="ng">
+    <property name="name" nameId="tpck.1169194664001" value="rendering" />
+    <node role="elements" roleId="onla.5397636476160567172" type="onla.PixelsPerInch" typeId="onla.3501083140141870820" id="2742007948273010938" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="Pixels per Inch" />
+      <property name="value" nameId="onla.3501083140123918023" value="72" />
+    </node>
+  </root>
+  <root type="onla.StyleContainer" typeId="onla.5397636476160560846" id="2742007948273011332" nodeInfo="ng">
+    <property name="name" nameId="tpck.1169194664001" value="72dpi" />
+    <node role="elements" roleId="onla.5397636476160567172" type="onla.PixelsPerInch" typeId="onla.3501083140141870820" id="2742007948273011333" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="Pixels per Inch" />
+      <property name="value" nameId="onla.3501083140123918023" value="72" />
+    </node>
+  </root>
+  <root type="onla.StyleContainer" typeId="onla.5397636476160560846" id="2742007948273011335" nodeInfo="ng">
+    <property name="name" nameId="tpck.1169194664001" value="72dpi" />
+    <node role="elements" roleId="onla.5397636476160567172" type="onla.PixelsPerInch" typeId="onla.3501083140141870820" id="2742007948273011336" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="Pixels per Inch" />
+      <property name="value" nameId="onla.3501083140123918023" value="72" />
+    </node>
   </root>
 </model>
 
