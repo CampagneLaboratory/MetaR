@@ -2490,9 +2490,6 @@
                 <property name="value" nameId="tpc2.1225456424731" value="489fa0" />
               </node>
             </node>
-            <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.TextBackgroundColorStyleClassItem" typeId="tpc2.1214406454886" id="27429407124753230" nodeInfo="nn">
-              <node role="query" roleId="tpc2.1186403803051" type="tpc2.RGBColor" typeId="tpc2.1225456267680" id="27429407124753237" nodeInfo="ng" />
-            </node>
           </node>
         </node>
       </node>
