@@ -196,6 +196,13 @@
       <property name="name" nameId="tpck.1169194664001" value="PuBuGn" />
       <link role="palette" roleId="onla.27429407128487353" targetNodeId="wiqx.27429407127601952" resolveInfo="Sequential-PuBuGn" />
     </node>
+    <node role="elements" roleId="onla.5397636476160567172" type="onla.DrawBorder" typeId="onla.2742007948273075795" id="2742007948275728331" nodeInfo="ng">
+      <property name="value" nameId="onla.2742007948273068417" value="true" />
+    </node>
+    <node role="elements" roleId="onla.5397636476160567172" type="onla.BorderColor" typeId="onla.2742007948278068389" id="2742007948278877317" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="Color" />
+      <link role="byName" roleId="onla.27429407126155065" targetNodeId="wiqx.27429407132523504" resolveInfo="cyan" />
+    </node>
   </root>
   <root type="onla.StyleContainer" typeId="onla.5397636476160560846" id="27429407132531469" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="StyleWithYlOrRd" />
