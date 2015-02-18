@@ -18,6 +18,7 @@
     <property name="name" nameId="tpck.1169194664001" value="StyleContainer" />
     <property name="rootable" nameId="tpce.1096454100552" value="true" />
     <property name="iconPath" nameId="tpce.1160488491229" value="${module}/icons/style.png" />
+    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="Style" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
     <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="5397636476160801466" nodeInfo="ig">
       <property name="metaClass" nameId="tpce.1071599937831" value="reference" />
@@ -187,14 +188,14 @@
     <property name="virtualPackage" nameId="tpck.1193676396447" value="elements.colors" />
     <property name="name" nameId="tpck.1169194664001" value="ColorValueByName" />
     <property name="rootable" nameId="tpce.1096454100552" value="true" />
-    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="Color Name" />
+    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="Color by Name" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="2312637992603017818" resolveInfo="ColorValue" />
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="27429407125142994" nodeInfo="ig">
     <property name="virtualPackage" nameId="tpck.1193676396447" value="elements.colors" />
     <property name="name" nameId="tpck.1169194664001" value="ColorPalette" />
     <property name="rootable" nameId="tpce.1096454100552" value="true" />
-    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="Color palette" />
+    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="Color Palette" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
     <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="27429407125142997" nodeInfo="ig">
       <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
