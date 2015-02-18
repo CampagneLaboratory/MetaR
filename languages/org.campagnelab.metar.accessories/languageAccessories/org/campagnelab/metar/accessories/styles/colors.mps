@@ -7,12 +7,15 @@
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
   <root type="onla.ColorValueByName" typeId="onla.27429407124987915" id="27429407126400300" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="red" />
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="basic" />
   </root>
   <root type="onla.ColorValueByName" typeId="onla.27429407124987915" id="27429407126400405" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="green" />
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="basic" />
   </root>
   <root type="onla.ColorPalette" typeId="onla.27429407125142994" id="27429407127601952" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="Rainbow" />
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="palettes" />
     <node role="colors" roleId="onla.27429407125142997" type="onla.Color" typeId="onla.2312637992603016748" id="27429407127808522" nodeInfo="ng">
       <property name="name" nameId="tpck.1169194664001" value="Color" />
       <link role="byName" roleId="onla.27429407126155065" targetNodeId="27429407126400300" resolveInfo="red" />
@@ -41,6 +44,18 @@
       <property name="name" nameId="tpck.1169194664001" value="Color" />
       <link role="byName" roleId="onla.27429407126155065" targetNodeId="27429407126400300" resolveInfo="red" />
     </node>
+  </root>
+  <root type="onla.ColorValueByName" typeId="onla.27429407124987915" id="27429407132523365" nodeInfo="ng">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="basic" />
+    <property name="name" nameId="tpck.1169194664001" value="sienna" />
+  </root>
+  <root type="onla.ColorValueByName" typeId="onla.27429407124987915" id="27429407132523504" nodeInfo="ng">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="basic" />
+    <property name="name" nameId="tpck.1169194664001" value="cyan" />
+  </root>
+  <root type="onla.ColorValueByName" typeId="onla.27429407124987915" id="27429407132523643" nodeInfo="ng">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="basic" />
+    <property name="name" nameId="tpck.1169194664001" value="aliceblue" />
   </root>
 </model>
 
