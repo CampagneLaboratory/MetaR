@@ -11,7 +11,6 @@
   <import index="9nc5" modelUID="r:d1a256e6-591a-459f-809c-7fc9df45e4d5(org.campagnelab.mps.XChart.types.roots)" version="-1" implicit="yes" />
   <import index="jrxw" modelUID="r:9f2bbfbf-f8b7-4b3b-92b1-b6a0e9642c10(org.campagnelab.metar.tables.structure)" version="20" implicit="yes" />
   <import index="ztlb" modelUID="r:989540b8-cc89-4ed5-ba78-cf2ce766b8ce(org.campagnelab.mps.XChart.structure)" version="12" implicit="yes" />
-  <import index="gs9e" modelUID="r:ba6f964a-58b1-46b7-ab91-91d63260c039(org.campagnelab.metar.styles.palettes)" version="-1" implicit="yes" />
   <import index="wiqx" modelUID="r:6bfd7c1b-dea3-4f98-9ed3-bce7739b7a8d(org.campagnelab.metar.accessories.styles.colors)" version="-1" implicit="yes" />
   <root type="onla.StyleContainer" typeId="onla.5397636476160560846" id="5397636476163172635" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="BaseRootStyle" />
@@ -34,9 +33,6 @@
   <root type="onla.StyleContainer" typeId="onla.5397636476160560846" id="5397636476163172707" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="ChildEmptyStyle" />
     <link role="extends" roleId="onla.5397636476160801466" targetNodeId="5397636476163172704" resolveInfo="EmptyStyle" />
-    <node role="elements" roleId="onla.5397636476160567172" type="onla.Color" typeId="onla.2312637992603016748" id="3784961786042475661" nodeInfo="ng">
-      <link role="value" targetNodeId="gs9e.5397636476178960758" resolveInfo="aliceblue" />
-    </node>
   </root>
   <root type="onla.StyleContainer" typeId="onla.5397636476160560846" id="5397636476170340641" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="FitStyle" />
@@ -51,7 +47,6 @@
       <property name="min" nameId="onla.5397636476166021502" value="1" />
       <property name="max" nameId="onla.5397636476166021503" value="300" />
     </node>
-    <node role="elements" roleId="onla.5397636476160567172" type="onla.StyleElement" typeId="onla.5397636476160567168" id="27429407119649676" nodeInfo="ng" />
   </root>
   <root type="jrxw.Table" typeId="jrxw.3402264987258987827" id="5397636476172194810" nodeInfo="ng">
     <property name="delimitor" nameId="ztlb.2202909375770898234" value="&#9;" />
@@ -211,29 +206,12 @@
     <node role="elements" roleId="onla.5397636476160567172" type="onla.Width" typeId="onla.3501083140123924006" id="3501083140134140271" nodeInfo="ng">
       <property name="value" nameId="onla.3501083140123918023" value="200" />
     </node>
-    <node role="elements" roleId="onla.5397636476160567172" type="onla.StyleElement" typeId="onla.5397636476160567168" id="3784961786043625051" nodeInfo="ng" />
   </root>
   <root type="onla.StyleContainer" typeId="onla.5397636476160560846" id="3501083140143741006" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="RenderNewStyle" />
     <node role="elements" roleId="onla.5397636476160567172" type="onla.PixelsPerInch" typeId="onla.3501083140141870820" id="3501083140143741007" nodeInfo="ng">
       <property name="value" nameId="onla.3501083140123918023" value="72" />
     </node>
-  </root>
-  <root type="onla.StyleContainer" typeId="onla.5397636476160560846" id="3501083140149036837" nodeInfo="ng">
-    <property name="name" nameId="tpck.1169194664001" value="RenderStyle" />
-    <node role="elements" roleId="onla.5397636476160567172" type="onla.PixelsPerInch" typeId="onla.3501083140141870820" id="3501083140149037046" nodeInfo="ng">
-      <property name="value" nameId="onla.3501083140123918023" value="36" />
-    </node>
-    <node role="elements" roleId="onla.5397636476160567172" type="onla.Color" typeId="onla.2312637992603016748" id="3784961786044598891" nodeInfo="ng">
-      <property name="name" nameId="tpck.1169194664001" value="Color" />
-      <link role="value" targetNodeId="gs9e.5397636476178960758" resolveInfo="aliceblue" />
-    </node>
-    <node role="elements" roleId="onla.5397636476160567172" type="onla.XRange" typeId="onla.5397636476166074709" id="3784961786044688018" nodeInfo="ng">
-      <property name="name" nameId="tpck.1169194664001" value="X range" />
-      <property name="min" nameId="onla.5397636476166021502" value="2" />
-      <property name="max" nameId="onla.5397636476166021503" value="200" />
-    </node>
-    <node role="elements" roleId="onla.5397636476160567172" type="onla.StyleElement" typeId="onla.5397636476160567168" id="3784961786045218062" nodeInfo="ng" />
   </root>
   <root type="jrxw.Table" typeId="jrxw.3402264987258987827" id="899140891892636929" nodeInfo="ng">
     <property name="delimitor" nameId="ztlb.2202909375770898234" value="&#9;" />
@@ -322,46 +300,18 @@
       <link role="type" roleId="ztlb.3328299660867197501" targetNodeId="9nc5.1993150283055518188" resolveInfo="Numeric" />
     </node>
   </root>
-  <root type="onla.StyleContainer" typeId="onla.5397636476160560846" id="3784961786045546961" nodeInfo="ng">
-    <property name="name" nameId="tpck.1169194664001" value="DefaultStyleFornull" />
-  </root>
   <root type="onla.StyleContainer" typeId="onla.5397636476160560846" id="3784961786045777962" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="StyleWithPuBuGn" />
     <node role="elements" roleId="onla.5397636476160567172" type="onla.ColorPaletteRef" typeId="onla.27429407128487350" id="27429407132524971" nodeInfo="ng">
       <property name="name" nameId="tpck.1169194664001" value="PuBuGn" />
-      <link role="palette" roleId="onla.27429407128487353" targetNodeId="wiqx.27429407127601952" resolveInfo="PuBuGn" />
-    </node>
-  </root>
-  <root type="onla.StyleContainer" typeId="onla.5397636476160560846" id="8981057170515529329" nodeInfo="ng">
-    <property name="name" nameId="tpck.1169194664001" value="testnames" />
-    <node role="elements" roleId="onla.5397636476160567172" type="onla.PixelsPerInch" typeId="onla.3501083140141870820" id="8981057170515529583" nodeInfo="ng">
-      <property name="name" nameId="tpck.1169194664001" value="Pixels per Inch" />
-    </node>
-    <node role="elements" roleId="onla.5397636476160567172" type="onla.XRange" typeId="onla.5397636476166074709" id="27429407117643886" nodeInfo="ng">
-      <property name="name" nameId="tpck.1169194664001" value="X range" />
-      <property name="min" nameId="onla.5397636476166021502" value="s" />
-      <property name="max" nameId="onla.5397636476166021503" value="d" />
-    </node>
-  </root>
-  <root type="onla.StyleContainer" typeId="onla.5397636476160560846" id="27429407128487291" nodeInfo="ng">
-    <property name="name" nameId="tpck.1169194664001" value="My" />
-    <node role="elements" roleId="onla.5397636476160567172" type="onla.ColorPaletteRef" typeId="onla.27429407128487350" id="27429407128623562" nodeInfo="ng">
-      <property name="name" nameId="tpck.1169194664001" value="Rainbow" />
-      <link role="palette" roleId="onla.27429407128487353" targetNodeId="wiqx.27429407127601952" resolveInfo="PuBuGn" />
-    </node>
-    <node role="elements" roleId="onla.5397636476160567172" type="onla.Color" typeId="onla.2312637992603016748" id="27429407128623553" nodeInfo="ng">
-      <property name="name" nameId="tpck.1169194664001" value="Color" />
-      <link role="byName" roleId="onla.27429407126155065" targetNodeId="wiqx.27429407126400405" resolveInfo="green" />
-    </node>
-    <node role="elements" roleId="onla.5397636476160567172" type="onla.Color" typeId="onla.2312637992603016748" id="27429407132733466" nodeInfo="ng">
-      <property name="name" nameId="tpck.1169194664001" value="Color" />
+      <link role="palette" roleId="onla.27429407128487353" targetNodeId="wiqx.27429407127601952" resolveInfo="Sequential-PuBuGn" />
     </node>
   </root>
   <root type="onla.StyleContainer" typeId="onla.5397636476160560846" id="27429407132531469" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="StyleWithYlOrRd" />
     <node role="elements" roleId="onla.5397636476160567172" type="onla.ColorPaletteRef" typeId="onla.27429407128487350" id="27429407132531470" nodeInfo="ng">
       <property name="name" nameId="tpck.1169194664001" value="YlOrRd" />
-      <link role="palette" roleId="onla.27429407128487353" targetNodeId="wiqx.27429407132523754" resolveInfo="YlOrRd" />
+      <link role="palette" roleId="onla.27429407128487353" targetNodeId="wiqx.27429407132523754" resolveInfo="Sequential-YlOrRd" />
     </node>
   </root>
 </model>
