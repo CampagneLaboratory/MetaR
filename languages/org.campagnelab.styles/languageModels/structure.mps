@@ -221,5 +221,29 @@
       <link role="intfc" roleId="tpce.1169127628841" targetNodeId="5397636476160567168" resolveInfo="StyleElement" />
     </node>
   </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="2742007948273068321" nodeInfo="ig">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="elements.booleans" />
+    <property name="name" nameId="tpck.1169194664001" value="BooleanStyleClass" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
+    <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="2742007948273068417" nodeInfo="ig">
+      <property name="name" nameId="tpck.1169194664001" value="value" />
+      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpck.1082983657063" resolveInfo="boolean" />
+    </node>
+    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="2742007948273068415" nodeInfo="ig">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="5397636476160567168" resolveInfo="StyleElement" />
+    </node>
+  </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="2742007948273075795" nodeInfo="ig">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="elements.booleans" />
+    <property name="name" nameId="tpck.1169194664001" value="DrawBorder" />
+    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="Draw border" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="2742007948273068321" resolveInfo="BooleanStyleClass" />
+  </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="2742007948278068389" nodeInfo="ig">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="elements.colors" />
+    <property name="name" nameId="tpck.1169194664001" value="BorderColor" />
+    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="Border color" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="2312637992603016748" resolveInfo="Color" />
+  </root>
 </model>
 

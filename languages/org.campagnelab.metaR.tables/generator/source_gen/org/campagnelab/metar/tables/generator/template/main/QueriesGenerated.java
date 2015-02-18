@@ -333,6 +333,14 @@ public class QueriesGenerated {
     return Boolean.toString(((SLinkOperations.getTarget(_context.getNode(), "annotations", true) != null) ? SPropertyOperations.getBoolean(SLinkOperations.getTarget(_context.getNode(), "annotations", true), "clusterColumns") : false)).toUpperCase();
   }
 
+  public static Object propertyMacro_GetPropertyValue_2742007948273156912(final PropertyMacroContext _context) {
+    if (Heatmap_Behavior.call_drawBorder_2742007948273088424(_context.getNode())) {
+      return "\"" + Heatmap_Behavior.call_getBorderColor_2742007948278091633(_context.getNode()) + "\"";
+    } else {
+      return "\"NA\"";
+    }
+  }
+
   public static Object propertyMacro_GetPropertyValue_8016431400518316174(final PropertyMacroContext _context) {
     return new RPath(Plot_Behavior.call_getPath_8016431400518331231(SLinkOperations.getTarget(_context.getNode(), "plot", true))).toString();
   }
@@ -406,7 +414,7 @@ public class QueriesGenerated {
       public boolean accept(SNode col) {
         return ListSequence.fromList(SLinkOperations.getTargets(AttributeOperations.getAttribute(col, new IAttributeDescriptor.NodeAttribute("org.campagnelab.metar.tables.structure.ColumnAnnotation")), "groups", true)).any(new IWhereFilter<SNode>() {
           public boolean accept(SNode g) {
-            return eq_x583g4_a0a0a0a0a0a0a0a0a0a1a84("ID", SPropertyOperations.getString(SLinkOperations.getTarget(g, "columnGroup", false), "name"));
+            return eq_x583g4_a0a0a0a0a0a0a0a0a0a1a94("ID", SPropertyOperations.getString(SLinkOperations.getTarget(g, "columnGroup", false), "name"));
           }
         });
       }
@@ -1226,7 +1234,7 @@ public class QueriesGenerated {
     return (a != null ? a.equals(b) : a == b);
   }
 
-  private static boolean eq_x583g4_a0a0a0a0a0a0a0a0a0a1a84(Object a, Object b) {
+  private static boolean eq_x583g4_a0a0a0a0a0a0a0a0a0a1a94(Object a, Object b) {
     return (a != null ? a.equals(b) : a == b);
   }
 
