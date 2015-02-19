@@ -40,6 +40,7 @@
             <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_Property" typeId="tpc2.1073389658414" id="5397636476160801510" nodeInfo="ng">
               <property name="readOnly" nameId="tpc2.1140017977771" value="true" />
               <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="tpck.1169194664001" resolveInfo="name" />
+              <link role="parentStyleClass" roleId="tpc2.1381004262292426837" targetNodeId="3714836281652845582" resolveInfo="StyleName" />
             </node>
           </node>
         </node>
@@ -436,6 +437,42 @@
         <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="onla.2742007948273068417" resolveInfo="value" />
       </node>
       <node role="cellLayout" roleId="tpc2.1106270802874" type="tpc2.CellLayout_Horizontal" typeId="tpc2.1106270549637" id="2742007948273068680" nodeInfo="nn" />
+    </node>
+  </root>
+  <root type="tpc2.StyleSheet" typeId="tpc2.1186402211651" id="3714836281652845579" nodeInfo="ng">
+    <property name="name" nameId="tpck.1169194664001" value="CampagneStyles" />
+    <node role="styleClass" roleId="tpc2.1186402402630" type="tpc2.StyleClass" typeId="tpc2.3383245079137382180" id="3714836281652845582" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="StyleName" />
+      <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.TextBackgroundColorStyleClassItem" typeId="tpc2.1214406454886" id="3714836281652144437" nodeInfo="nn">
+        <node role="query" roleId="tpc2.1186403803051" type="tpc2.RGBColor" typeId="tpc2.1225456267680" id="3714836281652144439" nodeInfo="ng">
+          <property name="value" nameId="tpc2.1225456424731" value="489fa0" />
+        </node>
+      </node>
+      <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.ForegroundColorStyleClassItem" typeId="tpc2.1186404549998" id="3714836281652144325" nodeInfo="nn">
+        <property name="color" nameId="tpc2.1186403713874" value="WHITE" />
+      </node>
+      <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.EditableStyleClassItem" typeId="tpc2.1186414860679" id="3714836281652830052" nodeInfo="nn">
+        <property name="flag" nameId="tpc2.1186414551515" value="false" />
+      </node>
+    </node>
+  </root>
+  <root type="tpc2.EditorComponentDeclaration" typeId="tpc2.1078938745671" id="3714836281652103908" nodeInfo="ng">
+    <property name="name" nameId="tpck.1169194664001" value="StyleRefComponent" />
+    <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="onla.5397636476160524896" resolveInfo="UseStyle" />
+    <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_Collection" typeId="tpc2.1073389446423" id="3714836281652104125" nodeInfo="nn">
+      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_RefCell" typeId="tpc2.1088013125922" id="27429407123066679" nodeInfo="ng">
+        <property name="noTargetText" nameId="tpc2.1139852716018" value="no style" />
+        <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="onla.3501083140137599858" />
+        <node role="editorComponent" roleId="tpc2.1088186146602" type="tpc2.InlineEditorComponent" typeId="tpc2.1088185857835" id="27429407123066680" nodeInfo="ng">
+          <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_Property" typeId="tpc2.1073389658414" id="27429407123066681" nodeInfo="ng">
+            <property name="readOnly" nameId="tpc2.1140017977771" value="true" />
+            <property name="noTargetText" nameId="tpc2.1139852716018" value="no style" />
+            <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="tpck.1169194664001" resolveInfo="name" />
+            <link role="parentStyleClass" roleId="tpc2.1381004262292426837" targetNodeId="3714836281652845582" resolveInfo="StyleName" />
+          </node>
+        </node>
+      </node>
+      <node role="cellLayout" roleId="tpc2.1106270802874" type="tpc2.CellLayout_Indent" typeId="tpc2.1237303669825" id="3714836281652104128" nodeInfo="nn" />
     </node>
   </root>
 </model>
