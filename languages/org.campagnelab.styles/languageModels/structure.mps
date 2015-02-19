@@ -224,6 +224,8 @@
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="2742007948273068321" nodeInfo="ig">
     <property name="virtualPackage" nameId="tpck.1193676396447" value="elements.booleans" />
     <property name="name" nameId="tpck.1169194664001" value="BooleanStyleClass" />
+    <property name="abstract" nameId="tpce.4628067390765956802" value="true" />
+    <property name="final" nameId="tpce.4628067390765956807" value="false" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
     <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="2742007948273068417" nodeInfo="ig">
       <property name="name" nameId="tpck.1169194664001" value="value" />
