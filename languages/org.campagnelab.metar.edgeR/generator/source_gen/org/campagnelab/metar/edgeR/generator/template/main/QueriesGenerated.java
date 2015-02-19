@@ -247,6 +247,10 @@ public class QueriesGenerated {
     return Statement_Behavior.call_id_3007013211740741445(_context.getNode());
   }
 
+  public static Object propertyMacro_GetPropertyValue_2742007948305584053(final PropertyMacroContext _context) {
+    return Statement_Behavior.call_errorCatchingEnabled_2742007948304790371(_context.getNode());
+  }
+
   public static Object propertyMacro_GetPropertyValue_8031339867729316435(final PropertyMacroContext _context) {
     SNode edgeR = SNodeOperations.getAncestor(_context.getNode(), "org.campagnelab.metar.edgeR.structure.EdgeRTest", false, false);
     Iterable<SNode> one = Sequence.<SNode>singleton(_context.getNode());
@@ -345,7 +349,7 @@ public class QueriesGenerated {
       public boolean accept(SNode it) {
         return ListSequence.fromList(SLinkOperations.getTargets(AttributeOperations.getAttribute(it, new IAttributeDescriptor.NodeAttribute("org.campagnelab.metar.tables.structure.ColumnAnnotation")), "groups", true)).all(new IWhereFilter<SNode>() {
           public boolean accept(SNode it) {
-            return neq_x583g4_a0a0a0a0a0a0a0a0a0c0yb(SPropertyOperations.getString(SLinkOperations.getTarget(it, "columnGroup", false), "name"), "counts");
+            return neq_x583g4_a0a0a0a0a0a0a0a0a0c0zb(SPropertyOperations.getString(SLinkOperations.getTarget(it, "columnGroup", false), "name"), "counts");
           }
         });
       }
@@ -381,7 +385,7 @@ public class QueriesGenerated {
     return (a != null ? a.equals(b) : a == b);
   }
 
-  private static boolean neq_x583g4_a0a0a0a0a0a0a0a0a0c0yb(Object a, Object b) {
+  private static boolean neq_x583g4_a0a0a0a0a0a0a0a0a0c0zb(Object a, Object b) {
     return !((a != null ? a.equals(b) : a == b));
   }
 }

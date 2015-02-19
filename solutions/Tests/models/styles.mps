@@ -91,6 +91,7 @@
   </root>
   <root type="jrxw.Analysis" typeId="jrxw.8962032619593737380" id="5397636476172204896" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="TestStyles" />
+    <property name="trycatch_enabled" nameId="jrxw.2742007948298959018" value="true" />
     <node role="statements" roleId="jrxw.8962032619593737383" type="jrxw.StatementList" typeId="jrxw.8962032619582305406" id="5397636476172204897" nodeInfo="ng">
       <property name="id" nameId="jrxw.8962032619593737385" value="IYNFEEYHTK" />
       <node role="transformations" roleId="jrxw.8962032619582305407" type="jrxw.ImportTable" typeId="jrxw.3402264987261651661" id="5397636476172204898" nodeInfo="ng">

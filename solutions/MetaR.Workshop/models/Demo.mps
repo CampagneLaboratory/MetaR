@@ -11,6 +11,7 @@
   <import index="izt2" modelUID="r:b5f8abba-ade6-48ed-8b03-df617183a3f0(org.campagnelab.metar.edgeR.structure)" version="9" implicit="yes" />
   <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="5" implicit="yes" />
   <import index="onla" modelUID="r:b81182ba-13d2-441a-9b65-76fe2bd96f30(org.campagnelab.styles.structure)" version="22" implicit="yes" />
+  <import index="wiqx" modelUID="r:6bfd7c1b-dea3-4f98-9ed3-bce7739b7a8d(org.campagnelab.metar.accessories.styles.colors)" version="-1" implicit="yes" />
   <root type="jrxw.ColumnGroupContainer" typeId="jrxw.3402264987265829888" id="5365057051049744570" nodeInfo="ng">
     <node role="groups" roleId="jrxw.3402264987265829889" type="jrxw.ColumnGroup" typeId="jrxw.3402264987265829883" id="5365057051049752384" nodeInfo="ng">
       <property name="name" nameId="tpck.1169194664001" value="LPS=YES" />
@@ -274,6 +275,7 @@
   </root>
   <root type="jrxw.Analysis" typeId="jrxw.8962032619593737380" id="5365057051054273729" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="edgeR diff exp" />
+    <property name="trycatch_enabled" nameId="jrxw.2742007948298959018" value="true" />
     <node role="statements" roleId="jrxw.8962032619593737383" type="jrxw.StatementList" typeId="jrxw.8962032619582305406" id="5365057051054273730" nodeInfo="ng">
       <property name="id" nameId="jrxw.8962032619593737385" value="CAILXBHGTE" />
       <node role="transformations" roleId="jrxw.8962032619582305407" type="jrxw.ImportTable" typeId="jrxw.3402264987261651661" id="5365057051055513614" nodeInfo="ng">
@@ -1124,6 +1126,7 @@
       </node>
       <node role="transformations" roleId="jrxw.8962032619582305407" type="jrxw.Heatmap" typeId="jrxw.8459500803719286639" id="667853661334022445" nodeInfo="ng">
         <property name="id" nameId="jrxw.8962032619593737385" value="FSKNYXFMLW" />
+        <link role="useStyle" roleId="onla.3501083140137599858" targetNodeId="2742007948286203771" resolveInfo="HeatmapStyle" />
         <node role="plot" roleId="jrxw.8459500803719374387" type="jrxw.Plot" typeId="jrxw.8459500803719374384" id="667853661334022615" nodeInfo="ng">
           <property name="width" nameId="jrxw.8962032619586498917" value="300" />
           <property name="height" nameId="jrxw.8962032619586499111" value="200" />
@@ -1226,6 +1229,16 @@
     <node role="elements" roleId="onla.5397636476160567172" type="onla.PixelsPerInch" typeId="onla.3501083140141870820" id="2742007948273011336" nodeInfo="ng">
       <property name="name" nameId="tpck.1169194664001" value="Pixels per Inch" />
       <property name="value" nameId="onla.3501083140123918023" value="72" />
+    </node>
+  </root>
+  <root type="onla.StyleContainer" typeId="onla.5397636476160560846" id="2742007948286203771" nodeInfo="ng">
+    <property name="name" nameId="tpck.1169194664001" value="HeatmapStyle" />
+    <node role="elements" roleId="onla.5397636476160567172" type="onla.ColorPaletteRef" typeId="onla.27429407128487350" id="2742007948286204172" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="Sequential-BuGn" />
+      <link role="palette" roleId="onla.27429407128487353" targetNodeId="wiqx.27429407132578137" resolveInfo="Sequential-BuGn" />
+    </node>
+    <node role="elements" roleId="onla.5397636476160567172" type="onla.DrawBorder" typeId="onla.2742007948273075795" id="2742007948309479210" nodeInfo="ng">
+      <property name="value" nameId="onla.2742007948273068417" value="true" />
     </node>
   </root>
 </model>
