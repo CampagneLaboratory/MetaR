@@ -147,7 +147,7 @@
       </node>
       <node role="transformations" roleId="jrxw.8962032619582305407" type="jrxw.FitXByY" typeId="jrxw.6001041468486314166" id="8981057170511334344" nodeInfo="ng">
         <property name="id" nameId="jrxw.8962032619593737385" value="ANOFIESYUO" />
-        <link role="useStyle" roleId="onla.3501083140137599858" targetNodeId="3501083140134140265" resolveInfo="BasePlot" />
+        <link role="useStyle" roleId="onla.3501083140137599858" targetNodeId="5397636476170340641" resolveInfo="FitStyle" />
         <node role="table" roleId="jrxw.4451133196880278727" type="jrxw.TableRef" typeId="jrxw.4451133196879828915" id="2742007948273005845" nodeInfo="ng">
           <link role="table" roleId="jrxw.4451133196879830023" targetNodeId="5365057051049752581" resolveInfo="GSE59364_DC_all.csv" />
         </node>
@@ -1316,7 +1316,7 @@
       </node>
       <node role="transformations" roleId="jrxw.8962032619582305407" type="jrxw.Heatmap" typeId="jrxw.8459500803719286639" id="667853661334022445" nodeInfo="ng">
         <property name="id" nameId="jrxw.8962032619593737385" value="XDJIURISIT" />
-        <link role="useStyle" roleId="onla.3501083140137599858" targetNodeId="3784961786045777962" resolveInfo="StyleWithPuBuGn" />
+        <link role="useStyle" roleId="onla.3501083140137599858" targetNodeId="3784961786045777962" resolveInfo="WithPuBuGn" />
         <node role="plot" roleId="jrxw.8459500803719374387" type="jrxw.Plot" typeId="jrxw.8459500803719374384" id="667853661334022615" nodeInfo="ng">
           <property name="width" nameId="jrxw.8962032619586498917" value="300" />
           <property name="height" nameId="jrxw.8962032619586499111" value="200" />
