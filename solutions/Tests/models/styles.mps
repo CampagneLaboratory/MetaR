@@ -136,7 +136,7 @@
       </node>
       <node role="transformations" roleId="jrxw.8962032619582305407" type="jrxw.BoxPlot" typeId="jrxw.6070133740826950348" id="3501083140139354981" nodeInfo="ng">
         <property name="id" nameId="jrxw.8962032619593737385" value="KQYOYLYTVT" />
-        <link role="useStyle" roleId="onla.3501083140137599858" targetNodeId="3784961786045777962" resolveInfo="WithPuBuGn" />
+        <link role="useStyle" roleId="onla.3501083140137599858" targetNodeId="5397636476163172707" resolveInfo="ChildEmptyStyle" />
         <node role="plot" roleId="jrxw.6070133740826952602" type="jrxw.Plot" typeId="jrxw.8459500803719374384" id="3501083140139354983" nodeInfo="ng">
           <property name="width" nameId="jrxw.8962032619586498917" value="200" />
           <property name="height" nameId="jrxw.8962032619586499111" value="200" />
@@ -176,7 +176,6 @@
       <node role="transformations" roleId="jrxw.8962032619582305407" type="jrxw.Render" typeId="jrxw.8013388156563115186" id="2742007948290018531" nodeInfo="ng">
         <property name="id" nameId="jrxw.8962032619593737385" value="FGXPAVDILH" />
         <link role="plot" roleId="jrxw.8013388156563171415" targetNodeId="3501083140139354983" resolveInfo="boxp" />
-        <link role="useStyle" roleId="onla.3501083140137599858" targetNodeId="3501083140143741006" resolveInfo="RenderNewStyle" />
         <node role="output" roleId="jrxw.8013388156563171423" type="jrxw.PDF" typeId="jrxw.8013388156563171421" id="2742007948290018561" nodeInfo="ng" />
         <node role="path" roleId="jrxw.3929971219796733619" type="jrxw.OutputFile" typeId="jrxw.3929971219796704543" id="2742007948290018535" nodeInfo="ng">
           <property name="path" nameId="jrxw.3929971219796704769" value="d.pdf" />
@@ -1426,6 +1425,13 @@
     <node role="elements" roleId="onla.5397636476160567172" type="onla.ColorPaletteRef" typeId="onla.27429407128487350" id="2742007948273027343" nodeInfo="ng">
       <property name="name" nameId="tpck.1169194664001" value="Sequential-Greys" />
       <link role="palette" roleId="onla.27429407128487353" targetNodeId="wiqx.27429407132733573" resolveInfo="Sequential-Greys" />
+    </node>
+  </root>
+  <root type="onla.StyleContainer" typeId="onla.5397636476160560846" id="2742007948309923880" nodeInfo="ng">
+    <property name="name" nameId="tpck.1169194664001" value="DefaultStyle" />
+    <node role="elements" roleId="onla.5397636476160567172" type="onla.ColorPaletteRef" typeId="onla.27429407128487350" id="2742007948310337149" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="Diverging-BrBG" />
+      <link role="palette" roleId="onla.27429407128487353" targetNodeId="wiqx.27429407132734301" resolveInfo="Diverging-BrBG" />
     </node>
   </root>
 </model>
