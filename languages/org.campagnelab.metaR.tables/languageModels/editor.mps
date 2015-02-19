@@ -979,22 +979,6 @@
       <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_RefNode" typeId="tpc2.1073389882823" id="8459500803719374493" nodeInfo="ng">
         <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="jrxw.8459500803719374387" />
       </node>
-      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_RefCell" typeId="tpc2.1088013125922" id="2742007948271224637" nodeInfo="ng">
-        <property name="noTargetText" nameId="tpc2.1139852716018" value="no style" />
-        <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="onla.3501083140137599858" />
-        <node role="editorComponent" roleId="tpc2.1088186146602" type="tpc2.InlineEditorComponent" typeId="tpc2.1088185857835" id="2742007948271224638" nodeInfo="ng">
-          <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_Property" typeId="tpc2.1073389658414" id="2742007948271224639" nodeInfo="ng">
-            <property name="readOnly" nameId="tpc2.1140017977771" value="true" />
-            <property name="noTargetText" nameId="tpc2.1139852716018" value="no style" />
-            <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="tpck.1169194664001" resolveInfo="name" />
-            <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.ForegroundColorStyleClassItem" typeId="tpc2.1186404549998" id="2742007948271224640" nodeInfo="nn">
-              <node role="query" roleId="tpc2.1186403803051" type="tpc2.RGBColor" typeId="tpc2.1225456267680" id="2742007948271224641" nodeInfo="ng">
-                <property name="value" nameId="tpc2.1225456424731" value="489fa0" />
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
       <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="5703306641528559758" nodeInfo="nn">
         <property name="text" nameId="tpc2.1073389577007" value="[" />
       </node>
@@ -2505,6 +2489,9 @@
               <node role="query" roleId="tpc2.1186403803051" type="tpc2.RGBColor" typeId="tpc2.1225456267680" id="27429407121391482" nodeInfo="ng">
                 <property name="value" nameId="tpc2.1225456424731" value="489fa0" />
               </node>
+            </node>
+            <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.TextBackgroundColorStyleClassItem" typeId="tpc2.1214406454886" id="27429407124753230" nodeInfo="nn">
+              <node role="query" roleId="tpc2.1186403803051" type="tpc2.RGBColor" typeId="tpc2.1225456267680" id="27429407124753237" nodeInfo="ng" />
             </node>
           </node>
         </node>

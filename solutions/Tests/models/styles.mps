@@ -15,7 +15,7 @@
   <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="5" implicit="yes" />
   <import index="izt2" modelUID="r:b5f8abba-ade6-48ed-8b03-df617183a3f0(org.campagnelab.metar.edgeR.structure)" version="9" implicit="yes" />
   <root type="onla.StyleContainer" typeId="onla.5397636476160560846" id="5397636476163172635" nodeInfo="ng">
-    <property name="name" nameId="tpck.1169194664001" value="BaseRootStyle" />
+    <property name="name" nameId="tpck.1169194664001" value="BaseRoot" />
     <node role="elements" roleId="onla.5397636476160567172" type="onla.Title" typeId="onla.5397636476165961030" id="5397636476166014067" nodeInfo="ng">
       <property name="name" nameId="tpck.1169194664001" value="Title" />
       <property name="value" nameId="onla.5397636476165968417" value="Box plot title" />
@@ -38,7 +38,7 @@
   </root>
   <root type="onla.StyleContainer" typeId="onla.5397636476160560846" id="5397636476170340641" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="FitStyle" />
-    <link role="extends" roleId="onla.5397636476160801466" targetNodeId="3501083140134140265" resolveInfo="BasePlotStyle" />
+    <link role="extends" roleId="onla.5397636476160801466" targetNodeId="3501083140134140265" resolveInfo="BasePlot" />
     <node role="elements" roleId="onla.5397636476160567172" type="onla.YRange" typeId="onla.5397636476166080970" id="3501083140141766191" nodeInfo="ng">
       <property name="name" nameId="tpck.1169194664001" value="Y range" />
       <property name="min" nameId="onla.5397636476166021502" value="3" />
@@ -111,7 +111,7 @@
       </node>
       <node role="transformations" roleId="jrxw.8962032619582305407" type="jrxw.Histogram" typeId="jrxw.4977909310693613102" id="3501083140139354931" nodeInfo="ng">
         <property name="id" nameId="jrxw.8962032619593737385" value="WPXHFLINHY" />
-        <link role="useStyle" roleId="onla.3501083140137599858" targetNodeId="3784961786045777962" resolveInfo="StyleWithPuBuGn" />
+        <link role="useStyle" roleId="onla.3501083140137599858" targetNodeId="3784961786045777962" resolveInfo="WithPuBuGn" />
         <node role="plot" roleId="jrxw.4977909310693733650" type="jrxw.Plot" typeId="jrxw.8459500803719374384" id="3501083140139354933" nodeInfo="ng">
           <property name="width" nameId="jrxw.8962032619586498917" value="200" />
           <property name="height" nameId="jrxw.8962032619586499111" value="200" />
@@ -123,7 +123,7 @@
       </node>
       <node role="transformations" roleId="jrxw.8962032619582305407" type="jrxw.Histogram" typeId="jrxw.4977909310693613102" id="27429407132531495" nodeInfo="ng">
         <property name="id" nameId="jrxw.8962032619593737385" value="TBOETSOYDM" />
-        <link role="useStyle" roleId="onla.3501083140137599858" targetNodeId="27429407132531469" resolveInfo="StyleWithYlOrRd" />
+        <link role="useStyle" roleId="onla.3501083140137599858" targetNodeId="27429407132531469" resolveInfo="WithYlOrRd" />
         <node role="plot" roleId="jrxw.4977909310693733650" type="jrxw.Plot" typeId="jrxw.8459500803719374384" id="27429407132531497" nodeInfo="ng">
           <property name="width" nameId="jrxw.8962032619586498917" value="200" />
           <property name="height" nameId="jrxw.8962032619586499111" value="200" />
@@ -135,7 +135,7 @@
       </node>
       <node role="transformations" roleId="jrxw.8962032619582305407" type="jrxw.BoxPlot" typeId="jrxw.6070133740826950348" id="3501083140139354981" nodeInfo="ng">
         <property name="id" nameId="jrxw.8962032619593737385" value="KQYOYLYTVT" />
-        <link role="useStyle" roleId="onla.3501083140137599858" targetNodeId="3784961786045777962" resolveInfo="StyleWithPuBuGn" />
+        <link role="useStyle" roleId="onla.3501083140137599858" targetNodeId="3784961786045777962" resolveInfo="WithPuBuGn" />
         <node role="plot" roleId="jrxw.6070133740826952602" type="jrxw.Plot" typeId="jrxw.8459500803719374384" id="3501083140139354983" nodeInfo="ng">
           <property name="width" nameId="jrxw.8962032619586498917" value="200" />
           <property name="height" nameId="jrxw.8962032619586499111" value="200" />
@@ -147,14 +147,14 @@
       </node>
       <node role="transformations" roleId="jrxw.8962032619582305407" type="jrxw.FitXByY" typeId="jrxw.6001041468486314166" id="8981057170511334344" nodeInfo="ng">
         <property name="id" nameId="jrxw.8962032619593737385" value="ANOFIESYUO" />
-        <link role="useStyle" roleId="onla.3501083140137599858" targetNodeId="3501083140134140265" resolveInfo="BasePlotStyle" />
+        <link role="useStyle" roleId="onla.3501083140137599858" targetNodeId="3501083140134140265" resolveInfo="BasePlot" />
+        <node role="table" roleId="jrxw.4451133196880278727" type="jrxw.TableRef" typeId="jrxw.4451133196879828915" id="2742007948273005845" nodeInfo="ng">
+          <link role="table" roleId="jrxw.4451133196879830023" targetNodeId="5365057051049752581" resolveInfo="GSE59364_DC_all.csv" />
+        </node>
         <node role="plot" roleId="jrxw.6001041468486400692" type="jrxw.Plot" typeId="jrxw.8459500803719374384" id="8981057170511334345" nodeInfo="ng">
           <property name="width" nameId="jrxw.8962032619586498917" value="200" />
           <property name="height" nameId="jrxw.8962032619586499111" value="200" />
           <property name="name" nameId="tpck.1169194664001" value="pp" />
-        </node>
-        <node role="table" roleId="jrxw.4451133196880278727" type="jrxw.TableRef" typeId="jrxw.4451133196879828915" id="2742007948273005845" nodeInfo="ng">
-          <link role="table" roleId="jrxw.4451133196879830023" targetNodeId="5365057051049752581" resolveInfo="GSE59364_DC_all.csv" />
         </node>
         <node role="x" roleId="jrxw.2807244893515991461" type="jrxw.ColumnRef" typeId="jrxw.3402264987262235801" id="8981057170511334371" nodeInfo="ng">
           <link role="col" roleId="jrxw.3402264987262235802" targetNodeId="2172361557621061895" resolveInfo="A_DC" />
@@ -175,8 +175,8 @@
     </node>
   </root>
   <root type="onla.StyleContainer" typeId="onla.5397636476160560846" id="3501083140134140265" nodeInfo="ng">
-    <property name="name" nameId="tpck.1169194664001" value="BasePlotStyle" />
-    <link role="extends" roleId="onla.5397636476160801466" targetNodeId="5397636476163172635" resolveInfo="BaseRootStyle" />
+    <property name="name" nameId="tpck.1169194664001" value="BasePlot" />
+    <link role="extends" roleId="onla.5397636476160801466" targetNodeId="5397636476163172635" resolveInfo="BaseRoot" />
     <node role="elements" roleId="onla.5397636476160567172" type="onla.Height" typeId="onla.3501083140123940557" id="3501083140134140266" nodeInfo="ng">
       <property name="value" nameId="onla.3501083140123918023" value="200" />
     </node>
@@ -191,7 +191,7 @@
     </node>
   </root>
   <root type="onla.StyleContainer" typeId="onla.5397636476160560846" id="3784961786045777962" nodeInfo="ng">
-    <property name="name" nameId="tpck.1169194664001" value="StyleWithPuBuGn" />
+    <property name="name" nameId="tpck.1169194664001" value="WithPuBuGn" />
     <node role="elements" roleId="onla.5397636476160567172" type="onla.ColorPaletteRef" typeId="onla.27429407128487350" id="27429407132524971" nodeInfo="ng">
       <property name="name" nameId="tpck.1169194664001" value="PuBuGn" />
       <link role="palette" roleId="onla.27429407128487353" targetNodeId="wiqx.27429407127601952" resolveInfo="Sequential-PuBuGn" />
@@ -205,10 +205,60 @@
     </node>
   </root>
   <root type="onla.StyleContainer" typeId="onla.5397636476160560846" id="27429407132531469" nodeInfo="ng">
-    <property name="name" nameId="tpck.1169194664001" value="StyleWithYlOrRd" />
+    <property name="name" nameId="tpck.1169194664001" value="WithYlOrRd" />
     <node role="elements" roleId="onla.5397636476160567172" type="onla.ColorPaletteRef" typeId="onla.27429407128487350" id="27429407132531470" nodeInfo="ng">
       <property name="name" nameId="tpck.1169194664001" value="YlOrRd" />
       <link role="palette" roleId="onla.27429407128487353" targetNodeId="wiqx.27429407132523754" resolveInfo="Sequential-YlOrRd" />
+    </node>
+  </root>
+  <root type="jrxw.ColumnGroupContainer" typeId="jrxw.3402264987265829888" id="5365057051049744570" nodeInfo="ng">
+    <node role="groups" roleId="jrxw.3402264987265829889" type="jrxw.ColumnGroup" typeId="jrxw.3402264987265829883" id="5365057051049752384" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="LPS=YES" />
+      <node role="usesRefs" roleId="jrxw.8031339867720116700" type="jrxw.UsageTypeRef" typeId="jrxw.8031339867720116703" id="5365057051049752386" nodeInfo="ng">
+        <link role="usage" roleId="jrxw.8031339867720116704" targetNodeId="5365057051049752382" resolveInfo="LPS" />
+      </node>
+      <node role="usesRefs" roleId="jrxw.8031339867720116700" type="jrxw.UsageTypeRef" typeId="jrxw.8031339867720116703" id="8154356758126350265" nodeInfo="ng">
+        <link role="usage" roleId="jrxw.8031339867720116704" targetNodeId="8154356758118994253" resolveInfo="heatmap" />
+      </node>
+    </node>
+    <node role="groups" roleId="jrxw.3402264987265829889" type="jrxw.ColumnGroup" typeId="jrxw.3402264987265829883" id="5365057051049752388" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="LPS=NO" />
+      <node role="usesRefs" roleId="jrxw.8031339867720116700" type="jrxw.UsageTypeRef" typeId="jrxw.8031339867720116703" id="5365057051049752392" nodeInfo="ng">
+        <link role="usage" roleId="jrxw.8031339867720116704" targetNodeId="5365057051049752382" resolveInfo="LPS" />
+      </node>
+      <node role="usesRefs" roleId="jrxw.8031339867720116700" type="jrxw.UsageTypeRef" typeId="jrxw.8031339867720116703" id="8154356758126350272" nodeInfo="ng">
+        <link role="usage" roleId="jrxw.8031339867720116704" targetNodeId="8154356758118994253" resolveInfo="heatmap" />
+      </node>
+    </node>
+    <node role="groups" roleId="jrxw.3402264987265829889" type="jrxw.ColumnGroup" typeId="jrxw.3402264987265829883" id="5365057051049754988" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="ID" />
+      <node role="usesRefs" roleId="jrxw.8031339867720116700" type="jrxw.UsageTypeRef" typeId="jrxw.8031339867720116703" id="5365057051049754994" nodeInfo="ng">
+        <link role="usage" roleId="jrxw.8031339867720116704" targetNodeId="5365057051049754984" resolveInfo="ID" />
+      </node>
+    </node>
+    <node role="groups" roleId="jrxw.3402264987265829889" type="jrxw.ColumnGroup" typeId="jrxw.3402264987265829883" id="578023650350746263" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="counts" />
+      <node role="usesRefs" roleId="jrxw.8031339867720116700" type="jrxw.UsageTypeRef" typeId="jrxw.8031339867720116703" id="8154356758118994257" nodeInfo="ng">
+        <link role="usage" roleId="jrxw.8031339867720116704" targetNodeId="8154356758118994253" resolveInfo="heatmap" />
+      </node>
+    </node>
+    <node role="groups" roleId="jrxw.3402264987265829889" type="jrxw.ColumnGroup" typeId="jrxw.3402264987265829883" id="8154356758126970200" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="ignore" />
+      <node role="usesRefs" roleId="jrxw.8031339867720116700" type="jrxw.UsageTypeRef" typeId="jrxw.8031339867720116703" id="8154356758126970212" nodeInfo="ng">
+        <link role="usage" roleId="jrxw.8031339867720116704" targetNodeId="8154356758126970195" resolveInfo="ignore" />
+      </node>
+    </node>
+    <node role="usages" roleId="jrxw.8031339867719794365" type="jrxw.UsageType" typeId="jrxw.8016431400517087678" id="5365057051049752382" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="LPS" />
+    </node>
+    <node role="usages" roleId="jrxw.8031339867719794365" type="jrxw.UsageType" typeId="jrxw.8016431400517087678" id="5365057051049754984" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="ID" />
+    </node>
+    <node role="usages" roleId="jrxw.8031339867719794365" type="jrxw.UsageType" typeId="jrxw.8016431400517087678" id="8154356758118994253" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="heatmap" />
+    </node>
+    <node role="usages" roleId="jrxw.8031339867719794365" type="jrxw.UsageType" typeId="jrxw.8016431400517087678" id="8154356758126970195" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="ignore" />
     </node>
   </root>
   <root type="jrxw.Table" typeId="jrxw.3402264987258987827" id="5365057051049752581" nodeInfo="ng">
@@ -420,56 +470,6 @@
           <link role="columnGroup" roleId="jrxw.3402264987265829896" targetNodeId="578023650350746263" resolveInfo="counts" />
         </node>
       </node>
-    </node>
-  </root>
-  <root type="jrxw.ColumnGroupContainer" typeId="jrxw.3402264987265829888" id="5365057051049744570" nodeInfo="ng">
-    <node role="groups" roleId="jrxw.3402264987265829889" type="jrxw.ColumnGroup" typeId="jrxw.3402264987265829883" id="5365057051049752384" nodeInfo="ng">
-      <property name="name" nameId="tpck.1169194664001" value="LPS=YES" />
-      <node role="usesRefs" roleId="jrxw.8031339867720116700" type="jrxw.UsageTypeRef" typeId="jrxw.8031339867720116703" id="5365057051049752386" nodeInfo="ng">
-        <link role="usage" roleId="jrxw.8031339867720116704" targetNodeId="5365057051049752382" resolveInfo="LPS" />
-      </node>
-      <node role="usesRefs" roleId="jrxw.8031339867720116700" type="jrxw.UsageTypeRef" typeId="jrxw.8031339867720116703" id="8154356758126350265" nodeInfo="ng">
-        <link role="usage" roleId="jrxw.8031339867720116704" targetNodeId="8154356758118994253" resolveInfo="heatmap" />
-      </node>
-    </node>
-    <node role="groups" roleId="jrxw.3402264987265829889" type="jrxw.ColumnGroup" typeId="jrxw.3402264987265829883" id="5365057051049752388" nodeInfo="ng">
-      <property name="name" nameId="tpck.1169194664001" value="LPS=NO" />
-      <node role="usesRefs" roleId="jrxw.8031339867720116700" type="jrxw.UsageTypeRef" typeId="jrxw.8031339867720116703" id="5365057051049752392" nodeInfo="ng">
-        <link role="usage" roleId="jrxw.8031339867720116704" targetNodeId="5365057051049752382" resolveInfo="LPS" />
-      </node>
-      <node role="usesRefs" roleId="jrxw.8031339867720116700" type="jrxw.UsageTypeRef" typeId="jrxw.8031339867720116703" id="8154356758126350272" nodeInfo="ng">
-        <link role="usage" roleId="jrxw.8031339867720116704" targetNodeId="8154356758118994253" resolveInfo="heatmap" />
-      </node>
-    </node>
-    <node role="groups" roleId="jrxw.3402264987265829889" type="jrxw.ColumnGroup" typeId="jrxw.3402264987265829883" id="5365057051049754988" nodeInfo="ng">
-      <property name="name" nameId="tpck.1169194664001" value="ID" />
-      <node role="usesRefs" roleId="jrxw.8031339867720116700" type="jrxw.UsageTypeRef" typeId="jrxw.8031339867720116703" id="5365057051049754994" nodeInfo="ng">
-        <link role="usage" roleId="jrxw.8031339867720116704" targetNodeId="5365057051049754984" resolveInfo="ID" />
-      </node>
-    </node>
-    <node role="groups" roleId="jrxw.3402264987265829889" type="jrxw.ColumnGroup" typeId="jrxw.3402264987265829883" id="578023650350746263" nodeInfo="ng">
-      <property name="name" nameId="tpck.1169194664001" value="counts" />
-      <node role="usesRefs" roleId="jrxw.8031339867720116700" type="jrxw.UsageTypeRef" typeId="jrxw.8031339867720116703" id="8154356758118994257" nodeInfo="ng">
-        <link role="usage" roleId="jrxw.8031339867720116704" targetNodeId="8154356758118994253" resolveInfo="heatmap" />
-      </node>
-    </node>
-    <node role="groups" roleId="jrxw.3402264987265829889" type="jrxw.ColumnGroup" typeId="jrxw.3402264987265829883" id="8154356758126970200" nodeInfo="ng">
-      <property name="name" nameId="tpck.1169194664001" value="ignore" />
-      <node role="usesRefs" roleId="jrxw.8031339867720116700" type="jrxw.UsageTypeRef" typeId="jrxw.8031339867720116703" id="8154356758126970212" nodeInfo="ng">
-        <link role="usage" roleId="jrxw.8031339867720116704" targetNodeId="8154356758126970195" resolveInfo="ignore" />
-      </node>
-    </node>
-    <node role="usages" roleId="jrxw.8031339867719794365" type="jrxw.UsageType" typeId="jrxw.8016431400517087678" id="5365057051049752382" nodeInfo="ng">
-      <property name="name" nameId="tpck.1169194664001" value="LPS" />
-    </node>
-    <node role="usages" roleId="jrxw.8031339867719794365" type="jrxw.UsageType" typeId="jrxw.8016431400517087678" id="5365057051049754984" nodeInfo="ng">
-      <property name="name" nameId="tpck.1169194664001" value="ID" />
-    </node>
-    <node role="usages" roleId="jrxw.8031339867719794365" type="jrxw.UsageType" typeId="jrxw.8016431400517087678" id="8154356758118994253" nodeInfo="ng">
-      <property name="name" nameId="tpck.1169194664001" value="heatmap" />
-    </node>
-    <node role="usages" roleId="jrxw.8031339867719794365" type="jrxw.UsageType" typeId="jrxw.8016431400517087678" id="8154356758126970195" nodeInfo="ng">
-      <property name="name" nameId="tpck.1169194664001" value="ignore" />
     </node>
   </root>
   <root type="jrxw.Analysis" typeId="jrxw.8962032619593737380" id="5365057051054273729" nodeInfo="ng">
