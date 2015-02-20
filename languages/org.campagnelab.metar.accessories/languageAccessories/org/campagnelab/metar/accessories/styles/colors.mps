@@ -269,7 +269,67 @@
   </root>
   <root type="onla.ColorValueByName" typeId="onla.27429407124987915" id="7911430970941891128" nodeInfo="ng">
     <property name="virtualPackage" nameId="tpck.1193676396447" value="basic" />
-    <property name="name" nameId="tpck.1169194664001" value="grey60" />
+    <property name="name" nameId="tpck.1169194664001" value="gray60" />
+  </root>
+  <root type="onla.ColorValueByName" typeId="onla.27429407124987915" id="7911430970950163843" nodeInfo="ng">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="basic" />
+    <property name="name" nameId="tpck.1169194664001" value="brown" />
+  </root>
+  <root type="onla.ColorValueByName" typeId="onla.27429407124987915" id="7911430970950164178" nodeInfo="ng">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="basic" />
+    <property name="name" nameId="tpck.1169194664001" value="aquamarine" />
+  </root>
+  <root type="onla.ColorValueByName" typeId="onla.27429407124987915" id="7911430970950164264" nodeInfo="ng">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="basic" />
+    <property name="name" nameId="tpck.1169194664001" value="blue" />
+  </root>
+  <root type="onla.ColorValueByName" typeId="onla.27429407124987915" id="7911430970950164351" nodeInfo="ng">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="basic" />
+    <property name="name" nameId="tpck.1169194664001" value="white" />
+  </root>
+  <root type="onla.ColorValueByName" typeId="onla.27429407124987915" id="7911430970950164439" nodeInfo="ng">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="basic" />
+    <property name="name" nameId="tpck.1169194664001" value="black" />
+  </root>
+  <root type="onla.ColorValueByName" typeId="onla.27429407124987915" id="7911430970950164528" nodeInfo="ng">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="basic" />
+    <property name="name" nameId="tpck.1169194664001" value="blueviolet" />
+  </root>
+  <root type="onla.ColorValueByName" typeId="onla.27429407124987915" id="7911430970950164618" nodeInfo="ng">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="basic" />
+    <property name="name" nameId="tpck.1169194664001" value="magenta" />
+  </root>
+  <root type="onla.ColorValueByName" typeId="onla.27429407124987915" id="7911430970950164709" nodeInfo="ng">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="basic" />
+    <property name="name" nameId="tpck.1169194664001" value="orange" />
+  </root>
+  <root type="onla.ColorValueByName" typeId="onla.27429407124987915" id="7911430970950164801" nodeInfo="ng">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="basic" />
+    <property name="name" nameId="tpck.1169194664001" value="purple" />
+  </root>
+  <root type="onla.ColorValueByName" typeId="onla.27429407124987915" id="7911430970950164894" nodeInfo="ng">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="basic" />
+    <property name="name" nameId="tpck.1169194664001" value="salmon" />
+  </root>
+  <root type="onla.ColorValueByName" typeId="onla.27429407124987915" id="7911430970950164988" nodeInfo="ng">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="basic" />
+    <property name="name" nameId="tpck.1169194664001" value="pink" />
+  </root>
+  <root type="onla.ColorValueByName" typeId="onla.27429407124987915" id="7911430970950165178" nodeInfo="ng">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="basic" />
+    <property name="name" nameId="tpck.1169194664001" value="violet" />
+  </root>
+  <root type="onla.ColorValueByName" typeId="onla.27429407124987915" id="7911430970950165369" nodeInfo="ng">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="basic" />
+    <property name="name" nameId="tpck.1169194664001" value="turquoise" />
+  </root>
+  <root type="onla.ColorValueByName" typeId="onla.27429407124987915" id="7911430970950165466" nodeInfo="ng">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="basic" />
+    <property name="name" nameId="tpck.1169194664001" value="yellow" />
+  </root>
+  <root type="onla.ColorValueByName" typeId="onla.27429407124987915" id="7911430970950165564" nodeInfo="ng">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="basic" />
+    <property name="name" nameId="tpck.1169194664001" value="plum" />
   </root>
 </model>
 
