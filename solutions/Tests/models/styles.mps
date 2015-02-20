@@ -137,7 +137,7 @@
       </node>
       <node role="transformations" roleId="jrxw.8962032619582305407" type="jrxw.BoxPlot" typeId="jrxw.6070133740826950348" id="3501083140139354981" nodeInfo="ng">
         <property name="id" nameId="jrxw.8962032619593737385" value="KQYOYLYTVT" />
-        <link role="useStyle" roleId="onla.3501083140137599858" targetNodeId="5397636476163172704" resolveInfo="EmptyStyle" />
+        <link role="useStyle" roleId="onla.3501083140137599858" targetNodeId="2742007948309923880" resolveInfo="DefaultStyle" />
         <node role="plot" roleId="jrxw.6070133740826952602" type="jrxw.Plot" typeId="jrxw.8459500803719374384" id="3501083140139354983" nodeInfo="ng">
           <property name="width" nameId="jrxw.8962032619586498917" value="200" />
           <property name="height" nameId="jrxw.8962032619586499111" value="200" />
@@ -145,24 +145,6 @@
         </node>
         <node role="ColumnRefs" roleId="jrxw.6070133740826952603" type="jrxw.ColumnRef" typeId="jrxw.3402264987262235801" id="27429407132542574" nodeInfo="ng">
           <link role="col" roleId="jrxw.3402264987262235802" targetNodeId="2172361557621061879" resolveInfo="DC0904" />
-        </node>
-      </node>
-      <node role="transformations" roleId="jrxw.8962032619582305407" type="jrxw.FitXByY" typeId="jrxw.6001041468486314166" id="8981057170511334344" nodeInfo="ng">
-        <property name="id" nameId="jrxw.8962032619593737385" value="ANOFIESYUO" />
-        <link role="useStyle" roleId="onla.3501083140137599858" targetNodeId="5397636476170340641" resolveInfo="FitStyle" />
-        <node role="table" roleId="jrxw.4451133196880278727" type="jrxw.TableRef" typeId="jrxw.4451133196879828915" id="2742007948273005845" nodeInfo="ng">
-          <link role="table" roleId="jrxw.4451133196879830023" targetNodeId="5365057051049752581" resolveInfo="GSE59364_DC_all.csv" />
-        </node>
-        <node role="plot" roleId="jrxw.6001041468486400692" type="jrxw.Plot" typeId="jrxw.8459500803719374384" id="8981057170511334345" nodeInfo="ng">
-          <property name="width" nameId="jrxw.8962032619586498917" value="200" />
-          <property name="height" nameId="jrxw.8962032619586499111" value="200" />
-          <property name="name" nameId="tpck.1169194664001" value="pp" />
-        </node>
-        <node role="x" roleId="jrxw.2807244893515991461" type="jrxw.ColumnRef" typeId="jrxw.3402264987262235801" id="8981057170511334371" nodeInfo="ng">
-          <link role="col" roleId="jrxw.3402264987262235802" targetNodeId="2172361557621061895" resolveInfo="A_DC" />
-        </node>
-        <node role="y" roleId="jrxw.2807244893515991619" type="jrxw.ColumnRef" typeId="jrxw.3402264987262235801" id="8981057170511334374" nodeInfo="ng">
-          <link role="col" roleId="jrxw.3402264987262235802" targetNodeId="2172361557621061895" resolveInfo="A_DC" />
         </node>
       </node>
       <node role="transformations" roleId="jrxw.8962032619582305407" type="jrxw.Render" typeId="jrxw.8013388156563115186" id="8981057170511334210" nodeInfo="ng">
