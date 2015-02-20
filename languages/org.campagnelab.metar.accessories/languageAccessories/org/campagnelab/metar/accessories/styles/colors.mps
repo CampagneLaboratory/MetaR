@@ -267,5 +267,9 @@
       </node>
     </node>
   </root>
+  <root type="onla.ColorValueByName" typeId="onla.27429407124987915" id="7911430970941891128" nodeInfo="ng">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="basic" />
+    <property name="name" nameId="tpck.1169194664001" value="grey60" />
+  </root>
 </model>
 
