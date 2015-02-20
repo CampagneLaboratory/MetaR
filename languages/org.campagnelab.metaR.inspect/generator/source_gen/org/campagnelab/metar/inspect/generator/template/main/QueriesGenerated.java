@@ -41,6 +41,10 @@ public class QueriesGenerated {
     return SPropertyOperations.getString(_context.getNode(), "nodeId");
   }
 
+  public static Object propertyMacro_GetPropertyValue_7911430970949956510(final PropertyMacroContext _context) {
+    return SPropertyOperations.getString(_context.getNode(), "nodeId");
+  }
+
   public static boolean ifMacro_Condition_8969925079114015604(final IfMacroContext _context) {
     return (SLinkOperations.getTarget(_context.getNode(), "uponWarning", true) != null);
   }
@@ -77,7 +81,7 @@ public class QueriesGenerated {
     return SLinkOperations.getTarget(_context.getNode(), "try", true);
   }
 
-  public static SNode sourceNodeQuery_2742007948304368333(final SourceSubstituteMacroNodeContext _context) {
+  public static SNode sourceNodeQuery_7911430970949956205(final SourceSubstituteMacroNodeContext _context) {
     return SLinkOperations.getTarget(_context.getNode(), "try", true);
   }
 }
