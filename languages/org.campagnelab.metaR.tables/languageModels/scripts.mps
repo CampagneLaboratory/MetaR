@@ -1050,7 +1050,7 @@
   </root>
   <root type="tp33.MigrationScript" typeId="tp33.1177457067821" id="899140891892685507" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="MigrateStyles" />
-    <property name="title" nameId="tp33.1177457669450" value="Meta R: Migrate Styles" />
+    <property name="title" nameId="tp33.1177457669450" value="MetaR: Migrate Styles" />
     <property name="type" nameId="tp33.5299416737274925395" value="enhancement" />
     <node role="part" roleId="tp33.1177458178889" type="tp33.MigrationScriptPart_Instance" typeId="tp33.1177457850499" id="899140891892685508" nodeInfo="ng">
       <property name="description" nameId="tp33.1177457972041" value="Migrate ScatteredPlotStyle" />
