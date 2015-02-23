@@ -1444,23 +1444,13 @@
       <property name="value" nameId="onla.3501083140123918023" value="72" />
     </node>
   </root>
-  <root type="onla.ColorPalette" typeId="onla.27429407125142994" id="3494931322518445684" nodeInfo="ng">
-    <property name="name" nameId="tpck.1169194664001" value="TestPalette" />
-    <node role="colors" roleId="onla.27429407125142997" type="onla.Color" typeId="onla.2312637992603016748" id="3494931322518449812" nodeInfo="ng">
+  <root type="onla.ColorPalette" typeId="onla.27429407125142994" id="3494931322518455598" nodeInfo="ng">
+    <node role="colors" roleId="onla.27429407125142997" type="onla.Color" typeId="onla.2312637992603016748" id="3494931322518931843" nodeInfo="ng">
       <property name="name" nameId="tpck.1169194664001" value="Color" />
-      <link role="byName" roleId="onla.27429407126155065" targetNodeId="wiqx.7911430970950165369" resolveInfo="turquoise" />
     </node>
-    <node role="colors" roleId="onla.27429407125142997" type="onla.Color" typeId="onla.2312637992603016748" id="3494931322518451664" nodeInfo="ng">
+    <node role="colors" roleId="onla.27429407125142997" type="onla.Color" typeId="onla.2312637992603016748" id="3494931322518931841" nodeInfo="ng">
       <property name="name" nameId="tpck.1169194664001" value="Color" />
-      <link role="byName" roleId="onla.27429407126155065" targetNodeId="wiqx.7911430970950163843" resolveInfo="brown" />
-    </node>
-    <node role="colors" roleId="onla.27429407125142997" type="onla.Color" typeId="onla.2312637992603016748" id="3494931322518451660" nodeInfo="ng">
-      <property name="name" nameId="tpck.1169194664001" value="Color" />
-      <link role="byName" roleId="onla.27429407126155065" targetNodeId="wiqx.7911430970950164264" resolveInfo="blue" />
-    </node>
-    <node role="colors" roleId="onla.27429407125142997" type="onla.Color" typeId="onla.2312637992603016748" id="3494931322518451657" nodeInfo="ng">
-      <property name="name" nameId="tpck.1169194664001" value="Color" />
-      <link role="byName" roleId="onla.27429407126155065" targetNodeId="wiqx.7911430970950164178" resolveInfo="aquamarine" />
+      <link role="byName" roleId="onla.27429407126155065" targetNodeId="wiqx.7911430970950165466" resolveInfo="yellow" />
     </node>
   </root>
 </model>
