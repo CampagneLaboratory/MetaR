@@ -1407,8 +1407,8 @@
   <root type="onla.StyleContainer" typeId="onla.5397636476160560846" id="2742007948273027342" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="StyleWithGrey" />
     <node role="elements" roleId="onla.5397636476160567172" type="onla.ColorPaletteRef" typeId="onla.27429407128487350" id="2742007948273027343" nodeInfo="ng">
-      <property name="name" nameId="tpck.1169194664001" value="Sequential-Greys" />
-      <link role="palette" roleId="onla.27429407128487353" targetNodeId="wiqx.27429407132733573" resolveInfo="Sequential-Greys" />
+      <property name="name" nameId="tpck.1169194664001" value="TestPalette" />
+      <link role="palette" roleId="onla.27429407128487353" targetNodeId="3494931322518445684" resolveInfo="TestPalette" />
     </node>
   </root>
   <root type="onla.StyleContainer" typeId="onla.5397636476160560846" id="2742007948309923880" nodeInfo="ng">
@@ -1428,12 +1428,39 @@
       <property name="name" nameId="tpck.1169194664001" value="Title" />
       <property name="value" nameId="onla.5397636476165968417" value="title" />
     </node>
+    <node role="elements" roleId="onla.5397636476160567172" type="onla.ColorPaletteRef" typeId="onla.27429407128487350" id="3494931322518453350" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="TestPalette" />
+      <link role="palette" roleId="onla.27429407128487353" targetNodeId="3494931322518445684" resolveInfo="TestPalette" />
+    </node>
+    <node role="elements" roleId="onla.5397636476160567172" type="onla.Height" typeId="onla.3501083140123940557" id="3494931322518453360" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="Height" />
+      <property name="value" nameId="onla.3501083140123918023" value="34343" />
+    </node>
   </root>
   <root type="onla.StyleContainer" typeId="onla.5397636476160560846" id="2742007948311081224" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="DefaultStyle" />
     <node role="elements" roleId="onla.5397636476160567172" type="onla.PixelsPerInch" typeId="onla.3501083140141870820" id="2742007948311081225" nodeInfo="ng">
       <property name="name" nameId="tpck.1169194664001" value="Pixels per Inch" />
       <property name="value" nameId="onla.3501083140123918023" value="72" />
+    </node>
+  </root>
+  <root type="onla.ColorPalette" typeId="onla.27429407125142994" id="3494931322518445684" nodeInfo="ng">
+    <property name="name" nameId="tpck.1169194664001" value="TestPalette" />
+    <node role="colors" roleId="onla.27429407125142997" type="onla.Color" typeId="onla.2312637992603016748" id="3494931322518449812" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="Color" />
+      <link role="byName" roleId="onla.27429407126155065" targetNodeId="wiqx.7911430970950165369" resolveInfo="turquoise" />
+    </node>
+    <node role="colors" roleId="onla.27429407125142997" type="onla.Color" typeId="onla.2312637992603016748" id="3494931322518451664" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="Color" />
+      <link role="byName" roleId="onla.27429407126155065" targetNodeId="wiqx.7911430970950163843" resolveInfo="brown" />
+    </node>
+    <node role="colors" roleId="onla.27429407125142997" type="onla.Color" typeId="onla.2312637992603016748" id="3494931322518451660" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="Color" />
+      <link role="byName" roleId="onla.27429407126155065" targetNodeId="wiqx.7911430970950164264" resolveInfo="blue" />
+    </node>
+    <node role="colors" roleId="onla.27429407125142997" type="onla.Color" typeId="onla.2312637992603016748" id="3494931322518451657" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="Color" />
+      <link role="byName" roleId="onla.27429407126155065" targetNodeId="wiqx.7911430970950164178" resolveInfo="aquamarine" />
     </node>
   </root>
 </model>
