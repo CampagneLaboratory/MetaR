@@ -21,5 +21,18 @@
     <usedLanguage>9ded098b-ad6a-4657-bfd9-48636cfe8bc3(jetbrains.mps.lang.traceable)</usedLanguage>
     <usedLanguage>901f5cf3-dc77-4c1e-bc5a-6382baee28b4(org.campagnelab.textoutput)</usedLanguage>
   </usedLanguages>
+  <languageVersions>
+    <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" fqName="jetbrains.mps.baseLanguage" version="1" />
+    <language id="ed6d7656-532c-4bc2-81d1-af945aeb8280" fqName="jetbrains.mps.baseLanguage.blTypes" version="0" />
+    <language id="798100da-4f0a-421a-b991-71f8c50ce5d2" fqName="jetbrains.mps.build" version="0" />
+    <language id="0cf935df-4699-4e9c-a132-fa109541cba3" fqName="jetbrains.mps.build.mps" version="1" />
+    <language id="698a8d22-a104-47a0-ba8d-10e3ec237f13" fqName="jetbrains.mps.build.workflow" version="0" />
+    <language id="58f98fef-90ad-4b72-a390-fad66ec7005a" fqName="jetbrains.mps.core.properties" version="0" />
+    <language id="479c7a8c-02f9-43b5-9139-d910cb22f298" fqName="jetbrains.mps.core.xml" version="0" />
+    <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" fqName="jetbrains.mps.lang.core" version="1" />
+    <language id="982eb8df-2c96-4bd7-9963-11712ea622e5" fqName="jetbrains.mps.lang.resources" version="0" />
+    <language id="9ded098b-ad6a-4657-bfd9-48636cfe8bc3" fqName="jetbrains.mps.lang.traceable" version="0" />
+    <language id="901f5cf3-dc77-4c1e-bc5a-6382baee28b4" fqName="org.campagnelab.textoutput" version="0" />
+  </languageVersions>
 </solution>
 

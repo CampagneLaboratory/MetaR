@@ -1,209 +1,243 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model modelUID="r:b5f8abba-ade6-48ed-8b03-df617183a3f0(org.campagnelab.metar.edgeR.structure)" version="9">
-  <persistence version="8" />
-  <language namespace="c72da2b9-7cce-4447-8389-f407dc1158b7(jetbrains.mps.lang.structure)" />
-  <devkit namespace="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
-  <import index="jrxw" modelUID="r:9f2bbfbf-f8b7-4b3b-92b1-b6a0e9642c10(org.campagnelab.metar.tables.structure)" version="20" />
-  <import index="tpce" modelUID="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" version="0" implicit="yes" />
-  <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
-  <import index="izt2" modelUID="r:b5f8abba-ade6-48ed-8b03-df617183a3f0(org.campagnelab.metar.edgeR.structure)" version="9" implicit="yes" />
-  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="8725455673819557579" nodeInfo="ig">
-    <property name="name" nameId="tpck.1169194664001" value="EdgeRTest" />
-    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="edgeR" />
-    <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="Perform a test of significance with edgeR" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="jrxw.8962032619593737384" resolveInfo="Statement" />
-    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="8725455673819568087" nodeInfo="ig">
-      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
-      <property name="role" nameId="tpce.1071599776563" value="countsTable" />
-      <property name="sourceCardinality" nameId="tpce.1071599893252" value="1" />
-      <link role="target" roleId="tpce.1071599976176" targetNodeId="jrxw.4451133196879828915" resolveInfo="TableRef" />
+<model ref="r:b5f8abba-ade6-48ed-8b03-df617183a3f0(org.campagnelab.metar.edgeR.structure)">
+  <persistence version="9" />
+  <languages>
+    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="-1" />
+    <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
+  </languages>
+  <imports>
+    <import index="jrxw" ref="r:9f2bbfbf-f8b7-4b3b-92b1-b6a0e9642c10(org.campagnelab.metar.tables.structure)" />
+    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
+  </imports>
+  <registry>
+    <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
+      <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
+        <property id="4628067390765907488" name="conceptShortDescription" index="R4oN_" />
+        <property id="4628067390765956807" name="final" index="R5$K2" />
+        <property id="4628067390765956802" name="abstract" index="R5$K7" />
+        <property id="5092175715804935370" name="conceptAlias" index="34LRSv" />
+        <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
+      </concept>
+      <concept id="1169127622168" name="jetbrains.mps.lang.structure.structure.InterfaceConceptReference" flags="ig" index="PrWs8">
+        <reference id="1169127628841" name="intfc" index="PrY4T" />
+      </concept>
+      <concept id="1071489090640" name="jetbrains.mps.lang.structure.structure.ConceptDeclaration" flags="ig" index="1TIwiD">
+        <reference id="1071489389519" name="extends" index="1TJDcQ" />
+        <child id="1169129564478" name="implements" index="PzmwI" />
+      </concept>
+      <concept id="1071489288298" name="jetbrains.mps.lang.structure.structure.LinkDeclaration" flags="ig" index="1TJgyj">
+        <property id="1071599776563" name="role" index="20kJfa" />
+        <property id="1071599893252" name="sourceCardinality" index="20lbJX" />
+        <property id="1071599937831" name="metaClass" index="20lmBu" />
+        <reference id="1071599976176" name="target" index="20lvS9" />
+      </concept>
+    </language>
+    <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
+      <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
+        <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
+      </concept>
+      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
+        <property id="1169194664001" name="name" index="TrG5h" />
+      </concept>
+    </language>
+  </registry>
+  <node concept="1TIwiD" id="7$n2ViPrAVb">
+    <property role="TrG5h" value="EdgeRTest" />
+    <property role="34LRSv" value="edgeR" />
+    <property role="R4oN_" value="Perform a test of significance with edgeR" />
+    <ref role="1TJDcQ" to="jrxw:7LvyiX4miiC" resolve="Statement" />
+    <node concept="1TJgyj" id="7$n2ViPrDvn" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="countsTable" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" to="jrxw:3R5AwWRY9uN" resolve="TableRef" />
     </node>
-    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="8725455673819577716" nodeInfo="ig">
-      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
-      <property name="role" nameId="tpce.1071599776563" value="modelFormula" />
-      <property name="sourceCardinality" nameId="tpce.1071599893252" value="1" />
-      <link role="target" roleId="tpce.1071599976176" targetNodeId="8725455673819916854" resolveInfo="GroupFormula" />
+    <node concept="1TJgyj" id="7$n2ViPrFPO" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="modelFormula" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="7$n2ViPsYCQ" resolve="GroupFormula" />
     </node>
-    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="8725455673820913704" nodeInfo="ig">
-      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
-      <property name="role" nameId="tpce.1071599776563" value="contrasts" />
-      <property name="sourceCardinality" nameId="tpce.1071599893252" value="1" />
-      <link role="target" roleId="tpce.1071599976176" targetNodeId="8043901499795598502" resolveInfo="GroupExpression" />
+    <node concept="1TJgyj" id="7$n2ViPwM0C" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="contrasts" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="6YxFsIJz6MA" resolve="GroupExpression" />
     </node>
-    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="8725455673819577719" nodeInfo="ig">
-      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
-      <property name="role" nameId="tpce.1071599776563" value="destinationTable" />
-      <property name="sourceCardinality" nameId="tpce.1071599893252" value="1" />
-      <link role="target" roleId="tpce.1071599976176" targetNodeId="jrxw.3402264987259919045" resolveInfo="FutureTable" />
+    <node concept="1TJgyj" id="7$n2ViPrFPR" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="destinationTable" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" to="jrxw:2WRhvFto5F5" resolve="FutureTable" />
     </node>
-    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="8725455673820830442" nodeInfo="ig">
-      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
-      <property name="role" nameId="tpce.1071599776563" value="dispersionMethod" />
-      <property name="sourceCardinality" nameId="tpce.1071599893252" value="1" />
-      <link role="target" roleId="tpce.1071599976176" targetNodeId="8725455673820802671" resolveInfo="DispersionMethod" />
+    <node concept="1TJgyj" id="7$n2ViPwtFE" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="dispersionMethod" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="7$n2ViPwmTJ" resolve="DispersionMethod" />
     </node>
-    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="5365057051047580957" nodeInfo="ig">
-      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="jrxw.6106414325997850090" resolveInfo="FutureTableCreator" />
+    <node concept="PrWs8" id="4DOwJpJplkt" role="PzmwI">
+      <ref role="PrY4T" to="jrxw:5iYlRBKtkRE" resolve="FutureTableCreator" />
     </node>
-  </root>
-  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="8725455673819916854" nodeInfo="ig">
-    <property name="name" nameId="tpck.1169194664001" value="GroupFormula" />
-    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="~" />
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="formula" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
-    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="8725455673819916858" nodeInfo="ig">
-      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
-      <property name="role" nameId="tpce.1071599776563" value="groupExpression" />
-      <property name="sourceCardinality" nameId="tpce.1071599893252" value="1" />
-      <link role="target" roleId="tpce.1071599976176" targetNodeId="8725455673819917020" resolveInfo="GroupUsageExpression" />
+  </node>
+  <node concept="1TIwiD" id="7$n2ViPsYCQ">
+    <property role="TrG5h" value="GroupFormula" />
+    <property role="34LRSv" value="~" />
+    <property role="3GE5qa" value="formula" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="7$n2ViPsYCU" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="groupExpression" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="7$n2ViPsYFs" resolve="GroupUsageExpression" />
     </node>
-  </root>
-  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="8725455673819916855" nodeInfo="ig">
-    <property name="name" nameId="tpck.1169194664001" value="GroupUsageRef" />
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="formula" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="8725455673819917020" resolveInfo="GroupUsageExpression" />
-    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="8725455673819916856" nodeInfo="ig">
-      <property name="metaClass" nameId="tpce.1071599937831" value="reference" />
-      <property name="sourceCardinality" nameId="tpce.1071599893252" value="1" />
-      <property name="role" nameId="tpce.1071599776563" value="groupUsage" />
-      <link role="target" roleId="tpce.1071599976176" targetNodeId="jrxw.8016431400517087678" resolveInfo="UsageType" />
+  </node>
+  <node concept="1TIwiD" id="7$n2ViPsYCR">
+    <property role="TrG5h" value="GroupUsageRef" />
+    <property role="3GE5qa" value="formula" />
+    <ref role="1TJDcQ" node="7$n2ViPsYFs" resolve="GroupUsageExpression" />
+    <node concept="1TJgyj" id="7$n2ViPsYCS" role="1TKVEi">
+      <property role="20lmBu" value="reference" />
+      <property role="20lbJX" value="1" />
+      <property role="20kJfa" value="groupUsage" />
+      <ref role="20lvS9" to="jrxw:6X05uba6V6Y" resolve="UsageType" />
     </node>
-  </root>
-  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="8725455673819917020" nodeInfo="ig">
-    <property name="name" nameId="tpck.1169194664001" value="GroupUsageExpression" />
-    <property name="abstract" nameId="tpce.4628067390765956802" value="true" />
-    <property name="final" nameId="tpce.4628067390765956807" value="false" />
-    <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="Linear equation where variables are group usage/R factors." />
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="formula" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
-  </root>
-  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="8725455673819917021" nodeInfo="ig">
-    <property name="name" nameId="tpck.1169194664001" value="Plus" />
-    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="+" />
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="formula" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="8725455673820336285" resolveInfo="BinaryExpression" />
-  </root>
-  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="8725455673819917027" nodeInfo="ig">
-    <property name="name" nameId="tpck.1169194664001" value="Times" />
-    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="*" />
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="formula" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="8725455673820336285" resolveInfo="BinaryExpression" />
-  </root>
-  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="8725455673820336285" nodeInfo="ig">
-    <property name="name" nameId="tpck.1169194664001" value="BinaryExpression" />
-    <property name="abstract" nameId="tpce.4628067390765956802" value="true" />
-    <property name="final" nameId="tpce.4628067390765956807" value="false" />
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="formula" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="8725455673819917020" resolveInfo="GroupUsageExpression" />
-    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="8725455673820336292" nodeInfo="ig">
-      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
-      <property name="role" nameId="tpce.1071599776563" value="left" />
-      <property name="sourceCardinality" nameId="tpce.1071599893252" value="1" />
-      <link role="target" roleId="tpce.1071599976176" targetNodeId="8725455673819917020" resolveInfo="GroupUsageExpression" />
+  </node>
+  <node concept="1TIwiD" id="7$n2ViPsYFs">
+    <property role="TrG5h" value="GroupUsageExpression" />
+    <property role="R5$K7" value="true" />
+    <property role="R5$K2" value="false" />
+    <property role="R4oN_" value="Linear equation where variables are group usage/R factors." />
+    <property role="3GE5qa" value="formula" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+  </node>
+  <node concept="1TIwiD" id="7$n2ViPsYFt">
+    <property role="TrG5h" value="Plus" />
+    <property role="34LRSv" value="+" />
+    <property role="3GE5qa" value="formula" />
+    <ref role="1TJDcQ" node="7$n2ViPu_2t" resolve="BinaryExpression" />
+  </node>
+  <node concept="1TIwiD" id="7$n2ViPsYFz">
+    <property role="TrG5h" value="Times" />
+    <property role="34LRSv" value="*" />
+    <property role="3GE5qa" value="formula" />
+    <ref role="1TJDcQ" node="7$n2ViPu_2t" resolve="BinaryExpression" />
+  </node>
+  <node concept="1TIwiD" id="7$n2ViPu_2t">
+    <property role="TrG5h" value="BinaryExpression" />
+    <property role="R5$K7" value="true" />
+    <property role="R5$K2" value="false" />
+    <property role="3GE5qa" value="formula" />
+    <ref role="1TJDcQ" node="7$n2ViPsYFs" resolve="GroupUsageExpression" />
+    <node concept="1TJgyj" id="7$n2ViPu_2$" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="left" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="7$n2ViPsYFs" resolve="GroupUsageExpression" />
     </node>
-    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="8725455673820336294" nodeInfo="ig">
-      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
-      <property name="role" nameId="tpce.1071599776563" value="right" />
-      <property name="sourceCardinality" nameId="tpce.1071599893252" value="1" />
-      <link role="target" roleId="tpce.1071599976176" targetNodeId="8725455673819917020" resolveInfo="GroupUsageExpression" />
+    <node concept="1TJgyj" id="7$n2ViPu_2A" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="right" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="7$n2ViPsYFs" resolve="GroupUsageExpression" />
     </node>
-  </root>
-  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="8725455673820460190" nodeInfo="ig">
-    <property name="name" nameId="tpck.1169194664001" value="NoIntercept" />
-    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="no intercept" />
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="formula" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="8725455673819917020" resolveInfo="GroupUsageExpression" />
-  </root>
-  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="8725455673820802671" nodeInfo="ig">
-    <property name="name" nameId="tpck.1169194664001" value="DispersionMethod" />
-    <property name="abstract" nameId="tpce.4628067390765956802" value="true" />
-    <property name="final" nameId="tpce.4628067390765956807" value="false" />
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="dispersions" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
-  </root>
-  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="8725455673820802803" nodeInfo="ig">
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="dispersions" />
-    <property name="name" nameId="tpck.1169194664001" value="TrendedDispersion" />
-    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="trended dispersion" />
-    <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="Estimate dispersion with possible abundance trend" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="8725455673820802671" resolveInfo="DispersionMethod" />
-  </root>
-  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="8725455673820802853" nodeInfo="ig">
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="dispersions" />
-    <property name="name" nameId="tpck.1169194664001" value="TagWiseDispersion" />
-    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="tagwise dispersion" />
-    <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="Tagwise (gene-level) dispersion estimation" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="8725455673820802671" resolveInfo="DispersionMethod" />
-  </root>
-  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="8725455673820862642" nodeInfo="ig">
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="dispersions" />
-    <property name="name" nameId="tpck.1169194664001" value="CommonDispersion" />
-    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="common dispersion" />
-    <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="Common (across genes) dispersion estimation" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="8725455673820802671" resolveInfo="DispersionMethod" />
-  </root>
-  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="8725455673820948380" nodeInfo="ig">
-    <property name="name" nameId="tpck.1169194664001" value="Minus" />
-    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="-" />
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="formula" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="8725455673820336285" resolveInfo="BinaryExpression" />
-  </root>
-  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="8043901499795598502" nodeInfo="ig">
-    <property name="name" nameId="tpck.1169194664001" value="GroupExpression" />
-    <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="linear equation where variables refer to groups/R factor levels." />
-    <property name="abstract" nameId="tpce.4628067390765956802" value="true" />
-    <property name="final" nameId="tpce.4628067390765956807" value="false" />
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="contrasts" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
-  </root>
-  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="8043901499795600301" nodeInfo="ig">
-    <property name="name" nameId="tpck.1169194664001" value="GroupRef" />
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="contrasts" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="8043901499795598502" resolveInfo="GroupExpression" />
-    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="8043901499795600302" nodeInfo="ig">
-      <property name="metaClass" nameId="tpce.1071599937831" value="reference" />
-      <property name="role" nameId="tpce.1071599776563" value="group" />
-      <property name="sourceCardinality" nameId="tpce.1071599893252" value="1" />
-      <link role="target" roleId="tpce.1071599976176" targetNodeId="jrxw.3402264987265829883" resolveInfo="ColumnGroup" />
+  </node>
+  <node concept="1TIwiD" id="7$n2ViPv3iu">
+    <property role="TrG5h" value="NoIntercept" />
+    <property role="34LRSv" value="no intercept" />
+    <property role="3GE5qa" value="formula" />
+    <ref role="1TJDcQ" node="7$n2ViPsYFs" resolve="GroupUsageExpression" />
+  </node>
+  <node concept="1TIwiD" id="7$n2ViPwmTJ">
+    <property role="TrG5h" value="DispersionMethod" />
+    <property role="R5$K7" value="true" />
+    <property role="R5$K2" value="false" />
+    <property role="3GE5qa" value="dispersions" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+  </node>
+  <node concept="1TIwiD" id="7$n2ViPwmVN">
+    <property role="3GE5qa" value="dispersions" />
+    <property role="TrG5h" value="TrendedDispersion" />
+    <property role="34LRSv" value="trended dispersion" />
+    <property role="R4oN_" value="Estimate dispersion with possible abundance trend" />
+    <ref role="1TJDcQ" node="7$n2ViPwmTJ" resolve="DispersionMethod" />
+  </node>
+  <node concept="1TIwiD" id="7$n2ViPwmW_">
+    <property role="3GE5qa" value="dispersions" />
+    <property role="TrG5h" value="TagWiseDispersion" />
+    <property role="34LRSv" value="tagwise dispersion" />
+    <property role="R4oN_" value="Tagwise (gene-level) dispersion estimation" />
+    <ref role="1TJDcQ" node="7$n2ViPwmTJ" resolve="DispersionMethod" />
+  </node>
+  <node concept="1TIwiD" id="7$n2ViPw_yM">
+    <property role="3GE5qa" value="dispersions" />
+    <property role="TrG5h" value="CommonDispersion" />
+    <property role="34LRSv" value="common dispersion" />
+    <property role="R4oN_" value="Common (across genes) dispersion estimation" />
+    <ref role="1TJDcQ" node="7$n2ViPwmTJ" resolve="DispersionMethod" />
+  </node>
+  <node concept="1TIwiD" id="7$n2ViPwUus">
+    <property role="TrG5h" value="Minus" />
+    <property role="34LRSv" value="-" />
+    <property role="3GE5qa" value="formula" />
+    <ref role="1TJDcQ" node="7$n2ViPu_2t" resolve="BinaryExpression" />
+  </node>
+  <node concept="1TIwiD" id="6YxFsIJz6MA">
+    <property role="TrG5h" value="GroupExpression" />
+    <property role="R4oN_" value="linear equation where variables refer to groups/R factor levels." />
+    <property role="R5$K7" value="true" />
+    <property role="R5$K2" value="false" />
+    <property role="3GE5qa" value="contrasts" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+  </node>
+  <node concept="1TIwiD" id="6YxFsIJz7eH">
+    <property role="TrG5h" value="GroupRef" />
+    <property role="3GE5qa" value="contrasts" />
+    <ref role="1TJDcQ" node="6YxFsIJz6MA" resolve="GroupExpression" />
+    <node concept="1TJgyj" id="6YxFsIJz7eI" role="1TKVEi">
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="group" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" to="jrxw:2WRhvFtICJV" resolve="ColumnGroup" />
     </node>
-  </root>
-  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="8031339867716512485" nodeInfo="ig">
-    <property name="name" nameId="tpck.1169194664001" value="ContrastsBinaryOperator" />
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="contrasts" />
-    <property name="abstract" nameId="tpce.4628067390765956802" value="true" />
-    <property name="final" nameId="tpce.4628067390765956807" value="false" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="8043901499795598502" resolveInfo="GroupExpression" />
-    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="8031339867716512537" nodeInfo="ig">
-      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
-      <property name="role" nameId="tpce.1071599776563" value="left" />
-      <property name="sourceCardinality" nameId="tpce.1071599893252" value="1" />
-      <link role="target" roleId="tpce.1071599976176" targetNodeId="8043901499795598502" resolveInfo="GroupExpression" />
+  </node>
+  <node concept="1TIwiD" id="6XP3gVdFeF_">
+    <property role="TrG5h" value="ContrastsBinaryOperator" />
+    <property role="3GE5qa" value="contrasts" />
+    <property role="R5$K7" value="true" />
+    <property role="R5$K2" value="false" />
+    <ref role="1TJDcQ" node="6YxFsIJz6MA" resolve="GroupExpression" />
+    <node concept="1TJgyj" id="6XP3gVdFeGp" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="left" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="6YxFsIJz6MA" resolve="GroupExpression" />
     </node>
-    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="8031339867716512539" nodeInfo="ig">
-      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
-      <property name="role" nameId="tpce.1071599776563" value="right" />
-      <property name="sourceCardinality" nameId="tpce.1071599893252" value="1" />
-      <link role="target" roleId="tpce.1071599976176" targetNodeId="8043901499795598502" resolveInfo="GroupExpression" />
+    <node concept="1TJgyj" id="6XP3gVdFeGr" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="right" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="6YxFsIJz6MA" resolve="GroupExpression" />
     </node>
-  </root>
-  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="8031339867716518550" nodeInfo="ig">
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="contrasts" />
-    <property name="name" nameId="tpck.1169194664001" value="Mean" />
-    <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="consider the estimate of the average in the groups/factor levels" />
-    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="mean" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="8043901499795598502" resolveInfo="GroupExpression" />
-    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="8031339867716518551" nodeInfo="ig">
-      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
-      <property name="role" nameId="tpce.1071599776563" value="groups" />
-      <property name="sourceCardinality" nameId="tpce.1071599893252" value="1..n" />
-      <link role="target" roleId="tpce.1071599976176" targetNodeId="8043901499795600301" resolveInfo="GroupRef" />
+  </node>
+  <node concept="1TIwiD" id="6XP3gVdFgam">
+    <property role="3GE5qa" value="contrasts" />
+    <property role="TrG5h" value="Mean" />
+    <property role="R4oN_" value="consider the estimate of the average in the groups/factor levels" />
+    <property role="34LRSv" value="mean" />
+    <ref role="1TJDcQ" node="6YxFsIJz6MA" resolve="GroupExpression" />
+    <node concept="1TJgyj" id="6XP3gVdFgan" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="groups" />
+      <property role="20lbJX" value="1..n" />
+      <ref role="20lvS9" node="6YxFsIJz7eH" resolve="GroupRef" />
     </node>
-  </root>
-  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="8031339867716707809" nodeInfo="ig">
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="contrasts" />
-    <property name="name" nameId="tpck.1169194664001" value="ContrastMinus" />
-    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="-" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="8031339867716512485" resolveInfo="ContrastsBinaryOperator" />
-  </root>
+  </node>
+  <node concept="1TIwiD" id="6XP3gVdFYnx">
+    <property role="3GE5qa" value="contrasts" />
+    <property role="TrG5h" value="ContrastMinus" />
+    <property role="34LRSv" value="-" />
+    <ref role="1TJDcQ" node="6XP3gVdFeF_" resolve="ContrastsBinaryOperator" />
+  </node>
 </model>
 
