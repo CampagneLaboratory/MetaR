@@ -42,11 +42,9 @@
         <child id="8031339867716512537" name="left" index="2yQuon" />
       </concept>
       <concept id="8031339867716707809" name="org.campagnelab.metar.edgeR.structure.ContrastMinus" flags="ng" index="2yQIzJ" />
-      <concept id="8043901499795598502" name="org.campagnelab.metar.edgeR.structure.GroupExpression" flags="ng" index="30bs5H" />
       <concept id="8043901499795600301" name="org.campagnelab.metar.edgeR.structure.GroupRef" flags="ng" index="30btTA">
         <reference id="8043901499795600302" name="group" index="30btT_" />
       </concept>
-      <concept id="8725455673819917020" name="org.campagnelab.metar.edgeR.structure.GroupUsageExpression" flags="ng" index="3cpe5C" />
       <concept id="8725455673819917021" name="org.campagnelab.metar.edgeR.structure.Plus" flags="ng" index="3cpe5D" />
       <concept id="8725455673819916854" name="org.campagnelab.metar.edgeR.structure.GroupFormula" flags="ng" index="3cpe62">
         <child id="8725455673819916858" name="groupExpression" index="3cpe6e" />
@@ -66,7 +64,6 @@
         <child id="8725455673820913704" name="contrasts" index="3c_2Is" />
         <child id="8725455673820830442" name="dispersionMethod" index="3c_H5u" />
       </concept>
-      <concept id="8725455673820862642" name="org.campagnelab.metar.edgeR.structure.CommonDispersion" flags="ng" index="3c_lc6" />
       <concept id="8725455673820802853" name="org.campagnelab.metar.edgeR.structure.TagWiseDispersion" flags="ng" index="3c_Aih" />
     </language>
     <language id="5d6bde84-4ce4-4eb5-a37e-25a5edd55129" name="org.campagnelab.metar.tables">
@@ -373,10 +370,17 @@
         <node concept="1FHg$p" id="320volp89oW" role="3wKG7v">
           <property role="ZHjxa" value="0" />
           <property role="ZHjG8" value="1" />
+          <property role="TrG5h" value="out" />
         </node>
-        <node concept="afgQW" id="320volp89oY" role="aeIV8" />
-        <node concept="3MHf5z" id="320volp89p0" role="1lupZY" />
-        <node concept="3MHf5z" id="320volp89p2" role="1lupKo" />
+        <node concept="afgQW" id="2xfYoj8ddxx" role="aeIV8">
+          <ref role="afgo8" node="4DOwJpJxBw5" resolve="GSE59364_DC_all.csv" />
+        </node>
+        <node concept="3MHf5z" id="2xfYoj8ddDa" role="1lupZY">
+          <ref role="3MHf5w" node="1S_LPePHV$7" resolve="A_DC" />
+        </node>
+        <node concept="3MHf5z" id="2xfYoj8ddDk" role="1lupKo">
+          <ref role="3MHf5w" node="1S_LPePHV$f" resolve="B_DC" />
+        </node>
       </node>
       <node concept="2p5owa" id="32mm9417oGN" role="ZXjPg">
         <property role="S1EQ6" value="WPXHFLINHY" />
@@ -429,55 +433,6 @@
         <node concept="Ss6Tf" id="2od$re17WO1" role="Ss6Td" />
         <node concept="2jXUOv" id="2od$re17WNB" role="2jX3UN">
           <property role="2jXUS1" value="heatmap.pdf" />
-        </node>
-      </node>
-      <node concept="3cumlZ" id="6_qI_yVEhvh" role="ZXjPg">
-        <property role="S1EQ6" value="PXICEEYCVO" />
-        <property role="8NYsT" value="false" />
-        <node concept="3MlLWZ" id="6_qI_yVEhvj" role="3curr3">
-          <property role="TrG5h" value="Results" />
-          <ref role="3MlLW5" node="6_qI_yVEhvk" resolve="Results" />
-          <node concept="3Mpm39" id="6_qI_yVEhvk" role="3WeD9t">
-            <property role="31Cu5t" value="&#9;" />
-            <property role="TrG5h" value="Results" />
-            <node concept="31JHg8" id="6_qI_yVEhvZ" role="31JHgj">
-              <property role="TrG5h" value="logFC" />
-              <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
-            </node>
-            <node concept="31JHg8" id="6_qI_yVEhw0" role="31JHgj">
-              <property role="TrG5h" value="logCPM" />
-              <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
-            </node>
-            <node concept="31JHg8" id="6_qI_yVEhw1" role="31JHgj">
-              <property role="TrG5h" value="PValue" />
-              <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
-            </node>
-            <node concept="31JHg8" id="6_qI_yVEhw2" role="31JHgj">
-              <property role="TrG5h" value="FDR" />
-              <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
-            </node>
-            <node concept="31JHg8" id="6_qI_yVEhw3" role="31JHgj">
-              <property role="TrG5h" value="genes" />
-              <ref role="1YeEjl" to="9nc5:1ID5TXdv_9L" resolve="String" />
-              <node concept="3MzsTm" id="6_qI_yVEhw4" role="lGtFl">
-                <node concept="3MzsBX" id="6_qI_yVEhw5" role="3MztjM">
-                  <ref role="3MzsBM" node="4DOwJpJxC5G" resolve="ID" />
-                </node>
-              </node>
-            </node>
-            <node concept="31JHg8" id="6_qI_yVEhw6" role="31JHgj">
-              <property role="TrG5h" value="LR" />
-              <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
-            </node>
-          </node>
-        </node>
-        <node concept="3cpe62" id="6_qI_yVEhvl" role="3curr0">
-          <node concept="3cpe5C" id="6_qI_yVEi0$" role="3cpe6e" />
-        </node>
-        <node concept="3c_lc6" id="6_qI_yVEhvn" role="3c_H5u" />
-        <node concept="30bs5H" id="6_qI_yVEhvo" role="3c_2Is" />
-        <node concept="afgQW" id="6_qI_yVEhvW" role="3cupLz">
-          <ref role="afgo8" node="4DOwJpJxBw5" resolve="GSE59364_DC_all.csv" />
         </node>
       </node>
     </node>
@@ -1721,9 +1676,9 @@
   </node>
   <node concept="2YPoW8" id="2od$re078$e">
     <property role="TrG5h" value="StyleWithGrey" />
-    <node concept="24aBtg" id="2od$re078$f" role="2YPqp2">
-      <property role="TrG5h" value="TestPalette" />
-      <ref role="24aBtv" node="320volp6hTO" resolve="TestPalette" />
+    <node concept="24aBtg" id="2xfYoj8KMGC" role="2YPqp2">
+      <property role="TrG5h" value="Palette" />
+      <ref role="24aBtv" node="320volp6kkI" resolve="Palette" />
     </node>
   </node>
   <node concept="2YPoW8" id="2od$re2jSwC">
@@ -1759,8 +1714,10 @@
     </node>
   </node>
   <node concept="24tCWO" id="320volp6kkI">
+    <property role="TrG5h" value="Palette" />
     <node concept="1VdfCG" id="320volp88A3" role="24tCWN">
       <property role="TrG5h" value="Color" />
+      <ref role="24hxRv" to="wiqx:1xsIq4y9LV" resolve="aliceblue" />
     </node>
     <node concept="1VdfCG" id="320volp88A1" role="24tCWN">
       <property role="TrG5h" value="Color" />
