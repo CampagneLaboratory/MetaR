@@ -64,6 +64,7 @@
       <concept id="1068498886292" name="jetbrains.mps.baseLanguage.structure.ParameterDeclaration" flags="ir" index="37vLTG" />
       <concept id="1068498886294" name="jetbrains.mps.baseLanguage.structure.AssignmentExpression" flags="nn" index="37vLTI" />
       <concept id="1225271177708" name="jetbrains.mps.baseLanguage.structure.StringType" flags="in" index="17QB3L" />
+      <concept id="1225271369338" name="jetbrains.mps.baseLanguage.structure.IsEmptyOperation" flags="nn" index="17RlXB" />
       <concept id="4972933694980447171" name="jetbrains.mps.baseLanguage.structure.BaseVariableDeclaration" flags="ng" index="19Szcq">
         <child id="5680397130376446158" name="type" index="1tU5fm" />
       </concept>
@@ -148,6 +149,21 @@
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
       <node concept="3clFbS" id="ESqoaSHTN6" role="3clF47">
+        <node concept="3clFbJ" id="2xfYoj8dz6t" role="3cqZAp">
+          <node concept="3clFbS" id="2xfYoj8dz6v" role="3clFbx">
+            <node concept="3cpWs6" id="2xfYoj8d$$Z" role="3cqZAp">
+              <node concept="37vLTw" id="2xfYoj8d$IA" role="3cqZAk">
+                <ref role="3cqZAo" node="ESqoaSHVcz" resolve="inputName" />
+              </node>
+            </node>
+          </node>
+          <node concept="2OqwBi" id="2xfYoj8dzL5" role="3clFbw">
+            <node concept="37vLTw" id="2xfYoj8dzh7" role="2Oq$k0">
+              <ref role="3cqZAo" node="ESqoaSHVcz" resolve="inputName" />
+            </node>
+            <node concept="17RlXB" id="2xfYoj8d$$f" role="2OqNvi" />
+          </node>
+        </node>
         <node concept="3cpWs8" id="6Yz6aoc8BsQ" role="3cqZAp">
           <node concept="3cpWsn" id="6Yz6aoc8BsT" role="3cpWs9">
             <property role="TrG5h" value="s" />
