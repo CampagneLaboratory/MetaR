@@ -574,36 +574,9 @@
     </node>
     <node concept="3aamgX" id="2WRhvFtNRMi" role="3acgRq">
       <ref role="30HIoZ" to="jrxw:7LvyiX4miix" resolve="EmptyLine" />
-      <node concept="gft3U" id="2WRhvFtNRMm" role="1lVwrX">
-        <node concept="1gZcZf" id="2WRhvFtNRNt" role="gfFT$">
-          <property role="1gZaPE" value="" />
-          <node concept="3_3kQU" id="2WRhvFtNRNA" role="3_3kQL">
-            <property role="3_3kQV" value=" #empty line  " />
-          </node>
-          <node concept="3_3kQU" id="2WRhvFtNRNw" role="3_3kQL">
-            <property role="3_3kQV" value="" />
-          </node>
-        </node>
-        <node concept="1gZcZf" id="2WRhvFtNROc" role="gfFT$">
-          <property role="1gZaPE" value="" />
-        </node>
-        <node concept="1gZcZf" id="2WRhvFtNRO2" role="gfFT$">
-          <property role="1gZaPE" value="" />
-        </node>
-        <node concept="1gZcZf" id="2WRhvFtNRNT" role="gfFT$">
-          <property role="1gZaPE" value="" />
-        </node>
-        <node concept="1gZcZf" id="2WRhvFtNRNL" role="gfFT$">
-          <property role="1gZaPE" value="" />
-        </node>
-        <node concept="1gZcZf" id="2WRhvFtNRNE" role="gfFT$">
-          <property role="1gZaPE" value="" />
-        </node>
-        <node concept="1gZcZf" id="2WRhvFtNRNo" role="gfFT$">
-          <property role="1gZaPE" value="" />
-        </node>
-        <node concept="1gZcZf" id="2WRhvFtNRNk" role="gfFT$">
-          <property role="1gZaPE" value="" />
+      <node concept="gft3U" id="2xfYoj83zTI" role="1lVwrX">
+        <node concept="3_3kQU" id="2xfYoj83zTS" role="gfFT$">
+          <property role="3_3kQV" value="#empty line" />
         </node>
       </node>
     </node>
