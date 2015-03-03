@@ -76,6 +76,9 @@
       <concept id="1081236700937" name="jetbrains.mps.baseLanguage.structure.StaticMethodCall" flags="nn" index="2YIFZM">
         <reference id="1144433194310" name="classConcept" index="1Pybhc" />
       </concept>
+      <concept id="1070533707846" name="jetbrains.mps.baseLanguage.structure.StaticFieldReference" flags="nn" index="10M0yZ">
+        <reference id="1144433057691" name="classifier" index="1PxDUh" />
+      </concept>
       <concept id="1070534370425" name="jetbrains.mps.baseLanguage.structure.IntegerType" flags="in" index="10Oyi0" />
       <concept id="1070534513062" name="jetbrains.mps.baseLanguage.structure.DoubleType" flags="in" index="10P55v" />
       <concept id="1070534760951" name="jetbrains.mps.baseLanguage.structure.ArrayType" flags="in" index="10Q1$e">
@@ -8077,18 +8080,39 @@
             <property role="3_3kQV" value="libDir &lt;- &quot;" />
           </node>
           <node concept="3_3kQU" id="2aBeJjGkCMV" role="3_3kQL">
-            <property role="3_3kQV" value="home" />
+            <property role="3_3kQV" value="libs_home" />
             <node concept="17Uvod" id="2aBeJjGkCNc" role="lGtFl">
               <property role="2qtEX9" value="text" />
               <property role="P4ACc" value="901f5cf3-dc77-4c1e-bc5a-6382baee28b4/1680136183140337486/1680136183140337487" />
               <node concept="3zFVjK" id="2aBeJjGkCNd" role="3zH0cK">
                 <node concept="3clFbS" id="2aBeJjGkCNe" role="2VODD2">
-                  <node concept="3clFbF" id="2aBeJjGkEh1" role="3cqZAp">
-                    <node concept="2YIFZM" id="2aBeJjGkEI$" role="3clFbG">
-                      <ref role="37wK5l" to="e2lb:~System.getProperty(java.lang.String):java.lang.String" resolve="getProperty" />
-                      <ref role="1Pybhc" to="e2lb:~System" resolve="System" />
-                      <node concept="Xl_RD" id="2aBeJjGkEUs" role="37wK5m">
-                        <property role="Xl_RC" value="user.home" />
+                  <node concept="3clFbF" id="__OZxrfDt6" role="3cqZAp">
+                    <node concept="2OqwBi" id="__OZxrg9EC" role="3clFbG">
+                      <node concept="2ShNRf" id="__OZxrfDt2" role="2Oq$k0">
+                        <node concept="1pGfFk" id="__OZxrg3_Z" role="2ShVmc">
+                          <ref role="37wK5l" to="1mjk:4RSqyaA71W6" resolve="RPath" />
+                          <node concept="3cpWs3" id="__OZxrg8yc" role="37wK5m">
+                            <node concept="Xl_RD" id="__OZxrg95Y" role="3uHU7w">
+                              <property role="Xl_RC" value=".metaRlibs" />
+                            </node>
+                            <node concept="3cpWs3" id="__OZxrg7Ac" role="3uHU7B">
+                              <node concept="2YIFZM" id="2aBeJjGkEI$" role="3uHU7B">
+                                <ref role="1Pybhc" to="e2lb:~System" resolve="System" />
+                                <ref role="37wK5l" to="e2lb:~System.getProperty(java.lang.String):java.lang.String" resolve="getProperty" />
+                                <node concept="Xl_RD" id="2aBeJjGkEUs" role="37wK5m">
+                                  <property role="Xl_RC" value="user.home" />
+                                </node>
+                              </node>
+                              <node concept="10M0yZ" id="__OZxrg7LJ" role="3uHU7w">
+                                <ref role="1PxDUh" to="fxg7:~File" resolve="File" />
+                                <ref role="3cqZAo" to="fxg7:~File.separator" resolve="separator" />
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="liA8E" id="__OZxrgacr" role="2OqNvi">
+                        <ref role="37wK5l" to="1mjk:4RSqyaA7akQ" resolve="toString" />
                       </node>
                     </node>
                   </node>
@@ -8096,9 +8120,10 @@
               </node>
             </node>
           </node>
-          <node concept="3_3kQU" id="2aBeJjGkCMW" role="3_3kQL">
-            <property role="3_3kQV" value="/.metaRlibs&quot;" />
+          <node concept="3_3kQU" id="__OZxruSLn" role="3_3kQL">
+            <property role="3_3kQV" value="&quot;" />
           </node>
+          <node concept="3_3kQU" id="2aBeJjGkCMW" role="3_3kQL" />
         </node>
         <node concept="1gZcZf" id="2aBeJjGkC3O" role="2G3XIn">
           <property role="1gZaPE" value="dir.create(file.path(libDir), showWarnings = FALSE, recursive = TRUE)" />
