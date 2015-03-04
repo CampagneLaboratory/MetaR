@@ -5,6 +5,7 @@
     <use id="28f9e497-3b42-4291-aeba-0a1039153ab1" name="jetbrains.mps.lang.plugin" version="-1" />
     <use id="ef7bf5ac-d06c-4342-b11d-e42104eb9343" name="jetbrains.mps.lang.plugin.standalone" version="-1" />
     <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="-1" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="-1" />
     <use id="f3347d8a-0e79-4f35-8ac9-1574f25c986f" name="jetbrains.mps.execution.commands" version="-1" />
     <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="-1" />
     <use id="760a0a8c-eabb-4521-8bfd-65db761a9ba3" name="jetbrains.mps.baseLanguage.logging" version="-1" />
@@ -25,7 +26,6 @@
     <use id="901f5cf3-dc77-4c1e-bc5a-6382baee28b4" name="org.campagnelab.textoutput" version="-1" />
     <use id="63650c59-16c8-498a-99c8-005c7ee9515d" name="jetbrains.mps.lang.access" version="-1" />
     <use id="86ef8290-12bb-4ca7-947f-093788f263a9" name="jetbrains.mps.lang.project" version="-1" />
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="1" />
   </languages>
   <imports>
     <import index="xk9i" ref="r:49e49752-a85e-4d81-811e-1dc850a8e4cd(jetbrains.mps.execution.lib.ui)" />
@@ -4805,18 +4805,34 @@
     <node concept="2E2X7d" id="4BBWzLLkcLE" role="2E2Kf0">
       <node concept="3clFbS" id="4BBWzLLkcLF" role="2VODD2">
         <node concept="3clFbF" id="4BBWzLLEI6J" role="3cqZAp">
-          <node concept="2OqwBi" id="4BBWzLLxEu0" role="3clFbG">
-            <node concept="2OqwBi" id="4BBWzLLvwjg" role="2Oq$k0">
-              <node concept="1beSmn" id="4BBWzLLvwgm" role="2Oq$k0" />
-              <node concept="2Rf3mk" id="4BBWzLLvwT3" role="2OqNvi">
-                <node concept="3gmYPX" id="4BBWzLLxCeg" role="1xVPHs">
-                  <node concept="3gn64h" id="4BBWzLL$KpR" role="3gmYPZ">
-                    <ref role="3gnhBz" to="jrxw:2WRhvFto5F5" resolve="FutureTable" />
+          <node concept="1Wc70l" id="2vC1WS8JT1i" role="3clFbG">
+            <node concept="2OqwBi" id="4BBWzLLxEu0" role="3uHU7B">
+              <node concept="2OqwBi" id="4BBWzLLvwjg" role="2Oq$k0">
+                <node concept="1beSmn" id="4BBWzLLvwgm" role="2Oq$k0" />
+                <node concept="2Rf3mk" id="4BBWzLLvwT3" role="2OqNvi">
+                  <node concept="3gmYPX" id="4BBWzLLxCeg" role="1xVPHs">
+                    <node concept="3gn64h" id="4BBWzLL$KpR" role="3gmYPZ">
+                      <ref role="3gnhBz" to="jrxw:2WRhvFto5F5" resolve="FutureTable" />
+                    </node>
                   </node>
                 </node>
               </node>
+              <node concept="3GX2aA" id="4BBWzLLxMG_" role="2OqNvi" />
             </node>
-            <node concept="3GX2aA" id="4BBWzLLxMG_" role="2OqNvi" />
+            <node concept="2OqwBi" id="2vC1WS8JTep" role="3uHU7w">
+              <node concept="2OqwBi" id="2vC1WS8JTeq" role="2Oq$k0">
+                <node concept="1beSmn" id="2vC1WS8JTer" role="2Oq$k0" />
+                <node concept="2Xjw5R" id="2vC1WS8JTes" role="2OqNvi">
+                  <node concept="1xMEDy" id="2vC1WS8JTet" role="1xVPHs">
+                    <node concept="chp4Y" id="2vC1WS8JTeu" role="ri$Ld">
+                      <ref role="cht4Q" to="jrxw:7LvyiX4mii$" resolve="Analysis" />
+                    </node>
+                  </node>
+                  <node concept="1xIGOp" id="2vC1WS8JTev" role="1xVPHs" />
+                </node>
+              </node>
+              <node concept="3x8VRR" id="2vC1WS8JTew" role="2OqNvi" />
+            </node>
           </node>
         </node>
       </node>
@@ -4984,17 +5000,33 @@
     <node concept="2E2X7d" id="4BBWzLLHXyL" role="2E2Kf0">
       <node concept="3clFbS" id="4BBWzLLHXyM" role="2VODD2">
         <node concept="3clFbF" id="4BBWzLLI1OE" role="3cqZAp">
-          <node concept="2OqwBi" id="4BBWzLLI4mK" role="3clFbG">
-            <node concept="2OqwBi" id="4BBWzLLI2z7" role="2Oq$k0">
-              <node concept="2OqwBi" id="4BBWzLLI1T7" role="2Oq$k0">
-                <node concept="1beSmn" id="4BBWzLLI1OD" role="2Oq$k0" />
-                <node concept="I4A8Y" id="4BBWzLLI2gd" role="2OqNvi" />
+          <node concept="1Wc70l" id="2vC1WS8IbdN" role="3clFbG">
+            <node concept="2OqwBi" id="2vC1WS8Igmv" role="3uHU7w">
+              <node concept="2OqwBi" id="2vC1WS8IbvO" role="2Oq$k0">
+                <node concept="1beSmn" id="2vC1WS8Ibr4" role="2Oq$k0" />
+                <node concept="2Xjw5R" id="2vC1WS8IeQC" role="2OqNvi">
+                  <node concept="1xMEDy" id="2vC1WS8IeQE" role="1xVPHs">
+                    <node concept="chp4Y" id="2vC1WS8If3D" role="ri$Ld">
+                      <ref role="cht4Q" to="jrxw:7LvyiX4mii$" resolve="Analysis" />
+                    </node>
+                  </node>
+                  <node concept="1xIGOp" id="2vC1WS8J4zK" role="1xVPHs" />
+                </node>
               </node>
-              <node concept="2RRcyG" id="4BBWzLLI2X3" role="2OqNvi">
-                <ref role="2RRcyH" to="jrxw:2WRhvFtICK0" resolve="ColumnGroupContainer" />
-              </node>
+              <node concept="3x8VRR" id="2vC1WS8Ih99" role="2OqNvi" />
             </node>
-            <node concept="3GX2aA" id="4BBWzLLIePy" role="2OqNvi" />
+            <node concept="2OqwBi" id="4BBWzLLI4mK" role="3uHU7B">
+              <node concept="2OqwBi" id="4BBWzLLI2z7" role="2Oq$k0">
+                <node concept="2OqwBi" id="4BBWzLLI1T7" role="2Oq$k0">
+                  <node concept="1beSmn" id="4BBWzLLI1OD" role="2Oq$k0" />
+                  <node concept="I4A8Y" id="4BBWzLLI2gd" role="2OqNvi" />
+                </node>
+                <node concept="2RRcyG" id="4BBWzLLI2X3" role="2OqNvi">
+                  <ref role="2RRcyH" to="jrxw:2WRhvFtICK0" resolve="ColumnGroupContainer" />
+                </node>
+              </node>
+              <node concept="3GX2aA" id="2vC1WS8I7Yj" role="2OqNvi" />
+            </node>
           </node>
         </node>
       </node>
