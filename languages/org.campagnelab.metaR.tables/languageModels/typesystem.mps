@@ -61,6 +61,7 @@
       <concept id="1225271221393" name="jetbrains.mps.baseLanguage.structure.NPENotEqualsExpression" flags="nn" index="17QLQc" />
       <concept id="1225271283259" name="jetbrains.mps.baseLanguage.structure.NPEEqualsExpression" flags="nn" index="17R0WA" />
       <concept id="1225271369338" name="jetbrains.mps.baseLanguage.structure.IsEmptyOperation" flags="nn" index="17RlXB" />
+      <concept id="1225271408483" name="jetbrains.mps.baseLanguage.structure.IsNotEmptyOperation" flags="nn" index="17RvpY" />
       <concept id="4972933694980447171" name="jetbrains.mps.baseLanguage.structure.BaseVariableDeclaration" flags="ng" index="19Szcq">
         <child id="5680397130376446158" name="type" index="1tU5fm" />
       </concept>
@@ -2219,19 +2220,32 @@
             </node>
           </node>
         </node>
-        <node concept="2OqwBi" id="2od$re1ettp" role="3clFbw">
-          <node concept="2OqwBi" id="2od$re1ettq" role="2Oq$k0">
-            <node concept="1YBJjd" id="2od$re1ettr" role="2Oq$k0">
-              <ref role="1YBMHb" node="2od$re1eq2u" resolve="column" />
+        <node concept="1Wc70l" id="2F04SROO4tF" role="3clFbw">
+          <node concept="2OqwBi" id="2F04SROOAw_" role="3uHU7B">
+            <node concept="2OqwBi" id="2F04SROO7Wx" role="2Oq$k0">
+              <node concept="1YBJjd" id="2F04SROO6VZ" role="2Oq$k0">
+                <ref role="1YBMHb" node="2od$re1eq2u" resolve="column" />
+              </node>
+              <node concept="3TrcHB" id="2F04SROOjti" role="2OqNvi">
+                <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+              </node>
             </node>
-            <node concept="3TrcHB" id="2od$re1etts" role="2OqNvi">
-              <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
-            </node>
+            <node concept="17RvpY" id="2F04SROOBm3" role="2OqNvi" />
           </node>
-          <node concept="liA8E" id="2od$re1ettt" role="2OqNvi">
-            <ref role="37wK5l" to="e2lb:~String.matches(java.lang.String):boolean" resolve="matches" />
-            <node concept="Xl_RD" id="2od$re1ettu" role="37wK5m">
-              <property role="Xl_RC" value="^[0-9].*" />
+          <node concept="2OqwBi" id="2od$re1ettp" role="3uHU7w">
+            <node concept="2OqwBi" id="2od$re1ettq" role="2Oq$k0">
+              <node concept="1YBJjd" id="2od$re1ettr" role="2Oq$k0">
+                <ref role="1YBMHb" node="2od$re1eq2u" resolve="column" />
+              </node>
+              <node concept="3TrcHB" id="2od$re1etts" role="2OqNvi">
+                <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+              </node>
+            </node>
+            <node concept="liA8E" id="2od$re1ettt" role="2OqNvi">
+              <ref role="37wK5l" to="e2lb:~String.matches(java.lang.String):boolean" resolve="matches" />
+              <node concept="Xl_RD" id="2od$re1ettu" role="37wK5m">
+                <property role="Xl_RC" value="^[0-9].*" />
+              </node>
             </node>
           </node>
         </node>
