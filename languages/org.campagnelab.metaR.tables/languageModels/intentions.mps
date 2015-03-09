@@ -34,6 +34,9 @@
       </concept>
       <concept id="4836112446988635817" name="jetbrains.mps.baseLanguage.structure.UndefinedType" flags="in" index="2jxLKc" />
       <concept id="1202948039474" name="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" flags="nn" index="liA8E" />
+      <concept id="1177326519037" name="jetbrains.mps.baseLanguage.structure.CommentedStatementsBlock" flags="nn" index="u8gfJ">
+        <child id="1177326540772" name="statement" index="u8lrQ" />
+      </concept>
       <concept id="1154032098014" name="jetbrains.mps.baseLanguage.structure.AbstractLoopStatement" flags="nn" index="2LF5Ji">
         <child id="1154032183016" name="body" index="2LFqv$" />
       </concept>
@@ -105,6 +108,12 @@
         <child id="1163668914799" name="condition" index="3K4Cdx" />
         <child id="1163668922816" name="ifTrue" index="3K4E3e" />
         <child id="1163668934364" name="ifFalse" index="3K4GZi" />
+      </concept>
+      <concept id="6329021646629104957" name="jetbrains.mps.baseLanguage.structure.TextCommentPart" flags="nn" index="3SKdUq">
+        <property id="6329021646629104958" name="text" index="3SKdUp" />
+      </concept>
+      <concept id="6329021646629104954" name="jetbrains.mps.baseLanguage.structure.SingleLineComment" flags="nn" index="3SKdUt">
+        <child id="6329021646629175155" name="commentPart" index="3SKWNk" />
       </concept>
     </language>
     <language id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures">
@@ -1135,7 +1144,7 @@
               </node>
             </node>
             <node concept="Xl_RD" id="1QqsNa1SYUh" role="3uHU7B">
-              <property role="Xl_RC" value="Apply Column Groups From Table: " />
+              <property role="Xl_RC" value="Copy Column Groups From Table: " />
             </node>
           </node>
         </node>
@@ -1540,6 +1549,279 @@
                   <property role="TrG5h" value="it" />
                   <node concept="2jxLKc" id="5qhB25DuLSQ" role="1tU5fm" />
                 </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3dkpOd" id="3zjLmdCC6d0">
+    <property role="TrG5h" value="AnnotateTableWith" />
+    <ref role="2ZfgGC" to="jrxw:2WRhvFtkykN" resolve="Table" />
+    <node concept="1jPt1T" id="3zjLmdCC6d1" role="2ZfVej">
+      <node concept="3clFbS" id="3zjLmdCC6d2" role="2VODD2">
+        <node concept="3clFbF" id="3zjLmdCC6d3" role="3cqZAp">
+          <node concept="3cpWs3" id="3zjLmdCC6d4" role="3clFbG">
+            <node concept="2OqwBi" id="3zjLmdCC6d5" role="3uHU7w">
+              <node concept="38Zlrr" id="3zjLmdCC6d6" role="2Oq$k0" />
+              <node concept="3TrcHB" id="3zjLmdCC6d7" role="2OqNvi">
+                <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+              </node>
+            </node>
+            <node concept="Xl_RD" id="3zjLmdCC6d8" role="3uHU7B">
+              <property role="Xl_RC" value="Use Groups From Table: " />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1jPJzP" id="3zjLmdCC6d9" role="2ZfgGD">
+      <node concept="3clFbS" id="3zjLmdCC6da" role="2VODD2">
+        <node concept="3cpWs8" id="3zjLmdD4x6Y" role="3cqZAp">
+          <node concept="3cpWsn" id="3zjLmdD4x6Z" role="3cpWs9">
+            <property role="TrG5h" value="sourceTable" />
+            <node concept="3Tqbb2" id="3zjLmdD4x70" role="1tU5fm">
+              <ref role="ehGHo" to="jrxw:2WRhvFtkykN" resolve="Table" />
+            </node>
+            <node concept="38Zlrr" id="3zjLmdD4x71" role="33vP2m" />
+          </node>
+        </node>
+        <node concept="3clFbH" id="3zjLmdD4wDf" role="3cqZAp" />
+        <node concept="u8gfJ" id="3zjLmdCClDS" role="3cqZAp">
+          <node concept="3cpWs8" id="3zjLmdCC6db" role="u8lrQ">
+            <node concept="3cpWsn" id="3zjLmdCC6dc" role="3cpWs9">
+              <property role="TrG5h" value="sourceTable" />
+              <node concept="3Tqbb2" id="3zjLmdCC6dd" role="1tU5fm">
+                <ref role="ehGHo" to="jrxw:2WRhvFtkykN" resolve="Table" />
+              </node>
+              <node concept="38Zlrr" id="3zjLmdCC6de" role="33vP2m" />
+            </node>
+          </node>
+          <node concept="3clFbF" id="3zjLmdCC6df" role="u8lrQ">
+            <node concept="2OqwBi" id="3zjLmdCC6dg" role="3clFbG">
+              <node concept="2OqwBi" id="3zjLmdCC6dh" role="2Oq$k0">
+                <node concept="2Sf5sV" id="3zjLmdCC6di" role="2Oq$k0" />
+                <node concept="3Tsc0h" id="3zjLmdCC6dj" role="2OqNvi">
+                  <ref role="3TtcxE" to="ztlb:1UijAvvb9DO" />
+                </node>
+              </node>
+              <node concept="2es0OD" id="3zjLmdCC6dk" role="2OqNvi">
+                <node concept="1bVj0M" id="3zjLmdCC6dl" role="23t8la">
+                  <node concept="3clFbS" id="3zjLmdCC6dm" role="1bW5cS">
+                    <node concept="3clFbJ" id="3zjLmdCC6dn" role="3cqZAp">
+                      <node concept="3clFbS" id="3zjLmdCC6do" role="3clFbx">
+                        <node concept="3clFbF" id="3zjLmdCC6dp" role="3cqZAp">
+                          <node concept="37vLTI" id="3zjLmdCC6dq" role="3clFbG">
+                            <node concept="2ShNRf" id="3zjLmdCC6dr" role="37vLTx">
+                              <node concept="3zrR0B" id="3zjLmdCC6ds" role="2ShVmc">
+                                <node concept="3Tqbb2" id="3zjLmdCC6dt" role="3zrR0E">
+                                  <ref role="ehGHo" to="jrxw:2WRhvFtICIG" resolve="ColumnAnnotation" />
+                                </node>
+                              </node>
+                            </node>
+                            <node concept="2OqwBi" id="3zjLmdCC6du" role="37vLTJ">
+                              <node concept="37vLTw" id="3zjLmdCC6dv" role="2Oq$k0">
+                                <ref role="3cqZAo" node="3zjLmdCC6en" resolve="destColumn" />
+                              </node>
+                              <node concept="3CFZ6_" id="3zjLmdCC6dw" role="2OqNvi">
+                                <node concept="3CFYIy" id="3zjLmdCC6dx" role="3CFYIz">
+                                  <ref role="3CFYIx" to="jrxw:2WRhvFtICIG" resolve="ColumnAnnotation" />
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="2OqwBi" id="3zjLmdCC6dy" role="3clFbw">
+                        <node concept="2OqwBi" id="3zjLmdCC6dz" role="2Oq$k0">
+                          <node concept="37vLTw" id="3zjLmdCC6d$" role="2Oq$k0">
+                            <ref role="3cqZAo" node="3zjLmdCC6en" resolve="destColumn" />
+                          </node>
+                          <node concept="3CFZ6_" id="3zjLmdCC6d_" role="2OqNvi">
+                            <node concept="3CFYIy" id="3zjLmdCC6dA" role="3CFYIz">
+                              <ref role="3CFYIx" to="jrxw:2WRhvFtICIG" resolve="ColumnAnnotation" />
+                            </node>
+                          </node>
+                        </node>
+                        <node concept="3w_OXm" id="3zjLmdCC6dB" role="2OqNvi" />
+                      </node>
+                    </node>
+                    <node concept="3clFbH" id="3zjLmdCC6dC" role="3cqZAp" />
+                    <node concept="3cpWs8" id="3zjLmdCC6dD" role="3cqZAp">
+                      <node concept="3cpWsn" id="3zjLmdCC6dE" role="3cpWs9">
+                        <property role="TrG5h" value="sourceGroups" />
+                        <node concept="A3Dl8" id="3zjLmdCC6dF" role="1tU5fm">
+                          <node concept="3Tqbb2" id="3zjLmdCC6dG" role="A3Ik2">
+                            <ref role="ehGHo" to="jrxw:2WRhvFtICK7" resolve="ColumnGroupReference" />
+                          </node>
+                        </node>
+                        <node concept="2OqwBi" id="3zjLmdCC6dH" role="33vP2m">
+                          <node concept="2OqwBi" id="3zjLmdCC6dI" role="2Oq$k0">
+                            <node concept="2OqwBi" id="3zjLmdCC6dJ" role="2Oq$k0">
+                              <node concept="2OqwBi" id="3zjLmdCC6dK" role="2Oq$k0">
+                                <node concept="37vLTw" id="3zjLmdCC6dL" role="2Oq$k0">
+                                  <ref role="3cqZAo" node="3zjLmdCC6dc" resolve="sourceTable" />
+                                </node>
+                                <node concept="3Tsc0h" id="3zjLmdCC6dM" role="2OqNvi">
+                                  <ref role="3TtcxE" to="ztlb:1UijAvvb9DO" />
+                                </node>
+                              </node>
+                              <node concept="1z4cxt" id="3zjLmdCC6dN" role="2OqNvi">
+                                <node concept="1bVj0M" id="3zjLmdCC6dO" role="23t8la">
+                                  <node concept="3clFbS" id="3zjLmdCC6dP" role="1bW5cS">
+                                    <node concept="3clFbF" id="3zjLmdCC6dQ" role="3cqZAp">
+                                      <node concept="17R0WA" id="3zjLmdCC6dR" role="3clFbG">
+                                        <node concept="2OqwBi" id="3zjLmdCC6dS" role="3uHU7w">
+                                          <node concept="37vLTw" id="3zjLmdCC6dT" role="2Oq$k0">
+                                            <ref role="3cqZAo" node="3zjLmdCC6en" resolve="destColumn" />
+                                          </node>
+                                          <node concept="3TrcHB" id="3zjLmdCC6dU" role="2OqNvi">
+                                            <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                                          </node>
+                                        </node>
+                                        <node concept="2OqwBi" id="3zjLmdCC6dV" role="3uHU7B">
+                                          <node concept="37vLTw" id="3zjLmdCC6dW" role="2Oq$k0">
+                                            <ref role="3cqZAo" node="3zjLmdCC6dY" resolve="sourceCol" />
+                                          </node>
+                                          <node concept="3TrcHB" id="3zjLmdCC6dX" role="2OqNvi">
+                                            <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                                          </node>
+                                        </node>
+                                      </node>
+                                    </node>
+                                  </node>
+                                  <node concept="Rh6nW" id="3zjLmdCC6dY" role="1bW2Oz">
+                                    <property role="TrG5h" value="sourceCol" />
+                                    <node concept="2jxLKc" id="3zjLmdCC6dZ" role="1tU5fm" />
+                                  </node>
+                                </node>
+                              </node>
+                            </node>
+                            <node concept="3CFZ6_" id="3zjLmdCC6e0" role="2OqNvi">
+                              <node concept="3CFYIy" id="3zjLmdCC6e1" role="3CFYIz">
+                                <ref role="3CFYIx" to="jrxw:2WRhvFtICIG" resolve="ColumnAnnotation" />
+                              </node>
+                            </node>
+                          </node>
+                          <node concept="3Tsc0h" id="3zjLmdCC6e2" role="2OqNvi">
+                            <ref role="3TtcxE" to="jrxw:2WRhvFtID48" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="3clFbF" id="3zjLmdCC6e3" role="3cqZAp">
+                      <node concept="2OqwBi" id="3zjLmdCC6e4" role="3clFbG">
+                        <node concept="37vLTw" id="3zjLmdCC6e5" role="2Oq$k0">
+                          <ref role="3cqZAo" node="3zjLmdCC6dE" resolve="sourceGroups" />
+                        </node>
+                        <node concept="2es0OD" id="3zjLmdCC6e6" role="2OqNvi">
+                          <node concept="1bVj0M" id="3zjLmdCC6e7" role="23t8la">
+                            <node concept="3clFbS" id="3zjLmdCC6e8" role="1bW5cS">
+                              <node concept="3clFbF" id="3zjLmdCC6e9" role="3cqZAp">
+                                <node concept="2OqwBi" id="3zjLmdCC6ea" role="3clFbG">
+                                  <node concept="2OqwBi" id="3zjLmdCC6eb" role="2Oq$k0">
+                                    <node concept="2OqwBi" id="3zjLmdCC6ec" role="2Oq$k0">
+                                      <node concept="37vLTw" id="3zjLmdCC6ed" role="2Oq$k0">
+                                        <ref role="3cqZAo" node="3zjLmdCC6en" resolve="destColumn" />
+                                      </node>
+                                      <node concept="3CFZ6_" id="3zjLmdCC6ee" role="2OqNvi">
+                                        <node concept="3CFYIy" id="3zjLmdCC6ef" role="3CFYIz">
+                                          <ref role="3CFYIx" to="jrxw:2WRhvFtICIG" resolve="ColumnAnnotation" />
+                                        </node>
+                                      </node>
+                                    </node>
+                                    <node concept="3Tsc0h" id="3zjLmdCC6eg" role="2OqNvi">
+                                      <ref role="3TtcxE" to="jrxw:2WRhvFtID48" />
+                                    </node>
+                                  </node>
+                                  <node concept="TSZUe" id="3zjLmdCC6eh" role="2OqNvi">
+                                    <node concept="2OqwBi" id="3zjLmdCC6ei" role="25WWJ7">
+                                      <node concept="37vLTw" id="3zjLmdCC6ej" role="2Oq$k0">
+                                        <ref role="3cqZAo" node="3zjLmdCC6el" resolve="group" />
+                                      </node>
+                                      <node concept="1$rogu" id="3zjLmdCC6ek" role="2OqNvi" />
+                                    </node>
+                                  </node>
+                                </node>
+                              </node>
+                            </node>
+                            <node concept="Rh6nW" id="3zjLmdCC6el" role="1bW2Oz">
+                              <property role="TrG5h" value="group" />
+                              <node concept="2jxLKc" id="3zjLmdCC6em" role="1tU5fm" />
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="Rh6nW" id="3zjLmdCC6en" role="1bW2Oz">
+                    <property role="TrG5h" value="destColumn" />
+                    <node concept="2jxLKc" id="3zjLmdCC6eo" role="1tU5fm" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="38BcoT" id="3zjLmdCC6ep" role="3dlsAV">
+      <node concept="3clFbS" id="3zjLmdCC6eq" role="2VODD2">
+        <node concept="3clFbF" id="3zjLmdCCjQu" role="3cqZAp">
+          <node concept="2OqwBi" id="3zjLmdCCjQv" role="3clFbG">
+            <node concept="2OqwBi" id="3zjLmdCCjQw" role="2Oq$k0">
+              <node concept="2OqwBi" id="3zjLmdCCjQx" role="2Oq$k0">
+                <node concept="2OqwBi" id="3zjLmdCCjQy" role="2Oq$k0">
+                  <node concept="2Sf5sV" id="3zjLmdCCjQz" role="2Oq$k0" />
+                  <node concept="I4A8Y" id="3zjLmdCCjQ$" role="2OqNvi" />
+                </node>
+                <node concept="3lApI0" id="3zjLmdCCjQ_" role="2OqNvi">
+                  <ref role="3lApI3" to="jrxw:2WRhvFtkykN" resolve="Table" />
+                </node>
+              </node>
+              <node concept="3zZkjj" id="3zjLmdCCjQA" role="2OqNvi">
+                <node concept="1bVj0M" id="3zjLmdCCjQB" role="23t8la">
+                  <node concept="3clFbS" id="3zjLmdCCjQC" role="1bW5cS">
+                    <node concept="3clFbF" id="3zjLmdCCjQD" role="3cqZAp">
+                      <node concept="2OqwBi" id="3zjLmdCCjQE" role="3clFbG">
+                        <node concept="37vLTw" id="3zjLmdCCjQF" role="2Oq$k0">
+                          <ref role="3cqZAo" node="3zjLmdCCjQH" resolve="it" />
+                        </node>
+                        <node concept="2qgKlT" id="3zjLmdCCjQG" role="2OqNvi">
+                          <ref role="37wK5l" to="v8sa:3zjLmdCAgdY" resolve="isAnnotationTable" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="Rh6nW" id="3zjLmdCCjQH" role="1bW2Oz">
+                    <property role="TrG5h" value="it" />
+                    <node concept="2jxLKc" id="3zjLmdCCjQI" role="1tU5fm" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="ANE8D" id="3zjLmdCCjQJ" role="2OqNvi" />
+          </node>
+        </node>
+      </node>
+      <node concept="3Tqbb2" id="3zjLmdCC6eU" role="3ddBve">
+        <ref role="ehGHo" to="jrxw:2WRhvFtkykN" resolve="Table" />
+      </node>
+    </node>
+    <node concept="2SaL7w" id="3zjLmdCV9_v" role="2ZfVeh">
+      <node concept="3clFbS" id="3zjLmdCV9_w" role="2VODD2">
+        <node concept="3SKdUt" id="3zjLmdCVd10" role="3cqZAp">
+          <node concept="3SKdUq" id="3zjLmdCVdfm" role="3SKWNk">
+            <property role="3SKdUp" value="does not make sense to annotate an annotation table" />
+          </node>
+        </node>
+        <node concept="3clFbF" id="3zjLmdCVbAT" role="3cqZAp">
+          <node concept="3fqX7Q" id="3zjLmdCVbAR" role="3clFbG">
+            <node concept="2OqwBi" id="3zjLmdCVbSk" role="3fr31v">
+              <node concept="2Sf5sV" id="3zjLmdCVbLQ" role="2Oq$k0" />
+              <node concept="2qgKlT" id="3zjLmdCVc$9" role="2OqNvi">
+                <ref role="37wK5l" to="v8sa:3zjLmdCAgdY" resolve="isAnnotationTable" />
               </node>
             </node>
           </node>
