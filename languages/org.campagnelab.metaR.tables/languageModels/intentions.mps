@@ -1570,7 +1570,7 @@
               </node>
             </node>
             <node concept="Xl_RD" id="3zjLmdCC6d8" role="3uHU7B">
-              <property role="Xl_RC" value="Use Groups From Table: " />
+              <property role="Xl_RC" value="Use Column Groups From Table: " />
             </node>
           </node>
         </node>
