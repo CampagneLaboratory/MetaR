@@ -1724,5 +1724,19 @@
       <ref role="24hxRv" to="wiqx:6Rb38OKwyfq" resolve="yellow" />
     </node>
   </node>
+  <node concept="3Mpm39" id="3zjLmdCC02w">
+    <property role="31Cu5t" value="&#9;" />
+    <property role="31JHgl" value="/Users/mas2182/Lab/Projects/MPS/MetaR_3.2/data/tests/AnnotationTableA.cvs" />
+    <property role="TrG5h" value="AnnotationTableA.cvs" />
+    <property role="26T8KA" value="${org.campagnelab.metaR.home}/data/tests/AnnotationTableA.cvs" />
+    <node concept="31JHg8" id="3zjLmdCC0qq" role="31JHgj">
+      <property role="TrG5h" value="SampleID" />
+      <ref role="1YeEjl" to="9nc5:1ID5TXdv_9L" resolve="String" />
+    </node>
+    <node concept="31JHg8" id="3zjLmdCC0qr" role="31JHgj">
+      <property role="TrG5h" value="Groups" />
+      <ref role="1YeEjl" to="9nc5:1ID5TXdv_9L" resolve="String" />
+    </node>
+  </node>
 </model>
 
