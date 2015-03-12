@@ -1836,5 +1836,31 @@
       <ref role="20lvS9" to="ztlb:1UijAvvb9DJ" resolve="Column" />
     </node>
   </node>
+  <node concept="1TIwiD" id="4o5rlvy5kZU">
+    <property role="TrG5h" value="VennDiagram" />
+    <property role="34LRSv" value="venndiagram" />
+    <property role="R4oN_" value="plot a pairwise Venn Diagram" />
+    <ref role="1TJDcQ" node="6WPhx9nlOjT" resolve="PlotBuilderStatement" />
+    <node concept="1TJgyj" id="4o5rlvy5AIV" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="plot" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="7lAbM$uOMoK" resolve="Plot" />
+    </node>
+    <node concept="1TJgyj" id="4o5rlvy5AJG" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="ColumnRefs" />
+      <property role="20lbJX" value="1..n" />
+      <ref role="20lvS9" node="2WRhvFtwVip" resolve="ColumnRef" />
+    </node>
+    <node concept="PrWs8" id="4o5rlvy5rbs" role="PzmwI">
+      <ref role="PrY4T" to="onla:4FCgsrOfk9w" resolve="UseStyle" />
+    </node>
+    <node concept="1TJgyj" id="kv77ypiTtF" role="1TKVEi">
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="style" />
+      <ref role="20lvS9" node="20o901rbdPK" resolve="ColorPlotStyle" />
+    </node>
+  </node>
 </model>
 
