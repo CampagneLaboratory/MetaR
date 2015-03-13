@@ -1862,5 +1862,41 @@
       <ref role="20lvS9" node="20o901rbdPK" resolve="ColorPlotStyle" />
     </node>
   </node>
+  <node concept="1TIwiD" id="kv77ytcCe9">
+    <property role="TrG5h" value="IdsRef" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="kv77ytcCkz" role="1TKVEi">
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="sets" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="3BiNpr5FGHV" resolve="SetOfIds" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="kv77ytcHu7">
+    <property role="TrG5h" value="VennDiagramSet" />
+    <property role="34LRSv" value="venndiagramset" />
+    <property role="R4oN_" value="Venn diagram for user difine gene" />
+    <ref role="1TJDcQ" node="6WPhx9nlOjT" resolve="PlotBuilderStatement" />
+    <node concept="PrWs8" id="kv77ytcHu8" role="PzmwI">
+      <ref role="PrY4T" to="onla:4FCgsrOfk9w" resolve="UseStyle" />
+    </node>
+    <node concept="1TJgyj" id="kv77ytcHua" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="plot" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="7lAbM$uOMoK" resolve="Plot" />
+    </node>
+    <node concept="1TJgyj" id="kv77ytcHuc" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="SetsRefs" />
+      <property role="20lbJX" value="1..n" />
+      <ref role="20lvS9" node="kv77ytcCe9" resolve="IdsRef" />
+    </node>
+    <node concept="1TJgyj" id="kv77ytcH$T" role="1TKVEi">
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="style" />
+      <ref role="20lvS9" node="20o901rbdPK" resolve="ColorPlotStyle" />
+    </node>
+  </node>
 </model>
 
