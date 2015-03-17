@@ -64,6 +64,7 @@
       <concept id="1214307303872" name="jetbrains.mps.lang.plugin.structure.GetComponentBlock" flags="in" index="2UmK3q" />
       <concept id="6547237850567458268" name="jetbrains.mps.lang.plugin.structure.BaseToolDeclaration" flags="ng" index="2XNcJY">
         <property id="6547237850567462620" name="caption" index="2XNbzY" />
+        <property id="6547237850567462701" name="number" index="2XNb$f" />
         <child id="8096638938275469615" name="toolDisposeBlock" index="uR5co" />
         <child id="8096638938275469614" name="toolInitBlock" index="uR5cp" />
         <child id="6547237850567462848" name="methodDeclaration" index="2XNbBy" />
@@ -202,6 +203,7 @@
   <node concept="sEfby" id="7iuWixLLeWv">
     <property role="TrG5h" value="TableViewer" />
     <property role="2XNbzY" value="MetaR Table Viewer" />
+    <property role="2XNb$f" value="9" />
     <node concept="2XrIbr" id="7iuWixLMXZJ" role="2XNbBy">
       <property role="TrG5h" value="showTable" />
       <node concept="3cqZAl" id="7iuWixLMYd8" role="3clF45" />
