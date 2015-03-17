@@ -715,7 +715,7 @@
                   <ref role="3cqZAo" node="7iuWixLQW1D" resolve="Rs2" />
                 </node>
                 <node concept="liA8E" id="7iuWixLQW1W" role="2OqNvi">
-                  <ref role="37wK5l" to="k7g3:~ArrayList.get(int):java.lang.Object" resolve="get" />
+                  <ref role="37wK5l" to="k7g3:~ArrayList.remove(int):java.lang.Object" resolve="remove" />
                   <node concept="3cmrfG" id="7iuWixLQW1X" role="37wK5m">
                     <property role="3cmrfH" value="0" />
                   </node>
