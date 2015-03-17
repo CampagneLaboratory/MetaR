@@ -808,16 +808,18 @@
             </node>
           </node>
         </node>
-        <node concept="3cpWs8" id="7iuWixLQW1z" role="3cqZAp">
-          <node concept="3cpWsn" id="7iuWixLQW1$" role="3cpWs9">
-            <property role="3TUv4t" value="false" />
-            <property role="TrG5h" value="Rd" />
-            <node concept="3uibUv" id="7iuWixLQW1_" role="1tU5fm">
+        <node concept="3cpWs8" id="1xeqmqKNaYg" role="3cqZAp">
+          <node concept="3cpWsn" id="1xeqmqKNaYh" role="3cpWs9">
+            <property role="TrG5h" value="rd" />
+            <node concept="3uibUv" id="1xeqmqKNaYi" role="1tU5fm">
               <ref role="3uigEE" node="veGCmPxVEg" resolve="CSVPanel.CSVFile" />
             </node>
-            <node concept="2ShNRf" id="7iuWixLQW1A" role="33vP2m">
-              <node concept="HV5vD" id="7iuWixLQW1B" role="2ShVmc">
-                <ref role="HV5vE" node="veGCmPxVEg" resolve="CSVPanel.CSVFile" />
+            <node concept="2ShNRf" id="1xeqmqKNcma" role="33vP2m">
+              <node concept="1pGfFk" id="1xeqmqKNgZE" role="2ShVmc">
+                <ref role="37wK5l" node="1xeqmqKMQTV" resolve="CSVPanel.CSVFile" />
+                <node concept="37vLTw" id="1xeqmqKNhi5" role="37wK5m">
+                  <ref role="3cqZAo" node="1xeqmqKMME3" resolve="delimiter" />
+                </node>
               </node>
             </node>
           </node>
@@ -835,8 +837,8 @@
               </node>
             </node>
             <node concept="2OqwBi" id="7iuWixLQW1H" role="33vP2m">
-              <node concept="37vLTw" id="7iuWixLQW1I" role="2Oq$k0">
-                <ref role="3cqZAo" node="7iuWixLQW1$" resolve="Rd" />
+              <node concept="37vLTw" id="1xeqmqKNhTI" role="2Oq$k0">
+                <ref role="3cqZAo" node="1xeqmqKNaYh" resolve="rd" />
               </node>
               <node concept="liA8E" id="7iuWixLQW1J" role="2OqNvi">
                 <ref role="37wK5l" node="veGCmPxVEx" resolve="ReadCSVfile" />
@@ -927,6 +929,10 @@
         <property role="TrG5h" value="dataFile" />
         <node concept="17QB3L" id="5aUFu7SOC5C" role="1tU5fm" />
       </node>
+      <node concept="37vLTG" id="1xeqmqKMME3" role="3clF46">
+        <property role="TrG5h" value="delimiter" />
+        <node concept="17QB3L" id="1xeqmqKMNcT" role="1tU5fm" />
+      </node>
     </node>
     <node concept="2tJIrI" id="veGCmPyiwz" role="jymVt" />
     <node concept="312cEu" id="veGCmPxVEg" role="jymVt">
@@ -949,9 +955,7 @@
           <node concept="1pGfFk" id="veGCmPyN5u" role="2ShVmc">
             <ref role="37wK5l" to="k7g3:~ArrayList.&lt;init&gt;()" resolve="ArrayList" />
             <node concept="10Q1$e" id="veGCmPxVEq" role="1pMfVU">
-              <node concept="3uibUv" id="veGCmPxVEp" role="10Q1$1">
-                <ref role="3uigEE" to="e2lb:~String" resolve="String" />
-              </node>
+              <node concept="17QB3L" id="1xeqmqKMPH7" role="10Q1$1" />
             </node>
           </node>
         </node>
@@ -963,6 +967,34 @@
         <property role="3TUv4t" value="false" />
         <node concept="10Q1$e" id="veGCmPxVEv" role="1tU5fm">
           <node concept="17QB3L" id="veGCmPyQDL" role="10Q1$1" />
+        </node>
+      </node>
+      <node concept="312cEg" id="1xeqmqKN1qy" role="jymVt">
+        <property role="TrG5h" value="delimiter" />
+        <property role="3TUv4t" value="true" />
+        <node concept="17QB3L" id="1xeqmqKN1q_" role="1tU5fm" />
+      </node>
+      <node concept="2tJIrI" id="1xeqmqKMQap" role="jymVt" />
+      <node concept="3clFbW" id="1xeqmqKMQTV" role="jymVt">
+        <node concept="3cqZAl" id="1xeqmqKMQTX" role="3clF45" />
+        <node concept="3clFbS" id="1xeqmqKMQTY" role="3clF47">
+          <node concept="3clFbF" id="1xeqmqKN2dw" role="3cqZAp">
+            <node concept="37vLTI" id="1xeqmqKN44M" role="3clFbG">
+              <node concept="37vLTw" id="1xeqmqKN4kL" role="37vLTx">
+                <ref role="3cqZAo" node="1xeqmqKN05L" resolve="delimiter" />
+              </node>
+              <node concept="2OqwBi" id="1xeqmqKN2ZK" role="37vLTJ">
+                <node concept="Xjq3P" id="1xeqmqKN2dv" role="2Oq$k0" />
+                <node concept="2OwXpG" id="1xeqmqKN3wW" role="2OqNvi">
+                  <ref role="2Oxat5" node="1xeqmqKN1qy" resolve="delimiter" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="37vLTG" id="1xeqmqKN05L" role="3clF46">
+          <property role="TrG5h" value="delimiter" />
+          <node concept="17QB3L" id="1xeqmqKN05K" role="1tU5fm" />
         </node>
       </node>
       <node concept="3clFb_" id="veGCmPxVEx" role="jymVt">
@@ -1068,8 +1100,11 @@
                         </node>
                         <node concept="liA8E" id="veGCmPxVIU" role="2OqNvi">
                           <ref role="37wK5l" to="e2lb:~String.split(java.lang.String):java.lang.String[]" resolve="split" />
-                          <node concept="Xl_RD" id="veGCmPxVES" role="37wK5m">
-                            <property role="Xl_RC" value=",|\\t|;" />
+                          <node concept="2OqwBi" id="1xeqmqKN5Dj" role="37wK5m">
+                            <node concept="Xjq3P" id="1xeqmqKN5_U" role="2Oq$k0" />
+                            <node concept="2OwXpG" id="1xeqmqKN6eC" role="2OqNvi">
+                              <ref role="2Oxat5" node="1xeqmqKN1qy" resolve="delimiter" />
+                            </node>
                           </node>
                         </node>
                       </node>
@@ -1218,6 +1253,9 @@
                   <node concept="37vLTw" id="5aUFu7SOCsH" role="37wK5m">
                     <ref role="3cqZAo" node="5aUFu7SO58q" resolve="path" />
                   </node>
+                  <node concept="37vLTw" id="1xeqmqKNMG7" role="37wK5m">
+                    <ref role="3cqZAo" node="1xeqmqKMHYx" resolve="delimiter" />
+                  </node>
                 </node>
               </node>
             </node>
@@ -1235,6 +1273,10 @@
       <node concept="37vLTG" id="5aUFu7SO58q" role="3clF46">
         <property role="TrG5h" value="path" />
         <node concept="17QB3L" id="5aUFu7SO58p" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="1xeqmqKMHYx" role="3clF46">
+        <property role="TrG5h" value="delimiter" />
+        <node concept="17QB3L" id="1xeqmqKMLZb" role="1tU5fm" />
       </node>
     </node>
     <node concept="2tJIrI" id="veGCmPySSl" role="jymVt" />
