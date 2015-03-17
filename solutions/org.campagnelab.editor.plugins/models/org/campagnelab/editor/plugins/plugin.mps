@@ -375,7 +375,7 @@
   <node concept="sE7Ow" id="7iuWixLMztm">
     <property role="TrG5h" value="ShowTableInTableViewer" />
     <property role="fJN8o" value="true" />
-    <property role="2uzpH1" value="Show Content in MetaR Table Viewer" />
+    <property role="2uzpH1" value="View Content" />
     <node concept="2S4$dB" id="2sgkdoKdfWD" role="1NuT2Z">
       <property role="TrG5h" value="table" />
       <node concept="3Tm6S6" id="2sgkdoKdfWE" role="1B3o_S" />
