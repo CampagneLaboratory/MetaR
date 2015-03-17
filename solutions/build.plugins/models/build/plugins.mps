@@ -437,6 +437,24 @@
           <property role="3LESm3" value="947531d7-77fb-4f96-8144-1d49cfe61277" />
           <property role="2GAjPV" value="false" />
         </node>
+        <node concept="1SiIV0" id="veGCmPbhEO" role="3bR37C">
+          <node concept="3bR9La" id="veGCmPbhEP" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" to="ffeo:7Kfy9QB6KXW" resolve="jetbrains.mps.lang.core" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="veGCmPbhEQ" role="3bR37C">
+          <node concept="3bR9La" id="veGCmPbhER" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" to="9b59:7XxitGzkyrv" resolve="org.campagnelab.mps.XChart" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="veGCmPbhES" role="3bR37C">
+          <node concept="3bR9La" id="veGCmPbhET" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" node="3gMg70bRmfh" resolve="org.campagnelab.metar.tables" />
+          </node>
+        </node>
       </node>
       <node concept="3LEwk6" id="3gMg70bRmfb" role="2G$12L">
         <property role="BnDLt" value="true" />
