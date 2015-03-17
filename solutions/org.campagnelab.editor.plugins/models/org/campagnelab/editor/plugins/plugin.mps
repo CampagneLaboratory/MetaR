@@ -36,6 +36,10 @@
       <concept id="1207145163717" name="jetbrains.mps.lang.plugin.structure.ElementListContents" flags="ng" index="ftmFs">
         <child id="1207145201301" name="reference" index="ftvYc" />
       </concept>
+      <concept id="1207318242772" name="jetbrains.mps.lang.plugin.structure.KeyMapKeystroke" flags="ng" index="pLAjd">
+        <property id="1207318242773" name="modifiers" index="pLAjc" />
+        <property id="1207318242774" name="keycode" index="pLAjf" />
+      </concept>
       <concept id="1203071646776" name="jetbrains.mps.lang.plugin.structure.ActionDeclaration" flags="ng" index="sE7Ow">
         <property id="1207149998849" name="isAlwaysVisible" index="fJN8o" />
         <property id="1205250923097" name="caption" index="2uzpH1" />
@@ -70,6 +74,15 @@
         <child id="6547237850567462848" name="methodDeclaration" index="2XNbBy" />
         <child id="6547237850567462849" name="fieldDeclaration" index="2XNbBz" />
         <child id="6791676465872004185" name="toolIcon" index="1nVCmq" />
+      </concept>
+      <concept id="1562714432501166198" name="jetbrains.mps.lang.plugin.structure.SimpleShortcutChange" flags="lg" index="Zd509">
+        <child id="1562714432501166206" name="keystroke" index="Zd501" />
+      </concept>
+      <concept id="1562714432501166197" name="jetbrains.mps.lang.plugin.structure.KeymapChangesDeclaration" flags="ng" index="Zd50a">
+        <child id="1562714432501166199" name="shortcutChange" index="Zd508" />
+      </concept>
+      <concept id="6193305307616715384" name="jetbrains.mps.lang.plugin.structure.ShortcutChange" flags="lg" index="1bYyw_">
+        <reference id="6193305307616734326" name="action" index="1bYAoF" />
       </concept>
       <concept id="1206092561075" name="jetbrains.mps.lang.plugin.structure.ActionParameterReferenceOperation" flags="nn" index="3gHZIF" />
       <concept id="5538333046911348654" name="jetbrains.mps.lang.plugin.structure.RequiredCondition" flags="ng" index="1oajcY" />
@@ -473,6 +486,16 @@
     <node concept="ftmFs" id="7iuWixLQgAK" role="ftER_">
       <node concept="tCFHf" id="7iuWixLQgAO" role="ftvYc">
         <ref role="tCJdB" node="7iuWixLMztm" resolve="ShowTableInTableViewer" />
+      </node>
+    </node>
+  </node>
+  <node concept="Zd50a" id="1xeqmqKO7KE">
+    <property role="TrG5h" value="OpenTableViewer" />
+    <node concept="Zd509" id="1xeqmqKOe6W" role="Zd508">
+      <ref role="1bYAoF" node="7iuWixLMztm" resolve="ShowTableInTableViewer" />
+      <node concept="pLAjd" id="2sgkdoKspT7" role="Zd501">
+        <property role="pLAjf" value="VK_ESCAPE" />
+        <property role="pLAjc" value="ctrl" />
       </node>
     </node>
   </node>
