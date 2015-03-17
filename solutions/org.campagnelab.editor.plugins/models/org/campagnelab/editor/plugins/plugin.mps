@@ -41,6 +41,7 @@
         <property id="1205250923097" name="caption" index="2uzpH1" />
         <child id="1203083461638" name="executeFunction" index="tncku" />
         <child id="1217413222820" name="parameter" index="1NuT2Z" />
+        <child id="8976425910813834639" name="icon" index="3Uehp1" />
       </concept>
       <concept id="1203071677434" name="jetbrains.mps.lang.plugin.structure.ToolDeclaration" flags="ng" index="sEfby">
         <child id="1214307129846" name="getComponentBlock" index="2Um5zG" />
@@ -452,6 +453,9 @@
           </node>
         </node>
       </node>
+    </node>
+    <node concept="1QGGSu" id="1xeqmqKNVkZ" role="3Uehp1">
+      <property role="1QGGTI" value="${org.campagnelab.metaR.home}/icons/datatypes/table.png" />
     </node>
   </node>
   <node concept="tC5Ba" id="7iuWixLQgwu">
