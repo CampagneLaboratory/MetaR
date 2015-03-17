@@ -2256,96 +2256,12 @@
       <ref role="1YaFvo" to="ztlb:1UijAvvb9DJ" resolve="Column" />
     </node>
   </node>
-  <node concept="18kY7G" id="kv77ypIABN">
-    <property role="TrG5h" value="check_VennDiagram" />
-    <node concept="3clFbS" id="kv77ypIABO" role="18ibNy">
-      <node concept="3SKdUt" id="kv77yqKJU4" role="3cqZAp">
-        <node concept="3SKdUq" id="kv77yqKJV2" role="3SKWNk">
-          <property role="3SKdUp" value="check if the columnRefs children is from a numeric type" />
-        </node>
-      </node>
-      <node concept="2Gpval" id="kv77ypIBtO" role="3cqZAp">
-        <node concept="2GrKxI" id="kv77ypIBtQ" role="2Gsz3X">
-          <property role="TrG5h" value="col" />
-        </node>
-        <node concept="3clFbS" id="kv77ypIBtS" role="2LFqv$">
-          <node concept="3clFbJ" id="kv77ypICSo" role="3cqZAp">
-            <node concept="3clFbS" id="kv77ypICSp" role="3clFbx">
-              <node concept="2MkqsV" id="kv77ypIES5" role="3cqZAp">
-                <node concept="2GrUjf" id="kv77ypILJ0" role="2OEOjV">
-                  <ref role="2Gs0qQ" node="kv77ypIBtQ" resolve="col" />
-                </node>
-                <node concept="3cpWs3" id="kv77ypIGLW" role="2MkJ7o">
-                  <node concept="Xl_RD" id="kv77ypIGZe" role="3uHU7w">
-                    <property role="Xl_RC" value="is not numeric. Only numeric columns can be used to plot." />
-                  </node>
-                  <node concept="3cpWs3" id="kv77ypIFd4" role="3uHU7B">
-                    <node concept="Xl_RD" id="kv77ypIESn" role="3uHU7B">
-                      <property role="Xl_RC" value="Column" />
-                    </node>
-                    <node concept="2OqwBi" id="kv77ypIG0V" role="3uHU7w">
-                      <node concept="2OqwBi" id="kv77ypIFhp" role="2Oq$k0">
-                        <node concept="2GrUjf" id="kv77ypIFdx" role="2Oq$k0">
-                          <ref role="2Gs0qQ" node="kv77ypIBtQ" resolve="col" />
-                        </node>
-                        <node concept="3TrEf2" id="kv77ypIFEj" role="2OqNvi">
-                          <ref role="3Tt5mk" to="jrxw:2WRhvFtwViq" />
-                        </node>
-                      </node>
-                      <node concept="3TrcHB" id="kv77ypIGqh" role="2OqNvi">
-                        <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-            <node concept="3fqX7Q" id="kv77ypICSE" role="3clFbw">
-              <node concept="2OqwBi" id="kv77ypIEap" role="3fr31v">
-                <node concept="2OqwBi" id="kv77ypID$K" role="2Oq$k0">
-                  <node concept="2OqwBi" id="kv77ypICZA" role="2Oq$k0">
-                    <node concept="2GrUjf" id="kv77ypICVf" role="2Oq$k0">
-                      <ref role="2Gs0qQ" node="kv77ypIBtQ" resolve="col" />
-                    </node>
-                    <node concept="3TrEf2" id="kv77ypIDla" role="2OqNvi">
-                      <ref role="3Tt5mk" to="jrxw:2WRhvFtwViq" />
-                    </node>
-                  </node>
-                  <node concept="3TrEf2" id="kv77ypIDUw" role="2OqNvi">
-                    <ref role="3Tt5mk" to="ztlb:2SKvIxg2HCX" />
-                  </node>
-                </node>
-                <node concept="1mIQ4w" id="kv77ypIE$h" role="2OqNvi">
-                  <node concept="chp4Y" id="kv77ypIEEG" role="cj9EA">
-                    <ref role="cht4Q" to="r8sq:14h1S4rRqVm" resolve="ColumnNumericType" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="2OqwBi" id="kv77ypIByC" role="2GsD0m">
-          <node concept="1YBJjd" id="kv77ypIBup" role="2Oq$k0">
-            <ref role="1YBMHb" node="kv77ypIABQ" resolve="vennDiagram" />
-          </node>
-          <node concept="3Tsc0h" id="kv77ypIBZI" role="2OqNvi">
-            <ref role="3TtcxE" to="jrxw:4o5rlvy5AJG" />
-          </node>
-        </node>
-      </node>
-      <node concept="3clFbH" id="kv77ypIB4A" role="3cqZAp" />
-    </node>
-    <node concept="1YaCAy" id="kv77ypIABQ" role="1YuTPh">
-      <property role="TrG5h" value="vennDiagram" />
-      <ref role="1YaFvo" to="jrxw:4o5rlvy5kZU" resolve="VennDiagram" />
-    </node>
-  </node>
   <node concept="18kY7G" id="kv77ytxmq6">
-    <property role="TrG5h" value="check_VennDiagramSet" />
+    <property role="TrG5h" value="check_VennDiagram" />
     <node concept="3clFbS" id="kv77ytxmq7" role="18ibNy" />
     <node concept="1YaCAy" id="kv77ytxmq9" role="1YuTPh">
       <property role="TrG5h" value="vennDiagramSet" />
-      <ref role="1YaFvo" to="jrxw:kv77ytcHu7" resolve="VennDiagramSet" />
+      <ref role="1YaFvo" to="jrxw:kv77ytcHu7" resolve="VennDiagram" />
     </node>
   </node>
 </model>

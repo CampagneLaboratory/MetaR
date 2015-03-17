@@ -4228,51 +4228,24 @@
       </node>
     </node>
   </node>
-  <node concept="24kQdi" id="kv77yptIoy">
-    <ref role="1XX52x" to="jrxw:4o5rlvy5kZU" resolve="VennDiagram" />
-    <node concept="3EZMnI" id="kv77yptJWA" role="2wV5jI">
-      <node concept="3F0ifn" id="kv77yptJWH" role="3EZMnx">
-        <property role="3F0ifm" value="vennDiagram" />
-      </node>
-      <node concept="3F0ifn" id="kv77yptJWR" role="3EZMnx">
-        <property role="3F0ifm" value="with" />
-      </node>
-      <node concept="3F2HdR" id="kv77ypBFs7" role="3EZMnx">
-        <property role="2czwfO" value="," />
-        <ref role="1NtTu8" to="jrxw:4o5rlvy5AJG" />
-        <node concept="l2Vlx" id="kv77yqsfHB" role="2czzBx" />
-      </node>
-      <node concept="3F0ifn" id="kv77yqsfe4" role="3EZMnx">
-        <property role="3F0ifm" value="-&gt;" />
-      </node>
-      <node concept="3F1sOY" id="kv77yptJXA" role="3EZMnx">
-        <ref role="1NtTu8" to="jrxw:4o5rlvy5AIV" />
-      </node>
-      <node concept="PMmxH" id="kv77yptJXT" role="3EZMnx">
-        <ref role="PMmxG" to="h23j:3edJYE6AOF$" resolve="StyleRefComponent" />
-      </node>
-      <node concept="l2Vlx" id="kv77yptJWD" role="2iSdaV" />
-    </node>
-  </node>
   <node concept="24kQdi" id="kv77ytcH_2">
-    <ref role="1XX52x" to="jrxw:kv77ytcHu7" resolve="VennDiagramSet" />
+    <ref role="1XX52x" to="jrxw:kv77ytcHu7" resolve="VennDiagram" />
     <node concept="3EZMnI" id="kv77ytcH_d" role="2wV5jI">
       <node concept="3F0ifn" id="kv77ytcH_f" role="3EZMnx">
         <property role="3F0ifm" value="venndiagramset" />
       </node>
       <node concept="3F0ifn" id="kv77ytcH_n" role="3EZMnx">
-        <property role="3F0ifm" value="with" />
+        <property role="3F0ifm" value="of" />
       </node>
-      <node concept="3F2HdR" id="kv77ytcH_v" role="3EZMnx">
-        <property role="2czwfO" value="," />
+      <node concept="3F2HdR" id="kv77yyk_jv" role="3EZMnx">
         <ref role="1NtTu8" to="jrxw:kv77ytcHuc" />
-        <node concept="l2Vlx" id="kv77yttAY7" role="2czzBx" />
-        <node concept="VPM3Z" id="kv77ytcH_z" role="3F10Kt">
+        <node concept="2iRkQZ" id="kv77yyk_jy" role="2czzBx" />
+        <node concept="VPM3Z" id="kv77yyk_jz" role="3F10Kt">
           <property role="VOm3f" value="false" />
         </node>
       </node>
       <node concept="3F0ifn" id="kv77ytcHA6" role="3EZMnx">
-        <property role="3F0ifm" value="--&gt;" />
+        <property role="3F0ifm" value="-&gt;" />
       </node>
       <node concept="3F1sOY" id="kv77ytcHAn" role="3EZMnx">
         <ref role="1NtTu8" to="jrxw:kv77ytcHua" />
@@ -4284,14 +4257,35 @@
     </node>
   </node>
   <node concept="24kQdi" id="kv77ytqpqh">
-    <ref role="1XX52x" to="jrxw:kv77ytcCe9" resolve="IdsRef" />
-    <node concept="1iCGBv" id="kv77ytqqeN" role="2wV5jI">
-      <ref role="1NtTu8" to="jrxw:kv77ytcCkz" />
-      <node concept="1sVBvm" id="kv77ytqqeO" role="1sWHZn">
-        <node concept="3F0A7n" id="kv77ytqqmw" role="2wV5jI">
-          <property role="1Intyy" value="true" />
-          <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+    <ref role="1XX52x" to="jrxw:kv77ytcCe9" resolve="IdsFromSetOfIds" />
+    <node concept="3EZMnI" id="kv77yyJaxe" role="2wV5jI">
+      <node concept="3F0ifn" id="kv77yyJaxk" role="3EZMnx">
+        <property role="3F0ifm" value="from Set of IDs" />
+      </node>
+      <node concept="1iCGBv" id="kv77yyJaxq" role="3EZMnx">
+        <ref role="1NtTu8" to="jrxw:kv77ytcCkz" />
+        <node concept="1sVBvm" id="kv77yyJaxs" role="1sWHZn">
+          <node concept="3F0A7n" id="kv77yyJax$" role="2wV5jI">
+            <property role="1Intyy" value="true" />
+            <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+          </node>
         </node>
+      </node>
+      <node concept="2iRfu4" id="kv77yyJaxf" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="kv77yyhoaO">
+    <ref role="1XX52x" to="jrxw:kv77yxiEq2" resolve="IdsFrom" />
+    <node concept="3EZMnI" id="kv77yyhoMS" role="2wV5jI">
+      <node concept="l2Vlx" id="kv77yyhoMT" role="2iSdaV" />
+      <node concept="3F0A7n" id="kv77yyhoMW" role="3EZMnx">
+        <ref role="1NtTu8" to="jrxw:kv77yxMjF6" resolve="setname" />
+      </node>
+      <node concept="3F0ifn" id="kv77yyhoNg" role="3EZMnx">
+        <property role="3F0ifm" value="--&gt;" />
+      </node>
+      <node concept="3F1sOY" id="kv77yyhoND" role="3EZMnx">
+        <ref role="1NtTu8" to="jrxw:kv77yy7fku" />
       </node>
     </node>
   </node>
