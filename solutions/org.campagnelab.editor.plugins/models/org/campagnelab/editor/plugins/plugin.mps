@@ -115,7 +115,6 @@
       </concept>
       <concept id="1068498886292" name="jetbrains.mps.baseLanguage.structure.ParameterDeclaration" flags="ir" index="37vLTG" />
       <concept id="1068498886294" name="jetbrains.mps.baseLanguage.structure.AssignmentExpression" flags="nn" index="37vLTI" />
-      <concept id="1225271177708" name="jetbrains.mps.baseLanguage.structure.StringType" flags="in" index="17QB3L" />
       <concept id="4972933694980447171" name="jetbrains.mps.baseLanguage.structure.BaseVariableDeclaration" flags="ng" index="19Szcq">
         <child id="5680397130376446158" name="type" index="1tU5fm" />
       </concept>
@@ -140,6 +139,7 @@
       <concept id="1068580320020" name="jetbrains.mps.baseLanguage.structure.IntegerConstant" flags="nn" index="3cmrfG">
         <property id="1068580320021" name="value" index="3cmrfH" />
       </concept>
+      <concept id="1068581242875" name="jetbrains.mps.baseLanguage.structure.PlusExpression" flags="nn" index="3cpWs3" />
       <concept id="1068581242864" name="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" flags="nn" index="3cpWs8">
         <child id="1068581242865" name="localVariableDeclaration" index="3cpWs9" />
       </concept>
@@ -175,6 +175,12 @@
         <child id="1205770614681" name="actualArgument" index="2XxRq1" />
       </concept>
     </language>
+    <language id="760a0a8c-eabb-4521-8bfd-65db761a9ba3" name="jetbrains.mps.baseLanguage.logging">
+      <concept id="1167227138527" name="jetbrains.mps.baseLanguage.logging.structure.LogStatement" flags="nn" index="34ab3g">
+        <property id="1167245565795" name="severity" index="35gtTG" />
+        <child id="1167227463056" name="logExpression" index="34bqiv" />
+      </concept>
+    </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
       <concept id="1179409122411" name="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" flags="nn" index="2qgKlT" />
       <concept id="1138055754698" name="jetbrains.mps.lang.smodel.structure.SNodeType" flags="in" index="3Tqbb2">
@@ -192,42 +198,61 @@
     <property role="TrG5h" value="TableViewer" />
     <property role="2XNbzY" value="MetaR Table Viewer" />
     <node concept="2XrIbr" id="7iuWixLMXZJ" role="2XNbBy">
-      <property role="TrG5h" value="setTablePath" />
+      <property role="TrG5h" value="showTable" />
       <node concept="3cqZAl" id="7iuWixLMYd8" role="3clF45" />
       <node concept="3clFbS" id="7iuWixLMXZL" role="3clF47">
-        <node concept="3clFbF" id="7iuWixLMYRi" role="3cqZAp">
-          <node concept="37vLTI" id="7iuWixLMZCw" role="3clFbG">
-            <node concept="37vLTw" id="7iuWixLMZFP" role="37vLTx">
-              <ref role="3cqZAo" node="7iuWixLMYip" resolve="path" />
+        <node concept="34ab3g" id="5aUFu7SMYkE" role="3cqZAp">
+          <property role="35gtTG" value="info" />
+          <node concept="3cpWs3" id="5aUFu7SN14h" role="34bqiv">
+            <node concept="2OqwBi" id="5aUFu7SOrZs" role="3uHU7w">
+              <node concept="37vLTw" id="5aUFu7SOrTX" role="2Oq$k0">
+                <ref role="3cqZAo" node="7iuWixLMYip" resolve="table" />
+              </node>
+              <node concept="2qgKlT" id="5aUFu7SOsEz" role="2OqNvi">
+                <ref role="37wK5l" to="v8sa:w5znaeJk_2" resolve="resolvePath" />
+              </node>
             </node>
-            <node concept="2OqwBi" id="7iuWixLMYSi" role="37vLTJ">
-              <node concept="2WthIp" id="7iuWixLMYRh" role="2Oq$k0" />
-              <node concept="2BZ7hE" id="7iuWixLMZte" role="2OqNvi">
-                <ref role="2WH_rO" node="7iuWixLMYiP" resolve="path" />
+            <node concept="Xl_RD" id="5aUFu7SMYkG" role="3uHU7B">
+              <property role="Xl_RC" value="Reloading table viewer with " />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="5aUFu7SO1s9" role="3cqZAp">
+          <node concept="2OqwBi" id="5aUFu7SOt3V" role="3clFbG">
+            <node concept="2OqwBi" id="5aUFu7SO1sP" role="2Oq$k0">
+              <node concept="2WthIp" id="5aUFu7SO1s8" role="2Oq$k0" />
+              <node concept="2BZ7hE" id="5aUFu7SO21q" role="2OqNvi">
+                <ref role="2WH_rO" node="7iuWixLLfuH" resolve="csvPanel" />
+              </node>
+            </node>
+            <node concept="liA8E" id="5aUFu7SOyYC" role="2OqNvi">
+              <ref role="37wK5l" to="zmoq:7iuWixLQUNb" resolve="load" />
+              <node concept="2OqwBi" id="5aUFu7SODIq" role="37wK5m">
+                <node concept="37vLTw" id="5aUFu7SODEy" role="2Oq$k0">
+                  <ref role="3cqZAo" node="7iuWixLMYip" resolve="table" />
+                </node>
+                <node concept="2qgKlT" id="5aUFu7SOEUx" role="2OqNvi">
+                  <ref role="37wK5l" to="v8sa:w5znaeJk_2" resolve="resolvePath" />
+                </node>
               </node>
             </node>
           </node>
         </node>
       </node>
       <node concept="37vLTG" id="7iuWixLMYip" role="3clF46">
-        <property role="TrG5h" value="path" />
-        <node concept="17QB3L" id="7iuWixLMYio" role="1tU5fm" />
+        <property role="TrG5h" value="table" />
+        <node concept="3Tqbb2" id="5aUFu7SNTIH" role="1tU5fm">
+          <ref role="ehGHo" to="jrxw:2WRhvFtkykN" resolve="Table" />
+        </node>
       </node>
     </node>
     <node concept="2UmK3q" id="7iuWixLLeWw" role="2Um5zG">
       <node concept="3clFbS" id="7iuWixLLeWx" role="2VODD2">
-        <node concept="3clFbF" id="7iuWixLSD17" role="3cqZAp">
-          <node concept="2YIFZM" id="7iuWixLSD19" role="3clFbG">
-            <ref role="37wK5l" to="zmoq:veGCmPxVFj" resolve="create" />
-            <ref role="1Pybhc" to="zmoq:veGCmPyRo2" resolve="CSVPanelGenerator" />
-            <node concept="Xl_RD" id="7iuWixLSD1a" role="37wK5m">
-              <property role="Xl_RC" value="/Users/mas2182/Lab/Projects/MPS/MetaR_3.2/data/tests/AnnotationTableA.cvs" />
-            </node>
-            <node concept="3cmrfG" id="7iuWixLSD1b" role="37wK5m">
-              <property role="3cmrfH" value="300" />
-            </node>
-            <node concept="3cmrfG" id="7iuWixLSD1c" role="37wK5m">
-              <property role="3cmrfH" value="300" />
+        <node concept="3clFbF" id="5aUFu7SNNJA" role="3cqZAp">
+          <node concept="2OqwBi" id="5aUFu7SNNS9" role="3clFbG">
+            <node concept="2WthIp" id="5aUFu7SNNJ$" role="2Oq$k0" />
+            <node concept="2BZ7hE" id="5aUFu7SNOCQ" role="2OqNvi">
+              <ref role="2WH_rO" node="7iuWixLLfuH" resolve="csvPanel" />
             </node>
           </node>
         </node>
@@ -238,14 +263,6 @@
       <node concept="3Tm6S6" id="7iuWixLLfuI" role="1B3o_S" />
       <node concept="3uibUv" id="7iuWixLSn7O" role="1tU5fm">
         <ref role="3uigEE" to="zmoq:veGCmPxe4V" resolve="CSVPanel" />
-      </node>
-    </node>
-    <node concept="2BZ0e9" id="7iuWixLMYiP" role="2XNbBz">
-      <property role="TrG5h" value="path" />
-      <node concept="3Tm6S6" id="7iuWixLMYiQ" role="1B3o_S" />
-      <node concept="17QB3L" id="7iuWixLMYwm" role="1tU5fm" />
-      <node concept="Xl_RD" id="7iuWixLRkcr" role="33vP2m">
-        <property role="Xl_RC" value="/Users/mas2182/Lab/Projects/MPS/MetaR_3.2/data/tests/AnnotationTableA.cvs" />
       </node>
     </node>
     <node concept="1QGGSu" id="7iuWixLM6t_" role="1nVCmq">
@@ -330,27 +347,24 @@
         </node>
       </node>
     </node>
-    <node concept="2xpIHi" id="7iuWixLSdUi" role="uR5cp">
-      <node concept="3clFbS" id="7iuWixLSdUj" role="2VODD2">
-        <node concept="3clFbF" id="7iuWixLSe9R" role="3cqZAp">
-          <node concept="37vLTI" id="7iuWixLSfaz" role="3clFbG">
-            <node concept="2OqwBi" id="7iuWixLSea_" role="37vLTJ">
-              <node concept="2WthIp" id="7iuWixLSe9Q" role="2Oq$k0" />
-              <node concept="2BZ7hE" id="7iuWixLSevn" role="2OqNvi">
-                <ref role="2WH_rO" node="7iuWixLLfuH" resolve="csvPanel" />
-              </node>
-            </node>
-            <node concept="2YIFZM" id="7iuWixLQqrB" role="37vLTx">
+    <node concept="2xpIHi" id="5aUFu7SNOYF" role="uR5cp">
+      <node concept="3clFbS" id="5aUFu7SNOYG" role="2VODD2">
+        <node concept="3clFbF" id="5aUFu7SNPov" role="3cqZAp">
+          <node concept="37vLTI" id="5aUFu7SNQIB" role="3clFbG">
+            <node concept="2YIFZM" id="5aUFu7SNQTP" role="37vLTx">
               <ref role="37wK5l" to="zmoq:veGCmPxVFj" resolve="create" />
               <ref role="1Pybhc" to="zmoq:veGCmPyRo2" resolve="CSVPanelGenerator" />
-              <node concept="Xl_RD" id="7iuWixLS_vP" role="37wK5m">
-                <property role="Xl_RC" value="/Users/mas2182/Lab/Projects/MPS/MetaR_3.2/data/tests/AnnotationTableA.cvs" />
-              </node>
-              <node concept="3cmrfG" id="7iuWixLQqrF" role="37wK5m">
+              <node concept="3cmrfG" id="5aUFu7SNRFP" role="37wK5m">
                 <property role="3cmrfH" value="300" />
               </node>
-              <node concept="3cmrfG" id="7iuWixLQqrG" role="37wK5m">
+              <node concept="3cmrfG" id="5aUFu7SNRHL" role="37wK5m">
                 <property role="3cmrfH" value="300" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="5aUFu7SNPsq" role="37vLTJ">
+              <node concept="2WthIp" id="5aUFu7SNPot" role="2Oq$k0" />
+              <node concept="2BZ7hE" id="5aUFu7SNPLx" role="2OqNvi">
+                <ref role="2WH_rO" node="7iuWixLLfuH" resolve="csvPanel" />
               </node>
             </node>
           </node>
@@ -402,16 +416,11 @@
               <ref role="3cqZAo" node="7iuWixLME7D" resolve="tool" />
             </node>
             <node concept="2XshWL" id="7iuWixLN0XA" role="2OqNvi">
-              <ref role="2WH_rO" node="7iuWixLMXZJ" resolve="setTablePath" />
-              <node concept="2OqwBi" id="7iuWixLQcor" role="2XxRq1">
-                <node concept="2OqwBi" id="7iuWixLQa3p" role="2Oq$k0">
-                  <node concept="2WthIp" id="7iuWixLQ9P6" role="2Oq$k0" />
-                  <node concept="3gHZIF" id="7iuWixLQbL9" role="2OqNvi">
-                    <ref role="2WH_rO" node="2sgkdoKdfWD" resolve="table" />
-                  </node>
-                </node>
-                <node concept="2qgKlT" id="7iuWixLQd5m" role="2OqNvi">
-                  <ref role="37wK5l" to="v8sa:w5znaeJk_2" resolve="resolvePath" />
+              <ref role="2WH_rO" node="7iuWixLMXZJ" resolve="showTable" />
+              <node concept="2OqwBi" id="5aUFu7SO1f_" role="2XxRq1">
+                <node concept="2WthIp" id="5aUFu7SO1fC" role="2Oq$k0" />
+                <node concept="3gHZIF" id="5aUFu7SO1fE" role="2OqNvi">
+                  <ref role="2WH_rO" node="2sgkdoKdfWD" resolve="table" />
                 </node>
               </node>
             </node>
