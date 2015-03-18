@@ -240,31 +240,24 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbF" id="5aUFu7SO1s9" role="3cqZAp">
-          <node concept="2OqwBi" id="5aUFu7SOt3V" role="3clFbG">
-            <node concept="2OqwBi" id="5aUFu7SO1sP" role="2Oq$k0">
-              <node concept="2WthIp" id="5aUFu7SO1s8" role="2Oq$k0" />
-              <node concept="2BZ7hE" id="5aUFu7SO21q" role="2OqNvi">
-                <ref role="2WH_rO" node="7iuWixLLfuH" resolve="csvPanel" />
+        <node concept="3clFbF" id="1AcOLpa4Z5m" role="3cqZAp">
+          <node concept="2YIFZM" id="1AcOLpa4ZfY" role="3clFbG">
+            <ref role="37wK5l" to="zmoq:5aUFu7SO53j" resolve="loadTable" />
+            <ref role="1Pybhc" to="zmoq:veGCmPyRo2" resolve="CSVPanelSingleton" />
+            <node concept="2OqwBi" id="1AcOLpa4ZoJ" role="37wK5m">
+              <node concept="37vLTw" id="1AcOLpa4Zl4" role="2Oq$k0">
+                <ref role="3cqZAo" node="7iuWixLMYip" resolve="table" />
+              </node>
+              <node concept="2qgKlT" id="1AcOLpa50$r" role="2OqNvi">
+                <ref role="37wK5l" to="v8sa:w5znaeJk_2" resolve="resolvePath" />
               </node>
             </node>
-            <node concept="liA8E" id="5aUFu7SOyYC" role="2OqNvi">
-              <ref role="37wK5l" to="zmoq:7iuWixLQUNb" resolve="load" />
-              <node concept="2OqwBi" id="5aUFu7SODIq" role="37wK5m">
-                <node concept="37vLTw" id="5aUFu7SODEy" role="2Oq$k0">
-                  <ref role="3cqZAo" node="7iuWixLMYip" resolve="table" />
-                </node>
-                <node concept="2qgKlT" id="5aUFu7SOEUx" role="2OqNvi">
-                  <ref role="37wK5l" to="v8sa:w5znaeJk_2" resolve="resolvePath" />
-                </node>
+            <node concept="2OqwBi" id="1AcOLpa50Gw" role="37wK5m">
+              <node concept="37vLTw" id="1AcOLpa50CA" role="2Oq$k0">
+                <ref role="3cqZAo" node="7iuWixLMYip" resolve="table" />
               </node>
-              <node concept="2OqwBi" id="1xeqmqKNPct" role="37wK5m">
-                <node concept="37vLTw" id="1xeqmqKNP80" role="2Oq$k0">
-                  <ref role="3cqZAo" node="7iuWixLMYip" resolve="table" />
-                </node>
-                <node concept="3TrcHB" id="1xeqmqKNQqj" role="2OqNvi">
-                  <ref role="3TsBF5" to="ztlb:1UijAvvcUWU" resolve="delimitor" />
-                </node>
+              <node concept="3TrcHB" id="1AcOLpa51Tv" role="2OqNvi">
+                <ref role="3TsBF5" to="ztlb:1UijAvvcUWU" resolve="delimitor" />
               </node>
             </node>
           </node>
@@ -292,8 +285,8 @@
     <node concept="2BZ0e9" id="7iuWixLLfuH" role="2XNbBz">
       <property role="TrG5h" value="csvPanel" />
       <node concept="3Tm6S6" id="7iuWixLLfuI" role="1B3o_S" />
-      <node concept="3uibUv" id="7iuWixLSn7O" role="1tU5fm">
-        <ref role="3uigEE" to="zmoq:veGCmPxe4V" resolve="CSVPanel" />
+      <node concept="3uibUv" id="1AcOLpa528a" role="1tU5fm">
+        <ref role="3uigEE" to="dbrf:~JPanel" resolve="JPanel" />
       </node>
     </node>
     <node concept="1QGGSu" id="7iuWixLM6t_" role="1nVCmq">
@@ -384,7 +377,7 @@
           <node concept="37vLTI" id="5aUFu7SNQIB" role="3clFbG">
             <node concept="2YIFZM" id="5aUFu7SNQTP" role="37vLTx">
               <ref role="37wK5l" to="zmoq:veGCmPxVFj" resolve="create" />
-              <ref role="1Pybhc" to="zmoq:veGCmPyRo2" resolve="CSVPanelGenerator" />
+              <ref role="1Pybhc" to="zmoq:veGCmPyRo2" resolve="CSVPanelSingleton" />
               <node concept="3cmrfG" id="5aUFu7SNRFP" role="37wK5m">
                 <property role="3cmrfH" value="300" />
               </node>
