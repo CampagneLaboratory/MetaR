@@ -186,6 +186,7 @@
       </concept>
       <concept id="1146644602865" name="jetbrains.mps.baseLanguage.structure.PublicVisibility" flags="nn" index="3Tm1VV" />
       <concept id="1146644623116" name="jetbrains.mps.baseLanguage.structure.PrivateVisibility" flags="nn" index="3Tm6S6" />
+      <concept id="1080120340718" name="jetbrains.mps.baseLanguage.structure.AndExpression" flags="nn" index="1Wc70l" />
     </language>
     <language id="760a0a8c-eabb-4521-8bfd-65db761a9ba3" name="jetbrains.mps.baseLanguage.logging">
       <concept id="1167227138527" name="jetbrains.mps.baseLanguage.logging.structure.LogStatement" flags="nn" index="34ab3g">
@@ -1260,11 +1261,19 @@
               </node>
             </node>
           </node>
-          <node concept="2OqwBi" id="7iuWixLRCrg" role="3clFbw">
-            <node concept="37vLTw" id="7iuWixLRCiw" role="2Oq$k0">
-              <ref role="3cqZAo" node="5aUFu7SO58q" resolve="path" />
+          <node concept="1Wc70l" id="1AcOLpa4wR6" role="3clFbw">
+            <node concept="3y3z36" id="1AcOLpa4xTY" role="3uHU7w">
+              <node concept="10Nm6u" id="1AcOLpa4xV0" role="3uHU7w" />
+              <node concept="37vLTw" id="1AcOLpa4x0N" role="3uHU7B">
+                <ref role="3cqZAo" node="7iuWixLQNR_" resolve="panel" />
+              </node>
             </node>
-            <node concept="17RvpY" id="7iuWixLRDDZ" role="2OqNvi" />
+            <node concept="2OqwBi" id="7iuWixLRCrg" role="3uHU7B">
+              <node concept="37vLTw" id="7iuWixLRCiw" role="2Oq$k0">
+                <ref role="3cqZAo" node="5aUFu7SO58q" resolve="path" />
+              </node>
+              <node concept="17RvpY" id="7iuWixLRDDZ" role="2OqNvi" />
+            </node>
           </node>
         </node>
       </node>
