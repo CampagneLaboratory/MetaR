@@ -207,6 +207,9 @@
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
+      <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
+        <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
+      </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
@@ -404,6 +407,7 @@
     <property role="TrG5h" value="ShowTableInTableViewer" />
     <property role="fJN8o" value="true" />
     <property role="2uzpH1" value="View Content" />
+    <property role="3GE5qa" value="Actions" />
     <node concept="2S4$dB" id="2sgkdoKdfWD" role="1NuT2Z">
       <property role="TrG5h" value="table" />
       <node concept="3Tm6S6" id="2sgkdoKdfWE" role="1B3o_S" />
@@ -475,6 +479,7 @@
   </node>
   <node concept="tC5Ba" id="7iuWixLQgwu">
     <property role="TrG5h" value="AddTableViewer" />
+    <property role="3GE5qa" value="Actions" />
     <node concept="tT9cl" id="7iuWixLQgAZ" role="2f5YQi">
       <ref role="tU$_T" to="ekwn:1xsN4xJX8VI" resolve="EditorPopup" />
       <ref role="2f8Tey" to="ekwn:1xsN4xJX8VM" resolve="showIn" />
