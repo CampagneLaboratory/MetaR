@@ -321,6 +321,9 @@
     <node concept="PrWs8" id="2WRhvFto5FT" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
+    <node concept="PrWs8" id="1xeqmqLQBCs" role="PzmwI">
+      <ref role="PrY4T" node="1xeqmqKOy3R" resolve="HasTable" />
+    </node>
   </node>
   <node concept="1TIwiD" id="2WRhvFtuGFd">
     <property role="TrG5h" value="ImportTable" />
