@@ -45,6 +45,7 @@
         <property id="1140524450557" name="separatorText" index="2czwfO" />
         <child id="1176897874615" name="nodeFactory" index="4_6I_" />
         <child id="1140524464360" name="cellLayout" index="2czzBx" />
+        <child id="1140524464359" name="emptyCellModel" index="2czzBI" />
         <child id="928328222691832421" name="separatorTextQuery" index="2gpyvW" />
       </concept>
       <concept id="1106270549637" name="jetbrains.mps.lang.editor.structure.CellLayout_Horizontal" flags="nn" index="2iRfu4" />
@@ -4237,12 +4238,24 @@
       <node concept="3F0ifn" id="kv77ytcH_n" role="3EZMnx">
         <property role="3F0ifm" value="of" />
       </node>
-      <node concept="3F2HdR" id="kv77yyk_jv" role="3EZMnx">
-        <ref role="1NtTu8" to="jrxw:kv77ytcHuc" />
-        <node concept="2iRkQZ" id="kv77yyk_jy" role="2czzBx" />
-        <node concept="VPM3Z" id="kv77yyk_jz" role="3F10Kt">
+      <node concept="3EZMnI" id="t0TZVf8puW" role="3EZMnx">
+        <node concept="3F0ifn" id="t0TZVf8pvu" role="3EZMnx">
+          <property role="3F0ifm" value="{" />
+        </node>
+        <node concept="VPM3Z" id="t0TZVf8puY" role="3F10Kt">
           <property role="VOm3f" value="false" />
         </node>
+        <node concept="3F2HdR" id="t0TZVf8pvk" role="3EZMnx">
+          <ref role="1NtTu8" to="jrxw:kv77ytcHuc" />
+          <node concept="2iRkQZ" id="t0TZVf8pvm" role="2czzBx" />
+          <node concept="3F0ifn" id="t0TZVf8pvr" role="2czzBI">
+            <property role="3F0ifm" value="setsname" />
+          </node>
+        </node>
+        <node concept="3F0ifn" id="t0TZVf8pvB" role="3EZMnx">
+          <property role="3F0ifm" value="}" />
+        </node>
+        <node concept="2iRkQZ" id="t0TZVf8pv1" role="2iSdaV" />
       </node>
       <node concept="3F0ifn" id="kv77ytcHA6" role="3EZMnx">
         <property role="3F0ifm" value="-&gt;" />
@@ -4260,7 +4273,7 @@
     <ref role="1XX52x" to="jrxw:kv77ytcCe9" resolve="IdsFromSetOfIds" />
     <node concept="3EZMnI" id="kv77yyJaxe" role="2wV5jI">
       <node concept="3F0ifn" id="kv77yyJaxk" role="3EZMnx">
-        <property role="3F0ifm" value="from Set of IDs" />
+        <property role="3F0ifm" value="Set of IDs" />
       </node>
       <node concept="1iCGBv" id="kv77yyJaxq" role="3EZMnx">
         <ref role="1NtTu8" to="jrxw:kv77ytcCkz" />
@@ -4276,17 +4289,29 @@
   </node>
   <node concept="24kQdi" id="kv77yyhoaO">
     <ref role="1XX52x" to="jrxw:kv77yxiEq2" resolve="IdsFrom" />
-    <node concept="3EZMnI" id="kv77yyhoMS" role="2wV5jI">
-      <node concept="l2Vlx" id="kv77yyhoMT" role="2iSdaV" />
-      <node concept="3F0A7n" id="kv77yyhoMW" role="3EZMnx">
+    <node concept="3EZMnI" id="t0TZVe362c" role="2wV5jI">
+      <node concept="3F0A7n" id="t0TZVe362l" role="3EZMnx">
         <ref role="1NtTu8" to="jrxw:kv77yxMjF6" resolve="setname" />
       </node>
-      <node concept="3F0ifn" id="kv77yyhoNg" role="3EZMnx">
-        <property role="3F0ifm" value="--&gt;" />
+      <node concept="3F0ifn" id="t0TZVeKEbr" role="3EZMnx">
+        <property role="3F0ifm" value="From" />
       </node>
-      <node concept="3F1sOY" id="kv77yyhoND" role="3EZMnx">
-        <ref role="1NtTu8" to="jrxw:kv77yy7fku" />
+      <node concept="2iRfu4" id="t0TZVe362d" role="2iSdaV" />
+      <node concept="3F1sOY" id="t0TZVfs_9n" role="3EZMnx">
+        <ref role="1NtTu8" to="jrxw:t0TZVeAzIf" />
       </node>
+      <node concept="3F0ifn" id="t0TZVfs_8Y" role="3EZMnx">
+        <property role="3F0ifm" value=";" />
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="t0TZVfAEPV">
+    <ref role="1XX52x" to="jrxw:t0TZVeAzQG" resolve="CollectionOfIDs" />
+    <node concept="3EZMnI" id="t0TZVfKKro" role="2wV5jI">
+      <node concept="3F0A7n" id="t0TZVfKKry" role="3EZMnx">
+        <ref role="1NtTu8" to="tpck:gOOYy9I" resolve="alias" />
+      </node>
+      <node concept="2iRfu4" id="t0TZVfKKrr" role="2iSdaV" />
     </node>
   </node>
 </model>
