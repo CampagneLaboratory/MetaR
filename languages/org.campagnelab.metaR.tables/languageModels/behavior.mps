@@ -36,7 +36,7 @@
     <import index="8vtd" ref="r:cbd13695-fd32-4d39-aded-ba7e630ac2c3(org.campagnelab.metar.inspect.structure)" />
     <import index="42z1" ref="r:61980467-5cf8-4450-9d24-d597512183ad(org.campagnelab.styles.behavior)" />
     <import index="onla" ref="r:b81182ba-13d2-441a-9b65-76fe2bd96f30(org.campagnelab.styles.structure)" />
-    <import index="x7of" ref="r:437ca43c-6323-49fb-979f-681501286fcd(org.campagnelab.metar.code.annotations)" implicit="true" />
+    <import index="x7of" ref="r:437ca43c-6323-49fb-979f-681501286fcd(org.campagnelab.metar.code.annotations)" />
   </imports>
   <registry>
     <language id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior">
@@ -1346,6 +1346,21 @@
         <node concept="x79VA" id="3zjLmdCAVBV" role="x79VK">
           <property role="x79VB" value="true or false, depending on the schema of the table" />
         </node>
+      </node>
+    </node>
+    <node concept="13i0hz" id="1xeqmqKODcd" role="13h7CS">
+      <property role="13i0iv" value="false" />
+      <property role="13i0it" value="false" />
+      <property role="TrG5h" value="getTable" />
+      <ref role="13i0hy" node="1xeqmqKO$c4" resolve="getTable" />
+      <node concept="3Tm1VV" id="1xeqmqKODce" role="1B3o_S" />
+      <node concept="3clFbS" id="1xeqmqKODch" role="3clF47">
+        <node concept="3clFbF" id="1xeqmqKODsH" role="3cqZAp">
+          <node concept="13iPFW" id="1xeqmqKODsG" role="3clFbG" />
+        </node>
+      </node>
+      <node concept="3Tqbb2" id="1xeqmqKODci" role="3clF45">
+        <ref role="ehGHo" to="jrxw:2WRhvFtkykN" resolve="Table" />
       </node>
     </node>
   </node>
@@ -5215,6 +5230,26 @@
     <ref role="13h7C2" to="jrxw:2WRhvFtuGFd" resolve="ImportTable" />
     <node concept="13hLZK" id="5Wt7RzzuIK$" role="13h7CW">
       <node concept="3clFbS" id="5Wt7RzzuIK_" role="2VODD2" />
+    </node>
+    <node concept="13i0hz" id="1xeqmqKY_x8" role="13h7CS">
+      <property role="13i0iv" value="false" />
+      <property role="13i0it" value="false" />
+      <property role="TrG5h" value="getTable" />
+      <ref role="13i0hy" node="1xeqmqKO$c4" resolve="getTable" />
+      <node concept="3Tm1VV" id="1xeqmqKY_x9" role="1B3o_S" />
+      <node concept="3clFbS" id="1xeqmqKY_xc" role="3clF47">
+        <node concept="3clFbF" id="1xeqmqKY_xj" role="3cqZAp">
+          <node concept="2OqwBi" id="1xeqmqKY_$v" role="3clFbG">
+            <node concept="13iPFW" id="1xeqmqKY_xi" role="2Oq$k0" />
+            <node concept="3TrEf2" id="1xeqmqKYAo7" role="2OqNvi">
+              <ref role="3Tt5mk" to="jrxw:2WRhvFtuQGF" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tqbb2" id="1xeqmqKY_xd" role="3clF45">
+        <ref role="ehGHo" to="jrxw:2WRhvFtkykN" resolve="Table" />
+      </node>
     </node>
   </node>
   <node concept="13h7C7" id="5Wt7RzzuIMt">
@@ -11715,6 +11750,22 @@
         </node>
       </node>
       <node concept="17QB3L" id="7TJa_IVhQz2" role="3clF45" />
+    </node>
+  </node>
+  <node concept="13h7C7" id="1xeqmqKOyac">
+    <ref role="13h7C2" to="jrxw:1xeqmqKOy3R" resolve="HasTable" />
+    <node concept="13hLZK" id="1xeqmqKOyad" role="13h7CW">
+      <node concept="3clFbS" id="1xeqmqKOyae" role="2VODD2" />
+    </node>
+    <node concept="13i0hz" id="1xeqmqKO$c4" role="13h7CS">
+      <property role="13i0iv" value="true" />
+      <property role="13i0it" value="true" />
+      <property role="TrG5h" value="getTable" />
+      <node concept="3Tm1VV" id="1xeqmqKO$c5" role="1B3o_S" />
+      <node concept="3Tqbb2" id="1xeqmqKOAbZ" role="3clF45">
+        <ref role="ehGHo" to="jrxw:2WRhvFtkykN" resolve="Table" />
+      </node>
+      <node concept="3clFbS" id="1xeqmqKO$c7" role="3clF47" />
     </node>
   </node>
 </model>

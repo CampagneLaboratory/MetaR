@@ -41,7 +41,6 @@
         <property id="1207318242774" name="keycode" index="pLAjf" />
       </concept>
       <concept id="1203071646776" name="jetbrains.mps.lang.plugin.structure.ActionDeclaration" flags="ng" index="sE7Ow">
-        <property id="1207149998849" name="isAlwaysVisible" index="fJN8o" />
         <property id="1205250923097" name="caption" index="2uzpH1" />
         <child id="1203083461638" name="executeFunction" index="tncku" />
         <child id="1217413222820" name="parameter" index="1NuT2Z" />
@@ -398,15 +397,13 @@
   </node>
   <node concept="sE7Ow" id="7iuWixLMztm">
     <property role="TrG5h" value="ShowTableInTableViewer" />
-    <property role="fJN8o" value="true" />
     <property role="2uzpH1" value="View Content" />
     <property role="3GE5qa" value="Actions" />
     <node concept="2S4$dB" id="2sgkdoKdfWD" role="1NuT2Z">
       <property role="TrG5h" value="table" />
       <node concept="3Tm6S6" id="2sgkdoKdfWE" role="1B3o_S" />
-      <node concept="1oajcY" id="2sgkdoKdfWF" role="1oa70y" />
       <node concept="3Tqbb2" id="2sgkdoKdfKg" role="1tU5fm">
-        <ref role="ehGHo" to="jrxw:2WRhvFtkykN" resolve="Table" />
+        <ref role="ehGHo" to="jrxw:1xeqmqKOy3R" resolve="HasTable" />
       </node>
     </node>
     <node concept="1DS2jV" id="7LWFAMfAqWL" role="1NuT2Z">
@@ -442,10 +439,15 @@
             </node>
             <node concept="2XshWL" id="7iuWixLN0XA" role="2OqNvi">
               <ref role="2WH_rO" node="7iuWixLMXZJ" resolve="showTable" />
-              <node concept="2OqwBi" id="5aUFu7SO1f_" role="2XxRq1">
-                <node concept="2WthIp" id="5aUFu7SO1fC" role="2Oq$k0" />
-                <node concept="3gHZIF" id="5aUFu7SO1fE" role="2OqNvi">
-                  <ref role="2WH_rO" node="2sgkdoKdfWD" resolve="table" />
+              <node concept="2OqwBi" id="1xeqmqKOE6S" role="2XxRq1">
+                <node concept="2OqwBi" id="5aUFu7SO1f_" role="2Oq$k0">
+                  <node concept="2WthIp" id="5aUFu7SO1fC" role="2Oq$k0" />
+                  <node concept="3gHZIF" id="5aUFu7SO1fE" role="2OqNvi">
+                    <ref role="2WH_rO" node="2sgkdoKdfWD" resolve="table" />
+                  </node>
+                </node>
+                <node concept="2qgKlT" id="1xeqmqKOEQj" role="2OqNvi">
+                  <ref role="37wK5l" to="v8sa:1xeqmqKO$c4" resolve="getTable" />
                 </node>
               </node>
             </node>
