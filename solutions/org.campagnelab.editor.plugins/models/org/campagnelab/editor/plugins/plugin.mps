@@ -297,7 +297,7 @@
       </node>
     </node>
     <node concept="1QGGSu" id="7iuWixLM6t_" role="1nVCmq">
-      <property role="1QGGTI" value="${org.campagnelab.metaR.home}/icons/datatypes/table.png" />
+      <property role="1QGGTI" value="${module}/icons/table.png" />
     </node>
     <node concept="2xpOpl" id="7iuWixLQkhs" role="uR5co">
       <node concept="3clFbS" id="7iuWixLQkht" role="2VODD2">
@@ -474,7 +474,7 @@
       </node>
     </node>
     <node concept="1QGGSu" id="1xeqmqKNVkZ" role="3Uehp1">
-      <property role="1QGGTI" value="${org.campagnelab.metaR.home}/icons/datatypes/table.png" />
+      <property role="1QGGTI" value="${module}/icons/table.png" />
     </node>
   </node>
   <node concept="tC5Ba" id="7iuWixLQgwu">
@@ -496,6 +496,7 @@
   </node>
   <node concept="Zd50a" id="1xeqmqKO7KE">
     <property role="TrG5h" value="OpenTableViewer" />
+    <property role="3GE5qa" value="Actions" />
     <node concept="Zd509" id="1xeqmqKOe6W" role="Zd508">
       <ref role="1bYAoF" node="7iuWixLMztm" resolve="ShowTableInTableViewer" />
       <node concept="pLAjd" id="2sgkdoKspT7" role="Zd501">
