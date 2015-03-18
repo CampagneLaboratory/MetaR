@@ -243,6 +243,9 @@
     <node concept="PrWs8" id="1S_LPePBFBe" role="PzmwI">
       <ref role="PrY4T" to="ztlb:1S_LPePAwZB" resolve="HasDataToPreserve" />
     </node>
+    <node concept="PrWs8" id="1xeqmqKOCR2" role="PzmwI">
+      <ref role="PrY4T" node="1xeqmqKOy3R" resolve="HasTable" />
+    </node>
     <node concept="PrWs8" id="2WRhvFtkJSi" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
@@ -335,6 +338,9 @@
       <property role="20kJfa" value="future" />
       <property role="20lbJX" value="0..1" />
       <ref role="20lvS9" node="2WRhvFto5F5" resolve="FutureTable" />
+    </node>
+    <node concept="PrWs8" id="1xeqmqKY_x6" role="PzmwI">
+      <ref role="PrY4T" node="1xeqmqKOy3R" resolve="HasTable" />
     </node>
   </node>
   <node concept="1TIwiD" id="2WRhvFtwVip">
@@ -1835,6 +1841,9 @@
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" to="ztlb:1UijAvvb9DJ" resolve="Column" />
     </node>
+  </node>
+  <node concept="PlHQZ" id="1xeqmqKOy3R">
+    <property role="TrG5h" value="HasTable" />
   </node>
 </model>
 
