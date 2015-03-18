@@ -1838,7 +1838,9 @@
   </node>
   <node concept="1TIwiD" id="kv77ytcCe9">
     <property role="TrG5h" value="IdsFromSetOfIds" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <property role="34LRSv" value="from a define Set of IDs" />
+    <property role="R4oN_" value="from a set of ids for venndiagram" />
+    <ref role="1TJDcQ" node="t0TZVeAzQG" resolve="CollectionOfIDs" />
     <node concept="1TJgyj" id="kv77ytcCkz" role="1TKVEi">
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="oneSetOfIds" />
@@ -1874,16 +1876,22 @@
   </node>
   <node concept="1TIwiD" id="kv77yxiEq2">
     <property role="TrG5h" value="IdsFrom" />
+    <property role="R4oN_" value="define the setname and the ids provenance" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyj" id="kv77yy7fku" role="1TKVEi">
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="idSets" />
-      <ref role="20lvS9" node="kv77ytcCe9" resolve="IdsFromSetOfIds" />
-    </node>
     <node concept="1TJgyi" id="kv77yxMjF6" role="1TKVEl">
       <property role="TrG5h" value="setname" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
+    <node concept="1TJgyj" id="t0TZVeAzIf" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="collectionofID" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="t0TZVeAzQG" resolve="CollectionOfIDs" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="t0TZVeAzQG">
+    <property role="TrG5h" value="CollectionOfIDs" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
   </node>
 </model>
 
