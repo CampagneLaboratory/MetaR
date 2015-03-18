@@ -17,9 +17,10 @@
     <import index="zmoq" ref="r:7c74f1be-d41f-4e06-99df-d66efb09414c(org.campagnelab.editor.csvviewer.loader)" />
     <import index="jrxw" ref="r:9f2bbfbf-f8b7-4b3b-92b1-b6a0e9642c10(org.campagnelab.metar.tables.structure)" />
     <import index="nx1" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/f:java_stub#498d89d2-c2e9-11e2-ad49-6cf049e62fe5#com.intellij.openapi.actionSystem(MPS.IDEA/com.intellij.openapi.actionSystem@java_stub)" />
-    <import index="5xh9" ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61/f:java_stub#742f6602-5a2f-4313-aa6e-ae1cd4ffdc61#jetbrains.mps.ide.actions(MPS.Platform/jetbrains.mps.ide.actions@java_stub)" />
     <import index="ekwn" ref="r:9832fb5f-2578-4b58-8014-a5de79da988e(jetbrains.mps.ide.editor.actions)" />
     <import index="1t7x" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.awt(JDK/java.awt@java_stub)" />
+    <import index="fxg7" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.io(JDK/java.io@java_stub)" />
+    <import index="e2lb" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" />
     <import index="jwd7" ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61/f:java_stub#742f6602-5a2f-4313-aa6e-ae1cd4ffdc61#jetbrains.mps.ide.tools(MPS.Platform/jetbrains.mps.ide.tools@java_stub)" implicit="true" />
     <import index="v8sa" ref="r:db1b133e-9a0f-4319-b384-413408eb1729(org.campagnelab.metar.tables.behavior)" implicit="true" />
     <import index="tprs" ref="r:00000000-0000-4000-0000-011c895904a4(jetbrains.mps.ide.actions)" implicit="true" />
@@ -42,6 +43,7 @@
       </concept>
       <concept id="1203071646776" name="jetbrains.mps.lang.plugin.structure.ActionDeclaration" flags="ng" index="sE7Ow">
         <property id="1205250923097" name="caption" index="2uzpH1" />
+        <child id="1203083196627" name="updateBlock" index="tmbBb" />
         <child id="1203083461638" name="executeFunction" index="tncku" />
         <child id="1217413222820" name="parameter" index="1NuT2Z" />
         <child id="8976425910813834639" name="icon" index="3Uehp1" />
@@ -64,6 +66,7 @@
       <concept id="1213888653896" name="jetbrains.mps.lang.plugin.structure.InitBlock" flags="in" index="2xpIHi" />
       <concept id="1213888677711" name="jetbrains.mps.lang.plugin.structure.DisposeBlock" flags="in" index="2xpOpl" />
       <concept id="1205679047295" name="jetbrains.mps.lang.plugin.structure.ActionParameterDeclaration" flags="ig" index="2S4$dB" />
+      <concept id="1205681243813" name="jetbrains.mps.lang.plugin.structure.IsApplicableBlock" flags="in" index="2ScWuX" />
       <concept id="1214307303872" name="jetbrains.mps.lang.plugin.structure.GetComponentBlock" flags="in" index="2UmK3q" />
       <concept id="6547237850567458268" name="jetbrains.mps.lang.plugin.structure.BaseToolDeclaration" flags="ng" index="2XNcJY">
         <property id="6547237850567462620" name="caption" index="2XNbzY" />
@@ -111,6 +114,9 @@
       <concept id="1197027756228" name="jetbrains.mps.baseLanguage.structure.DotExpression" flags="nn" index="2OqwBi">
         <child id="1197027771414" name="operand" index="2Oq$k0" />
         <child id="1197027833540" name="operation" index="2OqNvi" />
+      </concept>
+      <concept id="1145552977093" name="jetbrains.mps.baseLanguage.structure.GenericNewExpression" flags="nn" index="2ShNRf">
+        <child id="1145553007750" name="creator" index="2ShVmc" />
       </concept>
       <concept id="1137021947720" name="jetbrains.mps.baseLanguage.structure.ConceptFunction" flags="in" index="2VMwT0">
         <child id="1137022507850" name="body" index="2VODD2" />
@@ -164,6 +170,7 @@
         <reference id="1068499141037" name="baseMethodDeclaration" index="37wK5l" />
         <child id="1068499141038" name="actualArgument" index="37wK5m" />
       </concept>
+      <concept id="1212685548494" name="jetbrains.mps.baseLanguage.structure.ClassCreator" flags="nn" index="1pGfFk" />
       <concept id="1107535904670" name="jetbrains.mps.baseLanguage.structure.ClassifierType" flags="in" index="3uibUv">
         <reference id="1107535924139" name="classifier" index="3uigEE" />
       </concept>
@@ -401,11 +408,11 @@
     <property role="3GE5qa" value="Actions" />
     <node concept="2S4$dB" id="2sgkdoKdfWD" role="1NuT2Z">
       <property role="TrG5h" value="table" />
+      <node concept="1oajcY" id="1xeqmqL1xb6" role="1oa70y" />
       <node concept="3Tm6S6" id="2sgkdoKdfWE" role="1B3o_S" />
       <node concept="3Tqbb2" id="2sgkdoKdfKg" role="1tU5fm">
         <ref role="ehGHo" to="jrxw:1xeqmqKOy3R" resolve="HasTable" />
       </node>
-      <node concept="1oajcY" id="1xeqmqL1xb6" role="1oa70y" />
     </node>
     <node concept="1DS2jV" id="7LWFAMfAqWL" role="1NuT2Z">
       <property role="TrG5h" value="project" />
@@ -471,6 +478,38 @@
     </node>
     <node concept="1QGGSu" id="1xeqmqKNVkZ" role="3Uehp1">
       <property role="1QGGTI" value="${module}/icons/table.png" />
+    </node>
+    <node concept="2ScWuX" id="1xeqmqLbJsj" role="tmbBb">
+      <node concept="3clFbS" id="1xeqmqLbJsk" role="2VODD2">
+        <node concept="3clFbF" id="1xeqmqLbywJ" role="3cqZAp">
+          <node concept="2OqwBi" id="1xeqmqLbewf" role="3clFbG">
+            <node concept="2ShNRf" id="1xeqmqLbcqR" role="2Oq$k0">
+              <node concept="1pGfFk" id="1xeqmqLbe2M" role="2ShVmc">
+                <ref role="37wK5l" to="fxg7:~File.&lt;init&gt;(java.lang.String)" resolve="File" />
+                <node concept="2OqwBi" id="1xeqmqLb9Uv" role="37wK5m">
+                  <node concept="2OqwBi" id="1xeqmqLb9nI" role="2Oq$k0">
+                    <node concept="2OqwBi" id="1xeqmqLbxpn" role="2Oq$k0">
+                      <node concept="2WthIp" id="1xeqmqLbxbs" role="2Oq$k0" />
+                      <node concept="3gHZIF" id="1xeqmqLbyjU" role="2OqNvi">
+                        <ref role="2WH_rO" node="2sgkdoKdfWD" resolve="table" />
+                      </node>
+                    </node>
+                    <node concept="2qgKlT" id="1xeqmqLb9Kh" role="2OqNvi">
+                      <ref role="37wK5l" to="v8sa:1xeqmqKO$c4" resolve="getTable" />
+                    </node>
+                  </node>
+                  <node concept="2qgKlT" id="1xeqmqLbapI" role="2OqNvi">
+                    <ref role="37wK5l" to="v8sa:w5znaeJk_2" resolve="resolvePath" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="liA8E" id="1xeqmqLbfPa" role="2OqNvi">
+              <ref role="37wK5l" to="fxg7:~File.exists():boolean" resolve="exists" />
+            </node>
+          </node>
+        </node>
+      </node>
     </node>
   </node>
   <node concept="tC5Ba" id="7iuWixLQgwu">
