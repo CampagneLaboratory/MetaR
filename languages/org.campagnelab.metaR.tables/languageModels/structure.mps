@@ -1891,6 +1891,8 @@
   </node>
   <node concept="1TIwiD" id="t0TZVeAzQG">
     <property role="TrG5h" value="CollectionOfIDs" />
+    <property role="R5$K7" value="true" />
+    <property role="R5$K2" value="false" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
   </node>
 </model>

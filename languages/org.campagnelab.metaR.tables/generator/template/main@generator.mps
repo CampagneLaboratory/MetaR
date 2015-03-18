@@ -11823,7 +11823,7 @@
           <node concept="17Uvod" id="kv77ytxH83" role="lGtFl">
             <property role="P4ACc" value="901f5cf3-dc77-4c1e-bc5a-6382baee28b4/1680136183140337486/1680136183140337487" />
             <property role="2qtEX9" value="text" />
-            <property role="34cw8o" value="setslist" />
+            <property role="34cw8o" value="selectedid" />
             <node concept="3zFVjK" id="kv77ytxH84" role="3zH0cK">
               <node concept="3clFbS" id="kv77ytxH85" role="2VODD2">
                 <node concept="3cpWs8" id="kv77ytxH86" role="3cqZAp">
@@ -11866,7 +11866,7 @@
                           <ref role="37wK5l" to="e2lb:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
                           <node concept="3cpWs3" id="kv77yxX611" role="37wK5m">
                             <node concept="Xl_RD" id="kv77yxX6uw" role="3uHU7w">
-                              <property role="Xl_RC" value="=c(1,1" />
+                              <property role="Xl_RC" value="=c(" />
                             </node>
                             <node concept="2OqwBi" id="t0TZVjj8cD" role="3uHU7B">
                               <node concept="2GrUjf" id="t0TZVjj49A" role="2Oq$k0">
@@ -11875,6 +11875,29 @@
                               <node concept="2qgKlT" id="t0TZVjj8Wn" role="2OqNvi">
                                 <ref role="37wK5l" to="v8sa:t0TZVfV1o2" resolve="getSetIDsName" />
                               </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="3clFbF" id="t0TZVl6VkO" role="3cqZAp">
+                      <node concept="2OqwBi" id="t0TZVl6W0T" role="3clFbG">
+                        <node concept="37vLTw" id="t0TZVl6VkM" role="2Oq$k0">
+                          <ref role="3cqZAo" node="kv77ytxH87" resolve="builder" />
+                        </node>
+                        <node concept="liA8E" id="t0TZVl6WMr" role="2OqNvi">
+                          <ref role="37wK5l" to="e2lb:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
+                          <node concept="2OqwBi" id="t0TZVl6Zfl" role="37wK5m">
+                            <node concept="2OqwBi" id="t0TZVl6XR9" role="2Oq$k0">
+                              <node concept="2GrUjf" id="t0TZVl6XiE" role="2Oq$k0">
+                                <ref role="2Gs0qQ" node="kv77yuxtmW" resolve="set" />
+                              </node>
+                              <node concept="3TrEf2" id="t0TZVl6YwM" role="2OqNvi">
+                                <ref role="3Tt5mk" to="jrxw:t0TZVeAzIf" />
+                              </node>
+                            </node>
+                            <node concept="2qgKlT" id="t0TZVl6ZRF" role="2OqNvi">
+                              <ref role="37wK5l" to="v8sa:t0TZVkMeWC" resolve="returnIDs" />
                             </node>
                           </node>
                         </node>
