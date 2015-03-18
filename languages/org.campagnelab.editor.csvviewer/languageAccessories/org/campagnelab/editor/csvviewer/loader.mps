@@ -1151,7 +1151,7 @@
     </node>
   </node>
   <node concept="312cEu" id="veGCmPyRo2">
-    <property role="TrG5h" value="CSVPanelGenerator" />
+    <property role="TrG5h" value="CSVPanelSingleton" />
     <node concept="2tJIrI" id="veGCmPyT0j" role="jymVt" />
     <node concept="Wx3nA" id="7iuWixLQNLr" role="jymVt">
       <property role="2dlcS1" value="false" />
