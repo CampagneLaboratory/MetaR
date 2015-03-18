@@ -122,6 +122,7 @@
       <concept id="1068580123155" name="jetbrains.mps.baseLanguage.structure.ExpressionStatement" flags="nn" index="3clFbF">
         <child id="1068580123156" name="expression" index="3clFbG" />
       </concept>
+      <concept id="1068580123157" name="jetbrains.mps.baseLanguage.structure.Statement" flags="nn" index="3clFbH" />
       <concept id="1068580123159" name="jetbrains.mps.baseLanguage.structure.IfStatement" flags="nn" index="3clFbJ">
         <child id="1068580123160" name="condition" index="3clFbw" />
         <child id="1068580123161" name="ifTrue" index="3clFbx" />
@@ -143,6 +144,7 @@
       <concept id="1068581242864" name="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" flags="nn" index="3cpWs8">
         <child id="1068581242865" name="localVariableDeclaration" index="3cpWs9" />
       </concept>
+      <concept id="1068581242869" name="jetbrains.mps.baseLanguage.structure.MinusExpression" flags="nn" index="3cpWsd" />
       <concept id="1068581242863" name="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" flags="nr" index="3cpWsn" />
       <concept id="1068581517677" name="jetbrains.mps.baseLanguage.structure.VoidType" flags="in" index="3cqZAl" />
       <concept id="1081506773034" name="jetbrains.mps.baseLanguage.structure.LessThanExpression" flags="nn" index="3eOVzh" />
@@ -828,7 +830,7 @@
         <node concept="3cpWs8" id="7iuWixLQW1C" role="3cqZAp">
           <node concept="3cpWsn" id="7iuWixLQW1D" role="3cpWs9">
             <property role="3TUv4t" value="false" />
-            <property role="TrG5h" value="Rs2" />
+            <property role="TrG5h" value="rs" />
             <node concept="3uibUv" id="7iuWixLQW1E" role="1tU5fm">
               <ref role="3uigEE" to="k7g3:~ArrayList" resolve="ArrayList" />
               <node concept="10Q1$e" id="7iuWixLQW1F" role="11_B2D">
@@ -855,6 +857,53 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbF" id="5RQTS2nNxMo" role="3cqZAp">
+          <node concept="2OqwBi" id="5RQTS2nNxMp" role="3clFbG">
+            <node concept="Xjq3P" id="5RQTS2nNxMq" role="2Oq$k0" />
+            <node concept="liA8E" id="5RQTS2nNxMr" role="2OqNvi">
+              <ref role="37wK5l" to="dbrf:~JComponent.setBorder(javax.swing.border.Border):void" resolve="setBorder" />
+              <node concept="2YIFZM" id="5RQTS2nNxM$" role="37wK5m">
+                <ref role="1Pybhc" to="dbrf:~BorderFactory" resolve="BorderFactory" />
+                <ref role="37wK5l" to="dbrf:~BorderFactory.createTitledBorder(javax.swing.border.Border,java.lang.String,int,int):javax.swing.border.TitledBorder" resolve="createTitledBorder" />
+                <node concept="2YIFZM" id="5RQTS2nNxMC" role="37wK5m">
+                  <ref role="1Pybhc" to="dbrf:~BorderFactory" resolve="BorderFactory" />
+                  <ref role="37wK5l" to="dbrf:~BorderFactory.createEmptyBorder():javax.swing.border.Border" resolve="createEmptyBorder" />
+                </node>
+                <node concept="3cpWs3" id="5RQTS2nNyA4" role="37wK5m">
+                  <node concept="Xl_RD" id="5RQTS2nNxMu" role="3uHU7B">
+                    <property role="Xl_RC" value="# records: " />
+                  </node>
+                  <node concept="2YIFZM" id="5RQTS2nNIzb" role="3uHU7w">
+                    <ref role="37wK5l" to="e2lb:~Integer.toString(int):java.lang.String" resolve="toString" />
+                    <ref role="1Pybhc" to="e2lb:~Integer" resolve="Integer" />
+                    <node concept="3cpWsd" id="5RQTS2nNUoK" role="37wK5m">
+                      <node concept="3cmrfG" id="5RQTS2nNUrL" role="3uHU7w">
+                        <property role="3cmrfH" value="1" />
+                      </node>
+                      <node concept="2OqwBi" id="5RQTS2nNJim" role="3uHU7B">
+                        <node concept="37vLTw" id="5RQTS2nNIE3" role="2Oq$k0">
+                          <ref role="3cqZAo" node="7iuWixLQW1D" resolve="rs" />
+                        </node>
+                        <node concept="liA8E" id="5RQTS2nNTYP" role="2OqNvi">
+                          <ref role="37wK5l" to="k7g3:~ArrayList.size():int" resolve="size" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="10M0yZ" id="5RQTS2nNxRZ" role="37wK5m">
+                  <ref role="1PxDUh" to="f0dr:~TitledBorder" resolve="TitledBorder" />
+                  <ref role="3cqZAo" to="f0dr:~TitledBorder.LEFT" resolve="LEFT" />
+                </node>
+                <node concept="10M0yZ" id="5RQTS2nNxS0" role="37wK5m">
+                  <ref role="1PxDUh" to="f0dr:~TitledBorder" resolve="TitledBorder" />
+                  <ref role="3cqZAo" to="f0dr:~TitledBorder.ABOVE_TOP" resolve="ABOVE_TOP" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="5RQTS2nNxoP" role="3cqZAp" />
         <node concept="3cpWs8" id="7iuWixLQW1L" role="3cqZAp">
           <node concept="3cpWsn" id="7iuWixLQW1M" role="3cpWs9">
             <property role="3TUv4t" value="false" />
@@ -881,7 +930,7 @@
                 <ref role="1Pybhc" node="7xEonEYcuNa" resolve="StringUtil" />
                 <node concept="2OqwBi" id="7iuWixLQW1U" role="37wK5m">
                   <node concept="37vLTw" id="7iuWixLQW1V" role="2Oq$k0">
-                    <ref role="3cqZAo" node="7iuWixLQW1D" resolve="Rs2" />
+                    <ref role="3cqZAo" node="7iuWixLQW1D" resolve="rs" />
                   </node>
                   <node concept="liA8E" id="7iuWixLQW1W" role="2OqNvi">
                     <ref role="37wK5l" to="k7g3:~ArrayList.remove(int):java.lang.Object" resolve="remove" />
@@ -918,7 +967,7 @@
             <node concept="liA8E" id="7iuWixLQW2e" role="2OqNvi">
               <ref role="37wK5l" node="veGCmPyz5d" resolve="AddCSVData" />
               <node concept="37vLTw" id="7iuWixLQW2f" role="37wK5m">
-                <ref role="3cqZAo" node="7iuWixLQW1D" resolve="Rs2" />
+                <ref role="3cqZAo" node="7iuWixLQW1D" resolve="rs" />
               </node>
             </node>
           </node>
