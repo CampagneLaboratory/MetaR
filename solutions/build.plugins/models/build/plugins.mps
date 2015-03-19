@@ -71,6 +71,7 @@
         <property id="5204048710541015587" name="internalBaseDirectory" index="2DA0ip" />
         <child id="6647099934206700656" name="plugins" index="10PD9s" />
         <child id="7389400916848080626" name="parts" index="3989C9" />
+        <child id="3542413272732620719" name="aspects" index="1hWBAP" />
         <child id="5617550519002745381" name="dependencies" index="1l3spa" />
         <child id="5617550519002745378" name="macros" index="1l3spd" />
         <child id="5617550519002745372" name="layout" index="1l3spN" />
@@ -92,6 +93,9 @@
       </concept>
     </language>
     <language id="0cf935df-4699-4e9c-a132-fa109541cba3" name="jetbrains.mps.build.mps">
+      <concept id="6503355885715333289" name="jetbrains.mps.build.mps.structure.BuildMpsAspect" flags="ng" index="2igEWh">
+        <property id="6503355885715353788" name="bootstrap" index="2igJW4" />
+      </concept>
       <concept id="7832771629084799699" name="jetbrains.mps.build.mps.structure.BuildMps_IdeaPluginVendor" flags="ng" index="2iUeEo">
         <property id="7832771629084799702" name="name" index="2iUeEt" />
         <property id="7832771629084799701" name="url" index="2iUeEu" />
@@ -1152,9 +1156,115 @@
           </node>
         </node>
       </node>
+      <node concept="1E1JtD" id="5RQTS2oWlI4" role="2G$12L">
+        <property role="BnDLt" value="true" />
+        <property role="TrG5h" value="org.campagnelab.editor.csvviewer" />
+        <property role="3LESm3" value="95c6c6b9-1148-4305-8620-8c8fddc0fe68" />
+        <property role="2GAjPV" value="false" />
+        <node concept="55IIr" id="5RQTS2oWlI7" role="3LF7KH">
+          <node concept="2Ry0Ak" id="5RQTS2oWm7u" role="iGT6I">
+            <property role="2Ry0Am" value="languages" />
+            <node concept="2Ry0Ak" id="5RQTS2oWmah" role="2Ry0An">
+              <property role="2Ry0Am" value="org.campagnelab.editor.csvviewer" />
+              <node concept="2Ry0Ak" id="5RQTS2oWmer" role="2Ry0An">
+                <property role="2Ry0Am" value="org.campagnelab.editor.csvviewer.mpl" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="5RQTS2oWmiz" role="3bR37C">
+          <node concept="3bR9La" id="5RQTS2oWmi$" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" to="ffeo:mXGwHwhVPj" resolve="JDK" />
+          </node>
+        </node>
+        <node concept="1yeLz9" id="5RQTS2oWmi_" role="1TViLv">
+          <property role="TrG5h" value="org.campagnelab.editor.csvviewer#562583290813603265" />
+          <property role="3LESm3" value="d12ce23d-d591-41d4-b43e-5a5fc4e96643" />
+          <property role="2GAjPV" value="false" />
+        </node>
+      </node>
+      <node concept="1E1JtA" id="5RQTS2oWmpU" role="2G$12L">
+        <property role="BnDLt" value="true" />
+        <property role="TrG5h" value="org.campagnelab.editor.plugins" />
+        <property role="3LESm3" value="15bcc1bb-8c4e-4822-8026-6970ea594239" />
+        <property role="2GAjPV" value="false" />
+        <node concept="55IIr" id="5RQTS2oWmpX" role="3LF7KH">
+          <node concept="2Ry0Ak" id="5RQTS2oWmvv" role="iGT6I">
+            <property role="2Ry0Am" value="solutions" />
+            <node concept="2Ry0Ak" id="5RQTS2oWmyG" role="2Ry0An">
+              <property role="2Ry0Am" value="org.campagnelab.editor.plugins" />
+              <node concept="2Ry0Ak" id="5RQTS2oWm_T" role="2Ry0An">
+                <property role="2Ry0Am" value="org.campagnelab.editor.plugins.msd" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="5RQTS2oWmEC" role="3bR37C">
+          <node concept="3bR9La" id="5RQTS2oWmED" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" to="ffeo:1TaHNgiIbJb" resolve="MPS.Platform" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="5RQTS2oWmEE" role="3bR37C">
+          <node concept="3bR9La" id="5RQTS2oWmEF" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" to="ffeo:1TaHNgiIbJ$" resolve="jetbrains.mps.ide.editor" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="5RQTS2oWmEG" role="3bR37C">
+          <node concept="3bR9La" id="5RQTS2oWmEH" role="1SiIV1">
+            <property role="3bR36h" value="true" />
+            <ref role="3bR37D" to="ffeo:mXGwHwhVPj" resolve="JDK" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="5RQTS2oWmEI" role="3bR37C">
+          <node concept="3bR9La" id="5RQTS2oWmEJ" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" to="ffeo:1ia2VB5guYy" resolve="MPS.IDEA" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="5RQTS2oWmEK" role="3bR37C">
+          <node concept="3bR9La" id="5RQTS2oWmEL" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" node="5RQTS2oWlI4" resolve="org.campagnelab.editor.csvviewer" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="5RQTS2oWmEM" role="3bR37C">
+          <node concept="3bR9La" id="5RQTS2oWmEN" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" node="3gMg70bRmfh" resolve="org.campagnelab.metar.tables" />
+          </node>
+        </node>
+      </node>
+      <node concept="3LEwk6" id="5RQTS2oWmMx" role="2G$12L">
+        <property role="BnDLt" value="true" />
+        <property role="TrG5h" value="org.campagnelab.metaR.table-viewer" />
+        <property role="3LESm3" value="7c94743f-cd17-4959-ba0d-5a9b764ee64b" />
+        <node concept="55IIr" id="5RQTS2oWmM$" role="3LF7KH">
+          <node concept="2Ry0Ak" id="5RQTS2oWmVF" role="iGT6I">
+            <property role="2Ry0Am" value="devkits" />
+            <node concept="2Ry0Ak" id="5RQTS2oWmZ0" role="2Ry0An">
+              <property role="2Ry0Am" value="table-viewer" />
+              <node concept="2Ry0Ak" id="5RQTS2oWn2l" role="2Ry0An">
+                <property role="2Ry0Am" value="org.campagnelab.metaR.table-viewer.devkit" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3LEDTy" id="5RQTS2oWn7g" role="3LEDUa">
+          <ref role="3LEDTV" node="5RQTS2oWlI4" resolve="org.campagnelab.editor.csvviewer" />
+        </node>
+        <node concept="3LEDTM" id="5RQTS2oWn7h" role="3LEDUa">
+          <ref role="3LEDTN" node="5RQTS2oWmpU" resolve="org.campagnelab.editor.plugins" />
+        </node>
+      </node>
     </node>
     <node concept="2_Ic$z" id="5Ak$p3hCPSn" role="3989C9">
       <property role="TZNOO" value="1.6" />
+    </node>
+    <node concept="2igEWh" id="5RQTS2oXhIU" role="1hWBAP">
+      <property role="2igJW4" value="true" />
     </node>
   </node>
 </model>
