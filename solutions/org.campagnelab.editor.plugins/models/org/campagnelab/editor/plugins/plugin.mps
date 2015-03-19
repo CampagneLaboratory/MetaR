@@ -233,16 +233,16 @@
         <node concept="34ab3g" id="5aUFu7SMYkE" role="3cqZAp">
           <property role="35gtTG" value="info" />
           <node concept="3cpWs3" id="5aUFu7SN14h" role="34bqiv">
-            <node concept="2OqwBi" id="5aUFu7SOrZs" role="3uHU7w">
-              <node concept="37vLTw" id="5aUFu7SOrTX" role="2Oq$k0">
+            <node concept="2OqwBi" id="5RQTS2ot9PG" role="3uHU7w">
+              <node concept="37vLTw" id="5RQTS2ot9M5" role="2Oq$k0">
                 <ref role="3cqZAo" node="7iuWixLMYip" resolve="table" />
               </node>
-              <node concept="2qgKlT" id="5aUFu7SOsEz" role="2OqNvi">
-                <ref role="37wK5l" to="v8sa:w5znaeJk_2" resolve="resolvePath" />
+              <node concept="2qgKlT" id="5RQTS2ota7T" role="2OqNvi">
+                <ref role="37wK5l" to="v8sa:5RQTS2osRA4" resolve="getPath" />
               </node>
             </node>
             <node concept="Xl_RD" id="5aUFu7SMYkG" role="3uHU7B">
-              <property role="Xl_RC" value="Reloading table viewer with " />
+              <property role="Xl_RC" value="Reloading table viewer from " />
             </node>
           </node>
         </node>
@@ -250,12 +250,12 @@
           <node concept="2YIFZM" id="1AcOLpa4ZfY" role="3clFbG">
             <ref role="37wK5l" to="zmoq:5aUFu7SO53j" resolve="loadTable" />
             <ref role="1Pybhc" to="zmoq:veGCmPyRo2" resolve="CSVPanelSingleton" />
-            <node concept="2OqwBi" id="1AcOLpa4ZoJ" role="37wK5m">
-              <node concept="37vLTw" id="1AcOLpa4Zl4" role="2Oq$k0">
+            <node concept="2OqwBi" id="5RQTS2otahm" role="37wK5m">
+              <node concept="37vLTw" id="5RQTS2otafQ" role="2Oq$k0">
                 <ref role="3cqZAo" node="7iuWixLMYip" resolve="table" />
               </node>
-              <node concept="2qgKlT" id="1AcOLpa50$r" role="2OqNvi">
-                <ref role="37wK5l" to="v8sa:w5znaeJk_2" resolve="resolvePath" />
+              <node concept="2qgKlT" id="5RQTS2otaRx" role="2OqNvi">
+                <ref role="37wK5l" to="v8sa:5RQTS2osRA4" resolve="getPath" />
               </node>
             </node>
             <node concept="2OqwBi" id="1AcOLpa50Gw" role="37wK5m">
@@ -272,7 +272,7 @@
       <node concept="37vLTG" id="7iuWixLMYip" role="3clF46">
         <property role="TrG5h" value="table" />
         <node concept="3Tqbb2" id="5aUFu7SNTIH" role="1tU5fm">
-          <ref role="ehGHo" to="jrxw:2WRhvFtkykN" resolve="Table" />
+          <ref role="ehGHo" to="jrxw:1xeqmqKOy3R" resolve="HasTable" />
         </node>
       </node>
     </node>
@@ -447,15 +447,10 @@
             </node>
             <node concept="2XshWL" id="7iuWixLN0XA" role="2OqNvi">
               <ref role="2WH_rO" node="7iuWixLMXZJ" resolve="showTable" />
-              <node concept="2OqwBi" id="1xeqmqKOE6S" role="2XxRq1">
-                <node concept="2OqwBi" id="5aUFu7SO1f_" role="2Oq$k0">
-                  <node concept="2WthIp" id="5aUFu7SO1fC" role="2Oq$k0" />
-                  <node concept="3gHZIF" id="5aUFu7SO1fE" role="2OqNvi">
-                    <ref role="2WH_rO" node="2sgkdoKdfWD" resolve="table" />
-                  </node>
-                </node>
-                <node concept="2qgKlT" id="1xeqmqKOEQj" role="2OqNvi">
-                  <ref role="37wK5l" to="v8sa:1xeqmqKO$c4" resolve="getTable" />
+              <node concept="2OqwBi" id="5aUFu7SO1f_" role="2XxRq1">
+                <node concept="2WthIp" id="5aUFu7SO1fC" role="2Oq$k0" />
+                <node concept="3gHZIF" id="5aUFu7SO1fE" role="2OqNvi">
+                  <ref role="2WH_rO" node="2sgkdoKdfWD" resolve="table" />
                 </node>
               </node>
             </node>
@@ -481,25 +476,39 @@
     </node>
     <node concept="2ScWuX" id="1xeqmqLbJsj" role="tmbBb">
       <node concept="3clFbS" id="1xeqmqLbJsk" role="2VODD2">
+        <node concept="34ab3g" id="5RQTS2oqGqp" role="3cqZAp">
+          <property role="35gtTG" value="info" />
+          <node concept="3cpWs3" id="5RQTS2oqHDF" role="34bqiv">
+            <node concept="Xl_RD" id="5RQTS2oqGqr" role="3uHU7B">
+              <property role="Xl_RC" value="Checking table file: " />
+            </node>
+            <node concept="2OqwBi" id="5RQTS2oqHNj" role="3uHU7w">
+              <node concept="2OqwBi" id="5RQTS2oqHNk" role="2Oq$k0">
+                <node concept="2WthIp" id="5RQTS2oqHNl" role="2Oq$k0" />
+                <node concept="3gHZIF" id="5RQTS2oqHNm" role="2OqNvi">
+                  <ref role="2WH_rO" node="2sgkdoKdfWD" resolve="table" />
+                </node>
+              </node>
+              <node concept="2qgKlT" id="5RQTS2ot8Ub" role="2OqNvi">
+                <ref role="37wK5l" to="v8sa:5RQTS2osRA4" resolve="getPath" />
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3clFbF" id="1xeqmqLbywJ" role="3cqZAp">
           <node concept="2OqwBi" id="1xeqmqLbewf" role="3clFbG">
             <node concept="2ShNRf" id="1xeqmqLbcqR" role="2Oq$k0">
               <node concept="1pGfFk" id="1xeqmqLbe2M" role="2ShVmc">
                 <ref role="37wK5l" to="fxg7:~File.&lt;init&gt;(java.lang.String)" resolve="File" />
-                <node concept="2OqwBi" id="1xeqmqLb9Uv" role="37wK5m">
-                  <node concept="2OqwBi" id="1xeqmqLb9nI" role="2Oq$k0">
-                    <node concept="2OqwBi" id="1xeqmqLbxpn" role="2Oq$k0">
-                      <node concept="2WthIp" id="1xeqmqLbxbs" role="2Oq$k0" />
-                      <node concept="3gHZIF" id="1xeqmqLbyjU" role="2OqNvi">
-                        <ref role="2WH_rO" node="2sgkdoKdfWD" resolve="table" />
-                      </node>
-                    </node>
-                    <node concept="2qgKlT" id="1xeqmqLb9Kh" role="2OqNvi">
-                      <ref role="37wK5l" to="v8sa:1xeqmqKO$c4" resolve="getTable" />
+                <node concept="2OqwBi" id="5RQTS2ot960" role="37wK5m">
+                  <node concept="2OqwBi" id="5RQTS2ot961" role="2Oq$k0">
+                    <node concept="2WthIp" id="5RQTS2ot962" role="2Oq$k0" />
+                    <node concept="3gHZIF" id="5RQTS2ot963" role="2OqNvi">
+                      <ref role="2WH_rO" node="2sgkdoKdfWD" resolve="table" />
                     </node>
                   </node>
-                  <node concept="2qgKlT" id="1xeqmqLbapI" role="2OqNvi">
-                    <ref role="37wK5l" to="v8sa:w5znaeJk_2" resolve="resolvePath" />
+                  <node concept="2qgKlT" id="5RQTS2ot964" role="2OqNvi">
+                    <ref role="37wK5l" to="v8sa:5RQTS2osRA4" resolve="getPath" />
                   </node>
                 </node>
               </node>
