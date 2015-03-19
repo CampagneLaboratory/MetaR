@@ -1237,28 +1237,6 @@
           </node>
         </node>
       </node>
-      <node concept="3LEwk6" id="5RQTS2oWmMx" role="2G$12L">
-        <property role="BnDLt" value="true" />
-        <property role="TrG5h" value="org.campagnelab.metaR.table-viewer" />
-        <property role="3LESm3" value="7c94743f-cd17-4959-ba0d-5a9b764ee64b" />
-        <node concept="55IIr" id="5RQTS2oWmM$" role="3LF7KH">
-          <node concept="2Ry0Ak" id="5RQTS2oWmVF" role="iGT6I">
-            <property role="2Ry0Am" value="devkits" />
-            <node concept="2Ry0Ak" id="5RQTS2oWmZ0" role="2Ry0An">
-              <property role="2Ry0Am" value="table-viewer" />
-              <node concept="2Ry0Ak" id="5RQTS2oWn2l" role="2Ry0An">
-                <property role="2Ry0Am" value="org.campagnelab.metaR.table-viewer.devkit" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3LEDTy" id="5RQTS2oWn7g" role="3LEDUa">
-          <ref role="3LEDTV" node="5RQTS2oWlI4" resolve="org.campagnelab.editor.csvviewer" />
-        </node>
-        <node concept="3LEDTM" id="5RQTS2oWn7h" role="3LEDUa">
-          <ref role="3LEDTN" node="5RQTS2oWmpU" resolve="org.campagnelab.editor.plugins" />
-        </node>
-      </node>
     </node>
     <node concept="2_Ic$z" id="5Ak$p3hCPSn" role="3989C9">
       <property role="TZNOO" value="1.6" />
