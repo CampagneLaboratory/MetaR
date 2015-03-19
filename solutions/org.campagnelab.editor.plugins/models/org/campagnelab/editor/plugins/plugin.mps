@@ -535,8 +535,8 @@
     <node concept="Zd509" id="1xeqmqKOe6W" role="Zd508">
       <ref role="1bYAoF" node="7iuWixLMztm" resolve="ShowTableInTableViewer" />
       <node concept="pLAjd" id="2sgkdoKspT7" role="Zd501">
-        <property role="pLAjf" value="VK_ESCAPE" />
-        <property role="pLAjc" value="ctrl" />
+        <property role="pLAjf" value="VK_T" />
+        <property role="pLAjc" value="shift" />
       </node>
     </node>
   </node>
