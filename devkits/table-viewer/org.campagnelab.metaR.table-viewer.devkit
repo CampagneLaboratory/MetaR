@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dev-kit name="org.campagnelab.metaR.table-viewer" uuid="7c94743f-cd17-4959-ba0d-5a9b764ee64b">
+  <exported-language name="95c6c6b9-1148-4305-8620-8c8fddc0fe68(org.campagnelab.editor.csvviewer)" />
+  <exported-solutions>
+    <exported-solution>15bcc1bb-8c4e-4822-8026-6970ea594239(org.campagnelab.editor.plugins)</exported-solution>
+  </exported-solutions>
+</dev-kit>
+
