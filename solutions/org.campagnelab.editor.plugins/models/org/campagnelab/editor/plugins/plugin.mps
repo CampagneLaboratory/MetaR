@@ -21,10 +21,11 @@
     <import index="1t7x" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.awt(JDK/java.awt@java_stub)" />
     <import index="fxg7" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.io(JDK/java.io@java_stub)" />
     <import index="e2lb" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" />
-    <import index="jwd7" ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61/f:java_stub#742f6602-5a2f-4313-aa6e-ae1cd4ffdc61#jetbrains.mps.ide.tools(MPS.Platform/jetbrains.mps.ide.tools@java_stub)" implicit="true" />
     <import index="v8sa" ref="r:db1b133e-9a0f-4319-b384-413408eb1729(org.campagnelab.metar.tables.behavior)" implicit="true" />
-    <import index="tprs" ref="r:00000000-0000-4000-0000-011c895904a4(jetbrains.mps.ide.actions)" implicit="true" />
+    <import index="jwd7" ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61/f:java_stub#742f6602-5a2f-4313-aa6e-ae1cd4ffdc61#jetbrains.mps.ide.tools(MPS.Platform/jetbrains.mps.ide.tools@java_stub)" implicit="true" />
     <import index="ztlb" ref="r:989540b8-cc89-4ed5-ba78-cf2ce766b8ce(org.campagnelab.mps.XChart.structure)" implicit="true" />
+    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
+    <import index="tprs" ref="r:00000000-0000-4000-0000-011c895904a4(jetbrains.mps.ide.actions)" implicit="true" />
   </imports>
   <registry>
     <language id="982eb8df-2c96-4bd7-9963-11712ea622e5" name="jetbrains.mps.lang.resources">
@@ -250,6 +251,19 @@
           <node concept="2YIFZM" id="1AcOLpa4ZfY" role="3clFbG">
             <ref role="37wK5l" to="zmoq:5aUFu7SO53j" resolve="loadTable" />
             <ref role="1Pybhc" to="zmoq:veGCmPyRo2" resolve="CSVPanelSingleton" />
+            <node concept="2OqwBi" id="2MUPwqlFvw1" role="37wK5m">
+              <node concept="2OqwBi" id="2MUPwqlFueJ" role="2Oq$k0">
+                <node concept="37vLTw" id="2MUPwqlFtSw" role="2Oq$k0">
+                  <ref role="3cqZAo" node="7iuWixLMYip" resolve="table" />
+                </node>
+                <node concept="2qgKlT" id="2MUPwqlFvpN" role="2OqNvi">
+                  <ref role="37wK5l" to="v8sa:1xeqmqKO$c4" resolve="getTable" />
+                </node>
+              </node>
+              <node concept="3TrcHB" id="2MUPwqlFx5e" role="2OqNvi">
+                <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+              </node>
+            </node>
             <node concept="2OqwBi" id="5RQTS2otahm" role="37wK5m">
               <node concept="37vLTw" id="5RQTS2otafQ" role="2Oq$k0">
                 <ref role="3cqZAo" node="7iuWixLMYip" resolve="table" />

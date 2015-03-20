@@ -870,8 +870,18 @@
                   <ref role="37wK5l" to="dbrf:~BorderFactory.createEmptyBorder():javax.swing.border.Border" resolve="createEmptyBorder" />
                 </node>
                 <node concept="3cpWs3" id="5RQTS2nNyA4" role="37wK5m">
-                  <node concept="Xl_RD" id="5RQTS2nNxMu" role="3uHU7B">
-                    <property role="Xl_RC" value="# records: " />
+                  <node concept="3cpWs3" id="2MUPwqlF$_N" role="3uHU7B">
+                    <node concept="Xl_RD" id="2MUPwqlF$IX" role="3uHU7w">
+                      <property role="Xl_RC" value=", #records: " />
+                    </node>
+                    <node concept="3cpWs3" id="2MUPwqlFzWl" role="3uHU7B">
+                      <node concept="Xl_RD" id="5RQTS2nNxMu" role="3uHU7B">
+                        <property role="Xl_RC" value="table: " />
+                      </node>
+                      <node concept="37vLTw" id="2MUPwqlF$2O" role="3uHU7w">
+                        <ref role="3cqZAo" node="2MUPwqlFyrB" resolve="name" />
+                      </node>
+                    </node>
                   </node>
                   <node concept="2YIFZM" id="5RQTS2nNIzb" role="3uHU7w">
                     <ref role="37wK5l" to="e2lb:~Integer.toString(int):java.lang.String" resolve="toString" />
@@ -975,6 +985,10 @@
       </node>
       <node concept="3Tm1VV" id="7iuWixLQU6i" role="1B3o_S" />
       <node concept="3cqZAl" id="7iuWixLQUN8" role="3clF45" />
+      <node concept="37vLTG" id="2MUPwqlFyrB" role="3clF46">
+        <property role="TrG5h" value="name" />
+        <node concept="17QB3L" id="2MUPwqlFz1u" role="1tU5fm" />
+      </node>
       <node concept="37vLTG" id="7iuWixLQV_f" role="3clF46">
         <property role="TrG5h" value="dataFile" />
         <node concept="17QB3L" id="5aUFu7SOC5C" role="1tU5fm" />
@@ -1300,6 +1314,9 @@
                 </node>
                 <node concept="liA8E" id="7iuWixLRdvo" role="2OqNvi">
                   <ref role="37wK5l" node="7iuWixLQUNb" resolve="load" />
+                  <node concept="37vLTw" id="2MUPwqlFxtf" role="37wK5m">
+                    <ref role="3cqZAo" node="2MUPwqlFxda" resolve="name" />
+                  </node>
                   <node concept="37vLTw" id="5aUFu7SOCsH" role="37wK5m">
                     <ref role="3cqZAo" node="5aUFu7SO58q" resolve="path" />
                   </node>
@@ -1328,6 +1345,10 @@
       </node>
       <node concept="3Tm1VV" id="5aUFu7SO52c" role="1B3o_S" />
       <node concept="3cqZAl" id="5aUFu7SO53h" role="3clF45" />
+      <node concept="37vLTG" id="2MUPwqlFxda" role="3clF46">
+        <property role="TrG5h" value="name" />
+        <node concept="17QB3L" id="2MUPwqlFxrF" role="1tU5fm" />
+      </node>
       <node concept="37vLTG" id="5aUFu7SO58q" role="3clF46">
         <property role="TrG5h" value="path" />
         <node concept="17QB3L" id="5aUFu7SO58p" role="1tU5fm" />
