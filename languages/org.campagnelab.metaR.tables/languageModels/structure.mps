@@ -1838,9 +1838,10 @@
   </node>
   <node concept="1TIwiD" id="kv77ytcCe9">
     <property role="TrG5h" value="IdsFromSetOfIds" />
-    <property role="34LRSv" value="from a define Set of IDs" />
+    <property role="34LRSv" value="from a define set of IDs" />
     <property role="R4oN_" value="from a set of ids for venndiagram" />
-    <ref role="1TJDcQ" node="t0TZVeAzQG" resolve="CollectionOfIDs" />
+    <property role="3GE5qa" value="venn" />
+    <ref role="1TJDcQ" node="kv77yxiEq2" resolve="IdsFrom" />
     <node concept="1TJgyj" id="kv77ytcCkz" role="1TKVEi">
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="oneSetOfIds" />
@@ -1852,6 +1853,7 @@
     <property role="TrG5h" value="VennDiagram" />
     <property role="34LRSv" value="venndiagram" />
     <property role="R4oN_" value="Venn diagram for user define genes" />
+    <property role="3GE5qa" value="venn" />
     <ref role="1TJDcQ" node="6WPhx9nlOjT" resolve="PlotBuilderStatement" />
     <node concept="PrWs8" id="kv77ytcHu8" role="PzmwI">
       <ref role="PrY4T" to="onla:4FCgsrOfk9w" resolve="UseStyle" />
@@ -1864,36 +1866,41 @@
     </node>
     <node concept="1TJgyj" id="kv77ytcHuc" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="Sets" />
+      <property role="20kJfa" value="sets" />
       <property role="20lbJX" value="1..n" />
       <ref role="20lvS9" node="kv77yxiEq2" resolve="IdsFrom" />
-    </node>
-    <node concept="1TJgyj" id="kv77ytcH$T" role="1TKVEi">
-      <property role="20lmBu" value="reference" />
-      <property role="20kJfa" value="style" />
-      <ref role="20lvS9" node="20o901rbdPK" resolve="ColorPlotStyle" />
     </node>
   </node>
   <node concept="1TIwiD" id="kv77yxiEq2">
     <property role="TrG5h" value="IdsFrom" />
-    <property role="R4oN_" value="define the setname and the ids provenance" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyi" id="kv77yxMjF6" role="1TKVEl">
-      <property role="TrG5h" value="setname" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
-    <node concept="1TJgyj" id="t0TZVeAzIf" role="1TKVEi">
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="collectionofID" />
-      <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="t0TZVeAzQG" resolve="CollectionOfIDs" />
-    </node>
-  </node>
-  <node concept="1TIwiD" id="t0TZVeAzQG">
-    <property role="TrG5h" value="CollectionOfIDs" />
+    <property role="R4oN_" value="define the name and the IdsSet" />
+    <property role="3GE5qa" value="venn" />
     <property role="R5$K7" value="true" />
     <property role="R5$K2" value="false" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="7mrPTtA69nD" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="t0TZVlt6An">
+    <property role="3GE5qa" value="venn" />
+    <property role="TrG5h" value="IdsFromTable" />
+    <property role="19KtqR" value="true" />
+    <property role="34LRSv" value="from Table  IDs Set " />
+    <property role="R4oN_" value="IDs which come from a table" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="t0TZVlt6GR" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="rowFilter" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="3BiNpr5Jr7W" resolve="AbstractRowFilter" />
+    </node>
+    <node concept="1TJgyj" id="t0TZVlt6GT" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="table" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="3R5AwWRY9uN" resolve="TableRef" />
+    </node>
   </node>
 </model>
 
