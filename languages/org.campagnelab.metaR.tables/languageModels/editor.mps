@@ -4234,7 +4234,7 @@
     <ref role="1XX52x" to="jrxw:kv77ytcHu7" resolve="VennDiagram" />
     <node concept="3EZMnI" id="7mrPTtAEwCg" role="2wV5jI">
       <node concept="3F0ifn" id="7mrPTtAEwCm" role="3EZMnx">
-        <property role="3F0ifm" value="venndiagram" />
+        <property role="3F0ifm" value="Venn diagram" />
       </node>
       <node concept="3F0ifn" id="7mrPTtAEwCs" role="3EZMnx">
         <property role="3F0ifm" value="of" />
@@ -4243,15 +4243,26 @@
         <node concept="3F2HdR" id="7mrPTtAEwCR" role="3EZMnx">
           <ref role="1NtTu8" to="jrxw:kv77ytcHuc" />
           <node concept="2iRkQZ" id="7mrPTtAEwCT" role="2czzBx" />
-          <node concept="3F0ifn" id="7mrPTtBl$XN" role="2czzBI">
-            <property role="3F0ifm" value=" 5 sets" />
+          <node concept="3F0ifn" id="7mrPTtBl$XN" role="2czzBI" />
+          <node concept="4$FPG" id="6ZmHkZ6qWwj" role="4_6I_">
+            <node concept="3clFbS" id="6ZmHkZ6qWwk" role="2VODD2">
+              <node concept="3clFbF" id="6ZmHkZ6qW_M" role="3cqZAp">
+                <node concept="2ShNRf" id="6ZmHkZ6qXET" role="3clFbG">
+                  <node concept="3zrR0B" id="6ZmHkZ6r2N3" role="2ShVmc">
+                    <node concept="3Tqbb2" id="6ZmHkZ6r2N5" role="3zrR0E">
+                      <ref role="ehGHo" to="jrxw:kv77ytcCe9" resolve="IdsFromSetOfIds" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
           </node>
         </node>
         <node concept="2iRkQZ" id="7mrPTtAEwCL" role="2iSdaV" />
       </node>
       <node concept="2iRfu4" id="7mrPTtAEwCh" role="2iSdaV" />
       <node concept="3F0ifn" id="7mrPTtAEwD4" role="3EZMnx">
-        <property role="3F0ifm" value=" on plot name" />
+        <property role="3F0ifm" value=" --&gt;" />
       </node>
       <node concept="3F1sOY" id="7mrPTtAEwDm" role="3EZMnx">
         <ref role="1NtTu8" to="jrxw:kv77ytcHua" />
@@ -4262,11 +4273,14 @@
     <property role="3GE5qa" value="venn" />
     <ref role="1XX52x" to="jrxw:kv77ytcCe9" resolve="IdsFromSetOfIds" />
     <node concept="3EZMnI" id="kv77yyJaxe" role="2wV5jI">
+      <node concept="3F0ifn" id="6ZmHkZ79XJ8" role="3EZMnx">
+        <property role="3F0ifm" value="set" />
+      </node>
       <node concept="3F0A7n" id="7mrPTtAmfzg" role="3EZMnx">
         <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
       </node>
       <node concept="3F0ifn" id="kv77yyJaxk" role="3EZMnx">
-        <property role="3F0ifm" value="Set of IDs" />
+        <property role="3F0ifm" value="from set of ids" />
       </node>
       <node concept="1iCGBv" id="kv77yyJaxq" role="3EZMnx">
         <ref role="1NtTu8" to="jrxw:kv77ytcCkz" />
@@ -4274,6 +4288,7 @@
           <node concept="3F0A7n" id="kv77yyJax$" role="2wV5jI">
             <property role="1Intyy" value="true" />
             <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+            <ref role="1k5W1q" node="7Hltlm8C$po" resolve="GeneListName" />
           </node>
         </node>
       </node>
@@ -4284,12 +4299,15 @@
     <property role="3GE5qa" value="venn" />
     <ref role="1XX52x" to="jrxw:t0TZVlt6An" resolve="IdsFromTable" />
     <node concept="3EZMnI" id="6ZmHkZ0rIQt" role="2wV5jI">
+      <node concept="3F0ifn" id="6ZmHkZ79Xt1" role="3EZMnx">
+        <property role="3F0ifm" value="set" />
+      </node>
       <node concept="2iRfu4" id="6ZmHkZ0rIQw" role="2iSdaV" />
       <node concept="3F0A7n" id="6ZmHkZ17nDo" role="3EZMnx">
         <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
       </node>
       <node concept="3F0ifn" id="6ZmHkZ0rIQB" role="3EZMnx">
-        <property role="3F0ifm" value="From" />
+        <property role="3F0ifm" value="from table" />
       </node>
       <node concept="3F1sOY" id="6ZmHkZ0rIQG" role="3EZMnx">
         <ref role="1NtTu8" to="jrxw:t0TZVlt6GT" />

@@ -1840,7 +1840,7 @@
     <property role="TrG5h" value="IdsFromSetOfIds" />
     <property role="34LRSv" value="Ids from a define set" />
     <property role="3GE5qa" value="venn" />
-    <property role="R4oN_" value="a user define set of ids " />
+    <property role="R4oN_" value="a user defined set of ids " />
     <ref role="1TJDcQ" node="kv77yxiEq2" resolve="IdsFrom" />
     <node concept="1TJgyj" id="kv77ytcCkz" role="1TKVEi">
       <property role="20lmBu" value="reference" />
@@ -1851,9 +1851,9 @@
   </node>
   <node concept="1TIwiD" id="kv77ytcHu7">
     <property role="TrG5h" value="VennDiagram" />
-    <property role="34LRSv" value="venndiagram" />
-    <property role="R4oN_" value="Venn diagram for user define genes" />
+    <property role="R4oN_" value="Venn diagram for user defined sets" />
     <property role="3GE5qa" value="venn" />
+    <property role="34LRSv" value="venn" />
     <ref role="1TJDcQ" node="6WPhx9nlOjT" resolve="PlotBuilderStatement" />
     <node concept="PrWs8" id="kv77ytcHu8" role="PzmwI">
       <ref role="PrY4T" to="onla:4FCgsrOfk9w" resolve="UseStyle" />
@@ -1886,8 +1886,8 @@
     <property role="3GE5qa" value="venn" />
     <property role="TrG5h" value="IdsFromTable" />
     <property role="19KtqR" value="true" />
-    <property role="34LRSv" value="Ids from Table " />
-    <property role="R4oN_" value="return Ids from an annotate table" />
+    <property role="34LRSv" value="Ids from table " />
+    <property role="R4oN_" value="return ids from an annotated table" />
     <ref role="1TJDcQ" node="kv77yxiEq2" resolve="IdsFrom" />
     <node concept="1TJgyj" id="t0TZVlt6GR" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
