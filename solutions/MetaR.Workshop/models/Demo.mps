@@ -281,210 +281,210 @@
   </node>
   <node concept="3Mpm39" id="4DOwJpJxBw5">
     <property role="31Cu5t" value="&#9;" />
-    <property role="31JHgl" value="/Users/mas2182/Lab/Projects/MPS/Meta/data/GSE59364_DC_all.csv" />
+    <property role="31JHgl" value="/Users/fac2003/MPSProjects/git/metar/data/GSE59364_DC_all.csv" />
     <property role="TrG5h" value="GSE59364_DC_all.csv" />
     <property role="26T8KA" value="${org.campagnelab.metaR.home}/data/GSE59364_DC_all.csv" />
-    <node concept="31JHg8" id="1S_LPePHVzC" role="31JHgj">
+    <node concept="31JHg8" id="4$IC3Kj1JT8" role="31JHgj">
       <property role="TrG5h" value="gene" />
       <ref role="1YeEjl" to="9nc5:1ID5TXdv_9L" resolve="String" />
-      <node concept="3MzsTm" id="1S_LPePHVzD" role="lGtFl">
-        <node concept="3MzsBX" id="1S_LPePHVzE" role="3MztjM">
+      <node concept="3MzsTm" id="4$IC3Kj1JT9" role="lGtFl">
+        <node concept="3MzsBX" id="4$IC3Kj1JTa" role="3MztjM">
           <ref role="3MzsBM" node="4DOwJpJxC5G" resolve="ID" />
         </node>
       </node>
     </node>
-    <node concept="31JHg8" id="1S_LPePHVzF" role="31JHgj">
+    <node concept="31JHg8" id="4$IC3Kj1JTb" role="31JHgj">
       <property role="TrG5h" value="mRNA len" />
       <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
-      <node concept="3MzsTm" id="1S_LPePHVzG" role="lGtFl">
-        <node concept="3MzsBX" id="1S_LPePHVzH" role="3MztjM">
+      <node concept="3MzsTm" id="4$IC3Kj1JTc" role="lGtFl">
+        <node concept="3MzsBX" id="4$IC3Kj1JTd" role="3MztjM">
           <ref role="3MzsBM" node="74E64ijXGlo" resolve="ignore" />
         </node>
       </node>
     </node>
-    <node concept="31JHg8" id="1S_LPePHVzI" role="31JHgj">
+    <node concept="31JHg8" id="4$IC3Kj1JTe" role="31JHgj">
       <property role="TrG5h" value="genomic span" />
       <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
-      <node concept="3MzsTm" id="1S_LPePHVzJ" role="lGtFl">
-        <node concept="3MzsBX" id="1S_LPePHVzK" role="3MztjM">
+      <node concept="3MzsTm" id="4$IC3Kj1JTf" role="lGtFl">
+        <node concept="3MzsBX" id="4$IC3Kj1JTg" role="3MztjM">
           <ref role="3MzsBM" node="74E64ijXGlo" resolve="ignore" />
         </node>
       </node>
     </node>
-    <node concept="31JHg8" id="1S_LPePHVzL" role="31JHgj">
+    <node concept="31JHg8" id="4$IC3Kj1JTh" role="31JHgj">
       <property role="TrG5h" value="DC_normal" />
       <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
-      <node concept="3MzsTm" id="1S_LPePHVzM" role="lGtFl" />
+      <node concept="3MzsTm" id="4$IC3Kj1JTi" role="lGtFl" />
     </node>
-    <node concept="31JHg8" id="1S_LPePHVzO" role="31JHgj">
+    <node concept="31JHg8" id="4$IC3Kj1JTj" role="31JHgj">
       <property role="TrG5h" value="DC_treated" />
       <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
-      <node concept="3MzsTm" id="1S_LPePHVzP" role="lGtFl" />
+      <node concept="3MzsTm" id="4$IC3Kj1JTk" role="lGtFl" />
     </node>
-    <node concept="31JHg8" id="1S_LPePHVzR" role="31JHgj">
+    <node concept="31JHg8" id="4$IC3Kj1JTl" role="31JHgj">
       <property role="TrG5h" value="DC0904" />
       <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
-      <node concept="3MzsTm" id="1S_LPePHVzS" role="lGtFl">
-        <node concept="3MzsBX" id="1S_LPePHVzT" role="3MztjM">
+      <node concept="3MzsTm" id="4$IC3Kj1JTm" role="lGtFl">
+        <node concept="3MzsBX" id="4$IC3Kj1JTn" role="3MztjM">
           <ref role="3MzsBM" node="4DOwJpJxBt4" resolve="LPS=NO" />
         </node>
-        <node concept="3MzsBX" id="1S_LPePHVzU" role="3MztjM">
+        <node concept="3MzsBX" id="4$IC3Kj1JTo" role="3MztjM">
           <ref role="3MzsBM" node="w5znaeV$En" resolve="counts" />
         </node>
       </node>
     </node>
-    <node concept="31JHg8" id="1S_LPePHVzV" role="31JHgj">
+    <node concept="31JHg8" id="4$IC3Kj1JTp" role="31JHgj">
       <property role="TrG5h" value="DC0907" />
       <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
-      <node concept="3MzsTm" id="1S_LPePHVzW" role="lGtFl">
-        <node concept="3MzsBX" id="1S_LPePHVzX" role="3MztjM">
+      <node concept="3MzsTm" id="4$IC3Kj1JTq" role="lGtFl">
+        <node concept="3MzsBX" id="4$IC3Kj1JTr" role="3MztjM">
           <ref role="3MzsBM" node="4DOwJpJxBt4" resolve="LPS=NO" />
         </node>
-        <node concept="3MzsBX" id="1S_LPePHVzY" role="3MztjM">
+        <node concept="3MzsBX" id="4$IC3Kj1JTs" role="3MztjM">
           <ref role="3MzsBM" node="w5znaeV$En" resolve="counts" />
         </node>
       </node>
     </node>
-    <node concept="31JHg8" id="1S_LPePHVzZ" role="31JHgj">
+    <node concept="31JHg8" id="4$IC3Kj1JTt" role="31JHgj">
       <property role="TrG5h" value="DCLPS0910" />
       <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
-      <node concept="3MzsTm" id="1S_LPePHV$0" role="lGtFl">
-        <node concept="3MzsBX" id="1S_LPePHV$1" role="3MztjM">
+      <node concept="3MzsTm" id="4$IC3Kj1JTu" role="lGtFl">
+        <node concept="3MzsBX" id="4$IC3Kj1JTv" role="3MztjM">
           <ref role="3MzsBM" node="4DOwJpJxBt4" resolve="LPS=NO" />
         </node>
-        <node concept="3MzsBX" id="1S_LPePHV$2" role="3MztjM">
+        <node concept="3MzsBX" id="4$IC3Kj1JTw" role="3MztjM">
           <ref role="3MzsBM" node="w5znaeV$En" resolve="counts" />
         </node>
       </node>
     </node>
-    <node concept="31JHg8" id="1S_LPePHV$3" role="31JHgj">
+    <node concept="31JHg8" id="4$IC3Kj1JTx" role="31JHgj">
       <property role="TrG5h" value="DCLPS0913" />
       <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
-      <node concept="3MzsTm" id="1S_LPePHV$4" role="lGtFl">
-        <node concept="3MzsBX" id="1S_LPePHV$5" role="3MztjM">
+      <node concept="3MzsTm" id="4$IC3Kj1JTy" role="lGtFl">
+        <node concept="3MzsBX" id="4$IC3Kj1JTz" role="3MztjM">
           <ref role="3MzsBM" node="4DOwJpJxBt4" resolve="LPS=NO" />
         </node>
-        <node concept="3MzsBX" id="1S_LPePHV$6" role="3MztjM">
+        <node concept="3MzsBX" id="4$IC3Kj1JT$" role="3MztjM">
           <ref role="3MzsBM" node="w5znaeV$En" resolve="counts" />
         </node>
       </node>
     </node>
-    <node concept="31JHg8" id="1S_LPePHV$7" role="31JHgj">
+    <node concept="31JHg8" id="4$IC3Kj1JT_" role="31JHgj">
       <property role="TrG5h" value="A_DC" />
       <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
-      <node concept="3MzsTm" id="1S_LPePHV$8" role="lGtFl">
-        <node concept="3MzsBX" id="1S_LPePHV$9" role="3MztjM">
+      <node concept="3MzsTm" id="4$IC3Kj1JTA" role="lGtFl">
+        <node concept="3MzsBX" id="4$IC3Kj1JTB" role="3MztjM">
           <ref role="3MzsBM" node="4DOwJpJxBt4" resolve="LPS=NO" />
         </node>
-        <node concept="3MzsBX" id="1S_LPePHV$a" role="3MztjM">
+        <node concept="3MzsBX" id="4$IC3Kj1JTC" role="3MztjM">
           <ref role="3MzsBM" node="w5znaeV$En" resolve="counts" />
         </node>
       </node>
     </node>
-    <node concept="31JHg8" id="1S_LPePHV$b" role="31JHgj">
+    <node concept="31JHg8" id="4$IC3Kj1JTD" role="31JHgj">
       <property role="TrG5h" value="A_DC_LPS" />
       <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
-      <node concept="3MzsTm" id="1S_LPePHV$c" role="lGtFl">
-        <node concept="3MzsBX" id="1S_LPePHV$d" role="3MztjM">
+      <node concept="3MzsTm" id="4$IC3Kj1JTE" role="lGtFl">
+        <node concept="3MzsBX" id="4$IC3Kj1JTF" role="3MztjM">
           <ref role="3MzsBM" node="4DOwJpJxBt0" resolve="LPS=YES" />
         </node>
-        <node concept="3MzsBX" id="1S_LPePHV$e" role="3MztjM">
+        <node concept="3MzsBX" id="4$IC3Kj1JTG" role="3MztjM">
           <ref role="3MzsBM" node="w5znaeV$En" resolve="counts" />
         </node>
       </node>
     </node>
-    <node concept="31JHg8" id="1S_LPePHV$f" role="31JHgj">
+    <node concept="31JHg8" id="4$IC3Kj1JTH" role="31JHgj">
       <property role="TrG5h" value="B_DC" />
       <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
-      <node concept="3MzsTm" id="1S_LPePHV$g" role="lGtFl">
-        <node concept="3MzsBX" id="1S_LPePHV$h" role="3MztjM">
+      <node concept="3MzsTm" id="4$IC3Kj1JTI" role="lGtFl">
+        <node concept="3MzsBX" id="4$IC3Kj1JTJ" role="3MztjM">
           <ref role="3MzsBM" node="4DOwJpJxBt4" resolve="LPS=NO" />
         </node>
-        <node concept="3MzsBX" id="1S_LPePHV$i" role="3MztjM">
+        <node concept="3MzsBX" id="4$IC3Kj1JTK" role="3MztjM">
           <ref role="3MzsBM" node="w5znaeV$En" resolve="counts" />
         </node>
       </node>
     </node>
-    <node concept="31JHg8" id="1S_LPePHV$j" role="31JHgj">
+    <node concept="31JHg8" id="4$IC3Kj1JTL" role="31JHgj">
       <property role="TrG5h" value="B_DC_LPS" />
       <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
-      <node concept="3MzsTm" id="1S_LPePHV$k" role="lGtFl">
-        <node concept="3MzsBX" id="1S_LPePHV$l" role="3MztjM">
+      <node concept="3MzsTm" id="4$IC3Kj1JTM" role="lGtFl">
+        <node concept="3MzsBX" id="4$IC3Kj1JTN" role="3MztjM">
           <ref role="3MzsBM" node="4DOwJpJxBt0" resolve="LPS=YES" />
         </node>
-        <node concept="3MzsBX" id="1S_LPePHV$m" role="3MztjM">
+        <node concept="3MzsBX" id="4$IC3Kj1JTO" role="3MztjM">
           <ref role="3MzsBM" node="w5znaeV$En" resolve="counts" />
         </node>
       </node>
     </node>
-    <node concept="31JHg8" id="1S_LPePHV$n" role="31JHgj">
+    <node concept="31JHg8" id="4$IC3Kj1JTP" role="31JHgj">
       <property role="TrG5h" value="C_DC" />
       <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
-      <node concept="3MzsTm" id="1S_LPePHV$o" role="lGtFl">
-        <node concept="3MzsBX" id="1S_LPePHV$p" role="3MztjM">
+      <node concept="3MzsTm" id="4$IC3Kj1JTQ" role="lGtFl">
+        <node concept="3MzsBX" id="4$IC3Kj1JTR" role="3MztjM">
           <ref role="3MzsBM" node="4DOwJpJxBt4" resolve="LPS=NO" />
         </node>
-        <node concept="3MzsBX" id="1S_LPePHV$q" role="3MztjM">
+        <node concept="3MzsBX" id="4$IC3Kj1JTS" role="3MztjM">
           <ref role="3MzsBM" node="w5znaeV$En" resolve="counts" />
         </node>
       </node>
     </node>
-    <node concept="31JHg8" id="1S_LPePHV$r" role="31JHgj">
+    <node concept="31JHg8" id="4$IC3Kj1JTT" role="31JHgj">
       <property role="TrG5h" value="C_DC_LPS" />
       <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
-      <node concept="3MzsTm" id="1S_LPePHV$s" role="lGtFl">
-        <node concept="3MzsBX" id="1S_LPePHV$t" role="3MztjM">
+      <node concept="3MzsTm" id="4$IC3Kj1JTU" role="lGtFl">
+        <node concept="3MzsBX" id="4$IC3Kj1JTV" role="3MztjM">
           <ref role="3MzsBM" node="4DOwJpJxBt0" resolve="LPS=YES" />
         </node>
-        <node concept="3MzsBX" id="1S_LPePHV$u" role="3MztjM">
+        <node concept="3MzsBX" id="4$IC3Kj1JTW" role="3MztjM">
           <ref role="3MzsBM" node="w5znaeV$En" resolve="counts" />
         </node>
       </node>
     </node>
-    <node concept="31JHg8" id="1S_LPePHV$v" role="31JHgj">
+    <node concept="31JHg8" id="4$IC3Kj1JTX" role="31JHgj">
       <property role="TrG5h" value="C2DC" />
       <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
-      <node concept="3MzsTm" id="1S_LPePHV$w" role="lGtFl">
-        <node concept="3MzsBX" id="1S_LPePHV$x" role="3MztjM">
+      <node concept="3MzsTm" id="4$IC3Kj1JTY" role="lGtFl">
+        <node concept="3MzsBX" id="4$IC3Kj1JTZ" role="3MztjM">
           <ref role="3MzsBM" node="4DOwJpJxBt4" resolve="LPS=NO" />
         </node>
-        <node concept="3MzsBX" id="1S_LPePHV$y" role="3MztjM">
+        <node concept="3MzsBX" id="4$IC3Kj1JU0" role="3MztjM">
           <ref role="3MzsBM" node="w5znaeV$En" resolve="counts" />
         </node>
       </node>
     </node>
-    <node concept="31JHg8" id="1S_LPePHV$z" role="31JHgj">
+    <node concept="31JHg8" id="4$IC3Kj1JU1" role="31JHgj">
       <property role="TrG5h" value="C2DCLPS" />
       <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
-      <node concept="3MzsTm" id="1S_LPePHV$$" role="lGtFl">
-        <node concept="3MzsBX" id="1S_LPePHV$_" role="3MztjM">
+      <node concept="3MzsTm" id="4$IC3Kj1JU2" role="lGtFl">
+        <node concept="3MzsBX" id="4$IC3Kj1JU3" role="3MztjM">
           <ref role="3MzsBM" node="4DOwJpJxBt0" resolve="LPS=YES" />
         </node>
-        <node concept="3MzsBX" id="1S_LPePHV$A" role="3MztjM">
+        <node concept="3MzsBX" id="4$IC3Kj1JU4" role="3MztjM">
           <ref role="3MzsBM" node="w5znaeV$En" resolve="counts" />
         </node>
       </node>
     </node>
-    <node concept="31JHg8" id="1S_LPePHV$B" role="31JHgj">
+    <node concept="31JHg8" id="4$IC3Kj1JU5" role="31JHgj">
       <property role="TrG5h" value="C3DC" />
       <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
-      <node concept="3MzsTm" id="1S_LPePHV$C" role="lGtFl">
-        <node concept="3MzsBX" id="1S_LPePHV$D" role="3MztjM">
+      <node concept="3MzsTm" id="4$IC3Kj1JU6" role="lGtFl">
+        <node concept="3MzsBX" id="4$IC3Kj1JU7" role="3MztjM">
           <ref role="3MzsBM" node="4DOwJpJxBt4" resolve="LPS=NO" />
         </node>
-        <node concept="3MzsBX" id="1S_LPePHV$E" role="3MztjM">
+        <node concept="3MzsBX" id="4$IC3Kj1JU8" role="3MztjM">
           <ref role="3MzsBM" node="w5znaeV$En" resolve="counts" />
         </node>
       </node>
     </node>
-    <node concept="31JHg8" id="1S_LPePHV$F" role="31JHgj">
+    <node concept="31JHg8" id="4$IC3Kj1JU9" role="31JHgj">
       <property role="TrG5h" value="C3DCLPS" />
       <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
-      <node concept="3MzsTm" id="1S_LPePHV$G" role="lGtFl">
-        <node concept="3MzsBX" id="1S_LPePHV$H" role="3MztjM">
+      <node concept="3MzsTm" id="4$IC3Kj1JUa" role="lGtFl">
+        <node concept="3MzsBX" id="4$IC3Kj1JUb" role="3MztjM">
           <ref role="3MzsBM" node="4DOwJpJxBt0" resolve="LPS=YES" />
         </node>
-        <node concept="3MzsBX" id="1S_LPePHV$I" role="3MztjM">
+        <node concept="3MzsBX" id="4$IC3Kj1JUc" role="3MztjM">
           <ref role="3MzsBM" node="w5znaeV$En" resolve="counts" />
         </node>
       </node>
@@ -728,7 +728,7 @@
           <node concept="31$ALs" id="w5znaeV_wC" role="QaakN">
             <node concept="3y3z36" id="w5znaeV_AA" role="31$ALt">
               <node concept="3$Gm2I" id="7ZuwI_dz$mE" role="3uHU7B">
-                <ref role="3$Gm2J" node="1S_LPePHVzC" resolve="gene" />
+                <ref role="3$Gm2J" node="4$IC3Kj1JT8" resolve="gene" />
               </node>
               <node concept="Xl_RD" id="w5znaeV_Bt" role="3uHU7w">
                 <property role="Xl_RC" value="Total" />
