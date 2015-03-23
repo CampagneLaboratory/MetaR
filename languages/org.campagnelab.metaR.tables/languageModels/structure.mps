@@ -1838,9 +1838,9 @@
   </node>
   <node concept="1TIwiD" id="kv77ytcCe9">
     <property role="TrG5h" value="IdsFromSetOfIds" />
-    <property role="34LRSv" value="from a define set of IDs" />
-    <property role="R4oN_" value="from a set of ids for venndiagram" />
+    <property role="34LRSv" value="Ids from a define set" />
     <property role="3GE5qa" value="venn" />
+    <property role="R4oN_" value="a user define set of ids " />
     <ref role="1TJDcQ" node="kv77yxiEq2" resolve="IdsFrom" />
     <node concept="1TJgyj" id="kv77ytcCkz" role="1TKVEi">
       <property role="20lmBu" value="reference" />
@@ -1886,14 +1886,14 @@
     <property role="3GE5qa" value="venn" />
     <property role="TrG5h" value="IdsFromTable" />
     <property role="19KtqR" value="true" />
-    <property role="34LRSv" value="from Table  IDs Set " />
-    <property role="R4oN_" value="IDs which come from a table" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <property role="34LRSv" value="Ids from Table " />
+    <property role="R4oN_" value="return Ids from an annotate table" />
+    <ref role="1TJDcQ" node="kv77yxiEq2" resolve="IdsFrom" />
     <node concept="1TJgyj" id="t0TZVlt6GR" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="rowFilter" />
       <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="3BiNpr5Jr7W" resolve="AbstractRowFilter" />
+      <ref role="20lvS9" node="6K3Kmzqfo1S" resolve="FilterWithExpression" />
     </node>
     <node concept="1TJgyj" id="t0TZVlt6GT" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
