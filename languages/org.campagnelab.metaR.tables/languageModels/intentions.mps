@@ -238,6 +238,7 @@
       <concept id="1240687580870" name="jetbrains.mps.baseLanguage.collections.structure.JoinOperation" flags="nn" index="3uJxvA">
         <child id="1240687658305" name="delimiter" index="3uJOhx" />
       </concept>
+      <concept id="1165530316231" name="jetbrains.mps.baseLanguage.collections.structure.IsEmptyOperation" flags="nn" index="1v1jN8" />
       <concept id="1225727723840" name="jetbrains.mps.baseLanguage.collections.structure.FindFirstOperation" flags="nn" index="1z4cxt" />
       <concept id="1202120902084" name="jetbrains.mps.baseLanguage.collections.structure.WhereOperation" flags="nn" index="3zZkjj" />
       <concept id="1176501494711" name="jetbrains.mps.baseLanguage.collections.structure.IsNotEmptyOperation" flags="nn" index="3GX2aA" />
@@ -1539,6 +1540,44 @@
                 <node concept="Rh6nW" id="5qhB25DuLSP" role="1bW2Oz">
                   <property role="TrG5h" value="it" />
                   <node concept="2jxLKc" id="5qhB25DuLSQ" role="1tU5fm" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2S6QgY" id="6ZmHkZ8N7pQ">
+    <property role="3GE5qa" value="venn" />
+    <property role="TrG5h" value="venndiagram" />
+    <ref role="2ZfgGC" to="jrxw:kv77ytcHu7" resolve="VennDiagram" />
+    <node concept="2Sbjvc" id="6ZmHkZ8N7pR" role="2ZfgGD">
+      <node concept="3clFbS" id="6ZmHkZ8N7pS" role="2VODD2" />
+    </node>
+    <node concept="2S6ZIM" id="6ZmHkZ8N7pT" role="2ZfVej">
+      <node concept="3clFbS" id="6ZmHkZ8N7pU" role="2VODD2">
+        <node concept="3clFbF" id="6ZmHkZ8N81$" role="3cqZAp">
+          <node concept="3cpWs3" id="6ZmHkZ8NqZZ" role="3clFbG">
+            <node concept="Xl_RD" id="6ZmHkZ8Nrep" role="3uHU7w">
+              <property role="Xl_RC" value="Sets" />
+            </node>
+            <node concept="1eOMI4" id="6ZmHkZ8Nq_l" role="3uHU7B">
+              <node concept="3K4zz7" id="6ZmHkZ8Nni1" role="1eOMHV">
+                <node concept="Xl_RD" id="6ZmHkZ8NoBj" role="3K4GZi">
+                  <property role="Xl_RC" value="Remove" />
+                </node>
+                <node concept="Xl_RD" id="6ZmHkZ8NnQ7" role="3K4E3e">
+                  <property role="Xl_RC" value="Add" />
+                </node>
+                <node concept="2OqwBi" id="6ZmHkZ8NjmK" role="3K4Cdx">
+                  <node concept="2OqwBi" id="6ZmHkZ8N8g8" role="2Oq$k0">
+                    <node concept="2Sf5sV" id="6ZmHkZ8N81z" role="2Oq$k0" />
+                    <node concept="3Tsc0h" id="6ZmHkZ8Ni4i" role="2OqNvi">
+                      <ref role="3TtcxE" to="jrxw:kv77ytcHuc" />
+                    </node>
+                  </node>
+                  <node concept="1v1jN8" id="6ZmHkZ8Nmn$" role="2OqNvi" />
                 </node>
               </node>
             </node>
