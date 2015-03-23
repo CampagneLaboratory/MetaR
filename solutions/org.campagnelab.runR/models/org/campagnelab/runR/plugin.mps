@@ -72,7 +72,6 @@
     <import index="5qhg" ref="f:java_stub#742f6602-5a2f-4313-aa6e-ae1cd4ffdc61#jetbrains.mps.ide.navigation(MPS.Platform/jetbrains.mps.ide.navigation@java_stub)" />
     <import index="pt5l" ref="f:java_stub#742f6602-5a2f-4313-aa6e-ae1cd4ffdc61#jetbrains.mps.ide.project(MPS.Platform/jetbrains.mps.ide.project@java_stub)" />
     <import index="9m56" ref="f:java_stub#6ed54515-acc8-4d1e-a16c-9fd6cfe951ea#jetbrains.mps.generator.traceInfo(MPS.Core/jetbrains.mps.generator.traceInfo@java_stub)" />
-    <import index="tprs" ref="r:00000000-0000-4000-0000-011c895904a4(jetbrains.mps.ide.actions)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
@@ -129,9 +128,6 @@
         <child id="1217413222820" name="parameter" index="1NuT2Z" />
         <child id="8976425910813834639" name="icon" index="3Uehp1" />
       </concept>
-      <concept id="1203071677434" name="jetbrains.mps.lang.plugin.structure.ToolDeclaration" flags="ng" index="sEfby">
-        <child id="1214307129846" name="getComponentBlock" index="2Um5zG" />
-      </concept>
       <concept id="1203083511112" name="jetbrains.mps.lang.plugin.structure.ExecuteBlock" flags="in" index="tnohg" />
       <concept id="1203087890642" name="jetbrains.mps.lang.plugin.structure.ActionGroupDeclaration" flags="ng" index="tC5Ba">
         <child id="1204991552650" name="modifier" index="2f5YQi" />
@@ -141,7 +137,6 @@
         <reference id="1203088061055" name="action" index="tCJdB" />
       </concept>
       <concept id="1203092361741" name="jetbrains.mps.lang.plugin.structure.ModificationStatement" flags="lg" index="tT9cl">
-        <reference id="1204992316090" name="point" index="2f8Tey" />
         <reference id="1203092736097" name="modifiedGroup" index="tU$_T" />
       </concept>
       <concept id="2450897840534683979" name="jetbrains.mps.lang.plugin.structure.EditorTabReference" flags="nn" index="2vPdvi">
@@ -165,11 +160,6 @@
       </concept>
       <concept id="1205679047295" name="jetbrains.mps.lang.plugin.structure.ActionParameterDeclaration" flags="ig" index="2S4$dB" />
       <concept id="1205681243813" name="jetbrains.mps.lang.plugin.structure.IsApplicableBlock" flags="in" index="2ScWuX" />
-      <concept id="1214307303872" name="jetbrains.mps.lang.plugin.structure.GetComponentBlock" flags="in" index="2UmK3q" />
-      <concept id="6547237850567458268" name="jetbrains.mps.lang.plugin.structure.BaseToolDeclaration" flags="ng" index="2XNcJY">
-        <property id="6547237850567462620" name="caption" index="2XNbzY" />
-        <child id="6791676465872004185" name="toolIcon" index="1nVCmq" />
-      </concept>
       <concept id="1562714432501166198" name="jetbrains.mps.lang.plugin.structure.SimpleShortcutChange" flags="lg" index="Zd509">
         <child id="1562714432501166206" name="keystroke" index="Zd501" />
       </concept>
@@ -2667,55 +2657,6 @@
     <node concept="3Tm1VV" id="1iB3OwqtihT" role="1B3o_S" />
     <node concept="3uibUv" id="1iB3OwqttR2" role="3TOOP4">
       <ref role="3uigEE" to="e2lb:~Cloneable" resolve="Cloneable" />
-    </node>
-  </node>
-  <node concept="sEfby" id="5HtHr3EptJ2">
-    <property role="2XNbzY" value="SomeTool" />
-    <property role="TrG5h" value="T Tool" />
-    <node concept="2UmK3q" id="5HtHr3EptJ3" role="2Um5zG">
-      <node concept="3clFbS" id="5HtHr3EptJ4" role="2VODD2">
-        <node concept="3cpWs6" id="5HtHr3Epu$7" role="3cqZAp">
-          <node concept="2ShNRf" id="5HtHr3EpyMW" role="3cqZAk">
-            <node concept="1pGfFk" id="5HtHr3EpzHc" role="2ShVmc">
-              <ref role="37wK5l" to="dbrf:~JPanel.&lt;init&gt;()" resolve="JPanel" />
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="1QGGSu" id="5HtHr3Epu1f" role="1nVCmq">
-      <node concept="1QGGTy" id="5HtHr3EpueS" role="3xaMm5">
-        <ref role="1QGGTH" node="5HtHr3Ew_B0" resolve="Table" />
-      </node>
-    </node>
-  </node>
-  <node concept="sE7Ow" id="5HtHr3Eqd1q">
-    <property role="TrG5h" value="TToolAction" />
-    <property role="1WHSii" value="TTool" />
-    <property role="2uzpH1" value="TTool Action" />
-    <node concept="tnohg" id="5HtHr3Eqd1r" role="tncku">
-      <node concept="3clFbS" id="5HtHr3Eqd1s" role="2VODD2" />
-    </node>
-    <node concept="1QGGSu" id="5HtHr3Eqd1H" role="3Uehp1">
-      <node concept="1QGGTy" id="5HtHr3Er5LJ" role="3xaMm5">
-        <ref role="1QGGTH" node="5HtHr3Ew_B0" resolve="Table" />
-      </node>
-    </node>
-  </node>
-  <node concept="tC5Ba" id="5HtHr3EpLQn">
-    <property role="TrG5h" value="TToolGroup" />
-    <node concept="tT9cl" id="5HtHr3EpLXg" role="2f5YQi">
-      <ref role="tU$_T" to="tprs:hyf4LYI" resolve="Tools" />
-      <ref role="2f8Tey" to="tprs:hHYwqIT" resolve="customTools" />
-    </node>
-    <node concept="fu6FP" id="5HtHr3EpLQO" role="ftER_">
-      <node concept="3clFbS" id="5HtHr3EpLQQ" role="2VODD2">
-        <node concept="2JFkCU" id="5HtHr3Eqd0O" role="3cqZAp">
-          <node concept="tCFHf" id="5HtHr3Eqd9x" role="2JFLmv">
-            <ref role="tCJdB" node="5HtHr3Eqd1q" resolve="TToolAction" />
-          </node>
-        </node>
-      </node>
     </node>
   </node>
   <node concept="1QGGSo" id="5HtHr3Ek4ZU">
