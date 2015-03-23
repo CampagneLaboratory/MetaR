@@ -4244,25 +4244,12 @@
           <ref role="1NtTu8" to="jrxw:kv77ytcHuc" />
           <node concept="2iRkQZ" id="7mrPTtAEwCT" role="2czzBx" />
           <node concept="3F0ifn" id="7mrPTtBl$XN" role="2czzBI" />
-          <node concept="4$FPG" id="6ZmHkZ6qWwj" role="4_6I_">
-            <node concept="3clFbS" id="6ZmHkZ6qWwk" role="2VODD2">
-              <node concept="3clFbF" id="6ZmHkZ6qW_M" role="3cqZAp">
-                <node concept="2ShNRf" id="6ZmHkZ6qXET" role="3clFbG">
-                  <node concept="3zrR0B" id="6ZmHkZ6r2N3" role="2ShVmc">
-                    <node concept="3Tqbb2" id="6ZmHkZ6r2N5" role="3zrR0E">
-                      <ref role="ehGHo" to="jrxw:kv77ytcCe9" resolve="IdsFromSetOfIds" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
         </node>
         <node concept="2iRkQZ" id="7mrPTtAEwCL" role="2iSdaV" />
       </node>
       <node concept="2iRfu4" id="7mrPTtAEwCh" role="2iSdaV" />
       <node concept="3F0ifn" id="7mrPTtAEwD4" role="3EZMnx">
-        <property role="3F0ifm" value=" --&gt;" />
+        <property role="3F0ifm" value=" -&gt;" />
       </node>
       <node concept="3F1sOY" id="7mrPTtAEwDm" role="3EZMnx">
         <ref role="1NtTu8" to="jrxw:kv77ytcHua" />

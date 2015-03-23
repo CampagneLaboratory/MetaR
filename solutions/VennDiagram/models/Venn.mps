@@ -16,7 +16,11 @@
     <import index="9nc5" ref="r:d1a256e6-591a-459f-809c-7fc9df45e4d5(org.campagnelab.mps.XChart.types.roots)" implicit="true" />
   </imports>
   <registry>
+    <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
+      <concept id="1068431790191" name="jetbrains.mps.baseLanguage.structure.Expression" flags="nn" index="33vP2n" />
+    </language>
     <language id="5d6bde84-4ce4-4eb5-a37e-25a5edd55129" name="org.campagnelab.metar.tables">
+      <concept id="4451133196879828915" name="org.campagnelab.metar.tables.structure.TableRef" flags="ng" index="afgQW" />
       <concept id="369044998826656649" name="org.campagnelab.metar.tables.structure.IdsFromSetOfIds" flags="ng" index="2obpZL">
         <reference id="369044998826657059" name="oneSetOfIds" index="2obp_r" />
       </concept>
@@ -28,6 +32,9 @@
         <reference id="8031339867720116704" name="usage" index="2y_IjI" />
       </concept>
       <concept id="8016431400517087678" name="org.campagnelab.metar.tables.structure.UsageType" flags="ng" index="2_mUhs" />
+      <concept id="7783277237108572280" name="org.campagnelab.metar.tables.structure.FilterWithExpression" flags="ng" index="2Qf$4g">
+        <child id="2826789978062873521" name="filter" index="QaakN" />
+      </concept>
       <concept id="8962032619593737384" name="org.campagnelab.metar.tables.structure.Statement" flags="ng" index="S1EQ7">
         <property id="8962032619593737385" name="id" index="S1EQ6" />
       </concept>
@@ -35,9 +42,15 @@
         <property id="2742007948298959018" name="trycatch_enabled" index="2BDq$p" />
         <child id="8962032619593737383" name="statements" index="S1EQ8" />
       </concept>
-      <concept id="8962032619593737377" name="org.campagnelab.metar.tables.structure.EmptyLine" flags="ng" index="S1EQe" />
       <concept id="8962032619582305406" name="org.campagnelab.metar.tables.structure.StatementList" flags="ng" index="ZXjPh">
         <child id="8962032619582305407" name="transformations" index="ZXjPg" />
+      </concept>
+      <concept id="5052319772298911308" name="org.campagnelab.metar.tables.structure.ExpressionWrapper" flags="ng" index="31$ALs">
+        <child id="5052319772298911309" name="expression" index="31$ALt" />
+      </concept>
+      <concept id="522672638463863191" name="org.campagnelab.metar.tables.structure.IdsFromTable" flags="ng" index="3id8TD">
+        <child id="522672638463863609" name="table" index="3id8N7" />
+        <child id="522672638463863607" name="rowFilter" index="3id8N9" />
       </concept>
       <concept id="8459500803719374384" name="org.campagnelab.metar.tables.structure.Plot" flags="ng" index="1FHg$p">
         <property id="8962032619586498917" name="width" index="ZHjxa" />
@@ -483,23 +496,24 @@
           </node>
         </node>
       </node>
-      <node concept="S1EQe" id="6ZmHkZ79WU0" role="ZXjPg">
-        <property role="S1EQ6" value="VDCSUMFCAL" />
-      </node>
-      <node concept="2obsJZ" id="6ZmHkZ7$b7Z" role="ZXjPg">
-        <property role="S1EQ6" value="WHQWXXGSOT" />
-        <node concept="2obpZL" id="6ZmHkZ7$b80" role="2obsJO">
-          <property role="TrG5h" value="dq" />
+      <node concept="2obsJZ" id="6ZmHkZa0HE0" role="ZXjPg">
+        <property role="S1EQ6" value="XQXJJPGBXE" />
+        <node concept="2obpZL" id="6ZmHkZa0HE1" role="2obsJO">
+          <property role="TrG5h" value="dd" />
           <ref role="2obp_r" node="kv77ypitiP" resolve="daaaa1" />
         </node>
-        <node concept="2obpZL" id="6ZmHkZ7$b8Q" role="2obsJO">
-          <property role="TrG5h" value="AA" />
-          <ref role="2obp_r" node="t0TZVfUW7F" resolve="test3" />
+        <node concept="3id8TD" id="6ZmHkZa0HET" role="2obsJO">
+          <node concept="afgQW" id="6ZmHkZa0HEV" role="3id8N7" />
+          <node concept="2Qf$4g" id="6ZmHkZa0HEX" role="3id8N9">
+            <node concept="31$ALs" id="6ZmHkZa0HEZ" role="QaakN">
+              <node concept="33vP2n" id="6ZmHkZa0HF1" role="31$ALt" />
+            </node>
+          </node>
         </node>
-        <node concept="1FHg$p" id="6ZmHkZ7$b82" role="2obsJM">
+        <node concept="1FHg$p" id="6ZmHkZa0HE3" role="2obsJM">
           <property role="ZHjxa" value="200" />
           <property role="ZHjG8" value="200" />
-          <property role="TrG5h" value="RRR" />
+          <property role="TrG5h" value="plot" />
         </node>
       </node>
     </node>
@@ -745,6 +759,9 @@
         </node>
       </node>
     </node>
+  </node>
+  <node concept="2YPoW8" id="6ZmHkZ8N7aK">
+    <property role="TrG5h" value="DefaultStyle" />
   </node>
 </model>
 
