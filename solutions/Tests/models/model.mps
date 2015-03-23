@@ -381,14 +381,6 @@
           <ref role="3MlLW5" node="6yCrzs9Eg5y" resolve="TableC.csv" />
         </node>
       </node>
-      <node concept="3MjoWR" id="2od$re1xQHf" role="ZXjPg">
-        <property role="S1EQ6" value="JUDSGDPAJI" />
-        <ref role="3Mj2Vh" node="2od$re1l7Z_" resolve="TableWithColumnNameNumbers.tsv" />
-        <node concept="3MlLWZ" id="2od$re1xQK5" role="3MjoVY">
-          <property role="TrG5h" value="TableWithColumnNameNumbers.tsv" />
-          <ref role="3MlLW5" node="2od$re1l7Z_" resolve="TableWithColumnNameNumbers.tsv" />
-        </node>
-      </node>
       <node concept="S1EQe" id="6yCrzs9LaWL" role="ZXjPg">
         <property role="S1EQ6" value="KXKACHYTCO" />
       </node>
@@ -1136,32 +1128,6 @@
       <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
     </node>
     <node concept="31JHg8" id="2Yw6f5rDq1X" role="31JHgj">
-      <property role="TrG5h" value="Column5" />
-      <ref role="1YeEjl" to="9nc5:1ID5TXdv_9L" resolve="String" />
-    </node>
-  </node>
-  <node concept="3Mpm39" id="2od$re1l7Z_">
-    <property role="31Cu5t" value="&#9;" />
-    <property role="31JHgl" value="/Users/mas2182/Lab/Projects/MPS/MetaR/data/tests/TableWithColumnNameNumbers.tsv" />
-    <property role="TrG5h" value="TableWithColumnNameNumbers.tsv" />
-    <property role="26T8KA" value="/Users/mas2182/Lab/Projects/MPS/MetaR/data/tests/TableWithColumnNameNumbers.tsv" />
-    <node concept="31JHg8" id="2od$re1rwiM" role="31JHgj">
-      <property role="TrG5h" value="1" />
-      <ref role="1YeEjl" to="9nc5:1ID5TXdv_9L" resolve="String" />
-    </node>
-    <node concept="31JHg8" id="2od$re1rwiN" role="31JHgj">
-      <property role="TrG5h" value="2" />
-      <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
-    </node>
-    <node concept="31JHg8" id="2od$re1rwiO" role="31JHgj">
-      <property role="TrG5h" value="3Column3" />
-      <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
-    </node>
-    <node concept="31JHg8" id="2od$re1rwiP" role="31JHgj">
-      <property role="TrG5h" value="6565Column4" />
-      <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
-    </node>
-    <node concept="31JHg8" id="2od$re1rwiQ" role="31JHgj">
       <property role="TrG5h" value="Column5" />
       <ref role="1YeEjl" to="9nc5:1ID5TXdv_9L" resolve="String" />
     </node>
