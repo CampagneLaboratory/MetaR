@@ -1443,8 +1443,8 @@
   <node concept="2YPoW8" id="2od$re0TptV">
     <property role="TrG5h" value="HeatmapStyle" />
     <node concept="24aBtg" id="2od$re0Tp$c" role="2YPqp2">
-      <property role="TrG5h" value="Sequential-BuGn" />
-      <ref role="24aBtv" to="wiqx:1xsIq4yn5p" resolve="Sequential-BuGn" />
+      <property role="TrG5h" value="Sequential-YlOrRd" />
+      <ref role="24aBtv" to="wiqx:1xsIq4y9NE" resolve="Sequential-YlOrRd" />
     </node>
     <node concept="2A4dvw" id="2od$re2ibWE" role="2YPqp2">
       <property role="2A4bwM" value="true" />
