@@ -4,6 +4,15 @@
   <languages>
     <use id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" name="jetbrains.mps.lang.typesystem" version="-1" />
     <use id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior" version="-1" />
+    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="0" />
+    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="0" />
+    <use id="ed6d7656-532c-4bc2-81d1-af945aeb8280" name="jetbrains.mps.baseLanguage.blTypes" version="0" />
+    <use id="443f4c36-fcf5-4eb6-9500-8d06ed259e3e" name="jetbrains.mps.baseLanguage.classifiers" version="0" />
+    <use id="aee9cad2-acd4-4608-aef2-0004f6a1cdbd" name="jetbrains.mps.lang.actions" version="0" />
+    <use id="13744753-c81f-424a-9c1b-cf8943bf4e86" name="jetbrains.mps.lang.sharedConcepts" version="0" />
+    <use id="9ded098b-ad6a-4657-bfd9-48636cfe8bc3" name="jetbrains.mps.lang.traceable" version="0" />
+    <use id="6106f611-7a74-42d1-80de-edc5c602bfd1" name="jetbrains.mps.lang.editor.diagram" version="0" />
+    <use id="d7722d50-4b93-4c3a-ae06-1903d05f95a7" name="jetbrains.mps.lang.editor.figures" version="0" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -2257,11 +2266,41 @@
     </node>
   </node>
   <node concept="18kY7G" id="kv77ytxmq6">
-    <property role="TrG5h" value="check_VennDiagram" />
+    <property role="TrG5h" value="checkVennDiagramTableHasID" />
     <property role="3GE5qa" value="venn" />
-    <node concept="3clFbS" id="kv77ytxmq7" role="18ibNy" />
+    <node concept="3clFbS" id="kv77ytxmq7" role="18ibNy">
+      <node concept="2Gpval" id="6ZmHkZabFom" role="3cqZAp">
+        <node concept="2GrKxI" id="6ZmHkZabFon" role="2Gsz3X">
+          <property role="TrG5h" value="set" />
+        </node>
+        <node concept="3clFbS" id="6ZmHkZabFoo" role="2LFqv$">
+          <node concept="3clFbJ" id="6ZmHkZabFYQ" role="3cqZAp">
+            <node concept="3clFbS" id="6ZmHkZabFYR" role="3clFbx" />
+            <node concept="2OqwBi" id="6ZmHkZabOGW" role="3clFbw">
+              <node concept="2GrUjf" id="6ZmHkZabOC1" role="2Oq$k0">
+                <ref role="2Gs0qQ" node="6ZmHkZabFon" resolve="set" />
+              </node>
+              <node concept="1mIQ4w" id="6ZmHkZabP6n" role="2OqNvi">
+                <node concept="chp4Y" id="6ZmHkZabP81" role="cj9EA">
+                  <ref role="cht4Q" to="jrxw:t0TZVlt6An" resolve="IdsFromTable" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbH" id="6ZmHkZabGp0" role="3cqZAp" />
+        </node>
+        <node concept="2OqwBi" id="6ZmHkZabFvr" role="2GsD0m">
+          <node concept="1YBJjd" id="6ZmHkZabFrc" role="2Oq$k0">
+            <ref role="1YBMHb" node="kv77ytxmq9" resolve="venn" />
+          </node>
+          <node concept="3Tsc0h" id="6ZmHkZabFWx" role="2OqNvi">
+            <ref role="3TtcxE" to="jrxw:kv77ytcHuc" />
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="1YaCAy" id="kv77ytxmq9" role="1YuTPh">
-      <property role="TrG5h" value="vennDiagramSet" />
+      <property role="TrG5h" value="venn" />
       <ref role="1YaFvo" to="jrxw:kv77ytcHu7" resolve="VennDiagram" />
     </node>
   </node>
