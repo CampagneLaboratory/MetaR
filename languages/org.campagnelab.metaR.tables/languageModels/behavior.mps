@@ -36,6 +36,7 @@
     <import index="8vtd" ref="r:cbd13695-fd32-4d39-aded-ba7e630ac2c3(org.campagnelab.metar.inspect.structure)" />
     <import index="42z1" ref="r:61980467-5cf8-4450-9d24-d597512183ad(org.campagnelab.styles.behavior)" />
     <import index="onla" ref="r:b81182ba-13d2-441a-9b65-76fe2bd96f30(org.campagnelab.styles.structure)" />
+    <import index="x7of" ref="r:437ca43c-6323-49fb-979f-681501286fcd(org.campagnelab.metar.code.annotations)" implicit="true" />
   </imports>
   <registry>
     <language id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior">
@@ -168,7 +169,7 @@
         <child id="1068580123161" name="ifTrue" index="3clFbx" />
         <child id="1206060520071" name="elsifClauses" index="3eNLev" />
       </concept>
-      <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
+      <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
       </concept>
       <concept id="1068580123137" name="jetbrains.mps.baseLanguage.structure.BooleanConstant" flags="nn" index="3clFbT">
@@ -1326,6 +1327,30 @@
         </node>
       </node>
       <node concept="3cqZAl" id="1S_LPePBG9d" role="3clF45" />
+    </node>
+    <node concept="13i0hz" id="3zjLmdCAgdY" role="13h7CS">
+      <property role="TrG5h" value="isAnnotationTable" />
+      <node concept="3Tm1VV" id="3zjLmdCAgdZ" role="1B3o_S" />
+      <node concept="10P_77" id="3zjLmdCAhQl" role="3clF45" />
+      <node concept="3clFbS" id="3zjLmdCAge1" role="3clF47">
+        <node concept="3clFbF" id="3zjLmdD4WbA" role="3cqZAp">
+          <node concept="2YIFZM" id="3zjLmdD4WbY" role="3clFbG">
+            <ref role="37wK5l" to="x7of:3zjLmdD4M3G" resolve="isAnnotationTable" />
+            <ref role="1Pybhc" to="x7of:3zjLmdD4CNV" resolve="AnnotationTable" />
+            <node concept="13iPFW" id="3zjLmdD4Wcm" role="37wK5m" />
+          </node>
+        </node>
+      </node>
+      <node concept="P$JXv" id="3zjLmdCAVBS" role="lGtFl">
+        <node concept="TZ5HA" id="3zjLmdCAVBT" role="TZ5H$">
+          <node concept="1dT_AC" id="3zjLmdCAVBU" role="1dT_Ay">
+            <property role="1dT_AB" value="Checks if the table can be used to annotate another one. " />
+          </node>
+        </node>
+        <node concept="x79VA" id="3zjLmdCAVBV" role="x79VK">
+          <property role="x79VB" value="true or false, depending on the schema of the table" />
+        </node>
+      </node>
     </node>
   </node>
   <node concept="13h7C7" id="2WRhvFtJXQm">
@@ -11768,6 +11793,13 @@
       </node>
     </node>
   </node>
+  <node concept="13h7C7" id="kv77yv5d5L">
+    <property role="3GE5qa" value="ids" />
+    <ref role="13h7C2" to="jrxw:3BiNpr5FGHV" resolve="SetOfIds" />
+    <node concept="13hLZK" id="kv77yv5d5M" role="13h7CW">
+      <node concept="3clFbS" id="kv77yv5d5N" role="2VODD2" />
+    </node>
+  </node>
   <node concept="13h7C7" id="kv77yuxFdQ">
     <property role="3GE5qa" value="venn" />
     <ref role="13h7C2" to="jrxw:kv77ytcCe9" resolve="IdsFromSetOfIds" />
@@ -11856,13 +11888,6 @@
     </node>
     <node concept="13hLZK" id="kv77yv5cRJ" role="13h7CW">
       <node concept="3clFbS" id="kv77yv5cRK" role="2VODD2" />
-    </node>
-  </node>
-  <node concept="13h7C7" id="kv77yv5d5L">
-    <property role="3GE5qa" value="ids" />
-    <ref role="13h7C2" to="jrxw:3BiNpr5FGHV" resolve="SetOfIds" />
-    <node concept="13hLZK" id="kv77yv5d5M" role="13h7CW">
-      <node concept="3clFbS" id="kv77yv5d5N" role="2VODD2" />
     </node>
   </node>
 </model>
