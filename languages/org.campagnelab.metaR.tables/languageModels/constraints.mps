@@ -81,7 +81,7 @@
         <child id="1068580123160" name="condition" index="3clFbw" />
         <child id="1068580123161" name="ifTrue" index="3clFbx" />
       </concept>
-      <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
+      <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
       </concept>
       <concept id="1068580123137" name="jetbrains.mps.baseLanguage.structure.BooleanConstant" flags="nn" index="3clFbT">
@@ -144,7 +144,6 @@
       <concept id="1147468365020" name="jetbrains.mps.lang.constraints.structure.ConstraintsFunctionParameter_node" flags="nn" index="EsrRn" />
       <concept id="3481330710159180554" name="jetbrains.mps.lang.constraints.structure.ConstraintFunction_ReferentSearchScope_Validator" flags="in" index="OSAzs" />
       <concept id="7855321458717464197" name="jetbrains.mps.lang.constraints.structure.ConstraintFunction_CanBeAnAncestor" flags="in" index="Um2eU" />
-      <concept id="5676632058862809931" name="jetbrains.mps.lang.constraints.structure.ConstraintFunction_ReferentSearchScope_Scope" flags="in" index="13QW63" />
       <concept id="8401916545537438642" name="jetbrains.mps.lang.constraints.structure.InheritedNodeScopeFactory" flags="ng" index="1dDu$B">
         <reference id="8401916545537438643" name="kind" index="1dDu$A" />
       </concept>
@@ -1663,25 +1662,21 @@
     <ref role="1M2myG" to="jrxw:6XP3gVdSYBv" resolve="UsageTypeRef" />
     <node concept="1N5Pfh" id="7gaqNttNfYd" role="1Mr941">
       <ref role="1N5Vy1" to="jrxw:6XP3gVdSYBw" />
-      <node concept="13QW63" id="7gaqNttNfYh" role="1N6uqs">
-        <node concept="3clFbS" id="7gaqNttNfYj" role="2VODD2">
-          <node concept="3cpWs6" id="7gaqNttNyae" role="3cqZAp">
-            <node concept="2YIFZM" id="7gaqNttNg9o" role="3cqZAk">
-              <ref role="37wK5l" to="vyt2:~ListScope.forNamedElements(java.lang.Iterable):jetbrains.mps.scope.ListScope" resolve="forNamedElements" />
-              <ref role="1Pybhc" to="vyt2:~ListScope" resolve="ListScope" />
-              <node concept="2OqwBi" id="7gaqNttNvUq" role="37wK5m">
-                <node concept="2OqwBi" id="7gaqNttNrrw" role="2Oq$k0">
-                  <node concept="2OqwBi" id="7gaqNttNgzL" role="2Oq$k0">
-                    <node concept="1Q6Npb" id="7gaqNttNgm1" role="2Oq$k0" />
-                    <node concept="2RRcyG" id="7gaqNttNgSR" role="2OqNvi">
-                      <ref role="2RRcyH" to="jrxw:2WRhvFtICK0" resolve="ColumnGroupContainer" />
-                    </node>
+      <node concept="1MUpDS" id="3zjLmdDiRWD" role="1N6uqs">
+        <node concept="3clFbS" id="3zjLmdDiRWE" role="2VODD2">
+          <node concept="3clFbF" id="3zjLmdDiT1a" role="3cqZAp">
+            <node concept="2OqwBi" id="7gaqNttNvUq" role="3clFbG">
+              <node concept="2OqwBi" id="7gaqNttNrrw" role="2Oq$k0">
+                <node concept="2OqwBi" id="7gaqNttNgzL" role="2Oq$k0">
+                  <node concept="1Q6Npb" id="7gaqNttNgm1" role="2Oq$k0" />
+                  <node concept="2RRcyG" id="7gaqNttNgSR" role="2OqNvi">
+                    <ref role="2RRcyH" to="jrxw:2WRhvFtICK0" resolve="ColumnGroupContainer" />
                   </node>
-                  <node concept="1uHKPH" id="7gaqNttNuvv" role="2OqNvi" />
                 </node>
-                <node concept="3Tsc0h" id="7gaqNttNweW" role="2OqNvi">
-                  <ref role="3TtcxE" to="jrxw:6XP3gVdRJUX" />
-                </node>
+                <node concept="1uHKPH" id="7gaqNttNuvv" role="2OqNvi" />
+              </node>
+              <node concept="3Tsc0h" id="7gaqNttNweW" role="2OqNvi">
+                <ref role="3TtcxE" to="jrxw:6XP3gVdRJUX" />
               </node>
             </node>
           </node>
