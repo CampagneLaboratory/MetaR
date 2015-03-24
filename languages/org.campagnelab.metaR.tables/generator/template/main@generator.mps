@@ -400,6 +400,7 @@
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
+      <concept id="4222318806802425298" name="jetbrains.mps.lang.core.structure.SuppressErrorsAnnotation" flags="ng" index="15s5l7" />
     </language>
     <language id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections">
       <concept id="1204796164442" name="jetbrains.mps.baseLanguage.collections.structure.InternalSequenceOperation" flags="nn" index="23sCx2">
@@ -11948,15 +11949,25 @@
                 <node concept="3clFbJ" id="3FhMZyBWG2Z" role="3cqZAp">
                   <node concept="3clFbS" id="3FhMZyBWG31" role="3clFbx">
                     <node concept="3cpWs6" id="3FhMZyBWHT6" role="3cqZAp">
-                      <node concept="2OqwBi" id="3FhMZyBWKHh" role="3cqZAk">
-                        <node concept="2OqwBi" id="3FhMZyBWIOg" role="2Oq$k0">
-                          <node concept="30H73N" id="3FhMZyBWIlx" role="2Oq$k0" />
-                          <node concept="3TrEf2" id="3FhMZyBWJBu" role="2OqNvi">
-                            <ref role="3Tt5mk" to="jrxw:3FhMZyAMzur" />
-                          </node>
+                      <node concept="3cpWs3" id="3FhMZyCqIet" role="3cqZAk">
+                        <node concept="Xl_RD" id="3FhMZyCqIzT" role="3uHU7w">
+                          <property role="Xl_RC" value="';" />
                         </node>
-                        <node concept="3TrcHB" id="3FhMZyBWLt6" role="2OqNvi">
-                          <ref role="3TsBF5" to="jrxw:4C4A90$OQe6" resolve="title" />
+                        <node concept="3cpWs3" id="3FhMZyCqGgi" role="3uHU7B">
+                          <node concept="Xl_RD" id="3FhMZyCqG_h" role="3uHU7B">
+                            <property role="Xl_RC" value="'" />
+                          </node>
+                          <node concept="2OqwBi" id="3FhMZyBWKHh" role="3uHU7w">
+                            <node concept="2OqwBi" id="3FhMZyBWIOg" role="2Oq$k0">
+                              <node concept="30H73N" id="3FhMZyBWIlx" role="2Oq$k0" />
+                              <node concept="3TrEf2" id="3FhMZyBWJBu" role="2OqNvi">
+                                <ref role="3Tt5mk" to="jrxw:3FhMZyAMzur" />
+                              </node>
+                            </node>
+                            <node concept="3TrcHB" id="3FhMZyBWLt6" role="2OqNvi">
+                              <ref role="3TsBF5" to="jrxw:4C4A90$OQe6" resolve="title" />
+                            </node>
+                          </node>
                         </node>
                       </node>
                     </node>
@@ -11975,11 +11986,11 @@
                       <node concept="3cpWs6" id="3FhMZyBWLUH" role="3cqZAp">
                         <node concept="3cpWs3" id="3FhMZyC1Onv" role="3cqZAk">
                           <node concept="Xl_RD" id="3FhMZyC1OGL" role="3uHU7w">
-                            <property role="Xl_RC" value=");" />
+                            <property role="Xl_RC" value="';" />
                           </node>
                           <node concept="3cpWs3" id="3FhMZyBWPox" role="3uHU7B">
                             <node concept="Xl_RD" id="3FhMZyBWMgv" role="3uHU7B">
-                              <property role="Xl_RC" value="c(Venn Diagram of " />
+                              <property role="Xl_RC" value="'Venn Diagram of " />
                             </node>
                             <node concept="2OqwBi" id="3FhMZyBWRxd" role="3uHU7w">
                               <node concept="2OqwBi" id="3FhMZyBWPKm" role="2Oq$k0">
@@ -12005,7 +12016,6 @@
         </node>
       </node>
       <node concept="1gZcZf" id="3FhMZyC1IS5" role="2G3XIn">
-        <property role="1gZaPE" value=";" />
         <node concept="3_3kQU" id="3FhMZyC1IS6" role="3_3kQL">
           <property role="3_3kQV" value="" />
         </node>
@@ -12036,9 +12046,100 @@
               <node concept="3clFbS" id="3FhMZyBX0RO" role="2VODD2">
                 <node concept="3clFbJ" id="3FhMZyBX12k" role="3cqZAp">
                   <node concept="3clFbS" id="3FhMZyBX12l" role="3clFbx">
+                    <node concept="3cpWs8" id="3FhMZyCJRHh" role="3cqZAp">
+                      <node concept="3cpWsn" id="3FhMZyCJRHi" role="3cpWs9">
+                        <property role="TrG5h" value="buffer" />
+                        <node concept="2OqwBi" id="3FhMZyCK8Lj" role="33vP2m">
+                          <node concept="2OqwBi" id="3FhMZyCJX1j" role="2Oq$k0">
+                            <node concept="2OqwBi" id="3FhMZyCJVKJ" role="2Oq$k0">
+                              <node concept="2OqwBi" id="3FhMZyCJUl1" role="2Oq$k0">
+                                <node concept="30H73N" id="3FhMZyCJUa5" role="2Oq$k0" />
+                                <node concept="3TrEf2" id="3FhMZyCJV7B" role="2OqNvi">
+                                  <ref role="3Tt5mk" to="jrxw:3FhMZyAMzur" />
+                                </node>
+                              </node>
+                              <node concept="3TrEf2" id="3FhMZyCJWsB" role="2OqNvi">
+                                <ref role="3Tt5mk" to="jrxw:20o901rAA5O" />
+                              </node>
+                            </node>
+                            <node concept="3Tsc0h" id="3FhMZyCJXx7" role="2OqNvi">
+                              <ref role="3TtcxE" to="jrxw:20o901rbeIH" />
+                            </node>
+                          </node>
+                          <node concept="liA8E" id="3FhMZyCKalo" role="2OqNvi">
+                            <ref role="37wK5l" to="e2lb:~Object.toString():java.lang.String" resolve="toString" />
+                          </node>
+                        </node>
+                        <node concept="3uibUv" id="3FhMZyCKdwB" role="1tU5fm">
+                          <ref role="3uigEE" to="e2lb:~String" resolve="String" />
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="3clFbH" id="3FhMZyCJTNZ" role="3cqZAp" />
                     <node concept="3cpWs6" id="3FhMZyBX2VW" role="3cqZAp">
-                      <node concept="Xl_RD" id="3FhMZyBZKUf" role="3cqZAk">
-                        <property role="Xl_RC" value="c('blue', 'goldenrod1', 'darkorange1', 'seagreen3', 'orchid3')" />
+                      <node concept="3cpWs3" id="3FhMZyCqWWk" role="3cqZAk">
+                        <node concept="Xl_RD" id="3FhMZyCqXjR" role="3uHU7w">
+                          <property role="Xl_RC" value=");" />
+                        </node>
+                        <node concept="3cpWs3" id="3FhMZyCqKWW" role="3uHU7B">
+                          <node concept="Xl_RD" id="3FhMZyBZKUf" role="3uHU7B">
+                            <property role="Xl_RC" value="c(" />
+                          </node>
+                          <node concept="2OqwBi" id="3FhMZyCS_AS" role="3uHU7w">
+                            <node concept="2OqwBi" id="3FhMZyCSqYP" role="2Oq$k0">
+                              <node concept="2OqwBi" id="3FhMZyCQovH" role="2Oq$k0">
+                                <node concept="2OqwBi" id="3FhMZyCOpBt" role="2Oq$k0">
+                                  <node concept="2OqwBi" id="3FhMZyCOmUU" role="2Oq$k0">
+                                    <node concept="2OqwBi" id="3FhMZyCOldO" role="2Oq$k0">
+                                      <node concept="2OqwBi" id="3FhMZyCOj$b" role="2Oq$k0">
+                                        <node concept="30H73N" id="3FhMZyCOji8" role="2Oq$k0" />
+                                        <node concept="3TrEf2" id="3FhMZyCOklq" role="2OqNvi">
+                                          <ref role="3Tt5mk" to="jrxw:3FhMZyAMzur" />
+                                        </node>
+                                      </node>
+                                      <node concept="3TrEf2" id="3FhMZyCOm6u" role="2OqNvi">
+                                        <ref role="3Tt5mk" to="jrxw:20o901rAA5O" />
+                                      </node>
+                                    </node>
+                                    <node concept="3Tsc0h" id="3FhMZyCOoov" role="2OqNvi">
+                                      <ref role="3TtcxE" to="jrxw:20o901rbeIH" />
+                                    </node>
+                                  </node>
+                                  <node concept="liA8E" id="3FhMZyCOrok" role="2OqNvi">
+                                    <ref role="37wK5l" to="e2lb:~Object.toString():java.lang.String" resolve="toString" />
+                                  </node>
+                                </node>
+                                <node concept="liA8E" id="3FhMZyCQpGB" role="2OqNvi">
+                                  <ref role="37wK5l" to="e2lb:~String.replace(java.lang.CharSequence,java.lang.CharSequence):java.lang.String" resolve="replace" />
+                                  <node concept="Xl_RD" id="3FhMZyCQrgG" role="37wK5m">
+                                    <property role="Xl_RC" value="[" />
+                                  </node>
+                                  <node concept="Xl_RD" id="3FhMZyCQsV5" role="37wK5m">
+                                    <property role="Xl_RC" value="'" />
+                                  </node>
+                                </node>
+                              </node>
+                              <node concept="liA8E" id="3FhMZyCSsJt" role="2OqNvi">
+                                <ref role="37wK5l" to="e2lb:~String.replaceAll(java.lang.String,java.lang.String):java.lang.String" resolve="replaceAll" />
+                                <node concept="Xl_RD" id="3FhMZyCSupF" role="37wK5m">
+                                  <property role="Xl_RC" value="," />
+                                </node>
+                                <node concept="Xl_RD" id="3FhMZyCSyov" role="37wK5m">
+                                  <property role="Xl_RC" value="','" />
+                                </node>
+                              </node>
+                            </node>
+                            <node concept="liA8E" id="3FhMZyCSBzq" role="2OqNvi">
+                              <ref role="37wK5l" to="e2lb:~String.replace(java.lang.CharSequence,java.lang.CharSequence):java.lang.String" resolve="replace" />
+                              <node concept="Xl_RD" id="3FhMZyCSDgQ" role="37wK5m">
+                                <property role="Xl_RC" value="]" />
+                              </node>
+                              <node concept="Xl_RD" id="3FhMZyCSF0q" role="37wK5m">
+                                <property role="Xl_RC" value="'" />
+                              </node>
+                            </node>
+                          </node>
+                        </node>
                       </node>
                     </node>
                   </node>
@@ -12072,27 +12173,53 @@
           <property role="3_3kQV" value="" />
         </node>
       </node>
-      <node concept="1gZcZf" id="3FhMZyC1I2i" role="2G3XIn">
-        <property role="1gZaPE" value=";" />
-        <node concept="3_3kQU" id="3FhMZyC1I2j" role="3_3kQL">
-          <property role="3_3kQV" value="" />
-        </node>
-      </node>
-      <node concept="1gZcZf" id="3FhMZyBX02Q" role="2G3XIn">
-        <property role="1gZaPE" value="print(colors);" />
-        <node concept="3_3kQU" id="3FhMZyBX02R" role="3_3kQL">
-          <property role="3_3kQV" value="" />
-        </node>
-      </node>
-      <node concept="1gZcZf" id="3FhMZyBWY6g" role="2G3XIn">
-        <property role="1gZaPE" value="" />
-        <node concept="3_3kQU" id="3FhMZyBWY6h" role="3_3kQL">
+      <node concept="1gZcZf" id="3FhMZyDnC94" role="2G3XIn">
+        <node concept="3_3kQU" id="3FhMZyDnC95" role="3_3kQL">
           <property role="3_3kQV" value="" />
         </node>
       </node>
       <node concept="1gZcZf" id="kv77ytxH9o" role="2G3XIn">
-        <property role="1gZaPE" value="generateArea(call);" />
+        <property role="1gZaPE" value="generateArea(call,colors[1:" />
+        <node concept="3_3kQU" id="3FhMZyDpAm9" role="3_3kQL">
+          <property role="3_3kQV" value="nbsets" />
+          <node concept="17Uvod" id="3FhMZyDpAmg" role="lGtFl">
+            <property role="P4ACc" value="901f5cf3-dc77-4c1e-bc5a-6382baee28b4/1680136183140337486/1680136183140337487" />
+            <property role="2qtEX9" value="text" />
+            <node concept="3zFVjK" id="3FhMZyDpAmh" role="3zH0cK">
+              <node concept="3clFbS" id="3FhMZyDpAmi" role="2VODD2">
+                <node concept="3cpWs6" id="3FhMZyDpAwM" role="3cqZAp">
+                  <node concept="2OqwBi" id="3FhMZyDpHGL" role="3cqZAk">
+                    <node concept="2OqwBi" id="3FhMZyDpAQA" role="2Oq$k0">
+                      <node concept="30H73N" id="3FhMZyDpAKE" role="2Oq$k0" />
+                      <node concept="3Tsc0h" id="3FhMZyDpBfB" role="2OqNvi">
+                        <ref role="3TtcxE" to="jrxw:kv77ytcHuc" />
+                      </node>
+                    </node>
+                    <node concept="34oBXx" id="3FhMZyDpMuK" role="2OqNvi" />
+                  </node>
+                  <node concept="15s5l7" id="3FhMZyDpN7l" role="lGtFl" />
+                </node>
+                <node concept="3clFbH" id="3FhMZyDpMJZ" role="3cqZAp" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3_3kQU" id="3FhMZyDpAm3" role="3_3kQL">
+          <property role="3_3kQV" value="" />
+        </node>
+        <node concept="3_3kQU" id="3FhMZyDpzby" role="3_3kQL">
+          <property role="3_3kQV" value="" />
+        </node>
+        <node concept="3_3kQU" id="3FhMZyDpzbn" role="3_3kQL">
+          <property role="3_3kQV" value="" />
+        </node>
         <node concept="3_3kQU" id="kv77ytxH9p" role="3_3kQL">
+          <property role="3_3kQV" value="" />
+        </node>
+      </node>
+      <node concept="1gZcZf" id="3FhMZyDpzbB" role="2G3XIn">
+        <property role="1gZaPE" value="],title);" />
+        <node concept="3_3kQU" id="3FhMZyDpzbC" role="3_3kQL">
           <property role="3_3kQV" value="" />
         </node>
       </node>
@@ -12743,7 +12870,7 @@
             <node concept="2G3XJi" id="6ZmHkZ7oIE8" role="2G3XIn">
               <property role="1gZaPE" value="" />
               <node concept="1gZcZf" id="6ZmHkZ7oIEd" role="2G3XIn">
-                <property role="1gZaPE" value="generateArea&lt;- function(sets){" />
+                <property role="1gZaPE" value="generateArea&lt;- function(sets,colors,title){" />
               </node>
               <node concept="1gZcZf" id="6ZmHkZ7oIE$" role="2G3XIn">
                 <property role="1gZaPE" value="   " />
@@ -12752,7 +12879,7 @@
                 <property role="1gZaPE" value="    area&lt;-c(length(unlist(sets[1])),length(unlist(sets[2])),length(intersect(unlist(sets[1]),unlist(sets[2]))));" />
               </node>
               <node concept="1gZcZf" id="6ZmHkZ7oIEA" role="2G3XIn">
-                <property role="1gZaPE" value="    drawVendiagram2(area,names(sets));" />
+                <property role="1gZaPE" value="    drawVendiagram2(area,names(sets),colors,title);" />
               </node>
               <node concept="1gZcZf" id="6ZmHkZ7oIEB" role="2G3XIn">
                 <property role="1gZaPE" value="  }" />
@@ -12771,7 +12898,7 @@
               </node>
             </node>
             <node concept="1gZcZf" id="6ZmHkZ7oIGU" role="2G3XIn">
-              <property role="1gZaPE" value="drawVendiagram2 &lt;- function(area,classname){" />
+              <property role="1gZaPE" value="drawVendiagram2 &lt;- function(area,classname,colors,inputTitle){" />
             </node>
             <node concept="1gZcZf" id="6ZmHkZ7oIGV" role="2G3XIn">
               <property role="1gZaPE" value="  require(VennDiagram);" />
@@ -12801,10 +12928,25 @@
               <property role="1gZaPE" value="    cat.cex = 2," />
             </node>
             <node concept="1gZcZf" id="6ZmHkZ7oIH4" role="2G3XIn">
-              <property role="1gZaPE" value="    cat.col=c(&quot;blue&quot;, &quot;red&quot;)," />
+              <property role="1gZaPE" value="    cat.col=colors," />
             </node>
             <node concept="1gZcZf" id="6ZmHkZ7oIH5" role="2G3XIn">
-              <property role="1gZaPE" value="    fill = c(&quot;blue&quot;, &quot;red&quot;)" />
+              <property role="1gZaPE" value="    fill = colors," />
+            </node>
+            <node concept="1gZcZf" id="3FhMZyCUE6O" role="2G3XIn">
+              <property role="1gZaPE" value="title=(main=inputT" />
+              <node concept="3_3kQU" id="3FhMZyCUFs$" role="3_3kQL">
+                <property role="3_3kQV" value="itle)" />
+              </node>
+              <node concept="3_3kQU" id="3FhMZyCUFsd" role="3_3kQL">
+                <property role="3_3kQV" value="" />
+              </node>
+              <node concept="3_3kQU" id="3FhMZyCUFs9" role="3_3kQL">
+                <property role="3_3kQV" value="" />
+              </node>
+              <node concept="3_3kQU" id="3FhMZyCUE6P" role="3_3kQL">
+                <property role="3_3kQV" value="" />
+              </node>
             </node>
             <node concept="1gZcZf" id="6ZmHkZ7oIH6" role="2G3XIn">
               <property role="1gZaPE" value="  );" />
@@ -12879,7 +13021,7 @@
                 </node>
               </node>
               <node concept="1gZcZf" id="6ZmHkZ7p3Zh" role="2G3XIn">
-                <property role="1gZaPE" value="generateArea&lt;- function(sets){" />
+                <property role="1gZaPE" value="generateArea&lt;- function(sets,colors,title){" />
               </node>
               <node concept="1gZcZf" id="6ZmHkZ7p3Zn" role="2G3XIn">
                 <node concept="3_3kQU" id="6ZmHkZ7p3Zo" role="3_3kQL">
@@ -12920,7 +13062,7 @@
                 <property role="1gZaPE" value="    " />
               </node>
               <node concept="1gZcZf" id="6ZmHkZ7p3ZR" role="2G3XIn">
-                <property role="1gZaPE" value="    drawVendiagram3(area,names(sets));" />
+                <property role="1gZaPE" value="    drawVendiagram3(area,names(sets),colors,title);" />
               </node>
               <node concept="1gZcZf" id="6ZmHkZ7p3ZS" role="2G3XIn">
                 <property role="1gZaPE" value="  }" />
@@ -12942,7 +13084,7 @@
           <node concept="1gZcZf" id="6ZmHkZ7p42e" role="2G3XIn">
             <property role="1gZaPE" value="" />
             <node concept="3_3kQU" id="6ZmHkZ7p42f" role="3_3kQL">
-              <property role="3_3kQV" value="drawVendiagram3 &lt;- function(area,classname){" />
+              <property role="3_3kQV" value="drawVendiagram3 &lt;- function(area,classname,colors,inputTitle){" />
             </node>
           </node>
           <node concept="2G3XJi" id="6ZmHkZ7p42g" role="2G3XIn">
@@ -13013,12 +13155,6 @@
                 <property role="3_3kQV" value="    category = classname," />
               </node>
             </node>
-            <node concept="1gZcZf" id="6ZmHkZ7p42B" role="2G3XIn">
-              <property role="1gZaPE" value="" />
-              <node concept="3_3kQU" id="6ZmHkZ7p42C" role="3_3kQL">
-                <property role="3_3kQV" value="    fill = c(&quot;blue&quot;, &quot;red&quot;, &quot;green&quot;)," />
-              </node>
-            </node>
             <node concept="1gZcZf" id="6ZmHkZ7p42D" role="2G3XIn">
               <property role="1gZaPE" value="" />
               <node concept="3_3kQU" id="6ZmHkZ7p42E" role="3_3kQL">
@@ -13031,16 +13167,34 @@
                 <property role="3_3kQV" value="    cat.cex = 2," />
               </node>
             </node>
-            <node concept="1gZcZf" id="6ZmHkZ7p42H" role="2G3XIn">
-              <property role="1gZaPE" value="" />
-              <node concept="3_3kQU" id="6ZmHkZ7p42I" role="3_3kQL">
-                <property role="3_3kQV" value="    cat.col = c(&quot;blue&quot;, &quot;red&quot;, &quot;green&quot;)" />
+            <node concept="1gZcZf" id="3FhMZyCUHpk" role="2G3XIn">
+              <property role="1gZaPE" value="    cat.col=colors," />
+            </node>
+            <node concept="1gZcZf" id="3FhMZyCUHpl" role="2G3XIn">
+              <property role="1gZaPE" value="    fill = colors," />
+            </node>
+            <node concept="1gZcZf" id="3FhMZyCUHpm" role="2G3XIn">
+              <property role="1gZaPE" value="title=(main=" />
+              <node concept="3_3kQU" id="3FhMZyCUHpn" role="3_3kQL">
+                <property role="3_3kQV" value="inputTitle)" />
               </node>
+              <node concept="3_3kQU" id="3FhMZyCUHpo" role="3_3kQL">
+                <property role="3_3kQV" value="" />
+              </node>
+              <node concept="3_3kQU" id="3FhMZyCUHpp" role="3_3kQL">
+                <property role="3_3kQV" value="" />
+              </node>
+              <node concept="3_3kQU" id="3FhMZyCUHpq" role="3_3kQL">
+                <property role="3_3kQV" value="" />
+              </node>
+            </node>
+            <node concept="1gZcZf" id="3FhMZyCUHpr" role="2G3XIn">
+              <property role="1gZaPE" value="  );" />
             </node>
             <node concept="1gZcZf" id="6ZmHkZ7p42J" role="2G3XIn">
               <property role="1gZaPE" value="" />
               <node concept="3_3kQU" id="6ZmHkZ7p42K" role="3_3kQL">
-                <property role="3_3kQV" value="  );" />
+                <property role="3_3kQV" value="  " />
               </node>
             </node>
             <node concept="1gZcZf" id="6ZmHkZ7p42L" role="2G3XIn">
@@ -13098,7 +13252,7 @@
                 </node>
               </node>
               <node concept="1gZcZf" id="6ZmHkZ7pjMO" role="2G3XIn">
-                <property role="1gZaPE" value="generateArea&lt;- function(sets){" />
+                <property role="1gZaPE" value="generateArea&lt;- function(sets,colors,title){" />
               </node>
               <node concept="1gZcZf" id="6ZmHkZ7pjMU" role="2G3XIn">
                 <node concept="3_3kQU" id="6ZmHkZ7pjMV" role="3_3kQL">
@@ -13202,7 +13356,7 @@
                 <property role="1gZaPE" value="            length(inter1234));" />
               </node>
               <node concept="1gZcZf" id="6ZmHkZ7pjNX" role="2G3XIn">
-                <property role="1gZaPE" value="   drawVendiagram4(area,names(sets)); " />
+                <property role="1gZaPE" value="   drawVendiagram4(area,names(sets),colors,title); " />
               </node>
               <node concept="1gZcZf" id="6ZmHkZ7pjNY" role="2G3XIn">
                 <property role="1gZaPE" value="  }" />
@@ -13231,7 +13385,7 @@
               <node concept="1gZcZf" id="6ZmHkZ7pjQs" role="2G3XIn">
                 <property role="1gZaPE" value="" />
                 <node concept="3_3kQU" id="6ZmHkZ7pjQt" role="3_3kQL">
-                  <property role="3_3kQV" value="drawVendiagram4 &lt;- function(area,classname){" />
+                  <property role="3_3kQV" value="drawVendiagram4 &lt;- function(area,classname,colors,inputTitle){" />
                 </node>
               </node>
               <node concept="1gZcZf" id="6ZmHkZ7pjQu" role="2G3XIn">
@@ -13351,13 +13505,12 @@
               <node concept="1gZcZf" id="6ZmHkZ7pjR4" role="2G3XIn">
                 <property role="1gZaPE" value="" />
                 <node concept="3_3kQU" id="6ZmHkZ7pjR5" role="3_3kQL">
-                  <property role="3_3kQV" value="    fill = c(&quot;orange&quot;, &quot;red&quot;, &quot;green&quot;, &quot;blue&quot;)," />
+                  <property role="3_3kQV" value="    " />
                 </node>
               </node>
               <node concept="1gZcZf" id="6ZmHkZ7pjR6" role="2G3XIn">
-                <property role="1gZaPE" value="" />
                 <node concept="3_3kQU" id="6ZmHkZ7pjR7" role="3_3kQL">
-                  <property role="3_3kQV" value="    cex = 2," />
+                  <property role="3_3kQV" value="   cex = 2," />
                 </node>
               </node>
               <node concept="1gZcZf" id="6ZmHkZ7pjR8" role="2G3XIn">
@@ -13366,11 +13519,29 @@
                   <property role="3_3kQV" value="    cat.cex = 2," />
                 </node>
               </node>
-              <node concept="1gZcZf" id="6ZmHkZ7pjRa" role="2G3XIn">
-                <property role="1gZaPE" value="" />
-                <node concept="3_3kQU" id="6ZmHkZ7pjRb" role="3_3kQL">
-                  <property role="3_3kQV" value="    cat.col = c(&quot;orange&quot;, &quot;red&quot;, &quot;green&quot;, &quot;blue&quot;)" />
+              <node concept="1gZcZf" id="3FhMZyCUHuv" role="2G3XIn">
+                <property role="1gZaPE" value="  cat.col=colors," />
+              </node>
+              <node concept="1gZcZf" id="3FhMZyCUHuw" role="2G3XIn">
+                <property role="1gZaPE" value="    fill = colors," />
+              </node>
+              <node concept="1gZcZf" id="3FhMZyCUHux" role="2G3XIn">
+                <property role="1gZaPE" value="title=(main=inputT" />
+                <node concept="3_3kQU" id="3FhMZyCUHuy" role="3_3kQL">
+                  <property role="3_3kQV" value="itle)" />
                 </node>
+                <node concept="3_3kQU" id="3FhMZyCUHuz" role="3_3kQL">
+                  <property role="3_3kQV" value="" />
+                </node>
+                <node concept="3_3kQU" id="3FhMZyCUHu$" role="3_3kQL">
+                  <property role="3_3kQV" value="" />
+                </node>
+                <node concept="3_3kQU" id="3FhMZyCUHu_" role="3_3kQL">
+                  <property role="3_3kQV" value="" />
+                </node>
+              </node>
+              <node concept="1gZcZf" id="3FhMZyCUHuA" role="2G3XIn">
+                <property role="1gZaPE" value="  " />
               </node>
               <node concept="1gZcZf" id="6ZmHkZ7pjRc" role="2G3XIn">
                 <property role="1gZaPE" value="" />
@@ -13451,7 +13622,7 @@
                 </node>
               </node>
               <node concept="1gZcZf" id="6ZmHkZ7pv2v" role="2G3XIn">
-                <property role="1gZaPE" value="generateArea&lt;- function(sets){" />
+                <property role="1gZaPE" value="generateArea&lt;- function(sets,colors,title){" />
               </node>
             </node>
             <node concept="2G3XJi" id="6ZmHkZ7pv37" role="2G3XIn">
@@ -13697,7 +13868,7 @@
                 </node>
               </node>
               <node concept="1gZcZf" id="6ZmHkZ7pv4V" role="2G3XIn">
-                <property role="1gZaPE" value="    drawVendiagram5(area,names(sets));" />
+                <property role="1gZaPE" value="    drawVendiagram5(area,names(sets),colors,title);" />
               </node>
             </node>
             <node concept="1gZcZf" id="6ZmHkZ7pv59" role="2G3XIn">
@@ -13723,7 +13894,7 @@
               <node concept="1gZcZf" id="6ZmHkZ7pv6Z" role="2G3XIn">
                 <property role="1gZaPE" value="" />
                 <node concept="3_3kQU" id="6ZmHkZ7pv70" role="3_3kQL">
-                  <property role="3_3kQV" value="drawVendiagram5 &lt;- function(area,classname){" />
+                  <property role="3_3kQV" value="drawVendiagram5 &lt;- function(area,classname,colors,inputTitle){" />
                 </node>
               </node>
               <node concept="1gZcZf" id="6ZmHkZ7pv71" role="2G3XIn">
@@ -13936,20 +14107,38 @@
                   <property role="3_3kQV" value="    category = classname," />
                 </node>
               </node>
-              <node concept="1gZcZf" id="6ZmHkZ7pv87" role="2G3XIn">
+              <node concept="1gZcZf" id="3FhMZyCUHwF" role="2G3XIn">
                 <property role="1gZaPE" value="" />
-                <node concept="3_3kQU" id="6ZmHkZ7pv88" role="3_3kQL">
-                  <property role="3_3kQV" value="    fill = c(&quot;dodgerblue&quot;, &quot;goldenrod1&quot;, &quot;darkorange1&quot;, &quot;seagreen3&quot;, &quot;orchid3&quot;)," />
+                <node concept="3_3kQU" id="3FhMZyCUH_V" role="3_3kQL">
+                  <property role="3_3kQV" value="" />
+                </node>
+                <node concept="3_3kQU" id="3FhMZyCUHwG" role="3_3kQL">
+                  <property role="3_3kQV" value="" />
                 </node>
               </node>
-              <node concept="1gZcZf" id="6ZmHkZ7pv89" role="2G3XIn">
-                <property role="1gZaPE" value="" />
-                <node concept="3_3kQU" id="6ZmHkZ7pv8a" role="3_3kQL">
-                  <property role="3_3kQV" value="    cat.col = c(&quot;dodgerblue&quot;, &quot;goldenrod1&quot;, &quot;darkorange1&quot;, &quot;seagreen3&quot;, &quot;orchid3&quot;)," />
+              <node concept="1gZcZf" id="3FhMZyCUHAn" role="2G3XIn">
+                <property role="1gZaPE" value="    cat.col=colors," />
+              </node>
+              <node concept="1gZcZf" id="3FhMZyCUHAo" role="2G3XIn">
+                <property role="1gZaPE" value="    fill = colors," />
+              </node>
+              <node concept="1gZcZf" id="3FhMZyCUHAp" role="2G3XIn">
+                <property role="1gZaPE" value="title=(main=inputTi" />
+                <node concept="3_3kQU" id="3FhMZyCUHAq" role="3_3kQL">
+                  <property role="3_3kQV" value="tle)," />
+                </node>
+                <node concept="3_3kQU" id="3FhMZyCUHAr" role="3_3kQL">
+                  <property role="3_3kQV" value="" />
+                </node>
+                <node concept="3_3kQU" id="3FhMZyCUHAs" role="3_3kQL">
+                  <property role="3_3kQV" value="" />
+                </node>
+                <node concept="3_3kQU" id="3FhMZyCUHAt" role="3_3kQL">
+                  <property role="3_3kQV" value="" />
                 </node>
               </node>
+              <node concept="1gZcZf" id="3FhMZyCUHAu" role="2G3XIn" />
               <node concept="1gZcZf" id="6ZmHkZ7pv8b" role="2G3XIn">
-                <property role="1gZaPE" value="" />
                 <node concept="3_3kQU" id="6ZmHkZ7pv8c" role="3_3kQL">
                   <property role="3_3kQV" value="    cat.cex = 2," />
                 </node>

@@ -22,6 +22,7 @@
         <reference id="369044998826657059" name="oneSetOfIds" index="2obp_r" />
       </concept>
       <concept id="369044998826678151" name="org.campagnelab.metar.tables.structure.VennDiagram" flags="ng" index="2obsJZ">
+        <reference id="4238392993142945691" name="style" index="2s6ZLz" />
         <child id="369044998826678154" name="plot" index="2obsJM" />
         <child id="369044998826678156" name="sets" index="2obsJO" />
       </concept>
@@ -488,8 +489,54 @@
           </node>
         </node>
       </node>
+      <node concept="3WoeC_" id="3FhMZyDAS1o" role="ZXjPg">
+        <property role="S1EQ6" value="DOOVPERLSJ" />
+        <node concept="3Wv0rH" id="3FhMZyDAS5F" role="3WoeCz">
+          <property role="TrG5h" value="new" />
+          <node concept="3Wv0rE" id="3FhMZyDAS5I" role="3Wv3z6">
+            <property role="3Wv0rF" value="a1" />
+          </node>
+          <node concept="3Wv0rE" id="3FhMZyDAS5K" role="3Wv3z6">
+            <property role="3Wv0rF" value="a2" />
+          </node>
+          <node concept="3Wv0rE" id="3FhMZyDAS5N" role="3Wv3z6">
+            <property role="3Wv0rF" value="a3" />
+          </node>
+          <node concept="3Wv0rE" id="3FhMZyDAS5R" role="3Wv3z6">
+            <property role="3Wv0rF" value="a4" />
+          </node>
+          <node concept="3Wv0rE" id="3FhMZyDAS5W" role="3Wv3z6">
+            <property role="3Wv0rF" value="a5" />
+          </node>
+          <node concept="3Wv0rE" id="3FhMZyDAS62" role="3Wv3z6">
+            <property role="3Wv0rF" value="a11" />
+          </node>
+          <node concept="3Wv0rE" id="3FhMZyDAS69" role="3Wv3z6">
+            <property role="3Wv0rF" value="ae" />
+          </node>
+          <node concept="3Wv0rE" id="3FhMZyDAS6h" role="3Wv3z6">
+            <property role="3Wv0rF" value="aq" />
+          </node>
+          <node concept="3Wv0rE" id="3FhMZyDAS6q" role="3Wv3z6">
+            <property role="3Wv0rF" value="as" />
+          </node>
+          <node concept="3Wv0rE" id="3FhMZyDAS6$" role="3Wv3z6">
+            <property role="3Wv0rF" value="b1" />
+          </node>
+          <node concept="3Wv0rE" id="3FhMZyDAS6J" role="3Wv3z6">
+            <property role="3Wv0rF" value="b2" />
+          </node>
+          <node concept="3Wv0rE" id="3FhMZyDAS6V" role="3Wv3z6">
+            <property role="3Wv0rF" value="b3" />
+          </node>
+          <node concept="3Wv0rE" id="3FhMZyDAS78" role="3Wv3z6">
+            <property role="3Wv0rF" value="b5" />
+          </node>
+        </node>
+      </node>
       <node concept="2obsJZ" id="3FhMZyC1FoL" role="ZXjPg">
         <property role="S1EQ6" value="IAUKGIJPVU" />
+        <ref role="2s6ZLz" node="3FhMZyB41Mk" resolve="test" />
         <node concept="2obpZL" id="3FhMZyC1FoM" role="2obsJO">
           <property role="TrG5h" value="gg" />
           <ref role="2obp_r" node="kv77ypitiP" resolve="daaaa1" />
@@ -497,6 +544,18 @@
         <node concept="2obpZL" id="3FhMZyC1FpE" role="2obsJO">
           <property role="TrG5h" value="grou" />
           <ref role="2obp_r" node="t0TZVfUW7F" resolve="test3" />
+        </node>
+        <node concept="2obpZL" id="3FhMZyDAQdo" role="2obsJO">
+          <property role="TrG5h" value="mich" />
+          <ref role="2obp_r" node="t0TZVfUWcC" resolve="trust" />
+        </node>
+        <node concept="2obpZL" id="3FhMZyDAS82" role="2obsJO">
+          <property role="TrG5h" value="las" />
+          <ref role="2obp_r" node="3FhMZyDAS5F" resolve="new" />
+        </node>
+        <node concept="2obpZL" id="3FhMZyDLOs6" role="2obsJO">
+          <property role="TrG5h" value="aa" />
+          <ref role="2obp_r" node="kv77ypitiP" resolve="daaaa1" />
         </node>
         <node concept="1FHg$p" id="3FhMZyC1FoO" role="2obsJM">
           <property role="ZHjxa" value="200" />
