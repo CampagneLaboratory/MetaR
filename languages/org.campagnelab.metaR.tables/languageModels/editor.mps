@@ -4251,8 +4251,26 @@
       <node concept="3F0ifn" id="7mrPTtAEwD4" role="3EZMnx">
         <property role="3F0ifm" value=" -&gt;" />
       </node>
+      <node concept="3F0ifn" id="3FhMZyB41I_" role="3EZMnx">
+        <property role="3F0ifm" value="with style" />
+      </node>
+      <node concept="1iCGBv" id="3FhMZyB41Kd" role="3EZMnx">
+        <ref role="1NtTu8" to="jrxw:3FhMZyAMzur" />
+        <node concept="1sVBvm" id="3FhMZyB41Kf" role="1sWHZn">
+          <node concept="3F0A7n" id="3FhMZyBBvAP" role="2wV5jI">
+            <property role="1Intyy" value="true" />
+            <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+          </node>
+        </node>
+      </node>
+      <node concept="3F0ifn" id="3FhMZyBLZr1" role="3EZMnx">
+        <property role="3F0ifm" value="plot name" />
+      </node>
       <node concept="3F1sOY" id="7mrPTtAEwDm" role="3EZMnx">
         <ref role="1NtTu8" to="jrxw:kv77ytcHua" />
+      </node>
+      <node concept="PMmxH" id="6ZmHkZa1hpg" role="3EZMnx">
+        <ref role="PMmxG" to="h23j:3edJYE6AOF$" resolve="StyleRefComponent" />
       </node>
     </node>
   </node>
