@@ -1851,5 +1851,36 @@
   <node concept="PlHQZ" id="1xeqmqKOy3R">
     <property role="TrG5h" value="HasTable" />
   </node>
+  <node concept="1TIwiD" id="2MUPwqlH$YL">
+    <property role="TrG5h" value="GroupAnnotation" />
+    <property role="3GE5qa" value="annotations" />
+    <ref role="1TJDcQ" to="tpck:2ULFgo8_XDk" resolve="NodeAttribute" />
+    <node concept="1TJgyj" id="2MUPwqmWSI9" role="1TKVEi">
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="table" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="2WRhvFtkykN" resolve="Table" />
+    </node>
+    <node concept="1TJgyj" id="2MUPwqlHDBX" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="useCovariate" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="2WRhvFtwVip" resolve="ColumnRef" />
+    </node>
+    <node concept="M6xJ_" id="2MUPwqlH$YN" role="lGtFl">
+      <property role="Hh88m" value="table" />
+      <node concept="tn0Fv" id="2MUPwqlH$YO" role="HhnKV">
+        <property role="tnX3d" value="false" />
+      </node>
+      <node concept="trNpa" id="2MUPwqlH_i6" role="EQaZv">
+        <ref role="trN6q" node="2WRhvFtICJV" resolve="ColumnGroup" />
+      </node>
+    </node>
+  </node>
+  <node concept="1TIwiD" id="2MUPwqn1zo6">
+    <property role="3GE5qa" value="annotations" />
+    <property role="TrG5h" value="ColumnRefForAnnotation" />
+    <ref role="1TJDcQ" node="2WRhvFtwVip" resolve="ColumnRef" />
+  </node>
 </model>
 
