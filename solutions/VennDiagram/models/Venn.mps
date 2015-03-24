@@ -14,15 +14,23 @@
   </languages>
   <imports>
     <import index="9nc5" ref="r:d1a256e6-591a-459f-809c-7fc9df45e4d5(org.campagnelab.mps.XChart.types.roots)" implicit="true" />
+    <import index="wiqx" ref="r:6bfd7c1b-dea3-4f98-9ed3-bce7739b7a8d(org.campagnelab.metar.accessories.styles.colors)" implicit="true" />
     <import index="ngmf" ref="r:8442a0af-7ac4-4a84-bd4e-4f793cfdccb5(org.campagnelab.metar.accessories.defaultcolors)" implicit="true" />
   </imports>
   <registry>
+    <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
+      <concept id="6329021646629104957" name="jetbrains.mps.baseLanguage.structure.TextCommentPart" flags="nn" index="3SKdUq">
+        <property id="6329021646629104958" name="text" index="3SKdUp" />
+      </concept>
+    </language>
     <language id="5d6bde84-4ce4-4eb5-a37e-25a5edd55129" name="org.campagnelab.metar.tables">
+      <concept id="2814838647967227455" name="org.campagnelab.metar.tables.structure.TSingleLineComment" flags="ng" index="nccVD">
+        <child id="2814838647967227681" name="commentedStatement" index="nccZR" />
+      </concept>
       <concept id="369044998826656649" name="org.campagnelab.metar.tables.structure.IdsFromSetOfIds" flags="ng" index="2obpZL">
         <reference id="369044998826657059" name="oneSetOfIds" index="2obp_r" />
       </concept>
       <concept id="369044998826678151" name="org.campagnelab.metar.tables.structure.VennDiagram" flags="ng" index="2obsJZ">
-        <reference id="4238392993142945691" name="style" index="2s6ZLz" />
         <child id="369044998826678154" name="plot" index="2obsJM" />
         <child id="369044998826678156" name="sets" index="2obsJO" />
       </concept>
@@ -37,6 +45,7 @@
         <property id="2742007948298959018" name="trycatch_enabled" index="2BDq$p" />
         <child id="8962032619593737383" name="statements" index="S1EQ8" />
       </concept>
+      <concept id="8962032619593737377" name="org.campagnelab.metar.tables.structure.EmptyLine" flags="ng" index="S1EQe" />
       <concept id="8962032619582305406" name="org.campagnelab.metar.tables.structure.StatementList" flags="ng" index="ZXjPh">
         <child id="8962032619582305407" name="transformations" index="ZXjPg" />
       </concept>
@@ -103,6 +112,21 @@
       </concept>
       <concept id="2202909375770434159" name="org.campagnelab.mps.XChart.structure.Column" flags="ng" index="31JHg8">
         <reference id="3328299660867197501" name="type" index="1YeEjl" />
+      </concept>
+    </language>
+    <language id="43f31864-fc67-43f5-873e-ab79cc279a2d" name="org.campagnelab.styles">
+      <concept id="27429407128487350" name="org.campagnelab.styles.structure.ColorPaletteRef" flags="ng" index="24aBtg">
+        <reference id="27429407128487353" name="palette" index="24aBtv" />
+      </concept>
+      <concept id="5397636476160524896" name="org.campagnelab.styles.structure.UseStyle" flags="ng" index="2YPgeA">
+        <reference id="3501083140137599858" name="useStyle" index="L_9Jz" />
+      </concept>
+      <concept id="5397636476160560846" name="org.campagnelab.styles.structure.StyleContainer" flags="ng" index="2YPoW8">
+        <reference id="5397636476160801466" name="extends" index="2YEjHW" />
+        <child id="5397636476160567172" name="elements" index="2YPqp2" />
+      </concept>
+      <concept id="2312637992603016748" name="org.campagnelab.styles.structure.Color" flags="ng" index="1VdfCG">
+        <reference id="27429407126155065" name="byName" index="24hxRv" />
       </concept>
     </language>
   </registry>
@@ -534,34 +558,52 @@
           </node>
         </node>
       </node>
-      <node concept="2obsJZ" id="3FhMZyC1FoL" role="ZXjPg">
-        <property role="S1EQ6" value="IAUKGIJPVU" />
-        <ref role="2s6ZLz" node="3FhMZyB41Mk" resolve="test" />
-        <node concept="2obpZL" id="3FhMZyC1FoM" role="2obsJO">
-          <property role="TrG5h" value="gg" />
+      <node concept="S1EQe" id="3FhMZyEaPgy" role="ZXjPg">
+        <property role="S1EQ6" value="KWPEUHWDMG" />
+      </node>
+      <node concept="nccVD" id="3FhMZyEKzkY" role="ZXjPg">
+        <property role="S1EQ6" value="HRLTEMDUTJ" />
+        <node concept="3SKdUq" id="3FhMZyEKzm8" role="nccZR">
+          <property role="3SKdUp" value="add venn diagram" />
+        </node>
+      </node>
+      <node concept="S1EQe" id="3FhMZyEaPix" role="ZXjPg">
+        <property role="S1EQ6" value="KXVEJMTLHB" />
+      </node>
+      <node concept="2obsJZ" id="3FhMZyEzj99" role="ZXjPg">
+        <property role="S1EQ6" value="BLQKCIEEDQ" />
+        <ref role="L_9Jz" node="3FhMZyEm4Ju" resolve="VennStyle" />
+        <node concept="2obpZL" id="3FhMZyEzj9a" role="2obsJO">
+          <property role="TrG5h" value="set" />
           <ref role="2obp_r" node="kv77ypitiP" resolve="daaaa1" />
         </node>
-        <node concept="2obpZL" id="3FhMZyC1FpE" role="2obsJO">
-          <property role="TrG5h" value="grou" />
-          <ref role="2obp_r" node="t0TZVfUW7F" resolve="test3" />
-        </node>
-        <node concept="2obpZL" id="3FhMZyDAQdo" role="2obsJO">
-          <property role="TrG5h" value="mich" />
-          <ref role="2obp_r" node="t0TZVfUWcC" resolve="trust" />
-        </node>
-        <node concept="2obpZL" id="3FhMZyDAS82" role="2obsJO">
-          <property role="TrG5h" value="las" />
+        <node concept="2obpZL" id="3FhMZyEzjam" role="2obsJO">
+          <property role="TrG5h" value="mam" />
           <ref role="2obp_r" node="3FhMZyDAS5F" resolve="new" />
         </node>
-        <node concept="2obpZL" id="3FhMZyDLOs6" role="2obsJO">
-          <property role="TrG5h" value="aa" />
-          <ref role="2obp_r" node="kv77ypitiP" resolve="daaaa1" />
+        <node concept="2obpZL" id="3FhMZyEzjau" role="2obsJO">
+          <property role="TrG5h" value="tt" />
+          <ref role="2obp_r" node="t0TZVfUW7F" resolve="test3" />
         </node>
-        <node concept="1FHg$p" id="3FhMZyC1FoO" role="2obsJM">
+        <node concept="2obpZL" id="3FhMZyEzjaC" role="2obsJO">
+          <property role="TrG5h" value="qq" />
+          <ref role="2obp_r" node="t0TZVfUWcC" resolve="trust" />
+        </node>
+        <node concept="2obpZL" id="3FhMZyEKBDq" role="2obsJO">
+          <property role="TrG5h" value="ww" />
+          <ref role="2obp_r" node="3FhMZyDAS5F" resolve="new" />
+        </node>
+        <node concept="1FHg$p" id="3FhMZyEzj9c" role="2obsJM">
           <property role="ZHjxa" value="200" />
           <property role="ZHjG8" value="200" />
           <property role="TrG5h" value="plot" />
         </node>
+      </node>
+      <node concept="S1EQe" id="3FhMZyEaPk$" role="ZXjPg">
+        <property role="S1EQ6" value="LBWQAECGGX" />
+      </node>
+      <node concept="S1EQe" id="3FhMZyEaPmF" role="ZXjPg">
+        <property role="S1EQ6" value="VPESVYUPSP" />
       </node>
     </node>
   </node>
@@ -804,6 +846,34 @@
     <property role="1IQnzw" value="100" />
     <property role="1IQnzz" value="123" />
     <ref role="1Vw$lO" to="ngmf:7kcXEwbVY2Z" resolve="DefaultGrayPalette" />
+  </node>
+  <node concept="2YPoW8" id="3FhMZyDMl6u">
+    <property role="TrG5h" value="tetcolo" />
+    <ref role="2YEjHW" node="3FhMZyElH5o" resolve="DefaultStyle" />
+    <node concept="1VdfCG" id="3FhMZyDMlaP" role="2YPqp2">
+      <property role="TrG5h" value="Color" />
+      <ref role="24hxRv" to="wiqx:6Rb38OKwxZn" resolve="black" />
+    </node>
+    <node concept="1VdfCG" id="3FhMZyDMlaX" role="2YPqp2">
+      <property role="TrG5h" value="Color" />
+    </node>
+    <node concept="1VdfCG" id="3FhMZyDMlb7" role="2YPqp2">
+      <property role="TrG5h" value="Color" />
+      <ref role="24hxRv" to="wiqx:6Rb38OKwyfq" resolve="yellow" />
+    </node>
+    <node concept="1VdfCG" id="3FhMZyDMlbj" role="2YPqp2">
+      <property role="TrG5h" value="Color" />
+    </node>
+  </node>
+  <node concept="2YPoW8" id="3FhMZyElH5o">
+    <property role="TrG5h" value="DefaultStyle" />
+  </node>
+  <node concept="2YPoW8" id="3FhMZyEm4Ju">
+    <property role="TrG5h" value="VennStyle" />
+    <node concept="24aBtg" id="3FhMZyEm4Jv" role="2YPqp2">
+      <property role="TrG5h" value="Qualitative-Dark2" />
+      <ref role="24aBtv" to="wiqx:1xsIq4yXlo" resolve="Qualitative-Dark2" />
+    </node>
   </node>
 </model>
 
