@@ -115,6 +115,7 @@
         <child id="8013388156563171423" name="output" index="Ss6Td" />
       </concept>
       <concept id="3223123807106912177" name="org.campagnelab.metar.tables.structure.GroupAnnotation" flags="ng" index="2T39AR">
+        <reference id="3223123807155032384" name="useCovariate" index="2Ob$t6" />
         <reference id="3223123807127702409" name="table" index="2UilQf" />
       </concept>
       <concept id="8962032619582305406" name="org.campagnelab.metar.tables.structure.StatementList" flags="ng" index="ZXjPh">
@@ -261,22 +262,18 @@
     <node concept="3MzsS1" id="2MUPwqlH$Lk" role="3MzsBV">
       <property role="TrG5h" value="sample-key" />
     </node>
+    <node concept="3MzsS1" id="2MUPwqoJ1hI" role="3MzsBV">
+      <property role="TrG5h" value="counts" />
+      <node concept="2T39AR" id="2MUPwqoJ1hU" role="lGtFl">
+        <ref role="2UilQf" node="2MUPwqlHxMJ" resolve="GSE59364_DC_all.csv" />
+        <ref role="2Ob$t6" node="2MUPwqlHxNd" resolve="A_DC" />
+      </node>
+    </node>
     <node concept="3MzsS1" id="2MUPwqmTt5M" role="3MzsBV">
       <property role="TrG5h" value="ignore" />
-    </node>
-    <node concept="3MzsS1" id="2MUPwqlHxMB" role="3MzsBV">
-      <property role="TrG5h" value="counts" />
-      <node concept="2y_Ijh" id="2MUPwqlHxMC" role="2y_Iji">
-        <ref role="2y_IjI" node="2MUPwqlHxMH" resolve="heatmap" />
-      </node>
-    </node>
-    <node concept="3MzsS1" id="2MUPwqlH$3E" role="3MzsBV">
-      <property role="TrG5h" value="ageInMonths" />
-      <node concept="2y_Ijh" id="2MUPwqlH$3S" role="2y_Iji">
-        <ref role="2y_IjI" node="2MUPwqlH$3$" resolve="age" />
-      </node>
-      <node concept="2T39AR" id="2MUPwqmTolt" role="lGtFl">
+      <node concept="2T39AR" id="2MUPwqoSPqn" role="lGtFl">
         <ref role="2UilQf" node="2MUPwqlH$3j" resolve="TestAge.csv" />
+        <ref role="2Ob$t6" node="2MUPwqlH$3n" resolve="AgeMos" />
       </node>
     </node>
     <node concept="2_mUhs" id="2MUPwqlHxMF" role="2yEZeN">

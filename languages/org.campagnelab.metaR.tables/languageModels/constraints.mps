@@ -140,6 +140,7 @@
       <concept id="1147468365020" name="jetbrains.mps.lang.constraints.structure.ConstraintsFunctionParameter_node" flags="nn" index="EsrRn" />
       <concept id="3481330710159180554" name="jetbrains.mps.lang.constraints.structure.ConstraintFunction_ReferentSearchScope_Validator" flags="in" index="OSAzs" />
       <concept id="7855321458717464197" name="jetbrains.mps.lang.constraints.structure.ConstraintFunction_CanBeAnAncestor" flags="in" index="Um2eU" />
+      <concept id="5676632058862809931" name="jetbrains.mps.lang.constraints.structure.ConstraintFunction_ReferentSearchScope_Scope" flags="in" index="13QW63" />
       <concept id="8401916545537438642" name="jetbrains.mps.lang.constraints.structure.InheritedNodeScopeFactory" flags="ng" index="1dDu$B">
         <reference id="8401916545537438643" name="kind" index="1dDu$A" />
       </concept>
@@ -187,7 +188,6 @@
         <child id="1144104376918" name="parameter" index="1xVPHs" />
       </concept>
       <concept id="1179409122411" name="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" flags="nn" index="2qgKlT" />
-      <concept id="1143234257716" name="jetbrains.mps.lang.smodel.structure.Node_GetModelOperation" flags="nn" index="I4A8Y" />
       <concept id="1171305280644" name="jetbrains.mps.lang.smodel.structure.Node_GetDescendantsOperation" flags="nn" index="2Rf3mk" />
       <concept id="1171315804604" name="jetbrains.mps.lang.smodel.structure.Model_RootsOperation" flags="nn" index="2RRcyG">
         <reference id="1171315804605" name="concept" index="2RRcyH" />
@@ -195,9 +195,6 @@
       <concept id="1171407110247" name="jetbrains.mps.lang.smodel.structure.Node_GetAncestorOperation" flags="nn" index="2Xjw5R" />
       <concept id="3562215692195599741" name="jetbrains.mps.lang.smodel.structure.SLinkImplicitSelect" flags="nn" index="13MTOL">
         <reference id="3562215692195600259" name="link" index="13MTZf" />
-      </concept>
-      <concept id="1176109685393" name="jetbrains.mps.lang.smodel.structure.Model_RootsIncludingImportedOperation" flags="nn" index="3lApI0">
-        <reference id="1176109685394" name="concept" index="3lApI3" />
       </concept>
       <concept id="1171999116870" name="jetbrains.mps.lang.smodel.structure.Node_IsNullOperation" flags="nn" index="3w_OXm" />
       <concept id="1172008320231" name="jetbrains.mps.lang.smodel.structure.Node_IsNotNullOperation" flags="nn" index="3x8VRR" />
@@ -1941,28 +1938,65 @@
     <ref role="1M2myG" to="jrxw:2MUPwqlH$YL" resolve="GroupAnnotation" />
     <node concept="1N5Pfh" id="2MUPwqn0Fs0" role="1Mr941">
       <ref role="1N5Vy1" to="jrxw:2MUPwqmWSI9" />
-      <node concept="1MUpDS" id="2MUPwqn0FPs" role="1N6uqs">
-        <node concept="3clFbS" id="2MUPwqn0FPt" role="2VODD2">
-          <node concept="3clFbF" id="2MUPwqn0Gn0" role="3cqZAp">
-            <node concept="2OqwBi" id="2MUPwqn0GGc" role="3clFbG">
-              <node concept="2OqwBi" id="2MUPwqn0Gpv" role="2Oq$k0">
-                <node concept="2rP1CM" id="2MUPwqn0GmZ" role="2Oq$k0" />
-                <node concept="I4A8Y" id="2MUPwqn0G_b" role="2OqNvi" />
-              </node>
-              <node concept="3lApI0" id="2MUPwqn0GOL" role="2OqNvi">
-                <ref role="3lApI3" to="jrxw:2WRhvFtkykN" resolve="Table" />
-              </node>
+      <node concept="13QW63" id="2MUPwqnaE89" role="1N6uqs">
+        <node concept="3clFbS" id="2MUPwqnaE8a" role="2VODD2">
+          <node concept="3clFbF" id="2MUPwqnaMA4" role="3cqZAp">
+            <node concept="2YIFZM" id="2MUPwqnaMBg" role="3clFbG">
+              <ref role="37wK5l" to="v8sa:2MUPwqnaKDc" resolve="allVisibleTables" />
+              <ref role="1Pybhc" to="v8sa:5d7YQINDW8S" resolve="ImportedTableScope" />
+              <node concept="2rP1CM" id="2MUPwqnaMCl" role="37wK5m" />
             </node>
           </node>
         </node>
       </node>
     </node>
-  </node>
-  <node concept="1M2fIO" id="2MUPwqn1zo7">
-    <property role="3GE5qa" value="annotations" />
-    <ref role="1M2myG" to="jrxw:2MUPwqn1zo6" resolve="ColumnRefForAnnotation" />
-    <node concept="1N5Pfh" id="2MUPwqn1zo8" role="1Mr941">
-      <ref role="1N5Vy1" to="jrxw:2WRhvFtwViq" />
+    <node concept="1N5Pfh" id="2MUPwqo_9wE" role="1Mr941">
+      <ref role="1N5Vy1" to="jrxw:2MUPwqo_950" />
+      <node concept="13QW63" id="2MUPwqo_9F4" role="1N6uqs">
+        <node concept="3clFbS" id="2MUPwqo_9F5" role="2VODD2">
+          <node concept="3clFbF" id="2MUPwqo_9F_" role="3cqZAp">
+            <node concept="2YIFZM" id="2MUPwqo_9FA" role="3clFbG">
+              <ref role="37wK5l" to="v8sa:2MUPwqnatzV" resolve="allSelectedTablesColumns" />
+              <ref role="1Pybhc" to="v8sa:5d7YQINDW8S" resolve="ImportedTableScope" />
+              <node concept="2rP1CM" id="2MUPwqo_9FB" role="37wK5m" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="Bn3R3" id="2MUPwqo_9GC" role="Bn3R6">
+        <node concept="3clFbS" id="2MUPwqo_9GD" role="2VODD2">
+          <node concept="3clFbF" id="2MUPwqo_9Qt" role="3cqZAp">
+            <node concept="3cpWs3" id="2MUPwqo_9Qu" role="3clFbG">
+              <node concept="2OqwBi" id="2MUPwqo_9Qv" role="3uHU7w">
+                <node concept="2OqwBi" id="2MUPwqo_9Qw" role="2Oq$k0">
+                  <node concept="Bn53e" id="2MUPwqo_9Qx" role="2Oq$k0" />
+                  <node concept="2Xjw5R" id="2MUPwqo_9Qy" role="2OqNvi">
+                    <node concept="1xMEDy" id="2MUPwqo_9Qz" role="1xVPHs">
+                      <node concept="chp4Y" id="2MUPwqo_9Q$" role="ri$Ld">
+                        <ref role="cht4Q" to="ztlb:1UijAvvb8In" resolve="DataFile" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="3TrcHB" id="2MUPwqo_9Q_" role="2OqNvi">
+                  <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                </node>
+              </node>
+              <node concept="3cpWs3" id="2MUPwqo_9QA" role="3uHU7B">
+                <node concept="2OqwBi" id="2MUPwqo_9QB" role="3uHU7B">
+                  <node concept="Bn53e" id="2MUPwqo_9QC" role="2Oq$k0" />
+                  <node concept="3TrcHB" id="2MUPwqo_9QD" role="2OqNvi">
+                    <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                  </node>
+                </node>
+                <node concept="Xl_RD" id="2MUPwqo_9QE" role="3uHU7w">
+                  <property role="Xl_RC" value=" in:" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
     </node>
   </node>
 </model>

@@ -1861,11 +1861,11 @@
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="2WRhvFtkykN" resolve="Table" />
     </node>
-    <node concept="1TJgyj" id="2MUPwqlHDBX" role="1TKVEi">
-      <property role="20lmBu" value="aggregation" />
+    <node concept="1TJgyj" id="2MUPwqo_950" role="1TKVEi">
+      <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="useCovariate" />
       <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="2WRhvFtwVip" resolve="ColumnRef" />
+      <ref role="20lvS9" to="ztlb:1UijAvvb9DJ" resolve="Column" />
     </node>
     <node concept="M6xJ_" id="2MUPwqlH$YN" role="lGtFl">
       <property role="Hh88m" value="table" />
@@ -1876,11 +1876,6 @@
         <ref role="trN6q" node="2WRhvFtICJV" resolve="ColumnGroup" />
       </node>
     </node>
-  </node>
-  <node concept="1TIwiD" id="2MUPwqn1zo6">
-    <property role="3GE5qa" value="annotations" />
-    <property role="TrG5h" value="ColumnRefForAnnotation" />
-    <ref role="1TJDcQ" node="2WRhvFtwVip" resolve="ColumnRef" />
   </node>
 </model>
 
