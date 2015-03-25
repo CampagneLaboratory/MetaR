@@ -4474,7 +4474,7 @@
     <property role="3GE5qa" value="annotations" />
     <ref role="1chiOs" to="jrxw:2WRhvFtICJV" resolve="ColumnGroup" />
     <node concept="2PxR9H" id="2MUPwqmoBAD" role="2QnnpI">
-      <property role="2IlM53" value="caret_at_intermediate_position" />
+      <property role="2IlM53" value="caret_at_last_position" />
       <property role="3ArL7W" value="true" />
       <property role="2PxWOX" value="Assign Table to this Group" />
       <node concept="2Py5lD" id="2MUPwqmoBAE" role="2PyaAO">
