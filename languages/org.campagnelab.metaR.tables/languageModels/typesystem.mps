@@ -221,6 +221,7 @@
         <child id="1177027386292" name="conceptArgument" index="cj9EA" />
       </concept>
       <concept id="1171999116870" name="jetbrains.mps.lang.smodel.structure.Node_IsNullOperation" flags="nn" index="3w_OXm" />
+      <concept id="1172008320231" name="jetbrains.mps.lang.smodel.structure.Node_IsNotNullOperation" flags="nn" index="3x8VRR" />
       <concept id="1144100932627" name="jetbrains.mps.lang.smodel.structure.OperationParm_Inclusion" flags="ng" index="1xIGOp" />
       <concept id="1144101972840" name="jetbrains.mps.lang.smodel.structure.OperationParm_Concept" flags="ng" index="1xMEDy">
         <child id="1207343664468" name="conceptArgument" index="ri$Ld" />
@@ -2254,6 +2255,54 @@
     <node concept="1YaCAy" id="2od$re1eq2u" role="1YuTPh">
       <property role="TrG5h" value="column" />
       <ref role="1YaFvo" to="ztlb:1UijAvvb9DJ" resolve="Column" />
+    </node>
+  </node>
+  <node concept="18kY7G" id="2MUPwqpa1BN">
+    <property role="TrG5h" value="check_GroupAnnotationHasKey" />
+    <property role="3GE5qa" value="annotations" />
+    <node concept="3clFbS" id="2MUPwqpa1BO" role="18ibNy">
+      <node concept="3clFbJ" id="2MUPwqpa1Ot" role="3cqZAp">
+        <node concept="3clFbS" id="2MUPwqpa1Ou" role="3clFbx">
+          <node concept="2MkqsV" id="2MUPwqpacwd" role="3cqZAp">
+            <node concept="1YBJjd" id="2MUPwqpacwp" role="2OEOjV">
+              <ref role="1YBMHb" node="2MUPwqpa1BQ" resolve="groupAnnotation" />
+            </node>
+            <node concept="Xl_RD" id="2MUPwqpacAN" role="2MkJ7o">
+              <property role="Xl_RC" value="Source table must have a column labeled with group sample-key" />
+            </node>
+            <node concept="2OE7Q9" id="2MUPwqpaczO" role="2OEWyd">
+              <ref role="2OEe5H" to="jrxw:2MUPwqmWSI9" />
+            </node>
+          </node>
+        </node>
+        <node concept="1Wc70l" id="2MUPwqpa2GI" role="3clFbw">
+          <node concept="3fqX7Q" id="2MUPwqpacty" role="3uHU7w">
+            <node concept="2OqwBi" id="2MUPwqpact$" role="3fr31v">
+              <node concept="1YBJjd" id="2MUPwqpact_" role="2Oq$k0">
+                <ref role="1YBMHb" node="2MUPwqpa1BQ" resolve="groupAnnotation" />
+              </node>
+              <node concept="2qgKlT" id="2MUPwqpactA" role="2OqNvi">
+                <ref role="37wK5l" to="v8sa:2MUPwqpa63Y" resolve="tableHasSampleKey" />
+              </node>
+            </node>
+          </node>
+          <node concept="2OqwBi" id="2MUPwqpa2hz" role="3uHU7B">
+            <node concept="2OqwBi" id="2MUPwqpa1QS" role="2Oq$k0">
+              <node concept="1YBJjd" id="2MUPwqpa1OD" role="2Oq$k0">
+                <ref role="1YBMHb" node="2MUPwqpa1BQ" resolve="groupAnnotation" />
+              </node>
+              <node concept="3TrEf2" id="2MUPwqpa21X" role="2OqNvi">
+                <ref role="3Tt5mk" to="jrxw:2MUPwqmWSI9" />
+              </node>
+            </node>
+            <node concept="3x8VRR" id="2MUPwqpa2$G" role="2OqNvi" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="2MUPwqpa1BQ" role="1YuTPh">
+      <property role="TrG5h" value="groupAnnotation" />
+      <ref role="1YaFvo" to="jrxw:2MUPwqlH$YL" resolve="GroupAnnotation" />
     </node>
   </node>
 </model>
