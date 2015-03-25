@@ -1870,11 +1870,6 @@
       <property role="20lbJX" value="1..n" />
       <ref role="20lvS9" node="kv77yxiEq2" resolve="IdsFrom" />
     </node>
-    <node concept="1TJgyj" id="3FhMZyAMzur" role="1TKVEi">
-      <property role="20lmBu" value="reference" />
-      <property role="20kJfa" value="style" />
-      <ref role="20lvS9" node="20o901rbdPK" resolve="ColorPlotStyle" />
-    </node>
   </node>
   <node concept="1TIwiD" id="kv77yxiEq2">
     <property role="TrG5h" value="IdsFrom" />

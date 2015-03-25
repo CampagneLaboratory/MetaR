@@ -15,7 +15,6 @@
   <imports>
     <import index="9nc5" ref="r:d1a256e6-591a-459f-809c-7fc9df45e4d5(org.campagnelab.mps.XChart.types.roots)" implicit="true" />
     <import index="wiqx" ref="r:6bfd7c1b-dea3-4f98-9ed3-bce7739b7a8d(org.campagnelab.metar.accessories.styles.colors)" implicit="true" />
-    <import index="ngmf" ref="r:8442a0af-7ac4-4a84-bd4e-4f793cfdccb5(org.campagnelab.metar.accessories.defaultcolors)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -26,13 +25,6 @@
     <language id="5d6bde84-4ce4-4eb5-a37e-25a5edd55129" name="org.campagnelab.metar.tables">
       <concept id="2814838647967227455" name="org.campagnelab.metar.tables.structure.TSingleLineComment" flags="ng" index="nccVD">
         <child id="2814838647967227681" name="commentedStatement" index="nccZR" />
-      </concept>
-      <concept id="369044998826656649" name="org.campagnelab.metar.tables.structure.IdsFromSetOfIds" flags="ng" index="2obpZL">
-        <reference id="369044998826657059" name="oneSetOfIds" index="2obp_r" />
-      </concept>
-      <concept id="369044998826678151" name="org.campagnelab.metar.tables.structure.VennDiagram" flags="ng" index="2obsJZ">
-        <child id="369044998826678154" name="plot" index="2obsJM" />
-        <child id="369044998826678156" name="sets" index="2obsJO" />
       </concept>
       <concept id="8031339867720116703" name="org.campagnelab.metar.tables.structure.UsageTypeRef" flags="ng" index="2y_Ijh">
         <reference id="8031339867720116704" name="usage" index="2y_IjI" />
@@ -48,15 +40,6 @@
       <concept id="8962032619593737377" name="org.campagnelab.metar.tables.structure.EmptyLine" flags="ng" index="S1EQe" />
       <concept id="8962032619582305406" name="org.campagnelab.metar.tables.structure.StatementList" flags="ng" index="ZXjPh">
         <child id="8962032619582305407" name="transformations" index="ZXjPg" />
-      </concept>
-      <concept id="8459500803719374384" name="org.campagnelab.metar.tables.structure.Plot" flags="ng" index="1FHg$p">
-        <property id="8962032619586498917" name="width" index="ZHjxa" />
-        <property id="8962032619586499111" name="height" index="ZHjG8" />
-      </concept>
-      <concept id="5333555603574035147" name="org.campagnelab.metar.tables.structure.PlotStyle" flags="ng" index="1IPSDr">
-        <property id="5333555603574055814" name="title" index="1IPZGm" />
-        <property id="5333555603574743152" name="pixelWidth" index="1IQnzw" />
-        <property id="5333555603574743155" name="pixelHeight" index="1IQnzz" />
       </concept>
       <concept id="3402264987261651661" name="org.campagnelab.metar.tables.structure.ImportTable" flags="ng" index="3MjoWR">
         <reference id="3402264987261692715" name="table" index="3Mj2Vh" />
@@ -80,9 +63,6 @@
       </concept>
       <concept id="3402264987265829804" name="org.campagnelab.metar.tables.structure.ColumnAnnotation" flags="ng" index="3MzsTm">
         <child id="3402264987265831176" name="groups" index="3MztjM" />
-      </concept>
-      <concept id="2312637992603016560" name="org.campagnelab.metar.tables.structure.ColorPlotStyle" flags="ng" index="1Vdf_K">
-        <reference id="2312637992610193780" name="colors" index="1Vw$lO" />
       </concept>
       <concept id="4166618652716705715" name="org.campagnelab.metar.tables.structure.Define" flags="ng" index="3WoeC_">
         <child id="4166618652716705717" name="object" index="3WoeCz" />
@@ -118,11 +98,10 @@
       <concept id="27429407128487350" name="org.campagnelab.styles.structure.ColorPaletteRef" flags="ng" index="24aBtg">
         <reference id="27429407128487353" name="palette" index="24aBtv" />
       </concept>
-      <concept id="5397636476160524896" name="org.campagnelab.styles.structure.UseStyle" flags="ng" index="2YPgeA">
-        <reference id="3501083140137599858" name="useStyle" index="L_9Jz" />
+      <concept id="27429407125142994" name="org.campagnelab.styles.structure.ColorPalette" flags="ng" index="24tCWO">
+        <child id="27429407125142997" name="colors" index="24tCWN" />
       </concept>
       <concept id="5397636476160560846" name="org.campagnelab.styles.structure.StyleContainer" flags="ng" index="2YPoW8">
-        <reference id="5397636476160801466" name="extends" index="2YEjHW" />
         <child id="5397636476160567172" name="elements" index="2YPqp2" />
       </concept>
       <concept id="2312637992603016748" name="org.campagnelab.styles.structure.Color" flags="ng" index="1VdfCG">
@@ -384,7 +363,7 @@
       <node concept="3WoeC_" id="kv77ypitiw" role="ZXjPg">
         <property role="S1EQ6" value="OCDLPMWJRM" />
         <node concept="3Wv0rH" id="kv77ypitiP" role="3WoeCz">
-          <property role="TrG5h" value="daaaa1" />
+          <property role="TrG5h" value="data1" />
           <node concept="3Wv0rE" id="kv77ypitiS" role="3Wv3z6">
             <property role="3Wv0rF" value="a" />
           </node>
@@ -441,7 +420,7 @@
       <node concept="3WoeC_" id="t0TZVfUW6B" role="ZXjPg">
         <property role="S1EQ6" value="EATGMXKAXV" />
         <node concept="3Wv0rH" id="t0TZVfUW7F" role="3WoeCz">
-          <property role="TrG5h" value="test3" />
+          <property role="TrG5h" value="data2" />
           <node concept="3Wv0rE" id="t0TZVfUW7J" role="3Wv3z6">
             <property role="3Wv0rF" value="a1" />
           </node>
@@ -474,7 +453,7 @@
       <node concept="3WoeC_" id="t0TZVfUWbe" role="ZXjPg">
         <property role="S1EQ6" value="AQTOYWFJSA" />
         <node concept="3Wv0rH" id="t0TZVfUWcC" role="3WoeCz">
-          <property role="TrG5h" value="trust" />
+          <property role="TrG5h" value="data3" />
           <node concept="3Wv0rE" id="t0TZVfUWcG" role="3Wv3z6">
             <property role="3Wv0rF" value="b1" />
           </node>
@@ -516,7 +495,7 @@
       <node concept="3WoeC_" id="3FhMZyDAS1o" role="ZXjPg">
         <property role="S1EQ6" value="DOOVPERLSJ" />
         <node concept="3Wv0rH" id="3FhMZyDAS5F" role="3WoeCz">
-          <property role="TrG5h" value="new" />
+          <property role="TrG5h" value="data4" />
           <node concept="3Wv0rE" id="3FhMZyDAS5I" role="3Wv3z6">
             <property role="3Wv0rF" value="a1" />
           </node>
@@ -558,8 +537,101 @@
           </node>
         </node>
       </node>
-      <node concept="S1EQe" id="3FhMZyEaPgy" role="ZXjPg">
-        <property role="S1EQ6" value="KWPEUHWDMG" />
+      <node concept="S1EQe" id="3FhMZyG2Dr0" role="ZXjPg">
+        <property role="S1EQ6" value="WIBWBOWBUO" />
+      </node>
+      <node concept="3WoeC_" id="3FhMZyG2Dt7" role="ZXjPg">
+        <property role="S1EQ6" value="IKDPHAOGWP" />
+        <node concept="3Wv0rH" id="3FhMZyG2Duf" role="3WoeCz">
+          <property role="TrG5h" value="data5" />
+          <node concept="3Wv0rE" id="3FhMZyG2Dui" role="3Wv3z6">
+            <property role="3Wv0rF" value="a1" />
+          </node>
+          <node concept="3Wv0rE" id="3FhMZyG2Duk" role="3Wv3z6">
+            <property role="3Wv0rF" value="a" />
+          </node>
+          <node concept="3Wv0rE" id="3FhMZyG2Dun" role="3Wv3z6">
+            <property role="3Wv0rF" value="b" />
+          </node>
+          <node concept="3Wv0rE" id="3FhMZyG2Dur" role="3Wv3z6">
+            <property role="3Wv0rF" value="c" />
+          </node>
+          <node concept="3Wv0rE" id="3FhMZyG2Duw" role="3Wv3z6">
+            <property role="3Wv0rF" value="k" />
+          </node>
+          <node concept="3Wv0rE" id="3FhMZyG2DuA" role="3Wv3z6">
+            <property role="3Wv0rF" value="b1" />
+          </node>
+          <node concept="3Wv0rE" id="3FhMZyG2DuH" role="3Wv3z6">
+            <property role="3Wv0rF" value="ae" />
+          </node>
+          <node concept="3Wv0rE" id="3FhMZyG2DuP" role="3Wv3z6">
+            <property role="3Wv0rF" value="j" />
+          </node>
+          <node concept="3Wv0rE" id="3FhMZyG2DuY" role="3Wv3z6">
+            <property role="3Wv0rF" value="d5" />
+          </node>
+          <node concept="3Wv0rE" id="3FhMZyG2Dv8" role="3Wv3z6">
+            <property role="3Wv0rF" value="v4" />
+          </node>
+          <node concept="3Wv0rE" id="3FhMZyG2Dvj" role="3Wv3z6">
+            <property role="3Wv0rF" value="v5" />
+          </node>
+          <node concept="3Wv0rE" id="3FhMZyG2Dvv" role="3Wv3z6">
+            <property role="3Wv0rF" value="v6" />
+          </node>
+          <node concept="3Wv0rE" id="3FhMZyG2DvG" role="3Wv3z6">
+            <property role="3Wv0rF" value="v7" />
+          </node>
+          <node concept="3Wv0rE" id="3FhMZyG2DvU" role="3Wv3z6">
+            <property role="3Wv0rF" value="v8" />
+          </node>
+          <node concept="3Wv0rE" id="3FhMZyG2Dw9" role="3Wv3z6">
+            <property role="3Wv0rF" value="v9" />
+          </node>
+          <node concept="3Wv0rE" id="3FhMZyG2Dwp" role="3Wv3z6">
+            <property role="3Wv0rF" value="v11" />
+          </node>
+          <node concept="3Wv0rE" id="3FhMZyG2DwE" role="3Wv3z6">
+            <property role="3Wv0rF" value="xc" />
+          </node>
+          <node concept="3Wv0rE" id="3FhMZyG2DwW" role="3Wv3z6">
+            <property role="3Wv0rF" value="cc" />
+          </node>
+        </node>
+      </node>
+      <node concept="S1EQe" id="3FhMZyG2Dxf" role="ZXjPg">
+        <property role="S1EQ6" value="OFPASWUCJJ" />
+      </node>
+      <node concept="3WoeC_" id="3FhMZyG2D$0" role="ZXjPg">
+        <property role="S1EQ6" value="SKGCIATBNU" />
+        <node concept="3Wv0rH" id="3FhMZyG2DDu" role="3WoeCz">
+          <property role="TrG5h" value="genelist" />
+          <node concept="3Wv0rE" id="3FhMZyG2DDx" role="3Wv3z6">
+            <property role="3Wv0rF" value="AB330770" />
+          </node>
+          <node concept="3Wv0rE" id="3FhMZyG2DHw" role="3Wv3z6">
+            <property role="3Wv0rF" value="DQ571187" />
+          </node>
+          <node concept="3Wv0rE" id="3FhMZyG2DLx" role="3Wv3z6">
+            <property role="3Wv0rF" value="DQ597780" />
+          </node>
+          <node concept="3Wv0rE" id="3FhMZyG2DP$" role="3Wv3z6">
+            <property role="3Wv0rF" value="DQ601936" />
+          </node>
+          <node concept="3Wv0rE" id="3FhMZyG2DXD" role="3Wv3z6">
+            <property role="3Wv0rF" value="DQ600156" />
+          </node>
+          <node concept="3Wv0rE" id="3FhMZyG2E1K" role="3Wv3z6">
+            <property role="3Wv0rF" value="DQ584320" />
+          </node>
+        </node>
+      </node>
+      <node concept="S1EQe" id="3FhMZyG2E1R" role="ZXjPg">
+        <property role="S1EQ6" value="QLHRGKUJJQ" />
+      </node>
+      <node concept="S1EQe" id="3FhMZyG2DmQ" role="ZXjPg">
+        <property role="S1EQ6" value="IXGYFYSMRW" />
       </node>
       <node concept="nccVD" id="3FhMZyEKzkY" role="ZXjPg">
         <property role="S1EQ6" value="HRLTEMDUTJ" />
@@ -567,43 +639,14 @@
           <property role="3SKdUp" value="add venn diagram" />
         </node>
       </node>
-      <node concept="S1EQe" id="3FhMZyEaPix" role="ZXjPg">
-        <property role="S1EQ6" value="KXVEJMTLHB" />
+      <node concept="S1EQe" id="3FhMZyFGpCd" role="ZXjPg">
+        <property role="S1EQ6" value="OULGQGLBFY" />
       </node>
-      <node concept="2obsJZ" id="3FhMZyEzj99" role="ZXjPg">
-        <property role="S1EQ6" value="BLQKCIEEDQ" />
-        <ref role="L_9Jz" node="3FhMZyEm4Ju" resolve="VennStyle" />
-        <node concept="2obpZL" id="3FhMZyEzj9a" role="2obsJO">
-          <property role="TrG5h" value="set" />
-          <ref role="2obp_r" node="kv77ypitiP" resolve="daaaa1" />
-        </node>
-        <node concept="2obpZL" id="3FhMZyEzjam" role="2obsJO">
-          <property role="TrG5h" value="mam" />
-          <ref role="2obp_r" node="3FhMZyDAS5F" resolve="new" />
-        </node>
-        <node concept="2obpZL" id="3FhMZyEzjau" role="2obsJO">
-          <property role="TrG5h" value="tt" />
-          <ref role="2obp_r" node="t0TZVfUW7F" resolve="test3" />
-        </node>
-        <node concept="2obpZL" id="3FhMZyEzjaC" role="2obsJO">
-          <property role="TrG5h" value="qq" />
-          <ref role="2obp_r" node="t0TZVfUWcC" resolve="trust" />
-        </node>
-        <node concept="2obpZL" id="3FhMZyEKBDq" role="2obsJO">
-          <property role="TrG5h" value="ww" />
-          <ref role="2obp_r" node="3FhMZyDAS5F" resolve="new" />
-        </node>
-        <node concept="1FHg$p" id="3FhMZyEzj9c" role="2obsJM">
-          <property role="ZHjxa" value="200" />
-          <property role="ZHjG8" value="200" />
-          <property role="TrG5h" value="plot" />
-        </node>
+      <node concept="S1EQe" id="3FhMZyG2E7r" role="ZXjPg">
+        <property role="S1EQ6" value="PTMXOURMBO" />
       </node>
-      <node concept="S1EQe" id="3FhMZyEaPk$" role="ZXjPg">
-        <property role="S1EQ6" value="LBWQAECGGX" />
-      </node>
-      <node concept="S1EQe" id="3FhMZyEaPmF" role="ZXjPg">
-        <property role="S1EQ6" value="VPESVYUPSP" />
+      <node concept="S1EQe" id="3FhMZyG2E8X" role="ZXjPg">
+        <property role="S1EQ6" value="QLFSLKOABB" />
       </node>
     </node>
   </node>
@@ -840,39 +883,37 @@
       </node>
     </node>
   </node>
-  <node concept="1Vdf_K" id="3FhMZyB41Mk">
-    <property role="TrG5h" value="test" />
-    <property role="1IPZGm" value="da" />
-    <property role="1IQnzw" value="100" />
-    <property role="1IQnzz" value="123" />
-    <ref role="1Vw$lO" to="ngmf:7kcXEwbVY2Z" resolve="DefaultGrayPalette" />
-  </node>
-  <node concept="2YPoW8" id="3FhMZyDMl6u">
-    <property role="TrG5h" value="tetcolo" />
-    <ref role="2YEjHW" node="3FhMZyElH5o" resolve="DefaultStyle" />
-    <node concept="1VdfCG" id="3FhMZyDMlaP" role="2YPqp2">
-      <property role="TrG5h" value="Color" />
-      <ref role="24hxRv" to="wiqx:6Rb38OKwxZn" resolve="black" />
-    </node>
-    <node concept="1VdfCG" id="3FhMZyDMlaX" role="2YPqp2">
-      <property role="TrG5h" value="Color" />
-    </node>
-    <node concept="1VdfCG" id="3FhMZyDMlb7" role="2YPqp2">
-      <property role="TrG5h" value="Color" />
-      <ref role="24hxRv" to="wiqx:6Rb38OKwyfq" resolve="yellow" />
-    </node>
-    <node concept="1VdfCG" id="3FhMZyDMlbj" role="2YPqp2">
-      <property role="TrG5h" value="Color" />
-    </node>
-  </node>
   <node concept="2YPoW8" id="3FhMZyElH5o">
     <property role="TrG5h" value="DefaultStyle" />
   </node>
   <node concept="2YPoW8" id="3FhMZyEm4Ju">
     <property role="TrG5h" value="VennStyle" />
     <node concept="24aBtg" id="3FhMZyEm4Jv" role="2YPqp2">
-      <property role="TrG5h" value="Qualitative-Dark2" />
-      <ref role="24aBtv" to="wiqx:1xsIq4yXlo" resolve="Qualitative-Dark2" />
+      <property role="TrG5h" value="myOwnColors" />
+      <ref role="24aBtv" node="3FhMZyELArI" resolve="myOwnColors" />
+    </node>
+  </node>
+  <node concept="24tCWO" id="3FhMZyELArI">
+    <property role="TrG5h" value="myOwnColors" />
+    <node concept="1VdfCG" id="3FhMZyELAvs" role="24tCWN">
+      <property role="TrG5h" value="Color" />
+      <ref role="24hxRv" to="wiqx:1xsIq4y9LV" resolve="aliceblue" />
+    </node>
+    <node concept="1VdfCG" id="3FhMZyELAvy" role="24tCWN">
+      <property role="TrG5h" value="Color" />
+      <ref role="24hxRv" to="wiqx:6Rb38OK0Y8S" resolve="gray60" />
+    </node>
+    <node concept="1VdfCG" id="3FhMZyELAv_" role="24tCWN">
+      <property role="TrG5h" value="Color" />
+      <ref role="24hxRv" to="wiqx:6Rb38OKwyfq" resolve="yellow" />
+    </node>
+    <node concept="1VdfCG" id="3FhMZyELAvD" role="24tCWN">
+      <property role="TrG5h" value="Color" />
+      <ref role="24hxRv" to="wiqx:1xsIq4aMQl" resolve="green" />
+    </node>
+    <node concept="1VdfCG" id="3FhMZyELAvI" role="24tCWN">
+      <property role="TrG5h" value="Color" />
+      <ref role="24hxRv" to="wiqx:1xsIq4aMOG" resolve="red" />
     </node>
   </node>
 </model>

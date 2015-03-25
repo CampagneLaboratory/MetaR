@@ -50,7 +50,6 @@
         <property id="1140524450557" name="separatorText" index="2czwfO" />
         <child id="1176897874615" name="nodeFactory" index="4_6I_" />
         <child id="1140524464360" name="cellLayout" index="2czzBx" />
-        <child id="1140524464359" name="emptyCellModel" index="2czzBI" />
         <child id="928328222691832421" name="separatorTextQuery" index="2gpyvW" />
       </concept>
       <concept id="1106270549637" name="jetbrains.mps.lang.editor.structure.CellLayout_Horizontal" flags="nn" index="2iRfu4" />
@@ -4303,11 +4302,16 @@
       <node concept="3F0ifn" id="7mrPTtAEwCs" role="3EZMnx">
         <property role="3F0ifm" value="of" />
       </node>
+      <node concept="3F0ifn" id="3FhMZyEXaXO" role="3EZMnx">
+        <property role="3F0ifm" value="{" />
+      </node>
       <node concept="3EZMnI" id="7mrPTtAEwCI" role="3EZMnx">
         <node concept="3F2HdR" id="7mrPTtAEwCR" role="3EZMnx">
           <ref role="1NtTu8" to="jrxw:kv77ytcHuc" />
           <node concept="2iRkQZ" id="7mrPTtAEwCT" role="2czzBx" />
-          <node concept="3F0ifn" id="7mrPTtBl$XN" role="2czzBI" />
+        </node>
+        <node concept="3F0ifn" id="3FhMZyEXaY4" role="3EZMnx">
+          <property role="3F0ifm" value="}" />
         </node>
         <node concept="2iRkQZ" id="7mrPTtAEwCL" role="2iSdaV" />
       </node>
