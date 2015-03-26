@@ -21,13 +21,6 @@
       <concept id="1070475926800" name="jetbrains.mps.baseLanguage.structure.StringLiteral" flags="nn" index="Xl_RD">
         <property id="1070475926801" name="value" index="Xl_RC" />
       </concept>
-      <concept id="1111509017652" name="jetbrains.mps.baseLanguage.structure.FloatingPointConstant" flags="nn" index="3b6qkQ">
-        <property id="1113006610751" name="value" index="$nhwW" />
-      </concept>
-      <concept id="1079359253375" name="jetbrains.mps.baseLanguage.structure.ParenthesizedExpression" flags="nn" index="1eOMI4">
-        <child id="1079359253376" name="expression" index="1eOMHV" />
-      </concept>
-      <concept id="1081506773034" name="jetbrains.mps.baseLanguage.structure.LessThanExpression" flags="nn" index="3eOVzh" />
       <concept id="1081773326031" name="jetbrains.mps.baseLanguage.structure.BinaryOperation" flags="nn" index="3uHJSO">
         <child id="1081773367579" name="rightExpression" index="3uHU7w" />
         <child id="1081773367580" name="leftExpression" index="3uHU7B" />
@@ -74,18 +67,8 @@
       <concept id="2814838647967227455" name="org.campagnelab.metar.tables.structure.TSingleLineComment" flags="ng" index="nccVD">
         <child id="2814838647967227681" name="commentedStatement" index="nccZR" />
       </concept>
-      <concept id="369044998826656649" name="org.campagnelab.metar.tables.structure.IdsFromSetOfIds" flags="ng" index="2obpZL">
-        <reference id="369044998826657059" name="oneSetOfIds" index="2obp_r" />
-      </concept>
-      <concept id="369044998826678151" name="org.campagnelab.metar.tables.structure.VennDiagram" flags="ng" index="2obsJZ">
-        <child id="369044998826678154" name="plot" index="2obsJM" />
-        <child id="369044998826678156" name="sets" index="2obsJO" />
-      </concept>
       <concept id="8031339867720116703" name="org.campagnelab.metar.tables.structure.UsageTypeRef" flags="ng" index="2y_Ijh">
         <reference id="8031339867720116704" name="usage" index="2y_IjI" />
-      </concept>
-      <concept id="369044998895347330" name="org.campagnelab.metar.tables.structure.IdsFrom" flags="ng" index="2$lrFU">
-        <child id="4238392993270988498" name="SetColor" index="2kIzkE" />
       </concept>
       <concept id="6106414325997850090" name="org.campagnelab.metar.tables.structure.FutureTableCreator" flags="ng" index="2$MLEj">
         <property id="9080041854829670092" name="inputChanged" index="8NYsT" />
@@ -108,16 +91,8 @@
       <concept id="5052319772298911308" name="org.campagnelab.metar.tables.structure.ExpressionWrapper" flags="ng" index="31$ALs">
         <child id="5052319772298911309" name="expression" index="31$ALt" />
       </concept>
-      <concept id="522672638463863191" name="org.campagnelab.metar.tables.structure.IdsFromTable" flags="ng" index="3id8TD">
-        <child id="522672638463863609" name="table" index="3id8N7" />
-        <child id="522672638463863607" name="rowFilter" index="3id8N9" />
-      </concept>
       <concept id="8081253674570416584" name="org.campagnelab.metar.tables.structure.ColumnValue" flags="ng" index="3$Gm2I">
         <reference id="8081253674570416585" name="column" index="3$Gm2J" />
-      </concept>
-      <concept id="8459500803719374384" name="org.campagnelab.metar.tables.structure.Plot" flags="ng" index="1FHg$p">
-        <property id="8962032619586498917" name="width" index="ZHjxa" />
-        <property id="8962032619586499111" name="height" index="ZHjG8" />
       </concept>
       <concept id="3402264987261651661" name="org.campagnelab.metar.tables.structure.ImportTable" flags="ng" index="3MjoWR">
         <reference id="3402264987261692715" name="table" index="3Mj2Vh" />
@@ -184,9 +159,6 @@
       </concept>
       <concept id="27429407125142994" name="org.campagnelab.styles.structure.ColorPalette" flags="ng" index="24tCWO">
         <child id="27429407125142997" name="colors" index="24tCWN" />
-      </concept>
-      <concept id="5397636476160524896" name="org.campagnelab.styles.structure.UseStyle" flags="ng" index="2YPgeA">
-        <reference id="3501083140137599858" name="useStyle" index="L_9Jz" />
       </concept>
       <concept id="5397636476160560846" name="org.campagnelab.styles.structure.StyleContainer" flags="ng" index="2YPoW8">
         <child id="5397636476160567172" name="elements" index="2YPqp2" />
@@ -1030,55 +1002,6 @@
       <node concept="S1EQe" id="3FhMZyGeqWL" role="ZXjPg">
         <property role="S1EQ6" value="CJUSODAJBO" />
       </node>
-      <node concept="2obsJZ" id="3FhMZyGefDf" role="ZXjPg">
-        <property role="S1EQ6" value="AWTHASXLWI" />
-        <ref role="L_9Jz" node="3FhMZyEm4Ju" resolve="VennStyle" />
-        <node concept="2obpZL" id="3FhMZyGefDg" role="2obsJO">
-          <property role="TrG5h" value="set1" />
-          <ref role="2obp_r" node="kv77ypitiP" resolve="data1" />
-          <node concept="1VdfCG" id="3FhMZyJxeYH" role="2kIzkE">
-            <property role="TrG5h" value="Color" />
-            <ref role="24hxRv" to="wiqx:6Rb38OKwxZn" resolve="black" />
-          </node>
-        </node>
-        <node concept="2obpZL" id="3FhMZyGefKs" role="2obsJO">
-          <property role="TrG5h" value="set2" />
-          <ref role="2obp_r" node="t0TZVfUW7F" resolve="data2" />
-          <node concept="1VdfCG" id="3FhMZyKyc6I" role="2kIzkE">
-            <property role="TrG5h" value="Color" />
-            <ref role="24hxRv" to="wiqx:1xsIq4y9JK" resolve="cyan" />
-          </node>
-        </node>
-        <node concept="3id8TD" id="3FhMZyJ4Qqw" role="2obsJO">
-          <property role="TrG5h" value="set3" />
-          <node concept="afgQW" id="3FhMZyJlW5b" role="3id8N7">
-            <ref role="afgo8" node="3FhMZyGerYT" resolve="res" />
-          </node>
-          <node concept="2Qf$4g" id="3FhMZyJ4Qq$" role="3id8N9">
-            <node concept="31$ALs" id="3FhMZyJ4QqA" role="QaakN">
-              <node concept="1eOMI4" id="3FhMZyJlW6s" role="31$ALt">
-                <node concept="3eOVzh" id="3FhMZyJlW8_" role="1eOMHV">
-                  <node concept="3b6qkQ" id="3FhMZyJlW9o" role="3uHU7w">
-                    <property role="$nhwW" value="0.10" />
-                  </node>
-                  <node concept="3$Gm2I" id="3FhMZyJlW6C" role="3uHU7B">
-                    <ref role="3$Gm2J" node="3FhMZyGeLiM" resolve="PValue" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="1VdfCG" id="3FhMZyJ4QqR" role="2kIzkE">
-            <property role="TrG5h" value="Color" />
-            <ref role="24hxRv" to="wiqx:1xsIq4y9LV" resolve="aliceblue" />
-          </node>
-        </node>
-        <node concept="1FHg$p" id="3FhMZyGefGO" role="2obsJM">
-          <property role="ZHjxa" value="200" />
-          <property role="ZHjG8" value="200" />
-          <property role="TrG5h" value="venn3" />
-        </node>
-      </node>
       <node concept="S1EQe" id="3FhMZyGer0v" role="ZXjPg">
         <property role="S1EQ6" value="FAXPKOTASI" />
       </node>
@@ -1096,34 +1019,6 @@
       </node>
       <node concept="S1EQe" id="3FhMZyGerfx" role="ZXjPg">
         <property role="S1EQ6" value="IJFVRTVUML" />
-      </node>
-      <node concept="2obsJZ" id="3FhMZyGefOE" role="ZXjPg">
-        <property role="S1EQ6" value="YAEXDAETQM" />
-        <node concept="2obpZL" id="3FhMZyGefOF" role="2obsJO">
-          <property role="TrG5h" value="set1" />
-          <ref role="2obp_r" node="kv77ypitiP" resolve="data1" />
-        </node>
-        <node concept="2obpZL" id="3FhMZyGefSo" role="2obsJO">
-          <property role="TrG5h" value="set2" />
-          <ref role="2obp_r" node="t0TZVfUW7F" resolve="data2" />
-        </node>
-        <node concept="2obpZL" id="3FhMZyGefSw" role="2obsJO">
-          <property role="TrG5h" value="set3" />
-          <ref role="2obp_r" node="t0TZVfUWcC" resolve="data3" />
-        </node>
-        <node concept="2obpZL" id="3FhMZyGefSE" role="2obsJO">
-          <property role="TrG5h" value="set4" />
-          <ref role="2obp_r" node="3FhMZyDAS5F" resolve="data4" />
-        </node>
-        <node concept="2obpZL" id="3FhMZyGefSQ" role="2obsJO">
-          <property role="TrG5h" value="set5" />
-          <ref role="2obp_r" node="3FhMZyG2Duf" resolve="data5" />
-        </node>
-        <node concept="1FHg$p" id="3FhMZyGefOH" role="2obsJM">
-          <property role="ZHjxa" value="200" />
-          <property role="ZHjG8" value="200" />
-          <property role="TrG5h" value="venn5" />
-        </node>
       </node>
       <node concept="S1EQe" id="3FhMZyGerto" role="ZXjPg">
         <property role="S1EQ6" value="FWITAKUAER" />
