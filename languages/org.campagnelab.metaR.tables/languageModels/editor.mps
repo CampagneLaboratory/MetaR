@@ -28,10 +28,8 @@
     <import index="1t7x" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.awt(JDK/java.awt@java_stub)" />
     <import index="e2lb" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" implicit="true" />
     <import index="711x" ref="r:f8afdbad-6ef4-4231-b44c-0ecacaf32d43(org.campagnelab.mps.XChart.types.behavior)" implicit="true" />
-    <import index="42z1" ref="r:61980467-5cf8-4450-9d24-d597512183ad(org.campagnelab.styles.behavior)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="h23j" ref="r:5e0b7baa-a427-417f-968a-1e4912c5f643(org.campagnelab.styles.editor)" implicit="true" />
-    <import index="tpc5" ref="r:00000000-0000-4000-0000-011c89590299(jetbrains.mps.lang.editor.editor)" implicit="true" />
   </imports>
   <registry>
     <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">
@@ -110,7 +108,6 @@
       </concept>
       <concept id="1186403694788" name="jetbrains.mps.lang.editor.structure.ColorStyleClassItem" flags="ln" index="VaVBg">
         <property id="1186403713874" name="color" index="Vb096" />
-        <child id="1186403803051" name="query" index="VblUZ" />
       </concept>
       <concept id="1186403751766" name="jetbrains.mps.lang.editor.structure.FontStyleStyleClassItem" flags="ln" index="Vb9p2">
         <property id="1186403771423" name="style" index="Vbekb" />
@@ -223,7 +220,6 @@
       <concept id="1166049232041" name="jetbrains.mps.lang.editor.structure.AbstractComponent" flags="ng" index="1XWOmA">
         <reference id="1166049300910" name="conceptDeclaration" index="1XX52x" />
       </concept>
-      <concept id="1176809959526" name="jetbrains.mps.lang.editor.structure.QueryFunction_Color" flags="in" index="3ZlJ5R" />
     </language>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
       <concept id="1215693861676" name="jetbrains.mps.baseLanguage.structure.BaseAssignmentExpression" flags="nn" index="d038R">
@@ -4292,31 +4288,6 @@
       <node concept="2iRfu4" id="6ZmHkZ0rIQw" role="2iSdaV" />
       <node concept="3F0A7n" id="6ZmHkZ17nDo" role="3EZMnx">
         <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
-        <ref role="1k5W1q" to="tpc5:hEUz4pu" resolve="style" />
-        <node concept="30gYXW" id="3FhMZyOoZJ0" role="3F10Kt">
-          <property role="Vb096" value="pink" />
-          <node concept="3ZlJ5R" id="3FhMZyOF1aw" role="VblUZ">
-            <node concept="3clFbS" id="3FhMZyOF1ax" role="2VODD2">
-              <node concept="3clFbF" id="3FhMZyOF1qo" role="3cqZAp">
-                <node concept="2YIFZM" id="3FhMZyOF1Es" role="3clFbG">
-                  <ref role="37wK5l" to="1t7x:~Color.getColor(java.lang.String):java.awt.Color" resolve="getColor" />
-                  <ref role="1Pybhc" to="1t7x:~Color" resolve="Color" />
-                  <node concept="2OqwBi" id="3FhMZyOF31j" role="37wK5m">
-                    <node concept="2OqwBi" id="3FhMZyOF21Y" role="2Oq$k0">
-                      <node concept="pncrf" id="3FhMZyOF1U_" role="2Oq$k0" />
-                      <node concept="3TrEf2" id="3FhMZyOF2ul" role="2OqNvi">
-                        <ref role="3Tt5mk" to="jrxw:3FhMZyIqZVi" />
-                      </node>
-                    </node>
-                    <node concept="2qgKlT" id="3FhMZyOF5GA" role="2OqNvi">
-                      <ref role="37wK5l" to="42z1:4FCgsrPt0q7" resolve="getValue" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
       </node>
       <node concept="3F0ifn" id="6ZmHkZ0rIQB" role="3EZMnx">
         <property role="3F0ifm" value="from table" />

@@ -238,9 +238,15 @@
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
         <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
+        <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
       </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
+      </concept>
+      <concept id="779128492853369165" name="jetbrains.mps.lang.core.structure.SideTransformInfo" flags="ng" index="1KehLL">
+        <property id="779128492853935960" name="anchorTag" index="1K8rD$" />
+        <property id="779128492853934523" name="cellId" index="1K8rM7" />
+        <property id="779128492853699361" name="side" index="1Kfyot" />
       </concept>
     </language>
     <language id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections">
@@ -2129,7 +2135,13 @@
             </node>
             <node concept="2OqwBi" id="3FhMZyO1Zl$" role="33vP2m">
               <node concept="2OqwBi" id="3FhMZyO1Yu_" role="2Oq$k0">
-                <node concept="2Sf5sV" id="3FhMZyO1YqF" role="2Oq$k0" />
+                <node concept="2Sf5sV" id="3FhMZyO1YqF" role="2Oq$k0">
+                  <node concept="1KehLL" id="3FhMZyP4RE6" role="lGtFl">
+                    <property role="1K8rM7" value="ALIAS_EDITOR_COMPONENT" />
+                    <property role="1K8rD$" value="default_RTransform" />
+                    <property role="1Kfyot" value="left" />
+                  </node>
+                </node>
                 <node concept="I4A8Y" id="3FhMZyO1Z7T" role="2OqNvi" />
               </node>
               <node concept="I8ghe" id="3FhMZyO1Zs5" role="2OqNvi">
