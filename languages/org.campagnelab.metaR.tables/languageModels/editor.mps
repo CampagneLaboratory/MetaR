@@ -25,6 +25,7 @@
     <import index="tpen" ref="r:00000000-0000-4000-0000-011c895902c3(jetbrains.mps.baseLanguage.editor)" />
     <import index="srng" ref="f:java_stub#1ed103c3-3aa6-49b7-9c21-6765ee11f224#jetbrains.mps.openapi.editor(jetbrains.mps.openapi.editor@java_stub)" />
     <import index="onla" ref="r:b81182ba-13d2-441a-9b65-76fe2bd96f30(org.campagnelab.styles.structure)" />
+    <import index="tb6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.awt.color(JDK/java.awt.color@java_stub)" />
     <import index="e2lb" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" implicit="true" />
     <import index="711x" ref="r:f8afdbad-6ef4-4231-b44c-0ecacaf32d43(org.campagnelab.mps.XChart.types.behavior)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
@@ -4276,6 +4277,11 @@
     <node concept="3EZMnI" id="6ZmHkZ0rIQt" role="2wV5jI">
       <node concept="3F0ifn" id="6ZmHkZ79Xt1" role="3EZMnx">
         <property role="3F0ifm" value="set" />
+        <node concept="OXEIz" id="3FhMZyGeSCS" role="P5bDN">
+          <node concept="UkePV" id="3FhMZyGeT2B" role="OY2wv">
+            <ref role="Ul1FP" to="jrxw:kv77ytcCe9" resolve="IdsFromSetOfIds" />
+          </node>
+        </node>
       </node>
       <node concept="2iRfu4" id="6ZmHkZ0rIQw" role="2iSdaV" />
       <node concept="3F0A7n" id="6ZmHkZ17nDo" role="3EZMnx">
@@ -4283,12 +4289,36 @@
       </node>
       <node concept="3F0ifn" id="6ZmHkZ0rIQB" role="3EZMnx">
         <property role="3F0ifm" value="from table" />
+        <node concept="OXEIz" id="3FhMZyGpMPt" role="P5bDN">
+          <node concept="UkePV" id="3FhMZyGpMPv" role="OY2wv">
+            <ref role="Ul1FP" to="jrxw:kv77ytcCe9" resolve="IdsFromSetOfIds" />
+          </node>
+        </node>
       </node>
       <node concept="3F1sOY" id="6ZmHkZ0rIQG" role="3EZMnx">
         <ref role="1NtTu8" to="jrxw:t0TZVlt6GT" />
       </node>
       <node concept="3F1sOY" id="6ZmHkZ0rOig" role="3EZMnx">
         <ref role="1NtTu8" to="jrxw:t0TZVlt6GR" />
+      </node>
+      <node concept="3F0ifn" id="3FhMZyGpMPG" role="3EZMnx">
+        <property role="3F0ifm" value="with" />
+        <node concept="OXEIz" id="3FhMZyGpMPS" role="P5bDN">
+          <node concept="UkePV" id="3FhMZyGpMPU" role="OY2wv">
+            <ref role="Ul1FP" to="jrxw:kv77ytcCe9" resolve="IdsFromSetOfIds" />
+          </node>
+        </node>
+      </node>
+      <node concept="3F1sOY" id="3FhMZyJ4YY1" role="3EZMnx">
+        <ref role="1NtTu8" to="jrxw:3FhMZyIqZVi" />
+      </node>
+      <node concept="3F0ifn" id="3FhMZyJ8ukI" role="3EZMnx">
+        <property role="3F0ifm" value="" />
+        <node concept="OXEIz" id="3FhMZyJ8ukY" role="P5bDN">
+          <node concept="UkePV" id="3FhMZyJ8uXY" role="OY2wv">
+            <ref role="Ul1FP" to="jrxw:kv77ytcCe9" resolve="IdsFromSetOfIds" />
+          </node>
+        </node>
       </node>
     </node>
   </node>
@@ -4336,12 +4366,22 @@
     <node concept="3EZMnI" id="kv77yyJaxe" role="2wV5jI">
       <node concept="3F0ifn" id="6ZmHkZ79XJ8" role="3EZMnx">
         <property role="3F0ifm" value="set" />
+        <node concept="OXEIz" id="3FhMZyGeT2D" role="P5bDN">
+          <node concept="UkePV" id="3FhMZyGeT2F" role="OY2wv">
+            <ref role="Ul1FP" to="jrxw:t0TZVlt6An" resolve="IdsFromTable" />
+          </node>
+        </node>
       </node>
       <node concept="3F0A7n" id="7mrPTtAmfzg" role="3EZMnx">
         <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
       </node>
       <node concept="3F0ifn" id="kv77yyJaxk" role="3EZMnx">
         <property role="3F0ifm" value="from set of ids" />
+        <node concept="OXEIz" id="3FhMZyGeT2H" role="P5bDN">
+          <node concept="UkePV" id="3FhMZyGeT2J" role="OY2wv">
+            <ref role="Ul1FP" to="jrxw:t0TZVlt6An" resolve="IdsFromTable" />
+          </node>
+        </node>
       </node>
       <node concept="1iCGBv" id="kv77yyJaxq" role="3EZMnx">
         <ref role="1NtTu8" to="jrxw:kv77ytcCkz" />
@@ -4350,6 +4390,21 @@
             <property role="1Intyy" value="true" />
             <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
             <ref role="1k5W1q" node="7Hltlm8C$po" resolve="GeneListName" />
+          </node>
+        </node>
+      </node>
+      <node concept="3F0ifn" id="3FhMZyGtg86" role="3EZMnx">
+        <property role="3F0ifm" value="with" />
+        <node concept="OXEIz" id="3FhMZyGtg8j" role="P5bDN" />
+      </node>
+      <node concept="3F1sOY" id="3FhMZyJm6ph" role="3EZMnx">
+        <ref role="1NtTu8" to="jrxw:3FhMZyIqZVi" />
+      </node>
+      <node concept="3F0ifn" id="3FhMZyJm6qr" role="3EZMnx">
+        <property role="3F0ifm" value="" />
+        <node concept="OXEIz" id="3FhMZyJm6qF" role="P5bDN">
+          <node concept="UkePV" id="3FhMZyJm6qH" role="OY2wv">
+            <ref role="Ul1FP" to="jrxw:t0TZVlt6An" resolve="IdsFromTable" />
           </node>
         </node>
       </node>

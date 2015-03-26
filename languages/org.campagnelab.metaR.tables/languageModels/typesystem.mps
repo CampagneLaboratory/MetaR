@@ -2395,11 +2395,11 @@
       <node concept="3clFbJ" id="3FhMZyFGpHQ" role="3cqZAp">
         <node concept="3clFbS" id="3FhMZyFGpHR" role="3clFbx">
           <node concept="2MkqsV" id="3FhMZyFGqM1" role="3cqZAp">
-            <node concept="1YBJjd" id="3FhMZyFGqU3" role="2OEOjV">
+            <node concept="1YBJjd" id="3FhMZyHPJ32" role="2OEOjV">
               <ref role="1YBMHb" node="3FhMZyFGpHJ" resolve="idsFrom" />
             </node>
             <node concept="Xl_RD" id="3FhMZyFGqMj" role="2MkJ7o">
-              <property role="Xl_RC" value="this name will appear on the graph" />
+              <property role="Xl_RC" value="this name will be shown on the graph" />
             </node>
           </node>
         </node>

@@ -12,6 +12,7 @@
     <import index="tpc2" ref="r:00000000-0000-4000-0000-011c8959029e(jetbrains.mps.lang.editor.structure)" />
     <import index="msyo" ref="f:java_stub#6ed54515-acc8-4d1e-a16c-9fd6cfe951ea#jetbrains.mps.util(MPS.Core/jetbrains.mps.util@java_stub)" />
     <import index="onla" ref="r:b81182ba-13d2-441a-9b65-76fe2bd96f30(org.campagnelab.styles.structure)" />
+    <import index="tb6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.awt.color(JDK/java.awt.color@java_stub)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
@@ -1838,7 +1839,7 @@
   </node>
   <node concept="1TIwiD" id="kv77ytcCe9">
     <property role="TrG5h" value="IdsFromSetOfIds" />
-    <property role="34LRSv" value="Ids from a define set" />
+    <property role="34LRSv" value="set from a  user defined Ids set" />
     <property role="3GE5qa" value="venn" />
     <property role="R4oN_" value="a user defined set of ids " />
     <ref role="1TJDcQ" node="kv77yxiEq2" resolve="IdsFrom" />
@@ -1878,6 +1879,11 @@
     <property role="R5$K7" value="true" />
     <property role="R5$K2" value="false" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="3FhMZyIqZVi" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="SetColor" />
+      <ref role="20lvS9" to="onla:20o901rbdSG" resolve="Color" />
+    </node>
     <node concept="PrWs8" id="7mrPTtA69nD" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
@@ -1886,7 +1892,7 @@
     <property role="3GE5qa" value="venn" />
     <property role="TrG5h" value="IdsFromTable" />
     <property role="19KtqR" value="true" />
-    <property role="34LRSv" value="Ids from table " />
+    <property role="34LRSv" value="set from an annotated table " />
     <property role="R4oN_" value="return ids from an annotated table" />
     <ref role="1TJDcQ" node="kv77yxiEq2" resolve="IdsFrom" />
     <node concept="1TJgyj" id="t0TZVlt6GR" role="1TKVEi">
