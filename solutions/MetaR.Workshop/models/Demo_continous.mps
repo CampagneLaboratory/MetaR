@@ -38,6 +38,7 @@
       <concept id="8043901499795600301" name="org.campagnelab.metar.edgeR.structure.GroupRef" flags="ng" index="30btTA">
         <reference id="8043901499795600302" name="group" index="30btT_" />
       </concept>
+      <concept id="8725455673819917020" name="org.campagnelab.metar.edgeR.structure.GroupUsageExpression" flags="ng" index="3cpe5C" />
       <concept id="8725455673819917021" name="org.campagnelab.metar.edgeR.structure.Plus" flags="ng" index="3cpe5D" />
       <concept id="8725455673819916854" name="org.campagnelab.metar.edgeR.structure.GroupFormula" flags="ng" index="3cpe62">
         <child id="8725455673819916858" name="groupExpression" index="3cpe6e" />
@@ -239,7 +240,7 @@
       </node>
       <node concept="2T39AR" id="2MUPwqpHgoI" role="lGtFl">
         <ref role="2UilQf" node="2MUPwqlH$3j" resolve="TestAge.csv" />
-        <ref role="2Ob$t6" node="2MUPwqlH$3n" resolve="AgeMos" />
+        <ref role="2Ob$t6" node="2MUPwqq1v1d" resolve="AgeInMonths" />
       </node>
     </node>
     <node concept="3MzsS1" id="2MUPwqlHxMy" role="3MzsBV">
@@ -252,7 +253,7 @@
       </node>
       <node concept="2T39AR" id="2MUPwqpHgoG" role="lGtFl">
         <ref role="2UilQf" node="2MUPwqlH$3j" resolve="TestAge.csv" />
-        <ref role="2Ob$t6" node="2MUPwqlH$3n" resolve="AgeMos" />
+        <ref role="2Ob$t6" node="2MUPwqq1v1d" resolve="AgeInMonths" />
       </node>
     </node>
     <node concept="3MzsS1" id="2MUPwqlHxM_" role="3MzsBV">
@@ -268,14 +269,14 @@
       <property role="TrG5h" value="counts" />
       <node concept="2T39AR" id="2MUPwqp1AXq" role="lGtFl">
         <ref role="2UilQf" node="2MUPwqlH$3j" resolve="TestAge.csv" />
-        <ref role="2Ob$t6" node="2MUPwqlH$3n" resolve="AgeMos" />
+        <ref role="2Ob$t6" node="2MUPwqq1v1d" resolve="AgeInMonths" />
       </node>
     </node>
     <node concept="3MzsS1" id="2MUPwqpHm7A" role="3MzsBV">
       <property role="TrG5h" value="ageG" />
       <node concept="2T39AR" id="2MUPwqpHm7Q" role="lGtFl">
         <ref role="2UilQf" node="2MUPwqlH$3j" resolve="TestAge.csv" />
-        <ref role="2Ob$t6" node="2MUPwqlH$3n" resolve="AgeMos" />
+        <ref role="2Ob$t6" node="2MUPwqq1v1d" resolve="AgeInMonths" />
       </node>
       <node concept="2y_Ijh" id="2MUPwqpHm7V" role="2y_Iji">
         <ref role="2y_IjI" node="2MUPwqlH$3$" resolve="age" />
@@ -888,8 +889,11 @@
         </node>
         <node concept="3cpe62" id="2MUPwqlHxPj" role="3curr0">
           <node concept="3cpe5D" id="2MUPwqlHxPk" role="3cpe6e">
-            <node concept="3cpe63" id="2MUPwqpHm7S" role="3crlGi">
-              <ref role="3cpe6c" node="2MUPwqlH$3$" resolve="age" />
+            <node concept="3cpe5D" id="2MUPwqq91oj" role="3crlGi">
+              <node concept="3cpe5C" id="2MUPwqq91ol" role="3crlGi" />
+              <node concept="3cpe63" id="2MUPwqpHm7S" role="3crlGg">
+                <ref role="3cpe6c" node="2MUPwqlH$3$" resolve="age" />
+              </node>
             </node>
             <node concept="3cqNWE" id="2MUPwqlHxPm" role="3crlGg" />
           </node>
@@ -1566,6 +1570,11 @@
     <node concept="31JHg8" id="2MUPwqq1v1c" role="31JHgj">
       <property role="TrG5h" value="sampleID" />
       <ref role="1YeEjl" to="9nc5:1ID5TXdv_9L" resolve="String" />
+      <node concept="3MzsTm" id="2MUPwqq1$Dg" role="lGtFl">
+        <node concept="3MzsBX" id="2MUPwqq1$Dn" role="3MztjM">
+          <ref role="3MzsBM" node="2MUPwqlH$Lk" resolve="sample-key" />
+        </node>
+      </node>
     </node>
     <node concept="31JHg8" id="2MUPwqq1v1d" role="31JHgj">
       <property role="TrG5h" value="AgeInMonths" />

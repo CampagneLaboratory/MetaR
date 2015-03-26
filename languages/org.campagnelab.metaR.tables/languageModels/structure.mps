@@ -1868,7 +1868,7 @@
       <ref role="20lvS9" to="ztlb:1UijAvvb9DJ" resolve="Column" />
     </node>
     <node concept="M6xJ_" id="2MUPwqlH$YN" role="lGtFl">
-      <property role="Hh88m" value="table" />
+      <property role="Hh88m" value="valuesFromTables" />
       <node concept="tn0Fv" id="2MUPwqlH$YO" role="HhnKV">
         <property role="tnX3d" value="false" />
       </node>
