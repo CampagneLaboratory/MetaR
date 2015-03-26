@@ -1932,9 +1932,5 @@
       </node>
     </node>
   </node>
-  <node concept="1M2fIO" id="3FhMZyJU7GP">
-    <property role="3GE5qa" value="venn" />
-    <ref role="1M2myG" to="jrxw:kv77yxiEq2" resolve="IdsFrom" />
-  </node>
 </model>
 
