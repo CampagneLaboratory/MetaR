@@ -21,6 +21,13 @@
       <concept id="1070475926800" name="jetbrains.mps.baseLanguage.structure.StringLiteral" flags="nn" index="Xl_RD">
         <property id="1070475926801" name="value" index="Xl_RC" />
       </concept>
+      <concept id="1111509017652" name="jetbrains.mps.baseLanguage.structure.FloatingPointConstant" flags="nn" index="3b6qkQ">
+        <property id="1113006610751" name="value" index="$nhwW" />
+      </concept>
+      <concept id="1079359253375" name="jetbrains.mps.baseLanguage.structure.ParenthesizedExpression" flags="nn" index="1eOMI4">
+        <child id="1079359253376" name="expression" index="1eOMHV" />
+      </concept>
+      <concept id="1081506773034" name="jetbrains.mps.baseLanguage.structure.LessThanExpression" flags="nn" index="3eOVzh" />
       <concept id="1081773326031" name="jetbrains.mps.baseLanguage.structure.BinaryOperation" flags="nn" index="3uHJSO">
         <child id="1081773367579" name="rightExpression" index="3uHU7w" />
         <child id="1081773367580" name="leftExpression" index="3uHU7B" />
@@ -100,6 +107,10 @@
       </concept>
       <concept id="5052319772298911308" name="org.campagnelab.metar.tables.structure.ExpressionWrapper" flags="ng" index="31$ALs">
         <child id="5052319772298911309" name="expression" index="31$ALt" />
+      </concept>
+      <concept id="522672638463863191" name="org.campagnelab.metar.tables.structure.IdsFromTable" flags="ng" index="3id8TD">
+        <child id="522672638463863609" name="table" index="3id8N7" />
+        <child id="522672638463863607" name="rowFilter" index="3id8N9" />
       </concept>
       <concept id="8081253674570416584" name="org.campagnelab.metar.tables.structure.ColumnValue" flags="ng" index="3$Gm2I">
         <reference id="8081253674570416585" name="column" index="3$Gm2J" />
@@ -1013,16 +1024,57 @@
       <node concept="2obsJZ" id="3FhMZyOTNCY" role="ZXjPg">
         <property role="S1EQ6" value="PFAAAKJHDP" />
         <node concept="2obpZL" id="3FhMZyOTNCZ" role="2obsJO">
-          <property role="TrG5h" value="aaaaa" />
+          <property role="TrG5h" value="set1" />
           <ref role="2obp_r" node="kv77ypitiP" resolve="data1" />
           <node concept="1VdfCG" id="3FhMZyOTNMb" role="2kIzkE">
             <property role="TrG5h" value="Color" />
             <ref role="24hxRv" to="wiqx:1xsIq4aMOG" resolve="red" />
           </node>
         </node>
+        <node concept="2obpZL" id="3FhMZyPg4ES" role="2obsJO">
+          <property role="TrG5h" value="set2" />
+          <ref role="2obp_r" node="t0TZVfUW7F" resolve="data2" />
+          <node concept="1VdfCG" id="3FhMZyPg4EX" role="2kIzkE">
+            <property role="TrG5h" value="Color" />
+            <ref role="24hxRv" to="wiqx:6Rb38OKwxWC" resolve="blue" />
+          </node>
+        </node>
+        <node concept="2obpZL" id="3FhMZyPg4F5" role="2obsJO">
+          <property role="TrG5h" value="set3" />
+          <ref role="2obp_r" node="t0TZVfUWcC" resolve="data3" />
+          <node concept="1VdfCG" id="3FhMZyPg4FX" role="2kIzkE">
+            <property role="TrG5h" value="Color" />
+            <ref role="24hxRv" to="wiqx:6Rb38OKwxZn" resolve="black" />
+          </node>
+        </node>
+        <node concept="3id8TD" id="3FhMZyPsdrq" role="2obsJO">
+          <property role="TrG5h" value="set4" />
+          <node concept="1VdfCG" id="3FhMZyPg4FZ" role="2kIzkE">
+            <property role="TrG5h" value="Color" />
+            <ref role="24hxRv" to="wiqx:6Rb38OKwyfq" resolve="yellow" />
+          </node>
+          <node concept="afgQW" id="3FhMZyPsdrz" role="3id8N7">
+            <ref role="afgo8" node="3FhMZyGerYT" resolve="res" />
+          </node>
+          <node concept="2Qf$4g" id="3FhMZyPsdr_" role="3id8N9">
+            <node concept="31$ALs" id="3FhMZyPsdrA" role="QaakN">
+              <node concept="1eOMI4" id="3FhMZyPsdrJ" role="31$ALt">
+                <node concept="3eOVzh" id="3FhMZyPsdt8" role="1eOMHV">
+                  <node concept="3b6qkQ" id="3FhMZyPsdtV" role="3uHU7w">
+                    <property role="$nhwW" value="0.1" />
+                  </node>
+                  <node concept="3$Gm2I" id="3FhMZyPsdsl" role="3uHU7B">
+                    <ref role="3$Gm2J" node="3FhMZyGeLiM" resolve="PValue" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="1FHg$p" id="3FhMZyOTND1" role="2obsJM">
           <property role="ZHjxa" value="200" />
           <property role="ZHjG8" value="200" />
+          <property role="TrG5h" value="plot" />
         </node>
       </node>
       <node concept="S1EQe" id="3FhMZyGeqWL" role="ZXjPg">
