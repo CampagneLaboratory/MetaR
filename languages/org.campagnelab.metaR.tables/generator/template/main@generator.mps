@@ -945,9 +945,6 @@
         </node>
       </node>
     </node>
-    <node concept="1gZcZf" id="2WRhvFtQ9XI" role="13RCb5">
-      <property role="1gZaPE" value="" />
-    </node>
   </node>
   <node concept="13MO4I" id="7lAbM$uHzaD">
     <property role="TrG5h" value="reduce_ImportTable" />
@@ -6323,9 +6320,6 @@
                   <property role="3_3kQV" value=", select=columns);" />
                 </node>
               </node>
-              <node concept="1gZcZf" id="5d7YQINBbeV" role="gfFT$">
-                <property role="1gZaPE" value="" />
-              </node>
             </node>
           </node>
           <node concept="3_3kQU" id="5d7YQINASn9" role="3_3kQL">
@@ -7388,79 +7382,6 @@
       </node>
       <node concept="raruj" id="5d7YQINzhp9" role="lGtFl" />
     </node>
-    <node concept="1gZcZf" id="5d7YQINzhos" role="13RCb5">
-      <property role="1gZaPE" value="" />
-    </node>
-    <node concept="1gZcZf" id="5d7YQINzho1" role="13RCb5">
-      <property role="1gZaPE" value="" />
-    </node>
-    <node concept="1gZcZf" id="5d7YQINzhnB" role="13RCb5">
-      <property role="1gZaPE" value="" />
-    </node>
-    <node concept="1gZcZf" id="5d7YQINzhne" role="13RCb5">
-      <property role="1gZaPE" value="" />
-    </node>
-    <node concept="1gZcZf" id="5d7YQINzhmQ" role="13RCb5">
-      <property role="1gZaPE" value="" />
-    </node>
-    <node concept="1gZcZf" id="5d7YQINzhmv" role="13RCb5">
-      <property role="1gZaPE" value="" />
-    </node>
-    <node concept="1gZcZf" id="5d7YQINzhm9" role="13RCb5">
-      <property role="1gZaPE" value="" />
-    </node>
-    <node concept="1gZcZf" id="5d7YQINzhlO" role="13RCb5">
-      <property role="1gZaPE" value="" />
-    </node>
-    <node concept="1gZcZf" id="5d7YQINzhlw" role="13RCb5">
-      <property role="1gZaPE" value="" />
-    </node>
-    <node concept="1gZcZf" id="5d7YQINzhld" role="13RCb5">
-      <property role="1gZaPE" value="" />
-    </node>
-    <node concept="1gZcZf" id="5d7YQINzhkV" role="13RCb5">
-      <property role="1gZaPE" value="" />
-    </node>
-    <node concept="1gZcZf" id="5d7YQINzhkE" role="13RCb5">
-      <property role="1gZaPE" value="" />
-    </node>
-    <node concept="1gZcZf" id="5d7YQINzhkq" role="13RCb5">
-      <property role="1gZaPE" value="" />
-    </node>
-    <node concept="1gZcZf" id="5d7YQINzhkb" role="13RCb5">
-      <property role="1gZaPE" value="" />
-    </node>
-    <node concept="1gZcZf" id="5d7YQINzhj3" role="13RCb5">
-      <property role="1gZaPE" value="" />
-    </node>
-    <node concept="1gZcZf" id="5d7YQINzhiR" role="13RCb5">
-      <property role="1gZaPE" value="" />
-    </node>
-    <node concept="1gZcZf" id="5d7YQINzhiG" role="13RCb5">
-      <property role="1gZaPE" value="" />
-    </node>
-    <node concept="1gZcZf" id="5d7YQINzhiy" role="13RCb5">
-      <property role="1gZaPE" value="" />
-    </node>
-    <node concept="1gZcZf" id="5d7YQINzhip" role="13RCb5">
-      <property role="1gZaPE" value="" />
-    </node>
-    <node concept="1gZcZf" id="5d7YQINzhi5" role="13RCb5">
-      <property role="1gZaPE" value="" />
-    </node>
-    <node concept="1gZcZf" id="5d7YQINzhhY" role="13RCb5">
-      <property role="1gZaPE" value="" />
-    </node>
-    <node concept="1gZcZf" id="5d7YQINzhhS" role="13RCb5">
-      <property role="1gZaPE" value="" />
-    </node>
-    <node concept="1gZcZf" id="5d7YQINzhhN" role="13RCb5">
-      <property role="1gZaPE" value="" />
-    </node>
-    <node concept="1gZcZf" id="5d7YQINzhhJ" role="13RCb5">
-      <property role="1gZaPE" value="" />
-    </node>
-    <node concept="2VYdi" id="5d7YQINzhjH" role="13RCb5" />
   </node>
   <node concept="13MO4I" id="3cG4XgKwJf2">
     <property role="TrG5h" value="reduce_Multiplot" />

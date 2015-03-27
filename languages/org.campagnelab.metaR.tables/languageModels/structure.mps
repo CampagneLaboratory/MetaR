@@ -1881,7 +1881,7 @@
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="3FhMZyIqZVi" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="SetColor" />
+      <property role="20kJfa" value="setColor" />
       <ref role="20lvS9" to="onla:20o901rbdSG" resolve="Color" />
     </node>
     <node concept="PrWs8" id="7mrPTtA69nD" role="PzmwI">
