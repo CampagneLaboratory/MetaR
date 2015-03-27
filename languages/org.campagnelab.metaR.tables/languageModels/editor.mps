@@ -4377,7 +4377,11 @@
       </node>
       <node concept="3F0ifn" id="3FhMZyGtg86" role="3EZMnx">
         <property role="3F0ifm" value="with" />
-        <node concept="OXEIz" id="3FhMZyGtg8j" role="P5bDN" />
+        <node concept="OXEIz" id="3FhMZyGtg8j" role="P5bDN">
+          <node concept="UkePV" id="3FhMZyQ6Q0I" role="OY2wv">
+            <ref role="Ul1FP" to="jrxw:t0TZVlt6An" resolve="IdsFromTable" />
+          </node>
+        </node>
       </node>
       <node concept="3F1sOY" id="3FhMZyNQM7B" role="3EZMnx">
         <ref role="1NtTu8" to="jrxw:3FhMZyIqZVi" />

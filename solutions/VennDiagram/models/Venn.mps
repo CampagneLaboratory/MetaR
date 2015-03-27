@@ -18,14 +18,14 @@
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
-      <concept id="1070475926800" name="jetbrains.mps.baseLanguage.structure.StringLiteral" flags="nn" index="Xl_RD">
-        <property id="1070475926801" name="value" index="Xl_RC" />
+      <concept id="1111509017652" name="jetbrains.mps.baseLanguage.structure.FloatingPointConstant" flags="nn" index="3b6qkQ">
+        <property id="1113006610751" name="value" index="$nhwW" />
       </concept>
+      <concept id="1081506773034" name="jetbrains.mps.baseLanguage.structure.LessThanExpression" flags="nn" index="3eOVzh" />
       <concept id="1081773326031" name="jetbrains.mps.baseLanguage.structure.BinaryOperation" flags="nn" index="3uHJSO">
         <child id="1081773367579" name="rightExpression" index="3uHU7w" />
         <child id="1081773367580" name="leftExpression" index="3uHU7B" />
       </concept>
-      <concept id="1073239437375" name="jetbrains.mps.baseLanguage.structure.NotEqualsExpression" flags="nn" index="3y3z36" />
       <concept id="6329021646629104957" name="jetbrains.mps.baseLanguage.structure.TextCommentPart" flags="nn" index="3SKdUq">
         <property id="6329021646629104958" name="text" index="3SKdUp" />
       </concept>
@@ -78,7 +78,7 @@
         <reference id="8031339867720116704" name="usage" index="2y_IjI" />
       </concept>
       <concept id="369044998895347330" name="org.campagnelab.metar.tables.structure.IdsFrom" flags="ng" index="2$lrFU">
-        <child id="4238392993270988498" name="SetColor" index="2kIzkE" />
+        <child id="4238392993270988498" name="setColor" index="2kIzkE" />
       </concept>
       <concept id="6106414325997850090" name="org.campagnelab.metar.tables.structure.FutureTableCreator" flags="ng" index="2$MLEj">
         <property id="9080041854829670092" name="inputChanged" index="8NYsT" />
@@ -913,18 +913,21 @@
         <node concept="afgQW" id="3FhMZyGdNbX" role="aecac">
           <ref role="afgo8" node="kv77ypinVK" resolve="GSE59364_DC_all.csv" />
         </node>
-        <node concept="2Qf$4g" id="3FhMZyGdNeQ" role="3Wum5r">
-          <node concept="31$ALs" id="3FhMZyGdNeS" role="QaakN">
-            <node concept="3y3z36" id="3FhMZyGdNfM" role="31$ALt">
-              <node concept="Xl_RD" id="3FhMZyGdNgb" role="3uHU7w">
-                <property role="Xl_RC" value="Total" />
+        <node concept="2Qf$4g" id="3FhMZyPJTMc" role="3Wum5r">
+          <node concept="31$ALs" id="3FhMZyPJTMe" role="QaakN">
+            <node concept="3eOVzh" id="3FhMZyQ6DI0" role="31$ALt">
+              <node concept="3b6qkQ" id="3FhMZyQ6DT3" role="3uHU7w">
+                <property role="$nhwW" value="0.01" />
               </node>
-              <node concept="3$Gm2I" id="3FhMZyGdNf3" role="3uHU7B">
-                <ref role="3$Gm2J" node="3FhMZyGdVvL" resolve="gene" />
+              <node concept="3$Gm2I" id="3FhMZyQ6DH$" role="3uHU7B">
+                <ref role="3$Gm2J" node="3FhMZyGdVwc" resolve="A_DC" />
               </node>
             </node>
           </node>
         </node>
+      </node>
+      <node concept="S1EQe" id="3FhMZyPJTMA" role="ZXjPg">
+        <property role="S1EQ6" value="TMVWXCFOPT" />
       </node>
       <node concept="nccVD" id="3FhMZyGdNIQ" role="ZXjPg">
         <property role="S1EQ6" value="YYGGPLGSXR" />
@@ -1012,14 +1015,6 @@
       </node>
       <node concept="2obsJZ" id="3FhMZyOTNCY" role="ZXjPg">
         <property role="S1EQ6" value="PFAAAKJHDP" />
-        <node concept="2obpZL" id="3FhMZyOTNCZ" role="2obsJO">
-          <property role="TrG5h" value="set1" />
-          <ref role="2obp_r" node="kv77ypitiP" resolve="data1" />
-          <node concept="1VdfCG" id="3FhMZyOTNMb" role="2kIzkE">
-            <property role="TrG5h" value="Color" />
-            <ref role="24hxRv" to="wiqx:1xsIq4aMOG" resolve="red" />
-          </node>
-        </node>
         <node concept="2obpZL" id="3FhMZyPg4ES" role="2obsJO">
           <property role="TrG5h" value="set2" />
           <ref role="2obp_r" node="t0TZVfUW7F" resolve="data2" />
@@ -1049,17 +1044,6 @@
       </node>
       <node concept="S1EQe" id="3FhMZyGefGR" role="ZXjPg">
         <property role="S1EQ6" value="SUMXKIGEEG" />
-      </node>
-      <node concept="2obsJZ" id="3FhMZyPstag" role="ZXjPg">
-        <property role="S1EQ6" value="AGFMVXKMUA" />
-        <node concept="2obpZL" id="3FhMZyPwedl" role="2obsJO">
-          <property role="TrG5h" value="aaa" />
-        </node>
-        <node concept="1FHg$p" id="3FhMZyPstaj" role="2obsJM">
-          <property role="ZHjxa" value="200" />
-          <property role="ZHjG8" value="200" />
-        </node>
-        <node concept="2$lrFU" id="3FhMZyPsthI" role="2obsJO" />
       </node>
       <node concept="S1EQe" id="3FhMZyGerbJ" role="ZXjPg">
         <property role="S1EQ6" value="FBHBRYEMWX" />

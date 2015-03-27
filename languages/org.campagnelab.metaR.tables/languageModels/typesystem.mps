@@ -13,6 +13,7 @@
     <use id="9ded098b-ad6a-4657-bfd9-48636cfe8bc3" name="jetbrains.mps.lang.traceable" version="0" />
     <use id="6106f611-7a74-42d1-80de-edc5c602bfd1" name="jetbrains.mps.lang.editor.diagram" version="0" />
     <use id="d7722d50-4b93-4c3a-ae06-1903d05f95a7" name="jetbrains.mps.lang.editor.figures" version="0" />
+    <use id="ecf91126-e504-4aae-8ee7-3192d64e77f6" name="org.campagnelab.mps.XChart.types" version="-1" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -1868,7 +1869,7 @@
               <node concept="1YBJjd" id="70Aomqk_K7g" role="2Oq$k0">
                 <ref role="1YBMHb" node="70Aomqk_K7l" resolve="columnValue" />
               </node>
-              <node concept="3TrEf2" id="70Aomqk_K7h" role="2OqNvi">
+              <node concept="3TrEf2" id="3FhMZyQ6ESu" role="2OqNvi">
                 <ref role="3Tt5mk" to="jrxw:70Aomqk_K79" />
               </node>
             </node>
