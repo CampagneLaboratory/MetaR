@@ -1940,10 +1940,10 @@
     <node concept="osYL8" id="3FhMZyPweed" role="1MLXOK">
       <node concept="3clFbS" id="3FhMZyPweee" role="2VODD2">
         <node concept="3clFbF" id="3FhMZyPwfnR" role="3cqZAp">
-          <node concept="3clFbC" id="3FhMZyPwjDJ" role="3clFbG">
+          <node concept="3y3z36" id="3FhMZyPJi$N" role="3clFbG">
             <node concept="otxO1" id="3FhMZyPwis_" role="3uHU7B" />
             <node concept="3TUQnm" id="3FhMZyPwkHC" role="3uHU7w">
-              <ref role="3TV0OU" to="onla:20o901rbdSG" resolve="Color" />
+              <ref role="3TV0OU" to="onla:2od$re0qni_" resolve="BorderColor" />
             </node>
           </node>
         </node>
