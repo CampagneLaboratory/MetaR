@@ -1856,9 +1856,6 @@
     <property role="3GE5qa" value="venn" />
     <property role="34LRSv" value="venn" />
     <ref role="1TJDcQ" node="6WPhx9nlOjT" resolve="PlotBuilderStatement" />
-    <node concept="PrWs8" id="kv77ytcHu8" role="PzmwI">
-      <ref role="PrY4T" to="onla:4FCgsrOfk9w" resolve="UseStyle" />
-    </node>
     <node concept="1TJgyj" id="kv77ytcHua" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="plot" />

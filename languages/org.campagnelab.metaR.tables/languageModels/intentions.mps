@@ -2208,7 +2208,7 @@
       <node concept="3clFbS" id="3FhMZyO1Wqw" role="2VODD2">
         <node concept="3cpWs6" id="3FhMZyO23H$" role="3cqZAp">
           <node concept="Xl_RD" id="3FhMZyO23Xs" role="3cqZAk">
-            <property role="Xl_RC" value="table to set of ids" />
+            <property role="Xl_RC" value="Table to Set of Ids" />
           </node>
         </node>
       </node>
@@ -2295,7 +2295,7 @@
       <node concept="3clFbS" id="3FhMZyO2PVb" role="2VODD2">
         <node concept="3cpWs6" id="3FhMZyO2QD8" role="3cqZAp">
           <node concept="Xl_RD" id="3FhMZyO2QNM" role="3cqZAk">
-            <property role="Xl_RC" value="set of ids to table" />
+            <property role="Xl_RC" value="Set of Ids to Table" />
           </node>
         </node>
       </node>

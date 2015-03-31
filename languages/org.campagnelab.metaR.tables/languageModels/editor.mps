@@ -1606,6 +1606,7 @@
         <property role="3F0ifm" value="Set of IDs" />
       </node>
       <node concept="3F0A7n" id="3BiNpr5FJmm" role="3EZMnx">
+        <property role="1$x2rV" value="SetName" />
         <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
         <ref role="1k5W1q" node="7Hltlm8C$po" resolve="GeneListName" />
       </node>
@@ -4260,9 +4261,7 @@
           <node concept="pj6Ft" id="AkpVsnxFiH" role="3F10Kt">
             <property role="VOm3f" value="true" />
           </node>
-          <node concept="ljvvj" id="AkpVsnxFiI" role="3F10Kt">
-            <property role="VOm3f" value="true" />
-          </node>
+          <node concept="ljvvj" id="AkpVsnxFiI" role="3F10Kt" />
           <node concept="l2Vlx" id="AkpVsnxEGu" role="2czzBx" />
         </node>
         <node concept="l2Vlx" id="AkpVsnx_NP" role="2iSdaV" />
@@ -4311,6 +4310,7 @@
         </node>
       </node>
       <node concept="3F1sOY" id="3FhMZyJ4YY1" role="3EZMnx">
+        <property role="1$x2rV" value="default color" />
         <ref role="1NtTu8" to="jrxw:3FhMZyIqZVi" />
       </node>
     </node>
@@ -4366,6 +4366,7 @@
         </node>
       </node>
       <node concept="1iCGBv" id="kv77yyJaxq" role="3EZMnx">
+        <property role="1$x2rV" value="set of ids" />
         <ref role="1NtTu8" to="jrxw:kv77ytcCkz" />
         <node concept="1sVBvm" id="kv77yyJaxs" role="1sWHZn">
           <node concept="3F0A7n" id="kv77yyJax$" role="2wV5jI">
@@ -4384,6 +4385,7 @@
         </node>
       </node>
       <node concept="3F1sOY" id="3FhMZyNQM7B" role="3EZMnx">
+        <property role="1$x2rV" value="default color" />
         <ref role="1NtTu8" to="jrxw:3FhMZyIqZVi" />
       </node>
       <node concept="2iRfu4" id="kv77yyJaxf" role="2iSdaV" />
