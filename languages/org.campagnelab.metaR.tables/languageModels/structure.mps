@@ -12,6 +12,7 @@
     <import index="tpc2" ref="r:00000000-0000-4000-0000-011c8959029e(jetbrains.mps.lang.editor.structure)" />
     <import index="msyo" ref="f:java_stub#6ed54515-acc8-4d1e-a16c-9fd6cfe951ea#jetbrains.mps.util(MPS.Core/jetbrains.mps.util@java_stub)" />
     <import index="onla" ref="r:b81182ba-13d2-441a-9b65-76fe2bd96f30(org.campagnelab.styles.structure)" />
+    <import index="tb6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.awt.color(JDK/java.awt.color@java_stub)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
@@ -74,7 +75,7 @@
         <child id="1068580123160" name="condition" index="3clFbw" />
         <child id="1068580123161" name="ifTrue" index="3clFbx" />
       </concept>
-      <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
+      <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
       </concept>
       <concept id="1068580123137" name="jetbrains.mps.baseLanguage.structure.BooleanConstant" flags="nn" index="3clFbT">
@@ -330,6 +331,9 @@
     <property role="34LRSv" value="import table" />
     <property role="R4oN_" value="Import a table in this analysis" />
     <ref role="1TJDcQ" node="5Wt7RzzuILp" resolve="DataTableStatement" />
+    <node concept="PrWs8" id="1xeqmqKY_x6" role="PzmwI">
+      <ref role="PrY4T" node="1xeqmqKOy3R" resolve="HasTable" />
+    </node>
     <node concept="1TJgyj" id="2WRhvFtuQGF" role="1TKVEi">
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="table" />
@@ -341,9 +345,6 @@
       <property role="20kJfa" value="future" />
       <property role="20lbJX" value="0..1" />
       <ref role="20lvS9" node="2WRhvFto5F5" resolve="FutureTable" />
-    </node>
-    <node concept="PrWs8" id="1xeqmqKY_x6" role="PzmwI">
-      <ref role="PrY4T" node="1xeqmqKOy3R" resolve="HasTable" />
     </node>
   </node>
   <node concept="1TIwiD" id="2WRhvFtwVip">
@@ -730,14 +731,14 @@
     <property role="TrG5h" value="TableRef" />
     <property role="R4oN_" value="Reference to a Table in Scope." />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="1xeqmqLnYvx" role="PzmwI">
+      <ref role="PrY4T" node="1xeqmqKOy3R" resolve="HasTable" />
+    </node>
     <node concept="1TJgyj" id="3R5AwWRY9K7" role="1TKVEi">
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="table" />
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="2WRhvFtkykN" resolve="Table" />
-    </node>
-    <node concept="PrWs8" id="1xeqmqLnYvx" role="PzmwI">
-      <ref role="PrY4T" node="1xeqmqKOy3R" resolve="HasTable" />
     </node>
   </node>
   <node concept="1TIwiD" id="2GnvTFE6Fir">
@@ -1848,9 +1849,6 @@
       <ref role="20lvS9" to="ztlb:1UijAvvb9DJ" resolve="Column" />
     </node>
   </node>
-  <node concept="PlHQZ" id="1xeqmqKOy3R">
-    <property role="TrG5h" value="HasTable" />
-  </node>
   <node concept="1TIwiD" id="2MUPwqlH$YL">
     <property role="TrG5h" value="GroupAnnotation" />
     <property role="3GE5qa" value="annotations" />
@@ -1875,6 +1873,77 @@
       <node concept="trNpa" id="2MUPwqlH_i6" role="EQaZv">
         <ref role="trN6q" node="2WRhvFtICJV" resolve="ColumnGroup" />
       </node>
+    </node>
+  </node>
+  <node concept="PlHQZ" id="1xeqmqKOy3R">
+    <property role="TrG5h" value="HasTable" />
+  </node>
+  <node concept="1TIwiD" id="kv77ytcHu7">
+    <property role="TrG5h" value="VennDiagram" />
+    <property role="R4oN_" value="Venn diagram for user defined sets" />
+    <property role="3GE5qa" value="venn" />
+    <property role="34LRSv" value="venn" />
+    <ref role="1TJDcQ" node="6WPhx9nlOjT" resolve="PlotBuilderStatement" />
+    <node concept="1TJgyj" id="kv77ytcHua" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="plot" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="7lAbM$uOMoK" resolve="Plot" />
+    </node>
+    <node concept="1TJgyj" id="kv77ytcHuc" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="sets" />
+      <property role="20lbJX" value="1..n" />
+      <ref role="20lvS9" node="kv77yxiEq2" resolve="IdsFrom" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="t0TZVlt6An">
+    <property role="3GE5qa" value="venn" />
+    <property role="TrG5h" value="IdsFromTable" />
+    <property role="19KtqR" value="true" />
+    <property role="34LRSv" value="set from an annotated table " />
+    <property role="R4oN_" value="return ids from an annotated table" />
+    <ref role="1TJDcQ" node="kv77yxiEq2" resolve="IdsFrom" />
+    <node concept="1TJgyj" id="t0TZVlt6GR" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="rowFilter" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="6K3Kmzqfo1S" resolve="FilterWithExpression" />
+    </node>
+    <node concept="1TJgyj" id="t0TZVlt6GT" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="table" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="3R5AwWRY9uN" resolve="TableRef" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="kv77ytcCe9">
+    <property role="TrG5h" value="IdsFromSetOfIds" />
+    <property role="34LRSv" value="set from a  user defined Ids set" />
+    <property role="3GE5qa" value="venn" />
+    <property role="R4oN_" value="a user defined set of ids " />
+    <ref role="1TJDcQ" node="kv77yxiEq2" resolve="IdsFrom" />
+    <node concept="1TJgyj" id="kv77ytcCkz" role="1TKVEi">
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="oneSetOfIds" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="3BiNpr5FGHV" resolve="SetOfIds" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="kv77yxiEq2">
+    <property role="TrG5h" value="IdsFrom" />
+    <property role="R4oN_" value="define the name and the IdsSet" />
+    <property role="3GE5qa" value="venn" />
+    <property role="R5$K7" value="true" />
+    <property role="R5$K2" value="false" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="3FhMZyIqZVi" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="setColor" />
+      <ref role="20lvS9" to="onla:20o901rbdSG" resolve="Color" />
+    </node>
+    <node concept="PrWs8" id="7mrPTtA69nD" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
   </node>
 </model>
