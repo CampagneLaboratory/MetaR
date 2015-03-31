@@ -1372,14 +1372,14 @@
         <property role="S1EQ6" value="TNESFOQHSM" />
         <property role="313rra" value="1" />
         <property role="313rrk" value="1" />
-        <property role="31lnkE" value="true" />
+        <property role="31lnkE" value="false" />
+        <node concept="31becx" id="3FhMZyGdyc9" role="312phR">
+          <ref role="312p7B" node="_4GlRlKyBn" resolve="plot" />
+        </node>
         <node concept="1FHg$p" id="74E64ik79Ai" role="319mBM">
           <property role="ZHjxa" value="400" />
           <property role="ZHjG8" value="400" />
           <property role="TrG5h" value="PreviewHeatmap" />
-        </node>
-        <node concept="31becx" id="74E64ik79Hp" role="312phR">
-          <ref role="312p7B" node="_4GlRlKyBn" resolve="plot" />
         </node>
       </node>
       <node concept="SsgEw" id="7TJa_IVWMge" role="ZXjPg">
@@ -1451,8 +1451,8 @@
   <node concept="2YPoW8" id="2od$re0TptV">
     <property role="TrG5h" value="HeatmapStyle" />
     <node concept="24aBtg" id="2od$re0Tp$c" role="2YPqp2">
-      <property role="TrG5h" value="Sequential-BuGn" />
-      <ref role="24aBtv" to="wiqx:1xsIq4yn5p" resolve="Sequential-BuGn" />
+      <property role="TrG5h" value="Sequential-YlOrRd" />
+      <ref role="24aBtv" to="wiqx:1xsIq4y9NE" resolve="Sequential-YlOrRd" />
     </node>
     <node concept="2A4dvw" id="2od$re2ibWE" role="2YPqp2">
       <property role="2A4bwM" value="true" />

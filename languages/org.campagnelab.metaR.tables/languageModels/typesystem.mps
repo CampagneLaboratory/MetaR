@@ -4,6 +4,16 @@
   <languages>
     <use id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" name="jetbrains.mps.lang.typesystem" version="-1" />
     <use id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior" version="-1" />
+    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="-1" />
+    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="-1" />
+    <use id="ed6d7656-532c-4bc2-81d1-af945aeb8280" name="jetbrains.mps.baseLanguage.blTypes" version="-1" />
+    <use id="443f4c36-fcf5-4eb6-9500-8d06ed259e3e" name="jetbrains.mps.baseLanguage.classifiers" version="-1" />
+    <use id="aee9cad2-acd4-4608-aef2-0004f6a1cdbd" name="jetbrains.mps.lang.actions" version="-1" />
+    <use id="ecf91126-e504-4aae-8ee7-3192d64e77f6" name="org.campagnelab.mps.XChart.types" version="-1" />
+    <use id="13744753-c81f-424a-9c1b-cf8943bf4e86" name="jetbrains.mps.lang.sharedConcepts" version="-1" />
+    <use id="9ded098b-ad6a-4657-bfd9-48636cfe8bc3" name="jetbrains.mps.lang.traceable" version="-1" />
+    <use id="d7722d50-4b93-4c3a-ae06-1903d05f95a7" name="jetbrains.mps.lang.editor.figures" version="-1" />
+    <use id="6106f611-7a74-42d1-80de-edc5c602bfd1" name="jetbrains.mps.lang.editor.diagram" version="-1" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -75,8 +85,11 @@
         <child id="1068580123161" name="ifTrue" index="3clFbx" />
         <child id="1206060520071" name="elsifClauses" index="3eNLev" />
       </concept>
-      <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
+      <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
+      </concept>
+      <concept id="1068580123137" name="jetbrains.mps.baseLanguage.structure.BooleanConstant" flags="nn" index="3clFbT">
+        <property id="1068580123138" name="value" index="3clFbU" />
       </concept>
       <concept id="1068580320020" name="jetbrains.mps.baseLanguage.structure.IntegerConstant" flags="nn" index="3cmrfG">
         <property id="1068580320021" name="value" index="3cmrfH" />
@@ -91,6 +104,7 @@
         <child id="1206060619838" name="condition" index="3eO9$A" />
         <child id="1206060644605" name="statementList" index="3eOfB_" />
       </concept>
+      <concept id="1081506762703" name="jetbrains.mps.baseLanguage.structure.GreaterThanExpression" flags="nn" index="3eOSWO" />
       <concept id="1081516740877" name="jetbrains.mps.baseLanguage.structure.NotExpression" flags="nn" index="3fqX7Q">
         <child id="1081516765348" name="expression" index="3fr31v" />
       </concept>
@@ -107,6 +121,9 @@
         <child id="1081773367580" name="leftExpression" index="3uHU7B" />
       </concept>
       <concept id="1073239437375" name="jetbrains.mps.baseLanguage.structure.NotEqualsExpression" flags="nn" index="3y3z36" />
+      <concept id="5497648299878491908" name="jetbrains.mps.baseLanguage.structure.BaseVariableReference" flags="nn" index="1M0zk4">
+        <reference id="5497648299878491909" name="baseVariableDeclaration" index="1M0zk5" />
+      </concept>
       <concept id="6329021646629104957" name="jetbrains.mps.baseLanguage.structure.TextCommentPart" flags="nn" index="3SKdUq">
         <property id="6329021646629104958" name="text" index="3SKdUp" />
       </concept>
@@ -212,6 +229,14 @@
         <child id="1144104376918" name="parameter" index="1xVPHs" />
       </concept>
       <concept id="1179409122411" name="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" flags="nn" index="2qgKlT" />
+      <concept id="1883223317721008708" name="jetbrains.mps.lang.smodel.structure.IfInstanceOfStatement" flags="nn" index="Jncv_">
+        <reference id="1883223317721008712" name="nodeConcept" index="JncvD" />
+        <child id="1883223317721008709" name="body" index="Jncv$" />
+        <child id="1883223317721008711" name="variable" index="JncvA" />
+        <child id="1883223317721008710" name="nodeExpression" index="JncvB" />
+      </concept>
+      <concept id="1883223317721008713" name="jetbrains.mps.lang.smodel.structure.IfInstanceOfVariable" flags="ng" index="JncvC" />
+      <concept id="1883223317721107059" name="jetbrains.mps.lang.smodel.structure.IfInstanceOfVarReference" flags="nn" index="Jnkvi" />
       <concept id="1171305280644" name="jetbrains.mps.lang.smodel.structure.Node_GetDescendantsOperation" flags="nn" index="2Rf3mk" />
       <concept id="1171310072040" name="jetbrains.mps.lang.smodel.structure.Node_GetContainingRootOperation" flags="nn" index="2Rxl7S" />
       <concept id="3562215692195599741" name="jetbrains.mps.lang.smodel.structure.SLinkImplicitSelect" flags="nn" index="13MTOL">
@@ -1842,11 +1867,11 @@
         <node concept="mw_s8" id="70Aomqk_K7d" role="1ZfhKB">
           <node concept="1Z2H0r" id="70Aomqk_K7e" role="mwGJk">
             <node concept="2OqwBi" id="70Aomqk_K7f" role="1Z2MuG">
+              <node concept="3TrEf2" id="3FhMZyQ6ESu" role="2OqNvi">
+                <ref role="3Tt5mk" to="jrxw:70Aomqk_K79" />
+              </node>
               <node concept="1YBJjd" id="70Aomqk_K7g" role="2Oq$k0">
                 <ref role="1YBMHb" node="70Aomqk_K7l" resolve="columnValue" />
-              </node>
-              <node concept="3TrEf2" id="70Aomqk_K7h" role="2OqNvi">
-                <ref role="3Tt5mk" to="jrxw:70Aomqk_K79" />
               </node>
             </node>
           </node>
@@ -2303,6 +2328,147 @@
     <node concept="1YaCAy" id="2MUPwqpa1BQ" role="1YuTPh">
       <property role="TrG5h" value="groupAnnotation" />
       <ref role="1YaFvo" to="jrxw:2MUPwqlH$YL" resolve="GroupAnnotation" />
+    </node>
+  </node>
+  <node concept="18kY7G" id="3FhMZyFGpHG">
+    <property role="TrG5h" value="check_IdsFrom" />
+    <property role="3GE5qa" value="venn" />
+    <node concept="3clFbS" id="3FhMZyFGpHH" role="18ibNy">
+      <node concept="3clFbJ" id="3FhMZyFGpHQ" role="3cqZAp">
+        <node concept="3clFbS" id="3FhMZyFGpHR" role="3clFbx">
+          <node concept="2MkqsV" id="3FhMZyFGqM1" role="3cqZAp">
+            <node concept="1YBJjd" id="3FhMZyHPJ32" role="2OEOjV">
+              <ref role="1YBMHb" node="3FhMZyFGpHJ" resolve="idsFrom" />
+            </node>
+            <node concept="Xl_RD" id="3FhMZyFGqMj" role="2MkJ7o">
+              <property role="Xl_RC" value="this name will be shown on the graph" />
+            </node>
+          </node>
+        </node>
+        <node concept="2OqwBi" id="3FhMZyFGqhH" role="3clFbw">
+          <node concept="2OqwBi" id="3FhMZyFGpKv" role="2Oq$k0">
+            <node concept="1YBJjd" id="3FhMZyFGpI8" role="2Oq$k0">
+              <ref role="1YBMHb" node="3FhMZyFGpHJ" resolve="idsFrom" />
+            </node>
+            <node concept="3TrcHB" id="3FhMZyFGpVa" role="2OqNvi">
+              <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+            </node>
+          </node>
+          <node concept="17RlXB" id="3FhMZyFGqLC" role="2OqNvi" />
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="3FhMZyFGpHJ" role="1YuTPh">
+      <property role="TrG5h" value="idsFrom" />
+      <ref role="1YaFvo" to="jrxw:kv77yxiEq2" resolve="IdsFrom" />
+    </node>
+  </node>
+  <node concept="18kY7G" id="kv77ytxmq6">
+    <property role="TrG5h" value="checkVennDiagramHasFiveSet" />
+    <property role="3GE5qa" value="venn" />
+    <node concept="3clFbS" id="kv77ytxmq7" role="18ibNy">
+      <node concept="3clFbJ" id="3FhMZyFjx1L" role="3cqZAp">
+        <node concept="3clFbS" id="3FhMZyFjx1M" role="3clFbx">
+          <node concept="2MkqsV" id="3FhMZyFjBkD" role="3cqZAp">
+            <node concept="1YBJjd" id="3FhMZyFjBlf" role="2OEOjV">
+              <ref role="1YBMHb" node="kv77ytxmq9" resolve="venn" />
+            </node>
+            <node concept="Xl_RD" id="3FhMZyFjBkV" role="2MkJ7o">
+              <property role="Xl_RC" value="Only up to 5 sets can be used." />
+            </node>
+          </node>
+        </node>
+        <node concept="3eOSWO" id="3FhMZyFjBcI" role="3clFbw">
+          <node concept="3cmrfG" id="3FhMZyFjBft" role="3uHU7w">
+            <property role="3cmrfH" value="5" />
+          </node>
+          <node concept="2OqwBi" id="3FhMZyFjyHs" role="3uHU7B">
+            <node concept="2OqwBi" id="3FhMZyFjx5U" role="2Oq$k0">
+              <node concept="1YBJjd" id="3FhMZyFjx23" role="2Oq$k0">
+                <ref role="1YBMHb" node="kv77ytxmq9" resolve="venn" />
+              </node>
+              <node concept="3Tsc0h" id="3FhMZyFjxA0" role="2OqNvi">
+                <ref role="3TtcxE" to="jrxw:kv77ytcHuc" />
+              </node>
+            </node>
+            <node concept="34oBXx" id="3FhMZyFj$uQ" role="2OqNvi" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="kv77ytxmq9" role="1YuTPh">
+      <property role="TrG5h" value="venn" />
+      <ref role="1YaFvo" to="jrxw:kv77ytcHu7" resolve="VennDiagram" />
+    </node>
+  </node>
+  <node concept="18kY7G" id="3FhMZyFkI5P">
+    <property role="TrG5h" value="check_VennDiagramTableHasID" />
+    <property role="3GE5qa" value="venn" />
+    <node concept="3clFbS" id="3FhMZyFkI5Q" role="18ibNy">
+      <node concept="2Gpval" id="3FhMZyFkVzq" role="3cqZAp">
+        <node concept="2GrKxI" id="3FhMZyFkVzr" role="2Gsz3X">
+          <property role="TrG5h" value="set" />
+        </node>
+        <node concept="3clFbS" id="3FhMZyFkVzs" role="2LFqv$">
+          <node concept="Jncv_" id="3FhMZyFkWbz" role="3cqZAp">
+            <ref role="JncvD" to="jrxw:t0TZVlt6An" resolve="IdsFromTable" />
+            <node concept="2GrUjf" id="3FhMZyFkWc3" role="JncvB">
+              <ref role="2Gs0qQ" node="3FhMZyFkVzr" resolve="set" />
+            </node>
+            <node concept="JncvC" id="3FhMZyFkWb_" role="JncvA">
+              <property role="TrG5h" value="thisSetTable" />
+              <node concept="2jxLKc" id="3FhMZyFkWbA" role="1tU5fm" />
+            </node>
+            <node concept="3clFbS" id="3FhMZyFkWbB" role="Jncv$">
+              <node concept="3clFbJ" id="3FhMZyFkY8u" role="3cqZAp">
+                <node concept="3clFbS" id="3FhMZyFkY8w" role="3clFbx">
+                  <node concept="2MkqsV" id="3FhMZyFl2J3" role="3cqZAp">
+                    <node concept="1YBJjd" id="3FhMZyFl30i" role="2OEOjV">
+                      <ref role="1YBMHb" node="3FhMZyFkI5S" resolve="venn" />
+                    </node>
+                    <node concept="Xl_RD" id="3FhMZyFl2Jo" role="2MkJ7o">
+                      <property role="Xl_RC" value="Your table doesn't have an ID group" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="3clFbC" id="3FhMZyFl0$o" role="3clFbw">
+                  <node concept="2OqwBi" id="3FhMZyFkZ1J" role="3uHU7B">
+                    <node concept="2OqwBi" id="3FhMZyFkYfq" role="2Oq$k0">
+                      <node concept="Jnkvi" id="3FhMZyFkYaP" role="2Oq$k0">
+                        <ref role="1M0zk5" node="3FhMZyFkWb_" resolve="thisSetTable" />
+                      </node>
+                      <node concept="3TrEf2" id="3FhMZyFkYu7" role="2OqNvi">
+                        <ref role="3Tt5mk" to="jrxw:t0TZVlt6GT" />
+                      </node>
+                    </node>
+                    <node concept="2qgKlT" id="3FhMZyFkZon" role="2OqNvi">
+                      <ref role="37wK5l" to="v8sa:3_QsSyzdEHw" resolve="hasGroup" />
+                      <node concept="Xl_RD" id="3FhMZyFkZqq" role="37wK5m">
+                        <property role="Xl_RC" value="ID" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3clFbT" id="3FhMZyFl2vM" role="3uHU7w">
+                    <property role="3clFbU" value="false" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="2OqwBi" id="3FhMZyFkVCi" role="2GsD0m">
+          <node concept="1YBJjd" id="3FhMZyFkV$3" role="2Oq$k0">
+            <ref role="1YBMHb" node="3FhMZyFkI5S" resolve="venn" />
+          </node>
+          <node concept="3Tsc0h" id="3FhMZyFkW9a" role="2OqNvi">
+            <ref role="3TtcxE" to="jrxw:kv77ytcHuc" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="3FhMZyFkI5S" role="1YuTPh">
+      <property role="TrG5h" value="venn" />
+      <ref role="1YaFvo" to="jrxw:kv77ytcHu7" resolve="VennDiagram" />
     </node>
   </node>
 </model>
