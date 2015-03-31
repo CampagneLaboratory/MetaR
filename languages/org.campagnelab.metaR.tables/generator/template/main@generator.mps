@@ -11896,13 +11896,7 @@
           <property role="3_3kQV" value="" />
         </node>
       </node>
-      <node concept="1gZcZf" id="3FhMZyC1IS5" role="2G3XIn">
-        <node concept="3_3kQU" id="3FhMZyC1IS6" role="3_3kQL">
-          <property role="3_3kQV" value="" />
-        </node>
-      </node>
       <node concept="1gZcZf" id="3FhMZyBWYUu" role="2G3XIn">
-        <property role="1gZaPE" value="print(title);" />
         <node concept="3_3kQU" id="3FhMZyJUkRC" role="3_3kQL">
           <property role="3_3kQV" value="" />
         </node>
@@ -12120,7 +12114,6 @@
         </node>
       </node>
       <node concept="1gZcZf" id="3FhMZyKaisz" role="2G3XIn">
-        <property role="1gZaPE" value="print(colors);" />
         <node concept="3_3kQU" id="3FhMZyKais$" role="3_3kQL">
           <property role="3_3kQV" value="" />
         </node>
