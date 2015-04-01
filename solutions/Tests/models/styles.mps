@@ -5,6 +5,7 @@
     <use id="43f31864-fc67-43f5-873e-ab79cc279a2d" name="org.campagnelab.styles" version="-1" />
     <use id="46803809-20ee-443f-bea9-0bee114b90b3" name="org.campagnelab.metar.edgeR" version="-1" />
     <use id="65e78f51-5ed0-4cd0-994e-550ec4f053ed" name="org.campagnelab.metar.accessories" version="-1" />
+    <use id="ecc862c9-5ab5-42ef-8703-2039019fb338" name="org.campagnelab.metar.models" version="0" />
     <devkit ref="8a3636fa-c6ec-4cb0-bc2a-b7143f2a4937(org.campagnelab.metaR)" />
   </languages>
   <imports>
@@ -36,23 +37,28 @@
       </concept>
       <concept id="1073239437375" name="jetbrains.mps.baseLanguage.structure.NotEqualsExpression" flags="nn" index="3y3z36" />
     </language>
+    <language id="ecc862c9-5ab5-42ef-8703-2039019fb338" name="org.campagnelab.metar.models">
+      <concept id="5124039371744206222" name="" flags="ng" index="10WucB" />
+      <concept id="5124039371744206225" name="" flags="ng" index="10WucS" />
+      <concept id="5124039371744206229" name="" flags="ng" index="10WucW" />
+      <concept id="5124039371744206228" name="" flags="ng" index="10WucX" />
+      <concept id="5124039371743719808" name="org.campagnelab.metar.models.structure.ContrastMinus" flags="ng" index="10Y$WD" />
+      <concept id="5124039371743719813" name="org.campagnelab.metar.models.structure.GroupRef" flags="ng" index="10Y$WG" />
+    </language>
     <language id="46803809-20ee-443f-bea9-0bee114b90b3" name="org.campagnelab.metar.edgeR">
       <concept id="8031339867716512485" name="org.campagnelab.metar.edgeR.structure.ContrastsBinaryOperator" flags="ng" index="2yQuvF">
         <child id="8031339867716512539" name="right" index="2yQuol" />
         <child id="8031339867716512537" name="left" index="2yQuon" />
       </concept>
-      <concept id="8031339867716707809" name="org.campagnelab.metar.edgeR.structure.ContrastMinus" flags="ng" index="2yQIzJ" />
       <concept id="8043901499795600301" name="org.campagnelab.metar.edgeR.structure.GroupRef" flags="ng" index="30btTA">
         <reference id="8043901499795600302" name="group" index="30btT_" />
       </concept>
-      <concept id="8725455673819917021" name="org.campagnelab.metar.edgeR.structure.Plus" flags="ng" index="3cpe5D" />
       <concept id="8725455673819916854" name="org.campagnelab.metar.edgeR.structure.GroupFormula" flags="ng" index="3cpe62">
         <child id="8725455673819916858" name="groupExpression" index="3cpe6e" />
       </concept>
       <concept id="8725455673819916855" name="org.campagnelab.metar.edgeR.structure.GroupUsageRef" flags="ng" index="3cpe63">
         <reference id="8725455673819916856" name="groupUsage" index="3cpe6c" />
       </concept>
-      <concept id="8725455673820460190" name="org.campagnelab.metar.edgeR.structure.NoIntercept" flags="ng" index="3cqNWE" />
       <concept id="8725455673820336285" name="org.campagnelab.metar.edgeR.structure.BinaryExpression" flags="ng" index="3crlGD">
         <child id="8725455673820336292" name="left" index="3crlGg" />
         <child id="8725455673820336294" name="right" index="3crlGi" />
@@ -1077,20 +1083,20 @@
             </node>
           </node>
         </node>
-        <node concept="3cpe62" id="4DOwJpJRA87" role="3curr0">
-          <node concept="3cpe5D" id="4DOwJpJRVwn" role="3cpe6e">
-            <node concept="3cpe63" id="4DOwJpJRVwy" role="3crlGi">
+        <node concept="10WucB" id="4DOwJpJRA87" role="3curr0">
+          <node concept="10WucW" id="4DOwJpJRVwn" role="3cpe6e">
+            <node concept="10WucS" id="4DOwJpJRVwy" role="3crlGi">
               <ref role="3cpe6c" node="4DOwJpJxBsY" resolve="LPS" />
             </node>
-            <node concept="3cqNWE" id="4DOwJpJRVwk" role="3crlGg" />
+            <node concept="10WucX" id="4DOwJpJRVwk" role="3crlGg" />
           </node>
         </node>
         <node concept="3c_Aih" id="4DOwJpJWWWD" role="3c_H5u" />
-        <node concept="2yQIzJ" id="4DOwJpJRVwE" role="3c_2Is">
-          <node concept="30btTA" id="4DOwJpJRVwP" role="2yQuol">
+        <node concept="10Y$WD" id="4DOwJpJRVwE" role="3c_2Is">
+          <node concept="10Y$WG" id="4DOwJpJRVwP" role="2yQuol">
             <ref role="30btT_" node="4DOwJpJxBt4" resolve="LPS=NO" />
           </node>
-          <node concept="30btTA" id="4DOwJpJRVwA" role="2yQuon">
+          <node concept="10Y$WG" id="4DOwJpJRVwA" role="2yQuon">
             <ref role="30btT_" node="4DOwJpJxBt0" resolve="LPS=YES" />
           </node>
         </node>
