@@ -12732,5 +12732,38 @@
       <node concept="3clFbS" id="kv77yv5cRK" role="2VODD2" />
     </node>
   </node>
+  <node concept="13h7C7" id="4U2hhjzCBrq">
+    <property role="3GE5qa" value="venn" />
+    <ref role="13h7C2" to="jrxw:kv77yxiEq2" resolve="IdsFrom" />
+    <node concept="13hLZK" id="4U2hhjzCBrr" role="13h7CW">
+      <node concept="3clFbS" id="4U2hhjzCBrs" role="2VODD2" />
+    </node>
+    <node concept="13i0hz" id="4U2hhjzCCKJ" role="13h7CS">
+      <property role="TrG5h" value="getCleanSetName" />
+      <node concept="3Tm1VV" id="4U2hhjzCCKK" role="1B3o_S" />
+      <node concept="17QB3L" id="4U2hhjzCD5_" role="3clF45" />
+      <node concept="3clFbS" id="4U2hhjzCCKM" role="3clF47">
+        <node concept="3cpWs6" id="4U2hhjzCFDj" role="3cqZAp">
+          <node concept="2OqwBi" id="4U2hhjzCHh4" role="3cqZAk">
+            <node concept="2OqwBi" id="4U2hhjzCGje" role="2Oq$k0">
+              <node concept="13iPFW" id="4U2hhjzCG5K" role="2Oq$k0" />
+              <node concept="3TrcHB" id="4U2hhjzCGKQ" role="2OqNvi">
+                <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+              </node>
+            </node>
+            <node concept="liA8E" id="4U2hhjzCI9y" role="2OqNvi">
+              <ref role="37wK5l" to="e2lb:~String.replaceAll(java.lang.String,java.lang.String):java.lang.String" resolve="replaceAll" />
+              <node concept="Xl_RD" id="4U2hhjzCInf" role="37wK5m">
+                <property role="Xl_RC" value="[^a-zA-Z0-9]" />
+              </node>
+              <node concept="Xl_RD" id="4U2hhjzCILX" role="37wK5m">
+                <property role="Xl_RC" value="_" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 
