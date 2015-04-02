@@ -11,6 +11,7 @@
     <import index="ztlb" ref="r:989540b8-cc89-4ed5-ba78-cf2ce766b8ce(org.campagnelab.mps.XChart.structure)" />
     <import index="fxg7" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.io(JDK/java.io@java_stub)" />
     <import index="986b" ref="r:ec296f40-f73d-425d-b0d7-375a081142e4(org.campagnelab.mps.XChart.helpers)" />
+    <import index="msyo" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/f:java_stub#6ed54515-acc8-4d1e-a16c-9fd6cfe951ea#jetbrains.mps.util(MPS.Core/jetbrains.mps.util@java_stub)" />
     <import index="e2lb" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" implicit="true" />
   </imports>
   <registry>
@@ -1203,6 +1204,34 @@
         </node>
         <node concept="2GUZhq" id="2MUPwqpuG2c" role="3cqZAp">
           <node concept="3clFbS" id="2MUPwqpuG2d" role="2GV8ay">
+            <node concept="34ab3g" id="2734ievhXez" role="3cqZAp">
+              <property role="35gtTG" value="info" />
+              <node concept="3cpWs3" id="2734ievhYDb" role="34bqiv">
+                <node concept="Xl_RD" id="2734ievhXe_" role="3uHU7B">
+                  <property role="Xl_RC" value="Group Annotation Table from: " />
+                </node>
+                <node concept="2OqwBi" id="2734ievi25h" role="3uHU7w">
+                  <node concept="2YIFZM" id="3BiNpr5SCiX" role="2Oq$k0">
+                    <ref role="37wK5l" to="msyo:~MacrosFactory.getGlobal():jetbrains.mps.util.MacroHelper" resolve="getGlobal" />
+                    <ref role="1Pybhc" to="msyo:~MacrosFactory" resolve="MacrosFactory" />
+                  </node>
+                  <node concept="liA8E" id="2734ievi2lK" role="2OqNvi">
+                    <ref role="37wK5l" to="msyo:~MacroHelper.expandPath(java.lang.String):java.lang.String" resolve="expandPath" />
+                    <node concept="2OqwBi" id="2734ievi2wC" role="37wK5m">
+                      <node concept="2OqwBi" id="2734ievi2wD" role="2Oq$k0">
+                        <node concept="Xjq3P" id="2734ievi2wE" role="2Oq$k0" />
+                        <node concept="2OwXpG" id="2734ievi2wF" role="2OqNvi">
+                          <ref role="2Oxat5" node="2MUPwqpuG01" resolve="table" />
+                        </node>
+                      </node>
+                      <node concept="3TrcHB" id="2734ievi9CI" role="2OqNvi">
+                        <ref role="3TsBF5" to="jrxw:w5znaeSg5k" resolve="pathToResolve" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
             <node concept="3clFbF" id="2MUPwqpuG2e" role="3cqZAp">
               <node concept="37vLTI" id="2MUPwqpuG2f" role="3clFbG">
                 <node concept="37vLTw" id="2MUPwqpuG2g" role="37vLTJ">
@@ -1217,15 +1246,24 @@
                         <node concept="2ShNRf" id="2MUPwqpuG2l" role="37wK5m">
                           <node concept="1pGfFk" id="2MUPwqpuG2m" role="2ShVmc">
                             <ref role="37wK5l" to="fxg7:~File.&lt;init&gt;(java.lang.String)" resolve="File" />
-                            <node concept="2OqwBi" id="2MUPwqpuG2n" role="37wK5m">
-                              <node concept="2OqwBi" id="2MUPwqpuG2o" role="2Oq$k0">
-                                <node concept="Xjq3P" id="2MUPwqpuG2p" role="2Oq$k0" />
-                                <node concept="2OwXpG" id="2MUPwqpuG2q" role="2OqNvi">
-                                  <ref role="2Oxat5" node="2MUPwqpuG01" resolve="table" />
-                                </node>
+                            <node concept="2OqwBi" id="2734ievi2Iu" role="37wK5m">
+                              <node concept="2YIFZM" id="2734ievi2Iv" role="2Oq$k0">
+                                <ref role="1Pybhc" to="msyo:~MacrosFactory" resolve="MacrosFactory" />
+                                <ref role="37wK5l" to="msyo:~MacrosFactory.getGlobal():jetbrains.mps.util.MacroHelper" resolve="getGlobal" />
                               </node>
-                              <node concept="3TrcHB" id="2MUPwqpuG2r" role="2OqNvi">
-                                <ref role="3TsBF5" to="ztlb:1UijAvvb9DM" resolve="path" />
+                              <node concept="liA8E" id="2734ievi2Iw" role="2OqNvi">
+                                <ref role="37wK5l" to="msyo:~MacroHelper.expandPath(java.lang.String):java.lang.String" resolve="expandPath" />
+                                <node concept="2OqwBi" id="2734ievi2Ix" role="37wK5m">
+                                  <node concept="2OqwBi" id="2734ievi2Iy" role="2Oq$k0">
+                                    <node concept="Xjq3P" id="2734ievi2Iz" role="2Oq$k0" />
+                                    <node concept="2OwXpG" id="2734ievi2I$" role="2OqNvi">
+                                      <ref role="2Oxat5" node="2MUPwqpuG01" resolve="table" />
+                                    </node>
+                                  </node>
+                                  <node concept="3TrcHB" id="2734ievi9eh" role="2OqNvi">
+                                    <ref role="3TsBF5" to="jrxw:w5znaeSg5k" resolve="pathToResolve" />
+                                  </node>
+                                </node>
                               </node>
                             </node>
                           </node>
