@@ -3,6 +3,7 @@
   <persistence version="9" />
   <languages>
     <use id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior" version="-1" />
+    <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="-1" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -398,6 +399,392 @@
   <node concept="13h7C7" id="4ssfE$7VtRt">
     <property role="3GE5qa" value="formula" />
     <ref role="13h7C2" to="qrzj:4ssfE$7VtQe" resolve="GroupFormula" />
+    <node concept="13i0hz" id="4ssfE$bsSEb" role="13h7CS">
+      <property role="TrG5h" value="calculateGroupUsageNamesInContrasts" />
+      <node concept="37vLTG" id="4ssfE$bsSEc" role="3clF46">
+        <property role="TrG5h" value="contrasts" />
+        <node concept="3Tqbb2" id="4ssfE$bsSEd" role="1tU5fm">
+          <ref role="ehGHo" to="qrzj:4ssfE$7TB64" resolve="GroupExpression" />
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="4ssfE$bsSEe" role="1B3o_S" />
+      <node concept="A3Dl8" id="4ssfE$bsSEf" role="3clF45">
+        <node concept="3Tqbb2" id="4ssfE$bsSEg" role="A3Ik2">
+          <ref role="ehGHo" to="jrxw:6X05uba6V6Y" resolve="UsageType" />
+        </node>
+      </node>
+      <node concept="3clFbS" id="4ssfE$bsSEh" role="3clF47">
+        <node concept="3cpWs8" id="4ssfE$bsSEi" role="3cqZAp">
+          <node concept="3cpWsn" id="4ssfE$bsSEj" role="3cpWs9">
+            <property role="TrG5h" value="groupUsageNames" />
+            <node concept="A3Dl8" id="4ssfE$bsSEk" role="1tU5fm">
+              <node concept="17QB3L" id="4ssfE$bsSEl" role="A3Ik2" />
+            </node>
+            <node concept="2OqwBi" id="4ssfE$bsSEm" role="33vP2m">
+              <node concept="2OqwBi" id="4ssfE$bsSEn" role="2Oq$k0">
+                <node concept="13iPFW" id="4ssfE$bsSEo" role="2Oq$k0" />
+                <node concept="2Rf3mk" id="4ssfE$bsSEp" role="2OqNvi">
+                  <node concept="1xMEDy" id="4ssfE$bsSEq" role="1xVPHs">
+                    <node concept="chp4Y" id="4ssfE$bsSEr" role="ri$Ld">
+                      <ref role="cht4Q" to="qrzj:4ssfE$7VtQh" resolve="GroupUsageRef" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3$u5V9" id="4ssfE$bsSEs" role="2OqNvi">
+                <node concept="1bVj0M" id="4ssfE$bsSEt" role="23t8la">
+                  <node concept="3clFbS" id="4ssfE$bsSEu" role="1bW5cS">
+                    <node concept="3clFbF" id="4ssfE$bsSEv" role="3cqZAp">
+                      <node concept="2OqwBi" id="4ssfE$bsSEw" role="3clFbG">
+                        <node concept="2OqwBi" id="4ssfE$bsSEx" role="2Oq$k0">
+                          <node concept="37vLTw" id="4ssfE$bsSEy" role="2Oq$k0">
+                            <ref role="3cqZAo" node="4ssfE$bsSE_" resolve="it" />
+                          </node>
+                          <node concept="3TrEf2" id="4ssfE$bsSEz" role="2OqNvi">
+                            <ref role="3Tt5mk" to="qrzj:4ssfE$7VtQi" />
+                          </node>
+                        </node>
+                        <node concept="3TrcHB" id="4ssfE$bsSE$" role="2OqNvi">
+                          <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="Rh6nW" id="4ssfE$bsSE_" role="1bW2Oz">
+                    <property role="TrG5h" value="it" />
+                    <node concept="2jxLKc" id="4ssfE$bsSEA" role="1tU5fm" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3SKdUt" id="4ssfE$bsSEB" role="3cqZAp">
+          <node concept="3SKdUq" id="4ssfE$bsSEC" role="3SKWNk">
+            <property role="3SKdUp" value="calculate the set of groups that have usage in the model formula:" />
+          </node>
+        </node>
+        <node concept="3SKdUt" id="4ssfE$bsSED" role="3cqZAp">
+          <node concept="3SKdUq" id="4ssfE$bsSEE" role="3SKWNk">
+            <property role="3SKdUp" value="remove each column that is not labeled with the counts group" />
+          </node>
+        </node>
+        <node concept="3clFbF" id="4ssfE$bsSEF" role="3cqZAp">
+          <node concept="2OqwBi" id="4ssfE$bsSEG" role="3clFbG">
+            <node concept="2OqwBi" id="4ssfE$bsSEH" role="2Oq$k0">
+              <node concept="2OqwBi" id="4ssfE$bsSEI" role="2Oq$k0">
+                <node concept="2OqwBi" id="4ssfE$bsSEJ" role="2Oq$k0">
+                  <node concept="2OqwBi" id="4ssfE$bsSEK" role="2Oq$k0">
+                    <node concept="2OqwBi" id="4ssfE$bsSEL" role="2Oq$k0">
+                      <node concept="2OqwBi" id="4ssfE$bsSEM" role="2Oq$k0">
+                        <node concept="2OqwBi" id="4ssfE$bsSEN" role="2Oq$k0">
+                          <node concept="I4A8Y" id="4ssfE$bsSEO" role="2OqNvi" />
+                          <node concept="13iPFW" id="4ssfE$bsSEP" role="2Oq$k0" />
+                        </node>
+                        <node concept="2RRcyG" id="4ssfE$bsSEQ" role="2OqNvi">
+                          <ref role="2RRcyH" to="jrxw:2WRhvFtICK0" resolve="ColumnGroupContainer" />
+                        </node>
+                      </node>
+                      <node concept="13MTOL" id="4ssfE$bsSER" role="2OqNvi">
+                        <ref role="13MTZf" to="jrxw:2WRhvFtICK1" />
+                      </node>
+                    </node>
+                    <node concept="3zZkjj" id="4ssfE$bsSES" role="2OqNvi">
+                      <node concept="1bVj0M" id="4ssfE$bsSET" role="23t8la">
+                        <node concept="3clFbS" id="4ssfE$bsSEU" role="1bW5cS">
+                          <node concept="3clFbF" id="4ssfE$bsSEV" role="3cqZAp">
+                            <node concept="2OqwBi" id="4ssfE$bsSEW" role="3clFbG">
+                              <node concept="2OqwBi" id="4ssfE$bsSEX" role="2Oq$k0">
+                                <node concept="37vLTw" id="4ssfE$bsSEY" role="2Oq$k0">
+                                  <ref role="3cqZAo" node="4ssfE$bsSEc" resolve="contrasts" />
+                                </node>
+                                <node concept="2qgKlT" id="4ssfE$bsSEZ" role="2OqNvi">
+                                  <ref role="37wK5l" node="4ssfE$7TBCZ" resolve="getAllReferencedGroups" />
+                                </node>
+                              </node>
+                              <node concept="3JPx81" id="4ssfE$bsSF0" role="2OqNvi">
+                                <node concept="37vLTw" id="4ssfE$bsSF1" role="25WWJ7">
+                                  <ref role="3cqZAo" node="4ssfE$bsSF2" resolve="it" />
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                        <node concept="Rh6nW" id="4ssfE$bsSF2" role="1bW2Oz">
+                          <property role="TrG5h" value="it" />
+                          <node concept="2jxLKc" id="4ssfE$bsSF3" role="1tU5fm" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3goQfb" id="4ssfE$bsSF4" role="2OqNvi">
+                    <node concept="1bVj0M" id="4ssfE$bsSF5" role="23t8la">
+                      <node concept="3clFbS" id="4ssfE$bsSF6" role="1bW5cS">
+                        <node concept="3clFbF" id="4ssfE$bsSF7" role="3cqZAp">
+                          <node concept="2OqwBi" id="4ssfE$bsSF8" role="3clFbG">
+                            <node concept="37vLTw" id="4ssfE$bsSF9" role="2Oq$k0">
+                              <ref role="3cqZAo" node="4ssfE$bsSFb" resolve="it" />
+                            </node>
+                            <node concept="2qgKlT" id="4ssfE$bsSFa" role="2OqNvi">
+                              <ref role="37wK5l" to="v8sa:6XP3gVdXeLZ" resolve="uses" />
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="Rh6nW" id="4ssfE$bsSFb" role="1bW2Oz">
+                        <property role="TrG5h" value="it" />
+                        <node concept="2jxLKc" id="4ssfE$bsSFc" role="1tU5fm" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="3zZkjj" id="4ssfE$bsSFd" role="2OqNvi">
+                  <node concept="1bVj0M" id="4ssfE$bsSFe" role="23t8la">
+                    <node concept="3clFbS" id="4ssfE$bsSFf" role="1bW5cS">
+                      <node concept="3clFbF" id="4ssfE$bsSFg" role="3cqZAp">
+                        <node concept="2OqwBi" id="4ssfE$bsSFh" role="3clFbG">
+                          <node concept="37vLTw" id="4ssfE$bsSFi" role="2Oq$k0">
+                            <ref role="3cqZAo" node="4ssfE$bsSEj" resolve="groupUsageNames" />
+                          </node>
+                          <node concept="3JPx81" id="4ssfE$bsSFj" role="2OqNvi">
+                            <node concept="2OqwBi" id="4ssfE$bsSFk" role="25WWJ7">
+                              <node concept="37vLTw" id="4ssfE$bsSFl" role="2Oq$k0">
+                                <ref role="3cqZAo" node="4ssfE$bsSFn" resolve="use" />
+                              </node>
+                              <node concept="3TrcHB" id="4ssfE$bsSFm" role="2OqNvi">
+                                <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="Rh6nW" id="4ssfE$bsSFn" role="1bW2Oz">
+                      <property role="TrG5h" value="use" />
+                      <node concept="2jxLKc" id="4ssfE$bsSFo" role="1tU5fm" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="1VAtEI" id="4ssfE$bsSFp" role="2OqNvi" />
+            </node>
+            <node concept="2S7cBI" id="4ssfE$bsSFq" role="2OqNvi">
+              <node concept="1bVj0M" id="4ssfE$bsSFr" role="23t8la">
+                <node concept="3clFbS" id="4ssfE$bsSFs" role="1bW5cS">
+                  <node concept="3clFbF" id="4ssfE$bsSFt" role="3cqZAp">
+                    <node concept="2OqwBi" id="4ssfE$bsSFu" role="3clFbG">
+                      <node concept="37vLTw" id="4ssfE$bsSFv" role="2Oq$k0">
+                        <ref role="3cqZAo" node="4ssfE$bsSEj" resolve="groupUsageNames" />
+                      </node>
+                      <node concept="2WmjW8" id="4ssfE$bsSFw" role="2OqNvi">
+                        <node concept="2OqwBi" id="4ssfE$bsSFx" role="25WWJ7">
+                          <node concept="37vLTw" id="4ssfE$bsSFy" role="2Oq$k0">
+                            <ref role="3cqZAo" node="4ssfE$bsSF$" resolve="it" />
+                          </node>
+                          <node concept="3TrcHB" id="4ssfE$bsSFz" role="2OqNvi">
+                            <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="Rh6nW" id="4ssfE$bsSF$" role="1bW2Oz">
+                  <property role="TrG5h" value="it" />
+                  <node concept="2jxLKc" id="4ssfE$bsSF_" role="1tU5fm" />
+                </node>
+              </node>
+              <node concept="1nlBCl" id="4ssfE$bsSFA" role="2S7zOq">
+                <property role="3clFbU" value="false" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="P$JXv" id="4ssfE$bsSFB" role="lGtFl">
+        <node concept="TZ5HA" id="4ssfE$bsSFC" role="TZ5H$">
+          <node concept="1dT_AC" id="4ssfE$bsSFD" role="1dT_Ay">
+            <property role="1dT_AB" value="Calculate the group usage names referenced in the contrasts. These group usages are the model effects we are " />
+          </node>
+        </node>
+        <node concept="TZ5HA" id="4ssfE$bsSFE" role="TZ5H$">
+          <node concept="1dT_AC" id="4ssfE$bsSFF" role="1dT_Ay">
+            <property role="1dT_AB" value="interested in." />
+          </node>
+        </node>
+        <node concept="x79VA" id="4ssfE$bsSFG" role="x79VK">
+          <property role="x79VB" value="sequence of usage types" />
+        </node>
+      </node>
+    </node>
+    <node concept="13i0hz" id="4ssfE$bsKvO" role="13h7CS">
+      <property role="TrG5h" value="calculateGroupUsageNames" />
+      <node concept="3Tm1VV" id="4ssfE$bsKvP" role="1B3o_S" />
+      <node concept="A3Dl8" id="4ssfE$bsKvQ" role="3clF45">
+        <node concept="3Tqbb2" id="4ssfE$bsKvR" role="A3Ik2">
+          <ref role="ehGHo" to="jrxw:6X05uba6V6Y" resolve="UsageType" />
+        </node>
+      </node>
+      <node concept="3clFbS" id="4ssfE$bsKvS" role="3clF47">
+        <node concept="3cpWs8" id="4ssfE$bsKvT" role="3cqZAp">
+          <node concept="3cpWsn" id="4ssfE$bsKvU" role="3cpWs9">
+            <property role="TrG5h" value="groupUsageNames" />
+            <node concept="A3Dl8" id="4ssfE$bsKvV" role="1tU5fm">
+              <node concept="17QB3L" id="4ssfE$bsKvW" role="A3Ik2" />
+            </node>
+            <node concept="2OqwBi" id="4ssfE$bsKvX" role="33vP2m">
+              <node concept="2OqwBi" id="4ssfE$bsKvY" role="2Oq$k0">
+                <node concept="13iPFW" id="4ssfE$bsKvZ" role="2Oq$k0" />
+                <node concept="2Rf3mk" id="4ssfE$bsKw0" role="2OqNvi">
+                  <node concept="1xMEDy" id="4ssfE$bsKw1" role="1xVPHs">
+                    <node concept="chp4Y" id="4ssfE$bsKw2" role="ri$Ld">
+                      <ref role="cht4Q" to="qrzj:4ssfE$7VtQh" resolve="GroupUsageRef" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3$u5V9" id="4ssfE$bsKw3" role="2OqNvi">
+                <node concept="1bVj0M" id="4ssfE$bsKw4" role="23t8la">
+                  <node concept="3clFbS" id="4ssfE$bsKw5" role="1bW5cS">
+                    <node concept="3clFbF" id="4ssfE$bsKw6" role="3cqZAp">
+                      <node concept="2OqwBi" id="4ssfE$bsKw7" role="3clFbG">
+                        <node concept="2OqwBi" id="4ssfE$bsKw8" role="2Oq$k0">
+                          <node concept="37vLTw" id="4ssfE$bsKw9" role="2Oq$k0">
+                            <ref role="3cqZAo" node="4ssfE$bsKwc" resolve="it" />
+                          </node>
+                          <node concept="3TrEf2" id="4ssfE$bsKwa" role="2OqNvi">
+                            <ref role="3Tt5mk" to="qrzj:4ssfE$7VtQi" />
+                          </node>
+                        </node>
+                        <node concept="3TrcHB" id="4ssfE$bsKwb" role="2OqNvi">
+                          <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="Rh6nW" id="4ssfE$bsKwc" role="1bW2Oz">
+                    <property role="TrG5h" value="it" />
+                    <node concept="2jxLKc" id="4ssfE$bsKwd" role="1tU5fm" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3SKdUt" id="4ssfE$bsKwe" role="3cqZAp">
+          <node concept="3SKdUq" id="4ssfE$bsKwf" role="3SKWNk">
+            <property role="3SKdUp" value="calculate the set of groups that have usage in the model formula:" />
+          </node>
+        </node>
+        <node concept="3SKdUt" id="4ssfE$bsKwg" role="3cqZAp">
+          <node concept="3SKdUq" id="4ssfE$bsKwh" role="3SKWNk">
+            <property role="3SKdUp" value="remove each column that is not labeled with the counts group" />
+          </node>
+        </node>
+        <node concept="3clFbF" id="4ssfE$bsKwi" role="3cqZAp">
+          <node concept="2OqwBi" id="4ssfE$bsKwj" role="3clFbG">
+            <node concept="2OqwBi" id="4ssfE$bsKwk" role="2Oq$k0">
+              <node concept="2OqwBi" id="4ssfE$bsKwl" role="2Oq$k0">
+                <node concept="2OqwBi" id="4ssfE$bsKwm" role="2Oq$k0">
+                  <node concept="2OqwBi" id="4ssfE$bsKwn" role="2Oq$k0">
+                    <node concept="2OqwBi" id="4ssfE$bsKwo" role="2Oq$k0">
+                      <node concept="2OqwBi" id="4ssfE$bsKwp" role="2Oq$k0">
+                        <node concept="I4A8Y" id="4ssfE$bsKwq" role="2OqNvi" />
+                        <node concept="13iPFW" id="4ssfE$bsKwr" role="2Oq$k0" />
+                      </node>
+                      <node concept="2RRcyG" id="4ssfE$bsKws" role="2OqNvi">
+                        <ref role="2RRcyH" to="jrxw:2WRhvFtICK0" resolve="ColumnGroupContainer" />
+                      </node>
+                    </node>
+                    <node concept="13MTOL" id="4ssfE$bsKwt" role="2OqNvi">
+                      <ref role="13MTZf" to="jrxw:2WRhvFtICK1" />
+                    </node>
+                  </node>
+                  <node concept="3goQfb" id="4ssfE$bsKwu" role="2OqNvi">
+                    <node concept="1bVj0M" id="4ssfE$bsKwv" role="23t8la">
+                      <node concept="3clFbS" id="4ssfE$bsKww" role="1bW5cS">
+                        <node concept="3clFbF" id="4ssfE$bsKwx" role="3cqZAp">
+                          <node concept="2OqwBi" id="4ssfE$bsKwy" role="3clFbG">
+                            <node concept="37vLTw" id="4ssfE$bsKwz" role="2Oq$k0">
+                              <ref role="3cqZAo" node="4ssfE$bsKw_" resolve="it" />
+                            </node>
+                            <node concept="2qgKlT" id="4ssfE$bsKw$" role="2OqNvi">
+                              <ref role="37wK5l" to="v8sa:6XP3gVdXeLZ" resolve="uses" />
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="Rh6nW" id="4ssfE$bsKw_" role="1bW2Oz">
+                        <property role="TrG5h" value="it" />
+                        <node concept="2jxLKc" id="4ssfE$bsKwA" role="1tU5fm" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="3zZkjj" id="4ssfE$bsKwB" role="2OqNvi">
+                  <node concept="1bVj0M" id="4ssfE$bsKwC" role="23t8la">
+                    <node concept="3clFbS" id="4ssfE$bsKwD" role="1bW5cS">
+                      <node concept="3clFbF" id="4ssfE$bsKwE" role="3cqZAp">
+                        <node concept="2OqwBi" id="4ssfE$bsKwF" role="3clFbG">
+                          <node concept="37vLTw" id="4ssfE$bsKwG" role="2Oq$k0">
+                            <ref role="3cqZAo" node="4ssfE$bsKvU" resolve="groupUsageNames" />
+                          </node>
+                          <node concept="3JPx81" id="4ssfE$bsKwH" role="2OqNvi">
+                            <node concept="2OqwBi" id="4ssfE$bsKwI" role="25WWJ7">
+                              <node concept="37vLTw" id="4ssfE$bsKwJ" role="2Oq$k0">
+                                <ref role="3cqZAo" node="4ssfE$bsKwL" resolve="use" />
+                              </node>
+                              <node concept="3TrcHB" id="4ssfE$bsKwK" role="2OqNvi">
+                                <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="Rh6nW" id="4ssfE$bsKwL" role="1bW2Oz">
+                      <property role="TrG5h" value="use" />
+                      <node concept="2jxLKc" id="4ssfE$bsKwM" role="1tU5fm" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="1VAtEI" id="4ssfE$bsKwN" role="2OqNvi" />
+            </node>
+            <node concept="2S7cBI" id="4ssfE$bsKwO" role="2OqNvi">
+              <node concept="1bVj0M" id="4ssfE$bsKwP" role="23t8la">
+                <node concept="3clFbS" id="4ssfE$bsKwQ" role="1bW5cS">
+                  <node concept="3clFbF" id="4ssfE$bsKwR" role="3cqZAp">
+                    <node concept="2OqwBi" id="4ssfE$bsKwS" role="3clFbG">
+                      <node concept="37vLTw" id="4ssfE$bsKwT" role="2Oq$k0">
+                        <ref role="3cqZAo" node="4ssfE$bsKvU" resolve="groupUsageNames" />
+                      </node>
+                      <node concept="2WmjW8" id="4ssfE$bsKwU" role="2OqNvi">
+                        <node concept="2OqwBi" id="4ssfE$bsKwV" role="25WWJ7">
+                          <node concept="37vLTw" id="4ssfE$bsKwW" role="2Oq$k0">
+                            <ref role="3cqZAo" node="4ssfE$bsKwY" resolve="it" />
+                          </node>
+                          <node concept="3TrcHB" id="4ssfE$bsKwX" role="2OqNvi">
+                            <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="Rh6nW" id="4ssfE$bsKwY" role="1bW2Oz">
+                  <property role="TrG5h" value="it" />
+                  <node concept="2jxLKc" id="4ssfE$bsKwZ" role="1tU5fm" />
+                </node>
+              </node>
+              <node concept="1nlBCl" id="4ssfE$bsKx0" role="2S7zOq">
+                <property role="3clFbU" value="false" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="13i0hz" id="4ssfE$7VtRu" role="13h7CS">
       <property role="TrG5h" value="hasIntercept" />
       <node concept="3Tm1VV" id="4ssfE$7VtRv" role="1B3o_S" />
@@ -480,7 +867,13 @@
       </node>
     </node>
     <node concept="13i0hz" id="4ssfE$7VtS5" role="13h7CS">
-      <property role="TrG5h" value="calculateGroupUsageNames" />
+      <property role="TrG5h" value="calculateGroupUsageNamesForCovariates" />
+      <node concept="37vLTG" id="4ssfE$bsMGN" role="3clF46">
+        <property role="TrG5h" value="contrasts" />
+        <node concept="3Tqbb2" id="4ssfE$bsMT_" role="1tU5fm">
+          <ref role="ehGHo" to="qrzj:4ssfE$7TB64" resolve="GroupExpression" />
+        </node>
+      </node>
       <node concept="3Tm1VV" id="4ssfE$7VtS6" role="1B3o_S" />
       <node concept="A3Dl8" id="4ssfE$7VtS7" role="3clF45">
         <node concept="3Tqbb2" id="4ssfE$7VtS8" role="A3Ik2">
@@ -548,18 +941,49 @@
             <node concept="2OqwBi" id="4ssfE$7VtS_" role="2Oq$k0">
               <node concept="2OqwBi" id="4ssfE$7VtSA" role="2Oq$k0">
                 <node concept="2OqwBi" id="4ssfE$7VtSB" role="2Oq$k0">
-                  <node concept="2OqwBi" id="4ssfE$7VtSC" role="2Oq$k0">
-                    <node concept="2OqwBi" id="4ssfE$7VtSD" role="2Oq$k0">
-                      <node concept="2OqwBi" id="4ssfE$7VtSE" role="2Oq$k0">
-                        <node concept="I4A8Y" id="4ssfE$7VtSF" role="2OqNvi" />
-                        <node concept="13iPFW" id="4ssfE$7VtSG" role="2Oq$k0" />
+                  <node concept="2OqwBi" id="4ssfE$bsPZC" role="2Oq$k0">
+                    <node concept="2OqwBi" id="4ssfE$7VtSC" role="2Oq$k0">
+                      <node concept="2OqwBi" id="4ssfE$7VtSD" role="2Oq$k0">
+                        <node concept="2OqwBi" id="4ssfE$7VtSE" role="2Oq$k0">
+                          <node concept="I4A8Y" id="4ssfE$7VtSF" role="2OqNvi" />
+                          <node concept="13iPFW" id="4ssfE$7VtSG" role="2Oq$k0" />
+                        </node>
+                        <node concept="2RRcyG" id="4ssfE$7VtSH" role="2OqNvi">
+                          <ref role="2RRcyH" to="jrxw:2WRhvFtICK0" resolve="ColumnGroupContainer" />
+                        </node>
                       </node>
-                      <node concept="2RRcyG" id="4ssfE$7VtSH" role="2OqNvi">
-                        <ref role="2RRcyH" to="jrxw:2WRhvFtICK0" resolve="ColumnGroupContainer" />
+                      <node concept="13MTOL" id="4ssfE$7VtSI" role="2OqNvi">
+                        <ref role="13MTZf" to="jrxw:2WRhvFtICK1" />
                       </node>
                     </node>
-                    <node concept="13MTOL" id="4ssfE$7VtSI" role="2OqNvi">
-                      <ref role="13MTZf" to="jrxw:2WRhvFtICK1" />
+                    <node concept="3zZkjj" id="4ssfE$bsQt$" role="2OqNvi">
+                      <node concept="1bVj0M" id="4ssfE$bsQtA" role="23t8la">
+                        <node concept="3clFbS" id="4ssfE$bsQtB" role="1bW5cS">
+                          <node concept="3clFbF" id="4ssfE$bsQCV" role="3cqZAp">
+                            <node concept="3fqX7Q" id="4ssfE$bsVdT" role="3clFbG">
+                              <node concept="2OqwBi" id="4ssfE$bsVdV" role="3fr31v">
+                                <node concept="2OqwBi" id="4ssfE$bsVdW" role="2Oq$k0">
+                                  <node concept="37vLTw" id="4ssfE$bsVdX" role="2Oq$k0">
+                                    <ref role="3cqZAo" node="4ssfE$bsMGN" resolve="contrasts" />
+                                  </node>
+                                  <node concept="2qgKlT" id="4ssfE$bsVdY" role="2OqNvi">
+                                    <ref role="37wK5l" node="4ssfE$7TBCZ" resolve="getAllReferencedGroups" />
+                                  </node>
+                                </node>
+                                <node concept="3JPx81" id="4ssfE$bsVdZ" role="2OqNvi">
+                                  <node concept="37vLTw" id="4ssfE$bsVe0" role="25WWJ7">
+                                    <ref role="3cqZAo" node="4ssfE$bsQtC" resolve="it" />
+                                  </node>
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                        <node concept="Rh6nW" id="4ssfE$bsQtC" role="1bW2Oz">
+                          <property role="TrG5h" value="it" />
+                          <node concept="2jxLKc" id="4ssfE$bsQtD" role="1tU5fm" />
+                        </node>
+                      </node>
                     </node>
                   </node>
                   <node concept="3goQfb" id="4ssfE$7VtSJ" role="2OqNvi">
@@ -646,6 +1070,21 @@
           </node>
         </node>
       </node>
+      <node concept="P$JXv" id="4ssfE$bsMeT" role="lGtFl">
+        <node concept="TZ5HA" id="4ssfE$bsMeU" role="TZ5H$">
+          <node concept="1dT_AC" id="4ssfE$bsMeV" role="1dT_Ay">
+            <property role="1dT_AB" value="Calculate the group usage names NOT referenced in the contrasts. These group usages are the model effects we are " />
+          </node>
+        </node>
+        <node concept="TZ5HA" id="4ssfE$bsSnA" role="TZ5H$">
+          <node concept="1dT_AC" id="4ssfE$bsSnB" role="1dT_Ay">
+            <property role="1dT_AB" value="not interested in. They are just covariates whose effect should be removed." />
+          </node>
+        </node>
+        <node concept="x79VA" id="4ssfE$bsMeW" role="x79VK">
+          <property role="x79VB" value="sequence of usage types" />
+        </node>
+      </node>
     </node>
     <node concept="13hLZK" id="4ssfE$7VtTi" role="13h7CW">
       <node concept="3clFbS" id="4ssfE$7VtTj" role="2VODD2" />
@@ -692,8 +1131,8 @@
                 <ref role="3Tt5mk" to="qrzj:4ssfE$85c87" />
               </node>
             </node>
-            <node concept="2qgKlT" id="6XP3gVemxvZ" role="2OqNvi">
-              <ref role="37wK5l" node="4ssfE$7VtS5" resolve="calculateGroupUsageNames" />
+            <node concept="2qgKlT" id="4ssfE$buFgK" role="2OqNvi">
+              <ref role="37wK5l" node="4ssfE$bsKvO" resolve="calculateGroupUsageNames" />
             </node>
           </node>
           <node concept="3clFbS" id="6XP3gVemws0" role="2LFqv$">

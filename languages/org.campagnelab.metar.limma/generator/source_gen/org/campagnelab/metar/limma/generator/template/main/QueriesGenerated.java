@@ -51,7 +51,7 @@ public class QueriesGenerated {
     return SPropertyOperations.getString(_context.getNode(), MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name"));
   }
   public static Object propertyMacro_GetPropertyValue_6583618001724024800(final PropertyMacroContext _context) {
-    final Iterable<SNode> usages = GroupFormula_Behavior.call_calculateGroupUsageNames_5124039371744206341(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0xecc862c95ab542efL, 0x87032039019fb338L, 0x471c3ea90814c0afL, 0x471c3ea90814c207L, "modelFormula")));
+    final Iterable<SNode> usages = GroupFormula_Behavior.call_calculateGroupUsageNames_5124039371803265012(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0xecc862c95ab542efL, 0x87032039019fb338L, 0x471c3ea90814c0afL, 0x471c3ea90814c207L, "modelFormula")));
     // find the columns with usage contained in the model formula 
     return IterableUtils.join(ListSequence.fromList(SLinkOperations.getChildren(SLinkOperations.getTarget(((SNode) _context.getVariable("countsTable")), MetaAdapterFactory.getReferenceLink(0x5d6bde844ce44eb5L, 0xa37e25a5edd55129L, 0x3dc59a0f37f897b3L, 0x3dc59a0f37f89c07L, "table")), MetaAdapterFactory.getContainmentLink(0x5ec1cd3d0a504049L, 0xa8faae768d7baa25L, 0x1e924e67df2c8b97L, 0x1e924e67df2c9a74L, "columns"))).where(new IWhereFilter<SNode>() {
       public boolean accept(SNode col) {
@@ -206,17 +206,31 @@ public class QueriesGenerated {
         if (LOG.isInfoEnabled()) {
           LOG.info("Loading value for " + SPropertyOperations.getString(column, MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name")));
         }
-        ListSequence.fromList(groupValues).addElement("\"" + GroupAnnotation_Behavior.call_valueForColumn_3223123807170060705(AttributeOperations.getAttribute(columnGroup, new IAttributeDescriptor.NodeAttribute(MetaAdapterFactory.getConcept(0x5d6bde844ce44eb5L, 0xa37e25a5edd55129L, 0x2cbad60695b64fb1L, "org.campagnelab.metar.tables.structure.GroupAnnotation"))), SPropertyOperations.getString(column, MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name"))) + "\"");
+        ListSequence.fromList(groupValues).addElement("" + GroupAnnotation_Behavior.call_valueForColumn_3223123807170060705(AttributeOperations.getAttribute(columnGroup, new IAttributeDescriptor.NodeAttribute(MetaAdapterFactory.getConcept(0x5d6bde844ce44eb5L, 0xa37e25a5edd55129L, 0x2cbad60695b64fb1L, "org.campagnelab.metar.tables.structure.GroupAnnotation"))), SPropertyOperations.getString(column, MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name"))) + "");
       }
     }
     return IterableUtils.join(ListSequence.fromList(groupValues), ", ");
 
   }
-  public static Object propertyMacro_GetPropertyValue_5124039371746210595(final PropertyMacroContext _context) {
-    return FutureTable_Behavior.call_getCleanTableName_4166618652720345586(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x49ed9e70f0d4814L, 0xa373a4b21e15b59eL, 0x79170bb4b56e6ecbL, 0x79170bb4b56ebd77L, "destinationTable")));
-  }
   public static Object propertyMacro_GetPropertyValue_5124039371796279991(final PropertyMacroContext _context) {
     return FutureTable_Behavior.call_getCleanTableName_4166618652720345586(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x49ed9e70f0d4814L, 0xa373a4b21e15b59eL, 0x79170bb4b56e6ecbL, 0x471c3ea909d799dfL, "adjustedCountsTable")));
+  }
+  public static Object propertyMacro_GetPropertyValue_5124039371799296499(final PropertyMacroContext _context) {
+    return IterableUtils.join(Sequence.fromIterable(GroupFormula_Behavior.call_calculateGroupUsageNamesInContrasts_5124039371803298443(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0xecc862c95ab542efL, 0x87032039019fb338L, 0x471c3ea90814c0afL, 0x471c3ea90814c207L, "modelFormula")), SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0xecc862c95ab542efL, 0x87032039019fb338L, 0x471c3ea90814c0afL, 0x471c3ea90814c368L, "contrasts")))).select(new ISelector<SNode, String>() {
+      public String select(SNode it) {
+        return SPropertyOperations.getString(it, MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name"));
+      }
+    }), "+");
+  }
+  public static Object propertyMacro_GetPropertyValue_5124039371803321944(final PropertyMacroContext _context) {
+    return IterableUtils.join(Sequence.fromIterable(GroupFormula_Behavior.call_calculateGroupUsageNamesForCovariates_5124039371744206341(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0xecc862c95ab542efL, 0x87032039019fb338L, 0x471c3ea90814c0afL, 0x471c3ea90814c207L, "modelFormula")), SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0xecc862c95ab542efL, 0x87032039019fb338L, 0x471c3ea90814c0afL, 0x471c3ea90814c368L, "contrasts")))).select(new ISelector<SNode, String>() {
+      public String select(SNode it) {
+        return SPropertyOperations.getString(it, MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name"));
+      }
+    }), "+");
+  }
+  public static Object propertyMacro_GetPropertyValue_5124039371746210595(final PropertyMacroContext _context) {
+    return FutureTable_Behavior.call_getCleanTableName_4166618652720345586(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x49ed9e70f0d4814L, 0xa373a4b21e15b59eL, 0x79170bb4b56e6ecbL, 0x79170bb4b56ebd77L, "destinationTable")));
   }
   public static Object propertyMacro_GetPropertyValue_962445451565867504(final PropertyMacroContext _context) {
     return ((SNode) _context.getNode()).getNodeId().toString();
@@ -227,6 +241,12 @@ public class QueriesGenerated {
   public static Object propertyMacro_GetPropertyValue_8031339867733399660(final PropertyMacroContext _context) {
     return SPropertyOperations.getInteger(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x49ed9e70f0d4814L, 0xa373a4b21e15b59eL, 0x79170bb4b56e6ecbL, 0x79170bb4b56ebd77L, "destinationTable")), MetaAdapterFactory.getProperty(0x5d6bde844ce44eb5L, 0xa37e25a5edd55129L, 0x2f3745fadd605ac5L, 0x39d2cd96c5e52d3dL, "id"));
   }
+  public static Object propertyMacro_GetPropertyValue_5124039371802024509(final PropertyMacroContext _context) {
+    return NameHelper.RName(SPropertyOperations.getString(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x49ed9e70f0d4814L, 0xa373a4b21e15b59eL, 0x79170bb4b56e6ecbL, 0x471c3ea909d799dfL, "adjustedCountsTable")), MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name")));
+  }
+  public static Object propertyMacro_GetPropertyValue_5124039371802040821(final PropertyMacroContext _context) {
+    return SPropertyOperations.getInteger(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x49ed9e70f0d4814L, 0xa373a4b21e15b59eL, 0x79170bb4b56e6ecbL, 0x471c3ea909d799dfL, "adjustedCountsTable")), MetaAdapterFactory.getProperty(0x5d6bde844ce44eb5L, 0xa37e25a5edd55129L, 0x2f3745fadd605ac5L, 0x39d2cd96c5e52d3dL, "id"));
+  }
   public static Object propertyMacro_GetPropertyValue_280962132771004473(final PropertyMacroContext _context) {
     return Statement_Behavior.call_id_3007013211740741445(_context.getNode());
   }
@@ -234,13 +254,19 @@ public class QueriesGenerated {
     return Statement_Behavior.call_errorCatchingEnabled_2742007948304790371(_context.getNode());
   }
   public static Object propertyMacro_GetPropertyValue_8031339867724616579(final PropertyMacroContext _context) {
-    return IterableUtils.join(Sequence.fromIterable(GroupFormula_Behavior.call_calculateGroupUsageNames_5124039371744206341(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0xecc862c95ab542efL, 0x87032039019fb338L, 0x471c3ea90814c0afL, 0x471c3ea90814c207L, "modelFormula")))).select(new ISelector<SNode, String>() {
+    return IterableUtils.join(Sequence.fromIterable(GroupFormula_Behavior.call_calculateGroupUsageNames_5124039371803265012(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0xecc862c95ab542efL, 0x87032039019fb338L, 0x471c3ea90814c0afL, 0x471c3ea90814c207L, "modelFormula")))).select(new ISelector<SNode, String>() {
       public String select(SNode it) {
         return SPropertyOperations.getString(it, MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name"));
       }
     }), " +");
   }
   public static boolean ifMacro_Condition_5124039371796286498(final IfMacroContext _context) {
+    return SPropertyOperations.getBoolean(_context.getNode(), MetaAdapterFactory.getProperty(0x49ed9e70f0d4814L, 0xa373a4b21e15b59eL, 0x79170bb4b56e6ecbL, 0x471c3ea909d786edL, "exportAdjustedCounts"));
+  }
+  public static boolean ifMacro_Condition_5124039371800640441(final IfMacroContext _context) {
+    return SPropertyOperations.getBoolean(_context.getNode(), MetaAdapterFactory.getProperty(0x49ed9e70f0d4814L, 0xa373a4b21e15b59eL, 0x79170bb4b56e6ecbL, 0x471c3ea909d786edL, "exportAdjustedCounts"));
+  }
+  public static boolean ifMacro_Condition_5124039371802274791(final IfMacroContext _context) {
     return SPropertyOperations.getBoolean(_context.getNode(), MetaAdapterFactory.getProperty(0x49ed9e70f0d4814L, 0xa373a4b21e15b59eL, 0x79170bb4b56e6ecbL, 0x471c3ea909d786edL, "exportAdjustedCounts"));
   }
   public static SNode sourceNodeQuery_5124039371775720035(final SourceSubstituteMacroNodeContext _context) {
@@ -259,7 +285,7 @@ public class QueriesGenerated {
       public boolean accept(SNode it) {
         return ListSequence.fromList(SLinkOperations.getChildren(AttributeOperations.getAttribute(it, new IAttributeDescriptor.NodeAttribute(MetaAdapterFactory.getConcept(0x5d6bde844ce44eb5L, 0xa37e25a5edd55129L, 0x2f3745faddba8bacL, "org.campagnelab.metar.tables.structure.ColumnAnnotation"))), MetaAdapterFactory.getContainmentLink(0x5d6bde844ce44eb5L, 0xa37e25a5edd55129L, 0x2f3745faddba8bacL, 0x2f3745faddba9108L, "groups"))).all(new IWhereFilter<SNode>() {
           public boolean accept(SNode it) {
-            return neq_x583g4_a0a0a0a0a0a0a0a0a0c0u(SPropertyOperations.getString(SLinkOperations.getTarget(it, MetaAdapterFactory.getReferenceLink(0x5d6bde844ce44eb5L, 0xa37e25a5edd55129L, 0x2f3745faddba8c07L, 0x2f3745faddba8c08L, "columnGroup")), MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name")), "counts");
+            return neq_x583g4_a0a0a0a0a0a0a0a0a0c0ab(SPropertyOperations.getString(SLinkOperations.getTarget(it, MetaAdapterFactory.getReferenceLink(0x5d6bde844ce44eb5L, 0xa37e25a5edd55129L, 0x2f3745faddba8c07L, 0x2f3745faddba8c08L, "columnGroup")), MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name")), "counts");
           }
         });
       }
@@ -294,7 +320,7 @@ public class QueriesGenerated {
   private static boolean eq_x583g4_a0a0a0a0a0a0a0a0a0a3a7(Object a, Object b) {
     return (a != null ? a.equals(b) : a == b);
   }
-  private static boolean neq_x583g4_a0a0a0a0a0a0a0a0a0c0u(Object a, Object b) {
+  private static boolean neq_x583g4_a0a0a0a0a0a0a0a0a0c0ab(Object a, Object b) {
     return !(((a != null ? a.equals(b) : a == b)));
   }
 }
