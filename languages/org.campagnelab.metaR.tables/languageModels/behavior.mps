@@ -12397,6 +12397,81 @@
         <node concept="17QB3L" id="2MUPwqpuvvV" role="1tU5fm" />
       </node>
     </node>
+    <node concept="13i0hz" id="2734ievCP4c" role="13h7CS">
+      <property role="TrG5h" value="typeForColumn" />
+      <node concept="3Tm1VV" id="2734ievCP4d" role="1B3o_S" />
+      <node concept="3Tqbb2" id="2734ievDjgx" role="3clF45">
+        <ref role="ehGHo" to="r8sq:14h1S4rSwS0" resolve="ColumnType" />
+      </node>
+      <node concept="3clFbS" id="2734ievCP4f" role="3clF47">
+        <node concept="3clFbJ" id="2734ievCQNH" role="3cqZAp">
+          <node concept="3clFbS" id="2734ievCQNI" role="3clFbx">
+            <node concept="3clFbF" id="2734ievCQNJ" role="3cqZAp">
+              <node concept="2OqwBi" id="2734ievCQNK" role="3clFbG">
+                <node concept="13iPFW" id="2734ievCQNL" role="2Oq$k0" />
+                <node concept="2qgKlT" id="2734ievCQNM" role="2OqNvi">
+                  <ref role="37wK5l" node="2MUPwqpvHTW" resolve="loadTable" />
+                  <node concept="2OqwBi" id="2734ievCQNN" role="37wK5m">
+                    <node concept="2OqwBi" id="2734ievCQNO" role="2Oq$k0">
+                      <node concept="13iPFW" id="2734ievCQNP" role="2Oq$k0" />
+                      <node concept="3TrEf2" id="2734ievCQNQ" role="2OqNvi">
+                        <ref role="3Tt5mk" to="jrxw:2MUPwqo_950" />
+                      </node>
+                    </node>
+                    <node concept="3TrcHB" id="2734ievCQNR" role="2OqNvi">
+                      <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbC" id="2734ievCQNS" role="3clFbw">
+            <node concept="10Nm6u" id="2734ievCQNT" role="3uHU7w" />
+            <node concept="2OqwBi" id="2734ievCQNU" role="3uHU7B">
+              <node concept="2JrnkZ" id="2734ievCQNV" role="2Oq$k0">
+                <node concept="13iPFW" id="2734ievCQNW" role="2JrQYb" />
+              </node>
+              <node concept="liA8E" id="2734ievCQNX" role="2OqNvi">
+                <ref role="37wK5l" to="ec5l:~SNode.getUserObject(java.lang.Object):java.lang.Object" resolve="getUserObject" />
+                <node concept="Xl_RD" id="2734ievCQNY" role="37wK5m">
+                  <property role="Xl_RC" value="table" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="2734ievDMYy" role="3cqZAp">
+          <node concept="2OqwBi" id="2734ievDNcX" role="3clFbG">
+            <node concept="1eOMI4" id="2734ievDMY$" role="2Oq$k0">
+              <node concept="10QFUN" id="2734ievDMY_" role="1eOMHV">
+                <node concept="3uibUv" id="2734ievDMYA" role="10QFUM">
+                  <ref role="3uigEE" to="x7of:2MUPwqpuFZM" resolve="GroupAnnotationTable" />
+                </node>
+                <node concept="2OqwBi" id="2734ievDMYB" role="10QFUP">
+                  <node concept="2JrnkZ" id="2734ievDMYC" role="2Oq$k0">
+                    <node concept="13iPFW" id="2734ievDMYD" role="2JrQYb" />
+                  </node>
+                  <node concept="liA8E" id="2734ievDMYE" role="2OqNvi">
+                    <ref role="37wK5l" to="ec5l:~SNode.getUserObject(java.lang.Object):java.lang.Object" resolve="getUserObject" />
+                    <node concept="Xl_RD" id="2734ievDMYF" role="37wK5m">
+                      <property role="Xl_RC" value="table" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="liA8E" id="2734ievDNuw" role="2OqNvi">
+              <ref role="37wK5l" to="x7of:2734ievDjIj" resolve="getCovariateType" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="37vLTG" id="2734ievCQMj" role="3clF46">
+        <property role="TrG5h" value="columnType" />
+        <node concept="17QB3L" id="2734ievDj2S" role="1tU5fm" />
+      </node>
+    </node>
     <node concept="13i0hz" id="2MUPwqpvHTW" role="13h7CS">
       <property role="TrG5h" value="loadTable" />
       <node concept="3Tm1VV" id="2MUPwqpvHTX" role="1B3o_S" />
