@@ -225,11 +225,11 @@
             <ref role="ehGHo" to="jrxw:3R5AwWRY9uN" resolve="TableRef" />
           </node>
           <node concept="2OqwBi" id="6XP3gVeaYTX" role="33vP2m">
-            <node concept="1YBJjd" id="6XP3gVeaYS2" role="2Oq$k0">
-              <ref role="1YBMHb" node="6XP3gVeaNs$" resolve="edgeRTest" />
-            </node>
             <node concept="3TrEf2" id="6XP3gVeb3x8" role="2OqNvi">
               <ref role="3Tt5mk" to="izt2:7$n2ViPrDvn" />
+            </node>
+            <node concept="1YBJjd" id="6XP3gVeaYS2" role="2Oq$k0">
+              <ref role="1YBMHb" node="6XP3gVeaNs$" resolve="edgeRTest" />
             </node>
           </node>
         </node>
@@ -498,7 +498,7 @@
                   </node>
                 </node>
                 <node concept="Xl_RD" id="6XP3gVedQT5" role="3uHU7w">
-                  <property role="Xl_RC" value=" distinct number of markerd columns " />
+                  <property role="Xl_RC" value=" distinct number of marked columns " />
                 </node>
               </node>
             </node>
@@ -539,7 +539,7 @@
             <node concept="Xl_RD" id="w5znaeVkGT" role="2MkJ7o">
               <property role="Xl_RC" value="counts table must have some columns marked with group \&quot;counts\&quot;" />
             </node>
-            <node concept="1YBJjd" id="w5znaeVlxB" role="2OEOjV">
+            <node concept="1YBJjd" id="4ssfE$bFVXw" role="2OEOjV">
               <ref role="1YBMHb" node="w5znaeV35f" resolve="edgeRTest" />
             </node>
             <node concept="2OE7Q9" id="w5znaeVlz0" role="2OEWyd">
@@ -554,7 +554,7 @@
               <node concept="1YBJjd" id="w5znaeV35K" role="2Oq$k0">
                 <ref role="1YBMHb" node="w5znaeV35f" resolve="edgeRTest" />
               </node>
-              <node concept="3TrEf2" id="w5znaeV3xU" role="2OqNvi">
+              <node concept="3TrEf2" id="4ssfE$bFVUg" role="2OqNvi">
                 <ref role="3Tt5mk" to="izt2:7$n2ViPrDvn" />
               </node>
             </node>
