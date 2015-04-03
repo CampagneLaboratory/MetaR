@@ -285,11 +285,16 @@ public class QueriesGenerated {
     });
 
 
-    return IterableUtils.join(Sequence.fromIterable(GroupValues.build(columns, _context.getNode())).select(new ISelector<String, String>() {
-      public String select(String name) {
-        return "\"" + name + "\"";
-      }
-    }), ", ");
+    Iterable<String> values = GroupValues.build(columns, _context.getNode());
+    if (GroupValues.valuesNeedQuote(Sequence.fromIterable(columns).first(), _context.getNode())) {
+      values = Sequence.fromIterable(values).select(new ISelector<String, String>() {
+        public String select(String name) {
+          return "\"" + name + "\"";
+        }
+      });
+    }
+    return IterableUtils.join(Sequence.fromIterable(values), ", ");
+
   }
   public static Object propertyMacro_GetPropertyValue_5703306641531276227(final PropertyMacroContext _context) {
     return IterableUtils.join(SetSequence.fromSet(IColumnNames_Behavior.call_getColumnNames_8154356758121880727(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x5d6bde844ce44eb5L, 0xa37e25a5edd55129L, 0x75662f291ed1cf6fL, 0x75662f291ed1cfcdL, "dataSelection")), SLinkOperations.getChildren(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x5d6bde844ce44eb5L, 0xa37e25a5edd55129L, 0x75662f291ed1cf6fL, 0x3dc59a0f37f9ef74L, "table")), MetaAdapterFactory.getReferenceLink(0x5d6bde844ce44eb5L, 0xa37e25a5edd55129L, 0x3dc59a0f37f897b3L, 0x3dc59a0f37f89c07L, "table")), MetaAdapterFactory.getContainmentLink(0x5ec1cd3d0a504049L, 0xa8faae768d7baa25L, 0x1e924e67df2c8b97L, 0x1e924e67df2c9a74L, "columns")))).select(new ISelector<String, String>() {

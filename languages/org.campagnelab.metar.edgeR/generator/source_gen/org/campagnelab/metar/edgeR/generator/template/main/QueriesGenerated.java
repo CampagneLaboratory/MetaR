@@ -176,11 +176,15 @@ public class QueriesGenerated {
       }
     });
 
-    return IterableUtils.join(Sequence.fromIterable(GroupValues.build(columns, _context.getNode())).select(new ISelector<String, String>() {
-      public String select(String name) {
-        return "\"" + name + "\"";
-      }
-    }), ", ");
+    Iterable<String> values = GroupValues.build(columns, _context.getNode());
+    if (GroupValues.valuesNeedQuote(Sequence.fromIterable(columns).first(), _context.getNode())) {
+      values = Sequence.fromIterable(values).select(new ISelector<String, String>() {
+        public String select(String name) {
+          return "\"" + name + "\"";
+        }
+      });
+    }
+    return IterableUtils.join(Sequence.fromIterable(values), ", ");
   }
   public static Object propertyMacro_GetPropertyValue_578023650351128805(final PropertyMacroContext _context) {
     return FutureTable_Behavior.call_getCleanTableName_4166618652720345586(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x4680380920ee443fL, 0xbea90bee114b90b3L, 0x79170bb4b56e6ecbL, 0x79170bb4b56ebd77L, "destinationTable")));
