@@ -6,11 +6,11 @@
     <use id="28f9e497-3b42-4291-aeba-0a1039153ab1" name="jetbrains.mps.lang.plugin" version="0" />
     <use id="d4615e3b-d671-4ba9-af01-2b78369b0ba7" name="jetbrains.mps.lang.pattern" version="0" />
     <use id="c7d5b9dd-a05f-4be2-bc73-f2e16994cc67" name="jetbrains.mps.lang.classLike" version="0" />
-    <use id="46803809-20ee-443f-bea9-0bee114b90b3" name="org.campagnelab.metar.edgeR" version="-1" />
     <use id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core" version="-1" />
     <use id="ed6d7656-532c-4bc2-81d1-af945aeb8280" name="jetbrains.mps.baseLanguage.blTypes" version="0" />
     <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="0" />
     <use id="9ded098b-ad6a-4657-bfd9-48636cfe8bc3" name="jetbrains.mps.lang.traceable" version="0" />
+    <use id="46803809-20ee-443f-bea9-0bee114b90b3" name="org.campagnelab.metar.edgeR" version="1" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -20,6 +20,7 @@
     <import index="qrzj" ref="r:33ebfe68-dd35-4984-bf5b-c6afb777446c(org.campagnelab.metar.models.structure)" />
     <import index="izt2" ref="r:b5f8abba-ade6-48ed-8b03-df617183a3f0(org.campagnelab.metar.edgeR.structure)" />
     <import index="smka" ref="7866978e-a0f0-4cc7-81bc-4d213d9375e1/f:java_stub#7866978e-a0f0-4cc7-81bc-4d213d9375e1#jetbrains.mps.lang.smodel.structure(jetbrains.mps.lang.smodel/jetbrains.mps.lang.smodel.structure@java_stub)" />
+    <import index="cu2c" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/f:java_stub#6ed54515-acc8-4d1e-a16c-9fd6cfe951ea#jetbrains.mps.smodel(MPS.Core/jetbrains.mps.smodel@java_stub)" />
     <import index="slm6" ref="90746344-04fd-4286-97d5-b46ae6a81709/r:52a3d974-bd4f-4651-ba6e-a2de5e336d95(jetbrains.mps.lang.migration/jetbrains.mps.lang.migration.methods)" implicit="true" />
     <import index="tp25" ref="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" implicit="true" />
   </imports>
@@ -38,6 +39,10 @@
       <concept id="1197027756228" name="jetbrains.mps.baseLanguage.structure.DotExpression" flags="nn" index="2OqwBi">
         <child id="1197027771414" name="operand" index="2Oq$k0" />
         <child id="1197027833540" name="operation" index="2OqNvi" />
+      </concept>
+      <concept id="1083260308424" name="jetbrains.mps.baseLanguage.structure.EnumConstantReference" flags="nn" index="Rm8GO">
+        <reference id="1083260308426" name="enumConstantDeclaration" index="Rm8GQ" />
+        <reference id="1144432896254" name="enumClass" index="1Px2BO" />
       </concept>
       <concept id="1070534934090" name="jetbrains.mps.baseLanguage.structure.CastExpression" flags="nn" index="10QFUN">
         <child id="1070534934091" name="type" index="10QFUM" />
@@ -72,8 +77,12 @@
         <child id="1068581242865" name="localVariableDeclaration" index="3cpWs9" />
       </concept>
       <concept id="1068581242863" name="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" flags="nr" index="3cpWsn" />
+      <concept id="1081516740877" name="jetbrains.mps.baseLanguage.structure.NotExpression" flags="nn" index="3fqX7Q">
+        <child id="1081516765348" name="expression" index="3fr31v" />
+      </concept>
       <concept id="1204053956946" name="jetbrains.mps.baseLanguage.structure.IMethodCall" flags="ng" index="1ndlxa">
         <reference id="1068499141037" name="baseMethodDeclaration" index="37wK5l" />
+        <child id="1068499141038" name="actualArgument" index="37wK5m" />
       </concept>
       <concept id="1107461130800" name="jetbrains.mps.baseLanguage.structure.Classifier" flags="ng" index="3pOWGL">
         <child id="5375687026011219971" name="member" index="jymVt" unordered="true" />
@@ -201,8 +210,8 @@
       <ref role="2VtyIY" to="slm6:4ubqdNOF9cA" resolve="execute" />
       <node concept="3Tm1VV" id="4ssfE$85c8m" role="1B3o_S" />
       <node concept="3clFbS" id="4ssfE$85c8n" role="3clF47">
-        <node concept="u8gfJ" id="360q$FioOGJ" role="3cqZAp">
-          <node concept="3clFbH" id="360q$FioQeq" role="u8lrQ" />
+        <node concept="3clFbH" id="360q$FioQeq" role="3cqZAp" />
+        <node concept="u8gfJ" id="360q$FitJqz" role="3cqZAp">
           <node concept="3SKdUt" id="360q$Fip3NK" role="u8lrQ">
             <node concept="3SKdUq" id="360q$Fip4fx" role="3SKWNk">
               <property role="3SKdUp" value="Disable this for now and use migration script manual approach" />
@@ -330,8 +339,36 @@
               </node>
               <node concept="2OqwBi" id="4ssfE$85c8U" role="33vP2m">
                 <node concept="2OqwBi" id="4ssfE$85c8V" role="2Oq$k0">
-                  <node concept="37vLTw" id="4ssfE$85c8W" role="2Oq$k0">
-                    <ref role="3cqZAo" node="4ssfE$85c8p" resolve="models" />
+                  <node concept="2OqwBi" id="360q$FisLn7" role="2Oq$k0">
+                    <node concept="37vLTw" id="4ssfE$85c8W" role="2Oq$k0">
+                      <ref role="3cqZAo" node="4ssfE$85c8p" resolve="models" />
+                    </node>
+                    <node concept="3zZkjj" id="360q$FisN42" role="2OqNvi">
+                      <node concept="1bVj0M" id="360q$FisN44" role="23t8la">
+                        <node concept="3clFbS" id="360q$FisN45" role="1bW5cS">
+                          <node concept="3clFbF" id="360q$FisNh2" role="3cqZAp">
+                            <node concept="3fqX7Q" id="360q$FitGTh" role="3clFbG">
+                              <node concept="2OqwBi" id="360q$FitGTj" role="3fr31v">
+                                <node concept="Rm8GO" id="360q$FitGTk" role="2Oq$k0">
+                                  <ref role="Rm8GQ" to="cu2c:~LanguageAspect.MIGRATION" resolve="MIGRATION" />
+                                  <ref role="1Px2BO" to="cu2c:~LanguageAspect" resolve="LanguageAspect" />
+                                </node>
+                                <node concept="liA8E" id="360q$FitGTl" role="2OqNvi">
+                                  <ref role="37wK5l" to="cu2c:~LanguageAspect.is(org.jetbrains.mps.openapi.model.SModel):boolean" resolve="is" />
+                                  <node concept="37vLTw" id="360q$FitGTm" role="37wK5m">
+                                    <ref role="3cqZAo" node="360q$FisN46" resolve="model" />
+                                  </node>
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                        <node concept="Rh6nW" id="360q$FisN46" role="1bW2Oz">
+                          <property role="TrG5h" value="model" />
+                          <node concept="2jxLKc" id="360q$FisN47" role="1tU5fm" />
+                        </node>
+                      </node>
+                    </node>
                   </node>
                   <node concept="3goQfb" id="4ssfE$85c8X" role="2OqNvi">
                     <node concept="1bVj0M" id="4ssfE$85c8Y" role="23t8la">
@@ -473,8 +510,36 @@
               </node>
               <node concept="2OqwBi" id="6g5l50dT$tE" role="33vP2m">
                 <node concept="2OqwBi" id="6g5l50dT$tF" role="2Oq$k0">
-                  <node concept="37vLTw" id="6g5l50dT$tG" role="2Oq$k0">
-                    <ref role="3cqZAo" node="4ssfE$85c8p" resolve="models" />
+                  <node concept="2OqwBi" id="360q$FitJ7T" role="2Oq$k0">
+                    <node concept="37vLTw" id="6g5l50dT$tG" role="2Oq$k0">
+                      <ref role="3cqZAo" node="4ssfE$85c8p" resolve="models" />
+                    </node>
+                    <node concept="3zZkjj" id="360q$FitJfG" role="2OqNvi">
+                      <node concept="1bVj0M" id="360q$FitJfH" role="23t8la">
+                        <node concept="3clFbS" id="360q$FitJfI" role="1bW5cS">
+                          <node concept="3clFbF" id="360q$FitJfJ" role="3cqZAp">
+                            <node concept="3fqX7Q" id="360q$FitJfK" role="3clFbG">
+                              <node concept="2OqwBi" id="360q$FitJfL" role="3fr31v">
+                                <node concept="Rm8GO" id="360q$FitJfM" role="2Oq$k0">
+                                  <ref role="Rm8GQ" to="cu2c:~LanguageAspect.MIGRATION" resolve="MIGRATION" />
+                                  <ref role="1Px2BO" to="cu2c:~LanguageAspect" resolve="LanguageAspect" />
+                                </node>
+                                <node concept="liA8E" id="360q$FitJfN" role="2OqNvi">
+                                  <ref role="37wK5l" to="cu2c:~LanguageAspect.is(org.jetbrains.mps.openapi.model.SModel):boolean" resolve="is" />
+                                  <node concept="37vLTw" id="360q$FitJfO" role="37wK5m">
+                                    <ref role="3cqZAo" node="360q$FitJfP" resolve="model" />
+                                  </node>
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                        <node concept="Rh6nW" id="360q$FitJfP" role="1bW2Oz">
+                          <property role="TrG5h" value="model" />
+                          <node concept="2jxLKc" id="360q$FitJfQ" role="1tU5fm" />
+                        </node>
+                      </node>
+                    </node>
                   </node>
                   <node concept="3goQfb" id="6g5l50dT$tH" role="2OqNvi">
                     <node concept="1bVj0M" id="6g5l50dT$tI" role="23t8la">
