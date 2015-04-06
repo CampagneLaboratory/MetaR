@@ -61,7 +61,7 @@
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="modelFormula_old" />
       <property role="20lbJX" value="0..1" />
-      <ref role="20lvS9" to="qrzj:4ssfE$7VtQe" resolve="GroupFormula" />
+      <ref role="20lvS9" node="7$n2ViPsYCQ" resolve="GroupFormula" />
       <node concept="asaX9" id="4ssfE$85c88" role="lGtFl">
         <property role="YLQ7P" value="The link was moved to superconcept &quot;org.campagnelab.metar.models.structure.IStatTest&quot;" />
       </node>
@@ -70,7 +70,7 @@
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="contrasts_old" />
       <property role="20lbJX" value="0..1" />
-      <ref role="20lvS9" to="qrzj:4ssfE$7TB64" resolve="GroupExpression" />
+      <ref role="20lvS9" node="6YxFsIJz6MA" resolve="GroupExpression" />
       <node concept="asaX9" id="4ssfE$85cdD" role="lGtFl">
         <property role="YLQ7P" value="The link was moved to superconcept &quot;org.campagnelab.metar.models.structure.IStatTest&quot;" />
       </node>
@@ -121,6 +121,150 @@
     <property role="34LRSv" value="common dispersion" />
     <property role="R4oN_" value="Common (across genes) dispersion estimation" />
     <ref role="1TJDcQ" node="7$n2ViPwmTJ" resolve="DispersionMethod" />
+  </node>
+  <node concept="1TIwiD" id="6XP3gVdFYnx">
+    <property role="3GE5qa" value="contrasts" />
+    <property role="TrG5h" value="ContrastMinus" />
+    <property role="34LRSv" value="-" />
+    <ref role="1TJDcQ" node="6XP3gVdFeF_" resolve="ContrastsBinaryOperator" />
+    <node concept="asaX9" id="4ssfE$c_KDq" role="lGtFl" />
+  </node>
+  <node concept="1TIwiD" id="6XP3gVdFeF_">
+    <property role="TrG5h" value="ContrastsBinaryOperator" />
+    <property role="3GE5qa" value="contrasts" />
+    <property role="R5$K7" value="true" />
+    <property role="R5$K2" value="false" />
+    <ref role="1TJDcQ" node="6YxFsIJz6MA" resolve="GroupExpression" />
+    <node concept="1TJgyj" id="6XP3gVdFeGp" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="left" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="6YxFsIJz6MA" resolve="GroupExpression" />
+    </node>
+    <node concept="1TJgyj" id="6XP3gVdFeGr" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="right" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="6YxFsIJz6MA" resolve="GroupExpression" />
+    </node>
+    <node concept="asaX9" id="4ssfE$c_KEa" role="lGtFl" />
+  </node>
+  <node concept="1TIwiD" id="6YxFsIJz6MA">
+    <property role="TrG5h" value="GroupExpression" />
+    <property role="R4oN_" value="linear equation where variables refer to groups/R factor levels." />
+    <property role="R5$K7" value="true" />
+    <property role="R5$K2" value="false" />
+    <property role="3GE5qa" value="contrasts" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="asaX9" id="4ssfE$c_Heo" role="lGtFl" />
+  </node>
+  <node concept="1TIwiD" id="6YxFsIJz7eH">
+    <property role="TrG5h" value="GroupRef" />
+    <property role="3GE5qa" value="contrasts" />
+    <ref role="1TJDcQ" node="6YxFsIJz6MA" resolve="GroupExpression" />
+    <node concept="1TJgyj" id="6YxFsIJz7eI" role="1TKVEi">
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="group" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" to="jrxw:2WRhvFtICJV" resolve="ColumnGroup" />
+    </node>
+    <node concept="asaX9" id="4ssfE$c_KDo" role="lGtFl" />
+  </node>
+  <node concept="1TIwiD" id="6XP3gVdFgam">
+    <property role="3GE5qa" value="contrasts" />
+    <property role="TrG5h" value="Mean" />
+    <property role="R4oN_" value="consider the estimate of the average in the groups/factor levels" />
+    <property role="34LRSv" value="mean" />
+    <ref role="1TJDcQ" node="6YxFsIJz6MA" resolve="GroupExpression" />
+    <node concept="1TJgyj" id="6XP3gVdFgan" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="groups" />
+      <property role="20lbJX" value="1..n" />
+      <ref role="20lvS9" node="6YxFsIJz7eH" resolve="GroupRef" />
+    </node>
+    <node concept="asaX9" id="4ssfE$c_KEc" role="lGtFl" />
+  </node>
+  <node concept="1TIwiD" id="7$n2ViPu_2t">
+    <property role="TrG5h" value="BinaryExpression" />
+    <property role="R5$K7" value="true" />
+    <property role="R5$K2" value="false" />
+    <property role="3GE5qa" value="formula" />
+    <ref role="1TJDcQ" node="7$n2ViPsYFs" resolve="GroupUsageExpression" />
+    <node concept="1TJgyj" id="7$n2ViPu_2$" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="left" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="7$n2ViPsYFs" resolve="GroupUsageExpression" />
+    </node>
+    <node concept="1TJgyj" id="7$n2ViPu_2A" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="right" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="7$n2ViPsYFs" resolve="GroupUsageExpression" />
+    </node>
+    <node concept="asaX9" id="4ssfE$c_KDm" role="lGtFl" />
+  </node>
+  <node concept="1TIwiD" id="7$n2ViPsYCQ">
+    <property role="TrG5h" value="GroupFormula" />
+    <property role="34LRSv" value="~" />
+    <property role="3GE5qa" value="formula" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="7$n2ViPsYCU" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="groupExpression" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="7$n2ViPsYFs" resolve="GroupUsageExpression" />
+    </node>
+    <node concept="asaX9" id="4ssfE$c_Heq" role="lGtFl" />
+  </node>
+  <node concept="1TIwiD" id="7$n2ViPsYFs">
+    <property role="TrG5h" value="GroupUsageExpression" />
+    <property role="R5$K7" value="true" />
+    <property role="R5$K2" value="false" />
+    <property role="R4oN_" value="Linear equation where variables are group usage/R factors." />
+    <property role="3GE5qa" value="formula" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="asaX9" id="4ssfE$c_KDk" role="lGtFl" />
+  </node>
+  <node concept="1TIwiD" id="7$n2ViPsYCR">
+    <property role="TrG5h" value="GroupUsageRef" />
+    <property role="3GE5qa" value="formula" />
+    <ref role="1TJDcQ" node="7$n2ViPsYFs" resolve="GroupUsageExpression" />
+    <node concept="1TJgyj" id="7$n2ViPsYCS" role="1TKVEi">
+      <property role="20lmBu" value="reference" />
+      <property role="20lbJX" value="1" />
+      <property role="20kJfa" value="groupUsage" />
+      <ref role="20lvS9" to="jrxw:6X05uba6V6Y" resolve="UsageType" />
+    </node>
+    <node concept="asaX9" id="4ssfE$c_KDi" role="lGtFl" />
+  </node>
+  <node concept="1TIwiD" id="7$n2ViPwUus">
+    <property role="TrG5h" value="Minus" />
+    <property role="34LRSv" value="-" />
+    <property role="3GE5qa" value="formula" />
+    <ref role="1TJDcQ" node="7$n2ViPu_2t" resolve="BinaryExpression" />
+    <node concept="asaX9" id="4ssfE$c_KDg" role="lGtFl" />
+  </node>
+  <node concept="1TIwiD" id="7$n2ViPv3iu">
+    <property role="TrG5h" value="NoIntercept" />
+    <property role="34LRSv" value="no intercept" />
+    <property role="3GE5qa" value="formula" />
+    <ref role="1TJDcQ" node="7$n2ViPsYFs" resolve="GroupUsageExpression" />
+    <node concept="asaX9" id="4ssfE$c_KDc" role="lGtFl" />
+  </node>
+  <node concept="1TIwiD" id="7$n2ViPsYFt">
+    <property role="TrG5h" value="Plus" />
+    <property role="34LRSv" value="+" />
+    <property role="3GE5qa" value="formula" />
+    <ref role="1TJDcQ" node="7$n2ViPu_2t" resolve="BinaryExpression" />
+    <node concept="asaX9" id="4ssfE$c_KDa" role="lGtFl" />
+  </node>
+  <node concept="1TIwiD" id="7$n2ViPsYFz">
+    <property role="TrG5h" value="Times" />
+    <property role="34LRSv" value="*" />
+    <property role="3GE5qa" value="formula" />
+    <ref role="1TJDcQ" node="7$n2ViPu_2t" resolve="BinaryExpression" />
+    <node concept="asaX9" id="4ssfE$c_KDe" role="lGtFl" />
   </node>
 </model>
 
