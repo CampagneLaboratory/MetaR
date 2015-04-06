@@ -53,10 +53,10 @@
     <ref role="1XX52x" to="hgbr:2734ievAyTY" resolve="SimulateTable" />
     <node concept="3EZMnI" id="2734ievAFUI" role="2wV5jI">
       <node concept="3F0ifn" id="2734ievAFVt" role="3EZMnx">
-        <property role="3F0ifm" value="simulate" />
+        <property role="3F0ifm" value="simulate table " />
       </node>
       <node concept="3F0ifn" id="2734ievAFWg" role="3EZMnx">
-        <property role="3F0ifm" value="with" />
+        <property role="3F0ifm" value="with " />
         <ref role="1k5W1q" to="8gqa:7Hltlm8H6Z1" resolve="Descriptive" />
       </node>
       <node concept="l2Vlx" id="2734ievAFUL" role="2iSdaV" />
@@ -103,7 +103,7 @@
         <ref role="1NtTu8" to="hgbr:2734ievAQvk" />
       </node>
       <node concept="3F0ifn" id="2734ievAQxg" role="3EZMnx">
-        <property role="3F0ifm" value="continuos covariate:" />
+        <property role="3F0ifm" value="continuous covariate:" />
         <ref role="1k5W1q" to="8gqa:7Hltlm8H6Z1" resolve="Descriptive" />
         <node concept="pVoyu" id="2734ievAQxh" role="3F10Kt">
           <property role="VOm3f" value="true" />
@@ -116,19 +116,20 @@
         <ref role="1NtTu8" to="hgbr:2734ievAQvm" />
       </node>
       <node concept="3F0ifn" id="2734ievANq0" role="3EZMnx">
-        <property role="3F0ifm" value="]" />
+        <property role="3F0ifm" value="] -&gt;" />
         <node concept="pVoyu" id="2734ievAOAZ" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>
+      </node>
+      <node concept="3F1sOY" id="7hF4JJ2KwEj" role="3EZMnx">
+        <ref role="1NtTu8" to="hgbr:7$n2ViPrFPR" />
       </node>
     </node>
   </node>
   <node concept="24kQdi" id="2734ievAQvT">
     <ref role="1XX52x" to="hgbr:2734ievAOED" resolve="DiscreteGroup" />
     <node concept="3EZMnI" id="2734ievAQvV" role="2wV5jI">
-      <node concept="3F0ifn" id="2734ievCkN6" role="3EZMnx">
-        <property role="3F0ifm" value="name:" />
-      </node>
+      <node concept="3F0ifn" id="2734ievCkN6" role="3EZMnx" />
       <node concept="3F0A7n" id="2734ievAQw2" role="3EZMnx">
         <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
       </node>
@@ -151,9 +152,6 @@
   <node concept="24kQdi" id="2734ievCkMF">
     <ref role="1XX52x" to="hgbr:2734ievAQvI" resolve="CovariateGroup" />
     <node concept="3EZMnI" id="2734ievCkNN" role="2wV5jI">
-      <node concept="3F0ifn" id="2734ievCkNO" role="3EZMnx">
-        <property role="3F0ifm" value="name:" />
-      </node>
       <node concept="3F0A7n" id="2734ievCkNP" role="3EZMnx">
         <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
       </node>
@@ -173,6 +171,12 @@
         <property role="3F0ifm" value="]" />
       </node>
       <node concept="l2Vlx" id="2734ievCkNR" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="7hF4JJ2Ke4j">
+    <ref role="1XX52x" to="hgbr:7hF4JJ2JZdy" resolve="DiscreteValue" />
+    <node concept="3F0A7n" id="7hF4JJ2KesJ" role="2wV5jI">
+      <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
     </node>
   </node>
 </model>
