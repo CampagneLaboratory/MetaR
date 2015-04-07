@@ -54,10 +54,10 @@
     </language>
   </registry>
   <node concept="24kQdi" id="2734ievAyUX">
-    <ref role="1XX52x" to="hgbr:2734ievAyTY" resolve="SimulateTable" />
+    <ref role="1XX52x" to="hgbr:2734ievAyTY" resolve="SimulateData" />
     <node concept="3EZMnI" id="2734ievAFUI" role="2wV5jI">
       <node concept="3F0ifn" id="2734ievAFVt" role="3EZMnx">
-        <property role="3F0ifm" value="simulate table " />
+        <property role="3F0ifm" value="simulate data " />
       </node>
       <node concept="3F0ifn" id="2734ievAFWg" role="3EZMnx">
         <property role="3F0ifm" value="with " />
@@ -211,7 +211,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="7hF4JJ2Ke4j">
-    <ref role="1XX52x" to="hgbr:7hF4JJ2JZdy" resolve="DiscreteValue" />
+    <ref role="1XX52x" to="hgbr:7hF4JJ2JZdy" resolve="StringValue" />
     <node concept="3F0A7n" id="7hF4JJ2KesJ" role="2wV5jI">
       <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
     </node>
