@@ -20,7 +20,7 @@
         <child id="2432807068409481900" name="values" index="2Ym5If" />
       </concept>
       <concept id="2432807068409489390" name="org.campagnelab.metar.simulation.structure.CovariateGroup" flags="ng" index="2Ym7rd" />
-      <concept id="2432807068409409150" name="org.campagnelab.metar.simulation.structure.SimulateData" flags="ng" index="2YmjXt">
+      <concept id="2432807068409409150" name="org.campagnelab.metar.simulation.structure.SimulateDataset" flags="ng" index="2YmjXt">
         <property id="2432807068409481702" name="numOfSamples" index="2Ym5z5" />
         <child id="8388819603423222464" name="samples" index="2QHcwV" />
         <child id="2432807068409489366" name="continuousCovariate" index="2Ym7rP" />
@@ -48,6 +48,10 @@
         <child id="4166618652720259019" name="myOwnTable" index="3WeD9t" />
       </concept>
       <concept id="3402264987258987827" name="org.campagnelab.metar.tables.structure.Table" flags="ng" index="3Mpm39" />
+      <concept id="3402264987265829888" name="org.campagnelab.metar.tables.structure.ColumnGroupContainer" flags="ng" index="3MzsBU">
+        <child id="3402264987265829889" name="groups" index="3MzsBV" />
+      </concept>
+      <concept id="3402264987265829883" name="org.campagnelab.metar.tables.structure.ColumnGroup" flags="ng" index="3MzsS1" />
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
@@ -71,119 +75,118 @@
     <property role="TrG5h" value="Simulate Table" />
     <node concept="ZXjPh" id="7hF4JJ2J253" role="S1EQ8">
       <property role="S1EQ6" value="NTGTHOTQKN" />
-      <node concept="2YmjXt" id="7hF4JJ2UpkV" role="ZXjPg">
-        <property role="S1EQ6" value="DMBMBAAVUS" />
+      <node concept="2YmjXt" id="4CUtYZLMss" role="ZXjPg">
+        <property role="S1EQ6" value="GXKWUBMSJV" />
         <property role="8NYsT" value="false" />
-        <property role="2Ym5z5" value="11" />
-        <node concept="3MlLWZ" id="7hF4JJ2UpkX" role="3curr3">
+        <property role="2Ym5z5" value="10" />
+        <node concept="3MlLWZ" id="4CUtYZLMsu" role="2Ym92R">
+          <property role="TrG5h" value="covariate" />
+          <ref role="3MlLW5" node="4CUtYZLMsv" resolve="covariate" />
+          <node concept="3Mpm39" id="4CUtYZLMsv" role="3WeD9t">
+            <property role="31Cu5t" value="&#9;" />
+            <property role="TrG5h" value="covariate" />
+            <node concept="31JHg8" id="4CUtYZLMsw" role="31JHgj">
+              <property role="TrG5h" value="SampleName" />
+              <ref role="1YeEjl" to="9nc5:1ID5TXdv_9L" resolve="String" />
+            </node>
+          </node>
+        </node>
+        <node concept="3MlLWZ" id="4CUtYZLMu0" role="3curr3">
           <property role="TrG5h" value="simulate" />
-          <ref role="3MlLW5" node="7hF4JJ2UpkY" resolve="simulate" />
-          <node concept="3Mpm39" id="7hF4JJ2UpkY" role="3WeD9t">
+          <ref role="3MlLW5" node="4CUtYZLMu1" resolve="simulate" />
+          <node concept="3Mpm39" id="4CUtYZLMu1" role="3WeD9t">
             <property role="31Cu5t" value="&#9;" />
             <property role="TrG5h" value="simulate" />
-            <node concept="31JHg8" id="7hF4JJ2Upmy" role="31JHgj">
+            <node concept="31JHg8" id="4CUtYZLMuk" role="31JHgj">
               <property role="TrG5h" value="gene" />
               <ref role="1YeEjl" to="9nc5:1ID5TXdv_9L" resolve="String" />
             </node>
-            <node concept="31JHg8" id="7hF4JJ2UpmI" role="31JHgj">
+            <node concept="31JHg8" id="4CUtYZLMuw" role="31JHgj">
               <property role="TrG5h" value="sample_1" />
               <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
             </node>
-            <node concept="31JHg8" id="7hF4JJ2UpmJ" role="31JHgj">
+            <node concept="31JHg8" id="4CUtYZLMux" role="31JHgj">
               <property role="TrG5h" value="sample_2" />
               <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
             </node>
-            <node concept="31JHg8" id="7hF4JJ2UpmK" role="31JHgj">
+            <node concept="31JHg8" id="4CUtYZLMuy" role="31JHgj">
               <property role="TrG5h" value="sample_3" />
               <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
             </node>
-            <node concept="31JHg8" id="7hF4JJ2UpmL" role="31JHgj">
+            <node concept="31JHg8" id="4CUtYZLMuz" role="31JHgj">
               <property role="TrG5h" value="sample_4" />
               <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
             </node>
-            <node concept="31JHg8" id="7hF4JJ2UpmM" role="31JHgj">
+            <node concept="31JHg8" id="4CUtYZLMu$" role="31JHgj">
               <property role="TrG5h" value="sample_5" />
               <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
             </node>
-            <node concept="31JHg8" id="7hF4JJ2UpmN" role="31JHgj">
+            <node concept="31JHg8" id="4CUtYZLMu_" role="31JHgj">
               <property role="TrG5h" value="sample_6" />
               <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
             </node>
-            <node concept="31JHg8" id="7hF4JJ2UpmO" role="31JHgj">
+            <node concept="31JHg8" id="4CUtYZLMuA" role="31JHgj">
               <property role="TrG5h" value="sample_7" />
               <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
             </node>
-            <node concept="31JHg8" id="7hF4JJ2UpmP" role="31JHgj">
+            <node concept="31JHg8" id="4CUtYZLMuB" role="31JHgj">
               <property role="TrG5h" value="sample_8" />
               <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
             </node>
-            <node concept="31JHg8" id="7hF4JJ2UpmQ" role="31JHgj">
+            <node concept="31JHg8" id="4CUtYZLMuC" role="31JHgj">
               <property role="TrG5h" value="sample_9" />
               <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
             </node>
-            <node concept="31JHg8" id="7hF4JJ2UpmR" role="31JHgj">
+            <node concept="31JHg8" id="4CUtYZLMuD" role="31JHgj">
               <property role="TrG5h" value="sample_10" />
               <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
             </node>
-            <node concept="31JHg8" id="7hF4JJ2UpmS" role="31JHgj">
-              <property role="TrG5h" value="sample_11" />
-              <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
-            </node>
           </node>
         </node>
-        <node concept="3MlLWZ" id="7hF4JJ2UpkZ" role="2Ym92R">
-          <property role="TrG5h" value="covariate" />
-          <ref role="3MlLW5" node="7hF4JJ2Upl0" resolve="covariate" />
-          <node concept="3Mpm39" id="7hF4JJ2Upl0" role="3WeD9t">
-            <property role="31Cu5t" value="&#9;" />
-            <property role="TrG5h" value="covariate" />
-            <node concept="31JHg8" id="7hF4JJ2Upl1" role="31JHgj">
-              <property role="TrG5h" value="SampleName" />
-            </node>
-          </node>
-        </node>
-        <node concept="2Ym5Ia" id="7hF4JJ2Upl3" role="2Ym7rR">
+        <node concept="2Ym5Ia" id="4CUtYZLMu2" role="2Ym7rR">
           <property role="2QI5xJ" value="30" />
           <property role="2QI5xi" value="50" />
-          <node concept="2QPe6p" id="7hF4JJ2Upl4" role="2Ym5If" />
+          <node concept="2QPe6p" id="4CUtYZLMu3" role="2Ym5If" />
         </node>
-        <node concept="2Ym7rd" id="7hF4JJ2Upl5" role="2Ym7rP" />
-        <node concept="2QHcgp" id="7hF4JJ2Uplh" role="2QHcwV">
-          <node concept="2QPe6p" id="7hF4JJ2Upmz" role="2QHcxs">
+        <node concept="2Ym7rd" id="4CUtYZLMu4" role="2Ym7rP" />
+        <node concept="2QHcgp" id="4CUtYZLMul" role="2QHcwV">
+          <node concept="2QPe6p" id="4CUtYZLMum" role="2QHcxs">
             <property role="TrG5h" value="sample_1" />
           </node>
-          <node concept="2QPe6p" id="7hF4JJ2Upm$" role="2QHcxs">
+          <node concept="2QPe6p" id="4CUtYZLMun" role="2QHcxs">
             <property role="TrG5h" value="sample_2" />
           </node>
-          <node concept="2QPe6p" id="7hF4JJ2Upm_" role="2QHcxs">
+          <node concept="2QPe6p" id="4CUtYZLMuo" role="2QHcxs">
             <property role="TrG5h" value="sample_3" />
           </node>
-          <node concept="2QPe6p" id="7hF4JJ2UpmA" role="2QHcxs">
+          <node concept="2QPe6p" id="4CUtYZLMup" role="2QHcxs">
             <property role="TrG5h" value="sample_4" />
           </node>
-          <node concept="2QPe6p" id="7hF4JJ2UpmB" role="2QHcxs">
+          <node concept="2QPe6p" id="4CUtYZLMuq" role="2QHcxs">
             <property role="TrG5h" value="sample_5" />
           </node>
-          <node concept="2QPe6p" id="7hF4JJ2UpmC" role="2QHcxs">
+          <node concept="2QPe6p" id="4CUtYZLMur" role="2QHcxs">
             <property role="TrG5h" value="sample_6" />
           </node>
-          <node concept="2QPe6p" id="7hF4JJ2UpmD" role="2QHcxs">
+          <node concept="2QPe6p" id="4CUtYZLMus" role="2QHcxs">
             <property role="TrG5h" value="sample_7" />
           </node>
-          <node concept="2QPe6p" id="7hF4JJ2UpmE" role="2QHcxs">
+          <node concept="2QPe6p" id="4CUtYZLMut" role="2QHcxs">
             <property role="TrG5h" value="sample_8" />
           </node>
-          <node concept="2QPe6p" id="7hF4JJ2UpmF" role="2QHcxs">
+          <node concept="2QPe6p" id="4CUtYZLMuu" role="2QHcxs">
             <property role="TrG5h" value="sample_9" />
           </node>
-          <node concept="2QPe6p" id="7hF4JJ2UpmG" role="2QHcxs">
+          <node concept="2QPe6p" id="4CUtYZLMuv" role="2QHcxs">
             <property role="TrG5h" value="sample_10" />
-          </node>
-          <node concept="2QPe6p" id="7hF4JJ2UpmH" role="2QHcxs">
-            <property role="TrG5h" value="sample_11" />
           </node>
         </node>
       </node>
+    </node>
+  </node>
+  <node concept="3MzsBU" id="4CUtYZLMtX">
+    <node concept="3MzsS1" id="4CUtYZLMtY" role="3MzsBV">
+      <property role="TrG5h" value="sample-key" />
     </node>
   </node>
 </model>
