@@ -8,14 +8,18 @@
   <imports>
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="8gqa" ref="r:c14853f5-5f2e-4acc-825a-4fec67caca67(org.campagnelab.metar.tables.editor)" implicit="true" />
+    <import index="jrxw" ref="r:9f2bbfbf-f8b7-4b3b-92b1-b6a0e9642c10(org.campagnelab.metar.tables.structure)" implicit="true" />
     <import index="hgbr" ref="r:35e57e46-a34e-4190-bb18-c2596691e768(org.campagnelab.metar.simulation.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">
-      <concept id="1071666914219" name="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration" flags="ig" index="24kQdi" />
+      <concept id="1071666914219" name="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration" flags="ig" index="24kQdi">
+        <child id="1078153129734" name="inspectedCellModel" index="6VMZX" />
+      </concept>
       <concept id="1140524381322" name="jetbrains.mps.lang.editor.structure.CellModel_ListWithRole" flags="ng" index="2czfm3">
         <child id="1140524464360" name="cellLayout" index="2czzBx" />
       </concept>
+      <concept id="1106270549637" name="jetbrains.mps.lang.editor.structure.CellLayout_Horizontal" flags="nn" index="2iRfu4" />
       <concept id="1106270571710" name="jetbrains.mps.lang.editor.structure.CellLayout_Vertical" flags="nn" index="2iRkQZ" />
       <concept id="1237303669825" name="jetbrains.mps.lang.editor.structure.CellLayout_Indent" flags="nn" index="l2Vlx" />
       <concept id="1237307900041" name="jetbrains.mps.lang.editor.structure.IndentLayoutIndentStyleClassItem" flags="ln" index="lj46D" />
@@ -153,6 +157,15 @@
       <node concept="3F1sOY" id="7hF4JJ2KwEj" role="3EZMnx">
         <ref role="1NtTu8" to="hgbr:7$n2ViPrFPR" />
       </node>
+    </node>
+    <node concept="3EZMnI" id="2BlsMIUVTrV" role="6VMZX">
+      <node concept="3F0ifn" id="2BlsMIUVTs2" role="3EZMnx">
+        <property role="3F0ifm" value="input changed:" />
+      </node>
+      <node concept="3F0A7n" id="2BlsMIUVTs8" role="3EZMnx">
+        <ref role="1NtTu8" to="jrxw:7S2MvlQNiVc" resolve="inputChanged" />
+      </node>
+      <node concept="2iRfu4" id="2BlsMIUVTrY" role="2iSdaV" />
     </node>
   </node>
   <node concept="24kQdi" id="2734ievAQvT">

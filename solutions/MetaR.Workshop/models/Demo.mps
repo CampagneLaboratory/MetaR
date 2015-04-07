@@ -750,34 +750,30 @@
           <node concept="3Mpm39" id="4r50q8aI6Du" role="3WeD9t">
             <property role="31Cu5t" value="&#9;" />
             <property role="TrG5h" value="Results" />
-            <node concept="31JHg8" id="4r50q8aI6Dv" role="31JHgj">
+            <node concept="31JHg8" id="3hdu9V5__6V" role="31JHgj">
               <property role="TrG5h" value="logFC" />
               <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
             </node>
-            <node concept="31JHg8" id="4r50q8aI6Dw" role="31JHgj">
+            <node concept="31JHg8" id="3hdu9V5__6W" role="31JHgj">
               <property role="TrG5h" value="logCPM" />
               <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
             </node>
-            <node concept="31JHg8" id="4r50q8aI6Dx" role="31JHgj">
+            <node concept="31JHg8" id="3hdu9V5__6X" role="31JHgj">
               <property role="TrG5h" value="PValue" />
               <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
             </node>
-            <node concept="31JHg8" id="4r50q8aI6Dy" role="31JHgj">
+            <node concept="31JHg8" id="3hdu9V5__6Y" role="31JHgj">
               <property role="TrG5h" value="FDR" />
               <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
             </node>
-            <node concept="31JHg8" id="4r50q8aI6Dz" role="31JHgj">
+            <node concept="31JHg8" id="3hdu9V5__6Z" role="31JHgj">
               <property role="TrG5h" value="genes" />
               <ref role="1YeEjl" to="9nc5:1ID5TXdv_9L" resolve="String" />
-              <node concept="3MzsTm" id="4r50q8aI6D$" role="lGtFl">
-                <node concept="3MzsBX" id="4r50q8aI6D_" role="3MztjM">
+              <node concept="3MzsTm" id="3hdu9V5__70" role="lGtFl">
+                <node concept="3MzsBX" id="3hdu9V5__71" role="3MztjM">
                   <ref role="3MzsBM" node="4DOwJpJxC5G" resolve="ID" />
                 </node>
               </node>
-            </node>
-            <node concept="31JHg8" id="4r50q8aI6DA" role="31JHgj">
-              <property role="TrG5h" value="LR" />
-              <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
             </node>
           </node>
         </node>
