@@ -102,12 +102,6 @@
       <property role="TrG5h" value="percentageOfTreatedSamples" />
       <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
     </node>
-    <node concept="1TJgyj" id="2734ievAOEG" role="1TKVEi">
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="values" />
-      <property role="20lbJX" value="1..n" />
-      <ref role="20lvS9" node="7hF4JJ2JZdy" resolve="StringValue" />
-    </node>
     <node concept="PrWs8" id="2734ievAOEE" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
@@ -147,7 +141,19 @@
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="sampleNames" />
       <property role="20lbJX" value="1..n" />
+      <ref role="20lvS9" node="4CUtYZMZzi" resolve="SampleName" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="4CUtYZMZzi">
+    <property role="TrG5h" value="SampleName" />
+    <node concept="1TJgyj" id="4CUtYZMZzJ" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="treatments" />
+      <property role="20lbJX" value="0..n" />
       <ref role="20lvS9" node="7hF4JJ2JZdy" resolve="StringValue" />
+    </node>
+    <node concept="PrWs8" id="4CUtYZMZzH" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
   </node>
 </model>
