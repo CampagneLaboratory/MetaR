@@ -42,8 +42,8 @@
     </language>
   </registry>
   <node concept="1TIwiD" id="2734ievAyTY">
-    <property role="TrG5h" value="SimulateTable" />
-    <property role="34LRSv" value="simulate table" />
+    <property role="TrG5h" value="SimulateData" />
+    <property role="34LRSv" value="simulate data" />
     <ref role="1TJDcQ" to="jrxw:7LvyiX4miiC" resolve="Statement" />
     <node concept="1TJgyj" id="2734ievAQvk" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
