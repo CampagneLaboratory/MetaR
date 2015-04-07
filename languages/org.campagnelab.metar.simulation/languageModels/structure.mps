@@ -47,8 +47,8 @@
     <ref role="1TJDcQ" to="jrxw:7LvyiX4miiC" resolve="Statement" />
     <node concept="1TJgyj" id="2734ievAQvk" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="discreteGroup" />
-      <property role="20lbJX" value="1" />
+      <property role="20kJfa" value="discreteGroups" />
+      <property role="20lbJX" value="1..n" />
       <ref role="20lvS9" node="2734ievAOED" resolve="DiscreteGroup" />
     </node>
     <node concept="1TJgyj" id="2734ievAQvm" role="1TKVEi">
@@ -69,12 +69,22 @@
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" to="jrxw:2WRhvFto5F5" resolve="FutureTable" />
     </node>
+    <node concept="1TJgyj" id="7hF4JJ2RXF0" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="samples" />
+      <property role="20lbJX" value="0..1" />
+      <ref role="20lvS9" node="7hF4JJ2RXry" resolve="SampleNames" />
+    </node>
     <node concept="1TJgyi" id="2734ievAOBA" role="1TKVEl">
       <property role="TrG5h" value="numOfSamples" />
       <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
     </node>
     <node concept="1TJgyi" id="2734ievAOCC" role="1TKVEl">
       <property role="TrG5h" value="numOfGenes" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
+    <node concept="1TJgyi" id="7hF4JJ2PPka" role="1TKVEl">
+      <property role="TrG5h" value="mean" />
       <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
     </node>
     <node concept="PrWs8" id="2734ievAyU2" role="PzmwI">
@@ -96,7 +106,7 @@
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="values" />
       <property role="20lbJX" value="1..n" />
-      <ref role="20lvS9" node="7hF4JJ2JZdy" resolve="DiscreteValue" />
+      <ref role="20lvS9" node="7hF4JJ2JZdy" resolve="StringValue" />
     </node>
     <node concept="PrWs8" id="2734ievAOEE" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
@@ -124,10 +134,20 @@
     </node>
   </node>
   <node concept="1TIwiD" id="7hF4JJ2JZdy">
-    <property role="TrG5h" value="DiscreteValue" />
+    <property role="TrG5h" value="StringValue" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="7hF4JJ2JZot" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="7hF4JJ2RXry">
+    <property role="TrG5h" value="SampleNames" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="7hF4JJ2RXEB" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="sampleNames" />
+      <property role="20lbJX" value="1..n" />
+      <ref role="20lvS9" node="7hF4JJ2JZdy" resolve="StringValue" />
     </node>
   </node>
 </model>
