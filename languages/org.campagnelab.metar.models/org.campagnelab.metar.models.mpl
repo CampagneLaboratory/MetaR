@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<language namespace="org.campagnelab.metar.models" uuid="ecc862c9-5ab5-42ef-8703-2039019fb338" version="2">
+<language namespace="org.campagnelab.metar.models" uuid="ecc862c9-5ab5-42ef-8703-2039019fb338" version="1">
   <models>
     <modelRoot contentPath="${module}" type="default">
       <sourceRoot location="languageModels" />
