@@ -1614,7 +1614,7 @@
         <property role="3F0ifm" value="Set of IDs" />
       </node>
       <node concept="3F0A7n" id="3BiNpr5FJmm" role="3EZMnx">
-        <property role="1$x2rV" value="SetName" />
+        <property role="1$x2rV" value="&lt;no name&gt;" />
         <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
         <ref role="1k5W1q" node="7Hltlm8C$po" resolve="GeneListName" />
       </node>

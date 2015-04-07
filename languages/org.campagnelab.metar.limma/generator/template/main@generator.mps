@@ -1849,22 +1849,61 @@
                     </node>
                   </node>
                 </node>
-                <node concept="2G3XJi" id="4ssfE$biJtP" role="2G3XIn">
-                  <property role="1gZaPE" value="adjusted$gene=fit3$gene" />
-                  <node concept="1W57fq" id="4ssfE$biJIQ" role="lGtFl">
-                    <node concept="3IZrLx" id="4ssfE$biJIT" role="3IZSJc">
-                      <node concept="3clFbS" id="4ssfE$biJIU" role="2VODD2">
-                        <node concept="3clFbF" id="4ssfE$biJJ0" role="3cqZAp">
-                          <node concept="2OqwBi" id="4ssfE$biJIV" role="3clFbG">
-                            <node concept="3TrcHB" id="4ssfE$biJIY" role="2OqNvi">
-                              <ref role="3TsBF5" to="jl4n:4ssfE$9PSrH" resolve="exportAdjustedCounts" />
+                <node concept="2G3XJi" id="DQS$2nm6dL" role="2G3XIn">
+                  <property role="1gZaPE" value="" />
+                  <node concept="1gZcZf" id="DQS$2nm1nC" role="2G3XIn">
+                    <property role="1gZaPE" value="" />
+                    <node concept="3_3kQU" id="DQS$2nm1nD" role="3_3kQL">
+                      <property role="3_3kQV" value="" />
+                    </node>
+                    <node concept="3_3kQU" id="DQS$2nm1nE" role="3_3kQL">
+                      <property role="3_3kQV" value="adjusted" />
+                      <node concept="17Uvod" id="DQS$2nm1nF" role="lGtFl">
+                        <property role="P4ACc" value="901f5cf3-dc77-4c1e-bc5a-6382baee28b4/1680136183140337486/1680136183140337487" />
+                        <property role="2qtEX9" value="text" />
+                        <node concept="3zFVjK" id="DQS$2nm1nG" role="3zH0cK">
+                          <node concept="3clFbS" id="DQS$2nm1nH" role="2VODD2">
+                            <node concept="3clFbF" id="DQS$2nm1nI" role="3cqZAp">
+                              <node concept="2OqwBi" id="DQS$2nm1nJ" role="3clFbG">
+                                <node concept="2OqwBi" id="DQS$2nm1nK" role="2Oq$k0">
+                                  <node concept="30H73N" id="DQS$2nm1nL" role="2Oq$k0" />
+                                  <node concept="3TrEf2" id="DQS$2nm1nM" role="2OqNvi">
+                                    <ref role="3Tt5mk" to="jl4n:4ssfE$9PTBv" />
+                                  </node>
+                                </node>
+                                <node concept="2qgKlT" id="DQS$2nm1nN" role="2OqNvi">
+                                  <ref role="37wK5l" to="v8sa:3BiNpr5Ur7M" resolve="getCleanTableName" />
+                                </node>
+                              </node>
                             </node>
-                            <node concept="30H73N" id="4ssfE$biJIZ" role="2Oq$k0" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="3_3kQU" id="DQS$2nm1nO" role="3_3kQL">
+                      <property role="3_3kQV" value=" $gene&lt;-fit3$gene " />
+                    </node>
+                    <node concept="1W57fq" id="DQS$2nm1oG" role="lGtFl">
+                      <node concept="3IZrLx" id="DQS$2nm1oH" role="3IZSJc">
+                        <node concept="3clFbS" id="DQS$2nm1oI" role="2VODD2">
+                          <node concept="3clFbF" id="DQS$2nm1oJ" role="3cqZAp">
+                            <node concept="2OqwBi" id="DQS$2nm1oK" role="3clFbG">
+                              <node concept="3TrcHB" id="DQS$2nm1oL" role="2OqNvi">
+                                <ref role="3TsBF5" to="jl4n:4ssfE$9PSrH" resolve="exportAdjustedCounts" />
+                              </node>
+                              <node concept="30H73N" id="DQS$2nm1oM" role="2Oq$k0" />
+                            </node>
                           </node>
                         </node>
                       </node>
                     </node>
                   </node>
+                </node>
+              </node>
+              <node concept="1gZcZf" id="DQS$2nlYMF" role="2G3XIn">
+                <property role="1gZaPE" value="" />
+                <node concept="3_3kQU" id="DQS$2nlYMG" role="3_3kQL">
+                  <property role="3_3kQV" value="" />
                 </node>
               </node>
               <node concept="1gZcZf" id="4ssfE$beT88" role="2G3XIn">
