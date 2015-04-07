@@ -2,18 +2,18 @@
 <model ref="r:83131207-8bbf-4552-944d-336f1a104b7d(Demo)">
   <persistence version="9" />
   <languages>
+    <use id="46803809-20ee-443f-bea9-0bee114b90b3" name="org.campagnelab.metar.edgeR" version="-1" />
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="1" />
     <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="-1" />
     <use id="ed6d7656-532c-4bc2-81d1-af945aeb8280" name="jetbrains.mps.baseLanguage.blTypes" version="-1" />
     <use id="ecf91126-e504-4aae-8ee7-3192d64e77f6" name="org.campagnelab.mps.XChart.types" version="-1" />
-    <use id="4caf0310-491e-41f5-8a9b-2006b3a94898" name="jetbrains.mps.execution.util" version="-1" />
     <use id="9ded098b-ad6a-4657-bfd9-48636cfe8bc3" name="jetbrains.mps.lang.traceable" version="-1" />
+    <use id="4caf0310-491e-41f5-8a9b-2006b3a94898" name="jetbrains.mps.execution.util" version="-1" />
     <use id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures" version="-1" />
+    <use id="ecc862c9-5ab5-42ef-8703-2039019fb338" name="org.campagnelab.metar.models" version="-1" />
     <use id="901f5cf3-dc77-4c1e-bc5a-6382baee28b4" name="org.campagnelab.textoutput" version="-1" />
     <use id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections" version="-1" />
     <use id="049ed9e7-0f0d-4814-a373-a4b21e15b59e" name="org.campagnelab.metar.limma" version="-1" />
-    <use id="ecc862c9-5ab5-42ef-8703-2039019fb338" name="org.campagnelab.metar.models" version="1" />
-    <use id="46803809-20ee-443f-bea9-0bee114b90b3" name="org.campagnelab.metar.edgeR" version="1" />
     <devkit ref="8a3636fa-c6ec-4cb0-bc2a-b7143f2a4937(org.campagnelab.metaR)" />
   </languages>
   <imports>
@@ -527,6 +527,9 @@
       <node concept="3WuldX" id="4r50q8aI6Cd" role="ZXjPg">
         <property role="S1EQ6" value="QESIRWFGDC" />
         <property role="8NYsT" value="false" />
+        <node concept="afgQW" id="6g5l50dUI1Y" role="aecac">
+          <ref role="afgo8" node="4DOwJpJxBw5" resolve="GSE59364_DC_all.csv" />
+        </node>
         <node concept="3MlLWZ" id="4r50q8aI6Ce" role="3W64wA">
           <property role="TrG5h" value="filtered" />
           <ref role="3MlLW5" node="4r50q8aI6Cf" resolve="filtered" />
@@ -739,9 +742,6 @@
               </node>
             </node>
           </node>
-        </node>
-        <node concept="afgQW" id="6g5l50dUI1Y" role="aecac">
-          <ref role="afgo8" node="4DOwJpJxBw5" resolve="GSE59364_DC_all.csv" />
         </node>
         <node concept="2Qf$4g" id="4r50q8aI6Dm" role="3Wum5r">
           <node concept="31$ALs" id="4r50q8aI6Dn" role="QaakN">
@@ -1080,6 +1080,9 @@
       <node concept="3WuldX" id="4r50q8aI6F5" role="ZXjPg">
         <property role="S1EQ6" value="YBQSSPDANF" />
         <property role="8NYsT" value="false" />
+        <node concept="afgQW" id="6g5l50dUIkC" role="aecac">
+          <ref role="afgo8" node="4r50q8aI6DN" resolve="MergedResults" />
+        </node>
         <node concept="3MlLWZ" id="4r50q8aI6F6" role="3W64wA">
           <property role="TrG5h" value="1% FDR" />
           <ref role="3MlLW5" node="4r50q8aI6F7" resolve="1% FDR" />
@@ -1318,9 +1321,6 @@
             </node>
           </node>
         </node>
-        <node concept="afgQW" id="6g5l50dUIkC" role="aecac">
-          <ref role="afgo8" node="4r50q8aI6DN" resolve="MergedResults" />
-        </node>
         <node concept="2Qf$4g" id="4r50q8aI6Gm" role="3Wum5r">
           <node concept="31$ALs" id="4r50q8aI6Gn" role="QaakN">
             <node concept="pVHWs" id="4r50q8aI6Go" role="31$ALt">
@@ -1364,13 +1364,13 @@
       <node concept="1FHY16" id="4r50q8aI6GA" role="ZXjPg">
         <property role="S1EQ6" value="FSKNYXFMLW" />
         <ref role="L_9Jz" node="2od$re0TptV" resolve="HeatmapStyle" />
+        <node concept="afgQW" id="6g5l50dUJhI" role="af7lV">
+          <ref role="afgo8" node="4r50q8aI6F7" resolve="1% FDR" />
+        </node>
         <node concept="1FHg$p" id="4r50q8aI6GB" role="1FHg$q">
           <property role="ZHjxa" value="300" />
           <property role="ZHjG8" value="200" />
           <property role="TrG5h" value="plot" />
-        </node>
-        <node concept="afgQW" id="6g5l50dUJhI" role="af7lV">
-          <ref role="afgo8" node="4r50q8aI6F7" resolve="1% FDR" />
         </node>
         <node concept="2tnku" id="4r50q8aI6GD" role="2thHW">
           <property role="2Lhm2Y" value="true" />
