@@ -30,6 +30,9 @@ public class QueriesGenerated {
   public static Object propertyMacro_GetPropertyValue_7294495165548018537(final PropertyMacroContext _context) {
     return Integer.toString(SPropertyOperations.getInteger(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x67d1b0cdaf144f9L, 0x9fbde1dd4c6e26e8L, 0x21c311239f9a2e7eL, 0x21c311239f9b67d6L, "continuousCovariate")), MetaAdapterFactory.getProperty(0x67d1b0cdaf144f9L, 0x9fbde1dd4c6e26e8L, 0x21c311239f9b67eeL, 0x21c311239fa14c6dL, "lower_limit")));
   }
+  public static Object propertyMacro_GetPropertyValue_4994424750900067497(final PropertyMacroContext _context) {
+    return Integer.toString(SPropertyOperations.getInteger(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x67d1b0cdaf144f9L, 0x9fbde1dd4c6e26e8L, 0x21c311239f9a2e7eL, 0x21c311239f9b67d6L, "continuousCovariate")), MetaAdapterFactory.getProperty(0x67d1b0cdaf144f9L, 0x9fbde1dd4c6e26e8L, 0x21c311239f9b67eeL, 0x454fc2d96eced171L, "linear_slope")));
+  }
   public static Object propertyMacro_GetPropertyValue_7294495165548044009(final PropertyMacroContext _context) {
     return SimulateDataset_Behavior.call_geneColumnName_7294495165548029743(_context.getNode());
   }

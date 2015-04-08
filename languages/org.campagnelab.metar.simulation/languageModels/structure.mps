@@ -126,6 +126,10 @@
       <property role="TrG5h" value="upper_limit" />
       <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
     </node>
+    <node concept="1TJgyi" id="4lfKH_INH5L" role="1TKVEl">
+      <property role="TrG5h" value="linear_slope" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
   </node>
   <node concept="1TIwiD" id="7hF4JJ2JZdy">
     <property role="TrG5h" value="StringValue" />

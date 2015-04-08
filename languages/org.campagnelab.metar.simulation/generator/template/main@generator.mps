@@ -319,10 +319,42 @@
             </node>
           </node>
           <node concept="1gZcZf" id="6kVgbi6iItA" role="2G3XIn">
-            <property role="1gZaPE" value="AGE_SLOPE &lt;- 100" />
+            <property role="1gZaPE" value="" />
+            <node concept="3_3kQU" id="4lfKH_IOjM$" role="3_3kQL">
+              <property role="3_3kQV" value="COVARIATE_LINEAR_SLOPE &lt;- " />
+            </node>
+            <node concept="3_3kQU" id="4lfKH_IOjM_" role="3_3kQL">
+              <property role="3_3kQV" value="slope" />
+              <node concept="17Uvod" id="4lfKH_IOjMC" role="lGtFl">
+                <property role="P4ACc" value="901f5cf3-dc77-4c1e-bc5a-6382baee28b4/1680136183140337486/1680136183140337487" />
+                <property role="2qtEX9" value="text" />
+                <property role="34cw8o" value="linear slope" />
+                <node concept="3zFVjK" id="4lfKH_IOjMD" role="3zH0cK">
+                  <node concept="3clFbS" id="4lfKH_IOjME" role="2VODD2">
+                    <node concept="3clFbF" id="4lfKH_IOngO" role="3cqZAp">
+                      <node concept="2YIFZM" id="4lfKH_IOnm1" role="3clFbG">
+                        <ref role="37wK5l" to="e2lb:~Integer.toString(int):java.lang.String" resolve="toString" />
+                        <ref role="1Pybhc" to="e2lb:~Integer" resolve="Integer" />
+                        <node concept="2OqwBi" id="4lfKH_IOkJo" role="37wK5m">
+                          <node concept="2OqwBi" id="4lfKH_IOjWU" role="2Oq$k0">
+                            <node concept="30H73N" id="4lfKH_IOjRE" role="2Oq$k0" />
+                            <node concept="3TrEf2" id="4lfKH_IOkqP" role="2OqNvi">
+                              <ref role="3Tt5mk" to="hgbr:2734ievAQvm" />
+                            </node>
+                          </node>
+                          <node concept="3TrcHB" id="4lfKH_IOkZY" role="2OqNvi">
+                            <ref role="3TsBF5" to="hgbr:4lfKH_INH5L" resolve="linear_slope" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
           </node>
           <node concept="1gZcZf" id="6kVgbi6iItB" role="2G3XIn">
-            <property role="1gZaPE" value="AGE_FACTOR &lt;- AGE_SLOPE/SAMPLE_MAX_AGE" />
+            <property role="1gZaPE" value="COVARIATE_FACTOR &lt;- COVARIATE_LINEAR_SLOPE/COVARIATE_UPPER_LIMIT" />
           </node>
           <node concept="1gZcZf" id="6kVgbi6iItC" role="2G3XIn">
             <property role="1gZaPE" value="TREATMENT &lt;- &quot;LPS&quot;" />
@@ -340,6 +372,7 @@
               <node concept="17Uvod" id="6kVgbi6iTVC" role="lGtFl">
                 <property role="P4ACc" value="901f5cf3-dc77-4c1e-bc5a-6382baee28b4/1680136183140337486/1680136183140337487" />
                 <property role="2qtEX9" value="text" />
+                <property role="34cw8o" value="gene column" />
                 <node concept="3zFVjK" id="6kVgbi6iTVD" role="3zH0cK">
                   <node concept="3clFbS" id="6kVgbi6iTVE" role="2VODD2">
                     <node concept="3clFbF" id="6kVgbi6iU0F" role="3cqZAp">
@@ -520,7 +553,7 @@
             <property role="1gZaPE" value="      #add delta age" />
           </node>
           <node concept="1gZcZf" id="6kVgbi6iIu9" role="2G3XIn">
-            <property role="1gZaPE" value="      AGE_DELTA &lt;- sampleAges[j-1] * AGE_FACTOR" />
+            <property role="1gZaPE" value="      COVARIATE_DELTA &lt;- sampleAges[j-1] * COVARIATE_FACTOR" />
           </node>
           <node concept="1gZcZf" id="6kVgbi6iIua" role="2G3XIn">
             <property role="1gZaPE" value="      #if TREATMENT=YES and gene affected (one every 10 genes), add also delta TREATMENT" />
@@ -529,13 +562,13 @@
             <property role="1gZaPE" value="      if(grepl(TREATMENT,c(sampleNames[j]),fixed = TRUE) &amp; (i%%ONE_TREATEMENT_EVERY_N == 0) ) {" />
           </node>
           <node concept="1gZcZf" id="6kVgbi6iIuc" role="2G3XIn">
-            <property role="1gZaPE" value="        A[i,j] &lt;- round(row[j-1]  + TREATMENT_DELTA + AGE_DELTA, digit=0)" />
+            <property role="1gZaPE" value="        A[i,j] &lt;- round(row[j-1]  + TREATMENT_DELTA + COVARIATE_DELTA, digit=0)" />
           </node>
           <node concept="1gZcZf" id="6kVgbi6iIud" role="2G3XIn">
             <property role="1gZaPE" value="      } else {" />
           </node>
           <node concept="1gZcZf" id="6kVgbi6iIue" role="2G3XIn">
-            <property role="1gZaPE" value="        A[i,j] &lt;- round(row[j-1] + AGE_DELTA, digit=0)   " />
+            <property role="1gZaPE" value="        A[i,j] &lt;- round(row[j-1] + COVARIATE_DELTA, digit=0)   " />
           </node>
           <node concept="1gZcZf" id="6kVgbi6iIuf" role="2G3XIn">
             <property role="1gZaPE" value="      } " />
