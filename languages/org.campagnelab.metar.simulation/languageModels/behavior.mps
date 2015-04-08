@@ -45,7 +45,6 @@
       <concept id="1239714755177" name="jetbrains.mps.baseLanguage.structure.AbstractUnaryNumberOperation" flags="nn" index="2$Kvd9">
         <child id="1239714902950" name="expression" index="2$L3a6" />
       </concept>
-      <concept id="1095950406618" name="jetbrains.mps.baseLanguage.structure.DivExpression" flags="nn" index="FJ1c_" />
       <concept id="1224848483129" name="jetbrains.mps.baseLanguage.structure.IBLDeprecatable" flags="ng" index="IEa8$">
         <property id="1224848525476" name="isDeprecated" index="IEkAT" />
       </concept>
@@ -82,7 +81,6 @@
       <concept id="1068431474542" name="jetbrains.mps.baseLanguage.structure.VariableDeclaration" flags="ng" index="33uBYm">
         <child id="1068431790190" name="initializer" index="33vP2m" />
       </concept>
-      <concept id="1092119917967" name="jetbrains.mps.baseLanguage.structure.MulExpression" flags="nn" index="17qRlL" />
       <concept id="1068498886296" name="jetbrains.mps.baseLanguage.structure.VariableReference" flags="nn" index="37vLTw">
         <reference id="1068581517664" name="variableDeclaration" index="3cqZAo" />
       </concept>
@@ -1494,100 +1492,28 @@
                       </node>
                     </node>
                   </node>
-                  <node concept="34ab3g" id="4CUtYZPjfU" role="3cqZAp">
-                    <property role="35gtTG" value="info" />
-                    <node concept="3cpWs3" id="4CUtYZPp4h" role="34bqiv">
-                      <node concept="2YIFZM" id="4CUtYZPp_9" role="3uHU7w">
-                        <ref role="37wK5l" to="e2lb:~Integer.toString(int):java.lang.String" resolve="toString" />
-                        <ref role="1Pybhc" to="e2lb:~Integer" resolve="Integer" />
-                        <node concept="2OqwBi" id="4CUtYZPq5K" role="37wK5m">
-                          <node concept="37vLTw" id="4CUtYZPpPC" role="2Oq$k0">
-                            <ref role="3cqZAo" node="4CUtYZNboJ" resolve="group" />
-                          </node>
-                          <node concept="3TrcHB" id="4CUtYZPqyU" role="2OqNvi">
-                            <ref role="3TsBF5" to="hgbr:7hF4JJ2OOED" resolve="percentageOfTreatedSamples" />
-                          </node>
-                        </node>
-                      </node>
-                      <node concept="Xl_RD" id="4CUtYZPjfW" role="3uHU7B">
-                        <property role="Xl_RC" value="Perc of treated samples: " />
-                      </node>
-                    </node>
-                  </node>
-                  <node concept="3SKdUt" id="4CUtYZROvP" role="3cqZAp">
-                    <node concept="3SKWN0" id="4CUtYZROw3" role="3SKWNk">
-                      <node concept="3cpWs8" id="4CUtYZMyy3" role="3SKWNf">
-                        <node concept="3cpWsn" id="4CUtYZMyy6" role="3cpWs9">
-                          <property role="TrG5h" value="numOfTreatedSamples2" />
-                          <node concept="10Oyi0" id="4CUtYZMyy1" role="1tU5fm" />
-                          <node concept="17qRlL" id="4CUtYZMHpT" role="33vP2m">
-                            <node concept="2OqwBi" id="4CUtYZMG55" role="3uHU7B">
-                              <node concept="13iPFW" id="4CUtYZMG2o" role="2Oq$k0" />
-                              <node concept="3TrcHB" id="4CUtYZMGu5" role="2OqNvi">
-                                <ref role="3TsBF5" to="hgbr:2734ievAOBA" resolve="numOfSamples" />
-                              </node>
-                            </node>
-                            <node concept="1eOMI4" id="4CUtYZMSf7" role="3uHU7w">
-                              <node concept="FJ1c_" id="4CUtYZMRp$" role="1eOMHV">
-                                <node concept="2OqwBi" id="4CUtYZMPvL" role="3uHU7B">
-                                  <node concept="37vLTw" id="4CUtYZNcYD" role="2Oq$k0">
-                                    <ref role="3cqZAo" node="4CUtYZNboJ" resolve="group" />
-                                  </node>
-                                  <node concept="3TrcHB" id="4CUtYZMPUP" role="2OqNvi">
-                                    <ref role="3TsBF5" to="hgbr:7hF4JJ2OOED" resolve="percentageOfTreatedSamples" />
-                                  </node>
-                                </node>
-                                <node concept="3cmrfG" id="4CUtYZMRtJ" role="3uHU7w">
-                                  <property role="3cmrfH" value="100" />
-                                </node>
-                              </node>
-                            </node>
-                          </node>
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                  <node concept="3cpWs8" id="4CUtYZRP7W" role="3cqZAp">
-                    <node concept="3cpWsn" id="4CUtYZRP7X" role="3cpWs9">
-                      <property role="TrG5h" value="numOfTreatedSamples" />
-                      <node concept="10Oyi0" id="4CUtYZRP7Y" role="1tU5fm" />
-                      <node concept="3cmrfG" id="4CUtYZRQ2h" role="33vP2m">
-                        <property role="3cmrfH" value="10" />
-                      </node>
-                    </node>
-                  </node>
-                  <node concept="34ab3g" id="4CUtYZOt5T" role="3cqZAp">
-                    <property role="35gtTG" value="info" />
-                    <node concept="3cpWs3" id="4CUtYZOv6g" role="34bqiv">
-                      <node concept="2YIFZM" id="4CUtYZOvAo" role="3uHU7w">
-                        <ref role="37wK5l" to="e2lb:~Integer.toString(int):java.lang.String" resolve="toString" />
-                        <ref role="1Pybhc" to="e2lb:~Integer" resolve="Integer" />
-                        <node concept="37vLTw" id="4CUtYZOvQu" role="37wK5m">
-                          <ref role="3cqZAo" node="4CUtYZRP7X" resolve="numOfTreatedSamples" />
-                        </node>
-                      </node>
-                      <node concept="Xl_RD" id="4CUtYZOt5V" role="3uHU7B">
-                        <property role="Xl_RC" value="Num of treated samples " />
-                      </node>
-                    </node>
-                  </node>
                   <node concept="3cpWs8" id="4CUtYZNoVh" role="3cqZAp">
                     <node concept="3cpWsn" id="4CUtYZNoVk" role="3cpWs9">
                       <property role="TrG5h" value="sampleIndexes" />
                       <node concept="10Q1$e" id="4CUtYZNoYc" role="1tU5fm">
                         <node concept="10Oyi0" id="4CUtYZNoVf" role="10Q1$1" />
                       </node>
-                      <node concept="2YIFZM" id="4CUtYZNq5v" role="33vP2m">
-                        <ref role="37wK5l" to="8m2y:4CUtYZLUUp" resolve="generate" />
+                      <node concept="2YIFZM" id="4lfKH_ITwdq" role="33vP2m">
+                        <ref role="37wK5l" to="8m2y:4lfKH_IThjp" resolve="generateUniform" />
                         <ref role="1Pybhc" to="8m2y:4CUtYZLQYD" resolve="NumberGenerator" />
-                        <node concept="2OqwBi" id="4CUtYZNqfz" role="37wK5m">
-                          <node concept="13iPFW" id="4CUtYZNq9O" role="2Oq$k0" />
-                          <node concept="3TrcHB" id="4CUtYZNqGK" role="2OqNvi">
+                        <node concept="2OqwBi" id="4lfKH_ITwdr" role="37wK5m">
+                          <node concept="13iPFW" id="4lfKH_ITwds" role="2Oq$k0" />
+                          <node concept="3TrcHB" id="4lfKH_ITwdt" role="2OqNvi">
                             <ref role="3TsBF5" to="hgbr:2734ievAOBA" resolve="numOfSamples" />
                           </node>
                         </node>
-                        <node concept="37vLTw" id="4CUtYZNqPT" role="37wK5m">
-                          <ref role="3cqZAo" node="4CUtYZRP7X" resolve="numOfTreatedSamples" />
+                        <node concept="2OqwBi" id="4lfKH_ITwMw" role="37wK5m">
+                          <node concept="37vLTw" id="4lfKH_ITwv3" role="2Oq$k0">
+                            <ref role="3cqZAo" node="4CUtYZNboJ" resolve="group" />
+                          </node>
+                          <node concept="3TrcHB" id="4lfKH_ITyDd" role="2OqNvi">
+                            <ref role="3TsBF5" to="hgbr:7hF4JJ2OOED" resolve="percentageOfTreatedSamples" />
+                          </node>
                         </node>
                       </node>
                     </node>
@@ -1680,9 +1606,13 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="4CUtYZNeud" role="3cqZAp" />
-        <node concept="3clFbH" id="7hF4JJ2S4z4" role="3cqZAp" />
       </node>
+    </node>
+    <node concept="13i0hz" id="4lfKH_IPXPJ" role="13h7CS">
+      <property role="TrG5h" value="buildGeneList" />
+      <node concept="3Tm6S6" id="4lfKH_IQ0bX" role="1B3o_S" />
+      <node concept="3cqZAl" id="4lfKH_IQ0bU" role="3clF45" />
+      <node concept="3clFbS" id="4lfKH_IPXPM" role="3clF47" />
     </node>
     <node concept="13i0hz" id="6kVgbi6iQsJ" role="13h7CS">
       <property role="TrG5h" value="geneColumnName" />
