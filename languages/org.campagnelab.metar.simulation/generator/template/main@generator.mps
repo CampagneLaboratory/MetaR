@@ -58,6 +58,9 @@
       </concept>
     </language>
     <language id="b401a680-8325-4110-8fd3-84331ff25bef" name="jetbrains.mps.lang.generator">
+      <concept id="1114729360583" name="jetbrains.mps.lang.generator.structure.CopySrcListMacro" flags="ln" index="2b32R4">
+        <child id="1168278589236" name="sourceNodesQuery" index="2P8S$" />
+      </concept>
       <concept id="1095416546421" name="jetbrains.mps.lang.generator.structure.MappingConfiguration" flags="ig" index="bUwia">
         <child id="1167328349397" name="reductionMappingRule" index="3acgRq" />
       </concept>
@@ -84,6 +87,7 @@
         <child id="1169672767469" name="ruleConsequence" index="1lVwrX" />
       </concept>
       <concept id="1167756080639" name="jetbrains.mps.lang.generator.structure.PropertyMacro_GetPropertyValue" flags="in" index="3zFVjK" />
+      <concept id="1167951910403" name="jetbrains.mps.lang.generator.structure.SourceSubstituteMacro_SourceNodesQuery" flags="in" index="3JmXsc" />
     </language>
     <language id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures">
       <concept id="1199569711397" name="jetbrains.mps.baseLanguage.closures.structure.ClosureLiteral" flags="nn" index="1bVj0M">
@@ -151,6 +155,12 @@
       <ref role="30HIoZ" to="hgbr:2734ievAyTY" resolve="SimulateDataset" />
       <node concept="j$656" id="6kVgbi6iGEh" role="1lVwrX">
         <ref role="v9R2y" node="6kVgbi6iGEe" resolve="reduce_SimulateDataset" />
+      </node>
+    </node>
+    <node concept="3aamgX" id="4lfKH_IXbr2" role="3acgRq">
+      <ref role="30HIoZ" to="hgbr:2734ievAOED" resolve="DiscreteGroup" />
+      <node concept="j$656" id="4lfKH_IXbr3" role="1lVwrX">
+        <ref role="v9R2y" node="4lfKH_IXbr0" resolve="reduce_DiscreteGroup" />
       </node>
     </node>
   </node>
@@ -510,6 +520,35 @@
           <node concept="1gZcZf" id="6kVgbi6iItU" role="2G3XIn">
             <property role="1gZaPE" value="" />
           </node>
+          <node concept="1gZcZf" id="4lfKH_IXavT" role="2G3XIn">
+            <property role="1gZaPE" value="treatments = list()" />
+            <node concept="3_3kQU" id="4lfKH_IXaIq" role="3_3kQL">
+              <property role="3_3kQV" value="" />
+            </node>
+            <node concept="3_3kQU" id="4lfKH_IXavU" role="3_3kQL">
+              <property role="3_3kQV" value="" />
+            </node>
+          </node>
+          <node concept="1gZcZf" id="4lfKH_IXaIu" role="2G3XIn">
+            <property role="1gZaPE" value="lists" />
+            <node concept="3_3kQU" id="4lfKH_IXaIv" role="3_3kQL">
+              <property role="3_3kQV" value="" />
+            </node>
+            <node concept="2b32R4" id="4lfKH_IXb4L" role="lGtFl">
+              <node concept="3JmXsc" id="4lfKH_IXb4O" role="2P8S$">
+                <node concept="3clFbS" id="4lfKH_IXb4P" role="2VODD2">
+                  <node concept="3clFbF" id="4lfKH_IXb4V" role="3cqZAp">
+                    <node concept="2OqwBi" id="4lfKH_IXb4Q" role="3clFbG">
+                      <node concept="3Tsc0h" id="4lfKH_IXb4T" role="2OqNvi">
+                        <ref role="3TtcxE" to="hgbr:2734ievAQvk" />
+                      </node>
+                      <node concept="30H73N" id="4lfKH_IXb4U" role="2Oq$k0" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
           <node concept="1gZcZf" id="6kVgbi6iItV" role="2G3XIn">
             <property role="1gZaPE" value="# generate samples ages between COVARIATE_LOWER_LIMIT and COVARIATE_UPPER_LIMIT" />
           </node>
@@ -526,7 +565,7 @@
             <property role="1gZaPE" value="initMatrix &lt;- function(sampleNames) {" />
           </node>
           <node concept="1gZcZf" id="6kVgbi6iIu0" role="2G3XIn">
-            <property role="1gZaPE" value="  A &lt;- matrix(nrow=NUM_OF_GENES, ncol=length(sampleNames))  " />
+            <property role="1gZaPE" value="  A &lt;- matrix(nrow = NUM_OF_GENES, ncol=length(sampleNames))  " />
           </node>
           <node concept="1gZcZf" id="6kVgbi6iIu1" role="2G3XIn">
             <property role="1gZaPE" value="  for (i in 1:NUM_OF_GENES) {" />
@@ -716,6 +755,64 @@
             </node>
           </node>
         </node>
+      </node>
+    </node>
+  </node>
+  <node concept="13MO4I" id="4lfKH_IXbr0">
+    <property role="TrG5h" value="reduce_DiscreteGroup" />
+    <ref role="3gUMe" to="hgbr:2734ievAOED" resolve="DiscreteGroup" />
+    <node concept="2G3XJi" id="4lfKH_IXbr9" role="13RCb5">
+      <property role="1gZaPE" value="" />
+      <node concept="1gZcZf" id="4lfKH_IXbra" role="2G3XIn">
+        <property role="1gZaPE" value="" />
+        <node concept="3_3kQU" id="4lfKH_IXbv4" role="3_3kQL">
+          <property role="3_3kQV" value="treatments[[&quot;" />
+        </node>
+        <node concept="3_3kQU" id="4lfKH_IXbv5" role="3_3kQL">
+          <property role="3_3kQV" value="name" />
+          <node concept="17Uvod" id="4lfKH_IXbva" role="lGtFl">
+            <property role="P4ACc" value="901f5cf3-dc77-4c1e-bc5a-6382baee28b4/1680136183140337486/1680136183140337487" />
+            <property role="2qtEX9" value="text" />
+            <node concept="3zFVjK" id="4lfKH_IXbvd" role="3zH0cK">
+              <node concept="3clFbS" id="4lfKH_IXbve" role="2VODD2">
+                <node concept="3clFbF" id="4lfKH_IXbvk" role="3cqZAp">
+                  <node concept="2OqwBi" id="4lfKH_IXbvf" role="3clFbG">
+                    <node concept="3TrcHB" id="4lfKH_IXbvi" role="2OqNvi">
+                      <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                    </node>
+                    <node concept="30H73N" id="4lfKH_IXbvj" role="2Oq$k0" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3_3kQU" id="4lfKH_IXbPH" role="3_3kQL">
+          <property role="3_3kQV" value="&quot;]] &lt;- c(" />
+        </node>
+        <node concept="3_3kQU" id="4lfKH_IXbPI" role="3_3kQL">
+          <property role="3_3kQV" value="indexex" />
+          <node concept="17Uvod" id="4lfKH_IXbVB" role="lGtFl">
+            <property role="P4ACc" value="901f5cf3-dc77-4c1e-bc5a-6382baee28b4/1680136183140337486/1680136183140337487" />
+            <property role="2qtEX9" value="text" />
+            <node concept="3zFVjK" id="4lfKH_IXbVC" role="3zH0cK">
+              <node concept="3clFbS" id="4lfKH_IXbVD" role="2VODD2">
+                <node concept="3clFbF" id="4lfKH_IXc0E" role="3cqZAp">
+                  <node concept="Xl_RD" id="4lfKH_IXc0D" role="3clFbG">
+                    <property role="Xl_RC" value="TODO" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3_3kQU" id="4lfKH_IXbPJ" role="3_3kQL">
+          <property role="3_3kQV" value=")" />
+        </node>
+        <node concept="raruj" id="4lfKH_IXbrm" role="lGtFl" />
+      </node>
+      <node concept="3_3kQU" id="4lfKH_IXbrf" role="3_3kQL">
+        <property role="3_3kQV" value="" />
       </node>
     </node>
   </node>

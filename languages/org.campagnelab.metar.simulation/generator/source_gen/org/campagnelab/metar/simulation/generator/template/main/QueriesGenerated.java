@@ -14,6 +14,7 @@ import jetbrains.mps.internal.collections.runtime.ISelector;
 import org.jetbrains.mps.openapi.model.SNode;
 import org.campagnelab.metar.tables.behavior.FutureTable_Behavior;
 import org.campagnelab.metar.tables.behavior.Statement_Behavior;
+import jetbrains.mps.generator.template.SourceSubstituteMacroNodesContext;
 
 @Generated
 public class QueriesGenerated {
@@ -54,5 +55,14 @@ public class QueriesGenerated {
   }
   public static Object propertyMacro_GetPropertyValue_7294495165547992143(final PropertyMacroContext _context) {
     return Statement_Behavior.call_id_3007013211740741445(_context.getNode());
+  }
+  public static Object propertyMacro_GetPropertyValue_4994424750902392781(final PropertyMacroContext _context) {
+    return SPropertyOperations.getString(_context.getNode(), MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name"));
+  }
+  public static Object propertyMacro_GetPropertyValue_4994424750902394600(final PropertyMacroContext _context) {
+    return "TODO";
+  }
+  public static Iterable<SNode> sourceNodesQuery_4994424750902391092(final SourceSubstituteMacroNodesContext _context) {
+    return SLinkOperations.getChildren(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x67d1b0cdaf144f9L, 0x9fbde1dd4c6e26e8L, 0x21c311239f9a2e7eL, 0x21c311239f9b67d4L, "discreteGroups"));
   }
 }
