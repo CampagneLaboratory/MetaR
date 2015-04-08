@@ -191,6 +191,13 @@
       <node concept="3F0ifn" id="2734ievCkZi" role="3EZMnx">
         <property role="3F0ifm" value="]" />
       </node>
+      <node concept="3F0ifn" id="4lfKH_INIf5" role="3EZMnx">
+        <property role="3F0ifm" value=", slope:" />
+        <ref role="1k5W1q" to="8gqa:7Hltlm8H6Z1" resolve="Descriptive" />
+      </node>
+      <node concept="3F0A7n" id="4lfKH_INIfr" role="3EZMnx">
+        <ref role="1NtTu8" to="hgbr:4lfKH_INH5L" resolve="linear_slope" />
+      </node>
       <node concept="l2Vlx" id="2734ievCkNR" role="2iSdaV" />
     </node>
   </node>
