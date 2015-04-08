@@ -269,8 +269,8 @@
                               <ref role="3Tt5mk" to="hgbr:2734ievAQvm" />
                             </node>
                           </node>
-                          <node concept="3TrcHB" id="6kVgbi6iNlo" role="2OqNvi">
-                            <ref role="3TsBF5" to="hgbr:2734ievCkLH" resolve="lower_limit" />
+                          <node concept="3TrcHB" id="4lfKH_IMg7T" role="2OqNvi">
+                            <ref role="3TsBF5" to="hgbr:2734ievCkLI" resolve="upper_limit" />
                           </node>
                         </node>
                       </node>
@@ -574,7 +574,43 @@
             <property role="1gZaPE" value="simulationT.table &lt;- as.table(simulationT)" />
           </node>
           <node concept="1gZcZf" id="6kVgbi6iIur" role="2G3XIn">
-            <property role="1gZaPE" value="write.table(simulationT.table,file=&quot;~/Lab/Projects/MPS/MetaR_3.2/data/SimulatedData.tsv&quot;,col.names = TRUE,row.names=FALSE,quote = FALSE, sep = &quot;\t&quot;)" />
+            <property role="1gZaPE" value="" />
+            <node concept="3_3kQU" id="4lfKH_ILqMM" role="3_3kQL">
+              <property role="3_3kQV" value="write.table(simulationT.table,file=&quot;" />
+            </node>
+            <node concept="3_3kQU" id="4lfKH_ILqMN" role="3_3kQL">
+              <property role="3_3kQV" value="SimulatedData.tsv" />
+              <node concept="17Uvod" id="4lfKH_ILqMS" role="lGtFl">
+                <property role="P4ACc" value="901f5cf3-dc77-4c1e-bc5a-6382baee28b4/1680136183140337486/1680136183140337487" />
+                <property role="2qtEX9" value="text" />
+                <property role="34cw8o" value="simulate table path" />
+                <node concept="3zFVjK" id="4lfKH_ILqMT" role="3zH0cK">
+                  <node concept="3clFbS" id="4lfKH_ILqMU" role="2VODD2">
+                    <node concept="3clFbF" id="4lfKH_ILre0" role="3cqZAp">
+                      <node concept="2OqwBi" id="4lfKH_ILtD1" role="3clFbG">
+                        <node concept="2OqwBi" id="4lfKH_ILs$b" role="2Oq$k0">
+                          <node concept="2OqwBi" id="4lfKH_ILrjf" role="2Oq$k0">
+                            <node concept="30H73N" id="4lfKH_ILrdZ" role="2Oq$k0" />
+                            <node concept="3TrEf2" id="4lfKH_ILs6l" role="2OqNvi">
+                              <ref role="3Tt5mk" to="hgbr:7$n2ViPrFPR" />
+                            </node>
+                          </node>
+                          <node concept="2qgKlT" id="4lfKH_ILtu7" role="2OqNvi">
+                            <ref role="37wK5l" to="v8sa:1xeqmqKO$c4" resolve="getTable" />
+                          </node>
+                        </node>
+                        <node concept="2qgKlT" id="4lfKH_ILvgC" role="2OqNvi">
+                          <ref role="37wK5l" to="v8sa:5RQTS2osRA4" resolve="getPath" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3_3kQU" id="4lfKH_ILqMO" role="3_3kQL">
+              <property role="3_3kQV" value="&quot;,col.names = TRUE,row.names=FALSE,quote = FALSE, sep = &quot;\t&quot;)" />
+            </node>
           </node>
           <node concept="1gZcZf" id="6kVgbi6iIus" role="2G3XIn">
             <property role="1gZaPE" value="" />
@@ -592,7 +628,43 @@
             <property role="1gZaPE" value="annotationT.table &lt;- as.table(annotationT)" />
           </node>
           <node concept="1gZcZf" id="6kVgbi6iIux" role="2G3XIn">
-            <property role="1gZaPE" value="write.table(annotationT.table,file=&quot;~/Lab/Projects/MPS/MetaR_3.2/data/AgeAnnotation.tsv&quot;,col.names = TRUE,row.names=FALSE,quote = FALSE, sep = &quot;\t&quot;)" />
+            <property role="1gZaPE" value="" />
+            <node concept="3_3kQU" id="4lfKH_ILeOP" role="3_3kQL">
+              <property role="3_3kQV" value="write.table(annotationT.table,file=&quot;" />
+            </node>
+            <node concept="3_3kQU" id="4lfKH_ILeOQ" role="3_3kQL">
+              <property role="3_3kQV" value="AgeAnnotation.tsv" />
+              <node concept="17Uvod" id="4lfKH_ILeOV" role="lGtFl">
+                <property role="P4ACc" value="901f5cf3-dc77-4c1e-bc5a-6382baee28b4/1680136183140337486/1680136183140337487" />
+                <property role="2qtEX9" value="text" />
+                <property role="34cw8o" value="covariate table path" />
+                <node concept="3zFVjK" id="4lfKH_ILeOW" role="3zH0cK">
+                  <node concept="3clFbS" id="4lfKH_ILeOX" role="2VODD2">
+                    <node concept="3clFbF" id="4lfKH_ILoGZ" role="3cqZAp">
+                      <node concept="2OqwBi" id="4lfKH_ILq7M" role="3clFbG">
+                        <node concept="2OqwBi" id="4lfKH_ILpGu" role="2Oq$k0">
+                          <node concept="2OqwBi" id="4lfKH_ILp6A" role="2Oq$k0">
+                            <node concept="30H73N" id="4lfKH_ILoGY" role="2Oq$k0" />
+                            <node concept="3TrEf2" id="4lfKH_ILprg" role="2OqNvi">
+                              <ref role="3Tt5mk" to="hgbr:2734ievAS6k" />
+                            </node>
+                          </node>
+                          <node concept="2qgKlT" id="4lfKH_ILpWW" role="2OqNvi">
+                            <ref role="37wK5l" to="v8sa:1xeqmqKO$c4" resolve="getTable" />
+                          </node>
+                        </node>
+                        <node concept="2qgKlT" id="4lfKH_ILqxk" role="2OqNvi">
+                          <ref role="37wK5l" to="v8sa:5RQTS2osRA4" resolve="getPath" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3_3kQU" id="4lfKH_ILeOR" role="3_3kQL">
+              <property role="3_3kQV" value="&quot;,col.names = TRUE,row.names=FALSE,quote = FALSE, sep = &quot;\t&quot;)" />
+            </node>
           </node>
         </node>
         <node concept="1gZcZf" id="6kVgbi6iGUY" role="2G3XIn">
