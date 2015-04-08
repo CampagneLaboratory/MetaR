@@ -517,7 +517,7 @@
             <property role="1gZaPE" value="sampleAges &lt;- floor(runif(NUM_OF_SAMPLES, min=COVARIATE_LOWER_LIMIT, max=COVARIATE_UPPER_LIMIT))" />
           </node>
           <node concept="1gZcZf" id="6kVgbi6iItX" role="2G3XIn">
-            <property role="1gZaPE" value="" />
+            <property role="1gZaPE" value="sampleAges" />
           </node>
           <node concept="1gZcZf" id="6kVgbi6iItY" role="2G3XIn">
             <property role="1gZaPE" value="# generate the values" />
