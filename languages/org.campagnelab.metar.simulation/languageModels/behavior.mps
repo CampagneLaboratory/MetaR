@@ -729,8 +729,11 @@
         </node>
         <node concept="3clFbF" id="7hF4JJ2LgKX" role="3cqZAp">
           <node concept="37vLTI" id="7hF4JJ2Lhqs" role="3clFbG">
-            <node concept="Xl_RD" id="7hF4JJ2Lhrq" role="37vLTx">
-              <property role="Xl_RC" value="gene" />
+            <node concept="2OqwBi" id="6kVgbi6iT0l" role="37vLTx">
+              <node concept="13iPFW" id="6kVgbi6iSXp" role="2Oq$k0" />
+              <node concept="2qgKlT" id="6kVgbi6iTJj" role="2OqNvi">
+                <ref role="37wK5l" node="6kVgbi6iQsJ" resolve="geneColumnName" />
+              </node>
             </node>
             <node concept="2OqwBi" id="7hF4JJ2LgP4" role="37vLTJ">
               <node concept="37vLTw" id="7hF4JJ2LgKV" role="2Oq$k0">
@@ -1679,6 +1682,18 @@
         </node>
         <node concept="3clFbH" id="4CUtYZNeud" role="3cqZAp" />
         <node concept="3clFbH" id="7hF4JJ2S4z4" role="3cqZAp" />
+      </node>
+    </node>
+    <node concept="13i0hz" id="6kVgbi6iQsJ" role="13h7CS">
+      <property role="TrG5h" value="geneColumnName" />
+      <node concept="3Tm1VV" id="6kVgbi6iQsK" role="1B3o_S" />
+      <node concept="17QB3L" id="6kVgbi6iSPv" role="3clF45" />
+      <node concept="3clFbS" id="6kVgbi6iQsM" role="3clF47">
+        <node concept="3cpWs6" id="6kVgbi6iSS8" role="3cqZAp">
+          <node concept="Xl_RD" id="6kVgbi6iSS9" role="3cqZAk">
+            <property role="Xl_RC" value="gene" />
+          </node>
+        </node>
       </node>
     </node>
     <node concept="13i0hz" id="4CUtYZRnSF" role="13h7CS">
