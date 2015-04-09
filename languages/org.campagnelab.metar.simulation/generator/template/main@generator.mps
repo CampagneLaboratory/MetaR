@@ -11,7 +11,7 @@
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
-    <import index="v8sa" ref="r:db1b133e-9a0f-4319-b384-413408eb1729(org.campagnelab.metar.tables.behavior)" implicit="true" />
+    <import index="v8sa" ref="r:db1b133e-9a0f-4319-b384-413408eb1729(org.campagnelab.metar.tables.behavior)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="e2lb" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" implicit="true" />
     <import index="jrxw" ref="r:9f2bbfbf-f8b7-4b3b-92b1-b6a0e9642c10(org.campagnelab.metar.tables.structure)" implicit="true" />
@@ -127,7 +127,6 @@
     </language>
     <language id="32f503e8-061b-451e-bcb0-fef56aa05eb9" name="org.campagnelab.metar.inspect">
       <concept id="8969925079115431553" name="org.campagnelab.metar.inspect.structure.TryAndReport" flags="ng" index="3eWmRk">
-        <property id="2742007948304393655" name="enabled" index="2BXFg4" />
         <property id="8969925079115431616" name="nodeId" index="3eWmQl" />
         <child id="8969925079115431619" name="try" index="3eWmQm" />
       </concept>
@@ -221,7 +220,6 @@
     <ref role="3gUMe" to="hgbr:2734ievAyTY" resolve="SimulateDataset" />
     <node concept="3eWmRk" id="6kVgbi6iGUN" role="13RCb5">
       <property role="1gZaPE" value="" />
-      <property role="2BXFg4" value="true" />
       <property role="3eWmQl" value="nodeid" />
       <node concept="1gZcZf" id="6kVgbi6iGUO" role="2G3XIn">
         <property role="1gZaPE" value="" />
@@ -928,6 +926,22 @@
                 <node concept="30H73N" id="6kVgbi6iHqR" role="2Oq$k0" />
                 <node concept="2qgKlT" id="6kVgbi6iImd" role="2OqNvi">
                   <ref role="37wK5l" to="v8sa:2AV3DmgHDX5" resolve="id" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="17Uvod" id="4lfKH_J5Gys" role="lGtFl">
+        <property role="P4ACc" value="32f503e8-061b-451e-bcb0-fef56aa05eb9/8969925079115431553/2742007948304393655" />
+        <property role="2qtEX9" value="enabled" />
+        <node concept="3zFVjK" id="4lfKH_J5Gyt" role="3zH0cK">
+          <node concept="3clFbS" id="4lfKH_J5Gyu" role="2VODD2">
+            <node concept="3clFbF" id="2od$re20h56" role="3cqZAp">
+              <node concept="2OqwBi" id="2od$re20hbl" role="3clFbG">
+                <node concept="30H73N" id="2od$re20h55" role="2Oq$k0" />
+                <node concept="2qgKlT" id="2od$re20oR2" role="2OqNvi">
+                  <ref role="37wK5l" to="v8sa:2od$re20jdz" resolve="errorCatchingEnabled" />
                 </node>
               </node>
             </node>
