@@ -306,7 +306,7 @@
             </node>
           </node>
           <node concept="1gZcZf" id="6kVgbi6iIt$" role="2G3XIn">
-            <property role="1gZaPE" value="TREATMENT_FACTOR &lt;- 10" />
+            <property role="1gZaPE" value="TREATMENT_FACTOR &lt;- 100" />
           </node>
           <node concept="1gZcZf" id="6kVgbi6iIt_" role="2G3XIn">
             <node concept="3_3kQU" id="6kVgbi6iLx6" role="3_3kQL">
@@ -418,9 +418,6 @@
           <node concept="1gZcZf" id="6kVgbi6iItB" role="2G3XIn">
             <property role="1gZaPE" value="COVARIATE_FACTOR &lt;- COVARIATE_LINEAR_SLOPE/COVARIATE_UPPER_LIMIT" />
           </node>
-          <node concept="1gZcZf" id="6kVgbi6iItC" role="2G3XIn">
-            <property role="1gZaPE" value="TREATMENT &lt;- &quot;LPS&quot;" />
-          </node>
           <node concept="1gZcZf" id="6kVgbi6iItD" role="2G3XIn">
             <property role="1gZaPE" value="SAMPLE_NAME_PREFIX &lt;- &quot;sample&quot;" />
           </node>
@@ -482,9 +479,6 @@
                 </node>
               </node>
             </node>
-          </node>
-          <node concept="1gZcZf" id="6kVgbi6iItG" role="2G3XIn">
-            <property role="1gZaPE" value="ONE_TREATEMENT_EVERY_N &lt;- 10" />
           </node>
           <node concept="1gZcZf" id="6kVgbi6iWlj" role="2G3XIn">
             <property role="1gZaPE" value="" />
@@ -643,15 +637,6 @@
           <node concept="1gZcZf" id="6kVgbi6iIu2" role="2G3XIn">
             <property role="1gZaPE" value="    row &lt;- c(rpois(n=NUM_OF_SAMPLES,lambda = MEAN)) " />
           </node>
-          <node concept="1gZcZf" id="4lfKH_J0Geg" role="2G3XIn">
-            <property role="1gZaPE" value="    TREATMENT_DELTA &lt;- 0" />
-            <node concept="3_3kQU" id="4lfKH_J0KYK" role="3_3kQL">
-              <property role="3_3kQV" value="" />
-            </node>
-            <node concept="3_3kQU" id="4lfKH_J0Geh" role="3_3kQL">
-              <property role="3_3kQV" value="" />
-            </node>
-          </node>
           <node concept="1gZcZf" id="4lfKH_J0KYO" role="2G3XIn">
             <property role="1gZaPE" value="    GENE_NAME &lt;- paste(GENE_COLUMN_NAME,toString(gene_index),sep=&quot;_&quot;)" />
             <node concept="3_3kQU" id="4lfKH_J0KYP" role="3_3kQL">
@@ -660,6 +645,12 @@
           </node>
           <node concept="1gZcZf" id="6kVgbi6iIu7" role="2G3XIn">
             <property role="1gZaPE" value="    for (sample_index in 2:length(sampleNames)){    " />
+          </node>
+          <node concept="1gZcZf" id="4lfKH_J53Ed" role="2G3XIn">
+            <property role="1gZaPE" value="         TREATMENT_DELTA &lt;- 0 " />
+            <node concept="3_3kQU" id="4lfKH_J53Ee" role="3_3kQL">
+              <property role="3_3kQV" value="" />
+            </node>
           </node>
           <node concept="2G3XJi" id="4lfKH_J0ERB" role="2G3XIn">
             <property role="1gZaPE" value="" />
@@ -905,6 +896,15 @@
             <node concept="3_3kQU" id="4lfKH_ILeOR" role="3_3kQL">
               <property role="3_3kQV" value="&quot;,col.names = TRUE,row.names=FALSE,quote = FALSE, sep = &quot;\t&quot;)" />
             </node>
+          </node>
+        </node>
+        <node concept="1gZcZf" id="4lfKH_J0Geg" role="2G3XIn">
+          <property role="1gZaPE" value="    TREATMENT_DELTA &lt;- 0" />
+          <node concept="3_3kQU" id="4lfKH_J0KYK" role="3_3kQL">
+            <property role="3_3kQV" value="" />
+          </node>
+          <node concept="3_3kQU" id="4lfKH_J0Geh" role="3_3kQL">
+            <property role="3_3kQV" value="" />
           </node>
         </node>
         <node concept="1gZcZf" id="6kVgbi6iGUY" role="2G3XIn">
