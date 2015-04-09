@@ -61,6 +61,9 @@ public class QueriesGenerated {
   public static Object propertyMacro_GetPropertyValue_7294495165547992143(final PropertyMacroContext _context) {
     return Statement_Behavior.call_id_3007013211740741445(_context.getNode());
   }
+  public static Object propertyMacro_GetPropertyValue_4994424750904625309(final PropertyMacroContext _context) {
+    return Statement_Behavior.call_errorCatchingEnabled_2742007948304790371(_context.getNode());
+  }
   public static Object propertyMacro_GetPropertyValue_4994424750902392781(final PropertyMacroContext _context) {
     return SPropertyOperations.getString(_context.getNode(), MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name"));
   }
