@@ -14,6 +14,7 @@
       <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.metar.limma/org.campagnelab.metar.limma.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.metar.models/org.campagnelab.metar.models.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.styles/org.campagnelab.styles.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/DocModels/DocModels.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/MetaR.Workshop/MetaR.Workshop.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/Synovial/Synovial.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/Tests/Tests.msd" folder="" />
