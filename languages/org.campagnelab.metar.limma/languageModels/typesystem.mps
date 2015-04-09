@@ -10,6 +10,8 @@
     <import index="r88i" ref="r:769afbd7-9476-42d6-a27b-ed7cb561890f(org.campagnelab.metar.edgeR.typesystem)" />
     <import index="izt2" ref="r:b5f8abba-ade6-48ed-8b03-df617183a3f0(org.campagnelab.metar.edgeR.structure)" />
     <import index="jl4n" ref="r:a4155731-8795-49bc-afc5-bf36983f9c0c(org.campagnelab.metar.limma.structure)" implicit="true" />
+    <import index="qrzj" ref="r:33ebfe68-dd35-4984-bf5b-c6afb777446c(org.campagnelab.metar.models.structure)" implicit="true" />
+    <import index="l4h" ref="r:4312b8ca-043a-4ff3-907c-63e9f55eaa21(org.campagnelab.metar.models.behavior)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -29,6 +31,10 @@
       <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
       </concept>
+      <concept id="1068580320020" name="jetbrains.mps.baseLanguage.structure.IntegerConstant" flags="nn" index="3cmrfG">
+        <property id="1068580320021" name="value" index="3cmrfH" />
+      </concept>
+      <concept id="1081506773034" name="jetbrains.mps.baseLanguage.structure.LessThanExpression" flags="nn" index="3eOVzh" />
       <concept id="1204053956946" name="jetbrains.mps.baseLanguage.structure.IMethodCall" flags="ng" index="1ndlxa">
         <reference id="1068499141037" name="baseMethodDeclaration" index="37wK5l" />
         <child id="1068499141038" name="actualArgument" index="37wK5m" />
@@ -37,6 +43,7 @@
         <child id="1081773367579" name="rightExpression" index="3uHU7w" />
         <child id="1081773367580" name="leftExpression" index="3uHU7B" />
       </concept>
+      <concept id="1080120340718" name="jetbrains.mps.baseLanguage.structure.AndExpression" flags="nn" index="1Wc70l" />
     </language>
     <language id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" name="jetbrains.mps.lang.typesystem">
       <concept id="1175517767210" name="jetbrains.mps.lang.typesystem.structure.ReportErrorStatement" flags="nn" index="2MkqsV">
@@ -65,6 +72,9 @@
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
       <concept id="1179409122411" name="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" flags="nn" index="2qgKlT" />
+      <concept id="1138056022639" name="jetbrains.mps.lang.smodel.structure.SPropertyAccess" flags="nn" index="3TrcHB">
+        <reference id="1138056395725" name="property" index="3TsBF5" />
+      </concept>
       <concept id="1138056143562" name="jetbrains.mps.lang.smodel.structure.SLinkAccess" flags="nn" index="3TrEf2">
         <reference id="1138056516764" name="link" index="3Tt5mk" />
       </concept>
@@ -73,6 +83,9 @@
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
+    </language>
+    <language id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections">
+      <concept id="1162935959151" name="jetbrains.mps.baseLanguage.collections.structure.GetSizeOperation" flags="nn" index="34oBXx" />
     </language>
   </registry>
   <node concept="18kY7G" id="4ssfE$bEyIu">
@@ -108,6 +121,52 @@
               <node concept="Xl_RD" id="w5znaeVuif" role="37wK5m">
                 <property role="Xl_RC" value="counts" />
               </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3clFbJ" id="4bcN0BgrAQm" role="3cqZAp">
+        <node concept="3clFbS" id="4bcN0BgrAQo" role="3clFbx">
+          <node concept="2MkqsV" id="4bcN0BgrF$f" role="3cqZAp">
+            <node concept="1YBJjd" id="4bcN0BgrFEe" role="2OEOjV">
+              <ref role="1YBMHb" node="4ssfE$bEyIx" resolve="limmaVoom" />
+            </node>
+            <node concept="Xl_RD" id="4bcN0BgrF$u" role="2MkJ7o">
+              <property role="Xl_RC" value="The model must contain at least one covariate not used in contrasts (comparing attribute) to export adjusted counts " />
+            </node>
+            <node concept="2OE7Q9" id="4bcN0BgrFEP" role="2OEWyd">
+              <ref role="2OEe5H" to="qrzj:4ssfE$85c87" />
+            </node>
+          </node>
+        </node>
+        <node concept="1Wc70l" id="4bcN0BgrCyi" role="3clFbw">
+          <node concept="3eOVzh" id="4bcN0BgrFuY" role="3uHU7w">
+            <node concept="3cmrfG" id="4bcN0BgrFv1" role="3uHU7w">
+              <property role="3cmrfH" value="2" />
+            </node>
+            <node concept="2OqwBi" id="4bcN0BgrDLe" role="3uHU7B">
+              <node concept="2OqwBi" id="4bcN0BgrDrA" role="2Oq$k0">
+                <node concept="2OqwBi" id="4bcN0BgrCCj" role="2Oq$k0">
+                  <node concept="1YBJjd" id="4bcN0BgrC_3" role="2Oq$k0">
+                    <ref role="1YBMHb" node="4ssfE$bEyIx" resolve="limmaVoom" />
+                  </node>
+                  <node concept="3TrEf2" id="4bcN0BgrD7q" role="2OqNvi">
+                    <ref role="3Tt5mk" to="qrzj:4ssfE$85c87" />
+                  </node>
+                </node>
+                <node concept="2qgKlT" id="4bcN0BgrD_z" role="2OqNvi">
+                  <ref role="37wK5l" to="l4h:4ssfE$bsKvO" resolve="calculateGroupUsageNames" />
+                </node>
+              </node>
+              <node concept="34oBXx" id="4bcN0BgrEsw" role="2OqNvi" />
+            </node>
+          </node>
+          <node concept="2OqwBi" id="4bcN0BgrBgZ" role="3uHU7B">
+            <node concept="1YBJjd" id="4bcN0BgrARY" role="2Oq$k0">
+              <ref role="1YBMHb" node="4ssfE$bEyIx" resolve="limmaVoom" />
+            </node>
+            <node concept="3TrcHB" id="4bcN0BgrCcb" role="2OqNvi">
+              <ref role="3TsBF5" to="jl4n:4ssfE$9PSrH" resolve="exportAdjustedCounts" />
             </node>
           </node>
         </node>
