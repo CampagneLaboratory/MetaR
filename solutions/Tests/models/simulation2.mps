@@ -3,6 +3,15 @@
   <persistence version="9" />
   <languages>
     <use id="067d1b0c-daf1-44f9-9fbd-e1dd4c6e26e8" name="org.campagnelab.metar.simulation" version="-1" />
+    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="0" />
+    <use id="ed6d7656-532c-4bc2-81d1-af945aeb8280" name="jetbrains.mps.baseLanguage.blTypes" version="0" />
+    <use id="46803809-20ee-443f-bea9-0bee114b90b3" name="org.campagnelab.metar.edgeR" version="0" />
+    <use id="ecf91126-e504-4aae-8ee7-3192d64e77f6" name="org.campagnelab.mps.XChart.types" version="0" />
+    <use id="9ded098b-ad6a-4657-bfd9-48636cfe8bc3" name="jetbrains.mps.lang.traceable" version="0" />
+    <use id="4caf0310-491e-41f5-8a9b-2006b3a94898" name="jetbrains.mps.execution.util" version="0" />
+    <use id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures" version="0" />
+    <use id="901f5cf3-dc77-4c1e-bc5a-6382baee28b4" name="org.campagnelab.textoutput" version="0" />
+    <use id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections" version="0" />
     <devkit ref="8a3636fa-c6ec-4cb0-bc2a-b7143f2a4937(org.campagnelab.metaR)" />
   </languages>
   <imports>
@@ -37,7 +46,31 @@
         <child id="83573740311148783" name="treatments" index="2YSL4K" />
       </concept>
     </language>
+    <language id="46803809-20ee-443f-bea9-0bee114b90b3" name="org.campagnelab.metar.edgeR">
+      <concept id="8043901499795598502" name="org.campagnelab.metar.edgeR.structure.GroupExpression" flags="ng" index="30bs5H" />
+      <concept id="8725455673819917020" name="org.campagnelab.metar.edgeR.structure.GroupUsageExpression" flags="ng" index="3cpe5C" />
+      <concept id="8725455673819917021" name="org.campagnelab.metar.edgeR.structure.Plus" flags="ng" index="3cpe5D" />
+      <concept id="8725455673819916854" name="org.campagnelab.metar.edgeR.structure.GroupFormula" flags="ng" index="3cpe62">
+        <child id="8725455673819916858" name="groupExpression" index="3cpe6e" />
+      </concept>
+      <concept id="8725455673820460190" name="org.campagnelab.metar.edgeR.structure.NoIntercept" flags="ng" index="3cqNWE" />
+      <concept id="8725455673820336285" name="org.campagnelab.metar.edgeR.structure.BinaryExpression" flags="ng" index="3crlGD">
+        <child id="8725455673820336292" name="left" index="3crlGg" />
+        <child id="8725455673820336294" name="right" index="3crlGi" />
+      </concept>
+      <concept id="8725455673819557579" name="org.campagnelab.metar.edgeR.structure.EdgeRTest" flags="ng" index="3cumlZ">
+        <child id="8725455673819568087" name="countsTable" index="3cupLz" />
+        <child id="8725455673819577716" name="modelFormula" index="3curr0" />
+        <child id="8725455673819577719" name="destinationTable" index="3curr4" />
+        <child id="8725455673820913704" name="contrasts" index="3c_2Is" />
+        <child id="8725455673820830442" name="dispersionMethod" index="3c_H5u" />
+      </concept>
+      <concept id="8725455673820862642" name="org.campagnelab.metar.edgeR.structure.CommonDispersion" flags="ng" index="3c_lc6" />
+    </language>
     <language id="5d6bde84-4ce4-4eb5-a37e-25a5edd55129" name="org.campagnelab.metar.tables">
+      <concept id="4451133196879828915" name="org.campagnelab.metar.tables.structure.TableRef" flags="ng" index="afgQW">
+        <reference id="4451133196879830023" name="table" index="afgo8" />
+      </concept>
       <concept id="8031339867720116703" name="org.campagnelab.metar.tables.structure.UsageTypeRef" flags="ng" index="2y_Ijh">
         <reference id="8031339867720116704" name="usage" index="2y_IjI" />
       </concept>
@@ -102,7 +135,7 @@
         <property role="S1EQ6" value="FLSRUWBVJL" />
         <property role="8NYsT" value="false" />
         <property role="2Ym5z5" value="10" />
-        <property role="2Ym5Gb" value="5" />
+        <property role="2Ym5Gb" value="50" />
         <property role="2QJ4vL" value="5" />
         <node concept="3MlLWZ" id="4lfKH_IWQqp" role="2Ym92R">
           <property role="TrG5h" value="covariate" />
@@ -257,7 +290,7 @@
           <property role="TrG5h" value="age" />
           <property role="2Yo_Pe" value="1" />
           <property role="2Yo_Pd" value="36" />
-          <property role="FwheC" value="4" />
+          <property role="FwheC" value="10" />
         </node>
         <node concept="2QHcgp" id="4lfKH_IWQqO" role="2QHcwV">
           <node concept="2YSL4d" id="4lfKH_J4YVF" role="2QHcxs">
@@ -334,6 +367,56 @@
       </node>
       <node concept="S1EQe" id="4lfKH_J4YRj" role="ZXjPg">
         <property role="S1EQ6" value="VSUUCGWDAH" />
+      </node>
+      <node concept="3cumlZ" id="4lfKH_J91Bd" role="ZXjPg">
+        <property role="S1EQ6" value="ATQQFQSMWQ" />
+        <property role="8NYsT" value="false" />
+        <node concept="3MlLWZ" id="4lfKH_J91Bf" role="3curr4">
+          <property role="TrG5h" value="Results" />
+          <ref role="3MlLW5" node="4lfKH_J91Bg" resolve="Results" />
+          <node concept="3Mpm39" id="4lfKH_J91Bg" role="3WeD9t">
+            <property role="31Cu5t" value="&#9;" />
+            <property role="TrG5h" value="Results" />
+            <node concept="31JHg8" id="4lfKH_J91CH" role="31JHgj">
+              <property role="TrG5h" value="logFC" />
+              <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
+            </node>
+            <node concept="31JHg8" id="4lfKH_J91CI" role="31JHgj">
+              <property role="TrG5h" value="logCPM" />
+              <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
+            </node>
+            <node concept="31JHg8" id="4lfKH_J91CJ" role="31JHgj">
+              <property role="TrG5h" value="PValue" />
+              <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
+            </node>
+            <node concept="31JHg8" id="4lfKH_J91CK" role="31JHgj">
+              <property role="TrG5h" value="FDR" />
+              <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
+            </node>
+            <node concept="31JHg8" id="4lfKH_J91CL" role="31JHgj">
+              <property role="TrG5h" value="genes" />
+              <ref role="1YeEjl" to="9nc5:1ID5TXdv_9L" resolve="String" />
+              <node concept="3MzsTm" id="4lfKH_J91CM" role="lGtFl">
+                <node concept="3MzsBX" id="4lfKH_J91CN" role="3MztjM" />
+              </node>
+            </node>
+            <node concept="31JHg8" id="4lfKH_J91CO" role="31JHgj">
+              <property role="TrG5h" value="LR" />
+              <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
+            </node>
+          </node>
+        </node>
+        <node concept="3cpe62" id="4lfKH_J91Bh" role="3curr0">
+          <node concept="3cpe5D" id="4lfKH_J91Da" role="3cpe6e">
+            <node concept="3cpe5C" id="4lfKH_J91Dc" role="3crlGi" />
+            <node concept="3cqNWE" id="4lfKH_J91Bi" role="3crlGg" />
+          </node>
+        </node>
+        <node concept="3c_lc6" id="4lfKH_J91Bj" role="3c_H5u" />
+        <node concept="30bs5H" id="4lfKH_J91Bk" role="3c_2Is" />
+        <node concept="afgQW" id="4lfKH_J91CE" role="3cupLz">
+          <ref role="afgo8" node="4lfKH_IWQqx" resolve="simulate" />
+        </node>
       </node>
     </node>
   </node>
