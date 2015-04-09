@@ -1037,6 +1037,7 @@ public class QueriesGenerated {
       if (!(col.second().equalsIgnoreCase(col.third()))) {
         SNode line = SConceptOperations.createNewNode(SNodeOperations.asInstanceConcept(MetaAdapterFactory.getConcept(0x901f5cf3dc774c1eL, 0xbc5a6382baee28b4L, 0x4c3d6fa21cc1a06dL, "org.campagnelab.textoutput.structure.Line")));
         StringBuilder builder = new StringBuilder();
+        builder.append(col.first() + " <- ");
         builder.append("rename(").append(col.first());
         builder.append(", c(\"").append(col.second());
         builder.append("\"=\"").append(col.third()).append("\"))");
@@ -1083,6 +1084,7 @@ public class QueriesGenerated {
     for (Triplet<String, String, String> col : ListSequence.fromList(JoinTables_Behavior.call_getColumnsToRename_1069056208669412476(_context.getNode()))) {
       if (!(col.third().equalsIgnoreCase(col.second()))) {
         StringBuilder builder = new StringBuilder();
+        builder.append(col.first() + " <- ");
         builder.append("rename(").append(col.first());
         builder.append(", c(\"").append(col.third());
         builder.append("\"=\"").append(col.second()).append("\"))");
