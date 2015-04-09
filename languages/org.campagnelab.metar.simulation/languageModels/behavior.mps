@@ -175,23 +175,6 @@
         <child id="1199569916463" name="body" index="1bW5cS" />
       </concept>
     </language>
-    <language id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc">
-      <concept id="5858074156537516430" name="jetbrains.mps.baseLanguage.javadoc.structure.ReturnBlockDocTag" flags="ng" index="x79VA">
-        <property id="5858074156537516431" name="text" index="x79VB" />
-      </concept>
-      <concept id="5349172909345501395" name="jetbrains.mps.baseLanguage.javadoc.structure.BaseDocComment" flags="ng" index="P$AiS">
-        <child id="8465538089690331502" name="body" index="TZ5H$" />
-      </concept>
-      <concept id="5349172909345532724" name="jetbrains.mps.baseLanguage.javadoc.structure.MethodDocComment" flags="ng" index="P$JXv">
-        <child id="5858074156537516440" name="return" index="x79VK" />
-      </concept>
-      <concept id="8465538089690331500" name="jetbrains.mps.baseLanguage.javadoc.structure.CommentLine" flags="ng" index="TZ5HA">
-        <child id="8970989240999019149" name="part" index="1dT_Ay" />
-      </concept>
-      <concept id="8970989240999019143" name="jetbrains.mps.baseLanguage.javadoc.structure.TextCommentLinePart" flags="ng" index="1dT_AC">
-        <property id="8970989240999019144" name="text" index="1dT_AB" />
-      </concept>
-    </language>
     <language id="760a0a8c-eabb-4521-8bfd-65db761a9ba3" name="jetbrains.mps.baseLanguage.logging">
       <concept id="1167227138527" name="jetbrains.mps.baseLanguage.logging.structure.LogStatement" flags="nn" index="34ab3g">
         <property id="1167245565795" name="severity" index="35gtTG" />
@@ -237,9 +220,6 @@
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
-      <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
-        <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
-      </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
@@ -273,15 +253,6 @@
       <concept id="1162934736510" name="jetbrains.mps.baseLanguage.collections.structure.GetElementOperation" flags="nn" index="34jXtK" />
       <concept id="1162935959151" name="jetbrains.mps.baseLanguage.collections.structure.GetSizeOperation" flags="nn" index="34oBXx" />
       <concept id="1240325842691" name="jetbrains.mps.baseLanguage.collections.structure.AsSequenceOperation" flags="nn" index="39bAoz" />
-      <concept id="1197683403723" name="jetbrains.mps.baseLanguage.collections.structure.MapType" flags="in" index="3rvAFt">
-        <child id="1197683466920" name="keyType" index="3rvQeY" />
-        <child id="1197683475734" name="valueType" index="3rvSg0" />
-      </concept>
-      <concept id="1197686869805" name="jetbrains.mps.baseLanguage.collections.structure.HashMapCreator" flags="nn" index="3rGOSV">
-        <child id="1562299158921034623" name="initSize" index="3lNPQL" />
-        <child id="1197687026896" name="keyType" index="3rHrn6" />
-        <child id="1197687035757" name="valueType" index="3rHtpV" />
-      </concept>
       <concept id="1165525191778" name="jetbrains.mps.baseLanguage.collections.structure.GetFirstOperation" flags="nn" index="1uHKPH" />
       <concept id="1240687580870" name="jetbrains.mps.baseLanguage.collections.structure.JoinOperation" flags="nn" index="3uJxvA">
         <child id="1240687658305" name="delimiter" index="3uJOhx" />
@@ -289,10 +260,6 @@
       <concept id="1225727723840" name="jetbrains.mps.baseLanguage.collections.structure.FindFirstOperation" flags="nn" index="1z4cxt" />
       <concept id="1202120902084" name="jetbrains.mps.baseLanguage.collections.structure.WhereOperation" flags="nn" index="3zZkjj" />
       <concept id="1202128969694" name="jetbrains.mps.baseLanguage.collections.structure.SelectOperation" flags="nn" index="3$u5V9" />
-      <concept id="1197932370469" name="jetbrains.mps.baseLanguage.collections.structure.MapElement" flags="nn" index="3EllGN">
-        <child id="1197932505799" name="map" index="3ElQJh" />
-        <child id="1197932525128" name="key" index="3ElVtu" />
-      </concept>
     </language>
   </registry>
   <node concept="13h7C7" id="2734ievAyU4">
@@ -1642,127 +1609,6 @@
         </node>
       </node>
     </node>
-    <node concept="13i0hz" id="4lfKH_IPXPJ" role="13h7CS">
-      <property role="TrG5h" value="buildGeneLists" />
-      <node concept="3Tm1VV" id="4lfKH_IWVbc" role="1B3o_S" />
-      <node concept="3rvAFt" id="4lfKH_IWUSf" role="3clF45">
-        <node concept="17QB3L" id="4lfKH_IWUXu" role="3rvQeY" />
-        <node concept="10Q1$e" id="4lfKH_IWV6z" role="3rvSg0">
-          <node concept="10Oyi0" id="4lfKH_IWV20" role="10Q1$1" />
-        </node>
-      </node>
-      <node concept="3clFbS" id="4lfKH_IPXPM" role="3clF47">
-        <node concept="3cpWs8" id="4lfKH_IWVDc" role="3cqZAp">
-          <node concept="3cpWsn" id="4lfKH_IWVDf" role="3cpWs9">
-            <property role="TrG5h" value="geneLists" />
-            <node concept="3rvAFt" id="4lfKH_IWVD6" role="1tU5fm">
-              <node concept="17QB3L" id="4lfKH_IWVJi" role="3rvQeY" />
-              <node concept="10Q1$e" id="4lfKH_IWVKd" role="3rvSg0">
-                <node concept="10Oyi0" id="4lfKH_IWVJJ" role="10Q1$1" />
-              </node>
-            </node>
-            <node concept="2ShNRf" id="4lfKH_IWVOK" role="33vP2m">
-              <node concept="3rGOSV" id="4lfKH_IWX3C" role="2ShVmc">
-                <node concept="17QB3L" id="4lfKH_IWXf0" role="3rHrn6" />
-                <node concept="10Q1$e" id="4lfKH_IWXou" role="3rHtpV">
-                  <node concept="10Oyi0" id="4lfKH_IWXjE" role="10Q1$1" />
-                </node>
-                <node concept="2OqwBi" id="4lfKH_IWZm5" role="3lNPQL">
-                  <node concept="2OqwBi" id="4lfKH_IWXV3" role="2Oq$k0">
-                    <node concept="13iPFW" id="4lfKH_IWXQZ" role="2Oq$k0" />
-                    <node concept="3Tsc0h" id="4lfKH_IWYlo" role="2OqNvi">
-                      <ref role="3TtcxE" to="hgbr:2734ievAQvk" />
-                    </node>
-                  </node>
-                  <node concept="34oBXx" id="4lfKH_IX44O" role="2OqNvi" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="4lfKH_IWRhW" role="3cqZAp">
-          <node concept="2OqwBi" id="4lfKH_IWRhX" role="3clFbG">
-            <node concept="2OqwBi" id="4lfKH_IWRhY" role="2Oq$k0">
-              <node concept="13iPFW" id="4lfKH_IWRhZ" role="2Oq$k0" />
-              <node concept="3Tsc0h" id="4lfKH_IWRi0" role="2OqNvi">
-                <ref role="3TtcxE" to="hgbr:2734ievAQvk" />
-              </node>
-            </node>
-            <node concept="2es0OD" id="4lfKH_IWRi1" role="2OqNvi">
-              <node concept="1bVj0M" id="4lfKH_IWRi2" role="23t8la">
-                <node concept="3clFbS" id="4lfKH_IWRi3" role="1bW5cS">
-                  <node concept="3cpWs8" id="4lfKH_IWRie" role="3cqZAp">
-                    <node concept="3cpWsn" id="4lfKH_IWRif" role="3cpWs9">
-                      <property role="TrG5h" value="affectedGeneIndexes" />
-                      <node concept="10Q1$e" id="4lfKH_IWRig" role="1tU5fm">
-                        <node concept="10Oyi0" id="4lfKH_IWRih" role="10Q1$1" />
-                      </node>
-                      <node concept="2YIFZM" id="4lfKH_IWRii" role="33vP2m">
-                        <ref role="1Pybhc" to="8m2y:4CUtYZLQYD" resolve="IndexGenerator" />
-                        <ref role="37wK5l" to="8m2y:4lfKH_IThjp" resolve="generateUniform" />
-                        <node concept="2OqwBi" id="4lfKH_IWRij" role="37wK5m">
-                          <node concept="13iPFW" id="4lfKH_IWRik" role="2Oq$k0" />
-                          <node concept="3TrcHB" id="4lfKH_IWTCG" role="2OqNvi">
-                            <ref role="3TsBF5" to="hgbr:2734ievAOCC" resolve="numOfGenes" />
-                          </node>
-                        </node>
-                        <node concept="2OqwBi" id="4lfKH_IWRim" role="37wK5m">
-                          <node concept="37vLTw" id="4lfKH_IWRin" role="2Oq$k0">
-                            <ref role="3cqZAo" node="4lfKH_IWRiV" resolve="group" />
-                          </node>
-                          <node concept="3TrcHB" id="4lfKH_IWU1D" role="2OqNvi">
-                            <ref role="3TsBF5" to="hgbr:7hF4JJ2OOEk" resolve="percentageOfAffectedGenes" />
-                          </node>
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                  <node concept="3clFbF" id="4lfKH_IX4Pt" role="3cqZAp">
-                    <node concept="37vLTI" id="4lfKH_IX6jo" role="3clFbG">
-                      <node concept="37vLTw" id="4lfKH_IX6pW" role="37vLTx">
-                        <ref role="3cqZAo" node="4lfKH_IWRif" resolve="affectedGeneIndexes" />
-                      </node>
-                      <node concept="3EllGN" id="4lfKH_IX57h" role="37vLTJ">
-                        <node concept="2OqwBi" id="4lfKH_IX5iM" role="3ElVtu">
-                          <node concept="37vLTw" id="4lfKH_IX5cU" role="2Oq$k0">
-                            <ref role="3cqZAo" node="4lfKH_IWRiV" resolve="group" />
-                          </node>
-                          <node concept="3TrcHB" id="4lfKH_IX5N3" role="2OqNvi">
-                            <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
-                          </node>
-                        </node>
-                        <node concept="37vLTw" id="4lfKH_IX4Pr" role="3ElQJh">
-                          <ref role="3cqZAo" node="4lfKH_IWVDf" resolve="geneLists" />
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                </node>
-                <node concept="Rh6nW" id="4lfKH_IWRiV" role="1bW2Oz">
-                  <property role="TrG5h" value="group" />
-                  <node concept="2jxLKc" id="4lfKH_IWRiW" role="1tU5fm" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="4lfKH_IX4fz" role="3cqZAp">
-          <node concept="37vLTw" id="4lfKH_IX4fx" role="3clFbG">
-            <ref role="3cqZAo" node="4lfKH_IWVDf" resolve="geneLists" />
-          </node>
-        </node>
-      </node>
-      <node concept="P$JXv" id="4lfKH_IWVeG" role="lGtFl">
-        <node concept="TZ5HA" id="4lfKH_IWVeH" role="TZ5H$">
-          <node concept="1dT_AC" id="4lfKH_IWVeI" role="1dT_Ay">
-            <property role="1dT_AB" value="" />
-          </node>
-        </node>
-        <node concept="x79VA" id="4lfKH_IWVeJ" role="x79VK">
-          <property role="x79VB" value="a map with the indexes of the affected genes for each treatment" />
-        </node>
-      </node>
-    </node>
     <node concept="13i0hz" id="6kVgbi6iQsJ" role="13h7CS">
       <property role="TrG5h" value="geneColumnName" />
       <node concept="3Tm1VV" id="6kVgbi6iQsK" role="1B3o_S" />
@@ -2341,6 +2187,20 @@
         <node concept="10Oyi0" id="L8UVRxJwsh" role="10Q1$1" />
       </node>
       <node concept="3clFbS" id="L8UVRxJvDA" role="3clF47">
+        <node concept="34ab3g" id="4lfKH_J2dMt" role="3cqZAp">
+          <property role="35gtTG" value="info" />
+          <node concept="3cpWs3" id="4lfKH_J2e5W" role="34bqiv">
+            <node concept="2OqwBi" id="4lfKH_J2ebr" role="3uHU7w">
+              <node concept="13iPFW" id="4lfKH_J2e6Q" role="2Oq$k0" />
+              <node concept="3TrcHB" id="4lfKH_J2en$" role="2OqNvi">
+                <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+              </node>
+            </node>
+            <node concept="Xl_RD" id="4lfKH_J2dMv" role="3uHU7B">
+              <property role="Xl_RC" value="Generate affected genes for: " />
+            </node>
+          </node>
+        </node>
         <node concept="3clFbF" id="L8UVRxJKyv" role="3cqZAp">
           <node concept="2YIFZM" id="L8UVRxJJMz" role="3clFbG">
             <ref role="1Pybhc" to="8m2y:4CUtYZLQYD" resolve="IndexGenerator" />
