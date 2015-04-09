@@ -422,7 +422,7 @@
                 <property role="Xl_RC" value="Total" />
               </node>
               <node concept="3$Gm2I" id="4ssfE$b37hF" role="3uHU7B">
-                <ref role="3$Gm2J" to="sbif:4$IC3Kj1JT8" resolve="gene" />
+                <ref role="3$Gm2J" node="4$IC3Kj1JT8" resolve="gene" />
               </node>
             </node>
           </node>
