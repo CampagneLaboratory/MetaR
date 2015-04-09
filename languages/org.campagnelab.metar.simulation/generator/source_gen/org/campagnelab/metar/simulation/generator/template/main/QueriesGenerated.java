@@ -14,6 +14,11 @@ import jetbrains.mps.internal.collections.runtime.ISelector;
 import org.jetbrains.mps.openapi.model.SNode;
 import org.campagnelab.metar.tables.behavior.FutureTable_Behavior;
 import org.campagnelab.metar.tables.behavior.Statement_Behavior;
+import jetbrains.mps.internal.collections.runtime.Sequence;
+import jetbrains.mps.internal.collections.runtime.ArrayUtils;
+import org.campagnelab.metar.simulation.behavior.DiscreteGroup_Behavior;
+import jetbrains.mps.generator.template.TemplateQueryContext;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.generator.template.SourceSubstituteMacroNodesContext;
 
 @Generated
@@ -60,7 +65,14 @@ public class QueriesGenerated {
     return SPropertyOperations.getString(_context.getNode(), MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name"));
   }
   public static Object propertyMacro_GetPropertyValue_4994424750902394600(final PropertyMacroContext _context) {
-    return "TODO";
+    return IterableUtils.join(Sequence.fromIterable(ArrayUtils.fromIntegerArray(DiscreteGroup_Behavior.call_buildAffectedGeneList_885216527546972771(_context.getNode(), ((Integer) _context.getVariable("numOfGenes"))))).select(new ISelector<Integer, String>() {
+      public String select(Integer it) {
+        return Integer.toString(it);
+      }
+    }), ",");
+  }
+  public static Object templateArgumentQuery_885216527547016965(final TemplateQueryContext _context) {
+    return SPropertyOperations.getInteger(SNodeOperations.getNodeAncestor(_context.getNode(), MetaAdapterFactory.getConcept(0x67d1b0cdaf144f9L, 0x9fbde1dd4c6e26e8L, 0x21c311239f9a2e7eL, "org.campagnelab.metar.simulation.structure.SimulateDataset"), false, false), MetaAdapterFactory.getProperty(0x67d1b0cdaf144f9L, 0x9fbde1dd4c6e26e8L, 0x21c311239f9a2e7eL, 0x21c311239f9b4a28L, "numOfGenes"));
   }
   public static Iterable<SNode> sourceNodesQuery_4994424750902391092(final SourceSubstituteMacroNodesContext _context) {
     return SLinkOperations.getChildren(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x67d1b0cdaf144f9L, 0x9fbde1dd4c6e26e8L, 0x21c311239f9a2e7eL, 0x21c311239f9b67d4L, "discreteGroups"));
