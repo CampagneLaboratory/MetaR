@@ -306,7 +306,7 @@
             </node>
           </node>
           <node concept="1gZcZf" id="6kVgbi6iIt$" role="2G3XIn">
-            <property role="1gZaPE" value="TREATMENT_DELTA &lt;- 100" />
+            <property role="1gZaPE" value="TREATMENT_FACTOR &lt;- 10" />
           </node>
           <node concept="1gZcZf" id="6kVgbi6iIt_" role="2G3XIn">
             <node concept="3_3kQU" id="6kVgbi6iLx6" role="3_3kQL">
@@ -643,59 +643,152 @@
           <node concept="1gZcZf" id="6kVgbi6iIu2" role="2G3XIn">
             <property role="1gZaPE" value="    row &lt;- c(rpois(n=NUM_OF_SAMPLES,lambda = MEAN)) " />
           </node>
-          <node concept="2G3XJi" id="4lfKH_IYvCH" role="2G3XIn">
-            <property role="1gZaPE" value="" />
-            <node concept="1gZcZf" id="4lfKH_IYvCJ" role="2G3XIn">
-              <property role="1gZaPE" value="    for (j in 1:length(treatment_names) ) {" />
+          <node concept="1gZcZf" id="4lfKH_J0Geg" role="2G3XIn">
+            <property role="1gZaPE" value="    TREATMENT_DELTA &lt;- 0" />
+            <node concept="3_3kQU" id="4lfKH_J0KYK" role="3_3kQL">
+              <property role="3_3kQV" value="" />
             </node>
-            <node concept="1gZcZf" id="4lfKH_IYvCK" role="2G3XIn">
-              <property role="1gZaPE" value="       name &lt;- treatment_names[j]  " />
-            </node>
-          </node>
-          <node concept="1gZcZf" id="4lfKH_IYvcx" role="2G3XIn">
-            <property role="1gZaPE" value="     }" />
-            <node concept="3_3kQU" id="4lfKH_IYvcy" role="3_3kQL">
+            <node concept="3_3kQU" id="4lfKH_J0Geh" role="3_3kQL">
               <property role="3_3kQV" value="" />
             </node>
           </node>
-          <node concept="1gZcZf" id="6kVgbi6iIu3" role="2G3XIn">
-            <property role="1gZaPE" value="    if(gene_index%%ONE_TREATEMENT_EVERY_N == 0) " />
-          </node>
-          <node concept="1gZcZf" id="6kVgbi6iIu4" role="2G3XIn">
-            <property role="1gZaPE" value="      A[gene_index,1] &lt;- paste(GENE_COLUMN_NAME,toString(gene_index),TREATMENT,sep=&quot;_&quot;)" />
-          </node>
-          <node concept="1gZcZf" id="6kVgbi6iIu5" role="2G3XIn">
-            <property role="1gZaPE" value="    else " />
-          </node>
-          <node concept="1gZcZf" id="6kVgbi6iIu6" role="2G3XIn">
-            <property role="1gZaPE" value="      A[gene_index,1] &lt;- paste(GENE_COLUMN_NAME,toString(gene_index),sep=&quot;_&quot;)   " />
+          <node concept="1gZcZf" id="4lfKH_J0KYO" role="2G3XIn">
+            <property role="1gZaPE" value="    GENE_NAME &lt;- paste(GENE_COLUMN_NAME,toString(gene_index),sep=&quot;_&quot;)" />
+            <node concept="3_3kQU" id="4lfKH_J0KYP" role="3_3kQL">
+              <property role="3_3kQV" value="" />
+            </node>
           </node>
           <node concept="1gZcZf" id="6kVgbi6iIu7" role="2G3XIn">
             <property role="1gZaPE" value="    for (sample_index in 2:length(sampleNames)){    " />
           </node>
-          <node concept="1gZcZf" id="6kVgbi6iIu8" role="2G3XIn">
-            <property role="1gZaPE" value="      #add delta age" />
+          <node concept="2G3XJi" id="4lfKH_J0ERB" role="2G3XIn">
+            <property role="1gZaPE" value="" />
+            <node concept="1gZcZf" id="4lfKH_J0ERD" role="2G3XIn">
+              <property role="1gZaPE" value="         for (j in 1:length(treatment_names) ) {" />
+            </node>
+            <node concept="1gZcZf" id="4lfKH_J0ERE" role="2G3XIn">
+              <property role="1gZaPE" value="           treatment_name &lt;- treatment_names[j]          " />
+            </node>
+            <node concept="1gZcZf" id="4lfKH_J0GG6" role="2G3XIn">
+              <property role="1gZaPE" value="           # if the sample has been treated and if the gene_index is in the treatment's index list" />
+              <node concept="3_3kQU" id="4lfKH_J0GG7" role="3_3kQL">
+                <property role="3_3kQV" value="" />
+              </node>
+            </node>
+            <node concept="1gZcZf" id="4lfKH_J0GF8" role="2G3XIn">
+              <property role="1gZaPE" value="           if ((grepl(treatment_name,c(sampleNames[sample_index]),fixed = TRUE)) &amp;&amp;  " />
+              <node concept="3_3kQU" id="4lfKH_J36wy" role="3_3kQL">
+                <property role="3_3kQV" value="" />
+              </node>
+              <node concept="3_3kQU" id="4lfKH_J0GG0" role="3_3kQL">
+                <property role="3_3kQV" value="" />
+              </node>
+              <node concept="3_3kQU" id="4lfKH_J0GFE" role="3_3kQL">
+                <property role="3_3kQV" value="" />
+              </node>
+              <node concept="3_3kQU" id="4lfKH_J0GFh" role="3_3kQL">
+                <property role="3_3kQV" value="" />
+              </node>
+              <node concept="3_3kQU" id="4lfKH_J0GF9" role="3_3kQL">
+                <property role="3_3kQV" value="" />
+              </node>
+            </node>
+            <node concept="1gZcZf" id="4lfKH_J36wD" role="2G3XIn">
+              <property role="1gZaPE" value="              (is.element(gene_index,treatments[[treatment_name]]))) {" />
+              <node concept="3_3kQU" id="4lfKH_J36xV" role="3_3kQL">
+                <property role="3_3kQV" value="" />
+              </node>
+              <node concept="3_3kQU" id="4lfKH_J36wE" role="3_3kQL">
+                <property role="3_3kQV" value="" />
+              </node>
+            </node>
+            <node concept="1gZcZf" id="4lfKH_J36xZ" role="2G3XIn">
+              <property role="1gZaPE" value="              TREATMENT_DELTA &lt;- TREATMENT_DELTA + TREATMENT_FACTOR " />
+              <node concept="3_3kQU" id="4lfKH_J36y0" role="3_3kQL">
+                <property role="3_3kQV" value="" />
+              </node>
+            </node>
+            <node concept="1gZcZf" id="4lfKH_J0KWU" role="2G3XIn">
+              <property role="1gZaPE" value="              if (!(grepl(treatment_name,c(GENE_NAME),fixed = TRUE))) { " />
+              <node concept="3_3kQU" id="4lfKH_J0KXJ" role="3_3kQL">
+                <property role="3_3kQV" value="" />
+              </node>
+              <node concept="3_3kQU" id="4lfKH_J0KXh" role="3_3kQL">
+                <property role="3_3kQV" value="" />
+              </node>
+              <node concept="3_3kQU" id="4lfKH_J0KWV" role="3_3kQL">
+                <property role="3_3kQV" value="" />
+              </node>
+            </node>
+            <node concept="1gZcZf" id="4lfKH_J0MVW" role="2G3XIn">
+              <property role="1gZaPE" value="                 #add treatment to gene name to better identify the genes affected by the treatment" />
+              <node concept="3_3kQU" id="4lfKH_J0MVX" role="3_3kQL">
+                <property role="3_3kQV" value="" />
+              </node>
+            </node>
+            <node concept="1gZcZf" id="4lfKH_J0MVf" role="2G3XIn">
+              <property role="1gZaPE" value="                 GENE_NAME &lt;- paste(GENE_NAME,treatment_name,sep=&quot;_&quot;)" />
+              <node concept="3_3kQU" id="4lfKH_J0MVg" role="3_3kQL">
+                <property role="3_3kQV" value="" />
+              </node>
+            </node>
+            <node concept="1gZcZf" id="4lfKH_J0KXl" role="2G3XIn">
+              <property role="1gZaPE" value="              }" />
+              <node concept="3_3kQU" id="4lfKH_J0KXm" role="3_3kQL">
+                <property role="3_3kQV" value="" />
+              </node>
+            </node>
+            <node concept="1gZcZf" id="4lfKH_J0GFl" role="2G3XIn">
+              <property role="1gZaPE" value="           }" />
+              <node concept="3_3kQU" id="4lfKH_J0GF_" role="3_3kQL">
+                <property role="3_3kQV" value="" />
+              </node>
+              <node concept="3_3kQU" id="4lfKH_J0GFx" role="3_3kQL">
+                <property role="3_3kQV" value="" />
+              </node>
+              <node concept="3_3kQU" id="4lfKH_J0GFm" role="3_3kQL">
+                <property role="3_3kQV" value="" />
+              </node>
+            </node>
+            <node concept="2G3XJi" id="4lfKH_J0Lsr" role="2G3XIn">
+              <property role="1gZaPE" value="" />
+              <node concept="1gZcZf" id="4lfKH_J0Lss" role="2G3XIn">
+                <property role="1gZaPE" value="" />
+              </node>
+              <node concept="1gZcZf" id="4lfKH_J0Lst" role="2G3XIn">
+                <property role="1gZaPE" value="          #add covariate delta                                                                                        " />
+              </node>
+              <node concept="1gZcZf" id="4lfKH_J0Lsu" role="2G3XIn">
+                <property role="1gZaPE" value="         COVARIATE_DELTA &lt;- sampleAges[sample_index-1] * COVARIATE_FACTOR                                      " />
+              </node>
+              <node concept="1gZcZf" id="4lfKH_J0Lsv" role="2G3XIn">
+                <property role="1gZaPE" value="                                                                                                           " />
+              </node>
+              <node concept="1gZcZf" id="4lfKH_J0Lsw" role="2G3XIn">
+                <property role="1gZaPE" value="         A[gene_index,sample_index] &lt;- round(row[sample_index-1]  + TREATMENT_DELTA + COVARIATE_DELTA, digit=0)                                      " />
+              </node>
+            </node>
+            <node concept="1gZcZf" id="4lfKH_J0ERF" role="2G3XIn">
+              <property role="1gZaPE" value="" />
+            </node>
+            <node concept="1gZcZf" id="4lfKH_J0ERG" role="2G3XIn">
+              <property role="1gZaPE" value="     }                                       " />
+            </node>
           </node>
-          <node concept="1gZcZf" id="6kVgbi6iIu9" role="2G3XIn">
-            <property role="1gZaPE" value="      COVARIATE_DELTA &lt;- sampleAges[sample_index-1] * COVARIATE_FACTOR" />
+          <node concept="1gZcZf" id="4lfKH_J0DXD" role="2G3XIn">
+            <property role="1gZaPE" value="     A[gene_index,1] &lt;- GENE_NAME" />
+            <node concept="3_3kQU" id="4lfKH_J0Mtv" role="3_3kQL">
+              <property role="3_3kQV" value="" />
+            </node>
+            <node concept="3_3kQU" id="4lfKH_J0DXE" role="3_3kQL">
+              <property role="3_3kQV" value="" />
+            </node>
           </node>
-          <node concept="1gZcZf" id="6kVgbi6iIua" role="2G3XIn">
-            <property role="1gZaPE" value="      #if TREATMENT=YES and gene affected (one every 10 genes), add also delta TREATMENT" />
-          </node>
-          <node concept="1gZcZf" id="6kVgbi6iIub" role="2G3XIn">
-            <property role="1gZaPE" value="      if(grepl(TREATMENT,c(sampleNames[sample_index]),fixed = TRUE) &amp; (gene_index%%ONE_TREATEMENT_EVERY_N == 0) ) {" />
-          </node>
-          <node concept="1gZcZf" id="6kVgbi6iIuc" role="2G3XIn">
-            <property role="1gZaPE" value="        A[gene_index,sample_index] &lt;- round(row[sample_index-1]  + TREATMENT_DELTA + COVARIATE_DELTA, digit=0)" />
-          </node>
-          <node concept="1gZcZf" id="6kVgbi6iIud" role="2G3XIn">
-            <property role="1gZaPE" value="      } else {" />
-          </node>
-          <node concept="1gZcZf" id="6kVgbi6iIue" role="2G3XIn">
-            <property role="1gZaPE" value="        A[gene_index,sample_index] &lt;- round(row[sample_index-1] + COVARIATE_DELTA, digit=0)   " />
-          </node>
-          <node concept="1gZcZf" id="6kVgbi6iIuf" role="2G3XIn">
-            <property role="1gZaPE" value="      } " />
+          <node concept="1gZcZf" id="4lfKH_J0Mtz" role="2G3XIn">
+            <property role="1gZaPE" value="" />
+            <node concept="3_3kQU" id="4lfKH_J0Mt$" role="3_3kQL">
+              <property role="3_3kQV" value="" />
+            </node>
           </node>
           <node concept="1gZcZf" id="6kVgbi6iIug" role="2G3XIn">
             <property role="1gZaPE" value="    }      " />
