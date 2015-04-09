@@ -36,13 +36,7 @@
       <concept id="1145552977093" name="jetbrains.mps.baseLanguage.structure.GenericNewExpression" flags="nn" index="2ShNRf">
         <child id="1145553007750" name="creator" index="2ShVmc" />
       </concept>
-      <concept id="1070475926800" name="jetbrains.mps.baseLanguage.structure.StringLiteral" flags="nn" index="Xl_RD">
-        <property id="1070475926801" name="value" index="Xl_RC" />
-      </concept>
       <concept id="1081236700938" name="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" flags="ig" index="2YIFZL" />
-      <concept id="1081236700937" name="jetbrains.mps.baseLanguage.structure.StaticMethodCall" flags="nn" index="2YIFZM">
-        <reference id="1144433194310" name="classConcept" index="1Pybhc" />
-      </concept>
       <concept id="1070534370425" name="jetbrains.mps.baseLanguage.structure.IntegerType" flags="in" index="10Oyi0" />
       <concept id="1070534513062" name="jetbrains.mps.baseLanguage.structure.DoubleType" flags="in" index="10P55v" />
       <concept id="1070534760951" name="jetbrains.mps.baseLanguage.structure.ArrayType" flags="in" index="10Q1$e">
@@ -84,7 +78,6 @@
       <concept id="1068580320020" name="jetbrains.mps.baseLanguage.structure.IntegerConstant" flags="nn" index="3cmrfG">
         <property id="1068580320021" name="value" index="3cmrfH" />
       </concept>
-      <concept id="1068581242875" name="jetbrains.mps.baseLanguage.structure.PlusExpression" flags="nn" index="3cpWs3" />
       <concept id="1068581242878" name="jetbrains.mps.baseLanguage.structure.ReturnStatement" flags="nn" index="3cpWs6">
         <child id="1068581517676" name="expression" index="3cqZAk" />
       </concept>
@@ -165,12 +158,6 @@
         <property id="8970989240999019144" name="text" index="1dT_AB" />
       </concept>
     </language>
-    <language id="760a0a8c-eabb-4521-8bfd-65db761a9ba3" name="jetbrains.mps.baseLanguage.logging">
-      <concept id="1167227138527" name="jetbrains.mps.baseLanguage.logging.structure.LogStatement" flags="nn" index="34ab3g">
-        <property id="1167245565795" name="severity" index="35gtTG" />
-        <child id="1167227463056" name="logExpression" index="34bqiv" />
-      </concept>
-    </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
         <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
@@ -227,21 +214,6 @@
             </node>
           </node>
         </node>
-        <node concept="34ab3g" id="L8UVRxLqlc" role="3cqZAp">
-          <property role="35gtTG" value="info" />
-          <node concept="3cpWs3" id="L8UVRxLqld" role="34bqiv">
-            <node concept="2YIFZM" id="L8UVRxLqle" role="3uHU7w">
-              <ref role="1Pybhc" to="e2lb:~Double" resolve="Double" />
-              <ref role="37wK5l" to="e2lb:~Double.toString(double):java.lang.String" resolve="toString" />
-              <node concept="37vLTw" id="L8UVRxLqtA" role="37wK5m">
-                <ref role="3cqZAo" node="4lfKH_IToTt" resolve="p" />
-              </node>
-            </node>
-            <node concept="Xl_RD" id="L8UVRxLqlg" role="3uHU7B">
-              <property role="Xl_RC" value="Perc: " />
-            </node>
-          </node>
-        </node>
         <node concept="3SKdUt" id="4lfKH_IVtAl" role="3cqZAp">
           <node concept="3SKdUq" id="4lfKH_IVtJ7" role="3SKWNk">
             <property role="3SKdUp" value="we use a set to avoid duplicates" />
@@ -269,35 +241,6 @@
         </node>
         <node concept="1Dw8fO" id="4lfKH_ITmg7" role="3cqZAp">
           <node concept="3clFbS" id="4lfKH_ITmg9" role="2LFqv$">
-            <node concept="3cpWs8" id="L8UVRxLpdU" role="3cqZAp">
-              <node concept="3cpWsn" id="L8UVRxLpdX" role="3cpWs9">
-                <property role="TrG5h" value="d" />
-                <node concept="10P55v" id="L8UVRxLpdS" role="1tU5fm" />
-                <node concept="2OqwBi" id="L8UVRxLpiM" role="33vP2m">
-                  <node concept="37vLTw" id="L8UVRxLphI" role="2Oq$k0">
-                    <ref role="3cqZAo" node="4lfKH_ITnJo" resolve="random" />
-                  </node>
-                  <node concept="liA8E" id="L8UVRxLpwo" role="2OqNvi">
-                    <ref role="37wK5l" to="k7g3:~Random.nextDouble():double" resolve="nextDouble" />
-                  </node>
-                </node>
-              </node>
-            </node>
-            <node concept="34ab3g" id="L8UVRxLp$I" role="3cqZAp">
-              <property role="35gtTG" value="info" />
-              <node concept="3cpWs3" id="L8UVRxLpZC" role="34bqiv">
-                <node concept="2YIFZM" id="L8UVRxLq3x" role="3uHU7w">
-                  <ref role="37wK5l" to="e2lb:~Double.toString(double):java.lang.String" resolve="toString" />
-                  <ref role="1Pybhc" to="e2lb:~Double" resolve="Double" />
-                  <node concept="37vLTw" id="L8UVRxLq6B" role="37wK5m">
-                    <ref role="3cqZAo" node="L8UVRxLpdX" resolve="d" />
-                  </node>
-                </node>
-                <node concept="Xl_RD" id="L8UVRxLp$K" role="3uHU7B">
-                  <property role="Xl_RC" value="Next selected: " />
-                </node>
-              </node>
-            </node>
             <node concept="3clFbJ" id="4lfKH_ITnVb" role="3cqZAp">
               <node concept="3clFbS" id="4lfKH_ITnVd" role="3clFbx">
                 <node concept="3clFbF" id="4lfKH_ITpMW" role="3cqZAp">
@@ -318,8 +261,13 @@
                 <node concept="37vLTw" id="4lfKH_ITpK$" role="3uHU7w">
                   <ref role="3cqZAo" node="4lfKH_IToTt" resolve="p" />
                 </node>
-                <node concept="37vLTw" id="L8UVRxLqao" role="3uHU7B">
-                  <ref role="3cqZAo" node="L8UVRxLpdX" resolve="d" />
+                <node concept="2OqwBi" id="L8UVRxLpiM" role="3uHU7B">
+                  <node concept="37vLTw" id="L8UVRxLphI" role="2Oq$k0">
+                    <ref role="3cqZAo" node="4lfKH_ITnJo" resolve="random" />
+                  </node>
+                  <node concept="liA8E" id="L8UVRxLpwo" role="2OqNvi">
+                    <ref role="37wK5l" to="k7g3:~Random.nextDouble():double" resolve="nextDouble" />
+                  </node>
                 </node>
               </node>
             </node>
