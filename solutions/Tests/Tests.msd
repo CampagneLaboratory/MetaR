@@ -12,6 +12,14 @@
     <usedLanguage>46803809-20ee-443f-bea9-0bee114b90b3(org.campagnelab.metar.edgeR)</usedLanguage>
     <usedLanguage>43f31864-fc67-43f5-873e-ab79cc279a2d(org.campagnelab.styles)</usedLanguage>
     <usedLanguage>067d1b0c-daf1-44f9-9fbd-e1dd4c6e26e8(org.campagnelab.metar.simulation)</usedLanguage>
+    <usedLanguage>c72da2b9-7cce-4447-8389-f407dc1158b7(jetbrains.mps.lang.structure)</usedLanguage>
+    <usedLanguage>ed6d7656-532c-4bc2-81d1-af945aeb8280(jetbrains.mps.baseLanguage.blTypes)</usedLanguage>
+    <usedLanguage>ecf91126-e504-4aae-8ee7-3192d64e77f6(org.campagnelab.mps.XChart.types)</usedLanguage>
+    <usedLanguage>9ded098b-ad6a-4657-bfd9-48636cfe8bc3(jetbrains.mps.lang.traceable)</usedLanguage>
+    <usedLanguage>4caf0310-491e-41f5-8a9b-2006b3a94898(jetbrains.mps.execution.util)</usedLanguage>
+    <usedLanguage>fd392034-7849-419d-9071-12563d152375(jetbrains.mps.baseLanguage.closures)</usedLanguage>
+    <usedLanguage>901f5cf3-dc77-4c1e-bc5a-6382baee28b4(org.campagnelab.textoutput)</usedLanguage>
+    <usedLanguage>83888646-71ce-4f1c-9c53-c54016f6ad4f(jetbrains.mps.baseLanguage.collections)</usedLanguage>
   </usedLanguages>
   <usedDevKits>
     <usedDevKit>8a3636fa-c6ec-4cb0-bc2a-b7143f2a4937(org.campagnelab.metaR)</usedDevKit>
