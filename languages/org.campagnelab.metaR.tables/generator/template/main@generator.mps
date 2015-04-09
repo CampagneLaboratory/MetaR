@@ -105,7 +105,7 @@
         <child id="1068580123160" name="condition" index="3clFbw" />
         <child id="1068580123161" name="ifTrue" index="3clFbx" />
       </concept>
-      <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" index="3clFbS">
+      <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
       </concept>
       <concept id="1068580123137" name="jetbrains.mps.baseLanguage.structure.BooleanConstant" flags="nn" index="3clFbT">
@@ -1399,6 +1399,29 @@
                             </node>
                           </node>
                         </node>
+                        <node concept="3clFbF" id="4bcN0Bgl2hw" role="3cqZAp">
+                          <node concept="2OqwBi" id="4bcN0Bgl2hx" role="3clFbG">
+                            <node concept="37vLTw" id="4bcN0Bgl2hy" role="2Oq$k0">
+                              <ref role="3cqZAo" node="5qhB25D7j$0" resolve="builder" />
+                            </node>
+                            <node concept="liA8E" id="4bcN0Bgl2hz" role="2OqNvi">
+                              <ref role="37wK5l" to="e2lb:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
+                              <node concept="3cpWs3" id="4bcN0Bgl2h$" role="37wK5m">
+                                <node concept="Xl_RD" id="4bcN0Bgl2h_" role="3uHU7w">
+                                  <property role="Xl_RC" value=" &lt;- " />
+                                </node>
+                                <node concept="2OqwBi" id="4bcN0Bgl2hA" role="3uHU7B">
+                                  <node concept="2GrUjf" id="4bcN0Bgl2hB" role="2Oq$k0">
+                                    <ref role="2Gs0qQ" node="5qhB25D7jzU" resolve="col" />
+                                  </node>
+                                  <node concept="liA8E" id="4bcN0Bgl2hC" role="2OqNvi">
+                                    <ref role="37wK5l" to="msyo:~Triplet.first():java.lang.Object" resolve="first" />
+                                  </node>
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                        </node>
                         <node concept="3clFbF" id="5qhB25D7j$4" role="3cqZAp">
                           <node concept="2OqwBi" id="5qhB25D7j$5" role="3clFbG">
                             <node concept="2OqwBi" id="5qhB25D7j$6" role="2Oq$k0">
@@ -2492,6 +2515,29 @@
                                 <node concept="2ShNRf" id="5qhB25DhUrv" role="33vP2m">
                                   <node concept="1pGfFk" id="5qhB25DhUrw" role="2ShVmc">
                                     <ref role="37wK5l" to="e2lb:~StringBuilder.&lt;init&gt;()" resolve="StringBuilder" />
+                                  </node>
+                                </node>
+                              </node>
+                            </node>
+                            <node concept="3clFbF" id="4bcN0BgkRb1" role="3cqZAp">
+                              <node concept="2OqwBi" id="4bcN0BgkShT" role="3clFbG">
+                                <node concept="37vLTw" id="4bcN0BgkRaZ" role="2Oq$k0">
+                                  <ref role="3cqZAo" node="5qhB25DhUrt" resolve="builder" />
+                                </node>
+                                <node concept="liA8E" id="4bcN0BgkTlz" role="2OqNvi">
+                                  <ref role="37wK5l" to="e2lb:~StringBuilder.append(java.lang.Object):java.lang.StringBuilder" resolve="append" />
+                                  <node concept="3cpWs3" id="4bcN0BgkXX$" role="37wK5m">
+                                    <node concept="Xl_RD" id="4bcN0BgkYJY" role="3uHU7w">
+                                      <property role="Xl_RC" value=" &lt;- " />
+                                    </node>
+                                    <node concept="2OqwBi" id="4bcN0BgkTPu" role="3uHU7B">
+                                      <node concept="2GrUjf" id="4bcN0BgkT_e" role="2Oq$k0">
+                                        <ref role="2Gs0qQ" node="5qhB25DhUrn" resolve="col" />
+                                      </node>
+                                      <node concept="liA8E" id="4bcN0BgkUK$" role="2OqNvi">
+                                        <ref role="37wK5l" to="msyo:~Triplet.first():java.lang.Object" resolve="first" />
+                                      </node>
+                                    </node>
                                   </node>
                                 </node>
                               </node>
