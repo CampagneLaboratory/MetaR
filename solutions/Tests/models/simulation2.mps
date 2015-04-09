@@ -105,6 +105,11 @@
         <property role="2Ym5z5" value="20" />
         <property role="2Ym5Gb" value="5" />
         <property role="2QJ4vL" value="5" />
+        <node concept="2Ym5Ia" id="L8UVRxMJGO" role="2Ym7rR">
+          <property role="2QI5xJ" value="100" />
+          <property role="2QI5xi" value="50" />
+          <property role="TrG5h" value="LPS" />
+        </node>
         <node concept="3MlLWZ" id="4lfKH_IWQqp" role="2Ym92R">
           <property role="TrG5h" value="covariate" />
           <ref role="3MlLW5" node="4lfKH_IWQqq" resolve="covariate" />
@@ -313,11 +318,6 @@
               </node>
             </node>
           </node>
-        </node>
-        <node concept="2Ym5Ia" id="4lfKH_IWQqy" role="2Ym7rR">
-          <property role="2QI5xJ" value="30" />
-          <property role="2QI5xi" value="50" />
-          <property role="TrG5h" value="LPS" />
         </node>
         <node concept="2Ym7rd" id="4lfKH_IWQqz" role="2Ym7rP">
           <property role="TrG5h" value="age" />
