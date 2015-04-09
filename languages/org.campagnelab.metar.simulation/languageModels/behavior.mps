@@ -2341,40 +2341,6 @@
         <node concept="10Oyi0" id="L8UVRxJwsh" role="10Q1$1" />
       </node>
       <node concept="3clFbS" id="L8UVRxJvDA" role="3clF47">
-        <node concept="34ab3g" id="L8UVRxM5bq" role="3cqZAp">
-          <property role="35gtTG" value="info" />
-          <node concept="3cpWs3" id="L8UVRxM5ww" role="34bqiv">
-            <node concept="2YIFZM" id="L8UVRxM5_0" role="3uHU7w">
-              <ref role="37wK5l" to="e2lb:~Integer.toString(int):java.lang.String" resolve="toString" />
-              <ref role="1Pybhc" to="e2lb:~Integer" resolve="Integer" />
-              <node concept="37vLTw" id="L8UVRxM5BT" role="37wK5m">
-                <ref role="3cqZAo" node="L8UVRxJwsr" resolve="numOfGenes" />
-              </node>
-            </node>
-            <node concept="Xl_RD" id="L8UVRxM5bs" role="3uHU7B">
-              <property role="Xl_RC" value="Num of Genes: " />
-            </node>
-          </node>
-        </node>
-        <node concept="34ab3g" id="L8UVRxM5Jv" role="3cqZAp">
-          <property role="35gtTG" value="info" />
-          <node concept="3cpWs3" id="L8UVRxM5Jw" role="34bqiv">
-            <node concept="2YIFZM" id="L8UVRxM5Jx" role="3uHU7w">
-              <ref role="1Pybhc" to="e2lb:~Integer" resolve="Integer" />
-              <ref role="37wK5l" to="e2lb:~Integer.toString(int):java.lang.String" resolve="toString" />
-              <node concept="2OqwBi" id="L8UVRxM62a" role="37wK5m">
-                <node concept="13iPFW" id="L8UVRxM5WX" role="2Oq$k0" />
-                <node concept="3TrcHB" id="L8UVRxM6rk" role="2OqNvi">
-                  <ref role="3TsBF5" to="hgbr:7hF4JJ2OOEk" resolve="percentageOfAffectedGenes" />
-                </node>
-              </node>
-            </node>
-            <node concept="Xl_RD" id="L8UVRxM5Jz" role="3uHU7B">
-              <property role="Xl_RC" value="Perc of Genes: " />
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbH" id="L8UVRxM5EZ" role="3cqZAp" />
         <node concept="3clFbF" id="L8UVRxJKyv" role="3cqZAp">
           <node concept="2YIFZM" id="L8UVRxJJMz" role="3clFbG">
             <ref role="1Pybhc" to="8m2y:4CUtYZLQYD" resolve="IndexGenerator" />
