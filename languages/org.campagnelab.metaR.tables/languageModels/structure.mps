@@ -1956,6 +1956,8 @@
   <node concept="1TIwiD" id="6lyZREae0L_">
     <property role="TrG5h" value="BlockWithTable" />
     <property role="3GE5qa" value="block" />
+    <property role="34LRSv" value="block with table" />
+    <property role="R4oN_" value="write a block" />
     <ref role="1TJDcQ" node="7LvyiX4miiC" resolve="Statement" />
     <node concept="1TJgyj" id="6lyZREae3lF" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
