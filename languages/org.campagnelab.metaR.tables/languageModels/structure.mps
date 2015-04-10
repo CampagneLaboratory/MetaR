@@ -75,7 +75,7 @@
         <child id="1068580123160" name="condition" index="3clFbw" />
         <child id="1068580123161" name="ifTrue" index="3clFbx" />
       </concept>
-      <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" index="3clFbS">
+      <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
       </concept>
       <concept id="1068580123137" name="jetbrains.mps.baseLanguage.structure.BooleanConstant" flags="nn" index="3clFbT">
@@ -1945,6 +1945,13 @@
     <node concept="PrWs8" id="7mrPTtA69nD" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
+  </node>
+  <node concept="1TIwiD" id="1o6_6KoFD18">
+    <property role="3GE5qa" value="venn" />
+    <property role="TrG5h" value="ColumnValueVenn" />
+    <property role="34LRSv" value="$" />
+    <property role="R4oN_" value="column value from selected table" />
+    <ref role="1TJDcQ" node="70Aomqk_K78" resolve="ColumnValue" />
   </node>
 </model>
 
