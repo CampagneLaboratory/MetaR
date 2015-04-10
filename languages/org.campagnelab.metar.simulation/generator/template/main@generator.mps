@@ -304,7 +304,34 @@
             </node>
           </node>
           <node concept="1gZcZf" id="6kVgbi6iIt$" role="2G3XIn">
-            <property role="1gZaPE" value="TREATMENT_FACTOR &lt;- 100" />
+            <property role="1gZaPE" value="" />
+            <node concept="3_3kQU" id="4lfKH_JelOV" role="3_3kQL">
+              <property role="3_3kQV" value="TREATMENT_FACTOR &lt;- " />
+            </node>
+            <node concept="3_3kQU" id="4lfKH_JelOW" role="3_3kQL">
+              <property role="3_3kQV" value="effect" />
+              <node concept="17Uvod" id="4lfKH_JelOZ" role="lGtFl">
+                <property role="P4ACc" value="901f5cf3-dc77-4c1e-bc5a-6382baee28b4/1680136183140337486/1680136183140337487" />
+                <property role="2qtEX9" value="text" />
+                <property role="34cw8o" value="effect size for discrete factors" />
+                <node concept="3zFVjK" id="4lfKH_JelP0" role="3zH0cK">
+                  <node concept="3clFbS" id="4lfKH_JelP1" role="2VODD2">
+                    <node concept="3clFbF" id="4lfKH_JelU2" role="3cqZAp">
+                      <node concept="2YIFZM" id="4lfKH_JelZi" role="3clFbG">
+                        <ref role="37wK5l" to="e2lb:~Integer.toString(int):java.lang.String" resolve="toString" />
+                        <ref role="1Pybhc" to="e2lb:~Integer" resolve="Integer" />
+                        <node concept="2OqwBi" id="4lfKH_Jemb4" role="37wK5m">
+                          <node concept="30H73N" id="4lfKH_Jem5j" role="2Oq$k0" />
+                          <node concept="3TrcHB" id="4lfKH_JemYL" role="2OqNvi">
+                            <ref role="3TsBF5" to="hgbr:4lfKH_Jefvc" resolve="effect_size" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
           </node>
           <node concept="1gZcZf" id="6kVgbi6iIt_" role="2G3XIn">
             <node concept="3_3kQU" id="6kVgbi6iLx6" role="3_3kQL">
