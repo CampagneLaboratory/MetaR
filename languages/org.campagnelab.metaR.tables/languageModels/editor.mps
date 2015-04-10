@@ -664,6 +664,7 @@
       <node concept="3F0A7n" id="2WRhvFto5Ru" role="3EZMnx">
         <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
         <ref role="1k5W1q" node="7Hltlm8A4_N" resolve="FutureTable" />
+        <ref role="1ERwB7" node="1o6_6KpTGmR" resolve="DisableAutoCompletion" />
         <node concept="VPxyj" id="5UTsevpF1fo" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>
@@ -1697,6 +1698,9 @@
       </node>
       <node concept="3F1sOY" id="3BiNpr5MFOs" role="3EZMnx">
         <ref role="1NtTu8" to="jrxw:3BiNpr5MCmK" />
+        <node concept="VPxyj" id="1o6_6KpDXhG" role="3F10Kt">
+          <property role="VOm3f" value="false" />
+        </node>
       </node>
     </node>
   </node>
@@ -4687,6 +4691,24 @@
         <property role="3F0ifm" value=")" />
       </node>
       <node concept="l2Vlx" id="1o6_6Kp3vhg" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="1h_SRR" id="1o6_6KpTGmR">
+    <property role="TrG5h" value="DisableAutoCompletion" />
+    <ref role="1h_SK9" to="jrxw:2WRhvFto5F5" resolve="FutureTable" />
+    <node concept="1hA7zw" id="1o6_6KpTGmS" role="1h_SK8">
+      <property role="1hAc7j" value="complete_action_id" />
+      <property role="1hHO97" value="Disable auto-complete" />
+      <node concept="1hAIg9" id="1o6_6KpTGmT" role="1hA7z_">
+        <node concept="3clFbS" id="1o6_6KpTGmU" role="2VODD2" />
+      </node>
+    </node>
+    <node concept="1hA7zw" id="1o6_6KpTGmY" role="1h_SK8">
+      <property role="1hAc7j" value="complete_smart_action_id" />
+      <property role="1hHO97" value="Disable auto-complete" />
+      <node concept="1hAIg9" id="1o6_6KpTGmZ" role="1hA7z_">
+        <node concept="3clFbS" id="1o6_6KpTGn0" role="2VODD2" />
+      </node>
     </node>
   </node>
 </model>
