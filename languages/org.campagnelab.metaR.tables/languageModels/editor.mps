@@ -556,6 +556,18 @@
     </node>
     <node concept="3EZMnI" id="4ssfE$bGQSK" role="6VMZX">
       <node concept="l2Vlx" id="4ssfE$bGQSL" role="2iSdaV" />
+      <node concept="3F0ifn" id="1o6_6Kptmd1" role="3EZMnx">
+        <property role="3F0ifm" value="name:" />
+      </node>
+      <node concept="3F0A7n" id="1o6_6Kptmd9" role="3EZMnx">
+        <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+      </node>
+      <node concept="3F0ifn" id="1o6_6Kptmdj" role="3EZMnx">
+        <property role="3F0ifm" value="path to resolve:" />
+        <node concept="pVoyu" id="1o6_6Kptmdp" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
       <node concept="3F0A7n" id="4ssfE$bGRkT" role="3EZMnx">
         <ref role="1NtTu8" to="jrxw:w5znaeSg5k" resolve="pathToResolve" />
       </node>
