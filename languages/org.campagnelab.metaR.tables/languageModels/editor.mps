@@ -4649,5 +4649,33 @@
       <node concept="2iRfu4" id="kv77yyJaxf" role="2iSdaV" />
     </node>
   </node>
+  <node concept="24kQdi" id="1o6_6Kp3uPF">
+    <property role="3GE5qa" value="venn" />
+    <ref role="1XX52x" to="jrxw:1o6_6KoFD18" resolve="ColumnValueVenn" />
+    <node concept="3EZMnI" id="1o6_6Kp3vh8" role="2wV5jI">
+      <node concept="3F0ifn" id="1o6_6Kp3vh9" role="3EZMnx">
+        <property role="3F0ifm" value="$(" />
+      </node>
+      <node concept="1iCGBv" id="1o6_6Kp3vha" role="3EZMnx">
+        <ref role="1NtTu8" to="jrxw:70Aomqk_K79" />
+        <node concept="1sVBvm" id="1o6_6Kp3vhb" role="1sWHZn">
+          <node concept="3F0A7n" id="1o6_6Kp3vhc" role="2wV5jI">
+            <property role="1Intyy" value="true" />
+            <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+            <node concept="11L4FC" id="1o6_6Kp3vhd" role="3F10Kt">
+              <property role="VOm3f" value="true" />
+            </node>
+            <node concept="11LMrY" id="1o6_6Kp3vhe" role="3F10Kt">
+              <property role="VOm3f" value="true" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3F0ifn" id="1o6_6Kp3vhf" role="3EZMnx">
+        <property role="3F0ifm" value=")" />
+      </node>
+      <node concept="l2Vlx" id="1o6_6Kp3vhg" role="2iSdaV" />
+    </node>
+  </node>
 </model>
 
