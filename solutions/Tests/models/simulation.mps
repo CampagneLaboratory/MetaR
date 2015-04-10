@@ -24,12 +24,13 @@
         <property id="2432807068409875565" name="lower_limit" index="2Yo_Pe" />
       </concept>
       <concept id="2432807068409409150" name="org.campagnelab.metar.simulation.structure.SimulateDataset" flags="ng" index="2YmjXt">
+        <property id="4994424750906865612" name="effect_size" index="EtNkl" />
         <property id="8388819603422663946" name="mean" index="2QJ4vL" />
         <property id="2432807068409481702" name="numOfSamples" index="2Ym5z5" />
         <property id="2432807068409481768" name="numOfGenes" index="2Ym5Gb" />
         <child id="8388819603423222464" name="samples" index="2QHcwV" />
         <child id="2432807068409489366" name="continuousCovariate" index="2Ym7rP" />
-        <child id="2432807068409489364" name="discreteGroups" index="2Ym7rR" />
+        <child id="2432807068409489364" name="discreteFactors" index="2Ym7rR" />
         <child id="2432807068409495956" name="covariateTable" index="2Ym92R" />
         <child id="8725455673819577719" name="simulationTable" index="3curr3" />
       </concept>
@@ -109,6 +110,7 @@
         <property role="2Ym5z5" value="10" />
         <property role="2Ym5Gb" value="50" />
         <property role="2QJ4vL" value="7" />
+        <property role="EtNkl" value="50" />
         <node concept="3MlLWZ" id="4lfKH_Jc8Rq" role="2Ym92R">
           <property role="TrG5h" value="covariate" />
           <ref role="3MlLW5" node="4lfKH_Jc8Rr" resolve="covariate" />

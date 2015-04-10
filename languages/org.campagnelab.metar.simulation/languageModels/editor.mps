@@ -23,6 +23,7 @@
       <concept id="1106270549637" name="jetbrains.mps.lang.editor.structure.CellLayout_Horizontal" flags="nn" index="2iRfu4" />
       <concept id="1237303669825" name="jetbrains.mps.lang.editor.structure.CellLayout_Indent" flags="nn" index="l2Vlx" />
       <concept id="1237307900041" name="jetbrains.mps.lang.editor.structure.IndentLayoutIndentStyleClassItem" flags="ln" index="lj46D" />
+      <concept id="1237308012275" name="jetbrains.mps.lang.editor.structure.IndentLayoutNewLineStyleClassItem" flags="ln" index="ljvvj" />
       <concept id="1237385578942" name="jetbrains.mps.lang.editor.structure.IndentLayoutOnNewLineStyleClassItem" flags="ln" index="pVoyu" />
       <concept id="1080736578640" name="jetbrains.mps.lang.editor.structure.BaseEditorComponent" flags="ig" index="2wURMF">
         <child id="1080736633877" name="cellModel" index="2wV5jI" />
@@ -96,7 +97,7 @@
         <ref role="1NtTu8" to="hgbr:2734ievAOCC" resolve="numOfGenes" />
       </node>
       <node concept="3F0ifn" id="7hF4JJ2PPje" role="3EZMnx">
-        <property role="3F0ifm" value="mean for values distribution:" />
+        <property role="3F0ifm" value="mean when all factors are false:" />
         <ref role="1k5W1q" to="8gqa:7Hltlm8H6Z1" resolve="Descriptive" />
         <node concept="lj46D" id="7hF4JJ2PPj_" role="3F10Kt">
           <property role="VOm3f" value="true" />
@@ -109,7 +110,7 @@
         <ref role="1NtTu8" to="hgbr:7hF4JJ2PPka" resolve="mean" />
       </node>
       <node concept="3F0ifn" id="7hF4JJ2QjVN" role="3EZMnx">
-        <property role="3F0ifm" value="discrete groups: " />
+        <property role="3F0ifm" value="discrete factors: " />
         <ref role="1k5W1q" to="8gqa:7Hltlm8H6Z1" resolve="Descriptive" />
         <node concept="pVoyu" id="7hF4JJ2QkCR" role="3F10Kt">
           <property role="VOm3f" value="true" />
@@ -122,6 +123,19 @@
         <property role="2czwfO" value="," />
         <ref role="1NtTu8" to="hgbr:2734ievAQvk" />
         <node concept="l2Vlx" id="6kVgbi6ijS0" role="2czzBx" />
+        <node concept="ljvvj" id="4lfKH_Jeftd" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F0ifn" id="4lfKH_JefsB" role="3EZMnx">
+        <property role="3F0ifm" value="effect size:" />
+        <ref role="1k5W1q" to="8gqa:7Hltlm8H6Z1" resolve="Descriptive" />
+        <node concept="lj46D" id="4lfKH_Jeft8" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F0A7n" id="4lfKH_Jefyb" role="3EZMnx">
+        <ref role="1NtTu8" to="hgbr:4lfKH_Jefvc" resolve="effect_size" />
       </node>
       <node concept="3F1sOY" id="2734ievAQxj" role="3EZMnx">
         <ref role="1NtTu8" to="hgbr:2734ievAQvm" />

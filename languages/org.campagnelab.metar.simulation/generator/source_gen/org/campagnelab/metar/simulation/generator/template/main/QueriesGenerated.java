@@ -30,6 +30,9 @@ public class QueriesGenerated {
   public static Object propertyMacro_GetPropertyValue_7294495165548004690(final PropertyMacroContext _context) {
     return Integer.toString(SPropertyOperations.getInteger(_context.getNode(), MetaAdapterFactory.getProperty(0x67d1b0cdaf144f9L, 0x9fbde1dd4c6e26e8L, 0x21c311239f9a2e7eL, 0x21c311239f9b4a28L, "numOfGenes")));
   }
+  public static Object propertyMacro_GetPropertyValue_4994424750906891584(final PropertyMacroContext _context) {
+    return Integer.toString(SPropertyOperations.getInteger(_context.getNode(), MetaAdapterFactory.getProperty(0x67d1b0cdaf144f9L, 0x9fbde1dd4c6e26e8L, 0x21c311239f9a2e7eL, 0x454fc2d96f38f7ccL, "effect_size")));
+  }
   public static Object propertyMacro_GetPropertyValue_7294495165548009547(final PropertyMacroContext _context) {
     return Integer.toString(SPropertyOperations.getInteger(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x67d1b0cdaf144f9L, 0x9fbde1dd4c6e26e8L, 0x21c311239f9a2e7eL, 0x21c311239f9b67d6L, "continuousCovariate")), MetaAdapterFactory.getProperty(0x67d1b0cdaf144f9L, 0x9fbde1dd4c6e26e8L, 0x21c311239f9b67eeL, 0x21c311239fa14c6eL, "upper_limit")));
   }
@@ -78,6 +81,6 @@ public class QueriesGenerated {
     return SPropertyOperations.getInteger(SNodeOperations.getNodeAncestor(_context.getNode(), MetaAdapterFactory.getConcept(0x67d1b0cdaf144f9L, 0x9fbde1dd4c6e26e8L, 0x21c311239f9a2e7eL, "org.campagnelab.metar.simulation.structure.SimulateDataset"), false, false), MetaAdapterFactory.getProperty(0x67d1b0cdaf144f9L, 0x9fbde1dd4c6e26e8L, 0x21c311239f9a2e7eL, 0x21c311239f9b4a28L, "numOfGenes"));
   }
   public static Iterable<SNode> sourceNodesQuery_4994424750902391092(final SourceSubstituteMacroNodesContext _context) {
-    return SLinkOperations.getChildren(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x67d1b0cdaf144f9L, 0x9fbde1dd4c6e26e8L, 0x21c311239f9a2e7eL, 0x21c311239f9b67d4L, "discreteGroups"));
+    return SLinkOperations.getChildren(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x67d1b0cdaf144f9L, 0x9fbde1dd4c6e26e8L, 0x21c311239f9a2e7eL, 0x21c311239f9b67d4L, "discreteFactors"));
   }
 }

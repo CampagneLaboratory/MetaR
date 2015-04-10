@@ -47,7 +47,7 @@
     <ref role="1TJDcQ" to="jrxw:7LvyiX4miiC" resolve="Statement" />
     <node concept="1TJgyj" id="2734ievAQvk" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="discreteGroups" />
+      <property role="20kJfa" value="discreteFactors" />
       <property role="20lbJX" value="1..n" />
       <ref role="20lvS9" node="2734ievAOED" resolve="DiscreteGroup" />
     </node>
@@ -85,6 +85,10 @@
     </node>
     <node concept="1TJgyi" id="7hF4JJ2PPka" role="1TKVEl">
       <property role="TrG5h" value="mean" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
+    <node concept="1TJgyi" id="4lfKH_Jefvc" role="1TKVEl">
+      <property role="TrG5h" value="effect_size" />
       <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
     </node>
     <node concept="PrWs8" id="2734ievAyU2" role="PzmwI">
