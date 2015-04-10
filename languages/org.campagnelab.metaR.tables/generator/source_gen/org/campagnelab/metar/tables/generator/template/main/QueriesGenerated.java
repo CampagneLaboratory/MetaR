@@ -594,6 +594,13 @@ public class QueriesGenerated {
   public static Object propertyMacro_GetPropertyValue_3402264987267838443(final PropertyMacroContext _context) {
     return SPropertyOperations.getString(_context.getNode(), MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name"));
   }
+  public static Object propertyMacro_GetPropertyValue_1587119110711818064(final PropertyMacroContext _context) {
+    return IterableUtils.join(Sequence.fromIterable(BehaviorReflection.invokeVirtual((Class<Iterable<String>>) ((Class) Object.class), _context.getNode(), "virtual_dependencies_8962032619593737482", new Object[]{})).select(new ISelector<String, String>() {
+      public String select(String it) {
+        return "\"library(" + it + ")\"";
+      }
+    }), ", ");
+  }
   public static Object propertyMacro_GetPropertyValue_2497029342011493581(final PropertyMacroContext _context) {
     return new RPath(System.getProperty("user.home") + File.separator + ".metaRlibs").toString();
   }
