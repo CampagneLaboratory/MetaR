@@ -7961,122 +7961,6 @@
     </node>
     <node concept="2G3XJi" id="2WRhvFtNQ23" role="2JYHEr">
       <property role="1gZaPE" value="" />
-      <node concept="1gZcZf" id="1o6_6Kq3fPO" role="2G3XIn">
-        <property role="1gZaPE" value="# Use checkpoint to garantee reproducible package installations and results:" />
-        <node concept="3_3kQU" id="1o6_6Kq3fPP" role="3_3kQL">
-          <property role="3_3kQV" value="" />
-        </node>
-      </node>
-      <node concept="1gZcZf" id="2aBeJjGkyA1" role="2G3XIn">
-        <property role="1gZaPE" value="if (!require(&quot;checkpoint&quot;)) {install.packages(&quot;checkpoint&quot;,repos='http://cran.us.r-project.org'); library(&quot;checkpoint&quot;)}" />
-        <node concept="3_3kQU" id="2aBeJjGk$qT" role="3_3kQL">
-          <property role="3_3kQV" value="" />
-        </node>
-        <node concept="3_3kQU" id="2aBeJjGkyB5" role="3_3kQL">
-          <property role="3_3kQV" value="" />
-        </node>
-      </node>
-      <node concept="1gZcZf" id="1o6_6KqbYka" role="2G3XIn">
-        <property role="1gZaPE" value="" />
-        <node concept="3_3kQU" id="1o6_6Kqdzt9" role="3_3kQL">
-          <property role="3_3kQV" value="cat(" />
-        </node>
-        <node concept="3_3kQU" id="1o6_6Kqdzta" role="3_3kQL">
-          <property role="3_3kQV" value="&quot;library(MASS)&quot;, &quot;library(foreach)&quot;" />
-          <node concept="17Uvod" id="1o6_6Kqdztf" role="lGtFl">
-            <property role="P4ACc" value="901f5cf3-dc77-4c1e-bc5a-6382baee28b4/1680136183140337486/1680136183140337487" />
-            <property role="2qtEX9" value="text" />
-            <node concept="3zFVjK" id="1o6_6Kqdztg" role="3zH0cK">
-              <node concept="3clFbS" id="1o6_6Kqdzth" role="2VODD2">
-                <node concept="3clFbF" id="1o6_6Kqdz_B" role="3cqZAp">
-                  <node concept="2OqwBi" id="1o6_6KqdDY$" role="3clFbG">
-                    <node concept="2OqwBi" id="1o6_6Kqd$P4" role="2Oq$k0">
-                      <node concept="2OqwBi" id="1o6_6KqdzM5" role="2Oq$k0">
-                        <node concept="30H73N" id="1o6_6KqdzHi" role="2Oq$k0" />
-                        <node concept="2qgKlT" id="1o6_6Kqd$$F" role="2OqNvi">
-                          <ref role="37wK5l" to="v8sa:7LvyiX4mika" resolve="dependencies" />
-                        </node>
-                      </node>
-                      <node concept="3$u5V9" id="1o6_6KqdEHd" role="2OqNvi">
-                        <node concept="1bVj0M" id="1o6_6KqdEHf" role="23t8la">
-                          <node concept="3clFbS" id="1o6_6KqdEHg" role="1bW5cS">
-                            <node concept="3clFbF" id="1o6_6KqdEHh" role="3cqZAp">
-                              <node concept="3cpWs3" id="1o6_6KqdEHi" role="3clFbG">
-                                <node concept="Xl_RD" id="1o6_6KqdEHj" role="3uHU7w">
-                                  <property role="Xl_RC" value=")\&quot;" />
-                                </node>
-                                <node concept="3cpWs3" id="1o6_6KqdEHk" role="3uHU7B">
-                                  <node concept="Xl_RD" id="1o6_6KqdEHl" role="3uHU7B">
-                                    <property role="Xl_RC" value="\&quot;library(" />
-                                  </node>
-                                  <node concept="37vLTw" id="1o6_6KqdEHm" role="3uHU7w">
-                                    <ref role="3cqZAo" node="1o6_6KqdEHn" resolve="it" />
-                                  </node>
-                                </node>
-                              </node>
-                            </node>
-                          </node>
-                          <node concept="Rh6nW" id="1o6_6KqdEHn" role="1bW2Oz">
-                            <property role="TrG5h" value="it" />
-                            <node concept="2jxLKc" id="1o6_6KqdEHo" role="1tU5fm" />
-                          </node>
-                        </node>
-                      </node>
-                    </node>
-                    <node concept="3uJxvA" id="1o6_6KqdGCw" role="2OqNvi">
-                      <node concept="Xl_RD" id="1o6_6KqdHQY" role="3uJOhx">
-                        <property role="Xl_RC" value=", " />
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3_3kQU" id="1o6_6Kqdztb" role="3_3kQL">
-          <property role="3_3kQV" value="," />
-        </node>
-      </node>
-      <node concept="2G3XJi" id="1o6_6KqbY$7" role="2G3XIn">
-        <property role="1gZaPE" value="" />
-        <node concept="1gZcZf" id="1o6_6KqbY$9" role="2G3XIn">
-          <property role="1gZaPE" value="  " />
-          <node concept="3_3kQU" id="1o6_6KqbY$a" role="3_3kQL">
-            <property role="3_3kQV" value="sep=&quot;\" />
-          </node>
-          <node concept="3_3kQU" id="1o6_6KqbYUK" role="3_3kQL">
-            <property role="3_3kQV" value="n&quot;," />
-          </node>
-        </node>
-        <node concept="1gZcZf" id="1o6_6KqbY$d" role="2G3XIn">
-          <property role="1gZaPE" value="  " />
-          <node concept="3_3kQU" id="1o6_6KqbY$e" role="3_3kQL">
-            <property role="3_3kQV" value="file=&quot;checkpoint_sample_code.R&quot;)" />
-          </node>
-          <node concept="3_3kQU" id="1o6_6KqbYkb" role="3_3kQL">
-            <property role="3_3kQV" value="" />
-          </node>
-        </node>
-      </node>
-      <node concept="1gZcZf" id="1o6_6Kq3cwh" role="2G3XIn">
-        <property role="1gZaPE" value="checkpoint(&quot;2015-04-05&quot;)" />
-        <node concept="3_3kQU" id="1o6_6Kq3fvK" role="3_3kQL">
-          <property role="3_3kQV" value="" />
-        </node>
-        <node concept="3_3kQU" id="1o6_6Kq3cwi" role="3_3kQL">
-          <property role="3_3kQV" value="" />
-        </node>
-      </node>
-      <node concept="1gZcZf" id="1o6_6Kq3fvO" role="2G3XIn">
-        <property role="1gZaPE" value="getOption(&quot;repos&quot;)" />
-        <node concept="3_3kQU" id="1o6_6Kqay2h" role="3_3kQL">
-          <property role="3_3kQV" value="" />
-        </node>
-        <node concept="3_3kQU" id="1o6_6Kq3fvP" role="3_3kQL">
-          <property role="3_3kQV" value="" />
-        </node>
-      </node>
       <node concept="1gZcZf" id="1o6_6Kqay2l" role="2G3XIn">
         <property role="1gZaPE" value="" />
         <node concept="3_3kQU" id="1o6_6Kqay2m" role="3_3kQL">
@@ -8257,6 +8141,170 @@
       </node>
       <node concept="3_3kQU" id="2WRhvFtNQ24" role="3_3kQL">
         <property role="3_3kQV" value="" />
+      </node>
+      <node concept="1gZcZf" id="5csGvVLt8Ri" role="2G3XIn">
+        <property role="1gZaPE" value="" />
+        <node concept="3_3kQU" id="5csGvVLt9fh" role="3_3kQL">
+          <property role="3_3kQV" value="" />
+        </node>
+        <node concept="3_3kQU" id="5csGvVLt8Rj" role="3_3kQL">
+          <property role="3_3kQV" value="" />
+        </node>
+      </node>
+      <node concept="1gZcZf" id="5csGvVLtgxw" role="2G3XIn">
+        <property role="1gZaPE" value="# Use checkpoint to garantee reproducible package installations and results:" />
+        <node concept="3_3kQU" id="5csGvVLtgxx" role="3_3kQL">
+          <property role="3_3kQV" value="" />
+        </node>
+      </node>
+      <node concept="1gZcZf" id="5csGvVLtgxy" role="2G3XIn">
+        <property role="1gZaPE" value="if (!require(&quot;checkpoint&quot;)) {install.packages(&quot;checkpoint&quot;,repos='http://cran.us.r-project.org'); library(&quot;checkpoint&quot;)}" />
+        <node concept="3_3kQU" id="5csGvVLtgxz" role="3_3kQL">
+          <property role="3_3kQV" value="" />
+        </node>
+        <node concept="3_3kQU" id="5csGvVLtgx$" role="3_3kQL">
+          <property role="3_3kQV" value="" />
+        </node>
+      </node>
+      <node concept="1gZcZf" id="5csGvVLtgx_" role="2G3XIn">
+        <property role="1gZaPE" value="" />
+        <node concept="3_3kQU" id="5csGvVLtgxA" role="3_3kQL">
+          <property role="3_3kQV" value="cat(" />
+        </node>
+        <node concept="3_3kQU" id="5csGvVLtgxB" role="3_3kQL">
+          <property role="3_3kQV" value="&quot;library(MASS)&quot;, &quot;library(foreach)&quot;" />
+          <node concept="17Uvod" id="5csGvVLtgxC" role="lGtFl">
+            <property role="P4ACc" value="901f5cf3-dc77-4c1e-bc5a-6382baee28b4/1680136183140337486/1680136183140337487" />
+            <property role="2qtEX9" value="text" />
+            <node concept="3zFVjK" id="5csGvVLtgxD" role="3zH0cK">
+              <node concept="3clFbS" id="5csGvVLtgxE" role="2VODD2">
+                <node concept="3clFbF" id="5csGvVLtgxF" role="3cqZAp">
+                  <node concept="2OqwBi" id="5csGvVLtgxG" role="3clFbG">
+                    <node concept="2OqwBi" id="5csGvVLtgxH" role="2Oq$k0">
+                      <node concept="2OqwBi" id="5csGvVLtgxI" role="2Oq$k0">
+                        <node concept="30H73N" id="5csGvVLtgxJ" role="2Oq$k0" />
+                        <node concept="2qgKlT" id="5csGvVLtgxK" role="2OqNvi">
+                          <ref role="37wK5l" to="v8sa:7LvyiX4mika" resolve="dependencies" />
+                        </node>
+                      </node>
+                      <node concept="3$u5V9" id="5csGvVLtgxL" role="2OqNvi">
+                        <node concept="1bVj0M" id="5csGvVLtgxM" role="23t8la">
+                          <node concept="3clFbS" id="5csGvVLtgxN" role="1bW5cS">
+                            <node concept="3clFbF" id="5csGvVLtgxO" role="3cqZAp">
+                              <node concept="3cpWs3" id="5csGvVLtgxP" role="3clFbG">
+                                <node concept="Xl_RD" id="5csGvVLtgxQ" role="3uHU7w">
+                                  <property role="Xl_RC" value=")\&quot;" />
+                                </node>
+                                <node concept="3cpWs3" id="5csGvVLtgxR" role="3uHU7B">
+                                  <node concept="Xl_RD" id="5csGvVLtgxS" role="3uHU7B">
+                                    <property role="Xl_RC" value="\&quot;library(" />
+                                  </node>
+                                  <node concept="37vLTw" id="5csGvVLtgxT" role="3uHU7w">
+                                    <ref role="3cqZAo" node="5csGvVLtgxU" resolve="it" />
+                                  </node>
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                          <node concept="Rh6nW" id="5csGvVLtgxU" role="1bW2Oz">
+                            <property role="TrG5h" value="it" />
+                            <node concept="2jxLKc" id="5csGvVLtgxV" role="1tU5fm" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="3uJxvA" id="5csGvVLtgxW" role="2OqNvi">
+                      <node concept="Xl_RD" id="5csGvVLtgxX" role="3uJOhx">
+                        <property role="Xl_RC" value=", " />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3_3kQU" id="5csGvVLtgxY" role="3_3kQL">
+          <property role="3_3kQV" value="," />
+        </node>
+      </node>
+      <node concept="2G3XJi" id="5csGvVLtgxZ" role="2G3XIn">
+        <property role="1gZaPE" value="" />
+        <node concept="1gZcZf" id="5csGvVLtgy0" role="2G3XIn">
+          <property role="1gZaPE" value="  " />
+          <node concept="3_3kQU" id="5csGvVLtgy1" role="3_3kQL">
+            <property role="3_3kQV" value="sep=&quot;\" />
+          </node>
+          <node concept="3_3kQU" id="5csGvVLtgy2" role="3_3kQL">
+            <property role="3_3kQV" value="n&quot;," />
+          </node>
+        </node>
+        <node concept="1gZcZf" id="5csGvVLtgy3" role="2G3XIn">
+          <property role="1gZaPE" value="  " />
+          <node concept="3_3kQU" id="5csGvVLtgy4" role="3_3kQL">
+            <property role="3_3kQV" value="file=&quot;checkpoint_sample_code.R&quot;)" />
+          </node>
+          <node concept="3_3kQU" id="5csGvVLtgy5" role="3_3kQL">
+            <property role="3_3kQV" value="" />
+          </node>
+        </node>
+      </node>
+      <node concept="1gZcZf" id="5csGvVLtgy6" role="2G3XIn">
+        <property role="1gZaPE" value="checkpoint(&quot;2015-04-05&quot;)" />
+        <node concept="3_3kQU" id="5csGvVLtgy7" role="3_3kQL">
+          <property role="3_3kQV" value="" />
+        </node>
+        <node concept="3_3kQU" id="5csGvVLtgy8" role="3_3kQL">
+          <property role="3_3kQV" value="" />
+        </node>
+      </node>
+      <node concept="1gZcZf" id="5csGvVLtgy9" role="2G3XIn">
+        <property role="1gZaPE" value="getOption(&quot;repos&quot;)" />
+        <node concept="3_3kQU" id="5csGvVLtnlE" role="3_3kQL">
+          <property role="3_3kQV" value="" />
+        </node>
+        <node concept="3_3kQU" id="5csGvVLth5S" role="3_3kQL">
+          <property role="3_3kQV" value="" />
+        </node>
+        <node concept="3_3kQU" id="5csGvVLtgya" role="3_3kQL">
+          <property role="3_3kQV" value="" />
+        </node>
+        <node concept="3_3kQU" id="5csGvVLtgyb" role="3_3kQL">
+          <property role="3_3kQV" value="" />
+        </node>
+      </node>
+      <node concept="1gZcZf" id="5csGvVLtnlS" role="2G3XIn">
+        <property role="1gZaPE" value="" />
+        <node concept="3_3kQU" id="5csGvVLtnlT" role="3_3kQL">
+          <property role="3_3kQV" value="" />
+        </node>
+      </node>
+      <node concept="1gZcZf" id="5csGvVLth63" role="2G3XIn">
+        <property role="1gZaPE" value="" />
+        <node concept="3_3kQU" id="5csGvVLtmdB" role="3_3kQL">
+          <property role="3_3kQV" value="" />
+        </node>
+        <node concept="3_3kQU" id="5csGvVLtlDy" role="3_3kQL">
+          <property role="3_3kQV" value="#restore metaRlibs as target dir instead of .checkpoint" />
+        </node>
+      </node>
+      <node concept="2G3XJi" id="5csGvVLtlDE" role="2G3XIn">
+        <property role="1gZaPE" value="" />
+        <node concept="1gZcZf" id="5csGvVLtlDG" role="2G3XIn">
+          <property role="1gZaPE" value="" />
+          <node concept="3_3kQU" id="5csGvVLtlDH" role="3_3kQL">
+            <property role="3_3kQV" value=".libPaths(c(libDir, .libPaths()))                      " />
+          </node>
+          <node concept="3_3kQU" id="5csGvVLth64" role="3_3kQL">
+            <property role="3_3kQV" value="" />
+          </node>
+        </node>
+      </node>
+      <node concept="1gZcZf" id="5csGvVLtnTZ" role="2G3XIn">
+        <property role="1gZaPE" value="" />
+        <node concept="3_3kQU" id="5csGvVLtnU0" role="3_3kQL">
+          <property role="3_3kQV" value="" />
+        </node>
       </node>
       <node concept="1gZcZf" id="5Wt7Rzzueo6" role="2G3XIn">
         <property role="1gZaPE" value="library(&quot;data.table&quot;)" />
