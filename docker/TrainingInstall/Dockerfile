@@ -29,8 +29,13 @@ RUN rm -rf /tmp/*.rds \
  Cairo \
  pheatmap \
  data.table
+
 RUN  Rscript -e 'source("http://bioconductor.org/biocLite.R"); biocLite("edgeR", ask=FALSE);  biocLite("limma", ask=FALSE); ' \
 && rm -rf /tmp/downloaded_packages/ /tmp/*.rds 
 
+RUN rm -rf /tmp/*.rds \
+&& install2.r --error \
+ checkpoint \
+&& rm -rf /tmp/downloaded_packages/ /tmp/*.rds
 
 RUN echo "Installed packages needed for MetaR training session"
