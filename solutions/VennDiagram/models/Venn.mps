@@ -80,6 +80,9 @@
         <property id="8962032619586498917" name="width" index="ZHjxa" />
         <property id="8962032619586499111" name="height" index="ZHjG8" />
       </concept>
+      <concept id="7305682447318387813" name="org.campagnelab.metar.tables.structure.BlockWithTable" flags="ng" index="3JmJcv">
+        <child id="7305682447318398317" name="blockStatementList" index="3JmGCn" />
+      </concept>
       <concept id="3402264987261651661" name="org.campagnelab.metar.tables.structure.ImportTable" flags="ng" index="3MjoWR">
         <reference id="3402264987261692715" name="table" index="3Mj2Vh" />
         <child id="3402264987261651716" name="future" index="3MjoVY" />
@@ -1162,8 +1165,17 @@
           <property role="TrG5h" value="plotaaaa" />
         </node>
       </node>
-      <node concept="S1EQe" id="1HAWSBVP_Li" role="ZXjPg">
-        <property role="S1EQ6" value="AERWQNDICX" />
+      <node concept="S1EQe" id="1HAWSBZnzBG" role="ZXjPg">
+        <property role="S1EQ6" value="EETOGWLUDP" />
+      </node>
+      <node concept="S1EQe" id="1HAWSBZnzFG" role="ZXjPg">
+        <property role="S1EQ6" value="XQUMLLHMKM" />
+      </node>
+      <node concept="3JmJcv" id="1HAWSBZnzNJ" role="ZXjPg">
+        <property role="S1EQ6" value="GRCKUNWJAY" />
+        <node concept="ZXjPh" id="1HAWSBZnzNL" role="3JmGCn">
+          <property role="S1EQ6" value="IEFLRAJQYS" />
+        </node>
       </node>
     </node>
   </node>
