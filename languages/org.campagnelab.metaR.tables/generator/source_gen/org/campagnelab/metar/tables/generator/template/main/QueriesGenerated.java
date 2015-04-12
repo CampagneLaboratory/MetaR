@@ -1019,6 +1019,9 @@ public class QueriesGenerated {
   public static SNode sourceNodeQuery_8058827937367559065(final SourceSubstituteMacroNodeContext _context) {
     return SLinkOperations.getTarget(SNodeOperations.cast(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x5d6bde844ce44eb5L, 0xa37e25a5edd55129L, 0x740e7fed5746997L, 0x740e7fed5746b37L, "rowFilter")), MetaAdapterFactory.getConcept(0x5d6bde844ce44eb5L, 0xa37e25a5edd55129L, 0x6c03c168da3d8078L, "org.campagnelab.metar.tables.structure.FilterWithExpression")), MetaAdapterFactory.getContainmentLink(0x5d6bde844ce44eb5L, 0xa37e25a5edd55129L, 0x6c03c168da3d8078L, 0x273ac682111263b1L, "filter"));
   }
+  public static SNode sourceNodeQuery_1974533260610320185(final SourceSubstituteMacroNodeContext _context) {
+    return SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x5d6bde844ce44eb5L, 0xa37e25a5edd55129L, 0x6562ff7a8a380c65L, 0x6562ff7a8a38356dL, "blockStatementList"));
+  }
   public static Object templateArgumentQuery_2807244893514263516(final TemplateQueryContext _context) {
     return ListSequence.fromList(SNodeOperations.getNodeDescendants(SNodeOperations.getParent(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getReferenceLink(0x5d6bde844ce44eb5L, 0xa37e25a5edd55129L, 0x26f5565b732fcbd5L, 0x26f5565b732fcc9cL, "model"))), MetaAdapterFactory.getConcept(0x5d6bde844ce44eb5L, 0xa37e25a5edd55129L, 0x26f5565b72ec29a1L, "org.campagnelab.metar.tables.structure.Formula"), false, new SAbstractConcept[]{})).first();
   }
