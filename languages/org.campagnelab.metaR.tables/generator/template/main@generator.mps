@@ -24,8 +24,8 @@
     <import index="msyo" ref="f:java_stub#6ed54515-acc8-4d1e-a16c-9fd6cfe951ea#jetbrains.mps.util(MPS.Core/jetbrains.mps.util@java_stub)" />
     <import index="1mjk" ref="r:72b0aa20-b681-4aef-ad30-bb23b1f4b98c(org.campagnelab.metar.code.generator.helpers)" />
     <import index="e2lb" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" implicit="true" />
-    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="42z1" ref="r:61980467-5cf8-4450-9d24-d597512183ad(org.campagnelab.styles.behavior)" implicit="true" />
+    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="x7of" ref="r:437ca43c-6323-49fb-979f-681501286fcd(org.campagnelab.metar.code.annotations)" implicit="true" />
   </imports>
   <registry>
@@ -907,6 +907,12 @@
       <ref role="30HIoZ" to="jrxw:t0TZVlt6An" resolve="IdsFromTable" />
       <node concept="j$656" id="6ZmHkZ0Mo1c" role="1lVwrX">
         <ref role="v9R2y" node="6ZmHkZ0Mo19" resolve="reduce_IdsFromTable" />
+      </node>
+    </node>
+    <node concept="3aamgX" id="1HAWSBVPAy2" role="3acgRq">
+      <ref role="30HIoZ" to="jrxw:6lyZREae0L_" resolve="BlockWithTable" />
+      <node concept="j$656" id="1HAWSBVPAy3" role="1lVwrX">
+        <ref role="v9R2y" node="1HAWSBVPAy0" resolve="reduce_BlockWithTable" />
       </node>
     </node>
   </node>
@@ -14115,6 +14121,27 @@
                   </node>
                 </node>
                 <node concept="34oBXx" id="6ZmHkZ7psmm" role="2OqNvi" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="13MO4I" id="1HAWSBVPAy0">
+    <property role="TrG5h" value="reduce_BlockWithTable" />
+    <ref role="3gUMe" to="jrxw:6lyZREae0L_" resolve="BlockWithTable" />
+    <node concept="2VYdi" id="1HAWSBVPAy1" role="13RCb5">
+      <node concept="raruj" id="1HAWSBVRNsQ" role="lGtFl" />
+      <node concept="29HgVG" id="1HAWSBVRNsS" role="lGtFl">
+        <node concept="3NFfHV" id="1HAWSBVRNsT" role="3NFExx">
+          <node concept="3clFbS" id="1HAWSBVRNsU" role="2VODD2">
+            <node concept="3clFbF" id="1HAWSBVRNt0" role="3cqZAp">
+              <node concept="2OqwBi" id="1HAWSBVRNsV" role="3clFbG">
+                <node concept="3TrEf2" id="1HAWSBVRNsY" role="2OqNvi">
+                  <ref role="3Tt5mk" to="jrxw:6lyZREae3lH" />
+                </node>
+                <node concept="30H73N" id="1HAWSBVRNsZ" role="2Oq$k0" />
               </node>
             </node>
           </node>
