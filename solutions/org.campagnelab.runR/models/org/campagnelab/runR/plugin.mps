@@ -1591,16 +1591,6 @@
                   </node>
                 </node>
               </node>
-              <node concept="3clFbF" id="7jqSt7zFGje" role="3cqZAp">
-                <node concept="37vLTI" id="7jqSt7zFGA9" role="3clFbG">
-                  <node concept="3clFbT" id="7jqSt7zFGHD" role="37vLTx">
-                    <property role="3clFbU" value="true" />
-                  </node>
-                  <node concept="37vLTw" id="7jqSt7zFGjc" role="37vLTJ">
-                    <ref role="3cqZAo" node="7jqSt7z$nSx" resolve="useDocker" />
-                  </node>
-                </node>
-              </node>
               <node concept="3clFbJ" id="7jqSt7z$nn_" role="3cqZAp">
                 <node concept="3clFbS" id="7jqSt7z$nnB" role="3clFbx">
                   <node concept="3clFbH" id="7jqSt7z$xru" role="3cqZAp" />
@@ -6400,6 +6390,32 @@
       </node>
       <node concept="3yzWfJ" id="7jqSt7yag$7" role="3y$9q5">
         <node concept="3clFbS" id="7jqSt7yag$8" role="2VODD2">
+          <node concept="3clFbJ" id="7jqSt7$Yujy" role="3cqZAp">
+            <node concept="3clFbS" id="7jqSt7$Yuj$" role="3clFbx">
+              <node concept="3clFbF" id="7jqSt7$YvYE" role="3cqZAp">
+                <node concept="37vLTI" id="7jqSt7$YxzI" role="3clFbG">
+                  <node concept="Xl_RD" id="7jqSt7$YxLt" role="37vLTx">
+                    <property role="Xl_RC" value="default-docker-path" />
+                  </node>
+                  <node concept="2OqwBi" id="7jqSt7$YvZ2" role="37vLTJ">
+                    <node concept="2WthIp" id="7jqSt7$YvYC" role="2Oq$k0" />
+                    <node concept="34pFcN" id="7jqSt7$Ywkq" role="2OqNvi">
+                      <ref role="2WH_rO" node="7jqSt7ya6yC" resolve="dockerCommandPath" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbC" id="7jqSt7$YvCB" role="3clFbw">
+              <node concept="10Nm6u" id="7jqSt7$YvCW" role="3uHU7w" />
+              <node concept="2OqwBi" id="7jqSt7$YuMO" role="3uHU7B">
+                <node concept="2WthIp" id="7jqSt7$Yu_o" role="2Oq$k0" />
+                <node concept="34pFcN" id="7jqSt7$YvoZ" role="2OqNvi">
+                  <ref role="2WH_rO" node="7jqSt7ya6yC" resolve="dockerCommandPath" />
+                </node>
+              </node>
+            </node>
+          </node>
           <node concept="3clFbF" id="7jqSt7ydx4q" role="3cqZAp">
             <node concept="2OqwBi" id="7jqSt7ydx4s" role="3clFbG">
               <node concept="0kSF2" id="7jqSt7ydx4t" role="2Oq$k0">
@@ -6410,8 +6426,30 @@
               </node>
               <node concept="liA8E" id="7jqSt7ydx4w" role="2OqNvi">
                 <ref role="37wK5l" node="7jqSt7ydxfR" resolve="setDockerCommandPath" />
-                <node concept="Xl_RD" id="7jqSt7ydTBp" role="37wK5m">
-                  <property role="Xl_RC" value="/usr/local/bin/docker" />
+                <node concept="2OqwBi" id="7jqSt7$X9tt" role="37wK5m">
+                  <node concept="2WthIp" id="7jqSt7$X9gb" role="2Oq$k0" />
+                  <node concept="34pFcN" id="7jqSt7$X9SF" role="2OqNvi">
+                    <ref role="2WH_rO" node="7jqSt7ya6yC" resolve="dockerCommandPath" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbF" id="7jqSt7$X6pz" role="3cqZAp">
+            <node concept="2OqwBi" id="7jqSt7$X6p$" role="3clFbG">
+              <node concept="0kSF2" id="7jqSt7$X6p_" role="2Oq$k0">
+                <node concept="3uibUv" id="7jqSt7$X6pA" role="0kSFW">
+                  <ref role="3uigEE" node="7jqSt7yalTx" resolve="DockerPageComponent" />
+                </node>
+                <node concept="3yMSdA" id="7jqSt7$X6pB" role="0kSFX" />
+              </node>
+              <node concept="liA8E" id="7jqSt7$X6pC" role="2OqNvi">
+                <ref role="37wK5l" node="7jqSt7$KjXw" resolve="setDockerOptions" />
+                <node concept="2OqwBi" id="7jqSt7$X880" role="37wK5m">
+                  <node concept="2WthIp" id="7jqSt7$X7V4" role="2Oq$k0" />
+                  <node concept="34pFcN" id="7jqSt7$X8HJ" role="2OqNvi">
+                    <ref role="2WH_rO" node="7jqSt7$RDmk" resolve="dockerOptions" />
+                  </node>
                 </node>
               </node>
             </node>
