@@ -1008,6 +1008,33 @@ public class QueriesGenerated {
   public static boolean ifMacro_Condition_6583618001733606651(final IfMacroContext _context) {
     return Sequence.fromIterable(BehaviorReflection.invokeVirtual((Class<Iterable<String>>) ((Class) Object.class), _context.getNode(), "virtual_bioConductorDependencies_6583618001733614174", new Object[]{})).isNotEmpty();
   }
+  public static boolean ifMacro_Condition_8420290744922220128(final IfMacroContext _context) {
+    return SPropertyOperations.getBoolean(_context.getNode(), MetaAdapterFactory.getProperty(0x5d6bde844ce44eb5L, 0xa37e25a5edd55129L, 0x7c5f892f445924a4L, 0x74dae1d1e498f049L, "useCheckpoint"));
+  }
+  public static boolean ifMacro_Condition_8420290744922217199(final IfMacroContext _context) {
+    return SPropertyOperations.getBoolean(_context.getNode(), MetaAdapterFactory.getProperty(0x5d6bde844ce44eb5L, 0xa37e25a5edd55129L, 0x7c5f892f445924a4L, 0x74dae1d1e498f049L, "useCheckpoint"));
+  }
+  public static boolean ifMacro_Condition_8420290744923615843(final IfMacroContext _context) {
+    return SPropertyOperations.getBoolean(_context.getNode(), MetaAdapterFactory.getProperty(0x5d6bde844ce44eb5L, 0xa37e25a5edd55129L, 0x7c5f892f445924a4L, 0x74dae1d1e498f049L, "useCheckpoint"));
+  }
+  public static boolean ifMacro_Condition_8420290744922238604(final IfMacroContext _context) {
+    return SPropertyOperations.getBoolean(_context.getNode(), MetaAdapterFactory.getProperty(0x5d6bde844ce44eb5L, 0xa37e25a5edd55129L, 0x7c5f892f445924a4L, 0x74dae1d1e498f049L, "useCheckpoint"));
+  }
+  public static boolean ifMacro_Condition_8420290744922241214(final IfMacroContext _context) {
+    return SPropertyOperations.getBoolean(_context.getNode(), MetaAdapterFactory.getProperty(0x5d6bde844ce44eb5L, 0xa37e25a5edd55129L, 0x7c5f892f445924a4L, 0x74dae1d1e498f049L, "useCheckpoint"));
+  }
+  public static boolean ifMacro_Condition_8420290744922243801(final IfMacroContext _context) {
+    return SPropertyOperations.getBoolean(_context.getNode(), MetaAdapterFactory.getProperty(0x5d6bde844ce44eb5L, 0xa37e25a5edd55129L, 0x7c5f892f445924a4L, 0x74dae1d1e498f049L, "useCheckpoint"));
+  }
+  public static boolean ifMacro_Condition_8420290744922245288(final IfMacroContext _context) {
+    return SPropertyOperations.getBoolean(_context.getNode(), MetaAdapterFactory.getProperty(0x5d6bde844ce44eb5L, 0xa37e25a5edd55129L, 0x7c5f892f445924a4L, 0x74dae1d1e498f049L, "useCheckpoint"));
+  }
+  public static boolean ifMacro_Condition_8420290744923978313(final IfMacroContext _context) {
+    return SPropertyOperations.getBoolean(_context.getNode(), MetaAdapterFactory.getProperty(0x5d6bde844ce44eb5L, 0xa37e25a5edd55129L, 0x7c5f892f445924a4L, 0x74dae1d1e498f049L, "useCheckpoint"));
+  }
+  public static boolean ifMacro_Condition_8420290744923980894(final IfMacroContext _context) {
+    return SPropertyOperations.getBoolean(_context.getNode(), MetaAdapterFactory.getProperty(0x5d6bde844ce44eb5L, 0xa37e25a5edd55129L, 0x7c5f892f445924a4L, 0x74dae1d1e498f049L, "useCheckpoint"));
+  }
   public static SNode sourceNodeQuery_2826789978062877903(final SourceSubstituteMacroNodeContext _context) {
     return SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x5d6bde844ce44eb5L, 0xa37e25a5edd55129L, 0x461d7210878f1e4cL, 0x461d7210878f1e4dL, "expression"));
   }
