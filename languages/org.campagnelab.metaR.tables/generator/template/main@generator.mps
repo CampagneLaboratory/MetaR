@@ -23,8 +23,8 @@
     <import index="fxg7" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.io(JDK/java.io@java_stub)" />
     <import index="msyo" ref="f:java_stub#6ed54515-acc8-4d1e-a16c-9fd6cfe951ea#jetbrains.mps.util(MPS.Core/jetbrains.mps.util@java_stub)" />
     <import index="1mjk" ref="r:72b0aa20-b681-4aef-ad30-bb23b1f4b98c(org.campagnelab.metar.code.generator.helpers)" />
-    <import index="e2lb" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
+    <import index="e2lb" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" implicit="true" />
     <import index="42z1" ref="r:61980467-5cf8-4450-9d24-d597512183ad(org.campagnelab.styles.behavior)" implicit="true" />
     <import index="x7of" ref="r:437ca43c-6323-49fb-979f-681501286fcd(org.campagnelab.metar.code.annotations)" implicit="true" />
   </imports>
@@ -8156,6 +8156,20 @@
         <node concept="3_3kQU" id="5csGvVLtgxx" role="3_3kQL">
           <property role="3_3kQV" value="" />
         </node>
+        <node concept="1W57fq" id="7jqSt7$Aipu" role="lGtFl">
+          <node concept="3IZrLx" id="7jqSt7$Aipw" role="3IZSJc">
+            <node concept="3clFbS" id="7jqSt7$Aipy" role="2VODD2">
+              <node concept="3clFbF" id="7jqSt7$AiuM" role="3cqZAp">
+                <node concept="2OqwBi" id="7jqSt7$AiuN" role="3clFbG">
+                  <node concept="30H73N" id="7jqSt7$AiuO" role="2Oq$k0" />
+                  <node concept="3TrcHB" id="7jqSt7$AiuP" role="2OqNvi">
+                    <ref role="3TsBF5" to="jrxw:7jqSt7$Af19" resolve="useCheckpoint" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
       </node>
       <node concept="1gZcZf" id="5csGvVLtgxy" role="2G3XIn">
         <property role="1gZaPE" value="if (!require(&quot;checkpoint&quot;)) {install.packages(&quot;checkpoint&quot;,repos='http://cran.us.r-project.org'); library(&quot;checkpoint&quot;)}" />
@@ -8165,9 +8179,22 @@
         <node concept="3_3kQU" id="5csGvVLtgx$" role="3_3kQL">
           <property role="3_3kQV" value="" />
         </node>
+        <node concept="1W57fq" id="7jqSt7$AhFH" role="lGtFl">
+          <node concept="3IZrLx" id="7jqSt7$AhFJ" role="3IZSJc">
+            <node concept="3clFbS" id="7jqSt7$AhFL" role="2VODD2">
+              <node concept="3clFbF" id="7jqSt7$AhKQ" role="3cqZAp">
+                <node concept="2OqwBi" id="7jqSt7$AhPE" role="3clFbG">
+                  <node concept="30H73N" id="7jqSt7$AhKP" role="2Oq$k0" />
+                  <node concept="3TrcHB" id="7jqSt7$Aijj" role="2OqNvi">
+                    <ref role="3TsBF5" to="jrxw:7jqSt7$Af19" resolve="useCheckpoint" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
       </node>
       <node concept="1gZcZf" id="5csGvVLtgx_" role="2G3XIn">
-        <property role="1gZaPE" value="" />
         <node concept="3_3kQU" id="5csGvVLtgxA" role="3_3kQL">
           <property role="3_3kQV" value="cat(" />
         </node>
@@ -8227,18 +8254,23 @@
         <node concept="3_3kQU" id="5csGvVLtgxY" role="3_3kQL">
           <property role="3_3kQV" value="," />
         </node>
+        <node concept="1W57fq" id="7jqSt7$FB9x" role="lGtFl">
+          <node concept="3IZrLx" id="7jqSt7$FB9z" role="3IZSJc">
+            <node concept="3clFbS" id="7jqSt7$FB9_" role="2VODD2">
+              <node concept="3clFbF" id="7jqSt7$FBpI" role="3cqZAp">
+                <node concept="2OqwBi" id="7jqSt7$FBuy" role="3clFbG">
+                  <node concept="30H73N" id="7jqSt7$FBpH" role="2Oq$k0" />
+                  <node concept="3TrcHB" id="7jqSt7$FBQF" role="2OqNvi">
+                    <ref role="3TsBF5" to="jrxw:7jqSt7$Af19" resolve="useCheckpoint" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
       </node>
       <node concept="2G3XJi" id="5csGvVLtgxZ" role="2G3XIn">
         <property role="1gZaPE" value="" />
-        <node concept="1gZcZf" id="5csGvVLtgy0" role="2G3XIn">
-          <property role="1gZaPE" value="  " />
-          <node concept="3_3kQU" id="5csGvVLtgy1" role="3_3kQL">
-            <property role="3_3kQV" value="sep=&quot;\" />
-          </node>
-          <node concept="3_3kQU" id="5csGvVLtgy2" role="3_3kQL">
-            <property role="3_3kQV" value="n&quot;," />
-          </node>
-        </node>
         <node concept="1gZcZf" id="5csGvVLtgy3" role="2G3XIn">
           <property role="1gZaPE" value="  " />
           <node concept="3_3kQU" id="5csGvVLtgy4" role="3_3kQL">
@@ -8246,6 +8278,42 @@
           </node>
           <node concept="3_3kQU" id="5csGvVLtgy5" role="3_3kQL">
             <property role="3_3kQV" value="" />
+          </node>
+          <node concept="1W57fq" id="7jqSt7$AmUa" role="lGtFl">
+            <node concept="3IZrLx" id="7jqSt7$AmUc" role="3IZSJc">
+              <node concept="3clFbS" id="7jqSt7$AmUe" role="2VODD2">
+                <node concept="3clFbF" id="7jqSt7$AmZK" role="3cqZAp">
+                  <node concept="2OqwBi" id="7jqSt7$An4$" role="3clFbG">
+                    <node concept="30H73N" id="7jqSt7$AmZJ" role="2Oq$k0" />
+                    <node concept="3TrcHB" id="7jqSt7$AnsH" role="2OqNvi">
+                      <ref role="3TsBF5" to="jrxw:7jqSt7$Af19" resolve="useCheckpoint" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1gZcZf" id="5csGvVLtgy0" role="2G3XIn">
+          <node concept="3_3kQU" id="5csGvVLtgy1" role="3_3kQL">
+            <property role="3_3kQV" value="sep=&quot;\" />
+          </node>
+          <node concept="3_3kQU" id="5csGvVLtgy2" role="3_3kQL">
+            <property role="3_3kQV" value="n&quot;," />
+          </node>
+          <node concept="1W57fq" id="7jqSt7$AnyW" role="lGtFl">
+            <node concept="3IZrLx" id="7jqSt7$AnyY" role="3IZSJc">
+              <node concept="3clFbS" id="7jqSt7$Anz0" role="2VODD2">
+                <node concept="3clFbF" id="7jqSt7$AnCb" role="3cqZAp">
+                  <node concept="2OqwBi" id="7jqSt7$AnGZ" role="3clFbG">
+                    <node concept="30H73N" id="7jqSt7$AnCa" role="2Oq$k0" />
+                    <node concept="3TrcHB" id="7jqSt7$Ao58" role="2OqNvi">
+                      <ref role="3TsBF5" to="jrxw:7jqSt7$Af19" resolve="useCheckpoint" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
           </node>
         </node>
       </node>
@@ -8256,6 +8324,20 @@
         </node>
         <node concept="3_3kQU" id="5csGvVLtgy8" role="3_3kQL">
           <property role="3_3kQV" value="" />
+        </node>
+        <node concept="1W57fq" id="7jqSt7$Aobn" role="lGtFl">
+          <node concept="3IZrLx" id="7jqSt7$Aobp" role="3IZSJc">
+            <node concept="3clFbS" id="7jqSt7$Aobr" role="2VODD2">
+              <node concept="3clFbF" id="7jqSt7$Aosg" role="3cqZAp">
+                <node concept="2OqwBi" id="7jqSt7$Aosh" role="3clFbG">
+                  <node concept="30H73N" id="7jqSt7$Aosi" role="2Oq$k0" />
+                  <node concept="3TrcHB" id="7jqSt7$Aosj" role="2OqNvi">
+                    <ref role="3TsBF5" to="jrxw:7jqSt7$Af19" resolve="useCheckpoint" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
         </node>
       </node>
       <node concept="1gZcZf" id="5csGvVLtgy9" role="2G3XIn">
@@ -8272,6 +8354,20 @@
         <node concept="3_3kQU" id="5csGvVLtgyb" role="3_3kQL">
           <property role="3_3kQV" value="" />
         </node>
+        <node concept="1W57fq" id="7jqSt7$AoyA" role="lGtFl">
+          <node concept="3IZrLx" id="7jqSt7$AoyC" role="3IZSJc">
+            <node concept="3clFbS" id="7jqSt7$AoyE" role="2VODD2">
+              <node concept="3clFbF" id="7jqSt7$AoBU" role="3cqZAp">
+                <node concept="2OqwBi" id="7jqSt7$AoBV" role="3clFbG">
+                  <node concept="30H73N" id="7jqSt7$AoBW" role="2Oq$k0" />
+                  <node concept="3TrcHB" id="7jqSt7$AoBX" role="2OqNvi">
+                    <ref role="3TsBF5" to="jrxw:7jqSt7$Af19" resolve="useCheckpoint" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
       </node>
       <node concept="1gZcZf" id="5csGvVLtnlS" role="2G3XIn">
         <property role="1gZaPE" value="" />
@@ -8287,6 +8383,20 @@
         <node concept="3_3kQU" id="5csGvVLtlDy" role="3_3kQL">
           <property role="3_3kQV" value="#restore metaRlibs as target dir instead of .checkpoint" />
         </node>
+        <node concept="1W57fq" id="7jqSt7$GZD7" role="lGtFl">
+          <node concept="3IZrLx" id="7jqSt7$GZD9" role="3IZSJc">
+            <node concept="3clFbS" id="7jqSt7$GZDb" role="2VODD2">
+              <node concept="3clFbF" id="7jqSt7$GZIg" role="3cqZAp">
+                <node concept="2OqwBi" id="7jqSt7$GZN4" role="3clFbG">
+                  <node concept="30H73N" id="7jqSt7$GZIf" role="2Oq$k0" />
+                  <node concept="3TrcHB" id="7jqSt7$H0bd" role="2OqNvi">
+                    <ref role="3TsBF5" to="jrxw:7jqSt7$Af19" resolve="useCheckpoint" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
       </node>
       <node concept="2G3XJi" id="5csGvVLtlDE" role="2G3XIn">
         <property role="1gZaPE" value="" />
@@ -8297,6 +8407,20 @@
           </node>
           <node concept="3_3kQU" id="5csGvVLth64" role="3_3kQL">
             <property role="3_3kQV" value="" />
+          </node>
+          <node concept="1W57fq" id="7jqSt7$H0hs" role="lGtFl">
+            <node concept="3IZrLx" id="7jqSt7$H0hu" role="3IZSJc">
+              <node concept="3clFbS" id="7jqSt7$H0hw" role="2VODD2">
+                <node concept="3clFbF" id="7jqSt7$H0mK" role="3cqZAp">
+                  <node concept="2OqwBi" id="7jqSt7$H0mL" role="3clFbG">
+                    <node concept="30H73N" id="7jqSt7$H0mM" role="2Oq$k0" />
+                    <node concept="3TrcHB" id="7jqSt7$H0mN" role="2OqNvi">
+                      <ref role="3TsBF5" to="jrxw:7jqSt7$Af19" resolve="useCheckpoint" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
           </node>
         </node>
       </node>
