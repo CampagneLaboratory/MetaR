@@ -49,13 +49,13 @@
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="discreteFactors" />
       <property role="20lbJX" value="1..n" />
-      <ref role="20lvS9" node="2734ievAOED" resolve="DiscreteGroup" />
+      <ref role="20lvS9" node="2734ievAOED" resolve="DiscreteFactor" />
     </node>
     <node concept="1TJgyj" id="2734ievAQvm" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="continuousCovariate" />
       <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="2734ievAQvI" resolve="CovariateGroup" />
+      <ref role="20lvS9" node="2734ievAQvI" resolve="CovariateFactor" />
     </node>
     <node concept="1TJgyj" id="7$n2ViPrFPR" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -96,8 +96,8 @@
     </node>
   </node>
   <node concept="1TIwiD" id="2734ievAOED">
-    <property role="TrG5h" value="DiscreteGroup" />
-    <ref role="1TJDcQ" node="2734ievAQvF" resolve="Group" />
+    <property role="TrG5h" value="DiscreteFactor" />
+    <ref role="1TJDcQ" node="2734ievAQvF" resolve="Factor" />
     <node concept="1TJgyi" id="7hF4JJ2OOEk" role="1TKVEl">
       <property role="TrG5h" value="percentageOfAffectedGenes" />
       <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
@@ -111,7 +111,7 @@
     </node>
   </node>
   <node concept="1TIwiD" id="2734ievAQvF">
-    <property role="TrG5h" value="Group" />
+    <property role="TrG5h" value="Factor" />
     <property role="R5$K7" value="true" />
     <property role="R5$K2" value="false" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
@@ -120,8 +120,8 @@
     </node>
   </node>
   <node concept="1TIwiD" id="2734ievAQvI">
-    <property role="TrG5h" value="CovariateGroup" />
-    <ref role="1TJDcQ" node="2734ievAQvF" resolve="Group" />
+    <property role="TrG5h" value="CovariateFactor" />
+    <ref role="1TJDcQ" node="2734ievAQvF" resolve="Factor" />
     <node concept="1TJgyi" id="2734ievCkLH" role="1TKVEl">
       <property role="TrG5h" value="lower_limit" />
       <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />

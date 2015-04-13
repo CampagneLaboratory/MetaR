@@ -16,7 +16,7 @@ import org.campagnelab.metar.tables.behavior.FutureTable_Behavior;
 import org.campagnelab.metar.tables.behavior.Statement_Behavior;
 import jetbrains.mps.internal.collections.runtime.Sequence;
 import jetbrains.mps.internal.collections.runtime.ArrayUtils;
-import org.campagnelab.metar.simulation.behavior.DiscreteGroup_Behavior;
+import org.campagnelab.metar.simulation.behavior.DiscreteFactor_Behavior;
 import jetbrains.mps.generator.template.TemplateQueryContext;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.generator.template.SourceSubstituteMacroNodesContext;
@@ -71,7 +71,7 @@ public class QueriesGenerated {
     return SPropertyOperations.getString(_context.getNode(), MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name"));
   }
   public static Object propertyMacro_GetPropertyValue_4994424750902394600(final PropertyMacroContext _context) {
-    return IterableUtils.join(Sequence.fromIterable(ArrayUtils.fromIntegerArray(DiscreteGroup_Behavior.call_buildAffectedGeneList_885216527546972771(_context.getNode(), ((Integer) _context.getVariable("numOfGenes"))))).select(new ISelector<Integer, String>() {
+    return IterableUtils.join(Sequence.fromIterable(ArrayUtils.fromIntegerArray(DiscreteFactor_Behavior.call_buildAffectedGeneList_885216527546972771(_context.getNode(), ((Integer) _context.getVariable("numOfGenes"))))).select(new ISelector<Integer, String>() {
       public String select(Integer it) {
         return Integer.toString(it);
       }
