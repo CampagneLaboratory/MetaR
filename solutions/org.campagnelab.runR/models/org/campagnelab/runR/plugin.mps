@@ -1591,6 +1591,61 @@
                   </node>
                 </node>
               </node>
+              <node concept="3clFbH" id="2uFXGB4$rv8" role="3cqZAp" />
+              <node concept="3clFbJ" id="2uFXGB4$qIB" role="3cqZAp">
+                <node concept="3clFbS" id="2uFXGB4$qID" role="3clFbx">
+                  <node concept="3clFbF" id="2uFXGB4$rQ4" role="3cqZAp">
+                    <node concept="37vLTI" id="2uFXGB4$skx" role="3clFbG">
+                      <node concept="3clFbT" id="2uFXGB4$srQ" role="37vLTx">
+                        <property role="3clFbU" value="true" />
+                      </node>
+                      <node concept="37vLTw" id="2uFXGB4$rQ2" role="37vLTJ">
+                        <ref role="3cqZAo" node="7jqSt7z$nSx" resolve="useDocker" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3clFbF" id="2uFXGB4_MhR" role="3cqZAp">
+                    <node concept="37vLTI" id="2uFXGB4_Nlv" role="3clFbG">
+                      <node concept="3clFbT" id="2uFXGB4_Nth" role="37vLTx">
+                        <property role="3clFbU" value="true" />
+                      </node>
+                      <node concept="2OqwBi" id="2uFXGB4_MhT" role="37vLTJ">
+                        <node concept="2OqwBi" id="2uFXGB4_MhU" role="2Oq$k0">
+                          <node concept="2OqwBi" id="2uFXGB4_MhV" role="2Oq$k0">
+                            <node concept="RBKsg" id="2uFXGB4_MhW" role="2Oq$k0" />
+                            <node concept="yHkDZ" id="2uFXGB4_MhX" role="2OqNvi">
+                              <ref role="yHkDY" node="5gyVhZ17Jlr" resolve="myRunParameters" />
+                            </node>
+                          </node>
+                          <node concept="yHkDZ" id="2uFXGB4_MhY" role="2OqNvi">
+                            <ref role="yHkDY" node="1iB3Owqtn$$" resolve="properties" />
+                          </node>
+                        </node>
+                        <node concept="2sxana" id="2uFXGB4_MhZ" role="2OqNvi">
+                          <ref role="2sxfKC" node="7jqSt7yvSus" resolve="useDocker" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3clFbH" id="2uFXGB4_M9O" role="3cqZAp" />
+                </node>
+                <node concept="3clFbC" id="2uFXGB4$q7s" role="3clFbw">
+                  <node concept="3clFbT" id="2uFXGB4$qpj" role="3uHU7w">
+                    <property role="3clFbU" value="true" />
+                  </node>
+                  <node concept="2OqwBi" id="2uFXGB4$po6" role="3uHU7B">
+                    <node concept="2OqwBi" id="2uFXGB4$oEP" role="2Oq$k0">
+                      <node concept="21ER0p" id="2uFXGB4$ow_" role="2Oq$k0" />
+                      <node concept="LR4Ub" id="2uFXGB4$pgf" role="2OqNvi">
+                        <ref role="LR4Ua" node="7jqSt7y9hYG" resolve="DockerPreferences" />
+                      </node>
+                    </node>
+                    <node concept="34pFcN" id="2uFXGB4$p_Q" role="2OqNvi">
+                      <ref role="2WH_rO" node="2uFXGB4uP0T" resolve="useDockerByDefault" />
+                    </node>
+                  </node>
+                </node>
+              </node>
               <node concept="3clFbJ" id="7jqSt7z$nn_" role="3cqZAp">
                 <node concept="3clFbS" id="7jqSt7z$nnB" role="3clFbx">
                   <node concept="3clFbH" id="7jqSt7z$xru" role="3cqZAp" />
@@ -2112,8 +2167,8 @@
           </node>
           <node concept="2r$n1x" id="7jqSt7yvUYo" role="2r_Bvh">
             <ref role="2r$qp6" node="7jqSt7yvSus" resolve="useDocker" />
-            <node concept="3clFbT" id="7jqSt7yvVpr" role="2r_lH1">
-              <property role="3clFbU" value="false" />
+            <node concept="3clFbT" id="2uFXGB4y_fT" role="2r_lH1">
+              <property role="3clFbU" value="true" />
             </node>
           </node>
         </node>
@@ -2397,7 +2452,7 @@
               <node concept="1pGfFk" id="7jqSt7yw2PD" role="2ShVmc">
                 <ref role="37wK5l" to="xg1q:~JBLabel.&lt;init&gt;(java.lang.String)" resolve="JBLabel" />
                 <node concept="Xl_RD" id="7jqSt7yw2PE" role="37wK5m">
-                  <property role="Xl_RC" value="Use docker?" />
+                  <property role="Xl_RC" value="Use docker? (See Preferences&gt;Docker 'Always use Docker')" />
                 </node>
               </node>
             </node>
@@ -6283,7 +6338,7 @@
     <property role="TrG5h" value="DockerPreferences" />
     <node concept="3yqqq6" id="7jqSt7yag$4" role="3yq$HY">
       <property role="TrG5h" value="Docker" />
-      <property role="3EcmCg" value="Docker" />
+      <property role="3EcmCg" value="Docker (for MetaR)" />
       <node concept="3y$hsl" id="7jqSt7yag$5" role="3y$ekZ">
         <node concept="3clFbS" id="7jqSt7yag$6" role="2VODD2">
           <node concept="3cpWs8" id="7jqSt7ydwKc" role="3cqZAp">
@@ -6386,6 +6441,52 @@
               </node>
             </node>
           </node>
+          <node concept="3cpWs8" id="2uFXGB4v3BK" role="3cqZAp">
+            <node concept="3cpWsn" id="2uFXGB4v3BN" role="3cpWs9">
+              <property role="TrG5h" value="def" />
+              <node concept="10P_77" id="2uFXGB4v3BI" role="1tU5fm" />
+              <node concept="2OqwBi" id="2uFXGB4v1RQ" role="33vP2m">
+                <node concept="0kSF2" id="2uFXGB4v1RR" role="2Oq$k0">
+                  <node concept="3uibUv" id="2uFXGB4v1RS" role="0kSFW">
+                    <ref role="3uigEE" node="7jqSt7yalTx" resolve="DockerPageComponent" />
+                  </node>
+                  <node concept="3yMSdA" id="2uFXGB4v1RT" role="0kSFX" />
+                </node>
+                <node concept="liA8E" id="2uFXGB4v1RU" role="2OqNvi">
+                  <ref role="37wK5l" node="2uFXGB4rIRo" resolve="getUseDockerByDefault" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbJ" id="2uFXGB4v1RI" role="3cqZAp">
+            <node concept="3clFbS" id="2uFXGB4v1RJ" role="3clFbx">
+              <node concept="3clFbF" id="2uFXGB4v2B_" role="3cqZAp">
+                <node concept="37vLTI" id="2uFXGB4v8cI" role="3clFbG">
+                  <node concept="37vLTw" id="2uFXGB4v8z8" role="37vLTx">
+                    <ref role="3cqZAo" node="2uFXGB4v3BN" resolve="def" />
+                  </node>
+                  <node concept="2OqwBi" id="2uFXGB4v2Ri" role="37vLTJ">
+                    <node concept="2WthIp" id="2uFXGB4v2B$" role="2Oq$k0" />
+                    <node concept="34pFcN" id="2uFXGB4v6xV" role="2OqNvi">
+                      <ref role="2WH_rO" node="2uFXGB4uP0T" resolve="useDockerByDefault" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3y3z36" id="2uFXGB4v1RM" role="3clFbw">
+              <node concept="2OqwBi" id="2uFXGB4v1RN" role="3uHU7w">
+                <node concept="2WthIp" id="2uFXGB4v1RO" role="2Oq$k0" />
+                <node concept="34pFcN" id="2uFXGB4v1RP" role="2OqNvi">
+                  <ref role="2WH_rO" node="2uFXGB4uP0T" resolve="useDockerByDefault" />
+                </node>
+              </node>
+              <node concept="37vLTw" id="2uFXGB4v5t9" role="3uHU7B">
+                <ref role="3cqZAo" node="2uFXGB4v3BN" resolve="def" />
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbH" id="2uFXGB4v1Bc" role="3cqZAp" />
         </node>
       </node>
       <node concept="3yzWfJ" id="7jqSt7yag$7" role="3y$9q5">
@@ -6449,6 +6550,25 @@
                   <node concept="2WthIp" id="7jqSt7$X7V4" role="2Oq$k0" />
                   <node concept="34pFcN" id="7jqSt7$X8HJ" role="2OqNvi">
                     <ref role="2WH_rO" node="7jqSt7$RDmk" resolve="dockerOptions" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbF" id="2uFXGB4v8YU" role="3cqZAp">
+            <node concept="2OqwBi" id="2uFXGB4v8YV" role="3clFbG">
+              <node concept="0kSF2" id="2uFXGB4v8YW" role="2Oq$k0">
+                <node concept="3uibUv" id="2uFXGB4v8YX" role="0kSFW">
+                  <ref role="3uigEE" node="7jqSt7yalTx" resolve="DockerPageComponent" />
+                </node>
+                <node concept="3yMSdA" id="2uFXGB4v8YY" role="0kSFX" />
+              </node>
+              <node concept="liA8E" id="2uFXGB4v8YZ" role="2OqNvi">
+                <ref role="37wK5l" node="2uFXGB4rOR_" resolve="setUseDockerByDefault" />
+                <node concept="2OqwBi" id="2uFXGB4v8Z0" role="37wK5m">
+                  <node concept="2WthIp" id="2uFXGB4v8Z1" role="2Oq$k0" />
+                  <node concept="34pFcN" id="2uFXGB4v9So" role="2OqNvi">
+                    <ref role="2WH_rO" node="2uFXGB4uP0T" resolve="useDockerByDefault" />
                   </node>
                 </node>
               </node>
@@ -6573,7 +6693,34 @@
               </node>
             </node>
           </node>
-          <node concept="3clFbH" id="7jqSt7$RDU3" role="3cqZAp" />
+          <node concept="3clFbJ" id="2uFXGB4uQe7" role="3cqZAp">
+            <node concept="3clFbS" id="2uFXGB4uQe9" role="3clFbx">
+              <node concept="3cpWs6" id="2uFXGB4v07C" role="3cqZAp">
+                <node concept="3clFbT" id="2uFXGB4v0m5" role="3cqZAk">
+                  <property role="3clFbU" value="true" />
+                </node>
+              </node>
+            </node>
+            <node concept="3y3z36" id="2uFXGB4uZJL" role="3clFbw">
+              <node concept="2OqwBi" id="2uFXGB4v0TP" role="3uHU7w">
+                <node concept="2WthIp" id="2uFXGB4v0D3" role="2Oq$k0" />
+                <node concept="34pFcN" id="2uFXGB4v1j5" role="2OqNvi">
+                  <ref role="2WH_rO" node="2uFXGB4uP0T" resolve="useDockerByDefault" />
+                </node>
+              </node>
+              <node concept="2OqwBi" id="2uFXGB4uS34" role="3uHU7B">
+                <node concept="0kSF2" id="2uFXGB4uR6Y" role="2Oq$k0">
+                  <node concept="3uibUv" id="2uFXGB4uRpE" role="0kSFW">
+                    <ref role="3uigEE" node="7jqSt7yalTx" resolve="DockerPageComponent" />
+                  </node>
+                  <node concept="3yMSdA" id="2uFXGB4uQyj" role="0kSFX" />
+                </node>
+                <node concept="liA8E" id="2uFXGB4uZ5M" role="2OqNvi">
+                  <ref role="37wK5l" node="2uFXGB4rIRo" resolve="getUseDockerByDefault" />
+                </node>
+              </node>
+            </node>
+          </node>
           <node concept="3cpWs6" id="7jqSt7ydw75" role="3cqZAp">
             <node concept="3clFbT" id="7jqSt7ydvDe" role="3cqZAk" />
           </node>
@@ -6587,6 +6734,10 @@
     <node concept="34jfKJ" id="7jqSt7ya6yC" role="34lFYf">
       <property role="TrG5h" value="dockerCommandPath" />
       <node concept="17QB3L" id="7jqSt7yafIW" role="1tU5fm" />
+    </node>
+    <node concept="34jfKJ" id="2uFXGB4uP0T" role="34lFYf">
+      <property role="TrG5h" value="useDockerByDefault" />
+      <node concept="10P_77" id="2uFXGB4uPpb" role="1tU5fm" />
     </node>
   </node>
   <node concept="312cEu" id="7jqSt7yalTx">
@@ -6625,6 +6776,16 @@
       <node concept="3Tm6S6" id="7jqSt7$K2A3" role="1B3o_S" />
       <node concept="3uibUv" id="7jqSt7$LFrQ" role="1tU5fm">
         <ref role="3uigEE" to="dbrf:~JTextField" resolve="JTextField" />
+      </node>
+    </node>
+    <node concept="312cEg" id="2uFXGB4q9wu" role="jymVt">
+      <property role="34CwA1" value="false" />
+      <property role="eg7rD" value="false" />
+      <property role="3TUv4t" value="false" />
+      <property role="TrG5h" value="useDockerByDefault" />
+      <node concept="3Tm6S6" id="2uFXGB4q8ya" role="1B3o_S" />
+      <node concept="3uibUv" id="2uFXGB4q99O" role="1tU5fm">
+        <ref role="3uigEE" to="dbrf:~JCheckBox" resolve="JCheckBox" />
       </node>
     </node>
     <node concept="3clFbW" id="7jqSt7yc$aK" role="jymVt">
@@ -6772,6 +6933,71 @@
             </node>
           </node>
         </node>
+        <node concept="3cpWs8" id="2uFXGB4qdgS" role="3cqZAp">
+          <node concept="3cpWsn" id="2uFXGB4qdgT" role="3cpWs9">
+            <property role="TrG5h" value="defaultUseLabel" />
+            <node concept="3uibUv" id="2uFXGB4qdgU" role="1tU5fm">
+              <ref role="3uigEE" to="dbrf:~JLabel" resolve="JLabel" />
+            </node>
+            <node concept="2ShNRf" id="2uFXGB4qdgV" role="33vP2m">
+              <node concept="1pGfFk" id="2uFXGB4qdgW" role="2ShVmc">
+                <ref role="37wK5l" to="dbrf:~JLabel.&lt;init&gt;(java.lang.String)" resolve="JLabel" />
+                <node concept="Xl_RD" id="2uFXGB4qdgX" role="37wK5m">
+                  <property role="Xl_RC" value="Always use Docker when running MetaR analyses:" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="2uFXGB4qqH5" role="3cqZAp">
+          <node concept="2OqwBi" id="2uFXGB4qqH6" role="3clFbG">
+            <node concept="Xjq3P" id="2uFXGB4qqH7" role="2Oq$k0" />
+            <node concept="liA8E" id="2uFXGB4qqH8" role="2OqNvi">
+              <ref role="37wK5l" to="1t7x:~Container.add(java.awt.Component,java.lang.Object):void" resolve="add" />
+              <node concept="37vLTw" id="2uFXGB4qr1E" role="37wK5m">
+                <ref role="3cqZAo" node="2uFXGB4qdgT" resolve="defaultUseLabel" />
+              </node>
+              <node concept="1rwKMM" id="2uFXGB4qqHa" role="37wK5m">
+                <property role="1rwKMK" value="label" />
+                <node concept="3cmrfG" id="2uFXGB4qr8G" role="1rxHDW">
+                  <property role="3cmrfH" value="5" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="2uFXGB4qds4" role="3cqZAp">
+          <node concept="37vLTI" id="2uFXGB4qmeR" role="3clFbG">
+            <node concept="2ShNRf" id="2uFXGB4qm_7" role="37vLTx">
+              <node concept="1pGfFk" id="2uFXGB4qmvY" role="2ShVmc">
+                <ref role="37wK5l" to="dbrf:~JCheckBox.&lt;init&gt;()" resolve="JCheckBox" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="2uFXGB4qe9f" role="37vLTJ">
+              <node concept="Xjq3P" id="2uFXGB4qds2" role="2Oq$k0" />
+              <node concept="2OwXpG" id="2uFXGB4qjeW" role="2OqNvi">
+                <ref role="2Oxat5" node="2uFXGB4q9wu" resolve="useDockerByDefault" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="2uFXGB4qmPB" role="3cqZAp">
+          <node concept="2OqwBi" id="2uFXGB4qnf1" role="3clFbG">
+            <node concept="Xjq3P" id="2uFXGB4qmP_" role="2Oq$k0" />
+            <node concept="liA8E" id="2uFXGB4qpEJ" role="2OqNvi">
+              <ref role="37wK5l" to="1t7x:~Container.add(java.awt.Component,java.lang.Object):void" resolve="add" />
+              <node concept="37vLTw" id="2uFXGB4qpNd" role="37wK5m">
+                <ref role="3cqZAo" node="2uFXGB4q9wu" resolve="useDockerByDefault" />
+              </node>
+              <node concept="1rwKMM" id="2uFXGB4qq3s" role="37wK5m">
+                <property role="1rwKMK" value="field" />
+                <node concept="3cmrfG" id="2uFXGB4qrgO" role="1rxHDW">
+                  <property role="3cmrfH" value="6" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
       </node>
       <node concept="3Tm1VV" id="7jqSt7yc$aO" role="1B3o_S" />
     </node>
@@ -6870,6 +7096,52 @@
       <node concept="37vLTG" id="7jqSt7ydEel" role="3clF46">
         <property role="TrG5h" value="path" />
         <node concept="17QB3L" id="7jqSt7ydEek" role="1tU5fm" />
+      </node>
+    </node>
+    <node concept="2tJIrI" id="2uFXGB4rICh" role="jymVt" />
+    <node concept="3clFb_" id="2uFXGB4rIRo" role="jymVt">
+      <property role="TrG5h" value="getUseDockerByDefault" />
+      <node concept="10P_77" id="2uFXGB4rJdv" role="3clF45" />
+      <node concept="3Tm1VV" id="2uFXGB4rIRq" role="1B3o_S" />
+      <node concept="3clFbS" id="2uFXGB4rIRr" role="3clF47">
+        <node concept="3clFbF" id="2uFXGB4rIRs" role="3cqZAp">
+          <node concept="2OqwBi" id="2uFXGB4rJLU" role="3clFbG">
+            <node concept="37vLTw" id="2uFXGB4rIRn" role="2Oq$k0">
+              <ref role="3cqZAo" node="2uFXGB4q9wu" resolve="useDockerByDefault" />
+            </node>
+            <node concept="liA8E" id="2uFXGB4rOA_" role="2OqNvi">
+              <ref role="37wK5l" to="dbrf:~AbstractButton.isSelected():boolean" resolve="isSelected" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="2uFXGB4rOBR" role="jymVt" />
+    <node concept="3clFb_" id="2uFXGB4rOR_" role="jymVt">
+      <property role="TrG5h" value="setUseDockerByDefault" />
+      <node concept="3cqZAl" id="2uFXGB4rORA" role="3clF45" />
+      <node concept="3Tm1VV" id="2uFXGB4rORB" role="1B3o_S" />
+      <node concept="3clFbS" id="2uFXGB4rORC" role="3clF47">
+        <node concept="3clFbF" id="2uFXGB4rVm2" role="3cqZAp">
+          <node concept="2OqwBi" id="2uFXGB4s4ER" role="3clFbG">
+            <node concept="2OqwBi" id="2uFXGB4rVH4" role="2Oq$k0">
+              <node concept="Xjq3P" id="2uFXGB4rVm0" role="2Oq$k0" />
+              <node concept="2OwXpG" id="2uFXGB4s1f5" role="2OqNvi">
+                <ref role="2Oxat5" node="2uFXGB4q9wu" resolve="useDockerByDefault" />
+              </node>
+            </node>
+            <node concept="liA8E" id="2uFXGB4sas1" role="2OqNvi">
+              <ref role="37wK5l" to="dbrf:~AbstractButton.setSelected(boolean):void" resolve="setSelected" />
+              <node concept="37vLTw" id="2uFXGB4sbn0" role="37wK5m">
+                <ref role="3cqZAo" node="2uFXGB4rORG" resolve="useDockerByDefault" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="37vLTG" id="2uFXGB4rORG" role="3clF46">
+        <property role="TrG5h" value="useDockerByDefault" />
+        <node concept="10P_77" id="2uFXGB4rPhT" role="1tU5fm" />
       </node>
     </node>
     <node concept="3Tm1VV" id="7jqSt7yalTy" role="1B3o_S" />
