@@ -368,7 +368,7 @@
         <child id="1068580123160" name="condition" index="3clFbw" />
         <child id="1068580123161" name="ifTrue" index="3clFbx" />
       </concept>
-      <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
+      <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
       </concept>
       <concept id="1068580123137" name="jetbrains.mps.baseLanguage.structure.BooleanConstant" flags="nn" index="3clFbT">
@@ -1515,16 +1515,16 @@
                               <node concept="3clFbS" id="7jqSt7yBEj9" role="1bW5cS">
                                 <node concept="3clFbF" id="7jqSt7yBEAF" role="3cqZAp">
                                   <node concept="2OqwBi" id="7jqSt7yBGH8" role="3clFbG">
+                                    <node concept="2qgKlT" id="adx6FBIkJY" role="2OqNvi">
+                                      <ref role="37wK5l" to="v8sa:5RQTS2osRA4" resolve="getPath" />
+                                    </node>
                                     <node concept="2OqwBi" id="7jqSt7yBERa" role="2Oq$k0">
+                                      <node concept="2qgKlT" id="adx6FBImfF" role="2OqNvi">
+                                        <ref role="37wK5l" to="v8sa:1xeqmqKO$c4" resolve="getTable" />
+                                      </node>
                                       <node concept="37vLTw" id="7jqSt7yBEAE" role="2Oq$k0">
                                         <ref role="3cqZAo" node="7jqSt7yBEja" resolve="it" />
                                       </node>
-                                      <node concept="3TrEf2" id="7jqSt7yBFYW" role="2OqNvi">
-                                        <ref role="3Tt5mk" to="jrxw:2WRhvFtuQGF" />
-                                      </node>
-                                    </node>
-                                    <node concept="3TrcHB" id="7jqSt7yBHS5" role="2OqNvi">
-                                      <ref role="3TsBF5" to="ztlb:1UijAvvb9DM" resolve="path" />
                                     </node>
                                   </node>
                                 </node>
@@ -5166,7 +5166,7 @@
                 <node concept="liA8E" id="7jqSt7zlKmE" role="2OqNvi">
                   <ref role="37wK5l" to="msyo:~MacroHelper.expandPath(java.lang.String):java.lang.String" resolve="expandPath" />
                   <node concept="Xl_RD" id="7jqSt7zlKmF" role="37wK5m">
-                    <property role="Xl_RC" value="${org.campagnelab.hta.results_dir}" />
+                    <property role="Xl_RC" value="${org.campagnelab.metaR.results_dir}" />
                   </node>
                 </node>
               </node>
@@ -7150,7 +7150,7 @@
                 <node concept="liA8E" id="7jqSt7yAg6j" role="2OqNvi">
                   <ref role="37wK5l" to="msyo:~MacroHelper.expandPath(java.lang.String):java.lang.String" resolve="expandPath" />
                   <node concept="Xl_RD" id="7jqSt7yAg7d" role="37wK5m">
-                    <property role="Xl_RC" value="${org.campagnelab.hta.results_dir}" />
+                    <property role="Xl_RC" value="${org.campagnelab.metaR.results_dir}" />
                   </node>
                 </node>
               </node>
