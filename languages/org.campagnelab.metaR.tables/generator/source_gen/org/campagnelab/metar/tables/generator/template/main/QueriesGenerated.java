@@ -1017,10 +1017,10 @@ public class QueriesGenerated {
   public static boolean ifMacro_Condition_8420290744923615843(final IfMacroContext _context) {
     return SPropertyOperations.getBoolean(_context.getNode(), MetaAdapterFactory.getProperty(0x5d6bde844ce44eb5L, 0xa37e25a5edd55129L, 0x7c5f892f445924a4L, 0x74dae1d1e498f049L, "useCheckpoint"));
   }
-  public static boolean ifMacro_Condition_8420290744922238604(final IfMacroContext _context) {
+  public static boolean ifMacro_Condition_8420290744922241214(final IfMacroContext _context) {
     return SPropertyOperations.getBoolean(_context.getNode(), MetaAdapterFactory.getProperty(0x5d6bde844ce44eb5L, 0xa37e25a5edd55129L, 0x7c5f892f445924a4L, 0x74dae1d1e498f049L, "useCheckpoint"));
   }
-  public static boolean ifMacro_Condition_8420290744922241214(final IfMacroContext _context) {
+  public static boolean ifMacro_Condition_8420290744922238604(final IfMacroContext _context) {
     return SPropertyOperations.getBoolean(_context.getNode(), MetaAdapterFactory.getProperty(0x5d6bde844ce44eb5L, 0xa37e25a5edd55129L, 0x7c5f892f445924a4L, 0x74dae1d1e498f049L, "useCheckpoint"));
   }
   public static boolean ifMacro_Condition_8420290744922243801(final IfMacroContext _context) {
