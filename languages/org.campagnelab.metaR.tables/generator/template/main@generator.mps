@@ -23,8 +23,8 @@
     <import index="fxg7" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.io(JDK/java.io@java_stub)" />
     <import index="msyo" ref="f:java_stub#6ed54515-acc8-4d1e-a16c-9fd6cfe951ea#jetbrains.mps.util(MPS.Core/jetbrains.mps.util@java_stub)" />
     <import index="1mjk" ref="r:72b0aa20-b681-4aef-ad30-bb23b1f4b98c(org.campagnelab.metar.code.generator.helpers)" />
-    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="e2lb" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" implicit="true" />
+    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="42z1" ref="r:61980467-5cf8-4450-9d24-d597512183ad(org.campagnelab.styles.behavior)" implicit="true" />
     <import index="x7of" ref="r:437ca43c-6323-49fb-979f-681501286fcd(org.campagnelab.metar.code.annotations)" implicit="true" />
   </imports>
@@ -8271,6 +8271,28 @@
       </node>
       <node concept="2G3XJi" id="5csGvVLtgxZ" role="2G3XIn">
         <property role="1gZaPE" value="" />
+        <node concept="1gZcZf" id="5csGvVLtgy0" role="2G3XIn">
+          <node concept="3_3kQU" id="5csGvVLtgy1" role="3_3kQL">
+            <property role="3_3kQV" value="sep=&quot;\" />
+          </node>
+          <node concept="3_3kQU" id="5csGvVLtgy2" role="3_3kQL">
+            <property role="3_3kQV" value="n&quot;," />
+          </node>
+          <node concept="1W57fq" id="7jqSt7$AnyW" role="lGtFl">
+            <node concept="3IZrLx" id="7jqSt7$AnyY" role="3IZSJc">
+              <node concept="3clFbS" id="7jqSt7$Anz0" role="2VODD2">
+                <node concept="3clFbF" id="7jqSt7$AnCb" role="3cqZAp">
+                  <node concept="2OqwBi" id="7jqSt7$AnGZ" role="3clFbG">
+                    <node concept="30H73N" id="7jqSt7$AnCa" role="2Oq$k0" />
+                    <node concept="3TrcHB" id="7jqSt7$Ao58" role="2OqNvi">
+                      <ref role="3TsBF5" to="jrxw:7jqSt7$Af19" resolve="useCheckpoint" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="1gZcZf" id="5csGvVLtgy3" role="2G3XIn">
           <property role="1gZaPE" value="  " />
           <node concept="3_3kQU" id="5csGvVLtgy4" role="3_3kQL">
@@ -8286,28 +8308,6 @@
                   <node concept="2OqwBi" id="7jqSt7$An4$" role="3clFbG">
                     <node concept="30H73N" id="7jqSt7$AmZJ" role="2Oq$k0" />
                     <node concept="3TrcHB" id="7jqSt7$AnsH" role="2OqNvi">
-                      <ref role="3TsBF5" to="jrxw:7jqSt7$Af19" resolve="useCheckpoint" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="1gZcZf" id="5csGvVLtgy0" role="2G3XIn">
-          <node concept="3_3kQU" id="5csGvVLtgy1" role="3_3kQL">
-            <property role="3_3kQV" value="sep=&quot;\" />
-          </node>
-          <node concept="3_3kQU" id="5csGvVLtgy2" role="3_3kQL">
-            <property role="3_3kQV" value="n&quot;," />
-          </node>
-          <node concept="1W57fq" id="7jqSt7$AnyW" role="lGtFl">
-            <node concept="3IZrLx" id="7jqSt7$AnyY" role="3IZSJc">
-              <node concept="3clFbS" id="7jqSt7$Anz0" role="2VODD2">
-                <node concept="3clFbF" id="7jqSt7$AnCb" role="3cqZAp">
-                  <node concept="2OqwBi" id="7jqSt7$AnGZ" role="3clFbG">
-                    <node concept="30H73N" id="7jqSt7$AnCa" role="2Oq$k0" />
-                    <node concept="3TrcHB" id="7jqSt7$Ao58" role="2OqNvi">
                       <ref role="3TsBF5" to="jrxw:7jqSt7$Af19" resolve="useCheckpoint" />
                     </node>
                   </node>
