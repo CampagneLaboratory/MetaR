@@ -12829,13 +12829,28 @@
               <property role="1gZaPE" value="    cex = 2," />
             </node>
             <node concept="1gZcZf" id="6ZmHkZ7oIH3" role="2G3XIn">
-              <property role="1gZaPE" value="    cat.cex = 2," />
+              <property role="1gZaPE" value="    cat.cex = 1," />
             </node>
             <node concept="1gZcZf" id="6ZmHkZ7oIH4" role="2G3XIn">
-              <property role="1gZaPE" value="    cat.col=colors," />
+              <property role="1gZaPE" value="    cat.col=c(&quot;black&quot;)," />
             </node>
             <node concept="1gZcZf" id="6ZmHkZ7oIH5" role="2G3XIn">
               <property role="1gZaPE" value="    fill = colors," />
+            </node>
+            <node concept="1gZcZf" id="6lyZRE_mDu5" role="2G3XIn">
+              <property role="1gZaPE" value="" />
+              <node concept="3_3kQU" id="6lyZRE_mDwp" role="3_3kQL">
+                <property role="3_3kQV" value="" />
+              </node>
+              <node concept="3_3kQU" id="6lyZRE_mDu6" role="3_3kQL">
+                <property role="3_3kQV" value="" />
+              </node>
+            </node>
+            <node concept="1gZcZf" id="6lyZRE_mDwz" role="2G3XIn">
+              <property role="1gZaPE" value="cat.default.pos=c(&quot;text&quot;)," />
+              <node concept="3_3kQU" id="6lyZRE_mDw$" role="3_3kQL">
+                <property role="3_3kQV" value="" />
+              </node>
             </node>
             <node concept="1gZcZf" id="3FhMZyCUE6O" role="2G3XIn">
               <property role="1gZaPE" value="title=(main=inputT" />
@@ -13068,14 +13083,20 @@
             <node concept="1gZcZf" id="6ZmHkZ7p42F" role="2G3XIn">
               <property role="1gZaPE" value="" />
               <node concept="3_3kQU" id="6ZmHkZ7p42G" role="3_3kQL">
-                <property role="3_3kQV" value="    cat.cex = 2," />
+                <property role="3_3kQV" value="    cat.cex = 1," />
               </node>
             </node>
             <node concept="1gZcZf" id="3FhMZyCUHpk" role="2G3XIn">
-              <property role="1gZaPE" value="    cat.col=colors," />
+              <property role="1gZaPE" value="    cat.col=c('black')," />
             </node>
             <node concept="1gZcZf" id="3FhMZyCUHpl" role="2G3XIn">
               <property role="1gZaPE" value="    fill = colors," />
+            </node>
+            <node concept="1gZcZf" id="6lyZRE_mDtj" role="2G3XIn">
+              <property role="1gZaPE" value="cat.default.pos=c(&quot;text&quot;)," />
+              <node concept="3_3kQU" id="6lyZRE_mDtk" role="3_3kQL">
+                <property role="3_3kQV" value="" />
+              </node>
             </node>
             <node concept="1gZcZf" id="3FhMZyK8l6P" role="2G3XIn">
               <node concept="3_3kQU" id="3FhMZyK8l6Q" role="3_3kQL">
@@ -13417,6 +13438,12 @@
                   <property role="3_3kQV" value="    " />
                 </node>
               </node>
+              <node concept="1gZcZf" id="6lyZRE_mERH" role="2G3XIn">
+                <property role="1gZaPE" value="cat.default.pos=c(&quot;text&quot;)," />
+                <node concept="3_3kQU" id="6lyZRE_mERI" role="3_3kQL">
+                  <property role="3_3kQV" value="" />
+                </node>
+              </node>
               <node concept="1gZcZf" id="6ZmHkZ7pjR6" role="2G3XIn">
                 <node concept="3_3kQU" id="6ZmHkZ7pjR7" role="3_3kQL">
                   <property role="3_3kQV" value="   cex = 2," />
@@ -13425,11 +13452,11 @@
               <node concept="1gZcZf" id="6ZmHkZ7pjR8" role="2G3XIn">
                 <property role="1gZaPE" value="" />
                 <node concept="3_3kQU" id="6ZmHkZ7pjR9" role="3_3kQL">
-                  <property role="3_3kQV" value="    cat.cex = 2," />
+                  <property role="3_3kQV" value="    cat.cex = 1," />
                 </node>
               </node>
               <node concept="1gZcZf" id="3FhMZyCUHuv" role="2G3XIn">
-                <property role="1gZaPE" value="  cat.col=colors," />
+                <property role="1gZaPE" value="  cat.col=c(&quot;black&quot;)," />
               </node>
               <node concept="1gZcZf" id="3FhMZyCUHuw" role="2G3XIn">
                 <property role="1gZaPE" value="    fill = colors," />
@@ -14018,6 +14045,9 @@
               </node>
               <node concept="1gZcZf" id="3FhMZyCUHwF" role="2G3XIn">
                 <property role="1gZaPE" value="" />
+                <node concept="3_3kQU" id="6lyZRE_mEW7" role="3_3kQL">
+                  <property role="3_3kQV" value="" />
+                </node>
                 <node concept="3_3kQU" id="3FhMZyCUH_V" role="3_3kQL">
                   <property role="3_3kQV" value="" />
                 </node>
@@ -14025,8 +14055,14 @@
                   <property role="3_3kQV" value="" />
                 </node>
               </node>
+              <node concept="1gZcZf" id="6lyZRE_mEWi" role="2G3XIn">
+                <property role="1gZaPE" value="cat.default.pos=c(&quot;text&quot;)," />
+                <node concept="3_3kQU" id="6lyZRE_mEWj" role="3_3kQL">
+                  <property role="3_3kQV" value="" />
+                </node>
+              </node>
               <node concept="1gZcZf" id="3FhMZyCUHAn" role="2G3XIn">
-                <property role="1gZaPE" value="    cat.col=colors," />
+                <property role="1gZaPE" value="    cat.col=c(&quot;black&quot;)," />
               </node>
               <node concept="1gZcZf" id="3FhMZyCUHAo" role="2G3XIn">
                 <property role="1gZaPE" value="    fill = colors," />
@@ -14049,7 +14085,7 @@
               <node concept="1gZcZf" id="3FhMZyCUHAu" role="2G3XIn" />
               <node concept="1gZcZf" id="6ZmHkZ7pv8b" role="2G3XIn">
                 <node concept="3_3kQU" id="6ZmHkZ7pv8c" role="3_3kQL">
-                  <property role="3_3kQV" value="    cat.cex = 2," />
+                  <property role="3_3kQV" value="    cat.cex = 1," />
                 </node>
               </node>
               <node concept="1gZcZf" id="6ZmHkZ7pv8d" role="2G3XIn">
