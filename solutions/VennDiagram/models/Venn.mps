@@ -1201,9 +1201,6 @@
           <ref role="3MHf5w" node="6lyZREae0C1" resolve="A_DC" />
         </node>
       </node>
-      <node concept="S1EQe" id="6lyZRE$lD$L" role="ZXjPg">
-        <property role="S1EQ6" value="HCCLFGCJEK" />
-      </node>
     </node>
   </node>
   <node concept="3Mpm39" id="kv77ywK7G_">
