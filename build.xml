@@ -790,7 +790,6 @@
       </chunk>
       <chunk>
         <module file="${basedir}/solutions/org.campagnelab.editor.plugins/org.campagnelab.editor.plugins.msd" />
-        <module file="${basedir}/devkits/org.campagnelab.HTAnalysis.devkit" />
         <module file="${basedir}/languages/org.campagnelab.metar.accessories/org.campagnelab.metar.accessories.mpl" />
         <module file="${basedir}/languages/org.campagnelab.metar.models/org.campagnelab.metar.models.mpl" />
         <module file="${basedir}/solutions/org.campagnelab.runR/org.campagnelab.runR.msd" />
@@ -799,6 +798,7 @@
         <module file="${basedir}/languages/org.campagnelab.metar.edgeR/org.campagnelab.metar.edgeR.mpl" bootstrap="true" />
       </chunk>
       <chunk>
+        <module file="${basedir}/devkits/org.campagnelab.HTAnalysis.devkit" />
         <module file="${basedir}/languages/org.campagnelab.metar.limma/org.campagnelab.metar.limma.mpl" />
       </chunk>
       <chunk />
