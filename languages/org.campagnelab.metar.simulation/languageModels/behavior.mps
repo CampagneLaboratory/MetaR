@@ -13,6 +13,8 @@
     <import index="jrxw" ref="r:9f2bbfbf-f8b7-4b3b-92b1-b6a0e9642c10(org.campagnelab.metar.tables.structure)" />
     <import index="986b" ref="r:ec296f40-f73d-425d-b0d7-375a081142e4(org.campagnelab.mps.XChart.helpers)" />
     <import index="8m2y" ref="r:637d8b81-9211-452d-b50c-8c3ffbba4259(org.campagnelab.metar.simulation.code)" />
+    <import index="msyo" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/f:java_stub#6ed54515-acc8-4d1e-a16c-9fd6cfe951ea#jetbrains.mps.util(MPS.Core/jetbrains.mps.util@java_stub)" />
+    <import index="1mjk" ref="r:72b0aa20-b681-4aef-ad30-bb23b1f4b98c(org.campagnelab.metar.code.generator.helpers)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="e2lb" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" implicit="true" />
     <import index="hgbr" ref="r:35e57e46-a34e-4190-bb18-c2596691e768(org.campagnelab.metar.simulation.structure)" implicit="true" />
@@ -43,6 +45,7 @@
       <concept id="1215695189714" name="jetbrains.mps.baseLanguage.structure.PlusAssignmentExpression" flags="nn" index="d57v9" />
       <concept id="1153422305557" name="jetbrains.mps.baseLanguage.structure.LessThanOrEqualsExpression" flags="nn" index="2dkUwp" />
       <concept id="4836112446988635817" name="jetbrains.mps.baseLanguage.structure.UndefinedType" flags="in" index="2jxLKc" />
+      <concept id="1202948039474" name="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" flags="nn" index="liA8E" />
       <concept id="1465982738277781862" name="jetbrains.mps.baseLanguage.structure.PlaceholderMember" flags="ng" index="2tJIrI" />
       <concept id="1239714755177" name="jetbrains.mps.baseLanguage.structure.AbstractUnaryNumberOperation" flags="nn" index="2$Kvd9">
         <child id="1239714902950" name="expression" index="2$L3a6" />
@@ -334,6 +337,22 @@
       <node concept="3Tm1VV" id="7hF4JJ2Uui_" role="1B3o_S" />
       <node concept="3cqZAl" id="7hF4JJ2Llbb" role="3clF45" />
       <node concept="3clFbS" id="7hF4JJ2Ll21" role="3clF47">
+        <node concept="3cpWs8" id="WAEVbt3b3_" role="3cqZAp">
+          <node concept="3cpWsn" id="WAEVbt3b3F" role="3cpWs9">
+            <property role="TrG5h" value="table" />
+            <node concept="3Tqbb2" id="WAEVbt3bNt" role="1tU5fm">
+              <ref role="ehGHo" to="jrxw:2WRhvFtkykN" resolve="Table" />
+            </node>
+            <node concept="2OqwBi" id="WAEVbt3c8Z" role="33vP2m">
+              <node concept="37vLTw" id="WAEVbt3bO0" role="2Oq$k0">
+                <ref role="3cqZAo" node="7hF4JJ2Uw21" resolve="model" />
+              </node>
+              <node concept="2xF2bX" id="WAEVbt3cgm" role="2OqNvi">
+                <ref role="I8UWU" to="jrxw:2WRhvFtkykN" resolve="Table" />
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3clFbF" id="7hF4JJ2KZda" role="3cqZAp">
           <node concept="37vLTI" id="7hF4JJ2KZdb" role="3clFbG">
             <node concept="2OqwBi" id="7hF4JJ2KZdf" role="37vLTJ">
@@ -447,8 +466,8 @@
                     <ref role="3Tt5mk" to="hgbr:2734ievAS6k" />
                   </node>
                 </node>
-                <node concept="3TrEf2" id="7hF4JJ2Lp7D" role="2OqNvi">
-                  <ref role="3Tt5mk" to="jrxw:2WRhvFto5FZ" />
+                <node concept="3TrEf2" id="WAEVbt3mTu" role="2OqNvi">
+                  <ref role="3Tt5mk" to="jrxw:3R5AwWRY9K7" />
                 </node>
               </node>
               <node concept="3Tsc0h" id="7hF4JJ2Lq3E" role="2OqNvi">
@@ -1107,8 +1126,8 @@
                         <ref role="3Tt5mk" to="hgbr:2734ievAS6k" />
                       </node>
                     </node>
-                    <node concept="3TrEf2" id="4lfKH_JcCOZ" role="2OqNvi">
-                      <ref role="3Tt5mk" to="jrxw:2WRhvFto5FZ" />
+                    <node concept="3TrEf2" id="WAEVbt3ngB" role="2OqNvi">
+                      <ref role="3Tt5mk" to="jrxw:3R5AwWRY9K7" />
                     </node>
                   </node>
                   <node concept="3Tsc0h" id="4lfKH_JcCP0" role="2OqNvi">
@@ -1972,7 +1991,7 @@
     </node>
   </node>
   <node concept="13h7C7" id="7hF4JJ2OOEG">
-    <ref role="13h7C2" to="hgbr:2734ievAOED" resolve="DiscreteGroup" />
+    <ref role="13h7C2" to="hgbr:2734ievAOED" resolve="DiscreteFactor" />
     <node concept="13i0hz" id="4CUtYZUhEq" role="13h7CS">
       <property role="TrG5h" value="addToContainer" />
       <node concept="3Tm1VV" id="4CUtYZUhEr" role="1B3o_S" />
@@ -2653,7 +2672,7 @@
     <node concept="3Tm1VV" id="4CUtYZUcPd" role="1B3o_S" />
   </node>
   <node concept="13h7C7" id="4lfKH_J9qUt">
-    <ref role="13h7C2" to="hgbr:2734ievAQvI" resolve="CovariateGroup" />
+    <ref role="13h7C2" to="hgbr:2734ievAQvI" resolve="CovariateFactor" />
     <node concept="13i0hz" id="4lfKH_J9rCj" role="13h7CS">
       <property role="TrG5h" value="addToContainer" />
       <node concept="37vLTG" id="4lfKH_J9Wwo" role="3clF46">
@@ -3005,6 +3024,92 @@
     </node>
     <node concept="13hLZK" id="4lfKH_J9qUu" role="13h7CW">
       <node concept="3clFbS" id="4lfKH_J9qUv" role="2VODD2" />
+    </node>
+  </node>
+  <node concept="13h7C7" id="WAEVbt3Jf1">
+    <ref role="13h7C2" to="hgbr:WAEVbt3F3q" resolve="CovariateTable" />
+    <node concept="13i0hz" id="WAEVbt3RqB" role="13h7CS">
+      <property role="TrG5h" value="initialize" />
+      <node concept="3Tm1VV" id="WAEVbt3RqC" role="1B3o_S" />
+      <node concept="3cqZAl" id="WAEVbt3RHz" role="3clF45" />
+      <node concept="3clFbS" id="WAEVbt3RqE" role="3clF47">
+        <node concept="3clFbF" id="WAEVbt3dgl" role="3cqZAp">
+          <node concept="37vLTI" id="WAEVbt3f84" role="3clFbG">
+            <node concept="3cpWs3" id="WAEVbt3fKv" role="37vLTx">
+              <node concept="37vLTw" id="WAEVbt3TLP" role="3uHU7w">
+                <ref role="3cqZAo" node="WAEVbt3SYh" resolve="id" />
+              </node>
+              <node concept="Xl_RD" id="WAEVbt3ffC" role="3uHU7B">
+                <property role="Xl_RC" value="CovariateForSimulateDataset_" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="WAEVbt3dAs" role="37vLTJ">
+              <node concept="13iPFW" id="WAEVbt3P1n" role="2Oq$k0" />
+              <node concept="3TrcHB" id="WAEVbt3eZ3" role="2OqNvi">
+                <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="WAEVbt3iuo" role="3cqZAp">
+          <node concept="37vLTI" id="WAEVbt3jSd" role="3clFbG">
+            <node concept="2OqwBi" id="WAEVbt3iSb" role="37vLTJ">
+              <node concept="13iPFW" id="WAEVbt3Px4" role="2Oq$k0" />
+              <node concept="3TrcHB" id="WAEVbt3jy1" role="2OqNvi">
+                <ref role="3TsBF5" to="jrxw:w5znaeSg5k" resolve="pathToResolve" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="WAEVbt3z6z" role="37vLTx">
+              <node concept="2YIFZM" id="WAEVbt3z6$" role="2Oq$k0">
+                <ref role="1Pybhc" to="msyo:~MacrosFactory" resolve="MacrosFactory" />
+                <ref role="37wK5l" to="msyo:~MacrosFactory.getGlobal():jetbrains.mps.util.MacroHelper" resolve="getGlobal" />
+              </node>
+              <node concept="liA8E" id="WAEVbt3z6_" role="2OqNvi">
+                <ref role="37wK5l" to="msyo:~MacroHelper.expandPath(java.lang.String):java.lang.String" resolve="expandPath" />
+                <node concept="3cpWs3" id="WAEVbt3z6A" role="37wK5m">
+                  <node concept="Xl_RD" id="WAEVbt3z6B" role="3uHU7w">
+                    <property role="Xl_RC" value=".tsv" />
+                  </node>
+                  <node concept="3cpWs3" id="WAEVbt3z6C" role="3uHU7B">
+                    <node concept="3cpWs3" id="WAEVbt3z6D" role="3uHU7B">
+                      <node concept="Xl_RD" id="WAEVbt3z6E" role="3uHU7w">
+                        <property role="Xl_RC" value="_" />
+                      </node>
+                      <node concept="3cpWs3" id="WAEVbt3z6F" role="3uHU7B">
+                        <node concept="Xl_RD" id="WAEVbt3z6G" role="3uHU7B">
+                          <property role="Xl_RC" value="${org.campagnelab.metaR.results_dir}/table_" />
+                        </node>
+                        <node concept="2YIFZM" id="5t2d4LpQxYu" role="3uHU7w">
+                          <ref role="1Pybhc" to="1mjk:ESqoaSL1tG" resolve="NameHelper" />
+                          <ref role="37wK5l" to="1mjk:ESqoaSL1vt" resolve="RName" />
+                          <node concept="2OqwBi" id="5t2d4LpQxYv" role="37wK5m">
+                            <node concept="13iPFW" id="5t2d4LpQxYw" role="2Oq$k0" />
+                            <node concept="3TrcHB" id="5t2d4LpQxYx" role="2OqNvi">
+                              <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="1eOMI4" id="WAEVbt3z6K" role="3uHU7w">
+                      <node concept="37vLTw" id="WAEVbt3UhU" role="1eOMHV">
+                        <ref role="3cqZAo" node="WAEVbt3SYh" resolve="id" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="37vLTG" id="WAEVbt3SYh" role="3clF46">
+        <property role="TrG5h" value="id" />
+        <node concept="17QB3L" id="WAEVbt3SYg" role="1tU5fm" />
+      </node>
+    </node>
+    <node concept="13hLZK" id="WAEVbt3Jf2" role="13h7CW">
+      <node concept="3clFbS" id="WAEVbt3Jf3" role="2VODD2" />
     </node>
   </node>
 </model>
