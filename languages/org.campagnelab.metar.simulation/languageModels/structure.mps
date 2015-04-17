@@ -22,6 +22,7 @@
         <reference id="1169127628841" name="intfc" index="PrY4T" />
       </concept>
       <concept id="1071489090640" name="jetbrains.mps.lang.structure.structure.ConceptDeclaration" flags="ig" index="1TIwiD">
+        <property id="1096454100552" name="rootable" index="19KtqR" />
         <reference id="1071489389519" name="extends" index="1TJDcQ" />
         <child id="1169129564478" name="implements" index="PzmwI" />
       </concept>
@@ -67,7 +68,7 @@
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="covariateTable" />
       <property role="20lbJX" value="1" />
-      <ref role="20lvS9" to="jrxw:2WRhvFto5F5" resolve="FutureTable" />
+      <ref role="20lvS9" to="jrxw:3R5AwWRY9uN" resolve="TableRef" />
     </node>
     <node concept="1TJgyj" id="7hF4JJ2RXF0" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -163,6 +164,11 @@
     <node concept="PrWs8" id="4CUtYZMZzH" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
+  </node>
+  <node concept="1TIwiD" id="WAEVbt3F3q">
+    <property role="TrG5h" value="CovariateTable" />
+    <property role="19KtqR" value="true" />
+    <ref role="1TJDcQ" to="jrxw:2WRhvFtkykN" resolve="Table" />
   </node>
 </model>
 
