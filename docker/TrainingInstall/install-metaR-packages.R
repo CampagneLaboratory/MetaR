@@ -23,4 +23,5 @@ if (!require("pheatmap")) {install.packages("pheatmap",repos='http://cran.us.r-p
 if (!require("limma")) {install.packages("limma",repos='http://cran.us.r-project.org'); library("limma")}
 if (!require("graphics")) {install.packages("graphics",repos='http://cran.us.r-project.org'); library("graphics")}
 if (!require("data.table")) {install.packages("data.table",repos='http://cran.us.r-project.org'); library("data.table")}
+if (!require("VennDiagram")) {install.packages("VennDiagram",repos='http://cran.us.r-project.org'); library("VennDiagram")}
 q()
