@@ -19,6 +19,11 @@
     <import index="wiqx" ref="r:6bfd7c1b-dea3-4f98-9ed3-bce7739b7a8d(org.campagnelab.metar.accessories.styles.colors)" implicit="true" />
   </imports>
   <registry>
+    <language id="93bc01ac-08ca-4f11-9c7d-614d04055dfb" name="org.campagnelab.mps.editor2pdf">
+      <concept id="893392931327129896" name="org.campagnelab.mps.editor2pdf.structure.DiagramOutputDirectory" flags="ng" index="KZc4b">
+        <property id="893392931327129956" name="path" index="KZc57" />
+      </concept>
+    </language>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
       <concept id="1111509017652" name="jetbrains.mps.baseLanguage.structure.FloatingPointConstant" flags="nn" index="3b6qkQ">
         <property id="1113006610751" name="value" index="$nhwW" />
@@ -666,9 +671,6 @@
           </node>
         </node>
       </node>
-      <node concept="S1EQe" id="3FhMZyG2E1R" role="ZXjPg">
-        <property role="S1EQ6" value="QLHRGKUJJQ" />
-      </node>
       <node concept="3WuldX" id="1o6_6Kpg$bJ" role="ZXjPg">
         <property role="S1EQ6" value="ASOTHVAODT" />
         <property role="8NYsT" value="false" />
@@ -1184,10 +1186,10 @@
           <ref role="3MHf5w" node="6lyZREae0C1" resolve="A_DC" />
         </node>
         <node concept="3MHf5z" id="6lyZRE$l$Lz" role="2_9Z7y">
-          <ref role="3MHf5w" node="6lyZREl7RuH" resolve="A_DC" />
+          <ref role="3MHf5w" node="6lyZREae0C1" resolve="A_DC" />
         </node>
         <node concept="3MHf5z" id="6lyZRE$l$LF" role="2_9Z7y">
-          <ref role="3MHf5w" node="6lyZREl7Rxt" resolve="A_DC" />
+          <ref role="3MHf5w" node="6lyZREae0C1" resolve="A_DC" />
         </node>
       </node>
       <node concept="2p5owa" id="6lyZRE$lDoh" role="ZXjPg">
@@ -1200,6 +1202,27 @@
         <node concept="3MHf5z" id="6lyZRE$lDst" role="2pJHDb">
           <ref role="3MHf5w" node="6lyZREae0C1" resolve="A_DC" />
         </node>
+      </node>
+      <node concept="S1EQe" id="6lyZREC$goJ" role="ZXjPg">
+        <property role="S1EQ6" value="LWUYDINMUS" />
+      </node>
+      <node concept="S1EQe" id="6lyZREC$gL0" role="ZXjPg">
+        <property role="S1EQ6" value="MRFMCGUAXH" />
+      </node>
+      <node concept="S1EQe" id="6lyZREC$gQo" role="ZXjPg">
+        <property role="S1EQ6" value="VVQEKPVVLJ" />
+      </node>
+      <node concept="S1EQe" id="6lyZREC$gVL" role="ZXjPg">
+        <property role="S1EQ6" value="PPFHDLIICP" />
+      </node>
+      <node concept="S1EQe" id="6lyZREC$h1b" role="ZXjPg">
+        <property role="S1EQ6" value="KTRTWNAKTX" />
+      </node>
+      <node concept="S1EQe" id="6lyZREC$h6A" role="ZXjPg">
+        <property role="S1EQ6" value="MQBGBQBEES" />
+      </node>
+      <node concept="S1EQe" id="6lyZREC$hc2" role="ZXjPg">
+        <property role="S1EQ6" value="PBLGEGLOQP" />
       </node>
     </node>
   </node>
@@ -1474,6 +1497,10 @@
     <node concept="1VdfCG" id="3FhMZyIP_fs" role="24tCWN">
       <property role="TrG5h" value="Color" />
     </node>
+  </node>
+  <node concept="KZc4b" id="6lyZREC$gsZ">
+    <property role="TrG5h" value="outputPDF" />
+    <property role="KZc57" value="/Users/williamdigan/Desktop/" />
   </node>
 </model>
 
