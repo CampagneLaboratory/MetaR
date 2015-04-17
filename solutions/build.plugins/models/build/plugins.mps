@@ -559,6 +559,9 @@
         <node concept="3LEDTy" id="6g5l50dUyJZ" role="3LEDUa">
           <ref role="3LEDTV" node="6g5l50dUyaG" resolve="org.campagnelab.metar.models" />
         </node>
+        <node concept="3LEDTy" id="WAEVbtieSY" role="3LEDUa">
+          <ref role="3LEDTV" node="WAEVbtgcBG" resolve="org.campagnelab.metar.limma" />
+        </node>
       </node>
       <node concept="1E1JtD" id="7Mz7YANVaRX" role="2G$12L">
         <property role="BnDLt" value="true" />
