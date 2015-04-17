@@ -12279,7 +12279,7 @@
         </node>
       </node>
       <node concept="1gZcZf" id="3FhMZyJUpTd" role="2G3XIn">
-        <property role="1gZaPE" value="print(&quot;add predinfed color due to missing color value&quot;);" />
+        <property role="1gZaPE" value="print(&quot;add predifined color due to missing color value&quot;);" />
         <node concept="3_3kQU" id="3FhMZyJUpTe" role="3_3kQL">
           <property role="3_3kQV" value="" />
         </node>
@@ -13105,13 +13105,19 @@
               <property role="1gZaPE" value="    cex = 2," />
             </node>
             <node concept="1gZcZf" id="6ZmHkZ7oIH3" role="2G3XIn">
-              <property role="1gZaPE" value="    cat.cex = 2," />
+              <property role="1gZaPE" value="    cat.cex = 1," />
             </node>
             <node concept="1gZcZf" id="6ZmHkZ7oIH4" role="2G3XIn">
-              <property role="1gZaPE" value="    cat.col=colors," />
+              <property role="1gZaPE" value="    cat.col=c(&quot;black&quot;)," />
             </node>
             <node concept="1gZcZf" id="6ZmHkZ7oIH5" role="2G3XIn">
               <property role="1gZaPE" value="    fill = colors," />
+            </node>
+            <node concept="1gZcZf" id="54xe7lDNoUx" role="2G3XIn">
+              <property role="1gZaPE" value="cat.default.pos=c(&quot;text&quot;)," />
+              <node concept="3_3kQU" id="54xe7lDNoUy" role="3_3kQL">
+                <property role="3_3kQV" value="" />
+              </node>
             </node>
             <node concept="1gZcZf" id="3FhMZyCUE6O" role="2G3XIn">
               <property role="1gZaPE" value="title=(main=inputT" />
@@ -13344,11 +13350,26 @@
             <node concept="1gZcZf" id="6ZmHkZ7p42F" role="2G3XIn">
               <property role="1gZaPE" value="" />
               <node concept="3_3kQU" id="6ZmHkZ7p42G" role="3_3kQL">
-                <property role="3_3kQV" value="    cat.cex = 2," />
+                <property role="3_3kQV" value="    cat.cex = 1," />
               </node>
             </node>
             <node concept="1gZcZf" id="3FhMZyCUHpk" role="2G3XIn">
-              <property role="1gZaPE" value="    cat.col=colors," />
+              <property role="1gZaPE" value="    cat.col=c(&quot;black&quot;)," />
+            </node>
+            <node concept="1gZcZf" id="54xe7lDNoV9" role="2G3XIn">
+              <property role="1gZaPE" value="" />
+              <node concept="3_3kQU" id="54xe7lDNoYt" role="3_3kQL">
+                <property role="3_3kQV" value="" />
+              </node>
+              <node concept="3_3kQU" id="54xe7lDNoVa" role="3_3kQL">
+                <property role="3_3kQV" value="" />
+              </node>
+            </node>
+            <node concept="1gZcZf" id="54xe7lDNoYB" role="2G3XIn">
+              <property role="1gZaPE" value="cat.default.pos=c(&quot;text&quot;)," />
+              <node concept="3_3kQU" id="54xe7lDNoYC" role="3_3kQL">
+                <property role="3_3kQV" value="" />
+              </node>
             </node>
             <node concept="1gZcZf" id="3FhMZyCUHpl" role="2G3XIn">
               <property role="1gZaPE" value="    fill = colors," />
@@ -13693,6 +13714,12 @@
                   <property role="3_3kQV" value="    " />
                 </node>
               </node>
+              <node concept="1gZcZf" id="54xe7lDNoZv" role="2G3XIn">
+                <property role="1gZaPE" value="cat.default.pos=c(&quot;text&quot;)," />
+                <node concept="3_3kQU" id="54xe7lDNoZw" role="3_3kQL">
+                  <property role="3_3kQV" value="" />
+                </node>
+              </node>
               <node concept="1gZcZf" id="6ZmHkZ7pjR6" role="2G3XIn">
                 <node concept="3_3kQU" id="6ZmHkZ7pjR7" role="3_3kQL">
                   <property role="3_3kQV" value="   cex = 2," />
@@ -13701,11 +13728,11 @@
               <node concept="1gZcZf" id="6ZmHkZ7pjR8" role="2G3XIn">
                 <property role="1gZaPE" value="" />
                 <node concept="3_3kQU" id="6ZmHkZ7pjR9" role="3_3kQL">
-                  <property role="3_3kQV" value="    cat.cex = 2," />
+                  <property role="3_3kQV" value="    cat.cex = 1," />
                 </node>
               </node>
               <node concept="1gZcZf" id="3FhMZyCUHuv" role="2G3XIn">
-                <property role="1gZaPE" value="  cat.col=colors," />
+                <property role="1gZaPE" value="  cat.col=c(&quot;black&quot;)," />
               </node>
               <node concept="1gZcZf" id="3FhMZyCUHuw" role="2G3XIn">
                 <property role="1gZaPE" value="    fill = colors," />
@@ -14302,7 +14329,7 @@
                 </node>
               </node>
               <node concept="1gZcZf" id="3FhMZyCUHAn" role="2G3XIn">
-                <property role="1gZaPE" value="    cat.col=colors," />
+                <property role="1gZaPE" value="    cat.col=c(&quot;black&quot;)," />
               </node>
               <node concept="1gZcZf" id="3FhMZyCUHAo" role="2G3XIn">
                 <property role="1gZaPE" value="    fill = colors," />
@@ -14322,10 +14349,16 @@
                   <property role="3_3kQV" value="" />
                 </node>
               </node>
+              <node concept="1gZcZf" id="54xe7lDNp0B" role="2G3XIn">
+                <property role="1gZaPE" value="cat.default.pos=c(&quot;text&quot;)," />
+                <node concept="3_3kQU" id="54xe7lDNp0C" role="3_3kQL">
+                  <property role="3_3kQV" value="" />
+                </node>
+              </node>
               <node concept="1gZcZf" id="3FhMZyCUHAu" role="2G3XIn" />
               <node concept="1gZcZf" id="6ZmHkZ7pv8b" role="2G3XIn">
                 <node concept="3_3kQU" id="6ZmHkZ7pv8c" role="3_3kQL">
-                  <property role="3_3kQV" value="    cat.cex = 2," />
+                  <property role="3_3kQV" value="    cat.cex = 1," />
                 </node>
               </node>
               <node concept="1gZcZf" id="6ZmHkZ7pv8d" role="2G3XIn">
