@@ -1347,7 +1347,7 @@
               <node concept="1eOMI4" id="4r50q8aI6Gx" role="3uHU7B">
                 <node concept="3eOVzh" id="4r50q8aI6Gy" role="1eOMHV">
                   <node concept="3b6qkQ" id="4r50q8aI6Gz" role="3uHU7w">
-                    <property role="$nhwW" value="0.01" />
+                    <property role="$nhwW" value="0.0001" />
                   </node>
                   <node concept="3$Gm2I" id="4r50q8aI6G$" role="3uHU7B">
                     <ref role="3$Gm2J" node="6g5l50dUIOk" resolve="FDR" />
@@ -1368,8 +1368,8 @@
           <ref role="afgo8" node="4r50q8aI6F7" resolve="1% FDR" />
         </node>
         <node concept="1FHg$p" id="4r50q8aI6GB" role="1FHg$q">
-          <property role="ZHjxa" value="300" />
-          <property role="ZHjG8" value="200" />
+          <property role="ZHjxa" value="400" />
+          <property role="ZHjG8" value="800" />
           <property role="TrG5h" value="plot" />
         </node>
         <node concept="2tnku" id="4r50q8aI6GD" role="2thHW">
@@ -1397,8 +1397,8 @@
           <ref role="312p7B" node="4r50q8aI6GB" resolve="plot" />
         </node>
         <node concept="1FHg$p" id="4r50q8aI6GL" role="319mBM">
-          <property role="ZHjxa" value="400" />
-          <property role="ZHjG8" value="400" />
+          <property role="ZHjxa" value="600" />
+          <property role="ZHjG8" value="800" />
           <property role="TrG5h" value="PreviewHeatmap" />
         </node>
       </node>
