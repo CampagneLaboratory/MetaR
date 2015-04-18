@@ -685,7 +685,10 @@
           </node>
         </node>
         <node concept="1gZcZf" id="7LV$PmMyW9c" role="2G3XIn">
-          <property role="1gZaPE" value="stop();" />
+          <property role="1gZaPE" value="" />
+          <node concept="3_3kQU" id="6YH$XmR7IHP" role="3_3kQL">
+            <property role="3_3kQV" value="stop();" />
+          </node>
           <node concept="3_3kQU" id="7LV$PmMyW9d" role="3_3kQL">
             <property role="3_3kQV" value="" />
           </node>

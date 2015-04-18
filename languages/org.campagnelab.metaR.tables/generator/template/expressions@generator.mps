@@ -298,7 +298,10 @@
       <ref role="30HIoZ" to="jrxw:70Aomqk_K78" resolve="ColumnValue" />
       <node concept="gft3U" id="6K3KmzqjLqB" role="1lVwrX">
         <node concept="1gZcZf" id="6K3KmzqjLqH" role="gfFT$">
-          <property role="1gZaPE" value="colName" />
+          <property role="1gZaPE" value="" />
+          <node concept="3_3kQU" id="34IQjxasqU2" role="3_3kQL">
+            <property role="3_3kQV" value="colName" />
+          </node>
           <node concept="3_3kQU" id="6K3KmzqjLqJ" role="3_3kQL">
             <property role="3_3kQV" value="" />
           </node>

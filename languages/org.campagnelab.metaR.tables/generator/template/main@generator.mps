@@ -2139,7 +2139,10 @@
           </node>
         </node>
         <node concept="1gZcZf" id="6yCrzs9bZPv" role="2G3XIn">
-          <property role="1gZaPE" value="# Add the columns back in the destination:" />
+          <property role="1gZaPE" value="" />
+          <node concept="3_3kQU" id="34IQjxasuBF" role="3_3kQL">
+            <property role="3_3kQV" value="# Add the columns back in the destination:" />
+          </node>
           <node concept="3_3kQU" id="6yCrzs9bZPw" role="3_3kQL">
             <property role="3_3kQV" value="" />
           </node>
@@ -2456,7 +2459,10 @@
           </node>
         </node>
         <node concept="1gZcZf" id="74E64ik1xGV" role="2G3XIn">
-          <property role="1gZaPE" value="# Add the rename back source columns" />
+          <property role="1gZaPE" value="" />
+          <node concept="3_3kQU" id="34IQjxasuBC" role="3_3kQL">
+            <property role="3_3kQV" value="# Add the rename back source columns" />
+          </node>
           <node concept="3_3kQU" id="74E64ik1xGW" role="3_3kQL">
             <property role="3_3kQV" value="" />
           </node>
@@ -2525,7 +2531,7 @@
                                   <ref role="3cqZAo" node="5qhB25DhUrt" resolve="builder" />
                                 </node>
                                 <node concept="liA8E" id="4bcN0BgkTlz" role="2OqNvi">
-                                  <ref role="37wK5l" to="e2lb:~StringBuilder.append(java.lang.Object):java.lang.StringBuilder" resolve="append" />
+                                  <ref role="37wK5l" to="e2lb:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
                                   <node concept="3cpWs3" id="4bcN0BgkXX$" role="37wK5m">
                                     <node concept="Xl_RD" id="4bcN0BgkYJY" role="3uHU7w">
                                       <property role="Xl_RC" value=" &lt;- " />
@@ -7958,9 +7964,6 @@
           </node>
         </node>
       </node>
-    </node>
-    <node concept="2G3XJi" id="2WRhvFtNQ23" role="2JYHEr">
-      <property role="1gZaPE" value="" />
       <node concept="1gZcZf" id="1o6_6Kqay2l" role="2G3XIn">
         <property role="1gZaPE" value="" />
         <node concept="3_3kQU" id="1o6_6Kqay2m" role="3_3kQL">
@@ -7968,7 +7971,10 @@
         </node>
       </node>
       <node concept="1gZcZf" id="2aBeJjGk$ra" role="2G3XIn">
-        <property role="1gZaPE" value="#Create installation dir for packages" />
+        <property role="1gZaPE" value="" />
+        <node concept="3_3kQU" id="34IQjxaqXSt" role="3_3kQL">
+          <property role="3_3kQV" value="#Create installation dir for packages" />
+        </node>
         <node concept="3_3kQU" id="2aBeJjGk_9C" role="3_3kQL">
           <property role="3_3kQV" value="" />
         </node>
@@ -8030,10 +8036,16 @@
           <node concept="3_3kQU" id="2aBeJjGkCMW" role="3_3kQL" />
         </node>
         <node concept="1gZcZf" id="2aBeJjGkC3O" role="2G3XIn">
-          <property role="1gZaPE" value="dir.create(file.path(libDir), showWarnings = FALSE, recursive = TRUE)" />
+          <property role="1gZaPE" value="" />
+          <node concept="3_3kQU" id="34IQjxaqXSx" role="3_3kQL">
+            <property role="3_3kQV" value="dir.create(file.path(libDir), showWarnings = FALSE, recursive = TRUE)" />
+          </node>
         </node>
         <node concept="1gZcZf" id="2aBeJjGkC3Q" role="2G3XIn">
-          <property role="1gZaPE" value=".libPaths(c(libDir))" />
+          <property role="1gZaPE" value="" />
+          <node concept="3_3kQU" id="34IQjxaqX3Z" role="3_3kQL">
+            <property role="3_3kQV" value=".libPaths(c(libDir))" />
+          </node>
         </node>
       </node>
       <node concept="1gZcZf" id="2aBeJjGk_9O" role="2G3XIn">
@@ -8045,16 +8057,25 @@
       <node concept="2G3XJi" id="5HtHr3EcHMP" role="2G3XIn">
         <property role="1gZaPE" value="" />
         <node concept="1gZcZf" id="5HtHr3EfCIh" role="2G3XIn">
-          <property role="1gZaPE" value="if (!require(&quot;BiocInstaller&quot;)) {" />
+          <property role="1gZaPE" value="" />
+          <node concept="3_3kQU" id="34IQjxaqWvl" role="3_3kQL">
+            <property role="3_3kQV" value="if (!require(&quot;BiocInstaller&quot;)) {" />
+          </node>
           <node concept="3_3kQU" id="5HtHr3EfCIi" role="3_3kQL">
             <property role="3_3kQV" value="" />
           </node>
         </node>
         <node concept="1gZcZf" id="5HtHr3EcHMQ" role="2G3XIn">
-          <property role="1gZaPE" value="# Install bioconductor packages:" />
+          <property role="1gZaPE" value="" />
+          <node concept="3_3kQU" id="34IQjxaqWx_" role="3_3kQL">
+            <property role="3_3kQV" value="# Install bioconductor packages:" />
+          </node>
         </node>
         <node concept="1gZcZf" id="5HtHr3EcHMR" role="2G3XIn">
-          <property role="1gZaPE" value="source(&quot;http://bioconductor.org/biocLite.R&quot;, local=TRUE)" />
+          <property role="1gZaPE" value="" />
+          <node concept="3_3kQU" id="34IQjxaqXSK" role="3_3kQL">
+            <property role="3_3kQV" value="source(&quot;http://bioconductor.org/biocLite.R&quot;, local=TRUE)" />
+          </node>
         </node>
         <node concept="1gZcZf" id="5HtHr3EcHMS" role="2G3XIn">
           <property role="1gZaPE" value="" />
@@ -8118,9 +8139,6 @@
             <property role="3_3kQV" value=")) " />
           </node>
         </node>
-        <node concept="2G3XJi" id="5HtHr3EfDfO" role="2G3XIn">
-          <property role="1gZaPE" value="}" />
-        </node>
         <node concept="1W57fq" id="5HtHr3EcHNT" role="lGtFl">
           <node concept="3IZrLx" id="5HtHr3EcHNV" role="3IZSJc">
             <node concept="3clFbS" id="5HtHr3EcHNX" role="2VODD2">
@@ -8139,9 +8157,6 @@
           </node>
         </node>
       </node>
-      <node concept="3_3kQU" id="2WRhvFtNQ24" role="3_3kQL">
-        <property role="3_3kQV" value="" />
-      </node>
       <node concept="1gZcZf" id="5csGvVLt8Ri" role="2G3XIn">
         <property role="1gZaPE" value="" />
         <node concept="3_3kQU" id="5csGvVLt9fh" role="3_3kQL">
@@ -8152,7 +8167,10 @@
         </node>
       </node>
       <node concept="1gZcZf" id="5csGvVLtgxw" role="2G3XIn">
-        <property role="1gZaPE" value="# Use checkpoint to garantee reproducible package installations and results:" />
+        <property role="1gZaPE" value="" />
+        <node concept="3_3kQU" id="34IQjxaqXSM" role="3_3kQL">
+          <property role="3_3kQV" value="# Use checkpoint to garantee reproducible package installations and results:" />
+        </node>
         <node concept="3_3kQU" id="5csGvVLtgxx" role="3_3kQL">
           <property role="3_3kQV" value="" />
         </node>
@@ -8172,7 +8190,10 @@
         </node>
       </node>
       <node concept="1gZcZf" id="5csGvVLtgxy" role="2G3XIn">
-        <property role="1gZaPE" value="if (!require(&quot;checkpoint&quot;)) {install.packages(&quot;checkpoint&quot;,repos='http://cran.us.r-project.org'); library(&quot;checkpoint&quot;)}" />
+        <property role="1gZaPE" value="" />
+        <node concept="3_3kQU" id="34IQjxaqXSP" role="3_3kQL">
+          <property role="3_3kQV" value="if (!require(&quot;checkpoint&quot;)) {install.packages(&quot;checkpoint&quot;,repos='http://cran.us.r-project.org'); library(&quot;checkpoint&quot;)}" />
+        </node>
         <node concept="3_3kQU" id="5csGvVLtgxz" role="3_3kQL">
           <property role="3_3kQV" value="" />
         </node>
@@ -8294,7 +8315,10 @@
           </node>
         </node>
         <node concept="1gZcZf" id="5csGvVLtgy3" role="2G3XIn">
-          <property role="1gZaPE" value="  " />
+          <property role="1gZaPE" value="" />
+          <node concept="3_3kQU" id="34IQjxaqXSG" role="3_3kQL">
+            <property role="3_3kQV" value="  " />
+          </node>
           <node concept="3_3kQU" id="5csGvVLtgy4" role="3_3kQL">
             <property role="3_3kQV" value="file=&quot;checkpoint_sample_code.R&quot;)" />
           </node>
@@ -8318,7 +8342,10 @@
         </node>
       </node>
       <node concept="1gZcZf" id="5csGvVLtgy6" role="2G3XIn">
-        <property role="1gZaPE" value="checkpoint(&quot;2015-04-05&quot;)" />
+        <property role="1gZaPE" value="" />
+        <node concept="3_3kQU" id="34IQjxaqXSA" role="3_3kQL">
+          <property role="3_3kQV" value="checkpoint(&quot;2015-04-05&quot;)" />
+        </node>
         <node concept="3_3kQU" id="5csGvVLtgy7" role="3_3kQL">
           <property role="3_3kQV" value="" />
         </node>
@@ -8341,7 +8368,10 @@
         </node>
       </node>
       <node concept="1gZcZf" id="5csGvVLtgy9" role="2G3XIn">
-        <property role="1gZaPE" value="getOption(&quot;repos&quot;)" />
+        <property role="1gZaPE" value="" />
+        <node concept="3_3kQU" id="34IQjxaqXSn" role="3_3kQL">
+          <property role="3_3kQV" value="getOption(&quot;repos&quot;)" />
+        </node>
         <node concept="3_3kQU" id="5csGvVLtnlE" role="3_3kQL">
           <property role="3_3kQV" value="" />
         </node>
@@ -8431,7 +8461,10 @@
         </node>
       </node>
       <node concept="1gZcZf" id="5Wt7Rzzueo6" role="2G3XIn">
-        <property role="1gZaPE" value="library(&quot;data.table&quot;)" />
+        <property role="1gZaPE" value="" />
+        <node concept="3_3kQU" id="34IQjxaqXSz" role="3_3kQL">
+          <property role="3_3kQV" value="library(&quot;data.table&quot;)" />
+        </node>
         <node concept="3_3kQU" id="5Wt7RzzueoZ" role="3_3kQL">
           <property role="3_3kQV" value="" />
         </node>
