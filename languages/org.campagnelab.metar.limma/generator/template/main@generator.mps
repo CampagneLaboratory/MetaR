@@ -82,6 +82,9 @@
       <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
       </concept>
+      <concept id="1068580320020" name="jetbrains.mps.baseLanguage.structure.IntegerConstant" flags="nn" index="3cmrfG">
+        <property id="1068580320021" name="value" index="3cmrfH" />
+      </concept>
       <concept id="1068581242875" name="jetbrains.mps.baseLanguage.structure.PlusExpression" flags="nn" index="3cpWs3" />
       <concept id="1068581242864" name="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" flags="nn" index="3cpWs8">
         <child id="1068581242865" name="localVariableDeclaration" index="3cpWs9" />
@@ -90,6 +93,7 @@
       <concept id="1079359253375" name="jetbrains.mps.baseLanguage.structure.ParenthesizedExpression" flags="nn" index="1eOMI4">
         <child id="1079359253376" name="expression" index="1eOMHV" />
       </concept>
+      <concept id="1081506773034" name="jetbrains.mps.baseLanguage.structure.LessThanExpression" flags="nn" index="3eOVzh" />
       <concept id="1204053956946" name="jetbrains.mps.baseLanguage.structure.IMethodCall" flags="ng" index="1ndlxa">
         <reference id="1068499141037" name="baseMethodDeclaration" index="37wK5l" />
         <child id="1068499141038" name="actualArgument" index="37wK5m" />
@@ -169,6 +173,11 @@
       </concept>
     </language>
     <language id="d7706f63-9be2-479c-a3da-ae92af1e64d5" name="jetbrains.mps.lang.generator.generationContext">
+      <concept id="1217960179967" name="jetbrains.mps.lang.generator.generationContext.structure.GenerationContextOp_ShowErrorMessage" flags="nn" index="2k5nB$" />
+      <concept id="1217960314443" name="jetbrains.mps.lang.generator.generationContext.structure.GenerationContextOp_ShowMessageBase" flags="nn" index="2k5Stg">
+        <child id="1217960314448" name="messageText" index="2k5Stb" />
+        <child id="1217960407512" name="referenceNode" index="2k6f33" />
+      </concept>
       <concept id="5190093307972723402" name="jetbrains.mps.lang.generator.generationContext.structure.GenerationContextOp_ParameterRef" flags="nn" index="3cR$yn">
         <reference id="5190093307972736266" name="parameter" index="3cRzXn" />
       </concept>
@@ -197,7 +206,7 @@
         <property id="1549006859295776277" name="tableId" index="7yfet" />
         <property id="8016431400514010600" name="tableName" index="2AFawa" />
       </concept>
-      <concept id="8969925079115431553" name="org.campagnelab.metar.inspect.structure.TryAndReport" flags="ng" index="3eWmRk">
+      <concept id="8969925079115431553" name="org.campagnelab.metar.inspect.structure.TryForNode" flags="ng" index="3eWmRk">
         <property id="8969925079115431616" name="nodeId" index="3eWmQl" />
         <child id="8969925079115431619" name="try" index="3eWmQm" />
       </concept>
@@ -285,6 +294,7 @@
       <concept id="1203518072036" name="jetbrains.mps.baseLanguage.collections.structure.SmartClosureParameterDeclaration" flags="ig" index="Rh6nW" />
       <concept id="1160600644654" name="jetbrains.mps.baseLanguage.collections.structure.ListCreatorWithInit" flags="nn" index="Tc6Ow" />
       <concept id="1160612413312" name="jetbrains.mps.baseLanguage.collections.structure.AddElementOperation" flags="nn" index="TSZUe" />
+      <concept id="1162935959151" name="jetbrains.mps.baseLanguage.collections.structure.GetSizeOperation" flags="nn" index="34oBXx" />
       <concept id="1201792049884" name="jetbrains.mps.baseLanguage.collections.structure.TranslateOperation" flags="nn" index="3goQfb" />
       <concept id="1240687580870" name="jetbrains.mps.baseLanguage.collections.structure.JoinOperation" flags="nn" index="3uJxvA">
         <child id="1240687658305" name="delimiter" index="3uJOhx" />
@@ -374,10 +384,16 @@
             <property role="1gZaPE" value="" />
           </node>
           <node concept="1gZcZf" id="6XP3gVdMpq1" role="2G3XIn">
-            <property role="1gZaPE" value=" # Replace row names with gene identifiers" />
+            <property role="1gZaPE" value="" />
+            <node concept="3_3kQU" id="6gze2t0ITIY" role="3_3kQL">
+              <property role="3_3kQV" value=" # Replace row names with gene identifiers" />
+            </node>
           </node>
           <node concept="1gZcZf" id="w5znaeXTWv" role="2G3XIn">
-            <property role="1gZaPE" value=" # TODO: make a copy of the input table, rather than using it by reference." />
+            <property role="1gZaPE" value="" />
+            <node concept="3_3kQU" id="6gze2t0ITJk" role="3_3kQL">
+              <property role="3_3kQV" value=" # TODO: make a copy of the input table, rather than using it by reference." />
+            </node>
             <node concept="3_3kQU" id="w5znaeXTXz" role="3_3kQL">
               <property role="3_3kQV" value="" />
             </node>
@@ -480,7 +496,10 @@
             </node>
           </node>
           <node concept="1gZcZf" id="6XP3gVdN8Ox" role="2G3XIn">
-            <property role="1gZaPE" value="# remove all columns not marked with the &quot;counts&quot; group." />
+            <property role="1gZaPE" value="" />
+            <node concept="3_3kQU" id="6gze2t0ITJf" role="3_3kQL">
+              <property role="3_3kQV" value="# remove all columns not marked with the &quot;counts&quot; group." />
+            </node>
             <node concept="3_3kQU" id="6XP3gVdN8Oy" role="3_3kQL">
               <property role="3_3kQV" value="" />
             </node>
@@ -846,14 +865,20 @@
               </node>
             </node>
             <node concept="1gZcZf" id="5HtHr3DAyZc" role="2G3XIn">
-              <property role="1gZaPE" value="  countsTable &lt;- as.matrix(countsTable)" />
+              <property role="1gZaPE" value="" />
+              <node concept="3_3kQU" id="6gze2t0ITJp" role="3_3kQL">
+                <property role="3_3kQV" value="  countsTable &lt;- as.matrix(countsTable)" />
+              </node>
             </node>
           </node>
           <node concept="1gZcZf" id="6XP3gVdMpq5" role="2G3XIn">
             <property role="1gZaPE" value="" />
           </node>
           <node concept="1gZcZf" id="6XP3gVdMpq6" role="2G3XIn">
-            <property role="1gZaPE" value="  sampleNames &lt;- colnames(countsTable)" />
+            <property role="1gZaPE" value="" />
+            <node concept="3_3kQU" id="6gze2t0IS$9" role="3_3kQL">
+              <property role="3_3kQV" value="  sampleNames &lt;- colnames(countsTable)" />
+            </node>
           </node>
         </node>
         <node concept="2G3XJi" id="5HtHr3DJdsQ" role="2G3XIn">
@@ -1606,7 +1631,10 @@
             <node concept="2G3XJi" id="5HtHr3DJs1c" role="2G3XIn">
               <property role="1gZaPE" value="" />
               <node concept="1gZcZf" id="5HtHr3DJAPH" role="2G3XIn">
-                <property role="1gZaPE" value="  data &lt;- DGEList(counts=countsTable, genes=rownames_for_CountsTable)" />
+                <property role="1gZaPE" value="" />
+                <node concept="3_3kQU" id="6gze2t0ITIO" role="3_3kQL">
+                  <property role="3_3kQV" value="  data &lt;- DGEList(counts=countsTable, genes=rownames_for_CountsTable)" />
+                </node>
                 <node concept="3_3kQU" id="5HtHr3DJAPI" role="3_3kQL">
                   <property role="3_3kQV" value="" />
                 </node>
@@ -1615,13 +1643,19 @@
                 </node>
               </node>
               <node concept="1gZcZf" id="5HtHr3DJs1d" role="2G3XIn">
-                <property role="1gZaPE" value="and so on according to GLM or two groups.." />
+                <property role="1gZaPE" value="" />
+                <node concept="3_3kQU" id="6gze2t0ITJ0" role="3_3kQL">
+                  <property role="3_3kQV" value="and so on according to GLM or two groups.." />
+                </node>
               </node>
               <node concept="3_3kQU" id="5HtHr3DJs1g" role="3_3kQL">
                 <property role="3_3kQV" value="" />
               </node>
               <node concept="1gZcZf" id="5HtHr3DJs1i" role="2G3XIn">
-                <property role="1gZaPE" value="produces design and voom" />
+                <property role="1gZaPE" value="" />
+                <node concept="3_3kQU" id="6gze2t0ITIS" role="3_3kQL">
+                  <property role="3_3kQV" value="produces design and voom" />
+                </node>
                 <node concept="3_3kQU" id="5HtHr3DJs1j" role="3_3kQL">
                   <property role="3_3kQV" value="" />
                 </node>
@@ -1639,10 +1673,16 @@
                 <property role="1gZaPE" value="" />
               </node>
               <node concept="1gZcZf" id="4ssfE$836H5" role="2G3XIn">
-                <property role="1gZaPE" value="fit &lt;- lmFit(voom, design) " />
+                <property role="1gZaPE" value="" />
+                <node concept="3_3kQU" id="6gze2t0ITJi" role="3_3kQL">
+                  <property role="3_3kQV" value="fit &lt;- lmFit(voom, design) " />
+                </node>
               </node>
               <node concept="1gZcZf" id="4ssfE$9NFp9" role="2G3XIn">
-                <property role="1gZaPE" value="fit2 &lt;-" />
+                <property role="1gZaPE" value="" />
+                <node concept="3_3kQU" id="6gze2t0ITJ2" role="3_3kQL">
+                  <property role="3_3kQV" value="fit2 &lt;-" />
+                </node>
                 <node concept="3_3kQU" id="4ssfE$9NFDn" role="3_3kQL">
                   <property role="3_3kQV" value="contrasts.fit(fit, contrasts=makeContrasts( " />
                 </node>
@@ -1671,7 +1711,10 @@
                 </node>
               </node>
               <node concept="1gZcZf" id="4ssfE$836H6" role="2G3XIn">
-                <property role="1gZaPE" value="fit3 &lt;- eBayes(fit2) " />
+                <property role="1gZaPE" value="" />
+                <node concept="3_3kQU" id="6gze2t0IS$b" role="3_3kQL">
+                  <property role="3_3kQV" value="fit3 &lt;- eBayes(fit2) " />
+                </node>
               </node>
               <node concept="2G3XJi" id="4ssfE$beTL5" role="2G3XIn">
                 <property role="1gZaPE" value="" />
@@ -1776,6 +1819,48 @@
                       <property role="2qtEX9" value="text" />
                       <node concept="3zFVjK" id="4ssfE$bsYpo" role="3zH0cK">
                         <node concept="3clFbS" id="4ssfE$bsYpp" role="2VODD2">
+                          <node concept="3clFbH" id="6gze2t0ITMP" role="3cqZAp" />
+                          <node concept="3clFbJ" id="6gze2t0IWK8" role="3cqZAp">
+                            <node concept="3clFbS" id="6gze2t0IWKa" role="3clFbx">
+                              <node concept="3clFbF" id="6gze2t0NMfy" role="3cqZAp">
+                                <node concept="2OqwBi" id="6gze2t0NMfz" role="3clFbG">
+                                  <node concept="1iwH7S" id="6gze2t0NMf$" role="2Oq$k0" />
+                                  <node concept="2k5nB$" id="6gze2t0NMf_" role="2OqNvi">
+                                    <node concept="30H73N" id="6gze2t0NMfB" role="2k6f33" />
+                                    <node concept="Xl_RD" id="4bcN0BgrF$u" role="2k5Stb">
+                                      <property role="Xl_RC" value="The model must contain at least one covariate not used in contrasts, comparing attribute, to export adjusted counts " />
+                                    </node>
+                                  </node>
+                                </node>
+                              </node>
+                            </node>
+                            <node concept="3eOVzh" id="6gze2t0J1EZ" role="3clFbw">
+                              <node concept="2OqwBi" id="6gze2t0IZvU" role="3uHU7B">
+                                <node concept="2OqwBi" id="6gze2t0IZan" role="2Oq$k0">
+                                  <node concept="2OqwBi" id="6gze2t0IZao" role="2Oq$k0">
+                                    <node concept="30H73N" id="6gze2t0IZap" role="2Oq$k0" />
+                                    <node concept="3TrEf2" id="6gze2t0IZaq" role="2OqNvi">
+                                      <ref role="3Tt5mk" to="qrzj:4ssfE$85c87" />
+                                    </node>
+                                  </node>
+                                  <node concept="2qgKlT" id="6gze2t0IZar" role="2OqNvi">
+                                    <ref role="37wK5l" to="l4h:4ssfE$7VtS5" resolve="calculateGroupUsageNamesForCovariates" />
+                                    <node concept="2OqwBi" id="6gze2t0IZas" role="37wK5m">
+                                      <node concept="30H73N" id="6gze2t0IZat" role="2Oq$k0" />
+                                      <node concept="3TrEf2" id="6gze2t0IZau" role="2OqNvi">
+                                        <ref role="3Tt5mk" to="qrzj:4ssfE$85cdC" />
+                                      </node>
+                                    </node>
+                                  </node>
+                                </node>
+                                <node concept="34oBXx" id="6gze2t0J0hb" role="2OqNvi" />
+                              </node>
+                              <node concept="3cmrfG" id="6gze2t0J4ft" role="3uHU7w">
+                                <property role="3cmrfH" value="1" />
+                              </node>
+                            </node>
+                          </node>
+                          <node concept="3clFbH" id="6gze2t0J3VE" role="3cqZAp" />
                           <node concept="3clFbF" id="4ssfE$bsYvr" role="3cqZAp">
                             <node concept="2OqwBi" id="4ssfE$bsYvs" role="3clFbG">
                               <node concept="2OqwBi" id="4ssfE$bsYvt" role="2Oq$k0">
@@ -1912,7 +1997,10 @@
                 </node>
               </node>
               <node concept="1gZcZf" id="4ssfE$84lfj" role="2G3XIn">
-                <property role="1gZaPE" value="# TODO: change the below line to use constrasts from the limmaVoom statement:" />
+                <property role="1gZaPE" value="" />
+                <node concept="3_3kQU" id="6gze2t0ITIV" role="3_3kQL">
+                  <property role="3_3kQV" value="# TODO: change the below line to use constrasts from the limmaVoom statement:" />
+                </node>
                 <node concept="3_3kQU" id="4ssfE$84lfk" role="3_3kQL">
                   <property role="3_3kQV" value="" />
                 </node>
@@ -1960,7 +2048,10 @@
             <property role="3_3kQV" value="" />
           </node>
           <node concept="1gZcZf" id="PriKBShy7I" role="2G3XIn">
-            <property role="1gZaPE" value="id" />
+            <property role="1gZaPE" value="" />
+            <node concept="3_3kQU" id="6gze2t0ITJn" role="3_3kQL">
+              <property role="3_3kQV" value="id" />
+            </node>
           </node>
           <node concept="17Uvod" id="PriKBShy7J" role="lGtFl">
             <property role="2qtEX9" value="id" />
