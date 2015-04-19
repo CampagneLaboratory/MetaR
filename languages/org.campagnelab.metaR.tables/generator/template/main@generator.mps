@@ -318,7 +318,7 @@
         <property id="1549006859295776277" name="tableId" index="7yfet" />
         <property id="8016431400514010600" name="tableName" index="2AFawa" />
       </concept>
-      <concept id="8969925079115431553" name="org.campagnelab.metar.inspect.structure.TryAndReport" flags="ng" index="3eWmRk">
+      <concept id="8969925079115431553" name="org.campagnelab.metar.inspect.structure.TryForNode" flags="ng" index="3eWmRk">
         <property id="8969925079115431616" name="nodeId" index="3eWmQl" />
         <child id="8969925079115431619" name="try" index="3eWmQm" />
       </concept>
@@ -8461,10 +8461,7 @@
         </node>
       </node>
       <node concept="1gZcZf" id="5Wt7Rzzueo6" role="2G3XIn">
-        <property role="1gZaPE" value="" />
-        <node concept="3_3kQU" id="34IQjxaqXSz" role="3_3kQL">
-          <property role="3_3kQV" value="library(&quot;data.table&quot;)" />
-        </node>
+        <property role="1gZaPE" value="libraries" />
         <node concept="3_3kQU" id="5Wt7RzzueoZ" role="3_3kQL">
           <property role="3_3kQV" value="" />
         </node>
