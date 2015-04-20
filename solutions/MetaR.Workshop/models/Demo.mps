@@ -127,7 +127,6 @@
         <property id="8962032619593737385" name="id" index="S1EQ6" />
       </concept>
       <concept id="8962032619593737380" name="org.campagnelab.metar.tables.structure.Analysis" flags="ng" index="S1EQb">
-        <property id="2742007948298959018" name="trycatch_enabled" index="2BDq$p" />
         <child id="8962032619593737383" name="statements" index="S1EQ8" />
       </concept>
       <concept id="8962032619593737377" name="org.campagnelab.metar.tables.structure.EmptyLine" flags="ng" index="S1EQe" />
@@ -517,7 +516,6 @@
   </node>
   <node concept="S1EQb" id="4DOwJpJMRj1">
     <property role="TrG5h" value="edgeR diff exp" />
-    <property role="2BDq$p" value="true" />
     <node concept="ZXjPh" id="4DOwJpJMRj2" role="S1EQ8">
       <property role="S1EQ6" value="CAILXBHGTE" />
       <node concept="3MjoWR" id="4r50q8aI6Ca" role="ZXjPg">
@@ -1421,7 +1419,7 @@
       <node concept="1FHY16" id="4r50q8aI6GA" role="ZXjPg">
         <property role="S1EQ6" value="FSKNYXFMLW" />
         <ref role="L_9Jz" node="2od$re0TptV" resolve="HeatmapStyle" />
-        <node concept="afgQW" id="6g5l50dUJhI" role="af7lV">
+        <node concept="afgQW" id="4ypj1RfvGKE" role="af7lV">
           <ref role="afgo8" node="4r50q8aI6F7" resolve="1% FDR" />
         </node>
         <node concept="1FHg$p" id="4r50q8aI6GB" role="1FHg$q">
@@ -1472,7 +1470,7 @@
         <property role="S1EQ6" value="APUYNDLVBT" />
         <property role="2xH6Uv" value="false" />
         <property role="2xH$9T" value="\t" />
-        <node concept="afgQW" id="6g5l50dUI20" role="2xR6uJ">
+        <node concept="afgQW" id="4ypj1RfvGKC" role="2xR6uJ">
           <ref role="afgo8" node="4ssfE$b9Rfd" resolve="Results" />
         </node>
         <node concept="2jXUOv" id="4r50q8aI6GQ" role="2jXY9D">
