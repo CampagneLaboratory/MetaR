@@ -17,6 +17,7 @@
     <devkit ref="8a3636fa-c6ec-4cb0-bc2a-b7143f2a4937(org.campagnelab.metaR)" />
   </languages>
   <imports>
+    <import index="wiqx" ref="r:6bfd7c1b-dea3-4f98-9ed3-bce7739b7a8d(org.campagnelab.metar.accessories.styles.colors)" implicit="true" />
     <import index="9nc5" ref="r:d1a256e6-591a-459f-809c-7fc9df45e4d5(org.campagnelab.mps.XChart.types.roots)" implicit="true" />
   </imports>
   <registry>
@@ -42,9 +43,6 @@
         <child id="1081773367580" name="leftExpression" index="3uHU7B" />
       </concept>
       <concept id="1073239437375" name="jetbrains.mps.baseLanguage.structure.NotEqualsExpression" flags="nn" index="3y3z36" />
-      <concept id="6329021646629104957" name="jetbrains.mps.baseLanguage.structure.TextCommentPart" flags="nn" index="3SKdUq">
-        <property id="6329021646629104958" name="text" index="3SKdUp" />
-      </concept>
     </language>
     <language id="ecc862c9-5ab5-42ef-8703-2039019fb338" name="org.campagnelab.metar.models">
       <concept id="5124039371744206219" name="org.campagnelab.metar.models.structure.BinaryExpression" flags="ng" index="10Wucy">
@@ -96,9 +94,6 @@
       <concept id="3929971219796704543" name="org.campagnelab.metar.tables.structure.OutputFile" flags="ng" index="2jXUOv">
         <property id="3929971219796704769" name="path" index="2jXUS1" />
       </concept>
-      <concept id="2814838647967227455" name="org.campagnelab.metar.tables.structure.TSingleLineComment" flags="ng" index="nccVD">
-        <child id="2814838647967227681" name="commentedStatement" index="nccZR" />
-      </concept>
       <concept id="369044998826678151" name="org.campagnelab.metar.tables.structure.VennDiagram" flags="ng" index="2obsJZ">
         <child id="369044998826678154" name="plot" index="2obsJM" />
         <child id="369044998826678156" name="sets" index="2obsJO" />
@@ -114,6 +109,9 @@
       </concept>
       <concept id="8031339867720116703" name="org.campagnelab.metar.tables.structure.UsageTypeRef" flags="ng" index="2y_Ijh">
         <reference id="8031339867720116704" name="usage" index="2y_IjI" />
+      </concept>
+      <concept id="369044998895347330" name="org.campagnelab.metar.tables.structure.IdsFrom" flags="ng" index="2$lrFU">
+        <child id="4238392993270988498" name="setColor" index="2kIzkE" />
       </concept>
       <concept id="6106414325997850090" name="org.campagnelab.metar.tables.structure.FutureTableCreator" flags="ng" index="2$MLEj">
         <property id="9080041854829670092" name="inputChanged" index="8NYsT" />
@@ -250,6 +248,9 @@
       </concept>
       <concept id="5397636476160560846" name="org.campagnelab.styles.structure.StyleContainer" flags="ng" index="2YPoW8">
         <child id="5397636476160567172" name="elements" index="2YPqp2" />
+      </concept>
+      <concept id="2312637992603016748" name="org.campagnelab.styles.structure.Color" flags="ng" index="1VdfCG">
+        <reference id="27429407126155065" name="byName" index="24hxRv" />
       </concept>
     </language>
   </registry>
@@ -1363,11 +1364,8 @@
           </node>
         </node>
       </node>
-      <node concept="nccVD" id="1GcYeBNgSFY" role="ZXjPg">
-        <property role="S1EQ6" value="IYTLNPHJUQ" />
-        <node concept="3SKdUq" id="1GcYeBNgSUF" role="nccZR">
-          <property role="3SKdUp" value="The followin fails to generate, likely generator priority mixup:" />
-        </node>
+      <node concept="S1EQe" id="79$YT4lhqhc" role="ZXjPg">
+        <property role="S1EQ6" value="WYFEBAONAS" />
       </node>
       <node concept="2obsJZ" id="17Kl9vu27SJ" role="ZXjPg">
         <property role="S1EQ6" value="XYDMTMJWOQ" />
@@ -1388,6 +1386,10 @@
               </node>
             </node>
           </node>
+          <node concept="1VdfCG" id="79$YT4lhq_s" role="2kIzkE">
+            <property role="TrG5h" value="Color" />
+            <ref role="24hxRv" to="wiqx:6Rb38OKwxWC" resolve="blue" />
+          </node>
         </node>
         <node concept="3id8TD" id="17Kl9vu27Xz" role="2obsJO">
           <property role="TrG5h" value="A" />
@@ -1405,6 +1407,10 @@
                 </node>
               </node>
             </node>
+          </node>
+          <node concept="1VdfCG" id="79$YT4lhq_u" role="2kIzkE">
+            <property role="TrG5h" value="Color" />
+            <ref role="24hxRv" to="wiqx:1xsIq4y9JK" resolve="cyan" />
           </node>
         </node>
         <node concept="1FHg$p" id="17Kl9vu27SM" role="2obsJM">
