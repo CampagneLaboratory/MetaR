@@ -611,10 +611,10 @@ public class QueriesGenerated {
       }
     }), ", ");
   }
-  public static Object propertyMacro_GetPropertyValue_6853668812000652063(final PropertyMacroContext _context) {
+  public static Object propertyMacro_GetPropertyValue_1949206422434349426(final PropertyMacroContext _context) {
     return IterableUtils.join(Sequence.fromIterable(BehaviorReflection.invokeVirtual((Class<Iterable<String>>) ((Class) Object.class), _context.getNode(), "virtual_dependencies_8962032619593737482", new Object[]{})).select(new ISelector<String, String>() {
       public String select(String it) {
-        return "if (!require(\"" + it + "\")) {install.packages(\"" + it + "\",repos='http://cran.us.r-project.org'); library(\"" + it + "\")}";
+        return "if (!require(\"" + it + "\")) {install.packages(\"" + it + "\",repos='http://cran.us.r-project.org'); library(\"" + it + "\")};";
       }
     }), "\n");
   }
@@ -922,6 +922,9 @@ public class QueriesGenerated {
 
     return "" + ListSequence.fromList(SLinkOperations.getChildren(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x5d6bde844ce44eb5L, 0xa37e25a5edd55129L, 0x51f1c789d32d787L, 0x51f1c789d32d78cL, "sets"))).count();
 
+  }
+  public static Object propertyMacro_GetPropertyValue_1949206422429378172(final PropertyMacroContext _context) {
+    return Statement_Behavior.call_id_3007013211740741445(SNodeOperations.as(_context.getNode(), MetaAdapterFactory.getConcept(0x5d6bde844ce44eb5L, 0xa37e25a5edd55129L, 0x7c5f892f445924a8L, "org.campagnelab.metar.tables.structure.Statement")));
   }
   public static Object propertyMacro_GetPropertyValue_369044998883527359(final PropertyMacroContext _context) {
     return new RPath(Plot_Behavior.call_getPath_8016431400518331231(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x5d6bde844ce44eb5L, 0xa37e25a5edd55129L, 0x51f1c789d32d787L, 0x51f1c789d32d78aL, "plot")))).toString();
