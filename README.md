@@ -1,4 +1,4 @@
-# MetaR
+![MetaR](http://campagnelab.org/files/MetaR-logo-4-SMALL-300x111.png)
 MetaR takes advantage of Language Workbench Technology to facilitate data analysis with the R language. It can be used by:
 
 * biologists with limited computational experience. No programming skills are required to start analyzing data.
