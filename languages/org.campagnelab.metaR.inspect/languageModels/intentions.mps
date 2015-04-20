@@ -21,8 +21,8 @@
     <import index="jrxw" ref="r:9f2bbfbf-f8b7-4b3b-92b1-b6a0e9642c10(org.campagnelab.metar.tables.structure)" />
     <import index="tpf8" ref="r:00000000-0000-4000-0000-011c895902e8(jetbrains.mps.lang.generator.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
-    <import index="2k4h" ref="r:930671f0-37d5-4b40-acdb-7bfbc083292a(org.campagnelab.metar.inspect.behavior)" implicit="true" />
     <import index="p6sl" ref="r:175e6779-7e81-49b1-b295-33bbabafa8d6(org.campagnelab.textoutput.structure)" implicit="true" />
+    <import index="2k4h" ref="r:930671f0-37d5-4b40-acdb-7bfbc083292a(org.campagnelab.metar.inspect.behavior)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -166,6 +166,16 @@
             </node>
             <node concept="2qgKlT" id="6HdeG84Q7Gz" role="2OqNvi">
               <ref role="37wK5l" to="2k4h:6HdeG84Q0Lu" resolve="setupId" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="79$YT4ld_E2" role="3cqZAp">
+          <node concept="2OqwBi" id="79$YT4ld_E3" role="3clFbG">
+            <node concept="37vLTw" id="79$YT4ld_E4" role="2Oq$k0">
+              <ref role="3cqZAo" node="7LV$PmMGEyY" resolve="tryCatch" />
+            </node>
+            <node concept="2qgKlT" id="79$YT4ldCGi" role="2OqNvi">
+              <ref role="37wK5l" to="2k4h:79$YT4ldvSN" resolve="setupEnabled" />
             </node>
           </node>
         </node>
