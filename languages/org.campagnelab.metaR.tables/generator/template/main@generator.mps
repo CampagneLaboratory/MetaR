@@ -191,6 +191,7 @@
       <concept id="5015072279636592410" name="jetbrains.mps.lang.generator.structure.VarMacro_ValueQuery" flags="in" index="2jfdEK" />
       <concept id="1168559333462" name="jetbrains.mps.lang.generator.structure.TemplateDeclarationReference" flags="ln" index="j$656" />
       <concept id="1112730859144" name="jetbrains.mps.lang.generator.structure.TemplateSwitch" flags="ig" index="jVnub">
+        <child id="1168558750579" name="defaultConsequence" index="jxRDz" />
         <child id="1167340453568" name="reductionMappingRule" index="3aUrZf" />
       </concept>
       <concept id="1168619357332" name="jetbrains.mps.lang.generator.structure.RootTemplateAnnotation" flags="lg" index="n94m4">
@@ -278,6 +279,11 @@
       <concept id="1217889725928" name="jetbrains.mps.lang.generator.generationContext.structure.GenerationContextOp_SessionObjectAccess" flags="nn" index="2fSANN" />
       <concept id="1217889960776" name="jetbrains.mps.lang.generator.generationContext.structure.GenerationContextOp_UserObjectAccessBase" flags="nn" index="2fTw9j">
         <child id="1217890689512" name="userKey" index="2fWi3N" />
+      </concept>
+      <concept id="1217960179967" name="jetbrains.mps.lang.generator.generationContext.structure.GenerationContextOp_ShowErrorMessage" flags="nn" index="2k5nB$" />
+      <concept id="1217960314443" name="jetbrains.mps.lang.generator.generationContext.structure.GenerationContextOp_ShowMessageBase" flags="nn" index="2k5Stg">
+        <child id="1217960314448" name="messageText" index="2k5Stb" />
+        <child id="1217960407512" name="referenceNode" index="2k6f33" />
       </concept>
       <concept id="2721957369897614808" name="jetbrains.mps.lang.generator.generationContext.structure.GenerationContextOp_VarRef" flags="nn" index="1bhEwm">
         <reference id="2721957369897614810" name="varmacro" index="1bhEwl" />
@@ -15007,10 +15013,7 @@
               <node concept="1gZcZf" id="3FhMZyCUHAp" role="2G3XIn">
                 <property role="1gZaPE" value="" />
                 <node concept="3_3kQU" id="17Kl9vu2SmY" role="3_3kQL">
-                  <property role="3_3kQV" value="title=(main=inputTi" />
-                </node>
-                <node concept="3_3kQU" id="3FhMZyCUHAq" role="3_3kQL">
-                  <property role="3_3kQV" value="tle)," />
+                  <property role="3_3kQV" value="title=(main=inputTitle)," />
                 </node>
                 <node concept="3_3kQU" id="3FhMZyCUHAr" role="3_3kQL">
                   <property role="3_3kQV" value="" />
@@ -15116,6 +15119,45 @@
         </node>
       </node>
     </node>
+    <node concept="gft3U" id="4ypj1Rfwp7K" role="jxRDz">
+      <node concept="2G3XJi" id="4ypj1Rfwpge" role="gfFT$">
+        <node concept="1gZcZf" id="4ypj1RfwwjF" role="2G3XIn" />
+        <node concept="1gZcZf" id="4ypj1Rfwpgh" role="2G3XIn">
+          <node concept="3_3kQU" id="4ypj1Rfwpgi" role="3_3kQL">
+            <property role="3_3kQV" value="error" />
+            <node concept="17Uvod" id="4ypj1Rfwpgn" role="lGtFl">
+              <property role="P4ACc" value="901f5cf3-dc77-4c1e-bc5a-6382baee28b4/1680136183140337486/1680136183140337487" />
+              <property role="2qtEX9" value="text" />
+              <node concept="3zFVjK" id="4ypj1Rfwpgo" role="3zH0cK">
+                <node concept="3clFbS" id="4ypj1Rfwpgp" role="2VODD2">
+                  <node concept="3clFbF" id="6gze2t0NMfy" role="3cqZAp">
+                    <node concept="2OqwBi" id="6gze2t0NMfz" role="3clFbG">
+                      <node concept="1iwH7S" id="4ypj1RfwsoR" role="2Oq$k0" />
+                      <node concept="2k5nB$" id="6gze2t0NMf_" role="2OqNvi">
+                        <node concept="30H73N" id="4ypj1Rfwsjq" role="2k6f33" />
+                        <node concept="Xl_RD" id="4bcN0BgrF$u" role="2k5Stb">
+                          <property role="Xl_RC" value="Venn diagram can only draw between 2 and 5 sets." />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3clFbF" id="4ypj1Rfwsxs" role="3cqZAp">
+                    <node concept="Xl_RD" id="4ypj1Rfwsxr" role="3clFbG">
+                      <property role="Xl_RC" value="" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="13MO4I" id="4ypj1Rfwnso">
+    <property role="TrG5h" value="error" />
+    <property role="3GE5qa" value="venn" />
+    <node concept="2VYdi" id="4ypj1Rfwnsp" role="13RCb5" />
   </node>
 </model>
 
