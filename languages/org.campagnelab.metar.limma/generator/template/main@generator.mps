@@ -2249,7 +2249,10 @@
     <node concept="2G3XJi" id="5HtHr3DJtJV" role="13RCb5">
       <property role="1gZaPE" value="" />
       <node concept="1gZcZf" id="6XP3gVdMpdP" role="2G3XIn">
-        <property role="1gZaPE" value="  data &lt;- DGEList(counts=countsTable, genes=rownames_for_CountsTable)" />
+        <property role="1gZaPE" value="" />
+        <node concept="3_3kQU" id="4ypj1RfvTxe" role="3_3kQL">
+          <property role="3_3kQV" value="  data &lt;- DGEList(counts=countsTable, genes=rownames_for_CountsTable)" />
+        </node>
         <node concept="3_3kQU" id="6XP3gVdOuWu" role="3_3kQL">
           <property role="3_3kQV" value="" />
         </node>
@@ -2260,7 +2263,10 @@
       <node concept="2G3XJi" id="4ssfE$82ZRk" role="2G3XIn">
         <property role="1gZaPE" value="" />
         <node concept="1gZcZf" id="4ssfE$82ZRm" role="2G3XIn">
-          <property role="1gZaPE" value="  data &lt;- calcNormFactors(data)" />
+          <property role="1gZaPE" value="" />
+          <node concept="3_3kQU" id="4ypj1RfvTjN" role="3_3kQL">
+            <property role="3_3kQV" value="  data &lt;- calcNormFactors(data)" />
+          </node>
         </node>
       </node>
       <node concept="1gZcZf" id="6XP3gVea8d0" role="2G3XIn">
@@ -2332,7 +2338,10 @@
         <property role="3_3kQV" value="" />
       </node>
       <node concept="1gZcZf" id="5HtHr3DJtK4" role="2G3XIn">
-        <property role="1gZaPE" value="  voom &lt;- voom(data,design)" />
+        <property role="1gZaPE" value="" />
+        <node concept="3_3kQU" id="4ypj1RfvTjP" role="3_3kQL">
+          <property role="3_3kQV" value="  voom &lt;- voom(data,design)" />
+        </node>
         <node concept="3_3kQU" id="5HtHr3DJtK5" role="3_3kQL">
           <property role="3_3kQV" value="" />
         </node>
