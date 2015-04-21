@@ -116,8 +116,16 @@
         <child id="1197027771414" name="operand" index="2Oq$k0" />
         <child id="1197027833540" name="operation" index="2OqNvi" />
       </concept>
+      <concept id="1164879751025" name="jetbrains.mps.baseLanguage.structure.TryCatchStatement" flags="nn" index="SfApY">
+        <child id="1164879758292" name="body" index="SfCbr" />
+        <child id="1164903496223" name="catchClause" index="TEbGg" />
+      </concept>
       <concept id="1145552977093" name="jetbrains.mps.baseLanguage.structure.GenericNewExpression" flags="nn" index="2ShNRf">
         <child id="1145553007750" name="creator" index="2ShVmc" />
+      </concept>
+      <concept id="1164903280175" name="jetbrains.mps.baseLanguage.structure.CatchClause" flags="nn" index="TDmWw">
+        <child id="1164903359218" name="catchBody" index="TDEfX" />
+        <child id="1164903359217" name="throwable" index="TDEfY" />
       </concept>
       <concept id="1137021947720" name="jetbrains.mps.baseLanguage.structure.ConceptFunction" flags="in" index="2VMwT0">
         <child id="1137022507850" name="body" index="2VODD2" />
@@ -162,6 +170,9 @@
         <property id="1068580320021" name="value" index="3cmrfH" />
       </concept>
       <concept id="1068581242875" name="jetbrains.mps.baseLanguage.structure.PlusExpression" flags="nn" index="3cpWs3" />
+      <concept id="1068581242878" name="jetbrains.mps.baseLanguage.structure.ReturnStatement" flags="nn" index="3cpWs6">
+        <child id="1068581517676" name="expression" index="3cqZAk" />
+      </concept>
       <concept id="1068581242864" name="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" flags="nn" index="3cpWs8">
         <child id="1068581242865" name="localVariableDeclaration" index="3cpWs9" />
       </concept>
@@ -216,9 +227,15 @@
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
         <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
+        <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
       </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
+      </concept>
+      <concept id="779128492853369165" name="jetbrains.mps.lang.core.structure.SideTransformInfo" flags="ng" index="1KehLL">
+        <property id="779128492853935960" name="anchorTag" index="1K8rD$" />
+        <property id="779128492853934523" name="cellId" index="1K8rM7" />
+        <property id="779128492853699361" name="side" index="1Kfyot" />
       </concept>
     </language>
   </registry>
@@ -514,26 +531,50 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbF" id="1xeqmqLbywJ" role="3cqZAp">
-          <node concept="2OqwBi" id="1xeqmqLbewf" role="3clFbG">
-            <node concept="2ShNRf" id="1xeqmqLbcqR" role="2Oq$k0">
-              <node concept="1pGfFk" id="1xeqmqLbe2M" role="2ShVmc">
-                <ref role="37wK5l" to="fxg7:~File.&lt;init&gt;(java.lang.String)" resolve="File" />
-                <node concept="2OqwBi" id="5RQTS2ot960" role="37wK5m">
-                  <node concept="2OqwBi" id="5RQTS2ot961" role="2Oq$k0">
-                    <node concept="2WthIp" id="5RQTS2ot962" role="2Oq$k0" />
-                    <node concept="3gHZIF" id="5RQTS2ot963" role="2OqNvi">
-                      <ref role="2WH_rO" node="2sgkdoKdfWD" resolve="table" />
+        <node concept="SfApY" id="oeXtRX5Jq4" role="3cqZAp">
+          <node concept="3clFbS" id="oeXtRX5Jq6" role="SfCbr">
+            <node concept="3cpWs6" id="oeXtRX5LKi" role="3cqZAp">
+              <node concept="2OqwBi" id="oeXtRX5M5B" role="3cqZAk">
+                <node concept="2ShNRf" id="oeXtRX5M5C" role="2Oq$k0">
+                  <node concept="1pGfFk" id="oeXtRX5M5D" role="2ShVmc">
+                    <ref role="37wK5l" to="fxg7:~File.&lt;init&gt;(java.lang.String)" resolve="File" />
+                    <node concept="2OqwBi" id="oeXtRX5M5E" role="37wK5m">
+                      <node concept="2OqwBi" id="oeXtRX5M5F" role="2Oq$k0">
+                        <node concept="2WthIp" id="oeXtRX5M5G" role="2Oq$k0" />
+                        <node concept="3gHZIF" id="oeXtRX5M5H" role="2OqNvi">
+                          <ref role="2WH_rO" node="2sgkdoKdfWD" resolve="table" />
+                        </node>
+                      </node>
+                      <node concept="2qgKlT" id="oeXtRX5M5I" role="2OqNvi">
+                        <ref role="37wK5l" to="v8sa:5RQTS2osRA4" resolve="getPath" />
+                      </node>
                     </node>
                   </node>
-                  <node concept="2qgKlT" id="5RQTS2ot964" role="2OqNvi">
-                    <ref role="37wK5l" to="v8sa:5RQTS2osRA4" resolve="getPath" />
+                  <node concept="1KehLL" id="oeXtRX5M5J" role="lGtFl">
+                    <property role="1K8rM7" value="Constant_2kx0ph_a0" />
+                    <property role="1K8rD$" value="default_RTransform" />
+                    <property role="1Kfyot" value="left" />
                   </node>
+                </node>
+                <node concept="liA8E" id="oeXtRX5M5K" role="2OqNvi">
+                  <ref role="37wK5l" to="fxg7:~File.exists():boolean" resolve="exists" />
                 </node>
               </node>
             </node>
-            <node concept="liA8E" id="1xeqmqLbfPa" role="2OqNvi">
-              <ref role="37wK5l" to="fxg7:~File.exists():boolean" resolve="exists" />
+          </node>
+          <node concept="TDmWw" id="oeXtRX5Jq7" role="TEbGg">
+            <node concept="3clFbS" id="oeXtRX5Jq9" role="TDEfX">
+              <node concept="3cpWs6" id="oeXtRX5KBq" role="3cqZAp">
+                <node concept="3clFbT" id="oeXtRX5KRp" role="3cqZAk">
+                  <property role="3clFbU" value="false" />
+                </node>
+              </node>
+            </node>
+            <node concept="3cpWsn" id="oeXtRX5Jqb" role="TDEfY">
+              <property role="TrG5h" value="npe" />
+              <node concept="3uibUv" id="oeXtRX5Kai" role="1tU5fm">
+                <ref role="3uigEE" to="e2lb:~NullPointerException" resolve="NullPointerException" />
+              </node>
             </node>
           </node>
         </node>
