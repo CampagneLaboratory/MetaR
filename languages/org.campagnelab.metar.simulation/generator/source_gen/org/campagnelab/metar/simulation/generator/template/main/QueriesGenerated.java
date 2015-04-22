@@ -95,20 +95,10 @@ public class QueriesGenerated {
       }
     }), ",");
   }
-  public static Object propertyMacro_GetPropertyValue_436556547701259233(final PropertyMacroContext _context) {
-    return SPropertyOperations.getString(_context.getNode(), MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name"));
-  }
-  public static Object propertyMacro_GetPropertyValue_436556547701262315(final PropertyMacroContext _context) {
-    // <node> 
-    return "";
-  }
   public static Object templateArgumentQuery_885216527547016965(final TemplateQueryContext _context) {
     return SPropertyOperations.getInteger(SNodeOperations.getNodeAncestor(_context.getNode(), MetaAdapterFactory.getConcept(0x67d1b0cdaf144f9L, 0x9fbde1dd4c6e26e8L, 0x21c311239f9a2e7eL, "org.campagnelab.metar.simulation.structure.SimulateDataset"), false, false), MetaAdapterFactory.getProperty(0x67d1b0cdaf144f9L, 0x9fbde1dd4c6e26e8L, 0x21c311239f9a2e7eL, 0x21c311239f9b4a28L, "numOfGenes"));
   }
   public static Iterable<SNode> sourceNodesQuery_4994424750902391092(final SourceSubstituteMacroNodesContext _context) {
     return SLinkOperations.getChildren(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x67d1b0cdaf144f9L, 0x9fbde1dd4c6e26e8L, 0x21c311239f9a2e7eL, 0x21c311239f9b67d4L, "discreteFactors"));
-  }
-  public static Iterable<SNode> sourceNodesQuery_436556547701286669(final SourceSubstituteMacroNodesContext _context) {
-    return CovariateFactor_Behavior.call_getSamples_436556547701226287(_context.getNode());
   }
 }
