@@ -36,6 +36,9 @@
         <child id="1197027771414" name="operand" index="2Oq$k0" />
         <child id="1197027833540" name="operation" index="2OqNvi" />
       </concept>
+      <concept id="1197029447546" name="jetbrains.mps.baseLanguage.structure.FieldReferenceOperation" flags="nn" index="2OwXpG">
+        <reference id="1197029500499" name="fieldDeclaration" index="2Oxat5" />
+      </concept>
       <concept id="1145552977093" name="jetbrains.mps.baseLanguage.structure.GenericNewExpression" flags="nn" index="2ShNRf">
         <child id="1145553007750" name="creator" index="2ShVmc" />
       </concept>
@@ -43,6 +46,7 @@
         <property id="6468716278899126575" name="isVolatile" index="2dlcS1" />
         <property id="6468716278899125786" name="isTransient" index="2dld4O" />
       </concept>
+      <concept id="1070475354124" name="jetbrains.mps.baseLanguage.structure.ThisExpression" flags="nn" index="Xjq3P" />
       <concept id="1070475926800" name="jetbrains.mps.baseLanguage.structure.StringLiteral" flags="nn" index="Xl_RD">
         <property id="1070475926801" name="value" index="Xl_RC" />
       </concept>
@@ -54,6 +58,10 @@
       <concept id="1070534513062" name="jetbrains.mps.baseLanguage.structure.DoubleType" flags="in" index="10P55v" />
       <concept id="1070534760951" name="jetbrains.mps.baseLanguage.structure.ArrayType" flags="in" index="10Q1$e">
         <child id="1070534760952" name="componentType" index="10Q1$1" />
+      </concept>
+      <concept id="1068390468200" name="jetbrains.mps.baseLanguage.structure.FieldDeclaration" flags="ig" index="312cEg">
+        <property id="8606350594693632173" name="isTransient" index="eg7rD" />
+        <property id="1240249534625" name="isVolatile" index="34CwA1" />
       </concept>
       <concept id="1068390468198" name="jetbrains.mps.baseLanguage.structure.ClassConcept" flags="ig" index="312cEu" />
       <concept id="1068431474542" name="jetbrains.mps.baseLanguage.structure.VariableDeclaration" flags="ng" index="33uBYm">
@@ -78,6 +86,7 @@
         <child id="1068580123134" name="parameter" index="3clF46" />
         <child id="1068580123135" name="body" index="3clF47" />
       </concept>
+      <concept id="1068580123165" name="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" flags="ig" index="3clFb_" />
       <concept id="1068580123155" name="jetbrains.mps.baseLanguage.structure.ExpressionStatement" flags="nn" index="3clFbF">
         <child id="1068580123156" name="expression" index="3clFbG" />
       </concept>
@@ -88,6 +97,7 @@
       <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
       </concept>
+      <concept id="1068580123140" name="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" flags="ig" index="3clFbW" />
       <concept id="1068580320020" name="jetbrains.mps.baseLanguage.structure.IntegerConstant" flags="nn" index="3cmrfG">
         <property id="1068580320021" name="value" index="3cmrfH" />
       </concept>
@@ -98,7 +108,12 @@
       <concept id="1068581242864" name="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" flags="nn" index="3cpWs8">
         <child id="1068581242865" name="localVariableDeclaration" index="3cpWs9" />
       </concept>
+      <concept id="1068581242869" name="jetbrains.mps.baseLanguage.structure.MinusExpression" flags="nn" index="3cpWsd" />
       <concept id="1068581242863" name="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" flags="nr" index="3cpWsn" />
+      <concept id="1068581517677" name="jetbrains.mps.baseLanguage.structure.VoidType" flags="in" index="3cqZAl" />
+      <concept id="1079359253375" name="jetbrains.mps.baseLanguage.structure.ParenthesizedExpression" flags="nn" index="1eOMI4">
+        <child id="1079359253376" name="expression" index="1eOMHV" />
+      </concept>
       <concept id="1204053956946" name="jetbrains.mps.baseLanguage.structure.IMethodCall" flags="ng" index="1ndlxa">
         <reference id="1068499141037" name="baseMethodDeclaration" index="37wK5l" />
         <child id="1068499141038" name="actualArgument" index="37wK5m" />
@@ -445,6 +460,157 @@
       </node>
     </node>
     <node concept="3Tm1VV" id="4CUtYZLQYE" role="1B3o_S" />
+  </node>
+  <node concept="312cEu" id="oeXtRXKrlP">
+    <property role="TrG5h" value="CovariateValueGenerator" />
+    <node concept="312cEg" id="oeXtRXKtqI" role="jymVt">
+      <property role="TrG5h" value="random" />
+      <property role="34CwA1" value="false" />
+      <property role="3TUv4t" value="true" />
+      <property role="eg7rD" value="false" />
+      <property role="IEkAT" value="false" />
+      <node concept="3uibUv" id="oeXtRXKtqL" role="1tU5fm">
+        <ref role="3uigEE" to="k7g3:~Random" resolve="Random" />
+      </node>
+      <node concept="2ShNRf" id="oeXtRXKtqN" role="33vP2m">
+        <node concept="1pGfFk" id="oeXtRXKtqO" role="2ShVmc">
+          <ref role="37wK5l" to="k7g3:~Random.&lt;init&gt;(long)" resolve="Random" />
+          <node concept="3cmrfG" id="oeXtRXKtqP" role="37wK5m">
+            <property role="3cmrfH" value="5623849" />
+          </node>
+        </node>
+      </node>
+      <node concept="3Tm6S6" id="oeXtRXKtqM" role="1B3o_S" />
+    </node>
+    <node concept="312cEg" id="oeXtRXKtRe" role="jymVt">
+      <property role="34CwA1" value="false" />
+      <property role="eg7rD" value="false" />
+      <property role="TrG5h" value="min" />
+      <property role="3TUv4t" value="true" />
+      <node concept="3Tm6S6" id="oeXtRXKtJI" role="1B3o_S" />
+      <node concept="10Oyi0" id="oeXtRXKtRc" role="1tU5fm" />
+    </node>
+    <node concept="312cEg" id="oeXtRXKudD" role="jymVt">
+      <property role="34CwA1" value="false" />
+      <property role="eg7rD" value="false" />
+      <property role="TrG5h" value="max" />
+      <property role="3TUv4t" value="true" />
+      <node concept="3Tm6S6" id="oeXtRXKu69" role="1B3o_S" />
+      <node concept="10Oyi0" id="oeXtRXKudB" role="1tU5fm" />
+    </node>
+    <node concept="2tJIrI" id="oeXtRXKtfN" role="jymVt" />
+    <node concept="3clFbW" id="oeXtRXKt83" role="jymVt">
+      <node concept="3cqZAl" id="oeXtRXKt85" role="3clF45" />
+      <node concept="3Tm1VV" id="oeXtRXKt86" role="1B3o_S" />
+      <node concept="3clFbS" id="oeXtRXKt87" role="3clF47">
+        <node concept="3clFbF" id="oeXtRXKulo" role="3cqZAp">
+          <node concept="37vLTI" id="oeXtRXKvtx" role="3clFbG">
+            <node concept="37vLTw" id="oeXtRXKvv6" role="37vLTx">
+              <ref role="3cqZAo" node="oeXtRXKtfo" resolve="min" />
+            </node>
+            <node concept="2OqwBi" id="oeXtRXKulM" role="37vLTJ">
+              <node concept="Xjq3P" id="oeXtRXKuln" role="2Oq$k0" />
+              <node concept="2OwXpG" id="oeXtRXKuwl" role="2OqNvi">
+                <ref role="2Oxat5" node="oeXtRXKtRe" resolve="min" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="oeXtRXKvxG" role="3cqZAp">
+          <node concept="37vLTI" id="oeXtRXKwd8" role="3clFbG">
+            <node concept="37vLTw" id="oeXtRXKwjE" role="37vLTx">
+              <ref role="3cqZAo" node="oeXtRXKtfy" resolve="max" />
+            </node>
+            <node concept="2OqwBi" id="oeXtRXKvzd" role="37vLTJ">
+              <node concept="Xjq3P" id="oeXtRXKvxE" role="2Oq$k0" />
+              <node concept="2OwXpG" id="oeXtRXKvHQ" role="2OqNvi">
+                <ref role="2Oxat5" node="oeXtRXKudD" resolve="max" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="37vLTG" id="oeXtRXKtfo" role="3clF46">
+        <property role="TrG5h" value="min" />
+        <node concept="10Oyi0" id="oeXtRXKtfn" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="oeXtRXKtfy" role="3clF46">
+        <property role="TrG5h" value="max" />
+        <node concept="10Oyi0" id="oeXtRXKtfE" role="1tU5fm" />
+      </node>
+      <node concept="P$JXv" id="oeXtRXKwrm" role="lGtFl">
+        <node concept="TZ5HA" id="oeXtRXKwrn" role="TZ5H$">
+          <node concept="1dT_AC" id="oeXtRXKwtb" role="1dT_Ay">
+            <property role="1dT_AB" value="A random number generator between min and max, inclusive." />
+          </node>
+          <node concept="1dT_AC" id="oeXtRXKwro" role="1dT_Ay" />
+        </node>
+        <node concept="TUZQ0" id="oeXtRXKwrp" role="TUOzN">
+          <property role="TUZQ4" value="min value" />
+          <node concept="zr_55" id="oeXtRXKwrr" role="zr_5Q">
+            <ref role="zr_51" node="oeXtRXKtfo" resolve="min" />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="oeXtRXKwrs" role="TUOzN">
+          <property role="TUZQ4" value="max value" />
+          <node concept="zr_55" id="oeXtRXKwru" role="zr_5Q">
+            <ref role="zr_51" node="oeXtRXKtfy" resolve="max" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="oeXtRXKryu" role="jymVt" />
+    <node concept="3clFb_" id="oeXtRXKsTq" role="jymVt">
+      <property role="TrG5h" value="next" />
+      <property role="IEkAT" value="false" />
+      <property role="DiZV1" value="false" />
+      <property role="od$2w" value="false" />
+      <node concept="3clFbS" id="oeXtRXKrxG" role="3clF47">
+        <node concept="3clFbF" id="oeXtRXKrFs" role="3cqZAp">
+          <node concept="3cpWs3" id="oeXtRXKs2c" role="3clFbG">
+            <node concept="2OqwBi" id="oeXtRXKrFD" role="3uHU7B">
+              <node concept="37vLTw" id="oeXtRXKrPh" role="2Oq$k0">
+                <ref role="3cqZAo" node="oeXtRXKtqI" resolve="random" />
+              </node>
+              <node concept="liA8E" id="oeXtRXKrFE" role="2OqNvi">
+                <ref role="37wK5l" to="k7g3:~Random.nextInt(int):int" resolve="nextInt" />
+                <node concept="3cpWs3" id="oeXtRXKrFv" role="37wK5m">
+                  <node concept="1eOMI4" id="oeXtRXKrFz" role="3uHU7B">
+                    <node concept="3cpWsd" id="oeXtRXKrFw" role="1eOMHV">
+                      <node concept="37vLTw" id="oeXtRXKrFx" role="3uHU7B">
+                        <ref role="3cqZAo" node="oeXtRXKudD" resolve="max" />
+                      </node>
+                      <node concept="37vLTw" id="oeXtRXKrFy" role="3uHU7w">
+                        <ref role="3cqZAo" node="oeXtRXKtRe" resolve="min" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3cmrfG" id="oeXtRXKrF$" role="3uHU7w">
+                    <property role="3cmrfH" value="1" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="37vLTw" id="oeXtRXKrF_" role="3uHU7w">
+              <ref role="3cqZAo" node="oeXtRXKtRe" resolve="min" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="10Oyi0" id="oeXtRXKrx_" role="3clF45" />
+      <node concept="P$JXv" id="oeXtRXKryO" role="lGtFl">
+        <node concept="TZ5HA" id="oeXtRXKryP" role="TZ5H$">
+          <node concept="1dT_AC" id="oeXtRXKryQ" role="1dT_Ay">
+            <property role="1dT_AB" value="Returns a psuedo-random number between min and max, inclusive." />
+          </node>
+        </node>
+        <node concept="x79VA" id="oeXtRXKryX" role="x79VK">
+          <property role="x79VB" value="integer between min and max" />
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="oeXtRXKrxk" role="1B3o_S" />
+    </node>
+    <node concept="3Tm1VV" id="oeXtRXKrlQ" role="1B3o_S" />
   </node>
 </model>
 
