@@ -12,15 +12,19 @@ import jetbrains.mps.internal.collections.runtime.IterableUtils;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.internal.collections.runtime.ISelector;
 import org.jetbrains.mps.openapi.model.SNode;
+import org.campagnelab.metar.simulation.behavior.GroupContainer;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
+import org.campagnelab.metar.simulation.behavior.CovariateFactor_Behavior;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.AttributeOperations;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.IAttributeDescriptor;
+import org.campagnelab.metar.tables.behavior.GroupAnnotation_Behavior;
 import org.campagnelab.metar.tables.behavior.FutureTable_Behavior;
 import org.campagnelab.metar.tables.behavior.Statement_Behavior;
 import jetbrains.mps.internal.collections.runtime.Sequence;
 import jetbrains.mps.internal.collections.runtime.ArrayUtils;
 import org.campagnelab.metar.simulation.behavior.DiscreteFactor_Behavior;
 import jetbrains.mps.generator.template.TemplateQueryContext;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.generator.template.SourceSubstituteMacroNodesContext;
-import org.campagnelab.metar.simulation.behavior.CovariateFactor_Behavior;
 
 @Generated
 public class QueriesGenerated {
@@ -57,11 +61,15 @@ public class QueriesGenerated {
     }), ",");
   }
   public static Object propertyMacro_GetPropertyValue_436556547705554813(final PropertyMacroContext _context) {
-    // <node> 
-    // <node> 
+    SNode container = GroupContainer.pickFromModel(SNodeOperations.getModel(_context.getNode()));
+    final SNode refGroup = GroupContainer.getOrCreateGroupFromContainer(container, SPropertyOperations.getString(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x67d1b0cdaf144f9L, 0x9fbde1dd4c6e26e8L, 0x21c311239f9a2e7eL, 0x21c311239f9b67d6L, "continuousCovariate")), MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name")));
+    // populate the covariate table before reading the values. We do this  
+    // in the generator because it may happen that the table in the continuosCovariate 
+    // has been removed as userObject (e.g. cache was cleaned) 
+    CovariateFactor_Behavior.call_populateGroupAnnotation_436556547695420281(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x67d1b0cdaf144f9L, 0x9fbde1dd4c6e26e8L, 0x21c311239f9a2e7eL, 0x21c311239f9b67d6L, "continuousCovariate")), AttributeOperations.getAttribute(refGroup, new IAttributeDescriptor.NodeAttribute(MetaAdapterFactory.getConcept(0x5d6bde844ce44eb5L, 0xa37e25a5edd55129L, 0x2cbad60695b64fb1L, "org.campagnelab.metar.tables.structure.GroupAnnotation"))), SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x67d1b0cdaf144f9L, 0x9fbde1dd4c6e26e8L, 0x21c311239f9a2e7eL, 0x21c311239f9b8194L, "covariateTableRef")), MetaAdapterFactory.getReferenceLink(0x67d1b0cdaf144f9L, 0x9fbde1dd4c6e26e8L, 0x60ef5ddfd5bbd36L, 0x60ef5ddfd5f42c3L, "table")), SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x67d1b0cdaf144f9L, 0x9fbde1dd4c6e26e8L, 0x21c311239f9a2e7eL, 0x746b12fbc2dfdac0L, "samples")));
     return IterableUtils.join(ListSequence.fromList(SLinkOperations.getChildren(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x67d1b0cdaf144f9L, 0x9fbde1dd4c6e26e8L, 0x21c311239f9a2e7eL, 0x746b12fbc2dfdac0L, "samples")), MetaAdapterFactory.getContainmentLink(0x67d1b0cdaf144f9L, 0x9fbde1dd4c6e26e8L, 0x746b12fbc2dfd6e2L, 0x746b12fbc2dfdaa7L, "sampleNames"))).select(new ISelector<SNode, String>() {
       public String select(SNode sample) {
-        return "sampleAges[[\"" + SPropertyOperations.getString(sample, MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name")) + "\"]] <- value";
+        return "sampleAges[[\"" + SPropertyOperations.getString(sample, MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name")) + "\"]] <- " + GroupAnnotation_Behavior.call_valueForColumn_3223123807170060705(AttributeOperations.getAttribute(refGroup, new IAttributeDescriptor.NodeAttribute(MetaAdapterFactory.getConcept(0x5d6bde844ce44eb5L, 0xa37e25a5edd55129L, 0x2cbad60695b64fb1L, "org.campagnelab.metar.tables.structure.GroupAnnotation"))), SPropertyOperations.getString(sample, MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name")));
       }
     }), "\n");
   }
