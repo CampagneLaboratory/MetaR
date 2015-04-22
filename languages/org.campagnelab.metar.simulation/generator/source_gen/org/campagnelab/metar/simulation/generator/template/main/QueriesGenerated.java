@@ -59,7 +59,7 @@ public class QueriesGenerated {
     return FutureTable_Behavior.call_getColumnTablePath_4166618652719916891(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x67d1b0cdaf144f9L, 0x9fbde1dd4c6e26e8L, 0x21c311239f9a2e7eL, 0x79170bb4b56ebd77L, "simulationTable")));
   }
   public static Object propertyMacro_GetPropertyValue_4994424750899260732(final PropertyMacroContext _context) {
-    return FutureTable_Behavior.call_getColumnTablePath_4166618652719916891(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x67d1b0cdaf144f9L, 0x9fbde1dd4c6e26e8L, 0x21c311239f9a2e7eL, 0x21c311239f9b8194L, "covariateTable")));
+    return FutureTable_Behavior.call_getColumnTablePath_4166618652719916891(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x67d1b0cdaf144f9L, 0x9fbde1dd4c6e26e8L, 0x21c311239f9a2e7eL, 0x21c311239f9b8194L, "covariateTableRef")));
   }
   public static Object propertyMacro_GetPropertyValue_7294495165547992143(final PropertyMacroContext _context) {
     return Statement_Behavior.call_id_3007013211740741445(_context.getNode());
