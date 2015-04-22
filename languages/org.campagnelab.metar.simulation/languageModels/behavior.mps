@@ -129,6 +129,7 @@
       <concept id="1068581242864" name="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" flags="nn" index="3cpWs8">
         <child id="1068581242865" name="localVariableDeclaration" index="3cpWs9" />
       </concept>
+      <concept id="1068581242869" name="jetbrains.mps.baseLanguage.structure.MinusExpression" flags="nn" index="3cpWsd" />
       <concept id="1068581242863" name="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" flags="nr" index="3cpWsn" />
       <concept id="1068581517677" name="jetbrains.mps.baseLanguage.structure.VoidType" flags="in" index="3cqZAl" />
       <concept id="1079359253375" name="jetbrains.mps.baseLanguage.structure.ParenthesizedExpression" flags="nn" index="1eOMI4">
@@ -546,6 +547,12 @@
             <node concept="2qgKlT" id="7hF4JJ2SMHj" role="2OqNvi">
               <ref role="37wK5l" node="7hF4JJ2RYkO" resolve="buildSampleNames" />
             </node>
+          </node>
+        </node>
+        <node concept="34ab3g" id="oeXtRXzrjf" role="3cqZAp">
+          <property role="35gtTG" value="info" />
+          <node concept="Xl_RD" id="oeXtRXzrjh" role="34bqiv">
+            <property role="Xl_RC" value="Add covariate to container" />
           </node>
         </node>
         <node concept="3clFbJ" id="oeXtRXlZMe" role="3cqZAp">
@@ -1307,6 +1314,17 @@
                 </node>
               </node>
             </node>
+            <node concept="34ab3g" id="oeXtRX$gCp" role="3cqZAp">
+              <property role="35gtTG" value="info" />
+              <node concept="3cpWs3" id="oeXtRX$h2K" role="34bqiv">
+                <node concept="37vLTw" id="oeXtRX$h34" role="3uHU7w">
+                  <ref role="3cqZAo" node="7hF4JJ2Sqqa" resolve="sampleName" />
+                </node>
+                <node concept="Xl_RD" id="oeXtRX$gCr" role="3uHU7B">
+                  <property role="Xl_RC" value="Sample added " />
+                </node>
+              </node>
+            </node>
           </node>
           <node concept="3cpWsn" id="7hF4JJ2S5P9" role="1Duv9x">
             <property role="TrG5h" value="sampleNumber" />
@@ -1372,7 +1390,7 @@
                             </node>
                           </node>
                           <node concept="Xl_RD" id="4CUtYZOpXG" role="3uHU7B">
-                            <property role="Xl_RC" value="Adding treatments for " />
+                            <property role="Xl_RC" value="Adding treatment for " />
                           </node>
                         </node>
                       </node>
@@ -1402,11 +1420,42 @@
                           </node>
                         </node>
                       </node>
+                      <node concept="34ab3g" id="oeXtRXywBq" role="3cqZAp">
+                        <property role="35gtTG" value="info" />
+                        <node concept="3cpWs3" id="oeXtRXywBr" role="34bqiv">
+                          <node concept="2OqwBi" id="oeXtRXywBs" role="3uHU7w">
+                            <node concept="37vLTw" id="oeXtRXywBt" role="2Oq$k0">
+                              <ref role="3cqZAo" node="4CUtYZNboJ" resolve="group" />
+                            </node>
+                            <node concept="3TrcHB" id="oeXtRXywBu" role="2OqNvi">
+                              <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                            </node>
+                          </node>
+                          <node concept="Xl_RD" id="oeXtRXywBv" role="3uHU7B">
+                            <property role="Xl_RC" value="Indexes generated for " />
+                          </node>
+                        </node>
+                      </node>
                       <node concept="2Gpval" id="4CUtYZNqZo" role="3cqZAp">
                         <node concept="2GrKxI" id="4CUtYZNqZq" role="2Gsz3X">
                           <property role="TrG5h" value="index" />
                         </node>
                         <node concept="3clFbS" id="4CUtYZNqZs" role="2LFqv$">
+                          <node concept="34ab3g" id="oeXtRX_6lM" role="3cqZAp">
+                            <property role="35gtTG" value="info" />
+                            <node concept="3cpWs3" id="oeXtRX_8pw" role="34bqiv">
+                              <node concept="2YIFZM" id="oeXtRX_8Ts" role="3uHU7w">
+                                <ref role="37wK5l" to="e2lb:~Integer.toString(int):java.lang.String" resolve="toString" />
+                                <ref role="1Pybhc" to="e2lb:~Integer" resolve="Integer" />
+                                <node concept="2GrUjf" id="oeXtRX_99r" role="37wK5m">
+                                  <ref role="2Gs0qQ" node="4CUtYZNqZq" resolve="index" />
+                                </node>
+                              </node>
+                              <node concept="Xl_RD" id="oeXtRX_6lO" role="3uHU7B">
+                                <property role="Xl_RC" value="Adding index " />
+                              </node>
+                            </node>
+                          </node>
                           <node concept="3cpWs8" id="4CUtYZNz3b" role="3cqZAp">
                             <node concept="3cpWsn" id="4CUtYZNz3e" role="3cpWs9">
                               <property role="TrG5h" value="value" />
@@ -1460,8 +1509,13 @@
                                     </node>
                                   </node>
                                   <node concept="34jXtK" id="4CUtYZNuD7" role="2OqNvi">
-                                    <node concept="2GrUjf" id="4CUtYZNuJl" role="25WWJ7">
-                                      <ref role="2Gs0qQ" node="4CUtYZNqZq" resolve="index" />
+                                    <node concept="3cpWsd" id="oeXtRX_YJa" role="25WWJ7">
+                                      <node concept="3cmrfG" id="oeXtRX_YJd" role="3uHU7w">
+                                        <property role="3cmrfH" value="1" />
+                                      </node>
+                                      <node concept="2GrUjf" id="4CUtYZNuJl" role="3uHU7B">
+                                        <ref role="2Gs0qQ" node="4CUtYZNqZq" resolve="index" />
+                                      </node>
                                     </node>
                                   </node>
                                 </node>
@@ -1476,12 +1530,18 @@
                               </node>
                             </node>
                           </node>
+                          <node concept="34ab3g" id="oeXtRXzp8B" role="3cqZAp">
+                            <property role="35gtTG" value="info" />
+                            <node concept="Xl_RD" id="oeXtRXzp8G" role="34bqiv">
+                              <property role="Xl_RC" value="Index added" />
+                            </node>
+                          </node>
+                          <node concept="3clFbH" id="oeXtRXzoTW" role="3cqZAp" />
                         </node>
                         <node concept="37vLTw" id="4CUtYZNrfB" role="2GsD0m">
                           <ref role="3cqZAo" node="4CUtYZNoVk" resolve="sampleIndexes" />
                         </node>
                       </node>
-                      <node concept="3clFbH" id="oeXtRXlTZ5" role="3cqZAp" />
                     </node>
                     <node concept="2OqwBi" id="oeXtRXlV$D" role="3clFbw">
                       <node concept="2OqwBi" id="oeXtRXlUta" role="2Oq$k0">
