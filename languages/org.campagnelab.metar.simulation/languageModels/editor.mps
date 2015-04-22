@@ -91,6 +91,7 @@
         </node>
       </node>
       <node concept="3F0A7n" id="2734ievAOBC" role="3EZMnx">
+        <property role="1$x2rV" value="#sample" />
         <ref role="1NtTu8" to="hgbr:2734ievAOBA" resolve="numOfSamples" />
       </node>
       <node concept="3F0ifn" id="2734ievAOC1" role="3EZMnx">
@@ -104,6 +105,7 @@
         </node>
       </node>
       <node concept="3F0A7n" id="2734ievAOCU" role="3EZMnx">
+        <property role="1$x2rV" value="#genes" />
         <ref role="1NtTu8" to="hgbr:2734ievAOCC" resolve="numOfGenes" />
       </node>
       <node concept="3F0ifn" id="7hF4JJ2PPje" role="3EZMnx">
@@ -145,6 +147,7 @@
         </node>
       </node>
       <node concept="3F0A7n" id="4lfKH_Jefyb" role="3EZMnx">
+        <property role="1$x2rV" value="effect of dicrete factors" />
         <ref role="1NtTu8" to="hgbr:4lfKH_Jefvc" resolve="effect_size" />
       </node>
       <node concept="3F1sOY" id="2734ievAQxj" role="3EZMnx">
