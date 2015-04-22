@@ -856,7 +856,7 @@
                                     <node concept="3cpWs3" id="oeXtRYnwvd" role="3uHU7B">
                                       <node concept="3cpWs3" id="oeXtRYnwvf" role="3uHU7B">
                                         <node concept="Xl_RD" id="oeXtRYnwvg" role="3uHU7B">
-                                          <property role="Xl_RC" value="sampleAges[[\&quot;" />
+                                          <property role="Xl_RC" value="covariateValues[[\&quot;" />
                                         </node>
                                         <node concept="2OqwBi" id="oeXtRYnwvh" role="3uHU7w">
                                           <node concept="37vLTw" id="oeXtRYnyvJ" role="2Oq$k0">
@@ -1061,7 +1061,7 @@
             <node concept="1gZcZf" id="4lfKH_J7LrU" role="2G3XIn">
               <property role="1gZaPE" value="" />
               <node concept="3_3kQU" id="oeXtRXJM_d" role="3_3kQL">
-                <property role="3_3kQV" value="        covariate_delta &lt;- sampleAges[sample_index-1] * COVARIATE_FACTOR                                      " />
+                <property role="3_3kQV" value="        covariate_delta &lt;-covariateValues[[sampleNames[sample_index]]] * COVARIATE_FACTOR                                      " />
               </node>
             </node>
             <node concept="1gZcZf" id="4lfKH_J7LrV" role="2G3XIn">
