@@ -6,6 +6,7 @@
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
+    <import index="o8zo" ref="r:314576fc-3aee-4386-a0a5-a38348ac317d(jetbrains.mps.scope)" />
     <import index="v8sa" ref="r:db1b133e-9a0f-4319-b384-413408eb1729(org.campagnelab.metar.tables.behavior)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="jrxw" ref="r:9f2bbfbf-f8b7-4b3b-92b1-b6a0e9642c10(org.campagnelab.metar.tables.structure)" implicit="true" />
@@ -24,6 +25,9 @@
       <concept id="1137021947720" name="jetbrains.mps.baseLanguage.structure.ConceptFunction" flags="in" index="2VMwT0">
         <child id="1137022507850" name="body" index="2VODD2" />
       </concept>
+      <concept id="1081236700937" name="jetbrains.mps.baseLanguage.structure.StaticMethodCall" flags="nn" index="2YIFZM">
+        <reference id="1144433194310" name="classConcept" index="1Pybhc" />
+      </concept>
       <concept id="1068498886294" name="jetbrains.mps.baseLanguage.structure.AssignmentExpression" flags="nn" index="37vLTI" />
       <concept id="1068580123155" name="jetbrains.mps.baseLanguage.structure.ExpressionStatement" flags="nn" index="3clFbF">
         <child id="1068580123156" name="expression" index="3clFbG" />
@@ -33,6 +37,10 @@
       </concept>
       <concept id="1204053956946" name="jetbrains.mps.baseLanguage.structure.IMethodCall" flags="ng" index="1ndlxa">
         <reference id="1068499141037" name="baseMethodDeclaration" index="37wK5l" />
+        <child id="1068499141038" name="actualArgument" index="37wK5m" />
+      </concept>
+      <concept id="6329021646629104957" name="jetbrains.mps.baseLanguage.structure.TextCommentPart" flags="nn" index="3SKdUq">
+        <property id="6329021646629104958" name="text" index="3SKdUp" />
       </concept>
       <concept id="6329021646629104954" name="jetbrains.mps.baseLanguage.structure.SingleLineComment" flags="nn" index="3SKdUt">
         <child id="6329021646629175155" name="commentPart" index="3SKWNk" />
@@ -42,15 +50,22 @@
       </concept>
     </language>
     <language id="3f4bc5f5-c6c1-4a28-8b10-c83066ffa4a1" name="jetbrains.mps.lang.constraints">
+      <concept id="8966504967485224688" name="jetbrains.mps.lang.constraints.structure.ConstraintFunctionParameter_contextNode" flags="nn" index="2rP1CM" />
       <concept id="1147467115080" name="jetbrains.mps.lang.constraints.structure.NodePropertyConstraint" flags="ng" index="EnEH3">
         <reference id="1147467295099" name="applicableProperty" index="EomxK" />
         <child id="1152963095733" name="propertySetter" index="1LXaQT" />
       </concept>
       <concept id="1147468365020" name="jetbrains.mps.lang.constraints.structure.ConstraintsFunctionParameter_node" flags="nn" index="EsrRn" />
+      <concept id="5676632058862809931" name="jetbrains.mps.lang.constraints.structure.ConstraintFunction_ReferentSearchScope_Scope" flags="in" index="13QW63" />
       <concept id="1152959968041" name="jetbrains.mps.lang.constraints.structure.ConstraintFunction_PropertySetter" flags="in" index="1LLf8_" />
       <concept id="1213093968558" name="jetbrains.mps.lang.constraints.structure.ConceptConstraints" flags="ng" index="1M2fIO">
         <reference id="1213093996982" name="concept" index="1M2myG" />
         <child id="1213098023997" name="property" index="1MhHOB" />
+        <child id="1213100494875" name="referent" index="1Mr941" />
+      </concept>
+      <concept id="1148687176410" name="jetbrains.mps.lang.constraints.structure.NodeReferentConstraint" flags="ng" index="1N5Pfh">
+        <reference id="1148687202698" name="applicableLink" index="1N5Vy1" />
+        <child id="1148687345559" name="searchScopeFactory" index="1N6uqs" />
       </concept>
       <concept id="1153138554286" name="jetbrains.mps.lang.constraints.structure.ConstraintsFunctionParameter_propertyValue" flags="nn" index="1Wqviy" />
     </language>
@@ -62,7 +77,11 @@
         <child id="1144104376918" name="parameter" index="1xVPHs" />
       </concept>
       <concept id="1179409122411" name="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" flags="nn" index="2qgKlT" />
+      <concept id="1143234257716" name="jetbrains.mps.lang.smodel.structure.Node_GetModelOperation" flags="nn" index="I4A8Y" />
       <concept id="1171407110247" name="jetbrains.mps.lang.smodel.structure.Node_GetAncestorOperation" flags="nn" index="2Xjw5R" />
+      <concept id="1176109685393" name="jetbrains.mps.lang.smodel.structure.Model_RootsIncludingImportedOperation" flags="nn" index="3lApI0">
+        <reference id="1176109685394" name="concept" index="3lApI3" />
+      </concept>
       <concept id="1144101972840" name="jetbrains.mps.lang.smodel.structure.OperationParm_Concept" flags="ng" index="1xMEDy">
         <child id="1207343664468" name="conceptArgument" index="ri$Ld" />
       </concept>
@@ -105,7 +124,7 @@
     </node>
   </node>
   <node concept="1M2fIO" id="4CUtYZU9og">
-    <ref role="1M2myG" to="hgbr:2734ievAOED" resolve="DiscreteGroup" />
+    <ref role="1M2myG" to="hgbr:2734ievAOED" resolve="DiscreteFactor" />
     <node concept="EnEH3" id="4CUtYZU9ov" role="1MhHOB">
       <ref role="EomxK" to="tpck:h0TrG11" resolve="name" />
       <node concept="1LLf8_" id="4CUtYZU9ox" role="1LXaQT">
@@ -138,6 +157,46 @@
                   <node concept="2qgKlT" id="42ciY3dtZ99" role="2OqNvi">
                     <ref role="37wK5l" to="v8sa:7S2MvlQNiSB" resolve="setInputChanged" />
                   </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1M2fIO" id="oeXtRX8yXC">
+    <ref role="1M2myG" to="hgbr:WAEVbt3F3q" resolve="CovariateTable" />
+    <node concept="EnEH3" id="oeXtRX8yYd" role="1MhHOB">
+      <ref role="EomxK" to="jrxw:w5znaeSg5k" resolve="pathToResolve" />
+      <node concept="1LLf8_" id="oeXtRX8z6L" role="1LXaQT">
+        <node concept="3clFbS" id="oeXtRX8z6M" role="2VODD2">
+          <node concept="3SKdUt" id="oeXtRX8$9b" role="3cqZAp">
+            <node concept="3SKdUq" id="oeXtRX8$9j" role="3SKWNk">
+              <property role="3SKdUp" value="override the contraint in Table allowing to set a non-existing path" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1M2fIO" id="oeXtRXmVPl">
+    <ref role="1M2myG" to="hgbr:oeXtRXmVOQ" resolve="CovariateTableRef" />
+    <node concept="1N5Pfh" id="oeXtRXmVPm" role="1Mr941">
+      <ref role="1N5Vy1" to="hgbr:oeXtRXnOb3" />
+      <node concept="13QW63" id="oeXtRXmVVs" role="1N6uqs">
+        <node concept="3clFbS" id="oeXtRXmVVt" role="2VODD2">
+          <node concept="3clFbF" id="oeXtRXn0yp" role="3cqZAp">
+            <node concept="2YIFZM" id="2MUPwqnaKDf" role="3clFbG">
+              <ref role="1Pybhc" to="o8zo:4IP40Bi3e_R" resolve="ListScope" />
+              <ref role="37wK5l" to="o8zo:4IP40Bi3eAf" resolve="forNamedElements" />
+              <node concept="2OqwBi" id="2MUPwqnaKDh" role="37wK5m">
+                <node concept="2OqwBi" id="2MUPwqnaKDi" role="2Oq$k0">
+                  <node concept="2rP1CM" id="oeXtRXn0Aq" role="2Oq$k0" />
+                  <node concept="I4A8Y" id="2MUPwqnaKDk" role="2OqNvi" />
+                </node>
+                <node concept="3lApI0" id="2MUPwqnaKDl" role="2OqNvi">
+                  <ref role="3lApI3" to="hgbr:WAEVbt3F3q" resolve="CovariateTable" />
                 </node>
               </node>
             </node>

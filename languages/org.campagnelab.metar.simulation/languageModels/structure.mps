@@ -66,9 +66,9 @@
     </node>
     <node concept="1TJgyj" id="2734ievAS6k" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="covariateTable" />
+      <property role="20kJfa" value="covariateTableRef" />
       <property role="20lbJX" value="1" />
-      <ref role="20lvS9" to="jrxw:3R5AwWRY9uN" resolve="TableRef" />
+      <ref role="20lvS9" node="oeXtRXmVOQ" resolve="CovariateTableRef" />
     </node>
     <node concept="1TJgyj" id="7hF4JJ2RXF0" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -149,7 +149,7 @@
     <node concept="1TJgyj" id="7hF4JJ2RXEB" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="sampleNames" />
-      <property role="20lbJX" value="1..n" />
+      <property role="20lbJX" value="0..n" />
       <ref role="20lvS9" node="4CUtYZMZzi" resolve="SampleName" />
     </node>
   </node>
@@ -169,6 +169,16 @@
     <property role="TrG5h" value="CovariateTable" />
     <property role="19KtqR" value="true" />
     <ref role="1TJDcQ" to="jrxw:2WRhvFtkykN" resolve="Table" />
+  </node>
+  <node concept="1TIwiD" id="oeXtRXmVOQ">
+    <property role="TrG5h" value="CovariateTableRef" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="oeXtRXnOb3" role="1TKVEi">
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="table" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="WAEVbt3F3q" resolve="CovariateTable" />
+    </node>
   </node>
 </model>
 

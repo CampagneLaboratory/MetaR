@@ -12567,11 +12567,8 @@
                                     <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
                                   </node>
                                 </node>
-                                <node concept="2OqwBi" id="2MUPwqpBPNI" role="3uHU7w">
-                                  <node concept="13iPFW" id="2MUPwqpBPGt" role="2Oq$k0" />
-                                  <node concept="2qgKlT" id="2MUPwqpBQxR" role="2OqNvi">
-                                    <ref role="37wK5l" node="2MUPwqpa7Z6" resolve="groupKeyName" />
-                                  </node>
+                                <node concept="BsUDl" id="oeXtRX9t$C" role="3uHU7w">
+                                  <ref role="37wK5l" node="2MUPwqpa7Z6" resolve="groupKeyName" />
                                 </node>
                               </node>
                             </node>
