@@ -28,6 +28,7 @@
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
+      <concept id="1080223426719" name="jetbrains.mps.baseLanguage.structure.OrExpression" flags="nn" index="22lmx$" />
       <concept id="1215693861676" name="jetbrains.mps.baseLanguage.structure.BaseAssignmentExpression" flags="nn" index="d038R">
         <child id="1068498886297" name="rValue" index="37vLTx" />
         <child id="1068498886295" name="lValue" index="37vLTJ" />
@@ -88,7 +89,9 @@
       <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
       </concept>
-      <concept id="1068580123137" name="jetbrains.mps.baseLanguage.structure.BooleanConstant" flags="nn" index="3clFbT" />
+      <concept id="1068580123137" name="jetbrains.mps.baseLanguage.structure.BooleanConstant" flags="nn" index="3clFbT">
+        <property id="1068580123138" name="value" index="3clFbU" />
+      </concept>
       <concept id="1068580320020" name="jetbrains.mps.baseLanguage.structure.IntegerConstant" flags="nn" index="3cmrfG">
         <property id="1068580320021" name="value" index="3cmrfH" />
       </concept>
@@ -2441,24 +2444,47 @@
             <node concept="3clFbS" id="3FhMZyFkWbB" role="Jncv$">
               <node concept="3clFbH" id="4U2hhjzN1Sc" role="3cqZAp" />
               <node concept="3clFbJ" id="3FhMZyFkY8u" role="3cqZAp">
-                <node concept="3clFbC" id="3FhMZyFl0$o" role="3clFbw">
-                  <node concept="2OqwBi" id="3FhMZyFkZ1J" role="3uHU7B">
-                    <node concept="2OqwBi" id="3FhMZyFkYfq" role="2Oq$k0">
-                      <node concept="Jnkvi" id="3FhMZyFkYaP" role="2Oq$k0">
-                        <ref role="1M0zk5" node="3FhMZyFkWb_" resolve="thisSetTable" />
-                      </node>
-                      <node concept="3TrEf2" id="3FhMZyFkYu7" role="2OqNvi">
-                        <ref role="3Tt5mk" to="jrxw:t0TZVlt6GT" />
-                      </node>
+                <node concept="22lmx$" id="7IY62OHv1m3" role="3clFbw">
+                  <node concept="3clFbC" id="7IY62OHv4fh" role="3uHU7w">
+                    <node concept="3clFbT" id="7IY62OHv4oy" role="3uHU7w">
+                      <property role="3clFbU" value="true" />
                     </node>
-                    <node concept="2qgKlT" id="3FhMZyFkZon" role="2OqNvi">
-                      <ref role="37wK5l" to="v8sa:3_QsSyzdEHw" resolve="hasGroup" />
-                      <node concept="Xl_RD" id="3FhMZyFkZqq" role="37wK5m">
-                        <property role="Xl_RC" value="ID" />
+                    <node concept="2OqwBi" id="7IY62OHv3k0" role="3uHU7B">
+                      <node concept="2OqwBi" id="7IY62OHv1Mj" role="2Oq$k0">
+                        <node concept="Jnkvi" id="7IY62OHv1Gs" role="2Oq$k0">
+                          <ref role="1M0zk5" node="3FhMZyFkWb_" resolve="thisSetTable" />
+                        </node>
+                        <node concept="3TrEf2" id="7IY62OHv2Xl" role="2OqNvi">
+                          <ref role="3Tt5mk" to="jrxw:t0TZVlt6GT" />
+                        </node>
+                      </node>
+                      <node concept="2qgKlT" id="7IY62OHv3Ki" role="2OqNvi">
+                        <ref role="37wK5l" to="v8sa:3_QsSyzdEHw" resolve="hasGroup" />
+                        <node concept="Xl_RD" id="7IY62OHv3SC" role="37wK5m">
+                          <property role="Xl_RC" value="id" />
+                        </node>
                       </node>
                     </node>
                   </node>
-                  <node concept="3clFbT" id="3FhMZyFl2vM" role="3uHU7w" />
+                  <node concept="3clFbC" id="3FhMZyFl0$o" role="3uHU7B">
+                    <node concept="2OqwBi" id="3FhMZyFkZ1J" role="3uHU7B">
+                      <node concept="2OqwBi" id="3FhMZyFkYfq" role="2Oq$k0">
+                        <node concept="Jnkvi" id="3FhMZyFkYaP" role="2Oq$k0">
+                          <ref role="1M0zk5" node="3FhMZyFkWb_" resolve="thisSetTable" />
+                        </node>
+                        <node concept="3TrEf2" id="3FhMZyFkYu7" role="2OqNvi">
+                          <ref role="3Tt5mk" to="jrxw:t0TZVlt6GT" />
+                        </node>
+                      </node>
+                      <node concept="2qgKlT" id="3FhMZyFkZon" role="2OqNvi">
+                        <ref role="37wK5l" to="v8sa:3_QsSyzdEHw" resolve="hasGroup" />
+                        <node concept="Xl_RD" id="3FhMZyFkZqq" role="37wK5m">
+                          <property role="Xl_RC" value="ID" />
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="3clFbT" id="3FhMZyFl2vM" role="3uHU7w" />
+                  </node>
                 </node>
                 <node concept="3clFbS" id="3FhMZyFkY8w" role="3clFbx">
                   <node concept="2MkqsV" id="3FhMZyFl2J3" role="3cqZAp">
