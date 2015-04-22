@@ -282,6 +282,15 @@
       </node>
       <node concept="l2Vlx" id="2WRhvFtn5da" role="2iSdaV" />
     </node>
+    <node concept="3EZMnI" id="oeXtRXwBgt" role="6VMZX">
+      <node concept="3F0ifn" id="oeXtRXwBgE" role="3EZMnx">
+        <property role="3F0ifm" value="Path to resolve:" />
+      </node>
+      <node concept="3F0A7n" id="oeXtRXwBg$" role="3EZMnx">
+        <ref role="1NtTu8" to="jrxw:w5znaeSg5k" resolve="pathToResolve" />
+      </node>
+      <node concept="2iRfu4" id="oeXtRXwBgw" role="2iSdaV" />
+    </node>
   </node>
   <node concept="24kQdi" id="oeXtRXnOfv">
     <ref role="1XX52x" to="hgbr:oeXtRXmVOQ" resolve="CovariateTableRef" />
