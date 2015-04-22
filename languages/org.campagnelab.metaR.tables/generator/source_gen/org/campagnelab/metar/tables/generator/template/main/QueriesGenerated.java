@@ -47,8 +47,6 @@ import org.campagnelab.metar.tables.behavior.OperationColumnRef_Behavior;
 import org.campagnelab.styles.behavior.Color_Behavior;
 import org.campagnelab.metar.tables.behavior.IdsFrom_Behavior;
 import org.campagnelab.metar.tables.behavior.TableRef_Behavior;
-import java.util.Set;
-import java.util.HashSet;
 import jetbrains.mps.generator.template.IfMacroContext;
 import jetbrains.mps.generator.template.SourceSubstituteMacroNodeContext;
 import jetbrains.mps.generator.template.TemplateQueryContext;
@@ -961,25 +959,6 @@ public class QueriesGenerated {
   public static Object propertyMacro_GetPropertyValue_8058827937367559134(final PropertyMacroContext _context) {
     return SPropertyOperations.getString(_context.getNode(), MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name"));
   }
-  public static Object propertyMacro_GetPropertyValue_7305682447501408833(final PropertyMacroContext _context) {
-    return SPropertyOperations.getString(_context.getNode(), MetaAdapterFactory.getProperty(0x5d6bde844ce44eb5L, 0xa37e25a5edd55129L, 0x7c5f892f445924a8L, 0x7c5f892f445924a9L, "id"));
-  }
-  public static Object propertyMacro_GetPropertyValue_7305682447501408870(final PropertyMacroContext _context) {
-    StringBuffer buffer = new StringBuffer();
-    buffer.append(ListSequence.fromList(SLinkOperations.getChildren(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x5d6bde844ce44eb5L, 0xa37e25a5edd55129L, 0x6562ff7a8a380c65L, 0x6562ff7a8a38356bL, "tablesList"))).select(new ISelector<SNode, String>() {
-      public String select(SNode it) {
-        return "\"" + SPropertyOperations.getString(SLinkOperations.getTarget(it, MetaAdapterFactory.getReferenceLink(0x5d6bde844ce44eb5L, 0xa37e25a5edd55129L, 0x3dc59a0f37f897b3L, 0x3dc59a0f37f89c07L, "table")), MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name")) + "\"";
-      }
-    }));
-    Set<String> exclusionList = SetSequence.fromSet(new HashSet<String>());
-    SetSequence.fromSet(exclusionList).addSequence(ListSequence.fromList(SLinkOperations.getChildren(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x5d6bde844ce44eb5L, 0xa37e25a5edd55129L, 0x6562ff7a8a380c65L, 0x6562ff7a8a38356bL, "tablesList"))).select(new ISelector<SNode, String>() {
-      public String select(SNode it) {
-        return SPropertyOperations.getString(SLinkOperations.getTarget(it, MetaAdapterFactory.getReferenceLink(0x5d6bde844ce44eb5L, 0xa37e25a5edd55129L, 0x3dc59a0f37f897b3L, 0x3dc59a0f37f89c07L, "table")), MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name"));
-      }
-    }));
-
-    return "'" + exclusionList + "'";
-  }
   public static boolean ifMacro_Condition_1549006859295113839(final IfMacroContext _context) {
     return ListSequence.fromList(SLinkOperations.getChildren(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getReferenceLink(0x5d6bde844ce44eb5L, 0xa37e25a5edd55129L, 0x2f3745fadd5e5fb7L, 0x2f3745fadd5e82e5L, "table")), MetaAdapterFactory.getReferenceLink(0x5d6bde844ce44eb5L, 0xa37e25a5edd55129L, 0x2f3745fadd605ac5L, 0x2f3745fadd605affL, "table")), MetaAdapterFactory.getContainmentLink(0x5ec1cd3d0a504049L, 0xa8faae768d7baa25L, 0x1e924e67df2c8b97L, 0x1e924e67df2c9a74L, "columns"))).any(new IWhereFilter<SNode>() {
       public boolean accept(SNode column) {
@@ -1165,6 +1144,9 @@ public class QueriesGenerated {
   }
   public static Iterable<SNode> sourceNodesQuery_5113139915983891574(final SourceSubstituteMacroNodesContext _context) {
     return SLinkOperations.getChildren(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x5d6bde844ce44eb5L, 0xa37e25a5edd55129L, 0x51f1c789d32d787L, 0x51f1c789d32d78cL, "sets"));
+  }
+  public static Iterable<SNode> sourceNodesQuery_5846015868249450998(final SourceSubstituteMacroNodesContext _context) {
+    return SLinkOperations.getChildren(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x5d6bde844ce44eb5L, 0xa37e25a5edd55129L, 0x6562ff7a8a380c65L, 0x6562ff7a8a38356dL, "blockStatementList")), MetaAdapterFactory.getContainmentLink(0x5d6bde844ce44eb5L, 0xa37e25a5edd55129L, 0x7c5f892f43aab47eL, 0x7c5f892f43aab47fL, "transformations"));
   }
   public static void mappingScript_CodeBlock_4166618652720374776(final MappingScriptContext _context) {
     // increment the ids for future tables so that columns names never reuse the same filename 
