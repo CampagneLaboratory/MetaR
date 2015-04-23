@@ -125,15 +125,11 @@
               </node>
             </node>
           </node>
-          <node concept="3SKdUt" id="6kVgbi6eBim" role="3cqZAp">
-            <node concept="3SKWN0" id="6kVgbi6eBir" role="3SKWNk">
-              <node concept="3clFbF" id="7hF4JJ2PtSx" role="3SKWNf">
-                <node concept="2OqwBi" id="7hF4JJ2PtUG" role="3clFbG">
-                  <node concept="EsrRn" id="7hF4JJ2PtSw" role="2Oq$k0" />
-                  <node concept="2qgKlT" id="7hF4JJ2Pu7w" role="2OqNvi">
-                    <ref role="37wK5l" to="v8sa:7S2MvlQNiSB" resolve="setInputChanged" />
-                  </node>
-                </node>
+          <node concept="3clFbF" id="6za0MtWOY9w" role="3cqZAp">
+            <node concept="2OqwBi" id="6za0MtWOYci" role="3clFbG">
+              <node concept="EsrRn" id="6za0MtWOY9u" role="2Oq$k0" />
+              <node concept="2qgKlT" id="6za0MtWOYD7" role="2OqNvi">
+                <ref role="37wK5l" to="v8sa:7S2MvlQNiSB" resolve="setInputChanged" />
               </node>
             </node>
           </node>
