@@ -15,6 +15,7 @@
     <import index="8m2y" ref="r:637d8b81-9211-452d-b50c-8c3ffbba4259(org.campagnelab.metar.simulation.code)" />
     <import index="msyo" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/f:java_stub#6ed54515-acc8-4d1e-a16c-9fd6cfe951ea#jetbrains.mps.util(MPS.Core/jetbrains.mps.util@java_stub)" />
     <import index="1mjk" ref="r:72b0aa20-b681-4aef-ad30-bb23b1f4b98c(org.campagnelab.metar.code.generator.helpers)" />
+    <import index="fxg7" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.io(JDK/java.io@java_stub)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="e2lb" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" implicit="true" />
     <import index="hgbr" ref="r:35e57e46-a34e-4190-bb18-c2596691e768(org.campagnelab.metar.simulation.structure)" implicit="true" />
@@ -243,6 +244,10 @@
       </concept>
       <concept id="6407023681583031218" name="jetbrains.mps.lang.smodel.structure.AttributeAccess" flags="nn" index="3CFZ6_">
         <child id="6407023681583036852" name="qualifier" index="3CFYIz" />
+      </concept>
+      <concept id="1140137987495" name="jetbrains.mps.lang.smodel.structure.SNodeTypeCastExpression" flags="nn" index="1PxgMI">
+        <reference id="1140138128738" name="concept" index="1PxNhF" />
+        <child id="1140138123956" name="leftExpression" index="1PxMeX" />
       </concept>
       <concept id="1138055754698" name="jetbrains.mps.lang.smodel.structure.SNodeType" flags="in" index="3Tqbb2">
         <reference id="1138405853777" name="concept" index="ehGHo" />
@@ -2927,6 +2932,76 @@
         </node>
       </node>
     </node>
+    <node concept="13i0hz" id="6za0MtWFHyS" role="13h7CS">
+      <property role="TrG5h" value="forceRefresh" />
+      <node concept="3Tm1VV" id="6za0MtWFHyT" role="1B3o_S" />
+      <node concept="3cqZAl" id="6za0MtWFI6U" role="3clF45" />
+      <node concept="3clFbS" id="6za0MtWFHyV" role="3clF47">
+        <node concept="34ab3g" id="6za0MtWLT4R" role="3cqZAp">
+          <property role="35gtTG" value="info" />
+          <node concept="Xl_RD" id="6za0MtWLT4T" role="34bqiv">
+            <property role="Xl_RC" value="Refreshing covariate table..." />
+          </node>
+        </node>
+        <node concept="3cpWs8" id="6za0MtWFJY8" role="3cqZAp">
+          <node concept="3cpWsn" id="6za0MtWFJYe" role="3cpWs9">
+            <property role="TrG5h" value="annotation" />
+            <node concept="3Tqbb2" id="6za0MtWFKH6" role="1tU5fm">
+              <ref role="ehGHo" to="jrxw:2MUPwqlH$YL" resolve="GroupAnnotation" />
+            </node>
+            <node concept="2OqwBi" id="6za0MtWFKK_" role="33vP2m">
+              <node concept="13iPFW" id="6za0MtWFKIf" role="2Oq$k0" />
+              <node concept="2qgKlT" id="6za0MtWFL6h" role="2OqNvi">
+                <ref role="37wK5l" node="6m3kBexR9$u" resolve="getGroupAnnotationWithCovariateFactor" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3SKdUt" id="6za0MtWFI6Z" role="3cqZAp">
+          <node concept="3SKdUq" id="6za0MtWFI73" role="3SKWNk">
+            <property role="3SKdUp" value="delete the table file" />
+          </node>
+        </node>
+        <node concept="3clFbF" id="6za0MtWFLa8" role="3cqZAp">
+          <node concept="2OqwBi" id="6za0MtWFLAK" role="3clFbG">
+            <node concept="1PxgMI" id="6za0MtWFMEA" role="2Oq$k0">
+              <ref role="1PxNhF" to="hgbr:WAEVbt3F3q" resolve="CovariateTable" />
+              <node concept="2OqwBi" id="6za0MtWFLcH" role="1PxMeX">
+                <node concept="37vLTw" id="6za0MtWFLa6" role="2Oq$k0">
+                  <ref role="3cqZAo" node="6za0MtWFJYe" resolve="annotation" />
+                </node>
+                <node concept="3TrEf2" id="6za0MtWFLoC" role="2OqNvi">
+                  <ref role="3Tt5mk" to="jrxw:2MUPwqmWSI9" />
+                </node>
+              </node>
+            </node>
+            <node concept="2qgKlT" id="6za0MtWFNuf" role="2OqNvi">
+              <ref role="37wK5l" node="6za0MtWFmBy" resolve="forceRefresh" />
+            </node>
+          </node>
+        </node>
+        <node concept="3SKdUt" id="6za0MtWFJWz" role="3cqZAp">
+          <node concept="3SKdUq" id="6za0MtWFJWZ" role="3SKWNk">
+            <property role="3SKdUp" value="unload the content" />
+          </node>
+        </node>
+        <node concept="3clFbF" id="6za0MtWGcTK" role="3cqZAp">
+          <node concept="2OqwBi" id="6za0MtWGcXE" role="3clFbG">
+            <node concept="37vLTw" id="6za0MtWGcTI" role="2Oq$k0">
+              <ref role="3cqZAo" node="6za0MtWFJYe" resolve="annotation" />
+            </node>
+            <node concept="2qgKlT" id="6za0MtWG$Q3" role="2OqNvi">
+              <ref role="37wK5l" to="v8sa:6za0MtWGfcu" resolve="clear" />
+            </node>
+          </node>
+        </node>
+        <node concept="3SKdUt" id="6za0MtWGKp3" role="3cqZAp">
+          <node concept="3SKdUq" id="6za0MtWGKr$" role="3SKWNk">
+            <property role="3SKdUp" value="the content is recreated in the generator aspect of simulate dataset" />
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="13hLZK" id="4lfKH_J9qUu" role="13h7CW">
       <node concept="3clFbS" id="4lfKH_J9qUv" role="2VODD2" />
     </node>
@@ -3436,6 +3511,35 @@
         <property role="TrG5h" value="factor" />
         <node concept="3Tqbb2" id="oeXtRX3HIw" role="1tU5fm">
           <ref role="ehGHo" to="hgbr:2734ievAQvI" resolve="CovariateFactor" />
+        </node>
+      </node>
+    </node>
+    <node concept="13i0hz" id="6za0MtWFmBy" role="13h7CS">
+      <property role="TrG5h" value="forceRefresh" />
+      <node concept="3Tm1VV" id="6za0MtWFmBz" role="1B3o_S" />
+      <node concept="3cqZAl" id="6za0MtWFyzH" role="3clF45" />
+      <node concept="3clFbS" id="6za0MtWFmB_" role="3clF47">
+        <node concept="3SKdUt" id="6za0MtWFH5w" role="3cqZAp">
+          <node concept="3SKdUq" id="6za0MtWFH5$" role="3SKWNk">
+            <property role="3SKdUp" value="delete the table file" />
+          </node>
+        </node>
+        <node concept="3clFbF" id="6za0MtWFNJ3" role="3cqZAp">
+          <node concept="2YIFZM" id="6za0MtWFO7R" role="3clFbG">
+            <ref role="37wK5l" to="msyo:~FileUtil.delete(java.io.File):boolean" resolve="delete" />
+            <ref role="1Pybhc" to="msyo:~FileUtil" resolve="FileUtil" />
+            <node concept="2ShNRf" id="6za0MtWFO84" role="37wK5m">
+              <node concept="1pGfFk" id="6za0MtWGb$L" role="2ShVmc">
+                <ref role="37wK5l" to="fxg7:~File.&lt;init&gt;(java.lang.String)" resolve="File" />
+                <node concept="2OqwBi" id="6za0MtWGbGY" role="37wK5m">
+                  <node concept="13iPFW" id="6za0MtWGb_8" role="2Oq$k0" />
+                  <node concept="2qgKlT" id="6za0MtWGcls" role="2OqNvi">
+                    <ref role="37wK5l" to="v8sa:w5znaeJk_2" resolve="resolvePath" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
         </node>
       </node>
     </node>
