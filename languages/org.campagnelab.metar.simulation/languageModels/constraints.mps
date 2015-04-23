@@ -10,6 +10,7 @@
     <import index="v8sa" ref="r:db1b133e-9a0f-4319-b384-413408eb1729(org.campagnelab.metar.tables.behavior)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="jrxw" ref="r:9f2bbfbf-f8b7-4b3b-92b1-b6a0e9642c10(org.campagnelab.metar.tables.structure)" implicit="true" />
+    <import index="ztlb" ref="r:989540b8-cc89-4ed5-ba78-cf2ce766b8ce(org.campagnelab.mps.XChart.structure)" implicit="true" />
     <import index="hgbr" ref="r:35e57e46-a34e-4190-bb18-c2596691e768(org.campagnelab.metar.simulation.structure)" implicit="true" />
   </imports>
   <registry>
@@ -183,6 +184,29 @@
                 <node concept="EsrRn" id="6m3kBey2irG" role="2Oq$k0" />
                 <node concept="3TrcHB" id="6m3kBey2j7t" role="2OqNvi">
                   <ref role="3TsBF5" to="jrxw:w5znaeSg5k" resolve="pathToResolve" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="EnEH3" id="6m3kBey6Zf2" role="1MhHOB">
+      <ref role="EomxK" to="ztlb:1UijAvvb9DM" resolve="path" />
+      <node concept="1LLf8_" id="6m3kBey6Zjs" role="1LXaQT">
+        <node concept="3clFbS" id="6m3kBey6Zjt" role="2VODD2">
+          <node concept="3SKdUt" id="6m3kBey6ZjN" role="3cqZAp">
+            <node concept="3SKdUq" id="6m3kBey6ZjO" role="3SKWNk">
+              <property role="3SKdUp" value="override the contraint in Table allowing to set a non-existing path" />
+            </node>
+          </node>
+          <node concept="3clFbF" id="6m3kBey6Zkj" role="3cqZAp">
+            <node concept="37vLTI" id="6m3kBey70EX" role="3clFbG">
+              <node concept="1Wqviy" id="6m3kBey70Jd" role="37vLTx" />
+              <node concept="2OqwBi" id="6m3kBey6ZnV" role="37vLTJ">
+                <node concept="EsrRn" id="6m3kBey6Zkh" role="2Oq$k0" />
+                <node concept="3TrcHB" id="6m3kBey70s9" role="2OqNvi">
+                  <ref role="3TsBF5" to="ztlb:1UijAvvb9DM" resolve="path" />
                 </node>
               </node>
             </node>
