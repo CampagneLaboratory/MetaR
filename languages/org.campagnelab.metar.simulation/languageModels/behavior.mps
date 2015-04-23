@@ -679,6 +679,7 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbH" id="6za0MtWS5sw" role="3cqZAp" />
         <node concept="3clFbF" id="7hF4JJ2SMWq" role="3cqZAp">
           <node concept="2OqwBi" id="7hF4JJ2SRde" role="3clFbG">
             <node concept="2OqwBi" id="7hF4JJ2SOc_" role="2Oq$k0">
@@ -1219,6 +1220,77 @@
             <node concept="TSZUe" id="4lfKH_J9cWU" role="2OqNvi">
               <node concept="37vLTw" id="4lfKH_Jbvyc" role="25WWJ7">
                 <ref role="3cqZAo" node="4lfKH_Jbty2" resolve="covariateRef" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="6za0MtWSb6y" role="3cqZAp" />
+        <node concept="3SKdUt" id="6za0MtWSbMo" role="3cqZAp">
+          <node concept="3SKdUq" id="6za0MtWScbk" role="3SKWNk">
+            <property role="3SKdUp" value="add counts usage to the column" />
+          </node>
+        </node>
+        <node concept="3cpWs8" id="6za0MtWScVJ" role="3cqZAp">
+          <node concept="3cpWsn" id="6za0MtWScVK" role="3cpWs9">
+            <property role="TrG5h" value="countsRef" />
+            <node concept="3Tqbb2" id="6za0MtWScVL" role="1tU5fm">
+              <ref role="ehGHo" to="jrxw:2WRhvFtICK7" resolve="ColumnGroupReference" />
+            </node>
+            <node concept="2OqwBi" id="6za0MtWScVM" role="33vP2m">
+              <node concept="I8ghe" id="6za0MtWScVN" role="2OqNvi">
+                <ref role="I8UWU" to="jrxw:2WRhvFtICK7" resolve="ColumnGroupReference" />
+              </node>
+              <node concept="2OqwBi" id="6za0MtWScVO" role="2Oq$k0">
+                <node concept="37vLTw" id="6za0MtWScVP" role="2Oq$k0">
+                  <ref role="3cqZAo" node="L8UVRxI1Jp" resolve="col" />
+                </node>
+                <node concept="I4A8Y" id="6za0MtWScVQ" role="2OqNvi" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="6za0MtWSgtS" role="3cqZAp">
+          <node concept="37vLTI" id="6za0MtWShdl" role="3clFbG">
+            <node concept="2OqwBi" id="6za0MtWSgTu" role="37vLTJ">
+              <node concept="37vLTw" id="6za0MtWSgtQ" role="2Oq$k0">
+                <ref role="3cqZAo" node="6za0MtWScVK" resolve="countsRef" />
+              </node>
+              <node concept="3TrEf2" id="6za0MtWSha9" role="2OqNvi">
+                <ref role="3Tt5mk" to="jrxw:2WRhvFtICK8" />
+              </node>
+            </node>
+            <node concept="2YIFZM" id="6za0MtWSg24" role="37vLTx">
+              <ref role="37wK5l" node="4lfKH_J9DDi" resolve="getOrCreateGroupFromContainer" />
+              <ref role="1Pybhc" node="4CUtYZUcPc" resolve="GroupContainer" />
+              <node concept="37vLTw" id="6za0MtWSg4S" role="37wK5m">
+                <ref role="3cqZAo" node="L8UVRxIheB" resolve="groupContainer" />
+              </node>
+              <node concept="Xl_RD" id="6za0MtWSg6l" role="37wK5m">
+                <property role="Xl_RC" value="counts" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="6za0MtWSe18" role="3cqZAp">
+          <node concept="2OqwBi" id="6za0MtWSe19" role="3clFbG">
+            <node concept="2OqwBi" id="6za0MtWSe1a" role="2Oq$k0">
+              <node concept="2OqwBi" id="6za0MtWSe1b" role="2Oq$k0">
+                <node concept="37vLTw" id="6za0MtWSe1c" role="2Oq$k0">
+                  <ref role="3cqZAo" node="L8UVRxI1Jp" resolve="col" />
+                </node>
+                <node concept="3CFZ6_" id="6za0MtWSe1d" role="2OqNvi">
+                  <node concept="3CFYIy" id="6za0MtWSe1e" role="3CFYIz">
+                    <ref role="3CFYIx" to="jrxw:2WRhvFtICIG" resolve="ColumnAnnotation" />
+                  </node>
+                </node>
+              </node>
+              <node concept="3Tsc0h" id="6za0MtWSe1f" role="2OqNvi">
+                <ref role="3TtcxE" to="jrxw:2WRhvFtID48" />
+              </node>
+            </node>
+            <node concept="TSZUe" id="6za0MtWSe1g" role="2OqNvi">
+              <node concept="37vLTw" id="6za0MtWSKeG" role="25WWJ7">
+                <ref role="3cqZAo" node="6za0MtWScVK" resolve="countsRef" />
               </node>
             </node>
           </node>
