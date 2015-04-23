@@ -3692,19 +3692,38 @@
             <property role="3SKdUp" value="delete the table file" />
           </node>
         </node>
-        <node concept="3clFbF" id="6za0MtWFNJ3" role="3cqZAp">
-          <node concept="2YIFZM" id="6za0MtWFO7R" role="3clFbG">
-            <ref role="37wK5l" to="msyo:~FileUtil.delete(java.io.File):boolean" resolve="delete" />
-            <ref role="1Pybhc" to="msyo:~FileUtil" resolve="FileUtil" />
-            <node concept="2ShNRf" id="6za0MtWFO84" role="37wK5m">
-              <node concept="1pGfFk" id="6za0MtWGb$L" role="2ShVmc">
-                <ref role="37wK5l" to="fxg7:~File.&lt;init&gt;(java.lang.String)" resolve="File" />
-                <node concept="2OqwBi" id="6za0MtWGbGY" role="37wK5m">
-                  <node concept="13iPFW" id="6za0MtWGb_8" role="2Oq$k0" />
-                  <node concept="2qgKlT" id="6za0MtWGcls" role="2OqNvi">
-                    <ref role="37wK5l" to="v8sa:w5znaeJk_2" resolve="resolvePath" />
+        <node concept="SfApY" id="6za0MtWW9ZW" role="3cqZAp">
+          <node concept="3clFbS" id="6za0MtWW9ZY" role="SfCbr">
+            <node concept="3clFbF" id="6za0MtWFNJ3" role="3cqZAp">
+              <node concept="2YIFZM" id="6za0MtWFO7R" role="3clFbG">
+                <ref role="37wK5l" to="msyo:~FileUtil.delete(java.io.File):boolean" resolve="delete" />
+                <ref role="1Pybhc" to="msyo:~FileUtil" resolve="FileUtil" />
+                <node concept="2ShNRf" id="6za0MtWFO84" role="37wK5m">
+                  <node concept="1pGfFk" id="6za0MtWGb$L" role="2ShVmc">
+                    <ref role="37wK5l" to="fxg7:~File.&lt;init&gt;(java.lang.String)" resolve="File" />
+                    <node concept="2OqwBi" id="6za0MtWGbGY" role="37wK5m">
+                      <node concept="13iPFW" id="6za0MtWGb_8" role="2Oq$k0" />
+                      <node concept="2qgKlT" id="6za0MtWGcls" role="2OqNvi">
+                        <ref role="37wK5l" to="v8sa:w5znaeJk_2" resolve="resolvePath" />
+                      </node>
+                    </node>
                   </node>
                 </node>
+              </node>
+            </node>
+          </node>
+          <node concept="TDmWw" id="6za0MtWW9ZZ" role="TEbGg">
+            <node concept="3clFbS" id="6za0MtWWa01" role="TDEfX">
+              <node concept="3SKdUt" id="6za0MtWWacF" role="3cqZAp">
+                <node concept="3SKdUq" id="6za0MtWWacJ" role="3SKWNk">
+                  <property role="3SKdUp" value="nothing to do, the table file does not exist" />
+                </node>
+              </node>
+            </node>
+            <node concept="3cpWsn" id="6za0MtWWa03" role="TDEfY">
+              <property role="TrG5h" value="e" />
+              <node concept="3uibUv" id="6za0MtWWacd" role="1tU5fm">
+                <ref role="3uigEE" to="e2lb:~Exception" resolve="Exception" />
               </node>
             </node>
           </node>
