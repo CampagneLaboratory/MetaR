@@ -176,6 +176,17 @@
               <property role="3SKdUp" value="override the contraint in Table allowing to set a non-existing path" />
             </node>
           </node>
+          <node concept="3clFbF" id="6m3kBey2irI" role="3cqZAp">
+            <node concept="37vLTI" id="6m3kBey2jN7" role="3clFbG">
+              <node concept="1Wqviy" id="6m3kBey2jRn" role="37vLTx" />
+              <node concept="2OqwBi" id="6m3kBey2ivy" role="37vLTJ">
+                <node concept="EsrRn" id="6m3kBey2irG" role="2Oq$k0" />
+                <node concept="3TrcHB" id="6m3kBey2j7t" role="2OqNvi">
+                  <ref role="3TsBF5" to="jrxw:w5znaeSg5k" resolve="pathToResolve" />
+                </node>
+              </node>
+            </node>
+          </node>
         </node>
       </node>
     </node>
