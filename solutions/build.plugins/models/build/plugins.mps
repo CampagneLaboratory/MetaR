@@ -896,12 +896,6 @@
               <ref role="3bR37D" node="1$0xyBYfkEs" resolve="org.campagnelab.metar.code" />
             </node>
           </node>
-          <node concept="1SiIV0" id="6g5l50dUyKw" role="3bR37C">
-            <node concept="3bR9La" id="6g5l50dUyKx" role="1SiIV1">
-              <property role="3bR36h" value="false" />
-              <ref role="3bR37D" node="6g5l50dUyHt" resolve="org.campagnelab.metar.models#5124039371743718191" />
-            </node>
-          </node>
           <node concept="1SiIV0" id="6g5l50dUyKy" role="3bR37C">
             <node concept="3bR9La" id="6g5l50dUyKz" role="1SiIV1">
               <property role="3bR36h" value="false" />
