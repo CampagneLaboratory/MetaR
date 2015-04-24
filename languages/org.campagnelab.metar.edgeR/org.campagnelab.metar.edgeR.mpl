@@ -16,7 +16,7 @@
       <external-templates />
       <dependencies>
         <dependency reexport="false" scope="design">f8960ca5-9f20-4fc0-b9f7-20a20893f26d(org.campagnelab.metar.tables#3402264987258972825)</dependency>
-        <dependency reexport="false">d23250e1-9717-401c-998d-4189f8b15324(org.campagnelab.metar.models#5124039371743718191)</dependency>
+        <dependency reexport="false" scope="design">d23250e1-9717-401c-998d-4189f8b15324(org.campagnelab.metar.models#5124039371743718191)</dependency>
         <dependency reexport="false">ecc862c9-5ab5-42ef-8703-2039019fb338(org.campagnelab.metar.models)</dependency>
         <dependency reexport="false">5ec1cd3d-0a50-4049-a8fa-ae768d7baa25(org.campagnelab.mps.XChart)</dependency>
         <dependency reexport="false">c901f7a1-ed4f-4b52-8d35-10d1a33974f0(org.campagnelab.metar.code)</dependency>
@@ -81,6 +81,20 @@
                   <mapping-node modelUID="r:b6f16bd6-db0a-4921-99be-0b316a02895c(org.campagnelab.metar.tables.generator.template.expressions@generator)" nodeID="8081253674573441629" />
                 </mapping-set-element>
               </mapping-set>
+            </external-mapping>
+          </lesser-priority-mapping>
+        </mapping-priority-rule>
+        <mapping-priority-rule kind="strictly_together">
+          <greater-priority-mapping>
+            <generator generatorUID="6e4866f6-6b84-4eb7-b6fb-dc7d32988068(org.campagnelab.metar.edgeR#8725455673819557209)" />
+            <external-mapping>
+              <all-local-mappings />
+            </external-mapping>
+          </greater-priority-mapping>
+          <lesser-priority-mapping>
+            <generator generatorUID="d23250e1-9717-401c-998d-4189f8b15324(org.campagnelab.metar.models#5124039371743718191)" />
+            <external-mapping>
+              <all-local-mappings />
             </external-mapping>
           </lesser-priority-mapping>
         </mapping-priority-rule>
