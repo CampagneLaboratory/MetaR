@@ -488,9 +488,6 @@
           </node>
           <node concept="1gZcZf" id="6kVgbi6iItD" role="2G3XIn">
             <property role="1gZaPE" value="" />
-            <node concept="3_3kQU" id="oeXtRXJM_A" role="3_3kQL">
-              <property role="3_3kQV" value="SAMPLE_NAME_PREFIX &lt;- &quot;sample&quot;" />
-            </node>
           </node>
           <node concept="1gZcZf" id="6kVgbi6iItE" role="2G3XIn">
             <property role="1gZaPE" value="" />
