@@ -1253,7 +1253,7 @@
     <property role="TrG5h" value="HeatmapStyle" />
     <node concept="24aBtg" id="2734ievegHW" role="2YPqp2">
       <property role="TrG5h" value="Sequential-BuGn" />
-      <ref role="24aBtv" to="wiqx:1xsIq4yn5p" resolve="Sequential-BuGn" />
+      <ref role="24aBtv" to="wiqx:1xsIq4yn5p" resolve="Sequential-BlueGreen" />
     </node>
     <node concept="2A4dvw" id="2734ievegHX" role="2YPqp2">
       <property role="2A4bwM" value="true" />
