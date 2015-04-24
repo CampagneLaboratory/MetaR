@@ -1367,7 +1367,7 @@
     </copy>
   </target>
   
-  <target name="java.compile.org.campagnelab.metar.edgeR#8725455673819557209" depends="java.compile.org.campagnelab.metar.code, java.compile.org.campagnelab.metar.edgeR, java.compile.org.campagnelab.metar.inspect, java.compile.org.campagnelab.metar.models, java.compile.org.campagnelab.metar.models#5124039371743718191, java.compile.org.campagnelab.metar.tables, java.compile.org.campagnelab.styles, fetchDependencies">
+  <target name="java.compile.org.campagnelab.metar.edgeR#8725455673819557209" depends="java.compile.org.campagnelab.metar.code, java.compile.org.campagnelab.metar.edgeR, java.compile.org.campagnelab.metar.inspect, java.compile.org.campagnelab.metar.models, java.compile.org.campagnelab.metar.tables, java.compile.org.campagnelab.styles, fetchDependencies">
     <mkdir dir="${basedir}/languages/org.campagnelab.metar.edgeR/generator/source_gen" />
     <mkdir dir="${build.tmp}/java/out/org.campagnelab.metar.edgeR#8725455673819557209" />
     <javac destdir="${build.tmp}/java/out/org.campagnelab.metar.edgeR#8725455673819557209" fork="true" includeantruntime="false" source="1.6" target="1.6">
@@ -1389,7 +1389,6 @@
         <pathelement path="${build.tmp}/java/out/org.campagnelab.metar.edgeR" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.metar.inspect" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.metar.models" />
-        <pathelement path="${build.tmp}/java/out/org.campagnelab.metar.models#5124039371743718191" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.metar.tables" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.styles" />
         <fileset file="${build.tmp}/deps/XChart/XChart__dl__lbrace_XChart_version_rbrace_.zip/XChart/lib/xchart-2.4.1-SNAPSHOT.jar" />
