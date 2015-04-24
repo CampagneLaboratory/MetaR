@@ -45,7 +45,7 @@
   <node concept="1TIwiD" id="2734ievAyTY">
     <property role="TrG5h" value="SimulateDataset" />
     <property role="34LRSv" value="simulate dataset" />
-    <ref role="1TJDcQ" to="jrxw:7LvyiX4miiC" resolve="Statement" />
+    <ref role="1TJDcQ" to="jrxw:5Wt7RzzuILp" resolve="DataTableStatement" />
     <node concept="1TJgyj" id="2734ievAQvk" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="discreteFactors" />
