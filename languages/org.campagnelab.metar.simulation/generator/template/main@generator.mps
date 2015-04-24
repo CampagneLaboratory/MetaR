@@ -1439,22 +1439,16 @@
             </node>
           </node>
         </node>
-        <node concept="1gZcZf" id="4lfKH_J0Geg" role="2G3XIn">
-          <property role="1gZaPE" value="" />
-          <node concept="3_3kQU" id="oeXtRXJM_k" role="3_3kQL">
-            <property role="3_3kQV" value="    TREATMENT_DELTA &lt;- 0" />
-          </node>
-          <node concept="3_3kQU" id="4lfKH_J0KYK" role="3_3kQL">
-            <property role="3_3kQV" value="" />
-          </node>
-          <node concept="3_3kQU" id="4lfKH_J0Geh" role="3_3kQL">
-            <property role="3_3kQV" value="" />
-          </node>
-        </node>
         <node concept="2G3XJi" id="4uiWCTtS1gC" role="2G3XIn">
           <property role="1gZaPE" value="" />
           <node concept="1gZcZf" id="4uiWCTtS1gD" role="2G3XIn">
             <property role="1gZaPE" value="" />
+          </node>
+          <node concept="1gZcZf" id="4uiWCTtUsWq" role="2G3XIn">
+            <property role="1gZaPE" value="#reload the table" />
+            <node concept="3_3kQU" id="4uiWCTtUsWr" role="3_3kQL">
+              <property role="3_3kQV" value="" />
+            </node>
           </node>
           <node concept="1gZcZf" id="4uiWCTtS1gE" role="2G3XIn">
             <property role="1gZaPE" value="" />
