@@ -155,6 +155,7 @@
       <concept id="8459500803719374384" name="org.campagnelab.metar.tables.structure.Plot" flags="ng" index="1FHg$p">
         <property id="8962032619586498917" name="width" index="ZHjxa" />
         <property id="8962032619586499111" name="height" index="ZHjG8" />
+        <property id="4166618652723451261" name="id" index="3ZMXzF" />
       </concept>
       <concept id="8459500803719286639" name="org.campagnelab.metar.tables.structure.Heatmap" flags="ng" index="1FHY16">
         <child id="5703306641526697040" name="annotations" index="2thHW" />
@@ -1147,6 +1148,7 @@
           <property role="ZHjxa" value="350" />
           <property role="ZHjG8" value="200" />
           <property role="TrG5h" value="plot" />
+          <property role="3ZMXzF" value="7" />
         </node>
         <node concept="2tnku" id="2734ievegHv" role="2thHW">
           <property role="2Lhm2Y" value="true" />
@@ -1176,6 +1178,7 @@
           <property role="ZHjxa" value="400" />
           <property role="ZHjG8" value="400" />
           <property role="TrG5h" value="PreviewHeatmap" />
+          <property role="3ZMXzF" value="8" />
         </node>
         <node concept="31becx" id="2734ievegHC" role="312phR">
           <ref role="312p7B" node="2734ievegHt" resolve="plot" />
@@ -3513,6 +3516,7 @@
           <property role="ZHjxa" value="350" />
           <property role="ZHjG8" value="300" />
           <property role="TrG5h" value="plot NOPE" />
+          <property role="3ZMXzF" value="11" />
         </node>
         <node concept="afgQW" id="DQS$2nlq7S" role="af7lV">
           <ref role="afgo8" node="DQS$2nloBw" resolve="10% FDR only" />
@@ -3542,6 +3546,7 @@
           <property role="ZHjxa" value="350" />
           <property role="ZHjG8" value="300" />
           <property role="TrG5h" value="plot with adjustments" />
+          <property role="3ZMXzF" value="12" />
         </node>
         <node concept="afgQW" id="DQS$2nlqdk" role="af7lV">
           <ref role="afgo8" node="DQS$2nlo_9" resolve="10% FDR batch adjusted" />
@@ -3591,6 +3596,7 @@
           <property role="ZHjxa" value="400" />
           <property role="ZHjG8" value="400" />
           <property role="TrG5h" value="PreviewHeatmap" />
+          <property role="3ZMXzF" value="15" />
         </node>
         <node concept="31becx" id="4ssfE$b9ViW" role="312phR">
           <ref role="312p7B" node="4ssfE$b9ViL" resolve="plot NOPE" />
