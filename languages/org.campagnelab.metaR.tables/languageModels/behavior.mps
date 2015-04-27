@@ -12455,29 +12455,48 @@
                   <node concept="37vLTw" id="7TJa_IVD2oX" role="37vLTJ">
                     <ref role="3cqZAo" node="7TJa_IVCXFZ" resolve="localpath" />
                   </node>
-                  <node concept="3cpWs3" id="7TJa_IVD3c$" role="37vLTx">
+                  <node concept="3cpWs3" id="3l0yXcUGDOq" role="37vLTx">
                     <node concept="2OqwBi" id="7TJa_IVD3c_" role="3uHU7w">
                       <node concept="13iPFW" id="7TJa_IVD3cA" role="2Oq$k0" />
                       <node concept="3TrcHB" id="7TJa_IVD3cB" role="2OqNvi">
                         <ref role="3TsBF5" to="jrxw:3qa402_vrS1" resolve="path" />
                       </node>
                     </node>
-                    <node concept="3cpWs3" id="7TJa_IVD3cC" role="3uHU7B">
-                      <node concept="2OqwBi" id="7TJa_IVD3cD" role="3uHU7B">
-                        <node concept="2YIFZM" id="7TJa_IVD3cE" role="2Oq$k0">
-                          <ref role="1Pybhc" to="msyo:~MacrosFactory" resolve="MacrosFactory" />
-                          <ref role="37wK5l" to="msyo:~MacrosFactory.getGlobal():jetbrains.mps.util.MacroHelper" resolve="getGlobal" />
-                        </node>
-                        <node concept="liA8E" id="7TJa_IVD3cF" role="2OqNvi">
-                          <ref role="37wK5l" to="msyo:~MacroHelper.expandPath(java.lang.String):java.lang.String" resolve="expandPath" />
-                          <node concept="Xl_RD" id="7TJa_IVD3cG" role="37wK5m">
-                            <property role="Xl_RC" value="${org.campagnelab.metaR.results_dir}" />
-                          </node>
-                        </node>
-                      </node>
-                      <node concept="10M0yZ" id="7TJa_IVD3cH" role="3uHU7w">
+                    <node concept="3cpWs3" id="3l0yXcUGF2H" role="3uHU7B">
+                      <node concept="10M0yZ" id="3l0yXcUGFa8" role="3uHU7w">
                         <ref role="1PxDUh" to="fxg7:~File" resolve="File" />
                         <ref role="3cqZAo" to="fxg7:~File.separator" resolve="separator" />
+                      </node>
+                      <node concept="3cpWs3" id="7TJa_IVD3c$" role="3uHU7B">
+                        <node concept="3cpWs3" id="7TJa_IVD3cC" role="3uHU7B">
+                          <node concept="2OqwBi" id="7TJa_IVD3cD" role="3uHU7B">
+                            <node concept="2YIFZM" id="7TJa_IVD3cE" role="2Oq$k0">
+                              <ref role="1Pybhc" to="msyo:~MacrosFactory" resolve="MacrosFactory" />
+                              <ref role="37wK5l" to="msyo:~MacrosFactory.getGlobal():jetbrains.mps.util.MacroHelper" resolve="getGlobal" />
+                            </node>
+                            <node concept="liA8E" id="7TJa_IVD3cF" role="2OqNvi">
+                              <ref role="37wK5l" to="msyo:~MacroHelper.expandPath(java.lang.String):java.lang.String" resolve="expandPath" />
+                              <node concept="Xl_RD" id="7TJa_IVD3cG" role="37wK5m">
+                                <property role="Xl_RC" value="${org.campagnelab.metaR.results_dir}" />
+                              </node>
+                            </node>
+                          </node>
+                          <node concept="10M0yZ" id="7TJa_IVD3cH" role="3uHU7w">
+                            <ref role="1PxDUh" to="fxg7:~File" resolve="File" />
+                            <ref role="3cqZAo" to="fxg7:~File.separator" resolve="separator" />
+                          </node>
+                        </node>
+                        <node concept="2YIFZM" id="3l0yXcUGDZ8" role="3uHU7w">
+                          <ref role="37wK5l" to="1mjk:ESqoaSL1vt" resolve="RName" />
+                          <ref role="1Pybhc" to="1mjk:ESqoaSL1tG" resolve="NameHelper" />
+                          <node concept="2OqwBi" id="3l0yXcUGE_T" role="37wK5m">
+                            <node concept="2OqwBi" id="3l0yXcUGE87" role="2Oq$k0">
+                              <node concept="13iPFW" id="3l0yXcUGE3c" role="2Oq$k0" />
+                              <node concept="I4A8Y" id="3l0yXcUGEqC" role="2OqNvi" />
+                            </node>
+                            <node concept="LkI2h" id="3l0yXcUGEI2" role="2OqNvi" />
+                          </node>
+                        </node>
                       </node>
                     </node>
                   </node>
