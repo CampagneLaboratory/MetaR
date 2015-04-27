@@ -4782,18 +4782,6 @@
         <node concept="3clFbS" id="3l0yXcVu1VY" role="2VODD2" />
       </node>
     </node>
-    <node concept="1hA7zw" id="3l0yXcVCU$4" role="1h_SK8">
-      <property role="1hAc7j" value="complete_action_id" />
-      <node concept="1hAIg9" id="3l0yXcVCU$5" role="1hA7z_">
-        <node concept="3clFbS" id="3l0yXcVCU$6" role="2VODD2" />
-      </node>
-    </node>
-    <node concept="1hA7zw" id="3l0yXcVCU$v" role="1h_SK8">
-      <property role="1hAc7j" value="complete_smart_action_id" />
-      <node concept="1hAIg9" id="3l0yXcVCU$w" role="1hA7z_">
-        <node concept="3clFbS" id="3l0yXcVCU$x" role="2VODD2" />
-      </node>
-    </node>
     <node concept="1hA7zw" id="3l0yXcVCU$X" role="1h_SK8">
       <property role="1hAc7j" value="delete_to_word_end_action_id" />
       <node concept="1hAIg9" id="3l0yXcVCU$Y" role="1hA7z_">

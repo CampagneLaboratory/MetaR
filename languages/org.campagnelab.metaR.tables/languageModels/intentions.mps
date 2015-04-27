@@ -2397,7 +2397,7 @@
       <node concept="3clFbS" id="3l0yXcWbCLi" role="2VODD2">
         <node concept="3clFbF" id="3l0yXcWbFm2" role="3cqZAp">
           <node concept="Xl_RD" id="3l0yXcWbFm1" role="3clFbG">
-            <property role="Xl_RC" value="Annotate" />
+            <property role="Xl_RC" value="Annotate with Groups" />
           </node>
         </node>
       </node>
@@ -2445,7 +2445,7 @@
       <node concept="3clFbS" id="3l0yXcWbI9i" role="2VODD2">
         <node concept="3clFbF" id="3l0yXcWbIo3" role="3cqZAp">
           <node concept="Xl_RD" id="3l0yXcWbIo2" role="3clFbG">
-            <property role="Xl_RC" value="Remove annotations" />
+            <property role="Xl_RC" value="Remove all Groups" />
           </node>
         </node>
       </node>
