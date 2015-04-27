@@ -37,6 +37,8 @@ import org.campagnelab.metar.tables.behavior.FitXByY_Behavior;
 import org.campagnelab.metar.tables.behavior.Multiplot_Behavior;
 import jetbrains.mps.smodel.behaviour.BehaviorReflection;
 import java.io.File;
+import jetbrains.mps.util.MacrosFactory;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SModelOperations;
 import org.campagnelab.metar.tables.behavior.Render_Behavior;
 import org.campagnelab.metar.tables.behavior.ColumnRef_Behavior;
 import org.campagnelab.metar.tables.behavior.Model_Behavior;
@@ -602,6 +604,10 @@ public class QueriesGenerated {
   }
   public static Object propertyMacro_GetPropertyValue_2497029342011493581(final PropertyMacroContext _context) {
     return new RPath(System.getProperty("user.home") + File.separator + ".metaRlibs").toString();
+  }
+  public static Object propertyMacro_GetPropertyValue_3837220621851759748(final PropertyMacroContext _context) {
+    String path = MacrosFactory.getGlobal().expandPath("${org.campagnelab.metaR.results_dir}" + File.separator + NameHelper.RName(SModelOperations.getModelName(SNodeOperations.getModel(_context.getNode()))));
+    return new RPath(path).toString();
   }
   public static Object propertyMacro_GetPropertyValue_6583618001733640982(final PropertyMacroContext _context) {
     return IterableUtils.join(Sequence.fromIterable(BehaviorReflection.invokeVirtual((Class<Iterable<String>>) ((Class) Object.class), _context.getNode(), "virtual_bioConductorDependencies_6583618001733614174", new Object[]{})).select(new ISelector<String, String>() {
