@@ -541,6 +541,8 @@
       </node>
       <node concept="3F2HdR" id="2WRhvFtnx7L" role="3EZMnx">
         <ref role="1NtTu8" to="ztlb:1UijAvvb9DO" />
+        <ref role="APP_o" node="3l0yXcVu1UC" resolve="DisableColumnEditing" />
+        <ref role="1ERwB7" node="3l0yXcVu1UC" resolve="DisableColumnEditing" />
         <node concept="l2Vlx" id="2WRhvFtnx7N" role="2czzBx" />
         <node concept="pVoyu" id="2WRhvFtnx82" role="3F10Kt">
           <property role="VOm3f" value="true" />
@@ -550,6 +552,9 @@
         </node>
         <node concept="pj6Ft" id="2WRhvFtnzKe" role="3F10Kt">
           <property role="VOm3f" value="true" />
+        </node>
+        <node concept="VPxyj" id="3l0yXcVXUHW" role="3F10Kt">
+          <property role="VOm3f" value="false" />
         </node>
       </node>
       <node concept="l2Vlx" id="2WRhvFtn5da" role="2iSdaV" />
@@ -4729,6 +4734,76 @@
       <property role="1hHO97" value="Disable auto-complete" />
       <node concept="1hAIg9" id="1o6_6KpTGmZ" role="1hA7z_">
         <node concept="3clFbS" id="1o6_6KpTGn0" role="2VODD2" />
+      </node>
+    </node>
+  </node>
+  <node concept="1h_SRR" id="3l0yXcVu1UC">
+    <property role="TrG5h" value="DisableColumnEditing" />
+    <ref role="1h_SK9" to="ztlb:1UijAvvb9DJ" resolve="Column" />
+    <node concept="1hA7zw" id="3l0yXcVu1UD" role="1h_SK8">
+      <property role="1hAc7j" value="delete_action_id" />
+      <node concept="1hAIg9" id="3l0yXcVu1UE" role="1hA7z_">
+        <node concept="3clFbS" id="3l0yXcVu1UF" role="2VODD2" />
+      </node>
+    </node>
+    <node concept="1hA7zw" id="3l0yXcVu1UL" role="1h_SK8">
+      <property role="1hAc7j" value="insert_action_id" />
+      <node concept="1hAIg9" id="3l0yXcVu1UM" role="1hA7z_">
+        <node concept="3clFbS" id="3l0yXcVu1UN" role="2VODD2" />
+      </node>
+    </node>
+    <node concept="1hA7zw" id="3l0yXcVu1UU" role="1h_SK8">
+      <property role="1hAc7j" value="insert_before_action_id" />
+      <node concept="1hAIg9" id="3l0yXcVu1UV" role="1hA7z_">
+        <node concept="3clFbS" id="3l0yXcVu1UW" role="2VODD2" />
+      </node>
+    </node>
+    <node concept="1hA7zw" id="3l0yXcVu1V6" role="1h_SK8">
+      <property role="1hAc7j" value="cut_action_id" />
+      <node concept="1hAIg9" id="3l0yXcVu1V7" role="1hA7z_">
+        <node concept="3clFbS" id="3l0yXcVu1V8" role="2VODD2" />
+      </node>
+    </node>
+    <node concept="1hA7zw" id="3l0yXcVu1Vl" role="1h_SK8">
+      <property role="1hAc7j" value="paste_action_id" />
+      <node concept="1hAIg9" id="3l0yXcVu1Vm" role="1hA7z_">
+        <node concept="3clFbS" id="3l0yXcVu1Vn" role="2VODD2" />
+      </node>
+    </node>
+    <node concept="1hA7zw" id="3l0yXcVu1VB" role="1h_SK8">
+      <property role="1hAc7j" value="paste_after_action_id" />
+      <node concept="1hAIg9" id="3l0yXcVu1VC" role="1hA7z_">
+        <node concept="3clFbS" id="3l0yXcVu1VD" role="2VODD2" />
+      </node>
+    </node>
+    <node concept="1hA7zw" id="3l0yXcVu1VW" role="1h_SK8">
+      <property role="1hAc7j" value="paste_before_action_id" />
+      <node concept="1hAIg9" id="3l0yXcVu1VX" role="1hA7z_">
+        <node concept="3clFbS" id="3l0yXcVu1VY" role="2VODD2" />
+      </node>
+    </node>
+    <node concept="1hA7zw" id="3l0yXcVCU$4" role="1h_SK8">
+      <property role="1hAc7j" value="complete_action_id" />
+      <node concept="1hAIg9" id="3l0yXcVCU$5" role="1hA7z_">
+        <node concept="3clFbS" id="3l0yXcVCU$6" role="2VODD2" />
+      </node>
+    </node>
+    <node concept="1hA7zw" id="3l0yXcVCU$v" role="1h_SK8">
+      <property role="1hAc7j" value="complete_smart_action_id" />
+      <node concept="1hAIg9" id="3l0yXcVCU$w" role="1hA7z_">
+        <node concept="3clFbS" id="3l0yXcVCU$x" role="2VODD2" />
+      </node>
+    </node>
+    <node concept="1hA7zw" id="3l0yXcVCU$X" role="1h_SK8">
+      <property role="1hAc7j" value="delete_to_word_end_action_id" />
+      <node concept="1hAIg9" id="3l0yXcVCU$Y" role="1hA7z_">
+        <node concept="3clFbS" id="3l0yXcVCU$Z" role="2VODD2" />
+      </node>
+    </node>
+    <node concept="1hA7zw" id="3l0yXcVGzY8" role="1h_SK8">
+      <property role="1hAc7j" value="backspace_action_id" />
+      <node concept="1hAIg9" id="3l0yXcVGzY9" role="1hA7z_">
+        <node concept="3clFbS" id="3l0yXcVGzYa" role="2VODD2" />
       </node>
     </node>
   </node>
