@@ -455,30 +455,20 @@
                   <ref role="ehGHo" to="jrxw:7LvyiX4miiC" resolve="Statement" />
                 </node>
               </node>
-              <node concept="2OqwBi" id="7Wi9yN3rkx_" role="33vP2m">
-                <node concept="2OqwBi" id="7Wi9yN3rkxA" role="2Oq$k0">
-                  <node concept="2OqwBi" id="7Wi9yN3rkxB" role="2Oq$k0">
-                    <node concept="2rP1CM" id="7Wi9yN3rkxC" role="2Oq$k0" />
-                    <node concept="2Xjw5R" id="7Wi9yN3rkxD" role="2OqNvi">
-                      <node concept="1xMEDy" id="7Wi9yN3rkxE" role="1xVPHs">
-                        <node concept="chp4Y" id="7Wi9yN3rkxF" role="ri$Ld">
-                          <ref role="cht4Q" to="jrxw:7LvyiX4mii$" resolve="Analysis" />
-                        </node>
+              <node concept="2OqwBi" id="7Wi9yN3rkxA" role="33vP2m">
+                <node concept="2OqwBi" id="7Wi9yN3rkxB" role="2Oq$k0">
+                  <node concept="2rP1CM" id="7Wi9yN3rkxC" role="2Oq$k0" />
+                  <node concept="2Xjw5R" id="7Wi9yN3rkxD" role="2OqNvi">
+                    <node concept="1xMEDy" id="7Wi9yN3rkxE" role="1xVPHs">
+                      <node concept="chp4Y" id="1Q8siW56WdN" role="ri$Ld">
+                        <ref role="cht4Q" to="jrxw:7LvyiX3EFhY" resolve="StatementList" />
                       </node>
-                      <node concept="1xIGOp" id="7Wi9yN3rkxG" role="1xVPHs" />
                     </node>
-                  </node>
-                  <node concept="3TrEf2" id="7Wi9yN3rkxH" role="2OqNvi">
-                    <ref role="3Tt5mk" to="jrxw:7LvyiX4miiB" />
+                    <node concept="1xIGOp" id="7Wi9yN3rkxG" role="1xVPHs" />
                   </node>
                 </node>
-                <node concept="2Rf3mk" id="7Wi9yN3rkxI" role="2OqNvi">
-                  <node concept="1xMEDy" id="7Wi9yN3rkxJ" role="1xVPHs">
-                    <node concept="chp4Y" id="7Wi9yN3rkxK" role="ri$Ld">
-                      <ref role="cht4Q" to="jrxw:7LvyiX4miiC" resolve="Statement" />
-                    </node>
-                  </node>
-                  <node concept="1xIGOp" id="7Wi9yN3rkxL" role="1xVPHs" />
+                <node concept="3Tsc0h" id="1Q8siW5kJAh" role="2OqNvi">
+                  <ref role="3TtcxE" to="jrxw:7LvyiX3EFhZ" />
                 </node>
               </node>
             </node>
@@ -919,11 +909,6 @@
   </node>
   <node concept="1M2fIO" id="5UTsevpAWnl">
     <ref role="1M2myG" to="jrxw:2WRhvFtldw4" resolve="JoinTables" />
-    <node concept="3EP7_v" id="6lyZRE$lNeW" role="1MtirG">
-      <node concept="1dDu$B" id="6lyZRE$lNf0" role="3EP$qY">
-        <ref role="1dDu$A" to="jrxw:2WRhvFtkykN" resolve="Table" />
-      </node>
-    </node>
   </node>
   <node concept="1M2fIO" id="3R5AwWRYbQd">
     <ref role="1M2myG" to="jrxw:3R5AwWRY9uN" resolve="TableRef" />
