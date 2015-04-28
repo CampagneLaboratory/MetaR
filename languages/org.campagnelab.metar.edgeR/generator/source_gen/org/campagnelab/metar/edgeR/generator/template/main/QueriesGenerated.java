@@ -216,7 +216,7 @@ public class QueriesGenerated {
     return !(GroupFormula_Behavior.call_oneFactor_5124039371744206321(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0xecc862c95ab542efL, 0x87032039019fb338L, 0x471c3ea90814c0afL, 0x471c3ea90814c207L, "modelFormula"))));
   }
   public static boolean ifMacro_Condition_8031339867726629965(final IfMacroContext _context) {
-    return GroupFormula_Behavior.call_oneFactor_5124039371744206321(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0xecc862c95ab542efL, 0x87032039019fb338L, 0x471c3ea90814c0afL, 0x471c3ea90814c207L, "modelFormula")));
+    return GroupFormula_Behavior.call_oneFactorTwoGroups_3083373816531153937(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0xecc862c95ab542efL, 0x87032039019fb338L, 0x471c3ea90814c0afL, 0x471c3ea90814c207L, "modelFormula")));
   }
   public static SNode sourceNodeQuery_8031339867730262914(final SourceSubstituteMacroNodeContext _context) {
     return SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x4680380920ee443fL, 0xbea90bee114b90b3L, 0x79170bb4b56e6ecbL, 0x79170bb4b581daeaL, "dispersionMethod"));
@@ -234,7 +234,7 @@ public class QueriesGenerated {
     return _context.getNode();
   }
   public static Object templateArgumentQuery_6583618001725955157(final TemplateQueryContext _context) {
-    return GroupFormula_Behavior.call_oneFactor_5124039371744206321(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0xecc862c95ab542efL, 0x87032039019fb338L, 0x471c3ea90814c0afL, 0x471c3ea90814c207L, "modelFormula")));
+    return GroupFormula_Behavior.call_oneFactorTwoGroups_3083373816531153937(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0xecc862c95ab542efL, 0x87032039019fb338L, 0x471c3ea90814c0afL, 0x471c3ea90814c207L, "modelFormula")));
   }
   public static Iterable<SNode> sourceNodesQuery_8031339867718491133(final SourceSubstituteMacroNodesContext _context) {
     // calculate the set of columns names to remove: 

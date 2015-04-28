@@ -9346,7 +9346,7 @@
     <property role="3GE5qa" value="annotations" />
     <ref role="13h7C2" to="jrxw:6X05uba6V6Y" resolve="UsageType" />
     <node concept="13i0hz" id="6XP3gVdqO1y" role="13h7CS">
-      <property role="TrG5h" value="columnsWithThisUsageType" />
+      <property role="TrG5h" value="columnGroupsWithThisUsageType" />
       <node concept="3Tm1VV" id="6XP3gVdqO1z" role="1B3o_S" />
       <node concept="A3Dl8" id="6XP3gVdr7IH" role="3clF45">
         <node concept="3Tqbb2" id="6XP3gVdr7IM" role="A3Ik2">
@@ -9356,7 +9356,7 @@
       <node concept="3clFbS" id="6XP3gVdqO1_" role="3clF47">
         <node concept="3cpWs8" id="6XP3gVdrkN9" role="3cqZAp">
           <node concept="3cpWsn" id="6XP3gVdrkNc" role="3cpWs9">
-            <property role="TrG5h" value="table" />
+            <property role="TrG5h" value="groupContainer" />
             <node concept="3Tqbb2" id="6XP3gVdrkN7" role="1tU5fm">
               <ref role="ehGHo" to="jrxw:2WRhvFtICK0" resolve="ColumnGroupContainer" />
             </node>
@@ -9376,7 +9376,7 @@
           <node concept="2OqwBi" id="6XP3gVduvqZ" role="3clFbG">
             <node concept="2OqwBi" id="6XP3gVduu0X" role="2Oq$k0">
               <node concept="37vLTw" id="6XP3gVdutUT" role="2Oq$k0">
-                <ref role="3cqZAo" node="6XP3gVdrkNc" resolve="table" />
+                <ref role="3cqZAo" node="6XP3gVdrkNc" resolve="groupContainer" />
               </node>
               <node concept="3Tsc0h" id="6XP3gVdDQdP" role="2OqNvi">
                 <ref role="3TtcxE" to="jrxw:2WRhvFtICK1" />
@@ -9438,7 +9438,7 @@
       <node concept="P$JXv" id="6XP3gVdr7IP" role="lGtFl">
         <node concept="TZ5HA" id="6XP3gVdr7IQ" role="TZ5H$">
           <node concept="1dT_AC" id="6XP3gVdr7IR" role="1dT_Ay">
-            <property role="1dT_AB" value="Return columns with the same usage type." />
+            <property role="1dT_AB" value="Return column groups with the same usage type." />
           </node>
         </node>
         <node concept="x79VA" id="6XP3gVdr7IS" role="x79VK">
