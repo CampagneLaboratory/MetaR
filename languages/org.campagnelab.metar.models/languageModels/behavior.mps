@@ -198,6 +198,7 @@
         <reference id="1153944258490" name="variable" index="2Gs0qQ" />
       </concept>
       <concept id="1235566554328" name="jetbrains.mps.baseLanguage.collections.structure.AnyOperation" flags="nn" index="2HwmR7" />
+      <concept id="1235566831861" name="jetbrains.mps.baseLanguage.collections.structure.AllOperation" flags="nn" index="2HxqBE" />
       <concept id="1237721394592" name="jetbrains.mps.baseLanguage.collections.structure.AbstractContainerCreator" flags="nn" index="HWqM0">
         <child id="1237721435807" name="elementType" index="HW$YZ" />
       </concept>
@@ -862,6 +863,83 @@
           </node>
         </node>
         <node concept="x79VA" id="4ssfE$7VtS4" role="x79VK">
+          <property role="x79VB" value="True when the formula contains a single factor, false otherwise." />
+        </node>
+      </node>
+    </node>
+    <node concept="13i0hz" id="2Fam2pk57gh" role="13h7CS">
+      <property role="TrG5h" value="oneFactorTwoGroups" />
+      <node concept="3Tm1VV" id="2Fam2pk57gi" role="1B3o_S" />
+      <node concept="10P_77" id="2Fam2pk57gj" role="3clF45" />
+      <node concept="3clFbS" id="2Fam2pk57gk" role="3clF47">
+        <node concept="3clFbF" id="2Fam2pk5997" role="3cqZAp">
+          <node concept="1Wc70l" id="2Fam2pk59PK" role="3clFbG">
+            <node concept="2OqwBi" id="2Fam2pk59uX" role="3uHU7B">
+              <node concept="13iPFW" id="2Fam2pk5996" role="2Oq$k0" />
+              <node concept="2qgKlT" id="2Fam2pk59HC" role="2OqNvi">
+                <ref role="37wK5l" node="4ssfE$7VtRL" resolve="oneFactor" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="2Fam2pk5a_9" role="3uHU7w">
+              <node concept="2OqwBi" id="2Fam2pk59RK" role="2Oq$k0">
+                <node concept="2OqwBi" id="2Fam2pk59RL" role="2Oq$k0">
+                  <node concept="13iPFW" id="2Fam2pk59RM" role="2Oq$k0" />
+                  <node concept="3TrEf2" id="2Fam2pk59RN" role="2OqNvi">
+                    <ref role="3Tt5mk" to="qrzj:4ssfE$7VtQf" />
+                  </node>
+                </node>
+                <node concept="2Rf3mk" id="2Fam2pk59RO" role="2OqNvi">
+                  <node concept="1xMEDy" id="2Fam2pk59RP" role="1xVPHs">
+                    <node concept="chp4Y" id="2Fam2pk59RQ" role="ri$Ld">
+                      <ref role="cht4Q" to="qrzj:4ssfE$7VtQh" resolve="GroupUsageRef" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="2HxqBE" id="2Fam2pk5oA9" role="2OqNvi">
+                <node concept="1bVj0M" id="2Fam2pk5oAb" role="23t8la">
+                  <node concept="3clFbS" id="2Fam2pk5oAc" role="1bW5cS">
+                    <node concept="3clFbF" id="2Fam2pk5oAd" role="3cqZAp">
+                      <node concept="3clFbC" id="2Fam2pk5oAe" role="3clFbG">
+                        <node concept="3cmrfG" id="2Fam2pk5oAf" role="3uHU7w">
+                          <property role="3cmrfH" value="2" />
+                        </node>
+                        <node concept="2OqwBi" id="2Fam2pk5oAg" role="3uHU7B">
+                          <node concept="2OqwBi" id="2Fam2pk5oAh" role="2Oq$k0">
+                            <node concept="2OqwBi" id="2Fam2pk5oAi" role="2Oq$k0">
+                              <node concept="37vLTw" id="2Fam2pk5oAj" role="2Oq$k0">
+                                <ref role="3cqZAo" node="2Fam2pk5oAn" resolve="it" />
+                              </node>
+                              <node concept="3TrEf2" id="2Fam2pk5oAk" role="2OqNvi">
+                                <ref role="3Tt5mk" to="qrzj:4ssfE$7VtQi" />
+                              </node>
+                            </node>
+                            <node concept="2qgKlT" id="2Fam2pk5oAl" role="2OqNvi">
+                              <ref role="37wK5l" to="v8sa:6XP3gVdqO1y" resolve="columnGroupsWithThisUsageType" />
+                            </node>
+                          </node>
+                          <node concept="34oBXx" id="2Fam2pk5oAm" role="2OqNvi" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="Rh6nW" id="2Fam2pk5oAn" role="1bW2Oz">
+                    <property role="TrG5h" value="it" />
+                    <node concept="2jxLKc" id="2Fam2pk5oAo" role="1tU5fm" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="P$JXv" id="2Fam2pk57gx" role="lGtFl">
+        <node concept="TZ5HA" id="2Fam2pk57gy" role="TZ5H$">
+          <node concept="1dT_AC" id="2Fam2pk57gz" role="1dT_Ay">
+            <property role="1dT_AB" value="Determine if the formula has only one factor" />
+          </node>
+        </node>
+        <node concept="x79VA" id="2Fam2pk57g$" role="x79VK">
           <property role="x79VB" value="True when the formula contains a single factor, false otherwise." />
         </node>
       </node>
