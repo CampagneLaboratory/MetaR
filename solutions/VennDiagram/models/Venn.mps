@@ -1907,18 +1907,6 @@
       <node concept="S1EQe" id="1Q8siW6jWlg" role="ZXjPg">
         <property role="S1EQ6" value="QABBKCXHGU" />
       </node>
-      <node concept="3JmJcv" id="1Q8siW4EXyH" role="ZXjPg">
-        <property role="S1EQ6" value="WLNCYOIRDO" />
-        <node concept="ZXjPh" id="1Q8siW4EXyJ" role="3JmGCn">
-          <property role="S1EQ6" value="UVVHKFEWBG" />
-        </node>
-        <node concept="afgQW" id="1Q8siW4EXOG" role="3JmGCh">
-          <ref role="afgo8" node="kv77ypinVK" resolve="GSE59364_DC_all.csv" />
-        </node>
-        <node concept="afgQW" id="1Q8siW6_IJV" role="3JmGCh">
-          <ref role="afgo8" node="3FhMZyGdN6c" resolve="filtered" />
-        </node>
-      </node>
     </node>
   </node>
   <node concept="3Mpm39" id="kv77ywK7G_">
