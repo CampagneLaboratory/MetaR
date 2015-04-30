@@ -157,6 +157,7 @@
       <concept id="8459500803719374384" name="org.campagnelab.metar.tables.structure.Plot" flags="ng" index="1FHg$p">
         <property id="8962032619586498917" name="width" index="ZHjxa" />
         <property id="8962032619586499111" name="height" index="ZHjG8" />
+        <property id="4166618652723451261" name="id" index="3ZMXzF" />
       </concept>
       <concept id="8459500803719286639" name="org.campagnelab.metar.tables.structure.Heatmap" flags="ng" index="1FHY16">
         <child id="5703306641526697040" name="annotations" index="2thHW" />
@@ -1633,6 +1634,7 @@
           <property role="ZHjxa" value="300" />
           <property role="ZHjG8" value="200" />
           <property role="TrG5h" value="plot" />
+          <property role="3ZMXzF" value="8" />
         </node>
         <node concept="afgQW" id="74E64ijvfw4" role="af7lV">
           <ref role="afgo8" node="_4GlRlKwRn" resolve="1% FDR" />
@@ -1660,6 +1662,7 @@
           <property role="ZHjxa" value="300" />
           <property role="ZHjG8" value="200" />
           <property role="TrG5h" value="plot2" />
+          <property role="3ZMXzF" value="9" />
         </node>
         <node concept="afgQW" id="2od$re078kD" role="af7lV">
           <ref role="afgo8" node="_4GlRlKwRn" resolve="1% FDR" />
@@ -1693,6 +1696,7 @@
           <property role="ZHjxa" value="400" />
           <property role="ZHjG8" value="400" />
           <property role="TrG5h" value="PreviewHeatmap" />
+          <property role="3ZMXzF" value="11" />
         </node>
         <node concept="31becx" id="74E64ik79Hp" role="312phR">
           <ref role="312p7B" node="_4GlRlKyBn" resolve="plot" />

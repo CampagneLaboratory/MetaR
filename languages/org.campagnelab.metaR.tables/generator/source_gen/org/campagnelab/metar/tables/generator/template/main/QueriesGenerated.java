@@ -416,9 +416,6 @@ public class QueriesGenerated {
       }
     }), ",");
   }
-  public static Object propertyMacro_GetPropertyValue_522672638483206483(final PropertyMacroContext _context) {
-    return NameHelper.RName(SPropertyOperations.getString(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x5d6bde844ce44eb5L, 0xa37e25a5edd55129L, 0x39d2cd96c5ab9eebL, 0x39d2cd96c5ca85b0L, "destination")), MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name")));
-  }
   public static Object propertyMacro_GetPropertyValue_4166618652720481126(final PropertyMacroContext _context) {
     return SPropertyOperations.getInteger(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x5d6bde844ce44eb5L, 0xa37e25a5edd55129L, 0x39d2cd96c5ab9eebL, 0x39d2cd96c5ca85b0L, "destination")), MetaAdapterFactory.getProperty(0x5d6bde844ce44eb5L, 0xa37e25a5edd55129L, 0x2f3745fadd605ac5L, 0x39d2cd96c5e52d3dL, "id"));
   }
@@ -941,7 +938,7 @@ public class QueriesGenerated {
   public static Object propertyMacro_GetPropertyValue_5231296133080508408(final PropertyMacroContext _context) {
     return Statement_Behavior.call_errorCatchingEnabled_2742007948304790371(_context.getNode());
   }
-  public static Object propertyMacro_GetPropertyValue_369044998883527359(final PropertyMacroContext _context) {
+  public static Object propertyMacro_GetPropertyValue_2128075270607042009(final PropertyMacroContext _context) {
     return new RPath(Plot_Behavior.call_getPath_8016431400518331231(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x5d6bde844ce44eb5L, 0xa37e25a5edd55129L, 0x51f1c789d32d787L, 0x51f1c789d32d78aL, "plot")))).toString();
   }
   public static Object propertyMacro_GetPropertyValue_369044998883527377(final PropertyMacroContext _context) {
@@ -969,17 +966,11 @@ public class QueriesGenerated {
   public static Object propertyMacro_GetPropertyValue_8058827937367559051(final PropertyMacroContext _context) {
     return NameHelper.RName(SPropertyOperations.getString(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x5d6bde844ce44eb5L, 0xa37e25a5edd55129L, 0x740e7fed5746997L, 0x740e7fed5746b39L, "table")), MetaAdapterFactory.getReferenceLink(0x5d6bde844ce44eb5L, 0xa37e25a5edd55129L, 0x3dc59a0f37f897b3L, 0x3dc59a0f37f89c07L, "table")), MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name")));
   }
-  public static Object propertyMacro_GetPropertyValue_8058827937440799997(final PropertyMacroContext _context) {
+  public static Object propertyMacro_GetPropertyValue_2128075270610713702(final PropertyMacroContext _context) {
     return IdsFrom_Behavior.call_getCleanSetName_5657160037951507503(_context.getNode());
   }
-  public static Object propertyMacro_GetPropertyValue_8058827937440809767(final PropertyMacroContext _context) {
-    if (TableRef_Behavior.call_hasGroup_4140623938104765280(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x5d6bde844ce44eb5L, 0xa37e25a5edd55129L, 0x740e7fed5746997L, 0x740e7fed5746b39L, "table")), "ID")) {
-      return "$" + TableRef_Behavior.call_firstColumnWithGroup_8031339867718453028(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x5d6bde844ce44eb5L, 0xa37e25a5edd55129L, 0x740e7fed5746997L, 0x740e7fed5746b39L, "table")), "ID");
-
-    } else {
-      return "$" + TableRef_Behavior.call_firstColumnWithGroup_8031339867718453028(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x5d6bde844ce44eb5L, 0xa37e25a5edd55129L, 0x740e7fed5746997L, 0x740e7fed5746b39L, "table")), "id");
-    }
-
+  public static Object propertyMacro_GetPropertyValue_2128075270610716470(final PropertyMacroContext _context) {
+    return "$" + TableRef_Behavior.call_firstColumnWithGroup_8031339867718453028(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x5d6bde844ce44eb5L, 0xa37e25a5edd55129L, 0x740e7fed5746997L, 0x740e7fed5746b39L, "table")), "ID");
   }
   public static Object propertyMacro_GetPropertyValue_5231296133086680088(final PropertyMacroContext _context) {
     _context.showErrorMessage(_context.getNode(), "Venn diagram can only draw between 2 and 5 sets.");
