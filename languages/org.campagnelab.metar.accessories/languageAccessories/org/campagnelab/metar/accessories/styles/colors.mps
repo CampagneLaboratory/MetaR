@@ -35,7 +35,7 @@
     <property role="3GE5qa" value="basic" />
   </node>
   <node concept="24tCWO" id="1xsIq4focw">
-    <property role="TrG5h" value="Sequential-PuBuGn" />
+    <property role="TrG5h" value="Sequential-PurpleBlueGreen" />
     <property role="3GE5qa" value="palettes" />
     <node concept="1VdfCG" id="1xsIq4y9N2" role="24tCWN">
       <property role="TrG5h" value="Color" />
@@ -70,7 +70,7 @@
   </node>
   <node concept="24tCWO" id="1xsIq4y9NE">
     <property role="3GE5qa" value="palettes" />
-    <property role="TrG5h" value="Sequential-YlOrRd" />
+    <property role="TrG5h" value="Sequential-YellowOrangeRed" />
     <node concept="1VdfCG" id="1xsIq4y9NS" role="24tCWN">
       <property role="TrG5h" value="Color" />
       <node concept="24sKZd" id="1xsIq4y9O8" role="24gxPH">
@@ -92,7 +92,7 @@
   </node>
   <node concept="24tCWO" id="1xsIq4yn5p">
     <property role="3GE5qa" value="palettes" />
-    <property role="TrG5h" value="Sequential-BuGn" />
+    <property role="TrG5h" value="Sequential-BlueGreen" />
     <node concept="1VdfCG" id="1xsIq4yn6x" role="24tCWN">
       <property role="TrG5h" value="Color" />
       <node concept="24sKZd" id="1xsIq4yn6$" role="24gxPH">
@@ -114,7 +114,7 @@
   </node>
   <node concept="24tCWO" id="1xsIq4yQC_">
     <property role="3GE5qa" value="palettes" />
-    <property role="TrG5h" value="Sequential-BuPu" />
+    <property role="TrG5h" value="Sequential-BluePurple" />
     <node concept="1VdfCG" id="1xsIq4yQDp" role="24tCWN">
       <property role="TrG5h" value="Color" />
       <node concept="24sKZd" id="1xsIq4yQDs" role="24gxPH">
@@ -136,7 +136,7 @@
   </node>
   <node concept="24tCWO" id="1xsIq4yQFP">
     <property role="3GE5qa" value="palettes" />
-    <property role="TrG5h" value="Sequential-GnBu" />
+    <property role="TrG5h" value="Sequential-GreenBlue" />
     <node concept="1VdfCG" id="1xsIq4yQFQ" role="24tCWN">
       <property role="TrG5h" value="Color" />
       <node concept="24sKZd" id="1xsIq4yQFT" role="24gxPH">
@@ -180,7 +180,7 @@
   </node>
   <node concept="24tCWO" id="1xsIq4yX5o">
     <property role="3GE5qa" value="palettes" />
-    <property role="TrG5h" value="Sequential-PuRd" />
+    <property role="TrG5h" value="Sequential-PurpleRed" />
     <node concept="1VdfCG" id="1xsIq4yX5p" role="24tCWN">
       <property role="TrG5h" value="Color" />
       <node concept="24sKZd" id="1xsIq4yX6d" role="24gxPH">
@@ -202,7 +202,7 @@
   </node>
   <node concept="24tCWO" id="1xsIq4yX9a">
     <property role="3GE5qa" value="palettes" />
-    <property role="TrG5h" value="Diverging-RdYlBu" />
+    <property role="TrG5h" value="Diverging-RedYellowBlue" />
     <node concept="1VdfCG" id="1xsIq4yX9r" role="24tCWN">
       <property role="TrG5h" value="Color" />
       <node concept="24sKZd" id="1xsIq4yX9A" role="24gxPH">
@@ -224,7 +224,7 @@
   </node>
   <node concept="24tCWO" id="1xsIq4yXdt">
     <property role="3GE5qa" value="palettes" />
-    <property role="TrG5h" value="Diverging-BrBG" />
+    <property role="TrG5h" value="Diverging-BrownBlueLightWhite" />
     <node concept="1VdfCG" id="1xsIq4yXdI" role="24tCWN">
       <property role="TrG5h" value="Color" />
       <node concept="24sKZd" id="1xsIq4yXdT" role="24gxPH">
@@ -246,7 +246,7 @@
   </node>
   <node concept="24tCWO" id="1xsIq4yXlo">
     <property role="3GE5qa" value="palettes" />
-    <property role="TrG5h" value="Qualitative-Dark2" />
+    <property role="TrG5h" value="Qualitative-GreenOrangePurple" />
     <node concept="1VdfCG" id="1xsIq4yXlD" role="24tCWN">
       <property role="TrG5h" value="Color" />
       <node concept="24sKZd" id="1xsIq4yXlO" role="24gxPH">
@@ -268,7 +268,7 @@
   </node>
   <node concept="24tCWO" id="1xsIq4yXqz">
     <property role="3GE5qa" value="palettes" />
-    <property role="TrG5h" value="Qualitative-Paired" />
+    <property role="TrG5h" value="Qualitative-BlueGreenLightBlue" />
     <node concept="1VdfCG" id="1xsIq4yXqO" role="24tCWN">
       <property role="TrG5h" value="Color" />
       <node concept="24sKZd" id="1xsIq4yXqZ" role="24gxPH">

@@ -119,6 +119,8 @@
       </concept>
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
+      <concept id="1143234257716" name="jetbrains.mps.lang.smodel.structure.Node_GetModelOperation" flags="nn" index="I4A8Y" />
+      <concept id="1212008292747" name="jetbrains.mps.lang.smodel.structure.Model_GetLongNameOperation" flags="nn" index="LkI2h" />
       <concept id="1172008320231" name="jetbrains.mps.lang.smodel.structure.Node_IsNotNullOperation" flags="nn" index="3x8VRR" />
       <concept id="1138056022639" name="jetbrains.mps.lang.smodel.structure.SPropertyAccess" flags="nn" index="3TrcHB">
         <reference id="1138056395725" name="property" index="3TsBF5" />
@@ -200,27 +202,42 @@
                                   <property role="Xl_RC" value="_" />
                                 </node>
                                 <node concept="3cpWs3" id="4RSqyaA7lPw" role="3uHU7B">
-                                  <node concept="3cpWs3" id="4RSqyaA7lPx" role="3uHU7B">
-                                    <node concept="3cpWs3" id="4RSqyaA7lPy" role="3uHU7B">
-                                      <node concept="2OqwBi" id="4RSqyaA7lPz" role="3uHU7B">
-                                        <node concept="2YIFZM" id="4RSqyaA7lP$" role="2Oq$k0">
-                                          <ref role="37wK5l" to="msyo:~MacrosFactory.getGlobal():jetbrains.mps.util.MacroHelper" resolve="getGlobal" />
-                                          <ref role="1Pybhc" to="msyo:~MacrosFactory" resolve="MacrosFactory" />
-                                        </node>
-                                        <node concept="liA8E" id="4RSqyaA7lP_" role="2OqNvi">
-                                          <ref role="37wK5l" to="msyo:~MacroHelper.expandPath(java.lang.String):java.lang.String" resolve="expandPath" />
-                                          <node concept="Xl_RD" id="4RSqyaA7lPA" role="37wK5m">
-                                            <property role="Xl_RC" value="${org.campagnelab.metaR.results_dir}" />
-                                          </node>
-                                        </node>
-                                      </node>
-                                      <node concept="10M0yZ" id="4RSqyaA7lPB" role="3uHU7w">
+                                  <node concept="3cpWs3" id="3l0yXcUgQ$M" role="3uHU7B">
+                                    <node concept="Xl_RD" id="4RSqyaA7lPC" role="3uHU7w">
+                                      <property role="Xl_RC" value="table_" />
+                                    </node>
+                                    <node concept="3cpWs3" id="3l0yXcUgSia" role="3uHU7B">
+                                      <node concept="10M0yZ" id="3l0yXcUgSsw" role="3uHU7w">
                                         <ref role="1PxDUh" to="fxg7:~File" resolve="File" />
                                         <ref role="3cqZAo" to="fxg7:~File.separator" resolve="separator" />
                                       </node>
-                                    </node>
-                                    <node concept="Xl_RD" id="4RSqyaA7lPC" role="3uHU7w">
-                                      <property role="Xl_RC" value="table_" />
+                                      <node concept="3cpWs3" id="4RSqyaA7lPx" role="3uHU7B">
+                                        <node concept="3cpWs3" id="4RSqyaA7lPy" role="3uHU7B">
+                                          <node concept="2OqwBi" id="4RSqyaA7lPz" role="3uHU7B">
+                                            <node concept="2YIFZM" id="4RSqyaA7lP$" role="2Oq$k0">
+                                              <ref role="37wK5l" to="msyo:~MacrosFactory.getGlobal():jetbrains.mps.util.MacroHelper" resolve="getGlobal" />
+                                              <ref role="1Pybhc" to="msyo:~MacrosFactory" resolve="MacrosFactory" />
+                                            </node>
+                                            <node concept="liA8E" id="4RSqyaA7lP_" role="2OqNvi">
+                                              <ref role="37wK5l" to="msyo:~MacroHelper.expandPath(java.lang.String):java.lang.String" resolve="expandPath" />
+                                              <node concept="Xl_RD" id="4RSqyaA7lPA" role="37wK5m">
+                                                <property role="Xl_RC" value="${org.campagnelab.metaR.results_dir}" />
+                                              </node>
+                                            </node>
+                                          </node>
+                                          <node concept="10M0yZ" id="4RSqyaA7lPB" role="3uHU7w">
+                                            <ref role="1PxDUh" to="fxg7:~File" resolve="File" />
+                                            <ref role="3cqZAo" to="fxg7:~File.separator" resolve="separator" />
+                                          </node>
+                                        </node>
+                                        <node concept="2OqwBi" id="3l0yXcUgRBR" role="3uHU7w">
+                                          <node concept="2OqwBi" id="3l0yXcUgQTv" role="2Oq$k0">
+                                            <node concept="30H73N" id="3l0yXcUgQLl" role="2Oq$k0" />
+                                            <node concept="I4A8Y" id="3l0yXcUgRnL" role="2OqNvi" />
+                                          </node>
+                                          <node concept="LkI2h" id="3l0yXcUgRMb" role="2OqNvi" />
+                                        </node>
+                                      </node>
                                     </node>
                                   </node>
                                   <node concept="2OqwBi" id="4RSqyaA7lPD" role="3uHU7w">
@@ -273,7 +290,7 @@
       </node>
     </node>
     <node concept="3aamgX" id="7LV$PmMyT_C" role="3acgRq">
-      <ref role="30HIoZ" to="8vtd:7LV$PmMyJU1" resolve="TryAndReport" />
+      <ref role="30HIoZ" to="8vtd:7LV$PmMyJU1" resolve="TryForNode" />
       <node concept="j$656" id="7LV$PmMyT_D" role="1lVwrX">
         <ref role="v9R2y" node="7LV$PmMyT_A" resolve="reduce_TryAndReport" />
       </node>
@@ -564,7 +581,7 @@
   </node>
   <node concept="13MO4I" id="7LV$PmMyT_A">
     <property role="TrG5h" value="reduce_TryAndReport" />
-    <ref role="3gUMe" to="8vtd:7LV$PmMyJU1" resolve="TryAndReport" />
+    <ref role="3gUMe" to="8vtd:7LV$PmMyJU1" resolve="TryForNode" />
     <node concept="3e3GmO" id="7LV$PmMyTCi" role="13RCb5">
       <property role="1gZaPE" value="" />
       <node concept="1gZcZf" id="7LV$PmMyTCj" role="2G3XIn">

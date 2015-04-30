@@ -12,6 +12,7 @@
     <usedLanguage>46803809-20ee-443f-bea9-0bee114b90b3(org.campagnelab.metar.edgeR)</usedLanguage>
     <usedLanguage>43f31864-fc67-43f5-873e-ab79cc279a2d(org.campagnelab.styles)</usedLanguage>
     <usedLanguage>ecc862c9-5ab5-42ef-8703-2039019fb338(org.campagnelab.metar.models)</usedLanguage>
+    <usedLanguage>067d1b0c-daf1-44f9-9fbd-e1dd4c6e26e8(org.campagnelab.metar.simulation)</usedLanguage>
   </usedLanguages>
   <usedDevKits>
     <usedDevKit>8a3636fa-c6ec-4cb0-bc2a-b7143f2a4937(org.campagnelab.metaR)</usedDevKit>
