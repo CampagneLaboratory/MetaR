@@ -207,7 +207,7 @@
       <node concept="aVJcg" id="7OkpSXK7xVu" role="aVJcv">
         <node concept="NbPM2" id="7OkpSXK7xVt" role="aVJcq">
           <node concept="3Mxwew" id="7OkpSXK7xVs" role="3MwsjC">
-            <property role="3MwjfP" value="1.2.1" />
+            <property role="3MwjfP" value="1.3.0" />
           </node>
         </node>
       </node>
