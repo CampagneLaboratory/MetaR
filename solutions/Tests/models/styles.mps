@@ -237,11 +237,6 @@
       <concept id="27429407125142994" name="org.campagnelab.styles.structure.ColorPalette" flags="ng" index="24tCWO">
         <child id="27429407125142997" name="colors" index="24tCWN" />
       </concept>
-      <concept id="2742007948273068321" name="org.campagnelab.styles.structure.BooleanStyleClass" flags="ng" index="2A4byi">
-        <property id="2742007948273068417" name="value" index="2A4bwM" />
-      </concept>
-      <concept id="2742007948273075795" name="org.campagnelab.styles.structure.DrawBorder" flags="ng" index="2A4dvw" />
-      <concept id="2742007948278068389" name="org.campagnelab.styles.structure.BorderColor" flags="ng" index="2Apekm" />
       <concept id="3501083140123940557" name="org.campagnelab.styles.structure.Height" flags="ng" index="KD0Ts" />
       <concept id="3501083140123924006" name="org.campagnelab.styles.structure.Width" flags="ng" index="KD4UR" />
       <concept id="3501083140123917949" name="org.campagnelab.styles.structure.IntegerStyleClass" flags="ng" index="KDUrG">
@@ -491,21 +486,14 @@
     <property role="TrG5h" value="WithPuBuGn" />
     <node concept="24aBtg" id="1xsIq4ya6F" role="2YPqp2">
       <property role="TrG5h" value="PuBuGn" />
-      <ref role="24aBtv" to="wiqx:1xsIq4focw" resolve="Sequential-PuBuGn" />
-    </node>
-    <node concept="2A4dvw" id="2od$re0hrZb" role="2YPqp2">
-      <property role="2A4bwM" value="true" />
-    </node>
-    <node concept="2Apekm" id="2od$re0tsM5" role="2YPqp2">
-      <property role="TrG5h" value="Color" />
-      <ref role="24hxRv" to="wiqx:1xsIq4y9JK" resolve="cyan" />
+      <ref role="24aBtv" to="wiqx:1xsIq4focw" resolve="Sequential-PurpleBlueGreen" />
     </node>
   </node>
   <node concept="2YPoW8" id="1xsIq4ybGd">
     <property role="TrG5h" value="WithYlOrRd" />
     <node concept="24aBtg" id="1xsIq4ybGe" role="2YPqp2">
       <property role="TrG5h" value="YlOrRd" />
-      <ref role="24aBtv" to="wiqx:1xsIq4y9NE" resolve="Sequential-YlOrRd" />
+      <ref role="24aBtv" to="wiqx:1xsIq4y9NE" resolve="Sequential-YellowOrangeRed" />
     </node>
   </node>
   <node concept="3MzsBU" id="4DOwJpJx_yU">
@@ -1746,7 +1734,7 @@
     <property role="TrG5h" value="DefaultStyle" />
     <node concept="24aBtg" id="2od$re2ltpX" role="2YPqp2">
       <property role="TrG5h" value="Diverging-BrBG" />
-      <ref role="24aBtv" to="wiqx:1xsIq4yXdt" resolve="Diverging-BrBG" />
+      <ref role="24aBtv" to="wiqx:1xsIq4yXdt" resolve="Diverging-BrownBlueLightWhite" />
     </node>
   </node>
   <node concept="2YPoW8" id="2od$re2mp37">

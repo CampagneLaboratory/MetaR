@@ -9,6 +9,8 @@ import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import org.campagnelab.metar.code.generator.helpers.RPath;
 import jetbrains.mps.util.MacrosFactory;
 import java.io.File;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SModelOperations;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.generator.template.IfMacroContext;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import org.jetbrains.mps.openapi.model.SNode;
@@ -21,7 +23,7 @@ public class QueriesGenerated {
     return SPropertyOperations.getString(_context.getNode(), MetaAdapterFactory.getProperty(0x32f503e8061b451eL, 0xbcb0fef56aa05eb9L, 0x157f2d8812f7dddfL, 0x6f4015e2c9ecbde8L, "tableName"));
   }
   public static Object propertyMacro_GetPropertyValue_8016431400514009759(final PropertyMacroContext _context) {
-    return new RPath(MacrosFactory.getGlobal().expandPath("${org.campagnelab.metaR.results_dir}") + File.separator + "table_" + SPropertyOperations.getString(_context.getNode(), MetaAdapterFactory.getProperty(0x32f503e8061b451eL, 0xbcb0fef56aa05eb9L, 0x157f2d8812f7dddfL, 0x6f4015e2c9ecbde8L, "tableName")) + "_" + Integer.toString(SPropertyOperations.getInteger(_context.getNode(), MetaAdapterFactory.getProperty(0x32f503e8061b451eL, 0xbcb0fef56aa05eb9L, 0x157f2d8812f7dddfL, 0x157f2d8812f7de15L, "tableId"))) + ".tsv").toString();
+    return new RPath(MacrosFactory.getGlobal().expandPath("${org.campagnelab.metaR.results_dir}") + File.separator + SModelOperations.getModelName(SNodeOperations.getModel(_context.getNode())) + File.separator + "table_" + SPropertyOperations.getString(_context.getNode(), MetaAdapterFactory.getProperty(0x32f503e8061b451eL, 0xbcb0fef56aa05eb9L, 0x157f2d8812f7dddfL, 0x6f4015e2c9ecbde8L, "tableName")) + "_" + Integer.toString(SPropertyOperations.getInteger(_context.getNode(), MetaAdapterFactory.getProperty(0x32f503e8061b451eL, 0xbcb0fef56aa05eb9L, 0x157f2d8812f7dddfL, 0x157f2d8812f7de15L, "tableId"))) + ".tsv").toString();
   }
   public static Object propertyMacro_GetPropertyValue_962445451564175837(final PropertyMacroContext _context) {
     return SPropertyOperations.getString(_context.getNode(), MetaAdapterFactory.getProperty(0x32f503e8061b451eL, 0xbcb0fef56aa05eb9L, 0xd5b4b09f82f57ceL, 0xd5b4b09f82f57cfL, "id"));
