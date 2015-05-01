@@ -1,13 +1,7 @@
 #Script generated from Workshop
 
 
-
-#Create installation dir for packages
-libDir <- "/Users/fac2003/.metaRlibs"
-
-dir.create(file.path(libDir), showWarnings = FALSE, recursive = TRUE)
-.libPaths(c(libDir))
-
+# When building a docker container, always install in default R location.
 
 if (!require("BiocInstaller")) {
 # Install bioconductor packages:
