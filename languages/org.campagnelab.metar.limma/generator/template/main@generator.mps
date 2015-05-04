@@ -1748,7 +1748,7 @@
                     </node>
                   </node>
                   <node concept="3_3kQU" id="4ssfE$bdBml" role="3_3kQL">
-                    <property role="3_3kQV" value=" &lt;&lt;- data.table(removeBatchEffect(voom, design=model.matrix(~0+" />
+                    <property role="3_3kQV" value=" &lt;- data.table(removeBatchEffect(voom, design=model.matrix(~0+" />
                   </node>
                   <node concept="3_3kQU" id="4ssfE$bdBmm" role="3_3kQL">
                     <property role="3_3kQV" value="LPS_Treatment+term2+term3" />
@@ -2035,7 +2035,7 @@
                   </node>
                 </node>
                 <node concept="3_3kQU" id="4ssfE$837bY" role="3_3kQL">
-                  <property role="3_3kQV" value=" &lt;&lt;- data.table(topTable(fit3,coef=1, number=nrow(countsTable)))" />
+                  <property role="3_3kQV" value=" &lt;- data.table(topTable(fit3,coef=1, number=nrow(countsTable)))" />
                 </node>
               </node>
             </node>
