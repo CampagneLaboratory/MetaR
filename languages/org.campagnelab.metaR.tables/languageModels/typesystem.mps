@@ -86,7 +86,7 @@
         <child id="1068580123161" name="ifTrue" index="3clFbx" />
         <child id="1206060520071" name="elsifClauses" index="3eNLev" />
       </concept>
-      <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" index="3clFbS">
+      <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
       </concept>
       <concept id="1068580123137" name="jetbrains.mps.baseLanguage.structure.BooleanConstant" flags="nn" index="3clFbT">
@@ -243,6 +243,7 @@
       <concept id="1883223317721107059" name="jetbrains.mps.lang.smodel.structure.IfInstanceOfVarReference" flags="nn" index="Jnkvi" />
       <concept id="1171305280644" name="jetbrains.mps.lang.smodel.structure.Node_GetDescendantsOperation" flags="nn" index="2Rf3mk" />
       <concept id="1171310072040" name="jetbrains.mps.lang.smodel.structure.Node_GetContainingRootOperation" flags="nn" index="2Rxl7S" />
+      <concept id="1171407110247" name="jetbrains.mps.lang.smodel.structure.Node_GetAncestorOperation" flags="nn" index="2Xjw5R" />
       <concept id="3562215692195599741" name="jetbrains.mps.lang.smodel.structure.SLinkImplicitSelect" flags="nn" index="13MTOL">
         <reference id="3562215692195600259" name="link" index="13MTZf" />
       </concept>
@@ -2513,6 +2514,130 @@
     <node concept="1YaCAy" id="3FhMZyFkI5S" role="1YuTPh">
       <property role="TrG5h" value="venn" />
       <ref role="1YaFvo" to="jrxw:kv77ytcHu7" resolve="VennDiagram" />
+    </node>
+  </node>
+  <node concept="Q5z_Y" id="3l0yXcURexG">
+    <property role="3GE5qa" value="plots" />
+    <property role="TrG5h" value="FixPlotId" />
+    <node concept="Q6JDH" id="3l0yXcURexS" role="Q6Id_">
+      <property role="TrG5h" value="plot" />
+      <node concept="3Tqbb2" id="3l0yXcURexY" role="Q6QK4">
+        <ref role="ehGHo" to="jrxw:7lAbM$uOMoK" resolve="Plot" />
+      </node>
+    </node>
+    <node concept="Q5ZZ6" id="3l0yXcURexH" role="Q6x$H">
+      <node concept="3clFbS" id="3l0yXcURexI" role="2VODD2">
+        <node concept="34ab3g" id="3l0yXcURKmp" role="3cqZAp">
+          <property role="35gtTG" value="info" />
+          <node concept="Xl_RD" id="3l0yXcURKmr" role="34bqiv">
+            <property role="Xl_RC" value="Assign a new Id to the plot" />
+          </node>
+        </node>
+        <node concept="3clFbF" id="3l0yXcVeFRo" role="3cqZAp">
+          <node concept="2OqwBi" id="3l0yXcVeFSW" role="3clFbG">
+            <node concept="QwW4i" id="3l0yXcVeFRm" role="2Oq$k0">
+              <ref role="QwW4h" node="3l0yXcURexS" resolve="plot" />
+            </node>
+            <node concept="2qgKlT" id="3l0yXcVeGcW" role="2OqNvi">
+              <ref role="37wK5l" to="v8sa:3l0yXcVeEO0" resolve="assignNewId" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="18kY7G" id="3l0yXcUQVKM">
+    <property role="TrG5h" value="check_Plot_Unique_Id" />
+    <property role="3GE5qa" value="plots" />
+    <node concept="3clFbS" id="3l0yXcUQVKN" role="18ibNy">
+      <node concept="3clFbJ" id="3l0yXcUQWIF" role="3cqZAp">
+        <node concept="3clFbS" id="3l0yXcUQWIG" role="3clFbx">
+          <node concept="a7r0C" id="3l0yXcURdp_" role="3cqZAp">
+            <node concept="Xl_RD" id="3l0yXcURdpR" role="a7wSD">
+              <property role="Xl_RC" value="Non-unique plot Id detected" />
+            </node>
+            <node concept="1YBJjd" id="3l0yXcURdq5" role="2OEOjV">
+              <ref role="1YBMHb" node="3l0yXcUQVKP" resolve="plot" />
+            </node>
+            <node concept="3Cnw8n" id="3l0yXcUReAI" role="2OEOjU">
+              <property role="ARO6o" value="true" />
+              <ref role="QpYPw" node="3l0yXcURexG" resolve="FixPlotId" />
+              <node concept="3CnSsL" id="3l0yXcUReF5" role="3Coj4f">
+                <ref role="QkamJ" node="3l0yXcURexS" resolve="plot" />
+                <node concept="1YBJjd" id="3l0yXcUReFi" role="3CoRuB">
+                  <ref role="1YBMHb" node="3l0yXcUQVKP" resolve="plot" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3eOSWO" id="3l0yXcUR8aY" role="3clFbw">
+          <node concept="3cmrfG" id="3l0yXcUR8gw" role="3uHU7w">
+            <property role="3cmrfH" value="1" />
+          </node>
+          <node concept="2OqwBi" id="3l0yXcUR5oc" role="3uHU7B">
+            <node concept="2OqwBi" id="3l0yXcUR0fo" role="2Oq$k0">
+              <node concept="2OqwBi" id="3l0yXcUQXwR" role="2Oq$k0">
+                <node concept="2OqwBi" id="3l0yXcUQX95" role="2Oq$k0">
+                  <node concept="1YBJjd" id="3l0yXcUQWIR" role="2Oq$k0">
+                    <ref role="1YBMHb" node="3l0yXcUQVKP" resolve="plot" />
+                  </node>
+                  <node concept="2Xjw5R" id="3l0yXcUQXtk" role="2OqNvi">
+                    <node concept="1xMEDy" id="3l0yXcUQXtm" role="1xVPHs">
+                      <node concept="chp4Y" id="3l0yXcUQXu5" role="ri$Ld">
+                        <ref role="cht4Q" to="jrxw:7LvyiX4mii$" resolve="Analysis" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="2Rf3mk" id="3l0yXcUQZrD" role="2OqNvi">
+                  <node concept="1xMEDy" id="3l0yXcUQZrF" role="1xVPHs">
+                    <node concept="chp4Y" id="3l0yXcUQZzp" role="ri$Ld">
+                      <ref role="cht4Q" to="jrxw:7lAbM$uOMoK" resolve="Plot" />
+                    </node>
+                  </node>
+                  <node concept="1xIGOp" id="3l0yXcUWpVF" role="1xVPHs" />
+                </node>
+              </node>
+              <node concept="3zZkjj" id="3l0yXcVioYd" role="2OqNvi">
+                <node concept="1bVj0M" id="3l0yXcVioYf" role="23t8la">
+                  <node concept="3clFbS" id="3l0yXcVioYg" role="1bW5cS">
+                    <node concept="3clFbF" id="3l0yXcVioYh" role="3cqZAp">
+                      <node concept="3clFbC" id="3l0yXcVioYi" role="3clFbG">
+                        <node concept="2OqwBi" id="3l0yXcVioYj" role="3uHU7B">
+                          <node concept="37vLTw" id="3l0yXcVioYk" role="2Oq$k0">
+                            <ref role="3cqZAo" node="3l0yXcVioYp" resolve="it" />
+                          </node>
+                          <node concept="3TrcHB" id="3l0yXcVioYl" role="2OqNvi">
+                            <ref role="3TsBF5" to="jrxw:3BiNpr66hlX" resolve="id" />
+                          </node>
+                        </node>
+                        <node concept="2OqwBi" id="3l0yXcVioYm" role="3uHU7w">
+                          <node concept="1YBJjd" id="3l0yXcVioYn" role="2Oq$k0">
+                            <ref role="1YBMHb" node="3l0yXcUQVKP" resolve="plot" />
+                          </node>
+                          <node concept="3TrcHB" id="3l0yXcVioYo" role="2OqNvi">
+                            <ref role="3TsBF5" to="jrxw:3BiNpr66hlX" resolve="id" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="Rh6nW" id="3l0yXcVioYp" role="1bW2Oz">
+                    <property role="TrG5h" value="it" />
+                    <node concept="2jxLKc" id="3l0yXcVioYq" role="1tU5fm" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="34oBXx" id="3l0yXcUR6bn" role="2OqNvi" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="3l0yXcUQVKP" role="1YuTPh">
+      <property role="TrG5h" value="plot" />
+      <ref role="1YaFvo" to="jrxw:7lAbM$uOMoK" resolve="Plot" />
     </node>
   </node>
 </model>
