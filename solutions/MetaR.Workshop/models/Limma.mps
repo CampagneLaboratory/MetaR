@@ -17,7 +17,6 @@
     <devkit ref="8a3636fa-c6ec-4cb0-bc2a-b7143f2a4937(org.campagnelab.metaR)" />
   </languages>
   <imports>
-    <import index="sbif" ref="r:83131207-8bbf-4552-944d-336f1a104b7d(Demo)" implicit="true" />
     <import index="9nc5" ref="r:d1a256e6-591a-459f-809c-7fc9df45e4d5(org.campagnelab.mps.XChart.types.roots)" implicit="true" />
   </imports>
   <registry>
@@ -152,6 +151,7 @@
       <concept id="8459500803719374384" name="org.campagnelab.metar.tables.structure.Plot" flags="ng" index="1FHg$p">
         <property id="8962032619586498917" name="width" index="ZHjxa" />
         <property id="8962032619586499111" name="height" index="ZHjG8" />
+        <property id="4166618652723451261" name="id" index="3ZMXzF" />
       </concept>
       <concept id="8459500803719286639" name="org.campagnelab.metar.tables.structure.Heatmap" flags="ng" index="1FHY16">
         <child id="5703306641526697040" name="annotations" index="2thHW" />
@@ -299,7 +299,7 @@
       <ref role="1YeEjl" to="9nc5:1ID5TXdv_9L" resolve="String" />
       <node concept="3MzsTm" id="6gze2t0OYfw" role="lGtFl">
         <node concept="3MzsBX" id="6gze2t0OYfx" role="3MztjM">
-          <ref role="3MzsBM" to="sbif:4DOwJpJxC5G" resolve="ID" />
+          <ref role="3MzsBM" node="6gze2t0OYfk" resolve="ID" />
         </node>
       </node>
     </node>
@@ -308,7 +308,7 @@
       <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
       <node concept="3MzsTm" id="6gze2t0OYfz" role="lGtFl">
         <node concept="3MzsBX" id="6gze2t0OYf$" role="3MztjM">
-          <ref role="3MzsBM" to="sbif:74E64ijXGlo" resolve="ignore" />
+          <ref role="3MzsBM" node="6gze2t0OYfo" resolve="ignore" />
         </node>
       </node>
     </node>
@@ -317,7 +317,7 @@
       <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
       <node concept="3MzsTm" id="6gze2t0OYfA" role="lGtFl">
         <node concept="3MzsBX" id="6gze2t0OYfB" role="3MztjM">
-          <ref role="3MzsBM" to="sbif:74E64ijXGlo" resolve="ignore" />
+          <ref role="3MzsBM" node="6gze2t0OYfo" resolve="ignore" />
         </node>
       </node>
     </node>
@@ -336,10 +336,10 @@
       <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
       <node concept="3MzsTm" id="6gze2t0OYfH" role="lGtFl">
         <node concept="3MzsBX" id="6gze2t0OYfI" role="3MztjM">
-          <ref role="3MzsBM" to="sbif:4DOwJpJxBt4" resolve="LPS=NO" />
+          <ref role="3MzsBM" node="6gze2t0OYfh" resolve="LPS=NO" />
         </node>
         <node concept="3MzsBX" id="6gze2t0OYfJ" role="3MztjM">
-          <ref role="3MzsBM" to="sbif:w5znaeV$En" resolve="counts" />
+          <ref role="3MzsBM" node="6gze2t0OYfm" resolve="counts" />
         </node>
       </node>
     </node>
@@ -348,10 +348,10 @@
       <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
       <node concept="3MzsTm" id="6gze2t0OYfL" role="lGtFl">
         <node concept="3MzsBX" id="6gze2t0OYfM" role="3MztjM">
-          <ref role="3MzsBM" to="sbif:4DOwJpJxBt4" resolve="LPS=NO" />
+          <ref role="3MzsBM" node="6gze2t0OYfh" resolve="LPS=NO" />
         </node>
         <node concept="3MzsBX" id="6gze2t0OYfN" role="3MztjM">
-          <ref role="3MzsBM" to="sbif:w5znaeV$En" resolve="counts" />
+          <ref role="3MzsBM" node="6gze2t0OYfm" resolve="counts" />
         </node>
       </node>
     </node>
@@ -360,10 +360,10 @@
       <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
       <node concept="3MzsTm" id="6gze2t0OYfP" role="lGtFl">
         <node concept="3MzsBX" id="6gze2t0OYfQ" role="3MztjM">
-          <ref role="3MzsBM" to="sbif:4DOwJpJxBt0" resolve="LPS=YES" />
+          <ref role="3MzsBM" node="6gze2t0OYfe" resolve="LPS=YES" />
         </node>
         <node concept="3MzsBX" id="6gze2t0OYfR" role="3MztjM">
-          <ref role="3MzsBM" to="sbif:w5znaeV$En" resolve="counts" />
+          <ref role="3MzsBM" node="6gze2t0OYfm" resolve="counts" />
         </node>
       </node>
     </node>
@@ -372,10 +372,10 @@
       <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
       <node concept="3MzsTm" id="6gze2t0OYfT" role="lGtFl">
         <node concept="3MzsBX" id="6gze2t0OYfU" role="3MztjM">
-          <ref role="3MzsBM" to="sbif:4DOwJpJxBt0" resolve="LPS=YES" />
+          <ref role="3MzsBM" node="6gze2t0OYfe" resolve="LPS=YES" />
         </node>
         <node concept="3MzsBX" id="6gze2t0OYfV" role="3MztjM">
-          <ref role="3MzsBM" to="sbif:w5znaeV$En" resolve="counts" />
+          <ref role="3MzsBM" node="6gze2t0OYfm" resolve="counts" />
         </node>
       </node>
     </node>
@@ -384,10 +384,10 @@
       <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
       <node concept="3MzsTm" id="6gze2t0OYfX" role="lGtFl">
         <node concept="3MzsBX" id="6gze2t0OYfY" role="3MztjM">
-          <ref role="3MzsBM" to="sbif:4DOwJpJxBt4" resolve="LPS=NO" />
+          <ref role="3MzsBM" node="6gze2t0OYfh" resolve="LPS=NO" />
         </node>
         <node concept="3MzsBX" id="6gze2t0OYfZ" role="3MztjM">
-          <ref role="3MzsBM" to="sbif:w5znaeV$En" resolve="counts" />
+          <ref role="3MzsBM" node="6gze2t0OYfm" resolve="counts" />
         </node>
       </node>
     </node>
@@ -396,10 +396,10 @@
       <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
       <node concept="3MzsTm" id="6gze2t0OYg1" role="lGtFl">
         <node concept="3MzsBX" id="6gze2t0OYg2" role="3MztjM">
-          <ref role="3MzsBM" to="sbif:4DOwJpJxBt0" resolve="LPS=YES" />
+          <ref role="3MzsBM" node="6gze2t0OYfe" resolve="LPS=YES" />
         </node>
         <node concept="3MzsBX" id="6gze2t0OYg3" role="3MztjM">
-          <ref role="3MzsBM" to="sbif:w5znaeV$En" resolve="counts" />
+          <ref role="3MzsBM" node="6gze2t0OYfm" resolve="counts" />
         </node>
       </node>
     </node>
@@ -408,10 +408,10 @@
       <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
       <node concept="3MzsTm" id="6gze2t0OYg5" role="lGtFl">
         <node concept="3MzsBX" id="6gze2t0OYg6" role="3MztjM">
-          <ref role="3MzsBM" to="sbif:4DOwJpJxBt4" resolve="LPS=NO" />
+          <ref role="3MzsBM" node="6gze2t0OYfh" resolve="LPS=NO" />
         </node>
         <node concept="3MzsBX" id="6gze2t0OYg7" role="3MztjM">
-          <ref role="3MzsBM" to="sbif:w5znaeV$En" resolve="counts" />
+          <ref role="3MzsBM" node="6gze2t0OYfm" resolve="counts" />
         </node>
       </node>
     </node>
@@ -420,10 +420,10 @@
       <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
       <node concept="3MzsTm" id="6gze2t0OYg9" role="lGtFl">
         <node concept="3MzsBX" id="6gze2t0OYga" role="3MztjM">
-          <ref role="3MzsBM" to="sbif:4DOwJpJxBt0" resolve="LPS=YES" />
+          <ref role="3MzsBM" node="6gze2t0OYfe" resolve="LPS=YES" />
         </node>
         <node concept="3MzsBX" id="6gze2t0OYgb" role="3MztjM">
-          <ref role="3MzsBM" to="sbif:w5znaeV$En" resolve="counts" />
+          <ref role="3MzsBM" node="6gze2t0OYfm" resolve="counts" />
         </node>
       </node>
     </node>
@@ -432,10 +432,10 @@
       <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
       <node concept="3MzsTm" id="6gze2t0OYgd" role="lGtFl">
         <node concept="3MzsBX" id="6gze2t0OYge" role="3MztjM">
-          <ref role="3MzsBM" to="sbif:4DOwJpJxBt4" resolve="LPS=NO" />
+          <ref role="3MzsBM" node="6gze2t0OYfh" resolve="LPS=NO" />
         </node>
         <node concept="3MzsBX" id="6gze2t0OYgf" role="3MztjM">
-          <ref role="3MzsBM" to="sbif:w5znaeV$En" resolve="counts" />
+          <ref role="3MzsBM" node="6gze2t0OYfm" resolve="counts" />
         </node>
       </node>
     </node>
@@ -444,10 +444,10 @@
       <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
       <node concept="3MzsTm" id="6gze2t0OYgh" role="lGtFl">
         <node concept="3MzsBX" id="6gze2t0OYgi" role="3MztjM">
-          <ref role="3MzsBM" to="sbif:4DOwJpJxBt0" resolve="LPS=YES" />
+          <ref role="3MzsBM" node="6gze2t0OYfe" resolve="LPS=YES" />
         </node>
         <node concept="3MzsBX" id="6gze2t0OYgj" role="3MztjM">
-          <ref role="3MzsBM" to="sbif:w5znaeV$En" resolve="counts" />
+          <ref role="3MzsBM" node="6gze2t0OYfm" resolve="counts" />
         </node>
       </node>
     </node>
@@ -456,10 +456,10 @@
       <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
       <node concept="3MzsTm" id="6gze2t0OYgl" role="lGtFl">
         <node concept="3MzsBX" id="6gze2t0OYgm" role="3MztjM">
-          <ref role="3MzsBM" to="sbif:4DOwJpJxBt4" resolve="LPS=NO" />
+          <ref role="3MzsBM" node="6gze2t0OYfh" resolve="LPS=NO" />
         </node>
         <node concept="3MzsBX" id="6gze2t0OYgn" role="3MztjM">
-          <ref role="3MzsBM" to="sbif:w5znaeV$En" resolve="counts" />
+          <ref role="3MzsBM" node="6gze2t0OYfm" resolve="counts" />
         </node>
       </node>
     </node>
@@ -468,10 +468,10 @@
       <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
       <node concept="3MzsTm" id="6gze2t0OYgp" role="lGtFl">
         <node concept="3MzsBX" id="6gze2t0OYgq" role="3MztjM">
-          <ref role="3MzsBM" to="sbif:4DOwJpJxBt0" resolve="LPS=YES" />
+          <ref role="3MzsBM" node="6gze2t0OYfe" resolve="LPS=YES" />
         </node>
         <node concept="3MzsBX" id="6gze2t0OYgr" role="3MztjM">
-          <ref role="3MzsBM" to="sbif:w5znaeV$En" resolve="counts" />
+          <ref role="3MzsBM" node="6gze2t0OYfm" resolve="counts" />
         </node>
       </node>
     </node>
@@ -480,10 +480,10 @@
       <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
       <node concept="3MzsTm" id="6gze2t0OYgt" role="lGtFl">
         <node concept="3MzsBX" id="6gze2t0OYgu" role="3MztjM">
-          <ref role="3MzsBM" to="sbif:4DOwJpJxBt4" resolve="LPS=NO" />
+          <ref role="3MzsBM" node="6gze2t0OYfh" resolve="LPS=NO" />
         </node>
         <node concept="3MzsBX" id="6gze2t0OYgv" role="3MztjM">
-          <ref role="3MzsBM" to="sbif:w5znaeV$En" resolve="counts" />
+          <ref role="3MzsBM" node="6gze2t0OYfm" resolve="counts" />
         </node>
       </node>
     </node>
@@ -492,10 +492,10 @@
       <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
       <node concept="3MzsTm" id="6gze2t0OYgx" role="lGtFl">
         <node concept="3MzsBX" id="6gze2t0OYgy" role="3MztjM">
-          <ref role="3MzsBM" to="sbif:4DOwJpJxBt0" resolve="LPS=YES" />
+          <ref role="3MzsBM" node="6gze2t0OYfe" resolve="LPS=YES" />
         </node>
         <node concept="3MzsBX" id="6gze2t0OYgz" role="3MztjM">
-          <ref role="3MzsBM" to="sbif:w5znaeV$En" resolve="counts" />
+          <ref role="3MzsBM" node="6gze2t0OYfm" resolve="counts" />
         </node>
       </node>
     </node>
@@ -1661,6 +1661,7 @@
           <property role="ZHjxa" value="300" />
           <property role="ZHjG8" value="200" />
           <property role="TrG5h" value="plot" />
+          <property role="3ZMXzF" value="11" />
         </node>
         <node concept="afgQW" id="6gze2t0OYrf" role="af7lV">
           <ref role="afgo8" node="6gze2t0OYpF" resolve="1% FDR" />
@@ -1693,12 +1694,13 @@
           <property role="ZHjxa" value="400" />
           <property role="ZHjG8" value="400" />
           <property role="TrG5h" value="PreviewHeatmap" />
+          <property role="3ZMXzF" value="12" />
         </node>
       </node>
       <node concept="SsgEw" id="6gze2t0OYrp" role="ZXjPg">
         <property role="S1EQ6" value="JLFTGERULV" />
-        <ref role="L_9Jz" to="sbif:2od$re074E7" resolve="72dpi" />
         <ref role="Ss6T5" node="6gze2t0OYre" resolve="plot" />
+        <ref role="L_9Jz" node="6gze2t0OYlm" resolve="72dpi" />
         <node concept="Ss6Tf" id="6gze2t0OYrq" role="Ss6Td" />
         <node concept="2jXUOv" id="6gze2t0OYrr" role="2jX3UN">
           <property role="2jXUS1" value="heatmap.pdf" />

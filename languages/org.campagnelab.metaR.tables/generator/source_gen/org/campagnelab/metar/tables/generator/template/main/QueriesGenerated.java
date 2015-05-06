@@ -912,6 +912,26 @@ public class QueriesGenerated {
   public static Object propertyMacro_GetPropertyValue_369044998832181749(final PropertyMacroContext _context) {
     return SPropertyOperations.getString(_context.getNode(), MetaAdapterFactory.getProperty(0x5d6bde844ce44eb5L, 0xa37e25a5edd55129L, 0x7c5f892f445924a8L, 0x7c5f892f445924a9L, "id"));
   }
+  public static Object propertyMacro_GetPropertyValue_6009236220891650617(final PropertyMacroContext _context) {
+    return "'Venn Diagram of " + ListSequence.fromList(SLinkOperations.getChildren(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x5d6bde844ce44eb5L, 0xa37e25a5edd55129L, 0x51f1c789d32d787L, 0x51f1c789d32d78cL, "sets"))).count() + "';";
+  }
+  public static Object propertyMacro_GetPropertyValue_6009236220891650636(final PropertyMacroContext _context) {
+    StringBuilder builder = new StringBuilder();
+    for (SNode color : ListSequence.fromList(SLinkOperations.getChildren(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x5d6bde844ce44eb5L, 0xa37e25a5edd55129L, 0x51f1c789d32d787L, 0x51f1c789d32d78cL, "sets")))) {
+      if (isNotEmptyString(Color_Behavior.call_getValue_5397636476180891271(SLinkOperations.getTarget(color, MetaAdapterFactory.getContainmentLink(0x5d6bde844ce44eb5L, 0xa37e25a5edd55129L, 0x51f1c78a14aa682L, 0x3ad1cbf8ae6bfed2L, "setColor"))))) {
+        builder.append("'" + Color_Behavior.call_getValue_5397636476180891271(SLinkOperations.getTarget(color, MetaAdapterFactory.getContainmentLink(0x5d6bde844ce44eb5L, 0xa37e25a5edd55129L, 0x51f1c78a14aa682L, 0x3ad1cbf8ae6bfed2L, "setColor"))) + "',");
+
+      } else {
+        builder.append("'',");
+      }
+    }
+    return "c(" + builder.substring(0, builder.length() - 1) + ")";
+  }
+  public static Object propertyMacro_GetPropertyValue_6009236220891650709(final PropertyMacroContext _context) {
+
+    return "" + ListSequence.fromList(SLinkOperations.getChildren(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x5d6bde844ce44eb5L, 0xa37e25a5edd55129L, 0x51f1c789d32d787L, 0x51f1c789d32d78cL, "sets"))).count();
+
+  }
   public static Object propertyMacro_GetPropertyValue_4238392993162354655(final PropertyMacroContext _context) {
     return "'Venn Diagram of " + ListSequence.fromList(SLinkOperations.getChildren(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x5d6bde844ce44eb5L, 0xa37e25a5edd55129L, 0x51f1c789d32d787L, 0x51f1c789d32d78cL, "sets"))).count() + "';";
   }
@@ -1185,6 +1205,9 @@ public class QueriesGenerated {
   }
   public static Iterable<SNode> sourceNodesQuery_4067230457182238075(final SourceSubstituteMacroNodesContext _context) {
     return SNodeOperations.ofConcept(SLinkOperations.getChildren(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x5d6bde844ce44eb5L, 0xa37e25a5edd55129L, 0x271050d630209e3fL, 0x271050d630209f21L, "commentedStatement")), MetaAdapterFactory.getConcept(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0x57d533a7af15ed3dL, "jetbrains.mps.baseLanguage.structure.TextCommentPart"));
+  }
+  public static Iterable<SNode> sourceNodesQuery_6009236220891650608(final SourceSubstituteMacroNodesContext _context) {
+    return SLinkOperations.getChildren(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x5d6bde844ce44eb5L, 0xa37e25a5edd55129L, 0x51f1c789d32d787L, 0x51f1c789d32d78cL, "sets"));
   }
   public static Iterable<SNode> sourceNodesQuery_5113139915983891574(final SourceSubstituteMacroNodesContext _context) {
     return SLinkOperations.getChildren(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x5d6bde844ce44eb5L, 0xa37e25a5edd55129L, 0x51f1c789d32d787L, 0x51f1c789d32d78cL, "sets"));
