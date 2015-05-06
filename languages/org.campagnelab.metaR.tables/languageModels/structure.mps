@@ -1957,5 +1957,27 @@
     <property role="R4oN_" value="column value from selected table" />
     <ref role="1TJDcQ" node="70Aomqk_K78" resolve="ColumnValue" />
   </node>
+  <node concept="1TIwiD" id="6lyZREae0L_">
+    <property role="TrG5h" value="BlockWithTable" />
+    <property role="3GE5qa" value="block" />
+    <property role="34LRSv" value="with table" />
+    <property role="R4oN_" value="used specific table" />
+    <ref role="1TJDcQ" node="7LvyiX4miiC" resolve="Statement" />
+    <node concept="1TJgyj" id="6lyZREae3lF" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="tablesList" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="3R5AwWRY9uN" resolve="TableRef" />
+    </node>
+    <node concept="1TJgyj" id="6lyZREae3lH" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="blockStatementList" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="7LvyiX3EFhY" resolve="StatementList" />
+    </node>
+    <node concept="PrWs8" id="6lyZREae8tw" role="PzmwI">
+      <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
+    </node>
+  </node>
 </model>
 
