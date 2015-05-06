@@ -122,7 +122,6 @@
       <concept id="3402264987265829804" name="org.campagnelab.metar.tables.structure.ColumnAnnotation" flags="ng" index="3MzsTm">
         <child id="3402264987265831176" name="groups" index="3MztjM" />
       </concept>
-      <concept id="3402264987262239184" name="org.campagnelab.metar.tables.structure.KeySelection" flags="ng" index="3MH8gE" />
       <concept id="3402264987262239188" name="org.campagnelab.metar.tables.structure.CommonColumnSelection" flags="ng" index="3MH8gI">
         <child id="3402264987262239189" name="byColumn" index="3MH8gJ" />
       </concept>
@@ -934,24 +933,248 @@
           <node concept="S1EQe" id="5d_684Ih_oQ" role="ZXjPg">
             <property role="S1EQ6" value="MENPLRQCLO" />
           </node>
-          <node concept="3MoTRY" id="5d_684IHX3l" role="ZXjPg">
-            <property role="S1EQ6" value="YBLXLBSUOM" />
-            <property role="8NYsT" value="true" />
-            <node concept="3MlLWZ" id="5d_684IHX3p" role="3Mq1V4">
-              <property role="TrG5h" value="Results" />
-              <ref role="3MlLW5" node="5d_684IHX3q" resolve="Results" />
-              <node concept="3Mpm39" id="5d_684IHX3q" role="3WeD9t">
+          <node concept="3MoTRY" id="16FggLC1Kl7" role="ZXjPg">
+            <property role="S1EQ6" value="CWHKQJMSWW" />
+            <property role="8NYsT" value="false" />
+            <node concept="3MlLWZ" id="16FggLC1Klb" role="3Mq1V4">
+              <property role="TrG5h" value="output" />
+              <ref role="3MlLW5" node="16FggLC1Klc" resolve="output" />
+              <node concept="3Mpm39" id="16FggLC1Klc" role="3WeD9t">
                 <property role="31Cu5t" value="&#9;" />
-                <property role="TrG5h" value="Results" />
+                <property role="TrG5h" value="output" />
+                <node concept="31JHg8" id="16FggLC3mdT" role="31JHgj">
+                  <property role="TrG5h" value="Column5" />
+                  <ref role="1YeEjl" to="9nc5:1ID5TXdv_9L" resolve="String" />
+                  <node concept="3MzsTm" id="16FggLC3mdX" role="lGtFl">
+                    <node concept="3MzsBX" id="16FggLC3mdY" role="3MztjM">
+                      <ref role="3MzsBM" node="6gRg6E3pODE" resolve="counts" />
+                    </node>
+                    <node concept="3MzsBX" id="16FggLC3mdZ" role="3MztjM">
+                      <ref role="3MzsBM" node="2od$re1AnTv" resolve="TwoColumns" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="31JHg8" id="16FggLC3mee" role="31JHgj">
+                  <property role="TrG5h" value="Column10" />
+                  <ref role="1YeEjl" to="9nc5:1ID5TXdv_9L" resolve="String" />
+                </node>
+                <node concept="31JHg8" id="16FggLC3med" role="31JHgj">
+                  <property role="TrG5h" value="Column9" />
+                  <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
+                </node>
+                <node concept="31JHg8" id="16FggLC3mdM" role="31JHgj">
+                  <property role="TrG5h" value="Column4" />
+                  <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
+                  <node concept="3MzsTm" id="16FggLC3mdQ" role="lGtFl">
+                    <node concept="3MzsBX" id="16FggLC3mdR" role="3MztjM">
+                      <ref role="3MzsBM" node="6gRg6E3pODE" resolve="counts" />
+                    </node>
+                    <node concept="3MzsBX" id="16FggLC3mdS" role="3MztjM">
+                      <ref role="3MzsBM" node="2od$re1AnTv" resolve="TwoColumns" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="31JHg8" id="16FggLC3me0" role="31JHgj">
+                  <property role="TrG5h" value="Column6" />
+                  <ref role="1YeEjl" to="9nc5:1ID5TXdv_9L" resolve="String" />
+                  <node concept="3MzsTm" id="16FggLC3me3" role="lGtFl">
+                    <node concept="3MzsBX" id="16FggLC3me4" role="3MztjM">
+                      <ref role="3MzsBM" node="6yCrzs9Eg5J" resolve="ID" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="31JHg8" id="16FggLC3mdF" role="31JHgj">
+                  <property role="TrG5h" value="Column3" />
+                  <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
+                  <node concept="3MzsTm" id="16FggLC3mdJ" role="lGtFl">
+                    <node concept="3MzsBX" id="16FggLC3mdK" role="3MztjM">
+                      <ref role="3MzsBM" node="6gRg6E3pODE" resolve="counts" />
+                    </node>
+                    <node concept="3MzsBX" id="16FggLC3mdL" role="3MztjM">
+                      <ref role="3MzsBM" node="2od$re1AnTn" resolve="OneColumn" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="31JHg8" id="16FggLC3mdv" role="31JHgj">
+                  <property role="TrG5h" value="Column1" />
+                  <ref role="1YeEjl" to="9nc5:1ID5TXdv_9L" resolve="String" />
+                  <node concept="3MzsTm" id="16FggLC3mdy" role="lGtFl">
+                    <node concept="3MzsBX" id="16FggLC3mdz" role="3MztjM">
+                      <ref role="3MzsBM" node="6yCrzs9Eg5J" resolve="ID" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="31JHg8" id="16FggLC3me5" role="31JHgj">
+                  <property role="TrG5h" value="Column7" />
+                  <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
+                  <node concept="3MzsTm" id="16FggLC3me9" role="lGtFl">
+                    <node concept="3MzsBX" id="16FggLC3mea" role="3MztjM">
+                      <ref role="3MzsBM" node="6gRg6E3pODE" resolve="counts" />
+                    </node>
+                    <node concept="3MzsBX" id="16FggLC3meb" role="3MztjM">
+                      <ref role="3MzsBM" node="6gRg6E3pUqa" resolve="heatmapTest" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="31JHg8" id="16FggLC3mec" role="31JHgj">
+                  <property role="TrG5h" value="Column8" />
+                  <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
+                </node>
+                <node concept="31JHg8" id="16FggLC3md$" role="31JHgj">
+                  <property role="TrG5h" value="Column2" />
+                  <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
+                  <node concept="3MzsTm" id="16FggLC3mdC" role="lGtFl">
+                    <node concept="3MzsBX" id="16FggLC3mdD" role="3MztjM">
+                      <ref role="3MzsBM" node="6gRg6E3pODE" resolve="counts" />
+                    </node>
+                    <node concept="3MzsBX" id="16FggLC3mdE" role="3MztjM">
+                      <ref role="3MzsBM" node="6gRg6E3pUqa" resolve="heatmapTest" />
+                    </node>
+                  </node>
+                </node>
               </node>
             </node>
-            <node concept="3MH8gE" id="5d_684IHX3s" role="3MHf7a" />
-            <node concept="3MqhDd" id="5d_684IHX3S" role="3Mqss8">
+            <node concept="3MH8gI" id="16FggLC1KlC" role="3MHf7a">
+              <node concept="3MHf5z" id="16FggLC1KnJ" role="3MH8gJ">
+                <ref role="3MHf5w" node="6gRg6E3pM$I" resolve="Column1" />
+              </node>
+            </node>
+            <node concept="3MqhDd" id="16FggLC1Klu" role="3Mqss8">
               <ref role="3Mqssv" node="6yCrzs9K2ZY" resolve="TableA.csv" />
             </node>
-            <node concept="3MqhDd" id="5d_684IHX41" role="3Mqss8">
-              <ref role="3Mqssv" node="2Yw6f5rLkp7" resolve="Results" />
+            <node concept="3MqhDd" id="16FggLC3mdr" role="3Mqss8">
+              <ref role="3Mqssv" node="6yCrzs9K309" resolve="TableB.csv" />
             </node>
+          </node>
+          <node concept="S1EQe" id="16FggLC2tga" role="ZXjPg">
+            <property role="S1EQ6" value="PVOTIGLXKN" />
+          </node>
+          <node concept="2jzm8Z" id="16FggLC2tpA" role="ZXjPg">
+            <property role="S1EQ6" value="RBWHJSSSKQ" />
+            <property role="8NYsT" value="false" />
+            <node concept="3MlLWZ" id="16FggLC2tpC" role="2j$aDD">
+              <property role="TrG5h" value="transformedTable2" />
+              <ref role="3MlLW5" node="16FggLC2tpD" resolve="transformedTable2" />
+              <node concept="3Mpm39" id="16FggLC2tpD" role="3WeD9t">
+                <property role="31Cu5t" value="&#9;" />
+                <property role="TrG5h" value="transformedTable2" />
+                <node concept="31JHg8" id="16FggLC3cq4" role="31JHgj">
+                  <property role="TrG5h" value="Column4.TableA.csv" />
+                  <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
+                  <node concept="3MzsTm" id="16FggLC3cq8" role="lGtFl">
+                    <node concept="3MzsBX" id="16FggLC3cq9" role="3MztjM">
+                      <ref role="3MzsBM" node="6gRg6E3pODE" resolve="counts" />
+                    </node>
+                    <node concept="3MzsBX" id="16FggLC3cqa" role="3MztjM">
+                      <ref role="3MzsBM" node="2od$re1AnTv" resolve="TwoColumns" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="31JHg8" id="16FggLC3cqb" role="31JHgj">
+                  <property role="TrG5h" value="Column3.TableA.csv" />
+                  <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
+                  <node concept="3MzsTm" id="16FggLC3cqf" role="lGtFl">
+                    <node concept="3MzsBX" id="16FggLC3cqg" role="3MztjM">
+                      <ref role="3MzsBM" node="6gRg6E3pODE" resolve="counts" />
+                    </node>
+                    <node concept="3MzsBX" id="16FggLC3cqh" role="3MztjM">
+                      <ref role="3MzsBM" node="2od$re1AnTn" resolve="OneColumn" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="31JHg8" id="16FggLC3cqi" role="31JHgj">
+                  <property role="TrG5h" value="Column4.TableA.csv" />
+                  <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
+                  <node concept="3MzsTm" id="16FggLC3cqm" role="lGtFl">
+                    <node concept="3MzsBX" id="16FggLC3cqn" role="3MztjM">
+                      <ref role="3MzsBM" node="6gRg6E3pODE" resolve="counts" />
+                    </node>
+                    <node concept="3MzsBX" id="16FggLC3cqo" role="3MztjM">
+                      <ref role="3MzsBM" node="2od$re1AnTv" resolve="TwoColumns" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="31JHg8" id="16FggLC3cqp" role="31JHgj">
+                  <property role="TrG5h" value="Column5.TableA.csv" />
+                  <ref role="1YeEjl" to="9nc5:1ID5TXdv_9L" resolve="String" />
+                  <node concept="3MzsTm" id="16FggLC3cqt" role="lGtFl">
+                    <node concept="3MzsBX" id="16FggLC3cqu" role="3MztjM">
+                      <ref role="3MzsBM" node="6gRg6E3pODE" resolve="counts" />
+                    </node>
+                    <node concept="3MzsBX" id="16FggLC3cqv" role="3MztjM">
+                      <ref role="3MzsBM" node="2od$re1AnTv" resolve="TwoColumns" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="31JHg8" id="16FggLC3cqw" role="31JHgj">
+                  <property role="TrG5h" value="Column2.TableA.csv" />
+                  <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
+                  <node concept="3MzsTm" id="16FggLC3cq$" role="lGtFl">
+                    <node concept="3MzsBX" id="16FggLC3cq_" role="3MztjM">
+                      <ref role="3MzsBM" node="6gRg6E3pODE" resolve="counts" />
+                    </node>
+                    <node concept="3MzsBX" id="16FggLC3cqA" role="3MztjM">
+                      <ref role="3MzsBM" node="6gRg6E3pUqa" resolve="heatmapTest" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="31JHg8" id="16FggLC3cqB" role="31JHgj">
+                  <property role="TrG5h" value="Column3.TableA.csv" />
+                  <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
+                  <node concept="3MzsTm" id="16FggLC3cqF" role="lGtFl">
+                    <node concept="3MzsBX" id="16FggLC3cqG" role="3MztjM">
+                      <ref role="3MzsBM" node="6gRg6E3pODE" resolve="counts" />
+                    </node>
+                    <node concept="3MzsBX" id="16FggLC3cqH" role="3MztjM">
+                      <ref role="3MzsBM" node="2od$re1AnTn" resolve="OneColumn" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="31JHg8" id="16FggLC3cqI" role="31JHgj">
+                  <property role="TrG5h" value="Column5.TableA.csv" />
+                  <ref role="1YeEjl" to="9nc5:1ID5TXdv_9L" resolve="String" />
+                  <node concept="3MzsTm" id="16FggLC3cqM" role="lGtFl">
+                    <node concept="3MzsBX" id="16FggLC3cqN" role="3MztjM">
+                      <ref role="3MzsBM" node="6gRg6E3pODE" resolve="counts" />
+                    </node>
+                    <node concept="3MzsBX" id="16FggLC3cqO" role="3MztjM">
+                      <ref role="3MzsBM" node="2od$re1AnTv" resolve="TwoColumns" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="31JHg8" id="16FggLC3cqP" role="31JHgj">
+                  <property role="TrG5h" value="Column2.TableA.csv" />
+                  <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
+                  <node concept="3MzsTm" id="16FggLC3cqT" role="lGtFl">
+                    <node concept="3MzsBX" id="16FggLC3cqU" role="3MztjM">
+                      <ref role="3MzsBM" node="6gRg6E3pODE" resolve="counts" />
+                    </node>
+                    <node concept="3MzsBX" id="16FggLC3cqV" role="3MztjM">
+                      <ref role="3MzsBM" node="6gRg6E3pUqa" resolve="heatmapTest" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3MqhDd" id="16FggLC2tqw" role="2j$aDC">
+              <ref role="3Mqssv" node="16FggLC1Klb" resolve="output" />
+            </node>
+            <node concept="2jA85X" id="16FggLC2trj" role="2jA6G9">
+              <node concept="3_jNeS" id="16FggLC3cq1" role="2jA85Y">
+                <ref role="3AppbS" node="6gRg6E3pM$I" resolve="Column1" />
+              </node>
+            </node>
+            <node concept="2jA85X" id="16FggLC2twN" role="2jA6G9">
+              <node concept="3_jNeS" id="16FggLC2t$H" role="2jA85Y">
+                <ref role="3AppbS" node="6gRg6E3pM$_" resolve="Column9" />
+              </node>
+            </node>
+          </node>
+          <node concept="S1EQe" id="16FggLC32$K" role="ZXjPg">
+            <property role="S1EQ6" value="GEOSMCXDVA" />
+          </node>
+          <node concept="S1EQe" id="16FggLC32A4" role="ZXjPg">
+            <property role="S1EQ6" value="HVAOFXGOWW" />
           </node>
         </node>
         <node concept="afgQW" id="5d_684Ih_nM" role="3JmGCh">
@@ -960,6 +1183,9 @@
         <node concept="afgQW" id="5d_684IHX2M" role="3JmGCh">
           <ref role="afgo8" node="6yCrzs9Eg5m" resolve="TableB.csv" />
         </node>
+      </node>
+      <node concept="S1EQe" id="16FggLC2tmf" role="ZXjPg">
+        <property role="S1EQ6" value="ICPKIMKFMF" />
       </node>
       <node concept="S1EQe" id="1yPZLM3Y2ln" role="ZXjPg">
         <property role="S1EQ6" value="YHJMAFKOAY" />
