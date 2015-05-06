@@ -234,8 +234,17 @@ public class QueriesGenerated {
       }
     }), "+");
   }
+  public static Object propertyMacro_GetPropertyValue_6480719105562376313(final PropertyMacroContext _context) {
+    if (Sequence.fromIterable(GroupFormula_Behavior.call_calculateGroupUsageNamesForCovariates_5124039371744206341(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0xecc862c95ab542efL, 0x87032039019fb338L, 0x471c3ea90814c0afL, 0x471c3ea90814c207L, "modelFormula")), SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0xecc862c95ab542efL, 0x87032039019fb338L, 0x471c3ea90814c0afL, 0x471c3ea90814c368L, "contrasts")))).count() < 1) {
+      _context.showErrorMessage(_context.getNode(), "The model must contain at least one covariate not used in contrasts, comparing attribute, to export adjusted counts ");
+    }
+    return SPropertyOperations.getString(Sequence.fromIterable(GroupFormula_Behavior.call_calculateGroupUsageNamesForCovariates_5124039371744206341(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0xecc862c95ab542efL, 0x87032039019fb338L, 0x471c3ea90814c0afL, 0x471c3ea90814c207L, "modelFormula")), SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0xecc862c95ab542efL, 0x87032039019fb338L, 0x471c3ea90814c0afL, 0x471c3ea90814c368L, "contrasts")))).first(), MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name"));
+  }
   public static Object propertyMacro_GetPropertyValue_754038754676053484(final PropertyMacroContext _context) {
     return FutureTable_Behavior.call_getCleanTableName_4166618652720345586(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x49ed9e70f0d4814L, 0xa373a4b21e15b59eL, 0x79170bb4b56e6ecbL, 0x471c3ea909d799dfL, "adjustedCountsTable")));
+  }
+  public static Object propertyMacro_GetPropertyValue_6480719105570590616(final PropertyMacroContext _context) {
+    return SPropertyOperations.getString(TableRef_Behavior.call_firstColumnWithGroup_8031339867718453028(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x49ed9e70f0d4814L, 0xa373a4b21e15b59eL, 0x79170bb4b56e6ecbL, 0x79170bb4b56e97d7L, "countsTable")), "ID"), MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name"));
   }
   public static Object propertyMacro_GetPropertyValue_5124039371746210595(final PropertyMacroContext _context) {
     return FutureTable_Behavior.call_getCleanTableName_4166618652720345586(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x49ed9e70f0d4814L, 0xa373a4b21e15b59eL, 0x79170bb4b56e6ecbL, 0x79170bb4b56ebd77L, "destinationTable")));
@@ -268,6 +277,9 @@ public class QueriesGenerated {
       }
     }), " +");
   }
+  public static boolean ifMacro_Condition_6480719105562352691(final IfMacroContext _context) {
+    return Sequence.fromIterable(GroupFormula_Behavior.call_calculateGroupUsageNamesForCovariates_5124039371744206341(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0xecc862c95ab542efL, 0x87032039019fb338L, 0x471c3ea90814c0afL, 0x471c3ea90814c207L, "modelFormula")), SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0xecc862c95ab542efL, 0x87032039019fb338L, 0x471c3ea90814c0afL, 0x471c3ea90814c368L, "contrasts")))).count() >= 2;
+  }
   public static boolean ifMacro_Condition_5124039371796286498(final IfMacroContext _context) {
     return SPropertyOperations.getBoolean(_context.getNode(), MetaAdapterFactory.getProperty(0x49ed9e70f0d4814L, 0xa373a4b21e15b59eL, 0x79170bb4b56e6ecbL, 0x471c3ea909d786edL, "exportAdjustedCounts"));
   }
@@ -293,7 +305,7 @@ public class QueriesGenerated {
       public boolean accept(SNode it) {
         return ListSequence.fromList(SLinkOperations.getChildren(AttributeOperations.getAttribute(it, new IAttributeDescriptor.NodeAttribute(MetaAdapterFactory.getConcept(0x5d6bde844ce44eb5L, 0xa37e25a5edd55129L, 0x2f3745faddba8bacL, "org.campagnelab.metar.tables.structure.ColumnAnnotation"))), MetaAdapterFactory.getContainmentLink(0x5d6bde844ce44eb5L, 0xa37e25a5edd55129L, 0x2f3745faddba8bacL, 0x2f3745faddba9108L, "groups"))).all(new IWhereFilter<SNode>() {
           public boolean accept(SNode it) {
-            return neq_x583g4_a0a0a0a0a0a0a0a0a0c0bb(SPropertyOperations.getString(SLinkOperations.getTarget(it, MetaAdapterFactory.getReferenceLink(0x5d6bde844ce44eb5L, 0xa37e25a5edd55129L, 0x2f3745faddba8c07L, 0x2f3745faddba8c08L, "columnGroup")), MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name")), "counts");
+            return neq_x583g4_a0a0a0a0a0a0a0a0a0c0eb(SPropertyOperations.getString(SLinkOperations.getTarget(it, MetaAdapterFactory.getReferenceLink(0x5d6bde844ce44eb5L, 0xa37e25a5edd55129L, 0x2f3745faddba8c07L, 0x2f3745faddba8c08L, "columnGroup")), MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name")), "counts");
           }
         });
       }
@@ -328,7 +340,7 @@ public class QueriesGenerated {
   private static boolean eq_x583g4_a0a0a0a0a0a0a0a0a0a3a7(Object a, Object b) {
     return (a != null ? a.equals(b) : a == b);
   }
-  private static boolean neq_x583g4_a0a0a0a0a0a0a0a0a0c0bb(Object a, Object b) {
+  private static boolean neq_x583g4_a0a0a0a0a0a0a0a0a0c0eb(Object a, Object b) {
     return !(((a != null ? a.equals(b) : a == b)));
   }
 }
