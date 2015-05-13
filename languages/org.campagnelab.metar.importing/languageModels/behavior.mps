@@ -159,7 +159,7 @@
             <node concept="3cpWs6" id="AYlbCAGeb8" role="3cqZAp">
               <node concept="3cpWs3" id="AYlbCAGinp" role="3cqZAk">
                 <node concept="Xl_RD" id="AYlbCAGiwK" role="3uHU7w">
-                  <property role="Xl_RC" value=".R" />
+                  <property role="Xl_RC" value=".stubs.R" />
                 </node>
                 <node concept="3cpWs3" id="AYlbCAGfwd" role="3uHU7B">
                   <node concept="3cpWs3" id="AYlbCAGf25" role="3uHU7B">
