@@ -9,8 +9,9 @@
     <import index="fxg7" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.io(JDK/java.io@java_stub)" />
     <import index="msyo" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/f:java_stub#6ed54515-acc8-4d1e-a16c-9fd6cfe951ea#jetbrains.mps.util(MPS.Core/jetbrains.mps.util@java_stub)" />
     <import index="1mjk" ref="r:72b0aa20-b681-4aef-ad30-bb23b1f4b98c(org.campagnelab.metar.code.generator.helpers)" />
-    <import index="v8sa" ref="r:db1b133e-9a0f-4319-b384-413408eb1729(org.campagnelab.metar.tables.behavior)" implicit="true" />
-    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
+    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
+    <import index="v8sa" ref="r:db1b133e-9a0f-4319-b384-413408eb1729(org.campagnelab.metar.tables.behavior)" />
+    <import index="jrxw" ref="r:9f2bbfbf-f8b7-4b3b-92b1-b6a0e9642c10(org.campagnelab.metar.tables.structure)" />
     <import index="8t56" ref="r:c30a0469-24e5-4b8a-89e7-0d2028c5aa49(org.campagnelab.metar.importing.structure)" implicit="true" />
   </imports>
   <registry>
@@ -230,13 +231,13 @@
       <node concept="3cqZAl" id="AYlbCAFcBe" role="3clF45" />
       <node concept="3clFbS" id="AYlbCAFcxH" role="3clF47" />
     </node>
-    <node concept="13i0hz" id="5Wt7Rzzsy_k" role="13h7CS">
+    <node concept="13i0hz" id="4OlXQqAiFeA" role="13h7CS">
       <property role="TrG5h" value="dependencies" />
       <property role="13i0it" value="false" />
       <property role="13i0iv" value="false" />
       <ref role="13i0hy" to="v8sa:7LvyiX4mim8" resolve="dependencies" />
-      <node concept="3Tm1VV" id="5Wt7Rzzsy_l" role="1B3o_S" />
-      <node concept="3clFbS" id="5Wt7Rzzsy_t" role="3clF47">
+      <node concept="3Tm1VV" id="4OlXQqAiFeB" role="1B3o_S" />
+      <node concept="3clFbS" id="4OlXQqAiFeJ" role="3clF47">
         <node concept="3cpWs8" id="AYlbCAObMY" role="3cqZAp">
           <node concept="3cpWsn" id="AYlbCAObMZ" role="3cpWs9">
             <property role="TrG5h" value="packages" />
@@ -284,8 +285,8 @@
           </node>
         </node>
       </node>
-      <node concept="A3Dl8" id="5Wt7Rzzsy_u" role="3clF45">
-        <node concept="17QB3L" id="5Wt7Rzzsy_v" role="A3Ik2" />
+      <node concept="A3Dl8" id="4OlXQqAiFeK" role="3clF45">
+        <node concept="17QB3L" id="4OlXQqAiFeL" role="A3Ik2" />
       </node>
     </node>
     <node concept="13hLZK" id="AYlbCAFcxB" role="13h7CW">

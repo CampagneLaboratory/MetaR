@@ -108,17 +108,12 @@
     <node concept="3aamgX" id="AYlbCANkEs" role="3acgRq">
       <ref role="30HIoZ" to="8t56:7BS5aCD41ov" resolve="ImportPackage" />
       <node concept="j$656" id="AYlbCANkEt" role="1lVwrX">
-        <ref role="v9R2y" node="AYlbCANkEq" resolve="reduce_ImportPackage" />
+        <ref role="v9R2y" node="6kVgbi6iGEe" resolve="reduce_ImportPackage" />
       </node>
     </node>
   </node>
-  <node concept="13MO4I" id="AYlbCANkEq">
-    <property role="TrG5h" value="reduce_ImportPackage" />
-    <ref role="3gUMe" to="8t56:7BS5aCD41ov" resolve="ImportPackage" />
-    <node concept="2VYdi" id="AYlbCANkEr" role="13RCb5" />
-  </node>
   <node concept="13MO4I" id="6kVgbi6iGEe">
-    <property role="TrG5h" value="reduce_SimulateDataset" />
+    <property role="TrG5h" value="reduce_ImportPackage" />
     <ref role="3gUMe" to="8t56:7BS5aCD41ov" resolve="ImportPackage" />
     <node concept="3eWmRk" id="6kVgbi6iGUN" role="13RCb5">
       <property role="1gZaPE" value="" />
@@ -147,7 +142,7 @@
           <node concept="1gZcZf" id="6kVgbi6iItx" role="2G3XIn">
             <property role="1gZaPE" value="" />
             <node concept="3_3kQU" id="oeXtRXJM$H" role="3_3kQL">
-              <property role="3_3kQV" value="#parameters" />
+              <property role="3_3kQV" value="## set output file" />
             </node>
             <node concept="3_3kQU" id="AYlbCANsst" role="3_3kQL">
               <property role="3_3kQV" value="" />
@@ -198,8 +193,15 @@
               <property role="3_3kQV" value="" />
             </node>
           </node>
+          <node concept="1gZcZf" id="AYlbCAOokr" role="2G3XIn" />
           <node concept="1gZcZf" id="AYlbCANwjD" role="2G3XIn">
             <node concept="3_3kQU" id="AYlbCANwjE" role="3_3kQL">
+              <property role="3_3kQV" value="" />
+            </node>
+          </node>
+          <node concept="1gZcZf" id="AYlbCAOoq2" role="2G3XIn">
+            <property role="1gZaPE" value="" />
+            <node concept="3_3kQU" id="AYlbCAOoq4" role="3_3kQL">
               <property role="3_3kQV" value="## send output to the file" />
             </node>
           </node>
@@ -208,24 +210,36 @@
             <node concept="3_3kQU" id="AYlbCANvny" role="3_3kQL">
               <property role="3_3kQV" value="sink(stubsFile)" />
             </node>
-          </node>
-          <node concept="1gZcZf" id="AYlbCANtmZ" role="2G3XIn">
-            <property role="1gZaPE" value="" />
-            <node concept="3_3kQU" id="AYlbCANOhC" role="3_3kQL">
-              <property role="3_3kQV" value="objs &lt;- mget(ls(&quot;" />
+            <node concept="3_3kQU" id="AYlbCAOmTQ" role="3_3kQL">
+              <property role="3_3kQV" value="" />
             </node>
-            <node concept="3_3kQU" id="AYlbCANOhD" role="3_3kQL">
+          </node>
+          <node concept="1gZcZf" id="AYlbCAOmVL" role="2G3XIn">
+            <node concept="3_3kQU" id="AYlbCAOn4B" role="3_3kQL">
+              <property role="3_3kQV" value="" />
+            </node>
+          </node>
+          <node concept="1gZcZf" id="AYlbCAOp4o" role="2G3XIn">
+            <node concept="3_3kQU" id="AYlbCAOp4p" role="3_3kQL">
+              <property role="3_3kQV" value="## get all objects from the package" />
+            </node>
+          </node>
+          <node concept="1gZcZf" id="AYlbCAOoAP" role="2G3XIn">
+            <node concept="3_3kQU" id="AYlbCAOoAQ" role="3_3kQL">
+              <property role="3_3kQV" value="objs &lt;- mget(ls(paste(&quot;package&quot;,&quot;" />
+            </node>
+            <node concept="3_3kQU" id="AYlbCAOn4C" role="3_3kQL">
               <property role="3_3kQV" value="package" />
-              <node concept="17Uvod" id="AYlbCANOhL" role="lGtFl">
+              <node concept="17Uvod" id="AYlbCAOn4K" role="lGtFl">
                 <property role="P4ACc" value="901f5cf3-dc77-4c1e-bc5a-6382baee28b4/1680136183140337486/1680136183140337487" />
                 <property role="2qtEX9" value="text" />
-                <property role="34cw8o" value="package to parse" />
-                <node concept="3zFVjK" id="AYlbCANOhM" role="3zH0cK">
-                  <node concept="3clFbS" id="AYlbCANOhN" role="2VODD2">
-                    <node concept="3clFbF" id="AYlbCANOmR" role="3cqZAp">
-                      <node concept="2OqwBi" id="AYlbCANOs6" role="3clFbG">
-                        <node concept="30H73N" id="AYlbCANOmQ" role="2Oq$k0" />
-                        <node concept="3TrcHB" id="AYlbCANOUa" role="2OqNvi">
+                <property role="34cw8o" value="package to import" />
+                <node concept="3zFVjK" id="AYlbCAOn4L" role="3zH0cK">
+                  <node concept="3clFbS" id="AYlbCAOn4M" role="2VODD2">
+                    <node concept="3clFbF" id="AYlbCAOn9U" role="3cqZAp">
+                      <node concept="2OqwBi" id="AYlbCAOnf9" role="3clFbG">
+                        <node concept="30H73N" id="AYlbCAOn9T" role="2Oq$k0" />
+                        <node concept="3TrcHB" id="AYlbCAOnus" role="2OqNvi">
                           <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
                         </node>
                       </node>
@@ -234,25 +248,40 @@
                 </node>
               </node>
             </node>
-            <node concept="3_3kQU" id="AYlbCANOhE" role="3_3kQL">
-              <property role="3_3kQV" value="&quot;), inherits = FALSE)" />
+            <node concept="3_3kQU" id="AYlbCAOn4D" role="3_3kQL">
+              <property role="3_3kQV" value="&quot;,sep=&quot;:&quot;)), inherits = FALSE)" />
             </node>
+          </node>
+          <node concept="1gZcZf" id="AYlbCANtmZ" role="2G3XIn">
+            <property role="1gZaPE" value="" />
           </node>
           <node concept="1gZcZf" id="AYlbCANxwI" role="2G3XIn">
             <property role="1gZaPE" value="" />
             <node concept="3_3kQU" id="AYlbCANxwK" role="3_3kQL">
+              <property role="3_3kQV" value="" />
+            </node>
+          </node>
+          <node concept="1gZcZf" id="AYlbCAOpwO" role="2G3XIn">
+            <node concept="3_3kQU" id="AYlbCAOpwP" role="3_3kQL">
+              <property role="3_3kQV" value="## filter functions from the list" />
+            </node>
+          </node>
+          <node concept="1gZcZf" id="AYlbCAOoKk" role="2G3XIn">
+            <node concept="3_3kQU" id="AYlbCAOoKl" role="3_3kQL">
               <property role="3_3kQV" value="functions &lt;- Filter(is.function, objs)" />
             </node>
           </node>
           <node concept="1gZcZf" id="AYlbCANtmW" role="2G3XIn">
             <property role="1gZaPE" value="" />
-            <node concept="3_3kQU" id="AYlbCANtmX" role="3_3kQL">
-              <property role="3_3kQV" value="" />
-            </node>
           </node>
           <node concept="1gZcZf" id="AYlbCANyA$" role="2G3XIn">
             <property role="1gZaPE" value="" />
             <node concept="3_3kQU" id="AYlbCANyAA" role="3_3kQL">
+              <property role="3_3kQV" value="" />
+            </node>
+          </node>
+          <node concept="1gZcZf" id="AYlbCAOoTk" role="2G3XIn">
+            <node concept="3_3kQU" id="AYlbCAOoTl" role="3_3kQL">
               <property role="3_3kQV" value="for (n in 1:length(functions)) {" />
             </node>
           </node>
@@ -402,7 +431,7 @@
             <node concept="3clFbF" id="6kVgbi6iHqS" role="3cqZAp">
               <node concept="2OqwBi" id="6kVgbi6iHw7" role="3clFbG">
                 <node concept="30H73N" id="6kVgbi6iHqR" role="2Oq$k0" />
-                <node concept="2qgKlT" id="6kVgbi6iImd" role="2OqNvi">
+                <node concept="2qgKlT" id="4OlXQqAhgFu" role="2OqNvi">
                   <ref role="37wK5l" to="v8sa:2AV3DmgHDX5" resolve="id" />
                 </node>
               </node>
