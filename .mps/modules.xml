@@ -13,6 +13,7 @@
       <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.metar.accessories/org.campagnelab.metar.accessories.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.metar.code/org.campagnelab.metar.code.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.metar.edgeR/org.campagnelab.metar.edgeR.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.metar.importing/org.campagnelab.metar.importing.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.metar.limma/org.campagnelab.metar.limma.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.metar.models/org.campagnelab.metar.models.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.metar.simulation/org.campagnelab.metar.simulation.mpl" folder="" />
