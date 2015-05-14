@@ -3,11 +3,10 @@
   <persistence version="9" />
   <languages>
     <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="-1" />
-    <use id="b283f144-ab8b-47c6-9ed5-c8f24c9c43e5" name="org.campagnelab.metar.R.functions" version="-1" />
+    <use id="3b58810c-8431-4bbb-99ea-b4671e02dd13" name="org.campagnelab.metar.R" version="-1" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
-    <import index="9pzz" ref="r:7c61d32c-8a71-4a4c-8ef2-924ba52bdef4(org.campagnelab.metar.R.functions.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="6q58" ref="r:97268463-8a58-42b7-9dc6-fa004b7a4308(org.campagnelab.metar.R.structure)" implicit="true" />
     <import index="jrxw" ref="r:9f2bbfbf-f8b7-4b3b-92b1-b6a0e9642c10(org.campagnelab.metar.tables.structure)" implicit="true" />
@@ -56,10 +55,28 @@
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="functions" />
       <property role="20lbJX" value="0..n" />
-      <ref role="20lvS9" to="6q58:5mPDeVwiPaF" resolve="FunctionDeclarationExpr" />
+      <ref role="20lvS9" node="28AXeAEvZQe" resolve="FunctionWrapper" />
     </node>
     <node concept="PrWs8" id="7BS5aCD41ox" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="28AXeAEvZQe">
+    <property role="TrG5h" value="FunctionWrapper" />
+    <property role="R4oN_" value="wrap the declaration of an R function" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="28AXeAEvZQq" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="function" />
+      <ref role="20lvS9" to="6q58:5mPDeVwiPaF" resolve="FunctionDeclarationExpr" />
+    </node>
+    <node concept="PrWs8" id="28AXeAEvZQn" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+    <node concept="1TJgyj" id="28AXeAEw05x" role="1TKVEi">
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="functionRef" />
+      <ref role="20lvS9" to="6q58:5mPDeVwiPaF" resolve="FunctionDeclarationExpr" />
     </node>
   </node>
 </model>
