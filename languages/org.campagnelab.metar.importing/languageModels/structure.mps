@@ -9,6 +9,7 @@
   <imports>
     <import index="9pzz" ref="r:7c61d32c-8a71-4a4c-8ef2-924ba52bdef4(org.campagnelab.metar.R.functions.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
+    <import index="6q58" ref="r:97268463-8a58-42b7-9dc6-fa004b7a4308(org.campagnelab.metar.R.structure)" implicit="true" />
     <import index="jrxw" ref="r:9f2bbfbf-f8b7-4b3b-92b1-b6a0e9642c10(org.campagnelab.metar.tables.structure)" implicit="true" />
   </imports>
   <registry>
@@ -55,7 +56,7 @@
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="functions" />
       <property role="20lbJX" value="0..n" />
-      <ref role="20lvS9" to="9pzz:16FggLCaacF" resolve="FunctionExpr" />
+      <ref role="20lvS9" to="6q58:5mPDeVwiPaF" resolve="FunctionDeclarationExpr" />
     </node>
     <node concept="PrWs8" id="7BS5aCD41ox" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
