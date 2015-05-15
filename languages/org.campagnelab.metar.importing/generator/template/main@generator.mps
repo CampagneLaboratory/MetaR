@@ -305,14 +305,25 @@
               <property role="3_3kQV" value="" />
             </node>
             <node concept="3_3kQU" id="AYlbCAN_yK" role="3_3kQL">
-              <property role="3_3kQV" value=" arguments &lt;- args(fname)" />
+              <property role="3_3kQV" value=" functionDeclaration &lt;- deparse(args(fname))" />
+            </node>
+            <node concept="3_3kQU" id="28AXeAEDpbl" role="3_3kQL">
+              <property role="3_3kQV" value="" />
+            </node>
+            <node concept="3_3kQU" id="28AXeAEDpbs" role="3_3kQL">
+              <property role="3_3kQV" value="" />
+            </node>
+          </node>
+          <node concept="1gZcZf" id="28AXeAEDpb_" role="2G3XIn">
+            <node concept="3_3kQU" id="28AXeAEDpbA" role="3_3kQL">
+              <property role="3_3kQV" value="   if (length(i &lt;- grep(&quot;^function&quot;, functionDeclaration))) {" />
             </node>
           </node>
           <node concept="1gZcZf" id="AYlbCAN_yF" role="2G3XIn">
             <property role="1gZaPE" value="" />
             <node concept="3_3kQU" id="AYlbCAN_yH" role="3_3kQL" />
             <node concept="3_3kQU" id="AYlbCANAKR" role="3_3kQL">
-              <property role="3_3kQV" value="if (length(i &lt;- grep(&quot;^\\.?[a-zA-Z0-9_$\\.]*$&quot;, fname))) {" />
+              <property role="3_3kQV" value="    if (length(i2 &lt;- grep(&quot;^\\.?[a-zA-Z0-9_$\\.]*$&quot;, fname))) {" />
             </node>
           </node>
           <node concept="1gZcZf" id="28AXeAEBrLe" role="2G3XIn" />
@@ -328,13 +339,13 @@
               <property role="3_3kQV" value="" />
             </node>
             <node concept="3_3kQU" id="28AXeAEBrUL" role="3_3kQL">
-              <property role="3_3kQV" value="   cat(fname)" />
+              <property role="3_3kQV" value="      cat(fname)" />
             </node>
           </node>
           <node concept="1gZcZf" id="28AXeAEBrUG" role="2G3XIn">
             <property role="1gZaPE" value="" />
             <node concept="3_3kQU" id="28AXeAEBrUI" role="3_3kQL">
-              <property role="3_3kQV" value="  } else {" />
+              <property role="3_3kQV" value="     } else {" />
             </node>
           </node>
           <node concept="1gZcZf" id="28AXeAEBrUD" role="2G3XIn">
@@ -343,7 +354,7 @@
               <property role="3_3kQV" value="" />
             </node>
             <node concept="3_3kQU" id="28AXeAEBrUF" role="3_3kQL">
-              <property role="3_3kQV" value="   cat(paste(&quot;\&quot;&quot;, fname,&quot;\&quot;&quot;, sep=&quot;&quot;))" />
+              <property role="3_3kQV" value="     cat(paste(&quot;\&quot;&quot;, fname,&quot;\&quot;&quot;, sep=&quot;&quot;))" />
             </node>
             <node concept="3_3kQU" id="28AXeAEBs4X" role="3_3kQL">
               <property role="3_3kQV" value="" />
@@ -351,12 +362,12 @@
           </node>
           <node concept="1gZcZf" id="28AXeAEBs54" role="2G3XIn">
             <node concept="3_3kQU" id="28AXeAEBs55" role="3_3kQL">
-              <property role="3_3kQV" value="  }" />
+              <property role="3_3kQV" value="     }" />
             </node>
           </node>
           <node concept="1gZcZf" id="AYlbCANAMB" role="2G3XIn">
             <node concept="3_3kQU" id="AYlbCANAMC" role="3_3kQL">
-              <property role="3_3kQV" value="  cat(&quot; &lt;- &quot;)" />
+              <property role="3_3kQV" value="     cat(&quot; &lt;- &quot;)" />
             </node>
             <node concept="3_3kQU" id="28AXeAEBrL9" role="3_3kQL">
               <property role="3_3kQV" value="" />
@@ -365,12 +376,12 @@
           <node concept="1gZcZf" id="AYlbCANBQ5" role="2G3XIn">
             <property role="1gZaPE" value="" />
             <node concept="3_3kQU" id="AYlbCANBQ7" role="3_3kQL">
-              <property role="3_3kQV" value="  cat(deparse(arguments))" />
+              <property role="3_3kQV" value="     cat(functionDeclaration)" />
             </node>
           </node>
           <node concept="1gZcZf" id="AYlbCANEUk" role="2G3XIn">
             <node concept="3_3kQU" id="AYlbCANQpT" role="3_3kQL">
-              <property role="3_3kQV" value="  cat (&quot; " />
+              <property role="3_3kQV" value="     cat (&quot; " />
             </node>
             <node concept="3_3kQU" id="AYlbCANQpU" role="3_3kQL">
               <property role="3_3kQV" value="newline" />
@@ -391,6 +402,11 @@
             </node>
             <node concept="3_3kQU" id="AYlbCANQpV" role="3_3kQL">
               <property role="3_3kQV" value="&quot;)" />
+            </node>
+          </node>
+          <node concept="1gZcZf" id="28AXeAEDplY" role="2G3XIn">
+            <node concept="3_3kQU" id="28AXeAEDplZ" role="3_3kQL">
+              <property role="3_3kQV" value="  }" />
             </node>
           </node>
           <node concept="1gZcZf" id="AYlbCANzwA" role="2G3XIn">
