@@ -91,5 +91,8 @@
       </node>
     </node>
   </node>
+  <node concept="1M2fIO" id="28AXeAEMO8z">
+    <ref role="1M2myG" to="8t56:28AXeAEvZQe" resolve="FunctionDeclarationWrapper" />
+  </node>
 </model>
 
