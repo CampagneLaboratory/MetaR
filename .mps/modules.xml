@@ -13,14 +13,13 @@
       <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.metar.accessories/org.campagnelab.metar.accessories.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.metar.code/org.campagnelab.metar.code.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.metar.edgeR/org.campagnelab.metar.edgeR.mpl" folder="" />
-      <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.metar.importing/org.campagnelab.metar.importing.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.metar.functions.importing/org.campagnelab.metar.importing.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.metar.limma/org.campagnelab.metar.limma.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.metar.models/org.campagnelab.metar.models.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.metar.simulation/org.campagnelab.metar.simulation.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.styles/org.campagnelab.styles.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/DocModels/DocModels.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/MetaR.Workshop/MetaR.Workshop.msd" folder="" />
-      <modulePath path="$PROJECT_DIR$/solutions/SynovialAnalysis/SynovialAnalysis.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/Tests/Tests.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/VennDiagram/VennDiagram.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/build.plugins/build.plugins.msd" folder="" />
