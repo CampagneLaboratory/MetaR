@@ -81,7 +81,7 @@
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="prog" />
       <property role="20lbJX" value="1" />
-      <ref role="20lvS9" to="6q58:5mPDeVwiJFd" resolve="Prog" />
+      <ref role="20lvS9" to="6q58:5mPDeVwiJFe" resolve="ProgramProg" />
     </node>
   </node>
   <node concept="1TIwiD" id="2n2dP0rz_yE">
