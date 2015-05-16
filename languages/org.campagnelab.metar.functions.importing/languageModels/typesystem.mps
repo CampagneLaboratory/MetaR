@@ -129,7 +129,7 @@
               <property role="ARO6o" value="true" />
               <ref role="QpYPw" node="4OlXQqAjup7" resolve="loadFunctions" />
               <node concept="3CnSsL" id="4OlXQqAk1jK" role="3Coj4f">
-                <ref role="QkamJ" node="4OlXQqAjwTg" resolve="importPackage" />
+                <ref role="QkamJ" node="4OlXQqAjwTg" resolve="importFromStatement" />
                 <node concept="1YBJjd" id="4OlXQqAk1jZ" role="3CoRuB">
                   <ref role="1YBMHb" node="4OlXQqAj$bi" resolve="importPackage" />
                 </node>
@@ -191,9 +191,9 @@
   <node concept="Q5z_Y" id="4OlXQqAjup7">
     <property role="TrG5h" value="loadFunctions" />
     <node concept="Q6JDH" id="4OlXQqAjwTg" role="Q6Id_">
-      <property role="TrG5h" value="importPackage" />
+      <property role="TrG5h" value="importFromStatement" />
       <node concept="3Tqbb2" id="4OlXQqAjx8V" role="Q6QK4">
-        <ref role="ehGHo" to="8t56:7BS5aCD41ov" resolve="ImportPackage" />
+        <ref role="ehGHo" to="8t56:2n2dP0rz_yE" resolve="ImportFrom" />
       </node>
     </node>
     <node concept="Q5ZZ6" id="4OlXQqAjup8" role="Q6x$H">
@@ -201,10 +201,10 @@
         <node concept="3clFbF" id="4OlXQqAjzId" role="3cqZAp">
           <node concept="2OqwBi" id="4OlXQqAjzKr" role="3clFbG">
             <node concept="QwW4i" id="4OlXQqAjzIc" role="2Oq$k0">
-              <ref role="QwW4h" node="4OlXQqAjwTg" resolve="importPackage" />
+              <ref role="QwW4h" node="4OlXQqAjwTg" resolve="importFromStatement" />
             </node>
             <node concept="2qgKlT" id="4OlXQqAj$9$" role="2OqNvi">
-              <ref role="37wK5l" to="798x:AYlbCAFcxE" resolve="loadFunctions" />
+              <ref role="37wK5l" to="798x:2n2dP0r_Dkr" resolve="loadFunctions" />
             </node>
           </node>
         </node>
