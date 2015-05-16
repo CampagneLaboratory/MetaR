@@ -15,6 +15,8 @@
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
         <property id="4628067390765907488" name="conceptShortDescription" index="R4oN_" />
+        <property id="4628067390765956807" name="final" index="R5$K2" />
+        <property id="4628067390765956802" name="abstract" index="R5$K7" />
         <property id="5092175715804935370" name="conceptAlias" index="34LRSv" />
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
         <child id="1071489727084" name="propertyDeclaration" index="1TKVEl" />
@@ -46,19 +48,10 @@
     <property role="TrG5h" value="ImportPackage" />
     <property role="34LRSv" value="import package" />
     <property role="R4oN_" value="Import functions from an R package" />
-    <ref role="1TJDcQ" to="jrxw:7LvyiX4miiC" resolve="Statement" />
+    <ref role="1TJDcQ" node="2n2dP0rz_yE" resolve="ImportFrom" />
     <node concept="1TJgyi" id="AYlbCAFbMU" role="1TKVEl">
       <property role="TrG5h" value="sourceFile" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
-    <node concept="1TJgyj" id="AYlbCAFbGI" role="1TKVEi">
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="functions" />
-      <property role="20lbJX" value="0..n" />
-      <ref role="20lvS9" node="28AXeAEvZQe" resolve="FunctionDeclarationWrapper" />
-    </node>
-    <node concept="PrWs8" id="7BS5aCD41ox" role="PzmwI">
-      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
   </node>
   <node concept="1TIwiD" id="28AXeAEvZQe">
@@ -77,6 +70,32 @@
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="functionRef" />
       <ref role="20lvS9" to="6q58:5mPDeVwiPaE" resolve="AssignmentOperatorExpr" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="2n2dP0rzrIW">
+    <property role="TrG5h" value="ImportScript" />
+    <property role="34LRSv" value="import script" />
+    <ref role="1TJDcQ" node="2n2dP0rz_yE" resolve="ImportFrom" />
+    <node concept="1TJgyj" id="2n2dP0rzyqm" role="1TKVEi">
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="prog" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" to="6q58:5mPDeVwiJFd" resolve="Prog" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="2n2dP0rz_yE">
+    <property role="TrG5h" value="ImportFrom" />
+    <property role="R5$K7" value="true" />
+    <property role="R5$K2" value="false" />
+    <ref role="1TJDcQ" to="jrxw:7LvyiX4miiC" resolve="Statement" />
+    <node concept="1TJgyj" id="2n2dP0rz_yM" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="functions" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="28AXeAEvZQe" resolve="FunctionDeclarationWrapper" />
+    </node>
+    <node concept="PrWs8" id="2n2dP0rz_yF" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
   </node>
 </model>
