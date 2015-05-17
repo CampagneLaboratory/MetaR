@@ -59,8 +59,12 @@
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
       <concept id="1179409122411" name="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" flags="nn" index="2qgKlT" />
+      <concept id="1172008320231" name="jetbrains.mps.lang.smodel.structure.Node_IsNotNullOperation" flags="nn" index="3x8VRR" />
       <concept id="1138056022639" name="jetbrains.mps.lang.smodel.structure.SPropertyAccess" flags="nn" index="3TrcHB">
         <reference id="1138056395725" name="property" index="3TsBF5" />
+      </concept>
+      <concept id="1138056143562" name="jetbrains.mps.lang.smodel.structure.SLinkAccess" flags="nn" index="3TrEf2">
+        <reference id="1138056516764" name="link" index="3Tt5mk" />
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
@@ -70,7 +74,7 @@
     </language>
   </registry>
   <node concept="2S6QgY" id="4OlXQqAjRmO">
-    <property role="TrG5h" value="ReloadFunctions" />
+    <property role="TrG5h" value="ReloadPackageFunctions" />
     <ref role="2ZfgGC" to="8t56:7BS5aCD41ov" resolve="ImportPackage" />
     <node concept="2Sbjvc" id="4OlXQqAjRmP" role="2ZfgGD">
       <node concept="3clFbS" id="4OlXQqAjRmQ" role="2VODD2">
@@ -122,6 +126,46 @@
               </node>
               <node concept="17RvpY" id="4OlXQqAjUaM" role="2OqNvi" />
             </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2S6QgY" id="4SiK8hI4Qgx">
+    <property role="TrG5h" value="ReloadScriptFunctions" />
+    <ref role="2ZfgGC" to="8t56:2n2dP0rzrIW" resolve="ImportScript" />
+    <node concept="2Sbjvc" id="4SiK8hI4Qgy" role="2ZfgGD">
+      <node concept="3clFbS" id="4SiK8hI4Qgz" role="2VODD2">
+        <node concept="3clFbF" id="4SiK8hI4Qg$" role="3cqZAp">
+          <node concept="2OqwBi" id="4SiK8hI4Qg_" role="3clFbG">
+            <node concept="2Sf5sV" id="4SiK8hI4QgA" role="2Oq$k0" />
+            <node concept="2qgKlT" id="4SiK8hI4QgB" role="2OqNvi">
+              <ref role="37wK5l" to="798x:2n2dP0r_Dkr" resolve="loadFunctions" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2S6ZIM" id="4SiK8hI4QgC" role="2ZfVej">
+      <node concept="3clFbS" id="4SiK8hI4QgD" role="2VODD2">
+        <node concept="3clFbF" id="4SiK8hI4QgE" role="3cqZAp">
+          <node concept="Xl_RD" id="4SiK8hI4QgF" role="3clFbG">
+            <property role="Xl_RC" value="Reload Functions" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2SaL7w" id="4SiK8hI4QgG" role="2ZfVeh">
+      <node concept="3clFbS" id="4SiK8hI4QgH" role="2VODD2">
+        <node concept="3clFbF" id="4SiK8hI4R43" role="3cqZAp">
+          <node concept="2OqwBi" id="4SiK8hI4S4F" role="3clFbG">
+            <node concept="2OqwBi" id="4SiK8hI4Ra6" role="2Oq$k0">
+              <node concept="2Sf5sV" id="4SiK8hI4R42" role="2Oq$k0" />
+              <node concept="3TrEf2" id="4SiK8hI4RGB" role="2OqNvi">
+                <ref role="3Tt5mk" to="8t56:2n2dP0rzyqm" />
+              </node>
+            </node>
+            <node concept="3x8VRR" id="4SiK8hI4Svg" role="2OqNvi" />
           </node>
         </node>
       </node>
