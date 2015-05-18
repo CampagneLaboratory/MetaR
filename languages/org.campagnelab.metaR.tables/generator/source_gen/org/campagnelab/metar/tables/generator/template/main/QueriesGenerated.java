@@ -1117,7 +1117,7 @@ public class QueriesGenerated {
     return SLinkOperations.getChildren(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x5d6bde844ce44eb5L, 0xa37e25a5edd55129L, 0x368a1000a507723fL, 0x368a1000a5127b09L, "operations"));
   }
   public static Iterable<SNode> sourceNodesQuery_3402264987267873052(final SourceSubstituteMacroNodesContext _context) {
-    return SLinkOperations.getChildren(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x5d6bde844ce44eb5L, 0xa37e25a5edd55129L, 0x7c5f892f43aab47eL, 0x7c5f892f43aab47fL, "transformations"));
+    return SLinkOperations.getChildren(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x5d6bde844ce44eb5L, 0xa37e25a5edd55129L, 0x7c5f892f43aab47eL, 0x7c5f892f43aab47fL, "statements"));
   }
   public static Iterable<SNode> sourceNodesQuery_2826789978070126322(final SourceSubstituteMacroNodesContext _context) {
     return SLinkOperations.getChildren(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x5d6bde844ce44eb5L, 0xa37e25a5edd55129L, 0x2f3745fadd54d805L, 0x2f3745fadd5e82f2L, "inputTables"));
@@ -1240,7 +1240,7 @@ public class QueriesGenerated {
     return SLinkOperations.getChildren(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x5d6bde844ce44eb5L, 0xa37e25a5edd55129L, 0x51f1c789d32d787L, 0x51f1c789d32d78cL, "sets"));
   }
   public static Iterable<SNode> sourceNodesQuery_5846015868249450998(final SourceSubstituteMacroNodesContext _context) {
-    return SLinkOperations.getChildren(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x5d6bde844ce44eb5L, 0xa37e25a5edd55129L, 0x6562ff7a8a380c65L, 0x6562ff7a8a38356dL, "blockStatementList")), MetaAdapterFactory.getContainmentLink(0x5d6bde844ce44eb5L, 0xa37e25a5edd55129L, 0x7c5f892f43aab47eL, 0x7c5f892f43aab47fL, "transformations"));
+    return SLinkOperations.getChildren(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x5d6bde844ce44eb5L, 0xa37e25a5edd55129L, 0x6562ff7a8a380c65L, 0x6562ff7a8a38356dL, "blockStatementList")), MetaAdapterFactory.getContainmentLink(0x5d6bde844ce44eb5L, 0xa37e25a5edd55129L, 0x7c5f892f43aab47eL, 0x7c5f892f43aab47fL, "statements"));
   }
   public static void mappingScript_CodeBlock_4166618652720374776(final MappingScriptContext _context) {
     // increment the ids for future tables so that columns names never reuse the same filename 
