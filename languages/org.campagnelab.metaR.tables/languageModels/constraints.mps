@@ -183,6 +183,7 @@
         <child id="1144104376918" name="parameter" index="1xVPHs" />
       </concept>
       <concept id="1179409122411" name="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" flags="nn" index="2qgKlT" />
+      <concept id="1143234257716" name="jetbrains.mps.lang.smodel.structure.Node_GetModelOperation" flags="nn" index="I4A8Y" />
       <concept id="1145383075378" name="jetbrains.mps.lang.smodel.structure.SNodeListType" flags="in" index="2I9FWS">
         <reference id="1145383142433" name="elementConcept" index="2I9WkF" />
       </concept>
@@ -509,8 +510,24 @@
           </node>
         </node>
       </node>
-      <node concept="1dDu$B" id="3qa402$WrkF" role="1N6uqs">
-        <ref role="1dDu$A" to="jrxw:2WRhvFtkykN" resolve="Table" />
+      <node concept="13QW63" id="3Frl7j7CAMC" role="1N6uqs">
+        <node concept="3clFbS" id="3Frl7j7CAMD" role="2VODD2">
+          <node concept="3cpWs6" id="3Frl7j7CBLw" role="3cqZAp">
+            <node concept="2YIFZM" id="3Frl7j7CBcv" role="3cqZAk">
+              <ref role="37wK5l" to="vyt2:~ListScope.forNamedElements(java.lang.Iterable):jetbrains.mps.scope.ListScope" resolve="forNamedElements" />
+              <ref role="1Pybhc" to="vyt2:~ListScope" resolve="ListScope" />
+              <node concept="2OqwBi" id="3Frl7j7CBrG" role="37wK5m">
+                <node concept="2OqwBi" id="3Frl7j7CBeJ" role="2Oq$k0">
+                  <node concept="2rP1CM" id="3Frl7j7CBd8" role="2Oq$k0" />
+                  <node concept="I4A8Y" id="3Frl7j7CBl9" role="2OqNvi" />
+                </node>
+                <node concept="2RRcyG" id="3Frl7j7CB$v" role="2OqNvi">
+                  <ref role="2RRcyH" to="jrxw:2WRhvFtkykN" resolve="Table" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
       </node>
     </node>
   </node>
@@ -1795,6 +1812,10 @@
         <ref role="1dDu$A" to="ztlb:1UijAvvb9DJ" resolve="Column" />
       </node>
     </node>
+  </node>
+  <node concept="1M2fIO" id="3Frl7j87FbS">
+    <property role="3GE5qa" value="boxplot" />
+    <ref role="1M2myG" to="jrxw:5gXsBBL6BFc" resolve="BoxPlot" />
   </node>
 </model>
 
