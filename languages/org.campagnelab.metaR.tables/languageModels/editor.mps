@@ -4848,5 +4848,41 @@
       <node concept="2iRkQZ" id="5d_684IhX3v" role="2iSdaV" />
     </node>
   </node>
+  <node concept="24kQdi" id="2qszgnAJ5L">
+    <ref role="1XX52x" to="jrxw:2qszgmFMCb" resolve="ConcatTables" />
+    <node concept="3EZMnI" id="2qszgnAK$f" role="2wV5jI">
+      <node concept="PMmxH" id="2qszgnAK$g" role="3EZMnx">
+        <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
+        <node concept="VPxyj" id="2qszgnAK$h" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="OXEIz" id="2qszgnAK$i" role="P5bDN">
+          <node concept="UkePV" id="2qszgnAK$j" role="OY2wv">
+            <ref role="Ul1FP" to="jrxw:7LvyiX4miiC" resolve="Statement" />
+          </node>
+        </node>
+      </node>
+      <node concept="3F0ifn" id="2qszgnAK$k" role="3EZMnx">
+        <property role="3F0ifm" value="(" />
+      </node>
+      <node concept="3F2HdR" id="2qszgnAK$l" role="3EZMnx">
+        <property role="2czwfO" value="," />
+        <ref role="1NtTu8" to="jrxw:2WRhvFtnCbM" />
+        <ref role="1ERwB7" node="_4GlRlKJCw" resolve="PropagateFutureTableRefColumns" />
+        <ref role="APP_o" node="_4GlRlKJCw" resolve="PropagateFutureTableRefColumns" />
+        <node concept="l2Vlx" id="2qszgnAK$m" role="2czzBx" />
+      </node>
+      <node concept="3F0ifn" id="2qszgnAK$n" role="3EZMnx">
+        <property role="3F0ifm" value=")" />
+      </node>
+      <node concept="3F0ifn" id="2qszgnAK$q" role="3EZMnx">
+        <property role="3F0ifm" value="-&gt;" />
+      </node>
+      <node concept="3F1sOY" id="2qszgnAK$r" role="3EZMnx">
+        <ref role="1NtTu8" to="jrxw:2WRhvFtnPGY" />
+      </node>
+      <node concept="l2Vlx" id="2qszgnAK$s" role="2iSdaV" />
+    </node>
+  </node>
 </model>
 

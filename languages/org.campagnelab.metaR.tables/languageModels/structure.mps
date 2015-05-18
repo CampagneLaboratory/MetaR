@@ -75,7 +75,7 @@
         <child id="1068580123160" name="condition" index="3clFbw" />
         <child id="1068580123161" name="ifTrue" index="3clFbx" />
       </concept>
-      <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" index="3clFbS">
+      <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
       </concept>
       <concept id="1068580123137" name="jetbrains.mps.baseLanguage.structure.BooleanConstant" flags="nn" index="3clFbT">
@@ -1976,6 +1976,15 @@
       <ref role="20lvS9" node="7LvyiX3EFhY" resolve="StatementList" />
     </node>
     <node concept="PrWs8" id="6lyZREae8tw" role="PzmwI">
+      <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="2qszgmFMCb">
+    <property role="TrG5h" value="ConcatTables" />
+    <property role="34LRSv" value="concat" />
+    <property role="R4oN_" value="Concatenate two or more tables" />
+    <ref role="1TJDcQ" node="2WRhvFtldw5" resolve="TableTransformation" />
+    <node concept="PrWs8" id="2qszgmFMCd" role="PzmwI">
       <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
     </node>
   </node>
