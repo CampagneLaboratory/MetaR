@@ -1003,6 +1003,12 @@
         <ref role="v9R2y" node="1HAWSBVPAy0" resolve="reduce_BlockWithTable" />
       </node>
     </node>
+    <node concept="3aamgX" id="2qszgmG65q" role="3acgRq">
+      <ref role="30HIoZ" to="jrxw:2qszgmFMCb" resolve="ConcatTables" />
+      <node concept="j$656" id="2qszgmG65r" role="1lVwrX">
+        <ref role="v9R2y" node="2qszgmG65o" resolve="reduce_ConcatTables" />
+      </node>
+    </node>
   </node>
   <node concept="13MO4I" id="2WRhvFtQ9Xz">
     <property role="TrG5h" value="reduce_StatementList" />
@@ -15611,6 +15617,48 @@
           </node>
         </node>
       </node>
+    </node>
+  </node>
+  <node concept="13MO4I" id="2qszgmG65o">
+    <property role="TrG5h" value="reduce_ConcatTables" />
+    <ref role="3gUMe" to="jrxw:2qszgmFMCb" resolve="ConcatTables" />
+    <node concept="2G3XJi" id="2qszgmG89G" role="13RCb5">
+      <node concept="1gZcZf" id="2qszgmGt2t" role="2G3XIn" />
+      <node concept="1gZcZf" id="2qszgmGf2Z" role="2G3XIn">
+        <property role="1gZaPE" value="" />
+        <node concept="3_3kQU" id="2qszgmGsUJ" role="3_3kQL">
+          <property role="3_3kQV" value="" />
+        </node>
+        <node concept="3_3kQU" id="2qszgmGn7S" role="3_3kQL">
+          <property role="3_3kQV" value="outputTable" />
+          <node concept="17Uvod" id="2qszgmGn84" role="lGtFl">
+            <property role="P4ACc" value="901f5cf3-dc77-4c1e-bc5a-6382baee28b4/1680136183140337486/1680136183140337487" />
+            <property role="2qtEX9" value="text" />
+            <node concept="3zFVjK" id="2qszgmGn85" role="3zH0cK">
+              <node concept="3clFbS" id="2qszgmGn86" role="2VODD2">
+                <node concept="3clFbF" id="2qszgmGnda" role="3cqZAp">
+                  <node concept="2OqwBi" id="2qszgmGofm" role="3clFbG">
+                    <node concept="2OqwBi" id="2qszgmGnjl" role="2Oq$k0">
+                      <node concept="30H73N" id="2qszgmGnd9" role="2Oq$k0" />
+                      <node concept="3TrEf2" id="2qszgmGnQI" role="2OqNvi">
+                        <ref role="3Tt5mk" to="jrxw:2WRhvFtnPGY" />
+                      </node>
+                    </node>
+                    <node concept="2qgKlT" id="2qszgmGowp" role="2OqNvi">
+                      <ref role="37wK5l" to="v8sa:3BiNpr5Ur7M" resolve="getCleanTableName" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3_3kQU" id="2qszgmGn7T" role="3_3kQL">
+          <property role="3_3kQV" value=" &lt;-  rbindlist( list( $DT1,DT2 ))" />
+        </node>
+        <node concept="3_3kQU" id="2qszgmG89Y" role="3_3kQL" />
+      </node>
+      <node concept="raruj" id="2qszgmGmWU" role="lGtFl" />
     </node>
   </node>
 </model>
