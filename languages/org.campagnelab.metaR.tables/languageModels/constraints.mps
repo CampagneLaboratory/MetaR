@@ -1786,5 +1786,15 @@
       </node>
     </node>
   </node>
+  <node concept="1M2fIO" id="2qszgnXdPT">
+    <property role="3GE5qa" value="operations" />
+    <ref role="1M2myG" to="jrxw:2qszgnNQ$G" resolve="RenameColumnOperation" />
+    <node concept="1N5Pfh" id="2qszgnXe0y" role="1Mr941">
+      <ref role="1N5Vy1" to="jrxw:2qszgnNSXn" />
+      <node concept="1dDu$B" id="2qszgnXe0_" role="1N6uqs">
+        <ref role="1dDu$A" to="ztlb:1UijAvvb9DJ" resolve="Column" />
+      </node>
+    </node>
+  </node>
 </model>
 

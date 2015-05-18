@@ -1476,6 +1476,9 @@
     <property role="R5$K2" value="false" />
     <property role="3GE5qa" value="operations" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="2qszgosX0q" role="PzmwI">
+      <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
+    </node>
   </node>
   <node concept="1TIwiD" id="3qa402_4D5X">
     <property role="TrG5h" value="DropColumnOperation" />
@@ -1985,6 +1988,26 @@
     <property role="R4oN_" value="Concatenate two or more tables" />
     <ref role="1TJDcQ" node="2WRhvFtldw5" resolve="TableTransformation" />
     <node concept="PrWs8" id="2qszgmFMCd" role="PzmwI">
+      <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="2qszgnNQ$G">
+    <property role="TrG5h" value="RenameColumnOperation" />
+    <property role="34LRSv" value="rename" />
+    <property role="R4oN_" value="Rename a column of the input table" />
+    <property role="3GE5qa" value="operations" />
+    <ref role="1TJDcQ" node="3qa402_4D5K" resolve="TableOperation" />
+    <node concept="1TJgyi" id="2qszgnNSXs" role="1TKVEl">
+      <property role="TrG5h" value="newName" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyj" id="2qszgnNSXn" role="1TKVEi">
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="original" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" to="ztlb:1UijAvvb9DJ" resolve="Column" />
+    </node>
+    <node concept="PrWs8" id="2qszgogyh7" role="PzmwI">
       <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
     </node>
   </node>

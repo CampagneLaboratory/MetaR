@@ -4884,5 +4884,31 @@
       <node concept="l2Vlx" id="2qszgnAK$s" role="2iSdaV" />
     </node>
   </node>
+  <node concept="24kQdi" id="2qszgnVNkn">
+    <property role="3GE5qa" value="operations" />
+    <ref role="1XX52x" to="jrxw:2qszgnNQ$G" resolve="RenameColumnOperation" />
+    <node concept="3EZMnI" id="2qszgnVNKP" role="2wV5jI">
+      <node concept="3F0ifn" id="2qszgnVNKZ" role="3EZMnx">
+        <property role="3F0ifm" value="rename column:" />
+        <node concept="Vb9p2" id="2qszgoxPYQ" role="3F10Kt" />
+      </node>
+      <node concept="1iCGBv" id="2qszgnVNL8" role="3EZMnx">
+        <ref role="1NtTu8" to="jrxw:2qszgnNSXn" />
+        <node concept="1sVBvm" id="2qszgnVNLa" role="1sWHZn">
+          <node concept="3F0A7n" id="2qszgnVNLm" role="2wV5jI">
+            <property role="1Intyy" value="true" />
+            <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+          </node>
+        </node>
+      </node>
+      <node concept="3F0ifn" id="2qszgnVNLS" role="3EZMnx">
+        <property role="3F0ifm" value="-&gt;" />
+      </node>
+      <node concept="3F0A7n" id="2qszgnVNMh" role="3EZMnx">
+        <ref role="1NtTu8" to="jrxw:2qszgnNSXs" resolve="newName" />
+      </node>
+      <node concept="l2Vlx" id="2qszgnVNKS" role="2iSdaV" />
+    </node>
+  </node>
 </model>
 
