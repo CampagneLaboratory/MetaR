@@ -16,7 +16,6 @@
     <import index="8t56" ref="r:c30a0469-24e5-4b8a-89e7-0d2028c5aa49(org.campagnelab.metar.functions.importing.structure)" />
     <import index="tpcu" ref="r:00000000-0000-4000-0000-011c89590282(jetbrains.mps.lang.core.behavior)" />
     <import index="o8zo" ref="r:314576fc-3aee-4386-a0a5-a38348ac317d(jetbrains.mps.scope)" />
-    <import index="jrxw" ref="r:9f2bbfbf-f8b7-4b3b-92b1-b6a0e9642c10(org.campagnelab.metar.tables.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior">
@@ -557,6 +556,31 @@
         </node>
       </node>
     </node>
+    <node concept="13i0hz" id="4SiK8hIFt08" role="13h7CS">
+      <property role="TrG5h" value="getIdentifier" />
+      <node concept="3Tm1VV" id="4SiK8hIFt09" role="1B3o_S" />
+      <node concept="3Tqbb2" id="4SiK8hIFt5a" role="3clF45">
+        <ref role="ehGHo" to="6q58:5mPDeVwiPaR" resolve="Identifier" />
+      </node>
+      <node concept="3clFbS" id="4SiK8hIFt0b" role="3clF47">
+        <node concept="3clFbF" id="4SiK8hIFt5M" role="3cqZAp">
+          <node concept="1PxgMI" id="4SiK8hIFt5O" role="3clFbG">
+            <ref role="1PxNhF" to="6q58:5mPDeVwiPaR" resolve="Identifier" />
+            <node concept="2OqwBi" id="4SiK8hIFt5P" role="1PxMeX">
+              <node concept="2OqwBi" id="4SiK8hIFt5Q" role="2Oq$k0">
+                <node concept="13iPFW" id="4SiK8hIFt5R" role="2Oq$k0" />
+                <node concept="2qgKlT" id="4SiK8hIFt5S" role="2OqNvi">
+                  <ref role="37wK5l" node="28AXeAEyKNk" resolve="getFunction" />
+                </node>
+              </node>
+              <node concept="3TrEf2" id="4SiK8hIFt5T" role="2OqNvi">
+                <ref role="3Tt5mk" to="6q58:5qM9mr9JOd6" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="13i0hz" id="28AXeAEMOId" role="13h7CS">
       <property role="TrG5h" value="getParameters" />
       <node concept="3Tm1VV" id="28AXeAEMOIe" role="1B3o_S" />
@@ -859,7 +883,7 @@
           </node>
           <node concept="3clFbC" id="2Vuj1UXAvU7" role="3clFbw">
             <node concept="3TUQnm" id="2Vuj1UXAvVS" role="3uHU7w">
-              <ref role="3TV0OU" to="jrxw:7lAbM$uOMoK" resolve="Plot" />
+              <ref role="3TV0OU" to="6q58:5mPDeVwiJFe" resolve="ProgramProg" />
             </node>
             <node concept="37vLTw" id="2Vuj1UXAvQb" role="3uHU7B">
               <ref role="3cqZAo" node="4SiK8hI41zj" resolve="kind" />
