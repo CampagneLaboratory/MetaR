@@ -35,7 +35,7 @@
     </language>
   </registry>
   <node concept="1TIwiD" id="YA$ymmncWl">
-    <property role="TrG5h" value="FunctionsCallWrapper" />
+    <property role="TrG5h" value="FunctionCallWrapper" />
     <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
     <node concept="1TJgyj" id="YA$ymmnYht" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -70,7 +70,7 @@
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="call" />
       <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="YA$ymmncWl" resolve="FunctionsCallWrapper" />
+      <ref role="20lvS9" node="YA$ymmncWl" resolve="FunctionCallWrapper" />
     </node>
   </node>
 </model>
