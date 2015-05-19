@@ -87,51 +87,6 @@
       </concept>
     </language>
   </registry>
-  <node concept="1M2fIO" id="4SiK8hIrRoU">
-    <ref role="1M2myG" to="89bg:4SiK8hIrRoT" resolve="ImportedFunctionIdRef" />
-    <node concept="1N5Pfh" id="4SiK8hIrRoV" role="1Mr941">
-      <ref role="1N5Vy1" to="6q58:1jge5x_A4_z" />
-      <node concept="1dDu$B" id="4SiK8hIrRp1" role="1N6uqs">
-        <ref role="1dDu$A" to="6q58:5mPDeVwiPaR" resolve="Identifier" />
-      </node>
-      <node concept="3k9gUc" id="4SiK8hIvFGj" role="3kmjI7">
-        <node concept="3clFbS" id="4SiK8hIvFGk" role="2VODD2">
-          <node concept="3clFbF" id="4SiK8hICMUO" role="3cqZAp">
-            <node concept="37vLTI" id="4SiK8hICNhn" role="3clFbG">
-              <node concept="3khVwk" id="4SiK8hICNiT" role="37vLTx" />
-              <node concept="2OqwBi" id="4SiK8hICMWe" role="37vLTJ">
-                <node concept="3kakTB" id="4SiK8hICMUN" role="2Oq$k0" />
-                <node concept="3TrEf2" id="4SiK8hIDvt8" role="2OqNvi">
-                  <ref role="3Tt5mk" to="6q58:1jge5x_A4_z" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="1N5Pfh" id="4SiK8hIDvKP" role="1Mr941">
-      <ref role="1N5Vy1" to="6q58:6szcLqHeUT0" />
-      <node concept="1dDu$B" id="4SiK8hIDvNq" role="1N6uqs">
-        <ref role="1dDu$A" to="6q58:5mPDeVwiPaF" resolve="FunctionDeclarationExpr" />
-      </node>
-      <node concept="3k9gUc" id="4SiK8hIINGC" role="3kmjI7">
-        <node concept="3clFbS" id="4SiK8hIINGD" role="2VODD2">
-          <node concept="3clFbF" id="4SiK8hIINGJ" role="3cqZAp">
-            <node concept="37vLTI" id="4SiK8hIIOXZ" role="3clFbG">
-              <node concept="3khVwk" id="4SiK8hIIOZL" role="37vLTx" />
-              <node concept="2OqwBi" id="4SiK8hIINJx" role="37vLTJ">
-                <node concept="3kakTB" id="4SiK8hIINGI" role="2Oq$k0" />
-                <node concept="3TrEf2" id="4SiK8hIIOC8" role="2OqNvi">
-                  <ref role="3Tt5mk" to="6q58:6szcLqHeUT0" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
   <node concept="1M2fIO" id="4SiK8hIDZAd">
     <ref role="1M2myG" to="89bg:YA$ymmojex" resolve="FunctionCallStatement" />
     <node concept="1N5Pfh" id="4SiK8hIDZAe" role="1Mr941">
@@ -259,9 +214,6 @@
         </node>
       </node>
     </node>
-  </node>
-  <node concept="1M2fIO" id="4SiK8hIHw6z">
-    <ref role="1M2myG" to="89bg:YA$ymmncWl" resolve="FunctionCallWrapper" />
   </node>
 </model>
 
