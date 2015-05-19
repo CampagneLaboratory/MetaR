@@ -36,6 +36,7 @@
         <child id="3929971219790215785" name="outputTable" index="2j$aDD" />
         <child id="3929971219789675273" name="operations" index="2jA6G9" />
       </concept>
+      <concept id="3929971219789681008" name="org.campagnelab.metar.tables.structure.TableOperation" flags="ng" index="2jA85K" />
       <concept id="3929971219789681021" name="org.campagnelab.metar.tables.structure.DropColumnOperation" flags="ng" index="2jA85X">
         <child id="3929971219789681022" name="col" index="2jA85Y" />
       </concept>
@@ -53,6 +54,9 @@
         <property id="9080041854829670092" name="inputChanged" index="8NYsT" />
       </concept>
       <concept id="8016431400517087678" name="org.campagnelab.metar.tables.structure.UsageType" flags="ng" index="2_mUhs" />
+      <concept id="7783277237108572280" name="org.campagnelab.metar.tables.structure.FilterWithExpression" flags="ng" index="2Qf$4g">
+        <child id="2826789978062873521" name="filter" index="QaakN" />
+      </concept>
       <concept id="8962032619593737384" name="org.campagnelab.metar.tables.structure.Statement" flags="ng" index="S1EQ7">
         <property id="8962032619593737385" name="id" index="S1EQ6" />
       </concept>
@@ -63,6 +67,12 @@
       <concept id="8962032619593737377" name="org.campagnelab.metar.tables.structure.EmptyLine" flags="ng" index="S1EQe" />
       <concept id="8962032619582305406" name="org.campagnelab.metar.tables.structure.StatementList" flags="ng" index="ZXjPh">
         <child id="8962032619582305407" name="statements" index="ZXjPg" />
+      </concept>
+      <concept id="5052319772298911308" name="org.campagnelab.metar.tables.structure.ExpressionWrapper" flags="ng" index="31$ALs">
+        <child id="5052319772298911309" name="expression" index="31$ALt" />
+      </concept>
+      <concept id="8081253674570416584" name="org.campagnelab.metar.tables.structure.ColumnValue" flags="ng" index="3$Gm2I">
+        <reference id="8081253674570416585" name="column" index="3$Gm2J" />
       </concept>
       <concept id="8081253674584199902" name="org.campagnelab.metar.tables.structure.OperationColumnRef" flags="ng" index="3_jNeS">
         <reference id="8081253674598527902" name="col" index="3AppbS" />
@@ -158,6 +168,12 @@
       <node concept="S1EQe" id="3XyNzZW$HFP" role="ZXjPg">
         <property role="S1EQ6" value="BHWKABXGAP" />
       </node>
+      <node concept="S1EQe" id="3W3L4MKjN9W" role="ZXjPg">
+        <property role="S1EQ6" value="XAYESWXIGV" />
+      </node>
+      <node concept="S1EQe" id="3W3L4MKBK9o" role="ZXjPg">
+        <property role="S1EQ6" value="VMTRAJRPYJ" />
+      </node>
       <node concept="S1EQe" id="3XyNzZW$HG8" role="ZXjPg">
         <property role="S1EQ6" value="JLBOKWALKM" />
       </node>
@@ -170,16 +186,16 @@
           <node concept="3Mpm39" id="3XyNzZW1CXc" role="3WeD9t">
             <property role="31Cu5t" value="&#9;" />
             <property role="TrG5h" value="subset" />
-            <node concept="31JHg8" id="3XyNzZWRfwP" role="31JHgj">
+            <node concept="31JHg8" id="3W3L4MJWj6T" role="31JHgj">
               <property role="TrG5h" value="SampleName" />
               <ref role="1YeEjl" to="9nc5:1ID5TXdv_9L" resolve="String" />
-              <node concept="3MzsTm" id="3XyNzZWRfwS" role="lGtFl">
-                <node concept="3MzsBX" id="3XyNzZWRfwT" role="3MztjM">
+              <node concept="3MzsTm" id="3W3L4MJWj6W" role="lGtFl">
+                <node concept="3MzsBX" id="3W3L4MJWj6X" role="3MztjM">
                   <ref role="3MzsBM" node="1eFjY4Y_5Kv" resolve="sample-key" />
                 </node>
               </node>
             </node>
-            <node concept="31JHg8" id="3XyNzZWRfwU" role="31JHgj">
+            <node concept="31JHg8" id="3W3L4MJWj6Y" role="31JHgj">
               <property role="TrG5h" value="age" />
               <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
             </node>
@@ -188,7 +204,13 @@
         <node concept="afgQW" id="3XyNzZWCLfb" role="aecac">
           <ref role="afgo8" node="1eFjY4Y_5Kr" resolve="CovariateForSimulateDataset_OSEHLJIRKN" />
         </node>
-        <node concept="3WrRLE" id="3XyNzZW1CXe" role="3Wum5r" />
+        <node concept="2Qf$4g" id="3W3L4MJTbJN" role="3Wum5r">
+          <node concept="31$ALs" id="3W3L4MJTbJP" role="QaakN">
+            <node concept="3$Gm2I" id="3W3L4MJTbJY" role="31$ALt">
+              <ref role="3$Gm2J" node="1eFjY4Y_5Kt" resolve="SampleName" />
+            </node>
+          </node>
+        </node>
       </node>
       <node concept="2jzm8Z" id="3XyNzZWmCpo" role="ZXjPg">
         <property role="S1EQ6" value="DQKOEXXQUJ" />
@@ -199,7 +221,7 @@
           <node concept="3Mpm39" id="3XyNzZWmCpr" role="3WeD9t">
             <property role="31Cu5t" value="&#9;" />
             <property role="TrG5h" value="transformedTable" />
-            <node concept="31JHg8" id="3XyNzZWRfxW" role="31JHgj">
+            <node concept="31JHg8" id="3W3L4MJWj78" role="31JHgj">
               <property role="TrG5h" value="Age" />
               <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
             </node>
@@ -221,6 +243,12 @@
       <node concept="S1EQe" id="3XyNzZWmCp3" role="ZXjPg">
         <property role="S1EQ6" value="HUEYUGJLFM" />
       </node>
+      <node concept="S1EQe" id="3W3L4MKtBj_" role="ZXjPg">
+        <property role="S1EQ6" value="GDQWHQOQOX" />
+      </node>
+      <node concept="S1EQe" id="3W3L4MKjN9e" role="ZXjPg">
+        <property role="S1EQ6" value="VTWVVXRTVR" />
+      </node>
       <node concept="2jzm8Z" id="3XyNzZWIJCQ" role="ZXjPg">
         <property role="S1EQ6" value="QUQDEDXYDH" />
         <property role="8NYsT" value="false" />
@@ -230,17 +258,21 @@
           <node concept="3Mpm39" id="3XyNzZWIJCT" role="3WeD9t">
             <property role="31Cu5t" value="&#9;" />
             <property role="TrG5h" value="transformedTable" />
-            <node concept="31JHg8" id="3XyNzZXabiV" role="31JHgj">
+            <node concept="31JHg8" id="3W3L4MK52nI" role="31JHgj">
               <property role="TrG5h" value="sampleId" />
               <ref role="1YeEjl" to="9nc5:1ID5TXdv_9L" resolve="String" />
-              <node concept="3MzsTm" id="3XyNzZXabiY" role="lGtFl">
-                <node concept="3MzsBX" id="3XyNzZXabiZ" role="3MztjM">
+              <node concept="3MzsTm" id="3W3L4MK52nL" role="lGtFl">
+                <node concept="3MzsBX" id="3W3L4MK52nM" role="3MztjM">
                   <ref role="3MzsBM" node="1eFjY4Y_5Kv" resolve="sample-key" />
                 </node>
               </node>
             </node>
-            <node concept="31JHg8" id="3XyNzZXabj0" role="31JHgj">
+            <node concept="31JHg8" id="3W3L4MK52nN" role="31JHgj">
               <property role="TrG5h" value="age" />
+              <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
+            </node>
+            <node concept="31JHg8" id="3W3L4MK52nO" role="31JHgj">
+              <property role="TrG5h" value="col" />
               <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
             </node>
           </node>
@@ -252,6 +284,7 @@
           <property role="nlvPC" value="sampleId" />
           <ref role="nlvPz" node="1eFjY4Y_5Kt" resolve="SampleName" />
         </node>
+        <node concept="2jA85K" id="3W3L4MKtBzN" role="2jA6G9" />
       </node>
     </node>
   </node>

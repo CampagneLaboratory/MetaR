@@ -551,6 +551,9 @@
     <node concept="PrWs8" id="5iYlRBKtnRc" role="PzmwI">
       <ref role="PrY4T" node="5iYlRBKtkRE" resolve="FutureTableCreator" />
     </node>
+    <node concept="PrWs8" id="3W3L4MK64pR" role="PzmwI">
+      <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
+    </node>
     <node concept="1TJgyj" id="3BiNpr5EUNd" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="rowFilter" />
@@ -874,6 +877,9 @@
     </node>
     <node concept="PrWs8" id="7LvyiX4miiE" role="PzmwI">
       <ref role="PrY4T" node="7LvyiX4miiF" resolve="StatementDependencies" />
+    </node>
+    <node concept="PrWs8" id="3W3L4MJREfy" role="PzmwI">
+      <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
     </node>
   </node>
   <node concept="PlHQZ" id="7LvyiX4miiF">
