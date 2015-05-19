@@ -4898,6 +4898,7 @@
           <node concept="3F0A7n" id="2qszgnVNLm" role="2wV5jI">
             <property role="1Intyy" value="true" />
             <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+            <ref role="1k5W1q" node="2rPl_HMU6tb" resolve="ColumnName" />
           </node>
         </node>
       </node>
@@ -4906,8 +4907,31 @@
       </node>
       <node concept="3F0A7n" id="2qszgnVNMh" role="3EZMnx">
         <ref role="1NtTu8" to="jrxw:2qszgnNSXs" resolve="newName" />
+        <ref role="1k5W1q" node="2rPl_HMU6tb" resolve="ColumnName" />
       </node>
       <node concept="l2Vlx" id="2qszgnVNKS" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="3W3L4MKGMDq">
+    <property role="3GE5qa" value="operations" />
+    <ref role="1XX52x" to="jrxw:3W3L4MKCcrO" resolve="AddColumn" />
+    <node concept="3EZMnI" id="3W3L4MKGN62" role="2wV5jI">
+      <ref role="1k5W1q" node="2rPl_HMU6tb" resolve="ColumnName" />
+      <node concept="3F0ifn" id="3W3L4MKGN69" role="3EZMnx">
+        <property role="3F0ifm" value="add column" />
+        <node concept="Vb9p2" id="3W3L4MKGN8f" role="3F10Kt" />
+      </node>
+      <node concept="3F0A7n" id="3W3L4MKGN6f" role="3EZMnx">
+        <ref role="1NtTu8" to="jrxw:3W3L4MKCj1t" resolve="name" />
+      </node>
+      <node concept="3F0ifn" id="3W3L4MKGN6n" role="3EZMnx">
+        <property role="3F0ifm" value="with value:" />
+        <node concept="Vb9p2" id="3W3L4MKGN8m" role="3F10Kt" />
+      </node>
+      <node concept="3F1sOY" id="3W3L4MKGN6x" role="3EZMnx">
+        <ref role="1NtTu8" to="jrxw:3W3L4MKCj1v" />
+      </node>
+      <node concept="l2Vlx" id="3W3L4MKGN65" role="2iSdaV" />
     </node>
   </node>
 </model>
