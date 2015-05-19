@@ -31,12 +31,15 @@
       <concept id="4451133196879828915" name="org.campagnelab.metar.tables.structure.TableRef" flags="ng" index="afgQW">
         <reference id="4451133196879830023" name="table" index="afgo8" />
       </concept>
+      <concept id="4540688682979477236" name="org.campagnelab.metar.tables.structure.AddColumn" flags="ng" index="2fCKaS">
+        <property id="4540688682979504221" name="name" index="2fCJgh" />
+        <child id="4540688682979504223" name="expression" index="2fCJgj" />
+      </concept>
       <concept id="3929971219788952127" name="org.campagnelab.metar.tables.structure.Transform" flags="ng" index="2jzm8Z">
         <child id="3929971219790215784" name="inputTable" index="2j$aDC" />
         <child id="3929971219790215785" name="outputTable" index="2j$aDD" />
         <child id="3929971219789675273" name="operations" index="2jA6G9" />
       </concept>
-      <concept id="3929971219789681008" name="org.campagnelab.metar.tables.structure.TableOperation" flags="ng" index="2jA85K" />
       <concept id="3929971219789681021" name="org.campagnelab.metar.tables.structure.DropColumnOperation" flags="ng" index="2jA85X">
         <child id="3929971219789681022" name="col" index="2jA85Y" />
       </concept>
@@ -243,12 +246,6 @@
       <node concept="S1EQe" id="3XyNzZWmCp3" role="ZXjPg">
         <property role="S1EQ6" value="HUEYUGJLFM" />
       </node>
-      <node concept="S1EQe" id="3W3L4MKtBj_" role="ZXjPg">
-        <property role="S1EQ6" value="GDQWHQOQOX" />
-      </node>
-      <node concept="S1EQe" id="3W3L4MKjN9e" role="ZXjPg">
-        <property role="S1EQ6" value="VTWVVXRTVR" />
-      </node>
       <node concept="2jzm8Z" id="3XyNzZWIJCQ" role="ZXjPg">
         <property role="S1EQ6" value="QUQDEDXYDH" />
         <property role="8NYsT" value="false" />
@@ -258,22 +255,22 @@
           <node concept="3Mpm39" id="3XyNzZWIJCT" role="3WeD9t">
             <property role="31Cu5t" value="&#9;" />
             <property role="TrG5h" value="transformedTable" />
-            <node concept="31JHg8" id="3W3L4MK52nI" role="31JHgj">
+            <node concept="31JHg8" id="3W3L4MKZOWp" role="31JHgj">
               <property role="TrG5h" value="sampleId" />
               <ref role="1YeEjl" to="9nc5:1ID5TXdv_9L" resolve="String" />
-              <node concept="3MzsTm" id="3W3L4MK52nL" role="lGtFl">
-                <node concept="3MzsBX" id="3W3L4MK52nM" role="3MztjM">
+              <node concept="3MzsTm" id="3W3L4MKZOWs" role="lGtFl">
+                <node concept="3MzsBX" id="3W3L4MKZOWt" role="3MztjM">
                   <ref role="3MzsBM" node="1eFjY4Y_5Kv" resolve="sample-key" />
                 </node>
               </node>
             </node>
-            <node concept="31JHg8" id="3W3L4MK52nN" role="31JHgj">
+            <node concept="31JHg8" id="3W3L4MKZOWu" role="31JHgj">
               <property role="TrG5h" value="age" />
               <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
             </node>
-            <node concept="31JHg8" id="3W3L4MK52nO" role="31JHgj">
-              <property role="TrG5h" value="col" />
-              <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
+            <node concept="31JHg8" id="3W3L4MKZOWv" role="31JHgj">
+              <property role="TrG5h" value="NewName" />
+              <ref role="1YeEjl" to="9nc5:1ID5TXdv_9L" resolve="String" />
             </node>
           </node>
         </node>
@@ -284,7 +281,14 @@
           <property role="nlvPC" value="sampleId" />
           <ref role="nlvPz" node="1eFjY4Y_5Kt" resolve="SampleName" />
         </node>
-        <node concept="2jA85K" id="3W3L4MKtBzN" role="2jA6G9" />
+        <node concept="2fCKaS" id="3W3L4MKZOBC" role="2jA6G9">
+          <property role="2fCJgh" value="NewName" />
+          <node concept="31$ALs" id="3W3L4MKZOM4" role="2fCJgj">
+            <node concept="3$Gm2I" id="3W3L4MKZOWj" role="31$ALt">
+              <ref role="3$Gm2J" node="1eFjY4Y_5Kt" resolve="SampleName" />
+            </node>
+          </node>
+        </node>
       </node>
     </node>
   </node>
