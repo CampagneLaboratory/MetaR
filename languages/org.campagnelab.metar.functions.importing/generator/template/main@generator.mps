@@ -2,7 +2,7 @@
 <model ref="r:3002ef72-27f5-4307-88c6-fc59c09d3ea5(org.campagnelab.metar.functions.importing.generator.template.main@generator)">
   <persistence version="9" />
   <languages>
-    <use id="c1747c67-8f42-4d83-9542-4a948aec17d9" name="org.campagnelab.metar.importing" version="-1" />
+    <use id="c1747c67-8f42-4d83-9542-4a948aec17d9" name="org.campagnelab.metar.functions.importing" version="-1" />
     <use id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core" version="-1" />
     <use id="d7706f63-9be2-479c-a3da-ae92af1e64d5" name="jetbrains.mps.lang.generator.generationContext" version="-1" />
     <use id="b401a680-8325-4110-8fd3-84331ff25bef" name="jetbrains.mps.lang.generator" version="-1" />
@@ -47,9 +47,11 @@
       <concept id="1722980698497626400" name="jetbrains.mps.lang.generator.structure.ITemplateCall" flags="ng" index="v9R3L">
         <reference id="1722980698497626483" name="template" index="v9R2y" />
       </concept>
+      <concept id="1167168920554" name="jetbrains.mps.lang.generator.structure.BaseMappingRule_Condition" flags="in" index="30G5F_" />
       <concept id="1167169188348" name="jetbrains.mps.lang.generator.structure.TemplateFunctionParameter_sourceNode" flags="nn" index="30H73N" />
       <concept id="1167169308231" name="jetbrains.mps.lang.generator.structure.BaseMappingRule" flags="ng" index="30H$t8">
         <reference id="1167169349424" name="applicableConcept" index="30HIoZ" />
+        <child id="1167169362365" name="conditionFunction" index="30HLyM" />
       </concept>
       <concept id="1227303129915" name="jetbrains.mps.lang.generator.structure.AbstractMacro" flags="lg" index="30XT8A">
         <property id="3265704088513289864" name="comment" index="34cw8o" />
@@ -89,6 +91,9 @@
       <concept id="1138056022639" name="jetbrains.mps.lang.smodel.structure.SPropertyAccess" flags="nn" index="3TrcHB">
         <reference id="1138056395725" name="property" index="3TsBF5" />
       </concept>
+      <concept id="1138056282393" name="jetbrains.mps.lang.smodel.structure.SLinkListAccess" flags="nn" index="3Tsc0h">
+        <reference id="1138056546658" name="link" index="3TtcxE" />
+      </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
@@ -102,6 +107,9 @@
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
     </language>
+    <language id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections">
+      <concept id="1165530316231" name="jetbrains.mps.baseLanguage.collections.structure.IsEmptyOperation" flags="nn" index="1v1jN8" />
+    </language>
   </registry>
   <node concept="bUwia" id="7BS5aCD41nG">
     <property role="TrG5h" value="main" />
@@ -109,6 +117,21 @@
       <ref role="30HIoZ" to="8t56:7BS5aCD41ov" resolve="ImportPackage" />
       <node concept="j$656" id="AYlbCANkEt" role="1lVwrX">
         <ref role="v9R2y" node="6kVgbi6iGEe" resolve="reduce_ImportPackage" />
+      </node>
+      <node concept="30G5F_" id="YA$ymmY7Af" role="30HLyM">
+        <node concept="3clFbS" id="YA$ymmY7Ag" role="2VODD2">
+          <node concept="3clFbF" id="YA$ymmY7Hy" role="3cqZAp">
+            <node concept="2OqwBi" id="YA$ymmY9AO" role="3clFbG">
+              <node concept="2OqwBi" id="YA$ymmY7Na" role="2Oq$k0">
+                <node concept="30H73N" id="YA$ymmY7Hx" role="2Oq$k0" />
+                <node concept="3Tsc0h" id="YA$ymmY8ES" role="2OqNvi">
+                  <ref role="3TtcxE" to="8t56:2n2dP0rz_yM" />
+                </node>
+              </node>
+              <node concept="1v1jN8" id="YA$ymmYcms" role="2OqNvi" />
+            </node>
+          </node>
+        </node>
       </node>
     </node>
   </node>
