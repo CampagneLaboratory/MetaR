@@ -94,6 +94,9 @@
             <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
           </node>
         </node>
+        <node concept="Vb9p2" id="4SiK8hJ0RSC" role="3F10Kt">
+          <property role="Vbekb" value="ITALIC" />
+        </node>
       </node>
       <node concept="l2Vlx" id="4SiK8hI3z9B" role="2iSdaV" />
     </node>
