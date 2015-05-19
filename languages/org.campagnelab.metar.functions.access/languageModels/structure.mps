@@ -49,23 +49,6 @@
       <ref role="20lvS9" to="6q58:5mPDeVwiPaG" resolve="FunctionCallExpr" />
     </node>
   </node>
-  <node concept="1TIwiD" id="YA$ymmocXY">
-    <property role="TrG5h" value="TestAssignmentStatement" />
-    <property role="34LRSv" value="=" />
-    <ref role="1TJDcQ" to="jrxw:7LvyiX4miiC" resolve="Statement" />
-    <node concept="1TJgyj" id="YA$ymmocXZ" role="1TKVEi">
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="left" />
-      <property role="20lbJX" value="1" />
-      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
-    </node>
-    <node concept="1TJgyj" id="YA$ymmocY2" role="1TKVEi">
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="right" />
-      <property role="20lbJX" value="1" />
-      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
-    </node>
-  </node>
   <node concept="1TIwiD" id="YA$ymmojex">
     <property role="TrG5h" value="FunctionCallStatement" />
     <property role="34LRSv" value="call function" />
@@ -85,10 +68,6 @@
       <property role="20kJfa" value="ref" />
       <ref role="20lvS9" to="6q58:5mPDeVwiPaR" resolve="Identifier" />
     </node>
-  </node>
-  <node concept="1TIwiD" id="4SiK8hIrRoT">
-    <property role="TrG5h" value="ImportedFunctionIdRef" />
-    <ref role="1TJDcQ" to="6q58:6szcLqHeUyd" resolve="FunctionIdRef" />
   </node>
 </model>
 
