@@ -17,6 +17,9 @@ public class QueriesGenerated {
   public static boolean baseMappingRule_Condition_1127749446847199631(final BaseMappingRuleContext _context) {
     return ListSequence.fromList(SLinkOperations.getChildren(_context.getNode(), MetaAdapterFactory.getContainmentLink(0xc1747c678f424d83L, 0x95424a948aec17d9L, 0x25c237501b8e58aaL, 0x25c237501b8e58b2L, "functions"))).isEmpty();
   }
+  public static boolean baseMappingRule_Condition_1127749446856806640(final BaseMappingRuleContext _context) {
+    return ListSequence.fromList(SLinkOperations.getChildren(_context.getNode(), MetaAdapterFactory.getContainmentLink(0xc1747c678f424d83L, 0x95424a948aec17d9L, 0x25c237501b8e58aaL, 0x25c237501b8e58b2L, "functions"))).isNotEmpty();
+  }
   public static Object propertyMacro_GetPropertyValue_702091750408137663(final PropertyMacroContext _context) {
     return SPropertyOperations.getString(_context.getNode(), MetaAdapterFactory.getProperty(0xc1747c678f424d83L, 0x95424a948aec17d9L, 0x79f814aa2910161fL, 0x9be54ba26acbcbaL, "sourceFile"));
   }

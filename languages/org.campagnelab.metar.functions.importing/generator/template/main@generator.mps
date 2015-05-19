@@ -39,6 +39,7 @@
       </concept>
     </language>
     <language id="b401a680-8325-4110-8fd3-84331ff25bef" name="jetbrains.mps.lang.generator">
+      <concept id="1202776937179" name="jetbrains.mps.lang.generator.structure.AbandonInput_RuleConsequence" flags="lg" index="b5Tf3" />
       <concept id="1095416546421" name="jetbrains.mps.lang.generator.structure.MappingConfiguration" flags="ig" index="bUwia">
         <child id="1167328349397" name="reductionMappingRule" index="3acgRq" />
       </concept>
@@ -109,6 +110,7 @@
     </language>
     <language id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections">
       <concept id="1165530316231" name="jetbrains.mps.baseLanguage.collections.structure.IsEmptyOperation" flags="nn" index="1v1jN8" />
+      <concept id="1176501494711" name="jetbrains.mps.baseLanguage.collections.structure.IsNotEmptyOperation" flags="nn" index="3GX2aA" />
     </language>
   </registry>
   <node concept="bUwia" id="7BS5aCD41nG">
@@ -133,6 +135,29 @@
           </node>
         </node>
       </node>
+    </node>
+    <node concept="3aamgX" id="YA$ymnyKPk" role="3acgRq">
+      <ref role="30HIoZ" to="8t56:7BS5aCD41ov" resolve="ImportPackage" />
+      <node concept="b5Tf3" id="YA$ymnyRrT" role="1lVwrX" />
+      <node concept="30G5F_" id="YA$ymnyL3K" role="30HLyM">
+        <node concept="3clFbS" id="YA$ymnyL3L" role="2VODD2">
+          <node concept="3clFbF" id="YA$ymnyL8H" role="3cqZAp">
+            <node concept="2OqwBi" id="YA$ymnyN1Z" role="3clFbG">
+              <node concept="2OqwBi" id="YA$ymnyLel" role="2Oq$k0">
+                <node concept="30H73N" id="YA$ymnyL8G" role="2Oq$k0" />
+                <node concept="3Tsc0h" id="YA$ymnyM63" role="2OqNvi">
+                  <ref role="3TtcxE" to="8t56:2n2dP0rz_yM" />
+                </node>
+              </node>
+              <node concept="3GX2aA" id="YA$ymnyRlq" role="2OqNvi" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3aamgX" id="YA$ymnyRz8" role="3acgRq">
+      <ref role="30HIoZ" to="8t56:2n2dP0rzrIW" resolve="ImportScript" />
+      <node concept="b5Tf3" id="YA$ymnyRKu" role="1lVwrX" />
     </node>
   </node>
   <node concept="13MO4I" id="6kVgbi6iGEe">
