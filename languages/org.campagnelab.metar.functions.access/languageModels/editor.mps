@@ -60,6 +60,7 @@
       </concept>
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
+      <concept id="1171999116870" name="jetbrains.mps.lang.smodel.structure.Node_IsNullOperation" flags="nn" index="3w_OXm" />
       <concept id="1172008320231" name="jetbrains.mps.lang.smodel.structure.Node_IsNotNullOperation" flags="nn" index="3x8VRR" />
       <concept id="1138056143562" name="jetbrains.mps.lang.smodel.structure.SLinkAccess" flags="nn" index="3TrEf2">
         <reference id="1138056516764" name="link" index="3Tt5mk" />
@@ -99,7 +100,7 @@
                     <ref role="3Tt5mk" to="89bg:YA$ymmojey" />
                   </node>
                 </node>
-                <node concept="3x8VRR" id="4SiK8hJ1Np8" role="2OqNvi" />
+                <node concept="3w_OXm" id="YA$ymmVW8_" role="2OqNvi" />
               </node>
             </node>
           </node>
