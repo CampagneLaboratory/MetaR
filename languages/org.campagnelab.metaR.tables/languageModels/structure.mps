@@ -806,6 +806,9 @@
       <property role="20lbJX" value="0..n" />
       <ref role="20lvS9" node="7LvyiX4miiC" resolve="Statement" />
     </node>
+    <node concept="PrWs8" id="3XyNzZW9G_S" role="PzmwI">
+      <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
+    </node>
   </node>
   <node concept="1TIwiD" id="7LvyiX4miiv">
     <property role="TrG5h" value="DependentOnPackage" />

@@ -100,7 +100,7 @@
         <reference id="3223123807127702409" name="table" index="2UilQf" />
       </concept>
       <concept id="8962032619582305406" name="org.campagnelab.metar.tables.structure.StatementList" flags="ng" index="ZXjPh">
-        <child id="8962032619582305407" name="transformations" index="ZXjPg" />
+        <child id="8962032619582305407" name="statements" index="ZXjPg" />
       </concept>
       <concept id="3402264987259919045" name="org.campagnelab.metar.tables.structure.FutureTable" flags="ng" index="3MlLWZ">
         <reference id="3402264987259919103" name="table" index="3MlLW5" />

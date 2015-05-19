@@ -5,9 +5,9 @@
     <use id="3f4bc5f5-c6c1-4a28-8b10-c83066ffa4a1" name="jetbrains.mps.lang.constraints" version="-1" />
     <use id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior" version="-1" />
     <use id="ed6d7656-532c-4bc2-81d1-af945aeb8280" name="jetbrains.mps.baseLanguage.blTypes" version="-1" />
-    <use id="d8f591ec-4d86-4af2-9f92-a9e93c803ffa" name="jetbrains.mps.lang.scopes" version="-1" />
     <use id="9ded098b-ad6a-4657-bfd9-48636cfe8bc3" name="jetbrains.mps.lang.traceable" version="-1" />
     <use id="13744753-c81f-424a-9c1b-cf8943bf4e86" name="jetbrains.mps.lang.sharedConcepts" version="-1" />
+    <use id="d8f591ec-4d86-4af2-9f92-a9e93c803ffa" name="jetbrains.mps.lang.scopes" version="0" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -58,6 +58,10 @@
       <concept id="1070534058343" name="jetbrains.mps.baseLanguage.structure.NullLiteral" flags="nn" index="10Nm6u" />
       <concept id="1070534760951" name="jetbrains.mps.baseLanguage.structure.ArrayType" flags="in" index="10Q1$e">
         <child id="1070534760952" name="componentType" index="10Q1$1" />
+      </concept>
+      <concept id="1070534934090" name="jetbrains.mps.baseLanguage.structure.CastExpression" flags="nn" index="10QFUN">
+        <child id="1070534934091" name="type" index="10QFUM" />
+        <child id="1070534934092" name="expression" index="10QFUP" />
       </concept>
       <concept id="1068431474542" name="jetbrains.mps.baseLanguage.structure.VariableDeclaration" flags="ng" index="33uBYm">
         <child id="1068431790190" name="initializer" index="33vP2m" />
@@ -512,19 +516,35 @@
       </node>
       <node concept="13QW63" id="3Frl7j7CAMC" role="1N6uqs">
         <node concept="3clFbS" id="3Frl7j7CAMD" role="2VODD2">
-          <node concept="3cpWs6" id="3Frl7j7CBLw" role="3cqZAp">
-            <node concept="2YIFZM" id="3Frl7j7CBcv" role="3cqZAk">
-              <ref role="37wK5l" to="vyt2:~ListScope.forNamedElements(java.lang.Iterable):jetbrains.mps.scope.ListScope" resolve="forNamedElements" />
-              <ref role="1Pybhc" to="vyt2:~ListScope" resolve="ListScope" />
-              <node concept="2OqwBi" id="3Frl7j7CBrG" role="37wK5m">
-                <node concept="2OqwBi" id="3Frl7j7CBeJ" role="2Oq$k0">
-                  <node concept="2rP1CM" id="3Frl7j7CBd8" role="2Oq$k0" />
-                  <node concept="I4A8Y" id="3Frl7j7CBl9" role="2OqNvi" />
+          <node concept="3cpWs8" id="3XyNzZX6CMM" role="3cqZAp">
+            <node concept="3cpWsn" id="3XyNzZX6CMN" role="3cpWs9">
+              <property role="TrG5h" value="scope" />
+              <node concept="3uibUv" id="3XyNzZX6CMO" role="1tU5fm">
+                <ref role="3uigEE" to="vyt2:~Scope" resolve="Scope" />
+              </node>
+              <node concept="10QFUN" id="3XyNzZX6C5v" role="33vP2m">
+                <node concept="3uibUv" id="3XyNzZX6CoD" role="10QFUM">
+                  <ref role="3uigEE" to="vyt2:~Scope" resolve="Scope" />
                 </node>
-                <node concept="2RRcyG" id="3Frl7j7CB$v" role="2OqNvi">
-                  <ref role="2RRcyH" to="jrxw:2WRhvFtkykN" resolve="Table" />
+                <node concept="2YIFZM" id="3Frl7j7CBcv" role="10QFUP">
+                  <ref role="1Pybhc" to="vyt2:~ListScope" resolve="ListScope" />
+                  <ref role="37wK5l" to="vyt2:~ListScope.forNamedElements(java.lang.Iterable):jetbrains.mps.scope.ListScope" resolve="forNamedElements" />
+                  <node concept="2OqwBi" id="3Frl7j7CBrG" role="37wK5m">
+                    <node concept="2OqwBi" id="3Frl7j7CBeJ" role="2Oq$k0">
+                      <node concept="2rP1CM" id="3Frl7j7CBd8" role="2Oq$k0" />
+                      <node concept="I4A8Y" id="3Frl7j7CBl9" role="2OqNvi" />
+                    </node>
+                    <node concept="2RRcyG" id="3Frl7j7CB$v" role="2OqNvi">
+                      <ref role="2RRcyH" to="jrxw:2WRhvFtkykN" resolve="Table" />
+                    </node>
+                  </node>
                 </node>
               </node>
+            </node>
+          </node>
+          <node concept="3cpWs6" id="3Frl7j7CBLw" role="3cqZAp">
+            <node concept="37vLTw" id="3XyNzZX6DuR" role="3cqZAk">
+              <ref role="3cqZAo" node="3XyNzZX6CMN" resolve="scope" />
             </node>
           </node>
         </node>
