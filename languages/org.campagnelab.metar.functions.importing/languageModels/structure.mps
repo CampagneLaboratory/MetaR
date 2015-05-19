@@ -83,9 +83,6 @@
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" to="6q58:5mPDeVwiJFe" resolve="ProgramProg" />
     </node>
-    <node concept="PrWs8" id="4SiK8hI0Z75" role="PzmwI">
-      <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
-    </node>
   </node>
   <node concept="1TIwiD" id="2n2dP0rz_yE">
     <property role="TrG5h" value="ImportFrom" />
@@ -100,6 +97,9 @@
     </node>
     <node concept="PrWs8" id="2n2dP0rz_yF" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+    <node concept="PrWs8" id="65vgZmVBH4v" role="PzmwI">
+      <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
     </node>
   </node>
 </model>

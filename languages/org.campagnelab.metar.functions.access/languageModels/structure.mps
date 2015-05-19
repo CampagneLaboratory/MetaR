@@ -57,16 +57,29 @@
     <node concept="1TJgyj" id="YA$ymmojey" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="call" />
-      <property role="20lbJX" value="0..1" />
-      <ref role="20lvS9" node="YA$ymmncWl" resolve="FunctionCallWrapper" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="YA$ymny2Bs" resolve="ScopedFunctionCallWrapper" />
     </node>
     <node concept="PrWs8" id="4SiK8hIs3kI" role="PzmwI">
       <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
     </node>
-    <node concept="1TJgyj" id="4SiK8hIELSp" role="1TKVEi">
+  </node>
+  <node concept="1TIwiD" id="YA$ymny2Bs">
+    <property role="TrG5h" value="ScopedFunctionCallWrapper" />
+    <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
+    <node concept="1TJgyj" id="YA$ymny2C_" role="1TKVEi">
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="ref" />
       <ref role="20lvS9" to="6q58:5mPDeVwiPaR" resolve="Identifier" />
+    </node>
+    <node concept="1TJgyj" id="YA$ymny2Bt" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="call" />
+      <property role="20lbJX" value="0..1" />
+      <ref role="20lvS9" to="6q58:5mPDeVwiPaG" resolve="FunctionCallExpr" />
+    </node>
+    <node concept="PrWs8" id="YA$ymny4cY" role="PzmwI">
+      <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
     </node>
   </node>
 </model>
