@@ -29,6 +29,9 @@
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
       <concept id="1080223426719" name="jetbrains.mps.baseLanguage.structure.OrExpression" flags="nn" index="22lmx$" />
+      <concept id="1082485599095" name="jetbrains.mps.baseLanguage.structure.BlockStatement" flags="nn" index="9aQIb">
+        <child id="1082485599096" name="statements" index="9aQI4" />
+      </concept>
       <concept id="1215693861676" name="jetbrains.mps.baseLanguage.structure.BaseAssignmentExpression" flags="nn" index="d038R">
         <child id="1068498886297" name="rValue" index="37vLTx" />
         <child id="1068498886295" name="lValue" index="37vLTJ" />
@@ -82,6 +85,7 @@
       </concept>
       <concept id="1068580123157" name="jetbrains.mps.baseLanguage.structure.Statement" flags="nn" index="3clFbH" />
       <concept id="1068580123159" name="jetbrains.mps.baseLanguage.structure.IfStatement" flags="nn" index="3clFbJ">
+        <child id="1082485599094" name="ifFalseStatement" index="9aQIa" />
         <child id="1068580123160" name="condition" index="3clFbw" />
         <child id="1068580123161" name="ifTrue" index="3clFbx" />
         <child id="1206060520071" name="elsifClauses" index="3eNLev" />
@@ -1573,120 +1577,161 @@
   </node>
   <node concept="18kY7G" id="2AV3DmhaNEc">
     <property role="TrG5h" value="HeatmapUsagePresence" />
+    <property role="3GE5qa" value="heatmap" />
     <node concept="3clFbS" id="2AV3DmhaNJG" role="18ibNy">
-      <node concept="3clFbF" id="2AV3DmhaUtp" role="3cqZAp">
-        <node concept="2OqwBi" id="2AV3DmhbsoA" role="3clFbG">
-          <node concept="2OqwBi" id="2AV3DmhaV9P" role="2Oq$k0">
-            <node concept="2OqwBi" id="2AV3DmhaP6x" role="2Oq$k0">
-              <node concept="2OqwBi" id="2AV3DmhaNWQ" role="2Oq$k0">
-                <node concept="1YBJjd" id="2AV3DmhaNSC" role="2Oq$k0">
-                  <ref role="1YBMHb" node="2AV3DmhaNRx" resolve="heatmap" />
-                </node>
-                <node concept="3TrEf2" id="2AV3DmhaOOk" role="2OqNvi">
-                  <ref role="3Tt5mk" to="jrxw:7lAbM$uOsZd" />
-                </node>
+      <node concept="3clFbJ" id="3XyNzZXbbsq" role="3cqZAp">
+        <node concept="3clFbS" id="3XyNzZXbbss" role="3clFbx">
+          <node concept="2MkqsV" id="3XyNzZXbd9G" role="3cqZAp">
+            <node concept="2OqwBi" id="3XyNzZXbdjU" role="2OEOjV">
+              <node concept="1YBJjd" id="3XyNzZXbdgE" role="2Oq$k0">
+                <ref role="1YBMHb" node="2AV3DmhaNRx" resolve="heatmap" />
               </node>
-              <node concept="2Rf3mk" id="2AV3DmhaPpU" role="2OqNvi">
-                <node concept="1xMEDy" id="2AV3DmhaPpW" role="1xVPHs">
-                  <node concept="chp4Y" id="2AV3Dmhb7vw" role="ri$Ld">
-                    <ref role="cht4Q" to="jrxw:2WRhvFtLNDM" resolve="SelectByGroup" />
-                  </node>
-                </node>
+              <node concept="3TrEf2" id="3XyNzZXbe33" role="2OqNvi">
+                <ref role="3Tt5mk" to="jrxw:3R5AwWRYuXO" />
               </node>
             </node>
-            <node concept="3zZkjj" id="2AV3Dmhb0E6" role="2OqNvi">
-              <node concept="1bVj0M" id="2AV3Dmhb0E8" role="23t8la">
-                <node concept="3clFbS" id="2AV3Dmhb0E9" role="1bW5cS">
-                  <node concept="3clFbF" id="2AV3Dmhb0YI" role="3cqZAp">
-                    <node concept="2OqwBi" id="2AV3DmhbhjL" role="3clFbG">
-                      <node concept="2OqwBi" id="2AV3DmhbeGa" role="2Oq$k0">
-                        <node concept="2OqwBi" id="2AV3Dmhb12e" role="2Oq$k0">
-                          <node concept="37vLTw" id="2AV3Dmhb0YH" role="2Oq$k0">
-                            <ref role="3cqZAo" node="2AV3Dmhb0Ea" resolve="groupUsage" />
-                          </node>
-                          <node concept="3TrEf2" id="2AV3DmhbdLb" role="2OqNvi">
-                            <ref role="3Tt5mk" to="jrxw:2WRhvFtLNDN" />
-                          </node>
-                        </node>
-                        <node concept="3Tsc0h" id="2AV3Dmhc2ov" role="2OqNvi">
-                          <ref role="3TtcxE" to="jrxw:6XP3gVdSYBs" />
+            <node concept="Xl_RD" id="3XyNzZXbd9V" role="2MkJ7o">
+              <property role="Xl_RC" value="A table used in a heatmap must define one or more groups defined with usage \&quot;heatmap\&quot;. Only columns labeled with such groups can be used in the plot. " />
+            </node>
+          </node>
+          <node concept="3cpWs6" id="3XyNzZXbT1O" role="3cqZAp" />
+        </node>
+        <node concept="3fqX7Q" id="3XyNzZXbcXm" role="3clFbw">
+          <node concept="2OqwBi" id="3XyNzZXbcXo" role="3fr31v">
+            <node concept="2OqwBi" id="3XyNzZXbcXp" role="2Oq$k0">
+              <node concept="1YBJjd" id="3XyNzZXbcXq" role="2Oq$k0">
+                <ref role="1YBMHb" node="2AV3DmhaNRx" resolve="heatmap" />
+              </node>
+              <node concept="3TrEf2" id="3XyNzZXbcXr" role="2OqNvi">
+                <ref role="3Tt5mk" to="jrxw:3R5AwWRYuXO" />
+              </node>
+            </node>
+            <node concept="2qgKlT" id="3XyNzZXbcXs" role="2OqNvi">
+              <ref role="37wK5l" to="v8sa:3_QsSyzeb4E" resolve="hasGroupWithIntent" />
+              <node concept="Xl_RD" id="3XyNzZXbcXt" role="37wK5m">
+                <property role="Xl_RC" value="heatmap" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="9aQIb" id="3XyNzZXckXR" role="9aQIa">
+          <node concept="3clFbS" id="3XyNzZXckXS" role="9aQI4">
+            <node concept="3clFbF" id="2AV3DmhaUtp" role="3cqZAp">
+              <node concept="2OqwBi" id="2AV3DmhbsoA" role="3clFbG">
+                <node concept="2OqwBi" id="2AV3DmhaV9P" role="2Oq$k0">
+                  <node concept="2OqwBi" id="2AV3DmhaP6x" role="2Oq$k0">
+                    <node concept="2OqwBi" id="2AV3DmhaNWQ" role="2Oq$k0">
+                      <node concept="1YBJjd" id="2AV3DmhaNSC" role="2Oq$k0">
+                        <ref role="1YBMHb" node="2AV3DmhaNRx" resolve="heatmap" />
+                      </node>
+                      <node concept="3TrEf2" id="2AV3DmhaOOk" role="2OqNvi">
+                        <ref role="3Tt5mk" to="jrxw:7lAbM$uOsZd" />
+                      </node>
+                    </node>
+                    <node concept="2Rf3mk" id="2AV3DmhaPpU" role="2OqNvi">
+                      <node concept="1xMEDy" id="2AV3DmhaPpW" role="1xVPHs">
+                        <node concept="chp4Y" id="2AV3Dmhb7vw" role="ri$Ld">
+                          <ref role="cht4Q" to="jrxw:2WRhvFtLNDM" resolve="SelectByGroup" />
                         </node>
                       </node>
-                      <node concept="2HxqBE" id="2AV3Dmhb$7_" role="2OqNvi">
-                        <node concept="1bVj0M" id="2AV3Dmhb$7B" role="23t8la">
-                          <node concept="3clFbS" id="2AV3Dmhb$7C" role="1bW5cS">
-                            <node concept="3clFbF" id="2AV3Dmhb$7D" role="3cqZAp">
-                              <node concept="17QLQc" id="2AV3DmhbEgc" role="3clFbG">
-                                <node concept="2OqwBi" id="2AV3DmhcfZB" role="3uHU7B">
-                                  <node concept="2OqwBi" id="2AV3DmhbEgf" role="2Oq$k0">
-                                    <node concept="37vLTw" id="2AV3DmhbEgg" role="2Oq$k0">
-                                      <ref role="3cqZAo" node="2AV3Dmhb$7J" resolve="it" />
+                    </node>
+                  </node>
+                  <node concept="3zZkjj" id="2AV3Dmhb0E6" role="2OqNvi">
+                    <node concept="1bVj0M" id="2AV3Dmhb0E8" role="23t8la">
+                      <node concept="3clFbS" id="2AV3Dmhb0E9" role="1bW5cS">
+                        <node concept="3clFbF" id="2AV3Dmhb0YI" role="3cqZAp">
+                          <node concept="2OqwBi" id="2AV3DmhbhjL" role="3clFbG">
+                            <node concept="2OqwBi" id="2AV3DmhbeGa" role="2Oq$k0">
+                              <node concept="2OqwBi" id="2AV3Dmhb12e" role="2Oq$k0">
+                                <node concept="37vLTw" id="2AV3Dmhb0YH" role="2Oq$k0">
+                                  <ref role="3cqZAo" node="2AV3Dmhb0Ea" resolve="groupUsage" />
+                                </node>
+                                <node concept="3TrEf2" id="2AV3DmhbdLb" role="2OqNvi">
+                                  <ref role="3Tt5mk" to="jrxw:2WRhvFtLNDN" />
+                                </node>
+                              </node>
+                              <node concept="3Tsc0h" id="2AV3Dmhc2ov" role="2OqNvi">
+                                <ref role="3TtcxE" to="jrxw:6XP3gVdSYBs" />
+                              </node>
+                            </node>
+                            <node concept="2HxqBE" id="2AV3Dmhb$7_" role="2OqNvi">
+                              <node concept="1bVj0M" id="2AV3Dmhb$7B" role="23t8la">
+                                <node concept="3clFbS" id="2AV3Dmhb$7C" role="1bW5cS">
+                                  <node concept="3clFbF" id="2AV3Dmhb$7D" role="3cqZAp">
+                                    <node concept="17QLQc" id="2AV3DmhbEgc" role="3clFbG">
+                                      <node concept="2OqwBi" id="2AV3DmhcfZB" role="3uHU7B">
+                                        <node concept="2OqwBi" id="2AV3DmhbEgf" role="2Oq$k0">
+                                          <node concept="37vLTw" id="2AV3DmhbEgg" role="2Oq$k0">
+                                            <ref role="3cqZAo" node="2AV3Dmhb$7J" resolve="it" />
+                                          </node>
+                                          <node concept="3TrEf2" id="2AV3Dmhcfzv" role="2OqNvi">
+                                            <ref role="3Tt5mk" to="jrxw:6XP3gVdSYBw" />
+                                          </node>
+                                        </node>
+                                        <node concept="3TrcHB" id="2AV3DmhcioF" role="2OqNvi">
+                                          <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                                        </node>
+                                      </node>
+                                      <node concept="Xl_RD" id="2AV3DmhbEge" role="3uHU7w">
+                                        <property role="Xl_RC" value="heatmap" />
+                                      </node>
                                     </node>
-                                    <node concept="3TrEf2" id="2AV3Dmhcfzv" role="2OqNvi">
-                                      <ref role="3Tt5mk" to="jrxw:6XP3gVdSYBw" />
-                                    </node>
-                                  </node>
-                                  <node concept="3TrcHB" id="2AV3DmhcioF" role="2OqNvi">
-                                    <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
                                   </node>
                                 </node>
-                                <node concept="Xl_RD" id="2AV3DmhbEge" role="3uHU7w">
-                                  <property role="Xl_RC" value="heatmap" />
+                                <node concept="Rh6nW" id="2AV3Dmhb$7J" role="1bW2Oz">
+                                  <property role="TrG5h" value="it" />
+                                  <node concept="2jxLKc" id="2AV3Dmhb$7K" role="1tU5fm" />
                                 </node>
                               </node>
                             </node>
                           </node>
-                          <node concept="Rh6nW" id="2AV3Dmhb$7J" role="1bW2Oz">
-                            <property role="TrG5h" value="it" />
-                            <node concept="2jxLKc" id="2AV3Dmhb$7K" role="1tU5fm" />
-                          </node>
                         </node>
+                      </node>
+                      <node concept="Rh6nW" id="2AV3Dmhb0Ea" role="1bW2Oz">
+                        <property role="TrG5h" value="groupUsage" />
+                        <node concept="2jxLKc" id="2AV3Dmhb0Eb" role="1tU5fm" />
                       </node>
                     </node>
                   </node>
                 </node>
-                <node concept="Rh6nW" id="2AV3Dmhb0Ea" role="1bW2Oz">
-                  <property role="TrG5h" value="groupUsage" />
-                  <node concept="2jxLKc" id="2AV3Dmhb0Eb" role="1tU5fm" />
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="2es0OD" id="2AV3DmhbKLs" role="2OqNvi">
-            <node concept="1bVj0M" id="2AV3DmhbKLu" role="23t8la">
-              <node concept="3clFbS" id="2AV3DmhbKLv" role="1bW5cS">
-                <node concept="2MkqsV" id="2AV3DmhbLXh" role="3cqZAp">
-                  <node concept="3cpWs3" id="2AV3DmhbPbl" role="2MkJ7o">
-                    <node concept="Xl_RD" id="2AV3DmhbPbo" role="3uHU7w">
-                      <property role="Xl_RC" value=" must have usage heatmap when used in a build heatmap statement." />
-                    </node>
-                    <node concept="3cpWs3" id="2AV3DmhbMI6" role="3uHU7B">
-                      <node concept="Xl_RD" id="2AV3DmhbM8Z" role="3uHU7B">
-                        <property role="Xl_RC" value="Group " />
-                      </node>
-                      <node concept="2OqwBi" id="2AV3DmhbOi2" role="3uHU7w">
-                        <node concept="2OqwBi" id="2AV3DmhbN8N" role="2Oq$k0">
-                          <node concept="37vLTw" id="2AV3DmhbMTZ" role="2Oq$k0">
-                            <ref role="3cqZAo" node="2AV3DmhbKLw" resolve="groupSelect" />
+                <node concept="2es0OD" id="2AV3DmhbKLs" role="2OqNvi">
+                  <node concept="1bVj0M" id="2AV3DmhbKLu" role="23t8la">
+                    <node concept="3clFbS" id="2AV3DmhbKLv" role="1bW5cS">
+                      <node concept="2MkqsV" id="2AV3DmhbLXh" role="3cqZAp">
+                        <node concept="3cpWs3" id="2AV3DmhbPbl" role="2MkJ7o">
+                          <node concept="Xl_RD" id="2AV3DmhbPbo" role="3uHU7w">
+                            <property role="Xl_RC" value="  must have usage heatmap in order to be plotted on the heatmap." />
                           </node>
-                          <node concept="3TrEf2" id="2AV3DmhbNMz" role="2OqNvi">
-                            <ref role="3Tt5mk" to="jrxw:2WRhvFtLNDN" />
+                          <node concept="3cpWs3" id="2AV3DmhbMI6" role="3uHU7B">
+                            <node concept="Xl_RD" id="2AV3DmhbM8Z" role="3uHU7B">
+                              <property role="Xl_RC" value="Group " />
+                            </node>
+                            <node concept="2OqwBi" id="2AV3DmhbOi2" role="3uHU7w">
+                              <node concept="2OqwBi" id="2AV3DmhbN8N" role="2Oq$k0">
+                                <node concept="37vLTw" id="2AV3DmhbMTZ" role="2Oq$k0">
+                                  <ref role="3cqZAo" node="2AV3DmhbKLw" resolve="groupSelect" />
+                                </node>
+                                <node concept="3TrEf2" id="2AV3DmhbNMz" role="2OqNvi">
+                                  <ref role="3Tt5mk" to="jrxw:2WRhvFtLNDN" />
+                                </node>
+                              </node>
+                              <node concept="3TrcHB" id="2AV3DmhbOJK" role="2OqNvi">
+                                <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                              </node>
+                            </node>
                           </node>
                         </node>
-                        <node concept="3TrcHB" id="2AV3DmhbOJK" role="2OqNvi">
-                          <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                        <node concept="37vLTw" id="2AV3DmhbUdl" role="2OEOjV">
+                          <ref role="3cqZAo" node="2AV3DmhbKLw" resolve="groupSelect" />
                         </node>
                       </node>
                     </node>
-                  </node>
-                  <node concept="37vLTw" id="2AV3DmhbUdl" role="2OEOjV">
-                    <ref role="3cqZAo" node="2AV3DmhbKLw" resolve="groupSelect" />
+                    <node concept="Rh6nW" id="2AV3DmhbKLw" role="1bW2Oz">
+                      <property role="TrG5h" value="groupSelect" />
+                      <node concept="2jxLKc" id="2AV3DmhbKLx" role="1tU5fm" />
+                    </node>
                   </node>
                 </node>
-              </node>
-              <node concept="Rh6nW" id="2AV3DmhbKLw" role="1bW2Oz">
-                <property role="TrG5h" value="groupSelect" />
-                <node concept="2jxLKc" id="2AV3DmhbKLx" role="1tU5fm" />
               </node>
             </node>
           </node>
@@ -1701,12 +1746,13 @@
   </node>
   <node concept="18kY7G" id="7O$514qHdSg">
     <property role="TrG5h" value="ChekcHeatMapTableHasID" />
+    <property role="3GE5qa" value="heatmap" />
     <node concept="3clFbS" id="7O$514qHe3f" role="18ibNy">
       <node concept="3clFbJ" id="7O$514qHf9z" role="3cqZAp">
         <node concept="3clFbS" id="7O$514qHf9$" role="3clFbx">
           <node concept="2MkqsV" id="7O$514qHg2J" role="3cqZAp">
             <node concept="Xl_RD" id="7O$514qHg31" role="2MkJ7o">
-              <property role="Xl_RC" value="The table must have a column marked with group ID" />
+              <property role="Xl_RC" value="The table must have a column marked with group ID. This column is used to obtain gene names." />
             </node>
             <node concept="1YBJjd" id="7O$514qHg5J" role="2OEOjV">
               <ref role="1YBMHb" node="7O$514qHf9k" resolve="heatmap" />
@@ -2638,6 +2684,42 @@
     <node concept="1YaCAy" id="3l0yXcUQVKP" role="1YuTPh">
       <property role="TrG5h" value="plot" />
       <ref role="1YaFvo" to="jrxw:7lAbM$uOMoK" resolve="Plot" />
+    </node>
+  </node>
+  <node concept="18kY7G" id="3XyNzZXknGW">
+    <property role="3GE5qa" value="heatmap" />
+    <property role="TrG5h" value="HeatmapHasKeySelection" />
+    <node concept="3clFbS" id="3XyNzZXknGX" role="18ibNy">
+      <node concept="3clFbJ" id="3XyNzZXknHb" role="3cqZAp">
+        <node concept="3clFbS" id="3XyNzZXknHc" role="3clFbx">
+          <node concept="2MkqsV" id="3XyNzZXkoGY" role="3cqZAp">
+            <node concept="1YBJjd" id="3XyNzZXkoJJ" role="2OEOjV">
+              <ref role="1YBMHb" node="3XyNzZXknGZ" resolve="heatmap" />
+            </node>
+            <node concept="Xl_RD" id="3XyNzZXkoHa" role="2MkJ7o">
+              <property role="Xl_RC" value="You must select some columns or groups to display on the heatmap (at least one column is necessary)" />
+            </node>
+            <node concept="2OE7Q9" id="3XyNzZXkoKz" role="2OEWyd">
+              <ref role="2OEe5H" to="jrxw:7lAbM$uOsZd" />
+            </node>
+          </node>
+        </node>
+        <node concept="2OqwBi" id="3XyNzZXkonj" role="3clFbw">
+          <node concept="2OqwBi" id="3XyNzZXknKR" role="2Oq$k0">
+            <node concept="1YBJjd" id="3XyNzZXknHn" role="2Oq$k0">
+              <ref role="1YBMHb" node="3XyNzZXknGZ" resolve="heatmap" />
+            </node>
+            <node concept="3TrEf2" id="3XyNzZXko2J" role="2OqNvi">
+              <ref role="3Tt5mk" to="jrxw:7lAbM$uOsZd" />
+            </node>
+          </node>
+          <node concept="3w_OXm" id="3XyNzZXkoGg" role="2OqNvi" />
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="3XyNzZXknGZ" role="1YuTPh">
+      <property role="TrG5h" value="heatmap" />
+      <ref role="1YaFvo" to="jrxw:7lAbM$uOsXJ" resolve="Heatmap" />
     </node>
   </node>
 </model>
