@@ -69,7 +69,7 @@
     <node concept="1TJgyj" id="28AXeAEw05x" role="1TKVEi">
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="functionRef" />
-      <ref role="20lvS9" to="6q58:5mPDeVwiPaE" resolve="AssignmentOperatorExpr" />
+      <ref role="20lvS9" to="6q58:5qM9mr9JOd5" resolve="BinaryOperatorExpr" />
     </node>
   </node>
   <node concept="1TIwiD" id="2n2dP0rzrIW">
