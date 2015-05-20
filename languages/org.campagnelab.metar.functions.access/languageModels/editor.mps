@@ -67,12 +67,6 @@
       </concept>
     </language>
   </registry>
-  <node concept="24kQdi" id="YA$ymmnYkB">
-    <ref role="1XX52x" to="89bg:YA$ymmncWl" resolve="FunctionCallWrapper" />
-    <node concept="3F1sOY" id="4SiK8hII39_" role="2wV5jI">
-      <ref role="1NtTu8" to="89bg:YA$ymmnYht" />
-    </node>
-  </node>
   <node concept="24kQdi" id="YA$ymmojeT">
     <ref role="1XX52x" to="89bg:YA$ymmojex" resolve="FunctionCallStatement" />
     <node concept="3EZMnI" id="4SiK8hIDZ_G" role="2wV5jI">
