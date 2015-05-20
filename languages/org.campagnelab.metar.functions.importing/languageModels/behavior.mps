@@ -131,11 +131,6 @@
       <concept id="1178549954367" name="jetbrains.mps.baseLanguage.structure.IVisible" flags="ng" index="1B3ioH">
         <child id="1178549979242" name="visibility" index="1B3o_S" />
       </concept>
-      <concept id="1163668896201" name="jetbrains.mps.baseLanguage.structure.TernaryOperatorExpression" flags="nn" index="3K4zz7">
-        <child id="1163668914799" name="condition" index="3K4Cdx" />
-        <child id="1163668922816" name="ifTrue" index="3K4E3e" />
-        <child id="1163668934364" name="ifFalse" index="3K4GZi" />
-      </concept>
       <concept id="6329021646629104957" name="jetbrains.mps.baseLanguage.structure.TextCommentPart" flags="nn" index="3SKdUq">
         <property id="6329021646629104958" name="text" index="3SKdUp" />
       </concept>
@@ -710,28 +705,11 @@
         <ref role="ehGHo" to="6q58:5qM9mr9JOd5" resolve="BinaryOperatorExpr" />
       </node>
       <node concept="3clFbS" id="28AXeAEyKNn" role="3clF47">
-        <node concept="3cpWs6" id="28AXeAEyOQf" role="3cqZAp">
-          <node concept="3K4zz7" id="28AXeAEyOWp" role="3cqZAk">
-            <node concept="2OqwBi" id="28AXeAEyOWq" role="3K4GZi">
-              <node concept="13iPFW" id="28AXeAEyOWr" role="2Oq$k0" />
-              <node concept="3TrEf2" id="28AXeAEyOWs" role="2OqNvi">
-                <ref role="3Tt5mk" to="8t56:28AXeAEw05x" />
-              </node>
-            </node>
-            <node concept="2OqwBi" id="28AXeAEyOWt" role="3K4E3e">
-              <node concept="13iPFW" id="28AXeAEyOWu" role="2Oq$k0" />
-              <node concept="3TrEf2" id="28AXeAEyOWv" role="2OqNvi">
-                <ref role="3Tt5mk" to="8t56:28AXeAEvZQq" />
-              </node>
-            </node>
-            <node concept="2OqwBi" id="28AXeAEyOWw" role="3K4Cdx">
-              <node concept="2OqwBi" id="28AXeAEyOWx" role="2Oq$k0">
-                <node concept="13iPFW" id="28AXeAEyOWy" role="2Oq$k0" />
-                <node concept="3TrEf2" id="28AXeAEyOWz" role="2OqNvi">
-                  <ref role="3Tt5mk" to="8t56:28AXeAEvZQq" />
-                </node>
-              </node>
-              <node concept="3x8VRR" id="28AXeAEyOW$" role="2OqNvi" />
+        <node concept="3clFbF" id="2ExvV8pA_JN" role="3cqZAp">
+          <node concept="2OqwBi" id="2ExvV8pA_MX" role="3clFbG">
+            <node concept="13iPFW" id="2ExvV8pA_JM" role="2Oq$k0" />
+            <node concept="3TrEf2" id="2ExvV8pAA6T" role="2OqNvi">
+              <ref role="3Tt5mk" to="8t56:28AXeAEw05x" />
             </node>
           </node>
         </node>
