@@ -8,10 +8,15 @@
   <imports>
     <import index="fxg7" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.io(JDK/java.io@java_stub)" />
     <import index="8t56" ref="r:c30a0469-24e5-4b8a-89e7-0d2028c5aa49(org.campagnelab.metar.functions.importing.structure)" implicit="true" />
+    <import index="6q58" ref="r:97268463-8a58-42b7-9dc6-fa004b7a4308(org.campagnelab.metar.R.structure)" implicit="true" />
     <import index="798x" ref="r:1634ef7f-18ee-43e5-8286-5fcfc24745c4(org.campagnelab.metar.functions.importing.behavior)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
+      <concept id="1215693861676" name="jetbrains.mps.baseLanguage.structure.BaseAssignmentExpression" flags="nn" index="d038R">
+        <child id="1068498886297" name="rValue" index="37vLTx" />
+        <child id="1068498886295" name="lValue" index="37vLTJ" />
+      </concept>
       <concept id="1202948039474" name="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" flags="nn" index="liA8E" />
       <concept id="1197027756228" name="jetbrains.mps.baseLanguage.structure.DotExpression" flags="nn" index="2OqwBi">
         <child id="1197027771414" name="operand" index="2Oq$k0" />
@@ -26,10 +31,21 @@
       <concept id="1070475926800" name="jetbrains.mps.baseLanguage.structure.StringLiteral" flags="nn" index="Xl_RD">
         <property id="1070475926801" name="value" index="Xl_RC" />
       </concept>
+      <concept id="1068431474542" name="jetbrains.mps.baseLanguage.structure.VariableDeclaration" flags="ng" index="33uBYm">
+        <child id="1068431790190" name="initializer" index="33vP2m" />
+      </concept>
+      <concept id="1068498886296" name="jetbrains.mps.baseLanguage.structure.VariableReference" flags="nn" index="37vLTw">
+        <reference id="1068581517664" name="variableDeclaration" index="3cqZAo" />
+      </concept>
+      <concept id="1068498886294" name="jetbrains.mps.baseLanguage.structure.AssignmentExpression" flags="nn" index="37vLTI" />
       <concept id="1225271408483" name="jetbrains.mps.baseLanguage.structure.IsNotEmptyOperation" flags="nn" index="17RvpY" />
+      <concept id="4972933694980447171" name="jetbrains.mps.baseLanguage.structure.BaseVariableDeclaration" flags="ng" index="19Szcq">
+        <child id="5680397130376446158" name="type" index="1tU5fm" />
+      </concept>
       <concept id="1068580123155" name="jetbrains.mps.baseLanguage.structure.ExpressionStatement" flags="nn" index="3clFbF">
         <child id="1068580123156" name="expression" index="3clFbG" />
       </concept>
+      <concept id="1068580123157" name="jetbrains.mps.baseLanguage.structure.Statement" flags="nn" index="3clFbH" />
       <concept id="1068580123159" name="jetbrains.mps.baseLanguage.structure.IfStatement" flags="nn" index="3clFbJ">
         <child id="1068580123160" name="condition" index="3clFbw" />
         <child id="1068580123161" name="ifTrue" index="3clFbx" />
@@ -37,6 +53,10 @@
       <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
       </concept>
+      <concept id="1068581242864" name="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" flags="nn" index="3cpWs8">
+        <child id="1068581242865" name="localVariableDeclaration" index="3cpWs9" />
+      </concept>
+      <concept id="1068581242863" name="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" flags="nr" index="3cpWsn" />
       <concept id="1204053956946" name="jetbrains.mps.baseLanguage.structure.IMethodCall" flags="ng" index="1ndlxa">
         <reference id="1068499141037" name="baseMethodDeclaration" index="37wK5l" />
         <child id="1068499141038" name="actualArgument" index="37wK5m" />
@@ -94,11 +114,22 @@
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
       <concept id="1179409122411" name="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" flags="nn" index="2qgKlT" />
+      <concept id="1143234257716" name="jetbrains.mps.lang.smodel.structure.Node_GetModelOperation" flags="nn" index="I4A8Y" />
+      <concept id="1143235216708" name="jetbrains.mps.lang.smodel.structure.Model_CreateNewNodeOperation" flags="nn" index="I8ghe">
+        <reference id="1143235391024" name="concept" index="I8UWU" />
+      </concept>
+      <concept id="1172008320231" name="jetbrains.mps.lang.smodel.structure.Node_IsNotNullOperation" flags="nn" index="3x8VRR" />
+      <concept id="1140131837776" name="jetbrains.mps.lang.smodel.structure.Node_ReplaceWithAnotherOperation" flags="nn" index="1P9Npp">
+        <child id="1140131861877" name="replacementNode" index="1P9ThW" />
+      </concept>
       <concept id="1138055754698" name="jetbrains.mps.lang.smodel.structure.SNodeType" flags="in" index="3Tqbb2">
         <reference id="1138405853777" name="concept" index="ehGHo" />
       </concept>
       <concept id="1138056022639" name="jetbrains.mps.lang.smodel.structure.SPropertyAccess" flags="nn" index="3TrcHB">
         <reference id="1138056395725" name="property" index="3TsBF5" />
+      </concept>
+      <concept id="1138056143562" name="jetbrains.mps.lang.smodel.structure.SLinkAccess" flags="nn" index="3TrEf2">
+        <reference id="1138056516764" name="link" index="3Tt5mk" />
       </concept>
       <concept id="1138056282393" name="jetbrains.mps.lang.smodel.structure.SLinkListAccess" flags="nn" index="3Tsc0h">
         <reference id="1138056546658" name="link" index="3TtcxE" />
@@ -215,6 +246,140 @@
         <node concept="3clFbF" id="4OlXQqAjvjm" role="3cqZAp">
           <node concept="Xl_RD" id="4OlXQqAjvjl" role="3clFbG">
             <property role="Xl_RC" value="Load R function definitions" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="18kY7G" id="2ExvV8pzPcy">
+    <property role="TrG5h" value="CheckIfPackageScriptIsAvailable" />
+    <node concept="3clFbS" id="2ExvV8pzPcz" role="18ibNy">
+      <node concept="3cpWs8" id="2ExvV8p$11U" role="3cqZAp">
+        <node concept="3cpWsn" id="2ExvV8p$120" role="3cpWs9">
+          <property role="TrG5h" value="script" />
+          <node concept="3Tqbb2" id="2ExvV8p$1_B" role="1tU5fm">
+            <ref role="ehGHo" to="6q58:5mPDeVwiJFe" resolve="ProgramProg" />
+          </node>
+          <node concept="2OqwBi" id="2ExvV8p$1DT" role="33vP2m">
+            <node concept="1YBJjd" id="2ExvV8p$1Ak" role="2Oq$k0">
+              <ref role="1YBMHb" node="2ExvV8pzPA6" resolve="importPackage" />
+            </node>
+            <node concept="2qgKlT" id="2ExvV8p$1Wf" role="2OqNvi">
+              <ref role="37wK5l" to="798x:2ExvV8pzYLE" resolve="findEquivalentScript" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3clFbJ" id="2ExvV8pzPIm" role="3cqZAp">
+        <node concept="3clFbS" id="2ExvV8pzPIn" role="3clFbx">
+          <node concept="Dpp1Q" id="2ExvV8p$2pj" role="3cqZAp">
+            <node concept="3Cnw8n" id="2ExvV8p$3xp" role="2OEOjU">
+              <property role="ARO6o" value="true" />
+              <ref role="QpYPw" node="2ExvV8p$2wy" resolve="ReplacePackageWithScript" />
+              <node concept="3CnSsL" id="2ExvV8p$3$g" role="3Coj4f">
+                <ref role="QkamJ" node="2ExvV8p$2wI" resolve="nodeToReplace" />
+                <node concept="1YBJjd" id="2ExvV8p$3$v" role="3CoRuB">
+                  <ref role="1YBMHb" node="2ExvV8pzPA6" resolve="importPackage" />
+                </node>
+              </node>
+              <node concept="3CnSsL" id="2ExvV8p$3$F" role="3Coj4f">
+                <ref role="QkamJ" node="2ExvV8p$2x6" resolve="destinationScript" />
+                <node concept="37vLTw" id="2ExvV8p$3_1" role="3CoRuB">
+                  <ref role="3cqZAo" node="2ExvV8p$120" resolve="script" />
+                </node>
+              </node>
+            </node>
+            <node concept="Xl_RD" id="2ExvV8p$2q7" role="Dpw9R">
+              <property role="Xl_RC" value="Replace with import script" />
+            </node>
+            <node concept="1YBJjd" id="2ExvV8p$2ru" role="2OEOjV">
+              <ref role="1YBMHb" node="2ExvV8pzPA6" resolve="importPackage" />
+            </node>
+          </node>
+        </node>
+        <node concept="2OqwBi" id="2ExvV8p$20x" role="3clFbw">
+          <node concept="37vLTw" id="2ExvV8p$1XW" role="2Oq$k0">
+            <ref role="3cqZAo" node="2ExvV8p$120" resolve="script" />
+          </node>
+          <node concept="3x8VRR" id="2ExvV8p$2nY" role="2OqNvi" />
+        </node>
+      </node>
+      <node concept="3clFbH" id="2ExvV8pzSe$" role="3cqZAp" />
+    </node>
+    <node concept="1YaCAy" id="2ExvV8pzPA6" role="1YuTPh">
+      <property role="TrG5h" value="importPackage" />
+      <ref role="1YaFvo" to="8t56:7BS5aCD41ov" resolve="ImportPackage" />
+    </node>
+  </node>
+  <node concept="Q5z_Y" id="2ExvV8p$2wy">
+    <property role="TrG5h" value="ReplacePackageWithScript" />
+    <node concept="Q6JDH" id="2ExvV8p$2wI" role="Q6Id_">
+      <property role="TrG5h" value="nodeToReplace" />
+      <node concept="3Tqbb2" id="2ExvV8p$2wQ" role="Q6QK4">
+        <ref role="ehGHo" to="8t56:7BS5aCD41ov" resolve="ImportPackage" />
+      </node>
+    </node>
+    <node concept="Q6JDH" id="2ExvV8p$2x6" role="Q6Id_">
+      <property role="TrG5h" value="destinationScript" />
+      <node concept="3Tqbb2" id="2ExvV8p$2xi" role="Q6QK4">
+        <ref role="ehGHo" to="6q58:5mPDeVwiJFe" resolve="ProgramProg" />
+      </node>
+    </node>
+    <node concept="Q5ZZ6" id="2ExvV8p$2wz" role="Q6x$H">
+      <node concept="3clFbS" id="2ExvV8p$2w$" role="2VODD2">
+        <node concept="3cpWs8" id="2ExvV8pzRfQ" role="3cqZAp">
+          <node concept="3cpWsn" id="2ExvV8pzRfT" role="3cpWs9">
+            <property role="TrG5h" value="importScript" />
+            <node concept="3Tqbb2" id="2ExvV8pzRfP" role="1tU5fm">
+              <ref role="ehGHo" to="8t56:2n2dP0rzrIW" resolve="ImportScript" />
+            </node>
+            <node concept="2OqwBi" id="2ExvV8pzS5b" role="33vP2m">
+              <node concept="2OqwBi" id="2ExvV8pzRkp" role="2Oq$k0">
+                <node concept="QwW4i" id="2ExvV8p$4BR" role="2Oq$k0">
+                  <ref role="QwW4h" node="2ExvV8p$2wI" resolve="nodeToReplace" />
+                </node>
+                <node concept="I4A8Y" id="2ExvV8pzROE" role="2OqNvi" />
+              </node>
+              <node concept="I8ghe" id="2ExvV8pzSdW" role="2OqNvi">
+                <ref role="I8UWU" to="8t56:2n2dP0rzrIW" resolve="ImportScript" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="2ExvV8pzSh$" role="3cqZAp">
+          <node concept="37vLTI" id="2ExvV8pzUvz" role="3clFbG">
+            <node concept="QwW4i" id="2ExvV8p$4EB" role="37vLTx">
+              <ref role="QwW4h" node="2ExvV8p$2x6" resolve="destinationScript" />
+            </node>
+            <node concept="2OqwBi" id="2ExvV8pzSmt" role="37vLTJ">
+              <node concept="37vLTw" id="2ExvV8pzShy" role="2Oq$k0">
+                <ref role="3cqZAo" node="2ExvV8pzRfT" resolve="importScript" />
+              </node>
+              <node concept="3TrEf2" id="2ExvV8pzU50" role="2OqNvi">
+                <ref role="3Tt5mk" to="8t56:2n2dP0rzyqm" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="2ExvV8p$4GW" role="3cqZAp">
+          <node concept="2OqwBi" id="2ExvV8p$4Ki" role="3clFbG">
+            <node concept="QwW4i" id="2ExvV8p$4GU" role="2Oq$k0">
+              <ref role="QwW4h" node="2ExvV8p$2wI" resolve="nodeToReplace" />
+            </node>
+            <node concept="1P9Npp" id="2ExvV8p$52C" role="2OqNvi">
+              <node concept="37vLTw" id="2ExvV8p$53n" role="1P9ThW">
+                <ref role="3cqZAo" node="2ExvV8pzRfT" resolve="importScript" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="QznSV" id="2ExvV8p$2xs" role="QzAvj">
+      <node concept="3clFbS" id="2ExvV8p$2xt" role="2VODD2">
+        <node concept="3clFbF" id="2ExvV8p$2At" role="3cqZAp">
+          <node concept="Xl_RD" id="2ExvV8p$2As" role="3clFbG">
+            <property role="Xl_RC" value="Replace import statement" />
           </node>
         </node>
       </node>
