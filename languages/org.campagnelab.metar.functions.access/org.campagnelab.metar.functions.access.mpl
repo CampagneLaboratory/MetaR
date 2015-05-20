@@ -15,7 +15,7 @@
       </models>
       <external-templates />
       <dependencies>
-        <dependency reexport="false" scope="design">2a6b8be2-e610-4c56-b728-d6ee644c94bc(org.campagnelab.textoutput#6874736155931251038)</dependency>
+        <dependency reexport="false" scope="design">f8960ca5-9f20-4fc0-b9f7-20a20893f26d(org.campagnelab.metar.tables#3402264987258972825)</dependency>
       </dependencies>
       <usedLanguages>
         <usedLanguage>b401a680-8325-4110-8fd3-84331ff25bef(jetbrains.mps.lang.generator)</usedLanguage>
@@ -62,7 +62,7 @@
         <language id="901f5cf3-dc77-4c1e-bc5a-6382baee28b4" fqName="org.campagnelab.textoutput" version="0" />
       </languageVersions>
       <mapping-priorities>
-        <mapping-priority-rule kind="strictly_after">
+        <mapping-priority-rule kind="strictly_together">
           <greater-priority-mapping>
             <generator generatorUID="e6e33ac8-d3b0-43b7-bfb6-0f40faeea753(org.campagnelab.metar.functions.access#1127749446836988002)" />
             <external-mapping>
@@ -70,9 +70,9 @@
             </external-mapping>
           </greater-priority-mapping>
           <lesser-priority-mapping>
-            <generator generatorUID="2a6b8be2-e610-4c56-b728-d6ee644c94bc(org.campagnelab.textoutput#6874736155931251038)" />
+            <generator generatorUID="f8960ca5-9f20-4fc0-b9f7-20a20893f26d(org.campagnelab.metar.tables#3402264987258972825)" />
             <external-mapping>
-              <all-local-mappings />
+              <mapping-node modelUID="r:ff825a5c-7d67-471c-8044-76c3cc7b519b(org.campagnelab.metar.tables.generator.template.main@generator)" nodeID="*" />
             </external-mapping>
           </lesser-priority-mapping>
         </mapping-priority-rule>
