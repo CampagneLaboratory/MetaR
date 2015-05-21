@@ -61,10 +61,6 @@
       <concept id="1070534760951" name="jetbrains.mps.baseLanguage.structure.ArrayType" flags="in" index="10Q1$e">
         <child id="1070534760952" name="componentType" index="10Q1$1" />
       </concept>
-      <concept id="1070534934090" name="jetbrains.mps.baseLanguage.structure.CastExpression" flags="nn" index="10QFUN">
-        <child id="1070534934091" name="type" index="10QFUM" />
-        <child id="1070534934092" name="expression" index="10QFUP" />
-      </concept>
       <concept id="1068431474542" name="jetbrains.mps.baseLanguage.structure.VariableDeclaration" flags="ng" index="33uBYm">
         <child id="1068431790190" name="initializer" index="33vP2m" />
       </concept>
@@ -523,21 +519,16 @@
               <node concept="3uibUv" id="3XyNzZX6CMO" role="1tU5fm">
                 <ref role="3uigEE" to="vyt2:~Scope" resolve="Scope" />
               </node>
-              <node concept="10QFUN" id="3XyNzZX6C5v" role="33vP2m">
-                <node concept="3uibUv" id="3XyNzZX6CoD" role="10QFUM">
-                  <ref role="3uigEE" to="vyt2:~Scope" resolve="Scope" />
-                </node>
-                <node concept="2YIFZM" id="3Frl7j7CBcv" role="10QFUP">
-                  <ref role="1Pybhc" to="vyt2:~ListScope" resolve="ListScope" />
-                  <ref role="37wK5l" to="vyt2:~ListScope.forNamedElements(java.lang.Iterable):jetbrains.mps.scope.ListScope" resolve="forNamedElements" />
-                  <node concept="2OqwBi" id="3Frl7j7CBrG" role="37wK5m">
-                    <node concept="2OqwBi" id="3Frl7j7CBeJ" role="2Oq$k0">
-                      <node concept="2rP1CM" id="3Frl7j7CBd8" role="2Oq$k0" />
-                      <node concept="I4A8Y" id="3Frl7j7CBl9" role="2OqNvi" />
-                    </node>
-                    <node concept="2RRcyG" id="3Frl7j7CB$v" role="2OqNvi">
-                      <ref role="2RRcyH" to="jrxw:2WRhvFtkykN" resolve="Table" />
-                    </node>
+              <node concept="2YIFZM" id="3Frl7j7CBcv" role="33vP2m">
+                <ref role="1Pybhc" to="vyt2:~ListScope" resolve="ListScope" />
+                <ref role="37wK5l" to="vyt2:~ListScope.forNamedElements(java.lang.Iterable):jetbrains.mps.scope.ListScope" resolve="forNamedElements" />
+                <node concept="2OqwBi" id="3Frl7j7CBrG" role="37wK5m">
+                  <node concept="2OqwBi" id="3Frl7j7CBeJ" role="2Oq$k0">
+                    <node concept="2rP1CM" id="3Frl7j7CBd8" role="2Oq$k0" />
+                    <node concept="I4A8Y" id="3Frl7j7CBl9" role="2OqNvi" />
+                  </node>
+                  <node concept="2RRcyG" id="3Frl7j7CB$v" role="2OqNvi">
+                    <ref role="2RRcyH" to="jrxw:2WRhvFtkykN" resolve="Table" />
                   </node>
                 </node>
               </node>

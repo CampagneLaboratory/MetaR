@@ -2445,7 +2445,7 @@
       <node concept="3clFbS" id="3l0yXcWbI9i" role="2VODD2">
         <node concept="3clFbF" id="3l0yXcWbIo3" role="3cqZAp">
           <node concept="Xl_RD" id="3l0yXcWbIo2" role="3clFbG">
-            <property role="Xl_RC" value="Remove all Groups" />
+            <property role="Xl_RC" value="Remove All Groups" />
           </node>
         </node>
       </node>
