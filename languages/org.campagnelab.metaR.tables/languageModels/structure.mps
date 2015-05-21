@@ -2041,7 +2041,7 @@
   </node>
   <node concept="1TIwiD" id="7B_tLL$i0di">
     <property role="3GE5qa" value="operations" />
-    <property role="TrG5h" value="DropColumnRegexOperation" />
+    <property role="TrG5h" value="DropColumnWithTextOperation" />
     <property role="34LRSv" value="drop columns which match" />
     <property role="R4oN_" value="drop each column which contains this pattern" />
     <ref role="1TJDcQ" node="3qa402_4D5K" resolve="TableOperation" />
