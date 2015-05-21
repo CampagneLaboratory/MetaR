@@ -3985,6 +3985,9 @@
       </node>
       <node concept="3F1sOY" id="3qa402_lEd3" role="3EZMnx">
         <ref role="1NtTu8" to="jrxw:3qa402_4D5Y" />
+        <node concept="Vb9p2" id="7B_tLL_01WK" role="3F10Kt">
+          <property role="Vbekb" value="ITALIC" />
+        </node>
       </node>
       <node concept="l2Vlx" id="3qa402_lEcB" role="2iSdaV" />
     </node>
@@ -4091,10 +4094,16 @@
     <ref role="1XX52x" to="jrxw:70Aomqlqlbu" resolve="OperationColumnRef" />
     <node concept="1iCGBv" id="70AomqmgY3Y" role="2wV5jI">
       <ref role="1NtTu8" to="jrxw:70AomqmgZeu" />
+      <node concept="Vb9p2" id="7B_tLL_02Gb" role="3F10Kt">
+        <property role="Vbekb" value="ITALIC" />
+      </node>
       <node concept="1sVBvm" id="70AomqmgY40" role="1sWHZn">
         <node concept="3F0A7n" id="70Aomqmn2tX" role="2wV5jI">
           <property role="1Intyy" value="true" />
           <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+          <node concept="Vb9p2" id="7B_tLL_02G6" role="3F10Kt">
+            <property role="Vbekb" value="ITALIC" />
+          </node>
         </node>
       </node>
     </node>
@@ -4894,11 +4903,17 @@
       </node>
       <node concept="1iCGBv" id="2qszgnVNL8" role="3EZMnx">
         <ref role="1NtTu8" to="jrxw:2qszgnNSXn" />
+        <node concept="Vb9p2" id="7B_tLL_02Gq" role="3F10Kt">
+          <property role="Vbekb" value="ITALIC" />
+        </node>
         <node concept="1sVBvm" id="2qszgnVNLa" role="1sWHZn">
           <node concept="3F0A7n" id="2qszgnVNLm" role="2wV5jI">
             <property role="1Intyy" value="true" />
             <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
             <ref role="1k5W1q" node="2rPl_HMU6tb" resolve="ColumnName" />
+            <node concept="Vb9p2" id="7B_tLL_02Gl" role="3F10Kt">
+              <property role="Vbekb" value="ITALIC" />
+            </node>
           </node>
         </node>
       </node>
@@ -4923,6 +4938,9 @@
       </node>
       <node concept="3F0A7n" id="3W3L4MKGN6f" role="3EZMnx">
         <ref role="1NtTu8" to="jrxw:3W3L4MKCj1t" resolve="name" />
+        <node concept="Vb9p2" id="7B_tLL_01WE" role="3F10Kt">
+          <property role="Vbekb" value="ITALIC" />
+        </node>
       </node>
       <node concept="3F0ifn" id="3W3L4MKGN6n" role="3EZMnx">
         <property role="3F0ifm" value="with value:" />
@@ -4932,6 +4950,40 @@
         <ref role="1NtTu8" to="jrxw:3W3L4MKCj1v" />
       </node>
       <node concept="l2Vlx" id="3W3L4MKGN65" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="7B_tLL$i1yY">
+    <property role="3GE5qa" value="operations" />
+    <ref role="1XX52x" to="jrxw:7B_tLL$i0di" resolve="DropColumnRegexOperation" />
+    <node concept="3EZMnI" id="7B_tLL$i1ZJ" role="2wV5jI">
+      <node concept="3F0ifn" id="7B_tLL$i1ZQ" role="3EZMnx">
+        <property role="3F0ifm" value="drop columns which match" />
+        <node concept="Vb9p2" id="7B_tLL$i2Hs" role="3F10Kt" />
+      </node>
+      <node concept="3F0A7n" id="7B_tLL$i1ZW" role="3EZMnx">
+        <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+        <node concept="Vb9p2" id="7B_tLL$D6If" role="3F10Kt">
+          <property role="Vbekb" value="ITALIC" />
+        </node>
+      </node>
+      <node concept="2iRfu4" id="7B_tLL$i1ZM" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="7B_tLL$OBTW">
+    <property role="3GE5qa" value="operations" />
+    <ref role="1XX52x" to="jrxw:7B_tLL$D6MN" resolve="DropColumnWithGroupOperation" />
+    <node concept="3EZMnI" id="7B_tLL$OBU1" role="2wV5jI">
+      <node concept="3F0ifn" id="7B_tLL$OBU3" role="3EZMnx">
+        <property role="3F0ifm" value="drop column which have group" />
+        <node concept="Vb9p2" id="7B_tLL$OC24" role="3F10Kt" />
+      </node>
+      <node concept="3F1sOY" id="7B_tLL_02$Q" role="3EZMnx">
+        <ref role="1NtTu8" to="jrxw:7B_tLL$D7tG" />
+        <node concept="Vb9p2" id="7B_tLL_02$Y" role="3F10Kt">
+          <property role="Vbekb" value="ITALIC" />
+        </node>
+      </node>
+      <node concept="2iRfu4" id="7B_tLL$OBU4" role="2iSdaV" />
     </node>
   </node>
 </model>

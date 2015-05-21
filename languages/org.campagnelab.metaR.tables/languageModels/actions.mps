@@ -111,6 +111,7 @@
         <child id="1158700779049" name="nodeFactory" index="37WGs$" />
       </concept>
       <concept id="1158700725281" name="jetbrains.mps.lang.actions.structure.NodeFactory" flags="ig" index="37WvkG">
+        <property id="1158952310477" name="description" index="3mWdv0" />
         <reference id="1158700943156" name="applicableConcept" index="37XkoT" />
         <child id="1158701448518" name="setupFunction" index="37ZfLb" />
       </concept>
@@ -624,6 +625,34 @@
             </node>
           </node>
           <node concept="3clFbH" id="3FhMZyPw9ge" role="3cqZAp" />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="37WguZ" id="7B_tLL$tK2J">
+    <property role="TrG5h" value="RefreshTableFromOperation" />
+    <node concept="37WvkG" id="7B_tLL$tK2K" role="37WGs$">
+      <property role="3mWdv0" value="When a new operation is created, it will update the futur table" />
+      <ref role="37XkoT" to="jrxw:2WRhvFtldw5" resolve="TableTransformation" />
+      <node concept="37Y9Zx" id="7B_tLL$tKmV" role="37ZfLb">
+        <node concept="3clFbS" id="7B_tLL$tKmW" role="2VODD2">
+          <node concept="3clFbF" id="7B_tLL$tKn0" role="3cqZAp">
+            <node concept="2OqwBi" id="7B_tLL$tKv_" role="3clFbG">
+              <node concept="2OqwBi" id="7B_tLL$tKnX" role="2Oq$k0">
+                <node concept="1r4N1M" id="7B_tLL$tKmZ" role="2Oq$k0" />
+                <node concept="2Xjw5R" id="7B_tLL$tKtC" role="2OqNvi">
+                  <node concept="1xMEDy" id="7B_tLL$tKtE" role="1xVPHs">
+                    <node concept="chp4Y" id="7B_tLL$tKu8" role="ri$Ld">
+                      <ref role="cht4Q" to="jrxw:5iYlRBKtkRE" resolve="FutureTableCreator" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="2qgKlT" id="7B_tLL$tLz$" role="2OqNvi">
+                <ref role="37wK5l" to="v8sa:7S2MvlQNiSB" resolve="setInputChanged" />
+              </node>
+            </node>
+          </node>
         </node>
       </node>
     </node>

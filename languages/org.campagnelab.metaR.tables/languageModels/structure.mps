@@ -2039,5 +2039,39 @@
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
   </node>
+  <node concept="1TIwiD" id="7B_tLL$i0di">
+    <property role="3GE5qa" value="operations" />
+    <property role="TrG5h" value="DropColumnRegexOperation" />
+    <property role="34LRSv" value="drop columns which match" />
+    <property role="R4oN_" value="drop each column which contains this pattern" />
+    <ref role="1TJDcQ" node="3qa402_4D5K" resolve="TableOperation" />
+    <node concept="PrWs8" id="7B_tLL$i1ny" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+    <node concept="1TJgyj" id="7B_tLL_Aubn" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="columns" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" to="ztlb:1UijAvvb9DJ" resolve="Column" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="7B_tLL$D6MN">
+    <property role="3GE5qa" value="operations" />
+    <property role="TrG5h" value="DropColumnWithGroupOperation" />
+    <property role="34LRSv" value=" drop column which have group" />
+    <ref role="1TJDcQ" node="3qa402_4D5K" resolve="TableOperation" />
+    <node concept="1TJgyj" id="7B_tLL$D7tG" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="groupReference" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="2WRhvFtICK7" resolve="ColumnGroupReference" />
+    </node>
+    <node concept="1TJgyj" id="7B_tLL_BlAq" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="columns" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" to="ztlb:1UijAvvb9DJ" resolve="Column" />
+    </node>
+  </node>
 </model>
 
