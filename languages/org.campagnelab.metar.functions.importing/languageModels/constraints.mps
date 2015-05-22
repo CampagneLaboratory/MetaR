@@ -122,7 +122,7 @@
     <ref role="1M2myG" to="8t56:28AXeAEvZQe" resolve="FunctionDeclarationWrapper" />
   </node>
   <node concept="1M2fIO" id="4SiK8hI1C4V">
-    <ref role="1M2myG" to="8t56:2n2dP0rzrIW" resolve="ImportScript" />
+    <ref role="1M2myG" to="8t56:2n2dP0rzrIW" resolve="ImportStubs" />
     <node concept="1N5Pfh" id="4SiK8hI25xd" role="1Mr941">
       <ref role="1N5Vy1" to="8t56:2n2dP0rzyqm" />
       <node concept="3k9gUc" id="4SiK8hI2BHm" role="3kmjI7">
@@ -172,7 +172,7 @@
               <ref role="37wK5l" to="o8zo:4IP40Bi3eAf" resolve="forNamedElements" />
               <node concept="2OqwBi" id="4SiK8hI1Q$l" role="37wK5m">
                 <node concept="3lApI0" id="4SiK8hI1QFY" role="2OqNvi">
-                  <ref role="3lApI3" to="6q58:5mPDeVwiJFe" resolve="ProgramProg" />
+                  <ref role="3lApI3" to="8t56:213CARpfsHj" resolve="Stubs" />
                 </node>
                 <node concept="1Q6Npb" id="4SiK8hI34wS" role="2Oq$k0" />
               </node>
