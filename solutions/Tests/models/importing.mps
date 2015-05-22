@@ -6579,52 +6579,6 @@
       <node concept="S1EQe" id="2ExvV8p_QYA" role="ZXjPg">
         <property role="S1EQ6" value="QELQDCSMGU" />
       </node>
-      <node concept="S1EQe" id="2ExvV8p_RL_" role="ZXjPg">
-        <property role="S1EQ6" value="HPYJWQEPBG" />
-      </node>
-      <node concept="2pLU64" id="2ExvV8p_l1j" role="ZXjPg">
-        <property role="S1EQ6" value="CPFNBIATHW" />
-        <node concept="2obFJT" id="2ExvV8p_l1l" role="2pLU67">
-          <ref role="2obFw0" node="2ExvV8p_je6" resolve="pheatmap" />
-          <node concept="2PZJp2" id="2ExvV8p_lNU" role="2obFJS">
-            <node concept="gNbv0" id="2ExvV8p_lNV" role="134Gdu">
-              <node concept="V6WaX" id="2ExvV8p_lO4" role="gNbrm">
-                <property role="gNbhX" value="annotation" />
-                <ref role="eUkdk" node="2ExvV8p_jfm" />
-                <node concept="2PZJpm" id="2ExvV8p_lO6" role="gNbhV">
-                  <property role="pzxGI" value="ann" />
-                </node>
-              </node>
-              <node concept="V6WaU" id="2ExvV8p_lOb" role="gNbrm">
-                <node concept="V6WaX" id="2ExvV8p_lOm" role="gNbhV">
-                  <property role="gNbhX" value="color" />
-                  <ref role="eUkdk" node="2ExvV8p_jea" />
-                  <node concept="2PZJpm" id="2ExvV8p_lOo" role="gNbhV">
-                    <property role="pzxGI" value="red" />
-                  </node>
-                </node>
-              </node>
-            </node>
-            <node concept="3a69Ir" id="2ExvV8p_lNT" role="134Gdo">
-              <ref role="1Li74V" node="2ExvV8p_je6" resolve="pheatmap" />
-              <ref role="3a69Pm" node="2ExvV8p_je7" />
-            </node>
-          </node>
-        </node>
-      </node>
-      <node concept="2pLU64" id="2ExvV8pDfar" role="ZXjPg">
-        <property role="S1EQ6" value="CMQUTPFISE" />
-        <node concept="2obFJT" id="2ExvV8pDfat" role="2pLU67">
-          <ref role="2obFw0" node="2ExvV8pCB5q" resolve="heatdiagram" />
-          <node concept="2PZJp2" id="2ExvV8pDfXg" role="2obFJS">
-            <node concept="gNbv0" id="2ExvV8pDfXh" role="134Gdu" />
-            <node concept="3a69Ir" id="2ExvV8pDfXf" role="134Gdo">
-              <ref role="1Li74V" node="2ExvV8pCB5q" resolve="heatdiagram" />
-              <ref role="3a69Pm" node="2ExvV8pCB5r" />
-            </node>
-          </node>
-        </node>
-      </node>
     </node>
   </node>
   <node concept="2PZPSw" id="2n2dP0rAqaz">
