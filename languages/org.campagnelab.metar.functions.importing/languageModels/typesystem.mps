@@ -8,7 +8,6 @@
   <imports>
     <import index="fxg7" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.io(JDK/java.io@java_stub)" />
     <import index="8t56" ref="r:c30a0469-24e5-4b8a-89e7-0d2028c5aa49(org.campagnelab.metar.functions.importing.structure)" implicit="true" />
-    <import index="6q58" ref="r:97268463-8a58-42b7-9dc6-fa004b7a4308(org.campagnelab.metar.R.structure)" implicit="true" />
     <import index="798x" ref="r:1634ef7f-18ee-43e5-8286-5fcfc24745c4(org.campagnelab.metar.functions.importing.behavior)" implicit="true" />
   </imports>
   <registry>
@@ -130,7 +129,7 @@
         <node concept="3cpWsn" id="2ExvV8p$120" role="3cpWs9">
           <property role="TrG5h" value="script" />
           <node concept="3Tqbb2" id="2ExvV8p$1_B" role="1tU5fm">
-            <ref role="ehGHo" to="6q58:5mPDeVwiJFe" resolve="ProgramProg" />
+            <ref role="ehGHo" to="8t56:213CARpfsHj" resolve="Stubs" />
           </node>
           <node concept="2OqwBi" id="2ExvV8p$1DT" role="33vP2m">
             <node concept="1YBJjd" id="2ExvV8p$1Ak" role="2Oq$k0">
@@ -194,7 +193,7 @@
     <node concept="Q6JDH" id="2ExvV8p$2x6" role="Q6Id_">
       <property role="TrG5h" value="destinationScript" />
       <node concept="3Tqbb2" id="2ExvV8p$2xi" role="Q6QK4">
-        <ref role="ehGHo" to="6q58:5mPDeVwiJFe" resolve="ProgramProg" />
+        <ref role="ehGHo" to="8t56:213CARpfsHj" resolve="Stubs" />
       </node>
     </node>
     <node concept="Q5ZZ6" id="2ExvV8p$2wz" role="Q6x$H">
@@ -203,7 +202,7 @@
           <node concept="3cpWsn" id="2ExvV8pzRfT" role="3cpWs9">
             <property role="TrG5h" value="importScript" />
             <node concept="3Tqbb2" id="2ExvV8pzRfP" role="1tU5fm">
-              <ref role="ehGHo" to="8t56:2n2dP0rzrIW" resolve="ImportScript" />
+              <ref role="ehGHo" to="8t56:2n2dP0rzrIW" resolve="ImportStubs" />
             </node>
             <node concept="2OqwBi" id="2ExvV8pzS5b" role="33vP2m">
               <node concept="2OqwBi" id="2ExvV8pzRkp" role="2Oq$k0">
@@ -213,7 +212,7 @@
                 <node concept="I4A8Y" id="2ExvV8pzROE" role="2OqNvi" />
               </node>
               <node concept="I8ghe" id="2ExvV8pzSdW" role="2OqNvi">
-                <ref role="I8UWU" to="8t56:2n2dP0rzrIW" resolve="ImportScript" />
+                <ref role="I8UWU" to="8t56:2n2dP0rzrIW" resolve="ImportStubs" />
               </node>
             </node>
           </node>
