@@ -76,6 +76,7 @@
         <reference id="1144433057691" name="classifier" index="1PxDUh" />
       </concept>
       <concept id="1070534370425" name="jetbrains.mps.baseLanguage.structure.IntegerType" flags="in" index="10Oyi0" />
+      <concept id="1070534644030" name="jetbrains.mps.baseLanguage.structure.BooleanType" flags="in" index="10P_77" />
       <concept id="1068431474542" name="jetbrains.mps.baseLanguage.structure.VariableDeclaration" flags="ng" index="33uBYm">
         <child id="1068431790190" name="initializer" index="33vP2m" />
       </concept>
@@ -550,6 +551,24 @@
                     </node>
                   </node>
                 </node>
+                <node concept="3clFbF" id="213CARpkNC7" role="3cqZAp">
+                  <node concept="37vLTI" id="213CARpkO9g" role="3clFbG">
+                    <node concept="2OqwBi" id="213CARpkOKO" role="37vLTx">
+                      <node concept="13iPFW" id="213CARpkOH9" role="2Oq$k0" />
+                      <node concept="2qgKlT" id="213CARpkPiJ" role="2OqNvi">
+                        <ref role="37wK5l" node="213CARpkOdW" resolve="isBioconductor" />
+                      </node>
+                    </node>
+                    <node concept="2OqwBi" id="213CARpkNG6" role="37vLTJ">
+                      <node concept="37vLTw" id="213CARpkNC5" role="2Oq$k0">
+                        <ref role="3cqZAo" node="37vylYO6Zmi" resolve="script" />
+                      </node>
+                      <node concept="3TrcHB" id="213CARpkNTs" role="2OqNvi">
+                        <ref role="3TsBF5" to="8t56:213CARpgv5V" resolve="isBioconductor" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
                 <node concept="3clFbF" id="37vylYO5_PM" role="3cqZAp">
                   <node concept="2OqwBi" id="37vylYO5Aqg" role="3clFbG">
                     <node concept="37vLTw" id="37vylYO5_PK" role="2Oq$k0">
@@ -693,6 +712,19 @@
         </node>
         <node concept="x79VA" id="2ExvV8pzZEn" role="x79VK">
           <property role="x79VB" value="the script or null" />
+        </node>
+      </node>
+    </node>
+    <node concept="13i0hz" id="213CARpkOdW" role="13h7CS">
+      <property role="TrG5h" value="isBioconductor" />
+      <property role="13i0it" value="true" />
+      <node concept="3Tm1VV" id="213CARpkOdX" role="1B3o_S" />
+      <node concept="10P_77" id="213CARpkOGT" role="3clF45" />
+      <node concept="3clFbS" id="213CARpkOdZ" role="3clF47">
+        <node concept="3clFbF" id="213CARpkOGY" role="3cqZAp">
+          <node concept="3clFbT" id="213CARpkOGX" role="3clFbG">
+            <property role="3clFbU" value="false" />
+          </node>
         </node>
       </node>
     </node>
@@ -1270,6 +1302,27 @@
           </node>
         </node>
       </node>
+    </node>
+  </node>
+  <node concept="13h7C7" id="213CARpkJwj">
+    <ref role="13h7C2" to="8t56:213CARpkJw2" resolve="ImportBioconductorPackage" />
+    <node concept="13hLZK" id="213CARpkJwk" role="13h7CW">
+      <node concept="3clFbS" id="213CARpkJwl" role="2VODD2" />
+    </node>
+    <node concept="13i0hz" id="213CARpkXEv" role="13h7CS">
+      <property role="TrG5h" value="isBioconductor" />
+      <property role="13i0it" value="false" />
+      <property role="13i0iv" value="false" />
+      <ref role="13i0hy" node="213CARpkOdW" resolve="isBioconductor" />
+      <node concept="3Tm1VV" id="213CARpkXEw" role="1B3o_S" />
+      <node concept="3clFbS" id="213CARpkXE_" role="3clF47">
+        <node concept="3clFbF" id="213CARpkXGW" role="3cqZAp">
+          <node concept="3clFbT" id="213CARpkXGV" role="3clFbG">
+            <property role="3clFbU" value="true" />
+          </node>
+        </node>
+      </node>
+      <node concept="10P_77" id="213CARpkXEA" role="3clF45" />
     </node>
   </node>
 </model>
