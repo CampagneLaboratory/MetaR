@@ -1324,6 +1324,64 @@
       </node>
       <node concept="10P_77" id="213CARpkXEA" role="3clF45" />
     </node>
+    <node concept="13i0hz" id="213CARplwC$" role="13h7CS">
+      <property role="TrG5h" value="bioConductorDependencies" />
+      <property role="13i0it" value="false" />
+      <property role="13i0iv" value="false" />
+      <ref role="13i0hy" to="v8sa:5HtHr3EcEkC" resolve="bioConductorDependencies" />
+      <node concept="3Tm1VV" id="213CARplwC_" role="1B3o_S" />
+      <node concept="3clFbS" id="213CARplwCH" role="3clF47">
+        <node concept="3cpWs8" id="213CARplxni" role="3cqZAp">
+          <node concept="3cpWsn" id="213CARplxnj" role="3cpWs9">
+            <property role="TrG5h" value="packages" />
+            <node concept="_YKpA" id="213CARplxnk" role="1tU5fm">
+              <node concept="17QB3L" id="213CARplxnl" role="_ZDj9" />
+            </node>
+            <node concept="2ShNRf" id="213CARplxnm" role="33vP2m">
+              <node concept="Tc6Ow" id="213CARplxnn" role="2ShVmc">
+                <node concept="17QB3L" id="213CARplxno" role="HW$YZ" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbJ" id="213CARplxnp" role="3cqZAp">
+          <node concept="3clFbS" id="213CARplxnq" role="3clFbx">
+            <node concept="3clFbF" id="213CARplxnr" role="3cqZAp">
+              <node concept="2OqwBi" id="213CARplxns" role="3clFbG">
+                <node concept="37vLTw" id="213CARplxnt" role="2Oq$k0">
+                  <ref role="3cqZAo" node="213CARplxnj" resolve="packages" />
+                </node>
+                <node concept="TSZUe" id="213CARplxnu" role="2OqNvi">
+                  <node concept="2OqwBi" id="213CARplxnv" role="25WWJ7">
+                    <node concept="13iPFW" id="213CARplxnw" role="2Oq$k0" />
+                    <node concept="3TrcHB" id="213CARplxnx" role="2OqNvi">
+                      <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="2OqwBi" id="213CARplxny" role="3clFbw">
+            <node concept="2OqwBi" id="213CARplxnz" role="2Oq$k0">
+              <node concept="13iPFW" id="213CARplxn$" role="2Oq$k0" />
+              <node concept="3TrcHB" id="213CARplxn_" role="2OqNvi">
+                <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+              </node>
+            </node>
+            <node concept="17RvpY" id="213CARplxnA" role="2OqNvi" />
+          </node>
+        </node>
+        <node concept="3clFbF" id="213CARplxnB" role="3cqZAp">
+          <node concept="37vLTw" id="213CARplxnC" role="3clFbG">
+            <ref role="3cqZAo" node="213CARplxnj" resolve="packages" />
+          </node>
+        </node>
+      </node>
+      <node concept="A3Dl8" id="213CARplwCI" role="3clF45">
+        <node concept="17QB3L" id="213CARplwCJ" role="A3Ik2" />
+      </node>
+    </node>
   </node>
 </model>
 
