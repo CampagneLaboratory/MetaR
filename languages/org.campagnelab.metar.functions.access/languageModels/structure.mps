@@ -41,7 +41,7 @@
   </registry>
   <node concept="1TIwiD" id="YA$ymmojex">
     <property role="TrG5h" value="FunctionCallStatement" />
-    <property role="34LRSv" value="call function" />
+    <property role="34LRSv" value="eval" />
     <property role="R4oN_" value="invoke an imported R function" />
     <ref role="1TJDcQ" to="jrxw:7LvyiX4miiC" resolve="Statement" />
     <node concept="1TJgyj" id="YA$ymmojey" role="1TKVEi">
@@ -56,6 +56,7 @@
   </node>
   <node concept="1TIwiD" id="YA$ymny2Bs">
     <property role="TrG5h" value="ScopedFunctionCallWrapper" />
+    <property role="34LRSv" value="eval" />
     <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
     <node concept="1TJgyj" id="YA$ymny2C_" role="1TKVEi">
       <property role="20lmBu" value="reference" />

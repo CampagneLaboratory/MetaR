@@ -29,6 +29,7 @@
       </concept>
       <concept id="1073389214265" name="jetbrains.mps.lang.editor.structure.EditorCellModel" flags="ng" index="3EYTF0">
         <property id="1130859485024" name="attractsFocus" index="1cu_pB" />
+        <child id="1198512004906" name="focusPolicyApplicable" index="cStSX" />
         <child id="1142887637401" name="renderingCondition" index="pqm2j" />
       </concept>
       <concept id="1073389446423" name="jetbrains.mps.lang.editor.structure.CellModel_Collection" flags="sn" stub="3013115976261988961" index="3EZMnI">
@@ -81,7 +82,7 @@
     <node concept="3EZMnI" id="YA$ymny33Y" role="2wV5jI">
       <node concept="2iRfu4" id="YA$ymny33Z" role="2iSdaV" />
       <node concept="3F0ifn" id="2ExvV8pupBg" role="3EZMnx">
-        <property role="3F0ifm" value="call" />
+        <property role="3F0ifm" value="eval" />
       </node>
       <node concept="1iCGBv" id="YA$ymny341" role="3EZMnx">
         <property role="1$x2rV" value="select function" />
@@ -104,6 +105,21 @@
                   </node>
                 </node>
                 <node concept="3w_OXm" id="YA$ymny34b" role="2OqNvi" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="pkWqt" id="37vylYOaoqq" role="cStSX">
+          <node concept="3clFbS" id="37vylYOaoqr" role="2VODD2">
+            <node concept="3clFbF" id="37vylYOaowY" role="3cqZAp">
+              <node concept="2OqwBi" id="37vylYOapqN" role="3clFbG">
+                <node concept="2OqwBi" id="37vylYOaoEU" role="2Oq$k0">
+                  <node concept="pncrf" id="37vylYOaoA8" role="2Oq$k0" />
+                  <node concept="3TrEf2" id="37vylYOap7w" role="2OqNvi">
+                    <ref role="3Tt5mk" to="89bg:YA$ymny2Bt" />
+                  </node>
+                </node>
+                <node concept="3w_OXm" id="37vylYOapEd" role="2OqNvi" />
               </node>
             </node>
           </node>
