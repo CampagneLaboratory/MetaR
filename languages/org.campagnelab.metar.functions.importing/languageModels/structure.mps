@@ -68,8 +68,8 @@
     </node>
   </node>
   <node concept="1TIwiD" id="2n2dP0rzrIW">
-    <property role="TrG5h" value="ImportScript" />
-    <property role="34LRSv" value="import script" />
+    <property role="TrG5h" value="ImportStubs" />
+    <property role="34LRSv" value="import stubs" />
     <property role="R4oN_" value="Import functions from an R script" />
     <ref role="1TJDcQ" node="2n2dP0rz_yE" resolve="ImportFrom" />
     <node concept="1TJgyj" id="2n2dP0rzyqm" role="1TKVEi">
