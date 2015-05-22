@@ -121,5 +121,11 @@
       <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
     </node>
   </node>
+  <node concept="1TIwiD" id="213CARpkJw2">
+    <property role="TrG5h" value="ImportBioconductorPackage" />
+    <property role="34LRSv" value="import bioconductor package" />
+    <property role="R4oN_" value="Import functions from a bioconductor R package" />
+    <ref role="1TJDcQ" node="7BS5aCD41ov" resolve="ImportPackage" />
+  </node>
 </model>
 
