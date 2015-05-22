@@ -12,6 +12,52 @@
     <import index="4tsn" ref="r:97aeaa4f-346d-4633-b5a0-99879648272c(stubs_3_1_3)" />
   </imports>
   <registry>
+    <language id="3b58810c-8431-4bbb-99ea-b4671e02dd13" name="org.campagnelab.metar.R">
+      <concept id="489068675543418436" name="org.campagnelab.metar.R.structure.SimpleAssignment" flags="ng" index="22gccq" />
+      <concept id="5770663561153558147" name="org.campagnelab.metar.R.structure.ParameterValue" flags="ng" index="gNblG">
+        <child id="5770663561153558420" name="value" index="gNbhV" />
+      </concept>
+      <concept id="5770663561153557551" name="org.campagnelab.metar.R.structure.ParameterValues" flags="ng" index="gNbv0">
+        <child id="5770663561153557817" name="values" index="gNbrm" />
+      </concept>
+      <concept id="4798834304115080351" name="org.campagnelab.metar.R.structure.FunctionParamDeclarationList" flags="ng" index="2i91V0">
+        <child id="4798834304115073747" name="params" index="2i902c" />
+      </concept>
+      <concept id="4798834304115080350" name="org.campagnelab.metar.R.structure.ParameterDeclaration" flags="ng" index="2i91V1">
+        <property id="4798834304115080702" name="id" index="2i91Yx" />
+        <child id="4798834304115080355" name="defaultValue" index="2i91VW" />
+      </concept>
+      <concept id="4798834304115080354" name="org.campagnelab.metar.R.structure.VarargsParameter" flags="ng" index="2i91VX" />
+      <concept id="1229604057012669901" name="org.campagnelab.metar.R.structure.BooleanLiteral" flags="ng" index="pzIeH">
+        <property id="1229604057012669902" name="value" index="pzIeI" />
+      </concept>
+      <concept id="6247096756517946181" name="org.campagnelab.metar.R.structure.BinaryOperatorExpr" flags="ng" index="2v3moz">
+        <child id="489068675543818492" name="operator" index="22hImy" />
+        <child id="6247096756517946182" name="left" index="2v3mow" />
+        <child id="6247096756517946184" name="right" index="2v3moI" />
+      </concept>
+      <concept id="6176023809880707778" name="org.campagnelab.metar.R.structure.FalseLiteralExpr" flags="ng" index="2PZJoG" />
+      <concept id="6176023809880707777" name="org.campagnelab.metar.R.structure.TrueLiteralExpr" flags="ng" index="2PZJoJ" />
+      <concept id="6176023809880707756" name="org.campagnelab.metar.R.structure.FunctionCallExpr" flags="ng" index="2PZJp2">
+        <child id="3737166271524886452" name="id" index="134Gdo" />
+        <child id="3737166271524886450" name="parameters" index="134Gdu" />
+      </concept>
+      <concept id="6176023809880707754" name="org.campagnelab.metar.R.structure.AssignmentOperatorExpr" flags="ng" index="2PZJp4" />
+      <concept id="6176023809880707755" name="org.campagnelab.metar.R.structure.FunctionDeclarationExpr" flags="ng" index="2PZJp5">
+        <child id="1499760628228483064" name="parameters" index="1LvdYw" />
+        <child id="1499760628228483062" name="body" index="1LvdYI" />
+      </concept>
+      <concept id="6176023809880707774" name="org.campagnelab.metar.R.structure.NAExpr" flags="ng" index="2PZJpg" />
+      <concept id="6176023809880707773" name="org.campagnelab.metar.R.structure.NullExpr" flags="ng" index="2PZJpj" />
+      <concept id="6176023809880707770" name="org.campagnelab.metar.R.structure.IntLiteralExpr" flags="ng" index="2PZJpk">
+        <property id="1229604057012663654" name="value" index="pzxG6" />
+      </concept>
+      <concept id="6176023809880707768" name="org.campagnelab.metar.R.structure.StringLiteralExpr" flags="ng" index="2PZJpm">
+        <property id="1229604057012663630" name="value" index="pzxGI" />
+      </concept>
+      <concept id="6176023809880707767" name="org.campagnelab.metar.R.structure.Identifier" flags="ng" index="2PZJpp" />
+      <concept id="4933197140516011539" name="org.campagnelab.metar.R.structure.PositionalParameterValue" flags="ng" index="V6WaU" />
+    </language>
     <language id="c1747c67-8f42-4d83-9542-4a948aec17d9" name="org.campagnelab.metar.functions.importing">
       <concept id="2460923530829626766" name="org.campagnelab.metar.functions.importing.structure.FunctionDeclarationWrapper" flags="ng" index="28mg_B">
         <reference id="2460923530829627745" name="functionRef" index="28DJm8" />
@@ -22,15 +68,9 @@
       <concept id="2720797942084385724" name="org.campagnelab.metar.functions.importing.structure.ImportStubs" flags="ng" index="YjSNG">
         <reference id="2720797942084413078" name="prog" index="Yj176" />
       </concept>
-      <concept id="8788797393879438879" name="org.campagnelab.metar.functions.importing.structure.ImportPackage" flags="ng" index="1gU0aP">
-        <property id="702091750405881018" name="sourceFile" index="J4Iw0" />
-      </concept>
-      <concept id="2324880425334536194" name="org.campagnelab.metar.functions.importing.structure.ImportBioconductorPackage" flags="ng" index="3T4lDJ" />
-    </language>
-    <language id="64c90466-09b2-41ab-89f8-5085b3b9eca7" name="org.campagnelab.metar.functions.access">
-      <concept id="1127749446856616412" name="org.campagnelab.metar.functions.access.structure.ScopedFunctionCallWrapper" flags="ng" index="2obFJT" />
-      <concept id="1127749446837285793" name="org.campagnelab.metar.functions.access.structure.FunctionCallStatement" flags="ng" index="2pLU64">
-        <child id="1127749446837285794" name="call" index="2pLU67" />
+      <concept id="2324880425333148499" name="org.campagnelab.metar.functions.importing.structure.Stubs" flags="ng" index="3TvA$Y">
+        <property id="2324880425333420411" name="isBioconductor" index="3T0_cm" />
+        <child id="1229604057017832866" name="functions" index="pZjJ2" />
       </concept>
     </language>
     <language id="5d6bde84-4ce4-4eb5-a37e-25a5edd55129" name="org.campagnelab.metar.tables">
@@ -41,7 +81,6 @@
         <property id="2742007948298959018" name="trycatch_enabled" index="2BDq$p" />
         <child id="8962032619593737383" name="statements" index="S1EQ8" />
       </concept>
-      <concept id="8962032619593737377" name="org.campagnelab.metar.tables.structure.EmptyLine" flags="ng" index="S1EQe" />
       <concept id="8962032619582305406" name="org.campagnelab.metar.tables.structure.StatementList" flags="ng" index="ZXjPh">
         <child id="8962032619582305407" name="transformations" index="ZXjPg" />
       </concept>
@@ -5864,18 +5903,719 @@
           <ref role="28DJm8" to="c1ho:213CARpjQvj" />
         </node>
       </node>
-      <node concept="S1EQe" id="213CARpkvvA" role="ZXjPg">
-        <property role="S1EQ6" value="DMXLWEOWNH" />
-      </node>
-      <node concept="3T4lDJ" id="213CARplEwB" role="ZXjPg">
-        <property role="S1EQ6" value="HDILCBPOJY" />
+      <node concept="YjSNG" id="213CARpmRii" role="ZXjPg">
+        <property role="S1EQ6" value="GSRLHQOMJP" />
         <property role="TrG5h" value="biomaRt" />
-        <property role="J4Iw0" value="/Users/mas2182/temp/metaR_results/importing/biomaRt.stubs.R" />
+        <ref role="Yj176" node="213CARpmPfv" resolve="biomaRt" />
+        <node concept="28mg_B" id="213CARpmRij" role="Yj6Zy">
+          <property role="TrG5h" value="NP2009code" />
+          <ref role="28DJm8" node="213CARpmPfw" />
+        </node>
+        <node concept="28mg_B" id="213CARpmRik" role="Yj6Zy">
+          <property role="TrG5h" value="attributePages" />
+          <ref role="28DJm8" node="213CARpmPf_" />
+        </node>
+        <node concept="28mg_B" id="213CARpmRil" role="Yj6Zy">
+          <property role="TrG5h" value="columns" />
+          <ref role="28DJm8" node="213CARpmPfG" />
+        </node>
+        <node concept="28mg_B" id="213CARpmRim" role="Yj6Zy">
+          <property role="TrG5h" value="exportFASTA" />
+          <ref role="28DJm8" node="213CARpmPfN" />
+        </node>
+        <node concept="28mg_B" id="213CARpmRin" role="Yj6Zy">
+          <property role="TrG5h" value="filterOptions" />
+          <ref role="28DJm8" node="213CARpmPfV" />
+        </node>
+        <node concept="28mg_B" id="213CARpmRio" role="Yj6Zy">
+          <property role="TrG5h" value="filterType" />
+          <ref role="28DJm8" node="213CARpmPg3" />
+        </node>
+        <node concept="28mg_B" id="213CARpmRip" role="Yj6Zy">
+          <property role="TrG5h" value="getBM" />
+          <ref role="28DJm8" node="213CARpmPgb" />
+        </node>
+        <node concept="28mg_B" id="213CARpmRiq" role="Yj6Zy">
+          <property role="TrG5h" value="getBMlist" />
+          <ref role="28DJm8" node="213CARpmPgx" />
+        </node>
+        <node concept="28mg_B" id="213CARpmRir" role="Yj6Zy">
+          <property role="TrG5h" value="getGene" />
+          <ref role="28DJm8" node="213CARpmPgP" />
+        </node>
+        <node concept="28mg_B" id="213CARpmRis" role="Yj6Zy">
+          <property role="TrG5h" value="getLDS" />
+          <ref role="28DJm8" node="213CARpmPgY" />
+        </node>
+        <node concept="28mg_B" id="213CARpmRit" role="Yj6Zy">
+          <property role="TrG5h" value="getSequence" />
+          <ref role="28DJm8" node="213CARpmPhm" />
+        </node>
+        <node concept="28mg_B" id="213CARpmRiu" role="Yj6Zy">
+          <property role="TrG5h" value="getXML" />
+          <ref role="28DJm8" node="213CARpmPhB" />
+        </node>
+        <node concept="28mg_B" id="213CARpmRiv" role="Yj6Zy">
+          <property role="TrG5h" value="keys" />
+          <ref role="28DJm8" node="213CARpmPhK" />
+        </node>
+        <node concept="28mg_B" id="213CARpmRiw" role="Yj6Zy">
+          <property role="TrG5h" value="keytypes" />
+          <ref role="28DJm8" node="213CARpmPhT" />
+        </node>
+        <node concept="28mg_B" id="213CARpmRix" role="Yj6Zy">
+          <property role="TrG5h" value="listAttributes" />
+          <ref role="28DJm8" node="213CARpmPi0" />
+        </node>
+        <node concept="28mg_B" id="213CARpmRiy" role="Yj6Zy">
+          <property role="TrG5h" value="listDatasets" />
+          <ref role="28DJm8" node="213CARpmPig" />
+        </node>
+        <node concept="28mg_B" id="213CARpmRiz" role="Yj6Zy">
+          <property role="TrG5h" value="listFilters" />
+          <ref role="28DJm8" node="213CARpmPip" />
+        </node>
+        <node concept="28mg_B" id="213CARpmRi$" role="Yj6Zy">
+          <property role="TrG5h" value="listMarts" />
+          <ref role="28DJm8" node="213CARpmPiC" />
+        </node>
+        <node concept="28mg_B" id="213CARpmRi_" role="Yj6Zy">
+          <property role="TrG5h" value="select" />
+          <ref role="28DJm8" node="213CARpmPiY" />
+        </node>
+        <node concept="28mg_B" id="213CARpmRiA" role="Yj6Zy">
+          <property role="TrG5h" value="show" />
+          <ref role="28DJm8" node="213CARpmPj9" />
+        </node>
+        <node concept="28mg_B" id="213CARpmRiB" role="Yj6Zy">
+          <property role="TrG5h" value="useDataset" />
+          <ref role="28DJm8" node="213CARpmPjg" />
+        </node>
+        <node concept="28mg_B" id="213CARpmRiC" role="Yj6Zy">
+          <property role="TrG5h" value="useMart" />
+          <ref role="28DJm8" node="213CARpmPjq" />
+        </node>
       </node>
-      <node concept="2pLU64" id="213CARpkpFe" role="ZXjPg">
-        <property role="S1EQ6" value="YOOWNMWAXJ" />
-        <node concept="2obFJT" id="213CARpkpFg" role="2pLU67" />
+    </node>
+  </node>
+  <node concept="3TvA$Y" id="213CARpmPfv">
+    <property role="3T0_cm" value="true" />
+    <property role="TrG5h" value="biomaRt" />
+    <node concept="2PZJp4" id="213CARpmPfw" role="pZjJ2">
+      <node concept="2PZJpp" id="213CARpmPfx" role="2v3mow">
+        <property role="TrG5h" value="NP2009code" />
       </node>
+      <node concept="2PZJp5" id="213CARpmPfy" role="2v3moI">
+        <node concept="2PZJpj" id="213CARpmPfz" role="1LvdYI" />
+      </node>
+      <node concept="22gccq" id="213CARpmPf$" role="22hImy" />
+    </node>
+    <node concept="2PZJp4" id="213CARpmPf_" role="pZjJ2">
+      <node concept="2PZJpp" id="213CARpmPfA" role="2v3mow">
+        <property role="TrG5h" value="attributePages" />
+      </node>
+      <node concept="2PZJp5" id="213CARpmPfB" role="2v3moI">
+        <node concept="2i91V0" id="213CARpmPfC" role="1LvdYw">
+          <node concept="2i91V1" id="213CARpmPfD" role="2i902c">
+            <property role="2i91Yx" value="mart" />
+          </node>
+        </node>
+        <node concept="2PZJpj" id="213CARpmPfE" role="1LvdYI" />
+      </node>
+      <node concept="22gccq" id="213CARpmPfF" role="22hImy" />
+    </node>
+    <node concept="2PZJp4" id="213CARpmPfG" role="pZjJ2">
+      <node concept="2PZJpp" id="213CARpmPfH" role="2v3mow">
+        <property role="TrG5h" value="columns" />
+      </node>
+      <node concept="2PZJp5" id="213CARpmPfI" role="2v3moI">
+        <node concept="2i91V0" id="213CARpmPfJ" role="1LvdYw">
+          <node concept="2i91V1" id="213CARpmPfK" role="2i902c">
+            <property role="2i91Yx" value="x" />
+          </node>
+        </node>
+        <node concept="2PZJpj" id="213CARpmPfL" role="1LvdYI" />
+      </node>
+      <node concept="22gccq" id="213CARpmPfM" role="22hImy" />
+    </node>
+    <node concept="2PZJp4" id="213CARpmPfN" role="pZjJ2">
+      <node concept="2PZJpp" id="213CARpmPfO" role="2v3mow">
+        <property role="TrG5h" value="exportFASTA" />
+      </node>
+      <node concept="2PZJp5" id="213CARpmPfP" role="2v3moI">
+        <node concept="2i91V0" id="213CARpmPfQ" role="1LvdYw">
+          <node concept="2i91V1" id="213CARpmPfR" role="2i902c">
+            <property role="2i91Yx" value="sequences" />
+          </node>
+          <node concept="2i91V1" id="213CARpmPfS" role="2i902c">
+            <property role="2i91Yx" value="file" />
+          </node>
+        </node>
+        <node concept="2PZJpj" id="213CARpmPfT" role="1LvdYI" />
+      </node>
+      <node concept="22gccq" id="213CARpmPfU" role="22hImy" />
+    </node>
+    <node concept="2PZJp4" id="213CARpmPfV" role="pZjJ2">
+      <node concept="2PZJpp" id="213CARpmPfW" role="2v3mow">
+        <property role="TrG5h" value="filterOptions" />
+      </node>
+      <node concept="2PZJp5" id="213CARpmPfX" role="2v3moI">
+        <node concept="2i91V0" id="213CARpmPfY" role="1LvdYw">
+          <node concept="2i91V1" id="213CARpmPfZ" role="2i902c">
+            <property role="2i91Yx" value="filter" />
+          </node>
+          <node concept="2i91V1" id="213CARpmPg0" role="2i902c">
+            <property role="2i91Yx" value="mart" />
+          </node>
+        </node>
+        <node concept="2PZJpj" id="213CARpmPg1" role="1LvdYI" />
+      </node>
+      <node concept="22gccq" id="213CARpmPg2" role="22hImy" />
+    </node>
+    <node concept="2PZJp4" id="213CARpmPg3" role="pZjJ2">
+      <node concept="2PZJpp" id="213CARpmPg4" role="2v3mow">
+        <property role="TrG5h" value="filterType" />
+      </node>
+      <node concept="2PZJp5" id="213CARpmPg5" role="2v3moI">
+        <node concept="2i91V0" id="213CARpmPg6" role="1LvdYw">
+          <node concept="2i91V1" id="213CARpmPg7" role="2i902c">
+            <property role="2i91Yx" value="filter" />
+          </node>
+          <node concept="2i91V1" id="213CARpmPg8" role="2i902c">
+            <property role="2i91Yx" value="mart" />
+          </node>
+        </node>
+        <node concept="2PZJpj" id="213CARpmPg9" role="1LvdYI" />
+      </node>
+      <node concept="22gccq" id="213CARpmPga" role="22hImy" />
+    </node>
+    <node concept="2PZJp4" id="213CARpmPgb" role="pZjJ2">
+      <node concept="2PZJpp" id="213CARpmPgc" role="2v3mow">
+        <property role="TrG5h" value="getBM" />
+      </node>
+      <node concept="2PZJp5" id="213CARpmPgd" role="2v3moI">
+        <node concept="2i91V0" id="213CARpmPge" role="1LvdYw">
+          <node concept="2i91V1" id="213CARpmPgf" role="2i902c">
+            <property role="2i91Yx" value="attributes" />
+          </node>
+          <node concept="2i91V1" id="213CARpmPgg" role="2i902c">
+            <property role="2i91Yx" value="filters" />
+            <node concept="2PZJpm" id="213CARpmPgh" role="2i91VW">
+              <property role="pzxGI" value="" />
+            </node>
+          </node>
+          <node concept="2i91V1" id="213CARpmPgi" role="2i902c">
+            <property role="2i91Yx" value="values" />
+            <node concept="2PZJpm" id="213CARpmPgj" role="2i91VW">
+              <property role="pzxGI" value="" />
+            </node>
+          </node>
+          <node concept="2i91V1" id="213CARpmPgk" role="2i902c">
+            <property role="2i91Yx" value="mart" />
+          </node>
+          <node concept="2i91V1" id="213CARpmPgl" role="2i902c">
+            <property role="2i91Yx" value="curl" />
+            <node concept="2PZJpj" id="213CARpmPgm" role="2i91VW" />
+          </node>
+          <node concept="2i91V1" id="213CARpmPgn" role="2i902c">
+            <property role="2i91Yx" value="checkFilters" />
+            <node concept="2PZJoJ" id="213CARpmPgo" role="2i91VW">
+              <property role="pzIeI" value="true" />
+            </node>
+          </node>
+          <node concept="2i91V1" id="213CARpmPgp" role="2i902c">
+            <property role="2i91Yx" value="verbose" />
+            <node concept="2PZJoG" id="213CARpmPgq" role="2i91VW" />
+          </node>
+          <node concept="2i91V1" id="213CARpmPgr" role="2i902c">
+            <property role="2i91Yx" value="uniqueRows" />
+            <node concept="2PZJoJ" id="213CARpmPgs" role="2i91VW">
+              <property role="pzIeI" value="true" />
+            </node>
+          </node>
+          <node concept="2i91V1" id="213CARpmPgt" role="2i902c">
+            <property role="2i91Yx" value="bmHeader" />
+            <node concept="2PZJoG" id="213CARpmPgu" role="2i91VW" />
+          </node>
+        </node>
+        <node concept="2PZJpj" id="213CARpmPgv" role="1LvdYI" />
+      </node>
+      <node concept="22gccq" id="213CARpmPgw" role="22hImy" />
+    </node>
+    <node concept="2PZJp4" id="213CARpmPgx" role="pZjJ2">
+      <node concept="2PZJpp" id="213CARpmPgy" role="2v3mow">
+        <property role="TrG5h" value="getBMlist" />
+      </node>
+      <node concept="2PZJp5" id="213CARpmPgz" role="2v3moI">
+        <node concept="2i91V0" id="213CARpmPg$" role="1LvdYw">
+          <node concept="2i91V1" id="213CARpmPg_" role="2i902c">
+            <property role="2i91Yx" value="attributes" />
+          </node>
+          <node concept="2i91V1" id="213CARpmPgA" role="2i902c">
+            <property role="2i91Yx" value="filters" />
+            <node concept="2PZJpm" id="213CARpmPgB" role="2i91VW">
+              <property role="pzxGI" value="" />
+            </node>
+          </node>
+          <node concept="2i91V1" id="213CARpmPgC" role="2i902c">
+            <property role="2i91Yx" value="values" />
+            <node concept="2PZJpm" id="213CARpmPgD" role="2i91VW">
+              <property role="pzxGI" value="" />
+            </node>
+          </node>
+          <node concept="2i91V1" id="213CARpmPgE" role="2i902c">
+            <property role="2i91Yx" value="mart" />
+          </node>
+          <node concept="2i91V1" id="213CARpmPgF" role="2i902c">
+            <property role="2i91Yx" value="list.names" />
+            <node concept="2PZJpj" id="213CARpmPgG" role="2i91VW" />
+          </node>
+          <node concept="2i91V1" id="213CARpmPgH" role="2i902c">
+            <property role="2i91Yx" value="na.value" />
+            <node concept="2PZJpg" id="213CARpmPgI" role="2i91VW" />
+          </node>
+          <node concept="2i91V1" id="213CARpmPgJ" role="2i902c">
+            <property role="2i91Yx" value="verbose" />
+            <node concept="2PZJoG" id="213CARpmPgK" role="2i91VW" />
+          </node>
+          <node concept="2i91V1" id="213CARpmPgL" role="2i902c">
+            <property role="2i91Yx" value="giveWarning" />
+            <node concept="2PZJoJ" id="213CARpmPgM" role="2i91VW">
+              <property role="pzIeI" value="true" />
+            </node>
+          </node>
+        </node>
+        <node concept="2PZJpj" id="213CARpmPgN" role="1LvdYI" />
+      </node>
+      <node concept="22gccq" id="213CARpmPgO" role="22hImy" />
+    </node>
+    <node concept="2PZJp4" id="213CARpmPgP" role="pZjJ2">
+      <node concept="2PZJpp" id="213CARpmPgQ" role="2v3mow">
+        <property role="TrG5h" value="getGene" />
+      </node>
+      <node concept="2PZJp5" id="213CARpmPgR" role="2v3moI">
+        <node concept="2i91V0" id="213CARpmPgS" role="1LvdYw">
+          <node concept="2i91V1" id="213CARpmPgT" role="2i902c">
+            <property role="2i91Yx" value="id" />
+          </node>
+          <node concept="2i91V1" id="213CARpmPgU" role="2i902c">
+            <property role="2i91Yx" value="type" />
+          </node>
+          <node concept="2i91V1" id="213CARpmPgV" role="2i902c">
+            <property role="2i91Yx" value="mart" />
+          </node>
+        </node>
+        <node concept="2PZJpj" id="213CARpmPgW" role="1LvdYI" />
+      </node>
+      <node concept="22gccq" id="213CARpmPgX" role="22hImy" />
+    </node>
+    <node concept="2PZJp4" id="213CARpmPgY" role="pZjJ2">
+      <node concept="2PZJpp" id="213CARpmPgZ" role="2v3mow">
+        <property role="TrG5h" value="getLDS" />
+      </node>
+      <node concept="2PZJp5" id="213CARpmPh0" role="2v3moI">
+        <node concept="2i91V0" id="213CARpmPh1" role="1LvdYw">
+          <node concept="2i91V1" id="213CARpmPh2" role="2i902c">
+            <property role="2i91Yx" value="attributes" />
+          </node>
+          <node concept="2i91V1" id="213CARpmPh3" role="2i902c">
+            <property role="2i91Yx" value="filters" />
+            <node concept="2PZJpm" id="213CARpmPh4" role="2i91VW">
+              <property role="pzxGI" value="" />
+            </node>
+          </node>
+          <node concept="2i91V1" id="213CARpmPh5" role="2i902c">
+            <property role="2i91Yx" value="values" />
+            <node concept="2PZJpm" id="213CARpmPh6" role="2i91VW">
+              <property role="pzxGI" value="" />
+            </node>
+          </node>
+          <node concept="2i91V1" id="213CARpmPh7" role="2i902c">
+            <property role="2i91Yx" value="mart" />
+          </node>
+          <node concept="2i91V1" id="213CARpmPh8" role="2i902c">
+            <property role="2i91Yx" value="attributesL" />
+          </node>
+          <node concept="2i91V1" id="213CARpmPh9" role="2i902c">
+            <property role="2i91Yx" value="filtersL" />
+            <node concept="2PZJpm" id="213CARpmPha" role="2i91VW">
+              <property role="pzxGI" value="" />
+            </node>
+          </node>
+          <node concept="2i91V1" id="213CARpmPhb" role="2i902c">
+            <property role="2i91Yx" value="valuesL" />
+            <node concept="2PZJpm" id="213CARpmPhc" role="2i91VW">
+              <property role="pzxGI" value="" />
+            </node>
+          </node>
+          <node concept="2i91V1" id="213CARpmPhd" role="2i902c">
+            <property role="2i91Yx" value="martL" />
+          </node>
+          <node concept="2i91V1" id="213CARpmPhe" role="2i902c">
+            <property role="2i91Yx" value="verbose" />
+            <node concept="2PZJoG" id="213CARpmPhf" role="2i91VW" />
+          </node>
+          <node concept="2i91V1" id="213CARpmPhg" role="2i902c">
+            <property role="2i91Yx" value="uniqueRows" />
+            <node concept="2PZJoJ" id="213CARpmPhh" role="2i91VW">
+              <property role="pzIeI" value="true" />
+            </node>
+          </node>
+          <node concept="2i91V1" id="213CARpmPhi" role="2i902c">
+            <property role="2i91Yx" value="bmHeader" />
+            <node concept="2PZJoJ" id="213CARpmPhj" role="2i91VW">
+              <property role="pzIeI" value="true" />
+            </node>
+          </node>
+        </node>
+        <node concept="2PZJpj" id="213CARpmPhk" role="1LvdYI" />
+      </node>
+      <node concept="22gccq" id="213CARpmPhl" role="22hImy" />
+    </node>
+    <node concept="2PZJp4" id="213CARpmPhm" role="pZjJ2">
+      <node concept="2PZJpp" id="213CARpmPhn" role="2v3mow">
+        <property role="TrG5h" value="getSequence" />
+      </node>
+      <node concept="2PZJp5" id="213CARpmPho" role="2v3moI">
+        <node concept="2i91V0" id="213CARpmPhp" role="1LvdYw">
+          <node concept="2i91V1" id="213CARpmPhq" role="2i902c">
+            <property role="2i91Yx" value="chromosome" />
+          </node>
+          <node concept="2i91V1" id="213CARpmPhr" role="2i902c">
+            <property role="2i91Yx" value="start" />
+          </node>
+          <node concept="2i91V1" id="213CARpmPhs" role="2i902c">
+            <property role="2i91Yx" value="end" />
+          </node>
+          <node concept="2i91V1" id="213CARpmPht" role="2i902c">
+            <property role="2i91Yx" value="id" />
+          </node>
+          <node concept="2i91V1" id="213CARpmPhu" role="2i902c">
+            <property role="2i91Yx" value="type" />
+          </node>
+          <node concept="2i91V1" id="213CARpmPhv" role="2i902c">
+            <property role="2i91Yx" value="seqType" />
+          </node>
+          <node concept="2i91V1" id="213CARpmPhw" role="2i902c">
+            <property role="2i91Yx" value="upstream" />
+          </node>
+          <node concept="2i91V1" id="213CARpmPhx" role="2i902c">
+            <property role="2i91Yx" value="downstream" />
+          </node>
+          <node concept="2i91V1" id="213CARpmPhy" role="2i902c">
+            <property role="2i91Yx" value="mart" />
+          </node>
+          <node concept="2i91V1" id="213CARpmPhz" role="2i902c">
+            <property role="2i91Yx" value="verbose" />
+            <node concept="2PZJoG" id="213CARpmPh$" role="2i91VW" />
+          </node>
+        </node>
+        <node concept="2PZJpj" id="213CARpmPh_" role="1LvdYI" />
+      </node>
+      <node concept="22gccq" id="213CARpmPhA" role="22hImy" />
+    </node>
+    <node concept="2PZJp4" id="213CARpmPhB" role="pZjJ2">
+      <node concept="2PZJpp" id="213CARpmPhC" role="2v3mow">
+        <property role="TrG5h" value="getXML" />
+      </node>
+      <node concept="2PZJp5" id="213CARpmPhD" role="2v3moI">
+        <node concept="2i91V0" id="213CARpmPhE" role="1LvdYw">
+          <node concept="2i91V1" id="213CARpmPhF" role="2i902c">
+            <property role="2i91Yx" value="host" />
+            <node concept="2PZJpm" id="213CARpmPhG" role="2i91VW">
+              <property role="pzxGI" value="http://www.biomart.org/biomart/martservice?" />
+            </node>
+          </node>
+          <node concept="2i91V1" id="213CARpmPhH" role="2i902c">
+            <property role="2i91Yx" value="xmlquery" />
+          </node>
+        </node>
+        <node concept="2PZJpj" id="213CARpmPhI" role="1LvdYI" />
+      </node>
+      <node concept="22gccq" id="213CARpmPhJ" role="22hImy" />
+    </node>
+    <node concept="2PZJp4" id="213CARpmPhK" role="pZjJ2">
+      <node concept="2PZJpp" id="213CARpmPhL" role="2v3mow">
+        <property role="TrG5h" value="keys" />
+      </node>
+      <node concept="2PZJp5" id="213CARpmPhM" role="2v3moI">
+        <node concept="2i91V0" id="213CARpmPhN" role="1LvdYw">
+          <node concept="2i91V1" id="213CARpmPhO" role="2i902c">
+            <property role="2i91Yx" value="x" />
+          </node>
+          <node concept="2i91V1" id="213CARpmPhP" role="2i902c">
+            <property role="2i91Yx" value="keytype" />
+          </node>
+          <node concept="2i91VX" id="213CARpmPRe" role="2i902c" />
+        </node>
+        <node concept="2PZJpj" id="213CARpmPhR" role="1LvdYI" />
+      </node>
+      <node concept="22gccq" id="213CARpmPhS" role="22hImy" />
+    </node>
+    <node concept="2PZJp4" id="213CARpmPhT" role="pZjJ2">
+      <node concept="2PZJpp" id="213CARpmPhU" role="2v3mow">
+        <property role="TrG5h" value="keytypes" />
+      </node>
+      <node concept="2PZJp5" id="213CARpmPhV" role="2v3moI">
+        <node concept="2i91V0" id="213CARpmPhW" role="1LvdYw">
+          <node concept="2i91V1" id="213CARpmPhX" role="2i902c">
+            <property role="2i91Yx" value="x" />
+          </node>
+        </node>
+        <node concept="2PZJpj" id="213CARpmPhY" role="1LvdYI" />
+      </node>
+      <node concept="22gccq" id="213CARpmPhZ" role="22hImy" />
+    </node>
+    <node concept="2PZJp4" id="213CARpmPi0" role="pZjJ2">
+      <node concept="2PZJpp" id="213CARpmPi1" role="2v3mow">
+        <property role="TrG5h" value="listAttributes" />
+      </node>
+      <node concept="2PZJp5" id="213CARpmPi2" role="2v3moI">
+        <node concept="2i91V0" id="213CARpmPi3" role="1LvdYw">
+          <node concept="2i91V1" id="213CARpmPi4" role="2i902c">
+            <property role="2i91Yx" value="mart" />
+          </node>
+          <node concept="2i91V1" id="213CARpmPi5" role="2i902c">
+            <property role="2i91Yx" value="page" />
+          </node>
+          <node concept="2i91V1" id="213CARpmPi6" role="2i902c">
+            <property role="2i91Yx" value="what" />
+            <node concept="2PZJp2" id="213CARpmPi7" role="2i91VW">
+              <node concept="2PZJpp" id="213CARpmPi8" role="134Gdo">
+                <property role="TrG5h" value="c" />
+              </node>
+              <node concept="gNbv0" id="213CARpmPi9" role="134Gdu">
+                <node concept="V6WaU" id="213CARpmPia" role="gNbrm">
+                  <node concept="2PZJpm" id="213CARpmPib" role="gNbhV">
+                    <property role="pzxGI" value="name" />
+                  </node>
+                </node>
+                <node concept="V6WaU" id="213CARpmPic" role="gNbrm">
+                  <node concept="2PZJpm" id="213CARpmPid" role="gNbhV">
+                    <property role="pzxGI" value="description" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="2PZJpj" id="213CARpmPie" role="1LvdYI" />
+      </node>
+      <node concept="22gccq" id="213CARpmPif" role="22hImy" />
+    </node>
+    <node concept="2PZJp4" id="213CARpmPig" role="pZjJ2">
+      <node concept="2PZJpp" id="213CARpmPih" role="2v3mow">
+        <property role="TrG5h" value="listDatasets" />
+      </node>
+      <node concept="2PZJp5" id="213CARpmPii" role="2v3moI">
+        <node concept="2i91V0" id="213CARpmPij" role="1LvdYw">
+          <node concept="2i91V1" id="213CARpmPik" role="2i902c">
+            <property role="2i91Yx" value="mart" />
+          </node>
+          <node concept="2i91V1" id="213CARpmPil" role="2i902c">
+            <property role="2i91Yx" value="verbose" />
+            <node concept="2PZJoG" id="213CARpmPim" role="2i91VW" />
+          </node>
+        </node>
+        <node concept="2PZJpj" id="213CARpmPin" role="1LvdYI" />
+      </node>
+      <node concept="22gccq" id="213CARpmPio" role="22hImy" />
+    </node>
+    <node concept="2PZJp4" id="213CARpmPip" role="pZjJ2">
+      <node concept="2PZJpp" id="213CARpmPiq" role="2v3mow">
+        <property role="TrG5h" value="listFilters" />
+      </node>
+      <node concept="2PZJp5" id="213CARpmPir" role="2v3moI">
+        <node concept="2i91V0" id="213CARpmPis" role="1LvdYw">
+          <node concept="2i91V1" id="213CARpmPit" role="2i902c">
+            <property role="2i91Yx" value="mart" />
+          </node>
+          <node concept="2i91V1" id="213CARpmPiu" role="2i902c">
+            <property role="2i91Yx" value="what" />
+            <node concept="2PZJp2" id="213CARpmPiv" role="2i91VW">
+              <node concept="2PZJpp" id="213CARpmPiw" role="134Gdo">
+                <property role="TrG5h" value="c" />
+              </node>
+              <node concept="gNbv0" id="213CARpmPix" role="134Gdu">
+                <node concept="V6WaU" id="213CARpmPiy" role="gNbrm">
+                  <node concept="2PZJpm" id="213CARpmPiz" role="gNbhV">
+                    <property role="pzxGI" value="name" />
+                  </node>
+                </node>
+                <node concept="V6WaU" id="213CARpmPi$" role="gNbrm">
+                  <node concept="2PZJpm" id="213CARpmPi_" role="gNbhV">
+                    <property role="pzxGI" value="description" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="2PZJpj" id="213CARpmPiA" role="1LvdYI" />
+      </node>
+      <node concept="22gccq" id="213CARpmPiB" role="22hImy" />
+    </node>
+    <node concept="2PZJp4" id="213CARpmPiC" role="pZjJ2">
+      <node concept="2PZJpp" id="213CARpmPiD" role="2v3mow">
+        <property role="TrG5h" value="listMarts" />
+      </node>
+      <node concept="2PZJp5" id="213CARpmPiE" role="2v3moI">
+        <node concept="2i91V0" id="213CARpmPiF" role="1LvdYw">
+          <node concept="2i91V1" id="213CARpmPiG" role="2i902c">
+            <property role="2i91Yx" value="mart" />
+            <node concept="2PZJpj" id="213CARpmPiH" role="2i91VW" />
+          </node>
+          <node concept="2i91V1" id="213CARpmPiI" role="2i902c">
+            <property role="2i91Yx" value="host" />
+            <node concept="2PZJpm" id="213CARpmPiJ" role="2i91VW">
+              <property role="pzxGI" value="www.biomart.org" />
+            </node>
+          </node>
+          <node concept="2i91V1" id="213CARpmPiK" role="2i902c">
+            <property role="2i91Yx" value="path" />
+            <node concept="2PZJpm" id="213CARpmPiL" role="2i91VW">
+              <property role="pzxGI" value="/biomart/martservice" />
+            </node>
+          </node>
+          <node concept="2i91V1" id="213CARpmPiM" role="2i902c">
+            <property role="2i91Yx" value="port" />
+            <node concept="2PZJpk" id="213CARpmPiN" role="2i91VW">
+              <property role="pzxG6" value="80" />
+            </node>
+          </node>
+          <node concept="2i91V1" id="213CARpmPiO" role="2i902c">
+            <property role="2i91Yx" value="includeHosts" />
+            <node concept="2PZJoG" id="213CARpmPiP" role="2i91VW" />
+          </node>
+          <node concept="2i91V1" id="213CARpmPiQ" role="2i902c">
+            <property role="2i91Yx" value="archive" />
+            <node concept="2PZJoG" id="213CARpmPiR" role="2i91VW" />
+          </node>
+          <node concept="2i91V1" id="213CARpmPiS" role="2i902c">
+            <property role="2i91Yx" value="ssl.verifypeer" />
+            <node concept="2PZJoJ" id="213CARpmPiT" role="2i91VW">
+              <property role="pzIeI" value="true" />
+            </node>
+          </node>
+          <node concept="2i91V1" id="213CARpmPiU" role="2i902c">
+            <property role="2i91Yx" value="verbose" />
+            <node concept="2PZJoG" id="213CARpmPiV" role="2i91VW" />
+          </node>
+        </node>
+        <node concept="2PZJpj" id="213CARpmPiW" role="1LvdYI" />
+      </node>
+      <node concept="22gccq" id="213CARpmPiX" role="22hImy" />
+    </node>
+    <node concept="2PZJp4" id="213CARpmPiY" role="pZjJ2">
+      <node concept="2PZJpp" id="213CARpmPiZ" role="2v3mow">
+        <property role="TrG5h" value="select" />
+      </node>
+      <node concept="2PZJp5" id="213CARpmPj0" role="2v3moI">
+        <node concept="2i91V0" id="213CARpmPj1" role="1LvdYw">
+          <node concept="2i91V1" id="213CARpmPj2" role="2i902c">
+            <property role="2i91Yx" value="x" />
+          </node>
+          <node concept="2i91V1" id="213CARpmPj3" role="2i902c">
+            <property role="2i91Yx" value="keys" />
+          </node>
+          <node concept="2i91V1" id="213CARpmPj4" role="2i902c">
+            <property role="2i91Yx" value="columns" />
+          </node>
+          <node concept="2i91V1" id="213CARpmPj5" role="2i902c">
+            <property role="2i91Yx" value="keytype" />
+          </node>
+          <node concept="2i91VX" id="213CARpmPRl" role="2i902c" />
+        </node>
+        <node concept="2PZJpj" id="213CARpmPj7" role="1LvdYI" />
+      </node>
+      <node concept="22gccq" id="213CARpmPj8" role="22hImy" />
+    </node>
+    <node concept="2PZJp4" id="213CARpmPj9" role="pZjJ2">
+      <node concept="2PZJpp" id="213CARpmPja" role="2v3mow">
+        <property role="TrG5h" value="show" />
+      </node>
+      <node concept="2PZJp5" id="213CARpmPjb" role="2v3moI">
+        <node concept="2i91V0" id="213CARpmPjc" role="1LvdYw">
+          <node concept="2i91V1" id="213CARpmPjd" role="2i902c">
+            <property role="2i91Yx" value="object" />
+          </node>
+        </node>
+        <node concept="2PZJpj" id="213CARpmPje" role="1LvdYI" />
+      </node>
+      <node concept="22gccq" id="213CARpmPjf" role="22hImy" />
+    </node>
+    <node concept="2PZJp4" id="213CARpmPjg" role="pZjJ2">
+      <node concept="2PZJpp" id="213CARpmPjh" role="2v3mow">
+        <property role="TrG5h" value="useDataset" />
+      </node>
+      <node concept="2PZJp5" id="213CARpmPji" role="2v3moI">
+        <node concept="2i91V0" id="213CARpmPjj" role="1LvdYw">
+          <node concept="2i91V1" id="213CARpmPjk" role="2i902c">
+            <property role="2i91Yx" value="dataset" />
+          </node>
+          <node concept="2i91V1" id="213CARpmPjl" role="2i902c">
+            <property role="2i91Yx" value="mart" />
+          </node>
+          <node concept="2i91V1" id="213CARpmPjm" role="2i902c">
+            <property role="2i91Yx" value="verbose" />
+            <node concept="2PZJoG" id="213CARpmPjn" role="2i91VW" />
+          </node>
+        </node>
+        <node concept="2PZJpj" id="213CARpmPjo" role="1LvdYI" />
+      </node>
+      <node concept="22gccq" id="213CARpmPjp" role="22hImy" />
+    </node>
+    <node concept="2PZJp4" id="213CARpmPjq" role="pZjJ2">
+      <node concept="2PZJpp" id="213CARpmPjr" role="2v3mow">
+        <property role="TrG5h" value="useMart" />
+      </node>
+      <node concept="2PZJp5" id="213CARpmPjs" role="2v3moI">
+        <node concept="2i91V0" id="213CARpmPjt" role="1LvdYw">
+          <node concept="2i91V1" id="213CARpmPju" role="2i902c">
+            <property role="2i91Yx" value="biomart" />
+          </node>
+          <node concept="2i91V1" id="213CARpmPjv" role="2i902c">
+            <property role="2i91Yx" value="dataset" />
+          </node>
+          <node concept="2i91V1" id="213CARpmPjw" role="2i902c">
+            <property role="2i91Yx" value="host" />
+            <node concept="2PZJpm" id="213CARpmPjx" role="2i91VW">
+              <property role="pzxGI" value="www.biomart.org" />
+            </node>
+          </node>
+          <node concept="2i91V1" id="213CARpmPjy" role="2i902c">
+            <property role="2i91Yx" value="path" />
+            <node concept="2PZJpm" id="213CARpmPjz" role="2i91VW">
+              <property role="pzxGI" value="/biomart/martservice" />
+            </node>
+          </node>
+          <node concept="2i91V1" id="213CARpmPj$" role="2i902c">
+            <property role="2i91Yx" value="port" />
+            <node concept="2PZJpk" id="213CARpmPj_" role="2i91VW">
+              <property role="pzxG6" value="80" />
+            </node>
+          </node>
+          <node concept="2i91V1" id="213CARpmPjA" role="2i902c">
+            <property role="2i91Yx" value="archive" />
+            <node concept="2PZJoG" id="213CARpmPjB" role="2i91VW" />
+          </node>
+          <node concept="2i91V1" id="213CARpmPjC" role="2i902c">
+            <property role="2i91Yx" value="ssl.verifypeer" />
+            <node concept="2PZJoJ" id="213CARpmPjD" role="2i91VW">
+              <property role="pzIeI" value="true" />
+            </node>
+          </node>
+          <node concept="2i91V1" id="213CARpmPjE" role="2i902c">
+            <property role="2i91Yx" value="version" />
+          </node>
+          <node concept="2i91V1" id="213CARpmPjF" role="2i902c">
+            <property role="2i91Yx" value="verbose" />
+            <node concept="2PZJoG" id="213CARpmPjG" role="2i91VW" />
+          </node>
+        </node>
+        <node concept="2PZJpj" id="213CARpmPjH" role="1LvdYI" />
+      </node>
+      <node concept="22gccq" id="213CARpmPjI" role="22hImy" />
     </node>
   </node>
 </model>
