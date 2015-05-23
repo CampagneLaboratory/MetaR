@@ -420,6 +420,9 @@
               <node concept="Xl_RD" id="5HtHr3Ed3$9" role="HW$Y0">
                 <property role="Xl_RC" value="edgeR" />
               </node>
+              <node concept="Xl_RD" id="5lRZ7X5aAjZ" role="HW$Y0">
+                <property role="Xl_RC" value="limma" />
+              </node>
             </node>
           </node>
         </node>

@@ -31,7 +31,7 @@
       <concept id="1068580123155" name="jetbrains.mps.baseLanguage.structure.ExpressionStatement" flags="nn" index="3clFbF">
         <child id="1068580123156" name="expression" index="3clFbG" />
       </concept>
-      <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
+      <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
       </concept>
       <concept id="1081516740877" name="jetbrains.mps.baseLanguage.structure.NotExpression" flags="nn" index="3fqX7Q">
@@ -792,6 +792,12 @@
                 <node concept="3_3kQU" id="213CARpgALN" role="3_3kQL">
                   <property role="3_3kQV" value="&quot;))" />
                 </node>
+                <node concept="3_3kQU" id="5lRZ7X56lHW" role="3_3kQL">
+                  <property role="3_3kQV" value="" />
+                </node>
+              </node>
+              <node concept="1gZcZf" id="5lRZ7X56lNU" role="2G3XIn">
+                <property role="1gZaPE" value="" />
               </node>
               <node concept="1gZcZf" id="213CARpgA$f" role="2G3XIn">
                 <node concept="3_3kQU" id="213CARpgAUL" role="3_3kQL">

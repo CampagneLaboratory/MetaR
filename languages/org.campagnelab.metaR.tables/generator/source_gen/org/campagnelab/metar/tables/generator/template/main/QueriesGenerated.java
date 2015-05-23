@@ -606,12 +606,26 @@ public class QueriesGenerated {
     String path = MacrosFactory.getGlobal().expandPath("${org.campagnelab.metaR.results_dir}" + File.separator + NameHelper.RName(SModelOperations.getModelName(SNodeOperations.getModel(_context.getNode()))));
     return new RPath(path).toString();
   }
-  public static Object propertyMacro_GetPropertyValue_6583618001733640982(final PropertyMacroContext _context) {
+  public static Object propertyMacro_GetPropertyValue_6158668639000475442(final PropertyMacroContext _context) {
+    return IterableUtils.join(Sequence.fromIterable(BehaviorReflection.invokeVirtual((Class<Iterable<String>>) ((Class) Object.class), _context.getNode(), "virtual_bioConductorDependencies_6583618001733614174", new Object[]{})).select(new ISelector<String, String>() {
+      public String select(String it) {
+        return String.format("require(\"%s\")", it);
+      }
+    }), "|");
+  }
+  public static Object propertyMacro_GetPropertyValue_2324880425333451885(final PropertyMacroContext _context) {
     return IterableUtils.join(Sequence.fromIterable(BehaviorReflection.invokeVirtual((Class<Iterable<String>>) ((Class) Object.class), _context.getNode(), "virtual_bioConductorDependencies_6583618001733614174", new Object[]{})).select(new ISelector<String, String>() {
       public String select(String it) {
         return "\"" + it + "\"";
       }
-    }), ", ");
+    }), ",");
+  }
+  public static Object propertyMacro_GetPropertyValue_6158668639002779361(final PropertyMacroContext _context) {
+    return IterableUtils.join(Sequence.fromIterable(BehaviorReflection.invokeVirtual((Class<Iterable<String>>) ((Class) Object.class), _context.getNode(), "virtual_bioConductorDependencies_6583618001733614174", new Object[]{})).select(new ISelector<String, String>() {
+      public String select(String it) {
+        return "library(\"" + it + "\")";
+      }
+    }), "\n");
   }
   public static Object propertyMacro_GetPropertyValue_5988857313026705513(final PropertyMacroContext _context) {
     return IterableUtils.join(Sequence.fromIterable(BehaviorReflection.invokeVirtual((Class<Iterable<String>>) ((Class) Object.class), _context.getNode(), "virtual_dependencies_8962032619593737482", new Object[]{})).select(new ISelector<String, String>() {
@@ -1076,7 +1090,7 @@ public class QueriesGenerated {
   public static boolean ifMacro_Condition_4842667988068043258(final IfMacroContext _context) {
     return FitXByY_Behavior.call_hasYRange_5397636476166591563(_context.getNode());
   }
-  public static boolean ifMacro_Condition_6583618001733606651(final IfMacroContext _context) {
+  public static boolean ifMacro_Condition_6158668639000473000(final IfMacroContext _context) {
     return Sequence.fromIterable(BehaviorReflection.invokeVirtual((Class<Iterable<String>>) ((Class) Object.class), _context.getNode(), "virtual_bioConductorDependencies_6583618001733614174", new Object[]{})).isNotEmpty();
   }
   public static boolean ifMacro_Condition_8420290744922220128(final IfMacroContext _context) {
