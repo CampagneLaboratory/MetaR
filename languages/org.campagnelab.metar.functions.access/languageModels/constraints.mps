@@ -9,6 +9,7 @@
   <imports>
     <import index="8t56" ref="r:c30a0469-24e5-4b8a-89e7-0d2028c5aa49(org.campagnelab.metar.functions.importing.structure)" />
     <import index="69j5" ref="r:cc2fd9c1-53e7-4805-a8bc-a07e69f2147b(org.campagnelab.metar.R.behavior)" implicit="true" />
+    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="6q58" ref="r:97268463-8a58-42b7-9dc6-fa004b7a4308(org.campagnelab.metar.R.structure)" implicit="true" />
     <import index="89bg" ref="r:de53da33-34f1-4c7e-a0ab-034975f75528(org.campagnelab.metar.functions.access.structure)" implicit="true" />
   </imports>
@@ -77,6 +78,9 @@
       <concept id="1138055754698" name="jetbrains.mps.lang.smodel.structure.SNodeType" flags="in" index="3Tqbb2">
         <reference id="1138405853777" name="concept" index="ehGHo" />
       </concept>
+      <concept id="1138056022639" name="jetbrains.mps.lang.smodel.structure.SPropertyAccess" flags="nn" index="3TrcHB">
+        <reference id="1138056395725" name="property" index="3TsBF5" />
+      </concept>
       <concept id="1138056143562" name="jetbrains.mps.lang.smodel.structure.SLinkAccess" flags="nn" index="3TrEf2">
         <reference id="1138056516764" name="link" index="3Tt5mk" />
       </concept>
@@ -123,6 +127,24 @@
                 </node>
                 <node concept="3TrEf2" id="3xIYoLgxFSV" role="2OqNvi">
                   <ref role="3Tt5mk" to="6q58:1jge5x_A4_z" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbF" id="zI_N6wDw53" role="3cqZAp">
+            <node concept="37vLTI" id="zI_N6wDwXG" role="3clFbG">
+              <node concept="2OqwBi" id="zI_N6wDx4N" role="37vLTx">
+                <node concept="3khVwk" id="zI_N6wDx2v" role="2Oq$k0" />
+                <node concept="3TrcHB" id="zI_N6wDxGh" role="2OqNvi">
+                  <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                </node>
+              </node>
+              <node concept="2OqwBi" id="zI_N6wDwaa" role="37vLTJ">
+                <node concept="37vLTw" id="zI_N6wDw51" role="2Oq$k0">
+                  <ref role="3cqZAo" node="3xIYoLgxFSL" resolve="idRef" />
+                </node>
+                <node concept="3TrcHB" id="zI_N6wDwqE" role="2OqNvi">
+                  <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
                 </node>
               </node>
             </node>
