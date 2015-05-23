@@ -744,12 +744,12 @@
                   <property role="3_3kQV" value="" />
                 </node>
                 <node concept="3_3kQU" id="213CARpgAkk" role="3_3kQL">
-                  <property role="3_3kQV" value="if (!require(&quot;BiocInstaller&quot;)) { " />
+                  <property role="3_3kQV" value=" if (!require(&quot;BiocInstaller&quot;)) { " />
                 </node>
               </node>
               <node concept="1gZcZf" id="213CARpgAkr" role="2G3XIn">
                 <node concept="3_3kQU" id="213CARpgAks" role="3_3kQL">
-                  <property role="3_3kQV" value="    source(&quot;http://bioconductor.org/biocLite.R&quot;, local=TRUE)  " />
+                  <property role="3_3kQV" value="     source(&quot;http://bioconductor.org/biocLite.R&quot;, local=TRUE)  " />
                 </node>
                 <node concept="3_3kQU" id="213CARpg_Yr" role="3_3kQL">
                   <property role="3_3kQV" value="" />
@@ -761,18 +761,10 @@
                   <property role="3_3kQV" value="" />
                 </node>
                 <node concept="3_3kQU" id="213CARpgAcv" role="3_3kQL">
-                  <property role="3_3kQV" value="}" />
-                </node>
-                <node concept="3_3kQU" id="213CARpg_Sg" role="3_3kQL">
-                  <property role="3_3kQV" value="" />
-                </node>
-                <node concept="3_3kQU" id="213CARpgAsi" role="3_3kQL" />
-              </node>
-              <node concept="1gZcZf" id="213CARpgAsr" role="2G3XIn">
-                <node concept="3_3kQU" id="213CARpgAss" role="3_3kQL">
-                  <property role="3_3kQV" value="  " />
+                  <property role="3_3kQV" value=" }" />
                 </node>
               </node>
+              <node concept="1gZcZf" id="213CARpgAsr" role="2G3XIn" />
               <node concept="1gZcZf" id="213CARpgALD" role="2G3XIn">
                 <property role="1gZaPE" value="" />
                 <node concept="3_3kQU" id="213CARpgALE" role="3_3kQL">
