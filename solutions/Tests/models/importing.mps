@@ -57,6 +57,12 @@
       </concept>
       <concept id="6176023809880707767" name="org.campagnelab.metar.R.structure.Identifier" flags="ng" index="2PZJpp" />
       <concept id="4933197140516011539" name="org.campagnelab.metar.R.structure.PositionalParameterValue" flags="ng" index="V6WaU" />
+      <concept id="7431839982580115597" name="org.campagnelab.metar.R.structure.FunctionIdRef" flags="ng" index="3a69Ir">
+        <reference id="7431839982580117056" name="function" index="3a69Pm" />
+      </concept>
+      <concept id="1499760628227103368" name="org.campagnelab.metar.R.structure.IdentifierRef" flags="ng" index="1LhYbg">
+        <reference id="1499760628227131747" name="id" index="1Li74V" />
+      </concept>
     </language>
     <language id="c1747c67-8f42-4d83-9542-4a948aec17d9" name="org.campagnelab.metar.functions.importing">
       <concept id="2460923530829626766" name="org.campagnelab.metar.functions.importing.structure.FunctionDeclarationWrapper" flags="ng" index="28mg_B">
@@ -73,6 +79,15 @@
         <child id="1229604057017832866" name="functions" index="pZjJ2" />
       </concept>
     </language>
+    <language id="64c90466-09b2-41ab-89f8-5085b3b9eca7" name="org.campagnelab.metar.functions.access">
+      <concept id="1127749446856616412" name="org.campagnelab.metar.functions.access.structure.ScopedFunctionCallWrapper" flags="ng" index="2obFJT">
+        <reference id="1127749446856616485" name="ref" index="2obFw0" />
+        <child id="1127749446856616413" name="call" index="2obFJS" />
+      </concept>
+      <concept id="1127749446837285793" name="org.campagnelab.metar.functions.access.structure.FunctionCallStatement" flags="ng" index="2pLU64">
+        <child id="1127749446837285794" name="call" index="2pLU67" />
+      </concept>
+    </language>
     <language id="5d6bde84-4ce4-4eb5-a37e-25a5edd55129" name="org.campagnelab.metar.tables">
       <concept id="8962032619593737384" name="org.campagnelab.metar.tables.structure.Statement" flags="ng" index="S1EQ7">
         <property id="8962032619593737385" name="id" index="S1EQ6" />
@@ -81,6 +96,7 @@
         <property id="2742007948298959018" name="trycatch_enabled" index="2BDq$p" />
         <child id="8962032619593737383" name="statements" index="S1EQ8" />
       </concept>
+      <concept id="8962032619593737377" name="org.campagnelab.metar.tables.structure.EmptyLine" flags="ng" index="S1EQe" />
       <concept id="8962032619582305406" name="org.campagnelab.metar.tables.structure.StatementList" flags="ng" index="ZXjPh">
         <child id="8962032619582305407" name="transformations" index="ZXjPg" />
       </concept>
@@ -5358,547 +5374,547 @@
           <ref role="28DJm8" to="4tsn:213CARpiHlD" />
         </node>
       </node>
-      <node concept="YjSNG" id="213CARpknwV" role="ZXjPg">
-        <property role="S1EQ6" value="FDALMSDQRK" />
+      <node concept="YjSNG" id="zI_N6wBqVd" role="ZXjPg">
+        <property role="S1EQ6" value="KPREJLQPUG" />
         <property role="TrG5h" value="edgeR" />
         <ref role="Yj176" to="c1ho:213CARpjPYm" resolve="edgeR" />
-        <node concept="28mg_B" id="213CARpkoa5" role="Yj6Zy">
+        <node concept="28mg_B" id="zI_N6wBqVe" role="Yj6Zy">
           <property role="TrG5h" value="DGEList" />
           <ref role="28DJm8" to="c1ho:213CARpjPYn" />
         </node>
-        <node concept="28mg_B" id="213CARpkoa6" role="Yj6Zy">
+        <node concept="28mg_B" id="zI_N6wBqVf" role="Yj6Zy">
           <property role="TrG5h" value="WLEB" />
           <ref role="28DJm8" to="c1ho:213CARpjPZ9" />
         </node>
-        <node concept="28mg_B" id="213CARpkoa7" role="Yj6Zy">
+        <node concept="28mg_B" id="zI_N6wBqVg" role="Yj6Zy">
           <property role="TrG5h" value="adjustedProfileLik" />
           <ref role="28DJm8" to="c1ho:213CARpjPZz" />
         </node>
-        <node concept="28mg_B" id="213CARpkoa8" role="Yj6Zy">
+        <node concept="28mg_B" id="zI_N6wBqVh" role="Yj6Zy">
           <property role="TrG5h" value="as.data.frame.TopTags" />
           <ref role="28DJm8" to="c1ho:213CARpjPZP" />
         </node>
-        <node concept="28mg_B" id="213CARpkoa9" role="Yj6Zy">
+        <node concept="28mg_B" id="zI_N6wBqVi" role="Yj6Zy">
           <property role="TrG5h" value="as.matrix.DGEList" />
           <ref role="28DJm8" to="c1ho:213CARpjQ01" />
         </node>
-        <node concept="28mg_B" id="213CARpkoaa" role="Yj6Zy">
+        <node concept="28mg_B" id="zI_N6wBqVj" role="Yj6Zy">
           <property role="TrG5h" value="aveLogCPM" />
           <ref role="28DJm8" to="c1ho:213CARpjQ09" />
         </node>
-        <node concept="28mg_B" id="213CARpkoab" role="Yj6Zy">
+        <node concept="28mg_B" id="zI_N6wBqVk" role="Yj6Zy">
           <property role="TrG5h" value="aveLogCPM.DGEGLM" />
           <ref role="28DJm8" to="c1ho:213CARpjQ0h" />
         </node>
-        <node concept="28mg_B" id="213CARpkoac" role="Yj6Zy">
+        <node concept="28mg_B" id="zI_N6wBqVl" role="Yj6Zy">
           <property role="TrG5h" value="aveLogCPM.DGEList" />
           <ref role="28DJm8" to="c1ho:213CARpjQ0t" />
         </node>
-        <node concept="28mg_B" id="213CARpkoad" role="Yj6Zy">
+        <node concept="28mg_B" id="zI_N6wBqVm" role="Yj6Zy">
           <property role="TrG5h" value="aveLogCPM.default" />
           <ref role="28DJm8" to="c1ho:213CARpjQ0F" />
         </node>
-        <node concept="28mg_B" id="213CARpkoae" role="Yj6Zy">
+        <node concept="28mg_B" id="zI_N6wBqVn" role="Yj6Zy">
           <property role="TrG5h" value="binMeanVar" />
           <ref role="28DJm8" to="c1ho:213CARpjQ0X" />
         </node>
-        <node concept="28mg_B" id="213CARpkoaf" role="Yj6Zy">
+        <node concept="28mg_B" id="zI_N6wBqVo" role="Yj6Zy">
           <property role="TrG5h" value="binomTest" />
           <ref role="28DJm8" to="c1ho:213CARpjQ1b" />
         </node>
-        <node concept="28mg_B" id="213CARpkoag" role="Yj6Zy">
+        <node concept="28mg_B" id="zI_N6wBqVp" role="Yj6Zy">
           <property role="TrG5h" value="calcNormFactors" />
           <ref role="28DJm8" to="c1ho:213CARpjQ1C" />
         </node>
-        <node concept="28mg_B" id="213CARpkoah" role="Yj6Zy">
+        <node concept="28mg_B" id="zI_N6wBqVq" role="Yj6Zy">
           <property role="TrG5h" value="calcNormFactors.DGEList" />
           <ref role="28DJm8" to="c1ho:213CARpjQ1K" />
         </node>
-        <node concept="28mg_B" id="213CARpkoai" role="Yj6Zy">
+        <node concept="28mg_B" id="zI_N6wBqVr" role="Yj6Zy">
           <property role="TrG5h" value="calcNormFactors.default" />
           <ref role="28DJm8" to="c1ho:213CARpjQ2i" />
         </node>
-        <node concept="28mg_B" id="213CARpkoaj" role="Yj6Zy">
+        <node concept="28mg_B" id="zI_N6wBqVs" role="Yj6Zy">
           <property role="TrG5h" value="calcNormOffsetsforChIP" />
           <ref role="28DJm8" to="c1ho:213CARpjQ2Q" />
         </node>
-        <node concept="28mg_B" id="213CARpkoak" role="Yj6Zy">
+        <node concept="28mg_B" id="zI_N6wBqVt" role="Yj6Zy">
           <property role="TrG5h" value="camera.DGEList" />
           <ref role="28DJm8" to="c1ho:213CARpjQ39" />
         </node>
-        <node concept="28mg_B" id="213CARpkoal" role="Yj6Zy">
+        <node concept="28mg_B" id="zI_N6wBqVu" role="Yj6Zy">
           <property role="TrG5h" value="commonCondLogLikDerDelta" />
           <ref role="28DJm8" to="c1ho:213CARpjQ3q" />
         </node>
-        <node concept="28mg_B" id="213CARpkoam" role="Yj6Zy">
+        <node concept="28mg_B" id="zI_N6wBqVv" role="Yj6Zy">
           <property role="TrG5h" value="condLogLikDerDelta" />
           <ref role="28DJm8" to="c1ho:213CARpjQ3$" />
         </node>
-        <node concept="28mg_B" id="213CARpkoan" role="Yj6Zy">
+        <node concept="28mg_B" id="zI_N6wBqVw" role="Yj6Zy">
           <property role="TrG5h" value="condLogLikDerSize" />
           <ref role="28DJm8" to="c1ho:213CARpjQ3I" />
         </node>
-        <node concept="28mg_B" id="213CARpkoao" role="Yj6Zy">
+        <node concept="28mg_B" id="zI_N6wBqVx" role="Yj6Zy">
           <property role="TrG5h" value="cpm" />
           <ref role="28DJm8" to="c1ho:213CARpjQ3S" />
         </node>
-        <node concept="28mg_B" id="213CARpkoap" role="Yj6Zy">
+        <node concept="28mg_B" id="zI_N6wBqVy" role="Yj6Zy">
           <property role="TrG5h" value="cpm.DGEList" />
           <ref role="28DJm8" to="c1ho:213CARpjQ40" />
         </node>
-        <node concept="28mg_B" id="213CARpkoaq" role="Yj6Zy">
+        <node concept="28mg_B" id="zI_N6wBqVz" role="Yj6Zy">
           <property role="TrG5h" value="cpm.default" />
           <ref role="28DJm8" to="c1ho:213CARpjQ4e" />
         </node>
-        <node concept="28mg_B" id="213CARpkoar" role="Yj6Zy">
+        <node concept="28mg_B" id="zI_N6wBqV$" role="Yj6Zy">
           <property role="TrG5h" value="cutWithMinN" />
           <ref role="28DJm8" to="c1ho:213CARpjQ4s" />
         </node>
-        <node concept="28mg_B" id="213CARpkoas" role="Yj6Zy">
+        <node concept="28mg_B" id="zI_N6wBqV_" role="Yj6Zy">
           <property role="TrG5h" value="decideTestsDGE" />
           <ref role="28DJm8" to="c1ho:213CARpjQ4B" />
         </node>
-        <node concept="28mg_B" id="213CARpkoat" role="Yj6Zy">
+        <node concept="28mg_B" id="zI_N6wBqVA" role="Yj6Zy">
           <property role="TrG5h" value="designAsFactor" />
           <ref role="28DJm8" to="c1ho:213CARpjQ4O" />
         </node>
-        <node concept="28mg_B" id="213CARpkoau" role="Yj6Zy">
+        <node concept="28mg_B" id="zI_N6wBqVB" role="Yj6Zy">
           <property role="TrG5h" value="dglmStdResid" />
           <ref role="28DJm8" to="c1ho:213CARpjQ4V" />
         </node>
-        <node concept="28mg_B" id="213CARpkoav" role="Yj6Zy">
+        <node concept="28mg_B" id="zI_N6wBqVC" role="Yj6Zy">
           <property role="TrG5h" value="diffSpliceDGE" />
           <ref role="28DJm8" to="c1ho:213CARpjQ5g" />
         </node>
-        <node concept="28mg_B" id="213CARpkoaw" role="Yj6Zy">
+        <node concept="28mg_B" id="zI_N6wBqVD" role="Yj6Zy">
           <property role="TrG5h" value="dim.DGEExact" />
           <ref role="28DJm8" to="c1ho:213CARpjQ5_" />
         </node>
-        <node concept="28mg_B" id="213CARpkoax" role="Yj6Zy">
+        <node concept="28mg_B" id="zI_N6wBqVE" role="Yj6Zy">
           <property role="TrG5h" value="dim.DGEGLM" />
           <ref role="28DJm8" to="c1ho:213CARpjQ5G" />
         </node>
-        <node concept="28mg_B" id="213CARpkoay" role="Yj6Zy">
+        <node concept="28mg_B" id="zI_N6wBqVF" role="Yj6Zy">
           <property role="TrG5h" value="dim.DGELRT" />
           <ref role="28DJm8" to="c1ho:213CARpjQ5N" />
         </node>
-        <node concept="28mg_B" id="213CARpkoaz" role="Yj6Zy">
+        <node concept="28mg_B" id="zI_N6wBqVG" role="Yj6Zy">
           <property role="TrG5h" value="dim.DGEList" />
           <ref role="28DJm8" to="c1ho:213CARpjQ5U" />
         </node>
-        <node concept="28mg_B" id="213CARpkoa$" role="Yj6Zy">
+        <node concept="28mg_B" id="zI_N6wBqVH" role="Yj6Zy">
           <property role="TrG5h" value="dim.TopTags" />
           <ref role="28DJm8" to="c1ho:213CARpjQ61" />
         </node>
-        <node concept="28mg_B" id="213CARpkoa_" role="Yj6Zy">
+        <node concept="28mg_B" id="zI_N6wBqVI" role="Yj6Zy">
           <property role="TrG5h" value="dimnames.DGEExact" />
           <ref role="28DJm8" to="c1ho:213CARpjQ68" />
         </node>
-        <node concept="28mg_B" id="213CARpkoaA" role="Yj6Zy">
+        <node concept="28mg_B" id="zI_N6wBqVJ" role="Yj6Zy">
           <property role="TrG5h" value="dimnames.DGEGLM" />
           <ref role="28DJm8" to="c1ho:213CARpjQ6f" />
         </node>
-        <node concept="28mg_B" id="213CARpkoaB" role="Yj6Zy">
+        <node concept="28mg_B" id="zI_N6wBqVK" role="Yj6Zy">
           <property role="TrG5h" value="dimnames.DGELRT" />
           <ref role="28DJm8" to="c1ho:213CARpjQ6m" />
         </node>
-        <node concept="28mg_B" id="213CARpkoaC" role="Yj6Zy">
+        <node concept="28mg_B" id="zI_N6wBqVL" role="Yj6Zy">
           <property role="TrG5h" value="dimnames.DGEList" />
           <ref role="28DJm8" to="c1ho:213CARpjQ6t" />
         </node>
-        <node concept="28mg_B" id="213CARpkoaD" role="Yj6Zy">
+        <node concept="28mg_B" id="zI_N6wBqVM" role="Yj6Zy">
           <property role="TrG5h" value="dimnames.TopTags" />
           <ref role="28DJm8" to="c1ho:213CARpjQ6$" />
         </node>
-        <node concept="28mg_B" id="213CARpkoaE" role="Yj6Zy">
+        <node concept="28mg_B" id="zI_N6wBqVN" role="Yj6Zy">
           <property role="TrG5h" value="dispBinTrend" />
           <ref role="28DJm8" to="c1ho:213CARpjQ6F" />
         </node>
-        <node concept="28mg_B" id="213CARpkoaF" role="Yj6Zy">
+        <node concept="28mg_B" id="zI_N6wBqVO" role="Yj6Zy">
           <property role="TrG5h" value="dispCoxReid" />
           <ref role="28DJm8" to="c1ho:213CARpjQ75" />
         </node>
-        <node concept="28mg_B" id="213CARpkoaG" role="Yj6Zy">
+        <node concept="28mg_B" id="zI_N6wBqVP" role="Yj6Zy">
           <property role="TrG5h" value="dispCoxReidInterpolateTagwise" />
           <ref role="28DJm8" to="c1ho:213CARpjQ7y" />
         </node>
-        <node concept="28mg_B" id="213CARpkoaH" role="Yj6Zy">
+        <node concept="28mg_B" id="zI_N6wBqVQ" role="Yj6Zy">
           <property role="TrG5h" value="dispCoxReidPowerTrend" />
           <ref role="28DJm8" to="c1ho:213CARpjQ85" />
         </node>
-        <node concept="28mg_B" id="213CARpkoaI" role="Yj6Zy">
+        <node concept="28mg_B" id="zI_N6wBqVR" role="Yj6Zy">
           <property role="TrG5h" value="dispCoxReidSplineTrend" />
           <ref role="28DJm8" to="c1ho:213CARpjQ8n" />
         </node>
-        <node concept="28mg_B" id="213CARpkoaJ" role="Yj6Zy">
+        <node concept="28mg_B" id="zI_N6wBqVS" role="Yj6Zy">
           <property role="TrG5h" value="dispDeviance" />
           <ref role="28DJm8" to="c1ho:213CARpjQ8F" />
         </node>
-        <node concept="28mg_B" id="213CARpkoaK" role="Yj6Zy">
+        <node concept="28mg_B" id="zI_N6wBqVT" role="Yj6Zy">
           <property role="TrG5h" value="dispPearson" />
           <ref role="28DJm8" to="c1ho:213CARpjQ9a" />
         </node>
-        <node concept="28mg_B" id="213CARpkoaL" role="Yj6Zy">
+        <node concept="28mg_B" id="zI_N6wBqVU" role="Yj6Zy">
           <property role="TrG5h" value="edgeRUsersGuide" />
           <ref role="28DJm8" to="c1ho:213CARpjQ9x" />
         </node>
-        <node concept="28mg_B" id="213CARpkoaM" role="Yj6Zy">
+        <node concept="28mg_B" id="zI_N6wBqVV" role="Yj6Zy">
           <property role="TrG5h" value="equalizeLibSizes" />
           <ref role="28DJm8" to="c1ho:213CARpjQ9D" />
         </node>
-        <node concept="28mg_B" id="213CARpkoaN" role="Yj6Zy">
+        <node concept="28mg_B" id="zI_N6wBqVW" role="Yj6Zy">
           <property role="TrG5h" value="estimateCommonDisp" />
           <ref role="28DJm8" to="c1ho:213CARpjQ9O" />
         </node>
-        <node concept="28mg_B" id="213CARpkoaO" role="Yj6Zy">
+        <node concept="28mg_B" id="zI_N6wBqVX" role="Yj6Zy">
           <property role="TrG5h" value="estimateDisp" />
           <ref role="28DJm8" to="c1ho:213CARpjQa1" />
         </node>
-        <node concept="28mg_B" id="213CARpkoaP" role="Yj6Zy">
+        <node concept="28mg_B" id="zI_N6wBqVY" role="Yj6Zy">
           <property role="TrG5h" value="estimateExonGenewiseDisp" />
           <ref role="28DJm8" to="c1ho:213CARpjQaE" />
         </node>
-        <node concept="28mg_B" id="213CARpkoaQ" role="Yj6Zy">
+        <node concept="28mg_B" id="zI_N6wBqVZ" role="Yj6Zy">
           <property role="TrG5h" value="estimateGLMCommonDisp" />
           <ref role="28DJm8" to="c1ho:213CARpjQaO" />
         </node>
-        <node concept="28mg_B" id="213CARpkoaR" role="Yj6Zy">
+        <node concept="28mg_B" id="zI_N6wBqW0" role="Yj6Zy">
           <property role="TrG5h" value="estimateGLMCommonDisp.DGEList" />
           <ref role="28DJm8" to="c1ho:213CARpjQaW" />
         </node>
-        <node concept="28mg_B" id="213CARpkoaS" role="Yj6Zy">
+        <node concept="28mg_B" id="zI_N6wBqW1" role="Yj6Zy">
           <property role="TrG5h" value="estimateGLMCommonDisp.default" />
           <ref role="28DJm8" to="c1ho:213CARpjQbc" />
         </node>
-        <node concept="28mg_B" id="213CARpkoaT" role="Yj6Zy">
+        <node concept="28mg_B" id="zI_N6wBqW2" role="Yj6Zy">
           <property role="TrG5h" value="estimateGLMRobustDisp" />
           <ref role="28DJm8" to="c1ho:213CARpjQby" />
         </node>
-        <node concept="28mg_B" id="213CARpkoaU" role="Yj6Zy">
+        <node concept="28mg_B" id="zI_N6wBqW3" role="Yj6Zy">
           <property role="TrG5h" value="estimateGLMTagwiseDisp" />
           <ref role="28DJm8" to="c1ho:213CARpjQbV" />
         </node>
-        <node concept="28mg_B" id="213CARpkoaV" role="Yj6Zy">
+        <node concept="28mg_B" id="zI_N6wBqW4" role="Yj6Zy">
           <property role="TrG5h" value="estimateGLMTagwiseDisp.DGEList" />
           <ref role="28DJm8" to="c1ho:213CARpjQc3" />
         </node>
-        <node concept="28mg_B" id="213CARpkoaW" role="Yj6Zy">
+        <node concept="28mg_B" id="zI_N6wBqW5" role="Yj6Zy">
           <property role="TrG5h" value="estimateGLMTagwiseDisp.default" />
           <ref role="28DJm8" to="c1ho:213CARpjQcs" />
         </node>
-        <node concept="28mg_B" id="213CARpkoaX" role="Yj6Zy">
+        <node concept="28mg_B" id="zI_N6wBqW6" role="Yj6Zy">
           <property role="TrG5h" value="estimateGLMTrendedDisp" />
           <ref role="28DJm8" to="c1ho:213CARpjQcN" />
         </node>
-        <node concept="28mg_B" id="213CARpkoaY" role="Yj6Zy">
+        <node concept="28mg_B" id="zI_N6wBqW7" role="Yj6Zy">
           <property role="TrG5h" value="estimateGLMTrendedDisp.DGEList" />
           <ref role="28DJm8" to="c1ho:213CARpjQcV" />
         </node>
-        <node concept="28mg_B" id="213CARpkoaZ" role="Yj6Zy">
+        <node concept="28mg_B" id="zI_N6wBqW8" role="Yj6Zy">
           <property role="TrG5h" value="estimateGLMTrendedDisp.default" />
           <ref role="28DJm8" to="c1ho:213CARpjQd7" />
         </node>
-        <node concept="28mg_B" id="213CARpkob0" role="Yj6Zy">
+        <node concept="28mg_B" id="zI_N6wBqW9" role="Yj6Zy">
           <property role="TrG5h" value="estimateTagwiseDisp" />
           <ref role="28DJm8" to="c1ho:213CARpjQdp" />
         </node>
-        <node concept="28mg_B" id="213CARpkob1" role="Yj6Zy">
+        <node concept="28mg_B" id="zI_N6wBqWa" role="Yj6Zy">
           <property role="TrG5h" value="estimateTrendedDisp" />
           <ref role="28DJm8" to="c1ho:213CARpjQdS" />
         </node>
-        <node concept="28mg_B" id="213CARpkob2" role="Yj6Zy">
+        <node concept="28mg_B" id="zI_N6wBqWb" role="Yj6Zy">
           <property role="TrG5h" value="exactTest" />
           <ref role="28DJm8" to="c1ho:213CARpjQe8" />
         </node>
-        <node concept="28mg_B" id="213CARpkob3" role="Yj6Zy">
+        <node concept="28mg_B" id="zI_N6wBqWc" role="Yj6Zy">
           <property role="TrG5h" value="exactTestBetaApprox" />
           <ref role="28DJm8" to="c1ho:213CARpjQes" />
         </node>
-        <node concept="28mg_B" id="213CARpkob4" role="Yj6Zy">
+        <node concept="28mg_B" id="zI_N6wBqWd" role="Yj6Zy">
           <property role="TrG5h" value="exactTestByDeviance" />
           <ref role="28DJm8" to="c1ho:213CARpjQeA" />
         </node>
-        <node concept="28mg_B" id="213CARpkob5" role="Yj6Zy">
+        <node concept="28mg_B" id="zI_N6wBqWe" role="Yj6Zy">
           <property role="TrG5h" value="exactTestBySmallP" />
           <ref role="28DJm8" to="c1ho:213CARpjQeK" />
         </node>
-        <node concept="28mg_B" id="213CARpkob6" role="Yj6Zy">
+        <node concept="28mg_B" id="zI_N6wBqWf" role="Yj6Zy">
           <property role="TrG5h" value="exactTestDoubleTail" />
           <ref role="28DJm8" to="c1ho:213CARpjQeU" />
         </node>
-        <node concept="28mg_B" id="213CARpkob7" role="Yj6Zy">
+        <node concept="28mg_B" id="zI_N6wBqWg" role="Yj6Zy">
           <property role="TrG5h" value="expandAsMatrix" />
           <ref role="28DJm8" to="c1ho:213CARpjQf6" />
         </node>
-        <node concept="28mg_B" id="213CARpkob8" role="Yj6Zy">
+        <node concept="28mg_B" id="zI_N6wBqWh" role="Yj6Zy">
           <property role="TrG5h" value="getCounts" />
           <ref role="28DJm8" to="c1ho:213CARpjQff" />
         </node>
-        <node concept="28mg_B" id="213CARpkob9" role="Yj6Zy">
+        <node concept="28mg_B" id="zI_N6wBqWi" role="Yj6Zy">
           <property role="TrG5h" value="getDispersion" />
           <ref role="28DJm8" to="c1ho:213CARpjQfm" />
         </node>
-        <node concept="28mg_B" id="213CARpkoba" role="Yj6Zy">
+        <node concept="28mg_B" id="zI_N6wBqWj" role="Yj6Zy">
           <property role="TrG5h" value="getDispersions" />
           <ref role="28DJm8" to="c1ho:213CARpjQft" />
         </node>
-        <node concept="28mg_B" id="213CARpkobb" role="Yj6Zy">
+        <node concept="28mg_B" id="zI_N6wBqWk" role="Yj6Zy">
           <property role="TrG5h" value="getOffset" />
           <ref role="28DJm8" to="c1ho:213CARpjQf$" />
         </node>
-        <node concept="28mg_B" id="213CARpkobc" role="Yj6Zy">
+        <node concept="28mg_B" id="zI_N6wBqWl" role="Yj6Zy">
           <property role="TrG5h" value="getPriorN" />
           <ref role="28DJm8" to="c1ho:213CARpjQfF" />
         </node>
-        <node concept="28mg_B" id="213CARpkobd" role="Yj6Zy">
+        <node concept="28mg_B" id="zI_N6wBqWm" role="Yj6Zy">
           <property role="TrG5h" value="glmFit" />
           <ref role="28DJm8" to="c1ho:213CARpjQfQ" />
         </node>
-        <node concept="28mg_B" id="213CARpkobe" role="Yj6Zy">
+        <node concept="28mg_B" id="zI_N6wBqWn" role="Yj6Zy">
           <property role="TrG5h" value="glmFit.DGEList" />
           <ref role="28DJm8" to="c1ho:213CARpjQfY" />
         </node>
-        <node concept="28mg_B" id="213CARpkobf" role="Yj6Zy">
+        <node concept="28mg_B" id="zI_N6wBqWo" role="Yj6Zy">
           <property role="TrG5h" value="glmFit.default" />
           <ref role="28DJm8" to="c1ho:213CARpjQge" />
         </node>
-        <node concept="28mg_B" id="213CARpkobg" role="Yj6Zy">
+        <node concept="28mg_B" id="zI_N6wBqWp" role="Yj6Zy">
           <property role="TrG5h" value="glmLRT" />
           <ref role="28DJm8" to="c1ho:213CARpjQg$" />
         </node>
-        <node concept="28mg_B" id="213CARpkobh" role="Yj6Zy">
+        <node concept="28mg_B" id="zI_N6wBqWq" role="Yj6Zy">
           <property role="TrG5h" value="glmQLFTest" />
           <ref role="28DJm8" to="c1ho:213CARpjQgS" />
         </node>
-        <node concept="28mg_B" id="213CARpkobi" role="Yj6Zy">
+        <node concept="28mg_B" id="zI_N6wBqWr" role="Yj6Zy">
           <property role="TrG5h" value="glmQLFit" />
           <ref role="28DJm8" to="c1ho:213CARpjQha" />
         </node>
-        <node concept="28mg_B" id="213CARpkobj" role="Yj6Zy">
+        <node concept="28mg_B" id="zI_N6wBqWs" role="Yj6Zy">
           <property role="TrG5h" value="goana.DGEExact" />
           <ref role="28DJm8" to="c1ho:213CARpjQhy" />
         </node>
-        <node concept="28mg_B" id="213CARpkobk" role="Yj6Zy">
+        <node concept="28mg_B" id="zI_N6wBqWt" role="Yj6Zy">
           <property role="TrG5h" value="goana.DGELRT" />
           <ref role="28DJm8" to="c1ho:213CARpjQhQ" />
         </node>
-        <node concept="28mg_B" id="213CARpkobl" role="Yj6Zy">
+        <node concept="28mg_B" id="zI_N6wBqWu" role="Yj6Zy">
           <property role="TrG5h" value="gof" />
           <ref role="28DJm8" to="c1ho:213CARpjQia" />
         </node>
-        <node concept="28mg_B" id="213CARpkobm" role="Yj6Zy">
+        <node concept="28mg_B" id="zI_N6wBqWv" role="Yj6Zy">
           <property role="TrG5h" value="goodTuring" />
           <ref role="28DJm8" to="c1ho:213CARpjQiq" />
         </node>
-        <node concept="28mg_B" id="213CARpkobn" role="Yj6Zy">
+        <node concept="28mg_B" id="zI_N6wBqWw" role="Yj6Zy">
           <property role="TrG5h" value="goodTuringPlot" />
           <ref role="28DJm8" to="c1ho:213CARpjQiz" />
         </node>
-        <node concept="28mg_B" id="213CARpkobo" role="Yj6Zy">
+        <node concept="28mg_B" id="zI_N6wBqWx" role="Yj6Zy">
           <property role="TrG5h" value="goodTuringProportions" />
           <ref role="28DJm8" to="c1ho:213CARpjQiE" />
         </node>
-        <node concept="28mg_B" id="213CARpkobp" role="Yj6Zy">
+        <node concept="28mg_B" id="zI_N6wBqWy" role="Yj6Zy">
           <property role="TrG5h" value="length.DGEExact" />
           <ref role="28DJm8" to="c1ho:213CARpjQiL" />
         </node>
-        <node concept="28mg_B" id="213CARpkobq" role="Yj6Zy">
+        <node concept="28mg_B" id="zI_N6wBqWz" role="Yj6Zy">
           <property role="TrG5h" value="length.DGEGLM" />
           <ref role="28DJm8" to="c1ho:213CARpjQiS" />
         </node>
-        <node concept="28mg_B" id="213CARpkobr" role="Yj6Zy">
+        <node concept="28mg_B" id="zI_N6wBqW$" role="Yj6Zy">
           <property role="TrG5h" value="length.DGELRT" />
           <ref role="28DJm8" to="c1ho:213CARpjQiZ" />
         </node>
-        <node concept="28mg_B" id="213CARpkobs" role="Yj6Zy">
+        <node concept="28mg_B" id="zI_N6wBqW_" role="Yj6Zy">
           <property role="TrG5h" value="length.DGEList" />
           <ref role="28DJm8" to="c1ho:213CARpjQj6" />
         </node>
-        <node concept="28mg_B" id="213CARpkobt" role="Yj6Zy">
+        <node concept="28mg_B" id="zI_N6wBqWA" role="Yj6Zy">
           <property role="TrG5h" value="length.TopTags" />
           <ref role="28DJm8" to="c1ho:213CARpjQjd" />
         </node>
-        <node concept="28mg_B" id="213CARpkobu" role="Yj6Zy">
+        <node concept="28mg_B" id="zI_N6wBqWB" role="Yj6Zy">
           <property role="TrG5h" value="locfitByCol" />
           <ref role="28DJm8" to="c1ho:213CARpjQjk" />
         </node>
-        <node concept="28mg_B" id="213CARpkobv" role="Yj6Zy">
+        <node concept="28mg_B" id="zI_N6wBqWC" role="Yj6Zy">
           <property role="TrG5h" value="loessByCol" />
           <ref role="28DJm8" to="c1ho:213CARpjQjz" />
         </node>
-        <node concept="28mg_B" id="213CARpkobw" role="Yj6Zy">
+        <node concept="28mg_B" id="zI_N6wBqWD" role="Yj6Zy">
           <property role="TrG5h" value="maPlot" />
           <ref role="28DJm8" to="c1ho:213CARpjQjI" />
         </node>
-        <node concept="28mg_B" id="213CARpkobx" role="Yj6Zy">
+        <node concept="28mg_B" id="zI_N6wBqWE" role="Yj6Zy">
           <property role="TrG5h" value="maximizeInterpolant" />
           <ref role="28DJm8" to="c1ho:213CARpjQkf" />
         </node>
-        <node concept="28mg_B" id="213CARpkoby" role="Yj6Zy">
+        <node concept="28mg_B" id="zI_N6wBqWF" role="Yj6Zy">
           <property role="TrG5h" value="maximizeQuadratic" />
           <ref role="28DJm8" to="c1ho:213CARpjQkn" />
         </node>
-        <node concept="28mg_B" id="213CARpkobz" role="Yj6Zy">
+        <node concept="28mg_B" id="zI_N6wBqWG" role="Yj6Zy">
           <property role="TrG5h" value="mglmLevenberg" />
           <ref role="28DJm8" to="c1ho:213CARpjQkB" />
         </node>
-        <node concept="28mg_B" id="213CARpkob$" role="Yj6Zy">
+        <node concept="28mg_B" id="zI_N6wBqWH" role="Yj6Zy">
           <property role="TrG5h" value="mglmOneGroup" />
           <ref role="28DJm8" to="c1ho:213CARpjQkX" />
         </node>
-        <node concept="28mg_B" id="213CARpkob_" role="Yj6Zy">
+        <node concept="28mg_B" id="zI_N6wBqWI" role="Yj6Zy">
           <property role="TrG5h" value="mglmOneWay" />
           <ref role="28DJm8" to="c1ho:213CARpjQli" />
         </node>
-        <node concept="28mg_B" id="213CARpkobA" role="Yj6Zy">
+        <node concept="28mg_B" id="zI_N6wBqWJ" role="Yj6Zy">
           <property role="TrG5h" value="movingAverageByCol" />
           <ref role="28DJm8" to="c1ho:213CARpjQlB" />
         </node>
-        <node concept="28mg_B" id="213CARpkobB" role="Yj6Zy">
+        <node concept="28mg_B" id="zI_N6wBqWK" role="Yj6Zy">
           <property role="TrG5h" value="mroast.DGEList" />
           <ref role="28DJm8" to="c1ho:213CARpjQlM" />
         </node>
-        <node concept="28mg_B" id="213CARpkobC" role="Yj6Zy">
+        <node concept="28mg_B" id="zI_N6wBqWL" role="Yj6Zy">
           <property role="TrG5h" value="nbinomDeviance" />
           <ref role="28DJm8" to="c1ho:213CARpjQm4" />
         </node>
-        <node concept="28mg_B" id="213CARpkobD" role="Yj6Zy">
+        <node concept="28mg_B" id="zI_N6wBqWM" role="Yj6Zy">
           <property role="TrG5h" value="nbinomUnitDeviance" />
           <ref role="28DJm8" to="c1ho:213CARpjQmg" />
         </node>
-        <node concept="28mg_B" id="213CARpkobE" role="Yj6Zy">
+        <node concept="28mg_B" id="zI_N6wBqWN" role="Yj6Zy">
           <property role="TrG5h" value="normalizeChIPtoInput" />
           <ref role="28DJm8" to="c1ho:213CARpjQmq" />
         </node>
-        <node concept="28mg_B" id="213CARpkobF" role="Yj6Zy">
+        <node concept="28mg_B" id="zI_N6wBqWO" role="Yj6Zy">
           <property role="TrG5h" value="plotBCV" />
           <ref role="28DJm8" to="c1ho:213CARpjQmH" />
         </node>
-        <node concept="28mg_B" id="213CARpkobG" role="Yj6Zy">
+        <node concept="28mg_B" id="zI_N6wBqWP" role="Yj6Zy">
           <property role="TrG5h" value="plotExonUsage" />
           <ref role="28DJm8" to="c1ho:213CARpjQn3" />
         </node>
-        <node concept="28mg_B" id="213CARpkobH" role="Yj6Zy">
+        <node concept="28mg_B" id="zI_N6wBqWQ" role="Yj6Zy">
           <property role="TrG5h" value="plotMDS.DGEList" />
           <ref role="28DJm8" to="c1ho:213CARpjQnk" />
         </node>
-        <node concept="28mg_B" id="213CARpkobI" role="Yj6Zy">
+        <node concept="28mg_B" id="zI_N6wBqWR" role="Yj6Zy">
           <property role="TrG5h" value="plotMeanVar" />
           <ref role="28DJm8" to="c1ho:213CARpjQnW" />
         </node>
-        <node concept="28mg_B" id="213CARpkobJ" role="Yj6Zy">
+        <node concept="28mg_B" id="zI_N6wBqWS" role="Yj6Zy">
           <property role="TrG5h" value="plotQLDisp" />
           <ref role="28DJm8" to="c1ho:213CARpjQoq" />
         </node>
-        <node concept="28mg_B" id="213CARpkobK" role="Yj6Zy">
+        <node concept="28mg_B" id="zI_N6wBqWT" role="Yj6Zy">
           <property role="TrG5h" value="plotSmear" />
           <ref role="28DJm8" to="c1ho:213CARpjQoK" />
         </node>
-        <node concept="28mg_B" id="213CARpkobL" role="Yj6Zy">
+        <node concept="28mg_B" id="zI_N6wBqWU" role="Yj6Zy">
           <property role="TrG5h" value="plotSpliceDGE" />
           <ref role="28DJm8" to="c1ho:213CARpjQpe" />
         </node>
-        <node concept="28mg_B" id="213CARpkobM" role="Yj6Zy">
+        <node concept="28mg_B" id="zI_N6wBqWV" role="Yj6Zy">
           <property role="TrG5h" value="predFC" />
           <ref role="28DJm8" to="c1ho:213CARpjQpr" />
         </node>
-        <node concept="28mg_B" id="213CARpkobN" role="Yj6Zy">
+        <node concept="28mg_B" id="zI_N6wBqWW" role="Yj6Zy">
           <property role="TrG5h" value="predFC.DGEList" />
           <ref role="28DJm8" to="c1ho:213CARpjQpH" />
         </node>
-        <node concept="28mg_B" id="213CARpkobO" role="Yj6Zy">
+        <node concept="28mg_B" id="zI_N6wBqWX" role="Yj6Zy">
           <property role="TrG5h" value="predFC.default" />
           <ref role="28DJm8" to="c1ho:213CARpjQpZ" />
         </node>
-        <node concept="28mg_B" id="213CARpkobP" role="Yj6Zy">
+        <node concept="28mg_B" id="zI_N6wBqWY" role="Yj6Zy">
           <property role="TrG5h" value="processAmplicons" />
           <ref role="28DJm8" to="c1ho:213CARpjQqh" />
         </node>
-        <node concept="28mg_B" id="213CARpkobQ" role="Yj6Zy">
+        <node concept="28mg_B" id="zI_N6wBqWZ" role="Yj6Zy">
           <property role="TrG5h" value="q2qnbinom" />
           <ref role="28DJm8" to="c1ho:213CARpjQqQ" />
         </node>
-        <node concept="28mg_B" id="213CARpkobR" role="Yj6Zy">
+        <node concept="28mg_B" id="zI_N6wBqX0" role="Yj6Zy">
           <property role="TrG5h" value="q2qpois" />
           <ref role="28DJm8" to="c1ho:213CARpjQr1" />
         </node>
-        <node concept="28mg_B" id="213CARpkobS" role="Yj6Zy">
+        <node concept="28mg_B" id="zI_N6wBqX1" role="Yj6Zy">
           <property role="TrG5h" value="readDGE" />
           <ref role="28DJm8" to="c1ho:213CARpjQra" />
         </node>
-        <node concept="28mg_B" id="213CARpkobT" role="Yj6Zy">
+        <node concept="28mg_B" id="zI_N6wBqX2" role="Yj6Zy">
           <property role="TrG5h" value="roast.DGEList" />
           <ref role="28DJm8" to="c1ho:213CARpjQrw" />
         </node>
-        <node concept="28mg_B" id="213CARpkobU" role="Yj6Zy">
+        <node concept="28mg_B" id="zI_N6wBqX3" role="Yj6Zy">
           <property role="TrG5h" value="rpkm" />
           <ref role="28DJm8" to="c1ho:213CARpjQrM" />
         </node>
-        <node concept="28mg_B" id="213CARpkobV" role="Yj6Zy">
+        <node concept="28mg_B" id="zI_N6wBqX4" role="Yj6Zy">
           <property role="TrG5h" value="rpkm.DGEList" />
           <ref role="28DJm8" to="c1ho:213CARpjQrU" />
         </node>
-        <node concept="28mg_B" id="213CARpkobW" role="Yj6Zy">
+        <node concept="28mg_B" id="zI_N6wBqX5" role="Yj6Zy">
           <property role="TrG5h" value="rpkm.default" />
           <ref role="28DJm8" to="c1ho:213CARpjQsa" />
         </node>
-        <node concept="28mg_B" id="213CARpkobX" role="Yj6Zy">
+        <node concept="28mg_B" id="zI_N6wBqX6" role="Yj6Zy">
           <property role="TrG5h" value="show" />
           <ref role="28DJm8" to="c1ho:213CARpjQsp" />
         </node>
-        <node concept="28mg_B" id="213CARpkobY" role="Yj6Zy">
+        <node concept="28mg_B" id="zI_N6wBqX7" role="Yj6Zy">
           <property role="TrG5h" value="spliceVariants" />
           <ref role="28DJm8" to="c1ho:213CARpjQsw" />
         </node>
-        <node concept="28mg_B" id="213CARpkobZ" role="Yj6Zy">
+        <node concept="28mg_B" id="zI_N6wBqX8" role="Yj6Zy">
           <property role="TrG5h" value="splitIntoGroups" />
           <ref role="28DJm8" to="c1ho:213CARpjQsK" />
         </node>
-        <node concept="28mg_B" id="213CARpkoc0" role="Yj6Zy">
+        <node concept="28mg_B" id="zI_N6wBqX9" role="Yj6Zy">
           <property role="TrG5h" value="splitIntoGroupsPseudo" />
           <ref role="28DJm8" to="c1ho:213CARpjQsR" />
         </node>
-        <node concept="28mg_B" id="213CARpkoc1" role="Yj6Zy">
+        <node concept="28mg_B" id="zI_N6wBqXa" role="Yj6Zy">
           <property role="TrG5h" value="sumTechReps" />
           <ref role="28DJm8" to="c1ho:213CARpjQt0" />
         </node>
-        <node concept="28mg_B" id="213CARpkoc2" role="Yj6Zy">
+        <node concept="28mg_B" id="zI_N6wBqXb" role="Yj6Zy">
           <property role="TrG5h" value="sumTechReps.DGEList" />
           <ref role="28DJm8" to="c1ho:213CARpjQte" />
         </node>
-        <node concept="28mg_B" id="213CARpkoc3" role="Yj6Zy">
+        <node concept="28mg_B" id="zI_N6wBqXc" role="Yj6Zy">
           <property role="TrG5h" value="sumTechReps.default" />
           <ref role="28DJm8" to="c1ho:213CARpjQts" />
         </node>
-        <node concept="28mg_B" id="213CARpkoc4" role="Yj6Zy">
+        <node concept="28mg_B" id="zI_N6wBqXd" role="Yj6Zy">
           <property role="TrG5h" value="systematicSubset" />
           <ref role="28DJm8" to="c1ho:213CARpjQtE" />
         </node>
-        <node concept="28mg_B" id="213CARpkoc5" role="Yj6Zy">
+        <node concept="28mg_B" id="zI_N6wBqXe" role="Yj6Zy">
           <property role="TrG5h" value="thinCounts" />
           <ref role="28DJm8" to="c1ho:213CARpjQtM" />
         </node>
-        <node concept="28mg_B" id="213CARpkoc6" role="Yj6Zy">
+        <node concept="28mg_B" id="zI_N6wBqXf" role="Yj6Zy">
           <property role="TrG5h" value="topSpliceDGE" />
           <ref role="28DJm8" to="c1ho:213CARpjQu5" />
         </node>
-        <node concept="28mg_B" id="213CARpkoc7" role="Yj6Zy">
+        <node concept="28mg_B" id="zI_N6wBqXg" role="Yj6Zy">
           <property role="TrG5h" value="topTags" />
           <ref role="28DJm8" to="c1ho:213CARpjQuk" />
         </node>
-        <node concept="28mg_B" id="213CARpkoc8" role="Yj6Zy">
+        <node concept="28mg_B" id="zI_N6wBqXh" role="Yj6Zy">
           <property role="TrG5h" value="treatDGE" />
           <ref role="28DJm8" to="c1ho:213CARpjQux" />
         </node>
-        <node concept="28mg_B" id="213CARpkoc9" role="Yj6Zy">
+        <node concept="28mg_B" id="zI_N6wBqXi" role="Yj6Zy">
           <property role="TrG5h" value="validDGEList" />
           <ref role="28DJm8" to="c1ho:213CARpjQuP" />
         </node>
-        <node concept="28mg_B" id="213CARpkoca" role="Yj6Zy">
+        <node concept="28mg_B" id="zI_N6wBqXj" role="Yj6Zy">
           <property role="TrG5h" value="weightedCondLogLikDerDelta" />
           <ref role="28DJm8" to="c1ho:213CARpjQuW" />
         </node>
-        <node concept="28mg_B" id="213CARpkocb" role="Yj6Zy">
+        <node concept="28mg_B" id="zI_N6wBqXk" role="Yj6Zy">
           <property role="TrG5h" value="zscoreNBinom" />
           <ref role="28DJm8" to="c1ho:213CARpjQvj" />
         </node>
@@ -5994,6 +6010,23 @@
         <node concept="28mg_B" id="213CARpmRiC" role="Yj6Zy">
           <property role="TrG5h" value="useMart" />
           <ref role="28DJm8" node="213CARpmPjq" />
+        </node>
+      </node>
+      <node concept="S1EQe" id="zI_N6wBQdb" role="ZXjPg">
+        <property role="S1EQ6" value="NFFNOQWJKV" />
+      </node>
+      <node concept="2pLU64" id="zI_N6wDGX5" role="ZXjPg">
+        <property role="S1EQ6" value="BJJQGMWBQM" />
+        <node concept="2obFJT" id="zI_N6wDGX7" role="2pLU67">
+          <ref role="2obFw0" node="213CARpmPfH" resolve="columns" />
+          <node concept="2PZJp2" id="zI_N6wDHFk" role="2obFJS">
+            <node concept="gNbv0" id="zI_N6wDHFl" role="134Gdu" />
+            <node concept="3a69Ir" id="zI_N6wDHFj" role="134Gdo">
+              <property role="TrG5h" value="columns" />
+              <ref role="1Li74V" node="213CARpmPfH" resolve="columns" />
+              <ref role="3a69Pm" node="213CARpmPfI" />
+            </node>
+          </node>
         </node>
       </node>
     </node>
