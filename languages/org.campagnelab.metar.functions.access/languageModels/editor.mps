@@ -29,6 +29,7 @@
       </concept>
       <concept id="1073389214265" name="jetbrains.mps.lang.editor.structure.EditorCellModel" flags="ng" index="3EYTF0">
         <property id="1130859485024" name="attractsFocus" index="1cu_pB" />
+        <reference id="1139959269582" name="actionMap" index="1ERwB7" />
         <child id="1198512004906" name="focusPolicyApplicable" index="cStSX" />
         <child id="1142887637401" name="renderingCondition" index="pqm2j" />
       </concept>
@@ -127,6 +128,7 @@
       </node>
       <node concept="3F1sOY" id="YA$ymny34c" role="3EZMnx">
         <ref role="1NtTu8" to="89bg:YA$ymny2Bt" />
+        <ref role="1ERwB7" node="zI_N6wCans" resolve="CleanFunctionCall" />
         <node concept="pkWqt" id="YA$ymny34d" role="pqm2j">
           <node concept="3clFbS" id="YA$ymny34e" role="2VODD2">
             <node concept="3clFbF" id="YA$ymny34f" role="3cqZAp">
