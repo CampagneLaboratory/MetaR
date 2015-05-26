@@ -5,6 +5,7 @@
 */*/classes_gen/**/*.class
 */*/classes_gen/**/trace.info
 *.R
+*.class
 trace.info
 dependencies
 generated
