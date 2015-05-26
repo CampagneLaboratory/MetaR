@@ -30,7 +30,6 @@
     <import index="o8zo" ref="r:314576fc-3aee-4386-a0a5-a38348ac317d(jetbrains.mps.scope)" implicit="true" />
     <import index="tpcu" ref="r:00000000-0000-4000-0000-011c89590282(jetbrains.mps.lang.core.behavior)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
-    <import index="lww3" ref="f:diff_old#r:377e7fab-b099-4462-b9f3-2050d4b23cf6(org.campagnelab.metar.tables.constraints@old)" implicit="true" />
   </imports>
   <registry>
     <language id="13744753-c81f-424a-9c1b-cf8943bf4e86" name="jetbrains.mps.lang.sharedConcepts">
@@ -1330,8 +1329,8 @@
           <node concept="22lmx$" id="5lRZ7X5cExA" role="3clFbG">
             <node concept="2OqwBi" id="7ZuwI_dzlka" role="3uHU7B">
               <node concept="2OqwBi" id="7ZuwI_dzjIR" role="2Oq$k0">
-                <node concept="37vLTw" id="7ZuwI_dzjAa" role="2Oq$k0">
-                  <ref role="3cqZAo" to="lww3:7ZuwI_dz9ky" resolve="concepts" />
+                <node concept="37vLTw" id="2qZmyg8fALj" role="2Oq$k0">
+                  <ref role="3cqZAo" node="7ZuwI_dz9ky" resolve="concepts" />
                 </node>
                 <node concept="39bAoz" id="7ZuwI_dzkBr" role="2OqNvi" />
               </node>
