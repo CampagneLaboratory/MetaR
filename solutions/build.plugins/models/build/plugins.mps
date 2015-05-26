@@ -15,6 +15,7 @@
     <import index="nr1s" ref="r:41c5e6e6-d21c-4739-aa05-3b0328c9486c(org.campagnelab.build.TextOutput)" />
     <import index="ael0" ref="r:cc7a346d-c5cf-4c03-b1fd-d5006736ae3a(org.campagnelab.build.UI)" />
     <import index="9b59" ref="f4badde6-d2fb-4344-91d3-caedb26a938e/r:d2c1095a-594a-4ff4-97d7-a186cca5ed85(XChart.build/XChart.build)" />
+    <import index="hc0n" ref="r:4f291851-4a14-4a46-acdb-b3df285248df(ANTLR.persistence.build)" />
   </imports>
   <registry>
     <language id="479c7a8c-02f9-43b5-9139-d910cb22f298" name="jetbrains.mps.core.xml">
@@ -212,6 +213,16 @@
         </node>
       </node>
     </node>
+    <node concept="2kB4xC" id="HL4WxLmXHn" role="1l3spd">
+      <property role="TrG5h" value="ANTLR_version" />
+      <node concept="aVJcg" id="HL4WxLmXWy" role="aVJcv">
+        <node concept="NbPM2" id="HL4WxLmXWx" role="aVJcq">
+          <node concept="3Mxwew" id="HL4WxLmXWw" role="3MwsjC">
+            <property role="3MwjfP" value="1.0" />
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="2kB4xC" id="4RSqyaA4c2V" role="1l3spd">
       <property role="TrG5h" value="build_number" />
     </node>
@@ -270,6 +281,26 @@
                 <property role="2Ry0Am" value="artifacts" />
                 <node concept="2Ry0Ak" id="7OkpSXKgMS2" role="2Ry0An">
                   <property role="2Ry0Am" value="XChart" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2sgV4H" id="HL4WxLn1bl" role="1l3spa">
+      <ref role="1l3spb" to="hc0n:7twz7e84BNd" resolve="ANTLR" />
+      <node concept="55IIr" id="HL4WxLn1dT" role="2JcizS">
+        <node concept="2Ry0Ak" id="HL4WxLn1g3" role="iGT6I">
+          <property role="2Ry0Am" value=".." />
+          <node concept="2Ry0Ak" id="HL4WxLn1g8" role="2Ry0An">
+            <property role="2Ry0Am" value="ANTLR" />
+            <node concept="2Ry0Ak" id="HL4WxLn1gd" role="2Ry0An">
+              <property role="2Ry0Am" value="build" />
+              <node concept="2Ry0Ak" id="HL4WxLn1gi" role="2Ry0An">
+                <property role="2Ry0Am" value="artifacts" />
+                <node concept="2Ry0Ak" id="HL4WxLn1gn" role="2Ry0An">
+                  <property role="2Ry0Am" value="ANTLR" />
                 </node>
               </node>
             </node>
