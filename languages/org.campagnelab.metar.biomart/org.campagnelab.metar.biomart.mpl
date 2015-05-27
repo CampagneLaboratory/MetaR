@@ -98,7 +98,7 @@
     <dependency reexport="false">5ec1cd3d-0a50-4049-a8fa-ae768d7baa25(org.campagnelab.mps.XChart)</dependency>
     <dependency reexport="false">5d6bde84-4ce4-4eb5-a37e-25a5edd55129(org.campagnelab.metar.tables)</dependency>
     <dependency reexport="true">6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)</dependency>
-    <dependency reexport="false">13ba3d61-2e25-42c5-9cb9-f67b16cd444e(Biomart)</dependency>
+    <dependency reexport="false">13ba3d61-2e25-42c5-9cb9-f67b16cd444e(org.campagnelab.metar.biomart.runtime)</dependency>
     <dependency reexport="false">b55d8dfc-0d9d-43d5-886d-c644e7083bff(stubUtils)</dependency>
     <dependency reexport="false">642f71f8-327a-425b-84f9-44ad58786d27(jetbrains.mps.lang.project.modules)</dependency>
     <dependency reexport="false">8a2e464f-d2c2-485e-a2ed-8b50c6327795(jetbrains.mps.ide.java)</dependency>
@@ -169,7 +169,7 @@
     <language id="901f5cf3-dc77-4c1e-bc5a-6382baee28b4" fqName="org.campagnelab.textoutput" version="0" />
   </languageVersions>
   <runtime>
-    <dependency reexport="false">13ba3d61-2e25-42c5-9cb9-f67b16cd444e(Biomart)</dependency>
+    <dependency reexport="false">13ba3d61-2e25-42c5-9cb9-f67b16cd444e(org.campagnelab.metar.biomart.runtime)</dependency>
   </runtime>
   <extendedLanguages>
     <extendedLanguage>5d6bde84-4ce4-4eb5-a37e-25a5edd55129(org.campagnelab.metar.tables)</extendedLanguage>
