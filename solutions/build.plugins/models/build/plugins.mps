@@ -144,8 +144,12 @@
       <concept id="4278635856200794926" name="jetbrains.mps.build.mps.structure.BuildMps_ModuleDependencyExtendLanguage" flags="ng" index="1Busua">
         <reference id="4278635856200794928" name="language" index="1Busuk" />
       </concept>
+      <concept id="3189788309731981027" name="jetbrains.mps.build.mps.structure.BuildMps_ModuleSolutionRuntime" flags="ng" index="1E0d5M">
+        <reference id="3189788309731981028" name="solution" index="1E0d5P" />
+      </concept>
       <concept id="3189788309731840247" name="jetbrains.mps.build.mps.structure.BuildMps_Solution" flags="ng" index="1E1JtA" />
       <concept id="3189788309731840248" name="jetbrains.mps.build.mps.structure.BuildMps_Language" flags="ng" index="1E1JtD">
+        <child id="3189788309731917348" name="runtime" index="1E1XAP" />
         <child id="9200313594498201639" name="generator" index="1TViLv" />
       </concept>
       <concept id="322010710375794190" name="jetbrains.mps.build.mps.structure.BuildMps_DevKit" flags="ng" index="3LEwk6">
@@ -355,6 +359,19 @@
                   <property role="2Ry0Am" value="org.campagnelab.metar.R" />
                   <node concept="2Ry0Ak" id="legv36FSAr" role="2Ry0An">
                     <property role="2Ry0Am" value="R.parsers-1.0-SNAPSHOT-complete.jar" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="28jJK3" id="3vYuQ8LHUFk" role="39821P">
+            <node concept="55IIr" id="3vYuQ8LHUFm" role="28jJRO">
+              <node concept="2Ry0Ak" id="3vYuQ8LHUIS" role="iGT6I">
+                <property role="2Ry0Am" value="solutions" />
+                <node concept="2Ry0Ak" id="3vYuQ8LHUJ3" role="2Ry0An">
+                  <property role="2Ry0Am" value="org.campagnelab.metar.biomart.runtime" />
+                  <node concept="2Ry0Ak" id="3vYuQ8LHUJe" role="2Ry0An">
+                    <property role="2Ry0Am" value="Biomart.jar" />
                   </node>
                 </node>
               </node>
@@ -1950,6 +1967,236 @@
               <property role="2Ry0Am" value="org.campagnelab.metar.r.scripts" />
               <node concept="2Ry0Ak" id="3rWIEp7J4W2" role="2Ry0An">
                 <property role="2Ry0Am" value="org.campagnelab.metar.r.scripts.msd" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="1E1JtD" id="3vYuQ8LHEFz" role="2G$12L">
+        <property role="BnDLt" value="true" />
+        <property role="TrG5h" value="org.campagnelab.metar.biomart" />
+        <property role="3LESm3" value="e633fc48-0aaf-45b5-9894-247b67cf0890" />
+        <property role="2GAjPV" value="false" />
+        <node concept="55IIr" id="3vYuQ8LHEFA" role="3LF7KH">
+          <node concept="2Ry0Ak" id="3vYuQ8LHFja" role="iGT6I">
+            <property role="2Ry0Am" value="languages" />
+            <node concept="2Ry0Ak" id="3vYuQ8LHFoP" role="2Ry0An">
+              <property role="2Ry0Am" value="org.campagnelab.metar.biomart" />
+              <node concept="2Ry0Ak" id="3vYuQ8LHFuw" role="2Ry0An">
+                <property role="2Ry0Am" value="org.campagnelab.metar.biomart.mpl" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="3vYuQ8LHGh0" role="3bR37C">
+          <node concept="3bR9La" id="3vYuQ8LHGh1" role="1SiIV1">
+            <property role="3bR36h" value="true" />
+            <ref role="3bR37D" to="ffeo:mXGwHwhVPj" resolve="JDK" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="3vYuQ8LHUu9" role="3bR37C">
+          <node concept="3bR9La" id="3vYuQ8LHUua" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" to="9b59:7XxitGzkyrv" resolve="org.campagnelab.mps.XChart" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="3vYuQ8LHUub" role="3bR37C">
+          <node concept="3bR9La" id="3vYuQ8LHUuc" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" to="ffeo:7Kfy9QB6KXW" resolve="jetbrains.mps.lang.core" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="3vYuQ8LHUud" role="3bR37C">
+          <node concept="3bR9La" id="3vYuQ8LHUue" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" node="3gMg70bRmfh" resolve="org.campagnelab.metar.tables" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="3vYuQ8LHUuf" role="3bR37C">
+          <node concept="3bR9La" id="3vYuQ8LHUug" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" to="ffeo:1d41uYMTRXo" resolve="jetbrains.mps.baseLanguage.scopes" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="3vYuQ8LHUuh" role="3bR37C">
+          <node concept="3bR9La" id="3vYuQ8LHUui" role="1SiIV1">
+            <property role="3bR36h" value="true" />
+            <ref role="3bR37D" node="3vYuQ8LHFQd" resolve="org.campagnelab.metar.biomart.runtime" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="3vYuQ8LOCMv" role="3bR37C">
+          <node concept="3bR9La" id="3vYuQ8LOCMw" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" to="ffeo:7Kfy9QB6LfQ" resolve="jetbrains.mps.kernel" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="3vYuQ8LOCMx" role="3bR37C">
+          <node concept="3bR9La" id="3vYuQ8LOCMy" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" to="ffeo:6p9dGL_t6T4" resolve="jetbrains.mps.ide.java" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="3vYuQ8LOCMz" role="3bR37C">
+          <node concept="3bR9La" id="3vYuQ8LOCM$" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" to="ffeo:7Kfy9QB6L1S" resolve="jetbrains.mps.baseLanguage.javadoc" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="3vYuQ8LOCM_" role="3bR37C">
+          <node concept="3bR9La" id="3vYuQ8LOCMA" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" to="ffeo:1TaHNgiHrmy" resolve="stubUtils" />
+          </node>
+        </node>
+        <node concept="1E0d5M" id="3vYuQ8LOCMB" role="1E1XAP">
+          <ref role="1E0d5P" node="3vYuQ8LHFQd" resolve="org.campagnelab.metar.biomart.runtime" />
+        </node>
+        <node concept="1SiIV0" id="3vYuQ8LOCMC" role="3bR37C">
+          <node concept="1Busua" id="3vYuQ8LOCMD" role="1SiIV1">
+            <ref role="1Busuk" node="3gMg70bRmfh" resolve="org.campagnelab.metar.tables" />
+          </node>
+        </node>
+        <node concept="1yeLz9" id="3vYuQ8LOCME" role="1TViLv">
+          <property role="TrG5h" value="org.campagnelab.metar.biomart#3821621700600503340" />
+          <property role="3LESm3" value="73c86159-39a4-4d57-86f6-ae3806eb912c" />
+          <property role="2GAjPV" value="false" />
+          <node concept="1SiIV0" id="3vYuQ8LOCMF" role="3bR37C">
+            <node concept="3bR9La" id="3vYuQ8LOCMG" role="1SiIV1">
+              <property role="3bR36h" value="false" />
+              <ref role="3bR37D" to="9b59:7XxitGzkyrv" resolve="org.campagnelab.mps.XChart" />
+            </node>
+          </node>
+          <node concept="1SiIV0" id="3vYuQ8LOCMH" role="3bR37C">
+            <node concept="3bR9La" id="3vYuQ8LOCMI" role="1SiIV1">
+              <property role="3bR36h" value="false" />
+              <ref role="3bR37D" to="9b59:7H5cA3sEqXS" resolve="org.campagnelab.mps.XChart.types" />
+            </node>
+          </node>
+          <node concept="1SiIV0" id="3vYuQ8LOCMJ" role="3bR37C">
+            <node concept="3bR9La" id="3vYuQ8LOCMK" role="1SiIV1">
+              <property role="3bR36h" value="false" />
+              <ref role="3bR37D" node="3gMg70bRmfh" resolve="org.campagnelab.metar.tables" />
+            </node>
+          </node>
+          <node concept="1SiIV0" id="3vYuQ8LOCML" role="3bR37C">
+            <node concept="3bR9La" id="3vYuQ8LOCMM" role="1SiIV1">
+              <property role="3bR36h" value="false" />
+              <ref role="3bR37D" to="ffeo:sx8XDLCp97" resolve="jetbrains.mps.execution.util" />
+            </node>
+          </node>
+          <node concept="1SiIV0" id="3vYuQ8LOCMN" role="3bR37C">
+            <node concept="3bR9La" id="3vYuQ8LOCMO" role="1SiIV1">
+              <property role="3bR36h" value="false" />
+              <ref role="3bR37D" to="ffeo:7Kfy9QB6LaO" resolve="jetbrains.mps.lang.structure" />
+            </node>
+          </node>
+          <node concept="1SiIV0" id="3vYuQ8LOCMP" role="3bR37C">
+            <node concept="3bR9La" id="3vYuQ8LOCMQ" role="1SiIV1">
+              <property role="3bR36h" value="false" />
+              <ref role="3bR37D" to="ffeo:7Kfy9QB6L9I" resolve="jetbrains.mps.lang.sharedConcepts" />
+            </node>
+          </node>
+          <node concept="1SiIV0" id="3vYuQ8LOCMR" role="3bR37C">
+            <node concept="3bR9La" id="3vYuQ8LOCMS" role="1SiIV1">
+              <property role="3bR36h" value="false" />
+              <ref role="3bR37D" to="ffeo:1H905DlDUSw" resolve="MPS.OpenAPI" />
+            </node>
+          </node>
+          <node concept="1SiIV0" id="3vYuQ8LOCMT" role="3bR37C">
+            <node concept="3bR9La" id="3vYuQ8LOCMU" role="1SiIV1">
+              <property role="3bR36h" value="false" />
+              <ref role="3bR37D" to="ffeo:7Kfy9QB6L6C" resolve="jetbrains.mps.lang.generator" />
+            </node>
+          </node>
+          <node concept="1SiIV0" id="3vYuQ8LOCMV" role="3bR37C">
+            <node concept="3bR9La" id="3vYuQ8LOCMW" role="1SiIV1">
+              <property role="3bR36h" value="false" />
+              <ref role="3bR37D" to="ffeo:mXGwHwhVPj" resolve="JDK" />
+            </node>
+          </node>
+          <node concept="1SiIV0" id="3vYuQ8LOCMX" role="3bR37C">
+            <node concept="3bR9La" id="3vYuQ8LOCMY" role="1SiIV1">
+              <property role="3bR36h" value="false" />
+              <ref role="3bR37D" to="ffeo:7Kfy9QB6KXW" resolve="jetbrains.mps.lang.core" />
+            </node>
+          </node>
+          <node concept="1SiIV0" id="3vYuQ8LOCMZ" role="3bR37C">
+            <node concept="3bR9La" id="3vYuQ8LOCN0" role="1SiIV1">
+              <property role="3bR36h" value="false" />
+              <ref role="3bR37D" to="ffeo:7Kfy9QB6KYb" resolve="jetbrains.mps.baseLanguage" />
+            </node>
+          </node>
+          <node concept="1SiIV0" id="3vYuQ8LOCN1" role="3bR37C">
+            <node concept="3bR9La" id="3vYuQ8LOCN2" role="1SiIV1">
+              <property role="3bR36h" value="false" />
+              <ref role="3bR37D" to="ffeo:7Kfy9QB6L6o" resolve="jetbrains.mps.lang.generator.generationContext" />
+            </node>
+          </node>
+          <node concept="1SiIV0" id="3vYuQ8LOCN3" role="3bR37C">
+            <node concept="3bR9La" id="3vYuQ8LOCN4" role="1SiIV1">
+              <property role="3bR36h" value="false" />
+              <ref role="3bR37D" node="3vYuQ8LHEFz" resolve="org.campagnelab.metar.biomart" />
+            </node>
+          </node>
+          <node concept="1SiIV0" id="3vYuQ8LOCN5" role="3bR37C">
+            <node concept="3bR9La" id="3vYuQ8LOCN6" role="1SiIV1">
+              <property role="3bR36h" value="false" />
+              <ref role="3bR37D" node="1$0xyBYfkEs" resolve="org.campagnelab.metar.code" />
+            </node>
+          </node>
+          <node concept="1SiIV0" id="3vYuQ8LOCN7" role="3bR37C">
+            <node concept="3bR9La" id="3vYuQ8LOCN8" role="1SiIV1">
+              <property role="3bR36h" value="false" />
+              <ref role="3bR37D" to="ffeo:1TaHNgiIbIQ" resolve="MPS.Core" />
+            </node>
+          </node>
+          <node concept="1SiIV0" id="3vYuQ8LOCN9" role="3bR37C">
+            <node concept="3bR9La" id="3vYuQ8LOCNa" role="1SiIV1">
+              <property role="3bR36h" value="false" />
+              <ref role="3bR37D" to="nr1s:2mFg1uCEgGH" resolve="org.campagnelab.textoutput" />
+            </node>
+          </node>
+          <node concept="1SiIV0" id="3vYuQ8LOCNb" role="3bR37C">
+            <node concept="3bR9La" id="3vYuQ8LOCNc" role="1SiIV1">
+              <property role="3bR36h" value="false" />
+              <ref role="3bR37D" to="ffeo:7Kfy9QB6L4p" resolve="jetbrains.mps.lang.behavior" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="1E1JtA" id="3vYuQ8LHFQd" role="2G$12L">
+        <property role="BnDLt" value="true" />
+        <property role="TrG5h" value="org.campagnelab.metar.biomart.runtime" />
+        <property role="3LESm3" value="13ba3d61-2e25-42c5-9cb9-f67b16cd444e" />
+        <property role="2GAjPV" value="false" />
+        <node concept="55IIr" id="3vYuQ8LHFQg" role="3LF7KH">
+          <node concept="2Ry0Ak" id="3vYuQ8LHGdX" role="iGT6I">
+            <property role="2Ry0Am" value="solutions" />
+            <node concept="2Ry0Ak" id="3vYuQ8LHGe4" role="2Ry0An">
+              <property role="2Ry0Am" value="org.campagnelab.metar.biomart.runtime" />
+              <node concept="2Ry0Ak" id="3vYuQ8LHGeb" role="2Ry0An">
+                <property role="2Ry0Am" value="org.campagnelab.metar.biomart.runtime.msd" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="3vYuQ8LHGk0" role="3bR37C">
+          <node concept="3bR9La" id="3vYuQ8LHGk1" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" to="ffeo:mXGwHwhVPj" resolve="JDK" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="3vYuQ8LOCIX" role="3bR37C">
+          <node concept="1BurEX" id="3vYuQ8LOCIY" role="1SiIV1">
+            <node concept="55IIr" id="3vYuQ8LOCIT" role="1BurEY">
+              <node concept="2Ry0Ak" id="3vYuQ8LOCIU" role="iGT6I">
+                <property role="2Ry0Am" value="solutions" />
+                <node concept="2Ry0Ak" id="3vYuQ8LOCIV" role="2Ry0An">
+                  <property role="2Ry0Am" value="org.campagnelab.metar.biomart.runtime" />
+                  <node concept="2Ry0Ak" id="3vYuQ8LOCIW" role="2Ry0An">
+                    <property role="2Ry0Am" value="Biomart.jar" />
+                  </node>
+                </node>
               </node>
             </node>
           </node>
