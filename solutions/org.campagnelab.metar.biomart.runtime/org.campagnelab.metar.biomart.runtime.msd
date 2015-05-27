@@ -2,12 +2,15 @@
 <solution name="org.campagnelab.metar.biomart.runtime" uuid="13ba3d61-2e25-42c5-9cb9-f67b16cd444e" compileInMPS="true">
   <models>
     <modelRoot contentPath="${module}" type="default">
-      <sourceRoot location="models" />
+      <sourceRoot location="." />
     </modelRoot>
     <modelRoot contentPath="${module}" type="java_classes">
       <sourceRoot location="Biomart.jar" />
     </modelRoot>
   </models>
+  <stubModelEntries>
+    <stubModelEntry path="${module}/Biomart.jar" />
+  </stubModelEntries>
   <sourcePath />
   <dependencies>
     <dependency reexport="false">6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)</dependency>
