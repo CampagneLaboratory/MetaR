@@ -12,8 +12,12 @@
   <exported-language name="049ed9e7-0f0d-4814-a373-a4b21e15b59e(org.campagnelab.metar.limma)" />
   <exported-language name="64c90466-09b2-41ab-89f8-5085b3b9eca7(org.campagnelab.metar.functions.access)" />
   <exported-language name="c1747c67-8f42-4d83-9542-4a948aec17d9(org.campagnelab.metar.functions.importing)" />
+  <exported-language name="3b58810c-8431-4bbb-99ea-b4671e02dd13(org.campagnelab.metar.R)" />
   <exported-solutions>
     <exported-solution>2cd6da35-9171-4bb6-b128-f369f4c02f48(org.campagnelab.runR)</exported-solution>
+    <exported-solution>6f7a993a-c389-4f3d-a9c6-9dda8979ca77(org.campagnelab.metar.r.parsers)</exported-solution>
+    <exported-solution>9c4c21db-948a-44c6-8d32-16dd401e98b0(org.campagnelab.metar.r.stubs)</exported-solution>
+    <exported-solution>e1a8bd2b-9da1-4bd5-9e52-dcb3c5d6eb0f(org.campagnelab.metar.R.plugin)</exported-solution>
   </exported-solutions>
 </dev-kit>
 
