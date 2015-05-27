@@ -72,6 +72,9 @@
     <node concept="PrWs8" id="YA$ymny4cY" role="PzmwI">
       <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
     </node>
+    <node concept="PrWs8" id="legv36GJxc" role="PzmwI">
+      <ref role="PrY4T" to="jrxw:legv36GJlG" resolve="MetarExpression" />
+    </node>
   </node>
 </model>
 

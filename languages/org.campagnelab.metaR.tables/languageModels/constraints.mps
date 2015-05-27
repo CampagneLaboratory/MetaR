@@ -8,7 +8,6 @@
     <use id="d8f591ec-4d86-4af2-9f92-a9e93c803ffa" name="jetbrains.mps.lang.scopes" version="-1" />
     <use id="9ded098b-ad6a-4657-bfd9-48636cfe8bc3" name="jetbrains.mps.lang.traceable" version="-1" />
     <use id="13744753-c81f-424a-9c1b-cf8943bf4e86" name="jetbrains.mps.lang.sharedConcepts" version="-1" />
-    <use id="64c90466-09b2-41ab-89f8-5085b3b9eca7" name="org.campagnelab.metar.functions.access" version="-1" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -26,7 +25,6 @@
     <import index="vsqj" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/f:java_stub#6ed54515-acc8-4d1e-a16c-9fd6cfe951ea#jetbrains.mps.project(MPS.Core/jetbrains.mps.project@java_stub)" />
     <import index="ec5l" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/f:java_stub#8865b7a8-5271-43d3-884c-6fd1d9cfdd34#org.jetbrains.mps.openapi.model(MPS.OpenAPI/org.jetbrains.mps.openapi.model@java_stub)" />
     <import index="e2lb" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" implicit="true" />
-    <import index="89bg" ref="r:de53da33-34f1-4c7e-a0ab-034975f75528(org.campagnelab.metar.functions.access.structure)" implicit="true" />
     <import index="o8zo" ref="r:314576fc-3aee-4386-a0a5-a38348ac317d(jetbrains.mps.scope)" implicit="true" />
     <import index="tpcu" ref="r:00000000-0000-4000-0000-011c89590282(jetbrains.mps.lang.core.behavior)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
@@ -1292,9 +1290,6 @@
                 <node concept="3TUQnm" id="7ZuwI_dzhZ1" role="3g7hyw">
                   <ref role="3TV0OU" to="tpee:gMd3UKG" resolve="GreaterThanOrEqualsExpression" />
                 </node>
-                <node concept="3TUQnm" id="7ZuwI_dzRCq" role="3g7hyw">
-                  <ref role="3TV0OU" to="jrxw:70Aomqk_K78" resolve="ColumnValue" />
-                </node>
                 <node concept="3TUQnm" id="7ZuwI_d$BXK" role="3g7hyw">
                   <ref role="3TV0OU" to="tpee:fBy3z0Z" resolve="NotEqualsExpression" />
                 </node>
@@ -1317,7 +1312,7 @@
                   <ref role="3TV0OU" to="jrxw:1o6_6KoFD18" resolve="ColumnValueVenn" />
                 </node>
                 <node concept="3TUQnm" id="5lRZ7X5csNE" role="3g7hyw">
-                  <ref role="3TV0OU" to="89bg:YA$ymny2Bs" resolve="ScopedFunctionCallWrapper" />
+                  <ref role="3TV0OU" to="jrxw:legv36GJlG" resolve="MetarExpression" />
                 </node>
                 <node concept="3THzug" id="7ZuwI_dzaqV" role="3g7fb8" />
               </node>
