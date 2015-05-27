@@ -33,6 +33,9 @@
     </language>
     <language id="798100da-4f0a-421a-b991-71f8c50ce5d2" name="jetbrains.mps.build">
       <concept id="5481553824944787378" name="jetbrains.mps.build.structure.BuildSourceProjectRelativePath" flags="ng" index="55IIr" />
+      <concept id="9126048691955220717" name="jetbrains.mps.build.structure.BuildLayout_File" flags="ng" index="28jJK3">
+        <child id="9126048691955220762" name="path" index="28jJRO" />
+      </concept>
       <concept id="2755237150521975431" name="jetbrains.mps.build.structure.BuildVariableMacroInitWithString" flags="ng" index="aVJcg">
         <child id="2755237150521975437" name="value" index="aVJcq" />
       </concept>
@@ -344,6 +347,19 @@
         </node>
         <node concept="m$_wl" id="7yyH9N_7oht" role="39821P">
           <ref role="m_rDy" node="3gMg70bRmfv" resolve="org.campagnelab.metaR" />
+          <node concept="28jJK3" id="legv36FS_P" role="39821P">
+            <node concept="55IIr" id="legv36FS_Q" role="28jJRO">
+              <node concept="2Ry0Ak" id="legv36FSA5" role="iGT6I">
+                <property role="2Ry0Am" value="languages" />
+                <node concept="2Ry0Ak" id="legv36FSAg" role="2Ry0An">
+                  <property role="2Ry0Am" value="org.campagnelab.metar.R" />
+                  <node concept="2Ry0Ak" id="legv36FSAr" role="2Ry0An">
+                    <property role="2Ry0Am" value="R.parsers-1.0-SNAPSHOT-complete.jar" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
         </node>
       </node>
     </node>
@@ -601,6 +617,18 @@
         </node>
         <node concept="3LEDTy" id="3rWIEp7J3Mo" role="3LEDUa">
           <ref role="3LEDTV" node="3rWIEp7Ilky" resolve="org.campagnelab.metar.functions.importing" />
+        </node>
+        <node concept="3LEDTy" id="legv36FLmR" role="3LEDUa">
+          <ref role="3LEDTV" node="3rWIEp7J14y" resolve="org.campagnelab.metar.R" />
+        </node>
+        <node concept="3LEDTM" id="legv36FLmS" role="3LEDUa">
+          <ref role="3LEDTN" node="3rWIEp7J0jZ" resolve="org.campagnelab.metar.r.parsers" />
+        </node>
+        <node concept="3LEDTM" id="legv36FLmT" role="3LEDUa">
+          <ref role="3LEDTN" node="3rWIEp7J4c1" resolve="org.campagnelab.metar.r.stubs" />
+        </node>
+        <node concept="3LEDTM" id="legv36FLmU" role="3LEDUa">
+          <ref role="3LEDTN" node="3rWIEp7J33K" resolve="org.campagnelab.metar.R.plugin" />
         </node>
       </node>
       <node concept="1E1JtD" id="7Mz7YANVaRX" role="2G$12L">
