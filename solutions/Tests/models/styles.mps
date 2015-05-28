@@ -10,8 +10,8 @@
   </languages>
   <imports>
     <import index="1jxa" ref="r:11bfb29e-93ee-486d-81f1-c62151df6fcc(model)" />
-    <import index="9nc5" ref="r:d1a256e6-591a-459f-809c-7fc9df45e4d5(org.campagnelab.mps.XChart.types.roots)" implicit="true" />
     <import index="wiqx" ref="r:6bfd7c1b-dea3-4f98-9ed3-bce7739b7a8d(org.campagnelab.metar.accessories.styles.colors)" implicit="true" />
+    <import index="9nc5" ref="r:d1a256e6-591a-459f-809c-7fc9df45e4d5(org.campagnelab.mps.XChart.types.roots)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -401,6 +401,7 @@
           <property role="ZHjxa" value="0" />
           <property role="ZHjG8" value="1" />
           <property role="TrG5h" value="out" />
+          <property role="3ZMXzF" value="2" />
         </node>
         <node concept="afgQW" id="2xfYoj8ddxx" role="aeIV8">
           <ref role="afgo8" node="4DOwJpJxBw5" resolve="GSE59364_DC_all.csv" />
@@ -419,6 +420,7 @@
           <property role="ZHjxa" value="200" />
           <property role="ZHjG8" value="200" />
           <property role="TrG5h" value="histo" />
+          <property role="3ZMXzF" value="3" />
         </node>
         <node concept="3MHf5z" id="1xsIq4yaUk" role="2pJHDb">
           <ref role="3MHf5w" node="1S_LPePHV$f" resolve="B_DC" />
@@ -431,6 +433,7 @@
           <property role="ZHjxa" value="200" />
           <property role="ZHjG8" value="200" />
           <property role="TrG5h" value="histo2" />
+          <property role="3ZMXzF" value="4" />
         </node>
         <node concept="3MHf5z" id="1xsIq4yfjY" role="2pJHDb">
           <ref role="3MHf5w" node="1S_LPePHV$7" resolve="A_DC" />
@@ -443,6 +446,7 @@
           <property role="ZHjxa" value="200" />
           <property role="ZHjG8" value="200" />
           <property role="TrG5h" value="boxp" />
+          <property role="3ZMXzF" value="5" />
         </node>
         <node concept="3MHf5z" id="1xsIq4yepI" role="2_9Z7y">
           <ref role="3MHf5w" node="1S_LPePHVzR" resolve="DC0904" />
