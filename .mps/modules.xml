@@ -9,6 +9,7 @@
       <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.editor.images/org.campagnelab.editor.images.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.metaR.inspect/org.campagnelab.metaR.inspect.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.metaR.tables/org.campagnelab.metaR.tables.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.metar.MetarToR/org.campagnelab.metar.MetarToR.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.metar.R/org.campagnelab.metar.R.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.metar.accessories/org.campagnelab.metar.accessories.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.metar.biomart/org.campagnelab.metar.biomart.mpl" folder="" />
