@@ -180,6 +180,12 @@ public class QueriesGenerated {
   public static Object propertyMacro_GetPropertyValue_8109593806054942825(final PropertyMacroContext _context) {
     return SPropertyOperations.getString(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0xe633fc480aaf45b5L, 0x9894247b67cf0890L, 0x42d4c8dbd65e3fbcL, 0x708b1099a33164c8L, "filterListValue")), MetaAdapterFactory.getReferenceLink(0xe633fc480aaf45b5L, 0x9894247b67cf0890L, 0x708b1099a31b3122L, 0x708b1099a31b3127L, "filterListValue")), MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name"));
   }
+  public static Object propertyMacro_GetPropertyValue_5857936452075413206(final PropertyMacroContext _context) {
+    return NameHelper.RName(SPropertyOperations.getString(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0xe633fc480aaf45b5L, 0x9894247b67cf0890L, 0x514b922a9ebc01feL, 0x514b922a9ebc8280L, "identifier")), MetaAdapterFactory.getReferenceLink(0x3b58810c84314bbbL, 0x99eab4671e02dd13L, 0x14d038586597da88L, 0x14d0385865984963L, "id")), MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name")));
+  }
+  public static Object propertyMacro_GetPropertyValue_5857936452075413218(final PropertyMacroContext _context) {
+    return SPropertyOperations.getString(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0xe633fc480aaf45b5L, 0x9894247b67cf0890L, 0x514b922a9ebc01feL, 0x514b922a9ebc8280L, "identifier")), MetaAdapterFactory.getReferenceLink(0x3b58810c84314bbbL, 0x99eab4671e02dd13L, 0x14d038586597da88L, 0x14d0385865984963L, "id")), MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name"));
+  }
   public static boolean ifMacro_Condition_8109593806043826428(final IfMacroContext _context) {
     return ListSequence.fromList(SLinkOperations.getChildren(_context.getNode(), MetaAdapterFactory.getContainmentLink(0xe633fc480aaf45b5L, 0x9894247b67cf0890L, 0x350920b05a37c8ddL, 0x1bf3508d1da21238L, "martFilters"))).isEmpty();
   }

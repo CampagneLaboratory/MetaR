@@ -3,12 +3,13 @@
   <persistence version="9" />
   <languages>
     <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="-1" />
-    <use id="5d6bde84-4ce4-4eb5-a37e-25a5edd55129" name="org.campagnelab.metar.tables" version="1" />
+    <use id="5d6bde84-4ce4-4eb5-a37e-25a5edd55129" name="org.campagnelab.metar.tables" version="-1" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="jrxw" ref="r:9f2bbfbf-f8b7-4b3b-92b1-b6a0e9642c10(org.campagnelab.metar.tables.structure)" implicit="true" />
+    <import index="6q58" ref="r:97268463-8a58-42b7-9dc6-fa004b7a4308(org.campagnelab.metar.R.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
@@ -400,6 +401,17 @@
       <property role="20kJfa" value="filterListValue" />
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="4bkMdJm9$J_" resolve="FilterListValue" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="55b$yEuJ07Y">
+    <property role="3GE5qa" value="filters" />
+    <property role="TrG5h" value="FilterWithIdsFromIdentifier" />
+    <ref role="1TJDcQ" node="z5VH9d$mMN" resolve="FilterWith" />
+    <node concept="1TJgyj" id="55b$yEuJ8a0" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="identifier" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" to="6q58:1jge5x__XE8" resolve="IdentifierRef" />
     </node>
   </node>
 </model>
