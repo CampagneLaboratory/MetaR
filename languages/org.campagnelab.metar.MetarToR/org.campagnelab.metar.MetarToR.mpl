@@ -57,7 +57,7 @@
       <mapping-priorities>
         <mapping-priority-rule kind="strictly_together">
           <greater-priority-mapping>
-            <generator generatorUID="99b29ac5-d52a-4a59-874c-45a3b21bbafd(org.campagnelab.metar.MetarToR#548072407388513535)" />
+            <generator generatorUID="99b29ac5-d52a-4a59-874c-45a3b21bbafd(org.campagnelab.metar.biomartToR#548072407388513535)" />
             <external-mapping>
               <all-local-mappings />
             </external-mapping>

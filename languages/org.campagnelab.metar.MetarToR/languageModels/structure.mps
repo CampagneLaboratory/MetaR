@@ -79,5 +79,16 @@
       <ref role="20lvS9" to="jrxw:3BiNpr5FGHV" resolve="SetOfIds" />
     </node>
   </node>
+  <node concept="1TIwiD" id="55b$yEuNtjT">
+    <property role="TrG5h" value="refIds" />
+    <property role="34LRSv" value="refids" />
+    <ref role="1TJDcQ" to="6q58:5mPDeVwiPap" resolve="Expr" />
+    <node concept="1TJgyj" id="55b$yEuNtkl" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="child" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" to="6q58:1jge5x__XE8" resolve="IdentifierRef" />
+    </node>
+  </node>
 </model>
 
