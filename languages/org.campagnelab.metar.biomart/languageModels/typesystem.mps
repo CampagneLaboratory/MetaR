@@ -88,7 +88,7 @@
   </registry>
   <node concept="18kY7G" id="2eITi4PFXpq">
     <property role="TrG5h" value="check_BiomartAnalysisMart" />
-    <property role="3GE5qa" value="main" />
+    <property role="3GE5qa" value="" />
     <node concept="3clFbS" id="2eITi4PFXpr" role="18ibNy">
       <node concept="3clFbJ" id="2eITi4PFXUt" role="3cqZAp">
         <node concept="3clFbS" id="2eITi4PFXUu" role="3clFbx">
@@ -205,7 +205,7 @@
   </node>
   <node concept="18kY7G" id="4bkMdJphA1q">
     <property role="TrG5h" value="check_AttributeRef" />
-    <property role="3GE5qa" value="structure" />
+    <property role="3GE5qa" value="mainStructure" />
     <node concept="3clFbS" id="4bkMdJphA1r" role="18ibNy">
       <node concept="3clFbJ" id="4bkMdJphA1x" role="3cqZAp">
         <node concept="3clFbS" id="4bkMdJphA1y" role="3clFbx">

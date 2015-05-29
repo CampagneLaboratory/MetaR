@@ -136,7 +136,7 @@
     </language>
   </registry>
   <node concept="1M2fIO" id="2eITi4PrjhR">
-    <property role="3GE5qa" value="structure" />
+    <property role="3GE5qa" value="mainStructure" />
     <ref role="1M2myG" to="c07g:2eITi4Pls1W" resolve="DatabaseRef" />
     <node concept="1N5Pfh" id="2eITi4PrKP$" role="1Mr941">
       <ref role="1N5Vy1" to="c07g:2eITi4PlzR8" />
@@ -146,7 +146,7 @@
     </node>
   </node>
   <node concept="1M2fIO" id="2eITi4POn5z">
-    <property role="3GE5qa" value="structure" />
+    <property role="3GE5qa" value="mainStructure" />
     <ref role="1M2myG" to="c07g:2eITi4POn3$" resolve="DatasetsRef" />
     <node concept="1N5Pfh" id="2eITi4POn5B" role="1Mr941">
       <ref role="1N5Vy1" to="c07g:2eITi4POn3_" />
@@ -248,7 +248,7 @@
     </node>
   </node>
   <node concept="1M2fIO" id="2eITi4R4nlw">
-    <property role="3GE5qa" value="main" />
+    <property role="3GE5qa" value="" />
     <ref role="1M2myG" to="c07g:3k98b1qdWzt" resolve="Biomart" />
     <node concept="1N5Pfh" id="KwXu1WmEqE" role="1Mr941">
       <ref role="1N5Vy1" to="c07g:KwXu1WjUL4" />
@@ -396,7 +396,7 @@
     </node>
   </node>
   <node concept="1M2fIO" id="KwXu1Wz40o">
-    <property role="3GE5qa" value="structure" />
+    <property role="3GE5qa" value="mainStructure" />
     <ref role="1M2myG" to="c07g:KwXu1WyoBC" resolve="AttributeRef" />
     <node concept="1N5Pfh" id="KwXu1Wz41g" role="1Mr941">
       <ref role="1N5Vy1" to="c07g:KwXu1WyoBD" />
@@ -656,7 +656,7 @@
     </node>
   </node>
   <node concept="1M2fIO" id="7B_tLLzIHii">
-    <property role="3GE5qa" value="structure" />
+    <property role="3GE5qa" value="mainStructure" />
     <ref role="1M2myG" to="c07g:4bkMdJovqAd" resolve="ColumnGroupRef" />
     <node concept="1N5Pfh" id="7B_tLLzIHkQ" role="1Mr941">
       <ref role="1N5Vy1" to="c07g:4bkMdJovsL8" />
