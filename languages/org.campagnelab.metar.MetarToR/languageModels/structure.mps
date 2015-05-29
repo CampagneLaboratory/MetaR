@@ -47,6 +47,12 @@
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" to="c07g:3k98b1qdWzt" resolve="Biomart" />
     </node>
+    <node concept="1TJgyj" id="2vPLSZqt6YQ" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="identifier" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" to="6q58:5mPDeVwiPaR" resolve="Identifier" />
+    </node>
     <node concept="PrWs8" id="55b$yEu0S3O" role="PzmwI">
       <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
     </node>
@@ -54,18 +60,15 @@
   <node concept="1TIwiD" id="55b$yEtywNG">
     <property role="TrG5h" value="getMetaRTable" />
     <property role="34LRSv" value="get table" />
-    <ref role="1TJDcQ" to="6q58:5mPDeVwiPap" resolve="Expr" />
-    <node concept="PrWs8" id="55b$yEtywNH" role="PzmwI">
-      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
-    </node>
+    <ref role="1TJDcQ" to="6q58:5mPDeVwiPaR" resolve="Identifier" />
     <node concept="PrWs8" id="55b$yEtDEdh" role="PzmwI">
       <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
     </node>
-    <node concept="1TJgyj" id="55b$yEtywNJ" role="1TKVEi">
-      <property role="20lmBu" value="aggregation" />
+    <node concept="1TJgyj" id="pr6WGwY6sI" role="1TKVEi">
+      <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="table" />
       <property role="20lbJX" value="1" />
-      <ref role="20lvS9" to="jrxw:3R5AwWRY9uN" resolve="TableRef" />
+      <ref role="20lvS9" to="jrxw:2WRhvFtkykN" resolve="Table" />
     </node>
   </node>
   <node concept="1TIwiD" id="55b$yEu0YHT">
