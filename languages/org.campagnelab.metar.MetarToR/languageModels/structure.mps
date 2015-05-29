@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:2815b05a-19fb-48b1-b650-5a86998b563c(org.campagnelab.metar.MetarToR.structure)">
+<model ref="r:2815b05a-19fb-48b1-b650-5a86998b563c(org.campagnelab.metar.biomartToR.structure)">
   <persistence version="9" />
   <languages>
     <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="-1" />
@@ -13,19 +13,7 @@
   </imports>
   <registry>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
-      <concept id="6054523464626862044" name="jetbrains.mps.lang.structure.structure.AttributeInfo_IsMultiple" flags="ng" index="tn0Fv">
-        <property id="6054523464626875854" name="value" index="tnX3d" />
-      </concept>
-      <concept id="6054523464627964745" name="jetbrains.mps.lang.structure.structure.AttributeInfo_AttributedConcept" flags="ng" index="trNpa">
-        <reference id="6054523464627965081" name="concept" index="trN6q" />
-      </concept>
-      <concept id="2992811758677295509" name="jetbrains.mps.lang.structure.structure.AttributeInfo" flags="ng" index="M6xJ_">
-        <property id="7588428831955550663" name="role" index="Hh88m" />
-        <child id="7588428831947959310" name="attributed" index="EQaZv" />
-        <child id="7588428831955550186" name="multiple" index="HhnKV" />
-      </concept>
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
-        <property id="4628067390765907488" name="conceptShortDescription" index="R4oN_" />
         <property id="5092175715804935370" name="conceptAlias" index="34LRSv" />
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
       </concept>
@@ -44,104 +32,23 @@
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
-      <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
-        <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
-      </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
     </language>
   </registry>
-  <node concept="1TIwiD" id="ur9fdx_ul6">
-    <property role="TrG5h" value="test" />
-    <property role="34LRSv" value="a statment" />
-    <ref role="1TJDcQ" to="6q58:5mPDeVwiPap" resolve="Expr" />
-    <node concept="1TJgyj" id="ur9fdx_uCH" role="1TKVEi">
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="child" />
-      <ref role="20lvS9" to="jrxw:7LvyiX4miiC" resolve="Statement" />
-    </node>
-  </node>
-  <node concept="1TIwiD" id="ur9fdxUc$m">
-    <property role="TrG5h" value="importTableInR" />
-    <property role="34LRSv" value="import table" />
-    <ref role="1TJDcQ" to="6q58:5mPDeVwiPap" resolve="Expr" />
-    <node concept="PrWs8" id="ur9fdy2rjX" role="PzmwI">
-      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
-    </node>
-    <node concept="1TJgyj" id="ur9fdy9c$n" role="1TKVEi">
-      <property role="20lmBu" value="reference" />
-      <property role="20kJfa" value="importTable" />
-      <ref role="20lvS9" to="jrxw:2WRhvFtkykN" resolve="Table" />
-    </node>
-  </node>
-  <node concept="1TIwiD" id="ur9fdyaYtz">
-    <property role="TrG5h" value="BiomartExpr" />
-    <property role="34LRSv" value="biomart as an expression" />
-    <ref role="1TJDcQ" to="6q58:5mPDeVwiPap" resolve="Expr" />
-    <node concept="PrWs8" id="ur9fdyaYtG" role="PzmwI">
-      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
-    </node>
-    <node concept="PrWs8" id="ur9fdydYcP" role="PzmwI">
-      <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
-    </node>
-    <node concept="1TJgyj" id="ur9fdyaYur" role="1TKVEi">
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="martAttributes" />
-      <property role="20lbJX" value="0..n" />
-      <ref role="20lvS9" to="c07g:KwXu1WyoBC" resolve="AttributeRef" />
-    </node>
-    <node concept="1TJgyj" id="ur9fdyaYvT" role="1TKVEi">
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="martFilters" />
-      <property role="20lbJX" value="0..n" />
-      <ref role="20lvS9" to="c07g:1JNk8OtCwRn" resolve="FilterRef" />
-    </node>
-    <node concept="1TJgyj" id="ur9fdyaYw5" role="1TKVEi">
-      <property role="20lmBu" value="reference" />
-      <property role="20kJfa" value="martDatabase" />
-      <property role="20lbJX" value="1" />
-      <ref role="20lvS9" to="c07g:6Om6Mbm3Tzt" resolve="Database" />
-    </node>
-    <node concept="1TJgyj" id="ur9fdyaYwj" role="1TKVEi">
-      <property role="20lmBu" value="reference" />
-      <property role="20kJfa" value="martDataset" />
-      <property role="20lbJX" value="1" />
-      <ref role="20lvS9" to="c07g:2eITi4PKtDD" resolve="Dataset" />
-    </node>
-  </node>
-  <node concept="1TIwiD" id="ur9fdycii4">
-    <property role="TrG5h" value="MartRegistryExpr" />
-    <property role="R4oN_" value="list of mart" />
-    <ref role="1TJDcQ" to="tpck:2ULFgo8_XDk" resolve="NodeAttribute" />
-    <node concept="1TJgyj" id="6Om6Mbm3Tzy" role="1TKVEi">
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="databasesList" />
-      <property role="20lbJX" value="0..n" />
-      <ref role="20lvS9" to="c07g:6Om6Mbm3Tzt" resolve="Database" />
-    </node>
-    <node concept="M6xJ_" id="ur9fdycii8" role="lGtFl">
-      <property role="Hh88m" value="mart" />
-      <node concept="tn0Fv" id="ur9fdycilh" role="HhnKV">
-        <property role="tnX3d" value="false" />
-      </node>
-      <node concept="trNpa" id="ur9fdycilj" role="EQaZv">
-        <ref role="trN6q" to="6q58:5mPDeVwiJFe" resolve="ProgramProg" />
-      </node>
-      <node concept="trNpa" id="ur9fdycilo" role="EQaZv">
-        <ref role="trN6q" to="6q58:5mPDeVwiPap" resolve="Expr" />
-      </node>
-    </node>
-  </node>
   <node concept="1TIwiD" id="55b$yEt0tu_">
     <property role="TrG5h" value="BiomartinR" />
-    <property role="34LRSv" value="query biomart from statement" />
+    <property role="34LRSv" value="query biomart" />
     <ref role="1TJDcQ" to="6q58:5mPDeVwiPap" resolve="Expr" />
     <node concept="1TJgyj" id="55b$yEt0CzD" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="biomart" />
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" to="c07g:3k98b1qdWzt" resolve="Biomart" />
+    </node>
+    <node concept="PrWs8" id="55b$yEu0S3O" role="PzmwI">
+      <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
     </node>
   </node>
   <node concept="1TIwiD" id="55b$yEtywNG">
@@ -159,6 +66,17 @@
       <property role="20kJfa" value="table" />
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" to="jrxw:3R5AwWRY9uN" resolve="TableRef" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="55b$yEu0YHT">
+    <property role="TrG5h" value="SetOfIdsinR" />
+    <property role="34LRSv" value="set of IDs" />
+    <ref role="1TJDcQ" to="6q58:5mPDeVwiPap" resolve="Expr" />
+    <node concept="1TJgyj" id="55b$yEu0Zh3" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="setOfIds" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" to="jrxw:3BiNpr5FGHV" resolve="SetOfIds" />
     </node>
   </node>
 </model>

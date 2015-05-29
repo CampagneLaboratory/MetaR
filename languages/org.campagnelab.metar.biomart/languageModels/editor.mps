@@ -573,14 +573,8 @@
     <node concept="3EZMnI" id="2WRhvFtJ4Jq" role="2wV5jI">
       <node concept="2SsqMj" id="2WRhvFtJ4J$" role="3EZMnx" />
       <node concept="l2Vlx" id="2WRhvFtJ4Jt" role="2iSdaV" />
-      <node concept="3F0ifn" id="2WRhvFtJ4JH" role="3EZMnx">
-        <property role="3F0ifm" value="[" />
-      </node>
       <node concept="3F0ifn" id="KwXu1WnC$M" role="3EZMnx">
-        <property role="3F0ifm" value="BioMart" />
-      </node>
-      <node concept="3F0ifn" id="2WRhvFtJ4Kg" role="3EZMnx">
-        <property role="3F0ifm" value="]" />
+        <property role="3F0ifm" value="[BioMart]" />
       </node>
     </node>
   </node>
@@ -877,7 +871,7 @@
     </node>
   </node>
   <node concept="1h_SRR" id="4bkMdJnunO2">
-    <property role="3GE5qa" value="main" />
+    <property role="3GE5qa" value="" />
     <property role="TrG5h" value="DeleteAttribute" />
     <ref role="1h_SK9" to="c07g:3k98b1qdWzt" resolve="Biomart" />
     <node concept="1hA7zw" id="4bkMdJnunSw" role="1h_SK8">
