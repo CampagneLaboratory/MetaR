@@ -62,7 +62,7 @@
   <node concept="1TIwiD" id="3k98b1qdWzt">
     <property role="TrG5h" value="Biomart" />
     <property role="34LRSv" value="query biomart" />
-    <property role="3GE5qa" value="main" />
+    <property role="3GE5qa" value="" />
     <property role="R4oN_" value="allow to query data from Biomart" />
     <ref role="1TJDcQ" to="jrxw:7LvyiX4miiC" resolve="Statement" />
     <node concept="1TJgyj" id="7AiSepDZbId" role="1TKVEi">
@@ -106,7 +106,7 @@
     <property role="TrG5h" value="MartRegistry" />
     <property role="19KtqR" value="false" />
     <property role="R4oN_" value="list of marts" />
-    <property role="3GE5qa" value="structure" />
+    <property role="3GE5qa" value="mainStructure" />
     <ref role="1TJDcQ" to="tpck:2ULFgo8_XDk" resolve="NodeAttribute" />
     <node concept="M6xJ_" id="7yhzD3CL0ab" role="lGtFl">
       <property role="Hh88m" value="mart" />
@@ -129,7 +129,7 @@
   </node>
   <node concept="1TIwiD" id="6Om6Mbm3Tzt">
     <property role="TrG5h" value="Database" />
-    <property role="3GE5qa" value="structure" />
+    <property role="3GE5qa" value="mainStructure" />
     <property role="R4oN_" value="contains available database name and associated datasets" />
     <ref role="1TJDcQ" node="KwXu1W4Z4V" resolve="BasedMartObject" />
     <node concept="1TJgyj" id="KwXu1W7GU_" role="1TKVEi">
@@ -141,7 +141,7 @@
   </node>
   <node concept="1TIwiD" id="2eITi4Pls1W">
     <property role="TrG5h" value="DatabaseRef" />
-    <property role="3GE5qa" value="structure" />
+    <property role="3GE5qa" value="mainStructure" />
     <property role="R4oN_" value="reference to a database" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="2eITi4PlzR8" role="1TKVEi">
@@ -153,7 +153,7 @@
   </node>
   <node concept="1TIwiD" id="2eITi4PKtDD">
     <property role="TrG5h" value="Dataset" />
-    <property role="3GE5qa" value="structure" />
+    <property role="3GE5qa" value="mainStructure" />
     <property role="R4oN_" value="dataset associated with a database" />
     <ref role="1TJDcQ" node="KwXu1W4Z4V" resolve="BasedMartObject" />
     <node concept="1TJgyj" id="KwXu1WyoBF" role="1TKVEi">
@@ -171,7 +171,7 @@
   </node>
   <node concept="1TIwiD" id="2eITi4POn3$">
     <property role="TrG5h" value="DatasetsRef" />
-    <property role="3GE5qa" value="structure" />
+    <property role="3GE5qa" value="mainStructure" />
     <property role="R4oN_" value="reference to a dataset" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="2eITi4POn3_" role="1TKVEi">
@@ -182,7 +182,7 @@
     </node>
   </node>
   <node concept="1TIwiD" id="KwXu1W4Z4V">
-    <property role="3GE5qa" value="structure" />
+    <property role="3GE5qa" value="mainStructure" />
     <property role="TrG5h" value="BasedMartObject" />
     <property role="R4oN_" value="name contains Mart and martName for user" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
@@ -195,7 +195,7 @@
     </node>
   </node>
   <node concept="1TIwiD" id="KwXu1WyoBr">
-    <property role="3GE5qa" value="structure" />
+    <property role="3GE5qa" value="mainStructure" />
     <property role="TrG5h" value="Attribute" />
     <property role="R4oN_" value="attribute associated to a dataset" />
     <ref role="1TJDcQ" node="KwXu1W4Z4V" resolve="BasedMartObject" />
@@ -205,7 +205,7 @@
     </node>
   </node>
   <node concept="1TIwiD" id="KwXu1WyoBC">
-    <property role="3GE5qa" value="structure" />
+    <property role="3GE5qa" value="mainStructure" />
     <property role="TrG5h" value="AttributeRef" />
     <property role="R4oN_" value="reference to an attribute" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
@@ -329,7 +329,7 @@
     </node>
   </node>
   <node concept="1TIwiD" id="4bkMdJovqAd">
-    <property role="3GE5qa" value="structure" />
+    <property role="3GE5qa" value="mainStructure" />
     <property role="TrG5h" value="ColumnGroupRef" />
     <property role="R4oN_" value="group" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />

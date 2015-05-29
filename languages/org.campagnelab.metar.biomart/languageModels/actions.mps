@@ -10,8 +10,8 @@
     <import index="m6iz" ref="13ba3d61-2e25-42c5-9cb9-f67b16cd444e/f:java_stub#13ba3d61-2e25-42c5-9cb9-f67b16cd444e#Biomart(Biomart/Biomart@java_stub)" />
     <import index="c07g" ref="r:1ddbf3ba-cbe7-4cb8-b2fc-7a1e80a63d10(org.campagnelab.metar.biomart.structure)" />
     <import index="v8sa" ref="r:db1b133e-9a0f-4319-b384-413408eb1729(org.campagnelab.metar.tables.behavior)" implicit="true" />
-    <import index="okqk" ref="r:a8c6f275-63e6-4f3f-a0b9-9dfd9b95fe4b(org.campagnelab.metar.biomart.behavior)" implicit="true" />
     <import index="jrxw" ref="r:9f2bbfbf-f8b7-4b3b-92b1-b6a0e9642c10(org.campagnelab.metar.tables.structure)" implicit="true" />
+    <import index="okqk" ref="r:a8c6f275-63e6-4f3f-a0b9-9dfd9b95fe4b(org.campagnelab.metar.biomart.behavior)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -133,7 +133,7 @@
                   </node>
                   <node concept="2qgKlT" id="Uo9xLniAK7" role="2OqNvi">
                     <ref role="37wK5l" to="okqk:Uo9xLniBVx" resolve="createMartRegistry" />
-                    <node concept="1r4N1M" id="Uo9xLniALJ" role="37wK5m" />
+                    <node concept="1r4Lsj" id="55b$yEtis11" role="37wK5m" />
                   </node>
                 </node>
               </node>
@@ -146,7 +146,7 @@
                 </node>
                 <node concept="2qgKlT" id="Uo9xLniHnw" role="2OqNvi">
                   <ref role="37wK5l" to="okqk:Uo9xLnioTN" resolve="getMartRegistry" />
-                  <node concept="1r4N1M" id="Uo9xLniHp_" role="37wK5m" />
+                  <node concept="1r4Lsj" id="55b$yEtirYv" role="37wK5m" />
                 </node>
               </node>
             </node>

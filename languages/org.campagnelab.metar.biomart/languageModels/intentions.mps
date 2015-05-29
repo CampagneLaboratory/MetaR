@@ -56,7 +56,7 @@
         <child id="1068580123160" name="condition" index="3clFbw" />
         <child id="1068580123161" name="ifTrue" index="3clFbx" />
       </concept>
-      <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" index="3clFbS">
+      <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
       </concept>
       <concept id="1068580320020" name="jetbrains.mps.baseLanguage.structure.IntegerConstant" flags="nn" index="3cmrfG">
@@ -188,7 +188,7 @@
     </language>
   </registry>
   <node concept="2S6QgY" id="KwXu1XcJ8$">
-    <property role="3GE5qa" value="main" />
+    <property role="3GE5qa" value="" />
     <property role="TrG5h" value="RefreshRegistry" />
     <property role="2ZfUl0" value="true" />
     <ref role="2ZfgGC" to="c07g:3k98b1qdWzt" resolve="Biomart" />

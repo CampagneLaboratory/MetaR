@@ -77,7 +77,7 @@
   </node>
   <node concept="1TIwiD" id="ur9fdyaYtz">
     <property role="TrG5h" value="BiomartExpr" />
-    <property role="34LRSv" value="query biomart as an expression" />
+    <property role="34LRSv" value="biomart as an expression" />
     <ref role="1TJDcQ" to="6q58:5mPDeVwiPap" resolve="Expr" />
     <node concept="PrWs8" id="ur9fdyaYtG" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
@@ -135,7 +135,7 @@
   </node>
   <node concept="1TIwiD" id="55b$yEt0tu_">
     <property role="TrG5h" value="BiomartinR" />
-    <property role="34LRSv" value="biomart from statement" />
+    <property role="34LRSv" value="query biomart from statement" />
     <ref role="1TJDcQ" to="6q58:5mPDeVwiPap" resolve="Expr" />
     <node concept="1TJgyj" id="55b$yEt0CzD" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -143,8 +143,19 @@
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" to="c07g:3k98b1qdWzt" resolve="Biomart" />
     </node>
-    <node concept="PrWs8" id="55b$yEt0D4s" role="PzmwI">
+  </node>
+  <node concept="1TIwiD" id="55b$yEtywNG">
+    <property role="TrG5h" value="getMetaRTable" />
+    <property role="34LRSv" value="get table" />
+    <ref role="1TJDcQ" to="6q58:5mPDeVwiPap" resolve="Expr" />
+    <node concept="PrWs8" id="55b$yEtywNH" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+    <node concept="1TJgyj" id="55b$yEtywNJ" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="table" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" to="jrxw:3R5AwWRY9uN" resolve="TableRef" />
     </node>
   </node>
 </model>
