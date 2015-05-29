@@ -130,9 +130,6 @@
         <child id="1145567471833" name="createdType" index="2T96Bj" />
       </concept>
       <concept id="1171407110247" name="jetbrains.mps.lang.smodel.structure.Node_GetAncestorOperation" flags="nn" index="2Xjw5R" />
-      <concept id="3562215692195599741" name="jetbrains.mps.lang.smodel.structure.SLinkImplicitSelect" flags="nn" index="13MTOL">
-        <reference id="3562215692195600259" name="link" index="13MTZf" />
-      </concept>
       <concept id="1144101972840" name="jetbrains.mps.lang.smodel.structure.OperationParm_Concept" flags="ng" index="1xMEDy">
         <child id="1207343664468" name="conceptArgument" index="ri$Ld" />
       </concept>
@@ -292,42 +289,37 @@
           <node concept="3clFbS" id="1UH1ei42s_N" role="3clFbx">
             <node concept="3cpWs8" id="1UH1ei42sRg" role="3cqZAp">
               <node concept="3cpWsn" id="1UH1ei42sRj" role="3cpWs9">
-                <property role="TrG5h" value="setOfIdsList" />
+                <property role="TrG5h" value="setOfIds" />
                 <node concept="A3Dl8" id="1UH1ei42sRd" role="1tU5fm">
                   <node concept="3Tqbb2" id="1UH1ei42sS2" role="A3Ik2">
-                    <ref role="ehGHo" to="jrxw:3BiNpr5FGHV" resolve="SetOfIds" />
+                    <ref role="ehGHo" to="6q58:5mPDeVwiPaR" resolve="Identifier" />
                   </node>
                 </node>
               </node>
             </node>
             <node concept="3clFbF" id="1UH1ei42t0T" role="3cqZAp">
               <node concept="37vLTI" id="1UH1ei42tpW" role="3clFbG">
-                <node concept="2OqwBi" id="55b$yEu2gkQ" role="37vLTx">
-                  <node concept="2OqwBi" id="1UH1ei42u1C" role="2Oq$k0">
-                    <node concept="2OqwBi" id="1UH1ei42tv5" role="2Oq$k0">
-                      <node concept="13iPFW" id="1UH1ei42tr2" role="2Oq$k0" />
-                      <node concept="2Xjw5R" id="1UH1ei42tWj" role="2OqNvi">
-                        <node concept="1xMEDy" id="1UH1ei42tWl" role="1xVPHs">
-                          <node concept="chp4Y" id="55b$yEu0YDn" role="ri$Ld">
-                            <ref role="cht4Q" to="6q58:5mPDeVwiJFd" resolve="Prog" />
-                          </node>
-                        </node>
-                      </node>
-                    </node>
-                    <node concept="2Rf3mk" id="1UH1ei42uph" role="2OqNvi">
-                      <node concept="1xMEDy" id="1UH1ei42upj" role="1xVPHs">
-                        <node concept="chp4Y" id="55b$yEu2fQK" role="ri$Ld">
-                          <ref role="cht4Q" to="rlu9:55b$yEu0YHT" resolve="SetOfIdsinR" />
+                <node concept="2OqwBi" id="1UH1ei42u1C" role="37vLTx">
+                  <node concept="2OqwBi" id="1UH1ei42tv5" role="2Oq$k0">
+                    <node concept="13iPFW" id="1UH1ei42tr2" role="2Oq$k0" />
+                    <node concept="2Xjw5R" id="1UH1ei42tWj" role="2OqNvi">
+                      <node concept="1xMEDy" id="1UH1ei42tWl" role="1xVPHs">
+                        <node concept="chp4Y" id="55b$yEu0YDn" role="ri$Ld">
+                          <ref role="cht4Q" to="6q58:5mPDeVwiJFd" resolve="Prog" />
                         </node>
                       </node>
                     </node>
                   </node>
-                  <node concept="13MTOL" id="55b$yEu2hUX" role="2OqNvi">
-                    <ref role="13MTZf" to="rlu9:55b$yEu0Zh3" />
+                  <node concept="2Rf3mk" id="1UH1ei42uph" role="2OqNvi">
+                    <node concept="1xMEDy" id="1UH1ei42upj" role="1xVPHs">
+                      <node concept="chp4Y" id="55b$yEuIz5n" role="ri$Ld">
+                        <ref role="cht4Q" to="6q58:5mPDeVwiPaR" resolve="Identifier" />
+                      </node>
+                    </node>
                   </node>
                 </node>
                 <node concept="37vLTw" id="1UH1ei42t0R" role="37vLTJ">
-                  <ref role="3cqZAo" node="1UH1ei42sRj" resolve="setOfIdsList" />
+                  <ref role="3cqZAo" node="1UH1ei42sRj" resolve="setOfIds" />
                 </node>
               </node>
             </node>
@@ -336,7 +328,7 @@
                 <ref role="37wK5l" to="o8zo:4IP40Bi3eAf" resolve="forNamedElements" />
                 <ref role="1Pybhc" to="o8zo:4IP40Bi3e_R" resolve="ListScope" />
                 <node concept="37vLTw" id="1UH1ei42vcd" role="37wK5m">
-                  <ref role="3cqZAo" node="1UH1ei42sRj" resolve="setOfIdsList" />
+                  <ref role="3cqZAo" node="1UH1ei42sRj" resolve="setOfIds" />
                 </node>
               </node>
             </node>
@@ -344,7 +336,7 @@
           </node>
           <node concept="3clFbC" id="1UH1ei42sM_" role="3clFbw">
             <node concept="3TUQnm" id="1UH1ei42sOh" role="3uHU7w">
-              <ref role="3TV0OU" to="jrxw:3BiNpr5FGHV" resolve="SetOfIds" />
+              <ref role="3TV0OU" to="6q58:5mPDeVwiPaR" resolve="Identifier" />
             </node>
             <node concept="37vLTw" id="1UH1ei42sIY" role="3uHU7B">
               <ref role="3cqZAo" node="55b$yEu0VND" resolve="kind" />
