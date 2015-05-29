@@ -436,7 +436,7 @@
   </node>
   <node concept="13MO4I" id="KwXu1WOhmX">
     <property role="TrG5h" value="reduce_Biomart" />
-    <property role="3GE5qa" value="main" />
+    <property role="3GE5qa" value="" />
     <ref role="3gUMe" to="c07g:3k98b1qdWzt" resolve="Biomart" />
     <node concept="2G3XJi" id="KwXu1WOhwk" role="13RCb5">
       <property role="1gZaPE" value="" />
