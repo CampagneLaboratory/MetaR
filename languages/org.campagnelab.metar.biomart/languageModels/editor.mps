@@ -11,6 +11,7 @@
     <import index="v8sa" ref="r:db1b133e-9a0f-4319-b384-413408eb1729(org.campagnelab.metar.tables.behavior)" implicit="true" />
     <import index="jrxw" ref="r:9f2bbfbf-f8b7-4b3b-92b1-b6a0e9642c10(org.campagnelab.metar.tables.structure)" implicit="true" />
     <import index="c07g" ref="r:1ddbf3ba-cbe7-4cb8-b2fc-7a1e80a63d10(org.campagnelab.metar.biomart.structure)" implicit="true" />
+    <import index="g4x5" ref="r:aaf90db9-c063-474d-ae34-b6cf5ac1b1d2(org.campagnelab.metar.R.editor)" implicit="true" />
   </imports>
   <registry>
     <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">
@@ -1199,6 +1200,7 @@
       </node>
       <node concept="3F1sOY" id="55b$yEuL596" role="3EZMnx">
         <ref role="1NtTu8" to="c07g:55b$yEuJ8a0" />
+        <ref role="1k5W1q" to="g4x5:48xyd$eBO3j" resolve="Identifier" />
       </node>
       <node concept="OXEIz" id="55b$yEuJ8m$" role="P5bDN">
         <node concept="UkePV" id="55b$yEuJ8m_" role="OY2wv">
