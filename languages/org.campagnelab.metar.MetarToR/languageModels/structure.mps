@@ -54,7 +54,7 @@
   </registry>
   <node concept="1TIwiD" id="ur9fdx_ul6">
     <property role="TrG5h" value="test" />
-    <property role="34LRSv" value="willtest" />
+    <property role="34LRSv" value="a statment" />
     <ref role="1TJDcQ" to="6q58:5mPDeVwiPap" resolve="Expr" />
     <node concept="1TJgyj" id="ur9fdx_uCH" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -77,7 +77,7 @@
   </node>
   <node concept="1TIwiD" id="ur9fdyaYtz">
     <property role="TrG5h" value="BiomartExpr" />
-    <property role="34LRSv" value="query biomart" />
+    <property role="34LRSv" value="query biomart as expression" />
     <ref role="1TJDcQ" to="6q58:5mPDeVwiPap" resolve="Expr" />
     <node concept="PrWs8" id="ur9fdyaYtG" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
@@ -131,6 +131,20 @@
       <node concept="trNpa" id="ur9fdycilo" role="EQaZv">
         <ref role="trN6q" to="6q58:5mPDeVwiPap" resolve="Expr" />
       </node>
+    </node>
+  </node>
+  <node concept="1TIwiD" id="55b$yEt0tu_">
+    <property role="TrG5h" value="BiomartinR" />
+    <property role="34LRSv" value="biomart from statement" />
+    <ref role="1TJDcQ" to="6q58:5mPDeVwiPap" resolve="Expr" />
+    <node concept="1TJgyj" id="55b$yEt0CzD" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="biomart" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" to="c07g:3k98b1qdWzt" resolve="Biomart" />
+    </node>
+    <node concept="PrWs8" id="55b$yEt0D4s" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
   </node>
 </model>
