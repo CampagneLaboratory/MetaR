@@ -77,7 +77,7 @@
   </node>
   <node concept="1TIwiD" id="ur9fdyaYtz">
     <property role="TrG5h" value="BiomartExpr" />
-    <property role="34LRSv" value="query biomart as expression" />
+    <property role="34LRSv" value="query biomart as an expression" />
     <ref role="1TJDcQ" to="6q58:5mPDeVwiPap" resolve="Expr" />
     <node concept="PrWs8" id="ur9fdyaYtG" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
