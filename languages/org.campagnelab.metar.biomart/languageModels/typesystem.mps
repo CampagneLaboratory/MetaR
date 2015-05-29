@@ -172,7 +172,7 @@
   </node>
   <node concept="18kY7G" id="4bkMdJpfoKW">
     <property role="TrG5h" value="check_BiomartAsOneAttribute" />
-    <property role="3GE5qa" value="main" />
+    <property role="3GE5qa" value="" />
     <node concept="3clFbS" id="4bkMdJpfoKX" role="18ibNy">
       <node concept="3clFbJ" id="4bkMdJpfoNT" role="3cqZAp">
         <node concept="3clFbS" id="4bkMdJpfoNU" role="3clFbx">
