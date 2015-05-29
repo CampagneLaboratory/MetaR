@@ -14,10 +14,10 @@ import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.internal.collections.runtime.IWhereFilter;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.internal.collections.runtime.ISelector;
-import org.campagnelab.metar.code.generator.helpers.NameHelper;
 import org.campagnelab.metar.code.generator.helpers.RPath;
 import jetbrains.mps.util.MacrosFactory;
 import java.io.File;
+import org.campagnelab.metar.code.generator.helpers.NameHelper;
 import org.campagnelab.metar.tables.behavior.ID_Behavior;
 import org.campagnelab.metar.tables.behavior.TableRef_Behavior;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
@@ -84,20 +84,20 @@ public class QueriesGenerated {
 
 
   }
-  public static Object propertyMacro_GetPropertyValue_4815694748111512694(final PropertyMacroContext _context) {
-    return NameHelper.RName(SPropertyOperations.getString(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0xe633fc480aaf45b5L, 0x9894247b67cf0890L, 0x350920b05a37c8ddL, 0x7992e0e669fcbb8dL, "outputTable")), MetaAdapterFactory.getReferenceLink(0x5d6bde844ce44eb5L, 0xa37e25a5edd55129L, 0x2f3745fadd605ac5L, 0x2f3745fadd605affL, "table")), MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name")));
-  }
-  public static Object propertyMacro_GetPropertyValue_8031339867733381206(final PropertyMacroContext _context) {
-    return NameHelper.RName(SPropertyOperations.getString(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0xe633fc480aaf45b5L, 0x9894247b67cf0890L, 0x350920b05a37c8ddL, 0x7992e0e669fcbb8dL, "outputTable")), MetaAdapterFactory.getReferenceLink(0x5d6bde844ce44eb5L, 0xa37e25a5edd55129L, 0x2f3745fadd605ac5L, 0x2f3745fadd605affL, "table")), MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name")));
-  }
-  public static Object propertyMacro_GetPropertyValue_8031339867733399660(final PropertyMacroContext _context) {
-    return SPropertyOperations.getInteger(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0xe633fc480aaf45b5L, 0x9894247b67cf0890L, 0x350920b05a37c8ddL, 0x7992e0e669fcbb8dL, "outputTable")), MetaAdapterFactory.getProperty(0x5d6bde844ce44eb5L, 0xa37e25a5edd55129L, 0x2f3745fadd605ac5L, 0x39d2cd96c5e52d3dL, "id"));
-  }
   public static Object propertyMacro_GetPropertyValue_873968672226534287(final PropertyMacroContext _context) {
     return new RPath(MacrosFactory.getGlobal().expandPath("${org.campagnelab.metaR.results_dir}") + File.separator + "table_" + NameHelper.RName(SPropertyOperations.getString(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0xe633fc480aaf45b5L, 0x9894247b67cf0890L, 0x350920b05a37c8ddL, 0x7992e0e669fcbb8dL, "outputTable")), MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name"))) + "_" + Integer.toString(SPropertyOperations.getInteger(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0xe633fc480aaf45b5L, 0x9894247b67cf0890L, 0x350920b05a37c8ddL, 0x7992e0e669fcbb8dL, "outputTable")), MetaAdapterFactory.getProperty(0x5d6bde844ce44eb5L, 0xa37e25a5edd55129L, 0x2f3745fadd605ac5L, 0x39d2cd96c5e52d3dL, "id"))) + ".tsv").toString();
   }
   public static Object propertyMacro_GetPropertyValue_4815694748111535551(final PropertyMacroContext _context) {
     return Statement_Behavior.call_id_3007013211740741445(_context.getNode());
+  }
+  public static Object propertyMacro_GetPropertyValue_5857936452064546648(final PropertyMacroContext _context) {
+    return NameHelper.RName(SPropertyOperations.getString(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0xe633fc480aaf45b5L, 0x9894247b67cf0890L, 0x350920b05a37c8ddL, 0x7992e0e669fcbb8dL, "outputTable")), MetaAdapterFactory.getReferenceLink(0x5d6bde844ce44eb5L, 0xa37e25a5edd55129L, 0x2f3745fadd605ac5L, 0x2f3745fadd605affL, "table")), MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name")));
+  }
+  public static Object propertyMacro_GetPropertyValue_5857936452064547388(final PropertyMacroContext _context) {
+    return NameHelper.RName(SPropertyOperations.getString(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0xe633fc480aaf45b5L, 0x9894247b67cf0890L, 0x350920b05a37c8ddL, 0x7992e0e669fcbb8dL, "outputTable")), MetaAdapterFactory.getReferenceLink(0x5d6bde844ce44eb5L, 0xa37e25a5edd55129L, 0x2f3745fadd605ac5L, 0x2f3745fadd605affL, "table")), MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name")));
+  }
+  public static Object propertyMacro_GetPropertyValue_5857936452064547400(final PropertyMacroContext _context) {
+    return SPropertyOperations.getInteger(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0xe633fc480aaf45b5L, 0x9894247b67cf0890L, 0x350920b05a37c8ddL, 0x7992e0e669fcbb8dL, "outputTable")), MetaAdapterFactory.getProperty(0x5d6bde844ce44eb5L, 0xa37e25a5edd55129L, 0x2f3745fadd605ac5L, 0x39d2cd96c5e52d3dL, "id"));
   }
   public static Object propertyMacro_GetPropertyValue_3007013211742901911(final PropertyMacroContext _context) {
     return Statement_Behavior.call_id_3007013211740741445(_context.getNode());
