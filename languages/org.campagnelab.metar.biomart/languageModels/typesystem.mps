@@ -66,6 +66,7 @@
       <concept id="2644386474300074836" name="jetbrains.mps.lang.smodel.structure.ConceptIdRefExpression" flags="nn" index="35c_gC">
         <reference id="2644386474300074837" name="conceptDeclaration" index="35c_gD" />
       </concept>
+      <concept id="1139613262185" name="jetbrains.mps.lang.smodel.structure.Node_GetParentOperation" flags="nn" index="1mfA1w" />
       <concept id="1171999116870" name="jetbrains.mps.lang.smodel.structure.Node_IsNullOperation" flags="nn" index="3w_OXm" />
       <concept id="1138056143562" name="jetbrains.mps.lang.smodel.structure.SLinkAccess" flags="nn" index="3TrEf2">
         <reference id="1138056516764" name="link" index="3Tt5mk" />
@@ -97,7 +98,7 @@
               <ref role="1YBMHb" node="2eITi4PFXpt" resolve="biomart" />
             </node>
             <node concept="Xl_RD" id="2eITi4PG0Ra" role="2MkJ7o">
-              <property role="Xl_RC" value="node not generated" />
+              <property role="Xl_RC" value="Mart registry not generated" />
             </node>
           </node>
         </node>
@@ -109,8 +110,11 @@
               </node>
               <node concept="2qgKlT" id="Uo9xLnkEAH" role="2OqNvi">
                 <ref role="37wK5l" to="okqk:Uo9xLnioTN" resolve="getMartRegistry" />
-                <node concept="1YBJjd" id="Uo9xLnkECV" role="37wK5m">
-                  <ref role="1YBMHb" node="2eITi4PFXpt" resolve="biomart" />
+                <node concept="2OqwBi" id="3MLv1IjIzfQ" role="37wK5m">
+                  <node concept="1YBJjd" id="Uo9xLnkECV" role="2Oq$k0">
+                    <ref role="1YBMHb" node="2eITi4PFXpt" resolve="biomart" />
+                  </node>
+                  <node concept="1mfA1w" id="3MLv1IjIHuJ" role="2OqNvi" />
                 </node>
               </node>
             </node>
@@ -167,7 +171,7 @@
     </node>
     <node concept="1YaCAy" id="4bkMdJnDTCV" role="1YuTPh">
       <property role="TrG5h" value="filterWithidsFromTable" />
-      <ref role="1YaFvo" to="c07g:1UH1ei4815y" resolve="FilterWithidsFromTable" />
+      <ref role="1YaFvo" to="c07g:1UH1ei4815y" resolve="FilterWithIdsFromTable" />
     </node>
   </node>
   <node concept="18kY7G" id="4bkMdJpfoKW">
