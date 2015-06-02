@@ -186,6 +186,8 @@
     <property role="3GE5qa" value="mainStructure" />
     <property role="TrG5h" value="BasedMartObject" />
     <property role="R4oN_" value="name contains Mart and martName for user" />
+    <property role="R5$K7" value="true" />
+    <property role="R5$K2" value="false" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="KwXu1W4Z4W" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
@@ -243,10 +245,6 @@
       <property role="TrG5h" value="typePropertie" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
-    <node concept="1TJgyi" id="1RrWKTi6KPr" role="1TKVEl">
-      <property role="TrG5h" value="elementlist" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
   </node>
   <node concept="1TIwiD" id="1JNk8OtCwRn">
     <property role="3GE5qa" value="filters" />
@@ -282,7 +280,7 @@
     <property role="3GE5qa" value="filters" />
     <property role="TrG5h" value="FilterWithIdsFromSetOfIds" />
     <property role="34LRSv" value="from a set of ids" />
-    <ref role="1TJDcQ" node="z5VH9d$mMN" resolve="FilterWith" />
+    <ref role="1TJDcQ" node="pr6WGEr6yC" resolve="FilterWithIds" />
     <node concept="1TJgyj" id="z5VH9d$ncg" role="1TKVEi">
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="setOfIds" />
@@ -292,9 +290,9 @@
   </node>
   <node concept="1TIwiD" id="1UH1ei4815y">
     <property role="3GE5qa" value="filters" />
-    <property role="TrG5h" value="FilterWithidsFromTable" />
+    <property role="TrG5h" value="FilterWithIdsFromTable" />
     <property role="34LRSv" value="a table ids list" />
-    <ref role="1TJDcQ" node="z5VH9d$mMN" resolve="FilterWith" />
+    <ref role="1TJDcQ" node="pr6WGEr6yC" resolve="FilterWithIds" />
     <node concept="1TJgyj" id="1UH1ei482_d" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="rowFilter" />
@@ -348,7 +346,7 @@
     <property role="3GE5qa" value="ColumnType" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="4bkMdJoBmbH" role="1TKVEl">
-      <property role="TrG5h" value="ColumnType" />
+      <property role="TrG5h" value="columnType" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
   </node>
@@ -406,13 +404,20 @@
   <node concept="1TIwiD" id="55b$yEuJ07Y">
     <property role="3GE5qa" value="filters" />
     <property role="TrG5h" value="FilterWithIdsFromIdentifier" />
-    <ref role="1TJDcQ" node="z5VH9d$mMN" resolve="FilterWith" />
+    <ref role="1TJDcQ" node="pr6WGEr6yC" resolve="FilterWithIds" />
     <node concept="1TJgyj" id="55b$yEuJ8a0" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="identifier" />
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" to="6q58:1jge5x__XE8" resolve="IdentifierRef" />
     </node>
+  </node>
+  <node concept="1TIwiD" id="pr6WGEr6yC">
+    <property role="3GE5qa" value="filters" />
+    <property role="TrG5h" value="FilterWithIds" />
+    <property role="R5$K7" value="true" />
+    <property role="R5$K2" value="false" />
+    <ref role="1TJDcQ" node="z5VH9d$mMN" resolve="FilterWith" />
   </node>
 </model>
 

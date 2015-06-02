@@ -29,6 +29,6 @@ public class QueriesGenerated {
 
   }
   public static SNode sourceNodeQuery_5857936452053285155(final SourceSubstituteMacroNodeContext _context) {
-    return SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x40d3459003345bbL, 0xb8234cfd22657c15L, 0x514b922a9d01d7a5L, 0x514b922a9d0288e9L, "biomart"));
+    return SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x40d3459003345bbL, 0xb8234cfd22657c15L, 0x514b922a9d01d7a5L, 0x514b922a9d0288e9L, "biomartref")), MetaAdapterFactory.getContainmentLink(0x40d3459003345bbL, 0xb8234cfd22657c15L, 0x65970b91f889c5f7L, 0x65970b91f889c9c7L, "biomart"));
   }
 }
