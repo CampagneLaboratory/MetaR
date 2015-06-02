@@ -4,6 +4,7 @@
   <languages>
     <use id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior" version="-1" />
     <use id="d8f591ec-4d86-4af2-9f92-a9e93c803ffa" name="jetbrains.mps.lang.scopes" version="-1" />
+    <use id="e633fc48-0aaf-45b5-9894-247b67cf0890" name="org.campagnelab.metar.biomart" version="-1" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -111,6 +112,9 @@
       </concept>
       <concept id="1146644602865" name="jetbrains.mps.baseLanguage.structure.PublicVisibility" flags="nn" index="3Tm1VV" />
     </language>
+    <language id="d8f591ec-4d86-4af2-9f92-a9e93c803ffa" name="jetbrains.mps.lang.scopes">
+      <concept id="8077936094962911282" name="jetbrains.mps.lang.scopes.structure.ParentScope" flags="nn" index="iy90A" />
+    </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
       <concept id="1177026924588" name="jetbrains.mps.lang.smodel.structure.RefConcept_Reference" flags="nn" index="chp4Y">
         <reference id="1177026940964" name="conceptDeclaration" index="cht4Q" />
@@ -127,11 +131,20 @@
         <child id="1145567471833" name="createdType" index="2T96Bj" />
       </concept>
       <concept id="1171407110247" name="jetbrains.mps.lang.smodel.structure.Node_GetAncestorOperation" flags="nn" index="2Xjw5R" />
+      <concept id="2644386474300074836" name="jetbrains.mps.lang.smodel.structure.ConceptIdRefExpression" flags="nn" index="35c_gC">
+        <reference id="2644386474300074837" name="conceptDeclaration" index="35c_gD" />
+      </concept>
       <concept id="1144101972840" name="jetbrains.mps.lang.smodel.structure.OperationParm_Concept" flags="ng" index="1xMEDy">
         <child id="1207343664468" name="conceptArgument" index="ri$Ld" />
       </concept>
       <concept id="1180636770613" name="jetbrains.mps.lang.smodel.structure.SNodeCreator" flags="nn" index="3zrR0B">
         <child id="1180636770616" name="createdType" index="3zrR0E" />
+      </concept>
+      <concept id="6407023681583036853" name="jetbrains.mps.lang.smodel.structure.NodeAttributeQualifier" flags="ng" index="3CFYIy">
+        <reference id="6407023681583036854" name="attributeConcept" index="3CFYIx" />
+      </concept>
+      <concept id="6407023681583031218" name="jetbrains.mps.lang.smodel.structure.AttributeAccess" flags="nn" index="3CFZ6_">
+        <child id="6407023681583036852" name="qualifier" index="3CFYIz" />
       </concept>
       <concept id="1138055754698" name="jetbrains.mps.lang.smodel.structure.SNodeType" flags="in" index="3Tqbb2">
         <reference id="1138405853777" name="concept" index="ehGHo" />
@@ -141,6 +154,9 @@
       </concept>
       <concept id="1138056143562" name="jetbrains.mps.lang.smodel.structure.SLinkAccess" flags="nn" index="3TrEf2">
         <reference id="1138056516764" name="link" index="3Tt5mk" />
+      </concept>
+      <concept id="1138056282393" name="jetbrains.mps.lang.smodel.structure.SLinkListAccess" flags="nn" index="3Tsc0h">
+        <reference id="1138056546658" name="link" index="3TtcxE" />
       </concept>
       <concept id="1172420572800" name="jetbrains.mps.lang.smodel.structure.SConceptType" flags="in" index="3THzug" />
       <concept id="1172424058054" name="jetbrains.mps.lang.smodel.structure.ConceptRefExpression" flags="nn" index="3TUQnm">
@@ -159,7 +175,9 @@
       <concept id="1151689724996" name="jetbrains.mps.baseLanguage.collections.structure.SequenceType" flags="in" index="A3Dl8">
         <child id="1151689745422" name="elementType" index="A3Ik2" />
       </concept>
+      <concept id="1160612413312" name="jetbrains.mps.baseLanguage.collections.structure.AddElementOperation" flags="nn" index="TSZUe" />
       <concept id="1160666733551" name="jetbrains.mps.baseLanguage.collections.structure.AddAllElementsOperation" flags="nn" index="X8dFx" />
+      <concept id="1165530316231" name="jetbrains.mps.baseLanguage.collections.structure.IsEmptyOperation" flags="nn" index="1v1jN8" />
     </language>
   </registry>
   <node concept="13h7C7" id="55b$yEtywPt">
@@ -446,7 +464,7 @@
             <node concept="2ShNRf" id="pr6WGwUl8P" role="37vLTx">
               <node concept="3zrR0B" id="pr6WGwUl8d" role="2ShVmc">
                 <node concept="3Tqbb2" id="pr6WGwUl8e" role="3zrR0E">
-                  <ref role="ehGHo" to="c07g:3k98b1qdWzt" resolve="Biomart" />
+                  <ref role="ehGHo" to="rlu9:6mn2T7SysnR" resolve="BiomartRef" />
                 </node>
               </node>
             </node>
@@ -472,19 +490,24 @@
         <node concept="3clFbF" id="2vPLSZqtN1g" role="3cqZAp">
           <node concept="37vLTI" id="2vPLSZqu0hr" role="3clFbG">
             <node concept="2OqwBi" id="2vPLSZqu3FX" role="37vLTx">
-              <node concept="2OqwBi" id="2vPLSZqu3d6" role="2Oq$k0">
-                <node concept="2OqwBi" id="2vPLSZqu0Ue" role="2Oq$k0">
-                  <node concept="2OqwBi" id="2vPLSZqu0lX" role="2Oq$k0">
-                    <node concept="13iPFW" id="2vPLSZqu0iV" role="2Oq$k0" />
-                    <node concept="3TrEf2" id="2vPLSZqu0Fq" role="2OqNvi">
-                      <ref role="3Tt5mk" to="rlu9:55b$yEt0CzD" />
+              <node concept="2OqwBi" id="6mn2T7SyyLs" role="2Oq$k0">
+                <node concept="2OqwBi" id="2vPLSZqu3d6" role="2Oq$k0">
+                  <node concept="2OqwBi" id="2vPLSZqu0Ue" role="2Oq$k0">
+                    <node concept="2OqwBi" id="2vPLSZqu0lX" role="2Oq$k0">
+                      <node concept="13iPFW" id="2vPLSZqu0iV" role="2Oq$k0" />
+                      <node concept="3TrEf2" id="2vPLSZqu0Fq" role="2OqNvi">
+                        <ref role="3Tt5mk" to="rlu9:55b$yEt0CzD" />
+                      </node>
+                    </node>
+                    <node concept="3TrEf2" id="6mn2T7Syy9v" role="2OqNvi">
+                      <ref role="3Tt5mk" to="rlu9:6mn2T7SysB7" />
                     </node>
                   </node>
-                  <node concept="3TrEf2" id="2vPLSZqu2Ub" role="2OqNvi">
+                  <node concept="3TrEf2" id="6mn2T7SyyrB" role="2OqNvi">
                     <ref role="3Tt5mk" to="c07g:7AiSepDZbId" />
                   </node>
                 </node>
-                <node concept="3TrEf2" id="2vPLSZqu3qt" role="2OqNvi">
+                <node concept="3TrEf2" id="6mn2T7Syz1O" role="2OqNvi">
                   <ref role="3Tt5mk" to="jrxw:2WRhvFto5FZ" />
                 </node>
               </node>
@@ -505,6 +528,183 @@
             </node>
           </node>
         </node>
+      </node>
+    </node>
+  </node>
+  <node concept="13h7C7" id="6mn2T7SBY$E">
+    <ref role="13h7C2" to="rlu9:6mn2T7SysnR" resolve="BiomartRef" />
+    <node concept="13i0hz" id="6mn2T7SBY$N" role="13h7CS">
+      <property role="TrG5h" value="getScope" />
+      <property role="2Ki8OM" value="false" />
+      <ref role="13i0hy" to="tpcu:3fifI_xCJOQ" resolve="getScope" />
+      <node concept="3clFbS" id="6mn2T7SBY$P" role="3clF47">
+        <node concept="3clFbJ" id="6mn2T7SBY_i" role="3cqZAp">
+          <node concept="3clFbS" id="6mn2T7SBY_j" role="3clFbx">
+            <node concept="3cpWs8" id="49kk1N3HlTQ" role="3cqZAp">
+              <node concept="3cpWsn" id="49kk1N3HlTR" role="3cpWs9">
+                <property role="TrG5h" value="databaseLists" />
+                <node concept="A3Dl8" id="49kk1N3HlTS" role="1tU5fm">
+                  <node concept="3Tqbb2" id="49kk1N3HlTT" role="A3Ik2">
+                    <ref role="ehGHo" to="c07g:6Om6Mbm3Tzt" resolve="Database" />
+                  </node>
+                </node>
+                <node concept="2OqwBi" id="6mn2T7SCvbc" role="33vP2m">
+                  <node concept="2OqwBi" id="6mn2T7SCuMT" role="2Oq$k0">
+                    <node concept="13iPFW" id="6mn2T7SCuI4" role="2Oq$k0" />
+                    <node concept="3CFZ6_" id="6mn2T7SCv29" role="2OqNvi">
+                      <node concept="3CFYIy" id="6mn2T7SCv5D" role="3CFYIz">
+                        <ref role="3CFYIx" to="c07g:7yhzD3CK6Bf" resolve="MartRegistry" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3Tsc0h" id="6mn2T7SCvp9" role="2OqNvi">
+                    <ref role="3TtcxE" to="c07g:6Om6Mbm3Tzy" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3cpWs6" id="49kk1N3HlU2" role="3cqZAp">
+              <node concept="2YIFZM" id="49kk1N3HlU3" role="3cqZAk">
+                <ref role="1Pybhc" to="o8zo:4IP40Bi3e_R" resolve="ListScope" />
+                <ref role="37wK5l" to="o8zo:4IP40Bi3eAf" resolve="forNamedElements" />
+                <node concept="37vLTw" id="49kk1N3HlU4" role="37wK5m">
+                  <ref role="3cqZAo" node="49kk1N3HlTR" resolve="databaseLists" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbC" id="6mn2T7SBYBG" role="3clFbw">
+            <node concept="3TUQnm" id="6mn2T7SBYBX" role="3uHU7w">
+              <ref role="3TV0OU" to="c07g:6Om6Mbm3Tzt" resolve="Database" />
+            </node>
+            <node concept="37vLTw" id="6mn2T7SBY_u" role="3uHU7B">
+              <ref role="3cqZAo" node="6mn2T7SBY_0" resolve="kind" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="6mn2T7SMA5s" role="3cqZAp" />
+        <node concept="3clFbJ" id="6mn2T7SM$xH" role="3cqZAp">
+          <node concept="3clFbS" id="6mn2T7SM$xJ" role="3clFbx">
+            <node concept="3cpWs8" id="6mn2T7SMAsM" role="3cqZAp">
+              <node concept="3cpWsn" id="6mn2T7SMAsP" role="3cpWs9">
+                <property role="TrG5h" value="registry" />
+                <node concept="2I9FWS" id="6mn2T7SMAsK" role="1tU5fm">
+                  <ref role="2I9WkF" to="c07g:7yhzD3CK6Bf" resolve="MartRegistry" />
+                </node>
+                <node concept="2ShNRf" id="6mn2T7SMA_N" role="33vP2m">
+                  <node concept="2T8Vx0" id="6mn2T7SMA_L" role="2ShVmc">
+                    <node concept="2I9FWS" id="6mn2T7SMA_M" role="2T96Bj">
+                      <ref role="2I9WkF" to="c07g:7yhzD3CK6Bf" resolve="MartRegistry" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="6mn2T7SMAFP" role="3cqZAp">
+              <node concept="2OqwBi" id="6mn2T7SMC$Q" role="3clFbG">
+                <node concept="37vLTw" id="6mn2T7SMAFN" role="2Oq$k0">
+                  <ref role="3cqZAo" node="6mn2T7SMAsP" resolve="registry" />
+                </node>
+                <node concept="TSZUe" id="6mn2T7SMIKR" role="2OqNvi">
+                  <node concept="2OqwBi" id="6mn2T7SMIZH" role="25WWJ7">
+                    <node concept="13iPFW" id="6mn2T7SMIQX" role="2Oq$k0" />
+                    <node concept="3CFZ6_" id="6mn2T7SMJii" role="2OqNvi">
+                      <node concept="3CFYIy" id="6mn2T7SMJpL" role="3CFYIz">
+                        <ref role="3CFYIx" to="c07g:7yhzD3CK6Bf" resolve="MartRegistry" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3cpWs6" id="6mn2T7SM$Dn" role="3cqZAp">
+              <node concept="2YIFZM" id="6mn2T7SM$M1" role="3cqZAk">
+                <ref role="37wK5l" to="o8zo:4IP40Bi3eAf" resolve="forNamedElements" />
+                <ref role="1Pybhc" to="o8zo:4IP40Bi3e_R" resolve="ListScope" />
+                <node concept="37vLTw" id="6mn2T7SMJNw" role="37wK5m">
+                  <ref role="3cqZAo" node="6mn2T7SMAsP" resolve="registry" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbC" id="6mn2T7SM$AS" role="3clFbw">
+            <node concept="3TUQnm" id="6mn2T7SM$Bi" role="3uHU7w">
+              <ref role="3TV0OU" to="c07g:7yhzD3CK6Bf" resolve="MartRegistry" />
+            </node>
+            <node concept="37vLTw" id="6mn2T7SM$$x" role="3uHU7B">
+              <ref role="3cqZAo" node="6mn2T7SBY_0" resolve="kind" />
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs6" id="6mn2T7SC9rz" role="3cqZAp">
+          <node concept="iy90A" id="6mn2T7SC9xM" role="3cqZAk" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="6mn2T7SBY_0" role="3clF46">
+        <property role="TrG5h" value="kind" />
+        <node concept="3THzug" id="6mn2T7SBY_1" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="6mn2T7SBY_2" role="3clF46">
+        <property role="TrG5h" value="child" />
+        <node concept="3Tqbb2" id="6mn2T7SBY_3" role="1tU5fm" />
+      </node>
+      <node concept="3uibUv" id="6mn2T7SBY_4" role="3clF45">
+        <ref role="3uigEE" to="o8zo:3fifI_xCtN$" resolve="Scope" />
+      </node>
+      <node concept="3Tm1VV" id="6mn2T7SBY_5" role="1B3o_S" />
+    </node>
+    <node concept="13hLZK" id="6mn2T7SBY$F" role="13h7CW">
+      <node concept="3clFbS" id="6mn2T7SBY$G" role="2VODD2">
+        <node concept="3clFbF" id="6mn2T7SUjOX" role="3cqZAp">
+          <node concept="37vLTI" id="6mn2T7SUjOY" role="3clFbG">
+            <node concept="2OqwBi" id="6mn2T7SUjP0" role="37vLTJ">
+              <node concept="13iPFW" id="6mn2T7SUjP1" role="2Oq$k0" />
+              <node concept="3TrEf2" id="6mn2T7SUkob" role="2OqNvi">
+                <ref role="3Tt5mk" to="rlu9:6mn2T7SysB7" />
+              </node>
+            </node>
+            <node concept="2ShNRf" id="6mn2T7SUjP4" role="37vLTx">
+              <node concept="3zrR0B" id="6mn2T7SUjP5" role="2ShVmc">
+                <node concept="3Tqbb2" id="6mn2T7SUjP6" role="3zrR0E">
+                  <ref role="ehGHo" to="c07g:3k98b1qdWzt" resolve="Biomart" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbJ" id="2eITi4PRuVy" role="3cqZAp">
+          <node concept="3clFbS" id="2eITi4PRuV$" role="3clFbx">
+            <node concept="3clFbF" id="2eITi4PLbZG" role="3cqZAp">
+              <node concept="2OqwBi" id="Uo9xLniAxD" role="3clFbG">
+                <node concept="35c_gC" id="Uo9xLniAu3" role="2Oq$k0">
+                  <ref role="35c_gD" to="c07g:3k98b1qdWzt" resolve="Biomart" />
+                </node>
+                <node concept="2qgKlT" id="Uo9xLniAK7" role="2OqNvi">
+                  <ref role="37wK5l" to="okqk:Uo9xLniBVx" resolve="createMartRegistry" />
+                  <node concept="13iPFW" id="6mn2T7SUkEj" role="37wK5m" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="2OqwBi" id="6mn2T7SUDET" role="3clFbw">
+            <node concept="2OqwBi" id="2eITi4PRvG0" role="2Oq$k0">
+              <node concept="3Tsc0h" id="6mn2T7SUCGK" role="2OqNvi">
+                <ref role="3TtcxE" to="c07g:6Om6Mbm3Tzy" />
+              </node>
+              <node concept="2OqwBi" id="Uo9xLniGV1" role="2Oq$k0">
+                <node concept="35c_gC" id="Uo9xLniGRA" role="2Oq$k0">
+                  <ref role="35c_gD" to="c07g:3k98b1qdWzt" resolve="Biomart" />
+                </node>
+                <node concept="2qgKlT" id="Uo9xLniHnw" role="2OqNvi">
+                  <ref role="37wK5l" to="okqk:Uo9xLnioTN" resolve="getMartRegistry" />
+                  <node concept="13iPFW" id="6mn2T7SUkC4" role="37wK5m" />
+                </node>
+              </node>
+            </node>
+            <node concept="1v1jN8" id="6mn2T7SUF8H" role="2OqNvi" />
+          </node>
+        </node>
+        <node concept="3clFbH" id="6mn2T7SUXMr" role="3cqZAp" />
       </node>
     </node>
   </node>
