@@ -43,9 +43,9 @@
     <ref role="1TJDcQ" to="6q58:5mPDeVwiPap" resolve="Expr" />
     <node concept="1TJgyj" id="55b$yEt0CzD" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="biomart" />
+      <property role="20kJfa" value="biomartref" />
       <property role="20lbJX" value="1" />
-      <ref role="20lvS9" to="c07g:3k98b1qdWzt" resolve="Biomart" />
+      <ref role="20lvS9" node="6mn2T7SysnR" resolve="BiomartRef" />
     </node>
     <node concept="1TJgyj" id="2vPLSZqt6YQ" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -91,6 +91,19 @@
       <property role="20kJfa" value="child" />
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" to="6q58:1jge5x__XE8" resolve="IdentifierRef" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="6mn2T7SysnR">
+    <property role="TrG5h" value="BiomartRef" />
+    <ref role="1TJDcQ" to="jrxw:7LvyiX4miiC" resolve="Statement" />
+    <node concept="1TJgyj" id="6mn2T7SysB7" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="biomart" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" to="c07g:3k98b1qdWzt" resolve="Biomart" />
+    </node>
+    <node concept="PrWs8" id="6mn2T7SBY$h" role="PzmwI">
+      <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
     </node>
   </node>
 </model>
