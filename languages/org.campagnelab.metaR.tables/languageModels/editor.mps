@@ -26,10 +26,10 @@
     <import index="srng" ref="f:java_stub#1ed103c3-3aa6-49b7-9c21-6765ee11f224#jetbrains.mps.openapi.editor(jetbrains.mps.openapi.editor@java_stub)" />
     <import index="onla" ref="r:b81182ba-13d2-441a-9b65-76fe2bd96f30(org.campagnelab.styles.structure)" />
     <import index="1t7x" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.awt(JDK/java.awt@java_stub)" />
-    <import index="e2lb" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" implicit="true" />
-    <import index="711x" ref="r:f8afdbad-6ef4-4231-b44c-0ecacaf32d43(org.campagnelab.mps.XChart.types.behavior)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
+    <import index="e2lb" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" implicit="true" />
     <import index="h23j" ref="r:5e0b7baa-a427-417f-968a-1e4912c5f643(org.campagnelab.styles.editor)" implicit="true" />
+    <import index="711x" ref="r:f8afdbad-6ef4-4231-b44c-0ecacaf32d43(org.campagnelab.mps.XChart.types.behavior)" implicit="true" />
   </imports>
   <registry>
     <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">
@@ -2548,6 +2548,33 @@
         </node>
       </node>
     </node>
+    <node concept="3EZMnI" id="7uYamNf3m$T" role="6VMZX">
+      <node concept="l2Vlx" id="7uYamNf3m$U" role="2iSdaV" />
+      <node concept="3F0ifn" id="7uYamNf3n24" role="3EZMnx">
+        <property role="3F0ifm" value="id:" />
+      </node>
+      <node concept="1iCGBv" id="7uYamNf3n2f" role="3EZMnx">
+        <ref role="1NtTu8" to="jrxw:2GnvTFE7ITX" />
+        <node concept="1sVBvm" id="7uYamNf3n2h" role="1sWHZn">
+          <node concept="1HlG4h" id="7uYamNf3n2x" role="2wV5jI">
+            <node concept="1HfYo3" id="7uYamNf3n2z" role="1HlULh">
+              <node concept="3TQlhw" id="7uYamNf3n2_" role="1Hhtcw">
+                <node concept="3clFbS" id="7uYamNf3n2B" role="2VODD2">
+                  <node concept="3clFbF" id="7uYamNf3wAX" role="3cqZAp">
+                    <node concept="2OqwBi" id="7uYamNf3wFo" role="3clFbG">
+                      <node concept="pncrf" id="7uYamNf3wAW" role="2Oq$k0" />
+                      <node concept="2qgKlT" id="7uYamNf3xwH" role="2OqNvi">
+                        <ref role="37wK5l" to="v8sa:6WPhx9njIUt" resolve="getStatementId" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="24kQdi" id="2GnvTFEfJIT">
     <property role="3GE5qa" value="plots" />
@@ -2742,6 +2769,33 @@
         </node>
       </node>
       <node concept="2iRkQZ" id="2GnvTFEfJJL" role="2iSdaV" />
+    </node>
+    <node concept="3EZMnI" id="7uYamNffKOf" role="6VMZX">
+      <node concept="l2Vlx" id="7uYamNffKOg" role="2iSdaV" />
+      <node concept="3F0ifn" id="7uYamNffKOh" role="3EZMnx">
+        <property role="3F0ifm" value="id:" />
+      </node>
+      <node concept="1iCGBv" id="7uYamNffKOi" role="3EZMnx">
+        <ref role="1NtTu8" to="jrxw:2GnvTFE7ITX" />
+        <node concept="1sVBvm" id="7uYamNffKOj" role="1sWHZn">
+          <node concept="1HlG4h" id="7uYamNffKOk" role="2wV5jI">
+            <node concept="1HfYo3" id="7uYamNffKOl" role="1HlULh">
+              <node concept="3TQlhw" id="7uYamNffKOm" role="1Hhtcw">
+                <node concept="3clFbS" id="7uYamNffKOn" role="2VODD2">
+                  <node concept="3clFbF" id="7uYamNffKOo" role="3cqZAp">
+                    <node concept="2OqwBi" id="7uYamNffKOp" role="3clFbG">
+                      <node concept="pncrf" id="7uYamNffKOq" role="2Oq$k0" />
+                      <node concept="2qgKlT" id="7uYamNffKOr" role="2OqNvi">
+                        <ref role="37wK5l" to="v8sa:6WPhx9njIUt" resolve="getStatementId" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
     </node>
   </node>
   <node concept="24kQdi" id="7LvyiX3EFi1">
@@ -4954,7 +5008,7 @@
   </node>
   <node concept="24kQdi" id="7B_tLL$i1yY">
     <property role="3GE5qa" value="operations" />
-    <ref role="1XX52x" to="jrxw:7B_tLL$i0di" resolve="DropColumnRegexOperation" />
+    <ref role="1XX52x" to="jrxw:7B_tLL$i0di" resolve="DropColumnWithTextOperation" />
     <node concept="3EZMnI" id="7B_tLL$i1ZJ" role="2wV5jI">
       <node concept="3F0ifn" id="7B_tLL$i1ZQ" role="3EZMnx">
         <property role="3F0ifm" value="drop columns which match" />
