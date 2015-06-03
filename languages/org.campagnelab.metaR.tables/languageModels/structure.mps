@@ -2120,7 +2120,7 @@
   </node>
   <node concept="1TIwiD" id="3MLv1Ikst5K">
     <property role="3GE5qa" value="orderTable" />
-    <property role="TrG5h" value="orderByColumnGroup" />
+    <property role="TrG5h" value="OrderByColumnGroup" />
     <property role="34LRSv" value="groups" />
     <ref role="1TJDcQ" node="pr6WGx0Ejz" resolve="OrderBy" />
     <node concept="1TJgyj" id="3MLv1IkOEK_" role="1TKVEi">
