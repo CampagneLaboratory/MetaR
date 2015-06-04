@@ -28,6 +28,7 @@
       <modulePath path="$PROJECT_DIR$/solutions/VennDiagram/VennDiagram.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/biomart/biomart.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/build.plugins/build.plugins.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/migrationtest/migrationtest.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/org.campagnelab.editor.plugins/org.campagnelab.editor.plugins.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/org.campagnelab.metar.R.plugin/org.cmapagnelab.metar.R.plugin.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/org.campagnelab.metar.biomart.runtime/org.campagnelab.metar.biomart.runtime.msd" folder="" />

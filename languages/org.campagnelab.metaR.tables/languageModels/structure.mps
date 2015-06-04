@@ -1156,14 +1156,20 @@
     <node concept="1TJgyj" id="4kl5yjsEWLJ" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="ColumnRef" />
-      <property role="20lbJX" value="1" />
+      <property role="20lbJX" value="0..1" />
       <ref role="20lvS9" node="2WRhvFtwVip" resolve="ColumnRef" />
+      <node concept="asaX9" id="6efZaUhKwKb" role="lGtFl">
+        <property role="YLQ7P" value="Use Expression instead" />
+      </node>
+    </node>
+    <node concept="1TJgyj" id="6efZaUhKwKd" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="expression" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="4otsx27zLTc" resolve="ExpressionWrapper" />
     </node>
     <node concept="PrWs8" id="4FCgsrPsz8a" role="PzmwI">
       <ref role="PrY4T" to="onla:4FCgsrOfk9w" resolve="UseStyle" />
-    </node>
-    <node concept="PrWs8" id="4kl5yjskMcR" role="PzmwI">
-      <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
     </node>
   </node>
   <node concept="1TIwiD" id="6XP3gVeEmBc">
@@ -1383,8 +1389,17 @@
     <node concept="1TJgyj" id="5gXsBBL6Cer" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="ColumnRefs" />
-      <property role="20lbJX" value="1..n" />
+      <property role="20lbJX" value="0..n" />
       <ref role="20lvS9" node="2WRhvFtwVip" resolve="ColumnRef" />
+      <node concept="asaX9" id="6efZaUixxIz" role="lGtFl">
+        <property role="YLQ7P" value="Use expression instead" />
+      </node>
+    </node>
+    <node concept="1TJgyj" id="6efZaUixxI_" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="expressions" />
+      <property role="20lbJX" value="1..n" />
+      <ref role="20lvS9" node="4otsx27zLTc" resolve="ExpressionWrapper" />
     </node>
     <node concept="PrWs8" id="4FCgsrPswvu" role="PzmwI">
       <ref role="PrY4T" to="onla:4FCgsrOfk9w" resolve="UseStyle" />
