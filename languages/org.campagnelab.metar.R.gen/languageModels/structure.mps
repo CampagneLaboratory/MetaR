@@ -29,5 +29,8 @@
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
   </node>
+  <node concept="PlHQZ" id="6efZaUgJLSo">
+    <property role="TrG5h" value="IExposeIdentifiers" />
+  </node>
 </model>
 

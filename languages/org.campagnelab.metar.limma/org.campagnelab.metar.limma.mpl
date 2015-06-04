@@ -52,6 +52,7 @@
         <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" fqName="jetbrains.mps.lang.smodel" version="0" />
         <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" fqName="jetbrains.mps.lang.structure" version="0" />
         <language id="9ded098b-ad6a-4657-bfd9-48636cfe8bc3" fqName="jetbrains.mps.lang.traceable" version="0" />
+        <language id="837afec3-cff0-45b1-a221-6b811148f87e" fqName="org.campagnelab.metar.R.gen" version="0" />
         <language id="32f503e8-061b-451e-bcb0-fef56aa05eb9" fqName="org.campagnelab.metar.inspect" version="0" />
         <language id="049ed9e7-0f0d-4814-a373-a4b21e15b59e" fqName="org.campagnelab.metar.limma" version="-1" />
         <language id="ecc862c9-5ab5-42ef-8703-2039019fb338" fqName="org.campagnelab.metar.models" version="2" />
