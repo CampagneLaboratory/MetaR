@@ -41,8 +41,8 @@
         <property id="9080041854829670092" name="inputChanged" index="8NYsT" />
       </concept>
       <concept id="6070133740826950348" name="org.campagnelab.metar.tables.structure.BoxPlot" flags="ng" index="2_9KyP">
-        <child id="6070133740826952603" name="ColumnRefs" index="2_9Z7y" />
         <child id="6070133740826952602" name="plot" index="2_9Z7z" />
+        <child id="7174230558137260965" name="expressions" index="3L2usb" />
       </concept>
       <concept id="8016431400517087678" name="org.campagnelab.metar.tables.structure.UsageType" flags="ng" index="2_mUhs" />
       <concept id="7783277237108572280" name="org.campagnelab.metar.tables.structure.FilterWithExpression" flags="ng" index="2Qf$4g">
@@ -891,8 +891,10 @@
           <property role="3ZMXzF" value="15" />
           <property role="TrG5h" value="outer_bp" />
         </node>
-        <node concept="3MHf5z" id="5d_684Ih_uF" role="2_9Z7y">
-          <ref role="3MHf5w" node="6gRg6E3pM$M" resolve="Column3" />
+        <node concept="31$ALs" id="7c0D3AUWkIL" role="3L2usb">
+          <node concept="3$Gm2I" id="7c0D3AUWkIM" role="31$ALt">
+            <ref role="3$Gm2J" node="6gRg6E3pM$M" resolve="Column3" />
+          </node>
         </node>
       </node>
       <node concept="S1EQe" id="3XyNzZWRhBm" role="ZXjPg">
@@ -914,8 +916,10 @@
               <property role="3ZMXzF" value="1" />
               <property role="TrG5h" value="inner_bp" />
             </node>
-            <node concept="3MHf5z" id="zTi4HmuOma" role="2_9Z7y">
-              <ref role="3MHf5w" node="6gRg6E3pM$M" resolve="Column3" />
+            <node concept="31$ALs" id="7c0D3AUWkIN" role="3L2usb">
+              <node concept="3$Gm2I" id="7c0D3AUWkIO" role="31$ALt">
+                <ref role="3$Gm2J" node="6gRg6E3pM$M" resolve="Column3" />
+              </node>
             </node>
           </node>
           <node concept="313sG1" id="5d_684Ih_oC" role="ZXjPg">

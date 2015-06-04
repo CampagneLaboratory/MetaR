@@ -56,7 +56,7 @@
         <language id="3b58810c-8431-4bbb-99ea-b4671e02dd13" fqName="org.campagnelab.metar.R" version="0" />
         <language id="64c90466-09b2-41ab-89f8-5085b3b9eca7" fqName="org.campagnelab.metar.functions.access" version="-1" />
         <language id="32f503e8-061b-451e-bcb0-fef56aa05eb9" fqName="org.campagnelab.metar.inspect" version="0" />
-        <language id="5d6bde84-4ce4-4eb5-a37e-25a5edd55129" fqName="org.campagnelab.metar.tables" version="0" />
+        <language id="5d6bde84-4ce4-4eb5-a37e-25a5edd55129" fqName="org.campagnelab.metar.tables" version="1" />
         <language id="5ec1cd3d-0a50-4049-a8fa-ae768d7baa25" fqName="org.campagnelab.mps.XChart" version="0" />
         <language id="ecf91126-e504-4aae-8ee7-3192d64e77f6" fqName="org.campagnelab.mps.XChart.types" version="0" />
         <language id="43f31864-fc67-43f5-873e-ab79cc279a2d" fqName="org.campagnelab.styles" version="0" />
@@ -133,7 +133,7 @@
     <language id="3b58810c-8431-4bbb-99ea-b4671e02dd13" fqName="org.campagnelab.metar.R" version="0" />
     <language id="c1747c67-8f42-4d83-9542-4a948aec17d9" fqName="org.campagnelab.metar.functions.importing" version="0" />
     <language id="32f503e8-061b-451e-bcb0-fef56aa05eb9" fqName="org.campagnelab.metar.inspect" version="0" />
-    <language id="5d6bde84-4ce4-4eb5-a37e-25a5edd55129" fqName="org.campagnelab.metar.tables" version="0" />
+    <language id="5d6bde84-4ce4-4eb5-a37e-25a5edd55129" fqName="org.campagnelab.metar.tables" version="1" />
     <language id="5ec1cd3d-0a50-4049-a8fa-ae768d7baa25" fqName="org.campagnelab.mps.XChart" version="0" />
     <language id="ecf91126-e504-4aae-8ee7-3192d64e77f6" fqName="org.campagnelab.mps.XChart.types" version="0" />
     <language id="43f31864-fc67-43f5-873e-ab79cc279a2d" fqName="org.campagnelab.styles" version="0" />
