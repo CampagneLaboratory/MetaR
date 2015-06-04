@@ -21,7 +21,7 @@
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
-    <import index="89bg" ref="r:de53da33-34f1-4c7e-a0ab-034975f75528(org.campagnelab.metar.functions.access.structure)" implicit="true" />
+    <import index="89bg" ref="r:de53da33-34f1-4c7e-a0ab-034975f75528(org.campagnelab.metar.functions.access.structure)" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -49,9 +49,18 @@
       <concept id="1177093525992" name="jetbrains.mps.lang.generator.structure.InlineTemplate_RuleConsequence" flags="lg" index="gft3U">
         <child id="1177093586806" name="templateNode" index="gfFT$" />
       </concept>
+      <concept id="1168559333462" name="jetbrains.mps.lang.generator.structure.TemplateDeclarationReference" flags="ln" index="j$656" />
+      <concept id="1095672379244" name="jetbrains.mps.lang.generator.structure.TemplateFragment" flags="ng" index="raruj" />
+      <concept id="1722980698497626400" name="jetbrains.mps.lang.generator.structure.ITemplateCall" flags="ng" index="v9R3L">
+        <reference id="1722980698497626483" name="template" index="v9R2y" />
+      </concept>
       <concept id="1167169188348" name="jetbrains.mps.lang.generator.structure.TemplateFunctionParameter_sourceNode" flags="nn" index="30H73N" />
       <concept id="1167169308231" name="jetbrains.mps.lang.generator.structure.BaseMappingRule" flags="ng" index="30H$t8">
         <reference id="1167169349424" name="applicableConcept" index="30HIoZ" />
+      </concept>
+      <concept id="1092059087312" name="jetbrains.mps.lang.generator.structure.TemplateDeclaration" flags="ig" index="13MO4I">
+        <reference id="1168285871518" name="applicableConcept" index="3gUMe" />
+        <child id="1092060348987" name="contentNode" index="13RCb5" />
       </concept>
       <concept id="1167327847730" name="jetbrains.mps.lang.generator.structure.Reduction_MappingRule" flags="lg" index="3aamgX">
         <child id="1169672767469" name="ruleConsequence" index="1lVwrX" />
@@ -62,6 +71,9 @@
       <concept id="6176023809880707773" name="org.campagnelab.metar.R.structure.NullExpr" flags="ng" index="2PZJpj" />
     </language>
     <language id="901f5cf3-dc77-4c1e-bc5a-6382baee28b4" name="org.campagnelab.textoutput">
+      <concept id="7233999442722641156" name="org.campagnelab.textoutput.structure.PhraseAdapter" flags="ng" index="kJK4I">
+        <child id="7233999442722641157" name="node" index="kJK4J" />
+      </concept>
       <concept id="7233999442720069524" name="org.campagnelab.textoutput.structure.LinesAdapter" flags="ng" index="kO4eY">
         <child id="7233999442720112236" name="node" index="kOeD6" />
       </concept>
@@ -126,6 +138,37 @@
           </node>
         </node>
       </node>
+    </node>
+    <node concept="3aamgX" id="6efZaUj8Kyr" role="3acgRq">
+      <ref role="30HIoZ" to="89bg:YA$ymny2Bs" resolve="ScopedFunctionCallWrapper" />
+      <node concept="j$656" id="6efZaUj8Kys" role="1lVwrX">
+        <ref role="v9R2y" node="6efZaUj8Kyp" resolve="reduce_ScopedFunctionCallWrapper" />
+      </node>
+    </node>
+  </node>
+  <node concept="13MO4I" id="6efZaUj8Kyp">
+    <property role="TrG5h" value="reduce_ScopedFunctionCallWrapper" />
+    <ref role="3gUMe" to="89bg:YA$ymny2Bs" resolve="ScopedFunctionCallWrapper" />
+    <node concept="kJK4I" id="6efZaUj8KQB" role="13RCb5">
+      <property role="3_3kQV" value="" />
+      <node concept="3_3kQU" id="6efZaUj8Kzi" role="kJK4J">
+        <property role="3_3kQV" value="function()" />
+        <node concept="29HgVG" id="6efZaUj8KzK" role="lGtFl">
+          <node concept="3NFfHV" id="6efZaUj8KzN" role="3NFExx">
+            <node concept="3clFbS" id="6efZaUj8KzO" role="2VODD2">
+              <node concept="3clFbF" id="6efZaUj8K$d" role="3cqZAp">
+                <node concept="2OqwBi" id="6efZaUj8KAU" role="3clFbG">
+                  <node concept="30H73N" id="6efZaUj8K$c" role="2Oq$k0" />
+                  <node concept="3TrEf2" id="6efZaUj8KNU" role="2OqNvi">
+                    <ref role="3Tt5mk" to="89bg:YA$ymny2Bt" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="raruj" id="6efZaUj8L2Q" role="lGtFl" />
     </node>
   </node>
 </model>
