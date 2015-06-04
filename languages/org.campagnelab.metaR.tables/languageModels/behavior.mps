@@ -40,6 +40,8 @@
     <import index="onla" ref="r:b81182ba-13d2-441a-9b65-76fe2bd96f30(org.campagnelab.styles.structure)" />
     <import index="x7of" ref="r:437ca43c-6323-49fb-979f-681501286fcd(org.campagnelab.metar.code.annotations)" />
     <import index="tpcb" ref="r:00000000-0000-4000-0000-011c89590297(jetbrains.mps.lang.editor.behavior)" />
+    <import index="n1uf" ref="r:cb035222-afa9-445c-8372-64c2390befab(org.campagnelab.metar.R.gen.behavior)" />
+    <import index="l5qg" ref="r:c3c8723d-4db5-4e18-902d-1cb272fe4ddf(org.campagnelab.metar.R.gen.structure)" />
     <import index="t3eg" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/f:java_stub#8865b7a8-5271-43d3-884c-6fd1d9cfdd34#org.jetbrains.mps.openapi.language(MPS.OpenAPI/org.jetbrains.mps.openapi.language@java_stub)" implicit="true" />
   </imports>
   <registry>
@@ -9204,6 +9206,29 @@
           </node>
         </node>
       </node>
+    </node>
+    <node concept="13i0hz" id="6efZaUgoZ$5" role="13h7CS">
+      <property role="TrG5h" value="getOutputFileName" />
+      <property role="13i0it" value="false" />
+      <property role="13i0iv" value="false" />
+      <ref role="13i0hy" to="n1uf:7LvyiX4mik0" resolve="getOutputFileName" />
+      <node concept="3Tm1VV" id="6efZaUgoZ$6" role="1B3o_S" />
+      <node concept="3clFbS" id="6efZaUgoZ$f" role="3clF47">
+        <node concept="3clFbF" id="6efZaUgp2yY" role="3cqZAp">
+          <node concept="3cpWs3" id="6efZaUgp2yZ" role="3clFbG">
+            <node concept="2OqwBi" id="6efZaUgp2z0" role="3uHU7B">
+              <node concept="13iPFW" id="6efZaUgp2z1" role="2Oq$k0" />
+              <node concept="3TrcHB" id="6efZaUgp2z2" role="2OqNvi">
+                <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+              </node>
+            </node>
+            <node concept="Xl_RD" id="6efZaUgp2z3" role="3uHU7w">
+              <property role="Xl_RC" value="_script.R" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="17QB3L" id="6efZaUgoZ$g" role="3clF45" />
     </node>
   </node>
   <node concept="13h7C7" id="7LvyiX4mikT">

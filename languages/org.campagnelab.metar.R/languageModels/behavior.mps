@@ -12,6 +12,8 @@
     <import index="tpcu" ref="r:00000000-0000-4000-0000-011c89590282(jetbrains.mps.lang.core.behavior)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
     <import index="o8zo" ref="r:314576fc-3aee-4386-a0a5-a38348ac317d(jetbrains.mps.scope)" />
+    <import index="l5qg" ref="r:c3c8723d-4db5-4e18-902d-1cb272fe4ddf(org.campagnelab.metar.R.gen.structure)" />
+    <import index="n1uf" ref="r:cb035222-afa9-445c-8372-64c2390befab(org.campagnelab.metar.R.gen.behavior)" />
     <import index="e2lb" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" implicit="true" />
   </imports>
   <registry>
@@ -86,7 +88,7 @@
         <child id="1068580123160" name="condition" index="3clFbw" />
         <child id="1068580123161" name="ifTrue" index="3clFbx" />
       </concept>
-      <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
+      <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
       </concept>
       <concept id="1068580123137" name="jetbrains.mps.baseLanguage.structure.BooleanConstant" flags="nn" index="3clFbT">
@@ -1607,6 +1609,29 @@
       <node concept="3uibUv" id="7kgUw1gMaYM" role="3clF45">
         <ref role="3uigEE" to="o8zo:3fifI_xCtN$" resolve="Scope" />
       </node>
+    </node>
+    <node concept="13i0hz" id="6efZaUgmz$t" role="13h7CS">
+      <property role="TrG5h" value="getOutputFileName" />
+      <property role="13i0it" value="false" />
+      <property role="13i0iv" value="false" />
+      <ref role="13i0hy" to="n1uf:7LvyiX4mik0" resolve="getOutputFileName" />
+      <node concept="3Tm1VV" id="6efZaUgmz$u" role="1B3o_S" />
+      <node concept="3clFbS" id="6efZaUgmz$B" role="3clF47">
+        <node concept="3clFbF" id="7LvyiX4mik4" role="3cqZAp">
+          <node concept="3cpWs3" id="7LvyiX4mik5" role="3clFbG">
+            <node concept="2OqwBi" id="7LvyiX4mik6" role="3uHU7B">
+              <node concept="13iPFW" id="7LvyiX4mik7" role="2Oq$k0" />
+              <node concept="3TrcHB" id="7LvyiX4mik8" role="2OqNvi">
+                <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+              </node>
+            </node>
+            <node concept="Xl_RD" id="7LvyiX4mik9" role="3uHU7w">
+              <property role="Xl_RC" value=".R" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="17QB3L" id="6efZaUgmz$C" role="3clF45" />
     </node>
   </node>
 </model>
