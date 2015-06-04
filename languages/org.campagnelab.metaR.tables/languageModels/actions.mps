@@ -717,7 +717,7 @@
     <property role="3GE5qa" value="orderTable" />
     <property role="TrG5h" value="CreateColumnGroup" />
     <node concept="37WvkG" id="3MLv1Il_7XB" role="37WGs$">
-      <ref role="37XkoT" to="jrxw:3MLv1Ikst5K" resolve="orderByColumnGroup" />
+      <ref role="37XkoT" to="jrxw:3MLv1Ikst5K" resolve="OrderByGroups" />
       <node concept="37Y9Zx" id="3MLv1Il_7XC" role="37ZfLb">
         <node concept="3clFbS" id="3MLv1Il_7XD" role="2VODD2">
           <node concept="3SKdUt" id="3MLv1Il_dQc" role="3cqZAp">
@@ -728,7 +728,7 @@
           <node concept="34ab3g" id="3MLv1IlXpbR" role="3cqZAp">
             <property role="35gtTG" value="info" />
             <node concept="Xl_RD" id="3MLv1IlXpbT" role="34bqiv">
-              <property role="Xl_RC" value="Create ColumnGroup" />
+              <property role="Xl_RC" value="Create Group" />
             </node>
           </node>
           <node concept="3clFbF" id="3MLv1Il_7XH" role="3cqZAp">
@@ -742,11 +742,45 @@
               <node concept="X8dFx" id="3MLv1Il_b31" role="2OqNvi">
                 <node concept="2OqwBi" id="3MLv1ImxGbP" role="25WWJ7">
                   <node concept="35c_gC" id="3MLv1ImxF6F" role="2Oq$k0">
-                    <ref role="35c_gD" to="jrxw:3MLv1Ikst5K" resolve="orderByColumnGroup" />
+                    <ref role="35c_gD" to="jrxw:3MLv1Ikst5K" resolve="OrderByGroups" />
                   </node>
                   <node concept="2qgKlT" id="3MLv1ImxGuD" role="2OqNvi">
-                    <ref role="37wK5l" to="v8sa:3MLv1Ilcx_b" resolve="createColumnGroup" />
+                    <ref role="37wK5l" to="v8sa:3MLv1Ilcx_b" resolve="setColumns" />
                     <node concept="1r4N1M" id="3MLv1ImxH7y" role="37wK5m" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="37WvkG" id="3MLv1ItZBLI" role="37WGs$">
+      <ref role="37XkoT" to="jrxw:3MLv1ItYIYn" resolve="OrderByColumn" />
+      <node concept="37Y9Zx" id="3MLv1ItZBLJ" role="37ZfLb">
+        <node concept="3clFbS" id="3MLv1ItZBLK" role="2VODD2">
+          <node concept="34ab3g" id="3MLv1ItZBQr" role="3cqZAp">
+            <property role="35gtTG" value="info" />
+            <node concept="Xl_RD" id="3MLv1ItZBQs" role="34bqiv">
+              <property role="Xl_RC" value="Create Column" />
+            </node>
+          </node>
+          <node concept="3clFbF" id="3MLv1ItZBQt" role="3cqZAp">
+            <node concept="2OqwBi" id="3MLv1ItZBQu" role="3clFbG">
+              <node concept="2OqwBi" id="3MLv1ItZBQv" role="2Oq$k0">
+                <node concept="1r4Lsj" id="3MLv1ItZBQw" role="2Oq$k0" />
+                <node concept="3Tsc0h" id="3MLv1ItZEpB" role="2OqNvi">
+                  <ref role="3TtcxE" to="jrxw:3MLv1ItYJks" />
+                </node>
+              </node>
+              <node concept="X8dFx" id="3MLv1ItZBQy" role="2OqNvi">
+                <node concept="2OqwBi" id="3MLv1ItZBQz" role="25WWJ7">
+                  <node concept="35c_gC" id="3MLv1ItZBQ$" role="2Oq$k0">
+                    <ref role="35c_gD" to="jrxw:3MLv1ItYIYn" resolve="OrderByColumn" />
+                  </node>
+                  <node concept="2qgKlT" id="3MLv1ItZBQ_" role="2OqNvi">
+                    <ref role="37wK5l" to="v8sa:3MLv1ItZ1vG" resolve="setColumns" />
+                    <node concept="1r4N1M" id="3MLv1ItZBQA" role="37wK5m" />
                   </node>
                 </node>
               </node>

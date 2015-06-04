@@ -2120,14 +2120,14 @@
   </node>
   <node concept="1TIwiD" id="3MLv1Ikst5K">
     <property role="3GE5qa" value="orderTable" />
-    <property role="TrG5h" value="OrderByColumnGroup" />
+    <property role="TrG5h" value="OrderByGroups" />
     <property role="34LRSv" value="groups" />
     <ref role="1TJDcQ" node="pr6WGx0Ejz" resolve="OrderBy" />
     <node concept="1TJgyj" id="3MLv1IkOEK_" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="tableColumnGroup" />
+      <property role="20kJfa" value="tableGroup" />
       <property role="20lbJX" value="0..n" />
-      <ref role="20lvS9" node="3MLv1IkOE3z" resolve="TableColumnGroup" />
+      <ref role="20lvS9" node="3MLv1IkOE3z" resolve="TableGroup" />
     </node>
     <node concept="PrWs8" id="3MLv1Is$z$E" role="PzmwI">
       <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
@@ -2135,7 +2135,7 @@
   </node>
   <node concept="1TIwiD" id="3MLv1IkOE3z">
     <property role="3GE5qa" value="orderTable" />
-    <property role="TrG5h" value="TableColumnGroup" />
+    <property role="TrG5h" value="TableGroup" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="3MLv1Ilo8n7" role="1TKVEi">
       <property role="20lmBu" value="reference" />
@@ -2147,6 +2147,29 @@
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="columnRef" />
       <property role="20lbJX" value="1..n" />
+      <ref role="20lvS9" node="2WRhvFtwVip" resolve="ColumnRef" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3MLv1ItYIYn">
+    <property role="3GE5qa" value="orderTable" />
+    <property role="TrG5h" value="OrderByColumn" />
+    <property role="34LRSv" value="columns" />
+    <ref role="1TJDcQ" node="pr6WGx0Ejz" resolve="OrderBy" />
+    <node concept="1TJgyj" id="3MLv1ItYJks" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="tableColumn" />
+      <property role="20lbJX" value="1..n" />
+      <ref role="20lvS9" node="3MLv1ItYJkm" resolve="TableColumn" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3MLv1ItYJkm">
+    <property role="3GE5qa" value="orderTable" />
+    <property role="TrG5h" value="TableColumn" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="3MLv1ItYJkq" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="columnRef" />
+      <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="2WRhvFtwVip" resolve="ColumnRef" />
     </node>
   </node>
