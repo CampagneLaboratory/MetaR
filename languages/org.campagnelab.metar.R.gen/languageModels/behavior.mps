@@ -19,6 +19,7 @@
       <concept id="1225194413805" name="jetbrains.mps.lang.behavior.structure.ConceptConstructorDeclaration" flags="in" index="13hLZK" />
       <concept id="1225194472830" name="jetbrains.mps.lang.behavior.structure.ConceptMethodDeclaration" flags="ng" index="13i0hz">
         <property id="1225194472832" name="isVirtual" index="13i0it" />
+        <property id="1225194472834" name="isAbstract" index="13i0iv" />
       </concept>
       <concept id="1225194691553" name="jetbrains.mps.lang.behavior.structure.ThisNodeExpression" flags="nn" index="13iPFW" />
     </language>
@@ -55,6 +56,7 @@
       <concept id="1146644602865" name="jetbrains.mps.baseLanguage.structure.PublicVisibility" flags="nn" index="3Tm1VV" />
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
+      <concept id="1138055754698" name="jetbrains.mps.lang.smodel.structure.SNodeType" flags="in" index="3Tqbb2" />
       <concept id="1138056022639" name="jetbrains.mps.lang.smodel.structure.SPropertyAccess" flags="nn" index="3TrcHB">
         <reference id="1138056395725" name="property" index="3TsBF5" />
       </concept>
@@ -62,6 +64,11 @@
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
+      </concept>
+    </language>
+    <language id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections">
+      <concept id="1151689724996" name="jetbrains.mps.baseLanguage.collections.structure.SequenceType" flags="in" index="A3Dl8">
+        <child id="1151689745422" name="elementType" index="A3Ik2" />
       </concept>
     </language>
   </registry>
@@ -90,6 +97,22 @@
     </node>
     <node concept="13hLZK" id="6efZaUgdIFz" role="13h7CW">
       <node concept="3clFbS" id="6efZaUgdIF$" role="2VODD2" />
+    </node>
+  </node>
+  <node concept="13h7C7" id="6efZaUgJM3e">
+    <ref role="13h7C2" to="l5qg:6efZaUgJLSo" resolve="IExposeIdentifiers" />
+    <node concept="13i0hz" id="6efZaUgJM3u" role="13h7CS">
+      <property role="13i0iv" value="true" />
+      <property role="13i0it" value="true" />
+      <property role="TrG5h" value="identifiers" />
+      <node concept="3Tm1VV" id="6efZaUgJM3v" role="1B3o_S" />
+      <node concept="3clFbS" id="6efZaUgJM3w" role="3clF47" />
+      <node concept="A3Dl8" id="6efZaUgJM3A" role="3clF45">
+        <node concept="3Tqbb2" id="6efZaUgJM3F" role="A3Ik2" />
+      </node>
+    </node>
+    <node concept="13hLZK" id="6efZaUgJM3f" role="13h7CW">
+      <node concept="3clFbS" id="6efZaUgJM3g" role="2VODD2" />
     </node>
   </node>
 </model>

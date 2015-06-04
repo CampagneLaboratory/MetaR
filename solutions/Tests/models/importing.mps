@@ -8,8 +8,8 @@
     <devkit ref="8a3636fa-c6ec-4cb0-bc2a-b7143f2a4937(org.campagnelab.metaR)" />
   </languages>
   <imports>
-    <import index="c1ho" ref="r:bee08238-f31e-4d6d-b255-0932357459eb(R3_1_2@stubs)" />
-    <import index="4tsn" ref="r:97aeaa4f-346d-4633-b5a0-99879648272c(R3_1_3@stubs)" />
+    <import index="c1ho" ref="r:bee08238-f31e-4d6d-b255-0932357459eb(stubs_3_1_2)" />
+    <import index="4tsn" ref="r:97aeaa4f-346d-4633-b5a0-99879648272c(stubs_3_1_3)" />
   </imports>
   <registry>
     <language id="3b58810c-8431-4bbb-99ea-b4671e02dd13" name="org.campagnelab.metar.R">
