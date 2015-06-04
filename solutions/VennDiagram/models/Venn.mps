@@ -106,7 +106,7 @@
       <concept id="1127749446837285793" name="org.campagnelab.metar.functions.access.structure.FunctionCallStatement" flags="ng" index="2pLU64">
         <child id="1127749446837285794" name="call" index="2pLU67" />
       </concept>
-      <concept id="5870486266826792857" name="" flags="ng" index="10vjuL" />
+      <concept id="5870486266826792857" name="org.campagnelab.metar.functions.access.structure.ColumnInMetar" flags="ng" index="10vjuL" />
     </language>
     <language id="5d6bde84-4ce4-4eb5-a37e-25a5edd55129" name="org.campagnelab.metar.tables">
       <concept id="4451133196879828915" name="org.campagnelab.metar.tables.structure.TableRef" flags="ng" index="afgQW">
