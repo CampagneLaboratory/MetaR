@@ -2167,40 +2167,45 @@
     <property role="TrG5h" value="check_BoxPlot" />
     <property role="3GE5qa" value="boxplot" />
     <node concept="3clFbS" id="2aBeJjFTTkO" role="18ibNy">
-      <node concept="2Gpval" id="2aBeJjFTU6V" role="3cqZAp">
-        <node concept="2GrKxI" id="2aBeJjFTU6W" role="2Gsz3X">
-          <property role="TrG5h" value="e" />
-        </node>
-        <node concept="2OqwBi" id="2aBeJjFTUbD" role="2GsD0m">
-          <node concept="1YBJjd" id="2aBeJjFTU7R" role="2Oq$k0">
-            <ref role="1YBMHb" node="2aBeJjFTTkQ" resolve="boxPlot" />
-          </node>
-          <node concept="3Tsc0h" id="6efZaUiyaR6" role="2OqNvi">
-            <ref role="3TtcxE" to="jrxw:6efZaUixxI_" />
-          </node>
-        </node>
-        <node concept="3clFbS" id="2aBeJjFTU6Y" role="2LFqv$">
-          <node concept="3clFbJ" id="2aBeJjFTUXI" role="3cqZAp">
-            <node concept="3clFbS" id="2aBeJjFTUXJ" role="3clFbx">
-              <node concept="2MkqsV" id="2aBeJjFTYEa" role="3cqZAp">
-                <node concept="Xl_RD" id="2aBeJjFU3Jr" role="2MkJ7o">
-                  <property role="Xl_RC" value="Expression must evaluate to the numeric type." />
-                </node>
-                <node concept="2GrUjf" id="2aBeJjFTYEC" role="2OEOjV">
-                  <ref role="2Gs0qQ" node="2aBeJjFTU6W" resolve="e" />
-                </node>
+      <node concept="3SKdUt" id="6efZaUj6564" role="3cqZAp">
+        <node concept="3SKWN0" id="6efZaUj6565" role="3SKWNk">
+          <node concept="2Gpval" id="2aBeJjFTU6V" role="3SKWNf">
+            <node concept="2GrKxI" id="2aBeJjFTU6W" role="2Gsz3X">
+              <property role="TrG5h" value="e" />
+            </node>
+            <node concept="2OqwBi" id="2aBeJjFTUbD" role="2GsD0m">
+              <node concept="1YBJjd" id="2aBeJjFTU7R" role="2Oq$k0">
+                <ref role="1YBMHb" node="2aBeJjFTTkQ" resolve="boxPlot" />
+              </node>
+              <node concept="3Tsc0h" id="6efZaUiyaR6" role="2OqNvi">
+                <ref role="3TtcxE" to="jrxw:6efZaUixxI_" />
               </node>
             </node>
-            <node concept="3y3z36" id="6efZaUi_xTT" role="3clFbw">
-              <node concept="2OqwBi" id="2aBeJjFTWnL" role="3uHU7B">
-                <node concept="2GrUjf" id="2aBeJjFTW2B" role="2Oq$k0">
-                  <ref role="2Gs0qQ" node="2aBeJjFTU6W" resolve="e" />
+            <node concept="3clFbS" id="2aBeJjFTU6Y" role="2LFqv$">
+              <node concept="3clFbH" id="6efZaUj650E" role="3cqZAp" />
+              <node concept="3clFbJ" id="2aBeJjFTUXI" role="3cqZAp">
+                <node concept="3clFbS" id="2aBeJjFTUXJ" role="3clFbx">
+                  <node concept="2MkqsV" id="2aBeJjFTYEa" role="3cqZAp">
+                    <node concept="Xl_RD" id="2aBeJjFU3Jr" role="2MkJ7o">
+                      <property role="Xl_RC" value="Expression must evaluate to the numeric type." />
+                    </node>
+                    <node concept="2GrUjf" id="2aBeJjFTYEC" role="2OEOjV">
+                      <ref role="2Gs0qQ" node="2aBeJjFTU6W" resolve="e" />
+                    </node>
+                  </node>
                 </node>
-                <node concept="3JvlWi" id="6efZaUizqgw" role="2OqNvi" />
-              </node>
-              <node concept="2c44tf" id="6efZaUi$6vH" role="3uHU7w">
-                <node concept="aNa_n" id="6efZaUi$o8Q" role="2c44tc">
-                  <property role="TrG5h" value="Numeric" />
+                <node concept="3y3z36" id="6efZaUi_xTT" role="3clFbw">
+                  <node concept="2OqwBi" id="2aBeJjFTWnL" role="3uHU7B">
+                    <node concept="2GrUjf" id="2aBeJjFTW2B" role="2Oq$k0">
+                      <ref role="2Gs0qQ" node="2aBeJjFTU6W" resolve="e" />
+                    </node>
+                    <node concept="3JvlWi" id="6efZaUizqgw" role="2OqNvi" />
+                  </node>
+                  <node concept="2c44tf" id="6efZaUi$6vH" role="3uHU7w">
+                    <node concept="aNa_n" id="6efZaUi$o8Q" role="2c44tc">
+                      <property role="TrG5h" value="Numeric" />
+                    </node>
+                  </node>
                 </node>
               </node>
             </node>
@@ -2834,38 +2839,45 @@
     <property role="3GE5qa" value="histogram" />
     <property role="TrG5h" value="CheckNumericColumn" />
     <node concept="3clFbS" id="6efZaUiwYrf" role="18ibNy">
-      <node concept="3clFbJ" id="6efZaUiwYrG" role="3cqZAp">
-        <node concept="3clFbS" id="6efZaUiwYrH" role="3clFbx">
-          <node concept="2MkqsV" id="6efZaUiwZ5G" role="3cqZAp">
-            <node concept="Xl_RD" id="6efZaUiwZ5S" role="2MkJ7o">
-              <property role="Xl_RC" value="Expression must have type numeric" />
-            </node>
-            <node concept="2OqwBi" id="6efZaUiwZxK" role="2OEOjV">
-              <node concept="1YBJjd" id="6efZaUiwZ81" role="2Oq$k0">
-                <ref role="1YBMHb" node="6efZaUiwYrz" resolve="histogram" />
-              </node>
-              <node concept="3TrEf2" id="6efZaUix05J" role="2OqNvi">
-                <ref role="3Tt5mk" to="jrxw:6efZaUhKwKd" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3y3z36" id="6efZaUiwZ3R" role="3clFbw">
-          <node concept="2c44tf" id="6efZaUiwZ4q" role="3uHU7w">
-            <node concept="aNa_n" id="6efZaUiwZ4X" role="2c44tc">
-              <property role="TrG5h" value="Numeric" />
-            </node>
-          </node>
-          <node concept="2OqwBi" id="6efZaUiwYvo" role="3uHU7B">
-            <node concept="2OqwBi" id="6efZaUix092" role="2Oq$k0">
-              <node concept="1YBJjd" id="6efZaUiwYrS" role="2Oq$k0">
-                <ref role="1YBMHb" node="6efZaUiwYrz" resolve="histogram" />
-              </node>
-              <node concept="3TrEf2" id="6efZaUix0H7" role="2OqNvi">
-                <ref role="3Tt5mk" to="jrxw:6efZaUhKwKd" />
+      <node concept="3SKdUt" id="6efZaUj5BWc" role="3cqZAp">
+        <node concept="3SKWN0" id="6efZaUj5BWd" role="3SKWNk">
+          <node concept="3clFbJ" id="6efZaUiwYrG" role="3SKWNf">
+            <node concept="3clFbS" id="6efZaUiwYrH" role="3clFbx">
+              <node concept="3SKdUt" id="6efZaUj5BTT" role="3cqZAp">
+                <node concept="3SKWN0" id="6efZaUj5BTU" role="3SKWNk">
+                  <node concept="2MkqsV" id="6efZaUiwZ5G" role="3SKWNf">
+                    <node concept="Xl_RD" id="6efZaUiwZ5S" role="2MkJ7o">
+                      <property role="Xl_RC" value="Expression must have type numeric" />
+                    </node>
+                    <node concept="2OqwBi" id="6efZaUiwZxK" role="2OEOjV">
+                      <node concept="1YBJjd" id="6efZaUiwZ81" role="2Oq$k0">
+                        <ref role="1YBMHb" node="6efZaUiwYrz" resolve="histogram" />
+                      </node>
+                      <node concept="3TrEf2" id="6efZaUix05J" role="2OqNvi">
+                        <ref role="3Tt5mk" to="jrxw:6efZaUhKwKd" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
               </node>
             </node>
-            <node concept="3JvlWi" id="6efZaUiwYLg" role="2OqNvi" />
+            <node concept="3y3z36" id="6efZaUiwZ3R" role="3clFbw">
+              <node concept="2c44tf" id="6efZaUiwZ4q" role="3uHU7w">
+                <node concept="aNa_n" id="6efZaUiwZ4X" role="2c44tc">
+                  <property role="TrG5h" value="Numeric" />
+                </node>
+              </node>
+              <node concept="1Z2H0r" id="6efZaUj5BNt" role="3uHU7B">
+                <node concept="2OqwBi" id="6efZaUix092" role="1Z2MuG">
+                  <node concept="1YBJjd" id="6efZaUiwYrS" role="2Oq$k0">
+                    <ref role="1YBMHb" node="6efZaUiwYrz" resolve="histogram" />
+                  </node>
+                  <node concept="3TrEf2" id="6efZaUix0H7" role="2OqNvi">
+                    <ref role="3Tt5mk" to="jrxw:6efZaUhKwKd" />
+                  </node>
+                </node>
+              </node>
+            </node>
           </node>
         </node>
       </node>
@@ -2873,6 +2885,55 @@
     <node concept="1YaCAy" id="6efZaUiwYrz" role="1YuTPh">
       <property role="TrG5h" value="histogram" />
       <ref role="1YaFvo" to="jrxw:4kl5yjs09SI" resolve="Histogram" />
+    </node>
+  </node>
+  <node concept="1YbPZF" id="6efZaUj651V">
+    <property role="3GE5qa" value="boxplot" />
+    <property role="TrG5h" value="typeof_BoxPlot" />
+    <node concept="3clFbS" id="6efZaUj651W" role="18ibNy">
+      <node concept="3clFbF" id="6efZaUj7APc" role="3cqZAp">
+        <node concept="2OqwBi" id="6efZaUj7Bqh" role="3clFbG">
+          <node concept="2OqwBi" id="6efZaUj89q9" role="2Oq$k0">
+            <node concept="1YBJjd" id="6efZaUj89l9" role="2Oq$k0">
+              <ref role="1YBMHb" node="6efZaUj652b" resolve="boxPlot" />
+            </node>
+            <node concept="3Tsc0h" id="6efZaUj89Yq" role="2OqNvi">
+              <ref role="3TtcxE" to="jrxw:6efZaUixxI_" />
+            </node>
+          </node>
+          <node concept="2es0OD" id="6efZaUj7F3N" role="2OqNvi">
+            <node concept="1bVj0M" id="6efZaUj7F3P" role="23t8la">
+              <node concept="3clFbS" id="6efZaUj7F3Q" role="1bW5cS">
+                <node concept="2NvLDW" id="6efZaUj651Z" role="3cqZAp">
+                  <property role="3wDh2S" value="true" />
+                  <node concept="mw_s8" id="6efZaUj6520" role="1ZfhK$">
+                    <node concept="1Z2H0r" id="6efZaUj6521" role="mwGJk">
+                      <node concept="37vLTw" id="6efZaUj7FgN" role="1Z2MuG">
+                        <ref role="3cqZAo" node="6efZaUj7F3R" resolve="it" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="mw_s8" id="6efZaUj6523" role="1ZfhKB">
+                    <node concept="2c44tf" id="6efZaUj6524" role="mwGJk">
+                      <node concept="aNa_n" id="6efZaUj6525" role="2c44tc">
+                        <property role="TrG5h" value="Numeric" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="Rh6nW" id="6efZaUj7F3R" role="1bW2Oz">
+                <property role="TrG5h" value="it" />
+                <node concept="2jxLKc" id="6efZaUj7F3S" role="1tU5fm" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="6efZaUj652b" role="1YuTPh">
+      <property role="TrG5h" value="boxPlot" />
+      <ref role="1YaFvo" to="jrxw:5gXsBBL6BFc" resolve="BoxPlot" />
     </node>
   </node>
 </model>
