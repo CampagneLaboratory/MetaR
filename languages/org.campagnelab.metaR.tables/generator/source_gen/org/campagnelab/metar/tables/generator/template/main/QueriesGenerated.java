@@ -791,13 +791,6 @@ public class QueriesGenerated {
   public static Object propertyMacro_GetPropertyValue_6070133740820404926(final PropertyMacroContext _context) {
     return SPropertyOperations.getString(_context.getNode(), MetaAdapterFactory.getProperty(0x5d6bde844ce44eb5L, 0xa37e25a5edd55129L, 0x7c5f892f445924a8L, 0x7c5f892f445924a9L, "id"));
   }
-  public static Object propertyMacro_GetPropertyValue_229475681291068172(final PropertyMacroContext _context) {
-    return NameHelper.RName(SPropertyOperations.getString(ColumnRef_Behavior.call_getTable_229475681291125658(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x5d6bde844ce44eb5L, 0xa37e25a5edd55129L, 0x45151624dc009e2eL, 0x45151624dcabcc6fL, "ColumnRef"))), MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name")));
-  }
-  public static Object propertyMacro_GetPropertyValue_6070133740820413506(final PropertyMacroContext _context) {
-    return ColumnRef_Behavior.call_getColumnName_229475681292662876(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x5d6bde844ce44eb5L, 0xa37e25a5edd55129L, 0x45151624dc009e2eL, 0x45151624dcabcc6fL, "ColumnRef")));
-
-  }
   public static Object propertyMacro_GetPropertyValue_2312637992615388348(final PropertyMacroContext _context) {
     String[] colors = Histogram_Behavior.call_listColors_5397636476180790100(_context.getNode());
     if (colors.length > 0) {
@@ -849,22 +842,6 @@ public class QueriesGenerated {
   }
   public static Object propertyMacro_GetPropertyValue_6070133740826980103(final PropertyMacroContext _context) {
     return SPropertyOperations.getString(_context.getNode(), MetaAdapterFactory.getProperty(0x5d6bde844ce44eb5L, 0xa37e25a5edd55129L, 0x7c5f892f445924a8L, 0x7c5f892f445924a9L, "id"));
-  }
-  public static Object propertyMacro_GetPropertyValue_6070133740826980119(final PropertyMacroContext _context) {
-    StringBuilder builder = new StringBuilder();
-    for (SNode ref : ListSequence.fromList(SLinkOperations.getChildren(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x5d6bde844ce44eb5L, 0xa37e25a5edd55129L, 0x543d7279f11a7accL, 0x543d7279f11a839bL, "ColumnRefs")))) {
-      builder.append("c(").append(NameHelper.RName(SPropertyOperations.getString(SNodeOperations.getNodeAncestor(SLinkOperations.getTarget(ref, MetaAdapterFactory.getReferenceLink(0x5d6bde844ce44eb5L, 0xa37e25a5edd55129L, 0x2f3745fadd83b499L, 0x2f3745fadd83b49aL, "col")), MetaAdapterFactory.getConcept(0x5d6bde844ce44eb5L, 0xa37e25a5edd55129L, 0x2f3745fadd522533L, "org.campagnelab.metar.tables.structure.Table"), false, false), MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name")))).append("$").append(ColumnRef_Behavior.call_getCleanColumnName_2807244893512039175(ref)).append("),");
-    }
-    String out = builder.toString();
-    return out.substring(0, out.length() - 1);
-  }
-  public static Object propertyMacro_GetPropertyValue_2312637992596216066(final PropertyMacroContext _context) {
-    StringBuilder builder = new StringBuilder();
-    for (SNode ref : ListSequence.fromList(SLinkOperations.getChildren(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x5d6bde844ce44eb5L, 0xa37e25a5edd55129L, 0x543d7279f11a7accL, 0x543d7279f11a839bL, "ColumnRefs")))) {
-      builder.append("\"").append(ColumnRef_Behavior.call_getCleanColumnName_2807244893512039175(ref)).append("\",");
-    }
-    String out = builder.toString();
-    return out.substring(0, out.length() - 1);
   }
   public static Object propertyMacro_GetPropertyValue_2312637992612587889(final PropertyMacroContext _context) {
     String[] colors = BoxPlot_Behavior.call_listColors_27429407130825041(_context.getNode());
@@ -1120,6 +1097,9 @@ public class QueriesGenerated {
   public static boolean ifMacro_Condition_8420290744923980894(final IfMacroContext _context) {
     return SPropertyOperations.getBoolean(_context.getNode(), MetaAdapterFactory.getProperty(0x5d6bde844ce44eb5L, 0xa37e25a5edd55129L, 0x7c5f892f445924a4L, 0x74dae1d1e498f049L, "useCheckpoint"));
   }
+  public static boolean ifMacro_Condition_7174230558145593036(final IfMacroContext _context) {
+    return SNodeOperations.getIndexInParent(_context.getNode()) != ListSequence.fromList(SLinkOperations.getChildren(SNodeOperations.getNodeAncestor(_context.getNode(), MetaAdapterFactory.getConcept(0x5d6bde844ce44eb5L, 0xa37e25a5edd55129L, 0x543d7279f11a7accL, "org.campagnelab.metar.tables.structure.BoxPlot"), false, false), MetaAdapterFactory.getContainmentLink(0x5d6bde844ce44eb5L, 0xa37e25a5edd55129L, 0x543d7279f11a7accL, 0x638ffcae92861ba5L, "expressions"))).count() - 1;
+  }
   public static SNode sourceNodeQuery_2826789978062877903(final SourceSubstituteMacroNodeContext _context) {
     return SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x5d6bde844ce44eb5L, 0xa37e25a5edd55129L, 0x461d7210878f1e4cL, 0x461d7210878f1e4dL, "expression"));
   }
@@ -1134,6 +1114,9 @@ public class QueriesGenerated {
   }
   public static SNode sourceNodeQuery_2807244893508634567(final SourceSubstituteMacroNodeContext _context) {
     return SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x5d6bde844ce44eb5L, 0xa37e25a5edd55129L, 0x26f5565b72ec2718L, 0x26f5565b72f60a9dL, "formula"));
+  }
+  public static SNode sourceNodeQuery_7174230558136101960(final SourceSubstituteMacroNodeContext _context) {
+    return SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x5d6bde844ce44eb5L, 0xa37e25a5edd55129L, 0x45151624dc009e2eL, 0x638ffcae91c20c0dL, "expression"));
   }
   public static SNode sourceNodeQuery_8058827937367559065(final SourceSubstituteMacroNodeContext _context) {
     return SLinkOperations.getTarget(SNodeOperations.cast(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x5d6bde844ce44eb5L, 0xa37e25a5edd55129L, 0x740e7fed5746997L, 0x740e7fed5746b37L, "rowFilter")), MetaAdapterFactory.getConcept(0x5d6bde844ce44eb5L, 0xa37e25a5edd55129L, 0x6c03c168da3d8078L, "org.campagnelab.metar.tables.structure.FilterWithExpression")), MetaAdapterFactory.getContainmentLink(0x5d6bde844ce44eb5L, 0xa37e25a5edd55129L, 0x6c03c168da3d8078L, 0x273ac682111263b1L, "filter"));
@@ -1257,6 +1240,9 @@ public class QueriesGenerated {
   }
   public static Iterable<SNode> sourceNodesQuery_3687343996977966817(final SourceSubstituteMacroNodesContext _context) {
     return ListSequence.fromList(Multiplot_Behavior.call_getPlotsInRowOrder_4842667988068961113(_context.getNode())).subListSequence(0, SPropertyOperations.getInteger(_context.getNode(), MetaAdapterFactory.getProperty(0x5d6bde844ce44eb5L, 0xa37e25a5edd55129L, 0x2b177f9aea1ab49bL, 0x2b177f9aea1ac950L, "numColumns")) * SPropertyOperations.getInteger(_context.getNode(), MetaAdapterFactory.getProperty(0x5d6bde844ce44eb5L, 0xa37e25a5edd55129L, 0x2b177f9aea1ab49bL, 0x2b177f9aea1ac94eL, "numRows")));
+  }
+  public static Iterable<SNode> sourceNodesQuery_7174230558145071000(final SourceSubstituteMacroNodesContext _context) {
+    return SLinkOperations.getChildren(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x5d6bde844ce44eb5L, 0xa37e25a5edd55129L, 0x543d7279f11a7accL, 0x638ffcae92861ba5L, "expressions"));
   }
   public static Iterable<SNode> sourceNodesQuery_4067230457182238075(final SourceSubstituteMacroNodesContext _context) {
     return SNodeOperations.ofConcept(SLinkOperations.getChildren(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x5d6bde844ce44eb5L, 0xa37e25a5edd55129L, 0x271050d630209e3fL, 0x271050d630209f21L, "commentedStatement")), MetaAdapterFactory.getConcept(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0x57d533a7af15ed3dL, "jetbrains.mps.baseLanguage.structure.TextCommentPart"));
