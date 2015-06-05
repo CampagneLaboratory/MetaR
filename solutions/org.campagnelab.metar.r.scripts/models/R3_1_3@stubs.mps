@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:97aeaa4f-346d-4633-b5a0-99879648272c(stubs_3_1_3)">
+<model ref="r:97aeaa4f-346d-4633-b5a0-99879648272c(R3_1_3@stubs)" doNotGenerate="true">
   <persistence version="9" />
   <languages>
     <use id="3b58810c-8431-4bbb-99ea-b4671e02dd13" name="org.campagnelab.metar.R" version="-1" />
