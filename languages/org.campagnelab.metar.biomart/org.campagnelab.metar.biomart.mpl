@@ -36,7 +36,6 @@
         <dependency reexport="false">901f5cf3-dc77-4c1e-bc5a-6382baee28b4(org.campagnelab.textoutput)</dependency>
         <dependency reexport="false" scope="design">f8960ca5-9f20-4fc0-b9f7-20a20893f26d(org.campagnelab.metar.tables#3402264987258972825)</dependency>
         <dependency reexport="false" scope="design">60b98457-2b49-4643-8291-f13cfce80eaa(org.campagnelab.metar.inspect#1549006859295776220)</dependency>
-        <dependency reexport="false">f306dc96-26f1-4fde-859b-43645dd57254(org.campagnelab.metar.R#7627187573640569363)</dependency>
         <dependency reexport="false">3b58810c-8431-4bbb-99ea-b4671e02dd13(org.campagnelab.metar.R)</dependency>
       </dependencies>
       <usedLanguages>
@@ -89,12 +88,6 @@
                   <all-local-mappings />
                 </external-mapping>
               </mapping-set-element>
-              <mapping-set-element>
-                <generator generatorUID="f306dc96-26f1-4fde-859b-43645dd57254(org.campagnelab.metar.R#7627187573640569363)" />
-                <external-mapping>
-                  <all-local-mappings />
-                </external-mapping>
-              </mapping-set-element>
             </mapping-set>
           </lesser-priority-mapping>
         </mapping-priority-rule>
@@ -113,7 +106,6 @@
     <dependency reexport="false">f2801650-65d5-424e-bb1b-463a8781b786(jetbrains.mps.baseLanguage.javadoc)</dependency>
     <dependency reexport="false">2d3c70e9-aab2-4870-8d8d-6036800e4103(jetbrains.mps.kernel)</dependency>
     <dependency reexport="false">e39e4a59-8cb6-498e-860e-8fa8361c0d90(jetbrains.mps.baseLanguage.scopes)</dependency>
-    <dependency reexport="false">3b58810c-8431-4bbb-99ea-b4671e02dd13(org.campagnelab.metar.R)</dependency>
   </dependencies>
   <usedLanguages>
     <usedLanguage>f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)</usedLanguage>
