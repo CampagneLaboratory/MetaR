@@ -2081,9 +2081,9 @@
     <property role="TrG5h" value="MetarExpression" />
   </node>
   <node concept="1TIwiD" id="pr6WGx0DLx">
-    <property role="TrG5h" value="OrderTable" />
-    <property role="34LRSv" value="order table " />
-    <property role="3GE5qa" value="orderTable" />
+    <property role="TrG5h" value="ReorderTable" />
+    <property role="34LRSv" value="reorder columns " />
+    <property role="3GE5qa" value="reorderTable" />
     <ref role="1TJDcQ" node="7LvyiX4miiC" resolve="Statement" />
     <node concept="1TJgyj" id="pr6WGx0E6R" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -2112,14 +2112,14 @@
   </node>
   <node concept="1TIwiD" id="pr6WGx0Ejz">
     <property role="TrG5h" value="OrderBy" />
-    <property role="34LRSv" value="order?" />
-    <property role="3GE5qa" value="orderTable" />
+    <property role="34LRSv" value="by?" />
+    <property role="3GE5qa" value="reorderTable" />
     <property role="R5$K7" value="true" />
     <property role="R5$K2" value="false" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
   </node>
   <node concept="1TIwiD" id="3MLv1Ikst5K">
-    <property role="3GE5qa" value="orderTable" />
+    <property role="3GE5qa" value="reorderTable" />
     <property role="TrG5h" value="OrderByGroups" />
     <property role="34LRSv" value="groups" />
     <ref role="1TJDcQ" node="pr6WGx0Ejz" resolve="OrderBy" />
@@ -2134,7 +2134,7 @@
     </node>
   </node>
   <node concept="1TIwiD" id="3MLv1IkOE3z">
-    <property role="3GE5qa" value="orderTable" />
+    <property role="3GE5qa" value="reorderTable" />
     <property role="TrG5h" value="TableGroup" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="3MLv1Ilo8n7" role="1TKVEi">
@@ -2151,7 +2151,7 @@
     </node>
   </node>
   <node concept="1TIwiD" id="3MLv1ItYIYn">
-    <property role="3GE5qa" value="orderTable" />
+    <property role="3GE5qa" value="reorderTable" />
     <property role="TrG5h" value="OrderByColumn" />
     <property role="34LRSv" value="columns" />
     <ref role="1TJDcQ" node="pr6WGx0Ejz" resolve="OrderBy" />
@@ -2163,7 +2163,7 @@
     </node>
   </node>
   <node concept="1TIwiD" id="3MLv1ItYJkm">
-    <property role="3GE5qa" value="orderTable" />
+    <property role="3GE5qa" value="reorderTable" />
     <property role="TrG5h" value="TableColumn" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="3MLv1ItYJkq" role="1TKVEi">
