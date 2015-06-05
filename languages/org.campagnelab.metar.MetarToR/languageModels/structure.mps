@@ -45,65 +45,43 @@
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="biomartref" />
       <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="6mn2T7SysnR" resolve="BiomartRef" />
+      <ref role="20lvS9" to="c07g:3k98b1qdWzt" resolve="Biomart" />
     </node>
-    <node concept="1TJgyj" id="2vPLSZqt6YQ" role="1TKVEi">
+    <node concept="1TJgyj" id="1e1bwEAMknE" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="identifier" />
       <property role="20lbJX" value="1" />
+      <property role="20kJfa" value="identifier" />
       <ref role="20lvS9" to="6q58:5mPDeVwiPaR" resolve="Identifier" />
     </node>
     <node concept="PrWs8" id="55b$yEu0S3O" role="PzmwI">
       <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
     </node>
   </node>
-  <node concept="1TIwiD" id="55b$yEtywNG">
-    <property role="TrG5h" value="getMetaRTable" />
-    <property role="34LRSv" value="get table" />
-    <ref role="1TJDcQ" to="6q58:5mPDeVwiPaR" resolve="Identifier" />
-    <node concept="PrWs8" id="55b$yEtDEdh" role="PzmwI">
-      <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
-    </node>
-    <node concept="1TJgyj" id="pr6WGwY6sI" role="1TKVEi">
+  <node concept="1TIwiD" id="1e1bwEAoGG1">
+    <property role="TrG5h" value="FilterWithIdsFromIdentifierinR" />
+    <property role="34LRSv" value="from a R identifier" />
+    <ref role="1TJDcQ" to="c07g:pr6WGEr6yC" resolve="FilterWithIds" />
+    <node concept="1TJgyj" id="1jge5x_A4_z" role="1TKVEi">
       <property role="20lmBu" value="reference" />
-      <property role="20kJfa" value="table" />
-      <property role="20lbJX" value="1" />
-      <ref role="20lvS9" to="jrxw:2WRhvFtkykN" resolve="Table" />
+      <property role="20kJfa" value="id" />
+      <property role="20lbJX" value="0..1" />
+      <ref role="20lvS9" to="6q58:5mPDeVwiPaR" resolve="Identifier" />
     </node>
   </node>
-  <node concept="1TIwiD" id="55b$yEu0YHT">
-    <property role="TrG5h" value="SetOfIdsinR" />
-    <property role="34LRSv" value="set of IDs" />
+  <node concept="1TIwiD" id="1e1bwEALdL4">
+    <property role="TrG5h" value="ExposedTable" />
     <ref role="1TJDcQ" to="6q58:5mPDeVwiPap" resolve="Expr" />
-    <node concept="1TJgyj" id="55b$yEu0Zh3" role="1TKVEi">
+    <node concept="1TJgyj" id="1e1bwEALe0$" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="setOfIds" />
+      <property role="20kJfa" value="tableRef" />
       <property role="20lbJX" value="1" />
-      <ref role="20lvS9" to="jrxw:3BiNpr5FGHV" resolve="SetOfIds" />
+      <ref role="20lvS9" to="jrxw:3R5AwWRY9uN" resolve="TableRef" />
     </node>
-  </node>
-  <node concept="1TIwiD" id="55b$yEuNtjT">
-    <property role="TrG5h" value="refIds" />
-    <property role="34LRSv" value="refids" />
-    <ref role="1TJDcQ" to="6q58:5mPDeVwiPap" resolve="Expr" />
-    <node concept="1TJgyj" id="55b$yEuNtkl" role="1TKVEi">
+    <node concept="1TJgyj" id="1e1bwEALvqZ" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="child" />
+      <property role="20kJfa" value="id" />
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" to="6q58:1jge5x__XE8" resolve="IdentifierRef" />
-    </node>
-  </node>
-  <node concept="1TIwiD" id="6mn2T7SysnR">
-    <property role="TrG5h" value="BiomartRef" />
-    <ref role="1TJDcQ" to="jrxw:7LvyiX4miiC" resolve="Statement" />
-    <node concept="1TJgyj" id="6mn2T7SysB7" role="1TKVEi">
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="biomart" />
-      <property role="20lbJX" value="1" />
-      <ref role="20lvS9" to="c07g:3k98b1qdWzt" resolve="Biomart" />
-    </node>
-    <node concept="PrWs8" id="6mn2T7SBY$h" role="PzmwI">
-      <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
     </node>
   </node>
 </model>
