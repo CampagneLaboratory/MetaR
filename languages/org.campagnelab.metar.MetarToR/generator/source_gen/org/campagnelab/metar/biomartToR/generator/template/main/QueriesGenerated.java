@@ -5,30 +5,18 @@ package org.campagnelab.metar.biomartToR.generator.template.main;
 import jetbrains.mps.generator.runtime.Generated;
 import jetbrains.mps.generator.template.PropertyMacroContext;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
-import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
-import jetbrains.mps.internal.collections.runtime.IterableUtils;
-import jetbrains.mps.internal.collections.runtime.ListSequence;
-import jetbrains.mps.internal.collections.runtime.ISelector;
+import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import org.jetbrains.mps.openapi.model.SNode;
-import org.campagnelab.metar.tables.behavior.ID_Behavior;
 import jetbrains.mps.generator.template.SourceSubstituteMacroNodeContext;
 
 @Generated
 public class QueriesGenerated {
   public final boolean NEEDS_OPCONTEXT = false;
-  public static Object propertyMacro_GetPropertyValue_5857936452059168108(final PropertyMacroContext _context) {
-    return SPropertyOperations.getString(_context.getNode(), MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name")) + "<-" + SPropertyOperations.getString(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getReferenceLink(0x40d3459003345bbL, 0xb8234cfd22657c15L, 0x514b922a9d8a0cecL, 0x65b1bcb20f8672eL, "table")), MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name")) + ";";
-  }
-  public static Object propertyMacro_GetPropertyValue_5857936452063750606(final PropertyMacroContext _context) {
-    return SPropertyOperations.getString(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x40d3459003345bbL, 0xb8234cfd22657c15L, 0x514b922a9e03eb79L, 0x514b922a9e03f443L, "setOfIds")), MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name")) + "<-c(" + IterableUtils.join(ListSequence.fromList(SLinkOperations.getChildren(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x40d3459003345bbL, 0xb8234cfd22657c15L, 0x514b922a9e03eb79L, 0x514b922a9e03f443L, "setOfIds")), MetaAdapterFactory.getContainmentLink(0x5d6bde844ce44eb5L, 0xa37e25a5edd55129L, 0x39d2cd96c5aecb7bL, 0x39d2cd96c5aef550L, "ids"))).select(new ISelector<SNode, String>() {
-      public String select(SNode it) {
-        return ID_Behavior.call_getID_369044998858264049(it);
-      }
-    }), ",") + ");\n";
-
+  public static Object propertyMacro_GetPropertyValue_5857936452075413218(final PropertyMacroContext _context) {
+    return SPropertyOperations.getString(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getReferenceLink(0x40d3459003345bbL, 0xb8234cfd22657c15L, 0x13812e0aa662cb01L, 0x14d0385865984963L, "id")), MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name"));
   }
   public static SNode sourceNodeQuery_5857936452053285155(final SourceSubstituteMacroNodeContext _context) {
-    return SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x40d3459003345bbL, 0xb8234cfd22657c15L, 0x514b922a9d01d7a5L, 0x514b922a9d0288e9L, "biomartref")), MetaAdapterFactory.getContainmentLink(0x40d3459003345bbL, 0xb8234cfd22657c15L, 0x65970b91f889c5f7L, 0x65970b91f889c9c7L, "biomart"));
+    return SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x40d3459003345bbL, 0xb8234cfd22657c15L, 0x514b922a9d01d7a5L, 0x514b922a9d0288e9L, "biomartref"));
   }
 }

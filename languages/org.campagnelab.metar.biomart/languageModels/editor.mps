@@ -11,7 +11,6 @@
     <import index="v8sa" ref="r:db1b133e-9a0f-4319-b384-413408eb1729(org.campagnelab.metar.tables.behavior)" implicit="true" />
     <import index="jrxw" ref="r:9f2bbfbf-f8b7-4b3b-92b1-b6a0e9642c10(org.campagnelab.metar.tables.structure)" implicit="true" />
     <import index="c07g" ref="r:1ddbf3ba-cbe7-4cb8-b2fc-7a1e80a63d10(org.campagnelab.metar.biomart.structure)" implicit="true" />
-    <import index="g4x5" ref="r:aaf90db9-c063-474d-ae34-b6cf5ac1b1d2(org.campagnelab.metar.R.editor)" implicit="true" />
   </imports>
   <registry>
     <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">
@@ -173,9 +172,6 @@
       </concept>
       <concept id="1179409122411" name="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" flags="nn" index="2qgKlT" />
       <concept id="1171407110247" name="jetbrains.mps.lang.smodel.structure.Node_GetAncestorOperation" flags="nn" index="2Xjw5R" />
-      <concept id="3562215692195599741" name="jetbrains.mps.lang.smodel.structure.SLinkImplicitSelect" flags="nn" index="13MTOL">
-        <reference id="3562215692195600259" name="link" index="13MTZf" />
-      </concept>
       <concept id="1171999116870" name="jetbrains.mps.lang.smodel.structure.Node_IsNullOperation" flags="nn" index="3w_OXm" />
       <concept id="1172008320231" name="jetbrains.mps.lang.smodel.structure.Node_IsNotNullOperation" flags="nn" index="3x8VRR" />
       <concept id="1144101972840" name="jetbrains.mps.lang.smodel.structure.OperationParm_Concept" flags="ng" index="1xMEDy">
@@ -528,42 +524,6 @@
           <property role="3F0ifm" value="" />
         </node>
       </node>
-      <node concept="1QoScp" id="1UH1ei4X782" role="3EZMnx">
-        <property role="1QpmdY" value="true" />
-        <node concept="3EZMnI" id="1UH1ei4XcyY" role="1QoS34">
-          <node concept="3F0ifn" id="1UH1ei4Xcz0" role="3EZMnx">
-            <property role="3F0ifm" value="filters type" />
-          </node>
-          <node concept="3F2HdR" id="1UH1ei4XcDw" role="3EZMnx">
-            <ref role="1NtTu8" to="c07g:1JNk8OtCx8S" />
-            <node concept="2iRfu4" id="1UH1ei4XcDy" role="2czzBx" />
-          </node>
-          <node concept="2iRfu4" id="1UH1ei4Xcz1" role="2iSdaV" />
-        </node>
-        <node concept="pkWqt" id="1UH1ei4X785" role="3e4ffs">
-          <node concept="3clFbS" id="1UH1ei4X787" role="2VODD2">
-            <node concept="3clFbF" id="1UH1ei4X7kE" role="3cqZAp">
-              <node concept="2OqwBi" id="1UH1ei4XbNF" role="3clFbG">
-                <node concept="2OqwBi" id="1UH1ei4X8Dm" role="2Oq$k0">
-                  <node concept="2OqwBi" id="1UH1ei4X7qi" role="2Oq$k0">
-                    <node concept="pncrf" id="1UH1ei4X7kD" role="2Oq$k0" />
-                    <node concept="3Tsc0h" id="1UH1ei4X7IZ" role="2OqNvi">
-                      <ref role="3TtcxE" to="c07g:1JNk8OtCx8S" />
-                    </node>
-                  </node>
-                  <node concept="13MTOL" id="1UH1ei4Xa8W" role="2OqNvi">
-                    <ref role="13MTZf" to="c07g:1JNk8OtCx6s" />
-                  </node>
-                </node>
-                <node concept="3GX2aA" id="1UH1ei4XcjD" role="2OqNvi" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3F0ifn" id="1UH1ei4XcUJ" role="1QoVPY">
-          <property role="3F0ifm" value="" />
-        </node>
-      </node>
       <node concept="3F0ifn" id="1UH1ei4XcpX" role="3EZMnx" />
       <node concept="2iRkQZ" id="z5VH9dH2Q9" role="2iSdaV" />
     </node>
@@ -770,7 +730,7 @@
         <property role="3F0ifm" value="a set of ids" />
         <node concept="OXEIz" id="4bkMdJnA9zU" role="P5bDN">
           <node concept="UkePV" id="4bkMdJnA9zW" role="OY2wv">
-            <ref role="Ul1FP" to="c07g:1UH1ei4815y" resolve="FilterWithidsFromTable" />
+            <ref role="Ul1FP" to="c07g:1UH1ei4815y" resolve="FilterWithIdsFromTable" />
           </node>
         </node>
         <node concept="Vb9p2" id="7B_tLLzMYB2" role="3F10Kt" />
@@ -793,14 +753,14 @@
       </node>
       <node concept="OXEIz" id="4bkMdJnA9zQ" role="P5bDN">
         <node concept="UkePV" id="4bkMdJnA9zS" role="OY2wv">
-          <ref role="Ul1FP" to="c07g:1UH1ei4815y" resolve="FilterWithidsFromTable" />
+          <ref role="Ul1FP" to="c07g:1UH1ei4815y" resolve="FilterWithIdsFromTable" />
         </node>
       </node>
     </node>
   </node>
   <node concept="24kQdi" id="1UH1ei482_B">
     <property role="3GE5qa" value="filters" />
-    <ref role="1XX52x" to="c07g:1UH1ei4815y" resolve="FilterWithidsFromTable" />
+    <ref role="1XX52x" to="c07g:1UH1ei4815y" resolve="FilterWithIdsFromTable" />
     <node concept="3EZMnI" id="1UH1ei482Y3" role="2wV5jI">
       <node concept="3F0ifn" id="4bkMdJnBYBj" role="3EZMnx">
         <property role="3F0ifm" value="from" />
@@ -1075,7 +1035,7 @@
     <ref role="1XX52x" to="c07g:4bkMdJoBmbG" resolve="ColumnCustomType" />
     <node concept="3EZMnI" id="4bkMdJoBmc8" role="2wV5jI">
       <node concept="3F0A7n" id="4bkMdJoBmcf" role="3EZMnx">
-        <ref role="1NtTu8" to="c07g:4bkMdJoBmbH" resolve="ColumnType" />
+        <ref role="1NtTu8" to="c07g:4bkMdJoBmbH" resolve="columnType" />
         <node concept="Vb9p2" id="7B_tLLzClPd" role="3F10Kt">
           <property role="Vbekb" value="ITALIC" />
         </node>
@@ -1087,7 +1047,7 @@
     <property role="3GE5qa" value="ColumnType" />
     <ref role="1XX52x" to="c07g:4bkMdJoLViK" resolve="ColumnCustomTypeString" />
     <node concept="3F0A7n" id="4bkMdJoLYFH" role="2wV5jI">
-      <ref role="1NtTu8" to="c07g:4bkMdJoBmbH" resolve="ColumnType" />
+      <ref role="1NtTu8" to="c07g:4bkMdJoBmbH" resolve="columnType" />
       <node concept="Vb9p2" id="7B_tLLzEv7i" role="3F10Kt">
         <property role="Vbekb" value="ITALIC" />
       </node>
@@ -1097,7 +1057,7 @@
     <property role="3GE5qa" value="ColumnType" />
     <ref role="1XX52x" to="c07g:4bkMdJoLZtT" resolve="ColumnCustomTypeNumeric" />
     <node concept="3F0A7n" id="4bkMdJoLZuj" role="2wV5jI">
-      <ref role="1NtTu8" to="c07g:4bkMdJoBmbH" resolve="ColumnType" />
+      <ref role="1NtTu8" to="c07g:4bkMdJoBmbH" resolve="columnType" />
       <node concept="Vb9p2" id="7B_tLLzEv6s" role="3F10Kt">
         <property role="Vbekb" value="ITALIC" />
       </node>
@@ -1107,7 +1067,7 @@
     <property role="3GE5qa" value="ColumnType" />
     <ref role="1XX52x" to="c07g:4bkMdJoM0D$" resolve="ColumnCustomTypeBoolean" />
     <node concept="3F0A7n" id="4bkMdJoM0DY" role="2wV5jI">
-      <ref role="1NtTu8" to="c07g:4bkMdJoBmbH" resolve="ColumnType" />
+      <ref role="1NtTu8" to="c07g:4bkMdJoBmbH" resolve="columnType" />
       <node concept="Vb9p2" id="7B_tLLzEv4O" role="3F10Kt">
         <property role="Vbekb" value="ITALIC" />
       </node>
@@ -1178,35 +1138,6 @@
         </node>
       </node>
       <node concept="2iRfu4" id="6ULs$iIssuT" role="2iSdaV" />
-    </node>
-  </node>
-  <node concept="24kQdi" id="55b$yEuJ8f_">
-    <property role="3GE5qa" value="filters" />
-    <ref role="1XX52x" to="c07g:55b$yEuJ07Y" resolve="FilterWithIdsFromIdentifier" />
-    <node concept="3EZMnI" id="55b$yEuJ8mn" role="2wV5jI">
-      <node concept="2iRfu4" id="55b$yEuJ8mo" role="2iSdaV" />
-      <node concept="3F0ifn" id="55b$yEuJ8mp" role="3EZMnx">
-        <property role="3F0ifm" value="from" />
-        <node concept="Vb9p2" id="55b$yEuJ8mq" role="3F10Kt" />
-      </node>
-      <node concept="3F0ifn" id="55b$yEuJ8mr" role="3EZMnx">
-        <property role="3F0ifm" value="an R" />
-        <node concept="OXEIz" id="55b$yEuJ8ms" role="P5bDN">
-          <node concept="UkePV" id="55b$yEuJ8mt" role="OY2wv">
-            <ref role="Ul1FP" to="c07g:1UH1ei4815y" resolve="FilterWithidsFromTable" />
-          </node>
-        </node>
-        <node concept="Vb9p2" id="55b$yEuJ8mu" role="3F10Kt" />
-      </node>
-      <node concept="3F1sOY" id="55b$yEuL596" role="3EZMnx">
-        <ref role="1NtTu8" to="c07g:55b$yEuJ8a0" />
-        <ref role="1k5W1q" to="g4x5:48xyd$eBO3j" resolve="Identifier" />
-      </node>
-      <node concept="OXEIz" id="55b$yEuJ8m$" role="P5bDN">
-        <node concept="UkePV" id="55b$yEuJ8m_" role="OY2wv">
-          <ref role="Ul1FP" to="c07g:1UH1ei4815y" resolve="FilterWithidsFromTable" />
-        </node>
-      </node>
     </node>
   </node>
 </model>
