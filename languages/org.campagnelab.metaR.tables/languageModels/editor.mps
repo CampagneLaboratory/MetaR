@@ -5000,21 +5000,25 @@
     </node>
   </node>
   <node concept="24kQdi" id="pr6WGx0QFn">
-    <property role="3GE5qa" value="orderTable" />
-    <ref role="1XX52x" to="jrxw:pr6WGx0DLx" resolve="OrderTable" />
+    <property role="3GE5qa" value="reorderTable" />
+    <ref role="1XX52x" to="jrxw:pr6WGx0DLx" resolve="ReorderTable" />
     <node concept="3EZMnI" id="pr6WGx0QFp" role="2wV5jI">
       <node concept="3F0ifn" id="pr6WGx0QFw" role="3EZMnx">
-        <property role="3F0ifm" value="order table" />
+        <property role="3F0ifm" value="reorder columns " />
+      </node>
+      <node concept="3F0ifn" id="1e1bwEASeo4" role="3EZMnx">
+        <property role="3F0ifm" value="in table " />
+        <node concept="Vb9p2" id="1e1bwEASgZo" role="3F10Kt" />
       </node>
       <node concept="3F1sOY" id="pr6WGx0QFA" role="3EZMnx">
         <ref role="1NtTu8" to="jrxw:pr6WGx0E6R" />
       </node>
       <node concept="2iRfu4" id="pr6WGx0QFs" role="2iSdaV" />
       <node concept="3F0ifn" id="pr6WGx0QFI" role="3EZMnx">
-        <property role="3F0ifm" value="by" />
         <node concept="Vb9p2" id="pr6WGx0QI2" role="3F10Kt" />
       </node>
       <node concept="3F1sOY" id="3MLv1IkCMxY" role="3EZMnx">
+        <property role="1$x2rV" value="by" />
         <ref role="1NtTu8" to="jrxw:pr6WGx0QEW" />
       </node>
       <node concept="3F0ifn" id="pr6WGx0QG4" role="3EZMnx">
@@ -5027,7 +5031,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="3MLv1Ikstlh">
-    <property role="3GE5qa" value="orderTable" />
+    <property role="3GE5qa" value="reorderTable" />
     <ref role="1XX52x" to="jrxw:3MLv1Ikst5K" resolve="OrderByGroups" />
     <node concept="3EZMnI" id="3MLv1IqNRCN" role="2wV5jI">
       <node concept="3F0ifn" id="3MLv1IqNRDi" role="3EZMnx">
@@ -5055,7 +5059,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="3MLv1IkOE42">
-    <property role="3GE5qa" value="orderTable" />
+    <property role="3GE5qa" value="reorderTable" />
     <ref role="1XX52x" to="jrxw:3MLv1IkOE3z" resolve="TableGroup" />
     <node concept="3EZMnI" id="3MLv1IlcrwM" role="2wV5jI">
       <node concept="3EZMnI" id="3MLv1IqjV3q" role="3EZMnx">
@@ -5334,7 +5338,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="3MLv1ItZzyL">
-    <property role="3GE5qa" value="orderTable" />
+    <property role="3GE5qa" value="reorderTable" />
     <ref role="1XX52x" to="jrxw:3MLv1ItYIYn" resolve="OrderByColumn" />
     <node concept="3EZMnI" id="3MLv1ItZ$At" role="2wV5jI">
       <node concept="3F0ifn" id="3MLv1ItZ$Au" role="3EZMnx">
@@ -5362,7 +5366,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="3MLv1ItZ$Bc">
-    <property role="3GE5qa" value="orderTable" />
+    <property role="3GE5qa" value="reorderTable" />
     <ref role="1XX52x" to="jrxw:3MLv1ItYJkm" resolve="TableColumn" />
     <node concept="3EZMnI" id="3MLv1ItZ$Xp" role="2wV5jI">
       <node concept="3EZMnI" id="3MLv1ItZ$Xq" role="3EZMnx">

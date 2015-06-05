@@ -674,10 +674,10 @@
     </node>
   </node>
   <node concept="37WguZ" id="3MLv1IjR89b">
-    <property role="3GE5qa" value="orderTable" />
+    <property role="3GE5qa" value="reorderTable" />
     <property role="TrG5h" value="SetOrderTable" />
     <node concept="37WvkG" id="3MLv1IjR89c" role="37WGs$">
-      <ref role="37XkoT" to="jrxw:pr6WGx0DLx" resolve="OrderTable" />
+      <ref role="37XkoT" to="jrxw:pr6WGx0DLx" resolve="ReorderTable" />
       <node concept="37Y9Zx" id="3MLv1IjR89d" role="37ZfLb">
         <node concept="3clFbS" id="3MLv1IjR89e" role="2VODD2">
           <node concept="3cpWs8" id="3MLv1IjR8aa" role="3cqZAp">
@@ -714,7 +714,7 @@
     </node>
   </node>
   <node concept="37WguZ" id="3MLv1Il_7XA">
-    <property role="3GE5qa" value="orderTable" />
+    <property role="3GE5qa" value="reorderTable" />
     <property role="TrG5h" value="CreateColumnGroup" />
     <node concept="37WvkG" id="3MLv1Il_7XB" role="37WGs$">
       <ref role="37XkoT" to="jrxw:3MLv1Ikst5K" resolve="OrderByGroups" />
