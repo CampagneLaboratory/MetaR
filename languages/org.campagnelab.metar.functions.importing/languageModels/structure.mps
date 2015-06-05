@@ -102,7 +102,7 @@
   <node concept="1TIwiD" id="213CARpfsHj">
     <property role="TrG5h" value="Stubs" />
     <property role="19KtqR" value="true" />
-    <property role="MwhBj" value="${module}/icons/package.png" />
+    <property role="MwhBj" value="${module}/icons/stubs-5.png" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="213CARpgv5V" role="1TKVEl">
       <property role="TrG5h" value="isBioconductor" />
