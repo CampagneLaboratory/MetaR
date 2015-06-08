@@ -24,6 +24,14 @@
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
+      <concept id="1068580320020" name="jetbrains.mps.baseLanguage.structure.IntegerConstant" flags="nn" index="3cmrfG">
+        <property id="1068580320021" name="value" index="3cmrfH" />
+      </concept>
+      <concept id="1081506762703" name="jetbrains.mps.baseLanguage.structure.GreaterThanExpression" flags="nn" index="3eOSWO" />
+      <concept id="1081773326031" name="jetbrains.mps.baseLanguage.structure.BinaryOperation" flags="nn" index="3uHJSO">
+        <child id="1081773367579" name="rightExpression" index="3uHU7w" />
+        <child id="1081773367580" name="leftExpression" index="3uHU7B" />
+      </concept>
       <concept id="6329021646629104957" name="jetbrains.mps.baseLanguage.structure.TextCommentPart" flags="nn" index="3SKdUq">
         <property id="6329021646629104958" name="text" index="3SKdUp" />
       </concept>
@@ -119,9 +127,6 @@
       <concept id="5052319772298911308" name="org.campagnelab.metar.tables.structure.ExpressionWrapper" flags="ng" index="31$ALs">
         <child id="5052319772298911309" name="expression" index="31$ALt" />
       </concept>
-      <concept id="8081253674570416584" name="org.campagnelab.metar.tables.structure.ColumnValue" flags="ng" index="3$Gm2I">
-        <reference id="8081253674570416585" name="column" index="3$Gm2J" />
-      </concept>
       <concept id="8081253674584199902" name="org.campagnelab.metar.tables.structure.OperationColumnRef" flags="ng" index="3_jNeS">
         <reference id="8081253674598527902" name="col" index="3AppbS" />
       </concept>
@@ -192,10 +197,10 @@
       </node>
       <node concept="3MjoWR" id="3XyNzZWhxBo" role="ZXjPg">
         <property role="S1EQ6" value="EDPRODQMRY" />
-        <ref role="3Mj2Vh" node="1eFjY4Y_5Kr" resolve="CovariateForSimulateDataset_OSEHLJIRKN" />
-        <node concept="3MlLWZ" id="3XyNzZWirUV" role="3MjoVY">
-          <property role="TrG5h" value="CovariateForSimulateDataset_OSEHLJIRKN" />
-          <ref role="3MlLW5" node="1eFjY4Y_5Kr" resolve="CovariateForSimulateDataset_OSEHLJIRKN" />
+        <ref role="3Mj2Vh" node="3ZVaDtO3e_x" resolve="Z-ages.tsv" />
+        <node concept="3MlLWZ" id="3ZVaDtO3e_U" role="3MjoVY">
+          <property role="TrG5h" value="Z-ages.tsv" />
+          <ref role="3MlLW5" node="3ZVaDtO3e_x" resolve="Z-ages.tsv" />
         </node>
       </node>
       <node concept="S1EQe" id="3W3L4MKBK9o" role="ZXjPg">
@@ -4399,79 +4404,44 @@
           <node concept="3Mpm39" id="55Sa2wh1gp1" role="3WeD9t">
             <property role="31Cu5t" value="&#9;" />
             <property role="TrG5h" value="subset" />
-            <node concept="31JHg8" id="55Sa2wh1gEm" role="31JHgj">
+            <node concept="31JHg8" id="3ZVaDtO3kpl" role="31JHgj">
               <property role="TrG5h" value="SampleName" />
               <ref role="1YeEjl" to="9nc5:1ID5TXdv_9L" resolve="String" />
-              <node concept="3MzsTm" id="55Sa2wh1gEp" role="lGtFl">
-                <node concept="3MzsBX" id="55Sa2wh1gEq" role="3MztjM">
-                  <ref role="3MzsBM" node="1eFjY4Y_5Kv" resolve="sample-key" />
-                </node>
-              </node>
             </node>
-            <node concept="31JHg8" id="55Sa2wh1gEr" role="31JHgj">
-              <property role="TrG5h" value="age" />
+            <node concept="31JHg8" id="3ZVaDtO3kpm" role="31JHgj">
+              <property role="TrG5h" value="Age" />
               <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
             </node>
           </node>
         </node>
-        <node concept="afgQW" id="55Sa2wh1gEj" role="aecac">
-          <ref role="afgo8" node="1eFjY4Y_5Kr" resolve="CovariateForSimulateDataset_OSEHLJIRKN" />
+        <node concept="afgQW" id="3ZVaDtO3j03" role="aecac">
+          <ref role="afgo8" node="3ZVaDtO3e_x" resolve="Z-ages.tsv" />
         </node>
         <node concept="2Qf$4g" id="55Sa2wh1gE$" role="3Wum5r">
           <node concept="31$ALs" id="55Sa2wh1gEA" role="QaakN">
-            <node concept="2obFJT" id="55Sa2wh1gHe" role="31$ALt">
-              <ref role="2obFw0" to="4tsn:5lRZ7X4U3WG" resolve="log" />
-              <node concept="2PZJp2" id="55Sa2wh1gHx" role="2obFJS">
-                <node concept="gNbv0" id="55Sa2wh1gHy" role="134Gdu">
-                  <node concept="V6WaX" id="55Sa2wh2MwG" role="gNbrm">
-                    <property role="gNbhX" value="x" />
-                    <ref role="eUkdk" to="4tsn:5lRZ7X4U3WJ" />
-                    <node concept="10vjuL" id="55Sa2wh2MwK" role="gNbhV">
-                      <ref role="10vjuM" node="1eFjY4Y_5Kt" resolve="SampleName" />
+            <node concept="3eOSWO" id="3ZVaDtO7zY1" role="31$ALt">
+              <node concept="3cmrfG" id="3ZVaDtO7zZ0" role="3uHU7w">
+                <property role="3cmrfH" value="2" />
+              </node>
+              <node concept="2obFJT" id="55Sa2wh1gHe" role="3uHU7B">
+                <ref role="2obFw0" to="4tsn:5lRZ7X4U3WG" resolve="log" />
+                <node concept="2PZJp2" id="55Sa2wh1gHx" role="2obFJS">
+                  <node concept="gNbv0" id="55Sa2wh1gHy" role="134Gdu">
+                    <node concept="V6WaX" id="55Sa2wh2MwG" role="gNbrm">
+                      <property role="gNbhX" value="x" />
+                      <ref role="eUkdk" to="4tsn:5lRZ7X4U3WJ" />
+                      <node concept="10vjuL" id="3ZVaDtO3kjp" role="gNbhV">
+                        <ref role="10vjuM" node="3ZVaDtO3e_F" resolve="Age" />
+                      </node>
                     </node>
                   </node>
-                </node>
-                <node concept="3a69Ir" id="55Sa2wh1gHw" role="134Gdo">
-                  <property role="TrG5h" value="log" />
-                  <ref role="1Li74V" to="4tsn:5lRZ7X4U3WG" resolve="log" />
-                  <ref role="3a69Pm" to="4tsn:5lRZ7X4U3WH" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-      <node concept="3WuldX" id="3XyNzZW1CX9" role="ZXjPg">
-        <property role="S1EQ6" value="SGOVCVRUPT" />
-        <property role="8NYsT" value="false" />
-        <node concept="3MlLWZ" id="3XyNzZW1CXb" role="3W64wA">
-          <property role="TrG5h" value="subset" />
-          <ref role="3MlLW5" node="3XyNzZW1CXc" resolve="subset" />
-          <node concept="3Mpm39" id="3XyNzZW1CXc" role="3WeD9t">
-            <property role="31Cu5t" value="&#9;" />
-            <property role="TrG5h" value="subset" />
-            <node concept="31JHg8" id="3W3L4MJWj6T" role="31JHgj">
-              <property role="TrG5h" value="SampleName" />
-              <ref role="1YeEjl" to="9nc5:1ID5TXdv_9L" resolve="String" />
-              <node concept="3MzsTm" id="3W3L4MJWj6W" role="lGtFl">
-                <node concept="3MzsBX" id="3W3L4MJWj6X" role="3MztjM">
-                  <ref role="3MzsBM" node="1eFjY4Y_5Kv" resolve="sample-key" />
+                  <node concept="3a69Ir" id="55Sa2wh1gHw" role="134Gdo">
+                    <property role="TrG5h" value="log" />
+                    <ref role="3a69Pm" to="4tsn:5lRZ7X4U3WH" />
+                    <ref role="1Li74V" to="4tsn:5lRZ7X4U3WG" resolve="log" />
+                  </node>
                 </node>
               </node>
-            </node>
-            <node concept="31JHg8" id="3W3L4MJWj6Y" role="31JHgj">
-              <property role="TrG5h" value="age" />
-              <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
-            </node>
-          </node>
-        </node>
-        <node concept="afgQW" id="3XyNzZWCLfb" role="aecac">
-          <ref role="afgo8" node="1eFjY4Y_5Kr" resolve="CovariateForSimulateDataset_OSEHLJIRKN" />
-        </node>
-        <node concept="2Qf$4g" id="3W3L4MJTbJN" role="3Wum5r">
-          <node concept="31$ALs" id="3W3L4MJTbJP" role="QaakN">
-            <node concept="3$Gm2I" id="3W3L4MJTbJY" role="31$ALt">
-              <ref role="3$Gm2J" node="1eFjY4Y_5Kt" resolve="SampleName" />
             </node>
           </node>
         </node>
@@ -4485,23 +4455,23 @@
           <node concept="3Mpm39" id="3XyNzZWmCpr" role="3WeD9t">
             <property role="31Cu5t" value="&#9;" />
             <property role="TrG5h" value="transformedTable" />
-            <node concept="31JHg8" id="3W3L4MJWj78" role="31JHgj">
+            <node concept="31JHg8" id="3ZVaDtO3kpc" role="31JHgj">
               <property role="TrG5h" value="Age" />
               <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
             </node>
           </node>
         </node>
-        <node concept="3MqhDd" id="3XyNzZWmCpJ" role="2j$aDC">
-          <ref role="3Mqssv" node="3XyNzZWirUV" resolve="CovariateForSimulateDataset_OSEHLJIRKN" />
+        <node concept="3MqhDd" id="3ZVaDtO3iNj" role="2j$aDC">
+          <ref role="3Mqssv" node="3ZVaDtO3e_U" resolve="Z-ages.tsv" />
         </node>
         <node concept="2jA85X" id="3XyNzZWCLfR" role="2jA6G9">
           <node concept="3_jNeS" id="3XyNzZWCLgh" role="2jA85Y">
-            <ref role="3AppbS" node="1eFjY4Y_5Kt" resolve="SampleName" />
+            <ref role="3AppbS" node="3ZVaDtO3e_E" resolve="SampleName" />
           </node>
         </node>
         <node concept="nlhGo" id="3XyNzZWRfxM" role="2jA6G9">
           <property role="nlvPC" value="Age" />
-          <ref role="nlvPz" node="1eFjY4Y_5KT" resolve="age" />
+          <ref role="nlvPz" node="3ZVaDtO3e_F" resolve="Age" />
         </node>
       </node>
       <node concept="S1EQe" id="3XyNzZWmCp3" role="ZXjPg">
@@ -4516,37 +4486,46 @@
           <node concept="3Mpm39" id="3XyNzZWIJCT" role="3WeD9t">
             <property role="31Cu5t" value="&#9;" />
             <property role="TrG5h" value="transformedTable" />
-            <node concept="31JHg8" id="3W3L4MKZOWp" role="31JHgj">
+            <node concept="31JHg8" id="3ZVaDtO3kqc" role="31JHgj">
               <property role="TrG5h" value="sampleId" />
               <ref role="1YeEjl" to="9nc5:1ID5TXdv_9L" resolve="String" />
-              <node concept="3MzsTm" id="3W3L4MKZOWs" role="lGtFl">
-                <node concept="3MzsBX" id="3W3L4MKZOWt" role="3MztjM">
-                  <ref role="3MzsBM" node="1eFjY4Y_5Kv" resolve="sample-key" />
-                </node>
-              </node>
             </node>
-            <node concept="31JHg8" id="3W3L4MKZOWu" role="31JHgj">
-              <property role="TrG5h" value="age" />
+            <node concept="31JHg8" id="3ZVaDtO3kqd" role="31JHgj">
+              <property role="TrG5h" value="Age" />
               <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
             </node>
-            <node concept="31JHg8" id="3W3L4MKZOWv" role="31JHgj">
+            <node concept="31JHg8" id="3ZVaDtO3kqe" role="31JHgj">
               <property role="TrG5h" value="NewName" />
-              <ref role="1YeEjl" to="9nc5:1ID5TXdv_9L" resolve="String" />
             </node>
           </node>
         </node>
-        <node concept="3MqhDd" id="3XyNzZXabiS" role="2j$aDC">
-          <ref role="3Mqssv" node="3XyNzZWirUV" resolve="CovariateForSimulateDataset_OSEHLJIRKN" />
+        <node concept="3MqhDd" id="3ZVaDtO3iNA" role="2j$aDC">
+          <ref role="3Mqssv" node="3ZVaDtO3e_U" resolve="Z-ages.tsv" />
         </node>
         <node concept="nlhGo" id="3XyNzZWRfwq" role="2jA6G9">
           <property role="nlvPC" value="sampleId" />
-          <ref role="nlvPz" node="1eFjY4Y_5Kt" resolve="SampleName" />
+          <ref role="nlvPz" node="3ZVaDtO3e_E" resolve="SampleName" />
         </node>
         <node concept="2fCKaS" id="3W3L4MKZOBC" role="2jA6G9">
           <property role="2fCJgh" value="NewName" />
-          <node concept="31$ALs" id="3W3L4MKZOM4" role="2fCJgj">
-            <node concept="3$Gm2I" id="3W3L4MKZOWj" role="31$ALt">
-              <ref role="3$Gm2J" node="1eFjY4Y_5Kt" resolve="SampleName" />
+          <node concept="31$ALs" id="55Sa2wh6r6J" role="2fCJgj">
+            <node concept="2obFJT" id="55Sa2wh6r$_" role="31$ALt">
+              <ref role="2obFw0" to="4tsn:5lRZ7X4U3WG" resolve="log" />
+              <node concept="2PZJp2" id="55Sa2wh6r$S" role="2obFJS">
+                <node concept="gNbv0" id="55Sa2wh6r$T" role="134Gdu">
+                  <node concept="V6WaX" id="55Sa2wh6r_d" role="gNbrm">
+                    <property role="gNbhX" value="x" />
+                    <node concept="10vjuL" id="55Sa2wh6r_i" role="gNbhV">
+                      <ref role="10vjuM" node="3ZVaDtO3e_F" resolve="Age" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="3a69Ir" id="55Sa2wh6r$R" role="134Gdo">
+                  <property role="TrG5h" value="log" />
+                  <ref role="1Li74V" to="4tsn:5lRZ7X4U3WG" resolve="log" />
+                  <ref role="3a69Pm" to="4tsn:5lRZ7X4U3WH" />
+                </node>
+              </node>
             </node>
           </node>
         </node>
@@ -4557,7 +4536,7 @@
     <property role="31Cu5t" value="&#9;" />
     <property role="31JHgl" value="unused" />
     <property role="TrG5h" value="CovariateForSimulateDataset_OSEHLJIRKN" />
-    <property role="26T8KA" value="${org.campagnelab.metaR.results_dir}/table_CovariateForSimulateDataset_OSEHLJIRKN_OSEHLJIRKN.tsv" />
+    <property role="26T8KA" value="${org.campagnelab.metaR.home}/data/Z-ages.tsv" />
     <node concept="31JHg8" id="1eFjY4Y_5Kt" role="31JHgj">
       <property role="TrG5h" value="SampleName" />
       <ref role="1YeEjl" to="9nc5:1ID5TXdv_9L" resolve="String" />
@@ -4566,10 +4545,6 @@
           <ref role="3MzsBM" node="1eFjY4Y_5Kv" resolve="sample-key" />
         </node>
       </node>
-    </node>
-    <node concept="31JHg8" id="1eFjY4Y_5KT" role="31JHgj">
-      <property role="TrG5h" value="age" />
-      <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
     </node>
   </node>
   <node concept="3MzsBU" id="1eFjY4Y_5Ku">
@@ -4614,6 +4589,20 @@
     </node>
     <node concept="3MzsS1" id="1eFjY4Y_5Ln" role="3MzsBV">
       <property role="TrG5h" value="counts" />
+    </node>
+  </node>
+  <node concept="3Mpm39" id="3ZVaDtO3e_x">
+    <property role="31Cu5t" value="&#9;" />
+    <property role="31JHgl" value="/Users/fac2003/MPSProjects/git/metar/data/Z-ages.tsv" />
+    <property role="TrG5h" value="Z-ages.tsv" />
+    <property role="26T8KA" value="${org.campagnelab.metaR.home}/data/Z-ages.tsv" />
+    <node concept="31JHg8" id="3ZVaDtO3e_E" role="31JHgj">
+      <property role="TrG5h" value="SampleName" />
+      <ref role="1YeEjl" to="9nc5:1ID5TXdv_9L" resolve="String" />
+    </node>
+    <node concept="31JHg8" id="3ZVaDtO3e_F" role="31JHgj">
+      <property role="TrG5h" value="Age" />
+      <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
     </node>
   </node>
 </model>
