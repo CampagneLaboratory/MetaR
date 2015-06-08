@@ -6,7 +6,9 @@
       <sourceRoot location="languageAccessories" />
     </modelRoot>
   </models>
-  <accessoryModels />
+  <accessoryModels>
+    <model modelUID="r:97aeaa4f-346d-4633-b5a0-99879648272c(R3_1_3@stubs)" />
+  </accessoryModels>
   <generators>
     <generator name="" generatorUID="org.campagnelab.metar.tables#3402264987258972825" uuid="f8960ca5-9f20-4fc0-b9f7-20a20893f26d">
       <models>
@@ -106,6 +108,8 @@
     <dependency reexport="false">258bd2f6-0d02-411d-86b2-5a5ea083e6d2(jetbrains.mps.lang.editor.table.runtime)</dependency>
     <dependency reexport="false">5ec1cd3d-0a50-4049-a8fa-ae768d7baa25(org.campagnelab.mps.XChart)</dependency>
     <dependency reexport="false">8865b7a8-5271-43d3-884c-6fd1d9cfdd34(MPS.OpenAPI)</dependency>
+    <dependency reexport="true">9c4c21db-948a-44c6-8d32-16dd401e98b0(org.campagnelab.metar.r.stubs)</dependency>
+    <dependency reexport="true">c1747c67-8f42-4d83-9542-4a948aec17d9(org.campagnelab.metar.functions.importing)</dependency>
   </dependencies>
   <usedLanguages>
     <usedLanguage>ed6d7656-532c-4bc2-81d1-af945aeb8280(jetbrains.mps.baseLanguage.blTypes)</usedLanguage>
@@ -194,6 +198,9 @@
     <language id="901f5cf3-dc77-4c1e-bc5a-6382baee28b4" fqName="org.campagnelab.textoutput" version="0" />
     <language id="c1ba4037-e4db-47d8-8b61-b3c805b648f2" fqName="org.campagnelab.ui" version="0" />
   </languageVersions>
+  <runtime>
+    <dependency reexport="false">9c4c21db-948a-44c6-8d32-16dd401e98b0(org.campagnelab.metar.r.stubs)</dependency>
+  </runtime>
   <extendedLanguages>
     <extendedLanguage>32f503e8-061b-451e-bcb0-fef56aa05eb9(org.campagnelab.metar.inspect)</extendedLanguage>
     <extendedLanguage>5ec1cd3d-0a50-4049-a8fa-ae768d7baa25(org.campagnelab.mps.XChart)</extendedLanguage>
