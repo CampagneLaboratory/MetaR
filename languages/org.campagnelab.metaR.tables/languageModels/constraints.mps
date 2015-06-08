@@ -1320,6 +1320,7 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbH" id="55Sa2wh2aK0" role="3cqZAp" />
         <node concept="3cpWs8" id="UDsYdBnwC" role="3cqZAp">
           <node concept="3cpWsn" id="UDsYdBnwD" role="3cpWs9">
             <property role="TrG5h" value="moduleRef" />
@@ -1397,7 +1398,7 @@
                   <ref role="37wK5l" to="e2lb:~Object.equals(java.lang.Object):boolean" resolve="equals" />
                   <node concept="2OqwBi" id="UDsYdBpC7" role="37wK5m">
                     <node concept="3rNLEe" id="UDsYdBpC8" role="2Oq$k0">
-                      <property role="3rM5sR" value="f9e0c373-bcbc-4c08-8ca0-edb1ef9679b6" />
+                      <property role="3rM5sR" value="64c90466-09b2-41ab-89f8-5085b3b9eca7" />
                     </node>
                     <node concept="liA8E" id="UDsYdBpC9" role="2OqNvi">
                       <ref role="37wK5l" to="vsqj:~AbstractModule.getModuleReference():org.jetbrains.mps.openapi.module.SModuleReference" resolve="getModuleReference" />

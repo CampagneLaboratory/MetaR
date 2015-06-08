@@ -9,32 +9,9 @@
   <imports>
     <import index="vyt2" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/f:java_stub#6ed54515-acc8-4d1e-a16c-9fd6cfe951ea#jetbrains.mps.scope(MPS.Core/jetbrains.mps.scope@java_stub)" />
     <import index="o8zo" ref="r:314576fc-3aee-4386-a0a5-a38348ac317d(jetbrains.mps.scope)" />
-    <import index="ztlb" ref="r:989540b8-cc89-4ed5-ba78-cf2ce766b8ce(org.campagnelab.mps.XChart.structure)" implicit="true" />
-    <import index="ynm9" ref="r:170c5426-aa23-4b67-b82f-a784a631b4d4(org.campagnelab.metar.columninR.structure)" implicit="true" />
+    <import index="89bg" ref="r:de53da33-34f1-4c7e-a0ab-034975f75528(org.campagnelab.metar.functions.access.structure)" />
+    <import index="ztlb" ref="r:989540b8-cc89-4ed5-ba78-cf2ce766b8ce(org.campagnelab.mps.XChart.structure)" />
   </imports>
-  <registry>
-    <language id="3f4bc5f5-c6c1-4a28-8b10-c83066ffa4a1" name="jetbrains.mps.lang.constraints">
-      <concept id="8401916545537438642" name="jetbrains.mps.lang.constraints.structure.InheritedNodeScopeFactory" flags="ng" index="1dDu$B">
-        <reference id="8401916545537438643" name="kind" index="1dDu$A" />
-      </concept>
-      <concept id="1213093968558" name="jetbrains.mps.lang.constraints.structure.ConceptConstraints" flags="ng" index="1M2fIO">
-        <reference id="1213093996982" name="concept" index="1M2myG" />
-        <child id="1213100494875" name="referent" index="1Mr941" />
-      </concept>
-      <concept id="1148687176410" name="jetbrains.mps.lang.constraints.structure.NodeReferentConstraint" flags="ng" index="1N5Pfh">
-        <reference id="1148687202698" name="applicableLink" index="1N5Vy1" />
-        <child id="1148687345559" name="searchScopeFactory" index="1N6uqs" />
-      </concept>
-    </language>
-  </registry>
-  <node concept="1M2fIO" id="1e1bwEC8DV3">
-    <ref role="1M2myG" to="ynm9:1e1bwEC8DTU" resolve="ColumnInMetar" />
-    <node concept="1N5Pfh" id="1e1bwEC8DZZ" role="1Mr941">
-      <ref role="1N5Vy1" to="ynm9:1e1bwEC8DTV" />
-      <node concept="1dDu$B" id="1e1bwECUbsG" role="1N6uqs">
-        <ref role="1dDu$A" to="ztlb:1UijAvvb9DJ" resolve="Column" />
-      </node>
-    </node>
-  </node>
+  <registry />
 </model>
 
