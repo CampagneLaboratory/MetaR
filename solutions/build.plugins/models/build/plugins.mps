@@ -648,6 +648,28 @@
           <ref role="3LEDTN" node="3rWIEp7J33K" resolve="org.campagnelab.metar.R.plugin" />
         </node>
       </node>
+      <node concept="3LEwk6" id="64xNxfkjVoN" role="2G$12L">
+        <property role="BnDLt" value="true" />
+        <property role="TrG5h" value="org.campagnelab.R" />
+        <property role="3LESm3" value="47de4161-d879-4a78-a0cb-f46f9f770c1c" />
+        <node concept="55IIr" id="64xNxfkjVoQ" role="3LF7KH">
+          <node concept="2Ry0Ak" id="64xNxfkjW0u" role="iGT6I">
+            <property role="2Ry0Am" value="devkits" />
+            <node concept="2Ry0Ak" id="64xNxfkjW6D" role="2Ry0An">
+              <property role="2Ry0Am" value="R" />
+              <node concept="2Ry0Ak" id="64xNxfkjW6K" role="2Ry0An">
+                <property role="2Ry0Am" value="org.campagnelab.R.devkit" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3LEDTy" id="64xNxfkjW6N" role="3LEDUa">
+          <ref role="3LEDTV" node="3rWIEp7J2dX" resolve="org.campagnelab.metar.functions.access" />
+        </node>
+        <node concept="3LEDTy" id="64xNxfkjW6O" role="3LEDUa">
+          <ref role="3LEDTV" node="3rWIEp7Ilky" resolve="org.campagnelab.metar.functions.importing" />
+        </node>
+      </node>
       <node concept="1E1JtD" id="7Mz7YANVaRX" role="2G$12L">
         <property role="BnDLt" value="true" />
         <property role="TrG5h" value="org.campagnelab.styles" />
