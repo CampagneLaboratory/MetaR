@@ -109,7 +109,6 @@
     <dependency reexport="false">5ec1cd3d-0a50-4049-a8fa-ae768d7baa25(org.campagnelab.mps.XChart)</dependency>
     <dependency reexport="false">8865b7a8-5271-43d3-884c-6fd1d9cfdd34(MPS.OpenAPI)</dependency>
     <dependency reexport="true">9c4c21db-948a-44c6-8d32-16dd401e98b0(org.campagnelab.metar.r.stubs)</dependency>
-    <dependency reexport="true">c1747c67-8f42-4d83-9542-4a948aec17d9(org.campagnelab.metar.functions.importing)</dependency>
   </dependencies>
   <usedLanguages>
     <usedLanguage>ed6d7656-532c-4bc2-81d1-af945aeb8280(jetbrains.mps.baseLanguage.blTypes)</usedLanguage>

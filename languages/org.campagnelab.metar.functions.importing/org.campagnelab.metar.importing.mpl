@@ -77,7 +77,6 @@
     <dependency reexport="false">c901f7a1-ed4f-4b52-8d35-10d1a33974f0(org.campagnelab.metar.code)</dependency>
     <dependency reexport="false">6f7a993a-c389-4f3d-a9c6-9dda8979ca77(org.campagnelab.metar.r.parsers)</dependency>
     <dependency reexport="false">3b58810c-8431-4bbb-99ea-b4671e02dd13(org.campagnelab.metar.R)</dependency>
-    <dependency reexport="false">c1747c67-8f42-4d83-9542-4a948aec17d9(org.campagnelab.metar.functions.importing)</dependency>
     <dependency reexport="false">2d3c70e9-aab2-4870-8d8d-6036800e4103(jetbrains.mps.kernel)</dependency>
     <dependency reexport="false">5d6bde84-4ce4-4eb5-a37e-25a5edd55129(org.campagnelab.metar.tables)</dependency>
   </dependencies>

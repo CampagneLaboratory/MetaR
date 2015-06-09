@@ -1186,7 +1186,7 @@
   
   <target name="makeDependents" />
   
-  <target name="java.compile.java.modules.cycle.1" depends="java.compile.org.campagnelab.styles, java.compile.org.campagnelab.editor.images, java.compile.org.campagnelab.metar.R, java.compile.org.campagnelab.metar.r.parsers, fetchDependencies">
+  <target name="java.compile.java.modules.cycle.1" depends="java.compile.org.campagnelab.styles, java.compile.org.campagnelab.editor.images, fetchDependencies">
     <mkdir dir="${build.tmp}/java.modules.cycle.1" />
     <javac destdir="${build.tmp}/java.modules.cycle.1" fork="true" nowarn="true" includeantruntime="false">
       <compilerarg value="-Xlint:none" />
@@ -1197,7 +1197,6 @@
         <path location="${basedir}/languages/org.campagnelab.metar.edgeR/source_gen" />
         <path location="${basedir}/languages/org.campagnelab.metaR.inspect/source_gen" />
         <path location="${basedir}/languages/org.campagnelab.metar.limma/source_gen" />
-        <path location="${basedir}/languages/org.campagnelab.metar.functions.importing/source_gen" />
       </src>
       <classpath>
         <fileset file="${artifacts.mps}/lib/mps-closures.jar" />
@@ -1260,13 +1259,8 @@
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.smodel.jar" />
         <fileset file="${build.tmp}/deps/org.campagnelab.mps.UI/org.campagnelab.UI-_dl__lbrace_ui_version_rbrace_.zip/UI/languages/org.campagnelab.ui.code.jar" />
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.generator.jar" />
-        <fileset file="${basedir}/languages/org.campagnelab.metar.R/R.parsers-1.0-SNAPSHOT-complete.jar" />
-        <fileset file="${build.tmp}/deps/ANTLR/ANTLR__dl__lbrace_ANTLR_version_rbrace_.zip/ANTRL/lib/grammarsv4.jar" />
-        <fileset file="${build.tmp}/deps/ANTLR/ANTLR__dl__lbrace_ANTLR_version_rbrace_.zip/ANTRL/languages/org.campagnelab.ANTLR.jar" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.styles" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.editor.images" />
-        <pathelement path="${build.tmp}/java/out/org.campagnelab.metar.R" />
-        <pathelement path="${build.tmp}/java/out/org.campagnelab.metar.r.parsers" />
       </classpath>
     </javac>
   </target>
@@ -1593,7 +1587,7 @@
     </copy>
   </target>
   
-  <target name="java.compile.org.campagnelab.metar.tables#3402264987258972825" depends="java.compile.org.campagnelab.metar.code, java.compile.org.campagnelab.metar.functions.importing, java.compile.org.campagnelab.metar.inspect, java.compile.org.campagnelab.metar.tables, java.compile.org.campagnelab.styles, fetchDependencies">
+  <target name="java.compile.org.campagnelab.metar.tables#3402264987258972825" depends="java.compile.org.campagnelab.metar.code, java.compile.org.campagnelab.metar.inspect, java.compile.org.campagnelab.metar.tables, java.compile.org.campagnelab.styles, fetchDependencies">
     <mkdir dir="${basedir}/languages/org.campagnelab.metaR.tables/generator/source_gen" />
     <mkdir dir="${build.tmp}/java/out/org.campagnelab.metar.tables#3402264987258972825" />
     <javac destdir="${build.tmp}/java/out/org.campagnelab.metar.tables#3402264987258972825" fork="true" includeantruntime="false" source="1.6" target="1.6">
@@ -1612,7 +1606,6 @@
         <fileset file="${artifacts.mps}/lib/mps-editor.jar" />
         <fileset file="${artifacts.mps}/lib/mps-platform.jar" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.metar.code" />
-        <pathelement path="${build.tmp}/java/out/org.campagnelab.metar.functions.importing" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.metar.inspect" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.metar.tables" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.styles" />
@@ -1696,7 +1689,7 @@
     </copy>
   </target>
   
-  <target name="java.compile.org.campagnelab.metar.edgeR#8725455673819557209" depends="java.compile.org.campagnelab.metar.code, java.compile.org.campagnelab.metar.edgeR, java.compile.org.campagnelab.metar.functions.importing, java.compile.org.campagnelab.metar.inspect, java.compile.org.campagnelab.metar.models, java.compile.org.campagnelab.metar.tables, java.compile.org.campagnelab.styles, fetchDependencies">
+  <target name="java.compile.org.campagnelab.metar.edgeR#8725455673819557209" depends="java.compile.org.campagnelab.metar.code, java.compile.org.campagnelab.metar.edgeR, java.compile.org.campagnelab.metar.inspect, java.compile.org.campagnelab.metar.models, java.compile.org.campagnelab.metar.tables, java.compile.org.campagnelab.styles, fetchDependencies">
     <mkdir dir="${basedir}/languages/org.campagnelab.metar.edgeR/generator/source_gen" />
     <mkdir dir="${build.tmp}/java/out/org.campagnelab.metar.edgeR#8725455673819557209" />
     <javac destdir="${build.tmp}/java/out/org.campagnelab.metar.edgeR#8725455673819557209" fork="true" includeantruntime="false" source="1.6" target="1.6">
@@ -1716,7 +1709,6 @@
         <fileset file="${artifacts.mps}/lib/mps-platform.jar" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.metar.code" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.metar.edgeR" />
-        <pathelement path="${build.tmp}/java/out/org.campagnelab.metar.functions.importing" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.metar.inspect" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.metar.models" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.metar.tables" />
@@ -1845,7 +1837,7 @@
     </copy>
   </target>
   
-  <target name="java.compile.org.campagnelab.runR" depends="java.compile.org.campagnelab.metar.functions.importing, java.compile.org.campagnelab.metar.inspect, java.compile.org.campagnelab.metar.tables, java.compile.org.campagnelab.styles, fetchDependencies">
+  <target name="java.compile.org.campagnelab.runR" depends="java.compile.org.campagnelab.metar.inspect, java.compile.org.campagnelab.metar.tables, java.compile.org.campagnelab.styles, fetchDependencies">
     <mkdir dir="${basedir}/solutions/org.campagnelab.runR/source_gen" />
     <mkdir dir="${build.tmp}/java/out/org.campagnelab.runR" />
     <javac destdir="${build.tmp}/java/out/org.campagnelab.runR" fork="true" includeantruntime="false" source="1.6" target="1.6">
@@ -1863,7 +1855,6 @@
         <fileset file="${artifacts.mps}/lib/mps-editor-runtime.jar" />
         <fileset file="${artifacts.mps}/lib/mps-editor.jar" />
         <fileset file="${artifacts.mps}/lib/mps-platform.jar" />
-        <pathelement path="${build.tmp}/java/out/org.campagnelab.metar.functions.importing" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.metar.inspect" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.metar.tables" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.styles" />
@@ -2191,7 +2182,7 @@
     </copy>
   </target>
   
-  <target name="java.compile.org.campagnelab.metar.limma#5124039371745995804" depends="java.compile.org.campagnelab.metar.code, java.compile.org.campagnelab.metar.edgeR, java.compile.org.campagnelab.metar.functions.importing, java.compile.org.campagnelab.metar.inspect, java.compile.org.campagnelab.metar.limma, java.compile.org.campagnelab.metar.models, java.compile.org.campagnelab.metar.tables, java.compile.org.campagnelab.styles, fetchDependencies">
+  <target name="java.compile.org.campagnelab.metar.limma#5124039371745995804" depends="java.compile.org.campagnelab.metar.code, java.compile.org.campagnelab.metar.edgeR, java.compile.org.campagnelab.metar.inspect, java.compile.org.campagnelab.metar.limma, java.compile.org.campagnelab.metar.models, java.compile.org.campagnelab.metar.tables, java.compile.org.campagnelab.styles, fetchDependencies">
     <mkdir dir="${basedir}/languages/org.campagnelab.metar.limma/generator/source_gen" />
     <mkdir dir="${build.tmp}/java/out/org.campagnelab.metar.limma#5124039371745995804" />
     <javac destdir="${build.tmp}/java/out/org.campagnelab.metar.limma#5124039371745995804" fork="true" includeantruntime="false" source="1.6" target="1.6">
@@ -2211,7 +2202,6 @@
         <fileset file="${artifacts.mps}/lib/mps-platform.jar" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.metar.code" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.metar.edgeR" />
-        <pathelement path="${build.tmp}/java/out/org.campagnelab.metar.functions.importing" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.metar.inspect" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.metar.limma" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.metar.models" />
@@ -2244,7 +2234,7 @@
     </copy>
   </target>
   
-  <target name="java.compile.org.campagnelab.editor.plugins" depends="java.compile.org.campagnelab.editor.csvviewer, java.compile.org.campagnelab.metar.functions.importing, java.compile.org.campagnelab.metar.inspect, java.compile.org.campagnelab.metar.tables, java.compile.org.campagnelab.styles, fetchDependencies">
+  <target name="java.compile.org.campagnelab.editor.plugins" depends="java.compile.org.campagnelab.editor.csvviewer, java.compile.org.campagnelab.metar.inspect, java.compile.org.campagnelab.metar.tables, java.compile.org.campagnelab.styles, fetchDependencies">
     <mkdir dir="${basedir}/solutions/org.campagnelab.editor.plugins/source_gen" />
     <mkdir dir="${build.tmp}/java/out/org.campagnelab.editor.plugins" />
     <javac destdir="${build.tmp}/java/out/org.campagnelab.editor.plugins" fork="true" includeantruntime="false" source="1.6" target="1.6">
@@ -2263,7 +2253,6 @@
         <fileset file="${artifacts.mps}/lib/mps-editor.jar" />
         <fileset file="${artifacts.mps}/lib/mps-platform.jar" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.editor.csvviewer" />
-        <pathelement path="${build.tmp}/java/out/org.campagnelab.metar.functions.importing" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.metar.inspect" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.metar.tables" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.styles" />
@@ -2297,7 +2286,7 @@
     </copy>
   </target>
   
-  <target name="java.compile.org.campagnelab.metar.simulation" depends="java.compile.org.campagnelab.metar.code, java.compile.org.campagnelab.metar.functions.importing, java.compile.org.campagnelab.metar.inspect, java.compile.org.campagnelab.metar.tables, java.compile.org.campagnelab.styles, fetchDependencies">
+  <target name="java.compile.org.campagnelab.metar.simulation" depends="java.compile.org.campagnelab.metar.code, java.compile.org.campagnelab.metar.inspect, java.compile.org.campagnelab.metar.tables, java.compile.org.campagnelab.styles, fetchDependencies">
     <mkdir dir="${basedir}/languages/org.campagnelab.metar.simulation/source_gen" />
     <mkdir dir="${build.tmp}/java/out/org.campagnelab.metar.simulation" />
     <javac destdir="${build.tmp}/java/out/org.campagnelab.metar.simulation" fork="true" includeantruntime="false" source="1.6" target="1.6">
@@ -2316,7 +2305,6 @@
         <fileset file="${artifacts.mps}/lib/mps-editor.jar" />
         <fileset file="${artifacts.mps}/lib/mps-platform.jar" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.metar.code" />
-        <pathelement path="${build.tmp}/java/out/org.campagnelab.metar.functions.importing" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.metar.inspect" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.metar.tables" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.styles" />
@@ -2347,7 +2335,7 @@
     </copy>
   </target>
   
-  <target name="java.compile.org.campagnelab.metar.simulation#2432807068409409065" depends="java.compile.org.campagnelab.metar.code, java.compile.org.campagnelab.metar.functions.importing, java.compile.org.campagnelab.metar.inspect, java.compile.org.campagnelab.metar.simulation, java.compile.org.campagnelab.metar.tables, java.compile.org.campagnelab.styles, fetchDependencies">
+  <target name="java.compile.org.campagnelab.metar.simulation#2432807068409409065" depends="java.compile.org.campagnelab.metar.code, java.compile.org.campagnelab.metar.inspect, java.compile.org.campagnelab.metar.simulation, java.compile.org.campagnelab.metar.tables, java.compile.org.campagnelab.styles, fetchDependencies">
     <mkdir dir="${basedir}/languages/org.campagnelab.metar.simulation/generator/source_gen" />
     <mkdir dir="${build.tmp}/java/out/org.campagnelab.metar.simulation#2432807068409409065" />
     <javac destdir="${build.tmp}/java/out/org.campagnelab.metar.simulation#2432807068409409065" fork="true" includeantruntime="false" source="1.6" target="1.6">
@@ -2366,7 +2354,6 @@
         <fileset file="${artifacts.mps}/lib/mps-editor.jar" />
         <fileset file="${artifacts.mps}/lib/mps-platform.jar" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.metar.code" />
-        <pathelement path="${build.tmp}/java/out/org.campagnelab.metar.functions.importing" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.metar.inspect" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.metar.simulation" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.metar.tables" />
@@ -2612,7 +2599,7 @@
     </copy>
   </target>
   
-  <target name="java.compile.org.campagnelab.metar.functions.importing" depends="java.compile.org.campagnelab.metar.R, java.compile.org.campagnelab.metar.r.parsers, java.compile.org.campagnelab.styles, java.compile.java.modules.cycle.1, fetchDependencies">
+  <target name="java.compile.org.campagnelab.metar.functions.importing" depends="java.compile.org.campagnelab.metar.R, java.compile.org.campagnelab.metar.code, java.compile.org.campagnelab.metar.inspect, java.compile.org.campagnelab.metar.r.parsers, java.compile.org.campagnelab.metar.tables, java.compile.org.campagnelab.styles, fetchDependencies">
     <mkdir dir="${basedir}/languages/org.campagnelab.metar.functions.importing/source_gen" />
     <mkdir dir="${build.tmp}/java/out/org.campagnelab.metar.functions.importing" />
     <javac destdir="${build.tmp}/java/out/org.campagnelab.metar.functions.importing" fork="true" includeantruntime="false" source="1.6" target="1.6">
@@ -2631,7 +2618,10 @@
         <fileset file="${artifacts.mps}/lib/mps-editor.jar" />
         <fileset file="${artifacts.mps}/lib/mps-platform.jar" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.metar.R" />
+        <pathelement path="${build.tmp}/java/out/org.campagnelab.metar.code" />
+        <pathelement path="${build.tmp}/java/out/org.campagnelab.metar.inspect" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.metar.r.parsers" />
+        <pathelement path="${build.tmp}/java/out/org.campagnelab.metar.tables" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.styles" />
         <fileset file="${basedir}/languages/org.campagnelab.metar.R/R.parsers-1.0-SNAPSHOT-complete.jar" />
         <fileset file="${build.tmp}/deps/ANTLR/ANTLR__dl__lbrace_ANTLR_version_rbrace_.zip/ANTRL/lib/grammarsv4.jar" />
@@ -2657,7 +2647,6 @@
         <fileset file="${build.tmp}/deps/XChart/XChart__dl__lbrace_XChart_version_rbrace_.zip/XChart/languages/XChart/org.campagnelab.mps.XChart.jar" />
         <fileset file="${build.tmp}/deps/XChart/XChart__dl__lbrace_XChart_version_rbrace_.zip/XChart/languages/XChart/org.campagnelab.mps.XChart.types.jar" />
         <fileset file="${build.tmp}/deps/org.campagnelab.TextOutput/org.campagnelab.TextOutput-_dl__lbrace_textoutput_version_rbrace_.zip/TextOutput/languages/TextOutput/org.campagnelab.textoutput.jar" />
-        <pathelement path="${build.tmp}/java.modules.cycle.1" />
       </classpath>
     </javac>
     <copy todir="${build.tmp}/java/out/org.campagnelab.metar.functions.importing">
@@ -2768,7 +2757,7 @@
     </copy>
   </target>
   
-  <target name="java.compile.org.campagnelab.metar.functions.access#1127749446836988002" depends="java.compile.org.campagnelab.metar.R, java.compile.org.campagnelab.metar.code, java.compile.org.campagnelab.metar.functions.access, java.compile.org.campagnelab.metar.functions.importing, java.compile.org.campagnelab.metar.inspect, java.compile.org.campagnelab.metar.tables, java.compile.org.campagnelab.styles, fetchDependencies">
+  <target name="java.compile.org.campagnelab.metar.functions.access#1127749446836988002" depends="java.compile.org.campagnelab.metar.R, java.compile.org.campagnelab.metar.code, java.compile.org.campagnelab.metar.functions.access, java.compile.org.campagnelab.metar.inspect, java.compile.org.campagnelab.metar.tables, java.compile.org.campagnelab.styles, fetchDependencies">
     <mkdir dir="${basedir}/languages/org.campagnelab.metar.functions.access/generator/source_gen" />
     <mkdir dir="${build.tmp}/java/out/org.campagnelab.metar.functions.access#1127749446836988002" />
     <javac destdir="${build.tmp}/java/out/org.campagnelab.metar.functions.access#1127749446836988002" fork="true" includeantruntime="false" source="1.6" target="1.6">
@@ -2789,7 +2778,6 @@
         <pathelement path="${build.tmp}/java/out/org.campagnelab.metar.R" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.metar.code" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.metar.functions.access" />
-        <pathelement path="${build.tmp}/java/out/org.campagnelab.metar.functions.importing" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.metar.inspect" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.metar.tables" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.styles" />
@@ -2823,7 +2811,7 @@
     </copy>
   </target>
   
-  <target name="java.compile.org.campagnelab.metar.biomart" depends="java.compile.org.campagnelab.metar.biomart.runtime, java.compile.org.campagnelab.metar.code, java.compile.org.campagnelab.metar.functions.importing, java.compile.org.campagnelab.metar.inspect, java.compile.org.campagnelab.metar.tables, java.compile.org.campagnelab.styles, fetchDependencies">
+  <target name="java.compile.org.campagnelab.metar.biomart" depends="java.compile.org.campagnelab.metar.biomart.runtime, java.compile.org.campagnelab.metar.code, java.compile.org.campagnelab.metar.inspect, java.compile.org.campagnelab.metar.tables, java.compile.org.campagnelab.styles, fetchDependencies">
     <mkdir dir="${basedir}/languages/org.campagnelab.metar.biomart/source_gen" />
     <mkdir dir="${build.tmp}/java/out/org.campagnelab.metar.biomart" />
     <javac destdir="${build.tmp}/java/out/org.campagnelab.metar.biomart" fork="true" includeantruntime="false" source="1.6" target="1.6">
@@ -2843,7 +2831,6 @@
         <fileset file="${artifacts.mps}/lib/mps-editor.jar" />
         <fileset file="${artifacts.mps}/lib/mps-platform.jar" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.metar.code" />
-        <pathelement path="${build.tmp}/java/out/org.campagnelab.metar.functions.importing" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.metar.inspect" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.metar.tables" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.styles" />
@@ -2886,7 +2873,7 @@
     </copy>
   </target>
   
-  <target name="java.compile.org.campagnelab.metar.biomart#3821621700600503340" depends="java.compile.org.campagnelab.metar.biomart, java.compile.org.campagnelab.metar.biomart.runtime, java.compile.org.campagnelab.metar.code, java.compile.org.campagnelab.metar.functions.importing, java.compile.org.campagnelab.metar.inspect, java.compile.org.campagnelab.metar.tables, java.compile.org.campagnelab.styles, fetchDependencies">
+  <target name="java.compile.org.campagnelab.metar.biomart#3821621700600503340" depends="java.compile.org.campagnelab.metar.biomart, java.compile.org.campagnelab.metar.biomart.runtime, java.compile.org.campagnelab.metar.code, java.compile.org.campagnelab.metar.inspect, java.compile.org.campagnelab.metar.tables, java.compile.org.campagnelab.styles, fetchDependencies">
     <mkdir dir="${basedir}/languages/org.campagnelab.metar.biomart/generator/source_gen" />
     <mkdir dir="${build.tmp}/java/out/org.campagnelab.metar.biomart#3821621700600503340" />
     <javac destdir="${build.tmp}/java/out/org.campagnelab.metar.biomart#3821621700600503340" fork="true" includeantruntime="false" source="1.6" target="1.6">
@@ -2908,7 +2895,6 @@
         <pathelement path="${build.tmp}/java/out/org.campagnelab.metar.biomart" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.metar.biomart.runtime" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.metar.code" />
-        <pathelement path="${build.tmp}/java/out/org.campagnelab.metar.functions.importing" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.metar.inspect" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.metar.tables" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.styles" />
