@@ -1718,12 +1718,6 @@
             <ref role="3bR37D" to="ffeo:mXGwHwhVPj" resolve="JDK" />
           </node>
         </node>
-        <node concept="1SiIV0" id="3rWIEp7J1H3" role="3bR37C">
-          <node concept="3bR9La" id="3rWIEp7J1H4" role="1SiIV1">
-            <property role="3bR36h" value="true" />
-            <ref role="3bR37D" node="3rWIEp7J14y" resolve="org.campagnelab.metar.R" />
-          </node>
-        </node>
         <node concept="1SiIV0" id="3rWIEp7J1H5" role="3bR37C">
           <node concept="3bR9La" id="3rWIEp7J1H6" role="1SiIV1">
             <property role="3bR36h" value="false" />
