@@ -600,7 +600,6 @@
     <property role="34LRSv" value="set of IDs" />
     <property role="R4oN_" value="A set of IDs, such as gene list" />
     <property role="3GE5qa" value="ids" />
-    <property role="19KtqR" value="true" />
     <ref role="1TJDcQ" node="3BiNpr5GyuO" resolve="DefinableObject" />
     <node concept="1TJgyj" id="3BiNpr5FJlg" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -833,7 +832,6 @@
     <property role="TrG5h" value="R_Package" />
     <property role="34LRSv" value="R Package" />
     <property role="R4oN_" value="Models an R package" />
-    <property role="19KtqR" value="true" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="7LvyiX4miiz" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
@@ -888,7 +886,6 @@
   <node concept="1TIwiD" id="4C4A90$OLbb">
     <property role="3GE5qa" value="plots" />
     <property role="TrG5h" value="PlotStyle" />
-    <property role="19KtqR" value="true" />
     <property role="MwhBj" value="${module}/icons/style.png" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="4C4A90$OQe6" role="1TKVEl">
@@ -914,7 +911,6 @@
   <node concept="1TIwiD" id="4C4A90$OO0Z">
     <property role="3GE5qa" value="plots" />
     <property role="TrG5h" value="ScatterPlotStyle" />
-    <property role="19KtqR" value="true" />
     <ref role="1TJDcQ" node="4C4A90$OLbb" resolve="PlotStyle" />
     <node concept="1TJgyj" id="7bZk2Y4RHu6" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -1029,7 +1025,6 @@
   <node concept="1TIwiD" id="4cOBe2EdOid">
     <property role="3GE5qa" value="plots" />
     <property role="TrG5h" value="RenderStyle" />
-    <property role="19KtqR" value="true" />
     <property role="MwhBj" value="${module}/icons/style.png" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="4cOBe2EdOl5" role="1TKVEl">
@@ -1309,7 +1304,6 @@
   <node concept="1TIwiD" id="20o901rbdSG">
     <property role="3GE5qa" value="plots.colors" />
     <property role="TrG5h" value="Color" />
-    <property role="19KtqR" value="true" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="20o901rbdSH" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
@@ -1322,7 +1316,6 @@
   <node concept="1TIwiD" id="20o901rbe9q">
     <property role="3GE5qa" value="plots.colors" />
     <property role="TrG5h" value="ColorPalette" />
-    <property role="19KtqR" value="true" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="20o901rbeIH" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -1356,7 +1349,6 @@
   <node concept="1TIwiD" id="20o901rbdPK">
     <property role="3GE5qa" value="plots" />
     <property role="TrG5h" value="ColorPlotStyle" />
-    <property role="19KtqR" value="true" />
     <ref role="1TJDcQ" node="4C4A90$OLbb" resolve="PlotStyle" />
     <node concept="1TJgyj" id="20o901rAA5O" role="1TKVEi">
       <property role="20lmBu" value="reference" />
@@ -1937,7 +1929,6 @@
   <node concept="1TIwiD" id="t0TZVlt6An">
     <property role="3GE5qa" value="venn" />
     <property role="TrG5h" value="IdsFromTable" />
-    <property role="19KtqR" value="true" />
     <property role="34LRSv" value="set from an annotated table " />
     <property role="R4oN_" value="return ids from an annotated table" />
     <ref role="1TJDcQ" node="kv77yxiEq2" resolve="IdsFrom" />
