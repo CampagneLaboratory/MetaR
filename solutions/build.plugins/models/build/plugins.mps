@@ -410,6 +410,9 @@
       <node concept="m$f5U" id="3gMg70bRmf$" role="m$_yh">
         <ref role="m$f5T" node="3gMg70bRmfu" resolve="metaR" />
       </node>
+      <node concept="m$f5U" id="6O5l2OdWZ7B" role="m$_yh">
+        <ref role="m$f5T" node="64xNxfklWYE" resolve="metaR.R" />
+      </node>
       <node concept="m$_yC" id="3gMg70bRmf_" role="m$_yJ">
         <ref role="m$_y1" to="ffeo:4k71ibbKLe8" resolve="jetbrains.mps.core" />
       </node>
@@ -439,6 +442,9 @@
       </node>
       <node concept="m$_yC" id="3xLH8OVIJuk" role="m$_yJ">
         <ref role="m$_y1" to="ffeo:4O0hKJpjIV3" resolve="jetbrains.mps.ide.devkit" />
+      </node>
+      <node concept="m$_yC" id="6O5l2OdWZdV" role="m$_yJ">
+        <ref role="m$_y1" to="hc0n:7twz7e84BNG" resolve="org.campagnelab.ANTLR" />
       </node>
       <node concept="3_J27D" id="3gMg70bRmfA" role="m_cZH">
         <node concept="3Mxwew" id="3gMg70bRmfB" role="3MwsjC">
