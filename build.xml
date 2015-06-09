@@ -2536,7 +2536,7 @@
     </copy>
   </target>
   
-  <target name="java.compile.org.campagnelab.metar.functions.access" depends="java.compile.org.campagnelab.metar.R, java.compile.org.campagnelab.metar.code, java.compile.org.campagnelab.metar.functions.importing, java.compile.org.campagnelab.metar.inspect, java.compile.org.campagnelab.metar.tables, java.compile.org.campagnelab.styles, fetchDependencies">
+  <target name="java.compile.org.campagnelab.metar.functions.access" depends="java.compile.org.campagnelab.metar.R, java.compile.org.campagnelab.metar.code, java.compile.org.campagnelab.metar.inspect, java.compile.org.campagnelab.metar.tables, java.compile.org.campagnelab.styles, fetchDependencies">
     <mkdir dir="${basedir}/languages/org.campagnelab.metar.functions.access/source_gen" />
     <mkdir dir="${build.tmp}/java/out/org.campagnelab.metar.functions.access" />
     <javac destdir="${build.tmp}/java/out/org.campagnelab.metar.functions.access" fork="true" includeantruntime="false" source="1.6" target="1.6">
@@ -2556,7 +2556,6 @@
         <fileset file="${artifacts.mps}/lib/mps-platform.jar" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.metar.R" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.metar.code" />
-        <pathelement path="${build.tmp}/java/out/org.campagnelab.metar.functions.importing" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.metar.inspect" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.metar.tables" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.styles" />
