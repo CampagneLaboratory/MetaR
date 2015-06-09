@@ -1657,11 +1657,6 @@
             </node>
           </node>
         </node>
-        <node concept="1SiIV0" id="3gMg70bWryO" role="3bR37C">
-          <node concept="1Busua" id="3gMg70bWryP" role="1SiIV1">
-            <ref role="1Busuk" to="nr1s:2mFg1uCEgGH" resolve="org.campagnelab.textoutput" />
-          </node>
-        </node>
         <node concept="1yeLz9" id="3gMg70bWryQ" role="1TViLv">
           <property role="TrG5h" value="org.campagnelab.metar.inspect#1549006859295776220" />
           <property role="3LESm3" value="60b98457-2b49-4643-8291-f13cfce80eaa" />
@@ -1721,18 +1716,6 @@
             <ref role="3bR37D" to="ffeo:1H905DlDUSw" resolve="MPS.OpenAPI" />
           </node>
         </node>
-        <node concept="1SiIV0" id="79$YT4lhRrc" role="3bR37C">
-          <node concept="3bR9La" id="79$YT4lhRrd" role="1SiIV1">
-            <property role="3bR36h" value="false" />
-            <ref role="3bR37D" node="6g5l50dUyaG" resolve="org.campagnelab.metar.models" />
-          </node>
-        </node>
-        <node concept="1SiIV0" id="79$YT4lhRre" role="3bR37C">
-          <node concept="3bR9La" id="79$YT4lhRrf" role="1SiIV1">
-            <property role="3bR36h" value="false" />
-            <ref role="3bR37D" node="3gMg70bRmfh" resolve="org.campagnelab.metar.tables" />
-          </node>
-        </node>
         <node concept="1SiIV0" id="79$YT4lhRrg" role="3bR37C">
           <node concept="3bR9La" id="79$YT4lhRrh" role="1SiIV1">
             <property role="3bR36h" value="false" />
@@ -1745,10 +1728,10 @@
             <ref role="3bR37D" to="ffeo:7Kfy9QB6L9O" resolve="jetbrains.mps.lang.smodel" />
           </node>
         </node>
-        <node concept="1SiIV0" id="79$YT4lhRrk" role="3bR37C">
-          <node concept="3bR9La" id="79$YT4lhRrl" role="1SiIV1">
+        <node concept="1SiIV0" id="20f73D2ah9t" role="3bR37C">
+          <node concept="3bR9La" id="20f73D2ah9u" role="1SiIV1">
             <property role="3bR36h" value="false" />
-            <ref role="3bR37D" node="WAEVbtgcBG" resolve="org.campagnelab.metar.limma" />
+            <ref role="3bR37D" to="nr1s:2mFg1uCEgGH" resolve="org.campagnelab.textoutput" />
           </node>
         </node>
       </node>
