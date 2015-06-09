@@ -98,6 +98,9 @@
     <node concept="PrWs8" id="65vgZmVBH4v" role="PzmwI">
       <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
     </node>
+    <node concept="PrWs8" id="5sMLrNFhCyx" role="PzmwI">
+      <ref role="PrY4T" to="jrxw:5sMLrNFhChk" resolve="IAddToScope" />
+    </node>
   </node>
   <node concept="1TIwiD" id="213CARpfsHj">
     <property role="TrG5h" value="Stubs" />

@@ -2086,5 +2086,11 @@
     <property role="3GE5qa" value="expressions" />
     <property role="TrG5h" value="MetarExpression" />
   </node>
+  <node concept="PlHQZ" id="5sMLrNFhChk">
+    <property role="TrG5h" value="IAddToMetaRScope" />
+    <node concept="PrWs8" id="5sMLrNFhCox" role="PrDN$">
+      <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
+    </node>
+  </node>
 </model>
 
