@@ -14,7 +14,6 @@
     <usedLanguage>ed6d7656-532c-4bc2-81d1-af945aeb8280(jetbrains.mps.baseLanguage.blTypes)</usedLanguage>
     <usedLanguage>5ec1cd3d-0a50-4049-a8fa-ae768d7baa25(org.campagnelab.mps.XChart)</usedLanguage>
     <usedLanguage>43f31864-fc67-43f5-873e-ab79cc279a2d(org.campagnelab.styles)</usedLanguage>
-    <usedLanguage>5d6bde84-4ce4-4eb5-a37e-25a5edd55129(org.campagnelab.metar.tables)</usedLanguage>
     <usedLanguage>ecf91126-e504-4aae-8ee7-3192d64e77f6(org.campagnelab.mps.XChart.types)</usedLanguage>
     <usedLanguage>9ded098b-ad6a-4657-bfd9-48636cfe8bc3(jetbrains.mps.lang.traceable)</usedLanguage>
     <usedLanguage>4caf0310-491e-41f5-8a9b-2006b3a94898(jetbrains.mps.execution.util)</usedLanguage>
