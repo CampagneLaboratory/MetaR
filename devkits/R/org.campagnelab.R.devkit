@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dev-kit name="org.campagnelab.R" uuid="47de4161-d879-4a78-a0cb-f46f9f770c1c">
+  <exported-language name="64c90466-09b2-41ab-89f8-5085b3b9eca7(org.campagnelab.metar.functions.access)" />
+  <exported-language name="c1747c67-8f42-4d83-9542-4a948aec17d9(org.campagnelab.metar.functions.importing)" />
+</dev-kit>
+

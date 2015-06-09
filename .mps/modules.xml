@@ -5,6 +5,7 @@
       <modulePath path="${ANTLR_HOME}/solutions/ANTLR.persistence.build/ANTLR.persistence.build.msd" folder="" />
       <modulePath path="${org.campagnelab.goby.workbench.home}/solutions/NYoSh.build-plugins/NYoSh.build-plugins.msd" folder="" />
       <modulePath path="${org.campagnelab.xchart.home}/solutions/XChart.build0/XChart.build.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/devkits/R/org.campagnelab.R.devkit" folder="" />
       <modulePath path="$PROJECT_DIR$/devkits/org.campagnelab.HTAnalysis.devkit" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.editor.csvviewer/org.campagnelab.editor.csvviewer.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.editor.images/org.campagnelab.editor.images.mpl" folder="" />
