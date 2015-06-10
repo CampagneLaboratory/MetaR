@@ -22,7 +22,6 @@
     <usedLanguage>f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)</usedLanguage>
     <usedLanguage>93bc01ac-08ca-4f11-9c7d-614d04055dfb(org.campagnelab.mps.editor2pdf)</usedLanguage>
     <usedLanguage>ecc862c9-5ab5-42ef-8703-2039019fb338(org.campagnelab.metar.models)</usedLanguage>
-    <usedLanguage>f9e0c373-bcbc-4c08-8ca0-edb1ef9679b6(org.campagnelab.metar.columninR)</usedLanguage>
     <usedLanguage>3b58810c-8431-4bbb-99ea-b4671e02dd13(org.campagnelab.metar.R)</usedLanguage>
     <usedLanguage>64c90466-09b2-41ab-89f8-5085b3b9eca7(org.campagnelab.metar.functions.access)</usedLanguage>
     <usedLanguage>c1747c67-8f42-4d83-9542-4a948aec17d9(org.campagnelab.metar.functions.importing)</usedLanguage>
