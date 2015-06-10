@@ -24,10 +24,10 @@
     <import index="88zw" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/f:java_stub#8865b7a8-5271-43d3-884c-6fd1d9cfdd34#org.jetbrains.mps.openapi.module(MPS.OpenAPI/org.jetbrains.mps.openapi.module@java_stub)" />
     <import index="vsqj" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/f:java_stub#6ed54515-acc8-4d1e-a16c-9fd6cfe951ea#jetbrains.mps.project(MPS.Core/jetbrains.mps.project@java_stub)" />
     <import index="ec5l" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/f:java_stub#8865b7a8-5271-43d3-884c-6fd1d9cfdd34#org.jetbrains.mps.openapi.model(MPS.OpenAPI/org.jetbrains.mps.openapi.model@java_stub)" />
-    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
+    <import index="o8zo" ref="r:314576fc-3aee-4386-a0a5-a38348ac317d(jetbrains.mps.scope)" />
     <import index="e2lb" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" implicit="true" />
     <import index="tpcu" ref="r:00000000-0000-4000-0000-011c89590282(jetbrains.mps.lang.core.behavior)" implicit="true" />
-    <import index="o8zo" ref="r:314576fc-3aee-4386-a0a5-a38348ac317d(jetbrains.mps.scope)" implicit="true" />
+    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="13744753-c81f-424a-9c1b-cf8943bf4e86" name="jetbrains.mps.lang.sharedConcepts">
@@ -446,32 +446,22 @@
       <ref role="1N5Vy1" to="jrxw:2WRhvFtuQGF" />
       <node concept="13QW63" id="3Frl7j7CAMC" role="1N6uqs">
         <node concept="3clFbS" id="3Frl7j7CAMD" role="2VODD2">
-          <node concept="3cpWs8" id="3XyNzZX6CMM" role="3cqZAp">
-            <node concept="3cpWsn" id="3XyNzZX6CMN" role="3cpWs9">
-              <property role="TrG5h" value="scope" />
-              <node concept="3uibUv" id="3XyNzZX6CMO" role="1tU5fm">
-                <ref role="3uigEE" to="vyt2:~Scope" resolve="Scope" />
-              </node>
-              <node concept="2YIFZM" id="3Frl7j7CBcv" role="33vP2m">
-                <ref role="1Pybhc" to="vyt2:~ListScope" resolve="ListScope" />
-                <ref role="37wK5l" to="vyt2:~ListScope.forNamedElements(java.lang.Iterable):jetbrains.mps.scope.ListScope" resolve="forNamedElements" />
-                <node concept="2OqwBi" id="3Frl7j7CBrG" role="37wK5m">
-                  <node concept="2OqwBi" id="3Frl7j7CBeJ" role="2Oq$k0">
-                    <node concept="2rP1CM" id="3Frl7j7CBd8" role="2Oq$k0" />
-                    <node concept="I4A8Y" id="3Frl7j7CBl9" role="2OqNvi" />
-                  </node>
-                  <node concept="2RRcyG" id="3Frl7j7CB$v" role="2OqNvi">
-                    <ref role="2RRcyH" to="jrxw:2WRhvFtkykN" resolve="Table" />
-                  </node>
+          <node concept="3clFbF" id="2MUPwqnaKDe" role="3cqZAp">
+            <node concept="2YIFZM" id="2MUPwqnaKDf" role="3clFbG">
+              <ref role="1Pybhc" to="o8zo:4IP40Bi3e_R" resolve="ListScope" />
+              <ref role="37wK5l" to="o8zo:4IP40Bi3eAf" resolve="forNamedElements" />
+              <node concept="2OqwBi" id="2MUPwqnaKDh" role="37wK5m">
+                <node concept="2OqwBi" id="2MUPwqnaKDi" role="2Oq$k0">
+                  <node concept="2rP1CM" id="4SO4WIqRBac" role="2Oq$k0" />
+                  <node concept="I4A8Y" id="2MUPwqnaKDk" role="2OqNvi" />
+                </node>
+                <node concept="2RRcyG" id="4SO4WIqRB_D" role="2OqNvi">
+                  <ref role="2RRcyH" to="jrxw:2WRhvFtkykN" resolve="Table" />
                 </node>
               </node>
             </node>
           </node>
-          <node concept="3cpWs6" id="3Frl7j7CBLw" role="3cqZAp">
-            <node concept="37vLTw" id="3XyNzZX6DuR" role="3cqZAk">
-              <ref role="3cqZAo" node="3XyNzZX6CMN" resolve="scope" />
-            </node>
-          </node>
+          <node concept="3clFbH" id="4SO4WIqRAIN" role="3cqZAp" />
         </node>
       </node>
       <node concept="3k9gUc" id="2WRhvFtuQHI" role="3kmjI7">
