@@ -7,8 +7,8 @@
   </languages>
   <imports>
     <import index="fxg7" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.io(JDK/java.io@java_stub)" />
-    <import index="8t56" ref="r:c30a0469-24e5-4b8a-89e7-0d2028c5aa49(org.campagnelab.metar.functions.importing.structure)" implicit="true" />
     <import index="798x" ref="r:1634ef7f-18ee-43e5-8286-5fcfc24745c4(org.campagnelab.metar.functions.importing.behavior)" implicit="true" />
+    <import index="8t56" ref="r:c30a0469-24e5-4b8a-89e7-0d2028c5aa49(org.campagnelab.metar.functions.importing.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -92,7 +92,7 @@
       <node concept="3clFbS" id="4OlXQqAjRmS" role="2VODD2">
         <node concept="3clFbF" id="4OlXQqAjR_9" role="3cqZAp">
           <node concept="Xl_RD" id="4OlXQqAjR_8" role="3clFbG">
-            <property role="Xl_RC" value="Reload Functions" />
+            <property role="Xl_RC" value="Reload Functions and Create Stubs" />
           </node>
         </node>
       </node>
@@ -133,7 +133,7 @@
   </node>
   <node concept="2S6QgY" id="4SiK8hI4Qgx">
     <property role="TrG5h" value="ReloadScriptFunctions" />
-    <ref role="2ZfgGC" to="8t56:2n2dP0rzrIW" resolve="ImportScript" />
+    <ref role="2ZfgGC" to="8t56:2n2dP0rzrIW" resolve="ImportStubs" />
     <node concept="2Sbjvc" id="4SiK8hI4Qgy" role="2ZfgGD">
       <node concept="3clFbS" id="4SiK8hI4Qgz" role="2VODD2">
         <node concept="3clFbF" id="4SiK8hI4Qg$" role="3cqZAp">
