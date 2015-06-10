@@ -1740,6 +1740,17 @@
             <ref role="3bR37D" to="nr1s:2mFg1uCEgGH" resolve="org.campagnelab.textoutput" />
           </node>
         </node>
+        <node concept="1SiIV0" id="1oFAr6mRgye" role="3bR37C">
+          <node concept="3bR9La" id="1oFAr6mRgyf" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" node="3gMg70bRmfh" resolve="org.campagnelab.metar.tables" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="1oFAr6mRgyg" role="3bR37C">
+          <node concept="1Busua" id="1oFAr6mRgyh" role="1SiIV1">
+            <ref role="1Busuk" to="nr1s:2mFg1uCEgGH" resolve="org.campagnelab.textoutput" />
+          </node>
+        </node>
       </node>
       <node concept="1E1JtD" id="5RQTS2oWlI4" role="2G$12L">
         <property role="BnDLt" value="true" />
