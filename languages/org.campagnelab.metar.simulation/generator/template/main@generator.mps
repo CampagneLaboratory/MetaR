@@ -246,12 +246,6 @@
         </node>
       </node>
     </node>
-    <node concept="3aamgX" id="oeXtRY5OSH" role="3acgRq">
-      <ref role="30HIoZ" to="hgbr:2734ievAQvI" resolve="CovariateFactor" />
-      <node concept="j$656" id="oeXtRY6xGo" role="1lVwrX">
-        <ref role="v9R2y" node="1lZbowiXWVq" resolve="reduce_CovariateFactor" />
-      </node>
-    </node>
   </node>
   <node concept="13MO4I" id="6kVgbi6iGEe">
     <property role="TrG5h" value="reduce_SimulateDataset" />
