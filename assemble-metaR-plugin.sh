@@ -19,6 +19,6 @@ fi
 rm -fr build/artifacts/*
 mkdir -p target/plugins
 
-"${ANT_BIN}" ${PROPS} -f ${xml} generate || true
-"${ANT_BIN}" ${PROPS} -f ${xml}  && cp build/artifacts/MetaR/*.zip target/plugins
+"${ANT_BIN}" ${PROPS} -f build.xml generate || true
+"${ANT_BIN}" ${PROPS} -f build.xml assemble && cp build/artifacts/MetaR/*.zip target/plugins
 
