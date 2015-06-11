@@ -88,6 +88,9 @@
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" to="ztlb:1UijAvvb9DJ" resolve="Column" />
     </node>
+    <node concept="PrWs8" id="6VwWtFMFdkX" role="PzmwI">
+      <ref role="PrY4T" to="jrxw:legv36GJlG" resolve="MetarExpression" />
+    </node>
   </node>
 </model>
 
