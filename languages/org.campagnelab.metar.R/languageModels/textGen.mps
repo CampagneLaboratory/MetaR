@@ -163,7 +163,7 @@
       <node concept="3clFbS" id="3V2IUSrX3I5" role="2VODD2">
         <node concept="3clFbF" id="3V2IUSrX3OE" role="3cqZAp">
           <node concept="Xl_RD" id="3V2IUSrX3OD" role="3clFbG">
-            <property role="Xl_RC" value=".R" />
+            <property role="Xl_RC" value="R" />
           </node>
         </node>
       </node>
