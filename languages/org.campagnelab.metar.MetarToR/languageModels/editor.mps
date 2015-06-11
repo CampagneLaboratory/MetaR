@@ -8,6 +8,7 @@
   <imports>
     <import index="c07g" ref="r:1ddbf3ba-cbe7-4cb8-b2fc-7a1e80a63d10(org.campagnelab.metar.biomart.structure)" />
     <import index="69j5" ref="r:cc2fd9c1-53e7-4805-a8bc-a07e69f2147b(org.campagnelab.metar.R.behavior)" implicit="true" />
+    <import index="8gqa" ref="r:c14853f5-5f2e-4acc-825a-4fec67caca67(org.campagnelab.metar.tables.editor)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="rlu9" ref="r:2815b05a-19fb-48b1-b650-5a86998b563c(org.campagnelab.metar.biomartToR.structure)" implicit="true" />
   </imports>
@@ -29,7 +30,13 @@
       <concept id="1088013125922" name="jetbrains.mps.lang.editor.structure.CellModel_RefCell" flags="sg" stub="730538219795941030" index="1iCGBv">
         <child id="1088186146602" name="editorComponent" index="1sWHZn" />
       </concept>
+      <concept id="1381004262292414836" name="jetbrains.mps.lang.editor.structure.ICellStyle" flags="ng" index="1k5N5V">
+        <reference id="1381004262292426837" name="parentStyleClass" index="1k5W1q" />
+      </concept>
       <concept id="1088185857835" name="jetbrains.mps.lang.editor.structure.InlineEditorComponent" flags="ig" index="1sVBvm" />
+      <concept id="1227861515039" name="jetbrains.mps.lang.editor.structure.NavigatableReferenceStyleClassItem" flags="ln" index="3yfXC2">
+        <reference id="1227861587090" name="link" index="3ygfmf" />
+      </concept>
       <concept id="1139848536355" name="jetbrains.mps.lang.editor.structure.CellModel_WithRole" flags="ng" index="1$h60E">
         <property id="1140017977771" name="readOnly" index="1Intyy" />
         <reference id="1140103550593" name="relationDeclaration" index="1NtTu8" />
@@ -122,6 +129,7 @@
   <node concept="24kQdi" id="1e1bwEALe0X">
     <ref role="1XX52x" to="rlu9:1e1bwEALdL4" resolve="ExposedTable" />
     <node concept="1HlG4h" id="364jCCZMWtI" role="2wV5jI">
+      <ref role="1k5W1q" to="8gqa:7Hltlm8A4_N" resolve="FutureTable" />
       <node concept="1HfYo3" id="364jCCZMWtK" role="1HlULh">
         <node concept="3TQlhw" id="364jCCZMWtM" role="1Hhtcw">
           <node concept="3clFbS" id="364jCCZMWtO" role="2VODD2">
@@ -135,6 +143,9 @@
             </node>
           </node>
         </node>
+      </node>
+      <node concept="3yfXC2" id="4MN$qOAZ5yz" role="3F10Kt">
+        <ref role="3ygfmf" to="rlu9:1e1bwEBY62I" />
       </node>
     </node>
   </node>

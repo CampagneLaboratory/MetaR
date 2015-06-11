@@ -79776,6 +79776,7 @@
   <node concept="3Nc2Ti" id="364jCD01qq2">
     <property role="3Nc2Tj" value="false" />
     <property role="TrG5h" value="splines" />
+    <property role="1E7BbB" value="base" />
     <node concept="2PZJp4" id="364jCD01qq3" role="3Nc2Tg">
       <node concept="2PZJpp" id="364jCD01qq4" role="2v3mow">
         <property role="TrG5h" value="as.polySpline" />
@@ -79785,9 +79786,7 @@
           <node concept="2i91V1" id="364jCD01qq7" role="2i902c">
             <property role="2i91Yx" value="object" />
           </node>
-          <node concept="2i91V1" id="364jCD01qq8" role="2i902c">
-            <property role="2i91Yx" value="..." />
-          </node>
+          <node concept="2i91VX" id="4MN$qOAM4WL" role="2i902c" />
         </node>
         <node concept="2PZJpj" id="364jCD01qq9" role="1LvdYI" />
       </node>
@@ -79987,9 +79986,7 @@
           <node concept="2i91V1" id="364jCD01qrz" role="2i902c">
             <property role="2i91Yx" value="object" />
           </node>
-          <node concept="2i91V1" id="364jCD01qr$" role="2i902c">
-            <property role="2i91Yx" value="..." />
-          </node>
+          <node concept="2i91VX" id="4MN$qOALV$4" role="2i902c" />
         </node>
         <node concept="2PZJpj" id="364jCD01qr_" role="1LvdYI" />
       </node>
@@ -84009,6 +84006,251 @@
         <node concept="2PZJpj" id="364jCD07dKv" role="1LvdYI" />
       </node>
       <node concept="22gccq" id="364jCD07dKw" role="22hImy" />
+    </node>
+  </node>
+  <node concept="3Nc2Ti" id="4MN$qOAQKR_">
+    <property role="3Nc2Tj" value="false" />
+    <property role="TrG5h" value="BiocInstaller" />
+    <property role="1E7BbB" value="bioconductor" />
+    <node concept="2PZJp4" id="4MN$qOAQKRA" role="3Nc2Tg">
+      <node concept="2PZJpp" id="4MN$qOAQKRB" role="2v3mow">
+        <property role="TrG5h" value="all_group" />
+      </node>
+      <node concept="2PZJp5" id="4MN$qOAQKRC" role="2v3moI">
+        <node concept="2PZJpj" id="4MN$qOAQKRD" role="1LvdYI" />
+      </node>
+      <node concept="22gccq" id="4MN$qOAQKRE" role="22hImy" />
+    </node>
+    <node concept="2PZJp4" id="4MN$qOAQKRF" role="3Nc2Tg">
+      <node concept="2PZJpp" id="4MN$qOAQKRG" role="2v3mow">
+        <property role="TrG5h" value="biocases_group" />
+      </node>
+      <node concept="2PZJp5" id="4MN$qOAQKRH" role="2v3moI">
+        <node concept="2PZJpj" id="4MN$qOAQKRI" role="1LvdYI" />
+      </node>
+      <node concept="22gccq" id="4MN$qOAQKRJ" role="22hImy" />
+    </node>
+    <node concept="2PZJp4" id="4MN$qOAQKRK" role="3Nc2Tg">
+      <node concept="2PZJpp" id="4MN$qOAQKRL" role="2v3mow">
+        <property role="TrG5h" value="biocinstallRepos" />
+      </node>
+      <node concept="2PZJp5" id="4MN$qOAQKRM" role="2v3moI">
+        <node concept="2i91V0" id="4MN$qOAQKRN" role="1LvdYw">
+          <node concept="2i91V1" id="4MN$qOAQKRO" role="2i902c">
+            <property role="2i91Yx" value="siteRepos" />
+            <node concept="2PZJp2" id="4MN$qOAQKRP" role="2i91VW">
+              <node concept="2PZJpp" id="4MN$qOAQKRQ" role="134Gdo">
+                <property role="TrG5h" value="character" />
+              </node>
+              <node concept="gNbv0" id="4MN$qOAQKRR" role="134Gdu" />
+            </node>
+          </node>
+        </node>
+        <node concept="2PZJpj" id="4MN$qOAQKRS" role="1LvdYI" />
+      </node>
+      <node concept="22gccq" id="4MN$qOAQKRT" role="22hImy" />
+    </node>
+    <node concept="2PZJp4" id="4MN$qOAQKRU" role="3Nc2Tg">
+      <node concept="2PZJpp" id="4MN$qOAQKRV" role="2v3mow">
+        <property role="TrG5h" value="biocLite" />
+      </node>
+      <node concept="2PZJp5" id="4MN$qOAQKRW" role="2v3moI">
+        <node concept="2i91V0" id="4MN$qOAQKRX" role="1LvdYw">
+          <node concept="2i91V1" id="4MN$qOAQKRY" role="2i902c">
+            <property role="2i91Yx" value="pkgs" />
+            <node concept="2PZJp2" id="4MN$qOAQKRZ" role="2i91VW">
+              <node concept="2PZJpp" id="4MN$qOAQKS0" role="134Gdo">
+                <property role="TrG5h" value="c" />
+              </node>
+              <node concept="gNbv0" id="4MN$qOAQKS1" role="134Gdu">
+                <node concept="V6WaU" id="4MN$qOAQKS2" role="gNbrm">
+                  <node concept="2PZJpm" id="4MN$qOAQKS3" role="gNbhV">
+                    <property role="pzxGI" value="Biobase" />
+                  </node>
+                </node>
+                <node concept="V6WaU" id="4MN$qOAQKS4" role="gNbrm">
+                  <node concept="2PZJpm" id="4MN$qOAQKS5" role="gNbhV">
+                    <property role="pzxGI" value="IRanges" />
+                  </node>
+                </node>
+                <node concept="V6WaU" id="4MN$qOAQKS6" role="gNbrm">
+                  <node concept="2PZJpm" id="4MN$qOAQKS7" role="gNbhV">
+                    <property role="pzxGI" value="AnnotationDbi" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="2i91V1" id="4MN$qOAQKS8" role="2i902c">
+            <property role="2i91Yx" value="suppressUpdates" />
+            <node concept="2PZJoG" id="4MN$qOAQKS9" role="2i91VW" />
+          </node>
+          <node concept="2i91V1" id="4MN$qOAQKSa" role="2i902c">
+            <property role="2i91Yx" value="suppressAutoUpdate" />
+            <node concept="2PZJoG" id="4MN$qOAQKSb" role="2i91VW" />
+          </node>
+          <node concept="2i91V1" id="4MN$qOAQKSc" role="2i902c">
+            <property role="2i91Yx" value="siteRepos" />
+            <node concept="2PZJp2" id="4MN$qOAQKSd" role="2i91VW">
+              <node concept="2PZJpp" id="4MN$qOAQKSe" role="134Gdo">
+                <property role="TrG5h" value="character" />
+              </node>
+              <node concept="gNbv0" id="4MN$qOAQKSf" role="134Gdu" />
+            </node>
+          </node>
+          <node concept="2i91V1" id="4MN$qOAQKSg" role="2i902c">
+            <property role="2i91Yx" value="ask" />
+            <node concept="2PZJoJ" id="4MN$qOAQKSh" role="2i91VW">
+              <property role="pzIeI" value="true" />
+            </node>
+          </node>
+          <node concept="2i91VX" id="4MN$qOAQKVc" role="2i902c" />
+        </node>
+        <node concept="2PZJpj" id="4MN$qOAQKSj" role="1LvdYI" />
+      </node>
+      <node concept="22gccq" id="4MN$qOAQKSk" role="22hImy" />
+    </node>
+    <node concept="2PZJp4" id="4MN$qOAQKSl" role="3Nc2Tg">
+      <node concept="2PZJpp" id="4MN$qOAQKSm" role="2v3mow">
+        <property role="TrG5h" value="biocUpdatePackages" />
+      </node>
+      <node concept="2PZJp5" id="4MN$qOAQKSn" role="2v3moI">
+        <node concept="2i91V0" id="4MN$qOAQKSo" role="1LvdYw">
+          <node concept="2i91V1" id="4MN$qOAQKSp" role="2i902c">
+            <property role="2i91Yx" value="pkgs" />
+          </node>
+          <node concept="2i91V1" id="4MN$qOAQKSq" role="2i902c">
+            <property role="2i91Yx" value="dependencies" />
+            <node concept="2PZJpg" id="4MN$qOAQKSr" role="2i91VW" />
+          </node>
+          <node concept="2i91V1" id="4MN$qOAQKSs" role="2i902c">
+            <property role="2i91Yx" value="repos" />
+            <node concept="2PZJp2" id="4MN$qOAQKSt" role="2i91VW">
+              <node concept="2PZJpp" id="4MN$qOAQKSu" role="134Gdo">
+                <property role="TrG5h" value="biocinstallRepos" />
+              </node>
+              <node concept="gNbv0" id="4MN$qOAQKSv" role="134Gdu" />
+            </node>
+          </node>
+          <node concept="2i91VX" id="4MN$qOAQL3c" role="2i902c" />
+        </node>
+        <node concept="2PZJpj" id="4MN$qOAQKSx" role="1LvdYI" />
+      </node>
+      <node concept="22gccq" id="4MN$qOAQKSy" role="22hImy" />
+    </node>
+    <node concept="2PZJp4" id="4MN$qOAQKSz" role="3Nc2Tg">
+      <node concept="2PZJpp" id="4MN$qOAQKS$" role="2v3mow">
+        <property role="TrG5h" value="biocValid" />
+      </node>
+      <node concept="2PZJp5" id="4MN$qOAQKS_" role="2v3moI">
+        <node concept="2i91V0" id="4MN$qOAQKSA" role="1LvdYw">
+          <node concept="2i91V1" id="4MN$qOAQKSB" role="2i902c">
+            <property role="2i91Yx" value="pkgs" />
+            <node concept="2PZJp2" id="4MN$qOAQKSC" role="2i91VW">
+              <node concept="2PZJpp" id="4MN$qOAQKSD" role="134Gdo">
+                <property role="TrG5h" value="installed.packages" />
+              </node>
+              <node concept="gNbv0" id="4MN$qOAQKSE" role="134Gdu">
+                <node concept="V6WaU" id="4MN$qOAQKSF" role="gNbrm">
+                  <node concept="2PZJpp" id="4MN$qOAQKSG" role="gNbhV">
+                    <property role="TrG5h" value="lib.loc" />
+                  </node>
+                </node>
+                <node concept="V6WaX" id="4MN$qOAQKSH" role="gNbrm">
+                  <property role="gNbhX" value="priority" />
+                  <node concept="2PZJpp" id="4MN$qOAQKSI" role="gNbhV">
+                    <property role="TrG5h" value="priority" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="2i91V1" id="4MN$qOAQKSJ" role="2i902c">
+            <property role="2i91Yx" value="lib.loc" />
+            <node concept="2PZJpj" id="4MN$qOAQKSK" role="2i91VW" />
+          </node>
+          <node concept="2i91V1" id="4MN$qOAQKSL" role="2i902c">
+            <property role="2i91Yx" value="priority" />
+            <node concept="2PZJpm" id="4MN$qOAQKSM" role="2i91VW">
+              <property role="pzxGI" value="NA" />
+            </node>
+          </node>
+          <node concept="2i91V1" id="4MN$qOAQKSN" role="2i902c">
+            <property role="2i91Yx" value="type" />
+            <node concept="2PZJp2" id="4MN$qOAQKSO" role="2i91VW">
+              <node concept="2PZJpp" id="4MN$qOAQKSP" role="134Gdo">
+                <property role="TrG5h" value="getOption" />
+              </node>
+              <node concept="gNbv0" id="4MN$qOAQKSQ" role="134Gdu">
+                <node concept="V6WaU" id="4MN$qOAQKSR" role="gNbrm">
+                  <node concept="2PZJpm" id="4MN$qOAQKSS" role="gNbhV">
+                    <property role="pzxGI" value="pkgType" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="2i91V1" id="4MN$qOAQKST" role="2i902c">
+            <property role="2i91Yx" value="filters" />
+            <node concept="2PZJpj" id="4MN$qOAQKSU" role="2i91VW" />
+          </node>
+          <node concept="2i91V1" id="4MN$qOAQKSV" role="2i902c">
+            <property role="2i91Yx" value="silent" />
+            <node concept="2PZJoG" id="4MN$qOAQKSW" role="2i91VW" />
+          </node>
+          <node concept="2i91VX" id="4MN$qOAQKVy" role="2i902c" />
+          <node concept="2i91V1" id="4MN$qOAQKSY" role="2i902c">
+            <property role="2i91Yx" value="fix" />
+            <node concept="2PZJoG" id="4MN$qOAQKSZ" role="2i91VW" />
+          </node>
+        </node>
+        <node concept="2PZJpj" id="4MN$qOAQKT0" role="1LvdYI" />
+      </node>
+      <node concept="22gccq" id="4MN$qOAQKT1" role="22hImy" />
+    </node>
+    <node concept="2PZJp4" id="4MN$qOAQKT2" role="3Nc2Tg">
+      <node concept="2PZJpp" id="4MN$qOAQKT3" role="2v3mow">
+        <property role="TrG5h" value="biocVersion" />
+      </node>
+      <node concept="2PZJp5" id="4MN$qOAQKT4" role="2v3moI">
+        <node concept="2PZJpj" id="4MN$qOAQKT5" role="1LvdYI" />
+      </node>
+      <node concept="22gccq" id="4MN$qOAQKT6" role="22hImy" />
+    </node>
+    <node concept="2PZJp4" id="4MN$qOAQKT7" role="3Nc2Tg">
+      <node concept="2PZJpp" id="4MN$qOAQKT8" role="2v3mow">
+        <property role="TrG5h" value="monograph_group" />
+      </node>
+      <node concept="2PZJp5" id="4MN$qOAQKT9" role="2v3moI">
+        <node concept="2PZJpj" id="4MN$qOAQKTa" role="1LvdYI" />
+      </node>
+      <node concept="22gccq" id="4MN$qOAQKTb" role="22hImy" />
+    </node>
+    <node concept="2PZJp4" id="4MN$qOAQKTc" role="3Nc2Tg">
+      <node concept="2PZJpp" id="4MN$qOAQKTd" role="2v3mow">
+        <property role="TrG5h" value="RBioinf_group" />
+      </node>
+      <node concept="2PZJp5" id="4MN$qOAQKTe" role="2v3moI">
+        <node concept="2PZJpj" id="4MN$qOAQKTf" role="1LvdYI" />
+      </node>
+      <node concept="22gccq" id="4MN$qOAQKTg" role="22hImy" />
+    </node>
+    <node concept="2PZJp4" id="4MN$qOAQKTh" role="3Nc2Tg">
+      <node concept="2PZJpp" id="4MN$qOAQKTi" role="2v3mow">
+        <property role="TrG5h" value="useDevel" />
+      </node>
+      <node concept="2PZJp5" id="4MN$qOAQKTj" role="2v3moI">
+        <node concept="2i91V0" id="4MN$qOAQKTk" role="1LvdYw">
+          <node concept="2i91V1" id="4MN$qOAQKTl" role="2i902c">
+            <property role="2i91Yx" value="devel" />
+            <node concept="2PZJoJ" id="4MN$qOAQKTm" role="2i91VW">
+              <property role="pzIeI" value="true" />
+            </node>
+          </node>
+        </node>
+        <node concept="2PZJpj" id="4MN$qOAQKTn" role="1LvdYI" />
+      </node>
+      <node concept="22gccq" id="4MN$qOAQKTo" role="22hImy" />
     </node>
   </node>
 </model>
