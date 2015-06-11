@@ -1007,11 +1007,15 @@
   <node concept="1TIwiD" id="6efZaUgJXbW">
     <property role="TrG5h" value="Stubs" />
     <property role="19KtqR" value="true" />
-    <property role="MwhBj" value="${module}/icons/package.png" />
+    <property role="MwhBj" value="${module}/icons/sutbs-5.png" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="6efZaUgJXbX" role="1TKVEl">
       <property role="TrG5h" value="isBioconductor" />
       <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+    <node concept="1TJgyi" id="4MN$qOAFuda" role="1TKVEl">
+      <property role="TrG5h" value="level" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
     <node concept="1TJgyj" id="6efZaUgJXbY" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />

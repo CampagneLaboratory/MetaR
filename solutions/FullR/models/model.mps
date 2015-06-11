@@ -70,6 +70,9 @@
       </concept>
     </language>
     <language id="3b58810c-8431-4bbb-99ea-b4671e02dd13" name="org.campagnelab.metar.R">
+      <concept id="489068675575040827" name="org.campagnelab.metar.R.structure.Not" flags="ng" index="20C$T_" />
+      <concept id="489068675543418438" name="org.campagnelab.metar.R.structure.EqualAssignment" flags="ng" index="22gcco" />
+      <concept id="489068675543418436" name="org.campagnelab.metar.R.structure.SimpleAssignment" flags="ng" index="22gccq" />
       <concept id="489068675543418426" name="org.campagnelab.metar.R.structure.AddOperator" flags="ng" index="22gcd$" />
       <concept id="489068675543418421" name="org.campagnelab.metar.R.structure.Dollar" flags="ng" index="22gcdF" />
       <concept id="5770663561153558147" name="org.campagnelab.metar.R.structure.ParameterValue" flags="ng" index="gNblG">
@@ -80,15 +83,29 @@
       <concept id="5770663561153557551" name="org.campagnelab.metar.R.structure.ParameterValues" flags="ng" index="gNbv0">
         <child id="5770663561153557817" name="values" index="gNbrm" />
       </concept>
+      <concept id="1229604057012669901" name="org.campagnelab.metar.R.structure.BooleanLiteral" flags="ng" index="pzIeH">
+        <property id="1229604057012669902" name="value" index="pzIeI" />
+      </concept>
       <concept id="6247096756517946181" name="org.campagnelab.metar.R.structure.BinaryOperatorExpr" flags="ng" index="2v3moz">
         <child id="489068675543818492" name="operator" index="22hImy" />
         <child id="6247096756517946182" name="left" index="2v3mow" />
         <child id="6247096756517946184" name="right" index="2v3moI" />
       </concept>
+      <concept id="6176023809880707778" name="org.campagnelab.metar.R.structure.FalseLiteralExpr" flags="ng" index="2PZJoG" />
+      <concept id="6176023809880707777" name="org.campagnelab.metar.R.structure.TrueLiteralExpr" flags="ng" index="2PZJoJ" />
+      <concept id="6176023809880707758" name="org.campagnelab.metar.R.structure.IfExpr" flags="ng" index="2PZJp0">
+        <child id="1229604057031924987" name="condition" index="oP3ar" />
+        <child id="1229604057031925044" name="body" index="oP3dk" />
+      </concept>
       <concept id="6176023809880707756" name="org.campagnelab.metar.R.structure.FunctionCallExpr" flags="ng" index="2PZJp2">
         <child id="3737166271524886452" name="id" index="134Gdo" />
         <child id="3737166271524886450" name="parameters" index="134Gdu" />
       </concept>
+      <concept id="6176023809880707757" name="org.campagnelab.metar.R.structure.BodyExpr" flags="ng" index="2PZJp3">
+        <child id="3737166271522071657" name="list" index="13uv25" />
+      </concept>
+      <concept id="6176023809880707754" name="org.campagnelab.metar.R.structure.AssignmentOperatorExpr" flags="ng" index="2PZJp4" />
+      <concept id="6176023809880707749" name="org.campagnelab.metar.R.structure.NotExpr" flags="ng" index="2PZJpb" />
       <concept id="6176023809880707747" name="org.campagnelab.metar.R.structure.AdditionExpr" flags="ng" index="2PZJpd" />
       <concept id="6176023809880707770" name="org.campagnelab.metar.R.structure.IntLiteralExpr" flags="ng" index="2PZJpk">
         <property id="1229604057012663654" name="value" index="pzxG6" />
@@ -97,6 +114,10 @@
         <property id="1229604057012663630" name="value" index="pzxGI" />
       </concept>
       <concept id="6176023809880707767" name="org.campagnelab.metar.R.structure.Identifier" flags="ng" index="2PZJpp" />
+      <concept id="6176023809880707743" name="org.campagnelab.metar.R.structure.UnaryOperatorExpr" flags="ng" index="2PZJpL">
+        <child id="489068675546663434" name="expression" index="22sOXk" />
+        <child id="489068675546663431" name="operator" index="22sOXp" />
+      </concept>
       <concept id="6176023809880707741" name="org.campagnelab.metar.R.structure.DollarExpr" flags="ng" index="2PZJpN" />
       <concept id="6176023809880685262" name="org.campagnelab.metar.R.structure.ProgramProg" flags="ng" index="2PZPSw" />
       <concept id="6176023809880685261" name="org.campagnelab.metar.R.structure.Prog" flags="ng" index="2PZPSz">
@@ -104,6 +125,9 @@
       </concept>
       <concept id="4933197140516011539" name="org.campagnelab.metar.R.structure.PositionalParameterValue" flags="ng" index="V6WaU" />
       <concept id="4933197140516011540" name="org.campagnelab.metar.R.structure.ParameterValueWithId" flags="ng" index="V6WaX" />
+      <concept id="3737166271522079190" name="org.campagnelab.metar.R.structure.Exprlist" flags="ng" index="13u1kU">
+        <child id="3737166271522079191" name="expressions" index="13u1kV" />
+      </concept>
       <concept id="7431839982580115597" name="org.campagnelab.metar.R.structure.FunctionIdRef" flags="ng" index="3a69Ir">
         <reference id="7431839982580117056" name="function" index="3a69Pm" />
       </concept>
@@ -6787,6 +6811,549 @@
       </node>
     </node>
     <node concept="3cU4HJ" id="364jCCZLNQ6" role="pZjJ2" />
+  </node>
+  <node concept="2PZPSw" id="4MN$qOAyQEh">
+    <property role="TrG5h" value="AnRScript" />
+    <node concept="2PZJp0" id="4MN$qOAyXJ0" role="pZjJ2">
+      <node concept="2PZJpb" id="4MN$qOAyXJ3" role="oP3ar">
+        <node concept="20C$T_" id="4MN$qOAyXJ4" role="22sOXp" />
+        <node concept="2PZJp2" id="4MN$qOAyXJ5" role="22sOXk">
+          <node concept="gNbv0" id="4MN$qOAyXJ8" role="134Gdu">
+            <node concept="V6WaU" id="4MN$qOAyXJ9" role="gNbrm">
+              <node concept="2PZJpm" id="4MN$qOAyXJc" role="gNbhV">
+                <property role="pzxGI" value="BiocInstaller" />
+              </node>
+            </node>
+          </node>
+          <node concept="3a69Ir" id="4MN$qOAyXSH" role="134Gdo">
+            <ref role="3a69Pm" to="4tsn:5lRZ7X4U4xA" />
+            <ref role="1Li74V" to="4tsn:5lRZ7X4U4x_" resolve="require" />
+          </node>
+        </node>
+      </node>
+      <node concept="2PZJp3" id="4MN$qOAyXJd" role="oP3dk">
+        <node concept="13u1kU" id="4MN$qOAyXJf" role="13uv25">
+          <node concept="2PZJp2" id="4MN$qOAyXJg" role="13u1kV">
+            <node concept="gNbv0" id="4MN$qOAyXJj" role="134Gdu">
+              <node concept="V6WaU" id="4MN$qOAyXJk" role="gNbrm">
+                <node concept="2PZJpm" id="4MN$qOAyXJn" role="gNbhV">
+                  <property role="pzxGI" value="http://bioconductor.org/biocLite.R" />
+                </node>
+              </node>
+              <node concept="V6WaX" id="4MN$qOAyXJo" role="gNbrm">
+                <property role="gNbhX" value="local" />
+                <node concept="2PZJoJ" id="4MN$qOAyXJr" role="gNbhV">
+                  <property role="pzIeI" value="true" />
+                </node>
+              </node>
+            </node>
+            <node concept="3a69Ir" id="4MN$qOAyXSF" role="134Gdo">
+              <ref role="3a69Pm" to="4tsn:5lRZ7X4U4Li" />
+              <ref role="1Li74V" to="4tsn:5lRZ7X4U4Lh" resolve="source" />
+            </node>
+          </node>
+          <node concept="2PZJp2" id="4MN$qOAyXJs" role="13u1kV">
+            <node concept="2PZJpp" id="4MN$qOAyXJu" role="134Gdo">
+              <property role="TrG5h" value="biocLite" />
+            </node>
+            <node concept="gNbv0" id="4MN$qOAyXJv" role="134Gdu">
+              <node concept="V6WaX" id="4MN$qOAyXJw" role="gNbrm">
+                <property role="gNbhX" value="ask" />
+                <node concept="2PZJoG" id="4MN$qOAyXJz" role="gNbhV" />
+              </node>
+              <node concept="V6WaU" id="4MN$qOAyXJ$" role="gNbrm">
+                <node concept="2PZJp2" id="4MN$qOAyXJB" role="gNbhV">
+                  <node concept="gNbv0" id="4MN$qOAyXJE" role="134Gdu">
+                    <node concept="V6WaU" id="4MN$qOAyXJF" role="gNbrm">
+                      <node concept="2PZJpm" id="4MN$qOAyXJI" role="gNbhV">
+                        <property role="pzxGI" value="edgeR" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3a69Ir" id="4MN$qOAyXT5" role="134Gdo">
+                    <ref role="1Li74V" to="4tsn:5lRZ7X4U35M" resolve="c" />
+                    <ref role="3a69Pm" to="4tsn:5lRZ7X4U35N" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2PZJp0" id="4MN$qOAyXJJ" role="pZjJ2">
+      <node concept="2PZJpb" id="4MN$qOAyXJM" role="oP3ar">
+        <node concept="20C$T_" id="4MN$qOAyXJN" role="22sOXp" />
+        <node concept="2PZJp2" id="4MN$qOAyXJO" role="22sOXk">
+          <node concept="gNbv0" id="4MN$qOAyXJR" role="134Gdu">
+            <node concept="V6WaU" id="4MN$qOAyXJS" role="gNbrm">
+              <node concept="2PZJpm" id="4MN$qOAyXJV" role="gNbhV">
+                <property role="pzxGI" value="plyr" />
+              </node>
+            </node>
+          </node>
+          <node concept="3a69Ir" id="4MN$qOAyXSZ" role="134Gdo">
+            <ref role="3a69Pm" to="4tsn:5lRZ7X4U4xA" />
+            <ref role="1Li74V" to="4tsn:5lRZ7X4U4x_" resolve="require" />
+          </node>
+        </node>
+      </node>
+      <node concept="2PZJp3" id="4MN$qOAyXJW" role="oP3dk">
+        <node concept="13u1kU" id="4MN$qOAyXJY" role="13uv25">
+          <node concept="2PZJp2" id="4MN$qOAyXJZ" role="13u1kV">
+            <node concept="2PZJpp" id="4MN$qOAyXK1" role="134Gdo">
+              <property role="TrG5h" value="install.packages" />
+            </node>
+            <node concept="gNbv0" id="4MN$qOAyXK2" role="134Gdu">
+              <node concept="V6WaU" id="4MN$qOAyXK3" role="gNbrm">
+                <node concept="2PZJpm" id="4MN$qOAyXK6" role="gNbhV">
+                  <property role="pzxGI" value="plyr" />
+                </node>
+              </node>
+              <node concept="V6WaX" id="4MN$qOAyXK7" role="gNbrm">
+                <property role="gNbhX" value="repos" />
+                <node concept="2PZJpm" id="4MN$qOAyXKa" role="gNbhV">
+                  <property role="pzxGI" value="http://cran.us.r-project.org" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="2PZJp2" id="4MN$qOAyXKb" role="13u1kV">
+            <node concept="gNbv0" id="4MN$qOAyXKe" role="134Gdu">
+              <node concept="V6WaU" id="4MN$qOAyXKf" role="gNbrm">
+                <node concept="2PZJpm" id="4MN$qOAyXKi" role="gNbhV">
+                  <property role="pzxGI" value="plyr" />
+                </node>
+              </node>
+            </node>
+            <node concept="3a69Ir" id="4MN$qOAyXSP" role="134Gdo">
+              <ref role="3a69Pm" to="4tsn:5lRZ7X4U3Tf" />
+              <ref role="1Li74V" to="4tsn:5lRZ7X4U3Te" resolve="library" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2PZJp0" id="4MN$qOAyXKj" role="pZjJ2">
+      <node concept="2PZJpb" id="4MN$qOAyXKm" role="oP3ar">
+        <node concept="20C$T_" id="4MN$qOAyXKn" role="22sOXp" />
+        <node concept="2PZJp2" id="4MN$qOAyXKo" role="22sOXk">
+          <node concept="gNbv0" id="4MN$qOAyXKr" role="134Gdu">
+            <node concept="V6WaU" id="4MN$qOAyXKs" role="gNbrm">
+              <node concept="2PZJpm" id="4MN$qOAyXKv" role="gNbhV">
+                <property role="pzxGI" value="edgeR" />
+              </node>
+            </node>
+          </node>
+          <node concept="3a69Ir" id="4MN$qOAyXT1" role="134Gdo">
+            <ref role="3a69Pm" to="4tsn:5lRZ7X4U4xA" />
+            <ref role="1Li74V" to="4tsn:5lRZ7X4U4x_" resolve="require" />
+          </node>
+        </node>
+      </node>
+      <node concept="2PZJp3" id="4MN$qOAyXKw" role="oP3dk">
+        <node concept="13u1kU" id="4MN$qOAyXKy" role="13uv25">
+          <node concept="2PZJp2" id="4MN$qOAyXKz" role="13u1kV">
+            <node concept="2PZJpp" id="4MN$qOAyXK_" role="134Gdo">
+              <property role="TrG5h" value="install.packages" />
+            </node>
+            <node concept="gNbv0" id="4MN$qOAyXKA" role="134Gdu">
+              <node concept="V6WaU" id="4MN$qOAyXKB" role="gNbrm">
+                <node concept="2PZJpm" id="4MN$qOAyXKE" role="gNbhV">
+                  <property role="pzxGI" value="edgeR" />
+                </node>
+              </node>
+              <node concept="V6WaX" id="4MN$qOAyXKF" role="gNbrm">
+                <property role="gNbhX" value="repos" />
+                <node concept="2PZJpm" id="4MN$qOAyXKI" role="gNbhV">
+                  <property role="pzxGI" value="http://cran.us.r-project.org" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="2PZJp2" id="4MN$qOAyXKJ" role="13u1kV">
+            <node concept="gNbv0" id="4MN$qOAyXKM" role="134Gdu">
+              <node concept="V6WaU" id="4MN$qOAyXKN" role="gNbrm">
+                <node concept="2PZJpm" id="4MN$qOAyXKQ" role="gNbhV">
+                  <property role="pzxGI" value="edgeR" />
+                </node>
+              </node>
+            </node>
+            <node concept="3a69Ir" id="4MN$qOAyXSL" role="134Gdo">
+              <ref role="3a69Pm" to="4tsn:5lRZ7X4U3Tf" />
+              <ref role="1Li74V" to="4tsn:5lRZ7X4U3Te" resolve="library" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2PZJp0" id="4MN$qOAyXKR" role="pZjJ2">
+      <node concept="2PZJpb" id="4MN$qOAyXKU" role="oP3ar">
+        <node concept="20C$T_" id="4MN$qOAyXKV" role="22sOXp" />
+        <node concept="2PZJp2" id="4MN$qOAyXKW" role="22sOXk">
+          <node concept="gNbv0" id="4MN$qOAyXKZ" role="134Gdu">
+            <node concept="V6WaU" id="4MN$qOAyXL0" role="gNbrm">
+              <node concept="2PZJpm" id="4MN$qOAyXL3" role="gNbhV">
+                <property role="pzxGI" value="Cairo" />
+              </node>
+            </node>
+          </node>
+          <node concept="3a69Ir" id="4MN$qOAyXSJ" role="134Gdo">
+            <ref role="3a69Pm" to="4tsn:5lRZ7X4U4xA" />
+            <ref role="1Li74V" to="4tsn:5lRZ7X4U4x_" resolve="require" />
+          </node>
+        </node>
+      </node>
+      <node concept="2PZJp3" id="4MN$qOAyXL4" role="oP3dk">
+        <node concept="13u1kU" id="4MN$qOAyXL6" role="13uv25">
+          <node concept="2PZJp2" id="4MN$qOAyXL7" role="13u1kV">
+            <node concept="2PZJpp" id="4MN$qOAyXL9" role="134Gdo">
+              <property role="TrG5h" value="install.packages" />
+            </node>
+            <node concept="gNbv0" id="4MN$qOAyXLa" role="134Gdu">
+              <node concept="V6WaU" id="4MN$qOAyXLb" role="gNbrm">
+                <node concept="2PZJpm" id="4MN$qOAyXLe" role="gNbhV">
+                  <property role="pzxGI" value="Cairo" />
+                </node>
+              </node>
+              <node concept="V6WaX" id="4MN$qOAyXLf" role="gNbrm">
+                <property role="gNbhX" value="repos" />
+                <node concept="2PZJpm" id="4MN$qOAyXLi" role="gNbhV">
+                  <property role="pzxGI" value="http://cran.us.r-project.org" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="2PZJp2" id="4MN$qOAyXLj" role="13u1kV">
+            <node concept="gNbv0" id="4MN$qOAyXLm" role="134Gdu">
+              <node concept="V6WaU" id="4MN$qOAyXLn" role="gNbrm">
+                <node concept="2PZJpm" id="4MN$qOAyXLq" role="gNbhV">
+                  <property role="pzxGI" value="Cairo" />
+                </node>
+              </node>
+            </node>
+            <node concept="3a69Ir" id="4MN$qOAyXSR" role="134Gdo">
+              <ref role="3a69Pm" to="4tsn:5lRZ7X4U3Tf" />
+              <ref role="1Li74V" to="4tsn:5lRZ7X4U3Te" resolve="library" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2PZJp0" id="4MN$qOAyXLr" role="pZjJ2">
+      <node concept="2PZJpb" id="4MN$qOAyXLu" role="oP3ar">
+        <node concept="20C$T_" id="4MN$qOAyXLv" role="22sOXp" />
+        <node concept="2PZJp2" id="4MN$qOAyXLw" role="22sOXk">
+          <node concept="gNbv0" id="4MN$qOAyXLz" role="134Gdu">
+            <node concept="V6WaU" id="4MN$qOAyXL$" role="gNbrm">
+              <node concept="2PZJpm" id="4MN$qOAyXLB" role="gNbhV">
+                <property role="pzxGI" value="pheatmap" />
+              </node>
+            </node>
+          </node>
+          <node concept="3a69Ir" id="4MN$qOAyXT3" role="134Gdo">
+            <ref role="3a69Pm" to="4tsn:5lRZ7X4U4xA" />
+            <ref role="1Li74V" to="4tsn:5lRZ7X4U4x_" resolve="require" />
+          </node>
+        </node>
+      </node>
+      <node concept="2PZJp3" id="4MN$qOAyXLC" role="oP3dk">
+        <node concept="13u1kU" id="4MN$qOAyXLE" role="13uv25">
+          <node concept="2PZJp2" id="4MN$qOAyXLF" role="13u1kV">
+            <node concept="2PZJpp" id="4MN$qOAyXLH" role="134Gdo">
+              <property role="TrG5h" value="install.packages" />
+            </node>
+            <node concept="gNbv0" id="4MN$qOAyXLI" role="134Gdu">
+              <node concept="V6WaU" id="4MN$qOAyXLJ" role="gNbrm">
+                <node concept="2PZJpm" id="4MN$qOAyXLM" role="gNbhV">
+                  <property role="pzxGI" value="pheatmap" />
+                </node>
+              </node>
+              <node concept="V6WaX" id="4MN$qOAyXLN" role="gNbrm">
+                <property role="gNbhX" value="repos" />
+                <node concept="2PZJpm" id="4MN$qOAyXLQ" role="gNbhV">
+                  <property role="pzxGI" value="http://cran.us.r-project.org" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="2PZJp2" id="4MN$qOAyXLR" role="13u1kV">
+            <node concept="gNbv0" id="4MN$qOAyXLU" role="134Gdu">
+              <node concept="V6WaU" id="4MN$qOAyXLV" role="gNbrm">
+                <node concept="2PZJpm" id="4MN$qOAyXLY" role="gNbhV">
+                  <property role="pzxGI" value="pheatmap" />
+                </node>
+              </node>
+            </node>
+            <node concept="3a69Ir" id="4MN$qOAyXST" role="134Gdo">
+              <ref role="3a69Pm" to="4tsn:5lRZ7X4U3Tf" />
+              <ref role="1Li74V" to="4tsn:5lRZ7X4U3Te" resolve="library" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2PZJp0" id="4MN$qOAyXLZ" role="pZjJ2">
+      <node concept="2PZJpb" id="4MN$qOAyXM2" role="oP3ar">
+        <node concept="20C$T_" id="4MN$qOAyXM3" role="22sOXp" />
+        <node concept="2PZJp2" id="4MN$qOAyXM4" role="22sOXk">
+          <node concept="gNbv0" id="4MN$qOAyXM7" role="134Gdu">
+            <node concept="V6WaU" id="4MN$qOAyXM8" role="gNbrm">
+              <node concept="2PZJpm" id="4MN$qOAyXMb" role="gNbhV">
+                <property role="pzxGI" value="limma" />
+              </node>
+            </node>
+          </node>
+          <node concept="3a69Ir" id="4MN$qOAyXSN" role="134Gdo">
+            <ref role="3a69Pm" to="4tsn:5lRZ7X4U4xA" />
+            <ref role="1Li74V" to="4tsn:5lRZ7X4U4x_" resolve="require" />
+          </node>
+        </node>
+      </node>
+      <node concept="2PZJp3" id="4MN$qOAyXMc" role="oP3dk">
+        <node concept="13u1kU" id="4MN$qOAyXMe" role="13uv25">
+          <node concept="2PZJp2" id="4MN$qOAyXMf" role="13u1kV">
+            <node concept="2PZJpp" id="4MN$qOAyXMh" role="134Gdo">
+              <property role="TrG5h" value="install.packages" />
+            </node>
+            <node concept="gNbv0" id="4MN$qOAyXMi" role="134Gdu">
+              <node concept="V6WaU" id="4MN$qOAyXMj" role="gNbrm">
+                <node concept="2PZJpm" id="4MN$qOAyXMm" role="gNbhV">
+                  <property role="pzxGI" value="limma" />
+                </node>
+              </node>
+              <node concept="V6WaX" id="4MN$qOAyXMn" role="gNbrm">
+                <property role="gNbhX" value="repos" />
+                <node concept="2PZJpm" id="4MN$qOAyXMq" role="gNbhV">
+                  <property role="pzxGI" value="http://cran.us.r-project.org" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="2PZJp2" id="4MN$qOAyXMr" role="13u1kV">
+            <node concept="gNbv0" id="4MN$qOAyXMu" role="134Gdu">
+              <node concept="V6WaU" id="4MN$qOAyXMv" role="gNbrm">
+                <node concept="2PZJpm" id="4MN$qOAyXMy" role="gNbhV">
+                  <property role="pzxGI" value="limma" />
+                </node>
+              </node>
+            </node>
+            <node concept="3a69Ir" id="4MN$qOAyXSD" role="134Gdo">
+              <ref role="3a69Pm" to="4tsn:5lRZ7X4U3Tf" />
+              <ref role="1Li74V" to="4tsn:5lRZ7X4U3Te" resolve="library" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2PZJp0" id="4MN$qOAyXMz" role="pZjJ2">
+      <node concept="2PZJpb" id="4MN$qOAyXMA" role="oP3ar">
+        <node concept="20C$T_" id="4MN$qOAyXMB" role="22sOXp" />
+        <node concept="2PZJp2" id="4MN$qOAyXMC" role="22sOXk">
+          <node concept="gNbv0" id="4MN$qOAyXMF" role="134Gdu">
+            <node concept="V6WaU" id="4MN$qOAyXMG" role="gNbrm">
+              <node concept="2PZJpm" id="4MN$qOAyXMJ" role="gNbhV">
+                <property role="pzxGI" value="data.table" />
+              </node>
+            </node>
+          </node>
+          <node concept="3a69Ir" id="4MN$qOAyXSV" role="134Gdo">
+            <ref role="3a69Pm" to="4tsn:5lRZ7X4U4xA" />
+            <ref role="1Li74V" to="4tsn:5lRZ7X4U4x_" resolve="require" />
+          </node>
+        </node>
+      </node>
+      <node concept="2PZJp3" id="4MN$qOAyXMK" role="oP3dk">
+        <node concept="13u1kU" id="4MN$qOAyXMM" role="13uv25">
+          <node concept="2PZJp2" id="4MN$qOAyXMN" role="13u1kV">
+            <node concept="2PZJpp" id="4MN$qOAyXMP" role="134Gdo">
+              <property role="TrG5h" value="install.packages" />
+            </node>
+            <node concept="gNbv0" id="4MN$qOAyXMQ" role="134Gdu">
+              <node concept="V6WaU" id="4MN$qOAyXMR" role="gNbrm">
+                <node concept="2PZJpm" id="4MN$qOAyXMU" role="gNbhV">
+                  <property role="pzxGI" value="data.table" />
+                </node>
+              </node>
+              <node concept="V6WaX" id="4MN$qOAyXMV" role="gNbrm">
+                <property role="gNbhX" value="repos" />
+                <node concept="2PZJpm" id="4MN$qOAyXMY" role="gNbhV">
+                  <property role="pzxGI" value="http://cran.us.r-project.org" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="2PZJp2" id="4MN$qOAyXMZ" role="13u1kV">
+            <node concept="gNbv0" id="4MN$qOAyXN2" role="134Gdu">
+              <node concept="V6WaU" id="4MN$qOAyXN3" role="gNbrm">
+                <node concept="2PZJpm" id="4MN$qOAyXN6" role="gNbhV">
+                  <property role="pzxGI" value="data.table" />
+                </node>
+              </node>
+            </node>
+            <node concept="3a69Ir" id="4MN$qOAyXSX" role="134Gdo">
+              <ref role="3a69Pm" to="4tsn:5lRZ7X4U3Tf" />
+              <ref role="1Li74V" to="4tsn:5lRZ7X4U3Te" resolve="library" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2PZJp2" id="4MN$qOAFp$7" role="pZjJ2">
+      <node concept="2PZJpp" id="4MN$qOAFpBA" role="134Gdo">
+        <property role="TrG5h" value="install.packages" />
+      </node>
+      <node concept="gNbv0" id="4MN$qOAFp$a" role="134Gdu">
+        <node concept="V6WaU" id="4MN$qOAFpBC" role="gNbrm">
+          <node concept="V6WaU" id="4MN$qOAFpBH" role="gNbhV">
+            <node concept="2PZJp4" id="4MN$qOAFpBO" role="gNbhV">
+              <node concept="2PZJpp" id="4MN$qOAFpBR" role="2v3mow">
+                <property role="TrG5h" value="package" />
+              </node>
+              <node concept="2PZJpm" id="4MN$qOAFpBS" role="2v3moI">
+                <property role="pzxGI" value="" />
+              </node>
+              <node concept="22gcco" id="4MN$qOAFpBT" role="22hImy" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2PZJp2" id="4MN$qOAyXN7" role="pZjJ2">
+      <node concept="2PZJp4" id="4MN$qOAyXN9" role="134Gdo">
+        <node concept="2PZJpp" id="4MN$qOAyXNc" role="2v3mow">
+          <property role="TrG5h" value="SimulatedData.tsv" />
+        </node>
+        <node concept="2PZJpp" id="4MN$qOAyXNd" role="2v3moI">
+          <property role="TrG5h" value="fread" />
+        </node>
+        <node concept="22gccq" id="4MN$qOAyXNe" role="22hImy" />
+      </node>
+      <node concept="gNbv0" id="4MN$qOAyXNf" role="134Gdu">
+        <node concept="V6WaU" id="4MN$qOAyXNg" role="gNbrm">
+          <node concept="2PZJpm" id="4MN$qOAyXNj" role="gNbhV">
+            <property role="pzxGI" value="/Users/fac2003/MPSProjects/git/metar/data/SimulatedData.tsv" />
+          </node>
+        </node>
+        <node concept="V6WaX" id="4MN$qOAyXNk" role="gNbrm">
+          <property role="gNbhX" value="colClasses" />
+          <node concept="2PZJp2" id="4MN$qOAyXNn" role="gNbhV">
+            <node concept="gNbv0" id="4MN$qOAyXNq" role="134Gdu">
+              <node concept="V6WaU" id="4MN$qOAyXNr" role="gNbrm">
+                <node concept="2PZJpm" id="4MN$qOAyXNu" role="gNbhV">
+                  <property role="pzxGI" value="character" />
+                </node>
+              </node>
+              <node concept="V6WaU" id="4MN$qOAyXNv" role="gNbrm">
+                <node concept="2PZJpm" id="4MN$qOAyXNy" role="gNbhV">
+                  <property role="pzxGI" value="numeric" />
+                </node>
+              </node>
+              <node concept="V6WaU" id="4MN$qOAyXNz" role="gNbrm">
+                <node concept="2PZJpm" id="4MN$qOAyXNA" role="gNbhV">
+                  <property role="pzxGI" value="numeric" />
+                </node>
+              </node>
+              <node concept="V6WaU" id="4MN$qOAyXNB" role="gNbrm">
+                <node concept="2PZJpm" id="4MN$qOAyXNE" role="gNbhV">
+                  <property role="pzxGI" value="numeric" />
+                </node>
+              </node>
+              <node concept="V6WaU" id="4MN$qOAyXNF" role="gNbrm">
+                <node concept="2PZJpm" id="4MN$qOAyXNI" role="gNbhV">
+                  <property role="pzxGI" value="numeric" />
+                </node>
+              </node>
+              <node concept="V6WaU" id="4MN$qOAyXNJ" role="gNbrm">
+                <node concept="2PZJpm" id="4MN$qOAyXNM" role="gNbhV">
+                  <property role="pzxGI" value="numeric" />
+                </node>
+              </node>
+              <node concept="V6WaU" id="4MN$qOAyXNN" role="gNbrm">
+                <node concept="2PZJpm" id="4MN$qOAyXNQ" role="gNbhV">
+                  <property role="pzxGI" value="numeric" />
+                </node>
+              </node>
+              <node concept="V6WaU" id="4MN$qOAyXNR" role="gNbrm">
+                <node concept="2PZJpm" id="4MN$qOAyXNU" role="gNbhV">
+                  <property role="pzxGI" value="numeric" />
+                </node>
+              </node>
+              <node concept="V6WaU" id="4MN$qOAyXNV" role="gNbrm">
+                <node concept="2PZJpm" id="4MN$qOAyXNY" role="gNbhV">
+                  <property role="pzxGI" value="numeric" />
+                </node>
+              </node>
+              <node concept="V6WaU" id="4MN$qOAyXNZ" role="gNbrm">
+                <node concept="2PZJpm" id="4MN$qOAyXO2" role="gNbhV">
+                  <property role="pzxGI" value="numeric" />
+                </node>
+              </node>
+              <node concept="V6WaU" id="4MN$qOAyXO3" role="gNbrm">
+                <node concept="2PZJpm" id="4MN$qOAyXO6" role="gNbhV">
+                  <property role="pzxGI" value="numeric" />
+                </node>
+              </node>
+              <node concept="V6WaU" id="4MN$qOAyXO7" role="gNbrm">
+                <node concept="2PZJpm" id="4MN$qOAyXOa" role="gNbhV">
+                  <property role="pzxGI" value="numeric" />
+                </node>
+              </node>
+              <node concept="V6WaU" id="4MN$qOAyXOb" role="gNbrm">
+                <node concept="2PZJpm" id="4MN$qOAyXOe" role="gNbhV">
+                  <property role="pzxGI" value="numeric" />
+                </node>
+              </node>
+              <node concept="V6WaU" id="4MN$qOAyXOf" role="gNbrm">
+                <node concept="2PZJpm" id="4MN$qOAyXOi" role="gNbhV">
+                  <property role="pzxGI" value="numeric" />
+                </node>
+              </node>
+              <node concept="V6WaU" id="4MN$qOAyXOj" role="gNbrm">
+                <node concept="2PZJpm" id="4MN$qOAyXOm" role="gNbhV">
+                  <property role="pzxGI" value="numeric" />
+                </node>
+              </node>
+              <node concept="V6WaU" id="4MN$qOAyXOn" role="gNbrm">
+                <node concept="2PZJpm" id="4MN$qOAyXOq" role="gNbhV">
+                  <property role="pzxGI" value="numeric" />
+                </node>
+              </node>
+              <node concept="V6WaU" id="4MN$qOAyXOr" role="gNbrm">
+                <node concept="2PZJpm" id="4MN$qOAyXOu" role="gNbhV">
+                  <property role="pzxGI" value="numeric" />
+                </node>
+              </node>
+              <node concept="V6WaU" id="4MN$qOAyXOv" role="gNbrm">
+                <node concept="2PZJpm" id="4MN$qOAyXOy" role="gNbhV">
+                  <property role="pzxGI" value="numeric" />
+                </node>
+              </node>
+              <node concept="V6WaU" id="4MN$qOAyXOz" role="gNbrm">
+                <node concept="2PZJpm" id="4MN$qOAyXOA" role="gNbhV">
+                  <property role="pzxGI" value="numeric" />
+                </node>
+              </node>
+              <node concept="V6WaU" id="4MN$qOAyXOB" role="gNbrm">
+                <node concept="2PZJpm" id="4MN$qOAyXOE" role="gNbhV">
+                  <property role="pzxGI" value="numeric" />
+                </node>
+              </node>
+              <node concept="V6WaU" id="4MN$qOAyXOF" role="gNbrm">
+                <node concept="2PZJpm" id="4MN$qOAyXOI" role="gNbhV">
+                  <property role="pzxGI" value="numeric" />
+                </node>
+              </node>
+            </node>
+            <node concept="3a69Ir" id="4MN$qOAyXSB" role="134Gdo">
+              <ref role="3a69Pm" to="4tsn:5lRZ7X4U35N" />
+              <ref role="1Li74V" to="4tsn:5lRZ7X4U35M" resolve="c" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3cU4HJ" id="4MN$qOAFoUK" role="pZjJ2" />
   </node>
 </model>
 
