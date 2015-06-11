@@ -37,7 +37,7 @@ public class QueriesGenerated {
   public static Object propertyMacro_GetPropertyValue_4994424750904625309(final PropertyMacroContext _context) {
     return Statement_Behavior.call_errorCatchingEnabled_2742007948304790371(_context.getNode());
   }
-  public static SNode sourceNodeQuery_2324880425334170181(final SourceSubstituteMacroNodeContext _context) {
+  public static SNode sourceNodeQuery_5526921340575428228(final SourceSubstituteMacroNodeContext _context) {
     return SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getReferenceLink(0xc1747c678f424d83L, 0x95424a948aec17d9L, 0x25c237501b8dbbbcL, 0x25c237501b8e2696L, "prog"));
   }
 }
