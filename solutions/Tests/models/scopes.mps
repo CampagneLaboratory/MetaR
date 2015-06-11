@@ -20,7 +20,7 @@
   </languages>
   <imports>
     <import index="9nc5" ref="r:d1a256e6-591a-459f-809c-7fc9df45e4d5(org.campagnelab.mps.XChart.types.roots)" implicit="true" />
-    <import index="4tsn" ref="r:97aeaa4f-346d-4633-b5a0-99879648272c(R3_1_3@stubs)" implicit="true" />
+    <import index="4tsn" ref="r:97aeaa4f-346d-4633-b5a0-99879648272c(stubs_3_1_3)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
