@@ -81,7 +81,9 @@
       <concept id="1168024337012" name="jetbrains.mps.lang.generator.structure.SourceSubstituteMacro_SourceNodeQuery" flags="in" index="3NFfHV" />
     </language>
     <language id="3b58810c-8431-4bbb-99ea-b4671e02dd13" name="org.campagnelab.metar.R">
-      <concept id="7174230558107489020" name="org.campagnelab.metar.R.structure.Stubs" flags="ng" index="3Nc2Ti" />
+      <concept id="7174230558107489020" name="org.campagnelab.metar.R.structure.Stubs" flags="ng" index="3Nc2Ti">
+        <property id="7174230558107489021" name="isBioconductor" index="3Nc2Tj" />
+      </concept>
     </language>
     <language id="901f5cf3-dc77-4c1e-bc5a-6382baee28b4" name="org.campagnelab.textoutput">
       <concept id="5039633819242576787" name="org.campagnelab.textoutput.structure.Lines" flags="ng" index="2G3XJi">
@@ -93,11 +95,6 @@
       </concept>
       <concept id="1680136183140337486" name="org.campagnelab.textoutput.structure.Phrase" flags="ng" index="3_3kQU">
         <property id="1680136183140337487" name="text" index="3_3kQV" />
-      </concept>
-    </language>
-    <language id="c1747c67-8f42-4d83-9542-4a948aec17d9" name="org.campagnelab.metar.functions.importing">
-      <concept id="2324880425333148499" name="org.campagnelab.metar.functions.importing.structure.Stubs" flags="ng" index="3TvA$Y">
-        <property id="2324880425333420411" name="isBioconductor" index="3T0_cm" />
       </concept>
     </language>
     <language id="32f503e8-061b-451e-bcb0-fef56aa05eb9" name="org.campagnelab.metar.inspect">
@@ -181,18 +178,18 @@
     <node concept="3aamgX" id="YA$ymnyRz8" role="3acgRq">
       <ref role="30HIoZ" to="8t56:2n2dP0rzrIW" resolve="ImportStubs" />
       <node concept="gft3U" id="213CARpjm8N" role="1lVwrX">
-        <node concept="3Nc2Ti" id="213CARpjm8V" role="gfFT$">
-          <property role="3T0_cm" value="false" />
-          <property role="TrG5h" value="stubs" />
-          <node concept="29HgVG" id="213CARpjm92" role="lGtFl">
-            <node concept="3NFfHV" id="213CARpjm95" role="3NFExx">
-              <node concept="3clFbS" id="213CARpjm96" role="2VODD2">
-                <node concept="3clFbF" id="213CARpjm9K" role="3cqZAp">
-                  <node concept="2OqwBi" id="213CARpjmdj" role="3clFbG">
-                    <node concept="30H73N" id="213CARpjm9J" role="2Oq$k0" />
-                    <node concept="3TrEf2" id="213CARpjmub" role="2OqNvi">
+        <node concept="3Nc2Ti" id="4MN$qOAxyTZ" role="gfFT$">
+          <property role="3Nc2Tj" value="false" />
+          <property role="TrG5h" value="someStub" />
+          <node concept="29HgVG" id="4MN$qOAxyU3" role="lGtFl">
+            <node concept="3NFfHV" id="4MN$qOAxyU4" role="3NFExx">
+              <node concept="3clFbS" id="4MN$qOAxyU5" role="2VODD2">
+                <node concept="3clFbF" id="4MN$qOAxyUb" role="3cqZAp">
+                  <node concept="2OqwBi" id="4MN$qOAxyU6" role="3clFbG">
+                    <node concept="3TrEf2" id="4MN$qOAxyU9" role="2OqNvi">
                       <ref role="3Tt5mk" to="8t56:2n2dP0rzyqm" />
                     </node>
+                    <node concept="30H73N" id="4MN$qOAxyUa" role="2Oq$k0" />
                   </node>
                 </node>
               </node>
