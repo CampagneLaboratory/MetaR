@@ -62,12 +62,16 @@
       </concept>
     </language>
     <language id="040d3459-0033-45bb-b823-4cfd22657c15" name="org.campagnelab.metar.biomartToR">
+      <concept id="1405455181998775364" name="org.campagnelab.metar.biomartToR.structure.ExposedTable" flags="ng" index="2Phv9e">
+        <reference id="1405455182018928814" name="table" index="2OukU$" />
+      </concept>
       <concept id="5857936452045887397" name="org.campagnelab.metar.biomartToR.structure.BiomartinR" flags="ng" index="3ci$mf">
         <child id="5857936452045932777" name="biomartref" index="3cihF3" />
       </concept>
     </language>
     <language id="3b58810c-8431-4bbb-99ea-b4671e02dd13" name="org.campagnelab.metar.R">
       <concept id="489068675543418426" name="org.campagnelab.metar.R.structure.AddOperator" flags="ng" index="22gcd$" />
+      <concept id="489068675543418421" name="org.campagnelab.metar.R.structure.Dollar" flags="ng" index="22gcdF" />
       <concept id="5770663561153558147" name="org.campagnelab.metar.R.structure.ParameterValue" flags="ng" index="gNblG">
         <property id="5770663561153558418" name="id" index="gNbhX" />
         <reference id="1556967766004741819" name="parameter" index="eUkdk" />
@@ -92,6 +96,8 @@
       <concept id="6176023809880707768" name="org.campagnelab.metar.R.structure.StringLiteralExpr" flags="ng" index="2PZJpm">
         <property id="1229604057012663630" name="value" index="pzxGI" />
       </concept>
+      <concept id="6176023809880707767" name="org.campagnelab.metar.R.structure.Identifier" flags="ng" index="2PZJpp" />
+      <concept id="6176023809880707741" name="org.campagnelab.metar.R.structure.DollarExpr" flags="ng" index="2PZJpN" />
       <concept id="6176023809880685262" name="org.campagnelab.metar.R.structure.ProgramProg" flags="ng" index="2PZPSw" />
       <concept id="6176023809880685261" name="org.campagnelab.metar.R.structure.Prog" flags="ng" index="2PZPSz">
         <child id="1229604057017832866" name="expressions" index="pZjJ2" />
@@ -6697,6 +6703,42 @@
           <ref role="1KEnK9" node="364jCCZGc0Y" resolve="% Identity with respect to Amazon molly gene from pformosa homologs" />
           <node concept="2q4RLF" id="364jCCZGcPr" role="2qZv53">
             <property role="2qiqCQ" value="string" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2PZJp2" id="364jCCZMMTK" role="pZjJ2">
+      <node concept="gNbv0" id="364jCCZMMTN" role="134Gdu">
+        <node concept="V6WaU" id="364jCCZMMTO" role="gNbrm">
+          <node concept="2PZJpm" id="364jCCZMMTR" role="gNbhV">
+            <property role="pzxGI" value="graphics" />
+          </node>
+        </node>
+      </node>
+      <node concept="3a69Ir" id="364jCCZMNfr" role="134Gdo">
+        <ref role="3a69Pm" to="4tsn:5lRZ7X4U3Tf" />
+        <ref role="1Li74V" to="4tsn:5lRZ7X4U3Te" resolve="library" />
+      </node>
+    </node>
+    <node concept="3cU4HJ" id="364jCCZMOgc" role="pZjJ2" />
+    <node concept="2Phv9e" id="364jCCZNE6c" role="pZjJ2">
+      <property role="TrG5h" value="resultFromBioMart" />
+      <ref role="2OukU$" node="364jCCZGbRi" resolve="resultFromBioMart" />
+    </node>
+    <node concept="2PZJp2" id="364jCCZMNU$" role="pZjJ2">
+      <node concept="2PZJpp" id="364jCCZMNUA" role="134Gdo">
+        <property role="TrG5h" value="hist" />
+      </node>
+      <node concept="gNbv0" id="364jCCZMNUB" role="134Gdu">
+        <node concept="V6WaU" id="364jCCZNnG8" role="gNbrm">
+          <node concept="2PZJpN" id="364jCCZNErU" role="gNbhV">
+            <node concept="2PZJpp" id="364jCCZNErW" role="2v3mow">
+              <property role="TrG5h" value="resultFromBioMart" />
+            </node>
+            <node concept="22gcdF" id="364jCCZNErX" role="22hImy" />
+            <node concept="2PZJpm" id="364jCCZNEs6" role="2v3moI">
+              <property role="pzxGI" value="pourcent_Identity_with_respect_to_Amazon_molly_gene_from_pformosa_homologs" />
+            </node>
           </node>
         </node>
       </node>
