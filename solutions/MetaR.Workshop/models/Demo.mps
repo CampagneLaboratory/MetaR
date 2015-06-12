@@ -77,7 +77,6 @@
         <child id="5703306641526703109" name="usages" index="2tncD" />
         <child id="6583618001716896682" name="scaling" index="2Mr_oq" />
       </concept>
-      <concept id="4067230457178079076" name="org.campagnelab.metar.tables.structure.CommentedStatementsBlock" flags="ng" index="3NwJD" />
       <concept id="4451133196879828915" name="org.campagnelab.metar.tables.structure.TableRef" flags="ng" index="afgQW">
         <reference id="4451133196879830023" name="table" index="afgo8" />
       </concept>
@@ -354,8 +353,8 @@
       <property role="TrG5h" value="DCLPS0910" />
       <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
       <node concept="3MzsTm" id="4$IC3Kj1JTu" role="lGtFl">
-        <node concept="3MzsBX" id="4$IC3Kj1JTv" role="3MztjM">
-          <ref role="3MzsBM" node="4DOwJpJxBt4" resolve="LPS=NO" />
+        <node concept="3MzsBX" id="4MN$qOAZhcZ" role="3MztjM">
+          <ref role="3MzsBM" node="4DOwJpJxBt0" resolve="LPS=YES" />
         </node>
         <node concept="3MzsBX" id="4$IC3Kj1JTw" role="3MztjM">
           <ref role="3MzsBM" node="w5znaeV$En" resolve="counts" />
@@ -366,8 +365,8 @@
       <property role="TrG5h" value="DCLPS0913" />
       <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
       <node concept="3MzsTm" id="4$IC3Kj1JTy" role="lGtFl">
-        <node concept="3MzsBX" id="4$IC3Kj1JTz" role="3MztjM">
-          <ref role="3MzsBM" node="4DOwJpJxBt4" resolve="LPS=NO" />
+        <node concept="3MzsBX" id="4MN$qOAZhd5" role="3MztjM">
+          <ref role="3MzsBM" node="4DOwJpJxBt0" resolve="LPS=YES" />
         </node>
         <node concept="3MzsBX" id="4$IC3Kj1JT$" role="3MztjM">
           <ref role="3MzsBM" node="w5znaeV$En" resolve="counts" />
@@ -1340,9 +1339,6 @@
             </node>
           </node>
         </node>
-      </node>
-      <node concept="3NwJD" id="3W3L4MKhYAJ" role="ZXjPg">
-        <property role="S1EQ6" value="DBOLGYXMPF" />
       </node>
       <node concept="1FHY16" id="4r50q8aI6GA" role="ZXjPg">
         <property role="S1EQ6" value="FSKNYXFMLW" />
