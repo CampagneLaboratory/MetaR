@@ -584,6 +584,18 @@
           <property role="3LESm3" value="f306dc96-26f1-4fde-859b-43645dd57254" />
           <property role="2GAjPV" value="false" />
         </node>
+        <node concept="1SiIV0" id="7mKjXEiDSVt" role="3bR37C">
+          <node concept="3bR9La" id="7mKjXEiDSVu" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" node="3rWIEp7J4c1" resolve="org.campagnelab.metar.r.stubs" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="7mKjXEiDSVv" role="3bR37C">
+          <node concept="3bR9La" id="7mKjXEiDSVw" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" node="3gMg70bRmfh" resolve="org.campagnelab.metar.tables" />
+          </node>
+        </node>
       </node>
       <node concept="1E1JtA" id="3rWIEp7J0jZ" role="2G$12L">
         <property role="BnDLt" value="true" />
@@ -1624,6 +1636,24 @@
             <ref role="3bR37D" to="ffeo:7Kfy9QB6LgV" resolve="jetbrains.mps.make.runtime" />
           </node>
         </node>
+        <node concept="1SiIV0" id="7mKjXEiDSWS" role="3bR37C">
+          <node concept="3bR9La" id="7mKjXEiDSWT" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" to="ffeo:sx8XDLCp97" resolve="jetbrains.mps.execution.util" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="7mKjXEiDSWU" role="3bR37C">
+          <node concept="3bR9La" id="7mKjXEiDSWV" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" to="ffeo:5xa9wY2vhaQ" resolve="jetbrains.mps.baseLanguage.execution.util" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="7mKjXEiDSWW" role="3bR37C">
+          <node concept="3bR9La" id="7mKjXEiDSWX" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" node="3rWIEp7J14y" resolve="org.campagnelab.metar.R" />
+          </node>
+        </node>
       </node>
       <node concept="1E1JtD" id="1S_LPePu7V7" role="2G$12L">
         <property role="BnDLt" value="true" />
@@ -2194,6 +2224,12 @@
             <node concept="3bR9La" id="3vYuQ8LOCNc" role="1SiIV1">
               <property role="3bR36h" value="false" />
               <ref role="3bR37D" to="ffeo:7Kfy9QB6L4p" resolve="jetbrains.mps.lang.behavior" />
+            </node>
+          </node>
+          <node concept="1SiIV0" id="7mKjXEiDSXZ" role="3bR37C">
+            <node concept="3bR9La" id="7mKjXEiDSY0" role="1SiIV1">
+              <property role="3bR36h" value="false" />
+              <ref role="3bR37D" node="3rWIEp7J14y" resolve="org.campagnelab.metar.R" />
             </node>
           </node>
         </node>
