@@ -195,7 +195,7 @@
     </language>
   </registry>
   <node concept="2PZPSw" id="6efZaUgjvsC">
-    <property role="TrG5h" value="MyFirstRScript" />
+    <property role="TrG5h" value="Biomart in R Example" />
     <node concept="2PZJp2" id="6efZaUfSTV6" role="pZjJ2">
       <node concept="gNbv0" id="6efZaUfSTV9" role="134Gdu">
         <node concept="V6WaU" id="6efZaUfSTVa" role="gNbrm">
