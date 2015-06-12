@@ -56,6 +56,7 @@
         <reference id="1147467295099" name="applicableProperty" index="EomxK" />
         <child id="1212097481299" name="propertyValidator" index="QCWH9" />
       </concept>
+      <concept id="1147468365020" name="jetbrains.mps.lang.constraints.structure.ConstraintsFunctionParameter_node" flags="nn" index="EsrRn" />
       <concept id="1212096972063" name="jetbrains.mps.lang.constraints.structure.ConstraintFunction_PropertyValidator" flags="in" index="QB0g5" />
       <concept id="1213093968558" name="jetbrains.mps.lang.constraints.structure.ConceptConstraints" flags="ng" index="1M2fIO">
         <reference id="1213093996982" name="concept" index="1M2myG" />
@@ -82,6 +83,9 @@
       <concept id="1144101972840" name="jetbrains.mps.lang.smodel.structure.OperationParm_Concept" flags="ng" index="1xMEDy">
         <child id="1207343664468" name="conceptArgument" index="ri$Ld" />
       </concept>
+      <concept id="1138056022639" name="jetbrains.mps.lang.smodel.structure.SPropertyAccess" flags="nn" index="3TrcHB">
+        <reference id="1138056395725" name="property" index="3TsBF5" />
+      </concept>
     </language>
     <language id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections">
       <concept id="1176501494711" name="jetbrains.mps.baseLanguage.collections.structure.IsNotEmptyOperation" flags="nn" index="3GX2aA" />
@@ -99,7 +103,12 @@
           <node concept="3cpWs6" id="7mKjXEiE9SD" role="3cqZAp">
             <node concept="22lmx$" id="7mKjXEiEcNO" role="3cqZAk">
               <node concept="2OqwBi" id="7mKjXEiEaWd" role="3uHU7B">
-                <node concept="1Wqviy" id="7mKjXEiE9YQ" role="2Oq$k0" />
+                <node concept="2OqwBi" id="4ner_7F4weO" role="2Oq$k0">
+                  <node concept="EsrRn" id="4ner_7F4vPf" role="2Oq$k0" />
+                  <node concept="3TrcHB" id="4ner_7F4EB4" role="2OqNvi">
+                    <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                  </node>
+                </node>
                 <node concept="17RlXB" id="7mKjXEiEktd" role="2OqNvi" />
               </node>
               <node concept="2OqwBi" id="1mrtuWrNiwi" role="3uHU7w">
