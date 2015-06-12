@@ -108,7 +108,6 @@
         <property id="8962032619593737385" name="id" index="S1EQ6" />
       </concept>
       <concept id="8962032619593737380" name="org.campagnelab.metar.tables.structure.Analysis" flags="ng" index="S1EQb">
-        <property id="2742007948298959018" name="trycatch_enabled" index="2BDq$p" />
         <child id="8962032619593737383" name="statements" index="S1EQ8" />
       </concept>
       <concept id="8962032619593737377" name="org.campagnelab.metar.tables.structure.EmptyLine" flags="ng" index="S1EQe" />
@@ -498,7 +497,6 @@
   </node>
   <node concept="S1EQb" id="4DOwJpJMRj1">
     <property role="TrG5h" value="edgeR diff exp" />
-    <property role="2BDq$p" value="true" />
     <node concept="ZXjPh" id="4DOwJpJMRj2" role="S1EQ8">
       <property role="S1EQ6" value="CAILXBHGTE" />
       <node concept="S1EQe" id="3W3L4MKjOD2" role="ZXjPg">
