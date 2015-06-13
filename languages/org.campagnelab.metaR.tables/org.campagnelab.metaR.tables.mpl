@@ -7,7 +7,7 @@
     </modelRoot>
   </models>
   <accessoryModels>
-    <model modelUID="r:97aeaa4f-346d-4633-b5a0-99879648272c(stubs_3_1_3)" />
+    <model modelUID="r:97aeaa4f-346d-4633-b5a0-99879648272c(R3_1_3@stubs)" />
   </accessoryModels>
   <generators>
     <generator name="" generatorUID="org.campagnelab.metar.tables#3402264987258972825" uuid="f8960ca5-9f20-4fc0-b9f7-20a20893f26d">
