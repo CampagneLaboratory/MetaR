@@ -19,6 +19,7 @@
     <import index="o8zo" ref="r:314576fc-3aee-4386-a0a5-a38348ac317d(jetbrains.mps.scope)" />
     <import index="69j5" ref="r:cc2fd9c1-53e7-4805-a8bc-a07e69f2147b(org.campagnelab.metar.R.behavior)" />
     <import index="jrxw" ref="r:9f2bbfbf-f8b7-4b3b-92b1-b6a0e9642c10(org.campagnelab.metar.tables.structure)" />
+    <import index="n1uf" ref="r:cb035222-afa9-445c-8372-64c2390befab(org.campagnelab.metar.R.gen.behavior)" />
   </imports>
   <registry>
     <language id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior">
@@ -505,7 +506,7 @@
               <node concept="3cpWsn" id="37vylYO6Zmi" role="3cpWs9">
                 <property role="TrG5h" value="script" />
                 <node concept="3Tqbb2" id="37vylYO6ZF4" role="1tU5fm">
-                  <ref role="ehGHo" to="8t56:213CARpfsHj" resolve="Stubs" />
+                  <ref role="ehGHo" to="6q58:6efZaUgJXbW" resolve="Stubs" />
                 </node>
                 <node concept="2OqwBi" id="2ExvV8p$0c6" role="33vP2m">
                   <node concept="13iPFW" id="2ExvV8p$02d" role="2Oq$k0" />
@@ -528,7 +529,7 @@
                         <node concept="I4A8Y" id="37vylYO781Y" role="2OqNvi" />
                       </node>
                       <node concept="2xF2bX" id="37vylYO781Z" role="2OqNvi">
-                        <ref role="I8UWU" to="8t56:213CARpfsHj" resolve="Stubs" />
+                        <ref role="I8UWU" to="6q58:6efZaUgJXbW" resolve="Stubs" />
                       </node>
                     </node>
                   </node>
@@ -564,7 +565,7 @@
                         <ref role="3cqZAo" node="37vylYO6Zmi" resolve="script" />
                       </node>
                       <node concept="3TrcHB" id="213CARpkNTs" role="2OqNvi">
-                        <ref role="3TsBF5" to="8t56:213CARpgv5V" resolve="isBioconductor" />
+                        <ref role="3TsBF5" to="6q58:6efZaUgJXbX" resolve="isBioconductor" />
                       </node>
                     </node>
                   </node>
@@ -592,7 +593,7 @@
                                   <ref role="3cqZAo" node="37vylYO6Zmi" resolve="script" />
                                 </node>
                                 <node concept="3Tsc0h" id="213CARpf$$_" role="2OqNvi">
-                                  <ref role="3TtcxE" to="8t56:14grA08Vlmy" />
+                                  <ref role="3TtcxE" to="6q58:6efZaUgJXbY" />
                                 </node>
                               </node>
                               <node concept="TSZUe" id="37vylYO5IDJ" role="2OqNvi">
@@ -656,7 +657,7 @@
       <property role="TrG5h" value="findEquivalentScript" />
       <node concept="3Tm1VV" id="2ExvV8pzYLF" role="1B3o_S" />
       <node concept="3Tqbb2" id="2ExvV8pzZyL" role="3clF45">
-        <ref role="ehGHo" to="8t56:213CARpfsHj" resolve="Stubs" />
+        <ref role="ehGHo" to="6q58:6efZaUgJXbW" resolve="Stubs" />
       </node>
       <node concept="3clFbS" id="2ExvV8pzYLH" role="3clF47">
         <node concept="3clFbF" id="2ExvV8pzZ$9" role="3cqZAp">
@@ -668,7 +669,7 @@
                   <node concept="I4A8Y" id="2ExvV8pzZ$g" role="2OqNvi" />
                 </node>
                 <node concept="3lApI0" id="2ExvV8pzZ$h" role="2OqNvi">
-                  <ref role="3lApI3" to="8t56:213CARpfsHj" resolve="Stubs" />
+                  <ref role="3lApI3" to="6q58:6efZaUgJXbW" resolve="Stubs" />
                 </node>
               </node>
               <node concept="3zZkjj" id="2ExvV8pzZ$i" role="2OqNvi">
@@ -1208,7 +1209,7 @@
                       </node>
                     </node>
                     <node concept="3Tsc0h" id="213CARphDFq" role="2OqNvi">
-                      <ref role="3TtcxE" to="8t56:14grA08Vlmy" />
+                      <ref role="3TtcxE" to="6q58:6efZaUgJXbY" />
                     </node>
                   </node>
                   <node concept="v3k3i" id="28AXeAELS5F" role="2OqNvi">
@@ -1282,26 +1283,6 @@
         </node>
       </node>
       <node concept="3cqZAl" id="2n2dP0r_GmQ" role="3clF45" />
-    </node>
-  </node>
-  <node concept="13h7C7" id="213CARpgv5Y">
-    <ref role="13h7C2" to="8t56:213CARpfsHj" resolve="Stubs" />
-    <node concept="13hLZK" id="213CARpgv5Z" role="13h7CW">
-      <node concept="3clFbS" id="213CARpgv60" role="2VODD2">
-        <node concept="3clFbF" id="213CARpgv7_" role="3cqZAp">
-          <node concept="37vLTI" id="213CARpgvRN" role="3clFbG">
-            <node concept="3clFbT" id="213CARpgvUM" role="37vLTx">
-              <property role="3clFbU" value="false" />
-            </node>
-            <node concept="2OqwBi" id="213CARpgv9q" role="37vLTJ">
-              <node concept="13iPFW" id="213CARpgv7$" role="2Oq$k0" />
-              <node concept="3TrcHB" id="213CARpgvuW" role="2OqNvi">
-                <ref role="3TsBF5" to="8t56:213CARpgv5V" resolve="isBioconductor" />
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
     </node>
   </node>
   <node concept="13h7C7" id="213CARpkJwj">
