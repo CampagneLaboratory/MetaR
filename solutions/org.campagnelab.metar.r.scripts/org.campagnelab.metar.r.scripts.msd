@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<solution name="org.campagnelab.metar.r.stubs" uuid="9c4c21db-948a-44c6-8d32-16dd401e98b0" compileInMPS="false">
+<solution name="org.campagnelab.metar.r.stubs" uuid="9c4c21db-948a-44c6-8d32-16dd401e98b0" compileInMPS="true">
   <models>
     <modelRoot contentPath="${module}" type="default">
       <sourceRoot location="models" />

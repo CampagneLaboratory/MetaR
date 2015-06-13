@@ -3,7 +3,6 @@
   <persistence version="9" />
   <languages>
     <use id="3b58810c-8431-4bbb-99ea-b4671e02dd13" name="org.campagnelab.metar.R" version="-1" />
-    <use id="c1747c67-8f42-4d83-9542-4a948aec17d9" name="org.campagnelab.metar.functions.importing" version="0" />
   </languages>
   <imports />
   <registry>

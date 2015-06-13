@@ -82,7 +82,6 @@
       </concept>
       <concept id="1195214364922" name="jetbrains.mps.lang.typesystem.structure.NonTypesystemRule" flags="ig" index="18kY7G" />
       <concept id="1210784285454" name="jetbrains.mps.lang.typesystem.structure.TypesystemIntention" flags="ng" index="3Cnw8n">
-        <property id="1216127910019" name="applyImmediately" index="ARO6o" />
         <reference id="1216388525179" name="quickFix" index="QpYPw" />
         <child id="1210784493590" name="actualArgument" index="3Coj4f" />
       </concept>
@@ -146,7 +145,6 @@
         <node concept="3clFbS" id="2ExvV8pzPIn" role="3clFbx">
           <node concept="Dpp1Q" id="2ExvV8p$2pj" role="3cqZAp">
             <node concept="3Cnw8n" id="2ExvV8p$3xp" role="2OEOjU">
-              <property role="ARO6o" value="true" />
               <ref role="QpYPw" node="2ExvV8p$2wy" resolve="ReplacePackageWithScript" />
               <node concept="3CnSsL" id="2ExvV8p$3$g" role="3Coj4f">
                 <ref role="QkamJ" node="2ExvV8p$2wI" resolve="nodeToReplace" />
