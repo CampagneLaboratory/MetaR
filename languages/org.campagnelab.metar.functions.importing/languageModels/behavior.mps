@@ -20,6 +20,7 @@
     <import index="69j5" ref="r:cc2fd9c1-53e7-4805-a8bc-a07e69f2147b(org.campagnelab.metar.R.behavior)" />
     <import index="jrxw" ref="r:9f2bbfbf-f8b7-4b3b-92b1-b6a0e9642c10(org.campagnelab.metar.tables.structure)" />
     <import index="n1uf" ref="r:cb035222-afa9-445c-8372-64c2390befab(org.campagnelab.metar.R.gen.behavior)" />
+    <import index="k7g3" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.util(JDK/java.util@java_stub)" implicit="true" />
   </imports>
   <registry>
     <language id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior">
@@ -1078,6 +1079,19 @@
       <node concept="3Tm6S6" id="4SiK8hIYG70" role="1B3o_S" />
       <node concept="3cqZAl" id="4SiK8hIYEUx" role="3clF45" />
       <node concept="3clFbS" id="4SiK8hIYEUy" role="3clF47">
+        <node concept="3clFbF" id="1FMUNU79Qbf" role="3cqZAp">
+          <node concept="2OqwBi" id="1FMUNU79RNu" role="3clFbG">
+            <node concept="2OqwBi" id="1FMUNU79QEP" role="2Oq$k0">
+              <node concept="13iPFW" id="1FMUNU79Qbd" role="2Oq$k0" />
+              <node concept="3Tsc0h" id="1FMUNU79QXv" role="2OqNvi">
+                <ref role="3TtcxE" to="8t56:2n2dP0rz_yM" />
+              </node>
+            </node>
+            <node concept="liA8E" id="1FMUNU7a01q" role="2OqNvi">
+              <ref role="37wK5l" to="k7g3:~List.clear():void" resolve="clear" />
+            </node>
+          </node>
+        </node>
         <node concept="2Gpval" id="4SiK8hIYEUz" role="3cqZAp">
           <node concept="2GrKxI" id="4SiK8hIYEU$" role="2Gsz3X">
             <property role="TrG5h" value="function" />
