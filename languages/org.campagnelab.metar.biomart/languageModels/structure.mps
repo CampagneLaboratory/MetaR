@@ -3,7 +3,7 @@
   <persistence version="9" />
   <languages>
     <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="-1" />
-    <use id="5d6bde84-4ce4-4eb5-a37e-25a5edd55129" name="org.campagnelab.metar.tables" version="1" />
+    <use id="5d6bde84-4ce4-4eb5-a37e-25a5edd55129" name="org.campagnelab.metar.tables" version="-1" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -62,7 +62,7 @@
   <node concept="1TIwiD" id="3k98b1qdWzt">
     <property role="TrG5h" value="Biomart" />
     <property role="34LRSv" value="query biomart" />
-    <property role="3GE5qa" value="main" />
+    <property role="3GE5qa" value="" />
     <property role="R4oN_" value="allow to query data from Biomart" />
     <ref role="1TJDcQ" to="jrxw:7LvyiX4miiC" resolve="Statement" />
     <node concept="1TJgyj" id="7AiSepDZbId" role="1TKVEi">
@@ -106,7 +106,7 @@
     <property role="TrG5h" value="MartRegistry" />
     <property role="19KtqR" value="false" />
     <property role="R4oN_" value="list of marts" />
-    <property role="3GE5qa" value="structure" />
+    <property role="3GE5qa" value="mainStructure" />
     <ref role="1TJDcQ" to="tpck:2ULFgo8_XDk" resolve="NodeAttribute" />
     <node concept="M6xJ_" id="7yhzD3CL0ab" role="lGtFl">
       <property role="Hh88m" value="mart" />
@@ -129,7 +129,7 @@
   </node>
   <node concept="1TIwiD" id="6Om6Mbm3Tzt">
     <property role="TrG5h" value="Database" />
-    <property role="3GE5qa" value="structure" />
+    <property role="3GE5qa" value="mainStructure" />
     <property role="R4oN_" value="contains available database name and associated datasets" />
     <ref role="1TJDcQ" node="KwXu1W4Z4V" resolve="BasedMartObject" />
     <node concept="1TJgyj" id="KwXu1W7GU_" role="1TKVEi">
@@ -141,7 +141,7 @@
   </node>
   <node concept="1TIwiD" id="2eITi4Pls1W">
     <property role="TrG5h" value="DatabaseRef" />
-    <property role="3GE5qa" value="structure" />
+    <property role="3GE5qa" value="mainStructure" />
     <property role="R4oN_" value="reference to a database" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="2eITi4PlzR8" role="1TKVEi">
@@ -153,7 +153,7 @@
   </node>
   <node concept="1TIwiD" id="2eITi4PKtDD">
     <property role="TrG5h" value="Dataset" />
-    <property role="3GE5qa" value="structure" />
+    <property role="3GE5qa" value="mainStructure" />
     <property role="R4oN_" value="dataset associated with a database" />
     <ref role="1TJDcQ" node="KwXu1W4Z4V" resolve="BasedMartObject" />
     <node concept="1TJgyj" id="KwXu1WyoBF" role="1TKVEi">
@@ -171,7 +171,7 @@
   </node>
   <node concept="1TIwiD" id="2eITi4POn3$">
     <property role="TrG5h" value="DatasetsRef" />
-    <property role="3GE5qa" value="structure" />
+    <property role="3GE5qa" value="mainStructure" />
     <property role="R4oN_" value="reference to a dataset" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="2eITi4POn3_" role="1TKVEi">
@@ -182,9 +182,11 @@
     </node>
   </node>
   <node concept="1TIwiD" id="KwXu1W4Z4V">
-    <property role="3GE5qa" value="structure" />
+    <property role="3GE5qa" value="mainStructure" />
     <property role="TrG5h" value="BasedMartObject" />
     <property role="R4oN_" value="name contains Mart and martName for user" />
+    <property role="R5$K7" value="true" />
+    <property role="R5$K2" value="false" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="KwXu1W4Z4W" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
@@ -195,7 +197,7 @@
     </node>
   </node>
   <node concept="1TIwiD" id="KwXu1WyoBr">
-    <property role="3GE5qa" value="structure" />
+    <property role="3GE5qa" value="mainStructure" />
     <property role="TrG5h" value="Attribute" />
     <property role="R4oN_" value="attribute associated to a dataset" />
     <ref role="1TJDcQ" node="KwXu1W4Z4V" resolve="BasedMartObject" />
@@ -205,7 +207,7 @@
     </node>
   </node>
   <node concept="1TIwiD" id="KwXu1WyoBC">
-    <property role="3GE5qa" value="structure" />
+    <property role="3GE5qa" value="mainStructure" />
     <property role="TrG5h" value="AttributeRef" />
     <property role="R4oN_" value="reference to an attribute" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
@@ -240,10 +242,6 @@
     </node>
     <node concept="1TJgyi" id="5FcpIQrxBdZ" role="1TKVEl">
       <property role="TrG5h" value="typePropertie" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
-    <node concept="1TJgyi" id="1RrWKTi6KPr" role="1TKVEl">
-      <property role="TrG5h" value="elementlist" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
   </node>
@@ -281,7 +279,7 @@
     <property role="3GE5qa" value="filters" />
     <property role="TrG5h" value="FilterWithIdsFromSetOfIds" />
     <property role="34LRSv" value="from a set of ids" />
-    <ref role="1TJDcQ" node="z5VH9d$mMN" resolve="FilterWith" />
+    <ref role="1TJDcQ" node="pr6WGEr6yC" resolve="FilterWithIds" />
     <node concept="1TJgyj" id="z5VH9d$ncg" role="1TKVEi">
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="setOfIds" />
@@ -291,9 +289,9 @@
   </node>
   <node concept="1TIwiD" id="1UH1ei4815y">
     <property role="3GE5qa" value="filters" />
-    <property role="TrG5h" value="FilterWithidsFromTable" />
+    <property role="TrG5h" value="FilterWithIdsFromTable" />
     <property role="34LRSv" value="a table ids list" />
-    <ref role="1TJDcQ" node="z5VH9d$mMN" resolve="FilterWith" />
+    <ref role="1TJDcQ" node="pr6WGEr6yC" resolve="FilterWithIds" />
     <node concept="1TJgyj" id="1UH1ei482_d" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="rowFilter" />
@@ -329,7 +327,7 @@
     </node>
   </node>
   <node concept="1TIwiD" id="4bkMdJovqAd">
-    <property role="3GE5qa" value="structure" />
+    <property role="3GE5qa" value="mainStructure" />
     <property role="TrG5h" value="ColumnGroupRef" />
     <property role="R4oN_" value="group" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
@@ -347,7 +345,7 @@
     <property role="3GE5qa" value="ColumnType" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="4bkMdJoBmbH" role="1TKVEl">
-      <property role="TrG5h" value="ColumnType" />
+      <property role="TrG5h" value="columnType" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
   </node>
@@ -401,6 +399,13 @@
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="4bkMdJm9$J_" resolve="FilterListValue" />
     </node>
+  </node>
+  <node concept="1TIwiD" id="pr6WGEr6yC">
+    <property role="3GE5qa" value="filters" />
+    <property role="TrG5h" value="FilterWithIds" />
+    <property role="R5$K7" value="true" />
+    <property role="R5$K2" value="false" />
+    <ref role="1TJDcQ" node="z5VH9d$mMN" resolve="FilterWith" />
   </node>
 </model>
 

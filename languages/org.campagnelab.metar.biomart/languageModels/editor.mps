@@ -6,9 +6,9 @@
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
-    <import index="v8sa" ref="r:db1b133e-9a0f-4319-b384-413408eb1729(org.campagnelab.metar.tables.behavior)" implicit="true" />
     <import index="8gqa" ref="r:c14853f5-5f2e-4acc-825a-4fec67caca67(org.campagnelab.metar.tables.editor)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
+    <import index="v8sa" ref="r:db1b133e-9a0f-4319-b384-413408eb1729(org.campagnelab.metar.tables.behavior)" implicit="true" />
     <import index="jrxw" ref="r:9f2bbfbf-f8b7-4b3b-92b1-b6a0e9642c10(org.campagnelab.metar.tables.structure)" implicit="true" />
     <import index="c07g" ref="r:1ddbf3ba-cbe7-4cb8-b2fc-7a1e80a63d10(org.campagnelab.metar.biomart.structure)" implicit="true" />
   </imports>
@@ -172,9 +172,6 @@
       </concept>
       <concept id="1179409122411" name="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" flags="nn" index="2qgKlT" />
       <concept id="1171407110247" name="jetbrains.mps.lang.smodel.structure.Node_GetAncestorOperation" flags="nn" index="2Xjw5R" />
-      <concept id="3562215692195599741" name="jetbrains.mps.lang.smodel.structure.SLinkImplicitSelect" flags="nn" index="13MTOL">
-        <reference id="3562215692195600259" name="link" index="13MTZf" />
-      </concept>
       <concept id="1171999116870" name="jetbrains.mps.lang.smodel.structure.Node_IsNullOperation" flags="nn" index="3w_OXm" />
       <concept id="1172008320231" name="jetbrains.mps.lang.smodel.structure.Node_IsNotNullOperation" flags="nn" index="3x8VRR" />
       <concept id="1144101972840" name="jetbrains.mps.lang.smodel.structure.OperationParm_Concept" flags="ng" index="1xMEDy">
@@ -210,7 +207,7 @@
     </language>
   </registry>
   <node concept="24kQdi" id="3k98b1qeeo2">
-    <property role="3GE5qa" value="main" />
+    <property role="3GE5qa" value="" />
     <ref role="1XX52x" to="c07g:3k98b1qdWzt" resolve="Biomart" />
     <node concept="3EZMnI" id="3k98b1qefaq" role="2wV5jI">
       <node concept="3EZMnI" id="6t_ylHwi31n" role="3EZMnx">
@@ -527,65 +524,23 @@
           <property role="3F0ifm" value="" />
         </node>
       </node>
-      <node concept="1QoScp" id="1UH1ei4X782" role="3EZMnx">
-        <property role="1QpmdY" value="true" />
-        <node concept="3EZMnI" id="1UH1ei4XcyY" role="1QoS34">
-          <node concept="3F0ifn" id="1UH1ei4Xcz0" role="3EZMnx">
-            <property role="3F0ifm" value="filters type" />
-          </node>
-          <node concept="3F2HdR" id="1UH1ei4XcDw" role="3EZMnx">
-            <ref role="1NtTu8" to="c07g:1JNk8OtCx8S" />
-            <node concept="2iRfu4" id="1UH1ei4XcDy" role="2czzBx" />
-          </node>
-          <node concept="2iRfu4" id="1UH1ei4Xcz1" role="2iSdaV" />
-        </node>
-        <node concept="pkWqt" id="1UH1ei4X785" role="3e4ffs">
-          <node concept="3clFbS" id="1UH1ei4X787" role="2VODD2">
-            <node concept="3clFbF" id="1UH1ei4X7kE" role="3cqZAp">
-              <node concept="2OqwBi" id="1UH1ei4XbNF" role="3clFbG">
-                <node concept="2OqwBi" id="1UH1ei4X8Dm" role="2Oq$k0">
-                  <node concept="2OqwBi" id="1UH1ei4X7qi" role="2Oq$k0">
-                    <node concept="pncrf" id="1UH1ei4X7kD" role="2Oq$k0" />
-                    <node concept="3Tsc0h" id="1UH1ei4X7IZ" role="2OqNvi">
-                      <ref role="3TtcxE" to="c07g:1JNk8OtCx8S" />
-                    </node>
-                  </node>
-                  <node concept="13MTOL" id="1UH1ei4Xa8W" role="2OqNvi">
-                    <ref role="13MTZf" to="c07g:1JNk8OtCx6s" />
-                  </node>
-                </node>
-                <node concept="3GX2aA" id="1UH1ei4XcjD" role="2OqNvi" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3F0ifn" id="1UH1ei4XcUJ" role="1QoVPY">
-          <property role="3F0ifm" value="" />
-        </node>
-      </node>
       <node concept="3F0ifn" id="1UH1ei4XcpX" role="3EZMnx" />
       <node concept="2iRkQZ" id="z5VH9dH2Q9" role="2iSdaV" />
     </node>
   </node>
   <node concept="24kQdi" id="6Om6Mbm4DEP">
-    <property role="3GE5qa" value="structure" />
+    <property role="3GE5qa" value="mainStructure" />
     <ref role="1XX52x" to="c07g:7yhzD3CK6Bf" resolve="MartRegistry" />
     <node concept="3EZMnI" id="2WRhvFtJ4Jq" role="2wV5jI">
       <node concept="2SsqMj" id="2WRhvFtJ4J$" role="3EZMnx" />
       <node concept="l2Vlx" id="2WRhvFtJ4Jt" role="2iSdaV" />
-      <node concept="3F0ifn" id="2WRhvFtJ4JH" role="3EZMnx">
-        <property role="3F0ifm" value="[" />
-      </node>
       <node concept="3F0ifn" id="KwXu1WnC$M" role="3EZMnx">
-        <property role="3F0ifm" value="BioMart" />
-      </node>
-      <node concept="3F0ifn" id="2WRhvFtJ4Kg" role="3EZMnx">
-        <property role="3F0ifm" value="]" />
+        <property role="3F0ifm" value="[BioMart]" />
       </node>
     </node>
   </node>
   <node concept="24kQdi" id="6Om6Mbm4N6G">
-    <property role="3GE5qa" value="structure" />
+    <property role="3GE5qa" value="mainStructure" />
     <ref role="1XX52x" to="c07g:6Om6Mbm3Tzt" resolve="Database" />
     <node concept="3EZMnI" id="6Om6Mbm4N6I" role="2wV5jI">
       <node concept="3F0A7n" id="6Om6Mbm4N6P" role="3EZMnx">
@@ -607,7 +562,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="2eITi4PJYwa">
-    <property role="3GE5qa" value="structure" />
+    <property role="3GE5qa" value="mainStructure" />
     <ref role="1XX52x" to="c07g:2eITi4Pls1W" resolve="DatabaseRef" />
     <node concept="1iCGBv" id="2eITi4PJYwo" role="2wV5jI">
       <ref role="1NtTu8" to="c07g:2eITi4PlzR8" />
@@ -620,7 +575,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="2eITi4PKtGO">
-    <property role="3GE5qa" value="structure" />
+    <property role="3GE5qa" value="mainStructure" />
     <ref role="1XX52x" to="c07g:2eITi4PKtDD" resolve="Dataset" />
     <node concept="3EZMnI" id="2eITi4PV8io" role="2wV5jI">
       <node concept="2iRfu4" id="2eITi4PV8ip" role="2iSdaV" />
@@ -633,7 +588,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="2eITi4POn3Y">
-    <property role="3GE5qa" value="structure" />
+    <property role="3GE5qa" value="mainStructure" />
     <ref role="1XX52x" to="c07g:2eITi4POn3$" resolve="DatasetsRef" />
     <node concept="1iCGBv" id="2eITi4POn50" role="2wV5jI">
       <ref role="1NtTu8" to="c07g:2eITi4POn3_" />
@@ -646,14 +601,14 @@
     </node>
   </node>
   <node concept="24kQdi" id="KwXu1Wi79_">
-    <property role="3GE5qa" value="structure" />
+    <property role="3GE5qa" value="mainStructure" />
     <ref role="1XX52x" to="c07g:KwXu1W4Z4V" resolve="BasedMartObject" />
     <node concept="3F0A7n" id="KwXu1Wi79B" role="2wV5jI">
       <ref role="1NtTu8" to="c07g:KwXu1W4Zk_" resolve="martName" />
     </node>
   </node>
   <node concept="24kQdi" id="KwXu1Wz3Z0">
-    <property role="3GE5qa" value="structure" />
+    <property role="3GE5qa" value="mainStructure" />
     <ref role="1XX52x" to="c07g:KwXu1WyoBr" resolve="Attribute" />
     <node concept="3F0A7n" id="KwXu1Wz3Z2" role="2wV5jI">
       <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
@@ -663,7 +618,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="KwXu1Wz3Zs">
-    <property role="3GE5qa" value="structure" />
+    <property role="3GE5qa" value="mainStructure" />
     <ref role="1XX52x" to="c07g:KwXu1WyoBC" resolve="AttributeRef" />
     <node concept="3EZMnI" id="4bkMdJoajBB" role="2wV5jI">
       <node concept="1iCGBv" id="4bkMdJoajBF" role="3EZMnx">
@@ -775,7 +730,7 @@
         <property role="3F0ifm" value="a set of ids" />
         <node concept="OXEIz" id="4bkMdJnA9zU" role="P5bDN">
           <node concept="UkePV" id="4bkMdJnA9zW" role="OY2wv">
-            <ref role="Ul1FP" to="c07g:1UH1ei4815y" resolve="FilterWithidsFromTable" />
+            <ref role="Ul1FP" to="c07g:1UH1ei4815y" resolve="FilterWithIdsFromTable" />
           </node>
         </node>
         <node concept="Vb9p2" id="7B_tLLzMYB2" role="3F10Kt" />
@@ -798,14 +753,14 @@
       </node>
       <node concept="OXEIz" id="4bkMdJnA9zQ" role="P5bDN">
         <node concept="UkePV" id="4bkMdJnA9zS" role="OY2wv">
-          <ref role="Ul1FP" to="c07g:1UH1ei4815y" resolve="FilterWithidsFromTable" />
+          <ref role="Ul1FP" to="c07g:1UH1ei4815y" resolve="FilterWithIdsFromTable" />
         </node>
       </node>
     </node>
   </node>
   <node concept="24kQdi" id="1UH1ei482_B">
     <property role="3GE5qa" value="filters" />
-    <ref role="1XX52x" to="c07g:1UH1ei4815y" resolve="FilterWithidsFromTable" />
+    <ref role="1XX52x" to="c07g:1UH1ei4815y" resolve="FilterWithIdsFromTable" />
     <node concept="3EZMnI" id="1UH1ei482Y3" role="2wV5jI">
       <node concept="3F0ifn" id="4bkMdJnBYBj" role="3EZMnx">
         <property role="3F0ifm" value="from" />
@@ -877,7 +832,7 @@
     </node>
   </node>
   <node concept="1h_SRR" id="4bkMdJnunO2">
-    <property role="3GE5qa" value="main" />
+    <property role="3GE5qa" value="" />
     <property role="TrG5h" value="DeleteAttribute" />
     <ref role="1h_SK9" to="c07g:3k98b1qdWzt" resolve="Biomart" />
     <node concept="1hA7zw" id="4bkMdJnunSw" role="1h_SK8">
@@ -898,7 +853,7 @@
     </node>
   </node>
   <node concept="325Ffw" id="4bkMdJotnnz">
-    <property role="3GE5qa" value="structure" />
+    <property role="3GE5qa" value="mainStructure" />
     <property role="TrG5h" value="ReloadTable" />
     <ref role="1chiOs" to="c07g:KwXu1WyoBC" resolve="AttributeRef" />
     <node concept="2PxR9H" id="4bkMdJotnsE" role="2QnnpI">
@@ -929,7 +884,7 @@
     </node>
   </node>
   <node concept="1h_SRR" id="4bkMdJotny9">
-    <property role="3GE5qa" value="structure" />
+    <property role="3GE5qa" value="mainStructure" />
     <property role="TrG5h" value="RefreshOutPutTable" />
     <ref role="1h_SK9" to="c07g:KwXu1WyoBC" resolve="AttributeRef" />
     <node concept="1hA7zw" id="4bkMdJotnya" role="1h_SK8">
@@ -1053,7 +1008,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="4bkMdJovsL_">
-    <property role="3GE5qa" value="structure" />
+    <property role="3GE5qa" value="mainStructure" />
     <ref role="1XX52x" to="c07g:4bkMdJovqAd" resolve="ColumnGroupRef" />
     <node concept="1iCGBv" id="2WRhvFtICKa" role="2wV5jI">
       <property role="1cu_pB" value="1" />
@@ -1080,7 +1035,7 @@
     <ref role="1XX52x" to="c07g:4bkMdJoBmbG" resolve="ColumnCustomType" />
     <node concept="3EZMnI" id="4bkMdJoBmc8" role="2wV5jI">
       <node concept="3F0A7n" id="4bkMdJoBmcf" role="3EZMnx">
-        <ref role="1NtTu8" to="c07g:4bkMdJoBmbH" resolve="ColumnType" />
+        <ref role="1NtTu8" to="c07g:4bkMdJoBmbH" resolve="columnType" />
         <node concept="Vb9p2" id="7B_tLLzClPd" role="3F10Kt">
           <property role="Vbekb" value="ITALIC" />
         </node>
@@ -1092,7 +1047,7 @@
     <property role="3GE5qa" value="ColumnType" />
     <ref role="1XX52x" to="c07g:4bkMdJoLViK" resolve="ColumnCustomTypeString" />
     <node concept="3F0A7n" id="4bkMdJoLYFH" role="2wV5jI">
-      <ref role="1NtTu8" to="c07g:4bkMdJoBmbH" resolve="ColumnType" />
+      <ref role="1NtTu8" to="c07g:4bkMdJoBmbH" resolve="columnType" />
       <node concept="Vb9p2" id="7B_tLLzEv7i" role="3F10Kt">
         <property role="Vbekb" value="ITALIC" />
       </node>
@@ -1102,7 +1057,7 @@
     <property role="3GE5qa" value="ColumnType" />
     <ref role="1XX52x" to="c07g:4bkMdJoLZtT" resolve="ColumnCustomTypeNumeric" />
     <node concept="3F0A7n" id="4bkMdJoLZuj" role="2wV5jI">
-      <ref role="1NtTu8" to="c07g:4bkMdJoBmbH" resolve="ColumnType" />
+      <ref role="1NtTu8" to="c07g:4bkMdJoBmbH" resolve="columnType" />
       <node concept="Vb9p2" id="7B_tLLzEv6s" role="3F10Kt">
         <property role="Vbekb" value="ITALIC" />
       </node>
@@ -1112,7 +1067,7 @@
     <property role="3GE5qa" value="ColumnType" />
     <ref role="1XX52x" to="c07g:4bkMdJoM0D$" resolve="ColumnCustomTypeBoolean" />
     <node concept="3F0A7n" id="4bkMdJoM0DY" role="2wV5jI">
-      <ref role="1NtTu8" to="c07g:4bkMdJoBmbH" resolve="ColumnType" />
+      <ref role="1NtTu8" to="c07g:4bkMdJoBmbH" resolve="columnType" />
       <node concept="Vb9p2" id="7B_tLLzEv4O" role="3F10Kt">
         <property role="Vbekb" value="ITALIC" />
       </node>

@@ -55,11 +55,6 @@
         <property id="6329021646629104958" name="text" index="3SKdUp" />
       </concept>
     </language>
-    <language id="f9e0c373-bcbc-4c08-8ca0-edb1ef9679b6" name="org.campagnelab.metar.columninR">
-      <concept id="1405455182021697146" name="org.campagnelab.metar.columninR.structure.ColumnInMetar" flags="ng" index="2VCV1K">
-        <reference id="1405455182021697147" name="column" index="2VCV1L" />
-      </concept>
-    </language>
     <language id="3b58810c-8431-4bbb-99ea-b4671e02dd13" name="org.campagnelab.metar.R">
       <concept id="5770663561153558147" name="org.campagnelab.metar.R.structure.ParameterValue" flags="ng" index="gNblG">
         <property id="5770663561153558418" name="id" index="gNbhX" />
@@ -106,7 +101,9 @@
       <concept id="1127749446837285793" name="org.campagnelab.metar.functions.access.structure.FunctionCallStatement" flags="ng" index="2pLU64">
         <child id="1127749446837285794" name="call" index="2pLU67" />
       </concept>
-      <concept id="5870486266826792857" name="" flags="ng" index="10vjuL" />
+      <concept id="5870486266826792857" name="org.campagnelab.metar.functions.access.structure.ColumnInMetar" flags="ng" index="10vjuL">
+        <reference id="5870486266826792858" name="column" index="10vjuM" />
+      </concept>
     </language>
     <language id="5d6bde84-4ce4-4eb5-a37e-25a5edd55129" name="org.campagnelab.metar.tables">
       <concept id="4451133196879828915" name="org.campagnelab.metar.tables.structure.TableRef" flags="ng" index="afgQW">
@@ -6333,8 +6330,8 @@
                 <node concept="V6WaX" id="UDsYdJ1F0" role="gNbrm">
                   <property role="gNbhX" value="x" />
                   <ref role="eUkdk" to="4tsn:5lRZ7X4U3WJ" />
-                  <node concept="10vjuL" id="UDsYdJ2DF" role="gNbhV">
-                    <ref role="2VCV1L" node="GEXlCD8tiB" resolve="mRNA len" />
+                  <node concept="10vjuL" id="1_FOaeqBCxK" role="gNbhV">
+                    <ref role="10vjuM" node="7B_tLL$hWtv" resolve="mRNA len" />
                   </node>
                 </node>
               </node>
@@ -6571,8 +6568,8 @@
                   <node concept="V6WaX" id="UDsYdE_Ae" role="gNbrm">
                     <property role="gNbhX" value="x" />
                     <ref role="eUkdk" to="4tsn:5lRZ7X4U3WJ" />
-                    <node concept="10vjuL" id="UDsYdE_Ai" role="gNbhV">
-                      <ref role="2VCV1L" node="GEXlCD8tiB" resolve="mRNA len" />
+                    <node concept="10vjuL" id="1_FOaeqBCzG" role="gNbhV">
+                      <ref role="10vjuM" node="GEXlCD8tiB" resolve="mRNA len" />
                     </node>
                   </node>
                 </node>
@@ -6595,9 +6592,9 @@
           <ref role="2obFw0" to="4tsn:5lRZ7X4U3WG" resolve="log" />
           <node concept="2PZJp2" id="UDsYdIN_I" role="2obFJS">
             <node concept="gNbv0" id="UDsYdIN_J" role="134Gdu">
-              <node concept="V6WaU" id="UDsYdINA3" role="gNbrm">
-                <node concept="10vjuL" id="UDsYdINA8" role="gNbhV">
-                  <ref role="2VCV1L" node="7B_tLL$hWtP" resolve="A_DC" />
+              <node concept="V6WaU" id="1_FOaeqBCzI" role="gNbrm">
+                <node concept="10vjuL" id="1_FOaeqBCzN" role="gNbhV">
+                  <ref role="10vjuM" node="7B_tLL$hWtP" resolve="A_DC" />
                 </node>
               </node>
             </node>
