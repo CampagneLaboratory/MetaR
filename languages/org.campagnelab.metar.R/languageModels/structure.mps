@@ -3,9 +3,11 @@
   <persistence version="9" />
   <languages>
     <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="-1" />
+    <use id="837afec3-cff0-45b1-a221-6b811148f87e" name="org.campagnelab.metar.R.gen" version="-1" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
+    <import index="l5qg" ref="r:c3c8723d-4db5-4e18-902d-1cb272fe4ddf(org.campagnelab.metar.R.gen.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
@@ -25,6 +27,8 @@
         <reference id="1169127628841" name="intfc" index="PrY4T" />
       </concept>
       <concept id="1071489090640" name="jetbrains.mps.lang.structure.structure.ConceptDeclaration" flags="ig" index="1TIwiD">
+        <property id="1160488491229" name="iconPath" index="MwhBj" />
+        <property id="1096454100552" name="rootable" index="19KtqR" />
         <reference id="1071489389519" name="extends" index="1TJDcQ" />
         <child id="1169129564478" name="implements" index="PzmwI" />
       </concept>
@@ -50,6 +54,12 @@
   </registry>
   <node concept="1TIwiD" id="5mPDeVwiJFd">
     <property role="TrG5h" value="Prog" />
+    <node concept="PrWs8" id="6efZaUgwyHx" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+    <node concept="PrWs8" id="6efZaUgwyHA" role="PzmwI">
+      <ref role="PrY4T" to="l5qg:6efZaUfXFRm" resolve="IGenerateToRScript" />
+    </node>
     <node concept="1TJgyj" id="14grA08Vlmy" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="expressions" />
@@ -60,12 +70,19 @@
   <node concept="1TIwiD" id="5mPDeVwiJFe">
     <property role="TrG5h" value="ProgramProg" />
     <property role="OYydz" value="Program" />
+    <property role="19KtqR" value="true" />
     <ref role="1TJDcQ" node="5mPDeVwiJFd" resolve="Prog" />
     <node concept="PrWs8" id="3V2IUSrKJMt" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
     <node concept="PrWs8" id="7kgUw1gMaPb" role="PzmwI">
       <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
+    </node>
+    <node concept="PrWs8" id="6efZaUg9LNF" role="PzmwI">
+      <ref role="PrY4T" to="l5qg:6efZaUfXFRm" resolve="IGenerateToRScript" />
+    </node>
+    <node concept="PrWs8" id="6efZaUgJM6_" role="PzmwI">
+      <ref role="PrY4T" to="l5qg:6efZaUgJLSo" resolve="IExposeIdentifiers" />
     </node>
   </node>
   <node concept="1TIwiD" id="5mPDeVwiPap">
@@ -986,6 +1003,35 @@
   <node concept="Az7Fb" id="3V2IUSqgytT">
     <property role="TrG5h" value="IntegerAndLong" />
     <property role="FLfZY" value="-?[0-9]+[L1]?" />
+  </node>
+  <node concept="1TIwiD" id="6efZaUgJXbW">
+    <property role="TrG5h" value="Stubs" />
+    <property role="19KtqR" value="true" />
+    <property role="MwhBj" value="${module}/icons/sutbs-5.png" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="6efZaUgJXbX" role="1TKVEl">
+      <property role="TrG5h" value="isBioconductor" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+    <node concept="1TJgyi" id="4MN$qOAFuda" role="1TKVEl">
+      <property role="TrG5h" value="level" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyj" id="6efZaUgJXbY" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="functions" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="5qM9mr9JOd5" resolve="BinaryOperatorExpr" />
+    </node>
+    <node concept="PrWs8" id="6efZaUgJXbZ" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+    <node concept="PrWs8" id="6efZaUgJXc0" role="PzmwI">
+      <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
+    </node>
+    <node concept="PrWs8" id="6efZaUgJXc1" role="PzmwI">
+      <ref role="PrY4T" to="l5qg:6efZaUgJLSo" resolve="IExposeIdentifiers" />
+    </node>
   </node>
 </model>
 

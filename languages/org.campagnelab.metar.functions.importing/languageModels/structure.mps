@@ -8,8 +8,8 @@
   </languages>
   <imports>
     <import index="6q58" ref="r:97268463-8a58-42b7-9dc6-fa004b7a4308(org.campagnelab.metar.R.structure)" />
+    <import index="jrxw" ref="r:9f2bbfbf-f8b7-4b3b-92b1-b6a0e9642c10(org.campagnelab.metar.tables.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
-    <import index="jrxw" ref="r:9f2bbfbf-f8b7-4b3b-92b1-b6a0e9642c10(org.campagnelab.metar.tables.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
@@ -25,8 +25,6 @@
         <reference id="1169127628841" name="intfc" index="PrY4T" />
       </concept>
       <concept id="1071489090640" name="jetbrains.mps.lang.structure.structure.ConceptDeclaration" flags="ig" index="1TIwiD">
-        <property id="1160488491229" name="iconPath" index="MwhBj" />
-        <property id="1096454100552" name="rootable" index="19KtqR" />
         <reference id="1071489389519" name="extends" index="1TJDcQ" />
         <child id="1169129564478" name="implements" index="PzmwI" />
       </concept>
@@ -78,7 +76,7 @@
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="prog" />
       <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="213CARpfsHj" resolve="Stubs" />
+      <ref role="20lvS9" to="6q58:6efZaUgJXbW" resolve="Stubs" />
     </node>
   </node>
   <node concept="1TIwiD" id="2n2dP0rz_yE">
@@ -99,29 +97,7 @@
       <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
     </node>
     <node concept="PrWs8" id="5sMLrNFhCyx" role="PzmwI">
-      <ref role="PrY4T" to="jrxw:5sMLrNFhChk" resolve="IAddToScope" />
-    </node>
-  </node>
-  <node concept="1TIwiD" id="213CARpfsHj">
-    <property role="TrG5h" value="Stubs" />
-    <property role="19KtqR" value="true" />
-    <property role="MwhBj" value="${module}/icons/stubs-5.png" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyi" id="213CARpgv5V" role="1TKVEl">
-      <property role="TrG5h" value="isBioconductor" />
-      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
-    </node>
-    <node concept="1TJgyj" id="14grA08Vlmy" role="1TKVEi">
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="functions" />
-      <property role="20lbJX" value="0..n" />
-      <ref role="20lvS9" to="6q58:5qM9mr9JOd5" resolve="BinaryOperatorExpr" />
-    </node>
-    <node concept="PrWs8" id="213CARpfvfE" role="PzmwI">
-      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
-    </node>
-    <node concept="PrWs8" id="213CARpfvfM" role="PzmwI">
-      <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
+      <ref role="PrY4T" to="jrxw:5sMLrNFhChk" resolve="IAddToMetaRScope" />
     </node>
   </node>
   <node concept="1TIwiD" id="213CARpkJw2">
