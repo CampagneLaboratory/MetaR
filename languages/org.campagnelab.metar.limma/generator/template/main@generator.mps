@@ -2105,7 +2105,7 @@
                       </node>
                     </node>
                     <node concept="3_3kQU" id="5BK8V2KBOJ_" role="3_3kQL">
-                      <property role="3_3kQV" value="$" />
+                      <property role="3_3kQV" value="$&quot;" />
                     </node>
                     <node concept="3_3kQU" id="5BK8V2KBOJA" role="3_3kQL">
                       <property role="3_3kQV" value="gene" />
@@ -2140,13 +2140,13 @@
                       </node>
                     </node>
                     <node concept="3_3kQU" id="5BK8V2KBOJB" role="3_3kQL">
-                      <property role="3_3kQV" value="&lt;-fit3$" />
+                      <property role="3_3kQV" value="&quot;&lt;-fit3$&quot;" />
                     </node>
                     <node concept="3_3kQU" id="5BK8V2KBOlq" role="3_3kQL">
                       <property role="3_3kQV" value="genes" />
                     </node>
                     <node concept="3_3kQU" id="5BK8V2KBOlr" role="3_3kQL">
-                      <property role="3_3kQV" value=" " />
+                      <property role="3_3kQV" value="&quot; " />
                     </node>
                     <node concept="1W57fq" id="DQS$2nm1oG" role="lGtFl">
                       <node concept="3IZrLx" id="DQS$2nm1oH" role="3IZSJc">
