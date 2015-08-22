@@ -104,10 +104,6 @@
       <concept id="6106414325997850090" name="org.campagnelab.metar.tables.structure.FutureTableCreator" flags="ng" index="2$MLEj">
         <property id="9080041854829670092" name="inputChanged" index="8NYsT" />
       </concept>
-      <concept id="6070133740826950348" name="org.campagnelab.metar.tables.structure.BoxPlot" flags="ng" index="2_9KyP">
-        <child id="6070133740826952602" name="plot" index="2_9Z7z" />
-        <child id="7174230558137260965" name="expressions" index="3L2usb" />
-      </concept>
       <concept id="8016431400517087678" name="org.campagnelab.metar.tables.structure.UsageType" flags="ng" index="2_mUhs" />
       <concept id="6583618001716898910" name="org.campagnelab.metar.tables.structure.ScaleByRow" flags="ng" index="2Mr_BI" />
       <concept id="7783277237108572280" name="org.campagnelab.metar.tables.structure.FilterWithExpression" flags="ng" index="2Qf$4g">
@@ -2007,17 +2003,6 @@
               </node>
             </node>
           </node>
-        </node>
-      </node>
-      <node concept="2_9KyP" id="3W3L4MKttgI" role="ZXjPg">
-        <property role="S1EQ6" value="TLIYQQWYKW" />
-        <node concept="1FHg$p" id="3W3L4MKttgK" role="2_9Z7z">
-          <property role="ZHjxa" value="200" />
-          <property role="ZHjG8" value="200" />
-          <property role="3ZMXzF" value="1" />
-        </node>
-        <node concept="31$ALs" id="7c0D3AUWkIB" role="3L2usb">
-          <node concept="3$Gm2I" id="7c0D3AUWkIC" role="31$ALt" />
         </node>
       </node>
       <node concept="3MoTRY" id="4ssfE$b9VeR" role="ZXjPg">
