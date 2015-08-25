@@ -1867,9 +1867,6 @@
                     </node>
                   </node>
                 </node>
-                <node concept="la8eA" id="3V2IUSrunyl" role="lcghm">
-                  <property role="lacIc" value="=" />
-                </node>
               </node>
             </node>
           </node>
