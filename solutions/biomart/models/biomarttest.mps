@@ -4,6 +4,7 @@
   <languages>
     <use id="32f503e8-061b-451e-bcb0-fef56aa05eb9" name="org.campagnelab.metar.inspect" version="-1" />
     <use id="c901f7a1-ed4f-4b52-8d35-10d1a33974f0" name="org.campagnelab.metar.code" version="-1" />
+    <use id="5d6bde84-4ce4-4eb5-a37e-25a5edd55129" name="org.campagnelab.metar.tables" version="-1" />
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="-1" />
     <use id="5ec1cd3d-0a50-4049-a8fa-ae768d7baa25" name="org.campagnelab.mps.XChart" version="-1" />
     <use id="ecf91126-e504-4aae-8ee7-3192d64e77f6" name="org.campagnelab.mps.XChart.types" version="-1" />
@@ -19,7 +20,6 @@
     <use id="9ded098b-ad6a-4657-bfd9-48636cfe8bc3" name="jetbrains.mps.lang.traceable" version="0" />
     <use id="901f5cf3-dc77-4c1e-bc5a-6382baee28b4" name="org.campagnelab.textoutput" version="0" />
     <use id="93bc01ac-08ca-4f11-9c7d-614d04055dfb" name="org.campagnelab.mps.editor2pdf" version="-1" />
-    <use id="5d6bde84-4ce4-4eb5-a37e-25a5edd55129" name="org.campagnelab.metar.tables" version="1" />
   </languages>
   <imports>
     <import index="9nc5" ref="r:d1a256e6-591a-459f-809c-7fc9df45e4d5(org.campagnelab.mps.XChart.types.roots)" implicit="true" />
@@ -45,7 +45,7 @@
       </concept>
       <concept id="4815694748126262448" name="org.campagnelab.metar.biomart.structure.ColumnCustomTypeString" flags="ng" index="2q4RLF" />
       <concept id="4815694748123489004" name="org.campagnelab.metar.biomart.structure.ColumnCustomType" flags="ng" index="2qiqCR">
-        <property id="4815694748123489005" name="columnType" index="2qiqCQ" />
+        <property id="4815694748123489005" name="ColumnType" index="2qiqCQ" />
       </concept>
       <concept id="4815694748121409933" name="org.campagnelab.metar.biomart.structure.ColumnGroupRef" flags="ng" index="2qEm5m">
         <reference id="4815694748121418824" name="ColumnGroup" index="2qEgij" />
@@ -42979,6 +42979,637 @@
       </node>
     </node>
   </node>
+  <node concept="S1EQb" id="6mn2T7SnJXh">
+    <property role="2BDq$p" value="true" />
+    <property role="TrG5h" value="qwww" />
+    <node concept="ZXjPh" id="6mn2T7SnJXi" role="S1EQ8">
+      <property role="S1EQ6" value="SQWNRAQARO" />
+      <node concept="1JfIxH" id="6mn2T7SnJXj" role="ZXjPg">
+        <property role="S1EQ6" value="ENQGTMGATN" />
+        <property role="8NYsT" value="false" />
+        <ref role="1KrPA$" node="3MLv1IjNSll" resolve="Arabidopsis Thaliana TAIRV10, genes functional annotation" />
+        <ref role="1L9wCD" node="3MLv1IjNSo4" resolve="TAIRV10 Annotation (With TEs)" />
+        <node concept="3MlLWZ" id="6mn2T7SnJXl" role="gr_HF">
+          <property role="TrG5h" value="resultFromBioMart" />
+          <ref role="3MlLW5" node="6mn2T7SnJXm" resolve="resultFromBioMart" />
+          <node concept="3Mpm39" id="6mn2T7SnJXm" role="3WeD9t">
+            <property role="31Cu5t" value="&#9;" />
+            <property role="TrG5h" value="resultFromBioMart" />
+            <node concept="31JHg8" id="3MLv1IjNSs3" role="31JHgj">
+              <property role="TrG5h" value="Qualifiers_Type_from_naive_attributes" />
+              <ref role="1YeEjl" to="9nc5:1ID5TXdv_9L" resolve="String" />
+            </node>
+          </node>
+        </node>
+        <node concept="1KEnK8" id="3MLv1IjNSrZ" role="1KIcB_">
+          <ref role="1KEnK9" node="3MLv1IjNSog" resolve="Qualifiers Type from naive_attributes" />
+          <node concept="2q4RLF" id="3MLv1IjNSs0" role="2qZv53">
+            <property role="2qiqCQ" value="string" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2gkutv" id="3MLv1IjNSkH" role="lGtFl">
+      <node concept="2V6ofZ" id="3MLv1IjNSkI" role="2V6of0">
+        <property role="TrG5h" value="ENSEMBL GENES 79 (SANGER UK)" />
+        <property role="1KcK35" value="ensembl" />
+      </node>
+      <node concept="2V6ofZ" id="3MLv1IjNSkJ" role="2V6of0">
+        <property role="TrG5h" value="ENSEMBL VARIATION 79 (SANGER UK)" />
+        <property role="1KcK35" value="snp" />
+      </node>
+      <node concept="2V6ofZ" id="3MLv1IjNSkK" role="2V6of0">
+        <property role="TrG5h" value="ENSEMBL REGULATION 79 (SANGER UK)" />
+        <property role="1KcK35" value="regulation" />
+      </node>
+      <node concept="2V6ofZ" id="3MLv1IjNSkL" role="2V6of0">
+        <property role="TrG5h" value="VEGA 59  (SANGER UK)" />
+        <property role="1KcK35" value="vega" />
+      </node>
+      <node concept="2V6ofZ" id="3MLv1IjNSkM" role="2V6of0">
+        <property role="TrG5h" value="ENSEMBL FUNGI 26 (EBI UK)" />
+        <property role="1KcK35" value="fungi_mart_26" />
+      </node>
+      <node concept="2V6ofZ" id="3MLv1IjNSkN" role="2V6of0">
+        <property role="TrG5h" value="ENSEMBL FUNGI VARIATION 26 (EBI UK)" />
+        <property role="1KcK35" value="fungi_variations_26" />
+      </node>
+      <node concept="2V6ofZ" id="3MLv1IjNSkO" role="2V6of0">
+        <property role="TrG5h" value="ENSEMBL METAZOA 26 (EBI UK)" />
+        <property role="1KcK35" value="metazoa_mart_26" />
+      </node>
+      <node concept="2V6ofZ" id="3MLv1IjNSkP" role="2V6of0">
+        <property role="TrG5h" value="ENSEMBL METAZOA VARIATION 26 (EBI UK)" />
+        <property role="1KcK35" value="metazoa_variations_26" />
+      </node>
+      <node concept="2V6ofZ" id="3MLv1IjNSkQ" role="2V6of0">
+        <property role="TrG5h" value="ENSEMBL PLANTS 26 (EBI UK)" />
+        <property role="1KcK35" value="plants_mart_26" />
+      </node>
+      <node concept="2V6ofZ" id="3MLv1IjNSkR" role="2V6of0">
+        <property role="TrG5h" value="ENSEMBL PLANTS VARIATION 26 (EBI UK)" />
+        <property role="1KcK35" value="plants_variations_26" />
+      </node>
+      <node concept="2V6ofZ" id="3MLv1IjNSkS" role="2V6of0">
+        <property role="TrG5h" value="ENSEMBL PROTISTS 25 (EBI UK)" />
+        <property role="1KcK35" value="protists_mart_25" />
+      </node>
+      <node concept="2V6ofZ" id="3MLv1IjNSkT" role="2V6of0">
+        <property role="TrG5h" value="ENSEMBL PROTISTS VARIATION 26 (EBI UK)" />
+        <property role="1KcK35" value="protists_variations_26" />
+      </node>
+      <node concept="2V6ofZ" id="3MLv1IjNSkU" role="2V6of0">
+        <property role="TrG5h" value="MSD (EBI UK)" />
+        <property role="1KcK35" value="msd" />
+      </node>
+      <node concept="2V6ofZ" id="3MLv1IjNSkV" role="2V6of0">
+        <property role="TrG5h" value="PROTEOMICS (UNIVERSITY OF CAMBRIDGE - UK)" />
+        <property role="1KcK35" value="cg_mart_02" />
+      </node>
+      <node concept="2V6ofZ" id="3MLv1IjNSkW" role="2V6of0">
+        <property role="TrG5h" value="WTSI MOUSE GENETICS PROJECT (SANGER UK)" />
+        <property role="1KcK35" value="htgt" />
+      </node>
+      <node concept="2V6ofZ" id="3MLv1IjNSkX" role="2V6of0">
+        <property role="TrG5h" value="WORMBASE 220 (CSHL US)" />
+        <property role="1KcK35" value="WS220" />
+      </node>
+      <node concept="2V6ofZ" id="3MLv1IjNSkY" role="2V6of0">
+        <property role="TrG5h" value="ParaSite Mart (EBI UK)" />
+        <property role="1KcK35" value="parasite_mart" />
+      </node>
+      <node concept="2V6ofZ" id="3MLv1IjNSkZ" role="2V6of0">
+        <property role="TrG5h" value="MGI (JACKSON LABORATORY US)" />
+        <property role="1KcK35" value="biomart" />
+      </node>
+      <node concept="2V6ofZ" id="3MLv1IjNSl0" role="2V6of0">
+        <property role="TrG5h" value="FANTOM5 phase1.1 (RIKEN CSLST Japan)" />
+        <property role="1KcK35" value="example" />
+      </node>
+      <node concept="2V6ofZ" id="3MLv1IjNSl1" role="2V6of0">
+        <property role="TrG5h" value="PRIDE (EBI UK)" />
+        <property role="1KcK35" value="pride" />
+      </node>
+      <node concept="2V6ofZ" id="3MLv1IjNSl2" role="2V6of0">
+        <property role="TrG5h" value="INTERPRO (EBI UK)" />
+        <property role="1KcK35" value="prod-intermart_1" />
+      </node>
+      <node concept="2V6ofZ" id="3MLv1IjNSl3" role="2V6of0">
+        <property role="TrG5h" value="UNIPROT (EBI UK)" />
+        <property role="1KcK35" value="unimart" />
+      </node>
+      <node concept="2V6ofZ" id="3MLv1IjNSl4" role="2V6of0">
+        <property role="TrG5h" value="PARAMECIUM GENOME (CNRS FRANCE)" />
+        <property role="1KcK35" value="biomartDB" />
+      </node>
+      <node concept="2V6ofZ" id="3MLv1IjNSl5" role="2V6of0">
+        <property role="TrG5h" value="PARAMECIUM BIBLIOGRAPHY (CNRS FRANCE)" />
+        <property role="1KcK35" value="biblioDB" />
+      </node>
+      <node concept="2V6ofZ" id="3MLv1IjNSl6" role="2V6of0">
+        <property role="TrG5h" value="Phytozome" />
+        <property role="1KcK35" value="phytozome_mart" />
+      </node>
+      <node concept="2V6ofZ" id="3MLv1IjNSl7" role="2V6of0">
+        <property role="TrG5h" value="Metazome" />
+        <property role="1KcK35" value="metazome_mart" />
+      </node>
+      <node concept="2V6ofZ" id="3MLv1IjNSl8" role="2V6of0">
+        <property role="TrG5h" value="HAPMAP 27 (NCBI US)" />
+        <property role="1KcK35" value="HapMap_rel27" />
+      </node>
+      <node concept="2V6ofZ" id="3MLv1IjNSl9" role="2V6of0">
+        <property role="TrG5h" value="INTOGEN ONCOMODULES" />
+        <property role="1KcK35" value="oncomodules" />
+      </node>
+      <node concept="2V6ofZ" id="3MLv1IjNSla" role="2V6of0">
+        <property role="TrG5h" value="IKMC GENES AND PRODUCTS (IKMC)" />
+        <property role="1KcK35" value="ikmc" />
+      </node>
+      <node concept="2V6ofZ" id="3MLv1IjNSlb" role="2V6of0">
+        <property role="TrG5h" value="GERMONLINE" />
+        <property role="1KcK35" value="GermOnline" />
+      </node>
+      <node concept="2V6ofZ" id="3MLv1IjNSlc" role="2V6of0">
+        <property role="TrG5h" value="SIGENAE OLIGO ANNOTATION (ENSEMBL 61)" />
+        <property role="1KcK35" value="Sigenae_Oligo_Annotation_Ensembl_61" />
+      </node>
+      <node concept="2V6ofZ" id="3MLv1IjNSld" role="2V6of0">
+        <property role="TrG5h" value="BCCTB Bioinformatics Portal (UK and Ireland)" />
+        <property role="1KcK35" value="Breast_mart_69" />
+      </node>
+      <node concept="2V6ofZ" id="3MLv1IjNSle" role="2V6of0">
+        <property role="TrG5h" value="Predictive models of gene regulation from processed high-throughput epigenomics data: K562 vs. Gm12878" />
+        <property role="1KcK35" value="K562_Gm12878" />
+      </node>
+      <node concept="2V6ofZ" id="3MLv1IjNSlf" role="2V6of0">
+        <property role="TrG5h" value="Predictive models of gene regulation from processed high-throughput epigenomics data: Hsmm vs. Hmec" />
+        <property role="1KcK35" value="Hsmm_Hmec" />
+      </node>
+      <node concept="2V6ofZ" id="3MLv1IjNSlg" role="2V6of0">
+        <property role="TrG5h" value="PANCREATIC EXPRESSION DATABASE (BARTS CANCER INSTITUTE UK)" />
+        <property role="1KcK35" value="Pancreas63" />
+      </node>
+      <node concept="2V6ofZ" id="3MLv1IjNSlh" role="2V6of0">
+        <property role="TrG5h" value="Multi-species: marker, QTL, SNP, gene, germplasm, phenotype, association, with Gene annotations" />
+        <property role="1KcK35" value="Public_OBIOMARTPUB" />
+      </node>
+      <node concept="2V6ofZ" id="3MLv1IjNSli" role="2V6of0">
+        <property role="TrG5h" value="Grapevine 8x, stuctural annotation with Genetic maps (genetic markers..)" />
+        <property role="1KcK35" value="Public_VITIS" />
+      </node>
+      <node concept="2V6ofZ" id="3MLv1IjNSlj" role="2V6of0">
+        <property role="TrG5h" value="Grapevine 12x.0, stuctural and functional annotation with Genetic maps (genetic markers..)" />
+        <property role="1KcK35" value="Public_VITIS_12x" />
+      </node>
+      <node concept="2V6ofZ" id="3MLv1IjNSlk" role="2V6of0">
+        <property role="TrG5h" value="Wheat, stuctural annotation with Genetic maps (genetic markers..)" />
+        <property role="1KcK35" value="Prod_WHEAT" />
+      </node>
+      <node concept="2V6ofZ" id="3MLv1IjNSll" role="2V6of0">
+        <property role="TrG5h" value="Arabidopsis Thaliana TAIRV10, genes functional annotation" />
+        <property role="1KcK35" value="Public_TAIRV10" />
+        <node concept="mrNX8" id="3MLv1IjNSo3" role="1KfzH5">
+          <property role="TrG5h" value="TAIRV10 Annotation" />
+          <property role="1KcK35" value="tairv10" />
+        </node>
+        <node concept="mrNX8" id="3MLv1IjNSo4" role="1KfzH5">
+          <property role="TrG5h" value="TAIRV10 Annotation (With TEs)" />
+          <property role="1KcK35" value="tairv10TE" />
+          <node concept="1KEnKV" id="3MLv1IjNSo8" role="1KEnKb">
+            <property role="TrG5h" value="Feature Name from naive_attributes" />
+            <property role="fo_kR" value="html,txt,csv,tsv,xls" />
+            <property role="1KcK35" value="feature_name" />
+          </node>
+          <node concept="1KEnKV" id="3MLv1IjNSoa" role="1KEnKb">
+            <property role="TrG5h" value="Phase from naive_attributes" />
+            <property role="fo_kR" value="html,txt,csv,tsv,xls" />
+            <property role="1KcK35" value="tier_103" />
+          </node>
+          <node concept="1KEnKV" id="3MLv1IjNSoc" role="1KEnKb">
+            <property role="TrG5h" value="Strand from naive_attributes" />
+            <property role="fo_kR" value="html,txt,csv,tsv,xls" />
+            <property role="1KcK35" value="strand_103" />
+          </node>
+          <node concept="1KEnKV" id="3MLv1IjNSoe" role="1KEnKb">
+            <property role="TrG5h" value="Feature Type : Program from naive_attributes" />
+            <property role="fo_kR" value="html,txt,csv,tsv,xls" />
+            <property role="1KcK35" value="tag_109" />
+          </node>
+          <node concept="1KEnKV" id="3MLv1IjNSog" role="1KEnKb">
+            <property role="TrG5h" value="Qualifiers Type from naive_attributes" />
+            <property role="fo_kR" value="html,txt,csv,tsv,xls" />
+            <property role="1KcK35" value="tag_102" />
+          </node>
+          <node concept="1KEnKV" id="3MLv1IjNSoi" role="1KEnKb">
+            <property role="TrG5h" value="Qualifiers Value from naive_attributes" />
+            <property role="fo_kR" value="html,txt,csv,tsv,xls" />
+            <property role="1KcK35" value="attribute_value_101" />
+          </node>
+          <node concept="1KEnKV" id="3MLv1IjNSok" role="1KEnKb">
+            <property role="TrG5h" value="Chromosome Name from naive_attributes" />
+            <property role="fo_kR" value="html,txt,csv,tsv,xls" />
+            <property role="1KcK35" value="seqname_104" />
+          </node>
+          <node concept="1KEnKV" id="3MLv1IjNSom" role="1KEnKb">
+            <property role="TrG5h" value="Feature Location Start from naive_attributes" />
+            <property role="fo_kR" value="html,txt,csv,tsv,xls" />
+            <property role="1KcK35" value="start_103" />
+          </node>
+          <node concept="1KEnKV" id="3MLv1IjNSoo" role="1KEnKb">
+            <property role="TrG5h" value="Feature Location End from naive_attributes" />
+            <property role="fo_kR" value="html,txt,csv,tsv,xls" />
+            <property role="1KcK35" value="end_103" />
+          </node>
+          <node concept="31iBff" id="3MLv1IjNSoq" role="6rfF4">
+            <property role="TrG5h" value="Feature Name " />
+            <property role="31ixmi" value="text" />
+            <property role="1KcK35" value="feature_name" />
+          </node>
+          <node concept="31iBff" id="3MLv1IjNSos" role="6rfF4">
+            <property role="TrG5h" value="Phase" />
+            <property role="31ixmi" value="list" />
+            <property role="1KcK35" value="tier_103" />
+            <node concept="2kWCcY" id="3MLv1IjNSot" role="2kyJfb">
+              <property role="TrG5h" value="0" />
+            </node>
+            <node concept="2kWCcY" id="3MLv1IjNSou" role="2kyJfb">
+              <property role="TrG5h" value="1" />
+            </node>
+            <node concept="2kWCcY" id="3MLv1IjNSov" role="2kyJfb">
+              <property role="TrG5h" value="2" />
+            </node>
+            <node concept="2kWCcY" id="3MLv1IjNSow" role="2kyJfb">
+              <property role="TrG5h" value="3" />
+            </node>
+            <node concept="2kWCcY" id="3MLv1IjNSox" role="2kyJfb">
+              <property role="TrG5h" value="4" />
+            </node>
+            <node concept="2kWCcY" id="3MLv1IjNSoy" role="2kyJfb">
+              <property role="TrG5h" value="5" />
+            </node>
+          </node>
+          <node concept="31iBff" id="3MLv1IjNSo$" role="6rfF4">
+            <property role="TrG5h" value="Strand " />
+            <property role="31ixmi" value="list" />
+            <property role="1KcK35" value="strand_103" />
+            <node concept="2kWCcY" id="3MLv1IjNSo_" role="2kyJfb">
+              <property role="TrG5h" value="-1" />
+            </node>
+            <node concept="2kWCcY" id="3MLv1IjNSoA" role="2kyJfb">
+              <property role="TrG5h" value="0" />
+            </node>
+            <node concept="2kWCcY" id="3MLv1IjNSoB" role="2kyJfb">
+              <property role="TrG5h" value="1" />
+            </node>
+          </node>
+          <node concept="31iBff" id="3MLv1IjNSoD" role="6rfF4">
+            <property role="TrG5h" value="Feature Type : Program" />
+            <property role="31ixmi" value="list" />
+            <property role="1KcK35" value="tag_109" />
+            <node concept="2kWCcY" id="3MLv1IjNSoE" role="2kyJfb">
+              <property role="TrG5h" value="CDS:TAIR10" />
+            </node>
+            <node concept="2kWCcY" id="3MLv1IjNSoF" role="2kyJfb">
+              <property role="TrG5h" value="chromosome:TAIR10" />
+            </node>
+            <node concept="2kWCcY" id="3MLv1IjNSoG" role="2kyJfb">
+              <property role="TrG5h" value="exon:TAIR10" />
+            </node>
+            <node concept="2kWCcY" id="3MLv1IjNSoH" role="2kyJfb">
+              <property role="TrG5h" value="five_prime_UTR:TAIR10" />
+            </node>
+            <node concept="2kWCcY" id="3MLv1IjNSoI" role="2kyJfb">
+              <property role="TrG5h" value="gene:TAIR10" />
+            </node>
+            <node concept="2kWCcY" id="3MLv1IjNSoJ" role="2kyJfb">
+              <property role="TrG5h" value="GSM277608:S-MART" />
+            </node>
+            <node concept="2kWCcY" id="3MLv1IjNSoK" role="2kyJfb">
+              <property role="TrG5h" value="match:Ath_TAIR10_TEs" />
+            </node>
+            <node concept="2kWCcY" id="3MLv1IjNSoL" role="2kyJfb">
+              <property role="TrG5h" value="match:Brassicaceae" />
+            </node>
+            <node concept="2kWCcY" id="3MLv1IjNSoM" role="2kyJfb">
+              <property role="TrG5h" value="match:Bundle" />
+            </node>
+            <node concept="2kWCcY" id="3MLv1IjNSoN" role="2kyJfb">
+              <property role="TrG5h" value="match:Bundle_2" />
+            </node>
+            <node concept="2kWCcY" id="3MLv1IjNSoO" role="2kyJfb">
+              <property role="TrG5h" value="match:Bundle_Complete" />
+            </node>
+            <node concept="2kWCcY" id="3MLv1IjNSoP" role="2kyJfb">
+              <property role="TrG5h" value="match:Pclouds" />
+            </node>
+            <node concept="2kWCcY" id="3MLv1IjNSoQ" role="2kyJfb">
+              <property role="TrG5h" value="match:Reference" />
+            </node>
+            <node concept="2kWCcY" id="3MLv1IjNSoR" role="2kyJfb">
+              <property role="TrG5h" value="match:RepeatModeler" />
+            </node>
+            <node concept="2kWCcY" id="3MLv1IjNSoS" role="2kyJfb">
+              <property role="TrG5h" value="match:RepeatScout" />
+            </node>
+            <node concept="2kWCcY" id="3MLv1IjNSoT" role="2kyJfb">
+              <property role="TrG5h" value="match:Tallymer" />
+            </node>
+            <node concept="2kWCcY" id="3MLv1IjNSoU" role="2kyJfb">
+              <property role="TrG5h" value="match:TEdenovo_1" />
+            </node>
+            <node concept="2kWCcY" id="3MLv1IjNSoV" role="2kyJfb">
+              <property role="TrG5h" value="match:TEdenovo_2" />
+            </node>
+            <node concept="2kWCcY" id="3MLv1IjNSoW" role="2kyJfb">
+              <property role="TrG5h" value="match:TEdenovo_3" />
+            </node>
+            <node concept="2kWCcY" id="3MLv1IjNSoX" role="2kyJfb">
+              <property role="TrG5h" value="match:TEdenovo_4" />
+            </node>
+            <node concept="2kWCcY" id="3MLv1IjNSoY" role="2kyJfb">
+              <property role="TrG5h" value="match:TEdenovo_cool" />
+            </node>
+            <node concept="2kWCcY" id="3MLv1IjNSoZ" role="2kyJfb">
+              <property role="TrG5h" value="match:TEdenovo_soft" />
+            </node>
+            <node concept="2kWCcY" id="3MLv1IjNSp0" role="2kyJfb">
+              <property role="TrG5h" value="match:TEdenovo_soft_2" />
+            </node>
+            <node concept="2kWCcY" id="3MLv1IjNSp1" role="2kyJfb">
+              <property role="TrG5h" value="match:TRF" />
+            </node>
+            <node concept="2kWCcY" id="3MLv1IjNSp2" role="2kyJfb">
+              <property role="TrG5h" value="match_part:Brassicaceae" />
+            </node>
+            <node concept="2kWCcY" id="3MLv1IjNSp3" role="2kyJfb">
+              <property role="TrG5h" value="match_part:Bundle" />
+            </node>
+            <node concept="2kWCcY" id="3MLv1IjNSp4" role="2kyJfb">
+              <property role="TrG5h" value="match_part:Bundle_2" />
+            </node>
+            <node concept="2kWCcY" id="3MLv1IjNSp5" role="2kyJfb">
+              <property role="TrG5h" value="match_part:Bundle_Complete" />
+            </node>
+            <node concept="2kWCcY" id="3MLv1IjNSp6" role="2kyJfb">
+              <property role="TrG5h" value="match_part:Reference" />
+            </node>
+            <node concept="2kWCcY" id="3MLv1IjNSp7" role="2kyJfb">
+              <property role="TrG5h" value="match_part:RepeatModeler" />
+            </node>
+            <node concept="2kWCcY" id="3MLv1IjNSp8" role="2kyJfb">
+              <property role="TrG5h" value="match_part:RepeatScout" />
+            </node>
+            <node concept="2kWCcY" id="3MLv1IjNSp9" role="2kyJfb">
+              <property role="TrG5h" value="match_part:TEdenovo_1" />
+            </node>
+            <node concept="2kWCcY" id="3MLv1IjNSpa" role="2kyJfb">
+              <property role="TrG5h" value="match_part:TEdenovo_2" />
+            </node>
+            <node concept="2kWCcY" id="3MLv1IjNSpb" role="2kyJfb">
+              <property role="TrG5h" value="match_part:TEdenovo_3" />
+            </node>
+            <node concept="2kWCcY" id="3MLv1IjNSpc" role="2kyJfb">
+              <property role="TrG5h" value="match_part:TEdenovo_4" />
+            </node>
+            <node concept="2kWCcY" id="3MLv1IjNSpd" role="2kyJfb">
+              <property role="TrG5h" value="match_part:TEdenovo_cool" />
+            </node>
+            <node concept="2kWCcY" id="3MLv1IjNSpe" role="2kyJfb">
+              <property role="TrG5h" value="match_part:TEdenovo_soft" />
+            </node>
+            <node concept="2kWCcY" id="3MLv1IjNSpf" role="2kyJfb">
+              <property role="TrG5h" value="match_part:TEdenovo_soft_2" />
+            </node>
+            <node concept="2kWCcY" id="3MLv1IjNSpg" role="2kyJfb">
+              <property role="TrG5h" value="miRNA:TAIR10" />
+            </node>
+            <node concept="2kWCcY" id="3MLv1IjNSph" role="2kyJfb">
+              <property role="TrG5h" value="mRNA:TAIR10" />
+            </node>
+            <node concept="2kWCcY" id="3MLv1IjNSpi" role="2kyJfb">
+              <property role="TrG5h" value="mRNA_TE_gene:TAIR10" />
+            </node>
+            <node concept="2kWCcY" id="3MLv1IjNSpj" role="2kyJfb">
+              <property role="TrG5h" value="ncRNA:TAIR10" />
+            </node>
+            <node concept="2kWCcY" id="3MLv1IjNSpk" role="2kyJfb">
+              <property role="TrG5h" value="protein:TAIR10" />
+            </node>
+            <node concept="2kWCcY" id="3MLv1IjNSpl" role="2kyJfb">
+              <property role="TrG5h" value="pseudogene:TAIR10" />
+            </node>
+            <node concept="2kWCcY" id="3MLv1IjNSpm" role="2kyJfb">
+              <property role="TrG5h" value="pseudogenic_exon:TAIR10" />
+            </node>
+            <node concept="2kWCcY" id="3MLv1IjNSpn" role="2kyJfb">
+              <property role="TrG5h" value="pseudogenic_transcript:TAIR10" />
+            </node>
+            <node concept="2kWCcY" id="3MLv1IjNSpo" role="2kyJfb">
+              <property role="TrG5h" value="rRNA:TAIR10" />
+            </node>
+            <node concept="2kWCcY" id="3MLv1IjNSpp" role="2kyJfb">
+              <property role="TrG5h" value="snoRNA:TAIR10" />
+            </node>
+            <node concept="2kWCcY" id="3MLv1IjNSpq" role="2kyJfb">
+              <property role="TrG5h" value="SNP:Nordborg" />
+            </node>
+            <node concept="2kWCcY" id="3MLv1IjNSpr" role="2kyJfb">
+              <property role="TrG5h" value="snRNA:TAIR10" />
+            </node>
+            <node concept="2kWCcY" id="3MLv1IjNSps" role="2kyJfb">
+              <property role="TrG5h" value="three_prime_UTR:TAIR10" />
+            </node>
+            <node concept="2kWCcY" id="3MLv1IjNSpt" role="2kyJfb">
+              <property role="TrG5h" value="transposable_element_gene:TAIR10" />
+            </node>
+            <node concept="2kWCcY" id="3MLv1IjNSpu" role="2kyJfb">
+              <property role="TrG5h" value="tRNA:TAIR10" />
+            </node>
+          </node>
+          <node concept="31iBff" id="3MLv1IjNSpw" role="6rfF4">
+            <property role="TrG5h" value="Chromosome Name" />
+            <property role="31ixmi" value="list" />
+            <property role="1KcK35" value="seqname_104" />
+            <node concept="2kWCcY" id="3MLv1IjNSpx" role="2kyJfb">
+              <property role="TrG5h" value="Chr1" />
+            </node>
+            <node concept="2kWCcY" id="3MLv1IjNSpy" role="2kyJfb">
+              <property role="TrG5h" value="Chr2" />
+            </node>
+            <node concept="2kWCcY" id="3MLv1IjNSpz" role="2kyJfb">
+              <property role="TrG5h" value="Chr3" />
+            </node>
+            <node concept="2kWCcY" id="3MLv1IjNSp$" role="2kyJfb">
+              <property role="TrG5h" value="Chr4" />
+            </node>
+            <node concept="2kWCcY" id="3MLv1IjNSp_" role="2kyJfb">
+              <property role="TrG5h" value="Chr5" />
+            </node>
+            <node concept="2kWCcY" id="3MLv1IjNSpA" role="2kyJfb">
+              <property role="TrG5h" value="ChrC" />
+            </node>
+            <node concept="2kWCcY" id="3MLv1IjNSpB" role="2kyJfb">
+              <property role="TrG5h" value="ChrM" />
+            </node>
+          </node>
+          <node concept="31iBff" id="3MLv1IjNSpD" role="6rfF4">
+            <property role="TrG5h" value="Qualifiers Value" />
+            <property role="31ixmi" value="text" />
+            <property role="1KcK35" value="attribute_value_101" />
+          </node>
+          <node concept="31iBff" id="3MLv1IjNSpF" role="6rfF4">
+            <property role="TrG5h" value="Qualifiers Type" />
+            <property role="31ixmi" value="list" />
+            <property role="1KcK35" value="tag_102" />
+            <node concept="2kWCcY" id="3MLv1IjNSpG" role="2kyJfb">
+              <property role="TrG5h" value="Alias" />
+            </node>
+            <node concept="2kWCcY" id="3MLv1IjNSpH" role="2kyJfb">
+              <property role="TrG5h" value="best" />
+            </node>
+            <node concept="2kWCcY" id="3MLv1IjNSpI" role="2kyJfb">
+              <property role="TrG5h" value="computational_description" />
+            </node>
+            <node concept="2kWCcY" id="3MLv1IjNSpJ" role="2kyJfb">
+              <property role="TrG5h" value="contains" />
+            </node>
+            <node concept="2kWCcY" id="3MLv1IjNSpK" role="2kyJfb">
+              <property role="TrG5h" value="curator_summary" />
+            </node>
+            <node concept="2kWCcY" id="3MLv1IjNSpL" role="2kyJfb">
+              <property role="TrG5h" value="Derives_from" />
+            </node>
+            <node concept="2kWCcY" id="3MLv1IjNSpM" role="2kyJfb">
+              <property role="TrG5h" value="expressed_during" />
+            </node>
+            <node concept="2kWCcY" id="3MLv1IjNSpN" role="2kyJfb">
+              <property role="TrG5h" value="expressed_in" />
+            </node>
+            <node concept="2kWCcY" id="3MLv1IjNSpO" role="2kyJfb">
+              <property role="TrG5h" value="family" />
+            </node>
+            <node concept="2kWCcY" id="3MLv1IjNSpP" role="2kyJfb">
+              <property role="TrG5h" value="functions_in" />
+            </node>
+            <node concept="2kWCcY" id="3MLv1IjNSpQ" role="2kyJfb">
+              <property role="TrG5h" value="Identity" />
+            </node>
+            <node concept="2kWCcY" id="3MLv1IjNSpR" role="2kyJfb">
+              <property role="TrG5h" value="involved_in" />
+            </node>
+            <node concept="2kWCcY" id="3MLv1IjNSpS" role="2kyJfb">
+              <property role="TrG5h" value="load_id" />
+            </node>
+            <node concept="2kWCcY" id="3MLv1IjNSpT" role="2kyJfb">
+              <property role="TrG5h" value="located_in" />
+            </node>
+            <node concept="2kWCcY" id="3MLv1IjNSpU" role="2kyJfb">
+              <property role="TrG5h" value="location" />
+            </node>
+            <node concept="2kWCcY" id="3MLv1IjNSpV" role="2kyJfb">
+              <property role="TrG5h" value="model" />
+            </node>
+            <node concept="2kWCcY" id="3MLv1IjNSpW" role="2kyJfb">
+              <property role="TrG5h" value="Note" />
+            </node>
+            <node concept="2kWCcY" id="3MLv1IjNSpX" role="2kyJfb">
+              <property role="TrG5h" value="parent_id" />
+            </node>
+            <node concept="2kWCcY" id="3MLv1IjNSpY" role="2kyJfb">
+              <property role="TrG5h" value="phenotyping_year" />
+            </node>
+            <node concept="2kWCcY" id="3MLv1IjNSpZ" role="2kyJfb">
+              <property role="TrG5h" value="pvalue" />
+            </node>
+            <node concept="2kWCcY" id="3MLv1IjNSq0" role="2kyJfb">
+              <property role="TrG5h" value="short_description" />
+            </node>
+            <node concept="2kWCcY" id="3MLv1IjNSq1" role="2kyJfb">
+              <property role="TrG5h" value="super_family" />
+            </node>
+            <node concept="2kWCcY" id="3MLv1IjNSq2" role="2kyJfb">
+              <property role="TrG5h" value="Target" />
+            </node>
+            <node concept="2kWCcY" id="3MLv1IjNSq3" role="2kyJfb">
+              <property role="TrG5h" value="trait_name" />
+            </node>
+            <node concept="2kWCcY" id="3MLv1IjNSq4" role="2kyJfb">
+              <property role="TrG5h" value="treatment" />
+            </node>
+          </node>
+          <node concept="31iBff" id="3MLv1IjNSq6" role="6rfF4">
+            <property role="TrG5h" value="Feature Position Start" />
+            <property role="31ixmi" value="text" />
+            <property role="1KcK35" value="start_103" />
+          </node>
+          <node concept="31iBff" id="3MLv1IjNSq8" role="6rfF4">
+            <property role="TrG5h" value="Feature Position End" />
+            <property role="31ixmi" value="text" />
+            <property role="1KcK35" value="end_103" />
+          </node>
+          <node concept="31iBff" id="3MLv1IjNSqa" role="6rfF4">
+            <property role="TrG5h" value="Feature Position &gt;" />
+            <property role="31ixmi" value="text" />
+            <property role="1KcK35" value="start_sup_103" />
+          </node>
+          <node concept="31iBff" id="3MLv1IjNSqc" role="6rfF4">
+            <property role="TrG5h" value="Feature Position &lt;" />
+            <property role="31ixmi" value="text" />
+            <property role="1KcK35" value="end_inf_103" />
+          </node>
+        </node>
+      </node>
+      <node concept="2V6ofZ" id="3MLv1IjNSlm" role="2V6of0">
+        <property role="TrG5h" value="Zea mays ZmB73, genes functional annotation" />
+        <property role="1KcK35" value="Public_MAIZE" />
+      </node>
+      <node concept="2V6ofZ" id="3MLv1IjNSln" role="2V6of0">
+        <property role="TrG5h" value="Tomato, stuctural and functional annotation" />
+        <property role="1KcK35" value="Prod_TOMATO" />
+      </node>
+      <node concept="2V6ofZ" id="3MLv1IjNSlo" role="2V6of0">
+        <property role="TrG5h" value="Populus trichocarpa, genes functional annotation" />
+        <property role="1KcK35" value="Prod_POPLAR" />
+      </node>
+      <node concept="2V6ofZ" id="3MLv1IjNSlp" role="2V6of0">
+        <property role="TrG5h" value="Populus trichocarpa, genes functional annotation V2.0" />
+        <property role="1KcK35" value="Prod_POPLAR_V2" />
+      </node>
+      <node concept="2V6ofZ" id="3MLv1IjNSlq" role="2V6of0">
+        <property role="TrG5h" value="Botrytis cinerea T4, genes functional annotation " />
+        <property role="1KcK35" value="Prod_BOTRYTISEDIT" />
+      </node>
+      <node concept="2V6ofZ" id="3MLv1IjNSlr" role="2V6of0">
+        <property role="TrG5h" value="Botrytis cinerea B0510, genes functional annotation " />
+        <property role="1KcK35" value="Prod_BOFUB" />
+      </node>
+      <node concept="2V6ofZ" id="3MLv1IjNSls" role="2V6of0">
+        <property role="TrG5h" value="Leptosphaeria maculans, genes functional annotation" />
+        <property role="1KcK35" value="Prod_LMACULANSEDIT" />
+      </node>
+      <node concept="2V6ofZ" id="3MLv1IjNSlt" role="2V6of0">
+        <property role="TrG5h" value="VectorBase Genes" />
+        <property role="1KcK35" value="vb_gene_mart_1502" />
+      </node>
+      <node concept="2V6ofZ" id="3MLv1IjNSlu" role="2V6of0">
+        <property role="TrG5h" value="VectorBase Variation" />
+        <property role="1KcK35" value="vb_snp_mart_1502" />
+      </node>
+      <node concept="2V6ofZ" id="3MLv1IjNSlv" role="2V6of0">
+        <property role="TrG5h" value="VectorBase Expression" />
+        <property role="1KcK35" value="expression" />
+      </node>
+      <node concept="2V6ofZ" id="3MLv1IjNSlw" role="2V6of0">
+        <property role="TrG5h" value="GRAMENE 40 ENSEMBL GENES (CSHL/CORNELL US)" />
+        <property role="1KcK35" value="ENSEMBL_MART_PLANT" />
+      </node>
+      <node concept="2V6ofZ" id="3MLv1IjNSlx" role="2V6of0">
+        <property role="TrG5h" value="GRAMENE 40 VARIATION (CSHL/CORNELL US)" />
+        <property role="1KcK35" value="ENSEMBL_MART_PLANT_SNP" />
+      </node>
+    </node>
+  </node>
   <node concept="S1EQb" id="6mn2T7S4umH">
     <property role="2BDq$p" value="true" />
     <property role="TrG5h" value="qq" />
@@ -49084,637 +49715,6 @@
         <property role="1KcK35" value="ENSEMBL_MART_PLANT" />
       </node>
       <node concept="2V6ofZ" id="6mn2T7S4unB" role="2V6of0">
-        <property role="TrG5h" value="GRAMENE 40 VARIATION (CSHL/CORNELL US)" />
-        <property role="1KcK35" value="ENSEMBL_MART_PLANT_SNP" />
-      </node>
-    </node>
-  </node>
-  <node concept="S1EQb" id="6mn2T7SnJXh">
-    <property role="2BDq$p" value="true" />
-    <property role="TrG5h" value="qwww" />
-    <node concept="ZXjPh" id="6mn2T7SnJXi" role="S1EQ8">
-      <property role="S1EQ6" value="SQWNRAQARO" />
-      <node concept="1JfIxH" id="6mn2T7SnJXj" role="ZXjPg">
-        <property role="S1EQ6" value="ENQGTMGATN" />
-        <property role="8NYsT" value="false" />
-        <ref role="1KrPA$" node="3MLv1IjNSll" resolve="Arabidopsis Thaliana TAIRV10, genes functional annotation" />
-        <ref role="1L9wCD" node="3MLv1IjNSo4" resolve="TAIRV10 Annotation (With TEs)" />
-        <node concept="3MlLWZ" id="6mn2T7SnJXl" role="gr_HF">
-          <property role="TrG5h" value="resultFromBioMart" />
-          <ref role="3MlLW5" node="6mn2T7SnJXm" resolve="resultFromBioMart" />
-          <node concept="3Mpm39" id="6mn2T7SnJXm" role="3WeD9t">
-            <property role="31Cu5t" value="&#9;" />
-            <property role="TrG5h" value="resultFromBioMart" />
-            <node concept="31JHg8" id="3MLv1IjNSs3" role="31JHgj">
-              <property role="TrG5h" value="Qualifiers_Type_from_naive_attributes" />
-              <ref role="1YeEjl" to="9nc5:1ID5TXdv_9L" resolve="String" />
-            </node>
-          </node>
-        </node>
-        <node concept="1KEnK8" id="3MLv1IjNSrZ" role="1KIcB_">
-          <ref role="1KEnK9" node="3MLv1IjNSog" resolve="Qualifiers Type from naive_attributes" />
-          <node concept="2q4RLF" id="3MLv1IjNSs0" role="2qZv53">
-            <property role="2qiqCQ" value="string" />
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="2gkutv" id="3MLv1IjNSkH" role="lGtFl">
-      <node concept="2V6ofZ" id="3MLv1IjNSkI" role="2V6of0">
-        <property role="TrG5h" value="ENSEMBL GENES 79 (SANGER UK)" />
-        <property role="1KcK35" value="ensembl" />
-      </node>
-      <node concept="2V6ofZ" id="3MLv1IjNSkJ" role="2V6of0">
-        <property role="TrG5h" value="ENSEMBL VARIATION 79 (SANGER UK)" />
-        <property role="1KcK35" value="snp" />
-      </node>
-      <node concept="2V6ofZ" id="3MLv1IjNSkK" role="2V6of0">
-        <property role="TrG5h" value="ENSEMBL REGULATION 79 (SANGER UK)" />
-        <property role="1KcK35" value="regulation" />
-      </node>
-      <node concept="2V6ofZ" id="3MLv1IjNSkL" role="2V6of0">
-        <property role="TrG5h" value="VEGA 59  (SANGER UK)" />
-        <property role="1KcK35" value="vega" />
-      </node>
-      <node concept="2V6ofZ" id="3MLv1IjNSkM" role="2V6of0">
-        <property role="TrG5h" value="ENSEMBL FUNGI 26 (EBI UK)" />
-        <property role="1KcK35" value="fungi_mart_26" />
-      </node>
-      <node concept="2V6ofZ" id="3MLv1IjNSkN" role="2V6of0">
-        <property role="TrG5h" value="ENSEMBL FUNGI VARIATION 26 (EBI UK)" />
-        <property role="1KcK35" value="fungi_variations_26" />
-      </node>
-      <node concept="2V6ofZ" id="3MLv1IjNSkO" role="2V6of0">
-        <property role="TrG5h" value="ENSEMBL METAZOA 26 (EBI UK)" />
-        <property role="1KcK35" value="metazoa_mart_26" />
-      </node>
-      <node concept="2V6ofZ" id="3MLv1IjNSkP" role="2V6of0">
-        <property role="TrG5h" value="ENSEMBL METAZOA VARIATION 26 (EBI UK)" />
-        <property role="1KcK35" value="metazoa_variations_26" />
-      </node>
-      <node concept="2V6ofZ" id="3MLv1IjNSkQ" role="2V6of0">
-        <property role="TrG5h" value="ENSEMBL PLANTS 26 (EBI UK)" />
-        <property role="1KcK35" value="plants_mart_26" />
-      </node>
-      <node concept="2V6ofZ" id="3MLv1IjNSkR" role="2V6of0">
-        <property role="TrG5h" value="ENSEMBL PLANTS VARIATION 26 (EBI UK)" />
-        <property role="1KcK35" value="plants_variations_26" />
-      </node>
-      <node concept="2V6ofZ" id="3MLv1IjNSkS" role="2V6of0">
-        <property role="TrG5h" value="ENSEMBL PROTISTS 25 (EBI UK)" />
-        <property role="1KcK35" value="protists_mart_25" />
-      </node>
-      <node concept="2V6ofZ" id="3MLv1IjNSkT" role="2V6of0">
-        <property role="TrG5h" value="ENSEMBL PROTISTS VARIATION 26 (EBI UK)" />
-        <property role="1KcK35" value="protists_variations_26" />
-      </node>
-      <node concept="2V6ofZ" id="3MLv1IjNSkU" role="2V6of0">
-        <property role="TrG5h" value="MSD (EBI UK)" />
-        <property role="1KcK35" value="msd" />
-      </node>
-      <node concept="2V6ofZ" id="3MLv1IjNSkV" role="2V6of0">
-        <property role="TrG5h" value="PROTEOMICS (UNIVERSITY OF CAMBRIDGE - UK)" />
-        <property role="1KcK35" value="cg_mart_02" />
-      </node>
-      <node concept="2V6ofZ" id="3MLv1IjNSkW" role="2V6of0">
-        <property role="TrG5h" value="WTSI MOUSE GENETICS PROJECT (SANGER UK)" />
-        <property role="1KcK35" value="htgt" />
-      </node>
-      <node concept="2V6ofZ" id="3MLv1IjNSkX" role="2V6of0">
-        <property role="TrG5h" value="WORMBASE 220 (CSHL US)" />
-        <property role="1KcK35" value="WS220" />
-      </node>
-      <node concept="2V6ofZ" id="3MLv1IjNSkY" role="2V6of0">
-        <property role="TrG5h" value="ParaSite Mart (EBI UK)" />
-        <property role="1KcK35" value="parasite_mart" />
-      </node>
-      <node concept="2V6ofZ" id="3MLv1IjNSkZ" role="2V6of0">
-        <property role="TrG5h" value="MGI (JACKSON LABORATORY US)" />
-        <property role="1KcK35" value="biomart" />
-      </node>
-      <node concept="2V6ofZ" id="3MLv1IjNSl0" role="2V6of0">
-        <property role="TrG5h" value="FANTOM5 phase1.1 (RIKEN CSLST Japan)" />
-        <property role="1KcK35" value="example" />
-      </node>
-      <node concept="2V6ofZ" id="3MLv1IjNSl1" role="2V6of0">
-        <property role="TrG5h" value="PRIDE (EBI UK)" />
-        <property role="1KcK35" value="pride" />
-      </node>
-      <node concept="2V6ofZ" id="3MLv1IjNSl2" role="2V6of0">
-        <property role="TrG5h" value="INTERPRO (EBI UK)" />
-        <property role="1KcK35" value="prod-intermart_1" />
-      </node>
-      <node concept="2V6ofZ" id="3MLv1IjNSl3" role="2V6of0">
-        <property role="TrG5h" value="UNIPROT (EBI UK)" />
-        <property role="1KcK35" value="unimart" />
-      </node>
-      <node concept="2V6ofZ" id="3MLv1IjNSl4" role="2V6of0">
-        <property role="TrG5h" value="PARAMECIUM GENOME (CNRS FRANCE)" />
-        <property role="1KcK35" value="biomartDB" />
-      </node>
-      <node concept="2V6ofZ" id="3MLv1IjNSl5" role="2V6of0">
-        <property role="TrG5h" value="PARAMECIUM BIBLIOGRAPHY (CNRS FRANCE)" />
-        <property role="1KcK35" value="biblioDB" />
-      </node>
-      <node concept="2V6ofZ" id="3MLv1IjNSl6" role="2V6of0">
-        <property role="TrG5h" value="Phytozome" />
-        <property role="1KcK35" value="phytozome_mart" />
-      </node>
-      <node concept="2V6ofZ" id="3MLv1IjNSl7" role="2V6of0">
-        <property role="TrG5h" value="Metazome" />
-        <property role="1KcK35" value="metazome_mart" />
-      </node>
-      <node concept="2V6ofZ" id="3MLv1IjNSl8" role="2V6of0">
-        <property role="TrG5h" value="HAPMAP 27 (NCBI US)" />
-        <property role="1KcK35" value="HapMap_rel27" />
-      </node>
-      <node concept="2V6ofZ" id="3MLv1IjNSl9" role="2V6of0">
-        <property role="TrG5h" value="INTOGEN ONCOMODULES" />
-        <property role="1KcK35" value="oncomodules" />
-      </node>
-      <node concept="2V6ofZ" id="3MLv1IjNSla" role="2V6of0">
-        <property role="TrG5h" value="IKMC GENES AND PRODUCTS (IKMC)" />
-        <property role="1KcK35" value="ikmc" />
-      </node>
-      <node concept="2V6ofZ" id="3MLv1IjNSlb" role="2V6of0">
-        <property role="TrG5h" value="GERMONLINE" />
-        <property role="1KcK35" value="GermOnline" />
-      </node>
-      <node concept="2V6ofZ" id="3MLv1IjNSlc" role="2V6of0">
-        <property role="TrG5h" value="SIGENAE OLIGO ANNOTATION (ENSEMBL 61)" />
-        <property role="1KcK35" value="Sigenae_Oligo_Annotation_Ensembl_61" />
-      </node>
-      <node concept="2V6ofZ" id="3MLv1IjNSld" role="2V6of0">
-        <property role="TrG5h" value="BCCTB Bioinformatics Portal (UK and Ireland)" />
-        <property role="1KcK35" value="Breast_mart_69" />
-      </node>
-      <node concept="2V6ofZ" id="3MLv1IjNSle" role="2V6of0">
-        <property role="TrG5h" value="Predictive models of gene regulation from processed high-throughput epigenomics data: K562 vs. Gm12878" />
-        <property role="1KcK35" value="K562_Gm12878" />
-      </node>
-      <node concept="2V6ofZ" id="3MLv1IjNSlf" role="2V6of0">
-        <property role="TrG5h" value="Predictive models of gene regulation from processed high-throughput epigenomics data: Hsmm vs. Hmec" />
-        <property role="1KcK35" value="Hsmm_Hmec" />
-      </node>
-      <node concept="2V6ofZ" id="3MLv1IjNSlg" role="2V6of0">
-        <property role="TrG5h" value="PANCREATIC EXPRESSION DATABASE (BARTS CANCER INSTITUTE UK)" />
-        <property role="1KcK35" value="Pancreas63" />
-      </node>
-      <node concept="2V6ofZ" id="3MLv1IjNSlh" role="2V6of0">
-        <property role="TrG5h" value="Multi-species: marker, QTL, SNP, gene, germplasm, phenotype, association, with Gene annotations" />
-        <property role="1KcK35" value="Public_OBIOMARTPUB" />
-      </node>
-      <node concept="2V6ofZ" id="3MLv1IjNSli" role="2V6of0">
-        <property role="TrG5h" value="Grapevine 8x, stuctural annotation with Genetic maps (genetic markers..)" />
-        <property role="1KcK35" value="Public_VITIS" />
-      </node>
-      <node concept="2V6ofZ" id="3MLv1IjNSlj" role="2V6of0">
-        <property role="TrG5h" value="Grapevine 12x.0, stuctural and functional annotation with Genetic maps (genetic markers..)" />
-        <property role="1KcK35" value="Public_VITIS_12x" />
-      </node>
-      <node concept="2V6ofZ" id="3MLv1IjNSlk" role="2V6of0">
-        <property role="TrG5h" value="Wheat, stuctural annotation with Genetic maps (genetic markers..)" />
-        <property role="1KcK35" value="Prod_WHEAT" />
-      </node>
-      <node concept="2V6ofZ" id="3MLv1IjNSll" role="2V6of0">
-        <property role="TrG5h" value="Arabidopsis Thaliana TAIRV10, genes functional annotation" />
-        <property role="1KcK35" value="Public_TAIRV10" />
-        <node concept="mrNX8" id="3MLv1IjNSo3" role="1KfzH5">
-          <property role="TrG5h" value="TAIRV10 Annotation" />
-          <property role="1KcK35" value="tairv10" />
-        </node>
-        <node concept="mrNX8" id="3MLv1IjNSo4" role="1KfzH5">
-          <property role="TrG5h" value="TAIRV10 Annotation (With TEs)" />
-          <property role="1KcK35" value="tairv10TE" />
-          <node concept="1KEnKV" id="3MLv1IjNSo8" role="1KEnKb">
-            <property role="TrG5h" value="Feature Name from naive_attributes" />
-            <property role="fo_kR" value="html,txt,csv,tsv,xls" />
-            <property role="1KcK35" value="feature_name" />
-          </node>
-          <node concept="1KEnKV" id="3MLv1IjNSoa" role="1KEnKb">
-            <property role="TrG5h" value="Phase from naive_attributes" />
-            <property role="fo_kR" value="html,txt,csv,tsv,xls" />
-            <property role="1KcK35" value="tier_103" />
-          </node>
-          <node concept="1KEnKV" id="3MLv1IjNSoc" role="1KEnKb">
-            <property role="TrG5h" value="Strand from naive_attributes" />
-            <property role="fo_kR" value="html,txt,csv,tsv,xls" />
-            <property role="1KcK35" value="strand_103" />
-          </node>
-          <node concept="1KEnKV" id="3MLv1IjNSoe" role="1KEnKb">
-            <property role="TrG5h" value="Feature Type : Program from naive_attributes" />
-            <property role="fo_kR" value="html,txt,csv,tsv,xls" />
-            <property role="1KcK35" value="tag_109" />
-          </node>
-          <node concept="1KEnKV" id="3MLv1IjNSog" role="1KEnKb">
-            <property role="TrG5h" value="Qualifiers Type from naive_attributes" />
-            <property role="fo_kR" value="html,txt,csv,tsv,xls" />
-            <property role="1KcK35" value="tag_102" />
-          </node>
-          <node concept="1KEnKV" id="3MLv1IjNSoi" role="1KEnKb">
-            <property role="TrG5h" value="Qualifiers Value from naive_attributes" />
-            <property role="fo_kR" value="html,txt,csv,tsv,xls" />
-            <property role="1KcK35" value="attribute_value_101" />
-          </node>
-          <node concept="1KEnKV" id="3MLv1IjNSok" role="1KEnKb">
-            <property role="TrG5h" value="Chromosome Name from naive_attributes" />
-            <property role="fo_kR" value="html,txt,csv,tsv,xls" />
-            <property role="1KcK35" value="seqname_104" />
-          </node>
-          <node concept="1KEnKV" id="3MLv1IjNSom" role="1KEnKb">
-            <property role="TrG5h" value="Feature Location Start from naive_attributes" />
-            <property role="fo_kR" value="html,txt,csv,tsv,xls" />
-            <property role="1KcK35" value="start_103" />
-          </node>
-          <node concept="1KEnKV" id="3MLv1IjNSoo" role="1KEnKb">
-            <property role="TrG5h" value="Feature Location End from naive_attributes" />
-            <property role="fo_kR" value="html,txt,csv,tsv,xls" />
-            <property role="1KcK35" value="end_103" />
-          </node>
-          <node concept="31iBff" id="3MLv1IjNSoq" role="6rfF4">
-            <property role="TrG5h" value="Feature Name " />
-            <property role="31ixmi" value="text" />
-            <property role="1KcK35" value="feature_name" />
-          </node>
-          <node concept="31iBff" id="3MLv1IjNSos" role="6rfF4">
-            <property role="TrG5h" value="Phase" />
-            <property role="31ixmi" value="list" />
-            <property role="1KcK35" value="tier_103" />
-            <node concept="2kWCcY" id="3MLv1IjNSot" role="2kyJfb">
-              <property role="TrG5h" value="0" />
-            </node>
-            <node concept="2kWCcY" id="3MLv1IjNSou" role="2kyJfb">
-              <property role="TrG5h" value="1" />
-            </node>
-            <node concept="2kWCcY" id="3MLv1IjNSov" role="2kyJfb">
-              <property role="TrG5h" value="2" />
-            </node>
-            <node concept="2kWCcY" id="3MLv1IjNSow" role="2kyJfb">
-              <property role="TrG5h" value="3" />
-            </node>
-            <node concept="2kWCcY" id="3MLv1IjNSox" role="2kyJfb">
-              <property role="TrG5h" value="4" />
-            </node>
-            <node concept="2kWCcY" id="3MLv1IjNSoy" role="2kyJfb">
-              <property role="TrG5h" value="5" />
-            </node>
-          </node>
-          <node concept="31iBff" id="3MLv1IjNSo$" role="6rfF4">
-            <property role="TrG5h" value="Strand " />
-            <property role="31ixmi" value="list" />
-            <property role="1KcK35" value="strand_103" />
-            <node concept="2kWCcY" id="3MLv1IjNSo_" role="2kyJfb">
-              <property role="TrG5h" value="-1" />
-            </node>
-            <node concept="2kWCcY" id="3MLv1IjNSoA" role="2kyJfb">
-              <property role="TrG5h" value="0" />
-            </node>
-            <node concept="2kWCcY" id="3MLv1IjNSoB" role="2kyJfb">
-              <property role="TrG5h" value="1" />
-            </node>
-          </node>
-          <node concept="31iBff" id="3MLv1IjNSoD" role="6rfF4">
-            <property role="TrG5h" value="Feature Type : Program" />
-            <property role="31ixmi" value="list" />
-            <property role="1KcK35" value="tag_109" />
-            <node concept="2kWCcY" id="3MLv1IjNSoE" role="2kyJfb">
-              <property role="TrG5h" value="CDS:TAIR10" />
-            </node>
-            <node concept="2kWCcY" id="3MLv1IjNSoF" role="2kyJfb">
-              <property role="TrG5h" value="chromosome:TAIR10" />
-            </node>
-            <node concept="2kWCcY" id="3MLv1IjNSoG" role="2kyJfb">
-              <property role="TrG5h" value="exon:TAIR10" />
-            </node>
-            <node concept="2kWCcY" id="3MLv1IjNSoH" role="2kyJfb">
-              <property role="TrG5h" value="five_prime_UTR:TAIR10" />
-            </node>
-            <node concept="2kWCcY" id="3MLv1IjNSoI" role="2kyJfb">
-              <property role="TrG5h" value="gene:TAIR10" />
-            </node>
-            <node concept="2kWCcY" id="3MLv1IjNSoJ" role="2kyJfb">
-              <property role="TrG5h" value="GSM277608:S-MART" />
-            </node>
-            <node concept="2kWCcY" id="3MLv1IjNSoK" role="2kyJfb">
-              <property role="TrG5h" value="match:Ath_TAIR10_TEs" />
-            </node>
-            <node concept="2kWCcY" id="3MLv1IjNSoL" role="2kyJfb">
-              <property role="TrG5h" value="match:Brassicaceae" />
-            </node>
-            <node concept="2kWCcY" id="3MLv1IjNSoM" role="2kyJfb">
-              <property role="TrG5h" value="match:Bundle" />
-            </node>
-            <node concept="2kWCcY" id="3MLv1IjNSoN" role="2kyJfb">
-              <property role="TrG5h" value="match:Bundle_2" />
-            </node>
-            <node concept="2kWCcY" id="3MLv1IjNSoO" role="2kyJfb">
-              <property role="TrG5h" value="match:Bundle_Complete" />
-            </node>
-            <node concept="2kWCcY" id="3MLv1IjNSoP" role="2kyJfb">
-              <property role="TrG5h" value="match:Pclouds" />
-            </node>
-            <node concept="2kWCcY" id="3MLv1IjNSoQ" role="2kyJfb">
-              <property role="TrG5h" value="match:Reference" />
-            </node>
-            <node concept="2kWCcY" id="3MLv1IjNSoR" role="2kyJfb">
-              <property role="TrG5h" value="match:RepeatModeler" />
-            </node>
-            <node concept="2kWCcY" id="3MLv1IjNSoS" role="2kyJfb">
-              <property role="TrG5h" value="match:RepeatScout" />
-            </node>
-            <node concept="2kWCcY" id="3MLv1IjNSoT" role="2kyJfb">
-              <property role="TrG5h" value="match:Tallymer" />
-            </node>
-            <node concept="2kWCcY" id="3MLv1IjNSoU" role="2kyJfb">
-              <property role="TrG5h" value="match:TEdenovo_1" />
-            </node>
-            <node concept="2kWCcY" id="3MLv1IjNSoV" role="2kyJfb">
-              <property role="TrG5h" value="match:TEdenovo_2" />
-            </node>
-            <node concept="2kWCcY" id="3MLv1IjNSoW" role="2kyJfb">
-              <property role="TrG5h" value="match:TEdenovo_3" />
-            </node>
-            <node concept="2kWCcY" id="3MLv1IjNSoX" role="2kyJfb">
-              <property role="TrG5h" value="match:TEdenovo_4" />
-            </node>
-            <node concept="2kWCcY" id="3MLv1IjNSoY" role="2kyJfb">
-              <property role="TrG5h" value="match:TEdenovo_cool" />
-            </node>
-            <node concept="2kWCcY" id="3MLv1IjNSoZ" role="2kyJfb">
-              <property role="TrG5h" value="match:TEdenovo_soft" />
-            </node>
-            <node concept="2kWCcY" id="3MLv1IjNSp0" role="2kyJfb">
-              <property role="TrG5h" value="match:TEdenovo_soft_2" />
-            </node>
-            <node concept="2kWCcY" id="3MLv1IjNSp1" role="2kyJfb">
-              <property role="TrG5h" value="match:TRF" />
-            </node>
-            <node concept="2kWCcY" id="3MLv1IjNSp2" role="2kyJfb">
-              <property role="TrG5h" value="match_part:Brassicaceae" />
-            </node>
-            <node concept="2kWCcY" id="3MLv1IjNSp3" role="2kyJfb">
-              <property role="TrG5h" value="match_part:Bundle" />
-            </node>
-            <node concept="2kWCcY" id="3MLv1IjNSp4" role="2kyJfb">
-              <property role="TrG5h" value="match_part:Bundle_2" />
-            </node>
-            <node concept="2kWCcY" id="3MLv1IjNSp5" role="2kyJfb">
-              <property role="TrG5h" value="match_part:Bundle_Complete" />
-            </node>
-            <node concept="2kWCcY" id="3MLv1IjNSp6" role="2kyJfb">
-              <property role="TrG5h" value="match_part:Reference" />
-            </node>
-            <node concept="2kWCcY" id="3MLv1IjNSp7" role="2kyJfb">
-              <property role="TrG5h" value="match_part:RepeatModeler" />
-            </node>
-            <node concept="2kWCcY" id="3MLv1IjNSp8" role="2kyJfb">
-              <property role="TrG5h" value="match_part:RepeatScout" />
-            </node>
-            <node concept="2kWCcY" id="3MLv1IjNSp9" role="2kyJfb">
-              <property role="TrG5h" value="match_part:TEdenovo_1" />
-            </node>
-            <node concept="2kWCcY" id="3MLv1IjNSpa" role="2kyJfb">
-              <property role="TrG5h" value="match_part:TEdenovo_2" />
-            </node>
-            <node concept="2kWCcY" id="3MLv1IjNSpb" role="2kyJfb">
-              <property role="TrG5h" value="match_part:TEdenovo_3" />
-            </node>
-            <node concept="2kWCcY" id="3MLv1IjNSpc" role="2kyJfb">
-              <property role="TrG5h" value="match_part:TEdenovo_4" />
-            </node>
-            <node concept="2kWCcY" id="3MLv1IjNSpd" role="2kyJfb">
-              <property role="TrG5h" value="match_part:TEdenovo_cool" />
-            </node>
-            <node concept="2kWCcY" id="3MLv1IjNSpe" role="2kyJfb">
-              <property role="TrG5h" value="match_part:TEdenovo_soft" />
-            </node>
-            <node concept="2kWCcY" id="3MLv1IjNSpf" role="2kyJfb">
-              <property role="TrG5h" value="match_part:TEdenovo_soft_2" />
-            </node>
-            <node concept="2kWCcY" id="3MLv1IjNSpg" role="2kyJfb">
-              <property role="TrG5h" value="miRNA:TAIR10" />
-            </node>
-            <node concept="2kWCcY" id="3MLv1IjNSph" role="2kyJfb">
-              <property role="TrG5h" value="mRNA:TAIR10" />
-            </node>
-            <node concept="2kWCcY" id="3MLv1IjNSpi" role="2kyJfb">
-              <property role="TrG5h" value="mRNA_TE_gene:TAIR10" />
-            </node>
-            <node concept="2kWCcY" id="3MLv1IjNSpj" role="2kyJfb">
-              <property role="TrG5h" value="ncRNA:TAIR10" />
-            </node>
-            <node concept="2kWCcY" id="3MLv1IjNSpk" role="2kyJfb">
-              <property role="TrG5h" value="protein:TAIR10" />
-            </node>
-            <node concept="2kWCcY" id="3MLv1IjNSpl" role="2kyJfb">
-              <property role="TrG5h" value="pseudogene:TAIR10" />
-            </node>
-            <node concept="2kWCcY" id="3MLv1IjNSpm" role="2kyJfb">
-              <property role="TrG5h" value="pseudogenic_exon:TAIR10" />
-            </node>
-            <node concept="2kWCcY" id="3MLv1IjNSpn" role="2kyJfb">
-              <property role="TrG5h" value="pseudogenic_transcript:TAIR10" />
-            </node>
-            <node concept="2kWCcY" id="3MLv1IjNSpo" role="2kyJfb">
-              <property role="TrG5h" value="rRNA:TAIR10" />
-            </node>
-            <node concept="2kWCcY" id="3MLv1IjNSpp" role="2kyJfb">
-              <property role="TrG5h" value="snoRNA:TAIR10" />
-            </node>
-            <node concept="2kWCcY" id="3MLv1IjNSpq" role="2kyJfb">
-              <property role="TrG5h" value="SNP:Nordborg" />
-            </node>
-            <node concept="2kWCcY" id="3MLv1IjNSpr" role="2kyJfb">
-              <property role="TrG5h" value="snRNA:TAIR10" />
-            </node>
-            <node concept="2kWCcY" id="3MLv1IjNSps" role="2kyJfb">
-              <property role="TrG5h" value="three_prime_UTR:TAIR10" />
-            </node>
-            <node concept="2kWCcY" id="3MLv1IjNSpt" role="2kyJfb">
-              <property role="TrG5h" value="transposable_element_gene:TAIR10" />
-            </node>
-            <node concept="2kWCcY" id="3MLv1IjNSpu" role="2kyJfb">
-              <property role="TrG5h" value="tRNA:TAIR10" />
-            </node>
-          </node>
-          <node concept="31iBff" id="3MLv1IjNSpw" role="6rfF4">
-            <property role="TrG5h" value="Chromosome Name" />
-            <property role="31ixmi" value="list" />
-            <property role="1KcK35" value="seqname_104" />
-            <node concept="2kWCcY" id="3MLv1IjNSpx" role="2kyJfb">
-              <property role="TrG5h" value="Chr1" />
-            </node>
-            <node concept="2kWCcY" id="3MLv1IjNSpy" role="2kyJfb">
-              <property role="TrG5h" value="Chr2" />
-            </node>
-            <node concept="2kWCcY" id="3MLv1IjNSpz" role="2kyJfb">
-              <property role="TrG5h" value="Chr3" />
-            </node>
-            <node concept="2kWCcY" id="3MLv1IjNSp$" role="2kyJfb">
-              <property role="TrG5h" value="Chr4" />
-            </node>
-            <node concept="2kWCcY" id="3MLv1IjNSp_" role="2kyJfb">
-              <property role="TrG5h" value="Chr5" />
-            </node>
-            <node concept="2kWCcY" id="3MLv1IjNSpA" role="2kyJfb">
-              <property role="TrG5h" value="ChrC" />
-            </node>
-            <node concept="2kWCcY" id="3MLv1IjNSpB" role="2kyJfb">
-              <property role="TrG5h" value="ChrM" />
-            </node>
-          </node>
-          <node concept="31iBff" id="3MLv1IjNSpD" role="6rfF4">
-            <property role="TrG5h" value="Qualifiers Value" />
-            <property role="31ixmi" value="text" />
-            <property role="1KcK35" value="attribute_value_101" />
-          </node>
-          <node concept="31iBff" id="3MLv1IjNSpF" role="6rfF4">
-            <property role="TrG5h" value="Qualifiers Type" />
-            <property role="31ixmi" value="list" />
-            <property role="1KcK35" value="tag_102" />
-            <node concept="2kWCcY" id="3MLv1IjNSpG" role="2kyJfb">
-              <property role="TrG5h" value="Alias" />
-            </node>
-            <node concept="2kWCcY" id="3MLv1IjNSpH" role="2kyJfb">
-              <property role="TrG5h" value="best" />
-            </node>
-            <node concept="2kWCcY" id="3MLv1IjNSpI" role="2kyJfb">
-              <property role="TrG5h" value="computational_description" />
-            </node>
-            <node concept="2kWCcY" id="3MLv1IjNSpJ" role="2kyJfb">
-              <property role="TrG5h" value="contains" />
-            </node>
-            <node concept="2kWCcY" id="3MLv1IjNSpK" role="2kyJfb">
-              <property role="TrG5h" value="curator_summary" />
-            </node>
-            <node concept="2kWCcY" id="3MLv1IjNSpL" role="2kyJfb">
-              <property role="TrG5h" value="Derives_from" />
-            </node>
-            <node concept="2kWCcY" id="3MLv1IjNSpM" role="2kyJfb">
-              <property role="TrG5h" value="expressed_during" />
-            </node>
-            <node concept="2kWCcY" id="3MLv1IjNSpN" role="2kyJfb">
-              <property role="TrG5h" value="expressed_in" />
-            </node>
-            <node concept="2kWCcY" id="3MLv1IjNSpO" role="2kyJfb">
-              <property role="TrG5h" value="family" />
-            </node>
-            <node concept="2kWCcY" id="3MLv1IjNSpP" role="2kyJfb">
-              <property role="TrG5h" value="functions_in" />
-            </node>
-            <node concept="2kWCcY" id="3MLv1IjNSpQ" role="2kyJfb">
-              <property role="TrG5h" value="Identity" />
-            </node>
-            <node concept="2kWCcY" id="3MLv1IjNSpR" role="2kyJfb">
-              <property role="TrG5h" value="involved_in" />
-            </node>
-            <node concept="2kWCcY" id="3MLv1IjNSpS" role="2kyJfb">
-              <property role="TrG5h" value="load_id" />
-            </node>
-            <node concept="2kWCcY" id="3MLv1IjNSpT" role="2kyJfb">
-              <property role="TrG5h" value="located_in" />
-            </node>
-            <node concept="2kWCcY" id="3MLv1IjNSpU" role="2kyJfb">
-              <property role="TrG5h" value="location" />
-            </node>
-            <node concept="2kWCcY" id="3MLv1IjNSpV" role="2kyJfb">
-              <property role="TrG5h" value="model" />
-            </node>
-            <node concept="2kWCcY" id="3MLv1IjNSpW" role="2kyJfb">
-              <property role="TrG5h" value="Note" />
-            </node>
-            <node concept="2kWCcY" id="3MLv1IjNSpX" role="2kyJfb">
-              <property role="TrG5h" value="parent_id" />
-            </node>
-            <node concept="2kWCcY" id="3MLv1IjNSpY" role="2kyJfb">
-              <property role="TrG5h" value="phenotyping_year" />
-            </node>
-            <node concept="2kWCcY" id="3MLv1IjNSpZ" role="2kyJfb">
-              <property role="TrG5h" value="pvalue" />
-            </node>
-            <node concept="2kWCcY" id="3MLv1IjNSq0" role="2kyJfb">
-              <property role="TrG5h" value="short_description" />
-            </node>
-            <node concept="2kWCcY" id="3MLv1IjNSq1" role="2kyJfb">
-              <property role="TrG5h" value="super_family" />
-            </node>
-            <node concept="2kWCcY" id="3MLv1IjNSq2" role="2kyJfb">
-              <property role="TrG5h" value="Target" />
-            </node>
-            <node concept="2kWCcY" id="3MLv1IjNSq3" role="2kyJfb">
-              <property role="TrG5h" value="trait_name" />
-            </node>
-            <node concept="2kWCcY" id="3MLv1IjNSq4" role="2kyJfb">
-              <property role="TrG5h" value="treatment" />
-            </node>
-          </node>
-          <node concept="31iBff" id="3MLv1IjNSq6" role="6rfF4">
-            <property role="TrG5h" value="Feature Position Start" />
-            <property role="31ixmi" value="text" />
-            <property role="1KcK35" value="start_103" />
-          </node>
-          <node concept="31iBff" id="3MLv1IjNSq8" role="6rfF4">
-            <property role="TrG5h" value="Feature Position End" />
-            <property role="31ixmi" value="text" />
-            <property role="1KcK35" value="end_103" />
-          </node>
-          <node concept="31iBff" id="3MLv1IjNSqa" role="6rfF4">
-            <property role="TrG5h" value="Feature Position &gt;" />
-            <property role="31ixmi" value="text" />
-            <property role="1KcK35" value="start_sup_103" />
-          </node>
-          <node concept="31iBff" id="3MLv1IjNSqc" role="6rfF4">
-            <property role="TrG5h" value="Feature Position &lt;" />
-            <property role="31ixmi" value="text" />
-            <property role="1KcK35" value="end_inf_103" />
-          </node>
-        </node>
-      </node>
-      <node concept="2V6ofZ" id="3MLv1IjNSlm" role="2V6of0">
-        <property role="TrG5h" value="Zea mays ZmB73, genes functional annotation" />
-        <property role="1KcK35" value="Public_MAIZE" />
-      </node>
-      <node concept="2V6ofZ" id="3MLv1IjNSln" role="2V6of0">
-        <property role="TrG5h" value="Tomato, stuctural and functional annotation" />
-        <property role="1KcK35" value="Prod_TOMATO" />
-      </node>
-      <node concept="2V6ofZ" id="3MLv1IjNSlo" role="2V6of0">
-        <property role="TrG5h" value="Populus trichocarpa, genes functional annotation" />
-        <property role="1KcK35" value="Prod_POPLAR" />
-      </node>
-      <node concept="2V6ofZ" id="3MLv1IjNSlp" role="2V6of0">
-        <property role="TrG5h" value="Populus trichocarpa, genes functional annotation V2.0" />
-        <property role="1KcK35" value="Prod_POPLAR_V2" />
-      </node>
-      <node concept="2V6ofZ" id="3MLv1IjNSlq" role="2V6of0">
-        <property role="TrG5h" value="Botrytis cinerea T4, genes functional annotation " />
-        <property role="1KcK35" value="Prod_BOTRYTISEDIT" />
-      </node>
-      <node concept="2V6ofZ" id="3MLv1IjNSlr" role="2V6of0">
-        <property role="TrG5h" value="Botrytis cinerea B0510, genes functional annotation " />
-        <property role="1KcK35" value="Prod_BOFUB" />
-      </node>
-      <node concept="2V6ofZ" id="3MLv1IjNSls" role="2V6of0">
-        <property role="TrG5h" value="Leptosphaeria maculans, genes functional annotation" />
-        <property role="1KcK35" value="Prod_LMACULANSEDIT" />
-      </node>
-      <node concept="2V6ofZ" id="3MLv1IjNSlt" role="2V6of0">
-        <property role="TrG5h" value="VectorBase Genes" />
-        <property role="1KcK35" value="vb_gene_mart_1502" />
-      </node>
-      <node concept="2V6ofZ" id="3MLv1IjNSlu" role="2V6of0">
-        <property role="TrG5h" value="VectorBase Variation" />
-        <property role="1KcK35" value="vb_snp_mart_1502" />
-      </node>
-      <node concept="2V6ofZ" id="3MLv1IjNSlv" role="2V6of0">
-        <property role="TrG5h" value="VectorBase Expression" />
-        <property role="1KcK35" value="expression" />
-      </node>
-      <node concept="2V6ofZ" id="3MLv1IjNSlw" role="2V6of0">
-        <property role="TrG5h" value="GRAMENE 40 ENSEMBL GENES (CSHL/CORNELL US)" />
-        <property role="1KcK35" value="ENSEMBL_MART_PLANT" />
-      </node>
-      <node concept="2V6ofZ" id="3MLv1IjNSlx" role="2V6of0">
         <property role="TrG5h" value="GRAMENE 40 VARIATION (CSHL/CORNELL US)" />
         <property role="1KcK35" value="ENSEMBL_MART_PLANT_SNP" />
       </node>
