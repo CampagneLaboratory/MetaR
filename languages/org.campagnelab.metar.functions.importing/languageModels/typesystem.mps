@@ -7,8 +7,9 @@
   </languages>
   <imports>
     <import index="fxg7" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.io(JDK/java.io@java_stub)" />
-    <import index="8t56" ref="r:c30a0469-24e5-4b8a-89e7-0d2028c5aa49(org.campagnelab.metar.functions.importing.structure)" implicit="true" />
-    <import index="798x" ref="r:1634ef7f-18ee-43e5-8286-5fcfc24745c4(org.campagnelab.metar.functions.importing.behavior)" implicit="true" />
+    <import index="798x" ref="r:1634ef7f-18ee-43e5-8286-5fcfc24745c4(org.campagnelab.metar.functions.importing.behavior)" />
+    <import index="6q58" ref="r:97268463-8a58-42b7-9dc6-fa004b7a4308(org.campagnelab.metar.R.structure)" />
+    <import index="8t56" ref="r:c30a0469-24e5-4b8a-89e7-0d2028c5aa49(org.campagnelab.metar.functions.importing.structure)" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -81,7 +82,6 @@
       </concept>
       <concept id="1195214364922" name="jetbrains.mps.lang.typesystem.structure.NonTypesystemRule" flags="ig" index="18kY7G" />
       <concept id="1210784285454" name="jetbrains.mps.lang.typesystem.structure.TypesystemIntention" flags="ng" index="3Cnw8n">
-        <property id="1216127910019" name="applyImmediately" index="ARO6o" />
         <reference id="1216388525179" name="quickFix" index="QpYPw" />
         <child id="1210784493590" name="actualArgument" index="3Coj4f" />
       </concept>
@@ -129,7 +129,7 @@
         <node concept="3cpWsn" id="2ExvV8p$120" role="3cpWs9">
           <property role="TrG5h" value="script" />
           <node concept="3Tqbb2" id="2ExvV8p$1_B" role="1tU5fm">
-            <ref role="ehGHo" to="8t56:213CARpfsHj" resolve="Stubs" />
+            <ref role="ehGHo" to="6q58:6efZaUgJXbW" resolve="Stubs" />
           </node>
           <node concept="2OqwBi" id="2ExvV8p$1DT" role="33vP2m">
             <node concept="1YBJjd" id="2ExvV8p$1Ak" role="2Oq$k0">
@@ -145,7 +145,6 @@
         <node concept="3clFbS" id="2ExvV8pzPIn" role="3clFbx">
           <node concept="Dpp1Q" id="2ExvV8p$2pj" role="3cqZAp">
             <node concept="3Cnw8n" id="2ExvV8p$3xp" role="2OEOjU">
-              <property role="ARO6o" value="true" />
               <ref role="QpYPw" node="2ExvV8p$2wy" resolve="ReplacePackageWithScript" />
               <node concept="3CnSsL" id="2ExvV8p$3$g" role="3Coj4f">
                 <ref role="QkamJ" node="2ExvV8p$2wI" resolve="nodeToReplace" />
@@ -193,7 +192,7 @@
     <node concept="Q6JDH" id="2ExvV8p$2x6" role="Q6Id_">
       <property role="TrG5h" value="destinationScript" />
       <node concept="3Tqbb2" id="2ExvV8p$2xi" role="Q6QK4">
-        <ref role="ehGHo" to="8t56:213CARpfsHj" resolve="Stubs" />
+        <ref role="ehGHo" to="6q58:6efZaUgJXbW" resolve="Stubs" />
       </node>
     </node>
     <node concept="Q5ZZ6" id="2ExvV8p$2wz" role="Q6x$H">

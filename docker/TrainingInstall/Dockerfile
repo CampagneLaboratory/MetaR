@@ -19,7 +19,10 @@ RUN apt-get update \
     libcairo2-dev=1.14.0-2.1 \
     libfreetype6-dev=2.5.2-3 \
     libfreetype6=2.5.2-3 \
+    libcurl4-openssl-dev \
 && apt-get build-dep -y r-cran-rgl 
+
+
 RUN Rscript -e 'R.Version()'
 
 ## Install additional Omegahat dependencies, with fallback to Github-based install 

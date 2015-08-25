@@ -10,8 +10,8 @@
   </languages>
   <imports>
     <import index="1jxa" ref="r:11bfb29e-93ee-486d-81f1-c62151df6fcc(model)" />
-    <import index="9nc5" ref="r:d1a256e6-591a-459f-809c-7fc9df45e4d5(org.campagnelab.mps.XChart.types.roots)" implicit="true" />
     <import index="wiqx" ref="r:6bfd7c1b-dea3-4f98-9ed3-bce7739b7a8d(org.campagnelab.metar.accessories.styles.colors)" implicit="true" />
+    <import index="9nc5" ref="r:d1a256e6-591a-459f-809c-7fc9df45e4d5(org.campagnelab.mps.XChart.types.roots)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -88,7 +88,7 @@
       </concept>
       <concept id="4977909310693613102" name="org.campagnelab.metar.tables.structure.Histogram" flags="ng" index="2p5owa">
         <child id="4977909310693733650" name="plot" index="2p5QcQ" />
-        <child id="4977909310704831599" name="ColumnRef" index="2pJHDb" />
+        <child id="7174230558124411917" name="expression" index="3Mjv2z" />
       </concept>
       <concept id="2133144034279815880" name="org.campagnelab.metar.tables.structure.SelectMultipleGroups" flags="ng" index="2spSBU">
         <child id="2133144034279816044" name="groupSelections" index="2spSxu" />
@@ -106,8 +106,8 @@
         <property id="9080041854829670092" name="inputChanged" index="8NYsT" />
       </concept>
       <concept id="6070133740826950348" name="org.campagnelab.metar.tables.structure.BoxPlot" flags="ng" index="2_9KyP">
-        <child id="6070133740826952603" name="ColumnRefs" index="2_9Z7y" />
         <child id="6070133740826952602" name="plot" index="2_9Z7z" />
+        <child id="7174230558137260965" name="expressions" index="3L2usb" />
       </concept>
       <concept id="8016431400517087678" name="org.campagnelab.metar.tables.structure.UsageType" flags="ng" index="2_mUhs" />
       <concept id="6583618001716898910" name="org.campagnelab.metar.tables.structure.ScaleByRow" flags="ng" index="2Mr_BI" />
@@ -401,6 +401,7 @@
           <property role="ZHjxa" value="0" />
           <property role="ZHjG8" value="1" />
           <property role="TrG5h" value="out" />
+          <property role="3ZMXzF" value="2" />
         </node>
         <node concept="afgQW" id="2xfYoj8ddxx" role="aeIV8">
           <ref role="afgo8" node="4DOwJpJxBw5" resolve="GSE59364_DC_all.csv" />
@@ -415,37 +416,46 @@
       <node concept="2p5owa" id="32mm9417oGN" role="ZXjPg">
         <property role="S1EQ6" value="WPXHFLINHY" />
         <ref role="L_9Jz" node="3i6SF3pFWwE" resolve="WithPuBuGn" />
+        <node concept="31$ALs" id="7c0D3AUWkIH" role="3Mjv2z">
+          <node concept="3$Gm2I" id="7c0D3AUWkII" role="31$ALt">
+            <ref role="3$Gm2J" node="1S_LPePHV$f" resolve="B_DC" />
+          </node>
+        </node>
         <node concept="1FHg$p" id="32mm9417oGP" role="2p5QcQ">
           <property role="ZHjxa" value="200" />
           <property role="ZHjG8" value="200" />
           <property role="TrG5h" value="histo" />
-        </node>
-        <node concept="3MHf5z" id="1xsIq4yaUk" role="2pJHDb">
-          <ref role="3MHf5w" node="1S_LPePHV$f" resolve="B_DC" />
+          <property role="3ZMXzF" value="3" />
         </node>
       </node>
       <node concept="2p5owa" id="1xsIq4ybGB" role="ZXjPg">
         <property role="S1EQ6" value="TBOETSOYDM" />
         <ref role="L_9Jz" node="1xsIq4ybGd" resolve="WithYlOrRd" />
+        <node concept="31$ALs" id="7c0D3AUWkIJ" role="3Mjv2z">
+          <node concept="3$Gm2I" id="7c0D3AUWkIK" role="31$ALt">
+            <ref role="3$Gm2J" node="1S_LPePHV$7" resolve="A_DC" />
+          </node>
+        </node>
         <node concept="1FHg$p" id="1xsIq4ybGD" role="2p5QcQ">
           <property role="ZHjxa" value="200" />
           <property role="ZHjG8" value="200" />
           <property role="TrG5h" value="histo2" />
-        </node>
-        <node concept="3MHf5z" id="1xsIq4yfjY" role="2pJHDb">
-          <ref role="3MHf5w" node="1S_LPePHV$7" resolve="A_DC" />
+          <property role="3ZMXzF" value="4" />
         </node>
       </node>
       <node concept="2_9KyP" id="32mm9417oH_" role="ZXjPg">
         <property role="S1EQ6" value="KQYOYLYTVT" />
         <ref role="L_9Jz" node="2od$re2jSwC" resolve="DefaultStyle" />
+        <node concept="31$ALs" id="7c0D3AUWkIP" role="3L2usb">
+          <node concept="3$Gm2I" id="7c0D3AUWkIQ" role="31$ALt">
+            <ref role="3$Gm2J" node="1S_LPePHVzR" resolve="DC0904" />
+          </node>
+        </node>
         <node concept="1FHg$p" id="32mm9417oHB" role="2_9Z7z">
           <property role="ZHjxa" value="200" />
           <property role="ZHjG8" value="200" />
           <property role="TrG5h" value="boxp" />
-        </node>
-        <node concept="3MHf5z" id="1xsIq4yepI" role="2_9Z7y">
-          <ref role="3MHf5w" node="1S_LPePHVzR" resolve="DC0904" />
+          <property role="3ZMXzF" value="5" />
         </node>
       </node>
       <node concept="SsgEw" id="7Mz7YANNoH2" role="ZXjPg">

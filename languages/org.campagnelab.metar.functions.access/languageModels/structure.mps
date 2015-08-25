@@ -8,9 +8,10 @@
   </languages>
   <imports>
     <import index="6q58" ref="r:97268463-8a58-42b7-9dc6-fa004b7a4308(org.campagnelab.metar.R.structure)" />
+    <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
+    <import index="jrxw" ref="r:9f2bbfbf-f8b7-4b3b-92b1-b6a0e9642c10(org.campagnelab.metar.tables.structure)" />
+    <import index="ztlb" ref="r:989540b8-cc89-4ed5-ba78-cf2ce766b8ce(org.campagnelab.mps.XChart.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
-    <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" implicit="true" />
-    <import index="jrxw" ref="r:9f2bbfbf-f8b7-4b3b-92b1-b6a0e9642c10(org.campagnelab.metar.tables.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
@@ -73,6 +74,21 @@
       <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
     </node>
     <node concept="PrWs8" id="legv36GJxc" role="PzmwI">
+      <ref role="PrY4T" to="jrxw:legv36GJlG" resolve="MetarExpression" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="55Sa2wh1hYp">
+    <property role="TrG5h" value="ColumnInMetar" />
+    <property role="34LRSv" value="$" />
+    <property role="R4oN_" value="Column references, as an R expression" />
+    <ref role="1TJDcQ" to="6q58:5mPDeVwiPap" resolve="Expr" />
+    <node concept="1TJgyj" id="55Sa2wh1hYq" role="1TKVEi">
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="column" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" to="ztlb:1UijAvvb9DJ" resolve="Column" />
+    </node>
+    <node concept="PrWs8" id="6VwWtFMFdkX" role="PzmwI">
       <ref role="PrY4T" to="jrxw:legv36GJlG" resolve="MetarExpression" />
     </node>
   </node>

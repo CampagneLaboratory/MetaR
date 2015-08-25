@@ -2,13 +2,17 @@
 <project version="4">
   <component name="MPSProject">
     <projectModules>
-      <modulePath path="${NEXTFLOW_PATH}/NYoSh/solutions/NYoSh.build-plugins/NYoSh.build-plugins.msd" folder="" />
+      <modulePath path="${ANTLR_HOME}/solutions/ANTLR.persistence.build/ANTLR.persistence.build.msd" folder="" />
+      <modulePath path="${org.campagnelab.goby.workbench.home}/solutions/NYoSh.build-plugins/NYoSh.build-plugins.msd" folder="" />
       <modulePath path="${org.campagnelab.xchart.home}/solutions/XChart.build0/XChart.build.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/devkits/R/org.campagnelab.R.devkit" folder="" />
       <modulePath path="$PROJECT_DIR$/devkits/org.campagnelab.HTAnalysis.devkit" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.editor.csvviewer/org.campagnelab.editor.csvviewer.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.editor.images/org.campagnelab.editor.images.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.metaR.inspect/org.campagnelab.metaR.inspect.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.metaR.tables/org.campagnelab.metaR.tables.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.metar.MetarToR/org.campagnelab.metar.MetarToR.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.metar.R.gen/org.campagnelab.metar.R.gen.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.metar.R/org.campagnelab.metar.R.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.metar.accessories/org.campagnelab.metar.accessories.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.metar.biomart/org.campagnelab.metar.biomart.mpl" folder="" />
@@ -26,7 +30,9 @@
       <modulePath path="$PROJECT_DIR$/solutions/Tests/Tests.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/VennDiagram/VennDiagram.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/biomart/biomart.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/biomartToR/biomartToR.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/build.plugins/build.plugins.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/migrationtest/migrationtest.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/org.campagnelab.editor.plugins/org.campagnelab.editor.plugins.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/org.campagnelab.metar.R.plugin/org.cmapagnelab.metar.R.plugin.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/org.campagnelab.metar.biomart.runtime/org.campagnelab.metar.biomart.runtime.msd" folder="" />

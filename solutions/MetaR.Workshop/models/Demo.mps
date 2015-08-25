@@ -7,8 +7,8 @@
     <devkit ref="8a3636fa-c6ec-4cb0-bc2a-b7143f2a4937(org.campagnelab.metaR)" />
   </languages>
   <imports>
-    <import index="9nc5" ref="r:d1a256e6-591a-459f-809c-7fc9df45e4d5(org.campagnelab.mps.XChart.types.roots)" implicit="true" />
     <import index="wiqx" ref="r:6bfd7c1b-dea3-4f98-9ed3-bce7739b7a8d(org.campagnelab.metar.accessories.styles.colors)" implicit="true" />
+    <import index="9nc5" ref="r:d1a256e6-591a-459f-809c-7fc9df45e4d5(org.campagnelab.mps.XChart.types.roots)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -77,7 +77,6 @@
         <child id="5703306641526703109" name="usages" index="2tncD" />
         <child id="6583618001716896682" name="scaling" index="2Mr_oq" />
       </concept>
-      <concept id="4067230457178079076" name="org.campagnelab.metar.tables.structure.CommentedStatementsBlock" flags="ng" index="3NwJD" />
       <concept id="4451133196879828915" name="org.campagnelab.metar.tables.structure.TableRef" flags="ng" index="afgQW">
         <reference id="4451133196879830023" name="table" index="afgo8" />
       </concept>
@@ -108,7 +107,6 @@
         <property id="8962032619593737385" name="id" index="S1EQ6" />
       </concept>
       <concept id="8962032619593737380" name="org.campagnelab.metar.tables.structure.Analysis" flags="ng" index="S1EQb">
-        <property id="2742007948298959018" name="trycatch_enabled" index="2BDq$p" />
         <child id="8962032619593737383" name="statements" index="S1EQ8" />
       </concept>
       <concept id="8962032619593737377" name="org.campagnelab.metar.tables.structure.EmptyLine" flags="ng" index="S1EQe" />
@@ -119,7 +117,7 @@
         <child id="8013388156563171423" name="output" index="Ss6Td" />
       </concept>
       <concept id="8962032619582305406" name="org.campagnelab.metar.tables.structure.StatementList" flags="ng" index="ZXjPh">
-        <child id="8962032619582305407" name="statements" index="ZXjPg" />
+        <child id="8962032619582305407" name="transformations" index="ZXjPg" />
       </concept>
       <concept id="3105090771424833148" name="org.campagnelab.metar.tables.structure.PlotRef" flags="ng" index="312p7A">
         <reference id="3105090771424833149" name="plot" index="312p7B" />
@@ -355,8 +353,8 @@
       <property role="TrG5h" value="DCLPS0910" />
       <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
       <node concept="3MzsTm" id="4$IC3Kj1JTu" role="lGtFl">
-        <node concept="3MzsBX" id="4$IC3Kj1JTv" role="3MztjM">
-          <ref role="3MzsBM" node="4DOwJpJxBt4" resolve="LPS=NO" />
+        <node concept="3MzsBX" id="4MN$qOAZhcZ" role="3MztjM">
+          <ref role="3MzsBM" node="4DOwJpJxBt0" resolve="LPS=YES" />
         </node>
         <node concept="3MzsBX" id="4$IC3Kj1JTw" role="3MztjM">
           <ref role="3MzsBM" node="w5znaeV$En" resolve="counts" />
@@ -367,8 +365,8 @@
       <property role="TrG5h" value="DCLPS0913" />
       <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
       <node concept="3MzsTm" id="4$IC3Kj1JTy" role="lGtFl">
-        <node concept="3MzsBX" id="4$IC3Kj1JTz" role="3MztjM">
-          <ref role="3MzsBM" node="4DOwJpJxBt4" resolve="LPS=NO" />
+        <node concept="3MzsBX" id="4MN$qOAZhd5" role="3MztjM">
+          <ref role="3MzsBM" node="4DOwJpJxBt0" resolve="LPS=YES" />
         </node>
         <node concept="3MzsBX" id="4$IC3Kj1JT$" role="3MztjM">
           <ref role="3MzsBM" node="w5znaeV$En" resolve="counts" />
@@ -498,7 +496,6 @@
   </node>
   <node concept="S1EQb" id="4DOwJpJMRj1">
     <property role="TrG5h" value="edgeR diff exp" />
-    <property role="2BDq$p" value="true" />
     <node concept="ZXjPh" id="4DOwJpJMRj2" role="S1EQ8">
       <property role="S1EQ6" value="CAILXBHGTE" />
       <node concept="S1EQe" id="3W3L4MKjOD2" role="ZXjPg">
@@ -1342,9 +1339,6 @@
             </node>
           </node>
         </node>
-      </node>
-      <node concept="3NwJD" id="3W3L4MKhYAJ" role="ZXjPg">
-        <property role="S1EQ6" value="DBOLGYXMPF" />
       </node>
       <node concept="1FHY16" id="4r50q8aI6GA" role="ZXjPg">
         <property role="S1EQ6" value="FSKNYXFMLW" />
