@@ -9,9 +9,9 @@
     <import index="v8sa" ref="r:db1b133e-9a0f-4319-b384-413408eb1729(org.campagnelab.metar.tables.behavior)" />
     <import index="r88i" ref="r:769afbd7-9476-42d6-a27b-ed7cb561890f(org.campagnelab.metar.edgeR.typesystem)" />
     <import index="izt2" ref="r:b5f8abba-ade6-48ed-8b03-df617183a3f0(org.campagnelab.metar.edgeR.structure)" />
+    <import index="l4h" ref="r:4312b8ca-043a-4ff3-907c-63e9f55eaa21(org.campagnelab.metar.models.behavior)" implicit="true" />
     <import index="jl4n" ref="r:a4155731-8795-49bc-afc5-bf36983f9c0c(org.campagnelab.metar.limma.structure)" implicit="true" />
     <import index="qrzj" ref="r:33ebfe68-dd35-4984-bf5b-c6afb777446c(org.campagnelab.metar.models.structure)" implicit="true" />
-    <import index="l4h" ref="r:4312b8ca-043a-4ff3-907c-63e9f55eaa21(org.campagnelab.metar.models.behavior)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -97,8 +97,13 @@
             <node concept="Xl_RD" id="w5znaeVkGT" role="2MkJ7o">
               <property role="Xl_RC" value="counts table must have some columns marked with group \&quot;counts\&quot;" />
             </node>
-            <node concept="1YBJjd" id="4ssfE$bFW_z" role="2OEOjV">
-              <ref role="1YBMHb" node="4ssfE$bEyIx" resolve="limmaVoom" />
+            <node concept="2OqwBi" id="3Pa_fMtwe4l" role="2OEOjV">
+              <node concept="1YBJjd" id="4ssfE$bFW_z" role="2Oq$k0">
+                <ref role="1YBMHb" node="4ssfE$bEyIx" resolve="limmaVoom" />
+              </node>
+              <node concept="3TrEf2" id="3Pa_fMtweEW" role="2OqNvi">
+                <ref role="3Tt5mk" to="jl4n:7$n2ViPrDvn" />
+              </node>
             </node>
             <node concept="2OE7Q9" id="w5znaeVlz0" role="2OEWyd">
               <ref role="2OEe5H" to="jl4n:7$n2ViPrDvn" />
@@ -120,6 +125,45 @@
               <ref role="37wK5l" to="v8sa:6XP3gVdMCs$" resolve="firstColumnWithGroup" />
               <node concept="Xl_RD" id="w5znaeVuif" role="37wK5m">
                 <property role="Xl_RC" value="counts" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3clFbJ" id="3Pa_fMtuXxd" role="3cqZAp">
+        <node concept="3clFbS" id="3Pa_fMtuXxe" role="3clFbx">
+          <node concept="2MkqsV" id="3Pa_fMtuXxf" role="3cqZAp">
+            <node concept="Xl_RD" id="3Pa_fMtuXxg" role="2MkJ7o">
+              <property role="Xl_RC" value="counts table must have one column marked with group \&quot;ID\&quot;" />
+            </node>
+            <node concept="2OqwBi" id="3Pa_fMtwdDC" role="2OEOjV">
+              <node concept="1YBJjd" id="3Pa_fMtuXxh" role="2Oq$k0">
+                <ref role="1YBMHb" node="4ssfE$bEyIx" resolve="limmaVoom" />
+              </node>
+              <node concept="3TrEf2" id="3Pa_fMtwe04" role="2OqNvi">
+                <ref role="3Tt5mk" to="jl4n:7$n2ViPrDvn" />
+              </node>
+            </node>
+            <node concept="2OE7Q9" id="3Pa_fMtuXxi" role="2OEWyd">
+              <ref role="2OEe5H" to="jl4n:7$n2ViPrDvn" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbC" id="3Pa_fMtuXxj" role="3clFbw">
+          <node concept="10Nm6u" id="3Pa_fMtuXxk" role="3uHU7w" />
+          <node concept="2OqwBi" id="3Pa_fMtuXxl" role="3uHU7B">
+            <node concept="2OqwBi" id="3Pa_fMtuXxm" role="2Oq$k0">
+              <node concept="1YBJjd" id="3Pa_fMtuXxn" role="2Oq$k0">
+                <ref role="1YBMHb" node="4ssfE$bEyIx" resolve="limmaVoom" />
+              </node>
+              <node concept="3TrEf2" id="3Pa_fMtuXxo" role="2OqNvi">
+                <ref role="3Tt5mk" to="jl4n:7$n2ViPrDvn" />
+              </node>
+            </node>
+            <node concept="2qgKlT" id="3Pa_fMtuXxp" role="2OqNvi">
+              <ref role="37wK5l" to="v8sa:6XP3gVdMCs$" resolve="firstColumnWithGroup" />
+              <node concept="Xl_RD" id="3Pa_fMtuXxq" role="37wK5m">
+                <property role="Xl_RC" value="ID" />
               </node>
             </node>
           </node>
