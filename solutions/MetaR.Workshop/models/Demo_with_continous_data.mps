@@ -8,9 +8,9 @@
     <devkit ref="8a3636fa-c6ec-4cb0-bc2a-b7143f2a4937(org.campagnelab.metaR)" />
   </languages>
   <imports>
-    <import index="sfo9" ref="f:diff_old#r:7808fd4b-bef8-4f17-bbc4-f13fb6c0aab7(Demo_with_continous_data@old)" implicit="true" />
-    <import index="9nc5" ref="r:d1a256e6-591a-459f-809c-7fc9df45e4d5(org.campagnelab.mps.XChart.types.roots)" implicit="true" />
     <import index="wiqx" ref="r:6bfd7c1b-dea3-4f98-9ed3-bce7739b7a8d(org.campagnelab.metar.accessories.styles.colors)" implicit="true" />
+    <import index="9nc5" ref="r:d1a256e6-591a-459f-809c-7fc9df45e4d5(org.campagnelab.mps.XChart.types.roots)" implicit="true" />
+    <import index="sfo9" ref="f:diff_old#r:7808fd4b-bef8-4f17-bbc4-f13fb6c0aab7(Demo_with_continous_data@old)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -105,8 +105,8 @@
         <property id="9080041854829670092" name="inputChanged" index="8NYsT" />
       </concept>
       <concept id="6070133740826950348" name="org.campagnelab.metar.tables.structure.BoxPlot" flags="ng" index="2_9KyP">
-        <child id="6070133740826952603" name="ColumnRefs" index="2_9Z7y" />
         <child id="6070133740826952602" name="plot" index="2_9Z7z" />
+        <child id="7174230558137260965" name="expressions" index="3L2usb" />
       </concept>
       <concept id="8016431400517087678" name="org.campagnelab.metar.tables.structure.UsageType" flags="ng" index="2_mUhs" />
       <concept id="6583618001716898910" name="org.campagnelab.metar.tables.structure.ScaleByRow" flags="ng" index="2Mr_BI" />
@@ -134,7 +134,7 @@
         <reference id="3223123807127702409" name="table" index="2UilQf" />
       </concept>
       <concept id="8962032619582305406" name="org.campagnelab.metar.tables.structure.StatementList" flags="ng" index="ZXjPh">
-        <child id="8962032619582305407" name="statements" index="ZXjPg" />
+        <child id="8962032619582305407" name="transformations" index="ZXjPg" />
       </concept>
       <concept id="3105090771424833148" name="org.campagnelab.metar.tables.structure.PlotRef" flags="ng" index="312p7A">
         <reference id="3105090771424833149" name="plot" index="312p7B" />
@@ -201,7 +201,6 @@
       <concept id="3402264987265829804" name="org.campagnelab.metar.tables.structure.ColumnAnnotation" flags="ng" index="3MzsTm">
         <child id="3402264987265831176" name="groups" index="3MztjM" />
       </concept>
-      <concept id="3402264987262235801" name="org.campagnelab.metar.tables.structure.ColumnRef" flags="ng" index="3MHf5z" />
       <concept id="3402264987266660978" name="org.campagnelab.metar.tables.structure.SelectByGroup" flags="ng" index="3MW7Y8">
         <reference id="3402264987266660979" name="byGroup" index="3MW7Y9" />
       </concept>
@@ -2017,7 +2016,9 @@
           <property role="ZHjG8" value="200" />
           <property role="3ZMXzF" value="1" />
         </node>
-        <node concept="3MHf5z" id="3W3L4MKttgM" role="2_9Z7y" />
+        <node concept="31$ALs" id="7c0D3AUWkIB" role="3L2usb">
+          <node concept="3$Gm2I" id="7c0D3AUWkIC" role="31$ALt" />
+        </node>
       </node>
       <node concept="3MoTRY" id="4ssfE$b9VeR" role="ZXjPg">
         <property role="S1EQ6" value="JXWAIINBWV" />

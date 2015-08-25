@@ -24,8 +24,8 @@
     <import index="l4h" ref="r:4312b8ca-043a-4ff3-907c-63e9f55eaa21(org.campagnelab.metar.models.behavior)" />
     <import index="4i3" ref="r:5fd2c435-87f7-4059-be7c-78617ef930c6(org.campagnelab.metar.models.generator.template.main@generator)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
-    <import index="e2lb" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" implicit="true" />
     <import index="x7of" ref="r:437ca43c-6323-49fb-979f-681501286fcd(org.campagnelab.metar.code.annotations)" implicit="true" />
+    <import index="e2lb" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -218,7 +218,7 @@
         <property id="1549006859295776277" name="tableId" index="7yfet" />
         <property id="8016431400514010600" name="tableName" index="2AFawa" />
       </concept>
-      <concept id="8969925079115431553" name="org.campagnelab.metar.inspect.structure.TryAndReport" flags="ng" index="3eWmRk">
+      <concept id="8969925079115431553" name="org.campagnelab.metar.inspect.structure.TryForNode" flags="ng" index="3eWmRk">
         <property id="8969925079115431616" name="nodeId" index="3eWmQl" />
         <child id="8969925079115431619" name="try" index="3eWmQm" />
       </concept>
@@ -589,10 +589,16 @@
             <property role="1gZaPE" value="" />
           </node>
           <node concept="1gZcZf" id="6XP3gVdMpq1" role="2G3XIn">
-            <property role="1gZaPE" value=" # Replace row names with gene identifiers" />
+            <property role="1gZaPE" value="" />
+            <node concept="3_3kQU" id="1oFAr6mM57Y" role="3_3kQL">
+              <property role="3_3kQV" value=" # Replace row names with gene identifiers" />
+            </node>
           </node>
           <node concept="1gZcZf" id="w5znaeXTWv" role="2G3XIn">
-            <property role="1gZaPE" value=" # TODO: make a copy of the input table, rather than using it by reference." />
+            <property role="1gZaPE" value="" />
+            <node concept="3_3kQU" id="1oFAr6mM586" role="3_3kQL">
+              <property role="3_3kQV" value=" # TODO: make a copy of the input table, rather than using it by reference." />
+            </node>
             <node concept="3_3kQU" id="w5znaeXTXz" role="3_3kQL">
               <property role="3_3kQV" value="" />
             </node>
@@ -695,7 +701,10 @@
             </node>
           </node>
           <node concept="1gZcZf" id="6XP3gVdN8Ox" role="2G3XIn">
-            <property role="1gZaPE" value="# remove all columns not marked with the &quot;counts&quot; group." />
+            <property role="1gZaPE" value="" />
+            <node concept="3_3kQU" id="1oFAr6mM589" role="3_3kQL">
+              <property role="3_3kQV" value="# remove all columns not marked with the &quot;counts&quot; group." />
+            </node>
             <node concept="3_3kQU" id="6XP3gVdN8Oy" role="3_3kQL">
               <property role="3_3kQV" value="" />
             </node>
@@ -1061,14 +1070,20 @@
               </node>
             </node>
             <node concept="1gZcZf" id="5HtHr3DAyZc" role="2G3XIn">
-              <property role="1gZaPE" value="  countsTable &lt;- as.matrix(countsTable)" />
+              <property role="1gZaPE" value="" />
+              <node concept="3_3kQU" id="1oFAr6mM582" role="3_3kQL">
+                <property role="3_3kQV" value="  countsTable &lt;- as.matrix(countsTable)" />
+              </node>
             </node>
           </node>
           <node concept="1gZcZf" id="6XP3gVdMpq5" role="2G3XIn">
             <property role="1gZaPE" value="" />
           </node>
           <node concept="1gZcZf" id="6XP3gVdMpq6" role="2G3XIn">
-            <property role="1gZaPE" value="  sampleNames &lt;- colnames(countsTable)" />
+            <property role="1gZaPE" value="" />
+            <node concept="3_3kQU" id="1oFAr6mM57U" role="3_3kQL">
+              <property role="3_3kQV" value="  sampleNames &lt;- colnames(countsTable)" />
+            </node>
           </node>
         </node>
         <node concept="2G3XJi" id="5HtHr3DJdsQ" role="2G3XIn">
@@ -1456,7 +1471,10 @@
             <node concept="2G3XJi" id="5HtHr3DJs1c" role="2G3XIn">
               <property role="1gZaPE" value="" />
               <node concept="1gZcZf" id="5HtHr3DJAPH" role="2G3XIn">
-                <property role="1gZaPE" value="  data &lt;- DGEList(counts=countsTable, genes=rownames_for_CountsTable)" />
+                <property role="1gZaPE" value="" />
+                <node concept="3_3kQU" id="1oFAr6mM58c" role="3_3kQL">
+                  <property role="3_3kQV" value="  data &lt;- DGEList(counts=countsTable, genes=rownames_for_CountsTable)" />
+                </node>
                 <node concept="3_3kQU" id="5HtHr3DJAPI" role="3_3kQL">
                   <property role="3_3kQV" value="" />
                 </node>
@@ -1465,7 +1483,10 @@
                 </node>
               </node>
               <node concept="1gZcZf" id="5HtHr3DJs1d" role="2G3XIn">
-                <property role="1gZaPE" value="and so on according to GLM or two groups.." />
+                <property role="1gZaPE" value="" />
+                <node concept="3_3kQU" id="1oFAr6mM580" role="3_3kQL">
+                  <property role="3_3kQV" value="and so on according to GLM or two groups.." />
+                </node>
               </node>
               <node concept="3_3kQU" id="5HtHr3DJs1g" role="3_3kQL">
                 <property role="3_3kQV" value="" />
@@ -1698,7 +1719,10 @@
           <node concept="2G3XJi" id="6XP3gVehJRQ" role="2G3XIn">
             <property role="1gZaPE" value="" />
             <node concept="1gZcZf" id="6XP3gVehJRR" role="2G3XIn">
-              <property role="1gZaPE" value=" et &lt;- exactTest(data)" />
+              <property role="1gZaPE" value="" />
+              <node concept="3_3kQU" id="1oFAr6mM57S" role="3_3kQL">
+                <property role="3_3kQV" value=" et &lt;- exactTest(data)" />
+              </node>
             </node>
             <node concept="1gZcZf" id="6XP3gVehOKw" role="2G3XIn">
               <property role="1gZaPE" value="" />
@@ -1795,7 +1819,10 @@
                 <node concept="2G3XJi" id="6XP3gVehQ_e" role="gfFT$">
                   <property role="1gZaPE" value="" />
                   <node concept="1gZcZf" id="6XP3gVehQ_f" role="2G3XIn">
-                    <property role="1gZaPE" value="glmfit &lt;- glmFit(data,design)" />
+                    <property role="1gZaPE" value="" />
+                    <node concept="3_3kQU" id="1oFAr6mM584" role="3_3kQL">
+                      <property role="3_3kQV" value="glmfit &lt;- glmFit(data,design)" />
+                    </node>
                   </node>
                   <node concept="1gZcZf" id="6XP3gVeiep3" role="2G3XIn">
                     <property role="1gZaPE" value="" />
@@ -1827,7 +1854,10 @@
                     </node>
                   </node>
                   <node concept="1gZcZf" id="6XP3gVehQ_B" role="2G3XIn">
-                    <property role="1gZaPE" value="topTags" />
+                    <property role="1gZaPE" value="" />
+                    <node concept="3_3kQU" id="1oFAr6mM57O" role="3_3kQL">
+                      <property role="3_3kQV" value="topTags" />
+                    </node>
                     <node concept="3_3kQU" id="6XP3gVet$dT" role="3_3kQL">
                       <property role="3_3kQV" value="&lt;- topTags(comparison,adjust.method=&quot;fdr&quot;,n=length(data$counts))" />
                     </node>
@@ -1903,7 +1933,10 @@
             <property role="3_3kQV" value="" />
           </node>
           <node concept="1gZcZf" id="PriKBShy7I" role="2G3XIn">
-            <property role="1gZaPE" value="id" />
+            <property role="1gZaPE" value="" />
+            <node concept="3_3kQU" id="1oFAr6mM57W" role="3_3kQL">
+              <property role="3_3kQV" value="id" />
+            </node>
           </node>
           <node concept="17Uvod" id="PriKBShy7J" role="lGtFl">
             <property role="2qtEX9" value="id" />
@@ -2044,7 +2077,10 @@
     <node concept="2G3XJi" id="5HtHr3DJtJV" role="13RCb5">
       <property role="1gZaPE" value="" />
       <node concept="1gZcZf" id="6XP3gVdMpdP" role="2G3XIn">
-        <property role="1gZaPE" value="  data &lt;- DGEList(counts=countsTable, genes=rownames_for_CountsTable)" />
+        <property role="1gZaPE" value="" />
+        <node concept="3_3kQU" id="1oFAr6mM3yR" role="3_3kQL">
+          <property role="3_3kQV" value="  data &lt;- DGEList(counts=countsTable, genes=rownames_for_CountsTable)" />
+        </node>
         <node concept="3_3kQU" id="6XP3gVdOuWu" role="3_3kQL">
           <property role="3_3kQV" value="" />
         </node>
