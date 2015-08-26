@@ -76,7 +76,7 @@
         <child id="1068580123160" name="condition" index="3clFbw" />
         <child id="1068580123161" name="ifTrue" index="3clFbx" />
       </concept>
-      <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" index="3clFbS">
+      <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
       </concept>
       <concept id="1068580123137" name="jetbrains.mps.baseLanguage.structure.BooleanConstant" flags="nn" index="3clFbT">
@@ -2113,17 +2113,17 @@
     <property role="3GE5qa" value="reorderTable" />
     <property role="TrG5h" value="TableGroup" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyj" id="3MLv1Ilo8n7" role="1TKVEi">
-      <property role="20lmBu" value="reference" />
-      <property role="20kJfa" value="columnGroup" />
-      <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="2WRhvFtICJV" resolve="ColumnGroup" />
-    </node>
     <node concept="1TJgyj" id="3MLv1IrLBWm" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="columnRef" />
       <property role="20lbJX" value="1..n" />
       <ref role="20lvS9" node="2WRhvFtwVip" resolve="ColumnRef" />
+    </node>
+    <node concept="1TJgyj" id="7kUqYZCOCMl" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="columnGroupsList" />
+      <property role="20lbJX" value="1..n" />
+      <ref role="20lvS9" node="2WRhvFtICK7" resolve="ColumnGroupReference" />
     </node>
   </node>
   <node concept="1TIwiD" id="3MLv1Ikst5K">
