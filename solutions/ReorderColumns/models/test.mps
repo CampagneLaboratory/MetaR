@@ -431,7 +431,7 @@
               <ref role="3MzsBM" node="kv77ypis3Y" resolve="ID" />
             </node>
             <node concept="3MHf5z" id="7kUqYZE0aGM" role="2BtKcd">
-              <ref role="3MHf5w" node="7kUqYZDNMwb" resolve="gene" />
+              <ref role="3MHf5w" node="7kUqYZE0JeV" resolve="gene" />
             </node>
           </node>
           <node concept="2CoXNS" id="7kUqYZE0aGO" role="2CoX0Y">
@@ -439,21 +439,10 @@
               <ref role="3MzsBM" node="pr6WGDX4Eh" resolve="ignore" />
             </node>
             <node concept="3MHf5z" id="7kUqYZE0aGP" role="2BtKcd">
-              <ref role="3MHf5w" node="7kUqYZDNMwe" resolve="mRNA len" />
+              <ref role="3MHf5w" node="7kUqYZE0JeY" resolve="mRNA len" />
             </node>
             <node concept="3MHf5z" id="7kUqYZE0aGQ" role="2BtKcd">
-              <ref role="3MHf5w" node="7kUqYZDNMwh" resolve="genomic span" />
-            </node>
-          </node>
-          <node concept="2CoXNS" id="7kUqYZE0aGR" role="2CoX0Y">
-            <node concept="3MzsBX" id="7kUqYZE0aGS" role="2tUetU">
-              <ref role="3MzsBM" node="7kUqYZDA0rn" resolve="NoGroup" />
-            </node>
-            <node concept="3MHf5z" id="7kUqYZE0aGT" role="2BtKcd">
-              <ref role="3MHf5w" node="7kUqYZDNMwk" resolve="DC_normal" />
-            </node>
-            <node concept="3MHf5z" id="7kUqYZE0aGU" role="2BtKcd">
-              <ref role="3MHf5w" node="7kUqYZDNMwm" resolve="DC_treated" />
+              <ref role="3MHf5w" node="7kUqYZE0Jf1" resolve="genomic span" />
             </node>
           </node>
         </node>
