@@ -191,7 +191,7 @@
         <child id="1068580123161" name="ifTrue" index="3clFbx" />
         <child id="1206060520071" name="elsifClauses" index="3eNLev" />
       </concept>
-      <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" index="3clFbS">
+      <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
       </concept>
       <concept id="1068580123137" name="jetbrains.mps.baseLanguage.structure.BooleanConstant" flags="nn" index="3clFbT">
@@ -352,6 +352,9 @@
       <concept id="1138411891628" name="jetbrains.mps.lang.smodel.structure.SNodeOperation" flags="nn" index="eCIE_">
         <child id="1144104376918" name="parameter" index="1xVPHs" />
       </concept>
+      <concept id="1140725362528" name="jetbrains.mps.lang.smodel.structure.Link_SetTargetOperation" flags="nn" index="2oxUTD">
+        <child id="1140725362529" name="linkTarget" index="2oxUTC" />
+      </concept>
       <concept id="1179409122411" name="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" flags="nn" index="2qgKlT" />
       <concept id="4693937538533521280" name="jetbrains.mps.lang.smodel.structure.OfConceptOperation" flags="ng" index="v3k3i">
         <child id="4693937538533538124" name="requestedConcept" index="v3oSu" />
@@ -483,6 +486,7 @@
         <child id="1151689745422" name="elementType" index="A3Ik2" />
       </concept>
       <concept id="1151702311717" name="jetbrains.mps.baseLanguage.collections.structure.ToListOperation" flags="nn" index="ANE8D" />
+      <concept id="6126991172893676625" name="jetbrains.mps.baseLanguage.collections.structure.ContainsAllOperation" flags="nn" index="BjQpj" />
       <concept id="1153943597977" name="jetbrains.mps.baseLanguage.collections.structure.ForEachStatement" flags="nn" index="2Gpval">
         <child id="1153944400369" name="variable" index="2Gsz3X" />
         <child id="1153944424730" name="inputSequence" index="2GsD0m" />
@@ -16312,25 +16316,14 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="3MLv1IsavTo" role="3cqZAp" />
+        <node concept="3SKdUt" id="7kUqYZDGbNj" role="3cqZAp">
+          <node concept="3SKdUq" id="7kUqYZDGcS1" role="3SKWNk">
+            <property role="3SKdUp" value="you can delete everything which is afterter this point until the next comment" />
+          </node>
+        </node>
         <node concept="3SKdUt" id="3MLv1IsatOy" role="3cqZAp">
           <node concept="3SKdUq" id="3MLv1IsatY1" role="3SKWNk">
             <property role="3SKdUp" value="The TableColumn Group to return" />
-          </node>
-        </node>
-        <node concept="3cpWs8" id="3MLv1IlczmS" role="3cqZAp">
-          <node concept="3cpWsn" id="3MLv1IlczmV" role="3cpWs9">
-            <property role="TrG5h" value="tableColumnGroupsList" />
-            <node concept="2I9FWS" id="3MLv1IlczmR" role="1tU5fm">
-              <ref role="2I9WkF" to="jrxw:3MLv1IkOE3z" resolve="TableGroup" />
-            </node>
-            <node concept="2ShNRf" id="3MLv1Ilcznj" role="33vP2m">
-              <node concept="2T8Vx0" id="3MLv1Ilcznh" role="2ShVmc">
-                <node concept="2I9FWS" id="3MLv1Ilczni" role="2T96Bj">
-                  <ref role="2I9WkF" to="jrxw:3MLv1IkOE3z" resolve="TableGroup" />
-                </node>
-              </node>
-            </node>
           </node>
         </node>
         <node concept="3SKdUt" id="3MLv1Isau9X" role="3cqZAp">
@@ -16338,258 +16331,1020 @@
             <property role="3SKdUp" value="list of Column Group to add" />
           </node>
         </node>
-        <node concept="3cpWs8" id="3MLv1IldoSt" role="3cqZAp">
-          <node concept="3cpWsn" id="3MLv1IldoSw" role="3cpWs9">
-            <property role="TrG5h" value="columnGroups" />
-            <node concept="2I9FWS" id="3MLv1IldoSr" role="1tU5fm">
-              <ref role="2I9WkF" to="jrxw:2WRhvFtICJV" resolve="ColumnGroup" />
+        <node concept="3SKdUt" id="7kUqYZDG62u" role="3cqZAp">
+          <node concept="3SKdUq" id="7kUqYZDG7_0" role="3SKWNk">
+            <property role="3SKdUp" value="just keep which is below" />
+          </node>
+        </node>
+        <node concept="3SKdUt" id="7kUqYZCOwBh" role="3cqZAp">
+          <node concept="3SKdUq" id="7kUqYZCOwS_" role="3SKWNk">
+            <property role="3SKdUp" value="New Version" />
+          </node>
+        </node>
+        <node concept="3cpWs8" id="7kUqYZCORp0" role="3cqZAp">
+          <node concept="3cpWsn" id="7kUqYZCORp1" role="3cpWs9">
+            <property role="TrG5h" value="tableColumnGroupsList" />
+            <node concept="2I9FWS" id="7kUqYZCORp2" role="1tU5fm">
+              <ref role="2I9WkF" to="jrxw:3MLv1IkOE3z" resolve="TableGroup" />
             </node>
-            <node concept="2ShNRf" id="3MLv1IldpbJ" role="33vP2m">
-              <node concept="2T8Vx0" id="3MLv1IldpbH" role="2ShVmc">
-                <node concept="2I9FWS" id="3MLv1IldpbI" role="2T96Bj">
+            <node concept="2ShNRf" id="7kUqYZCORp3" role="33vP2m">
+              <node concept="2T8Vx0" id="7kUqYZCORp4" role="2ShVmc">
+                <node concept="2I9FWS" id="7kUqYZCORp5" role="2T96Bj">
+                  <ref role="2I9WkF" to="jrxw:3MLv1IkOE3z" resolve="TableGroup" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3SKdUt" id="7kUqYZCORp6" role="3cqZAp">
+          <node concept="3SKdUq" id="7kUqYZCORp7" role="3SKWNk">
+            <property role="3SKdUp" value="list of Column Group to add" />
+          </node>
+        </node>
+        <node concept="3SKdUt" id="7kUqYZDgFjt" role="3cqZAp">
+          <node concept="3SKWN0" id="7kUqYZDgFj$" role="3SKWNk">
+            <node concept="3cpWs8" id="7kUqYZCORp8" role="3SKWNf">
+              <node concept="3cpWsn" id="7kUqYZCORp9" role="3cpWs9">
+                <property role="TrG5h" value="columnGroupsnew" />
+                <node concept="2I9FWS" id="7kUqYZCORpa" role="1tU5fm">
                   <ref role="2I9WkF" to="jrxw:2WRhvFtICJV" resolve="ColumnGroup" />
                 </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3cpWs8" id="3MLv1IqZOt9" role="3cqZAp">
-          <node concept="3cpWsn" id="3MLv1IqZOtc" role="3cpWs9">
-            <property role="TrG5h" value="columns" />
-            <node concept="2I9FWS" id="3MLv1IqZOt7" role="1tU5fm">
-              <ref role="2I9WkF" to="ztlb:1UijAvvb9DJ" resolve="Column" />
-            </node>
-            <node concept="2OqwBi" id="3MLv1IqZPp4" role="33vP2m">
-              <node concept="2OqwBi" id="3MLv1IqZP1K" role="2Oq$k0">
-                <node concept="2OqwBi" id="3MLv1IqZOyo" role="2Oq$k0">
-                  <node concept="37vLTw" id="3MLv1Isawux" role="2Oq$k0">
-                    <ref role="3cqZAo" node="3MLv1ImHFDG" resolve="thisOrderTable" />
-                  </node>
-                  <node concept="3TrEf2" id="3MLv1IqZOKV" role="2OqNvi">
-                    <ref role="3Tt5mk" to="jrxw:pr6WGx0E6R" />
-                  </node>
-                </node>
-                <node concept="3TrEf2" id="3MLv1IqZPbM" role="2OqNvi">
-                  <ref role="3Tt5mk" to="jrxw:3R5AwWRY9K7" />
-                </node>
-              </node>
-              <node concept="3Tsc0h" id="3MLv1IqZPYO" role="2OqNvi">
-                <ref role="3TtcxE" to="ztlb:1UijAvvb9DO" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbH" id="3MLv1IraVmz" role="3cqZAp" />
-        <node concept="3clFbF" id="3MLv1IqZQ45" role="3cqZAp">
-          <node concept="2OqwBi" id="3MLv1IqZQFX" role="3clFbG">
-            <node concept="37vLTw" id="3MLv1IqZQ43" role="2Oq$k0">
-              <ref role="3cqZAo" node="3MLv1IldoSw" resolve="columnGroups" />
-            </node>
-            <node concept="X8dFx" id="3MLv1IqZWpv" role="2OqNvi">
-              <node concept="2OqwBi" id="3MLv1Ir0lXQ" role="25WWJ7">
-                <node concept="2OqwBi" id="3MLv1IqZXFA" role="2Oq$k0">
-                  <node concept="37vLTw" id="3MLv1IqZX0G" role="2Oq$k0">
-                    <ref role="3cqZAo" node="3MLv1IqZOtc" resolve="columns" />
-                  </node>
-                  <node concept="3goQfb" id="3MLv1Ir0xLG" role="2OqNvi">
-                    <node concept="1bVj0M" id="3MLv1Ir0xLI" role="23t8la">
-                      <node concept="3clFbS" id="3MLv1Ir0xLJ" role="1bW5cS">
-                        <node concept="3clFbF" id="3MLv1Ir0xLK" role="3cqZAp">
-                          <node concept="2OqwBi" id="3MLv1Ir0xLL" role="3clFbG">
-                            <node concept="2OqwBi" id="3MLv1Ir0xLM" role="2Oq$k0">
-                              <node concept="2OqwBi" id="3MLv1Ir0xLN" role="2Oq$k0">
-                                <node concept="37vLTw" id="3MLv1Ir0xLO" role="2Oq$k0">
-                                  <ref role="3cqZAo" node="3MLv1Ir0xLT" resolve="it" />
-                                </node>
-                                <node concept="3CFZ6_" id="3MLv1Ir0xLP" role="2OqNvi">
-                                  <node concept="3CFYIy" id="3MLv1Ir0xLQ" role="3CFYIz">
-                                    <ref role="3CFYIx" to="jrxw:2WRhvFtICIG" resolve="ColumnAnnotation" />
-                                  </node>
-                                </node>
-                              </node>
-                              <node concept="3Tsc0h" id="3MLv1Ir0xLR" role="2OqNvi">
-                                <ref role="3TtcxE" to="jrxw:2WRhvFtID48" />
-                              </node>
-                            </node>
-                            <node concept="13MTOL" id="3MLv1Ir0xLS" role="2OqNvi">
-                              <ref role="13MTZf" to="jrxw:2WRhvFtICK8" />
-                            </node>
-                          </node>
-                        </node>
-                      </node>
-                      <node concept="Rh6nW" id="3MLv1Ir0xLT" role="1bW2Oz">
-                        <property role="TrG5h" value="it" />
-                        <node concept="2jxLKc" id="3MLv1Ir0xLU" role="1tU5fm" />
-                      </node>
+                <node concept="2ShNRf" id="7kUqYZCORpb" role="33vP2m">
+                  <node concept="2T8Vx0" id="7kUqYZCORpc" role="2ShVmc">
+                    <node concept="2I9FWS" id="7kUqYZCORpd" role="2T96Bj">
+                      <ref role="2I9WkF" to="jrxw:2WRhvFtICJV" resolve="ColumnGroup" />
                     </node>
                   </node>
                 </node>
-                <node concept="1VAtEI" id="3MLv1Ir0vZG" role="2OqNvi" />
               </node>
             </node>
           </node>
         </node>
-        <node concept="3SKdUt" id="3MLv1Isaxem" role="3cqZAp">
-          <node concept="3SKdUq" id="3MLv1Isaxtu" role="3SKWNk">
-            <property role="3SKdUp" value="add Columns which doenst have a group" />
+        <node concept="3SKdUt" id="7kUqYZD4B0J" role="3cqZAp">
+          <node concept="3SKWN0" id="7kUqYZD4B0U" role="3SKWNk">
+            <node concept="3cpWs8" id="7kUqYZCORpe" role="3SKWNf">
+              <node concept="3cpWsn" id="7kUqYZCORpf" role="3cpWs9">
+                <property role="TrG5h" value="columnsnew" />
+                <node concept="2I9FWS" id="7kUqYZCORpg" role="1tU5fm">
+                  <ref role="2I9WkF" to="ztlb:1UijAvvb9DJ" resolve="Column" />
+                </node>
+                <node concept="2OqwBi" id="7kUqYZCORph" role="33vP2m">
+                  <node concept="2OqwBi" id="7kUqYZCORpi" role="2Oq$k0">
+                    <node concept="2OqwBi" id="7kUqYZCORpj" role="2Oq$k0">
+                      <node concept="37vLTw" id="7kUqYZCORpk" role="2Oq$k0">
+                        <ref role="3cqZAo" node="3MLv1ImHFDG" resolve="thisOrderTable" />
+                      </node>
+                      <node concept="3TrEf2" id="7kUqYZCORpl" role="2OqNvi">
+                        <ref role="3Tt5mk" to="jrxw:pr6WGx0E6R" />
+                      </node>
+                    </node>
+                    <node concept="3TrEf2" id="7kUqYZCORpm" role="2OqNvi">
+                      <ref role="3Tt5mk" to="jrxw:3R5AwWRY9K7" />
+                    </node>
+                  </node>
+                  <node concept="3Tsc0h" id="7kUqYZCORpn" role="2OqNvi">
+                    <ref role="3TtcxE" to="ztlb:1UijAvvb9DO" />
+                  </node>
+                </node>
+              </node>
+            </node>
           </node>
         </node>
-        <node concept="3clFbJ" id="3MLv1IrcBz9" role="3cqZAp">
-          <node concept="3clFbS" id="3MLv1IrcBzb" role="3clFbx">
-            <node concept="3clFbH" id="3MLv1Irp1In" role="3cqZAp" />
-            <node concept="3cpWs8" id="3MLv1IrcNGq" role="3cqZAp">
-              <node concept="3cpWsn" id="3MLv1IrcNGt" role="3cpWs9">
+        <node concept="3SKdUt" id="7kUqYZDnQg9" role="3cqZAp">
+          <node concept="3SKdUq" id="7kUqYZDnRBk" role="3SKWNk">
+            <property role="3SKdUp" value="if any columns do not have a group create a group in the columnGroupContainer called nogroup" />
+          </node>
+        </node>
+        <node concept="3clFbJ" id="7kUqYZDnCn8" role="3cqZAp">
+          <node concept="3clFbS" id="7kUqYZDnCna" role="3clFbx">
+            <node concept="3cpWs8" id="7kUqYZDnw95" role="3cqZAp">
+              <node concept="3cpWsn" id="7kUqYZDnw96" role="3cpWs9">
                 <property role="TrG5h" value="columnGroup" />
-                <node concept="3Tqbb2" id="3MLv1IrcNGo" role="1tU5fm">
+                <node concept="3Tqbb2" id="7kUqYZDnw97" role="1tU5fm">
                   <ref role="ehGHo" to="jrxw:2WRhvFtICJV" resolve="ColumnGroup" />
                 </node>
-                <node concept="2ShNRf" id="3MLv1IrcNHd" role="33vP2m">
-                  <node concept="3zrR0B" id="3MLv1IrcNHb" role="2ShVmc">
-                    <node concept="3Tqbb2" id="3MLv1IrcNHc" role="3zrR0E">
+                <node concept="2ShNRf" id="7kUqYZDnw98" role="33vP2m">
+                  <node concept="3zrR0B" id="7kUqYZDnw99" role="2ShVmc">
+                    <node concept="3Tqbb2" id="7kUqYZDnw9a" role="3zrR0E">
                       <ref role="ehGHo" to="jrxw:2WRhvFtICJV" resolve="ColumnGroup" />
                     </node>
                   </node>
                 </node>
               </node>
             </node>
-            <node concept="3clFbF" id="3MLv1IrcNIk" role="3cqZAp">
-              <node concept="37vLTI" id="3MLv1IrcOvK" role="3clFbG">
-                <node concept="Xl_RD" id="3MLv1IrcOz2" role="37vLTx">
+            <node concept="3clFbF" id="7kUqYZDnw9b" role="3cqZAp">
+              <node concept="37vLTI" id="7kUqYZDnw9c" role="3clFbG">
+                <node concept="Xl_RD" id="7kUqYZDnw9d" role="37vLTx">
                   <property role="Xl_RC" value="NoGroup" />
                 </node>
-                <node concept="2OqwBi" id="3MLv1IrcNKe" role="37vLTJ">
-                  <node concept="37vLTw" id="3MLv1IrcNIi" role="2Oq$k0">
-                    <ref role="3cqZAo" node="3MLv1IrcNGt" resolve="columnGroup" />
+                <node concept="2OqwBi" id="7kUqYZDnw9e" role="37vLTJ">
+                  <node concept="37vLTw" id="7kUqYZDnw9f" role="2Oq$k0">
+                    <ref role="3cqZAo" node="7kUqYZDnw96" resolve="columnGroup" />
                   </node>
-                  <node concept="3TrcHB" id="3MLv1IrcO1A" role="2OqNvi">
+                  <node concept="3TrcHB" id="7kUqYZDnw9g" role="2OqNvi">
                     <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
                   </node>
                 </node>
               </node>
             </node>
-            <node concept="3clFbF" id="3MLv1Ir_atz" role="3cqZAp">
-              <node concept="2OqwBi" id="3MLv1Ir_reJ" role="3clFbG">
-                <node concept="2OqwBi" id="3MLv1Ir_qqm" role="2Oq$k0">
-                  <node concept="2OqwBi" id="3MLv1Ir_bes" role="2Oq$k0">
-                    <node concept="2OqwBi" id="3MLv1Ir_aG7" role="2Oq$k0">
-                      <node concept="2OqwBi" id="3MLv1Ir_awg" role="2Oq$k0">
-                        <node concept="37vLTw" id="3MLv1Ir_atx" role="2Oq$k0">
+            <node concept="3clFbF" id="7kUqYZDnw9h" role="3cqZAp">
+              <node concept="2OqwBi" id="7kUqYZDnw9i" role="3clFbG">
+                <node concept="2OqwBi" id="7kUqYZDnw9j" role="2Oq$k0">
+                  <node concept="2OqwBi" id="7kUqYZDnw9k" role="2Oq$k0">
+                    <node concept="2OqwBi" id="7kUqYZDnw9l" role="2Oq$k0">
+                      <node concept="2OqwBi" id="7kUqYZDnw9m" role="2Oq$k0">
+                        <node concept="37vLTw" id="7kUqYZDnw9n" role="2Oq$k0">
                           <ref role="3cqZAo" node="3MLv1ImxA0w" resolve="enclosingNode" />
                         </node>
-                        <node concept="I4A8Y" id="3MLv1Ir_a_W" role="2OqNvi" />
+                        <node concept="I4A8Y" id="7kUqYZDnw9o" role="2OqNvi" />
                       </node>
-                      <node concept="2RRcyG" id="3MLv1Ir_aKt" role="2OqNvi">
+                      <node concept="2RRcyG" id="7kUqYZDnw9p" role="2OqNvi">
                         <ref role="2RRcyH" to="jrxw:2WRhvFtICK0" resolve="ColumnGroupContainer" />
                       </node>
                     </node>
-                    <node concept="1uHKPH" id="3MLv1Ir_oPi" role="2OqNvi" />
+                    <node concept="1uHKPH" id="7kUqYZDnw9q" role="2OqNvi" />
                   </node>
-                  <node concept="3Tsc0h" id="3MLv1Ir_q$y" role="2OqNvi">
+                  <node concept="3Tsc0h" id="7kUqYZDnw9r" role="2OqNvi">
                     <ref role="3TtcxE" to="jrxw:2WRhvFtICK1" />
                   </node>
                 </node>
-                <node concept="TSZUe" id="3MLv1Ir_sAT" role="2OqNvi">
-                  <node concept="37vLTw" id="3MLv1Ir_sIB" role="25WWJ7">
-                    <ref role="3cqZAo" node="3MLv1IrcNGt" resolve="columnGroup" />
+                <node concept="TSZUe" id="7kUqYZDnw9s" role="2OqNvi">
+                  <node concept="37vLTw" id="7kUqYZDnw9t" role="25WWJ7">
+                    <ref role="3cqZAo" node="7kUqYZDnw96" resolve="columnGroup" />
                   </node>
                 </node>
               </node>
             </node>
-            <node concept="3clFbF" id="3MLv1Isby9L" role="3cqZAp">
-              <node concept="2OqwBi" id="3MLv1Isby9M" role="3clFbG">
-                <node concept="37vLTw" id="3MLv1Isby9N" role="2Oq$k0">
-                  <ref role="3cqZAo" node="3MLv1IlczmV" resolve="tableColumnGroupsList" />
-                </node>
-                <node concept="TSZUe" id="3MLv1Isby9O" role="2OqNvi">
-                  <node concept="BsUDl" id="3MLv1Isby9P" role="25WWJ7">
-                    <ref role="37wK5l" node="3MLv1IsaxDW" resolve="getColumnRef" />
-                    <node concept="37vLTw" id="3MLv1Isby9Q" role="37wK5m">
-                      <ref role="3cqZAo" node="3MLv1IqZOtc" resolve="columns" />
-                    </node>
-                    <node concept="37vLTw" id="3MLv1Isbyxy" role="37wK5m">
-                      <ref role="3cqZAo" node="3MLv1IrcNGt" resolve="columnGroup" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-            <node concept="3clFbH" id="3MLv1Isby7n" role="3cqZAp" />
           </node>
-          <node concept="2OqwBi" id="3MLv1IrcCl3" role="3clFbw">
-            <node concept="37vLTw" id="3MLv1IrcBDU" role="2Oq$k0">
-              <ref role="3cqZAo" node="3MLv1IqZOtc" resolve="columns" />
-            </node>
-            <node concept="2HwmR7" id="3MLv1IrcHPo" role="2OqNvi">
-              <node concept="1bVj0M" id="3MLv1IrcHPq" role="23t8la">
-                <node concept="3clFbS" id="3MLv1IrcHPr" role="1bW5cS">
-                  <node concept="3clFbF" id="3MLv1IrcHR_" role="3cqZAp">
-                    <node concept="2OqwBi" id="3MLv1IrcMYC" role="3clFbG">
-                      <node concept="2OqwBi" id="3MLv1IrcKqe" role="2Oq$k0">
-                        <node concept="2OqwBi" id="3MLv1IrcIhx" role="2Oq$k0">
-                          <node concept="2OqwBi" id="3MLv1IrcHUU" role="2Oq$k0">
-                            <node concept="37vLTw" id="3MLv1IrcHR$" role="2Oq$k0">
-                              <ref role="3cqZAo" node="3MLv1IrcHPs" resolve="it" />
+          <node concept="1Wc70l" id="7kUqYZD_KA_" role="3clFbw">
+            <node concept="2OqwBi" id="7kUqYZDnGNV" role="3uHU7B">
+              <node concept="2OqwBi" id="7kUqYZDnEto" role="2Oq$k0">
+                <node concept="2OqwBi" id="7kUqYZDnEtp" role="2Oq$k0">
+                  <node concept="2OqwBi" id="7kUqYZDnEtq" role="2Oq$k0">
+                    <node concept="37vLTw" id="7kUqYZDnEtr" role="2Oq$k0">
+                      <ref role="3cqZAo" node="3MLv1ImHFDG" resolve="thisOrderTable" />
+                    </node>
+                    <node concept="3TrEf2" id="7kUqYZDnEts" role="2OqNvi">
+                      <ref role="3Tt5mk" to="jrxw:pr6WGx0E6R" />
+                    </node>
+                  </node>
+                  <node concept="3TrEf2" id="7kUqYZDnEtt" role="2OqNvi">
+                    <ref role="3Tt5mk" to="jrxw:3R5AwWRY9K7" />
+                  </node>
+                </node>
+                <node concept="3Tsc0h" id="7kUqYZDnEtu" role="2OqNvi">
+                  <ref role="3TtcxE" to="ztlb:1UijAvvb9DO" />
+                </node>
+              </node>
+              <node concept="2HwmR7" id="7kUqYZDnOCt" role="2OqNvi">
+                <node concept="1bVj0M" id="7kUqYZDnOCv" role="23t8la">
+                  <node concept="3clFbS" id="7kUqYZDnOCw" role="1bW5cS">
+                    <node concept="3clFbF" id="7kUqYZDnOJg" role="3cqZAp">
+                      <node concept="2OqwBi" id="7kUqYZDnOJi" role="3clFbG">
+                        <node concept="2OqwBi" id="7kUqYZDnOJj" role="2Oq$k0">
+                          <node concept="2OqwBi" id="7kUqYZDnOJk" role="2Oq$k0">
+                            <node concept="2OqwBi" id="7kUqYZDnOJl" role="2Oq$k0">
+                              <node concept="37vLTw" id="7kUqYZDoG9V" role="2Oq$k0">
+                                <ref role="3cqZAo" node="7kUqYZDnOCx" resolve="col" />
+                              </node>
+                              <node concept="3CFZ6_" id="7kUqYZDnOJn" role="2OqNvi">
+                                <node concept="3CFYIy" id="7kUqYZDnOJo" role="3CFYIz">
+                                  <ref role="3CFYIx" to="jrxw:2WRhvFtICIG" resolve="ColumnAnnotation" />
+                                </node>
+                              </node>
                             </node>
-                            <node concept="3CFZ6_" id="3MLv1IrcI6Q" role="2OqNvi">
-                              <node concept="3CFYIy" id="3MLv1IrcIaA" role="3CFYIz">
+                            <node concept="3Tsc0h" id="7kUqYZDnOJp" role="2OqNvi">
+                              <ref role="3TtcxE" to="jrxw:2WRhvFtID48" />
+                            </node>
+                          </node>
+                          <node concept="13MTOL" id="7kUqYZDnOJq" role="2OqNvi">
+                            <ref role="13MTZf" to="jrxw:2WRhvFtICK8" />
+                          </node>
+                        </node>
+                        <node concept="1v1jN8" id="7kUqYZDnOJr" role="2OqNvi" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="Rh6nW" id="7kUqYZDnOCx" role="1bW2Oz">
+                    <property role="TrG5h" value="col" />
+                    <node concept="2jxLKc" id="7kUqYZDnOCy" role="1tU5fm" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbC" id="7kUqYZD_QL0" role="3uHU7w">
+              <node concept="3clFbT" id="7kUqYZD_QRS" role="3uHU7B">
+                <property role="3clFbU" value="false" />
+              </node>
+              <node concept="2OqwBi" id="7kUqYZD_DH4" role="3uHU7w">
+                <node concept="2OqwBi" id="7kUqYZD_AjY" role="2Oq$k0">
+                  <node concept="2OqwBi" id="7kUqYZD__mc" role="2Oq$k0">
+                    <node concept="2OqwBi" id="7kUqYZD_$Qq" role="2Oq$k0">
+                      <node concept="37vLTw" id="7kUqYZD_$LQ" role="2Oq$k0">
+                        <ref role="3cqZAo" node="3MLv1ImxA0w" resolve="enclosingNode" />
+                      </node>
+                      <node concept="I4A8Y" id="7kUqYZD__56" role="2OqNvi" />
+                    </node>
+                    <node concept="2RRcyG" id="7kUqYZD__xC" role="2OqNvi">
+                      <ref role="2RRcyH" to="jrxw:2WRhvFtICK0" resolve="ColumnGroupContainer" />
+                    </node>
+                  </node>
+                  <node concept="13MTOL" id="7kUqYZD_BVd" role="2OqNvi">
+                    <ref role="13MTZf" to="jrxw:2WRhvFtICK1" />
+                  </node>
+                </node>
+                <node concept="2HwmR7" id="7kUqYZD_EnT" role="2OqNvi">
+                  <node concept="1bVj0M" id="7kUqYZD_EnV" role="23t8la">
+                    <node concept="3clFbS" id="7kUqYZD_EnW" role="1bW5cS">
+                      <node concept="3clFbF" id="7kUqYZD_EtG" role="3cqZAp">
+                        <node concept="2OqwBi" id="7kUqYZD_Fm_" role="3clFbG">
+                          <node concept="2OqwBi" id="7kUqYZD_EyY" role="2Oq$k0">
+                            <node concept="37vLTw" id="7kUqYZD_EtF" role="2Oq$k0">
+                              <ref role="3cqZAo" node="7kUqYZD_EnX" resolve="it" />
+                            </node>
+                            <node concept="3TrcHB" id="7kUqYZD_EXv" role="2OqNvi">
+                              <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                            </node>
+                          </node>
+                          <node concept="3y1jeu" id="7kUqYZD_FMm" role="2OqNvi">
+                            <node concept="Xl_RD" id="7kUqYZD_FSw" role="3y1jev">
+                              <property role="Xl_RC" value="NoGroup" />
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="Rh6nW" id="7kUqYZD_EnX" role="1bW2Oz">
+                      <property role="TrG5h" value="it" />
+                      <node concept="2jxLKc" id="7kUqYZD_EnY" role="1tU5fm" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="7kUqYZDOgkm" role="3cqZAp" />
+        <node concept="3SKdUt" id="7kUqYZCVUW2" role="3cqZAp">
+          <node concept="3SKdUq" id="7kUqYZCVW7h" role="3SKWNk">
+            <property role="3SKdUp" value="loop arround the column" />
+          </node>
+        </node>
+        <node concept="2Gpval" id="7kUqYZCOSpA" role="3cqZAp">
+          <node concept="2GrKxI" id="7kUqYZCOSpC" role="2Gsz3X">
+            <property role="TrG5h" value="currentColumn" />
+          </node>
+          <node concept="3clFbS" id="7kUqYZCOSpE" role="2LFqv$">
+            <node concept="3cpWs8" id="7kUqYZCOX4p" role="3cqZAp">
+              <node concept="3cpWsn" id="7kUqYZCOX4q" role="3cpWs9">
+                <property role="TrG5h" value="columnGroupsReferenceloop" />
+                <node concept="2I9FWS" id="7kUqYZCOX4r" role="1tU5fm">
+                  <ref role="2I9WkF" to="jrxw:2WRhvFtICK7" resolve="ColumnGroupReference" />
+                </node>
+                <node concept="2ShNRf" id="7kUqYZCOX4s" role="33vP2m">
+                  <node concept="2T8Vx0" id="7kUqYZCOX4t" role="2ShVmc">
+                    <node concept="2I9FWS" id="7kUqYZCOX4u" role="2T96Bj">
+                      <ref role="2I9WkF" to="jrxw:2WRhvFtICK7" resolve="ColumnGroupReference" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3SKdUt" id="7kUqYZCVPo9" role="3cqZAp">
+              <node concept="3SKWN0" id="7kUqYZCVPom" role="3SKWNk">
+                <node concept="3clFbF" id="7kUqYZCOX5z" role="3SKWNf">
+                  <node concept="2OqwBi" id="7kUqYZCOYpE" role="3clFbG">
+                    <node concept="37vLTw" id="7kUqYZCOXPL" role="2Oq$k0">
+                      <ref role="3cqZAo" node="7kUqYZCOX4q" resolve="columnGroupsReferenceloop" />
+                    </node>
+                    <node concept="X8dFx" id="7kUqYZCP47Z" role="2OqNvi">
+                      <node concept="2OqwBi" id="7kUqYZCPbJx" role="25WWJ7">
+                        <node concept="2OqwBi" id="7kUqYZCP92B" role="2Oq$k0">
+                          <node concept="2OqwBi" id="7kUqYZCP5jM" role="2Oq$k0">
+                            <node concept="2GrUjf" id="7kUqYZCP4hi" role="2Oq$k0">
+                              <ref role="2Gs0qQ" node="7kUqYZCOSpC" resolve="currentColumn" />
+                            </node>
+                            <node concept="3CFZ6_" id="7kUqYZCP67M" role="2OqNvi">
+                              <node concept="3CFYIy" id="7kUqYZCP7qE" role="3CFYIz">
                                 <ref role="3CFYIx" to="jrxw:2WRhvFtICIG" resolve="ColumnAnnotation" />
                               </node>
                             </node>
                           </node>
-                          <node concept="3Tsc0h" id="3MLv1IrcICa" role="2OqNvi">
+                          <node concept="3Tsc0h" id="7kUqYZCPauw" role="2OqNvi">
                             <ref role="3TtcxE" to="jrxw:2WRhvFtID48" />
                           </node>
                         </node>
-                        <node concept="13MTOL" id="3MLv1IrcLA1" role="2OqNvi">
+                        <node concept="13MTOL" id="7kUqYZCPdQo" role="2OqNvi">
                           <ref role="13MTZf" to="jrxw:2WRhvFtICK8" />
                         </node>
                       </node>
-                      <node concept="1v1jN8" id="3MLv1IrcNDF" role="2OqNvi" />
-                    </node>
-                  </node>
-                </node>
-                <node concept="Rh6nW" id="3MLv1IrcHPs" role="1bW2Oz">
-                  <property role="TrG5h" value="it" />
-                  <node concept="2jxLKc" id="3MLv1IrcHPt" role="1tU5fm" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="2Gpval" id="3MLv1IldsyP" role="3cqZAp">
-          <node concept="2GrKxI" id="3MLv1IldsyR" role="2Gsz3X">
-            <property role="TrG5h" value="group" />
-          </node>
-          <node concept="3clFbS" id="3MLv1IldsyT" role="2LFqv$">
-            <node concept="3clFbH" id="3MLv1IloUp$" role="3cqZAp" />
-            <node concept="3clFbF" id="3MLv1IloXaH" role="3cqZAp">
-              <node concept="2OqwBi" id="3MLv1IloXDB" role="3clFbG">
-                <node concept="37vLTw" id="3MLv1IloXaF" role="2Oq$k0">
-                  <ref role="3cqZAo" node="3MLv1IlczmV" resolve="tableColumnGroupsList" />
-                </node>
-                <node concept="TSZUe" id="3MLv1IloZcI" role="2OqNvi">
-                  <node concept="BsUDl" id="3MLv1IsbrTO" role="25WWJ7">
-                    <ref role="37wK5l" node="3MLv1IsaxDW" resolve="getColumnRef" />
-                    <node concept="37vLTw" id="3MLv1Isbs53" role="37wK5m">
-                      <ref role="3cqZAo" node="3MLv1IqZOtc" resolve="columns" />
-                    </node>
-                    <node concept="2GrUjf" id="3MLv1IsbsrQ" role="37wK5m">
-                      <ref role="2Gs0qQ" node="3MLv1IldsyR" resolve="group" />
                     </node>
                   </node>
                 </node>
               </node>
             </node>
-            <node concept="3clFbH" id="3MLv1ImlEnN" role="3cqZAp" />
+            <node concept="3SKdUt" id="7kUqYZCVWgI" role="3cqZAp">
+              <node concept="3SKdUq" id="7kUqYZCVXPN" role="3SKWNk">
+                <property role="3SKdUp" value="add all the group associated to columns" />
+              </node>
+            </node>
+            <node concept="3SKdUt" id="7kUqYZCQjH2" role="3cqZAp">
+              <node concept="3SKdUq" id="7kUqYZDoW7H" role="3SKWNk">
+                <property role="3SKdUp" value="if current table do not contains a columnGroup" />
+              </node>
+            </node>
+            <node concept="3clFbJ" id="7kUqYZDoBXV" role="3cqZAp">
+              <node concept="3clFbS" id="7kUqYZDoBXX" role="3clFbx">
+                <node concept="34ab3g" id="7kUqYZDoEg5" role="3cqZAp">
+                  <property role="35gtTG" value="info" />
+                  <node concept="Xl_RD" id="7kUqYZDoEg6" role="34bqiv">
+                    <property role="Xl_RC" value="focus on the annotated column" />
+                  </node>
+                </node>
+                <node concept="3cpWs8" id="7kUqYZDoEg7" role="3cqZAp">
+                  <node concept="3cpWsn" id="7kUqYZDoEg8" role="3cpWs9">
+                    <property role="TrG5h" value="EmptyGroupName" />
+                    <node concept="2hMVRd" id="7kUqYZDoEg9" role="1tU5fm">
+                      <node concept="17QB3L" id="7kUqYZDoEga" role="2hN53Y" />
+                    </node>
+                    <node concept="2ShNRf" id="7kUqYZDoEgb" role="33vP2m">
+                      <node concept="2i4dXS" id="7kUqYZDoEgc" role="2ShVmc">
+                        <node concept="17QB3L" id="7kUqYZDoEgd" role="HW$YZ" />
+                        <node concept="Xl_RD" id="7kUqYZDoEge" role="HW$Y0">
+                          <property role="Xl_RC" value="NoGroup" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="3clFbJ" id="7kUqYZDoEgg" role="3cqZAp">
+                  <node concept="3clFbS" id="7kUqYZDoEgh" role="3clFbx">
+                    <node concept="3cpWs8" id="7kUqYZDoEgi" role="3cqZAp">
+                      <node concept="3cpWsn" id="7kUqYZDoEgj" role="3cpWs9">
+                        <property role="TrG5h" value="colref" />
+                        <node concept="3Tqbb2" id="7kUqYZDoEgk" role="1tU5fm">
+                          <ref role="ehGHo" to="jrxw:2WRhvFtwVip" resolve="ColumnRef" />
+                        </node>
+                        <node concept="2ShNRf" id="7kUqYZDoEgl" role="33vP2m">
+                          <node concept="3zrR0B" id="7kUqYZDoEgm" role="2ShVmc">
+                            <node concept="3Tqbb2" id="7kUqYZDoEgn" role="3zrR0E">
+                              <ref role="ehGHo" to="jrxw:2WRhvFtwVip" resolve="ColumnRef" />
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="3clFbF" id="7kUqYZDoEgo" role="3cqZAp">
+                      <node concept="37vLTI" id="7kUqYZDoEgp" role="3clFbG">
+                        <node concept="2GrUjf" id="7kUqYZDoEgq" role="37vLTx">
+                          <ref role="2Gs0qQ" node="7kUqYZCOSpC" resolve="currentColumn" />
+                        </node>
+                        <node concept="2OqwBi" id="7kUqYZDoEgr" role="37vLTJ">
+                          <node concept="37vLTw" id="7kUqYZDoEgs" role="2Oq$k0">
+                            <ref role="3cqZAo" node="7kUqYZDoEgj" resolve="colref" />
+                          </node>
+                          <node concept="3TrEf2" id="7kUqYZDoEgt" role="2OqNvi">
+                            <ref role="3Tt5mk" to="jrxw:2WRhvFtwViq" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="3SKdUt" id="7kUqYZDoEgu" role="3cqZAp">
+                      <node concept="3SKdUq" id="7kUqYZDoEgv" role="3SKWNk">
+                        <property role="3SKdUp" value="find the first tablegroup which contains have the same annotation and add the column ref to it" />
+                      </node>
+                    </node>
+                    <node concept="3clFbF" id="7kUqYZDoEgw" role="3cqZAp">
+                      <node concept="2OqwBi" id="7kUqYZDoEgx" role="3clFbG">
+                        <node concept="2OqwBi" id="7kUqYZDoEgy" role="2Oq$k0">
+                          <node concept="2OqwBi" id="7kUqYZDoEgz" role="2Oq$k0">
+                            <node concept="37vLTw" id="7kUqYZDoEg$" role="2Oq$k0">
+                              <ref role="3cqZAo" node="7kUqYZCORp1" resolve="tableColumnGroupsList" />
+                            </node>
+                            <node concept="1z4cxt" id="7kUqYZDoEg_" role="2OqNvi">
+                              <node concept="1bVj0M" id="7kUqYZDoEgA" role="23t8la">
+                                <node concept="3clFbS" id="7kUqYZDoEgB" role="1bW5cS">
+                                  <node concept="3clFbF" id="7kUqYZDoEgC" role="3cqZAp">
+                                    <node concept="2OqwBi" id="7kUqYZDoEgD" role="3clFbG">
+                                      <node concept="37vLTw" id="7kUqYZDoEgE" role="2Oq$k0">
+                                        <ref role="3cqZAo" node="7kUqYZDoEgH" resolve="it" />
+                                      </node>
+                                      <node concept="2qgKlT" id="7kUqYZDoEgF" role="2OqNvi">
+                                        <ref role="37wK5l" node="7kUqYZCPBOi" resolve="CheckGroupName" />
+                                        <node concept="37vLTw" id="7kUqYZDoEgG" role="37wK5m">
+                                          <ref role="3cqZAo" node="7kUqYZDoEg8" resolve="EmptyGroupName" />
+                                        </node>
+                                      </node>
+                                    </node>
+                                  </node>
+                                </node>
+                                <node concept="Rh6nW" id="7kUqYZDoEgH" role="1bW2Oz">
+                                  <property role="TrG5h" value="it" />
+                                  <node concept="2jxLKc" id="7kUqYZDoEgI" role="1tU5fm" />
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                          <node concept="3Tsc0h" id="7kUqYZDoEgJ" role="2OqNvi">
+                            <ref role="3TtcxE" to="jrxw:3MLv1IrLBWm" />
+                          </node>
+                        </node>
+                        <node concept="TSZUe" id="7kUqYZDoEgK" role="2OqNvi">
+                          <node concept="37vLTw" id="7kUqYZDoEgL" role="25WWJ7">
+                            <ref role="3cqZAo" node="7kUqYZDoEgj" resolve="colref" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="2OqwBi" id="7kUqYZDoEgN" role="3clFbw">
+                    <node concept="37vLTw" id="7kUqYZDoEgO" role="2Oq$k0">
+                      <ref role="3cqZAo" node="7kUqYZCORp1" resolve="tableColumnGroupsList" />
+                    </node>
+                    <node concept="2HwmR7" id="7kUqYZDoEgP" role="2OqNvi">
+                      <node concept="1bVj0M" id="7kUqYZDoEgQ" role="23t8la">
+                        <node concept="3clFbS" id="7kUqYZDoEgR" role="1bW5cS">
+                          <node concept="3clFbF" id="7kUqYZDoEgS" role="3cqZAp">
+                            <node concept="2OqwBi" id="7kUqYZDoEgT" role="3clFbG">
+                              <node concept="37vLTw" id="7kUqYZDoEgU" role="2Oq$k0">
+                                <ref role="3cqZAo" node="7kUqYZDoEgX" resolve="it" />
+                              </node>
+                              <node concept="2qgKlT" id="7kUqYZDoEgV" role="2OqNvi">
+                                <ref role="37wK5l" node="7kUqYZCPBOi" resolve="CheckGroupName" />
+                                <node concept="37vLTw" id="7kUqYZDoEgW" role="37wK5m">
+                                  <ref role="3cqZAo" node="7kUqYZDoEg8" resolve="EmptyGroupName" />
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                        <node concept="Rh6nW" id="7kUqYZDoEgX" role="1bW2Oz">
+                          <property role="TrG5h" value="it" />
+                          <node concept="2jxLKc" id="7kUqYZDoEgY" role="1tU5fm" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="9aQIb" id="7kUqYZDoEgZ" role="9aQIa">
+                    <node concept="3clFbS" id="7kUqYZDoEh0" role="9aQI4">
+                      <node concept="3cpWs8" id="7kUqYZDoEh1" role="3cqZAp">
+                        <node concept="3cpWsn" id="7kUqYZDoEh2" role="3cpWs9">
+                          <property role="TrG5h" value="thisTableColumnGroup" />
+                          <node concept="3Tqbb2" id="7kUqYZDoEh3" role="1tU5fm">
+                            <ref role="ehGHo" to="jrxw:3MLv1IkOE3z" resolve="TableGroup" />
+                          </node>
+                          <node concept="2ShNRf" id="7kUqYZDoEh4" role="33vP2m">
+                            <node concept="3zrR0B" id="7kUqYZDoEh5" role="2ShVmc">
+                              <node concept="3Tqbb2" id="7kUqYZDoEh6" role="3zrR0E">
+                                <ref role="ehGHo" to="jrxw:3MLv1IkOE3z" resolve="TableGroup" />
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="3cpWs8" id="7kUqYZDoEh7" role="3cqZAp">
+                        <node concept="3cpWsn" id="7kUqYZDoEh8" role="3cpWs9">
+                          <property role="TrG5h" value="columnGroupRef" />
+                          <node concept="3Tqbb2" id="7kUqYZDoEh9" role="1tU5fm">
+                            <ref role="ehGHo" to="jrxw:2WRhvFtICK7" resolve="ColumnGroupReference" />
+                          </node>
+                          <node concept="2ShNRf" id="7kUqYZDoEha" role="33vP2m">
+                            <node concept="3zrR0B" id="7kUqYZDoEhb" role="2ShVmc">
+                              <node concept="3Tqbb2" id="7kUqYZDoEhc" role="3zrR0E">
+                                <ref role="ehGHo" to="jrxw:2WRhvFtICK7" resolve="ColumnGroupReference" />
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="3clFbF" id="7kUqYZD_Tdg" role="3cqZAp">
+                        <node concept="2OqwBi" id="7kUqYZD_T_X" role="3clFbG">
+                          <node concept="2OqwBi" id="7kUqYZD_Tfu" role="2Oq$k0">
+                            <node concept="37vLTw" id="7kUqYZD_Tde" role="2Oq$k0">
+                              <ref role="3cqZAo" node="7kUqYZDoEh8" resolve="columnGroupRef" />
+                            </node>
+                            <node concept="3TrEf2" id="7kUqYZD_Tti" role="2OqNvi">
+                              <ref role="3Tt5mk" to="jrxw:2WRhvFtICK8" />
+                            </node>
+                          </node>
+                          <node concept="2oxUTD" id="7kUqYZD_UAE" role="2OqNvi">
+                            <node concept="2OqwBi" id="7kUqYZD_UDq" role="2oxUTC">
+                              <node concept="2OqwBi" id="7kUqYZD_UDr" role="2Oq$k0">
+                                <node concept="2OqwBi" id="7kUqYZD_UDs" role="2Oq$k0">
+                                  <node concept="2OqwBi" id="7kUqYZD_UDt" role="2Oq$k0">
+                                    <node concept="2OqwBi" id="7kUqYZD_UDu" role="2Oq$k0">
+                                      <node concept="37vLTw" id="7kUqYZD_UDv" role="2Oq$k0">
+                                        <ref role="3cqZAo" node="3MLv1ImxA0w" resolve="enclosingNode" />
+                                      </node>
+                                      <node concept="I4A8Y" id="7kUqYZD_UDw" role="2OqNvi" />
+                                    </node>
+                                    <node concept="2RRcyG" id="7kUqYZD_UDx" role="2OqNvi">
+                                      <ref role="2RRcyH" to="jrxw:2WRhvFtICK0" resolve="ColumnGroupContainer" />
+                                    </node>
+                                  </node>
+                                  <node concept="1uHKPH" id="7kUqYZD_UDy" role="2OqNvi" />
+                                </node>
+                                <node concept="3Tsc0h" id="7kUqYZD_UDz" role="2OqNvi">
+                                  <ref role="3TtcxE" to="jrxw:2WRhvFtICK1" />
+                                </node>
+                              </node>
+                              <node concept="1z4cxt" id="7kUqYZD_W3b" role="2OqNvi">
+                                <node concept="1bVj0M" id="7kUqYZD_W3d" role="23t8la">
+                                  <node concept="3clFbS" id="7kUqYZD_W3e" role="1bW5cS">
+                                    <node concept="3clFbF" id="7kUqYZD_W5W" role="3cqZAp">
+                                      <node concept="2OqwBi" id="7kUqYZD_WP7" role="3clFbG">
+                                        <node concept="2OqwBi" id="7kUqYZD_W9$" role="2Oq$k0">
+                                          <node concept="37vLTw" id="7kUqYZD_W5V" role="2Oq$k0">
+                                            <ref role="3cqZAo" node="7kUqYZD_W3f" resolve="it" />
+                                          </node>
+                                          <node concept="3TrcHB" id="7kUqYZD_Ww4" role="2OqNvi">
+                                            <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                                          </node>
+                                        </node>
+                                        <node concept="3y1jeu" id="7kUqYZD_Xzn" role="2OqNvi">
+                                          <node concept="Xl_RD" id="7kUqYZD_XAc" role="3y1jev">
+                                            <property role="Xl_RC" value="NoGroup" />
+                                          </node>
+                                        </node>
+                                      </node>
+                                    </node>
+                                  </node>
+                                  <node concept="Rh6nW" id="7kUqYZD_W3f" role="1bW2Oz">
+                                    <property role="TrG5h" value="it" />
+                                    <node concept="2jxLKc" id="7kUqYZD_W3g" role="1tU5fm" />
+                                  </node>
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="3SKdUt" id="7kUqYZD_XQE" role="3cqZAp">
+                        <node concept="3SKWN0" id="7kUqYZD_XQN" role="3SKWNk">
+                          <node concept="3clFbF" id="7kUqYZDoEhd" role="3SKWNf">
+                            <node concept="37vLTI" id="7kUqYZDoEhe" role="3clFbG">
+                              <node concept="Xl_RD" id="7kUqYZDoEhf" role="37vLTx">
+                                <property role="Xl_RC" value="NoGroup" />
+                              </node>
+                              <node concept="2OqwBi" id="7kUqYZDoFWz" role="37vLTJ">
+                                <node concept="2OqwBi" id="7kUqYZDoEhg" role="2Oq$k0">
+                                  <node concept="37vLTw" id="7kUqYZDoEhh" role="2Oq$k0">
+                                    <ref role="3cqZAo" node="7kUqYZDoEh8" resolve="columnGroupRef" />
+                                  </node>
+                                  <node concept="3TrEf2" id="7kUqYZDoFL2" role="2OqNvi">
+                                    <ref role="3Tt5mk" to="jrxw:2WRhvFtICK8" />
+                                  </node>
+                                </node>
+                                <node concept="3TrcHB" id="7kUqYZDoG6g" role="2OqNvi">
+                                  <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="3clFbF" id="7kUqYZDoEhj" role="3cqZAp">
+                        <node concept="2OqwBi" id="7kUqYZDoEhk" role="3clFbG">
+                          <node concept="2OqwBi" id="7kUqYZDoEhl" role="2Oq$k0">
+                            <node concept="37vLTw" id="7kUqYZDoEhm" role="2Oq$k0">
+                              <ref role="3cqZAo" node="7kUqYZDoEh2" resolve="thisTableColumnGroup" />
+                            </node>
+                            <node concept="3Tsc0h" id="7kUqYZDoEhn" role="2OqNvi">
+                              <ref role="3TtcxE" to="jrxw:7kUqYZCOCMl" />
+                            </node>
+                          </node>
+                          <node concept="TSZUe" id="7kUqYZDoEho" role="2OqNvi">
+                            <node concept="37vLTw" id="7kUqYZDoEhp" role="25WWJ7">
+                              <ref role="3cqZAo" node="7kUqYZDoEh8" resolve="columnGroupRef" />
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="3cpWs8" id="7kUqYZDoEhq" role="3cqZAp">
+                        <node concept="3cpWsn" id="7kUqYZDoEhr" role="3cpWs9">
+                          <property role="TrG5h" value="colref" />
+                          <node concept="3Tqbb2" id="7kUqYZDoEhs" role="1tU5fm">
+                            <ref role="ehGHo" to="jrxw:2WRhvFtwVip" resolve="ColumnRef" />
+                          </node>
+                          <node concept="2ShNRf" id="7kUqYZDoEht" role="33vP2m">
+                            <node concept="3zrR0B" id="7kUqYZDoEhu" role="2ShVmc">
+                              <node concept="3Tqbb2" id="7kUqYZDoEhv" role="3zrR0E">
+                                <ref role="ehGHo" to="jrxw:2WRhvFtwVip" resolve="ColumnRef" />
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="3clFbF" id="7kUqYZDoEhw" role="3cqZAp">
+                        <node concept="37vLTI" id="7kUqYZDoEhx" role="3clFbG">
+                          <node concept="2GrUjf" id="7kUqYZDoEhy" role="37vLTx">
+                            <ref role="2Gs0qQ" node="7kUqYZCOSpC" resolve="currentColumn" />
+                          </node>
+                          <node concept="2OqwBi" id="7kUqYZDoEhz" role="37vLTJ">
+                            <node concept="37vLTw" id="7kUqYZDoEh$" role="2Oq$k0">
+                              <ref role="3cqZAo" node="7kUqYZDoEhr" resolve="colref" />
+                            </node>
+                            <node concept="3TrEf2" id="7kUqYZDoEh_" role="2OqNvi">
+                              <ref role="3Tt5mk" to="jrxw:2WRhvFtwViq" />
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="3clFbF" id="7kUqYZDoEhA" role="3cqZAp">
+                        <node concept="2OqwBi" id="7kUqYZDoEhB" role="3clFbG">
+                          <node concept="2OqwBi" id="7kUqYZDoEhC" role="2Oq$k0">
+                            <node concept="37vLTw" id="7kUqYZDoEhD" role="2Oq$k0">
+                              <ref role="3cqZAo" node="7kUqYZDoEh2" resolve="thisTableColumnGroup" />
+                            </node>
+                            <node concept="3Tsc0h" id="7kUqYZDoEhE" role="2OqNvi">
+                              <ref role="3TtcxE" to="jrxw:3MLv1IrLBWm" />
+                            </node>
+                          </node>
+                          <node concept="TSZUe" id="7kUqYZDoEhF" role="2OqNvi">
+                            <node concept="37vLTw" id="7kUqYZDoEhG" role="25WWJ7">
+                              <ref role="3cqZAo" node="7kUqYZDoEhr" resolve="colref" />
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="3clFbF" id="7kUqYZDoWbF" role="3cqZAp">
+                        <node concept="2OqwBi" id="7kUqYZDoWHI" role="3clFbG">
+                          <node concept="37vLTw" id="7kUqYZDoWbD" role="2Oq$k0">
+                            <ref role="3cqZAo" node="7kUqYZCORp1" resolve="tableColumnGroupsList" />
+                          </node>
+                          <node concept="TSZUe" id="7kUqYZDoZNa" role="2OqNvi">
+                            <node concept="37vLTw" id="7kUqYZDoZTy" role="25WWJ7">
+                              <ref role="3cqZAo" node="7kUqYZDoEh2" resolve="thisTableColumnGroup" />
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="2OqwBi" id="7kUqYZDoE1x" role="3clFbw">
+                <node concept="2OqwBi" id="7kUqYZDoE1y" role="2Oq$k0">
+                  <node concept="2OqwBi" id="7kUqYZDoE1z" role="2Oq$k0">
+                    <node concept="2OqwBi" id="7kUqYZDoE1$" role="2Oq$k0">
+                      <node concept="2OqwBi" id="7kUqYZDoE1_" role="2Oq$k0">
+                        <node concept="2GrUjf" id="7kUqYZDoE1A" role="2Oq$k0">
+                          <ref role="2Gs0qQ" node="7kUqYZCOSpC" resolve="currentColumn" />
+                        </node>
+                        <node concept="3CFZ6_" id="7kUqYZDoE1B" role="2OqNvi">
+                          <node concept="3CFYIy" id="7kUqYZDoE1C" role="3CFYIz">
+                            <ref role="3CFYIx" to="jrxw:2WRhvFtICIG" resolve="ColumnAnnotation" />
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="3Tsc0h" id="7kUqYZDoE1D" role="2OqNvi">
+                        <ref role="3TtcxE" to="jrxw:2WRhvFtID48" />
+                      </node>
+                    </node>
+                    <node concept="13MTOL" id="7kUqYZDoE1E" role="2OqNvi">
+                      <ref role="13MTZf" to="jrxw:2WRhvFtICK8" />
+                    </node>
+                  </node>
+                  <node concept="3$u5V9" id="7kUqYZDoE1F" role="2OqNvi">
+                    <node concept="1bVj0M" id="7kUqYZDoE1G" role="23t8la">
+                      <node concept="3clFbS" id="7kUqYZDoE1H" role="1bW5cS">
+                        <node concept="3clFbF" id="7kUqYZDoE1I" role="3cqZAp">
+                          <node concept="2OqwBi" id="7kUqYZDoE1J" role="3clFbG">
+                            <node concept="37vLTw" id="7kUqYZDoE1K" role="2Oq$k0">
+                              <ref role="3cqZAo" node="7kUqYZDoE1M" resolve="it" />
+                            </node>
+                            <node concept="3TrcHB" id="7kUqYZDoE1L" role="2OqNvi">
+                              <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="Rh6nW" id="7kUqYZDoE1M" role="1bW2Oz">
+                        <property role="TrG5h" value="it" />
+                        <node concept="2jxLKc" id="7kUqYZDoE1N" role="1tU5fm" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="1v1jN8" id="7kUqYZDoE1O" role="2OqNvi" />
+              </node>
+              <node concept="9aQIb" id="7kUqYZDoE9n" role="9aQIa">
+                <node concept="3clFbS" id="7kUqYZDoE9o" role="9aQI4">
+                  <node concept="34ab3g" id="7kUqYZDp1X9" role="3cqZAp">
+                    <property role="35gtTG" value="info" />
+                    <node concept="Xl_RD" id="7kUqYZDp1Xa" role="34bqiv">
+                      <property role="Xl_RC" value="the Column as at least one group" />
+                    </node>
+                  </node>
+                  <node concept="3cpWs8" id="7kUqYZDp1Xb" role="3cqZAp">
+                    <node concept="3cpWsn" id="7kUqYZDp1Xc" role="3cpWs9">
+                      <property role="TrG5h" value="groupName" />
+                      <node concept="2hMVRd" id="7kUqYZDp1Xd" role="1tU5fm">
+                        <node concept="17QB3L" id="7kUqYZDp1Xe" role="2hN53Y" />
+                      </node>
+                      <node concept="2ShNRf" id="7kUqYZDp1Xf" role="33vP2m">
+                        <node concept="2i4dXS" id="7kUqYZDp1Xg" role="2ShVmc">
+                          <node concept="17QB3L" id="7kUqYZDp1Xh" role="HW$YZ" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3clFbF" id="7kUqYZDp1Xi" role="3cqZAp">
+                    <node concept="2OqwBi" id="7kUqYZDp1Xj" role="3clFbG">
+                      <node concept="37vLTw" id="7kUqYZDp1Xk" role="2Oq$k0">
+                        <ref role="3cqZAo" node="7kUqYZDp1Xc" resolve="groupName" />
+                      </node>
+                      <node concept="X8dFx" id="7kUqYZDp1Xl" role="2OqNvi">
+                        <node concept="2OqwBi" id="7kUqYZDp1Xm" role="25WWJ7">
+                          <node concept="2OqwBi" id="7kUqYZDp1Xn" role="2Oq$k0">
+                            <node concept="2OqwBi" id="7kUqYZDp1Xo" role="2Oq$k0">
+                              <node concept="2OqwBi" id="7kUqYZDp1Xp" role="2Oq$k0">
+                                <node concept="2GrUjf" id="7kUqYZDp1Xq" role="2Oq$k0">
+                                  <ref role="2Gs0qQ" node="7kUqYZCOSpC" resolve="currentColumn" />
+                                </node>
+                                <node concept="3CFZ6_" id="7kUqYZDp1Xr" role="2OqNvi">
+                                  <node concept="3CFYIy" id="7kUqYZDp1Xs" role="3CFYIz">
+                                    <ref role="3CFYIx" to="jrxw:2WRhvFtICIG" resolve="ColumnAnnotation" />
+                                  </node>
+                                </node>
+                              </node>
+                              <node concept="3Tsc0h" id="7kUqYZDp1Xt" role="2OqNvi">
+                                <ref role="3TtcxE" to="jrxw:2WRhvFtID48" />
+                              </node>
+                            </node>
+                            <node concept="13MTOL" id="7kUqYZDp1Xu" role="2OqNvi">
+                              <ref role="13MTZf" to="jrxw:2WRhvFtICK8" />
+                            </node>
+                          </node>
+                          <node concept="3$u5V9" id="7kUqYZDp1Xv" role="2OqNvi">
+                            <node concept="1bVj0M" id="7kUqYZDp1Xw" role="23t8la">
+                              <node concept="3clFbS" id="7kUqYZDp1Xx" role="1bW5cS">
+                                <node concept="3clFbF" id="7kUqYZDp1Xy" role="3cqZAp">
+                                  <node concept="2OqwBi" id="7kUqYZDp1Xz" role="3clFbG">
+                                    <node concept="37vLTw" id="7kUqYZDp1X$" role="2Oq$k0">
+                                      <ref role="3cqZAo" node="7kUqYZDp1XA" resolve="it" />
+                                    </node>
+                                    <node concept="3TrcHB" id="7kUqYZDp1X_" role="2OqNvi">
+                                      <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                                    </node>
+                                  </node>
+                                </node>
+                              </node>
+                              <node concept="Rh6nW" id="7kUqYZDp1XA" role="1bW2Oz">
+                                <property role="TrG5h" value="it" />
+                                <node concept="2jxLKc" id="7kUqYZDp1XB" role="1tU5fm" />
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="34ab3g" id="7kUqYZDp1XC" role="3cqZAp">
+                    <property role="35gtTG" value="info" />
+                    <node concept="3cpWs3" id="7kUqYZDp1XD" role="34bqiv">
+                      <node concept="37vLTw" id="7kUqYZDp1XE" role="3uHU7w">
+                        <ref role="3cqZAo" node="7kUqYZDp1Xc" resolve="groupName" />
+                      </node>
+                      <node concept="Xl_RD" id="7kUqYZDp1XF" role="3uHU7B">
+                        <property role="Xl_RC" value="the groupName " />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3SKdUt" id="7kUqYZDp1XG" role="3cqZAp">
+                    <node concept="3SKdUq" id="7kUqYZDp1XH" role="3SKWNk">
+                      <property role="3SKdUp" value="if a tablegroup has the same column group name add a column ref to this tablegroup" />
+                    </node>
+                  </node>
+                  <node concept="3clFbJ" id="7kUqYZDp1XI" role="3cqZAp">
+                    <node concept="3clFbS" id="7kUqYZDp1XJ" role="3clFbx">
+                      <node concept="34ab3g" id="7kUqYZDp1XK" role="3cqZAp">
+                        <property role="35gtTG" value="info" />
+                        <node concept="Xl_RD" id="7kUqYZDp1XL" role="34bqiv">
+                          <property role="Xl_RC" value="a Table groups was found with this group name" />
+                        </node>
+                      </node>
+                      <node concept="3SKdUt" id="7kUqYZDp1XM" role="3cqZAp">
+                        <node concept="3SKWN0" id="7kUqYZDp1XN" role="3SKWNk">
+                          <node concept="3clFbF" id="7kUqYZDp1XO" role="3SKWNf">
+                            <node concept="2OqwBi" id="7kUqYZDp1XP" role="3clFbG">
+                              <node concept="37vLTw" id="7kUqYZDp1XQ" role="2Oq$k0">
+                                <ref role="3cqZAo" node="7kUqYZCORp1" resolve="tableColumnGroupsList" />
+                              </node>
+                              <node concept="2HwmR7" id="7kUqYZDp1XR" role="2OqNvi">
+                                <node concept="1bVj0M" id="7kUqYZDp1XS" role="23t8la">
+                                  <node concept="3clFbS" id="7kUqYZDp1XT" role="1bW5cS">
+                                    <node concept="3clFbF" id="7kUqYZDp1XU" role="3cqZAp">
+                                      <node concept="2OqwBi" id="7kUqYZDp1XV" role="3clFbG">
+                                        <node concept="37vLTw" id="7kUqYZDp1XW" role="2Oq$k0">
+                                          <ref role="3cqZAo" node="7kUqYZDp1XZ" resolve="it" />
+                                        </node>
+                                        <node concept="2qgKlT" id="7kUqYZDp1XX" role="2OqNvi">
+                                          <ref role="37wK5l" node="7kUqYZCPBOi" resolve="CheckGroupName" />
+                                          <node concept="37vLTw" id="7kUqYZDp1XY" role="37wK5m">
+                                            <ref role="3cqZAo" node="7kUqYZDp1Xc" resolve="groupName" />
+                                          </node>
+                                        </node>
+                                      </node>
+                                    </node>
+                                  </node>
+                                  <node concept="Rh6nW" id="7kUqYZDp1XZ" role="1bW2Oz">
+                                    <property role="TrG5h" value="it" />
+                                    <node concept="2jxLKc" id="7kUqYZDp1Y0" role="1tU5fm" />
+                                  </node>
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="3cpWs8" id="7kUqYZDp1Y1" role="3cqZAp">
+                        <node concept="3cpWsn" id="7kUqYZDp1Y2" role="3cpWs9">
+                          <property role="TrG5h" value="colref" />
+                          <node concept="3Tqbb2" id="7kUqYZDp1Y3" role="1tU5fm">
+                            <ref role="ehGHo" to="jrxw:2WRhvFtwVip" resolve="ColumnRef" />
+                          </node>
+                          <node concept="2ShNRf" id="7kUqYZDp1Y4" role="33vP2m">
+                            <node concept="3zrR0B" id="7kUqYZDp1Y5" role="2ShVmc">
+                              <node concept="3Tqbb2" id="7kUqYZDp1Y6" role="3zrR0E">
+                                <ref role="ehGHo" to="jrxw:2WRhvFtwVip" resolve="ColumnRef" />
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="3clFbF" id="7kUqYZDvo4W" role="3cqZAp">
+                        <node concept="2OqwBi" id="7kUqYZDvp0B" role="3clFbG">
+                          <node concept="2OqwBi" id="7kUqYZDvo8B" role="2Oq$k0">
+                            <node concept="37vLTw" id="7kUqYZDvo4U" role="2Oq$k0">
+                              <ref role="3cqZAo" node="7kUqYZDp1Y2" resolve="colref" />
+                            </node>
+                            <node concept="3TrEf2" id="7kUqYZDvoR_" role="2OqNvi">
+                              <ref role="3Tt5mk" to="jrxw:2WRhvFtwViq" />
+                            </node>
+                          </node>
+                          <node concept="2oxUTD" id="7kUqYZDvpiu" role="2OqNvi">
+                            <node concept="2GrUjf" id="7kUqYZDvpjN" role="2oxUTC">
+                              <ref role="2Gs0qQ" node="7kUqYZCOSpC" resolve="currentColumn" />
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="3SKdUt" id="7kUqYZDp1Yd" role="3cqZAp">
+                        <node concept="3SKdUq" id="7kUqYZDp1Ye" role="3SKWNk">
+                          <property role="3SKdUp" value="find the first tablegroup which contains have the same annotation and add the column ref to it" />
+                        </node>
+                      </node>
+                      <node concept="3clFbF" id="7kUqYZDp1Yf" role="3cqZAp">
+                        <node concept="2OqwBi" id="7kUqYZDp1Yg" role="3clFbG">
+                          <node concept="2OqwBi" id="7kUqYZDp1Yh" role="2Oq$k0">
+                            <node concept="2OqwBi" id="7kUqYZDp1Yi" role="2Oq$k0">
+                              <node concept="37vLTw" id="7kUqYZDp1Yj" role="2Oq$k0">
+                                <ref role="3cqZAo" node="7kUqYZCORp1" resolve="tableColumnGroupsList" />
+                              </node>
+                              <node concept="1z4cxt" id="7kUqYZDp1Yk" role="2OqNvi">
+                                <node concept="1bVj0M" id="7kUqYZDp1Yl" role="23t8la">
+                                  <node concept="3clFbS" id="7kUqYZDp1Ym" role="1bW5cS">
+                                    <node concept="3clFbF" id="7kUqYZDp1Yn" role="3cqZAp">
+                                      <node concept="2OqwBi" id="7kUqYZDp1Yo" role="3clFbG">
+                                        <node concept="37vLTw" id="7kUqYZDp1Yp" role="2Oq$k0">
+                                          <ref role="3cqZAo" node="7kUqYZDp1Ys" resolve="it" />
+                                        </node>
+                                        <node concept="2qgKlT" id="7kUqYZDp1Yq" role="2OqNvi">
+                                          <ref role="37wK5l" node="7kUqYZCPBOi" resolve="CheckGroupName" />
+                                          <node concept="37vLTw" id="7kUqYZDp1Yr" role="37wK5m">
+                                            <ref role="3cqZAo" node="7kUqYZDp1Xc" resolve="groupName" />
+                                          </node>
+                                        </node>
+                                      </node>
+                                    </node>
+                                  </node>
+                                  <node concept="Rh6nW" id="7kUqYZDp1Ys" role="1bW2Oz">
+                                    <property role="TrG5h" value="it" />
+                                    <node concept="2jxLKc" id="7kUqYZDp1Yt" role="1tU5fm" />
+                                  </node>
+                                </node>
+                              </node>
+                            </node>
+                            <node concept="3Tsc0h" id="7kUqYZDp1Yu" role="2OqNvi">
+                              <ref role="3TtcxE" to="jrxw:3MLv1IrLBWm" />
+                            </node>
+                          </node>
+                          <node concept="TSZUe" id="7kUqYZDp1Yv" role="2OqNvi">
+                            <node concept="37vLTw" id="7kUqYZDp1Yw" role="25WWJ7">
+                              <ref role="3cqZAo" node="7kUqYZDp1Y2" resolve="colref" />
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="2OqwBi" id="7kUqYZDp1Yy" role="3clFbw">
+                      <node concept="37vLTw" id="7kUqYZDp1Yz" role="2Oq$k0">
+                        <ref role="3cqZAo" node="7kUqYZCORp1" resolve="tableColumnGroupsList" />
+                      </node>
+                      <node concept="2HwmR7" id="7kUqYZDp1Y$" role="2OqNvi">
+                        <node concept="1bVj0M" id="7kUqYZDp1Y_" role="23t8la">
+                          <node concept="3clFbS" id="7kUqYZDp1YA" role="1bW5cS">
+                            <node concept="3clFbF" id="7kUqYZDp1YB" role="3cqZAp">
+                              <node concept="2OqwBi" id="7kUqYZDp1YC" role="3clFbG">
+                                <node concept="37vLTw" id="7kUqYZDp1YD" role="2Oq$k0">
+                                  <ref role="3cqZAo" node="7kUqYZDp1YG" resolve="it" />
+                                </node>
+                                <node concept="2qgKlT" id="7kUqYZDp1YE" role="2OqNvi">
+                                  <ref role="37wK5l" node="7kUqYZCPBOi" resolve="CheckGroupName" />
+                                  <node concept="37vLTw" id="7kUqYZDp1YF" role="37wK5m">
+                                    <ref role="3cqZAo" node="7kUqYZDp1Xc" resolve="groupName" />
+                                  </node>
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                          <node concept="Rh6nW" id="7kUqYZDp1YG" role="1bW2Oz">
+                            <property role="TrG5h" value="it" />
+                            <node concept="2jxLKc" id="7kUqYZDp1YH" role="1tU5fm" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="9aQIb" id="7kUqYZDp1YI" role="9aQIa">
+                      <node concept="3clFbS" id="7kUqYZDp1YJ" role="9aQI4">
+                        <node concept="34ab3g" id="7kUqYZDp1YK" role="3cqZAp">
+                          <property role="35gtTG" value="info" />
+                          <node concept="Xl_RD" id="7kUqYZDp1YL" role="34bqiv">
+                            <property role="Xl_RC" value="on the else build a new tablegroup which contains colgrpRef" />
+                          </node>
+                        </node>
+                        <node concept="3SKdUt" id="7kUqYZDp1YM" role="3cqZAp">
+                          <node concept="3SKdUq" id="7kUqYZDp1YN" role="3SKWNk">
+                            <property role="3SKdUp" value="can be a function" />
+                          </node>
+                        </node>
+                        <node concept="3SKdUt" id="7kUqYZDp1YO" role="3cqZAp">
+                          <node concept="3SKdUq" id="7kUqYZDp1YP" role="3SKWNk">
+                            <property role="3SKdUp" value="if not create a new table group and add it and the associated column to orderbygroup" />
+                          </node>
+                        </node>
+                        <node concept="3SKdUt" id="7kUqYZDp1YQ" role="3cqZAp">
+                          <node concept="3SKdUq" id="7kUqYZDp1YR" role="3SKWNk">
+                            <property role="3SKdUp" value="add a new columngroup and a column" />
+                          </node>
+                        </node>
+                        <node concept="3SKdUt" id="7kUqYZDp1YT" role="3cqZAp">
+                          <node concept="3SKdUq" id="7kUqYZDp1YU" role="3SKWNk">
+                            <property role="3SKdUp" value="create a function which have forArgument a column and return a tableColumngroup" />
+                          </node>
+                        </node>
+                        <node concept="3clFbF" id="7kUqYZDp1YV" role="3cqZAp">
+                          <node concept="2OqwBi" id="7kUqYZDp1YW" role="3clFbG">
+                            <node concept="37vLTw" id="7kUqYZDp1YX" role="2Oq$k0">
+                              <ref role="3cqZAo" node="7kUqYZCORp1" resolve="tableColumnGroupsList" />
+                            </node>
+                            <node concept="TSZUe" id="7kUqYZDp1YY" role="2OqNvi">
+                              <node concept="BsUDl" id="7kUqYZDp1YZ" role="25WWJ7">
+                                <ref role="37wK5l" node="7kUqYZDmMfB" resolve="getTableGroup" />
+                                <node concept="2GrUjf" id="7kUqYZDp1Z0" role="37wK5m">
+                                  <ref role="2Gs0qQ" node="7kUqYZCOSpC" resolve="currentColumn" />
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3SKdUt" id="7kUqYZDoTPq" role="3cqZAp">
+              <node concept="3SKdUq" id="7kUqYZCQkKE" role="3SKWNk">
+                <property role="3SKdUp" value="if tablelistis not empty create a tableElement" />
+              </node>
+            </node>
+            <node concept="3SKdUt" id="7kUqYZDp34F" role="3cqZAp" />
+            <node concept="3clFbH" id="7kUqYZCPfbK" role="3cqZAp" />
           </node>
-          <node concept="37vLTw" id="3MLv1IldwZF" role="2GsD0m">
-            <ref role="3cqZAo" node="3MLv1IldoSw" resolve="columnGroups" />
+          <node concept="2OqwBi" id="7kUqYZCOWjt" role="2GsD0m">
+            <node concept="2OqwBi" id="7kUqYZCOVNc" role="2Oq$k0">
+              <node concept="2OqwBi" id="7kUqYZCOT5F" role="2Oq$k0">
+                <node concept="37vLTw" id="7kUqYZCOSSX" role="2Oq$k0">
+                  <ref role="3cqZAo" node="3MLv1ImHFDG" resolve="thisOrderTable" />
+                </node>
+                <node concept="3TrEf2" id="7kUqYZCOVyk" role="2OqNvi">
+                  <ref role="3Tt5mk" to="jrxw:pr6WGx0E6R" />
+                </node>
+              </node>
+              <node concept="3TrEf2" id="7kUqYZCOW6$" role="2OqNvi">
+                <ref role="3Tt5mk" to="jrxw:3R5AwWRY9K7" />
+              </node>
+            </node>
+            <node concept="3Tsc0h" id="7kUqYZCOX2z" role="2OqNvi">
+              <ref role="3TtcxE" to="ztlb:1UijAvvb9DO" />
+            </node>
           </node>
         </node>
-        <node concept="3clFbH" id="3MLv1IlX$vc" role="3cqZAp" />
         <node concept="3cpWs6" id="3MLv1IlcznL" role="3cqZAp">
-          <node concept="37vLTw" id="3MLv1Ilczo8" role="3cqZAk">
-            <ref role="3cqZAo" node="3MLv1IlczmV" resolve="tableColumnGroupsList" />
+          <node concept="37vLTw" id="7kUqYZD4Qzb" role="3cqZAk">
+            <ref role="3cqZAo" node="7kUqYZCORp1" resolve="tableColumnGroupsList" />
           </node>
         </node>
       </node>
@@ -16601,331 +17356,211 @@
         <node concept="3Tqbb2" id="3MLv1ImxA0v" role="1tU5fm" />
       </node>
     </node>
-    <node concept="13i0hz" id="3MLv1IsaxDW" role="13h7CS">
-      <property role="TrG5h" value="getColumnRef" />
+    <node concept="13i0hz" id="7kUqYZDmMfB" role="13h7CS">
+      <property role="TrG5h" value="getTableGroup" />
       <property role="2Ki8OM" value="true" />
-      <node concept="3Tm1VV" id="3MLv1IsaxDX" role="1B3o_S" />
-      <node concept="3clFbS" id="3MLv1IsaxDY" role="3clF47">
-        <node concept="3cpWs8" id="3MLv1IsaxWt" role="3cqZAp">
-          <node concept="3cpWsn" id="3MLv1IsaxWu" role="3cpWs9">
+      <node concept="3Tm1VV" id="7kUqYZDmMfC" role="1B3o_S" />
+      <node concept="3clFbS" id="7kUqYZDmMfD" role="3clF47">
+        <node concept="3SKdUt" id="7kUqYZDmSDb" role="3cqZAp">
+          <node concept="3SKdUq" id="7kUqYZDmSH2" role="3SKWNk">
+            <property role="3SKdUp" value="in order to use this function you need to be sure that a column group are associated to the column" />
+          </node>
+        </node>
+        <node concept="3cpWs8" id="7kUqYZDmRru" role="3cqZAp">
+          <node concept="3cpWsn" id="7kUqYZDmRrx" role="3cpWs9">
+            <property role="TrG5h" value="currentColGroupReference" />
+            <node concept="2I9FWS" id="7kUqYZDmRrs" role="1tU5fm">
+              <ref role="2I9WkF" to="jrxw:2WRhvFtICK7" resolve="ColumnGroupReference" />
+            </node>
+            <node concept="2ShNRf" id="7kUqYZDmRxP" role="33vP2m">
+              <node concept="2T8Vx0" id="7kUqYZDmRxN" role="2ShVmc">
+                <node concept="2I9FWS" id="7kUqYZDmRxO" role="2T96Bj">
+                  <ref role="2I9WkF" to="jrxw:2WRhvFtICK7" resolve="ColumnGroupReference" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="7kUqYZDmSvL" role="3cqZAp" />
+        <node concept="3SKdUt" id="7kUqYZDmSqH" role="3cqZAp">
+          <node concept="3SKdUq" id="7kUqYZDmSvH" role="3SKWNk">
+            <property role="3SKdUp" value="loop against the column grp" />
+          </node>
+        </node>
+        <node concept="2Gpval" id="7kUqYZCRwXT" role="3cqZAp">
+          <node concept="2GrKxI" id="7kUqYZCRwXV" role="2Gsz3X">
+            <property role="TrG5h" value="group" />
+          </node>
+          <node concept="3clFbS" id="7kUqYZCRwXX" role="2LFqv$">
+            <node concept="3cpWs8" id="7kUqYZCV9HN" role="3cqZAp">
+              <node concept="3cpWsn" id="7kUqYZCV9HQ" role="3cpWs9">
+                <property role="TrG5h" value="colgrpref" />
+                <node concept="3Tqbb2" id="7kUqYZCV9HM" role="1tU5fm">
+                  <ref role="ehGHo" to="jrxw:2WRhvFtICK7" resolve="ColumnGroupReference" />
+                </node>
+                <node concept="2ShNRf" id="7kUqYZCV9IM" role="33vP2m">
+                  <node concept="3zrR0B" id="7kUqYZCV9IK" role="2ShVmc">
+                    <node concept="3Tqbb2" id="7kUqYZCV9IL" role="3zrR0E">
+                      <ref role="ehGHo" to="jrxw:2WRhvFtICK7" resolve="ColumnGroupReference" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="7kUqYZCV9Jd" role="3cqZAp">
+              <node concept="2OqwBi" id="7kUqYZCVacO" role="3clFbG">
+                <node concept="2OqwBi" id="7kUqYZCV9KG" role="2Oq$k0">
+                  <node concept="37vLTw" id="7kUqYZCV9Jb" role="2Oq$k0">
+                    <ref role="3cqZAo" node="7kUqYZCV9HQ" resolve="colgrpref" />
+                  </node>
+                  <node concept="3TrEf2" id="7kUqYZCV9RJ" role="2OqNvi">
+                    <ref role="3Tt5mk" to="jrxw:2WRhvFtICK8" />
+                  </node>
+                </node>
+                <node concept="2oxUTD" id="7kUqYZCVamq" role="2OqNvi">
+                  <node concept="2GrUjf" id="7kUqYZCVani" role="2oxUTC">
+                    <ref role="2Gs0qQ" node="7kUqYZCRwXV" resolve="group" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="7kUqYZCVqtI" role="3cqZAp">
+              <node concept="2OqwBi" id="7kUqYZCVqWF" role="3clFbG">
+                <node concept="37vLTw" id="7kUqYZDmSc8" role="2Oq$k0">
+                  <ref role="3cqZAo" node="7kUqYZDmRrx" resolve="currentColGroupReference" />
+                </node>
+                <node concept="TSZUe" id="7kUqYZCVsvx" role="2OqNvi">
+                  <node concept="37vLTw" id="7kUqYZCVGUm" role="25WWJ7">
+                    <ref role="3cqZAo" node="7kUqYZCV9HQ" resolve="colgrpref" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="2OqwBi" id="7kUqYZCV5yM" role="2GsD0m">
+            <node concept="2OqwBi" id="7kUqYZCR_Jk" role="2Oq$k0">
+              <node concept="2OqwBi" id="7kUqYZCRxQG" role="2Oq$k0">
+                <node concept="37vLTw" id="7kUqYZDmRy4" role="2Oq$k0">
+                  <ref role="3cqZAo" node="7kUqYZDmMGn" resolve="column" />
+                </node>
+                <node concept="3CFZ6_" id="7kUqYZCRzzb" role="2OqNvi">
+                  <node concept="3CFYIy" id="7kUqYZCRz$Z" role="3CFYIz">
+                    <ref role="3CFYIx" to="jrxw:2WRhvFtICIG" resolve="ColumnAnnotation" />
+                  </node>
+                </node>
+              </node>
+              <node concept="3Tsc0h" id="7kUqYZCV4Vi" role="2OqNvi">
+                <ref role="3TtcxE" to="jrxw:2WRhvFtID48" />
+              </node>
+            </node>
+            <node concept="13MTOL" id="7kUqYZCV9Ef" role="2OqNvi">
+              <ref role="13MTZf" to="jrxw:2WRhvFtICK8" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="7kUqYZD4r5V" role="3cqZAp" />
+        <node concept="3SKdUt" id="7kUqYZDmUfC" role="3cqZAp">
+          <node concept="3SKdUq" id="7kUqYZDmUkM" role="3SKWNk">
+            <property role="3SKdUp" value="create a node TableGroup and add the column inside the current column to the tablegroup" />
+          </node>
+        </node>
+        <node concept="3cpWs8" id="7kUqYZCQS2K" role="3cqZAp">
+          <node concept="3cpWsn" id="7kUqYZCQS2L" role="3cpWs9">
             <property role="TrG5h" value="thisTableColumnGroup" />
-            <node concept="3Tqbb2" id="3MLv1IsaxWv" role="1tU5fm">
+            <node concept="3Tqbb2" id="7kUqYZCQS2M" role="1tU5fm">
               <ref role="ehGHo" to="jrxw:3MLv1IkOE3z" resolve="TableGroup" />
             </node>
-            <node concept="2ShNRf" id="3MLv1IsaxWw" role="33vP2m">
-              <node concept="3zrR0B" id="3MLv1IsaxWx" role="2ShVmc">
-                <node concept="3Tqbb2" id="3MLv1IsaxWy" role="3zrR0E">
+            <node concept="2ShNRf" id="7kUqYZCQS2N" role="33vP2m">
+              <node concept="3zrR0B" id="7kUqYZCQS2O" role="2ShVmc">
+                <node concept="3Tqbb2" id="7kUqYZCQS2P" role="3zrR0E">
                   <ref role="ehGHo" to="jrxw:3MLv1IkOE3z" resolve="TableGroup" />
                 </node>
               </node>
             </node>
           </node>
         </node>
-        <node concept="3clFbF" id="3MLv1IsaxWz" role="3cqZAp">
-          <node concept="37vLTI" id="3MLv1IsaxW$" role="3clFbG">
-            <node concept="2OqwBi" id="3MLv1IsaxW_" role="37vLTJ">
-              <node concept="37vLTw" id="3MLv1IsaxWA" role="2Oq$k0">
-                <ref role="3cqZAo" node="3MLv1IsaxWu" resolve="thisTableColumnGroup" />
+        <node concept="3clFbF" id="7kUqYZCQS2Q" role="3cqZAp">
+          <node concept="2OqwBi" id="7kUqYZD4uhs" role="3clFbG">
+            <node concept="2OqwBi" id="7kUqYZCQS2S" role="2Oq$k0">
+              <node concept="37vLTw" id="7kUqYZCQS2T" role="2Oq$k0">
+                <ref role="3cqZAo" node="7kUqYZCQS2L" resolve="thisTableColumnGroup" />
               </node>
-              <node concept="3TrEf2" id="3MLv1IsaCix" role="2OqNvi">
-                <ref role="3Tt5mk" to="jrxw:3MLv1Ilo8n7" />
+              <node concept="3Tsc0h" id="7kUqYZCQSU3" role="2OqNvi">
+                <ref role="3TtcxE" to="jrxw:7kUqYZCOCMl" />
               </node>
             </node>
-            <node concept="37vLTw" id="3MLv1IsaxWC" role="37vLTx">
-              <ref role="3cqZAo" node="3MLv1IsaACF" resolve="columnGroup" />
+            <node concept="X8dFx" id="7kUqYZD4wzA" role="2OqNvi">
+              <node concept="37vLTw" id="7kUqYZDmSHn" role="25WWJ7">
+                <ref role="3cqZAo" node="7kUqYZDmRrx" resolve="currentColGroupReference" />
+              </node>
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="3MLv1IsaM1u" role="3cqZAp" />
-        <node concept="3SKdUt" id="3MLv1IsboQg" role="3cqZAp">
-          <node concept="3SKdUq" id="3MLv1Isbp26" role="3SKWNk">
-            <property role="3SKdUp" value="if Colnames = NoGroup takes colomn which have no name" />
-          </node>
-        </node>
-        <node concept="3clFbJ" id="3MLv1IsaCsL" role="3cqZAp">
-          <node concept="3clFbS" id="3MLv1IsaCsN" role="3clFbx">
-            <node concept="3clFbH" id="3MLv1IsaxWF" role="3cqZAp" />
-            <node concept="2Gpval" id="3MLv1IsaxWG" role="3cqZAp">
-              <node concept="2GrKxI" id="3MLv1IsaxWH" role="2Gsz3X">
-                <property role="TrG5h" value="col" />
-              </node>
-              <node concept="3clFbS" id="3MLv1IsaxWI" role="2LFqv$">
-                <node concept="3cpWs8" id="3MLv1IsaxWJ" role="3cqZAp">
-                  <node concept="3cpWsn" id="3MLv1IsaxWK" role="3cpWs9">
-                    <property role="TrG5h" value="colref" />
-                    <node concept="3Tqbb2" id="3MLv1IsaxWL" role="1tU5fm">
-                      <ref role="ehGHo" to="jrxw:2WRhvFtwVip" resolve="ColumnRef" />
-                    </node>
-                    <node concept="2ShNRf" id="3MLv1IsaxWM" role="33vP2m">
-                      <node concept="3zrR0B" id="3MLv1IsaxWN" role="2ShVmc">
-                        <node concept="3Tqbb2" id="3MLv1IsaxWO" role="3zrR0E">
-                          <ref role="ehGHo" to="jrxw:2WRhvFtwVip" resolve="ColumnRef" />
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                </node>
-                <node concept="3clFbF" id="3MLv1IsaxWP" role="3cqZAp">
-                  <node concept="37vLTI" id="3MLv1IsaxWQ" role="3clFbG">
-                    <node concept="2GrUjf" id="3MLv1IsaK7s" role="37vLTx">
-                      <ref role="2Gs0qQ" node="3MLv1IsaxWH" resolve="col" />
-                    </node>
-                    <node concept="2OqwBi" id="3MLv1IsaxWS" role="37vLTJ">
-                      <node concept="37vLTw" id="3MLv1IsaF9H" role="2Oq$k0">
-                        <ref role="3cqZAo" node="3MLv1IsaxWK" resolve="colref" />
-                      </node>
-                      <node concept="3TrEf2" id="3MLv1IsaxWU" role="2OqNvi">
-                        <ref role="3Tt5mk" to="jrxw:2WRhvFtwViq" />
-                      </node>
-                    </node>
-                  </node>
-                </node>
-                <node concept="3clFbF" id="3MLv1IsaxWV" role="3cqZAp">
-                  <node concept="2OqwBi" id="3MLv1IsaxWW" role="3clFbG">
-                    <node concept="2OqwBi" id="3MLv1IsaxWX" role="2Oq$k0">
-                      <node concept="37vLTw" id="3MLv1Isbo$R" role="2Oq$k0">
-                        <ref role="3cqZAo" node="3MLv1IsaxWu" resolve="thisTableColumnGroup" />
-                      </node>
-                      <node concept="3Tsc0h" id="3MLv1IsaxWZ" role="2OqNvi">
-                        <ref role="3TtcxE" to="jrxw:3MLv1IrLBWm" />
-                      </node>
-                    </node>
-                    <node concept="TSZUe" id="3MLv1IsaxX0" role="2OqNvi">
-                      <node concept="37vLTw" id="3MLv1IsaxX1" role="25WWJ7">
-                        <ref role="3cqZAo" node="3MLv1IsaxWK" resolve="colref" />
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-              <node concept="2OqwBi" id="3MLv1IsaxX2" role="2GsD0m">
-                <node concept="37vLTw" id="3MLv1IsaF$C" role="2Oq$k0">
-                  <ref role="3cqZAo" node="3MLv1IsayXr" resolve="columns" />
-                </node>
-                <node concept="3zZkjj" id="3MLv1IsaxX4" role="2OqNvi">
-                  <node concept="1bVj0M" id="3MLv1IsaxX5" role="23t8la">
-                    <node concept="3clFbS" id="3MLv1IsaxX6" role="1bW5cS">
-                      <node concept="3clFbF" id="3MLv1IsaxX7" role="3cqZAp">
-                        <node concept="2OqwBi" id="3MLv1IsaxX8" role="3clFbG">
-                          <node concept="2OqwBi" id="3MLv1IsaxX9" role="2Oq$k0">
-                            <node concept="2OqwBi" id="3MLv1IsaxXa" role="2Oq$k0">
-                              <node concept="2OqwBi" id="3MLv1IsaxXb" role="2Oq$k0">
-                                <node concept="37vLTw" id="3MLv1IsaxXc" role="2Oq$k0">
-                                  <ref role="3cqZAo" node="3MLv1IsaxXi" resolve="it" />
-                                </node>
-                                <node concept="3CFZ6_" id="3MLv1IsaxXd" role="2OqNvi">
-                                  <node concept="3CFYIy" id="3MLv1IsaxXe" role="3CFYIz">
-                                    <ref role="3CFYIx" to="jrxw:2WRhvFtICIG" resolve="ColumnAnnotation" />
-                                  </node>
-                                </node>
-                              </node>
-                              <node concept="3Tsc0h" id="3MLv1IsaxXf" role="2OqNvi">
-                                <ref role="3TtcxE" to="jrxw:2WRhvFtID48" />
-                              </node>
-                            </node>
-                            <node concept="13MTOL" id="3MLv1IsaxXg" role="2OqNvi">
-                              <ref role="13MTZf" to="jrxw:2WRhvFtICK8" />
-                            </node>
-                          </node>
-                          <node concept="1v1jN8" id="3MLv1IsaxXh" role="2OqNvi" />
-                        </node>
-                      </node>
-                    </node>
-                    <node concept="Rh6nW" id="3MLv1IsaxXi" role="1bW2Oz">
-                      <property role="TrG5h" value="it" />
-                      <node concept="2jxLKc" id="3MLv1IsaxXj" role="1tU5fm" />
-                    </node>
-                  </node>
-                </node>
-              </node>
+        <node concept="3cpWs8" id="7kUqYZDmXE8" role="3cqZAp">
+          <node concept="3cpWsn" id="7kUqYZDmXE9" role="3cpWs9">
+            <property role="TrG5h" value="colref" />
+            <node concept="3Tqbb2" id="7kUqYZDmXEa" role="1tU5fm">
+              <ref role="ehGHo" to="jrxw:2WRhvFtwVip" resolve="ColumnRef" />
             </node>
-            <node concept="3clFbH" id="3MLv1IsaLX_" role="3cqZAp" />
-            <node concept="3cpWs6" id="3MLv1IsayAM" role="3cqZAp">
-              <node concept="37vLTw" id="3MLv1Isbub3" role="3cqZAk">
-                <ref role="3cqZAo" node="3MLv1IsaxWu" resolve="thisTableColumnGroup" />
-              </node>
-            </node>
-            <node concept="3clFbH" id="3MLv1IsaLKI" role="3cqZAp" />
-          </node>
-          <node concept="2OqwBi" id="3MLv1IsaD53" role="3clFbw">
-            <node concept="2OqwBi" id="3MLv1IsaCyL" role="2Oq$k0">
-              <node concept="37vLTw" id="3MLv1IsaCwV" role="2Oq$k0">
-                <ref role="3cqZAo" node="3MLv1IsaACF" resolve="columnGroup" />
-              </node>
-              <node concept="3TrcHB" id="3MLv1IsaCO5" role="2OqNvi">
-                <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
-              </node>
-            </node>
-            <node concept="3y1jeu" id="3MLv1IsaEpk" role="2OqNvi">
-              <node concept="Xl_RD" id="3MLv1IsaEpE" role="3y1jev">
-                <property role="Xl_RC" value="NoGroup" />
-              </node>
-            </node>
-          </node>
-          <node concept="9aQIb" id="3MLv1IsaFhS" role="9aQIa">
-            <node concept="3clFbS" id="3MLv1IsaFhT" role="9aQI4">
-              <node concept="3SKdUt" id="3MLv1IsbruU" role="3cqZAp">
-                <node concept="3SKdUq" id="3MLv1IsbrvS" role="3SKWNk">
-                  <property role="3SKdUp" value="return column associate to a given group" />
-                </node>
-              </node>
-              <node concept="2Gpval" id="3MLv1IsaKnY" role="3cqZAp">
-                <node concept="2GrKxI" id="3MLv1IsaKnZ" role="2Gsz3X">
-                  <property role="TrG5h" value="col" />
-                </node>
-                <node concept="3clFbS" id="3MLv1IsaKo0" role="2LFqv$">
-                  <node concept="3clFbH" id="3MLv1IsbnDe" role="3cqZAp" />
-                  <node concept="3cpWs8" id="3MLv1IsaKo1" role="3cqZAp">
-                    <node concept="3cpWsn" id="3MLv1IsaKo2" role="3cpWs9">
-                      <property role="TrG5h" value="colref" />
-                      <node concept="3Tqbb2" id="3MLv1IsaKo3" role="1tU5fm">
-                        <ref role="ehGHo" to="jrxw:2WRhvFtwVip" resolve="ColumnRef" />
-                      </node>
-                      <node concept="2ShNRf" id="3MLv1IsaKo4" role="33vP2m">
-                        <node concept="3zrR0B" id="3MLv1IsaKo5" role="2ShVmc">
-                          <node concept="3Tqbb2" id="3MLv1IsaKo6" role="3zrR0E">
-                            <ref role="ehGHo" to="jrxw:2WRhvFtwVip" resolve="ColumnRef" />
-                          </node>
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                  <node concept="3clFbF" id="3MLv1IsaKo7" role="3cqZAp">
-                    <node concept="37vLTI" id="3MLv1IsaKo8" role="3clFbG">
-                      <node concept="2GrUjf" id="3MLv1IsaKo9" role="37vLTx">
-                        <ref role="2Gs0qQ" node="3MLv1IsaKnZ" resolve="col" />
-                      </node>
-                      <node concept="2OqwBi" id="3MLv1IsaKoa" role="37vLTJ">
-                        <node concept="37vLTw" id="3MLv1IsaKob" role="2Oq$k0">
-                          <ref role="3cqZAo" node="3MLv1IsaKo2" resolve="colref" />
-                        </node>
-                        <node concept="3TrEf2" id="3MLv1IsaKoc" role="2OqNvi">
-                          <ref role="3Tt5mk" to="jrxw:2WRhvFtwViq" />
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                  <node concept="3clFbF" id="3MLv1IsaKod" role="3cqZAp">
-                    <node concept="2OqwBi" id="3MLv1IsaKoe" role="3clFbG">
-                      <node concept="2OqwBi" id="3MLv1IsaKof" role="2Oq$k0">
-                        <node concept="37vLTw" id="3MLv1IsaKog" role="2Oq$k0">
-                          <ref role="3cqZAo" node="3MLv1IsaxWu" resolve="thisTableColumnGroup" />
-                        </node>
-                        <node concept="3Tsc0h" id="3MLv1IsaKoh" role="2OqNvi">
-                          <ref role="3TtcxE" to="jrxw:3MLv1IrLBWm" />
-                        </node>
-                      </node>
-                      <node concept="TSZUe" id="3MLv1IsaKoi" role="2OqNvi">
-                        <node concept="37vLTw" id="3MLv1IsaKoj" role="25WWJ7">
-                          <ref role="3cqZAo" node="3MLv1IsaKo2" resolve="colref" />
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                </node>
-                <node concept="2OqwBi" id="3MLv1Isb7oa" role="2GsD0m">
-                  <node concept="37vLTw" id="3MLv1IsaKol" role="2Oq$k0">
-                    <ref role="3cqZAo" node="3MLv1IsayXr" resolve="columns" />
-                  </node>
-                  <node concept="3zZkjj" id="3MLv1IsblrU" role="2OqNvi">
-                    <node concept="1bVj0M" id="3MLv1IsblrW" role="23t8la">
-                      <node concept="3clFbS" id="3MLv1IsblrX" role="1bW5cS">
-                        <node concept="3clFbF" id="3MLv1IsblrY" role="3cqZAp">
-                          <node concept="2OqwBi" id="3MLv1IsblrZ" role="3clFbG">
-                            <node concept="2OqwBi" id="3MLv1Isbls0" role="2Oq$k0">
-                              <node concept="2OqwBi" id="3MLv1Isbls1" role="2Oq$k0">
-                                <node concept="37vLTw" id="3MLv1Isbls2" role="2Oq$k0">
-                                  <ref role="3cqZAo" node="3MLv1Isblsm" resolve="it" />
-                                </node>
-                                <node concept="3CFZ6_" id="3MLv1Isbls3" role="2OqNvi">
-                                  <node concept="3CFYIy" id="3MLv1Isbls4" role="3CFYIz">
-                                    <ref role="3CFYIx" to="jrxw:2WRhvFtICIG" resolve="ColumnAnnotation" />
-                                  </node>
-                                </node>
-                              </node>
-                              <node concept="3Tsc0h" id="3MLv1Isbls5" role="2OqNvi">
-                                <ref role="3TtcxE" to="jrxw:2WRhvFtID48" />
-                              </node>
-                            </node>
-                            <node concept="2HwmR7" id="3MLv1Isbnnq" role="2OqNvi">
-                              <node concept="1bVj0M" id="3MLv1Isbnns" role="23t8la">
-                                <node concept="3clFbS" id="3MLv1Isbnnt" role="1bW5cS">
-                                  <node concept="3clFbF" id="3MLv1Isbnnu" role="3cqZAp">
-                                    <node concept="2OqwBi" id="3MLv1Isbnnv" role="3clFbG">
-                                      <node concept="2OqwBi" id="3MLv1Isbnnw" role="2Oq$k0">
-                                        <node concept="2OqwBi" id="3MLv1Isbnnx" role="2Oq$k0">
-                                          <node concept="37vLTw" id="3MLv1Isbnny" role="2Oq$k0">
-                                            <ref role="3cqZAo" node="3MLv1IsbnnD" resolve="it" />
-                                          </node>
-                                          <node concept="3TrEf2" id="3MLv1Isbnnz" role="2OqNvi">
-                                            <ref role="3Tt5mk" to="jrxw:2WRhvFtICK8" />
-                                          </node>
-                                        </node>
-                                        <node concept="3TrcHB" id="3MLv1Isbnn$" role="2OqNvi">
-                                          <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
-                                        </node>
-                                      </node>
-                                      <node concept="3y1jeu" id="3MLv1Isbnn_" role="2OqNvi">
-                                        <node concept="2OqwBi" id="3MLv1IsbnnA" role="3y1jev">
-                                          <node concept="37vLTw" id="3MLv1IsbnnB" role="2Oq$k0">
-                                            <ref role="3cqZAo" node="3MLv1IsaACF" resolve="columnGroup" />
-                                          </node>
-                                          <node concept="3TrcHB" id="3MLv1IsbnnC" role="2OqNvi">
-                                            <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
-                                          </node>
-                                        </node>
-                                      </node>
-                                    </node>
-                                  </node>
-                                </node>
-                                <node concept="Rh6nW" id="3MLv1IsbnnD" role="1bW2Oz">
-                                  <property role="TrG5h" value="it" />
-                                  <node concept="2jxLKc" id="3MLv1IsbnnE" role="1tU5fm" />
-                                </node>
-                              </node>
-                            </node>
-                          </node>
-                        </node>
-                      </node>
-                      <node concept="Rh6nW" id="3MLv1Isblsm" role="1bW2Oz">
-                        <property role="TrG5h" value="it" />
-                        <node concept="2jxLKc" id="3MLv1Isblsn" role="1tU5fm" />
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-              <node concept="34ab3g" id="3MLv1Isbr_0" role="3cqZAp">
-                <property role="35gtTG" value="info" />
-                <node concept="Xl_RD" id="3MLv1Isbr_1" role="34bqiv">
-                  <property role="Xl_RC" value="return tableColumn" />
-                </node>
-              </node>
-              <node concept="3clFbH" id="3MLv1IsaKc8" role="3cqZAp" />
-              <node concept="3cpWs6" id="3MLv1IsbuQg" role="3cqZAp">
-                <node concept="37vLTw" id="3MLv1IsbuQh" role="3cqZAk">
-                  <ref role="3cqZAo" node="3MLv1IsaxWu" resolve="thisTableColumnGroup" />
+            <node concept="2ShNRf" id="7kUqYZDmXEb" role="33vP2m">
+              <node concept="3zrR0B" id="7kUqYZDmXEc" role="2ShVmc">
+                <node concept="3Tqbb2" id="7kUqYZDmXEd" role="3zrR0E">
+                  <ref role="ehGHo" to="jrxw:2WRhvFtwVip" resolve="ColumnRef" />
                 </node>
               </node>
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="3MLv1IsaxW3" role="3cqZAp" />
+        <node concept="3clFbF" id="7kUqYZDmXEe" role="3cqZAp">
+          <node concept="2OqwBi" id="7kUqYZDnerq" role="3clFbG">
+            <node concept="2OqwBi" id="7kUqYZDmXEh" role="2Oq$k0">
+              <node concept="37vLTw" id="7kUqYZDmXEi" role="2Oq$k0">
+                <ref role="3cqZAo" node="7kUqYZDmXE9" resolve="colref" />
+              </node>
+              <node concept="3TrEf2" id="7kUqYZDmXEj" role="2OqNvi">
+                <ref role="3Tt5mk" to="jrxw:2WRhvFtwViq" />
+              </node>
+            </node>
+            <node concept="2oxUTD" id="7kUqYZDnfOs" role="2OqNvi">
+              <node concept="37vLTw" id="7kUqYZDnhd$" role="2oxUTC">
+                <ref role="3cqZAo" node="7kUqYZDmMGn" resolve="column" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="7kUqYZDmX$d" role="3cqZAp" />
+        <node concept="3clFbF" id="7kUqYZDmUre" role="3cqZAp">
+          <node concept="2OqwBi" id="7kUqYZDmVa_" role="3clFbG">
+            <node concept="2OqwBi" id="7kUqYZDmUtB" role="2Oq$k0">
+              <node concept="37vLTw" id="7kUqYZDmUrc" role="2Oq$k0">
+                <ref role="3cqZAo" node="7kUqYZCQS2L" resolve="thisTableColumnGroup" />
+              </node>
+              <node concept="3Tsc0h" id="7kUqYZDmU$E" role="2OqNvi">
+                <ref role="3TtcxE" to="jrxw:3MLv1IrLBWm" />
+              </node>
+            </node>
+            <node concept="TSZUe" id="7kUqYZDmXsG" role="2OqNvi">
+              <node concept="37vLTw" id="7kUqYZDmYLF" role="25WWJ7">
+                <ref role="3cqZAo" node="7kUqYZDmXE9" resolve="colref" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs6" id="7kUqYZDmTJH" role="3cqZAp">
+          <node concept="37vLTw" id="7kUqYZDmTUz" role="3cqZAk">
+            <ref role="3cqZAo" node="7kUqYZCQS2L" resolve="thisTableColumnGroup" />
+          </node>
+        </node>
+        <node concept="3clFbH" id="7kUqYZDmOxc" role="3cqZAp" />
       </node>
-      <node concept="37vLTG" id="3MLv1IsayXr" role="3clF46">
-        <property role="TrG5h" value="columns" />
-        <node concept="2I9FWS" id="3MLv1Isa$5C" role="1tU5fm">
-          <ref role="2I9WkF" to="ztlb:1UijAvvb9DJ" resolve="Column" />
-        </node>
-      </node>
-      <node concept="37vLTG" id="3MLv1IsaACF" role="3clF46">
-        <property role="TrG5h" value="columnGroup" />
-        <node concept="3Tqbb2" id="3MLv1IsaANo" role="1tU5fm">
-          <ref role="ehGHo" to="jrxw:2WRhvFtICJV" resolve="ColumnGroup" />
-        </node>
-      </node>
-      <node concept="3Tqbb2" id="3MLv1Isbtv7" role="3clF45">
+      <node concept="3Tqbb2" id="7kUqYZDmMGj" role="3clF45">
         <ref role="ehGHo" to="jrxw:3MLv1IkOE3z" resolve="TableGroup" />
+      </node>
+      <node concept="37vLTG" id="7kUqYZDmMGn" role="3clF46">
+        <property role="TrG5h" value="column" />
+        <node concept="3Tqbb2" id="7kUqYZDmMGm" role="1tU5fm">
+          <ref role="ehGHo" to="ztlb:1UijAvvb9DJ" resolve="Column" />
+        </node>
       </node>
     </node>
     <node concept="13i0hz" id="3MLv1It$Xkk" role="13h7CS">
@@ -17316,6 +17951,69 @@
         </node>
         <node concept="3clFbH" id="pr6WGxoCjQ" role="3cqZAp" />
       </node>
+    </node>
+  </node>
+  <node concept="13h7C7" id="7kUqYZCPBOf">
+    <property role="3GE5qa" value="reorderTable" />
+    <ref role="13h7C2" to="jrxw:3MLv1IkOE3z" resolve="TableGroup" />
+    <node concept="13i0hz" id="7kUqYZCPBOi" role="13h7CS">
+      <property role="TrG5h" value="CheckGroupName" />
+      <node concept="3Tm1VV" id="7kUqYZCPBOj" role="1B3o_S" />
+      <node concept="3clFbS" id="7kUqYZCPBOk" role="3clF47">
+        <node concept="3clFbH" id="7kUqYZCPM_W" role="3cqZAp" />
+        <node concept="3clFbF" id="7kUqYZCPMKi" role="3cqZAp">
+          <node concept="2OqwBi" id="7kUqYZCPN1V" role="3clFbG">
+            <node concept="37vLTw" id="7kUqYZCPMKg" role="2Oq$k0">
+              <ref role="3cqZAo" node="7kUqYZCPBOv" resolve="groupName" />
+            </node>
+            <node concept="BjQpj" id="7kUqYZCPNGb" role="2OqNvi">
+              <node concept="2OqwBi" id="7kUqYZCPSfn" role="25WWJ7">
+                <node concept="2OqwBi" id="7kUqYZCPOCV" role="2Oq$k0">
+                  <node concept="2OqwBi" id="7kUqYZCPNLP" role="2Oq$k0">
+                    <node concept="13iPFW" id="7kUqYZCPNJ_" role="2Oq$k0" />
+                    <node concept="3Tsc0h" id="7kUqYZCPO3J" role="2OqNvi">
+                      <ref role="3TtcxE" to="jrxw:7kUqYZCOCMl" />
+                    </node>
+                  </node>
+                  <node concept="13MTOL" id="7kUqYZCPQWd" role="2OqNvi">
+                    <ref role="13MTZf" to="jrxw:2WRhvFtICK8" />
+                  </node>
+                </node>
+                <node concept="3$u5V9" id="7kUqYZCPSTg" role="2OqNvi">
+                  <node concept="1bVj0M" id="7kUqYZCPSTi" role="23t8la">
+                    <node concept="3clFbS" id="7kUqYZCPSTj" role="1bW5cS">
+                      <node concept="3clFbF" id="7kUqYZCPSZ3" role="3cqZAp">
+                        <node concept="2OqwBi" id="7kUqYZCPT3B" role="3clFbG">
+                          <node concept="37vLTw" id="7kUqYZCPSZ2" role="2Oq$k0">
+                            <ref role="3cqZAo" node="7kUqYZCPSTk" resolve="it" />
+                          </node>
+                          <node concept="3TrcHB" id="7kUqYZCPTs7" role="2OqNvi">
+                            <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="Rh6nW" id="7kUqYZCPSTk" role="1bW2Oz">
+                      <property role="TrG5h" value="it" />
+                      <node concept="2jxLKc" id="7kUqYZCPSTl" role="1tU5fm" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="10P_77" id="7kUqYZCPBOq" role="3clF45" />
+      <node concept="37vLTG" id="7kUqYZCPBOv" role="3clF46">
+        <property role="TrG5h" value="groupName" />
+        <node concept="2hMVRd" id="7kUqYZCPBOt" role="1tU5fm">
+          <node concept="17QB3L" id="7kUqYZCPBOD" role="2hN53Y" />
+        </node>
+      </node>
+    </node>
+    <node concept="13hLZK" id="7kUqYZCPBOg" role="13h7CW">
+      <node concept="3clFbS" id="7kUqYZCPBOh" role="2VODD2" />
     </node>
   </node>
 </model>
