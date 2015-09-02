@@ -67,6 +67,7 @@
   </node>
   <node concept="1TIwiD" id="1e1bwEALdL4">
     <property role="TrG5h" value="ExposedTable" />
+    <property role="R4oN_" value="a generated Table" />
     <ref role="1TJDcQ" to="6q58:5mPDeVwiPaR" resolve="Identifier" />
     <node concept="1TJgyj" id="1e1bwEBY62I" role="1TKVEi">
       <property role="20lmBu" value="reference" />
@@ -77,8 +78,8 @@
   </node>
   <node concept="1TIwiD" id="4eN5Nwy$$Zi">
     <property role="TrG5h" value="ExposedColumn" />
-    <property role="34LRSv" value="$" />
     <property role="R4oN_" value="refer to a column" />
+    <property role="34LRSv" value="$" />
     <ref role="1TJDcQ" to="6q58:5mPDeVwiPaR" resolve="Identifier" />
     <node concept="1TJgyj" id="4eN5Nwy$_eu" role="1TKVEi">
       <property role="20lmBu" value="reference" />

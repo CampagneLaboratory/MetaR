@@ -11,7 +11,6 @@
     <import index="8gqa" ref="r:c14853f5-5f2e-4acc-825a-4fec67caca67(org.campagnelab.metar.tables.editor)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="rlu9" ref="r:2815b05a-19fb-48b1-b650-5a86998b563c(org.campagnelab.metar.biomartToR.structure)" implicit="true" />
-    <import index="jrxw" ref="r:9f2bbfbf-f8b7-4b3b-92b1-b6a0e9642c10(org.campagnelab.metar.tables.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">
@@ -155,21 +154,16 @@
     <ref role="1XX52x" to="rlu9:4eN5Nwy$$Zi" resolve="ExposedColumn" />
     <node concept="3EZMnI" id="4eN5Nwy$_fm" role="2wV5jI">
       <node concept="3EZMnI" id="7vFZP$942cU" role="3EZMnx">
-        <node concept="1iCGBv" id="7vFZP$95ChE" role="3EZMnx">
+        <node concept="2iRkQZ" id="7vFZP$942cX" role="2iSdaV" />
+        <node concept="1iCGBv" id="6NqfZIY69yQ" role="3EZMnx">
           <ref role="1NtTu8" to="rlu9:7vFZP$95Chx" />
-          <node concept="1sVBvm" id="7vFZP$95ChG" role="1sWHZn">
-            <node concept="1iCGBv" id="7vFZP$95ChQ" role="2wV5jI">
-              <ref role="1NtTu8" to="jrxw:2WRhvFto5FZ" />
-              <node concept="1sVBvm" id="7vFZP$95ChS" role="1sWHZn">
-                <node concept="3F0A7n" id="7vFZP$95ChZ" role="2wV5jI">
-                  <property role="1Intyy" value="true" />
-                  <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
-                </node>
-              </node>
+          <node concept="1sVBvm" id="6NqfZIY69yR" role="1sWHZn">
+            <node concept="3F0A7n" id="6NqfZIY69yW" role="2wV5jI">
+              <property role="1Intyy" value="true" />
+              <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
             </node>
           </node>
         </node>
-        <node concept="2iRkQZ" id="7vFZP$942cX" role="2iSdaV" />
       </node>
       <node concept="3F0ifn" id="7vFZP$93NlS" role="3EZMnx">
         <property role="3F0ifm" value="or" />
