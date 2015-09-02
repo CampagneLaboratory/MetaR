@@ -79,7 +79,7 @@
     <property role="TrG5h" value="ExposedColumn" />
     <property role="34LRSv" value="$" />
     <property role="R4oN_" value="refer to a column" />
-    <ref role="1TJDcQ" to="6q58:5mPDeVwiPap" resolve="Expr" />
+    <ref role="1TJDcQ" to="6q58:5mPDeVwiPaR" resolve="Identifier" />
     <node concept="1TJgyj" id="4eN5Nwy$_eu" role="1TKVEi">
       <property role="20lmBu" value="reference" />
       <property role="20lbJX" value="1" />
