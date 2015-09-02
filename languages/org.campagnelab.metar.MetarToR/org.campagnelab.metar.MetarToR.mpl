@@ -95,6 +95,7 @@
     <usedLanguage>d8f591ec-4d86-4af2-9f92-a9e93c803ffa(jetbrains.mps.lang.scopes)</usedLanguage>
     <usedLanguage>96ee7a94-411d-4cf8-9b94-96cad7e52411(jetbrains.mps.baseLanguage.jdk7)</usedLanguage>
     <usedLanguage>fdcdc48f-bfd8-4831-aa76-5abac2ffa010(jetbrains.mps.baseLanguage.jdk8)</usedLanguage>
+    <usedLanguage>837afec3-cff0-45b1-a221-6b811148f87e(org.campagnelab.metar.R.gen)</usedLanguage>
   </usedLanguages>
   <usedDevKits>
     <usedDevKit>2677cb18-f558-4e33-bc38-a5139cee06dc(jetbrains.mps.devkit.language-design)</usedDevKit>

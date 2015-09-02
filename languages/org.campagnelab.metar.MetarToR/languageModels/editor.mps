@@ -11,11 +11,13 @@
     <import index="8gqa" ref="r:c14853f5-5f2e-4acc-825a-4fec67caca67(org.campagnelab.metar.tables.editor)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="rlu9" ref="r:2815b05a-19fb-48b1-b650-5a86998b563c(org.campagnelab.metar.biomartToR.structure)" implicit="true" />
+    <import index="jrxw" ref="r:9f2bbfbf-f8b7-4b3b-92b1-b6a0e9642c10(org.campagnelab.metar.tables.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">
       <concept id="1071666914219" name="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration" flags="ig" index="24kQdi" />
       <concept id="1106270549637" name="jetbrains.mps.lang.editor.structure.CellLayout_Horizontal" flags="nn" index="2iRfu4" />
+      <concept id="1106270571710" name="jetbrains.mps.lang.editor.structure.CellLayout_Vertical" flags="nn" index="2iRkQZ" />
       <concept id="1142886811589" name="jetbrains.mps.lang.editor.structure.ConceptFunctionParameter_node" flags="nn" index="pncrf" />
       <concept id="1080736578640" name="jetbrains.mps.lang.editor.structure.BaseEditorComponent" flags="ig" index="2wURMF">
         <child id="1080736633877" name="cellModel" index="2wV5jI" />
@@ -147,6 +149,44 @@
       <node concept="3yfXC2" id="4MN$qOAZ5yz" role="3F10Kt">
         <ref role="3ygfmf" to="rlu9:1e1bwEBY62I" />
       </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="4eN5Nwy$_eR">
+    <ref role="1XX52x" to="rlu9:4eN5Nwy$$Zi" resolve="ExposedColumn" />
+    <node concept="3EZMnI" id="4eN5Nwy$_fm" role="2wV5jI">
+      <node concept="3EZMnI" id="7vFZP$942cU" role="3EZMnx">
+        <node concept="1iCGBv" id="7vFZP$95ChE" role="3EZMnx">
+          <ref role="1NtTu8" to="rlu9:7vFZP$95Chx" />
+          <node concept="1sVBvm" id="7vFZP$95ChG" role="1sWHZn">
+            <node concept="1iCGBv" id="7vFZP$95ChQ" role="2wV5jI">
+              <ref role="1NtTu8" to="jrxw:2WRhvFto5FZ" />
+              <node concept="1sVBvm" id="7vFZP$95ChS" role="1sWHZn">
+                <node concept="3F0A7n" id="7vFZP$95ChZ" role="2wV5jI">
+                  <property role="1Intyy" value="true" />
+                  <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="2iRkQZ" id="7vFZP$942cX" role="2iSdaV" />
+      </node>
+      <node concept="3F0ifn" id="7vFZP$93NlS" role="3EZMnx">
+        <property role="3F0ifm" value="or" />
+      </node>
+      <node concept="3F0ifn" id="7vFZP$91SSy" role="3EZMnx">
+        <property role="3F0ifm" value="$" />
+      </node>
+      <node concept="1iCGBv" id="4eN5Nwy$_ft" role="3EZMnx">
+        <ref role="1NtTu8" to="rlu9:4eN5Nwy$_eu" />
+        <node concept="1sVBvm" id="4eN5Nwy$_fv" role="1sWHZn">
+          <node concept="3F0A7n" id="4eN5Nwy$_fI" role="2wV5jI">
+            <property role="1Intyy" value="true" />
+            <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+          </node>
+        </node>
+      </node>
+      <node concept="2iRfu4" id="4eN5Nwy$_fp" role="2iSdaV" />
     </node>
   </node>
 </model>
