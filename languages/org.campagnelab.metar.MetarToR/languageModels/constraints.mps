@@ -12,6 +12,7 @@
     <import index="rlu9" ref="r:2815b05a-19fb-48b1-b650-5a86998b563c(org.campagnelab.metar.biomartToR.structure)" implicit="true" />
     <import index="6q58" ref="r:97268463-8a58-42b7-9dc6-fa004b7a4308(org.campagnelab.metar.R.structure)" implicit="true" />
     <import index="c07g" ref="r:1ddbf3ba-cbe7-4cb8-b2fc-7a1e80a63d10(org.campagnelab.metar.biomart.structure)" implicit="true" />
+    <import index="ztlb" ref="r:989540b8-cc89-4ed5-ba78-cf2ce766b8ce(org.campagnelab.mps.XChart.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -138,6 +139,9 @@
       </concept>
       <concept id="1138056143562" name="jetbrains.mps.lang.smodel.structure.SLinkAccess" flags="nn" index="3TrEf2">
         <reference id="1138056516764" name="link" index="3Tt5mk" />
+      </concept>
+      <concept id="1138056282393" name="jetbrains.mps.lang.smodel.structure.SLinkListAccess" flags="nn" index="3Tsc0h">
+        <reference id="1138056546658" name="link" index="3TtcxE" />
       </concept>
       <concept id="1172424058054" name="jetbrains.mps.lang.smodel.structure.ConceptRefExpression" flags="nn" index="3TUQnm">
         <reference id="1172424100906" name="conceptDeclaration" index="3TV0OU" />
@@ -321,8 +325,8 @@
                   <node concept="21POm0" id="1e1bwEBYRvI" role="2Oq$k0" />
                   <node concept="2Xjw5R" id="1e1bwEBYRBK" role="2OqNvi">
                     <node concept="1xMEDy" id="1e1bwEBYRBM" role="1xVPHs">
-                      <node concept="chp4Y" id="1e1bwEBYRCF" role="ri$Ld">
-                        <ref role="cht4Q" to="6q58:5mPDeVwiJFd" resolve="Prog" />
+                      <node concept="chp4Y" id="7vFZP$95Uaj" role="ri$Ld">
+                        <ref role="cht4Q" to="6q58:5mPDeVwiJFe" resolve="ProgramProg" />
                       </node>
                     </node>
                     <node concept="1xIGOp" id="1e1bwEBYRFi" role="1xVPHs" />
@@ -357,6 +361,80 @@
                 </node>
               </node>
             </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1M2fIO" id="4eN5Nwy$_fL">
+    <ref role="1M2myG" to="rlu9:4eN5Nwy$$Zi" resolve="ExposedColumn" />
+    <node concept="1N5Pfh" id="7vFZP$965NA" role="1Mr941">
+      <ref role="1N5Vy1" to="rlu9:4eN5Nwy$_eu" />
+      <node concept="13QW63" id="7vFZP$965NE" role="1N6uqs">
+        <node concept="3clFbS" id="7vFZP$965NG" role="2VODD2">
+          <node concept="3cpWs6" id="7vFZP$966ka" role="3cqZAp">
+            <node concept="2YIFZM" id="7vFZP$966kb" role="3cqZAk">
+              <ref role="1Pybhc" to="vyt2:~ListScope" resolve="ListScope" />
+              <ref role="37wK5l" to="vyt2:~ListScope.forNamedElements(java.lang.Iterable):jetbrains.mps.scope.ListScope" resolve="forNamedElements" />
+              <node concept="2OqwBi" id="7vFZP$967Rz" role="37wK5m">
+                <node concept="2OqwBi" id="7vFZP$967pp" role="2Oq$k0">
+                  <node concept="2OqwBi" id="7vFZP$966Zl" role="2Oq$k0">
+                    <node concept="3kakTB" id="7vFZP$966Vz" role="2Oq$k0" />
+                    <node concept="3TrEf2" id="7vFZP$967b8" role="2OqNvi">
+                      <ref role="3Tt5mk" to="rlu9:7vFZP$95Chx" />
+                    </node>
+                  </node>
+                  <node concept="3TrEf2" id="7vFZP$967_O" role="2OqNvi">
+                    <ref role="3Tt5mk" to="jrxw:2WRhvFto5FZ" />
+                  </node>
+                </node>
+                <node concept="3Tsc0h" id="7vFZP$968u8" role="2OqNvi">
+                  <ref role="3TtcxE" to="ztlb:1UijAvvb9DO" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbH" id="7vFZP$966iD" role="3cqZAp" />
+        </node>
+      </node>
+    </node>
+    <node concept="1N5Pfh" id="7vFZP$96EDx" role="1Mr941">
+      <ref role="1N5Vy1" to="rlu9:7vFZP$95Chx" />
+      <node concept="13QW63" id="7vFZP$96Fkv" role="1N6uqs">
+        <node concept="3clFbS" id="7vFZP$96Fkx" role="2VODD2">
+          <node concept="3cpWs6" id="7vFZP$96Flr" role="3cqZAp">
+            <node concept="2YIFZM" id="7vFZP$96Fls" role="3cqZAk">
+              <ref role="1Pybhc" to="vyt2:~ListScope" resolve="ListScope" />
+              <ref role="37wK5l" to="vyt2:~ListScope.forNamedElements(java.lang.Iterable):jetbrains.mps.scope.ListScope" resolve="forNamedElements" />
+              <node concept="2OqwBi" id="7vFZP$96Flt" role="37wK5m">
+                <node concept="2OqwBi" id="7vFZP$96Flu" role="2Oq$k0">
+                  <node concept="3kakTB" id="7vFZP$96Flv" role="2Oq$k0" />
+                  <node concept="2Xjw5R" id="7vFZP$96Flw" role="2OqNvi">
+                    <node concept="1xMEDy" id="7vFZP$96Flx" role="1xVPHs">
+                      <node concept="chp4Y" id="7vFZP$96Fly" role="ri$Ld">
+                        <ref role="cht4Q" to="6q58:5mPDeVwiJFe" resolve="ProgramProg" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="2Rf3mk" id="7vFZP$96Flz" role="2OqNvi">
+                  <node concept="1xMEDy" id="7vFZP$96Fl$" role="1xVPHs">
+                    <node concept="chp4Y" id="7vFZP$96Fu6" role="ri$Ld">
+                      <ref role="cht4Q" to="jrxw:2WRhvFto5F5" resolve="FutureTable" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="nKS2y" id="4eN5Nwy$_hk" role="1MLUbF">
+      <node concept="3clFbS" id="4eN5Nwy$_hl" role="2VODD2">
+        <node concept="3clFbF" id="4eN5Nwy$Sl$" role="3cqZAp">
+          <node concept="3clFbT" id="4eN5Nwy$Slz" role="3clFbG">
+            <property role="3clFbU" value="true" />
           </node>
         </node>
       </node>

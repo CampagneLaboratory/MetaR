@@ -10,6 +10,7 @@
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="jrxw" ref="r:9f2bbfbf-f8b7-4b3b-92b1-b6a0e9642c10(org.campagnelab.metar.tables.structure)" implicit="true" />
     <import index="6q58" ref="r:97268463-8a58-42b7-9dc6-fa004b7a4308(org.campagnelab.metar.R.structure)" implicit="true" />
+    <import index="ztlb" ref="r:989540b8-cc89-4ed5-ba78-cf2ce766b8ce(org.campagnelab.mps.XChart.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
@@ -70,6 +71,24 @@
     <node concept="1TJgyj" id="1e1bwEBY62I" role="1TKVEi">
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="table" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" to="jrxw:2WRhvFto5F5" resolve="FutureTable" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="4eN5Nwy$$Zi">
+    <property role="TrG5h" value="ExposedColumn" />
+    <property role="34LRSv" value="$" />
+    <property role="R4oN_" value="refer to a column" />
+    <ref role="1TJDcQ" to="6q58:5mPDeVwiPap" resolve="Expr" />
+    <node concept="1TJgyj" id="4eN5Nwy$_eu" role="1TKVEi">
+      <property role="20lmBu" value="reference" />
+      <property role="20lbJX" value="1" />
+      <property role="20kJfa" value="column" />
+      <ref role="20lvS9" to="ztlb:1UijAvvb9DJ" resolve="Column" />
+    </node>
+    <node concept="1TJgyj" id="7vFZP$95Chx" role="1TKVEi">
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="futureTable" />
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" to="jrxw:2WRhvFto5F5" resolve="FutureTable" />
     </node>
