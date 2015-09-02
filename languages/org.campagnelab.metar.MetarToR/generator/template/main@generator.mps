@@ -125,6 +125,12 @@
         <ref role="v9R2y" node="6NqfZIYafKQ" resolve="reduce_ExposedColumn" />
       </node>
     </node>
+    <node concept="3aamgX" id="6NqfZIYaYEB" role="3acgRq">
+      <ref role="30HIoZ" to="rlu9:1e1bwEALdL4" resolve="ExposedTable" />
+      <node concept="j$656" id="6NqfZIYaYEC" role="1lVwrX">
+        <ref role="v9R2y" node="6NqfZIYaYE_" resolve="reduce_ExposedTable" />
+      </node>
+    </node>
   </node>
   <node concept="13MO4I" id="55b$yEtsF$i">
     <property role="TrG5h" value="reduce_BiomartinR" />
@@ -248,6 +254,40 @@
       </node>
       <node concept="3_3kQU" id="6NqfZIYanHp" role="3kgYXv" />
       <node concept="raruj" id="6NqfZIYanH$" role="lGtFl" />
+    </node>
+  </node>
+  <node concept="13MO4I" id="6NqfZIYaYE_">
+    <property role="TrG5h" value="reduce_ExposedTable" />
+    <ref role="3gUMe" to="rlu9:1e1bwEALdL4" resolve="ExposedTable" />
+    <node concept="3kgWzl" id="6NqfZIYaYZD" role="13RCb5">
+      <property role="3_3kQV" value="" />
+      <node concept="3_3kQU" id="6NqfZIYaYZE" role="3kgYXv" />
+      <node concept="3_3kQU" id="6NqfZIYaYZF" role="3kgYXv">
+        <property role="3_3kQV" value="Table$columnName" />
+        <node concept="17Uvod" id="6NqfZIYaYZG" role="lGtFl">
+          <property role="P4ACc" value="901f5cf3-dc77-4c1e-bc5a-6382baee28b4/1680136183140337486/1680136183140337487" />
+          <property role="2qtEX9" value="text" />
+          <node concept="3zFVjK" id="6NqfZIYaYZH" role="3zH0cK">
+            <node concept="3clFbS" id="6NqfZIYaYZI" role="2VODD2">
+              <node concept="3clFbF" id="6NqfZIYaYZJ" role="3cqZAp">
+                <node concept="2OqwBi" id="6NqfZIYaYZO" role="3clFbG">
+                  <node concept="2OqwBi" id="6NqfZIYaYZP" role="2Oq$k0">
+                    <node concept="3TrEf2" id="6NqfZIYb0tE" role="2OqNvi">
+                      <ref role="3Tt5mk" to="rlu9:1e1bwEBY62I" />
+                    </node>
+                    <node concept="30H73N" id="6NqfZIYaYZR" role="2Oq$k0" />
+                  </node>
+                  <node concept="2qgKlT" id="6NqfZIYaYZS" role="2OqNvi">
+                    <ref role="37wK5l" to="v8sa:3BiNpr5Ur7M" resolve="getCleanTableName" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3_3kQU" id="6NqfZIYaYZZ" role="3kgYXv" />
+      <node concept="raruj" id="6NqfZIYaZ00" role="lGtFl" />
     </node>
   </node>
 </model>
