@@ -12,8 +12,8 @@
   </languages>
   <imports>
     <import index="jrxw" ref="r:9f2bbfbf-f8b7-4b3b-92b1-b6a0e9642c10(org.campagnelab.metar.tables.structure)" />
+    <import index="rlu9" ref="r:2815b05a-19fb-48b1-b650-5a86998b563c(org.campagnelab.metar.biomartToR.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
-    <import index="rlu9" ref="r:2815b05a-19fb-48b1-b650-5a86998b563c(org.campagnelab.metar.biomartToR.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -61,7 +61,44 @@
       <concept id="1168024337012" name="jetbrains.mps.lang.generator.structure.SourceSubstituteMacro_SourceNodeQuery" flags="in" index="3NFfHV" />
     </language>
     <language id="3b58810c-8431-4bbb-99ea-b4671e02dd13" name="org.campagnelab.metar.R">
+      <concept id="489068675575040827" name="org.campagnelab.metar.R.structure.Not" flags="ng" index="20C$T_" />
+      <concept id="5770663561153558147" name="org.campagnelab.metar.R.structure.ParameterValue" flags="ng" index="gNblG">
+        <property id="5770663561153558418" name="id" index="gNbhX" />
+        <child id="5770663561153558420" name="value" index="gNbhV" />
+      </concept>
+      <concept id="5770663561153557551" name="org.campagnelab.metar.R.structure.ParameterValues" flags="ng" index="gNbv0">
+        <child id="5770663561153557817" name="values" index="gNbrm" />
+      </concept>
+      <concept id="1229604057012669901" name="org.campagnelab.metar.R.structure.BooleanLiteral" flags="ng" index="pzIeH">
+        <property id="1229604057012669902" name="value" index="pzIeI" />
+      </concept>
+      <concept id="6176023809880707778" name="org.campagnelab.metar.R.structure.FalseLiteralExpr" flags="ng" index="2PZJoG" />
+      <concept id="6176023809880707777" name="org.campagnelab.metar.R.structure.TrueLiteralExpr" flags="ng" index="2PZJoJ" />
+      <concept id="6176023809880707758" name="org.campagnelab.metar.R.structure.IfExpr" flags="ng" index="2PZJp0">
+        <child id="1229604057031924987" name="condition" index="oP3ar" />
+        <child id="1229604057031925044" name="body" index="oP3dk" />
+      </concept>
+      <concept id="6176023809880707756" name="org.campagnelab.metar.R.structure.FunctionCallExpr" flags="ng" index="2PZJp2">
+        <child id="3737166271524886452" name="id" index="134Gdo" />
+        <child id="3737166271524886450" name="parameters" index="134Gdu" />
+      </concept>
+      <concept id="6176023809880707757" name="org.campagnelab.metar.R.structure.BodyExpr" flags="ng" index="2PZJp3">
+        <child id="3737166271522071657" name="list" index="13uv25" />
+      </concept>
+      <concept id="6176023809880707749" name="org.campagnelab.metar.R.structure.NotExpr" flags="ng" index="2PZJpb" />
+      <concept id="6176023809880707768" name="org.campagnelab.metar.R.structure.StringLiteralExpr" flags="ng" index="2PZJpm">
+        <property id="1229604057012663630" name="value" index="pzxGI" />
+      </concept>
       <concept id="6176023809880707767" name="org.campagnelab.metar.R.structure.Identifier" flags="ng" index="2PZJpp" />
+      <concept id="6176023809880707743" name="org.campagnelab.metar.R.structure.UnaryOperatorExpr" flags="ng" index="2PZJpL">
+        <child id="489068675546663434" name="expression" index="22sOXk" />
+        <child id="489068675546663431" name="operator" index="22sOXp" />
+      </concept>
+      <concept id="4933197140516011539" name="org.campagnelab.metar.R.structure.PositionalParameterValue" flags="ng" index="V6WaU" />
+      <concept id="4933197140516011540" name="org.campagnelab.metar.R.structure.ParameterValueWithId" flags="ng" index="V6WaX" />
+      <concept id="3737166271522079190" name="org.campagnelab.metar.R.structure.Exprlist" flags="ng" index="13u1kU">
+        <child id="3737166271522079191" name="expressions" index="13u1kV" />
+      </concept>
     </language>
     <language id="901f5cf3-dc77-4c1e-bc5a-6382baee28b4" name="org.campagnelab.textoutput">
       <concept id="8986731840034603051" name="org.campagnelab.textoutput.structure.Phrases" flags="ng" index="3kgWzl">
@@ -104,6 +141,12 @@
       <ref role="30HIoZ" to="rlu9:1e1bwEAoGG1" resolve="FilterWithIdsFromIdentifierinR" />
       <node concept="j$656" id="1e1bwEAr4Ir" role="1lVwrX">
         <ref role="v9R2y" node="1e1bwEAr4Io" resolve="reduce_FilterWithIdsFromIdentifierinR" />
+      </node>
+    </node>
+    <node concept="3aamgX" id="7UUlTHSYxQ5" role="3acgRq">
+      <ref role="30HIoZ" to="rlu9:7UUlTHSXBcR" resolve="InstallBiomart" />
+      <node concept="j$656" id="7UUlTHSYxRu" role="1lVwrX">
+        <ref role="v9R2y" node="7UUlTHSYxQ3" resolve="reduce_InstallBiomart" />
       </node>
     </node>
   </node>
@@ -172,6 +215,75 @@
         <property role="3_3kQV" value="));" />
       </node>
       <node concept="raruj" id="55b$yEuL5VW" role="lGtFl" />
+    </node>
+  </node>
+  <node concept="13MO4I" id="7UUlTHSYxQ3">
+    <property role="TrG5h" value="reduce_InstallBiomart" />
+    <ref role="3gUMe" to="rlu9:7UUlTHSXBcR" resolve="InstallBiomart" />
+    <node concept="2PZJp0" id="24FexAQq8_L" role="13RCb5">
+      <node concept="2PZJpb" id="24FexAQq8_O" role="oP3ar">
+        <node concept="20C$T_" id="24FexAQq8_P" role="22sOXp" />
+        <node concept="2PZJp2" id="24FexAQq8_Q" role="22sOXk">
+          <node concept="gNbv0" id="24FexAQq8_T" role="134Gdu">
+            <node concept="V6WaU" id="24FexAQq8_U" role="gNbrm">
+              <node concept="2PZJpm" id="24FexAQq8_X" role="gNbhV">
+                <property role="pzxGI" value="BiocInstaller" />
+              </node>
+            </node>
+          </node>
+          <node concept="2PZJpp" id="4eN5NwyueWR" role="134Gdo">
+            <property role="TrG5h" value="require" />
+          </node>
+        </node>
+      </node>
+      <node concept="2PZJp3" id="24FexAQq8_Y" role="oP3dk">
+        <node concept="13u1kU" id="24FexAQq8A0" role="13uv25">
+          <node concept="2PZJp2" id="24FexAQq8A1" role="13u1kV">
+            <node concept="gNbv0" id="24FexAQq8A4" role="134Gdu">
+              <node concept="V6WaU" id="24FexAQq8A5" role="gNbrm">
+                <node concept="2PZJpm" id="24FexAQq8A8" role="gNbhV">
+                  <property role="pzxGI" value="http://bioconductor.org/biocLite.R" />
+                </node>
+              </node>
+              <node concept="V6WaX" id="24FexAQq8A9" role="gNbrm">
+                <property role="gNbhX" value="local" />
+                <node concept="2PZJoJ" id="24FexAQq8Ac" role="gNbhV">
+                  <property role="pzIeI" value="true" />
+                </node>
+              </node>
+            </node>
+            <node concept="2PZJpp" id="4eN5NwyueWT" role="134Gdo">
+              <property role="TrG5h" value="source" />
+            </node>
+          </node>
+          <node concept="2PZJp2" id="24FexAQq8Ad" role="13u1kV">
+            <node concept="2PZJpp" id="24FexAQq8Af" role="134Gdo">
+              <property role="TrG5h" value="biocLite" />
+            </node>
+            <node concept="gNbv0" id="24FexAQq8Ag" role="134Gdu">
+              <node concept="V6WaX" id="24FexAQq8Ah" role="gNbrm">
+                <property role="gNbhX" value="ask" />
+                <node concept="2PZJoG" id="24FexAQq8Ak" role="gNbhV" />
+              </node>
+              <node concept="V6WaU" id="24FexAQq8Al" role="gNbrm">
+                <node concept="2PZJp2" id="24FexAQq8Ao" role="gNbhV">
+                  <node concept="gNbv0" id="24FexAQq8Ar" role="134Gdu">
+                    <node concept="V6WaU" id="24FexAQq8As" role="gNbrm">
+                      <node concept="2PZJpm" id="24FexAQq8Av" role="gNbhV">
+                        <property role="pzxGI" value="biomaRt" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="2PZJpp" id="4eN5Nwyu4VP" role="134Gdo">
+                    <property role="TrG5h" value="c" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="raruj" id="4eN5Nwyu4VM" role="lGtFl" />
     </node>
   </node>
 </model>

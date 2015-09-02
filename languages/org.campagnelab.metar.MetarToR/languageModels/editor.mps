@@ -11,6 +11,7 @@
     <import index="8gqa" ref="r:c14853f5-5f2e-4acc-825a-4fec67caca67(org.campagnelab.metar.tables.editor)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="rlu9" ref="r:2815b05a-19fb-48b1-b650-5a86998b563c(org.campagnelab.metar.biomartToR.structure)" implicit="true" />
+    <import index="6q58" ref="r:97268463-8a58-42b7-9dc6-fa004b7a4308(org.campagnelab.metar.R.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">
@@ -56,6 +57,7 @@
         <child id="1219418656006" name="styleItem" index="3F10Kt" />
       </concept>
       <concept id="1073389882823" name="jetbrains.mps.lang.editor.structure.CellModel_RefNode" flags="sg" stub="730538219795960754" index="3F1sOY" />
+      <concept id="1073390211982" name="jetbrains.mps.lang.editor.structure.CellModel_RefNodeList" flags="sg" stub="2794558372793454595" index="3F2HdR" />
       <concept id="1225898583838" name="jetbrains.mps.lang.editor.structure.ReadOnlyModelAccessor" flags="ng" index="1HfYo3">
         <child id="1225898971709" name="getter" index="1Hhtcw" />
       </concept>
@@ -147,6 +149,12 @@
       <node concept="3yfXC2" id="4MN$qOAZ5yz" role="3F10Kt">
         <ref role="3ygfmf" to="rlu9:1e1bwEBY62I" />
       </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="4eN5Nwyt57S">
+    <ref role="1XX52x" to="rlu9:7UUlTHSXBcR" resolve="InstallBiomart" />
+    <node concept="3F2HdR" id="4eN5Nwyv5uN" role="2wV5jI">
+      <ref role="1NtTu8" to="6q58:3ft5eLKOdNx" />
     </node>
   </node>
 </model>
