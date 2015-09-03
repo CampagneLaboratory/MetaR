@@ -521,5 +521,11 @@
       <node concept="17QB3L" id="364jCCZMOJB" role="3clF45" />
     </node>
   </node>
+  <node concept="13h7C7" id="4eN5Nwy_7gC">
+    <ref role="13h7C2" to="rlu9:4eN5Nwy$$Zi" resolve="ExposedColumn" />
+    <node concept="13hLZK" id="4eN5Nwy_7gD" role="13h7CW">
+      <node concept="3clFbS" id="4eN5Nwy_7gE" role="2VODD2" />
+    </node>
+  </node>
 </model>
 

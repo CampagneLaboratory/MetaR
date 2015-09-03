@@ -14,6 +14,7 @@ import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.internal.collections.runtime.IWhereFilter;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.internal.collections.runtime.ISelector;
+import org.campagnelab.metar.biomart.behavior.Attribute_Behavior;
 import org.campagnelab.metar.code.generator.helpers.RPath;
 import jetbrains.mps.util.MacrosFactory;
 import java.io.File;
@@ -85,6 +86,21 @@ public class QueriesGenerated {
     }), ",");
 
 
+  }
+  public static Object propertyMacro_GetPropertyValue_8641281067911446039(final PropertyMacroContext _context) {
+    return "c(" + IterableUtils.join(ListSequence.fromList(SLinkOperations.getChildren(_context.getNode(), MetaAdapterFactory.getContainmentLink(0xe633fc480aaf45b5L, 0x9894247b67cf0890L, 0x350920b05a37c8ddL, 0xc20f5e07c983c05L, "martAttributes"))).where(new IWhereFilter<SNode>() {
+      public boolean accept(SNode it) {
+        return (SLinkOperations.getTarget(it, MetaAdapterFactory.getReferenceLink(0xe633fc480aaf45b5L, 0x9894247b67cf0890L, 0xc20f5e07c8989e8L, 0xc20f5e07c8989e9L, "attribute")) != null);
+      }
+    }).select(new ISelector<SNode, SNode>() {
+      public SNode select(SNode it) {
+        return SLinkOperations.getTarget(it, MetaAdapterFactory.getReferenceLink(0xe633fc480aaf45b5L, 0x9894247b67cf0890L, 0xc20f5e07c8989e8L, 0xc20f5e07c8989e9L, "attribute"));
+      }
+    }).select(new ISelector<SNode, String>() {
+      public String select(SNode it) {
+        return "\"" + Attribute_Behavior.call_getCleanSetName_5657160037951507503(it) + "\"";
+      }
+    }), ",") + ")";
   }
   public static Object propertyMacro_GetPropertyValue_873968672226534287(final PropertyMacroContext _context) {
     return new RPath(MacrosFactory.getGlobal().expandPath("${org.campagnelab.metaR.results_dir}") + File.separator + "table_" + NameHelper.RName(SPropertyOperations.getString(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0xe633fc480aaf45b5L, 0x9894247b67cf0890L, 0x350920b05a37c8ddL, 0x7992e0e669fcbb8dL, "outputTable")), MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name"))) + "_" + Integer.toString(SPropertyOperations.getInteger(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0xe633fc480aaf45b5L, 0x9894247b67cf0890L, 0x350920b05a37c8ddL, 0x7992e0e669fcbb8dL, "outputTable")), MetaAdapterFactory.getProperty(0x5d6bde844ce44eb5L, 0xa37e25a5edd55129L, 0x2f3745fadd605ac5L, 0x39d2cd96c5e52d3dL, "id"))) + ".tsv").toString();
