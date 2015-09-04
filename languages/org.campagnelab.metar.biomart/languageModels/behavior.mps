@@ -266,9 +266,15 @@
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
         <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
+        <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
       </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
+      </concept>
+      <concept id="779128492853369165" name="jetbrains.mps.lang.core.structure.SideTransformInfo" flags="ng" index="1KehLL">
+        <property id="779128492853935960" name="anchorTag" index="1K8rD$" />
+        <property id="779128492853934523" name="cellId" index="1K8rM7" />
+        <property id="779128492853699361" name="side" index="1Kfyot" />
       </concept>
     </language>
     <language id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections">
@@ -427,6 +433,11 @@
           <node concept="2OqwBi" id="4bkMdJolbUw" role="3clFbG">
             <node concept="37vLTw" id="4bkMdJolbUx" role="2Oq$k0">
               <ref role="3cqZAo" node="2MnSiCzL75f" resolve="columnAttributes" />
+              <node concept="1KehLL" id="4bkMdJolbUy" role="lGtFl">
+                <property role="1K8rM7" value="property_name" />
+                <property role="1K8rD$" value="default_RTransform" />
+                <property role="1Kfyot" value="left" />
+              </node>
             </node>
             <node concept="X8dFx" id="4bkMdJolbUz" role="2OqNvi">
               <node concept="2OqwBi" id="4bkMdJolbU$" role="25WWJ7">
@@ -1497,14 +1508,10 @@
         </node>
         <node concept="3clFbJ" id="Uo9xLniqQz" role="3cqZAp">
           <node concept="3clFbS" id="Uo9xLniqQ_" role="3clFbx">
-            <node concept="3SKdUt" id="14BZZ_hO22z" role="3cqZAp">
-              <node concept="3SKWN0" id="14BZZ_hO22$" role="3SKWNk">
-                <node concept="34ab3g" id="6mn2T7SVnyT" role="3SKWNf">
-                  <property role="35gtTG" value="info" />
-                  <node concept="Xl_RD" id="6mn2T7SVnyU" role="34bqiv">
-                    <property role="Xl_RC" value="mart on analysis" />
-                  </node>
-                </node>
+            <node concept="34ab3g" id="6mn2T7SVnyT" role="3cqZAp">
+              <property role="35gtTG" value="info" />
+              <node concept="Xl_RD" id="6mn2T7SVnyU" role="34bqiv">
+                <property role="Xl_RC" value="mart on analysis" />
               </node>
             </node>
             <node concept="3clFbH" id="6mn2T7SVm2A" role="3cqZAp" />
@@ -1595,14 +1602,10 @@
               <node concept="3clFbH" id="6mn2T7S4wIC" role="3cqZAp" />
               <node concept="3clFbJ" id="6mn2T7RUvnn" role="3cqZAp">
                 <node concept="3clFbS" id="6mn2T7RUvno" role="3clFbx">
-                  <node concept="3SKdUt" id="14BZZ_hO17$" role="3cqZAp">
-                    <node concept="3SKWN0" id="14BZZ_hO17_" role="3SKWNk">
-                      <node concept="34ab3g" id="6mn2T7RUvnp" role="3SKWNf">
-                        <property role="35gtTG" value="info" />
-                        <node concept="Xl_RD" id="6mn2T7RUvnq" role="34bqiv">
-                          <property role="Xl_RC" value="mart on Statement" />
-                        </node>
-                      </node>
+                  <node concept="34ab3g" id="6mn2T7RUvnp" role="3cqZAp">
+                    <property role="35gtTG" value="info" />
+                    <node concept="Xl_RD" id="6mn2T7RUvnq" role="34bqiv">
+                      <property role="Xl_RC" value="mart on Statement" />
                     </node>
                   </node>
                   <node concept="3cpWs6" id="6mn2T7RUwPu" role="3cqZAp">
@@ -1639,14 +1642,10 @@
                   <node concept="3clFbH" id="1e1bwEAjm96" role="3SKWNf" />
                 </node>
               </node>
-              <node concept="3SKdUt" id="14BZZ_hO38H" role="3cqZAp">
-                <node concept="3SKWN0" id="14BZZ_hO38I" role="3SKWNk">
-                  <node concept="34ab3g" id="pr6WGEHlmL" role="3SKWNf">
-                    <property role="35gtTG" value="info" />
-                    <node concept="Xl_RD" id="pr6WGEHlmM" role="34bqiv">
-                      <property role="Xl_RC" value="no mart found" />
-                    </node>
-                  </node>
+              <node concept="34ab3g" id="pr6WGEHlmL" role="3cqZAp">
+                <property role="35gtTG" value="info" />
+                <node concept="Xl_RD" id="pr6WGEHlmM" role="34bqiv">
+                  <property role="Xl_RC" value="no mart found" />
                 </node>
               </node>
               <node concept="3clFbH" id="pr6WGEHjYu" role="3cqZAp" />
@@ -1691,14 +1690,10 @@
         </node>
         <node concept="3clFbJ" id="Uo9xLniBVJ" role="3cqZAp">
           <node concept="3clFbS" id="Uo9xLniBVK" role="3clFbx">
-            <node concept="3SKdUt" id="14BZZ_hO4_$" role="3cqZAp">
-              <node concept="3SKWN0" id="14BZZ_hO4__" role="3SKWNk">
-                <node concept="34ab3g" id="Uo9xLnsbJC" role="3SKWNf">
-                  <property role="35gtTG" value="info" />
-                  <node concept="Xl_RD" id="Uo9xLnsbJE" role="34bqiv">
-                    <property role="Xl_RC" value="Installing mart on Analysis" />
-                  </node>
-                </node>
+            <node concept="34ab3g" id="Uo9xLnsbJC" role="3cqZAp">
+              <property role="35gtTG" value="info" />
+              <node concept="Xl_RD" id="Uo9xLnsbJE" role="34bqiv">
+                <property role="Xl_RC" value="Installing mart on Analysis" />
               </node>
             </node>
             <node concept="3clFbF" id="Uo9xLniFXz" role="3cqZAp">
@@ -1799,14 +1794,10 @@
               <node concept="3clFbH" id="6mn2T7S4Mn3" role="3cqZAp" />
               <node concept="3clFbJ" id="Uo9xLniBWa" role="3cqZAp">
                 <node concept="3clFbS" id="Uo9xLniBWb" role="3clFbx">
-                  <node concept="3SKdUt" id="14BZZ_hO4Ca" role="3cqZAp">
-                    <node concept="3SKWN0" id="14BZZ_hO4Cb" role="3SKWNk">
-                      <node concept="34ab3g" id="Uo9xLnsbTv" role="3SKWNf">
-                        <property role="35gtTG" value="info" />
-                        <node concept="Xl_RD" id="Uo9xLnsbTx" role="34bqiv">
-                          <property role="Xl_RC" value="installing mart on Statement" />
-                        </node>
-                      </node>
+                  <node concept="34ab3g" id="Uo9xLnsbTv" role="3cqZAp">
+                    <property role="35gtTG" value="info" />
+                    <node concept="Xl_RD" id="Uo9xLnsbTx" role="34bqiv">
+                      <property role="Xl_RC" value="installing mart on Statement" />
                     </node>
                   </node>
                   <node concept="3clFbF" id="Uo9xLniGnl" role="3cqZAp">
@@ -1891,18 +1882,14 @@
             </node>
           </node>
         </node>
-        <node concept="3SKdUt" id="14BZZ_hO4EK" role="3cqZAp">
-          <node concept="3SKWN0" id="14BZZ_hO4EL" role="3SKWNk">
-            <node concept="34ab3g" id="6mn2T7SVpjO" role="3SKWNf">
-              <property role="35gtTG" value="info" />
-              <node concept="3cpWs3" id="6mn2T7SVqeB" role="34bqiv">
-                <node concept="37vLTw" id="6mn2T7SVqiE" role="3uHU7w">
-                  <ref role="3cqZAo" node="Uo9xLnjGEo" resolve="registry" />
-                </node>
-                <node concept="Xl_RD" id="6mn2T7SVpjP" role="3uHU7B">
-                  <property role="Xl_RC" value="Find the node on registry?" />
-                </node>
-              </node>
+        <node concept="34ab3g" id="6mn2T7SVpjO" role="3cqZAp">
+          <property role="35gtTG" value="info" />
+          <node concept="3cpWs3" id="6mn2T7SVqeB" role="34bqiv">
+            <node concept="37vLTw" id="6mn2T7SVqiE" role="3uHU7w">
+              <ref role="3cqZAo" node="Uo9xLnjGEo" resolve="registry" />
+            </node>
+            <node concept="Xl_RD" id="6mn2T7SVpjP" role="3uHU7B">
+              <property role="Xl_RC" value="Find the node on registry?" />
             </node>
           </node>
         </node>
@@ -1929,14 +1916,10 @@
                 </node>
               </node>
             </node>
-            <node concept="3SKdUt" id="14BZZ_hO4YP" role="3cqZAp">
-              <node concept="3SKWN0" id="14BZZ_hO4YQ" role="3SKWNk">
-                <node concept="34ab3g" id="6mn2T7SVuO0" role="3SKWNf">
-                  <property role="35gtTG" value="info" />
-                  <node concept="Xl_RD" id="6mn2T7SVuO2" role="34bqiv">
-                    <property role="Xl_RC" value="Get The databaseList" />
-                  </node>
-                </node>
+            <node concept="34ab3g" id="6mn2T7SVuO0" role="3cqZAp">
+              <property role="35gtTG" value="info" />
+              <node concept="Xl_RD" id="6mn2T7SVuO2" role="34bqiv">
+                <property role="Xl_RC" value="Get The databaseList" />
               </node>
             </node>
             <node concept="1Dw8fO" id="1M6hTyZapdD" role="3cqZAp">
