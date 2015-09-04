@@ -13,7 +13,6 @@
     <use id="ecf91126-e504-4aae-8ee7-3192d64e77f6" name="org.campagnelab.mps.XChart.types" version="-1" />
     <use id="93bc01ac-08ca-4f11-9c7d-614d04055dfb" name="org.campagnelab.mps.editor2pdf" version="-1" />
     <use id="ecc862c9-5ab5-42ef-8703-2039019fb338" name="org.campagnelab.metar.models" version="-1" />
-    <use id="3b58810c-8431-4bbb-99ea-b4671e02dd13" name="org.campagnelab.metar.R" version="-1" />
     <use id="f9e0c373-bcbc-4c08-8ca0-edb1ef9679b6" name="org.campagnelab.metar.columninR" version="-1" />
     <use id="64c90466-09b2-41ab-89f8-5085b3b9eca7" name="org.campagnelab.metar.functions.access" version="-1" />
     <use id="c1747c67-8f42-4d83-9542-4a948aec17d9" name="org.campagnelab.metar.functions.importing" version="-1" />
@@ -22,6 +21,7 @@
     <use id="4caf0310-491e-41f5-8a9b-2006b3a94898" name="jetbrains.mps.execution.util" version="-1" />
     <use id="ed6d7656-532c-4bc2-81d1-af945aeb8280" name="jetbrains.mps.baseLanguage.blTypes" version="-1" />
     <use id="9ded098b-ad6a-4657-bfd9-48636cfe8bc3" name="jetbrains.mps.lang.traceable" version="-1" />
+    <use id="3b58810c-8431-4bbb-99ea-b4671e02dd13" name="org.campagnelab.metar.R" version="1" />
   </languages>
   <imports>
     <import index="4tsn" ref="r:97aeaa4f-346d-4633-b5a0-99879648272c(R3_1_3@stubs)" />
@@ -128,13 +128,7 @@
         <child id="457990346354368951" name="table" index="BmrDW" />
       </concept>
       <concept id="457990346354369763" name="org.campagnelab.metar.tables.structure.OrderBy" flags="ng" index="BmrWC" />
-      <concept id="4373413171056255203" name="org.campagnelab.metar.tables.structure.TableGroup" flags="ng" index="2CoXNS">
-        <reference id="4373413171065554375" name="columnGroup" index="2DOvBs" />
-        <child id="4373413171172900630" name="columnRef" index="2BtKcd" />
-      </concept>
-      <concept id="4373413171049910640" name="org.campagnelab.metar.tables.structure.OrderByGroups" flags="ng" index="2CKaPF">
-        <child id="4373413171056258085" name="tableGroup" index="2CoX0Y" />
-      </concept>
+      <concept id="4373413171049910640" name="org.campagnelab.metar.tables.structure.OrderByGroups" flags="ng" index="2CKaPF" />
       <concept id="7783277237108572280" name="org.campagnelab.metar.tables.structure.FilterWithExpression" flags="ng" index="2Qf$4g">
         <child id="2826789978062873521" name="filter" index="QaakN" />
       </concept>
@@ -7483,62 +7477,7 @@
         <node concept="afgQW" id="7eEygOse9jq" role="BmrDW">
           <ref role="afgo8" node="4DOwJpJxBw5" resolve="GSE59364_DC_all.csv" />
         </node>
-        <node concept="2CKaPF" id="7eEygOse9jt" role="Bm75R">
-          <node concept="2CoXNS" id="7eEygOse9jz" role="2CoX0Y">
-            <ref role="2DOvBs" node="kv77ypis3Y" resolve="ID" />
-            <node concept="3MHf5z" id="7eEygOse9j$" role="2BtKcd">
-              <ref role="3MHf5w" node="4$IC3Kj1JT8" resolve="gene" />
-            </node>
-          </node>
-          <node concept="2CoXNS" id="7eEygOse9jC" role="2CoX0Y">
-            <ref role="2DOvBs" node="kv77ypis49" resolve="LPS=NO" />
-            <node concept="3MHf5z" id="7eEygOse9jD" role="2BtKcd">
-              <ref role="3MHf5w" node="4$IC3Kj1JTl" resolve="DC0904" />
-            </node>
-            <node concept="3MHf5z" id="7eEygOse9jE" role="2BtKcd">
-              <ref role="3MHf5w" node="4$IC3Kj1JTp" resolve="DC0907" />
-            </node>
-            <node concept="3MHf5z" id="7eEygOse9jF" role="2BtKcd">
-              <ref role="3MHf5w" node="4$IC3Kj1JTt" resolve="DCLPS0910" />
-            </node>
-            <node concept="3MHf5z" id="7eEygOse9jG" role="2BtKcd">
-              <ref role="3MHf5w" node="4$IC3Kj1JTx" resolve="DCLPS0913" />
-            </node>
-            <node concept="3MHf5z" id="7eEygOse9jH" role="2BtKcd">
-              <ref role="3MHf5w" node="4$IC3Kj1JT_" resolve="A_DC" />
-            </node>
-            <node concept="3MHf5z" id="7eEygOse9jI" role="2BtKcd">
-              <ref role="3MHf5w" node="4$IC3Kj1JTH" resolve="B_DC" />
-            </node>
-            <node concept="3MHf5z" id="7eEygOse9jJ" role="2BtKcd">
-              <ref role="3MHf5w" node="4$IC3Kj1JTP" resolve="C_DC" />
-            </node>
-            <node concept="3MHf5z" id="7eEygOse9jK" role="2BtKcd">
-              <ref role="3MHf5w" node="4$IC3Kj1JTX" resolve="C2DC" />
-            </node>
-            <node concept="3MHf5z" id="7eEygOse9jL" role="2BtKcd">
-              <ref role="3MHf5w" node="4$IC3Kj1JU5" resolve="C3DC" />
-            </node>
-          </node>
-          <node concept="2CoXNS" id="7eEygOse9k1" role="2CoX0Y">
-            <ref role="2DOvBs" node="kv77ypis43" resolve="LPS=YES" />
-            <node concept="3MHf5z" id="7eEygOse9k2" role="2BtKcd">
-              <ref role="3MHf5w" node="4$IC3Kj1JTD" resolve="A_DC_LPS" />
-            </node>
-            <node concept="3MHf5z" id="7eEygOse9k3" role="2BtKcd">
-              <ref role="3MHf5w" node="4$IC3Kj1JTL" resolve="B_DC_LPS" />
-            </node>
-            <node concept="3MHf5z" id="7eEygOse9k4" role="2BtKcd">
-              <ref role="3MHf5w" node="4$IC3Kj1JTT" resolve="C_DC_LPS" />
-            </node>
-            <node concept="3MHf5z" id="7eEygOse9k5" role="2BtKcd">
-              <ref role="3MHf5w" node="4$IC3Kj1JU1" resolve="C2DCLPS" />
-            </node>
-            <node concept="3MHf5z" id="7eEygOse9k6" role="2BtKcd">
-              <ref role="3MHf5w" node="4$IC3Kj1JU9" resolve="C3DCLPS" />
-            </node>
-          </node>
-        </node>
+        <node concept="2CKaPF" id="7eEygOse9jt" role="Bm75R" />
       </node>
       <node concept="S1EQe" id="7eEygOsehvU" role="ZXjPg">
         <property role="S1EQ6" value="KKXSRGMKIP" />
