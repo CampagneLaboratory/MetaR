@@ -12,6 +12,7 @@
   </imports>
   <registry>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
+      <concept id="1224240836180" name="jetbrains.mps.lang.structure.structure.DeprecatedNodeAnnotation" flags="ig" index="asaX9" />
       <concept id="1082978499127" name="jetbrains.mps.lang.structure.structure.ConstrainedDataTypeDeclaration" flags="ng" index="Az7Fb">
         <property id="1083066089218" name="constraint" index="FLfZY" />
       </concept>
@@ -46,6 +47,7 @@
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
         <property id="1156235010670" name="alias" index="OYydz" />
         <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
+        <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
       </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
@@ -238,6 +240,9 @@
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="body" />
       <ref role="20lvS9" node="5mPDeVwiPap" resolve="Expr" />
+    </node>
+    <node concept="PrWs8" id="3jxRpTyOHHu" role="PzmwI">
+      <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
     </node>
   </node>
   <node concept="1TIwiD" id="5mPDeVwiPaG">
@@ -583,9 +588,11 @@
   <node concept="1TIwiD" id="4aoS_ZgJfMu">
     <property role="TrG5h" value="ParameterDeclaration" />
     <property role="3GE5qa" value="functions" />
+    <ref role="1TJDcQ" node="5mPDeVwiPaR" resolve="Identifier" />
     <node concept="1TJgyi" id="4aoS_ZgJfRY" role="1TKVEl">
       <property role="TrG5h" value="id" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+      <node concept="asaX9" id="3jxRpTzaodd" role="lGtFl" />
     </node>
     <node concept="1TJgyj" id="4aoS_ZgJfMz" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
