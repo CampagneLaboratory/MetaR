@@ -74,6 +74,12 @@
     <property role="OYydz" value="Program" />
     <property role="19KtqR" value="true" />
     <ref role="1TJDcQ" node="5mPDeVwiJFd" resolve="Prog" />
+    <node concept="1TJgyj" id="1XSraqAgkdq" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="importedPackages" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="1XSraqAgjQs" resolve="ImportedPackage" />
+    </node>
     <node concept="PrWs8" id="3V2IUSrKJMt" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
@@ -1051,6 +1057,14 @@
     </node>
     <node concept="PrWs8" id="6efZaUgJXc1" role="PzmwI">
       <ref role="PrY4T" to="l5qg:6efZaUgJLSo" resolve="IExposeIdentifiers" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="1XSraqAgjQs">
+    <property role="TrG5h" value="ImportedPackage" />
+    <property role="3GE5qa" value="packages" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="1XSraqAgjUq" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
   </node>
 </model>
