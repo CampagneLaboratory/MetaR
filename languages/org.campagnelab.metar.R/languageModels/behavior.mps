@@ -41,6 +41,7 @@
       <concept id="1225194691553" name="jetbrains.mps.lang.behavior.structure.ThisNodeExpression" flags="nn" index="13iPFW" />
     </language>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
+      <concept id="1080223426719" name="jetbrains.mps.baseLanguage.structure.OrExpression" flags="nn" index="22lmx$" />
       <concept id="1082485599095" name="jetbrains.mps.baseLanguage.structure.BlockStatement" flags="nn" index="9aQIb">
         <child id="1082485599096" name="statements" index="9aQI4" />
       </concept>
@@ -245,6 +246,7 @@
       <concept id="1151689724996" name="jetbrains.mps.baseLanguage.collections.structure.SequenceType" flags="in" index="A3Dl8">
         <child id="1151689745422" name="elementType" index="A3Ik2" />
       </concept>
+      <concept id="1235566554328" name="jetbrains.mps.baseLanguage.collections.structure.AnyOperation" flags="nn" index="2HwmR7" />
       <concept id="1203518072036" name="jetbrains.mps.baseLanguage.collections.structure.SmartClosureParameterDeclaration" flags="ig" index="Rh6nW" />
       <concept id="1225727723840" name="jetbrains.mps.baseLanguage.collections.structure.FindFirstOperation" flags="nn" index="1z4cxt" />
       <concept id="1202120902084" name="jetbrains.mps.baseLanguage.collections.structure.WhereOperation" flags="nn" index="3zZkjj" />
@@ -1655,7 +1657,7 @@
     </node>
   </node>
   <node concept="13h7C7" id="7kgUw1gMaPh">
-    <ref role="13h7C2" to="6q58:5mPDeVwiJFe" resolve="ProgramProg" />
+    <ref role="13h7C2" to="6q58:5mPDeVwiJFe" resolve="RScript" />
     <node concept="13hLZK" id="7kgUw1gMaPi" role="13h7CW">
       <node concept="3clFbS" id="7kgUw1gMaPj" role="2VODD2" />
     </node>
@@ -1694,7 +1696,7 @@
             </node>
             <node concept="3SKdUt" id="6efZaUgUC4D" role="3cqZAp">
               <node concept="3SKdUq" id="6efZaUgUCf2" role="3SKWNk">
-                <property role="3SKdUp" value="expose functions from the base package" />
+                <property role="3SKdUp" value="expose functions from the base package, or from any package explicitly imported" />
               </node>
             </node>
             <node concept="3clFbF" id="6efZaUgJL0j" role="3cqZAp">
@@ -1713,16 +1715,56 @@
                     <node concept="1bVj0M" id="6efZaUgU7gW" role="23t8la">
                       <node concept="3clFbS" id="6efZaUgU7gX" role="1bW5cS">
                         <node concept="3clFbF" id="6efZaUgU7pd" role="3cqZAp">
-                          <node concept="17R0WA" id="6efZaUgU8pg" role="3clFbG">
-                            <node concept="Xl_RD" id="6efZaUgU8x3" role="3uHU7w">
-                              <property role="Xl_RC" value="base" />
-                            </node>
-                            <node concept="2OqwBi" id="6efZaUgU7wX" role="3uHU7B">
-                              <node concept="37vLTw" id="6efZaUgU7pc" role="2Oq$k0">
-                                <ref role="3cqZAo" node="6efZaUgU7gY" resolve="it" />
+                          <node concept="22lmx$" id="1XSraqAg_Da" role="3clFbG">
+                            <node concept="17R0WA" id="6efZaUgU8pg" role="3uHU7B">
+                              <node concept="2OqwBi" id="6efZaUgU7wX" role="3uHU7B">
+                                <node concept="37vLTw" id="6efZaUgU7pc" role="2Oq$k0">
+                                  <ref role="3cqZAo" node="6efZaUgU7gY" resolve="it" />
+                                </node>
+                                <node concept="3TrcHB" id="4MN$qOAFww5" role="2OqNvi">
+                                  <ref role="3TsBF5" to="6q58:4MN$qOAFuda" resolve="level" />
+                                </node>
                               </node>
-                              <node concept="3TrcHB" id="4MN$qOAFww5" role="2OqNvi">
-                                <ref role="3TsBF5" to="6q58:4MN$qOAFuda" resolve="level" />
+                              <node concept="Xl_RD" id="6efZaUgU8x3" role="3uHU7w">
+                                <property role="Xl_RC" value="base" />
+                              </node>
+                            </node>
+                            <node concept="2OqwBi" id="1XSraqAgEio" role="3uHU7w">
+                              <node concept="2OqwBi" id="1XSraqAgCSr" role="2Oq$k0">
+                                <node concept="13iPFW" id="1XSraqAgCKe" role="2Oq$k0" />
+                                <node concept="3Tsc0h" id="1XSraqAgDfY" role="2OqNvi">
+                                  <ref role="3TtcxE" to="6q58:1XSraqAgkdq" />
+                                </node>
+                              </node>
+                              <node concept="2HwmR7" id="1XSraqAgKFS" role="2OqNvi">
+                                <node concept="1bVj0M" id="1XSraqAgKFU" role="23t8la">
+                                  <node concept="3clFbS" id="1XSraqAgKFV" role="1bW5cS">
+                                    <node concept="3clFbF" id="1XSraqAgKPL" role="3cqZAp">
+                                      <node concept="17R0WA" id="1XSraqAgLUX" role="3clFbG">
+                                        <node concept="2OqwBi" id="1XSraqAgMZM" role="3uHU7w">
+                                          <node concept="37vLTw" id="1XSraqAgMMd" role="2Oq$k0">
+                                            <ref role="3cqZAo" node="6efZaUgU7gY" resolve="it" />
+                                          </node>
+                                          <node concept="3TrcHB" id="1XSraqAgNjV" role="2OqNvi">
+                                            <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                                          </node>
+                                        </node>
+                                        <node concept="2OqwBi" id="1XSraqAgKXE" role="3uHU7B">
+                                          <node concept="37vLTw" id="1XSraqAgKPK" role="2Oq$k0">
+                                            <ref role="3cqZAo" node="1XSraqAgKFW" resolve="importedPackage" />
+                                          </node>
+                                          <node concept="3TrcHB" id="1XSraqAgLg0" role="2OqNvi">
+                                            <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                                          </node>
+                                        </node>
+                                      </node>
+                                    </node>
+                                  </node>
+                                  <node concept="Rh6nW" id="1XSraqAgKFW" role="1bW2Oz">
+                                    <property role="TrG5h" value="importedPackage" />
+                                    <node concept="2jxLKc" id="1XSraqAgKFX" role="1tU5fm" />
+                                  </node>
+                                </node>
                               </node>
                             </node>
                           </node>
