@@ -898,7 +898,7 @@
         <node concept="3kgWzl" id="KwXu1WOhy2" role="3_3kQL">
           <property role="3_3kQV" value="" />
           <node concept="3_3kQU" id="KwXu1WOhy7" role="3kgYXv">
-            <property role="3_3kQV" value="return(output);" />
+            <property role="3_3kQV" value="return(data.table(output,key=colnames(output)));" />
           </node>
         </node>
         <node concept="3_3kQU" id="KwXu1WOhy8" role="3_3kQL">
