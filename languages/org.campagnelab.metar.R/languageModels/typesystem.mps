@@ -186,6 +186,9 @@
       </concept>
       <concept id="1883223317721008713" name="jetbrains.mps.lang.smodel.structure.IfInstanceOfVariable" flags="ng" index="JncvC" />
       <concept id="1883223317721107059" name="jetbrains.mps.lang.smodel.structure.IfInstanceOfVarReference" flags="nn" index="Jnkvi" />
+      <concept id="1139184414036" name="jetbrains.mps.lang.smodel.structure.LinkList_AddNewChildOperation" flags="nn" index="WFELt">
+        <reference id="1139877738879" name="concept" index="1A0vxQ" />
+      </concept>
       <concept id="1171407110247" name="jetbrains.mps.lang.smodel.structure.Node_GetAncestorOperation" flags="nn" index="2Xjw5R" />
       <concept id="2644386474300074836" name="jetbrains.mps.lang.smodel.structure.ConceptIdRefExpression" flags="nn" index="35c_gC">
         <reference id="2644386474300074837" name="conceptDeclaration" index="35c_gD" />
@@ -255,6 +258,7 @@
       <concept id="1203518072036" name="jetbrains.mps.baseLanguage.collections.structure.SmartClosureParameterDeclaration" flags="ig" index="Rh6nW" />
       <concept id="1160612413312" name="jetbrains.mps.baseLanguage.collections.structure.AddElementOperation" flags="nn" index="TSZUe" />
       <concept id="1165525191778" name="jetbrains.mps.baseLanguage.collections.structure.GetFirstOperation" flags="nn" index="1uHKPH" />
+      <concept id="1165530316231" name="jetbrains.mps.baseLanguage.collections.structure.IsEmptyOperation" flags="nn" index="1v1jN8" />
       <concept id="1225727723840" name="jetbrains.mps.baseLanguage.collections.structure.FindFirstOperation" flags="nn" index="1z4cxt" />
     </language>
   </registry>
@@ -963,6 +967,51 @@
             </node>
           </node>
         </node>
+        <node concept="3SKdUt" id="2xCkIee2bKI" role="3cqZAp">
+          <node concept="3SKdUq" id="2xCkIee2bN5" role="3SKWNk">
+            <property role="3SKdUp" value="facilitate editing by adding a single positional parameter value in the list of parameters." />
+          </node>
+        </node>
+        <node concept="3clFbJ" id="2xCkIee24e7" role="3cqZAp">
+          <node concept="3clFbS" id="2xCkIee24e9" role="3clFbx">
+            <node concept="3clFbF" id="2xCkIee282R" role="3cqZAp">
+              <node concept="2OqwBi" id="2xCkIee29oc" role="3clFbG">
+                <node concept="2OqwBi" id="2xCkIee28xo" role="2Oq$k0">
+                  <node concept="2OqwBi" id="2xCkIee284k" role="2Oq$k0">
+                    <node concept="QwW4i" id="2xCkIee282P" role="2Oq$k0">
+                      <ref role="QwW4h" node="6szcLqHjCOY" resolve="functionCall" />
+                    </node>
+                    <node concept="3TrEf2" id="2xCkIee28nm" role="2OqNvi">
+                      <ref role="3Tt5mk" to="6q58:3ft5eLKNXuM" />
+                    </node>
+                  </node>
+                  <node concept="3Tsc0h" id="2xCkIee28Nt" role="2OqNvi">
+                    <ref role="3TtcxE" to="6q58:50lwYX0QjkT" />
+                  </node>
+                </node>
+                <node concept="WFELt" id="2xCkIee2bGs" role="2OqNvi">
+                  <ref role="1A0vxQ" to="6q58:4hQfa_ZrvSj" resolve="PositionalParameterValue" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="2OqwBi" id="2xCkIee25I4" role="3clFbw">
+            <node concept="2OqwBi" id="2xCkIee24I8" role="2Oq$k0">
+              <node concept="2OqwBi" id="2xCkIee24hj" role="2Oq$k0">
+                <node concept="QwW4i" id="2xCkIee24eP" role="2Oq$k0">
+                  <ref role="QwW4h" node="6szcLqHjCOY" resolve="functionCall" />
+                </node>
+                <node concept="3TrEf2" id="2xCkIee24zI" role="2OqNvi">
+                  <ref role="3Tt5mk" to="6q58:3ft5eLKNXuM" />
+                </node>
+              </node>
+              <node concept="3Tsc0h" id="2xCkIee250$" role="2OqNvi">
+                <ref role="3TtcxE" to="6q58:50lwYX0QjkT" />
+              </node>
+            </node>
+            <node concept="1v1jN8" id="2xCkIee2826" role="2OqNvi" />
+          </node>
+        </node>
       </node>
     </node>
     <node concept="QznSV" id="6szcLqHjISp" role="QzAvj">
@@ -1526,6 +1575,89 @@
             <node concept="Xl_RD" id="1XSraqAnVRr" role="3uHU7B">
               <property role="Xl_RC" value="Import Package " />
             </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="18kY7G" id="2xCkIee4wSx">
+    <property role="TrG5h" value="check_PositionalParameterValue" />
+    <node concept="3clFbS" id="2xCkIee4wSy" role="18ibNy">
+      <node concept="3clFbJ" id="2xCkIee4x15" role="3cqZAp">
+        <node concept="3clFbS" id="2xCkIee4x16" role="3clFbx">
+          <node concept="2MkqsV" id="2xCkIee4xF0" role="3cqZAp">
+            <node concept="Xl_RD" id="2xCkIee4xFc" role="2MkJ7o">
+              <property role="Xl_RC" value="Value must not be null" />
+            </node>
+            <node concept="1YBJjd" id="2xCkIee4xG8" role="2OEOjV">
+              <ref role="1YBMHb" node="2xCkIee4wS$" resolve="positionalParameterValue" />
+            </node>
+            <node concept="3Cnw8n" id="2xCkIee4xYX" role="2OEOjU">
+              <property role="ARO6o" value="true" />
+              <ref role="QpYPw" node="2xCkIee4xGS" resolve="AddValueToPositionalParamValue" />
+              <node concept="3CnSsL" id="2xCkIee4_vz" role="3Coj4f">
+                <ref role="QkamJ" node="2xCkIee4$4k" resolve="paramV" />
+                <node concept="1YBJjd" id="2xCkIee4_vN" role="3CoRuB">
+                  <ref role="1YBMHb" node="2xCkIee4wS$" resolve="positionalParameterValue" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbC" id="2xCkIee4xDI" role="3clFbw">
+          <node concept="10Nm6u" id="2xCkIee4xDT" role="3uHU7w" />
+          <node concept="2OqwBi" id="2xCkIee4x3P" role="3uHU7B">
+            <node concept="1YBJjd" id="2xCkIee4x1h" role="2Oq$k0">
+              <ref role="1YBMHb" node="2xCkIee4wS$" resolve="positionalParameterValue" />
+            </node>
+            <node concept="3TrEf2" id="2xCkIee4xse" role="2OqNvi">
+              <ref role="3Tt5mk" to="6q58:50lwYX0Qjuk" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="2xCkIee4wS$" role="1YuTPh">
+      <property role="TrG5h" value="positionalParameterValue" />
+      <ref role="1YaFvo" to="6q58:4hQfa_ZrvSj" resolve="PositionalParameterValue" />
+    </node>
+  </node>
+  <node concept="Q5z_Y" id="2xCkIee4xGS">
+    <property role="TrG5h" value="AddValueToPositionalParamValue" />
+    <node concept="Q6JDH" id="2xCkIee4$4k" role="Q6Id_">
+      <property role="TrG5h" value="paramV" />
+      <node concept="3Tqbb2" id="2xCkIee4$hT" role="Q6QK4">
+        <ref role="ehGHo" to="6q58:4hQfa_ZrvSj" resolve="PositionalParameterValue" />
+      </node>
+    </node>
+    <node concept="Q5ZZ6" id="2xCkIee4xGT" role="Q6x$H">
+      <node concept="3clFbS" id="2xCkIee4xGU" role="2VODD2">
+        <node concept="3clFbF" id="2xCkIee4$Yo" role="3cqZAp">
+          <node concept="37vLTI" id="2xCkIee4_sz" role="3clFbG">
+            <node concept="2ShNRf" id="2xCkIee4_un" role="37vLTx">
+              <node concept="3zrR0B" id="2xCkIee4_to" role="2ShVmc">
+                <node concept="3Tqbb2" id="2xCkIee4_tp" role="3zrR0E">
+                  <ref role="ehGHo" to="6q58:5mPDeVwiPap" resolve="Expr" />
+                </node>
+              </node>
+            </node>
+            <node concept="2OqwBi" id="2xCkIee4_0C" role="37vLTJ">
+              <node concept="QwW4i" id="2xCkIee4$Yn" role="2Oq$k0">
+                <ref role="QwW4h" node="2xCkIee4$4k" resolve="paramV" />
+              </node>
+              <node concept="3TrEf2" id="2xCkIee4_cZ" role="2OqNvi">
+                <ref role="3Tt5mk" to="6q58:50lwYX0Qjuk" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="QznSV" id="2xCkIee4yd_" role="QzAvj">
+      <node concept="3clFbS" id="2xCkIee4ydA" role="2VODD2">
+        <node concept="3clFbF" id="2xCkIee4ytC" role="3cqZAp">
+          <node concept="Xl_RD" id="2xCkIee4ytB" role="3clFbG">
+            <property role="Xl_RC" value="Reset Value for Positional Parameter" />
           </node>
         </node>
       </node>

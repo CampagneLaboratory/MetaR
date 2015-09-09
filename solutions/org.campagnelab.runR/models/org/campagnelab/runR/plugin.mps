@@ -80,6 +80,7 @@
     <import index="nlf1" ref="r:7f489494-339f-481c-be61-2af4deb51551(jetbrains.mps.execution.util.behavior)" />
     <import index="4fqr" ref="r:fa713d69-08ea-4732-b1f2-cb07f9e103ef(jetbrains.mps.execution.util.structure)" />
     <import index="tpek" ref="r:00000000-0000-4000-0000-011c895902c0(jetbrains.mps.baseLanguage.behavior)" />
+    <import index="8d8y" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/f:java_stub#498d89d2-c2e9-11e2-ad49-6cf049e62fe5#com.intellij.openapi.util(MPS.IDEA/com.intellij.openapi.util@java_stub)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="l5qg" ref="r:c3c8723d-4db5-4e18-902d-1cb272fe4ddf(org.campagnelab.metar.R.gen.structure)" implicit="true" />
     <import index="6q58" ref="r:97268463-8a58-42b7-9dc6-fa004b7a4308(org.campagnelab.metar.R.structure)" implicit="true" />
@@ -810,7 +811,7 @@
                   </node>
                   <node concept="1Ls8ON" id="6efZaUfTwsi" role="3g7hyw">
                     <node concept="3nh3qo" id="6efZaUfTwsj" role="1Lso8e">
-                      <ref role="3nh3qp" to="6q58:5mPDeVwiJFe" resolve="ProgramProg" />
+                      <ref role="3nh3qp" to="6q58:5mPDeVwiJFe" resolve="RScript" />
                     </node>
                     <node concept="1bVj0M" id="6efZaUfTwsk" role="1Lso8e">
                       <node concept="3clFbS" id="6efZaUfTwsl" role="1bW5cS">
@@ -821,7 +822,7 @@
                                 <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
                               </node>
                               <node concept="1PxgMI" id="6efZaUfTwsq" role="2Oq$k0">
-                                <ref role="1PxNhF" to="6q58:5mPDeVwiJFe" resolve="ProgramProg" />
+                                <ref role="1PxNhF" to="6q58:5mPDeVwiJFe" resolve="RScript" />
                                 <node concept="37vLTw" id="6efZaUfTwsr" role="1PxMeX">
                                   <ref role="3cqZAo" node="6efZaUfTwsw" resolve="node" />
                                 </node>
@@ -7431,6 +7432,35 @@
                     <ref role="37wK5l" to="fxg7:~File.getAbsolutePath():java.lang.String" resolve="getAbsolutePath" />
                   </node>
                 </node>
+              </node>
+            </node>
+            <node concept="3clFbJ" id="dg39I4lm_B" role="3cqZAp">
+              <node concept="3clFbS" id="dg39I4lm_D" role="3clFbx">
+                <node concept="3SKdUt" id="dg39I4oATm" role="3cqZAp">
+                  <node concept="3SKdUq" id="dg39I4oAUH" role="3SKWNk">
+                    <property role="3SKdUp" value="the : must be escaped in c:, since it is used as path separator by the docker command.." />
+                  </node>
+                </node>
+                <node concept="3clFbF" id="dg39I4mZLw" role="3cqZAp">
+                  <node concept="2OqwBi" id="dg39I4mZTR" role="3clFbG">
+                    <node concept="37vLTw" id="dg39I4mZLu" role="2Oq$k0">
+                      <ref role="3cqZAo" node="7jqSt7$yiNh" resolve="parentDirPath" />
+                    </node>
+                    <node concept="liA8E" id="dg39I4n1xQ" role="2OqNvi">
+                      <ref role="37wK5l" to="e2lb:~String.replaceAll(java.lang.String,java.lang.String):java.lang.String" resolve="replaceAll" />
+                      <node concept="Xl_RD" id="dg39I4n1yU" role="37wK5m">
+                        <property role="Xl_RC" value=":" />
+                      </node>
+                      <node concept="Xl_RD" id="dg39I4n1Ac" role="37wK5m">
+                        <property role="Xl_RC" value="\\:" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="10M0yZ" id="dg39I4mZBM" role="3clFbw">
+                <ref role="1PxDUh" to="8d8y:~SystemInfo" resolve="SystemInfo" />
+                <ref role="3cqZAo" to="8d8y:~SystemInfo.isWindows" resolve="isWindows" />
               </node>
             </node>
             <node concept="3cpWs6" id="7jqSt7$yjCg" role="3cqZAp">
