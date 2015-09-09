@@ -419,7 +419,8 @@
   <node concept="1TIwiD" id="5mPDeVwiPaS">
     <property role="TrG5h" value="StringLiteralExpr" />
     <property role="OYydz" value="stringLiteral" />
-    <property role="34LRSv" value="&quot;" />
+    <property role="34LRSv" value="&quot;&quot;" />
+    <property role="R4oN_" value="String literal" />
     <ref role="1TJDcQ" node="5mPDeVwiPap" resolve="Expr" />
     <node concept="1TJgyi" id="14grA08BBle" role="1TKVEl">
       <property role="TrG5h" value="value" />
