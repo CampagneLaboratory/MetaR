@@ -7434,35 +7434,6 @@
                 </node>
               </node>
             </node>
-            <node concept="3clFbJ" id="dg39I4lm_B" role="3cqZAp">
-              <node concept="3clFbS" id="dg39I4lm_D" role="3clFbx">
-                <node concept="3SKdUt" id="dg39I4oATm" role="3cqZAp">
-                  <node concept="3SKdUq" id="dg39I4oAUH" role="3SKWNk">
-                    <property role="3SKdUp" value="the : must be escaped in c:, since it is used as path separator by the docker command.." />
-                  </node>
-                </node>
-                <node concept="3clFbF" id="dg39I4mZLw" role="3cqZAp">
-                  <node concept="2OqwBi" id="dg39I4mZTR" role="3clFbG">
-                    <node concept="37vLTw" id="dg39I4mZLu" role="2Oq$k0">
-                      <ref role="3cqZAo" node="7jqSt7$yiNh" resolve="parentDirPath" />
-                    </node>
-                    <node concept="liA8E" id="dg39I4n1xQ" role="2OqNvi">
-                      <ref role="37wK5l" to="e2lb:~String.replaceAll(java.lang.String,java.lang.String):java.lang.String" resolve="replaceAll" />
-                      <node concept="Xl_RD" id="dg39I4n1yU" role="37wK5m">
-                        <property role="Xl_RC" value=":" />
-                      </node>
-                      <node concept="Xl_RD" id="dg39I4n1Ac" role="37wK5m">
-                        <property role="Xl_RC" value="\\:" />
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-              <node concept="10M0yZ" id="dg39I4mZBM" role="3clFbw">
-                <ref role="1PxDUh" to="8d8y:~SystemInfo" resolve="SystemInfo" />
-                <ref role="3cqZAo" to="8d8y:~SystemInfo.isWindows" resolve="isWindows" />
-              </node>
-            </node>
             <node concept="3cpWs6" id="7jqSt7$yjCg" role="3cqZAp">
               <node concept="3cpWs3" id="7jqSt7$yiNr" role="3cqZAk">
                 <node concept="3cpWs3" id="7jqSt7$yiNs" role="3uHU7B">
