@@ -3930,7 +3930,7 @@
                 <property role="Xl_RC" value="%" />
               </node>
               <node concept="Xl_RD" id="4bkMdJnNPID" role="37wK5m">
-                <property role="Xl_RC" value="pourcent" />
+                <property role="Xl_RC" value="percent" />
               </node>
             </node>
           </node>
