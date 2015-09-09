@@ -2975,6 +2975,38 @@
           </node>
         </node>
       </node>
+      <node concept="3EZMnI" id="xggGiYQYY1" role="3EZMnx">
+        <node concept="VPM3Z" id="xggGiYQYY3" role="3F10Kt">
+          <property role="VOm3f" value="false" />
+        </node>
+        <node concept="3F0ifn" id="xggGiYQYY5" role="3EZMnx">
+          <property role="3F0ifm" value="Required bioConductor packages" />
+        </node>
+        <node concept="1HlG4h" id="xggGiYQZ6X" role="3EZMnx">
+          <node concept="1HfYo3" id="xggGiYQZ6Y" role="1HlULh">
+            <node concept="3TQlhw" id="xggGiYQZ6Z" role="1Hhtcw">
+              <node concept="3clFbS" id="xggGiYQZ70" role="2VODD2">
+                <node concept="3clFbF" id="xggGiYQZ71" role="3cqZAp">
+                  <node concept="2OqwBi" id="xggGiYQZ72" role="3clFbG">
+                    <node concept="2OqwBi" id="xggGiYQZ73" role="2Oq$k0">
+                      <node concept="pncrf" id="xggGiYQZ74" role="2Oq$k0" />
+                      <node concept="2qgKlT" id="xggGiYR0$P" role="2OqNvi">
+                        <ref role="37wK5l" to="v8sa:5HtHr3EcJDu" resolve="bioConductorDependencies" />
+                      </node>
+                    </node>
+                    <node concept="3uJxvA" id="xggGiYQZ76" role="2OqNvi">
+                      <node concept="Xl_RD" id="xggGiYQZ77" role="3uJOhx">
+                        <property role="Xl_RC" value=", " />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="l2Vlx" id="xggGiYQYY6" role="2iSdaV" />
+      </node>
       <node concept="3EZMnI" id="7jqSt7$AeTj" role="3EZMnx">
         <node concept="VPM3Z" id="7jqSt7$AeTl" role="3F10Kt">
           <property role="VOm3f" value="false" />
