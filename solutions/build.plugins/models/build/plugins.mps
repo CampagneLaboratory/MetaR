@@ -2359,12 +2359,6 @@
             <ref role="3bR37D" to="ffeo:7Kfy9QB6KXW" resolve="jetbrains.mps.lang.core" />
           </node>
         </node>
-        <node concept="1SiIV0" id="xggGiYVSj9" role="3bR37C">
-          <node concept="3bR9La" id="xggGiYVSja" role="1SiIV1">
-            <property role="3bR36h" value="false" />
-            <ref role="3bR37D" node="1$0xyBYfkEs" resolve="org.campagnelab.metar.code" />
-          </node>
-        </node>
         <node concept="1SiIV0" id="xggGiYVSjb" role="3bR37C">
           <node concept="3bR9La" id="xggGiYVSjc" role="1SiIV1">
             <property role="3bR36h" value="false" />
