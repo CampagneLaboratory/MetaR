@@ -240,8 +240,8 @@
                     <node concept="2PZJp2" id="4q8dPDmOEp" role="22sOXk">
                       <node concept="gNbv0" id="4q8dPDmOEq" role="134Gdu">
                         <node concept="V6WaU" id="4q8dPDmOEr" role="gNbrm">
-                          <node concept="2PZJpm" id="4q8dPDmOEs" role="gNbhV">
-                            <property role="pzxGI" value="BiocInstaller" />
+                          <node concept="2PZJpm" id="5aPfzAYalXG" role="gNbhV">
+                            <property role="pzxGI" value="biomaRt" />
                           </node>
                         </node>
                       </node>
