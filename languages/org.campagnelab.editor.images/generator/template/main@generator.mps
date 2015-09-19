@@ -103,6 +103,10 @@
         <child id="1068580123156" name="expression" index="3clFbG" />
       </concept>
       <concept id="1068580123157" name="jetbrains.mps.baseLanguage.structure.Statement" flags="nn" index="3clFbH" />
+      <concept id="1068580123159" name="jetbrains.mps.baseLanguage.structure.IfStatement" flags="nn" index="3clFbJ">
+        <child id="1068580123160" name="condition" index="3clFbw" />
+        <child id="1068580123161" name="ifTrue" index="3clFbx" />
+      </concept>
       <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
       </concept>
@@ -110,6 +114,7 @@
       <concept id="1068580320020" name="jetbrains.mps.baseLanguage.structure.IntegerConstant" flags="nn" index="3cmrfG">
         <property id="1068580320021" name="value" index="3cmrfH" />
       </concept>
+      <concept id="1068581242875" name="jetbrains.mps.baseLanguage.structure.PlusExpression" flags="nn" index="3cpWs3" />
       <concept id="1068581242878" name="jetbrains.mps.baseLanguage.structure.ReturnStatement" flags="nn" index="3cpWs6">
         <child id="1068581517676" name="expression" index="3cqZAk" />
       </concept>
@@ -118,6 +123,9 @@
       </concept>
       <concept id="1068581242863" name="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" flags="nr" index="3cpWsn" />
       <concept id="1068581517677" name="jetbrains.mps.baseLanguage.structure.VoidType" flags="in" index="3cqZAl" />
+      <concept id="1081516740877" name="jetbrains.mps.baseLanguage.structure.NotExpression" flags="nn" index="3fqX7Q">
+        <child id="1081516765348" name="expression" index="3fr31v" />
+      </concept>
       <concept id="1204053956946" name="jetbrains.mps.baseLanguage.structure.IMethodCall" flags="ng" index="1ndlxa">
         <reference id="1068499141037" name="baseMethodDeclaration" index="37wK5l" />
         <child id="1068499141038" name="actualArgument" index="37wK5m" />
@@ -593,7 +601,23 @@
           </node>
           <node concept="SfApY" id="37EhXvtDTxv" role="3cqZAp">
             <node concept="TDmWw" id="37EhXvtDTxw" role="TEbGg">
-              <node concept="3clFbS" id="37EhXvtDTxp" role="TDEfX" />
+              <node concept="3clFbS" id="37EhXvtDTxp" role="TDEfX">
+                <node concept="3cpWs6" id="2m2Y6fMPVpc" role="3cqZAp">
+                  <node concept="2ShNRf" id="2m2Y6fMPVpd" role="3cqZAk">
+                    <node concept="1pGfFk" id="2m2Y6fMPVpe" role="2ShVmc">
+                      <ref role="37wK5l" to="dbrf:~JLabel.&lt;init&gt;(java.lang.String)" resolve="JLabel" />
+                      <node concept="3cpWs3" id="2m2Y6fMPVpf" role="37wK5m">
+                        <node concept="37vLTw" id="2m2Y6fMPVpg" role="3uHU7w">
+                          <ref role="3cqZAo" node="37EhXvtGOyD" resolve="filename" />
+                        </node>
+                        <node concept="Xl_RD" id="2m2Y6fMPVph" role="3uHU7B">
+                          <property role="Xl_RC" value="Image not available: " />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
               <node concept="3cpWsn" id="37EhXvtDTxl" role="TDEfY">
                 <property role="3TUv4t" value="false" />
                 <property role="TrG5h" value="e" />
@@ -603,9 +627,54 @@
               </node>
             </node>
             <node concept="3clFbS" id="37EhXvtDTxe" role="SfCbr">
+              <node concept="3cpWs8" id="2m2Y6fMPoBO" role="3cqZAp">
+                <node concept="3cpWsn" id="2m2Y6fMPoBP" role="3cpWs9">
+                  <property role="TrG5h" value="file" />
+                  <node concept="3uibUv" id="2m2Y6fMPoBQ" role="1tU5fm">
+                    <ref role="3uigEE" to="fxg7:~File" resolve="File" />
+                  </node>
+                  <node concept="2ShNRf" id="2m2Y6fMPpj5" role="33vP2m">
+                    <node concept="1pGfFk" id="2m2Y6fMPpj6" role="2ShVmc">
+                      <ref role="37wK5l" to="fxg7:~File.&lt;init&gt;(java.lang.String)" resolve="File" />
+                      <node concept="37vLTw" id="2m2Y6fMPpj7" role="37wK5m">
+                        <ref role="3cqZAo" node="37EhXvtGOyD" resolve="filename" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3clFbJ" id="2m2Y6fMPkWf" role="3cqZAp">
+                <node concept="3clFbS" id="2m2Y6fMPkWh" role="3clFbx">
+                  <node concept="3cpWs6" id="2m2Y6fMPwbz" role="3cqZAp">
+                    <node concept="2ShNRf" id="2m2Y6fMPwsK" role="3cqZAk">
+                      <node concept="1pGfFk" id="2m2Y6fMPBmm" role="2ShVmc">
+                        <ref role="37wK5l" to="dbrf:~JLabel.&lt;init&gt;(java.lang.String)" resolve="JLabel" />
+                        <node concept="3cpWs3" id="2m2Y6fMPDFr" role="37wK5m">
+                          <node concept="37vLTw" id="2m2Y6fMPDXk" role="3uHU7w">
+                            <ref role="3cqZAo" node="37EhXvtGOyD" resolve="filename" />
+                          </node>
+                          <node concept="Xl_RD" id="2m2Y6fMPBF2" role="3uHU7B">
+                            <property role="Xl_RC" value="Image not available: " />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="3fqX7Q" id="2m2Y6fMPsZQ" role="3clFbw">
+                  <node concept="2OqwBi" id="2m2Y6fMPsZS" role="3fr31v">
+                    <node concept="37vLTw" id="2m2Y6fMPsZT" role="2Oq$k0">
+                      <ref role="3cqZAo" node="2m2Y6fMPoBP" resolve="file" />
+                    </node>
+                    <node concept="liA8E" id="2m2Y6fMPsZU" role="2OqNvi">
+                      <ref role="37wK5l" to="fxg7:~File.exists():boolean" resolve="exists" />
+                    </node>
+                  </node>
+                </node>
+              </node>
               <node concept="3clFbF" id="37EhXvtDTxf" role="3cqZAp">
                 <node concept="37vLTI" id="37EhXvtDTxg" role="3clFbG">
-                  <node concept="37vLTw" id="37EhXvtDTxh" role="37vLTJ">
+                  <node concept="37vLTw" id="2m2Y6fMPFfn" role="37vLTJ">
                     <ref role="3cqZAo" node="37EhXvtDTx9" resolve="image" />
                   </node>
                   <node concept="2YIFZM" id="37EhXvtEYU8" role="37vLTx">
@@ -614,7 +683,7 @@
                     <node concept="2ShNRf" id="37EhXvtEYU9" role="37wK5m">
                       <node concept="1pGfFk" id="37EhXvtEYUa" role="2ShVmc">
                         <ref role="37wK5l" to="fxg7:~File.&lt;init&gt;(java.lang.String)" resolve="File" />
-                        <node concept="37vLTw" id="37EhXvtGTtl" role="37wK5m">
+                        <node concept="37vLTw" id="2m2Y6fMPFfv" role="37wK5m">
                           <ref role="3cqZAo" node="37EhXvtGOyD" resolve="filename" />
                         </node>
                       </node>
