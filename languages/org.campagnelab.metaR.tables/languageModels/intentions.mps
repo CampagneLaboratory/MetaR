@@ -2468,5 +2468,59 @@
       </node>
     </node>
   </node>
+  <node concept="2S6QgY" id="2OXkbjPktvw">
+    <property role="3GE5qa" value="models" />
+    <property role="TrG5h" value="ToggleRandomSlope" />
+    <ref role="2ZfgGC" to="jrxw:2OXkbjPjheB" resolve="MixedModelColumnRef" />
+    <node concept="2S6ZIM" id="2OXkbjPktvx" role="2ZfVej">
+      <node concept="3clFbS" id="2OXkbjPktvy" role="2VODD2">
+        <node concept="3clFbF" id="2OXkbjPktPl" role="3cqZAp">
+          <node concept="3cpWs3" id="2OXkbjPku4W" role="3clFbG">
+            <node concept="1eOMI4" id="2OXkbjPkv14" role="3uHU7B">
+              <node concept="3K4zz7" id="2OXkbjPkv10" role="1eOMHV">
+                <node concept="Xl_RD" id="2OXkbjPkv7l" role="3K4E3e">
+                  <property role="Xl_RC" value="Remove" />
+                </node>
+                <node concept="Xl_RD" id="2OXkbjPkvrD" role="3K4GZi">
+                  <property role="Xl_RC" value="Add" />
+                </node>
+                <node concept="2OqwBi" id="2OXkbjPkucD" role="3K4Cdx">
+                  <node concept="2Sf5sV" id="2OXkbjPku7I" role="2Oq$k0" />
+                  <node concept="3TrcHB" id="2OXkbjPkuCF" role="2OqNvi">
+                    <ref role="3TsBF5" to="jrxw:2OXkbjPksM8" resolve="hasRandomSlope" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="Xl_RD" id="2OXkbjPktPk" role="3uHU7w">
+              <property role="Xl_RC" value=" Random Slope" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2Sbjvc" id="2OXkbjPktvz" role="2ZfgGD">
+      <node concept="3clFbS" id="2OXkbjPktv$" role="2VODD2">
+        <node concept="3clFbF" id="2OXkbjPkvOx" role="3cqZAp">
+          <node concept="37vLTI" id="2OXkbjPkwUf" role="3clFbG">
+            <node concept="3fqX7Q" id="2OXkbjPkwU$" role="37vLTx">
+              <node concept="2OqwBi" id="2OXkbjPkx0$" role="3fr31v">
+                <node concept="2Sf5sV" id="2OXkbjPkwYp" role="2Oq$k0" />
+                <node concept="3TrcHB" id="2OXkbjPkxlt" role="2OqNvi">
+                  <ref role="3TsBF5" to="jrxw:2OXkbjPksM8" resolve="hasRandomSlope" />
+                </node>
+              </node>
+            </node>
+            <node concept="2OqwBi" id="2OXkbjPkvQ2" role="37vLTJ">
+              <node concept="2Sf5sV" id="2OXkbjPkvOw" role="2Oq$k0" />
+              <node concept="3TrcHB" id="2OXkbjPkwaf" role="2OqNvi">
+                <ref role="3TsBF5" to="jrxw:2OXkbjPksM8" resolve="hasRandomSlope" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 
