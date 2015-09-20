@@ -2216,6 +2216,9 @@
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="3R5AwWRY9uN" resolve="TableRef" />
     </node>
+    <node concept="PrWs8" id="2OXkbjQ30zW" role="PzmwI">
+      <ref role="PrY4T" node="2OXkbjQ303b" resolve="HasRandomEffects" />
+    </node>
   </node>
   <node concept="1TIwiD" id="2OXkbjPjheB">
     <property role="TrG5h" value="MixedModelColumnRef" />
@@ -2231,6 +2234,46 @@
       <property role="20kJfa" value="randomSlope" />
       <ref role="20lvS9" to="ztlb:1UijAvvb9DJ" resolve="Column" />
     </node>
+  </node>
+  <node concept="1TIwiD" id="2OXkbjPQySc">
+    <property role="3GE5qa" value="models" />
+    <property role="TrG5h" value="CompareMixedModels" />
+    <property role="R4oN_" value="Compare two mixed models" />
+    <property role="34LRSv" value="compare mixed models" />
+    <ref role="1TJDcQ" node="7LvyiX4miiC" resolve="Statement" />
+    <node concept="1TJgyi" id="2OXkbjPQzfs" role="1TKVEl">
+      <property role="TrG5h" value="nameA" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="2OXkbjPQzfv" role="1TKVEl">
+      <property role="TrG5h" value="nameB" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyj" id="2OXkbjPQzff" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="formulaA" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="2rPl_HMV2Ax" resolve="Formula" />
+    </node>
+    <node concept="1TJgyj" id="2OXkbjPQzfl" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="formulaB" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="2rPl_HMV2Ax" resolve="Formula" />
+    </node>
+    <node concept="1TJgyj" id="2OXkbjPQzfg" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="table" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="3R5AwWRY9uN" resolve="TableRef" />
+    </node>
+    <node concept="PrWs8" id="2OXkbjQ5Yc4" role="PzmwI">
+      <ref role="PrY4T" node="2OXkbjQ303b" resolve="HasRandomEffects" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="2OXkbjQ303b">
+    <property role="3GE5qa" value="models" />
+    <property role="TrG5h" value="HasRandomEffects" />
   </node>
 </model>
 
