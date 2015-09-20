@@ -2189,5 +2189,48 @@
       <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
     </node>
   </node>
+  <node concept="1TIwiD" id="2OXkbjPjgQx">
+    <property role="TrG5h" value="TrainMixedModel" />
+    <property role="34LRSv" value="train mixed model" />
+    <property role="R4oN_" value="Train a mixed model" />
+    <property role="3GE5qa" value="models" />
+    <ref role="1TJDcQ" node="7LvyiX4miiC" resolve="Statement" />
+    <node concept="1TJgyi" id="2OXkbjPGW8V" role="1TKVEl">
+      <property role="TrG5h" value="REML" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+    <node concept="1TJgyj" id="2OXkbjPjgQy" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="model" />
+      <ref role="20lvS9" node="2rPl_HMXwEv" resolve="Model" />
+    </node>
+    <node concept="1TJgyj" id="2OXkbjPjgQz" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="formula" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="2rPl_HMV2Ax" resolve="Formula" />
+    </node>
+    <node concept="1TJgyj" id="2OXkbjPjgQ$" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="table" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="3R5AwWRY9uN" resolve="TableRef" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="2OXkbjPjheB">
+    <property role="TrG5h" value="MixedModelColumnRef" />
+    <property role="3GE5qa" value="models" />
+    <property role="34LRSv" value="1|" />
+    <ref role="1TJDcQ" node="2WRhvFtwVip" resolve="ColumnRef" />
+    <node concept="1TJgyi" id="2OXkbjPksM8" role="1TKVEl">
+      <property role="TrG5h" value="hasRandomSlope" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+    <node concept="1TJgyj" id="2OXkbjPjrPN" role="1TKVEi">
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="randomSlope" />
+      <ref role="20lvS9" to="ztlb:1UijAvvb9DJ" resolve="Column" />
+    </node>
+  </node>
 </model>
 

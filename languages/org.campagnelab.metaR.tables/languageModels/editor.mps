@@ -6105,5 +6105,101 @@
       </node>
     </node>
   </node>
+  <node concept="24kQdi" id="2OXkbjPjhlM">
+    <property role="3GE5qa" value="models" />
+    <ref role="1XX52x" to="jrxw:2OXkbjPjheB" resolve="MixedModelColumnRef" />
+    <node concept="3EZMnI" id="2OXkbjPjihv" role="2wV5jI">
+      <node concept="l2Vlx" id="2OXkbjPjihw" role="2iSdaV" />
+      <node concept="3F0ifn" id="2OXkbjPjiGK" role="3EZMnx">
+        <property role="3F0ifm" value="(" />
+      </node>
+      <node concept="3F0ifn" id="2OXkbjPjpt1" role="3EZMnx">
+        <property role="3F0ifm" value="1" />
+      </node>
+      <node concept="3EZMnI" id="2OXkbjPjqmp" role="3EZMnx">
+        <node concept="VPM3Z" id="2OXkbjPjqmr" role="3F10Kt">
+          <property role="VOm3f" value="false" />
+        </node>
+        <node concept="3F0ifn" id="2OXkbjPjqmt" role="3EZMnx">
+          <property role="3F0ifm" value="+" />
+        </node>
+        <node concept="1iCGBv" id="2OXkbjPj_3$" role="3EZMnx">
+          <ref role="1NtTu8" to="jrxw:2OXkbjPjrPN" />
+          <node concept="1sVBvm" id="2OXkbjPj_3A" role="1sWHZn">
+            <node concept="3F0A7n" id="2OXkbjPj_3M" role="2wV5jI">
+              <property role="1Intyy" value="true" />
+              <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+            </node>
+          </node>
+        </node>
+        <node concept="l2Vlx" id="2OXkbjPjqmu" role="2iSdaV" />
+        <node concept="pkWqt" id="2OXkbjPj_3Q" role="pqm2j">
+          <node concept="3clFbS" id="2OXkbjPj_3R" role="2VODD2">
+            <node concept="3clFbF" id="2OXkbjPj_6v" role="3cqZAp">
+              <node concept="2OqwBi" id="2OXkbjPj_at" role="3clFbG">
+                <node concept="pncrf" id="2OXkbjPj_6u" role="2Oq$k0" />
+                <node concept="3TrcHB" id="2OXkbjPktc3" role="2OqNvi">
+                  <ref role="3TsBF5" to="jrxw:2OXkbjPksM8" resolve="hasRandomSlope" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3F0ifn" id="2OXkbjPjAB$" role="3EZMnx">
+        <property role="3F0ifm" value="|" />
+      </node>
+      <node concept="1iCGBv" id="2OXkbjPjhVc" role="3EZMnx">
+        <ref role="1NtTu8" to="jrxw:2WRhvFtwViq" />
+        <node concept="1sVBvm" id="2OXkbjPjhVd" role="1sWHZn">
+          <node concept="3F0A7n" id="2OXkbjPjhVe" role="2wV5jI">
+            <property role="1Intyy" value="true" />
+            <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+            <ref role="1k5W1q" node="2rPl_HMU6tb" resolve="ColumnName" />
+            <node concept="VPxyj" id="2OXkbjPjhVf" role="3F10Kt">
+              <property role="VOm3f" value="false" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3F0ifn" id="2OXkbjPjAhk" role="3EZMnx">
+        <property role="3F0ifm" value=")" />
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="2OXkbjPrX6F">
+    <ref role="1XX52x" to="jrxw:2OXkbjPjgQx" resolve="TrainMixedModel" />
+    <node concept="3EZMnI" id="2OXkbjPrX7l" role="2wV5jI">
+      <node concept="3F0ifn" id="2OXkbjPrX7m" role="3EZMnx">
+        <property role="3F0ifm" value="train mixed model" />
+      </node>
+      <node concept="3F1sOY" id="2OXkbjPrX7n" role="3EZMnx">
+        <ref role="1NtTu8" to="jrxw:2OXkbjPjgQz" />
+      </node>
+      <node concept="3F0ifn" id="2OXkbjPrX7o" role="3EZMnx">
+        <property role="3F0ifm" value="with table" />
+        <ref role="1k5W1q" node="7Hltlm8H6Z1" resolve="Descriptive" />
+      </node>
+      <node concept="3F1sOY" id="2OXkbjPrX7p" role="3EZMnx">
+        <ref role="1NtTu8" to="jrxw:2OXkbjPjgQ$" />
+      </node>
+      <node concept="3F0ifn" id="2OXkbjPrX7q" role="3EZMnx">
+        <property role="3F0ifm" value="-&gt;" />
+      </node>
+      <node concept="3F1sOY" id="2OXkbjPrX7r" role="3EZMnx">
+        <ref role="1NtTu8" to="jrxw:2OXkbjPjgQy" />
+      </node>
+      <node concept="l2Vlx" id="2OXkbjPrX7s" role="2iSdaV" />
+    </node>
+    <node concept="3EZMnI" id="2OXkbjPGW8Y" role="6VMZX">
+      <node concept="l2Vlx" id="2OXkbjPGW8Z" role="2iSdaV" />
+      <node concept="3F0ifn" id="2OXkbjPGW94" role="3EZMnx">
+        <property role="3F0ifm" value="REML:" />
+      </node>
+      <node concept="3F0A7n" id="2OXkbjPGW9c" role="3EZMnx">
+        <ref role="1NtTu8" to="jrxw:2OXkbjPGW8V" resolve="REML" />
+      </node>
+    </node>
+  </node>
 </model>
 
