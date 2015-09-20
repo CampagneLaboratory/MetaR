@@ -2094,8 +2094,8 @@
               <node concept="nLn13" id="2OXkbjPkrfw" role="2Oq$k0" />
               <node concept="2Xjw5R" id="2OXkbjPkrz9" role="2OqNvi">
                 <node concept="1xMEDy" id="2OXkbjPkrzb" role="1xVPHs">
-                  <node concept="chp4Y" id="2OXkbjPks57" role="ri$Ld">
-                    <ref role="cht4Q" to="jrxw:2OXkbjPjgQx" resolve="TrainMixedModel" />
+                  <node concept="chp4Y" id="2OXkbjQ30Ox" role="ri$Ld">
+                    <ref role="cht4Q" to="jrxw:2OXkbjQ303b" resolve="HasRandomEffects" />
                   </node>
                 </node>
               </node>
