@@ -1092,6 +1092,9 @@ public class QueriesGenerated {
   public static Object propertyMacro_GetPropertyValue_3259850443433818863(final PropertyMacroContext _context) {
     return (SPropertyOperations.getBoolean(_context.getNode(), MetaAdapterFactory.getProperty(0x5d6bde844ce44eb5L, 0xa37e25a5edd55129L, 0x2d3d50b4f54d0da1L, 0x2d3d50b4f5b3c23bL, "REML")) ? "TRUE" : "FALSE");
   }
+  public static Object propertyMacro_GetPropertyValue_3259850443442258693(final PropertyMacroContext _context) {
+    return Model_Behavior.call_getCleanModelName_2807244893511582582(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x5d6bde844ce44eb5L, 0xa37e25a5edd55129L, 0x2d3d50b4f54d0da1L, 0x2d3d50b4f54d0da2L, "model")));
+  }
   public static Object propertyMacro_GetPropertyValue_3259850443428789667(final PropertyMacroContext _context) {
     return Statement_Behavior.call_id_3007013211740741445(_context.getNode());
   }
