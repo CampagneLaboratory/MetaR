@@ -5,11 +5,24 @@
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="-1" />
     <use id="46803809-20ee-443f-bea9-0bee114b90b3" name="org.campagnelab.metar.edgeR" version="1" />
     <use id="049ed9e7-0f0d-4814-a373-a4b21e15b59e" name="org.campagnelab.metar.limma" version="-1" />
+    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="0" />
+    <use id="901f5cf3-dc77-4c1e-bc5a-6382baee28b4" name="org.campagnelab.textoutput" version="0" />
+    <use id="ecf91126-e504-4aae-8ee7-3192d64e77f6" name="org.campagnelab.mps.XChart.types" version="0" />
+    <use id="4caf0310-491e-41f5-8a9b-2006b3a94898" name="jetbrains.mps.execution.util" version="0" />
+    <use id="ed6d7656-532c-4bc2-81d1-af945aeb8280" name="jetbrains.mps.baseLanguage.blTypes" version="0" />
+    <use id="9ded098b-ad6a-4657-bfd9-48636cfe8bc3" name="jetbrains.mps.lang.traceable" version="0" />
+    <use id="837afec3-cff0-45b1-a221-6b811148f87e" name="org.campagnelab.metar.R.gen" version="0" />
+    <use id="af754813-06c7-4cd1-8f24-cc91ec8e5d34" name="org.campagnelab.metar.with.r" version="0" />
+    <use id="c1747c67-8f42-4d83-9542-4a948aec17d9" name="org.campagnelab.metar.functions.importing" version="0" />
+    <use id="e633fc48-0aaf-45b5-9894-247b67cf0890" name="org.campagnelab.metar.biomart" version="0" />
+    <use id="040d3459-0033-45bb-b823-4cfd22657c15" name="org.campagnelab.metar.biomartToR" version="0" />
     <devkit ref="8a3636fa-c6ec-4cb0-bc2a-b7143f2a4937(org.campagnelab.metaR)" />
   </languages>
   <imports>
+    <import index="rlu9" ref="r:2815b05a-19fb-48b1-b650-5a86998b563c(org.campagnelab.metar.biomartToR.structure)" />
     <import index="wiqx" ref="r:6bfd7c1b-dea3-4f98-9ed3-bce7739b7a8d(org.campagnelab.metar.accessories.styles.colors)" implicit="true" />
     <import index="9nc5" ref="r:d1a256e6-591a-459f-809c-7fc9df45e4d5(org.campagnelab.mps.XChart.types.roots)" implicit="true" />
+    <import index="4tsn" ref="r:97aeaa4f-346d-4633-b5a0-99879648272c(R3_1_3@stubs)" implicit="true" />
     <import index="sfo9" ref="f:diff_old#r:7808fd4b-bef8-4f17-bbc4-f13fb6c0aab7(Demo_with_continous_data@old)" implicit="true" />
   </imports>
   <registry>
@@ -27,6 +40,12 @@
       </concept>
       <concept id="6329021646629104957" name="jetbrains.mps.baseLanguage.structure.TextCommentPart" flags="nn" index="3SKdUq">
         <property id="6329021646629104958" name="text" index="3SKdUp" />
+      </concept>
+    </language>
+    <language id="040d3459-0033-45bb-b823-4cfd22657c15" name="org.campagnelab.metar.biomartToR">
+      <concept id="4878268351238000594" name="org.campagnelab.metar.biomartToR.structure.ExposedColumn" flags="ng" index="1x8lzE">
+        <reference id="4878268351238001566" name="column" index="1x8kiA" />
+        <reference id="8641281067910071393" name="futureTable" index="1YZnGS" />
       </concept>
     </language>
     <language id="ecc862c9-5ab5-42ef-8703-2039019fb338" name="org.campagnelab.metar.models">
@@ -63,6 +82,32 @@
         <child id="5124039371776301535" name="adjustedCountsTable" index="1eMUtQ" />
       </concept>
     </language>
+    <language id="3b58810c-8431-4bbb-99ea-b4671e02dd13" name="org.campagnelab.metar.R">
+      <concept id="5770663561153558147" name="org.campagnelab.metar.R.structure.ParameterValue" flags="ng" index="gNblG">
+        <property id="5770663561153558418" name="id" index="gNbhX" />
+        <reference id="1556967766004741819" name="parameter" index="eUkdk" />
+        <child id="5770663561153558420" name="value" index="gNbhV" />
+      </concept>
+      <concept id="5770663561153557551" name="org.campagnelab.metar.R.structure.ParameterValues" flags="ng" index="gNbv0">
+        <child id="5770663561153557817" name="values" index="gNbrm" />
+      </concept>
+      <concept id="6176023809880707756" name="org.campagnelab.metar.R.structure.FunctionCallExpr" flags="ng" index="2PZJp2">
+        <child id="3737166271524886452" name="id" index="134Gdo" />
+        <child id="3737166271524886450" name="parameters" index="134Gdu" />
+      </concept>
+      <concept id="4933197140516011539" name="org.campagnelab.metar.R.structure.PositionalParameterValue" flags="ng" index="V6WaU" />
+      <concept id="4933197140516011540" name="org.campagnelab.metar.R.structure.ParameterValueWithId" flags="ng" index="V6WaX" />
+      <concept id="3737166271522079190" name="org.campagnelab.metar.R.structure.Exprlist" flags="ng" index="13u1kU">
+        <child id="3737166271522079191" name="expressions" index="13u1kV" />
+      </concept>
+      <concept id="7431839982580115597" name="org.campagnelab.metar.R.structure.FunctionIdRef" flags="ng" index="3a69Ir">
+        <reference id="7431839982580117056" name="function" index="3a69Pm" />
+      </concept>
+      <concept id="1826877622977697003" name="org.campagnelab.metar.R.structure.EmptyLine" flags="ng" index="3cU4HJ" />
+      <concept id="1499760628227103368" name="org.campagnelab.metar.R.structure.IdentifierRef" flags="ng" index="1LhYbg">
+        <reference id="1499760628227131747" name="id" index="1Li74V" />
+      </concept>
+    </language>
     <language id="46803809-20ee-443f-bea9-0bee114b90b3" name="org.campagnelab.metar.edgeR">
       <concept id="8725455673819557579" name="org.campagnelab.metar.edgeR.structure.EdgeRTest" flags="ng" index="3cumm0">
         <child id="8725455673819568087" name="countsTable" index="3cupL$" />
@@ -70,6 +115,11 @@
         <child id="8725455673820830442" name="dispersionMethod" index="3c_H5u" />
       </concept>
       <concept id="8725455673820802853" name="org.campagnelab.metar.edgeR.structure.TagWiseDispersion" flags="ng" index="3c_Aih" />
+    </language>
+    <language id="af754813-06c7-4cd1-8f24-cc91ec8e5d34" name="org.campagnelab.metar.with.r">
+      <concept id="6508763087478324932" name="org.campagnelab.metar.with.r.structure.RExpressionList" flags="ng" index="1m0zHf">
+        <child id="6508763087478368657" name="expression" index="1m0mKq" />
+      </concept>
     </language>
     <language id="5d6bde84-4ce4-4eb5-a37e-25a5edd55129" name="org.campagnelab.metar.tables">
       <concept id="5703306641526703227" name="org.campagnelab.metar.tables.structure.SelectGroupUsage" flags="ng" index="2tndn">
@@ -3562,6 +3612,51 @@
             <ref role="3MW7Y9" node="2734ievegB8" resolve="LPS=NO" />
           </node>
         </node>
+      </node>
+      <node concept="1m0zHf" id="2o$O_6Sj2kU" role="ZXjPg">
+        <property role="S1EQ6" value="YQQIRILLVN" />
+        <node concept="13u1kU" id="2o$O_6Sj2kW" role="1m0mKq">
+          <node concept="2PZJp2" id="2o$O_6Sj4lG" role="13u1kV">
+            <node concept="gNbv0" id="2o$O_6Sj4lH" role="134Gdu">
+              <node concept="V6WaX" id="2o$O_6Sj4lT" role="gNbrm">
+                <property role="gNbhX" value="object" />
+                <ref role="eUkdk" to="4tsn:364jCD04XC5" resolve="object" />
+                <node concept="1x8lzE" id="2o$O_6Sl50j" role="gNbhV">
+                  <property role="TrG5h" value="joined adjusted" />
+                  <ref role="1YZnGS" node="4ssfE$b9VeS" resolve="joined adjusted" />
+                  <ref role="1x8kiA" node="4bcN0BgqFwV" resolve="sample_15_LPS" />
+                </node>
+              </node>
+            </node>
+            <node concept="3a69Ir" id="2o$O_6Sj4lR" role="134Gdo">
+              <ref role="3a69Pm" to="4tsn:364jCD04XC3" />
+              <ref role="1Li74V" to="4tsn:364jCD04XC2" resolve="summary" />
+            </node>
+          </node>
+          <node concept="2PZJp2" id="2o$O_6Sm6Ty" role="13u1kV">
+            <node concept="gNbv0" id="2o$O_6Sm6TC" role="134Gdu">
+              <node concept="V6WaU" id="2o$O_6Sm6U9" role="gNbrm">
+                <node concept="V6WaX" id="2o$O_6Sm6UE" role="gNbhV">
+                  <property role="gNbhX" value="object" />
+                  <ref role="eUkdk" to="4tsn:364jCD04XC5" resolve="object" />
+                  <node concept="1x8lzE" id="2o$O_6Sm6US" role="gNbhV">
+                    <property role="TrG5h" value="joined no adjustments" />
+                    <ref role="1YZnGS" node="4ssfE$bjHNL" resolve="joined no adjustments" />
+                    <ref role="1x8kiA" node="4bcN0BgqFEs" resolve="sample_15_LPS" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3a69Ir" id="2o$O_6Sm6U8" role="134Gdo">
+              <ref role="3a69Pm" to="4tsn:364jCD04XC3" />
+              <ref role="1Li74V" to="4tsn:364jCD04XC2" resolve="summary" />
+            </node>
+          </node>
+          <node concept="3cU4HJ" id="2o$O_6Sj4u4" role="13u1kV" />
+        </node>
+      </node>
+      <node concept="S1EQe" id="2o$O_6SlHot" role="ZXjPg">
+        <property role="S1EQ6" value="WPAQNYXDBH" />
       </node>
       <node concept="nccVD" id="4bcN0Bgr$kw" role="ZXjPg">
         <property role="S1EQ6" value="PVWHAIURFO" />
