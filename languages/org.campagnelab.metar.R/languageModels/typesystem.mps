@@ -1375,9 +1375,9 @@
           </node>
           <node concept="3cpWs8" id="1XSraqAnVuf" role="3cqZAp">
             <node concept="3cpWsn" id="1XSraqAnVug" role="3cpWs9">
-              <property role="TrG5h" value="script" />
+              <property role="TrG5h" value="hasPackageImports" />
               <node concept="3Tqbb2" id="1XSraqAnVu9" role="1tU5fm">
-                <ref role="ehGHo" to="6q58:5mPDeVwiJFe" resolve="RScript" />
+                <ref role="ehGHo" to="6q58:5DjLoGcBJPy" resolve="HasPackageImports" />
               </node>
               <node concept="2OqwBi" id="1XSraqAnVuh" role="33vP2m">
                 <node concept="37vLTw" id="1XSraqAnVui" role="2Oq$k0">
@@ -1385,8 +1385,8 @@
                 </node>
                 <node concept="2Xjw5R" id="1XSraqAnVuj" role="2OqNvi">
                   <node concept="1xMEDy" id="1XSraqAnVuk" role="1xVPHs">
-                    <node concept="chp4Y" id="1XSraqAnVul" role="ri$Ld">
-                      <ref role="cht4Q" to="6q58:5mPDeVwiJFe" resolve="RScript" />
+                    <node concept="chp4Y" id="5DjLoGcBKzr" role="ri$Ld">
+                      <ref role="cht4Q" to="6q58:5DjLoGcBJPy" resolve="HasPackageImports" />
                     </node>
                   </node>
                 </node>
@@ -1406,8 +1406,8 @@
                   </node>
                   <node concept="3CnSsL" id="1XSraqAnVqL" role="3Coj4f">
                     <ref role="QkamJ" node="1XSraqAnNqi" resolve="script" />
-                    <node concept="37vLTw" id="1XSraqAnVIJ" role="3CoRuB">
-                      <ref role="3cqZAo" node="1XSraqAnVug" resolve="script" />
+                    <node concept="37vLTw" id="5DjLoGcBLoL" role="3CoRuB">
+                      <ref role="3cqZAo" node="1XSraqAnVug" resolve="hasPackageImports" />
                     </node>
                   </node>
                 </node>
@@ -1432,7 +1432,7 @@
             <node concept="2OqwBi" id="1XSraqAmsco" role="3clFbw">
               <node concept="2OqwBi" id="1XSraqAmqXJ" role="2Oq$k0">
                 <node concept="37vLTw" id="1XSraqAnVum" role="2Oq$k0">
-                  <ref role="3cqZAo" node="1XSraqAnVug" resolve="script" />
+                  <ref role="3cqZAo" node="1XSraqAnVug" resolve="hasPackageImports" />
                 </node>
                 <node concept="3Tsc0h" id="1XSraqAmrfP" role="2OqNvi">
                   <ref role="3TtcxE" to="6q58:1XSraqAgkdq" />
@@ -1511,7 +1511,7 @@
     <node concept="Q6JDH" id="1XSraqAnNqi" role="Q6Id_">
       <property role="TrG5h" value="script" />
       <node concept="3Tqbb2" id="1XSraqAnNqq" role="Q6QK4">
-        <ref role="ehGHo" to="6q58:5mPDeVwiJFe" resolve="RScript" />
+        <ref role="ehGHo" to="6q58:5DjLoGcBJPy" resolve="HasPackageImports" />
       </node>
     </node>
     <node concept="Q5ZZ6" id="1XSraqAnNj4" role="Q6x$H">
