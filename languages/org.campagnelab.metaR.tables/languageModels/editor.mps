@@ -6221,6 +6221,7 @@
         </node>
         <node concept="3F0A7n" id="2OXkbjPQzR9" role="3EZMnx">
           <ref role="1NtTu8" to="jrxw:2OXkbjPQzfs" resolve="nameA" />
+          <ref role="1k5W1q" node="2rPl_HMZ$Tf" resolve="Model" />
         </node>
         <node concept="3F1sOY" id="2OXkbjPQzRo" role="3EZMnx">
           <ref role="1NtTu8" to="jrxw:2OXkbjPQzff" />
@@ -6239,6 +6240,7 @@
         </node>
         <node concept="3F0A7n" id="2OXkbjPQzTY" role="3EZMnx">
           <ref role="1NtTu8" to="jrxw:2OXkbjPQzfv" resolve="nameB" />
+          <ref role="1k5W1q" node="2rPl_HMZ$Tf" resolve="Model" />
         </node>
         <node concept="3F1sOY" id="2OXkbjPQzTZ" role="3EZMnx">
           <ref role="1NtTu8" to="jrxw:2OXkbjPQzfl" />

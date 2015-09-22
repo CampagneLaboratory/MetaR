@@ -9,6 +9,7 @@
   <imports>
     <import index="l5qg" ref="r:c3c8723d-4db5-4e18-902d-1cb272fe4ddf(org.campagnelab.metar.R.gen.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
+    <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
@@ -23,6 +24,9 @@
         <property id="5092175715804935370" name="conceptAlias" index="34LRSv" />
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
         <child id="1071489727084" name="propertyDeclaration" index="1TKVEl" />
+      </concept>
+      <concept id="1169125989551" name="jetbrains.mps.lang.structure.structure.InterfaceConceptDeclaration" flags="ig" index="PlHQZ">
+        <child id="1169127546356" name="extends" index="PrDN$" />
       </concept>
       <concept id="1169127622168" name="jetbrains.mps.lang.structure.structure.InterfaceConceptReference" flags="ig" index="PrWs8">
         <reference id="1169127628841" name="intfc" index="PrY4T" />
@@ -74,23 +78,17 @@
     <property role="OYydz" value="Program" />
     <property role="19KtqR" value="true" />
     <ref role="1TJDcQ" node="5mPDeVwiJFd" resolve="Prog" />
-    <node concept="1TJgyj" id="1XSraqAgkdq" role="1TKVEi">
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="importedPackages" />
-      <property role="20lbJX" value="0..n" />
-      <ref role="20lvS9" node="1XSraqAgjQs" resolve="ImportedPackage" />
-    </node>
     <node concept="PrWs8" id="3V2IUSrKJMt" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
-    </node>
-    <node concept="PrWs8" id="7kgUw1gMaPb" role="PzmwI">
-      <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
     </node>
     <node concept="PrWs8" id="6efZaUg9LNF" role="PzmwI">
       <ref role="PrY4T" to="l5qg:6efZaUfXFRm" resolve="IGenerateToRScript" />
     </node>
     <node concept="PrWs8" id="6efZaUgJM6_" role="PzmwI">
       <ref role="PrY4T" to="l5qg:6efZaUgJLSo" resolve="IExposeIdentifiers" />
+    </node>
+    <node concept="PrWs8" id="5DjLoGcBJPN" role="PzmwI">
+      <ref role="PrY4T" node="5DjLoGcBJPy" resolve="HasPackageImports" />
     </node>
   </node>
   <node concept="1TIwiD" id="5mPDeVwiPap">
@@ -543,6 +541,9 @@
       <property role="20kJfa" value="expressions" />
       <property role="20lbJX" value="0..n" />
       <ref role="20lvS9" node="5mPDeVwiPap" resolve="Expr" />
+    </node>
+    <node concept="PrWs8" id="5DjLoGcBKOK" role="PzmwI">
+      <ref role="PrY4T" node="5DjLoGcBJPy" resolve="HasPackageImports" />
     </node>
   </node>
   <node concept="1TIwiD" id="3ft5eLKNXvb">
@@ -1066,6 +1067,29 @@
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="1XSraqAgjUq" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="5DjLoGcBJPy">
+    <property role="3GE5qa" value="packages" />
+    <property role="TrG5h" value="HasPackageImports" />
+    <node concept="1TJgyj" id="1XSraqAgkdq" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="importedPackages" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="1XSraqAgjQs" resolve="ImportedPackage" />
+    </node>
+    <node concept="PrWs8" id="2o$O_6R_ljO" role="PrDN$">
+      <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="2o$O_6RLatF">
+    <property role="3GE5qa" value="packages" />
+    <property role="TrG5h" value="ShowScope" />
+    <ref role="1TJDcQ" node="5mPDeVwiPap" resolve="Expr" />
+    <node concept="1TJgyj" id="2o$O_6RN_cw" role="1TKVEi">
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="concept" />
+      <ref role="20lvS9" to="tpce:f_TIwhg" resolve="ConceptDeclaration" />
     </node>
   </node>
 </model>
