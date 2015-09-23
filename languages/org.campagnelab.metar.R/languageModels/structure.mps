@@ -116,7 +116,6 @@
   <node concept="1TIwiD" id="5mPDeVwiPar">
     <property role="TrG5h" value="ListAccessExpr" />
     <property role="OYydz" value="ListAccess" />
-    <property role="34LRSv" value="[" />
     <ref role="1TJDcQ" node="5mPDeVwiPap" resolve="Expr" />
     <node concept="1TJgyj" id="1_qnSjm13gx" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
