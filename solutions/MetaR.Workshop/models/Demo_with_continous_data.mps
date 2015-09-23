@@ -95,6 +95,10 @@
         <child id="3737166271524886452" name="id" index="134Gdo" />
         <child id="3737166271524886450" name="parameters" index="134Gdu" />
       </concept>
+      <concept id="6176023809880707768" name="org.campagnelab.metar.R.structure.StringLiteralExpr" flags="ng" index="2PZJpm">
+        <property id="1229604057012663630" name="value" index="pzxGI" />
+      </concept>
+      <concept id="2267681875390709148" name="org.campagnelab.metar.R.structure.ImportedPackage" flags="ng" index="2Tel4U" />
       <concept id="4933197140516011539" name="org.campagnelab.metar.R.structure.PositionalParameterValue" flags="ng" index="V6WaU" />
       <concept id="4933197140516011540" name="org.campagnelab.metar.R.structure.ParameterValueWithId" flags="ng" index="V6WaX" />
       <concept id="3737166271522079190" name="org.campagnelab.metar.R.structure.Exprlist" flags="ng" index="13u1kU">
@@ -104,6 +108,9 @@
         <reference id="7431839982580117056" name="function" index="3a69Pm" />
       </concept>
       <concept id="1826877622977697003" name="org.campagnelab.metar.R.structure.EmptyLine" flags="ng" index="3cU4HJ" />
+      <concept id="6508763087483370850" name="org.campagnelab.metar.R.structure.HasPackageImports" flags="ng" index="1mNjzD">
+        <child id="2267681875390710618" name="importedPackages" index="2TeiZW" />
+      </concept>
       <concept id="1499760628227103368" name="org.campagnelab.metar.R.structure.IdentifierRef" flags="ng" index="1LhYbg">
         <reference id="1499760628227131747" name="id" index="1Li74V" />
       </concept>
@@ -3616,6 +3623,19 @@
       <node concept="1m0zHf" id="2o$O_6Sj2kU" role="ZXjPg">
         <property role="S1EQ6" value="YQQIRILLVN" />
         <node concept="13u1kU" id="2o$O_6Sj2kW" role="1m0mKq">
+          <node concept="2PZJp2" id="6Gi2NSa9HH3" role="13u1kV">
+            <node concept="gNbv0" id="6Gi2NSa9HH9" role="134Gdu">
+              <node concept="V6WaU" id="6Gi2NSa9HHa" role="gNbrm">
+                <node concept="2PZJpm" id="6Gi2NSa9HHd" role="gNbhV">
+                  <property role="pzxGI" value="biomaRt" />
+                </node>
+              </node>
+            </node>
+            <node concept="3a69Ir" id="6Gi2NSa9HI5" role="134Gdo">
+              <ref role="3a69Pm" to="4tsn:1yhT8VTIzyP" />
+              <ref role="1Li74V" to="4tsn:1yhT8VTIzyO" resolve="library" />
+            </node>
+          </node>
           <node concept="2PZJp2" id="2o$O_6Sj4lG" role="13u1kV">
             <node concept="gNbv0" id="2o$O_6Sj4lH" role="134Gdu">
               <node concept="V6WaX" id="2o$O_6Sj4lT" role="gNbrm">
@@ -3653,6 +3673,9 @@
             </node>
           </node>
           <node concept="3cU4HJ" id="2o$O_6Sj4u4" role="13u1kV" />
+          <node concept="2Tel4U" id="6Gi2NSa9HI9" role="2TeiZW">
+            <property role="TrG5h" value="biomaRt" />
+          </node>
         </node>
       </node>
       <node concept="S1EQe" id="2o$O_6SlHot" role="ZXjPg">

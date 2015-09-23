@@ -1434,8 +1434,8 @@
                 <node concept="37vLTw" id="1XSraqAnVum" role="2Oq$k0">
                   <ref role="3cqZAo" node="1XSraqAnVug" resolve="hasPackageImports" />
                 </node>
-                <node concept="3Tsc0h" id="1XSraqAmrfP" role="2OqNvi">
-                  <ref role="3TtcxE" to="6q58:1XSraqAgkdq" />
+                <node concept="2qgKlT" id="6Gi2NSa9sfR" role="2OqNvi">
+                  <ref role="37wK5l" to="69j5:5DjLoGcBLp2" resolve="collatePackageImports" />
                 </node>
               </node>
               <node concept="2HxqBE" id="1XSraqAmt$A" role="2OqNvi">
