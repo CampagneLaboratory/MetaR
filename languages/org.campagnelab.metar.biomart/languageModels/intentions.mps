@@ -922,7 +922,7 @@
       <node concept="3clFbS" id="KwXu1XcJ8C" role="2VODD2">
         <node concept="3cpWs6" id="KwXu1XcJw$" role="3cqZAp">
           <node concept="Xl_RD" id="KwXu1XcJEA" role="3cqZAk">
-            <property role="Xl_RC" value="Update Mart Registry" />
+            <property role="Xl_RC" value="Refresh Registry" />
           </node>
         </node>
       </node>
