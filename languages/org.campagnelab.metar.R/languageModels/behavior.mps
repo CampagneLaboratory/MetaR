@@ -1890,38 +1890,19 @@
               </node>
             </node>
             <node concept="4Tj9Z" id="5DjLoGcBXji" role="2OqNvi">
-              <node concept="2OqwBi" id="6Gi2NSa8UHk" role="576Qk">
-                <node concept="2OqwBi" id="5DjLoGcBXT_" role="2Oq$k0">
-                  <node concept="2OqwBi" id="5DjLoGcBL_p" role="2Oq$k0">
-                    <node concept="13iPFW" id="5DjLoGcBL$0" role="2Oq$k0" />
-                    <node concept="2Rf3mk" id="5DjLoGcBLNe" role="2OqNvi">
-                      <node concept="1xMEDy" id="5DjLoGcBLNg" role="1xVPHs">
-                        <node concept="chp4Y" id="5DjLoGcBLTz" role="ri$Ld">
-                          <ref role="cht4Q" to="6q58:5DjLoGcBJPy" resolve="HasPackageImports" />
-                        </node>
+              <node concept="2OqwBi" id="5DjLoGcBXT_" role="576Qk">
+                <node concept="2OqwBi" id="5DjLoGcBL_p" role="2Oq$k0">
+                  <node concept="13iPFW" id="5DjLoGcBL$0" role="2Oq$k0" />
+                  <node concept="2Rf3mk" id="5DjLoGcBLNe" role="2OqNvi">
+                    <node concept="1xMEDy" id="5DjLoGcBLNg" role="1xVPHs">
+                      <node concept="chp4Y" id="5DjLoGcBLTz" role="ri$Ld">
+                        <ref role="cht4Q" to="6q58:5DjLoGcBJPy" resolve="HasPackageImports" />
                       </node>
                     </node>
-                  </node>
-                  <node concept="13MTOL" id="5DjLoGcC0zF" role="2OqNvi">
-                    <ref role="13MTZf" to="6q58:1XSraqAgkdq" />
                   </node>
                 </node>
-                <node concept="4Tj9Z" id="6Gi2NSa8toq" role="2OqNvi">
-                  <node concept="2OqwBi" id="6Gi2NSa8u45" role="576Qk">
-                    <node concept="2OqwBi" id="6Gi2NSa8tuD" role="2Oq$k0">
-                      <node concept="13iPFW" id="6Gi2NSa8trC" role="2Oq$k0" />
-                      <node concept="2Xjw5R" id="6Gi2NSa8tXu" role="2OqNvi">
-                        <node concept="1xMEDy" id="6Gi2NSa8tXw" role="1xVPHs">
-                          <node concept="chp4Y" id="6Gi2NSa8u0m" role="ri$Ld">
-                            <ref role="cht4Q" to="6q58:5DjLoGcBJPy" resolve="HasPackageImports" />
-                          </node>
-                        </node>
-                      </node>
-                    </node>
-                    <node concept="2qgKlT" id="6Gi2NSa8ugm" role="2OqNvi">
-                      <ref role="37wK5l" node="5DjLoGcBLp2" resolve="collatePackageImports" />
-                    </node>
-                  </node>
+                <node concept="13MTOL" id="5DjLoGcC0zF" role="2OqNvi">
+                  <ref role="13MTZf" to="6q58:1XSraqAgkdq" />
                 </node>
               </node>
             </node>

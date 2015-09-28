@@ -4735,7 +4735,7 @@
           <node concept="gNbv0" id="DoqG1rIDwn" role="134Gdu">
             <node concept="V6WaU" id="DoqG1rIDwo" role="gNbrm">
               <node concept="2PZJpm" id="DoqG1rIDwp" role="gNbhV">
-                <property role="pzxGI" value="edgeR" />
+                <property role="pzxGI" value="BiocInstaller" />
               </node>
             </node>
           </node>
@@ -4768,10 +4768,12 @@
             </node>
           </node>
           <node concept="2PZJp2" id="DoqG1rIDw$" role="13u1kV">
+            <node concept="2PZJpp" id="DoqG1rIDw_" role="134Gdo">
+              <property role="TrG5h" value="biocLite" />
+            </node>
             <node concept="gNbv0" id="DoqG1rIDwA" role="134Gdu">
               <node concept="V6WaX" id="DoqG1rIDwB" role="gNbrm">
                 <property role="gNbhX" value="ask" />
-                <ref role="eUkdk" to="4tsn:4MN$qOAQKSg" resolve="ask" />
                 <node concept="2PZJoG" id="DoqG1rIDwC" role="gNbhV" />
               </node>
               <node concept="V6WaU" id="DoqG1rIDwD" role="gNbrm">
@@ -4789,10 +4791,6 @@
                   </node>
                 </node>
               </node>
-            </node>
-            <node concept="3a69Ir" id="6Gi2NSa8pof" role="134Gdo">
-              <ref role="3a69Pm" to="4tsn:4MN$qOAQKRW" />
-              <ref role="1Li74V" to="4tsn:4MN$qOAQKRV" resolve="biocLite" />
             </node>
           </node>
           <node concept="3cU4HJ" id="DoqG1rJoFJ" role="13u1kV" />
@@ -4962,9 +4960,6 @@
               <ref role="1Li74V" to="4tsn:1yhT8VTIzyO" resolve="library" />
             </node>
           </node>
-          <node concept="2Tel4U" id="6Gi2NSa9qgu" role="2TeiZW">
-            <property role="TrG5h" value="Cairo" />
-          </node>
         </node>
       </node>
     </node>
@@ -5020,9 +5015,6 @@
               <ref role="1Li74V" to="4tsn:1yhT8VTIzyO" resolve="library" />
             </node>
           </node>
-          <node concept="2Tel4U" id="6Gi2NSa4OEE" role="2TeiZW">
-            <property role="TrG5h" value="pheatmap" />
-          </node>
         </node>
       </node>
     </node>
@@ -5077,9 +5069,6 @@
               <ref role="3a69Pm" to="4tsn:1yhT8VTIzyP" />
               <ref role="1Li74V" to="4tsn:1yhT8VTIzyO" resolve="library" />
             </node>
-          </node>
-          <node concept="2Tel4U" id="6Gi2NSa9qgq" role="2TeiZW">
-            <property role="TrG5h" value="limma" />
           </node>
         </node>
       </node>
@@ -5190,7 +5179,7 @@
       <node concept="13u1kU" id="DoqG1rIDyO" role="13uv25">
         <node concept="2PZJp2" id="DoqG1rIDyQ" role="13u1kV">
           <node concept="2PZJp4" id="DoqG1rIDyR" role="134Gdo">
-            <node concept="1LhYbg" id="6Gi2NSa9qgE" role="2v3moI">
+            <node concept="1LhYbg" id="1XSraqAlR_f" role="2v3moI">
               <ref role="1Li74V" to="4tsn:1yhT8VTLobh" resolve="fread" />
             </node>
             <node concept="2PZJpp" id="DoqG1rIDyS" role="2v3mow">
@@ -8088,36 +8077,12 @@
         <node concept="2PZJpp" id="14BZZ_hJ9n_" role="13u1kV">
           <property role="TrG5h" value="sdds" />
         </node>
-        <node concept="2Tel4U" id="6Gi2NSa9GIK" role="2TeiZW">
-          <property role="TrG5h" value="biomaRt" />
-        </node>
       </node>
     </node>
     <node concept="3cU4HJ" id="DoqG1rIG6D" role="pZjJ2" />
     <node concept="3cU4HJ" id="DoqG1rIG6E" role="pZjJ2" />
     <node concept="3cU4HJ" id="DoqG1rIG6F" role="pZjJ2" />
     <node concept="3cU4HJ" id="DoqG1rIG6G" role="pZjJ2" />
-    <node concept="2Tel4U" id="6Gi2NSa4HWO" role="2TeiZW">
-      <property role="TrG5h" value="plyr" />
-    </node>
-    <node concept="2Tel4U" id="6Gi2NSa4ISa" role="2TeiZW">
-      <property role="TrG5h" value="data.table" />
-    </node>
-    <node concept="2Tel4U" id="6Gi2NSa4ISh" role="2TeiZW">
-      <property role="TrG5h" value="limma" />
-    </node>
-    <node concept="2Tel4U" id="6Gi2NSa4OD$" role="2TeiZW">
-      <property role="TrG5h" value="BiocInstaller" />
-    </node>
-    <node concept="2Tel4U" id="6Gi2NSa4ODL" role="2TeiZW">
-      <property role="TrG5h" value="edgeR" />
-    </node>
-    <node concept="2Tel4U" id="6Gi2NSa4OE1" role="2TeiZW">
-      <property role="TrG5h" value="Cairo" />
-    </node>
-    <node concept="2Tel4U" id="6Gi2NSa4OEk" role="2TeiZW">
-      <property role="TrG5h" value="pheatmap" />
-    </node>
   </node>
   <node concept="2PZPSw" id="2abCfNSBlHy">
     <property role="TrG5h" value="Biomart micro-language in R Example" />

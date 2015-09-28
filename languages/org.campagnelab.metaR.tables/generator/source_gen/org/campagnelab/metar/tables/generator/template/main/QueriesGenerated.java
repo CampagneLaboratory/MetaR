@@ -307,8 +307,12 @@ public class QueriesGenerated {
           return "\"" + name + "\"";
         }
       });
+
+      return "factor(c(" + IterableUtils.join(Sequence.fromIterable(values), ", ") + "))";
+    } else {
+      return "c(" + IterableUtils.join(Sequence.fromIterable(values), ", ") + ")";
+
     }
-    return IterableUtils.join(Sequence.fromIterable(values), ", ");
 
   }
   public static Object propertyMacro_GetPropertyValue_5703306641531276227(final PropertyMacroContext _context) {
