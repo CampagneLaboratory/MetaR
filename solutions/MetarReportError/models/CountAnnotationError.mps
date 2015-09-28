@@ -131,6 +131,9 @@
       <concept id="3929971219789681021" name="org.campagnelab.metar.tables.structure.DropColumnOperation" flags="ng" index="2jA85X">
         <child id="3929971219789681022" name="col" index="2jA85Y" />
       </concept>
+      <concept id="3929971219796704543" name="org.campagnelab.metar.tables.structure.OutputFile" flags="ng" index="2jXUOv">
+        <property id="3929971219796704769" name="path" index="2jXUS1" />
+      </concept>
       <concept id="2814838647967227455" name="org.campagnelab.metar.tables.structure.TSingleLineComment" flags="ng" index="nccVD">
         <child id="2814838647967227681" name="commentedStatement" index="nccZR" />
       </concept>
@@ -140,6 +143,12 @@
       </concept>
       <concept id="2133144034279815880" name="org.campagnelab.metar.tables.structure.SelectMultipleGroups" flags="ng" index="2spSBU">
         <child id="2133144034279816044" name="groupSelections" index="2spSxu" />
+      </concept>
+      <concept id="8031339867733060044" name="org.campagnelab.metar.tables.structure.WriteTable" flags="ng" index="2xR6j2">
+        <property id="8031339867734631313" name="withQuotes" index="2xH6Uv" />
+        <property id="8031339867734757239" name="separator" index="2xH$9T" />
+        <child id="3929971219796718185" name="outputPath" index="2jXY9D" />
+        <child id="8031339867733060257" name="table" index="2xR6uJ" />
       </concept>
       <concept id="8031339867720116703" name="org.campagnelab.metar.tables.structure.UsageTypeRef" flags="ng" index="2y_Ijh">
         <reference id="8031339867720116704" name="usage" index="2y_IjI" />
@@ -266,6 +275,9 @@
       <node concept="2y_Ijh" id="4GtxN19$4Du" role="2y_Iji">
         <ref role="2y_IjI" node="4GtxN19$4Dp" resolve="heatmap" />
       </node>
+      <node concept="2y_Ijh" id="1xl_oUAKCZC" role="2y_Iji">
+        <ref role="2y_IjI" node="1xl_oUAKCZm" resolve="count" />
+      </node>
     </node>
     <node concept="3MzsS1" id="4GtxN19zWbB" role="3MzsBV">
       <property role="TrG5h" value="Male" />
@@ -298,12 +310,12 @@
       <property role="TrG5h" value="ID" />
     </node>
     <node concept="2_mUhs" id="1IGCSCxw8a6" role="2yEZeN">
-      <property role="TrG5h" value="decease" />
+      <property role="TrG5h" value="deceased" />
     </node>
     <node concept="3MzsS1" id="1IGCSCxw8a7" role="3MzsBV">
       <property role="TrG5h" value="decease=Yes" />
       <node concept="2y_Ijh" id="1IGCSCxw8a8" role="2y_Iji">
-        <ref role="2y_IjI" node="1IGCSCxw8a6" resolve="decease" />
+        <ref role="2y_IjI" node="1IGCSCxw8a6" resolve="deceased" />
       </node>
       <node concept="2y_Ijh" id="2hVndXv5E4Y" role="2y_Iji">
         <ref role="2y_IjI" node="4GtxN19$4Dp" resolve="heatmap" />
@@ -312,7 +324,7 @@
     <node concept="3MzsS1" id="1IGCSCxw8a9" role="3MzsBV">
       <property role="TrG5h" value="decease=No" />
       <node concept="2y_Ijh" id="1IGCSCxw8aa" role="2y_Iji">
-        <ref role="2y_IjI" node="1IGCSCxw8a6" resolve="decease" />
+        <ref role="2y_IjI" node="1IGCSCxw8a6" resolve="deceased" />
       </node>
       <node concept="2y_Ijh" id="2hVndXv5E56" role="2y_Iji">
         <ref role="2y_IjI" node="4GtxN19$4Dp" resolve="heatmap" />
@@ -320,6 +332,9 @@
     </node>
     <node concept="2_mUhs" id="1IGCSCxw8a$" role="2yEZeN">
       <property role="TrG5h" value="age" />
+    </node>
+    <node concept="2_mUhs" id="1xl_oUAKCZm" role="2yEZeN">
+      <property role="TrG5h" value="count" />
     </node>
     <node concept="3MzsS1" id="1IGCSCxw8a_" role="3MzsBV">
       <property role="TrG5h" value="age" />
@@ -1184,7 +1199,7 @@
                 <ref role="10WucV" node="1IGCSCxw8a$" resolve="age" />
               </node>
               <node concept="10WucS" id="2hVndXv2Zva" role="10Wuc_">
-                <ref role="10WucV" node="1IGCSCxw8a6" resolve="decease" />
+                <ref role="10WucV" node="1IGCSCxw8a6" resolve="deceased" />
               </node>
             </node>
             <node concept="10WucX" id="2hVndXv2O6$" role="10Wuc_" />
@@ -2004,7 +2019,7 @@
                 <ref role="10WucV" node="1IGCSCxw8a$" resolve="age" />
               </node>
               <node concept="10WucS" id="2hVndXv37CV" role="10Wuc_">
-                <ref role="10WucV" node="1IGCSCxw8a6" resolve="decease" />
+                <ref role="10WucV" node="1IGCSCxw8a6" resolve="deceased" />
               </node>
             </node>
             <node concept="10WucX" id="2hVndXv37CW" role="10Wuc_" />
@@ -2060,7 +2075,6 @@
     </node>
   </node>
   <node concept="S1EQb" id="7oAbGxowwuP">
-    <property role="2BDq$p" value="true" />
     <property role="TrG5h" value="MultipleCovariatesError" />
     <node concept="ZXjPh" id="7oAbGxowwuQ" role="S1EQ8">
       <property role="S1EQ6" value="VMGLGCJLJU" />
@@ -2138,15 +2152,15 @@
           <node concept="10WucW" id="2hVndXv412S" role="10WucA">
             <node concept="10WucW" id="2hVndXv4133" role="10Wuc$">
               <node concept="10WucW" id="2hVndXv413e" role="10Wuc$">
-                <node concept="10WucS" id="2hVndXv413l" role="10Wuc$">
-                  <ref role="10WucV" node="4GtxN19$4DB" resolve="Sex" />
-                </node>
                 <node concept="10WucS" id="2hVndXv413a" role="10Wuc_">
                   <ref role="10WucV" node="1IGCSCxw8a$" resolve="age" />
                 </node>
+                <node concept="10WucS" id="1xl_oUALe8D" role="10Wuc$">
+                  <ref role="10WucV" node="4GtxN19$4DB" resolve="Sex" />
+                </node>
               </node>
               <node concept="10WucS" id="2hVndXv412Z" role="10Wuc_">
-                <ref role="10WucV" node="1IGCSCxw8a6" resolve="decease" />
+                <ref role="10WucV" node="1IGCSCxw8a6" resolve="deceased" />
               </node>
             </node>
             <node concept="10WucX" id="2hVndXv3Zpy" role="10Wuc_" />
@@ -3110,8 +3124,16 @@
           </node>
         </node>
       </node>
-      <node concept="S1EQe" id="6IthYxT_X2I" role="ZXjPg">
-        <property role="S1EQ6" value="JDFDMEXCCU" />
+      <node concept="2xR6j2" id="1xl_oUANBQa" role="ZXjPg">
+        <property role="S1EQ6" value="QCIKPCRAWM" />
+        <property role="2xH6Uv" value="false" />
+        <property role="2xH$9T" value="\t" />
+        <node concept="2jXUOv" id="1xl_oUANBQc" role="2jXY9D">
+          <property role="2jXUS1" value="adjusted.tsv" />
+        </node>
+        <node concept="afgQW" id="1xl_oUANC1c" role="2xR6uJ">
+          <ref role="afgo8" node="2hVndXv41jt" resolve="Adjusted" />
+        </node>
       </node>
       <node concept="S1EQe" id="6IthYxT_Xi6" role="ZXjPg">
         <property role="S1EQ6" value="WGAMQNQCBC" />
@@ -3191,7 +3213,7 @@
                 <ref role="10WucV" node="1IGCSCxw8a$" resolve="age" />
               </node>
               <node concept="10WucS" id="2hVndXv5CkA" role="10Wuc_">
-                <ref role="10WucV" node="1IGCSCxw8a6" resolve="decease" />
+                <ref role="10WucV" node="1IGCSCxw8a6" resolve="deceased" />
               </node>
             </node>
             <node concept="10WucX" id="2hVndXv5API" role="10Wuc_" />
@@ -5193,7 +5215,7 @@
         <node concept="2tnku" id="6IthYxTOpH$" role="2thHW">
           <property role="2Lhm2Y" value="true" />
           <node concept="2tndn" id="2hVndXv5E5h" role="2tncD">
-            <ref role="2tne1" node="1IGCSCxw8a6" resolve="decease" />
+            <ref role="2tne1" node="1IGCSCxw8a6" resolve="deceased" />
           </node>
           <node concept="2tndn" id="2hVndXv5E5t" role="2tncD">
             <ref role="2tne1" node="1IGCSCxw8a$" resolve="age" />
@@ -5508,9 +5530,6 @@
       <node concept="3MzsTm" id="2hVndXv1Fku" role="lGtFl">
         <node concept="3MzsBX" id="2hVndXv1Fkv" role="3MztjM">
           <ref role="3MzsBM" node="4GtxN19zWNx" resolve="ID" />
-        </node>
-        <node concept="3MzsBX" id="2hVndXv3ZDI" role="3MztjM">
-          <ref role="3MzsBM" node="4GtxN19zWbB" resolve="Male" />
         </node>
       </node>
     </node>

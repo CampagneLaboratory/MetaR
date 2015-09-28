@@ -80,7 +80,7 @@
         <child id="1068580123160" name="condition" index="3clFbw" />
         <child id="1068580123161" name="ifTrue" index="3clFbx" />
       </concept>
-      <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" index="3clFbS">
+      <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
       </concept>
       <concept id="1068580320020" name="jetbrains.mps.baseLanguage.structure.IntegerConstant" flags="nn" index="3cmrfG">
@@ -213,6 +213,9 @@
       <concept id="1549006859295776223" name="org.campagnelab.metar.inspect.structure.InspectTable" flags="ng" index="7yf1n">
         <property id="1549006859295776277" name="tableId" index="7yfet" />
         <property id="8016431400514010600" name="tableName" index="2AFawa" />
+      </concept>
+      <concept id="8969925079114012385" name="org.campagnelab.metar.inspect.structure.TryCatch" flags="ng" index="3e3GmO">
+        <child id="8969925079114012453" name="try" index="3e3GhK" />
       </concept>
       <concept id="8969925079115431553" name="org.campagnelab.metar.inspect.structure.TryForNode" flags="ng" index="3eWmRk">
         <property id="8969925079115431616" name="nodeId" index="3eWmQl" />
@@ -1673,6 +1676,7 @@
                 <ref role="v9R2y" node="5HtHr3DJtJU" resolve="LimmaVoom_model" />
               </node>
             </node>
+            <node concept="1gZcZf" id="1xl_oUAMds4" role="2G3XIn" />
             <node concept="3_3kQU" id="5HtHr3DJiuw" role="3_3kQL">
               <property role="3_3kQV" value="" />
             </node>
@@ -1681,10 +1685,27 @@
               <node concept="1gZcZf" id="4ssfE$836H4" role="2G3XIn">
                 <property role="1gZaPE" value="" />
               </node>
-              <node concept="1gZcZf" id="4ssfE$836H5" role="2G3XIn">
-                <property role="1gZaPE" value="" />
-                <node concept="3_3kQU" id="6gze2t0ITJi" role="3_3kQL">
-                  <property role="3_3kQV" value="fit &lt;- lmFit(voom, design) " />
+              <node concept="3e3GmO" id="1xl_oUAMg0t" role="2G3XIn">
+                <node concept="3_3kQU" id="1xl_oUAMg0u" role="3_3kQL">
+                  <property role="3_3kQV" value="" />
+                </node>
+                <node concept="1gZcZf" id="1xl_oUAMg0z" role="2G3XIn">
+                  <node concept="3_3kQU" id="1xl_oUAMg0$" role="3_3kQL">
+                    <property role="3_3kQV" value="" />
+                  </node>
+                </node>
+                <node concept="2G3XJi" id="1xl_oUAMg0_" role="3e3GhK">
+                  <node concept="3_3kQU" id="1xl_oUAMg0A" role="3_3kQL">
+                    <property role="3_3kQV" value="" />
+                  </node>
+                  <node concept="1gZcZf" id="1xl_oUAMg0F" role="2G3XIn">
+                    <node concept="3_3kQU" id="1xl_oUAMgES" role="3_3kQL">
+                      <property role="3_3kQV" value="fit &lt;- lmFit(voom, design) " />
+                    </node>
+                    <node concept="3_3kQU" id="1xl_oUAMg0G" role="3_3kQL">
+                      <property role="3_3kQV" value="" />
+                    </node>
+                  </node>
                 </node>
               </node>
               <node concept="1gZcZf" id="4ssfE$9NFp9" role="2G3XIn">
