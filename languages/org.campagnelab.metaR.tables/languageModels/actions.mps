@@ -83,6 +83,7 @@
       <concept id="6329021646629104954" name="jetbrains.mps.baseLanguage.structure.SingleLineComment" flags="nn" index="3SKdUt">
         <child id="6329021646629175155" name="commentPart" index="3SKWNk" />
       </concept>
+      <concept id="1080120340718" name="jetbrains.mps.baseLanguage.structure.AndExpression" flags="nn" index="1Wc70l" />
     </language>
     <language id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures">
       <concept id="1199569711397" name="jetbrains.mps.baseLanguage.closures.structure.ClosureLiteral" flags="nn" index="1bVj0M">
@@ -783,6 +784,81 @@
                     <node concept="1r4N1M" id="3MLv1ItZBQA" role="37wK5m" />
                   </node>
                 </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbH" id="1ul2Me81Vrm" role="3cqZAp" />
+        </node>
+      </node>
+    </node>
+    <node concept="37WvkG" id="1ul2Me81Wkn" role="37WGs$">
+      <ref role="37XkoT" to="jrxw:2WRhvFtICK7" resolve="ColumnGroupReference" />
+      <node concept="37Y9Zx" id="1ul2Me81Wko" role="37ZfLb">
+        <node concept="3clFbS" id="1ul2Me81Wkp" role="2VODD2">
+          <node concept="34ab3g" id="1ul2Me81W_5" role="3cqZAp">
+            <property role="35gtTG" value="info" />
+            <node concept="Xl_RD" id="1ul2Me81W_7" role="34bqiv">
+              <property role="Xl_RC" value="check enclosing node to set input change" />
+            </node>
+          </node>
+          <node concept="3clFbH" id="1ul2Me81WBz" role="3cqZAp" />
+          <node concept="3clFbJ" id="1ul2Me81WBH" role="3cqZAp">
+            <node concept="3clFbS" id="1ul2Me81WBJ" role="3clFbx">
+              <node concept="3clFbH" id="1ul2Me81Xwp" role="3cqZAp" />
+              <node concept="34ab3g" id="1ul2Me81Xww" role="3cqZAp">
+                <property role="35gtTG" value="info" />
+                <node concept="Xl_RD" id="1ul2Me81Xwy" role="34bqiv">
+                  <property role="Xl_RC" value="Find the right ancestor and set input change" />
+                </node>
+              </node>
+              <node concept="3clFbH" id="1ul2Me81WBI" role="3cqZAp" />
+              <node concept="3clFbF" id="1ul2Me81Xyw" role="3cqZAp">
+                <node concept="2OqwBi" id="1ul2Me81XOh" role="3clFbG">
+                  <node concept="2OqwBi" id="1ul2Me81X_d" role="2Oq$k0">
+                    <node concept="1r4N1M" id="1ul2Me81Xyu" role="2Oq$k0" />
+                    <node concept="2Xjw5R" id="1ul2Me81XKg" role="2OqNvi">
+                      <node concept="1xMEDy" id="1ul2Me81XKi" role="1xVPHs">
+                        <node concept="chp4Y" id="1ul2Me81XKK" role="ri$Ld">
+                          <ref role="cht4Q" to="jrxw:pr6WGx0DLx" resolve="ReorderTable" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="2qgKlT" id="1ul2Me81YiB" role="2OqNvi">
+                    <ref role="37wK5l" to="v8sa:7S2MvlQNiSB" resolve="setInputChanged" />
+                  </node>
+                </node>
+              </node>
+              <node concept="3clFbH" id="1ul2Me81Xzq" role="3cqZAp" />
+            </node>
+            <node concept="1Wc70l" id="1ul2Me81Xrb" role="3clFbw">
+              <node concept="2OqwBi" id="1ul2Me81WLV" role="3uHU7B">
+                <node concept="2OqwBi" id="1ul2Me81WCY" role="2Oq$k0">
+                  <node concept="1r4N1M" id="1ul2Me81WBZ" role="2Oq$k0" />
+                  <node concept="2Xjw5R" id="1ul2Me81WIH" role="2OqNvi">
+                    <node concept="1xMEDy" id="1ul2Me81WIJ" role="1xVPHs">
+                      <node concept="chp4Y" id="1ul2Me81WJj" role="ri$Ld">
+                        <ref role="cht4Q" to="jrxw:3MLv1IkOE3z" resolve="TableGroup" />
+                      </node>
+                    </node>
+                    <node concept="1xIGOp" id="1ul2Me81WKr" role="1xVPHs" />
+                  </node>
+                </node>
+                <node concept="3x8VRR" id="1ul2Me81X1y" role="2OqNvi" />
+              </node>
+              <node concept="2OqwBi" id="1ul2Me81Xt3" role="3uHU7w">
+                <node concept="2OqwBi" id="1ul2Me81Xt4" role="2Oq$k0">
+                  <node concept="1r4N1M" id="1ul2Me81Xt5" role="2Oq$k0" />
+                  <node concept="2Xjw5R" id="1ul2Me81Xt6" role="2OqNvi">
+                    <node concept="1xMEDy" id="1ul2Me81Xt7" role="1xVPHs">
+                      <node concept="chp4Y" id="1ul2Me81Xun" role="ri$Ld">
+                        <ref role="cht4Q" to="jrxw:pr6WGx0DLx" resolve="ReorderTable" />
+                      </node>
+                    </node>
+                    <node concept="1xIGOp" id="1ul2Me81Xt9" role="1xVPHs" />
+                  </node>
+                </node>
+                <node concept="3x8VRR" id="1ul2Me81Xta" role="2OqNvi" />
               </node>
             </node>
           </node>

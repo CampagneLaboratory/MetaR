@@ -2116,7 +2116,7 @@
     <node concept="1TJgyj" id="3MLv1IrLBWm" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="columnRef" />
-      <property role="20lbJX" value="1..n" />
+      <property role="20lbJX" value="0..n" />
       <ref role="20lvS9" node="2WRhvFtwVip" resolve="ColumnRef" />
     </node>
     <node concept="1TJgyj" id="7kUqYZCOCMl" role="1TKVEi">
