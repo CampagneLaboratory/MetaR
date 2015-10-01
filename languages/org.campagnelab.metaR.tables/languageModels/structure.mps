@@ -2118,6 +2118,7 @@
       <property role="20kJfa" value="columnRef" />
       <property role="20lbJX" value="0..n" />
       <ref role="20lvS9" node="2WRhvFtwVip" resolve="ColumnRef" />
+      <node concept="asaX9" id="1ul2Me9y6Rp" role="lGtFl" />
     </node>
     <node concept="1TJgyj" id="7kUqYZCOCMl" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
