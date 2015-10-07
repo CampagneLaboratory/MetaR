@@ -25,11 +25,11 @@ public class QueriesGenerated {
     return NameHelper.RName(SPropertyOperations.getString(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getReferenceLink(0xecc862c95ab542efL, 0x87032039019fb338L, 0x471c3ea907eddd91L, 0x471c3ea907eddd92L, "groupUsage")), MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name")));
   }
   public static Object propertyMacro_GetPropertyValue_5124039371744407084(final PropertyMacroContext _context) {
-    SNode edgeR = SNodeOperations.getNodeAncestor(_context.getNode(), MetaAdapterFactory.getInterfaceConcept(0xecc862c95ab542efL, 0x87032039019fb338L, 0x471c3ea90814c0afL, "org.campagnelab.metar.models.structure.IStatTest"), false, false);
+    SNode limma = SNodeOperations.getNodeAncestor(_context.getNode(), MetaAdapterFactory.getInterfaceConcept(0xecc862c95ab542efL, 0x87032039019fb338L, 0x471c3ea90814c0afL, "org.campagnelab.metar.models.structure.IStatTest"), false, false);
     Iterable<SNode> one = Sequence.<SNode>singleton(_context.getNode());
 
 
-    String FactorLevel = IterableUtils.join(Sequence.fromIterable(IStatTest_Behavior.call_enumerateFactorLevels_8031339867727856905(edgeR, one)).select(new ISelector<String, String>() {
+    String FactorLevel = IterableUtils.join(Sequence.fromIterable(IStatTest_Behavior.call_enumerateFactorLevels_8031339867727856905(limma, one)).select(new ISelector<String, String>() {
       public String select(String it) {
         return NameHelper.RName(it);
       }

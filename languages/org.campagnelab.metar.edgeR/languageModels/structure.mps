@@ -49,7 +49,7 @@
   <node concept="1TIwiD" id="7$n2ViPrAVb">
     <property role="TrG5h" value="EdgeRTest" />
     <property role="34LRSv" value="edgeR" />
-    <property role="R4oN_" value="Perform a test of significance with edgeR" />
+    <property role="R4oN_" value="Test of significance with edgeR" />
     <ref role="1TJDcQ" to="jrxw:7LvyiX4miiC" resolve="Statement" />
     <node concept="1TJgyj" id="7$n2ViPrDvn" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
