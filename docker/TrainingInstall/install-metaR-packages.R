@@ -30,5 +30,6 @@ if (!require("limma")) {install.packages("limma",repos='http://cran.us.r-project
 if (!require("graphics")) {install.packages("graphics",repos='http://cran.us.r-project.org'); library("graphics")}
 if (!require("data.table")) {install.packages("data.table",repos='http://cran.us.r-project.org'); library("data.table")}
 if (!require("VennDiagram")) {install.packages("VennDiagram",repos='http://cran.us.r-project.org'); library("VennDiagram")}
+if (!require("lme4")) {install.packages("VennDiagram",repos='http://cran.us.r-project.org'); library("lme4")}
 
 q()

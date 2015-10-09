@@ -3,3 +3,6 @@ Here are the steps to build, tag and push the image. Note in Step 2, the image i
  docker tag 683039ecea5a fac2003/rocker-metar:1.3.1.1
  docker push fac2003/rocker-metar:1.3.1.1
 
+Then, tag again with latest, and push this as well
+ docker tag 683039ecea5a fac2003/rocker-metar:latest
+ docker push fac2003/rocker-metar:latest

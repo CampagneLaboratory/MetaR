@@ -16,11 +16,12 @@ RUN apt-get update \
 && apt-get install -y --no-install-recommends --force-yes \
 #    gdal-bin \
     libxslt1-dev \
-    libcairo2-dev=1.14.0-2.1 \
-    libfreetype6-dev=2.5.2-3 \
-    libfreetype6=2.5.2-3 \
+    libcairo2-dev \
+    libfreetype6-dev \
+    libfreetype6 \
+    libcurl3=7.44.0-2 \
     libcurl4-openssl-dev \
-&& apt-get build-dep -y r-cran-rgl 
+&& apt-get build-dep -y rgl 
 
 
 RUN Rscript -e 'R.Version()'
@@ -28,10 +29,11 @@ RUN Rscript -e 'R.Version()'
 ## Install additional Omegahat dependencies, with fallback to Github-based install 
 RUN rm -rf /tmp/*.rds \
 && install2.r --error \
- plyr \
  Cairo \
+ data.table \
+ lme4 \
  pheatmap \
- data.table
+ plyr 
 
 RUN  Rscript -e 'source("http://bioconductor.org/biocLite.R"); biocLite("edgeR", ask=FALSE);  biocLite("limma", ask=FALSE); ' \
 && rm -rf /tmp/downloaded_packages/ /tmp/*.rds 
