@@ -27,10 +27,10 @@
     <import index="srng" ref="f:java_stub#1ed103c3-3aa6-49b7-9c21-6765ee11f224#jetbrains.mps.openapi.editor(jetbrains.mps.openapi.editor@java_stub)" />
     <import index="onla" ref="r:b81182ba-13d2-441a-9b65-76fe2bd96f30(org.campagnelab.styles.structure)" />
     <import index="1t7x" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.awt(JDK/java.awt@java_stub)" />
+    <import index="h23j" ref="r:5e0b7baa-a427-417f-968a-1e4912c5f643(org.campagnelab.styles.editor)" />
+    <import index="711x" ref="r:f8afdbad-6ef4-4231-b44c-0ecacaf32d43(org.campagnelab.mps.XChart.types.behavior)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="e2lb" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" implicit="true" />
-    <import index="h23j" ref="r:5e0b7baa-a427-417f-968a-1e4912c5f643(org.campagnelab.styles.editor)" implicit="true" />
-    <import index="711x" ref="r:f8afdbad-6ef4-4231-b44c-0ecacaf32d43(org.campagnelab.mps.XChart.types.behavior)" implicit="true" />
   </imports>
   <registry>
     <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">
@@ -6318,6 +6318,31 @@
         </node>
       </node>
       <node concept="l2Vlx" id="2OXkbjPQzPC" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="3aFugy3wH$y">
+    <property role="3GE5qa" value="expressions" />
+    <ref role="1XX52x" to="jrxw:3aFugy3wH$u" resolve="RegexpExtractValue" />
+    <node concept="3EZMnI" id="3aFugy3wH$z" role="2wV5jI">
+      <node concept="3F0ifn" id="3aFugy3wH$$" role="3EZMnx">
+        <property role="3F0ifm" value="[erase" />
+        <node concept="Vb9p2" id="3aFugy3wH$_" role="3F10Kt" />
+      </node>
+      <node concept="3F0A7n" id="3aFugy3wH$A" role="3EZMnx">
+        <ref role="1NtTu8" to="jrxw:3aFugy3wH$x" resolve="regexp" />
+      </node>
+      <node concept="3F0ifn" id="3aFugy3wH$B" role="3EZMnx">
+        <property role="3F0ifm" value="from" />
+        <node concept="Vb9p2" id="3aFugy3wH$C" role="3F10Kt" />
+      </node>
+      <node concept="3F1sOY" id="3aFugy3wH$D" role="3EZMnx">
+        <ref role="1NtTu8" to="jrxw:3aFugy3wH$v" />
+      </node>
+      <node concept="3F0ifn" id="3aFugy3wH$E" role="3EZMnx">
+        <property role="3F0ifm" value="]" />
+        <node concept="Vb9p2" id="3aFugy3wH$F" role="3F10Kt" />
+      </node>
+      <node concept="l2Vlx" id="3aFugy3wH$G" role="2iSdaV" />
     </node>
   </node>
 </model>

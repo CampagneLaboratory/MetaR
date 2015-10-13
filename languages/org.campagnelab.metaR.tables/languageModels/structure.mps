@@ -2276,5 +2276,25 @@
     <property role="3GE5qa" value="models" />
     <property role="TrG5h" value="HasRandomEffects" />
   </node>
+  <node concept="1TIwiD" id="3aFugy3wH$u">
+    <property role="TrG5h" value="EraseRegexpInValue" />
+    <property role="34LRSv" value="erase" />
+    <property role="R4oN_" value="Erase text matching a pattern from an  expression" />
+    <property role="3GE5qa" value="expressions" />
+    <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
+    <node concept="1TJgyj" id="3aFugy3wH$v" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="expression" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="legv36GJlG" resolve="MetarExpression" />
+    </node>
+    <node concept="PrWs8" id="3aFugy3wH$w" role="PzmwI">
+      <ref role="PrY4T" node="legv36GJlG" resolve="MetarExpression" />
+    </node>
+    <node concept="1TJgyi" id="3aFugy3wH$x" role="1TKVEl">
+      <property role="TrG5h" value="regexp" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+  </node>
 </model>
 
