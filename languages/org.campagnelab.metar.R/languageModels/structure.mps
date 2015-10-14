@@ -1092,5 +1092,11 @@
       <ref role="20lvS9" to="tpce:f_TIwhg" resolve="ConceptDeclaration" />
     </node>
   </node>
+  <node concept="1TIwiD" id="P5JL27bo7k">
+    <property role="TrG5h" value="EmptyExpr" />
+    <property role="34LRSv" value=" " />
+    <property role="R4oN_" value="Empty R expression" />
+    <ref role="1TJDcQ" node="5mPDeVwiPap" resolve="Expr" />
+  </node>
 </model>
 
