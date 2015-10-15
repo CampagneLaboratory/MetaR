@@ -77,7 +77,7 @@
     <property role="TrG5h" value="RScript" />
     <property role="OYydz" value="Program" />
     <property role="19KtqR" value="true" />
-    <property role="MwhBj" value="${module}/icons/R-icon.png" />
+    <property role="MwhBj" value="${module}/icons/R-icon-2.png" />
     <ref role="1TJDcQ" node="5mPDeVwiJFd" resolve="Prog" />
     <node concept="PrWs8" id="3V2IUSrKJMt" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />

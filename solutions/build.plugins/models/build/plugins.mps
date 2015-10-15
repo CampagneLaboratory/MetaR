@@ -208,7 +208,7 @@
       <node concept="aVJcg" id="3gMg70bX6HN" role="aVJcv">
         <node concept="NbPM2" id="3gMg70bX6HM" role="aVJcq">
           <node concept="3Mxwew" id="3gMg70bX6HL" role="3MwsjC">
-            <property role="3MwjfP" value="1.6.0.1" />
+            <property role="3MwjfP" value="1.6.0.2" />
           </node>
         </node>
       </node>
@@ -1022,7 +1022,7 @@
         </node>
       </node>
       <node concept="1E1JtD" id="3rWIEp7Ilky" role="2G$12L">
-        <property role="BnDLt" value="true" />
+        <property role="BnDLt" value="false" />
         <property role="TrG5h" value="org.campagnelab.metar.functions.importing" />
         <property role="3LESm3" value="c1747c67-8f42-4d83-9542-4a948aec17d9" />
         <property role="2GAjPV" value="false" />

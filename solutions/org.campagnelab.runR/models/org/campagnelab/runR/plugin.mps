@@ -1110,7 +1110,11 @@
         </node>
       </node>
     </node>
-    <node concept="1QGGSu" id="5gyVhZ17JkK" role="3GxumY" />
+    <node concept="1QGGSu" id="5gyVhZ17JkK" role="3GxumY">
+      <node concept="1QGGTy" id="7X_jMOXL0lt" role="3xaMm5">
+        <ref role="1QGGTH" node="7X_jMOXAA6q" resolve="RScript" />
+      </node>
+    </node>
     <node concept="yHkDC" id="5gyVhZ17Jlr" role="yHkDi">
       <property role="TrG5h" value="myRunParameters" />
       <node concept="yHkIc" id="1iB3Owqs38d" role="1tU5fm">
@@ -1165,9 +1169,8 @@
     <property role="3GE5qa" value="R" />
     <property role="TrG5h" value="R Script" />
     <node concept="1QGGSu" id="5gyVhZ17Jma" role="1bitO_">
-      <node concept="10M0yZ" id="4rA9Dd$Pgjt" role="3xaMm5">
-        <ref role="1PxDUh" to="zxm0:~AllIcons$RunConfigurations" resolve="AllIcons.RunConfigurations" />
-        <ref role="3cqZAo" to="zxm0:~AllIcons$RunConfigurations.Application" resolve="Application" />
+      <node concept="1QGGTy" id="7X_jMOXJwiU" role="3xaMm5">
+        <ref role="1QGGTH" node="7X_jMOXAA6q" resolve="RScript" />
       </node>
     </node>
   </node>
@@ -3237,6 +3240,16 @@
         <ref role="37wK5l" to="sn11:277Nzj6qTH$" resolve="getIconForConceptFQName" />
         <node concept="3nh3qo" id="zZYLnBKqS" role="37wK5m">
           <ref role="3nh3qp" to="jrxw:7LvyiX4mii$" resolve="Analysis" />
+        </node>
+      </node>
+    </node>
+    <node concept="1QGGT_" id="7X_jMOXAA6q" role="1QGGSr">
+      <property role="TrG5h" value="RScript" />
+      <node concept="2YIFZM" id="7X_jMOXBpQp" role="1QGGT$">
+        <ref role="37wK5l" to="sn11:277Nzj6qTH$" resolve="getIconForConceptFQName" />
+        <ref role="1Pybhc" to="sn11:277Nzj6qTEj" resolve="IconManager" />
+        <node concept="3nh3qo" id="7X_jMOXBpRO" role="37wK5m">
+          <ref role="3nh3qp" to="6q58:5mPDeVwiJFe" resolve="RScript" />
         </node>
       </node>
     </node>
