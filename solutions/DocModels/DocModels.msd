@@ -10,6 +10,7 @@
     <dependency reexport="false">04cfa011-1547-47ea-a509-cf7239cbd1e0(MetaR.Workshop)</dependency>
     <dependency reexport="false">5ec1cd3d-0a50-4049-a8fa-ae768d7baa25(org.campagnelab.mps.XChart)</dependency>
     <dependency reexport="false">ec1389cf-d097-4484-ba24-2ad9ec7e78ea(biomart)</dependency>
+    <dependency reexport="false">65e78f51-5ed0-4cd0-994e-550ec4f053ed(org.campagnelab.metar.accessories)</dependency>
   </dependencies>
   <usedLanguages>
     <usedLanguage>049ed9e7-0f0d-4814-a373-a4b21e15b59e(org.campagnelab.metar.limma)</usedLanguage>
@@ -28,6 +29,11 @@
     <usedLanguage>e633fc48-0aaf-45b5-9894-247b67cf0890(org.campagnelab.metar.biomart)</usedLanguage>
     <usedLanguage>3b58810c-8431-4bbb-99ea-b4671e02dd13(org.campagnelab.metar.R)</usedLanguage>
     <usedLanguage>837afec3-cff0-45b1-a221-6b811148f87e(org.campagnelab.metar.R.gen)</usedLanguage>
+    <usedLanguage>ecc862c9-5ab5-42ef-8703-2039019fb338(org.campagnelab.metar.models)</usedLanguage>
+    <usedLanguage>5ec1cd3d-0a50-4049-a8fa-ae768d7baa25(org.campagnelab.mps.XChart)</usedLanguage>
+    <usedLanguage>43f31864-fc67-43f5-873e-ab79cc279a2d(org.campagnelab.styles)</usedLanguage>
+    <usedLanguage>5d6bde84-4ce4-4eb5-a37e-25a5edd55129(org.campagnelab.metar.tables)</usedLanguage>
+    <usedLanguage>f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)</usedLanguage>
   </usedLanguages>
   <usedDevKits>
     <usedDevKit>8a3636fa-c6ec-4cb0-bc2a-b7143f2a4937(org.campagnelab.metaR)</usedDevKit>
