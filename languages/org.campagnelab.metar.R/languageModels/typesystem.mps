@@ -19,6 +19,7 @@
     <import index="6q58" ref="r:97268463-8a58-42b7-9dc6-fa004b7a4308(org.campagnelab.metar.R.structure)" />
     <import index="69j5" ref="r:cc2fd9c1-53e7-4805-a8bc-a07e69f2147b(org.campagnelab.metar.R.behavior)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
+    <import index="e2lb" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" implicit="true" />
     <import index="tpcu" ref="r:00000000-0000-4000-0000-011c89590282(jetbrains.mps.lang.core.behavior)" implicit="true" />
   </imports>
   <registry>
@@ -1658,6 +1659,125 @@
         <node concept="3clFbF" id="2xCkIee4ytC" role="3cqZAp">
           <node concept="Xl_RD" id="2xCkIee4ytB" role="3clFbG">
             <property role="Xl_RC" value="Reset Value for Positional Parameter" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="18kY7G" id="1cI4GX2OSkQ">
+    <property role="TrG5h" value="check_StringLiteralExpr" />
+    <node concept="3clFbS" id="1cI4GX2OSkR" role="18ibNy">
+      <node concept="3clFbH" id="1cI4GX2P$Bk" role="3cqZAp" />
+      <node concept="3clFbJ" id="1cI4GX2OSvy" role="3cqZAp">
+        <node concept="3clFbS" id="1cI4GX2OSvz" role="3clFbx">
+          <node concept="2MkqsV" id="1cI4GX2OUkr" role="3cqZAp">
+            <node concept="Xl_RD" id="1cI4GX2OUkB" role="2MkJ7o">
+              <property role="Xl_RC" value="\\n must be escaped in string literal." />
+            </node>
+            <node concept="1YBJjd" id="1cI4GX2OUlE" role="2OEOjV">
+              <ref role="1YBMHb" node="1cI4GX2OSkT" resolve="stringLiteralExpr" />
+            </node>
+            <node concept="3Cnw8n" id="1cI4GX2OXFb" role="2OEOjU">
+              <property role="ARO6o" value="true" />
+              <ref role="QpYPw" node="1cI4GX2OUm1" resolve="EscapeNewLinesInStringLiterals" />
+              <node concept="3CnSsL" id="1cI4GX2OXGN" role="3Coj4f">
+                <ref role="QkamJ" node="1cI4GX2OUBH" resolve="literal" />
+                <node concept="1YBJjd" id="1cI4GX2OXH3" role="3CoRuB">
+                  <ref role="1YBMHb" node="1cI4GX2OSkT" resolve="stringLiteralExpr" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1Wc70l" id="1cI4GX2P$Dx" role="3clFbw">
+          <node concept="3y3z36" id="1cI4GX2P_DS" role="3uHU7B">
+            <node concept="10Nm6u" id="1cI4GX2P_FY" role="3uHU7w" />
+            <node concept="2OqwBi" id="1cI4GX2P$IW" role="3uHU7B">
+              <node concept="1YBJjd" id="1cI4GX2P$G9" role="2Oq$k0">
+                <ref role="1YBMHb" node="1cI4GX2OSkT" resolve="stringLiteralExpr" />
+              </node>
+              <node concept="3TrcHB" id="1cI4GX2P_nH" role="2OqNvi">
+                <ref role="3TsBF5" to="6q58:14grA08BBle" resolve="value" />
+              </node>
+            </node>
+          </node>
+          <node concept="2OqwBi" id="1cI4GX2OSVA" role="3uHU7w">
+            <node concept="2OqwBi" id="1cI4GX2OSy2" role="2Oq$k0">
+              <node concept="1YBJjd" id="1cI4GX2OSvI" role="2Oq$k0">
+                <ref role="1YBMHb" node="1cI4GX2OSkT" resolve="stringLiteralExpr" />
+              </node>
+              <node concept="3TrcHB" id="1cI4GX2OSEX" role="2OqNvi">
+                <ref role="3TsBF5" to="6q58:14grA08BBle" resolve="value" />
+              </node>
+            </node>
+            <node concept="liA8E" id="1cI4GX2OUh2" role="2OqNvi">
+              <ref role="37wK5l" to="e2lb:~String.contains(java.lang.CharSequence):boolean" resolve="contains" />
+              <node concept="Xl_RD" id="1cI4GX2OUhD" role="37wK5m">
+                <property role="Xl_RC" value="\n" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="1cI4GX2OSkT" role="1YuTPh">
+      <property role="TrG5h" value="stringLiteralExpr" />
+      <ref role="1YaFvo" to="6q58:5mPDeVwiPaS" resolve="StringLiteralExpr" />
+    </node>
+  </node>
+  <node concept="Q5z_Y" id="1cI4GX2OUm1">
+    <property role="TrG5h" value="EscapeNewLinesInStringLiterals" />
+    <node concept="Q6JDH" id="1cI4GX2OUBH" role="Q6Id_">
+      <property role="TrG5h" value="literal" />
+      <node concept="3Tqbb2" id="1cI4GX2OUP3" role="Q6QK4">
+        <ref role="ehGHo" to="6q58:5mPDeVwiPaS" resolve="StringLiteralExpr" />
+      </node>
+    </node>
+    <node concept="Q5ZZ6" id="1cI4GX2OUm2" role="Q6x$H">
+      <node concept="3clFbS" id="1cI4GX2OUm3" role="2VODD2">
+        <node concept="3clFbF" id="1cI4GX2Q8CX" role="3cqZAp">
+          <node concept="37vLTI" id="1cI4GX2Q99t" role="3clFbG">
+            <node concept="2OqwBi" id="1cI4GX2Q8Fa" role="37vLTJ">
+              <node concept="QwW4i" id="1cI4GX2Q8CV" role="2Oq$k0">
+                <ref role="QwW4h" node="1cI4GX2OUBH" resolve="literal" />
+              </node>
+              <node concept="3TrcHB" id="1cI4GX2Q8Or" role="2OqNvi">
+                <ref role="3TsBF5" to="6q58:14grA08BBle" resolve="value" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="1cI4GX2OWcd" role="37vLTx">
+              <node concept="2OqwBi" id="1cI4GX2OVpM" role="2Oq$k0">
+                <node concept="QwW4i" id="1cI4GX2OVoj" role="2Oq$k0">
+                  <ref role="QwW4h" node="1cI4GX2OUBH" resolve="literal" />
+                </node>
+                <node concept="3TrcHB" id="1cI4GX2OVXs" role="2OqNvi">
+                  <ref role="3TsBF5" to="6q58:14grA08BBle" resolve="value" />
+                </node>
+              </node>
+              <node concept="liA8E" id="1cI4GX2OXvO" role="2OqNvi">
+                <ref role="37wK5l" to="e2lb:~String.replaceAll(java.lang.String,java.lang.String):java.lang.String" resolve="replaceAll" />
+                <node concept="Xl_RD" id="1cI4GX2OXwr" role="37wK5m">
+                  <property role="Xl_RC" value="\n" />
+                </node>
+                <node concept="3cpWs3" id="1cI4GX2QGCd" role="37wK5m">
+                  <node concept="Xl_RD" id="1cI4GX2QGCj" role="3uHU7w">
+                    <property role="Xl_RC" value="n" />
+                  </node>
+                  <node concept="Xl_RD" id="1cI4GX2OXBU" role="3uHU7B">
+                    <property role="Xl_RC" value="\\\\" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="QznSV" id="1cI4GX2OXI9" role="QzAvj">
+      <node concept="3clFbS" id="1cI4GX2OXIa" role="2VODD2">
+        <node concept="3clFbF" id="1cI4GX2OXSj" role="3cqZAp">
+          <node concept="Xl_RD" id="1cI4GX2OXSi" role="3clFbG">
+            <property role="Xl_RC" value="Escape New Lines" />
           </node>
         </node>
       </node>
