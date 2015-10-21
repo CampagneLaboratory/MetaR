@@ -1691,13 +1691,7 @@
   </node>
   <node concept="24kQdi" id="r9xlU5tkXB">
     <ref role="1XX52x" to="6q58:4hQfa_ZrvSo" resolve="EmptySubValue" />
-    <node concept="35HoNQ" id="r9xlU5tl4k" role="2wV5jI">
-      <node concept="OXEIz" id="1mrtuWrsztk" role="P5bDN">
-        <node concept="UkePV" id="1mrtuWrt2DI" role="OY2wv">
-          <ref role="Ul1FP" to="6q58:4hQfa_ZrvSj" resolve="PositionalParameterValue" />
-        </node>
-      </node>
-    </node>
+    <node concept="35HoNQ" id="1cI4GX2JR8M" role="2wV5jI" />
   </node>
   <node concept="24kQdi" id="r9xlU5wEA3">
     <ref role="1XX52x" to="6q58:4hQfa_ZrvSn" resolve="VarargsParameterValue" />
