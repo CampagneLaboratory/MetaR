@@ -17,8 +17,8 @@
     <import index="1mjk" ref="r:72b0aa20-b681-4aef-ad30-bb23b1f4b98c(org.campagnelab.metar.code.generator.helpers)" />
     <import index="fxg7" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.io(JDK/java.io@java_stub)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
-    <import index="e2lb" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" implicit="true" />
     <import index="hgbr" ref="r:35e57e46-a34e-4190-bb18-c2596691e768(org.campagnelab.metar.simulation.structure)" implicit="true" />
+    <import index="e2lb" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" implicit="true" />
   </imports>
   <registry>
     <language id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior">
@@ -184,6 +184,9 @@
         <child id="1144231399730" name="condition" index="1Dwp0S" />
         <child id="1144231408325" name="iteration" index="1Dwrff" />
       </concept>
+      <concept id="5497648299878491908" name="jetbrains.mps.baseLanguage.structure.BaseVariableReference" flags="nn" index="1M0zk4">
+        <reference id="5497648299878491909" name="baseVariableDeclaration" index="1M0zk5" />
+      </concept>
       <concept id="6329021646629104957" name="jetbrains.mps.baseLanguage.structure.TextCommentPart" flags="nn" index="3SKdUq">
         <property id="6329021646629104958" name="text" index="3SKdUp" />
       </concept>
@@ -234,6 +237,14 @@
       <concept id="1145383075378" name="jetbrains.mps.lang.smodel.structure.SNodeListType" flags="in" index="2I9FWS">
         <reference id="1145383142433" name="elementConcept" index="2I9WkF" />
       </concept>
+      <concept id="1883223317721008708" name="jetbrains.mps.lang.smodel.structure.IfInstanceOfStatement" flags="nn" index="Jncv_">
+        <reference id="1883223317721008712" name="nodeConcept" index="JncvD" />
+        <child id="1883223317721008709" name="body" index="Jncv$" />
+        <child id="1883223317721008711" name="variable" index="JncvA" />
+        <child id="1883223317721008710" name="nodeExpression" index="JncvB" />
+      </concept>
+      <concept id="1883223317721008713" name="jetbrains.mps.lang.smodel.structure.IfInstanceOfVariable" flags="ng" index="JncvC" />
+      <concept id="1883223317721107059" name="jetbrains.mps.lang.smodel.structure.IfInstanceOfVarReference" flags="nn" index="Jnkvi" />
       <concept id="1171315804604" name="jetbrains.mps.lang.smodel.structure.Model_RootsOperation" flags="nn" index="2RRcyG">
         <reference id="1171315804605" name="concept" index="2RRcyH" />
       </concept>
@@ -250,10 +261,6 @@
       </concept>
       <concept id="6407023681583031218" name="jetbrains.mps.lang.smodel.structure.AttributeAccess" flags="nn" index="3CFZ6_">
         <child id="6407023681583036852" name="qualifier" index="3CFYIz" />
-      </concept>
-      <concept id="1140137987495" name="jetbrains.mps.lang.smodel.structure.SNodeTypeCastExpression" flags="nn" index="1PxgMI">
-        <reference id="1140138128738" name="concept" index="1PxNhF" />
-        <child id="1140138123956" name="leftExpression" index="1PxMeX" />
       </concept>
       <concept id="1138055754698" name="jetbrains.mps.lang.smodel.structure.SNodeType" flags="in" index="3Tqbb2">
         <reference id="1138405853777" name="concept" index="ehGHo" />
@@ -3525,28 +3532,37 @@
                 <property role="3SKdUp" value="delete the table file" />
               </node>
             </node>
-            <node concept="3clFbF" id="6za0MtWFLa8" role="3cqZAp">
-              <node concept="2OqwBi" id="6za0MtWFLAK" role="3clFbG">
-                <node concept="1PxgMI" id="6za0MtWFMEA" role="2Oq$k0">
-                  <ref role="1PxNhF" to="hgbr:WAEVbt3F3q" resolve="CovariateTable" />
-                  <node concept="2OqwBi" id="6za0MtWFLcH" role="1PxMeX">
-                    <node concept="2OqwBi" id="6za0MtXcql_" role="2Oq$k0">
-                      <node concept="37vLTw" id="6za0MtWFLa6" role="2Oq$k0">
-                        <ref role="3cqZAo" node="6za0MtWFJYe" resolve="group" />
-                      </node>
-                      <node concept="3CFZ6_" id="6za0MtXcsVo" role="2OqNvi">
-                        <node concept="3CFYIy" id="6za0MtXdAtg" role="3CFYIz">
-                          <ref role="3CFYIx" to="jrxw:2MUPwqlH$YL" resolve="GroupAnnotation" />
-                        </node>
-                      </node>
+            <node concept="Jncv_" id="1cI4GX33aiT" role="3cqZAp">
+              <ref role="JncvD" to="hgbr:WAEVbt3F3q" resolve="CovariateTable" />
+              <node concept="JncvC" id="1cI4GX33aiX" role="JncvA">
+                <property role="TrG5h" value="covariateTable" />
+                <node concept="2jxLKc" id="1cI4GX33aiY" role="1tU5fm" />
+              </node>
+              <node concept="3clFbS" id="1cI4GX33aj0" role="Jncv$">
+                <node concept="3clFbF" id="1cI4GX33aw5" role="3cqZAp">
+                  <node concept="2OqwBi" id="1cI4GX33azE" role="3clFbG">
+                    <node concept="Jnkvi" id="1cI4GX33aw4" role="2Oq$k0">
+                      <ref role="1M0zk5" node="1cI4GX33aiX" resolve="covariateTable" />
                     </node>
-                    <node concept="3TrEf2" id="6za0MtXdEy8" role="2OqNvi">
-                      <ref role="3Tt5mk" to="jrxw:2MUPwqmWSI9" />
+                    <node concept="2qgKlT" id="1cI4GX33bdi" role="2OqNvi">
+                      <ref role="37wK5l" node="6za0MtWFmBy" resolve="forceRefresh" />
                     </node>
                   </node>
                 </node>
-                <node concept="2qgKlT" id="6za0MtWFNuf" role="2OqNvi">
-                  <ref role="37wK5l" node="6za0MtWFmBy" resolve="forceRefresh" />
+              </node>
+              <node concept="2OqwBi" id="1cI4GX33anj" role="JncvB">
+                <node concept="2OqwBi" id="1cI4GX33ank" role="2Oq$k0">
+                  <node concept="37vLTw" id="1cI4GX33anl" role="2Oq$k0">
+                    <ref role="3cqZAo" node="6za0MtWFJYe" resolve="group" />
+                  </node>
+                  <node concept="3CFZ6_" id="1cI4GX33anm" role="2OqNvi">
+                    <node concept="3CFYIy" id="1cI4GX33ann" role="3CFYIz">
+                      <ref role="3CFYIx" to="jrxw:2MUPwqlH$YL" resolve="GroupAnnotation" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="3TrEf2" id="1cI4GX33ano" role="2OqNvi">
+                  <ref role="3Tt5mk" to="jrxw:2MUPwqmWSI9" />
                 </node>
               </node>
             </node>
