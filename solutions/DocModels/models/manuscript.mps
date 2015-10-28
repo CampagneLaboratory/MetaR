@@ -209,6 +209,7 @@
       <concept id="489068675543418439" name="org.campagnelab.metar.R.structure.AssignToTheRight" flags="ng" index="22gccp" />
       <concept id="489068675543418436" name="org.campagnelab.metar.R.structure.SimpleAssignment" flags="ng" index="22gccq" />
       <concept id="489068675543418430" name="org.campagnelab.metar.R.structure.LessThan" flags="ng" index="22gcdw" />
+      <concept id="489068675543418426" name="org.campagnelab.metar.R.structure.AddOperator" flags="ng" index="22gcd$" />
       <concept id="489068675543418421" name="org.campagnelab.metar.R.structure.Dollar" flags="ng" index="22gcdF" />
       <concept id="956380573594386900" name="org.campagnelab.metar.R.structure.EmptyExpr" flags="ng" index="2aq3V4" />
       <concept id="5770663561153558147" name="org.campagnelab.metar.R.structure.ParameterValue" flags="ng" index="gNblG">
@@ -247,6 +248,7 @@
       </concept>
       <concept id="6176023809880707748" name="org.campagnelab.metar.R.structure.ComparisonExpr" flags="ng" index="2PZJpa" />
       <concept id="6176023809880707749" name="org.campagnelab.metar.R.structure.NotExpr" flags="ng" index="2PZJpb" />
+      <concept id="6176023809880707747" name="org.campagnelab.metar.R.structure.AdditionExpr" flags="ng" index="2PZJpd" />
       <concept id="6176023809880707770" name="org.campagnelab.metar.R.structure.IntLiteralExpr" flags="ng" index="2PZJpk">
         <property id="1229604057012663654" name="value" index="pzxG6" />
       </concept>
@@ -55400,6 +55402,36 @@
     <node concept="31JHg8" id="2734ievegJE" role="31JHgj">
       <property role="TrG5h" value="Age" />
       <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
+    </node>
+  </node>
+  <node concept="2PZPSw" id="A$944B8fVj">
+    <property role="TrG5h" value="DemoScript" />
+    <node concept="2v3moz" id="A$944B8sW1" role="pZjJ2">
+      <node concept="22gccq" id="A$944B8sW2" role="22hImy" />
+      <node concept="2PZJpp" id="A$944B8sWe" role="2v3mow">
+        <property role="TrG5h" value="a" />
+      </node>
+      <node concept="2PZJpd" id="A$944B8sWm" role="2v3moI">
+        <node concept="2PZJpk" id="A$944B8sWp" role="2v3mow">
+          <property role="pzxG6" value="1" />
+        </node>
+        <node concept="22gcd$" id="A$944B8sWq" role="22hImy" />
+        <node concept="2PZJpk" id="A$944B8sWy" role="2v3moI">
+          <property role="pzxG6" value="2" />
+        </node>
+      </node>
+    </node>
+    <node concept="3ZW7eb" id="A$944B9LQP" role="lGtFl">
+      <property role="2ripvU" value="1" />
+      <property role="TrG5h" value="DemoScriptEditor" />
+      <ref role="KZaLW" node="A$944B9LR0" resolve="ManueleFIGURES" />
+    </node>
+  </node>
+  <node concept="KZc4b" id="A$944B9LR0">
+    <property role="TrG5h" value="ManueleFIGURES" />
+    <property role="KZc57" value="/Users/mas2182/Lab/Papers/metar_manuscript_1/figures" />
+    <node concept="2O7UoI" id="A$944B9LR1" role="2O7UoE">
+      <property role="2O7UoJ" value="/Users/mas2182/Library/Application Support/MPS32/Editor2PDF/fonts/DejaVuSansMono.ttf" />
     </node>
   </node>
 </model>
