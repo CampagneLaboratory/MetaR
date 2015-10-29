@@ -152,6 +152,7 @@
       <concept id="3562215692195599741" name="jetbrains.mps.lang.smodel.structure.SLinkImplicitSelect" flags="nn" index="13MTOL">
         <reference id="3562215692195600259" name="link" index="13MTZf" />
       </concept>
+      <concept id="1144100932627" name="jetbrains.mps.lang.smodel.structure.OperationParm_Inclusion" flags="ng" index="1xIGOp" />
       <concept id="1144101972840" name="jetbrains.mps.lang.smodel.structure.OperationParm_Concept" flags="ng" index="1xMEDy">
         <child id="1207343664468" name="conceptArgument" index="ri$Ld" />
       </concept>
@@ -340,6 +341,7 @@
                       <ref role="cht4Q" to="qrzj:4ssfE$7TB65" resolve="GroupRef" />
                     </node>
                   </node>
+                  <node concept="1xIGOp" id="15vsuTfvMw_" role="1xVPHs" />
                 </node>
               </node>
               <node concept="3$u5V9" id="4ssfE$7TBDc" role="2OqNvi">
@@ -385,6 +387,7 @@
                     <ref role="cht4Q" to="qrzj:4ssfE$7TB65" resolve="GroupRef" />
                   </node>
                 </node>
+                <node concept="1xIGOp" id="15vsuTfzqnQ" role="1xVPHs" />
               </node>
             </node>
             <node concept="13MTOL" id="4ssfE$7TBDw" role="2OqNvi">
