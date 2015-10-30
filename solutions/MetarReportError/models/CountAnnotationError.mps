@@ -7718,7 +7718,7 @@
     <property role="31Cu5t" value="&#9;" />
     <property role="31JHgl" value="unused" />
     <property role="TrG5h" value="CovariateForSimulateDataset_TVQMWVVDJS" />
-    <property role="26T8KA" value="${org.campagnelab.metaR.results_dir}/table_CovariateForSimulateDataset_TVQMWVVDJS_TVQMWVVDJS.tsv" />
+    <property role="26T8KA" value="${org.campagnelab.metaR.home}/data/table_CovariateForSimulateDataset_TVQMWVVDJS_TVQMWVVDJS.tsv" />
     <node concept="31JHg8" id="1IGCSCxw88S" role="31JHgj">
       <property role="TrG5h" value="SampleName" />
       <ref role="1YeEjl" to="9nc5:1ID5TXdv_9L" resolve="String" />
