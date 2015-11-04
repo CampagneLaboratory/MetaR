@@ -236,7 +236,7 @@
     <property role="TrG5h" value="Table" />
     <property role="34LRSv" value="Table" />
     <property role="19KtqR" value="true" />
-    <property role="MwhBj" value="${module}/icons/table.png" />
+    <property role="MwhBj" value="${module}/icons/table-2.png" />
     <ref role="1TJDcQ" to="ztlb:37GCX3DaB_D" resolve="Tsvfile" />
     <node concept="1TJgyi" id="w5znaeSg5k" role="1TKVEl">
       <property role="TrG5h" value="pathToResolve" />
@@ -429,7 +429,7 @@
     <property role="3GE5qa" value="annotations" />
     <property role="TrG5h" value="ColumnGroupContainer" />
     <property role="19KtqR" value="true" />
-    <property role="MwhBj" value="${module}/icons/columns.png" />
+    <property role="MwhBj" value="${module}/icons/columns-3.png" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="6XP3gVdRJUX" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />

@@ -60,7 +60,7 @@
   <node concept="1TIwiD" id="4FCgsrOfsVe">
     <property role="TrG5h" value="StyleContainer" />
     <property role="19KtqR" value="true" />
-    <property role="MwhBj" value="${module}/icons/style.png" />
+    <property role="MwhBj" value="${module}/icons/styles-2.png" />
     <property role="34LRSv" value="Style" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="4FCgsrOgnEU" role="1TKVEi">
