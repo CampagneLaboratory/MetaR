@@ -1588,6 +1588,29 @@
           </node>
         </node>
       </node>
+      <node concept="3clFbJ" id="4AA5fFKUBQ_" role="3cqZAp">
+        <node concept="3clFbS" id="4AA5fFKUBQB" role="3clFbx">
+          <node concept="2MkqsV" id="4AA5fFKUFWK" role="3cqZAp">
+            <node concept="Xl_RD" id="4AA5fFKUFX5" role="2MkJ7o">
+              <property role="Xl_RC" value="Invalid File Path (spaces are not allowed)." />
+            </node>
+            <node concept="1YBJjd" id="4AA5fFKUFXi" role="2OEOjV">
+              <ref role="1YBMHb" node="5Kw8UUF8UNZ" resolve="table" />
+            </node>
+          </node>
+        </node>
+        <node concept="2OqwBi" id="4AA5fFKUC4k" role="3clFbw">
+          <node concept="37vLTw" id="4AA5fFKUBUQ" role="2Oq$k0">
+            <ref role="3cqZAo" node="w5znaeP2iQ" resolve="path" />
+          </node>
+          <node concept="liA8E" id="4AA5fFKUFVi" role="2OqNvi">
+            <ref role="37wK5l" to="e2lb:~String.matches(java.lang.String):boolean" resolve="matches" />
+            <node concept="Xl_RD" id="4AA5fFKUFVR" role="37wK5m">
+              <property role="Xl_RC" value=".*\\s+.*" />
+            </node>
+          </node>
+        </node>
+      </node>
     </node>
     <node concept="1YaCAy" id="5Kw8UUF8UNZ" role="1YuTPh">
       <property role="TrG5h" value="table" />
