@@ -644,7 +644,7 @@
             <property role="3_3kQV" value="" />
           </node>
           <node concept="3_3kQU" id="KwXu1WOhxd" role="3kgYXv">
-            <property role="3_3kQV" value=",dataset=thisDataset)" />
+            <property role="3_3kQV" value=",dataset=thisDataset,host=&quot;www.ensembl.org&quot;)" />
           </node>
         </node>
         <node concept="3_3kQU" id="KwXu1WOhxe" role="3_3kQL">

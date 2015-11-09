@@ -20,7 +20,6 @@
     <use id="067d1b0c-daf1-44f9-9fbd-e1dd4c6e26e8" name="org.campagnelab.metar.simulation" version="0" />
   </languages>
   <imports>
-    <import index="5yya" ref="r:3e2e9cdc-c711-4ff2-8c08-932ce803c530(CountAnnotationError)" />
     <import index="9nc5" ref="r:d1a256e6-591a-459f-809c-7fc9df45e4d5(org.campagnelab.mps.XChart.types.roots)" implicit="true" />
   </imports>
   <registry>
