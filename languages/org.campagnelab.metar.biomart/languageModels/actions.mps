@@ -7,8 +7,8 @@
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
-    <import index="m6iz" ref="13ba3d61-2e25-42c5-9cb9-f67b16cd444e/f:java_stub#13ba3d61-2e25-42c5-9cb9-f67b16cd444e#Biomart(Biomart/Biomart@java_stub)" />
     <import index="c07g" ref="r:1ddbf3ba-cbe7-4cb8-b2fc-7a1e80a63d10(org.campagnelab.metar.biomart.structure)" />
+    <import index="6yog" ref="r:6370c380-36c0-423d-a2ca-f84adda458e7(org.campagnelab.metar.biomart.web)" />
     <import index="v8sa" ref="r:db1b133e-9a0f-4319-b384-413408eb1729(org.campagnelab.metar.tables.behavior)" implicit="true" />
     <import index="jrxw" ref="r:9f2bbfbf-f8b7-4b3b-92b1-b6a0e9642c10(org.campagnelab.metar.tables.structure)" implicit="true" />
     <import index="okqk" ref="r:a8c6f275-63e6-4f3f-a0b9-9dfd9b95fe4b(org.campagnelab.metar.biomart.behavior)" implicit="true" />
@@ -118,7 +118,7 @@
     </language>
   </registry>
   <node concept="37WguZ" id="2eITi4PLbUP">
-    <property role="TrG5h" value="BiomartFactorie" />
+    <property role="TrG5h" value="BiomartFactories" />
     <node concept="37WvkG" id="2eITi4PLbUQ" role="37WGs$">
       <property role="3mWdv0" value="add the DatabaseList to the root node" />
       <ref role="37XkoT" to="c07g:3k98b1qdWzt" resolve="Biomart" />

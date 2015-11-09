@@ -12,13 +12,13 @@
     <import index="v8sa" ref="r:db1b133e-9a0f-4319-b384-413408eb1729(org.campagnelab.metar.tables.behavior)" />
     <import index="jrxw" ref="r:9f2bbfbf-f8b7-4b3b-92b1-b6a0e9642c10(org.campagnelab.metar.tables.structure)" />
     <import index="986b" ref="r:ec296f40-f73d-425d-b0d7-375a081142e4(org.campagnelab.mps.XChart.helpers)" />
-    <import index="m6iz" ref="13ba3d61-2e25-42c5-9cb9-f67b16cd444e/f:java_stub#13ba3d61-2e25-42c5-9cb9-f67b16cd444e#Biomart(Biomart.package/Biomart@java_stub)" />
     <import index="o8zo" ref="r:314576fc-3aee-4386-a0a5-a38348ac317d(jetbrains.mps.scope)" />
     <import index="c07g" ref="r:1ddbf3ba-cbe7-4cb8-b2fc-7a1e80a63d10(org.campagnelab.metar.biomart.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
     <import index="e2lb" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" />
     <import index="ztlb" ref="r:989540b8-cc89-4ed5-ba78-cf2ce766b8ce(org.campagnelab.mps.XChart.structure)" />
     <import index="tpcu" ref="r:00000000-0000-4000-0000-011c89590282(jetbrains.mps.lang.core.behavior)" />
+    <import index="6yog" ref="r:6370c380-36c0-423d-a2ca-f84adda458e7(org.campagnelab.metar.biomart.web)" />
   </imports>
   <registry>
     <language id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior">
@@ -1946,9 +1946,9 @@
             <node concept="3clFbF" id="1M6hTyZapdt" role="3cqZAp">
               <node concept="37vLTI" id="1M6hTyZapdu" role="3clFbG">
                 <node concept="2OqwBi" id="1M6hTyZaWyn" role="37vLTx">
-                  <node concept="2YIFZM" id="1M6hTyZapdv" role="2Oq$k0">
-                    <ref role="37wK5l" to="m6iz:~MartService.ListValidDatabases():java.lang.String" resolve="ListValidDatabases" />
-                    <ref role="1Pybhc" to="m6iz:~MartService" resolve="MartService" />
+                  <node concept="2YIFZM" id="16dayhjB2Zv" role="2Oq$k0">
+                    <ref role="37wK5l" to="6yog:5qJ5j7_1UuM" resolve="ListValidDatabases" />
+                    <ref role="1Pybhc" to="6yog:5qJ5j7_1QYV" resolve="MartService" />
                   </node>
                   <node concept="liA8E" id="1M6hTyZaXpQ" role="2OqNvi">
                     <ref role="37wK5l" to="e2lb:~String.split(java.lang.String):java.lang.String[]" resolve="split" />
@@ -2808,12 +2808,12 @@
               <node concept="3cpWsn" id="6t_ylHwbIIn" role="3cpWs9">
                 <property role="TrG5h" value="queryMart" />
                 <node concept="17QB3L" id="6t_ylHwbIIi" role="1tU5fm" />
-                <node concept="2YIFZM" id="6t_ylHwbM6L" role="33vP2m">
-                  <ref role="37wK5l" to="m6iz:~MartService.ListValidDatasets(java.lang.String):java.lang.String" resolve="ListValidDatasets" />
-                  <ref role="1Pybhc" to="m6iz:~MartService" resolve="MartService" />
-                  <node concept="2OqwBi" id="6t_ylHwbM6M" role="37wK5m">
-                    <node concept="13iPFW" id="6t_ylHwbM6N" role="2Oq$k0" />
-                    <node concept="3TrcHB" id="6t_ylHwbM6O" role="2OqNvi">
+                <node concept="2YIFZM" id="16dayhjBAeZ" role="33vP2m">
+                  <ref role="37wK5l" to="6yog:5qJ5j7_1UvF" resolve="ListValidDatasets" />
+                  <ref role="1Pybhc" to="6yog:5qJ5j7_1QYV" resolve="MartService" />
+                  <node concept="2OqwBi" id="16dayhjBAf0" role="37wK5m">
+                    <node concept="13iPFW" id="16dayhjBAf1" role="2Oq$k0" />
+                    <node concept="3TrcHB" id="16dayhjBAf2" role="2OqNvi">
                       <ref role="3TsBF5" to="c07g:KwXu1W4Zk_" resolve="martName" />
                     </node>
                   </node>
@@ -3326,12 +3326,12 @@
               <node concept="3cpWsn" id="6t_ylHwccbE" role="3cpWs9">
                 <property role="TrG5h" value="queryMart" />
                 <node concept="17QB3L" id="6t_ylHwccb_" role="1tU5fm" />
-                <node concept="2YIFZM" id="6t_ylHwce6N" role="33vP2m">
-                  <ref role="1Pybhc" to="m6iz:~MartService" resolve="MartService" />
-                  <ref role="37wK5l" to="m6iz:~MartService.ListValidAttributes(java.lang.String):java.lang.String" resolve="ListValidAttributes" />
-                  <node concept="2OqwBi" id="6t_ylHwce6O" role="37wK5m">
-                    <node concept="13iPFW" id="6t_ylHwce6P" role="2Oq$k0" />
-                    <node concept="3TrcHB" id="6t_ylHwce6Q" role="2OqNvi">
+                <node concept="2YIFZM" id="16dayhjBwF_" role="33vP2m">
+                  <ref role="37wK5l" to="6yog:5qJ5j7_1Uwi" resolve="ListValidAttributes" />
+                  <ref role="1Pybhc" to="6yog:5qJ5j7_1QYV" resolve="MartService" />
+                  <node concept="2OqwBi" id="16dayhjBwFA" role="37wK5m">
+                    <node concept="13iPFW" id="16dayhjBwFB" role="2Oq$k0" />
+                    <node concept="3TrcHB" id="16dayhjBwFC" role="2OqNvi">
                       <ref role="3TsBF5" to="c07g:KwXu1W4Zk_" resolve="martName" />
                     </node>
                   </node>
@@ -3736,12 +3736,12 @@
               <node concept="3cpWsn" id="6t_ylHweM03" role="3cpWs9">
                 <property role="TrG5h" value="queryMart" />
                 <node concept="17QB3L" id="6t_ylHweM04" role="1tU5fm" />
-                <node concept="2YIFZM" id="6t_ylHweN$_" role="33vP2m">
-                  <ref role="37wK5l" to="m6iz:~MartService.ListValidFilters(java.lang.String):java.lang.String" resolve="ListValidFilters" />
-                  <ref role="1Pybhc" to="m6iz:~MartService" resolve="MartService" />
-                  <node concept="2OqwBi" id="6t_ylHweN$A" role="37wK5m">
-                    <node concept="13iPFW" id="6t_ylHweN$B" role="2Oq$k0" />
-                    <node concept="3TrcHB" id="6t_ylHweN$C" role="2OqNvi">
+                <node concept="2YIFZM" id="16dayhjBwRd" role="33vP2m">
+                  <ref role="37wK5l" to="6yog:5qJ5j7_1UwT" resolve="ListValidFilters" />
+                  <ref role="1Pybhc" to="6yog:5qJ5j7_1QYV" resolve="MartService" />
+                  <node concept="2OqwBi" id="16dayhjBwRe" role="37wK5m">
+                    <node concept="13iPFW" id="16dayhjBwRf" role="2Oq$k0" />
+                    <node concept="3TrcHB" id="16dayhjBwRg" role="2OqNvi">
                       <ref role="3TsBF5" to="c07g:KwXu1W4Zk_" resolve="martName" />
                     </node>
                   </node>
