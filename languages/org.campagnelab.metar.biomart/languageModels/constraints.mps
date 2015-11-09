@@ -140,125 +140,9 @@
       </concept>
     </language>
     <language id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections">
-      <concept id="540871147943773365" name="jetbrains.mps.baseLanguage.collections.structure.SingleArgumentSequenceOperation" flags="nn" index="25WWJ4">
-        <child id="540871147943773366" name="argument" index="25WWJ7" />
-      </concept>
-      <concept id="1173946412755" name="jetbrains.mps.baseLanguage.collections.structure.RemoveAllElementsOperation" flags="nn" index="1kEaZ2" />
       <concept id="1165530316231" name="jetbrains.mps.baseLanguage.collections.structure.IsEmptyOperation" flags="nn" index="1v1jN8" />
     </language>
   </registry>
-  <node concept="1M2fIO" id="2eITi4PrjhR">
-    <property role="3GE5qa" value="mainStructure" />
-    <ref role="1M2myG" to="c07g:2eITi4Pls1W" resolve="DatabaseRef" />
-    <node concept="1N5Pfh" id="2eITi4PrKP$" role="1Mr941">
-      <ref role="1N5Vy1" to="c07g:2eITi4PlzR8" />
-      <node concept="1dDu$B" id="KwXu1Wsy0L" role="1N6uqs">
-        <ref role="1dDu$A" to="c07g:6Om6Mbm3Tzt" resolve="Database" />
-      </node>
-    </node>
-  </node>
-  <node concept="1M2fIO" id="2eITi4POn5z">
-    <property role="3GE5qa" value="mainStructure" />
-    <ref role="1M2myG" to="c07g:2eITi4POn3$" resolve="DatasetsRef" />
-    <node concept="1N5Pfh" id="2eITi4POn5B" role="1Mr941">
-      <ref role="1N5Vy1" to="c07g:2eITi4POn3_" />
-      <node concept="1dDu$B" id="KwXu1WrQJa" role="1N6uqs">
-        <ref role="1dDu$A" to="c07g:2eITi4PKtDD" resolve="Dataset" />
-      </node>
-      <node concept="3k9gUc" id="KwXu1W_Ur9" role="3kmjI7">
-        <node concept="3clFbS" id="KwXu1W_Ura" role="2VODD2">
-          <node concept="3clFbJ" id="KwXu1W_Utb" role="3cqZAp">
-            <node concept="3clFbS" id="KwXu1W_Utc" role="3clFbx">
-              <node concept="3SKdUt" id="KwXu1W_Utd" role="3cqZAp">
-                <node concept="3SKdUq" id="KwXu1W_Ute" role="3SKWNk">
-                  <property role="3SKdUp" value="if no datasets associate with the databases create the list" />
-                </node>
-              </node>
-              <node concept="3clFbF" id="KwXu1W_Utf" role="3cqZAp">
-                <node concept="2OqwBi" id="KwXu1W_Utg" role="3clFbG">
-                  <node concept="2OqwBi" id="KwXu1W_Uth" role="2Oq$k0">
-                    <node concept="3kakTB" id="KwXu1W_Uti" role="2Oq$k0" />
-                    <node concept="3TrEf2" id="KwXu1W_V2w" role="2OqNvi">
-                      <ref role="3Tt5mk" to="c07g:2eITi4POn3_" />
-                    </node>
-                  </node>
-                  <node concept="2qgKlT" id="KwXu1WAR3$" role="2OqNvi">
-                    <ref role="37wK5l" to="okqk:KwXu1W$8hL" resolve="getAttributesList" />
-                  </node>
-                </node>
-              </node>
-              <node concept="3clFbH" id="KwXu1W_Utl" role="3cqZAp" />
-            </node>
-            <node concept="2OqwBi" id="KwXu1W_Utm" role="3clFbw">
-              <node concept="2OqwBi" id="KwXu1W_Utn" role="2Oq$k0">
-                <node concept="2OqwBi" id="KwXu1W_Uto" role="2Oq$k0">
-                  <node concept="3kakTB" id="KwXu1W_Utp" role="2Oq$k0" />
-                  <node concept="3TrEf2" id="KwXu1W_UIk" role="2OqNvi">
-                    <ref role="3Tt5mk" to="c07g:2eITi4POn3_" />
-                  </node>
-                </node>
-                <node concept="3Tsc0h" id="KwXu1W_UU4" role="2OqNvi">
-                  <ref role="3TtcxE" to="c07g:KwXu1WyoBF" />
-                </node>
-              </node>
-              <node concept="1v1jN8" id="KwXu1W_Uts" role="2OqNvi" />
-            </node>
-            <node concept="9aQIb" id="KwXu1W_Utt" role="9aQIa">
-              <node concept="3clFbS" id="KwXu1W_Utu" role="9aQI4">
-                <node concept="3SKdUt" id="KwXu1W_Utv" role="3cqZAp">
-                  <node concept="3SKdUq" id="KwXu1W_Utw" role="3SKWNk">
-                    <property role="3SKdUp" value="if datasets associate with the databases refresh the list" />
-                  </node>
-                </node>
-                <node concept="3clFbF" id="KwXu1W_Utx" role="3cqZAp">
-                  <node concept="2OqwBi" id="KwXu1W_Uty" role="3clFbG">
-                    <node concept="2OqwBi" id="KwXu1W_Utz" role="2Oq$k0">
-                      <node concept="2OqwBi" id="KwXu1W_Ut$" role="2Oq$k0">
-                        <node concept="3kakTB" id="KwXu1W_Ut_" role="2Oq$k0" />
-                        <node concept="3TrEf2" id="KwXu1W_Zmc" role="2OqNvi">
-                          <ref role="3Tt5mk" to="c07g:2eITi4POn3_" />
-                        </node>
-                      </node>
-                      <node concept="3Tsc0h" id="KwXu1WA0l1" role="2OqNvi">
-                        <ref role="3TtcxE" to="c07g:KwXu1WyoBF" />
-                      </node>
-                    </node>
-                    <node concept="1kEaZ2" id="KwXu1W_UtC" role="2OqNvi">
-                      <node concept="2OqwBi" id="KwXu1W_UtD" role="25WWJ7">
-                        <node concept="2OqwBi" id="KwXu1W_UtE" role="2Oq$k0">
-                          <node concept="3kakTB" id="KwXu1W_UtF" role="2Oq$k0" />
-                          <node concept="3TrEf2" id="KwXu1WA1Bg" role="2OqNvi">
-                            <ref role="3Tt5mk" to="c07g:2eITi4POn3_" />
-                          </node>
-                        </node>
-                        <node concept="3Tsc0h" id="KwXu1WA2fT" role="2OqNvi">
-                          <ref role="3TtcxE" to="c07g:KwXu1WyoBF" />
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                </node>
-                <node concept="3clFbF" id="KwXu1W_XGR" role="3cqZAp">
-                  <node concept="2OqwBi" id="KwXu1W_XGS" role="3clFbG">
-                    <node concept="2OqwBi" id="KwXu1W_XGT" role="2Oq$k0">
-                      <node concept="3kakTB" id="KwXu1W_XGU" role="2Oq$k0" />
-                      <node concept="3TrEf2" id="KwXu1W_XGV" role="2OqNvi">
-                        <ref role="3Tt5mk" to="c07g:2eITi4POn3_" />
-                      </node>
-                    </node>
-                    <node concept="2qgKlT" id="KwXu1WARfO" role="2OqNvi">
-                      <ref role="37wK5l" to="okqk:KwXu1W$8hL" resolve="getAttributesList" />
-                    </node>
-                  </node>
-                </node>
-                <node concept="3clFbH" id="KwXu1W_UtO" role="3cqZAp" />
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
   <node concept="1M2fIO" id="2eITi4R4nlw">
     <property role="3GE5qa" value="" />
     <ref role="1M2myG" to="c07g:3k98b1qdWzt" resolve="Biomart" />
@@ -283,6 +167,12 @@
                   </node>
                   <node concept="2qgKlT" id="KwXu1WuIeK" role="2OqNvi">
                     <ref role="37wK5l" to="okqk:KwXu1W7RYT" resolve="getDatasetList" />
+                    <node concept="2OqwBi" id="16dayhk9OD3" role="37wK5m">
+                      <node concept="3kakTB" id="16dayhk9OuN" role="2Oq$k0" />
+                      <node concept="2qgKlT" id="16dayhk9Pam" role="2OqNvi">
+                        <ref role="37wK5l" to="okqk:16dayhk0JYo" resolve="getBioMartServer" />
+                      </node>
+                    </node>
                   </node>
                 </node>
               </node>
@@ -368,6 +258,12 @@
                   </node>
                   <node concept="2qgKlT" id="KwXu1XdJtM" role="2OqNvi">
                     <ref role="37wK5l" to="okqk:KwXu1W$8hL" resolve="getAttributesList" />
+                    <node concept="2OqwBi" id="16dayhkaOhO" role="37wK5m">
+                      <node concept="3kakTB" id="16dayhkaOc7" role="2Oq$k0" />
+                      <node concept="2qgKlT" id="16dayhkaOLe" role="2OqNvi">
+                        <ref role="37wK5l" to="okqk:16dayhk0JYo" resolve="getBioMartServer" />
+                      </node>
+                    </node>
                   </node>
                 </node>
               </node>
@@ -381,6 +277,12 @@
                   </node>
                   <node concept="2qgKlT" id="1UH1ei5ivvs" role="2OqNvi">
                     <ref role="37wK5l" to="okqk:5FcpIQry5CC" resolve="getFiltersList" />
+                    <node concept="2OqwBi" id="16dayhkaOOW" role="37wK5m">
+                      <node concept="3kakTB" id="16dayhkaOOX" role="2Oq$k0" />
+                      <node concept="2qgKlT" id="16dayhkaOOY" role="2OqNvi">
+                        <ref role="37wK5l" to="okqk:16dayhk0JYo" resolve="getBioMartServer" />
+                      </node>
+                    </node>
                   </node>
                 </node>
               </node>

@@ -604,7 +604,7 @@
           <property role="3_3kQV" value="thisMart&lt;-useMart(" />
         </node>
         <node concept="3kgWzl" id="KwXu1WOhwX" role="3_3kQL">
-          <property role="3_3kQV" value="" />
+          <property role="3_3kQV" value="\n\n\n" />
           <node concept="3_3kQU" id="KwXu1WOhwY" role="3kgYXv">
             <property role="3_3kQV" value="thisMart" />
             <node concept="17Uvod" id="KwXu1WOhwZ" role="lGtFl">
@@ -644,7 +644,42 @@
             <property role="3_3kQV" value="" />
           </node>
           <node concept="3_3kQU" id="KwXu1WOhxd" role="3kgYXv">
-            <property role="3_3kQV" value=",dataset=thisDataset,host=&quot;www.ensembl.org&quot;)" />
+            <property role="3_3kQV" value=",dataset=thisDataset,host=&quot;" />
+          </node>
+          <node concept="3_3kQU" id="16dayhk0QXI" role="3kgYXv">
+            <property role="3_3kQV" value="url" />
+            <node concept="17Uvod" id="16dayhk0R7p" role="lGtFl">
+              <property role="P4ACc" value="901f5cf3-dc77-4c1e-bc5a-6382baee28b4/1680136183140337486/1680136183140337487" />
+              <property role="2qtEX9" value="text" />
+              <node concept="3zFVjK" id="16dayhk0R7s" role="3zH0cK">
+                <node concept="3clFbS" id="16dayhk0R7t" role="2VODD2">
+                  <node concept="3clFbF" id="16dayhk0R7z" role="3cqZAp">
+                    <node concept="2OqwBi" id="16dayhknhoh" role="3clFbG">
+                      <node concept="2OqwBi" id="16dayhk0R7u" role="2Oq$k0">
+                        <node concept="2qgKlT" id="16dayhk0Sfi" role="2OqNvi">
+                          <ref role="37wK5l" to="okqk:16dayhk0JYo" resolve="getBioMartServer" />
+                        </node>
+                        <node concept="30H73N" id="16dayhk0R7y" role="2Oq$k0" />
+                      </node>
+                      <node concept="liA8E" id="16dayhknib3" role="2OqNvi">
+                        <ref role="37wK5l" to="e2lb:~String.substring(int):java.lang.String" resolve="substring" />
+                        <node concept="2OqwBi" id="16dayhknjdi" role="37wK5m">
+                          <node concept="Xl_RD" id="16dayhkniiK" role="2Oq$k0">
+                            <property role="Xl_RC" value="http://" />
+                          </node>
+                          <node concept="liA8E" id="16dayhknk0r" role="2OqNvi">
+                            <ref role="37wK5l" to="e2lb:~String.length():int" resolve="length" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3_3kQU" id="16dayhk0TC0" role="3kgYXv">
+            <property role="3_3kQV" value="&quot;)" />
           </node>
         </node>
         <node concept="3_3kQU" id="KwXu1WOhxe" role="3_3kQL">

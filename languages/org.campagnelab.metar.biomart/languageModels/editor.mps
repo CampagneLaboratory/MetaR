@@ -458,6 +458,15 @@
       <node concept="l2Vlx" id="3k98b1qefat" role="2iSdaV" />
     </node>
     <node concept="3EZMnI" id="z5VH9dH2Q8" role="6VMZX">
+      <node concept="3EZMnI" id="16dayhjSJM$" role="3EZMnx">
+        <node concept="2iRfu4" id="16dayhjSJM_" role="2iSdaV" />
+        <node concept="3F0ifn" id="16dayhjSITQ" role="3EZMnx">
+          <property role="3F0ifm" value="BioMart server:" />
+        </node>
+        <node concept="3F0A7n" id="16dayhjSJVi" role="3EZMnx">
+          <ref role="1NtTu8" to="c07g:16dayhjSIGu" resolve="url" />
+        </node>
+      </node>
       <node concept="1QoScp" id="z5VH9dH3YX" role="3EZMnx">
         <property role="1QpmdY" value="true" />
         <node concept="pkWqt" id="z5VH9dH3Z0" role="3e4ffs">
@@ -573,19 +582,6 @@
       <node concept="2iRfu4" id="z5VH9dG8PN" role="2iSdaV" />
     </node>
   </node>
-  <node concept="24kQdi" id="2eITi4PJYwa">
-    <property role="3GE5qa" value="mainStructure" />
-    <ref role="1XX52x" to="c07g:2eITi4Pls1W" resolve="DatabaseRef" />
-    <node concept="1iCGBv" id="2eITi4PJYwo" role="2wV5jI">
-      <ref role="1NtTu8" to="c07g:2eITi4PlzR8" />
-      <node concept="1sVBvm" id="2eITi4PJYwp" role="1sWHZn">
-        <node concept="3F0A7n" id="2eITi4PJYwu" role="2wV5jI">
-          <property role="1Intyy" value="true" />
-          <ref role="1NtTu8" to="c07g:KwXu1W4Zk_" resolve="martName" />
-        </node>
-      </node>
-    </node>
-  </node>
   <node concept="24kQdi" id="2eITi4PKtGO">
     <property role="3GE5qa" value="mainStructure" />
     <ref role="1XX52x" to="c07g:2eITi4PKtDD" resolve="Dataset" />
@@ -595,19 +591,6 @@
         <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
         <node concept="Vb9p2" id="7B_tLLz_U$8" role="3F10Kt">
           <property role="Vbekb" value="ITALIC" />
-        </node>
-      </node>
-    </node>
-  </node>
-  <node concept="24kQdi" id="2eITi4POn3Y">
-    <property role="3GE5qa" value="mainStructure" />
-    <ref role="1XX52x" to="c07g:2eITi4POn3$" resolve="DatasetsRef" />
-    <node concept="1iCGBv" id="2eITi4POn50" role="2wV5jI">
-      <ref role="1NtTu8" to="c07g:2eITi4POn3_" />
-      <node concept="1sVBvm" id="2eITi4POn52" role="1sWHZn">
-        <node concept="3F0A7n" id="2eITi4POn59" role="2wV5jI">
-          <property role="1Intyy" value="true" />
-          <ref role="1NtTu8" to="c07g:KwXu1W4Zk_" resolve="martName" />
         </node>
       </node>
     </node>

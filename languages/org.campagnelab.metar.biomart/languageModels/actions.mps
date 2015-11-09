@@ -134,6 +134,12 @@
                   <node concept="2qgKlT" id="Uo9xLniAK7" role="2OqNvi">
                     <ref role="37wK5l" to="okqk:Uo9xLniBVx" resolve="createMartRegistry" />
                     <node concept="1r4N1M" id="6mn2T7RXV7V" role="37wK5m" />
+                    <node concept="2OqwBi" id="16dayhkiPLs" role="37wK5m">
+                      <node concept="1r4Lsj" id="16dayhkiPGQ" role="2Oq$k0" />
+                      <node concept="2qgKlT" id="16dayhkiQg9" role="2OqNvi">
+                        <ref role="37wK5l" to="okqk:16dayhk0JYo" resolve="getBioMartServer" />
+                      </node>
+                    </node>
                   </node>
                 </node>
               </node>

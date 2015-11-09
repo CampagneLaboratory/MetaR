@@ -9,6 +9,7 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import jetbrains.mps.generator.template.PropertyMacroContext;
 import org.campagnelab.metar.tables.behavior.Statement_Behavior;
+import org.campagnelab.metar.biomart.behavior.Biomart_Behavior;
 import jetbrains.mps.internal.collections.runtime.IterableUtils;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.internal.collections.runtime.IWhereFilter;
@@ -69,6 +70,9 @@ public class QueriesGenerated {
   public static Object propertyMacro_GetPropertyValue_873968672225433664(final PropertyMacroContext _context) {
     return "\"" + SPropertyOperations.getString(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getReferenceLink(0xe633fc480aaf45b5L, 0x9894247b67cf0890L, 0x350920b05a37c8ddL, 0xc20f5e07c4fac44L, "martDatabase")), MetaAdapterFactory.getProperty(0xe633fc480aaf45b5L, 0x9894247b67cf0890L, 0xc20f5e07c13f13bL, 0xc20f5e07c13f525L, "martName")) + "\"";
 
+  }
+  public static Object propertyMacro_GetPropertyValue_1264713405877678556(final PropertyMacroContext _context) {
+    return Biomart_Behavior.call_getBioMartServer_1264713405877649304(_context.getNode()).substring("http://".length());
   }
   public static Object propertyMacro_GetPropertyValue_873968672225433688(final PropertyMacroContext _context) {
     return IterableUtils.join(ListSequence.fromList(SLinkOperations.getChildren(_context.getNode(), MetaAdapterFactory.getContainmentLink(0xe633fc480aaf45b5L, 0x9894247b67cf0890L, 0x350920b05a37c8ddL, 0xc20f5e07c983c05L, "martAttributes"))).where(new IWhereFilter<SNode>() {

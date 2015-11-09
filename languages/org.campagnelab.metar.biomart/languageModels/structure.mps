@@ -65,6 +65,10 @@
     <property role="3GE5qa" value="" />
     <property role="R4oN_" value="allow to query data from Biomart" />
     <ref role="1TJDcQ" to="jrxw:7LvyiX4miiC" resolve="Statement" />
+    <node concept="1TJgyi" id="16dayhjSIGu" role="1TKVEl">
+      <property role="TrG5h" value="url" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
     <node concept="1TJgyj" id="7AiSepDZbId" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="outputTable" />
@@ -139,18 +143,6 @@
       <ref role="20lvS9" node="2eITi4PKtDD" resolve="Dataset" />
     </node>
   </node>
-  <node concept="1TIwiD" id="2eITi4Pls1W">
-    <property role="TrG5h" value="DatabaseRef" />
-    <property role="3GE5qa" value="mainStructure" />
-    <property role="R4oN_" value="reference to a database" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyj" id="2eITi4PlzR8" role="1TKVEi">
-      <property role="20lmBu" value="reference" />
-      <property role="20lbJX" value="1" />
-      <property role="20kJfa" value="database" />
-      <ref role="20lvS9" node="6Om6Mbm3Tzt" resolve="Database" />
-    </node>
-  </node>
   <node concept="1TIwiD" id="2eITi4PKtDD">
     <property role="TrG5h" value="Dataset" />
     <property role="3GE5qa" value="mainStructure" />
@@ -167,18 +159,6 @@
       <property role="20kJfa" value="filters" />
       <property role="20lbJX" value="0..n" />
       <ref role="20lvS9" node="5FcpIQrxxky" resolve="Filter" />
-    </node>
-  </node>
-  <node concept="1TIwiD" id="2eITi4POn3$">
-    <property role="TrG5h" value="DatasetsRef" />
-    <property role="3GE5qa" value="mainStructure" />
-    <property role="R4oN_" value="reference to a dataset" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyj" id="2eITi4POn3_" role="1TKVEi">
-      <property role="20lmBu" value="reference" />
-      <property role="20kJfa" value="dataset" />
-      <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="2eITi4PKtDD" resolve="Dataset" />
     </node>
   </node>
   <node concept="1TIwiD" id="KwXu1W4Z4V">

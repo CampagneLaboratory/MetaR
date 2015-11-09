@@ -84,6 +84,7 @@
       </concept>
       <concept id="1068498886292" name="jetbrains.mps.baseLanguage.structure.ParameterDeclaration" flags="ir" index="37vLTG" />
       <concept id="1068498886294" name="jetbrains.mps.baseLanguage.structure.AssignmentExpression" flags="nn" index="37vLTI" />
+      <concept id="1225271177708" name="jetbrains.mps.baseLanguage.structure.StringType" flags="in" index="17QB3L" />
       <concept id="4972933694980447171" name="jetbrains.mps.baseLanguage.structure.BaseVariableDeclaration" flags="ng" index="19Szcq">
         <child id="5680397130376446158" name="type" index="1tU5fm" />
       </concept>
@@ -139,9 +140,6 @@
       <concept id="1107461130800" name="jetbrains.mps.baseLanguage.structure.Classifier" flags="ng" index="3pOWGL">
         <child id="5375687026011219971" name="member" index="jymVt" unordered="true" />
       </concept>
-      <concept id="7812454656619025416" name="jetbrains.mps.baseLanguage.structure.MethodDeclaration" flags="ng" index="1rXfSm">
-        <property id="8355037393041754995" name="isNative" index="2aFKle" />
-      </concept>
       <concept id="7812454656619025412" name="jetbrains.mps.baseLanguage.structure.LocalMethodCall" flags="nn" index="1rXfSq" />
       <concept id="1107535904670" name="jetbrains.mps.baseLanguage.structure.ClassifierType" flags="in" index="3uibUv">
         <reference id="1107535924139" name="classifier" index="3uigEE" />
@@ -169,9 +167,6 @@
       <concept id="6329021646629104954" name="jetbrains.mps.baseLanguage.structure.SingleLineComment" flags="nn" index="3SKdUt">
         <child id="6329021646629175155" name="commentPart" index="3SKWNk" />
       </concept>
-      <concept id="6329021646629175143" name="jetbrains.mps.baseLanguage.structure.StatementCommentPart" flags="nn" index="3SKWN0">
-        <child id="6329021646629175144" name="commentedStatement" index="3SKWNf" />
-      </concept>
       <concept id="1146644602865" name="jetbrains.mps.baseLanguage.structure.PublicVisibility" flags="nn" index="3Tm1VV" />
       <concept id="1146644623116" name="jetbrains.mps.baseLanguage.structure.PrivateVisibility" flags="nn" index="3Tm6S6" />
       <concept id="1080120340718" name="jetbrains.mps.baseLanguage.structure.AndExpression" flags="nn" index="1Wc70l" />
@@ -186,172 +181,14 @@
     <property role="TrG5h" value="MartService" />
     <node concept="2tJIrI" id="16dayhjEQYi" role="jymVt" />
     <node concept="3Tm1VV" id="16dayhjEQYj" role="1B3o_S" />
-    <node concept="2YIFZL" id="16dayhjEQYk" role="jymVt">
-      <property role="TrG5h" value="setURL" />
-      <property role="DiZV1" value="false" />
-      <property role="od$2w" value="false" />
-      <node concept="37vLTG" id="16dayhjEQYl" role="3clF46">
-        <property role="TrG5h" value="a" />
-        <property role="3TUv4t" value="false" />
-        <node concept="10Oyi0" id="16dayhjEQYm" role="1tU5fm" />
-      </node>
-      <node concept="37vLTG" id="16dayhjEQYn" role="3clF46">
-        <property role="TrG5h" value="mart" />
-        <property role="3TUv4t" value="false" />
-        <node concept="3uibUv" id="16dayhjEQYo" role="1tU5fm">
-          <ref role="3uigEE" to="e2lb:~String" resolve="String" />
-        </node>
-      </node>
-      <node concept="3clFbS" id="16dayhjEQYp" role="3clF47">
-        <node concept="3SKdUt" id="16dayhjEQYq" role="3cqZAp">
-          <node concept="3SKdUq" id="16dayhjEQYr" role="3SKWNk">
-            <property role="3SKdUp" value="case 0 no mart selected return an URL to retrieve the DATABASES available" />
-          </node>
-        </node>
-        <node concept="3clFbJ" id="16dayhjEQYs" role="3cqZAp">
-          <node concept="3clFbC" id="16dayhjEQYt" role="3clFbw">
-            <node concept="37vLTw" id="16dayhjEQYu" role="3uHU7B">
-              <ref role="3cqZAo" node="16dayhjEQYl" resolve="a" />
-            </node>
-            <node concept="3cmrfG" id="16dayhjEQYv" role="3uHU7w">
-              <property role="3cmrfH" value="0" />
-            </node>
-          </node>
-          <node concept="3clFbS" id="16dayhjEQYw" role="3clFbx">
-            <node concept="3cpWs6" id="16dayhjEQYx" role="3cqZAp">
-              <node concept="Xl_RD" id="16dayhjEQYy" role="3cqZAk">
-                <property role="Xl_RC" value="http://www.ensembl.org/biomart/martservice?type=registry" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3SKdUt" id="16dayhjEQYz" role="3cqZAp">
-          <node concept="3SKdUq" id="16dayhjEQY$" role="3SKWNk">
-            <property role="3SKdUp" value="case 1 mart selected return an URL to retrieve the DATASETS  available for a mart" />
-          </node>
-        </node>
-        <node concept="3clFbJ" id="16dayhjEQY_" role="3cqZAp">
-          <node concept="1Wc70l" id="16dayhjEQYA" role="3clFbw">
-            <node concept="3clFbC" id="16dayhjEQYB" role="3uHU7B">
-              <node concept="37vLTw" id="16dayhjEQYC" role="3uHU7B">
-                <ref role="3cqZAo" node="16dayhjEQYl" resolve="a" />
-              </node>
-              <node concept="3cmrfG" id="16dayhjEQYD" role="3uHU7w">
-                <property role="3cmrfH" value="1" />
-              </node>
-            </node>
-            <node concept="3y3z36" id="16dayhjEQYE" role="3uHU7w">
-              <node concept="37vLTw" id="16dayhjEQYF" role="3uHU7B">
-                <ref role="3cqZAo" node="16dayhjEQYn" resolve="mart" />
-              </node>
-              <node concept="Xl_RD" id="16dayhjEQYG" role="3uHU7w">
-                <property role="Xl_RC" value="" />
-              </node>
-            </node>
-          </node>
-          <node concept="3clFbS" id="16dayhjEQYH" role="3clFbx">
-            <node concept="3cpWs6" id="16dayhjEQYI" role="3cqZAp">
-              <node concept="3cpWs3" id="16dayhjEQYJ" role="3cqZAk">
-                <node concept="Xl_RD" id="16dayhjEQYK" role="3uHU7B">
-                  <property role="Xl_RC" value="http://www.ensembl.org/biomart/martservice?type=datasets&amp;mart=" />
-                </node>
-                <node concept="37vLTw" id="16dayhjEQYL" role="3uHU7w">
-                  <ref role="3cqZAo" node="16dayhjEQYn" resolve="mart" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3SKdUt" id="16dayhjEQYM" role="3cqZAp">
-          <node concept="3SKdUq" id="16dayhjEQYN" role="3SKWNk">
-            <property role="3SKdUp" value="case 2 mart selected return an URL to retrieve the  attributes available for a DATASETS" />
-          </node>
-        </node>
-        <node concept="3clFbJ" id="16dayhjEQYO" role="3cqZAp">
-          <node concept="1Wc70l" id="16dayhjEQYP" role="3clFbw">
-            <node concept="3clFbC" id="16dayhjEQYQ" role="3uHU7B">
-              <node concept="37vLTw" id="16dayhjEQYR" role="3uHU7B">
-                <ref role="3cqZAo" node="16dayhjEQYl" resolve="a" />
-              </node>
-              <node concept="3cmrfG" id="16dayhjEQYS" role="3uHU7w">
-                <property role="3cmrfH" value="2" />
-              </node>
-            </node>
-            <node concept="3y3z36" id="16dayhjEQYT" role="3uHU7w">
-              <node concept="37vLTw" id="16dayhjEQYU" role="3uHU7B">
-                <ref role="3cqZAo" node="16dayhjEQYn" resolve="mart" />
-              </node>
-              <node concept="Xl_RD" id="16dayhjEQYV" role="3uHU7w">
-                <property role="Xl_RC" value="" />
-              </node>
-            </node>
-          </node>
-          <node concept="3clFbS" id="16dayhjEQYW" role="3clFbx">
-            <node concept="3cpWs6" id="16dayhjEQYX" role="3cqZAp">
-              <node concept="3cpWs3" id="16dayhjEQYY" role="3cqZAk">
-                <node concept="Xl_RD" id="16dayhjEQYZ" role="3uHU7B">
-                  <property role="Xl_RC" value="http://www.ensembl.org/biomart/martservice?type=attributes&amp;dataset=" />
-                </node>
-                <node concept="37vLTw" id="16dayhjEQZ0" role="3uHU7w">
-                  <ref role="3cqZAo" node="16dayhjEQYn" resolve="mart" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbJ" id="16dayhjEQZ1" role="3cqZAp">
-          <node concept="1Wc70l" id="16dayhjEQZ2" role="3clFbw">
-            <node concept="3clFbC" id="16dayhjEQZ3" role="3uHU7B">
-              <node concept="37vLTw" id="16dayhjEQZ4" role="3uHU7B">
-                <ref role="3cqZAo" node="16dayhjEQYl" resolve="a" />
-              </node>
-              <node concept="3cmrfG" id="16dayhjEQZ5" role="3uHU7w">
-                <property role="3cmrfH" value="3" />
-              </node>
-            </node>
-            <node concept="3y3z36" id="16dayhjEQZ6" role="3uHU7w">
-              <node concept="37vLTw" id="16dayhjEQZ7" role="3uHU7B">
-                <ref role="3cqZAo" node="16dayhjEQYn" resolve="mart" />
-              </node>
-              <node concept="Xl_RD" id="16dayhjEQZ8" role="3uHU7w">
-                <property role="Xl_RC" value="" />
-              </node>
-            </node>
-          </node>
-          <node concept="3clFbS" id="16dayhjEQZ9" role="3clFbx">
-            <node concept="3cpWs6" id="16dayhjEQZa" role="3cqZAp">
-              <node concept="3cpWs3" id="16dayhjEQZb" role="3cqZAk">
-                <node concept="Xl_RD" id="16dayhjEQZc" role="3uHU7B">
-                  <property role="Xl_RC" value="http://www.ensembl.org/biomart/martservice?type=filters&amp;dataset=" />
-                </node>
-                <node concept="37vLTw" id="16dayhjEQZd" role="3uHU7w">
-                  <ref role="3cqZAo" node="16dayhjEQYn" resolve="mart" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3cpWs6" id="16dayhjEQZe" role="3cqZAp">
-          <node concept="Xl_RD" id="16dayhjEQZf" role="3cqZAk">
-            <property role="Xl_RC" value="http://www.ensembl.org/biomart/martservice?type=registry" />
-          </node>
-        </node>
-      </node>
-      <node concept="3Tm6S6" id="16dayhjEQZg" role="1B3o_S" />
-      <node concept="3uibUv" id="16dayhjEQZh" role="3clF45">
-        <ref role="3uigEE" to="e2lb:~String" resolve="String" />
-      </node>
-    </node>
     <node concept="2YIFZL" id="16dayhjEQZi" role="jymVt">
-      <property role="TrG5h" value="GetURL" />
+      <property role="TrG5h" value="getURL" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
       <node concept="37vLTG" id="16dayhjEQZj" role="3clF46">
-        <property role="TrG5h" value="urltoTry" />
+        <property role="TrG5h" value="urlToTry" />
         <property role="3TUv4t" value="false" />
-        <node concept="3uibUv" id="16dayhjEQZk" role="1tU5fm">
-          <ref role="3uigEE" to="e2lb:~String" resolve="String" />
-        </node>
+        <node concept="17QB3L" id="16dayhjPCN3" role="1tU5fm" />
       </node>
       <node concept="3uibUv" id="16dayhjEQZl" role="Sfmx6">
         <ref role="3uigEE" to="22fg:~MalformedURLException" resolve="MalformedURLException" />
@@ -373,7 +210,7 @@
               <node concept="1pGfFk" id="16dayhjEQZt" role="2ShVmc">
                 <ref role="37wK5l" to="22fg:~URL.&lt;init&gt;(java.lang.String)" resolve="URL" />
                 <node concept="37vLTw" id="16dayhjEQZu" role="37wK5m">
-                  <ref role="3cqZAo" node="16dayhjEQZj" resolve="urltoTry" />
+                  <ref role="3cqZAo" node="16dayhjEQZj" resolve="urlToTry" />
                 </node>
               </node>
             </node>
@@ -473,8 +310,9 @@
         <ref role="3uigEE" to="22fg:~URLConnection" resolve="URLConnection" />
       </node>
     </node>
+    <node concept="2tJIrI" id="16dayhjPPo7" role="jymVt" />
     <node concept="2YIFZL" id="16dayhjER05" role="jymVt">
-      <property role="TrG5h" value="GetResults" />
+      <property role="TrG5h" value="getResults" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
       <node concept="37vLTG" id="16dayhjER06" role="3clF46">
@@ -526,6 +364,7 @@
         <ref role="3uigEE" to="fxg7:~BufferedReader" resolve="BufferedReader" />
       </node>
     </node>
+    <node concept="2tJIrI" id="16dayhjPODD" role="jymVt" />
     <node concept="2YIFZL" id="16dayhjER0o" role="jymVt">
       <property role="TrG5h" value="writeResults" />
       <property role="DiZV1" value="false" />
@@ -603,9 +442,7 @@
               <node concept="3cpWsn" id="16dayhjER0P" role="3cpWs9">
                 <property role="3TUv4t" value="false" />
                 <property role="TrG5h" value="writeOutput" />
-                <node concept="3uibUv" id="16dayhjER0Q" role="1tU5fm">
-                  <ref role="3uigEE" to="e2lb:~String" resolve="String" />
-                </node>
+                <node concept="17QB3L" id="16dayhjPDpk" role="1tU5fm" />
               </node>
             </node>
             <node concept="2$JKZl" id="16dayhjER0R" role="3cqZAp">
@@ -688,253 +525,9 @@
         <ref role="3uigEE" to="e2lb:~StringBuilder" resolve="StringBuilder" />
       </node>
     </node>
-    <node concept="2YIFZL" id="16dayhjER1n" role="jymVt">
-      <property role="TrG5h" value="RunMartService" />
-      <property role="DiZV1" value="false" />
-      <property role="od$2w" value="false" />
-      <node concept="37vLTG" id="16dayhjER1o" role="3clF46">
-        <property role="TrG5h" value="parameter" />
-        <property role="3TUv4t" value="false" />
-        <node concept="10Oyi0" id="16dayhjER1p" role="1tU5fm" />
-      </node>
-      <node concept="3uibUv" id="16dayhjER1q" role="Sfmx6">
-        <ref role="3uigEE" to="fxg7:~IOException" resolve="IOException" />
-      </node>
-      <node concept="3uibUv" id="16dayhjER1r" role="Sfmx6">
-        <ref role="3uigEE" to="9yi:~ParserConfigurationException" resolve="ParserConfigurationException" />
-      </node>
-      <node concept="3uibUv" id="16dayhjER1s" role="Sfmx6">
-        <ref role="3uigEE" to="fmpa:~SAXException" resolve="SAXException" />
-      </node>
-      <node concept="3clFbS" id="16dayhjER1t" role="3clF47">
-        <node concept="3SKdUt" id="16dayhjER1u" role="3cqZAp">
-          <node concept="3SKdUq" id="16dayhjER1v" role="3SKWNk">
-            <property role="3SKdUp" value="set martName" />
-          </node>
-        </node>
-        <node concept="3cpWs8" id="16dayhjER1w" role="3cqZAp">
-          <node concept="3cpWsn" id="16dayhjER1x" role="3cpWs9">
-            <property role="3TUv4t" value="false" />
-            <property role="TrG5h" value="data" />
-            <node concept="3uibUv" id="16dayhjER1y" role="1tU5fm">
-              <ref role="3uigEE" to="e2lb:~String" resolve="String" />
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbJ" id="16dayhjER1z" role="3cqZAp">
-          <node concept="3clFbC" id="16dayhjER1$" role="3clFbw">
-            <node concept="37vLTw" id="16dayhjER1_" role="3uHU7B">
-              <ref role="3cqZAo" node="16dayhjER1o" resolve="parameter" />
-            </node>
-            <node concept="3cmrfG" id="16dayhjER1A" role="3uHU7w">
-              <property role="3cmrfH" value="1" />
-            </node>
-          </node>
-          <node concept="9aQIb" id="16dayhjER1B" role="9aQIa">
-            <node concept="3clFbS" id="16dayhjER1C" role="9aQI4">
-              <node concept="3clFbF" id="16dayhjER1D" role="3cqZAp">
-                <node concept="37vLTI" id="16dayhjER1E" role="3clFbG">
-                  <node concept="37vLTw" id="16dayhjER1F" role="37vLTJ">
-                    <ref role="3cqZAo" node="16dayhjER1x" resolve="data" />
-                  </node>
-                  <node concept="Xl_RD" id="16dayhjER1G" role="37vLTx">
-                    <property role="Xl_RC" value="mmusculus_gene_ensembl" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="3clFbS" id="16dayhjER1H" role="3clFbx">
-            <node concept="3clFbF" id="16dayhjER1I" role="3cqZAp">
-              <node concept="37vLTI" id="16dayhjER1J" role="3clFbG">
-                <node concept="37vLTw" id="16dayhjER1K" role="37vLTJ">
-                  <ref role="3cqZAo" node="16dayhjER1x" resolve="data" />
-                </node>
-                <node concept="Xl_RD" id="16dayhjER1L" role="37vLTx">
-                  <property role="Xl_RC" value="ensembl" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3SKdUt" id="16dayhjER1M" role="3cqZAp">
-          <node concept="3SKdUq" id="16dayhjER1N" role="3SKWNk">
-            <property role="3SKdUp" value="This part query databases or dataset in function of input parameter" />
-          </node>
-        </node>
-        <node concept="3cpWs8" id="16dayhjER1O" role="3cqZAp">
-          <node concept="3cpWsn" id="16dayhjER1P" role="3cpWs9">
-            <property role="3TUv4t" value="false" />
-            <property role="TrG5h" value="urlConnection" />
-            <node concept="3uibUv" id="16dayhjER1Q" role="1tU5fm">
-              <ref role="3uigEE" to="22fg:~URLConnection" resolve="URLConnection" />
-            </node>
-            <node concept="1rXfSq" id="16dayhjER1R" role="33vP2m">
-              <ref role="37wK5l" node="16dayhjEQZi" resolve="GetURL" />
-              <node concept="1rXfSq" id="16dayhjER1S" role="37wK5m">
-                <ref role="37wK5l" node="16dayhjEQYk" resolve="setURL" />
-                <node concept="37vLTw" id="16dayhjER1T" role="37wK5m">
-                  <ref role="3cqZAo" node="16dayhjER1o" resolve="parameter" />
-                </node>
-                <node concept="37vLTw" id="16dayhjER1U" role="37wK5m">
-                  <ref role="3cqZAo" node="16dayhjER1x" resolve="data" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3cpWs8" id="16dayhjER1V" role="3cqZAp">
-          <node concept="3cpWsn" id="16dayhjER1W" role="3cpWs9">
-            <property role="3TUv4t" value="false" />
-            <property role="TrG5h" value="in" />
-            <node concept="3uibUv" id="16dayhjER1X" role="1tU5fm">
-              <ref role="3uigEE" to="fxg7:~BufferedReader" resolve="BufferedReader" />
-            </node>
-            <node concept="1rXfSq" id="16dayhjER1Y" role="33vP2m">
-              <ref role="37wK5l" node="16dayhjER05" resolve="GetResults" />
-              <node concept="37vLTw" id="16dayhjER1Z" role="37wK5m">
-                <ref role="3cqZAo" node="16dayhjER1P" resolve="urlConnection" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3cpWs8" id="16dayhjER20" role="3cqZAp">
-          <node concept="3cpWsn" id="16dayhjER21" role="3cpWs9">
-            <property role="3TUv4t" value="false" />
-            <property role="TrG5h" value="test" />
-            <node concept="3uibUv" id="16dayhjER22" role="1tU5fm">
-              <ref role="3uigEE" to="e2lb:~StringBuilder" resolve="StringBuilder" />
-            </node>
-            <node concept="1rXfSq" id="16dayhjER23" role="33vP2m">
-              <ref role="37wK5l" node="16dayhjER0o" resolve="writeResults" />
-              <node concept="37vLTw" id="16dayhjER24" role="37wK5m">
-                <ref role="3cqZAo" node="16dayhjER1W" resolve="in" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbJ" id="16dayhjER25" role="3cqZAp">
-          <node concept="3clFbC" id="16dayhjER26" role="3clFbw">
-            <node concept="37vLTw" id="16dayhjER27" role="3uHU7B">
-              <ref role="3cqZAo" node="16dayhjER1o" resolve="parameter" />
-            </node>
-            <node concept="3cmrfG" id="16dayhjER28" role="3uHU7w">
-              <property role="3cmrfH" value="0" />
-            </node>
-          </node>
-          <node concept="9aQIb" id="16dayhjER29" role="9aQIa">
-            <node concept="3clFbS" id="16dayhjER2a" role="9aQI4">
-              <node concept="3clFbF" id="16dayhjER2b" role="3cqZAp">
-                <node concept="2YIFZM" id="16dayhjER2c" role="3clFbG">
-                  <ref role="37wK5l" node="16dayhjERh4" resolve="readTSV" />
-                  <ref role="1Pybhc" node="16dayhjERd4" resolve="ParseTSV" />
-                  <node concept="37vLTw" id="16dayhjER2d" role="37wK5m">
-                    <ref role="3cqZAo" node="16dayhjER1o" resolve="parameter" />
-                  </node>
-                  <node concept="2OqwBi" id="16dayhjER2e" role="37wK5m">
-                    <node concept="2OqwBi" id="16dayhjER2f" role="2Oq$k0">
-                      <node concept="37vLTw" id="16dayhjER2g" role="2Oq$k0">
-                        <ref role="3cqZAo" node="16dayhjER21" resolve="test" />
-                      </node>
-                      <node concept="liA8E" id="16dayhjER2h" role="2OqNvi">
-                        <ref role="37wK5l" to="e2lb:~StringBuilder.toString():java.lang.String" resolve="toString" />
-                      </node>
-                    </node>
-                    <node concept="liA8E" id="16dayhjER2i" role="2OqNvi">
-                      <ref role="37wK5l" to="e2lb:~String.split(java.lang.String):java.lang.String[]" resolve="split" />
-                      <node concept="Xl_RD" id="16dayhjER2j" role="37wK5m">
-                        <property role="Xl_RC" value="\n" />
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-              <node concept="3clFbF" id="16dayhjER2k" role="3cqZAp">
-                <node concept="2OqwBi" id="16dayhjER2l" role="3clFbG">
-                  <node concept="10M0yZ" id="16dayhjER2m" role="2Oq$k0">
-                    <ref role="1PxDUh" to="e2lb:~System" resolve="System" />
-                    <ref role="3cqZAo" to="e2lb:~System.out" resolve="out" />
-                  </node>
-                  <node concept="liA8E" id="16dayhjER2n" role="2OqNvi">
-                    <ref role="37wK5l" to="fxg7:~PrintStream.println(java.lang.String):void" resolve="println" />
-                    <node concept="2YIFZM" id="16dayhjER2o" role="37wK5m">
-                      <ref role="1Pybhc" node="16dayhjERd4" resolve="ParseTSV" />
-                      <ref role="37wK5l" node="16dayhjERh4" resolve="readTSV" />
-                      <node concept="37vLTw" id="16dayhjER2p" role="37wK5m">
-                        <ref role="3cqZAo" node="16dayhjER1o" resolve="parameter" />
-                      </node>
-                      <node concept="2OqwBi" id="16dayhjER2q" role="37wK5m">
-                        <node concept="2OqwBi" id="16dayhjER2r" role="2Oq$k0">
-                          <node concept="37vLTw" id="16dayhjER2s" role="2Oq$k0">
-                            <ref role="3cqZAo" node="16dayhjER21" resolve="test" />
-                          </node>
-                          <node concept="liA8E" id="16dayhjER2t" role="2OqNvi">
-                            <ref role="37wK5l" to="e2lb:~StringBuilder.toString():java.lang.String" resolve="toString" />
-                          </node>
-                        </node>
-                        <node concept="liA8E" id="16dayhjER2u" role="2OqNvi">
-                          <ref role="37wK5l" to="e2lb:~String.split(java.lang.String):java.lang.String[]" resolve="split" />
-                          <node concept="Xl_RD" id="16dayhjER2v" role="37wK5m">
-                            <property role="Xl_RC" value="\n" />
-                          </node>
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="3clFbS" id="16dayhjER2w" role="3clFbx">
-            <node concept="3cpWs8" id="16dayhjER2x" role="3cqZAp">
-              <node concept="3cpWsn" id="16dayhjER2y" role="3cpWs9">
-                <property role="3TUv4t" value="false" />
-                <property role="TrG5h" value="Datala" />
-                <node concept="3uibUv" id="16dayhjER2z" role="1tU5fm">
-                  <ref role="3uigEE" to="e2lb:~String" resolve="String" />
-                </node>
-                <node concept="1rXfSq" id="16dayhjER2$" role="33vP2m">
-                  <ref role="37wK5l" node="16dayhjER5V" resolve="GetVisible" />
-                  <node concept="2OqwBi" id="16dayhjER2_" role="37wK5m">
-                    <node concept="37vLTw" id="16dayhjER2A" role="2Oq$k0">
-                      <ref role="3cqZAo" node="16dayhjER21" resolve="test" />
-                    </node>
-                    <node concept="liA8E" id="16dayhjER2B" role="2OqNvi">
-                      <ref role="37wK5l" to="e2lb:~StringBuilder.toString():java.lang.String" resolve="toString" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-            <node concept="3clFbF" id="16dayhjER2C" role="3cqZAp">
-              <node concept="2OqwBi" id="16dayhjER2D" role="3clFbG">
-                <node concept="10M0yZ" id="16dayhjER2E" role="2Oq$k0">
-                  <ref role="3cqZAo" to="e2lb:~System.out" resolve="out" />
-                  <ref role="1PxDUh" to="e2lb:~System" resolve="System" />
-                </node>
-                <node concept="liA8E" id="16dayhjER2F" role="2OqNvi">
-                  <ref role="37wK5l" to="fxg7:~PrintStream.println(java.lang.String):void" resolve="println" />
-                  <node concept="37vLTw" id="16dayhjER2G" role="37wK5m">
-                    <ref role="3cqZAo" node="16dayhjER2y" resolve="Datala" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3cpWs6" id="16dayhjER2H" role="3cqZAp">
-          <node concept="37vLTw" id="16dayhjER2I" role="3cqZAk">
-            <ref role="3cqZAo" node="16dayhjER1x" resolve="data" />
-          </node>
-        </node>
-      </node>
-      <node concept="3Tm6S6" id="16dayhjER2J" role="1B3o_S" />
-      <node concept="3uibUv" id="16dayhjER2K" role="3clF45">
-        <ref role="3uigEE" to="e2lb:~String" resolve="String" />
-      </node>
-    </node>
+    <node concept="2tJIrI" id="16dayhjPIHY" role="jymVt" />
     <node concept="2YIFZL" id="16dayhjER2L" role="jymVt">
-      <property role="TrG5h" value="ListValidDatabases" />
+      <property role="TrG5h" value="listValidDatabases" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
       <node concept="3uibUv" id="16dayhjER2M" role="Sfmx6">
@@ -956,11 +549,14 @@
           <node concept="3cpWsn" id="16dayhjER2T" role="3cpWs9">
             <property role="3TUv4t" value="false" />
             <property role="TrG5h" value="martRegitry" />
-            <node concept="3uibUv" id="16dayhjER2U" role="1tU5fm">
-              <ref role="3uigEE" to="e2lb:~String" resolve="String" />
-            </node>
-            <node concept="Xl_RD" id="16dayhjER2V" role="33vP2m">
-              <property role="Xl_RC" value="http://www.ensembl.org/biomart/martservice?type=registry" />
+            <node concept="17QB3L" id="16dayhjPEek" role="1tU5fm" />
+            <node concept="3cpWs3" id="16dayhk95jr" role="33vP2m">
+              <node concept="37vLTw" id="16dayhk97tY" role="3uHU7B">
+                <ref role="3cqZAo" node="16dayhk93vs" resolve="server" />
+              </node>
+              <node concept="Xl_RD" id="16dayhjER2V" role="3uHU7w">
+                <property role="Xl_RC" value="/biomart/martservice?type=registry" />
+              </node>
             </node>
           </node>
         </node>
@@ -986,7 +582,7 @@
               <ref role="3uigEE" to="22fg:~URLConnection" resolve="URLConnection" />
             </node>
             <node concept="1rXfSq" id="16dayhjER2Z" role="33vP2m">
-              <ref role="37wK5l" node="16dayhjEQZi" resolve="GetURL" />
+              <ref role="37wK5l" node="16dayhjEQZi" resolve="getURL" />
               <node concept="37vLTw" id="16dayhjER30" role="37wK5m">
                 <ref role="3cqZAo" node="16dayhjER2T" resolve="martRegitry" />
               </node>
@@ -1001,7 +597,7 @@
               <ref role="3uigEE" to="fxg7:~BufferedReader" resolve="BufferedReader" />
             </node>
             <node concept="1rXfSq" id="16dayhjER34" role="33vP2m">
-              <ref role="37wK5l" node="16dayhjER05" resolve="GetResults" />
+              <ref role="37wK5l" node="16dayhjER05" resolve="getResults" />
               <node concept="37vLTw" id="16dayhjER35" role="37wK5m">
                 <ref role="3cqZAo" node="16dayhjER2X" resolve="urlConnection" />
               </node>
@@ -1025,7 +621,7 @@
         </node>
         <node concept="3cpWs6" id="16dayhjER3b" role="3cqZAp">
           <node concept="1rXfSq" id="16dayhjER3c" role="3cqZAk">
-            <ref role="37wK5l" node="16dayhjER5V" resolve="GetVisible" />
+            <ref role="37wK5l" node="16dayhjER5V" resolve="getVisible" />
             <node concept="2OqwBi" id="16dayhjER3d" role="37wK5m">
               <node concept="37vLTw" id="16dayhjER3e" role="2Oq$k0">
                 <ref role="3cqZAo" node="16dayhjER37" resolve="results" />
@@ -1038,20 +634,21 @@
         </node>
       </node>
       <node concept="3Tm1VV" id="16dayhjER3g" role="1B3o_S" />
-      <node concept="3uibUv" id="16dayhjER3h" role="3clF45">
-        <ref role="3uigEE" to="e2lb:~String" resolve="String" />
+      <node concept="17QB3L" id="16dayhjPDKO" role="3clF45" />
+      <node concept="37vLTG" id="16dayhk93vs" role="3clF46">
+        <property role="TrG5h" value="server" />
+        <node concept="17QB3L" id="16dayhk93vr" role="1tU5fm" />
       </node>
     </node>
+    <node concept="2tJIrI" id="16dayhjPHZl" role="jymVt" />
     <node concept="2YIFZL" id="16dayhjER3i" role="jymVt">
-      <property role="TrG5h" value="CreateDirectory" />
+      <property role="TrG5h" value="createDirectory" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
       <node concept="37vLTG" id="16dayhjER3j" role="3clF46">
         <property role="TrG5h" value="PathFile" />
         <property role="3TUv4t" value="false" />
-        <node concept="3uibUv" id="16dayhjER3k" role="1tU5fm">
-          <ref role="3uigEE" to="e2lb:~String" resolve="String" />
-        </node>
+        <node concept="17QB3L" id="16dayhjPEWy" role="1tU5fm" />
       </node>
       <node concept="3clFbS" id="16dayhjER3l" role="3clF47">
         <node concept="3cpWs8" id="16dayhjER3m" role="3cqZAp">
@@ -1133,16 +730,19 @@
       <node concept="3Tm1VV" id="16dayhjER3N" role="1B3o_S" />
       <node concept="3cqZAl" id="16dayhjER3O" role="3clF45" />
     </node>
+    <node concept="2tJIrI" id="16dayhjPHgI" role="jymVt" />
     <node concept="2YIFZL" id="16dayhjER3P" role="jymVt">
-      <property role="TrG5h" value="ListValidDatasets" />
+      <property role="TrG5h" value="listValidDatasets" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
       <node concept="37vLTG" id="16dayhjER3Q" role="3clF46">
         <property role="TrG5h" value="martDatabase" />
         <property role="3TUv4t" value="false" />
-        <node concept="3uibUv" id="16dayhjER3R" role="1tU5fm">
-          <ref role="3uigEE" to="e2lb:~String" resolve="String" />
-        </node>
+        <node concept="17QB3L" id="16dayhjPKa4" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="16dayhk98F9" role="3clF46">
+        <property role="TrG5h" value="server" />
+        <node concept="17QB3L" id="16dayhk990D" role="1tU5fm" />
       </node>
       <node concept="3uibUv" id="16dayhjER3S" role="Sfmx6">
         <ref role="3uigEE" to="fxg7:~IOException" resolve="IOException" />
@@ -1163,12 +763,15 @@
           <node concept="3cpWsn" id="16dayhjER3Z" role="3cpWs9">
             <property role="3TUv4t" value="false" />
             <property role="TrG5h" value="martListDatasets" />
-            <node concept="3uibUv" id="16dayhjER40" role="1tU5fm">
-              <ref role="3uigEE" to="e2lb:~String" resolve="String" />
-            </node>
+            <node concept="17QB3L" id="16dayhjPFIe" role="1tU5fm" />
             <node concept="3cpWs3" id="16dayhjER41" role="33vP2m">
-              <node concept="Xl_RD" id="16dayhjER42" role="3uHU7B">
-                <property role="Xl_RC" value="http://www.ensembl.org/biomart/martservice?type=datasets&amp;mart=" />
+              <node concept="3cpWs3" id="16dayhk98m6" role="3uHU7B">
+                <node concept="37vLTw" id="16dayhk9aaM" role="3uHU7B">
+                  <ref role="3cqZAo" node="16dayhk98F9" resolve="server" />
+                </node>
+                <node concept="Xl_RD" id="16dayhjER42" role="3uHU7w">
+                  <property role="Xl_RC" value="/biomart/martservice?type=datasets&amp;mart=" />
+                </node>
               </node>
               <node concept="2YIFZM" id="16dayhjER43" role="3uHU7w">
                 <ref role="37wK5l" to="22fg:~URLEncoder.encode(java.lang.String,java.lang.String):java.lang.String" resolve="encode" />
@@ -1183,7 +786,6 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="16dayhjER46" role="3cqZAp" />
         <node concept="3cpWs8" id="16dayhjER47" role="3cqZAp">
           <node concept="3cpWsn" id="16dayhjER48" role="3cpWs9">
             <property role="3TUv4t" value="false" />
@@ -1192,7 +794,7 @@
               <ref role="3uigEE" to="22fg:~URLConnection" resolve="URLConnection" />
             </node>
             <node concept="1rXfSq" id="16dayhjER4a" role="33vP2m">
-              <ref role="37wK5l" node="16dayhjEQZi" resolve="GetURL" />
+              <ref role="37wK5l" node="16dayhjEQZi" resolve="getURL" />
               <node concept="37vLTw" id="16dayhjER4b" role="37wK5m">
                 <ref role="3cqZAo" node="16dayhjER3Z" resolve="martListDatasets" />
               </node>
@@ -1207,7 +809,7 @@
               <ref role="3uigEE" to="fxg7:~BufferedReader" resolve="BufferedReader" />
             </node>
             <node concept="1rXfSq" id="16dayhjER4f" role="33vP2m">
-              <ref role="37wK5l" node="16dayhjER05" resolve="GetResults" />
+              <ref role="37wK5l" node="16dayhjER05" resolve="getResults" />
               <node concept="37vLTw" id="16dayhjER4g" role="37wK5m">
                 <ref role="3cqZAo" node="16dayhjER48" resolve="urlConnection" />
               </node>
@@ -1237,7 +839,7 @@
         <node concept="3cpWs6" id="16dayhjER4o" role="3cqZAp">
           <node concept="2YIFZM" id="16dayhjER4p" role="3cqZAk">
             <ref role="1Pybhc" node="16dayhjERd4" resolve="ParseTSV" />
-            <ref role="37wK5l" node="16dayhjERd6" resolve="ParseDatasets" />
+            <ref role="37wK5l" node="16dayhjERd6" resolve="parseDatasets" />
             <node concept="2OqwBi" id="16dayhjER4q" role="37wK5m">
               <node concept="2OqwBi" id="16dayhjER4r" role="2Oq$k0">
                 <node concept="37vLTw" id="16dayhjER4s" role="2Oq$k0">
@@ -1258,20 +860,21 @@
         </node>
       </node>
       <node concept="3Tm1VV" id="16dayhjER4w" role="1B3o_S" />
-      <node concept="3uibUv" id="16dayhjER4x" role="3clF45">
-        <ref role="3uigEE" to="e2lb:~String" resolve="String" />
-      </node>
+      <node concept="17QB3L" id="16dayhjPF3b" role="3clF45" />
     </node>
+    <node concept="2tJIrI" id="16dayhjPGy9" role="jymVt" />
     <node concept="2YIFZL" id="16dayhjER4y" role="jymVt">
-      <property role="TrG5h" value="ListValidAttributes" />
+      <property role="TrG5h" value="listValidAttributes" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
       <node concept="37vLTG" id="16dayhjER4z" role="3clF46">
         <property role="TrG5h" value="martAttributes" />
         <property role="3TUv4t" value="false" />
-        <node concept="3uibUv" id="16dayhjER4$" role="1tU5fm">
-          <ref role="3uigEE" to="e2lb:~String" resolve="String" />
-        </node>
+        <node concept="17QB3L" id="16dayhjPNVf" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="16dayhk9aPQ" role="3clF46">
+        <property role="TrG5h" value="server" />
+        <node concept="17QB3L" id="16dayhk9b9w" role="1tU5fm" />
       </node>
       <node concept="3uibUv" id="16dayhjER4_" role="Sfmx6">
         <ref role="3uigEE" to="fxg7:~IOException" resolve="IOException" />
@@ -1292,12 +895,15 @@
           <node concept="3cpWsn" id="16dayhjER4G" role="3cpWs9">
             <property role="3TUv4t" value="false" />
             <property role="TrG5h" value="martListAttributes" />
-            <node concept="3uibUv" id="16dayhjER4H" role="1tU5fm">
-              <ref role="3uigEE" to="e2lb:~String" resolve="String" />
-            </node>
+            <node concept="17QB3L" id="16dayhjPJsD" role="1tU5fm" />
             <node concept="3cpWs3" id="16dayhjER4I" role="33vP2m">
-              <node concept="Xl_RD" id="16dayhjER4J" role="3uHU7B">
-                <property role="Xl_RC" value="http://www.ensembl.org/biomart/martservice?type=attributes&amp;dataset=" />
+              <node concept="3cpWs3" id="16dayhk9bc1" role="3uHU7B">
+                <node concept="37vLTw" id="16dayhk9bia" role="3uHU7B">
+                  <ref role="3cqZAo" node="16dayhk9aPQ" resolve="server" />
+                </node>
+                <node concept="Xl_RD" id="16dayhjER4J" role="3uHU7w">
+                  <property role="Xl_RC" value="/biomart/martservice?type=attributes&amp;dataset=" />
+                </node>
               </node>
               <node concept="2YIFZM" id="16dayhjER4K" role="3uHU7w">
                 <ref role="37wK5l" to="22fg:~URLEncoder.encode(java.lang.String,java.lang.String):java.lang.String" resolve="encode" />
@@ -1312,7 +918,6 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="16dayhjER4N" role="3cqZAp" />
         <node concept="3cpWs8" id="16dayhjER4O" role="3cqZAp">
           <node concept="3cpWsn" id="16dayhjER4P" role="3cpWs9">
             <property role="3TUv4t" value="false" />
@@ -1321,7 +926,7 @@
               <ref role="3uigEE" to="22fg:~URLConnection" resolve="URLConnection" />
             </node>
             <node concept="1rXfSq" id="16dayhjER4R" role="33vP2m">
-              <ref role="37wK5l" node="16dayhjEQZi" resolve="GetURL" />
+              <ref role="37wK5l" node="16dayhjEQZi" resolve="getURL" />
               <node concept="37vLTw" id="16dayhjER4S" role="37wK5m">
                 <ref role="3cqZAo" node="16dayhjER4G" resolve="martListAttributes" />
               </node>
@@ -1336,7 +941,7 @@
               <ref role="3uigEE" to="fxg7:~BufferedReader" resolve="BufferedReader" />
             </node>
             <node concept="1rXfSq" id="16dayhjER4W" role="33vP2m">
-              <ref role="37wK5l" node="16dayhjER05" resolve="GetResults" />
+              <ref role="37wK5l" node="16dayhjER05" resolve="getResults" />
               <node concept="37vLTw" id="16dayhjER4X" role="37wK5m">
                 <ref role="3cqZAo" node="16dayhjER4P" resolve="urlConnection" />
               </node>
@@ -1365,7 +970,7 @@
         </node>
         <node concept="3cpWs6" id="16dayhjER55" role="3cqZAp">
           <node concept="2YIFZM" id="16dayhjER56" role="3cqZAk">
-            <ref role="37wK5l" node="16dayhjERei" resolve="ParseDatasetsArgument" />
+            <ref role="37wK5l" node="16dayhjERei" resolve="parseDatasetsArgument" />
             <ref role="1Pybhc" node="16dayhjERd4" resolve="ParseTSV" />
             <node concept="2OqwBi" id="16dayhjER57" role="37wK5m">
               <node concept="2OqwBi" id="16dayhjER58" role="2Oq$k0">
@@ -1387,20 +992,21 @@
         </node>
       </node>
       <node concept="3Tm1VV" id="16dayhjER5d" role="1B3o_S" />
-      <node concept="3uibUv" id="16dayhjER5e" role="3clF45">
-        <ref role="3uigEE" to="e2lb:~String" resolve="String" />
-      </node>
+      <node concept="17QB3L" id="16dayhjPGlP" role="3clF45" />
     </node>
+    <node concept="2tJIrI" id="16dayhjPLwF" role="jymVt" />
     <node concept="2YIFZL" id="16dayhjER5f" role="jymVt">
-      <property role="TrG5h" value="ListValidFilters" />
+      <property role="TrG5h" value="listValidFilters" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
       <node concept="37vLTG" id="16dayhjER5g" role="3clF46">
         <property role="TrG5h" value="martFilters" />
         <property role="3TUv4t" value="false" />
-        <node concept="3uibUv" id="16dayhjER5h" role="1tU5fm">
-          <ref role="3uigEE" to="e2lb:~String" resolve="String" />
-        </node>
+        <node concept="17QB3L" id="16dayhjPNMu" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="16dayhk9bxW" role="3clF46">
+        <property role="TrG5h" value="server" />
+        <node concept="17QB3L" id="16dayhk9bHm" role="1tU5fm" />
       </node>
       <node concept="3uibUv" id="16dayhjER5i" role="Sfmx6">
         <ref role="3uigEE" to="fxg7:~IOException" resolve="IOException" />
@@ -1421,12 +1027,15 @@
           <node concept="3cpWsn" id="16dayhjER5p" role="3cpWs9">
             <property role="3TUv4t" value="false" />
             <property role="TrG5h" value="martListFilters" />
-            <node concept="3uibUv" id="16dayhjER5q" role="1tU5fm">
-              <ref role="3uigEE" to="e2lb:~String" resolve="String" />
-            </node>
+            <node concept="17QB3L" id="16dayhjPLnS" role="1tU5fm" />
             <node concept="3cpWs3" id="16dayhjER5r" role="33vP2m">
-              <node concept="Xl_RD" id="16dayhjER5s" role="3uHU7B">
-                <property role="Xl_RC" value="http://www.ensembl.org/biomart/martservice?type=filters&amp;dataset=" />
+              <node concept="3cpWs3" id="16dayhk9bRT" role="3uHU7B">
+                <node concept="37vLTw" id="16dayhk9bY3" role="3uHU7B">
+                  <ref role="3cqZAo" node="16dayhk9bxW" resolve="server" />
+                </node>
+                <node concept="Xl_RD" id="16dayhjER5s" role="3uHU7w">
+                  <property role="Xl_RC" value="/biomart/martservice?type=filters&amp;dataset=" />
+                </node>
               </node>
               <node concept="2YIFZM" id="16dayhjER5t" role="3uHU7w">
                 <ref role="1Pybhc" to="22fg:~URLEncoder" resolve="URLEncoder" />
@@ -1449,7 +1058,7 @@
               <ref role="3uigEE" to="22fg:~URLConnection" resolve="URLConnection" />
             </node>
             <node concept="1rXfSq" id="16dayhjER5z" role="33vP2m">
-              <ref role="37wK5l" node="16dayhjEQZi" resolve="GetURL" />
+              <ref role="37wK5l" node="16dayhjEQZi" resolve="getURL" />
               <node concept="37vLTw" id="16dayhjER5$" role="37wK5m">
                 <ref role="3cqZAo" node="16dayhjER5p" resolve="martListFilters" />
               </node>
@@ -1464,7 +1073,7 @@
               <ref role="3uigEE" to="fxg7:~BufferedReader" resolve="BufferedReader" />
             </node>
             <node concept="1rXfSq" id="16dayhjER5C" role="33vP2m">
-              <ref role="37wK5l" node="16dayhjER05" resolve="GetResults" />
+              <ref role="37wK5l" node="16dayhjER05" resolve="getResults" />
               <node concept="37vLTw" id="16dayhjER5D" role="37wK5m">
                 <ref role="3cqZAo" node="16dayhjER5x" resolve="urlConnection" />
               </node>
@@ -1494,7 +1103,7 @@
         <node concept="3cpWs6" id="16dayhjER5L" role="3cqZAp">
           <node concept="2YIFZM" id="16dayhjER5M" role="3cqZAk">
             <ref role="1Pybhc" node="16dayhjERd4" resolve="ParseTSV" />
-            <ref role="37wK5l" node="16dayhjERfy" resolve="ParseDatasetsFilters" />
+            <ref role="37wK5l" node="16dayhjERfy" resolve="parseDatasetsFilters" />
             <node concept="2OqwBi" id="16dayhjER5N" role="37wK5m">
               <node concept="2OqwBi" id="16dayhjER5O" role="2Oq$k0">
                 <node concept="37vLTw" id="16dayhjER5P" role="2Oq$k0">
@@ -1515,20 +1124,17 @@
         </node>
       </node>
       <node concept="3Tm1VV" id="16dayhjER5T" role="1B3o_S" />
-      <node concept="3uibUv" id="16dayhjER5U" role="3clF45">
-        <ref role="3uigEE" to="e2lb:~String" resolve="String" />
-      </node>
+      <node concept="17QB3L" id="16dayhjPLbD" role="3clF45" />
     </node>
+    <node concept="2tJIrI" id="16dayhjPMf5" role="jymVt" />
     <node concept="2YIFZL" id="16dayhjER5V" role="jymVt">
-      <property role="TrG5h" value="GetVisible" />
+      <property role="TrG5h" value="getVisible" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
       <node concept="37vLTG" id="16dayhjER5W" role="3clF46">
         <property role="TrG5h" value="split" />
         <property role="3TUv4t" value="false" />
-        <node concept="3uibUv" id="16dayhjER5X" role="1tU5fm">
-          <ref role="3uigEE" to="e2lb:~String" resolve="String" />
-        </node>
+        <node concept="17QB3L" id="16dayhjPCkY" role="1tU5fm" />
       </node>
       <node concept="3uibUv" id="16dayhjER5Y" role="Sfmx6">
         <ref role="3uigEE" to="9yi:~ParserConfigurationException" resolve="ParserConfigurationException" />
@@ -1792,7 +1398,6 @@
                 </node>
                 <node concept="3clFbJ" id="Hv0oaRd8Ar" role="3cqZAp">
                   <node concept="3clFbS" id="Hv0oaRd8At" role="3clFbx">
-                    <node concept="3clFbH" id="Hv0oaRd8As" role="3cqZAp" />
                     <node concept="3clFbJ" id="16dayhjER7u" role="3cqZAp">
                       <node concept="1Wc70l" id="16dayhjER7v" role="3clFbw">
                         <node concept="3clFbC" id="16dayhjER7w" role="3uHU7B">
@@ -1875,14 +1480,8 @@
                             </node>
                           </node>
                         </node>
-                        <node concept="3SKdUt" id="16dayhjER7Y" role="3cqZAp">
-                          <node concept="3SKdUq" id="16dayhjER7Z" role="3SKWNk">
-                            <property role="3SKdUp" value="output.append(&quot;name : &quot;+thisElement.getAttribute(&quot;name&quot;) + &quot; displayName: &quot;+ thisElement.getAttribute(&quot;displayName&quot;)+ &quot; visible: &quot;+ thisElement.getAttribute(&quot;visible&quot;) +&quot;\n&quot;);" />
-                          </node>
-                        </node>
                       </node>
                     </node>
-                    <node concept="3clFbH" id="Hv0oaRd9Lr" role="3cqZAp" />
                   </node>
                   <node concept="3y3z36" id="Hv0oaRd9yz" role="3clFbw">
                     <node concept="Xl_RD" id="Hv0oaRd9$7" role="3uHU7w">
@@ -1901,13 +1500,6 @@
                     </node>
                   </node>
                 </node>
-                <node concept="3clFbH" id="Hv0oaRd86y" role="3cqZAp" />
-                <node concept="3clFbH" id="Hv0oaRd8ep" role="3cqZAp" />
-                <node concept="3SKdUt" id="16dayhjER80" role="3cqZAp">
-                  <node concept="3SKdUq" id="16dayhjER81" role="3SKWNk">
-                    <property role="3SKdUp" value="check node type and if it visible or not" />
-                  </node>
-                </node>
               </node>
             </node>
           </node>
@@ -1924,65 +1516,9 @@
         </node>
       </node>
       <node concept="3Tm6S6" id="16dayhjER86" role="1B3o_S" />
-      <node concept="3uibUv" id="16dayhjER87" role="3clF45">
-        <ref role="3uigEE" to="e2lb:~String" resolve="String" />
-      </node>
+      <node concept="17QB3L" id="16dayhjPBJO" role="3clF45" />
     </node>
-    <node concept="2YIFZL" id="Hv0oaR9ij$" role="jymVt">
-      <property role="TrG5h" value="main" />
-      <property role="od$2w" value="false" />
-      <property role="DiZV1" value="false" />
-      <property role="2aFKle" value="false" />
-      <node concept="3clFbS" id="Hv0oaR9ijB" role="3clF47">
-        <node concept="3clFbF" id="Hv0oaR9li6" role="3cqZAp">
-          <node concept="2OqwBi" id="Hv0oaR9loC" role="3clFbG">
-            <node concept="10M0yZ" id="Hv0oaR9li5" role="2Oq$k0">
-              <ref role="1PxDUh" to="e2lb:~System" resolve="System" />
-              <ref role="3cqZAo" to="e2lb:~System.out" resolve="out" />
-            </node>
-            <node concept="liA8E" id="Hv0oaR9lEP" role="2OqNvi">
-              <ref role="37wK5l" to="fxg7:~PrintStream.print(java.lang.String):void" resolve="print" />
-              <node concept="Xl_RD" id="Hv0oaR9lH1" role="37wK5m">
-                <property role="Xl_RC" value="Hello main" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="Hv0oaR9iUF" role="3cqZAp">
-          <node concept="2OqwBi" id="Hv0oaR9kih" role="3clFbG">
-            <node concept="10M0yZ" id="Hv0oaR9iUE" role="2Oq$k0">
-              <ref role="3cqZAo" to="e2lb:~System.out" resolve="out" />
-              <ref role="1PxDUh" to="e2lb:~System" resolve="System" />
-            </node>
-            <node concept="liA8E" id="Hv0oaR9kyo" role="2OqNvi">
-              <ref role="37wK5l" to="fxg7:~PrintStream.print(java.lang.Object):void" resolve="print" />
-              <node concept="2OqwBi" id="Hv0oaR9k_i" role="37wK5m">
-                <node concept="1rXfSq" id="Hv0oaR9k_j" role="2Oq$k0">
-                  <ref role="37wK5l" node="16dayhjER2L" resolve="ListValidDatabases" />
-                </node>
-                <node concept="liA8E" id="Hv0oaR9k_k" role="2OqNvi">
-                  <ref role="37wK5l" to="e2lb:~String.split(java.lang.String):java.lang.String[]" resolve="split" />
-                  <node concept="Xl_RD" id="Hv0oaR9k_l" role="37wK5m">
-                    <property role="Xl_RC" value="\n" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-      <node concept="3Tm1VV" id="Hv0oaR9hGJ" role="1B3o_S" />
-      <node concept="3cqZAl" id="Hv0oaR9ijw" role="3clF45" />
-      <node concept="3uibUv" id="Hv0oaR9l5G" role="Sfmx6">
-        <ref role="3uigEE" to="fmpa:~SAXException" resolve="SAXException" />
-      </node>
-      <node concept="3uibUv" id="Hv0oaR9l8i" role="Sfmx6">
-        <ref role="3uigEE" to="9yi:~ParserConfigurationException" resolve="ParserConfigurationException" />
-      </node>
-      <node concept="3uibUv" id="Hv0oaR9lb0" role="Sfmx6">
-        <ref role="3uigEE" to="fxg7:~IOException" resolve="IOException" />
-      </node>
-    </node>
+    <node concept="2tJIrI" id="16dayhjPAzN" role="jymVt" />
     <node concept="2YIFZL" id="16dayhjER88" role="jymVt">
       <property role="TrG5h" value="writeRegistry" />
       <property role="DiZV1" value="false" />
@@ -2036,9 +1572,7 @@
           <node concept="3cpWsn" id="16dayhjER8s" role="3cpWs9">
             <property role="3TUv4t" value="false" />
             <property role="TrG5h" value="filename" />
-            <node concept="3uibUv" id="16dayhjER8t" role="1tU5fm">
-              <ref role="3uigEE" to="e2lb:~String" resolve="String" />
-            </node>
+            <node concept="17QB3L" id="16dayhjP$WU" role="1tU5fm" />
             <node concept="Xl_RD" id="16dayhjER8u" role="33vP2m">
               <property role="Xl_RC" value="/Users/BiomartInfo/" />
             </node>
@@ -2054,13 +1588,14 @@
             <property role="3TUv4t" value="false" />
             <property role="TrG5h" value="Databases" />
             <node concept="10Q1$e" id="16dayhjER8z" role="1tU5fm">
-              <node concept="3uibUv" id="16dayhjER8$" role="10Q1$1">
-                <ref role="3uigEE" to="e2lb:~String" resolve="String" />
-              </node>
+              <node concept="17QB3L" id="16dayhjP_7K" role="10Q1$1" />
             </node>
             <node concept="2OqwBi" id="16dayhjER8_" role="33vP2m">
               <node concept="1rXfSq" id="16dayhjER8A" role="2Oq$k0">
-                <ref role="37wK5l" node="16dayhjER2L" resolve="ListValidDatabases" />
+                <ref role="37wK5l" node="16dayhjER2L" resolve="listValidDatabases" />
+                <node concept="37vLTw" id="16dayhk9cJU" role="37wK5m">
+                  <ref role="3cqZAo" node="16dayhk9cdM" resolve="server" />
+                </node>
               </node>
               <node concept="liA8E" id="16dayhjER8B" role="2OqNvi">
                 <ref role="37wK5l" to="e2lb:~String.split(java.lang.String):java.lang.String[]" resolve="split" />
@@ -2126,9 +1661,7 @@
                 <property role="3TUv4t" value="false" />
                 <property role="TrG5h" value="thisDatabase" />
                 <node concept="10Q1$e" id="16dayhjER90" role="1tU5fm">
-                  <node concept="3uibUv" id="16dayhjER91" role="10Q1$1">
-                    <ref role="3uigEE" to="e2lb:~String" resolve="String" />
-                  </node>
+                  <node concept="17QB3L" id="16dayhjP$lF" role="10Q1$1" />
                 </node>
                 <node concept="2OqwBi" id="16dayhjER92" role="33vP2m">
                   <node concept="AH0OO" id="16dayhjER93" role="2Oq$k0">
@@ -2195,13 +1728,11 @@
                 <property role="3TUv4t" value="false" />
                 <property role="TrG5h" value="thisDatasetsList" />
                 <node concept="10Q1$e" id="16dayhjER9q" role="1tU5fm">
-                  <node concept="3uibUv" id="16dayhjER9r" role="10Q1$1">
-                    <ref role="3uigEE" to="e2lb:~String" resolve="String" />
-                  </node>
+                  <node concept="17QB3L" id="16dayhjP$1z" role="10Q1$1" />
                 </node>
                 <node concept="2OqwBi" id="16dayhjER9s" role="33vP2m">
                   <node concept="1rXfSq" id="16dayhjER9t" role="2Oq$k0">
-                    <ref role="37wK5l" node="16dayhjER3P" resolve="ListValidDatasets" />
+                    <ref role="37wK5l" node="16dayhjER3P" resolve="listValidDatasets" />
                     <node concept="AH0OO" id="16dayhjER9u" role="37wK5m">
                       <node concept="37vLTw" id="16dayhjER9v" role="AHHXb">
                         <ref role="3cqZAo" node="16dayhjER8Z" resolve="thisDatabase" />
@@ -2209,6 +1740,9 @@
                       <node concept="3cmrfG" id="16dayhjER9w" role="AHEQo">
                         <property role="3cmrfH" value="0" />
                       </node>
+                    </node>
+                    <node concept="37vLTw" id="16dayhk9drg" role="37wK5m">
+                      <ref role="3cqZAo" node="16dayhk9cdM" resolve="server" />
                     </node>
                   </node>
                   <node concept="liA8E" id="16dayhjER9x" role="2OqNvi">
@@ -2227,7 +1761,7 @@
             </node>
             <node concept="3clFbF" id="16dayhjER9_" role="3cqZAp">
               <node concept="1rXfSq" id="16dayhjER9A" role="3clFbG">
-                <ref role="37wK5l" node="16dayhjER3i" resolve="CreateDirectory" />
+                <ref role="37wK5l" node="16dayhjER3i" resolve="createDirectory" />
                 <node concept="3cpWs3" id="16dayhjER9B" role="37wK5m">
                   <node concept="37vLTw" id="16dayhjER9C" role="3uHU7B">
                     <ref role="3cqZAo" node="16dayhjER8s" resolve="filename" />
@@ -2284,9 +1818,7 @@
                     <property role="3TUv4t" value="false" />
                     <property role="TrG5h" value="thisDataset" />
                     <node concept="10Q1$e" id="16dayhjER9Y" role="1tU5fm">
-                      <node concept="3uibUv" id="16dayhjER9Z" role="10Q1$1">
-                        <ref role="3uigEE" to="e2lb:~String" resolve="String" />
-                      </node>
+                      <node concept="17QB3L" id="16dayhjPzLl" role="10Q1$1" />
                     </node>
                     <node concept="2OqwBi" id="16dayhjERa0" role="33vP2m">
                       <node concept="AH0OO" id="16dayhjERa1" role="2Oq$k0">
@@ -2336,7 +1868,7 @@
                 </node>
                 <node concept="3clFbF" id="16dayhjERah" role="3cqZAp">
                   <node concept="1rXfSq" id="16dayhjERai" role="3clFbG">
-                    <ref role="37wK5l" node="16dayhjER3i" resolve="CreateDirectory" />
+                    <ref role="37wK5l" node="16dayhjER3i" resolve="createDirectory" />
                     <node concept="3cpWs3" id="16dayhjERaj" role="37wK5m">
                       <node concept="3cpWs3" id="16dayhjERak" role="3uHU7B">
                         <node concept="3cpWs3" id="16dayhjERal" role="3uHU7B">
@@ -2376,11 +1908,9 @@
                   <node concept="3cpWsn" id="16dayhjERax" role="3cpWs9">
                     <property role="3TUv4t" value="false" />
                     <property role="TrG5h" value="listAttributes" />
-                    <node concept="3uibUv" id="16dayhjERay" role="1tU5fm">
-                      <ref role="3uigEE" to="e2lb:~String" resolve="String" />
-                    </node>
+                    <node concept="17QB3L" id="16dayhjPzHf" role="1tU5fm" />
                     <node concept="1rXfSq" id="16dayhjERaz" role="33vP2m">
-                      <ref role="37wK5l" node="16dayhjER4y" resolve="ListValidAttributes" />
+                      <ref role="37wK5l" node="16dayhjER4y" resolve="listValidAttributes" />
                       <node concept="AH0OO" id="16dayhjERa$" role="37wK5m">
                         <node concept="37vLTw" id="16dayhjERa_" role="AHHXb">
                           <ref role="3cqZAo" node="16dayhjER9X" resolve="thisDataset" />
@@ -2388,6 +1918,9 @@
                         <node concept="3cmrfG" id="16dayhjERaA" role="AHEQo">
                           <property role="3cmrfH" value="0" />
                         </node>
+                      </node>
+                      <node concept="37vLTw" id="16dayhk9dLp" role="37wK5m">
+                        <ref role="3cqZAo" node="16dayhk9cdM" resolve="server" />
                       </node>
                     </node>
                   </node>
@@ -2565,11 +2098,9 @@
                   <node concept="3cpWsn" id="16dayhjERbF" role="3cpWs9">
                     <property role="3TUv4t" value="false" />
                     <property role="TrG5h" value="listFilters" />
-                    <node concept="3uibUv" id="16dayhjERbG" role="1tU5fm">
-                      <ref role="3uigEE" to="e2lb:~String" resolve="String" />
-                    </node>
+                    <node concept="17QB3L" id="16dayhjPzDb" role="1tU5fm" />
                     <node concept="1rXfSq" id="16dayhjERbH" role="33vP2m">
-                      <ref role="37wK5l" node="16dayhjER5f" resolve="ListValidFilters" />
+                      <ref role="37wK5l" node="16dayhjER5f" resolve="listValidFilters" />
                       <node concept="AH0OO" id="16dayhjERbI" role="37wK5m">
                         <node concept="37vLTw" id="16dayhjERbJ" role="AHHXb">
                           <ref role="3cqZAo" node="16dayhjER9X" resolve="thisDataset" />
@@ -2577,6 +2108,9 @@
                         <node concept="3cmrfG" id="16dayhjERbK" role="AHEQo">
                           <property role="3cmrfH" value="0" />
                         </node>
+                      </node>
+                      <node concept="37vLTw" id="16dayhk9dR9" role="37wK5m">
+                        <ref role="3cqZAo" node="16dayhk9cdM" resolve="server" />
                       </node>
                     </node>
                   </node>
@@ -2602,26 +2136,7 @@
                   </node>
                   <node concept="3clFbS" id="16dayhjERbU" role="3clFbx">
                     <node concept="2GUZhq" id="16dayhjERbV" role="3cqZAp">
-                      <node concept="3clFbS" id="16dayhjERbW" role="2GVbov">
-                        <node concept="3SKdUt" id="6AQ7lAddEIt" role="3cqZAp">
-                          <node concept="3SKWN0" id="6AQ7lAddEIz" role="3SKWNk">
-                            <node concept="3clFbF" id="16dayhjERbX" role="3SKWNf">
-                              <node concept="2OqwBi" id="16dayhjERbY" role="3clFbG">
-                                <node concept="10M0yZ" id="16dayhjERbZ" role="2Oq$k0">
-                                  <ref role="3cqZAo" to="e2lb:~System.out" resolve="out" />
-                                  <ref role="1PxDUh" to="e2lb:~System" resolve="System" />
-                                </node>
-                                <node concept="liA8E" id="16dayhjERc0" role="2OqNvi">
-                                  <ref role="37wK5l" to="fxg7:~PrintStream.println(java.lang.String):void" resolve="println" />
-                                  <node concept="Xl_RD" id="16dayhjERc1" role="37wK5m">
-                                    <property role="Xl_RC" value="fin" />
-                                  </node>
-                                </node>
-                              </node>
-                            </node>
-                          </node>
-                        </node>
-                      </node>
+                      <node concept="3clFbS" id="16dayhjERbW" role="2GVbov" />
                       <node concept="3clFbS" id="16dayhjERc2" role="2GV8ay">
                         <node concept="3SKdUt" id="16dayhjERc3" role="3cqZAp">
                           <node concept="3SKdUq" id="16dayhjERc4" role="3SKWNk">
@@ -2800,22 +2315,25 @@
       </node>
       <node concept="3Tm1VV" id="16dayhjERd2" role="1B3o_S" />
       <node concept="3cqZAl" id="16dayhjERd3" role="3clF45" />
+      <node concept="37vLTG" id="16dayhk9cdM" role="3clF46">
+        <property role="TrG5h" value="server" />
+        <node concept="17QB3L" id="16dayhk9cdL" role="1tU5fm" />
+      </node>
     </node>
   </node>
   <node concept="312cEu" id="16dayhjERd4">
     <property role="TrG5h" value="ParseTSV" />
+    <node concept="2tJIrI" id="16dayhjPYOx" role="jymVt" />
     <node concept="3Tm1VV" id="16dayhjERd5" role="1B3o_S" />
     <node concept="2YIFZL" id="16dayhjERd6" role="jymVt">
-      <property role="TrG5h" value="ParseDatasets" />
+      <property role="TrG5h" value="parseDatasets" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
       <node concept="37vLTG" id="16dayhjERd7" role="3clF46">
         <property role="TrG5h" value="ReadTSV" />
         <property role="3TUv4t" value="false" />
         <node concept="10Q1$e" id="16dayhjERd8" role="1tU5fm">
-          <node concept="3uibUv" id="16dayhjERd9" role="10Q1$1">
-            <ref role="3uigEE" to="e2lb:~String" resolve="String" />
-          </node>
+          <node concept="17QB3L" id="16dayhjPXdZ" role="10Q1$1" />
         </node>
       </node>
       <node concept="3clFbS" id="16dayhjERda" role="3clF47">
@@ -2862,11 +2380,9 @@
             <node concept="3cpWs8" id="16dayhjERds" role="3cqZAp">
               <node concept="3cpWsn" id="16dayhjERdt" role="3cpWs9">
                 <property role="3TUv4t" value="false" />
-                <property role="TrG5h" value="ReadLine" />
+                <property role="TrG5h" value="line" />
                 <node concept="10Q1$e" id="16dayhjERdu" role="1tU5fm">
-                  <node concept="3uibUv" id="16dayhjERdv" role="10Q1$1">
-                    <ref role="3uigEE" to="e2lb:~String" resolve="String" />
-                  </node>
+                  <node concept="17QB3L" id="16dayhjPXv0" role="10Q1$1" />
                 </node>
                 <node concept="2OqwBi" id="16dayhjERdw" role="33vP2m">
                   <node concept="AH0OO" id="16dayhjERdx" role="2Oq$k0">
@@ -2895,7 +2411,7 @@
               <node concept="3eOSWO" id="16dayhjERdD" role="3clFbw">
                 <node concept="2OqwBi" id="16dayhjERdE" role="3uHU7B">
                   <node concept="37vLTw" id="16dayhjERdF" role="2Oq$k0">
-                    <ref role="3cqZAo" node="16dayhjERdt" resolve="ReadLine" />
+                    <ref role="3cqZAo" node="16dayhjERdt" resolve="line" />
                   </node>
                   <node concept="1Rwk04" id="16dayhjERdG" role="2OqNvi" />
                 </node>
@@ -2911,7 +2427,7 @@
                       <ref role="1Pybhc" to="e2lb:~Integer" resolve="Integer" />
                       <node concept="AH0OO" id="16dayhjERdM" role="37wK5m">
                         <node concept="37vLTw" id="16dayhjERdN" role="AHHXb">
-                          <ref role="3cqZAo" node="16dayhjERdt" resolve="ReadLine" />
+                          <ref role="3cqZAo" node="16dayhjERdt" resolve="line" />
                         </node>
                         <node concept="3cmrfG" id="16dayhjERdO" role="AHEQo">
                           <property role="3cmrfH" value="3" />
@@ -2940,7 +2456,7 @@
                               <node concept="3cpWs3" id="16dayhjERdZ" role="3uHU7B">
                                 <node concept="AH0OO" id="16dayhjERe0" role="3uHU7B">
                                   <node concept="37vLTw" id="16dayhjERe1" role="AHHXb">
-                                    <ref role="3cqZAo" node="16dayhjERdt" resolve="ReadLine" />
+                                    <ref role="3cqZAo" node="16dayhjERdt" resolve="line" />
                                   </node>
                                   <node concept="3cmrfG" id="16dayhjERe2" role="AHEQo">
                                     <property role="3cmrfH" value="1" />
@@ -2952,7 +2468,7 @@
                               </node>
                               <node concept="AH0OO" id="16dayhjERe4" role="3uHU7w">
                                 <node concept="37vLTw" id="16dayhjERe5" role="AHHXb">
-                                  <ref role="3cqZAo" node="16dayhjERdt" resolve="ReadLine" />
+                                  <ref role="3cqZAo" node="16dayhjERdt" resolve="line" />
                                 </node>
                                 <node concept="3cmrfG" id="16dayhjERe6" role="AHEQo">
                                   <property role="3cmrfH" value="2" />
@@ -2964,11 +2480,6 @@
                             </node>
                           </node>
                         </node>
-                      </node>
-                    </node>
-                    <node concept="3SKdUt" id="16dayhjERe8" role="3cqZAp">
-                      <node concept="3SKdUq" id="16dayhjERe9" role="3SKWNk">
-                        <property role="3SKdUp" value="output.append(&quot;name :&quot; + ReadLine[1] + &quot;  Displayname :&quot; + ReadLine[2] + &quot;  visible :&quot; + ReadLine[3] + &quot;\n&quot;);" />
                       </node>
                     </node>
                   </node>
@@ -2994,21 +2505,17 @@
         </node>
       </node>
       <node concept="3Tm1VV" id="16dayhjEReg" role="1B3o_S" />
-      <node concept="3uibUv" id="16dayhjEReh" role="3clF45">
-        <ref role="3uigEE" to="e2lb:~String" resolve="String" />
-      </node>
+      <node concept="17QB3L" id="16dayhjPXnM" role="3clF45" />
     </node>
     <node concept="2YIFZL" id="16dayhjERei" role="jymVt">
-      <property role="TrG5h" value="ParseDatasetsArgument" />
+      <property role="TrG5h" value="parseDatasetsArgument" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
       <node concept="37vLTG" id="16dayhjERej" role="3clF46">
         <property role="TrG5h" value="ReadTSV" />
         <property role="3TUv4t" value="false" />
         <node concept="10Q1$e" id="16dayhjERek" role="1tU5fm">
-          <node concept="3uibUv" id="16dayhjERel" role="10Q1$1">
-            <ref role="3uigEE" to="e2lb:~String" resolve="String" />
-          </node>
+          <node concept="17QB3L" id="16dayhjPX3L" role="10Q1$1" />
         </node>
       </node>
       <node concept="3clFbS" id="16dayhjERem" role="3clF47">
@@ -3055,11 +2562,9 @@
             <node concept="3cpWs8" id="16dayhjEReC" role="3cqZAp">
               <node concept="3cpWsn" id="16dayhjEReD" role="3cpWs9">
                 <property role="3TUv4t" value="false" />
-                <property role="TrG5h" value="ReadLine" />
+                <property role="TrG5h" value="line" />
                 <node concept="10Q1$e" id="16dayhjEReE" role="1tU5fm">
-                  <node concept="3uibUv" id="16dayhjEReF" role="10Q1$1">
-                    <ref role="3uigEE" to="e2lb:~String" resolve="String" />
-                  </node>
+                  <node concept="17QB3L" id="16dayhjPXFT" role="10Q1$1" />
                 </node>
                 <node concept="2OqwBi" id="16dayhjEReG" role="33vP2m">
                   <node concept="AH0OO" id="16dayhjEReH" role="2Oq$k0">
@@ -3088,7 +2593,7 @@
               <node concept="3eOSWO" id="16dayhjEReP" role="3clFbw">
                 <node concept="2OqwBi" id="16dayhjEReQ" role="3uHU7B">
                   <node concept="37vLTw" id="16dayhjEReR" role="2Oq$k0">
-                    <ref role="3cqZAo" node="16dayhjEReD" resolve="ReadLine" />
+                    <ref role="3cqZAo" node="16dayhjEReD" resolve="line" />
                   </node>
                   <node concept="1Rwk04" id="16dayhjEReS" role="2OqNvi" />
                 </node>
@@ -3118,7 +2623,7 @@
                                   <node concept="3cpWs3" id="16dayhjERf7" role="3uHU7B">
                                     <node concept="AH0OO" id="16dayhjERf8" role="3uHU7B">
                                       <node concept="37vLTw" id="16dayhjERf9" role="AHHXb">
-                                        <ref role="3cqZAo" node="16dayhjEReD" resolve="ReadLine" />
+                                        <ref role="3cqZAo" node="16dayhjEReD" resolve="line" />
                                       </node>
                                       <node concept="3cmrfG" id="16dayhjERfa" role="AHEQo">
                                         <property role="3cmrfH" value="0" />
@@ -3130,7 +2635,7 @@
                                   </node>
                                   <node concept="AH0OO" id="16dayhjERfc" role="3uHU7w">
                                     <node concept="37vLTw" id="16dayhjERfd" role="AHHXb">
-                                      <ref role="3cqZAo" node="16dayhjEReD" resolve="ReadLine" />
+                                      <ref role="3cqZAo" node="16dayhjEReD" resolve="line" />
                                     </node>
                                     <node concept="3cmrfG" id="16dayhjERfe" role="AHEQo">
                                       <property role="3cmrfH" value="1" />
@@ -3143,7 +2648,7 @@
                               </node>
                               <node concept="AH0OO" id="16dayhjERfg" role="3uHU7w">
                                 <node concept="37vLTw" id="16dayhjERfh" role="AHHXb">
-                                  <ref role="3cqZAo" node="16dayhjEReD" resolve="ReadLine" />
+                                  <ref role="3cqZAo" node="16dayhjEReD" resolve="line" />
                                 </node>
                                 <node concept="3cmrfG" id="16dayhjERfi" role="AHEQo">
                                   <property role="3cmrfH" value="3" />
@@ -3156,7 +2661,7 @@
                           </node>
                           <node concept="AH0OO" id="16dayhjERfk" role="3uHU7w">
                             <node concept="37vLTw" id="16dayhjERfl" role="AHHXb">
-                              <ref role="3cqZAo" node="16dayhjEReD" resolve="ReadLine" />
+                              <ref role="3cqZAo" node="16dayhjEReD" resolve="line" />
                             </node>
                             <node concept="3cmrfG" id="16dayhjERfm" role="AHEQo">
                               <property role="3cmrfH" value="4" />
@@ -3168,11 +2673,6 @@
                         </node>
                       </node>
                     </node>
-                  </node>
-                </node>
-                <node concept="3SKdUt" id="16dayhjERfo" role="3cqZAp">
-                  <node concept="3SKdUq" id="16dayhjERfp" role="3SKWNk">
-                    <property role="3SKdUp" value="output.append(&quot;name :&quot; + ReadLine[0] + &quot;  Displayname :&quot; + ReadLine[1] + &quot;\n&quot;);" />
                   </node>
                 </node>
               </node>
@@ -3196,21 +2696,17 @@
         </node>
       </node>
       <node concept="3Tm1VV" id="16dayhjERfw" role="1B3o_S" />
-      <node concept="3uibUv" id="16dayhjERfx" role="3clF45">
-        <ref role="3uigEE" to="e2lb:~String" resolve="String" />
-      </node>
+      <node concept="17QB3L" id="16dayhjPWWY" role="3clF45" />
     </node>
     <node concept="2YIFZL" id="16dayhjERfy" role="jymVt">
-      <property role="TrG5h" value="ParseDatasetsFilters" />
+      <property role="TrG5h" value="parseDatasetsFilters" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
       <node concept="37vLTG" id="16dayhjERfz" role="3clF46">
         <property role="TrG5h" value="ReadTSV" />
         <property role="3TUv4t" value="false" />
         <node concept="10Q1$e" id="16dayhjERf$" role="1tU5fm">
-          <node concept="3uibUv" id="16dayhjERf_" role="10Q1$1">
-            <ref role="3uigEE" to="e2lb:~String" resolve="String" />
-          </node>
+          <node concept="17QB3L" id="16dayhjPYiR" role="10Q1$1" />
         </node>
       </node>
       <node concept="3clFbS" id="16dayhjERfA" role="3clF47">
@@ -3257,11 +2753,9 @@
             <node concept="3cpWs8" id="16dayhjERfS" role="3cqZAp">
               <node concept="3cpWsn" id="16dayhjERfT" role="3cpWs9">
                 <property role="3TUv4t" value="false" />
-                <property role="TrG5h" value="ReadLine" />
+                <property role="TrG5h" value="line" />
                 <node concept="10Q1$e" id="16dayhjERfU" role="1tU5fm">
-                  <node concept="3uibUv" id="16dayhjERfV" role="10Q1$1">
-                    <ref role="3uigEE" to="e2lb:~String" resolve="String" />
-                  </node>
+                  <node concept="17QB3L" id="16dayhjPY9x" role="10Q1$1" />
                 </node>
                 <node concept="2OqwBi" id="16dayhjERfW" role="33vP2m">
                   <node concept="AH0OO" id="16dayhjERfX" role="2Oq$k0">
@@ -3290,7 +2784,7 @@
               <node concept="3eOSWO" id="16dayhjERg5" role="3clFbw">
                 <node concept="2OqwBi" id="16dayhjERg6" role="3uHU7B">
                   <node concept="37vLTw" id="16dayhjERg7" role="2Oq$k0">
-                    <ref role="3cqZAo" node="16dayhjERfT" resolve="ReadLine" />
+                    <ref role="3cqZAo" node="16dayhjERfT" resolve="line" />
                   </node>
                   <node concept="1Rwk04" id="16dayhjERg8" role="2OqNvi" />
                 </node>
@@ -3326,7 +2820,7 @@
                                               <node concept="3cpWs3" id="16dayhjERgt" role="3uHU7B">
                                                 <node concept="AH0OO" id="16dayhjERgu" role="3uHU7B">
                                                   <node concept="37vLTw" id="16dayhjERgv" role="AHHXb">
-                                                    <ref role="3cqZAo" node="16dayhjERfT" resolve="ReadLine" />
+                                                    <ref role="3cqZAo" node="16dayhjERfT" resolve="line" />
                                                   </node>
                                                   <node concept="3cmrfG" id="16dayhjERgw" role="AHEQo">
                                                     <property role="3cmrfH" value="0" />
@@ -3338,7 +2832,7 @@
                                               </node>
                                               <node concept="AH0OO" id="16dayhjERgy" role="3uHU7w">
                                                 <node concept="37vLTw" id="16dayhjERgz" role="AHHXb">
-                                                  <ref role="3cqZAo" node="16dayhjERfT" resolve="ReadLine" />
+                                                  <ref role="3cqZAo" node="16dayhjERfT" resolve="line" />
                                                 </node>
                                                 <node concept="3cmrfG" id="16dayhjERg$" role="AHEQo">
                                                   <property role="3cmrfH" value="1" />
@@ -3351,7 +2845,7 @@
                                           </node>
                                           <node concept="AH0OO" id="16dayhjERgA" role="3uHU7w">
                                             <node concept="37vLTw" id="16dayhjERgB" role="AHHXb">
-                                              <ref role="3cqZAo" node="16dayhjERfT" resolve="ReadLine" />
+                                              <ref role="3cqZAo" node="16dayhjERfT" resolve="line" />
                                             </node>
                                             <node concept="3cmrfG" id="16dayhjERgC" role="AHEQo">
                                               <property role="3cmrfH" value="2" />
@@ -3364,7 +2858,7 @@
                                       </node>
                                       <node concept="AH0OO" id="16dayhjERgE" role="3uHU7w">
                                         <node concept="37vLTw" id="16dayhjERgF" role="AHHXb">
-                                          <ref role="3cqZAo" node="16dayhjERfT" resolve="ReadLine" />
+                                          <ref role="3cqZAo" node="16dayhjERfT" resolve="line" />
                                         </node>
                                         <node concept="3cmrfG" id="16dayhjERgG" role="AHEQo">
                                           <property role="3cmrfH" value="3" />
@@ -3377,7 +2871,7 @@
                                   </node>
                                   <node concept="AH0OO" id="16dayhjERgI" role="3uHU7w">
                                     <node concept="37vLTw" id="16dayhjERgJ" role="AHHXb">
-                                      <ref role="3cqZAo" node="16dayhjERfT" resolve="ReadLine" />
+                                      <ref role="3cqZAo" node="16dayhjERfT" resolve="line" />
                                     </node>
                                     <node concept="3cmrfG" id="16dayhjERgK" role="AHEQo">
                                       <property role="3cmrfH" value="4" />
@@ -3390,7 +2884,7 @@
                               </node>
                               <node concept="AH0OO" id="16dayhjERgM" role="3uHU7w">
                                 <node concept="37vLTw" id="16dayhjERgN" role="AHHXb">
-                                  <ref role="3cqZAo" node="16dayhjERfT" resolve="ReadLine" />
+                                  <ref role="3cqZAo" node="16dayhjERfT" resolve="line" />
                                 </node>
                                 <node concept="3cmrfG" id="16dayhjERgO" role="AHEQo">
                                   <property role="3cmrfH" value="5" />
@@ -3403,7 +2897,7 @@
                           </node>
                           <node concept="AH0OO" id="16dayhjERgQ" role="3uHU7w">
                             <node concept="37vLTw" id="16dayhjERgR" role="AHHXb">
-                              <ref role="3cqZAo" node="16dayhjERfT" resolve="ReadLine" />
+                              <ref role="3cqZAo" node="16dayhjERfT" resolve="line" />
                             </node>
                             <node concept="3cmrfG" id="16dayhjERgS" role="AHEQo">
                               <property role="3cmrfH" value="6" />
@@ -3415,11 +2909,6 @@
                         </node>
                       </node>
                     </node>
-                  </node>
-                </node>
-                <node concept="3SKdUt" id="16dayhjERgU" role="3cqZAp">
-                  <node concept="3SKdUq" id="16dayhjERgV" role="3SKWNk">
-                    <property role="3SKdUp" value="output.append(&quot;name :&quot; + ReadLine[0] + &quot;  Displayname :&quot; + ReadLine[1] + &quot;\n&quot;);" />
                   </node>
                 </node>
               </node>
@@ -3443,9 +2932,7 @@
         </node>
       </node>
       <node concept="3Tm1VV" id="16dayhjERh2" role="1B3o_S" />
-      <node concept="3uibUv" id="16dayhjERh3" role="3clF45">
-        <ref role="3uigEE" to="e2lb:~String" resolve="String" />
-      </node>
+      <node concept="17QB3L" id="16dayhjPXTP" role="3clF45" />
     </node>
     <node concept="2YIFZL" id="16dayhjERh4" role="jymVt">
       <property role="TrG5h" value="readTSV" />
@@ -3460,9 +2947,7 @@
         <property role="TrG5h" value="ReadTSV" />
         <property role="3TUv4t" value="false" />
         <node concept="10Q1$e" id="16dayhjERh8" role="1tU5fm">
-          <node concept="3uibUv" id="16dayhjERh9" role="10Q1$1">
-            <ref role="3uigEE" to="e2lb:~String" resolve="String" />
-          </node>
+          <node concept="17QB3L" id="16dayhjPYGl" role="10Q1$1" />
         </node>
       </node>
       <node concept="3uibUv" id="16dayhjERha" role="Sfmx6">
@@ -3492,7 +2977,7 @@
             <node concept="3clFbS" id="16dayhjERhl" role="9aQI4">
               <node concept="3cpWs6" id="16dayhjERhm" role="3cqZAp">
                 <node concept="1rXfSq" id="16dayhjERhn" role="3cqZAk">
-                  <ref role="37wK5l" node="16dayhjERei" resolve="ParseDatasetsArgument" />
+                  <ref role="37wK5l" node="16dayhjERei" resolve="parseDatasetsArgument" />
                   <node concept="37vLTw" id="16dayhjERho" role="37wK5m">
                     <ref role="3cqZAo" node="16dayhjERh7" resolve="ReadTSV" />
                   </node>
@@ -3503,7 +2988,7 @@
           <node concept="3clFbS" id="16dayhjERhp" role="3clFbx">
             <node concept="3cpWs6" id="16dayhjERhq" role="3cqZAp">
               <node concept="1rXfSq" id="16dayhjERhr" role="3cqZAk">
-                <ref role="37wK5l" node="16dayhjERd6" resolve="ParseDatasets" />
+                <ref role="37wK5l" node="16dayhjERd6" resolve="parseDatasets" />
                 <node concept="37vLTw" id="16dayhjERhs" role="37wK5m">
                   <ref role="3cqZAo" node="16dayhjERh7" resolve="ReadTSV" />
                 </node>
@@ -3513,9 +2998,7 @@
         </node>
       </node>
       <node concept="3Tm1VV" id="16dayhjERht" role="1B3o_S" />
-      <node concept="3uibUv" id="16dayhjERhu" role="3clF45">
-        <ref role="3uigEE" to="e2lb:~String" resolve="String" />
-      </node>
+      <node concept="17QB3L" id="16dayhjPYEx" role="3clF45" />
     </node>
   </node>
 </model>
