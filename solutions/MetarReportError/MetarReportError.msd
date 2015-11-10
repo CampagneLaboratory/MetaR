@@ -25,6 +25,8 @@
     <usedLanguage>067d1b0c-daf1-44f9-9fbd-e1dd4c6e26e8(org.campagnelab.metar.simulation)</usedLanguage>
     <usedLanguage>af754813-06c7-4cd1-8f24-cc91ec8e5d34(org.campagnelab.metar.with.r)</usedLanguage>
     <usedLanguage>3b58810c-8431-4bbb-99ea-b4671e02dd13(org.campagnelab.metar.R)</usedLanguage>
+    <usedLanguage>64c90466-09b2-41ab-89f8-5085b3b9eca7(org.campagnelab.metar.functions.access)</usedLanguage>
+    <usedLanguage>c1747c67-8f42-4d83-9542-4a948aec17d9(org.campagnelab.metar.functions.importing)</usedLanguage>
   </usedLanguages>
   <languageVersions>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" fqName="jetbrains.mps.baseLanguage" version="1" />
@@ -36,6 +38,8 @@
     <language id="3b58810c-8431-4bbb-99ea-b4671e02dd13" fqName="org.campagnelab.metar.R" version="1" />
     <language id="837afec3-cff0-45b1-a221-6b811148f87e" fqName="org.campagnelab.metar.R.gen" version="0" />
     <language id="46803809-20ee-443f-bea9-0bee114b90b3" fqName="org.campagnelab.metar.edgeR" version="1" />
+    <language id="64c90466-09b2-41ab-89f8-5085b3b9eca7" fqName="org.campagnelab.metar.functions.access" version="0" />
+    <language id="c1747c67-8f42-4d83-9542-4a948aec17d9" fqName="org.campagnelab.metar.functions.importing" version="0" />
     <language id="32f503e8-061b-451e-bcb0-fef56aa05eb9" fqName="org.campagnelab.metar.inspect" version="0" />
     <language id="049ed9e7-0f0d-4814-a373-a4b21e15b59e" fqName="org.campagnelab.metar.limma" version="0" />
     <language id="ecc862c9-5ab5-42ef-8703-2039019fb338" fqName="org.campagnelab.metar.models" version="1" />
