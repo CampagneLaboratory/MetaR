@@ -7628,15 +7628,9 @@
               </node>
             </node>
           </node>
-          <node concept="22lmx$" id="530KUcv6Aws" role="3clFbw">
-            <node concept="10M0yZ" id="530KUcv6AMK" role="3uHU7w">
-              <ref role="1PxDUh" to="8d8y:~SystemInfo" resolve="SystemInfo" />
-              <ref role="3cqZAo" to="8d8y:~SystemInfo.isMac" resolve="isMac" />
-            </node>
-            <node concept="10M0yZ" id="530KUcv4TSO" role="3uHU7B">
-              <ref role="3cqZAo" to="8d8y:~SystemInfo.isWinVistaOrNewer" resolve="isWinVistaOrNewer" />
-              <ref role="1PxDUh" to="8d8y:~SystemInfo" resolve="SystemInfo" />
-            </node>
+          <node concept="10M0yZ" id="530KUcv4TSO" role="3clFbw">
+            <ref role="3cqZAo" to="8d8y:~SystemInfo.isWinVistaOrNewer" resolve="isWinVistaOrNewer" />
+            <ref role="1PxDUh" to="8d8y:~SystemInfo" resolve="SystemInfo" />
           </node>
         </node>
         <node concept="34ab3g" id="530KUcv6AW9" role="3cqZAp">
