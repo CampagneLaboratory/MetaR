@@ -7675,8 +7675,8 @@
           </node>
         </node>
         <node concept="3cpWs6" id="7jqSt7$vDCA" role="3cqZAp">
-          <node concept="37vLTw" id="530KUcv9hDp" role="3cqZAk">
-            <ref role="3cqZAo" node="7jqSt7$vDCC" resolve="result" />
+          <node concept="37vLTw" id="530KUcvAZpK" role="3cqZAk">
+            <ref role="3cqZAo" node="530KUcv4WPV" resolve="scriptPath" />
           </node>
         </node>
       </node>
