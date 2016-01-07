@@ -7436,17 +7436,6 @@
       <property role="TrG5h" value="convertPathForWindows" />
       <node concept="3Tm6S6" id="530KUcv156O" role="1B3o_S" />
       <node concept="3clFbS" id="530KUcv156P" role="3clF47">
-        <node concept="34ab3g" id="45BYEoDkSJX" role="3cqZAp">
-          <property role="35gtTG" value="info" />
-          <node concept="3cpWs3" id="45BYEoDkTwO" role="34bqiv">
-            <node concept="37vLTw" id="45BYEoDkTQn" role="3uHU7w">
-              <ref role="3cqZAo" node="530KUcv15sf" resolve="path" />
-            </node>
-            <node concept="Xl_RD" id="45BYEoDkSJZ" role="3uHU7B">
-              <property role="Xl_RC" value="Converting " />
-            </node>
-          </node>
-        </node>
         <node concept="3clFbJ" id="530KUcv1mlq" role="3cqZAp">
           <node concept="3clFbS" id="530KUcv1mls" role="3clFbx">
             <node concept="3cpWs6" id="530KUcv1n6W" role="3cqZAp">
@@ -7579,28 +7568,6 @@
         </node>
         <node concept="3clFbJ" id="7jqSt7$vDCq" role="3cqZAp">
           <node concept="3clFbS" id="7jqSt7$vDCr" role="3clFbx">
-            <node concept="34ab3g" id="45BYEoDrpY_" role="3cqZAp">
-              <property role="35gtTG" value="info" />
-              <node concept="3cpWs3" id="45BYEoDsjGe" role="34bqiv">
-                <node concept="Xl_RD" id="45BYEoDsjGf" role="3uHU7w">
-                  <property role="Xl_RC" value="\&quot;" />
-                </node>
-                <node concept="3cpWs3" id="45BYEoDsjGg" role="3uHU7B">
-                  <node concept="3cpWs3" id="45BYEoDrqvB" role="3uHU7B">
-                    <node concept="Xl_RD" id="45BYEoDrpYB" role="3uHU7B">
-                      <property role="Xl_RC" value="Results " />
-                    </node>
-                    <node concept="Xl_RD" id="45BYEoDsjGh" role="3uHU7w">
-                      <property role="Xl_RC" value="\&quot;" />
-                    </node>
-                  </node>
-                  <node concept="37vLTw" id="45BYEoDuw24" role="3uHU7w">
-                    <ref role="3cqZAo" node="45BYEoDusA1" resolve="temp" />
-                  </node>
-                </node>
-              </node>
-            </node>
-            <node concept="3clFbH" id="45BYEoDsiyp" role="3cqZAp" />
             <node concept="3cpWs6" id="7jqSt7$vDCs" role="3cqZAp">
               <node concept="3cpWs3" id="7jqSt7$vDCt" role="3cqZAk">
                 <node concept="Xl_RD" id="7jqSt7$vDCu" role="3uHU7w">
@@ -7772,17 +7739,6 @@
                               </node>
                             </node>
                           </node>
-                          <node concept="34ab3g" id="45BYEoD4zLH" role="3cqZAp">
-                            <property role="35gtTG" value="info" />
-                            <node concept="3cpWs3" id="45BYEoD4_Nd" role="34bqiv">
-                              <node concept="37vLTw" id="45BYEoD4A2u" role="3uHU7w">
-                                <ref role="3cqZAo" node="7jqSt7$enKm" resolve="parentDirPath" />
-                              </node>
-                              <node concept="Xl_RD" id="45BYEoD4zLJ" role="3uHU7B">
-                                <property role="Xl_RC" value="parent dir: " />
-                              </node>
-                            </node>
-                          </node>
                           <node concept="3clFbF" id="530KUcv1y5P" role="3cqZAp">
                             <node concept="37vLTI" id="530KUcv1y$J" role="3clFbG">
                               <node concept="2OqwBi" id="530KUcv1zkX" role="37vLTx">
@@ -7799,18 +7755,6 @@
                               </node>
                             </node>
                           </node>
-                          <node concept="34ab3g" id="45BYEoD5_3M" role="3cqZAp">
-                            <property role="35gtTG" value="info" />
-                            <node concept="3cpWs3" id="45BYEoD5_3N" role="34bqiv">
-                              <node concept="37vLTw" id="45BYEoD5_3O" role="3uHU7w">
-                                <ref role="3cqZAo" node="7jqSt7$enKm" resolve="parentDirPath" />
-                              </node>
-                              <node concept="Xl_RD" id="45BYEoD5_3P" role="3uHU7B">
-                                <property role="Xl_RC" value="parent dir 2: " />
-                              </node>
-                            </node>
-                          </node>
-                          <node concept="3clFbH" id="45BYEoD5$Nr" role="3cqZAp" />
                           <node concept="3clFbF" id="7jqSt7yB0Mt" role="3cqZAp">
                             <node concept="3cpWs3" id="7jqSt7yB1By" role="3clFbG">
                               <node concept="3cpWs3" id="7jqSt7yB1ll" role="3uHU7B">
