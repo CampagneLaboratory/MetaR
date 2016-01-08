@@ -8630,6 +8630,23 @@
         </node>
       </node>
     </node>
+    <node concept="Wx3nA" id="5KdqEDbwV8$" role="jymVt">
+      <property role="2dlcS1" value="false" />
+      <property role="2dld4O" value="false" />
+      <property role="TrG5h" value="linePattern" />
+      <property role="3TUv4t" value="false" />
+      <node concept="3Tm6S6" id="5KdqEDbwV8_" role="1B3o_S" />
+      <node concept="3uibUv" id="5KdqEDbwV8A" role="1tU5fm">
+        <ref role="3uigEE" to="lgzw:~Pattern" resolve="Pattern" />
+      </node>
+      <node concept="2YIFZM" id="5KdqEDbwV8B" role="33vP2m">
+        <ref role="37wK5l" to="lgzw:~Pattern.compile(java.lang.String):java.util.regex.Pattern" resolve="compile" />
+        <ref role="1Pybhc" to="lgzw:~Pattern" resolve="Pattern" />
+        <node concept="Xl_RD" id="5KdqEDbwV8C" role="37wK5m">
+          <property role="Xl_RC" value="(.*)(([a-zA-Z]):((\\\\\\\\[.a-zA-Z0-9_-]+)+\\\\\\\\?))(.*)" />
+        </node>
+      </node>
+    </node>
     <node concept="2tJIrI" id="530KUcv5515" role="jymVt" />
     <node concept="3clFbW" id="530KUcv51cJ" role="jymVt">
       <node concept="3cqZAl" id="530KUcv51cK" role="3clF45" />
@@ -8767,8 +8784,8 @@
                   <ref role="3uigEE" to="lgzw:~Matcher" resolve="Matcher" />
                 </node>
                 <node concept="2OqwBi" id="530KUcvsbKC" role="33vP2m">
-                  <node concept="37vLTw" id="530KUcvEX6f" role="2Oq$k0">
-                    <ref role="3cqZAo" node="530KUcvB6KN" resolve="pathPattern" />
+                  <node concept="37vLTw" id="5KdqEDbwXxP" role="2Oq$k0">
+                    <ref role="3cqZAo" node="5KdqEDbwV8$" resolve="linePattern" />
                   </node>
                   <node concept="liA8E" id="530KUcvsbUI" role="2OqNvi">
                     <ref role="37wK5l" to="lgzw:~Pattern.matcher(java.lang.CharSequence):java.util.regex.Matcher" resolve="matcher" />
@@ -8835,8 +8852,13 @@
                       <node concept="Xl_RD" id="530KUcvEZCR" role="3uHU7B">
                         <property role="Xl_RC" value="//" />
                       </node>
-                      <node concept="37vLTw" id="530KUcvEZCS" role="3uHU7w">
-                        <ref role="3cqZAo" node="530KUcvEZCE" resolve="unit" />
+                      <node concept="2OqwBi" id="5KdqEDbvSOa" role="3uHU7w">
+                        <node concept="37vLTw" id="530KUcvEZCS" role="2Oq$k0">
+                          <ref role="3cqZAo" node="530KUcvEZCE" resolve="unit" />
+                        </node>
+                        <node concept="liA8E" id="5KdqEDbvViM" role="2OqNvi">
+                          <ref role="37wK5l" to="e2lb:~String.toLowerCase():java.lang.String" resolve="toLowerCase" />
+                        </node>
                       </node>
                     </node>
                   </node>
@@ -9053,8 +9075,13 @@
                       <node concept="Xl_RD" id="530KUcvX5am" role="3uHU7B">
                         <property role="Xl_RC" value="//" />
                       </node>
-                      <node concept="37vLTw" id="530KUcvX5an" role="3uHU7w">
-                        <ref role="3cqZAo" node="530KUcvBktT" resolve="unit" />
+                      <node concept="2OqwBi" id="5KdqEDbvXfS" role="3uHU7w">
+                        <node concept="37vLTw" id="530KUcvX5an" role="2Oq$k0">
+                          <ref role="3cqZAo" node="530KUcvBktT" resolve="unit" />
+                        </node>
+                        <node concept="liA8E" id="5KdqEDbvYR7" role="2OqNvi">
+                          <ref role="37wK5l" to="e2lb:~String.toLowerCase():java.lang.String" resolve="toLowerCase" />
+                        </node>
                       </node>
                     </node>
                   </node>
