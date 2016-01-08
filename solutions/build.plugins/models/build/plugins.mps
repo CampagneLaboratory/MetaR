@@ -453,7 +453,7 @@
       </node>
       <node concept="2iUeEo" id="7OkpSXK0mMu" role="2iVFfd">
         <property role="2iUeEt" value="Campagne Laboratory" />
-        <property role="2iUeEu" value="http://workbench.campagnelab.org" />
+        <property role="2iUeEu" value="http://metar.campagnelab.org" />
         <node concept="398BVA" id="7OkpSXK0npr" role="2iUeEv">
           <ref role="398BVh" node="3gMg70bRmeX" resolve="org.campagnelab.goby.workbench.home" />
           <node concept="2Ry0Ak" id="7OkpSXK0npw" role="iGT6I">
@@ -466,7 +466,7 @@
       </node>
       <node concept="3_J27D" id="H0TQXNF8HK" role="3s6cr7">
         <node concept="3Mxwew" id="H0TQXNF9To" role="3MwsjC">
-          <property role="3MwjfP" value="MetaR is a set of languages for interactive data analysis. Programs written with metaR generate to the R language, but are composable. MetaR is part of the NYoSh Data Analysis Workbench (see http://workbench.campagnelab.org). Reference build: " />
+          <property role="3MwjfP" value="MetaR is a set of languages for interactive data analysis. Programs written with metaR generate to the R language, but are composable. MetaR includes simple languages that beginner data analysts can use, as well as a composable R language. Reference build: " />
         </node>
         <node concept="3Mxwey" id="4RSqyaA4csT" role="3MwsjC">
           <ref role="3Mxwex" node="4RSqyaA4c2V" resolve="build_number" />
