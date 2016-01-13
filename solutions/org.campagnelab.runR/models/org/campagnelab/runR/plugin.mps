@@ -65,6 +65,7 @@
     <import index="eoo2" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.nio.file(JDK/)" />
     <import index="7x5y" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.nio.charset(JDK/)" />
     <import index="ni5j" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util.regex(JDK/)" />
+    <import index="qkt" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.openapi.actionSystem(MPS.IDEA/)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="6q58" ref="r:97268463-8a58-42b7-9dc6-fa004b7a4308(org.campagnelab.metar.R.structure)" implicit="true" />
     <import index="l5qg" ref="r:c3c8723d-4db5-4e18-902d-1cb272fe4ddf(org.campagnelab.metar.R.gen.structure)" implicit="true" />
@@ -3284,7 +3285,7 @@
           <node concept="2OqwBi" id="5wICCZJ10zd" role="3clFbG">
             <node concept="2OqwBi" id="5wICCZJ10ze" role="2Oq$k0">
               <node concept="2WthIp" id="5wICCZJ10zf" role="2Oq$k0" />
-              <node concept="1DTwFV" id="2sgkdoKd9rX" role="2OqNvi">
+              <node concept="3gHZIF" id="6W4RPA0yjsu" role="2OqNvi">
                 <ref role="2WH_rO" node="2sgkdoKdfWD" resolve="selectedNode" />
               </node>
             </node>
@@ -3311,7 +3312,7 @@
           <node concept="2OqwBi" id="5wICCZJ10zq" role="3clFbG">
             <node concept="2OqwBi" id="5wICCZJ10zr" role="2Oq$k0">
               <node concept="2WthIp" id="5wICCZJ10zs" role="2Oq$k0" />
-              <node concept="3gHZIF" id="5wICCZJ10zt" role="2OqNvi">
+              <node concept="3gHZIF" id="6W4RPA0yj_Z" role="2OqNvi">
                 <ref role="2WH_rO" node="2sgkdoKdfWD" resolve="selectedNode" />
               </node>
             </node>
