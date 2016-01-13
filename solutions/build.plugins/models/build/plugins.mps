@@ -51,6 +51,7 @@
       </concept>
       <concept id="927724900262033858" name="jetbrains.mps.build.structure.BuildSource_JavaOptions" flags="ng" index="2_Ic$z">
         <property id="6998860900671147996" name="javaLevel" index="TZNOO" />
+        <property id="4416461515995611908" name="fork" index="1ck6Xt" />
       </concept>
       <concept id="4380385936562003279" name="jetbrains.mps.build.structure.BuildString" flags="ng" index="NbPM2">
         <child id="4903714810883783243" name="parts" index="3MwsjC" />
@@ -218,7 +219,7 @@
       <node concept="aVJcg" id="7OkpSXK7xVu" role="aVJcv">
         <node concept="NbPM2" id="7OkpSXK7xVt" role="aVJcq">
           <node concept="3Mxwew" id="7OkpSXK7xVs" role="3MwsjC">
-            <property role="3MwjfP" value="1.3.1" />
+            <property role="3MwjfP" value="1.4.0" />
           </node>
         </node>
       </node>
@@ -228,7 +229,7 @@
       <node concept="aVJcg" id="HL4WxLmXWy" role="aVJcv">
         <node concept="NbPM2" id="HL4WxLmXWx" role="aVJcq">
           <node concept="3Mxwew" id="HL4WxLmXWw" role="3MwsjC">
-            <property role="3MwjfP" value="1.0" />
+            <property role="3MwjfP" value="1.1.0" />
           </node>
         </node>
       </node>
@@ -387,13 +388,13 @@
         <node concept="2pNUuL" id="5KK2jWpWIvb" role="2pNNFR">
           <property role="2pNUuO" value="until-build" />
           <node concept="2pMdtt" id="5KK2jWpWIvf" role="2pMdts">
-            <property role="2pMdty" value="140.1" />
+            <property role="2pMdty" value="144.1" />
           </node>
         </node>
         <node concept="2pNUuL" id="5KK2jWpWItQ" role="2pNNFR">
           <property role="2pNUuO" value="since-build" />
           <node concept="2pMdtt" id="5KK2jWpWIv5" role="2pMdts">
-            <property role="2pMdty" value="139.1" />
+            <property role="2pMdty" value="143.1" />
           </node>
         </node>
       </node>
@@ -2526,6 +2527,7 @@
     </node>
     <node concept="2_Ic$z" id="5Ak$p3hCPSn" role="3989C9">
       <property role="TZNOO" value="1.6" />
+      <property role="1ck6Xt" value="true" />
     </node>
     <node concept="2igEWh" id="5RQTS2oXhIU" role="1hWBAP">
       <property role="2igJW4" value="true" />
