@@ -1895,12 +1895,6 @@
               <ref role="3bR37D" to="ffeo:1H905DlDUSw" resolve="MPS.OpenAPI" />
             </node>
           </node>
-          <node concept="1SiIV0" id="WAEVbtgddK" role="3bR37C">
-            <node concept="3bR9La" id="WAEVbtgddL" role="1SiIV1">
-              <property role="3bR36h" value="false" />
-              <ref role="3bR37D" node="7kcXEwbGvIl" resolve="org.campagnelab.metar.edgeR" />
-            </node>
-          </node>
           <node concept="1SiIV0" id="WAEVbtgddM" role="3bR37C">
             <node concept="3bR9La" id="WAEVbtgddN" role="1SiIV1">
               <property role="3bR36h" value="false" />
@@ -1908,28 +1902,10 @@
             </node>
           </node>
         </node>
-        <node concept="1SiIV0" id="WAEVbtgd9I" role="3bR37C">
-          <node concept="3bR9La" id="WAEVbtgd9J" role="1SiIV1">
-            <property role="3bR36h" value="false" />
-            <ref role="3bR37D" node="3gMg70bRmft" resolve="org.campagnelab.metar.inspect" />
-          </node>
-        </node>
-        <node concept="1SiIV0" id="WAEVbtgddq" role="3bR37C">
-          <node concept="3bR9La" id="WAEVbtgddr" role="1SiIV1">
-            <property role="3bR36h" value="false" />
-            <ref role="3bR37D" node="WAEVbtgcBG" resolve="org.campagnelab.metar.limma" />
-          </node>
-        </node>
         <node concept="1SiIV0" id="WAEVbtgdds" role="3bR37C">
           <node concept="3bR9La" id="WAEVbtgddt" role="1SiIV1">
             <property role="3bR36h" value="false" />
             <ref role="3bR37D" to="9b59:7XxitGzkyrv" resolve="org.campagnelab.mps.XChart" />
-          </node>
-        </node>
-        <node concept="1SiIV0" id="WAEVbtgddu" role="3bR37C">
-          <node concept="3bR9La" id="WAEVbtgddv" role="1SiIV1">
-            <property role="3bR36h" value="false" />
-            <ref role="3bR37D" node="7kcXEwbGvIl" resolve="org.campagnelab.metar.edgeR" />
           </node>
         </node>
         <node concept="1SiIV0" id="WAEVbtgddw" role="3bR37C">

@@ -1434,9 +1434,11 @@
       <chunk>
         <module file="${basedir}/devkits/R/org.campagnelab.R.devkit" />
         <module file="${basedir}/solutions/org.campagnelab.editor.plugins/org.campagnelab.editor.plugins.msd" />
+        <module file="${basedir}/devkits/org.campagnelab.HTAnalysis.devkit" />
         <module file="${basedir}/languages/org.campagnelab.metar.biomart/org.campagnelab.metar.biomart.mpl" />
         <module file="${basedir}/languages/org.campagnelab.metar.MetarToR/org.campagnelab.metar.MetarToR.mpl" />
         <module file="${basedir}/languages/org.campagnelab.metar.functions.access/org.campagnelab.metar.functions.access.mpl" />
+        <module file="${basedir}/languages/org.campagnelab.metar.limma/org.campagnelab.metar.limma.mpl" />
         <module file="${basedir}/languages/org.campagnelab.metar.models/org.campagnelab.metar.models.mpl" />
         <module file="${basedir}/languages/org.campagnelab.metar.simulation/org.campagnelab.metar.simulation.mpl" />
         <module file="${basedir}/languages/org.campagnelab.metar.with.r/org.campagnelab.metar.with.r.mpl" />
@@ -1444,10 +1446,6 @@
       </chunk>
       <chunk bootstrap="true">
         <module file="${basedir}/languages/org.campagnelab.metar.edgeR/org.campagnelab.metar.edgeR.mpl" bootstrap="true" />
-      </chunk>
-      <chunk>
-        <module file="${basedir}/devkits/org.campagnelab.HTAnalysis.devkit" />
-        <module file="${basedir}/languages/org.campagnelab.metar.limma/org.campagnelab.metar.limma.mpl" />
       </chunk>
       <chunk />
       <jvmargs>
@@ -2981,7 +2979,7 @@
     </copy>
   </target>
   
-  <target name="java.compile.org.campagnelab.metar.limma" depends="java.compile.org.campagnelab.metar.R.gen, java.compile.org.campagnelab.metar.code, java.compile.org.campagnelab.metar.edgeR, java.compile.org.campagnelab.metar.inspect, java.compile.org.campagnelab.metar.models, java.compile.org.campagnelab.metar.r.stubs, java.compile.org.campagnelab.metar.tables, java.compile.org.campagnelab.styles, fetchDependencies">
+  <target name="java.compile.org.campagnelab.metar.limma" depends="java.compile.org.campagnelab.metar.R.gen, java.compile.org.campagnelab.metar.code, java.compile.org.campagnelab.metar.inspect, java.compile.org.campagnelab.metar.models, java.compile.org.campagnelab.metar.r.stubs, java.compile.org.campagnelab.metar.tables, java.compile.org.campagnelab.styles, fetchDependencies">
     <mkdir dir="${basedir}/languages/org.campagnelab.metar.limma/source_gen" />
     <mkdir dir="${build.tmp}/java/out/org.campagnelab.metar.limma" />
     <javac destdir="${build.tmp}/java/out/org.campagnelab.metar.limma" fork="true" includeantruntime="false" source="1.6" target="1.6">
@@ -3004,7 +3002,6 @@
         <fileset file="${artifacts.mps}/lib/mps-platform.jar" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.metar.R.gen" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.metar.code" />
-        <pathelement path="${build.tmp}/java/out/org.campagnelab.metar.edgeR" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.metar.inspect" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.metar.models" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.metar.r.stubs" />
@@ -3038,7 +3035,7 @@
     </copy>
   </target>
   
-  <target name="java.compile.org.campagnelab.metar.limma#5124039371745995804" depends="java.compile.org.campagnelab.metar.R.gen, java.compile.org.campagnelab.metar.code, java.compile.org.campagnelab.metar.edgeR, java.compile.org.campagnelab.metar.inspect, java.compile.org.campagnelab.metar.limma, java.compile.org.campagnelab.metar.models, java.compile.org.campagnelab.metar.r.stubs, java.compile.org.campagnelab.metar.tables, java.compile.org.campagnelab.styles, fetchDependencies">
+  <target name="java.compile.org.campagnelab.metar.limma#5124039371745995804" depends="java.compile.org.campagnelab.metar.R.gen, java.compile.org.campagnelab.metar.code, java.compile.org.campagnelab.metar.inspect, java.compile.org.campagnelab.metar.limma, java.compile.org.campagnelab.metar.models, java.compile.org.campagnelab.metar.r.stubs, java.compile.org.campagnelab.metar.tables, java.compile.org.campagnelab.styles, fetchDependencies">
     <mkdir dir="${basedir}/languages/org.campagnelab.metar.limma/generator/source_gen" />
     <mkdir dir="${build.tmp}/java/out/org.campagnelab.metar.limma#5124039371745995804" />
     <javac destdir="${build.tmp}/java/out/org.campagnelab.metar.limma#5124039371745995804" fork="true" includeantruntime="false" source="1.6" target="1.6">
@@ -3061,7 +3058,6 @@
         <fileset file="${artifacts.mps}/lib/mps-platform.jar" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.metar.R.gen" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.metar.code" />
-        <pathelement path="${build.tmp}/java/out/org.campagnelab.metar.edgeR" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.metar.inspect" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.metar.limma" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.metar.models" />
@@ -3685,13 +3681,12 @@
     <delete dir="${basedir}/languages/org.campagnelab.metar.functions.access/source_gen" />
     <delete dir="${basedir}/languages/org.campagnelab.metar.functions.importing/generator/source_gen" />
     <delete dir="${basedir}/languages/org.campagnelab.metaR.inspect/generator/source_gen" />
+    <delete dir="${basedir}/languages/org.campagnelab.metar.limma/source_gen" />
     <delete dir="${basedir}/languages/org.campagnelab.metar.models/source_gen" />
     <delete dir="${basedir}/languages/org.campagnelab.metar.simulation/source_gen" />
     <delete dir="${basedir}/languages/org.campagnelab.metaR.tables/generator/source_gen" />
     <delete dir="${basedir}/languages/org.campagnelab.metar.with.r/source_gen" />
     <delete dir="${basedir}/solutions/org.campagnelab.runR/source_gen" />
     <delete dir="${basedir}/languages/org.campagnelab.metar.edgeR/generator/source_gen" />
-    <delete dir="${basedir}/languages/org.campagnelab.metar.limma/source_gen" />
-    <delete dir="${basedir}/languages/org.campagnelab.metar.limma/generator/source_gen" />
   </target>
 </project>
