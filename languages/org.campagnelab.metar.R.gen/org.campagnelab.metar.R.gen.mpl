@@ -46,7 +46,6 @@
         <module reference="ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)" version="0" />
         <module reference="d7eb0a2a-bd50-4576-beae-e4a89db35f20(jetbrains.mps.lang.scopes.runtime)" version="0" />
         <module reference="c72da2b9-7cce-4447-8389-f407dc1158b7(jetbrains.mps.lang.structure)" version="0" />
-        <module reference="d6782141-eafa-4cf7-a85d-1229abdb1152(org.campagnelab.ANTLR)" version="0" />
         <module reference="3b58810c-8431-4bbb-99ea-b4671e02dd13(org.campagnelab.metar.R)" version="0" />
         <module reference="837afec3-cff0-45b1-a221-6b811148f87e(org.campagnelab.metar.R.gen)" version="0" />
         <module reference="f71215eb-8d65-4bf3-801c-3370a79a9882(org.campagnelab.metar.R.gen#7174230558094309483)" version="0" />
