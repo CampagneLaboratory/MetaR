@@ -55,6 +55,7 @@
       </concept>
       <concept id="1073389882823" name="jetbrains.mps.lang.editor.structure.CellModel_RefNode" flags="sg" stub="730538219795960754" index="3F1sOY" />
       <concept id="1176474535556" name="jetbrains.mps.lang.editor.structure.QueryFunction_JComponent" flags="in" index="3Fmcul" />
+      <concept id="1161622981231" name="jetbrains.mps.lang.editor.structure.ConceptFunctionParameter_editorContext" flags="nn" index="1Q80Hx" />
       <concept id="1166049232041" name="jetbrains.mps.lang.editor.structure.AbstractComponent" flags="ng" index="1XWOmA">
         <reference id="1166049300910" name="conceptDeclaration" index="1XX52x" />
       </concept>
@@ -141,6 +142,7 @@
                       <node concept="1pGfFk" id="hF4FgOo" role="2ShVmc">
                         <ref role="37wK5l" to="tpc5:i2lE2w6" resolve="SelectImageFileButton" />
                         <node concept="pncrf" id="hF4FgOq" role="37wK5m" />
+                        <node concept="1Q80Hx" id="6XID6qPQk$g" role="37wK5m" />
                       </node>
                     </node>
                   </node>
