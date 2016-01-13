@@ -272,26 +272,15 @@
       <fileset dir="${basedir}/languages/org.campagnelab.styles/source_gen" includes="**/trace.info, **/exports" />
       <fileset dir="${build.tmp}/default/org.campagnelab.styles.jar" />
     </jar>
-    <jar destfile="${build.tmp}/default/metaR__dl__lbrace_metaR_version_rbrace_.zip/metaR/languages/metaR/org.campagnelab.styles-generator.jar" duplicate="preserve">
-      <fileset dir="${build.tmp}/java/out/org.campagnelab.styles#5397636476160483701" />
-    </jar>
-    <copyModels todir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.styles-generator-template">
-      <fileset dir="${basedir}/languages/org.campagnelab.styles/generator/template" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
-    </copyModels>
     <copyModels todir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.styles-languageModels">
       <fileset dir="${basedir}/languages/org.campagnelab.styles/languageModels" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
     </copyModels>
     <jar destfile="${build.tmp}/default/metaR__dl__lbrace_metaR_version_rbrace_.zip/metaR/languages/metaR/org.campagnelab.styles-src.jar" duplicate="preserve">
-      <fileset dir="${basedir}/languages/org.campagnelab.styles/generator/source_gen">
-        <exclude name="**/trace.info" />
-        <exclude name="**/exports" />
-      </fileset>
       <fileset dir="${basedir}/languages/org.campagnelab.styles/source_gen">
         <exclude name="**/trace.info" />
         <exclude name="**/exports" />
       </fileset>
       <zipfileset file="${basedir}/languages/org.campagnelab.styles/org.campagnelab.styles.mpl" prefix="module" />
-      <zipfileset dir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.styles-generator-template" prefix="module/generator/template" />
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.styles-languageModels" prefix="module/languageModels" />
     </jar>
     <mkdir dir="${build.tmp}/default/org.campagnelab.metar.tables.jar" />
@@ -1287,7 +1276,7 @@
     <delete dir="${build.layout}" />
   </target>
   
-  <target name="compileJava" depends="java.compile.java.modules.cycle.1, java.compile.org.campagnelab.metar.R, java.compile.org.campagnelab.metar.R#7627187573640569363, java.compile.org.campagnelab.metar.R.gen, java.compile.org.campagnelab.metar.r.parsers, java.compile.org.campagnelab.metar.r.stubs, java.compile.org.campagnelab.metar.R.plugin, java.compile.org.campagnelab.metar.functions.access, java.compile.org.campagnelab.metar.functions.access#1127749446836988002, java.compile.org.campagnelab.metar.models, java.compile.org.campagnelab.metar.models#5124039371743718191, java.compile.java.modules.cycle.2, java.compile.org.campagnelab.metar.code, java.compile.org.campagnelab.metar.code#6287645532292043083, java.compile.org.campagnelab.metar.functions.importing, java.compile.org.campagnelab.metar.functions.importing#8788797393879438827, java.compile.org.campagnelab.styles, java.compile.org.campagnelab.styles#5397636476160483701, java.compile.org.campagnelab.metar.tables, java.compile.org.campagnelab.metar.tables#3402264987258972825, java.compile.org.campagnelab.metar.edgeR, java.compile.org.campagnelab.metar.edgeR#8725455673819557209, java.compile.org.campagnelab.editor.images, java.compile.org.campagnelab.editor.images#1813939192108407208, java.compile.org.campagnelab.runR, java.compile.org.campagnelab.metar.accessories, java.compile.org.campagnelab.metar.accessories#8434387403773304096, java.compile.org.campagnelab.metar.inspect, java.compile.org.campagnelab.metar.inspect#1549006859295776220, java.compile.org.campagnelab.editor.csvviewer, java.compile.org.campagnelab.metar.limma, java.compile.org.campagnelab.metar.limma#5124039371745995804, java.compile.org.campagnelab.editor.plugins, java.compile.org.campagnelab.metar.simulation, java.compile.org.campagnelab.metar.simulation#2432807068409409065, java.compile.org.campagnelab.metar.biomart, java.compile.org.campagnelab.metar.biomart#3821621700600503340, java.compile.org.campagnelab.metar.biomartToR, java.compile.org.campagnelab.metar.biomartToR#548072407388513535, java.compile.org.campagnelab.metar.biomart.web, java.compile.org.campagnelab.metar.with.r, java.compile.org.campagnelab.metar.with.r#6508763087478316420" />
+  <target name="compileJava" depends="java.compile.java.modules.cycle.1, java.compile.org.campagnelab.metar.R, java.compile.org.campagnelab.metar.R#7627187573640569363, java.compile.org.campagnelab.metar.R.gen, java.compile.org.campagnelab.metar.r.parsers, java.compile.org.campagnelab.metar.r.stubs, java.compile.org.campagnelab.metar.R.plugin, java.compile.org.campagnelab.metar.functions.access, java.compile.org.campagnelab.metar.functions.access#1127749446836988002, java.compile.org.campagnelab.metar.models, java.compile.org.campagnelab.metar.models#5124039371743718191, java.compile.java.modules.cycle.2, java.compile.org.campagnelab.metar.code, java.compile.org.campagnelab.metar.code#6287645532292043083, java.compile.org.campagnelab.metar.functions.importing, java.compile.org.campagnelab.metar.functions.importing#8788797393879438827, java.compile.org.campagnelab.styles, java.compile.org.campagnelab.metar.tables, java.compile.org.campagnelab.metar.tables#3402264987258972825, java.compile.org.campagnelab.metar.edgeR, java.compile.org.campagnelab.metar.edgeR#8725455673819557209, java.compile.org.campagnelab.editor.images, java.compile.org.campagnelab.editor.images#1813939192108407208, java.compile.org.campagnelab.runR, java.compile.org.campagnelab.metar.accessories, java.compile.org.campagnelab.metar.accessories#8434387403773304096, java.compile.org.campagnelab.metar.inspect, java.compile.org.campagnelab.metar.inspect#1549006859295776220, java.compile.org.campagnelab.editor.csvviewer, java.compile.org.campagnelab.metar.limma, java.compile.org.campagnelab.metar.limma#5124039371745995804, java.compile.org.campagnelab.editor.plugins, java.compile.org.campagnelab.metar.simulation, java.compile.org.campagnelab.metar.simulation#2432807068409409065, java.compile.org.campagnelab.metar.biomart, java.compile.org.campagnelab.metar.biomart#3821621700600503340, java.compile.org.campagnelab.metar.biomartToR, java.compile.org.campagnelab.metar.biomartToR#548072407388513535, java.compile.org.campagnelab.metar.biomart.web, java.compile.org.campagnelab.metar.with.r, java.compile.org.campagnelab.metar.with.r#6508763087478316420" />
   
   <target name="processResources" />
   
@@ -2341,47 +2330,6 @@
     </javac>
     <copy todir="${build.tmp}/java/out/org.campagnelab.styles">
       <fileset dir="${basedir}/languages/org.campagnelab.styles/source_gen" excludes="**/*.java" />
-    </copy>
-  </target>
-  
-  <target name="java.compile.org.campagnelab.styles#5397636476160483701" depends="java.compile.org.campagnelab.styles, fetchDependencies">
-    <mkdir dir="${basedir}/languages/org.campagnelab.styles/generator/source_gen" />
-    <mkdir dir="${build.tmp}/java/out/org.campagnelab.styles#5397636476160483701" />
-    <javac destdir="${build.tmp}/java/out/org.campagnelab.styles#5397636476160483701" fork="true" includeantruntime="false" source="1.6" target="1.6">
-      <compilerarg value="-Xlint:none" />
-      <src>
-        <path location="${basedir}/languages/org.campagnelab.styles/generator/source_gen" />
-      </src>
-      <classpath>
-        <fileset file="${artifacts.mps}/lib/mps-behavior-api.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-behavior-runtime.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-closures.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-collections.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-openapi.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-core.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-tuples.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-editor-api.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-editor-runtime.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-editor.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-environment.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-platform.jar" />
-        <pathelement path="${build.tmp}/java/out/org.campagnelab.styles" />
-        <fileset file="${artifacts.mps}/lib/log4j.jar" />
-        <fileset file="${artifacts.mps}/lib/annotations.jar" />
-        <fileset file="${artifacts.mps}/lib/jdom.jar" />
-        <fileset file="${artifacts.mps}/lib/ecj-4.4.jar" />
-        <fileset file="${artifacts.mps}/lib/trove4j.jar" />
-        <fileset file="${artifacts.mps}/lib/xstream-1.4.3.jar" />
-        <fileset file="${artifacts.mps}/lib/asm-all.jar" />
-        <fileset file="${artifacts.mps}/lib/diffutils-1.2.1.jar" />
-        <fileset dir="${artifacts.mps}/lib" includes="*.jar" />
-        <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.core.jar" />
-        <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.scopes.runtime.jar" />
-        <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.structure.jar" />
-      </classpath>
-    </javac>
-    <copy todir="${build.tmp}/java/out/org.campagnelab.styles#5397636476160483701">
-      <fileset dir="${basedir}/languages/org.campagnelab.styles/generator/source_gen" excludes="**/*.java" />
     </copy>
   </target>
   

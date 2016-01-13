@@ -1114,11 +1114,6 @@
             <ref role="3bR37D" to="ffeo:1TaHNgiIbIQ" resolve="MPS.Core" />
           </node>
         </node>
-        <node concept="1yeLz9" id="7Mz7YANVbpe" role="1TViLv">
-          <property role="TrG5h" value="org.campagnelab.styles#5397636476160483701" />
-          <property role="3LESm3" value="f042addb-069e-46df-8cc4-bcb6366c9dfa" />
-          <property role="2GAjPV" value="false" />
-        </node>
       </node>
       <node concept="1E1JtD" id="3gMg70bRmfh" role="2G$12L">
         <property role="BnDLt" value="true" />
