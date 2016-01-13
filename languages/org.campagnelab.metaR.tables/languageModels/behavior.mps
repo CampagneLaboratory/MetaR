@@ -8866,26 +8866,6 @@
   </node>
   <node concept="13h7C7" id="7LvyiX4mijo">
     <ref role="13h7C2" to="jrxw:7LvyiX4mii$" resolve="Analysis" />
-    <node concept="13i0hz" id="7LvyiX4mik0" role="13h7CS">
-      <property role="TrG5h" value="getOutputFileName" />
-      <node concept="3Tm1VV" id="7LvyiX4mik1" role="1B3o_S" />
-      <node concept="17QB3L" id="7LvyiX4mik2" role="3clF45" />
-      <node concept="3clFbS" id="7LvyiX4mik3" role="3clF47">
-        <node concept="3clFbF" id="7LvyiX4mik4" role="3cqZAp">
-          <node concept="3cpWs3" id="7LvyiX4mik5" role="3clFbG">
-            <node concept="2OqwBi" id="7LvyiX4mik6" role="3uHU7B">
-              <node concept="13iPFW" id="7LvyiX4mik7" role="2Oq$k0" />
-              <node concept="3TrcHB" id="7LvyiX4mik8" role="2OqNvi">
-                <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
-              </node>
-            </node>
-            <node concept="Xl_RD" id="7LvyiX4mik9" role="3uHU7w">
-              <property role="Xl_RC" value="_script.R" />
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
     <node concept="13i0hz" id="7LvyiX4mika" role="13h7CS">
       <property role="TrG5h" value="dependencies" />
       <property role="13i0it" value="true" />
