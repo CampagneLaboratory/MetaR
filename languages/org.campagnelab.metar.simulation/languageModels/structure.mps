@@ -2,7 +2,7 @@
 <model ref="r:35e57e46-a34e-4190-bb18-c2596691e768(org.campagnelab.metar.simulation.structure)">
   <persistence version="9" />
   <languages>
-    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="-1" />
+    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="1" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -15,6 +15,7 @@
         <property id="4628067390765956807" name="final" index="R5$K2" />
         <property id="4628067390765956802" name="abstract" index="R5$K7" />
         <property id="5092175715804935370" name="conceptAlias" index="34LRSv" />
+        <property id="1587916991969465369" name="conceptId" index="1pbfSe" />
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
         <child id="1071489727084" name="propertyDeclaration" index="1TKVEl" />
       </concept>
@@ -45,6 +46,7 @@
   <node concept="1TIwiD" id="2734ievAyTY">
     <property role="TrG5h" value="SimulateDataset" />
     <property role="34LRSv" value="simulate dataset" />
+    <property role="1pbfSe" value="1050853471" />
     <ref role="1TJDcQ" to="jrxw:5Wt7RzzuILp" resolve="DataTableStatement" />
     <node concept="1TJgyj" id="2734ievAQvk" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -98,6 +100,7 @@
   </node>
   <node concept="1TIwiD" id="2734ievAOED">
     <property role="TrG5h" value="DiscreteFactor" />
+    <property role="1pbfSe" value="1050780724" />
     <ref role="1TJDcQ" node="2734ievAQvF" resolve="Factor" />
     <node concept="1TJgyi" id="7hF4JJ2OOEk" role="1TKVEl">
       <property role="TrG5h" value="percentageOfAffectedGenes" />
@@ -115,6 +118,7 @@
     <property role="TrG5h" value="Factor" />
     <property role="R5$K7" value="true" />
     <property role="R5$K2" value="false" />
+    <property role="1pbfSe" value="1050773234" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="2734ievAQvG" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
@@ -122,6 +126,7 @@
   </node>
   <node concept="1TIwiD" id="2734ievAQvI">
     <property role="TrG5h" value="CovariateFactor" />
+    <property role="1pbfSe" value="1050773231" />
     <ref role="1TJDcQ" node="2734ievAQvF" resolve="Factor" />
     <node concept="1TJgyi" id="2734ievCkLH" role="1TKVEl">
       <property role="TrG5h" value="lower_limit" />
@@ -138,6 +143,7 @@
   </node>
   <node concept="1TIwiD" id="7hF4JJ2JZdy">
     <property role="TrG5h" value="StringValue" />
+    <property role="1pbfSe" value="925566557" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="7hF4JJ2JZot" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
@@ -145,6 +151,7 @@
   </node>
   <node concept="1TIwiD" id="7hF4JJ2RXry">
     <property role="TrG5h" value="SampleNames" />
+    <property role="1pbfSe" value="927656413" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="7hF4JJ2RXEB" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -155,6 +162,7 @@
   </node>
   <node concept="1TIwiD" id="4CUtYZMZzi">
     <property role="TrG5h" value="SampleName" />
+    <property role="1pbfSe" value="1057693007" />
     <node concept="1TJgyj" id="4CUtYZMZzJ" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="treatments" />
@@ -168,10 +176,12 @@
   <node concept="1TIwiD" id="WAEVbt3F3q">
     <property role="TrG5h" value="CovariateTable" />
     <property role="19KtqR" value="true" />
+    <property role="1pbfSe" value="332047220" />
     <ref role="1TJDcQ" to="jrxw:2WRhvFtkykN" resolve="Table" />
   </node>
   <node concept="1TIwiD" id="oeXtRXmVOQ">
     <property role="TrG5h" value="CovariateTableRef" />
+    <property role="1pbfSe" value="57324307" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="oeXtRXnOb3" role="1TKVEi">
       <property role="20lmBu" value="reference" />

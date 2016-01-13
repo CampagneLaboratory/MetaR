@@ -3,7 +3,7 @@
   <persistence version="9" />
   <languages>
     <use id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior" version="-1" />
-    <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="-1" />
+    <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="2" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -119,10 +119,9 @@
       </concept>
       <concept id="5349172909345501395" name="jetbrains.mps.baseLanguage.javadoc.structure.BaseDocComment" flags="ng" index="P$AiS">
         <child id="8465538089690331502" name="body" index="TZ5H$" />
+        <child id="5383422241790532083" name="tags" index="3nqlJM" />
       </concept>
-      <concept id="5349172909345532724" name="jetbrains.mps.baseLanguage.javadoc.structure.MethodDocComment" flags="ng" index="P$JXv">
-        <child id="5858074156537516440" name="return" index="x79VK" />
-      </concept>
+      <concept id="5349172909345532724" name="jetbrains.mps.baseLanguage.javadoc.structure.MethodDocComment" flags="ng" index="P$JXv" />
       <concept id="8465538089690331500" name="jetbrains.mps.baseLanguage.javadoc.structure.CommentLine" flags="ng" index="TZ5HA">
         <child id="8970989240999019149" name="part" index="1dT_Ay" />
       </concept>
@@ -617,7 +616,7 @@
             <property role="1dT_AB" value="interested in." />
           </node>
         </node>
-        <node concept="x79VA" id="4ssfE$bsSFG" role="x79VK">
+        <node concept="x79VA" id="4ssfE$bsSFG" role="3nqlJM">
           <property role="x79VB" value="sequence of usage types" />
         </node>
       </node>
@@ -824,7 +823,7 @@
             <property role="1dT_AB" value="Determine if the formula model has an intercept." />
           </node>
         </node>
-        <node concept="x79VA" id="4ssfE$7VtRK" role="x79VK">
+        <node concept="x79VA" id="4ssfE$7VtRK" role="3nqlJM">
           <property role="x79VB" value="True when the model has an intercept, false otherwise." />
         </node>
       </node>
@@ -866,7 +865,7 @@
             <property role="1dT_AB" value="Determine if the formula has only one factor" />
           </node>
         </node>
-        <node concept="x79VA" id="4ssfE$7VtS4" role="x79VK">
+        <node concept="x79VA" id="4ssfE$7VtS4" role="3nqlJM">
           <property role="x79VB" value="True when the formula contains a single factor, false otherwise." />
         </node>
       </node>
@@ -943,7 +942,7 @@
             <property role="1dT_AB" value="Determine if the formula has only one factor" />
           </node>
         </node>
-        <node concept="x79VA" id="2Fam2pk57g$" role="x79VK">
+        <node concept="x79VA" id="2Fam2pk57g$" role="3nqlJM">
           <property role="x79VB" value="True when the formula contains a single factor, false otherwise." />
         </node>
       </node>
@@ -1163,7 +1162,7 @@
             <property role="1dT_AB" value="not interested in. They are just covariates whose effect should be removed." />
           </node>
         </node>
-        <node concept="x79VA" id="4ssfE$bsMeW" role="x79VK">
+        <node concept="x79VA" id="4ssfE$bsMeW" role="3nqlJM">
           <property role="x79VB" value="sequence of usage types" />
         </node>
       </node>

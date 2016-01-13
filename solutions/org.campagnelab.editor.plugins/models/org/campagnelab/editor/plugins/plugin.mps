@@ -4,28 +4,28 @@
   <languages>
     <use id="28f9e497-3b42-4291-aeba-0a1039153ab1" name="jetbrains.mps.lang.plugin" version="-1" />
     <use id="ef7bf5ac-d06c-4342-b11d-e42104eb9343" name="jetbrains.mps.lang.plugin.standalone" version="-1" />
-    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="-1" />
     <use id="63650c59-16c8-498a-99c8-005c7ee9515d" name="jetbrains.mps.lang.access" version="-1" />
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="-1" />
     <use id="443f4c36-fcf5-4eb6-9500-8d06ed259e3e" name="jetbrains.mps.baseLanguage.classifiers" version="-1" />
     <use id="982eb8df-2c96-4bd7-9963-11712ea622e5" name="jetbrains.mps.lang.resources" version="-1" />
     <use id="760a0a8c-eabb-4521-8bfd-65db761a9ba3" name="jetbrains.mps.baseLanguage.logging" version="-1" />
     <use id="5d6bde84-4ce4-4eb5-a37e-25a5edd55129" name="org.campagnelab.metar.tables" version="1" />
+    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="2" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="4" />
   </languages>
   <imports>
-    <import index="dbrf" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#javax.swing(JDK/javax.swing@java_stub)" />
+    <import index="dxuu" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:javax.swing(JDK/)" />
     <import index="zmoq" ref="r:7c74f1be-d41f-4e06-99df-d66efb09414c(org.campagnelab.editor.csvviewer.loader)" />
     <import index="jrxw" ref="r:9f2bbfbf-f8b7-4b3b-92b1-b6a0e9642c10(org.campagnelab.metar.tables.structure)" />
-    <import index="nx1" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/f:java_stub#498d89d2-c2e9-11e2-ad49-6cf049e62fe5#com.intellij.openapi.actionSystem(MPS.IDEA/com.intellij.openapi.actionSystem@java_stub)" />
+    <import index="qkt" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.openapi.actionSystem(MPS.IDEA/)" />
     <import index="ekwn" ref="r:9832fb5f-2578-4b58-8014-a5de79da988e(jetbrains.mps.ide.editor.actions)" />
-    <import index="1t7x" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.awt(JDK/java.awt@java_stub)" />
-    <import index="fxg7" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.io(JDK/java.io@java_stub)" />
-    <import index="e2lb" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" />
+    <import index="z60i" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.awt(JDK/)" />
+    <import index="guwi" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" />
+    <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" />
     <import index="v8sa" ref="r:db1b133e-9a0f-4319-b384-413408eb1729(org.campagnelab.metar.tables.behavior)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
-    <import index="tprs" ref="r:00000000-0000-4000-0000-011c895904a4(jetbrains.mps.ide.actions)" implicit="true" />
-    <import index="jwd7" ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61/f:java_stub#742f6602-5a2f-4313-aa6e-ae1cd4ffdc61#jetbrains.mps.ide.tools(MPS.Platform/jetbrains.mps.ide.tools@java_stub)" implicit="true" />
     <import index="ztlb" ref="r:989540b8-cc89-4ed5-ba78-cf2ce766b8ce(org.campagnelab.mps.XChart.structure)" implicit="true" />
+    <import index="71xd" ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61/java:jetbrains.mps.ide.tools(MPS.Platform/)" implicit="true" />
+    <import index="tprs" ref="r:00000000-0000-4000-0000-011c895904a4(jetbrains.mps.ide.actions)" implicit="true" />
   </imports>
   <registry>
     <language id="982eb8df-2c96-4bd7-9963-11712ea622e5" name="jetbrains.mps.lang.resources">
@@ -328,7 +328,7 @@
       <property role="TrG5h" value="csvPanel" />
       <node concept="3Tm6S6" id="7iuWixLLfuI" role="1B3o_S" />
       <node concept="3uibUv" id="1AcOLpa528a" role="1tU5fm">
-        <ref role="3uigEE" to="dbrf:~JPanel" resolve="JPanel" />
+        <ref role="3uigEE" to="dxuu:~JPanel" resolve="JPanel" />
       </node>
     </node>
     <node concept="1QGGSu" id="7iuWixLM6t_" role="1nVCmq">
@@ -342,7 +342,7 @@
               <node concept="3cpWsn" id="5otE$fwrZiq" role="3cpWs9">
                 <property role="TrG5h" value="container" />
                 <node concept="3uibUv" id="5otE$fwrZir" role="1tU5fm">
-                  <ref role="3uigEE" to="1t7x:~Container" resolve="Container" />
+                  <ref role="3uigEE" to="z60i:~Container" resolve="Container" />
                 </node>
                 <node concept="2OqwBi" id="5otE$fwrZis" role="33vP2m">
                   <node concept="2OqwBi" id="5otE$fwrZit" role="2Oq$k0">
@@ -352,7 +352,7 @@
                     </node>
                   </node>
                   <node concept="liA8E" id="5otE$fwrZiw" role="2OqNvi">
-                    <ref role="37wK5l" to="1t7x:~Component.getParent():java.awt.Container" resolve="getParent" />
+                    <ref role="37wK5l" to="z60i:~Component.getParent():java.awt.Container" resolve="getParent" />
                   </node>
                 </node>
               </node>
@@ -365,7 +365,7 @@
                       <ref role="3cqZAo" node="5otE$fwrZiq" resolve="container" />
                     </node>
                     <node concept="liA8E" id="5otE$fws3iM" role="2OqNvi">
-                      <ref role="37wK5l" to="1t7x:~Container.remove(java.awt.Component):void" resolve="remove" />
+                      <ref role="37wK5l" to="z60i:~Container.remove(java.awt.Component):void" resolve="remove" />
                       <node concept="2OqwBi" id="5otE$fws3iN" role="37wK5m">
                         <node concept="2WthIp" id="5otE$fws3iO" role="2Oq$k0" />
                         <node concept="2BZ7hE" id="7iuWixLROz5" role="2OqNvi">
@@ -452,7 +452,7 @@
     </node>
     <node concept="1DS2jV" id="7LWFAMfAqWL" role="1NuT2Z">
       <property role="TrG5h" value="project" />
-      <ref role="1DUlNI" to="nx1:~CommonDataKeys.PROJECT" resolve="PROJECT" />
+      <ref role="1DUlNI" to="qkt:~CommonDataKeys.PROJECT" resolve="PROJECT" />
       <node concept="1oajcY" id="7HZe2EwZDjq" role="1oa70y" />
     </node>
     <node concept="tnohg" id="7iuWixLMztn" role="tncku">
@@ -498,7 +498,7 @@
               <ref role="3cqZAo" node="7iuWixLME7D" resolve="tool" />
             </node>
             <node concept="liA8E" id="7LWFAMfAqWI" role="2OqNvi">
-              <ref role="37wK5l" to="jwd7:~BaseTool.openToolLater(boolean):void" resolve="openToolLater" />
+              <ref role="37wK5l" to="71xd:~BaseTool.openToolLater(boolean):void" resolve="openToolLater" />
               <node concept="3clFbT" id="7LWFAMfAqWJ" role="37wK5m">
                 <property role="3clFbU" value="true" />
               </node>
@@ -537,7 +537,7 @@
               <node concept="2OqwBi" id="oeXtRX5M5B" role="3cqZAk">
                 <node concept="2ShNRf" id="oeXtRX5M5C" role="2Oq$k0">
                   <node concept="1pGfFk" id="oeXtRX5M5D" role="2ShVmc">
-                    <ref role="37wK5l" to="fxg7:~File.&lt;init&gt;(java.lang.String)" resolve="File" />
+                    <ref role="37wK5l" to="guwi:~File.&lt;init&gt;(java.lang.String)" resolve="File" />
                     <node concept="2OqwBi" id="oeXtRX5M5E" role="37wK5m">
                       <node concept="2OqwBi" id="oeXtRX5M5F" role="2Oq$k0">
                         <node concept="2WthIp" id="oeXtRX5M5G" role="2Oq$k0" />
@@ -557,7 +557,7 @@
                   </node>
                 </node>
                 <node concept="liA8E" id="oeXtRX5M5K" role="2OqNvi">
-                  <ref role="37wK5l" to="fxg7:~File.exists():boolean" resolve="exists" />
+                  <ref role="37wK5l" to="guwi:~File.exists():boolean" resolve="exists" />
                 </node>
               </node>
             </node>
@@ -573,7 +573,7 @@
             <node concept="3cpWsn" id="oeXtRX5Jqb" role="TDEfY">
               <property role="TrG5h" value="npe" />
               <node concept="3uibUv" id="oeXtRX5Kai" role="1tU5fm">
-                <ref role="3uigEE" to="e2lb:~NullPointerException" resolve="NullPointerException" />
+                <ref role="3uigEE" to="wyt6:~NullPointerException" resolve="NullPointerException" />
               </node>
             </node>
           </node>

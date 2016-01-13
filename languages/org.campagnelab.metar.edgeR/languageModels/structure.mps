@@ -2,7 +2,7 @@
 <model ref="r:b5f8abba-ade6-48ed-8b03-df617183a3f0(org.campagnelab.metar.edgeR.structure)">
   <persistence version="9" />
   <languages>
-    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="-1" />
+    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="1" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -20,6 +20,7 @@
         <property id="4628067390765956807" name="final" index="R5$K2" />
         <property id="4628067390765956802" name="abstract" index="R5$K7" />
         <property id="5092175715804935370" name="conceptAlias" index="34LRSv" />
+        <property id="1587916991969465369" name="conceptId" index="1pbfSe" />
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
       </concept>
       <concept id="1169127622168" name="jetbrains.mps.lang.structure.structure.InterfaceConceptReference" flags="ig" index="PrWs8">
@@ -50,6 +51,7 @@
     <property role="TrG5h" value="EdgeRTest" />
     <property role="34LRSv" value="edgeR" />
     <property role="R4oN_" value="Test of significance with edgeR" />
+    <property role="1pbfSe" value="780499583" />
     <ref role="1TJDcQ" to="jrxw:7LvyiX4miiC" resolve="Statement" />
     <node concept="1TJgyj" id="7$n2ViPrDvn" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -99,6 +101,7 @@
     <property role="R5$K7" value="true" />
     <property role="R5$K2" value="false" />
     <property role="3GE5qa" value="dispersions" />
+    <property role="1pbfSe" value="781744675" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
   </node>
   <node concept="1TIwiD" id="7$n2ViPwmVN">
@@ -106,6 +109,7 @@
     <property role="TrG5h" value="TrendedDispersion" />
     <property role="34LRSv" value="trended dispersion" />
     <property role="R4oN_" value="Estimate dispersion with possible abundance trend" />
+    <property role="1pbfSe" value="781744807" />
     <ref role="1TJDcQ" node="7$n2ViPwmTJ" resolve="DispersionMethod" />
   </node>
   <node concept="1TIwiD" id="7$n2ViPwmW_">
@@ -113,6 +117,7 @@
     <property role="TrG5h" value="TagWiseDispersion" />
     <property role="34LRSv" value="tagwise dispersion" />
     <property role="R4oN_" value="Tagwise (gene-level) dispersion estimation" />
+    <property role="1pbfSe" value="781744857" />
     <ref role="1TJDcQ" node="7$n2ViPwmTJ" resolve="DispersionMethod" />
   </node>
   <node concept="1TIwiD" id="7$n2ViPw_yM">
@@ -120,12 +125,14 @@
     <property role="TrG5h" value="CommonDispersion" />
     <property role="34LRSv" value="common dispersion" />
     <property role="R4oN_" value="Common (across genes) dispersion estimation" />
+    <property role="1pbfSe" value="781804646" />
     <ref role="1TJDcQ" node="7$n2ViPwmTJ" resolve="DispersionMethod" />
   </node>
   <node concept="1TIwiD" id="6XP3gVdFYnx">
     <property role="3GE5qa" value="contrasts" />
     <property role="TrG5h" value="ContrastMinus" />
     <property role="34LRSv" value="-" />
+    <property role="1pbfSe" value="1025831663" />
     <ref role="1TJDcQ" node="6XP3gVdFeF_" resolve="ContrastsBinaryOperator" />
     <node concept="asaX9" id="4ssfE$c_KDq" role="lGtFl" />
   </node>
@@ -134,6 +141,7 @@
     <property role="3GE5qa" value="contrasts" />
     <property role="R5$K7" value="true" />
     <property role="R5$K2" value="false" />
+    <property role="1pbfSe" value="1025636339" />
     <ref role="1TJDcQ" node="6YxFsIJz6MA" resolve="GroupExpression" />
     <node concept="1TJgyj" id="6XP3gVdFeGp" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -155,12 +163,14 @@
     <property role="R5$K7" value="true" />
     <property role="R5$K2" value="false" />
     <property role="3GE5qa" value="contrasts" />
+    <property role="1pbfSe" value="523115121" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="asaX9" id="4ssfE$c_Heo" role="lGtFl" />
   </node>
   <node concept="1TIwiD" id="6YxFsIJz7eH">
     <property role="TrG5h" value="GroupRef" />
     <property role="3GE5qa" value="contrasts" />
+    <property role="1pbfSe" value="523116920" />
     <ref role="1TJDcQ" node="6YxFsIJz6MA" resolve="GroupExpression" />
     <node concept="1TJgyj" id="6YxFsIJz7eI" role="1TKVEi">
       <property role="20lmBu" value="reference" />
@@ -175,6 +185,7 @@
     <property role="TrG5h" value="Mean" />
     <property role="R4oN_" value="consider the estimate of the average in the groups/factor levels" />
     <property role="34LRSv" value="mean" />
+    <property role="1pbfSe" value="1025642404" />
     <ref role="1TJDcQ" node="6YxFsIJz6MA" resolve="GroupExpression" />
     <node concept="1TJgyj" id="6XP3gVdFgan" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -189,6 +200,7 @@
     <property role="R5$K7" value="true" />
     <property role="R5$K2" value="false" />
     <property role="3GE5qa" value="formula" />
+    <property role="1pbfSe" value="781278289" />
     <ref role="1TJDcQ" node="7$n2ViPsYFs" resolve="GroupUsageExpression" />
     <node concept="1TJgyj" id="7$n2ViPu_2$" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -208,6 +220,7 @@
     <property role="TrG5h" value="GroupFormula" />
     <property role="34LRSv" value="~" />
     <property role="3GE5qa" value="formula" />
+    <property role="1pbfSe" value="780858858" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="7$n2ViPsYCU" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -223,12 +236,14 @@
     <property role="R5$K2" value="false" />
     <property role="R4oN_" value="Linear equation where variables are group usage/R factors." />
     <property role="3GE5qa" value="formula" />
+    <property role="1pbfSe" value="780859024" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="asaX9" id="4ssfE$c_KDk" role="lGtFl" />
   </node>
   <node concept="1TIwiD" id="7$n2ViPsYCR">
     <property role="TrG5h" value="GroupUsageRef" />
     <property role="3GE5qa" value="formula" />
+    <property role="1pbfSe" value="780858859" />
     <ref role="1TJDcQ" node="7$n2ViPsYFs" resolve="GroupUsageExpression" />
     <node concept="1TJgyj" id="7$n2ViPsYCS" role="1TKVEi">
       <property role="20lmBu" value="reference" />
@@ -242,6 +257,7 @@
     <property role="TrG5h" value="Minus" />
     <property role="34LRSv" value="-" />
     <property role="3GE5qa" value="formula" />
+    <property role="1pbfSe" value="781890384" />
     <ref role="1TJDcQ" node="7$n2ViPu_2t" resolve="BinaryExpression" />
     <node concept="asaX9" id="4ssfE$c_KDg" role="lGtFl" />
   </node>
@@ -249,6 +265,7 @@
     <property role="TrG5h" value="NoIntercept" />
     <property role="34LRSv" value="no intercept" />
     <property role="3GE5qa" value="formula" />
+    <property role="1pbfSe" value="781402194" />
     <ref role="1TJDcQ" node="7$n2ViPsYFs" resolve="GroupUsageExpression" />
     <node concept="asaX9" id="4ssfE$c_KDc" role="lGtFl" />
   </node>
@@ -256,6 +273,7 @@
     <property role="TrG5h" value="Plus" />
     <property role="34LRSv" value="+" />
     <property role="3GE5qa" value="formula" />
+    <property role="1pbfSe" value="780859025" />
     <ref role="1TJDcQ" node="7$n2ViPu_2t" resolve="BinaryExpression" />
     <node concept="asaX9" id="4ssfE$c_KDa" role="lGtFl" />
   </node>
@@ -263,6 +281,7 @@
     <property role="TrG5h" value="Times" />
     <property role="34LRSv" value="*" />
     <property role="3GE5qa" value="formula" />
+    <property role="1pbfSe" value="780859031" />
     <ref role="1TJDcQ" node="7$n2ViPu_2t" resolve="BinaryExpression" />
     <node concept="asaX9" id="4ssfE$c_KDe" role="lGtFl" />
   </node>

@@ -2,7 +2,7 @@
 <model ref="r:b81182ba-13d2-441a-9b65-76fe2bd96f30(org.campagnelab.styles.structure)">
   <persistence version="9" />
   <languages>
-    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="-1" />
+    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="1" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -15,6 +15,7 @@
         <property id="4628067390765956807" name="final" index="R5$K2" />
         <property id="4628067390765956802" name="abstract" index="R5$K7" />
         <property id="5092175715804935370" name="conceptAlias" index="34LRSv" />
+        <property id="1587916991969465369" name="conceptId" index="1pbfSe" />
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
         <child id="1071489727084" name="propertyDeclaration" index="1TKVEl" />
       </concept>
@@ -51,6 +52,7 @@
   </registry>
   <node concept="PlHQZ" id="4FCgsrOfk9w">
     <property role="TrG5h" value="UseStyle" />
+    <property role="1pbfSe" value="1059423270" />
     <node concept="1TJgyj" id="32mm9410GdM" role="1TKVEi">
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="useStyle" />
@@ -62,6 +64,7 @@
     <property role="19KtqR" value="true" />
     <property role="MwhBj" value="${module}/icons/styles-2.png" />
     <property role="34LRSv" value="Style" />
+    <property role="1pbfSe" value="1059459220" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="4FCgsrOgnEU" role="1TKVEi">
       <property role="20lmBu" value="reference" />
@@ -82,6 +85,7 @@
   <node concept="PlHQZ" id="4FCgsrOfuu0">
     <property role="TrG5h" value="StyleElement" />
     <property role="3GE5qa" value="" />
+    <property role="1pbfSe" value="1059465542" />
     <node concept="PrWs8" id="4FCgsrOfuu1" role="PrDN$">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
@@ -90,18 +94,21 @@
     <property role="TrG5h" value="XLabel" />
     <property role="34LRSv" value="X label" />
     <property role="3GE5qa" value="elements.strings" />
+    <property role="1pbfSe" value="1062135957" />
     <ref role="1TJDcQ" node="4FCgsrO$58w" resolve="StringStyleClass" />
   </node>
   <node concept="1TIwiD" id="4FCgsrOzJDD">
     <property role="TrG5h" value="YLabel" />
     <property role="34LRSv" value="Y label" />
     <property role="3GE5qa" value="elements.strings" />
+    <property role="1pbfSe" value="1064778799" />
     <ref role="1TJDcQ" node="4FCgsrO$58w" resolve="StringStyleClass" />
   </node>
   <node concept="1TIwiD" id="4FCgsrO$3l6">
     <property role="3GE5qa" value="elements.strings" />
     <property role="TrG5h" value="Title" />
     <property role="34LRSv" value="Title" />
+    <property role="1pbfSe" value="1064859404" />
     <ref role="1TJDcQ" node="4FCgsrO$58w" resolve="StringStyleClass" />
   </node>
   <node concept="1TIwiD" id="4FCgsrO$58w">
@@ -109,6 +116,7 @@
     <property role="TrG5h" value="StringStyleClass" />
     <property role="R5$K7" value="true" />
     <property role="R5$K2" value="false" />
+    <property role="1pbfSe" value="1064866790" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="4FCgsrO$58x" role="1TKVEl">
       <property role="TrG5h" value="value" />
@@ -123,6 +131,7 @@
     <property role="TrG5h" value="RangeStyleClass" />
     <property role="R5$K7" value="true" />
     <property role="R5$K2" value="false" />
+    <property role="1pbfSe" value="1064912537" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="4FCgsrO$i5Y" role="1TKVEl">
       <property role="TrG5h" value="min" />
@@ -140,12 +149,14 @@
     <property role="3GE5qa" value="elements.ranges" />
     <property role="TrG5h" value="XRange" />
     <property role="34LRSv" value="X range" />
+    <property role="1pbfSe" value="1064973083" />
     <ref role="1TJDcQ" node="4FCgsrO$gjj" resolve="RangeStyleClass" />
   </node>
   <node concept="1TIwiD" id="4FCgsrO$wBa">
     <property role="3GE5qa" value="elements.ranges" />
     <property role="TrG5h" value="YRange" />
     <property role="34LRSv" value="Y range" />
+    <property role="1pbfSe" value="1064979344" />
     <ref role="1TJDcQ" node="4FCgsrO$gjj" resolve="RangeStyleClass" />
   </node>
   <node concept="1TIwiD" id="32mm940cvTX">
@@ -153,6 +164,7 @@
     <property role="TrG5h" value="IntegerStyleClass" />
     <property role="R5$K7" value="true" />
     <property role="R5$K2" value="false" />
+    <property role="1pbfSe" value="818435854" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="32mm940cvV5" role="PzmwI">
       <ref role="PrY4T" node="4FCgsrOfuu0" resolve="StyleElement" />
@@ -166,18 +178,21 @@
     <property role="3GE5qa" value="elements.ints" />
     <property role="TrG5h" value="Width" />
     <property role="34LRSv" value="Width" />
+    <property role="1pbfSe" value="818441911" />
     <ref role="1TJDcQ" node="32mm940cvTX" resolve="IntegerStyleClass" />
   </node>
   <node concept="1TIwiD" id="32mm940c_rd">
     <property role="3GE5qa" value="elements.ints" />
     <property role="TrG5h" value="Height" />
     <property role="34LRSv" value="Height" />
+    <property role="1pbfSe" value="818458462" />
     <ref role="1TJDcQ" node="32mm940cvTX" resolve="IntegerStyleClass" />
   </node>
   <node concept="1TIwiD" id="20o901rbdSG">
     <property role="3GE5qa" value="elements.colors" />
     <property role="TrG5h" value="Color" />
     <property role="34LRSv" value="Color" />
+    <property role="1pbfSe" value="2068120108" />
     <ref role="1TJDcQ" node="3i6SF3pDNRT" resolve="ColorStyleClass" />
     <node concept="1TJgyi" id="1xsIq4ftsG" role="1TKVEl">
       <property role="TrG5h" value="select" />
@@ -199,6 +214,7 @@
     <property role="TrG5h" value="ColorValue" />
     <property role="R5$K2" value="false" />
     <property role="R5$K7" value="true" />
+    <property role="1pbfSe" value="2068121178" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="20o901rp02H" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
@@ -208,6 +224,7 @@
     <property role="3GE5qa" value="elements.ints" />
     <property role="TrG5h" value="PixelsPerInch" />
     <property role="34LRSv" value="Pixels per inch" />
+    <property role="1pbfSe" value="836388725" />
     <ref role="1TJDcQ" node="32mm940cvTX" resolve="IntegerStyleClass" />
   </node>
   <node concept="1TIwiD" id="3i6SF3pDNRT">
@@ -215,6 +232,7 @@
     <property role="TrG5h" value="ColorStyleClass" />
     <property role="R5$K7" value="true" />
     <property role="R5$K2" value="false" />
+    <property role="1pbfSe" value="237904041" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="3i6SF3pDNSp" role="PzmwI">
       <ref role="PrY4T" node="4FCgsrOfuu0" resolve="StyleElement" />
@@ -225,6 +243,7 @@
     <property role="TrG5h" value="ColorValueByRGB" />
     <property role="34LRSv" value="#" />
     <property role="R4oN_" value="#RRGGBB" />
+    <property role="1pbfSe" value="2072776687" />
     <ref role="1TJDcQ" node="20o901rbe9q" resolve="ColorValue" />
   </node>
   <node concept="1TIwiD" id="1xsIq45q0b">
@@ -233,6 +252,7 @@
     <property role="19KtqR" value="true" />
     <property role="34LRSv" value="Color by Name" />
     <property role="MwhBj" value="${module}/icons/color.png" />
+    <property role="1pbfSe" value="2072571151" />
     <ref role="1TJDcQ" node="20o901rbe9q" resolve="ColorValue" />
   </node>
   <node concept="1TIwiD" id="1xsIq45ZRi">
@@ -241,6 +261,7 @@
     <property role="19KtqR" value="true" />
     <property role="34LRSv" value="Color Palette" />
     <property role="MwhBj" value="${module}/icons/palette.png" />
+    <property role="1pbfSe" value="2072416072" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="1xsIq45ZRl" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -256,6 +277,7 @@
     <property role="3GE5qa" value="elements.colors" />
     <property role="TrG5h" value="ColorPaletteRef" />
     <property role="34LRSv" value="Color palette" />
+    <property role="1pbfSe" value="2069071716" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="1xsIq4iKmT" role="1TKVEi">
       <property role="20lmBu" value="reference" />
@@ -271,6 +293,7 @@
     <property role="TrG5h" value="BooleanStyleClass" />
     <property role="R5$K7" value="true" />
     <property role="R5$K2" value="false" />
+    <property role="1pbfSe" value="1507149100" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="2od$re07iA1" role="1TKVEl">
       <property role="TrG5h" value="value" />
@@ -284,12 +307,14 @@
     <property role="3GE5qa" value="elements.booleans" />
     <property role="TrG5h" value="DrawBorder" />
     <property role="34LRSv" value="Draw border" />
+    <property role="1pbfSe" value="1507141626" />
     <ref role="1TJDcQ" node="2od$re07i$x" resolve="BooleanStyleClass" />
   </node>
   <node concept="1TIwiD" id="2od$re0qni_">
     <property role="3GE5qa" value="elements.colors" />
     <property role="TrG5h" value="BorderColor" />
     <property role="34LRSv" value="Border color" />
+    <property role="1pbfSe" value="1502149032" />
     <ref role="1TJDcQ" node="20o901rbdSG" resolve="Color" />
   </node>
 </model>

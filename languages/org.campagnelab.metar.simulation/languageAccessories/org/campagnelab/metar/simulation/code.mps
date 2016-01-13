@@ -2,12 +2,12 @@
 <model ref="r:637d8b81-9211-452d-b50c-8c3ffbba4259(org.campagnelab.metar.simulation.code)">
   <persistence version="9" />
   <languages>
-    <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="-1" />
+    <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="2" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
-    <import index="k7g3" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.util(JDK/java.util@java_stub)" />
-    <import index="e2lb" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" />
+    <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" />
+    <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -166,11 +166,9 @@
       </concept>
       <concept id="5349172909345501395" name="jetbrains.mps.baseLanguage.javadoc.structure.BaseDocComment" flags="ng" index="P$AiS">
         <child id="8465538089690331502" name="body" index="TZ5H$" />
+        <child id="5383422241790532083" name="tags" index="3nqlJM" />
       </concept>
-      <concept id="5349172909345532724" name="jetbrains.mps.baseLanguage.javadoc.structure.MethodDocComment" flags="ng" index="P$JXv">
-        <child id="5858074156537516440" name="return" index="x79VK" />
-        <child id="8465538089690917625" name="param" index="TUOzN" />
-      </concept>
+      <concept id="5349172909345532724" name="jetbrains.mps.baseLanguage.javadoc.structure.MethodDocComment" flags="ng" index="P$JXv" />
       <concept id="8465538089690881930" name="jetbrains.mps.baseLanguage.javadoc.structure.ParameterBlockDocTag" flags="ng" index="TUZQ0">
         <property id="8465538089690881934" name="text" index="TUZQ4" />
         <child id="6832197706140518123" name="parameter" index="zr_5Q" />
@@ -211,12 +209,12 @@
       <property role="2dld4O" value="false" />
       <property role="IEkAT" value="false" />
       <node concept="3uibUv" id="4lfKH_J2ZH6" role="1tU5fm">
-        <ref role="3uigEE" to="k7g3:~Random" resolve="Random" />
+        <ref role="3uigEE" to="33ny:~Random" resolve="Random" />
       </node>
       <node concept="3Tm6S6" id="4lfKH_J2ZH5" role="1B3o_S" />
       <node concept="2ShNRf" id="4lfKH_J2ZU8" role="33vP2m">
         <node concept="1pGfFk" id="4lfKH_J2ZQm" role="2ShVmc">
-          <ref role="37wK5l" to="k7g3:~Random.&lt;init&gt;(long)" resolve="Random" />
+          <ref role="37wK5l" to="33ny:~Random.&lt;init&gt;(long)" resolve="Random" />
           <node concept="3cmrfG" id="4lfKH_J30jF" role="37wK5m">
             <property role="3cmrfH" value="475647564" />
           </node>
@@ -253,16 +251,16 @@
             <property role="3TUv4t" value="false" />
             <property role="TrG5h" value="set" />
             <node concept="3uibUv" id="4lfKH_ITmb1" role="1tU5fm">
-              <ref role="3uigEE" to="k7g3:~Set" resolve="Set" />
+              <ref role="3uigEE" to="33ny:~Set" resolve="Set" />
               <node concept="3uibUv" id="4lfKH_ITmb2" role="11_B2D">
-                <ref role="3uigEE" to="e2lb:~Integer" resolve="Integer" />
+                <ref role="3uigEE" to="wyt6:~Integer" resolve="Integer" />
               </node>
             </node>
             <node concept="2ShNRf" id="4lfKH_ITmb3" role="33vP2m">
               <node concept="1pGfFk" id="4lfKH_ITmb4" role="2ShVmc">
-                <ref role="37wK5l" to="k7g3:~HashSet.&lt;init&gt;()" resolve="HashSet" />
+                <ref role="37wK5l" to="33ny:~HashSet.&lt;init&gt;()" resolve="HashSet" />
                 <node concept="3uibUv" id="4lfKH_ITmb5" role="1pMfVU">
-                  <ref role="3uigEE" to="e2lb:~Integer" resolve="Integer" />
+                  <ref role="3uigEE" to="wyt6:~Integer" resolve="Integer" />
                 </node>
               </node>
             </node>
@@ -279,7 +277,7 @@
                     <ref role="3cqZAo" node="4lfKH_J2ZH3" resolve="random" />
                   </node>
                   <node concept="liA8E" id="4lfKH_J1yz_" role="2OqNvi">
-                    <ref role="37wK5l" to="k7g3:~Random.nextDouble():double" resolve="nextDouble" />
+                    <ref role="37wK5l" to="33ny:~Random.nextDouble():double" resolve="nextDouble" />
                   </node>
                 </node>
               </node>
@@ -292,7 +290,7 @@
                       <ref role="3cqZAo" node="4lfKH_ITmb0" resolve="set" />
                     </node>
                     <node concept="liA8E" id="4lfKH_ITvp4" role="2OqNvi">
-                      <ref role="37wK5l" to="k7g3:~Set.add(java.lang.Object):boolean" resolve="add" />
+                      <ref role="37wK5l" to="33ny:~Set.add(java.lang.Object):boolean" resolve="add" />
                       <node concept="37vLTw" id="4lfKH_ITvsH" role="37wK5m">
                         <ref role="3cqZAo" node="4lfKH_ITmga" resolve="i" />
                       </node>
@@ -345,7 +343,7 @@
                       <ref role="3cqZAo" node="4lfKH_ITmb0" resolve="set" />
                     </node>
                     <node concept="liA8E" id="4lfKH_IUO8W" role="2OqNvi">
-                      <ref role="37wK5l" to="k7g3:~Set.size():int" resolve="size" />
+                      <ref role="37wK5l" to="33ny:~Set.size():int" resolve="size" />
                     </node>
                   </node>
                 </node>
@@ -415,19 +413,19 @@
             <property role="1dT_AB" value="Generates a percentage of indexes uniformly distributed between 1 and maxIndex" />
           </node>
         </node>
-        <node concept="TUZQ0" id="4lfKH_IVsf8" role="TUOzN">
+        <node concept="TUZQ0" id="4lfKH_IVsf8" role="3nqlJM">
           <property role="TUZQ4" value="max index" />
           <node concept="zr_55" id="4lfKH_IVsfa" role="zr_5Q">
             <ref role="zr_51" node="4lfKH_IThm8" resolve="maxIndex" />
           </node>
         </node>
-        <node concept="TUZQ0" id="4lfKH_IVsfb" role="TUOzN">
+        <node concept="TUZQ0" id="4lfKH_IVsfb" role="3nqlJM">
           <property role="TUZQ4" value="percetage of indexes to consider" />
           <node concept="zr_55" id="4lfKH_IVsfd" role="zr_5Q">
             <ref role="zr_51" node="4lfKH_IThmm" resolve="perc" />
           </node>
         </node>
-        <node concept="x79VA" id="4lfKH_IVsfe" role="x79VK">
+        <node concept="x79VA" id="4lfKH_IVsfe" role="3nqlJM">
           <property role="x79VB" value="selected index" />
         </node>
       </node>
@@ -443,11 +441,11 @@
       <property role="eg7rD" value="false" />
       <property role="IEkAT" value="false" />
       <node concept="3uibUv" id="oeXtRXKtqL" role="1tU5fm">
-        <ref role="3uigEE" to="k7g3:~Random" resolve="Random" />
+        <ref role="3uigEE" to="33ny:~Random" resolve="Random" />
       </node>
       <node concept="2ShNRf" id="oeXtRXKtqN" role="33vP2m">
         <node concept="1pGfFk" id="oeXtRXKtqO" role="2ShVmc">
-          <ref role="37wK5l" to="k7g3:~Random.&lt;init&gt;(long)" resolve="Random" />
+          <ref role="37wK5l" to="33ny:~Random.&lt;init&gt;(long)" resolve="Random" />
           <node concept="3cmrfG" id="oeXtRXKtqP" role="37wK5m">
             <property role="3cmrfH" value="5623849" />
           </node>
@@ -518,13 +516,13 @@
           </node>
           <node concept="1dT_AC" id="oeXtRXKwro" role="1dT_Ay" />
         </node>
-        <node concept="TUZQ0" id="oeXtRXKwrp" role="TUOzN">
+        <node concept="TUZQ0" id="oeXtRXKwrp" role="3nqlJM">
           <property role="TUZQ4" value="min value" />
           <node concept="zr_55" id="oeXtRXKwrr" role="zr_5Q">
             <ref role="zr_51" node="oeXtRXKtfo" resolve="min" />
           </node>
         </node>
-        <node concept="TUZQ0" id="oeXtRXKwrs" role="TUOzN">
+        <node concept="TUZQ0" id="oeXtRXKwrs" role="3nqlJM">
           <property role="TUZQ4" value="max value" />
           <node concept="zr_55" id="oeXtRXKwru" role="zr_5Q">
             <ref role="zr_51" node="oeXtRXKtfy" resolve="max" />
@@ -546,7 +544,7 @@
                 <ref role="3cqZAo" node="oeXtRXKtqI" resolve="random" />
               </node>
               <node concept="liA8E" id="oeXtRXKrFE" role="2OqNvi">
-                <ref role="37wK5l" to="k7g3:~Random.nextInt(int):int" resolve="nextInt" />
+                <ref role="37wK5l" to="33ny:~Random.nextInt(int):int" resolve="nextInt" />
                 <node concept="3cpWs3" id="oeXtRXKrFv" role="37wK5m">
                   <node concept="1eOMI4" id="oeXtRXKrFz" role="3uHU7B">
                     <node concept="3cpWsd" id="oeXtRXKrFw" role="1eOMHV">
@@ -577,7 +575,7 @@
             <property role="1dT_AB" value="Returns a psuedo-random number between min and max, inclusive." />
           </node>
         </node>
-        <node concept="x79VA" id="oeXtRXKryX" role="x79VK">
+        <node concept="x79VA" id="oeXtRXKryX" role="3nqlJM">
           <property role="x79VB" value="integer between min and max" />
         </node>
       </node>

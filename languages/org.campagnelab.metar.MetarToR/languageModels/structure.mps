@@ -2,14 +2,14 @@
 <model ref="r:2815b05a-19fb-48b1-b650-5a86998b563c(org.campagnelab.metar.biomartToR.structure)">
   <persistence version="9" />
   <languages>
-    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="-1" />
+    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="1" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
     <import index="c07g" ref="r:1ddbf3ba-cbe7-4cb8-b2fc-7a1e80a63d10(org.campagnelab.metar.biomart.structure)" />
+    <import index="6q58" ref="r:97268463-8a58-42b7-9dc6-fa004b7a4308(org.campagnelab.metar.R.structure)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="jrxw" ref="r:9f2bbfbf-f8b7-4b3b-92b1-b6a0e9642c10(org.campagnelab.metar.tables.structure)" implicit="true" />
-    <import index="6q58" ref="r:97268463-8a58-42b7-9dc6-fa004b7a4308(org.campagnelab.metar.R.structure)" implicit="true" />
     <import index="ztlb" ref="r:989540b8-cc89-4ed5-ba78-cf2ce766b8ce(org.campagnelab.mps.XChart.structure)" implicit="true" />
   </imports>
   <registry>
@@ -17,6 +17,7 @@
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
         <property id="4628067390765907488" name="conceptShortDescription" index="R4oN_" />
         <property id="5092175715804935370" name="conceptAlias" index="34LRSv" />
+        <property id="1587916991969465369" name="conceptId" index="1pbfSe" />
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
       </concept>
       <concept id="1169127622168" name="jetbrains.mps.lang.structure.structure.InterfaceConceptReference" flags="ig" index="PrWs8">
@@ -43,6 +44,7 @@
     <property role="TrG5h" value="BiomartinR" />
     <property role="34LRSv" value="query biomart" />
     <property role="R4oN_" value="allow to query data from Biomart " />
+    <property role="1pbfSe" value="296916529" />
     <ref role="1TJDcQ" to="6q58:5mPDeVwiPap" resolve="Expr" />
     <node concept="1TJgyj" id="55b$yEt0CzD" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -57,6 +59,7 @@
   <node concept="1TIwiD" id="1e1bwEAoGG1">
     <property role="TrG5h" value="FilterWithIdsFromIdentifierinR" />
     <property role="34LRSv" value="from a R identifier" />
+    <property role="1pbfSe" value="1176241909" />
     <ref role="1TJDcQ" to="c07g:pr6WGEr6yC" resolve="FilterWithIds" />
     <node concept="1TJgyj" id="1jge5x_A4_z" role="1TKVEi">
       <property role="20lmBu" value="reference" />
@@ -68,6 +71,7 @@
   <node concept="1TIwiD" id="1e1bwEALdL4">
     <property role="TrG5h" value="ExposedTable" />
     <property role="R4oN_" value="a generated Table" />
+    <property role="1pbfSe" value="1169814962" />
     <ref role="1TJDcQ" to="6q58:5mPDeVwiPaR" resolve="Identifier" />
     <node concept="1TJgyj" id="1e1bwEBY62I" role="1TKVEi">
       <property role="20lmBu" value="reference" />
@@ -80,6 +84,7 @@
     <property role="TrG5h" value="ExposedColumn" />
     <property role="R4oN_" value="refer to a column" />
     <property role="34LRSv" value="$" />
+    <property role="1pbfSe" value="1715824394" />
     <ref role="1TJDcQ" to="6q58:5mPDeVwiPaR" resolve="Identifier" />
     <node concept="1TJgyj" id="4eN5Nwy$_eu" role="1TKVEi">
       <property role="20lmBu" value="reference" />

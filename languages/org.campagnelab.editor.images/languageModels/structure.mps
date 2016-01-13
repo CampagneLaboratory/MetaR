@@ -2,7 +2,7 @@
 <model ref="r:eecca0f3-a7f2-4995-9f62-819ef5f4e912(org.campagnelab.editor.images.structure)">
   <persistence version="9" />
   <languages>
-    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="-1" />
+    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="1" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -14,6 +14,7 @@
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
         <property id="4628067390765907488" name="conceptShortDescription" index="R4oN_" />
         <property id="5092175715804935370" name="conceptAlias" index="34LRSv" />
+        <property id="1587916991969465369" name="conceptId" index="1pbfSe" />
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
       </concept>
       <concept id="1071489090640" name="jetbrains.mps.lang.structure.structure.ConceptDeclaration" flags="ig" index="1TIwiD">
@@ -38,12 +39,14 @@
     <property role="TrG5h" value="Cell_RefreshableImage" />
     <property role="34LRSv" value="refreshable_image" />
     <property role="R4oN_" value="refreshable cell for an image" />
+    <property role="1pbfSe" value="1091175677" />
     <ref role="1TJDcQ" to="tpc2:g_u4HTJ" resolve="CellModel_Image" />
     <node concept="asaX9" id="eN8UY5PeU1" role="lGtFl" />
   </node>
   <node concept="1TIwiD" id="37EhXvtDBER">
     <property role="TrG5h" value="Image" />
     <property role="34LRSv" value="auto-refreshable image" />
+    <property role="1pbfSe" value="261145230" />
     <ref role="1TJDcQ" to="tpc2:fBEYTCT" resolve="EditorCellModel" />
     <node concept="1TJgyj" id="h84GRuh" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />

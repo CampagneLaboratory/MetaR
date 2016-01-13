@@ -3,7 +3,7 @@
   <persistence version="9" />
   <languages>
     <use id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior" version="-1" />
-    <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="1" />
+    <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="2" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -151,11 +151,9 @@
       </concept>
       <concept id="5349172909345501395" name="jetbrains.mps.baseLanguage.javadoc.structure.BaseDocComment" flags="ng" index="P$AiS">
         <child id="8465538089690331502" name="body" index="TZ5H$" />
+        <child id="5383422241790532083" name="tags" index="3nqlJM" />
       </concept>
-      <concept id="5349172909345532724" name="jetbrains.mps.baseLanguage.javadoc.structure.MethodDocComment" flags="ng" index="P$JXv">
-        <child id="5858074156537516440" name="return" index="x79VK" />
-        <child id="8465538089690917625" name="param" index="TUOzN" />
-      </concept>
+      <concept id="5349172909345532724" name="jetbrains.mps.baseLanguage.javadoc.structure.MethodDocComment" flags="ng" index="P$JXv" />
       <concept id="8465538089690881930" name="jetbrains.mps.baseLanguage.javadoc.structure.ParameterBlockDocTag" flags="ng" index="TUZQ0">
         <property id="8465538089690881934" name="text" index="TUZQ4" />
         <child id="6832197706140518123" name="parameter" index="zr_5Q" />
@@ -190,7 +188,7 @@
       <concept id="1138056282393" name="jetbrains.mps.lang.smodel.structure.SLinkListAccess" flags="nn" index="3Tsc0h">
         <reference id="1138056546658" name="link" index="3TtcxE" />
       </concept>
-      <concept id="1172420572800" name="jetbrains.mps.lang.smodel.structure.SConceptType" flags="in" index="3THzug">
+      <concept id="1172420572800" name="jetbrains.mps.lang.smodel.structure.ConceptNodeType" flags="in" index="3THzug">
         <reference id="1180481110358" name="conceptDeclaraton" index="3qa414" />
       </concept>
     </language>
@@ -350,13 +348,13 @@
             <property role="1dT_AB" value="Decides wheter the style elements defined in the container are applicable to the concept" />
           </node>
         </node>
-        <node concept="TUZQ0" id="4FCgsrOfutd" role="TUOzN">
+        <node concept="TUZQ0" id="4FCgsrOfutd" role="3nqlJM">
           <property role="TUZQ4" value="a container" />
           <node concept="zr_55" id="4FCgsrOfutf" role="zr_5Q">
             <ref role="zr_51" node="4FCgsrOfsVw" resolve="container" />
           </node>
         </node>
-        <node concept="x79VA" id="4FCgsrOfutg" role="x79VK">
+        <node concept="x79VA" id="4FCgsrOfutg" role="3nqlJM">
           <property role="x79VB" value="true if the container has all the style items needed by the concept, false otherwise" />
         </node>
       </node>
@@ -397,7 +395,7 @@
           </node>
           <node concept="1dT_AC" id="32mm93ZOUBm" role="1dT_Ay" />
         </node>
-        <node concept="x79VA" id="32mm93ZOUBn" role="x79VK">
+        <node concept="x79VA" id="32mm93ZOUBn" role="3nqlJM">
           <property role="x79VB" value="the style elements" />
         </node>
       </node>
@@ -446,7 +444,7 @@
             <property role="1dT_AB" value="Gets the referred style." />
           </node>
         </node>
-        <node concept="x79VA" id="7Mz7YANNpUn" role="x79VK">
+        <node concept="x79VA" id="7Mz7YANNpUn" role="3nqlJM">
           <property role="x79VB" value="the style" />
         </node>
       </node>

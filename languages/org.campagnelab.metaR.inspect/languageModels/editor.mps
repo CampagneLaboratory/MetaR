@@ -2,7 +2,7 @@
 <model ref="r:fc09d37c-7f41-488d-9e27-7aff0c73b85b(org.campagnelab.metar.inspect.editor)">
   <persistence version="9" />
   <languages>
-    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="-1" />
+    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="1" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -89,7 +89,16 @@
       </concept>
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
-      <concept id="1172008320231" name="jetbrains.mps.lang.smodel.structure.Node_IsNotNullOperation" flags="nn" index="3x8VRR" />
+      <concept id="1204851882688" name="jetbrains.mps.lang.smodel.structure.LinkRefQualifier" flags="ng" index="26LbJo">
+        <reference id="1204851882689" name="link" index="26LbJp" />
+      </concept>
+      <concept id="1138411891628" name="jetbrains.mps.lang.smodel.structure.SNodeOperation" flags="nn" index="eCIE_">
+        <child id="1144104376918" name="parameter" index="1xVPHs" />
+      </concept>
+      <concept id="7835263205327057228" name="jetbrains.mps.lang.smodel.structure.Node_GetChildrenAndChildAttributesOperation" flags="ng" index="Bykcj" />
+      <concept id="5168775467716640652" name="jetbrains.mps.lang.smodel.structure.OperationParm_LinkQualifier" flags="ng" index="1aIX9F">
+        <child id="5168775467716640653" name="linkQualifier" index="1aIX9E" />
+      </concept>
       <concept id="1180636770613" name="jetbrains.mps.lang.smodel.structure.SNodeCreator" flags="nn" index="3zrR0B">
         <child id="1180636770616" name="createdType" index="3zrR0E" />
       </concept>
@@ -99,6 +108,9 @@
       <concept id="1138056143562" name="jetbrains.mps.lang.smodel.structure.SLinkAccess" flags="nn" index="3TrEf2">
         <reference id="1138056516764" name="link" index="3Tt5mk" />
       </concept>
+    </language>
+    <language id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections">
+      <concept id="1176501494711" name="jetbrains.mps.baseLanguage.collections.structure.IsNotEmptyOperation" flags="nn" index="3GX2aA" />
     </language>
   </registry>
   <node concept="24kQdi" id="1lZbowiYpaF">
@@ -262,14 +274,18 @@
         <node concept="pkWqt" id="7LV$PmMtBpm" role="pqm2j">
           <node concept="3clFbS" id="7LV$PmMtBpn" role="2VODD2">
             <node concept="3clFbF" id="7LV$PmMtBpv" role="3cqZAp">
-              <node concept="2OqwBi" id="7LV$PmMtCjK" role="3clFbG">
+              <node concept="2OqwBi" id="5yuMiu9RF1l" role="3clFbG">
                 <node concept="2OqwBi" id="7LV$PmMtBut" role="2Oq$k0">
                   <node concept="pncrf" id="7LV$PmMtBpu" role="2Oq$k0" />
-                  <node concept="3TrEf2" id="7LV$PmMtZDW" role="2OqNvi">
-                    <ref role="3Tt5mk" to="8vtd:7LV$PmMtlsC" />
+                  <node concept="Bykcj" id="5yuMiu9RF1i" role="2OqNvi">
+                    <node concept="1aIX9F" id="5yuMiu9RF1j" role="1xVPHs">
+                      <node concept="26LbJo" id="5yuMiu9RF1k" role="1aIX9E">
+                        <ref role="26LbJp" to="8vtd:7LV$PmMtlsC" />
+                      </node>
+                    </node>
                   </node>
                 </node>
-                <node concept="3x8VRR" id="7LV$PmMtDbp" role="2OqNvi" />
+                <node concept="3GX2aA" id="5yuMiu9RF1m" role="2OqNvi" />
               </node>
             </node>
           </node>
@@ -307,14 +323,18 @@
         <node concept="pkWqt" id="7LV$PmMtFrB" role="pqm2j">
           <node concept="3clFbS" id="7LV$PmMtFrC" role="2VODD2">
             <node concept="3clFbF" id="7LV$PmMtFrD" role="3cqZAp">
-              <node concept="2OqwBi" id="7LV$PmMtFrE" role="3clFbG">
+              <node concept="2OqwBi" id="5yuMiu9RF1q" role="3clFbG">
                 <node concept="2OqwBi" id="7LV$PmMtFrF" role="2Oq$k0">
                   <node concept="pncrf" id="7LV$PmMtFrG" role="2Oq$k0" />
-                  <node concept="3TrEf2" id="7LV$PmMtFrH" role="2OqNvi">
-                    <ref role="3Tt5mk" to="8vtd:7LV$PmMtlsH" />
+                  <node concept="Bykcj" id="5yuMiu9RF1n" role="2OqNvi">
+                    <node concept="1aIX9F" id="5yuMiu9RF1o" role="1xVPHs">
+                      <node concept="26LbJo" id="5yuMiu9RF1p" role="1aIX9E">
+                        <ref role="26LbJp" to="8vtd:7LV$PmMtlsH" />
+                      </node>
+                    </node>
                   </node>
                 </node>
-                <node concept="3x8VRR" id="7LV$PmMtFrI" role="2OqNvi" />
+                <node concept="3GX2aA" id="5yuMiu9RF1r" role="2OqNvi" />
               </node>
             </node>
           </node>
@@ -352,14 +372,18 @@
         <node concept="pkWqt" id="7LV$PmMtE$0" role="pqm2j">
           <node concept="3clFbS" id="7LV$PmMtE$1" role="2VODD2">
             <node concept="3clFbF" id="7LV$PmMtE$2" role="3cqZAp">
-              <node concept="2OqwBi" id="7LV$PmMtE$3" role="3clFbG">
+              <node concept="2OqwBi" id="5yuMiu9RF1g" role="3clFbG">
                 <node concept="2OqwBi" id="7LV$PmMtE$4" role="2Oq$k0">
                   <node concept="pncrf" id="7LV$PmMtE$5" role="2Oq$k0" />
-                  <node concept="3TrEf2" id="7LV$PmMtFeR" role="2OqNvi">
-                    <ref role="3Tt5mk" to="8vtd:7LV$PmMtlsO" />
+                  <node concept="Bykcj" id="5yuMiu9RF1d" role="2OqNvi">
+                    <node concept="1aIX9F" id="5yuMiu9RF1e" role="1xVPHs">
+                      <node concept="26LbJo" id="5yuMiu9RF1f" role="1aIX9E">
+                        <ref role="26LbJp" to="8vtd:7LV$PmMtlsO" />
+                      </node>
+                    </node>
                   </node>
                 </node>
-                <node concept="3x8VRR" id="7LV$PmMtE$7" role="2OqNvi" />
+                <node concept="3GX2aA" id="5yuMiu9RF1h" role="2OqNvi" />
               </node>
             </node>
           </node>
@@ -369,7 +393,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="7LV$PmMyJVb">
-    <ref role="1XX52x" to="8vtd:7LV$PmMyJU1" resolve="TryAndReport" />
+    <ref role="1XX52x" to="8vtd:7LV$PmMyJU1" resolve="TryForNode" />
     <node concept="3EZMnI" id="7LV$PmMyJVo" role="2wV5jI">
       <node concept="3F0ifn" id="7LV$PmMyJVy" role="3EZMnx">
         <property role="3F0ifm" value="tryForNode" />
