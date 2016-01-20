@@ -2,31 +2,31 @@
 <model ref="r:377e7fab-b099-4462-b9f3-2050d4b23cf6(org.campagnelab.metar.tables.constraints)">
   <persistence version="9" />
   <languages>
-    <use id="3f4bc5f5-c6c1-4a28-8b10-c83066ffa4a1" name="jetbrains.mps.lang.constraints" version="-1" />
-    <use id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior" version="-1" />
-    <use id="ed6d7656-532c-4bc2-81d1-af945aeb8280" name="jetbrains.mps.baseLanguage.blTypes" version="-1" />
-    <use id="d8f591ec-4d86-4af2-9f92-a9e93c803ffa" name="jetbrains.mps.lang.scopes" version="-1" />
-    <use id="9ded098b-ad6a-4657-bfd9-48636cfe8bc3" name="jetbrains.mps.lang.traceable" version="-1" />
-    <use id="13744753-c81f-424a-9c1b-cf8943bf4e86" name="jetbrains.mps.lang.sharedConcepts" version="-1" />
+    <use id="3f4bc5f5-c6c1-4a28-8b10-c83066ffa4a1" name="jetbrains.mps.lang.constraints" version="0" />
+    <use id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior" version="0" />
+    <use id="ed6d7656-532c-4bc2-81d1-af945aeb8280" name="jetbrains.mps.baseLanguage.blTypes" version="0" />
+    <use id="d8f591ec-4d86-4af2-9f92-a9e93c803ffa" name="jetbrains.mps.lang.scopes" version="0" />
+    <use id="9ded098b-ad6a-4657-bfd9-48636cfe8bc3" name="jetbrains.mps.lang.traceable" version="0" />
+    <use id="13744753-c81f-424a-9c1b-cf8943bf4e86" name="jetbrains.mps.lang.sharedConcepts" version="0" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
     <import index="jrxw" ref="r:9f2bbfbf-f8b7-4b3b-92b1-b6a0e9642c10(org.campagnelab.metar.tables.structure)" />
     <import index="ztlb" ref="r:989540b8-cc89-4ed5-ba78-cf2ce766b8ce(org.campagnelab.mps.XChart.structure)" />
-    <import index="fxg7" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.io(JDK/java.io@java_stub)" />
+    <import index="guwi" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" />
     <import index="zlf9" ref="r:fbd71c0b-f517-4268-8dd6-be04c874a752(org.campagnelab.mps.XChart.behavior)" />
-    <import index="msyo" ref="f:java_stub#6ed54515-acc8-4d1e-a16c-9fd6cfe951ea#jetbrains.mps.util(MPS.Core/jetbrains.mps.util@java_stub)" />
+    <import index="18ew" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.util(MPS.Core/)" />
     <import index="v8sa" ref="r:db1b133e-9a0f-4319-b384-413408eb1729(org.campagnelab.metar.tables.behavior)" />
     <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
-    <import index="vyt2" ref="f:java_stub#6ed54515-acc8-4d1e-a16c-9fd6cfe951ea#jetbrains.mps.scope(MPS.Core/jetbrains.mps.scope@java_stub)" />
+    <import index="35tq" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.scope(MPS.Core/)" />
     <import index="onla" ref="r:b81182ba-13d2-441a-9b65-76fe2bd96f30(org.campagnelab.styles.structure)" />
     <import index="42z1" ref="r:61980467-5cf8-4450-9d24-d597512183ad(org.campagnelab.styles.behavior)" />
-    <import index="88zw" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/f:java_stub#8865b7a8-5271-43d3-884c-6fd1d9cfdd34#org.jetbrains.mps.openapi.module(MPS.OpenAPI/org.jetbrains.mps.openapi.module@java_stub)" />
-    <import index="vsqj" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/f:java_stub#6ed54515-acc8-4d1e-a16c-9fd6cfe951ea#jetbrains.mps.project(MPS.Core/jetbrains.mps.project@java_stub)" />
-    <import index="ec5l" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/f:java_stub#8865b7a8-5271-43d3-884c-6fd1d9cfdd34#org.jetbrains.mps.openapi.model(MPS.OpenAPI/org.jetbrains.mps.openapi.model@java_stub)" />
+    <import index="lui2" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.module(MPS.OpenAPI/)" />
+    <import index="z1c3" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.project(MPS.Core/)" />
+    <import index="mhbf" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.model(MPS.OpenAPI/)" />
     <import index="o8zo" ref="r:314576fc-3aee-4386-a0a5-a38348ac317d(jetbrains.mps.scope)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
-    <import index="e2lb" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" implicit="true" />
+    <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="tpcu" ref="r:00000000-0000-4000-0000-011c89590282(jetbrains.mps.lang.core.behavior)" implicit="true" />
   </imports>
   <registry>
@@ -241,7 +241,7 @@
       <concept id="1138056282393" name="jetbrains.mps.lang.smodel.structure.SLinkListAccess" flags="nn" index="3Tsc0h">
         <reference id="1138056546658" name="link" index="3TtcxE" />
       </concept>
-      <concept id="1172420572800" name="jetbrains.mps.lang.smodel.structure.SConceptType" flags="in" index="3THzug" />
+      <concept id="1172420572800" name="jetbrains.mps.lang.smodel.structure.ConceptNodeType" flags="in" index="3THzug" />
       <concept id="1172424058054" name="jetbrains.mps.lang.smodel.structure.ConceptRefExpression" flags="nn" index="3TUQnm">
         <reference id="1172424100906" name="conceptDeclaration" index="3TV0OU" />
       </concept>
@@ -1179,11 +1179,11 @@
                   <node concept="17QB3L" id="3Pa_fMtu_Tn" role="1tU5fm" />
                   <node concept="2OqwBi" id="3Pa_fMtu_To" role="33vP2m">
                     <node concept="2YIFZM" id="3Pa_fMtu_Tp" role="2Oq$k0">
-                      <ref role="37wK5l" to="msyo:~MacrosFactory.getGlobal():jetbrains.mps.util.MacroHelper" resolve="getGlobal" />
-                      <ref role="1Pybhc" to="msyo:~MacrosFactory" resolve="MacrosFactory" />
+                      <ref role="37wK5l" to="18ew:~MacrosFactory.getGlobal():jetbrains.mps.util.MacroHelper" resolve="getGlobal" />
+                      <ref role="1Pybhc" to="18ew:~MacrosFactory" resolve="MacrosFactory" />
                     </node>
                     <node concept="liA8E" id="3Pa_fMtu_Tq" role="2OqNvi">
-                      <ref role="37wK5l" to="msyo:~MacroHelper.expandPath(java.lang.String):java.lang.String" resolve="expandPath" />
+                      <ref role="37wK5l" to="18ew:~MacroHelper.expandPath(java.lang.String):java.lang.String" resolve="expandPath" />
                       <node concept="1Wqviy" id="3Pa_fMtu_Tr" role="37wK5m" />
                     </node>
                   </node>
@@ -1193,11 +1193,11 @@
                 <node concept="3cpWsn" id="3Pa_fMtu$5e" role="3cpWs9">
                   <property role="TrG5h" value="file" />
                   <node concept="3uibUv" id="3Pa_fMtu$5f" role="1tU5fm">
-                    <ref role="3uigEE" to="fxg7:~File" resolve="File" />
+                    <ref role="3uigEE" to="guwi:~File" resolve="File" />
                   </node>
                   <node concept="2ShNRf" id="3Pa_fMtu$5g" role="33vP2m">
                     <node concept="1pGfFk" id="3Pa_fMtu$5h" role="2ShVmc">
-                      <ref role="37wK5l" to="fxg7:~File.&lt;init&gt;(java.lang.String)" resolve="File" />
+                      <ref role="37wK5l" to="guwi:~File.&lt;init&gt;(java.lang.String)" resolve="File" />
                       <node concept="37vLTw" id="3Pa_fMtu$5i" role="37wK5m">
                         <ref role="3cqZAo" node="3Pa_fMtu_Tm" resolve="newPath" />
                       </node>
@@ -1208,7 +1208,7 @@
               <node concept="3cpWs6" id="3Pa_fMtv4vT" role="3cqZAp">
                 <node concept="2OqwBi" id="3Pa_fMtu$5t" role="3cqZAk">
                   <node concept="liA8E" id="3Pa_fMtu$5u" role="2OqNvi">
-                    <ref role="37wK5l" to="fxg7:~File.exists():boolean" resolve="exists" />
+                    <ref role="37wK5l" to="guwi:~File.exists():boolean" resolve="exists" />
                   </node>
                   <node concept="37vLTw" id="3Pa_fMtu$5v" role="2Oq$k0">
                     <ref role="3cqZAo" node="3Pa_fMtu$5e" resolve="file" />
@@ -1241,11 +1241,11 @@
               <node concept="17QB3L" id="w5znaeRQ7F" role="1tU5fm" />
               <node concept="2OqwBi" id="274AKIgZJY2" role="33vP2m">
                 <node concept="2YIFZM" id="274AKIgZJqr" role="2Oq$k0">
-                  <ref role="1Pybhc" to="msyo:~MacrosFactory" resolve="MacrosFactory" />
-                  <ref role="37wK5l" to="msyo:~MacrosFactory.getGlobal():jetbrains.mps.util.MacroHelper" resolve="getGlobal" />
+                  <ref role="1Pybhc" to="18ew:~MacrosFactory" resolve="MacrosFactory" />
+                  <ref role="37wK5l" to="18ew:~MacrosFactory.getGlobal():jetbrains.mps.util.MacroHelper" resolve="getGlobal" />
                 </node>
                 <node concept="liA8E" id="274AKIgZKKP" role="2OqNvi">
-                  <ref role="37wK5l" to="msyo:~MacroHelper.expandPath(java.lang.String):java.lang.String" resolve="expandPath" />
+                  <ref role="37wK5l" to="18ew:~MacroHelper.expandPath(java.lang.String):java.lang.String" resolve="expandPath" />
                   <node concept="1Wqviy" id="w5znaeRUAF" role="37wK5m" />
                 </node>
               </node>
@@ -1255,11 +1255,11 @@
             <node concept="3cpWsn" id="5Kw8UUF8J2B" role="3cpWs9">
               <property role="TrG5h" value="file" />
               <node concept="3uibUv" id="5Kw8UUF8J2C" role="1tU5fm">
-                <ref role="3uigEE" to="fxg7:~File" resolve="File" />
+                <ref role="3uigEE" to="guwi:~File" resolve="File" />
               </node>
               <node concept="2ShNRf" id="37GCX3DbnWb" role="33vP2m">
                 <node concept="1pGfFk" id="37GCX3DbnWc" role="2ShVmc">
-                  <ref role="37wK5l" to="fxg7:~File.&lt;init&gt;(java.lang.String)" resolve="File" />
+                  <ref role="37wK5l" to="guwi:~File.&lt;init&gt;(java.lang.String)" resolve="File" />
                   <node concept="37vLTw" id="w5znaeRVg7" role="37wK5m">
                     <ref role="3cqZAo" node="w5znaeRQ7K" resolve="newPath" />
                   </node>
@@ -1285,7 +1285,7 @@
             </node>
             <node concept="2OqwBi" id="37GCX3DbnWa" role="3clFbw">
               <node concept="liA8E" id="37GCX3DbnWe" role="2OqNvi">
-                <ref role="37wK5l" to="fxg7:~File.exists():boolean" resolve="exists" />
+                <ref role="37wK5l" to="guwi:~File.exists():boolean" resolve="exists" />
               </node>
               <node concept="37vLTw" id="5Kw8UUF8KHW" role="2Oq$k0">
                 <ref role="3cqZAo" node="5Kw8UUF8J2B" resolve="file" />
@@ -1391,7 +1391,7 @@
           <node concept="3cpWsn" id="UDsYdBnwD" role="3cpWs9">
             <property role="TrG5h" value="moduleRef" />
             <node concept="3uibUv" id="UDsYdBnwE" role="1tU5fm">
-              <ref role="3uigEE" to="88zw:~SModuleReference" resolve="SModuleReference" />
+              <ref role="3uigEE" to="lui2:~SModuleReference" resolve="SModuleReference" />
             </node>
             <node concept="2OqwBi" id="6M9lfhDzQe1" role="33vP2m">
               <node concept="2OqwBi" id="6M9lfhDzOH7" role="2Oq$k0">
@@ -1403,15 +1403,15 @@
                     </node>
                   </node>
                   <node concept="liA8E" id="6M9lfhDzOjq" role="2OqNvi">
-                    <ref role="37wK5l" to="ec5l:~SNode.getModel():org.jetbrains.mps.openapi.model.SModel" resolve="getModel" />
+                    <ref role="37wK5l" to="mhbf:~SNode.getModel():org.jetbrains.mps.openapi.model.SModel" resolve="getModel" />
                   </node>
                 </node>
                 <node concept="liA8E" id="6M9lfhDzPLb" role="2OqNvi">
-                  <ref role="37wK5l" to="ec5l:~SModel.getModule():org.jetbrains.mps.openapi.module.SModule" resolve="getModule" />
+                  <ref role="37wK5l" to="mhbf:~SModel.getModule():org.jetbrains.mps.openapi.module.SModule" resolve="getModule" />
                 </node>
               </node>
               <node concept="liA8E" id="6M9lfhDzRka" role="2OqNvi">
-                <ref role="37wK5l" to="88zw:~SModule.getModuleReference():org.jetbrains.mps.openapi.module.SModuleReference" resolve="getModuleReference" />
+                <ref role="37wK5l" to="lui2:~SModule.getModuleReference():org.jetbrains.mps.openapi.module.SModuleReference" resolve="getModuleReference" />
               </node>
             </node>
           </node>
@@ -1443,13 +1443,13 @@
               </node>
               <node concept="2OqwBi" id="6M9lfhDzsdt" role="3uHU7w">
                 <node concept="liA8E" id="6M9lfhDzsdC" role="2OqNvi">
-                  <ref role="37wK5l" to="e2lb:~Object.equals(java.lang.Object):boolean" resolve="equals" />
+                  <ref role="37wK5l" to="wyt6:~Object.equals(java.lang.Object):boolean" resolve="equals" />
                   <node concept="2OqwBi" id="6M9lfhDzsdD" role="37wK5m">
                     <node concept="3rNLEe" id="6M9lfhDzsdE" role="2Oq$k0">
                       <property role="3rM5sR" value="3b58810c-8431-4bbb-99ea-b4671e02dd13" />
                     </node>
                     <node concept="liA8E" id="6M9lfhDzsdF" role="2OqNvi">
-                      <ref role="37wK5l" to="vsqj:~AbstractModule.getModuleReference():org.jetbrains.mps.openapi.module.SModuleReference" resolve="getModuleReference" />
+                      <ref role="37wK5l" to="z1c3:~AbstractModule.getModuleReference():org.jetbrains.mps.openapi.module.SModuleReference" resolve="getModuleReference" />
                     </node>
                   </node>
                 </node>
