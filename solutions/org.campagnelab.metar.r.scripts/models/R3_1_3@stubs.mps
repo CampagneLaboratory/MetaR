@@ -2,7 +2,7 @@
 <model ref="r:97aeaa4f-346d-4633-b5a0-99879648272c(R3_1_3@stubs)">
   <persistence version="9" />
   <languages>
-    <use id="c1747c67-8f42-4d83-9542-4a948aec17d9" name="org.campagnelab.metar.functions.importing" version="0" />
+    <use id="c1747c67-8f42-4d83-9542-4a948aec17d9" name="org.campagnelab.metar.functions.importing" version="-1" />
     <use id="3b58810c-8431-4bbb-99ea-b4671e02dd13" name="org.campagnelab.metar.R" version="1" />
   </languages>
   <imports />

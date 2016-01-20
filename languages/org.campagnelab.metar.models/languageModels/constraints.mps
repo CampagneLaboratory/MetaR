@@ -2,7 +2,7 @@
 <model ref="r:d178b9dd-8943-4eab-ab69-cc1f3401fe25(org.campagnelab.metar.models.constraints)">
   <persistence version="9" />
   <languages>
-    <use id="3f4bc5f5-c6c1-4a28-8b10-c83066ffa4a1" name="jetbrains.mps.lang.constraints" version="0" />
+    <use id="3f4bc5f5-c6c1-4a28-8b10-c83066ffa4a1" name="jetbrains.mps.lang.constraints" version="-1" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -176,7 +176,7 @@
                             </node>
                           </node>
                           <node concept="2qgKlT" id="4ssfE$7TB8d" role="2OqNvi">
-                            <ref role="37wK5l" to="v8sa:6XP3gVdqO1y" resolve="columnGroupsWithThisUsageType" />
+                            <ref role="37wK5l" to="v8sa:6XP3gVdqO1y" resolve="columnsWithThisUsageType" />
                           </node>
                         </node>
                       </node>

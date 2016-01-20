@@ -2,22 +2,22 @@
 <model ref="r:22516e59-f7cc-411f-80b8-f782ec2acb3b(org.campagnelab.metar.inspect.generator.template.main@generator)">
   <persistence version="9" />
   <languages>
-    <use id="b401a680-8325-4110-8fd3-84331ff25bef" name="jetbrains.mps.lang.generator" version="0" />
-    <use id="32f503e8-061b-451e-bcb0-fef56aa05eb9" name="org.campagnelab.metar.inspect" version="0" />
-    <use id="d7706f63-9be2-479c-a3da-ae92af1e64d5" name="jetbrains.mps.lang.generator.generationContext" version="0" />
-    <use id="901f5cf3-dc77-4c1e-bc5a-6382baee28b4" name="org.campagnelab.textoutput" version="0" />
-    <use id="c901f7a1-ed4f-4b52-8d35-10d1a33974f0" name="org.campagnelab.metar.code" version="0" />
+    <use id="b401a680-8325-4110-8fd3-84331ff25bef" name="jetbrains.mps.lang.generator" version="-1" />
+    <use id="32f503e8-061b-451e-bcb0-fef56aa05eb9" name="org.campagnelab.metar.inspect" version="-1" />
+    <use id="d7706f63-9be2-479c-a3da-ae92af1e64d5" name="jetbrains.mps.lang.generator.generationContext" version="-1" />
+    <use id="901f5cf3-dc77-4c1e-bc5a-6382baee28b4" name="org.campagnelab.textoutput" version="-1" />
+    <use id="c901f7a1-ed4f-4b52-8d35-10d1a33974f0" name="org.campagnelab.metar.code" version="-1" />
     <use id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core" version="1" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
-    <import index="18ew" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.util(MPS.Core/)" />
+    <import index="msyo" ref="f:java_stub#6ed54515-acc8-4d1e-a16c-9fd6cfe951ea#jetbrains.mps.util(MPS.Core/jetbrains.mps.util@java_stub)" />
     <import index="8vtd" ref="r:cbd13695-fd32-4d39-aded-ba7e630ac2c3(org.campagnelab.metar.inspect.structure)" />
-    <import index="guwi" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" />
-    <import index="mhbf" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.model(MPS.OpenAPI/)" />
+    <import index="fxg7" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.io(JDK/java.io@java_stub)" />
+    <import index="ec5l" ref="f:java_stub#8865b7a8-5271-43d3-884c-6fd1d9cfdd34#org.jetbrains.mps.openapi.model(MPS.OpenAPI/org.jetbrains.mps.openapi.model@java_stub)" />
     <import index="2k4h" ref="r:930671f0-37d5-4b40-acdb-7bfbc083292a(org.campagnelab.metar.inspect.behavior)" />
     <import index="1mjk" ref="r:72b0aa20-b681-4aef-ad30-bb23b1f4b98c(org.campagnelab.metar.code.generator.helpers)" implicit="true" />
-    <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
+    <import index="e2lb" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -208,26 +208,26 @@
                                     </node>
                                     <node concept="3cpWs3" id="3l0yXcUgSia" role="3uHU7B">
                                       <node concept="10M0yZ" id="3l0yXcUgSsw" role="3uHU7w">
-                                        <ref role="1PxDUh" to="guwi:~File" resolve="File" />
-                                        <ref role="3cqZAo" to="guwi:~File.separator" resolve="separator" />
+                                        <ref role="1PxDUh" to="fxg7:~File" resolve="File" />
+                                        <ref role="3cqZAo" to="fxg7:~File.separator" resolve="separator" />
                                       </node>
                                       <node concept="3cpWs3" id="4RSqyaA7lPx" role="3uHU7B">
                                         <node concept="3cpWs3" id="4RSqyaA7lPy" role="3uHU7B">
                                           <node concept="2OqwBi" id="4RSqyaA7lPz" role="3uHU7B">
                                             <node concept="2YIFZM" id="4RSqyaA7lP$" role="2Oq$k0">
-                                              <ref role="37wK5l" to="18ew:~MacrosFactory.getGlobal():jetbrains.mps.util.MacroHelper" resolve="getGlobal" />
-                                              <ref role="1Pybhc" to="18ew:~MacrosFactory" resolve="MacrosFactory" />
+                                              <ref role="37wK5l" to="msyo:~MacrosFactory.getGlobal():jetbrains.mps.util.MacroHelper" resolve="getGlobal" />
+                                              <ref role="1Pybhc" to="msyo:~MacrosFactory" resolve="MacrosFactory" />
                                             </node>
                                             <node concept="liA8E" id="4RSqyaA7lP_" role="2OqNvi">
-                                              <ref role="37wK5l" to="18ew:~MacroHelper.expandPath(java.lang.String):java.lang.String" resolve="expandPath" />
+                                              <ref role="37wK5l" to="msyo:~MacroHelper.expandPath(java.lang.String):java.lang.String" resolve="expandPath" />
                                               <node concept="Xl_RD" id="4RSqyaA7lPA" role="37wK5m">
                                                 <property role="Xl_RC" value="${org.campagnelab.metaR.results_dir}" />
                                               </node>
                                             </node>
                                           </node>
                                           <node concept="10M0yZ" id="4RSqyaA7lPB" role="3uHU7w">
-                                            <ref role="1PxDUh" to="guwi:~File" resolve="File" />
-                                            <ref role="3cqZAo" to="guwi:~File.separator" resolve="separator" />
+                                            <ref role="1PxDUh" to="fxg7:~File" resolve="File" />
+                                            <ref role="3cqZAo" to="fxg7:~File.separator" resolve="separator" />
                                           </node>
                                         </node>
                                         <node concept="2OqwBi" id="3l0yXcUgRBR" role="3uHU7w">
@@ -249,8 +249,8 @@
                                 </node>
                               </node>
                               <node concept="2YIFZM" id="4RSqyaA7lPG" role="3uHU7w">
-                                <ref role="1Pybhc" to="wyt6:~Integer" resolve="Integer" />
-                                <ref role="37wK5l" to="wyt6:~Integer.toString(int):java.lang.String" resolve="toString" />
+                                <ref role="1Pybhc" to="e2lb:~Integer" resolve="Integer" />
+                                <ref role="37wK5l" to="e2lb:~Integer.toString(int):java.lang.String" resolve="toString" />
                                 <node concept="2OqwBi" id="4RSqyaA7lPH" role="37wK5m">
                                   <node concept="3TrcHB" id="4RSqyaA7lPI" role="2OqNvi">
                                     <ref role="3TsBF5" to="8vtd:1lZbowiXXSl" resolve="tableId" />

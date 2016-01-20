@@ -2,8 +2,8 @@
 <model ref="r:c39913ff-7d60-44a3-a68c-2149440dc291(newSimulation2)">
   <persistence version="9" />
   <languages>
-    <use id="46803809-20ee-443f-bea9-0bee114b90b3" name="org.campagnelab.metar.edgeR" version="1" />
-    <use id="067d1b0c-daf1-44f9-9fbd-e1dd4c6e26e8" name="org.campagnelab.metar.simulation" version="0" />
+    <use id="46803809-20ee-443f-bea9-0bee114b90b3" name="org.campagnelab.metar.edgeR" version="-1" />
+    <use id="067d1b0c-daf1-44f9-9fbd-e1dd4c6e26e8" name="org.campagnelab.metar.simulation" version="-1" />
     <devkit ref="8a3636fa-c6ec-4cb0-bc2a-b7143f2a4937(org.campagnelab.metaR)" />
   </languages>
   <imports>
@@ -100,7 +100,7 @@
         <reference id="3223123807127702409" name="table" index="2UilQf" />
       </concept>
       <concept id="8962032619582305406" name="org.campagnelab.metar.tables.structure.StatementList" flags="ng" index="ZXjPh">
-        <child id="8962032619582305407" name="transformations" index="ZXjPg" />
+        <child id="8962032619582305407" name="statements" index="ZXjPg" />
       </concept>
       <concept id="3402264987259919045" name="org.campagnelab.metar.tables.structure.FutureTable" flags="ng" index="3MlLWZ">
         <reference id="3402264987259919103" name="table" index="3MlLW5" />

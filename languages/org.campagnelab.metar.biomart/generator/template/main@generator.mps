@@ -2,12 +2,12 @@
 <model ref="r:9f5ad1b0-f18b-4386-b4a1-4971f369ec72(org.campagnelab.metar.biomart.generator.template.main@generator)">
   <persistence version="9" />
   <languages>
-    <use id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core" version="1" />
-    <use id="d7706f63-9be2-479c-a3da-ae92af1e64d5" name="jetbrains.mps.lang.generator.generationContext" version="0" />
-    <use id="b401a680-8325-4110-8fd3-84331ff25bef" name="jetbrains.mps.lang.generator" version="0" />
-    <use id="e633fc48-0aaf-45b5-9894-247b67cf0890" name="org.campagnelab.metar.biomart" version="0" />
-    <use id="901f5cf3-dc77-4c1e-bc5a-6382baee28b4" name="org.campagnelab.textoutput" version="0" />
-    <use id="32f503e8-061b-451e-bcb0-fef56aa05eb9" name="org.campagnelab.metar.inspect" version="0" />
+    <use id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core" version="-1" />
+    <use id="d7706f63-9be2-479c-a3da-ae92af1e64d5" name="jetbrains.mps.lang.generator.generationContext" version="-1" />
+    <use id="b401a680-8325-4110-8fd3-84331ff25bef" name="jetbrains.mps.lang.generator" version="-1" />
+    <use id="e633fc48-0aaf-45b5-9894-247b67cf0890" name="org.campagnelab.metar.biomart" version="-1" />
+    <use id="901f5cf3-dc77-4c1e-bc5a-6382baee28b4" name="org.campagnelab.textoutput" version="-1" />
+    <use id="32f503e8-061b-451e-bcb0-fef56aa05eb9" name="org.campagnelab.metar.inspect" version="-1" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -17,12 +17,12 @@
     <import index="jrxw" ref="r:9f2bbfbf-f8b7-4b3b-92b1-b6a0e9642c10(org.campagnelab.metar.tables.structure)" />
     <import index="ztlb" ref="r:989540b8-cc89-4ed5-ba78-cf2ce766b8ce(org.campagnelab.mps.XChart.structure)" />
     <import index="8vtd" ref="r:cbd13695-fd32-4d39-aded-ba7e630ac2c3(org.campagnelab.metar.inspect.structure)" />
-    <import index="guwi" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" />
-    <import index="18ew" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.util(MPS.Core/)" />
+    <import index="fxg7" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.io(JDK/java.io@java_stub)" />
+    <import index="msyo" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/f:java_stub#6ed54515-acc8-4d1e-a16c-9fd6cfe951ea#jetbrains.mps.util(MPS.Core/jetbrains.mps.util@java_stub)" />
     <import index="6q58" ref="r:97268463-8a58-42b7-9dc6-fa004b7a4308(org.campagnelab.metar.R.structure)" />
-    <import index="okqk" ref="r:a8c6f275-63e6-4f3f-a0b9-9dfd9b95fe4b(org.campagnelab.metar.biomart.behavior)" implicit="true" />
-    <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
+    <import index="e2lb" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" implicit="true" />
+    <import index="okqk" ref="r:a8c6f275-63e6-4f3f-a0b9-9dfd9b95fe4b(org.campagnelab.metar.biomart.behavior)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -662,13 +662,13 @@
                         <node concept="30H73N" id="16dayhk0R7y" role="2Oq$k0" />
                       </node>
                       <node concept="liA8E" id="16dayhknib3" role="2OqNvi">
-                        <ref role="37wK5l" to="wyt6:~String.substring(int):java.lang.String" resolve="substring" />
+                        <ref role="37wK5l" to="e2lb:~String.substring(int):java.lang.String" resolve="substring" />
                         <node concept="2OqwBi" id="16dayhknjdi" role="37wK5m">
                           <node concept="Xl_RD" id="16dayhkniiK" role="2Oq$k0">
                             <property role="Xl_RC" value="http://" />
                           </node>
                           <node concept="liA8E" id="16dayhknk0r" role="2OqNvi">
-                            <ref role="37wK5l" to="wyt6:~String.length():int" resolve="length" />
+                            <ref role="37wK5l" to="e2lb:~String.length():int" resolve="length" />
                           </node>
                         </node>
                       </node>
@@ -1004,19 +1004,19 @@
                                     <node concept="3cpWs3" id="KwXu1WSues" role="3uHU7B">
                                       <node concept="2OqwBi" id="KwXu1WSuet" role="3uHU7B">
                                         <node concept="2YIFZM" id="KwXu1WSueu" role="2Oq$k0">
-                                          <ref role="1Pybhc" to="18ew:~MacrosFactory" resolve="MacrosFactory" />
-                                          <ref role="37wK5l" to="18ew:~MacrosFactory.getGlobal():jetbrains.mps.util.MacroHelper" resolve="getGlobal" />
+                                          <ref role="1Pybhc" to="msyo:~MacrosFactory" resolve="MacrosFactory" />
+                                          <ref role="37wK5l" to="msyo:~MacrosFactory.getGlobal():jetbrains.mps.util.MacroHelper" resolve="getGlobal" />
                                         </node>
                                         <node concept="liA8E" id="KwXu1WSuev" role="2OqNvi">
-                                          <ref role="37wK5l" to="18ew:~MacroHelper.expandPath(java.lang.String):java.lang.String" resolve="expandPath" />
+                                          <ref role="37wK5l" to="msyo:~MacroHelper.expandPath(java.lang.String):java.lang.String" resolve="expandPath" />
                                           <node concept="Xl_RD" id="KwXu1WSuew" role="37wK5m">
                                             <property role="Xl_RC" value="${org.campagnelab.metaR.results_dir}" />
                                           </node>
                                         </node>
                                       </node>
                                       <node concept="10M0yZ" id="KwXu1WSuex" role="3uHU7w">
-                                        <ref role="1PxDUh" to="guwi:~File" resolve="File" />
-                                        <ref role="3cqZAo" to="guwi:~File.separator" resolve="separator" />
+                                        <ref role="1PxDUh" to="fxg7:~File" resolve="File" />
+                                        <ref role="3cqZAo" to="fxg7:~File.separator" resolve="separator" />
                                       </node>
                                     </node>
                                     <node concept="Xl_RD" id="KwXu1WSuey" role="3uHU7w">
@@ -1041,8 +1041,8 @@
                                 </node>
                               </node>
                               <node concept="2YIFZM" id="KwXu1WSueD" role="3uHU7w">
-                                <ref role="37wK5l" to="wyt6:~Integer.toString(int):java.lang.String" resolve="toString" />
-                                <ref role="1Pybhc" to="wyt6:~Integer" resolve="Integer" />
+                                <ref role="37wK5l" to="e2lb:~Integer.toString(int):java.lang.String" resolve="toString" />
+                                <ref role="1Pybhc" to="e2lb:~Integer" resolve="Integer" />
                                 <node concept="2OqwBi" id="KwXu1WSueE" role="37wK5m">
                                   <node concept="2OqwBi" id="KwXu1WSueF" role="2Oq$k0">
                                     <node concept="3TrEf2" id="KwXu1WSwxb" role="2OqNvi">
