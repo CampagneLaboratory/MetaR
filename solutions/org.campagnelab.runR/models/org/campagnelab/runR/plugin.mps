@@ -363,6 +363,7 @@
         <child id="1082485599094" name="ifFalseStatement" index="9aQIa" />
         <child id="1068580123160" name="condition" index="3clFbw" />
         <child id="1068580123161" name="ifTrue" index="3clFbx" />
+        <child id="1206060520071" name="elsifClauses" index="3eNLev" />
       </concept>
       <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
@@ -384,6 +385,10 @@
       <concept id="1068581242869" name="jetbrains.mps.baseLanguage.structure.MinusExpression" flags="nn" index="3cpWsd" />
       <concept id="1068581242863" name="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" flags="nr" index="3cpWsn" />
       <concept id="1068581517677" name="jetbrains.mps.baseLanguage.structure.VoidType" flags="in" index="3cqZAl" />
+      <concept id="1206060495898" name="jetbrains.mps.baseLanguage.structure.ElsifClause" flags="ng" index="3eNFk2">
+        <child id="1206060619838" name="condition" index="3eO9$A" />
+        <child id="1206060644605" name="statementList" index="3eOfB_" />
+      </concept>
       <concept id="1079359253375" name="jetbrains.mps.baseLanguage.structure.ParenthesizedExpression" flags="nn" index="1eOMI4">
         <child id="1079359253376" name="expression" index="1eOMHV" />
       </concept>
@@ -7663,7 +7668,108 @@
               </node>
             </node>
           </node>
-          <node concept="3clFbH" id="7jqSt7$io6V" role="3cqZAp" />
+          <node concept="2Gpval" id="2KDWUtYBJ7f" role="3cqZAp">
+            <node concept="2GrKxI" id="2KDWUtYBJ7h" role="2Gsz3X">
+              <property role="TrG5h" value="tablePath" />
+            </node>
+            <node concept="3clFbS" id="2KDWUtYBJ7j" role="2LFqv$">
+              <node concept="3clFbJ" id="72lC2TuNMpc" role="3cqZAp">
+                <node concept="3clFbS" id="72lC2TuNMpd" role="3clFbx">
+                  <node concept="2LYoGF" id="2KDWUtYC09y" role="3cqZAp">
+                    <node concept="3cpWs3" id="2KDWUtYC11n" role="2LYoNm">
+                      <node concept="Xl_RD" id="2KDWUtYC1gH" role="3uHU7w">
+                        <property role="Xl_RC" value=")" />
+                      </node>
+                      <node concept="3cpWs3" id="2KDWUtYC0wC" role="3uHU7B">
+                        <node concept="Xl_RD" id="2KDWUtYC0a0" role="3uHU7B">
+                          <property role="Xl_RC" value="Table path must be under C:\\\\Users (found: " />
+                        </node>
+                        <node concept="2GrUjf" id="2KDWUtYC0x4" role="3uHU7w">
+                          <ref role="2Gs0qQ" node="2KDWUtYBJ7h" resolve="tablePath" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="1Wc70l" id="72lC2TuNM_a" role="3clFbw">
+                  <node concept="3fqX7Q" id="2KDWUtYBZIe" role="3uHU7w">
+                    <node concept="2OqwBi" id="2KDWUtYBZIg" role="3fr31v">
+                      <node concept="2GrUjf" id="2KDWUtYBZIh" role="2Oq$k0">
+                        <ref role="2Gs0qQ" node="2KDWUtYBJ7h" resolve="tablePath" />
+                      </node>
+                      <node concept="liA8E" id="2KDWUtYBZIi" role="2OqNvi">
+                        <ref role="37wK5l" to="wyt6:~String.startsWith(java.lang.String):boolean" resolve="startsWith" />
+                        <node concept="Xl_RD" id="2KDWUtYBZIj" role="37wK5m">
+                          <property role="Xl_RC" value="C:\\\\Users" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="1Wc70l" id="72lC2TuNMpk" role="3uHU7B">
+                    <node concept="10M0yZ" id="72lC2TuNMpl" role="3uHU7B">
+                      <ref role="1PxDUh" to="zn9m:~SystemInfo" resolve="SystemInfo" />
+                      <ref role="3cqZAo" to="zn9m:~SystemInfo.isWindows" resolve="isWindows" />
+                    </node>
+                    <node concept="2OqwBi" id="72lC2TuNMpm" role="3uHU7w">
+                      <node concept="2GrUjf" id="2KDWUtYBKlg" role="2Oq$k0">
+                        <ref role="2Gs0qQ" node="2KDWUtYBJ7h" resolve="tablePath" />
+                      </node>
+                      <node concept="17RvpY" id="72lC2TuNMpq" role="2OqNvi" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="3eNFk2" id="2KDWUtYC1I0" role="3eNLev">
+                  <node concept="3clFbS" id="2KDWUtYC1I2" role="3eOfB_">
+                    <node concept="2LYoGF" id="2KDWUtYC2vm" role="3cqZAp">
+                      <node concept="3cpWs3" id="2KDWUtYC2vn" role="2LYoNm">
+                        <node concept="Xl_RD" id="2KDWUtYC2vo" role="3uHU7w">
+                          <property role="Xl_RC" value=")" />
+                        </node>
+                        <node concept="3cpWs3" id="2KDWUtYC2vp" role="3uHU7B">
+                          <node concept="Xl_RD" id="2KDWUtYC2vq" role="3uHU7B">
+                            <property role="Xl_RC" value="Table path must be under /Users (found: " />
+                          </node>
+                          <node concept="2GrUjf" id="2KDWUtYC2vr" role="3uHU7w">
+                            <ref role="2Gs0qQ" node="2KDWUtYBJ7h" resolve="tablePath" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="1Wc70l" id="2KDWUtYC1Xa" role="3eO9$A">
+                    <node concept="3fqX7Q" id="2KDWUtYC1Xb" role="3uHU7w">
+                      <node concept="2OqwBi" id="2KDWUtYC1Xc" role="3fr31v">
+                        <node concept="2GrUjf" id="2KDWUtYC1Xd" role="2Oq$k0">
+                          <ref role="2Gs0qQ" node="2KDWUtYBJ7h" resolve="tablePath" />
+                        </node>
+                        <node concept="liA8E" id="2KDWUtYC1Xe" role="2OqNvi">
+                          <ref role="37wK5l" to="wyt6:~String.startsWith(java.lang.String):boolean" resolve="startsWith" />
+                          <node concept="Xl_RD" id="2KDWUtYC1Xf" role="37wK5m">
+                            <property role="Xl_RC" value="/Users" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="1Wc70l" id="2KDWUtYC1Xg" role="3uHU7B">
+                      <node concept="10M0yZ" id="2KDWUtYC1Xh" role="3uHU7B">
+                        <ref role="1PxDUh" to="zn9m:~SystemInfo" resolve="SystemInfo" />
+                        <ref role="3cqZAo" to="zn9m:~SystemInfo.isMac" resolve="isMac" />
+                      </node>
+                      <node concept="2OqwBi" id="2KDWUtYC1Xi" role="3uHU7w">
+                        <node concept="2GrUjf" id="2KDWUtYC1Xj" role="2Oq$k0">
+                          <ref role="2Gs0qQ" node="2KDWUtYBJ7h" resolve="tablePath" />
+                        </node>
+                        <node concept="17RvpY" id="2KDWUtYC1Xk" role="2OqNvi" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="2LYoG9" id="2KDWUtYBK4S" role="2GsD0m">
+              <ref role="2LYoGb" node="7jqSt7yAP2J" resolve="inputTablePaths" />
+            </node>
+          </node>
           <node concept="3cpWs8" id="7jqSt7yAfr1" role="3cqZAp">
             <node concept="3cpWsn" id="7jqSt7yAfr2" role="3cpWs9">
               <property role="TrG5h" value="resultsDir" />
