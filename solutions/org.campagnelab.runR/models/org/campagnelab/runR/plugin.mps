@@ -6410,15 +6410,40 @@
         <node concept="3clFbS" id="7jqSt7yag$8" role="2VODD2">
           <node concept="3clFbJ" id="7jqSt7$Yujy" role="3cqZAp">
             <node concept="3clFbS" id="7jqSt7$Yuj$" role="3clFbx">
-              <node concept="3clFbF" id="7jqSt7$YvYE" role="3cqZAp">
-                <node concept="37vLTI" id="7jqSt7$YxzI" role="3clFbG">
-                  <node concept="Xl_RD" id="7jqSt7$YxLt" role="37vLTx">
-                    <property role="Xl_RC" value="/usr/local/bin/docker" />
+              <node concept="3clFbJ" id="2KDWUtYHP76" role="3cqZAp">
+                <node concept="3clFbS" id="2KDWUtYHP78" role="3clFbx">
+                  <node concept="3clFbF" id="2KDWUtYHPQx" role="3cqZAp">
+                    <node concept="37vLTI" id="2KDWUtYHPQy" role="3clFbG">
+                      <node concept="Xl_RD" id="2KDWUtYHPQz" role="37vLTx">
+                        <property role="Xl_RC" value="C:\\Program Files\\kitematic\\docker.exe" />
+                      </node>
+                      <node concept="2OqwBi" id="2KDWUtYHPQ$" role="37vLTJ">
+                        <node concept="2WthIp" id="2KDWUtYHPQ_" role="2Oq$k0" />
+                        <node concept="34pFcN" id="2KDWUtYHPQA" role="2OqNvi">
+                          <ref role="2WH_rO" node="7jqSt7ya6yC" resolve="dockerCommandPath" />
+                        </node>
+                      </node>
+                    </node>
                   </node>
-                  <node concept="2OqwBi" id="7jqSt7$YvZ2" role="37vLTJ">
-                    <node concept="2WthIp" id="7jqSt7$YvYC" role="2Oq$k0" />
-                    <node concept="34pFcN" id="7jqSt7$Ywkq" role="2OqNvi">
-                      <ref role="2WH_rO" node="7jqSt7ya6yC" resolve="dockerCommandPath" />
+                </node>
+                <node concept="10M0yZ" id="2KDWUtYHPr7" role="3clFbw">
+                  <ref role="1PxDUh" to="zn9m:~SystemInfo" resolve="SystemInfo" />
+                  <ref role="3cqZAo" to="zn9m:~SystemInfo.isWindows" resolve="isWindows" />
+                </node>
+                <node concept="9aQIb" id="2KDWUtYHPrY" role="9aQIa">
+                  <node concept="3clFbS" id="2KDWUtYHPrZ" role="9aQI4">
+                    <node concept="3clFbF" id="7jqSt7$YvYE" role="3cqZAp">
+                      <node concept="37vLTI" id="7jqSt7$YxzI" role="3clFbG">
+                        <node concept="Xl_RD" id="7jqSt7$YxLt" role="37vLTx">
+                          <property role="Xl_RC" value="/usr/local/bin/docker" />
+                        </node>
+                        <node concept="2OqwBi" id="7jqSt7$YvZ2" role="37vLTJ">
+                          <node concept="2WthIp" id="7jqSt7$YvYC" role="2Oq$k0" />
+                          <node concept="34pFcN" id="7jqSt7$Ywkq" role="2OqNvi">
+                            <ref role="2WH_rO" node="7jqSt7ya6yC" resolve="dockerCommandPath" />
+                          </node>
+                        </node>
+                      </node>
                     </node>
                   </node>
                 </node>
