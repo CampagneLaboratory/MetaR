@@ -1297,8 +1297,23 @@
     <property role="3GE5qa" value="annotations" />
     <ref role="1XX52x" to="jrxw:2WRhvFtICIG" resolve="ColumnAnnotation" />
     <node concept="3EZMnI" id="2WRhvFtJ4Jq" role="2wV5jI">
-      <node concept="2SsqMj" id="2WRhvFtJ4J$" role="3EZMnx" />
       <node concept="l2Vlx" id="2WRhvFtJ4Jt" role="2iSdaV" />
+      <node concept="2SsqMj" id="2KDWUtYSdk$" role="3EZMnx">
+        <node concept="pkWqt" id="2KDWUtZbydI" role="pqm2j">
+          <node concept="3clFbS" id="2KDWUtZbydJ" role="2VODD2">
+            <node concept="3clFbF" id="2KDWUtZkVJm" role="3cqZAp">
+              <node concept="3fqX7Q" id="2KDWUtZkVZj" role="3clFbG">
+                <node concept="2OqwBi" id="2KDWUtZkVZl" role="3fr31v">
+                  <node concept="1Q80Hx" id="2KDWUtZkVZm" role="2Oq$k0" />
+                  <node concept="liA8E" id="2KDWUtZkVZn" role="2OqNvi">
+                    <ref role="37wK5l" to="cj4x:~EditorContext.isInspector():boolean" resolve="isInspector" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
       <node concept="3F0ifn" id="2WRhvFtJ4JH" role="3EZMnx">
         <property role="3F0ifm" value="[" />
       </node>
