@@ -5643,7 +5643,7 @@
             </node>
           </node>
           <node concept="3_3kQU" id="3BiNpr5OKT6" role="3_3kQL">
-            <property role="3_3kQV" value="[&quot;" />
+            <property role="3_3kQV" value="[" />
           </node>
           <node concept="3_3kQU" id="3BiNpr5OKT7" role="3_3kQL">
             <property role="3_3kQV" value="Feature ID" />
@@ -5746,7 +5746,7 @@
             </node>
           </node>
           <node concept="3_3kQU" id="3BiNpr5OKT8" role="3_3kQL">
-            <property role="3_3kQV" value="&quot; %" />
+            <property role="3_3kQV" value=" %" />
           </node>
           <node concept="3_3kQU" id="3BiNpr5OKT9" role="3_3kQL">
             <property role="3_3kQV" value="in% c(" />
