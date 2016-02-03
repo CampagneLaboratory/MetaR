@@ -288,7 +288,7 @@
     <node concept="1TJgyj" id="1UH1ei482_d" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="rowFilter" />
-      <property role="20lbJX" value="1" />
+      <property role="20lbJX" value="0..1" />
       <ref role="20lvS9" to="jrxw:6K3Kmzqfo1S" resolve="FilterWithExpression" />
     </node>
     <node concept="1TJgyj" id="1UH1ei4cw2o" role="1TKVEi">

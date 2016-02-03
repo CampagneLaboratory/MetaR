@@ -17,12 +17,12 @@
     <import index="jrxw" ref="r:9f2bbfbf-f8b7-4b3b-92b1-b6a0e9642c10(org.campagnelab.metar.tables.structure)" />
     <import index="ztlb" ref="r:989540b8-cc89-4ed5-ba78-cf2ce766b8ce(org.campagnelab.mps.XChart.structure)" />
     <import index="8vtd" ref="r:cbd13695-fd32-4d39-aded-ba7e630ac2c3(org.campagnelab.metar.inspect.structure)" />
-    <import index="fxg7" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.io(JDK/java.io@java_stub)" />
-    <import index="msyo" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/f:java_stub#6ed54515-acc8-4d1e-a16c-9fd6cfe951ea#jetbrains.mps.util(MPS.Core/jetbrains.mps.util@java_stub)" />
+    <import index="guwi" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" />
+    <import index="18ew" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.util(MPS.Core/)" />
     <import index="6q58" ref="r:97268463-8a58-42b7-9dc6-fa004b7a4308(org.campagnelab.metar.R.structure)" />
-    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
-    <import index="e2lb" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" implicit="true" />
     <import index="okqk" ref="r:a8c6f275-63e6-4f3f-a0b9-9dfd9b95fe4b(org.campagnelab.metar.biomart.behavior)" implicit="true" />
+    <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
+    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -187,6 +187,7 @@
       <concept id="3562215692195599741" name="jetbrains.mps.lang.smodel.structure.SLinkImplicitSelect" flags="nn" index="13MTOL">
         <reference id="3562215692195600259" name="link" index="13MTZf" />
       </concept>
+      <concept id="1172008320231" name="jetbrains.mps.lang.smodel.structure.Node_IsNotNullOperation" flags="nn" index="3x8VRR" />
       <concept id="1146253292180" name="jetbrains.mps.lang.smodel.structure.Property_HasValue_Simple" flags="nn" index="3y1jeu">
         <child id="1146253292181" name="value" index="3y1jev" />
       </concept>
@@ -662,13 +663,13 @@
                         <node concept="30H73N" id="16dayhk0R7y" role="2Oq$k0" />
                       </node>
                       <node concept="liA8E" id="16dayhknib3" role="2OqNvi">
-                        <ref role="37wK5l" to="e2lb:~String.substring(int):java.lang.String" resolve="substring" />
+                        <ref role="37wK5l" to="wyt6:~String.substring(int):java.lang.String" resolve="substring" />
                         <node concept="2OqwBi" id="16dayhknjdi" role="37wK5m">
                           <node concept="Xl_RD" id="16dayhkniiK" role="2Oq$k0">
                             <property role="Xl_RC" value="http://" />
                           </node>
                           <node concept="liA8E" id="16dayhknk0r" role="2OqNvi">
-                            <ref role="37wK5l" to="e2lb:~String.length():int" resolve="length" />
+                            <ref role="37wK5l" to="wyt6:~String.length():int" resolve="length" />
                           </node>
                         </node>
                       </node>
@@ -1004,19 +1005,19 @@
                                     <node concept="3cpWs3" id="KwXu1WSues" role="3uHU7B">
                                       <node concept="2OqwBi" id="KwXu1WSuet" role="3uHU7B">
                                         <node concept="2YIFZM" id="KwXu1WSueu" role="2Oq$k0">
-                                          <ref role="1Pybhc" to="msyo:~MacrosFactory" resolve="MacrosFactory" />
-                                          <ref role="37wK5l" to="msyo:~MacrosFactory.getGlobal():jetbrains.mps.util.MacroHelper" resolve="getGlobal" />
+                                          <ref role="1Pybhc" to="18ew:~MacrosFactory" resolve="MacrosFactory" />
+                                          <ref role="37wK5l" to="18ew:~MacrosFactory.getGlobal():jetbrains.mps.util.MacroHelper" resolve="getGlobal" />
                                         </node>
                                         <node concept="liA8E" id="KwXu1WSuev" role="2OqNvi">
-                                          <ref role="37wK5l" to="msyo:~MacroHelper.expandPath(java.lang.String):java.lang.String" resolve="expandPath" />
+                                          <ref role="37wK5l" to="18ew:~MacroHelper.expandPath(java.lang.String):java.lang.String" resolve="expandPath" />
                                           <node concept="Xl_RD" id="KwXu1WSuew" role="37wK5m">
                                             <property role="Xl_RC" value="${org.campagnelab.metaR.results_dir}" />
                                           </node>
                                         </node>
                                       </node>
                                       <node concept="10M0yZ" id="KwXu1WSuex" role="3uHU7w">
-                                        <ref role="1PxDUh" to="fxg7:~File" resolve="File" />
-                                        <ref role="3cqZAo" to="fxg7:~File.separator" resolve="separator" />
+                                        <ref role="1PxDUh" to="guwi:~File" resolve="File" />
+                                        <ref role="3cqZAo" to="guwi:~File.separator" resolve="separator" />
                                       </node>
                                     </node>
                                     <node concept="Xl_RD" id="KwXu1WSuey" role="3uHU7w">
@@ -1041,8 +1042,8 @@
                                 </node>
                               </node>
                               <node concept="2YIFZM" id="KwXu1WSueD" role="3uHU7w">
-                                <ref role="37wK5l" to="e2lb:~Integer.toString(int):java.lang.String" resolve="toString" />
-                                <ref role="1Pybhc" to="e2lb:~Integer" resolve="Integer" />
+                                <ref role="37wK5l" to="wyt6:~Integer.toString(int):java.lang.String" resolve="toString" />
+                                <ref role="1Pybhc" to="wyt6:~Integer" resolve="Integer" />
                                 <node concept="2OqwBi" id="KwXu1WSueE" role="37wK5m">
                                   <node concept="2OqwBi" id="KwXu1WSueF" role="2Oq$k0">
                                     <node concept="3TrEf2" id="KwXu1WSwxb" role="2OqNvi">
@@ -1534,9 +1535,31 @@
       </node>
       <node concept="3_3kQU" id="1UH1ei5nunb" role="3kgYXv">
         <property role="3_3kQV" value="expression" />
-        <node concept="29HgVG" id="1UH1ei5nu_z" role="lGtFl">
-          <node concept="3NFfHV" id="1UH1ei5nu_$" role="3NFExx">
-            <node concept="3clFbS" id="1UH1ei5nu__" role="2VODD2">
+        <node concept="1W57fq" id="4Ji2eMKMj6C" role="lGtFl">
+          <node concept="3IZrLx" id="4Ji2eMKMj6G" role="3IZSJc">
+            <node concept="3clFbS" id="4Ji2eMKMj6K" role="2VODD2">
+              <node concept="3clFbF" id="4Ji2eMKMjaz" role="3cqZAp">
+                <node concept="2OqwBi" id="4Ji2eMKMjxO" role="3clFbG">
+                  <node concept="2OqwBi" id="4Ji2eMKMjaA" role="2Oq$k0">
+                    <node concept="30H73N" id="4Ji2eMKMjaB" role="2Oq$k0" />
+                    <node concept="3TrEf2" id="4Ji2eMKMjaC" role="2OqNvi">
+                      <ref role="3Tt5mk" to="c07g:1UH1ei482_d" />
+                    </node>
+                  </node>
+                  <node concept="3x8VRR" id="4Ji2eMKMjGU" role="2OqNvi" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="gft3U" id="4Ji2eMKMKs6" role="UU_$l">
+            <node concept="3_3kQU" id="4Ji2eMKMKw2" role="gfFT$">
+              <property role="3_3kQV" value="TRUE" />
+            </node>
+          </node>
+        </node>
+        <node concept="29HgVG" id="4Ji2eMKMiQH" role="lGtFl">
+          <node concept="3NFfHV" id="4Ji2eMKMiU3" role="3NFExx">
+            <node concept="3clFbS" id="4Ji2eMKMiU4" role="2VODD2">
               <node concept="3clFbF" id="1UH1ei6znp9" role="3cqZAp">
                 <node concept="2OqwBi" id="1UH1ei6znpa" role="3clFbG">
                   <node concept="1PxgMI" id="1UH1ei6znpb" role="2Oq$k0">
