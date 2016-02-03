@@ -7707,7 +7707,7 @@
                       </node>
                       <node concept="3cpWs3" id="2KDWUtYC0wC" role="3uHU7B">
                         <node concept="Xl_RD" id="2KDWUtYC0a0" role="3uHU7B">
-                          <property role="Xl_RC" value="Table path must be under C:\\\\Users (found: " />
+                          <property role="Xl_RC" value="Table path must be under C:\\Users (found: " />
                         </node>
                         <node concept="2GrUjf" id="2KDWUtYC0x4" role="3uHU7w">
                           <ref role="2Gs0qQ" node="2KDWUtYBJ7h" resolve="tablePath" />
@@ -7725,7 +7725,7 @@
                       <node concept="liA8E" id="2KDWUtYBZIi" role="2OqNvi">
                         <ref role="37wK5l" to="wyt6:~String.startsWith(java.lang.String):boolean" resolve="startsWith" />
                         <node concept="Xl_RD" id="2KDWUtYBZIj" role="37wK5m">
-                          <property role="Xl_RC" value="C:\\\\Users" />
+                          <property role="Xl_RC" value="C:\\Users" />
                         </node>
                       </node>
                     </node>
