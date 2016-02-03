@@ -7655,6 +7655,99 @@
               </node>
             </node>
           </node>
+          <node concept="3clFbJ" id="2KDWUu0Fy1B" role="3cqZAp">
+            <node concept="3clFbS" id="2KDWUu0Fy1C" role="3clFbx">
+              <node concept="2LYoGF" id="2KDWUu0Fy1D" role="3cqZAp">
+                <node concept="3cpWs3" id="2KDWUu0Fy1E" role="2LYoNm">
+                  <node concept="Xl_RD" id="2KDWUu0Fy1F" role="3uHU7w">
+                    <property role="Xl_RC" value=")" />
+                  </node>
+                  <node concept="3cpWs3" id="2KDWUu0Fy1G" role="3uHU7B">
+                    <node concept="Xl_RD" id="2KDWUu0Fy1H" role="3uHU7B">
+                      <property role="Xl_RC" value="org.campagnelab.metaR.results_dir must be configured under C:\\Users (found: " />
+                    </node>
+                    <node concept="37vLTw" id="2KDWUu0FzwV" role="3uHU7w">
+                      <ref role="3cqZAo" node="7jqSt7yAgiF" resolve="resultsDirString" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="1Wc70l" id="2KDWUu0Fy1J" role="3clFbw">
+              <node concept="3fqX7Q" id="2KDWUu0Fy1K" role="3uHU7w">
+                <node concept="2OqwBi" id="2KDWUu0Fy1L" role="3fr31v">
+                  <node concept="37vLTw" id="2KDWUu0FyCA" role="2Oq$k0">
+                    <ref role="3cqZAo" node="7jqSt7yAgiF" resolve="resultsDirString" />
+                  </node>
+                  <node concept="liA8E" id="2KDWUu0Fy1N" role="2OqNvi">
+                    <ref role="37wK5l" to="wyt6:~String.startsWith(java.lang.String):boolean" resolve="startsWith" />
+                    <node concept="Xl_RD" id="2KDWUu0Fy1O" role="37wK5m">
+                      <property role="Xl_RC" value="C:\\Users" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="1Wc70l" id="2KDWUu0Fy1P" role="3uHU7B">
+                <node concept="10M0yZ" id="2KDWUu0Fy1Q" role="3uHU7B">
+                  <ref role="1PxDUh" to="zn9m:~SystemInfo" resolve="SystemInfo" />
+                  <ref role="3cqZAo" to="zn9m:~SystemInfo.isWindows" resolve="isWindows" />
+                </node>
+                <node concept="2OqwBi" id="2KDWUu0Fy1R" role="3uHU7w">
+                  <node concept="37vLTw" id="2KDWUu0Ghx5" role="2Oq$k0">
+                    <ref role="3cqZAo" node="7jqSt7yAgiF" resolve="resultsDirString" />
+                  </node>
+                  <node concept="17RvpY" id="2KDWUu0Fy1T" role="2OqNvi" />
+                </node>
+              </node>
+            </node>
+            <node concept="3eNFk2" id="2KDWUu0Fy1U" role="3eNLev">
+              <node concept="3clFbS" id="2KDWUu0Fy1V" role="3eOfB_">
+                <node concept="2LYoGF" id="2KDWUu0Fy1W" role="3cqZAp">
+                  <node concept="3cpWs3" id="2KDWUu0Fy1X" role="2LYoNm">
+                    <node concept="Xl_RD" id="2KDWUu0Fy1Y" role="3uHU7w">
+                      <property role="Xl_RC" value=")" />
+                    </node>
+                    <node concept="3cpWs3" id="2KDWUu0Fy1Z" role="3uHU7B">
+                      <node concept="Xl_RD" id="2KDWUu0Fy20" role="3uHU7B">
+                        <property role="Xl_RC" value="org.campagnelab.metaR.results_dir must be configured under /Users (found: " />
+                      </node>
+                      <node concept="37vLTw" id="2KDWUu0FzNE" role="3uHU7w">
+                        <ref role="3cqZAo" node="7jqSt7yAgiF" resolve="resultsDirString" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="1Wc70l" id="2KDWUu0Fy22" role="3eO9$A">
+                <node concept="3fqX7Q" id="2KDWUu0Fy23" role="3uHU7w">
+                  <node concept="2OqwBi" id="2KDWUu0Fy24" role="3fr31v">
+                    <node concept="37vLTw" id="2KDWUu0Fze8" role="2Oq$k0">
+                      <ref role="3cqZAo" node="7jqSt7yAgiF" resolve="resultsDirString" />
+                    </node>
+                    <node concept="liA8E" id="2KDWUu0Fy26" role="2OqNvi">
+                      <ref role="37wK5l" to="wyt6:~String.startsWith(java.lang.String):boolean" resolve="startsWith" />
+                      <node concept="Xl_RD" id="2KDWUu0Fy27" role="37wK5m">
+                        <property role="Xl_RC" value="/Users" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="1Wc70l" id="2KDWUu0Fy28" role="3uHU7B">
+                  <node concept="10M0yZ" id="2KDWUu0Fy29" role="3uHU7B">
+                    <ref role="1PxDUh" to="zn9m:~SystemInfo" resolve="SystemInfo" />
+                    <ref role="3cqZAo" to="zn9m:~SystemInfo.isMac" resolve="isMac" />
+                  </node>
+                  <node concept="2OqwBi" id="2KDWUu0Fy2a" role="3uHU7w">
+                    <node concept="37vLTw" id="2KDWUu0FyVp" role="2Oq$k0">
+                      <ref role="3cqZAo" node="7jqSt7yAgiF" resolve="resultsDirString" />
+                    </node>
+                    <node concept="17RvpY" id="2KDWUu0Fy2c" role="2OqNvi" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbH" id="2KDWUu0FxxU" role="3cqZAp" />
           <node concept="34ab3g" id="7jqSt7zA60f" role="3cqZAp">
             <property role="35gtTG" value="info" />
             <node concept="3cpWs3" id="7jqSt7$ipMn" role="34bqiv">
