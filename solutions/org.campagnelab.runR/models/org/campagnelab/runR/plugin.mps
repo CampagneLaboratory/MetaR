@@ -6415,7 +6415,7 @@
                   <node concept="3clFbF" id="2KDWUtYHPQx" role="3cqZAp">
                     <node concept="37vLTI" id="2KDWUtYHPQy" role="3clFbG">
                       <node concept="Xl_RD" id="2KDWUtYHPQz" role="37vLTx">
-                        <property role="Xl_RC" value="C:\\Program Files\\kitematic\\docker.exe" />
+                        <property role="Xl_RC" value="C:\\Program Files\\Docker Toolbox\\docker.exe" />
                       </node>
                       <node concept="2OqwBi" id="2KDWUtYHPQ$" role="37vLTJ">
                         <node concept="2WthIp" id="2KDWUtYHPQ_" role="2Oq$k0" />
