@@ -339,6 +339,7 @@
       <concept id="1225271177708" name="jetbrains.mps.baseLanguage.structure.StringType" flags="in" index="17QB3L" />
       <concept id="1225271221393" name="jetbrains.mps.baseLanguage.structure.NPENotEqualsExpression" flags="nn" index="17QLQc" />
       <concept id="1225271283259" name="jetbrains.mps.baseLanguage.structure.NPEEqualsExpression" flags="nn" index="17R0WA" />
+      <concept id="1225271369338" name="jetbrains.mps.baseLanguage.structure.IsEmptyOperation" flags="nn" index="17RlXB" />
       <concept id="1225271408483" name="jetbrains.mps.baseLanguage.structure.IsNotEmptyOperation" flags="nn" index="17RvpY" />
       <concept id="4972933694980447171" name="jetbrains.mps.baseLanguage.structure.BaseVariableDeclaration" flags="ng" index="19Szcq">
         <child id="5680397130376446158" name="type" index="1tU5fm" />
@@ -5364,6 +5365,34 @@
               </node>
             </node>
           </node>
+          <node concept="3clFbJ" id="2KDWUu0H8bk" role="3cqZAp">
+            <node concept="3clFbS" id="2KDWUu0H8bl" role="3clFbx">
+              <node concept="2LYoGF" id="2KDWUu0H8bm" role="3cqZAp">
+                <node concept="Xl_RD" id="2KDWUu0H8bn" role="2LYoNm">
+                  <property role="Xl_RC" value="org.campagnelab.metaR.results_dir must be configured in order to run the analysis." />
+                </node>
+              </node>
+            </node>
+            <node concept="22lmx$" id="2KDWUu0H8bo" role="3clFbw">
+              <node concept="2OqwBi" id="2KDWUu0H8bp" role="3uHU7B">
+                <node concept="37vLTw" id="2KDWUu0H8bq" role="2Oq$k0">
+                  <ref role="3cqZAo" node="7jqSt7zlKmA" resolve="resultsDirString" />
+                </node>
+                <node concept="17RlXB" id="2KDWUu0H8br" role="2OqNvi" />
+              </node>
+              <node concept="2OqwBi" id="2KDWUu0H8bs" role="3uHU7w">
+                <node concept="37vLTw" id="2KDWUu0H8bt" role="2Oq$k0">
+                  <ref role="3cqZAo" node="7jqSt7zlKmA" resolve="resultsDirString" />
+                </node>
+                <node concept="liA8E" id="2KDWUu0H8bu" role="2OqNvi">
+                  <ref role="37wK5l" to="wyt6:~String.startsWith(java.lang.String):boolean" resolve="startsWith" />
+                  <node concept="Xl_RD" id="2KDWUu0H8bv" role="37wK5m">
+                    <property role="Xl_RC" value="${" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
           <node concept="3cpWs8" id="7jqSt7zlKmG" role="3cqZAp">
             <node concept="3cpWsn" id="7jqSt7zlKmH" role="3cpWs9">
               <property role="TrG5h" value="resultsDir" />
@@ -7655,6 +7684,34 @@
               </node>
             </node>
           </node>
+          <node concept="3clFbJ" id="2KDWUu0GVxC" role="3cqZAp">
+            <node concept="3clFbS" id="2KDWUu0GVxE" role="3clFbx">
+              <node concept="2LYoGF" id="2KDWUu0H4PE" role="3cqZAp">
+                <node concept="Xl_RD" id="2KDWUu0H4PI" role="2LYoNm">
+                  <property role="Xl_RC" value="org.campagnelab.metaR.results_dir must be configured in order to run the analysis." />
+                </node>
+              </node>
+            </node>
+            <node concept="22lmx$" id="2KDWUu0H6Tf" role="3clFbw">
+              <node concept="2OqwBi" id="2KDWUu0H7gE" role="3uHU7B">
+                <node concept="37vLTw" id="2KDWUu0H7dj" role="2Oq$k0">
+                  <ref role="3cqZAo" node="7jqSt7yAgiF" resolve="resultsDirString" />
+                </node>
+                <node concept="17RlXB" id="2KDWUu0H7xK" role="2OqNvi" />
+              </node>
+              <node concept="2OqwBi" id="2KDWUu0H3z9" role="3uHU7w">
+                <node concept="37vLTw" id="2KDWUu0H5DM" role="2Oq$k0">
+                  <ref role="3cqZAo" node="7jqSt7yAgiF" resolve="resultsDirString" />
+                </node>
+                <node concept="liA8E" id="2KDWUu0H4Pc" role="2OqNvi">
+                  <ref role="37wK5l" to="wyt6:~String.startsWith(java.lang.String):boolean" resolve="startsWith" />
+                  <node concept="Xl_RD" id="2KDWUu0H7Cx" role="37wK5m">
+                    <property role="Xl_RC" value="${" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
           <node concept="3clFbJ" id="2KDWUu0Fy1B" role="3cqZAp">
             <node concept="3clFbS" id="2KDWUu0Fy1C" role="3clFbx">
               <node concept="2LYoGF" id="2KDWUu0Fy1D" role="3cqZAp">
@@ -7766,7 +7823,7 @@
                       </node>
                     </node>
                     <node concept="Xl_RD" id="7jqSt7zFvsw" role="3uHU7w">
-                      <property role="Xl_RC" value=" inputTablePaths=" />
+                      <property role="Xl_RC" value=", inputTablePaths=" />
                     </node>
                   </node>
                   <node concept="2OqwBi" id="7jqSt7zFwYL" role="3uHU7w">
@@ -7781,7 +7838,7 @@
                   </node>
                 </node>
                 <node concept="Xl_RD" id="7jqSt7$ipcR" role="3uHU7w">
-                  <property role="Xl_RC" value="result_dir= " />
+                  <property role="Xl_RC" value=", result_dir= " />
                 </node>
               </node>
             </node>
