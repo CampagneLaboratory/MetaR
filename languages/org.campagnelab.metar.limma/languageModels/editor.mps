@@ -23,6 +23,7 @@
       <concept id="1080736578640" name="jetbrains.mps.lang.editor.structure.BaseEditorComponent" flags="ig" index="2wURMF">
         <child id="1080736633877" name="cellModel" index="2wV5jI" />
       </concept>
+      <concept id="1186403751766" name="jetbrains.mps.lang.editor.structure.FontStyleStyleClassItem" flags="ln" index="Vb9p2" />
       <concept id="1186414536763" name="jetbrains.mps.lang.editor.structure.BooleanStyleSheetItem" flags="ln" index="VOi$J">
         <property id="1186414551515" name="flag" index="VOm3f" />
       </concept>
@@ -109,8 +110,19 @@
       <node concept="3F0ifn" id="7$n2ViPwM1S" role="3EZMnx">
         <property role="3F0ifm" value="-&gt;" />
       </node>
+      <node concept="3F0ifn" id="1EG$v9O8LYU" role="3EZMnx">
+        <property role="3F0ifm" value="stats:" />
+        <node concept="Vb9p2" id="1EG$v9O8M3u" role="3F10Kt" />
+      </node>
       <node concept="3F1sOY" id="7$n2ViPs1mb" role="3EZMnx">
         <ref role="1NtTu8" to="jl4n:7$n2ViPrFPR" />
+      </node>
+      <node concept="3F0ifn" id="1EG$v9O8M6w" role="3EZMnx">
+        <property role="3F0ifm" value="normalized:" />
+        <node concept="Vb9p2" id="1EG$v9O8M9E" role="3F10Kt" />
+      </node>
+      <node concept="3F1sOY" id="1EG$v9O8uk_" role="3EZMnx">
+        <ref role="1NtTu8" to="jl4n:1EG$v9O8udR" />
       </node>
       <node concept="3EZMnI" id="4ssfE$9PSsp" role="3EZMnx">
         <node concept="VPM3Z" id="4ssfE$9PSsr" role="3F10Kt">

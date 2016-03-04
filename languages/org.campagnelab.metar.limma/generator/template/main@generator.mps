@@ -369,6 +369,34 @@
             </node>
           </node>
         </node>
+        <node concept="1UUvTB" id="1EG$v9O9n17" role="v9R3O">
+          <node concept="1UU6SM" id="1EG$v9O9n19" role="1UU7Ll">
+            <node concept="3clFbS" id="1EG$v9O9n1b" role="2VODD2">
+              <node concept="3clFbF" id="1EG$v9O9oij" role="3cqZAp">
+                <node concept="2YIFZM" id="1EG$v9O9onh" role="3clFbG">
+                  <ref role="37wK5l" to="1mjk:ESqoaSL1vt" resolve="RName" />
+                  <ref role="1Pybhc" to="1mjk:ESqoaSL1tG" resolve="NameHelper" />
+                  <node concept="2OqwBi" id="1EG$v9O9nZx" role="37wK5m">
+                    <node concept="2OqwBi" id="1EG$v9O9nyk" role="2Oq$k0">
+                      <node concept="2OqwBi" id="1EG$v9O9ndf" role="2Oq$k0">
+                        <node concept="30H73N" id="1EG$v9O9n7z" role="2Oq$k0" />
+                        <node concept="3TrEf2" id="1EG$v9O9nlX" role="2OqNvi">
+                          <ref role="3Tt5mk" to="jl4n:1EG$v9O8udR" />
+                        </node>
+                      </node>
+                      <node concept="3TrEf2" id="1EG$v9O9nI0" role="2OqNvi">
+                        <ref role="3Tt5mk" to="jrxw:2WRhvFto5FZ" />
+                      </node>
+                    </node>
+                    <node concept="3TrcHB" id="1EG$v9O9o9E" role="2OqNvi">
+                      <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
       </node>
     </node>
   </node>
@@ -384,6 +412,10 @@
       <node concept="3Tqbb2" id="6XP3gVe7Mo2" role="1N15GL">
         <ref role="ehGHo" to="jrxw:3R5AwWRY9uN" resolve="TableRef" />
       </node>
+    </node>
+    <node concept="1N15co" id="1EG$v9O9ieV" role="1s_3oS">
+      <property role="TrG5h" value="normalizedTableName" />
+      <node concept="17QB3L" id="1EG$v9O9jOa" role="1N15GL" />
     </node>
     <node concept="3eWmRk" id="fAbp8R9Cul" role="13RCb5">
       <property role="1gZaPE" value="" />
@@ -1639,6 +1671,11 @@
           </node>
           <node concept="2G3XJi" id="5HtHr3DJius" role="2G3XIn">
             <property role="1gZaPE" value="" />
+            <node concept="1gZcZf" id="1EG$v9O9hw9" role="2G3XIn">
+              <node concept="3_3kQU" id="5HtHr3DJiuw" role="3_3kQL">
+                <property role="3_3kQV" value="" />
+              </node>
+            </node>
             <node concept="1gZcZf" id="5HtHr3DJrN7" role="2G3XIn">
               <property role="1gZaPE" value="" />
               <node concept="3_3kQU" id="5HtHr3DJrN8" role="3_3kQL">
@@ -1682,9 +1719,6 @@
               </node>
             </node>
             <node concept="1gZcZf" id="1xl_oUAMds4" role="2G3XIn" />
-            <node concept="3_3kQU" id="5HtHr3DJiuw" role="3_3kQL">
-              <property role="3_3kQV" value="" />
-            </node>
             <node concept="2G3XJi" id="4ssfE$836H3" role="2G3XIn">
               <property role="1gZaPE" value="" />
               <node concept="1gZcZf" id="4ssfE$836H4" role="2G3XIn">
@@ -2198,13 +2232,70 @@
                 </node>
               </node>
               <node concept="1gZcZf" id="4ssfE$beT88" role="2G3XIn">
-                <node concept="3_3kQU" id="4ssfE$beT89" role="3_3kQL">
+                <node concept="3_3kQU" id="1EG$v9O9jP3" role="3_3kQL">
+                  <property role="3_3kQV" value="" />
+                </node>
+                <node concept="3_3kQU" id="1EG$v9O9jP4" role="3_3kQL">
+                  <property role="3_3kQV" value="normalized" />
+                  <node concept="17Uvod" id="1EG$v9O9jPg" role="lGtFl">
+                    <property role="P4ACc" value="901f5cf3-dc77-4c1e-bc5a-6382baee28b4/1680136183140337486/1680136183140337487" />
+                    <property role="2qtEX9" value="text" />
+                    <node concept="3zFVjK" id="1EG$v9O9jPh" role="3zH0cK">
+                      <node concept="3clFbS" id="1EG$v9O9jPi" role="2VODD2">
+                        <node concept="3clFbF" id="1EG$v9O9jQ2" role="3cqZAp">
+                          <node concept="2OqwBi" id="1EG$v9O9kcf" role="3clFbG">
+                            <node concept="1iwH7S" id="1EG$v9O9jQ1" role="2Oq$k0" />
+                            <node concept="3cR$yn" id="1EG$v9O9kdy" role="2OqNvi">
+                              <ref role="3cRzXn" node="1EG$v9O9ieV" resolve="normalizedTableName" />
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="3_3kQU" id="1EG$v9O9jP5" role="3_3kQL">
+                  <property role="3_3kQV" value="&lt;-data.table(copy(voom$E))" />
+                </node>
+                <node concept="3_3kQU" id="1EG$v9O9hvX" role="3_3kQL">
+                  <property role="3_3kQV" value="" />
+                </node>
+                <node concept="3_3kQU" id="1EG$v9O9hw2" role="3_3kQL">
                   <property role="3_3kQV" value="" />
                 </node>
               </node>
               <node concept="1gZcZf" id="4ssfE$84lfj" role="2G3XIn">
                 <property role="1gZaPE" value="" />
-                <node concept="3_3kQU" id="6gze2t0ITIV" role="3_3kQL">
+              </node>
+              <node concept="1gZcZf" id="1EG$v9OaNRn" role="2G3XIn">
+                <node concept="3_3kQU" id="1EG$v9OaOmW" role="3_3kQL">
+                  <property role="3_3kQV" value="" />
+                </node>
+                <node concept="3_3kQU" id="1EG$v9OaOmX" role="3_3kQL">
+                  <property role="3_3kQV" value="normalized" />
+                  <node concept="17Uvod" id="1EG$v9OaOn5" role="lGtFl">
+                    <property role="P4ACc" value="901f5cf3-dc77-4c1e-bc5a-6382baee28b4/1680136183140337486/1680136183140337487" />
+                    <property role="2qtEX9" value="text" />
+                    <node concept="3zFVjK" id="1EG$v9OaOn6" role="3zH0cK">
+                      <node concept="3clFbS" id="1EG$v9OaOn7" role="2VODD2">
+                        <node concept="3clFbF" id="1EG$v9OaPNv" role="3cqZAp">
+                          <node concept="2OqwBi" id="1EG$v9OaPON" role="3clFbG">
+                            <node concept="1iwH7S" id="1EG$v9OaPNq" role="2Oq$k0" />
+                            <node concept="3cR$yn" id="1EG$v9OaPSX" role="2OqNvi">
+                              <ref role="3cRzXn" node="1EG$v9O9ieV" resolve="normalizedTableName" />
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="3_3kQU" id="1EG$v9OaOmY" role="3_3kQL">
+                  <property role="3_3kQV" value="$gene &lt;- voom$gene[,1]" />
+                </node>
+              </node>
+              <node concept="1gZcZf" id="1EG$v9O9hRK" role="2G3XIn">
+                <node concept="3_3kQU" id="1EG$v9O9hRL" role="3_3kQL">
                   <property role="3_3kQV" value="# TODO: change the below line to use constrasts from the limmaVoom statement:" />
                 </node>
                 <node concept="3_3kQU" id="4ssfE$84lfk" role="3_3kQL">
