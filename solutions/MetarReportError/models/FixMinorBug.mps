@@ -2,16 +2,16 @@
 <model ref="r:12a7542e-25b0-415d-8baf-f45bbd06d8a7(FixMinorBug)">
   <persistence version="9" />
   <languages>
-    <use id="5d6bde84-4ce4-4eb5-a37e-25a5edd55129" name="org.campagnelab.metar.tables" version="-1" />
-    <use id="5ec1cd3d-0a50-4049-a8fa-ae768d7baa25" name="org.campagnelab.mps.XChart" version="-1" />
-    <use id="067d1b0c-daf1-44f9-9fbd-e1dd4c6e26e8" name="org.campagnelab.metar.simulation" version="-1" />
+    <use id="5d6bde84-4ce4-4eb5-a37e-25a5edd55129" name="org.campagnelab.metar.tables" version="1" />
+    <use id="5ec1cd3d-0a50-4049-a8fa-ae768d7baa25" name="org.campagnelab.mps.XChart" version="0" />
+    <use id="067d1b0c-daf1-44f9-9fbd-e1dd4c6e26e8" name="org.campagnelab.metar.simulation" version="0" />
     <use id="32f503e8-061b-451e-bcb0-fef56aa05eb9" name="org.campagnelab.metar.inspect" version="0" />
     <use id="ecc862c9-5ab5-42ef-8703-2039019fb338" name="org.campagnelab.metar.models" version="1" />
     <use id="901f5cf3-dc77-4c1e-bc5a-6382baee28b4" name="org.campagnelab.textoutput" version="0" />
     <use id="ecf91126-e504-4aae-8ee7-3192d64e77f6" name="org.campagnelab.mps.XChart.types" version="0" />
     <use id="43f31864-fc67-43f5-873e-ab79cc279a2d" name="org.campagnelab.styles" version="0" />
     <use id="4caf0310-491e-41f5-8a9b-2006b3a94898" name="jetbrains.mps.execution.util" version="0" />
-    <use id="049ed9e7-0f0d-4814-a373-a4b21e15b59e" name="org.campagnelab.metar.limma" version="0" />
+    <use id="049ed9e7-0f0d-4814-a373-a4b21e15b59e" name="org.campagnelab.metar.limma" version="1" />
     <use id="ed6d7656-532c-4bc2-81d1-af945aeb8280" name="jetbrains.mps.baseLanguage.blTypes" version="0" />
     <use id="9ded098b-ad6a-4657-bfd9-48636cfe8bc3" name="jetbrains.mps.lang.traceable" version="0" />
     <use id="837afec3-cff0-45b1-a221-6b811148f87e" name="org.campagnelab.metar.R.gen" version="0" />
@@ -63,6 +63,7 @@
         <child id="8725455673819568087" name="countsTable" index="3cupLz" />
         <child id="8725455673819577719" name="destinationTable" index="3curr3" />
         <child id="5124039371776301535" name="adjustedCountsTable" index="1eMUtQ" />
+        <child id="1922071611496850295" name="normalizedTable" index="1Izna5" />
       </concept>
     </language>
     <language id="3b58810c-8431-4bbb-99ea-b4671e02dd13" name="org.campagnelab.metar.R">
@@ -1270,6 +1271,12 @@
             </node>
           </node>
         </node>
+        <node concept="3MlLWZ" id="1hAe0O97fY7" role="1Izna5">
+          <ref role="3MlLW5" node="1hAe0O97fY8" />
+          <node concept="3Mpm39" id="1hAe0O97fY8" role="3WeD9t">
+            <property role="31Cu5t" value="&#9;" />
+          </node>
+        </node>
       </node>
       <node concept="S1EQe" id="15vsuTfxGRT" role="ZXjPg">
         <property role="S1EQ6" value="VNVXOMSJPS" />
@@ -2271,6 +2278,12 @@
                 </node>
               </node>
             </node>
+          </node>
+        </node>
+        <node concept="3MlLWZ" id="1hAe0O97fYb" role="1Izna5">
+          <ref role="3MlLW5" node="1hAe0O97fYc" />
+          <node concept="3Mpm39" id="1hAe0O97fYc" role="3WeD9t">
+            <property role="31Cu5t" value="&#9;" />
           </node>
         </node>
       </node>

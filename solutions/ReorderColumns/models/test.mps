@@ -48,6 +48,7 @@
       <concept id="8725455673819557579" name="org.campagnelab.metar.limma.structure.LimmaVoom" flags="ng" index="3cumlZ">
         <child id="8725455673819568087" name="countsTable" index="3cupLz" />
         <child id="8725455673819577719" name="destinationTable" index="3curr3" />
+        <child id="1922071611496850295" name="normalizedTable" index="1Izna5" />
       </concept>
     </language>
     <language id="5d6bde84-4ce4-4eb5-a37e-25a5edd55129" name="org.campagnelab.metar.tables">
@@ -1958,6 +1959,12 @@
         </node>
         <node concept="afgQW" id="3COkWcofU9i" role="3cupLz">
           <ref role="afgo8" node="3COkWco1BI3" resolve="ordergroup" />
+        </node>
+        <node concept="3MlLWZ" id="1hAe0O97fXo" role="1Izna5">
+          <ref role="3MlLW5" node="1hAe0O97fXp" />
+          <node concept="3Mpm39" id="1hAe0O97fXp" role="3WeD9t">
+            <property role="31Cu5t" value="&#9;" />
+          </node>
         </node>
       </node>
       <node concept="S1EQe" id="3COkWcofUba" role="ZXjPg">

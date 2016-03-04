@@ -2,16 +2,16 @@
 <model ref="r:580c5a6d-8555-42ff-ab9f-d1990379d2dc(Limma)">
   <persistence version="9" />
   <languages>
-    <use id="46803809-20ee-443f-bea9-0bee114b90b3" name="org.campagnelab.metar.edgeR" version="-1" />
-    <use id="ed6d7656-532c-4bc2-81d1-af945aeb8280" name="jetbrains.mps.baseLanguage.blTypes" version="-1" />
-    <use id="ecf91126-e504-4aae-8ee7-3192d64e77f6" name="org.campagnelab.mps.XChart.types" version="-1" />
-    <use id="9ded098b-ad6a-4657-bfd9-48636cfe8bc3" name="jetbrains.mps.lang.traceable" version="-1" />
-    <use id="4caf0310-491e-41f5-8a9b-2006b3a94898" name="jetbrains.mps.execution.util" version="-1" />
-    <use id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures" version="-1" />
-    <use id="ecc862c9-5ab5-42ef-8703-2039019fb338" name="org.campagnelab.metar.models" version="-1" />
-    <use id="901f5cf3-dc77-4c1e-bc5a-6382baee28b4" name="org.campagnelab.textoutput" version="-1" />
-    <use id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections" version="-1" />
-    <use id="049ed9e7-0f0d-4814-a373-a4b21e15b59e" name="org.campagnelab.metar.limma" version="-1" />
+    <use id="46803809-20ee-443f-bea9-0bee114b90b3" name="org.campagnelab.metar.edgeR" version="1" />
+    <use id="ed6d7656-532c-4bc2-81d1-af945aeb8280" name="jetbrains.mps.baseLanguage.blTypes" version="0" />
+    <use id="ecf91126-e504-4aae-8ee7-3192d64e77f6" name="org.campagnelab.mps.XChart.types" version="0" />
+    <use id="9ded098b-ad6a-4657-bfd9-48636cfe8bc3" name="jetbrains.mps.lang.traceable" version="0" />
+    <use id="4caf0310-491e-41f5-8a9b-2006b3a94898" name="jetbrains.mps.execution.util" version="0" />
+    <use id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures" version="0" />
+    <use id="ecc862c9-5ab5-42ef-8703-2039019fb338" name="org.campagnelab.metar.models" version="1" />
+    <use id="901f5cf3-dc77-4c1e-bc5a-6382baee28b4" name="org.campagnelab.textoutput" version="0" />
+    <use id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections" version="0" />
+    <use id="049ed9e7-0f0d-4814-a373-a4b21e15b59e" name="org.campagnelab.metar.limma" version="1" />
     <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="1" />
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="4" />
     <devkit ref="8a3636fa-c6ec-4cb0-bc2a-b7143f2a4937(org.campagnelab.metaR)" />
@@ -75,6 +75,7 @@
         <child id="8725455673819568087" name="countsTable" index="3cupLz" />
         <child id="8725455673819577719" name="destinationTable" index="3curr3" />
         <child id="5124039371776301535" name="adjustedCountsTable" index="1eMUtQ" />
+        <child id="1922071611496850295" name="normalizedTable" index="1Izna5" />
       </concept>
     </language>
     <language id="5d6bde84-4ce4-4eb5-a37e-25a5edd55129" name="org.campagnelab.metar.tables">
@@ -853,7 +854,7 @@
         <node concept="10WucB" id="6gze2t0OYn2" role="1f2fMI">
           <node concept="10WucW" id="6gze2t0OYn3" role="10WucA">
             <node concept="10WucX" id="6gze2t0OYn4" role="10Wuc_" />
-            <node concept="10WucS" id="6gze2t0OYn5" role="10Wuc$">
+            <node concept="10WucS" id="4Ji2eMKPQJH" role="10Wuc$">
               <ref role="10WucV" node="6gze2t0OYfq" resolve="LPS" />
             </node>
           </node>
@@ -1080,6 +1081,12 @@
                 </node>
               </node>
             </node>
+          </node>
+        </node>
+        <node concept="3MlLWZ" id="1EG$v9OgGjA" role="1Izna5">
+          <ref role="3MlLW5" node="1EG$v9OgGjD" />
+          <node concept="3Mpm39" id="1EG$v9OgGjD" role="3WeD9t">
+            <property role="31Cu5t" value="&#9;" />
           </node>
         </node>
       </node>
@@ -1686,7 +1693,7 @@
         <property role="S1EQ6" value="TNESFOQHSM" />
         <property role="313rra" value="1" />
         <property role="313rrk" value="1" />
-        <property role="31lnkE" value="false" />
+        <property role="31lnkE" value="true" />
         <node concept="31becx" id="6gze2t0OYrn" role="312phR">
           <ref role="312p7B" node="6gze2t0OYre" resolve="plot" />
         </node>

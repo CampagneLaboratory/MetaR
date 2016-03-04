@@ -2,13 +2,13 @@
 <model ref="r:93b4947c-9ddb-4dce-a185-c9c28ec5bba4(org.campagnelab.metar.functions.importing.intentions)">
   <persistence version="9" />
   <languages>
-    <use id="d7a92d38-f7db-40d0-8431-763b0c3c9f20" name="jetbrains.mps.lang.intentions" version="-1" />
+    <use id="d7a92d38-f7db-40d0-8431-763b0c3c9f20" name="jetbrains.mps.lang.intentions" version="0" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
-    <import index="fxg7" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.io(JDK/java.io@java_stub)" />
-    <import index="798x" ref="r:1634ef7f-18ee-43e5-8286-5fcfc24745c4(org.campagnelab.metar.functions.importing.behavior)" implicit="true" />
+    <import index="guwi" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" />
     <import index="8t56" ref="r:c30a0469-24e5-4b8a-89e7-0d2028c5aa49(org.campagnelab.metar.functions.importing.structure)" implicit="true" />
+    <import index="798x" ref="r:1634ef7f-18ee-43e5-8286-5fcfc24745c4(org.campagnelab.metar.functions.importing.behavior)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -104,7 +104,7 @@
             <node concept="2OqwBi" id="4OlXQqAjWlh" role="3uHU7w">
               <node concept="2ShNRf" id="4OlXQqAjV7h" role="2Oq$k0">
                 <node concept="1pGfFk" id="4OlXQqAjVlj" role="2ShVmc">
-                  <ref role="37wK5l" to="fxg7:~File.&lt;init&gt;(java.lang.String)" resolve="File" />
+                  <ref role="37wK5l" to="guwi:~File.&lt;init&gt;(java.lang.String)" resolve="File" />
                   <node concept="2OqwBi" id="4OlXQqAjV__" role="37wK5m">
                     <node concept="2Sf5sV" id="4OlXQqAjVtF" role="2Oq$k0" />
                     <node concept="3TrcHB" id="4OlXQqAjW7g" role="2OqNvi">
@@ -114,7 +114,7 @@
                 </node>
               </node>
               <node concept="liA8E" id="4OlXQqAjXY_" role="2OqNvi">
-                <ref role="37wK5l" to="fxg7:~File.exists():boolean" resolve="exists" />
+                <ref role="37wK5l" to="guwi:~File.exists():boolean" resolve="exists" />
               </node>
             </node>
             <node concept="2OqwBi" id="4OlXQqAjSOs" role="3uHU7B">

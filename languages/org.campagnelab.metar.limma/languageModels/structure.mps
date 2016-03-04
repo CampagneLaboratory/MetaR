@@ -64,6 +64,12 @@
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" to="jrxw:2WRhvFto5F5" resolve="FutureTable" />
     </node>
+    <node concept="1TJgyj" id="1EG$v9O8udR" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="normalizedTable" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" to="jrxw:2WRhvFto5F5" resolve="FutureTable" />
+    </node>
     <node concept="1TJgyj" id="4ssfE$9PTBv" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="adjustedCountsTable" />

@@ -2,12 +2,12 @@
 <model ref="r:b2a1e21d-cec3-44c1-a4e8-4aac1a9de0c9(org.campagnelab.metar.limma.generator.template.main@generator)">
   <persistence version="9" />
   <languages>
-    <use id="049ed9e7-0f0d-4814-a373-a4b21e15b59e" name="org.campagnelab.metar.limma" version="-1" />
-    <use id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core" version="-1" />
-    <use id="d7706f63-9be2-479c-a3da-ae92af1e64d5" name="jetbrains.mps.lang.generator.generationContext" version="-1" />
-    <use id="b401a680-8325-4110-8fd3-84331ff25bef" name="jetbrains.mps.lang.generator" version="-1" />
-    <use id="32f503e8-061b-451e-bcb0-fef56aa05eb9" name="org.campagnelab.metar.inspect" version="-1" />
-    <use id="901f5cf3-dc77-4c1e-bc5a-6382baee28b4" name="org.campagnelab.textoutput" version="-1" />
+    <use id="049ed9e7-0f0d-4814-a373-a4b21e15b59e" name="org.campagnelab.metar.limma" version="1" />
+    <use id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core" version="1" />
+    <use id="d7706f63-9be2-479c-a3da-ae92af1e64d5" name="jetbrains.mps.lang.generator.generationContext" version="0" />
+    <use id="b401a680-8325-4110-8fd3-84331ff25bef" name="jetbrains.mps.lang.generator" version="0" />
+    <use id="32f503e8-061b-451e-bcb0-fef56aa05eb9" name="org.campagnelab.metar.inspect" version="0" />
+    <use id="901f5cf3-dc77-4c1e-bc5a-6382baee28b4" name="org.campagnelab.textoutput" version="0" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -2290,12 +2290,126 @@
                     </node>
                   </node>
                 </node>
-                <node concept="3_3kQU" id="1EG$v9OaOmY" role="3_3kQL">
-                  <property role="3_3kQV" value="$gene &lt;- voom$gene[,1]" />
+                <node concept="3_3kQU" id="5jhuo0NwqTu" role="3_3kQL">
+                  <property role="3_3kQV" value="$&quot;" />
+                </node>
+                <node concept="3_3kQU" id="5jhuo0NwqTv" role="3_3kQL">
+                  <property role="3_3kQV" value="gene" />
+                  <node concept="17Uvod" id="5jhuo0NwqTT" role="lGtFl">
+                    <property role="P4ACc" value="901f5cf3-dc77-4c1e-bc5a-6382baee28b4/1680136183140337486/1680136183140337487" />
+                    <property role="2qtEX9" value="text" />
+                    <node concept="3zFVjK" id="5jhuo0NwqTU" role="3zH0cK">
+                      <node concept="3clFbS" id="5jhuo0NwqTV" role="2VODD2">
+                        <node concept="3clFbF" id="5jhuo0NwqUE" role="3cqZAp">
+                          <node concept="2OqwBi" id="5jhuo0NwqUF" role="3clFbG">
+                            <node concept="2OqwBi" id="5jhuo0NwqUG" role="2Oq$k0">
+                              <node concept="2OqwBi" id="5jhuo0NwqUH" role="2Oq$k0">
+                                <node concept="30H73N" id="5jhuo0NwqUI" role="2Oq$k0" />
+                                <node concept="3TrEf2" id="5jhuo0NwqUJ" role="2OqNvi">
+                                  <ref role="3Tt5mk" to="jl4n:7$n2ViPrDvn" />
+                                </node>
+                              </node>
+                              <node concept="2qgKlT" id="5jhuo0NwqUK" role="2OqNvi">
+                                <ref role="37wK5l" to="v8sa:6XP3gVdMCs$" resolve="firstColumnWithGroup" />
+                                <node concept="Xl_RD" id="5jhuo0NwqUL" role="37wK5m">
+                                  <property role="Xl_RC" value="ID" />
+                                </node>
+                              </node>
+                            </node>
+                            <node concept="3TrcHB" id="5jhuo0NwqUM" role="2OqNvi">
+                              <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="3_3kQU" id="5jhuo0NwqTw" role="3_3kQL">
+                  <property role="3_3kQV" value="&quot; &lt;- voom$gene[,1]" />
+                </node>
+                <node concept="3_3kQU" id="5jhuo0Nx4iT" role="3_3kQL">
+                  <property role="3_3kQV" value="" />
                 </node>
               </node>
+              <node concept="1gZcZf" id="5jhuo0Nx4kC" role="2G3XIn">
+                <node concept="3_3kQU" id="5jhuo0Nx4kD" role="3_3kQL">
+                  <property role="3_3kQV" value="newcols=shift(colnames(normalized),1)" />
+                </node>
+                <node concept="3_3kQU" id="5jhuo0Nx4Hf" role="3_3kQL" />
+              </node>
               <node concept="1gZcZf" id="1EG$v9O9hRK" role="2G3XIn">
-                <node concept="3_3kQU" id="1EG$v9O9hRL" role="3_3kQL">
+                <node concept="3_3kQU" id="5jhuo0Nx569" role="3_3kQL">
+                  <property role="3_3kQV" value="newcols[1]=&quot;" />
+                </node>
+                <node concept="3_3kQU" id="5jhuo0Nx56a" role="3_3kQL">
+                  <property role="3_3kQV" value="gene" />
+                  <node concept="17Uvod" id="5jhuo0Nx56i" role="lGtFl">
+                    <property role="P4ACc" value="901f5cf3-dc77-4c1e-bc5a-6382baee28b4/1680136183140337486/1680136183140337487" />
+                    <property role="2qtEX9" value="text" />
+                    <node concept="3zFVjK" id="5jhuo0Nx56j" role="3zH0cK">
+                      <node concept="3clFbS" id="5jhuo0Nx56k" role="2VODD2">
+                        <node concept="3clFbF" id="5jhuo0Nx68Q" role="3cqZAp">
+                          <node concept="2OqwBi" id="5jhuo0Nx68R" role="3clFbG">
+                            <node concept="2OqwBi" id="5jhuo0Nx68S" role="2Oq$k0">
+                              <node concept="2OqwBi" id="5jhuo0Nx68T" role="2Oq$k0">
+                                <node concept="30H73N" id="5jhuo0Nx68U" role="2Oq$k0" />
+                                <node concept="3TrEf2" id="5jhuo0Nx68V" role="2OqNvi">
+                                  <ref role="3Tt5mk" to="jl4n:7$n2ViPrDvn" />
+                                </node>
+                              </node>
+                              <node concept="2qgKlT" id="5jhuo0Nx68W" role="2OqNvi">
+                                <ref role="37wK5l" to="v8sa:6XP3gVdMCs$" resolve="firstColumnWithGroup" />
+                                <node concept="Xl_RD" id="5jhuo0Nx68X" role="37wK5m">
+                                  <property role="Xl_RC" value="ID" />
+                                </node>
+                              </node>
+                            </node>
+                            <node concept="3TrcHB" id="5jhuo0Nx68Y" role="2OqNvi">
+                              <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="3_3kQU" id="5jhuo0Nx56b" role="3_3kQL">
+                  <property role="3_3kQV" value="&quot;" />
+                </node>
+              </node>
+              <node concept="1gZcZf" id="5jhuo0Nx4Hm" role="2G3XIn">
+                <node concept="3_3kQU" id="5jhuo0NxD5T" role="3_3kQL">
+                  <property role="3_3kQV" value="setcolorder(" />
+                </node>
+                <node concept="3_3kQU" id="5jhuo0NxD5U" role="3_3kQL">
+                  <property role="3_3kQV" value="normalized" />
+                  <node concept="17Uvod" id="5jhuo0NxD62" role="lGtFl">
+                    <property role="P4ACc" value="901f5cf3-dc77-4c1e-bc5a-6382baee28b4/1680136183140337486/1680136183140337487" />
+                    <property role="2qtEX9" value="text" />
+                    <node concept="3zFVjK" id="5jhuo0NxD63" role="3zH0cK">
+                      <node concept="3clFbS" id="5jhuo0NxD64" role="2VODD2">
+                        <node concept="3clFbF" id="5jhuo0NxDo6" role="3cqZAp">
+                          <node concept="2OqwBi" id="5jhuo0NxDo7" role="3clFbG">
+                            <node concept="1iwH7S" id="5jhuo0NxDo8" role="2Oq$k0" />
+                            <node concept="3cR$yn" id="5jhuo0NxDo9" role="2OqNvi">
+                              <ref role="3cRzXn" node="1EG$v9O9ieV" resolve="normalizedTableName" />
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="3_3kQU" id="5jhuo0NxD5V" role="3_3kQL">
+                  <property role="3_3kQV" value=", newcols)" />
+                </node>
+              </node>
+              <node concept="1gZcZf" id="5jhuo0NxCFa" role="2G3XIn">
+                <node concept="3_3kQU" id="5jhuo0Nx6A0" role="3_3kQL" />
+              </node>
+              <node concept="1gZcZf" id="5jhuo0Nx6c9" role="2G3XIn">
+                <node concept="3_3kQU" id="5jhuo0Nx6ca" role="3_3kQL">
                   <property role="3_3kQV" value="# TODO: change the below line to use constrasts from the limmaVoom statement:" />
                 </node>
                 <node concept="3_3kQU" id="4ssfE$84lfk" role="3_3kQL">

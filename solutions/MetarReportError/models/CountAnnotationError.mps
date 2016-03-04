@@ -2,7 +2,7 @@
 <model ref="r:3e2e9cdc-c711-4ff2-8c08-932ce803c530(CountAnnotationError)">
   <persistence version="9" />
   <languages>
-    <use id="5d6bde84-4ce4-4eb5-a37e-25a5edd55129" name="org.campagnelab.metar.tables" version="-1" />
+    <use id="5d6bde84-4ce4-4eb5-a37e-25a5edd55129" name="org.campagnelab.metar.tables" version="1" />
     <use id="32f503e8-061b-451e-bcb0-fef56aa05eb9" name="org.campagnelab.metar.inspect" version="0" />
     <use id="ecc862c9-5ab5-42ef-8703-2039019fb338" name="org.campagnelab.metar.models" version="1" />
     <use id="901f5cf3-dc77-4c1e-bc5a-6382baee28b4" name="org.campagnelab.textoutput" version="0" />
@@ -14,7 +14,7 @@
     <use id="ecf91126-e504-4aae-8ee7-3192d64e77f6" name="org.campagnelab.mps.XChart.types" version="0" />
     <use id="ed6d7656-532c-4bc2-81d1-af945aeb8280" name="jetbrains.mps.baseLanguage.blTypes" version="0" />
     <use id="9ded098b-ad6a-4657-bfd9-48636cfe8bc3" name="jetbrains.mps.lang.traceable" version="0" />
-    <use id="049ed9e7-0f0d-4814-a373-a4b21e15b59e" name="org.campagnelab.metar.limma" version="0" />
+    <use id="049ed9e7-0f0d-4814-a373-a4b21e15b59e" name="org.campagnelab.metar.limma" version="1" />
     <use id="067d1b0c-daf1-44f9-9fbd-e1dd4c6e26e8" name="org.campagnelab.metar.simulation" version="0" />
     <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="1" />
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="4" />
@@ -101,6 +101,7 @@
         <child id="8725455673819568087" name="countsTable" index="3cupLz" />
         <child id="8725455673819577719" name="destinationTable" index="3curr4" />
         <child id="5124039371776301535" name="adjustedCountsTable" index="1eMUtQ" />
+        <child id="1922071611496850295" name="normalizedTable" index="1Izna5" />
       </concept>
     </language>
     <language id="46803809-20ee-443f-bea9-0bee114b90b3" name="org.campagnelab.metar.edgeR">
@@ -3013,6 +3014,12 @@
             </node>
           </node>
         </node>
+        <node concept="3MlLWZ" id="1hAe0O97fY3" role="1Izna5">
+          <ref role="3MlLW5" node="1hAe0O97fY4" />
+          <node concept="3Mpm39" id="1hAe0O97fY4" role="3WeD9t">
+            <property role="31Cu5t" value="&#9;" />
+          </node>
+        </node>
       </node>
       <node concept="S1EQe" id="2hVndXv2Zvr" role="ZXjPg">
         <property role="S1EQ6" value="EUETVUGUQD" />
@@ -4142,6 +4149,12 @@
             </node>
           </node>
         </node>
+        <node concept="3MlLWZ" id="1hAe0O97fY1" role="1Izna5">
+          <ref role="3MlLW5" node="1hAe0O97fY2" />
+          <node concept="3Mpm39" id="1hAe0O97fY2" role="3WeD9t">
+            <property role="31Cu5t" value="&#9;" />
+          </node>
+        </node>
       </node>
       <node concept="S1EQe" id="2hVndXv413r" role="ZXjPg">
         <property role="S1EQ6" value="AWKJJAQDJA" />
@@ -5193,6 +5206,12 @@
                 </node>
               </node>
             </node>
+          </node>
+        </node>
+        <node concept="3MlLWZ" id="1hAe0O97fYh" role="1Izna5">
+          <ref role="3MlLW5" node="1hAe0O97fYi" />
+          <node concept="3Mpm39" id="1hAe0O97fYi" role="3WeD9t">
+            <property role="31Cu5t" value="&#9;" />
           </node>
         </node>
       </node>

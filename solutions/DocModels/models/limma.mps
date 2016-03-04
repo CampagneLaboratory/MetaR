@@ -2,7 +2,7 @@
 <model ref="r:f8a92659-ba84-4623-83ac-107d313dfa60(limma)">
   <persistence version="9" />
   <languages>
-    <use id="049ed9e7-0f0d-4814-a373-a4b21e15b59e" name="org.campagnelab.metar.limma" version="-1" />
+    <use id="049ed9e7-0f0d-4814-a373-a4b21e15b59e" name="org.campagnelab.metar.limma" version="1" />
     <use id="ed6d7656-532c-4bc2-81d1-af945aeb8280" name="jetbrains.mps.baseLanguage.blTypes" version="0" />
     <use id="93bc01ac-08ca-4f11-9c7d-614d04055dfb" name="org.campagnelab.mps.editor2pdf" version="0" />
     <use id="443f4c36-fcf5-4eb6-9500-8d06ed259e3e" name="jetbrains.mps.baseLanguage.classifiers" version="0" />
@@ -12,7 +12,7 @@
     <use id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures" version="0" />
     <use id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections" version="0" />
     <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="1" />
-    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="1" />
+    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="2" />
     <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="2" />
     <devkit ref="8a3636fa-c6ec-4cb0-bc2a-b7143f2a4937(org.campagnelab.metaR)" />
   </languages>
@@ -73,6 +73,7 @@
         <child id="8725455673819568087" name="countsTable" index="3cupLz" />
         <child id="8725455673819577719" name="destinationTable" index="3curr3" />
         <child id="5124039371776301535" name="adjustedCountsTable" index="1eMUtQ" />
+        <child id="1922071611496850295" name="normalizedTable" index="1Izna5" />
       </concept>
     </language>
     <language id="5d6bde84-4ce4-4eb5-a37e-25a5edd55129" name="org.campagnelab.metar.tables">
@@ -180,6 +181,12 @@
           <property role="2ripvU" value="1" />
           <property role="TrG5h" value="NewLimmaVoom" />
           <ref role="KZaLW" node="4bcN0BgiONI" resolve="FIGURES" />
+        </node>
+        <node concept="3MlLWZ" id="1hAe0O97fZl" role="1Izna5">
+          <ref role="3MlLW5" node="1hAe0O97fZm" />
+          <node concept="3Mpm39" id="1hAe0O97fZm" role="3WeD9t">
+            <property role="31Cu5t" value="&#9;" />
+          </node>
         </node>
       </node>
       <node concept="S1EQe" id="4bcN0BgiOO5" role="ZXjPg">
@@ -722,6 +729,14 @@
           <property role="2ripvU" value="1" />
           <property role="TrG5h" value="LimmaVoomExample" />
           <ref role="KZaLW" node="4bcN0BgiONI" resolve="FIGURES" />
+        </node>
+        <node concept="3MlLWZ" id="1hAe0O97fZh" role="1Izna5">
+          <property role="TrG5h" value="normalized" />
+          <ref role="3MlLW5" node="1hAe0O97fZi" resolve="normalized" />
+          <node concept="3Mpm39" id="1hAe0O97fZi" role="3WeD9t">
+            <property role="31Cu5t" value="&#9;" />
+            <property role="TrG5h" value="normalized" />
+          </node>
         </node>
       </node>
       <node concept="S1EQe" id="4bcN0BgiOOf" role="ZXjPg">

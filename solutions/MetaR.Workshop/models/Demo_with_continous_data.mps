@@ -3,7 +3,7 @@
   <persistence version="9" />
   <languages>
     <use id="46803809-20ee-443f-bea9-0bee114b90b3" name="org.campagnelab.metar.edgeR" version="1" />
-    <use id="049ed9e7-0f0d-4814-a373-a4b21e15b59e" name="org.campagnelab.metar.limma" version="-1" />
+    <use id="049ed9e7-0f0d-4814-a373-a4b21e15b59e" name="org.campagnelab.metar.limma" version="1" />
     <use id="901f5cf3-dc77-4c1e-bc5a-6382baee28b4" name="org.campagnelab.textoutput" version="0" />
     <use id="ecf91126-e504-4aae-8ee7-3192d64e77f6" name="org.campagnelab.mps.XChart.types" version="0" />
     <use id="4caf0310-491e-41f5-8a9b-2006b3a94898" name="jetbrains.mps.execution.util" version="0" />
@@ -80,6 +80,7 @@
         <child id="8725455673819568087" name="countsTable" index="3cupLz" />
         <child id="8725455673819577719" name="destinationTable" index="3curr3" />
         <child id="5124039371776301535" name="adjustedCountsTable" index="1eMUtQ" />
+        <child id="1922071611496850295" name="normalizedTable" index="1Izna5" />
       </concept>
     </language>
     <language id="3b58810c-8431-4bbb-99ea-b4671e02dd13" name="org.campagnelab.metar.R">
@@ -2054,6 +2055,12 @@
             </node>
           </node>
         </node>
+        <node concept="3MlLWZ" id="1hAe0O97fXF" role="1Izna5">
+          <ref role="3MlLW5" node="1hAe0O97fXG" />
+          <node concept="3Mpm39" id="1hAe0O97fXG" role="3WeD9t">
+            <property role="31Cu5t" value="&#9;" />
+          </node>
+        </node>
       </node>
       <node concept="S1EQe" id="4do6Q4YO0W" role="ZXjPg">
         <property role="S1EQ6" value="RQCLIXLUBG" />
@@ -2120,6 +2127,12 @@
         </node>
         <node concept="afgQW" id="4do6Q4YV2D" role="3cupLz">
           <ref role="afgo8" node="2734ievegHY" resolve="SimulatedData.tsv" />
+        </node>
+        <node concept="3MlLWZ" id="1hAe0O97fXH" role="1Izna5">
+          <ref role="3MlLW5" node="1hAe0O97fXI" />
+          <node concept="3Mpm39" id="1hAe0O97fXI" role="3WeD9t">
+            <property role="31Cu5t" value="&#9;" />
+          </node>
         </node>
       </node>
       <node concept="S1EQe" id="4do6Q4Zn6x" role="ZXjPg">
@@ -4141,6 +4154,12 @@
                 </node>
               </node>
             </node>
+          </node>
+        </node>
+        <node concept="3MlLWZ" id="1hAe0O97fXD" role="1Izna5">
+          <ref role="3MlLW5" node="1hAe0O97fXE" />
+          <node concept="3Mpm39" id="1hAe0O97fXE" role="3WeD9t">
+            <property role="31Cu5t" value="&#9;" />
           </node>
         </node>
       </node>
