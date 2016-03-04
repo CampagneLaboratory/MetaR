@@ -70,6 +70,9 @@
       <concept id="4820515453818318288" name="jetbrains.mps.lang.editor.structure.ConceptEditorHintDeclarationReferenceExpression" flags="ng" index="2pYGij">
         <reference id="4820515453818318891" name="hint" index="2pYH_C" />
       </concept>
+      <concept id="4242538589859161874" name="jetbrains.mps.lang.editor.structure.ExplicitHintsSpecification" flags="ng" index="2w$q5c">
+        <child id="4242538589859162459" name="hints" index="2w$qW5" />
+      </concept>
       <concept id="1080736578640" name="jetbrains.mps.lang.editor.structure.BaseEditorComponent" flags="ig" index="2wURMF">
         <child id="1080736633877" name="cellModel" index="2wV5jI" />
       </concept>
@@ -901,7 +904,7 @@
         <property role="3F0ifm" value=":" />
       </node>
       <node concept="1iCGBv" id="3BiNpr61ugu" role="3EZMnx">
-        <ref role="1NtTu8" to="jrxw:3BiNpr5U5Zb" />
+        <ref role="1NtTu8" to="jrxw:2WRhvFto5FZ" />
         <node concept="1sVBvm" id="3BiNpr61ugw" role="1sWHZn">
           <node concept="3F2HdR" id="3BiNpr61usL" role="2wV5jI">
             <ref role="1NtTu8" to="ztlb:1UijAvvb9DO" />
@@ -915,6 +918,11 @@
               <property role="VOm3f" value="true" />
             </node>
             <node concept="l2Vlx" id="4DOwJpJft_U" role="2czzBx" />
+            <node concept="2w$q5c" id="2KDWUu0hcBp" role="78xua">
+              <node concept="2aJ2om" id="2KDWUu0hcCC" role="2w$qW5">
+                <ref role="2$4xQ3" node="3zjLmdAWXVN" resolve="AnnotatedColumn" />
+              </node>
+            </node>
           </node>
         </node>
       </node>
@@ -1301,11 +1309,11 @@
       <node concept="2SsqMj" id="2KDWUtYSdk$" role="3EZMnx">
         <node concept="pkWqt" id="2KDWUtZbydI" role="pqm2j">
           <node concept="3clFbS" id="2KDWUtZbydJ" role="2VODD2">
-            <node concept="3clFbF" id="2KDWUtZkVJm" role="3cqZAp">
-              <node concept="3fqX7Q" id="2KDWUtZkVZj" role="3clFbG">
-                <node concept="2OqwBi" id="2KDWUtZkVZl" role="3fr31v">
-                  <node concept="1Q80Hx" id="2KDWUtZkVZm" role="2Oq$k0" />
-                  <node concept="liA8E" id="2KDWUtZkVZn" role="2OqNvi">
+            <node concept="3clFbF" id="2KDWUu0cvEz" role="3cqZAp">
+              <node concept="3fqX7Q" id="2KDWUu0cvEx" role="3clFbG">
+                <node concept="2OqwBi" id="2KDWUu0cvJc" role="3fr31v">
+                  <node concept="1Q80Hx" id="2KDWUu0cvHO" role="2Oq$k0" />
+                  <node concept="liA8E" id="2KDWUu0cvN1" role="2OqNvi">
                     <ref role="37wK5l" to="cj4x:~EditorContext.isInspector():boolean" resolve="isInspector" />
                   </node>
                 </node>
