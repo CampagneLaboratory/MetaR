@@ -257,6 +257,9 @@
               <node concept="Xl_RD" id="6XP3gVdO$4$" role="HW$Y0">
                 <property role="Xl_RC" value="edgeR" />
               </node>
+              <node concept="Xl_RD" id="7QZwplfEq4E" role="HW$Y0">
+                <property role="Xl_RC" value="binhf" />
+              </node>
             </node>
           </node>
         </node>
