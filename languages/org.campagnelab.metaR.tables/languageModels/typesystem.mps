@@ -336,6 +336,7 @@
       <concept id="1160666733551" name="jetbrains.mps.baseLanguage.collections.structure.AddAllElementsOperation" flags="nn" index="X8dFx" />
       <concept id="1162935959151" name="jetbrains.mps.baseLanguage.collections.structure.GetSizeOperation" flags="nn" index="34oBXx" />
       <concept id="1165525191778" name="jetbrains.mps.baseLanguage.collections.structure.GetFirstOperation" flags="nn" index="1uHKPH" />
+      <concept id="1165530316231" name="jetbrains.mps.baseLanguage.collections.structure.IsEmptyOperation" flags="nn" index="1v1jN8" />
       <concept id="1202120902084" name="jetbrains.mps.baseLanguage.collections.structure.WhereOperation" flags="nn" index="3zZkjj" />
       <concept id="1202128969694" name="jetbrains.mps.baseLanguage.collections.structure.SelectOperation" flags="nn" index="3$u5V9" />
       <concept id="9042586985346099698" name="jetbrains.mps.baseLanguage.collections.structure.MultiForEachStatement" flags="nn" index="1_o_46">
@@ -1830,6 +1831,29 @@
                   </node>
                 </node>
               </node>
+            </node>
+          </node>
+          <node concept="3clFbJ" id="3BG_Bmp6wZ8" role="3cqZAp">
+            <node concept="3clFbS" id="3BG_Bmp6wZa" role="3clFbx">
+              <node concept="2MkqsV" id="3BG_Bmp6xU9" role="3cqZAp">
+                <node concept="Xl_RD" id="3BG_Bmp6xUo" role="2MkJ7o">
+                  <property role="Xl_RC" value="A single column could not be found to merge these tables." />
+                </node>
+                <node concept="1YBJjd" id="3BG_Bmp6xWc" role="2OEOjV">
+                  <ref role="1YBMHb" node="7O$514qHwbq" resolve="joinTables" />
+                </node>
+              </node>
+            </node>
+            <node concept="2OqwBi" id="3BG_Bmp6xnO" role="3clFbw">
+              <node concept="2OqwBi" id="3BG_Bmp6x4a" role="2Oq$k0">
+                <node concept="1YBJjd" id="3BG_Bmp6x0h" role="2Oq$k0">
+                  <ref role="1YBMHb" node="7O$514qHwbq" resolve="joinTables" />
+                </node>
+                <node concept="2qgKlT" id="3BG_Bmp6xfv" role="2OqNvi">
+                  <ref role="37wK5l" to="v8sa:40GRGjJYiNa" resolve="detectJoiningColumns" />
+                </node>
+              </node>
+              <node concept="1v1jN8" id="3BG_Bmp6xTA" role="2OqNvi" />
             </node>
           </node>
         </node>
