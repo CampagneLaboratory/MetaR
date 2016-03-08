@@ -703,41 +703,6 @@
   <node concept="18kY7G" id="3_QsSyzdomj">
     <property role="TrG5h" value="CheckInputTableHasId" />
     <node concept="3clFbS" id="3_QsSyzdomk" role="18ibNy">
-      <node concept="3clFbJ" id="3_QsSyzdpl1" role="3cqZAp">
-        <node concept="3clFbS" id="3_QsSyzdpl2" role="3clFbx">
-          <node concept="2MkqsV" id="3_QsSyzdvIj" role="3cqZAp">
-            <node concept="2OqwBi" id="3_QsSyzdvRn" role="2OEOjV">
-              <node concept="1YBJjd" id="3_QsSyzdvOp" role="2Oq$k0">
-                <ref role="1YBMHb" node="3_QsSyzdomm" resolve="heatmap" />
-              </node>
-              <node concept="3TrEf2" id="3_QsSyzdwB0" role="2OqNvi">
-                <ref role="3Tt5mk" to="jrxw:3R5AwWRYuXO" />
-              </node>
-            </node>
-            <node concept="Xl_RD" id="3_QsSyzdvJH" role="2MkJ7o">
-              <property role="Xl_RC" value="Source table must have a column labeled with group ID" />
-            </node>
-          </node>
-        </node>
-        <node concept="3fqX7Q" id="3_QsSyzdvsn" role="3clFbw">
-          <node concept="2OqwBi" id="3_QsSyzdvsr" role="3fr31v">
-            <node concept="2OqwBi" id="3_QsSyzdvss" role="2Oq$k0">
-              <node concept="1YBJjd" id="3_QsSyzdvst" role="2Oq$k0">
-                <ref role="1YBMHb" node="3_QsSyzdomm" resolve="heatmap" />
-              </node>
-              <node concept="3TrEf2" id="3_QsSyzdvsu" role="2OqNvi">
-                <ref role="3Tt5mk" to="jrxw:3R5AwWRYuXO" />
-              </node>
-            </node>
-            <node concept="2qgKlT" id="3_QsSyzdLE6" role="2OqNvi">
-              <ref role="37wK5l" to="v8sa:3_QsSyzdEHw" resolve="hasGroup" />
-              <node concept="Xl_RD" id="3_QsSyzdLFx" role="37wK5m">
-                <property role="Xl_RC" value="ID" />
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
       <node concept="3clFbJ" id="3_QsSyzeMQ$" role="3cqZAp">
         <node concept="3clFbS" id="3_QsSyzeMQ_" role="3clFbx">
           <node concept="2MkqsV" id="3_QsSyzeMQA" role="3cqZAp">
@@ -1667,17 +1632,78 @@
     <property role="TrG5h" value="ChekcHeatMapTableHasID" />
     <property role="3GE5qa" value="heatmap" />
     <node concept="3clFbS" id="7O$514qHe3f" role="18ibNy">
+      <node concept="3cpWs8" id="4cPavnZ6gef" role="3cqZAp">
+        <node concept="3cpWsn" id="4cPavnZ6gei" role="3cpWs9">
+          <property role="TrG5h" value="id" />
+          <node concept="17QB3L" id="4cPavnZ6ged" role="1tU5fm" />
+          <node concept="Xl_RD" id="4cPavnZ6gf6" role="33vP2m">
+            <property role="Xl_RC" value="ID" />
+          </node>
+        </node>
+      </node>
+      <node concept="3clFbJ" id="4cPavnZ6gfZ" role="3cqZAp">
+        <node concept="3clFbS" id="4cPavnZ6gg1" role="3clFbx">
+          <node concept="3clFbF" id="4cPavnZ6h1d" role="3cqZAp">
+            <node concept="37vLTI" id="4cPavnZ6h6Q" role="3clFbG">
+              <node concept="37vLTw" id="4cPavnZ6h1b" role="37vLTJ">
+                <ref role="3cqZAo" node="4cPavnZ6gei" resolve="id" />
+              </node>
+              <node concept="2OqwBi" id="4cPavnZ6hdP" role="37vLTx">
+                <node concept="2OqwBi" id="4cPavnZ6h7g" role="2Oq$k0">
+                  <node concept="2OqwBi" id="4cPavnZ6h7h" role="2Oq$k0">
+                    <node concept="1YBJjd" id="4cPavnZ6h7i" role="2Oq$k0">
+                      <ref role="1YBMHb" node="7O$514qHf9k" resolve="heatmap" />
+                    </node>
+                    <node concept="3TrEf2" id="4cPavnZ6h7j" role="2OqNvi">
+                      <ref role="3Tt5mk" to="jrxw:4WAdMLdkMLg" />
+                    </node>
+                  </node>
+                  <node concept="3TrEf2" id="4cPavnZ6h7k" role="2OqNvi">
+                    <ref role="3Tt5mk" to="jrxw:3BG_Bmp6DVQ" />
+                  </node>
+                </node>
+                <node concept="3TrcHB" id="4cPavnZ6hjH" role="2OqNvi">
+                  <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3y3z36" id="4cPavnZ6gZp" role="3clFbw">
+          <node concept="10Nm6u" id="4cPavnZ6h0V" role="3uHU7w" />
+          <node concept="2OqwBi" id="4cPavnZ6gKn" role="3uHU7B">
+            <node concept="2OqwBi" id="4cPavnZ6gkB" role="2Oq$k0">
+              <node concept="1YBJjd" id="4cPavnZ6ggO" role="2Oq$k0">
+                <ref role="1YBMHb" node="7O$514qHf9k" resolve="heatmap" />
+              </node>
+              <node concept="3TrEf2" id="4cPavnZ6gAe" role="2OqNvi">
+                <ref role="3Tt5mk" to="jrxw:4WAdMLdkMLg" />
+              </node>
+            </node>
+            <node concept="3TrEf2" id="4cPavnZ6gPJ" role="2OqNvi">
+              <ref role="3Tt5mk" to="jrxw:3BG_Bmp6DVQ" />
+            </node>
+          </node>
+        </node>
+      </node>
       <node concept="3clFbJ" id="7O$514qHf9z" role="3cqZAp">
         <node concept="3clFbS" id="7O$514qHf9$" role="3clFbx">
           <node concept="2MkqsV" id="7O$514qHg2J" role="3cqZAp">
-            <node concept="Xl_RD" id="7O$514qHg31" role="2MkJ7o">
-              <property role="Xl_RC" value="The table must have a column marked with group ID. This column is used to obtain gene names." />
-            </node>
             <node concept="1YBJjd" id="7O$514qHg5J" role="2OEOjV">
               <ref role="1YBMHb" node="7O$514qHf9k" resolve="heatmap" />
             </node>
             <node concept="2OE7Q9" id="7O$514qHg6S" role="2OEWyd">
               <ref role="2OEe5H" to="jrxw:3R5AwWRYuXO" />
+            </node>
+            <node concept="2YIFZM" id="4cPavnZ6hto" role="2MkJ7o">
+              <ref role="37wK5l" to="wyt6:~String.format(java.lang.String,java.lang.Object...):java.lang.String" resolve="format" />
+              <ref role="1Pybhc" to="wyt6:~String" resolve="String" />
+              <node concept="Xl_RD" id="7O$514qHg31" role="37wK5m">
+                <property role="Xl_RC" value="The table must have a column marked with group %s. This column is used to obtain gene names." />
+              </node>
+              <node concept="37vLTw" id="4cPavnZ6hxz" role="37wK5m">
+                <ref role="3cqZAo" node="4cPavnZ6gei" resolve="id" />
+              </node>
             </node>
           </node>
         </node>
@@ -1693,8 +1719,8 @@
             </node>
             <node concept="2qgKlT" id="7O$514qHfZ8" role="2OqNvi">
               <ref role="37wK5l" to="v8sa:3_QsSyzdEHw" resolve="hasGroup" />
-              <node concept="Xl_RD" id="7O$514qHfZ9" role="37wK5m">
-                <property role="Xl_RC" value="ID" />
+              <node concept="37vLTw" id="4cPavnZ6hkF" role="37wK5m">
+                <ref role="3cqZAo" node="4cPavnZ6gei" resolve="id" />
               </node>
             </node>
           </node>
