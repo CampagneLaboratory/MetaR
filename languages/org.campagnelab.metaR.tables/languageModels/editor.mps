@@ -3456,9 +3456,26 @@
     <property role="3GE5qa" value="heatmap" />
     <ref role="1XX52x" to="jrxw:4WAdMLdkO8M" resolve="HeatmapAnnotations" />
     <node concept="3EZMnI" id="4WAdMLdqmDy" role="2wV5jI">
+      <node concept="3F0ifn" id="3BG_Bmp6ELC" role="3EZMnx">
+        <property role="3F0ifm" value="show names using group " />
+        <node concept="Vb9p2" id="3BG_Bmp6EOi" role="3F10Kt" />
+      </node>
+      <node concept="1iCGBv" id="3BG_Bmp6EMc" role="3EZMnx">
+        <ref role="1NtTu8" to="jrxw:3BG_Bmp6DVQ" />
+        <ref role="1k5W1q" node="7Hltlm8E96y" resolve="GroupName" />
+        <node concept="1sVBvm" id="3BG_Bmp6EMe" role="1sWHZn">
+          <node concept="3F0A7n" id="3BG_Bmp6EM_" role="2wV5jI">
+            <property role="1Intyy" value="true" />
+            <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+          </node>
+        </node>
+      </node>
       <node concept="3F0ifn" id="4WAdMLdqmDD" role="3EZMnx">
         <property role="3F0ifm" value="annotate with these groups:" />
         <ref role="1k5W1q" node="7Hltlm8H6Z1" resolve="Descriptive" />
+        <node concept="pVoyu" id="3BG_Bmp6EMC" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
       </node>
       <node concept="3F2HdR" id="4WAdMLdqmDJ" role="3EZMnx">
         <ref role="1NtTu8" to="jrxw:4WAdMLdkOg5" />
