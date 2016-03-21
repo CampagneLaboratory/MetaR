@@ -2333,8 +2333,43 @@
                 </node>
               </node>
               <node concept="1gZcZf" id="5jhuo0Nx4kC" role="2G3XIn">
-                <node concept="3_3kQU" id="7QZwplfEr8H" role="3_3kQL">
-                  <property role="3_3kQV" value="newcols=shift(colnames(" />
+                <node concept="3_3kQU" id="7eck6gX8cyG" role="3_3kQL">
+                  <property role="3_3kQV" value="previousColumns=colnames(" />
+                </node>
+                <node concept="3_3kQU" id="7eck6gX8cyH" role="3_3kQL">
+                  <property role="3_3kQV" value="normalized" />
+                  <node concept="17Uvod" id="7eck6gX8cyM" role="lGtFl">
+                    <property role="P4ACc" value="901f5cf3-dc77-4c1e-bc5a-6382baee28b4/1680136183140337486/1680136183140337487" />
+                    <property role="2qtEX9" value="text" />
+                    <node concept="3zFVjK" id="7eck6gX8cyN" role="3zH0cK">
+                      <node concept="3clFbS" id="7eck6gX8cyO" role="2VODD2">
+                        <node concept="3clFbF" id="7eck6gX8dAv" role="3cqZAp">
+                          <node concept="2OqwBi" id="7eck6gX8dAw" role="3clFbG">
+                            <node concept="1iwH7S" id="7eck6gX8dAx" role="2Oq$k0" />
+                            <node concept="3cR$yn" id="7eck6gX8dAy" role="2OqNvi">
+                              <ref role="3cRzXn" node="1EG$v9O9ieV" resolve="normalizedTableName" />
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="3_3kQU" id="7eck6gX8cyI" role="3_3kQL">
+                  <property role="3_3kQV" value=")" />
+                </node>
+              </node>
+              <node concept="1gZcZf" id="7eck6gX8ccL" role="2G3XIn">
+                <node concept="3_3kQU" id="7eck6gX8ccM" role="3_3kQL">
+                  <property role="3_3kQV" value="numColumns=length(previousColumns)" />
+                </node>
+                <node concept="3_3kQU" id="7eck6gX8dYH" role="3_3kQL">
+                  <property role="3_3kQV" value="# make gene first column:" />
+                </node>
+              </node>
+              <node concept="1gZcZf" id="7eck6gX8dCB" role="2G3XIn">
+                <node concept="3_3kQU" id="7eck6gX8dCC" role="3_3kQL">
+                  <property role="3_3kQV" value="newcols=c(previousColumns[numColumns :numColumns], previousColumns[1: (numColumns-1)]) #shift(colnames(" />
                 </node>
                 <node concept="3_3kQU" id="7QZwplfEr8I" role="3_3kQL">
                   <property role="3_3kQV" value="normalized" />

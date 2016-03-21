@@ -31,5 +31,6 @@ if (!require("graphics")) {install.packages("graphics",repos='http://cran.us.r-p
 if (!require("data.table")) {install.packages("data.table",repos='http://cran.us.r-project.org'); library("data.table")}
 if (!require("VennDiagram")) {install.packages("VennDiagram",repos='http://cran.us.r-project.org'); library("VennDiagram")}
 if (!require("lme4")) {install.packages("VennDiagram",repos='http://cran.us.r-project.org'); library("lme4")}
+if (!require("binhf")) {install.packages("binhf",repos='http://cran.us.r-project.org'); library("binhf")};
 
 q()

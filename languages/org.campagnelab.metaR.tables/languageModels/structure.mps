@@ -754,6 +754,9 @@
     <node concept="PrWs8" id="4FCgsrOrVdQ" role="PzmwI">
       <ref role="PrY4T" to="onla:4FCgsrOfk9w" resolve="UseStyle" />
     </node>
+    <node concept="PrWs8" id="3BG_BmpbSx4" role="PzmwI">
+      <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
+    </node>
     <node concept="1TJgyj" id="32mm93Z_nqq" role="1TKVEi">
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="style" />
@@ -1284,6 +1287,12 @@
     <property role="TrG5h" value="HeatmapAnnotations" />
     <property role="1pbfSe" value="1669760674" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="3BG_Bmp6DVQ" role="1TKVEi">
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="idGroup" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="2WRhvFtICJV" resolve="ColumnGroup" />
+    </node>
     <node concept="1TJgyi" id="5HtHr3E6dke" role="1TKVEl">
       <property role="TrG5h" value="clusterRows" />
       <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
