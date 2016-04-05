@@ -23,6 +23,7 @@
       <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.metar.limma/org.campagnelab.metar.limma.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.metar.models/org.campagnelab.metar.models.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.metar.simulation/org.campagnelab.metar.simulation.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.metar.sleuth/org.campagnelab.metar.sleuth.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.metar.with.r/org.campagnelab.metar.with.r.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.styles/org.campagnelab.styles.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/DocModels/DocModels.msd" folder="" />
@@ -42,6 +43,7 @@
       <modulePath path="$PROJECT_DIR$/solutions/org.campagnelab.metar.biomart.web/org.campagnelab.metar.biomart.web.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/org.campagnelab.metar.r.parsers/org.campagnelab.metar.r.parsers.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/org.campagnelab.metar.r.scripts/org.campagnelab.metar.r.scripts.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/org.campagnelab.playground.sleuth/org.campagnelab.playground.sleuth.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/org.campagnelab.runR/org.campagnelab.runR.msd" folder="" />
     </projectModules>
   </component>

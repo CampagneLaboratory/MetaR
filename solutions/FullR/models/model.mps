@@ -268,16 +268,6 @@
         <node concept="22gccu" id="4ner_7F57Pa" role="22hImy" />
       </node>
     </node>
-    <node concept="3cU4HJ" id="gFQ6YVXLHG" role="pZjJ2" />
-    <node concept="2PZJpk" id="14BZZ_hHKuV" role="pZjJ2">
-      <property role="pzxG6" value="3" />
-      <node concept="1KehLL" id="14BZZ_hHKwF" role="lGtFl">
-        <property role="1K8rM7" value="property_value" />
-        <property role="1K8rD$" value="default_RTransform" />
-        <property role="1Kfyot" value="right" />
-      </node>
-    </node>
-    <node concept="3cU4HJ" id="14BZZ_hHKbl" role="pZjJ2" />
     <node concept="2PZJp2" id="6efZaUh60i7" role="pZjJ2">
       <node concept="gNbv0" id="6efZaUh60ia" role="134Gdu">
         <node concept="V6WaU" id="6efZaUh60iG" role="gNbrm">

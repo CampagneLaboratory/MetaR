@@ -345,6 +345,9 @@
     <node concept="PrWs8" id="3Frl7j7CsLA" role="PzmwI">
       <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
     </node>
+    <node concept="PrWs8" id="1AaQBcuiVh0" role="PzmwI">
+      <ref role="PrY4T" node="7LvyiX4miiF" resolve="StatementDependencies" />
+    </node>
     <node concept="1TJgyj" id="2WRhvFtuQGF" role="1TKVEi">
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="table" />
