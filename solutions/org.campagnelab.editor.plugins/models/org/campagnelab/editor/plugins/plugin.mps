@@ -605,7 +605,7 @@
       <ref role="1bYAoF" node="7iuWixLMztm" resolve="ShowTableInTableViewer" />
       <node concept="pLAjd" id="2sgkdoKspT7" role="Zd501">
         <property role="pLAjf" value="VK_T" />
-        <property role="pLAjc" value="shift" />
+        <property role="pLAjc" value="ctrl+shift" />
       </node>
     </node>
   </node>
