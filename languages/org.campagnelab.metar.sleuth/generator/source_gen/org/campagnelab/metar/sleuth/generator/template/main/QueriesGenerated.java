@@ -49,10 +49,11 @@ public class QueriesGenerated {
       }
     }), "\",\"");
   }
-  public static Object propertyMacro_GetPropertyValue_1840523585703286911(final PropertyMacroContext _context) {
+  public static Object propertyMacro_GetPropertyValue_4534272341337027056(final PropertyMacroContext _context) {
+    _context.showWarningMessage(null, "group added=" + SPropertyOperations.getString(_context.getNode(), MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name")));
     return SPropertyOperations.getString(_context.getNode(), MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name"));
   }
-  public static Object propertyMacro_GetPropertyValue_1840523585701760674(final PropertyMacroContext _context) {
+  public static Object propertyMacro_GetPropertyValue_4534272341337041705(final PropertyMacroContext _context) {
     // find the columns with usage 
     Iterable<SNode> columns = ListSequence.fromList(SLinkOperations.getChildren(SLinkOperations.getTarget(((SNode) _context.getVariable("var:countsTable")), MetaAdapterFactory.getReferenceLink(0x5d6bde844ce44eb5L, 0xa37e25a5edd55129L, 0x3dc59a0f37f897b3L, 0x3dc59a0f37f89c07L, "table")), MetaAdapterFactory.getContainmentLink(0x5ec1cd3d0a504049L, 0xa8faae768d7baa25L, 0x1e924e67df2c8b97L, 0x1e924e67df2c9a74L, "columns"))).where(new IWhereFilter<SNode>() {
       public boolean accept(SNode col) {
@@ -119,7 +120,6 @@ public class QueriesGenerated {
       }
     }
     return IterableUtils.join(ListSequence.fromList(groupValues), "\",\"");
-
   }
   public static Object propertyMacro_GetPropertyValue_1840523585694826548(final PropertyMacroContext _context) {
     return IterableUtils.join(ListSequence.fromList(Sleuth__BehaviorDescriptor.hdf5Files_id1AaQBctEfN2.invoke(_context.getNode(), SPropertyOperations.getString(_context.getNode(), MetaAdapterFactory.getProperty(0x93b7ee14f42b424aL, 0x9d290e275a24208dL, 0x31535da88d6d2369L, 0x198ada731da8925aL, "resultPath")))).select(new ISelector<File, String>() {
@@ -152,12 +152,13 @@ public class QueriesGenerated {
     return (String) FutureTable__BehaviorDescriptor.getCleanTableName_id3BiNpr5Ur7M.invoke(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x93b7ee14f42b424aL, 0x9d290e275a24208dL, 0x31535da88d6d2369L, 0x1aac91f27421e377L, "normalizedTable")));
   }
   public static Object propertyMacro_GetPropertyValue_1840523585703865051(final PropertyMacroContext _context) {
-    final String usageName = SPropertyOperations.getString(SLinkOperations.getTarget(ListSequence.fromList(SNodeOperations.getNodeDescendants(SLinkOperations.getTarget(((SNode) _context.getVariable("var:sleuth")), MetaAdapterFactory.getContainmentLink(0xecc862c95ab542efL, 0x87032039019fb338L, 0x471c3ea90814c0afL, 0x471c3ea90814c207L, "modelFormula")), MetaAdapterFactory.getConcept(0xecc862c95ab542efL, 0x87032039019fb338L, 0x471c3ea907eddd91L, "org.campagnelab.metar.models.structure.GroupUsageRef"), true, new SAbstractConcept[]{})).first(), MetaAdapterFactory.getReferenceLink(0xecc862c95ab542efL, 0x87032039019fb338L, 0x471c3ea907eddd91L, 0x471c3ea907eddd92L, "groupUsage")), MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name"));
+
+    final String usageName = SPropertyOperations.getString(Sequence.fromIterable(GroupFormula__BehaviorDescriptor.calculateGroupUsageNamesInContrasts_id4ssfE$bsSEb.invoke(SLinkOperations.getTarget(((SNode) _context.getVariable("var:sleuth")), MetaAdapterFactory.getContainmentLink(0xecc862c95ab542efL, 0x87032039019fb338L, 0x471c3ea90814c0afL, 0x471c3ea90814c207L, "modelFormula")), SLinkOperations.getTarget(((SNode) _context.getVariable("var:sleuth")), MetaAdapterFactory.getContainmentLink(0xecc862c95ab542efL, 0x87032039019fb338L, 0x471c3ea90814c0afL, 0x471c3ea90814c368L, "contrasts")))).first(), MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name"));
     SNode groupRef = ListSequence.fromList(SNodeOperations.getNodeDescendants(SLinkOperations.getTarget(((SNode) _context.getVariable("var:sleuth")), MetaAdapterFactory.getContainmentLink(0xecc862c95ab542efL, 0x87032039019fb338L, 0x471c3ea90814c0afL, 0x471c3ea90814c368L, "contrasts")), MetaAdapterFactory.getConcept(0xecc862c95ab542efL, 0x87032039019fb338L, 0x471c3ea907e67185L, "org.campagnelab.metar.models.structure.GroupRef"), true, new SAbstractConcept[]{})).findFirst(new IWhereFilter<SNode>() {
       public boolean accept(SNode it) {
         return Sequence.fromIterable(ColumnGroup__BehaviorDescriptor.uses_id6XP3gVdXeLZ.invoke(SLinkOperations.getTarget(it, MetaAdapterFactory.getReferenceLink(0xecc862c95ab542efL, 0x87032039019fb338L, 0x471c3ea907e67185L, 0x471c3ea907e67186L, "group")))).any(new IWhereFilter<SNode>() {
           public boolean accept(SNode it) {
-            return eq_x583g4_a0a0a0a0a0a0a0a0a0a1a8(SPropertyOperations.getString(it, MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name")), usageName);
+            return eq_x583g4_a0a0a0a0a0a0a0a0a0a2a8(SPropertyOperations.getString(it, MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name")), usageName);
           }
         });
       }
@@ -181,13 +182,14 @@ public class QueriesGenerated {
     return SPropertyOperations.getBoolean(_context.getNode(), MetaAdapterFactory.getProperty(0x93b7ee14f42b424aL, 0x9d290e275a24208dL, 0x31535da88d6d2369L, 0x198ada731e2bc1f0L, "stopForLiveInteractive"));
   }
   public static Iterable<SNode> sourceNodesQuery_1840523585701817411(final SourceSubstituteMacroNodesContext _context) {
+    _context.showWarningMessage(null, "groups: " + ((Iterable<SNode>) _context.getVariable("var:groupsInModel")));
     if (Sequence.fromIterable(((Iterable<SNode>) _context.getVariable("var:groupsInModel"))).count() == 0) {
       _context.showErrorMessage(null, "Unable to process samples: no group or usage associated.");
     }
     return ((Iterable<SNode>) _context.getVariable("var:groupsInModel"));
   }
   public static Iterable<SNode> sourceNodesQuery_1840523585695137609(final SourceSubstituteMacroNodesContext _context) {
-    return ((Iterable<SNode>) _context.getVariable("var:groupsInModel"));
+    return (Iterable<SNode>) GroupFormula__BehaviorDescriptor.calculateGroupUsageNamesInContrasts_id4ssfE$bsSEb.invoke(SLinkOperations.getTarget(((SNode) _context.getVariable("var:sleuth")), MetaAdapterFactory.getContainmentLink(0xecc862c95ab542efL, 0x87032039019fb338L, 0x471c3ea90814c0afL, 0x471c3ea90814c207L, "modelFormula")), SLinkOperations.getTarget(((SNode) _context.getVariable("var:sleuth")), MetaAdapterFactory.getContainmentLink(0xecc862c95ab542efL, 0x87032039019fb338L, 0x471c3ea90814c0afL, 0x471c3ea90814c368L, "contrasts")));
   }
   public static Object insertMacro_varValue_1840523585695137841(final TemplateQueryContext _context) {
     return (SNode) _context.getOriginalCopiedInputNode(_context.getNode());
@@ -231,7 +233,7 @@ public class QueriesGenerated {
   private static boolean eq_x583g4_a0a0a0a0a0a0a0a0a0a0a0a6(Object a, Object b) {
     return (a != null ? a.equals(b) : a == b);
   }
-  private static boolean eq_x583g4_a0a0a0a0a0a0a0a0a0a1a8(Object a, Object b) {
+  private static boolean eq_x583g4_a0a0a0a0a0a0a0a0a0a2a8(Object a, Object b) {
     return (a != null ? a.equals(b) : a == b);
   }
 }
