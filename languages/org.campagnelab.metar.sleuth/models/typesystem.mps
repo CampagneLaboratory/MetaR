@@ -160,12 +160,6 @@
       </concept>
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
-      <concept id="1177026924588" name="jetbrains.mps.lang.smodel.structure.RefConcept_Reference" flags="nn" index="chp4Y">
-        <reference id="1177026940964" name="conceptDeclaration" index="cht4Q" />
-      </concept>
-      <concept id="1138411891628" name="jetbrains.mps.lang.smodel.structure.SNodeOperation" flags="nn" index="eCIE_">
-        <child id="1144104376918" name="parameter" index="1xVPHs" />
-      </concept>
       <concept id="1179409122411" name="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" flags="nn" index="2qgKlT" />
       <concept id="1166648550386" name="jetbrains.mps.lang.smodel.structure.Model_CreateNewRootNodeOperation" flags="nn" index="2xF2bX" />
       <concept id="1143224127713" name="jetbrains.mps.lang.smodel.structure.Node_InsertPrevSiblingOperation" flags="nn" index="HtX7F">
@@ -176,15 +170,10 @@
       <concept id="1143235216708" name="jetbrains.mps.lang.smodel.structure.Model_CreateNewNodeOperation" flags="nn" index="I8ghe">
         <reference id="1143235391024" name="concept" index="I8UWU" />
       </concept>
-      <concept id="1171305280644" name="jetbrains.mps.lang.smodel.structure.Node_GetDescendantsOperation" flags="nn" index="2Rf3mk" />
-      <concept id="1171407110247" name="jetbrains.mps.lang.smodel.structure.Node_GetAncestorOperation" flags="nn" index="2Xjw5R" />
       <concept id="2644386474300074836" name="jetbrains.mps.lang.smodel.structure.ConceptIdRefExpression" flags="nn" index="35c_gC">
         <reference id="2644386474300074837" name="conceptDeclaration" index="35c_gD" />
       </concept>
       <concept id="1171999116870" name="jetbrains.mps.lang.smodel.structure.Node_IsNullOperation" flags="nn" index="3w_OXm" />
-      <concept id="1144101972840" name="jetbrains.mps.lang.smodel.structure.OperationParm_Concept" flags="ng" index="1xMEDy">
-        <child id="1207343664468" name="conceptArgument" index="ri$Ld" />
-      </concept>
       <concept id="1180636770613" name="jetbrains.mps.lang.smodel.structure.SNodeCreator" flags="nn" index="3zrR0B">
         <child id="1180636770616" name="createdType" index="3zrR0E" />
       </concept>
@@ -373,33 +362,12 @@
           <node concept="3cpWsn" id="1AaQBctAUMm" role="3cpWs9">
             <property role="TrG5h" value="path" />
             <node concept="17QB3L" id="1AaQBctAUMh" role="1tU5fm" />
-            <node concept="2OqwBi" id="1AaQBctB5pJ" role="33vP2m">
-              <node concept="2OqwBi" id="1AaQBctB1IF" role="2Oq$k0">
-                <node concept="2OqwBi" id="1AaQBctAZN2" role="2Oq$k0">
-                  <node concept="2OqwBi" id="1AaQBctAZo3" role="2Oq$k0">
-                    <node concept="QwW4i" id="1AaQBctAZl6" role="2Oq$k0">
-                      <ref role="QwW4h" node="1AaQBctA0_u" resolve="sleuthStatement" />
-                    </node>
-                    <node concept="2Xjw5R" id="1AaQBctAZIF" role="2OqNvi">
-                      <node concept="1xMEDy" id="1AaQBctAZIH" role="1xVPHs">
-                        <node concept="chp4Y" id="1AaQBctAZJk" role="ri$Ld">
-                          <ref role="cht4Q" to="jrxw:7LvyiX4mii$" resolve="Analysis" />
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                  <node concept="2Rf3mk" id="1AaQBctB10I" role="2OqNvi">
-                    <node concept="1xMEDy" id="1AaQBctB10K" role="1xVPHs">
-                      <node concept="chp4Y" id="1AaQBctB15h" role="ri$Ld">
-                        <ref role="cht4Q" to="bx6g:1AaQBct_ZPd" resolve="LoadKallistoHDF5" />
-                      </node>
-                    </node>
-                  </node>
-                </node>
-                <node concept="1uHKPH" id="1AaQBctB4d9" role="2OqNvi" />
+            <node concept="2OqwBi" id="1AaQBctAZo3" role="33vP2m">
+              <node concept="QwW4i" id="1AaQBctAZl6" role="2Oq$k0">
+                <ref role="QwW4h" node="1AaQBctA0_u" resolve="sleuthStatement" />
               </node>
-              <node concept="3TrcHB" id="1AaQBctB7T$" role="2OqNvi">
-                <ref role="3TsBF5" to="bx6g:1AaQBct_ZPe" resolve="hdf5BasePath" />
+              <node concept="3TrcHB" id="3VGYaIWg3Nv" role="2OqNvi">
+                <ref role="3TsBF5" to="bx6g:1AaQBctE99q" resolve="resultPath" />
               </node>
             </node>
           </node>
