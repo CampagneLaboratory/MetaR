@@ -1332,6 +1332,20 @@
             </node>
           </node>
         </node>
+        <node concept="3cpWs8" id="3mC$cZzqKEf" role="3cqZAp">
+          <node concept="3cpWsn" id="3mC$cZzqKEi" role="3cpWs9">
+            <property role="TrG5h" value="needExposePorts" />
+            <property role="3TUv4t" value="true" />
+            <node concept="2ShNRf" id="3mC$cZzqSDo" role="33vP2m">
+              <node concept="2i4dXS" id="3mC$cZzqYSm" role="2ShVmc">
+                <node concept="10Oyi0" id="3mC$cZzqYSo" role="HW$YZ" />
+              </node>
+            </node>
+            <node concept="2hMVRd" id="3mC$cZzqXJQ" role="1tU5fm">
+              <node concept="10Oyi0" id="3mC$cZzqYoC" role="2hN53Y" />
+            </node>
+          </node>
+        </node>
         <node concept="3clFbF" id="1KUoCipvy8O" role="3cqZAp">
           <node concept="2OqwBi" id="1KUoCipvy8P" role="3clFbG">
             <node concept="2YIFZM" id="1KUoCipvy8Q" role="2Oq$k0">
@@ -1527,7 +1541,6 @@
                           </node>
                         </node>
                       </node>
-                      <node concept="3clFbH" id="4AfAcRHmZnr" role="3cqZAp" />
                     </node>
                   </node>
                   <node concept="3SKdUt" id="7LV$PmMiIa7" role="3cqZAp">
@@ -1643,6 +1656,56 @@
                       </node>
                     </node>
                   </node>
+                  <node concept="3clFbH" id="3mC$cZzxTtu" role="3cqZAp" />
+                  <node concept="3SKdUt" id="3mC$cZzxIzD" role="3cqZAp">
+                    <node concept="3SKdUq" id="3mC$cZzxIzF" role="3SKWNk">
+                      <property role="3SKdUp" value="collect ports that need opening when running the analysis:" />
+                    </node>
+                  </node>
+                  <node concept="3clFbF" id="3mC$cZzyJ2V" role="3cqZAp">
+                    <node concept="2OqwBi" id="3mC$cZzyJvh" role="3clFbG">
+                      <node concept="37vLTw" id="3mC$cZzyJ2T" role="2Oq$k0">
+                        <ref role="3cqZAo" node="3mC$cZzqKEi" resolve="needExposePorts" />
+                      </node>
+                      <node concept="X8dFx" id="3mC$cZzyLmE" role="2OqNvi">
+                        <node concept="2OqwBi" id="3mC$cZzqNn2" role="25WWJ7">
+                          <node concept="2OqwBi" id="3mC$cZzqLQR" role="2Oq$k0">
+                            <node concept="37vLTw" id="3mC$cZzqLA5" role="2Oq$k0">
+                              <ref role="3cqZAo" node="1KUoCipvy8V" resolve="node" />
+                            </node>
+                            <node concept="2Rf3mk" id="3mC$cZzqMho" role="2OqNvi">
+                              <node concept="1xMEDy" id="3mC$cZzqMhq" role="1xVPHs">
+                                <node concept="chp4Y" id="3mC$cZzqMDc" role="ri$Ld">
+                                  <ref role="cht4Q" to="jrxw:3mC$cZzq6GI" resolve="IListenOnPort" />
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                          <node concept="3$u5V9" id="3mC$cZzqPG5" role="2OqNvi">
+                            <node concept="1bVj0M" id="3mC$cZzqPG7" role="23t8la">
+                              <node concept="3clFbS" id="3mC$cZzqPG8" role="1bW5cS">
+                                <node concept="3clFbF" id="3mC$cZzyIyM" role="3cqZAp">
+                                  <node concept="2OqwBi" id="3mC$cZzyIyO" role="3clFbG">
+                                    <node concept="37vLTw" id="3mC$cZzyIyP" role="2Oq$k0">
+                                      <ref role="3cqZAo" node="3mC$cZzqPG9" resolve="it" />
+                                    </node>
+                                    <node concept="2qgKlT" id="3mC$cZzyIyQ" role="2OqNvi">
+                                      <ref role="37wK5l" to="v8sa:3mC$cZzq6GM" resolve="portNumber" />
+                                    </node>
+                                  </node>
+                                </node>
+                              </node>
+                              <node concept="Rh6nW" id="3mC$cZzqPG9" role="1bW2Oz">
+                                <property role="TrG5h" value="it" />
+                                <node concept="2jxLKc" id="3mC$cZzqPGa" role="1tU5fm" />
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3clFbH" id="3mC$cZzxHMu" role="3cqZAp" />
                 </node>
               </node>
             </node>
@@ -1857,6 +1920,12 @@
                         <ref role="2LYoGK" node="7jqSt7yAP2J" resolve="inputTablePaths" />
                         <node concept="37vLTw" id="7jqSt7z$sCB" role="2LYoGN">
                           <ref role="3cqZAo" node="7jqSt7yBs7O" resolve="inputTablePaths" />
+                        </node>
+                      </node>
+                      <node concept="2LYoGL" id="3mC$cZzwqLu" role="2LYoGw">
+                        <ref role="2LYoGK" node="3mC$cZzqZqK" resolve="needExposePorts" />
+                        <node concept="37vLTw" id="3mC$cZzwr1N" role="2LYoGN">
+                          <ref role="3cqZAo" node="3mC$cZzqKEi" resolve="needExposePorts" />
                         </node>
                       </node>
                     </node>
@@ -8115,6 +8184,51 @@
               </node>
             </node>
           </node>
+          <node concept="3clFbH" id="3mC$cZzr7GF" role="3cqZAp" />
+          <node concept="3SKdUt" id="3mC$cZzr7kM" role="3cqZAp">
+            <node concept="3SKdUq" id="3mC$cZzr7kO" role="3SKWNk">
+              <property role="3SKdUp" value=" provide docker run with --expose option for each port needed open in the container for this analysis" />
+            </node>
+          </node>
+          <node concept="3cpWs8" id="3mC$cZzqrQE" role="3cqZAp">
+            <node concept="3cpWsn" id="3mC$cZzqrQH" role="3cpWs9">
+              <property role="TrG5h" value="exposePortString" />
+              <node concept="17QB3L" id="3mC$cZzqrQC" role="1tU5fm" />
+              <node concept="2OqwBi" id="3mC$cZzr4CP" role="33vP2m">
+                <node concept="2OqwBi" id="3mC$cZzqsfN" role="2Oq$k0">
+                  <node concept="2LYoG9" id="3mC$cZzr0Bd" role="2Oq$k0">
+                    <ref role="2LYoGb" node="3mC$cZzqZqK" resolve="needExposePorts" />
+                  </node>
+                  <node concept="3$u5V9" id="3mC$cZzr1t_" role="2OqNvi">
+                    <node concept="1bVj0M" id="3mC$cZzr1tB" role="23t8la">
+                      <node concept="3clFbS" id="3mC$cZzr1tC" role="1bW5cS">
+                        <node concept="3clFbF" id="3mC$cZzr1$b" role="3cqZAp">
+                          <node concept="3cpWs3" id="3mC$cZzr4vZ" role="3clFbG">
+                            <node concept="37vLTw" id="3mC$cZzr4w6" role="3uHU7w">
+                              <ref role="3cqZAo" node="3mC$cZzr1tD" resolve="portNumber" />
+                            </node>
+                            <node concept="Xl_RD" id="3mC$cZzr1$a" role="3uHU7B">
+                              <property role="Xl_RC" value="--expose=" />
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="Rh6nW" id="3mC$cZzr1tD" role="1bW2Oz">
+                        <property role="TrG5h" value="portNumber" />
+                        <node concept="2jxLKc" id="3mC$cZzr1tE" role="1tU5fm" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="3uJxvA" id="3mC$cZzr4M0" role="2OqNvi">
+                  <node concept="Xl_RD" id="3mC$cZzr4Xi" role="3uJOhx">
+                    <property role="Xl_RC" value=" " />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbH" id="3mC$cZzr84X" role="3cqZAp" />
           <node concept="3cpWs6" id="7jqSt7zXf3X" role="3cqZAp">
             <node concept="3CLvVn" id="7jqSt7zXfwi" role="3cqZAk">
               <node concept="2ShNRf" id="7jqSt7zXfBf" role="3CLvVg">
@@ -8155,6 +8269,19 @@
                   <ref role="2WH_rO" node="7jqSt7yAeGh" resolve="mapPath" />
                   <node concept="37vLTw" id="7jqSt7$t37S" role="2XxRq1">
                     <ref role="3cqZAo" node="7jqSt7yAgiF" resolve="resultsDirString" />
+                  </node>
+                </node>
+              </node>
+              <node concept="1tenjt" id="3mC$cZzvLfJ" role="3CLvVg">
+                <node concept="2OqwBi" id="3mC$cZzvFu2" role="1r8FgC">
+                  <node concept="37vLTw" id="3mC$cZzr6zz" role="2Oq$k0">
+                    <ref role="3cqZAo" node="3mC$cZzqrQH" resolve="exposePortString" />
+                  </node>
+                  <node concept="liA8E" id="3mC$cZzvJju" role="2OqNvi">
+                    <ref role="37wK5l" to="wyt6:~String.split(java.lang.String):java.lang.String[]" resolve="split" />
+                    <node concept="Xl_RD" id="3mC$cZzvJFu" role="37wK5m">
+                      <property role="Xl_RC" value=" " />
+                    </node>
                   </node>
                 </node>
               </node>
@@ -8232,6 +8359,12 @@
         <property role="TrG5h" value="workingDirectory" />
         <node concept="3uibUv" id="7jqSt7yA9JH" role="1tU5fm">
           <ref role="3uigEE" to="guwi:~File" resolve="File" />
+        </node>
+      </node>
+      <node concept="2LYoGR" id="3mC$cZzqZqK" role="3rFUVC">
+        <property role="TrG5h" value="needExposePorts" />
+        <node concept="2hMVRd" id="3mC$cZzqZXG" role="1tU5fm">
+          <node concept="10Oyi0" id="3mC$cZzr05e" role="2hN53Y" />
         </node>
       </node>
     </node>

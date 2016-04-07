@@ -181,6 +181,9 @@ public class QueriesGenerated {
     return SPropertyOperations.getBoolean(_context.getNode(), MetaAdapterFactory.getProperty(0x93b7ee14f42b424aL, 0x9d290e275a24208dL, 0x31535da88d6d2369L, 0x198ada731e2bc1f0L, "stopForLiveInteractive"));
   }
   public static Iterable<SNode> sourceNodesQuery_1840523585701817411(final SourceSubstituteMacroNodesContext _context) {
+    if (Sequence.fromIterable(((Iterable<SNode>) _context.getVariable("var:groupsInModel"))).count() == 0) {
+      _context.showErrorMessage(null, "Unable to process samples: no group or usage associated.");
+    }
     return ((Iterable<SNode>) _context.getVariable("var:groupsInModel"));
   }
   public static Iterable<SNode> sourceNodesQuery_1840523585695137609(final SourceSubstituteMacroNodesContext _context) {
