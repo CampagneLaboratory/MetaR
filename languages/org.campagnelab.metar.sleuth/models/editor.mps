@@ -3,10 +3,18 @@
   <persistence version="9" />
   <languages>
     <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="3" />
+    <use id="c1ba4037-e4db-47d8-8b61-b3c805b648f2" name="org.campagnelab.ui" version="0" />
+    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="1" />
+    <use id="443f4c36-fcf5-4eb6-9500-8d06ed259e3e" name="jetbrains.mps.baseLanguage.classifiers" version="0" />
+    <use id="13744753-c81f-424a-9c1b-cf8943bf4e86" name="jetbrains.mps.lang.sharedConcepts" version="0" />
+    <use id="ed6d7656-532c-4bc2-81d1-af945aeb8280" name="jetbrains.mps.baseLanguage.blTypes" version="0" />
+    <use id="9ded098b-ad6a-4657-bfd9-48636cfe8bc3" name="jetbrains.mps.lang.traceable" version="0" />
+    <use id="aee9cad2-acd4-4608-aef2-0004f6a1cdbd" name="jetbrains.mps.lang.actions" version="0" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
     <import index="guwi" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" />
+    <import index="eeic" ref="r:4252ca74-fdbc-41f3-8f2b-7326a4f21355(org.campagnelab.ui.editor)" />
     <import index="bx6g" ref="r:8a0d9f72-e54f-4583-b363-4d629814522b(org.campagnelab.metar.sleuth.structure)" implicit="true" />
     <import index="6d3e" ref="r:b6b23310-784d-4a51-aa52-4f852135a80e(org.campagnelab.metar.sleuth.behavior)" implicit="true" />
     <import index="8gqa" ref="r:c14853f5-5f2e-4acc-825a-4fec67caca67(org.campagnelab.metar.tables.editor)" implicit="true" />
@@ -17,6 +25,7 @@
       <concept id="1071666914219" name="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration" flags="ig" index="24kQdi">
         <child id="1078153129734" name="inspectedCellModel" index="6VMZX" />
       </concept>
+      <concept id="1106270549637" name="jetbrains.mps.lang.editor.structure.CellLayout_Horizontal" flags="nn" index="2iRfu4" />
       <concept id="1237303669825" name="jetbrains.mps.lang.editor.structure.CellLayout_Indent" flags="nn" index="l2Vlx" />
       <concept id="1237307900041" name="jetbrains.mps.lang.editor.structure.IndentLayoutIndentStyleClassItem" flags="ln" index="lj46D" />
       <concept id="1237308012275" name="jetbrains.mps.lang.editor.structure.IndentLayoutNewLineStyleClassItem" flags="ln" index="ljvvj" />
@@ -76,6 +85,9 @@
       <concept id="1137021947720" name="jetbrains.mps.baseLanguage.structure.ConceptFunction" flags="in" index="2VMwT0">
         <child id="1137022507850" name="body" index="2VODD2" />
       </concept>
+      <concept id="1070475926800" name="jetbrains.mps.baseLanguage.structure.StringLiteral" flags="nn" index="Xl_RD">
+        <property id="1070475926801" name="value" index="Xl_RC" />
+      </concept>
       <concept id="1068580123155" name="jetbrains.mps.baseLanguage.structure.ExpressionStatement" flags="nn" index="3clFbF">
         <child id="1068580123156" name="expression" index="3clFbG" />
       </concept>
@@ -88,6 +100,19 @@
       <concept id="1204053956946" name="jetbrains.mps.baseLanguage.structure.IMethodCall" flags="ng" index="1ndlxa">
         <reference id="1068499141037" name="baseMethodDeclaration" index="37wK5l" />
         <child id="1068499141038" name="actualArgument" index="37wK5m" />
+      </concept>
+    </language>
+    <language id="c1ba4037-e4db-47d8-8b61-b3c805b648f2" name="org.campagnelab.ui">
+      <concept id="2020659516093694820" name="org.campagnelab.ui.structure.ProcessPathHandler" flags="ig" index="2wNt1V" />
+      <concept id="2954990197977599794" name="org.campagnelab.ui.structure.FileSelectionButton" flags="ng" index="3wdnjv">
+        <property id="5693159665557586134" name="acceptMultipleSelections" index="k9ADr" />
+        <property id="5693159665555023471" name="acceptFiles" index="lZKNy" />
+        <child id="2020659516091712533" name="defaultPath" index="2wCxsa" />
+        <child id="2020659516093754639" name="handler" index="2wNjSg" />
+      </concept>
+      <concept id="5704832314575181087" name="org.campagnelab.ui.structure.SingleFileSelection" flags="ng" index="3MhZvs">
+        <reference id="5704832314577455573" name="property" index="3MDaGm" />
+        <child id="5704832314575223446" name="button" index="3MhPxl" />
       </concept>
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
@@ -113,9 +138,25 @@
       </node>
       <node concept="1QoScp" id="1AaQBctE99E" role="3EZMnx">
         <property role="1QpmdY" value="true" />
-        <node concept="3F0A7n" id="1AaQBctE9bs" role="1QoS34">
-          <property role="1$x2rV" value="enter a Kallisto result base directory" />
-          <ref role="1NtTu8" to="bx6g:1AaQBctE99q" resolve="resultPath" />
+        <node concept="3EZMnI" id="3VGYaIWvLzs" role="1QoS34">
+          <node concept="2iRfu4" id="3VGYaIWvLzt" role="2iSdaV" />
+          <node concept="3F0A7n" id="1AaQBctE9bs" role="3EZMnx">
+            <property role="1$x2rV" value="enter a Kallisto result base directory" />
+            <ref role="1NtTu8" to="bx6g:1AaQBctE99q" resolve="resultPath" />
+          </node>
+          <node concept="3MhZvs" id="3VGYaIWvMd_" role="3EZMnx">
+            <ref role="3MDaGm" to="bx6g:1AaQBctE99q" resolve="resultPath" />
+            <node concept="3wdnjv" id="3VGYaIWvMdA" role="3MhPxl">
+              <property role="lZKNy" value="true" />
+              <property role="k9ADr" value="false" />
+              <node concept="Xl_RD" id="3VGYaIWvMdB" role="2wCxsa">
+                <property role="Xl_RC" value="./" />
+              </node>
+              <node concept="2wNt1V" id="3VGYaIWvMdE" role="2wNjSg">
+                <node concept="3clFbS" id="3VGYaIWvMdF" role="2VODD2" />
+              </node>
+            </node>
+          </node>
         </node>
         <node concept="pkWqt" id="1AaQBctE99H" role="3e4ffs">
           <node concept="3clFbS" id="1AaQBctE99J" role="2VODD2">
