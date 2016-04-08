@@ -8573,6 +8573,59 @@
                         <node concept="3$u5V9" id="5lRZ7X4XA8z" role="2OqNvi">
                           <node concept="1bVj0M" id="5lRZ7X4XA8_" role="23t8la">
                             <node concept="3clFbS" id="5lRZ7X4XA8A" role="1bW5cS">
+                              <node concept="3cpWs8" id="4T_K8eVac9W" role="3cqZAp">
+                                <node concept="3cpWsn" id="4T_K8eVac9X" role="3cpWs9">
+                                  <property role="TrG5h" value="packageName" />
+                                  <node concept="17QB3L" id="4T_K8eVac9Y" role="1tU5fm" />
+                                  <node concept="37vLTw" id="4T_K8eVac9Z" role="33vP2m">
+                                    <ref role="3cqZAo" node="5lRZ7X4XA8B" resolve="it" />
+                                  </node>
+                                </node>
+                              </node>
+                              <node concept="3clFbJ" id="4T_K8eVaca0" role="3cqZAp">
+                                <node concept="3clFbS" id="4T_K8eVaca1" role="3clFbx">
+                                  <node concept="3SKdUt" id="4T_K8eVaca2" role="3cqZAp">
+                                    <node concept="3SKdUq" id="4T_K8eVaca3" role="3SKWNk">
+                                      <property role="3SKdUp" value=" this is a git package, remove repo name before /:" />
+                                    </node>
+                                  </node>
+                                  <node concept="3clFbF" id="4T_K8eVaca4" role="3cqZAp">
+                                    <node concept="37vLTI" id="4T_K8eVaca5" role="3clFbG">
+                                      <node concept="AH0OO" id="4T_K8eVaca6" role="37vLTx">
+                                        <node concept="3cmrfG" id="4T_K8eVaca7" role="AHEQo">
+                                          <property role="3cmrfH" value="1" />
+                                        </node>
+                                        <node concept="2OqwBi" id="4T_K8eVaca8" role="AHHXb">
+                                          <node concept="37vLTw" id="4T_K8eVaca9" role="2Oq$k0">
+                                            <ref role="3cqZAo" node="4T_K8eVac9X" resolve="packageName" />
+                                          </node>
+                                          <node concept="liA8E" id="4T_K8eVacaa" role="2OqNvi">
+                                            <ref role="37wK5l" to="wyt6:~String.split(java.lang.String):java.lang.String[]" resolve="split" />
+                                            <node concept="Xl_RD" id="4T_K8eVacab" role="37wK5m">
+                                              <property role="Xl_RC" value="/" />
+                                            </node>
+                                          </node>
+                                        </node>
+                                      </node>
+                                      <node concept="37vLTw" id="4T_K8eVacac" role="37vLTJ">
+                                        <ref role="3cqZAo" node="4T_K8eVac9X" resolve="packageName" />
+                                      </node>
+                                    </node>
+                                  </node>
+                                </node>
+                                <node concept="2OqwBi" id="4T_K8eVacad" role="3clFbw">
+                                  <node concept="37vLTw" id="4T_K8eVacae" role="2Oq$k0">
+                                    <ref role="3cqZAo" node="4T_K8eVac9X" resolve="packageName" />
+                                  </node>
+                                  <node concept="liA8E" id="4T_K8eVacaf" role="2OqNvi">
+                                    <ref role="37wK5l" to="wyt6:~String.contains(java.lang.CharSequence):boolean" resolve="contains" />
+                                    <node concept="Xl_RD" id="4T_K8eVacag" role="37wK5m">
+                                      <property role="Xl_RC" value="/" />
+                                    </node>
+                                  </node>
+                                </node>
+                              </node>
+                              <node concept="3clFbH" id="4T_K8eVac4L" role="3cqZAp" />
                               <node concept="3clFbF" id="5lRZ7X4XASt" role="3cqZAp">
                                 <node concept="2YIFZM" id="5lRZ7X4XBQ1" role="3clFbG">
                                   <ref role="1Pybhc" to="wyt6:~String" resolve="String" />
@@ -8580,8 +8633,8 @@
                                   <node concept="Xl_RD" id="5lRZ7X4XC1b" role="37wK5m">
                                     <property role="Xl_RC" value="require(\&quot;%s\&quot;)" />
                                   </node>
-                                  <node concept="37vLTw" id="5lRZ7X4XDf3" role="37wK5m">
-                                    <ref role="3cqZAo" node="5lRZ7X4XA8B" resolve="it" />
+                                  <node concept="37vLTw" id="4T_K8eVacsl" role="37wK5m">
+                                    <ref role="3cqZAo" node="4T_K8eVac9X" resolve="packageName" />
                                   </node>
                                 </node>
                               </node>
@@ -8683,14 +8736,14 @@
                                       <property role="Xl_RC" value="\&quot;" />
                                     </node>
                                     <node concept="37vLTw" id="5lRZ7X4XSvr" role="3uHU7w">
-                                      <ref role="3cqZAo" node="5lRZ7X4XIKx" resolve="it" />
+                                      <ref role="3cqZAo" node="5lRZ7X4XIKx" resolve="fullPackageName" />
                                     </node>
                                   </node>
                                 </node>
                               </node>
                             </node>
                             <node concept="Rh6nW" id="5lRZ7X4XIKx" role="1bW2Oz">
-                              <property role="TrG5h" value="it" />
+                              <property role="TrG5h" value="fullPackageName" />
                               <node concept="2jxLKc" id="5lRZ7X4XIKy" role="1tU5fm" />
                             </node>
                           </node>
@@ -8734,6 +8787,58 @@
                         <node concept="3$u5V9" id="5lRZ7X56nwg" role="2OqNvi">
                           <node concept="1bVj0M" id="5lRZ7X56nwh" role="23t8la">
                             <node concept="3clFbS" id="5lRZ7X56nwi" role="1bW5cS">
+                              <node concept="3cpWs8" id="4T_K8eV9X_w" role="3cqZAp">
+                                <node concept="3cpWsn" id="4T_K8eV9X_z" role="3cpWs9">
+                                  <property role="TrG5h" value="packageName" />
+                                  <node concept="17QB3L" id="4T_K8eV9X_u" role="1tU5fm" />
+                                  <node concept="37vLTw" id="4T_K8eV9Y0F" role="33vP2m">
+                                    <ref role="3cqZAo" node="5lRZ7X56nwp" resolve="it" />
+                                  </node>
+                                </node>
+                              </node>
+                              <node concept="3clFbJ" id="4T_K8eV9Y5$" role="3cqZAp">
+                                <node concept="3clFbS" id="4T_K8eV9Y5A" role="3clFbx">
+                                  <node concept="3SKdUt" id="4T_K8eV9YQP" role="3cqZAp">
+                                    <node concept="3SKdUq" id="4T_K8eV9YQR" role="3SKWNk">
+                                      <property role="3SKdUp" value=" this is a git package, remove repo name before /:" />
+                                    </node>
+                                  </node>
+                                  <node concept="3clFbF" id="4T_K8eV9ZWT" role="3cqZAp">
+                                    <node concept="37vLTI" id="4T_K8eVa05H" role="3clFbG">
+                                      <node concept="AH0OO" id="4T_K8eVab_Z" role="37vLTx">
+                                        <node concept="3cmrfG" id="4T_K8eVabAH" role="AHEQo">
+                                          <property role="3cmrfH" value="1" />
+                                        </node>
+                                        <node concept="2OqwBi" id="4T_K8eVaaX4" role="AHHXb">
+                                          <node concept="37vLTw" id="4T_K8eVaaQ9" role="2Oq$k0">
+                                            <ref role="3cqZAo" node="4T_K8eV9X_z" resolve="packageName" />
+                                          </node>
+                                          <node concept="liA8E" id="4T_K8eVabek" role="2OqNvi">
+                                            <ref role="37wK5l" to="wyt6:~String.split(java.lang.String):java.lang.String[]" resolve="split" />
+                                            <node concept="Xl_RD" id="4T_K8eVabkK" role="37wK5m">
+                                              <property role="Xl_RC" value="/" />
+                                            </node>
+                                          </node>
+                                        </node>
+                                      </node>
+                                      <node concept="37vLTw" id="4T_K8eV9ZWR" role="37vLTJ">
+                                        <ref role="3cqZAo" node="4T_K8eV9X_z" resolve="packageName" />
+                                      </node>
+                                    </node>
+                                  </node>
+                                </node>
+                                <node concept="2OqwBi" id="4T_K8eV9YkG" role="3clFbw">
+                                  <node concept="37vLTw" id="4T_K8eV9Ycp" role="2Oq$k0">
+                                    <ref role="3cqZAo" node="4T_K8eV9X_z" resolve="packageName" />
+                                  </node>
+                                  <node concept="liA8E" id="4T_K8eV9Y_b" role="2OqNvi">
+                                    <ref role="37wK5l" to="wyt6:~String.contains(java.lang.CharSequence):boolean" resolve="contains" />
+                                    <node concept="Xl_RD" id="4T_K8eV9YDG" role="37wK5m">
+                                      <property role="Xl_RC" value="/" />
+                                    </node>
+                                  </node>
+                                </node>
+                              </node>
                               <node concept="3clFbF" id="5lRZ7X56nwj" role="3cqZAp">
                                 <node concept="3cpWs3" id="5lRZ7X56nwk" role="3clFbG">
                                   <node concept="Xl_RD" id="5lRZ7X56nwl" role="3uHU7w">
@@ -8743,8 +8848,8 @@
                                     <node concept="Xl_RD" id="5lRZ7X56nwn" role="3uHU7B">
                                       <property role="Xl_RC" value="library(\&quot;" />
                                     </node>
-                                    <node concept="37vLTw" id="5lRZ7X56nwo" role="3uHU7w">
-                                      <ref role="3cqZAo" node="5lRZ7X56nwp" resolve="it" />
+                                    <node concept="37vLTw" id="4T_K8eVabQ1" role="3uHU7w">
+                                      <ref role="3cqZAo" node="4T_K8eV9X_z" resolve="packageName" />
                                     </node>
                                   </node>
                                 </node>

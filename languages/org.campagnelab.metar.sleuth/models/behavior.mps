@@ -330,7 +330,7 @@
                 <node concept="Xl_RD" id="1AaQBcuumSf" role="HW$Y0">
                   <property role="Xl_RC" value="dplyr" />
                 </node>
-                <node concept="Xl_RD" id="1AaQBcuuISI" role="HW$Y0">
+                <node concept="Xl_RD" id="4T_K8eV9H4Y" role="HW$Y0">
                   <property role="Xl_RC" value="sleuth" />
                 </node>
               </node>
@@ -533,6 +533,9 @@
               <node concept="17QB3L" id="5HtHr3Ed3x0" role="HW$YZ" />
               <node concept="Xl_RD" id="5HtHr3Ed3$9" role="HW$Y0">
                 <property role="Xl_RC" value="rhdf5" />
+              </node>
+              <node concept="Xl_RD" id="4T_K8eV9uJT" role="HW$Y0">
+                <property role="Xl_RC" value="pachterlab/sleuth" />
               </node>
             </node>
           </node>
