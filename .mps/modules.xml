@@ -22,6 +22,7 @@
       <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.metar.functions.importing/org.campagnelab.metar.importing.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.metar.limma/org.campagnelab.metar.limma.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.metar.models/org.campagnelab.metar.models.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.metar.plots/org.campagnelab.metar.plots.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.metar.simulation/org.campagnelab.metar.simulation.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.metar.sleuth/org.campagnelab.metar.sleuth.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.metar.with.r/org.campagnelab.metar.with.r.mpl" folder="" />
