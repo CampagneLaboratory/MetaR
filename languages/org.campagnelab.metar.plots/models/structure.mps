@@ -52,8 +52,13 @@
     <property role="1pbfSe" value="429131663" />
     <property role="TrG5h" value="MAPlot" />
     <property role="R4oN_" value="Create an MA Plot" />
-    <property role="34LRSv" value="ma plot" />
+    <property role="34LRSv" value="MA plot" />
     <ref role="1TJDcQ" to="jrxw:6WPhx9nlOjT" resolve="PlotBuilderStatement" />
+    <node concept="1TJgyj" id="3jH$tF$QJoy" role="1TKVEi">
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="geneList" />
+      <ref role="20lvS9" to="jrxw:3BiNpr5FGHV" resolve="SetOfIds" />
+    </node>
     <node concept="1TJgyi" id="3jH$tF$DBpD" role="1TKVEl">
       <property role="TrG5h" value="logFCColName" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />

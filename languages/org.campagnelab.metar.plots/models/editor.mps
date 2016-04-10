@@ -44,7 +44,7 @@
     <ref role="1XX52x" to="jugs:3jH$tF$DBmP" resolve="MAPlot" />
     <node concept="3EZMnI" id="3jH$tF$DBn9" role="2wV5jI">
       <node concept="3F0ifn" id="3jH$tF$DBng" role="3EZMnx">
-        <property role="3F0ifm" value="create MA plot" />
+        <property role="3F0ifm" value="MA plot" />
       </node>
       <node concept="3F0ifn" id="3jH$tF$DBnu" role="3EZMnx">
         <property role="3F0ifm" value="with stats from" />
