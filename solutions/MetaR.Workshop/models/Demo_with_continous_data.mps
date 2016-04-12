@@ -128,6 +128,7 @@
       </concept>
       <concept id="5703306641526702642" name="org.campagnelab.metar.tables.structure.HeatmapAnnotations" flags="ng" index="2tnku">
         <property id="6583618001731900686" name="clusterRows" index="2Lhm2Y" />
+        <reference id="4173876386489605878" name="idGroup" index="2wXwy3" />
         <child id="5703306641526703109" name="usages" index="2tncD" />
         <child id="6583618001716896682" name="scaling" index="2Mr_oq" />
       </concept>
@@ -1203,6 +1204,7 @@
         </node>
         <node concept="2tnku" id="2734ievegHv" role="2thHW">
           <property role="2Lhm2Y" value="true" />
+          <ref role="2wXwy3" node="2734ievegBb" resolve="ID" />
           <node concept="2tndn" id="2734ievegHw" role="2tncD">
             <ref role="2tne1" node="2734ievegBj" resolve="LPS" />
           </node>
@@ -3650,6 +3652,7 @@
         </node>
         <node concept="2tnku" id="4ssfE$b9ViN" role="2thHW">
           <property role="2Lhm2Y" value="true" />
+          <ref role="2wXwy3" node="2734ievegBb" resolve="ID" />
           <node concept="2tndn" id="4ssfE$b9ViO" role="2tncD">
             <ref role="2tne1" node="2734ievegBj" resolve="LPS" />
           </node>
@@ -3680,6 +3683,7 @@
         </node>
         <node concept="2tnku" id="4ssfE$bjIMs" role="2thHW">
           <property role="2Lhm2Y" value="true" />
+          <ref role="2wXwy3" node="2734ievegBb" resolve="ID" />
           <node concept="2tndn" id="4ssfE$bjIMt" role="2tncD">
             <ref role="2tne1" node="2734ievegBj" resolve="LPS" />
           </node>

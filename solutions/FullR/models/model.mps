@@ -5215,20 +5215,6 @@
         </node>
         <node concept="3cU4HJ" id="DoqG1rIDzG" role="13u1kV" />
         <node concept="3cU4HJ" id="DoqG1rIDzH" role="13u1kV" />
-        <node concept="2PZJp2" id="DoqG1rIDzI" role="13u1kV">
-          <node concept="gNbv0" id="DoqG1rIDzJ" role="134Gdu">
-            <node concept="V6WaU" id="DoqG1rIDzK" role="gNbrm">
-              <node concept="2PZJpm" id="DoqG1rIDzL" role="gNbhV">
-                <property role="pzxGI" value="hello world" />
-              </node>
-            </node>
-          </node>
-          <node concept="3a69Ir" id="DoqG1rIDzM" role="134Gdo">
-            <ref role="3a69Pm" to="4tsn:1yhT8VTIyMS" />
-            <ref role="1Li74V" to="4tsn:1yhT8VTIyMR" resolve="cat" />
-          </node>
-        </node>
-        <node concept="3cU4HJ" id="DoqG1rIDzN" role="13u1kV" />
         <node concept="2PZJp2" id="DoqG1rIDzO" role="13u1kV">
           <node concept="gNbv0" id="DoqG1rIDzP" role="134Gdu">
             <node concept="V6WaU" id="DoqG1rIDzQ" role="gNbrm">

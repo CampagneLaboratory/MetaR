@@ -2,7 +2,7 @@
 <model ref="r:3e2e9cdc-c711-4ff2-8c08-932ce803c530(CountAnnotationError)">
   <persistence version="9" />
   <languages>
-    <use id="5d6bde84-4ce4-4eb5-a37e-25a5edd55129" name="org.campagnelab.metar.tables" version="1" />
+    <use id="5d6bde84-4ce4-4eb5-a37e-25a5edd55129" name="org.campagnelab.metar.tables" version="2" />
     <use id="32f503e8-061b-451e-bcb0-fef56aa05eb9" name="org.campagnelab.metar.inspect" version="0" />
     <use id="ecc862c9-5ab5-42ef-8703-2039019fb338" name="org.campagnelab.metar.models" version="1" />
     <use id="901f5cf3-dc77-4c1e-bc5a-6382baee28b4" name="org.campagnelab.textoutput" version="0" />
@@ -118,6 +118,7 @@
       </concept>
       <concept id="5703306641526702642" name="org.campagnelab.metar.tables.structure.HeatmapAnnotations" flags="ng" index="2tnku">
         <property id="6583618001731900686" name="clusterRows" index="2Lhm2Y" />
+        <reference id="4173876386489605878" name="idGroup" index="2wXwy3" />
         <child id="5703306641526703109" name="usages" index="2tncD" />
         <child id="6583618001716896682" name="scaling" index="2Mr_oq" />
       </concept>
@@ -6278,6 +6279,7 @@
         </node>
         <node concept="2tnku" id="6IthYxTOpH$" role="2thHW">
           <property role="2Lhm2Y" value="true" />
+          <ref role="2wXwy3" node="4GtxN19zWNx" resolve="ID" />
           <node concept="2tndn" id="2hVndXv5E5h" role="2tncD">
             <ref role="2tne1" node="1IGCSCxw8a6" resolve="deceased" />
           </node>
