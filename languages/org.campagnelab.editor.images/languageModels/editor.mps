@@ -9,6 +9,7 @@
     <import index="tpc2" ref="r:00000000-0000-4000-0000-011c8959029e(jetbrains.mps.lang.editor.structure)" />
     <import index="tpc5" ref="r:00000000-0000-4000-0000-011c89590299(jetbrains.mps.lang.editor.editor)" />
     <import index="6hgq" ref="r:eecca0f3-a7f2-4995-9f62-819ef5f4e912(org.campagnelab.editor.images.structure)" />
+    <import index="tpco" ref="r:00000000-0000-4000-0000-011c89590284(jetbrains.mps.lang.core.editor)" implicit="true" />
   </imports>
   <registry>
     <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">
@@ -227,6 +228,12 @@
         </node>
         <node concept="2iRfu4" id="37EhXvtG_Fn" role="2iSdaV" />
       </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="3AJ457wBSwq">
+    <ref role="1XX52x" to="6hgq:3AJ457wBSwn" resolve="StubCell_RefreshableImage" />
+    <node concept="PMmxH" id="3AJ457wBSwr" role="2wV5jI">
+      <ref role="PMmxG" to="tpco:37EzmTDC95l" resolve="ImplementationRemovedInStubMessage" />
     </node>
   </node>
 </model>
