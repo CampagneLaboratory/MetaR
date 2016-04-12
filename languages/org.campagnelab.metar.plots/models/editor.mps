@@ -82,20 +82,20 @@
       <node concept="3F0ifn" id="3jH$tF$DBpl" role="3EZMnx">
         <property role="3F0ifm" value="log fold change column name" />
       </node>
-      <node concept="3F0A7n" id="3jH$tF$DBpI" role="3EZMnx">
-        <ref role="1NtTu8" to="jugs:3jH$tF$DBpD" resolve="logFCColName" />
+      <node concept="3F1sOY" id="3AJ457wCOOv" role="3EZMnx">
+        <ref role="1NtTu8" to="jugs:3AJ457wCC3D" />
       </node>
       <node concept="3F0ifn" id="3jH$tF$E4Iq" role="3EZMnx">
         <property role="3F0ifm" value="adjusted P value column name" />
       </node>
-      <node concept="3F0A7n" id="3jH$tF$E4IG" role="3EZMnx">
-        <ref role="1NtTu8" to="jugs:3jH$tF$DHjf" resolve="fdrColName" />
+      <node concept="3F1sOY" id="3AJ457wCC6P" role="3EZMnx">
+        <ref role="1NtTu8" to="jugs:3AJ457wCC3Y" />
       </node>
       <node concept="3F0ifn" id="3jH$tF$DBpv" role="3EZMnx">
         <property role="3F0ifm" value="expression column name" />
       </node>
-      <node concept="3F0A7n" id="3jH$tF$DBpO" role="3EZMnx">
-        <ref role="1NtTu8" to="jugs:3jH$tF$DBpF" resolve="meanColName" />
+      <node concept="3F1sOY" id="3AJ457wCC8U" role="3EZMnx">
+        <ref role="1NtTu8" to="jugs:3AJ457wCC3o" />
       </node>
       <node concept="3F0ifn" id="3jH$tF$DFHs" role="3EZMnx">
         <property role="3F0ifm" value="mininum AverageExpression=" />

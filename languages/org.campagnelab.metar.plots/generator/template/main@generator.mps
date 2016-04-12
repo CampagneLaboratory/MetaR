@@ -16,6 +16,7 @@
     <import index="jrxw" ref="r:9f2bbfbf-f8b7-4b3b-92b1-b6a0e9642c10(org.campagnelab.metar.tables.structure)" />
     <import index="jugs" ref="r:625b65e5-b4a4-428e-a70f-ad13f56d2584(org.campagnelab.metar.plots.structure)" implicit="true" />
     <import index="4tsn" ref="r:97aeaa4f-346d-4633-b5a0-99879648272c(R3_1_3@stubs)" implicit="true" />
+    <import index="tp35" ref="r:6c85f813-d079-415b-abe9-4d0021645709(org.campagnelab.metar.plots.behavior)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -350,8 +351,8 @@
                                 <node concept="3clFbF" id="3jH$tF$E3fd" role="3cqZAp">
                                   <node concept="2OqwBi" id="3jH$tF$E3ja" role="3clFbG">
                                     <node concept="30H73N" id="3jH$tF$E3fc" role="2Oq$k0" />
-                                    <node concept="3TrcHB" id="3jH$tF$E3qT" role="2OqNvi">
-                                      <ref role="3TsBF5" to="jugs:3jH$tF$DHjf" resolve="fdrColName" />
+                                    <node concept="2qgKlT" id="3AJ457wDC2T" role="2OqNvi">
+                                      <ref role="37wK5l" to="tp35:3AJ457wDmra" resolve="fdrColName" />
                                     </node>
                                   </node>
                                 </node>
@@ -414,8 +415,8 @@
                                   <node concept="3clFbF" id="3jH$tF$DGQS" role="3cqZAp">
                                     <node concept="2OqwBi" id="3jH$tF$DGUP" role="3clFbG">
                                       <node concept="30H73N" id="3jH$tF$DGQR" role="2Oq$k0" />
-                                      <node concept="3TrcHB" id="3jH$tF$E39o" role="2OqNvi">
-                                        <ref role="3TsBF5" to="jugs:3jH$tF$DHjf" resolve="fdrColName" />
+                                      <node concept="2qgKlT" id="3AJ457wDokj" role="2OqNvi">
+                                        <ref role="37wK5l" to="tp35:3AJ457wDmra" resolve="fdrColName" />
                                       </node>
                                     </node>
                                   </node>
@@ -464,8 +465,8 @@
                                   <node concept="3clFbF" id="3jH$tF$DGB2" role="3cqZAp">
                                     <node concept="2OqwBi" id="3jH$tF$DGEZ" role="3clFbG">
                                       <node concept="30H73N" id="3jH$tF$DGB1" role="2Oq$k0" />
-                                      <node concept="3TrcHB" id="3jH$tF$DGMO" role="2OqNvi">
-                                        <ref role="3TsBF5" to="jugs:3jH$tF$DBpF" resolve="meanColName" />
+                                      <node concept="2qgKlT" id="3AJ457wDCdb" role="2OqNvi">
+                                        <ref role="37wK5l" to="tp35:3AJ457wDpYP" resolve="meanColName" />
                                       </node>
                                     </node>
                                   </node>
@@ -535,6 +536,22 @@
                     <node concept="2PZJpN" id="3jH$tF$DB_u" role="gNbhV">
                       <node concept="2PZJpp" id="3jH$tF$DB_x" role="2v3moI">
                         <property role="TrG5h" value="AveExpr" />
+                        <node concept="17Uvod" id="3AJ457wDv6D" role="lGtFl">
+                          <property role="P4ACc" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/1169194658468/1169194664001" />
+                          <property role="2qtEX9" value="name" />
+                          <node concept="3zFVjK" id="3AJ457wDv6E" role="3zH0cK">
+                            <node concept="3clFbS" id="3AJ457wDv6F" role="2VODD2">
+                              <node concept="3clFbF" id="3AJ457wDv9V" role="3cqZAp">
+                                <node concept="2OqwBi" id="3AJ457wDvdY" role="3clFbG">
+                                  <node concept="30H73N" id="3AJ457wDv9U" role="2Oq$k0" />
+                                  <node concept="2qgKlT" id="3AJ457wDvsl" role="2OqNvi">
+                                    <ref role="37wK5l" to="tp35:3AJ457wDpYP" resolve="meanColName" />
+                                  </node>
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                        </node>
                       </node>
                       <node concept="22gcdF" id="3jH$tF$DB_y" role="22hImy" />
                       <node concept="1LhYbg" id="3jH$tF$DTo0" role="2v3mow">
@@ -556,8 +573,8 @@
                               <node concept="3clFbF" id="3jH$tF$DIG$" role="3cqZAp">
                                 <node concept="2OqwBi" id="3jH$tF$DIKx" role="3clFbG">
                                   <node concept="30H73N" id="3jH$tF$DIGz" role="2Oq$k0" />
-                                  <node concept="3TrcHB" id="3jH$tF$DISg" role="2OqNvi">
-                                    <ref role="3TsBF5" to="jugs:3jH$tF$DBpD" resolve="logFCColName" />
+                                  <node concept="2qgKlT" id="3AJ457wDqQc" role="2OqNvi">
+                                    <ref role="37wK5l" to="tp35:3AJ457wDny1" resolve="logFCColName" />
                                   </node>
                                 </node>
                               </node>
@@ -831,6 +848,22 @@
                       </node>
                       <node concept="2PZJpp" id="3jH$tF$DBCu" role="2v3moI">
                         <property role="TrG5h" value="AveExpr" />
+                        <node concept="17Uvod" id="3AJ457wDuMr" role="lGtFl">
+                          <property role="P4ACc" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/1169194658468/1169194664001" />
+                          <property role="2qtEX9" value="name" />
+                          <node concept="3zFVjK" id="3AJ457wDuMs" role="3zH0cK">
+                            <node concept="3clFbS" id="3AJ457wDuMt" role="2VODD2">
+                              <node concept="3clFbF" id="3AJ457wDuNj" role="3cqZAp">
+                                <node concept="2OqwBi" id="3AJ457wDuRm" role="3clFbG">
+                                  <node concept="30H73N" id="3AJ457wDuNi" role="2Oq$k0" />
+                                  <node concept="2qgKlT" id="3AJ457wDv5H" role="2OqNvi">
+                                    <ref role="37wK5l" to="tp35:3AJ457wDpYP" resolve="meanColName" />
+                                  </node>
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                        </node>
                       </node>
                       <node concept="22gcdF" id="3jH$tF$DBCv" role="22hImy" />
                     </node>
@@ -844,6 +877,22 @@
                       </node>
                       <node concept="2PZJpp" id="3jH$tF$DBCA" role="2v3moI">
                         <property role="TrG5h" value="logFC" />
+                        <node concept="17Uvod" id="3AJ457wDtZq" role="lGtFl">
+                          <property role="P4ACc" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/1169194658468/1169194664001" />
+                          <property role="2qtEX9" value="name" />
+                          <node concept="3zFVjK" id="3AJ457wDtZr" role="3zH0cK">
+                            <node concept="3clFbS" id="3AJ457wDtZs" role="2VODD2">
+                              <node concept="3clFbF" id="3AJ457wDuir" role="3cqZAp">
+                                <node concept="2OqwBi" id="3AJ457wDumu" role="3clFbG">
+                                  <node concept="30H73N" id="3AJ457wDuiq" role="2Oq$k0" />
+                                  <node concept="2qgKlT" id="3AJ457wDu_n" role="2OqNvi">
+                                    <ref role="37wK5l" to="tp35:3AJ457wDny1" resolve="logFCColName" />
+                                  </node>
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                        </node>
                       </node>
                       <node concept="22gcdF" id="3jH$tF$DBCB" role="22hImy" />
                     </node>
@@ -1283,8 +1332,8 @@
                               <node concept="3clFbF" id="3jH$tF$DKak" role="3cqZAp">
                                 <node concept="2OqwBi" id="3jH$tF$DKej" role="3clFbG">
                                   <node concept="30H73N" id="3jH$tF$DKaj" role="2Oq$k0" />
-                                  <node concept="3TrcHB" id="3jH$tF$DKKR" role="2OqNvi">
-                                    <ref role="3TsBF5" to="jugs:3jH$tF$DBpF" resolve="meanColName" />
+                                  <node concept="2qgKlT" id="3AJ457wDCnB" role="2OqNvi">
+                                    <ref role="37wK5l" to="tp35:3AJ457wDpYP" resolve="meanColName" />
                                   </node>
                                 </node>
                               </node>
@@ -1311,8 +1360,8 @@
                               <node concept="3clFbF" id="3jH$tF$DKRE" role="3cqZAp">
                                 <node concept="2OqwBi" id="3jH$tF$DKVB" role="3clFbG">
                                   <node concept="30H73N" id="3jH$tF$DKRD" role="2Oq$k0" />
-                                  <node concept="3TrcHB" id="3jH$tF$DL4g" role="2OqNvi">
-                                    <ref role="3TsBF5" to="jugs:3jH$tF$DBpD" resolve="logFCColName" />
+                                  <node concept="2qgKlT" id="3AJ457wDtuX" role="2OqNvi">
+                                    <ref role="37wK5l" to="tp35:3AJ457wDny1" resolve="logFCColName" />
                                   </node>
                                 </node>
                               </node>
