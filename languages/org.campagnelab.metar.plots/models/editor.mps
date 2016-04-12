@@ -9,6 +9,8 @@
     <import index="jugs" ref="r:625b65e5-b4a4-428e-a70f-ad13f56d2584(org.campagnelab.metar.plots.structure)" implicit="true" />
     <import index="8gqa" ref="r:c14853f5-5f2e-4acc-825a-4fec67caca67(org.campagnelab.metar.tables.editor)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
+    <import index="onla" ref="r:b81182ba-13d2-441a-9b65-76fe2bd96f30(org.campagnelab.styles.structure)" implicit="true" />
+    <import index="h23j" ref="r:5e0b7baa-a427-417f-968a-1e4912c5f643(org.campagnelab.styles.editor)" implicit="true" />
   </imports>
   <registry>
     <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">
@@ -94,6 +96,16 @@
       </node>
       <node concept="3F1sOY" id="3jH$tF$DBp8" role="3EZMnx">
         <ref role="1NtTu8" to="jugs:5gXsBBL6Ceq" />
+      </node>
+      <node concept="1iCGBv" id="3AJ457wIweS" role="3EZMnx">
+        <ref role="1NtTu8" to="onla:32mm9410GdM" />
+        <ref role="1k5W1q" to="h23j:3edJYE6DDKe" resolve="StyleName" />
+        <node concept="1sVBvm" id="3AJ457wIweU" role="1sWHZn">
+          <node concept="3F0A7n" id="3AJ457wIwfO" role="2wV5jI">
+            <property role="1Intyy" value="true" />
+            <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+          </node>
+        </node>
       </node>
     </node>
     <node concept="3EZMnI" id="3jH$tF$DBpf" role="6VMZX">

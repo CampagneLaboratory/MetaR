@@ -19,6 +19,7 @@
     <import index="jrxw" ref="r:9f2bbfbf-f8b7-4b3b-92b1-b6a0e9642c10(org.campagnelab.metar.tables.structure)" />
     <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
+    <import index="onla" ref="r:b81182ba-13d2-441a-9b65-76fe2bd96f30(org.campagnelab.styles.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
@@ -63,6 +64,11 @@
       <property role="20kJfa" value="geneList" />
       <ref role="20lvS9" to="jrxw:3BiNpr5FGHV" resolve="SetOfIds" />
     </node>
+    <node concept="1TJgyj" id="3AJ457wDFB6" role="1TKVEi">
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="geneName" />
+      <ref role="20lvS9" to="jrxw:2WRhvFtICJV" resolve="ColumnGroup" />
+    </node>
     <node concept="1TJgyi" id="3jH$tF$F2jp" role="1TKVEl">
       <property role="TrG5h" value="significanceLevelFDR" />
       <ref role="AX2Wp" to="tpee:gc$lTUB" resolve="_FPNumber_String" />
@@ -103,6 +109,9 @@
     </node>
     <node concept="PrWs8" id="3AJ457wCC9C" role="PzmwI">
       <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
+    </node>
+    <node concept="PrWs8" id="3AJ457wIwdb" role="PzmwI">
+      <ref role="PrY4T" to="onla:4FCgsrOfk9w" resolve="UseStyle" />
     </node>
   </node>
 </model>
