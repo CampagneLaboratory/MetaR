@@ -7,6 +7,7 @@
   </languages>
   <imports>
     <import index="jugs" ref="r:625b65e5-b4a4-428e-a70f-ad13f56d2584(org.campagnelab.metar.plots.structure)" implicit="true" />
+    <import index="8gqa" ref="r:c14853f5-5f2e-4acc-825a-4fec67caca67(org.campagnelab.metar.tables.editor)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
@@ -20,6 +21,9 @@
       </concept>
       <concept id="1088013125922" name="jetbrains.mps.lang.editor.structure.CellModel_RefCell" flags="sg" stub="730538219795941030" index="1iCGBv">
         <child id="1088186146602" name="editorComponent" index="1sWHZn" />
+      </concept>
+      <concept id="1381004262292414836" name="jetbrains.mps.lang.editor.structure.ICellStyle" flags="ng" index="1k5N5V">
+        <reference id="1381004262292426837" name="parentStyleClass" index="1k5W1q" />
       </concept>
       <concept id="1088185857835" name="jetbrains.mps.lang.editor.structure.InlineEditorComponent" flags="ig" index="1sVBvm" />
       <concept id="1139848536355" name="jetbrains.mps.lang.editor.structure.CellModel_WithRole" flags="ng" index="1$h60E">
@@ -64,8 +68,22 @@
       </node>
       <node concept="1iCGBv" id="3jH$tF$ROFw" role="3EZMnx">
         <ref role="1NtTu8" to="jugs:3jH$tF$QJoy" />
+        <ref role="1k5W1q" to="8gqa:7Hltlm8C$po" resolve="GeneListName" />
         <node concept="1sVBvm" id="3jH$tF$ROFy" role="1sWHZn">
           <node concept="3F0A7n" id="3jH$tF$ROFW" role="2wV5jI">
+            <property role="1Intyy" value="true" />
+            <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+          </node>
+        </node>
+      </node>
+      <node concept="3F0ifn" id="3AJ457wDFCk" role="3EZMnx">
+        <property role="3F0ifm" value="with" />
+      </node>
+      <node concept="1iCGBv" id="3AJ457wDFDV" role="3EZMnx">
+        <ref role="1NtTu8" to="jugs:3AJ457wDFB6" />
+        <ref role="1k5W1q" to="8gqa:2rPl_HMU6tb" resolve="ColumnName" />
+        <node concept="1sVBvm" id="3AJ457wDFDX" role="1sWHZn">
+          <node concept="3F0A7n" id="3AJ457wDFEX" role="2wV5jI">
             <property role="1Intyy" value="true" />
             <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
           </node>
