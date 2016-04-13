@@ -1587,7 +1587,8 @@
                     <property role="TrG5h" value="s2c" />
                   </node>
                 </node>
-                <node concept="V6WaU" id="3AJ457wKOnl" role="gNbrm">
+                <node concept="V6WaX" id="3AJ457wTjiD" role="gNbrm">
+                  <property role="gNbhX" value="full_model" />
                   <node concept="2PZJp6" id="3AJ457wKOno" role="gNbhV">
                     <node concept="2PZJpd" id="3AJ457wKOnp" role="3flx_1">
                       <node concept="2PZJpd" id="3AJ457wKOns" role="2v3mow">
@@ -1625,13 +1626,32 @@
               </node>
             </node>
             <node concept="3cU4HJ" id="3AJ457wKODE" role="13u1kV" />
+            <node concept="2PZJp2" id="3AJ457wTTYA" role="13u1kV">
+              <node concept="2PZJp4" id="3AJ457wTTYF" role="134Gdo">
+                <node concept="1LhYbg" id="3AJ457wTU5J" role="2v3mow">
+                  <ref role="1Li74V" node="3AJ457wKOnd" resolve="so" />
+                </node>
+                <node concept="2PZJpp" id="3AJ457wTTYJ" role="2v3moI">
+                  <property role="TrG5h" value="sleuth_fit" />
+                </node>
+                <node concept="22gccq" id="3AJ457wTTYK" role="22hImy" />
+              </node>
+              <node concept="gNbv0" id="3AJ457wTTYL" role="134Gdu">
+                <node concept="V6WaU" id="3AJ457wTTYM" role="gNbrm">
+                  <node concept="1LhYbg" id="3AJ457wTU5R" role="gNbhV">
+                    <ref role="1Li74V" node="3AJ457wKOnd" resolve="so" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3cU4HJ" id="3AJ457wTU5V" role="13u1kV" />
             <node concept="2PZJp2" id="3AJ457wKOn$" role="13u1kV">
               <node concept="2PZJp4" id="3AJ457wKOnD" role="134Gdo">
                 <node concept="1LhYbg" id="3AJ457wKODA" role="2v3mow">
                   <ref role="1Li74V" node="3AJ457wKOnd" resolve="so" />
                 </node>
-                <node concept="2PZJpp" id="3AJ457wKOnH" role="2v3moI">
-                  <property role="TrG5h" value="sleuth_fit" />
+                <node concept="1LhYbg" id="3AJ457wTU5N" role="2v3moI">
+                  <ref role="1Li74V" node="3AJ457wTTYJ" resolve="sleuth_fit" />
                 </node>
                 <node concept="22gccq" id="3AJ457wKOnI" role="22hImy" />
               </node>
