@@ -10,6 +10,7 @@
     <use id="837afec3-cff0-45b1-a221-6b811148f87e" name="org.campagnelab.metar.R.gen" version="0" />
     <use id="b83431fe-5c8f-40bc-8a36-65e25f4dd253" name="jetbrains.mps.lang.textGen" version="0" />
     <use id="ecc862c9-5ab5-42ef-8703-2039019fb338" name="org.campagnelab.metar.models" version="1" />
+    <use id="544eb3a5-f68f-41ed-98e0-db6291e897fb" name="org.campagnelab.metar.R.inspect" version="0" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -26,6 +27,7 @@
     <import index="guwi" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" />
     <import index="8vtd" ref="r:cbd13695-fd32-4d39-aded-ba7e630ac2c3(org.campagnelab.metar.inspect.structure)" />
     <import index="18ew" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.util(MPS.Core/)" />
+    <import index="jdsq" ref="r:fc6a7b8b-2b37-4925-9f9b-72748c0f3c40(org.campagnelab.metar.R.inspect.structure)" />
     <import index="4tsn" ref="r:97aeaa4f-346d-4633-b5a0-99879648272c(R3_1_3@stubs)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
@@ -177,6 +179,11 @@
       <concept id="1199569711397" name="jetbrains.mps.baseLanguage.closures.structure.ClosureLiteral" flags="nn" index="1bVj0M">
         <child id="1199569906740" name="parameter" index="1bW2Oz" />
         <child id="1199569916463" name="body" index="1bW5cS" />
+      </concept>
+    </language>
+    <language id="544eb3a5-f68f-41ed-98e0-db6291e897fb" name="org.campagnelab.metar.R.inspect">
+      <concept id="4156558924941055847" name="org.campagnelab.metar.R.inspect.structure.StatementTrace" flags="ng" index="3oI4sQ">
+        <property id="4156558924941055848" name="id" index="3oI4sT" />
       </concept>
     </language>
     <language id="3b58810c-8431-4bbb-99ea-b4671e02dd13" name="org.campagnelab.metar.R">
@@ -1072,42 +1079,6 @@
           </node>
         </node>
         <node concept="3cU4HJ" id="3AJ457wKynh" role="13u1kV" />
-        <node concept="2PZJp2" id="1AaQBcuJUvf" role="13u1kV">
-          <node concept="gNbv0" id="1AaQBcuJUvl" role="134Gdu">
-            <node concept="V6WaU" id="1AaQBcuJUvm" role="gNbrm">
-              <node concept="2PZJpm" id="1AaQBcuJUvp" role="gNbhV">
-                <property role="pzxGI" value="STATEMENT_EXECUTED/id/\n" />
-                <node concept="17Uvod" id="1AaQBcuLX8l" role="lGtFl">
-                  <property role="P4ACc" value="3b58810c-8431-4bbb-99ea-b4671e02dd13/6176023809880707768/1229604057012663630" />
-                  <property role="2qtEX9" value="value" />
-                  <node concept="3zFVjK" id="1AaQBcuLX8m" role="3zH0cK">
-                    <node concept="3clFbS" id="1AaQBcuLX8n" role="2VODD2">
-                      <node concept="3clFbF" id="1AaQBcuLXtK" role="3cqZAp">
-                        <node concept="2YIFZM" id="1AaQBcuLXw2" role="3clFbG">
-                          <ref role="37wK5l" to="wyt6:~String.format(java.lang.String,java.lang.Object...):java.lang.String" resolve="format" />
-                          <ref role="1Pybhc" to="wyt6:~String" resolve="String" />
-                          <node concept="Xl_RD" id="1AaQBcuLX9z" role="37wK5m">
-                            <property role="Xl_RC" value="STATEMENT_EXECUTED/%s/%n" />
-                          </node>
-                          <node concept="2OqwBi" id="1AaQBcuLXG1" role="37wK5m">
-                            <node concept="30H73N" id="1AaQBcuLXAe" role="2Oq$k0" />
-                            <node concept="2qgKlT" id="1AaQBcuLXXe" role="2OqNvi">
-                              <ref role="37wK5l" to="v8sa:2AV3DmgHDX5" resolve="id" />
-                            </node>
-                          </node>
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="3a69Ir" id="1AaQBcuJVAC" role="134Gdo">
-            <ref role="3a69Pm" to="4tsn:1yhT8VTIyMS" />
-            <ref role="1Li74V" to="4tsn:1yhT8VTIyMR" resolve="cat" />
-          </node>
-        </node>
         <node concept="3cU4HJ" id="1AaQBcuLZDr" role="13u1kV" />
         <node concept="2PZJp2" id="1AaQBcuKKLl" role="13u1kV">
           <node concept="gNbv0" id="1AaQBcuKKLr" role="134Gdu">
@@ -1322,6 +1293,28 @@
           </node>
         </node>
         <node concept="3cU4HJ" id="1AaQBcuLgy_" role="13u1kV" />
+        <node concept="wGXcf" id="3AJ457x6fnD" role="13u1kV">
+          <node concept="3oI4sQ" id="3AJ457x6kpm" role="13u1kV">
+            <property role="3oI4sT" value="ID" />
+            <node concept="17Uvod" id="3AJ457x6kpo" role="lGtFl">
+              <property role="P4ACc" value="544eb3a5-f68f-41ed-98e0-db6291e897fb/4156558924941055847/4156558924941055848" />
+              <property role="2qtEX9" value="id" />
+              <node concept="3zFVjK" id="3AJ457x6kpp" role="3zH0cK">
+                <node concept="3clFbS" id="3AJ457x6kpq" role="2VODD2">
+                  <node concept="3clFbF" id="3AJ457x6kq7" role="3cqZAp">
+                    <node concept="2OqwBi" id="3AJ457x6kuw" role="3clFbG">
+                      <node concept="30H73N" id="3AJ457x6kq6" role="2Oq$k0" />
+                      <node concept="2qgKlT" id="3AJ457x6kHU" role="2OqNvi">
+                        <ref role="37wK5l" to="v8sa:2AV3DmgHDX5" resolve="id" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cU4HJ" id="3AJ457x5UbH" role="13u1kV" />
         <node concept="2jeGV$" id="1AaQBctWxUJ" role="lGtFl">
           <property role="TrG5h" value="countsTable" />
           <node concept="2jfdEK" id="1AaQBctWxUL" role="2jfP_Y">
@@ -1376,7 +1369,7 @@
                           <node concept="37vLTw" id="1AaQBcu5loE" role="2Oq$k0">
                             <ref role="3cqZAo" node="1AaQBcu5loq" resolve="sleuth" />
                           </node>
-                          <node concept="3TrEf2" id="3AJ457wQiip" role="2OqNvi">
+                          <node concept="3TrEf2" id="1c1rOX4xep$" role="2OqNvi">
                             <ref role="3Tt5mk" to="bx6g:4ssfE$85c87" />
                           </node>
                         </node>
