@@ -6,6 +6,7 @@
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
+    <import index="jrxw" ref="r:9f2bbfbf-f8b7-4b3b-92b1-b6a0e9642c10(org.campagnelab.metar.tables.structure)" />
     <import index="jugs" ref="r:625b65e5-b4a4-428e-a70f-ad13f56d2584(org.campagnelab.metar.plots.structure)" implicit="true" />
     <import index="8gqa" ref="r:c14853f5-5f2e-4acc-825a-4fec67caca67(org.campagnelab.metar.tables.editor)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
@@ -17,6 +18,12 @@
       <concept id="1071666914219" name="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration" flags="ig" index="24kQdi">
         <child id="1078153129734" name="inspectedCellModel" index="6VMZX" />
       </concept>
+      <concept id="1140524381322" name="jetbrains.mps.lang.editor.structure.CellModel_ListWithRole" flags="ng" index="2czfm3">
+        <property id="1160590307797" name="usesFolding" index="S$F3r" />
+        <child id="1140524464360" name="cellLayout" index="2czzBx" />
+      </concept>
+      <concept id="1106270549637" name="jetbrains.mps.lang.editor.structure.CellLayout_Horizontal" flags="nn" index="2iRfu4" />
+      <concept id="1106270571710" name="jetbrains.mps.lang.editor.structure.CellLayout_Vertical" flags="nn" index="2iRkQZ" />
       <concept id="1237303669825" name="jetbrains.mps.lang.editor.structure.CellLayout_Indent" flags="nn" index="l2Vlx" />
       <concept id="1080736578640" name="jetbrains.mps.lang.editor.structure.BaseEditorComponent" flags="ig" index="2wURMF">
         <child id="1080736633877" name="cellModel" index="2wV5jI" />
@@ -41,8 +48,14 @@
       </concept>
       <concept id="1073389658414" name="jetbrains.mps.lang.editor.structure.CellModel_Property" flags="sg" stub="730538219796134133" index="3F0A7n" />
       <concept id="1073389882823" name="jetbrains.mps.lang.editor.structure.CellModel_RefNode" flags="sg" stub="730538219795960754" index="3F1sOY" />
+      <concept id="1073390211982" name="jetbrains.mps.lang.editor.structure.CellModel_RefNodeList" flags="sg" stub="2794558372793454595" index="3F2HdR" />
       <concept id="1166049232041" name="jetbrains.mps.lang.editor.structure.AbstractComponent" flags="ng" index="1XWOmA">
         <reference id="1166049300910" name="conceptDeclaration" index="1XX52x" />
+      </concept>
+    </language>
+    <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
+      <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
+        <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
       </concept>
     </language>
   </registry>
@@ -134,6 +147,53 @@
       <node concept="3F0A7n" id="3jH$tF$F2kf" role="3EZMnx">
         <ref role="1NtTu8" to="jugs:3jH$tF$F2ju" resolve="minExpression" />
       </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="1c1rOX4$Qih">
+    <ref role="1XX52x" to="jugs:1c1rOX4$Qi9" resolve="UpSet" />
+    <node concept="3EZMnI" id="3FhMZyLf61f" role="2wV5jI">
+      <node concept="3F0ifn" id="3FhMZyLf61h" role="3EZMnx">
+        <property role="3F0ifm" value="UpSet" />
+      </node>
+      <node concept="3F0ifn" id="3FhMZyLf61p" role="3EZMnx">
+        <property role="3F0ifm" value="{" />
+      </node>
+      <node concept="3F2HdR" id="3FhMZyLf61x" role="3EZMnx">
+        <property role="S$F3r" value="true" />
+        <ref role="1NtTu8" to="jugs:kv77ytcHuc" />
+        <node concept="2iRkQZ" id="3FhMZyLf61$" role="2czzBx" />
+      </node>
+      <node concept="3F0ifn" id="3FhMZyLf62d" role="3EZMnx">
+        <property role="3F0ifm" value="}" />
+      </node>
+      <node concept="3F0ifn" id="3FhMZyLf61J" role="3EZMnx">
+        <property role="3F0ifm" value="-&gt;" />
+      </node>
+      <node concept="3F1sOY" id="3FhMZyLf61X" role="3EZMnx">
+        <ref role="1NtTu8" to="jugs:kv77ytcHua" />
+        <ref role="1k5W1q" to="8gqa:7Hltlm8D5QS" resolve="Plot" />
+      </node>
+      <node concept="2iRfu4" id="3FhMZyLf61i" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="1c1rOX4$YSR">
+    <property role="3GE5qa" value="upset" />
+    <ref role="1XX52x" to="jugs:1c1rOX4$YSI" resolve="IdsFromGeneSet" />
+    <node concept="3EZMnI" id="1c1rOX4$YST" role="2wV5jI">
+      <node concept="3F0ifn" id="1c1rOX4$YT0" role="3EZMnx">
+        <property role="3F0ifm" value="set" />
+      </node>
+      <node concept="1iCGBv" id="1c1rOX4$YT6" role="3EZMnx">
+        <ref role="1NtTu8" to="jugs:1c1rOX4$YSJ" />
+        <ref role="1k5W1q" to="8gqa:7Hltlm8C$po" resolve="GeneListName" />
+        <node concept="1sVBvm" id="1c1rOX4$YT8" role="1sWHZn">
+          <node concept="3F0A7n" id="1c1rOX4$YTg" role="2wV5jI">
+            <property role="1Intyy" value="true" />
+            <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+          </node>
+        </node>
+      </node>
+      <node concept="l2Vlx" id="1c1rOX4$YSW" role="2iSdaV" />
     </node>
   </node>
 </model>

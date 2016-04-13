@@ -26,8 +26,6 @@
   </languageVersions>
   <dependencyVersions>
     <module reference="65937b04-08a6-43a0-9d81-780c84461a59(ANTLR.persistence.build)" version="0" />
-    <module reference="db7b3503-2b94-491e-9afb-40ef2d987a04(NYoSh.build-plugins)" version="0" />
-    <module reference="f4badde6-d2fb-4344-91d3-caedb26a938e(XChart.build)" version="0" />
     <module reference="67a7a82f-8cda-415d-bd80-b2a736c3f548(build.plugins)" version="0" />
     <module reference="422c2909-59d6-41a9-b318-40e6256b250f(jetbrains.mps.ide.build)" version="0" />
   </dependencyVersions>

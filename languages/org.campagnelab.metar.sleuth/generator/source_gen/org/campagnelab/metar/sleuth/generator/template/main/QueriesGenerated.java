@@ -22,11 +22,8 @@ import java.util.List;
 import java.util.ArrayList;
 import org.campagnelab.metar.code.generator.helpers.NameHelper;
 import org.campagnelab.metar.tables.behavior.GroupAnnotation__BehaviorDescriptor;
-import org.campagnelab.metar.tables.behavior.Statement__BehaviorDescriptor;
 import org.campagnelab.metar.tables.behavior.FutureTable__BehaviorDescriptor;
-import org.campagnelab.metar.code.generator.helpers.RPath;
-import jetbrains.mps.util.MacrosFactory;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SModelOperations;
+import org.campagnelab.metar.tables.behavior.Statement__BehaviorDescriptor;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import org.campagnelab.metar.models.behavior.GroupFormula__BehaviorDescriptor;
 import jetbrains.mps.generator.template.IfMacroContext;
@@ -35,6 +32,7 @@ import jetbrains.mps.generator.template.TemplateArgumentContext;
 import jetbrains.mps.generator.template.SourceSubstituteMacroNodesContext;
 import jetbrains.mps.generator.template.TemplateQueryContext;
 import org.jetbrains.mps.openapi.language.SAbstractConcept;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SModelOperations;
 import org.campagnelab.metar.tables.behavior.ColumnGroup__BehaviorDescriptor;
 import org.apache.log4j.Logger;
 import org.apache.log4j.LogManager;
@@ -130,17 +128,20 @@ public class QueriesGenerated {
       }
     }), "\",\"");
   }
-  public static Object propertyMacro_GetPropertyValue_1840523585706775062(final PropertyMacroContext _context) {
-    return String.format("STATEMENT_EXECUTED/%s/%n", Statement__BehaviorDescriptor.id_id2AV3DmgHDX5.invoke(_context.getNode()));
+  public static Object propertyMacro_GetPropertyValue_1369498147940273272(final PropertyMacroContext _context) {
+    return SPropertyOperations.getInteger(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x93b7ee14f42b424aL, 0x9d290e275a24208dL, 0x31535da88d6d2369L, 0x1aac91f27421e377L, "normalizedTable")), MetaAdapterFactory.getProperty(0x5d6bde844ce44eb5L, 0xa37e25a5edd55129L, 0x2f3745fadd605ac5L, 0x39d2cd96c5e52d3dL, "id"));
   }
-  public static Object propertyMacro_GetPropertyValue_1840523585706473041(final PropertyMacroContext _context) {
+  public static Object propertyMacro_GetPropertyValue_1369498147940294450(final PropertyMacroContext _context) {
     return (String) FutureTable__BehaviorDescriptor.getCleanTableName_id3BiNpr5Ur7M.invoke(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x93b7ee14f42b424aL, 0x9d290e275a24208dL, 0x31535da88d6d2369L, 0x1aac91f27421e377L, "normalizedTable")));
-  }
-  public static Object propertyMacro_GetPropertyValue_1840523585706478418(final PropertyMacroContext _context) {
-    return new RPath(MacrosFactory.getGlobal().expandPath("${org.campagnelab.metaR.results_dir}") + File.separator + SModelOperations.getModelName(SNodeOperations.getModel(_context.getNode())) + File.separator + "table_" + SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x93b7ee14f42b424aL, 0x9d290e275a24208dL, 0x31535da88d6d2369L, 0x1aac91f27421e377L, "normalizedTable")) + "_0" + ".tsv").toString();
   }
   public static Object propertyMacro_GetPropertyValue_1840523585703741687(final PropertyMacroContext _context) {
     return Integer.toString(SPropertyOperations.getInteger(_context.getNode(), MetaAdapterFactory.getProperty(0x93b7ee14f42b424aL, 0x9d290e275a24208dL, 0x31535da88d6d2369L, 0x198ada731e998d38L, "livePort")));
+  }
+  public static Object propertyMacro_GetPropertyValue_1369498147940576476(final PropertyMacroContext _context) {
+    return (String) Statement__BehaviorDescriptor.id_id2AV3DmgHDX5.invoke(SNodeOperations.as(_context.getNode(), MetaAdapterFactory.getConcept(0x5d6bde844ce44eb5L, 0xa37e25a5edd55129L, 0x7c5f892f445924a8L, "org.campagnelab.metar.tables.structure.Statement")));
+  }
+  public static Object propertyMacro_GetPropertyValue_1369498147940576486(final PropertyMacroContext _context) {
+    return (boolean) Statement__BehaviorDescriptor.errorCatchingEnabled_id2od$re20jdz.invoke(SNodeOperations.as(_context.getNode(), MetaAdapterFactory.getConcept(0x5d6bde844ce44eb5L, 0xa37e25a5edd55129L, 0x7c5f892f445924a8L, "org.campagnelab.metar.tables.structure.Statement")));
   }
   public static Object propertyMacro_GetPropertyValue_4156558924935551927(final PropertyMacroContext _context) {
     return SPropertyOperations.getString(_context.getNode(), MetaAdapterFactory.getProperty(0x93b7ee14f42b424aL, 0x9d290e275a24208dL, 0x39af1051e0c1031eL, 0x4e65c083bb30b99eL, "compareLabel"));
