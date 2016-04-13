@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:cc230d37-1b9e-426a-8cf5-7c824d3c1918(org.campagnelab.playground.sleuth.model)">
+<model ref="r:7d7c618a-0e13-41eb-9c66-d99fbd3bde14(org.campagnelab.playground.sleuth.model)">
   <persistence version="9" />
   <languages>
     <use id="93b7ee14-f42b-424a-9d29-0e275a24208d" name="org.campagnelab.metar.sleuth" version="0" />
@@ -10,16 +10,12 @@
   </imports>
   <registry>
     <language id="93b7ee14-f42b-424a-9d29-0e275a24208d" name="org.campagnelab.metar.sleuth">
-      <concept id="1840523585686863181" name="org.campagnelab.metar.sleuth.structure.LoadKallistoHDF5" flags="ng" index="47isY">
-        <property id="1840523585686863182" name="hdf5BasePath" index="47isX" />
-      </concept>
       <concept id="1840523585687757601" name="org.campagnelab.metar.sleuth.structure.KallistoPathAnnotation" flags="ng" index="4bR_i">
         <property id="1840523585687757610" name="path" index="4bR_p" />
       </concept>
       <concept id="3554287509434082153" name="org.campagnelab.metar.sleuth.structure.Sleuth" flags="ng" index="2WfBV1">
         <property id="1840523585687949914" name="resultPath" index="48$wD" />
         <property id="1840523585703742776" name="livePort" index="74Ptb" />
-        <property id="1840523585696547312" name="stopForLiveInteractive" index="7ChI3" />
         <child id="8725455673819568087" name="covariateTable" index="3cupLz" />
         <child id="5124039371746755079" name="modelFormula" index="1f2fMI" />
         <child id="4156558924935398160" name="test" index="3prxd1" />
@@ -28,10 +24,6 @@
       <concept id="4156558924935398175" name="org.campagnelab.metar.sleuth.structure.WaldTest" flags="ng" index="3prxde">
         <reference id="4156558924936354279" name="groupUsage" index="3po8AQ" />
         <reference id="4156558924935401239" name="columnGroupFactor" index="3prxX6" />
-      </concept>
-      <concept id="4156558924935398174" name="org.campagnelab.metar.sleuth.structure.LikelyhoodRatioTest" flags="ng" index="3prxdf">
-        <property id="5649132979619936670" name="compareLabel" index="3Pln$t" />
-        <child id="5649132979619831351" name="compareWith" index="3PiHUO" />
       </concept>
     </language>
     <language id="ecc862c9-5ab5-42ef-8703-2039019fb338" name="org.campagnelab.metar.models">
@@ -66,7 +58,6 @@
         <property id="2742007948298959018" name="trycatch_enabled" index="2BDq$p" />
         <child id="8962032619593737383" name="statements" index="S1EQ8" />
       </concept>
-      <concept id="8962032619593737377" name="org.campagnelab.metar.tables.structure.EmptyLine" flags="ng" index="S1EQe" />
       <concept id="8962032619582305406" name="org.campagnelab.metar.tables.structure.StatementList" flags="ng" index="ZXjPh">
         <child id="8962032619582305407" name="transformations" index="ZXjPg" />
       </concept>
@@ -116,408 +107,192 @@
       </concept>
     </language>
   </registry>
-  <node concept="S1EQb" id="1_mAwOsC8_8">
+  <node concept="S1EQb" id="1c1rOX4xdfT">
     <property role="2BDq$p" value="true" />
-    <property role="TrG5h" value="Testing sleuth install" />
-    <node concept="ZXjPh" id="1_mAwOsC8_9" role="S1EQ8">
-      <property role="S1EQ6" value="QECHIDLPUR" />
-      <node concept="47isY" id="1AaQBctBHqu" role="ZXjPg">
-        <property role="S1EQ6" value="RBCNYICYBV" />
-        <property role="47isX" value="/Users/fac2003/Downloads/cuffdiff2_data_kallisto_results/" />
-      </node>
-      <node concept="S1EQe" id="3AJ457wM3No" role="ZXjPg">
-        <property role="S1EQ6" value="SXQQXNMFJA" />
-      </node>
-      <node concept="3MjoWR" id="3AJ457wM3OD" role="ZXjPg">
-        <property role="S1EQ6" value="YISPKBQLOL" />
-        <ref role="3Mj2Vh" node="3mC$cZzzs$N" resolve="cuffdiff2_data_kallisto_results" />
-        <node concept="3MlLWZ" id="3AJ457wM3OE" role="3MjoVY">
+    <property role="TrG5h" value="Sleuth" />
+    <node concept="ZXjPh" id="1c1rOX4xdfU" role="S1EQ8">
+      <property role="S1EQ6" value="NUBPCWAOXU" />
+      <node concept="3MjoWR" id="1c1rOX4xdhb" role="ZXjPg">
+        <property role="S1EQ6" value="MQDQBRCPMY" />
+        <ref role="3Mj2Vh" node="1c1rOX4xdgU" resolve="cuffdiff2_data_kallisto_results" />
+        <node concept="3MlLWZ" id="1c1rOX4xdhc" role="3MjoVY">
           <property role="TrG5h" value="cuffdiff2_data_kallisto_results" />
-          <ref role="3MlLW5" node="3mC$cZzzs$N" resolve="cuffdiff2_data_kallisto_results" />
+          <ref role="3MlLW5" node="1c1rOX4xdgU" resolve="cuffdiff2_data_kallisto_results" />
         </node>
       </node>
-      <node concept="2WfBV1" id="3AJ457wRneU" role="ZXjPg">
+      <node concept="2WfBV1" id="1c1rOX4xdfV" role="ZXjPg">
         <property role="8NYsT" value="false" />
-        <property role="S1EQ6" value="BTYGHWXINW" />
+        <property role="S1EQ6" value="WHFNNDYSXR" />
         <property role="74Ptb" value="42427" />
-        <property role="48$wD" value="/Users/fac2003/Downloads/cuffdiff2_data_kallisto_results/" />
-        <node concept="10WucB" id="3AJ457wRneV" role="1f2fMI">
-          <node concept="10WucW" id="3AJ457wRnjt" role="10WucA">
-            <node concept="10WucW" id="3AJ457wRnjM" role="10Wuc$">
-              <node concept="10WucS" id="3AJ457wRnk1" role="10Wuc$">
-                <ref role="10WucV" node="3AJ457wNpJA" resolve="covariate1" />
-              </node>
-              <node concept="10WucS" id="3AJ457wRnjG" role="10Wuc_">
-                <ref role="10WucV" node="1AaQBctEYv3" resolve="condition" />
-              </node>
+        <property role="48$wD" value="/Users/fac2003/Downloads/cuffdiff2_data_kallisto_results" />
+        <node concept="10WucB" id="1c1rOX4xdfW" role="1f2fMI">
+          <node concept="10WucW" id="1c1rOX4xINx" role="10WucA">
+            <node concept="10WucS" id="1c1rOX4xINC" role="10Wuc$">
+              <ref role="10WucV" node="1c1rOX4xdiv" resolve="condition" />
             </node>
-            <node concept="10WucX" id="3AJ457wRneW" role="10Wuc_" />
+            <node concept="10WucX" id="1c1rOX4xdfX" role="10Wuc_" />
           </node>
         </node>
-        <node concept="3MlLWZ" id="3AJ457wRneX" role="1Izna5">
+        <node concept="3MlLWZ" id="1c1rOX4xdfY" role="1Izna5">
           <property role="TrG5h" value="Results" />
-          <ref role="3MlLW5" node="3AJ457wRneY" resolve="Results" />
-          <node concept="3Mpm39" id="3AJ457wRneY" role="3WeD9t">
+          <ref role="3MlLW5" node="1c1rOX4xdfZ" resolve="Results" />
+          <node concept="3Mpm39" id="1c1rOX4xdfZ" role="3WeD9t">
             <property role="31Cu5t" value="&#9;" />
             <property role="TrG5h" value="Results" />
-            <node concept="31JHg8" id="3AJ457wRnhd" role="31JHgj">
+            <node concept="31JHg8" id="1c1rOX4xdg7" role="31JHgj">
               <property role="TrG5h" value="target_id" />
               <ref role="1YeEjl" to="9nc5:1ID5TXdv_9L" resolve="String" />
             </node>
-            <node concept="31JHg8" id="3AJ457wRnhf" role="31JHgj">
+            <node concept="31JHg8" id="1c1rOX4xdg9" role="31JHgj">
               <property role="TrG5h" value="pval" />
               <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
             </node>
-            <node concept="31JHg8" id="3AJ457wRnhg" role="31JHgj">
+            <node concept="31JHg8" id="1c1rOX4xdga" role="31JHgj">
               <property role="TrG5h" value="qval" />
               <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
             </node>
-            <node concept="31JHg8" id="3AJ457wRnhh" role="31JHgj">
+            <node concept="31JHg8" id="1c1rOX4xdgb" role="31JHgj">
               <property role="TrG5h" value="b" />
               <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
             </node>
-            <node concept="31JHg8" id="3AJ457wRnhi" role="31JHgj">
+            <node concept="31JHg8" id="1c1rOX4xdgc" role="31JHgj">
               <property role="TrG5h" value="se_b" />
               <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
             </node>
-            <node concept="31JHg8" id="3AJ457wRnhj" role="31JHgj">
+            <node concept="31JHg8" id="1c1rOX4xdgd" role="31JHgj">
               <property role="TrG5h" value="mean_obs" />
               <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
             </node>
-            <node concept="31JHg8" id="3AJ457wRnhk" role="31JHgj">
+            <node concept="31JHg8" id="1c1rOX4xdge" role="31JHgj">
               <property role="TrG5h" value="var_obs" />
               <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
             </node>
-            <node concept="31JHg8" id="3AJ457wRnhl" role="31JHgj">
+            <node concept="31JHg8" id="1c1rOX4xdgf" role="31JHgj">
               <property role="TrG5h" value="tech_var" />
               <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
             </node>
-            <node concept="31JHg8" id="3AJ457wRnhm" role="31JHgj">
+            <node concept="31JHg8" id="1c1rOX4xdgg" role="31JHgj">
               <property role="TrG5h" value="sigma_sq" />
               <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
             </node>
-            <node concept="31JHg8" id="3AJ457wRnhn" role="31JHgj">
+            <node concept="31JHg8" id="1c1rOX4xdgh" role="31JHgj">
               <property role="TrG5h" value="smooth_sigma_sq" />
               <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
             </node>
-            <node concept="31JHg8" id="3AJ457wRnho" role="31JHgj">
+            <node concept="31JHg8" id="1c1rOX4xdgi" role="31JHgj">
               <property role="TrG5h" value="final_sigma_sq" />
               <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
             </node>
           </node>
         </node>
-        <node concept="3prxde" id="3AJ457wRnk6" role="3prxd1">
-          <ref role="3prxX6" node="1AaQBctEYuT" resolve="Scramble" />
-          <ref role="3po8AQ" node="1AaQBctEYv3" resolve="condition" />
+        <node concept="3prxde" id="1c1rOX4xdhQ" role="3prxd1">
+          <ref role="3po8AQ" node="1c1rOX4xdiv" resolve="condition" />
+          <ref role="3prxX6" node="1c1rOX4xdix" resolve="Scramble" />
         </node>
-        <node concept="afgQW" id="3AJ457wRni9" role="3cupLz">
-          <ref role="afgo8" node="3mC$cZzzs$N" resolve="cuffdiff2_data_kallisto_results" />
+        <node concept="afgQW" id="1c1rOX4xdha" role="3cupLz">
+          <ref role="afgo8" node="1c1rOX4xdgU" resolve="cuffdiff2_data_kallisto_results" />
         </node>
-      </node>
-      <node concept="2WfBV1" id="3AJ457wQYlP" role="ZXjPg">
-        <property role="8NYsT" value="false" />
-        <property role="S1EQ6" value="JLDCJIONMX" />
-        <property role="74Ptb" value="42427" />
-        <property role="48$wD" value="/Users/fac2003/Downloads/cuffdiff2_data_kallisto_results/" />
-        <property role="7ChI3" value="true" />
-        <node concept="10WucB" id="3AJ457wQYlQ" role="1f2fMI">
-          <node concept="10WucW" id="3AJ457wQYrO" role="10WucA">
-            <node concept="10WucW" id="3AJ457wQYs9" role="10Wuc$">
-              <node concept="10WucS" id="3AJ457wQYso" role="10Wuc$">
-                <ref role="10WucV" node="3AJ457wNpJA" resolve="covariate1" />
-              </node>
-              <node concept="10WucS" id="3AJ457wQYs3" role="10Wuc_">
-                <ref role="10WucV" node="1AaQBctEYv3" resolve="condition" />
-              </node>
-            </node>
-            <node concept="10WucX" id="3AJ457wQYlR" role="10Wuc_" />
-          </node>
-        </node>
-        <node concept="3MlLWZ" id="3AJ457wQYlS" role="1Izna5">
-          <property role="TrG5h" value="Results" />
-          <ref role="3MlLW5" node="3AJ457wQYlT" resolve="Results" />
-          <node concept="3Mpm39" id="3AJ457wQYlT" role="3WeD9t">
-            <property role="31Cu5t" value="&#9;" />
-            <property role="TrG5h" value="Results" />
-            <node concept="31JHg8" id="3AJ457wQYoV" role="31JHgj">
-              <property role="TrG5h" value="target_id" />
-              <ref role="1YeEjl" to="9nc5:1ID5TXdv_9L" resolve="String" />
-            </node>
-            <node concept="31JHg8" id="3AJ457wQYoX" role="31JHgj">
-              <property role="TrG5h" value="pval" />
-              <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
-            </node>
-            <node concept="31JHg8" id="3AJ457wQYoY" role="31JHgj">
-              <property role="TrG5h" value="qval" />
-              <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
-            </node>
-            <node concept="31JHg8" id="3AJ457wQYoZ" role="31JHgj">
-              <property role="TrG5h" value="b" />
-              <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
-            </node>
-            <node concept="31JHg8" id="3AJ457wQYp0" role="31JHgj">
-              <property role="TrG5h" value="se_b" />
-              <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
-            </node>
-            <node concept="31JHg8" id="3AJ457wQYp1" role="31JHgj">
-              <property role="TrG5h" value="mean_obs" />
-              <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
-            </node>
-            <node concept="31JHg8" id="3AJ457wQYp2" role="31JHgj">
-              <property role="TrG5h" value="var_obs" />
-              <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
-            </node>
-            <node concept="31JHg8" id="3AJ457wQYp3" role="31JHgj">
-              <property role="TrG5h" value="tech_var" />
-              <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
-            </node>
-            <node concept="31JHg8" id="3AJ457wQYp4" role="31JHgj">
-              <property role="TrG5h" value="sigma_sq" />
-              <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
-            </node>
-            <node concept="31JHg8" id="3AJ457wQYp5" role="31JHgj">
-              <property role="TrG5h" value="smooth_sigma_sq" />
-              <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
-            </node>
-            <node concept="31JHg8" id="3AJ457wQYp6" role="31JHgj">
-              <property role="TrG5h" value="final_sigma_sq" />
-              <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
-            </node>
-          </node>
-        </node>
-        <node concept="3prxdf" id="3AJ457wQYra" role="3prxd1">
-          <property role="3Pln$t" value="reduced" />
-          <node concept="10WucB" id="3AJ457wQYrc" role="3PiHUO">
-            <node concept="10WucW" id="3AJ457wQYrv" role="10WucA">
-              <node concept="10WucS" id="3AJ457wQYrI" role="10Wuc$">
-                <ref role="10WucV" node="1AaQBctEYv3" resolve="condition" />
-              </node>
-              <node concept="10WucX" id="3AJ457wQYrp" role="10Wuc_" />
-            </node>
-          </node>
-        </node>
-        <node concept="afgQW" id="3AJ457wQYqd" role="3cupLz">
-          <ref role="afgo8" node="3mC$cZzzs$N" resolve="cuffdiff2_data_kallisto_results" />
-        </node>
-      </node>
-      <node concept="S1EQe" id="3AJ457wQYjx" role="ZXjPg">
-        <property role="S1EQ6" value="AHTAYAOFKJ" />
       </node>
     </node>
   </node>
-  <node concept="3MzsBU" id="1AaQBctEQv0">
-    <node concept="2_mUhs" id="1AaQBctEYv3" role="2yEZeN">
+  <node concept="3MzsBU" id="1c1rOX4xdg8">
+    <node concept="2_mUhs" id="1c1rOX4xdiv" role="2yEZeN">
       <property role="TrG5h" value="condition" />
     </node>
-    <node concept="2_mUhs" id="3AJ457wNpJA" role="2yEZeN">
-      <property role="TrG5h" value="covariate1" />
-    </node>
-    <node concept="3MzsS1" id="3AJ457wNpJH" role="3MzsBV">
-      <property role="TrG5h" value="A" />
-      <node concept="2y_Ijh" id="3AJ457wNpK0" role="2y_Iji">
-        <ref role="2y_IjI" node="3AJ457wNpJA" resolve="covariate1" />
-      </node>
-    </node>
-    <node concept="3MzsS1" id="3AJ457wNpKW" role="3MzsBV">
-      <property role="TrG5h" value="B" />
-      <node concept="2y_Ijh" id="3AJ457wNpLl" role="2y_Iji">
-        <ref role="2y_IjI" node="3AJ457wNpJA" resolve="covariate1" />
-      </node>
-    </node>
-    <node concept="3MzsS1" id="1AaQBctEYuY" role="3MzsBV">
-      <property role="TrG5h" value="HOXA1KD" />
-      <node concept="2y_Ijh" id="1AaQBctEYv5" role="2y_Iji">
-        <ref role="2y_IjI" node="1AaQBctEYv3" resolve="condition" />
-      </node>
-    </node>
-    <node concept="3MzsS1" id="1AaQBctEYuT" role="3MzsBV">
+    <node concept="3MzsS1" id="1c1rOX4xdix" role="3MzsBV">
       <property role="TrG5h" value="Scramble" />
-      <node concept="2y_Ijh" id="1AaQBctEYv7" role="2y_Iji">
-        <ref role="2y_IjI" node="1AaQBctEYv3" resolve="condition" />
+      <node concept="2y_Ijh" id="1c1rOX4xdi$" role="2y_Iji">
+        <ref role="2y_IjI" node="1c1rOX4xdiv" resolve="condition" />
       </node>
     </node>
-    <node concept="3MzsS1" id="1AaQBctEYnT" role="3MzsBV">
+    <node concept="3MzsS1" id="1c1rOX4xdiR" role="3MzsBV">
+      <property role="TrG5h" value="HOXA1KD" />
+      <node concept="2y_Ijh" id="1c1rOX4xeMV" role="2y_Iji">
+        <ref role="2y_IjI" node="1c1rOX4xdiv" resolve="condition" />
+      </node>
+    </node>
+    <node concept="3MzsS1" id="1c1rOX4xdh2" role="3MzsBV">
       <property role="TrG5h" value="ID" />
     </node>
   </node>
-  <node concept="3Mpm39" id="1AaQBctKvZb">
+  <node concept="3Mpm39" id="1c1rOX4xdgU">
     <property role="31Cu5t" value="&#9;" />
-    <property role="TrG5h" value="fake-table.tsv" />
-    <property role="31JHgl" value="/Users/fac2003/Downloads/cuffdiff2_data_kallisto_results//fake-table.tsv" />
-    <property role="26T8KA" value="/Users/fac2003/Downloads/cuffdiff2_data_kallisto_results//fake-table.tsv" />
-    <node concept="31JHg8" id="1AaQBctKvZc" role="31JHgj">
-      <property role="TrG5h" value="transcriptId" />
-      <ref role="1YeEjl" to="9nc5:1ID5TXdv_9L" resolve="String" />
-    </node>
-    <node concept="31JHg8" id="1AaQBctKvZd" role="31JHgj">
-      <property role="TrG5h" value="SRR493366" />
-      <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
-      <node concept="4bR_i" id="1AaQBctKvZk" role="lGtFl">
-        <property role="4bR_p" value="/Users/fac2003/Downloads/cuffdiff2_data_kallisto_results/results/SRR493366/kallisto" />
-      </node>
-      <node concept="3MzsTm" id="1AaQBctX8F$" role="lGtFl">
-        <node concept="3MzsBX" id="1AaQBctX8FQ" role="3MztjM">
-          <ref role="3MzsBM" node="1AaQBctEYuT" resolve="Scramble" />
-        </node>
-      </node>
-    </node>
-    <node concept="31JHg8" id="1AaQBctKvZe" role="31JHgj">
-      <property role="TrG5h" value="SRR493367" />
-      <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
-      <node concept="4bR_i" id="1AaQBctKvZl" role="lGtFl">
-        <property role="4bR_p" value="/Users/fac2003/Downloads/cuffdiff2_data_kallisto_results/results/SRR493367/kallisto" />
-      </node>
-      <node concept="3MzsTm" id="1AaQBctX8G7" role="lGtFl">
-        <node concept="3MzsBX" id="1AaQBctX8Gp" role="3MztjM">
-          <ref role="3MzsBM" node="1AaQBctEYuT" resolve="Scramble" />
-        </node>
-      </node>
-    </node>
-    <node concept="31JHg8" id="1AaQBctKvZf" role="31JHgj">
-      <property role="TrG5h" value="SRR493368" />
-      <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
-      <node concept="4bR_i" id="1AaQBctKvZm" role="lGtFl">
-        <property role="4bR_p" value="/Users/fac2003/Downloads/cuffdiff2_data_kallisto_results/results/SRR493368/kallisto" />
-      </node>
-      <node concept="3MzsTm" id="1AaQBctX8GE" role="lGtFl">
-        <node concept="3MzsBX" id="1AaQBctX8GW" role="3MztjM">
-          <ref role="3MzsBM" node="1AaQBctEYuT" resolve="Scramble" />
-        </node>
-      </node>
-    </node>
-    <node concept="31JHg8" id="1AaQBctKvZg" role="31JHgj">
-      <property role="TrG5h" value="SRR493369" />
-      <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
-      <node concept="4bR_i" id="1AaQBctKvZn" role="lGtFl">
-        <property role="4bR_p" value="/Users/fac2003/Downloads/cuffdiff2_data_kallisto_results/results/SRR493369/kallisto" />
-      </node>
-      <node concept="3MzsTm" id="1AaQBctX8Hd" role="lGtFl">
-        <node concept="3MzsBX" id="1AaQBctX8Hv" role="3MztjM">
-          <ref role="3MzsBM" node="1AaQBctEYuY" resolve="HOXA1KD" />
-        </node>
-      </node>
-    </node>
-    <node concept="31JHg8" id="1AaQBctKvZh" role="31JHgj">
-      <property role="TrG5h" value="SRR493370" />
-      <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
-      <node concept="4bR_i" id="1AaQBctKvZo" role="lGtFl">
-        <property role="4bR_p" value="/Users/fac2003/Downloads/cuffdiff2_data_kallisto_results/results/SRR493370/kallisto" />
-      </node>
-      <node concept="3MzsTm" id="1AaQBcu0IJE" role="lGtFl">
-        <node concept="3MzsBX" id="1AaQBcu0IJD" role="3MztjM">
-          <ref role="3MzsBM" node="1AaQBctEYuY" resolve="HOXA1KD" />
-        </node>
-      </node>
-    </node>
-    <node concept="31JHg8" id="1AaQBctKvZi" role="31JHgj">
-      <property role="TrG5h" value="SRR493371" />
-      <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
-      <node concept="4bR_i" id="1AaQBctKvZp" role="lGtFl">
-        <property role="4bR_p" value="/Users/fac2003/Downloads/cuffdiff2_data_kallisto_results/results/SRR493371/kallisto" />
-      </node>
-      <node concept="3MzsTm" id="1AaQBcu0IJG" role="lGtFl">
-        <node concept="3MzsBX" id="1AaQBcu0IJF" role="3MztjM">
-          <ref role="3MzsBM" node="1AaQBctEYuY" resolve="HOXA1KD" />
-        </node>
-      </node>
-    </node>
-  </node>
-  <node concept="3Mpm39" id="3mC$cZzzs$N">
-    <property role="31Cu5t" value="&#9;" />
-    <property role="31JHgl" value="/Users/fac2003/Downloads/cuffdiff2_data_kallisto_results//fake-table.tsv" />
+    <property role="31JHgl" value="/Users/fac2003/Downloads/cuffdiff2_data_kallisto_results/fake-table.tsv" />
     <property role="TrG5h" value="cuffdiff2_data_kallisto_results" />
-    <property role="26T8KA" value="/Users/fac2003/Downloads/cuffdiff2_data_kallisto_results//fake-table.tsv" />
-    <node concept="31JHg8" id="3mC$cZzzs$O" role="31JHgj">
+    <property role="26T8KA" value="/Users/fac2003/Downloads/cuffdiff2_data_kallisto_results/fake-table.tsv" />
+    <node concept="31JHg8" id="1c1rOX4xdgV" role="31JHgj">
       <property role="TrG5h" value="transcriptId" />
       <ref role="1YeEjl" to="9nc5:1ID5TXdv_9L" resolve="String" />
     </node>
-    <node concept="31JHg8" id="3mC$cZzzs$P" role="31JHgj">
+    <node concept="31JHg8" id="1c1rOX4xdgW" role="31JHgj">
       <property role="TrG5h" value="SRR493366" />
       <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
-      <node concept="4bR_i" id="3mC$cZzzs$W" role="lGtFl">
+      <node concept="4bR_i" id="1c1rOX4xdh4" role="lGtFl">
         <property role="4bR_p" value="/Users/fac2003/Downloads/cuffdiff2_data_kallisto_results/results/SRR493366/kallisto" />
       </node>
-      <node concept="3MzsTm" id="3$9m_uF31Mn" role="lGtFl">
-        <node concept="3MzsBX" id="3$9m_uF31MD" role="3MztjM">
-          <ref role="3MzsBM" node="1AaQBctEYuT" resolve="Scramble" />
-        </node>
-        <node concept="3MzsBX" id="3AJ457wNpLJ" role="3MztjM">
-          <ref role="3MzsBM" node="3AJ457wNpJH" resolve="A" />
+      <node concept="3MzsTm" id="1c1rOX4xdid" role="lGtFl">
+        <node concept="3MzsBX" id="1c1rOX4xdiA" role="3MztjM">
+          <ref role="3MzsBM" node="1c1rOX4xdix" resolve="Scramble" />
         </node>
       </node>
     </node>
-    <node concept="31JHg8" id="3mC$cZzzs$Q" role="31JHgj">
+    <node concept="31JHg8" id="1c1rOX4xdgX" role="31JHgj">
       <property role="TrG5h" value="SRR493367" />
       <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
-      <node concept="4bR_i" id="3mC$cZzzs$X" role="lGtFl">
+      <node concept="4bR_i" id="1c1rOX4xdh5" role="lGtFl">
         <property role="4bR_p" value="/Users/fac2003/Downloads/cuffdiff2_data_kallisto_results/results/SRR493367/kallisto" />
       </node>
-      <node concept="3MzsTm" id="3$9m_uF31MV" role="lGtFl">
-        <node concept="3MzsBX" id="3$9m_uF31MU" role="3MztjM">
-          <ref role="3MzsBM" node="1AaQBctEYuT" resolve="Scramble" />
-        </node>
-        <node concept="3MzsBX" id="3AJ457wNpMs" role="3MztjM">
-          <ref role="3MzsBM" node="3AJ457wNpKW" resolve="B" />
+      <node concept="3MzsTm" id="1c1rOX4xdiW" role="lGtFl">
+        <node concept="3MzsBX" id="1c1rOX4xdje" role="3MztjM">
+          <ref role="3MzsBM" node="1c1rOX4xdix" resolve="Scramble" />
         </node>
       </node>
     </node>
-    <node concept="31JHg8" id="3mC$cZzzs$R" role="31JHgj">
+    <node concept="31JHg8" id="1c1rOX4xdgY" role="31JHgj">
       <property role="TrG5h" value="SRR493368" />
       <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
-      <node concept="4bR_i" id="3mC$cZzzs$Y" role="lGtFl">
+      <node concept="4bR_i" id="1c1rOX4xdh6" role="lGtFl">
         <property role="4bR_p" value="/Users/fac2003/Downloads/cuffdiff2_data_kallisto_results/results/SRR493368/kallisto" />
       </node>
-      <node concept="3MzsTm" id="3$9m_uF31MX" role="lGtFl">
-        <node concept="3MzsBX" id="3$9m_uF31MW" role="3MztjM">
-          <ref role="3MzsBM" node="1AaQBctEYuT" resolve="Scramble" />
-        </node>
-        <node concept="3MzsBX" id="3AJ457wNpMU" role="3MztjM">
-          <ref role="3MzsBM" node="3AJ457wNpJH" resolve="A" />
+      <node concept="3MzsTm" id="1c1rOX4xdjv" role="lGtFl">
+        <node concept="3MzsBX" id="1c1rOX4xdjL" role="3MztjM">
+          <ref role="3MzsBM" node="1c1rOX4xdix" resolve="Scramble" />
         </node>
       </node>
     </node>
-    <node concept="31JHg8" id="3mC$cZzzs$S" role="31JHgj">
+    <node concept="31JHg8" id="1c1rOX4xdgZ" role="31JHgj">
       <property role="TrG5h" value="SRR493369" />
       <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
-      <node concept="4bR_i" id="3mC$cZzzs$Z" role="lGtFl">
+      <node concept="4bR_i" id="1c1rOX4xdh7" role="lGtFl">
         <property role="4bR_p" value="/Users/fac2003/Downloads/cuffdiff2_data_kallisto_results/results/SRR493369/kallisto" />
       </node>
-      <node concept="3MzsTm" id="3$9m_uF31NT" role="lGtFl">
-        <node concept="3MzsBX" id="3$9m_uF31NS" role="3MztjM">
-          <ref role="3MzsBM" node="1AaQBctEYuY" resolve="HOXA1KD" />
-        </node>
-        <node concept="3MzsBX" id="3AJ457wNpOA" role="3MztjM">
-          <ref role="3MzsBM" node="3AJ457wNpJH" resolve="A" />
+      <node concept="3MzsTm" id="1c1rOX4xdk2" role="lGtFl">
+        <node concept="3MzsBX" id="1c1rOX4xdkk" role="3MztjM">
+          <ref role="3MzsBM" node="1c1rOX4xdiR" resolve="HOXA1KD" />
         </node>
       </node>
     </node>
-    <node concept="31JHg8" id="3mC$cZzzs$T" role="31JHgj">
+    <node concept="31JHg8" id="1c1rOX4xdh0" role="31JHgj">
       <property role="TrG5h" value="SRR493370" />
       <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
-      <node concept="4bR_i" id="3mC$cZzzs_0" role="lGtFl">
+      <node concept="4bR_i" id="1c1rOX4xdh8" role="lGtFl">
         <property role="4bR_p" value="/Users/fac2003/Downloads/cuffdiff2_data_kallisto_results/results/SRR493370/kallisto" />
       </node>
-      <node concept="3MzsTm" id="3$9m_uF31Nl" role="lGtFl">
-        <node concept="3MzsBX" id="3$9m_uF31NB" role="3MztjM">
-          <ref role="3MzsBM" node="1AaQBctEYuY" resolve="HOXA1KD" />
-        </node>
-        <node concept="3MzsBX" id="3AJ457wNpNQ" role="3MztjM">
-          <ref role="3MzsBM" node="3AJ457wNpKW" resolve="B" />
+      <node concept="3MzsTm" id="1c1rOX4xdk_" role="lGtFl">
+        <node concept="3MzsBX" id="1c1rOX4xdkR" role="3MztjM">
+          <ref role="3MzsBM" node="1c1rOX4xdiR" resolve="HOXA1KD" />
         </node>
       </node>
     </node>
-    <node concept="31JHg8" id="3mC$cZzzs$U" role="31JHgj">
+    <node concept="31JHg8" id="1c1rOX4xdh1" role="31JHgj">
       <property role="TrG5h" value="SRR493371" />
       <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
-      <node concept="4bR_i" id="3mC$cZzzs_1" role="lGtFl">
+      <node concept="4bR_i" id="1c1rOX4xdh9" role="lGtFl">
         <property role="4bR_p" value="/Users/fac2003/Downloads/cuffdiff2_data_kallisto_results/results/SRR493371/kallisto" />
       </node>
-      <node concept="3MzsTm" id="3$9m_uF31NW" role="lGtFl">
-        <node concept="3MzsBX" id="3$9m_uF31NV" role="3MztjM">
-          <ref role="3MzsBM" node="1AaQBctEYuY" resolve="HOXA1KD" />
-        </node>
-        <node concept="3MzsBX" id="3AJ457wNpP4" role="3MztjM">
-          <ref role="3MzsBM" node="3AJ457wNpJH" resolve="A" />
+      <node concept="3MzsTm" id="1c1rOX4xdl8" role="lGtFl">
+        <node concept="3MzsBX" id="1c1rOX4xdlq" role="3MztjM">
+          <ref role="3MzsBM" node="1c1rOX4xdiR" resolve="HOXA1KD" />
         </node>
       </node>
     </node>
