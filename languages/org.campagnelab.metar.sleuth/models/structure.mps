@@ -36,6 +36,8 @@
       </concept>
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
         <property id="4628067390765907488" name="conceptShortDescription" index="R4oN_" />
+        <property id="4628067390765956807" name="final" index="R5$K2" />
+        <property id="4628067390765956802" name="abstract" index="R5$K7" />
         <property id="5092175715804935370" name="conceptAlias" index="34LRSv" />
         <property id="1587916991969465369" name="conceptId" index="1pbfSe" />
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
@@ -70,7 +72,8 @@
   <node concept="1TIwiD" id="35jnqydridD">
     <property role="1pbfSe" value="1094680303" />
     <property role="TrG5h" value="Sleuth" />
-    <property role="34LRSv" value="test significance with sleuth" />
+    <property role="34LRSv" value="sleuth" />
+    <property role="R4oN_" value="Test Significance with Sleuth" />
     <ref role="1TJDcQ" to="jrxw:7LvyiX4miiC" resolve="Statement" />
     <node concept="1TJgyi" id="1AaQBctE99q" role="1TKVEl">
       <property role="TrG5h" value="resultPath" />
@@ -96,11 +99,20 @@
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" to="jrxw:2WRhvFto5F5" resolve="FutureTable" />
     </node>
+    <node concept="1TJgyj" id="4ssfE$85c87" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="modelFormula" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" to="qrzj:4ssfE$7VtQe" resolve="GroupFormula" />
+    </node>
+    <node concept="1TJgyj" id="3AJ457wKgcg" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="test" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="3AJ457wKgct" resolve="SleuthTestType" />
+    </node>
     <node concept="PrWs8" id="1AaQBctE23Z" role="PzmwI">
       <ref role="PrY4T" to="jrxw:5iYlRBKtkRE" resolve="FutureTableCreator" />
-    </node>
-    <node concept="PrWs8" id="1AaQBctEYT7" role="PzmwI">
-      <ref role="PrY4T" to="qrzj:4ssfE$85c2J" resolve="IStatTest" />
     </node>
     <node concept="PrWs8" id="3mC$cZzsipP" role="PzmwI">
       <ref role="PrY4T" to="jrxw:3mC$cZzq6GI" resolve="IListenOnPort" />
@@ -115,24 +127,6 @@
     <node concept="1TJgyi" id="1AaQBct_ZPe" role="1TKVEl">
       <property role="TrG5h" value="hdf5BasePath" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
-    <node concept="1TJgyj" id="1AaQBct_ZPl" role="1TKVEi">
-      <property role="20lmBu" value="aggregation" />
-      <property role="20lbJX" value="0..n" />
-      <property role="20kJfa" value="samples" />
-      <ref role="20lvS9" node="1AaQBct_ZPg" resolve="HDF5KallistoSample" />
-    </node>
-  </node>
-  <node concept="1TIwiD" id="1AaQBct_ZPg">
-    <property role="1pbfSe" value="925030339" />
-    <property role="TrG5h" value="HDF5KallistoSample" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyi" id="1AaQBct_ZPh" role="1TKVEl">
-      <property role="TrG5h" value="path" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
-    <node concept="PrWs8" id="1AaQBct_ZPj" role="PzmwI">
-      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
   </node>
   <node concept="1TIwiD" id="1AaQBctDqcx">
@@ -151,6 +145,49 @@
       <node concept="tn0Fv" id="1AaQBctDqcA" role="HhnKV">
         <property role="tnX3d" value="false" />
       </node>
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3AJ457wKgct">
+    <property role="1pbfSe" value="443552622" />
+    <property role="TrG5h" value="SleuthTestType" />
+    <property role="R5$K7" value="true" />
+    <property role="R5$K2" value="false" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+  </node>
+  <node concept="1TIwiD" id="3AJ457wKgcu">
+    <property role="1pbfSe" value="443552623" />
+    <property role="TrG5h" value="LikelyhoodRatioTest" />
+    <property role="34LRSv" value="LRT" />
+    <property role="R4oN_" value="Likelihood Ratio Test" />
+    <ref role="1TJDcQ" node="3AJ457wKgct" resolve="SleuthTestType" />
+    <node concept="1TJgyi" id="4T_K8eVcbAu" role="1TKVEl">
+      <property role="TrG5h" value="compareLabel" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyj" id="4T_K8eVbLSR" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="compareWith" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" to="qrzj:4ssfE$7VtQe" resolve="GroupFormula" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3AJ457wKgcv">
+    <property role="1pbfSe" value="443552624" />
+    <property role="TrG5h" value="WaldTest" />
+    <property role="34LRSv" value="Wald" />
+    <property role="R4oN_" value="Wald Test" />
+    <ref role="1TJDcQ" node="3AJ457wKgct" resolve="SleuthTestType" />
+    <node concept="1TJgyj" id="3AJ457wKgWn" role="1TKVEi">
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="columnGroupFactor" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" to="jrxw:2WRhvFtICJV" resolve="ColumnGroup" />
+    </node>
+    <node concept="1TJgyj" id="3AJ457wNTBB" role="1TKVEi">
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="groupUsage" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" to="jrxw:6X05uba6V6Y" resolve="UsageType" />
     </node>
   </node>
 </model>
