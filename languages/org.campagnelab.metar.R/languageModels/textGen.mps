@@ -1206,7 +1206,7 @@
             <node concept="lc7rE" id="3V2IUSr6T2T" role="3cqZAp">
               <node concept="l9S2W" id="3V2IUSr6T2I" role="lcghm">
                 <property role="XA4eZ" value="true" />
-                <property role="lbP0B" value="\n " />
+                <property role="lbP0B" value=" " />
                 <node concept="2OqwBi" id="3V2IUSr6T2J" role="lbANJ">
                   <node concept="117lpO" id="3V2IUSr6T2K" role="2Oq$k0" />
                   <node concept="3Tsc0h" id="3V2IUSr6T2L" role="2OqNvi">
