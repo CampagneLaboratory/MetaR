@@ -160,6 +160,9 @@
       </concept>
     </language>
     <language id="040d3459-0033-45bb-b823-4cfd22657c15" name="org.campagnelab.metar.biomartToR">
+      <concept id="1405455181998775364" name="org.campagnelab.metar.biomartToR.structure.ExposedTable" flags="ng" index="2Phv9e">
+        <reference id="1405455182018928814" name="table" index="2OukU$" />
+      </concept>
       <concept id="5857936452045887397" name="org.campagnelab.metar.biomartToR.structure.BiomartinR" flags="ng" index="3ci$mf">
         <child id="5857936452045932777" name="biomartref" index="3cihF3" />
       </concept>
@@ -55555,7 +55558,10 @@
               </node>
             </node>
           </node>
-          <node concept="3cU4HJ" id="5TeabgcoDWl" role="13u1kV" />
+          <node concept="2Phv9e" id="1c1rOX4HLyz" role="13u1kV">
+            <property role="TrG5h" value="Adjusted" />
+            <ref role="2OukU$" node="5Teabgcnm_B" resolve="Adjusted" />
+          </node>
         </node>
       </node>
     </node>

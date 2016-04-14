@@ -196,5 +196,26 @@
       <node concept="l2Vlx" id="1c1rOX4$YSW" role="2iSdaV" />
     </node>
   </node>
+  <node concept="24kQdi" id="1c1rOX4HAXF">
+    <ref role="1XX52x" to="jugs:1c1rOX4DQ$R" resolve="IdsFromTable" />
+    <node concept="3EZMnI" id="1c1rOX4HAXH" role="2wV5jI">
+      <node concept="3F0ifn" id="1c1rOX4HAXX" role="3EZMnx">
+        <property role="3F0ifm" value="ids from table" />
+      </node>
+      <node concept="3F0ifn" id="1c1rOX4HAZy" role="3EZMnx">
+        <property role="3F0ifm" value="when true:" />
+      </node>
+      <node concept="3F1sOY" id="1c1rOX4HB0x" role="3EZMnx">
+        <ref role="1NtTu8" to="jugs:t0TZVlt6GR" />
+      </node>
+      <node concept="3F0ifn" id="1c1rOX4HRcW" role="3EZMnx">
+        <property role="3F0ifm" value="name of set:" />
+      </node>
+      <node concept="3F0A7n" id="1c1rOX4HRdz" role="3EZMnx">
+        <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+      </node>
+      <node concept="l2Vlx" id="1c1rOX4HAXK" role="2iSdaV" />
+    </node>
+  </node>
 </model>
 

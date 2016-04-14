@@ -115,9 +115,13 @@
     <property role="34LRSv" value="DrawPlot" />
     <property role="R4oN_" value="Render the Plot Preview as PNG" />
     <ref role="1TJDcQ" to="6q58:5mPDeVwiPap" resolve="Expr" />
+    <node concept="1TJgyi" id="1c1rOX4I3R3" role="1TKVEl">
+      <property role="TrG5h" value="statementId" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
     <node concept="1TJgyi" id="1c1rOX4BO3K" role="1TKVEl">
       <property role="TrG5h" value="plotId" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
     </node>
     <node concept="1TJgyi" id="1c1rOX4BOoB" role="1TKVEl">
       <property role="TrG5h" value="pngPath" />

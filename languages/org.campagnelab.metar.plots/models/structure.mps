@@ -13,11 +13,13 @@
     <use id="ed6d7656-532c-4bc2-81d1-af945aeb8280" name="jetbrains.mps.baseLanguage.blTypes" version="0" />
     <use id="9ded098b-ad6a-4657-bfd9-48636cfe8bc3" name="jetbrains.mps.lang.traceable" version="0" />
     <use id="837afec3-cff0-45b1-a221-6b811148f87e" name="org.campagnelab.metar.R.gen" version="0" />
+    <use id="3b58810c-8431-4bbb-99ea-b4671e02dd13" name="org.campagnelab.metar.R" version="1" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
     <import index="jrxw" ref="r:9f2bbfbf-f8b7-4b3b-92b1-b6a0e9642c10(org.campagnelab.metar.tables.structure)" />
     <import index="onla" ref="r:b81182ba-13d2-441a-9b65-76fe2bd96f30(org.campagnelab.styles.structure)" />
+    <import index="6q58" ref="r:97268463-8a58-42b7-9dc6-fa004b7a4308(org.campagnelab.metar.R.structure)" />
     <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
@@ -140,17 +142,11 @@
   </node>
   <node concept="1TIwiD" id="kv77yxiEq2">
     <property role="TrG5h" value="IdsFrom" />
-    <property role="R4oN_" value="define the name and the IdsSet" />
     <property role="3GE5qa" value="upset" />
     <property role="R5$K7" value="true" />
     <property role="R5$K2" value="false" />
     <property role="1pbfSe" value="1503018246" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyj" id="3FhMZyIqZVi" role="1TKVEi">
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="setColor" />
-      <ref role="20lvS9" to="onla:20o901rbdSG" resolve="Color" />
-    </node>
     <node concept="PrWs8" id="7mrPTtA69nD" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
@@ -166,6 +162,18 @@
       <property role="20kJfa" value="ids" />
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" to="jrxw:3BiNpr5FGHV" resolve="SetOfIds" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="1c1rOX4DQ$R">
+    <property role="1pbfSe" value="1470683270" />
+    <property role="3GE5qa" value="upset" />
+    <property role="TrG5h" value="IdsFromTable" />
+    <ref role="1TJDcQ" node="kv77yxiEq2" resolve="IdsFrom" />
+    <node concept="1TJgyj" id="t0TZVlt6GR" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="expression" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" to="6q58:5mPDeVwiPap" resolve="Expr" />
     </node>
   </node>
 </model>
