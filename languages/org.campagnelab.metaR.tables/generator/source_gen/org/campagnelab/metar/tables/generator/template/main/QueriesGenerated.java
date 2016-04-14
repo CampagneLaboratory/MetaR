@@ -623,21 +623,32 @@ public class QueriesGenerated {
   public static Object propertyMacro_GetPropertyValue_6158668639000475442(final PropertyMacroContext _context) {
     return IterableUtils.join(Sequence.fromIterable(Analysis__BehaviorDescriptor.bioConductorDependencies_id5HtHr3EcJDu.invoke(_context.getNode())).select(new ISelector<String, String>() {
       public String select(String it) {
-        return String.format("require(\"%s\")", it);
+        String packageName = it;
+        if (packageName.contains("/")) {
+          //  this is a git package, remove repo name before /: 
+          packageName = packageName.split("/")[1];
+        }
+
+        return String.format("require(\"%s\")", packageName);
       }
     }), "|");
   }
   public static Object propertyMacro_GetPropertyValue_2324880425333451885(final PropertyMacroContext _context) {
     return IterableUtils.join(Sequence.fromIterable(Analysis__BehaviorDescriptor.bioConductorDependencies_id5HtHr3EcJDu.invoke(_context.getNode())).select(new ISelector<String, String>() {
-      public String select(String it) {
-        return "\"" + it + "\"";
+      public String select(String fullPackageName) {
+        return "\"" + fullPackageName + "\"";
       }
     }), ",");
   }
   public static Object propertyMacro_GetPropertyValue_6158668639002779361(final PropertyMacroContext _context) {
     return IterableUtils.join(Sequence.fromIterable(Analysis__BehaviorDescriptor.bioConductorDependencies_id5HtHr3EcJDu.invoke(_context.getNode())).select(new ISelector<String, String>() {
       public String select(String it) {
-        return "library(\"" + it + "\")";
+        String packageName = it;
+        if (packageName.contains("/")) {
+          //  this is a git package, remove repo name before /: 
+          packageName = packageName.split("/")[1];
+        }
+        return "library(\"" + packageName + "\")";
       }
     }), "\n");
   }
