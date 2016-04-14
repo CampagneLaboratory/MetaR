@@ -441,5 +441,39 @@
       <node concept="l2Vlx" id="7LV$PmMtsbM" role="2iSdaV" />
     </node>
   </node>
+  <node concept="24kQdi" id="1c1rOX4BOoJ">
+    <ref role="1XX52x" to="jdsq:1c1rOX4BO3J" resolve="DrawPlot" />
+    <node concept="3EZMnI" id="1c1rOX4BOoL" role="2wV5jI">
+      <node concept="3F0ifn" id="1c1rOX4BOoS" role="3EZMnx">
+        <property role="3F0ifm" value="DrawPlot" />
+        <node concept="Vb9p2" id="1c1rOX4BOr1" role="3F10Kt" />
+      </node>
+      <node concept="3F0A7n" id="1c1rOX4BOoY" role="3EZMnx">
+        <ref role="1NtTu8" to="jdsq:1c1rOX4BO3K" resolve="plotId" />
+      </node>
+      <node concept="3F0ifn" id="1c1rOX4C5Bo" role="3EZMnx">
+        <property role="3F0ifm" value="pngPath:" />
+        <node concept="Vb9p2" id="1c1rOX4C5Db" role="3F10Kt" />
+      </node>
+      <node concept="3F0A7n" id="1c1rOX4BOp6" role="3EZMnx">
+        <ref role="1NtTu8" to="jdsq:1c1rOX4BOoB" resolve="pngPath" />
+      </node>
+      <node concept="3F0ifn" id="1c1rOX4C5Aa" role="3EZMnx">
+        <property role="3F0ifm" value="width=" />
+        <node concept="Vb9p2" id="1c1rOX4C5Dd" role="3F10Kt" />
+      </node>
+      <node concept="3F0A7n" id="1c1rOX4C5Ao" role="3EZMnx">
+        <ref role="1NtTu8" to="jdsq:1c1rOX4C4iW" resolve="width" />
+      </node>
+      <node concept="3F0ifn" id="1c1rOX4C5AC" role="3EZMnx">
+        <property role="3F0ifm" value="height=" />
+        <node concept="Vb9p2" id="1c1rOX4C5Df" role="3F10Kt" />
+      </node>
+      <node concept="3F0A7n" id="1c1rOX4C5B4" role="3EZMnx">
+        <ref role="1NtTu8" to="jdsq:1c1rOX4C4j0" resolve="height" />
+      </node>
+      <node concept="l2Vlx" id="1c1rOX4BOoO" role="2iSdaV" />
+    </node>
+  </node>
 </model>
 

@@ -109,5 +109,28 @@
       <ref role="20lvS9" to="6q58:3ft5eLKDg7m" resolve="Exprlist" />
     </node>
   </node>
+  <node concept="1TIwiD" id="1c1rOX4BO3J">
+    <property role="1pbfSe" value="1470148670" />
+    <property role="TrG5h" value="DrawPlot" />
+    <property role="34LRSv" value="DrawPlot" />
+    <property role="R4oN_" value="Render the Plot Preview as PNG" />
+    <ref role="1TJDcQ" to="6q58:5mPDeVwiPap" resolve="Expr" />
+    <node concept="1TJgyi" id="1c1rOX4BO3K" role="1TKVEl">
+      <property role="TrG5h" value="plotId" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="1c1rOX4BOoB" role="1TKVEl">
+      <property role="TrG5h" value="pngPath" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="1c1rOX4C4iW" role="1TKVEl">
+      <property role="TrG5h" value="width" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
+    <node concept="1TJgyi" id="1c1rOX4C4j0" role="1TKVEl">
+      <property role="TrG5h" value="height" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
+  </node>
 </model>
 
