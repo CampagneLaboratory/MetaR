@@ -2,6 +2,7 @@
 <dev-kit name="org.campagnelab.R" uuid="47de4161-d879-4a78-a0cb-f46f9f770c1c">
   <exported-language name="64c90466-09b2-41ab-89f8-5085b3b9eca7(org.campagnelab.metar.functions.access)" />
   <exported-language name="c1747c67-8f42-4d83-9542-4a948aec17d9(org.campagnelab.metar.functions.importing)" />
+  <exported-language name="040d3459-0033-45bb-b823-4cfd22657c15(org.campagnelab.metar.biomartToR)" />
   <exported-solutions>
     <exported-solution>6f7a993a-c389-4f3d-a9c6-9dda8979ca77(org.campagnelab.metar.r.parsers)</exported-solution>
     <exported-solution>e1a8bd2b-9da1-4bd5-9e52-dcb3c5d6eb0f(org.campagnelab.metar.R.plugin)</exported-solution>
