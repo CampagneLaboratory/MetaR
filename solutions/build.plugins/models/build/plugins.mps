@@ -832,6 +832,99 @@
           </node>
         </node>
       </node>
+      <node concept="1E1JtD" id="1c1rOX4CcUC" role="2G$12L">
+        <property role="BnDLt" value="true" />
+        <property role="TrG5h" value="org.campagnelab.metar.R.inspect" />
+        <property role="3LESm3" value="544eb3a5-f68f-41ed-98e0-db6291e897fb" />
+        <property role="2GAjPV" value="false" />
+        <node concept="55IIr" id="1c1rOX4CcUF" role="3LF7KH">
+          <node concept="2Ry0Ak" id="1c1rOX4Cd9_" role="iGT6I">
+            <property role="2Ry0Am" value="languages" />
+            <node concept="2Ry0Ak" id="1c1rOX4Cdjw" role="2Ry0An">
+              <property role="2Ry0Am" value="org.campagnelab.metar.R.inspect" />
+              <node concept="2Ry0Ak" id="1c1rOX4Cdq9" role="2Ry0An">
+                <property role="2Ry0Am" value="org.campagnelab.metar.R.inspect.mpl" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="1c1rOX4Cdtt" role="3bR37C">
+          <node concept="3bR9La" id="1c1rOX4Cdtu" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" to="ffeo:7Kfy9QB6L6C" resolve="jetbrains.mps.lang.generator" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="1c1rOX4Cdtv" role="3bR37C">
+          <node concept="3bR9La" id="1c1rOX4Cdtw" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" node="3gMg70bRmfh" resolve="org.campagnelab.metar.tables" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="1c1rOX4Cdtx" role="3bR37C">
+          <node concept="3bR9La" id="1c1rOX4Cdty" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" to="ffeo:7Kfy9QB6KYb" resolve="jetbrains.mps.baseLanguage" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="1c1rOX4Cdtz" role="3bR37C">
+          <node concept="3bR9La" id="1c1rOX4Cdt$" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" to="ffeo:7Kfy9QB6L9O" resolve="jetbrains.mps.lang.smodel" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="1c1rOX4Cdt_" role="3bR37C">
+          <node concept="3bR9La" id="1c1rOX4CdtA" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" node="3gMg70bRmft" resolve="org.campagnelab.metar.inspect" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="1c1rOX4CdtB" role="3bR37C">
+          <node concept="3bR9La" id="1c1rOX4CdtC" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" node="3rWIEp7J14y" resolve="org.campagnelab.metar.R" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="1c1rOX4CdtD" role="3bR37C">
+          <node concept="1Busua" id="1c1rOX4CdtE" role="1SiIV1">
+            <ref role="1Busuk" node="3rWIEp7J14y" resolve="org.campagnelab.metar.R" />
+          </node>
+        </node>
+        <node concept="1yeLz9" id="1c1rOX4CdtF" role="1TViLv">
+          <property role="TrG5h" value="org.campagnelab.metar.R.inspect#4156558924941055313" />
+          <property role="3LESm3" value="1c6252a0-6f97-46c6-9420-fec06fc86e92" />
+          <property role="2GAjPV" value="false" />
+          <node concept="1SiIV0" id="1c1rOX4CdtG" role="3bR37C">
+            <node concept="3bR9La" id="1c1rOX4CdtH" role="1SiIV1">
+              <property role="3bR36h" value="false" />
+              <ref role="3bR37D" to="ffeo:mXGwHwhVPj" resolve="JDK" />
+            </node>
+          </node>
+          <node concept="1SiIV0" id="1c1rOX4CdtI" role="3bR37C">
+            <node concept="3bR9La" id="1c1rOX4CdtJ" role="1SiIV1">
+              <property role="3bR36h" value="false" />
+              <ref role="3bR37D" node="3gMg70bRmfh" resolve="org.campagnelab.metar.tables" />
+            </node>
+          </node>
+          <node concept="1SiIV0" id="1c1rOX4CdtK" role="3bR37C">
+            <node concept="3bR9La" id="1c1rOX4CdtL" role="1SiIV1">
+              <property role="3bR36h" value="false" />
+              <ref role="3bR37D" node="1$0xyBYfkEs" resolve="org.campagnelab.metar.code" />
+            </node>
+          </node>
+          <node concept="1SiIV0" id="1c1rOX4CdtM" role="3bR37C">
+            <node concept="3bR9La" id="1c1rOX4CdtN" role="1SiIV1">
+              <property role="3bR36h" value="false" />
+              <ref role="3bR37D" to="ffeo:1TaHNgiIbIQ" resolve="MPS.Core" />
+            </node>
+          </node>
+          <node concept="1SiIV0" id="1c1rOX4CdtO" role="3bR37C">
+            <node concept="3bR9La" id="1c1rOX4CdtP" role="1SiIV1">
+              <property role="3bR36h" value="false" />
+              <ref role="3bR37D" node="3rWIEp7J14y" resolve="org.campagnelab.metar.R" />
+            </node>
+          </node>
+        </node>
+      </node>
     </node>
     <node concept="2G$12M" id="3gMg70bRmfu" role="3989C9">
       <property role="TrG5h" value="metaR" />
@@ -2426,7 +2519,7 @@
         </node>
       </node>
       <node concept="1E1JtD" id="3mC$cZzpS84" role="2G$12L">
-        <property role="BnDLt" value="true" />
+        <property role="BnDLt" value="false" />
         <property role="TrG5h" value="org.campagnelab.metar.sleuth" />
         <property role="3LESm3" value="93b7ee14-f42b-424a-9d29-0e275a24208d" />
         <node concept="55IIr" id="3mC$cZzpS87" role="3LF7KH">
@@ -2437,6 +2530,99 @@
               <node concept="2Ry0Ak" id="3mC$cZzpSmJ" role="2Ry0An">
                 <property role="2Ry0Am" value="org.campagnelab.metar.sleuth.mpl" />
               </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="1c1rOX4Cejc" role="3bR37C">
+          <node concept="3bR9La" id="1c1rOX4Cejd" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" to="9b59:7XxitGzkyrv" resolve="org.campagnelab.mps.XChart" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="1c1rOX4Ceje" role="3bR37C">
+          <node concept="3bR9La" id="1c1rOX4Cejf" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" to="ffeo:mXGwHwhVPj" resolve="JDK" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="1c1rOX4Cejg" role="3bR37C">
+          <node concept="3bR9La" id="1c1rOX4Cejh" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" node="6g5l50dUyaG" resolve="org.campagnelab.metar.models" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="1c1rOX4Ceji" role="3bR37C">
+          <node concept="3bR9La" id="1c1rOX4Cejj" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" node="3gMg70bRmfh" resolve="org.campagnelab.metar.tables" />
+          </node>
+        </node>
+      </node>
+      <node concept="1E1JtD" id="1c1rOX4CcfU" role="2G$12L">
+        <property role="BnDLt" value="true" />
+        <property role="TrG5h" value="org.campagnelab.metar.plots" />
+        <property role="3LESm3" value="e6c108c3-0009-4034-b684-c506814ba197" />
+        <property role="2GAjPV" value="false" />
+        <node concept="55IIr" id="1c1rOX4CcfX" role="3LF7KH">
+          <node concept="2Ry0Ak" id="1c1rOX4Ccrq" role="iGT6I">
+            <property role="2Ry0Am" value="languages" />
+            <node concept="2Ry0Ak" id="1c1rOX4Cc_9" role="2Ry0An">
+              <property role="2Ry0Am" value="org.campagnelab.metar.plots" />
+              <node concept="2Ry0Ak" id="1c1rOX4CcCs" role="2Ry0An">
+                <property role="2Ry0Am" value="org.campagnelab.metar.plots.mpl" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="1c1rOX4CcFG" role="3bR37C">
+          <node concept="3bR9La" id="1c1rOX4CcFH" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" node="7Mz7YANVaRX" resolve="org.campagnelab.styles" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="1c1rOX4Cejk" role="3bR37C">
+          <node concept="3bR9La" id="1c1rOX4Cejl" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" to="9b59:7XxitGzkyrv" resolve="org.campagnelab.mps.XChart" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="1c1rOX4Cejm" role="3bR37C">
+          <node concept="3bR9La" id="1c1rOX4Cejn" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" node="3gMg70bRmfh" resolve="org.campagnelab.metar.tables" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="1c1rOX4Cejo" role="3bR37C">
+          <node concept="3bR9La" id="1c1rOX4Cejp" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" node="1c1rOX4CcfU" resolve="org.campagnelab.metar.plots" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="1c1rOX4Cejq" role="3bR37C">
+          <node concept="3bR9La" id="1c1rOX4Cejr" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" to="ffeo:7Kfy9QB6LfQ" resolve="jetbrains.mps.kernel" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="1c1rOX4Cejs" role="3bR37C">
+          <node concept="1Busua" id="1c1rOX4Cejt" role="1SiIV1">
+            <ref role="1Busuk" node="3gMg70bRmfh" resolve="org.campagnelab.metar.tables" />
+          </node>
+        </node>
+        <node concept="1yeLz9" id="1c1rOX4Ceju" role="1TViLv">
+          <property role="TrG5h" value="org.campagnelab.metar.plots#3813864828777690547" />
+          <property role="3LESm3" value="88b25c30-b057-413f-97c9-62fb17ffd600" />
+          <property role="2GAjPV" value="false" />
+          <node concept="1SiIV0" id="1c1rOX4Cejv" role="3bR37C">
+            <node concept="3bR9La" id="1c1rOX4Cejw" role="1SiIV1">
+              <property role="3bR36h" value="false" />
+              <ref role="3bR37D" node="3gMg70bRmfh" resolve="org.campagnelab.metar.tables" />
+            </node>
+          </node>
+          <node concept="1SiIV0" id="1c1rOX4Cejx" role="3bR37C">
+            <node concept="3bR9La" id="1c1rOX4Cejy" role="1SiIV1">
+              <property role="3bR36h" value="false" />
+              <ref role="3bR37D" node="1$0xyBYfkEs" resolve="org.campagnelab.metar.code" />
             </node>
           </node>
         </node>
