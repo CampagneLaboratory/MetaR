@@ -164,9 +164,10 @@
   </node>
   <node concept="1TIwiD" id="4ssfE$7VtQk">
     <property role="TrG5h" value="NoIntercept" />
-    <property role="34LRSv" value="no intercept" />
     <property role="3GE5qa" value="formula" />
     <property role="1pbfSe" value="1326062653" />
+    <property role="R4oN_" value="no intercept" />
+    <property role="34LRSv" value="0" />
     <ref role="1TJDcQ" node="4ssfE$7VtQg" resolve="GroupUsageExpression" />
   </node>
   <node concept="1TIwiD" id="4ssfE$7VtQl">

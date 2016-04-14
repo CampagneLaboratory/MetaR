@@ -19,12 +19,32 @@
     <use id="af754813-06c7-4cd1-8f24-cc91ec8e5d34" name="org.campagnelab.metar.with.r" version="0" />
     <use id="e633fc48-0aaf-45b5-9894-247b67cf0890" name="org.campagnelab.metar.biomart" version="0" />
     <use id="040d3459-0033-45bb-b823-4cfd22657c15" name="org.campagnelab.metar.biomartToR" version="0" />
+    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="2" />
+    <use id="93bc01ac-08ca-4f11-9c7d-614d04055dfb" name="org.campagnelab.mps.editor2pdf" version="0" />
+    <use id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections" version="0" />
+    <use id="443f4c36-fcf5-4eb6-9500-8d06ed259e3e" name="jetbrains.mps.baseLanguage.classifiers" version="0" />
+    <use id="13744753-c81f-424a-9c1b-cf8943bf4e86" name="jetbrains.mps.lang.sharedConcepts" version="0" />
+    <use id="aee9cad2-acd4-4608-aef2-0004f6a1cdbd" name="jetbrains.mps.lang.actions" version="0" />
+    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="3" />
+    <use id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures" version="0" />
   </languages>
   <imports>
     <import index="sbif" ref="r:83131207-8bbf-4552-944d-336f1a104b7d(Demo)" />
+    <import index="jbzb" ref="r:f8a92659-ba84-4623-83ac-107d313dfa60(limma)" />
     <import index="9nc5" ref="r:d1a256e6-591a-459f-809c-7fc9df45e4d5(org.campagnelab.mps.XChart.types.roots)" implicit="true" />
   </imports>
   <registry>
+    <language id="93bc01ac-08ca-4f11-9c7d-614d04055dfb" name="org.campagnelab.mps.editor2pdf">
+      <concept id="8751972264247112684" name="org.campagnelab.mps.editor2pdf.structure.EditorAnnotation" flags="ng" index="3ZW7eb">
+        <property id="5378718574870043633" name="outputFormat" index="2ripvU" />
+        <reference id="893392931327136863" name="outputTo" index="KZaLW" />
+      </concept>
+    </language>
+    <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
+      <concept id="6329021646629104957" name="jetbrains.mps.baseLanguage.structure.TextCommentPart" flags="nn" index="3SKdUq">
+        <property id="6329021646629104958" name="text" index="3SKdUp" />
+      </concept>
+    </language>
     <language id="040d3459-0033-45bb-b823-4cfd22657c15" name="org.campagnelab.metar.biomartToR">
       <concept id="4878268351238000594" name="org.campagnelab.metar.biomartToR.structure.ExposedColumn" flags="ng" index="1x8lzE">
         <reference id="4878268351238001566" name="column" index="1x8kiA" />
@@ -32,12 +52,14 @@
       </concept>
     </language>
     <language id="3b58810c-8431-4bbb-99ea-b4671e02dd13" name="org.campagnelab.metar.R">
+      <concept id="489068675543418434" name="org.campagnelab.metar.R.structure.BitwiseAnd" flags="ng" index="22gccs" />
       <concept id="489068675543418428" name="org.campagnelab.metar.R.structure.GreaterThan" flags="ng" index="22gcdy" />
       <concept id="6247096756517946181" name="org.campagnelab.metar.R.structure.BinaryOperatorExpr" flags="ng" index="2v3moz">
         <child id="489068675543818492" name="operator" index="22hImy" />
         <child id="6247096756517946182" name="left" index="2v3mow" />
         <child id="6247096756517946184" name="right" index="2v3moI" />
       </concept>
+      <concept id="6176023809880707750" name="org.campagnelab.metar.R.structure.AndExpr" flags="ng" index="2PZJp8" />
       <concept id="6176023809880707770" name="org.campagnelab.metar.R.structure.IntLiteralExpr" flags="ng" index="2PZJpk">
         <property id="1229604057012663654" name="value" index="pzxG6" />
       </concept>
@@ -55,6 +77,12 @@
       </concept>
     </language>
     <language id="5d6bde84-4ce4-4eb5-a37e-25a5edd55129" name="org.campagnelab.metar.tables">
+      <concept id="3929971219796704543" name="org.campagnelab.metar.tables.structure.OutputFile" flags="ng" index="2jXUOv">
+        <property id="3929971219796704769" name="path" index="2jXUS1" />
+      </concept>
+      <concept id="2814838647967227455" name="org.campagnelab.metar.tables.structure.TSingleLineComment" flags="ng" index="nccVD">
+        <child id="2814838647967227681" name="commentedStatement" index="nccZR" />
+      </concept>
       <concept id="8031339867720116703" name="org.campagnelab.metar.tables.structure.UsageTypeRef" flags="ng" index="2y_Ijh">
         <reference id="8031339867720116704" name="usage" index="2y_IjI" />
       </concept>
@@ -67,6 +95,14 @@
         <child id="8962032619593737383" name="statements" index="S1EQ8" />
       </concept>
       <concept id="8962032619593737377" name="org.campagnelab.metar.tables.structure.EmptyLine" flags="ng" index="S1EQe" />
+      <concept id="8013388156563171421" name="org.campagnelab.metar.tables.structure.PDF" flags="ng" index="Ss6Tf" />
+      <concept id="8013388156563115186" name="org.campagnelab.metar.tables.structure.Render" flags="ng" index="SsgEw">
+        <property id="7501650211371753390" name="height" index="165MyL" />
+        <property id="7501650211371751513" name="width" index="165MX6" />
+        <reference id="8013388156563171415" name="plot" index="Ss6T5" />
+        <child id="3929971219796733619" name="path" index="2jX3UN" />
+        <child id="8013388156563171423" name="output" index="Ss6Td" />
+      </concept>
       <concept id="8962032619582305406" name="org.campagnelab.metar.tables.structure.StatementList" flags="ng" index="ZXjPh">
         <child id="8962032619582305407" name="transformations" index="ZXjPg" />
       </concept>
@@ -134,6 +170,12 @@
     <property role="TrG5h" value="UpSetTutorial" />
     <node concept="ZXjPh" id="1c1rOX4_brr" role="S1EQ8">
       <property role="S1EQ6" value="XCOGORIKKW" />
+      <node concept="nccVD" id="1c1rOX4Jh7k" role="ZXjPg">
+        <property role="S1EQ6" value="HVNJHXKIWL" />
+        <node concept="3SKdUq" id="1c1rOX4Jh9u" role="nccZR">
+          <property role="3SKdUp" value="with defined gene lists:" />
+        </node>
+      </node>
       <node concept="3WoeC_" id="1c1rOX4_brs" role="ZXjPg">
         <property role="S1EQ6" value="FBFXJRGRAE" />
         <node concept="3Wv0rH" id="1c1rOX4_brw" role="3WoeCz">
@@ -188,6 +230,12 @@
           <property role="TrG5h" value="plot" />
         </node>
       </node>
+      <node concept="nccVD" id="1c1rOX4Jh34" role="ZXjPg">
+        <property role="S1EQ6" value="SGRYKJXBBD" />
+        <node concept="3SKdUq" id="1c1rOX4Jh56" role="nccZR">
+          <property role="3SKdUp" value="with elements of a table:" />
+        </node>
+      </node>
       <node concept="3MjoWR" id="1c1rOX4HC80" role="ZXjPg">
         <property role="S1EQ6" value="AQELIWNVRB" />
         <ref role="3Mj2Vh" node="4DOwJpJxBw5" resolve="GSE59364_DC_all.csv" />
@@ -232,7 +280,50 @@
             </node>
           </node>
         </node>
+        <node concept="1nDwpS" id="1c1rOX4Jhef" role="2obsJO">
+          <property role="TrG5h" value="combined" />
+          <node concept="2v3moz" id="1c1rOX4Jhf3" role="3id8N9">
+            <node concept="2PZJp8" id="1c1rOX4Jhfo" role="2v3moI">
+              <node concept="2PZJpk" id="1c1rOX4Jhfr" role="2v3mow">
+                <property role="pzxG6" value="10" />
+              </node>
+              <node concept="22gccs" id="1c1rOX4Jhfs" role="22hImy" />
+              <node concept="2v3moz" id="1c1rOX4JhfS" role="2v3moI">
+                <node concept="2PZJpk" id="1c1rOX4JhfY" role="2v3moI">
+                  <property role="pzxG6" value="30" />
+                </node>
+                <node concept="22gcdy" id="1c1rOX4JhfW" role="22hImy" />
+                <node concept="1x8lzE" id="1c1rOX4JhfI" role="2v3mow">
+                  <property role="TrG5h" value="GSE59364_DC_all.csv" />
+                  <ref role="1YZnGS" node="1c1rOX4HC9a" resolve="GSE59364_DC_all.csv" />
+                  <ref role="1x8kiA" node="4$IC3Kj1JTX" resolve="C2DC" />
+                </node>
+              </node>
+            </node>
+            <node concept="22gcdy" id="1c1rOX4Jhf5" role="22hImy" />
+            <node concept="1x8lzE" id="1c1rOX4Jhf6" role="2v3mow">
+              <property role="TrG5h" value="GSE59364_DC_all.csv" />
+              <ref role="1YZnGS" node="1c1rOX4HC9a" resolve="GSE59364_DC_all.csv" />
+              <ref role="1x8kiA" node="4$IC3Kj1JT_" resolve="A_DC" />
+            </node>
+          </node>
+        </node>
       </node>
+      <node concept="SsgEw" id="1c1rOX4JhzH" role="ZXjPg">
+        <property role="S1EQ6" value="QLOYKLPEIW" />
+        <property role="165MX6" value="10" />
+        <property role="165MyL" value="10" />
+        <ref role="Ss6T5" node="1c1rOX4HCa$" resolve="upset" />
+        <node concept="2jXUOv" id="1c1rOX4JhzJ" role="2jX3UN">
+          <property role="2jXUS1" value="upset.pdf" />
+        </node>
+        <node concept="Ss6Tf" id="1c1rOX4JhAR" role="Ss6Td" />
+      </node>
+    </node>
+    <node concept="3ZW7eb" id="1c1rOX4Jh9z" role="lGtFl">
+      <property role="2ripvU" value="1" />
+      <property role="TrG5h" value="UpSetIllustration-1" />
+      <ref role="KZaLW" to="jbzb:4bcN0BgiONI" resolve="FIGURES" />
     </node>
   </node>
   <node concept="3Mpm39" id="4DOwJpJxBw5">
