@@ -4,6 +4,8 @@
   <languages>
     <use id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" name="jetbrains.mps.lang.typesystem" version="0" />
     <use id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core" version="1" />
+    <use id="3b58810c-8431-4bbb-99ea-b4671e02dd13" name="org.campagnelab.metar.R" version="1" />
+    <use id="837afec3-cff0-45b1-a221-6b811148f87e" name="org.campagnelab.metar.R.gen" version="0" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -40,6 +42,10 @@
         <property id="1070475926801" name="value" index="Xl_RC" />
       </concept>
       <concept id="1070534058343" name="jetbrains.mps.baseLanguage.structure.NullLiteral" flags="nn" index="10Nm6u" />
+      <concept id="1070534934090" name="jetbrains.mps.baseLanguage.structure.CastExpression" flags="nn" index="10QFUN">
+        <child id="1070534934091" name="type" index="10QFUM" />
+        <child id="1070534934092" name="expression" index="10QFUP" />
+      </concept>
       <concept id="1068431474542" name="jetbrains.mps.baseLanguage.structure.VariableDeclaration" flags="ng" index="33uBYm">
         <child id="1068431790190" name="initializer" index="33vP2m" />
       </concept>
@@ -99,11 +105,39 @@
       </concept>
       <concept id="1080120340718" name="jetbrains.mps.baseLanguage.structure.AndExpression" flags="nn" index="1Wc70l" />
     </language>
+    <language id="d4615e3b-d671-4ba9-af01-2b78369b0ba7" name="jetbrains.mps.lang.pattern">
+      <concept id="1136720037777" name="jetbrains.mps.lang.pattern.structure.PatternExpression" flags="in" index="2DMOqp">
+        <child id="1136720037778" name="patternNode" index="2DMOqq" />
+      </concept>
+      <concept id="1136720037783" name="jetbrains.mps.lang.pattern.structure.WildcardPattern" flags="ng" index="2DMOqv" />
+    </language>
     <language id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures">
       <concept id="1199569711397" name="jetbrains.mps.baseLanguage.closures.structure.ClosureLiteral" flags="nn" index="1bVj0M">
         <child id="1199569906740" name="parameter" index="1bW2Oz" />
         <child id="1199569916463" name="body" index="1bW5cS" />
       </concept>
+    </language>
+    <language id="3b58810c-8431-4bbb-99ea-b4671e02dd13" name="org.campagnelab.metar.R">
+      <concept id="489068675543418436" name="org.campagnelab.metar.R.structure.SimpleAssignment" flags="ng" index="22gccq" />
+      <concept id="5770663561153558147" name="org.campagnelab.metar.R.structure.ParameterValue" flags="ng" index="gNblG">
+        <child id="5770663561153558420" name="value" index="gNbhV" />
+      </concept>
+      <concept id="5770663561153557551" name="org.campagnelab.metar.R.structure.ParameterValues" flags="ng" index="gNbv0">
+        <child id="5770663561153557817" name="values" index="gNbrm" />
+      </concept>
+      <concept id="6247096756517946181" name="org.campagnelab.metar.R.structure.BinaryOperatorExpr" flags="ng" index="2v3moz">
+        <child id="489068675543818492" name="operator" index="22hImy" />
+        <child id="6247096756517946182" name="left" index="2v3mow" />
+        <child id="6247096756517946184" name="right" index="2v3moI" />
+      </concept>
+      <concept id="6176023809880707756" name="org.campagnelab.metar.R.structure.FunctionCallExpr" flags="ng" index="2PZJp2">
+        <child id="3737166271524886452" name="id" index="134Gdo" />
+        <child id="3737166271524886450" name="parameters" index="134Gdu" />
+      </concept>
+      <concept id="6176023809880707754" name="org.campagnelab.metar.R.structure.AssignmentOperatorExpr" flags="ng" index="2PZJp4" />
+      <concept id="6176023809880707767" name="org.campagnelab.metar.R.structure.Identifier" flags="ng" index="2PZJpp" />
+      <concept id="6176023809880707737" name="org.campagnelab.metar.R.structure.Expr" flags="ng" index="2PZJpR" />
+      <concept id="4933197140516011539" name="org.campagnelab.metar.R.structure.PositionalParameterValue" flags="ng" index="V6WaU" />
     </language>
     <language id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" name="jetbrains.mps.lang.typesystem">
       <concept id="1207055528241" name="jetbrains.mps.lang.typesystem.structure.WarningStatement" flags="nn" index="a7r0C">
@@ -148,6 +182,9 @@
       </concept>
       <concept id="1174642788531" name="jetbrains.mps.lang.typesystem.structure.ConceptReference" flags="ig" index="1YaCAy">
         <reference id="1174642800329" name="concept" index="1YaFvo" />
+      </concept>
+      <concept id="1174642900584" name="jetbrains.mps.lang.typesystem.structure.PatternCondition" flags="ig" index="1Yb3XT">
+        <child id="1174642936809" name="pattern" index="1YbcFS" />
       </concept>
       <concept id="1174648085619" name="jetbrains.mps.lang.typesystem.structure.AbstractRule" flags="ng" index="1YuPPy">
         <child id="1174648101952" name="applicableNode" index="1YuTPh" />
@@ -194,6 +231,7 @@
       <concept id="1180636770613" name="jetbrains.mps.lang.smodel.structure.SNodeCreator" flags="nn" index="3zrR0B">
         <child id="1180636770616" name="createdType" index="3zrR0E" />
       </concept>
+      <concept id="1144146199828" name="jetbrains.mps.lang.smodel.structure.Node_CopyOperation" flags="nn" index="1$rogu" />
       <concept id="1139867745658" name="jetbrains.mps.lang.smodel.structure.Node_ReplaceWithNewOperation" flags="nn" index="1_qnLN">
         <reference id="1139867957129" name="concept" index="1_rbq0" />
       </concept>
@@ -217,6 +255,7 @@
       <concept id="1138056282393" name="jetbrains.mps.lang.smodel.structure.SLinkListAccess" flags="nn" index="3Tsc0h">
         <reference id="1138056546658" name="link" index="3TtcxE" />
       </concept>
+      <concept id="1228341669568" name="jetbrains.mps.lang.smodel.structure.Node_DetachOperation" flags="nn" index="3YRAZt" />
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
@@ -1775,6 +1814,193 @@
         <node concept="3clFbF" id="1cI4GX2OXSj" role="3cqZAp">
           <node concept="Xl_RD" id="1cI4GX2OXSi" role="3clFbG">
             <property role="Xl_RC" value="Escape New Lines" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="18kY7G" id="1c1rOX4EpMD">
+    <property role="TrG5h" value="DetectTwistedFunctionCalls" />
+    <node concept="3clFbS" id="1c1rOX4EpME" role="18ibNy">
+      <node concept="Jncv_" id="1c1rOX4EpVx" role="3cqZAp">
+        <ref role="JncvD" to="6q58:5mPDeVwiPaG" resolve="FunctionCallExpr" />
+        <node concept="1YBJjd" id="1c1rOX4EpVU" role="JncvB">
+          <ref role="1YBMHb" node="1c1rOX4EpMT" resolve="twistedFunctionCall" />
+        </node>
+        <node concept="JncvC" id="1c1rOX4EpVz" role="JncvA">
+          <property role="TrG5h" value="fcExpr" />
+          <node concept="2jxLKc" id="1c1rOX4EpV$" role="1tU5fm" />
+        </node>
+        <node concept="3clFbS" id="1c1rOX4EpV_" role="Jncv$">
+          <node concept="Jncv_" id="1c1rOX4EpY9" role="3cqZAp">
+            <ref role="JncvD" to="6q58:5mPDeVwiPaE" resolve="AssignmentOperatorExpr" />
+            <node concept="2OqwBi" id="1c1rOX4Eq0z" role="JncvB">
+              <node concept="Jnkvi" id="1c1rOX4EpYH" role="2Oq$k0">
+                <ref role="1M0zk5" node="1c1rOX4EpVz" resolve="fcExpr" />
+              </node>
+              <node concept="3TrEf2" id="1c1rOX4Eq4$" role="2OqNvi">
+                <ref role="3Tt5mk" to="6q58:3ft5eLKNXuO" />
+              </node>
+            </node>
+            <node concept="JncvC" id="1c1rOX4EpYb" role="JncvA">
+              <property role="TrG5h" value="assignOpExp" />
+              <node concept="2jxLKc" id="1c1rOX4EpYc" role="1tU5fm" />
+            </node>
+            <node concept="3clFbS" id="1c1rOX4EpYd" role="Jncv$">
+              <node concept="2MkqsV" id="1c1rOX4Eq7U" role="3cqZAp">
+                <node concept="Xl_RD" id="1c1rOX4Eq8f" role="2MkJ7o">
+                  <property role="Xl_RC" value="Detected Twisted Function Call" />
+                </node>
+                <node concept="1YBJjd" id="1c1rOX4Eqad" role="2OEOjV">
+                  <ref role="1YBMHb" node="1c1rOX4EpMT" resolve="twistedFunctionCall" />
+                </node>
+                <node concept="3Cnw8n" id="1c1rOX4E_NM" role="2OEOjU">
+                  <ref role="QpYPw" node="1c1rOX4EtkR" resolve="RebalanceTwistedFunctionCall" />
+                  <node concept="3CnSsL" id="1c1rOX4E_NS" role="3Coj4f">
+                    <ref role="QkamJ" node="1c1rOX4Etl4" resolve="functionCall" />
+                    <node concept="1YBJjd" id="1c1rOX4E_Ox" role="3CoRuB">
+                      <ref role="1YBMHb" node="1c1rOX4EpMT" resolve="twistedFunctionCall" />
+                    </node>
+                  </node>
+                  <node concept="3CnSsL" id="1c1rOX4E_OV" role="3Coj4f">
+                    <ref role="QkamJ" node="1c1rOX4Etls" resolve="assignOpExpr" />
+                    <node concept="Jnkvi" id="1c1rOX4E_Ze" role="3CoRuB">
+                      <ref role="1M0zk5" node="1c1rOX4EpYb" resolve="assignOpExp" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1Yb3XT" id="1c1rOX4EpMT" role="1YuTPh">
+      <property role="TrG5h" value="twistedFunctionCall" />
+      <node concept="2DMOqp" id="1c1rOX4EpMV" role="1YbcFS">
+        <node concept="2PZJp2" id="1c1rOX4EpOq" role="2DMOqq">
+          <node concept="gNbv0" id="1c1rOX4EpOr" role="134Gdu">
+            <node concept="V6WaU" id="1c1rOX4EpOs" role="gNbrm">
+              <node concept="2PZJpR" id="1c1rOX4EpOu" role="gNbhV">
+                <node concept="2DMOqv" id="1c1rOX4EpOU" role="lGtFl" />
+              </node>
+            </node>
+          </node>
+          <node concept="2PZJp4" id="1c1rOX4EpP0" role="134Gdo">
+            <node concept="2PZJpp" id="1c1rOX4EpP3" role="2v3mow">
+              <property role="TrG5h" value="id" />
+              <node concept="2DMOqv" id="1c1rOX4EpPw" role="lGtFl" />
+            </node>
+            <node concept="22gccq" id="1c1rOX4EpP4" role="22hImy" />
+            <node concept="2PZJpp" id="1c1rOX4EpPm" role="2v3moI">
+              <property role="TrG5h" value="name" />
+              <node concept="2DMOqv" id="1c1rOX4EpPr" role="lGtFl" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="Q5z_Y" id="1c1rOX4EtkR">
+    <property role="TrG5h" value="RebalanceTwistedFunctionCall" />
+    <node concept="Q6JDH" id="1c1rOX4Etl4" role="Q6Id_">
+      <property role="TrG5h" value="functionCall" />
+      <node concept="3Tqbb2" id="1c1rOX4Etlg" role="Q6QK4">
+        <ref role="ehGHo" to="6q58:5mPDeVwiPaG" resolve="FunctionCallExpr" />
+      </node>
+    </node>
+    <node concept="Q6JDH" id="1c1rOX4Etls" role="Q6Id_">
+      <property role="TrG5h" value="assignOpExpr" />
+      <node concept="3Tqbb2" id="1c1rOX4EtlM" role="Q6QK4">
+        <ref role="ehGHo" to="6q58:5mPDeVwiPaE" resolve="AssignmentOperatorExpr" />
+      </node>
+    </node>
+    <node concept="Q5ZZ6" id="1c1rOX4EtkS" role="Q6x$H">
+      <node concept="3clFbS" id="1c1rOX4EtkT" role="2VODD2">
+        <node concept="3cpWs8" id="1c1rOX4EtGS" role="3cqZAp">
+          <node concept="3cpWsn" id="1c1rOX4EtGY" role="3cpWs9">
+            <property role="TrG5h" value="rebalanced" />
+            <node concept="3Tqbb2" id="1c1rOX4EtHN" role="1tU5fm">
+              <ref role="ehGHo" to="6q58:5mPDeVwiPaE" resolve="AssignmentOperatorExpr" />
+            </node>
+            <node concept="10QFUN" id="1c1rOX4ExNK" role="33vP2m">
+              <node concept="2OqwBi" id="1c1rOX4EtTF" role="10QFUP">
+                <node concept="2OqwBi" id="1c1rOX4EtKJ" role="2Oq$k0">
+                  <node concept="QwW4i" id="1c1rOX4EtIM" role="2Oq$k0">
+                    <ref role="QwW4h" node="1c1rOX4Etl4" resolve="functionCall" />
+                  </node>
+                  <node concept="3TrEf2" id="1c1rOX4EtOA" role="2OqNvi">
+                    <ref role="3Tt5mk" to="6q58:3ft5eLKNXuO" />
+                  </node>
+                </node>
+                <node concept="3YRAZt" id="1c1rOX4EucC" role="2OqNvi" />
+              </node>
+              <node concept="3Tqbb2" id="1c1rOX4ExNL" role="10QFUM">
+                <ref role="ehGHo" to="6q58:5mPDeVwiPaE" resolve="AssignmentOperatorExpr" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="1c1rOX4Euw$" role="3cqZAp">
+          <node concept="37vLTI" id="1c1rOX4EuL4" role="3clFbG">
+            <node concept="2OqwBi" id="1c1rOX4EvaQ" role="37vLTx">
+              <node concept="2OqwBi" id="1c1rOX4EuRE" role="2Oq$k0">
+                <node concept="37vLTw" id="1c1rOX4EuOJ" role="2Oq$k0">
+                  <ref role="3cqZAo" node="1c1rOX4EtGY" resolve="rebalanced" />
+                </node>
+                <node concept="3TrEf2" id="1c1rOX4Ev33" role="2OqNvi">
+                  <ref role="3Tt5mk" to="6q58:5qM9mr9JOd8" />
+                </node>
+              </node>
+              <node concept="3YRAZt" id="1c1rOX4Ew7U" role="2OqNvi" />
+            </node>
+            <node concept="2OqwBi" id="1c1rOX4Euzk" role="37vLTJ">
+              <node concept="QwW4i" id="1c1rOX4Euwy" role="2Oq$k0">
+                <ref role="QwW4h" node="1c1rOX4Etl4" resolve="functionCall" />
+              </node>
+              <node concept="3TrEf2" id="1c1rOX4EuDk" role="2OqNvi">
+                <ref role="3Tt5mk" to="6q58:3ft5eLKNXuO" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="1c1rOX4Ewcn" role="3cqZAp">
+          <node concept="37vLTI" id="1c1rOX4Ext5" role="3clFbG">
+            <node concept="2OqwBi" id="1c1rOX4ExyI" role="37vLTx">
+              <node concept="QwW4i" id="1c1rOX4ExvJ" role="2Oq$k0">
+                <ref role="QwW4h" node="1c1rOX4Etl4" resolve="functionCall" />
+              </node>
+              <node concept="1$rogu" id="1c1rOX4EIHh" role="2OqNvi" />
+            </node>
+            <node concept="2OqwBi" id="1c1rOX4Ewcq" role="37vLTJ">
+              <node concept="37vLTw" id="1c1rOX4Ewcr" role="2Oq$k0">
+                <ref role="3cqZAo" node="1c1rOX4EtGY" resolve="rebalanced" />
+              </node>
+              <node concept="3TrEf2" id="1c1rOX4Ewcs" role="2OqNvi">
+                <ref role="3Tt5mk" to="6q58:5qM9mr9JOd8" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="1c1rOX4EF92" role="3cqZAp">
+          <node concept="2OqwBi" id="1c1rOX4EF9Y" role="3clFbG">
+            <node concept="1P9Npp" id="1c1rOX4EFfI" role="2OqNvi">
+              <node concept="37vLTw" id="1c1rOX4EFgr" role="1P9ThW">
+                <ref role="3cqZAo" node="1c1rOX4EtGY" resolve="rebalanced" />
+              </node>
+            </node>
+            <node concept="QwW4i" id="1c1rOX4EIMk" role="2Oq$k0">
+              <ref role="QwW4h" node="1c1rOX4Etl4" resolve="functionCall" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="QznSV" id="1c1rOX4Etm0" role="QzAvj">
+      <node concept="3clFbS" id="1c1rOX4Etm1" role="2VODD2">
+        <node concept="3clFbF" id="1c1rOX4Etni" role="3cqZAp">
+          <node concept="Xl_RD" id="1c1rOX4Etnh" role="3clFbG">
+            <property role="Xl_RC" value="Rebalance Twisted Function Call" />
           </node>
         </node>
       </node>
