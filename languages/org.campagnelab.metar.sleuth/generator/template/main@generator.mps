@@ -298,6 +298,7 @@
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
+        <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
         <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
       </concept>
       <concept id="3364660638048049750" name="jetbrains.mps.lang.core.structure.PropertyAttribute" flags="ng" index="A9Btg">
@@ -367,6 +368,7 @@
   </node>
   <node concept="13MO4I" id="1AaQBctKALc">
     <property role="TrG5h" value="reduce_Sleuth" />
+    <property role="3GE5qa" value="sleuth" />
     <ref role="3gUMe" to="bx6g:35jnqydridD" resolve="Sleuth" />
     <node concept="1nyVak" id="1c1rOX4zqNp" role="13RCb5">
       <property role="2BXFg4" value="true" />
@@ -1433,6 +1435,7 @@
   </node>
   <node concept="jVnub" id="3AJ457wK$K_">
     <property role="TrG5h" value="SleuthTestSwitch" />
+    <property role="3GE5qa" value="sleuth" />
     <node concept="3aamgX" id="3AJ457wK$KP" role="3aUrZf">
       <property role="36QftV" value="true" />
       <ref role="30HIoZ" to="bx6g:3AJ457wKgcv" resolve="WaldTest" />
@@ -1464,6 +1467,7 @@
   </node>
   <node concept="13MO4I" id="3AJ457wK$KI">
     <property role="TrG5h" value="case_LikelyhoodRatioTest" />
+    <property role="3GE5qa" value="sleuth" />
     <ref role="3gUMe" to="bx6g:3AJ457wKgcu" resolve="LikelyhoodRatioTest" />
     <node concept="1N15co" id="3AJ457wKM2T" role="1s_3oS">
       <property role="TrG5h" value="sleuth" />
@@ -1544,21 +1548,21 @@
               </node>
             </node>
             <node concept="3cU4HJ" id="3AJ457wKODE" role="13u1kV" />
-            <node concept="2PZJp2" id="3AJ457wTTYA" role="13u1kV">
-              <node concept="2PZJp4" id="3AJ457wTTYF" role="134Gdo">
-                <node concept="1LhYbg" id="3AJ457wTU5J" role="2v3mow">
-                  <ref role="1Li74V" node="3AJ457wKOnd" resolve="so" />
-                </node>
-                <node concept="2PZJpp" id="3AJ457wTTYJ" role="2v3moI">
-                  <property role="TrG5h" value="sleuth_fit" />
-                </node>
-                <node concept="22gccq" id="3AJ457wTTYK" role="22hImy" />
+            <node concept="2PZJp4" id="3AJ457wTTYF" role="13u1kV">
+              <node concept="1LhYbg" id="3AJ457wTU5J" role="2v3mow">
+                <ref role="1Li74V" node="3AJ457wKOnd" resolve="so" />
               </node>
-              <node concept="gNbv0" id="3AJ457wTTYL" role="134Gdu">
-                <node concept="V6WaU" id="3AJ457wTTYM" role="gNbrm">
-                  <node concept="1LhYbg" id="3AJ457wTU5R" role="gNbhV">
-                    <ref role="1Li74V" node="3AJ457wKOnd" resolve="so" />
+              <node concept="22gccq" id="3AJ457wTTYK" role="22hImy" />
+              <node concept="2PZJp2" id="1c1rOX4Gu3u" role="2v3moI">
+                <node concept="gNbv0" id="1c1rOX4Gu3v" role="134Gdu">
+                  <node concept="V6WaU" id="1c1rOX4Gu3w" role="gNbrm">
+                    <node concept="1LhYbg" id="1c1rOX4Gu3x" role="gNbhV">
+                      <ref role="1Li74V" node="3AJ457wKOnd" resolve="so" />
+                    </node>
                   </node>
+                </node>
+                <node concept="2PZJpp" id="1c1rOX4Gu3y" role="134Gdo">
+                  <property role="TrG5h" value="sleuth_fit" />
                 </node>
               </node>
             </node>
@@ -1569,7 +1573,7 @@
                   <ref role="1Li74V" node="3AJ457wKOnd" resolve="so" />
                 </node>
                 <node concept="1LhYbg" id="3AJ457wTU5N" role="2v3moI">
-                  <ref role="1Li74V" node="3AJ457wTTYJ" resolve="sleuth_fit" />
+                  <ref role="1Li74V" node="1c1rOX4Gu3y" resolve="sleuth_fit" />
                 </node>
                 <node concept="22gccq" id="3AJ457wKOnI" role="22hImy" />
               </node>
@@ -1739,6 +1743,7 @@
   </node>
   <node concept="13MO4I" id="3AJ457wK$L3">
     <property role="TrG5h" value="case_WaldTest" />
+    <property role="3GE5qa" value="sleuth" />
     <ref role="3gUMe" to="bx6g:3AJ457wKgcv" resolve="WaldTest" />
     <node concept="1N15co" id="3AJ457wKAfb" role="1s_3oS">
       <property role="TrG5h" value="sleuth" />
@@ -1841,21 +1846,21 @@
             </node>
           </node>
           <node concept="3cU4HJ" id="3AJ457wLjWw" role="13u1kV" />
-          <node concept="2PZJp2" id="1AaQBctKBXb" role="13u1kV">
-            <node concept="2PZJp4" id="1AaQBctKBXg" role="134Gdo">
-              <node concept="1LhYbg" id="1AaQBctKC0k" role="2v3mow">
-                <ref role="1Li74V" node="1AaQBctKBWY" resolve="so" />
-              </node>
-              <node concept="2PZJpp" id="1AaQBctKBXk" role="2v3moI">
-                <property role="TrG5h" value="sleuth_fit" />
-              </node>
-              <node concept="22gccq" id="1AaQBctKBXl" role="22hImy" />
+          <node concept="2PZJp4" id="1AaQBctKBXg" role="13u1kV">
+            <node concept="1LhYbg" id="1AaQBctKC0k" role="2v3mow">
+              <ref role="1Li74V" node="1AaQBctKBWY" resolve="so" />
             </node>
-            <node concept="gNbv0" id="1AaQBctKBXm" role="134Gdu">
-              <node concept="V6WaU" id="1AaQBctKBXn" role="gNbrm">
-                <node concept="1LhYbg" id="1AaQBctKC06" role="gNbhV">
-                  <ref role="1Li74V" node="1AaQBctKBWY" resolve="so" />
+            <node concept="22gccq" id="1AaQBctKBXl" role="22hImy" />
+            <node concept="2PZJp2" id="1c1rOX4GLd3" role="2v3moI">
+              <node concept="gNbv0" id="1c1rOX4GLd4" role="134Gdu">
+                <node concept="V6WaU" id="1c1rOX4GLd5" role="gNbrm">
+                  <node concept="1LhYbg" id="1c1rOX4GLd6" role="gNbhV">
+                    <ref role="1Li74V" node="1AaQBctKBWY" resolve="so" />
+                  </node>
                 </node>
+              </node>
+              <node concept="2PZJpp" id="1c1rOX4GLd7" role="134Gdo">
+                <property role="TrG5h" value="sleuth_fit" />
               </node>
             </node>
           </node>
