@@ -193,6 +193,7 @@
         <child id="1144104376918" name="parameter" index="1xVPHs" />
       </concept>
       <concept id="1179409122411" name="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" flags="nn" index="2qgKlT" />
+      <concept id="8866923313515890008" name="jetbrains.mps.lang.smodel.structure.AsNodeOperation" flags="nn" index="FGMqu" />
       <concept id="1883223317721008708" name="jetbrains.mps.lang.smodel.structure.IfInstanceOfStatement" flags="nn" index="Jncv_">
         <reference id="1883223317721008712" name="nodeConcept" index="JncvD" />
         <child id="1883223317721008709" name="body" index="Jncv$" />
@@ -202,6 +203,9 @@
       <concept id="1883223317721008713" name="jetbrains.mps.lang.smodel.structure.IfInstanceOfVariable" flags="ng" index="JncvC" />
       <concept id="1883223317721107059" name="jetbrains.mps.lang.smodel.structure.IfInstanceOfVarReference" flags="nn" index="Jnkvi" />
       <concept id="1171407110247" name="jetbrains.mps.lang.smodel.structure.Node_GetAncestorOperation" flags="nn" index="2Xjw5R" />
+      <concept id="2644386474300074836" name="jetbrains.mps.lang.smodel.structure.ConceptIdRefExpression" flags="nn" index="35c_gC">
+        <reference id="2644386474300074837" name="conceptDeclaration" index="35c_gD" />
+      </concept>
       <concept id="1172008320231" name="jetbrains.mps.lang.smodel.structure.Node_IsNotNullOperation" flags="nn" index="3x8VRR" />
       <concept id="1144101972840" name="jetbrains.mps.lang.smodel.structure.OperationParm_Concept" flags="ng" index="1xMEDy">
         <child id="1207343664468" name="conceptArgument" index="ri$Ld" />
@@ -608,9 +612,6 @@
                                   <node concept="3cpWsn" id="3BG_BmphUyo" role="3cpWs9">
                                     <property role="TrG5h" value="returning" />
                                     <node concept="10P_77" id="3BG_BmphUyj" role="1tU5fm" />
-                                    <node concept="3clFbT" id="3BG_BmphUD9" role="33vP2m">
-                                      <property role="3clFbU" value="false" />
-                                    </node>
                                   </node>
                                 </node>
                                 <node concept="3clFbF" id="3BG_BmphUJR" role="3cqZAp">
@@ -744,8 +745,11 @@
               </node>
               <node concept="2qgKlT" id="3AJ457wIEKw" role="2OqNvi">
                 <ref role="37wK5l" to="42z1:4FCgsrO_vT8" resolve="hasElement" />
-                <node concept="3TUQnm" id="3AJ457wIEKx" role="37wK5m">
-                  <ref role="3TV0OU" to="onla:4FCgsrO$v5l" resolve="XRange" />
+                <node concept="2OqwBi" id="1c1rOX4IJp9" role="37wK5m">
+                  <node concept="35c_gC" id="1c1rOX4IJ7z" role="2Oq$k0">
+                    <ref role="35c_gD" to="onla:4FCgsrO$v5l" resolve="XRange" />
+                  </node>
+                  <node concept="FGMqu" id="1c1rOX4IJ_x" role="2OqNvi" />
                 </node>
               </node>
             </node>
