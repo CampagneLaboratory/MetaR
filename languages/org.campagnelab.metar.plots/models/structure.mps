@@ -74,6 +74,7 @@
     <node concept="1TJgyj" id="3AJ457wDFB6" role="1TKVEi">
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="geneName" />
+      <property role="20lbJX" value="1" />
       <ref role="20lvS9" to="jrxw:2WRhvFtICJV" resolve="ColumnGroup" />
     </node>
     <node concept="1TJgyi" id="3jH$tF$F2jp" role="1TKVEl">

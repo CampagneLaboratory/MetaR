@@ -1078,6 +1078,36 @@
           <ref role="afgo8" node="4DOwJpJxBw5" resolve="GSE59364_DC_all.csv" />
         </node>
       </node>
+      <node concept="S1EQe" id="7eyWL1Lfqgd" role="ZXjPg">
+        <property role="S1EQ6" value="TWCJWUBSCT" />
+      </node>
+      <node concept="3giYhJ" id="7eyWL1Lfque" role="ZXjPg">
+        <property role="S1EQ6" value="ODLFSKRUXK" />
+        <property role="3ggrk4" value="-10.0" />
+        <property role="3ggrk3" value="0.20" />
+        <ref role="3p2qAn" node="4DOwJpJxC5G" resolve="ID" />
+        <node concept="3MqhDd" id="7eyWL1LfqA6" role="3giYhA">
+          <ref role="3Mqssv" node="1EG$v9O98sn" resolve="Results" />
+        </node>
+        <node concept="1FHg$p" id="7eyWL1Lfquk" role="2_9Z7z">
+          <property role="ZHjxa" value="200" />
+          <property role="ZHjG8" value="200" />
+          <property role="3ZMXzF" value="6" />
+          <property role="TrG5h" value="plotNoLabel" />
+        </node>
+        <node concept="3MHf5z" id="7eyWL1LfqA9" role="3p3p29">
+          <ref role="3MHf5w" node="3AJ457wHr9K" resolve="AveExpr" />
+        </node>
+        <node concept="3MHf5z" id="7eyWL1LfqAa" role="3p3p2S">
+          <ref role="3MHf5w" node="3AJ457wHr9J" resolve="logFC" />
+        </node>
+        <node concept="3MHf5z" id="7eyWL1LfqAb" role="3p3p2J">
+          <ref role="3MHf5w" node="3AJ457wHr9N" resolve="adj.P.Val" />
+        </node>
+      </node>
+      <node concept="S1EQe" id="7eyWL1LfrI9" role="ZXjPg">
+        <property role="S1EQ6" value="BYJWKEFURC" />
+      </node>
       <node concept="ZXjPh" id="1c1rOX4Pak9" role="ZXjPg">
         <property role="S1EQ6" value="PALFPWDJFJ" />
         <node concept="3WoeC_" id="3AJ457wH5e1" role="ZXjPg">
