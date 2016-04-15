@@ -399,7 +399,6 @@
                   </node>
                 </node>
               </node>
-              <node concept="3cU4HJ" id="3jH$tF$QIZq" role="13u1kV" />
               <node concept="2PZJp4" id="3jH$tF$DB$8" role="13u1kV">
                 <node concept="2PZJpp" id="3jH$tF$DB$b" role="2v3mow">
                   <property role="TrG5h" value="sig_gene_idx" />
@@ -463,7 +462,6 @@
                   </node>
                 </node>
               </node>
-              <node concept="3cU4HJ" id="3jH$tF$DBOb" role="13u1kV" />
               <node concept="2PZJp4" id="3jH$tF$DB$w" role="13u1kV">
                 <node concept="2PZJpp" id="3jH$tF$DB$z" role="2v3mow">
                   <property role="TrG5h" value="sig_ave_gene_idx" />
@@ -577,7 +575,6 @@
                   </node>
                 </node>
               </node>
-              <node concept="3cU4HJ" id="3jH$tF$DGeg" role="13u1kV" />
               <node concept="2PZJp4" id="3jH$tF$DB_0" role="13u1kV">
                 <node concept="2PZJpp" id="3jH$tF$DB_3" role="2v3mow">
                   <property role="TrG5h" value="sel_genes" />
@@ -618,9 +615,6 @@
                 </node>
                 <node concept="22gccq" id="3jH$tF$DB_j" role="22hImy" />
               </node>
-              <node concept="3cU4HJ" id="3jH$tF$DG43" role="13u1kV" />
-              <node concept="3cU4HJ" id="3AJ457wHWgp" role="13u1kV" />
-              <node concept="3cU4HJ" id="3jH$tF$FBRe" role="13u1kV" />
               <node concept="2PZJp2" id="3jH$tF$DBCh" role="13u1kV">
                 <node concept="gNbv0" id="3jH$tF$DBCn" role="134Gdu">
                   <node concept="V6WaX" id="3jH$tF$DBCo" role="gNbrm">
@@ -1111,8 +1105,6 @@
                   <ref role="1Li74V" to="4tsn:364jCD04XBE" resolve="plot" />
                 </node>
               </node>
-              <node concept="3cU4HJ" id="3AJ457wHS3b" role="13u1kV" />
-              <node concept="3cU4HJ" id="3AJ457wI4Vm" role="13u1kV" />
               <node concept="2PZJp2" id="3jH$tF$DBET" role="13u1kV">
                 <node concept="2PZJpp" id="3jH$tF$DBEY" role="134Gdo">
                   <property role="TrG5h" value="axis" />
@@ -1156,7 +1148,6 @@
                   </node>
                 </node>
               </node>
-              <node concept="3cU4HJ" id="3AJ457wJ6$N" role="13u1kV" />
               <node concept="2PZJp2" id="3jH$tF$DBFs" role="13u1kV">
                 <node concept="2PZJpp" id="3jH$tF$DBFx" role="134Gdo">
                   <property role="TrG5h" value="segments" />
@@ -1279,7 +1270,6 @@
                   </node>
                 </node>
               </node>
-              <node concept="3cU4HJ" id="3AJ457wIdTU" role="13u1kV" />
               <node concept="2PZJp2" id="3jH$tF$DBFP" role="13u1kV">
                 <node concept="2PZJp4" id="3jH$tF$DBFU" role="134Gdo">
                   <node concept="1LhYbg" id="3jH$tF$DBNt" role="2v3mow">
@@ -1331,8 +1321,6 @@
                   </node>
                 </node>
               </node>
-              <node concept="3cU4HJ" id="3jH$tF$FiQd" role="13u1kV" />
-              <node concept="3cU4HJ" id="3jH$tF$FC4J" role="13u1kV" />
               <node concept="2PZJp4" id="3jH$tF$DBGo" role="13u1kV">
                 <node concept="2PZJpp" id="3jH$tF$DBGr" role="2v3mow">
                   <property role="TrG5h" value="labels_idx" />
@@ -1398,7 +1386,6 @@
                   </node>
                 </node>
               </node>
-              <node concept="3cU4HJ" id="3jH$tF$Fj2D" role="13u1kV" />
               <node concept="2PZJp4" id="3jH$tF$DBGE" role="13u1kV">
                 <node concept="2PZJpP" id="3jH$tF$DBGH" role="2v3mow">
                   <node concept="1LhYbg" id="3jH$tF$DBNl" role="3fnAI_">
@@ -1448,7 +1435,6 @@
                 </node>
                 <node concept="22gccq" id="3jH$tF$DBH7" role="22hImy" />
               </node>
-              <node concept="3cU4HJ" id="3jH$tF$Fjf6" role="13u1kV" />
               <node concept="2PZJp2" id="3jH$tF$DBH8" role="13u1kV">
                 <node concept="2PZJpp" id="3jH$tF$DBHd" role="134Gdo">
                   <property role="TrG5h" value="text" />
@@ -1524,8 +1510,6 @@
                   </node>
                 </node>
               </node>
-              <node concept="3cU4HJ" id="3AJ457wHvkn" role="13u1kV" />
-              <node concept="3cU4HJ" id="3AJ457wHvQ_" role="13u1kV" />
             </node>
           </node>
         </node>
