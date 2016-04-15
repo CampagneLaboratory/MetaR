@@ -777,9 +777,9 @@
           <property role="TrG5h" value="NewMAPlot-1" />
           <ref role="KZaLW" node="4bcN0BgiONI" resolve="FIGURES" />
         </node>
-        <node concept="3MHf5z" id="1c1rOX4QF76" role="3p3p29" />
-        <node concept="3MHf5z" id="1c1rOX4QF77" role="3p3p2S" />
-        <node concept="3MHf5z" id="1c1rOX4QF78" role="3p3p2J" />
+        <node concept="3MHf5z" id="1c1rOX4QHwf" role="3p3p29" />
+        <node concept="3MHf5z" id="1c1rOX4QHwg" role="3p3p2S" />
+        <node concept="3MHf5z" id="1c1rOX4QHwh" role="3p3p2J" />
       </node>
     </node>
   </node>
