@@ -9,6 +9,7 @@
   <dependencies>
     <dependency reexport="false">040d3459-0033-45bb-b823-4cfd22657c15(org.campagnelab.metar.biomartToR)</dependency>
     <dependency reexport="false">af754813-06c7-4cd1-8f24-cc91ec8e5d34(org.campagnelab.metar.with.r)</dependency>
+    <dependency reexport="false">8e2c4123-1984-45f0-81f5-0fd1ae49bd40(DocModels)</dependency>
   </dependencies>
   <usedDevKits>
     <usedDevKit>8a3636fa-c6ec-4cb0-bc2a-b7143f2a4937(org.campagnelab.metaR)</usedDevKit>
@@ -44,12 +45,14 @@
     <language id="af754813-06c7-4cd1-8f24-cc91ec8e5d34" fqName="org.campagnelab.metar.with.r" version="0" />
     <language id="5ec1cd3d-0a50-4049-a8fa-ae768d7baa25" fqName="org.campagnelab.mps.XChart" version="0" />
     <language id="ecf91126-e504-4aae-8ee7-3192d64e77f6" fqName="org.campagnelab.mps.XChart.types" version="0" />
+    <language id="93bc01ac-08ca-4f11-9c7d-614d04055dfb" fqName="org.campagnelab.mps.editor2pdf" version="0" />
     <language id="43f31864-fc67-43f5-873e-ab79cc279a2d" fqName="org.campagnelab.styles" version="0" />
     <language id="901f5cf3-dc77-4c1e-bc5a-6382baee28b4" fqName="org.campagnelab.textoutput" version="0" />
     <language id="c1ba4037-e4db-47d8-8b61-b3c805b648f2" fqName="org.campagnelab.ui" version="0" />
   </languageVersions>
   <dependencyVersions>
     <module reference="3f233e7f-b8a6-46d2-a57f-795d56775243(Annotations)" version="0" />
+    <module reference="8e2c4123-1984-45f0-81f5-0fd1ae49bd40(DocModels)" version="0" />
     <module reference="6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)" version="0" />
     <module reference="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea(MPS.Core)" version="0" />
     <module reference="1ed103c3-3aa6-49b7-9c21-6765ee11f224(MPS.Editor)" version="0" />

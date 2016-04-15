@@ -13,13 +13,28 @@
     <use id="9ded098b-ad6a-4657-bfd9-48636cfe8bc3" name="jetbrains.mps.lang.traceable" version="0" />
     <use id="837afec3-cff0-45b1-a221-6b811148f87e" name="org.campagnelab.metar.R.gen" version="0" />
     <use id="93b7ee14-f42b-424a-9d29-0e275a24208d" name="org.campagnelab.metar.sleuth" version="0" />
+    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="2" />
+    <use id="93bc01ac-08ca-4f11-9c7d-614d04055dfb" name="org.campagnelab.mps.editor2pdf" version="0" />
+    <use id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections" version="0" />
+    <use id="443f4c36-fcf5-4eb6-9500-8d06ed259e3e" name="jetbrains.mps.baseLanguage.classifiers" version="0" />
+    <use id="13744753-c81f-424a-9c1b-cf8943bf4e86" name="jetbrains.mps.lang.sharedConcepts" version="0" />
+    <use id="aee9cad2-acd4-4608-aef2-0004f6a1cdbd" name="jetbrains.mps.lang.actions" version="0" />
+    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="3" />
+    <use id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures" version="0" />
     <devkit ref="8a3636fa-c6ec-4cb0-bc2a-b7143f2a4937(org.campagnelab.metaR)" />
   </languages>
   <imports>
+    <import index="jbzb" ref="r:f8a92659-ba84-4623-83ac-107d313dfa60(limma)" />
     <import index="9nc5" ref="r:d1a256e6-591a-459f-809c-7fc9df45e4d5(org.campagnelab.mps.XChart.types.roots)" implicit="true" />
     <import index="wiqx" ref="r:6bfd7c1b-dea3-4f98-9ed3-bce7739b7a8d(org.campagnelab.metar.accessories.styles.colors)" implicit="true" />
   </imports>
   <registry>
+    <language id="93bc01ac-08ca-4f11-9c7d-614d04055dfb" name="org.campagnelab.mps.editor2pdf">
+      <concept id="8751972264247112684" name="org.campagnelab.mps.editor2pdf.structure.EditorAnnotation" flags="ng" index="3ZW7eb">
+        <property id="5378718574870043633" name="outputFormat" index="2ripvU" />
+        <reference id="893392931327136863" name="outputTo" index="KZaLW" />
+      </concept>
+    </language>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
       <concept id="1224500764161" name="jetbrains.mps.baseLanguage.structure.BitwiseAndExpression" flags="nn" index="pVHWs" />
       <concept id="1224500790866" name="jetbrains.mps.baseLanguage.structure.BitwiseOrExpression" flags="nn" index="pVOtf" />
@@ -1063,53 +1078,58 @@
           <ref role="afgo8" node="4DOwJpJxBw5" resolve="GSE59364_DC_all.csv" />
         </node>
       </node>
-      <node concept="3WoeC_" id="3AJ457wH5e1" role="ZXjPg">
-        <property role="S1EQ6" value="KSQRVYMWID" />
-        <node concept="3Wv0rH" id="3AJ457wH5y$" role="3WoeCz">
-          <property role="TrG5h" value="GeneList" />
-          <node concept="3Wv0rE" id="3AJ457wH5yH" role="3Wv3z6">
-            <property role="3Wv0rF" value="PLEK" />
+      <node concept="ZXjPh" id="1c1rOX4Pak9" role="ZXjPg">
+        <property role="S1EQ6" value="PALFPWDJFJ" />
+        <node concept="3WoeC_" id="3AJ457wH5e1" role="ZXjPg">
+          <property role="S1EQ6" value="KSQRVYMWID" />
+          <node concept="3Wv0rH" id="3AJ457wH5y$" role="3WoeCz">
+            <property role="TrG5h" value="GeneList" />
+            <node concept="3Wv0rE" id="3AJ457wH5yH" role="3Wv3z6">
+              <property role="3Wv0rF" value="PLEK" />
+            </node>
           </node>
         </node>
-      </node>
-      <node concept="S1EQe" id="3AJ457wI$v4" role="ZXjPg">
-        <property role="S1EQ6" value="JYCFDPXOBW" />
-      </node>
-      <node concept="3giYhJ" id="3AJ457wDErE" role="ZXjPg">
-        <property role="S1EQ6" value="JVTURIFARY" />
-        <property role="3ggrk4" value="-5.0" />
-        <property role="3ggrk3" value="0.20" />
-        <ref role="3gdQvS" node="3AJ457wH5y$" resolve="GeneList" />
-        <ref role="3p2qAn" node="4DOwJpJxC5G" resolve="ID" />
-        <ref role="L_9Jz" node="3AJ457wI$NW" resolve="MAPlotStyle" />
-        <node concept="3MqhDd" id="3AJ457wDER2" role="3giYhA">
-          <ref role="3Mqssv" node="1EG$v9O98sn" resolve="Results" />
+        <node concept="3giYhJ" id="3AJ457wDErE" role="ZXjPg">
+          <property role="S1EQ6" value="JVTURIFARY" />
+          <property role="3ggrk4" value="-15.0" />
+          <property role="3ggrk3" value="0.20" />
+          <ref role="3gdQvS" node="3AJ457wH5y$" resolve="GeneList" />
+          <ref role="L_9Jz" node="3AJ457wI$NW" resolve="MAPlotStyle" />
+          <ref role="3p2qAn" node="4DOwJpJxC5G" resolve="ID" />
+          <node concept="3MqhDd" id="3AJ457wDER2" role="3giYhA">
+            <ref role="3Mqssv" node="1EG$v9O98sn" resolve="Results" />
+          </node>
+          <node concept="1FHg$p" id="3AJ457wDErK" role="2_9Z7z">
+            <property role="ZHjxa" value="200" />
+            <property role="ZHjG8" value="200" />
+            <property role="3ZMXzF" value="1" />
+            <property role="TrG5h" value="MA" />
+          </node>
+          <node concept="3MHf5z" id="3AJ457wDER8" role="3p3p29">
+            <ref role="3MHf5w" node="3AJ457wHr9K" resolve="AveExpr" />
+          </node>
+          <node concept="3MHf5z" id="3AJ457wDER9" role="3p3p2S">
+            <ref role="3MHf5w" node="3AJ457wHr9J" resolve="logFC" />
+          </node>
+          <node concept="3MHf5z" id="3AJ457wDERa" role="3p3p2J">
+            <ref role="3MHf5w" node="3AJ457wHr9N" resolve="adj.P.Val" />
+          </node>
         </node>
-        <node concept="1FHg$p" id="3AJ457wDErK" role="2_9Z7z">
-          <property role="ZHjxa" value="200" />
-          <property role="ZHjG8" value="200" />
-          <property role="3ZMXzF" value="1" />
-          <property role="TrG5h" value="MA" />
+        <node concept="SsgEw" id="3AJ457wH6fl" role="ZXjPg">
+          <property role="S1EQ6" value="EYSJTQRROR" />
+          <property role="165MX6" value="10" />
+          <property role="165MyL" value="10" />
+          <ref role="Ss6T5" node="3AJ457wDErK" resolve="MA" />
+          <node concept="2jXUOv" id="3AJ457wH6fn" role="2jX3UN">
+            <property role="2jXUS1" value="MA.pdf" />
+          </node>
+          <node concept="Ss6Tf" id="3AJ457wH6$3" role="Ss6Td" />
         </node>
-        <node concept="3MHf5z" id="3AJ457wDER8" role="3p3p29">
-          <ref role="3MHf5w" node="3AJ457wHr9K" resolve="AveExpr" />
+        <node concept="3ZW7eb" id="1c1rOX4PbcF" role="lGtFl">
+          <property role="2ripvU" value="1" />
+          <property role="TrG5h" value="MAPlotConstruction-1" />
+          <ref role="KZaLW" to="jbzb:4bcN0BgiONI" resolve="FIGURES" />
         </node>
-        <node concept="3MHf5z" id="3AJ457wDER9" role="3p3p2S">
-          <ref role="3MHf5w" node="3AJ457wHr9J" resolve="logFC" />
-        </node>
-        <node concept="3MHf5z" id="3AJ457wDERa" role="3p3p2J">
-          <ref role="3MHf5w" node="3AJ457wHr9N" resolve="adj.P.Val" />
-        </node>
-      </node>
-      <node concept="SsgEw" id="3AJ457wH6fl" role="ZXjPg">
-        <property role="S1EQ6" value="EYSJTQRROR" />
-        <property role="165MX6" value="10" />
-        <property role="165MyL" value="10" />
-        <ref role="Ss6T5" node="3AJ457wDErK" resolve="MA" />
-        <node concept="2jXUOv" id="3AJ457wH6fn" role="2jX3UN">
-          <property role="2jXUS1" value="MA.pdf" />
-        </node>
-        <node concept="Ss6Tf" id="3AJ457wH6$3" role="Ss6Td" />
       </node>
       <node concept="2jzm8Z" id="3AJ457wC_8p" role="ZXjPg">
         <property role="8NYsT" value="false" />
