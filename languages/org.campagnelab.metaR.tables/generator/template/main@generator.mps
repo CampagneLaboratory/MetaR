@@ -1549,7 +1549,10 @@
           </node>
         </node>
         <node concept="1gZcZf" id="5qhB25CXaqe" role="2G3XIn">
-          <property role="1gZaPE" value="rename" />
+          <property role="1gZaPE" value="" />
+          <node concept="3_3kQU" id="5hNeoNl0mp" role="3_3kQL">
+            <property role="3_3kQV" value="rename" />
+          </node>
           <node concept="3_3kQU" id="5qhB25D7g44" role="3_3kQL">
             <property role="3_3kQV" value="" />
           </node>
@@ -1649,7 +1652,7 @@
                               <node concept="liA8E" id="5qhB25D7j$8" role="2OqNvi">
                                 <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
                                 <node concept="Xl_RD" id="5qhB25D7j$9" role="37wK5m">
-                                  <property role="Xl_RC" value="rename(" />
+                                  <property role="Xl_RC" value="plyr::rename(" />
                                 </node>
                               </node>
                             </node>
@@ -2366,7 +2369,10 @@
           </node>
         </node>
         <node concept="1gZcZf" id="6yCrzs9cfvN" role="2G3XIn">
-          <property role="1gZaPE" value="copy" />
+          <property role="1gZaPE" value="" />
+          <node concept="3_3kQU" id="5hNeoNl0mi" role="3_3kQL">
+            <property role="3_3kQV" value="copy" />
+          </node>
           <node concept="3_3kQU" id="6yCrzs9cfvO" role="3_3kQL">
             <property role="3_3kQV" value="" />
           </node>
@@ -2690,7 +2696,10 @@
           <node concept="2G3XJi" id="74E64ik5TxZ" role="2G3XIn">
             <property role="1gZaPE" value="" />
             <node concept="1gZcZf" id="5qhB25DhUr9" role="2G3XIn">
-              <property role="1gZaPE" value="rename_back" />
+              <property role="1gZaPE" value="" />
+              <node concept="3_3kQU" id="5hNeoNl0mb" role="3_3kQL">
+                <property role="3_3kQV" value="rename_back" />
+              </node>
               <node concept="3_3kQU" id="5qhB25DhUra" role="3_3kQL">
                 <property role="3_3kQV" value="" />
               </node>
@@ -2775,7 +2784,7 @@
                                   <node concept="liA8E" id="5qhB25DhUr_" role="2OqNvi">
                                     <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
                                     <node concept="Xl_RD" id="5qhB25DhUrA" role="37wK5m">
-                                      <property role="Xl_RC" value="rename(" />
+                                      <property role="Xl_RC" value="plyr::rename(" />
                                     </node>
                                   </node>
                                 </node>
