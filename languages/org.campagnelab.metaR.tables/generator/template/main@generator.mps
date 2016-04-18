@@ -11467,7 +11467,7 @@
         <node concept="1gZcZf" id="4kl5yjseNvO" role="2G3XIn">
           <property role="1gZaPE" value="" />
           <node concept="3_3kQU" id="7B_tLLACjQA" role="3_3kQL">
-            <property role="3_3kQV" value="dev.off()" />
+            <property role="3_3kQV" value="ignore &lt;- dev.off()" />
           </node>
           <node concept="3_3kQU" id="4kl5yjseNvP" role="3_3kQL">
             <property role="3_3kQV" value="" />
