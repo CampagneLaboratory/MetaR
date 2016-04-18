@@ -8,8 +8,9 @@
   <imports>
     <import index="jugs" ref="r:625b65e5-b4a4-428e-a70f-ad13f56d2584(org.campagnelab.metar.plots.structure)" implicit="true" />
     <import index="jrxw" ref="r:9f2bbfbf-f8b7-4b3b-92b1-b6a0e9642c10(org.campagnelab.metar.tables.structure)" implicit="true" />
-    <import index="tp35" ref="r:6c85f813-d079-415b-abe9-4d0021645709(org.campagnelab.metar.plots.behavior)" implicit="true" />
+    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="v8sa" ref="r:db1b133e-9a0f-4319-b384-413408eb1729(org.campagnelab.metar.tables.behavior)" implicit="true" />
+    <import index="tp35" ref="r:6c85f813-d079-415b-abe9-4d0021645709(org.campagnelab.metar.plots.behavior)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -40,6 +41,7 @@
       <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
       </concept>
+      <concept id="1068581242875" name="jetbrains.mps.baseLanguage.structure.PlusExpression" flags="nn" index="3cpWs3" />
       <concept id="1079359253375" name="jetbrains.mps.baseLanguage.structure.ParenthesizedExpression" flags="nn" index="1eOMI4">
         <child id="1079359253376" name="expression" index="1eOMHV" />
       </concept>
@@ -109,6 +111,9 @@
       <concept id="1172008320231" name="jetbrains.mps.lang.smodel.structure.Node_IsNotNullOperation" flags="nn" index="3x8VRR" />
       <concept id="1138055754698" name="jetbrains.mps.lang.smodel.structure.SNodeType" flags="in" index="3Tqbb2">
         <reference id="1138405853777" name="concept" index="ehGHo" />
+      </concept>
+      <concept id="1138056022639" name="jetbrains.mps.lang.smodel.structure.SPropertyAccess" flags="nn" index="3TrcHB">
+        <reference id="1138056395725" name="property" index="3TsBF5" />
       </concept>
       <concept id="1138056143562" name="jetbrains.mps.lang.smodel.structure.SLinkAccess" flags="nn" index="3TrEf2">
         <reference id="1138056516764" name="link" index="3Tt5mk" />
@@ -222,6 +227,95 @@
                 </node>
               </node>
             </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3clFbJ" id="5hNeoNwzqs" role="3cqZAp">
+        <node concept="3clFbS" id="5hNeoNwzqu" role="3clFbx">
+          <node concept="2MkqsV" id="5hNeoNwC_D" role="3cqZAp">
+            <node concept="3cpWs3" id="5hNeoNwCFb" role="2MkJ7o">
+              <node concept="Xl_RD" id="5hNeoNwC_V" role="3uHU7B">
+                <property role="Xl_RC" value="The column group must exist in the data table " />
+              </node>
+              <node concept="2OqwBi" id="5hNeoNwCKX" role="3uHU7w">
+                <node concept="2OqwBi" id="5hNeoNwCFx" role="2Oq$k0">
+                  <node concept="2OqwBi" id="5hNeoNwCFy" role="2Oq$k0">
+                    <node concept="1YBJjd" id="5hNeoNwCFz" role="2Oq$k0">
+                      <ref role="1YBMHb" node="3AJ457wCQ0Q" resolve="maPlot" />
+                    </node>
+                    <node concept="3TrEf2" id="5hNeoNwCF$" role="2OqNvi">
+                      <ref role="3Tt5mk" to="jugs:3jH$tF$DBmW" />
+                    </node>
+                  </node>
+                  <node concept="3TrEf2" id="5hNeoNwCF_" role="2OqNvi">
+                    <ref role="3Tt5mk" to="jrxw:2WRhvFtnCb_" />
+                  </node>
+                </node>
+                <node concept="3TrcHB" id="5hNeoNwCSV" role="2OqNvi">
+                  <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                </node>
+              </node>
+            </node>
+            <node concept="2OqwBi" id="5hNeoNwCZI" role="2OEOjV">
+              <node concept="1YBJjd" id="5hNeoNwCZJ" role="2Oq$k0">
+                <ref role="1YBMHb" node="3AJ457wCQ0Q" resolve="maPlot" />
+              </node>
+              <node concept="3TrEf2" id="5hNeoNwCZK" role="2OqNvi">
+                <ref role="3Tt5mk" to="jugs:3AJ457wDFB6" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1Wc70l" id="5hNeoNw$gl" role="3clFbw">
+          <node concept="2OqwBi" id="5hNeoNwCcn" role="3uHU7w">
+            <node concept="2OqwBi" id="5hNeoNwAML" role="2Oq$k0">
+              <node concept="2OqwBi" id="5hNeoNwAwn" role="2Oq$k0">
+                <node concept="2OqwBi" id="5hNeoNw$P_" role="2Oq$k0">
+                  <node concept="2OqwBi" id="5hNeoNw$q9" role="2Oq$k0">
+                    <node concept="1YBJjd" id="5hNeoNw$ma" role="2Oq$k0">
+                      <ref role="1YBMHb" node="3AJ457wCQ0Q" resolve="maPlot" />
+                    </node>
+                    <node concept="3TrEf2" id="5hNeoNw$Bg" role="2OqNvi">
+                      <ref role="3Tt5mk" to="jugs:3jH$tF$DBmW" />
+                    </node>
+                  </node>
+                  <node concept="3TrEf2" id="5hNeoNw_jE" role="2OqNvi">
+                    <ref role="3Tt5mk" to="jrxw:2WRhvFtnCb_" />
+                  </node>
+                </node>
+                <node concept="3TrEf2" id="5hNeoNwABQ" role="2OqNvi">
+                  <ref role="3Tt5mk" to="jrxw:2WRhvFto5FZ" />
+                </node>
+              </node>
+              <node concept="2qgKlT" id="5hNeoNwB2B" role="2OqNvi">
+                <ref role="37wK5l" to="v8sa:3AJ457wDSWO" resolve="findGroup" />
+                <node concept="2OqwBi" id="5hNeoNwBPx" role="37wK5m">
+                  <node concept="2OqwBi" id="5hNeoNwBhA" role="2Oq$k0">
+                    <node concept="1YBJjd" id="5hNeoNwBb8" role="2Oq$k0">
+                      <ref role="1YBMHb" node="3AJ457wCQ0Q" resolve="maPlot" />
+                    </node>
+                    <node concept="3TrEf2" id="5hNeoNwBDm" role="2OqNvi">
+                      <ref role="3Tt5mk" to="jugs:3AJ457wDFB6" />
+                    </node>
+                  </node>
+                  <node concept="3TrcHB" id="5hNeoNwC28" role="2OqNvi">
+                    <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3w_OXm" id="5hNeoNwCtb" role="2OqNvi" />
+          </node>
+          <node concept="2OqwBi" id="5hNeoNwzXI" role="3uHU7B">
+            <node concept="2OqwBi" id="5hNeoNwzvX" role="2Oq$k0">
+              <node concept="1YBJjd" id="5hNeoNwzs9" role="2Oq$k0">
+                <ref role="1YBMHb" node="3AJ457wCQ0Q" resolve="maPlot" />
+              </node>
+              <node concept="3TrEf2" id="5hNeoNwzOf" role="2OqNvi">
+                <ref role="3Tt5mk" to="jugs:3AJ457wDFB6" />
+              </node>
+            </node>
+            <node concept="3x8VRR" id="5hNeoNw$an" role="2OqNvi" />
           </node>
         </node>
       </node>

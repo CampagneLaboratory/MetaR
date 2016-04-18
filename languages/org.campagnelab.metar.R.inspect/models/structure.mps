@@ -121,7 +121,7 @@
     </node>
     <node concept="1TJgyi" id="1c1rOX4BO3K" role="1TKVEl">
       <property role="TrG5h" value="plotId" />
-      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
     <node concept="1TJgyi" id="1c1rOX4BOoB" role="1TKVEl">
       <property role="TrG5h" value="pngPath" />

@@ -96,7 +96,7 @@
       </node>
       <node concept="1iCGBv" id="3AJ457wDFDV" role="3EZMnx">
         <ref role="1NtTu8" to="jugs:3AJ457wDFB6" />
-        <ref role="1k5W1q" to="8gqa:2rPl_HMU6tb" resolve="ColumnName" />
+        <ref role="1k5W1q" to="8gqa:7Hltlm8E96y" resolve="GroupName" />
         <node concept="1sVBvm" id="3AJ457wDFDX" role="1sWHZn">
           <node concept="3F0A7n" id="3AJ457wDFEX" role="2wV5jI">
             <property role="1Intyy" value="true" />
