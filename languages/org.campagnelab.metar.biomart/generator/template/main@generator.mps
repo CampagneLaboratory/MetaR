@@ -1601,21 +1601,26 @@
           <node concept="3zFVjK" id="1UH1ei5nqAg" role="3zH0cK">
             <node concept="3clFbS" id="1UH1ei5nqAh" role="2VODD2">
               <node concept="3cpWs6" id="1UH1ei5nqAi" role="3cqZAp">
-                <node concept="3cpWs3" id="1UH1ei5nBNx" role="3cqZAk">
-                  <node concept="Xl_RD" id="1UH1ei5nBUR" role="3uHU7B">
-                    <property role="Xl_RC" value="$" />
+                <node concept="3cpWs3" id="5hNeoNi0cs" role="3cqZAk">
+                  <node concept="Xl_RD" id="5hNeoNi0cy" role="3uHU7w">
+                    <property role="Xl_RC" value="\&quot;" />
                   </node>
-                  <node concept="2OqwBi" id="1UH1ei5nqAl" role="3uHU7w">
-                    <node concept="2OqwBi" id="1UH1ei5nqAm" role="2Oq$k0">
-                      <node concept="30H73N" id="1UH1ei5nqAn" role="2Oq$k0" />
-                      <node concept="3TrEf2" id="1UH1ei5n_hv" role="2OqNvi">
-                        <ref role="3Tt5mk" to="c07g:1UH1ei4cw2o" />
-                      </node>
+                  <node concept="3cpWs3" id="1UH1ei5nBNx" role="3uHU7B">
+                    <node concept="Xl_RD" id="1UH1ei5nBUR" role="3uHU7B">
+                      <property role="Xl_RC" value="$\&quot;" />
                     </node>
-                    <node concept="2qgKlT" id="1UH1ei5nBpC" role="2OqNvi">
-                      <ref role="37wK5l" to="v8sa:6XP3gVdMCs$" resolve="firstColumnWithGroup" />
-                      <node concept="Xl_RD" id="1UH1ei5nBx2" role="37wK5m">
-                        <property role="Xl_RC" value="ID" />
+                    <node concept="2OqwBi" id="1UH1ei5nqAl" role="3uHU7w">
+                      <node concept="2OqwBi" id="1UH1ei5nqAm" role="2Oq$k0">
+                        <node concept="30H73N" id="1UH1ei5nqAn" role="2Oq$k0" />
+                        <node concept="3TrEf2" id="1UH1ei5n_hv" role="2OqNvi">
+                          <ref role="3Tt5mk" to="c07g:1UH1ei4cw2o" />
+                        </node>
+                      </node>
+                      <node concept="2qgKlT" id="1UH1ei5nBpC" role="2OqNvi">
+                        <ref role="37wK5l" to="v8sa:6XP3gVdMCs$" resolve="firstColumnWithGroup" />
+                        <node concept="Xl_RD" id="1UH1ei5nBx2" role="37wK5m">
+                          <property role="Xl_RC" value="ID" />
+                        </node>
                       </node>
                     </node>
                   </node>
