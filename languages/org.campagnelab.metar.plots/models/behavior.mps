@@ -87,6 +87,7 @@
       <concept id="1068498886294" name="jetbrains.mps.baseLanguage.structure.AssignmentExpression" flags="nn" index="37vLTI" />
       <concept id="1225271177708" name="jetbrains.mps.baseLanguage.structure.StringType" flags="in" index="17QB3L" />
       <concept id="1225271283259" name="jetbrains.mps.baseLanguage.structure.NPEEqualsExpression" flags="nn" index="17R0WA" />
+      <concept id="1225271369338" name="jetbrains.mps.baseLanguage.structure.IsEmptyOperation" flags="nn" index="17RlXB" />
       <concept id="1225271408483" name="jetbrains.mps.baseLanguage.structure.IsNotEmptyOperation" flags="nn" index="17RvpY" />
       <concept id="4972933694980447171" name="jetbrains.mps.baseLanguage.structure.BaseVariableDeclaration" flags="ng" index="19Szcq">
         <child id="5680397130376446158" name="type" index="1tU5fm" />
@@ -247,12 +248,95 @@
       </concept>
       <concept id="1203518072036" name="jetbrains.mps.baseLanguage.collections.structure.SmartClosureParameterDeclaration" flags="ig" index="Rh6nW" />
       <concept id="1160600644654" name="jetbrains.mps.baseLanguage.collections.structure.ListCreatorWithInit" flags="nn" index="Tc6Ow" />
+      <concept id="1165525191778" name="jetbrains.mps.baseLanguage.collections.structure.GetFirstOperation" flags="nn" index="1uHKPH" />
       <concept id="1225727723840" name="jetbrains.mps.baseLanguage.collections.structure.FindFirstOperation" flags="nn" index="1z4cxt" />
       <concept id="1202128969694" name="jetbrains.mps.baseLanguage.collections.structure.SelectOperation" flags="nn" index="3$u5V9" />
     </language>
   </registry>
   <node concept="13h7C7" id="3jH$tF$DHjl">
     <ref role="13h7C2" to="jugs:3jH$tF$DBmP" resolve="MAPlot" />
+    <node concept="13i0hz" id="5hNeoO0Owq" role="13h7CS">
+      <property role="TrG5h" value="getColumnGeneName" />
+      <node concept="3Tm1VV" id="5hNeoO0Owr" role="1B3o_S" />
+      <node concept="3clFbS" id="5hNeoO0Ows" role="3clF47">
+        <node concept="3cpWs8" id="5hNeoO0RUu" role="3cqZAp">
+          <node concept="3cpWsn" id="5hNeoO0RUx" role="3cpWs9">
+            <property role="TrG5h" value="geneNameGroupName" />
+            <node concept="17QB3L" id="5hNeoO0RUs" role="1tU5fm" />
+            <node concept="2OqwBi" id="5hNeoNXLXA" role="33vP2m">
+              <node concept="2OqwBi" id="5hNeoNXLEj" role="2Oq$k0">
+                <node concept="13iPFW" id="5hNeoO0Ry1" role="2Oq$k0" />
+                <node concept="3TrEf2" id="5hNeoNXLNo" role="2OqNvi">
+                  <ref role="3Tt5mk" to="jugs:3AJ457wDFB6" />
+                </node>
+              </node>
+              <node concept="3TrcHB" id="5hNeoNXM2k" role="2OqNvi">
+                <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbJ" id="5hNeoO0S4I" role="3cqZAp">
+          <node concept="3clFbS" id="5hNeoO0S4K" role="3clFbx">
+            <node concept="3clFbF" id="5hNeoO0T14" role="3cqZAp">
+              <node concept="37vLTI" id="5hNeoO0T7u" role="3clFbG">
+                <node concept="Xl_RD" id="5hNeoO0T7G" role="37vLTx">
+                  <property role="Xl_RC" value="ID" />
+                </node>
+                <node concept="37vLTw" id="5hNeoO0T12" role="37vLTJ">
+                  <ref role="3cqZAo" node="5hNeoO0RUx" resolve="geneNameGroupName" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="2OqwBi" id="5hNeoO0Skk" role="3clFbw">
+            <node concept="37vLTw" id="5hNeoO0SbT" role="2Oq$k0">
+              <ref role="3cqZAo" node="5hNeoO0RUx" resolve="geneNameGroupName" />
+            </node>
+            <node concept="17RlXB" id="5hNeoO0SVJ" role="2OqNvi" />
+          </node>
+        </node>
+        <node concept="3clFbF" id="5hNeoNYafG" role="3cqZAp">
+          <node concept="2YIFZM" id="5hNeoNYaAG" role="3clFbG">
+            <ref role="37wK5l" to="1mjk:ESqoaSL1vt" resolve="RName" />
+            <ref role="1Pybhc" to="1mjk:ESqoaSL1tG" resolve="NameHelper" />
+            <node concept="2OqwBi" id="5hNeoNY7Uk" role="37wK5m">
+              <node concept="2OqwBi" id="5hNeoNY79K" role="2Oq$k0">
+                <node concept="2OqwBi" id="5hNeoNY6gy" role="2Oq$k0">
+                  <node concept="2OqwBi" id="5hNeoNY5Za" role="2Oq$k0">
+                    <node concept="2OqwBi" id="5hNeoNY5Ny" role="2Oq$k0">
+                      <node concept="2OqwBi" id="5hNeoNY5gV" role="2Oq$k0">
+                        <node concept="13iPFW" id="5hNeoO0RGW" role="2Oq$k0" />
+                        <node concept="3TrEf2" id="5hNeoNY5CM" role="2OqNvi">
+                          <ref role="3Tt5mk" to="jugs:3jH$tF$DBmW" />
+                        </node>
+                      </node>
+                      <node concept="3TrEf2" id="5hNeoNY5SB" role="2OqNvi">
+                        <ref role="3Tt5mk" to="jrxw:2WRhvFtnCb_" />
+                      </node>
+                    </node>
+                    <node concept="3TrEf2" id="5hNeoNY66u" role="2OqNvi">
+                      <ref role="3Tt5mk" to="jrxw:2WRhvFto5FZ" />
+                    </node>
+                  </node>
+                  <node concept="2qgKlT" id="5hNeoNY6F5" role="2OqNvi">
+                    <ref role="37wK5l" to="v8sa:5hNeoNXWkF" resolve="findColumnsWithGroup" />
+                    <node concept="37vLTw" id="5hNeoO0T8h" role="37wK5m">
+                      <ref role="3cqZAo" node="5hNeoO0RUx" resolve="geneNameGroupName" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="1uHKPH" id="5hNeoNY7kH" role="2OqNvi" />
+              </node>
+              <node concept="3TrcHB" id="5hNeoNY8Yl" role="2OqNvi">
+                <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="17QB3L" id="5hNeoO0PqW" role="3clF45" />
+    </node>
     <node concept="13i0hz" id="3AJ457wICpJ" role="13h7CS">
       <property role="TrG5h" value="hasXRange" />
       <node concept="3Tm1VV" id="3AJ457wICpK" role="1B3o_S" />

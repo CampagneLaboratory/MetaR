@@ -159,7 +159,6 @@
         <property id="8962032619593737385" name="id" index="S1EQ6" />
       </concept>
       <concept id="8962032619593737380" name="org.campagnelab.metar.tables.structure.Analysis" flags="ng" index="S1EQb">
-        <property id="2742007948298959018" name="trycatch_enabled" index="2BDq$p" />
         <child id="8962032619593737383" name="statements" index="S1EQ8" />
       </concept>
       <concept id="8962032619593737377" name="org.campagnelab.metar.tables.structure.EmptyLine" flags="ng" index="S1EQe" />
@@ -197,7 +196,7 @@
       <concept id="8459500803719374384" name="org.campagnelab.metar.tables.structure.Plot" flags="ng" index="1FHg$p">
         <property id="8962032619586498917" name="width" index="ZHjxa" />
         <property id="8962032619586499111" name="height" index="ZHjG8" />
-        <property id="4166618652723451261" name="id" index="3ZMXzF" />
+        <property id="4166618652723451261" name="plotId" index="3ZMXzF" />
       </concept>
       <concept id="8459500803719286639" name="org.campagnelab.metar.tables.structure.Heatmap" flags="ng" index="1FHY16">
         <child id="5703306641526697040" name="annotations" index="2thHW" />
@@ -575,7 +574,6 @@
   </node>
   <node concept="S1EQb" id="4DOwJpJMRj1">
     <property role="TrG5h" value="Limma analysis" />
-    <property role="2BDq$p" value="true" />
     <node concept="ZXjPh" id="4DOwJpJMRj2" role="S1EQ8">
       <property role="S1EQ6" value="MEGJPLTCAB" />
       <node concept="S1EQe" id="3W3L4MKjOD2" role="ZXjPg">
@@ -1083,7 +1081,7 @@
       </node>
       <node concept="3giYhJ" id="7eyWL1Lfque" role="ZXjPg">
         <property role="S1EQ6" value="ODLFSKRUXK" />
-        <property role="3ggrk4" value="-10.0" />
+        <property role="3ggrk4" value="-1.0" />
         <property role="3ggrk3" value="0.20" />
         <ref role="3p2qAn" node="4DOwJpJxC5G" resolve="ID" />
         <node concept="3MqhDd" id="7eyWL1LfqA6" role="3giYhA">
@@ -1121,7 +1119,7 @@
         </node>
         <node concept="3giYhJ" id="3AJ457wDErE" role="ZXjPg">
           <property role="S1EQ6" value="JVTURIFARY" />
-          <property role="3ggrk4" value="-15.0" />
+          <property role="3ggrk4" value="-4.0" />
           <property role="3ggrk3" value="0.20" />
           <ref role="3gdQvS" node="3AJ457wH5y$" resolve="GeneList" />
           <ref role="L_9Jz" node="3AJ457wI$NW" resolve="MAPlotStyle" />
