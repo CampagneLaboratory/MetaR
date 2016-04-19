@@ -18,6 +18,7 @@
     <import index="jugs" ref="r:625b65e5-b4a4-428e-a70f-ad13f56d2584(org.campagnelab.metar.plots.structure)" implicit="true" />
     <import index="4tsn" ref="r:97aeaa4f-346d-4633-b5a0-99879648272c(R3_1_3@stubs)" implicit="true" />
     <import index="tp35" ref="r:6c85f813-d079-415b-abe9-4d0021645709(org.campagnelab.metar.plots.behavior)" implicit="true" />
+    <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
@@ -36,6 +37,9 @@
       </concept>
       <concept id="1070475926800" name="jetbrains.mps.baseLanguage.structure.StringLiteral" flags="nn" index="Xl_RD">
         <property id="1070475926801" name="value" index="Xl_RC" />
+      </concept>
+      <concept id="1081236700937" name="jetbrains.mps.baseLanguage.structure.StaticMethodCall" flags="nn" index="2YIFZM">
+        <reference id="1144433194310" name="classConcept" index="1Pybhc" />
       </concept>
       <concept id="1068498886296" name="jetbrains.mps.baseLanguage.structure.VariableReference" flags="nn" index="37vLTw">
         <reference id="1068581517664" name="variableDeclaration" index="3cqZAo" />
@@ -1587,6 +1591,26 @@
                     <property role="gNbhX" value="cex" />
                     <node concept="2PZJpl" id="3jH$tF$DBHA" role="gNbhV">
                       <property role="pzxz_" value="0.5" />
+                      <node concept="17Uvod" id="5hNeoO9L6g" role="lGtFl">
+                        <property role="P4ACc" value="3b58810c-8431-4bbb-99ea-b4671e02dd13/6176023809880707771/1229604057012663941" />
+                        <property role="2qtEX9" value="value" />
+                        <node concept="3zFVjK" id="5hNeoO9L6h" role="3zH0cK">
+                          <node concept="3clFbS" id="5hNeoO9L6i" role="2VODD2">
+                            <node concept="3clFbF" id="5hNeoO9M$5" role="3cqZAp">
+                              <node concept="2YIFZM" id="5hNeoO9MDH" role="3clFbG">
+                                <ref role="37wK5l" to="wyt6:~Float.toString(float):java.lang.String" resolve="toString" />
+                                <ref role="1Pybhc" to="wyt6:~Float" resolve="Float" />
+                                <node concept="2OqwBi" id="5hNeoO9Lw1" role="37wK5m">
+                                  <node concept="30H73N" id="5hNeoO9L6v" role="2Oq$k0" />
+                                  <node concept="2qgKlT" id="5hNeoO9LYV" role="2OqNvi">
+                                    <ref role="37wK5l" to="tp35:5hNeoO9xNB" resolve="getGeneNameSize" />
+                                  </node>
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
                     </node>
                   </node>
                 </node>

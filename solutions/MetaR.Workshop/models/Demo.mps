@@ -95,6 +95,7 @@
       </concept>
     </language>
     <language id="e6c108c3-0009-4034-b684-c506814ba197" name="org.campagnelab.metar.plots">
+      <concept id="95082356240931500" name="org.campagnelab.metar.plots.structure.GeneNameSize" flags="ng" index="Pt1pa" />
       <concept id="3813864828777690549" name="org.campagnelab.metar.plots.structure.MAPlot" flags="ng" index="3giYhJ">
         <property id="3813864828778063065" name="significanceLevelFDR" index="3ggrk3" />
         <property id="3813864828778063070" name="minExpression" index="3ggrk4" />
@@ -2047,6 +2048,10 @@
     <node concept="2Yu7i0" id="3AJ457wIPCp" role="2YPqp2">
       <property role="TrG5h" value="Title" />
       <property role="2Yu1fB" value="MA Plot" />
+    </node>
+    <node concept="Pt1pa" id="5hNeoO9OQR" role="2YPqp2">
+      <property role="TrG5h" value="GeneNameSize" />
+      <property role="2Yu1fB" value="3" />
     </node>
   </node>
 </model>
