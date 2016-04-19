@@ -182,6 +182,9 @@
       <concept id="6176023809880707768" name="org.campagnelab.metar.R.structure.StringLiteralExpr" flags="ng" index="2PZJpm">
         <property id="1229604057012663630" name="value" index="pzxGI" />
       </concept>
+      <concept id="6176023809880707766" name="org.campagnelab.metar.R.structure.ParenthesizedExpr" flags="ng" index="2PZJpo">
+        <child id="1826877622983609859" name="expression" index="3flx67" />
+      </concept>
       <concept id="6176023809880707767" name="org.campagnelab.metar.R.structure.Identifier" flags="ng" index="2PZJpp" />
       <concept id="6176023809880707743" name="org.campagnelab.metar.R.structure.UnaryOperatorExpr" flags="ng" index="2PZJpL">
         <child id="489068675546663434" name="expression" index="22sOXk" />
@@ -404,6 +407,93 @@
                   </node>
                 </node>
               </node>
+              <node concept="2PZJp4" id="5hNeoNViY0" role="13u1kV">
+                <node concept="2PZJpp" id="5hNeoNViY3" role="2v3mow">
+                  <property role="TrG5h" value="inGeneList" />
+                </node>
+                <node concept="2PZJp5" id="5hNeoNViY4" role="2v3moI">
+                  <node concept="2i91V0" id="5hNeoNViY8" role="1LvdYw">
+                    <node concept="2i91V1" id="5hNeoNViY9" role="2i902c">
+                      <property role="TrG5h" value="x" />
+                    </node>
+                  </node>
+                  <node concept="2PZJp3" id="5hNeoNViYa" role="1LvdYI">
+                    <node concept="13u1kU" id="5hNeoNViYc" role="13uv25">
+                      <node concept="2PZJp4" id="5hNeoNViYd" role="13u1kV">
+                        <node concept="2PZJpp" id="5hNeoNViYg" role="2v3mow">
+                          <property role="TrG5h" value="genes" />
+                        </node>
+                        <node concept="2PZJpN" id="5hNeoNViYh" role="2v3moI">
+                          <node concept="2PZJpp" id="5hNeoNViYj" role="2v3mow">
+                            <property role="TrG5h" value="x" />
+                          </node>
+                          <node concept="2PZJpm" id="5hNeoNViYk" role="2v3moI">
+                            <property role="pzxGI" value="HGNC_symbol_from_feature" />
+                          </node>
+                          <node concept="22gcdF" id="5hNeoNViYl" role="22hImy" />
+                        </node>
+                        <node concept="22gccq" id="5hNeoNViYm" role="22hImy" />
+                      </node>
+                      <node concept="2PZJp4" id="5hNeoNViYn" role="13u1kV">
+                        <node concept="2PZJpp" id="5hNeoNViYq" role="2v3mow">
+                          <property role="TrG5h" value="a" />
+                        </node>
+                        <node concept="2PZJpf" id="5hNeoNViYr" role="2v3moI">
+                          <node concept="3ggKTC" id="5hNeoNVk3S" role="22hImy" />
+                          <node concept="1LhYbg" id="5hNeoNVjzh" role="2v3mow">
+                            <ref role="1Li74V" node="5hNeoNViYg" resolve="genes" />
+                          </node>
+                          <node concept="2PZJpp" id="5hNeoNViYu" role="2v3moI">
+                            <property role="TrG5h" value="genelist" />
+                          </node>
+                        </node>
+                        <node concept="22gccq" id="5hNeoNViYv" role="22hImy" />
+                      </node>
+                      <node concept="2PZJp2" id="5hNeoNViYw" role="13u1kV">
+                        <node concept="2PZJp4" id="5hNeoNViY_" role="134Gdo">
+                          <node concept="2PZJpp" id="5hNeoNViYC" role="2v3mow">
+                            <property role="TrG5h" value="b" />
+                          </node>
+                          <node concept="1LhYbg" id="5hNeoNVjxQ" role="2v3moI">
+                            <ref role="1Li74V" to="4tsn:1yhT8VTI$cb" resolve="sapply" />
+                          </node>
+                          <node concept="22gccq" id="5hNeoNViYE" role="22hImy" />
+                        </node>
+                        <node concept="gNbv0" id="5hNeoNViYF" role="134Gdu">
+                          <node concept="V6WaU" id="5hNeoNViYG" role="gNbrm">
+                            <node concept="1LhYbg" id="5hNeoNVjxK" role="gNbhV">
+                              <ref role="1Li74V" node="5hNeoNViYg" resolve="genes" />
+                            </node>
+                          </node>
+                          <node concept="V6WaU" id="5hNeoNViYK" role="gNbrm">
+                            <node concept="1LhYbg" id="5hNeoNVjxT" role="gNbhV">
+                              <ref role="1Li74V" to="4tsn:1yhT8VTIzya" resolve="length" />
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="2PZJp8" id="5hNeoNViYS" role="13u1kV">
+                        <node concept="1LhYbg" id="5hNeoNVjzn" role="2v3mow">
+                          <ref role="1Li74V" node="5hNeoNViYq" resolve="a" />
+                        </node>
+                        <node concept="2PZJpo" id="5hNeoNViYW" role="2v3moI">
+                          <node concept="2PZJpa" id="5hNeoNViYX" role="3flx67">
+                            <node concept="1LhYbg" id="5hNeoNVjzq" role="2v3mow">
+                              <ref role="1Li74V" node="5hNeoNViYC" resolve="b" />
+                            </node>
+                            <node concept="2PZJpk" id="5hNeoNViZ0" role="2v3moI">
+                              <property role="pzxG6" value="0" />
+                            </node>
+                            <node concept="22gcdy" id="5hNeoNViZ1" role="22hImy" />
+                          </node>
+                        </node>
+                        <node concept="22gccs" id="5hNeoNViZ2" role="22hImy" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="22gccq" id="5hNeoNViZ5" role="22hImy" />
+              </node>
               <node concept="2PZJp4" id="3jH$tF$DB$8" role="13u1kV">
                 <node concept="2PZJpp" id="3jH$tF$DB$b" role="2v3mow">
                   <property role="TrG5h" value="sig_gene_idx" />
@@ -586,24 +676,8 @@
                 </node>
                 <node concept="2PZJpN" id="3jH$tF$DB_4" role="2v3moI">
                   <node concept="2PZJpP" id="3jH$tF$DB_7" role="2v3moI">
-                    <node concept="2PZJpp" id="3jH$tF$DB_c" role="3fnAI_">
-                      <property role="TrG5h" value="genes" />
-                      <node concept="17Uvod" id="3AJ457wHiGU" role="lGtFl">
-                        <property role="P4ACc" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/1169194658468/1169194664001" />
-                        <property role="2qtEX9" value="name" />
-                        <node concept="3zFVjK" id="3AJ457wHiGV" role="3zH0cK">
-                          <node concept="3clFbS" id="3AJ457wHiGW" role="2VODD2">
-                            <node concept="3clFbF" id="3AJ457wHiIf" role="3cqZAp">
-                              <node concept="2OqwBi" id="3AJ457wHiJ_" role="3clFbG">
-                                <node concept="1iwH7S" id="3AJ457wHiIe" role="2Oq$k0" />
-                                <node concept="1bhEwm" id="3AJ457wHiLP" role="2OqNvi">
-                                  <ref role="1bhEwk" node="3AJ457wH7uH" resolve="gene" />
-                                </node>
-                              </node>
-                            </node>
-                          </node>
-                        </node>
-                      </node>
+                    <node concept="1LhYbg" id="5hNeoNVSFV" role="3fnAI_">
+                      <ref role="1Li74V" node="5hNeoNViYg" resolve="genes" />
                     </node>
                     <node concept="gNbv0" id="3jH$tF$DB_d" role="3fnAIB">
                       <node concept="V6WaU" id="3jH$tF$DB_e" role="gNbrm">
@@ -682,57 +756,6 @@
                   </node>
                   <node concept="V6WaX" id="3jH$tF$DBCC" role="gNbrm">
                     <property role="gNbhX" value="col" />
-                    <node concept="2PZJp2" id="3jH$tF$DBCF" role="gNbhV">
-                      <node concept="gNbv0" id="3jH$tF$DBCL" role="134Gdu">
-                        <node concept="V6WaU" id="3jH$tF$DBCM" role="gNbrm">
-                          <node concept="2PZJpf" id="3jH$tF$DBCP" role="gNbhV">
-                            <node concept="3ggKTC" id="3jH$tF$PNrk" role="22hImy" />
-                            <node concept="2PZJpN" id="3jH$tF$DBCR" role="2v3mow">
-                              <node concept="2PZJpp" id="3jH$tF$DBCU" role="2v3moI">
-                                <property role="TrG5h" value="genes" />
-                                <node concept="17Uvod" id="3AJ457wHk1E" role="lGtFl">
-                                  <property role="P4ACc" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/1169194658468/1169194664001" />
-                                  <property role="2qtEX9" value="name" />
-                                  <node concept="3zFVjK" id="3AJ457wHk1F" role="3zH0cK">
-                                    <node concept="3clFbS" id="3AJ457wHk1G" role="2VODD2">
-                                      <node concept="3clFbF" id="3AJ457wHk2u" role="3cqZAp">
-                                        <node concept="2OqwBi" id="3AJ457wHk2v" role="3clFbG">
-                                          <node concept="1iwH7S" id="3AJ457wHk2w" role="2Oq$k0" />
-                                          <node concept="1bhEwm" id="3AJ457wHk2x" role="2OqNvi">
-                                            <ref role="1bhEwk" node="3AJ457wH7uH" resolve="gene" />
-                                          </node>
-                                        </node>
-                                      </node>
-                                    </node>
-                                  </node>
-                                </node>
-                              </node>
-                              <node concept="22gcdF" id="3jH$tF$DBCV" role="22hImy" />
-                              <node concept="1LhYbg" id="3jH$tF$DUcK" role="2v3mow">
-                                <ref role="1Li74V" to="4tsn:1yhT8VTI$zP" resolve="table" />
-                              </node>
-                            </node>
-                            <node concept="1LhYbg" id="3jH$tF$DBMZ" role="2v3moI">
-                              <ref role="1Li74V" node="3jH$tF$DB_3" resolve="sel_genes" />
-                            </node>
-                          </node>
-                        </node>
-                        <node concept="V6WaU" id="3jH$tF$DBCX" role="gNbrm">
-                          <node concept="2PZJpm" id="3jH$tF$DBD0" role="gNbhV">
-                            <property role="pzxGI" value="red" />
-                          </node>
-                        </node>
-                        <node concept="V6WaU" id="3jH$tF$DBD1" role="gNbrm">
-                          <node concept="2PZJpm" id="3jH$tF$DBD4" role="gNbhV">
-                            <property role="pzxGI" value="black" />
-                          </node>
-                        </node>
-                      </node>
-                      <node concept="3a69Ir" id="3jH$tF$DBO7" role="134Gdo">
-                        <ref role="3a69Pm" to="4tsn:1yhT8VTIzmW" />
-                        <ref role="1Li74V" to="4tsn:1yhT8VTIzmV" resolve="ifelse" />
-                      </node>
-                    </node>
                   </node>
                   <node concept="V6WaX" id="3jH$tF$DBD5" role="gNbrm">
                     <property role="gNbhX" value="pch" />
@@ -742,24 +765,8 @@
                           <node concept="2PZJpf" id="3jH$tF$DBDi" role="gNbhV">
                             <node concept="3ggKTC" id="3jH$tF$PNrm" role="22hImy" />
                             <node concept="2PZJpN" id="3jH$tF$DBDk" role="2v3mow">
-                              <node concept="2PZJpp" id="3jH$tF$DBDn" role="2v3moI">
-                                <property role="TrG5h" value="genes" />
-                                <node concept="17Uvod" id="3AJ457wHk4G" role="lGtFl">
-                                  <property role="P4ACc" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/1169194658468/1169194664001" />
-                                  <property role="2qtEX9" value="name" />
-                                  <node concept="3zFVjK" id="3AJ457wHk4H" role="3zH0cK">
-                                    <node concept="3clFbS" id="3AJ457wHk4I" role="2VODD2">
-                                      <node concept="3clFbF" id="3AJ457wHk5w" role="3cqZAp">
-                                        <node concept="2OqwBi" id="3AJ457wHk5x" role="3clFbG">
-                                          <node concept="1iwH7S" id="3AJ457wHk5y" role="2Oq$k0" />
-                                          <node concept="1bhEwm" id="3AJ457wHk5z" role="2OqNvi">
-                                            <ref role="1bhEwk" node="3AJ457wH7uH" resolve="gene" />
-                                          </node>
-                                        </node>
-                                      </node>
-                                    </node>
-                                  </node>
-                                </node>
+                              <node concept="1LhYbg" id="5hNeoNVTb$" role="2v3moI">
+                                <ref role="1Li74V" node="5hNeoNViYg" resolve="genes" />
                               </node>
                               <node concept="22gcdF" id="3jH$tF$DBDo" role="22hImy" />
                               <node concept="1LhYbg" id="3jH$tF$DUrI" role="2v3mow">
@@ -796,24 +803,8 @@
                           <node concept="2PZJpf" id="3jH$tF$DBDJ" role="gNbhV">
                             <node concept="3ggKTC" id="3jH$tF$PNro" role="22hImy" />
                             <node concept="2PZJpN" id="3jH$tF$DBDL" role="2v3mow">
-                              <node concept="2PZJpp" id="3jH$tF$DBDO" role="2v3moI">
-                                <property role="TrG5h" value="genes" />
-                                <node concept="17Uvod" id="3AJ457wHk6T" role="lGtFl">
-                                  <property role="P4ACc" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/1169194658468/1169194664001" />
-                                  <property role="2qtEX9" value="name" />
-                                  <node concept="3zFVjK" id="3AJ457wHk6U" role="3zH0cK">
-                                    <node concept="3clFbS" id="3AJ457wHk6V" role="2VODD2">
-                                      <node concept="3clFbF" id="3AJ457wHk7H" role="3cqZAp">
-                                        <node concept="2OqwBi" id="3AJ457wHk7I" role="3clFbG">
-                                          <node concept="1iwH7S" id="3AJ457wHk7J" role="2Oq$k0" />
-                                          <node concept="1bhEwm" id="3AJ457wHk7K" role="2OqNvi">
-                                            <ref role="1bhEwk" node="3AJ457wH7uH" resolve="gene" />
-                                          </node>
-                                        </node>
-                                      </node>
-                                    </node>
-                                  </node>
-                                </node>
+                              <node concept="1LhYbg" id="5hNeoNVTbu" role="2v3moI">
+                                <ref role="1Li74V" node="5hNeoNViYg" resolve="genes" />
                               </node>
                               <node concept="22gcdF" id="3jH$tF$DBDP" role="22hImy" />
                               <node concept="1LhYbg" id="3jH$tF$DUA_" role="2v3mow">
@@ -1292,24 +1283,8 @@
                       <node concept="gNbv0" id="3jH$tF$DBGa" role="134Gdu">
                         <node concept="V6WaU" id="3jH$tF$DBGb" role="gNbrm">
                           <node concept="2PZJpN" id="3jH$tF$DBGe" role="gNbhV">
-                            <node concept="2PZJpp" id="3jH$tF$DBGh" role="2v3moI">
-                              <property role="TrG5h" value="genes" />
-                              <node concept="17Uvod" id="3AJ457wHkae" role="lGtFl">
-                                <property role="P4ACc" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/1169194658468/1169194664001" />
-                                <property role="2qtEX9" value="name" />
-                                <node concept="3zFVjK" id="3AJ457wHkaf" role="3zH0cK">
-                                  <node concept="3clFbS" id="3AJ457wHkag" role="2VODD2">
-                                    <node concept="3clFbF" id="3AJ457wHkaw" role="3cqZAp">
-                                      <node concept="2OqwBi" id="3AJ457wHkax" role="3clFbG">
-                                        <node concept="1iwH7S" id="3AJ457wHkay" role="2Oq$k0" />
-                                        <node concept="1bhEwm" id="3AJ457wHkaz" role="2OqNvi">
-                                          <ref role="1bhEwk" node="3AJ457wH7uH" resolve="gene" />
-                                        </node>
-                                      </node>
-                                    </node>
-                                  </node>
-                                </node>
-                              </node>
+                            <node concept="1LhYbg" id="5hNeoNVjy2" role="2v3moI">
+                              <ref role="1Li74V" node="5hNeoNViYg" resolve="genes" />
                             </node>
                             <node concept="22gcdF" id="3jH$tF$DBGi" role="22hImy" />
                             <node concept="1LhYbg" id="3jH$tF$DUMB" role="2v3mow">
@@ -1339,24 +1314,8 @@
                         <node concept="2PZJpf" id="1c1rOX4Hpzd" role="2v3mow">
                           <node concept="3ggKTC" id="1c1rOX4Hpze" role="22hImy" />
                           <node concept="2PZJpN" id="1c1rOX4Hpzf" role="2v3mow">
-                            <node concept="2PZJpp" id="1c1rOX4Hpzg" role="2v3moI">
-                              <property role="TrG5h" value="genes" />
-                              <node concept="17Uvod" id="1c1rOX4Hpzh" role="lGtFl">
-                                <property role="P4ACc" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/1169194658468/1169194664001" />
-                                <property role="2qtEX9" value="name" />
-                                <node concept="3zFVjK" id="1c1rOX4Hpzi" role="3zH0cK">
-                                  <node concept="3clFbS" id="1c1rOX4Hpzj" role="2VODD2">
-                                    <node concept="3clFbF" id="1c1rOX4Hpzk" role="3cqZAp">
-                                      <node concept="2OqwBi" id="1c1rOX4Hpzl" role="3clFbG">
-                                        <node concept="1iwH7S" id="1c1rOX4Hpzm" role="2Oq$k0" />
-                                        <node concept="1bhEwm" id="1c1rOX4Hpzn" role="2OqNvi">
-                                          <ref role="1bhEwk" node="3AJ457wH7uH" resolve="gene" />
-                                        </node>
-                                      </node>
-                                    </node>
-                                  </node>
-                                </node>
-                              </node>
+                            <node concept="1LhYbg" id="5hNeoNVjxN" role="2v3moI">
+                              <ref role="1Li74V" node="5hNeoNViYg" resolve="genes" />
                             </node>
                             <node concept="22gcdF" id="1c1rOX4Hpzo" role="22hImy" />
                             <node concept="1LhYbg" id="1c1rOX4Hpzp" role="2v3mow">
@@ -1370,8 +1329,8 @@
                         <node concept="2PZJpf" id="1c1rOX4Hpzr" role="2v3moI">
                           <node concept="3ggKTC" id="1c1rOX4Hpzs" role="22hImy" />
                           <node concept="2PZJpN" id="1c1rOX4Hpzt" role="2v3mow">
-                            <node concept="2PZJpp" id="1c1rOX4Hpzu" role="2v3moI">
-                              <property role="TrG5h" value="genes" />
+                            <node concept="1LhYbg" id="5hNeoNVjxH" role="2v3moI">
+                              <ref role="1Li74V" node="5hNeoNViYg" resolve="genes" />
                             </node>
                             <node concept="22gcdF" id="1c1rOX4Hpzv" role="22hImy" />
                             <node concept="1LhYbg" id="1c1rOX4Hpzw" role="2v3mow">
@@ -1406,24 +1365,8 @@
                 </node>
                 <node concept="2PZJpN" id="3jH$tF$DBGS" role="2v3moI">
                   <node concept="2PZJpP" id="3jH$tF$DBGV" role="2v3moI">
-                    <node concept="2PZJpp" id="3jH$tF$DBH0" role="3fnAI_">
-                      <property role="TrG5h" value="genes" />
-                      <node concept="17Uvod" id="3AJ457wHken" role="lGtFl">
-                        <property role="P4ACc" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/1169194658468/1169194664001" />
-                        <property role="2qtEX9" value="name" />
-                        <node concept="3zFVjK" id="3AJ457wHkeo" role="3zH0cK">
-                          <node concept="3clFbS" id="3AJ457wHkep" role="2VODD2">
-                            <node concept="3clFbF" id="3AJ457wHkfb" role="3cqZAp">
-                              <node concept="2OqwBi" id="3AJ457wHkfc" role="3clFbG">
-                                <node concept="1iwH7S" id="3AJ457wHkfd" role="2Oq$k0" />
-                                <node concept="1bhEwm" id="3AJ457wHkfe" role="2OqNvi">
-                                  <ref role="1bhEwk" node="3AJ457wH7uH" resolve="gene" />
-                                </node>
-                              </node>
-                            </node>
-                          </node>
-                        </node>
-                      </node>
+                    <node concept="1LhYbg" id="5hNeoNVjzk" role="3fnAI_">
+                      <ref role="1Li74V" node="5hNeoNViYg" resolve="genes" />
                     </node>
                     <node concept="gNbv0" id="3jH$tF$DBH1" role="3fnAIB">
                       <node concept="V6WaU" id="3jH$tF$DBH2" role="gNbrm">
