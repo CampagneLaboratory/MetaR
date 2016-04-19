@@ -3,6 +3,13 @@
   <persistence version="9" />
   <languages>
     <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="1" />
+    <use id="31c91def-a131-41a1-9018-102874f49a12" name="de.slisson.mps.editor.multiline" version="0" />
+    <use id="443f4c36-fcf5-4eb6-9500-8d06ed259e3e" name="jetbrains.mps.baseLanguage.classifiers" version="0" />
+    <use id="13744753-c81f-424a-9c1b-cf8943bf4e86" name="jetbrains.mps.lang.sharedConcepts" version="0" />
+    <use id="ed6d7656-532c-4bc2-81d1-af945aeb8280" name="jetbrains.mps.baseLanguage.blTypes" version="0" />
+    <use id="9ded098b-ad6a-4657-bfd9-48636cfe8bc3" name="jetbrains.mps.lang.traceable" version="0" />
+    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="3" />
+    <use id="aee9cad2-acd4-4608-aef2-0004f6a1cdbd" name="jetbrains.mps.lang.actions" version="0" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -171,13 +178,6 @@
       <property role="20lbJX" value="0..1" />
       <ref role="20lvS9" node="5mPDeVwiPap" resolve="Expr" />
     </node>
-  </node>
-  <node concept="1TIwiD" id="5mPDeVwiPaw">
-    <property role="TrG5h" value="ColonExpr" />
-    <property role="OYydz" value="Colon" />
-    <property role="34LRSv" value=":" />
-    <property role="1pbfSe" value="906033038" />
-    <ref role="1TJDcQ" node="5qM9mr9JOd5" resolve="BinaryOperatorExpr" />
   </node>
   <node concept="1TIwiD" id="5mPDeVwiPax">
     <property role="TrG5h" value="USER_OPExpr" />
@@ -1224,6 +1224,17 @@
     <property role="34LRSv" value="%in%" />
     <property role="R4oN_" value="Match operator" />
     <ref role="1TJDcQ" node="r9xlU4zQ8W" resolve="BinaryOperator" />
+  </node>
+  <node concept="1TIwiD" id="5hNeoO4wjd">
+    <property role="1pbfSe" value="895734195" />
+    <property role="TrG5h" value="CommentExpr" />
+    <property role="34LRSv" value="#" />
+    <property role="R4oN_" value="Comment" />
+    <ref role="1TJDcQ" node="5mPDeVwiPap" resolve="Expr" />
+    <node concept="1TJgyi" id="5hNeoO4wje" role="1TKVEl">
+      <property role="TrG5h" value="text" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
   </node>
 </model>
 
