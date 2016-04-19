@@ -1082,7 +1082,7 @@
       <node concept="3giYhJ" id="7eyWL1Lfque" role="ZXjPg">
         <property role="S1EQ6" value="ODLFSKRUXK" />
         <property role="3ggrk4" value="-1.0" />
-        <property role="3ggrk3" value="0.20" />
+        <property role="3ggrk3" value="0.05" />
         <ref role="3p2qAn" node="4DOwJpJxC5G" resolve="ID" />
         <node concept="3MqhDd" id="7eyWL1LfqA6" role="3giYhA">
           <ref role="3Mqssv" node="1EG$v9O98sn" resolve="Results" />
@@ -1120,7 +1120,7 @@
         <node concept="3giYhJ" id="3AJ457wDErE" role="ZXjPg">
           <property role="S1EQ6" value="JVTURIFARY" />
           <property role="3ggrk4" value="-4.0" />
-          <property role="3ggrk3" value="0.20" />
+          <property role="3ggrk3" value="0.05" />
           <ref role="3gdQvS" node="3AJ457wH5y$" resolve="GeneList" />
           <ref role="L_9Jz" node="3AJ457wI$NW" resolve="MAPlotStyle" />
           <ref role="3p2qAn" node="4DOwJpJxC5G" resolve="ID" />
@@ -1933,7 +1933,7 @@
         <property role="S1EQ6" value="PQKWSTIQCK" />
         <property role="313rra" value="1" />
         <property role="313rrk" value="1" />
-        <property role="31lnkE" value="false" />
+        <property role="31lnkE" value="true" />
         <node concept="31becx" id="4r50q8aI6GK" role="312phR">
           <ref role="312p7B" node="4r50q8aI6GB" resolve="plot" />
         </node>
