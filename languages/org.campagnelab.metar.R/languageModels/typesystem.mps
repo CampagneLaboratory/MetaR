@@ -77,6 +77,9 @@
       <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
       </concept>
+      <concept id="1068580123137" name="jetbrains.mps.baseLanguage.structure.BooleanConstant" flags="nn" index="3clFbT">
+        <property id="1068580123138" name="value" index="3clFbU" />
+      </concept>
       <concept id="1068581242875" name="jetbrains.mps.baseLanguage.structure.PlusExpression" flags="nn" index="3cpWs3" />
       <concept id="1068581242878" name="jetbrains.mps.baseLanguage.structure.ReturnStatement" flags="nn" index="3cpWs6" />
       <concept id="1068581242864" name="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" flags="nn" index="3cpWs8">
@@ -1837,6 +1840,69 @@
           </node>
         </node>
       </node>
+      <node concept="3clFbJ" id="Rvx4zTk0Sj" role="3cqZAp">
+        <node concept="3clFbS" id="Rvx4zTk0Sl" role="3clFbx">
+          <node concept="a7r0C" id="Rvx4zTkFFR" role="3cqZAp">
+            <node concept="1YBJjd" id="Rvx4zTkFKz" role="2OEOjV">
+              <ref role="1YBMHb" node="1cI4GX2OSkT" resolve="stringLiteralExpr" />
+            </node>
+            <node concept="Xl_RD" id="Rvx4zTkBog" role="a7wSD">
+              <property role="Xl_RC" value="PathVariable is not enabled for this literal, yet it contains ${" />
+            </node>
+            <node concept="3Cnw8n" id="Rvx4zTkK7N" role="2OEOjU">
+              <ref role="QpYPw" node="Rvx4zTkJFJ" resolve="EnableSubstitutePathVariables" />
+              <node concept="3CnSsL" id="Rvx4zTkKbe" role="3Coj4f">
+                <ref role="QkamJ" node="Rvx4zTkJFW" resolve="stringLiteral" />
+                <node concept="1YBJjd" id="Rvx4zTkKbw" role="3CoRuB">
+                  <ref role="1YBMHb" node="1cI4GX2OSkT" resolve="stringLiteralExpr" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1Wc70l" id="Rvx4zTk7P0" role="3clFbw">
+          <node concept="2OqwBi" id="Rvx4zTk1wj" role="3uHU7w">
+            <node concept="2OqwBi" id="Rvx4zTk1fM" role="2Oq$k0">
+              <node concept="1YBJjd" id="Rvx4zTk1dD" role="2Oq$k0">
+                <ref role="1YBMHb" node="1cI4GX2OSkT" resolve="stringLiteralExpr" />
+              </node>
+              <node concept="3TrcHB" id="Rvx4zTk1oN" role="2OqNvi">
+                <ref role="3TsBF5" to="6q58:14grA08BBle" resolve="value" />
+              </node>
+            </node>
+            <node concept="liA8E" id="Rvx4zTk1Hv" role="2OqNvi">
+              <ref role="37wK5l" to="wyt6:~String.contains(java.lang.CharSequence):boolean" resolve="contains" />
+              <node concept="Xl_RD" id="Rvx4zTk1Kl" role="37wK5m">
+                <property role="Xl_RC" value="${" />
+              </node>
+            </node>
+          </node>
+          <node concept="1Wc70l" id="Rvx4zTk1aH" role="3uHU7B">
+            <node concept="3fqX7Q" id="Rvx4zTk13m" role="3uHU7B">
+              <node concept="2OqwBi" id="Rvx4zTk13o" role="3fr31v">
+                <node concept="1YBJjd" id="Rvx4zTk13p" role="2Oq$k0">
+                  <ref role="1YBMHb" node="1cI4GX2OSkT" resolve="stringLiteralExpr" />
+                </node>
+                <node concept="3TrcHB" id="Rvx4zTk13q" role="2OqNvi">
+                  <ref role="3TsBF5" to="6q58:Rvx4zTj4Wr" resolve="substitutePathVariables" />
+                </node>
+              </node>
+            </node>
+            <node concept="2OqwBi" id="Rvx4zTk89V" role="3uHU7w">
+              <node concept="2OqwBi" id="Rvx4zTk7VT" role="2Oq$k0">
+                <node concept="1YBJjd" id="Rvx4zTk7ST" role="2Oq$k0">
+                  <ref role="1YBMHb" node="1cI4GX2OSkT" resolve="stringLiteralExpr" />
+                </node>
+                <node concept="3TrcHB" id="Rvx4zTk81R" role="2OqNvi">
+                  <ref role="3TsBF5" to="6q58:14grA08BBle" resolve="value" />
+                </node>
+              </node>
+              <node concept="17RvpY" id="Rvx4zTk8na" role="2OqNvi" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3clFbH" id="Rvx4zTkBkN" role="3cqZAp" />
     </node>
     <node concept="1YaCAy" id="1cI4GX2OSkT" role="1YuTPh">
       <property role="TrG5h" value="stringLiteralExpr" />
@@ -2084,6 +2150,43 @@
         <node concept="3clFbF" id="1c1rOX4Etni" role="3cqZAp">
           <node concept="Xl_RD" id="1c1rOX4Etnh" role="3clFbG">
             <property role="Xl_RC" value="Rebalance Twisted Function Call" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="Q5z_Y" id="Rvx4zTkJFJ">
+    <property role="TrG5h" value="EnableSubstitutePathVariables" />
+    <node concept="Q6JDH" id="Rvx4zTkJFW" role="Q6Id_">
+      <property role="TrG5h" value="stringLiteral" />
+      <node concept="3Tqbb2" id="Rvx4zTkJG4" role="Q6QK4">
+        <ref role="ehGHo" to="6q58:5mPDeVwiPaS" resolve="StringLiteralExpr" />
+      </node>
+    </node>
+    <node concept="Q5ZZ6" id="Rvx4zTkJFK" role="Q6x$H">
+      <node concept="3clFbS" id="Rvx4zTkJFL" role="2VODD2">
+        <node concept="3clFbF" id="Rvx4zTkJRT" role="3cqZAp">
+          <node concept="37vLTI" id="Rvx4zTkK5O" role="3clFbG">
+            <node concept="3clFbT" id="Rvx4zTkK6q" role="37vLTx">
+              <property role="3clFbU" value="true" />
+            </node>
+            <node concept="2OqwBi" id="Rvx4zTkJTx" role="37vLTJ">
+              <node concept="QwW4i" id="Rvx4zTkJRR" role="2Oq$k0">
+                <ref role="QwW4h" node="Rvx4zTkJFW" resolve="stringLiteral" />
+              </node>
+              <node concept="3TrcHB" id="Rvx4zTkK0d" role="2OqNvi">
+                <ref role="3TsBF5" to="6q58:Rvx4zTj4Wr" resolve="substitutePathVariables" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="QznSV" id="Rvx4zTkKcC" role="QzAvj">
+      <node concept="3clFbS" id="Rvx4zTkKcD" role="2VODD2">
+        <node concept="3clFbF" id="Rvx4zTkKdO" role="3cqZAp">
+          <node concept="Xl_RD" id="Rvx4zTkKdN" role="3clFbG">
+            <property role="Xl_RC" value="Turn Sustitute path Variables On" />
           </node>
         </node>
       </node>
