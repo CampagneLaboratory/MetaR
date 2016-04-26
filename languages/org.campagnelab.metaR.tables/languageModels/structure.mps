@@ -2420,5 +2420,20 @@
     <property role="1pbfSe" value="420543485" />
     <property role="TrG5h" value="IListenOnPort" />
   </node>
+  <node concept="1TIwiD" id="Rvx4zTljUC">
+    <property role="1pbfSe" value="120898288" />
+    <property role="3GE5qa" value="histogram" />
+    <property role="TrG5h" value="NumberOfBins" />
+    <property role="34LRSv" value="Number of Bins" />
+    <ref role="1TJDcQ" to="onla:32mm940cvTX" resolve="IntegerStyleClass" />
+  </node>
+  <node concept="1TIwiD" id="Rvx4zTv0JI">
+    <property role="1pbfSe" value="123441206" />
+    <property role="3GE5qa" value="histogram" />
+    <property role="TrG5h" value="Probabilities" />
+    <property role="34LRSv" value="Probabilities" />
+    <property role="R4oN_" value="Normalize bar height to 1.0" />
+    <ref role="1TJDcQ" to="onla:2od$re07i$x" resolve="BooleanStyleClass" />
+  </node>
 </model>
 

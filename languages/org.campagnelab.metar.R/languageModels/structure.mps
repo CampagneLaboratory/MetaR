@@ -457,6 +457,10 @@
       <property role="TrG5h" value="value" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
+    <node concept="1TJgyi" id="Rvx4zTj4Wr" role="1TKVEl">
+      <property role="TrG5h" value="substitutePathVariables" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
   </node>
   <node concept="1TIwiD" id="5mPDeVwiPaT">
     <property role="TrG5h" value="HexLiteralExpr" />

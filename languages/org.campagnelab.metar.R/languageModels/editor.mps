@@ -865,6 +865,16 @@
         </node>
       </node>
     </node>
+    <node concept="3EZMnI" id="Rvx4zTj4Ww" role="6VMZX">
+      <node concept="l2Vlx" id="Rvx4zTj4Wx" role="2iSdaV" />
+      <node concept="3F0ifn" id="Rvx4zTj4WA" role="3EZMnx">
+        <property role="3F0ifm" value="substitute path variables?" />
+        <node concept="Vb9p2" id="Rvx4zTj55M" role="3F10Kt" />
+      </node>
+      <node concept="3F0A7n" id="Rvx4zTj4WI" role="3EZMnx">
+        <ref role="1NtTu8" to="6q58:Rvx4zTj4Wr" resolve="substitutePathVariables" />
+      </node>
+    </node>
   </node>
   <node concept="24kQdi" id="1AEWcufPk9F">
     <ref role="1XX52x" to="6q58:5mPDeVwiPaT" resolve="HexLiteralExpr" />
