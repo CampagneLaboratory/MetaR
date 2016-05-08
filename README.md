@@ -11,3 +11,6 @@ The following snapshot illustrates how metaR simplifies data analysis: we call d
 
 ![MetaR snapshot](http://campagnelab.org/files/MetaR_Better_Snapshot.png)
 
+
+
+[![Join the chat at https://gitter.im/CampagneLaboratory/MetaR](https://badges.gitter.im/CampagneLaboratory/MetaR.svg)](https://gitter.im/CampagneLaboratory/MetaR?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
