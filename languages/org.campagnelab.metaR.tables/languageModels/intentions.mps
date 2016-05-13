@@ -22,6 +22,7 @@
     <import index="cj4x" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor(MPS.Editor/)" />
     <import index="p6sl" ref="r:175e6779-7e81-49b1-b295-33bbabafa8d6(org.campagnelab.textoutput.structure)" />
     <import index="x7of" ref="r:437ca43c-6323-49fb-979f-681501286fcd(org.campagnelab.metar.code.annotations)" />
+    <import index="18ew" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.util(MPS.Core/)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
   </imports>
@@ -62,6 +63,9 @@
       </concept>
       <concept id="1070475926800" name="jetbrains.mps.baseLanguage.structure.StringLiteral" flags="nn" index="Xl_RD">
         <property id="1070475926801" name="value" index="Xl_RC" />
+      </concept>
+      <concept id="1081236700937" name="jetbrains.mps.baseLanguage.structure.StaticMethodCall" flags="nn" index="2YIFZM">
+        <reference id="1144433194310" name="classConcept" index="1Pybhc" />
       </concept>
       <concept id="1070534058343" name="jetbrains.mps.baseLanguage.structure.NullLiteral" flags="nn" index="10Nm6u" />
       <concept id="1070534760951" name="jetbrains.mps.baseLanguage.structure.ArrayType" flags="in" index="10Q1$e">
@@ -2515,6 +2519,94 @@
               <node concept="2Sf5sV" id="2OXkbjPkvOw" role="2Oq$k0" />
               <node concept="3TrcHB" id="2OXkbjPkwaf" role="2OqNvi">
                 <ref role="3TsBF5" to="jrxw:2OXkbjPksM8" resolve="hasRandomSlope" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2S6QgY" id="56wP_0Z1N42">
+    <property role="TrG5h" value="ShrinkTablePath" />
+    <ref role="2ZfgGC" to="jrxw:2WRhvFtkykN" resolve="Table" />
+    <node concept="2S6ZIM" id="56wP_0Z1N43" role="2ZfVej">
+      <node concept="3clFbS" id="56wP_0Z1N44" role="2VODD2">
+        <node concept="3clFbF" id="56wP_0Z18W8" role="3cqZAp">
+          <node concept="3cpWs3" id="56wP_0Z193V" role="3clFbG">
+            <node concept="Xl_RD" id="56wP_0Z18W7" role="3uHU7B">
+              <property role="Xl_RC" value="Shrink to " />
+            </node>
+            <node concept="2OqwBi" id="56wP_0Z195q" role="3uHU7w">
+              <node concept="2YIFZM" id="56wP_0Z195r" role="2Oq$k0">
+                <ref role="37wK5l" to="18ew:~MacrosFactory.getGlobal():jetbrains.mps.util.MacroHelper" resolve="getGlobal" />
+                <ref role="1Pybhc" to="18ew:~MacrosFactory" resolve="MacrosFactory" />
+              </node>
+              <node concept="liA8E" id="56wP_0Z195s" role="2OqNvi">
+                <ref role="37wK5l" to="18ew:~MacroHelper.shrinkPath(java.lang.String):java.lang.String" resolve="shrinkPath" />
+                <node concept="2OqwBi" id="56wP_0Z195t" role="37wK5m">
+                  <node concept="2Sf5sV" id="56wP_0Z195u" role="2Oq$k0" />
+                  <node concept="3TrcHB" id="56wP_0Z195v" role="2OqNvi">
+                    <ref role="3TsBF5" to="ztlb:1UijAvvb9DM" resolve="path" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2Sbjvc" id="56wP_0Z1N45" role="2ZfgGD">
+      <node concept="3clFbS" id="56wP_0Z1N46" role="2VODD2">
+        <node concept="3clFbF" id="56wP_0Z16ln" role="3cqZAp">
+          <node concept="37vLTI" id="56wP_0Z18T0" role="3clFbG">
+            <node concept="2OqwBi" id="56wP_0Z18pE" role="37vLTJ">
+              <node concept="2Sf5sV" id="56wP_0Z18m8" role="2Oq$k0" />
+              <node concept="3TrcHB" id="56wP_0Z18GC" role="2OqNvi">
+                <ref role="3TsBF5" to="jrxw:w5znaeSg5k" resolve="pathToResolve" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="56wP_0Z16s4" role="37vLTx">
+              <node concept="2YIFZM" id="56wP_0Z16qr" role="2Oq$k0">
+                <ref role="1Pybhc" to="18ew:~MacrosFactory" resolve="MacrosFactory" />
+                <ref role="37wK5l" to="18ew:~MacrosFactory.getGlobal():jetbrains.mps.util.MacroHelper" resolve="getGlobal" />
+              </node>
+              <node concept="liA8E" id="56wP_0Z16_8" role="2OqNvi">
+                <ref role="37wK5l" to="18ew:~MacroHelper.shrinkPath(java.lang.String):java.lang.String" resolve="shrinkPath" />
+                <node concept="2OqwBi" id="56wP_0Z16Fj" role="37wK5m">
+                  <node concept="2Sf5sV" id="56wP_0Z16Aa" role="2Oq$k0" />
+                  <node concept="3TrcHB" id="56wP_0Z16ZX" role="2OqNvi">
+                    <ref role="3TsBF5" to="ztlb:1UijAvvb9DM" resolve="path" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2SaL7w" id="56wP_0Z1Nmu" role="2ZfVeh">
+      <node concept="3clFbS" id="56wP_0Z1Nmv" role="2VODD2">
+        <node concept="3cpWs6" id="56wP_0Z18ed" role="3cqZAp">
+          <node concept="17QLQc" id="56wP_0Z18ee" role="3cqZAk">
+            <node concept="2OqwBi" id="56wP_0Z18ef" role="3uHU7w">
+              <node concept="2Sf5sV" id="56wP_0Z18eg" role="2Oq$k0" />
+              <node concept="3TrcHB" id="56wP_0Z18eh" role="2OqNvi">
+                <ref role="3TsBF5" to="ztlb:1UijAvvb9DM" resolve="path" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="56wP_0Z18ei" role="3uHU7B">
+              <node concept="2YIFZM" id="56wP_0Z18ej" role="2Oq$k0">
+                <ref role="37wK5l" to="18ew:~MacrosFactory.getGlobal():jetbrains.mps.util.MacroHelper" resolve="getGlobal" />
+                <ref role="1Pybhc" to="18ew:~MacrosFactory" resolve="MacrosFactory" />
+              </node>
+              <node concept="liA8E" id="56wP_0Z18ek" role="2OqNvi">
+                <ref role="37wK5l" to="18ew:~MacroHelper.shrinkPath(java.lang.String):java.lang.String" resolve="shrinkPath" />
+                <node concept="2OqwBi" id="56wP_0Z18el" role="37wK5m">
+                  <node concept="2Sf5sV" id="56wP_0Z18em" role="2Oq$k0" />
+                  <node concept="3TrcHB" id="56wP_0Z18en" role="2OqNvi">
+                    <ref role="3TsBF5" to="ztlb:1UijAvvb9DM" resolve="path" />
+                  </node>
+                </node>
               </node>
             </node>
           </node>

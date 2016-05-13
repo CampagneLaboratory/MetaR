@@ -95,7 +95,7 @@
         <child id="1068580123161" name="ifTrue" index="3clFbx" />
         <child id="1206060520071" name="elsifClauses" index="3eNLev" />
       </concept>
-      <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" index="3clFbS">
+      <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
       </concept>
       <concept id="1068580123137" name="jetbrains.mps.baseLanguage.structure.BooleanConstant" flags="nn" index="3clFbT" />
@@ -2522,7 +2522,7 @@
                             <ref role="3cqZAo" node="3l0yXcVioYp" resolve="it" />
                           </node>
                           <node concept="3TrcHB" id="3l0yXcVioYl" role="2OqNvi">
-                            <ref role="3TsBF5" to="jrxw:3BiNpr66hlX" resolve="id" />
+                            <ref role="3TsBF5" to="jrxw:3BiNpr66hlX" resolve="plotId" />
                           </node>
                         </node>
                         <node concept="2OqwBi" id="3l0yXcVioYm" role="3uHU7w">
@@ -2530,7 +2530,7 @@
                             <ref role="1YBMHb" node="3l0yXcUQVKP" resolve="plot" />
                           </node>
                           <node concept="3TrcHB" id="3l0yXcVioYo" role="2OqNvi">
-                            <ref role="3TsBF5" to="jrxw:3BiNpr66hlX" resolve="id" />
+                            <ref role="3TsBF5" to="jrxw:3BiNpr66hlX" resolve="plotId" />
                           </node>
                         </node>
                       </node>
@@ -2547,6 +2547,57 @@
           </node>
         </node>
       </node>
+      <node concept="3clFbJ" id="2pMaUINZuYu" role="3cqZAp">
+        <node concept="3clFbS" id="2pMaUINZuYw" role="3clFbx">
+          <node concept="a7r0C" id="2pMaUINZzky" role="3cqZAp">
+            <node concept="1YBJjd" id="2pMaUINZznO" role="2OEOjV">
+              <ref role="1YBMHb" node="3l0yXcUQVKP" resolve="plot" />
+            </node>
+            <node concept="Xl_RD" id="2pMaUINZzkU" role="a7wSD">
+              <property role="Xl_RC" value="Plot has no width (define in inspector or style)" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbC" id="2pMaUINZvxh" role="3clFbw">
+          <node concept="3cmrfG" id="2pMaUINZv_z" role="3uHU7w">
+            <property role="3cmrfH" value="0" />
+          </node>
+          <node concept="2OqwBi" id="2pMaUINZv1L" role="3uHU7B">
+            <node concept="1YBJjd" id="2pMaUINZuZN" role="2Oq$k0">
+              <ref role="1YBMHb" node="3l0yXcUQVKP" resolve="plot" />
+            </node>
+            <node concept="2qgKlT" id="2pMaUINZvqN" role="2OqNvi">
+              <ref role="37wK5l" to="v8sa:32mm940cTd2" resolve="getWidth" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3clFbJ" id="2pMaUINZzq6" role="3cqZAp">
+        <node concept="3clFbS" id="2pMaUINZzq7" role="3clFbx">
+          <node concept="a7r0C" id="2pMaUINZzq8" role="3cqZAp">
+            <node concept="1YBJjd" id="2pMaUINZzq9" role="2OEOjV">
+              <ref role="1YBMHb" node="3l0yXcUQVKP" resolve="plot" />
+            </node>
+            <node concept="Xl_RD" id="2pMaUINZzqa" role="a7wSD">
+              <property role="Xl_RC" value="Plot has no height (define in inspector or style)" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbC" id="2pMaUINZzqb" role="3clFbw">
+          <node concept="3cmrfG" id="2pMaUINZzqc" role="3uHU7w">
+            <property role="3cmrfH" value="0" />
+          </node>
+          <node concept="2OqwBi" id="2pMaUINZzqd" role="3uHU7B">
+            <node concept="1YBJjd" id="2pMaUINZzqe" role="2Oq$k0">
+              <ref role="1YBMHb" node="3l0yXcUQVKP" resolve="plot" />
+            </node>
+            <node concept="2qgKlT" id="2pMaUINZz_s" role="2OqNvi">
+              <ref role="37wK5l" to="v8sa:32mm940d1rP" resolve="getHeight" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3clFbH" id="2pMaUINZzol" role="3cqZAp" />
     </node>
     <node concept="1YaCAy" id="3l0yXcUQVKP" role="1YuTPh">
       <property role="TrG5h" value="plot" />
@@ -3144,6 +3195,15 @@
     <node concept="1YaCAy" id="5Kw8UUF8UNZ" role="1YuTPh">
       <property role="TrG5h" value="table" />
       <ref role="1YaFvo" to="jrxw:2WRhvFtkykN" resolve="Table" />
+    </node>
+  </node>
+  <node concept="18kY7G" id="2pMaUINZsEr">
+    <property role="TrG5h" value="check_PredictWithModel" />
+    <property role="3GE5qa" value="models" />
+    <node concept="3clFbS" id="2pMaUINZsEs" role="18ibNy" />
+    <node concept="1YaCAy" id="2pMaUINZsEu" role="1YuTPh">
+      <property role="TrG5h" value="predictWithModel" />
+      <ref role="1YaFvo" to="jrxw:2rPl_HNbWJl" resolve="PredictWithModel" />
     </node>
   </node>
 </model>
