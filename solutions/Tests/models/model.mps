@@ -82,7 +82,7 @@
       <concept id="8459500803719374384" name="org.campagnelab.metar.tables.structure.Plot" flags="ng" index="1FHg$p">
         <property id="8962032619586498917" name="width" index="ZHjxa" />
         <property id="8962032619586499111" name="height" index="ZHjG8" />
-        <property id="4166618652723451261" name="id" index="3ZMXzF" />
+        <property id="4166618652723451261" name="plotId" index="3ZMXzF" />
       </concept>
       <concept id="7305682447318387813" name="org.campagnelab.metar.tables.structure.BlockWithTable" flags="ng" index="3JmJcv">
         <child id="7305682447318398315" name="tablesList" index="3JmGCh" />

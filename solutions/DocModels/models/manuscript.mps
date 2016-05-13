@@ -383,7 +383,7 @@
       <concept id="8459500803719374384" name="org.campagnelab.metar.tables.structure.Plot" flags="ng" index="1FHg$p">
         <property id="8962032619586498917" name="width" index="ZHjxa" />
         <property id="8962032619586499111" name="height" index="ZHjG8" />
-        <property id="4166618652723451261" name="id" index="3ZMXzF" />
+        <property id="4166618652723451261" name="plotId" index="3ZMXzF" />
       </concept>
       <concept id="8459500803719286639" name="org.campagnelab.metar.tables.structure.Heatmap" flags="ng" index="1FHY16">
         <child id="5703306641526697040" name="annotations" index="2thHW" />
