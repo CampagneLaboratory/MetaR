@@ -2435,5 +2435,34 @@
     <property role="R4oN_" value="Normalize bar height to 1.0" />
     <ref role="1TJDcQ" to="onla:2od$re07i$x" resolve="BooleanStyleClass" />
   </node>
+  <node concept="1TIwiD" id="6$xxyeHl7xo">
+    <property role="1pbfSe" value="376831611" />
+    <property role="TrG5h" value="TableView" />
+    <property role="3GE5qa" value="view" />
+    <property role="34LRSv" value="tableview" />
+    <property role="R4oN_" value="A visual representation of a table." />
+    <ref role="1TJDcQ" node="7LvyiX4miiC" resolve="Statement" />
+    <node concept="1TJgyi" id="6$xxyeHl7$4" role="1TKVEl">
+      <property role="TrG5h" value="numRows" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
+    <node concept="1TJgyi" id="6$xxyeHl7$6" role="1TKVEl">
+      <property role="TrG5h" value="numColumns" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
+    <node concept="1TJgyi" id="6$xxyeHo_vT" role="1TKVEl">
+      <property role="TrG5h" value="preview" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+    <node concept="1TJgyj" id="6$xxyeHl7zQ" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="tableRef" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="3R5AwWRY9uN" resolve="TableRef" />
+    </node>
+    <node concept="PrWs8" id="6$xxyeH_qHb" role="PzmwI">
+      <ref role="PrY4T" node="7LvyiX4miiF" resolve="StatementDependencies" />
+    </node>
+  </node>
 </model>
 
