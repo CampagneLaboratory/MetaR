@@ -6424,13 +6424,13 @@
   </node>
   <node concept="24kQdi" id="6$xxyeHl7$e">
     <property role="3GE5qa" value="view" />
-    <ref role="1XX52x" to="jrxw:6$xxyeHl7xo" resolve="TableView" />
+    <ref role="1XX52x" to="jrxw:6$xxyeHl7xo" resolve="TablePreview" />
     <node concept="3EZMnI" id="6$xxyeH_xGB" role="2wV5jI">
       <node concept="2iRkQZ" id="6$xxyeH_xGC" role="2iSdaV" />
       <node concept="3EZMnI" id="6$xxyeHo$Uv" role="3EZMnx">
         <node concept="2iRfu4" id="6$xxyeHo$Uw" role="2iSdaV" />
         <node concept="3F0ifn" id="6$xxyeHo$Us" role="3EZMnx">
-          <property role="3F0ifm" value="tableview" />
+          <property role="3F0ifm" value="table preview" />
         </node>
         <node concept="3F0ifn" id="6$xxyeHo_5I" role="3EZMnx">
           <property role="3F0ifm" value="-&gt;" />
@@ -6520,9 +6520,13 @@
             </node>
           </node>
         </node>
+        <node concept="PMmxH" id="5lDNWrJJAiw" role="3EZMnx">
+          <ref role="PMmxG" to="h23j:3edJYE6AOF$" resolve="StyleRefComponent" />
+        </node>
       </node>
       <node concept="3EZMnI" id="6$xxyeH_xQO" role="3EZMnx">
-        <node concept="2iRfu4" id="6$xxyeH_xQP" role="2iSdaV" />
+        <node concept="3F0ifn" id="5lDNWrKbipt" role="3EZMnx" />
+        <node concept="2iRkQZ" id="5lDNWrKbihu" role="2iSdaV" />
         <node concept="3gTLQM" id="6$xxyeH_xMW" role="3EZMnx">
           <node concept="3Fmcul" id="6$xxyeH_xMY" role="3FoqZy">
             <node concept="3clFbS" id="6$xxyeH_xN0" role="2VODD2">
@@ -6549,17 +6553,6 @@
                             </node>
                           </node>
                         </node>
-                      </node>
-                    </node>
-                  </node>
-                  <node concept="34ab3g" id="6$xxyeHHl0A" role="3cqZAp">
-                    <property role="35gtTG" value="warn" />
-                    <node concept="3cpWs3" id="6$xxyeHHlTn" role="34bqiv">
-                      <node concept="37vLTw" id="6$xxyeHHlXl" role="3uHU7w">
-                        <ref role="3cqZAo" node="6$xxyeH_$aB" resolve="url" />
-                      </node>
-                      <node concept="Xl_RD" id="6$xxyeHHl0C" role="3uHU7B">
-                        <property role="Xl_RC" value="Url:" />
                       </node>
                     </node>
                   </node>

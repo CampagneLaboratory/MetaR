@@ -42,7 +42,6 @@
         <child id="1068498886297" name="rValue" index="37vLTx" />
         <child id="1068498886295" name="lValue" index="37vLTJ" />
       </concept>
-      <concept id="1153417849900" name="jetbrains.mps.baseLanguage.structure.GreaterThanOrEqualsExpression" flags="nn" index="2d3UOw" />
       <concept id="4836112446988635817" name="jetbrains.mps.baseLanguage.structure.UndefinedType" flags="in" index="2jxLKc" />
       <concept id="1202948039474" name="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" flags="nn" index="liA8E" />
       <concept id="1154032098014" name="jetbrains.mps.baseLanguage.structure.AbstractLoopStatement" flags="nn" index="2LF5Ji">
@@ -108,6 +107,7 @@
         <child id="1068581242865" name="localVariableDeclaration" index="3cpWs9" />
       </concept>
       <concept id="1068581242863" name="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" flags="nr" index="3cpWsn" />
+      <concept id="1081506762703" name="jetbrains.mps.baseLanguage.structure.GreaterThanExpression" flags="nn" index="3eOSWO" />
       <concept id="1154542696413" name="jetbrains.mps.baseLanguage.structure.ArrayCreatorWithInitializer" flags="nn" index="3g6Rrh">
         <child id="1154542793668" name="componentType" index="3g7fb8" />
         <child id="1154542803372" name="initValue" index="3g7hyw" />
@@ -2301,13 +2301,13 @@
   </node>
   <node concept="1M2fIO" id="6$xxyeHl94g">
     <property role="3GE5qa" value="view" />
-    <ref role="1M2myG" to="jrxw:6$xxyeHl7xo" resolve="TableView" />
+    <ref role="1M2myG" to="jrxw:6$xxyeHl7xo" resolve="TablePreview" />
     <node concept="EnEH3" id="6$xxyeHl94h" role="1MhHOB">
       <ref role="EomxK" to="jrxw:6$xxyeHl7$4" resolve="numRows" />
       <node concept="QB0g5" id="6$xxyeHl94j" role="QCWH9">
         <node concept="3clFbS" id="6$xxyeHl94k" role="2VODD2">
           <node concept="3clFbF" id="6$xxyeHl95p" role="3cqZAp">
-            <node concept="2d3UOw" id="6$xxyeHtDq4" role="3clFbG">
+            <node concept="3eOSWO" id="6$xxyeHKCVy" role="3clFbG">
               <node concept="1Wqviy" id="6$xxyeHl95o" role="3uHU7B" />
               <node concept="3cmrfG" id="6$xxyeHl9B5" role="3uHU7w">
                 <property role="3cmrfH" value="0" />
@@ -2322,7 +2322,7 @@
       <node concept="QB0g5" id="6$xxyeHl9DR" role="QCWH9">
         <node concept="3clFbS" id="6$xxyeHl9DS" role="2VODD2">
           <node concept="3clFbF" id="6$xxyeHl9EX" role="3cqZAp">
-            <node concept="2d3UOw" id="6$xxyeHtDsf" role="3clFbG">
+            <node concept="3eOSWO" id="6$xxyeHKCYg" role="3clFbG">
               <node concept="1Wqviy" id="6$xxyeHl9EW" role="3uHU7B" />
               <node concept="3cmrfG" id="6$xxyeHl9VQ" role="3uHU7w">
                 <property role="3cmrfH" value="0" />

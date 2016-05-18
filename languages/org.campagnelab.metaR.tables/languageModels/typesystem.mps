@@ -28,6 +28,7 @@
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="r8sq" ref="r:255861a3-240e-44f9-891d-2d789f4b6268(org.campagnelab.mps.XChart.types.structure)" implicit="true" />
+    <import index="42z1" ref="r:61980467-5cf8-4450-9d24-d597512183ad(org.campagnelab.styles.behavior)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -40,6 +41,7 @@
       </concept>
       <concept id="4836112446988635817" name="jetbrains.mps.baseLanguage.structure.UndefinedType" flags="in" index="2jxLKc" />
       <concept id="1202948039474" name="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" flags="nn" index="liA8E" />
+      <concept id="1224500790866" name="jetbrains.mps.baseLanguage.structure.BitwiseOrExpression" flags="nn" index="pVOtf" />
       <concept id="1173175405605" name="jetbrains.mps.baseLanguage.structure.ArrayAccessExpression" flags="nn" index="AH0OO">
         <child id="1173175577737" name="index" index="AHEQo" />
         <child id="1173175590490" name="array" index="AHHXb" />
@@ -3204,6 +3206,56 @@
     <node concept="1YaCAy" id="2pMaUINZsEu" role="1YuTPh">
       <property role="TrG5h" value="predictWithModel" />
       <ref role="1YaFvo" to="jrxw:2rPl_HNbWJl" resolve="PredictWithModel" />
+    </node>
+  </node>
+  <node concept="18kY7G" id="5lDNWrJNoz_">
+    <property role="TrG5h" value="check_FontSize" />
+    <property role="3GE5qa" value="view" />
+    <node concept="3clFbS" id="5lDNWrJNozA" role="18ibNy">
+      <node concept="3clFbJ" id="5lDNWrJNozG" role="3cqZAp">
+        <node concept="3clFbS" id="5lDNWrJNozH" role="3clFbx">
+          <node concept="2MkqsV" id="5lDNWrJNpO5" role="3cqZAp">
+            <node concept="Xl_RD" id="5lDNWrJNpOh" role="2MkJ7o">
+              <property role="Xl_RC" value="The font size can be from 1 to 10 (default is 5)" />
+            </node>
+            <node concept="1YBJjd" id="5lDNWrJNpS3" role="2OEOjV">
+              <ref role="1YBMHb" node="5lDNWrJNozC" resolve="fontSize" />
+            </node>
+          </node>
+        </node>
+        <node concept="pVOtf" id="5lDNWrJNoO5" role="3clFbw">
+          <node concept="3eOSWO" id="5lDNWrJNoYI" role="3uHU7w">
+            <node concept="3cmrfG" id="5lDNWrJNp1u" role="3uHU7w">
+              <property role="3cmrfH" value="10" />
+            </node>
+            <node concept="2OqwBi" id="5lDNWrJNpCA" role="3uHU7B">
+              <node concept="1YBJjd" id="5lDNWrJNoQQ" role="2Oq$k0">
+                <ref role="1YBMHb" node="5lDNWrJNozC" resolve="fontSize" />
+              </node>
+              <node concept="2qgKlT" id="5lDNWrJNpKY" role="2OqNvi">
+                <ref role="37wK5l" to="42z1:32mm940cwps" resolve="getValue" />
+              </node>
+            </node>
+          </node>
+          <node concept="3eOVzh" id="5lDNWrJNoGo" role="3uHU7B">
+            <node concept="2OqwBi" id="5lDNWrJNp6v" role="3uHU7B">
+              <node concept="1YBJjd" id="5lDNWrJNozS" role="2Oq$k0">
+                <ref role="1YBMHb" node="5lDNWrJNozC" resolve="fontSize" />
+              </node>
+              <node concept="2qgKlT" id="5lDNWrJNpxG" role="2OqNvi">
+                <ref role="37wK5l" to="42z1:32mm940cwps" resolve="getValue" />
+              </node>
+            </node>
+            <node concept="3cmrfG" id="5lDNWrJNoGv" role="3uHU7w">
+              <property role="3cmrfH" value="1" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="5lDNWrJNozC" role="1YuTPh">
+      <property role="TrG5h" value="fontSize" />
+      <ref role="1YaFvo" to="jrxw:1ej4HxuC6V1" resolve="FontSize" />
     </node>
   </node>
 </model>

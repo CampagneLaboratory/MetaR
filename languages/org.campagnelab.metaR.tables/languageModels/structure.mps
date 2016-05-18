@@ -2437,9 +2437,9 @@
   </node>
   <node concept="1TIwiD" id="6$xxyeHl7xo">
     <property role="1pbfSe" value="376831611" />
-    <property role="TrG5h" value="TableView" />
+    <property role="TrG5h" value="TablePreview" />
     <property role="3GE5qa" value="view" />
-    <property role="34LRSv" value="tableview" />
+    <property role="34LRSv" value="table preview" />
     <property role="R4oN_" value="A visual representation of a table." />
     <ref role="1TJDcQ" node="7LvyiX4miiC" resolve="Statement" />
     <node concept="1TJgyi" id="6$xxyeHl7$4" role="1TKVEl">
@@ -2463,6 +2463,51 @@
     <node concept="PrWs8" id="6$xxyeH_qHb" role="PzmwI">
       <ref role="PrY4T" node="7LvyiX4miiF" resolve="StatementDependencies" />
     </node>
+    <node concept="PrWs8" id="5lDNWrJJx82" role="PzmwI">
+      <ref role="PrY4T" to="onla:4FCgsrOfk9w" resolve="UseStyle" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="6$xxyeHKDch">
+    <property role="1pbfSe" value="384047412" />
+    <property role="3GE5qa" value="view" />
+    <property role="TrG5h" value="Caption" />
+    <property role="34LRSv" value="Caption" />
+    <ref role="1TJDcQ" to="onla:4FCgsrO$58w" resolve="StringStyleClass" />
+  </node>
+  <node concept="1TIwiD" id="1ej4HxuC6V1">
+    <property role="1pbfSe" value="1915978137" />
+    <property role="3GE5qa" value="view" />
+    <property role="TrG5h" value="FontSize" />
+    <property role="34LRSv" value="Font size" />
+    <ref role="1TJDcQ" to="onla:32mm940cvTX" resolve="IntegerStyleClass" />
+  </node>
+  <node concept="1TIwiD" id="1ej4HxuC6Wy">
+    <property role="1pbfSe" value="1915978234" />
+    <property role="3GE5qa" value="view" />
+    <property role="TrG5h" value="BoldHeader" />
+    <property role="34LRSv" value="Bold header" />
+    <ref role="1TJDcQ" to="onla:2od$re07i$x" resolve="BooleanStyleClass" />
+  </node>
+  <node concept="1TIwiD" id="1ej4HxuC6W$">
+    <property role="1pbfSe" value="1915978236" />
+    <property role="3GE5qa" value="view" />
+    <property role="TrG5h" value="Striped" />
+    <property role="34LRSv" value="Striped" />
+    <ref role="1TJDcQ" to="onla:2od$re07i$x" resolve="BooleanStyleClass" />
+  </node>
+  <node concept="1TIwiD" id="5lDNWrJS_sU">
+    <property role="1pbfSe" value="1162618624" />
+    <property role="3GE5qa" value="view" />
+    <property role="TrG5h" value="VerticalLines" />
+    <property role="34LRSv" value="Vertical lines" />
+    <ref role="1TJDcQ" to="onla:2od$re07i$x" resolve="BooleanStyleClass" />
+  </node>
+  <node concept="1TIwiD" id="5lDNWrJS_sV">
+    <property role="1pbfSe" value="1162618625" />
+    <property role="3GE5qa" value="view" />
+    <property role="TrG5h" value="HorizontalLines" />
+    <property role="34LRSv" value="Horizontal lines" />
+    <ref role="1TJDcQ" to="onla:2od$re07i$x" resolve="BooleanStyleClass" />
   </node>
 </model>
 
