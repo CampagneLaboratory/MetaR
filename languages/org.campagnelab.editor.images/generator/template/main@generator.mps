@@ -12,24 +12,12 @@
     <use id="a247e09e-2435-45ba-b8d2-07e93feba96a" name="jetbrains.mps.baseLanguage.tuples" version="0" />
   </languages>
   <imports>
-    <import index="c17a" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.language(MPS.OpenAPI/)" />
-    <import index="mhbf" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.model(MPS.OpenAPI/)" />
-    <import index="tpc2" ref="r:00000000-0000-4000-0000-011c8959029e(jetbrains.mps.lang.editor.structure)" />
     <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
-    <import index="18ew" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.util(MPS.Core/)" />
-    <import index="w1kc" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.smodel(MPS.Core/)" />
     <import index="f4zo" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor.cells(MPS.Editor/)" />
     <import index="cj4x" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor(MPS.Editor/)" />
-    <import index="tpcb" ref="r:00000000-0000-4000-0000-011c89590297(jetbrains.mps.lang.editor.behavior)" />
     <import index="g51k" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.nodeEditor.cells(MPS.Editor/)" />
     <import index="trp3" ref="r:daca92ca-e9ce-48ae-833b-4f2157fecb32(org.campagnelab.editor.images.EditorCode)" />
     <import index="6hgq" ref="r:eecca0f3-a7f2-4995-9f62-819ef5f4e912(org.campagnelab.editor.images.structure)" />
-    <import index="guwi" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" />
-    <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" />
-    <import index="dxuu" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:javax.swing(JDK/)" />
-    <import index="z60i" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.awt(JDK/)" />
-    <import index="jan3" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.awt.image(JDK/)" />
-    <import index="oqcp" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:javax.imageio(JDK/)" />
     <import index="lui2" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.module()" />
     <import index="tpc3" ref="r:00000000-0000-4000-0000-011c8959029f(jetbrains.mps.lang.editor.generator.baseLanguage.template.main@generator)" />
     <import index="6pqi" ref="r:cab3688a-b537-4695-8b23-f29e7edbad4b(org.campagnelab.editor.images.behavior)" implicit="true" />
@@ -53,16 +41,8 @@
         <child id="1197027771414" name="operand" index="2Oq$k0" />
         <child id="1197027833540" name="operation" index="2OqNvi" />
       </concept>
-      <concept id="1164879751025" name="jetbrains.mps.baseLanguage.structure.TryCatchStatement" flags="nn" index="SfApY">
-        <child id="1164879758292" name="body" index="SfCbr" />
-        <child id="1164903496223" name="catchClause" index="TEbGg" />
-      </concept>
       <concept id="1145552977093" name="jetbrains.mps.baseLanguage.structure.GenericNewExpression" flags="nn" index="2ShNRf">
         <child id="1145553007750" name="creator" index="2ShVmc" />
-      </concept>
-      <concept id="1164903280175" name="jetbrains.mps.baseLanguage.structure.CatchClause" flags="nn" index="TDmWw">
-        <child id="1164903359218" name="catchBody" index="TDEfX" />
-        <child id="1164903359217" name="throwable" index="TDEfY" />
       </concept>
       <concept id="1137021947720" name="jetbrains.mps.baseLanguage.structure.ConceptFunction" flags="in" index="2VMwT0">
         <child id="1137022507850" name="body" index="2VODD2" />
@@ -99,11 +79,6 @@
         <child id="1068580123156" name="expression" index="3clFbG" />
       </concept>
       <concept id="1068580123157" name="jetbrains.mps.baseLanguage.structure.Statement" flags="nn" index="3clFbH" />
-      <concept id="1068580123159" name="jetbrains.mps.baseLanguage.structure.IfStatement" flags="nn" index="3clFbJ">
-        <child id="1082485599094" name="ifFalseStatement" index="9aQIa" />
-        <child id="1068580123160" name="condition" index="3clFbw" />
-        <child id="1068580123161" name="ifTrue" index="3clFbx" />
-      </concept>
       <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
       </concept>
@@ -116,9 +91,6 @@
       </concept>
       <concept id="1068581242863" name="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" flags="nr" index="3cpWsn" />
       <concept id="1068581517677" name="jetbrains.mps.baseLanguage.structure.VoidType" flags="in" index="3cqZAl" />
-      <concept id="1081516740877" name="jetbrains.mps.baseLanguage.structure.NotExpression" flags="nn" index="3fqX7Q">
-        <child id="1081516765348" name="expression" index="3fr31v" />
-      </concept>
       <concept id="1204053956946" name="jetbrains.mps.baseLanguage.structure.IMethodCall" flags="ng" index="1ndlxa">
         <reference id="1068499141037" name="baseMethodDeclaration" index="37wK5l" />
         <child id="1068499141038" name="actualArgument" index="37wK5m" />
@@ -296,73 +268,14 @@
             <node concept="3cpWsn" id="2MJ_dSPaJbO" role="3cpWs9">
               <property role="3TUv4t" value="false" />
               <property role="TrG5h" value="image" />
-              <node concept="3uibUv" id="2MJ_dSPaJbP" role="1tU5fm">
-                <ref role="3uigEE" to="jan3:~BufferedImage" resolve="BufferedImage" />
+              <node concept="3uibUv" id="4Nea5gqzZlI" role="1tU5fm">
+                <ref role="3uigEE" to="trp3:4Nea5gqzX3L" resolve="UpdatableBufferedImage" />
               </node>
-              <node concept="10Nm6u" id="2MJ_dSPaJbQ" role="33vP2m" />
-            </node>
-          </node>
-          <node concept="SfApY" id="2MJ_dSPaJbR" role="3cqZAp">
-            <node concept="TDmWw" id="2MJ_dSPaJbS" role="TEbGg">
-              <node concept="3clFbS" id="2MJ_dSPaJbT" role="TDEfX" />
-              <node concept="3cpWsn" id="2MJ_dSPaJbU" role="TDEfY">
-                <property role="3TUv4t" value="false" />
-                <property role="TrG5h" value="e" />
-                <node concept="3uibUv" id="2MJ_dSPaJbV" role="1tU5fm">
-                  <ref role="3uigEE" to="wyt6:~Exception" resolve="Exception" />
-                </node>
-              </node>
-            </node>
-            <node concept="3clFbS" id="2MJ_dSPaJbW" role="SfCbr">
-              <node concept="3cpWs8" id="2MJ_dSPaJbX" role="3cqZAp">
-                <node concept="3cpWsn" id="2MJ_dSPaJbY" role="3cpWs9">
-                  <property role="TrG5h" value="file" />
-                  <node concept="3uibUv" id="2MJ_dSPaJbZ" role="1tU5fm">
-                    <ref role="3uigEE" to="guwi:~File" resolve="File" />
-                  </node>
-                  <node concept="2ShNRf" id="2MJ_dSPaJc0" role="33vP2m">
-                    <node concept="1pGfFk" id="2MJ_dSPaJc1" role="2ShVmc">
-                      <ref role="37wK5l" to="guwi:~File.&lt;init&gt;(java.lang.String)" resolve="File" />
-                      <node concept="37vLTw" id="2MJ_dSPn1OJ" role="37wK5m">
-                        <ref role="3cqZAo" node="2MJ_dSPaJb$" resolve="imagePath" />
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-              <node concept="3clFbJ" id="2MJ_dSPaJc3" role="3cqZAp">
-                <node concept="3clFbS" id="2MJ_dSPaJc4" role="3clFbx" />
-                <node concept="3fqX7Q" id="2MJ_dSPaJc5" role="3clFbw">
-                  <node concept="2OqwBi" id="2MJ_dSPaJc6" role="3fr31v">
-                    <node concept="37vLTw" id="2MJ_dSPaJc7" role="2Oq$k0">
-                      <ref role="3cqZAo" node="2MJ_dSPaJbY" resolve="file" />
-                    </node>
-                    <node concept="liA8E" id="2MJ_dSPaJc8" role="2OqNvi">
-                      <ref role="37wK5l" to="guwi:~File.exists():boolean" resolve="exists" />
-                    </node>
-                  </node>
-                </node>
-                <node concept="9aQIb" id="2MJ_dSPaJc9" role="9aQIa">
-                  <node concept="3clFbS" id="2MJ_dSPaJca" role="9aQI4">
-                    <node concept="3clFbF" id="2MJ_dSPaJcb" role="3cqZAp">
-                      <node concept="37vLTI" id="2MJ_dSPaJcc" role="3clFbG">
-                        <node concept="37vLTw" id="2MJ_dSPaJcd" role="37vLTJ">
-                          <ref role="3cqZAo" node="2MJ_dSPaJbO" resolve="image" />
-                        </node>
-                        <node concept="2YIFZM" id="2MJ_dSPaJce" role="37vLTx">
-                          <ref role="1Pybhc" to="oqcp:~ImageIO" resolve="ImageIO" />
-                          <ref role="37wK5l" to="oqcp:~ImageIO.read(java.io.File):java.awt.image.BufferedImage" resolve="read" />
-                          <node concept="2ShNRf" id="2MJ_dSPaJcf" role="37wK5m">
-                            <node concept="1pGfFk" id="2MJ_dSPaJcg" role="2ShVmc">
-                              <ref role="37wK5l" to="guwi:~File.&lt;init&gt;(java.lang.String)" resolve="File" />
-                              <node concept="37vLTw" id="2MJ_dSPaJch" role="37wK5m">
-                                <ref role="3cqZAo" node="2MJ_dSPaJb$" resolve="imagePath" />
-                              </node>
-                            </node>
-                          </node>
-                        </node>
-                      </node>
-                    </node>
+              <node concept="2ShNRf" id="4Nea5gqDw4k" role="33vP2m">
+                <node concept="1pGfFk" id="4Nea5gqEiys" role="2ShVmc">
+                  <ref role="37wK5l" to="trp3:4Nea5gqDh9a" resolve="UpdatableBufferedImage" />
+                  <node concept="37vLTw" id="4Nea5gqEiOG" role="37wK5m">
+                    <ref role="3cqZAo" node="2MJ_dSPaJb$" resolve="imagePath" />
                   </node>
                 </node>
               </node>
@@ -385,6 +298,19 @@
                 </node>
                 <node concept="37vLTw" id="2MJ_dSPaJcv" role="37wK5m">
                   <ref role="3cqZAo" node="2MJ_dSPaJbO" resolve="image" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbF" id="4Nea5gqGRJ$" role="3cqZAp">
+            <node concept="2OqwBi" id="4Nea5gqGRNQ" role="3clFbG">
+              <node concept="37vLTw" id="4Nea5gqGRJy" role="2Oq$k0">
+                <ref role="3cqZAo" node="2MJ_dSPaJbO" resolve="image" />
+              </node>
+              <node concept="liA8E" id="4Nea5gqGRZK" role="2OqNvi">
+                <ref role="37wK5l" to="trp3:4Nea5gqG_UT" resolve="setCell" />
+                <node concept="37vLTw" id="4Nea5gqGSaB" role="37wK5m">
+                  <ref role="3cqZAo" node="2MJ_dSPaJcq" resolve="editorCell" />
                 </node>
               </node>
             </node>
