@@ -18581,6 +18581,9 @@
           </node>
         </node>
         <node concept="1gZcZf" id="5lDNWrK9mCL" role="2G3XIn">
+          <node concept="3_3kQU" id="6s73bceaL0j" role="3_3kQL">
+            <property role="3_3kQV" value="print(" />
+          </node>
           <node concept="3_3kQU" id="5lDNWrK9mVL" role="3_3kQL">
             <property role="3_3kQV" value="z" />
             <node concept="17Uvod" id="5lDNWrK9mVM" role="lGtFl">
@@ -18599,6 +18602,9 @@
                 </node>
               </node>
             </node>
+          </node>
+          <node concept="3_3kQU" id="5lDNWrK9mCM" role="3_3kQL">
+            <property role="3_3kQV" value=")" />
           </node>
         </node>
         <node concept="1gZcZf" id="5lDNWrK9mZg" role="2G3XIn">
