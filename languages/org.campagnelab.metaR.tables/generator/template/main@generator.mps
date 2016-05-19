@@ -605,7 +605,7 @@
     <node concept="3aamgX" id="6$xxyeHorfm" role="3acgRq">
       <ref role="30HIoZ" to="jrxw:6$xxyeHl7xo" resolve="TablePreview" />
       <node concept="j$656" id="6$xxyeHorKe" role="1lVwrX">
-        <ref role="v9R2y" node="6$xxyeHorKc" resolve="reduce_TableView" />
+        <ref role="v9R2y" node="6$xxyeHorKc" resolve="reduce_TablePreview" />
       </node>
     </node>
     <node concept="3aamgX" id="2WRhvFtNRMi" role="3acgRq">
@@ -18106,7 +18106,7 @@
     </node>
   </node>
   <node concept="13MO4I" id="6$xxyeHorKc">
-    <property role="TrG5h" value="reduce_TableView" />
+    <property role="TrG5h" value="reduce_TablePreview" />
     <property role="3GE5qa" value="view" />
     <ref role="3gUMe" to="jrxw:6$xxyeHl7xo" resolve="TablePreview" />
     <node concept="3eWmRk" id="6$xxyeHowuT" role="13RCb5">
