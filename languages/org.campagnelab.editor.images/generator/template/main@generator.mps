@@ -312,6 +312,9 @@
                 <node concept="37vLTw" id="4Nea5gqGSaB" role="37wK5m">
                   <ref role="3cqZAo" node="2MJ_dSPaJcq" resolve="editorCell" />
                 </node>
+                <node concept="37vLTw" id="1UXFLI$jf6_" role="37wK5m">
+                  <ref role="3cqZAo" node="2MJ_dSPaIHe" resolve="editorContext" />
+                </node>
               </node>
             </node>
           </node>
