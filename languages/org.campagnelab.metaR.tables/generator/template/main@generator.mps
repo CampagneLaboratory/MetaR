@@ -18122,9 +18122,53 @@
             <property role="3_3kQV" value="" />
           </node>
         </node>
-        <node concept="1gZcZf" id="5lDNWrJNqjx" role="2G3XIn">
-          <node concept="3_3kQU" id="5lDNWrJNqjy" role="3_3kQL">
+        <node concept="1gZcZf" id="5lDNWrJNqjx" role="2G3XIn" />
+        <node concept="1gZcZf" id="6s73bce5O4M" role="2G3XIn">
+          <node concept="3_3kQU" id="6s73bce5O4N" role="3_3kQL">
             <property role="3_3kQV" value="options(ztable.type=&quot;html&quot;)" />
+          </node>
+        </node>
+        <node concept="1gZcZf" id="6s73bcejYve" role="2G3XIn">
+          <node concept="3_3kQU" id="6s73bcejYSo" role="3_3kQL">
+            <property role="3_3kQV" value="options(ztable.zebra=" />
+          </node>
+          <node concept="3_3kQU" id="6s73bcejYSs" role="3_3kQL">
+            <property role="3_3kQV" value="b" />
+            <node concept="17Uvod" id="6s73bcejYSw" role="lGtFl">
+              <property role="P4ACc" value="901f5cf3-dc77-4c1e-bc5a-6382baee28b4/1680136183140337486/1680136183140337487" />
+              <property role="2qtEX9" value="text" />
+              <node concept="3zFVjK" id="6s73bcejYSz" role="3zH0cK">
+                <node concept="3clFbS" id="6s73bcejYS$" role="2VODD2">
+                  <node concept="3clFbJ" id="6s73bcejYWh" role="3cqZAp">
+                    <node concept="3clFbS" id="6s73bcejYWi" role="3clFbx">
+                      <node concept="3cpWs6" id="6s73bcel0bg" role="3cqZAp">
+                        <node concept="Xl_RD" id="6s73bcejZe7" role="3cqZAk">
+                          <property role="Xl_RC" value="1" />
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="2OqwBi" id="6s73bcejZ1x" role="3clFbw">
+                      <node concept="30H73N" id="6s73bcejYXy" role="2Oq$k0" />
+                      <node concept="2qgKlT" id="6s73bcejZ9t" role="2OqNvi">
+                        <ref role="37wK5l" to="v8sa:5lDNWrJNmvY" resolve="useOddEvenColors" />
+                      </node>
+                    </node>
+                    <node concept="9aQIb" id="6s73bcejZjW" role="9aQIa">
+                      <node concept="3clFbS" id="6s73bcejZjX" role="9aQI4">
+                        <node concept="3cpWs6" id="6s73bcel0es" role="3cqZAp">
+                          <node concept="Xl_RD" id="6s73bcejZFr" role="3cqZAk">
+                            <property role="Xl_RC" value="0" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3_3kQU" id="6s73bcejYSp" role="3_3kQL">
+            <property role="3_3kQV" value=")" />
           </node>
         </node>
         <node concept="1gZcZf" id="5lDNWrJND4f" role="2G3XIn">
@@ -18498,6 +18542,7 @@
             </node>
           </node>
         </node>
+        <node concept="1gZcZf" id="6s73bce8KU7" role="2G3XIn" />
         <node concept="1gZcZf" id="5lDNWrK9mhW" role="2G3XIn">
           <node concept="3_3kQU" id="5lDNWrK9mhX" role="3_3kQL">
             <property role="3_3kQV" value="sink(&quot;" />
@@ -18554,9 +18599,6 @@
                 </node>
               </node>
             </node>
-          </node>
-          <node concept="3_3kQU" id="5lDNWrK9mCM" role="3_3kQL">
-            <property role="3_3kQV" value="" />
           </node>
         </node>
         <node concept="1gZcZf" id="5lDNWrK9mZg" role="2G3XIn">
