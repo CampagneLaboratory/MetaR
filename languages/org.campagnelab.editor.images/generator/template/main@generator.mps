@@ -289,12 +289,12 @@
           <node concept="3cpWs8" id="2MJ_dSPaJcp" role="3cqZAp">
             <node concept="3cpWsn" id="2MJ_dSPaJcq" role="3cpWs9">
               <property role="TrG5h" value="editorCell" />
-              <node concept="3uibUv" id="2MJ_dSPaJcr" role="1tU5fm">
-                <ref role="3uigEE" to="g51k:~EditorCell_Image" resolve="EditorCell_Image" />
+              <node concept="3uibUv" id="2Qyt1JMOLd6" role="1tU5fm">
+                <ref role="3uigEE" to="trp3:2Qyt1JMNW7M" resolve="EditorCell_RefreshableImage2" />
               </node>
               <node concept="2YIFZM" id="2MJ_dSPaJcs" role="33vP2m">
-                <ref role="37wK5l" to="g51k:~EditorCell_Image.createImageCell(jetbrains.mps.openapi.editor.EditorContext,org.jetbrains.mps.openapi.model.SNode,java.awt.Image):jetbrains.mps.nodeEditor.cells.EditorCell_Image" resolve="createImageCell" />
-                <ref role="1Pybhc" to="g51k:~EditorCell_Image" resolve="EditorCell_Image" />
+                <ref role="1Pybhc" to="trp3:2Qyt1JMNW7M" resolve="EditorCell_RefreshableImage2" />
+                <ref role="37wK5l" to="trp3:2Qyt1JMNWLq" resolve="createImageCell" />
                 <node concept="37vLTw" id="2MJ_dSPaJct" role="37wK5m">
                   <ref role="3cqZAo" node="2MJ_dSPaIHe" resolve="editorContext" />
                 </node>
@@ -303,6 +303,9 @@
                 </node>
                 <node concept="37vLTw" id="2MJ_dSPaJcv" role="37wK5m">
                   <ref role="3cqZAo" node="2MJ_dSPaJbO" resolve="image" />
+                </node>
+                <node concept="37vLTw" id="2Qyt1JMP8la" role="37wK5m">
+                  <ref role="3cqZAo" node="2MJ_dSPaJb$" resolve="imagePath" />
                 </node>
               </node>
             </node>

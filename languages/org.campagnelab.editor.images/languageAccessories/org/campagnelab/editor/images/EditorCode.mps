@@ -31,15 +31,11 @@
     <import index="jlff" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.openapi.vfs(MPS.IDEA/)" />
     <import index="84a8" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.openapi.vfs.impl.local(MPS.IDEA/)" />
     <import index="mhfm" ref="3f233e7f-b8a6-46d2-a57f-795d56775243/java:org.jetbrains.annotations(Annotations/)" />
-    <import index="1m72" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.openapi.components()" />
-    <import index="z1c4" ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61/java:jetbrains.mps.project(MPS.Platform/)" />
-    <import index="bd8o" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.openapi.application()" />
-    <import index="xj2j" ref="86441d7a-e194-42da-81a5-2161ec62a379/java:jetbrains.mps.plugins.projectplugins(MPS.Workbench/)" />
     <import index="alof" ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61/java:jetbrains.mps.ide.project(MPS.Platform/)" />
     <import index="4nm9" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.openapi.project(MPS.IDEA/)" />
-    <import index="i8bi" ref="r:c3548bac-30eb-4a2a-937c-0111d5697309(jetbrains.mps.lang.smodel.generator.smodelAdapter)" />
     <import index="zgc3" ref="r:76cc9c6f-13c8-4c11-acaa-bbeee090d3e3(org.campagnelab.editor.listeners.plugin.plugin)" />
-    <import index="hox0" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor.style(MPS.Editor/)" implicit="true" />
+    <import index="xnls" ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61/java:jetbrains.mps.ide.icons(MPS.Platform/)" />
+    <import index="hox0" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor.style(MPS.Editor/)" />
     <import index="uvcm" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.openapi.vfs.newvfs(MPS.IDEA/)" implicit="true" />
     <import index="22ra" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor.update(MPS.Editor/)" implicit="true" />
   </imports>
@@ -54,6 +50,7 @@
         <child id="1068498886295" name="lValue" index="37vLTJ" />
       </concept>
       <concept id="1153417849900" name="jetbrains.mps.baseLanguage.structure.GreaterThanOrEqualsExpression" flags="nn" index="2d3UOw" />
+      <concept id="1153422305557" name="jetbrains.mps.baseLanguage.structure.LessThanOrEqualsExpression" flags="nn" index="2dkUwp" />
       <concept id="1202948039474" name="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" flags="nn" index="liA8E" />
       <concept id="1224500764161" name="jetbrains.mps.baseLanguage.structure.BitwiseAndExpression" flags="nn" index="pVHWs" />
       <concept id="1224500790866" name="jetbrains.mps.baseLanguage.structure.BitwiseOrExpression" flags="nn" index="pVOtf" />
@@ -78,6 +75,10 @@
       <concept id="1197029447546" name="jetbrains.mps.baseLanguage.structure.FieldReferenceOperation" flags="nn" index="2OwXpG">
         <reference id="1197029500499" name="fieldDeclaration" index="2Oxat5" />
       </concept>
+      <concept id="1083245097125" name="jetbrains.mps.baseLanguage.structure.EnumClass" flags="ig" index="Qs71p">
+        <child id="1083245396908" name="enumConstant" index="Qtgdg" />
+      </concept>
+      <concept id="1083245299891" name="jetbrains.mps.baseLanguage.structure.EnumConstantDeclaration" flags="ig" index="QsSxf" />
       <concept id="1083260308424" name="jetbrains.mps.baseLanguage.structure.EnumConstantReference" flags="nn" index="Rm8GO">
         <reference id="1083260308426" name="enumConstantDeclaration" index="Rm8GQ" />
         <reference id="1144432896254" name="enumClass" index="1Px2BO" />
@@ -115,6 +116,7 @@
       <concept id="1070534058343" name="jetbrains.mps.baseLanguage.structure.NullLiteral" flags="nn" index="10Nm6u" />
       <concept id="1070534370425" name="jetbrains.mps.baseLanguage.structure.IntegerType" flags="in" index="10Oyi0" />
       <concept id="1070534436861" name="jetbrains.mps.baseLanguage.structure.FloatType" flags="in" index="10OMs4" />
+      <concept id="1070534513062" name="jetbrains.mps.baseLanguage.structure.DoubleType" flags="in" index="10P55v" />
       <concept id="1070534644030" name="jetbrains.mps.baseLanguage.structure.BooleanType" flags="in" index="10P_77" />
       <concept id="1070534760951" name="jetbrains.mps.baseLanguage.structure.ArrayType" flags="in" index="10Q1$e">
         <child id="1070534760952" name="componentType" index="10Q1$1" />
@@ -194,6 +196,7 @@
         <child id="1079359253376" name="expression" index="1eOMHV" />
       </concept>
       <concept id="1081506762703" name="jetbrains.mps.baseLanguage.structure.GreaterThanExpression" flags="nn" index="3eOSWO" />
+      <concept id="1081506773034" name="jetbrains.mps.baseLanguage.structure.LessThanExpression" flags="nn" index="3eOVzh" />
       <concept id="1081516740877" name="jetbrains.mps.baseLanguage.structure.NotExpression" flags="nn" index="3fqX7Q">
         <child id="1081516765348" name="expression" index="3fr31v" />
       </concept>
@@ -1552,6 +1555,38 @@
     <node concept="3uibUv" id="4oMvTh5W7W7" role="1zkMxy">
       <ref role="3uigEE" to="g51k:~EditorCell_Basic" resolve="EditorCell_Basic" />
     </node>
+    <node concept="3clFb_" id="3HCQVu5flWL" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="onRemove" />
+      <property role="DiZV1" value="false" />
+      <property role="od$2w" value="false" />
+      <node concept="3Tm1VV" id="3HCQVu5flWM" role="1B3o_S" />
+      <node concept="3cqZAl" id="3HCQVu5flWO" role="3clF45" />
+      <node concept="3clFbS" id="3HCQVu5flWP" role="3clF47">
+        <node concept="3clFbF" id="3HCQVu5flWS" role="3cqZAp">
+          <node concept="3nyPlj" id="3HCQVu5flWR" role="3clFbG">
+            <ref role="37wK5l" to="g51k:~EditorCell_Basic.onRemove():void" resolve="onRemove" />
+          </node>
+        </node>
+        <node concept="34ab3g" id="3HCQVu5fmNm" role="3cqZAp">
+          <property role="35gtTG" value="info" />
+          <node concept="3cpWs3" id="3HCQVu5fmUB" role="34bqiv">
+            <node concept="2OqwBi" id="3HCQVu5fnbr" role="3uHU7w">
+              <node concept="Xjq3P" id="3HCQVu5fn2l" role="2Oq$k0" />
+              <node concept="2OwXpG" id="3HCQVu5fnDE" role="2OqNvi">
+                <ref role="2Oxat5" node="4oMvTh5V3df" resolve="sourceFileName" />
+              </node>
+            </node>
+            <node concept="Xl_RD" id="3HCQVu5fmNo" role="3uHU7B">
+              <property role="Xl_RC" value="Cell removed for image " />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="3HCQVu5flWQ" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
   </node>
   <node concept="312cEu" id="4Nea5gqzX3L">
     <property role="TrG5h" value="UpdatableBufferedImage" />
@@ -1660,8 +1695,8 @@
       <property role="eg7rD" value="false" />
       <property role="TrG5h" value="cell" />
       <property role="3TUv4t" value="false" />
-      <node concept="3uibUv" id="4Nea5gqGwU1" role="1tU5fm">
-        <ref role="3uigEE" to="g51k:~EditorCell_Image" resolve="EditorCell_Image" />
+      <node concept="3uibUv" id="2Qyt1JMOMtK" role="1tU5fm">
+        <ref role="3uigEE" node="2Qyt1JMNW7M" resolve="EditorCell_RefreshableImage2" />
       </node>
     </node>
     <node concept="3clFb_" id="4Nea5gqG_UT" role="jymVt">
@@ -1763,7 +1798,7 @@
             <node concept="34ab3g" id="38k4CcpRYDT" role="3cqZAp">
               <property role="35gtTG" value="info" />
               <node concept="Xl_RD" id="38k4CcpRYDV" role="34bqiv">
-                <property role="Xl_RC" value="Project found" />
+                <property role="Xl_RC" value="Listener added" />
               </node>
             </node>
           </node>
@@ -1792,8 +1827,16 @@
             <node concept="3clFbS" id="38k4CcpRYEY" role="9aQI4">
               <node concept="34ab3g" id="38k4CcpRZgt" role="3cqZAp">
                 <property role="35gtTG" value="info" />
-                <node concept="Xl_RD" id="38k4CcpRZgv" role="34bqiv">
-                  <property role="Xl_RC" value="Project NOT found" />
+                <node concept="3cpWs3" id="3HCQVu5ff8t" role="34bqiv">
+                  <node concept="2OqwBi" id="3HCQVu5fhpe" role="3uHU7w">
+                    <node concept="Xjq3P" id="3HCQVu5fhgl" role="2Oq$k0" />
+                    <node concept="2OwXpG" id="3HCQVu5fhto" role="2OqNvi">
+                      <ref role="2Oxat5" node="4Nea5gqElPV" resolve="imagePath" />
+                    </node>
+                  </node>
+                  <node concept="Xl_RD" id="38k4CcpRZgv" role="3uHU7B">
+                    <property role="Xl_RC" value="Failed to create a listener for " />
+                  </node>
                 </node>
               </node>
             </node>
@@ -1805,8 +1848,8 @@
       <node concept="37vLTG" id="4Nea5gqGBpC" role="3clF46">
         <property role="TrG5h" value="cell" />
         <property role="3TUv4t" value="true" />
-        <node concept="3uibUv" id="4Nea5gqGBpB" role="1tU5fm">
-          <ref role="3uigEE" to="g51k:~EditorCell_Image" resolve="EditorCell_Image" />
+        <node concept="3uibUv" id="2Qyt1JMOMey" role="1tU5fm">
+          <ref role="3uigEE" node="2Qyt1JMNW7M" resolve="EditorCell_RefreshableImage2" />
         </node>
       </node>
       <node concept="37vLTG" id="7Sk5deAFD8u" role="3clF46">
@@ -3841,8 +3884,8 @@
       <property role="eg7rD" value="false" />
       <property role="TrG5h" value="cell" />
       <property role="3TUv4t" value="true" />
-      <node concept="3uibUv" id="7YNwX5Hj2_Y" role="1tU5fm">
-        <ref role="3uigEE" to="g51k:~EditorCell_Image" resolve="EditorCell_Image" />
+      <node concept="3uibUv" id="2Qyt1JMONqi" role="1tU5fm">
+        <ref role="3uigEE" node="2Qyt1JMNW7M" resolve="EditorCell_RefreshableImage2" />
       </node>
     </node>
     <node concept="2tJIrI" id="7YNwX5HiZxP" role="jymVt" />
@@ -3877,8 +3920,8 @@
       </node>
       <node concept="37vLTG" id="7YNwX5Hj2Tf" role="3clF46">
         <property role="TrG5h" value="cell" />
-        <node concept="3uibUv" id="7YNwX5Hj3dA" role="1tU5fm">
-          <ref role="3uigEE" to="g51k:~EditorCell_Image" resolve="EditorCell_Image" />
+        <node concept="3uibUv" id="2Qyt1JMONhI" role="1tU5fm">
+          <ref role="3uigEE" node="2Qyt1JMNW7M" resolve="EditorCell_RefreshableImage2" />
         </node>
       </node>
     </node>
@@ -4343,6 +4386,1369 @@
         </node>
       </node>
       <node concept="3clFbS" id="7YNwX5HiPys" role="3clF47" />
+    </node>
+  </node>
+  <node concept="312cEu" id="2Qyt1JMNW7M">
+    <property role="TrG5h" value="EditorCell_RefreshableImage2" />
+    <node concept="2tJIrI" id="2Qyt1JMOHSx" role="jymVt" />
+    <node concept="312cEg" id="2Qyt1JMNWK9" role="jymVt">
+      <property role="34CwA1" value="false" />
+      <property role="eg7rD" value="false" />
+      <property role="TrG5h" value="myAlignment" />
+      <property role="3TUv4t" value="false" />
+      <node concept="3uibUv" id="2Qyt1JMNWKb" role="1tU5fm">
+        <ref role="3uigEE" node="2Qyt1JMNWRu" resolve="EditorCell_RefreshableImage2.ImageAlignment" />
+      </node>
+      <node concept="Rm8GO" id="2Qyt1JMNWRB" role="33vP2m">
+        <ref role="1Px2BO" node="2Qyt1JMNWRu" resolve="EditorCell_RefreshableImage2.ImageAlignment" />
+        <ref role="Rm8GQ" node="2Qyt1JMNWRx" resolve="justify" />
+      </node>
+      <node concept="3Tm6S6" id="2Qyt1JMNWKd" role="1B3o_S" />
+    </node>
+    <node concept="312cEg" id="2Qyt1JMNWKe" role="jymVt">
+      <property role="34CwA1" value="false" />
+      <property role="eg7rD" value="false" />
+      <property role="TrG5h" value="myIcon" />
+      <property role="3TUv4t" value="false" />
+      <node concept="3uibUv" id="2Qyt1JMNWKg" role="1tU5fm">
+        <ref role="3uigEE" to="dxuu:~Icon" resolve="Icon" />
+      </node>
+      <node concept="3Tm6S6" id="2Qyt1JMNWKh" role="1B3o_S" />
+    </node>
+    <node concept="312cEg" id="2Qyt1JMNWKi" role="jymVt">
+      <property role="34CwA1" value="false" />
+      <property role="eg7rD" value="false" />
+      <property role="TrG5h" value="myDescent" />
+      <property role="3TUv4t" value="false" />
+      <node concept="10Oyi0" id="2Qyt1JMNWKk" role="1tU5fm" />
+      <node concept="1ZRNhn" id="2Qyt1JMNWKl" role="33vP2m">
+        <node concept="3cmrfG" id="2Qyt1JMNWKm" role="2$L3a6">
+          <property role="3cmrfH" value="1" />
+        </node>
+      </node>
+      <node concept="3Tm6S6" id="2Qyt1JMNWKn" role="1B3o_S" />
+    </node>
+    <node concept="312cEg" id="2Qyt1JMOTUK" role="jymVt">
+      <property role="TrG5h" value="imagePath" />
+      <property role="3TUv4t" value="true" />
+      <node concept="3Tm6S6" id="2Qyt1JMOTUL" role="1B3o_S" />
+      <node concept="17QB3L" id="2Qyt1JMOTUN" role="1tU5fm" />
+    </node>
+    <node concept="2tJIrI" id="2Qyt1JMOHkh" role="jymVt" />
+    <node concept="3clFbW" id="2Qyt1JMNWKo" role="jymVt">
+      <property role="DiZV1" value="false" />
+      <property role="od$2w" value="false" />
+      <node concept="3cqZAl" id="2Qyt1JMNWKp" role="3clF45" />
+      <node concept="37vLTG" id="2Qyt1JMNWKq" role="3clF46">
+        <property role="TrG5h" value="editorContext" />
+        <property role="3TUv4t" value="false" />
+        <node concept="3uibUv" id="2Qyt1JMO67Q" role="1tU5fm">
+          <ref role="3uigEE" to="cj4x:~EditorContext" resolve="EditorContext" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="2Qyt1JMNWKs" role="3clF46">
+        <property role="TrG5h" value="node" />
+        <property role="3TUv4t" value="false" />
+        <node concept="3uibUv" id="2Qyt1JMO7tl" role="1tU5fm">
+          <ref role="3uigEE" to="mhbf:~SNode" resolve="SNode" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="2Qyt1JMOVzx" role="3clF46">
+        <property role="TrG5h" value="imagePath" />
+        <node concept="17QB3L" id="2Qyt1JMOVYn" role="1tU5fm" />
+      </node>
+      <node concept="3clFbS" id="2Qyt1JMNWKu" role="3clF47">
+        <node concept="XkiVB" id="2Qyt1JMNWRC" role="3cqZAp">
+          <ref role="37wK5l" to="g51k:~EditorCell_Basic.&lt;init&gt;(jetbrains.mps.openapi.editor.EditorContext,org.jetbrains.mps.openapi.model.SNode)" resolve="EditorCell_Basic" />
+          <node concept="37vLTw" id="2Qyt1JMNWKG" role="37wK5m">
+            <ref role="3cqZAo" node="2Qyt1JMNWKq" resolve="editorContext" />
+          </node>
+          <node concept="37vLTw" id="2Qyt1JMNWKH" role="37wK5m">
+            <ref role="3cqZAo" node="2Qyt1JMNWKs" resolve="node" />
+          </node>
+        </node>
+        <node concept="3clFbF" id="2Qyt1JMNWKv" role="3cqZAp">
+          <node concept="2OqwBi" id="2Qyt1JMNWKw" role="3clFbG">
+            <node concept="1rXfSq" id="2Qyt1JMNWKx" role="2Oq$k0">
+              <ref role="37wK5l" to="g51k:~EditorCell_Basic.getStyle():jetbrains.mps.openapi.editor.style.Style" resolve="getStyle" />
+            </node>
+            <node concept="liA8E" id="2Qyt1JMNWKy" role="2OqNvi">
+              <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object):void" resolve="set" />
+              <node concept="10M0yZ" id="2Qyt1JMNX9T" role="37wK5m">
+                <ref role="1PxDUh" to="5ueo:~StyleAttributes" resolve="StyleAttributes" />
+                <ref role="3cqZAo" to="5ueo:~StyleAttributes.PUNCTUATION_LEFT" resolve="PUNCTUATION_LEFT" />
+              </node>
+              <node concept="3clFbT" id="2Qyt1JMNWK$" role="37wK5m">
+                <property role="3clFbU" value="true" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="2Qyt1JMNWK_" role="3cqZAp">
+          <node concept="2OqwBi" id="2Qyt1JMNWKA" role="3clFbG">
+            <node concept="1rXfSq" id="2Qyt1JMNWKB" role="2Oq$k0">
+              <ref role="37wK5l" to="g51k:~EditorCell_Basic.getStyle():jetbrains.mps.openapi.editor.style.Style" resolve="getStyle" />
+            </node>
+            <node concept="liA8E" id="2Qyt1JMNWKC" role="2OqNvi">
+              <ref role="37wK5l" to="hox0:~Style.set(jetbrains.mps.openapi.editor.style.StyleAttribute,java.lang.Object):void" resolve="set" />
+              <node concept="10M0yZ" id="2Qyt1JMNX9U" role="37wK5m">
+                <ref role="1PxDUh" to="5ueo:~StyleAttributes" resolve="StyleAttributes" />
+                <ref role="3cqZAo" to="5ueo:~StyleAttributes.PUNCTUATION_RIGHT" resolve="PUNCTUATION_RIGHT" />
+              </node>
+              <node concept="3clFbT" id="2Qyt1JMNWKE" role="37wK5m">
+                <property role="3clFbU" value="true" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="2Qyt1JMOXOu" role="3cqZAp">
+          <node concept="37vLTI" id="2Qyt1JMOYCt" role="3clFbG">
+            <node concept="37vLTw" id="2Qyt1JMOZ4j" role="37vLTx">
+              <ref role="3cqZAo" node="2Qyt1JMOVzx" resolve="imagePath" />
+            </node>
+            <node concept="2OqwBi" id="2Qyt1JMOXRg" role="37vLTJ">
+              <node concept="Xjq3P" id="2Qyt1JMOXOs" role="2Oq$k0" />
+              <node concept="2OwXpG" id="2Qyt1JMOYef" role="2OqNvi">
+                <ref role="2Oxat5" node="2Qyt1JMOTUK" resolve="imagePath" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tmbuc" id="2Qyt1JMNWKI" role="1B3o_S" />
+    </node>
+    <node concept="2YIFZL" id="2Qyt1JMNWKJ" role="jymVt">
+      <property role="TrG5h" value="createImageCell" />
+      <property role="DiZV1" value="false" />
+      <property role="od$2w" value="false" />
+      <node concept="37vLTG" id="2Qyt1JMNWKK" role="3clF46">
+        <property role="TrG5h" value="editorContext" />
+        <property role="3TUv4t" value="false" />
+        <node concept="3uibUv" id="2Qyt1JMO8pr" role="1tU5fm">
+          <ref role="3uigEE" to="cj4x:~EditorContext" resolve="EditorContext" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="2Qyt1JMNWKM" role="3clF46">
+        <property role="TrG5h" value="node" />
+        <property role="3TUv4t" value="false" />
+        <node concept="3uibUv" id="2Qyt1JMO9mN" role="1tU5fm">
+          <ref role="3uigEE" to="mhbf:~SNode" resolve="SNode" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="2Qyt1JMNWKO" role="3clF46">
+        <property role="TrG5h" value="imageFileName" />
+        <property role="3TUv4t" value="false" />
+        <node concept="17QB3L" id="2Qyt1JMORKy" role="1tU5fm" />
+      </node>
+      <node concept="3clFbS" id="2Qyt1JMNWKQ" role="3clF47">
+        <node concept="3cpWs6" id="2Qyt1JMNWKR" role="3cqZAp">
+          <node concept="1rXfSq" id="2Qyt1JMNWKS" role="3cqZAk">
+            <ref role="37wK5l" node="2Qyt1JMNWKZ" resolve="createImageCellWithIcon" />
+            <node concept="37vLTw" id="2Qyt1JMNWKT" role="37wK5m">
+              <ref role="3cqZAo" node="2Qyt1JMNWKK" resolve="editorContext" />
+            </node>
+            <node concept="37vLTw" id="2Qyt1JMNWKU" role="37wK5m">
+              <ref role="3cqZAo" node="2Qyt1JMNWKM" resolve="node" />
+            </node>
+            <node concept="10Nm6u" id="2Qyt1JMNWKV" role="37wK5m" />
+            <node concept="37vLTw" id="2Qyt1JMNWKW" role="37wK5m">
+              <ref role="3cqZAo" node="2Qyt1JMNWKO" resolve="imageFileName" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="2Qyt1JMNWKX" role="1B3o_S" />
+      <node concept="3uibUv" id="2Qyt1JMOEk3" role="3clF45">
+        <ref role="3uigEE" node="2Qyt1JMNW7M" resolve="EditorCell_RefreshableImage2" />
+      </node>
+    </node>
+    <node concept="2YIFZL" id="2Qyt1JMNWKZ" role="jymVt">
+      <property role="TrG5h" value="createImageCellWithIcon" />
+      <property role="DiZV1" value="false" />
+      <property role="od$2w" value="false" />
+      <node concept="37vLTG" id="2Qyt1JMNWL0" role="3clF46">
+        <property role="TrG5h" value="editorContext" />
+        <property role="3TUv4t" value="false" />
+        <node concept="3uibUv" id="2Qyt1JMOadR" role="1tU5fm">
+          <ref role="3uigEE" to="cj4x:~EditorContext" resolve="EditorContext" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="2Qyt1JMNWL2" role="3clF46">
+        <property role="TrG5h" value="node" />
+        <property role="3TUv4t" value="false" />
+        <node concept="3uibUv" id="2Qyt1JMOb2p" role="1tU5fm">
+          <ref role="3uigEE" to="mhbf:~SNode" resolve="SNode" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="2Qyt1JMNWL4" role="3clF46">
+        <property role="TrG5h" value="imageModule" />
+        <property role="3TUv4t" value="false" />
+        <node concept="2AHcQZ" id="2Qyt1JMNWL5" role="2AJF6D">
+          <ref role="2AI5Lk" to="mhfm:~Nullable" resolve="Nullable" />
+        </node>
+        <node concept="3uibUv" id="2Qyt1JMNWL6" role="1tU5fm">
+          <ref role="3uigEE" to="lui2:~SModule" resolve="SModule" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="2Qyt1JMNWL7" role="3clF46">
+        <property role="TrG5h" value="imagePath" />
+        <property role="3TUv4t" value="false" />
+        <node concept="17QB3L" id="2Qyt1JMORgS" role="1tU5fm" />
+      </node>
+      <node concept="3clFbS" id="2Qyt1JMNWL9" role="3clF47">
+        <node concept="3cpWs8" id="2Qyt1JMNWLb" role="3cqZAp">
+          <node concept="3cpWsn" id="2Qyt1JMNWLa" role="3cpWs9">
+            <property role="3TUv4t" value="false" />
+            <property role="TrG5h" value="result" />
+            <node concept="3uibUv" id="2Qyt1JMODiu" role="1tU5fm">
+              <ref role="3uigEE" node="2Qyt1JMNW7M" resolve="EditorCell_RefreshableImage2" />
+            </node>
+            <node concept="2ShNRf" id="2Qyt1JMNWRH" role="33vP2m">
+              <node concept="1pGfFk" id="2Qyt1JMNWRI" role="2ShVmc">
+                <ref role="37wK5l" node="2Qyt1JMNWKo" resolve="EditorCell_RefreshableImage2" />
+                <node concept="37vLTw" id="2Qyt1JMNWLe" role="37wK5m">
+                  <ref role="3cqZAo" node="2Qyt1JMNWL0" resolve="editorContext" />
+                </node>
+                <node concept="37vLTw" id="2Qyt1JMNWLf" role="37wK5m">
+                  <ref role="3cqZAo" node="2Qyt1JMNWL2" resolve="node" />
+                </node>
+                <node concept="37vLTw" id="2Qyt1JMOZIO" role="37wK5m">
+                  <ref role="3cqZAo" node="2Qyt1JMNWL7" resolve="imagePath" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="2Qyt1JMNWLg" role="3cqZAp">
+          <node concept="2OqwBi" id="2Qyt1JMNWRL" role="3clFbG">
+            <node concept="37vLTw" id="2Qyt1JMNWRK" role="2Oq$k0">
+              <ref role="3cqZAo" node="2Qyt1JMNWLa" resolve="result" />
+            </node>
+            <node concept="liA8E" id="2Qyt1JMNWRM" role="2OqNvi">
+              <ref role="37wK5l" node="2Qyt1JMNWRk" resolve="setIcon" />
+              <node concept="1rXfSq" id="2Qyt1JMNWLi" role="37wK5m">
+                <ref role="37wK5l" node="2Qyt1JMNWQu" resolve="loadIcon" />
+                <node concept="37vLTw" id="2Qyt1JMNWLj" role="37wK5m">
+                  <ref role="3cqZAo" node="2Qyt1JMNWL0" resolve="editorContext" />
+                </node>
+                <node concept="37vLTw" id="2Qyt1JMNWLk" role="37wK5m">
+                  <ref role="3cqZAo" node="2Qyt1JMNWL4" resolve="imageModule" />
+                </node>
+                <node concept="37vLTw" id="2Qyt1JMNWLl" role="37wK5m">
+                  <ref role="3cqZAo" node="2Qyt1JMNWL7" resolve="imagePath" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs6" id="2Qyt1JMNWLm" role="3cqZAp">
+          <node concept="37vLTw" id="2Qyt1JMNWLn" role="3cqZAk">
+            <ref role="3cqZAo" node="2Qyt1JMNWLa" resolve="result" />
+          </node>
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="2Qyt1JMNWLo" role="1B3o_S" />
+      <node concept="3uibUv" id="2Qyt1JMOCBn" role="3clF45">
+        <ref role="3uigEE" node="2Qyt1JMNW7M" resolve="EditorCell_RefreshableImage2" />
+      </node>
+    </node>
+    <node concept="2YIFZL" id="2Qyt1JMNWLq" role="jymVt">
+      <property role="TrG5h" value="createImageCell" />
+      <property role="DiZV1" value="false" />
+      <property role="od$2w" value="false" />
+      <node concept="37vLTG" id="2Qyt1JMNWLr" role="3clF46">
+        <property role="TrG5h" value="editorContext" />
+        <property role="3TUv4t" value="false" />
+        <node concept="3uibUv" id="2Qyt1JMOESo" role="1tU5fm">
+          <ref role="3uigEE" to="cj4x:~EditorContext" resolve="EditorContext" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="2Qyt1JMNWLt" role="3clF46">
+        <property role="TrG5h" value="node" />
+        <property role="3TUv4t" value="false" />
+        <node concept="3uibUv" id="2Qyt1JMOFps" role="1tU5fm">
+          <ref role="3uigEE" to="mhbf:~SNode" resolve="SNode" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="2Qyt1JMNWLv" role="3clF46">
+        <property role="TrG5h" value="image" />
+        <property role="3TUv4t" value="false" />
+        <node concept="3uibUv" id="2Qyt1JMNWLw" role="1tU5fm">
+          <ref role="3uigEE" to="z60i:~Image" resolve="Image" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="2Qyt1JMOQ3r" role="3clF46">
+        <property role="TrG5h" value="imagePath" />
+        <node concept="17QB3L" id="2Qyt1JMOQ_c" role="1tU5fm" />
+      </node>
+      <node concept="3clFbS" id="2Qyt1JMNWLx" role="3clF47">
+        <node concept="3cpWs8" id="2Qyt1JMNWLz" role="3cqZAp">
+          <node concept="3cpWsn" id="2Qyt1JMNWLy" role="3cpWs9">
+            <property role="3TUv4t" value="false" />
+            <property role="TrG5h" value="result" />
+            <node concept="3uibUv" id="2Qyt1JMOGDR" role="1tU5fm">
+              <ref role="3uigEE" node="2Qyt1JMNW7M" resolve="EditorCell_RefreshableImage2" />
+            </node>
+            <node concept="2ShNRf" id="2Qyt1JMNWRN" role="33vP2m">
+              <node concept="1pGfFk" id="2Qyt1JMNWRO" role="2ShVmc">
+                <ref role="37wK5l" node="2Qyt1JMNWKo" resolve="EditorCell_RefreshableImage2" />
+                <node concept="37vLTw" id="2Qyt1JMNWLA" role="37wK5m">
+                  <ref role="3cqZAo" node="2Qyt1JMNWLr" resolve="editorContext" />
+                </node>
+                <node concept="37vLTw" id="2Qyt1JMNWLB" role="37wK5m">
+                  <ref role="3cqZAo" node="2Qyt1JMNWLt" resolve="node" />
+                </node>
+                <node concept="37vLTw" id="2Qyt1JMP14$" role="37wK5m">
+                  <ref role="3cqZAo" node="2Qyt1JMOQ3r" resolve="imagePath" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="2Qyt1JMNWLC" role="3cqZAp">
+          <node concept="2OqwBi" id="2Qyt1JMNWRR" role="3clFbG">
+            <node concept="37vLTw" id="2Qyt1JMNWRQ" role="2Oq$k0">
+              <ref role="3cqZAo" node="2Qyt1JMNWLy" resolve="result" />
+            </node>
+            <node concept="liA8E" id="2Qyt1JMNWRS" role="2OqNvi">
+              <ref role="37wK5l" node="2Qyt1JMNWR5" resolve="setImage" />
+              <node concept="37vLTw" id="2Qyt1JMNWLE" role="37wK5m">
+                <ref role="3cqZAo" node="2Qyt1JMNWLv" resolve="image" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs6" id="2Qyt1JMNWLF" role="3cqZAp">
+          <node concept="37vLTw" id="2Qyt1JMNWLG" role="3cqZAk">
+            <ref role="3cqZAo" node="2Qyt1JMNWLy" resolve="result" />
+          </node>
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="2Qyt1JMNWLH" role="1B3o_S" />
+      <node concept="3uibUv" id="2Qyt1JMOFOc" role="3clF45">
+        <ref role="3uigEE" node="2Qyt1JMNW7M" resolve="EditorCell_RefreshableImage2" />
+      </node>
+    </node>
+    <node concept="3clFb_" id="2Qyt1JMNWLJ" role="jymVt">
+      <property role="TrG5h" value="paintContent" />
+      <property role="DiZV1" value="false" />
+      <property role="od$2w" value="false" />
+      <node concept="2AHcQZ" id="2Qyt1JMNWLK" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+      <node concept="37vLTG" id="2Qyt1JMNWLL" role="3clF46">
+        <property role="TrG5h" value="g" />
+        <property role="3TUv4t" value="false" />
+        <node concept="3uibUv" id="2Qyt1JMNWLM" role="1tU5fm">
+          <ref role="3uigEE" to="z60i:~Graphics" resolve="Graphics" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="2Qyt1JMNWLN" role="3clF46">
+        <property role="TrG5h" value="parentSettings" />
+        <property role="3TUv4t" value="false" />
+        <node concept="3uibUv" id="2Qyt1JMNWLO" role="1tU5fm">
+          <ref role="3uigEE" to="g51k:~ParentSettings" resolve="ParentSettings" />
+        </node>
+      </node>
+      <node concept="3clFbS" id="2Qyt1JMNWLP" role="3clF47">
+        <node concept="3clFbJ" id="2Qyt1JMNWLQ" role="3cqZAp">
+          <node concept="3clFbC" id="2Qyt1JMNWLR" role="3clFbw">
+            <node concept="37vLTw" id="2Qyt1JMNWLS" role="3uHU7B">
+              <ref role="3cqZAo" node="2Qyt1JMNWKe" resolve="myIcon" />
+            </node>
+            <node concept="10Nm6u" id="2Qyt1JMNWLT" role="3uHU7w" />
+          </node>
+          <node concept="3clFbS" id="2Qyt1JMNWLV" role="3clFbx">
+            <node concept="3cpWs6" id="2Qyt1JMNWLU" role="3cqZAp" />
+          </node>
+        </node>
+        <node concept="3KaCP$" id="2Qyt1JMNWLX" role="3cqZAp">
+          <node concept="37vLTw" id="2Qyt1JMNWLW" role="3KbGdf">
+            <ref role="3cqZAo" node="2Qyt1JMNWK9" resolve="myAlignment" />
+          </node>
+          <node concept="3clFbS" id="2Qyt1JMNWLY" role="3Kb1Dw" />
+          <node concept="3KbdKl" id="2Qyt1JMNWM0" role="3KbHQx">
+            <node concept="Rm8GO" id="2Qyt1JMNXag" role="3Kbmr1">
+              <ref role="1Px2BO" node="2Qyt1JMNWRu" resolve="EditorCell_RefreshableImage2.ImageAlignment" />
+              <ref role="Rm8GQ" node="2Qyt1JMNWRx" resolve="justify" />
+            </node>
+            <node concept="3clFbS" id="2Qyt1JMNWM1" role="3Kbo56">
+              <node concept="9aQIb" id="2Qyt1JMNWM2" role="3cqZAp">
+                <node concept="3clFbS" id="2Qyt1JMNWM3" role="9aQI4">
+                  <node concept="3clFbJ" id="2Qyt1JMNWM4" role="3cqZAp">
+                    <node concept="22lmx$" id="2Qyt1JMNWM5" role="3clFbw">
+                      <node concept="1eOMI4" id="2Qyt1JMNWMe" role="3uHU7B">
+                        <node concept="1Wc70l" id="2Qyt1JMNWM6" role="1eOMHV">
+                          <node concept="3y3z36" id="2Qyt1JMNWM7" role="3uHU7B">
+                            <node concept="37vLTw" id="2Qyt1JMNWM8" role="3uHU7B">
+                              <ref role="3cqZAo" to="g51k:~EditorCell_Basic.myWidth" resolve="myWidth" />
+                            </node>
+                            <node concept="1ZRNhn" id="2Qyt1JMNWM9" role="3uHU7w">
+                              <node concept="3cmrfG" id="2Qyt1JMNWMa" role="2$L3a6">
+                                <property role="3cmrfH" value="1" />
+                              </node>
+                            </node>
+                          </node>
+                          <node concept="3y3z36" id="2Qyt1JMNWMb" role="3uHU7w">
+                            <node concept="37vLTw" id="2Qyt1JMNWMc" role="3uHU7B">
+                              <ref role="3cqZAo" to="g51k:~EditorCell_Basic.myWidth" resolve="myWidth" />
+                            </node>
+                            <node concept="2OqwBi" id="2Qyt1JMNWRV" role="3uHU7w">
+                              <node concept="37vLTw" id="2Qyt1JMNWRU" role="2Oq$k0">
+                                <ref role="3cqZAo" node="2Qyt1JMNWKe" resolve="myIcon" />
+                              </node>
+                              <node concept="liA8E" id="2Qyt1JMNWRW" role="2OqNvi">
+                                <ref role="37wK5l" to="dxuu:~Icon.getIconWidth():int" resolve="getIconWidth" />
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="1eOMI4" id="2Qyt1JMNWMn" role="3uHU7w">
+                        <node concept="1Wc70l" id="2Qyt1JMNWMf" role="1eOMHV">
+                          <node concept="3y3z36" id="2Qyt1JMNWMg" role="3uHU7B">
+                            <node concept="37vLTw" id="2Qyt1JMNWMh" role="3uHU7B">
+                              <ref role="3cqZAo" to="g51k:~EditorCell_Basic.myHeight" resolve="myHeight" />
+                            </node>
+                            <node concept="1ZRNhn" id="2Qyt1JMNWMi" role="3uHU7w">
+                              <node concept="3cmrfG" id="2Qyt1JMNWMj" role="2$L3a6">
+                                <property role="3cmrfH" value="1" />
+                              </node>
+                            </node>
+                          </node>
+                          <node concept="3y3z36" id="2Qyt1JMNWMk" role="3uHU7w">
+                            <node concept="37vLTw" id="2Qyt1JMNWMl" role="3uHU7B">
+                              <ref role="3cqZAo" to="g51k:~EditorCell_Basic.myHeight" resolve="myHeight" />
+                            </node>
+                            <node concept="2OqwBi" id="2Qyt1JMNWRZ" role="3uHU7w">
+                              <node concept="37vLTw" id="2Qyt1JMNWRY" role="2Oq$k0">
+                                <ref role="3cqZAo" node="2Qyt1JMNWKe" resolve="myIcon" />
+                              </node>
+                              <node concept="liA8E" id="2Qyt1JMNWS0" role="2OqNvi">
+                                <ref role="37wK5l" to="dxuu:~Icon.getIconHeight():int" resolve="getIconHeight" />
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="9aQIb" id="2Qyt1JMNWMt" role="9aQIa">
+                      <node concept="3clFbS" id="2Qyt1JMNWMu" role="9aQI4">
+                        <node concept="3clFbF" id="2Qyt1JMNWMv" role="3cqZAp">
+                          <node concept="2OqwBi" id="2Qyt1JMNWS3" role="3clFbG">
+                            <node concept="37vLTw" id="2Qyt1JMNWS2" role="2Oq$k0">
+                              <ref role="3cqZAo" node="2Qyt1JMNWKe" resolve="myIcon" />
+                            </node>
+                            <node concept="liA8E" id="2Qyt1JMNWS4" role="2OqNvi">
+                              <ref role="37wK5l" to="dxuu:~Icon.paintIcon(java.awt.Component,java.awt.Graphics,int,int):void" resolve="paintIcon" />
+                              <node concept="1rXfSq" id="2Qyt1JMNWMx" role="37wK5m">
+                                <ref role="37wK5l" to="g51k:~EditorCell_Basic.getEditor():jetbrains.mps.nodeEditor.EditorComponent" resolve="getEditor" />
+                              </node>
+                              <node concept="37vLTw" id="2Qyt1JMNWMy" role="37wK5m">
+                                <ref role="3cqZAo" node="2Qyt1JMNWLL" resolve="g" />
+                              </node>
+                              <node concept="37vLTw" id="2Qyt1JMNWMz" role="37wK5m">
+                                <ref role="3cqZAo" to="g51k:~EditorCell_Basic.myX" resolve="myX" />
+                              </node>
+                              <node concept="37vLTw" id="2Qyt1JMNWM$" role="37wK5m">
+                                <ref role="3cqZAo" to="g51k:~EditorCell_Basic.myY" resolve="myY" />
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="3clFbS" id="2Qyt1JMNWMp" role="3clFbx">
+                      <node concept="3clFbF" id="2Qyt1JMNWMq" role="3cqZAp">
+                        <node concept="1rXfSq" id="2Qyt1JMNWMr" role="3clFbG">
+                          <ref role="37wK5l" node="2Qyt1JMNWNg" resolve="paintIconScaled" />
+                          <node concept="37vLTw" id="2Qyt1JMNWMs" role="37wK5m">
+                            <ref role="3cqZAo" node="2Qyt1JMNWLL" resolve="g" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3zACq4" id="2Qyt1JMNWM_" role="3cqZAp" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3KbdKl" id="2Qyt1JMNWMB" role="3KbHQx">
+            <node concept="Rm8GO" id="2Qyt1JMNXaA" role="3Kbmr1">
+              <ref role="1Px2BO" node="2Qyt1JMNWRu" resolve="EditorCell_RefreshableImage2.ImageAlignment" />
+              <ref role="Rm8GQ" node="2Qyt1JMNWRz" resolve="center" />
+            </node>
+            <node concept="3clFbS" id="2Qyt1JMNWMC" role="3Kbo56">
+              <node concept="9aQIb" id="2Qyt1JMNWMD" role="3cqZAp">
+                <node concept="3clFbS" id="2Qyt1JMNWME" role="9aQI4">
+                  <node concept="3cpWs8" id="2Qyt1JMNWMG" role="3cqZAp">
+                    <node concept="3cpWsn" id="2Qyt1JMNWMF" role="3cpWs9">
+                      <property role="3TUv4t" value="false" />
+                      <property role="TrG5h" value="x" />
+                      <node concept="10Oyi0" id="2Qyt1JMNWMH" role="1tU5fm" />
+                      <node concept="3cpWs3" id="2Qyt1JMNWMI" role="33vP2m">
+                        <node concept="37vLTw" id="2Qyt1JMNWMJ" role="3uHU7B">
+                          <ref role="3cqZAo" to="g51k:~EditorCell_Basic.myX" resolve="myX" />
+                        </node>
+                        <node concept="FJ1c_" id="2Qyt1JMNWMK" role="3uHU7w">
+                          <node concept="1eOMI4" id="2Qyt1JMNWMO" role="3uHU7B">
+                            <node concept="3cpWsd" id="2Qyt1JMNWML" role="1eOMHV">
+                              <node concept="37vLTw" id="2Qyt1JMNWMM" role="3uHU7B">
+                                <ref role="3cqZAo" to="g51k:~EditorCell_Basic.myWidth" resolve="myWidth" />
+                              </node>
+                              <node concept="2OqwBi" id="2Qyt1JMNWS7" role="3uHU7w">
+                                <node concept="37vLTw" id="2Qyt1JMNWS6" role="2Oq$k0">
+                                  <ref role="3cqZAo" node="2Qyt1JMNWKe" resolve="myIcon" />
+                                </node>
+                                <node concept="liA8E" id="2Qyt1JMNWS8" role="2OqNvi">
+                                  <ref role="37wK5l" to="dxuu:~Icon.getIconWidth():int" resolve="getIconWidth" />
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                          <node concept="3cmrfG" id="2Qyt1JMNWMP" role="3uHU7w">
+                            <property role="3cmrfH" value="2" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3cpWs8" id="2Qyt1JMNWMR" role="3cqZAp">
+                    <node concept="3cpWsn" id="2Qyt1JMNWMQ" role="3cpWs9">
+                      <property role="3TUv4t" value="false" />
+                      <property role="TrG5h" value="y" />
+                      <node concept="10Oyi0" id="2Qyt1JMNWMS" role="1tU5fm" />
+                      <node concept="3cpWs3" id="2Qyt1JMNWMT" role="33vP2m">
+                        <node concept="37vLTw" id="2Qyt1JMNWMU" role="3uHU7B">
+                          <ref role="3cqZAo" to="g51k:~EditorCell_Basic.myY" resolve="myY" />
+                        </node>
+                        <node concept="FJ1c_" id="2Qyt1JMNWMV" role="3uHU7w">
+                          <node concept="1eOMI4" id="2Qyt1JMNWMZ" role="3uHU7B">
+                            <node concept="3cpWsd" id="2Qyt1JMNWMW" role="1eOMHV">
+                              <node concept="37vLTw" id="2Qyt1JMNWMX" role="3uHU7B">
+                                <ref role="3cqZAo" to="g51k:~EditorCell_Basic.myHeight" resolve="myHeight" />
+                              </node>
+                              <node concept="2OqwBi" id="2Qyt1JMNWSb" role="3uHU7w">
+                                <node concept="37vLTw" id="2Qyt1JMNWSa" role="2Oq$k0">
+                                  <ref role="3cqZAo" node="2Qyt1JMNWKe" resolve="myIcon" />
+                                </node>
+                                <node concept="liA8E" id="2Qyt1JMNWSc" role="2OqNvi">
+                                  <ref role="37wK5l" to="dxuu:~Icon.getIconHeight():int" resolve="getIconHeight" />
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                          <node concept="3cmrfG" id="2Qyt1JMNWN0" role="3uHU7w">
+                            <property role="3cmrfH" value="2" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3clFbF" id="2Qyt1JMNWN1" role="3cqZAp">
+                    <node concept="2OqwBi" id="2Qyt1JMNWSf" role="3clFbG">
+                      <node concept="37vLTw" id="2Qyt1JMNWSe" role="2Oq$k0">
+                        <ref role="3cqZAo" node="2Qyt1JMNWKe" resolve="myIcon" />
+                      </node>
+                      <node concept="liA8E" id="2Qyt1JMNWSg" role="2OqNvi">
+                        <ref role="37wK5l" to="dxuu:~Icon.paintIcon(java.awt.Component,java.awt.Graphics,int,int):void" resolve="paintIcon" />
+                        <node concept="1rXfSq" id="2Qyt1JMNWN3" role="37wK5m">
+                          <ref role="37wK5l" to="g51k:~EditorCell_Basic.getEditor():jetbrains.mps.nodeEditor.EditorComponent" resolve="getEditor" />
+                        </node>
+                        <node concept="37vLTw" id="2Qyt1JMNWN4" role="37wK5m">
+                          <ref role="3cqZAo" node="2Qyt1JMNWLL" resolve="g" />
+                        </node>
+                        <node concept="37vLTw" id="2Qyt1JMNWN5" role="37wK5m">
+                          <ref role="3cqZAo" node="2Qyt1JMNWMF" resolve="x" />
+                        </node>
+                        <node concept="37vLTw" id="2Qyt1JMNWN6" role="37wK5m">
+                          <ref role="3cqZAo" node="2Qyt1JMNWMQ" resolve="y" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3zACq4" id="2Qyt1JMNWN7" role="3cqZAp" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3KbdKl" id="2Qyt1JMNWN9" role="3KbHQx">
+            <node concept="Rm8GO" id="2Qyt1JMNXaW" role="3Kbmr1">
+              <ref role="1Px2BO" node="2Qyt1JMNWRu" resolve="EditorCell_RefreshableImage2.ImageAlignment" />
+              <ref role="Rm8GQ" node="2Qyt1JMNWR_" resolve="title" />
+            </node>
+            <node concept="3clFbS" id="2Qyt1JMNWNa" role="3Kbo56">
+              <node concept="9aQIb" id="2Qyt1JMNWNb" role="3cqZAp">
+                <node concept="3clFbS" id="2Qyt1JMNWNc" role="9aQI4">
+                  <node concept="3zACq4" id="2Qyt1JMNWNd" role="3cqZAp" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tmbuc" id="2Qyt1JMNWNe" role="1B3o_S" />
+      <node concept="3cqZAl" id="2Qyt1JMNWNf" role="3clF45" />
+    </node>
+    <node concept="3clFb_" id="2Qyt1JMNWNg" role="jymVt">
+      <property role="TrG5h" value="paintIconScaled" />
+      <property role="DiZV1" value="false" />
+      <property role="od$2w" value="false" />
+      <node concept="37vLTG" id="2Qyt1JMNWNh" role="3clF46">
+        <property role="TrG5h" value="g" />
+        <property role="3TUv4t" value="false" />
+        <node concept="3uibUv" id="2Qyt1JMNWNi" role="1tU5fm">
+          <ref role="3uigEE" to="z60i:~Graphics" resolve="Graphics" />
+        </node>
+      </node>
+      <node concept="3clFbS" id="2Qyt1JMNWNj" role="3clF47">
+        <node concept="3cpWs8" id="2Qyt1JMNWNl" role="3cqZAp">
+          <node concept="3cpWsn" id="2Qyt1JMNWNk" role="3cpWs9">
+            <property role="3TUv4t" value="false" />
+            <property role="TrG5h" value="iconWidth" />
+            <node concept="10Oyi0" id="2Qyt1JMNWNm" role="1tU5fm" />
+            <node concept="2OqwBi" id="2Qyt1JMNWSj" role="33vP2m">
+              <node concept="37vLTw" id="2Qyt1JMNWSi" role="2Oq$k0">
+                <ref role="3cqZAo" node="2Qyt1JMNWKe" resolve="myIcon" />
+              </node>
+              <node concept="liA8E" id="2Qyt1JMNWSk" role="2OqNvi">
+                <ref role="37wK5l" to="dxuu:~Icon.getIconWidth():int" resolve="getIconWidth" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="2Qyt1JMNWNp" role="3cqZAp">
+          <node concept="3cpWsn" id="2Qyt1JMNWNo" role="3cpWs9">
+            <property role="3TUv4t" value="false" />
+            <property role="TrG5h" value="iconHeight" />
+            <node concept="10Oyi0" id="2Qyt1JMNWNq" role="1tU5fm" />
+            <node concept="2OqwBi" id="2Qyt1JMNWSn" role="33vP2m">
+              <node concept="37vLTw" id="2Qyt1JMNWSm" role="2Oq$k0">
+                <ref role="3cqZAo" node="2Qyt1JMNWKe" resolve="myIcon" />
+              </node>
+              <node concept="liA8E" id="2Qyt1JMNWSo" role="2OqNvi">
+                <ref role="37wK5l" to="dxuu:~Icon.getIconHeight():int" resolve="getIconHeight" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbJ" id="2Qyt1JMNWNs" role="3cqZAp">
+          <node concept="22lmx$" id="2Qyt1JMNWNt" role="3clFbw">
+            <node concept="2dkUwp" id="2Qyt1JMNWNu" role="3uHU7B">
+              <node concept="37vLTw" id="2Qyt1JMNWNv" role="3uHU7B">
+                <ref role="3cqZAo" node="2Qyt1JMNWNk" resolve="iconWidth" />
+              </node>
+              <node concept="3cmrfG" id="2Qyt1JMNWNw" role="3uHU7w">
+                <property role="3cmrfH" value="0" />
+              </node>
+            </node>
+            <node concept="2dkUwp" id="2Qyt1JMNWNx" role="3uHU7w">
+              <node concept="37vLTw" id="2Qyt1JMNWNy" role="3uHU7B">
+                <ref role="3cqZAo" node="2Qyt1JMNWNo" resolve="iconHeight" />
+              </node>
+              <node concept="3cmrfG" id="2Qyt1JMNWNz" role="3uHU7w">
+                <property role="3cmrfH" value="0" />
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbS" id="2Qyt1JMNWN_" role="3clFbx">
+            <node concept="3cpWs6" id="2Qyt1JMNWNA" role="3cqZAp" />
+          </node>
+        </node>
+        <node concept="3cpWs8" id="2Qyt1JMNWNC" role="3cqZAp">
+          <node concept="3cpWsn" id="2Qyt1JMNWNB" role="3cpWs9">
+            <property role="3TUv4t" value="false" />
+            <property role="TrG5h" value="sx" />
+            <node concept="10P55v" id="2Qyt1JMNWND" role="1tU5fm" />
+            <node concept="FJ1c_" id="2Qyt1JMNWNE" role="33vP2m">
+              <node concept="10QFUN" id="2Qyt1JMNWNF" role="3uHU7B">
+                <node concept="37vLTw" id="2Qyt1JMNWNG" role="10QFUP">
+                  <ref role="3cqZAo" to="g51k:~EditorCell_Basic.myWidth" resolve="myWidth" />
+                </node>
+                <node concept="10P55v" id="2Qyt1JMNWNH" role="10QFUM" />
+              </node>
+              <node concept="10QFUN" id="2Qyt1JMNWNI" role="3uHU7w">
+                <node concept="37vLTw" id="2Qyt1JMNWNJ" role="10QFUP">
+                  <ref role="3cqZAo" node="2Qyt1JMNWNk" resolve="iconWidth" />
+                </node>
+                <node concept="10P55v" id="2Qyt1JMNWNK" role="10QFUM" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="2Qyt1JMNWNM" role="3cqZAp">
+          <node concept="3cpWsn" id="2Qyt1JMNWNL" role="3cpWs9">
+            <property role="3TUv4t" value="false" />
+            <property role="TrG5h" value="sy" />
+            <node concept="10P55v" id="2Qyt1JMNWNN" role="1tU5fm" />
+            <node concept="FJ1c_" id="2Qyt1JMNWNO" role="33vP2m">
+              <node concept="10QFUN" id="2Qyt1JMNWNP" role="3uHU7B">
+                <node concept="37vLTw" id="2Qyt1JMNWNQ" role="10QFUP">
+                  <ref role="3cqZAo" to="g51k:~EditorCell_Basic.myHeight" resolve="myHeight" />
+                </node>
+                <node concept="10P55v" id="2Qyt1JMNWNR" role="10QFUM" />
+              </node>
+              <node concept="10QFUN" id="2Qyt1JMNWNS" role="3uHU7w">
+                <node concept="37vLTw" id="2Qyt1JMNWNT" role="10QFUP">
+                  <ref role="3cqZAo" node="2Qyt1JMNWNo" resolve="iconHeight" />
+                </node>
+                <node concept="10P55v" id="2Qyt1JMNWNU" role="10QFUM" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="2Qyt1JMNWNW" role="3cqZAp">
+          <node concept="3cpWsn" id="2Qyt1JMNWNV" role="3cpWs9">
+            <property role="3TUv4t" value="false" />
+            <property role="TrG5h" value="gscaled" />
+            <node concept="3uibUv" id="2Qyt1JMNWNX" role="1tU5fm">
+              <ref role="3uigEE" to="z60i:~Graphics2D" resolve="Graphics2D" />
+            </node>
+            <node concept="10QFUN" id="2Qyt1JMNWNY" role="33vP2m">
+              <node concept="2OqwBi" id="2Qyt1JMNWSr" role="10QFUP">
+                <node concept="37vLTw" id="2Qyt1JMNWSq" role="2Oq$k0">
+                  <ref role="3cqZAo" node="2Qyt1JMNWNh" resolve="g" />
+                </node>
+                <node concept="liA8E" id="2Qyt1JMNWSs" role="2OqNvi">
+                  <ref role="37wK5l" to="z60i:~Graphics.create():java.awt.Graphics" resolve="create" />
+                </node>
+              </node>
+              <node concept="3uibUv" id="2Qyt1JMNWO0" role="10QFUM">
+                <ref role="3uigEE" to="z60i:~Graphics2D" resolve="Graphics2D" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="2Qyt1JMNWO1" role="3cqZAp">
+          <node concept="2OqwBi" id="2Qyt1JMNWSv" role="3clFbG">
+            <node concept="37vLTw" id="2Qyt1JMNWSu" role="2Oq$k0">
+              <ref role="3cqZAo" node="2Qyt1JMNWNV" resolve="gscaled" />
+            </node>
+            <node concept="liA8E" id="2Qyt1JMNWSw" role="2OqNvi">
+              <ref role="37wK5l" to="z60i:~Graphics2D.translate(int,int):void" resolve="translate" />
+              <node concept="37vLTw" id="2Qyt1JMNWO3" role="37wK5m">
+                <ref role="3cqZAo" to="g51k:~EditorCell_Basic.myX" resolve="myX" />
+              </node>
+              <node concept="37vLTw" id="2Qyt1JMNWO4" role="37wK5m">
+                <ref role="3cqZAo" to="g51k:~EditorCell_Basic.myY" resolve="myY" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="2Qyt1JMNWO5" role="3cqZAp">
+          <node concept="2OqwBi" id="2Qyt1JMNWSz" role="3clFbG">
+            <node concept="37vLTw" id="2Qyt1JMNWSy" role="2Oq$k0">
+              <ref role="3cqZAo" node="2Qyt1JMNWNV" resolve="gscaled" />
+            </node>
+            <node concept="liA8E" id="2Qyt1JMNWS$" role="2OqNvi">
+              <ref role="37wK5l" to="z60i:~Graphics2D.scale(double,double):void" resolve="scale" />
+              <node concept="37vLTw" id="2Qyt1JMNWO7" role="37wK5m">
+                <ref role="3cqZAo" node="2Qyt1JMNWNB" resolve="sx" />
+              </node>
+              <node concept="37vLTw" id="2Qyt1JMNWO8" role="37wK5m">
+                <ref role="3cqZAo" node="2Qyt1JMNWNL" resolve="sy" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="2Qyt1JMNWO9" role="3cqZAp">
+          <node concept="2OqwBi" id="2Qyt1JMNWSB" role="3clFbG">
+            <node concept="37vLTw" id="2Qyt1JMNWSA" role="2Oq$k0">
+              <ref role="3cqZAo" node="2Qyt1JMNWKe" resolve="myIcon" />
+            </node>
+            <node concept="liA8E" id="2Qyt1JMNWSC" role="2OqNvi">
+              <ref role="37wK5l" to="dxuu:~Icon.paintIcon(java.awt.Component,java.awt.Graphics,int,int):void" resolve="paintIcon" />
+              <node concept="1rXfSq" id="2Qyt1JMNWOb" role="37wK5m">
+                <ref role="37wK5l" to="g51k:~EditorCell_Basic.getEditor():jetbrains.mps.nodeEditor.EditorComponent" resolve="getEditor" />
+              </node>
+              <node concept="37vLTw" id="2Qyt1JMNWOc" role="37wK5m">
+                <ref role="3cqZAo" node="2Qyt1JMNWNV" resolve="gscaled" />
+              </node>
+              <node concept="3cmrfG" id="2Qyt1JMNWOd" role="37wK5m">
+                <property role="3cmrfH" value="0" />
+              </node>
+              <node concept="3cmrfG" id="2Qyt1JMNWOe" role="37wK5m">
+                <property role="3cmrfH" value="0" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tm6S6" id="2Qyt1JMNWOf" role="1B3o_S" />
+      <node concept="3cqZAl" id="2Qyt1JMNWOg" role="3clF45" />
+    </node>
+    <node concept="3clFb_" id="2Qyt1JMNWOh" role="jymVt">
+      <property role="TrG5h" value="relayoutImpl" />
+      <property role="DiZV1" value="false" />
+      <property role="od$2w" value="false" />
+      <node concept="2AHcQZ" id="2Qyt1JMNWOi" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+      <node concept="3clFbS" id="2Qyt1JMNWOj" role="3clF47">
+        <node concept="3clFbJ" id="2Qyt1JMNWOk" role="3cqZAp">
+          <node concept="3clFbC" id="2Qyt1JMNWOl" role="3clFbw">
+            <node concept="37vLTw" id="2Qyt1JMNWOm" role="3uHU7B">
+              <ref role="3cqZAo" node="2Qyt1JMNWKe" resolve="myIcon" />
+            </node>
+            <node concept="10Nm6u" id="2Qyt1JMNWOn" role="3uHU7w" />
+          </node>
+          <node concept="3clFbS" id="2Qyt1JMNWOp" role="3clFbx">
+            <node concept="3cpWs6" id="2Qyt1JMNWOo" role="3cqZAp" />
+          </node>
+        </node>
+        <node concept="3clFbJ" id="2Qyt1JMNWOq" role="3cqZAp">
+          <node concept="3clFbC" id="2Qyt1JMNWOr" role="3clFbw">
+            <node concept="37vLTw" id="2Qyt1JMNWOs" role="3uHU7B">
+              <ref role="3cqZAo" node="2Qyt1JMNWK9" resolve="myAlignment" />
+            </node>
+            <node concept="Rm8GO" id="2Qyt1JMNWSE" role="3uHU7w">
+              <ref role="1Px2BO" node="2Qyt1JMNWRu" resolve="EditorCell_RefreshableImage2.ImageAlignment" />
+              <ref role="Rm8GQ" node="2Qyt1JMNWRx" resolve="justify" />
+            </node>
+          </node>
+          <node concept="3clFbS" id="2Qyt1JMNWOv" role="3clFbx">
+            <node concept="3cpWs8" id="2Qyt1JMNWOx" role="3cqZAp">
+              <node concept="3cpWsn" id="2Qyt1JMNWOw" role="3cpWs9">
+                <property role="3TUv4t" value="false" />
+                <property role="TrG5h" value="width" />
+                <node concept="10Oyi0" id="2Qyt1JMNWOy" role="1tU5fm" />
+                <node concept="2OqwBi" id="2Qyt1JMNWSH" role="33vP2m">
+                  <node concept="37vLTw" id="2Qyt1JMNWSG" role="2Oq$k0">
+                    <ref role="3cqZAo" node="2Qyt1JMNWKe" resolve="myIcon" />
+                  </node>
+                  <node concept="liA8E" id="2Qyt1JMNWSI" role="2OqNvi">
+                    <ref role="37wK5l" to="dxuu:~Icon.getIconWidth():int" resolve="getIconWidth" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbJ" id="2Qyt1JMNWO$" role="3cqZAp">
+              <node concept="3y3z36" id="2Qyt1JMNWO_" role="3clFbw">
+                <node concept="37vLTw" id="2Qyt1JMNWOA" role="3uHU7B">
+                  <ref role="3cqZAo" node="2Qyt1JMNWOw" resolve="width" />
+                </node>
+                <node concept="1ZRNhn" id="2Qyt1JMNWOB" role="3uHU7w">
+                  <node concept="3cmrfG" id="2Qyt1JMNWOC" role="2$L3a6">
+                    <property role="3cmrfH" value="1" />
+                  </node>
+                </node>
+              </node>
+              <node concept="3clFbS" id="2Qyt1JMNWOE" role="3clFbx">
+                <node concept="3clFbF" id="2Qyt1JMNWOF" role="3cqZAp">
+                  <node concept="37vLTI" id="2Qyt1JMNWOG" role="3clFbG">
+                    <node concept="37vLTw" id="2Qyt1JMNWOH" role="37vLTJ">
+                      <ref role="3cqZAo" to="g51k:~EditorCell_Basic.myWidth" resolve="myWidth" />
+                    </node>
+                    <node concept="37vLTw" id="2Qyt1JMNWOI" role="37vLTx">
+                      <ref role="3cqZAo" node="2Qyt1JMNWOw" resolve="width" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3cpWs8" id="2Qyt1JMNWOK" role="3cqZAp">
+              <node concept="3cpWsn" id="2Qyt1JMNWOJ" role="3cpWs9">
+                <property role="3TUv4t" value="false" />
+                <property role="TrG5h" value="height" />
+                <node concept="10Oyi0" id="2Qyt1JMNWOL" role="1tU5fm" />
+                <node concept="2OqwBi" id="2Qyt1JMNWSL" role="33vP2m">
+                  <node concept="37vLTw" id="2Qyt1JMNWSK" role="2Oq$k0">
+                    <ref role="3cqZAo" node="2Qyt1JMNWKe" resolve="myIcon" />
+                  </node>
+                  <node concept="liA8E" id="2Qyt1JMNWSM" role="2OqNvi">
+                    <ref role="37wK5l" to="dxuu:~Icon.getIconHeight():int" resolve="getIconHeight" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbJ" id="2Qyt1JMNWON" role="3cqZAp">
+              <node concept="3y3z36" id="2Qyt1JMNWOO" role="3clFbw">
+                <node concept="37vLTw" id="2Qyt1JMNWOP" role="3uHU7B">
+                  <ref role="3cqZAo" node="2Qyt1JMNWOJ" resolve="height" />
+                </node>
+                <node concept="1ZRNhn" id="2Qyt1JMNWOQ" role="3uHU7w">
+                  <node concept="3cmrfG" id="2Qyt1JMNWOR" role="2$L3a6">
+                    <property role="3cmrfH" value="1" />
+                  </node>
+                </node>
+              </node>
+              <node concept="3clFbS" id="2Qyt1JMNWOT" role="3clFbx">
+                <node concept="3clFbF" id="2Qyt1JMNWOU" role="3cqZAp">
+                  <node concept="37vLTI" id="2Qyt1JMNWOV" role="3clFbG">
+                    <node concept="37vLTw" id="2Qyt1JMNWOW" role="37vLTJ">
+                      <ref role="3cqZAo" to="g51k:~EditorCell_Basic.myHeight" resolve="myHeight" />
+                    </node>
+                    <node concept="37vLTw" id="2Qyt1JMNWOX" role="37vLTx">
+                      <ref role="3cqZAo" node="2Qyt1JMNWOJ" resolve="height" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbJ" id="2Qyt1JMNWOY" role="3cqZAp">
+          <node concept="3eOVzh" id="2Qyt1JMNWOZ" role="3clFbw">
+            <node concept="37vLTw" id="2Qyt1JMNWP0" role="3uHU7B">
+              <ref role="3cqZAo" node="2Qyt1JMNWKi" resolve="myDescent" />
+            </node>
+            <node concept="3cmrfG" id="2Qyt1JMNWP1" role="3uHU7w">
+              <property role="3cmrfH" value="0" />
+            </node>
+          </node>
+          <node concept="3clFbS" id="2Qyt1JMNWP3" role="3clFbx">
+            <node concept="3clFbF" id="2Qyt1JMNWP4" role="3cqZAp">
+              <node concept="37vLTI" id="2Qyt1JMNWP5" role="3clFbG">
+                <node concept="37vLTw" id="2Qyt1JMNWP6" role="37vLTJ">
+                  <ref role="3cqZAo" node="2Qyt1JMNWKi" resolve="myDescent" />
+                </node>
+                <node concept="2OqwBi" id="2Qyt1JMNWP7" role="37vLTx">
+                  <node concept="1rXfSq" id="2Qyt1JMNWP8" role="2Oq$k0">
+                    <ref role="37wK5l" node="2Qyt1JMNWPc" resolve="getFontMetrics" />
+                  </node>
+                  <node concept="liA8E" id="2Qyt1JMNWP9" role="2OqNvi">
+                    <ref role="37wK5l" to="z60i:~FontMetrics.getDescent():int" resolve="getDescent" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tmbuc" id="2Qyt1JMNWPa" role="1B3o_S" />
+      <node concept="3cqZAl" id="2Qyt1JMNWPb" role="3clF45" />
+    </node>
+    <node concept="3clFb_" id="2Qyt1JMNWPc" role="jymVt">
+      <property role="TrG5h" value="getFontMetrics" />
+      <property role="DiZV1" value="false" />
+      <property role="od$2w" value="false" />
+      <node concept="3clFbS" id="2Qyt1JMNWPd" role="3clF47">
+        <node concept="3cpWs6" id="2Qyt1JMNWPe" role="3cqZAp">
+          <node concept="2OqwBi" id="2Qyt1JMNWPf" role="3cqZAk">
+            <node concept="2YIFZM" id="2Qyt1JMNWSO" role="2Oq$k0">
+              <ref role="1Pybhc" to="g51k:~FontRegistry" resolve="FontRegistry" />
+              <ref role="37wK5l" to="g51k:~FontRegistry.getInstance():jetbrains.mps.nodeEditor.cells.FontRegistry" resolve="getInstance" />
+            </node>
+            <node concept="liA8E" id="2Qyt1JMNWPh" role="2OqNvi">
+              <ref role="37wK5l" to="g51k:~FontRegistry.getFontMetrics(java.awt.Font):java.awt.FontMetrics" resolve="getFontMetrics" />
+              <node concept="2OqwBi" id="2Qyt1JMNWPi" role="37wK5m">
+                <node concept="2YIFZM" id="2Qyt1JMNWSQ" role="2Oq$k0">
+                  <ref role="1Pybhc" to="exr9:~EditorSettings" resolve="EditorSettings" />
+                  <ref role="37wK5l" to="exr9:~EditorSettings.getInstance():jetbrains.mps.nodeEditor.EditorSettings" resolve="getInstance" />
+                </node>
+                <node concept="liA8E" id="2Qyt1JMNWPk" role="2OqNvi">
+                  <ref role="37wK5l" to="exr9:~EditorSettings.getDefaultEditorFont():java.awt.Font" resolve="getDefaultEditorFont" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tm6S6" id="2Qyt1JMNWPl" role="1B3o_S" />
+      <node concept="3uibUv" id="2Qyt1JMNWPm" role="3clF45">
+        <ref role="3uigEE" to="z60i:~FontMetrics" resolve="FontMetrics" />
+      </node>
+    </node>
+    <node concept="3clFb_" id="2Qyt1JMNWPn" role="jymVt">
+      <property role="TrG5h" value="getAscent" />
+      <property role="DiZV1" value="false" />
+      <property role="od$2w" value="false" />
+      <node concept="2AHcQZ" id="2Qyt1JMNWPo" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+      <node concept="3clFbS" id="2Qyt1JMNWPp" role="3clF47">
+        <node concept="3cpWs6" id="2Qyt1JMNWPq" role="3cqZAp">
+          <node concept="3cpWsd" id="2Qyt1JMNWPr" role="3cqZAk">
+            <node concept="37vLTw" id="2Qyt1JMNWPs" role="3uHU7B">
+              <ref role="3cqZAo" to="g51k:~EditorCell_Basic.myHeight" resolve="myHeight" />
+            </node>
+            <node concept="1rXfSq" id="2Qyt1JMNWPt" role="3uHU7w">
+              <ref role="37wK5l" node="2Qyt1JMNWPw" resolve="getDescent" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="2Qyt1JMNWPu" role="1B3o_S" />
+      <node concept="10Oyi0" id="2Qyt1JMNWPv" role="3clF45" />
+    </node>
+    <node concept="3clFb_" id="2Qyt1JMNWPw" role="jymVt">
+      <property role="TrG5h" value="getDescent" />
+      <property role="DiZV1" value="false" />
+      <property role="od$2w" value="false" />
+      <node concept="2AHcQZ" id="2Qyt1JMNWPx" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+      <node concept="3clFbS" id="2Qyt1JMNWPy" role="3clF47">
+        <node concept="3cpWs6" id="2Qyt1JMNWPz" role="3cqZAp">
+          <node concept="3K4zz7" id="2Qyt1JMNWPD" role="3cqZAk">
+            <node concept="2d3UOw" id="2Qyt1JMNWP$" role="3K4Cdx">
+              <node concept="37vLTw" id="2Qyt1JMNWP_" role="3uHU7B">
+                <ref role="3cqZAo" node="2Qyt1JMNWKi" resolve="myDescent" />
+              </node>
+              <node concept="3cmrfG" id="2Qyt1JMNWPA" role="3uHU7w">
+                <property role="3cmrfH" value="0" />
+              </node>
+            </node>
+            <node concept="37vLTw" id="2Qyt1JMNWPB" role="3K4E3e">
+              <ref role="3cqZAo" node="2Qyt1JMNWKi" resolve="myDescent" />
+            </node>
+            <node concept="3cmrfG" id="2Qyt1JMNWPC" role="3K4GZi">
+              <property role="3cmrfH" value="0" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="2Qyt1JMNWPE" role="1B3o_S" />
+      <node concept="10Oyi0" id="2Qyt1JMNWPF" role="3clF45" />
+    </node>
+    <node concept="3clFb_" id="2Qyt1JMNWPG" role="jymVt">
+      <property role="TrG5h" value="setDescent" />
+      <property role="DiZV1" value="false" />
+      <property role="od$2w" value="false" />
+      <node concept="37vLTG" id="2Qyt1JMNWPH" role="3clF46">
+        <property role="TrG5h" value="descent" />
+        <property role="3TUv4t" value="false" />
+        <node concept="10Oyi0" id="2Qyt1JMNWPI" role="1tU5fm" />
+      </node>
+      <node concept="3clFbS" id="2Qyt1JMNWPJ" role="3clF47">
+        <node concept="3clFbF" id="2Qyt1JMNWPK" role="3cqZAp">
+          <node concept="37vLTI" id="2Qyt1JMNWPL" role="3clFbG">
+            <node concept="37vLTw" id="2Qyt1JMNWPM" role="37vLTJ">
+              <ref role="3cqZAo" node="2Qyt1JMNWKi" resolve="myDescent" />
+            </node>
+            <node concept="37vLTw" id="2Qyt1JMNWPN" role="37vLTx">
+              <ref role="3cqZAo" node="2Qyt1JMNWPH" resolve="descent" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="2Qyt1JMNWPO" role="1B3o_S" />
+      <node concept="3cqZAl" id="2Qyt1JMNWPP" role="3clF45" />
+    </node>
+    <node concept="3clFb_" id="2Qyt1JMNWPQ" role="jymVt">
+      <property role="TrG5h" value="setAlignment" />
+      <property role="DiZV1" value="false" />
+      <property role="od$2w" value="false" />
+      <node concept="37vLTG" id="2Qyt1JMNWPR" role="3clF46">
+        <property role="TrG5h" value="alignment" />
+        <property role="3TUv4t" value="false" />
+        <node concept="3uibUv" id="2Qyt1JMNWPS" role="1tU5fm">
+          <ref role="3uigEE" node="2Qyt1JMNWRu" resolve="EditorCell_RefreshableImage2.ImageAlignment" />
+        </node>
+      </node>
+      <node concept="3clFbS" id="2Qyt1JMNWPT" role="3clF47">
+        <node concept="3clFbF" id="2Qyt1JMNWPU" role="3cqZAp">
+          <node concept="37vLTI" id="2Qyt1JMNWPV" role="3clFbG">
+            <node concept="37vLTw" id="2Qyt1JMNWPW" role="37vLTJ">
+              <ref role="3cqZAo" node="2Qyt1JMNWK9" resolve="myAlignment" />
+            </node>
+            <node concept="37vLTw" id="2Qyt1JMNWPX" role="37vLTx">
+              <ref role="3cqZAo" node="2Qyt1JMNWPR" resolve="alignment" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="2Qyt1JMNWPY" role="1B3o_S" />
+      <node concept="3cqZAl" id="2Qyt1JMNWPZ" role="3clF45" />
+    </node>
+    <node concept="3clFb_" id="2Qyt1JMNWQ0" role="jymVt">
+      <property role="TrG5h" value="setImageFileName" />
+      <property role="DiZV1" value="false" />
+      <property role="od$2w" value="false" />
+      <node concept="37vLTG" id="2Qyt1JMNWQ1" role="3clF46">
+        <property role="TrG5h" value="fileName" />
+        <property role="3TUv4t" value="false" />
+        <node concept="3uibUv" id="2Qyt1JMNWQ2" role="1tU5fm">
+          <ref role="3uigEE" to="wyt6:~String" resolve="String" />
+        </node>
+      </node>
+      <node concept="3clFbS" id="2Qyt1JMNWQ3" role="3clF47">
+        <node concept="3clFbJ" id="2Qyt1JMNWQ4" role="3cqZAp">
+          <node concept="1Wc70l" id="2Qyt1JMNWQ5" role="3clFbw">
+            <node concept="3y3z36" id="2Qyt1JMNWQ6" role="3uHU7B">
+              <node concept="37vLTw" id="2Qyt1JMNWQ7" role="3uHU7B">
+                <ref role="3cqZAo" node="2Qyt1JMNWQ1" resolve="fileName" />
+              </node>
+              <node concept="10Nm6u" id="2Qyt1JMNWQ8" role="3uHU7w" />
+            </node>
+            <node concept="2OqwBi" id="2Qyt1JMOKba" role="3uHU7w">
+              <node concept="2OqwBi" id="2Qyt1JMOKbb" role="2Oq$k0">
+                <node concept="2YIFZM" id="2Qyt1JMOKbc" role="2Oq$k0">
+                  <ref role="37wK5l" to="3ju5:~FileSystem.getInstance():jetbrains.mps.vfs.FileSystem" resolve="getInstance" />
+                  <ref role="1Pybhc" to="3ju5:~FileSystem" resolve="FileSystem" />
+                </node>
+                <node concept="liA8E" id="2Qyt1JMOKbd" role="2OqNvi">
+                  <ref role="37wK5l" to="3ju5:~FileSystem.getFileByPath(java.lang.String):jetbrains.mps.vfs.IFile" resolve="getFileByPath" />
+                  <node concept="37vLTw" id="2Qyt1JMOKbe" role="37wK5m">
+                    <ref role="3cqZAo" node="2Qyt1JMNWQ1" resolve="fileName" />
+                  </node>
+                </node>
+              </node>
+              <node concept="liA8E" id="2Qyt1JMOKbf" role="2OqNvi">
+                <ref role="37wK5l" to="3ju5:~IFile.exists():boolean" resolve="exists" />
+              </node>
+            </node>
+          </node>
+          <node concept="9aQIb" id="2Qyt1JMNWQn" role="9aQIa">
+            <node concept="3clFbS" id="2Qyt1JMNWQo" role="9aQI4">
+              <node concept="3clFbF" id="2Qyt1JMNWQp" role="3cqZAp">
+                <node concept="1rXfSq" id="2Qyt1JMNWQq" role="3clFbG">
+                  <ref role="37wK5l" node="2Qyt1JMNWR5" resolve="setImage" />
+                  <node concept="10Nm6u" id="2Qyt1JMNWQr" role="37wK5m" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbS" id="2Qyt1JMNWQg" role="3clFbx">
+            <node concept="3clFbF" id="2Qyt1JMNWQh" role="3cqZAp">
+              <node concept="1rXfSq" id="2Qyt1JMNWQi" role="3clFbG">
+                <ref role="37wK5l" node="2Qyt1JMNWR5" resolve="setImage" />
+                <node concept="2OqwBi" id="2Qyt1JMNWQj" role="37wK5m">
+                  <node concept="2YIFZM" id="2Qyt1JMNWST" role="2Oq$k0">
+                    <ref role="1Pybhc" to="z60i:~Toolkit" resolve="Toolkit" />
+                    <ref role="37wK5l" to="z60i:~Toolkit.getDefaultToolkit():java.awt.Toolkit" resolve="getDefaultToolkit" />
+                  </node>
+                  <node concept="liA8E" id="2Qyt1JMNWQl" role="2OqNvi">
+                    <ref role="37wK5l" to="z60i:~Toolkit.getImage(java.lang.String):java.awt.Image" resolve="getImage" />
+                    <node concept="37vLTw" id="2Qyt1JMNWQm" role="37wK5m">
+                      <ref role="3cqZAo" node="2Qyt1JMNWQ1" resolve="fileName" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tmbuc" id="2Qyt1JMNWQs" role="1B3o_S" />
+      <node concept="3cqZAl" id="2Qyt1JMNWQt" role="3clF45" />
+    </node>
+    <node concept="2YIFZL" id="2Qyt1JMNWQu" role="jymVt">
+      <property role="TrG5h" value="loadIcon" />
+      <property role="DiZV1" value="false" />
+      <property role="od$2w" value="false" />
+      <node concept="37vLTG" id="2Qyt1JMNWQv" role="3clF46">
+        <property role="TrG5h" value="context" />
+        <property role="3TUv4t" value="false" />
+        <node concept="3uibUv" id="2Qyt1JMOHaz" role="1tU5fm">
+          <ref role="3uigEE" to="cj4x:~EditorContext" resolve="EditorContext" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="2Qyt1JMNWQx" role="3clF46">
+        <property role="TrG5h" value="module" />
+        <property role="3TUv4t" value="false" />
+        <node concept="3uibUv" id="2Qyt1JMNWQy" role="1tU5fm">
+          <ref role="3uigEE" to="lui2:~SModule" resolve="SModule" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="2Qyt1JMNWQz" role="3clF46">
+        <property role="TrG5h" value="iconPath" />
+        <property role="3TUv4t" value="false" />
+        <node concept="3uibUv" id="2Qyt1JMNWQ$" role="1tU5fm">
+          <ref role="3uigEE" to="wyt6:~String" resolve="String" />
+        </node>
+      </node>
+      <node concept="3clFbS" id="2Qyt1JMNWQ_" role="3clF47">
+        <node concept="3cpWs6" id="2Qyt1JMNWQA" role="3cqZAp">
+          <node concept="2OqwBi" id="2Qyt1JMNWQB" role="3cqZAk">
+            <node concept="2YIFZM" id="2Qyt1JMNWSV" role="2Oq$k0">
+              <ref role="1Pybhc" to="g51k:~APICellAdapter" resolve="APICellAdapter" />
+              <ref role="37wK5l" to="g51k:~APICellAdapter.getIconManager(jetbrains.mps.openapi.editor.EditorContext):jetbrains.mps.ide.icons.CachingIconManager" resolve="getIconManager" />
+              <node concept="37vLTw" id="2Qyt1JMNWQD" role="37wK5m">
+                <ref role="3cqZAo" node="2Qyt1JMNWQv" resolve="context" />
+              </node>
+            </node>
+            <node concept="liA8E" id="2Qyt1JMNWQE" role="2OqNvi">
+              <ref role="37wK5l" to="xnls:~CachingIconManager.getIcon(jetbrains.mps.project.AbstractModule,java.lang.String):javax.swing.Icon" resolve="getIcon" />
+              <node concept="1rXfSq" id="2Qyt1JMNWQF" role="37wK5m">
+                <ref role="37wK5l" node="2Qyt1JMNWQK" resolve="toAbstractModule" />
+                <node concept="37vLTw" id="2Qyt1JMNWQG" role="37wK5m">
+                  <ref role="3cqZAo" node="2Qyt1JMNWQx" resolve="module" />
+                </node>
+              </node>
+              <node concept="37vLTw" id="2Qyt1JMNWQH" role="37wK5m">
+                <ref role="3cqZAo" node="2Qyt1JMNWQz" resolve="iconPath" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tm6S6" id="2Qyt1JMNWQI" role="1B3o_S" />
+      <node concept="3uibUv" id="2Qyt1JMNWQJ" role="3clF45">
+        <ref role="3uigEE" to="dxuu:~Icon" resolve="Icon" />
+      </node>
+    </node>
+    <node concept="2YIFZL" id="2Qyt1JMNWQK" role="jymVt">
+      <property role="TrG5h" value="toAbstractModule" />
+      <property role="DiZV1" value="false" />
+      <property role="od$2w" value="false" />
+      <node concept="2AHcQZ" id="2Qyt1JMNWQL" role="2AJF6D">
+        <ref role="2AI5Lk" to="mhfm:~Nullable" resolve="Nullable" />
+      </node>
+      <node concept="37vLTG" id="2Qyt1JMNWQM" role="3clF46">
+        <property role="TrG5h" value="module" />
+        <property role="3TUv4t" value="false" />
+        <node concept="3uibUv" id="2Qyt1JMNWQN" role="1tU5fm">
+          <ref role="3uigEE" to="lui2:~SModule" resolve="SModule" />
+        </node>
+      </node>
+      <node concept="3clFbS" id="2Qyt1JMNWQO" role="3clF47">
+        <node concept="3clFbJ" id="2Qyt1JMNWQP" role="3cqZAp">
+          <node concept="3fqX7Q" id="2Qyt1JMNWQQ" role="3clFbw">
+            <node concept="1eOMI4" id="2Qyt1JMNWQU" role="3fr31v">
+              <node concept="2ZW3vV" id="2Qyt1JMNWQT" role="1eOMHV">
+                <node concept="37vLTw" id="2Qyt1JMNWQR" role="2ZW6bz">
+                  <ref role="3cqZAo" node="2Qyt1JMNWQM" resolve="module" />
+                </node>
+                <node concept="3uibUv" id="2Qyt1JMNWQS" role="2ZW6by">
+                  <ref role="3uigEE" to="z1c3:~AbstractModule" resolve="AbstractModule" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbS" id="2Qyt1JMNWQW" role="3clFbx">
+            <node concept="3cpWs6" id="2Qyt1JMNWQX" role="3cqZAp">
+              <node concept="10Nm6u" id="2Qyt1JMNWQY" role="3cqZAk" />
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs6" id="2Qyt1JMNWQZ" role="3cqZAp">
+          <node concept="10QFUN" id="2Qyt1JMNWR0" role="3cqZAk">
+            <node concept="37vLTw" id="2Qyt1JMNWR1" role="10QFUP">
+              <ref role="3cqZAo" node="2Qyt1JMNWQM" resolve="module" />
+            </node>
+            <node concept="3uibUv" id="2Qyt1JMNWR2" role="10QFUM">
+              <ref role="3uigEE" to="z1c3:~AbstractModule" resolve="AbstractModule" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tm6S6" id="2Qyt1JMNWR3" role="1B3o_S" />
+      <node concept="3uibUv" id="2Qyt1JMNWR4" role="3clF45">
+        <ref role="3uigEE" to="z1c3:~AbstractModule" resolve="AbstractModule" />
+      </node>
+    </node>
+    <node concept="3clFb_" id="2Qyt1JMNWR5" role="jymVt">
+      <property role="TrG5h" value="setImage" />
+      <property role="DiZV1" value="false" />
+      <property role="od$2w" value="false" />
+      <node concept="37vLTG" id="2Qyt1JMNWR6" role="3clF46">
+        <property role="TrG5h" value="image" />
+        <property role="3TUv4t" value="false" />
+        <node concept="3uibUv" id="2Qyt1JMNWR7" role="1tU5fm">
+          <ref role="3uigEE" to="z60i:~Image" resolve="Image" />
+        </node>
+      </node>
+      <node concept="3clFbS" id="2Qyt1JMNWR8" role="3clF47">
+        <node concept="3clFbF" id="2Qyt1JMNWR9" role="3cqZAp">
+          <node concept="1rXfSq" id="2Qyt1JMNWRa" role="3clFbG">
+            <ref role="37wK5l" node="2Qyt1JMNWRk" resolve="setIcon" />
+            <node concept="3K4zz7" id="2Qyt1JMNWRh" role="37wK5m">
+              <node concept="3clFbC" id="2Qyt1JMNWRb" role="3K4Cdx">
+                <node concept="37vLTw" id="2Qyt1JMNWRc" role="3uHU7B">
+                  <ref role="3cqZAo" node="2Qyt1JMNWR6" resolve="image" />
+                </node>
+                <node concept="10Nm6u" id="2Qyt1JMNWRd" role="3uHU7w" />
+              </node>
+              <node concept="10Nm6u" id="2Qyt1JMNWRe" role="3K4E3e" />
+              <node concept="2ShNRf" id="2Qyt1JMNWSW" role="3K4GZi">
+                <node concept="1pGfFk" id="2Qyt1JMNWTc" role="2ShVmc">
+                  <ref role="37wK5l" to="dxuu:~ImageIcon.&lt;init&gt;(java.awt.Image)" resolve="ImageIcon" />
+                  <node concept="37vLTw" id="2Qyt1JMNWRg" role="37wK5m">
+                    <ref role="3cqZAo" node="2Qyt1JMNWR6" resolve="image" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tmbuc" id="2Qyt1JMNWRi" role="1B3o_S" />
+      <node concept="3cqZAl" id="2Qyt1JMNWRj" role="3clF45" />
+    </node>
+    <node concept="3clFb_" id="2Qyt1JMNWRk" role="jymVt">
+      <property role="TrG5h" value="setIcon" />
+      <property role="DiZV1" value="false" />
+      <property role="od$2w" value="false" />
+      <node concept="37vLTG" id="2Qyt1JMNWRl" role="3clF46">
+        <property role="TrG5h" value="icon" />
+        <property role="3TUv4t" value="false" />
+        <node concept="3uibUv" id="2Qyt1JMNWRm" role="1tU5fm">
+          <ref role="3uigEE" to="dxuu:~Icon" resolve="Icon" />
+        </node>
+      </node>
+      <node concept="3clFbS" id="2Qyt1JMNWRn" role="3clF47">
+        <node concept="3clFbF" id="2Qyt1JMNWRo" role="3cqZAp">
+          <node concept="37vLTI" id="2Qyt1JMNWRp" role="3clFbG">
+            <node concept="37vLTw" id="2Qyt1JMNWRq" role="37vLTJ">
+              <ref role="3cqZAo" node="2Qyt1JMNWKe" resolve="myIcon" />
+            </node>
+            <node concept="37vLTw" id="2Qyt1JMNWRr" role="37vLTx">
+              <ref role="3cqZAo" node="2Qyt1JMNWRl" resolve="icon" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tmbuc" id="2Qyt1JMNWRs" role="1B3o_S" />
+      <node concept="3cqZAl" id="2Qyt1JMNWRt" role="3clF45" />
+    </node>
+    <node concept="Qs71p" id="2Qyt1JMNWRu" role="jymVt">
+      <property role="TrG5h" value="ImageAlignment" />
+      <property role="2bfB8j" value="false" />
+      <property role="1sVAO0" value="false" />
+      <property role="1EXbeo" value="false" />
+      <node concept="3Tm1VV" id="2Qyt1JMNWRv" role="1B3o_S" />
+      <node concept="QsSxf" id="2Qyt1JMNWRx" role="Qtgdg">
+        <property role="TrG5h" value="justify" />
+        <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
+      </node>
+      <node concept="QsSxf" id="2Qyt1JMNWRz" role="Qtgdg">
+        <property role="TrG5h" value="center" />
+        <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
+      </node>
+      <node concept="QsSxf" id="2Qyt1JMNWR_" role="Qtgdg">
+        <property role="TrG5h" value="title" />
+        <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
+      </node>
+    </node>
+    <node concept="2tJIrI" id="2Qyt1JMNWJZ" role="jymVt" />
+    <node concept="3Tm1VV" id="2Qyt1JMNW7N" role="1B3o_S" />
+    <node concept="3uibUv" id="2Qyt1JMNWHN" role="1zkMxy">
+      <ref role="3uigEE" to="g51k:~EditorCell_Basic" resolve="EditorCell_Basic" />
+    </node>
+    <node concept="3clFb_" id="2Qyt1JMONDr" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="onRemove" />
+      <property role="DiZV1" value="false" />
+      <property role="od$2w" value="false" />
+      <node concept="3Tm1VV" id="2Qyt1JMONDs" role="1B3o_S" />
+      <node concept="3cqZAl" id="2Qyt1JMONDu" role="3clF45" />
+      <node concept="3clFbS" id="2Qyt1JMONDv" role="3clF47">
+        <node concept="3clFbF" id="2Qyt1JMONDy" role="3cqZAp">
+          <node concept="3nyPlj" id="2Qyt1JMONDx" role="3clFbG">
+            <ref role="37wK5l" to="g51k:~EditorCell_Basic.onRemove():void" resolve="onRemove" />
+          </node>
+        </node>
+        <node concept="34ab3g" id="2Qyt1JMOPwh" role="3cqZAp">
+          <property role="35gtTG" value="info" />
+          <node concept="3cpWs3" id="2Qyt1JMOPwi" role="34bqiv">
+            <node concept="2OqwBi" id="2Qyt1JMOPwj" role="3uHU7w">
+              <node concept="Xjq3P" id="2Qyt1JMOPwk" role="2Oq$k0" />
+              <node concept="2OwXpG" id="2Qyt1JMP1sI" role="2OqNvi">
+                <ref role="2Oxat5" node="2Qyt1JMOTUK" resolve="imagePath" />
+              </node>
+            </node>
+            <node concept="Xl_RD" id="2Qyt1JMOPwm" role="3uHU7B">
+              <property role="Xl_RC" value="Cell removed for image " />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="2Qyt1JMOONP" role="3cqZAp" />
+      </node>
+      <node concept="2AHcQZ" id="2Qyt1JMONDw" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
     </node>
   </node>
 </model>
