@@ -1793,22 +1793,13 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbJ" id="38k4CcpRXsS" role="3cqZAp">
-          <node concept="3clFbS" id="38k4CcpRXsU" role="3clFbx">
-            <node concept="34ab3g" id="38k4CcpRYDT" role="3cqZAp">
-              <property role="35gtTG" value="info" />
-              <node concept="Xl_RD" id="38k4CcpRYDV" role="34bqiv">
-                <property role="Xl_RC" value="Listener added" />
-              </node>
+        <node concept="3cpWs8" id="6gi8dn_HC1V" role="3cqZAp">
+          <node concept="3cpWsn" id="6gi8dn_HC1W" role="3cpWs9">
+            <property role="TrG5h" value="listener" />
+            <node concept="3uibUv" id="6gi8dn_HC1X" role="1tU5fm">
+              <ref role="3uigEE" node="7YNwX5HiMcq" resolve="CellImageListener" />
             </node>
-          </node>
-          <node concept="2YIFZM" id="38k4CcpRORc" role="3clFbw">
-            <ref role="37wK5l" to="zgc3:5XdrQ8WzPEt" resolve="add" />
-            <ref role="1Pybhc" to="zgc3:5XdrQ8WzDvX" resolve="RegisteredListeners" />
-            <node concept="37vLTw" id="38k4CcpRPgB" role="37wK5m">
-              <ref role="3cqZAo" node="5so3epuIVaC" resolve="project" />
-            </node>
-            <node concept="2ShNRf" id="7YNwX5HiJs0" role="37wK5m">
+            <node concept="2ShNRf" id="7YNwX5HiJs0" role="33vP2m">
               <node concept="1pGfFk" id="7YNwX5HiJs1" role="2ShVmc">
                 <ref role="37wK5l" node="7YNwX5HiMXj" resolve="CellImageListener" />
                 <node concept="2OqwBi" id="7YNwX5HiJs2" role="37wK5m">
@@ -1821,6 +1812,42 @@
                   <ref role="3cqZAo" node="4Nea5gqGBpC" resolve="cell" />
                 </node>
               </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbJ" id="38k4CcpRXsS" role="3cqZAp">
+          <node concept="3clFbS" id="38k4CcpRXsU" role="3clFbx">
+            <node concept="34ab3g" id="38k4CcpRYDT" role="3cqZAp">
+              <property role="35gtTG" value="info" />
+              <node concept="Xl_RD" id="38k4CcpRYDV" role="34bqiv">
+                <property role="Xl_RC" value="Listener added" />
+              </node>
+            </node>
+            <node concept="3clFbF" id="6gi8dn_HDAI" role="3cqZAp">
+              <node concept="2OqwBi" id="6gi8dn_HDIN" role="3clFbG">
+                <node concept="37vLTw" id="6gi8dn_HDAG" role="2Oq$k0">
+                  <ref role="3cqZAo" node="4Nea5gqGBpC" resolve="cell" />
+                </node>
+                <node concept="liA8E" id="6gi8dn_HRR9" role="2OqNvi">
+                  <ref role="37wK5l" node="6gi8dn_HHE4" resolve="setListener" />
+                  <node concept="37vLTw" id="6gi8dn_HS5o" role="37wK5m">
+                    <ref role="3cqZAo" node="6gi8dn_HC1W" resolve="listener" />
+                  </node>
+                  <node concept="37vLTw" id="1QuiO55zj7" role="37wK5m">
+                    <ref role="3cqZAo" node="5so3epuIVaC" resolve="project" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="2YIFZM" id="38k4CcpRORc" role="3clFbw">
+            <ref role="37wK5l" to="zgc3:5XdrQ8WzPEt" resolve="add" />
+            <ref role="1Pybhc" to="zgc3:5XdrQ8WzDvX" resolve="RegisteredListeners" />
+            <node concept="37vLTw" id="38k4CcpRPgB" role="37wK5m">
+              <ref role="3cqZAo" node="5so3epuIVaC" resolve="project" />
+            </node>
+            <node concept="37vLTw" id="6gi8dn_HD4Y" role="37wK5m">
+              <ref role="3cqZAo" node="6gi8dn_HC1W" resolve="listener" />
             </node>
           </node>
           <node concept="9aQIb" id="38k4CcpRYEX" role="9aQIa">
@@ -4434,6 +4461,25 @@
       <node concept="3Tm6S6" id="2Qyt1JMOTUL" role="1B3o_S" />
       <node concept="17QB3L" id="2Qyt1JMOTUN" role="1tU5fm" />
     </node>
+    <node concept="312cEg" id="6gi8dn_HFAM" role="jymVt">
+      <property role="34CwA1" value="false" />
+      <property role="eg7rD" value="false" />
+      <property role="TrG5h" value="myOwnListener" />
+      <property role="3TUv4t" value="false" />
+      <node concept="3Tm6S6" id="6gi8dn_HEKi" role="1B3o_S" />
+      <node concept="3uibUv" id="6gi8dn_HF_f" role="1tU5fm">
+        <ref role="3uigEE" node="7YNwX5HiMcq" resolve="CellImageListener" />
+      </node>
+    </node>
+    <node concept="312cEg" id="1QuiO55vM$" role="jymVt">
+      <property role="TrG5h" value="project" />
+      <property role="3TUv4t" value="false" />
+      <node concept="3Tm6S6" id="1QuiO55vM_" role="1B3o_S" />
+      <node concept="3uibUv" id="1QuiO55vMB" role="1tU5fm">
+        <ref role="3uigEE" to="4nm9:~Project" resolve="Project" />
+      </node>
+    </node>
+    <node concept="2tJIrI" id="1QuiO55veV" role="jymVt" />
     <node concept="2tJIrI" id="2Qyt1JMOHkh" role="jymVt" />
     <node concept="3clFbW" id="2Qyt1JMNWKo" role="jymVt">
       <property role="DiZV1" value="false" />
@@ -5713,6 +5759,55 @@
       </node>
     </node>
     <node concept="2tJIrI" id="2Qyt1JMNWJZ" role="jymVt" />
+    <node concept="3clFb_" id="6gi8dn_HHE4" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="setListener" />
+      <property role="od$2w" value="false" />
+      <property role="DiZV1" value="false" />
+      <property role="2aFKle" value="false" />
+      <node concept="3clFbS" id="6gi8dn_HHE7" role="3clF47">
+        <node concept="3clFbF" id="6gi8dn_HJkT" role="3cqZAp">
+          <node concept="37vLTI" id="6gi8dn_HK2o" role="3clFbG">
+            <node concept="37vLTw" id="6gi8dn_HKch" role="37vLTx">
+              <ref role="3cqZAo" node="6gi8dn_HI$x" resolve="listener" />
+            </node>
+            <node concept="2OqwBi" id="6gi8dn_HJtu" role="37vLTJ">
+              <node concept="Xjq3P" id="6gi8dn_HJkS" role="2Oq$k0" />
+              <node concept="2OwXpG" id="6gi8dn_HJYy" role="2OqNvi">
+                <ref role="2Oxat5" node="6gi8dn_HFAM" resolve="myOwnListener" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="1QuiO55xuW" role="3cqZAp">
+          <node concept="37vLTI" id="1QuiO55yhZ" role="3clFbG">
+            <node concept="37vLTw" id="1QuiO55yzr" role="37vLTx">
+              <ref role="3cqZAo" node="1QuiO55wp8" resolve="project" />
+            </node>
+            <node concept="2OqwBi" id="1QuiO55xC6" role="37vLTJ">
+              <node concept="Xjq3P" id="1QuiO55xuU" role="2Oq$k0" />
+              <node concept="2OwXpG" id="1QuiO55y06" role="2OqNvi">
+                <ref role="2Oxat5" node="1QuiO55vM$" resolve="project" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tmbuc" id="6gi8dn_HGXh" role="1B3o_S" />
+      <node concept="3cqZAl" id="6gi8dn_HHCy" role="3clF45" />
+      <node concept="37vLTG" id="6gi8dn_HI$x" role="3clF46">
+        <property role="TrG5h" value="listener" />
+        <node concept="3uibUv" id="6gi8dn_HI$w" role="1tU5fm">
+          <ref role="3uigEE" node="7YNwX5HiMcq" resolve="CellImageListener" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="1QuiO55wp8" role="3clF46">
+        <property role="TrG5h" value="project" />
+        <node concept="3uibUv" id="1QuiO55xcG" role="1tU5fm">
+          <ref role="3uigEE" to="4nm9:~Project" resolve="Project" />
+        </node>
+      </node>
+    </node>
     <node concept="3Tm1VV" id="2Qyt1JMNW7N" role="1B3o_S" />
     <node concept="3uibUv" id="2Qyt1JMNWHN" role="1zkMxy">
       <ref role="3uigEE" to="g51k:~EditorCell_Basic" resolve="EditorCell_Basic" />
@@ -5744,7 +5839,42 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="2Qyt1JMOONP" role="3cqZAp" />
+        <node concept="3clFbJ" id="1QuiO55BRW" role="3cqZAp">
+          <node concept="3clFbS" id="1QuiO55BRY" role="3clFbx">
+            <node concept="34ab3g" id="1QuiO55EI7" role="3cqZAp">
+              <property role="35gtTG" value="info" />
+              <node concept="Xl_RD" id="1QuiO55EIc" role="34bqiv">
+                <property role="Xl_RC" value="Listener removed" />
+              </node>
+            </node>
+          </node>
+          <node concept="2YIFZM" id="1QuiO55Ccc" role="3clFbw">
+            <ref role="37wK5l" to="zgc3:1QuiO55_q9" resolve="remove" />
+            <ref role="1Pybhc" to="zgc3:5XdrQ8WzDvX" resolve="RegisteredListeners" />
+            <node concept="2OqwBi" id="1QuiO55Ct_" role="37wK5m">
+              <node concept="Xjq3P" id="1QuiO55CkQ" role="2Oq$k0" />
+              <node concept="2OwXpG" id="1QuiO55DT9" role="2OqNvi">
+                <ref role="2Oxat5" node="1QuiO55vM$" resolve="project" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="1QuiO55Ed3" role="37wK5m">
+              <node concept="Xjq3P" id="1QuiO55E3N" role="2Oq$k0" />
+              <node concept="2OwXpG" id="1QuiO55Eqn" role="2OqNvi">
+                <ref role="2Oxat5" node="6gi8dn_HFAM" resolve="myOwnListener" />
+              </node>
+            </node>
+          </node>
+          <node concept="9aQIb" id="1QuiO55ESX" role="9aQIa">
+            <node concept="3clFbS" id="1QuiO55ESY" role="9aQI4">
+              <node concept="34ab3g" id="1QuiO55Fs_" role="3cqZAp">
+                <property role="35gtTG" value="warn" />
+                <node concept="Xl_RD" id="1QuiO55FsB" role="34bqiv">
+                  <property role="Xl_RC" value="Failed to remove the listener" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
       </node>
       <node concept="2AHcQZ" id="2Qyt1JMONDw" role="2AJF6D">
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
