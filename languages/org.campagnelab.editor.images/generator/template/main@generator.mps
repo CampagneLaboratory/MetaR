@@ -20,6 +20,7 @@
     <import index="6hgq" ref="r:eecca0f3-a7f2-4995-9f62-819ef5f4e912(org.campagnelab.editor.images.structure)" />
     <import index="lui2" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.module()" />
     <import index="tpc3" ref="r:00000000-0000-4000-0000-011c8959029f(jetbrains.mps.lang.editor.generator.baseLanguage.template.main@generator)" />
+    <import index="mhbf" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.model(MPS.OpenAPI/)" implicit="true" />
     <import index="6pqi" ref="r:cab3688a-b537-4695-8b23-f29e7edbad4b(org.campagnelab.editor.images.behavior)" implicit="true" />
   </imports>
   <registry>
@@ -155,6 +156,10 @@
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
       <concept id="1179409122411" name="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" flags="nn" index="2qgKlT" />
+      <concept id="1143234257716" name="jetbrains.mps.lang.smodel.structure.Node_GetModelOperation" flags="nn" index="I4A8Y" />
+      <concept id="1145404486709" name="jetbrains.mps.lang.smodel.structure.SemanticDowncastExpression" flags="nn" index="2JrnkZ">
+        <child id="1145404616321" name="leftExpression" index="2JrQYb" />
+      </concept>
       <concept id="1138055754698" name="jetbrains.mps.lang.smodel.structure.SNodeType" flags="in" index="3Tqbb2" />
       <concept id="1138056143562" name="jetbrains.mps.lang.smodel.structure.SLinkAccess" flags="nn" index="3TrEf2">
         <reference id="1138056516764" name="link" index="3Tt5mk" />
@@ -312,8 +317,18 @@
                 <node concept="37vLTw" id="4Nea5gqGSaB" role="37wK5m">
                   <ref role="3cqZAo" node="2MJ_dSPaJcq" resolve="editorCell" />
                 </node>
-                <node concept="37vLTw" id="1UXFLI$jf6_" role="37wK5m">
-                  <ref role="3cqZAo" node="2MJ_dSPaIHe" resolve="editorContext" />
+                <node concept="2OqwBi" id="7Sk5deAFCGu" role="37wK5m">
+                  <node concept="2JrnkZ" id="7Sk5deAFCEA" role="2Oq$k0">
+                    <node concept="2OqwBi" id="7Sk5deAFCx9" role="2JrQYb">
+                      <node concept="37vLTw" id="7Sk5deAFCsx" role="2Oq$k0">
+                        <ref role="3cqZAo" node="2MJ_dSPaIHg" resolve="node" />
+                      </node>
+                      <node concept="I4A8Y" id="7Sk5deAFC_q" role="2OqNvi" />
+                    </node>
+                  </node>
+                  <node concept="liA8E" id="7Sk5deAFCUJ" role="2OqNvi">
+                    <ref role="37wK5l" to="mhbf:~SModel.getRepository():org.jetbrains.mps.openapi.module.SRepository" resolve="getRepository" />
+                  </node>
                 </node>
               </node>
             </node>

@@ -40,6 +40,8 @@
       <modulePath path="$PROJECT_DIR$/solutions/biomartToR/biomartToR.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/build.plugins/build.plugins.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/migrationtest/migrationtest.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/org.campagnelab.editor.listeners.plugin/org.campagnelab.editor.listeners.plugin.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/org.campagnelab.editor.listeners/org.campagnelab.editor.listeners.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/org.campagnelab.editor.plugins/org.campagnelab.editor.plugins.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/org.campagnelab.metar.R.plugin/org.cmapagnelab.metar.R.plugin.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/org.campagnelab.metar.biomart.web/org.campagnelab.metar.biomart.web.msd" folder="" />
