@@ -756,7 +756,7 @@
             <node concept="34ab3g" id="32a0OmeqIuO" role="3cqZAp">
               <property role="35gtTG" value="warn" />
               <node concept="Xl_RD" id="32a0OmeqIuQ" role="34bqiv">
-                <property role="Xl_RC" value="Project is still null, cannot remove any listener" />
+                <property role="Xl_RC" value="Project is null, cannot remove any listener" />
               </node>
             </node>
             <node concept="3cpWs6" id="32a0OmeqHVI" role="3cqZAp">
@@ -768,7 +768,7 @@
           <node concept="3clFbC" id="32a0OmeqHHZ" role="3clFbw">
             <node concept="10Nm6u" id="32a0OmeqHR$" role="3uHU7w" />
             <node concept="37vLTw" id="32a0OmeqHxm" role="3uHU7B">
-              <ref role="3cqZAo" node="1QuiO55_DA" resolve="project" />
+              <ref role="3cqZAo" node="1QuiO55_DA" resolve="projectName" />
             </node>
           </node>
         </node>
@@ -958,13 +958,8 @@
                 </node>
                 <node concept="liA8E" id="1QuiO55_Mr" role="2OqNvi">
                   <ref role="37wK5l" to="wyt6:~String.equalsIgnoreCase(java.lang.String):boolean" resolve="equalsIgnoreCase" />
-                  <node concept="2OqwBi" id="1QuiO55_Ms" role="37wK5m">
-                    <node concept="37vLTw" id="1QuiO55_Mt" role="2Oq$k0">
-                      <ref role="3cqZAo" node="1QuiO55_DA" resolve="project" />
-                    </node>
-                    <node concept="liA8E" id="1QuiO55_Mu" role="2OqNvi">
-                      <ref role="37wK5l" to="4nm9:~Project.getName():java.lang.String" resolve="getName" />
-                    </node>
+                  <node concept="37vLTw" id="1QuiO55_Mt" role="37wK5m">
+                    <ref role="3cqZAo" node="1QuiO55_DA" resolve="projectName" />
                   </node>
                 </node>
               </node>
@@ -989,11 +984,9 @@
       <node concept="3Tm1VV" id="1QuiO55_4a" role="1B3o_S" />
       <node concept="10P_77" id="1QuiO55_pN" role="3clF45" />
       <node concept="37vLTG" id="1QuiO55_DA" role="3clF46">
-        <property role="TrG5h" value="project" />
+        <property role="TrG5h" value="projectName" />
         <property role="3TUv4t" value="true" />
-        <node concept="3uibUv" id="1QuiO55_D_" role="1tU5fm">
-          <ref role="3uigEE" to="4nm9:~Project" resolve="Project" />
-        </node>
+        <node concept="17QB3L" id="1eCOnlcTZKC" role="1tU5fm" />
       </node>
       <node concept="37vLTG" id="1QuiO55_Ec" role="3clF46">
         <property role="TrG5h" value="listener" />

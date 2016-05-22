@@ -3191,13 +3191,18 @@
       </node>
     </node>
     <node concept="312cEg" id="1QuiO55vM$" role="jymVt">
-      <property role="TrG5h" value="project" />
+      <property role="TrG5h" value="projectName" />
       <property role="3TUv4t" value="false" />
-      <node concept="3Tm6S6" id="1QuiO55vM_" role="1B3o_S" />
-      <node concept="3uibUv" id="1QuiO55vMB" role="1tU5fm">
-        <ref role="3uigEE" to="4nm9:~Project" resolve="Project" />
-      </node>
+      <node concept="3Tm6S6" id="1eCOnlcTVsP" role="1B3o_S" />
+      <node concept="17QB3L" id="1eCOnlcTVAH" role="1tU5fm" />
     </node>
+    <node concept="312cEg" id="1eCOnlcTWkz" role="jymVt">
+      <property role="TrG5h" value="projectBasePath" />
+      <property role="3TUv4t" value="false" />
+      <node concept="3Tm6S6" id="1eCOnlcTWk$" role="1B3o_S" />
+      <node concept="17QB3L" id="1eCOnlcTWk_" role="1tU5fm" />
+    </node>
+    <node concept="2tJIrI" id="1eCOnlcTVHY" role="jymVt" />
     <node concept="2tJIrI" id="1QuiO55veV" role="jymVt" />
     <node concept="2tJIrI" id="2Qyt1JMOHkh" role="jymVt" />
     <node concept="3clFbW" id="2Qyt1JMNWKo" role="jymVt">
@@ -4500,13 +4505,36 @@
         </node>
         <node concept="3clFbF" id="1QuiO55xuW" role="3cqZAp">
           <node concept="37vLTI" id="1QuiO55yhZ" role="3clFbG">
-            <node concept="37vLTw" id="1QuiO55yzr" role="37vLTx">
-              <ref role="3cqZAo" node="1QuiO55wp8" resolve="project" />
+            <node concept="2OqwBi" id="1eCOnlcTX78" role="37vLTx">
+              <node concept="37vLTw" id="1QuiO55yzr" role="2Oq$k0">
+                <ref role="3cqZAo" node="1QuiO55wp8" resolve="project" />
+              </node>
+              <node concept="liA8E" id="1eCOnlcTXlG" role="2OqNvi">
+                <ref role="37wK5l" to="4nm9:~Project.getName():java.lang.String" resolve="getName" />
+              </node>
             </node>
             <node concept="2OqwBi" id="1QuiO55xC6" role="37vLTJ">
               <node concept="Xjq3P" id="1QuiO55xuU" role="2Oq$k0" />
               <node concept="2OwXpG" id="1QuiO55y06" role="2OqNvi">
-                <ref role="2Oxat5" node="1QuiO55vM$" resolve="project" />
+                <ref role="2Oxat5" node="1QuiO55vM$" resolve="projectName" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="1eCOnlcTXDk" role="3cqZAp">
+          <node concept="37vLTI" id="1eCOnlcTYOd" role="3clFbG">
+            <node concept="2OqwBi" id="1eCOnlcTZmP" role="37vLTx">
+              <node concept="37vLTw" id="1eCOnlcTZdw" role="2Oq$k0">
+                <ref role="3cqZAo" node="1QuiO55wp8" resolve="project" />
+              </node>
+              <node concept="liA8E" id="1eCOnlcTZ_p" role="2OqNvi">
+                <ref role="37wK5l" to="4nm9:~Project.getBasePath():java.lang.String" resolve="getBasePath" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="1eCOnlcTXNp" role="37vLTJ">
+              <node concept="Xjq3P" id="1eCOnlcTXDi" role="2Oq$k0" />
+              <node concept="2OwXpG" id="1eCOnlcTXZS" role="2OqNvi">
+                <ref role="2Oxat5" node="1eCOnlcTWkz" resolve="projectBasePath" />
               </node>
             </node>
           </node>
@@ -4573,7 +4601,7 @@
             <node concept="2OqwBi" id="1QuiO55Ct_" role="37wK5m">
               <node concept="Xjq3P" id="1QuiO55CkQ" role="2Oq$k0" />
               <node concept="2OwXpG" id="1QuiO55DT9" role="2OqNvi">
-                <ref role="2Oxat5" node="1QuiO55vM$" resolve="project" />
+                <ref role="2Oxat5" node="1QuiO55vM$" resolve="projectName" />
               </node>
             </node>
             <node concept="2OqwBi" id="1QuiO55Ed3" role="37wK5m">
