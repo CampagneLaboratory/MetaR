@@ -116,6 +116,7 @@
       <concept id="1068580123165" name="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" flags="ig" index="3clFb_">
         <property id="1178608670077" name="isAbstract" index="1EzhhJ" />
       </concept>
+      <concept id="1068580123152" name="jetbrains.mps.baseLanguage.structure.EqualsExpression" flags="nn" index="3clFbC" />
       <concept id="1068580123155" name="jetbrains.mps.baseLanguage.structure.ExpressionStatement" flags="nn" index="3clFbF">
         <child id="1068580123156" name="expression" index="3clFbG" />
       </concept>
@@ -750,6 +751,27 @@
       <property role="DiZV1" value="false" />
       <property role="2aFKle" value="false" />
       <node concept="3clFbS" id="1QuiO55_qc" role="3clF47">
+        <node concept="3clFbJ" id="32a0OmeqHmu" role="3cqZAp">
+          <node concept="3clFbS" id="32a0OmeqHmw" role="3clFbx">
+            <node concept="34ab3g" id="32a0OmeqIuO" role="3cqZAp">
+              <property role="35gtTG" value="warn" />
+              <node concept="Xl_RD" id="32a0OmeqIuQ" role="34bqiv">
+                <property role="Xl_RC" value="Project is still null, cannot remove any listener" />
+              </node>
+            </node>
+            <node concept="3cpWs6" id="32a0OmeqHVI" role="3cqZAp">
+              <node concept="3clFbT" id="32a0OmeqI5M" role="3cqZAk">
+                <property role="3clFbU" value="false" />
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbC" id="32a0OmeqHHZ" role="3clFbw">
+            <node concept="10Nm6u" id="32a0OmeqHR$" role="3uHU7w" />
+            <node concept="37vLTw" id="32a0OmeqHxm" role="3uHU7B">
+              <ref role="3cqZAo" node="1QuiO55_DA" resolve="project" />
+            </node>
+          </node>
+        </node>
         <node concept="2Gpval" id="1QuiO55_Lp" role="3cqZAp">
           <node concept="2GrKxI" id="1QuiO55_Lq" role="2Gsz3X">
             <property role="TrG5h" value="openProject" />
