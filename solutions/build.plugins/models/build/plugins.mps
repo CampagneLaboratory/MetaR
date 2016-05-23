@@ -1243,6 +1243,12 @@
             <ref role="3bR37D" to="ffeo:1TaHNgiIbIQ" resolve="MPS.Core" />
           </node>
         </node>
+        <node concept="1SiIV0" id="FhC5eeM4T$" role="3bR37C">
+          <node concept="3bR9La" id="FhC5eeM4T_" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" node="3gMg70bRmfh" resolve="org.campagnelab.metar.tables" />
+          </node>
+        </node>
       </node>
       <node concept="1E1JtD" id="3gMg70bRmfh" role="2G$12L">
         <property role="BnDLt" value="true" />
