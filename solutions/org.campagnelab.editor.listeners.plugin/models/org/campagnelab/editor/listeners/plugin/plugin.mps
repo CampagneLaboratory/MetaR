@@ -734,7 +734,7 @@
                           <node concept="34oBXx" id="59m6hGjgquB" role="2OqNvi" />
                         </node>
                         <node concept="Xl_RD" id="59m6hGjgq2G" role="3uHU7B">
-                          <property role="Xl_RC" value="Total listeners: " />
+                          <property role="Xl_RC" value="Total active listeners: " />
                         </node>
                       </node>
                     </node>
@@ -975,7 +975,7 @@
                               <node concept="34oBXx" id="1QuiO55_M6" role="2OqNvi" />
                             </node>
                             <node concept="Xl_RD" id="1QuiO55_M7" role="3uHU7B">
-                              <property role="Xl_RC" value="Total listeners: " />
+                              <property role="Xl_RC" value="Total active listeners: " />
                             </node>
                           </node>
                         </node>

@@ -411,15 +411,6 @@
             </node>
           </node>
         </node>
-        <node concept="34ab3g" id="5shiJbXCE3K" role="3cqZAp">
-          <property role="35gtTG" value="info" />
-          <node concept="3cpWs3" id="5shiJbXCE3L" role="34bqiv">
-            <node concept="Xl_RD" id="5shiJbXCE3M" role="3uHU7B">
-              <property role="Xl_RC" value="Set cell called on " />
-            </node>
-            <node concept="Xjq3P" id="5shiJbXCE3N" role="3uHU7w" />
-          </node>
-        </node>
         <node concept="3cpWs8" id="5so3epuIVaB" role="3cqZAp">
           <node concept="3cpWsn" id="5so3epuIVaC" role="3cpWs9">
             <property role="TrG5h" value="project" />
@@ -450,37 +441,6 @@
                     <ref role="37wK5l" to="exr9:~EditorContext.getRepository():org.jetbrains.mps.openapi.module.SRepository" resolve="getRepository" />
                   </node>
                 </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="34ab3g" id="38k4CcpRU65" role="3cqZAp">
-          <property role="35gtTG" value="info" />
-          <node concept="3cpWs3" id="38k4CcpRVqO" role="34bqiv">
-            <node concept="2OqwBi" id="38k4CcpRVQl" role="3uHU7w">
-              <node concept="37vLTw" id="38k4CcpRVGP" role="2Oq$k0">
-                <ref role="3cqZAo" node="5so3epuIVaC" resolve="project" />
-              </node>
-              <node concept="liA8E" id="38k4CcpRWRd" role="2OqNvi">
-                <ref role="37wK5l" to="4nm9:~Project.getBasePath():java.lang.String" resolve="getBasePath" />
-              </node>
-            </node>
-            <node concept="3cpWs3" id="38k4CcpRV5w" role="3uHU7B">
-              <node concept="3cpWs3" id="38k4CcpRU66" role="3uHU7B">
-                <node concept="Xl_RD" id="38k4CcpRU67" role="3uHU7B">
-                  <property role="Xl_RC" value="Set cell on project " />
-                </node>
-                <node concept="2OqwBi" id="38k4CcpRUCR" role="3uHU7w">
-                  <node concept="37vLTw" id="38k4CcpRUw4" role="2Oq$k0">
-                    <ref role="3cqZAo" node="5so3epuIVaC" resolve="project" />
-                  </node>
-                  <node concept="liA8E" id="38k4CcpRUKv" role="2OqNvi">
-                    <ref role="37wK5l" to="4nm9:~Project.getName():java.lang.String" resolve="getName" />
-                  </node>
-                </node>
-              </node>
-              <node concept="Xl_RD" id="38k4CcpRVgs" role="3uHU7w">
-                <property role="Xl_RC" value=" at " />
               </node>
             </node>
           </node>
@@ -527,8 +487,31 @@
           <node concept="3clFbS" id="38k4CcpRXsU" role="3clFbx">
             <node concept="34ab3g" id="38k4CcpRYDT" role="3cqZAp">
               <property role="35gtTG" value="info" />
-              <node concept="Xl_RD" id="38k4CcpRYDV" role="34bqiv">
-                <property role="Xl_RC" value="Listener added" />
+              <node concept="3cpWs3" id="3in85J_rKGc" role="34bqiv">
+                <node concept="2OqwBi" id="3in85J_rLvp" role="3uHU7w">
+                  <node concept="37vLTw" id="3in85J_rLm0" role="2Oq$k0">
+                    <ref role="3cqZAo" node="5so3epuIVaC" resolve="project" />
+                  </node>
+                  <node concept="liA8E" id="3in85J_rMwo" role="2OqNvi">
+                    <ref role="37wK5l" to="4nm9:~Project.getName():java.lang.String" resolve="getName" />
+                  </node>
+                </node>
+                <node concept="3cpWs3" id="3in85J_rK6n" role="3uHU7B">
+                  <node concept="3cpWs3" id="3in85J_rJfq" role="3uHU7B">
+                    <node concept="Xl_RD" id="38k4CcpRYDV" role="3uHU7B">
+                      <property role="Xl_RC" value="Listener activated for " />
+                    </node>
+                    <node concept="2OqwBi" id="3in85J_rJw1" role="3uHU7w">
+                      <node concept="Xjq3P" id="3in85J_rJn8" role="2Oq$k0" />
+                      <node concept="2OwXpG" id="3in85J_rJHZ" role="2OqNvi">
+                        <ref role="2Oxat5" node="4Nea5gqElPV" resolve="imagePath" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="Xl_RD" id="3in85J_rKyd" role="3uHU7w">
+                    <property role="Xl_RC" value=" on project " />
+                  </node>
+                </node>
               </node>
             </node>
           </node>
@@ -544,16 +527,16 @@
           </node>
           <node concept="9aQIb" id="38k4CcpRYEX" role="9aQIa">
             <node concept="3clFbS" id="38k4CcpRYEY" role="9aQI4">
-              <node concept="34ab3g" id="38k4CcpRZgt" role="3cqZAp">
-                <property role="35gtTG" value="info" />
-                <node concept="3cpWs3" id="3HCQVu5ff8t" role="34bqiv">
-                  <node concept="2OqwBi" id="3HCQVu5fhpe" role="3uHU7w">
-                    <node concept="Xjq3P" id="3HCQVu5fhgl" role="2Oq$k0" />
-                    <node concept="2OwXpG" id="3HCQVu5fhto" role="2OqNvi">
+              <node concept="34ab3g" id="3in85J_rINd" role="3cqZAp">
+                <property role="35gtTG" value="warn" />
+                <node concept="3cpWs3" id="3in85J_rINe" role="34bqiv">
+                  <node concept="2OqwBi" id="3in85J_rINf" role="3uHU7w">
+                    <node concept="Xjq3P" id="3in85J_rINg" role="2Oq$k0" />
+                    <node concept="2OwXpG" id="3in85J_rINh" role="2OqNvi">
                       <ref role="2Oxat5" node="4Nea5gqElPV" resolve="imagePath" />
                     </node>
                   </node>
-                  <node concept="Xl_RD" id="38k4CcpRZgv" role="3uHU7B">
+                  <node concept="Xl_RD" id="3in85J_rINi" role="3uHU7B">
                     <property role="Xl_RC" value="Failed to create a listener for " />
                   </node>
                 </node>
@@ -2795,53 +2778,6 @@
         </node>
       </node>
       <node concept="3clFbS" id="7YNwX5HiPxc" role="3clF47">
-        <node concept="34ab3g" id="5ox5420PbOE" role="3cqZAp">
-          <property role="35gtTG" value="info" />
-          <node concept="3cpWs3" id="5ox5420Pc1l" role="34bqiv">
-            <node concept="Xl_RD" id="5ox5420PbOG" role="3uHU7B">
-              <property role="Xl_RC" value="contents change called for " />
-            </node>
-            <node concept="2OqwBi" id="5ox5420Pclg" role="3uHU7w">
-              <node concept="2OqwBi" id="5ox5420Pclh" role="2Oq$k0">
-                <node concept="37vLTw" id="5ox5420Pcli" role="2Oq$k0">
-                  <ref role="3cqZAo" node="7YNwX5HiPx7" resolve="event" />
-                </node>
-                <node concept="liA8E" id="5ox5420Pclj" role="2OqNvi">
-                  <ref role="37wK5l" to="jlff:~VirtualFileEvent.getFile():com.intellij.openapi.vfs.VirtualFile" resolve="getFile" />
-                </node>
-              </node>
-              <node concept="liA8E" id="5ox5420Pclk" role="2OqNvi">
-                <ref role="37wK5l" to="jlff:~VirtualFile.getPath():java.lang.String" resolve="getPath" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="34ab3g" id="5ox5420Pc$u" role="3cqZAp">
-          <property role="35gtTG" value="info" />
-          <node concept="3cpWs3" id="5ox5420Pc$v" role="34bqiv">
-            <node concept="Xl_RD" id="5ox5420Pc$w" role="3uHU7B">
-              <property role="Xl_RC" value="contents change called listener " />
-            </node>
-            <node concept="Xjq3P" id="5ox5420PdkU" role="3uHU7w" />
-          </node>
-        </node>
-        <node concept="34ab3g" id="5ox5420PdoB" role="3cqZAp">
-          <property role="35gtTG" value="info" />
-          <node concept="3cpWs3" id="5ox5420PdoC" role="34bqiv">
-            <node concept="Xl_RD" id="5ox5420PdoD" role="3uHU7B">
-              <property role="Xl_RC" value="contents change called ts " />
-            </node>
-            <node concept="2OqwBi" id="5ox5420PeIj" role="3uHU7w">
-              <node concept="37vLTw" id="5ox5420PeoF" role="2Oq$k0">
-                <ref role="3cqZAo" node="7YNwX5HiPx7" resolve="event" />
-              </node>
-              <node concept="liA8E" id="5ox5420PeZh" role="2OqNvi">
-                <ref role="37wK5l" to="jlff:~VirtualFileEvent.getNewModificationStamp():long" resolve="getNewModificationStamp" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbH" id="5ox5420PctV" role="3cqZAp" />
         <node concept="3clFbJ" id="4Nea5gqFKZy" role="3cqZAp">
           <node concept="3clFbS" id="4Nea5gqFKZz" role="3clFbx">
             <node concept="3clFbF" id="7ZsbjVAVYzp" role="3cqZAp">
@@ -4601,10 +4537,31 @@
         </node>
         <node concept="3clFbJ" id="1QuiO55BRW" role="3cqZAp">
           <node concept="3clFbS" id="1QuiO55BRY" role="3clFbx">
-            <node concept="34ab3g" id="1QuiO55EI7" role="3cqZAp">
+            <node concept="34ab3g" id="3in85J_rHEH" role="3cqZAp">
               <property role="35gtTG" value="info" />
-              <node concept="Xl_RD" id="1QuiO55EIc" role="34bqiv">
-                <property role="Xl_RC" value="Listener removed" />
+              <node concept="3cpWs3" id="3in85J_rHEI" role="34bqiv">
+                <node concept="2OqwBi" id="3in85J_rHEJ" role="3uHU7w">
+                  <node concept="Xjq3P" id="3in85J_rHEK" role="2Oq$k0" />
+                  <node concept="2OwXpG" id="3in85J_rHEL" role="2OqNvi">
+                    <ref role="2Oxat5" node="1QuiO55vM$" resolve="projectName" />
+                  </node>
+                </node>
+                <node concept="3cpWs3" id="3in85J_rHEM" role="3uHU7B">
+                  <node concept="3cpWs3" id="3in85J_rHEN" role="3uHU7B">
+                    <node concept="Xl_RD" id="3in85J_rHEO" role="3uHU7B">
+                      <property role="Xl_RC" value="Listener deactivated for image " />
+                    </node>
+                    <node concept="2OqwBi" id="3in85J_rHEP" role="3uHU7w">
+                      <node concept="Xjq3P" id="3in85J_rHEQ" role="2Oq$k0" />
+                      <node concept="2OwXpG" id="3in85J_rHER" role="2OqNvi">
+                        <ref role="2Oxat5" node="2Qyt1JMOTUK" resolve="imagePath" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="Xl_RD" id="3in85J_rHES" role="3uHU7w">
+                    <property role="Xl_RC" value=" on project " />
+                  </node>
+                </node>
               </node>
             </node>
           </node>
