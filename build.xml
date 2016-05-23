@@ -1468,14 +1468,14 @@
   <target name="buildDependents" />
   
   <target name="fetchDependencies">
-    <mkdir dir="${build.tmp}/deps/org.campagnelab.mps.UI/org.campagnelab.UI-_dl__lbrace_ui_version_rbrace_.zip" />
-    <unzip src="${artifacts.org.campagnelab.mps.UI}/org.campagnelab.UI-${org.campagnelab.mps.UI.ui_version}.zip" dest="${build.tmp}/deps/org.campagnelab.mps.UI/org.campagnelab.UI-_dl__lbrace_ui_version_rbrace_.zip" />
     <mkdir dir="${build.tmp}/deps/XChart/XChart__dl__lbrace_XChart_version_rbrace_.zip" />
     <unzip src="${artifacts.XChart}/XChart_${XChart.XChart_version}.zip" dest="${build.tmp}/deps/XChart/XChart__dl__lbrace_XChart_version_rbrace_.zip" />
-    <mkdir dir="${build.tmp}/deps/ANTLR/ANTLR__dl__lbrace_ANTLR_version_rbrace_.zip" />
-    <unzip src="${artifacts.ANTLR}/ANTLR_${ANTLR.ANTLR_version}.zip" dest="${build.tmp}/deps/ANTLR/ANTLR__dl__lbrace_ANTLR_version_rbrace_.zip" />
+    <mkdir dir="${build.tmp}/deps/org.campagnelab.mps.UI/org.campagnelab.UI-_dl__lbrace_ui_version_rbrace_.zip" />
+    <unzip src="${artifacts.org.campagnelab.mps.UI}/org.campagnelab.UI-${org.campagnelab.mps.UI.ui_version}.zip" dest="${build.tmp}/deps/org.campagnelab.mps.UI/org.campagnelab.UI-_dl__lbrace_ui_version_rbrace_.zip" />
     <mkdir dir="${build.tmp}/deps/org.campagnelab.TextOutput/org.campagnelab.TextOutput-_dl__lbrace_textoutput_version_rbrace_.zip" />
     <unzip src="${artifacts.org.campagnelab.TextOutput}/org.campagnelab.TextOutput-${org.campagnelab.TextOutput.textoutput_version}.zip" dest="${build.tmp}/deps/org.campagnelab.TextOutput/org.campagnelab.TextOutput-_dl__lbrace_textoutput_version_rbrace_.zip" />
+    <mkdir dir="${build.tmp}/deps/ANTLR/ANTLR__dl__lbrace_ANTLR_version_rbrace_.zip" />
+    <unzip src="${artifacts.ANTLR}/ANTLR_${ANTLR.ANTLR_version}.zip" dest="${build.tmp}/deps/ANTLR/ANTLR__dl__lbrace_ANTLR_version_rbrace_.zip" />
     <mkdir dir="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip" />
     <unzip src="${artifacts.org.campagnelab.NYoSh}/org.campagnelab.NYoSh-${org.campagnelab.NYoSh.nyosh_version}.zip" dest="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip" />
   </target>
@@ -1625,11 +1625,9 @@
         <module file="${basedir}/solutions/org.campagnelab.editor.listeners.plugin/org.campagnelab.editor.listeners.plugin.msd" />
         <module file="${basedir}/languages/org.campagnelab.metar.R.gen/org.campagnelab.metar.R.gen.mpl" />
         <module file="${basedir}/solutions/org.campagnelab.metar.biomart.web/org.campagnelab.metar.biomart.web.msd" />
-        <module file="${basedir}/languages/org.campagnelab.styles/org.campagnelab.styles.mpl" />
       </chunk>
       <chunk bootstrap="true">
         <module file="${basedir}/languages/org.campagnelab.metar.R/org.campagnelab.metar.R.mpl" bootstrap="true" />
-        <module file="${basedir}/languages/org.campagnelab.metar.accessories/org.campagnelab.metar.accessories.mpl" />
         <module file="${basedir}/solutions/org.campagnelab.metar.r.parsers/org.campagnelab.metar.r.parsers.msd" />
       </chunk>
       <chunk bootstrap="true">
@@ -1639,12 +1637,14 @@
         <module file="${basedir}/languages/org.campagnelab.metaR.inspect/org.campagnelab.metaR.inspect.mpl" bootstrap="true" />
         <module file="${basedir}/solutions/org.campagnelab.metar.r.scripts/org.campagnelab.metar.r.scripts.msd" bootstrap="true" />
         <module file="${basedir}/languages/org.campagnelab.metaR.tables/org.campagnelab.metaR.tables.mpl" bootstrap="true" />
+        <module file="${basedir}/languages/org.campagnelab.styles/org.campagnelab.styles.mpl" />
       </chunk>
       <chunk>
         <module file="${basedir}/devkits/R/org.campagnelab.R.devkit" />
         <module file="${basedir}/solutions/org.campagnelab.editor.plugins/org.campagnelab.editor.plugins.msd" />
         <module file="${basedir}/devkits/org.campagnelab.HTAnalysis.devkit" />
         <module file="${basedir}/languages/org.campagnelab.metar.R.inspect/org.campagnelab.metar.R.inspect.mpl" />
+        <module file="${basedir}/languages/org.campagnelab.metar.accessories/org.campagnelab.metar.accessories.mpl" />
         <module file="${basedir}/languages/org.campagnelab.metar.biomart/org.campagnelab.metar.biomart.mpl" />
         <module file="${basedir}/languages/org.campagnelab.metar.MetarToR/org.campagnelab.metar.MetarToR.mpl" />
         <module file="${basedir}/languages/org.campagnelab.metar.functions.access/org.campagnelab.metar.functions.access.mpl" />
@@ -2339,12 +2339,13 @@
     </copy>
   </target>
   
-  <target name="java.compile.java.modules.cycle.2" depends="java.compile.org.campagnelab.metar.R.gen, java.compile.org.campagnelab.metar.r.stubs, java.compile.org.campagnelab.styles, java.compile.org.campagnelab.editor.images, java.compile.org.campagnelab.editor.listeners.plugin, fetchDependencies">
+  <target name="java.compile.java.modules.cycle.2" depends="java.compile.org.campagnelab.metar.R.gen, java.compile.org.campagnelab.metar.r.stubs, java.compile.org.campagnelab.editor.images, java.compile.org.campagnelab.editor.listeners.plugin, fetchDependencies">
     <mkdir dir="${build.tmp}/java.modules.cycle.2" />
     <javac destdir="${build.tmp}/java.modules.cycle.2" fork="true" nowarn="true" includeantruntime="false">
       <compilerarg value="-Xlint:none" />
       <src>
         <path location="${basedir}/languages/org.campagnelab.metar.code/source_gen" />
+        <path location="${basedir}/languages/org.campagnelab.styles/source_gen" />
         <path location="${basedir}/languages/org.campagnelab.metaR.tables/source_gen" />
         <path location="${basedir}/languages/org.campagnelab.metaR.inspect/source_gen" />
       </src>
@@ -2415,14 +2416,13 @@
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.generator.jar" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.metar.R.gen" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.metar.r.stubs" />
-        <pathelement path="${build.tmp}/java/out/org.campagnelab.styles" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.editor.images" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.editor.listeners.plugin" />
       </classpath>
     </javac>
   </target>
   
-  <target name="java.compile.org.campagnelab.metar.code" depends="java.compile.org.campagnelab.metar.R.gen, java.compile.org.campagnelab.metar.r.stubs, java.compile.org.campagnelab.styles, java.compile.java.modules.cycle.2, fetchDependencies">
+  <target name="java.compile.org.campagnelab.metar.code" depends="java.compile.org.campagnelab.metar.R.gen, java.compile.org.campagnelab.metar.r.stubs, java.compile.java.modules.cycle.2, fetchDependencies">
     <mkdir dir="${basedir}/languages/org.campagnelab.metar.code/source_gen" />
     <mkdir dir="${build.tmp}/java/out/org.campagnelab.metar.code" />
     <javac destdir="${build.tmp}/java/out/org.campagnelab.metar.code" fork="true" includeantruntime="false" source="1.6" target="1.6">
@@ -2445,7 +2445,6 @@
         <fileset file="${artifacts.mps}/lib/mps-platform.jar" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.metar.R.gen" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.metar.r.stubs" />
-        <pathelement path="${build.tmp}/java/out/org.campagnelab.styles" />
         <fileset file="${build.tmp}/deps/XChart/XChart__dl__lbrace_XChart_version_rbrace_.zip/XChart/lib/xchart-2.4.1-SNAPSHOT.jar" />
         <fileset file="${artifacts.mps}/lib/log4j.jar" />
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
@@ -2633,7 +2632,7 @@
     </copy>
   </target>
   
-  <target name="java.compile.org.campagnelab.styles" depends="fetchDependencies">
+  <target name="java.compile.org.campagnelab.styles" depends="java.compile.org.campagnelab.metar.R.gen, java.compile.org.campagnelab.metar.r.stubs, java.compile.java.modules.cycle.2, fetchDependencies">
     <mkdir dir="${basedir}/languages/org.campagnelab.styles/source_gen" />
     <mkdir dir="${build.tmp}/java/out/org.campagnelab.styles" />
     <javac destdir="${build.tmp}/java/out/org.campagnelab.styles" fork="true" includeantruntime="false" source="1.6" target="1.6">
@@ -2654,6 +2653,9 @@
         <fileset file="${artifacts.mps}/lib/mps-editor.jar" />
         <fileset file="${artifacts.mps}/lib/mps-environment.jar" />
         <fileset file="${artifacts.mps}/lib/mps-platform.jar" />
+        <pathelement path="${build.tmp}/java/out/org.campagnelab.metar.R.gen" />
+        <pathelement path="${build.tmp}/java/out/org.campagnelab.metar.r.stubs" />
+        <fileset file="${build.tmp}/deps/XChart/XChart__dl__lbrace_XChart_version_rbrace_.zip/XChart/lib/xchart-2.4.1-SNAPSHOT.jar" />
         <fileset file="${artifacts.mps}/lib/log4j.jar" />
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/lib/jdom.jar" />
@@ -2663,9 +2665,18 @@
         <fileset file="${artifacts.mps}/lib/asm-all.jar" />
         <fileset file="${artifacts.mps}/lib/diffutils-1.2.1.jar" />
         <fileset dir="${artifacts.mps}/lib" includes="*.jar" />
+        <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
+        <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.blTypes.jar" />
+        <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.scopes.jar" />
+        <fileset file="${artifacts.mps}/languages/util/jetbrains.mps.execution.util.jar" />
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.core.jar" />
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.scopes.runtime.jar" />
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.structure.jar" />
+        <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.traceable.jar" />
+        <fileset file="${build.tmp}/deps/XChart/XChart__dl__lbrace_XChart_version_rbrace_.zip/XChart/languages/XChart/org.campagnelab.mps.XChart.jar" />
+        <fileset file="${build.tmp}/deps/XChart/XChart__dl__lbrace_XChart_version_rbrace_.zip/XChart/languages/XChart/org.campagnelab.mps.XChart.types.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.TextOutput/org.campagnelab.TextOutput-_dl__lbrace_textoutput_version_rbrace_.zip/TextOutput/languages/TextOutput/org.campagnelab.textoutput.jar" />
+        <pathelement path="${build.tmp}/java.modules.cycle.2" />
       </classpath>
     </javac>
     <copy todir="${build.tmp}/java/out/org.campagnelab.styles">
@@ -2673,7 +2684,7 @@
     </copy>
   </target>
   
-  <target name="java.compile.org.campagnelab.metar.tables" depends="java.compile.org.campagnelab.editor.images, java.compile.org.campagnelab.editor.listeners.plugin, java.compile.org.campagnelab.metar.R.gen, java.compile.org.campagnelab.metar.r.stubs, java.compile.org.campagnelab.styles, java.compile.java.modules.cycle.2, fetchDependencies">
+  <target name="java.compile.org.campagnelab.metar.tables" depends="java.compile.org.campagnelab.editor.images, java.compile.org.campagnelab.editor.listeners.plugin, java.compile.org.campagnelab.metar.R.gen, java.compile.org.campagnelab.metar.r.stubs, java.compile.java.modules.cycle.2, fetchDependencies">
     <mkdir dir="${basedir}/languages/org.campagnelab.metaR.tables/source_gen" />
     <mkdir dir="${build.tmp}/java/out/org.campagnelab.metar.tables" />
     <javac destdir="${build.tmp}/java/out/org.campagnelab.metar.tables" fork="true" includeantruntime="false" source="1.6" target="1.6">
@@ -2700,7 +2711,6 @@
         <pathelement path="${build.tmp}/java/out/org.campagnelab.editor.listeners.plugin" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.metar.R.gen" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.metar.r.stubs" />
-        <pathelement path="${build.tmp}/java/out/org.campagnelab.styles" />
         <fileset file="${build.tmp}/deps/XChart/XChart__dl__lbrace_XChart_version_rbrace_.zip/XChart/lib/xchart-2.4.1-SNAPSHOT.jar" />
         <fileset file="${artifacts.mps}/lib/log4j.jar" />
         <fileset file="${artifacts.mps}/plugins/jetpad/lib/base-1.0.0-jvm6.jar" />
@@ -3231,7 +3241,7 @@
     </copy>
   </target>
   
-  <target name="java.compile.org.campagnelab.metar.inspect" depends="java.compile.org.campagnelab.metar.R.gen, java.compile.org.campagnelab.metar.r.stubs, java.compile.org.campagnelab.styles, java.compile.java.modules.cycle.2, fetchDependencies">
+  <target name="java.compile.org.campagnelab.metar.inspect" depends="java.compile.org.campagnelab.metar.R.gen, java.compile.org.campagnelab.metar.r.stubs, java.compile.java.modules.cycle.2, fetchDependencies">
     <mkdir dir="${basedir}/languages/org.campagnelab.metaR.inspect/source_gen" />
     <mkdir dir="${build.tmp}/java/out/org.campagnelab.metar.inspect" />
     <javac destdir="${build.tmp}/java/out/org.campagnelab.metar.inspect" fork="true" includeantruntime="false" source="1.6" target="1.6">
@@ -3254,7 +3264,6 @@
         <fileset file="${artifacts.mps}/lib/mps-platform.jar" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.metar.R.gen" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.metar.r.stubs" />
-        <pathelement path="${build.tmp}/java/out/org.campagnelab.styles" />
         <fileset file="${build.tmp}/deps/XChart/XChart__dl__lbrace_XChart_version_rbrace_.zip/XChart/lib/xchart-2.4.1-SNAPSHOT.jar" />
         <fileset file="${artifacts.mps}/lib/log4j.jar" />
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
@@ -4344,9 +4353,10 @@
     <delete dir="${basedir}/solutions/org.campagnelab.editor.listeners.plugin/source_gen" />
     <delete dir="${basedir}/languages/org.campagnelab.metar.R.gen/source_gen" />
     <delete dir="${basedir}/solutions/org.campagnelab.metar.biomart.web/source_gen" />
-    <delete dir="${basedir}/languages/org.campagnelab.styles/source_gen" />
     <delete dir="${basedir}/solutions/org.campagnelab.editor.plugins/source_gen" />
     <delete dir="${basedir}/languages/org.campagnelab.metar.R.inspect/source_gen" />
+    <delete dir="${basedir}/languages/org.campagnelab.metar.accessories/source_gen" />
+    <delete dir="${basedir}/languages/org.campagnelab.metar.accessories/generator/source_gen" />
     <delete dir="${basedir}/languages/org.campagnelab.metar.biomart/source_gen" />
     <delete dir="${basedir}/languages/org.campagnelab.metar.MetarToR/source_gen" />
     <delete dir="${basedir}/languages/org.campagnelab.metar.code/generator/source_gen" />
