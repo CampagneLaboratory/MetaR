@@ -1115,6 +1115,12 @@
         <node concept="3LEDTy" id="legv36FLmR" role="3LEDUa">
           <ref role="3LEDTV" node="3rWIEp7J14y" resolve="org.campagnelab.metar.R" />
         </node>
+        <node concept="3LEDTy" id="7hlMFbPpsfi" role="3LEDUa">
+          <ref role="3LEDTV" node="23SyNvytJXw" resolve="org.campagnelab.editor.images" />
+        </node>
+        <node concept="3LEDTM" id="7hlMFbPpsfj" role="3LEDUa">
+          <ref role="3LEDTN" node="7U8jHwbep48" resolve="org.campagnelab.editor.listeners.plugin" />
+        </node>
       </node>
       <node concept="1E1JtD" id="3rWIEp7Ilky" role="2G$12L">
         <property role="BnDLt" value="true" />
@@ -1225,28 +1231,10 @@
             <ref role="3bR37D" to="ffeo:1d41uYMTVPB" resolve="jetbrains.mps.lang.scopes.runtime" />
           </node>
         </node>
-        <node concept="1SiIV0" id="7Mz7YANVbp8" role="3bR37C">
-          <node concept="3bR9La" id="7Mz7YANVbp9" role="1SiIV1">
-            <property role="3bR36h" value="false" />
-            <ref role="3bR37D" to="ffeo:1H905DlDUSw" resolve="MPS.OpenAPI" />
-          </node>
-        </node>
         <node concept="1SiIV0" id="7Mz7YANVbpa" role="3bR37C">
           <node concept="3bR9La" id="7Mz7YANVbpb" role="1SiIV1">
             <property role="3bR36h" value="false" />
             <ref role="3bR37D" to="ffeo:44LXwdzyvTi" resolve="Annotations" />
-          </node>
-        </node>
-        <node concept="1SiIV0" id="7Mz7YANVbpc" role="3bR37C">
-          <node concept="3bR9La" id="7Mz7YANVbpd" role="1SiIV1">
-            <property role="3bR36h" value="false" />
-            <ref role="3bR37D" to="ffeo:1TaHNgiIbIQ" resolve="MPS.Core" />
-          </node>
-        </node>
-        <node concept="1SiIV0" id="FhC5eeM4T$" role="3bR37C">
-          <node concept="3bR9La" id="FhC5eeM4T_" role="1SiIV1">
-            <property role="3bR36h" value="false" />
-            <ref role="3bR37D" node="3gMg70bRmfh" resolve="org.campagnelab.metar.tables" />
           </node>
         </node>
       </node>
