@@ -9,6 +9,7 @@
       <modulePath path="$PROJECT_DIR$/devkits/org.campagnelab.HTAnalysis.devkit" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.editor.csvviewer/org.campagnelab.editor.csvviewer.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.editor.images/org.campagnelab.editor.images.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.jupyterManager/org.campagnelab.jupyterManager.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.metaR.inspect/org.campagnelab.metaR.inspect.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.metaR.tables/org.campagnelab.metaR.tables.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.metar.MetarToR/org.campagnelab.metar.MetarToR.mpl" folder="" />
@@ -43,6 +44,8 @@
       <modulePath path="$PROJECT_DIR$/solutions/org.campagnelab.editor.listeners.plugin/org.campagnelab.editor.listeners.plugin.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/org.campagnelab.editor.listeners/org.campagnelab.editor.listeners.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/org.campagnelab.editor.plugins/org.campagnelab.editor.plugins.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/org.campagnelab.jupyterManager.plugin/org.campagnelab.jupyterManager.plugin.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/org.campagnelab.jupyterManager/org.campagnelab.jupyterManager.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/org.campagnelab.metar.R.plugin/org.cmapagnelab.metar.R.plugin.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/org.campagnelab.metar.biomart.web/org.campagnelab.metar.biomart.web.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/org.campagnelab.metar.r.parsers/org.campagnelab.metar.r.parsers.msd" folder="" />
