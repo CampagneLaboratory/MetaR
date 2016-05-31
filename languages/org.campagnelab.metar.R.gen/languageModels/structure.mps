@@ -37,6 +37,10 @@
       <property role="TrG5h" value="localMetaRLibsFolder" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
+    <node concept="1TJgyi" id="7klrZ4rJNHf" role="1TKVEl">
+      <property role="TrG5h" value="resultsDir" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
     <node concept="PrWs8" id="6efZaUgdIJF" role="PrDN$">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>

@@ -3,11 +3,13 @@
   <persistence version="9" />
   <languages>
     <use id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior" version="0" />
+    <use id="b401a680-8325-4110-8fd3-84331ff25bef" name="jetbrains.mps.lang.generator" version="0" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
     <import index="guwi" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" />
     <import index="1mjk" ref="r:72b0aa20-b681-4aef-ad30-bb23b1f4b98c(org.campagnelab.metar.code.generator.helpers)" />
+    <import index="18ew" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.util(MPS.Core/)" />
     <import index="l5qg" ref="r:c3c8723d-4db5-4e18-902d-1cb272fe4ddf(org.campagnelab.metar.R.gen.structure)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
@@ -124,7 +126,7 @@
     </node>
     <node concept="13i0hz" id="5OllgZoNaKA" role="13h7CS">
       <property role="13i0iv" value="false" />
-      <property role="13i0it" value="true" />
+      <property role="13i0it" value="false" />
       <property role="TrG5h" value="getLocalMetaRLibsFolder" />
       <node concept="3Tm1VV" id="5OllgZoNaKB" role="1B3o_S" />
       <node concept="3clFbS" id="5OllgZoNaKC" role="3clF47">
@@ -177,6 +179,56 @@
         </node>
       </node>
       <node concept="17QB3L" id="5OllgZoNaMb" role="3clF45" />
+    </node>
+    <node concept="13i0hz" id="7klrZ4rJNMW" role="13h7CS">
+      <property role="13i0iv" value="false" />
+      <property role="13i0it" value="false" />
+      <property role="TrG5h" value="getResultsDir" />
+      <node concept="3Tm1VV" id="7klrZ4rJNMX" role="1B3o_S" />
+      <node concept="3clFbS" id="7klrZ4rJNMY" role="3clF47">
+        <node concept="3clFbF" id="7klrZ4rJNRf" role="3cqZAp">
+          <node concept="3K4zz7" id="7klrZ4rJOuC" role="3clFbG">
+            <node concept="2OqwBi" id="7klrZ4rJOx4" role="3K4GZi">
+              <node concept="13iPFW" id="7klrZ4rJOvg" role="2Oq$k0" />
+              <node concept="3TrcHB" id="7klrZ4rJO$N" role="2OqNvi">
+                <ref role="3TsBF5" to="l5qg:7klrZ4rJNHf" resolve="resultsDir" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="7klrZ4rJOc9" role="3K4Cdx">
+              <node concept="2OqwBi" id="7klrZ4rJNT7" role="2Oq$k0">
+                <node concept="13iPFW" id="7klrZ4rJNRe" role="2Oq$k0" />
+                <node concept="3TrcHB" id="7klrZ4rJO6X" role="2OqNvi">
+                  <ref role="3TsBF5" to="l5qg:7klrZ4rJNHf" resolve="resultsDir" />
+                </node>
+              </node>
+              <node concept="17RlXB" id="7klrZ4rJOmL" role="2OqNvi" />
+            </node>
+            <node concept="2OqwBi" id="4RSqyaA7mrJ" role="3K4E3e">
+              <node concept="2ShNRf" id="4RSqyaA7gOU" role="2Oq$k0">
+                <node concept="1pGfFk" id="4RSqyaA7lB5" role="2ShVmc">
+                  <ref role="37wK5l" to="1mjk:4RSqyaA71W6" resolve="RPath" />
+                  <node concept="2OqwBi" id="4RSqyaA7lPz" role="37wK5m">
+                    <node concept="2YIFZM" id="4RSqyaA7lP$" role="2Oq$k0">
+                      <ref role="37wK5l" to="18ew:~MacrosFactory.getGlobal():jetbrains.mps.util.MacroHelper" resolve="getGlobal" />
+                      <ref role="1Pybhc" to="18ew:~MacrosFactory" resolve="MacrosFactory" />
+                    </node>
+                    <node concept="liA8E" id="4RSqyaA7lP_" role="2OqNvi">
+                      <ref role="37wK5l" to="18ew:~MacroHelper.expandPath(java.lang.String):java.lang.String" resolve="expandPath" />
+                      <node concept="Xl_RD" id="4RSqyaA7lPA" role="37wK5m">
+                        <property role="Xl_RC" value="${org.campagnelab.metaR.results_dir}" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="liA8E" id="4RSqyaA7mS5" role="2OqNvi">
+                <ref role="37wK5l" to="1mjk:4RSqyaA7akQ" resolve="toString" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="17QB3L" id="7klrZ4rJNRb" role="3clF45" />
     </node>
     <node concept="13hLZK" id="6efZaUgdIFz" role="13h7CW">
       <node concept="3clFbS" id="6efZaUgdIF$" role="2VODD2" />
