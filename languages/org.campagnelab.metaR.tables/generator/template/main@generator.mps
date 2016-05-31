@@ -27,6 +27,7 @@
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="x7of" ref="r:437ca43c-6323-49fb-979f-681501286fcd(org.campagnelab.metar.code.annotations)" implicit="true" />
+    <import index="n1uf" ref="r:cb035222-afa9-445c-8372-64c2390befab(org.campagnelab.metar.R.gen.behavior)" implicit="true" />
   </imports>
   <registry>
     <language id="13744753-c81f-424a-9c1b-cf8943bf4e86" name="jetbrains.mps.lang.sharedConcepts">
@@ -8434,33 +8435,11 @@
               <property role="P4ACc" value="901f5cf3-dc77-4c1e-bc5a-6382baee28b4/1680136183140337486/1680136183140337487" />
               <node concept="3zFVjK" id="2aBeJjGkCNd" role="3zH0cK">
                 <node concept="3clFbS" id="2aBeJjGkCNe" role="2VODD2">
-                  <node concept="3clFbF" id="__OZxrfDt6" role="3cqZAp">
-                    <node concept="2OqwBi" id="__OZxrg9EC" role="3clFbG">
-                      <node concept="2ShNRf" id="__OZxrfDt2" role="2Oq$k0">
-                        <node concept="1pGfFk" id="__OZxrg3_Z" role="2ShVmc">
-                          <ref role="37wK5l" to="1mjk:4RSqyaA71W6" resolve="RPath" />
-                          <node concept="3cpWs3" id="__OZxrg8yc" role="37wK5m">
-                            <node concept="Xl_RD" id="__OZxrg95Y" role="3uHU7w">
-                              <property role="Xl_RC" value=".metaRlibs" />
-                            </node>
-                            <node concept="3cpWs3" id="__OZxrg7Ac" role="3uHU7B">
-                              <node concept="2YIFZM" id="2aBeJjGkEI$" role="3uHU7B">
-                                <ref role="1Pybhc" to="wyt6:~System" resolve="System" />
-                                <ref role="37wK5l" to="wyt6:~System.getProperty(java.lang.String):java.lang.String" resolve="getProperty" />
-                                <node concept="Xl_RD" id="2aBeJjGkEUs" role="37wK5m">
-                                  <property role="Xl_RC" value="user.home" />
-                                </node>
-                              </node>
-                              <node concept="10M0yZ" id="__OZxrg7LJ" role="3uHU7w">
-                                <ref role="1PxDUh" to="guwi:~File" resolve="File" />
-                                <ref role="3cqZAo" to="guwi:~File.separator" resolve="separator" />
-                              </node>
-                            </node>
-                          </node>
-                        </node>
-                      </node>
-                      <node concept="liA8E" id="__OZxrgacr" role="2OqNvi">
-                        <ref role="37wK5l" to="1mjk:4RSqyaA7akQ" resolve="toString" />
+                  <node concept="3clFbF" id="5OllgZoNjcZ" role="3cqZAp">
+                    <node concept="2OqwBi" id="5OllgZoNjgA" role="3clFbG">
+                      <node concept="30H73N" id="5OllgZoNjcN" role="2Oq$k0" />
+                      <node concept="2qgKlT" id="5OllgZoNjnO" role="2OqNvi">
+                        <ref role="37wK5l" to="n1uf:5OllgZoNaKA" resolve="getLocalMetaRLibsFolder" />
                       </node>
                     </node>
                   </node>
