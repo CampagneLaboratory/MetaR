@@ -21,6 +21,7 @@
     <import index="18ew" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.util(MPS.Core/)" />
     <import index="1mjk" ref="r:72b0aa20-b681-4aef-ad30-bb23b1f4b98c(org.campagnelab.metar.code.generator.helpers)" />
     <import index="42z1" ref="r:61980467-5cf8-4450-9d24-d597512183ad(org.campagnelab.styles.behavior)" />
+    <import index="ccd1" ref="r:d4fc1ccf-1b20-4c10-aae7-94de66326394(org.campagnelab.jupyterManager.plugin.plugin)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="x7of" ref="r:437ca43c-6323-49fb-979f-681501286fcd(org.campagnelab.metar.code.annotations)" implicit="true" />
@@ -8350,14 +8351,35 @@
     <property role="2laLP7" value="R" />
     <node concept="2G3XJi" id="2WRhvFtQiEN" role="2JYHEr">
       <property role="1gZaPE" value="" />
-      <node concept="1gZcZf" id="1GcYeBN5SGs" role="2G3XIn">
-        <node concept="3_3kQU" id="2WRhvFtQiEP" role="3_3kQL">
+      <node concept="1gZcZf" id="1GcYeBN5SGs" role="2G3XIn" />
+      <node concept="1gZcZf" id="2WRhvFtQj7$" role="2G3XIn">
+        <property role="1gZaPE" value="" />
+      </node>
+      <node concept="1gZcZf" id="klQnOmBtxq" role="2G3XIn">
+        <node concept="3_3kQU" id="klQnOmCyaW" role="3_3kQL">
+          <property role="3_3kQV" value="convertPathToJupyterPath &lt;- function(path) { return(path) }" />
+          <node concept="1W57fq" id="klQnOmCyaX" role="lGtFl">
+            <node concept="3IZrLx" id="klQnOmCyaY" role="3IZSJc">
+              <node concept="3clFbS" id="klQnOmCyaZ" role="2VODD2">
+                <node concept="3clFbF" id="klQnOmCyb0" role="3cqZAp">
+                  <node concept="3fqX7Q" id="klQnOmCyg1" role="3clFbG">
+                    <node concept="2YIFZM" id="klQnOmCyg3" role="3fr31v">
+                      <ref role="37wK5l" to="ccd1:7d3kpy2aHso" resolve="shouldExecuteOnJupyter" />
+                      <ref role="1Pybhc" to="ccd1:7d3kpy2arRt" resolve="JupyterHelper" />
+                      <node concept="30H73N" id="klQnOmCyg4" role="37wK5m" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3_3kQU" id="klQnOmBtxr" role="3_3kQL">
           <property role="3_3kQV" value="" />
         </node>
       </node>
-      <node concept="1gZcZf" id="2WRhvFtQj7$" role="2G3XIn">
-        <property role="1gZaPE" value="" />
-        <node concept="3_3kQU" id="2WRhvFtQj7A" role="3_3kQL">
+      <node concept="1gZcZf" id="klQnOmCxzK" role="2G3XIn">
+        <node concept="3_3kQU" id="klQnOmCxzL" role="3_3kQL">
           <property role="3_3kQV" value="#Script generated from " />
         </node>
         <node concept="3_3kQU" id="2WRhvFtQj7B" role="3_3kQL">
