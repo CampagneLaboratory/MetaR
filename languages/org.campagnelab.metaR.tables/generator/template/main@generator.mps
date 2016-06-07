@@ -8357,7 +8357,7 @@
       </node>
       <node concept="1gZcZf" id="klQnOmBtxq" role="2G3XIn">
         <node concept="3_3kQU" id="klQnOmCyaW" role="3_3kQL">
-          <property role="3_3kQV" value="convertPathToJupyterPath &lt;- function(path) { return(path) }" />
+          <property role="3_3kQV" value="convertPathToJupyterPath &lt;- function(path, param) { return(path) }" />
           <node concept="1W57fq" id="klQnOmCyaX" role="lGtFl">
             <node concept="3IZrLx" id="klQnOmCyaY" role="3IZSJc">
               <node concept="3clFbS" id="klQnOmCyaZ" role="2VODD2">
