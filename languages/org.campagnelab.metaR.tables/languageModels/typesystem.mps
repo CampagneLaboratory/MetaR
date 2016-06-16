@@ -69,6 +69,7 @@
         <reference id="1144433057691" name="classifier" index="1PxDUh" />
       </concept>
       <concept id="1070534058343" name="jetbrains.mps.baseLanguage.structure.NullLiteral" flags="nn" index="10Nm6u" />
+      <concept id="1070534370425" name="jetbrains.mps.baseLanguage.structure.IntegerType" flags="in" index="10Oyi0" />
       <concept id="1070534644030" name="jetbrains.mps.baseLanguage.structure.BooleanType" flags="in" index="10P_77" />
       <concept id="1068431474542" name="jetbrains.mps.baseLanguage.structure.VariableDeclaration" flags="ng" index="33uBYm">
         <child id="1068431790190" name="initializer" index="33vP2m" />
@@ -3256,6 +3257,98 @@
     <node concept="1YaCAy" id="5lDNWrJNozC" role="1YuTPh">
       <property role="TrG5h" value="fontSize" />
       <ref role="1YaFvo" to="jrxw:1ej4HxuC6V1" resolve="FontSize" />
+    </node>
+  </node>
+  <node concept="18kY7G" id="fkJg1tYtkx">
+    <property role="TrG5h" value="check_TablePreviewDimensions" />
+    <property role="3GE5qa" value="view" />
+    <node concept="3clFbS" id="fkJg1tYtky" role="18ibNy">
+      <node concept="3cpWs8" id="fkJg1tYxoT" role="3cqZAp">
+        <node concept="3cpWsn" id="fkJg1tYxoW" role="3cpWs9">
+          <property role="TrG5h" value="realNumCol" />
+          <node concept="10Oyi0" id="fkJg1tYxoR" role="1tU5fm" />
+          <node concept="2OqwBi" id="fkJg1tYvtM" role="33vP2m">
+            <node concept="2OqwBi" id="fkJg1tYuys" role="2Oq$k0">
+              <node concept="2OqwBi" id="fkJg1tYul$" role="2Oq$k0">
+                <node concept="2OqwBi" id="fkJg1tYu1p" role="2Oq$k0">
+                  <node concept="1YBJjd" id="fkJg1tYtVf" role="2Oq$k0">
+                    <ref role="1YBMHb" node="fkJg1tYtk$" resolve="tablePreview" />
+                  </node>
+                  <node concept="3TrEf2" id="fkJg1tYu9O" role="2OqNvi">
+                    <ref role="3Tt5mk" to="jrxw:6$xxyeHl7zQ" />
+                  </node>
+                </node>
+                <node concept="2qgKlT" id="fkJg1tYur2" role="2OqNvi">
+                  <ref role="37wK5l" to="v8sa:1xeqmqKO$c4" resolve="getTable" />
+                </node>
+              </node>
+              <node concept="3Tsc0h" id="fkJg1tYuIn" role="2OqNvi">
+                <ref role="3TtcxE" to="ztlb:1UijAvvb9DO" />
+              </node>
+            </node>
+            <node concept="34oBXx" id="fkJg1tYxmN" role="2OqNvi" />
+          </node>
+        </node>
+      </node>
+      <node concept="3clFbJ" id="fkJg1tYtkW" role="3cqZAp">
+        <node concept="3clFbS" id="fkJg1tYtkX" role="3clFbx">
+          <node concept="2MkqsV" id="fkJg1tYx$4" role="3cqZAp">
+            <node concept="3cpWs3" id="fkJg1tYyXZ" role="2MkJ7o">
+              <node concept="Xl_RD" id="fkJg1tYz4y" role="3uHU7w">
+                <property role="Xl_RC" value=")" />
+              </node>
+              <node concept="3cpWs3" id="fkJg1tYyqe" role="3uHU7B">
+                <node concept="3cpWs3" id="fkJg1tYy9t" role="3uHU7B">
+                  <node concept="3cpWs3" id="fkJg1tYxFx" role="3uHU7B">
+                    <node concept="Xl_RD" id="fkJg1tYx$j" role="3uHU7B">
+                      <property role="Xl_RC" value="The table only has " />
+                    </node>
+                    <node concept="37vLTw" id="fkJg1tYxFR" role="3uHU7w">
+                      <ref role="3cqZAo" node="fkJg1tYxoW" resolve="realNumCol" />
+                    </node>
+                  </node>
+                  <node concept="Xl_RD" id="fkJg1tYy9M" role="3uHU7w">
+                    <property role="Xl_RC" value=" columns. (" />
+                  </node>
+                </node>
+                <node concept="2OqwBi" id="fkJg1tYyr_" role="3uHU7w">
+                  <node concept="1YBJjd" id="fkJg1tYyrA" role="2Oq$k0">
+                    <ref role="1YBMHb" node="fkJg1tYtk$" resolve="tablePreview" />
+                  </node>
+                  <node concept="3TrcHB" id="fkJg1tYyrB" role="2OqNvi">
+                    <ref role="3TsBF5" to="jrxw:6$xxyeHl7$6" resolve="numColumns" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="2OqwBi" id="fkJg1tZJzJ" role="2OEOjV">
+              <node concept="1YBJjd" id="fkJg1tYz6s" role="2Oq$k0">
+                <ref role="1YBMHb" node="fkJg1tYtk$" resolve="tablePreview" />
+              </node>
+              <node concept="3TrEf2" id="fkJg1tZJL1" role="2OqNvi">
+                <ref role="3Tt5mk" to="jrxw:6$xxyeHl7zQ" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3eOSWO" id="fkJg1tYtTW" role="3clFbw">
+          <node concept="2OqwBi" id="fkJg1tYtoz" role="3uHU7B">
+            <node concept="1YBJjd" id="fkJg1tYtlb" role="2Oq$k0">
+              <ref role="1YBMHb" node="fkJg1tYtk$" resolve="tablePreview" />
+            </node>
+            <node concept="3TrcHB" id="fkJg1tYtw7" role="2OqNvi">
+              <ref role="3TsBF5" to="jrxw:6$xxyeHl7$6" resolve="numColumns" />
+            </node>
+          </node>
+          <node concept="37vLTw" id="fkJg1tYxvp" role="3uHU7w">
+            <ref role="3cqZAo" node="fkJg1tYxoW" resolve="realNumCol" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="fkJg1tYtk$" role="1YuTPh">
+      <property role="TrG5h" value="tablePreview" />
+      <ref role="1YaFvo" to="jrxw:6$xxyeHl7xo" resolve="TablePreview" />
     </node>
   </node>
 </model>
