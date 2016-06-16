@@ -2,21 +2,21 @@
 <model ref="r:db1b133e-9a0f-4319-b384-413408eb1729(org.campagnelab.metar.tables.behavior)">
   <persistence version="9" />
   <languages>
-    <use id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior" version="0" />
-    <use id="d8f591ec-4d86-4af2-9f92-a9e93c803ffa" name="jetbrains.mps.lang.scopes" version="0" />
-    <use id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections" version="0" />
-    <use id="760a0a8c-eabb-4521-8bfd-65db761a9ba3" name="jetbrains.mps.baseLanguage.logging" version="0" />
-    <use id="b401a680-8325-4110-8fd3-84331ff25bef" name="jetbrains.mps.lang.generator" version="0" />
-    <use id="ecf91126-e504-4aae-8ee7-3192d64e77f6" name="org.campagnelab.mps.XChart.types" version="0" />
-    <use id="c901f7a1-ed4f-4b52-8d35-10d1a33974f0" name="org.campagnelab.metar.code" version="0" />
-    <use id="ed6d7656-532c-4bc2-81d1-af945aeb8280" name="jetbrains.mps.baseLanguage.blTypes" version="0" />
-    <use id="9ded098b-ad6a-4657-bfd9-48636cfe8bc3" name="jetbrains.mps.lang.traceable" version="0" />
-    <use id="43f31864-fc67-43f5-873e-ab79cc279a2d" name="org.campagnelab.styles" version="0" />
-    <use id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" name="jetbrains.mps.lang.typesystem" version="0" />
-    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="1" />
-    <use id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core" version="1" />
-    <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="2" />
-    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="2" />
+    <use id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior" version="-1" />
+    <use id="d8f591ec-4d86-4af2-9f92-a9e93c803ffa" name="jetbrains.mps.lang.scopes" version="-1" />
+    <use id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections" version="-1" />
+    <use id="760a0a8c-eabb-4521-8bfd-65db761a9ba3" name="jetbrains.mps.baseLanguage.logging" version="-1" />
+    <use id="b401a680-8325-4110-8fd3-84331ff25bef" name="jetbrains.mps.lang.generator" version="-1" />
+    <use id="ecf91126-e504-4aae-8ee7-3192d64e77f6" name="org.campagnelab.mps.XChart.types" version="-1" />
+    <use id="c901f7a1-ed4f-4b52-8d35-10d1a33974f0" name="org.campagnelab.metar.code" version="-1" />
+    <use id="ed6d7656-532c-4bc2-81d1-af945aeb8280" name="jetbrains.mps.baseLanguage.blTypes" version="-1" />
+    <use id="9ded098b-ad6a-4657-bfd9-48636cfe8bc3" name="jetbrains.mps.lang.traceable" version="-1" />
+    <use id="43f31864-fc67-43f5-873e-ab79cc279a2d" name="org.campagnelab.styles" version="-1" />
+    <use id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" name="jetbrains.mps.lang.typesystem" version="-1" />
+    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="-1" />
+    <use id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core" version="-1" />
+    <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="-1" />
+    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="-1" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -195,7 +195,7 @@
         <child id="1068580123161" name="ifTrue" index="3clFbx" />
         <child id="1206060520071" name="elsifClauses" index="3eNLev" />
       </concept>
-      <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
+      <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
       </concept>
       <concept id="1068580123137" name="jetbrains.mps.baseLanguage.structure.BooleanConstant" flags="nn" index="3clFbT">
@@ -3525,7 +3525,25 @@
       <node concept="17QB3L" id="1QqsNa25VJg" role="3clF45" />
     </node>
     <node concept="13hLZK" id="68IYyl2LBSh" role="13h7CW">
-      <node concept="3clFbS" id="68IYyl2LBSi" role="2VODD2" />
+      <node concept="3clFbS" id="68IYyl2LBSi" role="2VODD2">
+        <node concept="3clFbF" id="66AYbyVIqY9" role="3cqZAp">
+          <node concept="37vLTI" id="66AYbyVIspc" role="3clFbG">
+            <node concept="2OqwBi" id="66AYbyVIrAu" role="37vLTJ">
+              <node concept="13iPFW" id="66AYbyVIqY8" role="2Oq$k0" />
+              <node concept="3TrEf2" id="66AYbyVIrVh" role="2OqNvi">
+                <ref role="3Tt5mk" to="jrxw:4WAdMLdkMLg" />
+              </node>
+            </node>
+            <node concept="2ShNRf" id="4WAdMLdoxev" role="37vLTx">
+              <node concept="3zrR0B" id="4WAdMLdoxob" role="2ShVmc">
+                <node concept="3Tqbb2" id="4WAdMLdoxod" role="3zrR0E">
+                  <ref role="ehGHo" to="jrxw:4WAdMLdkO8M" resolve="HeatmapAnnotations" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
     </node>
     <node concept="13i0hz" id="7k$Lj9FZets" role="13h7CS">
       <property role="13i0iv" value="false" />
@@ -19672,10 +19690,10 @@
                     <node concept="2OqwBi" id="6$xxyeHtCj_" role="3uHU7w">
                       <node concept="2OqwBi" id="6$xxyeHtC8e" role="2Oq$k0">
                         <node concept="2OqwBi" id="6$xxyeHtBRW" role="2Oq$k0">
-                          <node concept="13iPFW" id="6$xxyeHtBO4" role="2Oq$k0" />
                           <node concept="3TrEf2" id="fkJg1tTezU" role="2OqNvi">
                             <ref role="3Tt5mk" to="jrxw:6$xxyeHl7zQ" />
                           </node>
+                          <node concept="13iPFW" id="6$xxyeHtBO4" role="2Oq$k0" />
                         </node>
                         <node concept="2qgKlT" id="6$xxyeHtCel" role="2OqNvi">
                           <ref role="37wK5l" node="1xeqmqKO$c4" resolve="getTable" />
@@ -19797,10 +19815,10 @@
             <node concept="2OqwBi" id="6$xxyeHoEr1" role="3uHU7w">
               <node concept="2OqwBi" id="6$xxyeHoBEy" role="2Oq$k0">
                 <node concept="2OqwBi" id="6$xxyeHoBos" role="2Oq$k0">
-                  <node concept="13iPFW" id="5lDNWrJNs4f" role="2Oq$k0" />
                   <node concept="3TrEf2" id="fkJg1tTeor" role="2OqNvi">
                     <ref role="3Tt5mk" to="jrxw:6$xxyeHl7zQ" />
                   </node>
+                  <node concept="13iPFW" id="5lDNWrJNs4f" role="2Oq$k0" />
                 </node>
                 <node concept="2qgKlT" id="6$xxyeHoBKi" role="2OqNvi">
                   <ref role="37wK5l" node="1xeqmqKO$c4" resolve="getTable" />
