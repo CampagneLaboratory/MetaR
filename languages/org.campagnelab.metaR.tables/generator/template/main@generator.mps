@@ -18220,6 +18220,58 @@
                 </node>
               </node>
             </node>
+            <node concept="17Uvod" id="e_7xe$xGc2" role="lGtFl">
+              <property role="P4ACc" value="901f5cf3-dc77-4c1e-bc5a-6382baee28b4/1680136183140337486/1680136183140337487" />
+              <property role="2qtEX9" value="text" />
+              <node concept="3zFVjK" id="e_7xe$xGc3" role="3zH0cK">
+                <node concept="3clFbS" id="e_7xe$xGc4" role="2VODD2">
+                  <node concept="3cpWs8" id="e_7xe$xGWH" role="3cqZAp">
+                    <node concept="3cpWsn" id="e_7xe$xGWK" role="3cpWs9">
+                      <property role="TrG5h" value="color" />
+                      <node concept="17QB3L" id="e_7xe$xGWF" role="1tU5fm" />
+                      <node concept="2OqwBi" id="e_7xe$xMxc" role="33vP2m">
+                        <node concept="30H73N" id="e_7xe$xMrp" role="2Oq$k0" />
+                        <node concept="2qgKlT" id="e_7xe$xMEY" role="2OqNvi">
+                          <ref role="37wK5l" to="v8sa:e_7xe$xHOe" resolve="getStripeColor" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3clFbJ" id="e_7xe$xMMt" role="3cqZAp">
+                    <node concept="3clFbS" id="e_7xe$xMMv" role="3clFbx">
+                      <node concept="3clFbF" id="e_7xe$xN4m" role="3cqZAp">
+                        <node concept="37vLTI" id="e_7xe$xNdJ" role="3clFbG">
+                          <node concept="Xl_RD" id="e_7xe$xNh3" role="37vLTx">
+                            <property role="Xl_RC" value="platinum" />
+                          </node>
+                          <node concept="37vLTw" id="e_7xe$xN4k" role="37vLTJ">
+                            <ref role="3cqZAo" node="e_7xe$xGWK" resolve="color" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="3clFbC" id="e_7xe$xMW$" role="3clFbw">
+                      <node concept="10Nm6u" id="e_7xe$xMZr" role="3uHU7w" />
+                      <node concept="37vLTw" id="e_7xe$xMPs" role="3uHU7B">
+                        <ref role="3cqZAo" node="e_7xe$xGWK" resolve="color" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3clFbF" id="e_7xe$xHiK" role="3cqZAp">
+                    <node concept="2YIFZM" id="e_7xe$xGEo" role="3clFbG">
+                      <ref role="37wK5l" to="wyt6:~String.format(java.lang.String,java.lang.Object...):java.lang.String" resolve="format" />
+                      <ref role="1Pybhc" to="wyt6:~String" resolve="String" />
+                      <node concept="Xl_RD" id="e_7xe$xGG6" role="37wK5m">
+                        <property role="Xl_RC" value="options(ztable.zebra.color=\&quot;%s\&quot;)" />
+                      </node>
+                      <node concept="37vLTw" id="e_7xe$xHe8" role="37wK5m">
+                        <ref role="3cqZAo" node="e_7xe$xGWK" resolve="color" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
           </node>
         </node>
         <node concept="1gZcZf" id="5lDNWrJNDjM" role="2G3XIn">
