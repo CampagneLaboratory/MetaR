@@ -178,6 +178,9 @@
         <child id="1175517851849" name="errorString" index="2MkJ7o" />
       </concept>
       <concept id="1179832490862" name="jetbrains.mps.lang.typesystem.structure.CreateStrongLessThanInequationStatement" flags="nn" index="2NvLDW" />
+      <concept id="1227096498176" name="jetbrains.mps.lang.typesystem.structure.PropertyMessageTarget" flags="ng" index="2ODE4t">
+        <reference id="1227096521710" name="propertyDeclaration" index="2ODJFN" />
+      </concept>
       <concept id="1227096620180" name="jetbrains.mps.lang.typesystem.structure.ReferenceMessageTarget" flags="ng" index="2OE7Q9">
         <reference id="1227096645744" name="linkDeclaration" index="2OEe5H" />
       </concept>
@@ -3349,6 +3352,52 @@
     <node concept="1YaCAy" id="fkJg1tYtk$" role="1YuTPh">
       <property role="TrG5h" value="tablePreview" />
       <ref role="1YaFvo" to="jrxw:6$xxyeHl7xo" resolve="TablePreview" />
+    </node>
+  </node>
+  <node concept="18kY7G" id="1dL8OevLXA6">
+    <property role="TrG5h" value="CheckAnalysisName" />
+    <node concept="3clFbS" id="1dL8OevLXA7" role="18ibNy">
+      <node concept="3clFbJ" id="1dL8OevLXAo" role="3cqZAp">
+        <node concept="3clFbS" id="1dL8OevLXAq" role="3clFbx">
+          <node concept="a7r0C" id="1dL8OevM7VY" role="3cqZAp">
+            <node concept="Xl_RD" id="1dL8OevM7W0" role="a7wSD">
+              <property role="Xl_RC" value="Scripts with space(s) in their name do not run properly on Windows." />
+            </node>
+            <node concept="1YBJjd" id="1dL8OevM7W1" role="2OEOjV">
+              <ref role="1YBMHb" node="1dL8OevLXA9" resolve="analysis" />
+            </node>
+            <node concept="2ODE4t" id="1dL8OevM7W2" role="2OEWyd">
+              <ref role="2ODJFN" to="tpck:h0TrG11" resolve="name" />
+            </node>
+          </node>
+        </node>
+        <node concept="1Wc70l" id="1dL8OevLYdV" role="3clFbw">
+          <node concept="10M0yZ" id="1dL8OevLYgI" role="3uHU7B">
+            <ref role="1PxDUh" to="zn9m:~SystemInfo" resolve="SystemInfo" />
+            <ref role="3cqZAo" to="zn9m:~SystemInfo.isWindows" resolve="isWindows" />
+          </node>
+          <node concept="2OqwBi" id="1dL8OevLXZ3" role="3uHU7w">
+            <node concept="2OqwBi" id="1dL8OevLXDL" role="2Oq$k0">
+              <node concept="1YBJjd" id="1dL8OevLXAN" role="2Oq$k0">
+                <ref role="1YBMHb" node="1dL8OevLXA9" resolve="analysis" />
+              </node>
+              <node concept="3TrcHB" id="1dL8OevLXQv" role="2OqNvi">
+                <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+              </node>
+            </node>
+            <node concept="liA8E" id="1dL8OevLYbL" role="2OqNvi">
+              <ref role="37wK5l" to="wyt6:~String.contains(java.lang.CharSequence):boolean" resolve="contains" />
+              <node concept="Xl_RD" id="1dL8OevLYce" role="37wK5m">
+                <property role="Xl_RC" value=" " />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="1dL8OevLXA9" role="1YuTPh">
+      <property role="TrG5h" value="analysis" />
+      <ref role="1YaFvo" to="jrxw:7LvyiX4mii$" resolve="Analysis" />
     </node>
   </node>
 </model>
