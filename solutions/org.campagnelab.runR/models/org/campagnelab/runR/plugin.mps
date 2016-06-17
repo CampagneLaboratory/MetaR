@@ -202,6 +202,7 @@
         <child id="6129022259108579262" name="executePart" index="3rFUVV" />
       </concept>
       <concept id="856705193941281792" name="jetbrains.mps.execution.commands.structure.ReportErrorStatement" flags="nn" index="2LYoNl">
+        <child id="856705193941281796" name="exception" index="2LYoNh" />
         <child id="856705193941281795" name="message" index="2LYoNm" />
       </concept>
       <concept id="8234001627573935224" name="jetbrains.mps.execution.commands.structure.CommandPartToListOperation" flags="nn" index="2TNl2y" />
@@ -1815,7 +1816,45 @@
               </node>
               <node concept="3clFbJ" id="7jqSt7z$nn_" role="3cqZAp">
                 <node concept="3clFbS" id="7jqSt7z$nnB" role="3clFbx">
-                  <node concept="3clFbH" id="7jqSt7z$xru" role="3cqZAp" />
+                  <node concept="3clFbJ" id="1dL8OevMjFs" role="3cqZAp">
+                    <node concept="3clFbS" id="1dL8OevMjFu" role="3clFbx">
+                      <node concept="2LYoGF" id="1dL8OevMlDp" role="3cqZAp">
+                        <node concept="2ShNRf" id="1dL8OevMlUx" role="2LYoNh">
+                          <node concept="1pGfFk" id="1dL8OevMDwx" role="2ShVmc">
+                            <ref role="37wK5l" to="wyt6:~IllegalArgumentException.&lt;init&gt;(java.lang.String)" resolve="IllegalArgumentException" />
+                            <node concept="Xl_RD" id="1dL8OevMDM1" role="37wK5m">
+                              <property role="Xl_RC" value="Spaces in the script path are not allowed when running on Windows with Docker" />
+                            </node>
+                          </node>
+                        </node>
+                        <node concept="Xl_RD" id="1dL8OevMIo4" role="2LYoNm">
+                          <property role="Xl_RC" value="Spaces in the script path are not allowed when running on Windows with Docker" />
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="1Wc70l" id="1dL8OevMk80" role="3clFbw">
+                      <node concept="2OqwBi" id="1dL8OevMkIA" role="3uHU7w">
+                        <node concept="2OqwBi" id="1dL8OevMkou" role="2Oq$k0">
+                          <node concept="37vLTw" id="1dL8OevMkg6" role="2Oq$k0">
+                            <ref role="3cqZAo" node="j$XAJDK0FE" resolve="file" />
+                          </node>
+                          <node concept="liA8E" id="1dL8OevMkzf" role="2OqNvi">
+                            <ref role="37wK5l" to="3ju5:~IFile.getPath():java.lang.String" resolve="getPath" />
+                          </node>
+                        </node>
+                        <node concept="liA8E" id="1dL8OevMl7P" role="2OqNvi">
+                          <ref role="37wK5l" to="wyt6:~String.contains(java.lang.CharSequence):boolean" resolve="contains" />
+                          <node concept="Xl_RD" id="1dL8OevMlgr" role="37wK5m">
+                            <property role="Xl_RC" value=" " />
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="10M0yZ" id="1dL8OevMjQj" role="3uHU7B">
+                        <ref role="1PxDUh" to="zn9m:~SystemInfo" resolve="SystemInfo" />
+                        <ref role="3cqZAo" to="zn9m:~SystemInfo.isWindows" resolve="isWindows" />
+                      </node>
+                    </node>
+                  </node>
                   <node concept="yIgYw" id="7jqSt7z$spx" role="3cqZAp">
                     <node concept="2LYoGx" id="7jqSt7z$su0" role="3cqZAk">
                       <ref role="3rFKlk" node="7jqSt7yA9HN" resolve="Run_R_with_Docker" />
