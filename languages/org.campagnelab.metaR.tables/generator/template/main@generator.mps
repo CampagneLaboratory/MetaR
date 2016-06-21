@@ -103,7 +103,7 @@
         <child id="1068580123160" name="condition" index="3clFbw" />
         <child id="1068580123161" name="ifTrue" index="3clFbx" />
       </concept>
-      <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" index="3clFbS">
+      <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
       </concept>
       <concept id="1068580123137" name="jetbrains.mps.baseLanguage.structure.BooleanConstant" flags="nn" index="3clFbT">
@@ -8365,7 +8365,7 @@
                   <node concept="3fqX7Q" id="klQnOmCyg1" role="3clFbG">
                     <node concept="2YIFZM" id="klQnOmCyg3" role="3fr31v">
                       <ref role="37wK5l" to="ccd1:7d3kpy2aHso" resolve="shouldExecuteOnJupyter" />
-                      <ref role="1Pybhc" to="ccd1:7d3kpy2arRt" resolve="JupyterHelper" />
+                      <ref role="1Pybhc" to="ccd1:7d3kpy2arRt" resolve="Helper" />
                       <node concept="30H73N" id="klQnOmCyg4" role="37wK5m" />
                     </node>
                   </node>
@@ -18051,8 +18051,8 @@
       </node>
       <node concept="2G3XJi" id="6$xxyeHowuV" role="3eWmQm">
         <property role="1gZaPE" value="" />
-        <node concept="1gZcZf" id="5lDNWrJNqry" role="2G3XIn">
-          <node concept="3_3kQU" id="5NwG7t5mGZa" role="3_3kQL">
+        <node concept="1gZcZf" id="2WBVyJt5tqN" role="2G3XIn">
+          <node concept="3_3kQU" id="2WBVyJt5tqO" role="3_3kQL">
             <property role="3_3kQV" value="if(file.exists(&quot;" />
           </node>
           <node concept="3_3kQU" id="5NwG7t5mGZi" role="3_3kQL">
@@ -18667,8 +18667,8 @@
                           <ref role="37wK5l" to="1mjk:4RSqyaA71W6" resolve="RPath" />
                           <node concept="2OqwBi" id="5lDNWrK9m_d" role="37wK5m">
                             <node concept="30H73N" id="5lDNWrK9m_e" role="2Oq$k0" />
-                            <node concept="2qgKlT" id="5lDNWrK9m_f" role="2OqNvi">
-                              <ref role="37wK5l" to="v8sa:6$xxyeHtzvr" resolve="getPath" />
+                            <node concept="2qgKlT" id="3RDLr5OHxX5" role="2OqNvi">
+                              <ref role="37wK5l" to="v8sa:3RDLr5OHs4d" resolve="getLocalPath" />
                             </node>
                           </node>
                         </node>
@@ -18898,8 +18898,8 @@
                           <ref role="37wK5l" to="1mjk:4RSqyaA71W6" resolve="RPath" />
                           <node concept="2OqwBi" id="fkJg1u0Xem" role="37wK5m">
                             <node concept="30H73N" id="fkJg1u0Xen" role="2Oq$k0" />
-                            <node concept="2qgKlT" id="fkJg1u0Xeo" role="2OqNvi">
-                              <ref role="37wK5l" to="v8sa:6$xxyeHtzvr" resolve="getPath" />
+                            <node concept="2qgKlT" id="3RDLr5OHy8d" role="2OqNvi">
+                              <ref role="37wK5l" to="v8sa:3RDLr5OHs4d" resolve="getLocalPath" />
                             </node>
                           </node>
                         </node>
