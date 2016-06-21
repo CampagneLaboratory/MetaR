@@ -2,9 +2,6 @@
 <project version="4">
   <component name="MPSProject">
     <projectModules>
-      <modulePath path="${mps_home}/bin/${org.campagnelab.workflow.work_dir}/MPSProjects/git/ANTLR/solutions/ANTLR.persistence.build/ANTLR.persistence.build.msd" folder="" />
-      <modulePath path="${mps_home}/bin/${org.campagnelab.workflow.work_dir}/MPSProjects/git/XChart/solutions/XChart.build0/XChart.build.msd" folder="" />
-      <modulePath path="${mps_home}/bin/${org.campagnelab.workflow.work_dir}/docker-run/MPSProjects/git/NYoSh/solutions/NYoSh.build-plugins/NYoSh.build-plugins.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/devkits/R/org.campagnelab.R.devkit" folder="" />
       <modulePath path="$PROJECT_DIR$/devkits/org.campagnelab.HTAnalysis.devkit" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.editor.csvviewer/org.campagnelab.editor.csvviewer.mpl" folder="" />
@@ -34,23 +31,21 @@
       <modulePath path="$PROJECT_DIR$/solutions/MetaR.Workshop/MetaR.Workshop.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/MetarReportError/MetarReportError.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/ReorderColumns/ReorderColumns.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/Solution/Solution.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/Tests/MetaR.Tests.msd" folder="" />
-      <modulePath path="$PROJECT_DIR$/solutions/Tests/Tests.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/VennDiagram/VennDiagram.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/biomart/biomart.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/biomartToR/biomartToR.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/build.plugins/build.plugins.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/migrationtest/migrationtest.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/org.campagnelab.editor.listeners.plugin/org.campagnelab.editor.listeners.plugin.msd" folder="" />
-      <modulePath path="$PROJECT_DIR$/solutions/org.campagnelab.editor.listeners/org.campagnelab.editor.listeners.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/org.campagnelab.editor.plugins/org.campagnelab.editor.plugins.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/org.campagnelab.jupyterManager.plugin/org.campagnelab.jupyterManager.plugin.msd" folder="" />
-      <modulePath path="$PROJECT_DIR$/solutions/org.campagnelab.jupyterManager/org.campagnelab.jupyterManager.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/org.campagnelab.metar.L.plugin/org.campagnelab.metar.L.plugin.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/org.campagnelab.metar.R.plugin/org.cmapagnelab.metar.R.plugin.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/org.campagnelab.metar.biomart.web/org.campagnelab.metar.biomart.web.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/org.campagnelab.metar.r.parsers/org.campagnelab.metar.r.parsers.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/org.campagnelab.metar.r.scripts/org.campagnelab.metar.r.scripts.msd" folder="" />
-      <modulePath path="$PROJECT_DIR$/solutions/org.campagnelab.playground.sleuth/org.campagnelab.playground.sleuth.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/org.campagnelab.runR/org.campagnelab.runR.msd" folder="" />
     </projectModules>
   </component>

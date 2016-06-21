@@ -71,7 +71,6 @@
         <module reference="32f503e8-061b-451e-bcb0-fef56aa05eb9(org.campagnelab.metar.inspect)" version="0" />
         <module reference="5b6b815e-ae64-460e-9ea1-cddb68a0fee9(org.campagnelab.metar.limma#5124039371745995804)" version="0" />
         <module reference="ecc862c9-5ab5-42ef-8703-2039019fb338(org.campagnelab.metar.models)" version="0" />
-        <module reference="9c4c21db-948a-44c6-8d32-16dd401e98b0(org.campagnelab.metar.r.stubs)" version="0" />
         <module reference="93b7ee14-f42b-424a-9d29-0e275a24208d(org.campagnelab.metar.sleuth)" version="0" />
         <module reference="46ceb6f0-f27b-475f-9bc7-9c906c006ec7(org.campagnelab.metar.sleuth#3554287509434082151)" version="0" />
         <module reference="5d6bde84-4ce4-4eb5-a37e-25a5edd55129(org.campagnelab.metar.tables)" version="0" />
@@ -152,7 +151,6 @@
     <module reference="837afec3-cff0-45b1-a221-6b811148f87e(org.campagnelab.metar.R.gen)" version="0" />
     <module reference="32f503e8-061b-451e-bcb0-fef56aa05eb9(org.campagnelab.metar.inspect)" version="0" />
     <module reference="ecc862c9-5ab5-42ef-8703-2039019fb338(org.campagnelab.metar.models)" version="0" />
-    <module reference="9c4c21db-948a-44c6-8d32-16dd401e98b0(org.campagnelab.metar.r.stubs)" version="0" />
     <module reference="93b7ee14-f42b-424a-9d29-0e275a24208d(org.campagnelab.metar.sleuth)" version="0" />
     <module reference="5d6bde84-4ce4-4eb5-a37e-25a5edd55129(org.campagnelab.metar.tables)" version="0" />
     <module reference="5ec1cd3d-0a50-4049-a8fa-ae768d7baa25(org.campagnelab.mps.XChart)" version="0" />

@@ -185,7 +185,7 @@
       <concept id="7575483536011072273" name="org.campagnelab.metar.tables.structure.Caption" flags="ng" index="34SLkM" />
       <concept id="1410491828806905537" name="org.campagnelab.metar.tables.structure.FontSize" flags="ng" index="1dcRKp" />
       <concept id="1410491828806905634" name="org.campagnelab.metar.tables.structure.BoldHeader" flags="ng" index="1dcRRU" />
-      <concept id="1410491828806905636" name="org.campagnelab.metar.tables.structure.OddEvenColors" flags="ng" index="1dcRRW" />
+      <concept id="1410491828806905636" name="org.campagnelab.metar.tables.structure.Striped" flags="ng" index="1dcRRW" />
       <concept id="8081253674570416584" name="org.campagnelab.metar.tables.structure.ColumnValue" flags="ng" index="3$Gm2I">
         <reference id="8081253674570416585" name="column" index="3$Gm2J" />
       </concept>
@@ -583,7 +583,7 @@
       </node>
       <node concept="34tvTV" id="5lDNWrJN8h3" role="ZXjPg">
         <property role="S1EQ6" value="TPASBFNGKB" />
-        <property role="34tvW_" value="4" />
+        <property role="34tvW_" value="400" />
         <property role="34tvWB" value="3" />
         <property role="34gX7q" value="true" />
         <ref role="L_9Jz" node="5lDNWrJNeMM" resolve="TableStyle" />

@@ -150,6 +150,17 @@
       <concept id="6054523464627964745" name="jetbrains.mps.lang.structure.structure.AttributeInfo_AttributedConcept" flags="ng" index="trNpa">
         <reference id="6054523464627965081" name="concept" index="trN6q" />
       </concept>
+      <concept id="1082978164219" name="jetbrains.mps.lang.structure.structure.EnumerationDataTypeDeclaration" flags="ng" index="AxPO7">
+        <property id="1197591154882" name="memberIdentifierPolicy" index="3lZH7k" />
+        <reference id="1083171729157" name="memberDataType" index="M4eZT" />
+        <reference id="1083241965437" name="defaultMember" index="Qgau1" />
+        <child id="1083172003582" name="member" index="M5hS2" />
+      </concept>
+      <concept id="1083171877298" name="jetbrains.mps.lang.structure.structure.EnumerationMemberDeclaration" flags="ig" index="M4N5e">
+        <property id="1192116978809" name="javaIdentifier" index="2fHolG" />
+        <property id="1083923523172" name="externalValue" index="1uS6qo" />
+        <property id="1083923523171" name="internalValue" index="1uS6qv" />
+      </concept>
       <concept id="2992811758677295509" name="jetbrains.mps.lang.structure.structure.AttributeInfo" flags="ng" index="M6xJ_">
         <property id="7588428831955550663" name="role" index="Hh88m" />
         <child id="7588428831947959310" name="attributed" index="EQaZv" />
@@ -2508,6 +2519,3772 @@
     <property role="TrG5h" value="HorizontalLines" />
     <property role="34LRSv" value="Horizontal lines" />
     <ref role="1TJDcQ" to="onla:2od$re07i$x" resolve="BooleanStyleClass" />
+  </node>
+  <node concept="AxPO7" id="e_7xe$xD75">
+    <property role="TrG5h" value="StripeColorValue" />
+    <property role="3lZH7k" value="derive_from_internal_value" />
+    <property role="3GE5qa" value="view" />
+    <ref role="M4eZT" to="tpck:fKAOsGN" resolve="string" />
+    <ref role="Qgau1" node="e_7xe$xDfC" />
+    <node concept="M4N5e" id="e_7xe$xD76" role="M5hS2">
+      <property role="1uS6qo" value="airforceblue" />
+      <property role="1uS6qv" value="airforceblue" />
+      <property role="2fHolG" value="airforceblue" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD77" role="M5hS2">
+      <property role="1uS6qo" value="aliceblue" />
+      <property role="1uS6qv" value="aliceblue" />
+      <property role="2fHolG" value="aliceblue" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD78" role="M5hS2">
+      <property role="1uS6qo" value="alizarin" />
+      <property role="1uS6qv" value="alizarin" />
+      <property role="2fHolG" value="alizarin" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD79" role="M5hS2">
+      <property role="1uS6qo" value="almond" />
+      <property role="1uS6qv" value="almond" />
+      <property role="2fHolG" value="almond" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD7a" role="M5hS2">
+      <property role="1uS6qo" value="amaranth" />
+      <property role="1uS6qv" value="amaranth" />
+      <property role="2fHolG" value="amaranth" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD7b" role="M5hS2">
+      <property role="1uS6qo" value="amber" />
+      <property role="1uS6qv" value="amber" />
+      <property role="2fHolG" value="amber" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD7c" role="M5hS2">
+      <property role="1uS6qo" value="ambersaeece" />
+      <property role="1uS6qv" value="ambersaeece" />
+      <property role="2fHolG" value="ambersaeece" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD7d" role="M5hS2">
+      <property role="1uS6qo" value="americanrose" />
+      <property role="1uS6qv" value="americanrose" />
+      <property role="2fHolG" value="americanrose" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD7e" role="M5hS2">
+      <property role="1uS6qo" value="amethyst" />
+      <property role="1uS6qv" value="amethyst" />
+      <property role="2fHolG" value="amethyst" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD7f" role="M5hS2">
+      <property role="1uS6qo" value="anti-flashwhite" />
+      <property role="1uS6qv" value="anti-flashwhite" />
+      <property role="2fHolG" value="anti-flashwhite" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD7g" role="M5hS2">
+      <property role="1uS6qo" value="antiquebrass" />
+      <property role="1uS6qv" value="antiquebrass" />
+      <property role="2fHolG" value="antiquebrass" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD7h" role="M5hS2">
+      <property role="1uS6qo" value="antiquefuchsia" />
+      <property role="1uS6qv" value="antiquefuchsia" />
+      <property role="2fHolG" value="antiquefuchsia" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD7i" role="M5hS2">
+      <property role="1uS6qo" value="antiquewhite" />
+      <property role="1uS6qv" value="antiquewhite" />
+      <property role="2fHolG" value="antiquewhite" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD7j" role="M5hS2">
+      <property role="1uS6qo" value="ao" />
+      <property role="1uS6qv" value="ao" />
+      <property role="2fHolG" value="ao" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD7k" role="M5hS2">
+      <property role="1uS6qo" value="aoenglish" />
+      <property role="1uS6qv" value="aoenglish" />
+      <property role="2fHolG" value="aoenglish" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD7l" role="M5hS2">
+      <property role="1uS6qo" value="applegreen" />
+      <property role="1uS6qv" value="applegreen" />
+      <property role="2fHolG" value="applegreen" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD7m" role="M5hS2">
+      <property role="1uS6qo" value="apricot" />
+      <property role="1uS6qv" value="apricot" />
+      <property role="2fHolG" value="apricot" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD7n" role="M5hS2">
+      <property role="1uS6qo" value="aqua" />
+      <property role="1uS6qv" value="aqua" />
+      <property role="2fHolG" value="aqua" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD7o" role="M5hS2">
+      <property role="1uS6qo" value="aquamarine" />
+      <property role="1uS6qv" value="aquamarine" />
+      <property role="2fHolG" value="aquamarine" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD7p" role="M5hS2">
+      <property role="1uS6qo" value="armygreen" />
+      <property role="1uS6qv" value="armygreen" />
+      <property role="2fHolG" value="armygreen" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD7q" role="M5hS2">
+      <property role="1uS6qo" value="arsenic" />
+      <property role="1uS6qv" value="arsenic" />
+      <property role="2fHolG" value="arsenic" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD7r" role="M5hS2">
+      <property role="1uS6qo" value="arylideyellow" />
+      <property role="1uS6qv" value="arylideyellow" />
+      <property role="2fHolG" value="arylideyellow" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD7s" role="M5hS2">
+      <property role="1uS6qo" value="ashgrey" />
+      <property role="1uS6qv" value="ashgrey" />
+      <property role="2fHolG" value="ashgrey" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD7t" role="M5hS2">
+      <property role="1uS6qo" value="asparagus" />
+      <property role="1uS6qv" value="asparagus" />
+      <property role="2fHolG" value="asparagus" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD7u" role="M5hS2">
+      <property role="1uS6qo" value="atomictangerine" />
+      <property role="1uS6qv" value="atomictangerine" />
+      <property role="2fHolG" value="atomictangerine" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD7v" role="M5hS2">
+      <property role="1uS6qo" value="auburn" />
+      <property role="1uS6qv" value="auburn" />
+      <property role="2fHolG" value="auburn" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD7w" role="M5hS2">
+      <property role="1uS6qo" value="aureolin" />
+      <property role="1uS6qv" value="aureolin" />
+      <property role="2fHolG" value="aureolin" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD7x" role="M5hS2">
+      <property role="1uS6qo" value="aurometalsaurus" />
+      <property role="1uS6qv" value="aurometalsaurus" />
+      <property role="2fHolG" value="aurometalsaurus" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD7y" role="M5hS2">
+      <property role="1uS6qo" value="awesome" />
+      <property role="1uS6qv" value="awesome" />
+      <property role="2fHolG" value="awesome" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD7z" role="M5hS2">
+      <property role="1uS6qo" value="azurecolorwheel" />
+      <property role="1uS6qv" value="azurecolorwheel" />
+      <property role="2fHolG" value="azurecolorwheel" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD7$" role="M5hS2">
+      <property role="1uS6qo" value="azurewebazuremist" />
+      <property role="1uS6qv" value="azurewebazuremist" />
+      <property role="2fHolG" value="azurewebazuremist" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD7_" role="M5hS2">
+      <property role="1uS6qo" value="babyblue" />
+      <property role="1uS6qv" value="babyblue" />
+      <property role="2fHolG" value="babyblue" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD7A" role="M5hS2">
+      <property role="1uS6qo" value="babyblueeyes" />
+      <property role="1uS6qv" value="babyblueeyes" />
+      <property role="2fHolG" value="babyblueeyes" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD7B" role="M5hS2">
+      <property role="1uS6qo" value="babypink" />
+      <property role="1uS6qv" value="babypink" />
+      <property role="2fHolG" value="babypink" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD7C" role="M5hS2">
+      <property role="1uS6qo" value="ballblue" />
+      <property role="1uS6qv" value="ballblue" />
+      <property role="2fHolG" value="ballblue" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD7D" role="M5hS2">
+      <property role="1uS6qo" value="bananamania" />
+      <property role="1uS6qv" value="bananamania" />
+      <property role="2fHolG" value="bananamania" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD7E" role="M5hS2">
+      <property role="1uS6qo" value="bananayellow" />
+      <property role="1uS6qv" value="bananayellow" />
+      <property role="2fHolG" value="bananayellow" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD7F" role="M5hS2">
+      <property role="1uS6qo" value="battleshipgrey" />
+      <property role="1uS6qv" value="battleshipgrey" />
+      <property role="2fHolG" value="battleshipgrey" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD7G" role="M5hS2">
+      <property role="1uS6qo" value="bazaar" />
+      <property role="1uS6qv" value="bazaar" />
+      <property role="2fHolG" value="bazaar" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD7H" role="M5hS2">
+      <property role="1uS6qo" value="beaublue" />
+      <property role="1uS6qv" value="beaublue" />
+      <property role="2fHolG" value="beaublue" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD7I" role="M5hS2">
+      <property role="1uS6qo" value="beaver" />
+      <property role="1uS6qv" value="beaver" />
+      <property role="2fHolG" value="beaver" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD7J" role="M5hS2">
+      <property role="1uS6qo" value="beige" />
+      <property role="1uS6qv" value="beige" />
+      <property role="2fHolG" value="beige" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD7K" role="M5hS2">
+      <property role="1uS6qo" value="bisque" />
+      <property role="1uS6qv" value="bisque" />
+      <property role="2fHolG" value="bisque" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD7L" role="M5hS2">
+      <property role="1uS6qo" value="bistre" />
+      <property role="1uS6qv" value="bistre" />
+      <property role="2fHolG" value="bistre" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD7M" role="M5hS2">
+      <property role="1uS6qo" value="bittersweet" />
+      <property role="1uS6qv" value="bittersweet" />
+      <property role="2fHolG" value="bittersweet" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD7N" role="M5hS2">
+      <property role="1uS6qo" value="black" />
+      <property role="1uS6qv" value="black" />
+      <property role="2fHolG" value="black" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD7O" role="M5hS2">
+      <property role="1uS6qo" value="blanchedalmond" />
+      <property role="1uS6qv" value="blanchedalmond" />
+      <property role="2fHolG" value="blanchedalmond" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD7P" role="M5hS2">
+      <property role="1uS6qo" value="bleudefrance" />
+      <property role="1uS6qv" value="bleudefrance" />
+      <property role="2fHolG" value="bleudefrance" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD7Q" role="M5hS2">
+      <property role="1uS6qo" value="blizzardblue" />
+      <property role="1uS6qv" value="blizzardblue" />
+      <property role="2fHolG" value="blizzardblue" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD7R" role="M5hS2">
+      <property role="1uS6qo" value="blond" />
+      <property role="1uS6qv" value="blond" />
+      <property role="2fHolG" value="blond" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD7S" role="M5hS2">
+      <property role="1uS6qo" value="blue" />
+      <property role="1uS6qv" value="blue" />
+      <property role="2fHolG" value="blue" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD7T" role="M5hS2">
+      <property role="1uS6qo" value="bluemunsell" />
+      <property role="1uS6qv" value="bluemunsell" />
+      <property role="2fHolG" value="bluemunsell" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD7U" role="M5hS2">
+      <property role="1uS6qo" value="bluencs" />
+      <property role="1uS6qv" value="bluencs" />
+      <property role="2fHolG" value="bluencs" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD7V" role="M5hS2">
+      <property role="1uS6qo" value="bluepigment" />
+      <property role="1uS6qv" value="bluepigment" />
+      <property role="2fHolG" value="bluepigment" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD7W" role="M5hS2">
+      <property role="1uS6qo" value="blueryb" />
+      <property role="1uS6qv" value="blueryb" />
+      <property role="2fHolG" value="blueryb" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD7X" role="M5hS2">
+      <property role="1uS6qo" value="bluebell" />
+      <property role="1uS6qv" value="bluebell" />
+      <property role="2fHolG" value="bluebell" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD7Y" role="M5hS2">
+      <property role="1uS6qo" value="bluegray" />
+      <property role="1uS6qv" value="bluegray" />
+      <property role="2fHolG" value="bluegray" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD7Z" role="M5hS2">
+      <property role="1uS6qo" value="blue-green" />
+      <property role="1uS6qv" value="blue-green" />
+      <property role="2fHolG" value="blue-green" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD80" role="M5hS2">
+      <property role="1uS6qo" value="blue-violet" />
+      <property role="1uS6qv" value="blue-violet" />
+      <property role="2fHolG" value="blue-violet" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD81" role="M5hS2">
+      <property role="1uS6qo" value="blush" />
+      <property role="1uS6qv" value="blush" />
+      <property role="2fHolG" value="blush" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD82" role="M5hS2">
+      <property role="1uS6qo" value="bole" />
+      <property role="1uS6qv" value="bole" />
+      <property role="2fHolG" value="bole" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD83" role="M5hS2">
+      <property role="1uS6qo" value="bondiblue" />
+      <property role="1uS6qv" value="bondiblue" />
+      <property role="2fHolG" value="bondiblue" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD84" role="M5hS2">
+      <property role="1uS6qo" value="bostonuniversityred" />
+      <property role="1uS6qv" value="bostonuniversityred" />
+      <property role="2fHolG" value="bostonuniversityred" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD85" role="M5hS2">
+      <property role="1uS6qo" value="brandeisblue" />
+      <property role="1uS6qv" value="brandeisblue" />
+      <property role="2fHolG" value="brandeisblue" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD86" role="M5hS2">
+      <property role="1uS6qo" value="brass" />
+      <property role="1uS6qv" value="brass" />
+      <property role="2fHolG" value="brass" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD87" role="M5hS2">
+      <property role="1uS6qo" value="brickred" />
+      <property role="1uS6qv" value="brickred" />
+      <property role="2fHolG" value="brickred" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD88" role="M5hS2">
+      <property role="1uS6qo" value="brightcerulean" />
+      <property role="1uS6qv" value="brightcerulean" />
+      <property role="2fHolG" value="brightcerulean" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD89" role="M5hS2">
+      <property role="1uS6qo" value="brightgreen" />
+      <property role="1uS6qv" value="brightgreen" />
+      <property role="2fHolG" value="brightgreen" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD8a" role="M5hS2">
+      <property role="1uS6qo" value="brightlavender" />
+      <property role="1uS6qv" value="brightlavender" />
+      <property role="2fHolG" value="brightlavender" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD8b" role="M5hS2">
+      <property role="1uS6qo" value="brightmaroon" />
+      <property role="1uS6qv" value="brightmaroon" />
+      <property role="2fHolG" value="brightmaroon" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD8c" role="M5hS2">
+      <property role="1uS6qo" value="brightpink" />
+      <property role="1uS6qv" value="brightpink" />
+      <property role="2fHolG" value="brightpink" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD8d" role="M5hS2">
+      <property role="1uS6qo" value="brightturquoise" />
+      <property role="1uS6qv" value="brightturquoise" />
+      <property role="2fHolG" value="brightturquoise" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD8e" role="M5hS2">
+      <property role="1uS6qo" value="brightube" />
+      <property role="1uS6qv" value="brightube" />
+      <property role="2fHolG" value="brightube" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD8f" role="M5hS2">
+      <property role="1uS6qo" value="brilliantlavender" />
+      <property role="1uS6qv" value="brilliantlavender" />
+      <property role="2fHolG" value="brilliantlavender" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD8g" role="M5hS2">
+      <property role="1uS6qo" value="brilliantrose" />
+      <property role="1uS6qv" value="brilliantrose" />
+      <property role="2fHolG" value="brilliantrose" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD8h" role="M5hS2">
+      <property role="1uS6qo" value="brinkpink" />
+      <property role="1uS6qv" value="brinkpink" />
+      <property role="2fHolG" value="brinkpink" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD8i" role="M5hS2">
+      <property role="1uS6qo" value="britishracinggreen" />
+      <property role="1uS6qv" value="britishracinggreen" />
+      <property role="2fHolG" value="britishracinggreen" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD8j" role="M5hS2">
+      <property role="1uS6qo" value="bronze" />
+      <property role="1uS6qv" value="bronze" />
+      <property role="2fHolG" value="bronze" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD8k" role="M5hS2">
+      <property role="1uS6qo" value="browntraditional" />
+      <property role="1uS6qv" value="browntraditional" />
+      <property role="2fHolG" value="browntraditional" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD8l" role="M5hS2">
+      <property role="1uS6qo" value="brownweb" />
+      <property role="1uS6qv" value="brownweb" />
+      <property role="2fHolG" value="brownweb" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD8m" role="M5hS2">
+      <property role="1uS6qo" value="bubblegum" />
+      <property role="1uS6qv" value="bubblegum" />
+      <property role="2fHolG" value="bubblegum" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD8n" role="M5hS2">
+      <property role="1uS6qo" value="bubbles" />
+      <property role="1uS6qv" value="bubbles" />
+      <property role="2fHolG" value="bubbles" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD8o" role="M5hS2">
+      <property role="1uS6qo" value="buff" />
+      <property role="1uS6qv" value="buff" />
+      <property role="2fHolG" value="buff" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD8p" role="M5hS2">
+      <property role="1uS6qo" value="bulgarianrose" />
+      <property role="1uS6qv" value="bulgarianrose" />
+      <property role="2fHolG" value="bulgarianrose" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD8q" role="M5hS2">
+      <property role="1uS6qo" value="burgundy" />
+      <property role="1uS6qv" value="burgundy" />
+      <property role="2fHolG" value="burgundy" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD8r" role="M5hS2">
+      <property role="1uS6qo" value="burlywood" />
+      <property role="1uS6qv" value="burlywood" />
+      <property role="2fHolG" value="burlywood" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD8s" role="M5hS2">
+      <property role="1uS6qo" value="burntorange" />
+      <property role="1uS6qv" value="burntorange" />
+      <property role="2fHolG" value="burntorange" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD8t" role="M5hS2">
+      <property role="1uS6qo" value="burntsienna" />
+      <property role="1uS6qv" value="burntsienna" />
+      <property role="2fHolG" value="burntsienna" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD8u" role="M5hS2">
+      <property role="1uS6qo" value="burntumber" />
+      <property role="1uS6qv" value="burntumber" />
+      <property role="2fHolG" value="burntumber" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD8v" role="M5hS2">
+      <property role="1uS6qo" value="byzantine" />
+      <property role="1uS6qv" value="byzantine" />
+      <property role="2fHolG" value="byzantine" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD8w" role="M5hS2">
+      <property role="1uS6qo" value="byzantium" />
+      <property role="1uS6qv" value="byzantium" />
+      <property role="2fHolG" value="byzantium" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD8x" role="M5hS2">
+      <property role="1uS6qo" value="cadet" />
+      <property role="1uS6qv" value="cadet" />
+      <property role="2fHolG" value="cadet" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD8y" role="M5hS2">
+      <property role="1uS6qo" value="cadetblue" />
+      <property role="1uS6qv" value="cadetblue" />
+      <property role="2fHolG" value="cadetblue" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD8z" role="M5hS2">
+      <property role="1uS6qo" value="cadetgrey" />
+      <property role="1uS6qv" value="cadetgrey" />
+      <property role="2fHolG" value="cadetgrey" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD8$" role="M5hS2">
+      <property role="1uS6qo" value="cadmiumgreen" />
+      <property role="1uS6qv" value="cadmiumgreen" />
+      <property role="2fHolG" value="cadmiumgreen" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD8_" role="M5hS2">
+      <property role="1uS6qo" value="cadmiumorange" />
+      <property role="1uS6qv" value="cadmiumorange" />
+      <property role="2fHolG" value="cadmiumorange" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD8A" role="M5hS2">
+      <property role="1uS6qo" value="cadmiumred" />
+      <property role="1uS6qv" value="cadmiumred" />
+      <property role="2fHolG" value="cadmiumred" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD8B" role="M5hS2">
+      <property role="1uS6qo" value="cadmiumyellow" />
+      <property role="1uS6qv" value="cadmiumyellow" />
+      <property role="2fHolG" value="cadmiumyellow" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD8C" role="M5hS2">
+      <property role="1uS6qo" value="calpolypomonagreen" />
+      <property role="1uS6qv" value="calpolypomonagreen" />
+      <property role="2fHolG" value="calpolypomonagreen" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD8D" role="M5hS2">
+      <property role="1uS6qo" value="cambridgeblue" />
+      <property role="1uS6qv" value="cambridgeblue" />
+      <property role="2fHolG" value="cambridgeblue" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD8E" role="M5hS2">
+      <property role="1uS6qo" value="camel" />
+      <property role="1uS6qv" value="camel" />
+      <property role="2fHolG" value="camel" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD8F" role="M5hS2">
+      <property role="1uS6qo" value="camouflagegreen" />
+      <property role="1uS6qv" value="camouflagegreen" />
+      <property role="2fHolG" value="camouflagegreen" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD8G" role="M5hS2">
+      <property role="1uS6qo" value="canaryyellow" />
+      <property role="1uS6qv" value="canaryyellow" />
+      <property role="2fHolG" value="canaryyellow" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD8H" role="M5hS2">
+      <property role="1uS6qo" value="candyapplered" />
+      <property role="1uS6qv" value="candyapplered" />
+      <property role="2fHolG" value="candyapplered" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD8I" role="M5hS2">
+      <property role="1uS6qo" value="candypink" />
+      <property role="1uS6qv" value="candypink" />
+      <property role="2fHolG" value="candypink" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD8J" role="M5hS2">
+      <property role="1uS6qo" value="capri" />
+      <property role="1uS6qv" value="capri" />
+      <property role="2fHolG" value="capri" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD8K" role="M5hS2">
+      <property role="1uS6qo" value="caputmortuum" />
+      <property role="1uS6qv" value="caputmortuum" />
+      <property role="2fHolG" value="caputmortuum" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD8L" role="M5hS2">
+      <property role="1uS6qo" value="cardinal" />
+      <property role="1uS6qv" value="cardinal" />
+      <property role="2fHolG" value="cardinal" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD8M" role="M5hS2">
+      <property role="1uS6qo" value="caribbeangreen" />
+      <property role="1uS6qv" value="caribbeangreen" />
+      <property role="2fHolG" value="caribbeangreen" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD8N" role="M5hS2">
+      <property role="1uS6qo" value="carmine" />
+      <property role="1uS6qv" value="carmine" />
+      <property role="2fHolG" value="carmine" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD8O" role="M5hS2">
+      <property role="1uS6qo" value="carminepink" />
+      <property role="1uS6qv" value="carminepink" />
+      <property role="2fHolG" value="carminepink" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD8P" role="M5hS2">
+      <property role="1uS6qo" value="carminered" />
+      <property role="1uS6qv" value="carminered" />
+      <property role="2fHolG" value="carminered" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD8Q" role="M5hS2">
+      <property role="1uS6qo" value="carnationpink" />
+      <property role="1uS6qv" value="carnationpink" />
+      <property role="2fHolG" value="carnationpink" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD8R" role="M5hS2">
+      <property role="1uS6qo" value="carnelian" />
+      <property role="1uS6qv" value="carnelian" />
+      <property role="2fHolG" value="carnelian" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD8S" role="M5hS2">
+      <property role="1uS6qo" value="carolinablue" />
+      <property role="1uS6qv" value="carolinablue" />
+      <property role="2fHolG" value="carolinablue" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD8T" role="M5hS2">
+      <property role="1uS6qo" value="carrotorange" />
+      <property role="1uS6qv" value="carrotorange" />
+      <property role="2fHolG" value="carrotorange" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD8U" role="M5hS2">
+      <property role="1uS6qo" value="ceil" />
+      <property role="1uS6qv" value="ceil" />
+      <property role="2fHolG" value="ceil" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD8V" role="M5hS2">
+      <property role="1uS6qo" value="celadon" />
+      <property role="1uS6qv" value="celadon" />
+      <property role="2fHolG" value="celadon" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD8W" role="M5hS2">
+      <property role="1uS6qo" value="celestialblue" />
+      <property role="1uS6qv" value="celestialblue" />
+      <property role="2fHolG" value="celestialblue" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD8X" role="M5hS2">
+      <property role="1uS6qo" value="cerise" />
+      <property role="1uS6qv" value="cerise" />
+      <property role="2fHolG" value="cerise" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD8Y" role="M5hS2">
+      <property role="1uS6qo" value="cerisepink" />
+      <property role="1uS6qv" value="cerisepink" />
+      <property role="2fHolG" value="cerisepink" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD8Z" role="M5hS2">
+      <property role="1uS6qo" value="cerulean" />
+      <property role="1uS6qv" value="cerulean" />
+      <property role="2fHolG" value="cerulean" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD90" role="M5hS2">
+      <property role="1uS6qo" value="ceruleanblue" />
+      <property role="1uS6qv" value="ceruleanblue" />
+      <property role="2fHolG" value="ceruleanblue" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD91" role="M5hS2">
+      <property role="1uS6qo" value="chamoisee" />
+      <property role="1uS6qv" value="chamoisee" />
+      <property role="2fHolG" value="chamoisee" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD92" role="M5hS2">
+      <property role="1uS6qo" value="champagne" />
+      <property role="1uS6qv" value="champagne" />
+      <property role="2fHolG" value="champagne" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD93" role="M5hS2">
+      <property role="1uS6qo" value="charcoal" />
+      <property role="1uS6qv" value="charcoal" />
+      <property role="2fHolG" value="charcoal" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD94" role="M5hS2">
+      <property role="1uS6qo" value="chartreusetraditional" />
+      <property role="1uS6qv" value="chartreusetraditional" />
+      <property role="2fHolG" value="chartreusetraditional" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD95" role="M5hS2">
+      <property role="1uS6qo" value="chartreuseweb" />
+      <property role="1uS6qv" value="chartreuseweb" />
+      <property role="2fHolG" value="chartreuseweb" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD96" role="M5hS2">
+      <property role="1uS6qo" value="cherryblossompink" />
+      <property role="1uS6qv" value="cherryblossompink" />
+      <property role="2fHolG" value="cherryblossompink" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD97" role="M5hS2">
+      <property role="1uS6qo" value="chestnut" />
+      <property role="1uS6qv" value="chestnut" />
+      <property role="2fHolG" value="chestnut" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD98" role="M5hS2">
+      <property role="1uS6qo" value="chocolatetraditional" />
+      <property role="1uS6qv" value="chocolatetraditional" />
+      <property role="2fHolG" value="chocolatetraditional" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD99" role="M5hS2">
+      <property role="1uS6qo" value="chocolateweb" />
+      <property role="1uS6qv" value="chocolateweb" />
+      <property role="2fHolG" value="chocolateweb" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD9a" role="M5hS2">
+      <property role="1uS6qo" value="chromeyellow" />
+      <property role="1uS6qv" value="chromeyellow" />
+      <property role="2fHolG" value="chromeyellow" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD9b" role="M5hS2">
+      <property role="1uS6qo" value="cinereous" />
+      <property role="1uS6qv" value="cinereous" />
+      <property role="2fHolG" value="cinereous" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD9c" role="M5hS2">
+      <property role="1uS6qo" value="cinnabar" />
+      <property role="1uS6qv" value="cinnabar" />
+      <property role="2fHolG" value="cinnabar" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD9d" role="M5hS2">
+      <property role="1uS6qo" value="cinnamon" />
+      <property role="1uS6qv" value="cinnamon" />
+      <property role="2fHolG" value="cinnamon" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD9e" role="M5hS2">
+      <property role="1uS6qo" value="citrine" />
+      <property role="1uS6qv" value="citrine" />
+      <property role="2fHolG" value="citrine" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD9f" role="M5hS2">
+      <property role="1uS6qo" value="classicrose" />
+      <property role="1uS6qv" value="classicrose" />
+      <property role="2fHolG" value="classicrose" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD9g" role="M5hS2">
+      <property role="1uS6qo" value="cobalt" />
+      <property role="1uS6qv" value="cobalt" />
+      <property role="2fHolG" value="cobalt" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD9h" role="M5hS2">
+      <property role="1uS6qo" value="cocoabrown" />
+      <property role="1uS6qv" value="cocoabrown" />
+      <property role="2fHolG" value="cocoabrown" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD9i" role="M5hS2">
+      <property role="1uS6qo" value="columbiablue" />
+      <property role="1uS6qv" value="columbiablue" />
+      <property role="2fHolG" value="columbiablue" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD9j" role="M5hS2">
+      <property role="1uS6qo" value="coolblack" />
+      <property role="1uS6qv" value="coolblack" />
+      <property role="2fHolG" value="coolblack" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD9k" role="M5hS2">
+      <property role="1uS6qo" value="coolgrey" />
+      <property role="1uS6qv" value="coolgrey" />
+      <property role="2fHolG" value="coolgrey" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD9l" role="M5hS2">
+      <property role="1uS6qo" value="copper" />
+      <property role="1uS6qv" value="copper" />
+      <property role="2fHolG" value="copper" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD9m" role="M5hS2">
+      <property role="1uS6qo" value="coquelicot" />
+      <property role="1uS6qv" value="coquelicot" />
+      <property role="2fHolG" value="coquelicot" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD9n" role="M5hS2">
+      <property role="1uS6qo" value="coral" />
+      <property role="1uS6qv" value="coral" />
+      <property role="2fHolG" value="coral" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD9o" role="M5hS2">
+      <property role="1uS6qo" value="coralpink" />
+      <property role="1uS6qv" value="coralpink" />
+      <property role="2fHolG" value="coralpink" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD9p" role="M5hS2">
+      <property role="1uS6qo" value="coralred" />
+      <property role="1uS6qv" value="coralred" />
+      <property role="2fHolG" value="coralred" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD9q" role="M5hS2">
+      <property role="1uS6qo" value="cordovan" />
+      <property role="1uS6qv" value="cordovan" />
+      <property role="2fHolG" value="cordovan" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD9r" role="M5hS2">
+      <property role="1uS6qo" value="corn" />
+      <property role="1uS6qv" value="corn" />
+      <property role="2fHolG" value="corn" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD9s" role="M5hS2">
+      <property role="1uS6qo" value="cornellred" />
+      <property role="1uS6qv" value="cornellred" />
+      <property role="2fHolG" value="cornellred" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD9t" role="M5hS2">
+      <property role="1uS6qo" value="cornflowerblue" />
+      <property role="1uS6qv" value="cornflowerblue" />
+      <property role="2fHolG" value="cornflowerblue" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD9u" role="M5hS2">
+      <property role="1uS6qo" value="cornsilk" />
+      <property role="1uS6qv" value="cornsilk" />
+      <property role="2fHolG" value="cornsilk" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD9v" role="M5hS2">
+      <property role="1uS6qo" value="cosmiclatte" />
+      <property role="1uS6qv" value="cosmiclatte" />
+      <property role="2fHolG" value="cosmiclatte" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD9w" role="M5hS2">
+      <property role="1uS6qo" value="cottoncandy" />
+      <property role="1uS6qv" value="cottoncandy" />
+      <property role="2fHolG" value="cottoncandy" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD9x" role="M5hS2">
+      <property role="1uS6qo" value="cream" />
+      <property role="1uS6qv" value="cream" />
+      <property role="2fHolG" value="cream" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD9y" role="M5hS2">
+      <property role="1uS6qo" value="crimson" />
+      <property role="1uS6qv" value="crimson" />
+      <property role="2fHolG" value="crimson" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD9z" role="M5hS2">
+      <property role="1uS6qo" value="crimsonglory" />
+      <property role="1uS6qv" value="crimsonglory" />
+      <property role="2fHolG" value="crimsonglory" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD9$" role="M5hS2">
+      <property role="1uS6qo" value="cyan" />
+      <property role="1uS6qv" value="cyan" />
+      <property role="2fHolG" value="cyan" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD9_" role="M5hS2">
+      <property role="1uS6qo" value="cyanprocess" />
+      <property role="1uS6qv" value="cyanprocess" />
+      <property role="2fHolG" value="cyanprocess" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD9A" role="M5hS2">
+      <property role="1uS6qo" value="daffodil" />
+      <property role="1uS6qv" value="daffodil" />
+      <property role="2fHolG" value="daffodil" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD9B" role="M5hS2">
+      <property role="1uS6qo" value="dandelion" />
+      <property role="1uS6qv" value="dandelion" />
+      <property role="2fHolG" value="dandelion" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD9C" role="M5hS2">
+      <property role="1uS6qo" value="darkblue" />
+      <property role="1uS6qv" value="darkblue" />
+      <property role="2fHolG" value="darkblue" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD9D" role="M5hS2">
+      <property role="1uS6qo" value="darkbrown" />
+      <property role="1uS6qv" value="darkbrown" />
+      <property role="2fHolG" value="darkbrown" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD9E" role="M5hS2">
+      <property role="1uS6qo" value="darkbyzantium" />
+      <property role="1uS6qv" value="darkbyzantium" />
+      <property role="2fHolG" value="darkbyzantium" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD9F" role="M5hS2">
+      <property role="1uS6qo" value="darkcandyapplered" />
+      <property role="1uS6qv" value="darkcandyapplered" />
+      <property role="2fHolG" value="darkcandyapplered" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD9G" role="M5hS2">
+      <property role="1uS6qo" value="darkcerulean" />
+      <property role="1uS6qv" value="darkcerulean" />
+      <property role="2fHolG" value="darkcerulean" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD9H" role="M5hS2">
+      <property role="1uS6qo" value="darkchampagne" />
+      <property role="1uS6qv" value="darkchampagne" />
+      <property role="2fHolG" value="darkchampagne" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD9I" role="M5hS2">
+      <property role="1uS6qo" value="darkchestnut" />
+      <property role="1uS6qv" value="darkchestnut" />
+      <property role="2fHolG" value="darkchestnut" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD9J" role="M5hS2">
+      <property role="1uS6qo" value="darkcoral" />
+      <property role="1uS6qv" value="darkcoral" />
+      <property role="2fHolG" value="darkcoral" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD9K" role="M5hS2">
+      <property role="1uS6qo" value="darkcyan" />
+      <property role="1uS6qv" value="darkcyan" />
+      <property role="2fHolG" value="darkcyan" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD9L" role="M5hS2">
+      <property role="1uS6qo" value="darkelectricblue" />
+      <property role="1uS6qv" value="darkelectricblue" />
+      <property role="2fHolG" value="darkelectricblue" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD9M" role="M5hS2">
+      <property role="1uS6qo" value="darkgoldenrod" />
+      <property role="1uS6qv" value="darkgoldenrod" />
+      <property role="2fHolG" value="darkgoldenrod" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD9N" role="M5hS2">
+      <property role="1uS6qo" value="darkgray" />
+      <property role="1uS6qv" value="darkgray" />
+      <property role="2fHolG" value="darkgray" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD9O" role="M5hS2">
+      <property role="1uS6qo" value="darkgreen" />
+      <property role="1uS6qv" value="darkgreen" />
+      <property role="2fHolG" value="darkgreen" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD9P" role="M5hS2">
+      <property role="1uS6qo" value="darkjunglegreen" />
+      <property role="1uS6qv" value="darkjunglegreen" />
+      <property role="2fHolG" value="darkjunglegreen" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD9Q" role="M5hS2">
+      <property role="1uS6qo" value="darkkhaki" />
+      <property role="1uS6qv" value="darkkhaki" />
+      <property role="2fHolG" value="darkkhaki" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD9R" role="M5hS2">
+      <property role="1uS6qo" value="darklava" />
+      <property role="1uS6qv" value="darklava" />
+      <property role="2fHolG" value="darklava" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD9S" role="M5hS2">
+      <property role="1uS6qo" value="darklavender" />
+      <property role="1uS6qv" value="darklavender" />
+      <property role="2fHolG" value="darklavender" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD9T" role="M5hS2">
+      <property role="1uS6qo" value="darkmagenta" />
+      <property role="1uS6qv" value="darkmagenta" />
+      <property role="2fHolG" value="darkmagenta" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD9U" role="M5hS2">
+      <property role="1uS6qo" value="darkmidnightblue" />
+      <property role="1uS6qv" value="darkmidnightblue" />
+      <property role="2fHolG" value="darkmidnightblue" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD9V" role="M5hS2">
+      <property role="1uS6qo" value="darkolivegreen" />
+      <property role="1uS6qv" value="darkolivegreen" />
+      <property role="2fHolG" value="darkolivegreen" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD9W" role="M5hS2">
+      <property role="1uS6qo" value="darkorange" />
+      <property role="1uS6qv" value="darkorange" />
+      <property role="2fHolG" value="darkorange" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD9X" role="M5hS2">
+      <property role="1uS6qo" value="darkorchid" />
+      <property role="1uS6qv" value="darkorchid" />
+      <property role="2fHolG" value="darkorchid" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD9Y" role="M5hS2">
+      <property role="1uS6qo" value="darkpastelblue" />
+      <property role="1uS6qv" value="darkpastelblue" />
+      <property role="2fHolG" value="darkpastelblue" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xD9Z" role="M5hS2">
+      <property role="1uS6qo" value="darkpastelgreen" />
+      <property role="1uS6qv" value="darkpastelgreen" />
+      <property role="2fHolG" value="darkpastelgreen" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDa0" role="M5hS2">
+      <property role="1uS6qo" value="darkpastelpurple" />
+      <property role="1uS6qv" value="darkpastelpurple" />
+      <property role="2fHolG" value="darkpastelpurple" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDa1" role="M5hS2">
+      <property role="1uS6qo" value="darkpastelred" />
+      <property role="1uS6qv" value="darkpastelred" />
+      <property role="2fHolG" value="darkpastelred" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDa2" role="M5hS2">
+      <property role="1uS6qo" value="darkpink" />
+      <property role="1uS6qv" value="darkpink" />
+      <property role="2fHolG" value="darkpink" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDa3" role="M5hS2">
+      <property role="1uS6qo" value="darkpowderblue" />
+      <property role="1uS6qv" value="darkpowderblue" />
+      <property role="2fHolG" value="darkpowderblue" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDa4" role="M5hS2">
+      <property role="1uS6qo" value="darkraspberry" />
+      <property role="1uS6qv" value="darkraspberry" />
+      <property role="2fHolG" value="darkraspberry" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDa5" role="M5hS2">
+      <property role="1uS6qo" value="darkred" />
+      <property role="1uS6qv" value="darkred" />
+      <property role="2fHolG" value="darkred" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDa6" role="M5hS2">
+      <property role="1uS6qo" value="darksalmon" />
+      <property role="1uS6qv" value="darksalmon" />
+      <property role="2fHolG" value="darksalmon" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDa7" role="M5hS2">
+      <property role="1uS6qo" value="darkscarlet" />
+      <property role="1uS6qv" value="darkscarlet" />
+      <property role="2fHolG" value="darkscarlet" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDa8" role="M5hS2">
+      <property role="1uS6qo" value="darkseagreen" />
+      <property role="1uS6qv" value="darkseagreen" />
+      <property role="2fHolG" value="darkseagreen" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDa9" role="M5hS2">
+      <property role="1uS6qo" value="darksienna" />
+      <property role="1uS6qv" value="darksienna" />
+      <property role="2fHolG" value="darksienna" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDaa" role="M5hS2">
+      <property role="1uS6qo" value="darkslateblue" />
+      <property role="1uS6qv" value="darkslateblue" />
+      <property role="2fHolG" value="darkslateblue" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDab" role="M5hS2">
+      <property role="1uS6qo" value="darkslategray" />
+      <property role="1uS6qv" value="darkslategray" />
+      <property role="2fHolG" value="darkslategray" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDac" role="M5hS2">
+      <property role="1uS6qo" value="darkspringgreen" />
+      <property role="1uS6qv" value="darkspringgreen" />
+      <property role="2fHolG" value="darkspringgreen" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDad" role="M5hS2">
+      <property role="1uS6qo" value="darktan" />
+      <property role="1uS6qv" value="darktan" />
+      <property role="2fHolG" value="darktan" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDae" role="M5hS2">
+      <property role="1uS6qo" value="darktangerine" />
+      <property role="1uS6qv" value="darktangerine" />
+      <property role="2fHolG" value="darktangerine" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDaf" role="M5hS2">
+      <property role="1uS6qo" value="darktaupe" />
+      <property role="1uS6qv" value="darktaupe" />
+      <property role="2fHolG" value="darktaupe" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDag" role="M5hS2">
+      <property role="1uS6qo" value="darkterracotta" />
+      <property role="1uS6qv" value="darkterracotta" />
+      <property role="2fHolG" value="darkterracotta" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDah" role="M5hS2">
+      <property role="1uS6qo" value="darkturquoise" />
+      <property role="1uS6qv" value="darkturquoise" />
+      <property role="2fHolG" value="darkturquoise" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDai" role="M5hS2">
+      <property role="1uS6qo" value="darkviolet" />
+      <property role="1uS6qv" value="darkviolet" />
+      <property role="2fHolG" value="darkviolet" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDaj" role="M5hS2">
+      <property role="1uS6qo" value="dartmouthgreen" />
+      <property role="1uS6qv" value="dartmouthgreen" />
+      <property role="2fHolG" value="dartmouthgreen" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDak" role="M5hS2">
+      <property role="1uS6qo" value="debianred" />
+      <property role="1uS6qv" value="debianred" />
+      <property role="2fHolG" value="debianred" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDal" role="M5hS2">
+      <property role="1uS6qo" value="deepcarmine" />
+      <property role="1uS6qv" value="deepcarmine" />
+      <property role="2fHolG" value="deepcarmine" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDam" role="M5hS2">
+      <property role="1uS6qo" value="deepcarminepink" />
+      <property role="1uS6qv" value="deepcarminepink" />
+      <property role="2fHolG" value="deepcarminepink" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDan" role="M5hS2">
+      <property role="1uS6qo" value="deepcarrotorange" />
+      <property role="1uS6qv" value="deepcarrotorange" />
+      <property role="2fHolG" value="deepcarrotorange" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDao" role="M5hS2">
+      <property role="1uS6qo" value="deepcerise" />
+      <property role="1uS6qv" value="deepcerise" />
+      <property role="2fHolG" value="deepcerise" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDap" role="M5hS2">
+      <property role="1uS6qo" value="deepchampagne" />
+      <property role="1uS6qv" value="deepchampagne" />
+      <property role="2fHolG" value="deepchampagne" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDaq" role="M5hS2">
+      <property role="1uS6qo" value="deepchestnut" />
+      <property role="1uS6qv" value="deepchestnut" />
+      <property role="2fHolG" value="deepchestnut" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDar" role="M5hS2">
+      <property role="1uS6qo" value="deepfuchsia" />
+      <property role="1uS6qv" value="deepfuchsia" />
+      <property role="2fHolG" value="deepfuchsia" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDas" role="M5hS2">
+      <property role="1uS6qo" value="deepjunglegreen" />
+      <property role="1uS6qv" value="deepjunglegreen" />
+      <property role="2fHolG" value="deepjunglegreen" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDat" role="M5hS2">
+      <property role="1uS6qo" value="deeplilac" />
+      <property role="1uS6qv" value="deeplilac" />
+      <property role="2fHolG" value="deeplilac" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDau" role="M5hS2">
+      <property role="1uS6qo" value="deepmagenta" />
+      <property role="1uS6qv" value="deepmagenta" />
+      <property role="2fHolG" value="deepmagenta" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDav" role="M5hS2">
+      <property role="1uS6qo" value="deeppeach" />
+      <property role="1uS6qv" value="deeppeach" />
+      <property role="2fHolG" value="deeppeach" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDaw" role="M5hS2">
+      <property role="1uS6qo" value="deeppink" />
+      <property role="1uS6qv" value="deeppink" />
+      <property role="2fHolG" value="deeppink" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDax" role="M5hS2">
+      <property role="1uS6qo" value="deepsaffron" />
+      <property role="1uS6qv" value="deepsaffron" />
+      <property role="2fHolG" value="deepsaffron" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDay" role="M5hS2">
+      <property role="1uS6qo" value="deepskyblue" />
+      <property role="1uS6qv" value="deepskyblue" />
+      <property role="2fHolG" value="deepskyblue" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDaz" role="M5hS2">
+      <property role="1uS6qo" value="denim" />
+      <property role="1uS6qv" value="denim" />
+      <property role="2fHolG" value="denim" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDa$" role="M5hS2">
+      <property role="1uS6qo" value="desert" />
+      <property role="1uS6qv" value="desert" />
+      <property role="2fHolG" value="desert" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDa_" role="M5hS2">
+      <property role="1uS6qo" value="desertsand" />
+      <property role="1uS6qv" value="desertsand" />
+      <property role="2fHolG" value="desertsand" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDaA" role="M5hS2">
+      <property role="1uS6qo" value="dimgray" />
+      <property role="1uS6qv" value="dimgray" />
+      <property role="2fHolG" value="dimgray" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDaB" role="M5hS2">
+      <property role="1uS6qo" value="dodgerblue" />
+      <property role="1uS6qv" value="dodgerblue" />
+      <property role="2fHolG" value="dodgerblue" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDaC" role="M5hS2">
+      <property role="1uS6qo" value="dogwoodrose" />
+      <property role="1uS6qv" value="dogwoodrose" />
+      <property role="2fHolG" value="dogwoodrose" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDaD" role="M5hS2">
+      <property role="1uS6qo" value="dollarbill" />
+      <property role="1uS6qv" value="dollarbill" />
+      <property role="2fHolG" value="dollarbill" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDaE" role="M5hS2">
+      <property role="1uS6qo" value="drab" />
+      <property role="1uS6qv" value="drab" />
+      <property role="2fHolG" value="drab" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDaF" role="M5hS2">
+      <property role="1uS6qo" value="dukeblue" />
+      <property role="1uS6qv" value="dukeblue" />
+      <property role="2fHolG" value="dukeblue" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDaG" role="M5hS2">
+      <property role="1uS6qo" value="earthyellow" />
+      <property role="1uS6qv" value="earthyellow" />
+      <property role="2fHolG" value="earthyellow" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDaH" role="M5hS2">
+      <property role="1uS6qo" value="ecru" />
+      <property role="1uS6qv" value="ecru" />
+      <property role="2fHolG" value="ecru" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDaI" role="M5hS2">
+      <property role="1uS6qo" value="eggplant" />
+      <property role="1uS6qv" value="eggplant" />
+      <property role="2fHolG" value="eggplant" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDaJ" role="M5hS2">
+      <property role="1uS6qo" value="eggshell" />
+      <property role="1uS6qv" value="eggshell" />
+      <property role="2fHolG" value="eggshell" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDaK" role="M5hS2">
+      <property role="1uS6qo" value="egyptianblue" />
+      <property role="1uS6qv" value="egyptianblue" />
+      <property role="2fHolG" value="egyptianblue" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDaL" role="M5hS2">
+      <property role="1uS6qo" value="electricblue" />
+      <property role="1uS6qv" value="electricblue" />
+      <property role="2fHolG" value="electricblue" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDaM" role="M5hS2">
+      <property role="1uS6qo" value="electriccrimson" />
+      <property role="1uS6qv" value="electriccrimson" />
+      <property role="2fHolG" value="electriccrimson" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDaN" role="M5hS2">
+      <property role="1uS6qo" value="electriccyan" />
+      <property role="1uS6qv" value="electriccyan" />
+      <property role="2fHolG" value="electriccyan" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDaO" role="M5hS2">
+      <property role="1uS6qo" value="electricgreen" />
+      <property role="1uS6qv" value="electricgreen" />
+      <property role="2fHolG" value="electricgreen" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDaP" role="M5hS2">
+      <property role="1uS6qo" value="electricindigo" />
+      <property role="1uS6qv" value="electricindigo" />
+      <property role="2fHolG" value="electricindigo" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDaQ" role="M5hS2">
+      <property role="1uS6qo" value="electriclavender" />
+      <property role="1uS6qv" value="electriclavender" />
+      <property role="2fHolG" value="electriclavender" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDaR" role="M5hS2">
+      <property role="1uS6qo" value="electriclime" />
+      <property role="1uS6qv" value="electriclime" />
+      <property role="2fHolG" value="electriclime" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDaS" role="M5hS2">
+      <property role="1uS6qo" value="electricpurple" />
+      <property role="1uS6qv" value="electricpurple" />
+      <property role="2fHolG" value="electricpurple" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDaT" role="M5hS2">
+      <property role="1uS6qo" value="electricultramarine" />
+      <property role="1uS6qv" value="electricultramarine" />
+      <property role="2fHolG" value="electricultramarine" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDaU" role="M5hS2">
+      <property role="1uS6qo" value="electricviolet" />
+      <property role="1uS6qv" value="electricviolet" />
+      <property role="2fHolG" value="electricviolet" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDaV" role="M5hS2">
+      <property role="1uS6qo" value="electricyellow" />
+      <property role="1uS6qv" value="electricyellow" />
+      <property role="2fHolG" value="electricyellow" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDaW" role="M5hS2">
+      <property role="1uS6qo" value="emerald" />
+      <property role="1uS6qv" value="emerald" />
+      <property role="2fHolG" value="emerald" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDaX" role="M5hS2">
+      <property role="1uS6qo" value="etonblue" />
+      <property role="1uS6qv" value="etonblue" />
+      <property role="2fHolG" value="etonblue" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDaY" role="M5hS2">
+      <property role="1uS6qo" value="fallow" />
+      <property role="1uS6qv" value="fallow" />
+      <property role="2fHolG" value="fallow" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDaZ" role="M5hS2">
+      <property role="1uS6qo" value="falured" />
+      <property role="1uS6qv" value="falured" />
+      <property role="2fHolG" value="falured" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDb0" role="M5hS2">
+      <property role="1uS6qo" value="fandango" />
+      <property role="1uS6qv" value="fandango" />
+      <property role="2fHolG" value="fandango" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDb1" role="M5hS2">
+      <property role="1uS6qo" value="fashionfuchsia" />
+      <property role="1uS6qv" value="fashionfuchsia" />
+      <property role="2fHolG" value="fashionfuchsia" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDb2" role="M5hS2">
+      <property role="1uS6qo" value="fawn" />
+      <property role="1uS6qv" value="fawn" />
+      <property role="2fHolG" value="fawn" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDb3" role="M5hS2">
+      <property role="1uS6qo" value="feldgrau" />
+      <property role="1uS6qv" value="feldgrau" />
+      <property role="2fHolG" value="feldgrau" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDb4" role="M5hS2">
+      <property role="1uS6qo" value="ferngreen" />
+      <property role="1uS6qv" value="ferngreen" />
+      <property role="2fHolG" value="ferngreen" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDb5" role="M5hS2">
+      <property role="1uS6qo" value="ferrarired" />
+      <property role="1uS6qv" value="ferrarired" />
+      <property role="2fHolG" value="ferrarired" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDb6" role="M5hS2">
+      <property role="1uS6qo" value="fielddrab" />
+      <property role="1uS6qv" value="fielddrab" />
+      <property role="2fHolG" value="fielddrab" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDb7" role="M5hS2">
+      <property role="1uS6qo" value="firebrick" />
+      <property role="1uS6qv" value="firebrick" />
+      <property role="2fHolG" value="firebrick" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDb8" role="M5hS2">
+      <property role="1uS6qo" value="fireenginered" />
+      <property role="1uS6qv" value="fireenginered" />
+      <property role="2fHolG" value="fireenginered" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDb9" role="M5hS2">
+      <property role="1uS6qo" value="flame" />
+      <property role="1uS6qv" value="flame" />
+      <property role="2fHolG" value="flame" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDba" role="M5hS2">
+      <property role="1uS6qo" value="flamingopink" />
+      <property role="1uS6qv" value="flamingopink" />
+      <property role="2fHolG" value="flamingopink" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDbb" role="M5hS2">
+      <property role="1uS6qo" value="flavescent" />
+      <property role="1uS6qv" value="flavescent" />
+      <property role="2fHolG" value="flavescent" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDbc" role="M5hS2">
+      <property role="1uS6qo" value="flax" />
+      <property role="1uS6qv" value="flax" />
+      <property role="2fHolG" value="flax" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDbd" role="M5hS2">
+      <property role="1uS6qo" value="floralwhite" />
+      <property role="1uS6qv" value="floralwhite" />
+      <property role="2fHolG" value="floralwhite" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDbe" role="M5hS2">
+      <property role="1uS6qo" value="fluorescentorange" />
+      <property role="1uS6qv" value="fluorescentorange" />
+      <property role="2fHolG" value="fluorescentorange" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDbf" role="M5hS2">
+      <property role="1uS6qo" value="fluorescentpink" />
+      <property role="1uS6qv" value="fluorescentpink" />
+      <property role="2fHolG" value="fluorescentpink" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDbg" role="M5hS2">
+      <property role="1uS6qo" value="fluorescentyellow" />
+      <property role="1uS6qv" value="fluorescentyellow" />
+      <property role="2fHolG" value="fluorescentyellow" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDbh" role="M5hS2">
+      <property role="1uS6qo" value="folly" />
+      <property role="1uS6qv" value="folly" />
+      <property role="2fHolG" value="folly" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDbi" role="M5hS2">
+      <property role="1uS6qo" value="forestgreentraditional" />
+      <property role="1uS6qv" value="forestgreentraditional" />
+      <property role="2fHolG" value="forestgreentraditional" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDbj" role="M5hS2">
+      <property role="1uS6qo" value="forestgreenweb" />
+      <property role="1uS6qv" value="forestgreenweb" />
+      <property role="2fHolG" value="forestgreenweb" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDbk" role="M5hS2">
+      <property role="1uS6qo" value="frenchbeige" />
+      <property role="1uS6qv" value="frenchbeige" />
+      <property role="2fHolG" value="frenchbeige" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDbl" role="M5hS2">
+      <property role="1uS6qo" value="frenchblue" />
+      <property role="1uS6qv" value="frenchblue" />
+      <property role="2fHolG" value="frenchblue" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDbm" role="M5hS2">
+      <property role="1uS6qo" value="frenchlilac" />
+      <property role="1uS6qv" value="frenchlilac" />
+      <property role="2fHolG" value="frenchlilac" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDbn" role="M5hS2">
+      <property role="1uS6qo" value="frenchrose" />
+      <property role="1uS6qv" value="frenchrose" />
+      <property role="2fHolG" value="frenchrose" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDbo" role="M5hS2">
+      <property role="1uS6qo" value="fuchsia" />
+      <property role="1uS6qv" value="fuchsia" />
+      <property role="2fHolG" value="fuchsia" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDbp" role="M5hS2">
+      <property role="1uS6qo" value="fuchsiapink" />
+      <property role="1uS6qv" value="fuchsiapink" />
+      <property role="2fHolG" value="fuchsiapink" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDbq" role="M5hS2">
+      <property role="1uS6qo" value="fulvous" />
+      <property role="1uS6qv" value="fulvous" />
+      <property role="2fHolG" value="fulvous" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDbr" role="M5hS2">
+      <property role="1uS6qo" value="fuzzywuzzy" />
+      <property role="1uS6qv" value="fuzzywuzzy" />
+      <property role="2fHolG" value="fuzzywuzzy" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDbs" role="M5hS2">
+      <property role="1uS6qo" value="gainsboro" />
+      <property role="1uS6qv" value="gainsboro" />
+      <property role="2fHolG" value="gainsboro" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDbt" role="M5hS2">
+      <property role="1uS6qo" value="gamboge" />
+      <property role="1uS6qv" value="gamboge" />
+      <property role="2fHolG" value="gamboge" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDbu" role="M5hS2">
+      <property role="1uS6qo" value="ghostwhite" />
+      <property role="1uS6qv" value="ghostwhite" />
+      <property role="2fHolG" value="ghostwhite" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDbv" role="M5hS2">
+      <property role="1uS6qo" value="ginger" />
+      <property role="1uS6qv" value="ginger" />
+      <property role="2fHolG" value="ginger" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDbw" role="M5hS2">
+      <property role="1uS6qo" value="glaucous" />
+      <property role="1uS6qv" value="glaucous" />
+      <property role="2fHolG" value="glaucous" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDbx" role="M5hS2">
+      <property role="1uS6qo" value="goldmetallic" />
+      <property role="1uS6qv" value="goldmetallic" />
+      <property role="2fHolG" value="goldmetallic" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDby" role="M5hS2">
+      <property role="1uS6qo" value="goldwebgolden" />
+      <property role="1uS6qv" value="goldwebgolden" />
+      <property role="2fHolG" value="goldwebgolden" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDbz" role="M5hS2">
+      <property role="1uS6qo" value="goldenbrown" />
+      <property role="1uS6qv" value="goldenbrown" />
+      <property role="2fHolG" value="goldenbrown" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDb$" role="M5hS2">
+      <property role="1uS6qo" value="goldenpoppy" />
+      <property role="1uS6qv" value="goldenpoppy" />
+      <property role="2fHolG" value="goldenpoppy" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDb_" role="M5hS2">
+      <property role="1uS6qo" value="goldenyellow" />
+      <property role="1uS6qv" value="goldenyellow" />
+      <property role="2fHolG" value="goldenyellow" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDbA" role="M5hS2">
+      <property role="1uS6qo" value="goldenrod" />
+      <property role="1uS6qv" value="goldenrod" />
+      <property role="2fHolG" value="goldenrod" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDbB" role="M5hS2">
+      <property role="1uS6qo" value="grannysmithapple" />
+      <property role="1uS6qv" value="grannysmithapple" />
+      <property role="2fHolG" value="grannysmithapple" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDbC" role="M5hS2">
+      <property role="1uS6qo" value="gray" />
+      <property role="1uS6qv" value="gray" />
+      <property role="2fHolG" value="gray" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDbD" role="M5hS2">
+      <property role="1uS6qo" value="grayhtmlcssgray" />
+      <property role="1uS6qv" value="grayhtmlcssgray" />
+      <property role="2fHolG" value="grayhtmlcssgray" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDbE" role="M5hS2">
+      <property role="1uS6qo" value="grayx11gray" />
+      <property role="1uS6qv" value="grayx11gray" />
+      <property role="2fHolG" value="grayx11gray" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDbF" role="M5hS2">
+      <property role="1uS6qo" value="gray-asparagus" />
+      <property role="1uS6qv" value="gray-asparagus" />
+      <property role="2fHolG" value="gray-asparagus" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDbG" role="M5hS2">
+      <property role="1uS6qo" value="greencolorwheelx11green" />
+      <property role="1uS6qv" value="greencolorwheelx11green" />
+      <property role="2fHolG" value="greencolorwheelx11green" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDbH" role="M5hS2">
+      <property role="1uS6qo" value="greenhtmlcssgreen" />
+      <property role="1uS6qv" value="greenhtmlcssgreen" />
+      <property role="2fHolG" value="greenhtmlcssgreen" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDbI" role="M5hS2">
+      <property role="1uS6qo" value="greenmunsell" />
+      <property role="1uS6qv" value="greenmunsell" />
+      <property role="2fHolG" value="greenmunsell" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDbJ" role="M5hS2">
+      <property role="1uS6qo" value="greenncs" />
+      <property role="1uS6qv" value="greenncs" />
+      <property role="2fHolG" value="greenncs" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDbK" role="M5hS2">
+      <property role="1uS6qo" value="greenpigment" />
+      <property role="1uS6qv" value="greenpigment" />
+      <property role="2fHolG" value="greenpigment" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDbL" role="M5hS2">
+      <property role="1uS6qo" value="greenryb" />
+      <property role="1uS6qv" value="greenryb" />
+      <property role="2fHolG" value="greenryb" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDbM" role="M5hS2">
+      <property role="1uS6qo" value="green-yellow" />
+      <property role="1uS6qv" value="green-yellow" />
+      <property role="2fHolG" value="green-yellow" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDbN" role="M5hS2">
+      <property role="1uS6qo" value="grullo" />
+      <property role="1uS6qv" value="grullo" />
+      <property role="2fHolG" value="grullo" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDbO" role="M5hS2">
+      <property role="1uS6qo" value="guppiegreen" />
+      <property role="1uS6qv" value="guppiegreen" />
+      <property role="2fHolG" value="guppiegreen" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDbP" role="M5hS2">
+      <property role="1uS6qo" value="halayaube" />
+      <property role="1uS6qv" value="halayaube" />
+      <property role="2fHolG" value="halayaube" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDbQ" role="M5hS2">
+      <property role="1uS6qo" value="hanblue" />
+      <property role="1uS6qv" value="hanblue" />
+      <property role="2fHolG" value="hanblue" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDbR" role="M5hS2">
+      <property role="1uS6qo" value="hanpurple" />
+      <property role="1uS6qv" value="hanpurple" />
+      <property role="2fHolG" value="hanpurple" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDbS" role="M5hS2">
+      <property role="1uS6qo" value="hansayellow" />
+      <property role="1uS6qv" value="hansayellow" />
+      <property role="2fHolG" value="hansayellow" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDbT" role="M5hS2">
+      <property role="1uS6qo" value="harlequin" />
+      <property role="1uS6qv" value="harlequin" />
+      <property role="2fHolG" value="harlequin" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDbU" role="M5hS2">
+      <property role="1uS6qo" value="harvardcrimson" />
+      <property role="1uS6qv" value="harvardcrimson" />
+      <property role="2fHolG" value="harvardcrimson" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDbV" role="M5hS2">
+      <property role="1uS6qo" value="harvestgold" />
+      <property role="1uS6qv" value="harvestgold" />
+      <property role="2fHolG" value="harvestgold" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDbW" role="M5hS2">
+      <property role="1uS6qo" value="heartgold" />
+      <property role="1uS6qv" value="heartgold" />
+      <property role="2fHolG" value="heartgold" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDbX" role="M5hS2">
+      <property role="1uS6qo" value="heliotrope" />
+      <property role="1uS6qv" value="heliotrope" />
+      <property role="2fHolG" value="heliotrope" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDbY" role="M5hS2">
+      <property role="1uS6qo" value="hollywoodcerise" />
+      <property role="1uS6qv" value="hollywoodcerise" />
+      <property role="2fHolG" value="hollywoodcerise" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDbZ" role="M5hS2">
+      <property role="1uS6qo" value="honeydew" />
+      <property role="1uS6qv" value="honeydew" />
+      <property role="2fHolG" value="honeydew" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDc0" role="M5hS2">
+      <property role="1uS6qo" value="hotmagenta" />
+      <property role="1uS6qv" value="hotmagenta" />
+      <property role="2fHolG" value="hotmagenta" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDc1" role="M5hS2">
+      <property role="1uS6qo" value="hotpink" />
+      <property role="1uS6qv" value="hotpink" />
+      <property role="2fHolG" value="hotpink" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDc2" role="M5hS2">
+      <property role="1uS6qo" value="huntergreen" />
+      <property role="1uS6qv" value="huntergreen" />
+      <property role="2fHolG" value="huntergreen" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDc3" role="M5hS2">
+      <property role="1uS6qo" value="iceberg" />
+      <property role="1uS6qv" value="iceberg" />
+      <property role="2fHolG" value="iceberg" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDc4" role="M5hS2">
+      <property role="1uS6qo" value="icterine" />
+      <property role="1uS6qv" value="icterine" />
+      <property role="2fHolG" value="icterine" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDc5" role="M5hS2">
+      <property role="1uS6qo" value="inchworm" />
+      <property role="1uS6qv" value="inchworm" />
+      <property role="2fHolG" value="inchworm" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDc6" role="M5hS2">
+      <property role="1uS6qo" value="indiagreen" />
+      <property role="1uS6qv" value="indiagreen" />
+      <property role="2fHolG" value="indiagreen" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDc7" role="M5hS2">
+      <property role="1uS6qo" value="indianred" />
+      <property role="1uS6qv" value="indianred" />
+      <property role="2fHolG" value="indianred" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDc8" role="M5hS2">
+      <property role="1uS6qo" value="indianyellow" />
+      <property role="1uS6qv" value="indianyellow" />
+      <property role="2fHolG" value="indianyellow" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDc9" role="M5hS2">
+      <property role="1uS6qo" value="indigodye" />
+      <property role="1uS6qv" value="indigodye" />
+      <property role="2fHolG" value="indigodye" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDca" role="M5hS2">
+      <property role="1uS6qo" value="indigoweb" />
+      <property role="1uS6qv" value="indigoweb" />
+      <property role="2fHolG" value="indigoweb" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDcb" role="M5hS2">
+      <property role="1uS6qo" value="internationalkleinblue" />
+      <property role="1uS6qv" value="internationalkleinblue" />
+      <property role="2fHolG" value="internationalkleinblue" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDcc" role="M5hS2">
+      <property role="1uS6qo" value="internationalorange" />
+      <property role="1uS6qv" value="internationalorange" />
+      <property role="2fHolG" value="internationalorange" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDcd" role="M5hS2">
+      <property role="1uS6qo" value="iris" />
+      <property role="1uS6qv" value="iris" />
+      <property role="2fHolG" value="iris" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDce" role="M5hS2">
+      <property role="1uS6qo" value="isabelline" />
+      <property role="1uS6qv" value="isabelline" />
+      <property role="2fHolG" value="isabelline" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDcf" role="M5hS2">
+      <property role="1uS6qo" value="islamicgreen" />
+      <property role="1uS6qv" value="islamicgreen" />
+      <property role="2fHolG" value="islamicgreen" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDcg" role="M5hS2">
+      <property role="1uS6qo" value="ivory" />
+      <property role="1uS6qv" value="ivory" />
+      <property role="2fHolG" value="ivory" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDch" role="M5hS2">
+      <property role="1uS6qo" value="jade" />
+      <property role="1uS6qv" value="jade" />
+      <property role="2fHolG" value="jade" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDci" role="M5hS2">
+      <property role="1uS6qo" value="jasper" />
+      <property role="1uS6qv" value="jasper" />
+      <property role="2fHolG" value="jasper" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDcj" role="M5hS2">
+      <property role="1uS6qo" value="jazzberryjam" />
+      <property role="1uS6qv" value="jazzberryjam" />
+      <property role="2fHolG" value="jazzberryjam" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDck" role="M5hS2">
+      <property role="1uS6qo" value="jonquil" />
+      <property role="1uS6qv" value="jonquil" />
+      <property role="2fHolG" value="jonquil" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDcl" role="M5hS2">
+      <property role="1uS6qo" value="junebud" />
+      <property role="1uS6qv" value="junebud" />
+      <property role="2fHolG" value="junebud" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDcm" role="M5hS2">
+      <property role="1uS6qo" value="junglegreen" />
+      <property role="1uS6qv" value="junglegreen" />
+      <property role="2fHolG" value="junglegreen" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDcn" role="M5hS2">
+      <property role="1uS6qo" value="kellygreen" />
+      <property role="1uS6qv" value="kellygreen" />
+      <property role="2fHolG" value="kellygreen" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDco" role="M5hS2">
+      <property role="1uS6qo" value="khakihtmlcsskhaki" />
+      <property role="1uS6qv" value="khakihtmlcsskhaki" />
+      <property role="2fHolG" value="khakihtmlcsskhaki" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDcp" role="M5hS2">
+      <property role="1uS6qo" value="khakix11lightkhaki" />
+      <property role="1uS6qv" value="khakix11lightkhaki" />
+      <property role="2fHolG" value="khakix11lightkhaki" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDcq" role="M5hS2">
+      <property role="1uS6qo" value="lasallegreen" />
+      <property role="1uS6qv" value="lasallegreen" />
+      <property role="2fHolG" value="lasallegreen" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDcr" role="M5hS2">
+      <property role="1uS6qo" value="languidlavender" />
+      <property role="1uS6qv" value="languidlavender" />
+      <property role="2fHolG" value="languidlavender" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDcs" role="M5hS2">
+      <property role="1uS6qo" value="lapislazuli" />
+      <property role="1uS6qv" value="lapislazuli" />
+      <property role="2fHolG" value="lapislazuli" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDct" role="M5hS2">
+      <property role="1uS6qo" value="laserlemon" />
+      <property role="1uS6qv" value="laserlemon" />
+      <property role="2fHolG" value="laserlemon" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDcu" role="M5hS2">
+      <property role="1uS6qo" value="lava" />
+      <property role="1uS6qv" value="lava" />
+      <property role="2fHolG" value="lava" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDcv" role="M5hS2">
+      <property role="1uS6qo" value="lavenderfloral" />
+      <property role="1uS6qv" value="lavenderfloral" />
+      <property role="2fHolG" value="lavenderfloral" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDcw" role="M5hS2">
+      <property role="1uS6qo" value="lavenderweb" />
+      <property role="1uS6qv" value="lavenderweb" />
+      <property role="2fHolG" value="lavenderweb" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDcx" role="M5hS2">
+      <property role="1uS6qo" value="lavenderblue" />
+      <property role="1uS6qv" value="lavenderblue" />
+      <property role="2fHolG" value="lavenderblue" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDcy" role="M5hS2">
+      <property role="1uS6qo" value="lavenderblush" />
+      <property role="1uS6qv" value="lavenderblush" />
+      <property role="2fHolG" value="lavenderblush" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDcz" role="M5hS2">
+      <property role="1uS6qo" value="lavendergray" />
+      <property role="1uS6qv" value="lavendergray" />
+      <property role="2fHolG" value="lavendergray" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDc$" role="M5hS2">
+      <property role="1uS6qo" value="lavenderindigo" />
+      <property role="1uS6qv" value="lavenderindigo" />
+      <property role="2fHolG" value="lavenderindigo" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDc_" role="M5hS2">
+      <property role="1uS6qo" value="lavendermagenta" />
+      <property role="1uS6qv" value="lavendermagenta" />
+      <property role="2fHolG" value="lavendermagenta" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDcA" role="M5hS2">
+      <property role="1uS6qo" value="lavendermist" />
+      <property role="1uS6qv" value="lavendermist" />
+      <property role="2fHolG" value="lavendermist" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDcB" role="M5hS2">
+      <property role="1uS6qo" value="lavenderpink" />
+      <property role="1uS6qv" value="lavenderpink" />
+      <property role="2fHolG" value="lavenderpink" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDcC" role="M5hS2">
+      <property role="1uS6qo" value="lavenderpurple" />
+      <property role="1uS6qv" value="lavenderpurple" />
+      <property role="2fHolG" value="lavenderpurple" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDcD" role="M5hS2">
+      <property role="1uS6qo" value="lavenderrose" />
+      <property role="1uS6qv" value="lavenderrose" />
+      <property role="2fHolG" value="lavenderrose" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDcE" role="M5hS2">
+      <property role="1uS6qo" value="lawngreen" />
+      <property role="1uS6qv" value="lawngreen" />
+      <property role="2fHolG" value="lawngreen" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDcF" role="M5hS2">
+      <property role="1uS6qo" value="lemon" />
+      <property role="1uS6qv" value="lemon" />
+      <property role="2fHolG" value="lemon" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDcG" role="M5hS2">
+      <property role="1uS6qo" value="lemonchiffon" />
+      <property role="1uS6qv" value="lemonchiffon" />
+      <property role="2fHolG" value="lemonchiffon" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDcH" role="M5hS2">
+      <property role="1uS6qo" value="lightapricot" />
+      <property role="1uS6qv" value="lightapricot" />
+      <property role="2fHolG" value="lightapricot" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDcI" role="M5hS2">
+      <property role="1uS6qo" value="lightblue" />
+      <property role="1uS6qv" value="lightblue" />
+      <property role="2fHolG" value="lightblue" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDcJ" role="M5hS2">
+      <property role="1uS6qo" value="lightbrown" />
+      <property role="1uS6qv" value="lightbrown" />
+      <property role="2fHolG" value="lightbrown" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDcK" role="M5hS2">
+      <property role="1uS6qo" value="lightcarminepink" />
+      <property role="1uS6qv" value="lightcarminepink" />
+      <property role="2fHolG" value="lightcarminepink" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDcL" role="M5hS2">
+      <property role="1uS6qo" value="lightcoral" />
+      <property role="1uS6qv" value="lightcoral" />
+      <property role="2fHolG" value="lightcoral" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDcM" role="M5hS2">
+      <property role="1uS6qo" value="lightcornflowerblue" />
+      <property role="1uS6qv" value="lightcornflowerblue" />
+      <property role="2fHolG" value="lightcornflowerblue" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDcN" role="M5hS2">
+      <property role="1uS6qo" value="lightcyan" />
+      <property role="1uS6qv" value="lightcyan" />
+      <property role="2fHolG" value="lightcyan" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDcO" role="M5hS2">
+      <property role="1uS6qo" value="lightfuchsiapink" />
+      <property role="1uS6qv" value="lightfuchsiapink" />
+      <property role="2fHolG" value="lightfuchsiapink" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDcP" role="M5hS2">
+      <property role="1uS6qo" value="lightgoldenrodyellow" />
+      <property role="1uS6qv" value="lightgoldenrodyellow" />
+      <property role="2fHolG" value="lightgoldenrodyellow" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDcQ" role="M5hS2">
+      <property role="1uS6qo" value="lightgray" />
+      <property role="1uS6qv" value="lightgray" />
+      <property role="2fHolG" value="lightgray" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDcR" role="M5hS2">
+      <property role="1uS6qo" value="lightgreen" />
+      <property role="1uS6qv" value="lightgreen" />
+      <property role="2fHolG" value="lightgreen" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDcS" role="M5hS2">
+      <property role="1uS6qo" value="lightkhaki" />
+      <property role="1uS6qv" value="lightkhaki" />
+      <property role="2fHolG" value="lightkhaki" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDcT" role="M5hS2">
+      <property role="1uS6qo" value="lightmauve" />
+      <property role="1uS6qv" value="lightmauve" />
+      <property role="2fHolG" value="lightmauve" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDcU" role="M5hS2">
+      <property role="1uS6qo" value="lightpastelpurple" />
+      <property role="1uS6qv" value="lightpastelpurple" />
+      <property role="2fHolG" value="lightpastelpurple" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDcV" role="M5hS2">
+      <property role="1uS6qo" value="lightpink" />
+      <property role="1uS6qv" value="lightpink" />
+      <property role="2fHolG" value="lightpink" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDcW" role="M5hS2">
+      <property role="1uS6qo" value="lightsalmon" />
+      <property role="1uS6qv" value="lightsalmon" />
+      <property role="2fHolG" value="lightsalmon" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDcX" role="M5hS2">
+      <property role="1uS6qo" value="lightsalmonpink" />
+      <property role="1uS6qv" value="lightsalmonpink" />
+      <property role="2fHolG" value="lightsalmonpink" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDcY" role="M5hS2">
+      <property role="1uS6qo" value="lightseagreen" />
+      <property role="1uS6qv" value="lightseagreen" />
+      <property role="2fHolG" value="lightseagreen" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDcZ" role="M5hS2">
+      <property role="1uS6qo" value="lightskyblue" />
+      <property role="1uS6qv" value="lightskyblue" />
+      <property role="2fHolG" value="lightskyblue" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDd0" role="M5hS2">
+      <property role="1uS6qo" value="lightslategray" />
+      <property role="1uS6qv" value="lightslategray" />
+      <property role="2fHolG" value="lightslategray" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDd1" role="M5hS2">
+      <property role="1uS6qo" value="lighttaupe" />
+      <property role="1uS6qv" value="lighttaupe" />
+      <property role="2fHolG" value="lighttaupe" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDd2" role="M5hS2">
+      <property role="1uS6qo" value="lightthulianpink" />
+      <property role="1uS6qv" value="lightthulianpink" />
+      <property role="2fHolG" value="lightthulianpink" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDd3" role="M5hS2">
+      <property role="1uS6qo" value="lightyellow" />
+      <property role="1uS6qv" value="lightyellow" />
+      <property role="2fHolG" value="lightyellow" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDd4" role="M5hS2">
+      <property role="1uS6qo" value="lilac" />
+      <property role="1uS6qv" value="lilac" />
+      <property role="2fHolG" value="lilac" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDd5" role="M5hS2">
+      <property role="1uS6qo" value="limecolorwheel" />
+      <property role="1uS6qv" value="limecolorwheel" />
+      <property role="2fHolG" value="limecolorwheel" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDd6" role="M5hS2">
+      <property role="1uS6qo" value="limewebx11green" />
+      <property role="1uS6qv" value="limewebx11green" />
+      <property role="2fHolG" value="limewebx11green" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDd7" role="M5hS2">
+      <property role="1uS6qo" value="limegreen" />
+      <property role="1uS6qv" value="limegreen" />
+      <property role="2fHolG" value="limegreen" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDd8" role="M5hS2">
+      <property role="1uS6qo" value="lincolngreen" />
+      <property role="1uS6qv" value="lincolngreen" />
+      <property role="2fHolG" value="lincolngreen" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDd9" role="M5hS2">
+      <property role="1uS6qo" value="linen" />
+      <property role="1uS6qv" value="linen" />
+      <property role="2fHolG" value="linen" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDda" role="M5hS2">
+      <property role="1uS6qo" value="liver" />
+      <property role="1uS6qv" value="liver" />
+      <property role="2fHolG" value="liver" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDdb" role="M5hS2">
+      <property role="1uS6qo" value="lust" />
+      <property role="1uS6qv" value="lust" />
+      <property role="2fHolG" value="lust" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDdc" role="M5hS2">
+      <property role="1uS6qo" value="macaroniandcheese" />
+      <property role="1uS6qv" value="macaroniandcheese" />
+      <property role="2fHolG" value="macaroniandcheese" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDdd" role="M5hS2">
+      <property role="1uS6qo" value="magenta" />
+      <property role="1uS6qv" value="magenta" />
+      <property role="2fHolG" value="magenta" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDde" role="M5hS2">
+      <property role="1uS6qo" value="magentadye" />
+      <property role="1uS6qv" value="magentadye" />
+      <property role="2fHolG" value="magentadye" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDdf" role="M5hS2">
+      <property role="1uS6qo" value="magentaprocess" />
+      <property role="1uS6qv" value="magentaprocess" />
+      <property role="2fHolG" value="magentaprocess" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDdg" role="M5hS2">
+      <property role="1uS6qo" value="magicmint" />
+      <property role="1uS6qv" value="magicmint" />
+      <property role="2fHolG" value="magicmint" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDdh" role="M5hS2">
+      <property role="1uS6qo" value="magnolia" />
+      <property role="1uS6qv" value="magnolia" />
+      <property role="2fHolG" value="magnolia" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDdi" role="M5hS2">
+      <property role="1uS6qo" value="mahogany" />
+      <property role="1uS6qv" value="mahogany" />
+      <property role="2fHolG" value="mahogany" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDdj" role="M5hS2">
+      <property role="1uS6qo" value="maize" />
+      <property role="1uS6qv" value="maize" />
+      <property role="2fHolG" value="maize" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDdk" role="M5hS2">
+      <property role="1uS6qo" value="majorelleblue" />
+      <property role="1uS6qv" value="majorelleblue" />
+      <property role="2fHolG" value="majorelleblue" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDdl" role="M5hS2">
+      <property role="1uS6qo" value="malachite" />
+      <property role="1uS6qv" value="malachite" />
+      <property role="2fHolG" value="malachite" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDdm" role="M5hS2">
+      <property role="1uS6qo" value="manatee" />
+      <property role="1uS6qv" value="manatee" />
+      <property role="2fHolG" value="manatee" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDdn" role="M5hS2">
+      <property role="1uS6qo" value="mangotango" />
+      <property role="1uS6qv" value="mangotango" />
+      <property role="2fHolG" value="mangotango" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDdo" role="M5hS2">
+      <property role="1uS6qo" value="maroonhtmlcss" />
+      <property role="1uS6qv" value="maroonhtmlcss" />
+      <property role="2fHolG" value="maroonhtmlcss" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDdp" role="M5hS2">
+      <property role="1uS6qo" value="maroonx11" />
+      <property role="1uS6qv" value="maroonx11" />
+      <property role="2fHolG" value="maroonx11" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDdq" role="M5hS2">
+      <property role="1uS6qo" value="mauve" />
+      <property role="1uS6qv" value="mauve" />
+      <property role="2fHolG" value="mauve" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDdr" role="M5hS2">
+      <property role="1uS6qo" value="mauvetaupe" />
+      <property role="1uS6qv" value="mauvetaupe" />
+      <property role="2fHolG" value="mauvetaupe" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDds" role="M5hS2">
+      <property role="1uS6qo" value="mauvelous" />
+      <property role="1uS6qv" value="mauvelous" />
+      <property role="2fHolG" value="mauvelous" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDdt" role="M5hS2">
+      <property role="1uS6qo" value="mayablue" />
+      <property role="1uS6qv" value="mayablue" />
+      <property role="2fHolG" value="mayablue" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDdu" role="M5hS2">
+      <property role="1uS6qo" value="meatbrown" />
+      <property role="1uS6qv" value="meatbrown" />
+      <property role="2fHolG" value="meatbrown" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDdv" role="M5hS2">
+      <property role="1uS6qo" value="mediumaquamarine" />
+      <property role="1uS6qv" value="mediumaquamarine" />
+      <property role="2fHolG" value="mediumaquamarine" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDdw" role="M5hS2">
+      <property role="1uS6qo" value="mediumblue" />
+      <property role="1uS6qv" value="mediumblue" />
+      <property role="2fHolG" value="mediumblue" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDdx" role="M5hS2">
+      <property role="1uS6qo" value="mediumcandyapplered" />
+      <property role="1uS6qv" value="mediumcandyapplered" />
+      <property role="2fHolG" value="mediumcandyapplered" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDdy" role="M5hS2">
+      <property role="1uS6qo" value="mediumcarmine" />
+      <property role="1uS6qv" value="mediumcarmine" />
+      <property role="2fHolG" value="mediumcarmine" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDdz" role="M5hS2">
+      <property role="1uS6qo" value="mediumelectricblue" />
+      <property role="1uS6qv" value="mediumelectricblue" />
+      <property role="2fHolG" value="mediumelectricblue" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDd$" role="M5hS2">
+      <property role="1uS6qo" value="mediumjunglegreen" />
+      <property role="1uS6qv" value="mediumjunglegreen" />
+      <property role="2fHolG" value="mediumjunglegreen" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDd_" role="M5hS2">
+      <property role="1uS6qo" value="mediumlavendermagenta" />
+      <property role="1uS6qv" value="mediumlavendermagenta" />
+      <property role="2fHolG" value="mediumlavendermagenta" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDdA" role="M5hS2">
+      <property role="1uS6qo" value="mediumorchid" />
+      <property role="1uS6qv" value="mediumorchid" />
+      <property role="2fHolG" value="mediumorchid" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDdB" role="M5hS2">
+      <property role="1uS6qo" value="mediumpersianblue" />
+      <property role="1uS6qv" value="mediumpersianblue" />
+      <property role="2fHolG" value="mediumpersianblue" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDdC" role="M5hS2">
+      <property role="1uS6qo" value="mediumpurple" />
+      <property role="1uS6qv" value="mediumpurple" />
+      <property role="2fHolG" value="mediumpurple" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDdD" role="M5hS2">
+      <property role="1uS6qo" value="mediumred-violet" />
+      <property role="1uS6qv" value="mediumred-violet" />
+      <property role="2fHolG" value="mediumred-violet" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDdE" role="M5hS2">
+      <property role="1uS6qo" value="mediumseagreen" />
+      <property role="1uS6qv" value="mediumseagreen" />
+      <property role="2fHolG" value="mediumseagreen" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDdF" role="M5hS2">
+      <property role="1uS6qo" value="mediumslateblue" />
+      <property role="1uS6qv" value="mediumslateblue" />
+      <property role="2fHolG" value="mediumslateblue" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDdG" role="M5hS2">
+      <property role="1uS6qo" value="mediumspringbud" />
+      <property role="1uS6qv" value="mediumspringbud" />
+      <property role="2fHolG" value="mediumspringbud" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDdH" role="M5hS2">
+      <property role="1uS6qo" value="mediumspringgreen" />
+      <property role="1uS6qv" value="mediumspringgreen" />
+      <property role="2fHolG" value="mediumspringgreen" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDdI" role="M5hS2">
+      <property role="1uS6qo" value="mediumtaupe" />
+      <property role="1uS6qv" value="mediumtaupe" />
+      <property role="2fHolG" value="mediumtaupe" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDdJ" role="M5hS2">
+      <property role="1uS6qo" value="mediumtealblue" />
+      <property role="1uS6qv" value="mediumtealblue" />
+      <property role="2fHolG" value="mediumtealblue" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDdK" role="M5hS2">
+      <property role="1uS6qo" value="mediumturquoise" />
+      <property role="1uS6qv" value="mediumturquoise" />
+      <property role="2fHolG" value="mediumturquoise" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDdL" role="M5hS2">
+      <property role="1uS6qo" value="mediumviolet-red" />
+      <property role="1uS6qv" value="mediumviolet-red" />
+      <property role="2fHolG" value="mediumviolet-red" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDdM" role="M5hS2">
+      <property role="1uS6qo" value="melon" />
+      <property role="1uS6qv" value="melon" />
+      <property role="2fHolG" value="melon" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDdN" role="M5hS2">
+      <property role="1uS6qo" value="midnightblue" />
+      <property role="1uS6qv" value="midnightblue" />
+      <property role="2fHolG" value="midnightblue" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDdO" role="M5hS2">
+      <property role="1uS6qo" value="midnightgreeneaglegreen" />
+      <property role="1uS6qv" value="midnightgreeneaglegreen" />
+      <property role="2fHolG" value="midnightgreeneaglegreen" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDdP" role="M5hS2">
+      <property role="1uS6qo" value="mikadoyellow" />
+      <property role="1uS6qv" value="mikadoyellow" />
+      <property role="2fHolG" value="mikadoyellow" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDdQ" role="M5hS2">
+      <property role="1uS6qo" value="mint" />
+      <property role="1uS6qv" value="mint" />
+      <property role="2fHolG" value="mint" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDdR" role="M5hS2">
+      <property role="1uS6qo" value="mintcream" />
+      <property role="1uS6qv" value="mintcream" />
+      <property role="2fHolG" value="mintcream" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDdS" role="M5hS2">
+      <property role="1uS6qo" value="mintgreen" />
+      <property role="1uS6qv" value="mintgreen" />
+      <property role="2fHolG" value="mintgreen" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDdT" role="M5hS2">
+      <property role="1uS6qo" value="mistyrose" />
+      <property role="1uS6qv" value="mistyrose" />
+      <property role="2fHolG" value="mistyrose" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDdU" role="M5hS2">
+      <property role="1uS6qo" value="moccasin" />
+      <property role="1uS6qv" value="moccasin" />
+      <property role="2fHolG" value="moccasin" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDdV" role="M5hS2">
+      <property role="1uS6qo" value="modebeige" />
+      <property role="1uS6qv" value="modebeige" />
+      <property role="2fHolG" value="modebeige" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDdW" role="M5hS2">
+      <property role="1uS6qo" value="moonstoneblue" />
+      <property role="1uS6qv" value="moonstoneblue" />
+      <property role="2fHolG" value="moonstoneblue" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDdX" role="M5hS2">
+      <property role="1uS6qo" value="mordantred19" />
+      <property role="1uS6qv" value="mordantred19" />
+      <property role="2fHolG" value="mordantred19" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDdY" role="M5hS2">
+      <property role="1uS6qo" value="mossgreen" />
+      <property role="1uS6qv" value="mossgreen" />
+      <property role="2fHolG" value="mossgreen" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDdZ" role="M5hS2">
+      <property role="1uS6qo" value="mountainmeadow" />
+      <property role="1uS6qv" value="mountainmeadow" />
+      <property role="2fHolG" value="mountainmeadow" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDe0" role="M5hS2">
+      <property role="1uS6qo" value="mountbattenpink" />
+      <property role="1uS6qv" value="mountbattenpink" />
+      <property role="2fHolG" value="mountbattenpink" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDe1" role="M5hS2">
+      <property role="1uS6qo" value="mulberry" />
+      <property role="1uS6qv" value="mulberry" />
+      <property role="2fHolG" value="mulberry" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDe2" role="M5hS2">
+      <property role="1uS6qo" value="mustard" />
+      <property role="1uS6qv" value="mustard" />
+      <property role="2fHolG" value="mustard" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDe3" role="M5hS2">
+      <property role="1uS6qo" value="myrtle" />
+      <property role="1uS6qv" value="myrtle" />
+      <property role="2fHolG" value="myrtle" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDe4" role="M5hS2">
+      <property role="1uS6qo" value="msugreen" />
+      <property role="1uS6qv" value="msugreen" />
+      <property role="2fHolG" value="msugreen" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDe5" role="M5hS2">
+      <property role="1uS6qo" value="nadeshikopink" />
+      <property role="1uS6qv" value="nadeshikopink" />
+      <property role="2fHolG" value="nadeshikopink" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDe6" role="M5hS2">
+      <property role="1uS6qo" value="napiergreen" />
+      <property role="1uS6qv" value="napiergreen" />
+      <property role="2fHolG" value="napiergreen" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDe8" role="M5hS2">
+      <property role="1uS6qo" value="naplesyellow" />
+      <property role="1uS6qv" value="naplesyellow" />
+      <property role="2fHolG" value="naplesyellow" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDe9" role="M5hS2">
+      <property role="1uS6qo" value="navajowhite" />
+      <property role="1uS6qv" value="navajowhite" />
+      <property role="2fHolG" value="navajowhite" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDea" role="M5hS2">
+      <property role="1uS6qo" value="navyblue" />
+      <property role="1uS6qv" value="navyblue" />
+      <property role="2fHolG" value="navyblue" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDeb" role="M5hS2">
+      <property role="1uS6qo" value="neoncarrot" />
+      <property role="1uS6qv" value="neoncarrot" />
+      <property role="2fHolG" value="neoncarrot" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDec" role="M5hS2">
+      <property role="1uS6qo" value="neonfuchsia" />
+      <property role="1uS6qv" value="neonfuchsia" />
+      <property role="2fHolG" value="neonfuchsia" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDed" role="M5hS2">
+      <property role="1uS6qo" value="neongreen" />
+      <property role="1uS6qv" value="neongreen" />
+      <property role="2fHolG" value="neongreen" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDee" role="M5hS2">
+      <property role="1uS6qo" value="non-photoblue" />
+      <property role="1uS6qv" value="non-photoblue" />
+      <property role="2fHolG" value="non-photoblue" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDef" role="M5hS2">
+      <property role="1uS6qo" value="oceanboatblue" />
+      <property role="1uS6qv" value="oceanboatblue" />
+      <property role="2fHolG" value="oceanboatblue" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDeg" role="M5hS2">
+      <property role="1uS6qo" value="ochre" />
+      <property role="1uS6qv" value="ochre" />
+      <property role="2fHolG" value="ochre" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDeh" role="M5hS2">
+      <property role="1uS6qo" value="officegreen" />
+      <property role="1uS6qv" value="officegreen" />
+      <property role="2fHolG" value="officegreen" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDei" role="M5hS2">
+      <property role="1uS6qo" value="oldgold" />
+      <property role="1uS6qv" value="oldgold" />
+      <property role="2fHolG" value="oldgold" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDej" role="M5hS2">
+      <property role="1uS6qo" value="oldlace" />
+      <property role="1uS6qv" value="oldlace" />
+      <property role="2fHolG" value="oldlace" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDek" role="M5hS2">
+      <property role="1uS6qo" value="oldlavender" />
+      <property role="1uS6qv" value="oldlavender" />
+      <property role="2fHolG" value="oldlavender" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDel" role="M5hS2">
+      <property role="1uS6qo" value="oldmauve" />
+      <property role="1uS6qv" value="oldmauve" />
+      <property role="2fHolG" value="oldmauve" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDem" role="M5hS2">
+      <property role="1uS6qo" value="oldrose" />
+      <property role="1uS6qv" value="oldrose" />
+      <property role="2fHolG" value="oldrose" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDen" role="M5hS2">
+      <property role="1uS6qo" value="olive" />
+      <property role="1uS6qv" value="olive" />
+      <property role="2fHolG" value="olive" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDeo" role="M5hS2">
+      <property role="1uS6qo" value="olivine" />
+      <property role="1uS6qv" value="olivine" />
+      <property role="2fHolG" value="olivine" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDep" role="M5hS2">
+      <property role="1uS6qo" value="onyx" />
+      <property role="1uS6qv" value="onyx" />
+      <property role="2fHolG" value="onyx" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDeq" role="M5hS2">
+      <property role="1uS6qo" value="operamauve" />
+      <property role="1uS6qv" value="operamauve" />
+      <property role="2fHolG" value="operamauve" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDer" role="M5hS2">
+      <property role="1uS6qo" value="orangecolorwheel" />
+      <property role="1uS6qv" value="orangecolorwheel" />
+      <property role="2fHolG" value="orangecolorwheel" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDes" role="M5hS2">
+      <property role="1uS6qo" value="orangeryb" />
+      <property role="1uS6qv" value="orangeryb" />
+      <property role="2fHolG" value="orangeryb" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDet" role="M5hS2">
+      <property role="1uS6qo" value="orangewebcolor" />
+      <property role="1uS6qv" value="orangewebcolor" />
+      <property role="2fHolG" value="orangewebcolor" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDeu" role="M5hS2">
+      <property role="1uS6qo" value="orangepeel" />
+      <property role="1uS6qv" value="orangepeel" />
+      <property role="2fHolG" value="orangepeel" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDev" role="M5hS2">
+      <property role="1uS6qo" value="orange-red" />
+      <property role="1uS6qv" value="orange-red" />
+      <property role="2fHolG" value="orange-red" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDew" role="M5hS2">
+      <property role="1uS6qo" value="orchid" />
+      <property role="1uS6qv" value="orchid" />
+      <property role="2fHolG" value="orchid" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDex" role="M5hS2">
+      <property role="1uS6qo" value="otterbrown" />
+      <property role="1uS6qv" value="otterbrown" />
+      <property role="2fHolG" value="otterbrown" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDey" role="M5hS2">
+      <property role="1uS6qo" value="outerspace" />
+      <property role="1uS6qv" value="outerspace" />
+      <property role="2fHolG" value="outerspace" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDez" role="M5hS2">
+      <property role="1uS6qo" value="outrageousorange" />
+      <property role="1uS6qv" value="outrageousorange" />
+      <property role="2fHolG" value="outrageousorange" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDe$" role="M5hS2">
+      <property role="1uS6qo" value="oxfordblue" />
+      <property role="1uS6qv" value="oxfordblue" />
+      <property role="2fHolG" value="oxfordblue" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDe_" role="M5hS2">
+      <property role="1uS6qo" value="oucrimsonred" />
+      <property role="1uS6qv" value="oucrimsonred" />
+      <property role="2fHolG" value="oucrimsonred" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDeA" role="M5hS2">
+      <property role="1uS6qo" value="pakistangreen" />
+      <property role="1uS6qv" value="pakistangreen" />
+      <property role="2fHolG" value="pakistangreen" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDeB" role="M5hS2">
+      <property role="1uS6qo" value="palatinateblue" />
+      <property role="1uS6qv" value="palatinateblue" />
+      <property role="2fHolG" value="palatinateblue" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDeC" role="M5hS2">
+      <property role="1uS6qo" value="palatinatepurple" />
+      <property role="1uS6qv" value="palatinatepurple" />
+      <property role="2fHolG" value="palatinatepurple" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDeD" role="M5hS2">
+      <property role="1uS6qo" value="paleaqua" />
+      <property role="1uS6qv" value="paleaqua" />
+      <property role="2fHolG" value="paleaqua" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDeE" role="M5hS2">
+      <property role="1uS6qo" value="paleblue" />
+      <property role="1uS6qv" value="paleblue" />
+      <property role="2fHolG" value="paleblue" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDeF" role="M5hS2">
+      <property role="1uS6qo" value="palebrown" />
+      <property role="1uS6qv" value="palebrown" />
+      <property role="2fHolG" value="palebrown" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDeG" role="M5hS2">
+      <property role="1uS6qo" value="palecarmine" />
+      <property role="1uS6qv" value="palecarmine" />
+      <property role="2fHolG" value="palecarmine" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDeH" role="M5hS2">
+      <property role="1uS6qo" value="palecerulean" />
+      <property role="1uS6qv" value="palecerulean" />
+      <property role="2fHolG" value="palecerulean" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDeI" role="M5hS2">
+      <property role="1uS6qo" value="palechestnut" />
+      <property role="1uS6qv" value="palechestnut" />
+      <property role="2fHolG" value="palechestnut" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDeJ" role="M5hS2">
+      <property role="1uS6qo" value="palecopper" />
+      <property role="1uS6qv" value="palecopper" />
+      <property role="2fHolG" value="palecopper" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDeK" role="M5hS2">
+      <property role="1uS6qo" value="palecornflowerblue" />
+      <property role="1uS6qv" value="palecornflowerblue" />
+      <property role="2fHolG" value="palecornflowerblue" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDeL" role="M5hS2">
+      <property role="1uS6qo" value="palegold" />
+      <property role="1uS6qv" value="palegold" />
+      <property role="2fHolG" value="palegold" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDeM" role="M5hS2">
+      <property role="1uS6qo" value="palegoldenrod" />
+      <property role="1uS6qv" value="palegoldenrod" />
+      <property role="2fHolG" value="palegoldenrod" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDeN" role="M5hS2">
+      <property role="1uS6qo" value="palegreen" />
+      <property role="1uS6qv" value="palegreen" />
+      <property role="2fHolG" value="palegreen" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDeO" role="M5hS2">
+      <property role="1uS6qo" value="palemagenta" />
+      <property role="1uS6qv" value="palemagenta" />
+      <property role="2fHolG" value="palemagenta" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDeP" role="M5hS2">
+      <property role="1uS6qo" value="palepink" />
+      <property role="1uS6qv" value="palepink" />
+      <property role="2fHolG" value="palepink" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDeQ" role="M5hS2">
+      <property role="1uS6qo" value="paleplum" />
+      <property role="1uS6qv" value="paleplum" />
+      <property role="2fHolG" value="paleplum" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDeR" role="M5hS2">
+      <property role="1uS6qo" value="palered-violet" />
+      <property role="1uS6qv" value="palered-violet" />
+      <property role="2fHolG" value="palered-violet" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDeS" role="M5hS2">
+      <property role="1uS6qo" value="palerobineggblue" />
+      <property role="1uS6qv" value="palerobineggblue" />
+      <property role="2fHolG" value="palerobineggblue" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDeT" role="M5hS2">
+      <property role="1uS6qo" value="palesilver" />
+      <property role="1uS6qv" value="palesilver" />
+      <property role="2fHolG" value="palesilver" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDeU" role="M5hS2">
+      <property role="1uS6qo" value="palespringbud" />
+      <property role="1uS6qv" value="palespringbud" />
+      <property role="2fHolG" value="palespringbud" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDeV" role="M5hS2">
+      <property role="1uS6qo" value="paletaupe" />
+      <property role="1uS6qv" value="paletaupe" />
+      <property role="2fHolG" value="paletaupe" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDeW" role="M5hS2">
+      <property role="1uS6qo" value="paleviolet-red" />
+      <property role="1uS6qv" value="paleviolet-red" />
+      <property role="2fHolG" value="paleviolet-red" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDeX" role="M5hS2">
+      <property role="1uS6qo" value="pansypurple" />
+      <property role="1uS6qv" value="pansypurple" />
+      <property role="2fHolG" value="pansypurple" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDeY" role="M5hS2">
+      <property role="1uS6qo" value="papayawhip" />
+      <property role="1uS6qv" value="papayawhip" />
+      <property role="2fHolG" value="papayawhip" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDeZ" role="M5hS2">
+      <property role="1uS6qo" value="parisgreen" />
+      <property role="1uS6qv" value="parisgreen" />
+      <property role="2fHolG" value="parisgreen" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDf0" role="M5hS2">
+      <property role="1uS6qo" value="pastelblue" />
+      <property role="1uS6qv" value="pastelblue" />
+      <property role="2fHolG" value="pastelblue" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDf1" role="M5hS2">
+      <property role="1uS6qo" value="pastelbrown" />
+      <property role="1uS6qv" value="pastelbrown" />
+      <property role="2fHolG" value="pastelbrown" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDf2" role="M5hS2">
+      <property role="1uS6qo" value="pastelgray" />
+      <property role="1uS6qv" value="pastelgray" />
+      <property role="2fHolG" value="pastelgray" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDf3" role="M5hS2">
+      <property role="1uS6qo" value="pastelgreen" />
+      <property role="1uS6qv" value="pastelgreen" />
+      <property role="2fHolG" value="pastelgreen" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDf4" role="M5hS2">
+      <property role="1uS6qo" value="pastelmagenta" />
+      <property role="1uS6qv" value="pastelmagenta" />
+      <property role="2fHolG" value="pastelmagenta" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDf5" role="M5hS2">
+      <property role="1uS6qo" value="pastelorange" />
+      <property role="1uS6qv" value="pastelorange" />
+      <property role="2fHolG" value="pastelorange" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDf6" role="M5hS2">
+      <property role="1uS6qo" value="pastelpink" />
+      <property role="1uS6qv" value="pastelpink" />
+      <property role="2fHolG" value="pastelpink" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDf7" role="M5hS2">
+      <property role="1uS6qo" value="pastelpurple" />
+      <property role="1uS6qv" value="pastelpurple" />
+      <property role="2fHolG" value="pastelpurple" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDf8" role="M5hS2">
+      <property role="1uS6qo" value="pastelred" />
+      <property role="1uS6qv" value="pastelred" />
+      <property role="2fHolG" value="pastelred" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDf9" role="M5hS2">
+      <property role="1uS6qo" value="pastelviolet" />
+      <property role="1uS6qv" value="pastelviolet" />
+      <property role="2fHolG" value="pastelviolet" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDfa" role="M5hS2">
+      <property role="1uS6qo" value="pastelyellow" />
+      <property role="1uS6qv" value="pastelyellow" />
+      <property role="2fHolG" value="pastelyellow" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDfb" role="M5hS2">
+      <property role="1uS6qo" value="patriarch" />
+      <property role="1uS6qv" value="patriarch" />
+      <property role="2fHolG" value="patriarch" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDfc" role="M5hS2">
+      <property role="1uS6qo" value="peach" />
+      <property role="1uS6qv" value="peach" />
+      <property role="2fHolG" value="peach" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDfd" role="M5hS2">
+      <property role="1uS6qo" value="peach-orange" />
+      <property role="1uS6qv" value="peach-orange" />
+      <property role="2fHolG" value="peach-orange" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDfe" role="M5hS2">
+      <property role="1uS6qo" value="peachpuff" />
+      <property role="1uS6qv" value="peachpuff" />
+      <property role="2fHolG" value="peachpuff" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDff" role="M5hS2">
+      <property role="1uS6qo" value="peach-yellow" />
+      <property role="1uS6qv" value="peach-yellow" />
+      <property role="2fHolG" value="peach-yellow" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDfg" role="M5hS2">
+      <property role="1uS6qo" value="pear" />
+      <property role="1uS6qv" value="pear" />
+      <property role="2fHolG" value="pear" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDfh" role="M5hS2">
+      <property role="1uS6qo" value="pearl" />
+      <property role="1uS6qv" value="pearl" />
+      <property role="2fHolG" value="pearl" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDfi" role="M5hS2">
+      <property role="1uS6qo" value="peridot" />
+      <property role="1uS6qv" value="peridot" />
+      <property role="2fHolG" value="peridot" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDfj" role="M5hS2">
+      <property role="1uS6qo" value="periwinkle" />
+      <property role="1uS6qv" value="periwinkle" />
+      <property role="2fHolG" value="periwinkle" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDfk" role="M5hS2">
+      <property role="1uS6qo" value="persianblue" />
+      <property role="1uS6qv" value="persianblue" />
+      <property role="2fHolG" value="persianblue" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDfl" role="M5hS2">
+      <property role="1uS6qo" value="persiangreen" />
+      <property role="1uS6qv" value="persiangreen" />
+      <property role="2fHolG" value="persiangreen" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDfm" role="M5hS2">
+      <property role="1uS6qo" value="persianindigo" />
+      <property role="1uS6qv" value="persianindigo" />
+      <property role="2fHolG" value="persianindigo" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDfn" role="M5hS2">
+      <property role="1uS6qo" value="persianorange" />
+      <property role="1uS6qv" value="persianorange" />
+      <property role="2fHolG" value="persianorange" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDfo" role="M5hS2">
+      <property role="1uS6qo" value="peru" />
+      <property role="1uS6qv" value="peru" />
+      <property role="2fHolG" value="peru" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDfp" role="M5hS2">
+      <property role="1uS6qo" value="persianpink" />
+      <property role="1uS6qv" value="persianpink" />
+      <property role="2fHolG" value="persianpink" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDfq" role="M5hS2">
+      <property role="1uS6qo" value="persianplum" />
+      <property role="1uS6qv" value="persianplum" />
+      <property role="2fHolG" value="persianplum" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDfr" role="M5hS2">
+      <property role="1uS6qo" value="persianred" />
+      <property role="1uS6qv" value="persianred" />
+      <property role="2fHolG" value="persianred" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDfs" role="M5hS2">
+      <property role="1uS6qo" value="persianrose" />
+      <property role="1uS6qv" value="persianrose" />
+      <property role="2fHolG" value="persianrose" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDft" role="M5hS2">
+      <property role="1uS6qo" value="persimmon" />
+      <property role="1uS6qv" value="persimmon" />
+      <property role="2fHolG" value="persimmon" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDfu" role="M5hS2">
+      <property role="1uS6qo" value="phlox" />
+      <property role="1uS6qv" value="phlox" />
+      <property role="2fHolG" value="phlox" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDfv" role="M5hS2">
+      <property role="1uS6qo" value="phthaloblue" />
+      <property role="1uS6qv" value="phthaloblue" />
+      <property role="2fHolG" value="phthaloblue" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDfw" role="M5hS2">
+      <property role="1uS6qo" value="phthalogreen" />
+      <property role="1uS6qv" value="phthalogreen" />
+      <property role="2fHolG" value="phthalogreen" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDfx" role="M5hS2">
+      <property role="1uS6qo" value="piggypink" />
+      <property role="1uS6qv" value="piggypink" />
+      <property role="2fHolG" value="piggypink" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDfy" role="M5hS2">
+      <property role="1uS6qo" value="pinegreen" />
+      <property role="1uS6qv" value="pinegreen" />
+      <property role="2fHolG" value="pinegreen" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDfz" role="M5hS2">
+      <property role="1uS6qo" value="pink" />
+      <property role="1uS6qv" value="pink" />
+      <property role="2fHolG" value="pink" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDf$" role="M5hS2">
+      <property role="1uS6qo" value="pink-orange" />
+      <property role="1uS6qv" value="pink-orange" />
+      <property role="2fHolG" value="pink-orange" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDf_" role="M5hS2">
+      <property role="1uS6qo" value="pinkpearl" />
+      <property role="1uS6qv" value="pinkpearl" />
+      <property role="2fHolG" value="pinkpearl" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDfA" role="M5hS2">
+      <property role="1uS6qo" value="pinksherbet" />
+      <property role="1uS6qv" value="pinksherbet" />
+      <property role="2fHolG" value="pinksherbet" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDfB" role="M5hS2">
+      <property role="1uS6qo" value="pistachio" />
+      <property role="1uS6qv" value="pistachio" />
+      <property role="2fHolG" value="pistachio" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDfC" role="M5hS2">
+      <property role="1uS6qo" value="platinum" />
+      <property role="1uS6qv" value="platinum" />
+      <property role="2fHolG" value="platinum" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDfD" role="M5hS2">
+      <property role="1uS6qo" value="plumtraditional" />
+      <property role="1uS6qv" value="plumtraditional" />
+      <property role="2fHolG" value="plumtraditional" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDfE" role="M5hS2">
+      <property role="1uS6qo" value="plumweb" />
+      <property role="1uS6qv" value="plumweb" />
+      <property role="2fHolG" value="plumweb" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDfF" role="M5hS2">
+      <property role="1uS6qo" value="portlandorange" />
+      <property role="1uS6qv" value="portlandorange" />
+      <property role="2fHolG" value="portlandorange" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDfG" role="M5hS2">
+      <property role="1uS6qo" value="powderblueweb" />
+      <property role="1uS6qv" value="powderblueweb" />
+      <property role="2fHolG" value="powderblueweb" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDfH" role="M5hS2">
+      <property role="1uS6qo" value="princetonorange" />
+      <property role="1uS6qv" value="princetonorange" />
+      <property role="2fHolG" value="princetonorange" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDfI" role="M5hS2">
+      <property role="1uS6qo" value="prune" />
+      <property role="1uS6qv" value="prune" />
+      <property role="2fHolG" value="prune" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDfJ" role="M5hS2">
+      <property role="1uS6qo" value="prussianblue" />
+      <property role="1uS6qv" value="prussianblue" />
+      <property role="2fHolG" value="prussianblue" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDfK" role="M5hS2">
+      <property role="1uS6qo" value="psychedelicpurple" />
+      <property role="1uS6qv" value="psychedelicpurple" />
+      <property role="2fHolG" value="psychedelicpurple" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDfL" role="M5hS2">
+      <property role="1uS6qo" value="puce" />
+      <property role="1uS6qv" value="puce" />
+      <property role="2fHolG" value="puce" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDfM" role="M5hS2">
+      <property role="1uS6qo" value="pumpkin" />
+      <property role="1uS6qv" value="pumpkin" />
+      <property role="2fHolG" value="pumpkin" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDfN" role="M5hS2">
+      <property role="1uS6qo" value="purplehtmlcss" />
+      <property role="1uS6qv" value="purplehtmlcss" />
+      <property role="2fHolG" value="purplehtmlcss" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDfO" role="M5hS2">
+      <property role="1uS6qo" value="purplemunsell" />
+      <property role="1uS6qv" value="purplemunsell" />
+      <property role="2fHolG" value="purplemunsell" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDfP" role="M5hS2">
+      <property role="1uS6qo" value="purplex11" />
+      <property role="1uS6qv" value="purplex11" />
+      <property role="2fHolG" value="purplex11" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDfQ" role="M5hS2">
+      <property role="1uS6qo" value="purpleheart" />
+      <property role="1uS6qv" value="purpleheart" />
+      <property role="2fHolG" value="purpleheart" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDfR" role="M5hS2">
+      <property role="1uS6qo" value="purplemountainmajesty" />
+      <property role="1uS6qv" value="purplemountainmajesty" />
+      <property role="2fHolG" value="purplemountainmajesty" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDfS" role="M5hS2">
+      <property role="1uS6qo" value="purplepizzazz" />
+      <property role="1uS6qv" value="purplepizzazz" />
+      <property role="2fHolG" value="purplepizzazz" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDfT" role="M5hS2">
+      <property role="1uS6qo" value="purpletaupe" />
+      <property role="1uS6qv" value="purpletaupe" />
+      <property role="2fHolG" value="purpletaupe" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDfU" role="M5hS2">
+      <property role="1uS6qo" value="radicalred" />
+      <property role="1uS6qv" value="radicalred" />
+      <property role="2fHolG" value="radicalred" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDfV" role="M5hS2">
+      <property role="1uS6qo" value="raspberry" />
+      <property role="1uS6qv" value="raspberry" />
+      <property role="2fHolG" value="raspberry" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDfW" role="M5hS2">
+      <property role="1uS6qo" value="raspberryglace" />
+      <property role="1uS6qv" value="raspberryglace" />
+      <property role="2fHolG" value="raspberryglace" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDfX" role="M5hS2">
+      <property role="1uS6qo" value="raspberrypink" />
+      <property role="1uS6qv" value="raspberrypink" />
+      <property role="2fHolG" value="raspberrypink" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDfY" role="M5hS2">
+      <property role="1uS6qo" value="raspberryrose" />
+      <property role="1uS6qv" value="raspberryrose" />
+      <property role="2fHolG" value="raspberryrose" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDfZ" role="M5hS2">
+      <property role="1uS6qo" value="rawumber" />
+      <property role="1uS6qv" value="rawumber" />
+      <property role="2fHolG" value="rawumber" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDg0" role="M5hS2">
+      <property role="1uS6qo" value="razzledazzlerose" />
+      <property role="1uS6qv" value="razzledazzlerose" />
+      <property role="2fHolG" value="razzledazzlerose" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDg1" role="M5hS2">
+      <property role="1uS6qo" value="razzmatazz" />
+      <property role="1uS6qv" value="razzmatazz" />
+      <property role="2fHolG" value="razzmatazz" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDg2" role="M5hS2">
+      <property role="1uS6qo" value="red" />
+      <property role="1uS6qv" value="red" />
+      <property role="2fHolG" value="red" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDg3" role="M5hS2">
+      <property role="1uS6qo" value="redmunsell" />
+      <property role="1uS6qv" value="redmunsell" />
+      <property role="2fHolG" value="redmunsell" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDg4" role="M5hS2">
+      <property role="1uS6qo" value="redncs" />
+      <property role="1uS6qv" value="redncs" />
+      <property role="2fHolG" value="redncs" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDg5" role="M5hS2">
+      <property role="1uS6qo" value="redpigment" />
+      <property role="1uS6qv" value="redpigment" />
+      <property role="2fHolG" value="redpigment" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDg6" role="M5hS2">
+      <property role="1uS6qo" value="redryb" />
+      <property role="1uS6qv" value="redryb" />
+      <property role="2fHolG" value="redryb" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDg7" role="M5hS2">
+      <property role="1uS6qo" value="red-brown" />
+      <property role="1uS6qv" value="red-brown" />
+      <property role="2fHolG" value="red-brown" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDg8" role="M5hS2">
+      <property role="1uS6qo" value="red-violet" />
+      <property role="1uS6qv" value="red-violet" />
+      <property role="2fHolG" value="red-violet" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDg9" role="M5hS2">
+      <property role="1uS6qo" value="redwood" />
+      <property role="1uS6qv" value="redwood" />
+      <property role="2fHolG" value="redwood" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDga" role="M5hS2">
+      <property role="1uS6qo" value="regalia" />
+      <property role="1uS6qv" value="regalia" />
+      <property role="2fHolG" value="regalia" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDgb" role="M5hS2">
+      <property role="1uS6qo" value="richblack" />
+      <property role="1uS6qv" value="richblack" />
+      <property role="2fHolG" value="richblack" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDgc" role="M5hS2">
+      <property role="1uS6qo" value="richbrilliantlavender" />
+      <property role="1uS6qv" value="richbrilliantlavender" />
+      <property role="2fHolG" value="richbrilliantlavender" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDgd" role="M5hS2">
+      <property role="1uS6qo" value="richcarmine" />
+      <property role="1uS6qv" value="richcarmine" />
+      <property role="2fHolG" value="richcarmine" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDge" role="M5hS2">
+      <property role="1uS6qo" value="richelectricblue" />
+      <property role="1uS6qv" value="richelectricblue" />
+      <property role="2fHolG" value="richelectricblue" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDgf" role="M5hS2">
+      <property role="1uS6qo" value="richlavender" />
+      <property role="1uS6qv" value="richlavender" />
+      <property role="2fHolG" value="richlavender" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDgg" role="M5hS2">
+      <property role="1uS6qo" value="richlilac" />
+      <property role="1uS6qv" value="richlilac" />
+      <property role="2fHolG" value="richlilac" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDgh" role="M5hS2">
+      <property role="1uS6qo" value="richmaroon" />
+      <property role="1uS6qv" value="richmaroon" />
+      <property role="2fHolG" value="richmaroon" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDgi" role="M5hS2">
+      <property role="1uS6qo" value="riflegreen" />
+      <property role="1uS6qv" value="riflegreen" />
+      <property role="2fHolG" value="riflegreen" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDgj" role="M5hS2">
+      <property role="1uS6qo" value="robineggblue" />
+      <property role="1uS6qv" value="robineggblue" />
+      <property role="2fHolG" value="robineggblue" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDgk" role="M5hS2">
+      <property role="1uS6qo" value="rose" />
+      <property role="1uS6qv" value="rose" />
+      <property role="2fHolG" value="rose" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDgl" role="M5hS2">
+      <property role="1uS6qo" value="rosebonbon" />
+      <property role="1uS6qv" value="rosebonbon" />
+      <property role="2fHolG" value="rosebonbon" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDgm" role="M5hS2">
+      <property role="1uS6qo" value="roseebony" />
+      <property role="1uS6qv" value="roseebony" />
+      <property role="2fHolG" value="roseebony" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDgn" role="M5hS2">
+      <property role="1uS6qo" value="rosegold" />
+      <property role="1uS6qv" value="rosegold" />
+      <property role="2fHolG" value="rosegold" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDgo" role="M5hS2">
+      <property role="1uS6qo" value="rosemadder" />
+      <property role="1uS6qv" value="rosemadder" />
+      <property role="2fHolG" value="rosemadder" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDgp" role="M5hS2">
+      <property role="1uS6qo" value="rosepink" />
+      <property role="1uS6qv" value="rosepink" />
+      <property role="2fHolG" value="rosepink" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDgq" role="M5hS2">
+      <property role="1uS6qo" value="rosequartz" />
+      <property role="1uS6qv" value="rosequartz" />
+      <property role="2fHolG" value="rosequartz" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDgr" role="M5hS2">
+      <property role="1uS6qo" value="rosetaupe" />
+      <property role="1uS6qv" value="rosetaupe" />
+      <property role="2fHolG" value="rosetaupe" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDgs" role="M5hS2">
+      <property role="1uS6qo" value="rosevale" />
+      <property role="1uS6qv" value="rosevale" />
+      <property role="2fHolG" value="rosevale" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDgt" role="M5hS2">
+      <property role="1uS6qo" value="rosewood" />
+      <property role="1uS6qv" value="rosewood" />
+      <property role="2fHolG" value="rosewood" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDgu" role="M5hS2">
+      <property role="1uS6qo" value="rossocorsa" />
+      <property role="1uS6qv" value="rossocorsa" />
+      <property role="2fHolG" value="rossocorsa" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDgv" role="M5hS2">
+      <property role="1uS6qo" value="rosybrown" />
+      <property role="1uS6qv" value="rosybrown" />
+      <property role="2fHolG" value="rosybrown" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDgw" role="M5hS2">
+      <property role="1uS6qo" value="royalazure" />
+      <property role="1uS6qv" value="royalazure" />
+      <property role="2fHolG" value="royalazure" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDgx" role="M5hS2">
+      <property role="1uS6qo" value="royalbluetraditional" />
+      <property role="1uS6qv" value="royalbluetraditional" />
+      <property role="2fHolG" value="royalbluetraditional" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDgy" role="M5hS2">
+      <property role="1uS6qo" value="royalblueweb" />
+      <property role="1uS6qv" value="royalblueweb" />
+      <property role="2fHolG" value="royalblueweb" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDgz" role="M5hS2">
+      <property role="1uS6qo" value="royalfuchsia" />
+      <property role="1uS6qv" value="royalfuchsia" />
+      <property role="2fHolG" value="royalfuchsia" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDg$" role="M5hS2">
+      <property role="1uS6qo" value="royalpurple" />
+      <property role="1uS6qv" value="royalpurple" />
+      <property role="2fHolG" value="royalpurple" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDg_" role="M5hS2">
+      <property role="1uS6qo" value="ruby" />
+      <property role="1uS6qv" value="ruby" />
+      <property role="2fHolG" value="ruby" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDgA" role="M5hS2">
+      <property role="1uS6qo" value="ruddy" />
+      <property role="1uS6qv" value="ruddy" />
+      <property role="2fHolG" value="ruddy" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDgB" role="M5hS2">
+      <property role="1uS6qo" value="ruddybrown" />
+      <property role="1uS6qv" value="ruddybrown" />
+      <property role="2fHolG" value="ruddybrown" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDgC" role="M5hS2">
+      <property role="1uS6qo" value="ruddypink" />
+      <property role="1uS6qv" value="ruddypink" />
+      <property role="2fHolG" value="ruddypink" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDgD" role="M5hS2">
+      <property role="1uS6qo" value="rufous" />
+      <property role="1uS6qv" value="rufous" />
+      <property role="2fHolG" value="rufous" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDgE" role="M5hS2">
+      <property role="1uS6qo" value="russet" />
+      <property role="1uS6qv" value="russet" />
+      <property role="2fHolG" value="russet" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDgF" role="M5hS2">
+      <property role="1uS6qo" value="rust" />
+      <property role="1uS6qv" value="rust" />
+      <property role="2fHolG" value="rust" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDgG" role="M5hS2">
+      <property role="1uS6qo" value="sacramentostategreen" />
+      <property role="1uS6qv" value="sacramentostategreen" />
+      <property role="2fHolG" value="sacramentostategreen" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDgH" role="M5hS2">
+      <property role="1uS6qo" value="saddlebrown" />
+      <property role="1uS6qv" value="saddlebrown" />
+      <property role="2fHolG" value="saddlebrown" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDgI" role="M5hS2">
+      <property role="1uS6qo" value="safetyorangeblazeorange" />
+      <property role="1uS6qv" value="safetyorangeblazeorange" />
+      <property role="2fHolG" value="safetyorangeblazeorange" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDgJ" role="M5hS2">
+      <property role="1uS6qo" value="saffron" />
+      <property role="1uS6qv" value="saffron" />
+      <property role="2fHolG" value="saffron" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDgK" role="M5hS2">
+      <property role="1uS6qo" value="salmon" />
+      <property role="1uS6qv" value="salmon" />
+      <property role="2fHolG" value="salmon" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDgL" role="M5hS2">
+      <property role="1uS6qo" value="salmonpink" />
+      <property role="1uS6qv" value="salmonpink" />
+      <property role="2fHolG" value="salmonpink" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDgM" role="M5hS2">
+      <property role="1uS6qo" value="sand" />
+      <property role="1uS6qv" value="sand" />
+      <property role="2fHolG" value="sand" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDgN" role="M5hS2">
+      <property role="1uS6qo" value="sanddune" />
+      <property role="1uS6qv" value="sanddune" />
+      <property role="2fHolG" value="sanddune" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDgO" role="M5hS2">
+      <property role="1uS6qo" value="sandstorm" />
+      <property role="1uS6qv" value="sandstorm" />
+      <property role="2fHolG" value="sandstorm" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDgP" role="M5hS2">
+      <property role="1uS6qo" value="sandybrown" />
+      <property role="1uS6qv" value="sandybrown" />
+      <property role="2fHolG" value="sandybrown" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDgQ" role="M5hS2">
+      <property role="1uS6qo" value="sandytaupe" />
+      <property role="1uS6qv" value="sandytaupe" />
+      <property role="2fHolG" value="sandytaupe" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDgR" role="M5hS2">
+      <property role="1uS6qo" value="sangria" />
+      <property role="1uS6qv" value="sangria" />
+      <property role="2fHolG" value="sangria" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDgS" role="M5hS2">
+      <property role="1uS6qo" value="sapgreen" />
+      <property role="1uS6qv" value="sapgreen" />
+      <property role="2fHolG" value="sapgreen" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDgT" role="M5hS2">
+      <property role="1uS6qo" value="sapphire" />
+      <property role="1uS6qv" value="sapphire" />
+      <property role="2fHolG" value="sapphire" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDgU" role="M5hS2">
+      <property role="1uS6qo" value="satinsheengold" />
+      <property role="1uS6qv" value="satinsheengold" />
+      <property role="2fHolG" value="satinsheengold" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDgV" role="M5hS2">
+      <property role="1uS6qo" value="scarlet" />
+      <property role="1uS6qv" value="scarlet" />
+      <property role="2fHolG" value="scarlet" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDgW" role="M5hS2">
+      <property role="1uS6qo" value="schoolbusyellow" />
+      <property role="1uS6qv" value="schoolbusyellow" />
+      <property role="2fHolG" value="schoolbusyellow" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDgX" role="M5hS2">
+      <property role="1uS6qo" value="screamingreen" />
+      <property role="1uS6qv" value="screamingreen" />
+      <property role="2fHolG" value="screamingreen" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDgY" role="M5hS2">
+      <property role="1uS6qo" value="seagreen" />
+      <property role="1uS6qv" value="seagreen" />
+      <property role="2fHolG" value="seagreen" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDgZ" role="M5hS2">
+      <property role="1uS6qo" value="sealbrown" />
+      <property role="1uS6qv" value="sealbrown" />
+      <property role="2fHolG" value="sealbrown" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDh0" role="M5hS2">
+      <property role="1uS6qo" value="seashell" />
+      <property role="1uS6qv" value="seashell" />
+      <property role="2fHolG" value="seashell" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDh1" role="M5hS2">
+      <property role="1uS6qo" value="selectiveyellow" />
+      <property role="1uS6qv" value="selectiveyellow" />
+      <property role="2fHolG" value="selectiveyellow" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDh2" role="M5hS2">
+      <property role="1uS6qo" value="sepia" />
+      <property role="1uS6qv" value="sepia" />
+      <property role="2fHolG" value="sepia" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDh3" role="M5hS2">
+      <property role="1uS6qo" value="shadow" />
+      <property role="1uS6qv" value="shadow" />
+      <property role="2fHolG" value="shadow" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDh4" role="M5hS2">
+      <property role="1uS6qo" value="shamrockgreen" />
+      <property role="1uS6qv" value="shamrockgreen" />
+      <property role="2fHolG" value="shamrockgreen" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDh5" role="M5hS2">
+      <property role="1uS6qo" value="shockingpink" />
+      <property role="1uS6qv" value="shockingpink" />
+      <property role="2fHolG" value="shockingpink" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDh6" role="M5hS2">
+      <property role="1uS6qo" value="sienna" />
+      <property role="1uS6qv" value="sienna" />
+      <property role="2fHolG" value="sienna" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDh7" role="M5hS2">
+      <property role="1uS6qo" value="silver" />
+      <property role="1uS6qv" value="silver" />
+      <property role="2fHolG" value="silver" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDh8" role="M5hS2">
+      <property role="1uS6qo" value="sinopia" />
+      <property role="1uS6qv" value="sinopia" />
+      <property role="2fHolG" value="sinopia" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDh9" role="M5hS2">
+      <property role="1uS6qo" value="skobeloff" />
+      <property role="1uS6qv" value="skobeloff" />
+      <property role="2fHolG" value="skobeloff" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDha" role="M5hS2">
+      <property role="1uS6qo" value="skyblue" />
+      <property role="1uS6qv" value="skyblue" />
+      <property role="2fHolG" value="skyblue" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDhb" role="M5hS2">
+      <property role="1uS6qo" value="skymagenta" />
+      <property role="1uS6qv" value="skymagenta" />
+      <property role="2fHolG" value="skymagenta" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDhc" role="M5hS2">
+      <property role="1uS6qo" value="slateblue" />
+      <property role="1uS6qv" value="slateblue" />
+      <property role="2fHolG" value="slateblue" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDhd" role="M5hS2">
+      <property role="1uS6qo" value="slategray" />
+      <property role="1uS6qv" value="slategray" />
+      <property role="2fHolG" value="slategray" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDhe" role="M5hS2">
+      <property role="1uS6qo" value="smaltdarkpowderblue" />
+      <property role="1uS6qv" value="smaltdarkpowderblue" />
+      <property role="2fHolG" value="smaltdarkpowderblue" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDhf" role="M5hS2">
+      <property role="1uS6qo" value="smokeytopaz" />
+      <property role="1uS6qv" value="smokeytopaz" />
+      <property role="2fHolG" value="smokeytopaz" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDhg" role="M5hS2">
+      <property role="1uS6qo" value="smokyblack" />
+      <property role="1uS6qv" value="smokyblack" />
+      <property role="2fHolG" value="smokyblack" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDhh" role="M5hS2">
+      <property role="1uS6qo" value="snow" />
+      <property role="1uS6qv" value="snow" />
+      <property role="2fHolG" value="snow" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDhi" role="M5hS2">
+      <property role="1uS6qo" value="spirodiscoball" />
+      <property role="1uS6qv" value="spirodiscoball" />
+      <property role="2fHolG" value="spirodiscoball" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDhj" role="M5hS2">
+      <property role="1uS6qo" value="splashedwhite" />
+      <property role="1uS6qv" value="splashedwhite" />
+      <property role="2fHolG" value="splashedwhite" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDhk" role="M5hS2">
+      <property role="1uS6qo" value="springbud" />
+      <property role="1uS6qv" value="springbud" />
+      <property role="2fHolG" value="springbud" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDhl" role="M5hS2">
+      <property role="1uS6qo" value="springgreen" />
+      <property role="1uS6qv" value="springgreen" />
+      <property role="2fHolG" value="springgreen" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDhm" role="M5hS2">
+      <property role="1uS6qo" value="steelblue" />
+      <property role="1uS6qv" value="steelblue" />
+      <property role="2fHolG" value="steelblue" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDhn" role="M5hS2">
+      <property role="1uS6qo" value="stildegrainyellow" />
+      <property role="1uS6qv" value="stildegrainyellow" />
+      <property role="2fHolG" value="stildegrainyellow" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDho" role="M5hS2">
+      <property role="1uS6qo" value="straw" />
+      <property role="1uS6qv" value="straw" />
+      <property role="2fHolG" value="straw" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDhp" role="M5hS2">
+      <property role="1uS6qo" value="sunglow" />
+      <property role="1uS6qv" value="sunglow" />
+      <property role="2fHolG" value="sunglow" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDhq" role="M5hS2">
+      <property role="1uS6qo" value="sunset" />
+      <property role="1uS6qv" value="sunset" />
+      <property role="2fHolG" value="sunset" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDhr" role="M5hS2">
+      <property role="1uS6qo" value="tan" />
+      <property role="1uS6qv" value="tan" />
+      <property role="2fHolG" value="tan" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDhs" role="M5hS2">
+      <property role="1uS6qo" value="tangelo" />
+      <property role="1uS6qv" value="tangelo" />
+      <property role="2fHolG" value="tangelo" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDht" role="M5hS2">
+      <property role="1uS6qo" value="tangerine" />
+      <property role="1uS6qv" value="tangerine" />
+      <property role="2fHolG" value="tangerine" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDhu" role="M5hS2">
+      <property role="1uS6qo" value="tangerineyellow" />
+      <property role="1uS6qv" value="tangerineyellow" />
+      <property role="2fHolG" value="tangerineyellow" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDhv" role="M5hS2">
+      <property role="1uS6qo" value="taupe" />
+      <property role="1uS6qv" value="taupe" />
+      <property role="2fHolG" value="taupe" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDhw" role="M5hS2">
+      <property role="1uS6qo" value="taupegray" />
+      <property role="1uS6qv" value="taupegray" />
+      <property role="2fHolG" value="taupegray" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDhx" role="M5hS2">
+      <property role="1uS6qo" value="teagreen" />
+      <property role="1uS6qv" value="teagreen" />
+      <property role="2fHolG" value="teagreen" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDhy" role="M5hS2">
+      <property role="1uS6qo" value="tearoseorange" />
+      <property role="1uS6qv" value="tearoseorange" />
+      <property role="2fHolG" value="tearoseorange" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDhz" role="M5hS2">
+      <property role="1uS6qo" value="tearoserose" />
+      <property role="1uS6qv" value="tearoserose" />
+      <property role="2fHolG" value="tearoserose" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDh$" role="M5hS2">
+      <property role="1uS6qo" value="teal" />
+      <property role="1uS6qv" value="teal" />
+      <property role="2fHolG" value="teal" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDh_" role="M5hS2">
+      <property role="1uS6qo" value="tealblue" />
+      <property role="1uS6qv" value="tealblue" />
+      <property role="2fHolG" value="tealblue" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDhA" role="M5hS2">
+      <property role="1uS6qo" value="tealgreen" />
+      <property role="1uS6qv" value="tealgreen" />
+      <property role="2fHolG" value="tealgreen" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDhB" role="M5hS2">
+      <property role="1uS6qo" value="terracotta" />
+      <property role="1uS6qv" value="terracotta" />
+      <property role="2fHolG" value="terracotta" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDhC" role="M5hS2">
+      <property role="1uS6qo" value="thistle" />
+      <property role="1uS6qv" value="thistle" />
+      <property role="2fHolG" value="thistle" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDhD" role="M5hS2">
+      <property role="1uS6qo" value="thulianpink" />
+      <property role="1uS6qv" value="thulianpink" />
+      <property role="2fHolG" value="thulianpink" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDhE" role="M5hS2">
+      <property role="1uS6qo" value="ticklemepink" />
+      <property role="1uS6qv" value="ticklemepink" />
+      <property role="2fHolG" value="ticklemepink" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDhF" role="M5hS2">
+      <property role="1uS6qo" value="tiffanyblue" />
+      <property role="1uS6qv" value="tiffanyblue" />
+      <property role="2fHolG" value="tiffanyblue" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDhG" role="M5hS2">
+      <property role="1uS6qo" value="timberwolf" />
+      <property role="1uS6qv" value="timberwolf" />
+      <property role="2fHolG" value="timberwolf" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDhH" role="M5hS2">
+      <property role="1uS6qo" value="titaniumyellow" />
+      <property role="1uS6qv" value="titaniumyellow" />
+      <property role="2fHolG" value="titaniumyellow" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDhI" role="M5hS2">
+      <property role="1uS6qo" value="tomato" />
+      <property role="1uS6qv" value="tomato" />
+      <property role="2fHolG" value="tomato" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDhJ" role="M5hS2">
+      <property role="1uS6qo" value="toolbox" />
+      <property role="1uS6qv" value="toolbox" />
+      <property role="2fHolG" value="toolbox" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDhK" role="M5hS2">
+      <property role="1uS6qo" value="tractorred" />
+      <property role="1uS6qv" value="tractorred" />
+      <property role="2fHolG" value="tractorred" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDhL" role="M5hS2">
+      <property role="1uS6qo" value="trolleygrey" />
+      <property role="1uS6qv" value="trolleygrey" />
+      <property role="2fHolG" value="trolleygrey" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDhM" role="M5hS2">
+      <property role="1uS6qo" value="tropicalrainforest" />
+      <property role="1uS6qv" value="tropicalrainforest" />
+      <property role="2fHolG" value="tropicalrainforest" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDhN" role="M5hS2">
+      <property role="1uS6qo" value="trueblue" />
+      <property role="1uS6qv" value="trueblue" />
+      <property role="2fHolG" value="trueblue" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDhO" role="M5hS2">
+      <property role="1uS6qo" value="tuftsblue" />
+      <property role="1uS6qv" value="tuftsblue" />
+      <property role="2fHolG" value="tuftsblue" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDhP" role="M5hS2">
+      <property role="1uS6qo" value="tumbleweed" />
+      <property role="1uS6qv" value="tumbleweed" />
+      <property role="2fHolG" value="tumbleweed" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDhQ" role="M5hS2">
+      <property role="1uS6qo" value="turkishrose" />
+      <property role="1uS6qv" value="turkishrose" />
+      <property role="2fHolG" value="turkishrose" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDhR" role="M5hS2">
+      <property role="1uS6qo" value="turquoise" />
+      <property role="1uS6qv" value="turquoise" />
+      <property role="2fHolG" value="turquoise" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDhS" role="M5hS2">
+      <property role="1uS6qo" value="turquoiseblue" />
+      <property role="1uS6qv" value="turquoiseblue" />
+      <property role="2fHolG" value="turquoiseblue" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDhT" role="M5hS2">
+      <property role="1uS6qo" value="turquoisegreen" />
+      <property role="1uS6qv" value="turquoisegreen" />
+      <property role="2fHolG" value="turquoisegreen" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDhU" role="M5hS2">
+      <property role="1uS6qo" value="tuscanred" />
+      <property role="1uS6qv" value="tuscanred" />
+      <property role="2fHolG" value="tuscanred" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDhV" role="M5hS2">
+      <property role="1uS6qo" value="twilightlavender" />
+      <property role="1uS6qv" value="twilightlavender" />
+      <property role="2fHolG" value="twilightlavender" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDhW" role="M5hS2">
+      <property role="1uS6qo" value="tyrianpurple" />
+      <property role="1uS6qv" value="tyrianpurple" />
+      <property role="2fHolG" value="tyrianpurple" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDhX" role="M5hS2">
+      <property role="1uS6qo" value="uablue" />
+      <property role="1uS6qv" value="uablue" />
+      <property role="2fHolG" value="uablue" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDhY" role="M5hS2">
+      <property role="1uS6qo" value="uared" />
+      <property role="1uS6qv" value="uared" />
+      <property role="2fHolG" value="uared" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDhZ" role="M5hS2">
+      <property role="1uS6qo" value="ube" />
+      <property role="1uS6qv" value="ube" />
+      <property role="2fHolG" value="ube" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDi0" role="M5hS2">
+      <property role="1uS6qo" value="uclablue" />
+      <property role="1uS6qv" value="uclablue" />
+      <property role="2fHolG" value="uclablue" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDi1" role="M5hS2">
+      <property role="1uS6qo" value="uclagold" />
+      <property role="1uS6qv" value="uclagold" />
+      <property role="2fHolG" value="uclagold" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDi2" role="M5hS2">
+      <property role="1uS6qo" value="ufogreen" />
+      <property role="1uS6qv" value="ufogreen" />
+      <property role="2fHolG" value="ufogreen" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDi3" role="M5hS2">
+      <property role="1uS6qo" value="ultramarine" />
+      <property role="1uS6qv" value="ultramarine" />
+      <property role="2fHolG" value="ultramarine" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDi4" role="M5hS2">
+      <property role="1uS6qo" value="ultramarineblue" />
+      <property role="1uS6qv" value="ultramarineblue" />
+      <property role="2fHolG" value="ultramarineblue" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDi5" role="M5hS2">
+      <property role="1uS6qo" value="ultrapink" />
+      <property role="1uS6qv" value="ultrapink" />
+      <property role="2fHolG" value="ultrapink" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDi6" role="M5hS2">
+      <property role="1uS6qo" value="umber" />
+      <property role="1uS6qv" value="umber" />
+      <property role="2fHolG" value="umber" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDi7" role="M5hS2">
+      <property role="1uS6qo" value="unitednationsblue" />
+      <property role="1uS6qv" value="unitednationsblue" />
+      <property role="2fHolG" value="unitednationsblue" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDi8" role="M5hS2">
+      <property role="1uS6qo" value="unmellowyellow" />
+      <property role="1uS6qv" value="unmellowyellow" />
+      <property role="2fHolG" value="unmellowyellow" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDi9" role="M5hS2">
+      <property role="1uS6qo" value="upforestgreen" />
+      <property role="1uS6qv" value="upforestgreen" />
+      <property role="2fHolG" value="upforestgreen" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDia" role="M5hS2">
+      <property role="1uS6qo" value="upmaroon" />
+      <property role="1uS6qv" value="upmaroon" />
+      <property role="2fHolG" value="upmaroon" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDib" role="M5hS2">
+      <property role="1uS6qo" value="upsdellred" />
+      <property role="1uS6qv" value="upsdellred" />
+      <property role="2fHolG" value="upsdellred" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDic" role="M5hS2">
+      <property role="1uS6qo" value="urobilin" />
+      <property role="1uS6qv" value="urobilin" />
+      <property role="2fHolG" value="urobilin" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDid" role="M5hS2">
+      <property role="1uS6qo" value="usccardinal" />
+      <property role="1uS6qv" value="usccardinal" />
+      <property role="2fHolG" value="usccardinal" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDie" role="M5hS2">
+      <property role="1uS6qo" value="uscgold" />
+      <property role="1uS6qv" value="uscgold" />
+      <property role="2fHolG" value="uscgold" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDif" role="M5hS2">
+      <property role="1uS6qo" value="utahcrimson" />
+      <property role="1uS6qv" value="utahcrimson" />
+      <property role="2fHolG" value="utahcrimson" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDig" role="M5hS2">
+      <property role="1uS6qo" value="vanilla" />
+      <property role="1uS6qv" value="vanilla" />
+      <property role="2fHolG" value="vanilla" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDih" role="M5hS2">
+      <property role="1uS6qo" value="vegasgold" />
+      <property role="1uS6qv" value="vegasgold" />
+      <property role="2fHolG" value="vegasgold" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDii" role="M5hS2">
+      <property role="1uS6qo" value="venetianred" />
+      <property role="1uS6qv" value="venetianred" />
+      <property role="2fHolG" value="venetianred" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDij" role="M5hS2">
+      <property role="1uS6qo" value="verdigris" />
+      <property role="1uS6qv" value="verdigris" />
+      <property role="2fHolG" value="verdigris" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDik" role="M5hS2">
+      <property role="1uS6qo" value="vermilion" />
+      <property role="1uS6qv" value="vermilion" />
+      <property role="2fHolG" value="vermilion" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDil" role="M5hS2">
+      <property role="1uS6qo" value="veronica" />
+      <property role="1uS6qv" value="veronica" />
+      <property role="2fHolG" value="veronica" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDim" role="M5hS2">
+      <property role="1uS6qo" value="violet" />
+      <property role="1uS6qv" value="violet" />
+      <property role="2fHolG" value="violet" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDin" role="M5hS2">
+      <property role="1uS6qo" value="violetcolorwheel" />
+      <property role="1uS6qv" value="violetcolorwheel" />
+      <property role="2fHolG" value="violetcolorwheel" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDio" role="M5hS2">
+      <property role="1uS6qo" value="violetryb" />
+      <property role="1uS6qv" value="violetryb" />
+      <property role="2fHolG" value="violetryb" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDip" role="M5hS2">
+      <property role="1uS6qo" value="violetweb" />
+      <property role="1uS6qv" value="violetweb" />
+      <property role="2fHolG" value="violetweb" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDiq" role="M5hS2">
+      <property role="1uS6qo" value="viridian" />
+      <property role="1uS6qv" value="viridian" />
+      <property role="2fHolG" value="viridian" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDir" role="M5hS2">
+      <property role="1uS6qo" value="vividauburn" />
+      <property role="1uS6qv" value="vividauburn" />
+      <property role="2fHolG" value="vividauburn" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDis" role="M5hS2">
+      <property role="1uS6qo" value="vividburgundy" />
+      <property role="1uS6qv" value="vividburgundy" />
+      <property role="2fHolG" value="vividburgundy" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDit" role="M5hS2">
+      <property role="1uS6qo" value="vividcerise" />
+      <property role="1uS6qv" value="vividcerise" />
+      <property role="2fHolG" value="vividcerise" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDiu" role="M5hS2">
+      <property role="1uS6qo" value="vividtangerine" />
+      <property role="1uS6qv" value="vividtangerine" />
+      <property role="2fHolG" value="vividtangerine" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDiv" role="M5hS2">
+      <property role="1uS6qo" value="vividviolet" />
+      <property role="1uS6qv" value="vividviolet" />
+      <property role="2fHolG" value="vividviolet" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDiw" role="M5hS2">
+      <property role="1uS6qo" value="warmblack" />
+      <property role="1uS6qv" value="warmblack" />
+      <property role="2fHolG" value="warmblack" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDix" role="M5hS2">
+      <property role="1uS6qo" value="wenge" />
+      <property role="1uS6qv" value="wenge" />
+      <property role="2fHolG" value="wenge" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDiy" role="M5hS2">
+      <property role="1uS6qo" value="wheat" />
+      <property role="1uS6qv" value="wheat" />
+      <property role="2fHolG" value="wheat" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDiz" role="M5hS2">
+      <property role="1uS6qo" value="white" />
+      <property role="1uS6qv" value="white" />
+      <property role="2fHolG" value="white" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDi$" role="M5hS2">
+      <property role="1uS6qo" value="whitesmoke" />
+      <property role="1uS6qv" value="whitesmoke" />
+      <property role="2fHolG" value="whitesmoke" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDi_" role="M5hS2">
+      <property role="1uS6qo" value="wildblueyonder" />
+      <property role="1uS6qv" value="wildblueyonder" />
+      <property role="2fHolG" value="wildblueyonder" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDiA" role="M5hS2">
+      <property role="1uS6qo" value="wildstrawberry" />
+      <property role="1uS6qv" value="wildstrawberry" />
+      <property role="2fHolG" value="wildstrawberry" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDiB" role="M5hS2">
+      <property role="1uS6qo" value="wildwatermelon" />
+      <property role="1uS6qv" value="wildwatermelon" />
+      <property role="2fHolG" value="wildwatermelon" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDiC" role="M5hS2">
+      <property role="1uS6qo" value="wisteria" />
+      <property role="1uS6qv" value="wisteria" />
+      <property role="2fHolG" value="wisteria" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDiD" role="M5hS2">
+      <property role="1uS6qo" value="xanadu" />
+      <property role="1uS6qv" value="xanadu" />
+      <property role="2fHolG" value="xanadu" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDiE" role="M5hS2">
+      <property role="1uS6qo" value="yaleblue" />
+      <property role="1uS6qv" value="yaleblue" />
+      <property role="2fHolG" value="yaleblue" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDiF" role="M5hS2">
+      <property role="1uS6qo" value="yellow" />
+      <property role="1uS6qv" value="yellow" />
+      <property role="2fHolG" value="yellow" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDiG" role="M5hS2">
+      <property role="1uS6qo" value="yellowmunsell" />
+      <property role="1uS6qv" value="yellowmunsell" />
+      <property role="2fHolG" value="yellowmunsell" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDiH" role="M5hS2">
+      <property role="1uS6qo" value="yellowncs" />
+      <property role="1uS6qv" value="yellowncs" />
+      <property role="2fHolG" value="yellowncs" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDiI" role="M5hS2">
+      <property role="1uS6qo" value="yellowprocess" />
+      <property role="1uS6qv" value="yellowprocess" />
+      <property role="2fHolG" value="yellowprocess" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDiJ" role="M5hS2">
+      <property role="1uS6qo" value="yellowryb" />
+      <property role="1uS6qv" value="yellowryb" />
+      <property role="2fHolG" value="yellowryb" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDiK" role="M5hS2">
+      <property role="1uS6qo" value="yellow-green" />
+      <property role="1uS6qv" value="yellow-green" />
+      <property role="2fHolG" value="yellow-green" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDiL" role="M5hS2">
+      <property role="1uS6qo" value="zaffre" />
+      <property role="1uS6qv" value="zaffre" />
+      <property role="2fHolG" value="zaffre" />
+    </node>
+    <node concept="M4N5e" id="e_7xe$xDiM" role="M5hS2">
+      <property role="1uS6qo" value="zinnwalditebrown" />
+      <property role="1uS6qv" value="zinnwalditebrown" />
+      <property role="2fHolG" value="zinnwalditebrown" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="e_7xe$xDZk">
+    <property role="1pbfSe" value="1473528345" />
+    <property role="3GE5qa" value="view" />
+    <property role="TrG5h" value="StripeColorStyleClass" />
+    <node concept="1TJgyi" id="e_7xe$xEIm" role="1TKVEl">
+      <property role="TrG5h" value="value" />
+      <ref role="AX2Wp" node="e_7xe$xD75" resolve="StripeColorValue" />
+    </node>
+    <node concept="PrWs8" id="e_7xe$xDZl" role="PzmwI">
+      <ref role="PrY4T" to="onla:4FCgsrOfuu0" resolve="StyleElement" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="e_7xe$xFeT">
+    <property role="1pbfSe" value="1473523252" />
+    <property role="3GE5qa" value="view" />
+    <property role="TrG5h" value="StripeColor" />
+    <property role="34LRSv" value="Stripe color" />
+    <ref role="1TJDcQ" node="e_7xe$xDZk" resolve="StripeColorStyleClass" />
   </node>
 </model>
 
