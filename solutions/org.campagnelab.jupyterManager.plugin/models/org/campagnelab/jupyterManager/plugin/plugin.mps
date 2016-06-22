@@ -6458,53 +6458,69 @@
       <property role="DiZV1" value="false" />
       <property role="2aFKle" value="false" />
       <node concept="3clFbS" id="4WoBUVdYs5E" role="3clF47">
-        <node concept="3clFbF" id="asFbg5ijwR" role="3cqZAp">
-          <node concept="2YIFZM" id="asFbg5ijyu" role="3clFbG">
-            <ref role="1Pybhc" node="7ZtP2DEHIzu" resolve="Logging" />
-            <ref role="37wK5l" node="asFbg5i48l" resolve="init" />
-            <node concept="2YIFZM" id="asFbg5ijIP" role="37wK5m">
-              <ref role="37wK5l" to="alof:~ProjectHelper.toMPSProject(com.intellij.openapi.project.Project):jetbrains.mps.project.Project" resolve="toMPSProject" />
-              <ref role="1Pybhc" to="alof:~ProjectHelper" resolve="ProjectHelper" />
-              <node concept="37vLTw" id="asFbg5ijOA" role="37wK5m">
-                <ref role="3cqZAo" node="7WouYALXfgP" resolve="project" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="2EWsv1saFh2" role="3cqZAp">
-          <node concept="1rXfSq" id="2EWsv1saFh0" role="3clFbG">
-            <ref role="37wK5l" node="2EWsv1saE7s" resolve="generateID" />
-          </node>
-        </node>
-        <node concept="3cpWs8" id="7WouYALXfB1" role="3cqZAp">
-          <node concept="3cpWsn" id="7WouYALXfB4" role="3cpWs9">
-            <property role="TrG5h" value="host" />
-            <node concept="17QB3L" id="7WouYALXfAZ" role="1tU5fm" />
-            <node concept="2EnYce" id="7WouYALXx1i" role="33vP2m">
-              <node concept="2OqwBi" id="7WouYALXfOm" role="2Oq$k0">
-                <node concept="37vLTw" id="7WouYALXfHN" role="2Oq$k0">
+        <node concept="1X3_iC" id="52HTHrMr7$R" role="lGtFl">
+          <property role="3V$3am" value="statement" />
+          <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
+          <node concept="3clFbF" id="asFbg5ijwR" role="8Wnug">
+            <node concept="2YIFZM" id="asFbg5ijyu" role="3clFbG">
+              <ref role="1Pybhc" node="7ZtP2DEHIzu" resolve="Logging" />
+              <ref role="37wK5l" node="asFbg5i48l" resolve="init" />
+              <node concept="2YIFZM" id="asFbg5ijIP" role="37wK5m">
+                <ref role="37wK5l" to="alof:~ProjectHelper.toMPSProject(com.intellij.openapi.project.Project):jetbrains.mps.project.Project" resolve="toMPSProject" />
+                <ref role="1Pybhc" to="alof:~ProjectHelper" resolve="ProjectHelper" />
+                <node concept="37vLTw" id="asFbg5ijOA" role="37wK5m">
                   <ref role="3cqZAo" node="7WouYALXfgP" resolve="project" />
                 </node>
-                <node concept="LR4Ub" id="7WouYALXwID" role="2OqNvi">
-                  <ref role="LR4Ua" node="3uD_HpUGH8b" resolve="JupyterPreferences" />
-                </node>
-              </node>
-              <node concept="34pFcN" id="7WouYALXwKt" role="2OqNvi">
-                <ref role="2WH_rO" node="6sEPvWAuVtd" resolve="serverPath" />
               </node>
             </node>
           </node>
         </node>
-        <node concept="3clFbF" id="4WoBUVdYtNy" role="3cqZAp">
-          <node concept="37vLTI" id="4WoBUVdYtTp" role="3clFbG">
-            <node concept="37vLTw" id="4WoBUVdYtNx" role="37vLTJ">
-              <ref role="3cqZAo" node="4WoBUVdY9jW" resolve="jupyterManager" />
+        <node concept="1X3_iC" id="52HTHrMr7$S" role="lGtFl">
+          <property role="3V$3am" value="statement" />
+          <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
+          <node concept="3clFbF" id="2EWsv1saFh2" role="8Wnug">
+            <node concept="1rXfSq" id="2EWsv1saFh0" role="3clFbG">
+              <ref role="37wK5l" node="2EWsv1saE7s" resolve="generateID" />
             </node>
-            <node concept="2ShNRf" id="4WoBUVdYtqH" role="37vLTx">
-              <node concept="1pGfFk" id="4WoBUVdYtqJ" role="2ShVmc">
-                <ref role="37wK5l" to="jqia:~JupyterManager.&lt;init&gt;(java.lang.String)" resolve="JupyterManager" />
-                <node concept="37vLTw" id="7WouYALXxtH" role="37wK5m">
-                  <ref role="3cqZAo" node="7WouYALXfB4" resolve="host" />
+          </node>
+        </node>
+        <node concept="1X3_iC" id="52HTHrMr7$T" role="lGtFl">
+          <property role="3V$3am" value="statement" />
+          <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
+          <node concept="3cpWs8" id="7WouYALXfB1" role="8Wnug">
+            <node concept="3cpWsn" id="7WouYALXfB4" role="3cpWs9">
+              <property role="TrG5h" value="host" />
+              <node concept="17QB3L" id="7WouYALXfAZ" role="1tU5fm" />
+              <node concept="2EnYce" id="7WouYALXx1i" role="33vP2m">
+                <node concept="2OqwBi" id="7WouYALXfOm" role="2Oq$k0">
+                  <node concept="37vLTw" id="7WouYALXfHN" role="2Oq$k0">
+                    <ref role="3cqZAo" node="7WouYALXfgP" resolve="project" />
+                  </node>
+                  <node concept="LR4Ub" id="7WouYALXwID" role="2OqNvi">
+                    <ref role="LR4Ua" node="3uD_HpUGH8b" resolve="JupyterPreferences" />
+                  </node>
+                </node>
+                <node concept="34pFcN" id="7WouYALXwKt" role="2OqNvi">
+                  <ref role="2WH_rO" node="6sEPvWAuVtd" resolve="serverPath" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1X3_iC" id="52HTHrMr7$U" role="lGtFl">
+          <property role="3V$3am" value="statement" />
+          <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
+          <node concept="3clFbF" id="4WoBUVdYtNy" role="8Wnug">
+            <node concept="37vLTI" id="4WoBUVdYtTp" role="3clFbG">
+              <node concept="37vLTw" id="4WoBUVdYtNx" role="37vLTJ">
+                <ref role="3cqZAo" node="4WoBUVdY9jW" resolve="jupyterManager" />
+              </node>
+              <node concept="2ShNRf" id="4WoBUVdYtqH" role="37vLTx">
+                <node concept="1pGfFk" id="4WoBUVdYtqJ" role="2ShVmc">
+                  <ref role="37wK5l" to="jqia:~JupyterManager.&lt;init&gt;(java.lang.String)" resolve="JupyterManager" />
+                  <node concept="37vLTw" id="7WouYALXxtH" role="37wK5m">
+                    <ref role="3cqZAo" node="7WouYALXfB4" resolve="host" />
+                  </node>
                 </node>
               </node>
             </node>
@@ -12906,7 +12922,7 @@
       <node concept="3Tm1VV" id="w24d1knE$X" role="1B3o_S" />
       <node concept="10Oyi0" id="w24d1knE$Y" role="1tU5fm" />
       <node concept="3cmrfG" id="w24d1knE$Z" role="33vP2m">
-        <property role="3cmrfH" value="5" />
+        <property role="3cmrfH" value="5000" />
       </node>
     </node>
     <node concept="2tJIrI" id="w24d1knE_0" role="jymVt" />
