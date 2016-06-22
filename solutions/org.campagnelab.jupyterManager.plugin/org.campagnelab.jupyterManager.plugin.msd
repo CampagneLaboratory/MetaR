@@ -88,7 +88,6 @@
     <module reference="8fe4c62a-2020-4ff4-8eda-f322a55bdc9f(jetbrains.mps.refactoring.runtime)" version="0" />
     <module reference="df9d410f-2ebb-43f7-893a-483a4f085250(jetbrains.mps.smodel.resources)" version="0" />
     <module reference="e6368d5c-b931-4d4d-9941-07b7da7d2e2d(jetbrains.mps.tool.builder)" version="0" />
-    <module reference="b0f8641f-bd77-4421-8425-30d9088a82f7(org.apache.commons)" version="0" />
     <module reference="fa51b48b-022c-4a7d-b685-4030a7571a91(org.campagnelab.jupyterManager)" version="0" />
     <module reference="fd3fc8d7-bebb-4053-88a0-6dcc12448e6e(org.campagnelab.jupyterManager.plugin)" version="0" />
     <module reference="837afec3-cff0-45b1-a221-6b811148f87e(org.campagnelab.metar.R.gen)" version="0" />
