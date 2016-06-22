@@ -31,7 +31,6 @@
       <modulePath path="$PROJECT_DIR$/solutions/MetaR.Workshop/MetaR.Workshop.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/MetarReportError/MetarReportError.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/ReorderColumns/ReorderColumns.msd" folder="" />
-      <modulePath path="$PROJECT_DIR$/solutions/Solution/Solution.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/Tests/MetaR.Tests.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/VennDiagram/VennDiagram.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/biomart/biomart.msd" folder="" />
@@ -41,7 +40,6 @@
       <modulePath path="$PROJECT_DIR$/solutions/org.campagnelab.editor.listeners.plugin/org.campagnelab.editor.listeners.plugin.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/org.campagnelab.editor.plugins/org.campagnelab.editor.plugins.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/org.campagnelab.jupyterManager.plugin/org.campagnelab.jupyterManager.plugin.msd" folder="" />
-      <modulePath path="$PROJECT_DIR$/solutions/org.campagnelab.metar.L.plugin/org.campagnelab.metar.L.plugin.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/org.campagnelab.metar.R.plugin/org.cmapagnelab.metar.R.plugin.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/org.campagnelab.metar.biomart.web/org.campagnelab.metar.biomart.web.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/org.campagnelab.metar.r.parsers/org.campagnelab.metar.r.parsers.msd" folder="" />
