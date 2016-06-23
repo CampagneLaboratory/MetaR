@@ -21,6 +21,7 @@
     <import index="84a8" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.openapi.vfs.impl.local(MPS.IDEA/)" />
     <import index="jlff" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.openapi.vfs(MPS.IDEA/)" />
     <import index="22ra" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor.update(MPS.Editor/)" />
+    <import index="r791" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:javax.swing.text(JDK/)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
   </imports>
   <registry>
@@ -246,6 +247,19 @@
                     <node concept="37vLTw" id="Bd5Iv0ZSva" role="37wK5m">
                       <ref role="3cqZAo" node="Bd5Iv0ZSuY" resolve="url" />
                     </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="5Ju_tUhzADI" role="3cqZAp">
+              <node concept="2OqwBi" id="5Ju_tUhzAO4" role="3clFbG">
+                <node concept="37vLTw" id="5Ju_tUhzADG" role="2Oq$k0">
+                  <ref role="3cqZAo" node="Bd5Iv0ZSv6" resolve="pane" />
+                </node>
+                <node concept="liA8E" id="5Ju_tUhzBbL" role="2OqNvi">
+                  <ref role="37wK5l" to="r791:~JTextComponent.setEditable(boolean):void" resolve="setEditable" />
+                  <node concept="3clFbT" id="5Ju_tUhzBiS" role="37wK5m">
+                    <property role="3clFbU" value="false" />
                   </node>
                 </node>
               </node>

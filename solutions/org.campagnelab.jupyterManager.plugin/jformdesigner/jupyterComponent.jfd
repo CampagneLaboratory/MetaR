@@ -74,6 +74,7 @@ new FormModel {
 				add( new FormComponent( "javax.swing.JEditorPane" ) {
 					name: "messagesView"
 					"contentType": "text/html"
+					"editable": false
 					auxiliary() {
 						"JavaCodeGenerator.variableGetter": true
 					}
@@ -89,6 +90,7 @@ new FormModel {
 				"text": "The first start of the server can take some minutes\nbecause the server needs to download a docker image.\n"
 				"background": sfield java.awt.SystemColor window
 				"border": new javax.swing.border.EmptyBorder( 5, 5, 5, 5 )
+				"editable": false
 			}, new FormLayoutConstraints( class com.jformdesigner.runtime.GridBagConstraintsEx ) {
 				"gridy": 2
 				"gridwidth": 3
