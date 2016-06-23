@@ -10,6 +10,9 @@
     <import index="1mjk" ref="r:72b0aa20-b681-4aef-ad30-bb23b1f4b98c(org.campagnelab.metar.code.generator.helpers)" />
     <import index="18ew" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.util(MPS.Core/)" />
     <import index="ccd1" ref="r:d4fc1ccf-1b20-4c10-aae7-94de66326394(org.campagnelab.jupyterManager.plugin.plugin)" />
+    <import index="4nm9" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.openapi.project(MPS.IDEA/)" />
+    <import index="z1c3" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.project(MPS.Core/)" />
+    <import index="alof" ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61/java:jetbrains.mps.ide.project(MPS.Platform/)" />
     <import index="l5qg" ref="r:c3c8723d-4db5-4e18-902d-1cb272fe4ddf(org.campagnelab.metar.R.gen.structure)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
@@ -52,9 +55,14 @@
       <concept id="1068498886296" name="jetbrains.mps.baseLanguage.structure.VariableReference" flags="nn" index="37vLTw">
         <reference id="1068581517664" name="variableDeclaration" index="3cqZAo" />
       </concept>
+      <concept id="1068498886292" name="jetbrains.mps.baseLanguage.structure.ParameterDeclaration" flags="ir" index="37vLTG" />
       <concept id="1225271177708" name="jetbrains.mps.baseLanguage.structure.StringType" flags="in" index="17QB3L" />
+      <concept id="4972933694980447171" name="jetbrains.mps.baseLanguage.structure.BaseVariableDeclaration" flags="ng" index="19Szcq">
+        <child id="5680397130376446158" name="type" index="1tU5fm" />
+      </concept>
       <concept id="1068580123132" name="jetbrains.mps.baseLanguage.structure.BaseMethodDeclaration" flags="ng" index="3clF44">
         <child id="1068580123133" name="returnType" index="3clF45" />
+        <child id="1068580123134" name="parameter" index="3clF46" />
         <child id="1068580123135" name="body" index="3clF47" />
       </concept>
       <concept id="1068580123155" name="jetbrains.mps.baseLanguage.structure.ExpressionStatement" flags="nn" index="3clFbF">
@@ -76,6 +84,9 @@
         <child id="1068499141038" name="actualArgument" index="37wK5m" />
       </concept>
       <concept id="1212685548494" name="jetbrains.mps.baseLanguage.structure.ClassCreator" flags="nn" index="1pGfFk" />
+      <concept id="1107535904670" name="jetbrains.mps.baseLanguage.structure.ClassifierType" flags="in" index="3uibUv">
+        <reference id="1107535924139" name="classifier" index="3uigEE" />
+      </concept>
       <concept id="1081773326031" name="jetbrains.mps.baseLanguage.structure.BinaryOperation" flags="nn" index="3uHJSO">
         <child id="1081773367579" name="rightExpression" index="3uHU7w" />
         <child id="1081773367580" name="leftExpression" index="3uHU7B" />
@@ -136,13 +147,20 @@
             <node concept="3cpWs6" id="7d3kpy2quDI" role="3cqZAp">
               <node concept="2YIFZM" id="7d3kpy2quDJ" role="3cqZAk">
                 <ref role="37wK5l" to="ccd1:7d3kpy2aWpQ" resolve="getRemoteMetaRLibsFolder" />
-                <ref role="1Pybhc" to="ccd1:3uD_HpV5Ij6" resolve="JupyterUtils" />
+                <ref role="1Pybhc" to="ccd1:3uD_HpV5Ij6" resolve="Utils" />
+                <node concept="2YIFZM" id="55a1UmAgjTz" role="37wK5m">
+                  <ref role="37wK5l" to="alof:~ProjectHelper.toIdeaProject(jetbrains.mps.project.Project):com.intellij.openapi.project.Project" resolve="toIdeaProject" />
+                  <ref role="1Pybhc" to="alof:~ProjectHelper" resolve="ProjectHelper" />
+                  <node concept="37vLTw" id="55a1UmAgjW_" role="37wK5m">
+                    <ref role="3cqZAo" node="55a1UmAccAn" resolve="mpsProject" />
+                  </node>
+                </node>
               </node>
             </node>
           </node>
           <node concept="2YIFZM" id="7d3kpy2quls" role="3clFbw">
             <ref role="37wK5l" to="ccd1:7d3kpy2aHso" resolve="shouldExecuteOnJupyter" />
-            <ref role="1Pybhc" to="ccd1:7d3kpy2arRt" resolve="JupyterHelper" />
+            <ref role="1Pybhc" to="ccd1:7d3kpy2arRt" resolve="Helper" />
             <node concept="13iPFW" id="7d3kpy2qult" role="37wK5m" />
           </node>
         </node>
@@ -178,11 +196,23 @@
         </node>
       </node>
       <node concept="17QB3L" id="5OllgZoNaMb" role="3clF45" />
+      <node concept="37vLTG" id="55a1UmAccAn" role="3clF46">
+        <property role="TrG5h" value="mpsProject" />
+        <node concept="3uibUv" id="55a1UmAgj$h" role="1tU5fm">
+          <ref role="3uigEE" to="z1c3:~Project" resolve="Project" />
+        </node>
+      </node>
     </node>
     <node concept="13i0hz" id="7klrZ4rJNMW" role="13h7CS">
       <property role="13i0iv" value="false" />
       <property role="13i0it" value="false" />
       <property role="TrG5h" value="getResultsDir" />
+      <node concept="37vLTG" id="55a1UmAl2qN" role="3clF46">
+        <property role="TrG5h" value="mpsProject" />
+        <node concept="3uibUv" id="55a1UmAl2qO" role="1tU5fm">
+          <ref role="3uigEE" to="z1c3:~Project" resolve="Project" />
+        </node>
+      </node>
       <node concept="3Tm1VV" id="7klrZ4rJNMX" role="1B3o_S" />
       <node concept="3clFbS" id="7klrZ4rJNMY" role="3clF47">
         <node concept="3clFbJ" id="7d3kpy2qwhM" role="3cqZAp">
@@ -190,12 +220,19 @@
             <node concept="3cpWs6" id="7d3kpy2qwCq" role="3cqZAp">
               <node concept="2YIFZM" id="7d3kpy2qwCr" role="3cqZAk">
                 <ref role="37wK5l" to="ccd1:7d3kpy2aY3f" resolve="getRemoteResultsDir" />
-                <ref role="1Pybhc" to="ccd1:3uD_HpV5Ij6" resolve="JupyterUtils" />
+                <ref role="1Pybhc" to="ccd1:3uD_HpV5Ij6" resolve="Utils" />
+                <node concept="2YIFZM" id="55a1UmAl2vi" role="37wK5m">
+                  <ref role="37wK5l" to="alof:~ProjectHelper.toIdeaProject(jetbrains.mps.project.Project):com.intellij.openapi.project.Project" resolve="toIdeaProject" />
+                  <ref role="1Pybhc" to="alof:~ProjectHelper" resolve="ProjectHelper" />
+                  <node concept="37vLTw" id="55a1UmAl2vj" role="37wK5m">
+                    <ref role="3cqZAo" node="55a1UmAl2qN" resolve="mpsProject" />
+                  </node>
+                </node>
               </node>
             </node>
           </node>
           <node concept="2YIFZM" id="7d3kpy2qwte" role="3clFbw">
-            <ref role="1Pybhc" to="ccd1:7d3kpy2arRt" resolve="JupyterHelper" />
+            <ref role="1Pybhc" to="ccd1:7d3kpy2arRt" resolve="Helper" />
             <ref role="37wK5l" to="ccd1:7d3kpy2aHso" resolve="shouldExecuteOnJupyter" />
             <node concept="13iPFW" id="7d3kpy2qwtf" role="37wK5m" />
           </node>

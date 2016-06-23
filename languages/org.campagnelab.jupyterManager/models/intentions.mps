@@ -8,12 +8,21 @@
   <imports>
     <import index="jrxw" ref="r:9f2bbfbf-f8b7-4b3b-92b1-b6a0e9642c10(org.campagnelab.metar.tables.structure)" />
     <import index="ccd1" ref="r:d4fc1ccf-1b20-4c10-aae7-94de66326394(org.campagnelab.jupyterManager.plugin.plugin)" />
+    <import index="alof" ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61/java:jetbrains.mps.ide.project(MPS.Platform/)" />
+    <import index="cj4x" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor(MPS.Editor/)" implicit="true" />
   </imports>
   <registry>
+    <language id="13744753-c81f-424a-9c1b-cf8943bf4e86" name="jetbrains.mps.lang.sharedConcepts">
+      <concept id="1194033889146" name="jetbrains.mps.lang.sharedConcepts.structure.ConceptFunctionParameter_editorContext" flags="nn" index="1XNTG" />
+    </language>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
+      <concept id="1202948039474" name="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" flags="nn" index="liA8E" />
       <concept id="1197027756228" name="jetbrains.mps.baseLanguage.structure.DotExpression" flags="nn" index="2OqwBi">
         <child id="1197027771414" name="operand" index="2Oq$k0" />
         <child id="1197027833540" name="operation" index="2OqNvi" />
+      </concept>
+      <concept id="1145552977093" name="jetbrains.mps.baseLanguage.structure.GenericNewExpression" flags="nn" index="2ShNRf">
+        <child id="1145553007750" name="creator" index="2ShVmc" />
       </concept>
       <concept id="1137021947720" name="jetbrains.mps.baseLanguage.structure.ConceptFunction" flags="in" index="2VMwT0">
         <child id="1137022507850" name="body" index="2VODD2" />
@@ -34,6 +43,7 @@
         <reference id="1068499141037" name="baseMethodDeclaration" index="37wK5l" />
         <child id="1068499141038" name="actualArgument" index="37wK5m" />
       </concept>
+      <concept id="1212685548494" name="jetbrains.mps.baseLanguage.structure.ClassCreator" flags="nn" index="1pGfFk" />
     </language>
     <language id="d7a92d38-f7db-40d0-8431-763b0c3c9f20" name="jetbrains.mps.lang.intentions">
       <concept id="1192794744107" name="jetbrains.mps.lang.intentions.structure.IntentionDeclaration" flags="ig" index="2S6QgY" />
@@ -71,13 +81,33 @@
     </node>
     <node concept="2Sbjvc" id="1Iyhq6EExpH" role="2ZfgGD">
       <node concept="3clFbS" id="1Iyhq6EExpI" role="2VODD2">
-        <node concept="3clFbF" id="1Iyhq6EEx_3" role="3cqZAp">
-          <node concept="2YIFZM" id="1Iyhq6EEx_D" role="3clFbG">
-            <ref role="37wK5l" to="ccd1:4mTRct5g8jK" resolve="attach" />
-            <ref role="1Pybhc" to="ccd1:4mTRct5g3kP" resolve="ModelChangeListenerManager" />
-            <node concept="2OqwBi" id="1Iyhq6EExD3" role="37wK5m">
-              <node concept="2Sf5sV" id="1Iyhq6EEx_Z" role="2Oq$k0" />
-              <node concept="I4A8Y" id="1Iyhq6EExJl" role="2OqNvi" />
+        <node concept="3clFbF" id="55a1UmAm3pj" role="3cqZAp">
+          <node concept="2OqwBi" id="55a1UmAm3vp" role="3clFbG">
+            <node concept="2ShNRf" id="55a1UmAm3pf" role="2Oq$k0">
+              <node concept="1pGfFk" id="55a1UmAm3uN" role="2ShVmc">
+                <ref role="37wK5l" to="ccd1:55a1UmAlwU2" resolve="ModelChangeListenerManager" />
+                <node concept="2YIFZM" id="55a1UmAm41m" role="37wK5m">
+                  <ref role="37wK5l" to="alof:~ProjectHelper.toIdeaProject(jetbrains.mps.project.Project):com.intellij.openapi.project.Project" resolve="toIdeaProject" />
+                  <ref role="1Pybhc" to="alof:~ProjectHelper" resolve="ProjectHelper" />
+                  <node concept="2YIFZM" id="55a1UmAm3Vb" role="37wK5m">
+                    <ref role="37wK5l" to="alof:~ProjectHelper.getProject(org.jetbrains.mps.openapi.module.SRepository):jetbrains.mps.project.Project" resolve="getProject" />
+                    <ref role="1Pybhc" to="alof:~ProjectHelper" resolve="ProjectHelper" />
+                    <node concept="2OqwBi" id="55a1UmAm3J4" role="37wK5m">
+                      <node concept="1XNTG" id="55a1UmAm3I5" role="2Oq$k0" />
+                      <node concept="liA8E" id="55a1UmAm3Me" role="2OqNvi">
+                        <ref role="37wK5l" to="cj4x:~EditorContext.getRepository():org.jetbrains.mps.openapi.module.SRepository" resolve="getRepository" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="liA8E" id="55a1UmAm3x3" role="2OqNvi">
+              <ref role="37wK5l" to="ccd1:55a1UmAlG37" resolve="attach" />
+              <node concept="2OqwBi" id="55a1UmAm3_k" role="37wK5m">
+                <node concept="2Sf5sV" id="55a1UmAm3y9" role="2Oq$k0" />
+                <node concept="I4A8Y" id="55a1UmAm3G8" role="2OqNvi" />
+              </node>
             </node>
           </node>
         </node>

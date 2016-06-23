@@ -22,6 +22,7 @@
     <import index="1mjk" ref="r:72b0aa20-b681-4aef-ad30-bb23b1f4b98c(org.campagnelab.metar.code.generator.helpers)" />
     <import index="42z1" ref="r:61980467-5cf8-4450-9d24-d597512183ad(org.campagnelab.styles.behavior)" />
     <import index="ccd1" ref="r:d4fc1ccf-1b20-4c10-aae7-94de66326394(org.campagnelab.jupyterManager.plugin.plugin)" />
+    <import index="w1kc" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.smodel(MPS.Core/)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="x7of" ref="r:437ca43c-6323-49fb-979f-681501286fcd(org.campagnelab.metar.code.annotations)" implicit="true" />
@@ -30,6 +31,7 @@
   <registry>
     <language id="13744753-c81f-424a-9c1b-cf8943bf4e86" name="jetbrains.mps.lang.sharedConcepts">
       <concept id="1161622665029" name="jetbrains.mps.lang.sharedConcepts.structure.ConceptFunctionParameter_model" flags="nn" index="1Q6Npb" />
+      <concept id="1161622753914" name="jetbrains.mps.lang.sharedConcepts.structure.ConceptFunctionParameter_operationContext" flags="nn" index="1Q79dO" />
     </language>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
       <concept id="1082485599095" name="jetbrains.mps.baseLanguage.structure.BlockStatement" flags="nn" index="9aQIb">
@@ -1218,8 +1220,14 @@
                   <node concept="3clFbF" id="7d3kpy2lQWz" role="3cqZAp">
                     <node concept="2OqwBi" id="7d3kpy2lR10" role="3clFbG">
                       <node concept="30H73N" id="7d3kpy2lQWx" role="2Oq$k0" />
-                      <node concept="2qgKlT" id="7d3kpy2lRdL" role="2OqNvi">
-                        <ref role="37wK5l" to="v8sa:5RQTS2osRA4" resolve="getPath" />
+                      <node concept="2qgKlT" id="55a1UmAnuM6" role="2OqNvi">
+                        <ref role="37wK5l" to="v8sa:55a1UmAntc$" resolve="getPath" />
+                        <node concept="2OqwBi" id="55a1UmAnv52" role="37wK5m">
+                          <node concept="1Q79dO" id="55a1UmAnuVj" role="2Oq$k0" />
+                          <node concept="liA8E" id="55a1UmAnvcx" role="2OqNvi">
+                            <ref role="37wK5l" to="w1kc:~IOperationContext.getProject():jetbrains.mps.project.Project" resolve="getProject" />
+                          </node>
+                        </node>
                       </node>
                     </node>
                   </node>
@@ -8439,6 +8447,12 @@
                       <node concept="30H73N" id="5OllgZoNjcN" role="2Oq$k0" />
                       <node concept="2qgKlT" id="5OllgZoNjnO" role="2OqNvi">
                         <ref role="37wK5l" to="n1uf:5OllgZoNaKA" resolve="getLocalMetaRLibsFolder" />
+                        <node concept="2OqwBi" id="55a1UmAcc3e" role="37wK5m">
+                          <node concept="1Q79dO" id="55a1UmAcc1o" role="2Oq$k0" />
+                          <node concept="liA8E" id="55a1UmAcc7v" role="2OqNvi">
+                            <ref role="37wK5l" to="w1kc:~IOperationContext.getProject():jetbrains.mps.project.Project" resolve="getProject" />
+                          </node>
+                        </node>
                       </node>
                     </node>
                   </node>
@@ -8496,6 +8510,12 @@
                     <node concept="30H73N" id="7d3kpy2kJBf" role="2Oq$k0" />
                     <node concept="2qgKlT" id="7d3kpy2kJLR" role="2OqNvi">
                       <ref role="37wK5l" to="n1uf:7klrZ4rJNMW" resolve="getResultsDir" />
+                      <node concept="2OqwBi" id="55a1UmAglg8" role="37wK5m">
+                        <node concept="1Q79dO" id="55a1UmAglcA" role="2Oq$k0" />
+                        <node concept="liA8E" id="55a1UmAgllU" role="2OqNvi">
+                          <ref role="37wK5l" to="w1kc:~IOperationContext.getProject():jetbrains.mps.project.Project" resolve="getProject" />
+                        </node>
+                      </node>
                     </node>
                   </node>
                 </node>
@@ -18071,6 +18091,12 @@
                             <node concept="30H73N" id="5NwG7t5mGZr" role="2Oq$k0" />
                             <node concept="2qgKlT" id="5NwG7t5mGZs" role="2OqNvi">
                               <ref role="37wK5l" to="v8sa:6$xxyeHtzvr" resolve="getPath" />
+                              <node concept="2OqwBi" id="55a1UmAgsh4" role="37wK5m">
+                                <node concept="1Q79dO" id="55a1UmAgsh5" role="2Oq$k0" />
+                                <node concept="liA8E" id="55a1UmAgsh6" role="2OqNvi">
+                                  <ref role="37wK5l" to="w1kc:~IOperationContext.getProject():jetbrains.mps.project.Project" resolve="getProject" />
+                                </node>
+                              </node>
                             </node>
                           </node>
                         </node>
@@ -18108,6 +18134,12 @@
                             <node concept="30H73N" id="Bd5Iv0ZW0G" role="2Oq$k0" />
                             <node concept="2qgKlT" id="Bd5Iv0ZW0H" role="2OqNvi">
                               <ref role="37wK5l" to="v8sa:6$xxyeHtzvr" resolve="getPath" />
+                              <node concept="2OqwBi" id="55a1UmAgs0M" role="37wK5m">
+                                <node concept="1Q79dO" id="55a1UmAgrHF" role="2Oq$k0" />
+                                <node concept="liA8E" id="55a1UmAgsbK" role="2OqNvi">
+                                  <ref role="37wK5l" to="w1kc:~IOperationContext.getProject():jetbrains.mps.project.Project" resolve="getProject" />
+                                </node>
+                              </node>
                             </node>
                           </node>
                         </node>
@@ -18767,6 +18799,12 @@
                             <node concept="30H73N" id="5lDNWrKbSss" role="2Oq$k0" />
                             <node concept="2qgKlT" id="5lDNWrKbSst" role="2OqNvi">
                               <ref role="37wK5l" to="v8sa:6$xxyeHtzvr" resolve="getPath" />
+                              <node concept="2OqwBi" id="55a1UmAgsiH" role="37wK5m">
+                                <node concept="1Q79dO" id="55a1UmAgsiI" role="2Oq$k0" />
+                                <node concept="liA8E" id="55a1UmAgsiJ" role="2OqNvi">
+                                  <ref role="37wK5l" to="w1kc:~IOperationContext.getProject():jetbrains.mps.project.Project" resolve="getProject" />
+                                </node>
+                              </node>
                             </node>
                           </node>
                         </node>
@@ -18860,6 +18898,12 @@
                             <node concept="30H73N" id="Bd5Iv141LH" role="2Oq$k0" />
                             <node concept="2qgKlT" id="Bd5Iv141LI" role="2OqNvi">
                               <ref role="37wK5l" to="v8sa:6$xxyeHtzvr" resolve="getPath" />
+                              <node concept="2OqwBi" id="55a1UmAgsyi" role="37wK5m">
+                                <node concept="1Q79dO" id="55a1UmAgsyj" role="2Oq$k0" />
+                                <node concept="liA8E" id="55a1UmAgsyk" role="2OqNvi">
+                                  <ref role="37wK5l" to="w1kc:~IOperationContext.getProject():jetbrains.mps.project.Project" resolve="getProject" />
+                                </node>
+                              </node>
                             </node>
                           </node>
                         </node>

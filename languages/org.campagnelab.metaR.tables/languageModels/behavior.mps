@@ -44,6 +44,8 @@
     <import index="n1uf" ref="r:cb035222-afa9-445c-8372-64c2390befab(org.campagnelab.metar.R.gen.behavior)" />
     <import index="ccd1" ref="r:d4fc1ccf-1b20-4c10-aae7-94de66326394(org.campagnelab.jupyterManager.plugin.plugin)" />
     <import index="eoo2" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.nio.file(JDK/)" />
+    <import index="z1c3" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.project(MPS.Core/)" />
+    <import index="alof" ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61/java:jetbrains.mps.ide.project(MPS.Platform/)" />
     <import index="c17a" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.language(MPS.OpenAPI/)" implicit="true" />
   </imports>
   <registry>
@@ -6221,6 +6223,7 @@
                     <ref role="3Tt5mk" to="jrxw:2WRhvFtuQGF" />
                   </node>
                 </node>
+                <node concept="10Nm6u" id="55a1UmA1rIS" role="37wK5m" />
               </node>
             </node>
           </node>
@@ -6254,6 +6257,71 @@
         </node>
       </node>
       <node concept="17QB3L" id="5RQTS2ot0mI" role="3clF45" />
+    </node>
+    <node concept="13i0hz" id="55a1UmAntc$" role="13h7CS">
+      <property role="13i0iv" value="false" />
+      <property role="13i0it" value="false" />
+      <property role="TrG5h" value="getPath" />
+      <node concept="37vLTG" id="55a1UmAccAn" role="3clF46">
+        <property role="TrG5h" value="mpsProject" />
+        <node concept="3uibUv" id="55a1UmAgj$h" role="1tU5fm">
+          <ref role="3uigEE" to="z1c3:~Project" resolve="Project" />
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="55a1UmAntc_" role="1B3o_S" />
+      <node concept="3clFbS" id="55a1UmAntcA" role="3clF47">
+        <node concept="3clFbJ" id="55a1UmAntcB" role="3cqZAp">
+          <node concept="3clFbS" id="55a1UmAntcC" role="3clFbx">
+            <node concept="3cpWs6" id="55a1UmAntcD" role="3cqZAp">
+              <node concept="2YIFZM" id="55a1UmAntcE" role="3cqZAk">
+                <ref role="1Pybhc" to="ccd1:3uD_HpV5Ij6" resolve="Utils" />
+                <ref role="37wK5l" to="ccd1:7d3kpy2ghYV" resolve="createRemoteTablePath" />
+                <node concept="2OqwBi" id="55a1UmAntcF" role="37wK5m">
+                  <node concept="13iPFW" id="55a1UmAntcG" role="2Oq$k0" />
+                  <node concept="3TrEf2" id="55a1UmAntcH" role="2OqNvi">
+                    <ref role="3Tt5mk" to="jrxw:2WRhvFtuQGF" />
+                  </node>
+                </node>
+                <node concept="2YIFZM" id="55a1UmAnumT" role="37wK5m">
+                  <ref role="37wK5l" to="alof:~ProjectHelper.toIdeaProject(jetbrains.mps.project.Project):com.intellij.openapi.project.Project" resolve="toIdeaProject" />
+                  <ref role="1Pybhc" to="alof:~ProjectHelper" resolve="ProjectHelper" />
+                  <node concept="37vLTw" id="55a1UmAnur3" role="37wK5m">
+                    <ref role="3cqZAo" node="55a1UmAccAn" resolve="mpsProject" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="2YIFZM" id="55a1UmAntcJ" role="3clFbw">
+            <ref role="37wK5l" to="ccd1:7d3kpy2aHso" resolve="shouldExecuteOnJupyter" />
+            <ref role="1Pybhc" to="ccd1:7d3kpy2arRt" resolve="Helper" />
+            <node concept="2OqwBi" id="55a1UmAntcK" role="37wK5m">
+              <node concept="13iPFW" id="55a1UmAntcL" role="2Oq$k0" />
+              <node concept="2Xjw5R" id="55a1UmAntcM" role="2OqNvi">
+                <node concept="1xMEDy" id="55a1UmAntcN" role="1xVPHs">
+                  <node concept="chp4Y" id="55a1UmAntcO" role="ri$Ld">
+                    <ref role="cht4Q" to="jrxw:7LvyiX4mii$" resolve="Analysis" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs6" id="55a1UmAntcR" role="3cqZAp">
+          <node concept="2OqwBi" id="55a1UmAntcS" role="3cqZAk">
+            <node concept="2OqwBi" id="55a1UmAntcT" role="2Oq$k0">
+              <node concept="13iPFW" id="55a1UmAntcU" role="2Oq$k0" />
+              <node concept="3TrEf2" id="55a1UmAntcV" role="2OqNvi">
+                <ref role="3Tt5mk" to="jrxw:2WRhvFtuQGF" />
+              </node>
+            </node>
+            <node concept="2qgKlT" id="55a1UmAntcW" role="2OqNvi">
+              <ref role="37wK5l" node="5RQTS2osRA4" resolve="getPath" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="17QB3L" id="55a1UmAntcX" role="3clF45" />
     </node>
     <node concept="13i0hz" id="1AaQBcubkTV" role="13h7CS">
       <property role="TrG5h" value="dependencies" />
@@ -19640,6 +19708,9 @@
                   </node>
                   <node concept="2qgKlT" id="2WBVyJt2rKv" role="2OqNvi">
                     <ref role="37wK5l" to="n1uf:7klrZ4rJNMW" resolve="getResultsDir" />
+                    <node concept="37vLTw" id="55a1UmAgojD" role="37wK5m">
+                      <ref role="3cqZAo" node="55a1UmAgocr" resolve="mpsProject" />
+                    </node>
                   </node>
                 </node>
                 <node concept="10M0yZ" id="2WBVyJt2trL" role="3uHU7w">
@@ -19689,6 +19760,12 @@
               <ref role="37wK5l" to="eoo2:~Path.toString():java.lang.String" resolve="toString" />
             </node>
           </node>
+        </node>
+      </node>
+      <node concept="37vLTG" id="55a1UmAgocr" role="3clF46">
+        <property role="TrG5h" value="mpsProject" />
+        <node concept="3uibUv" id="55a1UmAgocq" role="1tU5fm">
+          <ref role="3uigEE" to="z1c3:~Project" resolve="Project" />
         </node>
       </node>
     </node>
