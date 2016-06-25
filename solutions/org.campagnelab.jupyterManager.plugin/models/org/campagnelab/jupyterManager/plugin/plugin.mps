@@ -67,15 +67,10 @@
     <import index="h08b" ref="r:1b4467f9-9100-4799-aca8-5e1dda676616(org.campagnelab.runR.plugin)" />
     <import index="ap4t" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.generator()" />
     <import index="57ty" ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61/java:jetbrains.mps.ide.messages(MPS.Platform/)" />
-    <import index="btm1" ref="b0f8641f-bd77-4421-8425-30d9088a82f7/java:org.apache.commons.lang3(org.apache.commons/)" />
     <import index="xygl" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.openapi.progress(MPS.IDEA/)" />
     <import index="mk90" ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61/java:jetbrains.mps.progress(MPS.Platform/)" />
     <import index="zqm8" ref="fa51b48b-022c-4a7d-b685-4030a7571a91/java:com.mashape.unirest.http(org.campagnelab.jupyterManager/)" />
     <import index="mnlj" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.beans(JDK/)" />
-    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
-    <import index="afa5" ref="r:cfccec82-df72-4483-9807-88776b4673ab(jetbrains.mps.ide.make.actions)" />
-    <import index="rvbb" ref="86441d7a-e194-42da-81a5-2161ec62a379/java:jetbrains.mps.ide.projectPane()" />
-    <import index="tqbz" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.ide.actions(MPS.IDEA/)" />
     <import index="jlff" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.openapi.vfs(MPS.IDEA/)" />
     <import index="v8sa" ref="r:db1b133e-9a0f-4319-b384-413408eb1729(org.campagnelab.metar.tables.behavior)" implicit="true" />
     <import index="tp4s" ref="r:00000000-0000-4000-0000-011c89590360(jetbrains.mps.lang.plugin.behavior)" implicit="true" />
@@ -296,6 +291,7 @@
       <concept id="1070534058343" name="jetbrains.mps.baseLanguage.structure.NullLiteral" flags="nn" index="10Nm6u" />
       <concept id="1070534370425" name="jetbrains.mps.baseLanguage.structure.IntegerType" flags="in" index="10Oyi0" />
       <concept id="1070534513062" name="jetbrains.mps.baseLanguage.structure.DoubleType" flags="in" index="10P55v" />
+      <concept id="1070534555686" name="jetbrains.mps.baseLanguage.structure.CharType" flags="in" index="10Pfzv" />
       <concept id="1070534604311" name="jetbrains.mps.baseLanguage.structure.ByteType" flags="in" index="10PrrI" />
       <concept id="1070534644030" name="jetbrains.mps.baseLanguage.structure.BooleanType" flags="in" index="10P_77" />
       <concept id="1070534760951" name="jetbrains.mps.baseLanguage.structure.ArrayType" flags="in" index="10Q1$e">
@@ -325,6 +321,7 @@
       <concept id="1068498886292" name="jetbrains.mps.baseLanguage.structure.ParameterDeclaration" flags="ir" index="37vLTG" />
       <concept id="1068498886294" name="jetbrains.mps.baseLanguage.structure.AssignmentExpression" flags="nn" index="37vLTI" />
       <concept id="1225271177708" name="jetbrains.mps.baseLanguage.structure.StringType" flags="in" index="17QB3L" />
+      <concept id="1225271408483" name="jetbrains.mps.baseLanguage.structure.IsNotEmptyOperation" flags="nn" index="17RvpY" />
       <concept id="1225271546410" name="jetbrains.mps.baseLanguage.structure.TrimOperation" flags="nn" index="17S1cR" />
       <concept id="4972933694980447171" name="jetbrains.mps.baseLanguage.structure.BaseVariableDeclaration" flags="ng" index="19Szcq">
         <child id="5680397130376446158" name="type" index="1tU5fm" />
@@ -455,11 +452,16 @@
       <concept id="1116615150612" name="jetbrains.mps.baseLanguage.structure.ClassifierClassExpression" flags="nn" index="3VsKOn">
         <reference id="1116615189566" name="classifier" index="3VsUkX" />
       </concept>
+      <concept id="1178893518978" name="jetbrains.mps.baseLanguage.structure.ThisConstructorInvocation" flags="nn" index="1VxSAg" />
       <concept id="1080120340718" name="jetbrains.mps.baseLanguage.structure.AndExpression" flags="nn" index="1Wc70l" />
+      <concept id="1200397529627" name="jetbrains.mps.baseLanguage.structure.CharConstant" flags="nn" index="1Xhbcc">
+        <property id="1200397540847" name="charConstant" index="1XhdNS" />
+      </concept>
       <concept id="1170345865475" name="jetbrains.mps.baseLanguage.structure.AnonymousClass" flags="ig" index="1Y3b0j">
         <reference id="1170346070688" name="classifier" index="1Y3XeK" />
         <child id="1201186121363" name="typeParameter" index="2Ghqu4" />
       </concept>
+      <concept id="8064396509828172209" name="jetbrains.mps.baseLanguage.structure.UnaryMinus" flags="nn" index="1ZRNhn" />
     </language>
     <language id="63650c59-16c8-498a-99c8-005c7ee9515d" name="jetbrains.mps.lang.access">
       <concept id="8974276187400348173" name="jetbrains.mps.lang.access.structure.CommandClosureLiteral" flags="nn" index="1QHqEC" />
@@ -650,12 +652,17 @@
         <child id="1197687026896" name="keyType" index="3rHrn6" />
         <child id="1197687035757" name="valueType" index="3rHtpV" />
       </concept>
+      <concept id="1225621920911" name="jetbrains.mps.baseLanguage.collections.structure.InsertElementOperation" flags="nn" index="1sK_Qi">
+        <child id="1225621943565" name="element" index="1sKFgg" />
+        <child id="1225621960341" name="index" index="1sKJu8" />
+      </concept>
       <concept id="1165525191778" name="jetbrains.mps.baseLanguage.collections.structure.GetFirstOperation" flags="nn" index="1uHKPH" />
       <concept id="1240687580870" name="jetbrains.mps.baseLanguage.collections.structure.JoinOperation" flags="nn" index="3uJxvA">
         <child id="1240687658305" name="delimiter" index="3uJOhx" />
       </concept>
       <concept id="1202120902084" name="jetbrains.mps.baseLanguage.collections.structure.WhereOperation" flags="nn" index="3zZkjj" />
       <concept id="1202128969694" name="jetbrains.mps.baseLanguage.collections.structure.SelectOperation" flags="nn" index="3$u5V9" />
+      <concept id="1184963466173" name="jetbrains.mps.baseLanguage.collections.structure.ToArrayOperation" flags="nn" index="3_kTaI" />
       <concept id="1240824834947" name="jetbrains.mps.baseLanguage.collections.structure.ValueAccessOperation" flags="nn" index="3AV6Ez" />
       <concept id="1240825616499" name="jetbrains.mps.baseLanguage.collections.structure.KeyAccessOperation" flags="nn" index="3AY5_j" />
       <concept id="1197932370469" name="jetbrains.mps.baseLanguage.collections.structure.MapElement" flags="nn" index="3EllGN">
@@ -7159,12 +7166,111 @@
   <node concept="312cEu" id="6VVAk3iwonn">
     <property role="TrG5h" value="CmdUtils" />
     <property role="3GE5qa" value="utility.cmd" />
-    <node concept="2YIFZL" id="6VVAk3iwo$N" role="jymVt">
-      <property role="TrG5h" value="executeInBackground" />
-      <property role="od$2w" value="false" />
+    <node concept="3clFbW" id="1T$$AsBBNxK" role="jymVt">
+      <node concept="37vLTG" id="1T$$AsBBOF_" role="3clF46">
+        <property role="TrG5h" value="project" />
+        <node concept="3uibUv" id="1T$$AsBBPUK" role="1tU5fm">
+          <ref role="3uigEE" to="4nm9:~Project" resolve="Project" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="1T$$AsBBRUs" role="3clF46">
+        <property role="TrG5h" value="commands" />
+        <node concept="10Q1$e" id="202QJrhf44U" role="1tU5fm">
+          <node concept="17QB3L" id="1T$$AsBBSaa" role="10Q1$1" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="1T$$AsBCvi3" role="3clF46">
+        <property role="TrG5h" value="outputCallback" />
+        <node concept="3uibUv" id="1T$$AsBCvq6" role="1tU5fm">
+          <ref role="3uigEE" node="Bd5Iv1eEuD" resolve="CmdOutputCallBack" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="2_zkinA61jF" role="3clF46">
+        <property role="TrG5h" value="errorCallback" />
+        <node concept="3uibUv" id="2_zkinA61yM" role="1tU5fm">
+          <ref role="3uigEE" node="Bd5Iv1eEuD" resolve="CmdOutputCallBack" />
+        </node>
+      </node>
+      <node concept="3cqZAl" id="1T$$AsBBNxM" role="3clF45" />
+      <node concept="3Tm1VV" id="1T$$AsBBNxN" role="1B3o_S" />
+      <node concept="3clFbS" id="1T$$AsBBNxO" role="3clF47">
+        <node concept="3clFbF" id="1T$$AsBBQfl" role="3cqZAp">
+          <node concept="37vLTI" id="1T$$AsBBQPc" role="3clFbG">
+            <node concept="37vLTw" id="1T$$AsBBR9b" role="37vLTx">
+              <ref role="3cqZAo" node="1T$$AsBBOF_" resolve="project" />
+            </node>
+            <node concept="2OqwBi" id="1T$$AsBBQgc" role="37vLTJ">
+              <node concept="Xjq3P" id="1T$$AsBBQfk" role="2Oq$k0" />
+              <node concept="2OwXpG" id="1T$$AsBBQtB" role="2OqNvi">
+                <ref role="2Oxat5" node="1T$$AsBBlxX" resolve="project" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="1T$$AsBBRLZ" role="3cqZAp">
+          <node concept="37vLTI" id="1T$$AsBBT6U" role="3clFbG">
+            <node concept="37vLTw" id="1T$$AsBBTrs" role="37vLTx">
+              <ref role="3cqZAo" node="1T$$AsBBRUs" resolve="commands" />
+            </node>
+            <node concept="2OqwBi" id="1T$$AsBBSvr" role="37vLTJ">
+              <node concept="Xjq3P" id="1T$$AsBBRLX" role="2Oq$k0" />
+              <node concept="2OwXpG" id="1T$$AsBBSGM" role="2OqNvi">
+                <ref role="2Oxat5" node="1T$$AsBBoZJ" resolve="commands" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="1T$$AsBCvDw" role="3cqZAp">
+          <node concept="37vLTI" id="1T$$AsBCvXN" role="3clFbG">
+            <node concept="37vLTw" id="1T$$AsBCw9T" role="37vLTx">
+              <ref role="3cqZAo" node="1T$$AsBCvi3" resolve="outputCallback" />
+            </node>
+            <node concept="2OqwBi" id="1T$$AsBCvFm" role="37vLTJ">
+              <node concept="Xjq3P" id="1T$$AsBCvDu" role="2Oq$k0" />
+              <node concept="2OwXpG" id="1T$$AsBCvQp" role="2OqNvi">
+                <ref role="2Oxat5" node="1T$$AsBCv9K" resolve="outputCallback" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="6VVAk3iy0cU" role="jymVt" />
+    <node concept="3clFb_" id="1T$$AsBBeKd" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="run" />
       <property role="DiZV1" value="false" />
-      <property role="2aFKle" value="false" />
-      <node concept="3clFbS" id="6VVAk3iwo$Q" role="3clF47">
+      <property role="od$2w" value="false" />
+      <node concept="3Tm1VV" id="1T$$AsBBeKe" role="1B3o_S" />
+      <node concept="3cqZAl" id="1T$$AsBBeKg" role="3clF45" />
+      <node concept="3clFbS" id="1T$$AsBBeKh" role="3clF47">
+        <node concept="3cpWs8" id="1T$$AsBBi4z" role="3cqZAp">
+          <node concept="3cpWsn" id="1T$$AsBBi4y" role="3cpWs9">
+            <property role="3TUv4t" value="false" />
+            <property role="TrG5h" value="builder" />
+            <node concept="3uibUv" id="1T$$AsBBi4$" role="1tU5fm">
+              <ref role="3uigEE" to="wyt6:~ProcessBuilder" resolve="ProcessBuilder" />
+            </node>
+            <node concept="2ShNRf" id="1T$$AsBBi4K" role="33vP2m">
+              <node concept="1pGfFk" id="1T$$AsBBi4L" role="2ShVmc">
+                <ref role="37wK5l" to="wyt6:~ProcessBuilder.&lt;init&gt;(java.lang.String...)" resolve="ProcessBuilder" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="202QJrhpnXK" role="3cqZAp">
+          <node concept="2OqwBi" id="202QJrhpo9h" role="3clFbG">
+            <node concept="37vLTw" id="202QJrhpnXI" role="2Oq$k0">
+              <ref role="3cqZAo" node="1T$$AsBBi4y" resolve="builder" />
+            </node>
+            <node concept="liA8E" id="202QJrhpog_" role="2OqNvi">
+              <ref role="37wK5l" to="wyt6:~ProcessBuilder.command(java.lang.String...):java.lang.ProcessBuilder" resolve="command" />
+              <node concept="37vLTw" id="202QJrhporA" role="37wK5m">
+                <ref role="3cqZAo" node="1T$$AsBBoZJ" resolve="commands" />
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3clFbF" id="7ZtP2DEI01U" role="3cqZAp">
           <node concept="2OqwBi" id="7ZtP2DEI1c9" role="3clFbG">
             <node concept="2YIFZM" id="7ZtP2DEI0ek" role="2Oq$k0">
@@ -7177,349 +7283,271 @@
                 <node concept="Xl_RD" id="7ZtP2DEI1hG" role="3uHU7B">
                   <property role="Xl_RC" value="Executing: " />
                 </node>
-                <node concept="2YIFZM" id="7ZtP2DEI1hH" role="3uHU7w">
-                  <ref role="37wK5l" to="btm1:~StringUtils.join(java.lang.Object[],java.lang.String):java.lang.String" resolve="join" />
-                  <ref role="1Pybhc" to="btm1:~StringUtils" resolve="StringUtils" />
-                  <node concept="37vLTw" id="7ZtP2DEI1hI" role="37wK5m">
-                    <ref role="3cqZAo" node="6VVAk3iwoDn" resolve="commands" />
+                <node concept="2OqwBi" id="202QJrhpcuj" role="3uHU7w">
+                  <node concept="2OqwBi" id="202QJrhpc5A" role="2Oq$k0">
+                    <node concept="37vLTw" id="202QJrhpbZ9" role="2Oq$k0">
+                      <ref role="3cqZAo" node="1T$$AsBBoZJ" resolve="commands" />
+                    </node>
+                    <node concept="39bAoz" id="202QJrhpcij" role="2OqNvi" />
                   </node>
-                  <node concept="Xl_RD" id="7ZtP2DEI1hJ" role="37wK5m">
-                    <property role="Xl_RC" value=" " />
+                  <node concept="3uJxvA" id="202QJrhpcDd" role="2OqNvi">
+                    <node concept="Xl_RD" id="202QJrhpcUY" role="3uJOhx">
+                      <property role="Xl_RC" value=" " />
+                    </node>
                   </node>
                 </node>
               </node>
             </node>
           </node>
         </node>
-        <node concept="3clFbF" id="6VVAk3iwUdi" role="3cqZAp">
-          <node concept="1rXfSq" id="6VVAk3iwUdh" role="3clFbG">
-            <ref role="37wK5l" node="6VVAk3iwTzG" resolve="executeInBackground" />
-            <node concept="37vLTw" id="1gOgZZAQZ_d" role="37wK5m">
-              <ref role="3cqZAo" node="1gOgZZAQZbK" resolve="project" />
-            </node>
-            <node concept="2YIFZM" id="6VVAk3iwUii" role="37wK5m">
-              <ref role="37wK5l" to="btm1:~StringUtils.join(java.lang.Object[],java.lang.String):java.lang.String" resolve="join" />
-              <ref role="1Pybhc" to="btm1:~StringUtils" resolve="StringUtils" />
-              <node concept="37vLTw" id="6VVAk3iwUij" role="37wK5m">
-                <ref role="3cqZAo" node="6VVAk3iwoDn" resolve="commands" />
+        <node concept="SfApY" id="1T$$AsBBXjJ" role="3cqZAp">
+          <node concept="3clFbS" id="1T$$AsBBXjL" role="SfCbr">
+            <node concept="3cpWs8" id="1T$$AsBFBJp" role="3cqZAp">
+              <node concept="3cpWsn" id="1T$$AsBFBJq" role="3cpWs9">
+                <property role="TrG5h" value="process" />
+                <node concept="3uibUv" id="1T$$AsBFBJr" role="1tU5fm">
+                  <ref role="3uigEE" to="wyt6:~Process" resolve="Process" />
+                </node>
+                <node concept="2OqwBi" id="1T$$AsBBWz4" role="33vP2m">
+                  <node concept="37vLTw" id="1T$$AsBBWoI" role="2Oq$k0">
+                    <ref role="3cqZAo" node="1T$$AsBBi4y" resolve="builder" />
+                  </node>
+                  <node concept="liA8E" id="1T$$AsBBWJo" role="2OqNvi">
+                    <ref role="37wK5l" to="wyt6:~ProcessBuilder.start():java.lang.Process" resolve="start" />
+                  </node>
+                </node>
               </node>
-              <node concept="Xl_RD" id="6VVAk3iwUik" role="37wK5m">
-                <property role="Xl_RC" value=" " />
+            </node>
+            <node concept="3cpWs8" id="1T$$AsBFspk" role="3cqZAp">
+              <node concept="3cpWsn" id="1T$$AsBFspj" role="3cpWs9">
+                <property role="3TUv4t" value="false" />
+                <property role="TrG5h" value="errorGobbler" />
+                <node concept="3uibUv" id="1T$$AsBFspl" role="1tU5fm">
+                  <ref role="3uigEE" to="wyt6:~Thread" resolve="Thread" />
+                </node>
+                <node concept="2ShNRf" id="1T$$AsBFspD" role="33vP2m">
+                  <node concept="1pGfFk" id="1T$$AsBFspU" role="2ShVmc">
+                    <ref role="37wK5l" to="wyt6:~Thread.&lt;init&gt;(java.lang.Runnable)" resolve="Thread" />
+                    <node concept="2ShNRf" id="1T$$AsBFspV" role="37wK5m">
+                      <node concept="1pGfFk" id="1T$$AsBFspW" role="2ShVmc">
+                        <ref role="37wK5l" node="1T$$AsBFmGU" resolve="StreamGobbler" />
+                        <node concept="2OqwBi" id="1T$$AsBFxS_" role="37wK5m">
+                          <node concept="37vLTw" id="1T$$AsBFN0p" role="2Oq$k0">
+                            <ref role="3cqZAo" node="1T$$AsBFBJq" resolve="process" />
+                          </node>
+                          <node concept="liA8E" id="1T$$AsBFxSA" role="2OqNvi">
+                            <ref role="37wK5l" to="wyt6:~Process.getErrorStream():java.io.InputStream" resolve="getErrorStream" />
+                          </node>
+                        </node>
+                        <node concept="10M0yZ" id="1T$$AsBFsrZ" role="37wK5m">
+                          <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
+                          <ref role="3cqZAo" to="wyt6:~System.err" resolve="err" />
+                        </node>
+                        <node concept="37vLTw" id="2_zkinA62gu" role="37wK5m">
+                          <ref role="3cqZAo" node="2_zkinA61Lq" resolve="errorCallback" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
               </node>
             </node>
-            <node concept="37vLTw" id="Bd5Iv1e1Mb" role="37wK5m">
-              <ref role="3cqZAo" node="Bd5Iv1e1bQ" resolve="outputCallBack" />
+            <node concept="3cpWs8" id="1T$$AsBFspr" role="3cqZAp">
+              <node concept="3cpWsn" id="1T$$AsBFspq" role="3cpWs9">
+                <property role="3TUv4t" value="false" />
+                <property role="TrG5h" value="outputGobbler" />
+                <node concept="3uibUv" id="1T$$AsBFsps" role="1tU5fm">
+                  <ref role="3uigEE" to="wyt6:~Thread" resolve="Thread" />
+                </node>
+                <node concept="2ShNRf" id="1T$$AsBFsq4" role="33vP2m">
+                  <node concept="1pGfFk" id="1T$$AsBFsql" role="2ShVmc">
+                    <ref role="37wK5l" to="wyt6:~Thread.&lt;init&gt;(java.lang.Runnable)" resolve="Thread" />
+                    <node concept="2ShNRf" id="1T$$AsBFsqm" role="37wK5m">
+                      <node concept="1pGfFk" id="1T$$AsBFsqn" role="2ShVmc">
+                        <ref role="37wK5l" node="1T$$AsBFmGU" resolve="StreamGobbler" />
+                        <node concept="2OqwBi" id="1T$$AsBFLYu" role="37wK5m">
+                          <node concept="37vLTw" id="1T$$AsBFOJE" role="2Oq$k0">
+                            <ref role="3cqZAo" node="1T$$AsBFBJq" resolve="process" />
+                          </node>
+                          <node concept="liA8E" id="1T$$AsBFLYv" role="2OqNvi">
+                            <ref role="37wK5l" to="wyt6:~Process.getInputStream():java.io.InputStream" resolve="getInputStream" />
+                          </node>
+                        </node>
+                        <node concept="10M0yZ" id="1T$$AsBFss0" role="37wK5m">
+                          <ref role="3cqZAo" to="wyt6:~System.out" resolve="out" />
+                          <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
+                        </node>
+                        <node concept="37vLTw" id="2_zkinA5GrT" role="37wK5m">
+                          <ref role="3cqZAo" node="1T$$AsBCv9K" resolve="outputCallback" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
             </node>
-            <node concept="37vLTw" id="Bd5Iv1eBea" role="37wK5m">
-              <ref role="3cqZAo" node="Bd5Iv1e_bO" resolve="errorCallBack" />
+            <node concept="3clFbF" id="1T$$AsBFspz" role="3cqZAp">
+              <node concept="2OqwBi" id="1T$$AsBFsqD" role="3clFbG">
+                <node concept="37vLTw" id="1T$$AsBFsqC" role="2Oq$k0">
+                  <ref role="3cqZAo" node="1T$$AsBFspq" resolve="outputGobbler" />
+                </node>
+                <node concept="liA8E" id="1T$$AsBFsqE" role="2OqNvi">
+                  <ref role="37wK5l" to="wyt6:~Thread.start():void" resolve="start" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="1T$$AsBFTCy" role="3cqZAp">
+              <node concept="2OqwBi" id="1T$$AsBFsqz" role="3clFbG">
+                <node concept="37vLTw" id="1T$$AsBFsqy" role="2Oq$k0">
+                  <ref role="3cqZAo" node="1T$$AsBFspj" resolve="errorGobbler" />
+                </node>
+                <node concept="liA8E" id="1T$$AsBFsq$" role="2OqNvi">
+                  <ref role="37wK5l" to="wyt6:~Thread.start():void" resolve="start" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="1T$$AsBBXSH" role="3cqZAp">
+              <node concept="2OqwBi" id="1T$$AsBBXX9" role="3clFbG">
+                <node concept="37vLTw" id="202QJrhq0aW" role="2Oq$k0">
+                  <ref role="3cqZAo" node="1T$$AsBFBJq" resolve="process" />
+                </node>
+                <node concept="liA8E" id="1T$$AsBBXYS" role="2OqNvi">
+                  <ref role="37wK5l" to="wyt6:~Object.wait():void" resolve="wait" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbH" id="1T$$AsBBYiT" role="3cqZAp" />
+          </node>
+          <node concept="TDmWw" id="1T$$AsBBXv8" role="TEbGg">
+            <node concept="3clFbS" id="1T$$AsBBXv9" role="TDEfX">
+              <node concept="34ab3g" id="1T$$AsBC8jv" role="3cqZAp">
+                <property role="35gtTG" value="error" />
+                <property role="34fQS0" value="true" />
+                <node concept="3cpWs3" id="1T$$AsBC8r4" role="34bqiv">
+                  <node concept="37vLTw" id="1T$$AsBC8Ba" role="3uHU7w">
+                    <ref role="3cqZAo" node="1T$$AsBBoZJ" resolve="commands" />
+                  </node>
+                  <node concept="Xl_RD" id="1T$$AsBC8jx" role="3uHU7B">
+                    <property role="Xl_RC" value="Unable to run command: " />
+                  </node>
+                </node>
+                <node concept="37vLTw" id="1T$$AsBC8jz" role="34bMjA">
+                  <ref role="3cqZAo" node="1T$$AsBBXva" resolve="e" />
+                </node>
+              </node>
+            </node>
+            <node concept="3cpWsn" id="1T$$AsBBXva" role="TDEfY">
+              <property role="TrG5h" value="e" />
+              <node concept="3uibUv" id="1T$$AsBBXvb" role="1tU5fm">
+                <ref role="3uigEE" to="guwi:~IOException" resolve="IOException" />
+              </node>
+            </node>
+          </node>
+          <node concept="TDmWw" id="1T$$AsBBYhd" role="TEbGg">
+            <node concept="3clFbS" id="1T$$AsBBYhe" role="TDEfX">
+              <node concept="34ab3g" id="1T$$AsBC8OZ" role="3cqZAp">
+                <property role="35gtTG" value="error" />
+                <property role="34fQS0" value="true" />
+                <node concept="3cpWs3" id="1T$$AsBC8VE" role="34bqiv">
+                  <node concept="37vLTw" id="1T$$AsBC97g" role="3uHU7w">
+                    <ref role="3cqZAo" node="1T$$AsBBoZJ" resolve="commands" />
+                  </node>
+                  <node concept="Xl_RD" id="1T$$AsBC8P1" role="3uHU7B">
+                    <property role="Xl_RC" value="Command was interruped: " />
+                  </node>
+                </node>
+                <node concept="37vLTw" id="1T$$AsBC8P3" role="34bMjA">
+                  <ref role="3cqZAo" node="1T$$AsBBYhf" resolve="e" />
+                </node>
+              </node>
+            </node>
+            <node concept="3cpWsn" id="1T$$AsBBYhf" role="TDEfY">
+              <property role="TrG5h" value="e" />
+              <node concept="3uibUv" id="1T$$AsBBYhg" role="1tU5fm">
+                <ref role="3uigEE" to="wyt6:~InterruptedException" resolve="InterruptedException" />
+              </node>
             </node>
           </node>
         </node>
       </node>
-      <node concept="3Tm1VV" id="6VVAk3iwos2" role="1B3o_S" />
-      <node concept="3cqZAl" id="Bd5Iv1dZf$" role="3clF45" />
-      <node concept="37vLTG" id="1gOgZZAQZbK" role="3clF46">
-        <property role="TrG5h" value="project" />
-        <node concept="3uibUv" id="1gOgZZAQZtw" role="1tU5fm">
-          <ref role="3uigEE" to="4nm9:~Project" resolve="Project" />
-        </node>
-      </node>
-      <node concept="37vLTG" id="6VVAk3iwoDn" role="3clF46">
-        <property role="TrG5h" value="commands" />
-        <node concept="10Q1$e" id="6VVAk3iwtfC" role="1tU5fm">
-          <node concept="17QB3L" id="6VVAk3iwoDm" role="10Q1$1" />
-        </node>
-      </node>
-      <node concept="37vLTG" id="Bd5Iv1e1bQ" role="3clF46">
-        <property role="TrG5h" value="outputCallBack" />
-        <node concept="3uibUv" id="Bd5Iv1e1bR" role="1tU5fm">
-          <ref role="3uigEE" node="Bd5Iv1eEuD" resolve="CmdOutputCallBack" />
-        </node>
-      </node>
-      <node concept="37vLTG" id="Bd5Iv1e_bO" role="3clF46">
-        <property role="TrG5h" value="errorCallBack" />
-        <node concept="3uibUv" id="Bd5Iv1e_bP" role="1tU5fm">
-          <ref role="3uigEE" node="Bd5Iv1eEuD" resolve="CmdOutputCallBack" />
-        </node>
-      </node>
-      <node concept="3uibUv" id="6VVAk3iwJpI" role="Sfmx6">
-        <ref role="3uigEE" to="guwi:~IOException" resolve="IOException" />
+      <node concept="2AHcQZ" id="1T$$AsBBeKi" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
     </node>
-    <node concept="2tJIrI" id="6VVAk3iy0cU" role="jymVt" />
+    <node concept="312cEg" id="1T$$AsBBlxX" role="jymVt">
+      <property role="34CwA1" value="false" />
+      <property role="eg7rD" value="false" />
+      <property role="TrG5h" value="project" />
+      <property role="3TUv4t" value="false" />
+      <node concept="3uibUv" id="1T$$AsBBYqu" role="1tU5fm">
+        <ref role="3uigEE" to="4nm9:~Project" resolve="Project" />
+      </node>
+    </node>
+    <node concept="312cEg" id="1T$$AsBBoZJ" role="jymVt">
+      <property role="34CwA1" value="false" />
+      <property role="eg7rD" value="false" />
+      <property role="TrG5h" value="commands" />
+      <property role="3TUv4t" value="false" />
+      <node concept="10Q1$e" id="202QJrhf4kM" role="1tU5fm">
+        <node concept="17QB3L" id="1T$$AsBBoC0" role="10Q1$1" />
+      </node>
+    </node>
+    <node concept="312cEg" id="1T$$AsBCv9K" role="jymVt">
+      <property role="34CwA1" value="false" />
+      <property role="eg7rD" value="false" />
+      <property role="TrG5h" value="outputCallback" />
+      <property role="3TUv4t" value="false" />
+      <node concept="3uibUv" id="1T$$AsBCv1I" role="1tU5fm">
+        <ref role="3uigEE" node="Bd5Iv1eEuD" resolve="CmdOutputCallBack" />
+      </node>
+    </node>
+    <node concept="312cEg" id="2_zkinA61Lq" role="jymVt">
+      <property role="34CwA1" value="false" />
+      <property role="eg7rD" value="false" />
+      <property role="TrG5h" value="errorCallback" />
+      <property role="3TUv4t" value="false" />
+      <node concept="3uibUv" id="2_zkinA61Lr" role="1tU5fm">
+        <ref role="3uigEE" node="Bd5Iv1eEuD" resolve="CmdOutputCallBack" />
+      </node>
+    </node>
     <node concept="2YIFZL" id="6VVAk3iwTzG" role="jymVt">
       <property role="TrG5h" value="executeInBackground" />
       <property role="od$2w" value="false" />
       <property role="DiZV1" value="false" />
       <property role="2aFKle" value="false" />
       <node concept="3clFbS" id="6VVAk3iwTzJ" role="3clF47">
-        <node concept="3cpWs8" id="1gOgZZAQFKA" role="3cqZAp">
-          <node concept="3cpWsn" id="1gOgZZAQFKB" role="3cpWs9">
-            <property role="TrG5h" value="task" />
-            <node concept="3uibUv" id="1gOgZZAQFKC" role="1tU5fm">
-              <ref role="3uigEE" to="xygl:~Task$Backgroundable" resolve="Task.Backgroundable" />
+        <node concept="3cpWs8" id="1T$$AsBBseE" role="3cqZAp">
+          <node concept="3cpWsn" id="1T$$AsBBseF" role="3cpWs9">
+            <property role="TrG5h" value="utilThread" />
+            <node concept="3uibUv" id="1T$$AsBBseG" role="1tU5fm">
+              <ref role="3uigEE" node="6VVAk3iwonn" resolve="CmdUtils" />
             </node>
-            <node concept="2ShNRf" id="1gOgZZAQFV_" role="33vP2m">
-              <node concept="YeOm9" id="1gOgZZAQUpB" role="2ShVmc">
-                <node concept="1Y3b0j" id="1gOgZZAQUpE" role="YeSDq">
-                  <property role="2bfB8j" value="true" />
-                  <ref role="1Y3XeK" to="xygl:~Task$Backgroundable" resolve="Task.Backgroundable" />
-                  <ref role="37wK5l" to="xygl:~Task$Backgroundable.&lt;init&gt;(com.intellij.openapi.project.Project,java.lang.String,boolean,com.intellij.openapi.progress.PerformInBackgroundOption)" resolve="Task.Backgroundable" />
-                  <node concept="3Tm1VV" id="1gOgZZAQUpF" role="1B3o_S" />
-                  <node concept="3clFb_" id="1gOgZZAQUpG" role="jymVt">
-                    <property role="1EzhhJ" value="false" />
-                    <property role="TrG5h" value="run" />
-                    <property role="DiZV1" value="false" />
-                    <property role="od$2w" value="false" />
-                    <node concept="3Tm1VV" id="1gOgZZAQUpH" role="1B3o_S" />
-                    <node concept="3cqZAl" id="1gOgZZAQUpJ" role="3clF45" />
-                    <node concept="37vLTG" id="1gOgZZAQUpK" role="3clF46">
-                      <property role="TrG5h" value="indicator" />
-                      <node concept="3uibUv" id="1gOgZZAQUpL" role="1tU5fm">
-                        <ref role="3uigEE" to="xygl:~ProgressIndicator" resolve="ProgressIndicator" />
-                      </node>
-                      <node concept="2AHcQZ" id="1gOgZZAQUpM" role="2AJF6D">
-                        <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
-                      </node>
-                    </node>
-                    <node concept="3clFbS" id="1gOgZZAQUpN" role="3clF47">
-                      <node concept="SfApY" id="1gOgZZAR3Rn" role="3cqZAp">
-                        <node concept="3clFbS" id="1gOgZZAR3Rp" role="SfCbr">
-                          <node concept="3cpWs8" id="1WgtElW6mrB" role="3cqZAp">
-                            <node concept="3cpWsn" id="1WgtElW6mrA" role="3cpWs9">
-                              <property role="3TUv4t" value="false" />
-                              <property role="TrG5h" value="rt" />
-                              <node concept="3uibUv" id="1WgtElW6mrC" role="1tU5fm">
-                                <ref role="3uigEE" to="wyt6:~Runtime" resolve="Runtime" />
-                              </node>
-                              <node concept="2YIFZM" id="1WgtElW6msC" role="33vP2m">
-                                <ref role="1Pybhc" to="wyt6:~Runtime" resolve="Runtime" />
-                                <ref role="37wK5l" to="wyt6:~Runtime.getRuntime():java.lang.Runtime" resolve="getRuntime" />
-                              </node>
-                            </node>
-                          </node>
-                          <node concept="3cpWs8" id="Bd5Iv1e0W3" role="3cqZAp">
-                            <node concept="3cpWsn" id="Bd5Iv1e0W4" role="3cpWs9">
-                              <property role="TrG5h" value="proc" />
-                              <node concept="3uibUv" id="Bd5Iv1e0W5" role="1tU5fm">
-                                <ref role="3uigEE" to="wyt6:~Process" resolve="Process" />
-                              </node>
-                              <node concept="2OqwBi" id="6VVAk3iwsJz" role="33vP2m">
-                                <node concept="37vLTw" id="6VVAk3iwsJ$" role="2Oq$k0">
-                                  <ref role="3cqZAo" node="1WgtElW6mrA" resolve="rt" />
-                                </node>
-                                <node concept="liA8E" id="6VVAk3iwsJ_" role="2OqNvi">
-                                  <ref role="37wK5l" to="wyt6:~Runtime.exec(java.lang.String):java.lang.Process" resolve="exec" />
-                                  <node concept="37vLTw" id="6VVAk3iwUAH" role="37wK5m">
-                                    <ref role="3cqZAo" node="6VVAk3iwTEm" resolve="command" />
-                                  </node>
-                                </node>
-                              </node>
-                            </node>
-                          </node>
-                          <node concept="3cpWs8" id="Bd5Iv1e0k7" role="3cqZAp">
-                            <node concept="3cpWsn" id="Bd5Iv1e0k6" role="3cpWs9">
-                              <property role="3TUv4t" value="false" />
-                              <property role="TrG5h" value="stdOutput" />
-                              <node concept="3uibUv" id="Bd5Iv1e0k8" role="1tU5fm">
-                                <ref role="3uigEE" to="guwi:~BufferedReader" resolve="BufferedReader" />
-                              </node>
-                              <node concept="2ShNRf" id="Bd5Iv1e0kr" role="33vP2m">
-                                <node concept="1pGfFk" id="Bd5Iv1e0ks" role="2ShVmc">
-                                  <ref role="37wK5l" to="guwi:~BufferedReader.&lt;init&gt;(java.io.Reader)" resolve="BufferedReader" />
-                                  <node concept="2ShNRf" id="Bd5Iv1e0kt" role="37wK5m">
-                                    <node concept="1pGfFk" id="Bd5Iv1e0ku" role="2ShVmc">
-                                      <ref role="37wK5l" to="guwi:~InputStreamReader.&lt;init&gt;(java.io.InputStream)" resolve="InputStreamReader" />
-                                      <node concept="2OqwBi" id="Bd5Iv1e10c" role="37wK5m">
-                                        <node concept="37vLTw" id="Bd5Iv1e10b" role="2Oq$k0">
-                                          <ref role="3cqZAo" node="Bd5Iv1e0W4" resolve="proc" />
-                                        </node>
-                                        <node concept="liA8E" id="Bd5Iv1e10d" role="2OqNvi">
-                                          <ref role="37wK5l" to="wyt6:~Process.getInputStream():java.io.InputStream" resolve="getInputStream" />
-                                        </node>
-                                      </node>
-                                    </node>
-                                  </node>
-                                </node>
-                              </node>
-                            </node>
-                          </node>
-                          <node concept="3cpWs8" id="Bd5Iv1e0kd" role="3cqZAp">
-                            <node concept="3cpWsn" id="Bd5Iv1e0kc" role="3cpWs9">
-                              <property role="3TUv4t" value="false" />
-                              <property role="TrG5h" value="s" />
-                              <node concept="17QB3L" id="Bd5Iv1e1UB" role="1tU5fm" />
-                            </node>
-                          </node>
-                          <node concept="2$JKZl" id="Bd5Iv1e0kq" role="3cqZAp">
-                            <node concept="3y3z36" id="Bd5Iv1e0kf" role="2$JKZa">
-                              <node concept="1eOMI4" id="Bd5Iv1e0kj" role="3uHU7B">
-                                <node concept="37vLTI" id="Bd5Iv1e0kg" role="1eOMHV">
-                                  <node concept="37vLTw" id="Bd5Iv1e0kh" role="37vLTJ">
-                                    <ref role="3cqZAo" node="Bd5Iv1e0kc" resolve="s" />
-                                  </node>
-                                  <node concept="2OqwBi" id="Bd5Iv1e0kC" role="37vLTx">
-                                    <node concept="37vLTw" id="Bd5Iv1e0kB" role="2Oq$k0">
-                                      <ref role="3cqZAo" node="Bd5Iv1e0k6" resolve="stdOutput" />
-                                    </node>
-                                    <node concept="liA8E" id="Bd5Iv1e0kD" role="2OqNvi">
-                                      <ref role="37wK5l" to="guwi:~BufferedReader.readLine():java.lang.String" resolve="readLine" />
-                                    </node>
-                                  </node>
-                                </node>
-                              </node>
-                              <node concept="10Nm6u" id="Bd5Iv1e0kk" role="3uHU7w" />
-                            </node>
-                            <node concept="3clFbS" id="Bd5Iv1e0km" role="2LFqv$">
-                              <node concept="3clFbF" id="Bd5Iv1e0kn" role="3cqZAp">
-                                <node concept="2OqwBi" id="Bd5Iv1e0qq" role="3clFbG">
-                                  <node concept="37vLTw" id="Bd5Iv1e0qp" role="2Oq$k0">
-                                    <ref role="3cqZAo" node="Bd5Iv1dZP$" resolve="callBack" />
-                                  </node>
-                                  <node concept="liA8E" id="Bd5Iv1e0qr" role="2OqNvi">
-                                    <ref role="37wK5l" node="Bd5Iv1dZyT" resolve="lineReceived" />
-                                    <node concept="37vLTw" id="Bd5Iv1e0kp" role="37wK5m">
-                                      <ref role="3cqZAo" node="Bd5Iv1e0kc" resolve="s" />
-                                    </node>
-                                  </node>
-                                </node>
-                              </node>
-                            </node>
-                          </node>
-                          <node concept="3cpWs8" id="Bd5Iv1e_fB" role="3cqZAp">
-                            <node concept="3cpWsn" id="Bd5Iv1e_fC" role="3cpWs9">
-                              <property role="3TUv4t" value="false" />
-                              <property role="TrG5h" value="stdError" />
-                              <node concept="3uibUv" id="Bd5Iv1e_fD" role="1tU5fm">
-                                <ref role="3uigEE" to="guwi:~BufferedReader" resolve="BufferedReader" />
-                              </node>
-                              <node concept="2ShNRf" id="Bd5Iv1e_fE" role="33vP2m">
-                                <node concept="1pGfFk" id="Bd5Iv1e_fF" role="2ShVmc">
-                                  <ref role="37wK5l" to="guwi:~BufferedReader.&lt;init&gt;(java.io.Reader)" resolve="BufferedReader" />
-                                  <node concept="2ShNRf" id="Bd5Iv1e_fG" role="37wK5m">
-                                    <node concept="1pGfFk" id="Bd5Iv1e_fH" role="2ShVmc">
-                                      <ref role="37wK5l" to="guwi:~InputStreamReader.&lt;init&gt;(java.io.InputStream)" resolve="InputStreamReader" />
-                                      <node concept="2OqwBi" id="Bd5Iv1e_fI" role="37wK5m">
-                                        <node concept="37vLTw" id="Bd5Iv1e_fJ" role="2Oq$k0">
-                                          <ref role="3cqZAo" node="Bd5Iv1e0W4" resolve="proc" />
-                                        </node>
-                                        <node concept="liA8E" id="Bd5Iv1e_fK" role="2OqNvi">
-                                          <ref role="37wK5l" to="wyt6:~Process.getErrorStream():java.io.InputStream" resolve="getErrorStream" />
-                                        </node>
-                                      </node>
-                                    </node>
-                                  </node>
-                                </node>
-                              </node>
-                            </node>
-                          </node>
-                          <node concept="2$JKZl" id="Bd5Iv1e_fO" role="3cqZAp">
-                            <node concept="3y3z36" id="Bd5Iv1e_fP" role="2$JKZa">
-                              <node concept="1eOMI4" id="Bd5Iv1e_fQ" role="3uHU7B">
-                                <node concept="37vLTI" id="Bd5Iv1e_fR" role="1eOMHV">
-                                  <node concept="37vLTw" id="Bd5Iv1e_fS" role="37vLTJ">
-                                    <ref role="3cqZAo" node="Bd5Iv1e0kc" resolve="s" />
-                                  </node>
-                                  <node concept="2OqwBi" id="Bd5Iv1e_fT" role="37vLTx">
-                                    <node concept="37vLTw" id="Bd5Iv1e_fU" role="2Oq$k0">
-                                      <ref role="3cqZAo" node="Bd5Iv1e_fC" resolve="stdError" />
-                                    </node>
-                                    <node concept="liA8E" id="Bd5Iv1e_fV" role="2OqNvi">
-                                      <ref role="37wK5l" to="guwi:~BufferedReader.readLine():java.lang.String" resolve="readLine" />
-                                    </node>
-                                  </node>
-                                </node>
-                              </node>
-                              <node concept="10Nm6u" id="Bd5Iv1e_fW" role="3uHU7w" />
-                            </node>
-                            <node concept="3clFbS" id="Bd5Iv1e_fX" role="2LFqv$">
-                              <node concept="3clFbF" id="Bd5Iv1e_fY" role="3cqZAp">
-                                <node concept="2OqwBi" id="Bd5Iv1e_fZ" role="3clFbG">
-                                  <node concept="37vLTw" id="Bd5Iv1eARS" role="2Oq$k0">
-                                    <ref role="3cqZAo" node="Bd5Iv1e_PE" resolve="errorCallBack" />
-                                  </node>
-                                  <node concept="liA8E" id="Bd5Iv1e_g1" role="2OqNvi">
-                                    <ref role="37wK5l" node="Bd5Iv1dZyT" resolve="lineReceived" />
-                                    <node concept="37vLTw" id="Bd5Iv1e_g2" role="37wK5m">
-                                      <ref role="3cqZAo" node="Bd5Iv1e0kc" resolve="s" />
-                                    </node>
-                                  </node>
-                                </node>
-                              </node>
-                            </node>
-                          </node>
-                        </node>
-                        <node concept="TDmWw" id="1gOgZZAR3Rq" role="TEbGg">
-                          <node concept="3cpWsn" id="1gOgZZAR3Rs" role="TDEfY">
-                            <property role="TrG5h" value="e" />
-                            <node concept="3uibUv" id="1gOgZZAR483" role="1tU5fm">
-                              <ref role="3uigEE" to="guwi:~IOException" resolve="IOException" />
-                            </node>
-                          </node>
-                          <node concept="3clFbS" id="1gOgZZAR3Rw" role="TDEfX">
-                            <node concept="3clFbF" id="asFbg5lNxA" role="3cqZAp">
-                              <node concept="2OqwBi" id="asFbg5lNxB" role="3clFbG">
-                                <node concept="2YIFZM" id="asFbg5lNxC" role="2Oq$k0">
-                                  <ref role="1Pybhc" node="7ZtP2DEHIzu" resolve="Logging" />
-                                  <ref role="37wK5l" node="7ZtP2DEHUg0" resolve="getInstance" />
-                                </node>
-                                <node concept="liA8E" id="asFbg5lNxD" role="2OqNvi">
-                                  <ref role="37wK5l" node="7ZtP2DEIcXC" resolve="error" />
-                                  <node concept="37vLTw" id="7ZtP2DEIucB" role="37wK5m">
-                                    <ref role="3cqZAo" node="1gOgZZAR3Rs" resolve="e" />
-                                  </node>
-                                </node>
-                              </node>
-                            </node>
-                          </node>
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                  <node concept="37vLTw" id="1gOgZZAQWRm" role="37wK5m">
-                    <ref role="3cqZAo" node="1gOgZZAQVK1" resolve="project" />
-                  </node>
-                  <node concept="Xl_RD" id="1gOgZZAQXEH" role="37wK5m">
-                    <property role="Xl_RC" value="" />
-                  </node>
-                  <node concept="3clFbT" id="1gOgZZAQY3C" role="37wK5m">
-                    <property role="3clFbU" value="false" />
-                  </node>
-                  <node concept="10M0yZ" id="1gOgZZAQY6G" role="37wK5m">
-                    <ref role="1PxDUh" to="xygl:~PerformInBackgroundOption" resolve="PerformInBackgroundOption" />
-                    <ref role="3cqZAo" to="xygl:~PerformInBackgroundOption.DEAF" resolve="DEAF" />
-                  </node>
+            <node concept="2ShNRf" id="1T$$AsBBsXO" role="33vP2m">
+              <node concept="1pGfFk" id="1T$$AsBBOyx" role="2ShVmc">
+                <ref role="37wK5l" node="1T$$AsBBNxK" resolve="CmdUtils" />
+                <node concept="37vLTw" id="1T$$AsBBTG9" role="37wK5m">
+                  <ref role="3cqZAo" node="1gOgZZAQVK1" resolve="project" />
+                </node>
+                <node concept="37vLTw" id="1T$$AsBBU3Y" role="37wK5m">
+                  <ref role="3cqZAo" node="6VVAk3iwTEm" resolve="commands" />
+                </node>
+                <node concept="37vLTw" id="1T$$AsBCwmN" role="37wK5m">
+                  <ref role="3cqZAo" node="Bd5Iv1dZP$" resolve="outputCallBack" />
+                </node>
+                <node concept="37vLTw" id="2_zkinA617L" role="37wK5m">
+                  <ref role="3cqZAo" node="Bd5Iv1e_PE" resolve="errorCallBack" />
                 </node>
               </node>
             </node>
           </node>
         </node>
-        <node concept="3clFbF" id="1gOgZZAR1fV" role="3cqZAp">
-          <node concept="2OqwBi" id="1gOgZZAR1fX" role="3clFbG">
-            <node concept="2YIFZM" id="1gOgZZAR1fY" role="2Oq$k0">
-              <ref role="37wK5l" to="bd8o:~ApplicationManager.getApplication():com.intellij.openapi.application.Application" resolve="getApplication" />
-              <ref role="1Pybhc" to="bd8o:~ApplicationManager" resolve="ApplicationManager" />
+        <node concept="3clFbF" id="1T$$AsBBUJS" role="3cqZAp">
+          <node concept="2OqwBi" id="1T$$AsBBV08" role="3clFbG">
+            <node concept="37vLTw" id="1T$$AsBBUJQ" role="2Oq$k0">
+              <ref role="3cqZAo" node="1T$$AsBBseF" resolve="utilThread" />
             </node>
-            <node concept="liA8E" id="1gOgZZAR1fZ" role="2OqNvi">
-              <ref role="37wK5l" to="bd8o:~Application.invokeLater(java.lang.Runnable):void" resolve="invokeLater" />
-              <node concept="1bVj0M" id="1gOgZZAR1g0" role="37wK5m">
-                <node concept="3clFbS" id="1gOgZZAR1g1" role="1bW5cS">
-                  <node concept="3clFbF" id="1gOgZZAR1g2" role="3cqZAp">
-                    <node concept="2OqwBi" id="1gOgZZAR1g3" role="3clFbG">
-                      <node concept="2YIFZM" id="1gOgZZAR1g4" role="2Oq$k0">
-                        <ref role="1Pybhc" to="xygl:~ProgressManager" resolve="ProgressManager" />
-                        <ref role="37wK5l" to="xygl:~ProgressManager.getInstance():com.intellij.openapi.progress.ProgressManager" resolve="getInstance" />
-                      </node>
-                      <node concept="liA8E" id="1gOgZZAR1g5" role="2OqNvi">
-                        <ref role="37wK5l" to="xygl:~ProgressManager.run(com.intellij.openapi.progress.Task):void" resolve="run" />
-                        <node concept="37vLTw" id="1gOgZZAR1MP" role="37wK5m">
-                          <ref role="3cqZAo" node="1gOgZZAQFKB" resolve="task" />
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
+            <node concept="liA8E" id="1T$$AsBBVeO" role="2OqNvi">
+              <ref role="37wK5l" to="wyt6:~Thread.start():void" resolve="start" />
             </node>
           </node>
         </node>
@@ -7533,12 +7561,14 @@
         </node>
       </node>
       <node concept="37vLTG" id="6VVAk3iwTEm" role="3clF46">
-        <property role="TrG5h" value="command" />
+        <property role="TrG5h" value="commands" />
         <property role="3TUv4t" value="true" />
-        <node concept="17QB3L" id="6VVAk3iwTEl" role="1tU5fm" />
+        <node concept="10Q1$e" id="202QJrhf3NC" role="1tU5fm">
+          <node concept="17QB3L" id="6VVAk3iwTEl" role="10Q1$1" />
+        </node>
       </node>
       <node concept="37vLTG" id="Bd5Iv1dZP$" role="3clF46">
-        <property role="TrG5h" value="callBack" />
+        <property role="TrG5h" value="outputCallBack" />
         <property role="3TUv4t" value="true" />
         <node concept="3uibUv" id="Bd5Iv1e09l" role="1tU5fm">
           <ref role="3uigEE" node="Bd5Iv1eEuD" resolve="CmdOutputCallBack" />
@@ -7555,6 +7585,9 @@
     <node concept="2tJIrI" id="7ZtP2DEH_ht" role="jymVt" />
     <node concept="2tJIrI" id="6VVAk3iwLxa" role="jymVt" />
     <node concept="3Tm1VV" id="6VVAk3iwono" role="1B3o_S" />
+    <node concept="3uibUv" id="1T$$AsBBdJj" role="1zkMxy">
+      <ref role="3uigEE" to="wyt6:~Thread" resolve="Thread" />
+    </node>
   </node>
   <node concept="312cEu" id="6VVAk3ix2zR">
     <property role="TrG5h" value="DockerManager" />
@@ -8205,19 +8238,14 @@
             </node>
           </node>
         </node>
-        <node concept="3cpWs8" id="5$yUzN06PfT" role="3cqZAp">
-          <node concept="3cpWsn" id="5$yUzN06PfU" role="3cpWs9">
-            <property role="TrG5h" value="firstLine" />
-            <property role="3TUv4t" value="true" />
-            <node concept="3uibUv" id="5$yUzN06PfV" role="1tU5fm">
-              <ref role="3uigEE" to="i5cy:~AtomicBoolean" resolve="AtomicBoolean" />
-            </node>
-            <node concept="2ShNRf" id="5$yUzN06PfW" role="33vP2m">
-              <node concept="1pGfFk" id="5$yUzN06PfX" role="2ShVmc">
-                <ref role="37wK5l" to="i5cy:~AtomicBoolean.&lt;init&gt;(boolean)" resolve="AtomicBoolean" />
-                <node concept="3clFbT" id="5$yUzN06PfY" role="37wK5m">
-                  <property role="3clFbU" value="true" />
-                </node>
+        <node concept="3cpWs8" id="2_zkinA3eTd" role="3cqZAp">
+          <node concept="3cpWsn" id="2_zkinA3eTe" role="3cpWs9">
+            <property role="TrG5h" value="dockerOptions" />
+            <node concept="17QB3L" id="2_zkinA3eTc" role="1tU5fm" />
+            <node concept="1rXfSq" id="2_zkinA3eTf" role="33vP2m">
+              <ref role="37wK5l" node="w24d1kAwUa" resolve="getDockerOptions" />
+              <node concept="37vLTw" id="2_zkinA3eTg" role="37wK5m">
+                <ref role="3cqZAo" node="1gOgZZAR6J1" resolve="project" />
               </node>
             </node>
           </node>
@@ -8236,22 +8264,30 @@
                   <ref role="3cqZAo" node="1gOgZZAR6J1" resolve="project" />
                 </node>
               </node>
-              <node concept="1rXfSq" id="w24d1kA_BN" role="2BsfMF">
-                <ref role="37wK5l" node="w24d1kAwUa" resolve="getDockerOptions" />
-                <node concept="37vLTw" id="w24d1kA_Kj" role="37wK5m">
-                  <ref role="3cqZAo" node="1gOgZZAR6J1" resolve="project" />
-                </node>
+              <node concept="Xl_RD" id="2TRE3JM5XKJ" role="2BsfMF">
+                <property role="Xl_RC" value="run" />
               </node>
-              <node concept="Xl_RD" id="1WgtElW6Kj3" role="2BsfMF">
-                <property role="Xl_RC" value="run --net=host -d -p" />
+              <node concept="Xl_RD" id="2TRE3JM5YZf" role="2BsfMF">
+                <property role="Xl_RC" value="--net=bridge" />
+              </node>
+              <node concept="Xl_RD" id="2TRE3JM5Yc2" role="2BsfMF">
+                <property role="Xl_RC" value="-d" />
+              </node>
+              <node concept="Xl_RD" id="2TRE3JM5Ywz" role="2BsfMF">
+                <property role="Xl_RC" value="-p" />
               </node>
               <node concept="3cpWs3" id="6VVAk3izhyd" role="2BsfMF">
                 <node concept="37vLTw" id="6Ef9YXf1C0d" role="3uHU7w">
                   <ref role="3cqZAo" node="w24d1kA5Qx" resolve="port" />
                 </node>
                 <node concept="3cpWs3" id="6VVAk3izgR1" role="3uHU7B">
-                  <node concept="37vLTw" id="w24d1kA6oV" role="3uHU7B">
-                    <ref role="3cqZAo" node="w24d1kA5Qx" resolve="port" />
+                  <node concept="3cpWs3" id="6oxz6d38SbB" role="3uHU7B">
+                    <node concept="Xl_RD" id="1WgtElW6Kj3" role="3uHU7B">
+                      <property role="Xl_RC" value="127.0.0.1:" />
+                    </node>
+                    <node concept="37vLTw" id="w24d1kA6oV" role="3uHU7w">
+                      <ref role="3cqZAo" node="w24d1kA5Qx" resolve="port" />
+                    </node>
                   </node>
                   <node concept="Xl_RD" id="6VVAk3izhd7" role="3uHU7w">
                     <property role="Xl_RC" value=":" />
@@ -8261,21 +8297,103 @@
               <node concept="1rXfSq" id="e_7xe$Gq1S" role="2BsfMF">
                 <ref role="37wK5l" node="e_7xe$Gpkx" resolve="getfullImagePath" />
               </node>
+              <node concept="Xl_RD" id="2TRE3JM600y" role="2BsfMF">
+                <property role="Xl_RC" value="start-notebook.sh" />
+              </node>
               <node concept="3cpWs3" id="6Ef9YXf1CrL" role="2BsfMF">
                 <node concept="37vLTw" id="6Ef9YXf1CEf" role="3uHU7w">
                   <ref role="3cqZAo" node="w24d1kA5Qx" resolve="port" />
                 </node>
                 <node concept="Xl_RD" id="1WgtElW6KDT" role="3uHU7B">
-                  <property role="Xl_RC" value="start-notebook.sh --NotebookApp.port=" />
+                  <property role="Xl_RC" value="--NotebookApp.port=" />
                 </node>
               </node>
             </node>
           </node>
         </node>
+        <node concept="3clFbJ" id="2_zkinA3mPA" role="3cqZAp">
+          <node concept="3clFbS" id="2_zkinA3mPC" role="3clFbx">
+            <node concept="3SKdUt" id="2_zkinA44Ch" role="3cqZAp">
+              <node concept="3SKdUq" id="2_zkinA44Cj" role="3SKWNk">
+                <property role="3SKdUp" value=" insert docker options after docker executable path:" />
+              </node>
+            </node>
+            <node concept="3cpWs8" id="2_zkinA3stH" role="3cqZAp">
+              <node concept="3cpWsn" id="2_zkinA3stK" role="3cpWs9">
+                <property role="TrG5h" value="newCommands" />
+                <node concept="_YKpA" id="2_zkinA3stF" role="1tU5fm">
+                  <node concept="17QB3L" id="2_zkinA3sJb" role="_ZDj9" />
+                </node>
+                <node concept="2ShNRf" id="2_zkinA3t0E" role="33vP2m">
+                  <node concept="Tc6Ow" id="2_zkinA3sYP" role="2ShVmc">
+                    <node concept="17QB3L" id="2_zkinA3sYQ" role="HW$YZ" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="1DcWWT" id="2_zkinA3vXt" role="3cqZAp">
+              <node concept="3clFbS" id="2_zkinA3vXv" role="2LFqv$">
+                <node concept="3clFbF" id="2_zkinA3ZeW" role="3cqZAp">
+                  <node concept="2OqwBi" id="2_zkinA3Zse" role="3clFbG">
+                    <node concept="37vLTw" id="2_zkinA3ZeV" role="2Oq$k0">
+                      <ref role="3cqZAo" node="2_zkinA3stK" resolve="newCommands" />
+                    </node>
+                    <node concept="TSZUe" id="2_zkinA409e" role="2OqNvi">
+                      <node concept="37vLTw" id="2_zkinA40fX" role="25WWJ7">
+                        <ref role="3cqZAo" node="2_zkinA3vXw" resolve="command" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3cpWsn" id="2_zkinA3vXw" role="1Duv9x">
+                <property role="TrG5h" value="command" />
+                <node concept="17QB3L" id="2_zkinA3w65" role="1tU5fm" />
+              </node>
+              <node concept="37vLTw" id="2_zkinA3wfQ" role="1DdaDG">
+                <ref role="3cqZAo" node="1WgtElW6mrE" resolve="commands" />
+              </node>
+            </node>
+            <node concept="3clFbF" id="2_zkinA40EY" role="3cqZAp">
+              <node concept="2OqwBi" id="2_zkinA413r" role="3clFbG">
+                <node concept="37vLTw" id="2_zkinA40Qa" role="2Oq$k0">
+                  <ref role="3cqZAo" node="2_zkinA3stK" resolve="newCommands" />
+                </node>
+                <node concept="1sK_Qi" id="2_zkinA41Kr" role="2OqNvi">
+                  <node concept="3cmrfG" id="2_zkinA41R6" role="1sKJu8">
+                    <property role="3cmrfH" value="1" />
+                  </node>
+                  <node concept="37vLTw" id="2_zkinA42pQ" role="1sKFgg">
+                    <ref role="3cqZAo" node="2_zkinA3eTe" resolve="dockerOptions" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="2_zkinA42RD" role="3cqZAp">
+              <node concept="37vLTI" id="2_zkinA43sS" role="3clFbG">
+                <node concept="2OqwBi" id="2_zkinA440P" role="37vLTx">
+                  <node concept="37vLTw" id="2_zkinA43Lh" role="2Oq$k0">
+                    <ref role="3cqZAo" node="2_zkinA3stK" resolve="newCommands" />
+                  </node>
+                  <node concept="3_kTaI" id="2_zkinA44oI" role="2OqNvi" />
+                </node>
+                <node concept="37vLTw" id="2_zkinA42RB" role="37vLTJ">
+                  <ref role="3cqZAo" node="1WgtElW6mrE" resolve="commands" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="2OqwBi" id="2_zkinA3npV" role="3clFbw">
+            <node concept="37vLTw" id="2_zkinA3ncM" role="2Oq$k0">
+              <ref role="3cqZAo" node="2_zkinA3eTe" resolve="dockerOptions" />
+            </node>
+            <node concept="17RvpY" id="2_zkinA3o3f" role="2OqNvi" />
+          </node>
+        </node>
         <node concept="3clFbF" id="Bd5Iv1erBh" role="3cqZAp">
           <node concept="2YIFZM" id="Bd5Iv1e4Bx" role="3clFbG">
             <ref role="1Pybhc" node="6VVAk3iwonn" resolve="CmdUtils" />
-            <ref role="37wK5l" node="6VVAk3iwo$N" resolve="executeInBackground" />
+            <ref role="37wK5l" node="6VVAk3iwTzG" resolve="executeInBackground" />
             <node concept="37vLTw" id="1gOgZZAR7wk" role="37wK5m">
               <ref role="3cqZAo" node="1gOgZZAR6J1" resolve="project" />
             </node>
@@ -8288,6 +8406,22 @@
                   <property role="2bfB8j" value="true" />
                   <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
                   <ref role="1Y3XeK" node="Bd5Iv1eEuD" resolve="CmdOutputCallBack" />
+                  <node concept="312cEg" id="2TRE3JM51Oj" role="jymVt">
+                    <property role="TrG5h" value="firstLine" />
+                    <property role="3TUv4t" value="true" />
+                    <node concept="3Tm6S6" id="2TRE3JM51Ok" role="1B3o_S" />
+                    <node concept="3uibUv" id="5$yUzN06PfV" role="1tU5fm">
+                      <ref role="3uigEE" to="i5cy:~AtomicBoolean" resolve="AtomicBoolean" />
+                    </node>
+                    <node concept="2ShNRf" id="2TRE3JM52pQ" role="33vP2m">
+                      <node concept="1pGfFk" id="2TRE3JM5EhD" role="2ShVmc">
+                        <ref role="37wK5l" to="i5cy:~AtomicBoolean.&lt;init&gt;(boolean)" resolve="AtomicBoolean" />
+                        <node concept="3clFbT" id="2TRE3JM5Eyn" role="37wK5m">
+                          <property role="3clFbU" value="true" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
                   <node concept="3Tm1VV" id="Bd5Iv1eNkQ" role="1B3o_S" />
                   <node concept="3clFb_" id="Bd5Iv1eNkR" role="jymVt">
                     <property role="1EzhhJ" value="false" />
@@ -8302,6 +8436,17 @@
                     </node>
                     <node concept="3Tm1VV" id="Bd5Iv1eNkW" role="1B3o_S" />
                     <node concept="3clFbS" id="Bd5Iv1eNkX" role="3clF47">
+                      <node concept="34ab3g" id="1LOG1pC7yBa" role="3cqZAp">
+                        <property role="35gtTG" value="error" />
+                        <node concept="3cpWs3" id="1LOG1pC7yHW" role="34bqiv">
+                          <node concept="37vLTw" id="1LOG1pC7zq_" role="3uHU7w">
+                            <ref role="3cqZAo" node="Bd5Iv1eNkU" resolve="line" />
+                          </node>
+                          <node concept="Xl_RD" id="1LOG1pC7yBc" role="3uHU7B">
+                            <property role="Xl_RC" value="lineReceived: " />
+                          </node>
+                        </node>
+                      </node>
                       <node concept="3clFbJ" id="Bd5Iv1eOGa" role="3cqZAp">
                         <node concept="3clFbS" id="Bd5Iv1eOGc" role="3clFbx">
                           <node concept="3clFbF" id="70iH0fuAeu8" role="3cqZAp">
@@ -8315,15 +8460,24 @@
                               </node>
                             </node>
                           </node>
-                          <node concept="3clFbF" id="Bd5Iv1ePaI" role="3cqZAp">
-                            <node concept="2OqwBi" id="Bd5Iv1eQGw" role="3clFbG">
-                              <node concept="37vLTw" id="Bd5Iv1ePaG" role="2Oq$k0">
-                                <ref role="3cqZAo" node="5$yUzN06PfU" resolve="firstLine" />
+                          <node concept="3clFbF" id="2_zkinA4YK3" role="3cqZAp">
+                            <node concept="2OqwBi" id="2_zkinA4YMr" role="3clFbG">
+                              <node concept="2YIFZM" id="2_zkinA4YLN" role="2Oq$k0">
+                                <ref role="37wK5l" node="7ZtP2DEHUg0" resolve="getInstance" />
+                                <ref role="1Pybhc" node="7ZtP2DEHIzu" resolve="Logging" />
                               </node>
-                              <node concept="liA8E" id="Bd5Iv1eQJ9" role="2OqNvi">
-                                <ref role="37wK5l" to="i5cy:~AtomicBoolean.set(boolean):void" resolve="set" />
-                                <node concept="3clFbT" id="Bd5Iv1eQS7" role="37wK5m">
-                                  <property role="3clFbU" value="false" />
+                              <node concept="liA8E" id="2_zkinA4YOy" role="2OqNvi">
+                                <ref role="37wK5l" node="7ZtP2DEHJzN" resolve="info" />
+                                <node concept="3cpWs3" id="2_zkinA4ZcH" role="37wK5m">
+                                  <node concept="1rXfSq" id="2_zkinA505U" role="3uHU7w">
+                                    <ref role="37wK5l" node="70iH0fuA5oN" resolve="getContainerID" />
+                                    <node concept="37vLTw" id="2_zkinA50zU" role="37wK5m">
+                                      <ref role="3cqZAo" node="1gOgZZAR6J1" resolve="project" />
+                                    </node>
+                                  </node>
+                                  <node concept="Xl_RD" id="2_zkinA4Z38" role="3uHU7B">
+                                    <property role="Xl_RC" value="Container id:" />
+                                  </node>
                                 </node>
                               </node>
                             </node>
@@ -8331,10 +8485,13 @@
                         </node>
                         <node concept="2OqwBi" id="Bd5Iv1eQqy" role="3clFbw">
                           <node concept="37vLTw" id="Bd5Iv1eOP3" role="2Oq$k0">
-                            <ref role="3cqZAo" node="5$yUzN06PfU" resolve="firstLine" />
+                            <ref role="3cqZAo" node="2TRE3JM51Oj" resolve="firstLine" />
                           </node>
                           <node concept="liA8E" id="Bd5Iv1eQtf" role="2OqNvi">
-                            <ref role="37wK5l" to="i5cy:~AtomicBoolean.get():boolean" resolve="get" />
+                            <ref role="37wK5l" to="i5cy:~AtomicBoolean.getAndSet(boolean):boolean" resolve="getAndSet" />
+                            <node concept="3clFbT" id="1LOG1pC7y5S" role="37wK5m">
+                              <property role="3clFbU" value="false" />
+                            </node>
                           </node>
                         </node>
                       </node>
@@ -8408,7 +8565,7 @@
         <node concept="3clFbF" id="Bd5Iv1eJ7H" role="3cqZAp">
           <node concept="2YIFZM" id="6VVAk3izqc0" role="3clFbG">
             <ref role="1Pybhc" node="6VVAk3iwonn" resolve="CmdUtils" />
-            <ref role="37wK5l" node="6VVAk3iwo$N" resolve="executeInBackground" />
+            <ref role="37wK5l" node="6VVAk3iwTzG" resolve="executeInBackground" />
             <node concept="37vLTw" id="1gOgZZAR7JO" role="37wK5m">
               <ref role="3cqZAo" node="1gOgZZAR76C" resolve="project" />
             </node>
@@ -8866,6 +9023,20 @@
           </node>
           <node concept="TDmWw" id="6VVAk3iz0Mx" role="TEbGg">
             <node concept="3clFbS" id="6VVAk3iz0My" role="TDEfX">
+              <node concept="1X3_iC" id="2_zkinA5QFP" role="lGtFl">
+                <property role="3V$3am" value="statement" />
+                <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
+                <node concept="34ab3g" id="202QJrhdUEC" role="8Wnug">
+                  <property role="35gtTG" value="error" />
+                  <property role="34fQS0" value="true" />
+                  <node concept="Xl_RD" id="202QJrhdUEE" role="34bqiv">
+                    <property role="Xl_RC" value="Unable to start docker Jupyter server" />
+                  </node>
+                  <node concept="37vLTw" id="202QJrhdUEG" role="34bMjA">
+                    <ref role="3cqZAo" node="6VVAk3iz0Mz" resolve="e" />
+                  </node>
+                </node>
+              </node>
               <node concept="3clFbF" id="7ZtP2DEIvBh" role="3cqZAp">
                 <node concept="2OqwBi" id="7ZtP2DEIvBi" role="3clFbG">
                   <node concept="2YIFZM" id="7ZtP2DEIvBj" role="2Oq$k0">
@@ -14831,6 +15002,351 @@
         <ref role="3uigEE" to="dxuu:~JTextArea" resolve="JTextArea" />
       </node>
       <node concept="3Tm6S6" id="55a1UmAvd6W" role="1B3o_S" />
+    </node>
+  </node>
+  <node concept="312cEu" id="1T$$AsBFmGK">
+    <property role="TrG5h" value="StreamGobbler" />
+    <property role="2bfB8j" value="true" />
+    <property role="1sVAO0" value="false" />
+    <property role="1EXbeo" value="false" />
+    <property role="3GE5qa" value="utility.cmd" />
+    <node concept="3uibUv" id="1T$$AsBFmGL" role="EKbjA">
+      <ref role="3uigEE" to="wyt6:~Runnable" resolve="Runnable" />
+    </node>
+    <node concept="312cEg" id="1T$$AsBFmGM" role="jymVt">
+      <property role="34CwA1" value="false" />
+      <property role="eg7rD" value="false" />
+      <property role="TrG5h" value="is" />
+      <property role="3TUv4t" value="true" />
+      <node concept="3uibUv" id="1T$$AsBFmGO" role="1tU5fm">
+        <ref role="3uigEE" to="guwi:~InputStream" resolve="InputStream" />
+      </node>
+      <node concept="3Tm6S6" id="1T$$AsBFmGP" role="1B3o_S" />
+    </node>
+    <node concept="312cEg" id="1T$$AsBFmGQ" role="jymVt">
+      <property role="34CwA1" value="false" />
+      <property role="eg7rD" value="false" />
+      <property role="TrG5h" value="os" />
+      <property role="3TUv4t" value="true" />
+      <node concept="3uibUv" id="1T$$AsBFmGS" role="1tU5fm">
+        <ref role="3uigEE" to="guwi:~PrintStream" resolve="PrintStream" />
+      </node>
+      <node concept="3Tm6S6" id="1T$$AsBFmGT" role="1B3o_S" />
+    </node>
+    <node concept="312cEg" id="202QJrheIdp" role="jymVt">
+      <property role="34CwA1" value="false" />
+      <property role="eg7rD" value="false" />
+      <property role="TrG5h" value="callBack" />
+      <property role="3TUv4t" value="false" />
+      <node concept="3uibUv" id="202QJrheI5m" role="1tU5fm">
+        <ref role="3uigEE" node="Bd5Iv1eEuD" resolve="CmdOutputCallBack" />
+      </node>
+    </node>
+    <node concept="3clFbW" id="1T$$AsBFmGU" role="jymVt">
+      <property role="DiZV1" value="false" />
+      <property role="od$2w" value="false" />
+      <node concept="3cqZAl" id="1T$$AsBFmGV" role="3clF45" />
+      <node concept="37vLTG" id="1T$$AsBFmGW" role="3clF46">
+        <property role="TrG5h" value="is" />
+        <property role="3TUv4t" value="false" />
+        <node concept="3uibUv" id="1T$$AsBFmGX" role="1tU5fm">
+          <ref role="3uigEE" to="guwi:~InputStream" resolve="InputStream" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="1T$$AsBFmGY" role="3clF46">
+        <property role="TrG5h" value="os" />
+        <property role="3TUv4t" value="false" />
+        <node concept="3uibUv" id="1T$$AsBFmGZ" role="1tU5fm">
+          <ref role="3uigEE" to="guwi:~PrintStream" resolve="PrintStream" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="202QJrheHFg" role="3clF46">
+        <property role="TrG5h" value="callback" />
+        <node concept="3uibUv" id="202QJrheHOU" role="1tU5fm">
+          <ref role="3uigEE" node="Bd5Iv1eEuD" resolve="CmdOutputCallBack" />
+        </node>
+      </node>
+      <node concept="3clFbS" id="1T$$AsBFmH0" role="3clF47">
+        <node concept="1VxSAg" id="202QJrheO0P" role="3cqZAp">
+          <ref role="37wK5l" node="202QJrheMPV" resolve="StreamGobbler" />
+          <node concept="37vLTw" id="202QJrheObb" role="37wK5m">
+            <ref role="3cqZAo" node="1T$$AsBFmGW" resolve="is" />
+          </node>
+          <node concept="37vLTw" id="202QJrheOkU" role="37wK5m">
+            <ref role="3cqZAo" node="1T$$AsBFmGY" resolve="os" />
+          </node>
+        </node>
+        <node concept="3clFbF" id="202QJrheIFS" role="3cqZAp">
+          <node concept="37vLTI" id="202QJrheITO" role="3clFbG">
+            <node concept="37vLTw" id="1LOG1pC7Iom" role="37vLTx">
+              <ref role="3cqZAo" node="202QJrheHFg" resolve="callback" />
+            </node>
+            <node concept="2OqwBi" id="202QJrheIHt" role="37vLTJ">
+              <node concept="Xjq3P" id="202QJrheIFQ" role="2Oq$k0" />
+              <node concept="2OwXpG" id="202QJrheIQF" role="2OqNvi">
+                <ref role="2Oxat5" node="202QJrheIdp" resolve="callBack" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="312cEg" id="202QJrhepHk" role="jymVt">
+      <property role="34CwA1" value="false" />
+      <property role="eg7rD" value="false" />
+      <property role="TrG5h" value="line" />
+      <property role="3TUv4t" value="false" />
+      <node concept="3uibUv" id="202QJrhepC7" role="1tU5fm">
+        <ref role="3uigEE" to="wyt6:~StringBuffer" resolve="StringBuffer" />
+      </node>
+      <node concept="2ShNRf" id="202QJrheq6L" role="33vP2m">
+        <node concept="1pGfFk" id="202QJrheq3z" role="2ShVmc">
+          <ref role="37wK5l" to="wyt6:~StringBuffer.&lt;init&gt;()" resolve="StringBuffer" />
+        </node>
+      </node>
+    </node>
+    <node concept="3clFbW" id="202QJrheMPV" role="jymVt">
+      <property role="DiZV1" value="false" />
+      <property role="od$2w" value="false" />
+      <node concept="3cqZAl" id="202QJrheMPW" role="3clF45" />
+      <node concept="37vLTG" id="202QJrheMPX" role="3clF46">
+        <property role="TrG5h" value="is" />
+        <property role="3TUv4t" value="false" />
+        <node concept="3uibUv" id="202QJrheMPY" role="1tU5fm">
+          <ref role="3uigEE" to="guwi:~InputStream" resolve="InputStream" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="202QJrheMPZ" role="3clF46">
+        <property role="TrG5h" value="os" />
+        <property role="3TUv4t" value="false" />
+        <node concept="3uibUv" id="202QJrheMQ0" role="1tU5fm">
+          <ref role="3uigEE" to="guwi:~PrintStream" resolve="PrintStream" />
+        </node>
+      </node>
+      <node concept="3clFbS" id="202QJrheMQ3" role="3clF47">
+        <node concept="3clFbF" id="202QJrheMQ4" role="3cqZAp">
+          <node concept="37vLTI" id="202QJrheMQ5" role="3clFbG">
+            <node concept="2OqwBi" id="202QJrheMQ6" role="37vLTJ">
+              <node concept="Xjq3P" id="202QJrheMQ7" role="2Oq$k0" />
+              <node concept="2OwXpG" id="202QJrheMQ8" role="2OqNvi">
+                <ref role="2Oxat5" node="1T$$AsBFmGM" resolve="is" />
+              </node>
+            </node>
+            <node concept="37vLTw" id="202QJrheMQ9" role="37vLTx">
+              <ref role="3cqZAo" node="202QJrheMPX" resolve="is" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="202QJrheMQa" role="3cqZAp">
+          <node concept="37vLTI" id="202QJrheMQb" role="3clFbG">
+            <node concept="2OqwBi" id="202QJrheMQc" role="37vLTJ">
+              <node concept="Xjq3P" id="202QJrheMQd" role="2Oq$k0" />
+              <node concept="2OwXpG" id="202QJrheMQe" role="2OqNvi">
+                <ref role="2Oxat5" node="1T$$AsBFmGQ" resolve="os" />
+              </node>
+            </node>
+            <node concept="37vLTw" id="202QJrheMQf" role="37vLTx">
+              <ref role="3cqZAo" node="202QJrheMPZ" resolve="os" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="202QJrheMIi" role="jymVt" />
+    <node concept="3clFb_" id="1T$$AsBFmHd" role="jymVt">
+      <property role="TrG5h" value="run" />
+      <property role="DiZV1" value="false" />
+      <property role="od$2w" value="false" />
+      <node concept="3clFbS" id="1T$$AsBFmHe" role="3clF47">
+        <node concept="SfApY" id="1T$$AsBFmHB" role="3cqZAp">
+          <node concept="TDmWw" id="1T$$AsBFmHC" role="TEbGg">
+            <node concept="3clFbS" id="1T$$AsBFmHA" role="TDEfX">
+              <node concept="3SKdUt" id="1T$$AsBFmHH" role="3cqZAp">
+                <node concept="3SKdUq" id="1T$$AsBFmHG" role="3SKWNk">
+                  <property role="3SKdUp" value="Handle error" />
+                </node>
+              </node>
+            </node>
+            <node concept="3cpWsn" id="1T$$AsBFmHy" role="TDEfY">
+              <property role="3TUv4t" value="false" />
+              <property role="TrG5h" value="x" />
+              <node concept="3uibUv" id="1T$$AsBFmH$" role="1tU5fm">
+                <ref role="3uigEE" to="guwi:~IOException" resolve="IOException" />
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbS" id="1T$$AsBFmHg" role="SfCbr">
+            <node concept="3cpWs8" id="1T$$AsBFmHi" role="3cqZAp">
+              <node concept="3cpWsn" id="1T$$AsBFmHh" role="3cpWs9">
+                <property role="3TUv4t" value="false" />
+                <property role="TrG5h" value="c" />
+                <node concept="10Oyi0" id="1T$$AsBFmHj" role="1tU5fm" />
+              </node>
+            </node>
+            <node concept="2$JKZl" id="1T$$AsBFmHw" role="3cqZAp">
+              <node concept="3y3z36" id="1T$$AsBFmHk" role="2$JKZa">
+                <node concept="1eOMI4" id="1T$$AsBFmHo" role="3uHU7B">
+                  <node concept="37vLTI" id="1T$$AsBFmHl" role="1eOMHV">
+                    <node concept="37vLTw" id="1T$$AsBFmHm" role="37vLTJ">
+                      <ref role="3cqZAo" node="1T$$AsBFmHh" resolve="c" />
+                    </node>
+                    <node concept="2OqwBi" id="1T$$AsBFmHL" role="37vLTx">
+                      <node concept="37vLTw" id="1T$$AsBFmHK" role="2Oq$k0">
+                        <ref role="3cqZAo" node="1T$$AsBFmGM" resolve="is" />
+                      </node>
+                      <node concept="liA8E" id="1T$$AsBFmHM" role="2OqNvi">
+                        <ref role="37wK5l" to="guwi:~InputStream.read():int" resolve="read" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="1ZRNhn" id="1T$$AsBFmHp" role="3uHU7w">
+                  <node concept="3cmrfG" id="1T$$AsBFmHq" role="2$L3a6">
+                    <property role="3cmrfH" value="1" />
+                  </node>
+                </node>
+              </node>
+              <node concept="3clFbS" id="1T$$AsBFmHx" role="2LFqv$">
+                <node concept="3cpWs8" id="202QJrheuY2" role="3cqZAp">
+                  <node concept="3cpWsn" id="202QJrheuY5" role="3cpWs9">
+                    <property role="TrG5h" value="aChar" />
+                    <node concept="10Pfzv" id="202QJrheuY0" role="1tU5fm" />
+                    <node concept="10QFUN" id="1T$$AsBFmHt" role="33vP2m">
+                      <node concept="37vLTw" id="1T$$AsBFmHu" role="10QFUP">
+                        <ref role="3cqZAo" node="1T$$AsBFmHh" resolve="c" />
+                      </node>
+                      <node concept="10Pfzv" id="1T$$AsBFmHv" role="10QFUM" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="3clFbF" id="1T$$AsBFmHr" role="3cqZAp">
+                  <node concept="2OqwBi" id="1T$$AsBFmHQ" role="3clFbG">
+                    <node concept="37vLTw" id="1T$$AsBFmHP" role="2Oq$k0">
+                      <ref role="3cqZAo" node="1T$$AsBFmGQ" resolve="os" />
+                    </node>
+                    <node concept="liA8E" id="1T$$AsBFmHR" role="2OqNvi">
+                      <ref role="37wK5l" to="guwi:~PrintStream.print(int):void" resolve="print" />
+                      <node concept="37vLTw" id="202QJrhevf5" role="37wK5m">
+                        <ref role="3cqZAo" node="1T$$AsBFmHh" resolve="c" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="3clFbF" id="202QJrhequH" role="3cqZAp">
+                  <node concept="2OqwBi" id="202QJrheqFG" role="3clFbG">
+                    <node concept="37vLTw" id="202QJrhequF" role="2Oq$k0">
+                      <ref role="3cqZAo" node="202QJrhepHk" resolve="line" />
+                    </node>
+                    <node concept="liA8E" id="202QJrher9e" role="2OqNvi">
+                      <ref role="37wK5l" to="wyt6:~StringBuffer.append(char):java.lang.StringBuffer" resolve="append" />
+                      <node concept="37vLTw" id="202QJrhevPo" role="37wK5m">
+                        <ref role="3cqZAo" node="202QJrheuY5" resolve="aChar" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="3clFbJ" id="202QJrheujr" role="3cqZAp">
+                  <node concept="3clFbS" id="202QJrheujt" role="3clFbx">
+                    <node concept="3clFbJ" id="202QJrheJIN" role="3cqZAp">
+                      <node concept="3clFbS" id="202QJrheJIP" role="3clFbx">
+                        <node concept="3clFbF" id="202QJrheLuk" role="3cqZAp">
+                          <node concept="2OqwBi" id="202QJrheLCp" role="3clFbG">
+                            <node concept="37vLTw" id="202QJrheLui" role="2Oq$k0">
+                              <ref role="3cqZAo" node="202QJrheIdp" resolve="callBack" />
+                            </node>
+                            <node concept="liA8E" id="202QJrheLGD" role="2OqNvi">
+                              <ref role="37wK5l" node="Bd5Iv1dZyT" resolve="lineReceived" />
+                              <node concept="2OqwBi" id="202QJrheM4t" role="37wK5m">
+                                <node concept="37vLTw" id="202QJrheLQw" role="2Oq$k0">
+                                  <ref role="3cqZAo" node="202QJrhepHk" resolve="line" />
+                                </node>
+                                <node concept="liA8E" id="202QJrheMyr" role="2OqNvi">
+                                  <ref role="37wK5l" to="wyt6:~StringBuffer.toString():java.lang.String" resolve="toString" />
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="1Wc70l" id="2TRE3JM6atB" role="3clFbw">
+                        <node concept="3eOSWO" id="2TRE3JM6bkf" role="3uHU7w">
+                          <node concept="3cmrfG" id="2TRE3JM6btC" role="3uHU7w">
+                            <property role="3cmrfH" value="0" />
+                          </node>
+                          <node concept="2OqwBi" id="2TRE3JM6aOe" role="3uHU7B">
+                            <node concept="37vLTw" id="2TRE3JM6aCD" role="2Oq$k0">
+                              <ref role="3cqZAo" node="202QJrhepHk" resolve="line" />
+                            </node>
+                            <node concept="liA8E" id="2TRE3JM6b0w" role="2OqNvi">
+                              <ref role="37wK5l" to="wyt6:~StringBuffer.length():int" resolve="length" />
+                            </node>
+                          </node>
+                        </node>
+                        <node concept="3y3z36" id="202QJrheKDB" role="3uHU7B">
+                          <node concept="37vLTw" id="202QJrheKvm" role="3uHU7B">
+                            <ref role="3cqZAo" node="202QJrheIdp" resolve="callBack" />
+                          </node>
+                          <node concept="10Nm6u" id="202QJrheKNp" role="3uHU7w" />
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="34ab3g" id="202QJrhexg7" role="3cqZAp">
+                      <property role="35gtTG" value="info" />
+                      <node concept="3cpWs3" id="202QJrhexpe" role="34bqiv">
+                        <node concept="37vLTw" id="202QJrhexyF" role="3uHU7w">
+                          <ref role="3cqZAo" node="202QJrhepHk" resolve="line" />
+                        </node>
+                        <node concept="Xl_RD" id="202QJrhexg9" role="3uHU7B">
+                          <property role="Xl_RC" value="received: " />
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="34ab3g" id="2_zkinA5lBq" role="3cqZAp">
+                      <property role="35gtTG" value="info" />
+                      <node concept="3cpWs3" id="2_zkinA5lBr" role="34bqiv">
+                        <node concept="2OqwBi" id="2_zkinA5xLu" role="3uHU7w">
+                          <node concept="37vLTw" id="2_zkinA5mbh" role="2Oq$k0">
+                            <ref role="3cqZAo" node="202QJrheIdp" resolve="callBack" />
+                          </node>
+                          <node concept="liA8E" id="2_zkinA5y0P" role="2OqNvi">
+                            <ref role="37wK5l" to="wyt6:~Object.toString():java.lang.String" resolve="toString" />
+                          </node>
+                        </node>
+                        <node concept="Xl_RD" id="2_zkinA5lBt" role="3uHU7B">
+                          <property role="Xl_RC" value="callback is " />
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="3clFbF" id="202QJrhexVP" role="3cqZAp">
+                      <node concept="2OqwBi" id="202QJrhey_N" role="3clFbG">
+                        <node concept="37vLTw" id="202QJrhexVN" role="2Oq$k0">
+                          <ref role="3cqZAo" node="202QJrhepHk" resolve="line" />
+                        </node>
+                        <node concept="liA8E" id="202QJrhez5e" role="2OqNvi">
+                          <ref role="37wK5l" to="wyt6:~StringBuffer.setLength(int):void" resolve="setLength" />
+                          <node concept="3cmrfG" id="202QJrhezgN" role="37wK5m">
+                            <property role="3cmrfH" value="0" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3clFbC" id="202QJrhewJn" role="3clFbw">
+                    <node concept="1Xhbcc" id="202QJrhewSY" role="3uHU7w">
+                      <property role="1XhdNS" value="\n" />
+                    </node>
+                    <node concept="37vLTw" id="202QJrhewsQ" role="3uHU7B">
+                      <ref role="3cqZAo" node="202QJrheuY5" resolve="aChar" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="1T$$AsBFmHD" role="1B3o_S" />
+      <node concept="3cqZAl" id="1T$$AsBFmHE" role="3clF45" />
     </node>
   </node>
 </model>
