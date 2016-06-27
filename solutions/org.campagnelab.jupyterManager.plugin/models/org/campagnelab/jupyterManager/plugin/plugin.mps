@@ -8724,6 +8724,80 @@
         <node concept="17QB3L" id="70iH0fuAb38" role="1tU5fm" />
       </node>
     </node>
+    <node concept="2tJIrI" id="7PqnxC2iseR" role="jymVt" />
+    <node concept="3clFb_" id="7PqnxC2irtp" role="jymVt">
+      <property role="TrG5h" value="checkStatus" />
+      <property role="DiZV1" value="false" />
+      <property role="od$2w" value="false" />
+      <node concept="10P_77" id="5$yUzN06dnz" role="3clF45" />
+      <node concept="3clFbS" id="5$yUzN06cWb" role="3clF47">
+        <node concept="SfApY" id="6VVAk3ixr0W" role="3cqZAp">
+          <node concept="3clFbS" id="6VVAk3ixr0Y" role="SfCbr">
+            <node concept="3clFbF" id="6VVAk3ixtd1" role="3cqZAp">
+              <node concept="2OqwBi" id="6VVAk3ixmXl" role="3clFbG">
+                <node concept="2YIFZM" id="6VVAk3ixg2H" role="2Oq$k0">
+                  <ref role="1Pybhc" to="zqm8:~Unirest" resolve="Unirest" />
+                  <ref role="37wK5l" to="zqm8:~Unirest.get(java.lang.String):com.mashape.unirest.request.GetRequest" resolve="get" />
+                  <node concept="3cpWs3" id="6VVAk3ixmL0" role="37wK5m">
+                    <node concept="Xl_RD" id="6VVAk3ixmUm" role="3uHU7w">
+                      <property role="Xl_RC" value="api" />
+                    </node>
+                    <node concept="3cpWs3" id="6VVAk3ixlTj" role="3uHU7B">
+                      <node concept="10M0yZ" id="6VVAk3ixmBH" role="3uHU7w">
+                        <ref role="1PxDUh" to="guwi:~File" resolve="File" />
+                        <ref role="3cqZAo" to="guwi:~File.separator" resolve="separator" />
+                      </node>
+                      <node concept="2OqwBi" id="70iH0fu_oLL" role="3uHU7B">
+                        <node concept="2YIFZM" id="70iH0fu_oub" role="2Oq$k0">
+                          <ref role="37wK5l" node="asFbg5lNxS" resolve="getInstance" />
+                          <ref role="1Pybhc" node="6VVAk3ix2zR" resolve="DockerManager" />
+                        </node>
+                        <node concept="liA8E" id="70iH0fu_p6y" role="2OqNvi">
+                          <ref role="37wK5l" node="6VVAk3ixhst" resolve="getFullPath" />
+                          <node concept="37vLTw" id="7PqnxC2iuc9" role="37wK5m">
+                            <ref role="3cqZAo" node="7PqnxC2itIh" resolve="project" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="liA8E" id="6VVAk3ixniH" role="2OqNvi">
+                  <ref role="37wK5l" to="tr4n:~BaseRequest.asJson():com.mashape.unirest.http.HttpResponse" resolve="asJson" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="TDmWw" id="6VVAk3ixr0Z" role="TEbGg">
+            <node concept="3cpWsn" id="6VVAk3ixr11" role="TDEfY">
+              <property role="TrG5h" value="e" />
+              <node concept="3uibUv" id="6VVAk3ixszC" role="1tU5fm">
+                <ref role="3uigEE" to="65o2:~UnirestException" resolve="UnirestException" />
+              </node>
+            </node>
+            <node concept="3clFbS" id="6VVAk3ixr15" role="TDEfX">
+              <node concept="3cpWs6" id="6VVAk3ixtqW" role="3cqZAp">
+                <node concept="3clFbT" id="6VVAk3ixtG_" role="3cqZAk">
+                  <property role="3clFbU" value="false" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs6" id="6VVAk3ixurN" role="3cqZAp">
+          <node concept="3clFbT" id="6VVAk3ixuDN" role="3cqZAk">
+            <property role="3clFbU" value="true" />
+          </node>
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="7PqnxC2isZx" role="1B3o_S" />
+      <node concept="37vLTG" id="7PqnxC2itIh" role="3clF46">
+        <property role="TrG5h" value="project" />
+        <node concept="3uibUv" id="7PqnxC2itIg" role="1tU5fm">
+          <ref role="3uigEE" to="4nm9:~Project" resolve="Project" />
+        </node>
+      </node>
+    </node>
     <node concept="2tJIrI" id="5$yUzN06GU1" role="jymVt" />
     <node concept="3Tm1VV" id="6VVAk3ix2zS" role="1B3o_S" />
   </node>
@@ -9320,76 +9394,6 @@
       <node concept="3cqZAl" id="asFbg5qPpj" role="3clF45" />
       <node concept="3Tm1VV" id="asFbg5rIAw" role="1B3o_S" />
     </node>
-    <node concept="2XrIbr" id="70iH0fu_d4M" role="2XNbBy">
-      <property role="TrG5h" value="checkStatus" />
-      <property role="DiZV1" value="false" />
-      <property role="od$2w" value="false" />
-      <node concept="3clFbS" id="5$yUzN06cWb" role="3clF47">
-        <node concept="SfApY" id="6VVAk3ixr0W" role="3cqZAp">
-          <node concept="3clFbS" id="6VVAk3ixr0Y" role="SfCbr">
-            <node concept="3clFbF" id="6VVAk3ixtd1" role="3cqZAp">
-              <node concept="2OqwBi" id="6VVAk3ixmXl" role="3clFbG">
-                <node concept="2YIFZM" id="6VVAk3ixg2H" role="2Oq$k0">
-                  <ref role="1Pybhc" to="zqm8:~Unirest" resolve="Unirest" />
-                  <ref role="37wK5l" to="zqm8:~Unirest.get(java.lang.String):com.mashape.unirest.request.GetRequest" resolve="get" />
-                  <node concept="3cpWs3" id="6VVAk3ixmL0" role="37wK5m">
-                    <node concept="Xl_RD" id="6VVAk3ixmUm" role="3uHU7w">
-                      <property role="Xl_RC" value="api" />
-                    </node>
-                    <node concept="3cpWs3" id="6VVAk3ixlTj" role="3uHU7B">
-                      <node concept="10M0yZ" id="6VVAk3ixmBH" role="3uHU7w">
-                        <ref role="1PxDUh" to="guwi:~File" resolve="File" />
-                        <ref role="3cqZAo" to="guwi:~File.separator" resolve="separator" />
-                      </node>
-                      <node concept="2OqwBi" id="70iH0fu_oLL" role="3uHU7B">
-                        <node concept="2YIFZM" id="70iH0fu_oub" role="2Oq$k0">
-                          <ref role="1Pybhc" node="6VVAk3ix2zR" resolve="DockerManager" />
-                          <ref role="37wK5l" node="asFbg5lNxS" resolve="getInstance" />
-                        </node>
-                        <node concept="liA8E" id="70iH0fu_p6y" role="2OqNvi">
-                          <ref role="37wK5l" node="6VVAk3ixhst" resolve="getFullPath" />
-                          <node concept="2OqwBi" id="70iH0fuFp1K" role="37wK5m">
-                            <node concept="2WthIp" id="70iH0fuFp1N" role="2Oq$k0" />
-                            <node concept="2BZ7hE" id="70iH0fuFp1P" role="2OqNvi">
-                              <ref role="2WH_rO" node="5DYTiejtNzv" resolve="project" />
-                            </node>
-                          </node>
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                </node>
-                <node concept="liA8E" id="6VVAk3ixniH" role="2OqNvi">
-                  <ref role="37wK5l" to="tr4n:~BaseRequest.asJson():com.mashape.unirest.http.HttpResponse" resolve="asJson" />
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="TDmWw" id="6VVAk3ixr0Z" role="TEbGg">
-            <node concept="3cpWsn" id="6VVAk3ixr11" role="TDEfY">
-              <property role="TrG5h" value="e" />
-              <node concept="3uibUv" id="6VVAk3ixszC" role="1tU5fm">
-                <ref role="3uigEE" to="65o2:~UnirestException" resolve="UnirestException" />
-              </node>
-            </node>
-            <node concept="3clFbS" id="6VVAk3ixr15" role="TDEfX">
-              <node concept="3cpWs6" id="6VVAk3ixtqW" role="3cqZAp">
-                <node concept="3clFbT" id="6VVAk3ixtG_" role="3cqZAk">
-                  <property role="3clFbU" value="false" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3cpWs6" id="6VVAk3ixurN" role="3cqZAp">
-          <node concept="3clFbT" id="6VVAk3ixuDN" role="3cqZAk">
-            <property role="3clFbU" value="true" />
-          </node>
-        </node>
-      </node>
-      <node concept="10P_77" id="5$yUzN06dnz" role="3clF45" />
-      <node concept="3Tm6S6" id="5$yUzN06cxF" role="1B3o_S" />
-    </node>
     <node concept="2XrIbr" id="70iH0fu$FRU" role="2XNbBy">
       <property role="TrG5h" value="startListening" />
       <property role="DiZV1" value="false" />
@@ -9444,12 +9448,21 @@
                                           <ref role="2WH_rO" node="70iH0fuA2J_" resolve="hasStartedInstance" />
                                         </node>
                                       </node>
-                                      <node concept="2OqwBi" id="70iH0fu_gln" role="3uHU7w">
-                                        <node concept="2WthIp" id="70iH0fu_glq" role="2Oq$k0">
-                                          <ref role="32nkFo" node="1WgtElVUICn" resolve="JupyterDockerImage" />
+                                      <node concept="2OqwBi" id="7PqnxC2iw0y" role="3uHU7w">
+                                        <node concept="2YIFZM" id="7PqnxC2ivZr" role="2Oq$k0">
+                                          <ref role="37wK5l" node="asFbg5lNxS" resolve="getInstance" />
+                                          <ref role="1Pybhc" node="6VVAk3ix2zR" resolve="DockerManager" />
                                         </node>
-                                        <node concept="2XshWL" id="70iH0fu_gls" role="2OqNvi">
-                                          <ref role="2WH_rO" node="70iH0fu_d4M" resolve="checkStatus" />
+                                        <node concept="liA8E" id="7PqnxC2iwaf" role="2OqNvi">
+                                          <ref role="37wK5l" node="7PqnxC2irtp" resolve="checkStatus" />
+                                          <node concept="2OqwBi" id="7PqnxC2iwJi" role="37wK5m">
+                                            <node concept="2WthIp" id="7PqnxC2iwJl" role="2Oq$k0">
+                                              <ref role="32nkFo" node="1WgtElVUICn" resolve="JupyterDockerImage" />
+                                            </node>
+                                            <node concept="2BZ7hE" id="7PqnxC2iwJn" role="2OqNvi">
+                                              <ref role="2WH_rO" node="5DYTiejtNzv" resolve="project" />
+                                            </node>
+                                          </node>
                                         </node>
                                       </node>
                                     </node>
