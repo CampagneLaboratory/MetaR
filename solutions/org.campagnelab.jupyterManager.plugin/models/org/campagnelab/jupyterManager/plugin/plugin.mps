@@ -8494,25 +8494,79 @@
                               </node>
                             </node>
                           </node>
-                          <node concept="3clFbF" id="7PqnxC2hftt" role="3cqZAp">
-                            <node concept="2OqwBi" id="7PqnxC2hfys" role="3clFbG">
-                              <node concept="2YIFZM" id="7PqnxC2hfxf" role="2Oq$k0">
-                                <ref role="37wK5l" node="7ZtP2DEHUg0" resolve="getInstance" />
-                                <ref role="1Pybhc" node="7ZtP2DEHIzu" resolve="Logging" />
+                          <node concept="3clFbJ" id="7PqnxC2iXXe" role="3cqZAp">
+                            <node concept="3clFbS" id="7PqnxC2iXXg" role="3clFbx">
+                              <node concept="3clFbF" id="7PqnxC2j4Sk" role="3cqZAp">
+                                <node concept="2OqwBi" id="7PqnxC2j4Y4" role="3clFbG">
+                                  <node concept="2YIFZM" id="7PqnxC2j4WS" role="2Oq$k0">
+                                    <ref role="37wK5l" node="7ZtP2DEHUg0" resolve="getInstance" />
+                                    <ref role="1Pybhc" node="7ZtP2DEHIzu" resolve="Logging" />
+                                  </node>
+                                  <node concept="liA8E" id="7PqnxC2j557" role="2OqNvi">
+                                    <ref role="37wK5l" node="7PqnxC2fJk2" resolve="errorPopup" />
+                                    <node concept="37vLTw" id="7PqnxC2j5nM" role="37wK5m">
+                                      <ref role="3cqZAo" node="1gOgZZAR6J1" resolve="project" />
+                                    </node>
+                                    <node concept="Xl_RD" id="7PqnxC2j602" role="37wK5m">
+                                      <property role="Xl_RC" value="Please check that the URL in the preferences point to the correct location." />
+                                    </node>
+                                  </node>
+                                </node>
                               </node>
-                              <node concept="liA8E" id="7PqnxC2hfDq" role="2OqNvi">
-                                <ref role="37wK5l" node="7PqnxC2gW2L" resolve="infoPopup" />
-                                <node concept="37vLTw" id="7PqnxC2hgaV" role="37wK5m">
+                              <node concept="SfApY" id="7PqnxC2jmRD" role="3cqZAp">
+                                <node concept="3clFbS" id="7PqnxC2jmRF" role="SfCbr">
+                                  <node concept="3clFbF" id="7PqnxC2j23Y" role="3cqZAp">
+                                    <node concept="1rXfSq" id="7PqnxC2j23W" role="3clFbG">
+                                      <ref role="37wK5l" node="6VVAk3izpe6" resolve="removeContainer" />
+                                      <node concept="37vLTw" id="7PqnxC2j3DQ" role="37wK5m">
+                                        <ref role="3cqZAo" node="1gOgZZAR6J1" resolve="project" />
+                                      </node>
+                                    </node>
+                                  </node>
+                                </node>
+                                <node concept="TDmWw" id="7PqnxC2jmRG" role="TEbGg">
+                                  <node concept="3cpWsn" id="7PqnxC2jmRI" role="TDEfY">
+                                    <property role="TrG5h" value="e" />
+                                    <node concept="3uibUv" id="7PqnxC2jn98" role="1tU5fm">
+                                      <ref role="3uigEE" to="guwi:~IOException" resolve="IOException" />
+                                    </node>
+                                  </node>
+                                  <node concept="3clFbS" id="7PqnxC2jmRM" role="TDEfX" />
+                                </node>
+                              </node>
+                            </node>
+                            <node concept="3fqX7Q" id="7PqnxC2iZXw" role="3clFbw">
+                              <node concept="1rXfSq" id="7PqnxC2iZXy" role="3fr31v">
+                                <ref role="37wK5l" node="7PqnxC2irtp" resolve="checkStatus" />
+                                <node concept="37vLTw" id="7PqnxC2iZXz" role="37wK5m">
                                   <ref role="3cqZAo" node="1gOgZZAR6J1" resolve="project" />
                                 </node>
-                                <node concept="3cpWs3" id="7PqnxC2hgXL" role="37wK5m">
-                                  <node concept="Xl_RD" id="7PqnxC2hgxV" role="3uHU7B">
-                                    <property role="Xl_RC" value="New container started:" />
-                                  </node>
-                                  <node concept="1rXfSq" id="7PqnxC2hhKP" role="3uHU7w">
-                                    <ref role="37wK5l" node="70iH0fuA5oN" resolve="getContainerID" />
-                                    <node concept="37vLTw" id="7PqnxC2hhKQ" role="37wK5m">
-                                      <ref role="3cqZAo" node="1gOgZZAR6J1" resolve="project" />
+                              </node>
+                            </node>
+                            <node concept="9aQIb" id="7PqnxC2j7q3" role="9aQIa">
+                              <node concept="3clFbS" id="7PqnxC2j7q4" role="9aQI4">
+                                <node concept="3clFbF" id="7PqnxC2hftt" role="3cqZAp">
+                                  <node concept="2OqwBi" id="7PqnxC2hfys" role="3clFbG">
+                                    <node concept="2YIFZM" id="7PqnxC2hfxf" role="2Oq$k0">
+                                      <ref role="1Pybhc" node="7ZtP2DEHIzu" resolve="Logging" />
+                                      <ref role="37wK5l" node="7ZtP2DEHUg0" resolve="getInstance" />
+                                    </node>
+                                    <node concept="liA8E" id="7PqnxC2hfDq" role="2OqNvi">
+                                      <ref role="37wK5l" node="7PqnxC2gW2L" resolve="infoPopup" />
+                                      <node concept="37vLTw" id="7PqnxC2hgaV" role="37wK5m">
+                                        <ref role="3cqZAo" node="1gOgZZAR6J1" resolve="project" />
+                                      </node>
+                                      <node concept="3cpWs3" id="7PqnxC2hgXL" role="37wK5m">
+                                        <node concept="Xl_RD" id="7PqnxC2hgxV" role="3uHU7B">
+                                          <property role="Xl_RC" value="New container started:" />
+                                        </node>
+                                        <node concept="1rXfSq" id="7PqnxC2hhKP" role="3uHU7w">
+                                          <ref role="37wK5l" node="70iH0fuA5oN" resolve="getContainerID" />
+                                          <node concept="37vLTw" id="7PqnxC2hhKQ" role="37wK5m">
+                                            <ref role="3cqZAo" node="1gOgZZAR6J1" resolve="project" />
+                                          </node>
+                                        </node>
+                                      </node>
                                     </node>
                                   </node>
                                 </node>
@@ -8624,7 +8678,10 @@
               <ref role="37wK5l" node="7ZtP2DEHUg0" resolve="getInstance" />
             </node>
             <node concept="liA8E" id="7PqnxC2hif0" role="2OqNvi">
-              <ref role="37wK5l" node="7ZtP2DEHJzN" resolve="info" />
+              <ref role="37wK5l" node="7PqnxC2gW2L" resolve="infoPopup" />
+              <node concept="37vLTw" id="7PqnxC2jBr7" role="37wK5m">
+                <ref role="3cqZAo" node="1gOgZZAR76C" resolve="project" />
+              </node>
               <node concept="3cpWs3" id="7PqnxC2hif2" role="37wK5m">
                 <node concept="Xl_RD" id="7PqnxC2hif3" role="3uHU7B">
                   <property role="Xl_RC" value="Container stopped:" />
