@@ -6641,6 +6641,38 @@
         </node>
       </node>
     </node>
+    <node concept="3EZMnI" id="2YRQibUAtwc" role="6VMZX">
+      <node concept="3F0ifn" id="2YRQibUAtBN" role="3EZMnx">
+        <property role="3F0ifm" value="path: " />
+      </node>
+      <node concept="1HlG4h" id="2YRQibUAtBT" role="3EZMnx">
+        <node concept="1HfYo3" id="2YRQibUAtBV" role="1HlULh">
+          <node concept="3TQlhw" id="2YRQibUAtBX" role="1Hhtcw">
+            <node concept="3clFbS" id="2YRQibUAtBZ" role="2VODD2">
+              <node concept="3clFbF" id="2YRQibUAtDe" role="3cqZAp">
+                <node concept="2OqwBi" id="2YRQibUAtDg" role="3clFbG">
+                  <node concept="pncrf" id="2YRQibUAtDh" role="2Oq$k0" />
+                  <node concept="2qgKlT" id="2YRQibUAtDi" role="2OqNvi">
+                    <ref role="37wK5l" to="v8sa:6$xxyeHtzvr" resolve="getPath" />
+                    <node concept="2YIFZM" id="2YRQibUAtDj" role="37wK5m">
+                      <ref role="37wK5l" to="alof:~ProjectHelper.getProject(org.jetbrains.mps.openapi.module.SRepository):jetbrains.mps.project.Project" resolve="getProject" />
+                      <ref role="1Pybhc" to="alof:~ProjectHelper" resolve="ProjectHelper" />
+                      <node concept="2OqwBi" id="2YRQibUAtDk" role="37wK5m">
+                        <node concept="1Q80Hx" id="2YRQibUAtDl" role="2Oq$k0" />
+                        <node concept="liA8E" id="2YRQibUAtDm" role="2OqNvi">
+                          <ref role="37wK5l" to="cj4x:~EditorContext.getRepository():org.jetbrains.mps.openapi.module.SRepository" resolve="getRepository" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="l2Vlx" id="2YRQibUAtwf" role="2iSdaV" />
+    </node>
   </node>
   <node concept="24kQdi" id="e_7xe$BzLa">
     <property role="3GE5qa" value="view" />
