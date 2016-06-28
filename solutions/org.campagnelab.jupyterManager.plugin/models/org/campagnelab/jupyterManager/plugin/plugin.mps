@@ -2,18 +2,18 @@
 <model ref="r:d4fc1ccf-1b20-4c10-aae7-94de66326394(org.campagnelab.jupyterManager.plugin.plugin)">
   <persistence version="9" />
   <languages>
-    <use id="28f9e497-3b42-4291-aeba-0a1039153ab1" name="jetbrains.mps.lang.plugin" version="0" />
-    <use id="ef7bf5ac-d06c-4342-b11d-e42104eb9343" name="jetbrains.mps.lang.plugin.standalone" version="0" />
-    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="2" />
-    <use id="63650c59-16c8-498a-99c8-005c7ee9515d" name="jetbrains.mps.lang.access" version="0" />
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="4" />
-    <use id="696c1165-4a59-463b-bc5d-902caab85dd0" name="jetbrains.mps.make.facet" version="0" />
-    <use id="756e911c-3f1f-4a48-bdf5-a2ceb91b723c" name="jetbrains.mps.execution.settings" version="0" />
-    <use id="a247e09e-2435-45ba-b8d2-07e93feba96a" name="jetbrains.mps.baseLanguage.tuples" version="0" />
-    <use id="774bf8a0-62e5-41e1-af63-f4812e60e48b" name="jetbrains.mps.baseLanguage.checkedDots" version="0" />
-    <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="2" />
-    <use id="de1ad86d-6e50-4a02-b306-d4d17f64c375" name="jetbrains.mps.console.base" version="0" />
-    <use id="982eb8df-2c96-4bd7-9963-11712ea622e5" name="jetbrains.mps.lang.resources" version="0" />
+    <use id="28f9e497-3b42-4291-aeba-0a1039153ab1" name="jetbrains.mps.lang.plugin" version="-1" />
+    <use id="ef7bf5ac-d06c-4342-b11d-e42104eb9343" name="jetbrains.mps.lang.plugin.standalone" version="-1" />
+    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="-1" />
+    <use id="63650c59-16c8-498a-99c8-005c7ee9515d" name="jetbrains.mps.lang.access" version="-1" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="-1" />
+    <use id="696c1165-4a59-463b-bc5d-902caab85dd0" name="jetbrains.mps.make.facet" version="-1" />
+    <use id="756e911c-3f1f-4a48-bdf5-a2ceb91b723c" name="jetbrains.mps.execution.settings" version="-1" />
+    <use id="a247e09e-2435-45ba-b8d2-07e93feba96a" name="jetbrains.mps.baseLanguage.tuples" version="-1" />
+    <use id="774bf8a0-62e5-41e1-af63-f4812e60e48b" name="jetbrains.mps.baseLanguage.checkedDots" version="-1" />
+    <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="-1" />
+    <use id="de1ad86d-6e50-4a02-b306-d4d17f64c375" name="jetbrains.mps.console.base" version="-1" />
+    <use id="982eb8df-2c96-4bd7-9963-11712ea622e5" name="jetbrains.mps.lang.resources" version="-1" />
   </languages>
   <imports>
     <import index="hfuk" ref="r:b25dd364-bc3f-4a66-97d1-262009610c5e(jetbrains.mps.make)" />
@@ -350,7 +350,7 @@
         <child id="1068580123161" name="ifTrue" index="3clFbx" />
         <child id="1206060520071" name="elsifClauses" index="3eNLev" />
       </concept>
-      <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
+      <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
       </concept>
       <concept id="1068580123137" name="jetbrains.mps.baseLanguage.structure.BooleanConstant" flags="nn" index="3clFbT">
@@ -1937,7 +1937,28 @@
                           </node>
                           <node concept="3clFbS" id="7d3kpy2axvm" role="3clF47">
                             <node concept="3clFbJ" id="7d3kpy2axvn" role="3cqZAp">
-                              <node concept="3clFbS" id="7d3kpy2axvo" role="3clFbx" />
+                              <node concept="3clFbS" id="7d3kpy2axvo" role="3clFbx">
+                                <node concept="3SKdUt" id="4fyqOwSyEBv" role="3cqZAp">
+                                  <node concept="3SKdUq" id="4fyqOwSyEBw" role="3SKWNk">
+                                    <property role="3SKdUp" value="TODO discuss with Alex" />
+                                  </node>
+                                </node>
+                                <node concept="3clFbF" id="4fyqOwSz34p" role="3cqZAp">
+                                  <node concept="2OqwBi" id="4fyqOwSz34q" role="3clFbG">
+                                    <node concept="2YIFZM" id="4fyqOwSz34r" role="2Oq$k0">
+                                      <ref role="1Pybhc" node="7ZtP2DEHIzu" resolve="Logging" />
+                                      <ref role="37wK5l" node="7ZtP2DEHUg0" resolve="getInstance" />
+                                    </node>
+                                    <node concept="liA8E" id="4fyqOwSz34s" role="2OqNvi">
+                                      <ref role="37wK5l" node="7ZtP2DEHJr1" resolve="warning" />
+                                      <node concept="Xl_RD" id="4fyqOwSz34t" role="37wK5m">
+                                        <property role="Xl_RC" value="Not writting table" />
+                                      </node>
+                                    </node>
+                                  </node>
+                                </node>
+                                <node concept="3clFbH" id="4fyqOwSz34j" role="3cqZAp" />
+                              </node>
                               <node concept="3y3z36" id="7d3kpy2axvt" role="3clFbw">
                                 <node concept="10Nm6u" id="7d3kpy2axvu" role="3uHU7w" />
                                 <node concept="2OqwBi" id="7d3kpy2axvv" role="3uHU7B">
@@ -9653,9 +9674,6 @@
                                         <ref role="3cqZAo" node="1gOgZZAR6J1" resolve="project" />
                                       </node>
                                       <node concept="3cpWs3" id="7PqnxC2hgXL" role="37wK5m">
-                                        <node concept="Xl_RD" id="7PqnxC2hgxV" role="3uHU7B">
-                                          <property role="Xl_RC" value="New container started:" />
-                                        </node>
                                         <node concept="2OqwBi" id="2ZZbyE_Ci1C" role="3uHU7w">
                                           <node concept="37vLTw" id="2ZZbyE_Ci1D" role="2Oq$k0">
                                             <ref role="3cqZAo" node="2ZZbyE_Cime" resolve="runningContainer" />
@@ -9663,6 +9681,9 @@
                                           <node concept="2sxana" id="2ZZbyE_Ci1E" role="2OqNvi">
                                             <ref role="2sxfKC" node="2ZZbyE_Cd4f" resolve="containerName" />
                                           </node>
+                                        </node>
+                                        <node concept="Xl_RD" id="7PqnxC2hgxV" role="3uHU7B">
+                                          <property role="Xl_RC" value="New container started:" />
                                         </node>
                                       </node>
                                     </node>
@@ -9826,9 +9847,6 @@
                 <ref role="3cqZAo" node="1gOgZZAR76C" resolve="project" />
               </node>
               <node concept="3cpWs3" id="7PqnxC2hif2" role="37wK5m">
-                <node concept="Xl_RD" id="7PqnxC2hif3" role="3uHU7B">
-                  <property role="Xl_RC" value="Container stopped:" />
-                </node>
                 <node concept="2OqwBi" id="2ZZbyE_Cat3" role="3uHU7w">
                   <node concept="37vLTw" id="2ZZbyE_Cahv" role="2Oq$k0">
                     <ref role="3cqZAo" node="2ZZbyE_C90u" resolve="runningContainer" />
@@ -9836,6 +9854,9 @@
                   <node concept="2sxana" id="2ZZbyE_CfoB" role="2OqNvi">
                     <ref role="2sxfKC" node="2ZZbyE_Cd4f" resolve="containerName" />
                   </node>
+                </node>
+                <node concept="Xl_RD" id="7PqnxC2hif3" role="3uHU7B">
+                  <property role="Xl_RC" value="Container stopped:" />
                 </node>
               </node>
             </node>
@@ -12794,14 +12815,14 @@
       <property role="2dld4O" value="false" />
       <property role="TrG5h" value="INSTANCE" />
       <property role="3TUv4t" value="false" />
-      <node concept="3Tm6S6" id="7ZtP2DEHUfQ" role="1B3o_S" />
-      <node concept="3uibUv" id="7ZtP2DEHUwK" role="1tU5fm">
-        <ref role="3uigEE" node="7ZtP2DEHIzu" resolve="Logging" />
-      </node>
       <node concept="2ShNRf" id="7PqnxC2BdXu" role="33vP2m">
         <node concept="HV5vD" id="7PqnxC2BeNu" role="2ShVmc">
           <ref role="HV5vE" node="7ZtP2DEHIzu" resolve="Logging" />
         </node>
+      </node>
+      <node concept="3Tm6S6" id="7ZtP2DEHUfQ" role="1B3o_S" />
+      <node concept="3uibUv" id="7ZtP2DEHUwK" role="1tU5fm">
+        <ref role="3uigEE" node="7ZtP2DEHIzu" resolve="Logging" />
       </node>
     </node>
     <node concept="2tJIrI" id="asFbg5i37J" role="jymVt" />
@@ -12904,8 +12925,8 @@
               <ref role="3cqZAo" node="7ZtP2DEHJzQ" resolve="message" />
             </node>
             <node concept="Rm8GO" id="7ZtP2DEHM15" role="37wK5m">
-              <ref role="1Px2BO" node="7PqnxC2B70V" resolve="MessageKind" />
               <ref role="Rm8GQ" node="~MessageKind.INFORMATION" resolve="INFORMATION" />
+              <ref role="1Px2BO" node="7PqnxC2B70V" resolve="MessageKind" />
             </node>
           </node>
         </node>
@@ -12960,8 +12981,8 @@
               <ref role="3cqZAo" node="7ZtP2DEHJHo" resolve="message" />
             </node>
             <node concept="Rm8GO" id="7ZtP2DEHM6x" role="37wK5m">
-              <ref role="1Px2BO" node="7PqnxC2B70V" resolve="MessageKind" />
               <ref role="Rm8GQ" node="~MessageKind.ERROR" resolve="ERROR" />
+              <ref role="1Px2BO" node="7PqnxC2B70V" resolve="MessageKind" />
             </node>
           </node>
         </node>
@@ -12993,8 +13014,8 @@
               </node>
             </node>
             <node concept="Rm8GO" id="7ZtP2DEIcXH" role="37wK5m">
-              <ref role="1Px2BO" node="7PqnxC2B70V" resolve="MessageKind" />
               <ref role="Rm8GQ" node="~MessageKind.ERROR" resolve="ERROR" />
+              <ref role="1Px2BO" node="7PqnxC2B70V" resolve="MessageKind" />
             </node>
           </node>
         </node>
@@ -17511,6 +17532,7 @@
     <property role="1sVAO0" value="false" />
     <property role="1EXbeo" value="false" />
     <property role="3GE5qa" value="utility.cmd" />
+    <node concept="3Tm1VV" id="7PqnxC2Eqj$" role="1B3o_S" />
     <node concept="3uibUv" id="1T$$AsBFmGL" role="EKbjA">
       <ref role="3uigEE" to="wyt6:~Runnable" resolve="Runnable" />
     </node>
@@ -17546,6 +17568,7 @@
     <node concept="3clFbW" id="1T$$AsBFmGU" role="jymVt">
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
+      <node concept="3Tm1VV" id="7PqnxC2Eqxm" role="1B3o_S" />
       <node concept="3cqZAl" id="1T$$AsBFmGV" role="3clF45" />
       <node concept="37vLTG" id="1T$$AsBFmGW" role="3clF46">
         <property role="TrG5h" value="is" />
@@ -17591,7 +17614,6 @@
           </node>
         </node>
       </node>
-      <node concept="3Tm1VV" id="7PqnxC2Eqxm" role="1B3o_S" />
     </node>
     <node concept="312cEg" id="202QJrhepHk" role="jymVt">
       <property role="34CwA1" value="false" />
@@ -17850,28 +17872,6 @@
       <node concept="3Tm1VV" id="1T$$AsBFmHD" role="1B3o_S" />
       <node concept="3cqZAl" id="1T$$AsBFmHE" role="3clF45" />
     </node>
-    <node concept="3Tm1VV" id="7PqnxC2Eqj$" role="1B3o_S" />
-  </node>
-  <node concept="Qs71p" id="7PqnxC2B70V">
-    <property role="3GE5qa" value="data" />
-    <property role="TrG5h" value="MessageKind" />
-    <node concept="QsSxf" id="7PqnxC2B7vH" role="Qtgdg">
-      <property role="TrG5h" value="DEBUG" />
-      <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
-    </node>
-    <node concept="QsSxf" id="~MessageKind.INFORMATION" role="Qtgdg">
-      <property role="TrG5h" value="INFORMATION" />
-      <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
-    </node>
-    <node concept="QsSxf" id="~MessageKind.WARNING" role="Qtgdg">
-      <property role="TrG5h" value="WARNING" />
-      <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
-    </node>
-    <node concept="QsSxf" id="~MessageKind.ERROR" role="Qtgdg">
-      <property role="TrG5h" value="ERROR" />
-      <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
-    </node>
-    <node concept="3Tm1VV" id="7PqnxC2B70W" role="1B3o_S" />
   </node>
   <node concept="2fD8I5" id="2ZZbyE_udYC">
     <property role="3GE5qa" value="data" />
@@ -17902,6 +17902,27 @@
       <node concept="17QB3L" id="2ZZbyE_Cdat" role="2lK19J" />
     </node>
     <node concept="3Tm1VV" id="2ZZbyE_udYD" role="1B3o_S" />
+  </node>
+  <node concept="Qs71p" id="7PqnxC2B70V">
+    <property role="3GE5qa" value="data" />
+    <property role="TrG5h" value="MessageKind" />
+    <node concept="QsSxf" id="7PqnxC2B7vH" role="Qtgdg">
+      <property role="TrG5h" value="DEBUG" />
+      <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
+    </node>
+    <node concept="QsSxf" id="~MessageKind.INFORMATION" role="Qtgdg">
+      <property role="TrG5h" value="INFORMATION" />
+      <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
+    </node>
+    <node concept="QsSxf" id="~MessageKind.WARNING" role="Qtgdg">
+      <property role="TrG5h" value="WARNING" />
+      <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
+    </node>
+    <node concept="QsSxf" id="~MessageKind.ERROR" role="Qtgdg">
+      <property role="TrG5h" value="ERROR" />
+      <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
+    </node>
+    <node concept="3Tm1VV" id="7PqnxC2B70W" role="1B3o_S" />
   </node>
 </model>
 
