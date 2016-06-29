@@ -349,7 +349,7 @@
         <child id="1068580123161" name="ifTrue" index="3clFbx" />
         <child id="1206060520071" name="elsifClauses" index="3eNLev" />
       </concept>
-      <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" index="3clFbS">
+      <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
       </concept>
       <concept id="1068580123137" name="jetbrains.mps.baseLanguage.structure.BooleanConstant" flags="nn" index="3clFbT">
@@ -9721,24 +9721,27 @@
                       </node>
                       <node concept="3clFbJ" id="Bd5Iv1eOGa" role="3cqZAp">
                         <node concept="3clFbS" id="Bd5Iv1eOGc" role="3clFbx">
-                          <node concept="3clFbF" id="70iH0fuAeu8" role="3cqZAp">
-                            <node concept="1rXfSq" id="70iH0fuAeu6" role="3clFbG">
-                              <ref role="37wK5l" node="70iH0fuA9Bc" resolve="setContainerID" />
-                              <node concept="37vLTw" id="70iH0fuAeIM" role="37wK5m">
-                                <ref role="3cqZAo" node="1gOgZZAR6J1" resolve="project" />
+                          <node concept="3cpWs8" id="2ZZbyE_NOFo" role="3cqZAp">
+                            <node concept="3cpWsn" id="2ZZbyE_NOFr" role="3cpWs9">
+                              <property role="TrG5h" value="runningContainer" />
+                              <node concept="2pR195" id="2ZZbyE_NOFn" role="1tU5fm">
+                                <ref role="3uigEE" node="2ZZbyE_udYC" resolve="DockerImageInfo" />
                               </node>
-                              <node concept="37vLTw" id="70iH0fuAfbA" role="37wK5m">
-                                <ref role="3cqZAo" node="Bd5Iv1eNkU" resolve="line" />
+                              <node concept="1rXfSq" id="2ZZbyE_NZ5w" role="33vP2m">
+                                <ref role="37wK5l" node="2ZZbyE__ntC" resolve="findRunningContainer" />
+                                <node concept="37vLTw" id="2ZZbyE_NZMB" role="37wK5m">
+                                  <ref role="3cqZAo" node="1gOgZZAR6J1" resolve="project" />
+                                </node>
                               </node>
                             </node>
                           </node>
-                          <node concept="3clFbJ" id="7PqnxC2iXXe" role="3cqZAp">
-                            <node concept="3clFbS" id="7PqnxC2iXXg" role="3clFbx">
+                          <node concept="3clFbJ" id="2ZZbyE_NSE6" role="3cqZAp">
+                            <node concept="3clFbS" id="2ZZbyE_NSE8" role="3clFbx">
                               <node concept="3clFbF" id="7PqnxC2j4Sk" role="3cqZAp">
                                 <node concept="2OqwBi" id="7PqnxC2j4Y4" role="3clFbG">
                                   <node concept="2YIFZM" id="7PqnxC2j4WS" role="2Oq$k0">
-                                    <ref role="37wK5l" node="7ZtP2DEHUg0" resolve="getInstance" />
                                     <ref role="1Pybhc" node="7ZtP2DEHIzu" resolve="Logging" />
+                                    <ref role="37wK5l" node="7ZtP2DEHUg0" resolve="getInstance" />
                                   </node>
                                   <node concept="liA8E" id="7PqnxC2j557" role="2OqNvi">
                                     <ref role="37wK5l" node="7PqnxC2fJk2" resolve="errorPopup" />
@@ -9751,63 +9754,20 @@
                                   </node>
                                 </node>
                               </node>
-                              <node concept="SfApY" id="7PqnxC2jmRD" role="3cqZAp">
-                                <node concept="3clFbS" id="7PqnxC2jmRF" role="SfCbr">
-                                  <node concept="3clFbF" id="7PqnxC2j23Y" role="3cqZAp">
-                                    <node concept="1rXfSq" id="7PqnxC2j23W" role="3clFbG">
-                                      <ref role="37wK5l" node="6VVAk3izpe6" resolve="removeContainer" />
-                                      <node concept="37vLTw" id="7PqnxC2j3DQ" role="37wK5m">
-                                        <ref role="3cqZAo" node="1gOgZZAR6J1" resolve="project" />
-                                      </node>
-                                    </node>
-                                  </node>
-                                </node>
-                                <node concept="TDmWw" id="7PqnxC2jmRG" role="TEbGg">
-                                  <node concept="3cpWsn" id="7PqnxC2jmRI" role="TDEfY">
-                                    <property role="TrG5h" value="e" />
-                                    <node concept="3uibUv" id="7PqnxC2jn98" role="1tU5fm">
-                                      <ref role="3uigEE" to="guwi:~IOException" resolve="IOException" />
-                                    </node>
-                                  </node>
-                                  <node concept="3clFbS" id="7PqnxC2jmRM" role="TDEfX" />
-                                </node>
+                            </node>
+                            <node concept="3clFbC" id="2ZZbyE_O1bc" role="3clFbw">
+                              <node concept="10Nm6u" id="2ZZbyE_O1wd" role="3uHU7w" />
+                              <node concept="37vLTw" id="2ZZbyE_O0DC" role="3uHU7B">
+                                <ref role="3cqZAo" node="2ZZbyE_NOFr" resolve="runningContainer" />
                               </node>
                             </node>
-                            <node concept="3fqX7Q" id="7PqnxC2iZXw" role="3clFbw">
-                              <node concept="1rXfSq" id="7PqnxC2iZXy" role="3fr31v">
-                                <ref role="37wK5l" node="7PqnxC2irtp" resolve="checkStatus" />
-                                <node concept="37vLTw" id="7PqnxC2iZXz" role="37wK5m">
-                                  <ref role="3cqZAo" node="1gOgZZAR6J1" resolve="project" />
-                                </node>
-                              </node>
-                            </node>
-                            <node concept="9aQIb" id="7PqnxC2j7q3" role="9aQIa">
-                              <node concept="3clFbS" id="7PqnxC2j7q4" role="9aQI4">
-                                <node concept="3cpWs8" id="2ZZbyE_Cimd" role="3cqZAp">
-                                  <node concept="3cpWsn" id="2ZZbyE_Cime" role="3cpWs9">
-                                    <property role="TrG5h" value="runningContainer" />
-                                    <node concept="2pR195" id="2ZZbyE_Cimf" role="1tU5fm">
-                                      <ref role="3uigEE" node="2ZZbyE_udYC" resolve="DockerImageInfo" />
-                                    </node>
-                                    <node concept="1rXfSq" id="2ZZbyE_Cimg" role="33vP2m">
-                                      <ref role="37wK5l" node="2ZZbyE_BNkF" resolve="findRunningContainer" />
-                                      <node concept="37vLTw" id="2ZZbyE_Cimh" role="37wK5m">
-                                        <ref role="3cqZAo" node="1gOgZZAR6J1" resolve="project" />
-                                      </node>
-                                      <node concept="1rXfSq" id="2ZZbyE_Cjbh" role="37wK5m">
-                                        <ref role="37wK5l" node="70iH0fuA5oN" resolve="getContainerID" />
-                                        <node concept="37vLTw" id="2ZZbyE_Cju6" role="37wK5m">
-                                          <ref role="3cqZAo" node="1gOgZZAR6J1" resolve="project" />
-                                        </node>
-                                      </node>
-                                    </node>
-                                  </node>
-                                </node>
+                            <node concept="9aQIb" id="2ZZbyE_O4_d" role="9aQIa">
+                              <node concept="3clFbS" id="2ZZbyE_O4_e" role="9aQI4">
                                 <node concept="3clFbF" id="7PqnxC2hftt" role="3cqZAp">
                                   <node concept="2OqwBi" id="7PqnxC2hfys" role="3clFbG">
                                     <node concept="2YIFZM" id="7PqnxC2hfxf" role="2Oq$k0">
-                                      <ref role="1Pybhc" node="7ZtP2DEHIzu" resolve="Logging" />
                                       <ref role="37wK5l" node="7ZtP2DEHUg0" resolve="getInstance" />
+                                      <ref role="1Pybhc" node="7ZtP2DEHIzu" resolve="Logging" />
                                     </node>
                                     <node concept="liA8E" id="7PqnxC2hfDq" role="2OqNvi">
                                       <ref role="37wK5l" node="7PqnxC2gW2L" resolve="infoPopup" />
@@ -9817,7 +9777,7 @@
                                       <node concept="3cpWs3" id="7PqnxC2hgXL" role="37wK5m">
                                         <node concept="2OqwBi" id="2ZZbyE_Ci1C" role="3uHU7w">
                                           <node concept="37vLTw" id="2ZZbyE_Ci1D" role="2Oq$k0">
-                                            <ref role="3cqZAo" node="2ZZbyE_Cime" resolve="runningContainer" />
+                                            <ref role="3cqZAo" node="2ZZbyE_NOFr" resolve="runningContainer" />
                                           </node>
                                           <node concept="2sxana" id="2ZZbyE_Ci1E" role="2OqNvi">
                                             <ref role="2sxfKC" node="2ZZbyE_Cd4f" resolve="containerName" />
@@ -9826,6 +9786,22 @@
                                         <node concept="Xl_RD" id="7PqnxC2hgxV" role="3uHU7B">
                                           <property role="Xl_RC" value="New container started:" />
                                         </node>
+                                      </node>
+                                    </node>
+                                  </node>
+                                </node>
+                                <node concept="3clFbF" id="70iH0fuAeu8" role="3cqZAp">
+                                  <node concept="1rXfSq" id="70iH0fuAeu6" role="3clFbG">
+                                    <ref role="37wK5l" node="70iH0fuA9Bc" resolve="setContainerID" />
+                                    <node concept="37vLTw" id="70iH0fuAeIM" role="37wK5m">
+                                      <ref role="3cqZAo" node="1gOgZZAR6J1" resolve="project" />
+                                    </node>
+                                    <node concept="2OqwBi" id="2ZZbyE_Oacg" role="37wK5m">
+                                      <node concept="37vLTw" id="2ZZbyE_O9LU" role="2Oq$k0">
+                                        <ref role="3cqZAo" node="2ZZbyE_NOFr" resolve="runningContainer" />
+                                      </node>
+                                      <node concept="2sxana" id="2ZZbyE_Oa_c" role="2OqNvi">
+                                        <ref role="2sxfKC" node="2ZZbyE_wY7O" resolve="containerID" />
                                       </node>
                                     </node>
                                   </node>
@@ -12225,6 +12201,38 @@
             <node concept="2WthIp" id="70iH0fuDCmU" role="2Oq$k0" />
             <node concept="2XshWL" id="70iH0fuDCBq" role="2OqNvi">
               <ref role="2WH_rO" node="70iH0fuDzml" resolve="generateID" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="2ZZbyE_Kuh$" role="3cqZAp">
+          <node concept="2OqwBi" id="2ZZbyE_Kuvt" role="3clFbG">
+            <node concept="2YIFZM" id="2ZZbyE_Kurj" role="2Oq$k0">
+              <ref role="37wK5l" to="bd8o:~ApplicationManager.getApplication():com.intellij.openapi.application.Application" resolve="getApplication" />
+              <ref role="1Pybhc" to="bd8o:~ApplicationManager" resolve="ApplicationManager" />
+            </node>
+            <node concept="liA8E" id="2ZZbyE_KuA6" role="2OqNvi">
+              <ref role="37wK5l" to="bd8o:~Application.invokeLater(java.lang.Runnable):void" resolve="invokeLater" />
+              <node concept="1bVj0M" id="2ZZbyE_KuAC" role="37wK5m">
+                <node concept="3clFbS" id="2ZZbyE_KuAD" role="1bW5cS">
+                  <node concept="3clFbF" id="2ZZbyE_Ke_9" role="3cqZAp">
+                    <node concept="2OqwBi" id="2ZZbyE_KeMb" role="3clFbG">
+                      <node concept="2YIFZM" id="2ZZbyE_KeIR" role="2Oq$k0">
+                        <ref role="37wK5l" node="asFbg5lNxS" resolve="getInstance" />
+                        <ref role="1Pybhc" node="6VVAk3ix2zR" resolve="DockerManager" />
+                      </node>
+                      <node concept="liA8E" id="2ZZbyE_KeR7" role="2OqNvi">
+                        <ref role="37wK5l" node="2ZZbyE__EFs" resolve="restartExistingContainer" />
+                        <node concept="2OqwBi" id="2ZZbyE_KeRH" role="37wK5m">
+                          <node concept="2WthIp" id="2ZZbyE_KeRK" role="2Oq$k0" />
+                          <node concept="2BZ7hE" id="2ZZbyE_KeRM" role="2OqNvi">
+                            <ref role="2WH_rO" node="5DYTiejtNzv" resolve="project" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
             </node>
           </node>
         </node>
