@@ -1515,6 +1515,12 @@
         <node concept="3LEDTM" id="7hlMFbPpsfj" role="3LEDUa">
           <ref role="3LEDTN" node="7U8jHwbep48" resolve="org.campagnelab.editor.listeners.plugin" />
         </node>
+        <node concept="3LEDTy" id="3$kXDiebTdJ" role="3LEDUa">
+          <ref role="3LEDTV" node="3$kXDieb7HX" resolve="org.campagnelab.jupyterManager" />
+        </node>
+        <node concept="3LEDTM" id="3$kXDiebTdK" role="3LEDUa">
+          <ref role="3LEDTN" node="3$kXDieb9yQ" resolve="org.campagnelab.jupyterManager.plugin" />
+        </node>
       </node>
       <node concept="1E1JtD" id="3rWIEp7Ilky" role="2G$12L">
         <property role="BnDLt" value="true" />
@@ -3188,7 +3194,7 @@
         </node>
       </node>
       <node concept="1E1JtD" id="3$kXDieb7HX" role="2G$12L">
-        <property role="BnDLt" value="false" />
+        <property role="BnDLt" value="true" />
         <property role="TrG5h" value="org.campagnelab.jupyterManager" />
         <property role="3LESm3" value="fa51b48b-022c-4a7d-b685-4030a7571a91" />
         <property role="2GAjPV" value="false" />
