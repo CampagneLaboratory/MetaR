@@ -11962,7 +11962,7 @@
       </node>
     </node>
     <node concept="1QGGSu" id="1WgtElVUIDN" role="1nVCmq">
-      <property role="1QGGTI" value="${org.campagnelab.metaR.home}/icons/tools/jupyter-logo.png" />
+      <property role="1QGGTI" value="${module}/icons/tools/jupyter-logo.png" />
     </node>
     <node concept="2xpIHi" id="1WgtElVUIDR" role="uR5cp">
       <node concept="3clFbS" id="1WgtElVUIDS" role="2VODD2">
