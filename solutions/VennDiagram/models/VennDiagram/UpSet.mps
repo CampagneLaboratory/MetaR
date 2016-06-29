@@ -27,6 +27,7 @@
     <use id="aee9cad2-acd4-4608-aef2-0004f6a1cdbd" name="jetbrains.mps.lang.actions" version="0" />
     <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="3" />
     <use id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures" version="0" />
+    <use id="7eba6a28-4cc2-47b9-a392-284573f2054a" name="org.campagnelab.metar.R.access" version="0" />
   </languages>
   <imports>
     <import index="sbif" ref="r:83131207-8bbf-4552-944d-336f1a104b7d(Demo)" />
@@ -43,12 +44,6 @@
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
       <concept id="6329021646629104957" name="jetbrains.mps.baseLanguage.structure.TextCommentPart" flags="nn" index="3SKdUq">
         <property id="6329021646629104958" name="text" index="3SKdUp" />
-      </concept>
-    </language>
-    <language id="040d3459-0033-45bb-b823-4cfd22657c15" name="org.campagnelab.metar.biomartToR">
-      <concept id="4878268351238000594" name="org.campagnelab.metar.biomartToR.structure.ExposedColumn" flags="ng" index="1x8lzE">
-        <reference id="4878268351238001566" name="column" index="1x8kiA" />
-        <reference id="8641281067910071393" name="futureTable" index="1YZnGS" />
       </concept>
     </language>
     <language id="3b58810c-8431-4bbb-99ea-b4671e02dd13" name="org.campagnelab.metar.R">
@@ -142,6 +137,12 @@
       </concept>
       <concept id="4166618652716485499" name="org.campagnelab.metar.tables.structure.SetOfIds" flags="ng" index="3Wv0rH">
         <child id="4166618652716496208" name="ids" index="3Wv3z6" />
+      </concept>
+    </language>
+    <language id="7eba6a28-4cc2-47b9-a392-284573f2054a" name="org.campagnelab.metar.R.access">
+      <concept id="4878268351238000594" name="" flags="ng" index="1x8lzE">
+        <reference id="4878268351238001566" name="" index="1x8kiA" />
+        <reference id="8641281067910071393" name="" index="1YZnGS" />
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
@@ -254,8 +255,8 @@
             </node>
             <node concept="1x8lzE" id="1c1rOX4HL$4" role="2v3mow">
               <property role="TrG5h" value="GSE59364_DC_all.csv" />
-              <ref role="1YZnGS" node="1c1rOX4HC9a" resolve="GSE59364_DC_all.csv" />
               <ref role="1x8kiA" node="4$IC3Kj1JTD" resolve="A_DC_LPS" />
+              <ref role="1YZnGS" node="1c1rOX4HC9a" resolve="GSE59364_DC_all.csv" />
             </node>
             <node concept="22gcdy" id="1c1rOX4HL$q" role="22hImy" />
           </node>
@@ -275,8 +276,8 @@
             <node concept="22gcdy" id="1c1rOX4HLzx" role="22hImy" />
             <node concept="1x8lzE" id="1c1rOX4HLzj" role="2v3mow">
               <property role="TrG5h" value="GSE59364_DC_all.csv" />
-              <ref role="1YZnGS" node="1c1rOX4HC9a" resolve="GSE59364_DC_all.csv" />
               <ref role="1x8kiA" node="4$IC3Kj1JT_" resolve="A_DC" />
+              <ref role="1YZnGS" node="1c1rOX4HC9a" resolve="GSE59364_DC_all.csv" />
             </node>
           </node>
         </node>
@@ -295,16 +296,16 @@
                 <node concept="22gcdy" id="1c1rOX4JhfW" role="22hImy" />
                 <node concept="1x8lzE" id="1c1rOX4JhfI" role="2v3mow">
                   <property role="TrG5h" value="GSE59364_DC_all.csv" />
-                  <ref role="1YZnGS" node="1c1rOX4HC9a" resolve="GSE59364_DC_all.csv" />
                   <ref role="1x8kiA" node="4$IC3Kj1JTX" resolve="C2DC" />
+                  <ref role="1YZnGS" node="1c1rOX4HC9a" resolve="GSE59364_DC_all.csv" />
                 </node>
               </node>
             </node>
             <node concept="22gcdy" id="1c1rOX4Jhf5" role="22hImy" />
             <node concept="1x8lzE" id="1c1rOX4Jhf6" role="2v3mow">
               <property role="TrG5h" value="GSE59364_DC_all.csv" />
-              <ref role="1YZnGS" node="1c1rOX4HC9a" resolve="GSE59364_DC_all.csv" />
               <ref role="1x8kiA" node="4$IC3Kj1JT_" resolve="A_DC" />
+              <ref role="1YZnGS" node="1c1rOX4HC9a" resolve="GSE59364_DC_all.csv" />
             </node>
           </node>
         </node>

@@ -9,6 +9,7 @@
     <use id="3b58810c-8431-4bbb-99ea-b4671e02dd13" name="org.campagnelab.metar.R" version="1" />
     <use id="b401a680-8325-4110-8fd3-84331ff25bef" name="jetbrains.mps.lang.generator" version="0" />
     <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="2" />
+    <use id="7eba6a28-4cc2-47b9-a392-284573f2054a" name="org.campagnelab.metar.R.access" version="0" />
   </languages>
   <imports>
     <import index="4tsn" ref="r:97aeaa4f-346d-4633-b5a0-99879648272c(R3_1_3@stubs)" />
@@ -84,15 +85,8 @@
       </concept>
     </language>
     <language id="040d3459-0033-45bb-b823-4cfd22657c15" name="org.campagnelab.metar.biomartToR">
-      <concept id="1405455181998775364" name="org.campagnelab.metar.biomartToR.structure.ExposedTable" flags="ng" index="2Phv9e">
-        <reference id="1405455182018928814" name="table" index="2OukU$" />
-      </concept>
       <concept id="5857936452045887397" name="org.campagnelab.metar.biomartToR.structure.BiomartinR" flags="ng" index="3ci$mf">
         <child id="5857936452045932777" name="biomartref" index="3cihF3" />
-      </concept>
-      <concept id="4878268351238000594" name="org.campagnelab.metar.biomartToR.structure.ExposedColumn" flags="ng" index="1x8lzE">
-        <reference id="4878268351238001566" name="column" index="1x8kiA" />
-        <reference id="8641281067910071393" name="futureTable" index="1YZnGS" />
       </concept>
     </language>
     <language id="b401a680-8325-4110-8fd3-84331ff25bef" name="jetbrains.mps.lang.generator">
@@ -230,6 +224,15 @@
         <child id="3402264987265829889" name="groups" index="3MzsBV" />
       </concept>
       <concept id="3402264987265829883" name="org.campagnelab.metar.tables.structure.ColumnGroup" flags="ng" index="3MzsS1" />
+    </language>
+    <language id="7eba6a28-4cc2-47b9-a392-284573f2054a" name="org.campagnelab.metar.R.access">
+      <concept id="1405455181998775364" name="" flags="ng" index="2Phv9e">
+        <reference id="1405455182018928814" name="" index="2OukU$" />
+      </concept>
+      <concept id="4878268351238000594" name="" flags="ng" index="1x8lzE">
+        <reference id="4878268351238001566" name="" index="1x8kiA" />
+        <reference id="8641281067910071393" name="" index="1YZnGS" />
+      </concept>
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
       <concept id="1179409122411" name="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" flags="nn" index="2qgKlT" />
@@ -10871,8 +10874,8 @@
         <node concept="V6WaU" id="1Oy_PeLHwNq" role="gNbrm">
           <node concept="1x8lzE" id="1Oy_PeLHwN_" role="gNbhV">
             <property role="TrG5h" value="resultFromBioMart" />
-            <ref role="1YZnGS" node="1Oy_PeLHjYU" resolve="resultFromBioMart" />
             <ref role="1x8kiA" node="xggGiYFBoq" resolve="percent_GC_content_from_feature" />
+            <ref role="1YZnGS" node="1Oy_PeLHjYU" resolve="resultFromBioMart" />
           </node>
         </node>
       </node>
