@@ -23,30 +23,15 @@
         <property id="2742007948298959018" name="trycatch_enabled" index="2BDq$p" />
         <child id="8962032619593737383" name="statements" index="S1EQ8" />
       </concept>
+      <concept id="8962032619593737377" name="org.campagnelab.metar.tables.structure.EmptyLine" flags="ng" index="S1EQe" />
       <concept id="8962032619582305406" name="org.campagnelab.metar.tables.structure.StatementList" flags="ng" index="ZXjPh">
         <child id="8962032619582305407" name="transformations" index="ZXjPg" />
       </concept>
-      <concept id="3105090771424833148" name="org.campagnelab.metar.tables.structure.PlotRef" flags="ng" index="312p7A">
-        <reference id="3105090771424833149" name="plot" index="312p7B" />
-      </concept>
-      <concept id="3105090771424556187" name="org.campagnelab.metar.tables.structure.Multiplot" flags="ng" index="313sG1">
-        <property id="3105090771424561488" name="numColumns" index="313rra" />
-        <property id="3105090771424561486" name="numRows" index="313rrk" />
-        <property id="3105090771427134128" name="preview" index="31lnkE" />
-        <child id="3105090771424832493" name="plots" index="312phR" />
-        <child id="3105090771426088552" name="destination" index="319mBM" />
-      </concept>
-      <concept id="3105090771426712763" name="org.campagnelab.metar.tables.structure.PlotRefWithPreview" flags="ng" index="31becx" />
-      <concept id="6001041468486314166" name="org.campagnelab.metar.tables.structure.FitXByY" flags="ng" index="3wL1ft">
-        <child id="4451133196880278727" name="table" index="aeIV8" />
-        <child id="2807244893515991619" name="y" index="1lupKo" />
-        <child id="2807244893515991461" name="x" index="1lupZY" />
-        <child id="6001041468486400692" name="plot" index="3wKG7v" />
-      </concept>
-      <concept id="8459500803719374384" name="org.campagnelab.metar.tables.structure.Plot" flags="ng" index="1FHg$p">
-        <property id="8962032619586498917" name="width" index="ZHjxa" />
-        <property id="8962032619586499111" name="height" index="ZHjG8" />
-        <property id="4166618652723451261" name="plotId" index="3ZMXzF" />
+      <concept id="7575483536003856472" name="org.campagnelab.metar.tables.structure.TablePreview" flags="ng" index="34tvTV">
+        <property id="7575483536004765689" name="preview" index="34gX7q" />
+        <property id="7575483536003856646" name="numColumns" index="34tvW_" />
+        <property id="7575483536003856644" name="numRows" index="34tvWB" />
+        <child id="7575483536003856630" name="tableRef" index="34tvVl" />
       </concept>
       <concept id="3402264987261651661" name="org.campagnelab.metar.tables.structure.ImportTable" flags="ng" index="3MjoWR">
         <reference id="3402264987261692715" name="table" index="3Mj2Vh" />
@@ -70,9 +55,6 @@
       </concept>
       <concept id="3402264987265829804" name="org.campagnelab.metar.tables.structure.ColumnAnnotation" flags="ng" index="3MzsTm">
         <child id="3402264987265831176" name="groups" index="3MztjM" />
-      </concept>
-      <concept id="3402264987262235801" name="org.campagnelab.metar.tables.structure.ColumnRef" flags="ng" index="3MHf5z">
-        <reference id="3402264987262235802" name="col" index="3MHf5w" />
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
@@ -109,59 +91,38 @@
           <ref role="3MlLW5" node="4DOwJpJxBw5" resolve="GSE59364_DC_all.csv" />
         </node>
       </node>
-      <node concept="3wL1ft" id="2B2QH1N_KDf" role="ZXjPg">
-        <property role="S1EQ6" value="EWYISICOJP" />
-        <node concept="1FHg$p" id="2B2QH1N_KDg" role="3wKG7v">
-          <property role="ZHjxa" value="200" />
-          <property role="ZHjG8" value="200" />
-          <property role="3ZMXzF" value="1" />
-          <property role="TrG5h" value="plot" />
-        </node>
-        <node concept="3MHf5z" id="2B2QH1N_KDy" role="1lupZY">
-          <ref role="3MHf5w" node="2B2QH1N$Mpy" resolve="A_DC" />
-        </node>
-        <node concept="afgQW" id="2B2QH1N_KDC" role="aeIV8">
+      <node concept="S1EQe" id="7SyL5U3DxCR" role="ZXjPg">
+        <property role="S1EQ6" value="IWFIDLWMUQ" />
+      </node>
+      <node concept="34tvTV" id="7SyL5U3_HQM" role="ZXjPg">
+        <property role="S1EQ6" value="WKVWGXRLKN" />
+        <property role="34tvW_" value="5" />
+        <property role="34tvWB" value="10" />
+        <property role="34gX7q" value="true" />
+        <node concept="afgQW" id="7SyL5U3_HQZ" role="34tvVl">
           <ref role="afgo8" node="4DOwJpJxBw5" resolve="GSE59364_DC_all.csv" />
         </node>
-        <node concept="3MHf5z" id="2B2QH1N_KD_" role="1lupKo">
-          <ref role="3MHf5w" node="2B2QH1N$MpA" resolve="A_DC_LPS" />
-        </node>
       </node>
-      <node concept="3wL1ft" id="2B2QH1N_La4" role="ZXjPg">
-        <property role="S1EQ6" value="GJMGIGFVMA" />
-        <node concept="1FHg$p" id="2B2QH1N_La5" role="3wKG7v">
-          <property role="ZHjxa" value="200" />
-          <property role="ZHjG8" value="200" />
-          <property role="3ZMXzF" value="2" />
-          <property role="TrG5h" value="plot2" />
-        </node>
-        <node concept="3MHf5z" id="2B2QH1N_Lat" role="1lupZY">
-          <ref role="3MHf5w" node="2B2QH1N$MpU" resolve="C2DC" />
-        </node>
-        <node concept="afgQW" id="2B2QH1N_Laz" role="aeIV8">
+      <node concept="S1EQe" id="7SyL5U3WzYM" role="ZXjPg">
+        <property role="S1EQ6" value="BFRVLMGNWN" />
+      </node>
+      <node concept="34tvTV" id="7SyL5U31S$3" role="ZXjPg">
+        <property role="S1EQ6" value="KTQCINWVUF" />
+        <property role="34tvW_" value="10" />
+        <property role="34tvWB" value="10" />
+        <property role="34gX7q" value="true" />
+        <node concept="afgQW" id="7SyL5U31S$b" role="34tvVl">
           <ref role="afgo8" node="4DOwJpJxBw5" resolve="GSE59364_DC_all.csv" />
         </node>
-        <node concept="3MHf5z" id="7PqnxC2ET0n" role="1lupKo">
-          <ref role="3MHf5w" node="2B2QH1N$MpA" resolve="A_DC_LPS" />
-        </node>
       </node>
-      <node concept="313sG1" id="2B2QH1N_KqW" role="ZXjPg">
-        <property role="S1EQ6" value="EKWEOLBJAS" />
-        <property role="313rra" value="2" />
-        <property role="313rrk" value="1" />
-        <property role="31lnkE" value="true" />
-        <node concept="1FHg$p" id="2B2QH1N_KqX" role="319mBM">
-          <property role="ZHjxa" value="200" />
-          <property role="ZHjG8" value="200" />
-          <property role="3ZMXzF" value="3" />
-          <property role="TrG5h" value="preview" />
-        </node>
-        <node concept="31becx" id="2B2QH1N_Kr8" role="312phR">
-          <ref role="312p7B" node="2B2QH1N_KDg" resolve="plot" />
-        </node>
-        <node concept="31becx" id="2B2QH1N_L9N" role="312phR">
-          <ref role="312p7B" node="2B2QH1N_La5" resolve="plot2" />
-        </node>
+      <node concept="S1EQe" id="7SyL5U3dt9a" role="ZXjPg">
+        <property role="S1EQ6" value="OKVHEOGIWH" />
+      </node>
+      <node concept="S1EQe" id="7SyL5U3dt9h" role="ZXjPg">
+        <property role="S1EQ6" value="FFXHSEAYKQ" />
+      </node>
+      <node concept="S1EQe" id="7SyL5U31SCa" role="ZXjPg">
+        <property role="S1EQ6" value="KMGDYVFSLY" />
       </node>
     </node>
   </node>

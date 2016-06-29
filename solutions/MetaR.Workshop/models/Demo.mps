@@ -583,7 +583,7 @@
       </node>
       <node concept="34tvTV" id="5lDNWrJN8h3" role="ZXjPg">
         <property role="S1EQ6" value="TPASBFNGKB" />
-        <property role="34tvW_" value="12" />
+        <property role="34tvW_" value="7" />
         <property role="34tvWB" value="3" />
         <property role="34gX7q" value="true" />
         <ref role="L_9Jz" node="5lDNWrJNeMM" resolve="TableStyle" />
@@ -1763,7 +1763,7 @@
     <property role="TrG5h" value="HeatmapStyle" />
     <node concept="24aBtg" id="2od$re0Tp$c" role="2YPqp2">
       <property role="TrG5h" value="Diverging-RedYellowBlue" />
-      <ref role="24aBtv" to="wiqx:1xsIq4yX9a" resolve="Diverging-RedYellowBlue" />
+      <ref role="24aBtv" to="wiqx:1xsIq4yXlo" resolve="Qualitative-GreenOrangePurple" />
     </node>
     <node concept="2A4dvw" id="2od$re2ibWE" role="2YPqp2">
       <property role="2A4bwM" value="true" />
