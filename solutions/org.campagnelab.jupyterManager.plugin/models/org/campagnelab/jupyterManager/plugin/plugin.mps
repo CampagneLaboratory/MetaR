@@ -10074,75 +10074,6 @@
                                             </node>
                                             <node concept="3clFbJ" id="2dEHq9QxZNt" role="3cqZAp">
                                               <node concept="3clFbS" id="2dEHq9QxZNv" role="3clFbx">
-                                                <node concept="1X3_iC" id="2dEHq9QyyCk" role="lGtFl">
-                                                  <property role="3V$3am" value="statement" />
-                                                  <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
-                                                  <node concept="3clFbF" id="2dEHq9QwBdx" role="8Wnug">
-                                                    <node concept="2OqwBi" id="2dEHq9QwBjt" role="3clFbG">
-                                                      <node concept="2YIFZM" id="2dEHq9QwBiH" role="2Oq$k0">
-                                                        <ref role="1Pybhc" node="7ZtP2DEHIzu" resolve="Logging" />
-                                                        <ref role="37wK5l" node="7ZtP2DEHUg0" resolve="getInstance" />
-                                                      </node>
-                                                      <node concept="liA8E" id="2dEHq9QwBnF" role="2OqNvi">
-                                                        <ref role="37wK5l" node="7ZtP2DEHJzN" resolve="info" />
-                                                        <node concept="Xl_RD" id="2dEHq9QwBHo" role="37wK5m">
-                                                          <property role="Xl_RC" value="Server seems to be running" />
-                                                        </node>
-                                                      </node>
-                                                    </node>
-                                                  </node>
-                                                </node>
-                                                <node concept="3cpWs8" id="2ZZbyE_Cimd" role="3cqZAp">
-                                                  <node concept="3cpWsn" id="2ZZbyE_Cime" role="3cpWs9">
-                                                    <property role="TrG5h" value="runningContainer" />
-                                                    <node concept="2pR195" id="2ZZbyE_Cimf" role="1tU5fm">
-                                                      <ref role="3uigEE" node="2ZZbyE_udYC" resolve="DockerImageInfo" />
-                                                    </node>
-                                                    <node concept="1rXfSq" id="2ZZbyE_Cimg" role="33vP2m">
-                                                      <ref role="37wK5l" node="2ZZbyE_BNkF" resolve="findRunningContainer" />
-                                                      <node concept="37vLTw" id="2ZZbyE_Tzyf" role="37wK5m">
-                                                        <ref role="3cqZAo" node="1gOgZZAR6J1" resolve="project" />
-                                                      </node>
-                                                      <node concept="1rXfSq" id="2ZZbyE_Cjbh" role="37wK5m">
-                                                        <ref role="37wK5l" node="70iH0fuA5oN" resolve="getContainerID" />
-                                                        <node concept="37vLTw" id="2ZZbyE_T$NW" role="37wK5m">
-                                                          <ref role="3cqZAo" node="1gOgZZAR6J1" resolve="project" />
-                                                        </node>
-                                                      </node>
-                                                    </node>
-                                                  </node>
-                                                </node>
-                                                <node concept="1X3_iC" id="2dEHq9QyyMK" role="lGtFl">
-                                                  <property role="3V$3am" value="statement" />
-                                                  <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
-                                                  <node concept="3clFbF" id="7PqnxC2hftt" role="8Wnug">
-                                                    <node concept="2OqwBi" id="7PqnxC2hfys" role="3clFbG">
-                                                      <node concept="2YIFZM" id="2ZZbyE_T$zb" role="2Oq$k0">
-                                                        <ref role="1Pybhc" node="7ZtP2DEHIzu" resolve="Logging" />
-                                                        <ref role="37wK5l" node="7ZtP2DEHUg0" resolve="getInstance" />
-                                                      </node>
-                                                      <node concept="liA8E" id="7PqnxC2hfDq" role="2OqNvi">
-                                                        <ref role="37wK5l" node="7PqnxC2gW2L" resolve="infoPopup" />
-                                                        <node concept="37vLTw" id="2ZZbyE_T_3X" role="37wK5m">
-                                                          <ref role="3cqZAo" node="1gOgZZAR6J1" resolve="project" />
-                                                        </node>
-                                                        <node concept="3cpWs3" id="7PqnxC2hgXL" role="37wK5m">
-                                                          <node concept="2OqwBi" id="2ZZbyE_Ci1C" role="3uHU7w">
-                                                            <node concept="37vLTw" id="2ZZbyE_T_jZ" role="2Oq$k0">
-                                                              <ref role="3cqZAo" node="2ZZbyE_Cime" resolve="runningContainer" />
-                                                            </node>
-                                                            <node concept="2sxana" id="2ZZbyE_Ci1E" role="2OqNvi">
-                                                              <ref role="2sxfKC" node="2ZZbyE_Cd4f" resolve="containerName" />
-                                                            </node>
-                                                          </node>
-                                                          <node concept="Xl_RD" id="7PqnxC2hgxV" role="3uHU7B">
-                                                            <property role="Xl_RC" value="New container started:" />
-                                                          </node>
-                                                        </node>
-                                                      </node>
-                                                    </node>
-                                                  </node>
-                                                </node>
                                                 <node concept="3clFbF" id="70iH0fuAeu8" role="3cqZAp">
                                                   <node concept="1rXfSq" id="70iH0fuAeu6" role="3clFbG">
                                                     <ref role="37wK5l" node="70iH0fuA9Bc" resolve="setContainerID" />
@@ -10154,6 +10085,44 @@
                                                         <ref role="3cqZAo" node="Bd5Iv1eNkU" resolve="line" />
                                                       </node>
                                                       <node concept="17S1cR" id="3$kXDiegDJ6" role="2OqNvi" />
+                                                    </node>
+                                                  </node>
+                                                </node>
+                                                <node concept="3cpWs8" id="2ZZbyE_Cimd" role="3cqZAp">
+                                                  <node concept="3cpWsn" id="2ZZbyE_Cime" role="3cpWs9">
+                                                    <property role="TrG5h" value="runningContainer" />
+                                                    <node concept="2pR195" id="2ZZbyE_Cimf" role="1tU5fm">
+                                                      <ref role="3uigEE" node="2ZZbyE_udYC" resolve="DockerImageInfo" />
+                                                    </node>
+                                                    <node concept="1rXfSq" id="2ZZbyE_Cimg" role="33vP2m">
+                                                      <ref role="37wK5l" node="2ZZbyE__ntC" resolve="findRunningContainer" />
+                                                      <node concept="37vLTw" id="2ZZbyE_Tzyf" role="37wK5m">
+                                                        <ref role="3cqZAo" node="1gOgZZAR6J1" resolve="project" />
+                                                      </node>
+                                                    </node>
+                                                  </node>
+                                                </node>
+                                                <node concept="3clFbF" id="7PqnxC2hftt" role="3cqZAp">
+                                                  <node concept="2OqwBi" id="7PqnxC2hfys" role="3clFbG">
+                                                    <node concept="2YIFZM" id="2ZZbyE_T$zb" role="2Oq$k0">
+                                                      <ref role="1Pybhc" node="7ZtP2DEHIzu" resolve="Logging" />
+                                                      <ref role="37wK5l" node="7ZtP2DEHUg0" resolve="getInstance" />
+                                                    </node>
+                                                    <node concept="liA8E" id="7PqnxC2hfDq" role="2OqNvi">
+                                                      <ref role="37wK5l" node="7ZtP2DEHJzN" resolve="info" />
+                                                      <node concept="3cpWs3" id="7PqnxC2hgXL" role="37wK5m">
+                                                        <node concept="2OqwBi" id="2ZZbyE_Ci1C" role="3uHU7w">
+                                                          <node concept="37vLTw" id="2ZZbyE_T_jZ" role="2Oq$k0">
+                                                            <ref role="3cqZAo" node="2ZZbyE_Cime" resolve="runningContainer" />
+                                                          </node>
+                                                          <node concept="2sxana" id="2ZZbyE_Ci1E" role="2OqNvi">
+                                                            <ref role="2sxfKC" node="2ZZbyE_Cd4f" resolve="containerName" />
+                                                          </node>
+                                                        </node>
+                                                        <node concept="Xl_RD" id="7PqnxC2hgxV" role="3uHU7B">
+                                                          <property role="Xl_RC" value="New container started:" />
+                                                        </node>
+                                                      </node>
                                                     </node>
                                                   </node>
                                                 </node>
