@@ -30,6 +30,7 @@
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" fqName="jetbrains.mps.lang.structure" version="1" />
     <language id="9ded098b-ad6a-4657-bfd9-48636cfe8bc3" fqName="jetbrains.mps.lang.traceable" version="0" />
     <language id="a60f536b-19c3-48f3-a662-0aa30b245913" fqName="org.campagnelab.editor.images" version="0" />
+    <language id="fa51b48b-022c-4a7d-b685-4030a7571a91" fqName="org.campagnelab.jupyterManager" version="-1" />
     <language id="3b58810c-8431-4bbb-99ea-b4671e02dd13" fqName="org.campagnelab.metar.R" version="1" />
     <language id="7eba6a28-4cc2-47b9-a392-284573f2054a" fqName="org.campagnelab.metar.R.access" version="0" />
     <language id="837afec3-cff0-45b1-a221-6b811148f87e" fqName="org.campagnelab.metar.R.gen" version="0" />
@@ -74,6 +75,7 @@
     <module reference="e6368d5c-b931-4d4d-9941-07b7da7d2e2d(jetbrains.mps.tool.builder)" version="0" />
     <module reference="d6782141-eafa-4cf7-a85d-1229abdb1152(org.campagnelab.ANTLR)" version="0" />
     <module reference="d99339ed-76f8-45c0-bf5f-697b98ae6a17(org.campagnelab.editor.listeners.plugin)" version="0" />
+    <module reference="fd3fc8d7-bebb-4053-88a0-6dcc12448e6e(org.campagnelab.jupyterManager.plugin)" version="0" />
     <module reference="3b58810c-8431-4bbb-99ea-b4671e02dd13(org.campagnelab.metar.R)" version="0" />
     <module reference="837afec3-cff0-45b1-a221-6b811148f87e(org.campagnelab.metar.R.gen)" version="0" />
     <module reference="e1a8bd2b-9da1-4bd5-9e52-dcb3c5d6eb0f(org.campagnelab.metar.R.plugin)" version="0" />

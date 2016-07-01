@@ -6,8 +6,16 @@
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
+    <import index="guwi" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" />
+    <import index="1mjk" ref="r:72b0aa20-b681-4aef-ad30-bb23b1f4b98c(org.campagnelab.metar.code.generator.helpers)" />
+    <import index="18ew" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.util(MPS.Core/)" />
+    <import index="ccd1" ref="r:d4fc1ccf-1b20-4c10-aae7-94de66326394(org.campagnelab.jupyterManager.plugin.plugin)" />
+    <import index="4nm9" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.openapi.project(MPS.IDEA/)" />
+    <import index="z1c3" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.project(MPS.Core/)" />
+    <import index="alof" ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61/java:jetbrains.mps.ide.project(MPS.Platform/)" />
     <import index="l5qg" ref="r:c3c8723d-4db5-4e18-902d-1cb272fe4ddf(org.campagnelab.metar.R.gen.structure)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
+    <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
   </imports>
   <registry>
     <language id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior">
@@ -24,9 +32,13 @@
       <concept id="1225194691553" name="jetbrains.mps.lang.behavior.structure.ThisNodeExpression" flags="nn" index="13iPFW" />
     </language>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
+      <concept id="1202948039474" name="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" flags="nn" index="liA8E" />
       <concept id="1197027756228" name="jetbrains.mps.baseLanguage.structure.DotExpression" flags="nn" index="2OqwBi">
         <child id="1197027771414" name="operand" index="2Oq$k0" />
         <child id="1197027833540" name="operation" index="2OqNvi" />
+      </concept>
+      <concept id="1145552977093" name="jetbrains.mps.baseLanguage.structure.GenericNewExpression" flags="nn" index="2ShNRf">
+        <child id="1145553007750" name="creator" index="2ShVmc" />
       </concept>
       <concept id="1137021947720" name="jetbrains.mps.baseLanguage.structure.ConceptFunction" flags="in" index="2VMwT0">
         <child id="1137022507850" name="body" index="2VODD2" />
@@ -34,18 +46,47 @@
       <concept id="1070475926800" name="jetbrains.mps.baseLanguage.structure.StringLiteral" flags="nn" index="Xl_RD">
         <property id="1070475926801" name="value" index="Xl_RC" />
       </concept>
+      <concept id="1081236700937" name="jetbrains.mps.baseLanguage.structure.StaticMethodCall" flags="nn" index="2YIFZM">
+        <reference id="1144433194310" name="classConcept" index="1Pybhc" />
+      </concept>
+      <concept id="1070533707846" name="jetbrains.mps.baseLanguage.structure.StaticFieldReference" flags="nn" index="10M0yZ">
+        <reference id="1144433057691" name="classifier" index="1PxDUh" />
+      </concept>
+      <concept id="1068498886296" name="jetbrains.mps.baseLanguage.structure.VariableReference" flags="nn" index="37vLTw">
+        <reference id="1068581517664" name="variableDeclaration" index="3cqZAo" />
+      </concept>
+      <concept id="1068498886292" name="jetbrains.mps.baseLanguage.structure.ParameterDeclaration" flags="ir" index="37vLTG" />
       <concept id="1225271177708" name="jetbrains.mps.baseLanguage.structure.StringType" flags="in" index="17QB3L" />
+      <concept id="4972933694980447171" name="jetbrains.mps.baseLanguage.structure.BaseVariableDeclaration" flags="ng" index="19Szcq">
+        <child id="5680397130376446158" name="type" index="1tU5fm" />
+      </concept>
       <concept id="1068580123132" name="jetbrains.mps.baseLanguage.structure.BaseMethodDeclaration" flags="ng" index="3clF44">
         <child id="1068580123133" name="returnType" index="3clF45" />
+        <child id="1068580123134" name="parameter" index="3clF46" />
         <child id="1068580123135" name="body" index="3clF47" />
       </concept>
       <concept id="1068580123155" name="jetbrains.mps.baseLanguage.structure.ExpressionStatement" flags="nn" index="3clFbF">
         <child id="1068580123156" name="expression" index="3clFbG" />
       </concept>
+      <concept id="1068580123159" name="jetbrains.mps.baseLanguage.structure.IfStatement" flags="nn" index="3clFbJ">
+        <child id="1068580123160" name="condition" index="3clFbw" />
+        <child id="1068580123161" name="ifTrue" index="3clFbx" />
+      </concept>
       <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
       </concept>
       <concept id="1068581242875" name="jetbrains.mps.baseLanguage.structure.PlusExpression" flags="nn" index="3cpWs3" />
+      <concept id="1068581242878" name="jetbrains.mps.baseLanguage.structure.ReturnStatement" flags="nn" index="3cpWs6">
+        <child id="1068581517676" name="expression" index="3cqZAk" />
+      </concept>
+      <concept id="1204053956946" name="jetbrains.mps.baseLanguage.structure.IMethodCall" flags="ng" index="1ndlxa">
+        <reference id="1068499141037" name="baseMethodDeclaration" index="37wK5l" />
+        <child id="1068499141038" name="actualArgument" index="37wK5m" />
+      </concept>
+      <concept id="1212685548494" name="jetbrains.mps.baseLanguage.structure.ClassCreator" flags="nn" index="1pGfFk" />
+      <concept id="1107535904670" name="jetbrains.mps.baseLanguage.structure.ClassifierType" flags="in" index="3uibUv">
+        <reference id="1107535924139" name="classifier" index="3uigEE" />
+      </concept>
       <concept id="1081773326031" name="jetbrains.mps.baseLanguage.structure.BinaryOperation" flags="nn" index="3uHJSO">
         <child id="1081773367579" name="rightExpression" index="3uHU7w" />
         <child id="1081773367580" name="leftExpression" index="3uHU7B" />
@@ -94,6 +135,134 @@
           </node>
         </node>
       </node>
+    </node>
+    <node concept="13i0hz" id="5OllgZoNaKA" role="13h7CS">
+      <property role="13i0iv" value="false" />
+      <property role="13i0it" value="false" />
+      <property role="TrG5h" value="getLocalMetaRLibsFolder" />
+      <node concept="3Tm1VV" id="5OllgZoNaKB" role="1B3o_S" />
+      <node concept="3clFbS" id="5OllgZoNaKC" role="3clF47">
+        <node concept="3clFbJ" id="7d3kpy2qu18" role="3cqZAp">
+          <node concept="3clFbS" id="7d3kpy2qu1a" role="3clFbx">
+            <node concept="3cpWs6" id="7d3kpy2quDI" role="3cqZAp">
+              <node concept="2YIFZM" id="7d3kpy2quDJ" role="3cqZAk">
+                <ref role="37wK5l" to="ccd1:7d3kpy2aWpQ" resolve="getRemoteMetaRLibsFolder" />
+                <ref role="1Pybhc" to="ccd1:3uD_HpV5Ij6" resolve="Utils" />
+                <node concept="2YIFZM" id="55a1UmAgjTz" role="37wK5m">
+                  <ref role="37wK5l" to="alof:~ProjectHelper.toIdeaProject(jetbrains.mps.project.Project):com.intellij.openapi.project.Project" resolve="toIdeaProject" />
+                  <ref role="1Pybhc" to="alof:~ProjectHelper" resolve="ProjectHelper" />
+                  <node concept="37vLTw" id="55a1UmAgjW_" role="37wK5m">
+                    <ref role="3cqZAo" node="55a1UmAccAn" resolve="mpsProject" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="2YIFZM" id="7d3kpy2quls" role="3clFbw">
+            <ref role="37wK5l" to="ccd1:7d3kpy2aHso" resolve="shouldExecuteOnJupyter" />
+            <ref role="1Pybhc" to="ccd1:7d3kpy2arRt" resolve="Helper" />
+            <node concept="13iPFW" id="7d3kpy2qult" role="37wK5m" />
+          </node>
+        </node>
+        <node concept="3cpWs6" id="7d3kpy2qv_V" role="3cqZAp">
+          <node concept="2OqwBi" id="7d3kpy2qv_W" role="3cqZAk">
+            <node concept="2ShNRf" id="7d3kpy2qv_X" role="2Oq$k0">
+              <node concept="1pGfFk" id="7d3kpy2qv_Y" role="2ShVmc">
+                <ref role="37wK5l" to="1mjk:4RSqyaA71W6" resolve="RPath" />
+                <node concept="3cpWs3" id="7d3kpy2qv_Z" role="37wK5m">
+                  <node concept="Xl_RD" id="7d3kpy2qvA0" role="3uHU7w">
+                    <property role="Xl_RC" value=".metaRlibs" />
+                  </node>
+                  <node concept="3cpWs3" id="7d3kpy2qvA1" role="3uHU7B">
+                    <node concept="2YIFZM" id="7d3kpy2qvA2" role="3uHU7B">
+                      <ref role="37wK5l" to="wyt6:~System.getProperty(java.lang.String):java.lang.String" resolve="getProperty" />
+                      <ref role="1Pybhc" to="wyt6:~System" resolve="System" />
+                      <node concept="Xl_RD" id="7d3kpy2qvA3" role="37wK5m">
+                        <property role="Xl_RC" value="user.home" />
+                      </node>
+                    </node>
+                    <node concept="10M0yZ" id="7d3kpy2qvA4" role="3uHU7w">
+                      <ref role="3cqZAo" to="guwi:~File.separator" resolve="separator" />
+                      <ref role="1PxDUh" to="guwi:~File" resolve="File" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="liA8E" id="7d3kpy2qvA5" role="2OqNvi">
+              <ref role="37wK5l" to="1mjk:4RSqyaA7akQ" resolve="toString" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="17QB3L" id="5OllgZoNaMb" role="3clF45" />
+      <node concept="37vLTG" id="55a1UmAccAn" role="3clF46">
+        <property role="TrG5h" value="mpsProject" />
+        <node concept="3uibUv" id="55a1UmAgj$h" role="1tU5fm">
+          <ref role="3uigEE" to="z1c3:~Project" resolve="Project" />
+        </node>
+      </node>
+    </node>
+    <node concept="13i0hz" id="7klrZ4rJNMW" role="13h7CS">
+      <property role="13i0iv" value="false" />
+      <property role="13i0it" value="false" />
+      <property role="TrG5h" value="getResultsDir" />
+      <node concept="37vLTG" id="55a1UmAl2qN" role="3clF46">
+        <property role="TrG5h" value="mpsProject" />
+        <node concept="3uibUv" id="55a1UmAl2qO" role="1tU5fm">
+          <ref role="3uigEE" to="z1c3:~Project" resolve="Project" />
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="7klrZ4rJNMX" role="1B3o_S" />
+      <node concept="3clFbS" id="7klrZ4rJNMY" role="3clF47">
+        <node concept="3clFbJ" id="7d3kpy2qwhM" role="3cqZAp">
+          <node concept="3clFbS" id="7d3kpy2qwhO" role="3clFbx">
+            <node concept="3cpWs6" id="7d3kpy2qwCq" role="3cqZAp">
+              <node concept="2YIFZM" id="7d3kpy2qwCr" role="3cqZAk">
+                <ref role="37wK5l" to="ccd1:7d3kpy2aY3f" resolve="getRemoteResultsDir" />
+                <ref role="1Pybhc" to="ccd1:3uD_HpV5Ij6" resolve="Utils" />
+                <node concept="2YIFZM" id="55a1UmAl2vi" role="37wK5m">
+                  <ref role="37wK5l" to="alof:~ProjectHelper.toIdeaProject(jetbrains.mps.project.Project):com.intellij.openapi.project.Project" resolve="toIdeaProject" />
+                  <ref role="1Pybhc" to="alof:~ProjectHelper" resolve="ProjectHelper" />
+                  <node concept="37vLTw" id="55a1UmAl2vj" role="37wK5m">
+                    <ref role="3cqZAo" node="55a1UmAl2qN" resolve="mpsProject" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="2YIFZM" id="7d3kpy2qwte" role="3clFbw">
+            <ref role="1Pybhc" to="ccd1:7d3kpy2arRt" resolve="Helper" />
+            <ref role="37wK5l" to="ccd1:7d3kpy2aHso" resolve="shouldExecuteOnJupyter" />
+            <node concept="13iPFW" id="7d3kpy2qwtf" role="37wK5m" />
+          </node>
+        </node>
+        <node concept="3cpWs6" id="7d3kpy2qwWl" role="3cqZAp">
+          <node concept="2OqwBi" id="7d3kpy2qwWm" role="3cqZAk">
+            <node concept="2ShNRf" id="7d3kpy2qwWn" role="2Oq$k0">
+              <node concept="1pGfFk" id="7d3kpy2qwWo" role="2ShVmc">
+                <ref role="37wK5l" to="1mjk:4RSqyaA71W6" resolve="RPath" />
+                <node concept="2OqwBi" id="7d3kpy2qwWp" role="37wK5m">
+                  <node concept="2YIFZM" id="7d3kpy2qwWq" role="2Oq$k0">
+                    <ref role="37wK5l" to="18ew:~MacrosFactory.getGlobal():jetbrains.mps.util.MacroHelper" resolve="getGlobal" />
+                    <ref role="1Pybhc" to="18ew:~MacrosFactory" resolve="MacrosFactory" />
+                  </node>
+                  <node concept="liA8E" id="7d3kpy2qwWr" role="2OqNvi">
+                    <ref role="37wK5l" to="18ew:~MacroHelper.expandPath(java.lang.String):java.lang.String" resolve="expandPath" />
+                    <node concept="Xl_RD" id="7d3kpy2qwWs" role="37wK5m">
+                      <property role="Xl_RC" value="${org.campagnelab.metaR.results_dir}" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="liA8E" id="7d3kpy2qwWt" role="2OqNvi">
+              <ref role="37wK5l" to="1mjk:4RSqyaA7akQ" resolve="toString" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="17QB3L" id="7klrZ4rJNRb" role="3clF45" />
     </node>
     <node concept="13hLZK" id="6efZaUgdIFz" role="13h7CW">
       <node concept="3clFbS" id="6efZaUgdIF$" role="2VODD2" />

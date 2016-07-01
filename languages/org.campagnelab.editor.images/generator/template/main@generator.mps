@@ -351,6 +351,19 @@
                         <ref role="37wK5l" to="mhbf:~SModel.getRepository():org.jetbrains.mps.openapi.module.SRepository" resolve="getRepository" />
                       </node>
                     </node>
+                    <node concept="2OqwBi" id="2YRQibUi9fI" role="37wK5m">
+                      <node concept="2JrnkZ" id="2YRQibUi9dK" role="2Oq$k0">
+                        <node concept="2OqwBi" id="2YRQibUi92L" role="2JrQYb">
+                          <node concept="37vLTw" id="2YRQibUi90O" role="2Oq$k0">
+                            <ref role="3cqZAo" node="2MJ_dSPaIHg" resolve="node" />
+                          </node>
+                          <node concept="I4A8Y" id="2YRQibUi973" role="2OqNvi" />
+                        </node>
+                      </node>
+                      <node concept="liA8E" id="2YRQibUi9jY" role="2OqNvi">
+                        <ref role="37wK5l" to="mhbf:~SModel.getModule():org.jetbrains.mps.openapi.module.SModule" resolve="getModule" />
+                      </node>
+                    </node>
                   </node>
                 </node>
               </node>

@@ -773,13 +773,8 @@
                 </node>
                 <node concept="liA8E" id="5XdrQ8W$6CX" role="2OqNvi">
                   <ref role="37wK5l" to="wyt6:~String.equalsIgnoreCase(java.lang.String):boolean" resolve="equalsIgnoreCase" />
-                  <node concept="2OqwBi" id="5XdrQ8W$6NY" role="37wK5m">
-                    <node concept="37vLTw" id="5XdrQ8W$6KL" role="2Oq$k0">
-                      <ref role="3cqZAo" node="5XdrQ8W$4HU" resolve="project" />
-                    </node>
-                    <node concept="liA8E" id="5XdrQ8W$72u" role="2OqNvi">
-                      <ref role="37wK5l" to="4nm9:~Project.getName():java.lang.String" resolve="getName" />
-                    </node>
+                  <node concept="37vLTw" id="7SyL5U3d_n2" role="37wK5m">
+                    <ref role="3cqZAo" node="5XdrQ8W$4HU" resolve="projectName" />
                   </node>
                 </node>
               </node>
@@ -804,10 +799,8 @@
       <node concept="3Tm1VV" id="5XdrQ8WzPrR" role="1B3o_S" />
       <node concept="10P_77" id="5XdrQ8W$7Zg" role="3clF45" />
       <node concept="37vLTG" id="5XdrQ8W$4HU" role="3clF46">
-        <property role="TrG5h" value="project" />
-        <node concept="3uibUv" id="1tBRwPIKIhI" role="1tU5fm">
-          <ref role="3uigEE" to="4nm9:~Project" resolve="Project" />
-        </node>
+        <property role="TrG5h" value="projectName" />
+        <node concept="17QB3L" id="7SyL5U3d_h_" role="1tU5fm" />
       </node>
       <node concept="37vLTG" id="5XdrQ8WzPPs" role="3clF46">
         <property role="TrG5h" value="listener" />

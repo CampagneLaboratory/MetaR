@@ -14,8 +14,6 @@
     <import index="18ew" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.util(MPS.Core/)" />
     <import index="8vtd" ref="r:cbd13695-fd32-4d39-aded-ba7e630ac2c3(org.campagnelab.metar.inspect.structure)" />
     <import index="guwi" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" />
-    <import index="mhbf" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.model(MPS.OpenAPI/)" />
-    <import index="2k4h" ref="r:930671f0-37d5-4b40-acdb-7bfbc083292a(org.campagnelab.metar.inspect.behavior)" />
     <import index="1mjk" ref="r:72b0aa20-b681-4aef-ad30-bb23b1f4b98c(org.campagnelab.metar.code.generator.helpers)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
   </imports>
@@ -177,8 +175,11 @@
               </node>
             </node>
           </node>
-          <node concept="3_3kQU" id="3BiNpr5SGjL" role="3_3kQL">
-            <property role="3_3kQV" value=",&quot;" />
+          <node concept="3_3kQU" id="klQnOm_Nk$" role="3_3kQL">
+            <property role="3_3kQV" value="," />
+          </node>
+          <node concept="3_3kQU" id="klQnOm_NeD" role="3_3kQL">
+            <property role="3_3kQV" value="convertPathToJupyterPath(&quot;" />
           </node>
           <node concept="3_3kQU" id="6X05ub9VaLg" role="3_3kQL">
             <property role="3_3kQV" value="893283923" />
@@ -271,8 +272,14 @@
               </node>
             </node>
           </node>
-          <node concept="3_3kQU" id="6X05ub9VaLh" role="3_3kQL">
-            <property role="3_3kQV" value="&quot;, row.names=FALSE, sep=&quot;\t&quot;) " />
+          <node concept="3_3kQU" id="klQnOm_Nqr" role="3_3kQL">
+            <property role="3_3kQV" value="&quot;" />
+          </node>
+          <node concept="3_3kQU" id="klQnOm_Nqs" role="3_3kQL">
+            <property role="3_3kQV" value=")" />
+          </node>
+          <node concept="3_3kQU" id="klQnOm_Nqt" role="3_3kQL">
+            <property role="3_3kQV" value=", row.names=FALSE, sep=&quot;\t&quot;) " />
           </node>
         </node>
       </node>
