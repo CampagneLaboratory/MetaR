@@ -3815,59 +3815,7 @@
                 <node concept="liA8E" id="klQnOm80P9" role="2OqNvi">
                   <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
                   <node concept="Xl_RD" id="klQnOm80Pa" role="37wK5m">
-                    <property role="Xl_RC" value="convertPathToJupyterPath &lt;- function(path, use_base64 = FALSE) {\n" />
-                  </node>
-                </node>
-              </node>
-            </node>
-            <node concept="3clFbF" id="7GUfYs14fLB" role="3cqZAp">
-              <node concept="2OqwBi" id="7GUfYs14g8f" role="3clFbG">
-                <node concept="37vLTw" id="7GUfYs14fL_" role="2Oq$k0">
-                  <ref role="3cqZAo" node="klQnOm7ZSJ" resolve="builder" />
-                </node>
-                <node concept="liA8E" id="7GUfYs14gwj" role="2OqNvi">
-                  <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
-                  <node concept="Xl_RD" id="7GUfYs14gBn" role="37wK5m">
-                    <property role="Xl_RC" value="cat(paste(path, use_base64))\n" />
-                  </node>
-                </node>
-              </node>
-            </node>
-            <node concept="3clFbF" id="7GUfYs13xs2" role="3cqZAp">
-              <node concept="2OqwBi" id="7GUfYs13xLU" role="3clFbG">
-                <node concept="37vLTw" id="7GUfYs13xs0" role="2Oq$k0">
-                  <ref role="3cqZAo" node="klQnOm7ZSJ" resolve="builder" />
-                </node>
-                <node concept="liA8E" id="7GUfYs13y5q" role="2OqNvi">
-                  <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
-                  <node concept="Xl_RD" id="7GUfYs13ycu" role="37wK5m">
-                    <property role="Xl_RC" value="if(is.numeric(path)) { return(path); }\n" />
-                  </node>
-                </node>
-              </node>
-            </node>
-            <node concept="3clFbF" id="7GUfYs15bxB" role="3cqZAp">
-              <node concept="2OqwBi" id="7GUfYs15bxC" role="3clFbG">
-                <node concept="37vLTw" id="7GUfYs15bxD" role="2Oq$k0">
-                  <ref role="3cqZAo" node="klQnOm7ZSJ" resolve="builder" />
-                </node>
-                <node concept="liA8E" id="7GUfYs15bxE" role="2OqNvi">
-                  <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
-                  <node concept="Xl_RD" id="7GUfYs15bxF" role="37wK5m">
-                    <property role="Xl_RC" value="if(is.null(path)) { return(NULL); }\n" />
-                  </node>
-                </node>
-              </node>
-            </node>
-            <node concept="3clFbF" id="7GUfYs1402Y" role="3cqZAp">
-              <node concept="2OqwBi" id="7GUfYs1402Z" role="3clFbG">
-                <node concept="37vLTw" id="7GUfYs14030" role="2Oq$k0">
-                  <ref role="3cqZAo" node="klQnOm7ZSJ" resolve="builder" />
-                </node>
-                <node concept="liA8E" id="7GUfYs14031" role="2OqNvi">
-                  <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
-                  <node concept="Xl_RD" id="7GUfYs14032" role="37wK5m">
-                    <property role="Xl_RC" value="if(is.na(path)) { return(NULL); }\n" />
+                    <property role="Xl_RC" value="convertPathToJupyterPath &lt;- function(path, use_base64) {\n" />
                   </node>
                 </node>
               </node>
@@ -3880,7 +3828,7 @@
                 <node concept="liA8E" id="klQnOmERgE" role="2OqNvi">
                   <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
                   <node concept="Xl_RD" id="klQnOmERi9" role="37wK5m">
-                    <property role="Xl_RC" value="path_on_server &lt;- file.path(server_base_dir,unique_session_id, model_name, basename(path) )\n" />
+                    <property role="Xl_RC" value="path_on_server &lt;- file.path(server_base_dir,unique_session_id, model_name,basename(path))\n" />
                   </node>
                 </node>
               </node>
@@ -3965,7 +3913,7 @@
                       </node>
                     </node>
                     <node concept="Xl_RD" id="526Op3MZai" role="3uHU7w">
-                      <property role="Xl_RC" value=",\&quot;\&quot;,sep = \&quot;\&quot;))\n" />
+                      <property role="Xl_RC" value=",\&quot;\n\&quot;,sep = \&quot;\&quot;))\n" />
                     </node>
                   </node>
                 </node>
@@ -4036,19 +3984,15 @@
                 </node>
               </node>
             </node>
-            <node concept="1X3_iC" id="7GUfYs16tpH" role="lGtFl">
-              <property role="3V$3am" value="statement" />
-              <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
-              <node concept="3clFbF" id="5NwG7t5A11r" role="8Wnug">
-                <node concept="2OqwBi" id="5NwG7t5A11s" role="3clFbG">
-                  <node concept="37vLTw" id="5NwG7t5A11t" role="2Oq$k0">
-                    <ref role="3cqZAo" node="klQnOm7ZSJ" resolve="builder" />
-                  </node>
-                  <node concept="liA8E" id="5NwG7t5A11u" role="2OqNvi">
-                    <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
-                    <node concept="Xl_RD" id="5NwG7t5A11v" role="37wK5m">
-                      <property role="Xl_RC" value="old_sink &lt;- copy(sink)\n" />
-                    </node>
+            <node concept="3clFbF" id="5NwG7t5A11r" role="3cqZAp">
+              <node concept="2OqwBi" id="5NwG7t5A11s" role="3clFbG">
+                <node concept="37vLTw" id="5NwG7t5A11t" role="2Oq$k0">
+                  <ref role="3cqZAo" node="klQnOm7ZSJ" resolve="builder" />
+                </node>
+                <node concept="liA8E" id="5NwG7t5A11u" role="2OqNvi">
+                  <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
+                  <node concept="Xl_RD" id="5NwG7t5A11v" role="37wK5m">
+                    <property role="Xl_RC" value="old_sink &lt;- copy(sink)\n" />
                   </node>
                 </node>
               </node>
@@ -4092,7 +4036,7 @@
                 <node concept="liA8E" id="5NwG7t5A1oX" role="2OqNvi">
                   <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
                   <node concept="Xl_RD" id="2WBVyJt2d$L" role="37wK5m">
-                    <property role="Xl_RC" value="sink222 &lt;- function(file = NULL, append = FALSE, type = NULL,     split = FALSE) {\n" />
+                    <property role="Xl_RC" value="sink &lt;- function(file = NULL) {\n" />
                   </node>
                 </node>
               </node>
@@ -4105,7 +4049,7 @@
                 <node concept="liA8E" id="2WBVyJt2dzA" role="2OqNvi">
                   <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
                   <node concept="Xl_RD" id="2WBVyJt2dF6" role="37wK5m">
-                    <property role="Xl_RC" value="if(  is.null(file) || length(file)==0 || is.na(file) || is.numeric(file)) { sink(file, append, type, split) }\n" />
+                    <property role="Xl_RC" value="if(is.null(file)) { old_sink() }\n" />
                   </node>
                 </node>
               </node>
@@ -4118,7 +4062,7 @@
                 <node concept="liA8E" id="2WBVyJt2fbL" role="2OqNvi">
                   <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
                   <node concept="Xl_RD" id="2WBVyJt2ft2" role="37wK5m">
-                    <property role="Xl_RC" value="else { sink(convertPathToJupyterPath(file, FALSE),append, type, split) }\n" />
+                    <property role="Xl_RC" value="else { old_sink(convertPathToJupyterPath(file, FALSE)) }\n" />
                   </node>
                 </node>
               </node>
@@ -4136,7 +4080,6 @@
                 </node>
               </node>
             </node>
-            <node concept="3clFbH" id="4yPsIf9_IBG" role="3cqZAp" />
             <node concept="3clFbF" id="klQnOm88Z$" role="3cqZAp">
               <node concept="2OqwBi" id="klQnOm8974" role="3clFbG">
                 <node concept="37vLTw" id="klQnOm88Zy" role="2Oq$k0">
@@ -14572,44 +14515,6 @@
                                                     <node concept="1DTwFV" id="2XoE5lRLKqs" role="2OqNvi">
                                                       <ref role="2WH_rO" node="2XoE5lRIHUm" resolve="mpsProject" />
                                                     </node>
-                                                  </node>
-                                                </node>
-                                              </node>
-                                              <node concept="1X3_iC" id="6CA2KfgOopZ" role="lGtFl">
-                                                <property role="3V$3am" value="statement" />
-                                                <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
-                                                <node concept="SfApY" id="7GUfYs1314_" role="8Wnug">
-                                                  <node concept="3clFbS" id="7GUfYs1314B" role="SfCbr">
-                                                    <node concept="1X3_iC" id="6CA2KfgOomq" role="lGtFl">
-                                                      <property role="3V$3am" value="statement" />
-                                                      <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
-                                                      <node concept="3clFbF" id="7GUfYs12zhe" role="8Wnug">
-                                                        <node concept="2YIFZM" id="7GUfYs12zqd" role="3clFbG">
-                                                          <ref role="37wK5l" to="8oaq:~FileUtils.writeStringToFile(java.io.File,java.lang.String):void" resolve="writeStringToFile" />
-                                                          <ref role="1Pybhc" to="8oaq:~FileUtils" resolve="FileUtils" />
-                                                          <node concept="2ShNRf" id="7GUfYs12$1e" role="37wK5m">
-                                                            <node concept="1pGfFk" id="7GUfYs12WHH" role="2ShVmc">
-                                                              <ref role="37wK5l" to="guwi:~File.&lt;init&gt;(java.lang.String)" resolve="File" />
-                                                              <node concept="Xl_RD" id="7GUfYs12Xh7" role="37wK5m">
-                                                                <property role="Xl_RC" value="/Users/alexanderpann/Desktop/output.r" />
-                                                              </node>
-                                                            </node>
-                                                          </node>
-                                                          <node concept="37vLTw" id="7GUfYs12XWa" role="37wK5m">
-                                                            <ref role="3cqZAo" node="2XoE5lRKEFH" resolve="result" />
-                                                          </node>
-                                                        </node>
-                                                      </node>
-                                                    </node>
-                                                  </node>
-                                                  <node concept="TDmWw" id="7GUfYs1314C" role="TEbGg">
-                                                    <node concept="3cpWsn" id="7GUfYs1314E" role="TDEfY">
-                                                      <property role="TrG5h" value="e" />
-                                                      <node concept="3uibUv" id="7GUfYs131WD" role="1tU5fm">
-                                                        <ref role="3uigEE" to="guwi:~IOException" resolve="IOException" />
-                                                      </node>
-                                                    </node>
-                                                    <node concept="3clFbS" id="7GUfYs1314I" role="TDEfX" />
                                                   </node>
                                                 </node>
                                               </node>
