@@ -17639,7 +17639,7 @@
             <node concept="liA8E" id="3UnGYxsYZlu" role="2OqNvi">
               <ref role="37wK5l" to="r791:~JTextComponent.setText(java.lang.String):void" resolve="setText" />
               <node concept="Xl_RD" id="3UnGYxsYZlv" role="37wK5m">
-                <property role="Xl_RC" value="The first start of the server can take some minutes\nbecause the server needs to download a docker image." />
+                <property role="Xl_RC" value="The first start of the server can take a while since it requires downloading a docker image." />
               </node>
             </node>
           </node>
