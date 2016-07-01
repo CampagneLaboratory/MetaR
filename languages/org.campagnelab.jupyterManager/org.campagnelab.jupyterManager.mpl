@@ -57,7 +57,6 @@
     <stubModelEntry path="${module}/httpcore-nio-4.4.4.jar" />
     <stubModelEntry path="${module}/netty-resolver-dns-2.0.2.jar" />
     <stubModelEntry path="${module}/httpclient-4.5.2.jar" />
-    <stubModelEntry path="${module}/junit-4.10.jar" />
     <stubModelEntry path="${module}/netty-handler-4.0.36.Final.jar" />
     <stubModelEntry path="${module}/netty-codec-http-4.0.36.Final.jar" />
     <stubModelEntry path="${module}/httpmime-4.5.2.jar" />
