@@ -6430,10 +6430,7 @@
       <node concept="3EZMnI" id="6$xxyeHo$Uv" role="3EZMnx">
         <node concept="2iRfu4" id="6$xxyeHo$Uw" role="2iSdaV" />
         <node concept="3F0ifn" id="6$xxyeHo$Us" role="3EZMnx">
-          <property role="3F0ifm" value="table preview" />
-        </node>
-        <node concept="3F0ifn" id="6$xxyeHo_5I" role="3EZMnx">
-          <property role="3F0ifm" value="-&gt;" />
+          <property role="3F0ifm" value="preview table" />
         </node>
         <node concept="3F1sOY" id="6$xxyeHo_bB" role="3EZMnx">
           <ref role="1NtTu8" to="jrxw:6$xxyeHl7zQ" />

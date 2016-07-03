@@ -2101,7 +2101,7 @@
     <property role="TrG5h" value="BlockWithTable" />
     <property role="3GE5qa" value="block" />
     <property role="34LRSv" value="with tables" />
-    <property role="R4oN_" value="works with restricted tables" />
+    <property role="R4oN_" value="Restrict scope to a set of tables" />
     <property role="1pbfSe" value="275051553" />
     <ref role="1TJDcQ" node="7LvyiX4miiC" resolve="Statement" />
     <node concept="1TJgyj" id="6lyZREae3lF" role="1TKVEi">
@@ -2450,8 +2450,8 @@
     <property role="1pbfSe" value="376831611" />
     <property role="TrG5h" value="TablePreview" />
     <property role="3GE5qa" value="view" />
-    <property role="34LRSv" value="table preview" />
-    <property role="R4oN_" value="A visual representation of a table." />
+    <property role="34LRSv" value="preview table" />
+    <property role="R4oN_" value="Show the content of a table" />
     <ref role="1TJDcQ" node="7LvyiX4miiC" resolve="Statement" />
     <node concept="1TJgyi" id="6$xxyeHl7$4" role="1TKVEl">
       <property role="TrG5h" value="numRows" />
