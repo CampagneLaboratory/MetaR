@@ -96,7 +96,7 @@
       </node>
       <node concept="34tvTV" id="7SyL5U3_HQM" role="ZXjPg">
         <property role="S1EQ6" value="WKVWGXRLKN" />
-        <property role="34tvW_" value="5" />
+        <property role="34tvW_" value="1" />
         <property role="34tvWB" value="10" />
         <property role="34gX7q" value="true" />
         <node concept="afgQW" id="7SyL5U3_HQZ" role="34tvVl">
