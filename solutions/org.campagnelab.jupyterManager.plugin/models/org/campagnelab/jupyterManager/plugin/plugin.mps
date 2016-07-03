@@ -3815,7 +3815,7 @@
                 <node concept="liA8E" id="klQnOm80P9" role="2OqNvi">
                   <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
                   <node concept="Xl_RD" id="klQnOm80Pa" role="37wK5m">
-                    <property role="Xl_RC" value="convertPathToJupyterPath &lt;- function(path, use_base64) {\n" />
+                    <property role="Xl_RC" value="convertPathToJupyterPath &lt;- function(path, use_base64=FALSE) {\n" />
                   </node>
                 </node>
               </node>
