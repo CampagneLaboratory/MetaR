@@ -8986,9 +8986,18 @@
       <property role="DiZV1" value="false" />
       <property role="2aFKle" value="false" />
       <node concept="3clFbS" id="e_7xe$Gpk$" role="3clF47">
-        <node concept="3clFbF" id="e_7xe$GpGu" role="3cqZAp">
-          <node concept="Xl_RD" id="e_7xe$Gn$U" role="3clFbG">
-            <property role="Xl_RC" value="jupyter/r-notebook:latest" />
+        <node concept="1X3_iC" id="32USn14y0ka" role="lGtFl">
+          <property role="3V$3am" value="statement" />
+          <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
+          <node concept="3clFbF" id="e_7xe$GpGu" role="8Wnug">
+            <node concept="Xl_RD" id="e_7xe$Gn$U" role="3clFbG">
+              <property role="Xl_RC" value="jupyter/r-notebook:latest" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="32USn14y1fJ" role="3cqZAp">
+          <node concept="Xl_RD" id="32USn14y1fI" role="3clFbG">
+            <property role="Xl_RC" value="fac2003/jupyter-metar-instant-refresh:latest" />
           </node>
         </node>
       </node>
