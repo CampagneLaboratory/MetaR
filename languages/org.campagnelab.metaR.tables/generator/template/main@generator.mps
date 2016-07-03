@@ -18742,7 +18742,7 @@
             </node>
           </node>
           <node concept="3_3kQU" id="5lDNWrK9mCM" role="3_3kQL">
-            <property role="3_3kQV" value=")" />
+            <property role="3_3kQV" value="); flush.console()" />
           </node>
         </node>
         <node concept="1gZcZf" id="5lDNWrK9mZg" role="2G3XIn">
@@ -18996,7 +18996,10 @@
             <property role="3_3kQV" value="\n" />
           </node>
           <node concept="3_3kQU" id="fkJg1tYkdU" role="3_3kQL">
-            <property role="3_3kQV" value="&quot;))" />
+            <property role="3_3kQV" value="&quot;));" />
+          </node>
+          <node concept="3_3kQU" id="9dQnQGZ$BR" role="3_3kQL">
+            <property role="3_3kQV" value="flush.console()" />
           </node>
         </node>
         <node concept="1gZcZf" id="fkJg1tYjFr" role="2G3XIn">
