@@ -14928,6 +14928,16 @@
             </node>
           </node>
         </node>
+        <node concept="3SKdUt" id="1bdOi2pnWRc" role="3cqZAp">
+          <node concept="3SKdUq" id="1bdOi2pnWRe" role="3SKWNk">
+            <property role="3SKdUp" value="TODO: evaluate. The next line effectively makes the Jupyter tool silent when the container" />
+          </node>
+        </node>
+        <node concept="3SKdUt" id="1bdOi2pnXck" role="3cqZAp">
+          <node concept="3SKdUq" id="1bdOi2pnXcm" role="3SKWNk">
+            <property role="3SKdUp" value="is stopped. Remove the next line to see the message &quot;Docker container is not running&quot;" />
+          </node>
+        </node>
         <node concept="3clFbF" id="2XoE5lRII2N" role="3cqZAp">
           <node concept="1Wc70l" id="2XoE5lRII2O" role="3clFbG">
             <node concept="1Wc70l" id="2XoE5lRII2P" role="3uHU7B">
@@ -15237,6 +15247,7 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbH" id="1bdOi2pmXPc" role="3cqZAp" />
         <node concept="3clFbF" id="w24d1knR3s" role="3cqZAp">
           <node concept="37vLTI" id="w24d1knR3t" role="3clFbG">
             <node concept="37vLTw" id="w24d1knR3u" role="37vLTJ">
@@ -15267,6 +15278,31 @@
                           </node>
                         </node>
                         <node concept="3clFbS" id="w24d1knR3C" role="3clF47">
+                          <node concept="3SKdUt" id="1bdOi2pnY4r" role="3cqZAp">
+                            <node concept="3SKdUq" id="1bdOi2pnY4t" role="3SKWNk">
+                              <property role="3SKdUp" value="do not attempt to refresh if the container is not running." />
+                            </node>
+                          </node>
+                          <node concept="3clFbJ" id="1bdOi2pmAZy" role="3cqZAp">
+                            <node concept="3clFbS" id="1bdOi2pmAZz" role="3clFbx">
+                              <node concept="3cpWs6" id="1bdOi2pmAZ$" role="3cqZAp" />
+                            </node>
+                            <node concept="3fqX7Q" id="1bdOi2pmAZA" role="3clFbw">
+                              <node concept="2OqwBi" id="1bdOi2pmAZB" role="3fr31v">
+                                <node concept="2XshWL" id="1bdOi2pmAZC" role="2OqNvi">
+                                  <ref role="2WH_rO" node="70iH0fuD6U8" resolve="isServerRunning" />
+                                </node>
+                                <node concept="2YIFZM" id="1bdOi2pmAZD" role="2Oq$k0">
+                                  <ref role="37wK5l" node="70iH0fuH0ga" resolve="getTool" />
+                                  <ref role="1Pybhc" node="70iH0fuE3fQ" resolve="Tool" />
+                                  <node concept="37vLTw" id="1bdOi2pmCIk" role="37wK5m">
+                                    <ref role="3cqZAo" node="55a1UmAldN0" resolve="project" />
+                                  </node>
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                          <node concept="3clFbH" id="1bdOi2pmY8v" role="3cqZAp" />
                           <node concept="1QHqEM" id="w24d1knW2W" role="3cqZAp">
                             <node concept="1QHqEC" id="w24d1knW2X" role="1QHqEI">
                               <node concept="3clFbS" id="w24d1knW2Y" role="1bW5cS">
@@ -15291,6 +15327,7 @@
                                 </node>
                                 <node concept="3clFbJ" id="w24d1knW38" role="3cqZAp">
                                   <node concept="3clFbS" id="w24d1knW39" role="3clFbx">
+                                    <node concept="3clFbH" id="1bdOi2pmAY7" role="3cqZAp" />
                                     <node concept="3clFbF" id="70iH0fuDXsc" role="3cqZAp">
                                       <node concept="2YIFZM" id="70iH0fuDX_0" role="3clFbG">
                                         <ref role="37wK5l" node="70iH0fuDDkj" resolve="runAction" />
@@ -15339,6 +15376,7 @@
       <node concept="3Tm1VV" id="55a1UmAldzY" role="1B3o_S" />
       <node concept="37vLTG" id="55a1UmAldN0" role="3clF46">
         <property role="TrG5h" value="project" />
+        <property role="3TUv4t" value="true" />
         <node concept="3uibUv" id="55a1UmAldMZ" role="1tU5fm">
           <ref role="3uigEE" to="4nm9:~Project" resolve="Project" />
         </node>
