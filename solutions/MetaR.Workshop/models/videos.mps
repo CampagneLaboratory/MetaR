@@ -414,7 +414,7 @@
       <node concept="34tvTV" id="6v$G554bLYT" role="ZXjPg">
         <property role="S1EQ6" value="ENOACOFXJH" />
         <property role="34tvW_" value="10" />
-        <property role="34tvWB" value="3" />
+        <property role="34tvWB" value="4" />
         <property role="34gX7q" value="true" />
         <node concept="afgQW" id="6v$G554bLZ1" role="34tvVl">
           <ref role="afgo8" node="6v$G554bLSc" resolve="normalized-and-stats.tsv" />
@@ -503,7 +503,7 @@
       <node concept="34tvTV" id="6v$G554bMB2" role="ZXjPg">
         <property role="S1EQ6" value="TIEWIQJFRX" />
         <property role="34tvW_" value="4" />
-        <property role="34tvWB" value="3" />
+        <property role="34tvWB" value="4" />
         <property role="34gX7q" value="true" />
         <node concept="afgQW" id="6v$G554bMCw" role="34tvVl">
           <ref role="afgo8" node="6v$G554bMmb" resolve="reordered" />

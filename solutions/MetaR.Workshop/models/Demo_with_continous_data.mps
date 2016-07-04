@@ -13,7 +13,7 @@
     <use id="af754813-06c7-4cd1-8f24-cc91ec8e5d34" name="org.campagnelab.metar.with.r" version="0" />
     <use id="c1747c67-8f42-4d83-9542-4a948aec17d9" name="org.campagnelab.metar.functions.importing" version="0" />
     <use id="e633fc48-0aaf-45b5-9894-247b67cf0890" name="org.campagnelab.metar.biomart" version="0" />
-    <use id="040d3459-0033-45bb-b823-4cfd22657c15" name="org.campagnelab.metar.biomartToR" version="0" />
+    <use id="040d3459-0033-45bb-b823-4cfd22657c15" name="org.campagnelab.metar.biomartToR" version="1" />
     <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="1" />
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="4" />
     <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="2" />
@@ -271,9 +271,9 @@
       </concept>
     </language>
     <language id="7eba6a28-4cc2-47b9-a392-284573f2054a" name="org.campagnelab.metar.R.access">
-      <concept id="4878268351238000594" name="" flags="ng" index="1x8lzE">
-        <reference id="4878268351238001566" name="" index="1x8kiA" />
-        <reference id="8641281067910071393" name="" index="1YZnGS" />
+      <concept id="4878268351238000594" name="org.campagnelab.metar.R.access.structure.ExposedColumn" flags="ng" index="1x8lzE">
+        <reference id="4878268351238001566" name="column" index="1x8kiA" />
+        <reference id="8641281067910071393" name="futureTable" index="1YZnGS" />
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
