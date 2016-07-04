@@ -4006,7 +4006,7 @@
                   <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
                   <node concept="3cpWs3" id="7RnpF1NUIEm" role="37wK5m">
                     <node concept="Xl_RD" id="7RnpF1NUIEs" role="3uHU7B">
-                      <property role="Xl_RC" value="pdf &lt;- function(file, width, height, onefile) { " />
+                      <property role="Xl_RC" value="pdf &lt;- function(file, width=7, height=7, onefile=TRUE) { " />
                     </node>
                     <node concept="Xl_RD" id="7RnpF1NUIEu" role="3uHU7w">
                       <property role="Xl_RC" value=" old_pdf(convertPathToJupyterPath(file, TRUE), width=width, height=height, onefile=onefile) }\n" />
@@ -4023,7 +4023,7 @@
                 <node concept="liA8E" id="7RnpF1NUgvJ" role="2OqNvi">
                   <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
                   <node concept="Xl_RD" id="7RnpF1NUgvK" role="37wK5m">
-                    <property role="Xl_RC" value="png &lt;- function(file, width, height) {  old_png(convertPathToJupyterPath(file, TRUE), width, height) }\n" />
+                    <property role="Xl_RC" value="png &lt;- function(file, width=200, height=200) {  old_png(convertPathToJupyterPath(file, TRUE), width, height) }\n" />
                   </node>
                 </node>
               </node>
