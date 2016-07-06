@@ -655,7 +655,10 @@
             </node>
           </node>
           <node concept="1gZcZf" id="4lfKH_IXaIu" role="2G3XIn">
-            <property role="1gZaPE" value="lists" />
+            <property role="1gZaPE" value="" />
+            <node concept="3_3kQU" id="5t6aAzXVQOW" role="3_3kQL">
+              <property role="3_3kQV" value="lists" />
+            </node>
             <node concept="3_3kQU" id="4lfKH_IXaIv" role="3_3kQL">
               <property role="3_3kQV" value="" />
             </node>
@@ -1274,7 +1277,7 @@
               </node>
             </node>
             <node concept="3_3kQU" id="5NnrSEl9u_h" role="3_3kQL">
-              <property role="3_3kQV" value=".table,file=&quot;" />
+              <property role="3_3kQV" value=".table,file=convertPathToJupyterPath(&quot;" />
             </node>
             <node concept="3_3kQU" id="4lfKH_ILqMN" role="3_3kQL">
               <property role="3_3kQV" value="SimulatedData.tsv" />
@@ -1302,7 +1305,7 @@
               </node>
             </node>
             <node concept="3_3kQU" id="4lfKH_ILqMO" role="3_3kQL">
-              <property role="3_3kQV" value="&quot;,col.names = TRUE,row.names=FALSE,quote = FALSE, sep = &quot;\t&quot;)" />
+              <property role="3_3kQV" value="&quot;),col.names = TRUE,row.names=FALSE,quote = FALSE, sep = &quot;\t&quot;)" />
             </node>
           </node>
           <node concept="1gZcZf" id="6kVgbi6iIus" role="2G3XIn">
@@ -1396,7 +1399,7 @@
           <node concept="1gZcZf" id="6kVgbi6iIux" role="2G3XIn">
             <property role="1gZaPE" value="" />
             <node concept="3_3kQU" id="4lfKH_ILeOP" role="3_3kQL">
-              <property role="3_3kQV" value="write.table(annotationT.table,file=&quot;" />
+              <property role="3_3kQV" value="write.table(annotationT.table,file=convertPathToJupyterPath(&quot;" />
             </node>
             <node concept="3_3kQU" id="4lfKH_ILeOQ" role="3_3kQL">
               <property role="3_3kQV" value="AgeAnnotation.tsv" />
@@ -1429,7 +1432,7 @@
               </node>
             </node>
             <node concept="3_3kQU" id="4lfKH_ILeOR" role="3_3kQL">
-              <property role="3_3kQV" value="&quot;,col.names = TRUE,row.names=FALSE,quote = FALSE, sep = &quot;\t&quot;)" />
+              <property role="3_3kQV" value="&quot;),col.names = TRUE,row.names=FALSE,quote = FALSE, sep = &quot;\t&quot;)" />
             </node>
           </node>
         </node>
@@ -1478,7 +1481,7 @@
               </node>
             </node>
             <node concept="3_3kQU" id="1eFjY4Y_jHN" role="3_3kQL">
-              <property role="3_3kQV" value=" &lt;- fread(&quot;" />
+              <property role="3_3kQV" value=" &lt;- fread(convertPathToJupyterPath(&quot;" />
             </node>
             <node concept="3_3kQU" id="4uiWCTtS27B" role="3_3kQL">
               <property role="3_3kQV" value="simulate path" />
@@ -1506,7 +1509,7 @@
               </node>
             </node>
             <node concept="3_3kQU" id="4uiWCTtTcwv" role="3_3kQL">
-              <property role="3_3kQV" value="&quot;, colClasses=c( " />
+              <property role="3_3kQV" value="&quot;), colClasses=c( " />
             </node>
             <node concept="3_3kQU" id="4uiWCTtTcww" role="3_3kQL">
               <property role="3_3kQV" value="&quot;character&quot;" />
