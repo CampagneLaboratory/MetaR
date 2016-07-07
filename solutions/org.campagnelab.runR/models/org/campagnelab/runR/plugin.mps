@@ -1467,41 +1467,6 @@
                           <node concept="17QB3L" id="4AfAcRHqN5u" role="1tU5fm" />
                         </node>
                       </node>
-                      <node concept="1X3_iC" id="5yuMiu9RCEQ" role="lGtFl">
-                        <property role="3V$3am" value="statement" />
-                        <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
-                        <node concept="34ab3g" id="4AfAcRHpRBy" role="8Wnug">
-                          <property role="35gtTG" value="info" />
-                          <node concept="3cpWs3" id="4AfAcRHpSpJ" role="34bqiv">
-                            <node concept="Xl_RD" id="4AfAcRHpRB$" role="3uHU7B">
-                              <property role="Xl_RC" value="node.model.name=" />
-                            </node>
-                            <node concept="37vLTw" id="4AfAcRHqP3Q" role="3uHU7w">
-                              <ref role="3cqZAo" node="4AfAcRHqN5z" resolve="modelName" />
-                            </node>
-                          </node>
-                        </node>
-                      </node>
-                      <node concept="1X3_iC" id="5yuMiu9RCER" role="lGtFl">
-                        <property role="3V$3am" value="statement" />
-                        <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
-                        <node concept="34ab3g" id="4AfAcRHpUC1" role="8Wnug">
-                          <property role="35gtTG" value="info" />
-                          <node concept="3cpWs3" id="4AfAcRHpUC2" role="34bqiv">
-                            <node concept="2OqwBi" id="4AfAcRHpUC4" role="3uHU7w">
-                              <node concept="37vLTw" id="4AfAcRHpUC5" role="2Oq$k0">
-                                <ref role="3cqZAo" node="1KUoCipvy8V" resolve="node" />
-                              </node>
-                              <node concept="3TrcHB" id="4AfAcRHpZvU" role="2OqNvi">
-                                <ref role="3TsBF5" to="tpck:hnGE5uv" resolve="virtualPackage" />
-                              </node>
-                            </node>
-                            <node concept="Xl_RD" id="4AfAcRHpUC8" role="3uHU7B">
-                              <property role="Xl_RC" value="node.virtualPackage=" />
-                            </node>
-                          </node>
-                        </node>
-                      </node>
                       <node concept="3clFbH" id="4AfAcRHqdHB" role="3cqZAp" />
                       <node concept="3clFbF" id="4AfAcRHmYIV" role="3cqZAp">
                         <node concept="37vLTI" id="4AfAcRHmYIW" role="3clFbG">
@@ -5593,6 +5558,7 @@
       </node>
       <node concept="2LYoGR" id="1iB3OwqD5Qz" role="3rFUVC">
         <property role="TrG5h" value="workingDirectory" />
+        <property role="2LYoGQ" value="true" />
         <node concept="3uibUv" id="1iB3OwqD6dr" role="1tU5fm">
           <ref role="3uigEE" to="guwi:~File" resolve="File" />
         </node>
