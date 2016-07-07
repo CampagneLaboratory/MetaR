@@ -96,8 +96,8 @@
       </node>
       <node concept="34tvTV" id="7SyL5U3_HQM" role="ZXjPg">
         <property role="S1EQ6" value="WKVWGXRLKN" />
-        <property role="34tvW_" value="4" />
-        <property role="34tvWB" value="10" />
+        <property role="34tvW_" value="14" />
+        <property role="34tvWB" value="5" />
         <property role="34gX7q" value="true" />
         <node concept="afgQW" id="7SyL5U3_HQZ" role="34tvVl">
           <ref role="afgo8" node="4DOwJpJxBw5" resolve="GSE59364_DC_all.csv" />
@@ -109,7 +109,7 @@
       <node concept="34tvTV" id="7SyL5U31S$3" role="ZXjPg">
         <property role="S1EQ6" value="KTQCINWVUF" />
         <property role="34tvW_" value="10" />
-        <property role="34tvWB" value="10" />
+        <property role="34tvWB" value="3" />
         <property role="34gX7q" value="true" />
         <node concept="afgQW" id="7SyL5U31S$b" role="34tvVl">
           <ref role="afgo8" node="4DOwJpJxBw5" resolve="GSE59364_DC_all.csv" />
