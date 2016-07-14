@@ -32,6 +32,7 @@
     <import index="trp3" ref="r:daca92ca-e9ce-48ae-833b-4f2157fecb32(org.campagnelab.editor.images.EditorCode)" />
     <import index="99xg" ref="r:335d1886-4210-4afc-9b83-730363aa78fd(org.campagnelab.editor.tablePreview.EditorCode)" />
     <import index="alof" ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61/java:jetbrains.mps.ide.project(MPS.Platform/)" />
+    <import index="hezd" ref="r:859c96fc-81e7-41c5-b4cf-dec006a4aae0(org.campagnelab.metar.plyr.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
   </imports>
@@ -1047,15 +1048,18 @@
   </node>
   <node concept="24kQdi" id="2WRhvFt_nEH">
     <ref role="1XX52x" to="jrxw:2WRhvFtwVip" resolve="ColumnRef" />
-    <node concept="1iCGBv" id="2WRhvFt_nFy" role="2wV5jI">
-      <ref role="1NtTu8" to="jrxw:2WRhvFtwViq" />
-      <node concept="1sVBvm" id="2WRhvFt_nF$" role="1sWHZn">
-        <node concept="3F0A7n" id="2WRhvFt_nFI" role="2wV5jI">
-          <property role="1Intyy" value="true" />
-          <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
-          <ref role="1k5W1q" node="2rPl_HMU6tb" resolve="ColumnName" />
-          <node concept="VPxyj" id="2WRhvFt_nGA" role="3F10Kt">
-            <property role="VOm3f" value="false" />
+    <node concept="3EZMnI" id="19XLMXT1yIP" role="2wV5jI">
+      <node concept="2iRfu4" id="19XLMXT1yIQ" role="2iSdaV" />
+      <node concept="1iCGBv" id="2WRhvFt_nFy" role="3EZMnx">
+        <ref role="1NtTu8" to="jrxw:2WRhvFtwViq" />
+        <node concept="1sVBvm" id="2WRhvFt_nF$" role="1sWHZn">
+          <node concept="3F0A7n" id="2WRhvFt_nFI" role="2wV5jI">
+            <property role="1Intyy" value="true" />
+            <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+            <ref role="1k5W1q" node="2rPl_HMU6tb" resolve="ColumnName" />
+            <node concept="VPxyj" id="2WRhvFt_nGA" role="3F10Kt">
+              <property role="VOm3f" value="false" />
+            </node>
           </node>
         </node>
       </node>
@@ -6688,6 +6692,31 @@
       </node>
       <node concept="3F0A7n" id="e_7xe$BzLQ" role="3EZMnx">
         <ref role="1NtTu8" to="jrxw:e_7xe$xEIm" resolve="value" />
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="L2v$sdbxF9">
+    <ref role="1XX52x" to="jrxw:L2v$sdbxEZ" resolve="IsChangeAttribute" />
+    <node concept="3EZMnI" id="L2v$sdjcQ2" role="2wV5jI">
+      <node concept="3F0ifn" id="L2v$sdjcQb" role="3EZMnx">
+        <property role="3F0ifm" value="[" />
+        <node concept="VSNWy" id="L2v$sdjcR3" role="3F10Kt">
+          <property role="1lJzqX" value="30" />
+        </node>
+        <node concept="VechU" id="L2v$sdjcT7" role="3F10Kt">
+          <property role="Vb096" value="yellow" />
+        </node>
+      </node>
+      <node concept="2iRfu4" id="L2v$sdjcQ3" role="2iSdaV" />
+      <node concept="2SsqMj" id="L2v$sdjcPZ" role="3EZMnx" />
+      <node concept="3F0ifn" id="L2v$sdjcTk" role="3EZMnx">
+        <property role="3F0ifm" value="]" />
+        <node concept="VSNWy" id="L2v$sdjcTr" role="3F10Kt">
+          <property role="1lJzqX" value="30" />
+        </node>
+        <node concept="VechU" id="L2v$sdjcTs" role="3F10Kt">
+          <property role="Vb096" value="yellow" />
+        </node>
       </node>
     </node>
   </node>

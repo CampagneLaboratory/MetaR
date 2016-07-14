@@ -14,6 +14,7 @@
     <import index="onla" ref="r:b81182ba-13d2-441a-9b65-76fe2bd96f30(org.campagnelab.styles.structure)" />
     <import index="a1ev" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.awt.color(JDK/)" />
     <import index="l5qg" ref="r:c3c8723d-4db5-4e18-902d-1cb272fe4ddf(org.campagnelab.metar.R.gen.structure)" />
+    <import index="6q58" ref="r:97268463-8a58-42b7-9dc6-fa004b7a4308(org.campagnelab.metar.R.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
@@ -865,6 +866,9 @@
     <node concept="PrWs8" id="3XyNzZW9G_S" role="PzmwI">
       <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
     </node>
+    <node concept="PrWs8" id="L2v$scfVja" role="PzmwI">
+      <ref role="PrY4T" node="L2v$scfSDh" resolve="IHasStatements" />
+    </node>
   </node>
   <node concept="1TIwiD" id="7LvyiX4miiv">
     <property role="TrG5h" value="DependentOnPackage" />
@@ -917,6 +921,9 @@
     </node>
     <node concept="PrWs8" id="6efZaUfXFuK" role="PzmwI">
       <ref role="PrY4T" to="l5qg:6efZaUfXFRm" resolve="IGenerateToRScript" />
+    </node>
+    <node concept="PrWs8" id="L2v$scfSDn" role="PzmwI">
+      <ref role="PrY4T" node="L2v$scfSDh" resolve="IHasStatements" />
     </node>
     <node concept="1TJgyj" id="7LvyiX4miiB" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -6285,6 +6292,21 @@
     <property role="TrG5h" value="StripeColor" />
     <property role="34LRSv" value="Stripe color" />
     <ref role="1TJDcQ" node="e_7xe$xDZk" resolve="StripeColorStyleClass" />
+  </node>
+  <node concept="PlHQZ" id="L2v$scfSDh">
+    <property role="1pbfSe" value="411175064" />
+    <property role="TrG5h" value="IHasStatements" />
+  </node>
+  <node concept="1TIwiD" id="L2v$sdbxEZ">
+    <property role="1pbfSe" value="426809606" />
+    <property role="TrG5h" value="IsChangeAttribute" />
+    <ref role="1TJDcQ" to="tpck:2ULFgo8_XDk" resolve="NodeAttribute" />
+    <node concept="M6xJ_" id="L2v$sdbxF0" role="lGtFl">
+      <property role="Hh88m" value="isChanged" />
+      <node concept="trNpa" id="L2v$sdbxF2" role="EQaZv">
+        <ref role="trN6q" node="7LvyiX4miiC" resolve="Statement" />
+      </node>
+    </node>
   </node>
 </model>
 

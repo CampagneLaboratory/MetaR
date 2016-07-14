@@ -17,7 +17,7 @@
   <exported-solutions>
     <exported-solution>2cd6da35-9171-4bb6-b128-f369f4c02f48(org.campagnelab.runR)</exported-solution>
     <exported-solution>d99339ed-76f8-45c0-bf5f-697b98ae6a17(org.campagnelab.editor.listeners.plugin)</exported-solution>
-    <exported-solution>fd3fc8d7-bebb-4053-88a0-6dcc12448e6e(org.campagnelab.jupyterManager.plugin)</exported-solution>
+    <exported-solution>fd3fc8d7-bebb-4053-88a0-6dcc12448e6e(org.campagnelab.instantrefresh.plugin)</exported-solution>
   </exported-solutions>
 </dev-kit>
 

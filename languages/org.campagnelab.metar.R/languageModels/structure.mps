@@ -7,8 +7,10 @@
   </languages>
   <imports>
     <import index="l5qg" ref="r:c3c8723d-4db5-4e18-902d-1cb272fe4ddf(org.campagnelab.metar.R.gen.structure)" />
+    <import index="jrxw" ref="r:9f2bbfbf-f8b7-4b3b-92b1-b6a0e9642c10(org.campagnelab.metar.tables.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" implicit="true" />
+    <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
@@ -1232,6 +1234,56 @@
       <property role="TrG5h" value="text" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
+  </node>
+  <node concept="1TIwiD" id="L2v$sc7pVN">
+    <property role="1pbfSe" value="408952122" />
+    <property role="TrG5h" value="LogicalType" />
+    <property role="34LRSv" value="logical" />
+    <property role="3GE5qa" value="types.vector" />
+    <ref role="1TJDcQ" node="L2v$sc8RCm" resolve="VectorType" />
+  </node>
+  <node concept="1TIwiD" id="L2v$sc88U8">
+    <property role="1pbfSe" value="409144527" />
+    <property role="TrG5h" value="NumericType" />
+    <property role="34LRSv" value="numeric" />
+    <property role="3GE5qa" value="types.vector" />
+    <ref role="1TJDcQ" node="L2v$sc8RCm" resolve="VectorType" />
+  </node>
+  <node concept="1TIwiD" id="L2v$sc88U9">
+    <property role="1pbfSe" value="409144528" />
+    <property role="TrG5h" value="IntegerType" />
+    <property role="34LRSv" value="integer" />
+    <property role="3GE5qa" value="types.vector" />
+    <ref role="1TJDcQ" node="L2v$sc8RCm" resolve="VectorType" />
+  </node>
+  <node concept="1TIwiD" id="L2v$sc88Ua">
+    <property role="1pbfSe" value="409144529" />
+    <property role="TrG5h" value="ComplexType" />
+    <property role="34LRSv" value="complex" />
+    <property role="3GE5qa" value="types.vector" />
+    <ref role="1TJDcQ" node="L2v$sc8RCm" resolve="VectorType" />
+  </node>
+  <node concept="1TIwiD" id="L2v$sc88Ub">
+    <property role="1pbfSe" value="409144530" />
+    <property role="TrG5h" value="CharacterType" />
+    <property role="34LRSv" value="character" />
+    <property role="3GE5qa" value="types.vector" />
+    <ref role="1TJDcQ" node="L2v$sc8RCm" resolve="VectorType" />
+  </node>
+  <node concept="1TIwiD" id="L2v$sc8RCm">
+    <property role="1pbfSe" value="409335901" />
+    <property role="3GE5qa" value="types.vector" />
+    <property role="TrG5h" value="VectorType" />
+    <property role="R5$K7" value="true" />
+    <property role="R5$K2" value="false" />
+    <ref role="1TJDcQ" to="tpee:fz3vP1H" resolve="Type" />
+  </node>
+  <node concept="1TIwiD" id="L2v$sc8SGs">
+    <property role="1pbfSe" value="409340259" />
+    <property role="TrG5h" value="RawType" />
+    <property role="34LRSv" value="raw" />
+    <property role="3GE5qa" value="types.vector" />
+    <ref role="1TJDcQ" node="L2v$sc8RCm" resolve="VectorType" />
   </node>
 </model>
 

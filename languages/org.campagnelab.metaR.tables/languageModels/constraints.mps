@@ -19,6 +19,7 @@
     <import index="z1c3" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.project(MPS.Core/)" />
     <import index="mhbf" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.model(MPS.OpenAPI/)" />
     <import index="o8zo" ref="r:314576fc-3aee-4386-a0a5-a38348ac317d(jetbrains.mps.scope)" />
+    <import index="ccd1" ref="r:d4fc1ccf-1b20-4c10-aae7-94de66326394(org.campagnelab.instantrefresh.plugin.plugin)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="tpcu" ref="r:00000000-0000-4000-0000-011c89590282(jetbrains.mps.lang.core.behavior)" implicit="true" />
@@ -741,13 +742,10 @@
   </node>
   <node concept="1M2fIO" id="2WRhvFtxcXx">
     <ref role="1M2myG" to="jrxw:2WRhvFtwVip" resolve="ColumnRef" />
-    <node concept="1N5Pfh" id="70Aomql0prI" role="1Mr941">
+    <node concept="1N5Pfh" id="3zqZiqARSXC" role="1Mr941">
       <ref role="1N5Vy1" to="jrxw:2WRhvFtwViq" />
-      <node concept="1dDu$B" id="6lyZREFJKd7" role="1N6uqs">
-        <ref role="1dDu$A" to="ztlb:1UijAvvb9DJ" resolve="Column" />
-      </node>
-      <node concept="Bn3R3" id="70Aomql0ptK" role="Bn3R6">
-        <node concept="3clFbS" id="70Aomql0ptL" role="2VODD2">
+      <node concept="Bn3R3" id="3zqZiqAVc7o" role="Bn3R6">
+        <node concept="3clFbS" id="3zqZiqAVc7p" role="2VODD2">
           <node concept="3clFbF" id="2rPl_HNES8i" role="3cqZAp">
             <node concept="3cpWs3" id="2rPl_HNEVCh" role="3clFbG">
               <node concept="2OqwBi" id="2rPl_HNEX7N" role="3uHU7w">
@@ -779,6 +777,9 @@
             </node>
           </node>
         </node>
+      </node>
+      <node concept="1dDu$B" id="3zqZiqBqyj3" role="1N6uqs">
+        <ref role="1dDu$A" to="ztlb:1UijAvvb9DJ" resolve="Column" />
       </node>
     </node>
   </node>
