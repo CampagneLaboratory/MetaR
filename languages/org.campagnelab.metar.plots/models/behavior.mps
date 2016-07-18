@@ -20,7 +20,7 @@
     <import index="onla" ref="r:b81182ba-13d2-441a-9b65-76fe2bd96f30(org.campagnelab.styles.structure)" />
     <import index="42z1" ref="r:61980467-5cf8-4450-9d24-d597512183ad(org.campagnelab.styles.behavior)" />
     <import index="1mjk" ref="r:72b0aa20-b681-4aef-ad30-bb23b1f4b98c(org.campagnelab.metar.code.generator.helpers)" />
-    <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
+    <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" />
   </imports>
   <registry>
     <language id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior">
@@ -1435,6 +1435,26 @@
         </node>
       </node>
     </node>
+    <node concept="13i0hz" id="L2v$scW7lN" role="13h7CS">
+      <property role="TrG5h" value="getPlot" />
+      <property role="13i0it" value="false" />
+      <property role="13i0iv" value="false" />
+      <ref role="13i0hy" to="v8sa:L2v$scW7kG" resolve="getPlot" />
+      <node concept="3Tm1VV" id="L2v$scW7lO" role="1B3o_S" />
+      <node concept="3clFbS" id="L2v$scW7lR" role="3clF47">
+        <node concept="3clFbF" id="L2v$scWe$5" role="3cqZAp">
+          <node concept="2OqwBi" id="L2v$scWeBT" role="3clFbG">
+            <node concept="13iPFW" id="L2v$scWe$4" role="2Oq$k0" />
+            <node concept="3TrEf2" id="L2v$scWeJE" role="2OqNvi">
+              <ref role="3Tt5mk" to="jugs:5gXsBBL6Ceq" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tqbb2" id="L2v$scW7lS" role="3clF45">
+        <ref role="ehGHo" to="jrxw:7lAbM$uOMoK" resolve="Plot" />
+      </node>
+    </node>
   </node>
   <node concept="13h7C7" id="1c1rOX4$SU4">
     <ref role="13h7C2" to="jugs:1c1rOX4$Qi9" resolve="UpSet" />
@@ -1464,6 +1484,26 @@
       </node>
       <node concept="A3Dl8" id="1c1rOX4$SUh" role="3clF45">
         <node concept="17QB3L" id="1c1rOX4$SUi" role="A3Ik2" />
+      </node>
+    </node>
+    <node concept="13i0hz" id="L2v$scWeKE" role="13h7CS">
+      <property role="TrG5h" value="getPlot" />
+      <property role="13i0it" value="false" />
+      <property role="13i0iv" value="false" />
+      <ref role="13i0hy" to="v8sa:L2v$scW7kG" resolve="getPlot" />
+      <node concept="3Tm1VV" id="L2v$scWeKF" role="1B3o_S" />
+      <node concept="3clFbS" id="L2v$scWeKG" role="3clF47">
+        <node concept="3clFbF" id="L2v$scWeKH" role="3cqZAp">
+          <node concept="2OqwBi" id="L2v$scWeKI" role="3clFbG">
+            <node concept="13iPFW" id="L2v$scWeKJ" role="2Oq$k0" />
+            <node concept="3TrEf2" id="L2v$scWeT4" role="2OqNvi">
+              <ref role="3Tt5mk" to="jugs:kv77ytcHua" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tqbb2" id="L2v$scWeKL" role="3clF45">
+        <ref role="ehGHo" to="jrxw:7lAbM$uOMoK" resolve="Plot" />
       </node>
     </node>
   </node>

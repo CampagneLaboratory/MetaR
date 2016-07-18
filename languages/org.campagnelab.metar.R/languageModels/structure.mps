@@ -95,12 +95,18 @@
     <node concept="PrWs8" id="5DjLoGcBJPN" role="PzmwI">
       <ref role="PrY4T" node="5DjLoGcBJPy" resolve="HasPackageImports" />
     </node>
+    <node concept="PrWs8" id="3lASLmo9ss3" role="PzmwI">
+      <ref role="PrY4T" node="3lASLmo9rqd" resolve="IIgnoreChanges" />
+    </node>
   </node>
   <node concept="1TIwiD" id="5mPDeVwiPap">
     <property role="TrG5h" value="Expr" />
     <property role="R5$K7" value="true" />
     <property role="R5$K2" value="false" />
     <property role="1pbfSe" value="906033031" />
+    <node concept="PrWs8" id="15COMTnnsBY" role="PzmwI">
+      <ref role="PrY4T" node="15COMTnnsmm" resolve="IAtomic" />
+    </node>
   </node>
   <node concept="1TIwiD" id="5mPDeVwiPaq">
     <property role="TrG5h" value="ElementAccessExpr" />
@@ -564,6 +570,9 @@
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="r9xlU4_XKo" resolve="Operator" />
     </node>
+    <node concept="PrWs8" id="15COMTnILJU" role="PzmwI">
+      <ref role="PrY4T" node="15COMTn5xlQ" resolve="IModifyChildren" />
+    </node>
   </node>
   <node concept="1TIwiD" id="14grA08BCRd">
     <property role="TrG5h" value="BooleanLiteral" />
@@ -615,6 +624,9 @@
     <ref role="1TJDcQ" node="5mPDeVwiPap" resolve="Expr" />
     <node concept="PrWs8" id="7XZJcTGiu3w" role="PzmwI">
       <ref role="PrY4T" to="tpck:1_TrU5E6oyb" resolve="IDontSubstituteByDefault" />
+    </node>
+    <node concept="PrWs8" id="3lASLmo9rtw" role="PzmwI">
+      <ref role="PrY4T" node="3lASLmo9rqd" resolve="IIgnoreChanges" />
     </node>
   </node>
   <node concept="1TIwiD" id="1jge5x__XE8">
@@ -1284,6 +1296,18 @@
     <property role="34LRSv" value="raw" />
     <property role="3GE5qa" value="types.vector" />
     <ref role="1TJDcQ" node="L2v$sc8RCm" resolve="VectorType" />
+  </node>
+  <node concept="PlHQZ" id="15COMTn5xlQ">
+    <property role="1pbfSe" value="1753147556" />
+    <property role="TrG5h" value="IModifyChildren" />
+  </node>
+  <node concept="PlHQZ" id="15COMTnnsmm">
+    <property role="1pbfSe" value="1757845700" />
+    <property role="TrG5h" value="IAtomic" />
+  </node>
+  <node concept="PlHQZ" id="3lASLmo9rqd">
+    <property role="1pbfSe" value="846423646" />
+    <property role="TrG5h" value="IIgnoreChanges" />
   </node>
 </model>
 
