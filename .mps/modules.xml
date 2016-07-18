@@ -13,7 +13,6 @@
       <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.metar.R.access/org.campagnelab.metar.R.access.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.metar.R.gen/org.campagnelab.metar.R.gen.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.metar.R.inspect/org.campagnelab.metar.R.inspect.mpl" folder="" />
-      <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.metar.R.plyr/org.campagnelab.metar.plyr.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.metar.R/org.campagnelab.metar.R.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.metar.accessories/org.campagnelab.metar.accessories.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.metar.biomart/org.campagnelab.metar.biomart.mpl" folder="" />
