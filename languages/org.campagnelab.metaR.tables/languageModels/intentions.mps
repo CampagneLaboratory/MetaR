@@ -2984,22 +2984,67 @@
             <node concept="2es0OD" id="15COMTnnuKR" role="2OqNvi">
               <node concept="1bVj0M" id="15COMTnnuKS" role="23t8la">
                 <node concept="3clFbS" id="15COMTnnuKT" role="1bW5cS">
-                  <node concept="3clFbF" id="15COMTnnuKU" role="3cqZAp">
-                    <node concept="37vLTI" id="15COMTnnuKV" role="3clFbG">
-                      <node concept="2ShNRf" id="15COMTnnuKW" role="37vLTx">
-                        <node concept="3zrR0B" id="15COMTnnuKX" role="2ShVmc">
-                          <node concept="3Tqbb2" id="15COMTnnuKY" role="3zrR0E">
-                            <ref role="ehGHo" to="jrxw:L2v$sdbxEZ" resolve="IsChangeAttribute" />
+                  <node concept="3clFbJ" id="26cpLhi4n0o" role="3cqZAp">
+                    <node concept="3clFbS" id="26cpLhi4n0p" role="3clFbx">
+                      <node concept="3clFbF" id="26cpLhi4n0q" role="3cqZAp">
+                        <node concept="37vLTI" id="26cpLhi4n0r" role="3clFbG">
+                          <node concept="2ShNRf" id="26cpLhi4n0s" role="37vLTx">
+                            <node concept="3zrR0B" id="26cpLhi4n0t" role="2ShVmc">
+                              <node concept="3Tqbb2" id="26cpLhi4n0u" role="3zrR0E">
+                                <ref role="ehGHo" to="jrxw:L2v$sdbxEZ" resolve="IsChangeAttribute" />
+                              </node>
+                            </node>
+                          </node>
+                          <node concept="2OqwBi" id="26cpLhi4n0v" role="37vLTJ">
+                            <node concept="1PxgMI" id="26cpLhi4n0w" role="2Oq$k0">
+                              <ref role="1PxNhF" to="6q58:15COMTnnsmm" resolve="IAtomic" />
+                              <node concept="37vLTw" id="26cpLhi4n0x" role="1PxMeX">
+                                <ref role="3cqZAo" node="15COMTnnuL3" resolve="it" />
+                              </node>
+                            </node>
+                            <node concept="3CFZ6_" id="26cpLhi4n0y" role="2OqNvi">
+                              <node concept="3CFYIy" id="26cpLhi4n0z" role="3CFYIz">
+                                <ref role="3CFYIx" to="jrxw:L2v$sdbxEZ" resolve="IsChangeAttribute" />
+                              </node>
+                            </node>
                           </node>
                         </node>
                       </node>
-                      <node concept="2OqwBi" id="15COMTnnuKZ" role="37vLTJ">
-                        <node concept="37vLTw" id="15COMTnnuL0" role="2Oq$k0">
-                          <ref role="3cqZAo" node="15COMTnnuL3" resolve="it" />
+                    </node>
+                    <node concept="2OqwBi" id="26cpLhi4n0$" role="3clFbw">
+                      <node concept="37vLTw" id="26cpLhi4n0_" role="2Oq$k0">
+                        <ref role="3cqZAo" node="15COMTnnuL3" resolve="it" />
+                      </node>
+                      <node concept="1mIQ4w" id="26cpLhi4n0A" role="2OqNvi">
+                        <node concept="chp4Y" id="26cpLhi4n0B" role="cj9EA">
+                          <ref role="cht4Q" to="6q58:15COMTnnsmm" resolve="IAtomic" />
                         </node>
-                        <node concept="3CFZ6_" id="15COMTnnuL1" role="2OqNvi">
-                          <node concept="3CFYIy" id="15COMTnnuL2" role="3CFYIz">
-                            <ref role="3CFYIx" to="jrxw:L2v$sdbxEZ" resolve="IsChangeAttribute" />
+                      </node>
+                    </node>
+                    <node concept="9aQIb" id="26cpLhi4n0C" role="9aQIa">
+                      <node concept="3clFbS" id="26cpLhi4n0D" role="9aQI4">
+                        <node concept="3clFbF" id="26cpLhi4n0E" role="3cqZAp">
+                          <node concept="2OqwBi" id="26cpLhi4n0F" role="3clFbG">
+                            <node concept="2YIFZM" id="26cpLhi4n0G" role="2Oq$k0">
+                              <ref role="37wK5l" to="ccd1:7ZtP2DEHUg0" resolve="getInstance" />
+                              <ref role="1Pybhc" to="ccd1:7ZtP2DEHIzu" resolve="Logging" />
+                            </node>
+                            <node concept="liA8E" id="26cpLhi4n0H" role="2OqNvi">
+                              <ref role="37wK5l" to="ccd1:7ZtP2DEHJHl" resolve="error" />
+                              <node concept="3cpWs3" id="26cpLhi4n0I" role="37wK5m">
+                                <node concept="Xl_RD" id="26cpLhi4n0J" role="3uHU7w">
+                                  <property role="Xl_RC" value=" but it is not of type IAtomic" />
+                                </node>
+                                <node concept="3cpWs3" id="26cpLhi4n0K" role="3uHU7B">
+                                  <node concept="Xl_RD" id="26cpLhi4n0L" role="3uHU7B">
+                                    <property role="Xl_RC" value="Found changed statement " />
+                                  </node>
+                                  <node concept="37vLTw" id="26cpLhi4n0M" role="3uHU7w">
+                                    <ref role="3cqZAo" node="15COMTnnuL3" resolve="it" />
+                                  </node>
+                                </node>
+                              </node>
+                            </node>
                           </node>
                         </node>
                       </node>

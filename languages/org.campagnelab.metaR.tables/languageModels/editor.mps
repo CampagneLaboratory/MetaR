@@ -6,8 +6,6 @@
     <use id="0272d3b4-4cc8-481e-9e2f-07793fbfcb41" name="jetbrains.mps.lang.editor.table" version="-1" />
     <use id="c1ba4037-e4db-47d8-8b61-b3c805b648f2" name="org.campagnelab.ui" version="-1" />
     <use id="a60f536b-19c3-48f3-a662-0aa30b245913" name="org.campagnelab.editor.images" version="-1" />
-    <use id="b401a680-8325-4110-8fd3-84331ff25bef" name="jetbrains.mps.lang.generator" version="-1" />
-    <use id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior" version="-1" />
     <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="-1" />
     <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="-1" />
     <use id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core" version="-1" />
@@ -26,12 +24,11 @@
     <import index="cj4x" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor()" />
     <import index="h23j" ref="r:5e0b7baa-a427-417f-968a-1e4912c5f643(org.campagnelab.styles.editor)" />
     <import index="711x" ref="r:f8afdbad-6ef4-4231-b44c-0ecacaf32d43(org.campagnelab.mps.XChart.types.behavior)" />
-    <import index="dxuu" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:javax.swing(JDK/)" />
-    <import index="zf81" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.net(JDK/)" />
     <import index="exr9" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.nodeEditor(MPS.Editor/)" />
-    <import index="trp3" ref="r:daca92ca-e9ce-48ae-833b-4f2157fecb32(org.campagnelab.editor.images.EditorCode)" />
     <import index="99xg" ref="r:335d1886-4210-4afc-9b83-730363aa78fd(org.campagnelab.editor.tablePreview.EditorCode)" />
     <import index="alof" ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61/java:jetbrains.mps.ide.project(MPS.Platform/)" />
+    <import index="1fmc" ref="r:4cec5b5b-0fcc-4674-abb9-27263d97025d(org.campagnelab.ui.code.Swing)" />
+    <import index="6q58" ref="r:97268463-8a58-42b7-9dc6-fa004b7a4308(org.campagnelab.metar.R.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
   </imports>
@@ -6716,6 +6713,59 @@
         <node concept="VechU" id="L2v$sdjcTs" role="3F10Kt">
           <property role="Vb096" value="yellow" />
         </node>
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="26cpLhhSVR2">
+    <ref role="1XX52x" to="jrxw:26cpLhhSUhW" resolve="SessionStatement" />
+    <node concept="3EZMnI" id="26cpLhhSVR4" role="2wV5jI">
+      <node concept="2iRfu4" id="26cpLhhSVR5" role="2iSdaV" />
+      <node concept="PMmxH" id="26cpLhhSVR6" role="3EZMnx">
+        <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
+      </node>
+      <node concept="3F0A7n" id="26cpLhhSVR7" role="3EZMnx">
+        <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="26cpLhk_HHF">
+    <ref role="1XX52x" to="jrxw:26cpLhhSknI" resolve="LoadSession" />
+    <node concept="3EZMnI" id="26cpLhk_HHH" role="6VMZX">
+      <node concept="l2Vlx" id="26cpLhk_HHI" role="2iSdaV" />
+      <node concept="3F0ifn" id="26cpLhk_HHJ" role="3EZMnx">
+        <property role="3F0ifm" value="Requires packages:" />
+      </node>
+      <node concept="1HlG4h" id="26cpLhk_HHK" role="3EZMnx">
+        <node concept="1HfYo3" id="26cpLhk_HHL" role="1HlULh">
+          <node concept="3TQlhw" id="26cpLhk_HHM" role="1Hhtcw">
+            <node concept="3clFbS" id="26cpLhk_HHN" role="2VODD2">
+              <node concept="3clFbF" id="26cpLhk_HHO" role="3cqZAp">
+                <node concept="2OqwBi" id="26cpLhk_HHP" role="3clFbG">
+                  <node concept="2OqwBi" id="26cpLhk_HHQ" role="2Oq$k0">
+                    <node concept="pncrf" id="26cpLhk_HHR" role="2Oq$k0" />
+                    <node concept="2qgKlT" id="26cpLhk_I3g" role="2OqNvi">
+                      <ref role="37wK5l" to="v8sa:7LvyiX4mim8" resolve="dependencies" />
+                    </node>
+                  </node>
+                  <node concept="3uJxvA" id="26cpLhk_HHT" role="2OqNvi">
+                    <node concept="Xl_RD" id="26cpLhk_HHU" role="3uJOhx">
+                      <property role="Xl_RC" value=", " />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3EZMnI" id="26cpLhk_HNs" role="2wV5jI">
+      <node concept="2iRfu4" id="26cpLhk_HNt" role="2iSdaV" />
+      <node concept="PMmxH" id="26cpLhk_HNu" role="3EZMnx">
+        <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
+      </node>
+      <node concept="3F0A7n" id="26cpLhk_HNv" role="3EZMnx">
+        <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
       </node>
     </node>
   </node>

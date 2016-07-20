@@ -18,6 +18,10 @@
     <import index="n1uf" ref="r:cb035222-afa9-445c-8372-64c2390befab(org.campagnelab.metar.R.gen.behavior)" />
     <import index="jrxw" ref="r:9f2bbfbf-f8b7-4b3b-92b1-b6a0e9642c10(org.campagnelab.metar.tables.structure)" />
     <import index="195s" ref="r:597299e2-456c-40ec-87e4-c5fdcfc8d153(org.campagnelab.metar.tables.intentions)" />
+    <import index="v8sa" ref="r:db1b133e-9a0f-4319-b384-413408eb1729(org.campagnelab.metar.tables.behavior)" />
+    <import index="z1c3" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.project(MPS.Core/)" />
+    <import index="guwi" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" />
+    <import index="1mjk" ref="r:72b0aa20-b681-4aef-ad30-bb23b1f4b98c(org.campagnelab.metar.code.generator.helpers)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
   </imports>
   <registry>
@@ -2348,7 +2352,7 @@
     </node>
   </node>
   <node concept="13h7C7" id="15COMTn5xlR">
-    <ref role="13h7C2" to="6q58:15COMTn5xlQ" resolve="IModifyChildren" />
+    <ref role="13h7C2" to="6q58:15COMTn5xlQ" resolve="IHasModifiableChildren" />
     <node concept="13i0hz" id="15COMTn5xlU" role="13h7CS">
       <property role="13i0iv" value="true" />
       <property role="13i0it" value="true" />

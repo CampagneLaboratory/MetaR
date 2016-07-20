@@ -9,10 +9,8 @@
   <imports>
     <import index="ztlb" ref="r:989540b8-cc89-4ed5-ba78-cf2ce766b8ce(org.campagnelab.mps.XChart.structure)" />
     <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
-    <import index="tpc2" ref="r:00000000-0000-4000-0000-011c8959029e(jetbrains.mps.lang.editor.structure)" />
     <import index="18ew" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.util(MPS.Core/)" />
     <import index="onla" ref="r:b81182ba-13d2-441a-9b65-76fe2bd96f30(org.campagnelab.styles.structure)" />
-    <import index="a1ev" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.awt.color(JDK/)" />
     <import index="l5qg" ref="r:c3c8723d-4db5-4e18-902d-1cb272fe4ddf(org.campagnelab.metar.R.gen.structure)" />
     <import index="6q58" ref="r:97268463-8a58-42b7-9dc6-fa004b7a4308(org.campagnelab.metar.R.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
@@ -361,7 +359,7 @@
       <ref role="PrY4T" node="7LvyiX4miiF" resolve="StatementDependencies" />
     </node>
     <node concept="PrWs8" id="15COMTn5yTF" role="PzmwI">
-      <ref role="PrY4T" to="6q58:15COMTn5xlQ" resolve="IModifyChildren" />
+      <ref role="PrY4T" to="6q58:15COMTn5xlQ" resolve="IHasModifiableChildren" />
     </node>
     <node concept="1TJgyj" id="2WRhvFtuQGF" role="1TKVEi">
       <property role="20lmBu" value="reference" />
@@ -675,6 +673,9 @@
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="3BiNpr5GyuO" resolve="DefinableObject" />
     </node>
+    <node concept="PrWs8" id="3lASLmojaXY" role="PzmwI">
+      <ref role="PrY4T" to="6q58:15COMTn5xlQ" resolve="IHasModifiableChildren" />
+    </node>
   </node>
   <node concept="1TIwiD" id="3BiNpr5GyuO">
     <property role="TrG5h" value="DefinableObject" />
@@ -890,6 +891,9 @@
     <property role="R4oN_" value=" " />
     <property role="1pbfSe" value="1061638704" />
     <ref role="1TJDcQ" node="7LvyiX4miiC" resolve="Statement" />
+    <node concept="PrWs8" id="26cpLhjxCc2" role="PzmwI">
+      <ref role="PrY4T" to="6q58:3lASLmo9rqd" resolve="IIgnoreChanges" />
+    </node>
   </node>
   <node concept="1TIwiD" id="7LvyiX4miiy">
     <property role="TrG5h" value="R_Package" />
@@ -1108,7 +1112,7 @@
     <property role="1pbfSe" value="963867893" />
     <ref role="1TJDcQ" node="7LvyiX4miiC" resolve="Statement" />
     <node concept="PrWs8" id="15COMTn5xJy" role="PzmwI">
-      <ref role="PrY4T" to="6q58:15COMTn5xlQ" resolve="IModifyChildren" />
+      <ref role="PrY4T" to="6q58:15COMTn5xlQ" resolve="IHasModifiableChildren" />
     </node>
   </node>
   <node concept="1TIwiD" id="4cOBe2EdOid">
@@ -1152,6 +1156,9 @@
       <property role="20kJfa" value="table" />
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="3R5AwWRY9uN" resolve="TableRef" />
+    </node>
+    <node concept="PrWs8" id="3lASLmotrZL" role="PzmwI">
+      <ref role="PrY4T" to="6q58:15COMTn5xlQ" resolve="IHasModifiableChildren" />
     </node>
   </node>
   <node concept="1TIwiD" id="2rPl_HMV2Ax">
@@ -1412,7 +1419,7 @@
       <ref role="20lvS9" node="2WRhvFtwVip" resolve="ColumnRef" />
     </node>
     <node concept="PrWs8" id="15COMTn5$Ub" role="PzmwI">
-      <ref role="PrY4T" to="6q58:15COMTn5xlQ" resolve="IModifyChildren" />
+      <ref role="PrY4T" to="6q58:15COMTn5xlQ" resolve="IHasModifiableChildren" />
     </node>
   </node>
   <node concept="1TIwiD" id="20o901rbdSG">
@@ -1524,7 +1531,7 @@
       <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
     </node>
     <node concept="PrWs8" id="15COMTn5xm5" role="PrDN$">
-      <ref role="PrY4T" to="6q58:15COMTn5xlQ" resolve="IModifyChildren" />
+      <ref role="PrY4T" to="6q58:15COMTn5xlQ" resolve="IHasModifiableChildren" />
     </node>
   </node>
   <node concept="1TIwiD" id="2sgkdoK89SZ">
@@ -2377,6 +2384,9 @@
     </node>
     <node concept="PrWs8" id="2OXkbjQ30zW" role="PzmwI">
       <ref role="PrY4T" node="2OXkbjQ303b" resolve="HasRandomEffects" />
+    </node>
+    <node concept="PrWs8" id="3lASLmotrZH" role="PzmwI">
+      <ref role="PrY4T" to="6q58:15COMTn5xlQ" resolve="IHasModifiableChildren" />
     </node>
   </node>
   <node concept="1TIwiD" id="2OXkbjPjheB">
@@ -6330,6 +6340,55 @@
       <node concept="trNpa" id="15COMTnnvJE" role="EQaZv">
         <ref role="trN6q" to="6q58:15COMTnnsmm" resolve="IAtomic" />
       </node>
+    </node>
+  </node>
+  <node concept="1TIwiD" id="26cpLhhSUhW">
+    <property role="1pbfSe" value="1936722832" />
+    <property role="TrG5h" value="SessionStatement" />
+    <property role="R5$K7" value="true" />
+    <property role="R5$K2" value="false" />
+    <ref role="1TJDcQ" node="7LvyiX4miiC" resolve="Statement" />
+    <node concept="PrWs8" id="26cpLhhSUhX" role="PzmwI">
+      <ref role="PrY4T" node="7LvyiX4miiF" resolve="StatementDependencies" />
+    </node>
+    <node concept="PrWs8" id="26cpLhhSVQT" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="26cpLhhSknI">
+    <property role="1pbfSe" value="1936567554" />
+    <property role="TrG5h" value="LoadSession" />
+    <property role="34LRSv" value="load session" />
+    <ref role="1TJDcQ" node="26cpLhhSUhW" resolve="SessionStatement" />
+    <node concept="1TJgyj" id="26cpLhkwAPY" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="dependencies" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="26cpLhkwAPV" resolve="SessionDependency" />
+    </node>
+    <node concept="PrWs8" id="26cpLhhThz3" role="PzmwI">
+      <ref role="PrY4T" to="tpck:1_TrU5E6oyb" resolve="IDontSubstituteByDefault" />
+    </node>
+    <node concept="PrWs8" id="26cpLhkwzrw" role="PzmwI">
+      <ref role="PrY4T" node="7LvyiX4miiF" resolve="StatementDependencies" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="26cpLhhSkv1">
+    <property role="1pbfSe" value="1936568021" />
+    <property role="TrG5h" value="SaveSession" />
+    <property role="34LRSv" value="save session" />
+    <ref role="1TJDcQ" node="26cpLhhSUhW" resolve="SessionStatement" />
+    <node concept="PrWs8" id="26cpLhhThz5" role="PzmwI">
+      <ref role="PrY4T" to="tpck:1_TrU5E6oyb" resolve="IDontSubstituteByDefault" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="26cpLhkwAPV">
+    <property role="1pbfSe" value="1980683407" />
+    <property role="TrG5h" value="SessionDependency" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="26cpLhkwAPW" role="1TKVEl">
+      <property role="TrG5h" value="dependency" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
   </node>
 </model>

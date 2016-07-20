@@ -571,7 +571,7 @@
       <ref role="20lvS9" node="r9xlU4_XKo" resolve="Operator" />
     </node>
     <node concept="PrWs8" id="15COMTnILJU" role="PzmwI">
-      <ref role="PrY4T" node="15COMTn5xlQ" resolve="IModifyChildren" />
+      <ref role="PrY4T" node="15COMTn5xlQ" resolve="IHasModifiableChildren" />
     </node>
   </node>
   <node concept="1TIwiD" id="14grA08BCRd">
@@ -1299,7 +1299,7 @@
   </node>
   <node concept="PlHQZ" id="15COMTn5xlQ">
     <property role="1pbfSe" value="1753147556" />
-    <property role="TrG5h" value="IModifyChildren" />
+    <property role="TrG5h" value="IHasModifiableChildren" />
   </node>
   <node concept="PlHQZ" id="15COMTnnsmm">
     <property role="1pbfSe" value="1757845700" />
