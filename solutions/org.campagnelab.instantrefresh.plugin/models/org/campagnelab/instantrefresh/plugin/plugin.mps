@@ -7336,12 +7336,12 @@
     <node concept="312cEg" id="4WoBUVdXLfK" role="jymVt">
       <property role="34CwA1" value="false" />
       <property role="eg7rD" value="false" />
-      <property role="TrG5h" value="WAIT_FOR_COMPILING_TIMEOUT" />
+      <property role="TrG5h" value="INITIAL_COMPILATION_TIMEOUT" />
       <property role="3TUv4t" value="true" />
       <node concept="3Tm1VV" id="2EWsv1sbc0z" role="1B3o_S" />
       <node concept="10Oyi0" id="4WoBUVdXLfH" role="1tU5fm" />
       <node concept="3cmrfG" id="4WoBUVdXLyG" role="33vP2m">
-        <property role="3cmrfH" value="200" />
+        <property role="3cmrfH" value="500" />
       </node>
     </node>
     <node concept="2tJIrI" id="4mTRct5iEG$" role="jymVt" />
@@ -7400,7 +7400,7 @@
               <node concept="1pGfFk" id="4mTRct5iL_M" role="2ShVmc">
                 <ref role="37wK5l" to="dxuu:~Timer.&lt;init&gt;(int,java.awt.event.ActionListener)" resolve="Timer" />
                 <node concept="37vLTw" id="3Td0vW1cX6w" role="37wK5m">
-                  <ref role="3cqZAo" node="4WoBUVdXLfK" resolve="WAIT_FOR_COMPILING_TIMEOUT" />
+                  <ref role="3cqZAo" node="4WoBUVdXLfK" resolve="INITIAL_COMPILATION_TIMEOUT" />
                 </node>
                 <node concept="2ShNRf" id="4mTRct5iM3n" role="37wK5m">
                   <node concept="YeOm9" id="4mTRct5iM3o" role="2ShVmc">
@@ -7510,6 +7510,51 @@
               <node concept="Xjq3P" id="1Iyhq6EERnw" role="2Oq$k0" />
               <node concept="2OwXpG" id="1Iyhq6EERDH" role="2OqNvi">
                 <ref role="2Oxat5" node="1Iyhq6EENj9" resolve="currentNode" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="3Td0vW1elOB" role="3cqZAp">
+          <node concept="3cpWsn" id="3Td0vW1elOE" role="3cpWs9">
+            <property role="TrG5h" value="delay" />
+            <node concept="10Oyi0" id="3Td0vW1elO_" role="1tU5fm" />
+            <node concept="2EnYce" id="3Td0vW1fg6N" role="33vP2m">
+              <node concept="2OqwBi" id="3Td0vW1emeU" role="2Oq$k0">
+                <node concept="37vLTw" id="3Td0vW1em2N" role="2Oq$k0">
+                  <ref role="3cqZAo" node="55a1UmAluQh" resolve="project" />
+                </node>
+                <node concept="LR4Ub" id="3Td0vW1emku" role="2OqNvi">
+                  <ref role="LR4Ua" node="3uD_HpUGH8b" resolve="InstanceRefreshPreferences" />
+                </node>
+              </node>
+              <node concept="34pFcN" id="3Td0vW1emnR" role="2OqNvi">
+                <ref role="2WH_rO" node="2ZZbyE_mdEK" resolve="modelListenerTimeOut" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="3Td0vW1ekvz" role="3cqZAp">
+          <node concept="2OqwBi" id="3Td0vW1ekHA" role="3clFbG">
+            <node concept="37vLTw" id="3Td0vW1ekvx" role="2Oq$k0">
+              <ref role="3cqZAo" node="4mTRct5iTih" resolve="timer" />
+            </node>
+            <node concept="liA8E" id="3Td0vW1ekMM" role="2OqNvi">
+              <ref role="37wK5l" to="dxuu:~Timer.setDelay(int):void" resolve="setDelay" />
+              <node concept="37vLTw" id="3Td0vW1emC0" role="37wK5m">
+                <ref role="3cqZAo" node="3Td0vW1elOE" resolve="delay" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="3Td0vW1el9C" role="3cqZAp">
+          <node concept="2OqwBi" id="3Td0vW1elof" role="3clFbG">
+            <node concept="37vLTw" id="3Td0vW1el9A" role="2Oq$k0">
+              <ref role="3cqZAo" node="4mTRct5iTih" resolve="timer" />
+            </node>
+            <node concept="liA8E" id="3Td0vW1eltH" role="2OqNvi">
+              <ref role="37wK5l" to="dxuu:~Timer.setInitialDelay(int):void" resolve="setInitialDelay" />
+              <node concept="37vLTw" id="3Td0vW1emMx" role="37wK5m">
+                <ref role="3cqZAo" node="3Td0vW1elOE" resolve="delay" />
               </node>
             </node>
           </node>
