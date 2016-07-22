@@ -19781,6 +19781,21 @@
                                                                 </node>
                                                               </node>
                                                             </node>
+                                                            <node concept="3clFbF" id="2Iemm513$vI" role="3cqZAp">
+                                                              <node concept="2OqwBi" id="2Iemm513$vJ" role="3clFbG">
+                                                                <node concept="2YIFZM" id="2Iemm513$vK" role="2Oq$k0">
+                                                                  <ref role="1Pybhc" to="jlff:~VirtualFileManager" resolve="VirtualFileManager" />
+                                                                  <ref role="37wK5l" to="jlff:~VirtualFileManager.getInstance():com.intellij.openapi.vfs.VirtualFileManager" resolve="getInstance" />
+                                                                </node>
+                                                                <node concept="liA8E" id="2Iemm513$vL" role="2OqNvi">
+                                                                  <ref role="37wK5l" to="jlff:~VirtualFileManager.refreshWithoutFileWatcher(boolean):void" resolve="refreshWithoutFileWatcher" />
+                                                                  <node concept="3clFbT" id="2Iemm513$vM" role="37wK5m">
+                                                                    <property role="3clFbU" value="true" />
+                                                                  </node>
+                                                                </node>
+                                                              </node>
+                                                            </node>
+                                                            <node concept="3clFbH" id="7PYYR64gl8X" role="3cqZAp" />
                                                           </node>
                                                         </node>
                                                         <node concept="3clFb_" id="26cpLhjFtI_" role="jymVt">
@@ -19890,21 +19905,6 @@
                                               </node>
                                             </node>
                                             <node concept="3clFbH" id="26cpLhjGiEP" role="3cqZAp" />
-                                            <node concept="3clFbF" id="2Iemm513$vI" role="3cqZAp">
-                                              <node concept="2OqwBi" id="2Iemm513$vJ" role="3clFbG">
-                                                <node concept="2YIFZM" id="2Iemm513$vK" role="2Oq$k0">
-                                                  <ref role="1Pybhc" to="jlff:~VirtualFileManager" resolve="VirtualFileManager" />
-                                                  <ref role="37wK5l" to="jlff:~VirtualFileManager.getInstance():com.intellij.openapi.vfs.VirtualFileManager" resolve="getInstance" />
-                                                </node>
-                                                <node concept="liA8E" id="2Iemm513$vL" role="2OqNvi">
-                                                  <ref role="37wK5l" to="jlff:~VirtualFileManager.refreshWithoutFileWatcher(boolean):void" resolve="refreshWithoutFileWatcher" />
-                                                  <node concept="3clFbT" id="2Iemm513$vM" role="37wK5m">
-                                                    <property role="3clFbU" value="true" />
-                                                  </node>
-                                                </node>
-                                              </node>
-                                            </node>
-                                            <node concept="3clFbH" id="3zqZiqC2Csu" role="3cqZAp" />
                                           </node>
                                           <node concept="TDmWw" id="3zqZiqC2Csw" role="TEbGg">
                                             <node concept="3cpWsn" id="3zqZiqC2Csy" role="TDEfY">
