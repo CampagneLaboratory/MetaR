@@ -1647,9 +1647,24 @@
       <node concept="3F0A7n" id="3l0yXcUWXp3" role="3EZMnx">
         <ref role="1NtTu8" to="jrxw:3BiNpr66hlX" resolve="plotId" />
       </node>
-      <node concept="3F0ifn" id="6X05ubaejEx" role="3EZMnx">
+      <node concept="3F0ifn" id="7LvyiX3UEm0" role="3EZMnx">
+        <property role="3F0ifm" value="width=" />
+        <node concept="pVoyu" id="2OXSMi_nWcq" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F0A7n" id="7LvyiX3UFXJ" role="3EZMnx">
+        <ref role="1NtTu8" to="jrxw:7LvyiX3UF5_" resolve="width" />
+      </node>
+      <node concept="3F0ifn" id="7LvyiX3UEKE" role="3EZMnx">
+        <property role="3F0ifm" value="height=" />
+      </node>
+      <node concept="3F0A7n" id="7LvyiX3UFz1" role="3EZMnx">
+        <ref role="1NtTu8" to="jrxw:7LvyiX3UF8B" resolve="height" />
+      </node>
+      <node concept="3F0ifn" id="2OXSMi_nVYU" role="3EZMnx">
         <property role="3F0ifm" value="path=" />
-        <node concept="pVoyu" id="3BiNpr67CsP" role="3F10Kt">
+        <node concept="pVoyu" id="2OXSMi_nWct" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>
       </node>
@@ -1668,18 +1683,6 @@
             </node>
           </node>
         </node>
-      </node>
-      <node concept="3F0ifn" id="7LvyiX3UEm0" role="3EZMnx">
-        <property role="3F0ifm" value="width=" />
-      </node>
-      <node concept="3F0A7n" id="7LvyiX3UFXJ" role="3EZMnx">
-        <ref role="1NtTu8" to="jrxw:7LvyiX3UF5_" resolve="width" />
-      </node>
-      <node concept="3F0ifn" id="7LvyiX3UEKE" role="3EZMnx">
-        <property role="3F0ifm" value="height=" />
-      </node>
-      <node concept="3F0A7n" id="7LvyiX3UFz1" role="3EZMnx">
-        <ref role="1NtTu8" to="jrxw:7LvyiX3UF8B" resolve="height" />
       </node>
       <node concept="3EZMnI" id="37EhXvtSGx3" role="3EZMnx">
         <node concept="2iRfu4" id="37EhXvtSGx4" role="2iSdaV" />

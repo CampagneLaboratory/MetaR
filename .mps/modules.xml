@@ -26,6 +26,7 @@
       <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.metar.simulation/org.campagnelab.metar.simulation.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.metar.sleuth/org.campagnelab.metar.sleuth.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.metar.with.r/org.campagnelab.metar.with.r.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.modeling/org.campagnelab.modeling.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.styles/org.campagnelab.styles.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/DocModels/DocModels.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/FullR/FullR.msd" folder="" />
