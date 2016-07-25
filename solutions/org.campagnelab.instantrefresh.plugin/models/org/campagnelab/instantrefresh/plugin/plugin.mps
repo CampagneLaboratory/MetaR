@@ -6899,36 +6899,24 @@
               </node>
             </node>
           </node>
-          <node concept="1Wc70l" id="26cpLhj_pau" role="2$JKZa">
+          <node concept="1Wc70l" id="58MHtRblymQ" role="2$JKZa">
+            <node concept="3fqX7Q" id="58MHtRblz06" role="3uHU7w">
+              <node concept="2OqwBi" id="58MHtRblzov" role="3fr31v">
+                <node concept="37vLTw" id="58MHtRblzf1" role="2Oq$k0">
+                  <ref role="3cqZAo" node="26cpLhj_m$$" resolve="nearestStatement" />
+                </node>
+                <node concept="1mIQ4w" id="58MHtRblztK" role="2OqNvi">
+                  <node concept="chp4Y" id="58MHtRbl$iD" role="cj9EA">
+                    <ref role="cht4Q" to="6q58:15COMTn5xlQ" resolve="IHasModifiableChildren" />
+                  </node>
+                </node>
+              </node>
+            </node>
             <node concept="2OqwBi" id="26cpLhj_pXq" role="3uHU7B">
               <node concept="37vLTw" id="26cpLhj_pzo" role="2Oq$k0">
                 <ref role="3cqZAo" node="26cpLhj_m$$" resolve="nearestStatement" />
               </node>
               <node concept="3x8VRR" id="26cpLhj_qji" role="2OqNvi" />
-            </node>
-            <node concept="1eOMI4" id="26cpLhjSwV1" role="3uHU7w">
-              <node concept="22lmx$" id="26cpLhjSwI$" role="1eOMHV">
-                <node concept="2OqwBi" id="26cpLhj_nM7" role="3uHU7B">
-                  <node concept="37vLTw" id="26cpLhj_qA5" role="2Oq$k0">
-                    <ref role="3cqZAo" node="26cpLhj_m$$" resolve="nearestStatement" />
-                  </node>
-                  <node concept="1mIQ4w" id="26cpLhj_nM9" role="2OqNvi">
-                    <node concept="chp4Y" id="26cpLhj_nMa" role="cj9EA">
-                      <ref role="cht4Q" to="6q58:3lASLmo9rqd" resolve="IIgnoreChanges" />
-                    </node>
-                  </node>
-                </node>
-                <node concept="2OqwBi" id="26cpLhjRXYb" role="3uHU7w">
-                  <node concept="37vLTw" id="26cpLhjRXYc" role="2Oq$k0">
-                    <ref role="3cqZAo" node="26cpLhj_m$$" resolve="nearestStatement" />
-                  </node>
-                  <node concept="1mIQ4w" id="26cpLhjRXYd" role="2OqNvi">
-                    <node concept="chp4Y" id="26cpLhjRXYj" role="cj9EA">
-                      <ref role="cht4Q" to="jrxw:26cpLhhSUhW" resolve="SessionStatement" />
-                    </node>
-                  </node>
-                </node>
-              </node>
             </node>
           </node>
         </node>
