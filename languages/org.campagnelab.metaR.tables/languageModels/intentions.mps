@@ -14,6 +14,9 @@
     <import index="x7of" ref="r:437ca43c-6323-49fb-979f-681501286fcd(org.campagnelab.metar.code.annotations)" />
     <import index="18ew" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.util(MPS.Core/)" />
     <import index="ccd1" ref="r:d4fc1ccf-1b20-4c10-aae7-94de66326394(org.campagnelab.instantrefresh.plugin.plugin)" />
+    <import index="guwi" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" />
+    <import index="w1kc" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.smodel(MPS.Core/)" />
+    <import index="n1uf" ref="r:cb035222-afa9-445c-8372-64c2390befab(org.campagnelab.metar.R.gen.behavior)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="6q58" ref="r:97268463-8a58-42b7-9dc6-fa004b7a4308(org.campagnelab.metar.R.structure)" implicit="true" />
@@ -3138,6 +3141,106 @@
         <node concept="3clFbF" id="15COMTn$kEr" role="3cqZAp">
           <node concept="3clFbT" id="15COMTn$kEs" role="3clFbG">
             <property role="3clFbU" value="true" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2S6QgY" id="52J4nYvL4RF">
+    <property role="TrG5h" value="InvalidateSessions" />
+    <ref role="2ZfgGC" to="jrxw:7LvyiX4mii$" resolve="Analysis" />
+    <node concept="2S6ZIM" id="52J4nYvL4RG" role="2ZfVej">
+      <node concept="3clFbS" id="52J4nYvL4RH" role="2VODD2">
+        <node concept="3clFbF" id="52J4nYvL4Ta" role="3cqZAp">
+          <node concept="Xl_RD" id="52J4nYvL4T9" role="3clFbG">
+            <property role="Xl_RC" value="Invalidate Sessions" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2Sbjvc" id="52J4nYvL4RI" role="2ZfgGD">
+      <node concept="3clFbS" id="52J4nYvL4RJ" role="2VODD2">
+        <node concept="3clFbF" id="52J4nYvLguz" role="3cqZAp">
+          <node concept="2OqwBi" id="52J4nYvLgzH" role="3clFbG">
+            <node concept="2YIFZM" id="52J4nYvLgu_" role="2Oq$k0">
+              <ref role="37wK5l" to="ccd1:52J4nYvLbEh" resolve="getRSessionFiles" />
+              <ref role="1Pybhc" to="ccd1:7d3kpy2arRt" resolve="Helper" />
+              <node concept="2OqwBi" id="52J4nYvLguA" role="37wK5m">
+                <node concept="2Sf5sV" id="52J4nYvLguB" role="2Oq$k0" />
+                <node concept="2qgKlT" id="52J4nYvLguC" role="2OqNvi">
+                  <ref role="37wK5l" to="n1uf:7klrZ4rJNMW" resolve="getResultsDir" />
+                  <node concept="2OqwBi" id="52J4nYvLguD" role="37wK5m">
+                    <node concept="2OqwBi" id="52J4nYvLguE" role="2Oq$k0">
+                      <node concept="1XNTG" id="52J4nYvLguF" role="2Oq$k0" />
+                      <node concept="liA8E" id="52J4nYvLguG" role="2OqNvi">
+                        <ref role="37wK5l" to="cj4x:~EditorContext.getOperationContext():jetbrains.mps.smodel.IOperationContext" resolve="getOperationContext" />
+                      </node>
+                    </node>
+                    <node concept="liA8E" id="52J4nYvLguH" role="2OqNvi">
+                      <ref role="37wK5l" to="w1kc:~IOperationContext.getProject():jetbrains.mps.project.Project" resolve="getProject" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="2OqwBi" id="52J4nYvMOQ1" role="37wK5m">
+                <node concept="2Sf5sV" id="52J4nYvMOQ2" role="2Oq$k0" />
+                <node concept="I4A8Y" id="52J4nYvMOQ3" role="2OqNvi" />
+              </node>
+            </node>
+            <node concept="2es0OD" id="52J4nYvLgF3" role="2OqNvi">
+              <node concept="1bVj0M" id="52J4nYvLgF5" role="23t8la">
+                <node concept="3clFbS" id="52J4nYvLgF6" role="1bW5cS">
+                  <node concept="3clFbF" id="52J4nYvLgJx" role="3cqZAp">
+                    <node concept="2OqwBi" id="52J4nYvLgN$" role="3clFbG">
+                      <node concept="37vLTw" id="52J4nYvLgJw" role="2Oq$k0">
+                        <ref role="3cqZAo" node="52J4nYvLgF7" resolve="it" />
+                      </node>
+                      <node concept="liA8E" id="52J4nYvLgVn" role="2OqNvi">
+                        <ref role="37wK5l" to="guwi:~File.delete():boolean" resolve="delete" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="Rh6nW" id="52J4nYvLgF7" role="1bW2Oz">
+                  <property role="TrG5h" value="it" />
+                  <node concept="2jxLKc" id="52J4nYvLgF8" role="1tU5fm" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2SaL7w" id="52J4nYvL4X7" role="2ZfVeh">
+      <node concept="3clFbS" id="52J4nYvL4X8" role="2VODD2">
+        <node concept="3clFbF" id="52J4nYvLfRm" role="3cqZAp">
+          <node concept="2OqwBi" id="52J4nYvLg23" role="3clFbG">
+            <node concept="2YIFZM" id="52J4nYvLfTQ" role="2Oq$k0">
+              <ref role="37wK5l" to="ccd1:52J4nYvLbEh" resolve="getRSessionFiles" />
+              <ref role="1Pybhc" to="ccd1:7d3kpy2arRt" resolve="Helper" />
+              <node concept="2OqwBi" id="52J4nYvL52H" role="37wK5m">
+                <node concept="2Sf5sV" id="52J4nYvL4Yf" role="2Oq$k0" />
+                <node concept="2qgKlT" id="52J4nYvL5bA" role="2OqNvi">
+                  <ref role="37wK5l" to="n1uf:7klrZ4rJNMW" resolve="getResultsDir" />
+                  <node concept="2OqwBi" id="52J4nYvL5pI" role="37wK5m">
+                    <node concept="2OqwBi" id="52J4nYvL5gJ" role="2Oq$k0">
+                      <node concept="1XNTG" id="52J4nYvL5eV" role="2Oq$k0" />
+                      <node concept="liA8E" id="52J4nYvL5lF" role="2OqNvi">
+                        <ref role="37wK5l" to="cj4x:~EditorContext.getOperationContext():jetbrains.mps.smodel.IOperationContext" resolve="getOperationContext" />
+                      </node>
+                    </node>
+                    <node concept="liA8E" id="52J4nYvL5v0" role="2OqNvi">
+                      <ref role="37wK5l" to="w1kc:~IOperationContext.getProject():jetbrains.mps.project.Project" resolve="getProject" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="2OqwBi" id="52J4nYvMOxE" role="37wK5m">
+                <node concept="2Sf5sV" id="52J4nYvMOsc" role="2Oq$k0" />
+                <node concept="I4A8Y" id="52J4nYvMOHZ" role="2OqNvi" />
+              </node>
+            </node>
+            <node concept="3GX2aA" id="52J4nYvLgag" role="2OqNvi" />
           </node>
         </node>
       </node>

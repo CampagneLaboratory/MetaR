@@ -146,8 +146,8 @@
                           </node>
                           <node concept="30H73N" id="6NqfZIYap6a" role="2Oq$k0" />
                         </node>
-                        <node concept="2qgKlT" id="6NqfZIYauO2" role="2OqNvi">
-                          <ref role="37wK5l" to="v8sa:3BiNpr5Ur7M" resolve="getCleanTableName" />
+                        <node concept="2qgKlT" id="52J4nYvA7gF" role="2OqNvi">
+                          <ref role="37wK5l" to="v8sa:52J4nYvd$7N" resolve="getVariableName" />
                         </node>
                       </node>
                       <node concept="Xl_RD" id="6NqfZIYavdA" role="3uHU7w">
@@ -197,8 +197,8 @@
                     </node>
                     <node concept="30H73N" id="6NqfZIYaYZR" role="2Oq$k0" />
                   </node>
-                  <node concept="2qgKlT" id="6NqfZIYaYZS" role="2OqNvi">
-                    <ref role="37wK5l" to="v8sa:3BiNpr5Ur7M" resolve="getCleanTableName" />
+                  <node concept="2qgKlT" id="52J4nYvA7ws" role="2OqNvi">
+                    <ref role="37wK5l" to="v8sa:52J4nYvd$7N" resolve="getVariableName" />
                   </node>
                 </node>
               </node>

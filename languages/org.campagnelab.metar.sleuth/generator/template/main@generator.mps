@@ -1114,8 +1114,8 @@
                           <ref role="3Tt5mk" to="bx6g:1EG$v9O8udR" />
                         </node>
                       </node>
-                      <node concept="2qgKlT" id="1c1rOX4ymE1" role="2OqNvi">
-                        <ref role="37wK5l" to="v8sa:3BiNpr5Ur7M" resolve="getCleanTableName" />
+                      <node concept="2qgKlT" id="52J4nYvEq1$" role="2OqNvi">
+                        <ref role="37wK5l" to="v8sa:52J4nYvd$7N" resolve="getVariableName" />
                       </node>
                     </node>
                   </node>
@@ -2102,8 +2102,8 @@
                               <ref role="3Tt5mk" to="bx6g:1EG$v9O8udR" />
                             </node>
                           </node>
-                          <node concept="2qgKlT" id="1AaQBcuJRtp" role="2OqNvi">
-                            <ref role="37wK5l" to="v8sa:3BiNpr5Ur7M" resolve="getCleanTableName" />
+                          <node concept="2qgKlT" id="52J4nYvAf51" role="2OqNvi">
+                            <ref role="37wK5l" to="v8sa:52J4nYvd$7N" resolve="getVariableName" />
                           </node>
                         </node>
                       </node>

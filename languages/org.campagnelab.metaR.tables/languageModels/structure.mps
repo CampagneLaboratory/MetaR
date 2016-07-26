@@ -342,6 +342,9 @@
     <node concept="PrWs8" id="1xeqmqLQBCs" role="PzmwI">
       <ref role="PrY4T" node="1xeqmqKOy3R" resolve="HasTable" />
     </node>
+    <node concept="PrWs8" id="52J4nYvd$fn" role="PzmwI">
+      <ref role="PrY4T" node="52J4nYvdvom" resolve="ISaveRVariableInSession" />
+    </node>
   </node>
   <node concept="1TIwiD" id="2WRhvFtuGFd">
     <property role="TrG5h" value="ImportTable" />
@@ -6366,6 +6369,12 @@
       <property role="20lbJX" value="0..n" />
       <ref role="20lvS9" node="26cpLhkwAPV" resolve="SessionDependency" />
     </node>
+    <node concept="1TJgyj" id="52J4nYvYa8X" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="variables" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="52J4nYvYa8U" resolve="SessionVariable" />
+    </node>
     <node concept="PrWs8" id="26cpLhhThz3" role="PzmwI">
       <ref role="PrY4T" to="tpck:1_TrU5E6oyb" resolve="IDontSubstituteByDefault" />
     </node>
@@ -6389,6 +6398,18 @@
     <node concept="1TJgyi" id="26cpLhkwAPW" role="1TKVEl">
       <property role="TrG5h" value="dependency" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="52J4nYvdvom">
+    <property role="1pbfSe" value="270202987" />
+    <property role="TrG5h" value="ISaveRVariableInSession" />
+  </node>
+  <node concept="1TIwiD" id="52J4nYvYa8U">
+    <property role="1pbfSe" value="257444935" />
+    <property role="TrG5h" value="SessionVariable" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="52J4nYvYa8V" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
   </node>
 </model>

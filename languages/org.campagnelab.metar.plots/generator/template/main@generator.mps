@@ -1759,8 +1759,8 @@
                     <ref role="3Tt5mk" to="jrxw:2WRhvFtnCb_" />
                   </node>
                 </node>
-                <node concept="2qgKlT" id="3jH$tF$Fo_t" role="2OqNvi">
-                  <ref role="37wK5l" to="v8sa:3BiNpr5Ur7M" resolve="getCleanTableName" />
+                <node concept="2qgKlT" id="52J4nYvHa5d" role="2OqNvi">
+                  <ref role="37wK5l" to="v8sa:52J4nYvd$7N" resolve="getVariableName" />
                 </node>
               </node>
             </node>
