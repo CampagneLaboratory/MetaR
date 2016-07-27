@@ -2163,54 +2163,6 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbF" id="52J4nYw5cym" role="3cqZAp">
-          <node concept="2OqwBi" id="52J4nYw5cyn" role="3clFbG">
-            <node concept="2YIFZM" id="52J4nYw5rxr" role="2Oq$k0">
-              <ref role="1Pybhc" to="ccd1:7ZtP2DEHIzu" resolve="Logging" />
-              <ref role="37wK5l" to="ccd1:7ZtP2DEHUg0" resolve="getInstance" />
-            </node>
-            <node concept="liA8E" id="52J4nYw5cyp" role="2OqNvi">
-              <ref role="37wK5l" to="ccd1:7ZtP2DEHJzN" resolve="info" />
-              <node concept="3cpWs3" id="52J4nYw5cyq" role="37wK5m">
-                <node concept="Xl_RD" id="52J4nYw5cyr" role="3uHU7B">
-                  <property role="Xl_RC" value="Referenceable variables:" />
-                </node>
-                <node concept="2OqwBi" id="52J4nYw5wj3" role="3uHU7w">
-                  <node concept="2OqwBi" id="52J4nYw5v4a" role="2Oq$k0">
-                    <node concept="37vLTw" id="52J4nYw5uR0" role="2Oq$k0">
-                      <ref role="3cqZAo" node="52J4nYw5cw$" resolve="result" />
-                    </node>
-                    <node concept="3$u5V9" id="52J4nYw5w3m" role="2OqNvi">
-                      <node concept="1bVj0M" id="52J4nYw5w3o" role="23t8la">
-                        <node concept="3clFbS" id="52J4nYw5w3p" role="1bW5cS">
-                          <node concept="3clFbF" id="52J4nYw5w6w" role="3cqZAp">
-                            <node concept="2OqwBi" id="52J4nYw5wa1" role="3clFbG">
-                              <node concept="37vLTw" id="52J4nYw5w6v" role="2Oq$k0">
-                                <ref role="3cqZAo" node="52J4nYw5w3q" resolve="it" />
-                              </node>
-                              <node concept="2qgKlT" id="52J4nYw5wdX" role="2OqNvi">
-                                <ref role="37wK5l" to="tpcu:hEwIMiw" resolve="getPresentation" />
-                              </node>
-                            </node>
-                          </node>
-                        </node>
-                        <node concept="Rh6nW" id="52J4nYw5w3q" role="1bW2Oz">
-                          <property role="TrG5h" value="it" />
-                          <node concept="2jxLKc" id="52J4nYw5w3r" role="1tU5fm" />
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                  <node concept="3uJxvA" id="52J4nYw5wqx" role="2OqNvi">
-                    <node concept="Xl_RD" id="52J4nYw5wBs" role="3uJOhx">
-                      <property role="Xl_RC" value="," />
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
         <node concept="3clFbF" id="52J4nYw5sY0" role="3cqZAp">
           <node concept="37vLTw" id="52J4nYw5sXY" role="3clFbG">
             <ref role="3cqZAo" node="52J4nYw5cw$" resolve="result" />
@@ -2230,40 +2182,6 @@
       <ref role="13i0hy" to="tpcu:3fifI_xCJOQ" resolve="getScope" />
       <node concept="3Tm1VV" id="52J4nYw5wJT" role="1B3o_S" />
       <node concept="3clFbS" id="52J4nYw5wLk" role="3clF47">
-        <node concept="3clFbF" id="52J4nYw5x_c" role="3cqZAp">
-          <node concept="2OqwBi" id="52J4nYw5xC6" role="3clFbG">
-            <node concept="2YIFZM" id="52J4nYw5xB8" role="2Oq$k0">
-              <ref role="37wK5l" to="ccd1:7ZtP2DEHUg0" resolve="getInstance" />
-              <ref role="1Pybhc" to="ccd1:7ZtP2DEHIzu" resolve="Logging" />
-            </node>
-            <node concept="liA8E" id="52J4nYw5xET" role="2OqNvi">
-              <ref role="37wK5l" to="ccd1:7ZtP2DEHJzN" resolve="info" />
-              <node concept="3cpWs3" id="52J4nYw5ygr" role="37wK5m">
-                <node concept="37vLTw" id="52J4nYw5yi9" role="3uHU7w">
-                  <ref role="3cqZAo" node="52J4nYw5wLn" resolve="child" />
-                </node>
-                <node concept="3cpWs3" id="52J4nYw5y3M" role="3uHU7B">
-                  <node concept="3cpWs3" id="52J4nYw5xMH" role="3uHU7B">
-                    <node concept="Xl_RD" id="52J4nYw5xHd" role="3uHU7B">
-                      <property role="Xl_RC" value="RScript scope for " />
-                    </node>
-                    <node concept="2OqwBi" id="52J4nYw5xQB" role="3uHU7w">
-                      <node concept="37vLTw" id="52J4nYw5xNp" role="2Oq$k0">
-                        <ref role="3cqZAo" node="52J4nYw5wLl" resolve="kind" />
-                      </node>
-                      <node concept="3TrcHB" id="52J4nYw5xT$" role="2OqNvi">
-                        <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
-                      </node>
-                    </node>
-                  </node>
-                  <node concept="Xl_RD" id="52J4nYw5y5r" role="3uHU7w">
-                    <property role="Xl_RC" value=" child:" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
         <node concept="3SKdUt" id="52J4nYw68wC" role="3cqZAp">
           <node concept="3SKdUq" id="52J4nYw68wD" role="3SKWNk">
             <property role="3SKdUp" value="replace null with child if is working" />
