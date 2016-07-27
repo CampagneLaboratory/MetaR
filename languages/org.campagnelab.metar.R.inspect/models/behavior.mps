@@ -12,6 +12,8 @@
     <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
     <import index="jrxw" ref="r:9f2bbfbf-f8b7-4b3b-92b1-b6a0e9642c10(org.campagnelab.metar.tables.structure)" />
     <import index="tp25" ref="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" />
+    <import index="6q58" ref="r:97268463-8a58-42b7-9dc6-fa004b7a4308(org.campagnelab.metar.R.structure)" />
+    <import index="69j5" ref="r:cc2fd9c1-53e7-4805-a8bc-a07e69f2147b(org.campagnelab.metar.R.behavior)" />
     <import index="jdsq" ref="r:fc6a7b8b-2b37-4925-9f9b-72748c0f3c40(org.campagnelab.metar.R.inspect.structure)" implicit="true" />
   </imports>
   <registry>
@@ -249,8 +251,8 @@
                                   <ref role="2pJxaS" to="tp25:haqgKhF" resolve="Node_ConceptMethodCall" />
                                   <node concept="2pIpSj" id="6YH$XmRcD$0" role="2pJxcM">
                                     <ref role="2pIpSl" to="tp25:haqh4HH" />
-                                    <node concept="36bGnv" id="6YH$XmRcD$1" role="2pJxcZ">
-                                      <ref role="36bGnp" to="v8sa:2AV3DmgHDX5" resolve="id" />
+                                    <node concept="36bGnv" id="7a8Sw3Tgp$B" role="2pJxcZ">
+                                      <ref role="36bGnp" to="69j5:hlbLQwkRFj" resolve="id" />
                                     </node>
                                   </node>
                                 </node>
