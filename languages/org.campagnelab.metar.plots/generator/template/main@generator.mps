@@ -19,6 +19,7 @@
     <import index="jugs" ref="r:625b65e5-b4a4-428e-a70f-ad13f56d2584(org.campagnelab.metar.plots.structure)" implicit="true" />
     <import index="tp35" ref="r:6c85f813-d079-415b-abe9-4d0021645709(org.campagnelab.metar.plots.behavior)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
+    <import index="69j5" ref="r:cc2fd9c1-53e7-4805-a8bc-a07e69f2147b(org.campagnelab.metar.R.behavior)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
@@ -1733,7 +1734,7 @@
                     <node concept="30H73N" id="5hNeoNocCx" role="1PxMeX" />
                   </node>
                   <node concept="2qgKlT" id="5hNeoNocCy" role="2OqNvi">
-                    <ref role="37wK5l" to="v8sa:2AV3DmgHDX5" resolve="id" />
+                    <ref role="37wK5l" to="69j5:hlbLQwkRFj" resolve="id" />
                   </node>
                 </node>
               </node>
@@ -2176,7 +2177,7 @@
                     <node concept="30H73N" id="1c1rOX4Ii6A" role="1PxMeX" />
                   </node>
                   <node concept="2qgKlT" id="5hNeoNoc0G" role="2OqNvi">
-                    <ref role="37wK5l" to="v8sa:2AV3DmgHDX5" resolve="id" />
+                    <ref role="37wK5l" to="69j5:hlbLQwkRFj" resolve="id" />
                   </node>
                 </node>
               </node>

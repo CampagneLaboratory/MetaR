@@ -64,10 +64,6 @@
       <concept id="1225194691553" name="jetbrains.mps.lang.behavior.structure.ThisNodeExpression" flags="nn" index="13iPFW" />
     </language>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
-      <concept id="1224071154655" name="jetbrains.mps.baseLanguage.structure.AsExpression" flags="nn" index="0kSF2">
-        <child id="1224071154657" name="classifierType" index="0kSFW" />
-        <child id="1224071154656" name="expression" index="0kSFX" />
-      </concept>
       <concept id="1080223426719" name="jetbrains.mps.baseLanguage.structure.OrExpression" flags="nn" index="22lmx$" />
       <concept id="1082485599095" name="jetbrains.mps.baseLanguage.structure.BlockStatement" flags="nn" index="9aQIb">
         <child id="1082485599096" name="statements" index="9aQI4" />
@@ -10879,31 +10875,6 @@
       <node concept="37vLTG" id="7LvyiX4milM" role="3clF46">
         <property role="TrG5h" value="length" />
         <node concept="10Oyi0" id="7LvyiX4milN" role="1tU5fm" />
-      </node>
-    </node>
-    <node concept="13i0hz" id="2AV3DmgHDX5" role="13h7CS">
-      <property role="TrG5h" value="id" />
-      <node concept="3Tm1VV" id="2AV3DmgHDX6" role="1B3o_S" />
-      <node concept="17QB3L" id="2AV3DmgHFo$" role="3clF45" />
-      <node concept="3clFbS" id="2AV3DmgHDX8" role="3clF47">
-        <node concept="3clFbF" id="7LV$PmMyVxZ" role="3cqZAp">
-          <node concept="2OqwBi" id="2AV3DmgBf9k" role="3clFbG">
-            <node concept="2OqwBi" id="2AV3DmgBeGf" role="2Oq$k0">
-              <node concept="0kSF2" id="2AV3DmgBeir" role="2Oq$k0">
-                <node concept="3uibUv" id="2AV3DmgBev4" role="0kSFW">
-                  <ref role="3uigEE" to="mhbf:~SNode" resolve="SNode" />
-                </node>
-                <node concept="13iPFW" id="2AV3DmgBfTO" role="0kSFX" />
-              </node>
-              <node concept="liA8E" id="2AV3DmgBeRX" role="2OqNvi">
-                <ref role="37wK5l" to="mhbf:~SNode.getNodeId():org.jetbrains.mps.openapi.model.SNodeId" resolve="getNodeId" />
-              </node>
-            </node>
-            <node concept="liA8E" id="2AV3DmgBfpI" role="2OqNvi">
-              <ref role="37wK5l" to="wyt6:~Object.toString():java.lang.String" resolve="toString" />
-            </node>
-          </node>
-        </node>
       </node>
     </node>
     <node concept="13i0hz" id="3W3L4MJREIl" role="13h7CS">

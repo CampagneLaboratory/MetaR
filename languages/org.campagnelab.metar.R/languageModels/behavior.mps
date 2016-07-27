@@ -25,6 +25,7 @@
     <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" />
     <import index="ccd1" ref="r:d4fc1ccf-1b20-4c10-aae7-94de66326394(org.campagnelab.instantrefresh.plugin.plugin)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" />
+    <import index="mhbf" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.model(MPS.OpenAPI/)" />
   </imports>
   <registry>
     <language id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior">
@@ -47,6 +48,10 @@
       <concept id="1225194691553" name="jetbrains.mps.lang.behavior.structure.ThisNodeExpression" flags="nn" index="13iPFW" />
     </language>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
+      <concept id="1224071154655" name="jetbrains.mps.baseLanguage.structure.AsExpression" flags="nn" index="0kSF2">
+        <child id="1224071154657" name="classifierType" index="0kSFW" />
+        <child id="1224071154656" name="expression" index="0kSFX" />
+      </concept>
       <concept id="1080223426719" name="jetbrains.mps.baseLanguage.structure.OrExpression" flags="nn" index="22lmx$" />
       <concept id="1082485599095" name="jetbrains.mps.baseLanguage.structure.BlockStatement" flags="nn" index="9aQIb">
         <child id="1082485599096" name="statements" index="9aQI4" />
@@ -3025,6 +3030,39 @@
     </node>
     <node concept="13hLZK" id="15COMTn5xlS" role="13h7CW">
       <node concept="3clFbS" id="15COMTn5xlT" role="2VODD2" />
+    </node>
+  </node>
+  <node concept="13h7C7" id="hlbLQwkRj3">
+    <ref role="13h7C2" to="6q58:15COMTnnsmm" resolve="IAtomic" />
+    <node concept="13i0hz" id="hlbLQwkRFj" role="13h7CS">
+      <property role="13i0iv" value="false" />
+      <property role="13i0it" value="true" />
+      <property role="TrG5h" value="id" />
+      <node concept="3Tm1VV" id="hlbLQwkRFk" role="1B3o_S" />
+      <node concept="3clFbS" id="hlbLQwkRFl" role="3clF47">
+        <node concept="3clFbF" id="7LV$PmMyVxZ" role="3cqZAp">
+          <node concept="2OqwBi" id="2AV3DmgBf9k" role="3clFbG">
+            <node concept="2OqwBi" id="2AV3DmgBeGf" role="2Oq$k0">
+              <node concept="0kSF2" id="2AV3DmgBeir" role="2Oq$k0">
+                <node concept="3uibUv" id="2AV3DmgBev4" role="0kSFW">
+                  <ref role="3uigEE" to="mhbf:~SNode" resolve="SNode" />
+                </node>
+                <node concept="13iPFW" id="2AV3DmgBfTO" role="0kSFX" />
+              </node>
+              <node concept="liA8E" id="2AV3DmgBeRX" role="2OqNvi">
+                <ref role="37wK5l" to="mhbf:~SNode.getNodeId():org.jetbrains.mps.openapi.model.SNodeId" resolve="getNodeId" />
+              </node>
+            </node>
+            <node concept="liA8E" id="2AV3DmgBfpI" role="2OqNvi">
+              <ref role="37wK5l" to="wyt6:~Object.toString():java.lang.String" resolve="toString" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="17QB3L" id="hlbLQwkRG7" role="3clF45" />
+    </node>
+    <node concept="13hLZK" id="hlbLQwkRj4" role="13h7CW">
+      <node concept="3clFbS" id="hlbLQwkRj5" role="2VODD2" />
     </node>
   </node>
 </model>
