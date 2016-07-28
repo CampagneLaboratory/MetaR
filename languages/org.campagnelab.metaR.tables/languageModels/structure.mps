@@ -6354,8 +6354,8 @@
     <node concept="PrWs8" id="26cpLhhSUhX" role="PzmwI">
       <ref role="PrY4T" node="7LvyiX4miiF" resolve="StatementDependencies" />
     </node>
-    <node concept="PrWs8" id="26cpLhhSVQT" role="PzmwI">
-      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    <node concept="PrWs8" id="2xF4TVcGGwi" role="PzmwI">
+      <ref role="PrY4T" node="2xF4TVcGGmU" resolve="ISessionStatement" />
     </node>
   </node>
   <node concept="1TIwiD" id="26cpLhhSknI">
@@ -6409,6 +6409,13 @@
     <property role="TrG5h" value="SessionVariable" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="52J4nYvYa8V" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="2xF4TVcGGmU">
+    <property role="1pbfSe" value="182593192" />
+    <property role="TrG5h" value="ISessionStatement" />
+    <node concept="PrWs8" id="2xF4TVcGGmV" role="PrDN$">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
   </node>

@@ -1309,5 +1309,14 @@
     <property role="1pbfSe" value="846423646" />
     <property role="TrG5h" value="IIgnoreChanges" />
   </node>
+  <node concept="1TIwiD" id="2xF4TVcCI7Y">
+    <property role="1pbfSe" value="183634532" />
+    <property role="TrG5h" value="SaveSession" />
+    <property role="34LRSv" value="save session" />
+    <ref role="1TJDcQ" node="5mPDeVwiPap" resolve="Expr" />
+    <node concept="PrWs8" id="2xF4TVcGGwm" role="PzmwI">
+      <ref role="PrY4T" to="jrxw:2xF4TVcGGmU" resolve="ISessionStatement" />
+    </node>
+  </node>
 </model>
 

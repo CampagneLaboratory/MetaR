@@ -12,6 +12,7 @@
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="yy4t" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.textGen(MPS.Core/)" implicit="true" />
     <import index="69j5" ref="r:cc2fd9c1-53e7-4805-a8bc-a07e69f2147b(org.campagnelab.metar.R.behavior)" implicit="true" />
+    <import index="v8sa" ref="r:db1b133e-9a0f-4319-b384-413408eb1729(org.campagnelab.metar.tables.behavior)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -39,6 +40,7 @@
       <concept id="1081236700937" name="jetbrains.mps.baseLanguage.structure.StaticMethodCall" flags="nn" index="2YIFZM">
         <reference id="1144433194310" name="classConcept" index="1Pybhc" />
       </concept>
+      <concept id="1070534058343" name="jetbrains.mps.baseLanguage.structure.NullLiteral" flags="nn" index="10Nm6u" />
       <concept id="1068431474542" name="jetbrains.mps.baseLanguage.structure.VariableDeclaration" flags="ng" index="33uBYm">
         <child id="1068431790190" name="initializer" index="33vP2m" />
       </concept>
@@ -2011,6 +2013,36 @@
                 <ref role="3TsBF5" to="6q58:5hNeoO4wje" resolve="text" />
               </node>
             </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="WtQ9Q" id="2xF4TVcGsL1">
+    <ref role="WuzLi" to="6q58:2xF4TVcCI7Y" resolve="SaveSession" />
+    <node concept="11bSqf" id="2xF4TVcGsL2" role="11c4hB">
+      <node concept="3clFbS" id="2xF4TVcGsL3" role="2VODD2">
+        <node concept="lc7rE" id="2xF4TVcGHf0" role="3cqZAp">
+          <node concept="la8eA" id="2xF4TVcGHhu" role="lcghm">
+            <property role="lacIc" value="require(&quot;session&quot;)" />
+          </node>
+          <node concept="l8MVK" id="2xF4TVcGIaa" role="lcghm" />
+        </node>
+        <node concept="lc7rE" id="2xF4TVcGsLf" role="3cqZAp">
+          <node concept="la8eA" id="2xF4TVcGsLt" role="lcghm">
+            <property role="lacIc" value="save.image(&quot;" />
+          </node>
+          <node concept="l9hG8" id="2xF4TVcGFXa" role="lcghm">
+            <node concept="2OqwBi" id="2xF4TVcGG0h" role="lb14g">
+              <node concept="117lpO" id="2xF4TVcGFXV" role="2Oq$k0" />
+              <node concept="2qgKlT" id="2xF4TVcGH5K" role="2OqNvi">
+                <ref role="37wK5l" to="v8sa:2xF4TVcGGn0" resolve="getSessionPath" />
+                <node concept="10Nm6u" id="2xF4TVcLNnV" role="37wK5m" />
+              </node>
+            </node>
+          </node>
+          <node concept="la8eA" id="2xF4TVcGGdv" role="lcghm">
+            <property role="lacIc" value="&quot;)" />
           </node>
         </node>
       </node>
