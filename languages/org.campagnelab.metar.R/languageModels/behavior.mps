@@ -314,12 +314,8 @@
       <concept id="1203518072036" name="jetbrains.mps.baseLanguage.collections.structure.SmartClosureParameterDeclaration" flags="ig" index="Rh6nW" />
       <concept id="1160612413312" name="jetbrains.mps.baseLanguage.collections.structure.AddElementOperation" flags="nn" index="TSZUe" />
       <concept id="1160666733551" name="jetbrains.mps.baseLanguage.collections.structure.AddAllElementsOperation" flags="nn" index="X8dFx" />
-      <concept id="1240687580870" name="jetbrains.mps.baseLanguage.collections.structure.JoinOperation" flags="nn" index="3uJxvA">
-        <child id="1240687658305" name="delimiter" index="3uJOhx" />
-      </concept>
       <concept id="1225727723840" name="jetbrains.mps.baseLanguage.collections.structure.FindFirstOperation" flags="nn" index="1z4cxt" />
       <concept id="1202120902084" name="jetbrains.mps.baseLanguage.collections.structure.WhereOperation" flags="nn" index="3zZkjj" />
-      <concept id="1202128969694" name="jetbrains.mps.baseLanguage.collections.structure.SelectOperation" flags="nn" index="3$u5V9" />
     </language>
   </registry>
   <node concept="13h7C7" id="14grA08BCRm">
@@ -2366,54 +2362,6 @@
                 <node concept="1mIQ4w" id="52J4nYw8qtW" role="2OqNvi">
                   <node concept="chp4Y" id="52J4nYw8qtX" role="cj9EA">
                     <ref role="cht4Q" to="6q58:5qM9mr9JOd5" resolve="BinaryOperatorExpr" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="52J4nYw8qtY" role="3cqZAp">
-          <node concept="2OqwBi" id="52J4nYw8qtZ" role="3clFbG">
-            <node concept="2YIFZM" id="52J4nYw8qu0" role="2Oq$k0">
-              <ref role="1Pybhc" to="ccd1:7ZtP2DEHIzu" resolve="Logging" />
-              <ref role="37wK5l" to="ccd1:7ZtP2DEHUg0" resolve="getInstance" />
-            </node>
-            <node concept="liA8E" id="52J4nYw8qu1" role="2OqNvi">
-              <ref role="37wK5l" to="ccd1:7ZtP2DEHJzN" resolve="info" />
-              <node concept="3cpWs3" id="52J4nYw8qu2" role="37wK5m">
-                <node concept="Xl_RD" id="52J4nYw8qu3" role="3uHU7B">
-                  <property role="Xl_RC" value="Referenceable variables:" />
-                </node>
-                <node concept="2OqwBi" id="52J4nYw8qu4" role="3uHU7w">
-                  <node concept="2OqwBi" id="52J4nYw8qu5" role="2Oq$k0">
-                    <node concept="37vLTw" id="52J4nYw8qu6" role="2Oq$k0">
-                      <ref role="3cqZAo" node="52J4nYw8qt8" resolve="result" />
-                    </node>
-                    <node concept="3$u5V9" id="52J4nYw8qu7" role="2OqNvi">
-                      <node concept="1bVj0M" id="52J4nYw8qu8" role="23t8la">
-                        <node concept="3clFbS" id="52J4nYw8qu9" role="1bW5cS">
-                          <node concept="3clFbF" id="52J4nYw8qua" role="3cqZAp">
-                            <node concept="2OqwBi" id="52J4nYw8qub" role="3clFbG">
-                              <node concept="37vLTw" id="52J4nYw8quc" role="2Oq$k0">
-                                <ref role="3cqZAo" node="52J4nYw8que" resolve="it" />
-                              </node>
-                              <node concept="2qgKlT" id="52J4nYw8qud" role="2OqNvi">
-                                <ref role="37wK5l" to="tpcu:hEwIMiw" resolve="getPresentation" />
-                              </node>
-                            </node>
-                          </node>
-                        </node>
-                        <node concept="Rh6nW" id="52J4nYw8que" role="1bW2Oz">
-                          <property role="TrG5h" value="it" />
-                          <node concept="2jxLKc" id="52J4nYw8quf" role="1tU5fm" />
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                  <node concept="3uJxvA" id="52J4nYw8qug" role="2OqNvi">
-                    <node concept="Xl_RD" id="52J4nYw8quh" role="3uJOhx">
-                      <property role="Xl_RC" value="," />
-                    </node>
                   </node>
                 </node>
               </node>
