@@ -2827,9 +2827,9 @@
     <ref role="2ZfgGC" to="jrxw:7LvyiX4mii$" resolve="Analysis" />
     <node concept="2S6ZIM" id="L2v$sdgoAy" role="2ZfVej">
       <node concept="3clFbS" id="L2v$sdgoAz" role="2VODD2">
-        <node concept="3clFbF" id="L2v$sdgoA$" role="3cqZAp">
-          <node concept="Xl_RD" id="L2v$sdgoA_" role="3clFbG">
-            <property role="Xl_RC" value="Clear" />
+        <node concept="3clFbF" id="2xF4TVcWVf8" role="3cqZAp">
+          <node concept="Xl_RD" id="2xF4TVcWVfa" role="3clFbG">
+            <property role="Xl_RC" value="Remove Markers for Effected Statements" />
           </node>
         </node>
       </node>
@@ -3092,7 +3092,7 @@
       <node concept="3clFbS" id="15COMTn$kE3" role="2VODD2">
         <node concept="3clFbF" id="15COMTn$kE4" role="3cqZAp">
           <node concept="Xl_RD" id="15COMTn$kE5" role="3clFbG">
-            <property role="Xl_RC" value="Clear" />
+            <property role="Xl_RC" value="Remove Markers for Effected Expressions" />
           </node>
         </node>
       </node>
