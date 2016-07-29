@@ -69,10 +69,6 @@
     <import index="eoo2" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.nio.file(JDK/)" />
     <import index="7x5y" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.nio.charset(JDK/)" />
     <import index="ni5j" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util.regex(JDK/)" />
-    <import index="qkt" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.openapi.actionSystem(MPS.IDEA/)" />
-    <import index="ccd1" ref="r:d4fc1ccf-1b20-4c10-aae7-94de66326394(org.campagnelab.instantrefresh.plugin.plugin)" />
-    <import index="uu3z" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.execution.process(MPS.IDEA/)" />
-    <import index="tpd4" ref="r:00000000-0000-4000-0000-011c895902b4(jetbrains.mps.lang.typesystem.structure)" />
     <import index="3v5a" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.execution(MPS.IDEA/)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="6q58" ref="r:97268463-8a58-42b7-9dc6-fa004b7a4308(org.campagnelab.metar.R.structure)" implicit="true" />
@@ -9180,37 +9176,6 @@
                                   </node>
                                 </node>
                               </node>
-                            </node>
-                          </node>
-                          <node concept="3clFbJ" id="3zqZiqCvcHg" role="3cqZAp">
-                            <node concept="3clFbS" id="3zqZiqCvcHi" role="3clFbx">
-                              <node concept="3clFbF" id="3zqZiqBLTeC" role="3cqZAp">
-                                <node concept="37vLTI" id="3zqZiqBLTeD" role="3clFbG">
-                                  <node concept="37vLTw" id="3zqZiqBLTeE" role="37vLTJ">
-                                    <ref role="3cqZAo" node="3zqZiqBLTeu" resolve="content" />
-                                  </node>
-                                  <node concept="2YIFZM" id="3zqZiqBLTeF" role="37vLTx">
-                                    <ref role="1Pybhc" to="ccd1:7d3kpy2arRt" resolve="Helper" />
-                                    <ref role="37wK5l" to="ccd1:klQnOm7ZAA" resolve="addConvertPathFunction" />
-                                    <node concept="37vLTw" id="3zqZiqBLTeG" role="37wK5m">
-                                      <ref role="3cqZAo" node="3zqZiqBLTeu" resolve="content" />
-                                    </node>
-                                    <node concept="1PxgMI" id="3zqZiqBLTeH" role="37wK5m">
-                                      <ref role="1PxNhF" to="jrxw:7LvyiX4mii$" resolve="Analysis" />
-                                      <node concept="37vLTw" id="3zqZiqBLTeI" role="1PxMeX">
-                                        <ref role="3cqZAo" node="3zqZiqBLTds" resolve="node" />
-                                      </node>
-                                    </node>
-                                    <node concept="37vLTw" id="3zqZiqBLTeJ" role="37wK5m">
-                                      <ref role="3cqZAo" node="3zqZiqBLTgm" resolve="fProject" />
-                                    </node>
-                                  </node>
-                                </node>
-                              </node>
-                            </node>
-                            <node concept="2YIFZM" id="3zqZiqCvdFY" role="3clFbw">
-                              <ref role="37wK5l" to="ccd1:3zqZiqBFsAi" resolve="useDeprecatedVersion" />
-                              <ref role="1Pybhc" to="ccd1:3zqZiqBFs1U" resolve="DeprecationHelper" />
                             </node>
                           </node>
                           <node concept="3cpWs8" id="3zqZiqBLTeK" role="3cqZAp">
