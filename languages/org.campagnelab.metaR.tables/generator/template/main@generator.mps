@@ -8387,29 +8387,7 @@
       <node concept="1gZcZf" id="2WRhvFtQj7$" role="2G3XIn">
         <property role="1gZaPE" value="" />
       </node>
-      <node concept="1gZcZf" id="klQnOmBtxq" role="2G3XIn">
-        <node concept="3_3kQU" id="klQnOmCyaW" role="3_3kQL">
-          <property role="3_3kQV" value="convertPathToJupyterPath &lt;- function(path, param) { return(path) }" />
-          <node concept="1W57fq" id="klQnOmCyaX" role="lGtFl">
-            <node concept="3IZrLx" id="klQnOmCyaY" role="3IZSJc">
-              <node concept="3clFbS" id="klQnOmCyaZ" role="2VODD2">
-                <node concept="3clFbF" id="klQnOmCyb0" role="3cqZAp">
-                  <node concept="3fqX7Q" id="klQnOmCyg1" role="3clFbG">
-                    <node concept="2YIFZM" id="klQnOmCyg3" role="3fr31v">
-                      <ref role="37wK5l" to="ccd1:7d3kpy2aHso" resolve="shouldExecuteOnJupyter" />
-                      <ref role="1Pybhc" to="ccd1:7d3kpy2arRt" resolve="Helper" />
-                      <node concept="30H73N" id="klQnOmCyg4" role="37wK5m" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3_3kQU" id="klQnOmBtxr" role="3_3kQL">
-          <property role="3_3kQV" value="" />
-        </node>
-      </node>
+      <node concept="1gZcZf" id="klQnOmBtxq" role="2G3XIn" />
       <node concept="1gZcZf" id="klQnOmCxzK" role="2G3XIn">
         <node concept="3_3kQU" id="klQnOmCxzL" role="3_3kQL">
           <property role="3_3kQV" value="#Script generated from " />
@@ -19103,7 +19081,7 @@
                             <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
                             <node concept="10M0yZ" id="26cpLhkgSfM" role="37wK5m">
                               <ref role="1PxDUh" to="ccd1:L2v$sdqWOu" resolve="TempNodeCreator" />
-                              <ref role="3cqZAo" to="ccd1:15COMTmWFQj" resolve="ANALYSIS_ROOT_NAME" />
+                              <ref role="3cqZAo" to="ccd1:15COMTmWFQj" resolve="ROOT_NAME" />
                             </node>
                           </node>
                         </node>

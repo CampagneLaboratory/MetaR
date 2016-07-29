@@ -6495,48 +6495,6 @@
       <ref role="13i0hy" node="5RQTS2osRA4" resolve="getPath" />
       <node concept="3Tm1VV" id="5RQTS2ot0mE" role="1B3o_S" />
       <node concept="3clFbS" id="5RQTS2ot0mH" role="3clF47">
-        <node concept="3clFbJ" id="5NwG7t5ABjt" role="3cqZAp">
-          <node concept="3clFbS" id="5NwG7t5ABjv" role="3clFbx">
-            <node concept="3cpWs6" id="5NwG7t5DjeW" role="3cqZAp">
-              <node concept="2YIFZM" id="5NwG7t5ABGx" role="3cqZAk">
-                <ref role="37wK5l" to="ccd1:7d3kpy2ghYV" resolve="createRemoteTablePath" />
-                <ref role="1Pybhc" to="ccd1:3uD_HpV5Ij6" resolve="Utils" />
-                <node concept="2OqwBi" id="5NwG7t5ABLb" role="37wK5m">
-                  <node concept="13iPFW" id="5NwG7t5ABH2" role="2Oq$k0" />
-                  <node concept="3TrEf2" id="5NwG7t5ABUf" role="2OqNvi">
-                    <ref role="3Tt5mk" to="jrxw:2WRhvFtuQGF" />
-                  </node>
-                </node>
-                <node concept="2OqwBi" id="5t6aAzXZSxB" role="37wK5m">
-                  <node concept="2OqwBi" id="5t6aAzXZSxC" role="2Oq$k0">
-                    <node concept="13iPFW" id="5t6aAzXZSxD" role="2Oq$k0" />
-                    <node concept="3TrEf2" id="5t6aAzXZSxE" role="2OqNvi">
-                      <ref role="3Tt5mk" to="jrxw:2WRhvFtuQGF" />
-                    </node>
-                  </node>
-                  <node concept="2qgKlT" id="5t6aAzXZSxF" role="2OqNvi">
-                    <ref role="37wK5l" node="w5znaeJk_2" resolve="resolvePath" />
-                  </node>
-                </node>
-                <node concept="10Nm6u" id="55a1UmA1rIS" role="37wK5m" />
-              </node>
-            </node>
-          </node>
-          <node concept="2YIFZM" id="7d3kpy2qwte" role="3clFbw">
-            <ref role="37wK5l" to="ccd1:7d3kpy2aHso" resolve="shouldExecuteOnJupyter" />
-            <ref role="1Pybhc" to="ccd1:7d3kpy2arRt" resolve="Helper" />
-            <node concept="2OqwBi" id="5NwG7t5ABrD" role="37wK5m">
-              <node concept="13iPFW" id="7d3kpy2qwtf" role="2Oq$k0" />
-              <node concept="2Xjw5R" id="5NwG7t5AB$A" role="2OqNvi">
-                <node concept="1xMEDy" id="5NwG7t5AB$C" role="1xVPHs">
-                  <node concept="chp4Y" id="5NwG7t5AB_I" role="ri$Ld">
-                    <ref role="cht4Q" to="jrxw:7LvyiX4mii$" resolve="Analysis" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
         <node concept="3cpWs6" id="5NwG7t5Djlb" role="3cqZAp">
           <node concept="2OqwBi" id="5RQTS2ot1y8" role="3cqZAk">
             <node concept="2OqwBi" id="5RQTS2ot0r4" role="2Oq$k0">
@@ -6565,54 +6523,6 @@
       </node>
       <node concept="3Tm1VV" id="55a1UmAntc_" role="1B3o_S" />
       <node concept="3clFbS" id="55a1UmAntcA" role="3clF47">
-        <node concept="3clFbJ" id="55a1UmAntcB" role="3cqZAp">
-          <node concept="3clFbS" id="55a1UmAntcC" role="3clFbx">
-            <node concept="3cpWs6" id="55a1UmAntcD" role="3cqZAp">
-              <node concept="2YIFZM" id="55a1UmAntcE" role="3cqZAk">
-                <ref role="1Pybhc" to="ccd1:3uD_HpV5Ij6" resolve="Utils" />
-                <ref role="37wK5l" to="ccd1:7d3kpy2ghYV" resolve="createRemoteTablePath" />
-                <node concept="2OqwBi" id="55a1UmAntcF" role="37wK5m">
-                  <node concept="13iPFW" id="55a1UmAntcG" role="2Oq$k0" />
-                  <node concept="3TrEf2" id="55a1UmAntcH" role="2OqNvi">
-                    <ref role="3Tt5mk" to="jrxw:2WRhvFtuQGF" />
-                  </node>
-                </node>
-                <node concept="2OqwBi" id="5t6aAzXZSd8" role="37wK5m">
-                  <node concept="2OqwBi" id="5t6aAzXZRMA" role="2Oq$k0">
-                    <node concept="13iPFW" id="5t6aAzXZRGl" role="2Oq$k0" />
-                    <node concept="3TrEf2" id="5t6aAzXZRZJ" role="2OqNvi">
-                      <ref role="3Tt5mk" to="jrxw:2WRhvFtuQGF" />
-                    </node>
-                  </node>
-                  <node concept="2qgKlT" id="5t6aAzXZSoz" role="2OqNvi">
-                    <ref role="37wK5l" node="w5znaeJk_2" resolve="resolvePath" />
-                  </node>
-                </node>
-                <node concept="2YIFZM" id="55a1UmAnumT" role="37wK5m">
-                  <ref role="37wK5l" to="alof:~ProjectHelper.toIdeaProject(jetbrains.mps.project.Project):com.intellij.openapi.project.Project" resolve="toIdeaProject" />
-                  <ref role="1Pybhc" to="alof:~ProjectHelper" resolve="ProjectHelper" />
-                  <node concept="37vLTw" id="55a1UmAnur3" role="37wK5m">
-                    <ref role="3cqZAo" node="55a1UmAccAn" resolve="mpsProject" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="2YIFZM" id="55a1UmAntcJ" role="3clFbw">
-            <ref role="37wK5l" to="ccd1:7d3kpy2aHso" resolve="shouldExecuteOnJupyter" />
-            <ref role="1Pybhc" to="ccd1:7d3kpy2arRt" resolve="Helper" />
-            <node concept="2OqwBi" id="55a1UmAntcK" role="37wK5m">
-              <node concept="13iPFW" id="55a1UmAntcL" role="2Oq$k0" />
-              <node concept="2Xjw5R" id="55a1UmAntcM" role="2OqNvi">
-                <node concept="1xMEDy" id="55a1UmAntcN" role="1xVPHs">
-                  <node concept="chp4Y" id="55a1UmAntcO" role="ri$Ld">
-                    <ref role="cht4Q" to="jrxw:7LvyiX4mii$" resolve="Analysis" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
         <node concept="3cpWs6" id="55a1UmAntcR" role="3cqZAp">
           <node concept="2OqwBi" id="55a1UmAntcS" role="3cqZAk">
             <node concept="2OqwBi" id="55a1UmAntcT" role="2Oq$k0">

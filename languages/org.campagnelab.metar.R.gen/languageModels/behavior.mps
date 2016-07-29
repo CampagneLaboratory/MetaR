@@ -68,10 +68,6 @@
       <concept id="1068580123155" name="jetbrains.mps.baseLanguage.structure.ExpressionStatement" flags="nn" index="3clFbF">
         <child id="1068580123156" name="expression" index="3clFbG" />
       </concept>
-      <concept id="1068580123159" name="jetbrains.mps.baseLanguage.structure.IfStatement" flags="nn" index="3clFbJ">
-        <child id="1068580123160" name="condition" index="3clFbw" />
-        <child id="1068580123161" name="ifTrue" index="3clFbx" />
-      </concept>
       <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
       </concept>
@@ -142,28 +138,6 @@
       <property role="TrG5h" value="getLocalMetaRLibsFolder" />
       <node concept="3Tm1VV" id="5OllgZoNaKB" role="1B3o_S" />
       <node concept="3clFbS" id="5OllgZoNaKC" role="3clF47">
-        <node concept="3clFbJ" id="7d3kpy2qu18" role="3cqZAp">
-          <node concept="3clFbS" id="7d3kpy2qu1a" role="3clFbx">
-            <node concept="3cpWs6" id="7d3kpy2quDI" role="3cqZAp">
-              <node concept="2YIFZM" id="26cpLhhqvgh" role="3cqZAk">
-                <ref role="37wK5l" to="ccd1:7d3kpy2aWpQ" resolve="getRemoteMetaRLibsFolder" />
-                <ref role="1Pybhc" to="ccd1:3uD_HpV5Ij6" resolve="Utils" />
-                <node concept="2YIFZM" id="26cpLhhqvgi" role="37wK5m">
-                  <ref role="37wK5l" to="alof:~ProjectHelper.toIdeaProject(jetbrains.mps.project.Project):com.intellij.openapi.project.Project" resolve="toIdeaProject" />
-                  <ref role="1Pybhc" to="alof:~ProjectHelper" resolve="ProjectHelper" />
-                  <node concept="37vLTw" id="26cpLhhqvgj" role="37wK5m">
-                    <ref role="3cqZAo" node="55a1UmAccAn" resolve="mpsProject" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="2YIFZM" id="26cpLhhqvaS" role="3clFbw">
-            <ref role="37wK5l" to="ccd1:7d3kpy2aHso" resolve="shouldExecuteOnJupyter" />
-            <ref role="1Pybhc" to="ccd1:7d3kpy2arRt" resolve="Helper" />
-            <node concept="13iPFW" id="26cpLhhqvaT" role="37wK5m" />
-          </node>
-        </node>
         <node concept="3cpWs6" id="7d3kpy2qv_V" role="3cqZAp">
           <node concept="2OqwBi" id="7d3kpy2qv_W" role="3cqZAk">
             <node concept="2ShNRf" id="7d3kpy2qv_X" role="2Oq$k0">
@@ -215,28 +189,6 @@
       </node>
       <node concept="3Tm1VV" id="7klrZ4rJNMX" role="1B3o_S" />
       <node concept="3clFbS" id="7klrZ4rJNMY" role="3clF47">
-        <node concept="3clFbJ" id="7d3kpy2qwhM" role="3cqZAp">
-          <node concept="3clFbS" id="7d3kpy2qwhO" role="3clFbx">
-            <node concept="3cpWs6" id="7d3kpy2qwCq" role="3cqZAp">
-              <node concept="2YIFZM" id="26cpLhhq$pG" role="3cqZAk">
-                <ref role="37wK5l" to="ccd1:7d3kpy2aY3f" resolve="getRemoteResultsDir" />
-                <ref role="1Pybhc" to="ccd1:3uD_HpV5Ij6" resolve="Utils" />
-                <node concept="2YIFZM" id="26cpLhhq$pH" role="37wK5m">
-                  <ref role="37wK5l" to="alof:~ProjectHelper.toIdeaProject(jetbrains.mps.project.Project):com.intellij.openapi.project.Project" resolve="toIdeaProject" />
-                  <ref role="1Pybhc" to="alof:~ProjectHelper" resolve="ProjectHelper" />
-                  <node concept="37vLTw" id="26cpLhhq$pI" role="37wK5m">
-                    <ref role="3cqZAo" node="55a1UmAl2qN" resolve="mpsProject" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="2YIFZM" id="26cpLhhq$kh" role="3clFbw">
-            <ref role="37wK5l" to="ccd1:7d3kpy2aHso" resolve="shouldExecuteOnJupyter" />
-            <ref role="1Pybhc" to="ccd1:7d3kpy2arRt" resolve="Helper" />
-            <node concept="13iPFW" id="26cpLhhq$ki" role="37wK5m" />
-          </node>
-        </node>
         <node concept="3cpWs6" id="7d3kpy2qwWl" role="3cqZAp">
           <node concept="2OqwBi" id="7d3kpy2qwWm" role="3cqZAk">
             <node concept="2ShNRf" id="7d3kpy2qwWn" role="2Oq$k0">

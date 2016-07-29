@@ -30,7 +30,6 @@
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" fqName="jetbrains.mps.lang.structure" version="1" />
     <language id="9ded098b-ad6a-4657-bfd9-48636cfe8bc3" fqName="jetbrains.mps.lang.traceable" version="0" />
     <language id="a60f536b-19c3-48f3-a662-0aa30b245913" fqName="org.campagnelab.editor.images" version="0" />
-    <language id="fa51b48b-022c-4a7d-b685-4030a7571a91" fqName="org.campagnelab.jupyterManager" version="-1" />
     <language id="3b58810c-8431-4bbb-99ea-b4671e02dd13" fqName="org.campagnelab.metar.R" version="1" />
     <language id="7eba6a28-4cc2-47b9-a392-284573f2054a" fqName="org.campagnelab.metar.R.access" version="0" />
     <language id="837afec3-cff0-45b1-a221-6b811148f87e" fqName="org.campagnelab.metar.R.gen" version="0" />

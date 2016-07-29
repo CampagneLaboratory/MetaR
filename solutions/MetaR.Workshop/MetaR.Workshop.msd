@@ -10,6 +10,7 @@
     <dependency reexport="false">040d3459-0033-45bb-b823-4cfd22657c15(org.campagnelab.metar.biomartToR)</dependency>
     <dependency reexport="false">af754813-06c7-4cd1-8f24-cc91ec8e5d34(org.campagnelab.metar.with.r)</dependency>
     <dependency reexport="false">8e2c4123-1984-45f0-81f5-0fd1ae49bd40(DocModels)</dependency>
+    <dependency reexport="false">9c4c21db-948a-44c6-8d32-16dd401e98b0(org.campagnelab.metar.r.stubs)</dependency>
   </dependencies>
   <usedDevKits>
     <usedDevKit>8a3636fa-c6ec-4cb0-bc2a-b7143f2a4937(org.campagnelab.metaR)</usedDevKit>
@@ -29,7 +30,6 @@
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" fqName="jetbrains.mps.lang.structure" version="1" />
     <language id="9ded098b-ad6a-4657-bfd9-48636cfe8bc3" fqName="jetbrains.mps.lang.traceable" version="0" />
     <language id="a60f536b-19c3-48f3-a662-0aa30b245913" fqName="org.campagnelab.editor.images" version="0" />
-    <language id="fa51b48b-022c-4a7d-b685-4030a7571a91" fqName="org.campagnelab.jupyterManager" version="-1" />
     <language id="3b58810c-8431-4bbb-99ea-b4671e02dd13" fqName="org.campagnelab.metar.R" version="1" />
     <language id="7eba6a28-4cc2-47b9-a392-284573f2054a" fqName="org.campagnelab.metar.R.access" version="0" />
     <language id="837afec3-cff0-45b1-a221-6b811148f87e" fqName="org.campagnelab.metar.R.gen" version="0" />
@@ -84,6 +84,7 @@
     <module reference="13ba3d61-2e25-42c5-9cb9-f67b16cd444e(org.campagnelab.metar.biomart.web)" version="0" />
     <module reference="040d3459-0033-45bb-b823-4cfd22657c15(org.campagnelab.metar.biomartToR)" version="1" />
     <module reference="32f503e8-061b-451e-bcb0-fef56aa05eb9(org.campagnelab.metar.inspect)" version="0" />
+    <module reference="9c4c21db-948a-44c6-8d32-16dd401e98b0(org.campagnelab.metar.r.stubs)" version="0" />
     <module reference="5d6bde84-4ce4-4eb5-a37e-25a5edd55129(org.campagnelab.metar.tables)" version="0" />
     <module reference="af754813-06c7-4cd1-8f24-cc91ec8e5d34(org.campagnelab.metar.with.r)" version="0" />
     <module reference="5ec1cd3d-0a50-4049-a8fa-ae768d7baa25(org.campagnelab.mps.XChart)" version="0" />

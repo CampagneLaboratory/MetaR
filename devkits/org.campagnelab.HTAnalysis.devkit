@@ -13,7 +13,6 @@
   <exported-language name="3b58810c-8431-4bbb-99ea-b4671e02dd13(org.campagnelab.metar.R)" />
   <exported-language name="a60f536b-19c3-48f3-a662-0aa30b245913(org.campagnelab.editor.images)" />
   <exported-language name="7eba6a28-4cc2-47b9-a392-284573f2054a(org.campagnelab.metar.R.access)" />
-  <exported-language name="fa51b48b-022c-4a7d-b685-4030a7571a91(org.campagnelab.jupyterManager)" />
   <exported-solutions>
     <exported-solution>2cd6da35-9171-4bb6-b128-f369f4c02f48(org.campagnelab.runR)</exported-solution>
     <exported-solution>d99339ed-76f8-45c0-bf5f-697b98ae6a17(org.campagnelab.editor.listeners.plugin)</exported-solution>
