@@ -12,7 +12,12 @@
     <use id="a247e09e-2435-45ba-b8d2-07e93feba96a" name="jetbrains.mps.baseLanguage.tuples" version="-1" />
     <use id="774bf8a0-62e5-41e1-af63-f4812e60e48b" name="jetbrains.mps.baseLanguage.checkedDots" version="-1" />
     <use id="982eb8df-2c96-4bd7-9963-11712ea622e5" name="jetbrains.mps.lang.resources" version="-1" />
+    <use id="daafa647-f1f7-4b0b-b096-69cd7c8408c0" name="jetbrains.mps.baseLanguage.regexp" version="-1" />
     <use id="f3347d8a-0e79-4f35-8ac9-1574f25c986f" name="jetbrains.mps.execution.commands" version="-1" />
+    <use id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior" version="-1" />
+    <use id="3a13115c-633c-4c5c-bbcc-75c4219e9555" name="jetbrains.mps.lang.quotation" version="-1" />
+    <use id="d7a92d38-f7db-40d0-8431-763b0c3c9f20" name="jetbrains.mps.lang.intentions" version="-1" />
+    <use id="13744753-c81f-424a-9c1b-cf8943bf4e86" name="jetbrains.mps.lang.sharedConcepts" version="-1" />
   </languages>
   <imports>
     <import index="hfuk" ref="r:b25dd364-bc3f-4a66-97d1-262009610c5e(jetbrains.mps.make)" />
@@ -351,7 +356,7 @@
         <child id="1068580123161" name="ifTrue" index="3clFbx" />
         <child id="1206060520071" name="elsifClauses" index="3eNLev" />
       </concept>
-      <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
+      <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
       </concept>
       <concept id="1068580123137" name="jetbrains.mps.baseLanguage.structure.BooleanConstant" flags="nn" index="3clFbT">
@@ -6470,8 +6475,8 @@
         <node concept="3clFbF" id="2dEHq9Q_kAA" role="3cqZAp">
           <node concept="2OqwBi" id="2dEHq9Q_kAC" role="3clFbG">
             <node concept="2YIFZM" id="2dEHq9Q_kAD" role="2Oq$k0">
-              <ref role="1Pybhc" node="6VVAk3ix2zR" resolve="MessageManager" />
               <ref role="37wK5l" node="asFbg5lNxS" resolve="getInstance" />
+              <ref role="1Pybhc" node="6VVAk3ix2zR" resolve="MessageManager" />
             </node>
             <node concept="liA8E" id="2dEHq9Q_kAE" role="2OqNvi">
               <ref role="37wK5l" node="5$yUzN070mG" resolve="removeNewMessageListener" />
@@ -7826,11 +7831,11 @@
         <node concept="3cpWs8" id="70iH0fuDDkm" role="3cqZAp">
           <node concept="3cpWsn" id="70iH0fuDDkn" role="3cpWs9">
             <property role="TrG5h" value="actionDeclaration" />
-            <node concept="3Tqbb2" id="70iH0fuDDko" role="1tU5fm">
-              <ref role="ehGHo" to="tp4k:hwsE7KS" resolve="ActionDeclaration" />
-            </node>
             <node concept="3B5_sB" id="70iH0fuDDkp" role="33vP2m">
               <ref role="3B5MYn" node="2PDL853KFoB" resolve="InstantRefreshDirectExecution" />
+            </node>
+            <node concept="3Tqbb2" id="70iH0fuDDko" role="1tU5fm">
+              <ref role="ehGHo" to="tp4k:hwsE7KS" resolve="ActionDeclaration" />
             </node>
           </node>
         </node>
@@ -10439,8 +10444,8 @@
         <node concept="3clFbF" id="3zqZiqBPZ0g" role="3cqZAp">
           <node concept="2OqwBi" id="3zqZiqBPZ0h" role="3clFbG">
             <node concept="2YIFZM" id="3zqZiqBPZ0i" role="2Oq$k0">
-              <ref role="1Pybhc" node="6VVAk3ix2zR" resolve="MessageManager" />
               <ref role="37wK5l" node="asFbg5lNxS" resolve="getInstance" />
+              <ref role="1Pybhc" node="6VVAk3ix2zR" resolve="MessageManager" />
             </node>
             <node concept="liA8E" id="3zqZiqBPZ0j" role="2OqNvi">
               <ref role="37wK5l" node="2ZZbyE_yfzM" resolve="amendMessage" />
