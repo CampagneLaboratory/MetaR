@@ -6535,16 +6535,6 @@
                     <node concept="pncrf" id="1WgtElVQfhJ" role="2Oq$k0" />
                     <node concept="2qgKlT" id="1WgtElVQfhK" role="2OqNvi">
                       <ref role="37wK5l" to="v8sa:6$xxyeHtzvr" resolve="getPath" />
-                      <node concept="2YIFZM" id="55a1UmAgrex" role="37wK5m">
-                        <ref role="37wK5l" to="alof:~ProjectHelper.getProject(org.jetbrains.mps.openapi.module.SRepository):jetbrains.mps.project.Project" resolve="getProject" />
-                        <ref role="1Pybhc" to="alof:~ProjectHelper" resolve="ProjectHelper" />
-                        <node concept="2OqwBi" id="55a1UmAgqGZ" role="37wK5m">
-                          <node concept="1Q80Hx" id="55a1UmAgqDA" role="2Oq$k0" />
-                          <node concept="liA8E" id="55a1UmAgqNo" role="2OqNvi">
-                            <ref role="37wK5l" to="cj4x:~EditorContext.getRepository():org.jetbrains.mps.openapi.module.SRepository" resolve="getRepository" />
-                          </node>
-                        </node>
-                      </node>
                     </node>
                   </node>
                 </node>
@@ -6646,16 +6636,6 @@
                   <node concept="pncrf" id="2YRQibUAtDh" role="2Oq$k0" />
                   <node concept="2qgKlT" id="2YRQibUAtDi" role="2OqNvi">
                     <ref role="37wK5l" to="v8sa:6$xxyeHtzvr" resolve="getPath" />
-                    <node concept="2YIFZM" id="2YRQibUAtDj" role="37wK5m">
-                      <ref role="37wK5l" to="alof:~ProjectHelper.getProject(org.jetbrains.mps.openapi.module.SRepository):jetbrains.mps.project.Project" resolve="getProject" />
-                      <ref role="1Pybhc" to="alof:~ProjectHelper" resolve="ProjectHelper" />
-                      <node concept="2OqwBi" id="2YRQibUAtDk" role="37wK5m">
-                        <node concept="1Q80Hx" id="2YRQibUAtDl" role="2Oq$k0" />
-                        <node concept="liA8E" id="2YRQibUAtDm" role="2OqNvi">
-                          <ref role="37wK5l" to="cj4x:~EditorContext.getRepository():org.jetbrains.mps.openapi.module.SRepository" resolve="getRepository" />
-                        </node>
-                      </node>
-                    </node>
                   </node>
                 </node>
               </node>

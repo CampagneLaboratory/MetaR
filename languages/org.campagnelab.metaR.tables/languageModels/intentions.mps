@@ -3169,17 +3169,6 @@
                 <node concept="2Sf5sV" id="52J4nYvLguB" role="2Oq$k0" />
                 <node concept="2qgKlT" id="52J4nYvLguC" role="2OqNvi">
                   <ref role="37wK5l" to="n1uf:7klrZ4rJNMW" resolve="getResultsDir" />
-                  <node concept="2OqwBi" id="52J4nYvLguD" role="37wK5m">
-                    <node concept="2OqwBi" id="52J4nYvLguE" role="2Oq$k0">
-                      <node concept="1XNTG" id="52J4nYvLguF" role="2Oq$k0" />
-                      <node concept="liA8E" id="52J4nYvLguG" role="2OqNvi">
-                        <ref role="37wK5l" to="cj4x:~EditorContext.getOperationContext():jetbrains.mps.smodel.IOperationContext" resolve="getOperationContext" />
-                      </node>
-                    </node>
-                    <node concept="liA8E" id="52J4nYvLguH" role="2OqNvi">
-                      <ref role="37wK5l" to="w1kc:~IOperationContext.getProject():jetbrains.mps.project.Project" resolve="getProject" />
-                    </node>
-                  </node>
                 </node>
               </node>
               <node concept="2OqwBi" id="52J4nYvMOQ1" role="37wK5m">
@@ -3236,17 +3225,6 @@
                 <node concept="2Sf5sV" id="52J4nYvL4Yf" role="2Oq$k0" />
                 <node concept="2qgKlT" id="52J4nYvL5bA" role="2OqNvi">
                   <ref role="37wK5l" to="n1uf:7klrZ4rJNMW" resolve="getResultsDir" />
-                  <node concept="2OqwBi" id="52J4nYvL5pI" role="37wK5m">
-                    <node concept="2OqwBi" id="52J4nYvL5gJ" role="2Oq$k0">
-                      <node concept="1XNTG" id="52J4nYvL5eV" role="2Oq$k0" />
-                      <node concept="liA8E" id="52J4nYvL5lF" role="2OqNvi">
-                        <ref role="37wK5l" to="cj4x:~EditorContext.getOperationContext():jetbrains.mps.smodel.IOperationContext" resolve="getOperationContext" />
-                      </node>
-                    </node>
-                    <node concept="liA8E" id="52J4nYvL5v0" role="2OqNvi">
-                      <ref role="37wK5l" to="w1kc:~IOperationContext.getProject():jetbrains.mps.project.Project" resolve="getProject" />
-                    </node>
-                  </node>
                 </node>
               </node>
               <node concept="2OqwBi" id="52J4nYvMOxE" role="37wK5m">

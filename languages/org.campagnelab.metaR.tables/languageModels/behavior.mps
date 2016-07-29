@@ -6515,12 +6515,6 @@
       <property role="13i0iv" value="false" />
       <property role="13i0it" value="false" />
       <property role="TrG5h" value="getPath" />
-      <node concept="37vLTG" id="55a1UmAccAn" role="3clF46">
-        <property role="TrG5h" value="mpsProject" />
-        <node concept="3uibUv" id="55a1UmAgj$h" role="1tU5fm">
-          <ref role="3uigEE" to="z1c3:~Project" resolve="Project" />
-        </node>
-      </node>
       <node concept="3Tm1VV" id="55a1UmAntc_" role="1B3o_S" />
       <node concept="3clFbS" id="55a1UmAntcA" role="3clF47">
         <node concept="3cpWs6" id="55a1UmAntcR" role="3cqZAp">
@@ -20343,9 +20337,6 @@
                   </node>
                   <node concept="2qgKlT" id="2WBVyJt2rKv" role="2OqNvi">
                     <ref role="37wK5l" to="n1uf:7klrZ4rJNMW" resolve="getResultsDir" />
-                    <node concept="37vLTw" id="55a1UmAgojD" role="37wK5m">
-                      <ref role="3cqZAo" node="55a1UmAgocr" resolve="mpsProject" />
-                    </node>
                   </node>
                 </node>
                 <node concept="10M0yZ" id="2WBVyJt2trL" role="3uHU7w">
@@ -20372,12 +20363,6 @@
               <ref role="37wK5l" to="eoo2:~Path.toString():java.lang.String" resolve="toString" />
             </node>
           </node>
-        </node>
-      </node>
-      <node concept="37vLTG" id="55a1UmAgocr" role="3clF46">
-        <property role="TrG5h" value="mpsProject" />
-        <node concept="3uibUv" id="55a1UmAgocq" role="1tU5fm">
-          <ref role="3uigEE" to="z1c3:~Project" resolve="Project" />
         </node>
       </node>
     </node>
@@ -21838,11 +21823,8 @@
                       <node concept="37vLTw" id="2xF4TVcGGnr" role="2Oq$k0">
                         <ref role="3cqZAo" node="2xF4TVcGGn4" resolve="root" />
                       </node>
-                      <node concept="2qgKlT" id="2xF4TVcGGns" role="2OqNvi">
+                      <node concept="2qgKlT" id="1e0sE7P4PJd" role="2OqNvi">
                         <ref role="37wK5l" to="n1uf:7klrZ4rJNMW" resolve="getResultsDir" />
-                        <node concept="37vLTw" id="2xF4TVcGGnt" role="37wK5m">
-                          <ref role="3cqZAo" node="2xF4TVcGGn_" resolve="mpsProject" />
-                        </node>
                       </node>
                     </node>
                     <node concept="10M0yZ" id="2xF4TVcGGnu" role="3uHU7w">
@@ -21870,12 +21852,6 @@
         </node>
       </node>
       <node concept="17QB3L" id="2xF4TVcGGn$" role="3clF45" />
-      <node concept="37vLTG" id="2xF4TVcGGn_" role="3clF46">
-        <property role="TrG5h" value="mpsProject" />
-        <node concept="3uibUv" id="2xF4TVcGGnA" role="1tU5fm">
-          <ref role="3uigEE" to="z1c3:~Project" resolve="Project" />
-        </node>
-      </node>
     </node>
     <node concept="13i0hz" id="2xF4TVcGGnB" role="13h7CS">
       <property role="TrG5h" value="getCleanModelName" />
