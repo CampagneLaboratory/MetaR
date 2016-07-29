@@ -40,7 +40,6 @@
       <concept id="1081236700937" name="jetbrains.mps.baseLanguage.structure.StaticMethodCall" flags="nn" index="2YIFZM">
         <reference id="1144433194310" name="classConcept" index="1Pybhc" />
       </concept>
-      <concept id="1070534058343" name="jetbrains.mps.baseLanguage.structure.NullLiteral" flags="nn" index="10Nm6u" />
       <concept id="1068431474542" name="jetbrains.mps.baseLanguage.structure.VariableDeclaration" flags="ng" index="33uBYm">
         <child id="1068431790190" name="initializer" index="33vP2m" />
       </concept>
@@ -2037,7 +2036,6 @@
               <node concept="117lpO" id="2xF4TVcGFXV" role="2Oq$k0" />
               <node concept="2qgKlT" id="2xF4TVcGH5K" role="2OqNvi">
                 <ref role="37wK5l" to="v8sa:2xF4TVcGGn0" resolve="getSessionPath" />
-                <node concept="10Nm6u" id="2xF4TVcLNnV" role="37wK5m" />
               </node>
             </node>
           </node>

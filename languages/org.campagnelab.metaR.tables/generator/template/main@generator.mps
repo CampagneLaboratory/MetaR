@@ -1246,12 +1246,6 @@
                       <node concept="30H73N" id="7d3kpy2lQWx" role="2Oq$k0" />
                       <node concept="2qgKlT" id="55a1UmAnuM6" role="2OqNvi">
                         <ref role="37wK5l" to="v8sa:55a1UmAntc$" resolve="getPath" />
-                        <node concept="2OqwBi" id="55a1UmAnv52" role="37wK5m">
-                          <node concept="1Q79dO" id="55a1UmAnuVj" role="2Oq$k0" />
-                          <node concept="liA8E" id="55a1UmAnvcx" role="2OqNvi">
-                            <ref role="37wK5l" to="w1kc:~IOperationContext.getProject():jetbrains.mps.project.Project" resolve="getProject" />
-                          </node>
-                        </node>
                       </node>
                     </node>
                   </node>
@@ -8449,12 +8443,6 @@
                       <node concept="30H73N" id="5OllgZoNjcN" role="2Oq$k0" />
                       <node concept="2qgKlT" id="5OllgZoNjnO" role="2OqNvi">
                         <ref role="37wK5l" to="n1uf:5OllgZoNaKA" resolve="getLocalMetaRLibsFolder" />
-                        <node concept="2OqwBi" id="55a1UmAcc3e" role="37wK5m">
-                          <node concept="1Q79dO" id="55a1UmAcc1o" role="2Oq$k0" />
-                          <node concept="liA8E" id="55a1UmAcc7v" role="2OqNvi">
-                            <ref role="37wK5l" to="w1kc:~IOperationContext.getProject():jetbrains.mps.project.Project" resolve="getProject" />
-                          </node>
-                        </node>
                       </node>
                     </node>
                   </node>
@@ -18096,12 +18084,6 @@
                             <node concept="30H73N" id="5NwG7t5mGZr" role="2Oq$k0" />
                             <node concept="2qgKlT" id="5NwG7t5mGZs" role="2OqNvi">
                               <ref role="37wK5l" to="v8sa:6$xxyeHtzvr" resolve="getPath" />
-                              <node concept="2OqwBi" id="55a1UmAgsh4" role="37wK5m">
-                                <node concept="1Q79dO" id="55a1UmAgsh5" role="2Oq$k0" />
-                                <node concept="liA8E" id="55a1UmAgsh6" role="2OqNvi">
-                                  <ref role="37wK5l" to="w1kc:~IOperationContext.getProject():jetbrains.mps.project.Project" resolve="getProject" />
-                                </node>
-                              </node>
                             </node>
                           </node>
                         </node>
@@ -18139,12 +18121,6 @@
                             <node concept="30H73N" id="Bd5Iv0ZW0G" role="2Oq$k0" />
                             <node concept="2qgKlT" id="Bd5Iv0ZW0H" role="2OqNvi">
                               <ref role="37wK5l" to="v8sa:6$xxyeHtzvr" resolve="getPath" />
-                              <node concept="2OqwBi" id="55a1UmAgs0M" role="37wK5m">
-                                <node concept="1Q79dO" id="55a1UmAgrHF" role="2Oq$k0" />
-                                <node concept="liA8E" id="55a1UmAgsbK" role="2OqNvi">
-                                  <ref role="37wK5l" to="w1kc:~IOperationContext.getProject():jetbrains.mps.project.Project" resolve="getProject" />
-                                </node>
-                              </node>
                             </node>
                           </node>
                         </node>
@@ -18774,12 +18750,6 @@
                             <node concept="30H73N" id="5lDNWrKbSss" role="2Oq$k0" />
                             <node concept="2qgKlT" id="5lDNWrKbSst" role="2OqNvi">
                               <ref role="37wK5l" to="v8sa:6$xxyeHtzvr" resolve="getPath" />
-                              <node concept="2OqwBi" id="55a1UmAgsiH" role="37wK5m">
-                                <node concept="1Q79dO" id="55a1UmAgsiI" role="2Oq$k0" />
-                                <node concept="liA8E" id="55a1UmAgsiJ" role="2OqNvi">
-                                  <ref role="37wK5l" to="w1kc:~IOperationContext.getProject():jetbrains.mps.project.Project" resolve="getProject" />
-                                </node>
-                              </node>
                             </node>
                           </node>
                         </node>
@@ -18873,12 +18843,6 @@
                             <node concept="30H73N" id="Bd5Iv141LH" role="2Oq$k0" />
                             <node concept="2qgKlT" id="Bd5Iv141LI" role="2OqNvi">
                               <ref role="37wK5l" to="v8sa:6$xxyeHtzvr" resolve="getPath" />
-                              <node concept="2OqwBi" id="55a1UmAgsyi" role="37wK5m">
-                                <node concept="1Q79dO" id="55a1UmAgsyj" role="2Oq$k0" />
-                                <node concept="liA8E" id="55a1UmAgsyk" role="2OqNvi">
-                                  <ref role="37wK5l" to="w1kc:~IOperationContext.getProject():jetbrains.mps.project.Project" resolve="getProject" />
-                                </node>
-                              </node>
                             </node>
                           </node>
                         </node>
@@ -19261,12 +19225,6 @@
                       <node concept="30H73N" id="26cpLhjK8tn" role="2Oq$k0" />
                       <node concept="2qgKlT" id="26cpLhjK8to" role="2OqNvi">
                         <ref role="37wK5l" to="v8sa:2xF4TVcGGn0" resolve="getSessionPath" />
-                        <node concept="2OqwBi" id="26cpLhjK8tp" role="37wK5m">
-                          <node concept="1Q79dO" id="26cpLhjK8tq" role="2Oq$k0" />
-                          <node concept="liA8E" id="26cpLhjK8tr" role="2OqNvi">
-                            <ref role="37wK5l" to="w1kc:~IOperationContext.getProject():jetbrains.mps.project.Project" resolve="getProject" />
-                          </node>
-                        </node>
                       </node>
                     </node>
                   </node>
@@ -19444,12 +19402,6 @@
                   <node concept="30H73N" id="26cpLhjK7b4" role="2Oq$k0" />
                   <node concept="2qgKlT" id="26cpLhjK7b5" role="2OqNvi">
                     <ref role="37wK5l" to="v8sa:2xF4TVcGGn0" resolve="getSessionPath" />
-                    <node concept="2OqwBi" id="26cpLhjK7b6" role="37wK5m">
-                      <node concept="1Q79dO" id="26cpLhjK7b7" role="2Oq$k0" />
-                      <node concept="liA8E" id="26cpLhjK7b8" role="2OqNvi">
-                        <ref role="37wK5l" to="w1kc:~IOperationContext.getProject():jetbrains.mps.project.Project" resolve="getProject" />
-                      </node>
-                    </node>
                   </node>
                 </node>
               </node>
