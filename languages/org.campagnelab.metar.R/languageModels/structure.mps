@@ -1318,5 +1318,11 @@
       <ref role="PrY4T" to="jrxw:2xF4TVcGGmU" resolve="ISessionStatement" />
     </node>
   </node>
+  <node concept="1TIwiD" id="1e0sE7PoAUb">
+    <property role="1pbfSe" value="149086508" />
+    <property role="TrG5h" value="PauseInstantRefresh" />
+    <property role="34LRSv" value="pause instant refresh" />
+    <ref role="1TJDcQ" node="5mPDeVwiPap" resolve="Expr" />
+  </node>
 </model>
 

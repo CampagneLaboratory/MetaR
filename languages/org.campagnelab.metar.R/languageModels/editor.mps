@@ -2638,5 +2638,11 @@
       <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
     </node>
   </node>
+  <node concept="24kQdi" id="1e0sE7PoAUi">
+    <ref role="1XX52x" to="6q58:1e0sE7PoAUb" resolve="PauseInstantRefresh" />
+    <node concept="PMmxH" id="1e0sE7PoAUk" role="2wV5jI">
+      <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
+    </node>
+  </node>
 </model>
 
