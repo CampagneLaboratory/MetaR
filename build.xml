@@ -160,6 +160,7 @@
           <module ref="34e84b8f-afa8-4364-abcd-a279fddddbe7(jetbrains.mps.editor.runtime)" />
           <module ref="d936855b-48da-4812-a8a0-2bfddd633ac5(jetbrains.mps.lang.behavior.api)" />
           <module ref="d936855b-48da-4812-a8a0-2bfddd633ac4(jetbrains.mps.lang.behavior.runtime)" />
+          <module ref="d7eb0a2a-bd50-4576-beae-e4a89db35f20(jetbrains.mps.lang.scopes.runtime)" />
           <module ref="8fe4c62a-2020-4ff4-8eda-f322a55bdc9f(jetbrains.mps.refactoring.runtime)" />
           <module ref="9a4afe51-f114-4595-b5df-048ce3c596be(jetbrains.mps.runtime)" />
         </dependencies>
@@ -920,9 +921,11 @@
           <module ref="d44dab97-aaac-44cb-9745-8a14db674c03(jetbrains.mps.baseLanguage.tuples.runtime)" />
           <module ref="2af156ab-65c1-4a62-bd0d-ea734f71eab6(jetbrains.mps.dataFlow.runtime)" />
           <module ref="34e84b8f-afa8-4364-abcd-a279fddddbe7(jetbrains.mps.editor.runtime)" />
+          <module ref="2d3c70e9-aab2-4870-8d8d-6036800e4103(jetbrains.mps.kernel)" />
           <module ref="d936855b-48da-4812-a8a0-2bfddd633ac5(jetbrains.mps.lang.behavior.api)" />
           <module ref="d936855b-48da-4812-a8a0-2bfddd633ac4(jetbrains.mps.lang.behavior.runtime)" />
           <module ref="528ff3b9-5fc4-40dd-931f-c6ce3650640e(jetbrains.mps.lang.migration.runtime)" />
+          <module ref="d7eb0a2a-bd50-4576-beae-e4a89db35f20(jetbrains.mps.lang.scopes.runtime)" />
           <module ref="8fe4c62a-2020-4ff4-8eda-f322a55bdc9f(jetbrains.mps.refactoring.runtime)" />
           <module ref="9a4afe51-f114-4595-b5df-048ce3c596be(jetbrains.mps.runtime)" />
         </dependencies>
@@ -1243,7 +1246,9 @@
           <module ref="23949432-aaff-4c03-b7da-26e4e956ccea(jetbrains.mps.baseLanguage.regexp.runtime)" />
           <module ref="d44dab97-aaac-44cb-9745-8a14db674c03(jetbrains.mps.baseLanguage.tuples.runtime)" />
           <module ref="a8de7923-dc6f-4aa1-b8a9-2d19ffee3edd(jetbrains.mps.console)" />
+          <module ref="cc7da2f6-419f-4133-a811-31fcd3295a85(jetbrains.mps.debugger.api.api)" />
           <module ref="36c11d2d-1875-4a95-8bdb-70ea1ac63222(jetbrains.mps.execution.api)" />
+          <module ref="365fb593-3c1a-40a0-a7d7-c98144281283(jetbrains.mps.execution.impl)" />
           <module ref="2d3c70e9-aab2-4870-8d8d-6036800e4103(jetbrains.mps.kernel)" />
           <module ref="d936855b-48da-4812-a8a0-2bfddd633ac5(jetbrains.mps.lang.behavior.api)" />
           <module ref="d936855b-48da-4812-a8a0-2bfddd633ac4(jetbrains.mps.lang.behavior.runtime)" />
@@ -1624,6 +1629,58 @@
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.metar.R.inspect-generator-template" prefix="module/generator/template" />
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.metar.R.inspect-models" prefix="module/models" />
     </jar>
+    <mkdir dir="${build.tmp}/default/org.campagnelab.metar.r.metar.jar" />
+    <mkdir dir="${build.tmp}/default/org.campagnelab.metar.r.metar.jar/META-INF" />
+    <echoxml file="${build.tmp}/default/org.campagnelab.metar.r.metar.jar/META-INF/module.xml">
+      <module namespace="org.campagnelab.metar.r.metar" type="language" uuid="e4bb94f9-1202-448e-98f6-d108577add14">
+        <dependencies>
+          <module ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)" />
+          <module ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea(MPS.Core)" />
+          <module ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224(MPS.Editor)" />
+          <module ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34(MPS.OpenAPI)" />
+          <module ref="4c6a28d1-2c60-478d-b36e-db9b3cbb21fb(closures.runtime)" />
+          <module ref="9b80526e-f0bf-4992-bdf5-cee39c1833f3(collections.runtime)" />
+          <module ref="a3e4657f-a76c-45bb-bbda-c764596ecc65(jetbrains.mps.baseLanguage.logging.runtime)" />
+          <module ref="d44dab97-aaac-44cb-9745-8a14db674c03(jetbrains.mps.baseLanguage.tuples.runtime)" />
+          <module ref="2af156ab-65c1-4a62-bd0d-ea734f71eab6(jetbrains.mps.dataFlow.runtime)" />
+          <module ref="34e84b8f-afa8-4364-abcd-a279fddddbe7(jetbrains.mps.editor.runtime)" />
+          <module ref="d936855b-48da-4812-a8a0-2bfddd633ac5(jetbrains.mps.lang.behavior.api)" />
+          <module ref="d936855b-48da-4812-a8a0-2bfddd633ac4(jetbrains.mps.lang.behavior.runtime)" />
+          <module ref="8fe4c62a-2020-4ff4-8eda-f322a55bdc9f(jetbrains.mps.refactoring.runtime)" />
+          <module ref="9a4afe51-f114-4595-b5df-048ce3c596be(jetbrains.mps.runtime)" />
+          <module ref="9c4c21db-948a-44c6-8d32-16dd401e98b0(org.campagnelab.metar.r.stubs)" />
+        </dependencies>
+        <sources jar="org.campagnelab.metar.r.metar-src.jar" descriptor="org.campagnelab.metar.r.metar.mpl" />
+      </module>
+    </echoxml>
+    <jar destfile="${build.tmp}/default/metaR__dl__lbrace_metaR_version_rbrace_.zip/metaR/languages/metaR.R/org.campagnelab.metar.r.metar.jar" duplicate="preserve">
+      <fileset dir="${build.tmp}/java/out/org.campagnelab.metar.r.metar" />
+      <fileset dir="${basedir}/languages/org.campagnelab.metar.r.metar" includes="icons/**, resources/**" />
+      <fileset dir="${basedir}/languages/org.campagnelab.metar.r.metar/source_gen" includes="**/trace.info, **/exports" />
+      <fileset dir="${build.tmp}/default/org.campagnelab.metar.r.metar.jar" />
+    </jar>
+    <jar destfile="${build.tmp}/default/metaR__dl__lbrace_metaR_version_rbrace_.zip/metaR/languages/metaR.R/org.campagnelab.metar.r.metar-generator.jar" duplicate="preserve">
+      <fileset dir="${build.tmp}/java/out/org.campagnelab.metar.r.metar#1874908579736597228" />
+    </jar>
+    <copyModels todir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.metar.r.metar-generator-template">
+      <fileset dir="${basedir}/languages/org.campagnelab.metar.r.metar/generator/template" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
+    </copyModels>
+    <copyModels todir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.metar.r.metar-models">
+      <fileset dir="${basedir}/languages/org.campagnelab.metar.r.metar/models" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
+    </copyModels>
+    <jar destfile="${build.tmp}/default/metaR__dl__lbrace_metaR_version_rbrace_.zip/metaR/languages/metaR.R/org.campagnelab.metar.r.metar-src.jar" duplicate="preserve">
+      <fileset dir="${basedir}/languages/org.campagnelab.metar.r.metar/generator/source_gen">
+        <exclude name="**/trace.info" />
+        <exclude name="**/exports" />
+      </fileset>
+      <fileset dir="${basedir}/languages/org.campagnelab.metar.r.metar/source_gen">
+        <exclude name="**/trace.info" />
+        <exclude name="**/exports" />
+      </fileset>
+      <zipfileset file="${basedir}/languages/org.campagnelab.metar.r.metar/org.campagnelab.metar.r.metar.mpl" prefix="module" />
+      <zipfileset dir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.metar.r.metar-generator-template" prefix="module/generator/template" />
+      <zipfileset dir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.metar.r.metar-models" prefix="module/models" />
+    </jar>
     <mkdir dir="${build.tmp}/default/metaR__dl__lbrace_metaR_version_rbrace_.zip/metaR/lib" />
     <jar destfile="${build.tmp}/default/metaR__dl__lbrace_metaR_version_rbrace_.zip/metaR/lib/icons.jar" duplicate="preserve">
       <fileset file="${org.campagnelab.goby.workbench.home}/icons/MPS16.png" />
@@ -1687,7 +1744,7 @@
     <delete dir="${build.layout}" />
   </target>
   
-  <target name="compileJava" depends="java.compile.java.modules.cycle.1, java.compile.org.campagnelab.metar.R.access, java.compile.org.campagnelab.metar.R.access#3205023063891099062, java.compile.org.campagnelab.metar.R, java.compile.org.campagnelab.metar.R#7627187573640569363, java.compile.org.campagnelab.metar.R.gen, java.compile.org.campagnelab.metar.r.parsers, java.compile.org.campagnelab.metar.r.stubs, java.compile.org.campagnelab.metar.R.plugin, java.compile.org.campagnelab.metar.functions.access, java.compile.org.campagnelab.metar.functions.access#1127749446836988002, java.compile.org.campagnelab.metar.R.inspect, java.compile.org.campagnelab.metar.R.inspect#4156558924941055313, java.compile.org.campagnelab.metar.models, java.compile.org.campagnelab.metar.models#5124039371743718191, java.compile.org.campagnelab.metar.code, java.compile.org.campagnelab.metar.code#6287645532292043083, java.compile.org.campagnelab.metar.functions.importing, java.compile.org.campagnelab.metar.functions.importing#8788797393879438827, java.compile.org.campagnelab.styles, java.compile.org.campagnelab.metar.tables, java.compile.org.campagnelab.metar.tables#3402264987258972825, java.compile.org.campagnelab.metar.edgeR, java.compile.org.campagnelab.metar.edgeR#8725455673819557209, java.compile.org.campagnelab.editor.listeners.plugin, java.compile.org.campagnelab.editor.images, java.compile.org.campagnelab.editor.images#1813939192108407208, java.compile.org.campagnelab.runR, java.compile.org.campagnelab.metar.accessories, java.compile.org.campagnelab.metar.accessories#8434387403773304096, java.compile.org.campagnelab.metar.inspect, java.compile.org.campagnelab.metar.inspect#1549006859295776220, java.compile.org.campagnelab.editor.csvviewer, java.compile.org.campagnelab.metar.limma, java.compile.org.campagnelab.metar.limma#5124039371745995804, java.compile.org.campagnelab.editor.plugins, java.compile.org.campagnelab.metar.simulation, java.compile.org.campagnelab.metar.simulation#2432807068409409065, java.compile.org.campagnelab.metar.biomart, java.compile.org.campagnelab.metar.biomart#3821621700600503340, java.compile.org.campagnelab.metar.biomartToR, java.compile.org.campagnelab.metar.biomartToR#548072407388513535, java.compile.org.campagnelab.metar.biomart.web, java.compile.org.campagnelab.metar.with.r, java.compile.org.campagnelab.metar.with.r#6508763087478316420, java.compile.org.campagnelab.metar.sleuth, java.compile.org.campagnelab.metar.sleuth#3554287509434082151, java.compile.org.campagnelab.metar.plots, java.compile.org.campagnelab.metar.plots#3813864828777690547, java.compile.org.campagnelab.jupyterManager, java.compile.org.campagnelab.jupyterManager#7780617006129537270, java.compile.org.campagnelab.jupyterManager.plugin" />
+  <target name="compileJava" depends="java.compile.java.modules.cycle.1, java.compile.org.campagnelab.metar.R.access, java.compile.org.campagnelab.metar.R.access#3205023063891099062, java.compile.java.modules.cycle.2, java.compile.org.campagnelab.metar.R, java.compile.org.campagnelab.metar.R#7627187573640569363, java.compile.org.campagnelab.metar.R.gen, java.compile.org.campagnelab.metar.r.parsers, java.compile.org.campagnelab.metar.r.stubs, java.compile.org.campagnelab.metar.R.plugin, java.compile.org.campagnelab.metar.functions.access, java.compile.org.campagnelab.metar.functions.access#1127749446836988002, java.compile.org.campagnelab.metar.R.inspect, java.compile.org.campagnelab.metar.R.inspect#4156558924941055313, java.compile.org.campagnelab.metar.r.metar, java.compile.org.campagnelab.metar.r.metar#1874908579736597228, java.compile.org.campagnelab.metar.models, java.compile.org.campagnelab.metar.models#5124039371743718191, java.compile.org.campagnelab.metar.code, java.compile.org.campagnelab.metar.code#6287645532292043083, java.compile.org.campagnelab.metar.functions.importing, java.compile.org.campagnelab.metar.functions.importing#8788797393879438827, java.compile.org.campagnelab.styles, java.compile.org.campagnelab.metar.tables, java.compile.org.campagnelab.metar.tables#3402264987258972825, java.compile.org.campagnelab.metar.edgeR, java.compile.org.campagnelab.metar.edgeR#8725455673819557209, java.compile.org.campagnelab.editor.listeners.plugin, java.compile.org.campagnelab.editor.images, java.compile.org.campagnelab.editor.images#1813939192108407208, java.compile.org.campagnelab.runR, java.compile.org.campagnelab.metar.accessories, java.compile.org.campagnelab.metar.accessories#8434387403773304096, java.compile.org.campagnelab.metar.inspect, java.compile.org.campagnelab.metar.inspect#1549006859295776220, java.compile.org.campagnelab.editor.csvviewer, java.compile.org.campagnelab.metar.limma, java.compile.org.campagnelab.metar.limma#5124039371745995804, java.compile.org.campagnelab.editor.plugins, java.compile.org.campagnelab.metar.simulation, java.compile.org.campagnelab.metar.simulation#2432807068409409065, java.compile.org.campagnelab.metar.biomart, java.compile.org.campagnelab.metar.biomart#3821621700600503340, java.compile.org.campagnelab.metar.biomartToR, java.compile.org.campagnelab.metar.biomartToR#548072407388513535, java.compile.org.campagnelab.metar.biomart.web, java.compile.org.campagnelab.metar.with.r, java.compile.org.campagnelab.metar.with.r#6508763087478316420, java.compile.org.campagnelab.metar.sleuth, java.compile.org.campagnelab.metar.sleuth#3554287509434082151, java.compile.org.campagnelab.metar.plots, java.compile.org.campagnelab.metar.plots#3813864828777690547, java.compile.org.campagnelab.jupyterManager, java.compile.org.campagnelab.jupyterManager#7780617006129537270, java.compile.org.campagnelab.jupyterManager.plugin" />
   
   <target name="processResources" />
   
@@ -1834,11 +1891,8 @@
         <module file="${basedir}/languages/org.campagnelab.jupyterManager/org.campagnelab.jupyterManager.mpl" />
         <module file="${basedir}/solutions/org.campagnelab.jupyterManager.plugin/org.campagnelab.jupyterManager.plugin.msd" />
         <module file="${basedir}/languages/org.campagnelab.metar.R/org.campagnelab.metar.R.mpl" bootstrap="true" />
-        <module file="${basedir}/languages/org.campagnelab.metar.R.access/org.campagnelab.metar.R.access.mpl" />
         <module file="${basedir}/languages/org.campagnelab.metar.R.gen/org.campagnelab.metar.R.gen.mpl" />
         <module file="${basedir}/languages/org.campagnelab.metar.accessories/org.campagnelab.metar.accessories.mpl" />
-        <module file="${basedir}/languages/org.campagnelab.metar.biomart/org.campagnelab.metar.biomart.mpl" bootstrap="true" />
-        <module file="${basedir}/languages/org.campagnelab.metar.MetarToR/org.campagnelab.metar.MetarToR.mpl" bootstrap="true" />
         <module file="${basedir}/languages/org.campagnelab.metar.code/org.campagnelab.metar.code.mpl" />
         <module file="${basedir}/languages/org.campagnelab.metar.functions.importing/org.campagnelab.metar.importing.mpl" bootstrap="true" />
         <module file="${basedir}/languages/org.campagnelab.metaR.inspect/org.campagnelab.metaR.inspect.mpl" bootstrap="true" />
@@ -1851,12 +1905,16 @@
         <module file="${basedir}/devkits/R/org.campagnelab.R.devkit" />
         <module file="${basedir}/solutions/org.campagnelab.editor.plugins/org.campagnelab.editor.plugins.msd" />
         <module file="${basedir}/devkits/org.campagnelab.HTAnalysis.devkit" />
+        <module file="${basedir}/languages/org.campagnelab.metar.R.access/org.campagnelab.metar.R.access.mpl" />
         <module file="${basedir}/languages/org.campagnelab.metar.R.inspect/org.campagnelab.metar.R.inspect.mpl" />
         <module file="${basedir}/solutions/org.campagnelab.metar.R.plugin/org.cmapagnelab.metar.R.plugin.msd" />
+        <module file="${basedir}/languages/org.campagnelab.metar.biomart/org.campagnelab.metar.biomart.mpl" />
+        <module file="${basedir}/languages/org.campagnelab.metar.MetarToR/org.campagnelab.metar.MetarToR.mpl" />
         <module file="${basedir}/languages/org.campagnelab.metar.functions.access/org.campagnelab.metar.functions.access.mpl" />
         <module file="${basedir}/languages/org.campagnelab.metar.limma/org.campagnelab.metar.limma.mpl" />
         <module file="${basedir}/languages/org.campagnelab.metar.models/org.campagnelab.metar.models.mpl" />
         <module file="${basedir}/languages/org.campagnelab.metar.plots/org.campagnelab.metar.plots.mpl" />
+        <module file="${basedir}/languages/org.campagnelab.metar.r.metar/org.campagnelab.metar.r.metar.mpl" />
         <module file="${basedir}/languages/org.campagnelab.metar.simulation/org.campagnelab.metar.simulation.mpl" />
         <module file="${basedir}/languages/org.campagnelab.metar.sleuth/org.campagnelab.metar.sleuth.mpl" />
         <module file="${basedir}/languages/org.campagnelab.metar.with.r/org.campagnelab.metar.with.r.mpl" />
@@ -1880,24 +1938,13 @@
   
   <target name="makeDependents" />
   
-  <target name="java.compile.java.modules.cycle.1" depends="java.compile.org.campagnelab.metar.biomart.web, java.compile.org.campagnelab.styles, java.compile.org.campagnelab.editor.images, java.compile.org.campagnelab.editor.listeners.plugin, fetchDependencies">
+  <target name="java.compile.java.modules.cycle.1" depends="java.compile.org.campagnelab.metar.R, java.compile.org.campagnelab.metar.R.gen, java.compile.org.campagnelab.metar.biomart, java.compile.org.campagnelab.metar.biomart.web, java.compile.org.campagnelab.metar.code, java.compile.org.campagnelab.metar.inspect, java.compile.org.campagnelab.metar.r.stubs, java.compile.org.campagnelab.metar.tables, java.compile.org.campagnelab.styles, fetchDependencies">
     <mkdir dir="${build.tmp}/java.modules.cycle.1" />
     <javac destdir="${build.tmp}/java.modules.cycle.1" fork="true" nowarn="true" includeantruntime="false">
       <compilerarg value="-Xlint:none" />
       <src>
         <path location="${basedir}/languages/org.campagnelab.metar.R.access/source_gen" />
-        <path location="${basedir}/languages/org.campagnelab.metar.R/source_gen" />
-        <path location="${basedir}/languages/org.campagnelab.metar.R.gen/source_gen" />
-        <path location="${basedir}/solutions/org.campagnelab.metar.r.parsers/source_gen" />
-        <path location="${basedir}/solutions/org.campagnelab.metar.r.scripts/source_gen" />
-        <path location="${basedir}/languages/org.campagnelab.metar.code/source_gen" />
-        <path location="${basedir}/languages/org.campagnelab.metaR.tables/source_gen" />
-        <path location="${basedir}/solutions/org.campagnelab.runR/source_gen" />
-        <path location="${basedir}/languages/org.campagnelab.metaR.inspect/source_gen" />
-        <path location="${basedir}/languages/org.campagnelab.metar.biomart/source_gen" />
         <path location="${basedir}/languages/org.campagnelab.metar.MetarToR/source_gen" />
-        <path location="${basedir}/languages/org.campagnelab.jupyterManager/source_gen" />
-        <path location="${basedir}/solutions/org.campagnelab.jupyterManager.plugin/source_gen" />
       </src>
       <classpath>
         <fileset file="${artifacts.mps}/lib/mps-behavior-api.jar" />
@@ -1935,115 +1982,20 @@
         <fileset file="${build.tmp}/deps/XChart/XChart__dl__lbrace_XChart_version_rbrace_.zip/XChart/languages/XChart/org.campagnelab.mps.XChart.jar" />
         <fileset file="${build.tmp}/deps/XChart/XChart__dl__lbrace_XChart_version_rbrace_.zip/XChart/languages/XChart/org.campagnelab.mps.XChart.types.jar" />
         <fileset file="${build.tmp}/deps/org.campagnelab.TextOutput/org.campagnelab.TextOutput-_dl__lbrace_textoutput_version_rbrace_.zip/TextOutput/languages/TextOutput/org.campagnelab.textoutput.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-tool.jar" />
-        <fileset file="${build.tmp}/deps/ANTLR/ANTLR__dl__lbrace_ANTLR_version_rbrace_.zip/ANTRL/lib/grammarsv4.jar" />
-        <fileset dir="${artifacts.mps}/lib/ant/lib" includes="*.jar" />
-        <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.regexp.jar" />
-        <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.regexp.runtime.jar" />
-        <fileset file="${artifacts.mps}/plugins/mps-build/languages/build/jetbrains.mps.build.jar" />
-        <fileset file="${artifacts.mps}/plugins/mps-build/languages/build/jetbrains.mps.build.workflow.jar" />
-        <fileset file="${artifacts.mps}/plugins/mps-core/languages/util/jetbrains.mps.core.properties.jar" />
-        <fileset file="${artifacts.mps}/languages/xml/jetbrains.mps.core.xml.jar" />
-        <fileset file="${build.tmp}/deps/ANTLR/ANTLR__dl__lbrace_ANTLR_version_rbrace_.zip/ANTRL/languages/org.campagnelab.ANTLR.jar" />
-        <fileset file="${artifacts.mps}/plugins/mps-console/lib/mps-console.jar" />
-        <fileset file="${artifacts.mps}/plugins/mps-execution-api/lib/execution-api.jar" />
-        <fileset file="${artifacts.mps}/plugins/mps-java/lib/mps-java-common.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-icons.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-workbench.jar" />
-        <fileset file="${artifacts.mps}/plugins/jetpad/lib/base-1.0.0-jvm6.jar" />
-        <fileset file="${artifacts.mps}/plugins/jetpad/lib/base-projectional-1.0.0-jvm6.jar" />
-        <fileset file="${artifacts.mps}/plugins/jetpad/lib/cell-1.0.0-jvm6.jar" />
-        <fileset file="${artifacts.mps}/plugins/jetpad/lib/completion-1.0.0-jvm6.jar" />
-        <fileset file="${artifacts.mps}/plugins/jetpad/lib/diagram-1.0.0-jvm6.jar" />
-        <fileset file="${artifacts.mps}/plugins/jetpad/lib/domUtil-1.0.0-jvm6.jar" />
-        <fileset file="${artifacts.mps}/plugins/jetpad/lib/event-1.0.0-jvm6.jar" />
-        <fileset file="${artifacts.mps}/plugins/jetpad/lib/geometry-1.0.0-jvm6.jar" />
-        <fileset file="${artifacts.mps}/plugins/jetpad/lib/grammar-1.0.0-jvm6.jar" />
-        <fileset file="${artifacts.mps}/plugins/jetpad/lib/gwt-util-1.0.0-jvm6.jar" />
-        <fileset file="${artifacts.mps}/plugins/jetpad/lib/json-1.0.0-jvm6.jar" />
-        <fileset file="${artifacts.mps}/plugins/jetpad/lib/mapper-1.0.0-jvm6.jar" />
-        <fileset file="${artifacts.mps}/plugins/jetpad/lib/model-1.0.0-jvm6.jar" />
-        <fileset file="${artifacts.mps}/plugins/jetpad/lib/projectional-1.0.0-jvm6.jar" />
-        <fileset file="${artifacts.mps}/plugins/jetpad/lib/test-1.0.0-jvm6.jar" />
-        <fileset file="${artifacts.mps}/plugins/jetpad/lib/values-1.0.0-jvm6.jar" />
-        <fileset file="${artifacts.mps}/plugins/jetpad/lib/view-1.0.0-jvm6.jar" />
-        <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.classifiers.jar" />
-        <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.closures.jar" />
-        <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.collections.jar" />
-        <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.actions.jar" />
-        <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.editor.jar" />
-        <fileset file="${artifacts.mps}/plugins/diagramEditor/languages/jetbrains.mps.lang.editor.diagram.runtime.jar" />
-        <fileset file="${artifacts.mps}/plugins/mps-core/languages/languageDesign/jetbrains.mps.lang.editor.table.runtime.jar" />
-        <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.sharedConcepts.jar" />
-        <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.smodel.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.mps.UI/org.campagnelab.UI-_dl__lbrace_ui_version_rbrace_.zip/UI/languages/org.campagnelab.ui.code.jar" />
-        <fileset file="${artifacts.mps}/plugins/mps-debugger-api/lib/debugger-api.jar" />
-        <fileset file="${artifacts.mps}/plugins/mps-execution-languages/lib/execution-languages.jar" />
-        <fileset file="${artifacts.mps}/plugins/mps-execution-languages/languages/mps-execution-languages/jetbrains.mps.execution.configurations.pluginSolution.jar" />
-        <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.generator.jar" />
-        <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.javadoc.jar" />
-        <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.behavior.jar" />
-        <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.generator.generationContext.jar" />
-        <fileset file="${basedir}/languages/org.campagnelab.jupyterManager/reactive-streams-1.0.0.jar" />
-        <fileset file="${basedir}/languages/org.campagnelab.jupyterManager/netty-transport-4.0.36.Final.jar" />
-        <fileset file="${basedir}/languages/org.campagnelab.jupyterManager/netty-reactive-streams-1.0.4.jar" />
-        <fileset file="${basedir}/languages/org.campagnelab.jupyterManager/httpcore-nio-4.4.4.jar" />
-        <fileset file="${basedir}/languages/org.campagnelab.jupyterManager/netty-resolver-dns-2.0.2.jar" />
-        <fileset file="${basedir}/languages/org.campagnelab.jupyterManager/httpclient-4.5.2.jar" />
-        <fileset file="${basedir}/languages/org.campagnelab.jupyterManager/netty-handler-4.0.36.Final.jar" />
-        <fileset file="${basedir}/languages/org.campagnelab.jupyterManager/netty-codec-http-4.0.36.Final.jar" />
-        <fileset file="${basedir}/languages/org.campagnelab.jupyterManager/httpmime-4.5.2.jar" />
-        <fileset file="${basedir}/languages/org.campagnelab.jupyterManager/netty-codec-dns-2.0.2.jar" />
-        <fileset file="${basedir}/languages/org.campagnelab.jupyterManager/httpcore-4.4.4.jar" />
-        <fileset file="${basedir}/languages/org.campagnelab.jupyterManager/httpasyncclient-4.1.1.jar" />
-        <fileset file="${basedir}/languages/org.campagnelab.jupyterManager/netty-common-4.0.36.Final.jar" />
-        <fileset file="${basedir}/languages/org.campagnelab.jupyterManager/hamcrest-core-1.1.jar" />
-        <fileset file="${basedir}/languages/org.campagnelab.jupyterManager/unirest-java-1.4.9.jar" />
-        <fileset file="${basedir}/languages/org.campagnelab.jupyterManager/concurrentunit-0.4.2.jar" />
-        <fileset file="${basedir}/languages/org.campagnelab.jupyterManager/json-simple-1.1.1.jar" />
-        <fileset file="${basedir}/languages/org.campagnelab.jupyterManager/netty-resolver-2.0.2.jar" />
-        <fileset file="${basedir}/languages/org.campagnelab.jupyterManager/json-20160212.jar" />
-        <fileset file="${basedir}/languages/org.campagnelab.jupyterManager/netty-buffer-4.0.36.Final.jar" />
-        <fileset file="${basedir}/languages/org.campagnelab.jupyterManager/javassist-3.20.0-GA.jar" />
-        <fileset file="${basedir}/languages/org.campagnelab.jupyterManager/commons-codec-1.9.jar" />
-        <fileset file="${basedir}/languages/org.campagnelab.jupyterManager/netty-codec-4.0.36.Final.jar" />
-        <fileset file="${basedir}/languages/org.campagnelab.jupyterManager/async-http-client-2.0.2.jar" />
-        <fileset file="${basedir}/languages/org.campagnelab.jupyterManager/jupyter_manager-1.0-SNAPSHOT.jar" />
-        <fileset file="${basedir}/languages/org.campagnelab.jupyterManager/slf4j-api-1.7.21.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/mercury-api-1.0-SNAPSHOT.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/fastutil-6.4.4.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/dsiutils-2.0.7.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/activemq-client-5.9.1.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/artifacts-2.3.2.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/commons-io-2.4.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/filesets-1.3.3.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/geronimo-j2ee-management_1.1_spec-1.0.1.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/geronimo-jms_1.1_spec-1.1.1.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/groovy-all-1.8.6.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/hawtbuf-1.9.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/nyosh-runtime-support-1.1.3.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/option-validation-language-2.1.0.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/wildcard-1.03.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/slf4j-api-1.7.5.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/serverside-dependencies-1.0.13-full.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/scala-library-2.9.2.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/org.campagnelab.stepslogger-1.1.0.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/plugins-2.5.4.jar" />
-        <fileset file="${artifacts.mps}/lib/ant/lib/ant.jar" />
-        <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.logging.jar" />
-        <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.tuples.jar" />
-        <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.checkedName.jar" />
-        <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.plugin.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/languages/NYoSh/org.campagnelab.nyosh.lib.jar" />
+        <pathelement path="${build.tmp}/java/out/org.campagnelab.metar.R" />
+        <pathelement path="${build.tmp}/java/out/org.campagnelab.metar.R.gen" />
+        <pathelement path="${build.tmp}/java/out/org.campagnelab.metar.biomart" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.metar.biomart.web" />
+        <pathelement path="${build.tmp}/java/out/org.campagnelab.metar.code" />
+        <pathelement path="${build.tmp}/java/out/org.campagnelab.metar.inspect" />
+        <pathelement path="${build.tmp}/java/out/org.campagnelab.metar.r.stubs" />
+        <pathelement path="${build.tmp}/java/out/org.campagnelab.metar.tables" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.styles" />
-        <pathelement path="${build.tmp}/java/out/org.campagnelab.editor.images" />
-        <pathelement path="${build.tmp}/java/out/org.campagnelab.editor.listeners.plugin" />
       </classpath>
     </javac>
   </target>
   
-  <target name="java.compile.org.campagnelab.metar.R.access" depends="java.compile.org.campagnelab.metar.biomart.web, java.compile.org.campagnelab.styles, java.compile.java.modules.cycle.1, fetchDependencies">
+  <target name="java.compile.org.campagnelab.metar.R.access" depends="java.compile.org.campagnelab.metar.R, java.compile.org.campagnelab.metar.R.gen, java.compile.org.campagnelab.metar.biomart, java.compile.org.campagnelab.metar.biomart.web, java.compile.org.campagnelab.metar.code, java.compile.org.campagnelab.metar.inspect, java.compile.org.campagnelab.metar.r.stubs, java.compile.org.campagnelab.metar.tables, java.compile.org.campagnelab.styles, java.compile.java.modules.cycle.1, fetchDependencies">
     <mkdir dir="${basedir}/languages/org.campagnelab.metar.R.access/source_gen" />
     <mkdir dir="${build.tmp}/java/out/org.campagnelab.metar.R.access" />
     <javac destdir="${build.tmp}/java/out/org.campagnelab.metar.R.access" fork="true" includeantruntime="false" source="1.6" target="1.6">
@@ -2064,8 +2016,15 @@
         <fileset file="${artifacts.mps}/lib/mps-editor.jar" />
         <fileset file="${artifacts.mps}/lib/mps-environment.jar" />
         <fileset file="${artifacts.mps}/lib/mps-platform.jar" />
+        <pathelement path="${build.tmp}/java/out/org.campagnelab.metar.R" />
+        <pathelement path="${build.tmp}/java/out/org.campagnelab.metar.R.gen" />
         <fileset file="${artifacts.mps}/plugins/mps-java/lib/mpsjava.jar" />
+        <pathelement path="${build.tmp}/java/out/org.campagnelab.metar.biomart" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.metar.biomart.web" />
+        <pathelement path="${build.tmp}/java/out/org.campagnelab.metar.code" />
+        <pathelement path="${build.tmp}/java/out/org.campagnelab.metar.inspect" />
+        <pathelement path="${build.tmp}/java/out/org.campagnelab.metar.r.stubs" />
+        <pathelement path="${build.tmp}/java/out/org.campagnelab.metar.tables" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.styles" />
         <fileset file="${basedir}/languages/org.campagnelab.metar.R/R.parsers-1.0-SNAPSHOT-complete.jar" />
         <fileset file="${build.tmp}/deps/XChart/XChart__dl__lbrace_XChart_version_rbrace_.zip/XChart/lib/xchart-2.4.1-SNAPSHOT.jar" />
@@ -2157,7 +2116,162 @@
     </copy>
   </target>
   
-  <target name="java.compile.org.campagnelab.metar.R" depends="java.compile.org.campagnelab.metar.biomart.web, java.compile.org.campagnelab.styles, java.compile.java.modules.cycle.1, fetchDependencies">
+  <target name="java.compile.java.modules.cycle.2" depends="java.compile.org.campagnelab.styles, java.compile.org.campagnelab.editor.images, java.compile.org.campagnelab.editor.listeners.plugin, fetchDependencies">
+    <mkdir dir="${build.tmp}/java.modules.cycle.2" />
+    <javac destdir="${build.tmp}/java.modules.cycle.2" fork="true" nowarn="true" includeantruntime="false">
+      <compilerarg value="-Xlint:none" />
+      <src>
+        <path location="${basedir}/languages/org.campagnelab.metar.R/source_gen" />
+        <path location="${basedir}/languages/org.campagnelab.metar.R.gen/source_gen" />
+        <path location="${basedir}/solutions/org.campagnelab.metar.r.parsers/source_gen" />
+        <path location="${basedir}/solutions/org.campagnelab.metar.r.scripts/source_gen" />
+        <path location="${basedir}/languages/org.campagnelab.metar.code/source_gen" />
+        <path location="${basedir}/languages/org.campagnelab.metaR.tables/source_gen" />
+        <path location="${basedir}/solutions/org.campagnelab.runR/source_gen" />
+        <path location="${basedir}/languages/org.campagnelab.metaR.inspect/source_gen" />
+        <path location="${basedir}/languages/org.campagnelab.jupyterManager/source_gen" />
+        <path location="${basedir}/solutions/org.campagnelab.jupyterManager.plugin/source_gen" />
+      </src>
+      <classpath>
+        <fileset file="${artifacts.mps}/lib/mps-behavior-api.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-behavior-runtime.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-closures.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-collections.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-openapi.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-core.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-tuples.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-editor-api.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-editor-runtime.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-editor.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-environment.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-platform.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-tool.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.metar.R/R.parsers-1.0-SNAPSHOT-complete.jar" />
+        <fileset file="${build.tmp}/deps/ANTLR/ANTLR__dl__lbrace_ANTLR_version_rbrace_.zip/ANTRL/lib/grammarsv4.jar" />
+        <fileset file="${artifacts.mps}/lib/log4j.jar" />
+        <fileset file="${artifacts.mps}/lib/annotations.jar" />
+        <fileset file="${artifacts.mps}/lib/jdom.jar" />
+        <fileset file="${artifacts.mps}/lib/ecj-4.4.jar" />
+        <fileset file="${artifacts.mps}/lib/trove4j.jar" />
+        <fileset file="${artifacts.mps}/lib/xstream-1.4.3.jar" />
+        <fileset file="${artifacts.mps}/lib/asm-all.jar" />
+        <fileset file="${artifacts.mps}/lib/diffutils-1.2.1.jar" />
+        <fileset dir="${artifacts.mps}/lib" includes="*.jar" />
+        <fileset dir="${artifacts.mps}/lib/ant/lib" includes="*.jar" />
+        <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
+        <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.blTypes.jar" />
+        <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.regexp.jar" />
+        <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.regexp.runtime.jar" />
+        <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.scopes.jar" />
+        <fileset file="${artifacts.mps}/plugins/mps-build/languages/build/jetbrains.mps.build.jar" />
+        <fileset file="${artifacts.mps}/plugins/mps-build/languages/build/jetbrains.mps.build.workflow.jar" />
+        <fileset file="${artifacts.mps}/plugins/mps-core/languages/util/jetbrains.mps.core.properties.jar" />
+        <fileset file="${artifacts.mps}/languages/xml/jetbrains.mps.core.xml.jar" />
+        <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.core.jar" />
+        <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.scopes.runtime.jar" />
+        <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.structure.jar" />
+        <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.traceable.jar" />
+        <fileset file="${build.tmp}/deps/ANTLR/ANTLR__dl__lbrace_ANTLR_version_rbrace_.zip/ANTRL/languages/org.campagnelab.ANTLR.jar" />
+        <fileset file="${artifacts.mps}/plugins/mps-console/lib/mps-console.jar" />
+        <fileset file="${artifacts.mps}/plugins/mps-execution-api/lib/execution-api.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-icons.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-workbench.jar" />
+        <fileset file="${artifacts.mps}/plugins/mps-debugger-api/lib/debugger-api.jar" />
+        <fileset file="${artifacts.mps}/plugins/mps-execution-languages/lib/execution-languages.jar" />
+        <fileset file="${artifacts.mps}/plugins/mps-java/lib/mps-java-common.jar" />
+        <fileset file="${build.tmp}/deps/XChart/XChart__dl__lbrace_XChart_version_rbrace_.zip/XChart/lib/xchart-2.4.1-SNAPSHOT.jar" />
+        <fileset file="${artifacts.mps}/languages/util/jetbrains.mps.execution.util.jar" />
+        <fileset file="${build.tmp}/deps/XChart/XChart__dl__lbrace_XChart_version_rbrace_.zip/XChart/languages/XChart/org.campagnelab.mps.XChart.jar" />
+        <fileset file="${build.tmp}/deps/XChart/XChart__dl__lbrace_XChart_version_rbrace_.zip/XChart/languages/XChart/org.campagnelab.mps.XChart.types.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.TextOutput/org.campagnelab.TextOutput-_dl__lbrace_textoutput_version_rbrace_.zip/TextOutput/languages/TextOutput/org.campagnelab.textoutput.jar" />
+        <fileset file="${artifacts.mps}/plugins/jetpad/lib/base-1.0.0-jvm6.jar" />
+        <fileset file="${artifacts.mps}/plugins/jetpad/lib/base-projectional-1.0.0-jvm6.jar" />
+        <fileset file="${artifacts.mps}/plugins/jetpad/lib/cell-1.0.0-jvm6.jar" />
+        <fileset file="${artifacts.mps}/plugins/jetpad/lib/completion-1.0.0-jvm6.jar" />
+        <fileset file="${artifacts.mps}/plugins/jetpad/lib/diagram-1.0.0-jvm6.jar" />
+        <fileset file="${artifacts.mps}/plugins/jetpad/lib/domUtil-1.0.0-jvm6.jar" />
+        <fileset file="${artifacts.mps}/plugins/jetpad/lib/event-1.0.0-jvm6.jar" />
+        <fileset file="${artifacts.mps}/plugins/jetpad/lib/geometry-1.0.0-jvm6.jar" />
+        <fileset file="${artifacts.mps}/plugins/jetpad/lib/grammar-1.0.0-jvm6.jar" />
+        <fileset file="${artifacts.mps}/plugins/jetpad/lib/gwt-util-1.0.0-jvm6.jar" />
+        <fileset file="${artifacts.mps}/plugins/jetpad/lib/json-1.0.0-jvm6.jar" />
+        <fileset file="${artifacts.mps}/plugins/jetpad/lib/mapper-1.0.0-jvm6.jar" />
+        <fileset file="${artifacts.mps}/plugins/jetpad/lib/model-1.0.0-jvm6.jar" />
+        <fileset file="${artifacts.mps}/plugins/jetpad/lib/projectional-1.0.0-jvm6.jar" />
+        <fileset file="${artifacts.mps}/plugins/jetpad/lib/test-1.0.0-jvm6.jar" />
+        <fileset file="${artifacts.mps}/plugins/jetpad/lib/values-1.0.0-jvm6.jar" />
+        <fileset file="${artifacts.mps}/plugins/jetpad/lib/view-1.0.0-jvm6.jar" />
+        <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.classifiers.jar" />
+        <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.closures.jar" />
+        <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.collections.jar" />
+        <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.actions.jar" />
+        <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.editor.jar" />
+        <fileset file="${artifacts.mps}/plugins/diagramEditor/languages/jetbrains.mps.lang.editor.diagram.runtime.jar" />
+        <fileset file="${artifacts.mps}/plugins/mps-core/languages/languageDesign/jetbrains.mps.lang.editor.table.runtime.jar" />
+        <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.sharedConcepts.jar" />
+        <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.smodel.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.mps.UI/org.campagnelab.UI-_dl__lbrace_ui_version_rbrace_.zip/UI/languages/org.campagnelab.ui.code.jar" />
+        <fileset file="${artifacts.mps}/plugins/mps-execution-languages/languages/mps-execution-languages/jetbrains.mps.execution.configurations.pluginSolution.jar" />
+        <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.generator.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.jupyterManager/reactive-streams-1.0.0.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.jupyterManager/netty-transport-4.0.36.Final.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.jupyterManager/netty-reactive-streams-1.0.4.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.jupyterManager/httpcore-nio-4.4.4.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.jupyterManager/netty-resolver-dns-2.0.2.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.jupyterManager/httpclient-4.5.2.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.jupyterManager/netty-handler-4.0.36.Final.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.jupyterManager/netty-codec-http-4.0.36.Final.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.jupyterManager/httpmime-4.5.2.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.jupyterManager/netty-codec-dns-2.0.2.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.jupyterManager/httpcore-4.4.4.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.jupyterManager/httpasyncclient-4.1.1.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.jupyterManager/netty-common-4.0.36.Final.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.jupyterManager/hamcrest-core-1.1.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.jupyterManager/unirest-java-1.4.9.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.jupyterManager/concurrentunit-0.4.2.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.jupyterManager/json-simple-1.1.1.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.jupyterManager/netty-resolver-2.0.2.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.jupyterManager/json-20160212.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.jupyterManager/netty-buffer-4.0.36.Final.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.jupyterManager/javassist-3.20.0-GA.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.jupyterManager/commons-codec-1.9.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.jupyterManager/netty-codec-4.0.36.Final.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.jupyterManager/async-http-client-2.0.2.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.jupyterManager/jupyter_manager-1.0-SNAPSHOT.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.jupyterManager/slf4j-api-1.7.21.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/mercury-api-1.0-SNAPSHOT.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/fastutil-6.4.4.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/dsiutils-2.0.7.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/activemq-client-5.9.1.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/artifacts-2.3.2.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/commons-io-2.4.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/filesets-1.3.3.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/geronimo-j2ee-management_1.1_spec-1.0.1.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/geronimo-jms_1.1_spec-1.1.1.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/groovy-all-1.8.6.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/hawtbuf-1.9.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/nyosh-runtime-support-1.1.3.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/option-validation-language-2.1.0.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/wildcard-1.03.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/slf4j-api-1.7.5.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/serverside-dependencies-1.0.13-full.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/scala-library-2.9.2.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/org.campagnelab.stepslogger-1.1.0.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/plugins-2.5.4.jar" />
+        <fileset file="${artifacts.mps}/lib/ant/lib/ant.jar" />
+        <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.logging.jar" />
+        <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.tuples.jar" />
+        <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.checkedName.jar" />
+        <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.plugin.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/languages/NYoSh/org.campagnelab.nyosh.lib.jar" />
+        <pathelement path="${build.tmp}/java/out/org.campagnelab.styles" />
+        <pathelement path="${build.tmp}/java/out/org.campagnelab.editor.images" />
+        <pathelement path="${build.tmp}/java/out/org.campagnelab.editor.listeners.plugin" />
+      </classpath>
+    </javac>
+  </target>
+  
+  <target name="java.compile.org.campagnelab.metar.R" depends="java.compile.java.modules.cycle.2, fetchDependencies">
     <mkdir dir="${basedir}/languages/org.campagnelab.metar.R/source_gen" />
     <mkdir dir="${build.tmp}/java/out/org.campagnelab.metar.R" />
     <javac destdir="${build.tmp}/java/out/org.campagnelab.metar.R" fork="true" includeantruntime="false" source="1.6" target="1.6">
@@ -2178,13 +2292,9 @@
         <fileset file="${artifacts.mps}/lib/mps-editor.jar" />
         <fileset file="${artifacts.mps}/lib/mps-environment.jar" />
         <fileset file="${artifacts.mps}/lib/mps-platform.jar" />
-        <fileset file="${artifacts.mps}/plugins/mps-java/lib/mpsjava.jar" />
-        <pathelement path="${build.tmp}/java/out/org.campagnelab.metar.biomart.web" />
         <fileset file="${artifacts.mps}/lib/mps-tool.jar" />
-        <pathelement path="${build.tmp}/java/out/org.campagnelab.styles" />
         <fileset file="${basedir}/languages/org.campagnelab.metar.R/R.parsers-1.0-SNAPSHOT-complete.jar" />
         <fileset file="${build.tmp}/deps/ANTLR/ANTLR__dl__lbrace_ANTLR_version_rbrace_.zip/ANTRL/lib/grammarsv4.jar" />
-        <fileset file="${build.tmp}/deps/XChart/XChart__dl__lbrace_XChart_version_rbrace_.zip/XChart/lib/xchart-2.4.1-SNAPSHOT.jar" />
         <fileset file="${artifacts.mps}/lib/log4j.jar" />
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/lib/jdom.jar" />
@@ -2204,16 +2314,12 @@
         <fileset file="${artifacts.mps}/plugins/mps-build/languages/build/jetbrains.mps.build.workflow.jar" />
         <fileset file="${artifacts.mps}/plugins/mps-core/languages/util/jetbrains.mps.core.properties.jar" />
         <fileset file="${artifacts.mps}/languages/xml/jetbrains.mps.core.xml.jar" />
-        <fileset file="${artifacts.mps}/languages/util/jetbrains.mps.execution.util.jar" />
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.core.jar" />
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.scopes.runtime.jar" />
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.structure.jar" />
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.traceable.jar" />
         <fileset file="${build.tmp}/deps/ANTLR/ANTLR__dl__lbrace_ANTLR_version_rbrace_.zip/ANTRL/languages/org.campagnelab.ANTLR.jar" />
-        <fileset file="${build.tmp}/deps/XChart/XChart__dl__lbrace_XChart_version_rbrace_.zip/XChart/languages/XChart/org.campagnelab.mps.XChart.jar" />
-        <fileset file="${build.tmp}/deps/XChart/XChart__dl__lbrace_XChart_version_rbrace_.zip/XChart/languages/XChart/org.campagnelab.mps.XChart.types.jar" />
-        <fileset file="${build.tmp}/deps/org.campagnelab.TextOutput/org.campagnelab.TextOutput-_dl__lbrace_textoutput_version_rbrace_.zip/TextOutput/languages/TextOutput/org.campagnelab.textoutput.jar" />
-        <pathelement path="${build.tmp}/java.modules.cycle.1" />
+        <pathelement path="${build.tmp}/java.modules.cycle.2" />
       </classpath>
     </javac>
     <copy todir="${build.tmp}/java/out/org.campagnelab.metar.R">
@@ -2264,7 +2370,7 @@
     </copy>
   </target>
   
-  <target name="java.compile.org.campagnelab.metar.R.gen" depends="java.compile.java.modules.cycle.1, fetchDependencies">
+  <target name="java.compile.org.campagnelab.metar.R.gen" depends="java.compile.java.modules.cycle.2, fetchDependencies">
     <mkdir dir="${basedir}/languages/org.campagnelab.metar.R.gen/source_gen" />
     <mkdir dir="${build.tmp}/java/out/org.campagnelab.metar.R.gen" />
     <javac destdir="${build.tmp}/java/out/org.campagnelab.metar.R.gen" fork="true" includeantruntime="false" source="1.6" target="1.6">
@@ -2275,22 +2381,24 @@
       <classpath>
         <fileset file="${artifacts.mps}/plugins/mps-console/lib/mps-console.jar" />
         <fileset file="${artifacts.mps}/plugins/mps-execution-api/lib/execution-api.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-behavior-api.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-behavior-runtime.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-core.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-openapi.jar" />
         <fileset file="${artifacts.mps}/lib/mps-closures.jar" />
         <fileset file="${artifacts.mps}/lib/mps-collections.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-openapi.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-core.jar" />
         <fileset file="${artifacts.mps}/lib/mps-tuples.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-behavior-api.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-behavior-runtime.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-environment.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-platform.jar" />
         <fileset file="${artifacts.mps}/lib/mps-editor-api.jar" />
         <fileset file="${artifacts.mps}/lib/mps-editor-runtime.jar" />
         <fileset file="${artifacts.mps}/lib/mps-editor.jar" />
-        <fileset file="${artifacts.mps}/plugins/mps-java/lib/mps-java-common.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-environment.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-platform.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-tool.jar" />
         <fileset file="${artifacts.mps}/lib/mps-icons.jar" />
         <fileset file="${artifacts.mps}/lib/mps-workbench.jar" />
+        <fileset file="${artifacts.mps}/plugins/mps-debugger-api/lib/debugger-api.jar" />
+        <fileset file="${artifacts.mps}/plugins/mps-execution-languages/lib/execution-languages.jar" />
+        <fileset file="${artifacts.mps}/plugins/mps-java/lib/mps-java-common.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-tool.jar" />
         <fileset file="${artifacts.mps}/lib/log4j.jar" />
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/lib/jdom.jar" />
@@ -2304,7 +2412,7 @@
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.core.jar" />
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.scopes.runtime.jar" />
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.structure.jar" />
-        <pathelement path="${build.tmp}/java.modules.cycle.1" />
+        <pathelement path="${build.tmp}/java.modules.cycle.2" />
       </classpath>
     </javac>
     <copy todir="${build.tmp}/java/out/org.campagnelab.metar.R.gen">
@@ -2312,7 +2420,7 @@
     </copy>
   </target>
   
-  <target name="java.compile.org.campagnelab.metar.r.parsers" depends="java.compile.java.modules.cycle.1, fetchDependencies">
+  <target name="java.compile.org.campagnelab.metar.r.parsers" depends="java.compile.java.modules.cycle.2, fetchDependencies">
     <mkdir dir="${basedir}/solutions/org.campagnelab.metar.r.parsers/source_gen" />
     <mkdir dir="${build.tmp}/java/out/org.campagnelab.metar.r.parsers" />
     <javac destdir="${build.tmp}/java/out/org.campagnelab.metar.r.parsers" fork="true" includeantruntime="false" source="1.6" target="1.6">
@@ -2350,7 +2458,7 @@
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.scopes.runtime.jar" />
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.structure.jar" />
         <fileset file="${build.tmp}/deps/ANTLR/ANTLR__dl__lbrace_ANTLR_version_rbrace_.zip/ANTRL/languages/org.campagnelab.ANTLR.jar" />
-        <pathelement path="${build.tmp}/java.modules.cycle.1" />
+        <pathelement path="${build.tmp}/java.modules.cycle.2" />
       </classpath>
     </javac>
     <copy todir="${build.tmp}/java/out/org.campagnelab.metar.r.parsers">
@@ -2358,7 +2466,7 @@
     </copy>
   </target>
   
-  <target name="java.compile.org.campagnelab.metar.r.stubs" depends="java.compile.java.modules.cycle.1, fetchDependencies">
+  <target name="java.compile.org.campagnelab.metar.r.stubs" depends="java.compile.java.modules.cycle.2, fetchDependencies">
     <mkdir dir="${basedir}/solutions/org.campagnelab.metar.r.scripts/source_gen" />
     <mkdir dir="${build.tmp}/java/out/org.campagnelab.metar.r.stubs" />
     <javac destdir="${build.tmp}/java/out/org.campagnelab.metar.r.stubs" fork="true" includeantruntime="false" source="1.6" target="1.6">
@@ -2392,7 +2500,7 @@
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.core.jar" />
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.scopes.runtime.jar" />
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.structure.jar" />
-        <pathelement path="${build.tmp}/java.modules.cycle.1" />
+        <pathelement path="${build.tmp}/java.modules.cycle.2" />
       </classpath>
     </javac>
     <copy todir="${build.tmp}/java/out/org.campagnelab.metar.r.stubs">
@@ -2681,6 +2789,121 @@
     </copy>
   </target>
   
+  <target name="java.compile.org.campagnelab.metar.r.metar" depends="java.compile.org.campagnelab.metar.R, java.compile.org.campagnelab.metar.R.gen, java.compile.org.campagnelab.metar.R.inspect, java.compile.org.campagnelab.metar.inspect, java.compile.org.campagnelab.metar.r.stubs, java.compile.org.campagnelab.metar.tables, java.compile.org.campagnelab.styles, fetchDependencies">
+    <mkdir dir="${basedir}/languages/org.campagnelab.metar.r.metar/source_gen" />
+    <mkdir dir="${build.tmp}/java/out/org.campagnelab.metar.r.metar" />
+    <javac destdir="${build.tmp}/java/out/org.campagnelab.metar.r.metar" fork="true" includeantruntime="false" source="1.6" target="1.6">
+      <compilerarg value="-Xlint:none" />
+      <src>
+        <path location="${basedir}/languages/org.campagnelab.metar.r.metar/source_gen" />
+      </src>
+      <classpath>
+        <fileset file="${artifacts.mps}/lib/mps-behavior-api.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-behavior-runtime.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-closures.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-collections.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-openapi.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-core.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-tuples.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-editor-api.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-editor-runtime.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-editor.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-environment.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-platform.jar" />
+        <pathelement path="${build.tmp}/java/out/org.campagnelab.metar.R" />
+        <pathelement path="${build.tmp}/java/out/org.campagnelab.metar.R.gen" />
+        <pathelement path="${build.tmp}/java/out/org.campagnelab.metar.R.inspect" />
+        <pathelement path="${build.tmp}/java/out/org.campagnelab.metar.inspect" />
+        <pathelement path="${build.tmp}/java/out/org.campagnelab.metar.r.stubs" />
+        <pathelement path="${build.tmp}/java/out/org.campagnelab.metar.tables" />
+        <pathelement path="${build.tmp}/java/out/org.campagnelab.styles" />
+        <fileset file="${basedir}/languages/org.campagnelab.metar.R/R.parsers-1.0-SNAPSHOT-complete.jar" />
+        <fileset file="${build.tmp}/deps/XChart/XChart__dl__lbrace_XChart_version_rbrace_.zip/XChart/lib/xchart-2.4.1-SNAPSHOT.jar" />
+        <fileset file="${artifacts.mps}/lib/log4j.jar" />
+        <fileset file="${artifacts.mps}/lib/annotations.jar" />
+        <fileset file="${artifacts.mps}/lib/jdom.jar" />
+        <fileset file="${artifacts.mps}/lib/ecj-4.4.jar" />
+        <fileset file="${artifacts.mps}/lib/trove4j.jar" />
+        <fileset file="${artifacts.mps}/lib/xstream-1.4.3.jar" />
+        <fileset file="${artifacts.mps}/lib/asm-all.jar" />
+        <fileset file="${artifacts.mps}/lib/diffutils-1.2.1.jar" />
+        <fileset dir="${artifacts.mps}/lib" includes="*.jar" />
+        <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
+        <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.blTypes.jar" />
+        <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.scopes.jar" />
+        <fileset file="${artifacts.mps}/languages/util/jetbrains.mps.execution.util.jar" />
+        <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.core.jar" />
+        <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.scopes.runtime.jar" />
+        <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.structure.jar" />
+        <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.traceable.jar" />
+        <fileset file="${build.tmp}/deps/XChart/XChart__dl__lbrace_XChart_version_rbrace_.zip/XChart/languages/XChart/org.campagnelab.mps.XChart.jar" />
+        <fileset file="${build.tmp}/deps/XChart/XChart__dl__lbrace_XChart_version_rbrace_.zip/XChart/languages/XChart/org.campagnelab.mps.XChart.types.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.TextOutput/org.campagnelab.TextOutput-_dl__lbrace_textoutput_version_rbrace_.zip/TextOutput/languages/TextOutput/org.campagnelab.textoutput.jar" />
+      </classpath>
+    </javac>
+    <copy todir="${build.tmp}/java/out/org.campagnelab.metar.r.metar">
+      <fileset dir="${basedir}/languages/org.campagnelab.metar.r.metar/source_gen" excludes="**/*.java" />
+    </copy>
+  </target>
+  
+  <target name="java.compile.org.campagnelab.metar.r.metar#1874908579736597228" depends="java.compile.org.campagnelab.metar.R, java.compile.org.campagnelab.metar.R.gen, java.compile.org.campagnelab.metar.R.inspect, java.compile.org.campagnelab.metar.inspect, java.compile.org.campagnelab.metar.r.metar, java.compile.org.campagnelab.metar.r.stubs, java.compile.org.campagnelab.metar.tables, java.compile.org.campagnelab.styles, fetchDependencies">
+    <mkdir dir="${basedir}/languages/org.campagnelab.metar.r.metar/generator/source_gen" />
+    <mkdir dir="${build.tmp}/java/out/org.campagnelab.metar.r.metar#1874908579736597228" />
+    <javac destdir="${build.tmp}/java/out/org.campagnelab.metar.r.metar#1874908579736597228" fork="true" includeantruntime="false" source="1.6" target="1.6">
+      <compilerarg value="-Xlint:none" />
+      <src>
+        <path location="${basedir}/languages/org.campagnelab.metar.r.metar/generator/source_gen" />
+      </src>
+      <classpath>
+        <fileset file="${artifacts.mps}/lib/mps-behavior-api.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-behavior-runtime.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-closures.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-collections.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-openapi.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-core.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-tuples.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-editor-api.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-editor-runtime.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-editor.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-environment.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-platform.jar" />
+        <pathelement path="${build.tmp}/java/out/org.campagnelab.metar.R" />
+        <pathelement path="${build.tmp}/java/out/org.campagnelab.metar.R.gen" />
+        <pathelement path="${build.tmp}/java/out/org.campagnelab.metar.R.inspect" />
+        <pathelement path="${build.tmp}/java/out/org.campagnelab.metar.inspect" />
+        <pathelement path="${build.tmp}/java/out/org.campagnelab.metar.r.metar" />
+        <pathelement path="${build.tmp}/java/out/org.campagnelab.metar.r.stubs" />
+        <pathelement path="${build.tmp}/java/out/org.campagnelab.metar.tables" />
+        <pathelement path="${build.tmp}/java/out/org.campagnelab.styles" />
+        <fileset file="${basedir}/languages/org.campagnelab.metar.R/R.parsers-1.0-SNAPSHOT-complete.jar" />
+        <fileset file="${build.tmp}/deps/XChart/XChart__dl__lbrace_XChart_version_rbrace_.zip/XChart/lib/xchart-2.4.1-SNAPSHOT.jar" />
+        <fileset file="${artifacts.mps}/lib/log4j.jar" />
+        <fileset file="${artifacts.mps}/lib/annotations.jar" />
+        <fileset file="${artifacts.mps}/lib/jdom.jar" />
+        <fileset file="${artifacts.mps}/lib/ecj-4.4.jar" />
+        <fileset file="${artifacts.mps}/lib/trove4j.jar" />
+        <fileset file="${artifacts.mps}/lib/xstream-1.4.3.jar" />
+        <fileset file="${artifacts.mps}/lib/asm-all.jar" />
+        <fileset file="${artifacts.mps}/lib/diffutils-1.2.1.jar" />
+        <fileset dir="${artifacts.mps}/lib" includes="*.jar" />
+        <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.jar" />
+        <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.blTypes.jar" />
+        <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.scopes.jar" />
+        <fileset file="${artifacts.mps}/languages/util/jetbrains.mps.execution.util.jar" />
+        <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.core.jar" />
+        <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.scopes.runtime.jar" />
+        <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.structure.jar" />
+        <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.traceable.jar" />
+        <fileset file="${build.tmp}/deps/XChart/XChart__dl__lbrace_XChart_version_rbrace_.zip/XChart/languages/XChart/org.campagnelab.mps.XChart.jar" />
+        <fileset file="${build.tmp}/deps/XChart/XChart__dl__lbrace_XChart_version_rbrace_.zip/XChart/languages/XChart/org.campagnelab.mps.XChart.types.jar" />
+        <fileset file="${build.tmp}/deps/org.campagnelab.TextOutput/org.campagnelab.TextOutput-_dl__lbrace_textoutput_version_rbrace_.zip/TextOutput/languages/TextOutput/org.campagnelab.textoutput.jar" />
+      </classpath>
+    </javac>
+    <copy todir="${build.tmp}/java/out/org.campagnelab.metar.r.metar#1874908579736597228">
+      <fileset dir="${basedir}/languages/org.campagnelab.metar.r.metar/generator/source_gen" excludes="**/*.java" />
+    </copy>
+  </target>
+  
   <target name="java.compile.org.campagnelab.metar.models" depends="java.compile.org.campagnelab.metar.R.gen, java.compile.org.campagnelab.metar.code, java.compile.org.campagnelab.metar.inspect, java.compile.org.campagnelab.metar.tables, java.compile.org.campagnelab.styles, fetchDependencies">
     <mkdir dir="${basedir}/languages/org.campagnelab.metar.models/source_gen" />
     <mkdir dir="${build.tmp}/java/out/org.campagnelab.metar.models" />
@@ -2777,7 +3000,7 @@
     </copy>
   </target>
   
-  <target name="java.compile.org.campagnelab.metar.code" depends="java.compile.org.campagnelab.styles, java.compile.java.modules.cycle.1, fetchDependencies">
+  <target name="java.compile.org.campagnelab.metar.code" depends="java.compile.org.campagnelab.styles, java.compile.java.modules.cycle.2, fetchDependencies">
     <mkdir dir="${basedir}/languages/org.campagnelab.metar.code/source_gen" />
     <mkdir dir="${build.tmp}/java/out/org.campagnelab.metar.code" />
     <javac destdir="${build.tmp}/java/out/org.campagnelab.metar.code" fork="true" includeantruntime="false" source="1.6" target="1.6">
@@ -2820,7 +3043,7 @@
         <fileset file="${build.tmp}/deps/XChart/XChart__dl__lbrace_XChart_version_rbrace_.zip/XChart/languages/XChart/org.campagnelab.mps.XChart.jar" />
         <fileset file="${build.tmp}/deps/XChart/XChart__dl__lbrace_XChart_version_rbrace_.zip/XChart/languages/XChart/org.campagnelab.mps.XChart.types.jar" />
         <fileset file="${build.tmp}/deps/org.campagnelab.TextOutput/org.campagnelab.TextOutput-_dl__lbrace_textoutput_version_rbrace_.zip/TextOutput/languages/TextOutput/org.campagnelab.textoutput.jar" />
-        <pathelement path="${build.tmp}/java.modules.cycle.1" />
+        <pathelement path="${build.tmp}/java.modules.cycle.2" />
       </classpath>
     </javac>
     <copy todir="${build.tmp}/java/out/org.campagnelab.metar.code">
@@ -3025,7 +3248,7 @@
     </copy>
   </target>
   
-  <target name="java.compile.org.campagnelab.metar.tables" depends="java.compile.org.campagnelab.editor.images, java.compile.org.campagnelab.editor.listeners.plugin, java.compile.org.campagnelab.styles, java.compile.java.modules.cycle.1, fetchDependencies">
+  <target name="java.compile.org.campagnelab.metar.tables" depends="java.compile.org.campagnelab.editor.images, java.compile.org.campagnelab.editor.listeners.plugin, java.compile.org.campagnelab.styles, java.compile.java.modules.cycle.2, fetchDependencies">
     <mkdir dir="${basedir}/languages/org.campagnelab.metaR.tables/source_gen" />
     <mkdir dir="${build.tmp}/java/out/org.campagnelab.metar.tables" />
     <javac destdir="${build.tmp}/java/out/org.campagnelab.metar.tables" fork="true" includeantruntime="false" source="1.6" target="1.6">
@@ -3052,6 +3275,8 @@
         <pathelement path="${build.tmp}/java/out/org.campagnelab.editor.listeners.plugin" />
         <fileset file="${artifacts.mps}/plugins/mps-console/lib/mps-console.jar" />
         <fileset file="${artifacts.mps}/plugins/mps-execution-api/lib/execution-api.jar" />
+        <fileset file="${artifacts.mps}/plugins/mps-debugger-api/lib/debugger-api.jar" />
+        <fileset file="${artifacts.mps}/plugins/mps-execution-languages/lib/execution-languages.jar" />
         <fileset file="${artifacts.mps}/plugins/mps-java/lib/mps-java-common.jar" />
         <fileset file="${artifacts.mps}/lib/mps-tool.jar" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.styles" />
@@ -3104,7 +3329,7 @@
         <fileset file="${build.tmp}/deps/XChart/XChart__dl__lbrace_XChart_version_rbrace_.zip/XChart/languages/XChart/org.campagnelab.mps.XChart.types.jar" />
         <fileset file="${build.tmp}/deps/org.campagnelab.TextOutput/org.campagnelab.TextOutput-_dl__lbrace_textoutput_version_rbrace_.zip/TextOutput/languages/TextOutput/org.campagnelab.textoutput.jar" />
         <fileset file="${build.tmp}/deps/org.campagnelab.mps.UI/org.campagnelab.UI-_dl__lbrace_ui_version_rbrace_.zip/UI/languages/org.campagnelab.ui.code.jar" />
-        <pathelement path="${build.tmp}/java.modules.cycle.1" />
+        <pathelement path="${build.tmp}/java.modules.cycle.2" />
       </classpath>
     </javac>
     <copy todir="${build.tmp}/java/out/org.campagnelab.metar.tables">
@@ -3123,22 +3348,24 @@
       <classpath>
         <fileset file="${artifacts.mps}/plugins/mps-console/lib/mps-console.jar" />
         <fileset file="${artifacts.mps}/plugins/mps-execution-api/lib/execution-api.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-behavior-api.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-behavior-runtime.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-core.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-openapi.jar" />
         <fileset file="${artifacts.mps}/lib/mps-closures.jar" />
         <fileset file="${artifacts.mps}/lib/mps-collections.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-openapi.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-core.jar" />
         <fileset file="${artifacts.mps}/lib/mps-tuples.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-behavior-api.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-behavior-runtime.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-environment.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-platform.jar" />
         <fileset file="${artifacts.mps}/lib/mps-editor-api.jar" />
         <fileset file="${artifacts.mps}/lib/mps-editor-runtime.jar" />
         <fileset file="${artifacts.mps}/lib/mps-editor.jar" />
-        <fileset file="${artifacts.mps}/plugins/mps-java/lib/mps-java-common.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-environment.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-platform.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-tool.jar" />
         <fileset file="${artifacts.mps}/lib/mps-icons.jar" />
         <fileset file="${artifacts.mps}/lib/mps-workbench.jar" />
+        <fileset file="${artifacts.mps}/plugins/mps-debugger-api/lib/debugger-api.jar" />
+        <fileset file="${artifacts.mps}/plugins/mps-execution-languages/lib/execution-languages.jar" />
+        <fileset file="${artifacts.mps}/plugins/mps-java/lib/mps-java-common.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-tool.jar" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.jupyterManager.plugin" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.metar.R.gen" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.metar.code" />
@@ -3443,7 +3670,7 @@
     </copy>
   </target>
   
-  <target name="java.compile.org.campagnelab.runR" depends="java.compile.org.campagnelab.styles, java.compile.java.modules.cycle.1, fetchDependencies">
+  <target name="java.compile.org.campagnelab.runR" depends="java.compile.org.campagnelab.styles, java.compile.java.modules.cycle.2, fetchDependencies">
     <mkdir dir="${basedir}/solutions/org.campagnelab.runR/source_gen" />
     <mkdir dir="${build.tmp}/java/out/org.campagnelab.runR" />
     <javac destdir="${build.tmp}/java/out/org.campagnelab.runR" fork="true" includeantruntime="false" source="1.6" target="1.6">
@@ -3452,26 +3679,27 @@
         <path location="${basedir}/solutions/org.campagnelab.runR/source_gen" />
       </src>
       <classpath>
-        <fileset file="${artifacts.mps}/lib/mps-behavior-api.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-behavior-runtime.jar" />
+        <fileset file="${artifacts.mps}/plugins/mps-console/lib/mps-console.jar" />
+        <fileset file="${artifacts.mps}/plugins/mps-execution-api/lib/execution-api.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-core.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-openapi.jar" />
         <fileset file="${artifacts.mps}/lib/mps-closures.jar" />
         <fileset file="${artifacts.mps}/lib/mps-collections.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-openapi.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-core.jar" />
         <fileset file="${artifacts.mps}/lib/mps-tuples.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-behavior-api.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-behavior-runtime.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-environment.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-platform.jar" />
         <fileset file="${artifacts.mps}/lib/mps-editor-api.jar" />
         <fileset file="${artifacts.mps}/lib/mps-editor-runtime.jar" />
         <fileset file="${artifacts.mps}/lib/mps-editor.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-environment.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-platform.jar" />
-        <pathelement path="${build.tmp}/java/out/org.campagnelab.styles" />
-        <fileset file="${artifacts.mps}/plugins/mps-execution-api/lib/execution-api.jar" />
         <fileset file="${artifacts.mps}/lib/mps-icons.jar" />
         <fileset file="${artifacts.mps}/lib/mps-workbench.jar" />
         <fileset file="${artifacts.mps}/plugins/mps-debugger-api/lib/debugger-api.jar" />
         <fileset file="${artifacts.mps}/plugins/mps-execution-languages/lib/execution-languages.jar" />
         <fileset file="${artifacts.mps}/plugins/mps-java/lib/mps-java-common.jar" />
         <fileset file="${artifacts.mps}/lib/mps-tool.jar" />
+        <pathelement path="${build.tmp}/java/out/org.campagnelab.styles" />
         <fileset file="${basedir}/languages/org.campagnelab.metar.R/R.parsers-1.0-SNAPSHOT-complete.jar" />
         <fileset file="${build.tmp}/deps/XChart/XChart__dl__lbrace_XChart_version_rbrace_.zip/XChart/lib/xchart-2.4.1-SNAPSHOT.jar" />
         <fileset file="${artifacts.mps}/lib/log4j.jar" />
@@ -3500,7 +3728,7 @@
         <fileset file="${build.tmp}/deps/XChart/XChart__dl__lbrace_XChart_version_rbrace_.zip/XChart/languages/XChart/org.campagnelab.mps.XChart.jar" />
         <fileset file="${build.tmp}/deps/XChart/XChart__dl__lbrace_XChart_version_rbrace_.zip/XChart/languages/XChart/org.campagnelab.mps.XChart.types.jar" />
         <fileset file="${build.tmp}/deps/org.campagnelab.TextOutput/org.campagnelab.TextOutput-_dl__lbrace_textoutput_version_rbrace_.zip/TextOutput/languages/TextOutput/org.campagnelab.textoutput.jar" />
-        <pathelement path="${build.tmp}/java.modules.cycle.1" />
+        <pathelement path="${build.tmp}/java.modules.cycle.2" />
       </classpath>
     </javac>
     <copy todir="${build.tmp}/java/out/org.campagnelab.runR">
@@ -3589,7 +3817,7 @@
     </copy>
   </target>
   
-  <target name="java.compile.org.campagnelab.metar.inspect" depends="java.compile.org.campagnelab.styles, java.compile.java.modules.cycle.1, fetchDependencies">
+  <target name="java.compile.org.campagnelab.metar.inspect" depends="java.compile.org.campagnelab.styles, java.compile.java.modules.cycle.2, fetchDependencies">
     <mkdir dir="${basedir}/languages/org.campagnelab.metaR.inspect/source_gen" />
     <mkdir dir="${build.tmp}/java/out/org.campagnelab.metar.inspect" />
     <javac destdir="${build.tmp}/java/out/org.campagnelab.metar.inspect" fork="true" includeantruntime="false" source="1.6" target="1.6">
@@ -3636,7 +3864,7 @@
         <fileset file="${build.tmp}/deps/XChart/XChart__dl__lbrace_XChart_version_rbrace_.zip/XChart/languages/XChart/org.campagnelab.mps.XChart.jar" />
         <fileset file="${build.tmp}/deps/XChart/XChart__dl__lbrace_XChart_version_rbrace_.zip/XChart/languages/XChart/org.campagnelab.mps.XChart.types.jar" />
         <fileset file="${build.tmp}/deps/org.campagnelab.TextOutput/org.campagnelab.TextOutput-_dl__lbrace_textoutput_version_rbrace_.zip/TextOutput/languages/TextOutput/org.campagnelab.textoutput.jar" />
-        <pathelement path="${build.tmp}/java.modules.cycle.1" />
+        <pathelement path="${build.tmp}/java.modules.cycle.2" />
       </classpath>
     </javac>
     <copy todir="${build.tmp}/java/out/org.campagnelab.metar.inspect">
@@ -4017,7 +4245,7 @@
     </copy>
   </target>
   
-  <target name="java.compile.org.campagnelab.metar.biomart" depends="java.compile.org.campagnelab.metar.biomart.web, java.compile.org.campagnelab.styles, java.compile.java.modules.cycle.1, fetchDependencies">
+  <target name="java.compile.org.campagnelab.metar.biomart" depends="java.compile.org.campagnelab.metar.R, java.compile.org.campagnelab.metar.R.gen, java.compile.org.campagnelab.metar.biomart.web, java.compile.org.campagnelab.metar.code, java.compile.org.campagnelab.metar.inspect, java.compile.org.campagnelab.metar.r.stubs, java.compile.org.campagnelab.metar.tables, java.compile.org.campagnelab.styles, fetchDependencies">
     <mkdir dir="${basedir}/languages/org.campagnelab.metar.biomart/source_gen" />
     <mkdir dir="${build.tmp}/java/out/org.campagnelab.metar.biomart" />
     <javac destdir="${build.tmp}/java/out/org.campagnelab.metar.biomart" fork="true" includeantruntime="false" source="1.6" target="1.6">
@@ -4038,8 +4266,14 @@
         <fileset file="${artifacts.mps}/lib/mps-editor.jar" />
         <fileset file="${artifacts.mps}/lib/mps-environment.jar" />
         <fileset file="${artifacts.mps}/lib/mps-platform.jar" />
+        <pathelement path="${build.tmp}/java/out/org.campagnelab.metar.R" />
+        <pathelement path="${build.tmp}/java/out/org.campagnelab.metar.R.gen" />
         <fileset file="${artifacts.mps}/plugins/mps-java/lib/mpsjava.jar" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.metar.biomart.web" />
+        <pathelement path="${build.tmp}/java/out/org.campagnelab.metar.code" />
+        <pathelement path="${build.tmp}/java/out/org.campagnelab.metar.inspect" />
+        <pathelement path="${build.tmp}/java/out/org.campagnelab.metar.r.stubs" />
+        <pathelement path="${build.tmp}/java/out/org.campagnelab.metar.tables" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.styles" />
         <fileset file="${basedir}/languages/org.campagnelab.metar.R/R.parsers-1.0-SNAPSHOT-complete.jar" />
         <fileset file="${build.tmp}/deps/XChart/XChart__dl__lbrace_XChart_version_rbrace_.zip/XChart/lib/xchart-2.4.1-SNAPSHOT.jar" />
@@ -4071,7 +4305,6 @@
         <fileset file="${build.tmp}/deps/XChart/XChart__dl__lbrace_XChart_version_rbrace_.zip/XChart/languages/XChart/org.campagnelab.mps.XChart.jar" />
         <fileset file="${build.tmp}/deps/XChart/XChart__dl__lbrace_XChart_version_rbrace_.zip/XChart/languages/XChart/org.campagnelab.mps.XChart.types.jar" />
         <fileset file="${build.tmp}/deps/org.campagnelab.TextOutput/org.campagnelab.TextOutput-_dl__lbrace_textoutput_version_rbrace_.zip/TextOutput/languages/TextOutput/org.campagnelab.textoutput.jar" />
-        <pathelement path="${build.tmp}/java.modules.cycle.1" />
       </classpath>
     </javac>
     <copy todir="${build.tmp}/java/out/org.campagnelab.metar.biomart">
@@ -4146,7 +4379,7 @@
     </copy>
   </target>
   
-  <target name="java.compile.org.campagnelab.metar.biomartToR" depends="java.compile.org.campagnelab.metar.biomart.web, java.compile.org.campagnelab.styles, java.compile.java.modules.cycle.1, fetchDependencies">
+  <target name="java.compile.org.campagnelab.metar.biomartToR" depends="java.compile.org.campagnelab.metar.R, java.compile.org.campagnelab.metar.R.gen, java.compile.org.campagnelab.metar.biomart, java.compile.org.campagnelab.metar.biomart.web, java.compile.org.campagnelab.metar.code, java.compile.org.campagnelab.metar.inspect, java.compile.org.campagnelab.metar.r.stubs, java.compile.org.campagnelab.metar.tables, java.compile.org.campagnelab.styles, java.compile.java.modules.cycle.1, fetchDependencies">
     <mkdir dir="${basedir}/languages/org.campagnelab.metar.MetarToR/source_gen" />
     <mkdir dir="${build.tmp}/java/out/org.campagnelab.metar.biomartToR" />
     <javac destdir="${build.tmp}/java/out/org.campagnelab.metar.biomartToR" fork="true" includeantruntime="false" source="1.6" target="1.6">
@@ -4167,8 +4400,15 @@
         <fileset file="${artifacts.mps}/lib/mps-editor.jar" />
         <fileset file="${artifacts.mps}/lib/mps-environment.jar" />
         <fileset file="${artifacts.mps}/lib/mps-platform.jar" />
+        <pathelement path="${build.tmp}/java/out/org.campagnelab.metar.R" />
+        <pathelement path="${build.tmp}/java/out/org.campagnelab.metar.R.gen" />
         <fileset file="${artifacts.mps}/plugins/mps-java/lib/mpsjava.jar" />
+        <pathelement path="${build.tmp}/java/out/org.campagnelab.metar.biomart" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.metar.biomart.web" />
+        <pathelement path="${build.tmp}/java/out/org.campagnelab.metar.code" />
+        <pathelement path="${build.tmp}/java/out/org.campagnelab.metar.inspect" />
+        <pathelement path="${build.tmp}/java/out/org.campagnelab.metar.r.stubs" />
+        <pathelement path="${build.tmp}/java/out/org.campagnelab.metar.tables" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.styles" />
         <fileset file="${basedir}/languages/org.campagnelab.metar.R/R.parsers-1.0-SNAPSHOT-complete.jar" />
         <fileset file="${build.tmp}/deps/XChart/XChart__dl__lbrace_XChart_version_rbrace_.zip/XChart/lib/xchart-2.4.1-SNAPSHOT.jar" />
@@ -4360,7 +4600,7 @@
     </copy>
   </target>
   
-  <target name="java.compile.org.campagnelab.metar.with.r#6508763087478316420" depends="java.compile.org.campagnelab.metar.R.gen, java.compile.org.campagnelab.metar.inspect, java.compile.org.campagnelab.metar.r.stubs, java.compile.org.campagnelab.metar.tables, java.compile.org.campagnelab.metar.with.r, java.compile.org.campagnelab.styles, fetchDependencies">
+  <target name="java.compile.org.campagnelab.metar.with.r#6508763087478316420" depends="java.compile.org.campagnelab.metar.R, java.compile.org.campagnelab.metar.R.gen, java.compile.org.campagnelab.metar.inspect, java.compile.org.campagnelab.metar.r.stubs, java.compile.org.campagnelab.metar.tables, java.compile.org.campagnelab.metar.with.r, java.compile.org.campagnelab.styles, fetchDependencies">
     <mkdir dir="${basedir}/languages/org.campagnelab.metar.with.r/generator/source_gen" />
     <mkdir dir="${build.tmp}/java/out/org.campagnelab.metar.with.r#6508763087478316420" />
     <javac destdir="${build.tmp}/java/out/org.campagnelab.metar.with.r#6508763087478316420" fork="true" includeantruntime="false" source="1.6" target="1.6">
@@ -4381,12 +4621,14 @@
         <fileset file="${artifacts.mps}/lib/mps-editor.jar" />
         <fileset file="${artifacts.mps}/lib/mps-environment.jar" />
         <fileset file="${artifacts.mps}/lib/mps-platform.jar" />
+        <pathelement path="${build.tmp}/java/out/org.campagnelab.metar.R" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.metar.R.gen" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.metar.inspect" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.metar.r.stubs" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.metar.tables" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.metar.with.r" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.styles" />
+        <fileset file="${basedir}/languages/org.campagnelab.metar.R/R.parsers-1.0-SNAPSHOT-complete.jar" />
         <fileset file="${build.tmp}/deps/XChart/XChart__dl__lbrace_XChart_version_rbrace_.zip/XChart/lib/xchart-2.4.1-SNAPSHOT.jar" />
         <fileset file="${artifacts.mps}/lib/log4j.jar" />
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
@@ -4415,7 +4657,7 @@
     </copy>
   </target>
   
-  <target name="java.compile.org.campagnelab.metar.sleuth" depends="java.compile.org.campagnelab.metar.R.gen, java.compile.org.campagnelab.metar.code, java.compile.org.campagnelab.metar.inspect, java.compile.org.campagnelab.metar.models, java.compile.org.campagnelab.metar.tables, java.compile.org.campagnelab.styles, fetchDependencies">
+  <target name="java.compile.org.campagnelab.metar.sleuth" depends="java.compile.org.campagnelab.metar.R.gen, java.compile.org.campagnelab.metar.code, java.compile.org.campagnelab.metar.inspect, java.compile.org.campagnelab.metar.models, java.compile.org.campagnelab.metar.r.stubs, java.compile.org.campagnelab.metar.tables, java.compile.org.campagnelab.styles, fetchDependencies">
     <mkdir dir="${basedir}/languages/org.campagnelab.metar.sleuth/source_gen" />
     <mkdir dir="${build.tmp}/java/out/org.campagnelab.metar.sleuth" />
     <javac destdir="${build.tmp}/java/out/org.campagnelab.metar.sleuth" fork="true" includeantruntime="false" source="1.6" target="1.6">
@@ -4440,6 +4682,7 @@
         <pathelement path="${build.tmp}/java/out/org.campagnelab.metar.code" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.metar.inspect" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.metar.models" />
+        <pathelement path="${build.tmp}/java/out/org.campagnelab.metar.r.stubs" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.metar.tables" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.styles" />
         <fileset file="${build.tmp}/deps/XChart/XChart__dl__lbrace_XChart_version_rbrace_.zip/XChart/lib/xchart-2.4.1-SNAPSHOT.jar" />
@@ -4694,7 +4937,7 @@
     </copy>
   </target>
   
-  <target name="java.compile.org.campagnelab.jupyterManager" depends="java.compile.org.campagnelab.styles, java.compile.java.modules.cycle.1, fetchDependencies">
+  <target name="java.compile.org.campagnelab.jupyterManager" depends="java.compile.org.campagnelab.styles, java.compile.java.modules.cycle.2, fetchDependencies">
     <mkdir dir="${basedir}/languages/org.campagnelab.jupyterManager/source_gen" />
     <mkdir dir="${build.tmp}/java/out/org.campagnelab.jupyterManager" />
     <javac destdir="${build.tmp}/java/out/org.campagnelab.jupyterManager" fork="true" includeantruntime="false" source="1.6" target="1.6">
@@ -4705,22 +4948,24 @@
       <classpath>
         <fileset file="${artifacts.mps}/plugins/mps-console/lib/mps-console.jar" />
         <fileset file="${artifacts.mps}/plugins/mps-execution-api/lib/execution-api.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-behavior-api.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-behavior-runtime.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-core.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-openapi.jar" />
         <fileset file="${artifacts.mps}/lib/mps-closures.jar" />
         <fileset file="${artifacts.mps}/lib/mps-collections.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-openapi.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-core.jar" />
         <fileset file="${artifacts.mps}/lib/mps-tuples.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-behavior-api.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-behavior-runtime.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-environment.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-platform.jar" />
         <fileset file="${artifacts.mps}/lib/mps-editor-api.jar" />
         <fileset file="${artifacts.mps}/lib/mps-editor-runtime.jar" />
         <fileset file="${artifacts.mps}/lib/mps-editor.jar" />
-        <fileset file="${artifacts.mps}/plugins/mps-java/lib/mps-java-common.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-environment.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-platform.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-tool.jar" />
         <fileset file="${artifacts.mps}/lib/mps-icons.jar" />
         <fileset file="${artifacts.mps}/lib/mps-workbench.jar" />
+        <fileset file="${artifacts.mps}/plugins/mps-debugger-api/lib/debugger-api.jar" />
+        <fileset file="${artifacts.mps}/plugins/mps-execution-languages/lib/execution-languages.jar" />
+        <fileset file="${artifacts.mps}/plugins/mps-java/lib/mps-java-common.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-tool.jar" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.styles" />
         <fileset file="${basedir}/languages/org.campagnelab.jupyterManager/reactive-streams-1.0.0.jar" />
         <fileset file="${basedir}/languages/org.campagnelab.jupyterManager/netty-transport-4.0.36.Final.jar" />
@@ -4770,7 +5015,7 @@
         <fileset file="${build.tmp}/deps/XChart/XChart__dl__lbrace_XChart_version_rbrace_.zip/XChart/languages/XChart/org.campagnelab.mps.XChart.jar" />
         <fileset file="${build.tmp}/deps/XChart/XChart__dl__lbrace_XChart_version_rbrace_.zip/XChart/languages/XChart/org.campagnelab.mps.XChart.types.jar" />
         <fileset file="${build.tmp}/deps/org.campagnelab.TextOutput/org.campagnelab.TextOutput-_dl__lbrace_textoutput_version_rbrace_.zip/TextOutput/languages/TextOutput/org.campagnelab.textoutput.jar" />
-        <pathelement path="${build.tmp}/java.modules.cycle.1" />
+        <pathelement path="${build.tmp}/java.modules.cycle.2" />
       </classpath>
     </javac>
     <copy todir="${build.tmp}/java/out/org.campagnelab.jupyterManager">
@@ -4845,7 +5090,7 @@
     </copy>
   </target>
   
-  <target name="java.compile.org.campagnelab.jupyterManager.plugin" depends="java.compile.org.campagnelab.styles, java.compile.java.modules.cycle.1, fetchDependencies">
+  <target name="java.compile.org.campagnelab.jupyterManager.plugin" depends="java.compile.org.campagnelab.styles, java.compile.java.modules.cycle.2, fetchDependencies">
     <mkdir dir="${basedir}/solutions/org.campagnelab.jupyterManager.plugin/source_gen" />
     <mkdir dir="${build.tmp}/java/out/org.campagnelab.jupyterManager.plugin" />
     <javac destdir="${build.tmp}/java/out/org.campagnelab.jupyterManager.plugin" fork="true" includeantruntime="false" source="1.6" target="1.6">
@@ -4953,7 +5198,7 @@
         <fileset file="${build.tmp}/deps/XChart/XChart__dl__lbrace_XChart_version_rbrace_.zip/XChart/languages/XChart/org.campagnelab.mps.XChart.types.jar" />
         <fileset file="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip/NYoSh/languages/NYoSh/org.campagnelab.nyosh.lib.jar" />
         <fileset file="${build.tmp}/deps/org.campagnelab.TextOutput/org.campagnelab.TextOutput-_dl__lbrace_textoutput_version_rbrace_.zip/TextOutput/languages/TextOutput/org.campagnelab.textoutput.jar" />
-        <pathelement path="${build.tmp}/java.modules.cycle.1" />
+        <pathelement path="${build.tmp}/java.modules.cycle.2" />
       </classpath>
     </javac>
     <copy todir="${build.tmp}/java/out/org.campagnelab.jupyterManager.plugin">
@@ -4971,11 +5216,11 @@
     <delete dir="${basedir}/solutions/org.campagnelab.editor.plugins/source_gen" />
     <delete dir="${basedir}/languages/org.campagnelab.jupyterManager/generator/source_gen" />
     <delete dir="${basedir}/languages/org.campagnelab.metar.R/generator/source_gen" />
-    <delete dir="${basedir}/languages/org.campagnelab.metar.R.access/generator/source_gen" />
+    <delete dir="${basedir}/languages/org.campagnelab.metar.R.access/source_gen" />
     <delete dir="${basedir}/languages/org.campagnelab.metar.R.inspect/source_gen" />
     <delete dir="${basedir}/solutions/org.campagnelab.metar.R.plugin/source_gen" />
-    <delete dir="${basedir}/languages/org.campagnelab.metar.biomart/generator/source_gen" />
-    <delete dir="${basedir}/languages/org.campagnelab.metar.MetarToR/generator/source_gen" />
+    <delete dir="${basedir}/languages/org.campagnelab.metar.biomart/source_gen" />
+    <delete dir="${basedir}/languages/org.campagnelab.metar.MetarToR/source_gen" />
     <delete dir="${basedir}/languages/org.campagnelab.metar.code/generator/source_gen" />
     <delete dir="${basedir}/languages/org.campagnelab.metar.functions.access/source_gen" />
     <delete dir="${basedir}/languages/org.campagnelab.metar.functions.importing/generator/source_gen" />
@@ -4983,6 +5228,7 @@
     <delete dir="${basedir}/languages/org.campagnelab.metar.limma/source_gen" />
     <delete dir="${basedir}/languages/org.campagnelab.metar.models/source_gen" />
     <delete dir="${basedir}/languages/org.campagnelab.metar.plots/source_gen" />
+    <delete dir="${basedir}/languages/org.campagnelab.metar.r.metar/source_gen" />
     <delete dir="${basedir}/languages/org.campagnelab.metar.simulation/source_gen" />
     <delete dir="${basedir}/languages/org.campagnelab.metar.sleuth/source_gen" />
     <delete dir="${basedir}/languages/org.campagnelab.metaR.tables/generator/source_gen" />

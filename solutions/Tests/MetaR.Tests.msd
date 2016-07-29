@@ -44,6 +44,7 @@
     <language id="32f503e8-061b-451e-bcb0-fef56aa05eb9" fqName="org.campagnelab.metar.inspect" version="0" />
     <language id="049ed9e7-0f0d-4814-a373-a4b21e15b59e" fqName="org.campagnelab.metar.limma" version="1" />
     <language id="ecc862c9-5ab5-42ef-8703-2039019fb338" fqName="org.campagnelab.metar.models" version="1" />
+    <language id="e4bb94f9-1202-448e-98f6-d108577add14" fqName="org.campagnelab.metar.r.metar" version="-1" />
     <language id="067d1b0c-daf1-44f9-9fbd-e1dd4c6e26e8" fqName="org.campagnelab.metar.simulation" version="0" />
     <language id="5d6bde84-4ce4-4eb5-a37e-25a5edd55129" fqName="org.campagnelab.metar.tables" version="2" />
     <language id="af754813-06c7-4cd1-8f24-cc91ec8e5d34" fqName="org.campagnelab.metar.with.r" version="0" />
