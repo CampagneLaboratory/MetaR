@@ -10,6 +10,7 @@
     <dependency reexport="false">040d3459-0033-45bb-b823-4cfd22657c15(org.campagnelab.metar.biomartToR)</dependency>
     <dependency reexport="false">af754813-06c7-4cd1-8f24-cc91ec8e5d34(org.campagnelab.metar.with.r)</dependency>
     <dependency reexport="false">8e2c4123-1984-45f0-81f5-0fd1ae49bd40(DocModels)</dependency>
+    <dependency reexport="false">9c4c21db-948a-44c6-8d32-16dd401e98b0(org.campagnelab.metar.r.stubs)</dependency>
   </dependencies>
   <usedDevKits>
     <usedDevKit>8a3636fa-c6ec-4cb0-bc2a-b7143f2a4937(org.campagnelab.metaR)</usedDevKit>

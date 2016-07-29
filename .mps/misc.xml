@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="MPSFavoritesManager">
+    <favorites_list name="R">
+      <favorite_root node_ref="r:da596c7b-a1e5-402b-86cd-528700dd36e0(withMetaR)/213294746050600871" />
+    </favorites_list>
     <option name="keepMe" value="true" />
+  </component>
+  <component name="SvnBranchConfigurationManager">
+    <option name="mySupportsUserInfoFilter" value="true" />
   </component>
 </project>

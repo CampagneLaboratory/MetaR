@@ -93,6 +93,9 @@
     <node concept="PrWs8" id="5DjLoGcBJPN" role="PzmwI">
       <ref role="PrY4T" node="5DjLoGcBJPy" resolve="HasPackageImports" />
     </node>
+    <node concept="PrWs8" id="bPLB42OOCM" role="PzmwI">
+      <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
+    </node>
   </node>
   <node concept="1TIwiD" id="5mPDeVwiPap">
     <property role="TrG5h" value="Expr" />

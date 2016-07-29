@@ -1090,8 +1090,8 @@
           <ref role="3Mqssv" node="1EG$v9O98sn" resolve="Results" />
         </node>
         <node concept="1FHg$p" id="7eyWL1Lfquk" role="2_9Z7z">
-          <property role="ZHjxa" value="200" />
-          <property role="ZHjG8" value="200" />
+          <property role="ZHjxa" value="500" />
+          <property role="ZHjG8" value="500" />
           <property role="3ZMXzF" value="6" />
           <property role="TrG5h" value="plotNoLabel" />
         </node>
@@ -1105,8 +1105,20 @@
           <ref role="3MHf5w" node="3AJ457wHr9N" resolve="adj.P.Val" />
         </node>
       </node>
-      <node concept="S1EQe" id="7eyWL1LfrI9" role="ZXjPg">
-        <property role="S1EQ6" value="BYJWKEFURC" />
+      <node concept="313sG1" id="63Ijj437q4m" role="ZXjPg">
+        <property role="S1EQ6" value="ACVUMWPSSV" />
+        <property role="313rra" value="1" />
+        <property role="313rrk" value="1" />
+        <property role="31lnkE" value="true" />
+        <node concept="1FHg$p" id="63Ijj437q4n" role="319mBM">
+          <property role="ZHjxa" value="500" />
+          <property role="ZHjG8" value="500" />
+          <property role="3ZMXzF" value="1" />
+          <property role="TrG5h" value="preview" />
+        </node>
+        <node concept="31becx" id="63Ijj437qab" role="312phR">
+          <ref role="312p7B" node="7eyWL1Lfquk" resolve="plotNoLabel" />
+        </node>
       </node>
       <node concept="3MoTRY" id="4r50q8aI6DL" role="ZXjPg">
         <property role="S1EQ6" value="DMQNJCFRLX" />

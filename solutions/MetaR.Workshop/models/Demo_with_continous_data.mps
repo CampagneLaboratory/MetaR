@@ -4289,7 +4289,7 @@
         <node concept="1FHg$p" id="4ssfE$b9ViL" role="1FHg$q">
           <property role="ZHjxa" value="350" />
           <property role="ZHjG8" value="300" />
-          <property role="TrG5h" value="plot NOPE" />
+          <property role="TrG5h" value="plot no adjustments" />
           <property role="3ZMXzF" value="11" />
         </node>
         <node concept="afgQW" id="DQS$2nlq7S" role="af7lV">
@@ -4423,7 +4423,7 @@
           <property role="TrG5h" value="PreviewHeatmap" />
         </node>
         <node concept="31becx" id="4C6BoXyFKdI" role="312phR">
-          <ref role="312p7B" node="4ssfE$b9ViL" resolve="plot NOPE" />
+          <ref role="312p7B" node="4ssfE$b9ViL" resolve="plot no adjustments" />
         </node>
         <node concept="31becx" id="4C6BoXyFKdJ" role="312phR">
           <ref role="312p7B" node="4ssfE$bjIMq" resolve="plot with adjustments" />

@@ -1091,6 +1091,9 @@
     <property role="R5$K2" value="false" />
     <property role="1pbfSe" value="963867893" />
     <ref role="1TJDcQ" node="7LvyiX4miiC" resolve="Statement" />
+    <node concept="PrWs8" id="bPLB43fxe3" role="PzmwI">
+      <ref role="PrY4T" node="bPLB43fxe2" resolve="PlotBuilderStatementI" />
+    </node>
   </node>
   <node concept="1TIwiD" id="4cOBe2EdOid">
     <property role="3GE5qa" value="plots" />
@@ -6285,6 +6288,11 @@
     <property role="TrG5h" value="StripeColor" />
     <property role="34LRSv" value="Stripe color" />
     <ref role="1TJDcQ" node="e_7xe$xDZk" resolve="StripeColorStyleClass" />
+  </node>
+  <node concept="PlHQZ" id="bPLB43fxe2">
+    <property role="1pbfSe" value="104061427" />
+    <property role="3GE5qa" value="plots" />
+    <property role="TrG5h" value="PlotBuilderStatementI" />
   </node>
 </model>
 
