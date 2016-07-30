@@ -44,6 +44,7 @@
         <property id="1071599776563" name="role" index="20kJfa" />
         <property id="1071599893252" name="sourceCardinality" index="20lbJX" />
         <property id="1071599937831" name="metaClass" index="20lmBu" />
+        <reference id="1071599698500" name="specializedLink" index="20ksaX" />
         <reference id="1071599976176" name="target" index="20lvS9" />
       </concept>
     </language>
@@ -180,6 +181,13 @@
     <property role="OYydz" value="USER_OP" />
     <property role="1pbfSe" value="906033039" />
     <ref role="1TJDcQ" node="5qM9mr9JOd5" resolve="BinaryOperatorExpr" />
+    <node concept="1TJgyj" id="4KQKRH2txKq" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="operator" />
+      <property role="20lbJX" value="1" />
+      <ref role="20ksaX" node="r9xlU4zQ3W" />
+      <ref role="20lvS9" node="4KQKRH2qvQL" resolve="UserOperator" />
+    </node>
   </node>
   <node concept="1TIwiD" id="5mPDeVwiPay">
     <property role="TrG5h" value="MultiplicationExpr" />
@@ -1252,6 +1260,8 @@
     <property role="1pbfSe" value="1902067412" />
     <property role="3GE5qa" value="operators" />
     <property role="TrG5h" value="UserOperator" />
+    <property role="R5$K7" value="true" />
+    <property role="R5$K2" value="false" />
     <ref role="1TJDcQ" node="r9xlU4zQ8W" resolve="BinaryOperator" />
     <node concept="1TJgyi" id="4KQKRH2qvQM" role="1TKVEl">
       <property role="TrG5h" value="keyword" />
