@@ -1826,7 +1826,7 @@
                 <node concept="3clFbS" id="5nDAn8vj$u$" role="SfCbr">
                   <node concept="3SKdUt" id="3V2IUSs2Y_V" role="3cqZAp">
                     <node concept="3SKdUq" id="3V2IUSs2YIQ" role="3SKWNk">
-                      <property role="3SKdUp" value="exclude names that are alias of Exp sub-concepts (e.g., if, while, etc)" />
+                      <property role="3SKdUp" value="exclude names that are alias of Expr sub-concepts (e.g., if, while, etc)" />
                     </node>
                   </node>
                   <node concept="3cpWs6" id="5nDAn8vj_Id" role="3cqZAp">

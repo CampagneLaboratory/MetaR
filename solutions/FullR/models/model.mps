@@ -90,9 +90,14 @@
       <concept id="489068675543418438" name="org.campagnelab.metar.R.structure.EqualAssignment" flags="ng" index="22gcco" />
       <concept id="489068675543418436" name="org.campagnelab.metar.R.structure.SimpleAssignment" flags="ng" index="22gccq" />
       <concept id="489068675543418432" name="org.campagnelab.metar.R.structure.Equality" flags="ng" index="22gccu" />
+      <concept id="489068675543418428" name="org.campagnelab.metar.R.structure.GreaterThan" flags="ng" index="22gcdy" />
       <concept id="489068675543418426" name="org.campagnelab.metar.R.structure.AddOperator" flags="ng" index="22gcd$" />
       <concept id="489068675543418425" name="org.campagnelab.metar.R.structure.Plus" flags="ng" index="22gcdB" />
       <concept id="489068675543418421" name="org.campagnelab.metar.R.structure.Dollar" flags="ng" index="22gcdF" />
+      <concept id="5491791729787721838" name="org.campagnelab.metar.R.structure.DplyrOperator" flags="ng" index="emxGl" />
+      <concept id="5491791729787534769" name="org.campagnelab.metar.R.structure.UserOperator" flags="ng" index="enNVa">
+        <property id="5491791729787534770" name="keyword" index="enNV9" />
+      </concept>
       <concept id="5770663561153558147" name="org.campagnelab.metar.R.structure.ParameterValue" flags="ng" index="gNblG">
         <property id="5770663561153558418" name="id" index="gNbhX" />
         <reference id="1556967766004741819" name="parameter" index="eUkdk" />
@@ -484,7 +489,59 @@
   </node>
   <node concept="2PZPSw" id="4MN$qOAyQEh">
     <property role="TrG5h" value="AnRScript" />
-    <node concept="3cU4HJ" id="4MN$qOAR08H" role="pZjJ2" />
+    <node concept="3cU4HJ" id="4KQKRH2q2f0" role="pZjJ2" />
+    <node concept="2PZJpa" id="4KQKRH2sZvq" role="pZjJ2">
+      <node concept="2PZJpp" id="4KQKRH2sZvt" role="2v3mow">
+        <property role="TrG5h" value="a" />
+      </node>
+      <node concept="2PZJpa" id="4KQKRH2sZMd" role="2v3moI">
+        <node concept="2PZJpp" id="4KQKRH2sZMg" role="2v3mow">
+          <property role="TrG5h" value="no" />
+        </node>
+        <node concept="22gcdy" id="4KQKRH2sZMh" role="22hImy" />
+        <node concept="2PZJpa" id="4KQKRH2sZMs" role="2v3moI">
+          <node concept="2PZJpp" id="4KQKRH2sZMv" role="2v3mow">
+            <property role="TrG5h" value="no" />
+          </node>
+          <node concept="22gcdy" id="4KQKRH2sZMw" role="22hImy" />
+          <node concept="2PZJpa" id="4KQKRH2sZM_" role="2v3moI">
+            <node concept="2PZJpp" id="4KQKRH2sZMC" role="2v3mow">
+              <property role="TrG5h" value="no" />
+            </node>
+            <node concept="22gcdy" id="4KQKRH2sZMD" role="22hImy" />
+            <node concept="2PZJpa" id="4KQKRH2sZMI" role="2v3moI">
+              <node concept="2PZJpp" id="4KQKRH2sZML" role="2v3mow">
+                <property role="TrG5h" value="no" />
+              </node>
+              <node concept="22gcdy" id="4KQKRH2sZMM" role="22hImy" />
+              <node concept="2PZJpa" id="4KQKRH2sZMR" role="2v3moI">
+                <node concept="2PZJpp" id="4KQKRH2sZMU" role="2v3mow">
+                  <property role="TrG5h" value="no" />
+                </node>
+                <node concept="22gcdy" id="4KQKRH2sZMV" role="22hImy" />
+                <node concept="2PZJpa" id="4KQKRH2sZN0" role="2v3moI">
+                  <node concept="2PZJpp" id="4KQKRH2sZN3" role="2v3mow">
+                    <property role="TrG5h" value="no" />
+                  </node>
+                  <node concept="22gcdy" id="4KQKRH2sZN4" role="22hImy" />
+                  <node concept="2PZJpa" id="4KQKRH2t1wB" role="2v3moI">
+                    <node concept="2PZJpp" id="4KQKRH2t1wE" role="2v3mow">
+                      <property role="TrG5h" value="no" />
+                    </node>
+                    <node concept="22gcdy" id="4KQKRH2t1wF" role="22hImy" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="emxGl" id="4KQKRH2sZMp" role="22hImy">
+        <property role="enNV9" value="." />
+      </node>
+    </node>
+    <node concept="3cU4HJ" id="4KQKRH2sZOJ" role="pZjJ2" />
+    <node concept="3cU4HJ" id="4KQKRH2t082" role="pZjJ2" />
     <node concept="2PZJp0" id="4MN$qOAyXJ0" role="pZjJ2">
       <node concept="2PZJpb" id="4MN$qOAyXJ3" role="oP3ar">
         <node concept="20C$T_" id="4MN$qOAyXJ4" role="22sOXp" />

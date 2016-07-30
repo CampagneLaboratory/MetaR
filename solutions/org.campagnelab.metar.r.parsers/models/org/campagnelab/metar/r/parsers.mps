@@ -2264,6 +2264,20 @@
     <property role="1zNsMP" value="org.campagnelab.metar.R" />
     <property role="2In3EI" value="org.campagnelab.antlr.r.complete.R2Parser" />
     <ref role="3c7qJ7" node="v1yTSnTwTB" resolve="R2" />
+    <node concept="3fgY0T" id="4KQKRH2qBwI" role="3fgY2E">
+      <property role="22eE_H" value="2" />
+      <property role="3fgY0U" value="%&gt;%" />
+      <property role="3fgY14" value="60" />
+      <ref role="22Gb7Y" to="6q58:4KQKRH2qvQL" resolve="UserOperator" />
+      <ref role="3fs7he" to="6q58:4KQKRH2qB$9" resolve="MagriteOperator" />
+    </node>
+    <node concept="3fgY0T" id="4KQKRH2rdxd" role="3fgY2E">
+      <property role="22eE_H" value="2" />
+      <property role="3fgY0U" value="%.%" />
+      <property role="3fgY14" value="60" />
+      <ref role="22Gb7Y" to="6q58:4KQKRH2qvQL" resolve="UserOperator" />
+      <ref role="3fs7he" to="6q58:4KQKRH2rdxI" resolve="DplyrOperator" />
+    </node>
     <node concept="3fgY0T" id="r9xlU4IHeo" role="3fgY2E">
       <property role="3fgY0U" value=":" />
       <property role="3fgY14" value="50" />
@@ -2691,8 +2705,8 @@
       <property role="gfBJI" value="&#9;|&#9;(expr ':' expr)&#10;" />
       <property role="gfBJK" value="expr:expr:expr" />
       <ref role="34cEr5" node="5mPDeVwiP90" />
-      <ref role="gaaFa" to="6q58:5mPDeVwiPaw" resolve="ColonExpr" />
       <ref role="3c7peZ" node="36CgDdK4Lv3" resolve="expr:" />
+      <ref role="gaaFa" to="6q58:4KQKRH2qei2" resolve="ColonExpr" />
       <node concept="vgRe2" id="5qM9mr9LtCz" role="vgRep">
         <node concept="F5cYx" id="5qM9mr9LtC$" role="F5cX0">
           <ref role="F5cBE" to="6q58:5qM9mr9JOd6" />
@@ -4010,11 +4024,14 @@
                 <ref role="1Mb3a4" node="36CgDdK4Lqn" resolve="expr" />
               </node>
             </node>
-            <node concept="2ZNWBQ" id="36CgDdK50OF" role="1Mb3a8">
-              <property role="2sqUGl" value="false" />
-              <property role="2sqU3E" value="false" />
-              <property role="2sqUKs" value="false" />
-              <ref role="2ZNWBR" node="36CgDdK50sa" resolve="USER_OP" />
+            <node concept="gtF4r" id="4KQKRH2sl0t" role="1Mb3a8">
+              <property role="TrG5h" value="operator" />
+              <node concept="2ZNWBQ" id="36CgDdK50OF" role="gt$ML">
+                <property role="2sqUGl" value="false" />
+                <property role="2sqU3E" value="false" />
+                <property role="2sqUKs" value="false" />
+                <ref role="2ZNWBR" node="36CgDdK50sa" resolve="USER_OP" />
+              </node>
             </node>
             <node concept="gtF4r" id="5qM9mr9LtC4" role="1Mb3a8">
               <property role="TrG5h" value="right" />

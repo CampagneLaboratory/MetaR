@@ -1236,5 +1236,41 @@
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
   </node>
+  <node concept="1TIwiD" id="4KQKRH2qcvb">
+    <property role="1pbfSe" value="1902146746" />
+    <property role="3GE5qa" value="operators" />
+    <property role="TrG5h" value="ExponentOperator" />
+    <property role="34LRSv" value="^" />
+    <ref role="1TJDcQ" node="r9xlU4zQ8W" resolve="BinaryOperator" />
+  </node>
+  <node concept="1TIwiD" id="4KQKRH2qei2">
+    <property role="1pbfSe" value="1902139395" />
+    <property role="TrG5h" value="ColonExpr" />
+    <ref role="1TJDcQ" node="5qM9mr9JOd5" resolve="BinaryOperatorExpr" />
+  </node>
+  <node concept="1TIwiD" id="4KQKRH2qvQL">
+    <property role="1pbfSe" value="1902067412" />
+    <property role="3GE5qa" value="operators" />
+    <property role="TrG5h" value="UserOperator" />
+    <ref role="1TJDcQ" node="r9xlU4zQ8W" resolve="BinaryOperator" />
+    <node concept="1TJgyi" id="4KQKRH2qvQM" role="1TKVEl">
+      <property role="TrG5h" value="keyword" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="4KQKRH2qB$9">
+    <property role="1pbfSe" value="1902035836" />
+    <property role="3GE5qa" value="operators" />
+    <property role="TrG5h" value="MagriteOperator" />
+    <property role="34LRSv" value="%&gt;%" />
+    <ref role="1TJDcQ" node="4KQKRH2qvQL" resolve="UserOperator" />
+  </node>
+  <node concept="1TIwiD" id="4KQKRH2rdxI">
+    <property role="1pbfSe" value="1901880343" />
+    <property role="3GE5qa" value="operators" />
+    <property role="TrG5h" value="DplyrOperator" />
+    <property role="34LRSv" value="%.%" />
+    <ref role="1TJDcQ" node="4KQKRH2qvQL" resolve="UserOperator" />
+  </node>
 </model>
 

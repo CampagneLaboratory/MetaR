@@ -2815,5 +2815,21 @@
       <node concept="l2Vlx" id="5hNeoO7yh6" role="2iSdaV" />
     </node>
   </node>
+  <node concept="24kQdi" id="4KQKRH2qvQT">
+    <property role="3GE5qa" value="operators" />
+    <ref role="1XX52x" to="6q58:4KQKRH2qvQL" resolve="UserOperator" />
+    <node concept="3EZMnI" id="4KQKRH2qvQV" role="2wV5jI">
+      <node concept="3F0ifn" id="4KQKRH2qvR2" role="3EZMnx">
+        <property role="3F0ifm" value="%" />
+      </node>
+      <node concept="3F0A7n" id="4KQKRH2qvR8" role="3EZMnx">
+        <ref role="1NtTu8" to="6q58:4KQKRH2qvQM" resolve="keyword" />
+      </node>
+      <node concept="3F0ifn" id="4KQKRH2qvRg" role="3EZMnx">
+        <property role="3F0ifm" value="%" />
+      </node>
+      <node concept="l2Vlx" id="4KQKRH2qvQY" role="2iSdaV" />
+    </node>
+  </node>
 </model>
 

@@ -2015,5 +2015,29 @@
       </node>
     </node>
   </node>
+  <node concept="WtQ9Q" id="4KQKRH2t1y_">
+    <property role="3GE5qa" value="operators" />
+    <ref role="WuzLi" to="6q58:4KQKRH2qvQL" resolve="UserOperator" />
+    <node concept="11bSqf" id="4KQKRH2t1yA" role="11c4hB">
+      <node concept="3clFbS" id="4KQKRH2t1yB" role="2VODD2">
+        <node concept="lc7rE" id="4KQKRH2t1yN" role="3cqZAp">
+          <node concept="la8eA" id="4KQKRH2t1zs" role="lcghm">
+            <property role="lacIc" value="%" />
+          </node>
+          <node concept="l9hG8" id="4KQKRH2t1zW" role="lcghm">
+            <node concept="2OqwBi" id="4KQKRH2t1Bm" role="lb14g">
+              <node concept="117lpO" id="4KQKRH2t1$D" role="2Oq$k0" />
+              <node concept="3TrcHB" id="4KQKRH2t1MT" role="2OqNvi">
+                <ref role="3TsBF5" to="6q58:4KQKRH2qvQM" resolve="keyword" />
+              </node>
+            </node>
+          </node>
+          <node concept="la8eA" id="4KQKRH2t1NT" role="lcghm">
+            <property role="lacIc" value="%" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 
