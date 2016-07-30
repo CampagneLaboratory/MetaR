@@ -210,6 +210,7 @@
         <reference id="5381624775493523154" name="to" index="F5cBE" />
       </concept>
       <concept id="7571208821975561179" name="org.campagnelab.antlr.tomps.structure.LexerRuleSource" flags="ng" index="FeAmk">
+        <property id="1285179507860619581" name="forceGetText" index="nshV9" />
         <property id="4522383332293586260" name="hasTrim" index="_gLrU" />
         <reference id="7571208821975561180" name="rule" index="FeAmj" />
         <child id="4522383332297295422" name="trimSets" index="_ufQg" />
@@ -2748,6 +2749,20 @@
         <node concept="F0E5f" id="5qM9mr9LtDf" role="10yyU7">
           <property role="2JxzpS" value="right" />
           <ref role="F0lT1" node="5qM9mr9LtC4" resolve="right" />
+        </node>
+      </node>
+      <node concept="vgRe2" id="17lRZg6C$jK" role="vgRep">
+        <node concept="FeAmk" id="17lRZg6C$k5" role="10yyU7">
+          <property role="2JxzpS" value="USER_OP" />
+          <property role="nshV9" value="true" />
+          <property role="TgrDL" value="1" />
+          <ref role="FeAmj" node="36CgDdK50OF" />
+        </node>
+        <node concept="22gS$6" id="17lRZg6CYjA" role="F5cX0">
+          <property role="22eGgJ" value="2" />
+          <node concept="F5cYx" id="17lRZg6CK$L" role="22gT6h">
+            <ref role="F5cBE" to="6q58:r9xlU4zQ3W" />
+          </node>
         </node>
       </node>
     </node>
