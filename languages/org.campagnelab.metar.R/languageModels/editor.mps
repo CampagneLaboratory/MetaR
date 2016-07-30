@@ -45,6 +45,7 @@
       <concept id="1080736578640" name="jetbrains.mps.lang.editor.structure.BaseEditorComponent" flags="ig" index="2wURMF">
         <child id="1080736633877" name="cellModel" index="2wV5jI" />
       </concept>
+      <concept id="795210086017940429" name="jetbrains.mps.lang.editor.structure.ReadOnlyStyleClassItem" flags="lg" index="xShMh" />
       <concept id="1164824717996" name="jetbrains.mps.lang.editor.structure.CellMenuDescriptor" flags="ng" index="OXEIz">
         <child id="1164824815888" name="cellMenuPart" index="OY2wv" />
       </concept>
@@ -2821,12 +2822,21 @@
     <node concept="3EZMnI" id="4KQKRH2qvQV" role="2wV5jI">
       <node concept="3F0ifn" id="4KQKRH2qvR2" role="3EZMnx">
         <property role="3F0ifm" value="%" />
+        <node concept="11LMrY" id="17lRZg6FlLx" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
       </node>
       <node concept="3F0A7n" id="4KQKRH2qvR8" role="3EZMnx">
         <ref role="1NtTu8" to="6q58:4KQKRH2qvQM" resolve="keyword" />
+        <node concept="xShMh" id="17lRZg6FlSk" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
       </node>
       <node concept="3F0ifn" id="4KQKRH2qvRg" role="3EZMnx">
         <property role="3F0ifm" value="%" />
+        <node concept="11L4FC" id="17lRZg6FlQD" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
       </node>
       <node concept="l2Vlx" id="4KQKRH2qvQY" role="2iSdaV" />
     </node>
