@@ -537,15 +537,15 @@
   <node concept="1TIwiD" id="5mPDeVwiPb1">
     <property role="TrG5h" value="TrueLiteralExpr" />
     <property role="OYydz" value="trueLiteral" />
-    <property role="34LRSv" value="TRUE" />
     <property role="1pbfSe" value="906033071" />
+    <property role="34LRSv" value="TRUE" />
     <ref role="1TJDcQ" node="14grA08BCRd" resolve="BooleanLiteral" />
   </node>
   <node concept="1TIwiD" id="5mPDeVwiPb2">
     <property role="TrG5h" value="FalseLiteralExpr" />
     <property role="OYydz" value="falseLiteral" />
-    <property role="34LRSv" value="FALSE" />
     <property role="1pbfSe" value="906033072" />
+    <property role="34LRSv" value="FALSE" />
     <ref role="1TJDcQ" node="14grA08BCRd" resolve="BooleanLiteral" />
   </node>
   <node concept="1TIwiD" id="5qM9mr9JOd5">

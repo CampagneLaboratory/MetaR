@@ -9,16 +9,21 @@
     <import index="6q58" ref="r:97268463-8a58-42b7-9dc6-fa004b7a4308(org.campagnelab.metar.R.structure)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="69j5" ref="r:cc2fd9c1-53e7-4805-a8bc-a07e69f2147b(org.campagnelab.metar.R.behavior)" implicit="true" />
+    <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
       <concept id="1080223426719" name="jetbrains.mps.baseLanguage.structure.OrExpression" flags="nn" index="22lmx$" />
+      <concept id="1202948039474" name="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" flags="nn" index="liA8E" />
       <concept id="1197027756228" name="jetbrains.mps.baseLanguage.structure.DotExpression" flags="nn" index="2OqwBi">
         <child id="1197027771414" name="operand" index="2Oq$k0" />
         <child id="1197027833540" name="operation" index="2OqNvi" />
       </concept>
       <concept id="1137021947720" name="jetbrains.mps.baseLanguage.structure.ConceptFunction" flags="in" index="2VMwT0">
         <child id="1137022507850" name="body" index="2VODD2" />
+      </concept>
+      <concept id="1070475926800" name="jetbrains.mps.baseLanguage.structure.StringLiteral" flags="nn" index="Xl_RD">
+        <property id="1070475926801" name="value" index="Xl_RC" />
       </concept>
       <concept id="1225271369338" name="jetbrains.mps.baseLanguage.structure.IsEmptyOperation" flags="nn" index="17RlXB" />
       <concept id="1068580123152" name="jetbrains.mps.baseLanguage.structure.EqualsExpression" flags="nn" index="3clFbC" />
@@ -221,6 +226,27 @@
       <ref role="1N5Vy1" to="6q58:1jge5x_A4_z" />
       <node concept="1dDu$B" id="3jxRpTz79KA" role="1N6uqs">
         <ref role="1dDu$A" to="6q58:5mPDeVwiPaR" resolve="Identifier" />
+      </node>
+    </node>
+  </node>
+  <node concept="1M2fIO" id="17lRZg6J6Eu">
+    <ref role="1M2myG" to="6q58:5mPDeVwiPaT" resolve="HexLiteralExpr" />
+    <node concept="EnEH3" id="17lRZg6J6Ev" role="1MhHOB">
+      <ref role="EomxK" to="6q58:14grA08BBli" resolve="value" />
+      <node concept="QB0g5" id="17lRZg6J6Ey" role="QCWH9">
+        <node concept="3clFbS" id="17lRZg6J6Ez" role="2VODD2">
+          <node concept="3clFbF" id="17lRZg6J6I1" role="3cqZAp">
+            <node concept="2OqwBi" id="17lRZg6J6La" role="3clFbG">
+              <node concept="1Wqviy" id="17lRZg6J6HX" role="2Oq$k0" />
+              <node concept="liA8E" id="17lRZg6J6WH" role="2OqNvi">
+                <ref role="37wK5l" to="wyt6:~String.matches(java.lang.String):boolean" resolve="matches" />
+                <node concept="Xl_RD" id="17lRZg6J6Yj" role="37wK5m">
+                  <property role="Xl_RC" value="0x[0-9a-fA-F]+" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
       </node>
     </node>
   </node>

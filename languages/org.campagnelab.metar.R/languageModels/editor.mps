@@ -130,6 +130,7 @@
         <property id="1238091709220" name="labelName" index="1413C4" />
       </concept>
       <concept id="1088185857835" name="jetbrains.mps.lang.editor.structure.InlineEditorComponent" flags="ig" index="1sVBvm" />
+      <concept id="1174088067129" name="jetbrains.mps.lang.editor.structure.CellMenuPart_ReplaceChildPrimary" flags="ng" index="1t6y$C" />
       <concept id="1227861515039" name="jetbrains.mps.lang.editor.structure.NavigatableReferenceStyleClassItem" flags="ln" index="3yfXC2">
         <reference id="1227861587090" name="link" index="3ygfmf" />
       </concept>
@@ -1531,7 +1532,7 @@
         <property role="Vb096" value="black" />
       </node>
       <node concept="VPxyj" id="48xyd$fid6f" role="3F10Kt">
-        <property role="VOm3f" value="false" />
+        <property role="VOm3f" value="true" />
       </node>
     </node>
   </node>
@@ -2773,20 +2774,7 @@
       <node concept="3F1sOY" id="5hNeoO7ygN" role="3EZMnx">
         <ref role="1NtTu8" to="6q58:r9xlU4zQ3W" />
         <node concept="OXEIz" id="5hNeoO7ygO" role="P5bDN">
-          <node concept="1g8mp1" id="5hNeoO7ygP" role="OY2wv">
-            <node concept="1g9Gw2" id="5hNeoO7ygQ" role="1g8mp0">
-              <node concept="3clFbS" id="5hNeoO7ygR" role="2VODD2">
-                <node concept="3clFbF" id="5hNeoO7ygS" role="3cqZAp">
-                  <node concept="2OqwBi" id="5hNeoO7ygT" role="3clFbG">
-                    <node concept="35c_gC" id="5hNeoO7ygU" role="2Oq$k0">
-                      <ref role="35c_gD" to="6q58:r9xlU4zQ8W" resolve="BinaryOperator" />
-                    </node>
-                    <node concept="FGMqu" id="5hNeoO7ygV" role="2OqNvi" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
+          <node concept="1t6y$C" id="17lRZg6GtbF" role="OY2wv" />
         </node>
       </node>
       <node concept="3F1sOY" id="5hNeoO7ygW" role="3EZMnx">
