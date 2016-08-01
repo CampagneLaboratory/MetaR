@@ -12,7 +12,6 @@
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="yy4t" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.textGen(MPS.Core/)" implicit="true" />
     <import index="69j5" ref="r:cc2fd9c1-53e7-4805-a8bc-a07e69f2147b(org.campagnelab.metar.R.behavior)" implicit="true" />
-    <import index="v8sa" ref="r:db1b133e-9a0f-4319-b384-413408eb1729(org.campagnelab.metar.tables.behavior)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -2034,8 +2033,8 @@
           <node concept="l9hG8" id="2xF4TVcGFXa" role="lcghm">
             <node concept="2OqwBi" id="2xF4TVcGG0h" role="lb14g">
               <node concept="117lpO" id="2xF4TVcGFXV" role="2Oq$k0" />
-              <node concept="2qgKlT" id="2xF4TVcGH5K" role="2OqNvi">
-                <ref role="37wK5l" to="v8sa:2xF4TVcGGn0" resolve="getSessionPath" />
+              <node concept="2qgKlT" id="1e0sE7RxHyk" role="2OqNvi">
+                <ref role="37wK5l" to="69j5:2xF4TVcGGn0" resolve="getSessionPath" />
               </node>
             </node>
           </node>
