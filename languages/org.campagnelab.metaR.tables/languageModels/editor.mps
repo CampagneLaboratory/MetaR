@@ -6680,7 +6680,7 @@
           <property role="1lJzqX" value="30" />
         </node>
         <node concept="VechU" id="L2v$sdjcT7" role="3F10Kt">
-          <property role="Vb096" value="yellow" />
+          <property role="Vb096" value="red" />
         </node>
       </node>
       <node concept="2iRfu4" id="L2v$sdjcQ3" role="2iSdaV" />
@@ -6691,7 +6691,7 @@
           <property role="1lJzqX" value="30" />
         </node>
         <node concept="VechU" id="L2v$sdjcTs" role="3F10Kt">
-          <property role="Vb096" value="yellow" />
+          <property role="Vb096" value="red" />
         </node>
       </node>
     </node>
