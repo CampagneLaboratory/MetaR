@@ -3282,5 +3282,26 @@
       <node concept="3clFbS" id="1e0sE7RxHbV" role="2VODD2" />
     </node>
   </node>
+  <node concept="13h7C7" id="7tPuoi13Mw0">
+    <property role="3GE5qa" value="operators" />
+    <ref role="13h7C2" to="6q58:7tPuoi13jr$" resolve="InMatchOperator" />
+    <node concept="13hLZK" id="7tPuoi13Mw1" role="13h7CW">
+      <node concept="3clFbS" id="7tPuoi13Mw2" role="2VODD2">
+        <node concept="3clFbF" id="7tPuoi13Mw4" role="3cqZAp">
+          <node concept="37vLTI" id="7tPuoi13N5p" role="3clFbG">
+            <node concept="Xl_RD" id="7tPuoi13N5F" role="37vLTx">
+              <property role="Xl_RC" value="in" />
+            </node>
+            <node concept="2OqwBi" id="7tPuoi13MyL" role="37vLTJ">
+              <node concept="13iPFW" id="7tPuoi13Mw3" role="2Oq$k0" />
+              <node concept="3TrcHB" id="7tPuoi13MTY" role="2OqNvi">
+                <ref role="3TsBF5" to="6q58:4KQKRH2qvQM" resolve="keyword" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 
