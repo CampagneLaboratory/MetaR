@@ -21,7 +21,7 @@
     <import index="18ew" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.util(MPS.Core/)" />
     <import index="1mjk" ref="r:72b0aa20-b681-4aef-ad30-bb23b1f4b98c(org.campagnelab.metar.code.generator.helpers)" />
     <import index="42z1" ref="r:61980467-5cf8-4450-9d24-d597512183ad(org.campagnelab.styles.behavior)" />
-    <import index="ccd1" ref="r:d4fc1ccf-1b20-4c10-aae7-94de66326394(org.campagnelab.jupyterManager.plugin.plugin)" />
+    <import index="ccd1" ref="r:d4fc1ccf-1b20-4c10-aae7-94de66326394(org.campagnelab.instantrefresh.plugin.plugin)" />
     <import index="w1kc" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.smodel(MPS.Core/)" />
     <import index="69j5" ref="r:cc2fd9c1-53e7-4805-a8bc-a07e69f2147b(org.campagnelab.metar.R.behavior)" />
     <import index="6q58" ref="r:97268463-8a58-42b7-9dc6-fa004b7a4308(org.campagnelab.metar.R.structure)" />
@@ -111,7 +111,7 @@
         <child id="1068580123160" name="condition" index="3clFbw" />
         <child id="1068580123161" name="ifTrue" index="3clFbx" />
       </concept>
-      <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" index="3clFbS">
+      <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
       </concept>
       <concept id="1068580123137" name="jetbrains.mps.baseLanguage.structure.BooleanConstant" flags="nn" index="3clFbT">
@@ -8066,11 +8066,11 @@
                     <node concept="2OqwBi" id="4cOBe2DWfEF" role="3clFbG">
                       <node concept="2OqwBi" id="4cOBe2DWd53" role="2Oq$k0">
                         <node concept="30H73N" id="4cOBe2DWcYy" role="2Oq$k0" />
-                        <node concept="3TrEf2" id="4cOBe2DWeIX" role="2OqNvi">
+                        <node concept="3TrEf2" id="7tPuoi0Ud3h" role="2OqNvi">
                           <ref role="3Tt5mk" to="jrxw:2GnvTFE7ITX" />
                         </node>
                       </node>
-                      <node concept="2qgKlT" id="4cOBe2DWgi1" role="2OqNvi">
+                      <node concept="2qgKlT" id="7tPuoi0Udbx" role="2OqNvi">
                         <ref role="37wK5l" to="v8sa:6WPhx9nlGAQ" resolve="getTableName" />
                       </node>
                     </node>
@@ -8341,7 +8341,7 @@
             <node concept="3clFbF" id="2AV3DmgPjxd" role="3cqZAp">
               <node concept="2OqwBi" id="2AV3DmgPjAt" role="3clFbG">
                 <node concept="30H73N" id="2AV3DmgPjxc" role="2Oq$k0" />
-                <node concept="2qgKlT" id="2AV3DmgPjYQ" role="2OqNvi">
+                <node concept="2qgKlT" id="7tPuoi0TcA4" role="2OqNvi">
                   <ref role="37wK5l" to="69j5:hlbLQwkRFj" resolve="id" />
                 </node>
               </node>

@@ -93,10 +93,6 @@
       <concept id="5770663561153557551" name="org.campagnelab.metar.R.structure.ParameterValues" flags="ng" index="gNbv0">
         <child id="5770663561153557817" name="values" index="gNbrm" />
       </concept>
-      <concept id="4798834304115080351" name="org.campagnelab.metar.R.structure.FunctionParamDeclarationList" flags="ng" index="2i91V0">
-        <child id="4798834304115073747" name="params" index="2i902c" />
-      </concept>
-      <concept id="4798834304115080350" name="org.campagnelab.metar.R.structure.ParameterDeclaration" flags="ng" index="2i91V1" />
       <concept id="1229604057012669901" name="org.campagnelab.metar.R.structure.BooleanLiteral" flags="ng" index="pzIeH">
         <property id="1229604057012669902" name="value" index="pzIeI" />
       </concept>
@@ -118,11 +114,6 @@
       <concept id="6176023809880707757" name="org.campagnelab.metar.R.structure.BodyExpr" flags="ng" index="2PZJp3">
         <child id="3737166271522071657" name="list" index="13uv25" />
       </concept>
-      <concept id="6176023809880707754" name="org.campagnelab.metar.R.structure.AssignmentOperatorExpr" flags="ng" index="2PZJp4" />
-      <concept id="6176023809880707755" name="org.campagnelab.metar.R.structure.FunctionDeclarationExpr" flags="ng" index="2PZJp5">
-        <child id="1499760628228483064" name="parameters" index="1LvdYw" />
-        <child id="1499760628228483062" name="body" index="1LvdYI" />
-      </concept>
       <concept id="6176023809880707753" name="org.campagnelab.metar.R.structure.TildeExpr" flags="ng" index="2PZJp7" />
       <concept id="6176023809880707749" name="org.campagnelab.metar.R.structure.NotExpr" flags="ng" index="2PZJpb" />
       <concept id="6176023809880707768" name="org.campagnelab.metar.R.structure.StringLiteralExpr" flags="ng" index="2PZJpm">
@@ -137,6 +128,7 @@
       <concept id="6176023809880685261" name="org.campagnelab.metar.R.structure.Prog" flags="ng" index="2PZPSz">
         <child id="1229604057017832866" name="expressions" index="pZjJ2" />
       </concept>
+      <concept id="2267681875390709148" name="org.campagnelab.metar.R.structure.ImportedPackage" flags="ng" index="2Tel4U" />
       <concept id="4933197140516011539" name="org.campagnelab.metar.R.structure.PositionalParameterValue" flags="ng" index="V6WaU" />
       <concept id="4933197140516011540" name="org.campagnelab.metar.R.structure.ParameterValueWithId" flags="ng" index="V6WaX" />
       <concept id="3737166271522079190" name="org.campagnelab.metar.R.structure.Exprlist" flags="ng" index="13u1kU">
@@ -146,6 +138,9 @@
         <reference id="7431839982580117056" name="function" index="3a69Pm" />
       </concept>
       <concept id="1826877622977697003" name="org.campagnelab.metar.R.structure.EmptyLine" flags="ng" index="3cU4HJ" />
+      <concept id="6508763087483370850" name="org.campagnelab.metar.R.structure.HasPackageImports" flags="ng" index="1mNjzD">
+        <child id="2267681875390710618" name="importedPackages" index="2TeiZW" />
+      </concept>
       <concept id="1499760628227103368" name="org.campagnelab.metar.R.structure.IdentifierRef" flags="ng" index="1LhYbg">
         <reference id="1499760628227131747" name="id" index="1Li74V" />
       </concept>
@@ -308,7 +303,7 @@
         </node>
       </node>
     </node>
-    <node concept="3cU4HJ" id="3tvgWOBlzLb" role="pZjJ2" />
+    <node concept="3cU4HJ" id="7tPuoi0SEHO" role="pZjJ2" />
     <node concept="1Nzj65" id="3tvgWOBbaIE" role="pZjJ2">
       <node concept="313sG1" id="3tvgWOBbaJb" role="1Nzj64">
         <property role="S1EQ6" value="KYUIBGYKSR" />
@@ -347,26 +342,6 @@
         <ref role="1Li74V" to="4tsn:1yhT8VTIzyO" resolve="library" />
         <ref role="3a69Pm" to="4tsn:1yhT8VTIzyP" />
       </node>
-    </node>
-    <node concept="2PZJp4" id="3tvgWOBkLTQ" role="pZjJ2">
-      <node concept="2PZJpp" id="3tvgWOBkLTT" role="2v3mow">
-        <property role="TrG5h" value="convertPathToJupyterPath" />
-      </node>
-      <node concept="2PZJp5" id="3tvgWOBkLTU" role="2v3moI">
-        <node concept="2i91V0" id="3tvgWOBkLTY" role="1LvdYw">
-          <node concept="2i91V1" id="3tvgWOBkLTZ" role="2i902c">
-            <property role="TrG5h" value="path" />
-          </node>
-        </node>
-        <node concept="2PZJp3" id="3tvgWOBkLU0" role="1LvdYI">
-          <node concept="13u1kU" id="3tvgWOBkLU2" role="13uv25">
-            <node concept="2PZJpp" id="3tvgWOBkLU3" role="13u1kV">
-              <property role="TrG5h" value="path" />
-            </node>
-          </node>
-        </node>
-      </node>
-      <node concept="22gccq" id="3tvgWOBkLU4" role="22hImy" />
     </node>
     <node concept="2PZJp0" id="3tvgWOBkism" role="pZjJ2">
       <node concept="2PZJpb" id="3tvgWOBkisn" role="oP3ar">
@@ -419,6 +394,9 @@
               <ref role="3a69Pm" to="4tsn:1yhT8VTIzyP" />
               <ref role="1Li74V" to="4tsn:1yhT8VTIzyO" resolve="library" />
             </node>
+          </node>
+          <node concept="2Tel4U" id="7tPuoi0SIyJ" role="2TeiZW">
+            <property role="TrG5h" value="data.table" />
           </node>
         </node>
       </node>
@@ -505,6 +483,9 @@
             </node>
           </node>
           <node concept="3cU4HJ" id="3tvgWOBkitf" role="13u1kV" />
+          <node concept="2Tel4U" id="7tPuoi0SIzv" role="2TeiZW">
+            <property role="TrG5h" value="biomaRt" />
+          </node>
         </node>
       </node>
     </node>
@@ -52275,6 +52256,18 @@
     <node concept="3cU4HJ" id="bPLB42Nq26" role="pZjJ2" />
     <node concept="3cU4HJ" id="bPLB42Nq2r" role="pZjJ2" />
     <node concept="3cU4HJ" id="bPLB42NpYO" role="pZjJ2" />
+    <node concept="2Tel4U" id="7tPuoi0SIxZ" role="2TeiZW">
+      <property role="TrG5h" value="ztable" />
+    </node>
+    <node concept="2Tel4U" id="7tPuoi0SI$f" role="2TeiZW">
+      <property role="TrG5h" value="biomaRt" />
+    </node>
+    <node concept="2Tel4U" id="7tPuoi0SI_0" role="2TeiZW">
+      <property role="TrG5h" value="data.table" />
+    </node>
+    <node concept="2Tel4U" id="7tPuoi0SI_M" role="2TeiZW">
+      <property role="TrG5h" value="data.table" />
+    </node>
   </node>
 </model>
 
