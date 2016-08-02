@@ -2383,7 +2383,7 @@
                     <node concept="X8dFx" id="52J4nYw8qtP" role="2OqNvi">
                       <node concept="2OqwBi" id="52J4nYw8qtQ" role="25WWJ7">
                         <node concept="1PxgMI" id="52J4nYw8qtR" role="2Oq$k0">
-                          <ref role="1PxNhF" to="6q58:5qM9mr9JOd5" resolve="BinaryOperatorExpr" />
+                          <ref role="1PxNhF" to="6q58:15COMTn5xlQ" resolve="IHasModifiableChildren" />
                           <node concept="37vLTw" id="52J4nYw8qtS" role="1PxMeX">
                             <ref role="3cqZAo" node="52J4nYw8qtB" resolve="expression" />
                           </node>
@@ -2401,8 +2401,8 @@
                   <ref role="3cqZAo" node="52J4nYw8qtB" resolve="expression" />
                 </node>
                 <node concept="1mIQ4w" id="52J4nYw8qtW" role="2OqNvi">
-                  <node concept="chp4Y" id="52J4nYw8qtX" role="cj9EA">
-                    <ref role="cht4Q" to="6q58:5qM9mr9JOd5" resolve="BinaryOperatorExpr" />
+                  <node concept="chp4Y" id="7EwhY3QlFh" role="cj9EA">
+                    <ref role="cht4Q" to="6q58:15COMTn5xlQ" resolve="IHasModifiableChildren" />
                   </node>
                 </node>
               </node>
