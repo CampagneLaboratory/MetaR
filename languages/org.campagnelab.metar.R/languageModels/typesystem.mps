@@ -70,7 +70,7 @@
         <child id="1068580123160" name="condition" index="3clFbw" />
         <child id="1068580123161" name="ifTrue" index="3clFbx" />
       </concept>
-      <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" index="3clFbS">
+      <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
       </concept>
       <concept id="1068580123137" name="jetbrains.mps.baseLanguage.structure.BooleanConstant" flags="nn" index="3clFbT">
@@ -2460,54 +2460,6 @@
     <node concept="1YaCAy" id="L2v$sc8RrL" role="1YuTPh">
       <property role="TrG5h" value="floatLiteralExpr" />
       <ref role="1YaFvo" to="6q58:5mPDeVwiPaV" resolve="FloatLiteralExpr" />
-    </node>
-  </node>
-  <node concept="18kY7G" id="52J4nYw8kby">
-    <property role="TrG5h" value="IdentifierIsAssigned" />
-    <node concept="3clFbS" id="52J4nYw8kbz" role="18ibNy">
-      <node concept="3clFbJ" id="52J4nYw8kbI" role="3cqZAp">
-        <node concept="3clFbS" id="52J4nYw8kbJ" role="3clFbx">
-          <node concept="2MkqsV" id="52J4nYw8knx" role="3cqZAp">
-            <node concept="Xl_RD" id="52J4nYw8knH" role="2MkJ7o">
-              <property role="Xl_RC" value="The identifier must be assigned" />
-            </node>
-            <node concept="1YBJjd" id="52J4nYw8koD" role="2OEOjV">
-              <ref role="1YBMHb" node="52J4nYw8kb_" resolve="identifier" />
-            </node>
-          </node>
-        </node>
-        <node concept="1Wc70l" id="52J4nYwo6Lz" role="3clFbw">
-          <node concept="2OqwBi" id="52J4nYwo7pv" role="3uHU7w">
-            <node concept="2OqwBi" id="52J4nYwo796" role="2Oq$k0">
-              <node concept="1YBJjd" id="52J4nYwo6My" role="2Oq$k0">
-                <ref role="1YBMHb" node="52J4nYw8kb_" resolve="identifier" />
-              </node>
-              <node concept="2Xjw5R" id="52J4nYwo7gf" role="2OqNvi">
-                <node concept="1xMEDy" id="52J4nYwo7gh" role="1xVPHs">
-                  <node concept="chp4Y" id="52J4nYwo7la" role="ri$Ld">
-                    <ref role="cht4Q" to="6q58:5mPDeVwiPaG" resolve="FunctionCallExpr" />
-                  </node>
-                </node>
-              </node>
-            </node>
-            <node concept="3w_OXm" id="52J4nYwo7wd" role="2OqNvi" />
-          </node>
-          <node concept="3fqX7Q" id="52J4nYw8klX" role="3uHU7B">
-            <node concept="2OqwBi" id="52J4nYw8klZ" role="3fr31v">
-              <node concept="1YBJjd" id="52J4nYw8km0" role="2Oq$k0">
-                <ref role="1YBMHb" node="52J4nYw8kb_" resolve="identifier" />
-              </node>
-              <node concept="2qgKlT" id="52J4nYw8km1" role="2OqNvi">
-                <ref role="37wK5l" to="69j5:1W3p0TN1L4u" resolve="isAssigned" />
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="1YaCAy" id="52J4nYw8kb_" role="1YuTPh">
-      <property role="TrG5h" value="identifier" />
-      <ref role="1YaFvo" to="6q58:5mPDeVwiPaR" resolve="Identifier" />
     </node>
   </node>
   <node concept="1YbPZF" id="L2v$sc8RKU">
