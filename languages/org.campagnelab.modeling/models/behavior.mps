@@ -178,6 +178,26 @@
         <node concept="17QB3L" id="2OXSMi_pbSb" role="A3Ik2" />
       </node>
     </node>
+    <node concept="13i0hz" id="6i40IpTqD9b" role="13h7CS">
+      <property role="TrG5h" value="getPlot" />
+      <property role="13i0it" value="false" />
+      <property role="13i0iv" value="false" />
+      <ref role="13i0hy" to="v8sa:L2v$scW7kG" resolve="getPlot" />
+      <node concept="3Tm1VV" id="6i40IpTqD9c" role="1B3o_S" />
+      <node concept="3clFbS" id="6i40IpTqD9f" role="3clF47">
+        <node concept="3clFbF" id="6i40IpTqDab" role="3cqZAp">
+          <node concept="2OqwBi" id="6i40IpTqDel" role="3clFbG">
+            <node concept="13iPFW" id="6i40IpTqDaa" role="2Oq$k0" />
+            <node concept="3TrEf2" id="6i40IpTqDnE" role="2OqNvi">
+              <ref role="3Tt5mk" to="5j4l:5d7YQINxjEO" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tqbb2" id="6i40IpTqD9g" role="3clF45">
+        <ref role="ehGHo" to="jrxw:7lAbM$uOMoK" resolve="Plot" />
+      </node>
+    </node>
   </node>
   <node concept="13h7C7" id="2OXSMi_pV$M">
     <ref role="13h7C2" to="5j4l:2OXSMi_pK0Y" resolve="PlotReliabilityDiagram" />
@@ -283,6 +303,26 @@
       </node>
       <node concept="3uibUv" id="2OXSMi_qdXa" role="3clF45">
         <ref role="3uigEE" to="o8zo:3fifI_xCtN$" resolve="Scope" />
+      </node>
+    </node>
+    <node concept="13i0hz" id="6i40IpTsXMr" role="13h7CS">
+      <property role="TrG5h" value="getPlot" />
+      <property role="13i0it" value="false" />
+      <property role="13i0iv" value="false" />
+      <ref role="13i0hy" to="v8sa:L2v$scW7kG" resolve="getPlot" />
+      <node concept="3Tm1VV" id="6i40IpTsXMs" role="1B3o_S" />
+      <node concept="3clFbS" id="6i40IpTsXMv" role="3clF47">
+        <node concept="3clFbF" id="6i40IpTsXQv" role="3cqZAp">
+          <node concept="2OqwBi" id="6i40IpTsXUJ" role="3clFbG">
+            <node concept="13iPFW" id="6i40IpTsXQu" role="2Oq$k0" />
+            <node concept="3TrEf2" id="6i40IpTsYbU" role="2OqNvi">
+              <ref role="3Tt5mk" to="5j4l:2OXSMi_pK26" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tqbb2" id="6i40IpTsXMw" role="3clF45">
+        <ref role="ehGHo" to="jrxw:7lAbM$uOMoK" resolve="Plot" />
       </node>
     </node>
   </node>

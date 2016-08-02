@@ -31,6 +31,7 @@
     <import index="5j4l" ref="r:117e74b0-b84a-4229-b568-4d44d5a82fc8(org.campagnelab.modeling.structure)" implicit="true" />
     <import index="1mjk" ref="r:72b0aa20-b681-4aef-ad30-bb23b1f4b98c(org.campagnelab.metar.code.generator.helpers)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
+    <import index="69j5" ref="r:cc2fd9c1-53e7-4805-a8bc-a07e69f2147b(org.campagnelab.metar.R.behavior)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
   </imports>
   <registry>
@@ -204,7 +205,7 @@
     <node concept="3aamgX" id="4sETwl$2Sha" role="3acgRq">
       <ref role="30HIoZ" to="5j4l:4sETwl$2Mt4" resolve="PlotLearningCurve" />
       <node concept="j$656" id="4sETwl$2Shb" role="1lVwrX">
-        <ref role="v9R2y" node="4sETwl$2Sh8" resolve="reduce_PlotLearningCurve" />
+        <ref role="v9R2y" node="4sETwl$2MV9" resolve="reduce_PlotLearningCurve" />
       </node>
     </node>
     <node concept="3aamgX" id="2OXSMi_pK14" role="3acgRq">
@@ -551,7 +552,7 @@
                       <node concept="30H73N" id="4sETwl$2S1y" role="1PxMeX" />
                     </node>
                     <node concept="2qgKlT" id="5hNeoNoc0G" role="2OqNvi">
-                      <ref role="37wK5l" to="v8sa:2AV3DmgHDX5" resolve="id" />
+                      <ref role="37wK5l" to="69j5:hlbLQwkRFj" resolve="id" />
                     </node>
                   </node>
                 </node>
@@ -935,7 +936,7 @@
                       <node concept="30H73N" id="2OXSMi_pRI8" role="1PxMeX" />
                     </node>
                     <node concept="2qgKlT" id="2OXSMi_pRI9" role="2OqNvi">
-                      <ref role="37wK5l" to="v8sa:2AV3DmgHDX5" resolve="id" />
+                      <ref role="37wK5l" to="69j5:hlbLQwkRFj" resolve="id" />
                     </node>
                   </node>
                 </node>
