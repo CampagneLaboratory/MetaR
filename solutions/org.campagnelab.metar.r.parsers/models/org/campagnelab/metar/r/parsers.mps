@@ -148,7 +148,6 @@
       </concept>
       <concept id="1068581242863" name="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" flags="nr" index="3cpWsn" />
       <concept id="1068581517677" name="jetbrains.mps.baseLanguage.structure.VoidType" flags="in" index="3cqZAl" />
-      <concept id="1081506762703" name="jetbrains.mps.baseLanguage.structure.GreaterThanExpression" flags="nn" index="3eOSWO" />
       <concept id="1081516740877" name="jetbrains.mps.baseLanguage.structure.NotExpression" flags="nn" index="3fqX7Q">
         <child id="1081516765348" name="expression" index="3fr31v" />
       </concept>
@@ -2177,9 +2176,7 @@
                 </node>
                 <node concept="3clFbH" id="17lRZg6HM8R" role="3cqZAp" />
                 <node concept="3cpWs6" id="17lRZg6HbPn" role="3cqZAp">
-                  <node concept="3clFbT" id="17lRZg6HcyA" role="3cqZAk">
-                    <property role="3clFbU" value="true" />
-                  </node>
+                  <node concept="3clFbT" id="17lRZg6HcyA" role="3cqZAk" />
                 </node>
               </node>
               <node concept="3clFbC" id="17lRZg6H7DU" role="3clFbw">
@@ -2202,18 +2199,8 @@
               </node>
             </node>
             <node concept="3cpWs6" id="17lRZg6H0wo" role="3cqZAp">
-              <node concept="3eOSWO" id="17lRZg6HhCq" role="3cqZAk">
-                <node concept="3cmrfG" id="17lRZg6HhDh" role="3uHU7w">
-                  <property role="3cmrfH" value="10" />
-                </node>
-                <node concept="2OqwBi" id="17lRZg6Hi6S" role="3uHU7B">
-                  <node concept="37vLTw" id="17lRZg6HgYz" role="2Oq$k0">
-                    <ref role="3cqZAo" node="17lRZg6H0wy" resolve="programAsText" />
-                  </node>
-                  <node concept="liA8E" id="17lRZg6HikA" role="2OqNvi">
-                    <ref role="37wK5l" to="wyt6:~String.length():int" resolve="length" />
-                  </node>
-                </node>
+              <node concept="3clFbT" id="7tPuoi12Rpk" role="3cqZAk">
+                <property role="3clFbU" value="false" />
               </node>
             </node>
           </node>
