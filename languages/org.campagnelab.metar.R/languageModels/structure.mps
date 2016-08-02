@@ -1370,5 +1370,13 @@
     <property role="1pbfSe" value="846423646" />
     <property role="TrG5h" value="IIgnoreChanges" />
   </node>
+  <node concept="1TIwiD" id="7tPuoi13jr$">
+    <property role="TrG5h" value="InMatchOperator" />
+    <property role="3GE5qa" value="operators" />
+    <property role="34LRSv" value="%in%" />
+    <property role="1pbfSe" value="125652888" />
+    <property role="R4oN_" value="The match operator" />
+    <ref role="1TJDcQ" node="4KQKRH2qvQL" resolve="UserOperator" />
+  </node>
 </model>
 

@@ -2,12 +2,12 @@
 <model ref="r:cc2fd9c1-53e7-4805-a8bc-a07e69f2147b(org.campagnelab.metar.R.behavior)">
   <persistence version="9" />
   <languages>
-    <use id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior" version="0" />
-    <use id="d8f591ec-4d86-4af2-9f92-a9e93c803ffa" name="jetbrains.mps.lang.scopes" version="0" />
-    <use id="aee9cad2-acd4-4608-aef2-0004f6a1cdbd" name="jetbrains.mps.lang.actions" version="0" />
-    <use id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core" version="1" />
-    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="1" />
-    <use id="d7a92d38-f7db-40d0-8431-763b0c3c9f20" name="jetbrains.mps.lang.intentions" version="0" />
+    <use id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior" version="-1" />
+    <use id="d8f591ec-4d86-4af2-9f92-a9e93c803ffa" name="jetbrains.mps.lang.scopes" version="-1" />
+    <use id="aee9cad2-acd4-4608-aef2-0004f6a1cdbd" name="jetbrains.mps.lang.actions" version="-1" />
+    <use id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core" version="-1" />
+    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="-1" />
+    <use id="d7a92d38-f7db-40d0-8431-763b0c3c9f20" name="jetbrains.mps.lang.intentions" version="-1" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -120,7 +120,7 @@
         <child id="1068580123161" name="ifTrue" index="3clFbx" />
         <child id="1206060520071" name="elsifClauses" index="3eNLev" />
       </concept>
-      <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
+      <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
       </concept>
       <concept id="1068580123137" name="jetbrains.mps.baseLanguage.structure.BooleanConstant" flags="nn" index="3clFbT">
@@ -3280,6 +3280,27 @@
     </node>
     <node concept="13hLZK" id="1e0sE7RxHbU" role="13h7CW">
       <node concept="3clFbS" id="1e0sE7RxHbV" role="2VODD2" />
+    </node>
+  </node>
+  <node concept="13h7C7" id="7tPuoi13Mw0">
+    <property role="3GE5qa" value="operators" />
+    <ref role="13h7C2" to="6q58:7tPuoi13jr$" resolve="InMatchOperator" />
+    <node concept="13hLZK" id="7tPuoi13Mw1" role="13h7CW">
+      <node concept="3clFbS" id="7tPuoi13Mw2" role="2VODD2">
+        <node concept="3clFbF" id="7tPuoi13Mw4" role="3cqZAp">
+          <node concept="37vLTI" id="7tPuoi13N5p" role="3clFbG">
+            <node concept="Xl_RD" id="7tPuoi13N5F" role="37vLTx">
+              <property role="Xl_RC" value="in" />
+            </node>
+            <node concept="2OqwBi" id="7tPuoi13MyL" role="37vLTJ">
+              <node concept="13iPFW" id="7tPuoi13Mw3" role="2Oq$k0" />
+              <node concept="3TrcHB" id="7tPuoi13MTY" role="2OqNvi">
+                <ref role="3TsBF5" to="6q58:4KQKRH2qvQM" resolve="keyword" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
     </node>
   </node>
 </model>
