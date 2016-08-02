@@ -7,8 +7,10 @@
   </languages>
   <imports>
     <import index="l5qg" ref="r:c3c8723d-4db5-4e18-902d-1cb272fe4ddf(org.campagnelab.metar.R.gen.structure)" />
+    <import index="jrxw" ref="r:9f2bbfbf-f8b7-4b3b-92b1-b6a0e9642c10(org.campagnelab.metar.tables.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" implicit="true" />
+    <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
@@ -94,7 +96,10 @@
     <node concept="PrWs8" id="5DjLoGcBJPN" role="PzmwI">
       <ref role="PrY4T" node="5DjLoGcBJPy" resolve="HasPackageImports" />
     </node>
-    <node concept="PrWs8" id="bPLB42OOCM" role="PzmwI">
+    <node concept="PrWs8" id="3lASLmo9ss3" role="PzmwI">
+      <ref role="PrY4T" node="3lASLmo9rqd" resolve="IIgnoreChanges" />
+    </node>
+    <node concept="PrWs8" id="52J4nYwn4__" role="PzmwI">
       <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
     </node>
   </node>
@@ -103,6 +108,9 @@
     <property role="R5$K7" value="true" />
     <property role="R5$K2" value="false" />
     <property role="1pbfSe" value="906033031" />
+    <node concept="PrWs8" id="15COMTnnsBY" role="PzmwI">
+      <ref role="PrY4T" node="15COMTnnsmm" resolve="IAtomic" />
+    </node>
   </node>
   <node concept="1TIwiD" id="5mPDeVwiPaq">
     <property role="TrG5h" value="ElementAccessExpr" />
@@ -537,15 +545,15 @@
   <node concept="1TIwiD" id="5mPDeVwiPb1">
     <property role="TrG5h" value="TrueLiteralExpr" />
     <property role="OYydz" value="trueLiteral" />
-    <property role="1pbfSe" value="906033071" />
     <property role="34LRSv" value="TRUE" />
+    <property role="1pbfSe" value="906033071" />
     <ref role="1TJDcQ" node="14grA08BCRd" resolve="BooleanLiteral" />
   </node>
   <node concept="1TIwiD" id="5mPDeVwiPb2">
     <property role="TrG5h" value="FalseLiteralExpr" />
     <property role="OYydz" value="falseLiteral" />
-    <property role="1pbfSe" value="906033072" />
     <property role="34LRSv" value="FALSE" />
+    <property role="1pbfSe" value="906033072" />
     <ref role="1TJDcQ" node="14grA08BCRd" resolve="BooleanLiteral" />
   </node>
   <node concept="1TIwiD" id="5qM9mr9JOd5">
@@ -555,6 +563,9 @@
     <property role="34LRSv" value="&lt;-" />
     <property role="1pbfSe" value="544303275" />
     <ref role="1TJDcQ" node="5mPDeVwiPap" resolve="Expr" />
+    <node concept="PrWs8" id="15COMTnILJU" role="PzmwI">
+      <ref role="PrY4T" node="15COMTn5xlQ" resolve="IHasModifiableChildren" />
+    </node>
     <node concept="1TJgyj" id="5qM9mr9JOd6" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="left" />
@@ -622,8 +633,8 @@
     <property role="TrG5h" value="EmptyLine" />
     <property role="1pbfSe" value="284396433" />
     <ref role="1TJDcQ" node="5mPDeVwiPap" resolve="Expr" />
-    <node concept="PrWs8" id="7XZJcTGiu3w" role="PzmwI">
-      <ref role="PrY4T" to="tpck:1_TrU5E6oyb" resolve="IDontSubstituteByDefault" />
+    <node concept="PrWs8" id="3lASLmo9rtw" role="PzmwI">
+      <ref role="PrY4T" node="3lASLmo9rqd" resolve="IIgnoreChanges" />
     </node>
   </node>
   <node concept="1TIwiD" id="1jge5x__XE8">
@@ -1244,6 +1255,62 @@
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
   </node>
+  <node concept="PlHQZ" id="15COMTn5xlQ">
+    <property role="1pbfSe" value="1753147556" />
+    <property role="TrG5h" value="IHasModifiableChildren" />
+  </node>
+  <node concept="1TIwiD" id="4KQKRH2qei2">
+    <property role="1pbfSe" value="1902139395" />
+    <property role="TrG5h" value="ColonExpr" />
+    <ref role="1TJDcQ" node="5qM9mr9JOd5" resolve="BinaryOperatorExpr" />
+  </node>
+  <node concept="1TIwiD" id="1e0sE7PoAUb">
+    <property role="1pbfSe" value="149086508" />
+    <property role="TrG5h" value="PauseInstantRefresh" />
+    <property role="34LRSv" value="pause instant refresh" />
+    <ref role="1TJDcQ" node="5mPDeVwiPap" resolve="Expr" />
+  </node>
+  <node concept="1TIwiD" id="2xF4TVcCI7Y">
+    <property role="1pbfSe" value="183634532" />
+    <property role="TrG5h" value="SaveSession" />
+    <property role="34LRSv" value="save session" />
+    <ref role="1TJDcQ" node="5mPDeVwiPap" resolve="Expr" />
+    <node concept="PrWs8" id="1e0sE7RAd7c" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="L2v$sc7pVN">
+    <property role="1pbfSe" value="408952122" />
+    <property role="TrG5h" value="LogicalType" />
+    <property role="34LRSv" value="logical" />
+    <property role="3GE5qa" value="types.vector" />
+    <ref role="1TJDcQ" node="L2v$sc8RCm" resolve="VectorType" />
+  </node>
+  <node concept="1TIwiD" id="L2v$sc88U9">
+    <property role="1pbfSe" value="409144528" />
+    <property role="TrG5h" value="IntegerType" />
+    <property role="34LRSv" value="integer" />
+    <property role="3GE5qa" value="types.vector" />
+    <ref role="1TJDcQ" node="L2v$sc8RCm" resolve="VectorType" />
+  </node>
+  <node concept="PlHQZ" id="15COMTnnsmm">
+    <property role="1pbfSe" value="1757845700" />
+    <property role="TrG5h" value="IAtomic" />
+  </node>
+  <node concept="1TIwiD" id="L2v$sc88U8">
+    <property role="1pbfSe" value="409144527" />
+    <property role="TrG5h" value="NumericType" />
+    <property role="34LRSv" value="numeric" />
+    <property role="3GE5qa" value="types.vector" />
+    <ref role="1TJDcQ" node="L2v$sc8RCm" resolve="VectorType" />
+  </node>
+  <node concept="1TIwiD" id="4KQKRH2qB$9">
+    <property role="1pbfSe" value="1902035836" />
+    <property role="3GE5qa" value="operators" />
+    <property role="TrG5h" value="MagriteOperator" />
+    <property role="34LRSv" value="%&gt;%" />
+    <ref role="1TJDcQ" node="4KQKRH2qvQL" resolve="UserOperator" />
+  </node>
   <node concept="1TIwiD" id="4KQKRH2qcvb">
     <property role="1pbfSe" value="1902146746" />
     <property role="3GE5qa" value="operators" />
@@ -1251,10 +1318,34 @@
     <property role="34LRSv" value="^" />
     <ref role="1TJDcQ" node="r9xlU4zQ8W" resolve="BinaryOperator" />
   </node>
-  <node concept="1TIwiD" id="4KQKRH2qei2">
-    <property role="1pbfSe" value="1902139395" />
-    <property role="TrG5h" value="ColonExpr" />
-    <ref role="1TJDcQ" node="5qM9mr9JOd5" resolve="BinaryOperatorExpr" />
+  <node concept="1TIwiD" id="L2v$sc88Ub">
+    <property role="1pbfSe" value="409144530" />
+    <property role="TrG5h" value="CharacterType" />
+    <property role="34LRSv" value="character" />
+    <property role="3GE5qa" value="types.vector" />
+    <ref role="1TJDcQ" node="L2v$sc8RCm" resolve="VectorType" />
+  </node>
+  <node concept="1TIwiD" id="4KQKRH2rdxI">
+    <property role="1pbfSe" value="1901880343" />
+    <property role="3GE5qa" value="operators" />
+    <property role="TrG5h" value="DplyrOperator" />
+    <property role="34LRSv" value="%.%" />
+    <ref role="1TJDcQ" node="4KQKRH2qvQL" resolve="UserOperator" />
+  </node>
+  <node concept="1TIwiD" id="L2v$sc88Ua">
+    <property role="1pbfSe" value="409144529" />
+    <property role="TrG5h" value="ComplexType" />
+    <property role="34LRSv" value="complex" />
+    <property role="3GE5qa" value="types.vector" />
+    <ref role="1TJDcQ" node="L2v$sc8RCm" resolve="VectorType" />
+  </node>
+  <node concept="1TIwiD" id="L2v$sc8RCm">
+    <property role="1pbfSe" value="409335901" />
+    <property role="3GE5qa" value="types.vector" />
+    <property role="TrG5h" value="VectorType" />
+    <property role="R5$K7" value="true" />
+    <property role="R5$K2" value="false" />
+    <ref role="1TJDcQ" to="tpee:fz3vP1H" resolve="Type" />
   </node>
   <node concept="1TIwiD" id="4KQKRH2qvQL">
     <property role="1pbfSe" value="1902067412" />
@@ -1268,19 +1359,16 @@
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
   </node>
-  <node concept="1TIwiD" id="4KQKRH2qB$9">
-    <property role="1pbfSe" value="1902035836" />
-    <property role="3GE5qa" value="operators" />
-    <property role="TrG5h" value="MagriteOperator" />
-    <property role="34LRSv" value="%&gt;%" />
-    <ref role="1TJDcQ" node="4KQKRH2qvQL" resolve="UserOperator" />
+  <node concept="1TIwiD" id="L2v$sc8SGs">
+    <property role="1pbfSe" value="409340259" />
+    <property role="TrG5h" value="RawType" />
+    <property role="34LRSv" value="raw" />
+    <property role="3GE5qa" value="types.vector" />
+    <ref role="1TJDcQ" node="L2v$sc8RCm" resolve="VectorType" />
   </node>
-  <node concept="1TIwiD" id="4KQKRH2rdxI">
-    <property role="1pbfSe" value="1901880343" />
-    <property role="3GE5qa" value="operators" />
-    <property role="TrG5h" value="DplyrOperator" />
-    <property role="34LRSv" value="%.%" />
-    <ref role="1TJDcQ" node="4KQKRH2qvQL" resolve="UserOperator" />
+  <node concept="PlHQZ" id="3lASLmo9rqd">
+    <property role="1pbfSe" value="846423646" />
+    <property role="TrG5h" value="IIgnoreChanges" />
   </node>
 </model>
 

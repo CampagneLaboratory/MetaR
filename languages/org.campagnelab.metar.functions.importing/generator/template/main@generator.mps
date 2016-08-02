@@ -18,6 +18,7 @@
     <import index="8t56" ref="r:c30a0469-24e5-4b8a-89e7-0d2028c5aa49(org.campagnelab.metar.functions.importing.structure)" />
     <import index="6q58" ref="r:97268463-8a58-42b7-9dc6-fa004b7a4308(org.campagnelab.metar.R.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
+    <import index="69j5" ref="r:cc2fd9c1-53e7-4805-a8bc-a07e69f2147b(org.campagnelab.metar.R.behavior)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -569,7 +570,7 @@
               <node concept="2OqwBi" id="6kVgbi6iHw7" role="3clFbG">
                 <node concept="30H73N" id="6kVgbi6iHqR" role="2Oq$k0" />
                 <node concept="2qgKlT" id="4OlXQqAhgFu" role="2OqNvi">
-                  <ref role="37wK5l" to="v8sa:2AV3DmgHDX5" resolve="id" />
+                  <ref role="37wK5l" to="69j5:hlbLQwkRFj" resolve="id" />
                 </node>
               </node>
             </node>

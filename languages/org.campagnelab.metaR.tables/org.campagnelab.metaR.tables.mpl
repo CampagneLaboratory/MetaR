@@ -24,7 +24,7 @@
         <dependency reexport="false">5d6bde84-4ce4-4eb5-a37e-25a5edd55129(org.campagnelab.metar.tables)</dependency>
         <dependency reexport="false">5ec1cd3d-0a50-4049-a8fa-ae768d7baa25(org.campagnelab.mps.XChart)</dependency>
         <dependency reexport="false">43f31864-fc67-43f5-873e-ab79cc279a2d(org.campagnelab.styles)</dependency>
-        <dependency reexport="false">fd3fc8d7-bebb-4053-88a0-6dcc12448e6e(org.campagnelab.jupyterManager.plugin)</dependency>
+        <dependency reexport="false">fd3fc8d7-bebb-4053-88a0-6dcc12448e6e(org.campagnelab.instantrefresh.plugin)</dependency>
         <dependency reexport="false">3b58810c-8431-4bbb-99ea-b4671e02dd13(org.campagnelab.metar.R)</dependency>
         <dependency reexport="false">f306dc96-26f1-4fde-859b-43645dd57254(org.campagnelab.metar.R#7627187573640569363)</dependency>
       </dependencies>
@@ -71,7 +71,7 @@
         <module reference="d7eb0a2a-bd50-4576-beae-e4a89db35f20(jetbrains.mps.lang.scopes.runtime)" version="0" />
         <module reference="c72da2b9-7cce-4447-8389-f407dc1158b7(jetbrains.mps.lang.structure)" version="0" />
         <module reference="9ded098b-ad6a-4657-bfd9-48636cfe8bc3(jetbrains.mps.lang.traceable)" version="0" />
-        <module reference="fd3fc8d7-bebb-4053-88a0-6dcc12448e6e(org.campagnelab.jupyterManager.plugin)" version="0" />
+        <module reference="fd3fc8d7-bebb-4053-88a0-6dcc12448e6e(org.campagnelab.instantrefresh.plugin)" version="0" />
         <module reference="3b58810c-8431-4bbb-99ea-b4671e02dd13(org.campagnelab.metar.R)" version="1" />
         <module reference="f306dc96-26f1-4fde-859b-43645dd57254(org.campagnelab.metar.R#7627187573640569363)" version="0" />
         <module reference="837afec3-cff0-45b1-a221-6b811148f87e(org.campagnelab.metar.R.gen)" version="0" />
@@ -116,7 +116,7 @@
     <dependency reexport="false">258bd2f6-0d02-411d-86b2-5a5ea083e6d2(jetbrains.mps.lang.editor.table.runtime)</dependency>
     <dependency reexport="false">5ec1cd3d-0a50-4049-a8fa-ae768d7baa25(org.campagnelab.mps.XChart)</dependency>
     <dependency reexport="false">8865b7a8-5271-43d3-884c-6fd1d9cfdd34(MPS.OpenAPI)</dependency>
-    <dependency reexport="false">fd3fc8d7-bebb-4053-88a0-6dcc12448e6e(org.campagnelab.jupyterManager.plugin)</dependency>
+    <dependency reexport="false">fd3fc8d7-bebb-4053-88a0-6dcc12448e6e(org.campagnelab.instantrefresh.plugin)</dependency>
     <dependency reexport="false">a60f536b-19c3-48f3-a662-0aa30b245913(org.campagnelab.editor.images)</dependency>
     <dependency reexport="false">3b58810c-8431-4bbb-99ea-b4671e02dd13(org.campagnelab.metar.R)</dependency>
     <dependency reexport="false">2b3d76b7-a9ea-44f6-8a30-283c3ffb5f0a(org.campagnelab.ui.code)</dependency>
@@ -199,7 +199,7 @@
     <module reference="9ded098b-ad6a-4657-bfd9-48636cfe8bc3(jetbrains.mps.lang.traceable)" version="0" />
     <module reference="a60f536b-19c3-48f3-a662-0aa30b245913(org.campagnelab.editor.images)" version="0" />
     <module reference="d99339ed-76f8-45c0-bf5f-697b98ae6a17(org.campagnelab.editor.listeners.plugin)" version="0" />
-    <module reference="fd3fc8d7-bebb-4053-88a0-6dcc12448e6e(org.campagnelab.jupyterManager.plugin)" version="0" />
+    <module reference="fd3fc8d7-bebb-4053-88a0-6dcc12448e6e(org.campagnelab.instantrefresh.plugin)" version="0" />
     <module reference="3b58810c-8431-4bbb-99ea-b4671e02dd13(org.campagnelab.metar.R)" version="0" />
     <module reference="837afec3-cff0-45b1-a221-6b811148f87e(org.campagnelab.metar.R.gen)" version="0" />
     <module reference="c901f7a1-ed4f-4b52-8d35-10d1a33974f0(org.campagnelab.metar.code)" version="0" />

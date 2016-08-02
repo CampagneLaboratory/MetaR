@@ -179,7 +179,7 @@
             <property role="3_3kQV" value="," />
           </node>
           <node concept="3_3kQU" id="klQnOm_NeD" role="3_3kQL">
-            <property role="3_3kQV" value="convertPathToJupyterPath(&quot;" />
+            <property role="3_3kQV" value="&quot;" />
           </node>
           <node concept="3_3kQU" id="6X05ub9VaLg" role="3_3kQL">
             <property role="3_3kQV" value="893283923" />
@@ -272,14 +272,11 @@
               </node>
             </node>
           </node>
-          <node concept="3_3kQU" id="klQnOm_Nqr" role="3_3kQL">
-            <property role="3_3kQV" value="&quot;" />
-          </node>
           <node concept="3_3kQU" id="klQnOm_Nqs" role="3_3kQL">
             <property role="3_3kQV" value=")" />
           </node>
           <node concept="3_3kQU" id="klQnOm_Nqt" role="3_3kQL">
-            <property role="3_3kQV" value=", row.names=FALSE, sep=&quot;\t&quot;) " />
+            <property role="3_3kQV" value="&quot;, row.names=FALSE, sep=&quot;\t&quot;) " />
           </node>
         </node>
       </node>

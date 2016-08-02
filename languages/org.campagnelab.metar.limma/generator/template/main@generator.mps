@@ -21,6 +21,7 @@
     <import index="jl4n" ref="r:a4155731-8795-49bc-afc5-bf36983f9c0c(org.campagnelab.metar.limma.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
+    <import index="69j5" ref="r:cc2fd9c1-53e7-4805-a8bc-a07e69f2147b(org.campagnelab.metar.R.behavior)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -1807,8 +1808,8 @@
                                   <ref role="3Tt5mk" to="jl4n:4ssfE$9PTBv" />
                                 </node>
                               </node>
-                              <node concept="2qgKlT" id="4ssfE$b28CN" role="2OqNvi">
-                                <ref role="37wK5l" to="v8sa:3BiNpr5Ur7M" resolve="getCleanTableName" />
+                              <node concept="2qgKlT" id="52J4nYvAdRD" role="2OqNvi">
+                                <ref role="37wK5l" to="v8sa:52J4nYvd$7N" resolve="getVariableName" />
                               </node>
                             </node>
                           </node>
@@ -2155,8 +2156,8 @@
                                     <ref role="3Tt5mk" to="jl4n:4ssfE$9PTBv" />
                                   </node>
                                 </node>
-                                <node concept="2qgKlT" id="DQS$2nm1nN" role="2OqNvi">
-                                  <ref role="37wK5l" to="v8sa:3BiNpr5Ur7M" resolve="getCleanTableName" />
+                                <node concept="2qgKlT" id="52J4nYvAe1M" role="2OqNvi">
+                                  <ref role="37wK5l" to="v8sa:52J4nYvd$7N" resolve="getVariableName" />
                                 </node>
                               </node>
                             </node>
@@ -2493,8 +2494,8 @@
                                 <ref role="3Tt5mk" to="jl4n:7$n2ViPrFPR" />
                               </node>
                             </node>
-                            <node concept="2qgKlT" id="4ssfE$837iA" role="2OqNvi">
-                              <ref role="37wK5l" to="v8sa:3BiNpr5Ur7M" resolve="getCleanTableName" />
+                            <node concept="2qgKlT" id="52J4nYvAebY" role="2OqNvi">
+                              <ref role="37wK5l" to="v8sa:52J4nYvd$7N" resolve="getVariableName" />
                             </node>
                           </node>
                         </node>
@@ -2686,7 +2687,7 @@
               <node concept="2OqwBi" id="fAbp8R9KuJ" role="3clFbG">
                 <node concept="30H73N" id="fAbp8R9KpO" role="2Oq$k0" />
                 <node concept="2qgKlT" id="fAbp8R9L6P" role="2OqNvi">
-                  <ref role="37wK5l" to="v8sa:2AV3DmgHDX5" resolve="id" />
+                  <ref role="37wK5l" to="69j5:hlbLQwkRFj" resolve="id" />
                 </node>
               </node>
             </node>

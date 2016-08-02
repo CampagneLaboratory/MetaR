@@ -42,7 +42,7 @@
       <modulePath path="$PROJECT_DIR$/solutions/migrationtest/migrationtest.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/org.campagnelab.editor.listeners.plugin/org.campagnelab.editor.listeners.plugin.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/org.campagnelab.editor.plugins/org.campagnelab.editor.plugins.msd" folder="" />
-      <modulePath path="$PROJECT_DIR$/solutions/org.campagnelab.jupyterManager.plugin/org.campagnelab.jupyterManager.plugin.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/org.campagnelab.instantrefresh.plugin/org.campagnelab.instantrefresh.plugin.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/org.campagnelab.metar.R.plugin/org.cmapagnelab.metar.R.plugin.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/org.campagnelab.metar.biomart.web/org.campagnelab.metar.biomart.web.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/org.campagnelab.metar.r.parsers/org.campagnelab.metar.r.parsers.msd" folder="" />

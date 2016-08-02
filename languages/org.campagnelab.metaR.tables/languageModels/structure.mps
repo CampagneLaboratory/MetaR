@@ -9,11 +9,10 @@
   <imports>
     <import index="ztlb" ref="r:989540b8-cc89-4ed5-ba78-cf2ce766b8ce(org.campagnelab.mps.XChart.structure)" />
     <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
-    <import index="tpc2" ref="r:00000000-0000-4000-0000-011c8959029e(jetbrains.mps.lang.editor.structure)" />
     <import index="18ew" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.util(MPS.Core/)" />
     <import index="onla" ref="r:b81182ba-13d2-441a-9b65-76fe2bd96f30(org.campagnelab.styles.structure)" />
-    <import index="a1ev" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.awt.color(JDK/)" />
     <import index="l5qg" ref="r:c3c8723d-4db5-4e18-902d-1cb272fe4ddf(org.campagnelab.metar.R.gen.structure)" />
+    <import index="6q58" ref="r:97268463-8a58-42b7-9dc6-fa004b7a4308(org.campagnelab.metar.R.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
@@ -343,6 +342,9 @@
     <node concept="PrWs8" id="1xeqmqLQBCs" role="PzmwI">
       <ref role="PrY4T" node="1xeqmqKOy3R" resolve="HasTable" />
     </node>
+    <node concept="PrWs8" id="52J4nYvd$fn" role="PzmwI">
+      <ref role="PrY4T" node="52J4nYvdvom" resolve="ISaveRVariableInSession" />
+    </node>
   </node>
   <node concept="1TIwiD" id="2WRhvFtuGFd">
     <property role="TrG5h" value="ImportTable" />
@@ -358,6 +360,9 @@
     </node>
     <node concept="PrWs8" id="1AaQBcuiVh0" role="PzmwI">
       <ref role="PrY4T" node="7LvyiX4miiF" resolve="StatementDependencies" />
+    </node>
+    <node concept="PrWs8" id="15COMTn5yTF" role="PzmwI">
+      <ref role="PrY4T" to="6q58:15COMTn5xlQ" resolve="IHasModifiableChildren" />
     </node>
     <node concept="1TJgyj" id="2WRhvFtuQGF" role="1TKVEi">
       <property role="20lmBu" value="reference" />
@@ -665,6 +670,9 @@
     <property role="R4oN_" value="define something" />
     <property role="1pbfSe" value="8063671" />
     <ref role="1TJDcQ" node="7LvyiX4miiC" resolve="Statement" />
+    <node concept="PrWs8" id="3lASLmojaXY" role="PzmwI">
+      <ref role="PrY4T" to="6q58:15COMTn5xlQ" resolve="IHasModifiableChildren" />
+    </node>
     <node concept="1TJgyj" id="3BiNpr5GyuP" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="object" />
@@ -865,6 +873,9 @@
     <node concept="PrWs8" id="3XyNzZW9G_S" role="PzmwI">
       <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
     </node>
+    <node concept="PrWs8" id="L2v$scfVja" role="PzmwI">
+      <ref role="PrY4T" node="L2v$scfSDh" resolve="IHasStatements" />
+    </node>
   </node>
   <node concept="1TIwiD" id="7LvyiX4miiv">
     <property role="TrG5h" value="DependentOnPackage" />
@@ -883,6 +894,9 @@
     <property role="R4oN_" value=" " />
     <property role="1pbfSe" value="1061638704" />
     <ref role="1TJDcQ" node="7LvyiX4miiC" resolve="Statement" />
+    <node concept="PrWs8" id="26cpLhjxCc2" role="PzmwI">
+      <ref role="PrY4T" to="6q58:3lASLmo9rqd" resolve="IIgnoreChanges" />
+    </node>
   </node>
   <node concept="1TIwiD" id="7LvyiX4miiy">
     <property role="TrG5h" value="R_Package" />
@@ -918,6 +932,12 @@
     <node concept="PrWs8" id="6efZaUfXFuK" role="PzmwI">
       <ref role="PrY4T" to="l5qg:6efZaUfXFRm" resolve="IGenerateToRScript" />
     </node>
+    <node concept="PrWs8" id="L2v$scfSDn" role="PzmwI">
+      <ref role="PrY4T" node="L2v$scfSDh" resolve="IHasStatements" />
+    </node>
+    <node concept="PrWs8" id="3lASLmo9rQJ" role="PzmwI">
+      <ref role="PrY4T" to="6q58:3lASLmo9rqd" resolve="IIgnoreChanges" />
+    </node>
     <node concept="1TJgyj" id="7LvyiX4miiB" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="statements" />
@@ -940,6 +960,9 @@
     </node>
     <node concept="PrWs8" id="3W3L4MJREfy" role="PzmwI">
       <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
+    </node>
+    <node concept="PrWs8" id="15COMTnnsuF" role="PzmwI">
+      <ref role="PrY4T" to="6q58:15COMTnnsmm" resolve="IAtomic" />
     </node>
   </node>
   <node concept="PlHQZ" id="7LvyiX4miiF">
@@ -1091,8 +1114,8 @@
     <property role="R5$K2" value="false" />
     <property role="1pbfSe" value="963867893" />
     <ref role="1TJDcQ" node="7LvyiX4miiC" resolve="Statement" />
-    <node concept="PrWs8" id="bPLB43fxe3" role="PzmwI">
-      <ref role="PrY4T" node="bPLB43fxe2" resolve="PlotBuilderStatementI" />
+    <node concept="PrWs8" id="15COMTn5xJy" role="PzmwI">
+      <ref role="PrY4T" to="6q58:15COMTn5xlQ" resolve="IHasModifiableChildren" />
     </node>
   </node>
   <node concept="1TIwiD" id="4cOBe2EdOid">
@@ -1120,6 +1143,9 @@
     <property role="3GE5qa" value="models" />
     <property role="1pbfSe" value="1713275533" />
     <ref role="1TJDcQ" node="7LvyiX4miiC" resolve="Statement" />
+    <node concept="PrWs8" id="3lASLmotrZL" role="PzmwI">
+      <ref role="PrY4T" to="6q58:15COMTn5xlQ" resolve="IHasModifiableChildren" />
+    </node>
     <node concept="1TJgyj" id="2rPl_HMXwGX" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="model" />
@@ -1383,6 +1409,9 @@
     <property role="R4oN_" value="define one column as key of a table" />
     <property role="1pbfSe" value="1160309689" />
     <ref role="1TJDcQ" node="7LvyiX4miiC" resolve="Statement" />
+    <node concept="PrWs8" id="15COMTn5$Ub" role="PzmwI">
+      <ref role="PrY4T" to="6q58:15COMTn5xlQ" resolve="IHasModifiableChildren" />
+    </node>
     <node concept="1TJgyj" id="5HtHr3DXIeM" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="table" />
@@ -1500,6 +1529,9 @@
   <node concept="PlHQZ" id="5iYlRBKtkRE">
     <property role="TrG5h" value="FutureTableCreator" />
     <property role="1pbfSe" value="1161012579" />
+    <node concept="PrWs8" id="15COMTn5xm5" role="PrDN$">
+      <ref role="PrY4T" to="6q58:15COMTn5xlQ" resolve="IHasModifiableChildren" />
+    </node>
     <node concept="1TJgyi" id="7S2MvlQNiVc" role="1TKVEl">
       <property role="TrG5h" value="inputChanged" />
       <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
@@ -1521,6 +1553,9 @@
     <node concept="PrWs8" id="1JCuUWwlcm" role="PzmwI">
       <ref role="PrY4T" to="tpck:2WmWrdnSpX3" resolve="ISuppressErrors" />
     </node>
+    <node concept="PrWs8" id="3lASLmo9ryt" role="PzmwI">
+      <ref role="PrY4T" to="6q58:3lASLmo9rqd" resolve="IIgnoreChanges" />
+    </node>
   </node>
   <node concept="1TIwiD" id="3xLH8OVJVX$">
     <property role="3GE5qa" value="comments" />
@@ -1537,6 +1572,9 @@
     </node>
     <node concept="PrWs8" id="3xLH8OVJW0K" role="PzmwI">
       <ref role="PrY4T" to="tpck:2WmWrdnSpX3" resolve="ISuppressErrors" />
+    </node>
+    <node concept="PrWs8" id="3lASLmoa0Rq" role="PzmwI">
+      <ref role="PrY4T" to="6q58:3lASLmo9rqd" resolve="IIgnoreChanges" />
     </node>
   </node>
   <node concept="1TIwiD" id="2sgkdoKky$R">
@@ -2349,6 +2387,9 @@
     </node>
     <node concept="PrWs8" id="2OXkbjQ30zW" role="PzmwI">
       <ref role="PrY4T" node="2OXkbjQ303b" resolve="HasRandomEffects" />
+    </node>
+    <node concept="PrWs8" id="3lASLmotrZH" role="PzmwI">
+      <ref role="PrY4T" to="6q58:15COMTn5xlQ" resolve="IHasModifiableChildren" />
     </node>
   </node>
   <node concept="1TIwiD" id="2OXkbjPjheB">
@@ -6289,10 +6330,102 @@
     <property role="34LRSv" value="Stripe color" />
     <ref role="1TJDcQ" node="e_7xe$xDZk" resolve="StripeColorStyleClass" />
   </node>
+  <node concept="1TIwiD" id="26cpLhkwAPV">
+    <property role="1pbfSe" value="1980683407" />
+    <property role="TrG5h" value="SessionDependency" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="26cpLhkwAPW" role="1TKVEl">
+      <property role="TrG5h" value="dependency" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="26cpLhhSUhW">
+    <property role="1pbfSe" value="1936722832" />
+    <property role="TrG5h" value="SessionStatement" />
+    <property role="R5$K7" value="true" />
+    <property role="R5$K2" value="false" />
+    <ref role="1TJDcQ" node="7LvyiX4miiC" resolve="Statement" />
+    <node concept="PrWs8" id="26cpLhhSUhX" role="PzmwI">
+      <ref role="PrY4T" node="7LvyiX4miiF" resolve="StatementDependencies" />
+    </node>
+    <node concept="PrWs8" id="1e0sE7RAc0k" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="L2v$scfSDh">
+    <property role="1pbfSe" value="411175064" />
+    <property role="TrG5h" value="IHasStatements" />
+  </node>
+  <node concept="1TIwiD" id="52J4nYvYa8U">
+    <property role="1pbfSe" value="257444935" />
+    <property role="TrG5h" value="SessionVariable" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="52J4nYvYa8V" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="52J4nYvdvom">
+    <property role="1pbfSe" value="270202987" />
+    <property role="TrG5h" value="ISaveRVariableInSession" />
+  </node>
+  <node concept="1TIwiD" id="L2v$sdbxEZ">
+    <property role="1pbfSe" value="426809606" />
+    <property role="TrG5h" value="IsChangeAttribute" />
+    <ref role="1TJDcQ" to="tpck:2ULFgo8_XDk" resolve="NodeAttribute" />
+    <node concept="M6xJ_" id="L2v$sdbxF0" role="lGtFl">
+      <property role="Hh88m" value="isChanged" />
+      <node concept="trNpa" id="15COMTnnvJE" role="EQaZv">
+        <ref role="trN6q" to="6q58:15COMTnnsmm" resolve="IAtomic" />
+      </node>
+    </node>
+    <node concept="PrWs8" id="2xF4TVcRGcr" role="PzmwI">
+      <ref role="PrY4T" to="6q58:3lASLmo9rqd" resolve="IIgnoreChanges" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="26cpLhhSknI">
+    <property role="1pbfSe" value="1936567554" />
+    <property role="TrG5h" value="LoadSession" />
+    <property role="34LRSv" value="load session" />
+    <ref role="1TJDcQ" node="26cpLhhSUhW" resolve="SessionStatement" />
+    <node concept="1TJgyj" id="26cpLhkwAPY" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="dependencies" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="26cpLhkwAPV" resolve="SessionDependency" />
+    </node>
+    <node concept="1TJgyj" id="52J4nYvYa8X" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="variables" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="52J4nYvYa8U" resolve="SessionVariable" />
+    </node>
+    <node concept="PrWs8" id="26cpLhhThz3" role="PzmwI">
+      <ref role="PrY4T" to="tpck:1_TrU5E6oyb" resolve="IDontSubstituteByDefault" />
+    </node>
+    <node concept="PrWs8" id="26cpLhkwzrw" role="PzmwI">
+      <ref role="PrY4T" node="7LvyiX4miiF" resolve="StatementDependencies" />
+    </node>
+  </node>
   <node concept="PlHQZ" id="bPLB43fxe2">
     <property role="1pbfSe" value="104061427" />
     <property role="3GE5qa" value="plots" />
     <property role="TrG5h" value="PlotBuilderStatementI" />
+  </node>
+  <node concept="1TIwiD" id="26cpLhhSkv1">
+    <property role="1pbfSe" value="1936568021" />
+    <property role="TrG5h" value="SaveSession" />
+    <property role="34LRSv" value="save session" />
+    <ref role="1TJDcQ" node="26cpLhhSUhW" resolve="SessionStatement" />
+    <node concept="PrWs8" id="26cpLhhThz5" role="PzmwI">
+      <ref role="PrY4T" to="tpck:1_TrU5E6oyb" resolve="IDontSubstituteByDefault" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="2xF4TVcGGmU">
+    <property role="1pbfSe" value="182593192" />
+    <property role="TrG5h" value="ISessionStatement" />
+    <node concept="PrWs8" id="2xF4TVcGGmV" role="PrDN$">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
   </node>
 </model>
 
