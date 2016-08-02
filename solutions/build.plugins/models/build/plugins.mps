@@ -210,7 +210,7 @@
       <node concept="aVJcg" id="3gMg70bX6HN" role="aVJcv">
         <node concept="NbPM2" id="3gMg70bX6HM" role="aVJcq">
           <node concept="3Mxwew" id="3gMg70bX6HL" role="3MwsjC">
-            <property role="3MwjfP" value="1.9.0" />
+            <property role="3MwjfP" value="2.0.0" />
           </node>
         </node>
       </node>
@@ -230,7 +230,7 @@
       <node concept="aVJcg" id="HL4WxLmXWy" role="aVJcv">
         <node concept="NbPM2" id="HL4WxLmXWx" role="aVJcq">
           <node concept="3Mxwew" id="HL4WxLmXWw" role="3MwsjC">
-            <property role="3MwjfP" value="1.1.0" />
+            <property role="3MwjfP" value="1.1.1" />
           </node>
         </node>
       </node>
@@ -311,7 +311,7 @@
               <property role="2Ry0Am" value="build" />
               <node concept="2Ry0Ak" id="HL4WxLn1gi" role="2Ry0An">
                 <property role="2Ry0Am" value="artifacts" />
-                <node concept="2Ry0Ak" id="7U8jHwbeofA" role="2Ry0An">
+                <node concept="2Ry0Ak" id="6uoYBO0KejR" role="2Ry0An">
                   <property role="2Ry0Am" value="ANTLR" />
                 </node>
               </node>
@@ -373,19 +373,6 @@
         </node>
         <node concept="m$_wl" id="7yyH9N_7oht" role="39821P">
           <ref role="m_rDy" node="3gMg70bRmfv" resolve="org.campagnelab.metaR" />
-          <node concept="28jJK3" id="3$kXDiebGFZ" role="39821P">
-            <node concept="55IIr" id="3$kXDiebGG0" role="28jJRO">
-              <node concept="2Ry0Ak" id="3$kXDiebGG1" role="iGT6I">
-                <property role="2Ry0Am" value="languages" />
-                <node concept="2Ry0Ak" id="3$kXDiebGG2" role="2Ry0An">
-                  <property role="2Ry0Am" value="org.campagnelab.jupyterManager" />
-                  <node concept="2Ry0Ak" id="3$kXDiebGG3" role="2Ry0An">
-                    <property role="2Ry0Am" value="async-http-client-2.0.2.jar" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
           <node concept="28jJK3" id="legv36FS_P" role="39821P">
             <node concept="55IIr" id="legv36FS_Q" role="28jJRO">
               <node concept="2Ry0Ak" id="legv36FSA5" role="iGT6I">
@@ -407,344 +394,6 @@
                   <property role="2Ry0Am" value="org.campagnelab.metar.biomart.runtime" />
                   <node concept="2Ry0Ak" id="3vYuQ8LHUJe" role="2Ry0An">
                     <property role="2Ry0Am" value="Biomart.jar" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="28jJK3" id="3$kXDiebbrK" role="39821P">
-            <node concept="55IIr" id="3$kXDiebbrM" role="28jJRO">
-              <node concept="2Ry0Ak" id="3$kXDiebbyy" role="iGT6I">
-                <property role="2Ry0Am" value="languages" />
-                <node concept="2Ry0Ak" id="3$kXDiebbyL" role="2Ry0An">
-                  <property role="2Ry0Am" value="org.campagnelab.jupyterManager" />
-                  <node concept="2Ry0Ak" id="3$kXDiebbz0" role="2Ry0An">
-                    <property role="2Ry0Am" value="jupyter_manager-1.0-SNAPSHOT.jar" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="28jJK3" id="3$kXDieby8o" role="39821P">
-            <node concept="55IIr" id="3$kXDieby8q" role="28jJRO">
-              <node concept="2Ry0Ak" id="3$kXDiebyfG" role="iGT6I">
-                <property role="2Ry0Am" value="languages" />
-                <node concept="2Ry0Ak" id="3$kXDiebyfV" role="2Ry0An">
-                  <property role="2Ry0Am" value="org.campagnelab.jupyterManager" />
-                  <node concept="2Ry0Ak" id="3$kXDiebyZc" role="2Ry0An">
-                    <property role="2Ry0Am" value="async-http-client-2.0.2.jar" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="28jJK3" id="3$kXDiebz6O" role="39821P">
-            <node concept="55IIr" id="3$kXDiebz6P" role="28jJRO">
-              <node concept="2Ry0Ak" id="3$kXDiebz6Q" role="iGT6I">
-                <property role="2Ry0Am" value="languages" />
-                <node concept="2Ry0Ak" id="3$kXDiebz6R" role="2Ry0An">
-                  <property role="2Ry0Am" value="org.campagnelab.jupyterManager" />
-                  <node concept="2Ry0Ak" id="3$kXDiebzB9" role="2Ry0An">
-                    <property role="2Ry0Am" value="commons-codec-1.9.jar" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="28jJK3" id="3$kXDiebz9f" role="39821P">
-            <node concept="55IIr" id="3$kXDiebz9g" role="28jJRO">
-              <node concept="2Ry0Ak" id="3$kXDiebz9h" role="iGT6I">
-                <property role="2Ry0Am" value="languages" />
-                <node concept="2Ry0Ak" id="3$kXDiebz9i" role="2Ry0An">
-                  <property role="2Ry0Am" value="org.campagnelab.jupyterManager" />
-                  <node concept="2Ry0Ak" id="3$kXDiebzGM" role="2Ry0An">
-                    <property role="2Ry0Am" value="concurrentunit-0.4.2.jar" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="28jJK3" id="3$kXDiebzc8" role="39821P">
-            <node concept="55IIr" id="3$kXDiebzc9" role="28jJRO">
-              <node concept="2Ry0Ak" id="3$kXDiebzca" role="iGT6I">
-                <property role="2Ry0Am" value="languages" />
-                <node concept="2Ry0Ak" id="3$kXDiebzcb" role="2Ry0An">
-                  <property role="2Ry0Am" value="org.campagnelab.jupyterManager" />
-                  <node concept="2Ry0Ak" id="3$kXDiebzMr" role="2Ry0An">
-                    <property role="2Ry0Am" value="hamcrest-core-1.1.jar" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="28jJK3" id="3$kXDiebzfv" role="39821P">
-            <node concept="55IIr" id="3$kXDiebzfw" role="28jJRO">
-              <node concept="2Ry0Ak" id="3$kXDiebzfx" role="iGT6I">
-                <property role="2Ry0Am" value="languages" />
-                <node concept="2Ry0Ak" id="3$kXDiebzfy" role="2Ry0An">
-                  <property role="2Ry0Am" value="org.campagnelab.jupyterManager" />
-                  <node concept="2Ry0Ak" id="3$kXDiebzMy" role="2Ry0An">
-                    <property role="2Ry0Am" value="httpasyncclient-4.1.1.jar" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="28jJK3" id="3$kXDiebzjk" role="39821P">
-            <node concept="55IIr" id="3$kXDiebzjl" role="28jJRO">
-              <node concept="2Ry0Ak" id="3$kXDiebzjm" role="iGT6I">
-                <property role="2Ry0Am" value="languages" />
-                <node concept="2Ry0Ak" id="3$kXDiebzjn" role="2Ry0An">
-                  <property role="2Ry0Am" value="org.campagnelab.jupyterManager" />
-                  <node concept="2Ry0Ak" id="3$kXDiebzMD" role="2Ry0An">
-                    <property role="2Ry0Am" value="httpclient-4.5.2.jar" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="28jJK3" id="3$kXDiebznB" role="39821P">
-            <node concept="55IIr" id="3$kXDiebznC" role="28jJRO">
-              <node concept="2Ry0Ak" id="3$kXDiebznD" role="iGT6I">
-                <property role="2Ry0Am" value="languages" />
-                <node concept="2Ry0Ak" id="3$kXDiebznE" role="2Ry0An">
-                  <property role="2Ry0Am" value="org.campagnelab.jupyterManager" />
-                  <node concept="2Ry0Ak" id="3$kXDiebzSi" role="2Ry0An">
-                    <property role="2Ry0Am" value="httpcore-4.4.4.jar" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="28jJK3" id="3$kXDiebzso" role="39821P">
-            <node concept="55IIr" id="3$kXDiebzsp" role="28jJRO">
-              <node concept="2Ry0Ak" id="3$kXDiebzsq" role="iGT6I">
-                <property role="2Ry0Am" value="languages" />
-                <node concept="2Ry0Ak" id="3$kXDiebzsr" role="2Ry0An">
-                  <property role="2Ry0Am" value="org.campagnelab.jupyterManager" />
-                  <node concept="2Ry0Ak" id="3$kXDiebzXV" role="2Ry0An">
-                    <property role="2Ry0Am" value="httpcore-nio-4.4.4.jar" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="28jJK3" id="3$kXDieb$en" role="39821P">
-            <node concept="55IIr" id="3$kXDieb$eo" role="28jJRO">
-              <node concept="2Ry0Ak" id="3$kXDieb$ep" role="iGT6I">
-                <property role="2Ry0Am" value="languages" />
-                <node concept="2Ry0Ak" id="3$kXDieb$eq" role="2Ry0An">
-                  <property role="2Ry0Am" value="org.campagnelab.jupyterManager" />
-                  <node concept="2Ry0Ak" id="3$kXDieb$vL" role="2Ry0An">
-                    <property role="2Ry0Am" value="httpmime-4.5.2.jar" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="28jJK3" id="3$kXDieb$k4" role="39821P">
-            <node concept="55IIr" id="3$kXDieb$k5" role="28jJRO">
-              <node concept="2Ry0Ak" id="3$kXDieb$k6" role="iGT6I">
-                <property role="2Ry0Am" value="languages" />
-                <node concept="2Ry0Ak" id="3$kXDieb$k7" role="2Ry0An">
-                  <property role="2Ry0Am" value="org.campagnelab.jupyterManager" />
-                  <node concept="2Ry0Ak" id="3$kXDieb$_q" role="2Ry0An">
-                    <property role="2Ry0Am" value="javassist-3.20.0-GA.jar" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="28jJK3" id="3$kXDieb$QM" role="39821P">
-            <node concept="55IIr" id="3$kXDieb$QN" role="28jJRO">
-              <node concept="2Ry0Ak" id="3$kXDieb$QO" role="iGT6I">
-                <property role="2Ry0Am" value="languages" />
-                <node concept="2Ry0Ak" id="3$kXDieb$QP" role="2Ry0An">
-                  <property role="2Ry0Am" value="org.campagnelab.jupyterManager" />
-                  <node concept="2Ry0Ak" id="3$kXDiebA8X" role="2Ry0An">
-                    <property role="2Ry0Am" value="json-20160212.jar" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="28jJK3" id="3$kXDieb$Xr" role="39821P">
-            <node concept="55IIr" id="3$kXDieb$Xs" role="28jJRO">
-              <node concept="2Ry0Ak" id="3$kXDieb$Xt" role="iGT6I">
-                <property role="2Ry0Am" value="languages" />
-                <node concept="2Ry0Ak" id="3$kXDieb$Xu" role="2Ry0An">
-                  <property role="2Ry0Am" value="org.campagnelab.jupyterManager" />
-                  <node concept="2Ry0Ak" id="3$kXDiebA94" role="2Ry0An">
-                    <property role="2Ry0Am" value="json-simple-1.1.1.jar" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="28jJK3" id="3$kXDieb_c7" role="39821P">
-            <node concept="55IIr" id="3$kXDieb_c8" role="28jJRO">
-              <node concept="2Ry0Ak" id="3$kXDieb_c9" role="iGT6I">
-                <property role="2Ry0Am" value="languages" />
-                <node concept="2Ry0Ak" id="3$kXDieb_ca" role="2Ry0An">
-                  <property role="2Ry0Am" value="org.campagnelab.jupyterManager" />
-                  <node concept="2Ry0Ak" id="3$kXDiebAkm" role="2Ry0An">
-                    <property role="2Ry0Am" value="netty-buffer-4.0.36.Final.jar" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="28jJK3" id="3$kXDieb_sF" role="39821P">
-            <node concept="55IIr" id="3$kXDieb_sG" role="28jJRO">
-              <node concept="2Ry0Ak" id="3$kXDieb_sH" role="iGT6I">
-                <property role="2Ry0Am" value="languages" />
-                <node concept="2Ry0Ak" id="3$kXDieb_sI" role="2Ry0An">
-                  <property role="2Ry0Am" value="org.campagnelab.jupyterManager" />
-                  <node concept="2Ry0Ak" id="3$kXDiebApZ" role="2Ry0An">
-                    <property role="2Ry0Am" value="netty-codec-4.0.36.Final.jar" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="28jJK3" id="3$kXDieb_ka" role="39821P">
-            <node concept="55IIr" id="3$kXDieb_kb" role="28jJRO">
-              <node concept="2Ry0Ak" id="3$kXDieb_kc" role="iGT6I">
-                <property role="2Ry0Am" value="languages" />
-                <node concept="2Ry0Ak" id="3$kXDieb_kd" role="2Ry0An">
-                  <property role="2Ry0Am" value="org.campagnelab.jupyterManager" />
-                  <node concept="2Ry0Ak" id="3$kXDiebAvC" role="2Ry0An">
-                    <property role="2Ry0Am" value="netty-codec-dns-2.0.2.jar" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="28jJK3" id="3$kXDieb__E" role="39821P">
-            <node concept="55IIr" id="3$kXDieb__F" role="28jJRO">
-              <node concept="2Ry0Ak" id="3$kXDieb__G" role="iGT6I">
-                <property role="2Ry0Am" value="languages" />
-                <node concept="2Ry0Ak" id="3$kXDieb__H" role="2Ry0An">
-                  <property role="2Ry0Am" value="org.campagnelab.jupyterManager" />
-                  <node concept="2Ry0Ak" id="3$kXDiebA_h" role="2Ry0An">
-                    <property role="2Ry0Am" value="netty-codec-http-4.0.36.Final.jar" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="28jJK3" id="3$kXDieb_T2" role="39821P">
-            <node concept="55IIr" id="3$kXDieb_T3" role="28jJRO">
-              <node concept="2Ry0Ak" id="3$kXDieb_T4" role="iGT6I">
-                <property role="2Ry0Am" value="languages" />
-                <node concept="2Ry0Ak" id="3$kXDieb_T5" role="2Ry0An">
-                  <property role="2Ry0Am" value="org.campagnelab.jupyterManager" />
-                  <node concept="2Ry0Ak" id="3$kXDiebAEU" role="2Ry0An">
-                    <property role="2Ry0Am" value="netty-common-4.0.36.Final.jar" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="28jJK3" id="3$kXDieb_J7" role="39821P">
-            <node concept="55IIr" id="3$kXDieb_J8" role="28jJRO">
-              <node concept="2Ry0Ak" id="3$kXDieb_J9" role="iGT6I">
-                <property role="2Ry0Am" value="languages" />
-                <node concept="2Ry0Ak" id="3$kXDieb_Ja" role="2Ry0An">
-                  <property role="2Ry0Am" value="org.campagnelab.jupyterManager" />
-                  <node concept="2Ry0Ak" id="3$kXDiebAF1" role="2Ry0An">
-                    <property role="2Ry0Am" value="netty-handler-4.0.36.Final.jar" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="28jJK3" id="3$kXDiebAV5" role="39821P">
-            <node concept="55IIr" id="3$kXDiebAV6" role="28jJRO">
-              <node concept="2Ry0Ak" id="3$kXDiebAV7" role="iGT6I">
-                <property role="2Ry0Am" value="languages" />
-                <node concept="2Ry0Ak" id="3$kXDiebAV8" role="2Ry0An">
-                  <property role="2Ry0Am" value="org.campagnelab.jupyterManager" />
-                  <node concept="2Ry0Ak" id="3$kXDiebC1f" role="2Ry0An">
-                    <property role="2Ry0Am" value="netty-resolver-2.0.2.jar" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="28jJK3" id="3$kXDiebB5W" role="39821P">
-            <node concept="55IIr" id="3$kXDiebB5X" role="28jJRO">
-              <node concept="2Ry0Ak" id="3$kXDiebB5Y" role="iGT6I">
-                <property role="2Ry0Am" value="languages" />
-                <node concept="2Ry0Ak" id="3$kXDiebB5Z" role="2Ry0An">
-                  <property role="2Ry0Am" value="org.campagnelab.jupyterManager" />
-                  <node concept="2Ry0Ak" id="3$kXDiebBVA" role="2Ry0An">
-                    <property role="2Ry0Am" value="netty-reactive-streams-1.0.4.jar" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="28jJK3" id="3$kXDiebBhh" role="39821P">
-            <node concept="55IIr" id="3$kXDiebBhi" role="28jJRO">
-              <node concept="2Ry0Ak" id="3$kXDiebBhj" role="iGT6I">
-                <property role="2Ry0Am" value="languages" />
-                <node concept="2Ry0Ak" id="3$kXDiebBhk" role="2Ry0An">
-                  <property role="2Ry0Am" value="org.campagnelab.jupyterManager" />
-                  <node concept="2Ry0Ak" id="3$kXDiebC6S" role="2Ry0An">
-                    <property role="2Ry0Am" value="netty-resolver-dns-2.0.2.jar" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="28jJK3" id="3$kXDiebBt4" role="39821P">
-            <node concept="55IIr" id="3$kXDiebBt5" role="28jJRO">
-              <node concept="2Ry0Ak" id="3$kXDiebBt6" role="iGT6I">
-                <property role="2Ry0Am" value="languages" />
-                <node concept="2Ry0Ak" id="3$kXDiebBt7" role="2Ry0An">
-                  <property role="2Ry0Am" value="org.campagnelab.jupyterManager" />
-                  <node concept="2Ry0Ak" id="3$kXDiebCcx" role="2Ry0An">
-                    <property role="2Ry0Am" value="netty-transport-4.0.36.Final.jar" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="28jJK3" id="3$kXDiebBDl" role="39821P">
-            <node concept="55IIr" id="3$kXDiebBDm" role="28jJRO">
-              <node concept="2Ry0Ak" id="3$kXDiebBDn" role="iGT6I">
-                <property role="2Ry0Am" value="languages" />
-                <node concept="2Ry0Ak" id="3$kXDiebBDo" role="2Ry0An">
-                  <property role="2Ry0Am" value="org.campagnelab.jupyterManager" />
-                  <node concept="2Ry0Ak" id="3$kXDiebCcC" role="2Ry0An">
-                    <property role="2Ry0Am" value="slf4j-api-1.7.21.jar" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="28jJK3" id="3$kXDiebC$$" role="39821P">
-            <node concept="55IIr" id="3$kXDiebC$_" role="28jJRO">
-              <node concept="2Ry0Ak" id="3$kXDiebC$A" role="iGT6I">
-                <property role="2Ry0Am" value="languages" />
-                <node concept="2Ry0Ak" id="3$kXDiebC$B" role="2Ry0An">
-                  <property role="2Ry0Am" value="org.campagnelab.jupyterManager" />
-                  <node concept="2Ry0Ak" id="3$kXDiebGTE" role="2Ry0An">
-                    <property role="2Ry0Am" value="reactive-streams-1.0.0.jar" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="28jJK3" id="3$kXDiebKrr" role="39821P">
-            <node concept="55IIr" id="3$kXDiebKrs" role="28jJRO">
-              <node concept="2Ry0Ak" id="3$kXDiebKrt" role="iGT6I">
-                <property role="2Ry0Am" value="languages" />
-                <node concept="2Ry0Ak" id="3$kXDiebKru" role="2Ry0An">
-                  <property role="2Ry0Am" value="org.campagnelab.jupyterManager" />
-                  <node concept="2Ry0Ak" id="3$kXDiebKJ6" role="2Ry0An">
-                    <property role="2Ry0Am" value="unirest-java-1.4.9.jar" />
                   </node>
                 </node>
               </node>
@@ -1044,6 +693,35 @@
             <ref role="3bR37D" to="ffeo:7pdFgzxlDoA" resolve="jetbrains.mps.build" />
           </node>
         </node>
+        <node concept="1SiIV0" id="6uoYBO0KenQ" role="3bR37C">
+          <node concept="3bR9La" id="6uoYBO0KenR" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" to="ffeo:mXGwHwhVPj" resolve="JDK" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="6uoYBO0KenS" role="3bR37C">
+          <node concept="3bR9La" id="6uoYBO0KenT" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" node="5KT3YWtJvBx" resolve="org.campagnelab.metar.R.gen" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="6uoYBO0KenU" role="3bR37C">
+          <node concept="3bR9La" id="6uoYBO0KenV" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" node="1$0xyBYfkEs" resolve="org.campagnelab.metar.code" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="6uoYBO0Keo2" role="3bR37C">
+          <node concept="1Busua" id="6uoYBO0Keo3" role="1SiIV1">
+            <ref role="1Busuk" to="ffeo:7Kfy9QB6KYb" resolve="jetbrains.mps.baseLanguage" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="6uoYBO0KhEV" role="3bR37C">
+          <node concept="3bR9La" id="6uoYBO0KhEW" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" node="6uoYBO0KgLs" resolve="org.campagnelab.instantrefresh.plugin" />
+          </node>
+        </node>
       </node>
       <node concept="1E1JtD" id="5KT3YWtJvBx" role="2G$12L">
         <property role="BnDLt" value="true" />
@@ -1085,10 +763,10 @@
             <ref role="3bR37D" node="1$0xyBYfkEs" resolve="org.campagnelab.metar.code" />
           </node>
         </node>
-        <node concept="1SiIV0" id="3$kXDiebbIu" role="3bR37C">
-          <node concept="3bR9La" id="3$kXDiebbIv" role="1SiIV1">
+        <node concept="1SiIV0" id="6uoYBO0KhFa" role="3bR37C">
+          <node concept="3bR9La" id="6uoYBO0KhFb" role="1SiIV1">
             <property role="3bR36h" value="false" />
-            <ref role="3bR37D" node="3$kXDieb9yQ" resolve="org.campagnelab.jupyterManager.plugin" />
+            <ref role="3bR37D" node="6uoYBO0KgLs" resolve="org.campagnelab.instantrefresh.plugin" />
           </node>
         </node>
       </node>
@@ -1633,14 +1311,11 @@
         <node concept="3LEDTM" id="7hlMFbPpsfj" role="3LEDUa">
           <ref role="3LEDTN" node="7U8jHwbep48" resolve="org.campagnelab.editor.listeners.plugin" />
         </node>
-        <node concept="3LEDTy" id="3$kXDiebTdJ" role="3LEDUa">
-          <ref role="3LEDTV" node="3$kXDieb7HX" resolve="org.campagnelab.jupyterManager" />
-        </node>
-        <node concept="3LEDTM" id="3$kXDiebTdK" role="3LEDUa">
-          <ref role="3LEDTN" node="3$kXDieb9yQ" resolve="org.campagnelab.jupyterManager.plugin" />
-        </node>
         <node concept="3LEDTy" id="2FRBm0A$0f" role="3LEDUa">
           <ref role="3LEDTV" node="2FRBm0AyRm" resolve="org.campagnelab.metar.R.access" />
+        </node>
+        <node concept="3LEDTM" id="6uoYBO0KhGd" role="3LEDUa">
+          <ref role="3LEDTN" node="6uoYBO0KgLs" resolve="org.campagnelab.instantrefresh.plugin" />
         </node>
       </node>
       <node concept="1E1JtD" id="3rWIEp7Ilky" role="2G$12L">
@@ -1877,10 +1552,22 @@
               <ref role="3bR37D" node="7Mz7YANVaRX" resolve="org.campagnelab.styles" />
             </node>
           </node>
-          <node concept="1SiIV0" id="3$kXDiebbz9" role="3bR37C">
-            <node concept="3bR9La" id="3$kXDiebbza" role="1SiIV1">
+          <node concept="1SiIV0" id="6uoYBO0Kevo" role="3bR37C">
+            <node concept="3bR9La" id="6uoYBO0Kevp" role="1SiIV1">
               <property role="3bR36h" value="false" />
-              <ref role="3bR37D" node="3$kXDieb9yQ" resolve="org.campagnelab.jupyterManager.plugin" />
+              <ref role="3bR37D" node="3rWIEp7J1DE" resolve="org.campagnelab.metar.R#7627187573640569363" />
+            </node>
+          </node>
+          <node concept="1SiIV0" id="6uoYBO0Kevq" role="3bR37C">
+            <node concept="3bR9La" id="6uoYBO0Kevr" role="1SiIV1">
+              <property role="3bR36h" value="false" />
+              <ref role="3bR37D" node="3rWIEp7J14y" resolve="org.campagnelab.metar.R" />
+            </node>
+          </node>
+          <node concept="1SiIV0" id="6uoYBO0KhGt" role="3bR37C">
+            <node concept="3bR9La" id="6uoYBO0KhGu" role="1SiIV1">
+              <property role="3bR36h" value="false" />
+              <ref role="3bR37D" node="6uoYBO0KgLs" resolve="org.campagnelab.instantrefresh.plugin" />
             </node>
           </node>
         </node>
@@ -1950,10 +1637,27 @@
             <ref role="1Busuk" node="5KT3YWtJvBx" resolve="org.campagnelab.metar.R.gen" />
           </node>
         </node>
-        <node concept="1SiIV0" id="3$kXDiebbz7" role="3bR37C">
-          <node concept="3bR9La" id="3$kXDiebbz8" role="1SiIV1">
+        <node concept="1SiIV0" id="6uoYBO0Kevi" role="3bR37C">
+          <node concept="3bR9La" id="6uoYBO0Kevj" role="1SiIV1">
             <property role="3bR36h" value="false" />
-            <ref role="3bR37D" node="3$kXDieb9yQ" resolve="org.campagnelab.jupyterManager.plugin" />
+            <ref role="3bR37D" node="3rWIEp7J14y" resolve="org.campagnelab.metar.R" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="6uoYBO0Kevk" role="3bR37C">
+          <node concept="3bR9La" id="6uoYBO0Kevl" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" node="5KT3YWtJvBx" resolve="org.campagnelab.metar.R.gen" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="6uoYBO0Kevm" role="3bR37C">
+          <node concept="1Busua" id="6uoYBO0Kevn" role="1SiIV1">
+            <ref role="1Busuk" node="3rWIEp7J14y" resolve="org.campagnelab.metar.R" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="6uoYBO0KhGr" role="3bR37C">
+          <node concept="3bR9La" id="6uoYBO0KhGs" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" node="6uoYBO0KgLs" resolve="org.campagnelab.instantrefresh.plugin" />
           </node>
         </node>
       </node>
@@ -2367,10 +2071,16 @@
             <ref role="3bR37D" to="ffeo:7KapL9OABnm" resolve="jetbrains.mps.ide.ui" />
           </node>
         </node>
-        <node concept="1SiIV0" id="fC382F5ZnC" role="3bR37C">
-          <node concept="3bR9La" id="fC382F5ZnD" role="1SiIV1">
+        <node concept="1SiIV0" id="6uoYBO0Kew3" role="3bR37C">
+          <node concept="3bR9La" id="6uoYBO0Kew4" role="1SiIV1">
             <property role="3bR36h" value="false" />
-            <ref role="3bR37D" node="3$kXDieb9yQ" resolve="org.campagnelab.jupyterManager.plugin" />
+            <ref role="3bR37D" to="ffeo:7Kfy9QB6Lc2" resolve="jetbrains.mps.lang.typesystem" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="6uoYBO0KhH6" role="3bR37C">
+          <node concept="3bR9La" id="6uoYBO0KhH7" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" node="6uoYBO0KgLs" resolve="org.campagnelab.instantrefresh.plugin" />
           </node>
         </node>
       </node>
@@ -2911,6 +2621,12 @@
             </node>
           </node>
         </node>
+        <node concept="1SiIV0" id="6uoYBO0Kex5" role="3bR37C">
+          <node concept="3bR9La" id="6uoYBO0Kex6" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" node="3rWIEp7J14y" resolve="org.campagnelab.metar.R" />
+          </node>
+        </node>
       </node>
       <node concept="1E1JtD" id="xggGiYVQVt" role="2G$12L">
         <property role="BnDLt" value="true" />
@@ -3366,577 +3082,195 @@
             <ref role="3bR37D" node="xggGiYVQVt" resolve="org.campagnelab.metar.biomartToR" />
           </node>
         </node>
-      </node>
-      <node concept="1E1JtD" id="3$kXDieb7HX" role="2G$12L">
-        <property role="BnDLt" value="true" />
-        <property role="TrG5h" value="org.campagnelab.jupyterManager" />
-        <property role="3LESm3" value="fa51b48b-022c-4a7d-b685-4030a7571a91" />
-        <property role="2GAjPV" value="false" />
-        <node concept="55IIr" id="3$kXDieb7I0" role="3LF7KH">
-          <node concept="2Ry0Ak" id="3$kXDieb8DW" role="iGT6I">
-            <property role="2Ry0Am" value="languages" />
-            <node concept="2Ry0Ak" id="3$kXDieb8Eb" role="2Ry0An">
-              <property role="2Ry0Am" value="org.campagnelab.jupyterManager" />
-              <node concept="2Ry0Ak" id="3$kXDiebaTp" role="2Ry0An">
-                <property role="2Ry0Am" value="org.campagnelab.jupyterManager.mpl" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="1SiIV0" id="3$kXDiebaX9" role="3bR37C">
-          <node concept="3bR9La" id="3$kXDiebaXa" role="1SiIV1">
-            <property role="3bR36h" value="false" />
-            <ref role="3bR37D" node="3gMg70bRmfh" resolve="org.campagnelab.metar.tables" />
-          </node>
-        </node>
-        <node concept="1SiIV0" id="3$kXDiebaXb" role="3bR37C">
-          <node concept="3bR9La" id="3$kXDiebaXc" role="1SiIV1">
-            <property role="3bR36h" value="false" />
-            <ref role="3bR37D" to="ffeo:1TaHNgiIbJb" resolve="MPS.Platform" />
-          </node>
-        </node>
-        <node concept="1SiIV0" id="3$kXDiebaXd" role="3bR37C">
-          <node concept="3bR9La" id="3$kXDiebaXe" role="1SiIV1">
-            <property role="3bR36h" value="false" />
-            <ref role="3bR37D" node="3$kXDieb9yQ" resolve="org.campagnelab.jupyterManager.plugin" />
-          </node>
-        </node>
-        <node concept="1SiIV0" id="3$kXDiebaXj" role="3bR37C">
-          <node concept="1BurEX" id="3$kXDiebaXk" role="1SiIV1">
-            <node concept="55IIr" id="3$kXDiebaXf" role="1BurEY">
-              <node concept="2Ry0Ak" id="3$kXDiebaXg" role="iGT6I">
-                <property role="2Ry0Am" value="languages" />
-                <node concept="2Ry0Ak" id="3$kXDiebaXh" role="2Ry0An">
-                  <property role="2Ry0Am" value="org.campagnelab.jupyterManager" />
-                  <node concept="2Ry0Ak" id="3$kXDiebaXi" role="2Ry0An">
-                    <property role="2Ry0Am" value="reactive-streams-1.0.0.jar" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="1SiIV0" id="3$kXDiebaXp" role="3bR37C">
-          <node concept="1BurEX" id="3$kXDiebaXq" role="1SiIV1">
-            <node concept="55IIr" id="3$kXDiebaXl" role="1BurEY">
-              <node concept="2Ry0Ak" id="3$kXDiebaXm" role="iGT6I">
-                <property role="2Ry0Am" value="languages" />
-                <node concept="2Ry0Ak" id="3$kXDiebaXn" role="2Ry0An">
-                  <property role="2Ry0Am" value="org.campagnelab.jupyterManager" />
-                  <node concept="2Ry0Ak" id="3$kXDiebaXo" role="2Ry0An">
-                    <property role="2Ry0Am" value="netty-transport-4.0.36.Final.jar" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="1SiIV0" id="3$kXDiebaXv" role="3bR37C">
-          <node concept="1BurEX" id="3$kXDiebaXw" role="1SiIV1">
-            <node concept="55IIr" id="3$kXDiebaXr" role="1BurEY">
-              <node concept="2Ry0Ak" id="3$kXDiebaXs" role="iGT6I">
-                <property role="2Ry0Am" value="languages" />
-                <node concept="2Ry0Ak" id="3$kXDiebaXt" role="2Ry0An">
-                  <property role="2Ry0Am" value="org.campagnelab.jupyterManager" />
-                  <node concept="2Ry0Ak" id="3$kXDiebaXu" role="2Ry0An">
-                    <property role="2Ry0Am" value="netty-reactive-streams-1.0.4.jar" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="1SiIV0" id="3$kXDiebaX_" role="3bR37C">
-          <node concept="1BurEX" id="3$kXDiebaXA" role="1SiIV1">
-            <node concept="55IIr" id="3$kXDiebaXx" role="1BurEY">
-              <node concept="2Ry0Ak" id="3$kXDiebaXy" role="iGT6I">
-                <property role="2Ry0Am" value="languages" />
-                <node concept="2Ry0Ak" id="3$kXDiebaXz" role="2Ry0An">
-                  <property role="2Ry0Am" value="org.campagnelab.jupyterManager" />
-                  <node concept="2Ry0Ak" id="3$kXDiebaX$" role="2Ry0An">
-                    <property role="2Ry0Am" value="httpcore-nio-4.4.4.jar" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="1SiIV0" id="3$kXDiebaXF" role="3bR37C">
-          <node concept="1BurEX" id="3$kXDiebaXG" role="1SiIV1">
-            <node concept="55IIr" id="3$kXDiebaXB" role="1BurEY">
-              <node concept="2Ry0Ak" id="3$kXDiebaXC" role="iGT6I">
-                <property role="2Ry0Am" value="languages" />
-                <node concept="2Ry0Ak" id="3$kXDiebaXD" role="2Ry0An">
-                  <property role="2Ry0Am" value="org.campagnelab.jupyterManager" />
-                  <node concept="2Ry0Ak" id="3$kXDiebaXE" role="2Ry0An">
-                    <property role="2Ry0Am" value="netty-resolver-dns-2.0.2.jar" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="1SiIV0" id="3$kXDiebaXL" role="3bR37C">
-          <node concept="1BurEX" id="3$kXDiebaXM" role="1SiIV1">
-            <node concept="55IIr" id="3$kXDiebaXH" role="1BurEY">
-              <node concept="2Ry0Ak" id="3$kXDiebaXI" role="iGT6I">
-                <property role="2Ry0Am" value="languages" />
-                <node concept="2Ry0Ak" id="3$kXDiebaXJ" role="2Ry0An">
-                  <property role="2Ry0Am" value="org.campagnelab.jupyterManager" />
-                  <node concept="2Ry0Ak" id="3$kXDiebaXK" role="2Ry0An">
-                    <property role="2Ry0Am" value="httpclient-4.5.2.jar" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="1SiIV0" id="3$kXDiebaXX" role="3bR37C">
-          <node concept="1BurEX" id="3$kXDiebaXY" role="1SiIV1">
-            <node concept="55IIr" id="3$kXDiebaXT" role="1BurEY">
-              <node concept="2Ry0Ak" id="3$kXDiebaXU" role="iGT6I">
-                <property role="2Ry0Am" value="languages" />
-                <node concept="2Ry0Ak" id="3$kXDiebaXV" role="2Ry0An">
-                  <property role="2Ry0Am" value="org.campagnelab.jupyterManager" />
-                  <node concept="2Ry0Ak" id="3$kXDiebaXW" role="2Ry0An">
-                    <property role="2Ry0Am" value="netty-handler-4.0.36.Final.jar" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="1SiIV0" id="3$kXDiebaY3" role="3bR37C">
-          <node concept="1BurEX" id="3$kXDiebaY4" role="1SiIV1">
-            <node concept="55IIr" id="3$kXDiebaXZ" role="1BurEY">
-              <node concept="2Ry0Ak" id="3$kXDiebaY0" role="iGT6I">
-                <property role="2Ry0Am" value="languages" />
-                <node concept="2Ry0Ak" id="3$kXDiebaY1" role="2Ry0An">
-                  <property role="2Ry0Am" value="org.campagnelab.jupyterManager" />
-                  <node concept="2Ry0Ak" id="3$kXDiebaY2" role="2Ry0An">
-                    <property role="2Ry0Am" value="netty-codec-http-4.0.36.Final.jar" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="1SiIV0" id="3$kXDiebaY9" role="3bR37C">
-          <node concept="1BurEX" id="3$kXDiebaYa" role="1SiIV1">
-            <node concept="55IIr" id="3$kXDiebaY5" role="1BurEY">
-              <node concept="2Ry0Ak" id="3$kXDiebaY6" role="iGT6I">
-                <property role="2Ry0Am" value="languages" />
-                <node concept="2Ry0Ak" id="3$kXDiebaY7" role="2Ry0An">
-                  <property role="2Ry0Am" value="org.campagnelab.jupyterManager" />
-                  <node concept="2Ry0Ak" id="3$kXDiebaY8" role="2Ry0An">
-                    <property role="2Ry0Am" value="httpmime-4.5.2.jar" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="1SiIV0" id="3$kXDiebaYf" role="3bR37C">
-          <node concept="1BurEX" id="3$kXDiebaYg" role="1SiIV1">
-            <node concept="55IIr" id="3$kXDiebaYb" role="1BurEY">
-              <node concept="2Ry0Ak" id="3$kXDiebaYc" role="iGT6I">
-                <property role="2Ry0Am" value="languages" />
-                <node concept="2Ry0Ak" id="3$kXDiebaYd" role="2Ry0An">
-                  <property role="2Ry0Am" value="org.campagnelab.jupyterManager" />
-                  <node concept="2Ry0Ak" id="3$kXDiebaYe" role="2Ry0An">
-                    <property role="2Ry0Am" value="netty-codec-dns-2.0.2.jar" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="1SiIV0" id="3$kXDiebaYl" role="3bR37C">
-          <node concept="1BurEX" id="3$kXDiebaYm" role="1SiIV1">
-            <node concept="55IIr" id="3$kXDiebaYh" role="1BurEY">
-              <node concept="2Ry0Ak" id="3$kXDiebaYi" role="iGT6I">
-                <property role="2Ry0Am" value="languages" />
-                <node concept="2Ry0Ak" id="3$kXDiebaYj" role="2Ry0An">
-                  <property role="2Ry0Am" value="org.campagnelab.jupyterManager" />
-                  <node concept="2Ry0Ak" id="3$kXDiebaYk" role="2Ry0An">
-                    <property role="2Ry0Am" value="httpcore-4.4.4.jar" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="1SiIV0" id="3$kXDiebaYr" role="3bR37C">
-          <node concept="1BurEX" id="3$kXDiebaYs" role="1SiIV1">
-            <node concept="55IIr" id="3$kXDiebaYn" role="1BurEY">
-              <node concept="2Ry0Ak" id="3$kXDiebaYo" role="iGT6I">
-                <property role="2Ry0Am" value="languages" />
-                <node concept="2Ry0Ak" id="3$kXDiebaYp" role="2Ry0An">
-                  <property role="2Ry0Am" value="org.campagnelab.jupyterManager" />
-                  <node concept="2Ry0Ak" id="3$kXDiebaYq" role="2Ry0An">
-                    <property role="2Ry0Am" value="httpasyncclient-4.1.1.jar" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="1SiIV0" id="3$kXDiebaYx" role="3bR37C">
-          <node concept="1BurEX" id="3$kXDiebaYy" role="1SiIV1">
-            <node concept="55IIr" id="3$kXDiebaYt" role="1BurEY">
-              <node concept="2Ry0Ak" id="3$kXDiebaYu" role="iGT6I">
-                <property role="2Ry0Am" value="languages" />
-                <node concept="2Ry0Ak" id="3$kXDiebaYv" role="2Ry0An">
-                  <property role="2Ry0Am" value="org.campagnelab.jupyterManager" />
-                  <node concept="2Ry0Ak" id="3$kXDiebaYw" role="2Ry0An">
-                    <property role="2Ry0Am" value="netty-common-4.0.36.Final.jar" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="1SiIV0" id="3$kXDiebaYB" role="3bR37C">
-          <node concept="1BurEX" id="3$kXDiebaYC" role="1SiIV1">
-            <node concept="55IIr" id="3$kXDiebaYz" role="1BurEY">
-              <node concept="2Ry0Ak" id="3$kXDiebaY$" role="iGT6I">
-                <property role="2Ry0Am" value="languages" />
-                <node concept="2Ry0Ak" id="3$kXDiebaY_" role="2Ry0An">
-                  <property role="2Ry0Am" value="org.campagnelab.jupyterManager" />
-                  <node concept="2Ry0Ak" id="3$kXDiebaYA" role="2Ry0An">
-                    <property role="2Ry0Am" value="hamcrest-core-1.1.jar" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="1SiIV0" id="3$kXDiebaYH" role="3bR37C">
-          <node concept="1BurEX" id="3$kXDiebaYI" role="1SiIV1">
-            <node concept="55IIr" id="3$kXDiebaYD" role="1BurEY">
-              <node concept="2Ry0Ak" id="3$kXDiebaYE" role="iGT6I">
-                <property role="2Ry0Am" value="languages" />
-                <node concept="2Ry0Ak" id="3$kXDiebaYF" role="2Ry0An">
-                  <property role="2Ry0Am" value="org.campagnelab.jupyterManager" />
-                  <node concept="2Ry0Ak" id="3$kXDiebaYG" role="2Ry0An">
-                    <property role="2Ry0Am" value="unirest-java-1.4.9.jar" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="1SiIV0" id="3$kXDiebaYN" role="3bR37C">
-          <node concept="1BurEX" id="3$kXDiebaYO" role="1SiIV1">
-            <node concept="55IIr" id="3$kXDiebaYJ" role="1BurEY">
-              <node concept="2Ry0Ak" id="3$kXDiebaYK" role="iGT6I">
-                <property role="2Ry0Am" value="languages" />
-                <node concept="2Ry0Ak" id="3$kXDiebaYL" role="2Ry0An">
-                  <property role="2Ry0Am" value="org.campagnelab.jupyterManager" />
-                  <node concept="2Ry0Ak" id="3$kXDiebaYM" role="2Ry0An">
-                    <property role="2Ry0Am" value="concurrentunit-0.4.2.jar" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="1SiIV0" id="3$kXDiebaYT" role="3bR37C">
-          <node concept="1BurEX" id="3$kXDiebaYU" role="1SiIV1">
-            <node concept="55IIr" id="3$kXDiebaYP" role="1BurEY">
-              <node concept="2Ry0Ak" id="3$kXDiebaYQ" role="iGT6I">
-                <property role="2Ry0Am" value="languages" />
-                <node concept="2Ry0Ak" id="3$kXDiebaYR" role="2Ry0An">
-                  <property role="2Ry0Am" value="org.campagnelab.jupyterManager" />
-                  <node concept="2Ry0Ak" id="3$kXDiebaYS" role="2Ry0An">
-                    <property role="2Ry0Am" value="json-simple-1.1.1.jar" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="1SiIV0" id="3$kXDiebaYZ" role="3bR37C">
-          <node concept="1BurEX" id="3$kXDiebaZ0" role="1SiIV1">
-            <node concept="55IIr" id="3$kXDiebaYV" role="1BurEY">
-              <node concept="2Ry0Ak" id="3$kXDiebaYW" role="iGT6I">
-                <property role="2Ry0Am" value="languages" />
-                <node concept="2Ry0Ak" id="3$kXDiebaYX" role="2Ry0An">
-                  <property role="2Ry0Am" value="org.campagnelab.jupyterManager" />
-                  <node concept="2Ry0Ak" id="3$kXDiebaYY" role="2Ry0An">
-                    <property role="2Ry0Am" value="netty-resolver-2.0.2.jar" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="1SiIV0" id="3$kXDiebaZ5" role="3bR37C">
-          <node concept="1BurEX" id="3$kXDiebaZ6" role="1SiIV1">
-            <node concept="55IIr" id="3$kXDiebaZ1" role="1BurEY">
-              <node concept="2Ry0Ak" id="3$kXDiebaZ2" role="iGT6I">
-                <property role="2Ry0Am" value="languages" />
-                <node concept="2Ry0Ak" id="3$kXDiebaZ3" role="2Ry0An">
-                  <property role="2Ry0Am" value="org.campagnelab.jupyterManager" />
-                  <node concept="2Ry0Ak" id="3$kXDiebaZ4" role="2Ry0An">
-                    <property role="2Ry0Am" value="json-20160212.jar" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="1SiIV0" id="3$kXDiebaZb" role="3bR37C">
-          <node concept="1BurEX" id="3$kXDiebaZc" role="1SiIV1">
-            <node concept="55IIr" id="3$kXDiebaZ7" role="1BurEY">
-              <node concept="2Ry0Ak" id="3$kXDiebaZ8" role="iGT6I">
-                <property role="2Ry0Am" value="languages" />
-                <node concept="2Ry0Ak" id="3$kXDiebaZ9" role="2Ry0An">
-                  <property role="2Ry0Am" value="org.campagnelab.jupyterManager" />
-                  <node concept="2Ry0Ak" id="3$kXDiebaZa" role="2Ry0An">
-                    <property role="2Ry0Am" value="netty-buffer-4.0.36.Final.jar" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="1SiIV0" id="3$kXDiebaZh" role="3bR37C">
-          <node concept="1BurEX" id="3$kXDiebaZi" role="1SiIV1">
-            <node concept="55IIr" id="3$kXDiebaZd" role="1BurEY">
-              <node concept="2Ry0Ak" id="3$kXDiebaZe" role="iGT6I">
-                <property role="2Ry0Am" value="languages" />
-                <node concept="2Ry0Ak" id="3$kXDiebaZf" role="2Ry0An">
-                  <property role="2Ry0Am" value="org.campagnelab.jupyterManager" />
-                  <node concept="2Ry0Ak" id="3$kXDiebaZg" role="2Ry0An">
-                    <property role="2Ry0Am" value="javassist-3.20.0-GA.jar" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="1SiIV0" id="3$kXDiebaZn" role="3bR37C">
-          <node concept="1BurEX" id="3$kXDiebaZo" role="1SiIV1">
-            <node concept="55IIr" id="3$kXDiebaZj" role="1BurEY">
-              <node concept="2Ry0Ak" id="3$kXDiebaZk" role="iGT6I">
-                <property role="2Ry0Am" value="languages" />
-                <node concept="2Ry0Ak" id="3$kXDiebaZl" role="2Ry0An">
-                  <property role="2Ry0Am" value="org.campagnelab.jupyterManager" />
-                  <node concept="2Ry0Ak" id="3$kXDiebaZm" role="2Ry0An">
-                    <property role="2Ry0Am" value="commons-codec-1.9.jar" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="1SiIV0" id="3$kXDiebaZt" role="3bR37C">
-          <node concept="1BurEX" id="3$kXDiebaZu" role="1SiIV1">
-            <node concept="55IIr" id="3$kXDiebaZp" role="1BurEY">
-              <node concept="2Ry0Ak" id="3$kXDiebaZq" role="iGT6I">
-                <property role="2Ry0Am" value="languages" />
-                <node concept="2Ry0Ak" id="3$kXDiebaZr" role="2Ry0An">
-                  <property role="2Ry0Am" value="org.campagnelab.jupyterManager" />
-                  <node concept="2Ry0Ak" id="3$kXDiebaZs" role="2Ry0An">
-                    <property role="2Ry0Am" value="netty-codec-4.0.36.Final.jar" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="1SiIV0" id="3$kXDiebaZz" role="3bR37C">
-          <node concept="1BurEX" id="3$kXDiebaZ$" role="1SiIV1">
-            <node concept="55IIr" id="3$kXDiebaZv" role="1BurEY">
-              <node concept="2Ry0Ak" id="3$kXDiebaZw" role="iGT6I">
-                <property role="2Ry0Am" value="languages" />
-                <node concept="2Ry0Ak" id="3$kXDiebaZx" role="2Ry0An">
-                  <property role="2Ry0Am" value="org.campagnelab.jupyterManager" />
-                  <node concept="2Ry0Ak" id="3$kXDiebaZy" role="2Ry0An">
-                    <property role="2Ry0Am" value="async-http-client-2.0.2.jar" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="1SiIV0" id="3$kXDiebaZD" role="3bR37C">
-          <node concept="1BurEX" id="3$kXDiebaZE" role="1SiIV1">
-            <node concept="55IIr" id="3$kXDiebaZ_" role="1BurEY">
-              <node concept="2Ry0Ak" id="3$kXDiebaZA" role="iGT6I">
-                <property role="2Ry0Am" value="languages" />
-                <node concept="2Ry0Ak" id="3$kXDiebaZB" role="2Ry0An">
-                  <property role="2Ry0Am" value="org.campagnelab.jupyterManager" />
-                  <node concept="2Ry0Ak" id="3$kXDiebaZC" role="2Ry0An">
-                    <property role="2Ry0Am" value="jupyter_manager-1.0-SNAPSHOT.jar" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="1SiIV0" id="3$kXDiebaZJ" role="3bR37C">
-          <node concept="1BurEX" id="3$kXDiebaZK" role="1SiIV1">
-            <node concept="55IIr" id="3$kXDiebaZF" role="1BurEY">
-              <node concept="2Ry0Ak" id="3$kXDiebaZG" role="iGT6I">
-                <property role="2Ry0Am" value="languages" />
-                <node concept="2Ry0Ak" id="3$kXDiebaZH" role="2Ry0An">
-                  <property role="2Ry0Am" value="org.campagnelab.jupyterManager" />
-                  <node concept="2Ry0Ak" id="3$kXDiebaZI" role="2Ry0An">
-                    <property role="2Ry0Am" value="slf4j-api-1.7.21.jar" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="1yeLz9" id="3$kXDiebaZL" role="1TViLv">
-          <property role="TrG5h" value="org.campagnelab.jupyterManager#7780617006129537270" />
-          <property role="3LESm3" value="5f553882-6b91-44e9-a57b-7803ca1f0e32" />
-          <property role="2GAjPV" value="false" />
-        </node>
-      </node>
-      <node concept="1E1JtA" id="3$kXDieb9yQ" role="2G$12L">
-        <property role="BnDLt" value="true" />
-        <property role="TrG5h" value="org.campagnelab.jupyterManager.plugin" />
-        <property role="3LESm3" value="fd3fc8d7-bebb-4053-88a0-6dcc12448e6e" />
-        <property role="2GAjPV" value="false" />
-        <node concept="55IIr" id="3$kXDieb9yT" role="3LF7KH">
-          <node concept="2Ry0Ak" id="3$kXDiebavd" role="iGT6I">
-            <property role="2Ry0Am" value="solutions" />
-            <node concept="2Ry0Ak" id="3$kXDiebaAI" role="2Ry0An">
-              <property role="2Ry0Am" value="org.campagnelab.jupyterManager.plugin" />
-              <node concept="2Ry0Ak" id="3$kXDiebaLS" role="2Ry0An">
-                <property role="2Ry0Am" value="org.campagnelab.jupyterManager.plugin.msd" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="1SiIV0" id="3$kXDiebpq7" role="3bR37C">
-          <node concept="3bR9La" id="3$kXDiebpq8" role="1SiIV1">
-            <property role="3bR36h" value="false" />
-            <ref role="3bR37D" to="ffeo:1ia2VB5guYy" resolve="MPS.IDEA" />
-          </node>
-        </node>
-        <node concept="1SiIV0" id="3$kXDiebpq9" role="3bR37C">
-          <node concept="3bR9La" id="3$kXDiebpqa" role="1SiIV1">
-            <property role="3bR36h" value="false" />
-            <ref role="3bR37D" to="ffeo:1ZViq9oppal" resolve="jetbrains.mps.make.facets" />
-          </node>
-        </node>
-        <node concept="1SiIV0" id="3$kXDiebpqb" role="3bR37C">
-          <node concept="3bR9La" id="3$kXDiebpqc" role="1SiIV1">
-            <property role="3bR36h" value="false" />
-            <ref role="3bR37D" node="3gMg70bRmfh" resolve="org.campagnelab.metar.tables" />
-          </node>
-        </node>
-        <node concept="1SiIV0" id="3$kXDiebpqd" role="3bR37C">
-          <node concept="3bR9La" id="3$kXDiebpqe" role="1SiIV1">
-            <property role="3bR36h" value="false" />
-            <ref role="3bR37D" to="t9i9:2mFg1uCD9q3" resolve="org.campagnelab.nyosh.lib" />
-          </node>
-        </node>
-        <node concept="1SiIV0" id="3$kXDiebpqf" role="3bR37C">
-          <node concept="3bR9La" id="3$kXDiebpqg" role="1SiIV1">
-            <property role="3bR36h" value="false" />
-            <ref role="3bR37D" to="ffeo:7Kfy9QB6L8K" resolve="jetbrains.mps.lang.plugin" />
-          </node>
-        </node>
-        <node concept="1SiIV0" id="3$kXDiebpqh" role="3bR37C">
-          <node concept="3bR9La" id="3$kXDiebpqi" role="1SiIV1">
-            <property role="3bR36h" value="false" />
-            <ref role="3bR37D" to="ffeo:1TaHNgiIbJb" resolve="MPS.Platform" />
-          </node>
-        </node>
-        <node concept="1SiIV0" id="3$kXDiebpqj" role="3bR37C">
-          <node concept="3bR9La" id="3$kXDiebpqk" role="1SiIV1">
-            <property role="3bR36h" value="false" />
-            <ref role="3bR37D" to="ffeo:2eDSGe9d1qi" resolve="jetbrains.mps.ide" />
-          </node>
-        </node>
-        <node concept="1SiIV0" id="3$kXDiebpql" role="3bR37C">
-          <node concept="3bR9La" id="3$kXDiebpqm" role="1SiIV1">
-            <property role="3bR36h" value="false" />
-            <ref role="3bR37D" to="ffeo:7Kfy9QB6Lg2" resolve="jetbrains.mps.smodel.resources" />
-          </node>
-        </node>
-        <node concept="1SiIV0" id="3$kXDiebpqn" role="3bR37C">
-          <node concept="3bR9La" id="3$kXDiebpqo" role="1SiIV1">
-            <property role="3bR36h" value="false" />
-            <ref role="3bR37D" to="ffeo:1H905DlDUSw" resolve="MPS.OpenAPI" />
-          </node>
-        </node>
-        <node concept="1SiIV0" id="3$kXDiebpqp" role="3bR37C">
-          <node concept="3bR9La" id="3$kXDiebpqq" role="1SiIV1">
-            <property role="3bR36h" value="false" />
-            <ref role="3bR37D" node="3$kXDieb7HX" resolve="org.campagnelab.jupyterManager" />
-          </node>
-        </node>
-        <node concept="1SiIV0" id="3$kXDiebpqr" role="3bR37C">
-          <node concept="3bR9La" id="3$kXDiebpqs" role="1SiIV1">
-            <property role="3bR36h" value="false" />
-            <ref role="3bR37D" to="ffeo:1jjYQYSj2TY" resolve="Ant" />
-          </node>
-        </node>
-        <node concept="1SiIV0" id="3$kXDiebpqt" role="3bR37C">
-          <node concept="3bR9La" id="3$kXDiebpqu" role="1SiIV1">
+        <node concept="1SiIV0" id="6uoYBO0KexI" role="3bR37C">
+          <node concept="3bR9La" id="6uoYBO0KexJ" role="1SiIV1">
             <property role="3bR36h" value="false" />
             <ref role="3bR37D" to="ffeo:mXGwHwhVPj" resolve="JDK" />
           </node>
         </node>
-        <node concept="1SiIV0" id="3$kXDiebpqv" role="3bR37C">
-          <node concept="3bR9La" id="3$kXDiebpqw" role="1SiIV1">
-            <property role="3bR36h" value="false" />
-            <ref role="3bR37D" to="ffeo:44LXwdzyvTi" resolve="Annotations" />
+      </node>
+      <node concept="1E1JtA" id="6uoYBO0KgLs" role="2G$12L">
+        <property role="BnDLt" value="true" />
+        <property role="TrG5h" value="org.campagnelab.instantrefresh.plugin" />
+        <property role="3LESm3" value="fd3fc8d7-bebb-4053-88a0-6dcc12448e6e" />
+        <property role="2GAjPV" value="false" />
+        <node concept="55IIr" id="6uoYBO0KgLx" role="3LF7KH">
+          <node concept="2Ry0Ak" id="6uoYBO0Khjd" role="iGT6I">
+            <property role="2Ry0Am" value="solutions" />
+            <node concept="2Ry0Ak" id="6uoYBO0Khnh" role="2Ry0An">
+              <property role="2Ry0Am" value="org.campagnelab.instantrefresh.plugin" />
+              <node concept="2Ry0Ak" id="6uoYBO0Khvg" role="2Ry0An">
+                <property role="2Ry0Am" value="org.campagnelab.instantrefresh.plugin.msd" />
+              </node>
+            </node>
           </node>
         </node>
-        <node concept="1SiIV0" id="3$kXDiebpqx" role="3bR37C">
-          <node concept="3bR9La" id="3$kXDiebpqy" role="1SiIV1">
+        <node concept="1SiIV0" id="6uoYBO0Khzf" role="3bR37C">
+          <node concept="3bR9La" id="6uoYBO0Khzg" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" node="3rWIEp7J14y" resolve="org.campagnelab.metar.R" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="6uoYBO0Khzh" role="3bR37C">
+          <node concept="3bR9La" id="6uoYBO0Khzi" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" to="ffeo:7Kfy9QB6Lg2" resolve="jetbrains.mps.smodel.resources" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="6uoYBO0Khzj" role="3bR37C">
+          <node concept="3bR9La" id="6uoYBO0Khzk" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" to="ffeo:uyj83GeNPj" resolve="jetbrains.mps.lang.smodel.query.runtime" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="6uoYBO0Khzl" role="3bR37C">
+          <node concept="3bR9La" id="6uoYBO0Khzm" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" to="ffeo:mXGwHwhVPj" resolve="JDK" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="6uoYBO0Khzn" role="3bR37C">
+          <node concept="3bR9La" id="6uoYBO0Khzo" role="1SiIV1">
             <property role="3bR36h" value="false" />
             <ref role="3bR37D" to="ffeo:7Kfy9QB6KXW" resolve="jetbrains.mps.lang.core" />
           </node>
         </node>
-        <node concept="1SiIV0" id="3$kXDiebpqz" role="3bR37C">
-          <node concept="3bR9La" id="3$kXDiebpq$" role="1SiIV1">
+        <node concept="1SiIV0" id="6uoYBO0Khzp" role="3bR37C">
+          <node concept="3bR9La" id="6uoYBO0Khzq" role="1SiIV1">
             <property role="3bR36h" value="false" />
-            <ref role="3bR37D" to="ffeo:7Kfy9QB6LgV" resolve="jetbrains.mps.make.runtime" />
+            <ref role="3bR37D" node="1$0xyBYfkEs" resolve="org.campagnelab.metar.code" />
           </node>
         </node>
-        <node concept="1SiIV0" id="3$kXDiebpq_" role="3bR37C">
-          <node concept="3bR9La" id="3$kXDiebpqA" role="1SiIV1">
+        <node concept="1SiIV0" id="6uoYBO0Khzr" role="3bR37C">
+          <node concept="3bR9La" id="6uoYBO0Khzs" role="1SiIV1">
             <property role="3bR36h" value="false" />
             <ref role="3bR37D" to="ffeo:1TaHNgiIbIQ" resolve="MPS.Core" />
           </node>
         </node>
-        <node concept="1SiIV0" id="3$kXDiebpqB" role="3bR37C">
-          <node concept="3bR9La" id="3$kXDiebpqC" role="1SiIV1">
+        <node concept="1SiIV0" id="6uoYBO0Khzt" role="3bR37C">
+          <node concept="3bR9La" id="6uoYBO0Khzu" role="1SiIV1">
             <property role="3bR36h" value="false" />
             <ref role="3bR37D" to="ffeo:2eDSGe9d1q1" resolve="MPS.Workbench" />
           </node>
         </node>
-        <node concept="1SiIV0" id="3$kXDiebpqD" role="3bR37C">
-          <node concept="3bR9La" id="3$kXDiebpqE" role="1SiIV1">
-            <property role="3bR36h" value="false" />
-            <ref role="3bR37D" node="3gMg70bRmfn" resolve="org.campagnelab.runR" />
-          </node>
-        </node>
-        <node concept="1SiIV0" id="3$kXDiebpqF" role="3bR37C">
-          <node concept="3bR9La" id="3$kXDiebpqG" role="1SiIV1">
-            <property role="3bR36h" value="false" />
-            <ref role="3bR37D" to="ffeo:5xwbQ0eEV3x" resolve="jetbrains.mps.ide.java.platform" />
-          </node>
-        </node>
-        <node concept="1SiIV0" id="fC382F5Zrl" role="3bR37C">
-          <node concept="3bR9La" id="fC382F5Zrm" role="1SiIV1">
+        <node concept="1SiIV0" id="6uoYBO0Khzv" role="3bR37C">
+          <node concept="3bR9La" id="6uoYBO0Khzw" role="1SiIV1">
             <property role="3bR36h" value="false" />
             <ref role="3bR37D" to="ffeo:5xa9wY2vh9z" resolve="jetbrains.mps.execution.library" />
           </node>
         </node>
-        <node concept="1SiIV0" id="fC382F5Zrn" role="3bR37C">
-          <node concept="3bR9La" id="fC382F5Zro" role="1SiIV1">
+        <node concept="1SiIV0" id="6uoYBO0Khzx" role="3bR37C">
+          <node concept="3bR9La" id="6uoYBO0Khzy" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" to="ffeo:1ia2VB5guYy" resolve="MPS.IDEA" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="6uoYBO0Khzz" role="3bR37C">
+          <node concept="3bR9La" id="6uoYBO0Khz$" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" to="ffeo:1ZViq9oppal" resolve="jetbrains.mps.make.facets" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="6uoYBO0Khz_" role="3bR37C">
+          <node concept="3bR9La" id="6uoYBO0KhzA" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" node="3gMg70bRmfh" resolve="org.campagnelab.metar.tables" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="6uoYBO0KhzB" role="3bR37C">
+          <node concept="3bR9La" id="6uoYBO0KhzC" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" to="t9i9:2mFg1uCD9q3" resolve="org.campagnelab.nyosh.lib" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="6uoYBO0KhzD" role="3bR37C">
+          <node concept="3bR9La" id="6uoYBO0KhzE" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" to="ffeo:7pdFgzxlDoA" resolve="jetbrains.mps.build" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="6uoYBO0KhzF" role="3bR37C">
+          <node concept="3bR9La" id="6uoYBO0KhzG" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" to="ffeo:7Kfy9QB6L8K" resolve="jetbrains.mps.lang.plugin" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="6uoYBO0KhzH" role="3bR37C">
+          <node concept="3bR9La" id="6uoYBO0KhzI" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" to="ffeo:1TaHNgiIbJb" resolve="MPS.Platform" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="6uoYBO0KhzJ" role="3bR37C">
+          <node concept="3bR9La" id="6uoYBO0KhzK" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" node="5DjLoGcAuNn" resolve="org.campagnelab.metar.with.r" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="6uoYBO0KhzL" role="3bR37C">
+          <node concept="3bR9La" id="6uoYBO0KhzM" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" to="ffeo:2eDSGe9d1qi" resolve="jetbrains.mps.ide" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="6uoYBO0KhzN" role="3bR37C">
+          <node concept="3bR9La" id="6uoYBO0KhzO" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" to="ffeo:1H905DlDUSw" resolve="MPS.OpenAPI" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="6uoYBO0KhzP" role="3bR37C">
+          <node concept="3bR9La" id="6uoYBO0KhzQ" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" to="ffeo:1jjYQYSj2TY" resolve="Ant" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="6uoYBO0KhzR" role="3bR37C">
+          <node concept="3bR9La" id="6uoYBO0KhzS" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" to="ffeo:44LXwdzyvTi" resolve="Annotations" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="6uoYBO0KhzT" role="3bR37C">
+          <node concept="3bR9La" id="6uoYBO0KhzU" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" to="ffeo:7Kfy9QB6Lh7" resolve="jetbrains.mps.typesystemEngine" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="6uoYBO0KhzV" role="3bR37C">
+          <node concept="3bR9La" id="6uoYBO0KhzW" role="1SiIV1">
             <property role="3bR36h" value="false" />
             <ref role="3bR37D" node="5KT3YWtJvBx" resolve="org.campagnelab.metar.R.gen" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="6uoYBO0KhzX" role="3bR37C">
+          <node concept="3bR9La" id="6uoYBO0KhzY" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" to="ffeo:7Kfy9QB6LgV" resolve="jetbrains.mps.make.runtime" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="6uoYBO0KhzZ" role="3bR37C">
+          <node concept="3bR9La" id="6uoYBO0Kh$0" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" to="ffeo:1TaHNgiIbIZ" resolve="MPS.Editor" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="6uoYBO0Kh$1" role="3bR37C">
+          <node concept="3bR9La" id="6uoYBO0Kh$2" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" to="ffeo:7Kfy9QB6LfQ" resolve="jetbrains.mps.kernel" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="6uoYBO0Kh$3" role="3bR37C">
+          <node concept="3bR9La" id="6uoYBO0Kh$4" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" node="3gMg70bRmfn" resolve="org.campagnelab.runR" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="6uoYBO0Kh$5" role="3bR37C">
+          <node concept="3bR9La" id="6uoYBO0Kh$6" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" to="ffeo:5xwbQ0eEV3x" resolve="jetbrains.mps.ide.java.platform" />
           </node>
         </node>
       </node>
