@@ -144,5 +144,53 @@
       <node concept="l2Vlx" id="2OXSMi_pYqm" role="2iSdaV" />
     </node>
   </node>
+  <node concept="24kQdi" id="7tPuoi15oNI">
+    <ref role="1XX52x" to="5j4l:7tPuoi15o$7" resolve="PlotReceiverOperatingCurve" />
+    <node concept="3EZMnI" id="7tPuoi15oNK" role="2wV5jI">
+      <node concept="3F0ifn" id="7tPuoi15oNL" role="3EZMnx">
+        <property role="3F0ifm" value="ROC curve" />
+      </node>
+      <node concept="3F0ifn" id="7tPuoi15oNM" role="3EZMnx">
+        <property role="3F0ifm" value="with table" />
+      </node>
+      <node concept="3F1sOY" id="7tPuoi15oNN" role="3EZMnx">
+        <ref role="1NtTu8" to="5j4l:7tPuoi15o$8" />
+      </node>
+      <node concept="3F0ifn" id="7tPuoi15oNO" role="3EZMnx">
+        <property role="3F0ifm" value="probability" />
+        <node concept="pVoyu" id="7tPuoi15oNP" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="lj46D" id="7tPuoi15oNQ" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F1sOY" id="7tPuoi15oNR" role="3EZMnx">
+        <ref role="1NtTu8" to="5j4l:7tPuoi15o$a" />
+      </node>
+      <node concept="3F0ifn" id="7tPuoi15oNS" role="3EZMnx">
+        <property role="3F0ifm" value="true labels:" />
+        <node concept="pVoyu" id="7tPuoi15oNT" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="lj46D" id="7tPuoi15oNU" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F1sOY" id="7tPuoi15oNV" role="3EZMnx">
+        <ref role="1NtTu8" to="5j4l:7tPuoi15o$b" />
+      </node>
+      <node concept="3F0ifn" id="7tPuoi15oNW" role="3EZMnx">
+        <property role="3F0ifm" value="            " />
+      </node>
+      <node concept="3F0ifn" id="7tPuoi15oNX" role="3EZMnx">
+        <property role="3F0ifm" value="-&gt;" />
+      </node>
+      <node concept="3F1sOY" id="7tPuoi15oNY" role="3EZMnx">
+        <ref role="1NtTu8" to="5j4l:7tPuoi15o$9" />
+      </node>
+      <node concept="l2Vlx" id="7tPuoi15oNZ" role="2iSdaV" />
+    </node>
+  </node>
 </model>
 

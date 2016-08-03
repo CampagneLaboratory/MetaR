@@ -32,6 +32,12 @@
         <child id="5128164036542408585" name="performanceColumn" index="z8s6c" />
         <child id="6001041468486400692" name="plot" index="3wKG7v" />
       </concept>
+      <concept id="8607919872796887303" name="org.campagnelab.modeling.structure.PlotReceiverOperatingCurve" flags="ng" index="3Qof23">
+        <child id="8607919872796887304" name="table" index="3Qof2c" />
+        <child id="8607919872796887305" name="plot" index="3Qof2d" />
+        <child id="8607919872796887306" name="predictedProbability" index="3Qof2e" />
+        <child id="8607919872796887307" name="trueLabel" index="3Qof2f" />
+      </concept>
     </language>
     <language id="ecf91126-e504-4aae-8ee7-3192d64e77f6" name="org.campagnelab.mps.XChart.types">
       <concept id="1229772424349224909" name="org.campagnelab.mps.XChart.types.structure.ColumnCategoryType" flags="ng" index="aYgxc">
@@ -292,6 +298,30 @@
           <property role="TrG5h" value="traditional training" />
         </node>
       </node>
+      <node concept="S1EQe" id="7tPuoi1wy3P" role="ZXjPg">
+        <property role="S1EQ6" value="RUPRLADFCN" />
+      </node>
+      <node concept="3Qof23" id="7tPuoi18E_n" role="ZXjPg">
+        <property role="S1EQ6" value="EFCLGSFMAN" />
+        <node concept="3MHf5z" id="7tPuoi1w$Id" role="3Qof2e">
+          <ref role="3MHf5w" node="2OXSMi_pUUF" resolve="ProbabilityMut" />
+        </node>
+        <node concept="3MHf5z" id="7tPuoi18HWz" role="3Qof2f">
+          <ref role="3MHf5w" node="2OXSMi_pUUE" resolve="mutatedLabel" />
+        </node>
+        <node concept="afgQW" id="7tPuoi18EGx" role="3Qof2c">
+          <ref role="afgo8" node="2OXSMi_pUSM" resolve="bestAUC-validation.tsv" />
+        </node>
+        <node concept="1FHg$p" id="7tPuoi18Jvp" role="3Qof2d">
+          <property role="ZHjxa" value="200" />
+          <property role="ZHjG8" value="200" />
+          <property role="3ZMXzF" value="6" />
+          <property role="TrG5h" value="ROC curve" />
+        </node>
+      </node>
+      <node concept="S1EQe" id="7tPuoi18JE7" role="ZXjPg">
+        <property role="S1EQ6" value="ELKARGAAOS" />
+      </node>
       <node concept="313sG1" id="2OXSMi_pVTm" role="ZXjPg">
         <property role="S1EQ6" value="JBHILWQRAI" />
         <property role="313rra" value="1" />
@@ -304,7 +334,7 @@
           <property role="TrG5h" value="preview" />
         </node>
         <node concept="31becx" id="2OXSMi_pVTz" role="312phR">
-          <ref role="312p7B" node="2OXSMi_pVTk" resolve="traditional training" />
+          <ref role="312p7B" node="7tPuoi18Jvp" resolve="ROC curve" />
         </node>
       </node>
       <node concept="S1EQe" id="2OXSMi_pXzp" role="ZXjPg">
@@ -320,7 +350,7 @@
         <node concept="1FHg$p" id="2OXSMi_pX$7" role="28mIey">
           <property role="ZHjxa" value="400" />
           <property role="ZHjG8" value="400" />
-          <property role="3ZMXzF" value="6" />
+          <property role="3ZMXzF" value="11" />
           <property role="TrG5h" value="error enrichment n=8" />
         </node>
         <node concept="afgQW" id="2OXSMi_pX$y" role="28mIex">
@@ -383,7 +413,7 @@
         <node concept="1FHg$p" id="2OXSMi_zb5s" role="28mIey">
           <property role="ZHjxa" value="400" />
           <property role="ZHjG8" value="400" />
-          <property role="3ZMXzF" value="1" />
+          <property role="3ZMXzF" value="14" />
           <property role="TrG5h" value="error sampling p/0.4" />
         </node>
         <node concept="afgQW" id="2OXSMi_zb6j" role="28mIex">

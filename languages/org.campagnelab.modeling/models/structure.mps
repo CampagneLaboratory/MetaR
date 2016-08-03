@@ -75,6 +75,9 @@
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" to="jrxw:2WRhvFtwVip" resolve="ColumnRef" />
     </node>
+    <node concept="PrWs8" id="7tPuoi15o$k" role="PzmwI">
+      <ref role="PrY4T" to="jrxw:7LvyiX4miiF" resolve="StatementDependencies" />
+    </node>
   </node>
   <node concept="1TIwiD" id="2OXSMi_pK0Y">
     <property role="1pbfSe" value="760945822" />
@@ -114,6 +117,39 @@
       <ref role="20lvS9" to="jrxw:2WRhvFtwVip" resolve="ColumnRef" />
     </node>
     <node concept="PrWs8" id="2OXSMi_pWdA" role="PzmwI">
+      <ref role="PrY4T" to="jrxw:7LvyiX4miiF" resolve="StatementDependencies" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="7tPuoi15o$7">
+    <property role="1pbfSe" value="125107573" />
+    <property role="TrG5h" value="PlotReceiverOperatingCurve" />
+    <property role="34LRSv" value="plot ROC curve" />
+    <property role="R4oN_" value="Plot a Receiver Operating Characteristic Curve" />
+    <ref role="1TJDcQ" to="jrxw:6WPhx9nlOjT" resolve="PlotBuilderStatement" />
+    <node concept="1TJgyj" id="7tPuoi15o$8" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="table" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" to="jrxw:3R5AwWRY9uN" resolve="TableRef" />
+    </node>
+    <node concept="1TJgyj" id="7tPuoi15o$9" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="plot" />
+      <ref role="20lvS9" to="jrxw:7lAbM$uOMoK" resolve="Plot" />
+    </node>
+    <node concept="1TJgyj" id="7tPuoi15o$a" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="predictedProbability" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" to="jrxw:2WRhvFtwVip" resolve="ColumnRef" />
+    </node>
+    <node concept="1TJgyj" id="7tPuoi15o$b" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="trueLabel" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" to="jrxw:2WRhvFtwVip" resolve="ColumnRef" />
+    </node>
+    <node concept="PrWs8" id="7tPuoi15o$n" role="PzmwI">
       <ref role="PrY4T" to="jrxw:7LvyiX4miiF" resolve="StatementDependencies" />
     </node>
   </node>

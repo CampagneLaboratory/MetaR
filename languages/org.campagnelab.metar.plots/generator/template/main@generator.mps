@@ -432,8 +432,8 @@
                           <property role="TrG5h" value="genes" />
                         </node>
                         <node concept="2PZJpN" id="5hNeoNViYh" role="2v3moI">
-                          <node concept="2PZJpp" id="5hNeoNViYj" role="2v3mow">
-                            <property role="TrG5h" value="x" />
+                          <node concept="1LhYbg" id="7tPuoi15FZR" role="2v3mow">
+                            <ref role="1Li74V" node="5hNeoNViY9" resolve="x" />
                           </node>
                           <node concept="2PZJpm" id="5hNeoNViYk" role="2v3moI">
                             <property role="pzxGI" value="HGNC_symbol_from_feature" />
@@ -467,8 +467,8 @@
                           <node concept="1LhYbg" id="5hNeoNVjzh" role="2v3mow">
                             <ref role="1Li74V" node="5hNeoNViYg" resolve="genes" />
                           </node>
-                          <node concept="2PZJpp" id="5hNeoNViYu" role="2v3moI">
-                            <property role="TrG5h" value="genelist" />
+                          <node concept="1LhYbg" id="7tPuoi15FZO" role="2v3moI">
+                            <ref role="1Li74V" node="3jH$tF$QIGi" resolve="genelist" />
                           </node>
                         </node>
                         <node concept="22gccq" id="5hNeoNViYv" role="22hImy" />
@@ -1760,7 +1760,7 @@
                     <ref role="3Tt5mk" to="jrxw:2WRhvFtnCb_" />
                   </node>
                 </node>
-                <node concept="2qgKlT" id="52J4nYvHa5d" role="2OqNvi">
+                <node concept="2qgKlT" id="7tPuoi1kLSQ" role="2OqNvi">
                   <ref role="37wK5l" to="v8sa:52J4nYvd$7N" resolve="getVariableName" />
                 </node>
               </node>

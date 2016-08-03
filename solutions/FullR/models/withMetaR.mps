@@ -141,6 +141,7 @@
       <concept id="6508763087483370850" name="org.campagnelab.metar.R.structure.HasPackageImports" flags="ng" index="1mNjzD">
         <child id="2267681875390710618" name="importedPackages" index="2TeiZW" />
       </concept>
+      <concept id="1405249123671764619" name="org.campagnelab.metar.R.structure.PauseInstantRefresh" flags="ng" index="3ASxKE" />
       <concept id="1499760628227103368" name="org.campagnelab.metar.R.structure.IdentifierRef" flags="ng" index="1LhYbg">
         <reference id="1499760628227131747" name="id" index="1Li74V" />
       </concept>
@@ -309,7 +310,7 @@
         <property role="S1EQ6" value="KYUIBGYKSR" />
         <property role="313rra" value="1" />
         <property role="313rrk" value="1" />
-        <property role="31lnkE" value="true" />
+        <property role="31lnkE" value="false" />
         <node concept="1FHg$p" id="3tvgWOBbaJc" role="319mBM">
           <property role="ZHjxa" value="200" />
           <property role="ZHjG8" value="200" />
@@ -500,8 +501,8 @@
         <node concept="6klPq" id="3tvgWOBkjEN" role="6kkaP">
           <ref role="6kk4h" node="3tvgWOBkkir" resolve="Chromosome name" />
           <node concept="2kyJtB" id="3tvgWOBkqVw" role="15vYnL">
-            <node concept="3j$26V" id="3tvgWOBkqV$" role="3jIBhh">
-              <ref role="3j$26Y" node="3tvgWOBkkiK" resolve="21" />
+            <node concept="3j$26V" id="7tPuoi15k$Q" role="3jIBhh">
+              <ref role="3j$26Y" node="3tvgWOBkkiJ" resolve="20" />
             </node>
           </node>
         </node>
@@ -52240,6 +52241,7 @@
         </node>
       </node>
     </node>
+    <node concept="3ASxKE" id="7tPuoi1598l" role="pZjJ2" />
     <node concept="1Nzj65" id="3tvgWOBkeW8" role="pZjJ2">
       <node concept="34tvTV" id="3tvgWOBkeWU" role="1Nzj64">
         <property role="S1EQ6" value="IPPOEDWEKI" />

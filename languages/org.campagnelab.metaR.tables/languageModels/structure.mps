@@ -1117,6 +1117,9 @@
     <node concept="PrWs8" id="15COMTn5xJy" role="PzmwI">
       <ref role="PrY4T" to="6q58:15COMTn5xlQ" resolve="IHasModifiableChildren" />
     </node>
+    <node concept="PrWs8" id="7tPuoi18U2g" role="PzmwI">
+      <ref role="PrY4T" node="bPLB43fxe2" resolve="PlotBuilderStatementI" />
+    </node>
   </node>
   <node concept="1TIwiD" id="4cOBe2EdOid">
     <property role="3GE5qa" value="plots" />

@@ -3878,7 +3878,7 @@
       <property role="TrG5h" value="getTableName" />
       <property role="13i0it" value="false" />
       <property role="13i0iv" value="false" />
-      <ref role="13i0hy" node="6WPhx9nlOIm" resolve="getTableName" />
+      <ref role="13i0hy" node="7tPuoi0J8Kg" resolve="getTableName" />
       <node concept="3Tm1VV" id="1QqsNa25VJa" role="1B3o_S" />
       <node concept="3clFbS" id="1QqsNa25VJf" role="3clF47">
         <node concept="3clFbF" id="4WAdMLdjFDw" role="3cqZAp">
@@ -8404,6 +8404,39 @@
       </node>
       <node concept="17QB3L" id="5RQTS2osY0X" role="3clF45" />
     </node>
+    <node concept="13i0hz" id="7tPuoi15D0G" role="13h7CS">
+      <property role="13i0iv" value="false" />
+      <property role="13i0it" value="false" />
+      <property role="TrG5h" value="getVariableName" />
+      <node concept="3Tm1VV" id="7tPuoi15D0H" role="1B3o_S" />
+      <node concept="3clFbS" id="7tPuoi15D0I" role="3clF47">
+        <node concept="3clFbF" id="7tPuoi15D0J" role="3cqZAp">
+          <node concept="2YIFZM" id="7tPuoi15D0K" role="3clFbG">
+            <ref role="1Pybhc" to="1mjk:ESqoaSL1tG" resolve="NameHelper" />
+            <ref role="37wK5l" to="1mjk:ESqoaSL1vt" resolve="RName" />
+            <node concept="2OqwBi" id="7tPuoi15Ens" role="37wK5m">
+              <node concept="2OqwBi" id="7tPuoi15D0L" role="2Oq$k0">
+                <node concept="13iPFW" id="7tPuoi15D0M" role="2Oq$k0" />
+                <node concept="3TrEf2" id="7tPuoi15EfD" role="2OqNvi">
+                  <ref role="3Tt5mk" to="jrxw:3R5AwWRY9K7" />
+                </node>
+              </node>
+              <node concept="3TrcHB" id="7tPuoi15EO_" role="2OqNvi">
+                <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="17QB3L" id="7tPuoi15D0O" role="3clF45" />
+      <node concept="P$JXv" id="7tPuoi15D0P" role="lGtFl">
+        <node concept="TZ5HA" id="7tPuoi15D0Q" role="TZ5H$">
+          <node concept="1dT_AC" id="7tPuoi15F57" role="1dT_Ay">
+            <property role="1dT_AB" value="Return the name of the table, suitable for use in an R script." />
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="13hLZK" id="3_QsSyzdEx4" role="13h7CW">
       <node concept="3clFbS" id="3_QsSyzdEx5" role="2VODD2" />
     </node>
@@ -11045,19 +11078,6 @@
   <node concept="13h7C7" id="6WPhx9nlOIj">
     <property role="3GE5qa" value="plots" />
     <ref role="13h7C2" to="jrxw:6WPhx9nlOjT" resolve="PlotBuilderStatement" />
-    <node concept="13i0hz" id="6WPhx9nlOIm" role="13h7CS">
-      <property role="TrG5h" value="getTableName" />
-      <property role="13i0it" value="true" />
-      <node concept="3Tm1VV" id="6WPhx9nlOIn" role="1B3o_S" />
-      <node concept="17QB3L" id="6WPhx9nlOIu" role="3clF45" />
-      <node concept="3clFbS" id="6WPhx9nlOIp" role="3clF47">
-        <node concept="3cpWs6" id="6WPhx9nlOIx" role="3cqZAp">
-          <node concept="Xl_RD" id="6WPhx9nlOID" role="3cqZAk">
-            <property role="Xl_RC" value="null" />
-          </node>
-        </node>
-      </node>
-    </node>
     <node concept="13i0hz" id="4cOBe2EbW3q" role="13h7CS">
       <property role="TrG5h" value="estimateWidth" />
       <property role="13i0it" value="true" />
@@ -11134,6 +11154,19 @@
     </node>
     <node concept="13hLZK" id="6WPhx9nlOIk" role="13h7CW">
       <node concept="3clFbS" id="6WPhx9nlOIl" role="2VODD2" />
+    </node>
+    <node concept="13i0hz" id="7tPuoi1hKoh" role="13h7CS">
+      <property role="TrG5h" value="getTableName" />
+      <property role="13i0it" value="false" />
+      <property role="13i0iv" value="false" />
+      <ref role="13i0hy" node="7tPuoi0J8Kg" resolve="getTableName" />
+      <node concept="3Tm1VV" id="7tPuoi1hKoi" role="1B3o_S" />
+      <node concept="3clFbS" id="7tPuoi1hKon" role="3clF47">
+        <node concept="3cpWs6" id="7tPuoi1hKpz" role="3cqZAp">
+          <node concept="10Nm6u" id="7tPuoi1hKpE" role="3cqZAk" />
+        </node>
+      </node>
+      <node concept="17QB3L" id="7tPuoi1hKoo" role="3clF45" />
     </node>
   </node>
   <node concept="13h7C7" id="4cOBe2EapYF">
@@ -21740,6 +21773,7 @@
     <node concept="13i0hz" id="7tPuoi0J8Kg" role="13h7CS">
       <property role="TrG5h" value="getTableName" />
       <property role="13i0it" value="true" />
+      <property role="13i0iv" value="true" />
       <node concept="3Tm1VV" id="7tPuoi0J8Kh" role="1B3o_S" />
       <node concept="17QB3L" id="7tPuoi0J8Ki" role="3clF45" />
       <node concept="3clFbS" id="7tPuoi0J8Kj" role="3clF47">

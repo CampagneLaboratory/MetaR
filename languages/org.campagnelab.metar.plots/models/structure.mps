@@ -183,10 +183,6 @@
     <property role="34LRSv" value="GeneNameSize" />
     <property role="R4oN_" value="Float (cex) to make gene name smaller (0.5) or larger (2.0)" />
     <ref role="1TJDcQ" to="onla:4FCgsrO$58w" resolve="StringStyleClass" />
-    <node concept="1TJgyi" id="5hNeoO9$Hy" role="1TKVEl">
-      <property role="TrG5h" value="value" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
   </node>
 </model>
 
