@@ -301,6 +301,12 @@
       <node concept="S1EQe" id="7tPuoi1wy3P" role="ZXjPg">
         <property role="S1EQ6" value="RUPRLADFCN" />
       </node>
+      <node concept="S1EQe" id="7EwhY3QxOQ" role="ZXjPg">
+        <property role="S1EQ6" value="NRHJONLRYD" />
+      </node>
+      <node concept="S1EQe" id="7EwhY3QxPN" role="ZXjPg">
+        <property role="S1EQ6" value="BVHKVKDGGG" />
+      </node>
       <node concept="3Qof23" id="7tPuoi18E_n" role="ZXjPg">
         <property role="S1EQ6" value="EFCLGSFMAN" />
         <node concept="3MHf5z" id="7tPuoi1w$Id" role="3Qof2e">
@@ -356,11 +362,11 @@
         <node concept="afgQW" id="2OXSMi_pX$y" role="28mIex">
           <ref role="afgo8" node="2OXSMi_pXx6" resolve="bestAUC-validation-err-enr-8.tsv" />
         </node>
-        <node concept="3MHf5z" id="2OXSMi_pX$_" role="28mIez">
-          <ref role="3MHf5w" node="2OXSMi_pXxa" resolve="ProbabilityMut" />
+        <node concept="3MHf5z" id="5nTsD1GGRpm" role="28mIez">
+          <ref role="3MHf5w" node="5nTsD1GGRny" resolve="ProbabilityMut" />
         </node>
-        <node concept="3MHf5z" id="2OXSMi_pX$C" role="28mIeG">
-          <ref role="3MHf5w" node="2OXSMi_pXx9" resolve="mutatedLabel" />
+        <node concept="3MHf5z" id="5nTsD1GGRzp" role="28mIeG">
+          <ref role="3MHf5w" node="5nTsD1GGRnx" resolve="mutatedLabel" />
         </node>
       </node>
       <node concept="S1EQe" id="2OXSMi_z8ve" role="ZXjPg">
@@ -379,11 +385,11 @@
         <node concept="afgQW" id="2OXSMi_q2r1" role="28mIex">
           <ref role="afgo8" node="2OXSMi_pYog" resolve="bestAUC-validation_p_0.5.tsv" />
         </node>
-        <node concept="3MHf5z" id="2OXSMi_z81L" role="28mIez">
-          <ref role="3MHf5w" node="2OXSMi_pYok" resolve="ProbabilityMut" />
+        <node concept="3MHf5z" id="5nTsD1GGS5A" role="28mIez">
+          <ref role="3MHf5w" node="5nTsD1GGS08" resolve="ProbabilityMut" />
         </node>
-        <node concept="3MHf5z" id="2OXSMi_z81O" role="28mIeG">
-          <ref role="3MHf5w" node="2OXSMi_pYoj" resolve="mutatedLabel" />
+        <node concept="3MHf5z" id="5nTsD1GGSgl" role="28mIeG">
+          <ref role="3MHf5w" node="5nTsD1GGS07" resolve="mutatedLabel" />
         </node>
       </node>
       <node concept="28mIcq" id="2OXSMi_zavn" role="ZXjPg">
@@ -399,11 +405,11 @@
         <node concept="afgQW" id="2OXSMi_zaw8" role="28mIex">
           <ref role="afgo8" node="2OXSMi_zasS" resolve="bestAUC-validation_p_0.6.tsv" />
         </node>
-        <node concept="3MHf5z" id="2OXSMi_zawb" role="28mIez">
-          <ref role="3MHf5w" node="2OXSMi_zasW" resolve="ProbabilityMut" />
+        <node concept="3MHf5z" id="5nTsD1GGSrC" role="28mIez">
+          <ref role="3MHf5w" node="5nTsD1GGS3M" resolve="ProbabilityMut" />
         </node>
-        <node concept="3MHf5z" id="2OXSMi_zawe" role="28mIeG">
-          <ref role="3MHf5w" node="2OXSMi_zasV" resolve="mutatedLabel" />
+        <node concept="3MHf5z" id="5nTsD1GGSB0" role="28mIeG">
+          <ref role="3MHf5w" node="5nTsD1GGS3L" resolve="mutatedLabel" />
         </node>
       </node>
       <node concept="28mIcq" id="2OXSMi_zb5r" role="ZXjPg">
@@ -419,11 +425,11 @@
         <node concept="afgQW" id="2OXSMi_zb6j" role="28mIex">
           <ref role="afgo8" node="2OXSMi_zb1_" resolve="bestAUC-validation_p_0.4.tsv" />
         </node>
-        <node concept="3MHf5z" id="2OXSMi_zb6m" role="28mIez">
-          <ref role="3MHf5w" node="2OXSMi_zb2T" resolve="ProbabilityMut" />
+        <node concept="3MHf5z" id="5nTsD1GGSMW" role="28mIez">
+          <ref role="3MHf5w" node="5nTsD1GGRUD" resolve="ProbabilityMut" />
         </node>
-        <node concept="3MHf5z" id="2OXSMi_zb6p" role="28mIeG">
-          <ref role="3MHf5w" node="2OXSMi_zb2S" resolve="mutatedLabel" />
+        <node concept="3MHf5z" id="5nTsD1GGSYX" role="28mIeG">
+          <ref role="3MHf5w" node="5nTsD1GGRUC" resolve="mutatedLabel" />
         </node>
       </node>
       <node concept="313sG1" id="2OXSMi_pX_0" role="ZXjPg">
@@ -597,508 +603,508 @@
   </node>
   <node concept="3Mpm39" id="2OXSMi_pXx6">
     <property role="31Cu5t" value="&#9;" />
-    <property role="31JHgl" value="/Users/fac2003/MPSProjects/git/metar/data/modeling/bestAUC-validation-err-enr-8.tsv" />
+    <property role="31JHgl" value="/Users/alexanderpann/metar-master/data/modeling/bestAUC-validation-err-enr-8.tsv" />
     <property role="TrG5h" value="bestAUC-validation-err-enr-8.tsv" />
-    <property role="26T8KA" value="/Users/fac2003/MPSProjects/git/metar/data/modeling/bestAUC-validation-err-enr-8.tsv" />
-    <node concept="31JHg8" id="2OXSMi_pXx9" role="31JHgj">
+    <property role="26T8KA" value="${org.campagnelab.metaR.home}/data/modeling/bestAUC-validation-err-enr-8.tsv" />
+    <node concept="31JHg8" id="5nTsD1GGRnx" role="31JHgj">
       <property role="TrG5h" value="mutatedLabel" />
       <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
     </node>
-    <node concept="31JHg8" id="2OXSMi_pXxa" role="31JHgj">
+    <node concept="31JHg8" id="5nTsD1GGRny" role="31JHgj">
       <property role="TrG5h" value="ProbabilityMut" />
       <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
     </node>
-    <node concept="31JHg8" id="2OXSMi_pXxb" role="31JHgj">
+    <node concept="31JHg8" id="5nTsD1GGRnz" role="31JHgj">
       <property role="TrG5h" value="ProbabilityUnmut" />
       <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
     </node>
-    <node concept="31JHg8" id="2OXSMi_pXxc" role="31JHgj">
+    <node concept="31JHg8" id="5nTsD1GGRn$" role="31JHgj">
       <property role="TrG5h" value="correctness" />
-      <ref role="1YeEjl" node="2OXSMi_pXxd" resolve="Categories from correctness" />
-      <node concept="aYgxc" id="2OXSMi_pXxd" role="1YfERI">
+      <ref role="1YeEjl" node="5nTsD1GGRn_" resolve="Categories from correctness" />
+      <node concept="aYgxc" id="5nTsD1GGRn_" role="1YfERI">
         <property role="TrG5h" value="Categories from correctness" />
-        <node concept="3Osf58" id="2OXSMi_pXxe" role="3Osf6V">
+        <node concept="3Osf58" id="5nTsD1GGRnA" role="3Osf6V">
           <property role="TrG5h" value="right" />
         </node>
-        <node concept="3Osf58" id="2OXSMi_pXxf" role="3Osf6V">
+        <node concept="3Osf58" id="5nTsD1GGRnB" role="3Osf6V">
           <property role="TrG5h" value="wrong" />
         </node>
       </node>
     </node>
-    <node concept="31JHg8" id="2OXSMi_pXxg" role="31JHgj">
+    <node concept="31JHg8" id="5nTsD1GGRnC" role="31JHgj">
       <property role="TrG5h" value="frequency" />
       <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
     </node>
-    <node concept="31JHg8" id="2OXSMi_pXxh" role="31JHgj">
+    <node concept="31JHg8" id="5nTsD1GGRnD" role="31JHgj">
       <property role="TrG5h" value="mutatedBase" />
-      <ref role="1YeEjl" node="2OXSMi_pXxi" resolve="Categories from mutatedBase" />
-      <node concept="aYgxc" id="2OXSMi_pXxi" role="1YfERI">
+      <ref role="1YeEjl" node="5nTsD1GGRnE" resolve="Categories from mutatedBase" />
+      <node concept="aYgxc" id="5nTsD1GGRnE" role="1YfERI">
         <property role="TrG5h" value="Categories from mutatedBase" />
-        <node concept="3Osf58" id="2OXSMi_pXxj" role="3Osf6V">
+        <node concept="3Osf58" id="5nTsD1GGRnF" role="3Osf6V">
           <property role="TrG5h" value="A" />
         </node>
-        <node concept="3Osf58" id="2OXSMi_pXxk" role="3Osf6V">
+        <node concept="3Osf58" id="5nTsD1GGRnG" role="3Osf6V">
           <property role="TrG5h" value="C" />
         </node>
-        <node concept="3Osf58" id="2OXSMi_pXxl" role="3Osf6V">
+        <node concept="3Osf58" id="5nTsD1GGRnH" role="3Osf6V">
           <property role="TrG5h" value="T" />
         </node>
-        <node concept="3Osf58" id="2OXSMi_pXxm" role="3Osf6V">
+        <node concept="3Osf58" id="5nTsD1GGRnI" role="3Osf6V">
           <property role="TrG5h" value="TCCCCCCCCCCCG" />
         </node>
-        <node concept="3Osf58" id="2OXSMi_pXxn" role="3Osf6V">
+        <node concept="3Osf58" id="5nTsD1GGRnJ" role="3Osf6V">
           <property role="TrG5h" value="GAAAAAAAAAAAACA" />
         </node>
-        <node concept="3Osf58" id="2OXSMi_pXxo" role="3Osf6V">
+        <node concept="3Osf58" id="5nTsD1GGRnK" role="3Osf6V">
           <property role="TrG5h" value="G-" />
         </node>
-        <node concept="3Osf58" id="2OXSMi_pXxp" role="3Osf6V">
+        <node concept="3Osf58" id="5nTsD1GGRnL" role="3Osf6V">
           <property role="TrG5h" value="G" />
         </node>
-        <node concept="3Osf58" id="2OXSMi_pXxq" role="3Osf6V">
+        <node concept="3Osf58" id="5nTsD1GGRnM" role="3Osf6V">
           <property role="TrG5h" value="TAAAA" />
         </node>
-        <node concept="3Osf58" id="2OXSMi_pXxr" role="3Osf6V">
+        <node concept="3Osf58" id="5nTsD1GGRnN" role="3Osf6V">
           <property role="TrG5h" value="N" />
         </node>
       </node>
     </node>
-    <node concept="31JHg8" id="2OXSMi_pXxs" role="31JHgj">
+    <node concept="31JHg8" id="5nTsD1GGRnO" role="31JHgj">
       <property role="TrG5h" value="refIdx" />
       <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
     </node>
-    <node concept="31JHg8" id="2OXSMi_pXxt" role="31JHgj">
+    <node concept="31JHg8" id="5nTsD1GGRnP" role="31JHgj">
       <property role="TrG5h" value="position" />
       <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
     </node>
-    <node concept="31JHg8" id="2OXSMi_pXxu" role="31JHgj">
+    <node concept="31JHg8" id="5nTsD1GGRnQ" role="31JHgj">
       <property role="TrG5h" value="referenceBase" />
-      <ref role="1YeEjl" node="2OXSMi_pXxv" resolve="Categories from referenceBase" />
-      <node concept="aYgxc" id="2OXSMi_pXxv" role="1YfERI">
+      <ref role="1YeEjl" node="5nTsD1GGRnR" resolve="Categories from referenceBase" />
+      <node concept="aYgxc" id="5nTsD1GGRnR" role="1YfERI">
         <property role="TrG5h" value="Categories from referenceBase" />
-        <node concept="3Osf58" id="2OXSMi_pXxw" role="3Osf6V">
+        <node concept="3Osf58" id="5nTsD1GGRnS" role="3Osf6V">
           <property role="TrG5h" value="A" />
         </node>
-        <node concept="3Osf58" id="2OXSMi_pXxx" role="3Osf6V">
+        <node concept="3Osf58" id="5nTsD1GGRnT" role="3Osf6V">
           <property role="TrG5h" value="C" />
         </node>
-        <node concept="3Osf58" id="2OXSMi_pXxy" role="3Osf6V">
+        <node concept="3Osf58" id="5nTsD1GGRnU" role="3Osf6V">
           <property role="TrG5h" value="T" />
         </node>
-        <node concept="3Osf58" id="2OXSMi_pXxz" role="3Osf6V">
+        <node concept="3Osf58" id="5nTsD1GGRnV" role="3Osf6V">
           <property role="TrG5h" value="G" />
         </node>
-        <node concept="3Osf58" id="2OXSMi_pXx$" role="3Osf6V">
+        <node concept="3Osf58" id="5nTsD1GGRnW" role="3Osf6V">
           <property role="TrG5h" value="-" />
         </node>
       </node>
     </node>
-    <node concept="31JHg8" id="2OXSMi_pXx_" role="31JHgj">
+    <node concept="31JHg8" id="5nTsD1GGRnX" role="31JHgj">
       <property role="TrG5h" value="sample1Counts" />
       <ref role="1YeEjl" to="9nc5:1ID5TXdv_9L" resolve="String" />
     </node>
-    <node concept="31JHg8" id="2OXSMi_pXxA" role="31JHgj">
+    <node concept="31JHg8" id="5nTsD1GGRnY" role="31JHgj">
       <property role="TrG5h" value="sample2Counts" />
       <ref role="1YeEjl" to="9nc5:1ID5TXdv_9L" resolve="String" />
     </node>
-    <node concept="31JHg8" id="2OXSMi_pXxB" role="31JHgj">
+    <node concept="31JHg8" id="5nTsD1GGRnZ" role="31JHgj">
       <property role="TrG5h" value="sample1Scores" />
       <ref role="1YeEjl" to="9nc5:1ID5TXdv_9L" resolve="String" />
     </node>
-    <node concept="31JHg8" id="2OXSMi_pXxC" role="31JHgj">
+    <node concept="31JHg8" id="5nTsD1GGRo0" role="31JHgj">
       <property role="TrG5h" value="sample2Scores" />
       <ref role="1YeEjl" to="9nc5:1ID5TXdv_9L" resolve="String" />
     </node>
-    <node concept="31JHg8" id="2OXSMi_pXxD" role="31JHgj">
+    <node concept="31JHg8" id="5nTsD1GGRo1" role="31JHgj">
       <property role="TrG5h" value="sumCounts" />
       <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
     </node>
-    <node concept="31JHg8" id="2OXSMi_pXxE" role="31JHgj">
+    <node concept="31JHg8" id="5nTsD1GGRo2" role="31JHgj">
       <property role="TrG5h" value="formatted1" />
       <ref role="1YeEjl" to="9nc5:1ID5TXdv_9L" resolve="String" />
     </node>
-    <node concept="31JHg8" id="2OXSMi_pXxF" role="31JHgj">
+    <node concept="31JHg8" id="5nTsD1GGRo3" role="31JHgj">
       <property role="TrG5h" value="formatted2" />
       <ref role="1YeEjl" to="9nc5:1ID5TXdv_9L" resolve="String" />
     </node>
   </node>
   <node concept="3Mpm39" id="2OXSMi_pYog">
     <property role="31Cu5t" value="&#9;" />
-    <property role="31JHgl" value="/Users/fac2003/MPSProjects/git/metar/data/modeling/bestAUC-validation_p_0.5.tsv" />
+    <property role="31JHgl" value="/Users/alexanderpann/metar-master/data/modeling/bestAUC-validation_p_0.5.tsv" />
     <property role="TrG5h" value="bestAUC-validation_p_0.5.tsv" />
-    <property role="26T8KA" value="/Users/fac2003/MPSProjects/git/metar/data/modeling/bestAUC-validation_p_0.5.tsv" />
-    <node concept="31JHg8" id="2OXSMi_pYoj" role="31JHgj">
+    <property role="26T8KA" value="${org.campagnelab.metaR.home}/data/modeling/bestAUC-validation_p_0.5.tsv" />
+    <node concept="31JHg8" id="5nTsD1GGS07" role="31JHgj">
       <property role="TrG5h" value="mutatedLabel" />
       <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
     </node>
-    <node concept="31JHg8" id="2OXSMi_pYok" role="31JHgj">
+    <node concept="31JHg8" id="5nTsD1GGS08" role="31JHgj">
       <property role="TrG5h" value="ProbabilityMut" />
       <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
     </node>
-    <node concept="31JHg8" id="2OXSMi_pYol" role="31JHgj">
+    <node concept="31JHg8" id="5nTsD1GGS09" role="31JHgj">
       <property role="TrG5h" value="ProbabilityUnmut" />
       <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
     </node>
-    <node concept="31JHg8" id="2OXSMi_pYom" role="31JHgj">
+    <node concept="31JHg8" id="5nTsD1GGS0a" role="31JHgj">
       <property role="TrG5h" value="correctness" />
-      <ref role="1YeEjl" node="2OXSMi_pYon" resolve="Categories from correctness" />
-      <node concept="aYgxc" id="2OXSMi_pYon" role="1YfERI">
+      <ref role="1YeEjl" node="5nTsD1GGS0b" resolve="Categories from correctness" />
+      <node concept="aYgxc" id="5nTsD1GGS0b" role="1YfERI">
         <property role="TrG5h" value="Categories from correctness" />
-        <node concept="3Osf58" id="2OXSMi_pYoo" role="3Osf6V">
+        <node concept="3Osf58" id="5nTsD1GGS0c" role="3Osf6V">
           <property role="TrG5h" value="right" />
         </node>
-        <node concept="3Osf58" id="2OXSMi_pYop" role="3Osf6V">
+        <node concept="3Osf58" id="5nTsD1GGS0d" role="3Osf6V">
           <property role="TrG5h" value="wrong" />
         </node>
       </node>
     </node>
-    <node concept="31JHg8" id="2OXSMi_pYoq" role="31JHgj">
+    <node concept="31JHg8" id="5nTsD1GGS0e" role="31JHgj">
       <property role="TrG5h" value="frequency" />
       <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
     </node>
-    <node concept="31JHg8" id="2OXSMi_pYor" role="31JHgj">
+    <node concept="31JHg8" id="5nTsD1GGS0f" role="31JHgj">
       <property role="TrG5h" value="mutatedBase" />
-      <ref role="1YeEjl" node="2OXSMi_pYos" resolve="Categories from mutatedBase" />
-      <node concept="aYgxc" id="2OXSMi_pYos" role="1YfERI">
+      <ref role="1YeEjl" node="5nTsD1GGS0g" resolve="Categories from mutatedBase" />
+      <node concept="aYgxc" id="5nTsD1GGS0g" role="1YfERI">
         <property role="TrG5h" value="Categories from mutatedBase" />
-        <node concept="3Osf58" id="2OXSMi_pYot" role="3Osf6V">
+        <node concept="3Osf58" id="5nTsD1GGS0h" role="3Osf6V">
           <property role="TrG5h" value="A" />
         </node>
-        <node concept="3Osf58" id="2OXSMi_pYou" role="3Osf6V">
+        <node concept="3Osf58" id="5nTsD1GGS0i" role="3Osf6V">
           <property role="TrG5h" value="C" />
         </node>
-        <node concept="3Osf58" id="2OXSMi_pYov" role="3Osf6V">
+        <node concept="3Osf58" id="5nTsD1GGS0j" role="3Osf6V">
           <property role="TrG5h" value="T" />
         </node>
-        <node concept="3Osf58" id="2OXSMi_pYow" role="3Osf6V">
+        <node concept="3Osf58" id="5nTsD1GGS0k" role="3Osf6V">
           <property role="TrG5h" value="TCCCCCCCCCCCG" />
         </node>
-        <node concept="3Osf58" id="2OXSMi_pYox" role="3Osf6V">
+        <node concept="3Osf58" id="5nTsD1GGS0l" role="3Osf6V">
           <property role="TrG5h" value="GAAAAAAAAAAAACA" />
         </node>
-        <node concept="3Osf58" id="2OXSMi_pYoy" role="3Osf6V">
+        <node concept="3Osf58" id="5nTsD1GGS0m" role="3Osf6V">
           <property role="TrG5h" value="G-" />
         </node>
-        <node concept="3Osf58" id="2OXSMi_pYoz" role="3Osf6V">
+        <node concept="3Osf58" id="5nTsD1GGS0n" role="3Osf6V">
           <property role="TrG5h" value="G" />
         </node>
-        <node concept="3Osf58" id="2OXSMi_pYo$" role="3Osf6V">
+        <node concept="3Osf58" id="5nTsD1GGS0o" role="3Osf6V">
           <property role="TrG5h" value="TAAAA" />
         </node>
-        <node concept="3Osf58" id="2OXSMi_pYo_" role="3Osf6V">
+        <node concept="3Osf58" id="5nTsD1GGS0p" role="3Osf6V">
           <property role="TrG5h" value="N" />
         </node>
       </node>
     </node>
-    <node concept="31JHg8" id="2OXSMi_pYoA" role="31JHgj">
+    <node concept="31JHg8" id="5nTsD1GGS0q" role="31JHgj">
       <property role="TrG5h" value="refIdx" />
       <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
     </node>
-    <node concept="31JHg8" id="2OXSMi_pYoB" role="31JHgj">
+    <node concept="31JHg8" id="5nTsD1GGS0r" role="31JHgj">
       <property role="TrG5h" value="position" />
       <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
     </node>
-    <node concept="31JHg8" id="2OXSMi_pYoC" role="31JHgj">
+    <node concept="31JHg8" id="5nTsD1GGS0s" role="31JHgj">
       <property role="TrG5h" value="referenceBase" />
-      <ref role="1YeEjl" node="2OXSMi_pYoD" resolve="Categories from referenceBase" />
-      <node concept="aYgxc" id="2OXSMi_pYoD" role="1YfERI">
+      <ref role="1YeEjl" node="5nTsD1GGS0t" resolve="Categories from referenceBase" />
+      <node concept="aYgxc" id="5nTsD1GGS0t" role="1YfERI">
         <property role="TrG5h" value="Categories from referenceBase" />
-        <node concept="3Osf58" id="2OXSMi_pYoE" role="3Osf6V">
+        <node concept="3Osf58" id="5nTsD1GGS0u" role="3Osf6V">
           <property role="TrG5h" value="A" />
         </node>
-        <node concept="3Osf58" id="2OXSMi_pYoF" role="3Osf6V">
+        <node concept="3Osf58" id="5nTsD1GGS0v" role="3Osf6V">
           <property role="TrG5h" value="C" />
         </node>
-        <node concept="3Osf58" id="2OXSMi_pYoG" role="3Osf6V">
+        <node concept="3Osf58" id="5nTsD1GGS0w" role="3Osf6V">
           <property role="TrG5h" value="T" />
         </node>
-        <node concept="3Osf58" id="2OXSMi_pYoH" role="3Osf6V">
+        <node concept="3Osf58" id="5nTsD1GGS0x" role="3Osf6V">
           <property role="TrG5h" value="G" />
         </node>
-        <node concept="3Osf58" id="2OXSMi_pYoI" role="3Osf6V">
+        <node concept="3Osf58" id="5nTsD1GGS0y" role="3Osf6V">
           <property role="TrG5h" value="-" />
         </node>
       </node>
     </node>
-    <node concept="31JHg8" id="2OXSMi_pYoJ" role="31JHgj">
+    <node concept="31JHg8" id="5nTsD1GGS0z" role="31JHgj">
       <property role="TrG5h" value="sample1Counts" />
       <ref role="1YeEjl" to="9nc5:1ID5TXdv_9L" resolve="String" />
     </node>
-    <node concept="31JHg8" id="2OXSMi_pYoK" role="31JHgj">
+    <node concept="31JHg8" id="5nTsD1GGS0$" role="31JHgj">
       <property role="TrG5h" value="sample2Counts" />
       <ref role="1YeEjl" to="9nc5:1ID5TXdv_9L" resolve="String" />
     </node>
-    <node concept="31JHg8" id="2OXSMi_pYoL" role="31JHgj">
+    <node concept="31JHg8" id="5nTsD1GGS0_" role="31JHgj">
       <property role="TrG5h" value="sample1Scores" />
       <ref role="1YeEjl" to="9nc5:1ID5TXdv_9L" resolve="String" />
     </node>
-    <node concept="31JHg8" id="2OXSMi_pYoM" role="31JHgj">
+    <node concept="31JHg8" id="5nTsD1GGS0A" role="31JHgj">
       <property role="TrG5h" value="sample2Scores" />
       <ref role="1YeEjl" to="9nc5:1ID5TXdv_9L" resolve="String" />
     </node>
-    <node concept="31JHg8" id="2OXSMi_pYoN" role="31JHgj">
+    <node concept="31JHg8" id="5nTsD1GGS0B" role="31JHgj">
       <property role="TrG5h" value="sumCounts" />
       <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
     </node>
-    <node concept="31JHg8" id="2OXSMi_pYoO" role="31JHgj">
+    <node concept="31JHg8" id="5nTsD1GGS0C" role="31JHgj">
       <property role="TrG5h" value="formatted1" />
       <ref role="1YeEjl" to="9nc5:1ID5TXdv_9L" resolve="String" />
     </node>
-    <node concept="31JHg8" id="2OXSMi_pYoP" role="31JHgj">
+    <node concept="31JHg8" id="5nTsD1GGS0D" role="31JHgj">
       <property role="TrG5h" value="formatted2" />
       <ref role="1YeEjl" to="9nc5:1ID5TXdv_9L" resolve="String" />
     </node>
   </node>
   <node concept="3Mpm39" id="2OXSMi_zasS">
     <property role="31Cu5t" value="&#9;" />
-    <property role="31JHgl" value="/Users/fac2003/MPSProjects/git/metar/data/modeling/bestAUC-validation_p_0.6.tsv" />
+    <property role="31JHgl" value="/Users/alexanderpann/metar-master/data/modeling/bestAUC-validation_p_0.6.tsv" />
     <property role="TrG5h" value="bestAUC-validation_p_0.6.tsv" />
-    <property role="26T8KA" value="/Users/fac2003/MPSProjects/git/metar/data/modeling/bestAUC-validation_p_0.6.tsv" />
-    <node concept="31JHg8" id="2OXSMi_zasV" role="31JHgj">
+    <property role="26T8KA" value="${org.campagnelab.metaR.home}/data/modeling/bestAUC-validation_p_0.6.tsv" />
+    <node concept="31JHg8" id="5nTsD1GGS3L" role="31JHgj">
       <property role="TrG5h" value="mutatedLabel" />
       <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
     </node>
-    <node concept="31JHg8" id="2OXSMi_zasW" role="31JHgj">
+    <node concept="31JHg8" id="5nTsD1GGS3M" role="31JHgj">
       <property role="TrG5h" value="ProbabilityMut" />
       <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
     </node>
-    <node concept="31JHg8" id="2OXSMi_zasX" role="31JHgj">
+    <node concept="31JHg8" id="5nTsD1GGS3N" role="31JHgj">
       <property role="TrG5h" value="ProbabilityUnmut" />
       <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
     </node>
-    <node concept="31JHg8" id="2OXSMi_zasY" role="31JHgj">
+    <node concept="31JHg8" id="5nTsD1GGS3O" role="31JHgj">
       <property role="TrG5h" value="correctness" />
-      <ref role="1YeEjl" node="2OXSMi_zasZ" resolve="Categories from correctness" />
-      <node concept="aYgxc" id="2OXSMi_zasZ" role="1YfERI">
+      <ref role="1YeEjl" node="5nTsD1GGS3P" resolve="Categories from correctness" />
+      <node concept="aYgxc" id="5nTsD1GGS3P" role="1YfERI">
         <property role="TrG5h" value="Categories from correctness" />
-        <node concept="3Osf58" id="2OXSMi_zat0" role="3Osf6V">
+        <node concept="3Osf58" id="5nTsD1GGS3Q" role="3Osf6V">
           <property role="TrG5h" value="right" />
         </node>
-        <node concept="3Osf58" id="2OXSMi_zat1" role="3Osf6V">
+        <node concept="3Osf58" id="5nTsD1GGS3R" role="3Osf6V">
           <property role="TrG5h" value="wrong" />
         </node>
       </node>
     </node>
-    <node concept="31JHg8" id="2OXSMi_zat2" role="31JHgj">
+    <node concept="31JHg8" id="5nTsD1GGS3S" role="31JHgj">
       <property role="TrG5h" value="frequency" />
       <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
     </node>
-    <node concept="31JHg8" id="2OXSMi_zat3" role="31JHgj">
+    <node concept="31JHg8" id="5nTsD1GGS3T" role="31JHgj">
       <property role="TrG5h" value="mutatedBase" />
-      <ref role="1YeEjl" node="2OXSMi_zat4" resolve="Categories from mutatedBase" />
-      <node concept="aYgxc" id="2OXSMi_zat4" role="1YfERI">
+      <ref role="1YeEjl" node="5nTsD1GGS3U" resolve="Categories from mutatedBase" />
+      <node concept="aYgxc" id="5nTsD1GGS3U" role="1YfERI">
         <property role="TrG5h" value="Categories from mutatedBase" />
-        <node concept="3Osf58" id="2OXSMi_zat5" role="3Osf6V">
+        <node concept="3Osf58" id="5nTsD1GGS3V" role="3Osf6V">
           <property role="TrG5h" value="A" />
         </node>
-        <node concept="3Osf58" id="2OXSMi_zat6" role="3Osf6V">
+        <node concept="3Osf58" id="5nTsD1GGS3W" role="3Osf6V">
           <property role="TrG5h" value="C" />
         </node>
-        <node concept="3Osf58" id="2OXSMi_zat7" role="3Osf6V">
+        <node concept="3Osf58" id="5nTsD1GGS3X" role="3Osf6V">
           <property role="TrG5h" value="T" />
         </node>
-        <node concept="3Osf58" id="2OXSMi_zat8" role="3Osf6V">
+        <node concept="3Osf58" id="5nTsD1GGS3Y" role="3Osf6V">
           <property role="TrG5h" value="TCCCCCCCCCCCG" />
         </node>
-        <node concept="3Osf58" id="2OXSMi_zat9" role="3Osf6V">
+        <node concept="3Osf58" id="5nTsD1GGS3Z" role="3Osf6V">
           <property role="TrG5h" value="GAAAAAAAAAAAACA" />
         </node>
-        <node concept="3Osf58" id="2OXSMi_zata" role="3Osf6V">
+        <node concept="3Osf58" id="5nTsD1GGS40" role="3Osf6V">
           <property role="TrG5h" value="G-" />
         </node>
-        <node concept="3Osf58" id="2OXSMi_zatb" role="3Osf6V">
+        <node concept="3Osf58" id="5nTsD1GGS41" role="3Osf6V">
           <property role="TrG5h" value="G" />
         </node>
-        <node concept="3Osf58" id="2OXSMi_zatc" role="3Osf6V">
+        <node concept="3Osf58" id="5nTsD1GGS42" role="3Osf6V">
           <property role="TrG5h" value="TAAAA" />
         </node>
-        <node concept="3Osf58" id="2OXSMi_zatd" role="3Osf6V">
+        <node concept="3Osf58" id="5nTsD1GGS43" role="3Osf6V">
           <property role="TrG5h" value="N" />
         </node>
       </node>
     </node>
-    <node concept="31JHg8" id="2OXSMi_zate" role="31JHgj">
+    <node concept="31JHg8" id="5nTsD1GGS44" role="31JHgj">
       <property role="TrG5h" value="refIdx" />
       <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
     </node>
-    <node concept="31JHg8" id="2OXSMi_zatf" role="31JHgj">
+    <node concept="31JHg8" id="5nTsD1GGS45" role="31JHgj">
       <property role="TrG5h" value="position" />
       <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
     </node>
-    <node concept="31JHg8" id="2OXSMi_zatg" role="31JHgj">
+    <node concept="31JHg8" id="5nTsD1GGS46" role="31JHgj">
       <property role="TrG5h" value="referenceBase" />
-      <ref role="1YeEjl" node="2OXSMi_zath" resolve="Categories from referenceBase" />
-      <node concept="aYgxc" id="2OXSMi_zath" role="1YfERI">
+      <ref role="1YeEjl" node="5nTsD1GGS47" resolve="Categories from referenceBase" />
+      <node concept="aYgxc" id="5nTsD1GGS47" role="1YfERI">
         <property role="TrG5h" value="Categories from referenceBase" />
-        <node concept="3Osf58" id="2OXSMi_zati" role="3Osf6V">
+        <node concept="3Osf58" id="5nTsD1GGS48" role="3Osf6V">
           <property role="TrG5h" value="A" />
         </node>
-        <node concept="3Osf58" id="2OXSMi_zatj" role="3Osf6V">
+        <node concept="3Osf58" id="5nTsD1GGS49" role="3Osf6V">
           <property role="TrG5h" value="C" />
         </node>
-        <node concept="3Osf58" id="2OXSMi_zatk" role="3Osf6V">
+        <node concept="3Osf58" id="5nTsD1GGS4a" role="3Osf6V">
           <property role="TrG5h" value="T" />
         </node>
-        <node concept="3Osf58" id="2OXSMi_zatl" role="3Osf6V">
+        <node concept="3Osf58" id="5nTsD1GGS4b" role="3Osf6V">
           <property role="TrG5h" value="G" />
         </node>
-        <node concept="3Osf58" id="2OXSMi_zatm" role="3Osf6V">
+        <node concept="3Osf58" id="5nTsD1GGS4c" role="3Osf6V">
           <property role="TrG5h" value="-" />
         </node>
       </node>
     </node>
-    <node concept="31JHg8" id="2OXSMi_zatn" role="31JHgj">
+    <node concept="31JHg8" id="5nTsD1GGS4d" role="31JHgj">
       <property role="TrG5h" value="sample1Counts" />
       <ref role="1YeEjl" to="9nc5:1ID5TXdv_9L" resolve="String" />
     </node>
-    <node concept="31JHg8" id="2OXSMi_zato" role="31JHgj">
+    <node concept="31JHg8" id="5nTsD1GGS4e" role="31JHgj">
       <property role="TrG5h" value="sample2Counts" />
       <ref role="1YeEjl" to="9nc5:1ID5TXdv_9L" resolve="String" />
     </node>
-    <node concept="31JHg8" id="2OXSMi_zatp" role="31JHgj">
+    <node concept="31JHg8" id="5nTsD1GGS4f" role="31JHgj">
       <property role="TrG5h" value="sample1Scores" />
       <ref role="1YeEjl" to="9nc5:1ID5TXdv_9L" resolve="String" />
     </node>
-    <node concept="31JHg8" id="2OXSMi_zatq" role="31JHgj">
+    <node concept="31JHg8" id="5nTsD1GGS4g" role="31JHgj">
       <property role="TrG5h" value="sample2Scores" />
       <ref role="1YeEjl" to="9nc5:1ID5TXdv_9L" resolve="String" />
     </node>
-    <node concept="31JHg8" id="2OXSMi_zatr" role="31JHgj">
+    <node concept="31JHg8" id="5nTsD1GGS4h" role="31JHgj">
       <property role="TrG5h" value="sumCounts" />
       <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
     </node>
-    <node concept="31JHg8" id="2OXSMi_zats" role="31JHgj">
+    <node concept="31JHg8" id="5nTsD1GGS4i" role="31JHgj">
       <property role="TrG5h" value="formatted1" />
       <ref role="1YeEjl" to="9nc5:1ID5TXdv_9L" resolve="String" />
     </node>
-    <node concept="31JHg8" id="2OXSMi_zatt" role="31JHgj">
+    <node concept="31JHg8" id="5nTsD1GGS4j" role="31JHgj">
       <property role="TrG5h" value="formatted2" />
       <ref role="1YeEjl" to="9nc5:1ID5TXdv_9L" resolve="String" />
     </node>
   </node>
   <node concept="3Mpm39" id="2OXSMi_zb1_">
     <property role="31Cu5t" value="&#9;" />
-    <property role="31JHgl" value="/Users/fac2003/MPSProjects/git/metar/data/modeling/bestAUC-validation_p_0.4.tsv" />
+    <property role="31JHgl" value="/Users/alexanderpann/metar-master/data/modeling/bestAUC-validation_p_0.4.tsv" />
     <property role="TrG5h" value="bestAUC-validation_p_0.4.tsv" />
-    <property role="26T8KA" value="/Users/fac2003/MPSProjects/git/metar/data/modeling/bestAUC-validation_p_0.4.tsv" />
-    <node concept="31JHg8" id="2OXSMi_zb2S" role="31JHgj">
+    <property role="26T8KA" value="${org.campagnelab.metaR.home}/data/modeling/bestAUC-validation_p_0.4.tsv" />
+    <node concept="31JHg8" id="5nTsD1GGRUC" role="31JHgj">
       <property role="TrG5h" value="mutatedLabel" />
       <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
     </node>
-    <node concept="31JHg8" id="2OXSMi_zb2T" role="31JHgj">
+    <node concept="31JHg8" id="5nTsD1GGRUD" role="31JHgj">
       <property role="TrG5h" value="ProbabilityMut" />
       <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
     </node>
-    <node concept="31JHg8" id="2OXSMi_zb2U" role="31JHgj">
+    <node concept="31JHg8" id="5nTsD1GGRUE" role="31JHgj">
       <property role="TrG5h" value="ProbabilityUnmut" />
       <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
     </node>
-    <node concept="31JHg8" id="2OXSMi_zb2V" role="31JHgj">
+    <node concept="31JHg8" id="5nTsD1GGRUF" role="31JHgj">
       <property role="TrG5h" value="correctness" />
-      <ref role="1YeEjl" node="2OXSMi_zb2W" resolve="Categories from correctness" />
-      <node concept="aYgxc" id="2OXSMi_zb2W" role="1YfERI">
+      <ref role="1YeEjl" node="5nTsD1GGRUG" resolve="Categories from correctness" />
+      <node concept="aYgxc" id="5nTsD1GGRUG" role="1YfERI">
         <property role="TrG5h" value="Categories from correctness" />
-        <node concept="3Osf58" id="2OXSMi_zb2X" role="3Osf6V">
+        <node concept="3Osf58" id="5nTsD1GGRUH" role="3Osf6V">
           <property role="TrG5h" value="right" />
         </node>
-        <node concept="3Osf58" id="2OXSMi_zb2Y" role="3Osf6V">
+        <node concept="3Osf58" id="5nTsD1GGRUI" role="3Osf6V">
           <property role="TrG5h" value="wrong" />
         </node>
       </node>
     </node>
-    <node concept="31JHg8" id="2OXSMi_zb2Z" role="31JHgj">
+    <node concept="31JHg8" id="5nTsD1GGRUJ" role="31JHgj">
       <property role="TrG5h" value="frequency" />
       <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
     </node>
-    <node concept="31JHg8" id="2OXSMi_zb30" role="31JHgj">
+    <node concept="31JHg8" id="5nTsD1GGRUK" role="31JHgj">
       <property role="TrG5h" value="mutatedBase" />
-      <ref role="1YeEjl" node="2OXSMi_zb31" resolve="Categories from mutatedBase" />
-      <node concept="aYgxc" id="2OXSMi_zb31" role="1YfERI">
+      <ref role="1YeEjl" node="5nTsD1GGRUL" resolve="Categories from mutatedBase" />
+      <node concept="aYgxc" id="5nTsD1GGRUL" role="1YfERI">
         <property role="TrG5h" value="Categories from mutatedBase" />
-        <node concept="3Osf58" id="2OXSMi_zb32" role="3Osf6V">
+        <node concept="3Osf58" id="5nTsD1GGRUM" role="3Osf6V">
           <property role="TrG5h" value="A" />
         </node>
-        <node concept="3Osf58" id="2OXSMi_zb33" role="3Osf6V">
+        <node concept="3Osf58" id="5nTsD1GGRUN" role="3Osf6V">
           <property role="TrG5h" value="C" />
         </node>
-        <node concept="3Osf58" id="2OXSMi_zb34" role="3Osf6V">
+        <node concept="3Osf58" id="5nTsD1GGRUO" role="3Osf6V">
           <property role="TrG5h" value="T" />
         </node>
-        <node concept="3Osf58" id="2OXSMi_zb35" role="3Osf6V">
+        <node concept="3Osf58" id="5nTsD1GGRUP" role="3Osf6V">
           <property role="TrG5h" value="TCCCCCCCCCCCG" />
         </node>
-        <node concept="3Osf58" id="2OXSMi_zb36" role="3Osf6V">
+        <node concept="3Osf58" id="5nTsD1GGRUQ" role="3Osf6V">
           <property role="TrG5h" value="GAAAAAAAAAAAACA" />
         </node>
-        <node concept="3Osf58" id="2OXSMi_zb37" role="3Osf6V">
+        <node concept="3Osf58" id="5nTsD1GGRUR" role="3Osf6V">
           <property role="TrG5h" value="G-" />
         </node>
-        <node concept="3Osf58" id="2OXSMi_zb38" role="3Osf6V">
+        <node concept="3Osf58" id="5nTsD1GGRUS" role="3Osf6V">
           <property role="TrG5h" value="G" />
         </node>
-        <node concept="3Osf58" id="2OXSMi_zb39" role="3Osf6V">
+        <node concept="3Osf58" id="5nTsD1GGRUT" role="3Osf6V">
           <property role="TrG5h" value="TAAAA" />
         </node>
-        <node concept="3Osf58" id="2OXSMi_zb3a" role="3Osf6V">
+        <node concept="3Osf58" id="5nTsD1GGRUU" role="3Osf6V">
           <property role="TrG5h" value="N" />
         </node>
       </node>
     </node>
-    <node concept="31JHg8" id="2OXSMi_zb3b" role="31JHgj">
+    <node concept="31JHg8" id="5nTsD1GGRUV" role="31JHgj">
       <property role="TrG5h" value="refIdx" />
       <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
     </node>
-    <node concept="31JHg8" id="2OXSMi_zb3c" role="31JHgj">
+    <node concept="31JHg8" id="5nTsD1GGRUW" role="31JHgj">
       <property role="TrG5h" value="position" />
       <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
     </node>
-    <node concept="31JHg8" id="2OXSMi_zb3d" role="31JHgj">
+    <node concept="31JHg8" id="5nTsD1GGRUX" role="31JHgj">
       <property role="TrG5h" value="referenceBase" />
-      <ref role="1YeEjl" node="2OXSMi_zb3e" resolve="Categories from referenceBase" />
-      <node concept="aYgxc" id="2OXSMi_zb3e" role="1YfERI">
+      <ref role="1YeEjl" node="5nTsD1GGRUY" resolve="Categories from referenceBase" />
+      <node concept="aYgxc" id="5nTsD1GGRUY" role="1YfERI">
         <property role="TrG5h" value="Categories from referenceBase" />
-        <node concept="3Osf58" id="2OXSMi_zb3f" role="3Osf6V">
+        <node concept="3Osf58" id="5nTsD1GGRUZ" role="3Osf6V">
           <property role="TrG5h" value="A" />
         </node>
-        <node concept="3Osf58" id="2OXSMi_zb3g" role="3Osf6V">
+        <node concept="3Osf58" id="5nTsD1GGRV0" role="3Osf6V">
           <property role="TrG5h" value="C" />
         </node>
-        <node concept="3Osf58" id="2OXSMi_zb3h" role="3Osf6V">
+        <node concept="3Osf58" id="5nTsD1GGRV1" role="3Osf6V">
           <property role="TrG5h" value="T" />
         </node>
-        <node concept="3Osf58" id="2OXSMi_zb3i" role="3Osf6V">
+        <node concept="3Osf58" id="5nTsD1GGRV2" role="3Osf6V">
           <property role="TrG5h" value="G" />
         </node>
-        <node concept="3Osf58" id="2OXSMi_zb3j" role="3Osf6V">
+        <node concept="3Osf58" id="5nTsD1GGRV3" role="3Osf6V">
           <property role="TrG5h" value="-" />
         </node>
       </node>
     </node>
-    <node concept="31JHg8" id="2OXSMi_zb3k" role="31JHgj">
+    <node concept="31JHg8" id="5nTsD1GGRV4" role="31JHgj">
       <property role="TrG5h" value="sample1Counts" />
       <ref role="1YeEjl" to="9nc5:1ID5TXdv_9L" resolve="String" />
     </node>
-    <node concept="31JHg8" id="2OXSMi_zb3l" role="31JHgj">
+    <node concept="31JHg8" id="5nTsD1GGRV5" role="31JHgj">
       <property role="TrG5h" value="sample2Counts" />
       <ref role="1YeEjl" to="9nc5:1ID5TXdv_9L" resolve="String" />
     </node>
-    <node concept="31JHg8" id="2OXSMi_zb3m" role="31JHgj">
+    <node concept="31JHg8" id="5nTsD1GGRV6" role="31JHgj">
       <property role="TrG5h" value="sample1Scores" />
       <ref role="1YeEjl" to="9nc5:1ID5TXdv_9L" resolve="String" />
     </node>
-    <node concept="31JHg8" id="2OXSMi_zb3n" role="31JHgj">
+    <node concept="31JHg8" id="5nTsD1GGRV7" role="31JHgj">
       <property role="TrG5h" value="sample2Scores" />
       <ref role="1YeEjl" to="9nc5:1ID5TXdv_9L" resolve="String" />
     </node>
-    <node concept="31JHg8" id="2OXSMi_zb3o" role="31JHgj">
+    <node concept="31JHg8" id="5nTsD1GGRV8" role="31JHgj">
       <property role="TrG5h" value="sumCounts" />
       <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
     </node>
-    <node concept="31JHg8" id="2OXSMi_zb3p" role="31JHgj">
+    <node concept="31JHg8" id="5nTsD1GGRV9" role="31JHgj">
       <property role="TrG5h" value="formatted1" />
       <ref role="1YeEjl" to="9nc5:1ID5TXdv_9L" resolve="String" />
     </node>
-    <node concept="31JHg8" id="2OXSMi_zb3q" role="31JHgj">
+    <node concept="31JHg8" id="5nTsD1GGRVa" role="31JHgj">
       <property role="TrG5h" value="formatted2" />
       <ref role="1YeEjl" to="9nc5:1ID5TXdv_9L" resolve="String" />
     </node>
