@@ -679,7 +679,6 @@
         <child id="1197687026896" name="keyType" index="3rHrn6" />
         <child id="1197687035757" name="valueType" index="3rHtpV" />
       </concept>
-      <concept id="1165525191778" name="jetbrains.mps.baseLanguage.collections.structure.GetFirstOperation" flags="nn" index="1uHKPH" />
       <concept id="1240687580870" name="jetbrains.mps.baseLanguage.collections.structure.JoinOperation" flags="nn" index="3uJxvA">
         <child id="1240687658305" name="delimiter" index="3uJOhx" />
       </concept>
@@ -2102,14 +2101,8 @@
           </node>
         </node>
         <node concept="3cpWs6" id="2xF4TVc_Q9C" role="3cqZAp">
-          <node concept="2OqwBi" id="2xF4TVc_SRC" role="3cqZAk">
-            <node concept="2OqwBi" id="2xF4TVc_QJL" role="2Oq$k0">
-              <node concept="37vLTw" id="2xF4TVc_Qjr" role="2Oq$k0">
-                <ref role="3cqZAo" node="3gtMiDCy3oH" resolve="n" />
-              </node>
-              <node concept="z$bX8" id="2xF4TVc_S8C" role="2OqNvi" />
-            </node>
-            <node concept="1uHKPH" id="2xF4TVc_Uje" role="2OqNvi" />
+          <node concept="37vLTw" id="5nTsD1GOauW" role="3cqZAk">
+            <ref role="3cqZAo" node="3gtMiDCy3oH" resolve="n" />
           </node>
         </node>
       </node>
@@ -2211,12 +2204,9 @@
         <node concept="3cpWs8" id="2xF4TVcEAxO" role="3cqZAp">
           <node concept="3cpWsn" id="2xF4TVcEAxR" role="3cpWs9">
             <property role="TrG5h" value="session" />
-            <node concept="3Tqbb2" id="2xF4TVcEAxM" role="1tU5fm">
-              <ref role="ehGHo" to="6q58:15COMTnnsmm" resolve="IAtomic" />
-            </node>
             <node concept="2YIFZM" id="2xF4TVcECVb" role="33vP2m">
-              <ref role="37wK5l" node="2xF4TVcExb_" resolve="getNearestSessionForRScript" />
               <ref role="1Pybhc" node="hlbLQwjCGO" resolve="ChangeExecutor" />
+              <ref role="37wK5l" node="2xF4TVcExb_" resolve="getNearestSessionForRScript" />
               <node concept="1PxgMI" id="2xF4TVcEDqP" role="37wK5m">
                 <ref role="1PxNhF" to="6q58:15COMTnnsmm" resolve="IAtomic" />
                 <node concept="1rXfSq" id="2xF4TVcED8c" role="1PxMeX">
@@ -2226,6 +2216,9 @@
                   </node>
                 </node>
               </node>
+            </node>
+            <node concept="3Tqbb2" id="2xF4TVcEAxM" role="1tU5fm">
+              <ref role="ehGHo" to="6q58:15COMTnnsmm" resolve="IAtomic" />
             </node>
           </node>
         </node>
