@@ -39,7 +39,7 @@
       <concept id="1068580123155" name="jetbrains.mps.baseLanguage.structure.ExpressionStatement" flags="nn" index="3clFbF">
         <child id="1068580123156" name="expression" index="3clFbG" />
       </concept>
-      <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" index="3clFbS">
+      <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
       </concept>
       <concept id="1068580320020" name="jetbrains.mps.baseLanguage.structure.IntegerConstant" flags="nn" index="3cmrfG">
@@ -396,6 +396,21 @@
               <node concept="chp4Y" id="2xF4TVcFvzv" role="cj9EA">
                 <ref role="cht4Q" to="6q58:5mPDeVwiJFe" resolve="RScript" />
               </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1M2fIO" id="1FArU_j80v$">
+    <ref role="1M2myG" to="6q58:5mPDeVwiPat" resolve="DollarExpr" />
+    <node concept="EnEH3" id="1FArU_j80v_" role="1MhHOB">
+      <ref role="EomxK" to="tpck:h0TrG11" resolve="name" />
+      <node concept="Eqf_E" id="1FArU_j80vB" role="EtsB7">
+        <node concept="3clFbS" id="1FArU_j80vC" role="2VODD2">
+          <node concept="3clFbF" id="1FArU_j80wL" role="3cqZAp">
+            <node concept="Xl_RD" id="1FArU_j80wK" role="3clFbG">
+              <property role="Xl_RC" value="" />
             </node>
           </node>
         </node>
