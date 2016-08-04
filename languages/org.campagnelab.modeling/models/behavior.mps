@@ -25,6 +25,7 @@
       </concept>
       <concept id="1225194413805" name="jetbrains.mps.lang.behavior.structure.ConceptConstructorDeclaration" flags="in" index="13hLZK" />
       <concept id="1225194472830" name="jetbrains.mps.lang.behavior.structure.ConceptMethodDeclaration" flags="ng" index="13i0hz">
+        <property id="5864038008284099149" name="isStatic" index="2Ki8OM" />
         <property id="1225194472832" name="isVirtual" index="13i0it" />
         <property id="1225194472834" name="isAbstract" index="13i0iv" />
         <reference id="1225194472831" name="overriddenMethod" index="13i0hy" />
@@ -378,8 +379,8 @@
       <property role="TrG5h" value="getTableName" />
       <property role="13i0it" value="false" />
       <property role="13i0iv" value="false" />
-      <ref role="13i0hy" to="v8sa:6WPhx9nlOIm" resolve="getTableName" />
-      <node concept="3Tm1VV" id="7tPuoi15L5v" role="1B3o_S" />
+      <property role="2Ki8OM" value="false" />
+      <ref role="13i0hy" to="v8sa:7tPuoi0J8Kg" resolve="getTableName" />
       <node concept="3clFbS" id="7tPuoi15L5$" role="3clF47">
         <node concept="3clFbF" id="7tPuoi15D0J" role="3cqZAp">
           <node concept="2YIFZM" id="7tPuoi15D0K" role="3clFbG">
@@ -404,7 +405,8 @@
           </node>
         </node>
       </node>
-      <node concept="17QB3L" id="7tPuoi15L5_" role="3clF45" />
+      <node concept="17QB3L" id="7B51G8WkgiW" role="3clF45" />
+      <node concept="3Tm1VV" id="7B51G8WkgiX" role="1B3o_S" />
     </node>
     <node concept="13i0hz" id="7tPuoi18Fbu" role="13h7CS">
       <property role="TrG5h" value="dependencies" />

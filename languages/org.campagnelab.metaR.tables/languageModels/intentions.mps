@@ -17,6 +17,7 @@
     <import index="guwi" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" />
     <import index="w1kc" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.smodel(MPS.Core/)" />
     <import index="n1uf" ref="r:cb035222-afa9-445c-8372-64c2390befab(org.campagnelab.metar.R.gen.behavior)" />
+    <import index="sg20" ref="r:e17021d0-0144-4c70-acef-a4d3f9c3fa3b(org.campagnelab.instantrefresh.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="6q58" ref="r:97268463-8a58-42b7-9dc6-fa004b7a4308(org.campagnelab.metar.R.structure)" implicit="true" />
@@ -200,6 +201,7 @@
       <concept id="1176109685393" name="jetbrains.mps.lang.smodel.structure.Model_RootsIncludingImportedOperation" flags="nn" index="3lApI0">
         <reference id="1176109685394" name="concept" index="3lApI3" />
       </concept>
+      <concept id="1139613262185" name="jetbrains.mps.lang.smodel.structure.Node_GetParentOperation" flags="nn" index="1mfA1w" />
       <concept id="1139621453865" name="jetbrains.mps.lang.smodel.structure.Node_IsInstanceOfOperation" flags="nn" index="1mIQ4w">
         <child id="1177027386292" name="conceptArgument" index="cj9EA" />
       </concept>
@@ -2737,7 +2739,7 @@
                           </node>
                           <node concept="2OqwBi" id="15COMTnTJiP" role="37vLTJ">
                             <node concept="1PxgMI" id="15COMTnTJb5" role="2Oq$k0">
-                              <ref role="1PxNhF" to="6q58:15COMTnnsmm" resolve="IAtomic" />
+                              <ref role="1PxNhF" to="sg20:15COMTnnsmm" resolve="IAtomic" />
                               <node concept="37vLTw" id="L2v$sdb$7s" role="1PxMeX">
                                 <ref role="3cqZAo" node="L2v$sdb$3U" resolve="it" />
                               </node>
@@ -2756,8 +2758,8 @@
                         <ref role="3cqZAo" node="L2v$sdb$3U" resolve="it" />
                       </node>
                       <node concept="1mIQ4w" id="15COMTnTIkm" role="2OqNvi">
-                        <node concept="chp4Y" id="15COMTnTIt3" role="cj9EA">
-                          <ref role="cht4Q" to="6q58:15COMTnnsmm" resolve="IAtomic" />
+                        <node concept="chp4Y" id="7B51G8Wf_OG" role="cj9EA">
+                          <ref role="cht4Q" to="sg20:15COMTnnsmm" resolve="IAtomic" />
                         </node>
                       </node>
                     </node>
@@ -2809,8 +2811,8 @@
               <node concept="2Sf5sV" id="L2v$sdbyDK" role="2Oq$k0" />
               <node concept="2Xjw5R" id="L2v$sdbyM$" role="2OqNvi">
                 <node concept="1xMEDy" id="L2v$sdbyMA" role="1xVPHs">
-                  <node concept="chp4Y" id="15COMTnnt29" role="ri$Ld">
-                    <ref role="cht4Q" to="6q58:15COMTnnsmm" resolve="IAtomic" />
+                  <node concept="chp4Y" id="7B51G8Wf_B5" role="ri$Ld">
+                    <ref role="cht4Q" to="sg20:15COMTnnsmm" resolve="IAtomic" />
                   </node>
                 </node>
               </node>
@@ -2977,6 +2979,10 @@
               <ref role="3cqZAo" node="15COMTnnuKg" resolve="rootNode" />
             </node>
             <node concept="2Sf5sV" id="15COMTnoNOd" role="37wK5m" />
+            <node concept="2OqwBi" id="7B51G8Wc_0P" role="37wK5m">
+              <node concept="2Sf5sV" id="7B51G8Wc$YC" role="2Oq$k0" />
+              <node concept="1mfA1w" id="7B51G8Wc_8r" role="2OqNvi" />
+            </node>
           </node>
         </node>
         <node concept="3clFbF" id="15COMTnnuKO" role="3cqZAp">
@@ -3000,7 +3006,7 @@
                           </node>
                           <node concept="2OqwBi" id="26cpLhi4n0v" role="37vLTJ">
                             <node concept="1PxgMI" id="26cpLhi4n0w" role="2Oq$k0">
-                              <ref role="1PxNhF" to="6q58:15COMTnnsmm" resolve="IAtomic" />
+                              <ref role="1PxNhF" to="sg20:15COMTnnsmm" resolve="IAtomic" />
                               <node concept="37vLTw" id="26cpLhi4n0x" role="1PxMeX">
                                 <ref role="3cqZAo" node="15COMTnnuL3" resolve="it" />
                               </node>
@@ -3019,8 +3025,8 @@
                         <ref role="3cqZAo" node="15COMTnnuL3" resolve="it" />
                       </node>
                       <node concept="1mIQ4w" id="26cpLhi4n0A" role="2OqNvi">
-                        <node concept="chp4Y" id="26cpLhi4n0B" role="cj9EA">
-                          <ref role="cht4Q" to="6q58:15COMTnnsmm" resolve="IAtomic" />
+                        <node concept="chp4Y" id="7B51G8WfAy5" role="cj9EA">
+                          <ref role="cht4Q" to="sg20:15COMTnnsmm" resolve="IAtomic" />
                         </node>
                       </node>
                     </node>

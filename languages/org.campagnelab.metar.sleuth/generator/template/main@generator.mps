@@ -24,7 +24,7 @@
     <import index="4tsn" ref="r:97aeaa4f-346d-4633-b5a0-99879648272c(R3_1_3@stubs)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
-    <import index="69j5" ref="r:cc2fd9c1-53e7-4805-a8bc-a07e69f2147b(org.campagnelab.metar.R.behavior)" implicit="true" />
+    <import index="k6y1" ref="r:eeed3f2f-0d6f-41a1-91c7-0fff65bede58(org.campagnelab.instantrefresh.behavior)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -77,7 +77,7 @@
         <child id="1068580123160" name="condition" index="3clFbw" />
         <child id="1068580123161" name="ifTrue" index="3clFbx" />
       </concept>
-      <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" index="3clFbS">
+      <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
       </concept>
       <concept id="1068580320020" name="jetbrains.mps.baseLanguage.structure.IntegerConstant" flags="nn" index="3cmrfG">
@@ -1403,8 +1403,8 @@
                   <ref role="1PxNhF" to="jrxw:7LvyiX4miiC" resolve="Statement" />
                   <node concept="30H73N" id="1c1rOX4zqNz" role="1PxMeX" />
                 </node>
-                <node concept="2qgKlT" id="1c1rOX4zqN$" role="2OqNvi">
-                  <ref role="37wK5l" to="69j5:hlbLQwkRFj" resolve="id" />
+                <node concept="2qgKlT" id="7B51G8WzAnu" role="2OqNvi">
+                  <ref role="37wK5l" to="k6y1:hlbLQwkRFj" resolve="id" />
                 </node>
               </node>
             </node>

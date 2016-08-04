@@ -2,12 +2,13 @@
 <model ref="r:97268463-8a58-42b7-9dc6-fa004b7a4308(org.campagnelab.metar.R.structure)">
   <persistence version="9" />
   <languages>
-    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="1" />
+    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="-1" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
     <import index="l5qg" ref="r:c3c8723d-4db5-4e18-902d-1cb272fe4ddf(org.campagnelab.metar.R.gen.structure)" />
     <import index="jrxw" ref="r:9f2bbfbf-f8b7-4b3b-92b1-b6a0e9642c10(org.campagnelab.metar.tables.structure)" />
+    <import index="sg20" ref="r:e17021d0-0144-4c70-acef-a4d3f9c3fa3b(org.campagnelab.instantrefresh.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" implicit="true" />
     <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" implicit="true" />
@@ -96,8 +97,8 @@
     <node concept="PrWs8" id="5DjLoGcBJPN" role="PzmwI">
       <ref role="PrY4T" node="5DjLoGcBJPy" resolve="HasPackageImports" />
     </node>
-    <node concept="PrWs8" id="3lASLmo9ss3" role="PzmwI">
-      <ref role="PrY4T" node="3lASLmo9rqd" resolve="IIgnoreChanges" />
+    <node concept="PrWs8" id="7B51G8WfBzR" role="PzmwI">
+      <ref role="PrY4T" to="sg20:3lASLmo9rqd" resolve="IIgnoreChanges" />
     </node>
     <node concept="PrWs8" id="52J4nYwn4__" role="PzmwI">
       <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
@@ -108,8 +109,8 @@
     <property role="R5$K7" value="true" />
     <property role="R5$K2" value="false" />
     <property role="1pbfSe" value="906033031" />
-    <node concept="PrWs8" id="15COMTnnsBY" role="PzmwI">
-      <ref role="PrY4T" node="15COMTnnsmm" resolve="IAtomic" />
+    <node concept="PrWs8" id="7B51G8Wf_y0" role="PzmwI">
+      <ref role="PrY4T" to="sg20:15COMTnnsmm" resolve="IAtomic" />
     </node>
   </node>
   <node concept="1TIwiD" id="5mPDeVwiPaq">
@@ -158,6 +159,9 @@
     <property role="OYydz" value="Dollar" />
     <property role="1pbfSe" value="906033035" />
     <ref role="1TJDcQ" node="5qM9mr9JOd5" resolve="BinaryOperatorExpr" />
+    <node concept="PrWs8" id="1FArU_j7jF_" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
   </node>
   <node concept="1TIwiD" id="5mPDeVwiPau">
     <property role="TrG5h" value="ExponentExpr" />
@@ -563,8 +567,8 @@
     <property role="34LRSv" value="&lt;-" />
     <property role="1pbfSe" value="544303275" />
     <ref role="1TJDcQ" node="5mPDeVwiPap" resolve="Expr" />
-    <node concept="PrWs8" id="15COMTnILJU" role="PzmwI">
-      <ref role="PrY4T" node="15COMTn5xlQ" resolve="IHasModifiableChildren" />
+    <node concept="PrWs8" id="7B51G8WfH8q" role="PzmwI">
+      <ref role="PrY4T" to="sg20:15COMTn5xlQ" resolve="IHasReferencableChildren" />
     </node>
     <node concept="1TJgyj" id="5qM9mr9JOd6" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -633,8 +637,8 @@
     <property role="TrG5h" value="EmptyLine" />
     <property role="1pbfSe" value="284396433" />
     <ref role="1TJDcQ" node="5mPDeVwiPap" resolve="Expr" />
-    <node concept="PrWs8" id="3lASLmo9rtw" role="PzmwI">
-      <ref role="PrY4T" node="3lASLmo9rqd" resolve="IIgnoreChanges" />
+    <node concept="PrWs8" id="7B51G8WfBzO" role="PzmwI">
+      <ref role="PrY4T" to="sg20:3lASLmo9rqd" resolve="IIgnoreChanges" />
     </node>
   </node>
   <node concept="1TIwiD" id="1jge5x__XE8">
@@ -1255,10 +1259,6 @@
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
   </node>
-  <node concept="PlHQZ" id="15COMTn5xlQ">
-    <property role="1pbfSe" value="1753147556" />
-    <property role="TrG5h" value="IHasModifiableChildren" />
-  </node>
   <node concept="1TIwiD" id="4KQKRH2qei2">
     <property role="1pbfSe" value="1902139395" />
     <property role="TrG5h" value="ColonExpr" />
@@ -1292,10 +1292,6 @@
     <property role="34LRSv" value="integer" />
     <property role="3GE5qa" value="types.vector" />
     <ref role="1TJDcQ" node="L2v$sc8RCm" resolve="VectorType" />
-  </node>
-  <node concept="PlHQZ" id="15COMTnnsmm">
-    <property role="1pbfSe" value="1757845700" />
-    <property role="TrG5h" value="IAtomic" />
   </node>
   <node concept="1TIwiD" id="L2v$sc88U8">
     <property role="1pbfSe" value="409144527" />
@@ -1365,10 +1361,6 @@
     <property role="34LRSv" value="raw" />
     <property role="3GE5qa" value="types.vector" />
     <ref role="1TJDcQ" node="L2v$sc8RCm" resolve="VectorType" />
-  </node>
-  <node concept="PlHQZ" id="3lASLmo9rqd">
-    <property role="1pbfSe" value="846423646" />
-    <property role="TrG5h" value="IIgnoreChanges" />
   </node>
   <node concept="1TIwiD" id="7tPuoi13jr$">
     <property role="TrG5h" value="InMatchOperator" />
