@@ -21,7 +21,7 @@
     <import index="jl4n" ref="r:a4155731-8795-49bc-afc5-bf36983f9c0c(org.campagnelab.metar.limma.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
-    <import index="69j5" ref="r:cc2fd9c1-53e7-4805-a8bc-a07e69f2147b(org.campagnelab.metar.R.behavior)" implicit="true" />
+    <import index="k6y1" ref="r:eeed3f2f-0d6f-41a1-91c7-0fff65bede58(org.campagnelab.instantrefresh.behavior)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -2686,8 +2686,8 @@
             <node concept="3clFbF" id="fAbp8R9KpP" role="3cqZAp">
               <node concept="2OqwBi" id="fAbp8R9KuJ" role="3clFbG">
                 <node concept="30H73N" id="fAbp8R9KpO" role="2Oq$k0" />
-                <node concept="2qgKlT" id="fAbp8R9L6P" role="2OqNvi">
-                  <ref role="37wK5l" to="69j5:hlbLQwkRFj" resolve="id" />
+                <node concept="2qgKlT" id="7B51G8WtBNR" role="2OqNvi">
+                  <ref role="37wK5l" to="k6y1:hlbLQwkRFj" resolve="id" />
                 </node>
               </node>
             </node>

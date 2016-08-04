@@ -26,7 +26,6 @@
       <concept id="489068675543418438" name="org.campagnelab.metar.R.structure.EqualAssignment" flags="ng" index="22gcco" />
       <concept id="489068675543418436" name="org.campagnelab.metar.R.structure.SimpleAssignment" flags="ng" index="22gccq" />
       <concept id="489068675543418432" name="org.campagnelab.metar.R.structure.Equality" flags="ng" index="22gccu" />
-      <concept id="489068675543418430" name="org.campagnelab.metar.R.structure.LessThan" flags="ng" index="22gcdw" />
       <concept id="489068675543418426" name="org.campagnelab.metar.R.structure.AddOperator" flags="ng" index="22gcd$" />
       <concept id="489068675543418423" name="org.campagnelab.metar.R.structure.Minus" flags="ng" index="22gcdD" />
       <concept id="489068675543418421" name="org.campagnelab.metar.R.structure.Dollar" flags="ng" index="22gcdF" />
@@ -164,7 +163,6 @@
         <property id="7575483536003856644" name="numRows" index="34tvWB" />
         <child id="7575483536003856630" name="tableRef" index="34tvVl" />
       </concept>
-      <concept id="2417420436961838574" name="org.campagnelab.metar.tables.structure.LoadSession" flags="ng" index="1KribU" />
       <concept id="3402264987261651661" name="org.campagnelab.metar.tables.structure.ImportTable" flags="ng" index="3MjoWR">
         <reference id="3402264987261692715" name="table" index="3Mj2Vh" />
         <child id="3402264987261651716" name="future" index="3MjoVY" />
@@ -1221,24 +1219,6 @@
     <property role="TrG5h" value="Instant refresh" />
     <node concept="ZXjPh" id="1e0sE7Owt8L" role="S1EQ8">
       <property role="S1EQ6" value="NSJWWFSLTT" />
-      <node concept="1KribU" id="1e0sE7R2twj" role="ZXjPg">
-        <property role="S1EQ6" value="QCDQRIDLLM" />
-        <property role="TrG5h" value="2912443156784358369" />
-      </node>
-      <node concept="1m0zHf" id="1e0sE7R2twk" role="ZXjPg">
-        <property role="S1EQ6" value="GIOPPKXIRM" />
-        <node concept="13u1kU" id="1e0sE7R2twn" role="1m0mKq">
-          <node concept="2PZJpa" id="1e0sE7R2two" role="13u1kV">
-            <node concept="1LhYbg" id="1e0sE7R2twp" role="2v3mow">
-              <ref role="1Li74V" node="52J4nYw4OYs" resolve="a" />
-            </node>
-            <node concept="22gcdw" id="1e0sE7R2twq" role="22hImy" />
-            <node concept="2PZJpk" id="1e0sE7R2twr" role="2v3moI">
-              <property role="pzxG6" value="2" />
-            </node>
-          </node>
-        </node>
-      </node>
     </node>
   </node>
   <node concept="2PZPSw" id="1e0sE7QWqJl">

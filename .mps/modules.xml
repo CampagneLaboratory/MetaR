@@ -6,6 +6,7 @@
       <modulePath path="$PROJECT_DIR$/devkits/org.campagnelab.HTAnalysis.devkit" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.editor.csvviewer/org.campagnelab.editor.csvviewer.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.editor.images/org.campagnelab.editor.images.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.instantrefresh/org.campagnelab.instantrefresh.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.jupyterManager/org.campagnelab.jupyterManager.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.metaR.inspect/org.campagnelab.metaR.inspect.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.metaR.tables/org.campagnelab.metaR.tables.mpl" folder="" />

@@ -28,7 +28,7 @@
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="r8sq" ref="r:255861a3-240e-44f9-891d-2d789f4b6268(org.campagnelab.mps.XChart.types.structure)" implicit="true" />
-    <import index="69j5" ref="r:cc2fd9c1-53e7-4805-a8bc-a07e69f2147b(org.campagnelab.metar.R.behavior)" implicit="true" />
+    <import index="k6y1" ref="r:eeed3f2f-0d6f-41a1-91c7-0fff65bede58(org.campagnelab.instantrefresh.behavior)" implicit="true" />
     <import index="42z1" ref="r:61980467-5cf8-4450-9d24-d597512183ad(org.campagnelab.styles.behavior)" implicit="true" />
   </imports>
   <registry>
@@ -2677,8 +2677,8 @@
                       <node concept="37vLTw" id="7uYamNflxbe" role="2Oq$k0">
                         <ref role="3cqZAo" node="7uYamNflx6r" resolve="it" />
                       </node>
-                      <node concept="2qgKlT" id="hlbLQwpE4C" role="2OqNvi">
-                        <ref role="37wK5l" to="69j5:hlbLQwkRFj" resolve="id" />
+                      <node concept="2qgKlT" id="7B51G8WjUBQ" role="2OqNvi">
+                        <ref role="37wK5l" to="k6y1:hlbLQwkRFj" resolve="id" />
                       </node>
                     </node>
                   </node>

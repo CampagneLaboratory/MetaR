@@ -30,7 +30,7 @@
     <import index="jrxw" ref="r:9f2bbfbf-f8b7-4b3b-92b1-b6a0e9642c10(org.campagnelab.metar.tables.structure)" />
     <import index="5j4l" ref="r:117e74b0-b84a-4229-b568-4d44d5a82fc8(org.campagnelab.modeling.structure)" implicit="true" />
     <import index="1mjk" ref="r:72b0aa20-b681-4aef-ad30-bb23b1f4b98c(org.campagnelab.metar.code.generator.helpers)" implicit="true" />
-    <import index="69j5" ref="r:cc2fd9c1-53e7-4805-a8bc-a07e69f2147b(org.campagnelab.metar.R.behavior)" implicit="true" />
+    <import index="k6y1" ref="r:eeed3f2f-0d6f-41a1-91c7-0fff65bede58(org.campagnelab.instantrefresh.behavior)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
   </imports>
@@ -542,8 +542,8 @@
                       <ref role="1PxNhF" to="jrxw:7LvyiX4miiC" resolve="Statement" />
                       <node concept="30H73N" id="4sETwl$2S1y" role="1PxMeX" />
                     </node>
-                    <node concept="2qgKlT" id="5hNeoNoc0G" role="2OqNvi">
-                      <ref role="37wK5l" to="69j5:hlbLQwkRFj" resolve="id" />
+                    <node concept="2qgKlT" id="7B51G8WtJTq" role="2OqNvi">
+                      <ref role="37wK5l" to="k6y1:hlbLQwkRFj" resolve="id" />
                     </node>
                   </node>
                 </node>
@@ -926,8 +926,8 @@
                       <ref role="1PxNhF" to="jrxw:7LvyiX4miiC" resolve="Statement" />
                       <node concept="30H73N" id="2OXSMi_pRI8" role="1PxMeX" />
                     </node>
-                    <node concept="2qgKlT" id="2OXSMi_pRI9" role="2OqNvi">
-                      <ref role="37wK5l" to="69j5:hlbLQwkRFj" resolve="id" />
+                    <node concept="2qgKlT" id="7B51G8WtLbX" role="2OqNvi">
+                      <ref role="37wK5l" to="k6y1:hlbLQwkRFj" resolve="id" />
                     </node>
                   </node>
                 </node>
@@ -1249,8 +1249,8 @@
                     <ref role="1PxNhF" to="jrxw:7LvyiX4miiC" resolve="Statement" />
                     <node concept="30H73N" id="7tPuoi15ppk" role="1PxMeX" />
                   </node>
-                  <node concept="2qgKlT" id="7tPuoi15ppl" role="2OqNvi">
-                    <ref role="37wK5l" to="69j5:hlbLQwkRFj" resolve="id" />
+                  <node concept="2qgKlT" id="7B51G8WtKzF" role="2OqNvi">
+                    <ref role="37wK5l" to="k6y1:hlbLQwkRFj" resolve="id" />
                   </node>
                 </node>
               </node>
