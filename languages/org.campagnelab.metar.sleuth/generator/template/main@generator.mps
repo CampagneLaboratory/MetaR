@@ -1134,8 +1134,8 @@
                   </node>
                   <node concept="gNbv0" id="1AaQBcuaXjQ" role="134Gdu">
                     <node concept="V6WaU" id="1AaQBcuaXjR" role="gNbrm">
-                      <node concept="1LhYbg" id="1AaQBcuaYhz" role="gNbhV">
-                        <ref role="1Li74V" node="1AaQBctKBWY" resolve="so" />
+                      <node concept="2PZJpp" id="7B51G8XlF7U" role="gNbhV">
+                        <property role="TrG5h" value="so" />
                       </node>
                     </node>
                     <node concept="V6WaU" id="1AaQBcuAozi" role="gNbrm">
