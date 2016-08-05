@@ -70,6 +70,7 @@
     <import index="7x5y" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.nio.charset(JDK/)" />
     <import index="ni5j" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util.regex(JDK/)" />
     <import index="3v5a" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.execution(MPS.IDEA/)" />
+    <import index="sg20" ref="r:e17021d0-0144-4c70-acef-a4d3f9c3fa3b(org.campagnelab.instantrefresh.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="6q58" ref="r:97268463-8a58-42b7-9dc6-fa004b7a4308(org.campagnelab.metar.R.structure)" implicit="true" />
     <import index="l5qg" ref="r:c3c8723d-4db5-4e18-902d-1cb272fe4ddf(org.campagnelab.metar.R.gen.structure)" implicit="true" />
@@ -9259,7 +9260,7 @@
                   </node>
                   <node concept="3SKdUt" id="3zqZiqBLTfd" role="3cqZAp">
                     <node concept="3SKdUq" id="3zqZiqBLTfe" role="3SKWNk">
-                      <property role="3SKdUp" value="also fill in idToNodes for each statement of analysis:" />
+                      <property role="3SKdUp" value="also fill in idToNodes for each concept that implement id():" />
                     </node>
                   </node>
                   <node concept="3clFbF" id="3zqZiqBLTff" role="3cqZAp">
@@ -9270,8 +9271,8 @@
                         </node>
                         <node concept="2Rf3mk" id="3zqZiqBLTfj" role="2OqNvi">
                           <node concept="1xMEDy" id="3zqZiqBLTfk" role="1xVPHs">
-                            <node concept="chp4Y" id="3zqZiqBLTfl" role="ri$Ld">
-                              <ref role="cht4Q" to="jrxw:7LvyiX4miiC" resolve="Statement" />
+                            <node concept="chp4Y" id="16Z5RhQKZ_6" role="ri$Ld">
+                              <ref role="cht4Q" to="sg20:15COMTnnsmm" resolve="IAtomic" />
                             </node>
                           </node>
                         </node>
