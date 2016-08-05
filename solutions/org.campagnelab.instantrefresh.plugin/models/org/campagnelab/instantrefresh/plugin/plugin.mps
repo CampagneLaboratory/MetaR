@@ -4013,6 +4013,37 @@
                           <node concept="1QHqEM" id="1e0sE7ODI5R" role="3cqZAp">
                             <node concept="1QHqEC" id="1e0sE7ODI5T" role="1QHqEI">
                               <node concept="3clFbS" id="1e0sE7ODI5V" role="1bW5cS">
+                                <node concept="3clFbJ" id="1x1IHbNjv4l" role="3cqZAp">
+                                  <node concept="3clFbS" id="1x1IHbNjv4n" role="3clFbx">
+                                    <node concept="3SKdUt" id="1x1IHbNjy96" role="3cqZAp">
+                                      <node concept="3SKdUq" id="1x1IHbNjy97" role="3SKWNk">
+                                        <property role="3SKdUp" value="go back to method that checks the timer" />
+                                      </node>
+                                    </node>
+                                    <node concept="3clFbF" id="1x1IHbNjwPq" role="3cqZAp">
+                                      <node concept="1rXfSq" id="1x1IHbNjwPo" role="3clFbG">
+                                        <ref role="37wK5l" node="4mTRct5iXSv" resolve="changeHappened" />
+                                        <node concept="37vLTw" id="1x1IHbNjxh8" role="37wK5m">
+                                          <ref role="3cqZAo" node="1Iyhq6EENj9" resolve="currentNode" />
+                                        </node>
+                                      </node>
+                                    </node>
+                                    <node concept="3cpWs6" id="1x1IHbNjxZ8" role="3cqZAp" />
+                                  </node>
+                                  <node concept="2OqwBi" id="1x1IHbNjw0c" role="3clFbw">
+                                    <node concept="2YIFZM" id="1x1IHbNjvyL" role="2Oq$k0">
+                                      <ref role="37wK5l" node="70iH0fuH0ga" resolve="getTool" />
+                                      <ref role="1Pybhc" node="70iH0fuE3fQ" resolve="Tool" />
+                                      <node concept="37vLTw" id="1x1IHbNjvUA" role="37wK5m">
+                                        <ref role="3cqZAo" node="55a1UmAltHP" resolve="project" />
+                                      </node>
+                                    </node>
+                                    <node concept="2XshWL" id="1x1IHbNjw9A" role="2OqNvi">
+                                      <ref role="2WH_rO" node="70iH0fuDsxz" resolve="isCompiling" />
+                                    </node>
+                                  </node>
+                                </node>
+                                <node concept="3clFbH" id="1x1IHbNjtKI" role="3cqZAp" />
                                 <node concept="3clFbJ" id="1e0sE7Qfm8D" role="3cqZAp">
                                   <node concept="3clFbS" id="1e0sE7Qfm8F" role="3clFbx">
                                     <node concept="3clFbF" id="1e0sE7QfnMI" role="3cqZAp">
@@ -4097,6 +4128,23 @@
                                 </node>
                                 <node concept="3clFbJ" id="1e0sE7Oxyyb" role="3cqZAp">
                                   <node concept="3clFbS" id="1e0sE7Oxyyd" role="3clFbx">
+                                    <node concept="3clFbF" id="2PDL853KFqp" role="3cqZAp">
+                                      <node concept="2OqwBi" id="2PDL853KFqq" role="3clFbG">
+                                        <node concept="2YIFZM" id="2PDL853KFqr" role="2Oq$k0">
+                                          <ref role="1Pybhc" node="70iH0fuE3fQ" resolve="Tool" />
+                                          <ref role="37wK5l" node="70iH0fuH0ga" resolve="getTool" />
+                                          <node concept="37vLTw" id="1x1IHbNj6Ev" role="37wK5m">
+                                            <ref role="3cqZAo" node="55a1UmAltHP" resolve="project" />
+                                          </node>
+                                        </node>
+                                        <node concept="2XshWL" id="2PDL853KFqv" role="2OqNvi">
+                                          <ref role="2WH_rO" node="70iH0fuDtqm" resolve="setCompiling" />
+                                          <node concept="3clFbT" id="2PDL853KFqw" role="2XxRq1">
+                                            <property role="3clFbU" value="true" />
+                                          </node>
+                                        </node>
+                                      </node>
+                                    </node>
                                     <node concept="3clFbF" id="7B51G8WblqY" role="3cqZAp">
                                       <node concept="2OqwBi" id="1Iyhq6EEOri" role="3clFbG">
                                         <node concept="37vLTw" id="19XLMXSci6P" role="2Oq$k0">
@@ -10023,26 +10071,6 @@
                           </node>
                         </node>
                         <node concept="3clFbS" id="3zqZiqBQ$kF" role="3clF47">
-                          <node concept="3clFbF" id="2PDL853KFqp" role="3cqZAp">
-                            <node concept="2OqwBi" id="2PDL853KFqq" role="3clFbG">
-                              <node concept="2YIFZM" id="2PDL853KFqr" role="2Oq$k0">
-                                <ref role="37wK5l" node="70iH0fuH0ga" resolve="getTool" />
-                                <ref role="1Pybhc" node="70iH0fuE3fQ" resolve="Tool" />
-                                <node concept="2OqwBi" id="2PDL853KFqs" role="37wK5m">
-                                  <node concept="2WthIp" id="2PDL853KFqt" role="2Oq$k0" />
-                                  <node concept="1DTwFV" id="2PDL853KFqu" role="2OqNvi">
-                                    <ref role="2WH_rO" node="2PDL853KFuR" resolve="project" />
-                                  </node>
-                                </node>
-                              </node>
-                              <node concept="2XshWL" id="2PDL853KFqv" role="2OqNvi">
-                                <ref role="2WH_rO" node="70iH0fuDtqm" resolve="setCompiling" />
-                                <node concept="3clFbT" id="2PDL853KFqw" role="2XxRq1">
-                                  <property role="3clFbU" value="true" />
-                                </node>
-                              </node>
-                            </node>
-                          </node>
                           <node concept="3cpWs8" id="3zqZiqBQ$kG" role="3cqZAp">
                             <node concept="3cpWsn" id="3zqZiqBQ$kH" role="3cpWs9">
                               <property role="3TUv4t" value="true" />
