@@ -41,6 +41,7 @@
     <import index="z1c3" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.project(MPS.Core/)" />
     <import index="alof" ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61/java:jetbrains.mps.ide.project(MPS.Platform/)" />
     <import index="69j5" ref="r:cc2fd9c1-53e7-4805-a8bc-a07e69f2147b(org.campagnelab.metar.R.behavior)" />
+    <import index="sg20" ref="r:e17021d0-0144-4c70-acef-a4d3f9c3fa3b(org.campagnelab.instantrefresh.structure)" implicit="true" />
     <import index="k6y1" ref="r:eeed3f2f-0d6f-41a1-91c7-0fff65bede58(org.campagnelab.instantrefresh.behavior)" implicit="true" />
     <import index="fly8" ref="r:0dcf4c62-2291-4316-969f-47e1828e2475(org.campagnelab.metar.code.scopes)" implicit="true" />
     <import index="c17a" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.language(MPS.OpenAPI/)" implicit="true" />
@@ -3470,14 +3471,14 @@
         <node concept="3clFbF" id="7LvyiX3Sufw" role="3cqZAp">
           <node concept="2OqwBi" id="7LvyiX3S_UZ" role="3clFbG">
             <node concept="1PxgMI" id="7LvyiX3Sxrw" role="2Oq$k0">
-              <ref role="1PxNhF" to="jrxw:7LvyiX4miiC" resolve="Statement" />
+              <ref role="1PxNhF" to="sg20:15COMTnnsmm" resolve="IAtomic" />
               <node concept="2OqwBi" id="7LvyiX3Swv2" role="1PxMeX">
                 <node concept="13iPFW" id="6WPhx9njOeJ" role="2Oq$k0" />
                 <node concept="1mfA1w" id="7LvyiX3Sx2k" role="2OqNvi" />
               </node>
             </node>
-            <node concept="3TrcHB" id="5hNeoNqSAn" role="2OqNvi">
-              <ref role="3TsBF5" to="jrxw:7LvyiX4miiD" resolve="id" />
+            <node concept="2qgKlT" id="16Z5RhQMGjf" role="2OqNvi">
+              <ref role="37wK5l" to="k6y1:hlbLQwkRFj" resolve="id" />
             </node>
           </node>
         </node>
@@ -21151,8 +21152,8 @@
                 </node>
               </node>
               <node concept="2OqwBi" id="7tHgX0wOSq4" role="3uHU7w">
-                <node concept="3TrcHB" id="26cpLhkGpEl" role="2OqNvi">
-                  <ref role="3TsBF5" to="jrxw:7LvyiX4miiD" resolve="id" />
+                <node concept="2qgKlT" id="16Z5RhQMxnt" role="2OqNvi">
+                  <ref role="37wK5l" to="k6y1:hlbLQwkRFj" resolve="id" />
                 </node>
                 <node concept="13iPFW" id="7tHgX0wOSq5" role="2Oq$k0" />
               </node>
