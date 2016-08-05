@@ -2819,14 +2819,14 @@
     </node>
   </node>
   <node concept="2S6QgY" id="15COMTnnuK8">
-    <property role="TrG5h" value="ShowEffectedExpressionsRScript" />
+    <property role="TrG5h" value="ShowEffectedStatementsRScript" />
     <property role="2ZfUl0" value="true" />
     <ref role="2ZfgGC" to="6q58:5mPDeVwiPap" resolve="Expr" />
     <node concept="2S6ZIM" id="15COMTnnuK9" role="2ZfVej">
       <node concept="3clFbS" id="15COMTnnuKa" role="2VODD2">
         <node concept="3clFbF" id="15COMTnnuKb" role="3cqZAp">
           <node concept="Xl_RD" id="15COMTnnuKc" role="3clFbG">
-            <property role="Xl_RC" value="Show Expressions That Would Be Effected by a Change (RScript)" />
+            <property role="Xl_RC" value="Show Statements That Would Be Affected by a Change (RScript)" />
           </node>
         </node>
       </node>
