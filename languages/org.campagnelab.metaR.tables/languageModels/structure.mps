@@ -858,6 +858,9 @@
     <property role="TrG5h" value="PlotRefWithPreview" />
     <property role="1pbfSe" value="357768277" />
     <ref role="1TJDcQ" node="2GnvTFE7ITW" resolve="PlotRef" />
+    <node concept="PrWs8" id="21DQECc$kIL" role="PzmwI">
+      <ref role="PrY4T" to="sg20:15COMTnnsmm" resolve="IAtomic" />
+    </node>
   </node>
   <node concept="1TIwiD" id="7LvyiX3EFhY">
     <property role="TrG5h" value="StatementList" />

@@ -83,6 +83,8 @@
       </concept>
       <concept id="1186414860679" name="jetbrains.mps.lang.editor.structure.EditableStyleClassItem" flags="ln" index="VPxyj" />
       <concept id="1186414928363" name="jetbrains.mps.lang.editor.structure.SelectableStyleSheetItem" flags="ln" index="VPM3Z" />
+      <concept id="1186414949600" name="jetbrains.mps.lang.editor.structure.AutoDeletableStyleClassItem" flags="ln" index="VPRnO" />
+      <concept id="1214406454886" name="jetbrains.mps.lang.editor.structure.TextBackgroundColorStyleClassItem" flags="ln" index="30gYXW" />
       <concept id="1233758997495" name="jetbrains.mps.lang.editor.structure.PunctuationLeftStyleClassItem" flags="ln" index="11L4FC" />
       <concept id="1233759184865" name="jetbrains.mps.lang.editor.structure.PunctuationRightStyleClassItem" flags="ln" index="11LMrY" />
       <concept id="1081293058843" name="jetbrains.mps.lang.editor.structure.CellKeyMapDeclaration" flags="ig" index="325Ffw">
@@ -2633,8 +2635,17 @@
   </node>
   <node concept="24kQdi" id="1e0sE7PoAUi">
     <ref role="1XX52x" to="6q58:1e0sE7PoAUb" resolve="PauseInstantRefresh" />
-    <node concept="PMmxH" id="1e0sE7PoAUk" role="2wV5jI">
-      <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
+    <node concept="3EZMnI" id="21DQECcCZWA" role="2wV5jI">
+      <node concept="3F0ifn" id="21DQECcCZWH" role="3EZMnx">
+        <property role="3F0ifm" value=".. pause instant refresh .." />
+        <node concept="VPRnO" id="21DQECcDlc4" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="30gYXW" id="21DQECcD01N" role="3F10Kt">
+          <property role="Vb096" value="pink" />
+        </node>
+      </node>
+      <node concept="l2Vlx" id="21DQECcCZWD" role="2iSdaV" />
     </node>
   </node>
   <node concept="24kQdi" id="50lwYX0VuWB">

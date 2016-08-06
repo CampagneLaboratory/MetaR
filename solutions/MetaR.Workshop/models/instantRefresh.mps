@@ -116,6 +116,7 @@
         <child id="2267681875390710618" name="importedPackages" index="2TeiZW" />
       </concept>
       <concept id="2912443156784144894" name="org.campagnelab.metar.R.structure.SaveSession" flags="ng" index="3$Mv9w" />
+      <concept id="1405249123671764619" name="org.campagnelab.metar.R.structure.PauseInstantRefresh" flags="ng" index="3ASxKE" />
       <concept id="1499760628227103368" name="org.campagnelab.metar.R.structure.IdentifierRef" flags="ng" index="1LhYbg">
         <reference id="1499760628227131747" name="id" index="1Li74V" />
       </concept>
@@ -1891,7 +1892,6 @@
         <ref role="1Li74V" node="4Nx8wsWVFw9" resolve="installOrLoad" />
       </node>
     </node>
-    <node concept="3cU4HJ" id="4Nx8wsWRQlj" role="pZjJ2" />
     <node concept="2PZJp4" id="1e0sE7Rxaud" role="pZjJ2">
       <node concept="2PZJpp" id="1e0sE7RAtIB" role="2v3mow">
         <property role="TrG5h" value="data.dir" />
@@ -3296,7 +3296,7 @@
                 <property role="gNbhX" value="x" />
                 <ref role="eUkdk" to="4tsn:364jCCZZ0XT" resolve="x" />
                 <node concept="2PZJpm" id="4Nx8wsWTksN" role="gNbhV">
-                  <property role="pzxGI" value="0.3" />
+                  <property role="pzxGI" value="0.5" />
                 </node>
               </node>
             </node>
@@ -3355,6 +3355,7 @@
         </node>
       </node>
     </node>
+    <node concept="3ASxKE" id="4k8fdHT6YLS" role="pZjJ2" />
     <node concept="1Nzj65" id="7B51G8X_HOs" role="pZjJ2">
       <node concept="313sG1" id="7B51G8X_HYt" role="1Nzj64">
         <property role="S1EQ6" value="HCDFAUKITO" />
