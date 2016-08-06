@@ -2556,14 +2556,14 @@
     </node>
   </node>
   <node concept="2S6QgY" id="L2v$sdbxG6">
-    <property role="TrG5h" value="ShowEffectedStatements" />
+    <property role="TrG5h" value="ShowAffectedStatements" />
     <property role="2ZfUl0" value="true" />
     <ref role="2ZfgGC" to="jrxw:7LvyiX4miiC" resolve="Statement" />
     <node concept="2S6ZIM" id="L2v$sdbxG7" role="2ZfVej">
       <node concept="3clFbS" id="L2v$sdbxG8" role="2VODD2">
         <node concept="3clFbF" id="L2v$sdbxOe" role="3cqZAp">
           <node concept="Xl_RD" id="L2v$sdbxOd" role="3clFbG">
-            <property role="Xl_RC" value="Show Statements That Would Be Effected by a Change" />
+            <property role="Xl_RC" value="Show Statements That Would Be Affected by a Change" />
           </node>
         </node>
       </node>
@@ -2757,14 +2757,14 @@
     </node>
   </node>
   <node concept="2S6QgY" id="L2v$sdgoAx">
-    <property role="TrG5h" value="ClearEffectedStatements" />
+    <property role="TrG5h" value="ClearAffectedStatements" />
     <property role="2ZfUl0" value="true" />
     <ref role="2ZfgGC" to="jrxw:7LvyiX4mii$" resolve="Analysis" />
     <node concept="2S6ZIM" id="L2v$sdgoAy" role="2ZfVej">
       <node concept="3clFbS" id="L2v$sdgoAz" role="2VODD2">
         <node concept="3clFbF" id="2xF4TVcWVf8" role="3cqZAp">
           <node concept="Xl_RD" id="2xF4TVcWVfa" role="3clFbG">
-            <property role="Xl_RC" value="Remove Markers for Effected Statements" />
+            <property role="Xl_RC" value="Remove Markers for Affected Statements" />
           </node>
         </node>
       </node>
@@ -2819,7 +2819,7 @@
     </node>
   </node>
   <node concept="2S6QgY" id="15COMTnnuK8">
-    <property role="TrG5h" value="ShowEffectedStatementsRScript" />
+    <property role="TrG5h" value="ShowAffectedStatementsRScript" />
     <property role="2ZfUl0" value="true" />
     <ref role="2ZfgGC" to="6q58:5mPDeVwiPap" resolve="Expr" />
     <node concept="2S6ZIM" id="15COMTnnuK9" role="2ZfVej">
@@ -3024,14 +3024,14 @@
     </node>
   </node>
   <node concept="2S6QgY" id="15COMTn$kE1">
-    <property role="TrG5h" value="ClearEffectedExpression" />
+    <property role="TrG5h" value="ClearAffectedExpression" />
     <property role="2ZfUl0" value="true" />
     <ref role="2ZfgGC" to="6q58:5mPDeVwiJFe" resolve="RScript" />
     <node concept="2S6ZIM" id="15COMTn$kE2" role="2ZfVej">
       <node concept="3clFbS" id="15COMTn$kE3" role="2VODD2">
         <node concept="3clFbF" id="15COMTn$kE4" role="3cqZAp">
           <node concept="Xl_RD" id="15COMTn$kE5" role="3clFbG">
-            <property role="Xl_RC" value="Remove Markers for Effected Expressions" />
+            <property role="Xl_RC" value="Remove Markers for Affected Expressions" />
           </node>
         </node>
       </node>
