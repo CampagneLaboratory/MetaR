@@ -2032,7 +2032,7 @@
     </node>
   </node>
   <node concept="WtQ9Q" id="4KQKRH2t1y_">
-    <property role="3GE5qa" value="operators" />
+    <property role="3GE5qa" value="operators.user" />
     <ref role="WuzLi" to="6q58:4KQKRH2qvQL" resolve="UserOperator" />
     <node concept="11bSqf" id="4KQKRH2t1yA" role="11c4hB">
       <node concept="3clFbS" id="4KQKRH2t1yB" role="2VODD2">

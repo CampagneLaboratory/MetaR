@@ -2623,7 +2623,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="4KQKRH2qvQT">
-    <property role="3GE5qa" value="operators" />
+    <property role="3GE5qa" value="operators.user" />
     <ref role="1XX52x" to="6q58:4KQKRH2qvQL" resolve="UserOperator" />
     <node concept="3EZMnI" id="4KQKRH2qvQV" role="2wV5jI">
       <node concept="3F0ifn" id="4KQKRH2qvR2" role="3EZMnx">
