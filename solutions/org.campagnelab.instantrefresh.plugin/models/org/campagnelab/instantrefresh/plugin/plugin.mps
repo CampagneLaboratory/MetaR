@@ -6920,6 +6920,11 @@
     <node concept="2XrIbr" id="70iH0fuDtqm" role="2XNbBy">
       <property role="TrG5h" value="setCompiling" />
       <node concept="3clFbS" id="70iH0fuDtqn" role="3clF47">
+        <node concept="3SKdUt" id="2fZJWRlqGSx" role="3cqZAp">
+          <node concept="3SKdUq" id="2fZJWRlqGSz" role="3SKWNk">
+            <property role="3SKdUp" value="the compiling flag indicates that the tool is currently compiling/executing the script." />
+          </node>
+        </node>
         <node concept="3clFbF" id="70iH0fuG4_g" role="3cqZAp">
           <node concept="2OqwBi" id="70iH0fuG4Gk" role="3clFbG">
             <node concept="2OqwBi" id="70iH0fuG4Ay" role="2Oq$k0">

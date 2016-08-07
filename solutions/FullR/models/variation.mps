@@ -74,7 +74,6 @@
         <child id="489068675546663434" name="expression" index="22sOXk" />
         <child id="489068675546663431" name="operator" index="22sOXp" />
       </concept>
-      <concept id="6176023809880707737" name="org.campagnelab.metar.R.structure.Expr" flags="ng" index="2PZJpR" />
       <concept id="6176023809880685262" name="org.campagnelab.metar.R.structure.RScript" flags="ng" index="2PZPSw" />
       <concept id="6176023809880685261" name="org.campagnelab.metar.R.structure.Prog" flags="ng" index="2PZPSz">
         <child id="1229604057017832866" name="expressions" index="pZjJ2" />
@@ -1199,11 +1198,7 @@
                     <node concept="V6WaX" id="1f8zov0f9YI" role="gNbrm">
                       <property role="gNbhX" value="n" />
                       <node concept="2PZJp2" id="1f8zov0f9YL" role="gNbhV">
-                        <node concept="gNbv0" id="1f8zov0f9YR" role="134Gdu">
-                          <node concept="V6WaU" id="7LpMZ3Eyvgf" role="gNbrm">
-                            <node concept="2PZJpR" id="7LpMZ3Eyvgh" role="gNbhV" />
-                          </node>
-                        </node>
+                        <node concept="gNbv0" id="1f8zov0f9YR" role="134Gdu" />
                         <node concept="3a69Ir" id="7LpMZ3Eyvge" role="134Gdo">
                           <ref role="3a69Pm" to="4tsn:2M8$bhgTB3M" />
                           <ref role="1Li74V" to="4tsn:2M8$bhgTB3L" resolve="n" />
@@ -1640,21 +1635,8 @@
             <ref role="1Li74V" to="4tsn:364jCD09Enj" resolve="head" />
           </node>
         </node>
-        <node concept="2PZJp2" id="7LpMZ3EyuLm" role="13u1kV">
-          <node concept="gNbv0" id="7LpMZ3EyuLs" role="134Gdu" />
-          <node concept="3a69Ir" id="7LpMZ3Eyvgn" role="134Gdo">
-            <ref role="3a69Pm" to="4tsn:1yhT8VTIyLp" />
-            <ref role="1Li74V" to="4tsn:1yhT8VTIyLo" resolve="c" />
-          </node>
-        </node>
-        <node concept="2PZJp2" id="7LpMZ3EybR7" role="13u1kV">
-          <node concept="gNbv0" id="7LpMZ3EybRd" role="134Gdu" />
-          <node concept="3a69Ir" id="7LpMZ3EybX$" role="134Gdo">
-            <ref role="3a69Pm" to="4tsn:1yhT8VTIyLp" />
-            <ref role="1Li74V" to="4tsn:1yhT8VTIyLo" resolve="c" />
-          </node>
-        </node>
-        <node concept="3cU4HJ" id="1f8zov0fagu" role="13u1kV" />
+        <node concept="3cU4HJ" id="2fZJWRls6O4" role="13u1kV" />
+        <node concept="3cU4HJ" id="2fZJWRls76Q" role="13u1kV" />
         <node concept="2Tel4U" id="2M8$bhgT$6H" role="2TeiZW" />
         <node concept="2Tel4U" id="2M8$bhgTBY6" role="2TeiZW">
           <property role="TrG5h" value="dplyr" />
