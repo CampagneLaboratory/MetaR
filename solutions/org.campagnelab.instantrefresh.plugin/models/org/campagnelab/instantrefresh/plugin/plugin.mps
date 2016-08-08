@@ -4793,50 +4793,6 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbF" id="52J4nYvLguz" role="3cqZAp">
-          <node concept="2OqwBi" id="52J4nYvLgzH" role="3clFbG">
-            <node concept="2YIFZM" id="52J4nYvLgu_" role="2Oq$k0">
-              <ref role="37wK5l" node="52J4nYvLbEh" resolve="getRSessionFiles" />
-              <ref role="1Pybhc" node="7d3kpy2arRt" resolve="Helper" />
-              <node concept="2OqwBi" id="52J4nYvLguA" role="37wK5m">
-                <node concept="37vLTw" id="1e0sE7QeKoF" role="2Oq$k0">
-                  <ref role="3cqZAo" node="1e0sE7QeGD6" resolve="root" />
-                </node>
-                <node concept="2qgKlT" id="52J4nYvLguC" role="2OqNvi">
-                  <ref role="37wK5l" to="n1uf:7klrZ4rJNMW" resolve="getResultsDir" />
-                </node>
-              </node>
-              <node concept="2OqwBi" id="1e0sE7QeKNL" role="37wK5m">
-                <node concept="37vLTw" id="1e0sE7QeKA$" role="2Oq$k0">
-                  <ref role="3cqZAo" node="4mTRct5iDpl" resolve="event" />
-                </node>
-                <node concept="liA8E" id="1e0sE7QeKVu" role="2OqNvi">
-                  <ref role="37wK5l" to="cmfw:~SNodeRemoveEvent.getModel():org.jetbrains.mps.openapi.model.SModel" resolve="getModel" />
-                </node>
-              </node>
-            </node>
-            <node concept="2es0OD" id="52J4nYvLgF3" role="2OqNvi">
-              <node concept="1bVj0M" id="52J4nYvLgF5" role="23t8la">
-                <node concept="3clFbS" id="52J4nYvLgF6" role="1bW5cS">
-                  <node concept="3clFbF" id="52J4nYvLgJx" role="3cqZAp">
-                    <node concept="2OqwBi" id="52J4nYvLgN$" role="3clFbG">
-                      <node concept="37vLTw" id="52J4nYvLgJw" role="2Oq$k0">
-                        <ref role="3cqZAo" node="52J4nYvLgF7" resolve="it" />
-                      </node>
-                      <node concept="liA8E" id="52J4nYvLgVn" role="2OqNvi">
-                        <ref role="37wK5l" to="guwi:~File.delete():boolean" resolve="delete" />
-                      </node>
-                    </node>
-                  </node>
-                </node>
-                <node concept="Rh6nW" id="52J4nYvLgF7" role="1bW2Oz">
-                  <property role="TrG5h" value="it" />
-                  <node concept="2jxLKc" id="52J4nYvLgF8" role="1tU5fm" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
         <node concept="3clFbF" id="1e0sE7QfuTQ" role="3cqZAp">
           <node concept="37vLTI" id="1e0sE7Qfvue" role="3clFbG">
             <node concept="2OqwBi" id="1e0sE7Qfv9l" role="37vLTJ">
