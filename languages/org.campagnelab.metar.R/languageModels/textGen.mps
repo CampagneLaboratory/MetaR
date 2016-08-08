@@ -2105,8 +2105,8 @@
               </node>
               <node concept="l9hG8" id="1x1IHbNTqIO" role="lcghm">
                 <node concept="2OqwBi" id="1x1IHbNTqMz" role="lb14g">
-                  <node concept="3TrcHB" id="1x1IHbNTqQV" role="2OqNvi">
-                    <ref role="3TsBF5" to="6q58:1x1IHbNToun" resolve="libraryName" />
+                  <node concept="3TrcHB" id="69$zvkLs4zE" role="2OqNvi">
+                    <ref role="3TsBF5" to="6q58:1x1IHbNToup" resolve="repo" />
                   </node>
                   <node concept="117lpO" id="1x1IHbNTqKv" role="2Oq$k0" />
                 </node>
