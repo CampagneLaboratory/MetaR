@@ -2060,12 +2060,6 @@
     <ref role="WuzLi" to="6q58:2xF4TVcCI7Y" resolve="SaveSession" />
     <node concept="11bSqf" id="2xF4TVcGsL2" role="11c4hB">
       <node concept="3clFbS" id="2xF4TVcGsL3" role="2VODD2">
-        <node concept="lc7rE" id="2xF4TVcGHf0" role="3cqZAp">
-          <node concept="la8eA" id="2xF4TVcGHhu" role="lcghm">
-            <property role="lacIc" value="require(&quot;session&quot;)" />
-          </node>
-          <node concept="l8MVK" id="2xF4TVcGIaa" role="lcghm" />
-        </node>
         <node concept="lc7rE" id="2xF4TVcGsLf" role="3cqZAp">
           <node concept="la8eA" id="2xF4TVcGsLt" role="lcghm">
             <property role="lacIc" value="save.image(&quot;" />
@@ -2111,10 +2105,10 @@
               </node>
               <node concept="l9hG8" id="1x1IHbNTqIO" role="lcghm">
                 <node concept="2OqwBi" id="1x1IHbNTqMz" role="lb14g">
-                  <node concept="117lpO" id="1x1IHbNTqKv" role="2Oq$k0" />
                   <node concept="3TrcHB" id="1x1IHbNTqQV" role="2OqNvi">
                     <ref role="3TsBF5" to="6q58:1x1IHbNToun" resolve="libraryName" />
                   </node>
+                  <node concept="117lpO" id="1x1IHbNTqKv" role="2Oq$k0" />
                 </node>
               </node>
               <node concept="la8eA" id="1x1IHbNTqTv" role="lcghm">
