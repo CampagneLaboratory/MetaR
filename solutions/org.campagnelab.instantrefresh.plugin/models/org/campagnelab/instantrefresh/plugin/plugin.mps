@@ -650,6 +650,7 @@
       <concept id="1153944233411" name="jetbrains.mps.baseLanguage.collections.structure.ForEachVariableReference" flags="nn" index="2GrUjf">
         <reference id="1153944258490" name="variable" index="2Gs0qQ" />
       </concept>
+      <concept id="1235566554328" name="jetbrains.mps.baseLanguage.collections.structure.AnyOperation" flags="nn" index="2HwmR7" />
       <concept id="1235573135402" name="jetbrains.mps.baseLanguage.collections.structure.SingletonSequenceCreator" flags="nn" index="2HTt$P">
         <child id="1235573175711" name="elementType" index="2HTBi0" />
         <child id="1235573187520" name="singletonValue" index="2HTEbv" />
@@ -681,6 +682,10 @@
       <concept id="1197686869805" name="jetbrains.mps.baseLanguage.collections.structure.HashMapCreator" flags="nn" index="3rGOSV">
         <child id="1197687026896" name="keyType" index="3rHrn6" />
         <child id="1197687035757" name="valueType" index="3rHtpV" />
+      </concept>
+      <concept id="1225621920911" name="jetbrains.mps.baseLanguage.collections.structure.InsertElementOperation" flags="nn" index="1sK_Qi">
+        <child id="1225621943565" name="element" index="1sKFgg" />
+        <child id="1225621960341" name="index" index="1sKJu8" />
       </concept>
       <concept id="1165525191778" name="jetbrains.mps.baseLanguage.collections.structure.GetFirstOperation" flags="nn" index="1uHKPH" />
       <concept id="1240687580870" name="jetbrains.mps.baseLanguage.collections.structure.JoinOperation" flags="nn" index="3uJxvA">
@@ -12064,7 +12069,73 @@
                                     </node>
                                   </node>
                                 </node>
-                                <node concept="3clFbH" id="69$zvkLqL_A" role="3cqZAp" />
+                                <node concept="3clFbH" id="69$zvkLybdP" role="3cqZAp" />
+                                <node concept="3SKdUt" id="69$zvkLyuJ4" role="3cqZAp">
+                                  <node concept="3SKdUq" id="69$zvkLyuJ5" role="3SKWNk">
+                                    <property role="3SKdUp" value="FIXME this code is a duplicate of code in AddInstallOrLoadFunction" />
+                                  </node>
+                                </node>
+                                <node concept="3clFbJ" id="69$zvkLyeL2" role="3cqZAp">
+                                  <node concept="3clFbS" id="69$zvkLyeL4" role="3clFbx">
+                                    <node concept="3clFbF" id="69$zvkLyn3V" role="3cqZAp">
+                                      <node concept="2OqwBi" id="1x1IHbNTx_F" role="3clFbG">
+                                        <node concept="2OqwBi" id="1x1IHbNTwME" role="2Oq$k0">
+                                          <node concept="37vLTw" id="69$zvkLynJ3" role="2Oq$k0">
+                                            <ref role="3cqZAo" node="hlbLQwqQch" resolve="exprList" />
+                                          </node>
+                                          <node concept="3Tsc0h" id="69$zvkLypz5" role="2OqNvi">
+                                            <ref role="3TtcxE" to="6q58:3ft5eLKDg7n" />
+                                          </node>
+                                        </node>
+                                        <node concept="1sK_Qi" id="1x1IHbNTynM" role="2OqNvi">
+                                          <node concept="3cmrfG" id="1x1IHbNTytY" role="1sKJu8">
+                                            <property role="3cmrfH" value="0" />
+                                          </node>
+                                          <node concept="2ShNRf" id="1x1IHbNTy$3" role="1sKFgg">
+                                            <node concept="3zrR0B" id="1x1IHbNTyLM" role="2ShVmc">
+                                              <node concept="3Tqbb2" id="1x1IHbNTyLO" role="3zrR0E">
+                                                <ref role="ehGHo" to="6q58:1x1IHbNTqVm" resolve="InstallOrLoadFunction" />
+                                              </node>
+                                            </node>
+                                          </node>
+                                        </node>
+                                      </node>
+                                    </node>
+                                  </node>
+                                  <node concept="2OqwBi" id="69$zvkLyj80" role="3clFbw">
+                                    <node concept="2OqwBi" id="69$zvkLyfYg" role="2Oq$k0">
+                                      <node concept="37vLTw" id="69$zvkLyfoA" role="2Oq$k0">
+                                        <ref role="3cqZAo" node="1x1IHbNUAws" resolve="script" />
+                                      </node>
+                                      <node concept="2qgKlT" id="1x1IHbNTuU7" role="2OqNvi">
+                                        <ref role="37wK5l" to="69j5:15COMTn$hOi" resolve="getExpressionsRecursively" />
+                                      </node>
+                                    </node>
+                                    <node concept="2HwmR7" id="69$zvkLykQk" role="2OqNvi">
+                                      <node concept="1bVj0M" id="69$zvkLykQm" role="23t8la">
+                                        <node concept="3clFbS" id="69$zvkLykQn" role="1bW5cS">
+                                          <node concept="3clFbF" id="69$zvkLylY4" role="3cqZAp">
+                                            <node concept="2OqwBi" id="1x1IHbNTwfi" role="3clFbG">
+                                              <node concept="37vLTw" id="1x1IHbNTwah" role="2Oq$k0">
+                                                <ref role="3cqZAo" node="69$zvkLykQo" resolve="it" />
+                                              </node>
+                                              <node concept="1mIQ4w" id="1x1IHbNTwlf" role="2OqNvi">
+                                                <node concept="chp4Y" id="1x1IHbNTwp2" role="cj9EA">
+                                                  <ref role="cht4Q" to="6q58:2xF4TVcCI7Y" resolve="SaveSession" />
+                                                </node>
+                                              </node>
+                                            </node>
+                                          </node>
+                                        </node>
+                                        <node concept="Rh6nW" id="69$zvkLykQo" role="1bW2Oz">
+                                          <property role="TrG5h" value="it" />
+                                          <node concept="2jxLKc" id="69$zvkLykQp" role="1tU5fm" />
+                                        </node>
+                                      </node>
+                                    </node>
+                                  </node>
+                                </node>
+                                <node concept="3clFbH" id="69$zvkLy83w" role="3cqZAp" />
                                 <node concept="3clFbF" id="hlbLQwqSG2" role="3cqZAp">
                                   <node concept="2OqwBi" id="hlbLQwqTZl" role="3clFbG">
                                     <node concept="2OqwBi" id="hlbLQwqSZs" role="2Oq$k0">
