@@ -54,6 +54,7 @@
       </concept>
     </language>
     <language id="b401a680-8325-4110-8fd3-84331ff25bef" name="jetbrains.mps.lang.generator">
+      <concept id="1202776937179" name="jetbrains.mps.lang.generator.structure.AbandonInput_RuleConsequence" flags="lg" index="b5Tf3" />
       <concept id="1095416546421" name="jetbrains.mps.lang.generator.structure.MappingConfiguration" flags="ig" index="bUwia">
         <child id="1167328349397" name="reductionMappingRule" index="3acgRq" />
         <child id="1195502100749" name="preMappingScript" index="1puA0r" />
@@ -174,6 +175,10 @@
       <node concept="j$656" id="6efZaUgQ0R6" role="1lVwrX">
         <ref role="v9R2y" node="5HtHr3DJtI3" resolve="reduce_Stubs" />
       </node>
+    </node>
+    <node concept="3aamgX" id="69$zvkLp4mB" role="3acgRq">
+      <ref role="30HIoZ" to="6q58:1e0sE7PoAUb" resolve="PauseInstantRefresh" />
+      <node concept="b5Tf3" id="69$zvkLp4mH" role="1lVwrX" />
     </node>
   </node>
   <node concept="13MO4I" id="5HtHr3DJtI3">
