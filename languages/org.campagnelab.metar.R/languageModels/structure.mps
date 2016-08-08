@@ -1415,5 +1415,28 @@
     <property role="1pbfSe" value="202202454" />
     <property role="TrG5h" value="IExprList" />
   </node>
+  <node concept="1TIwiD" id="1x1IHbNToum">
+    <property role="1pbfSe" value="203899496" />
+    <property role="34LRSv" value="installOrLoad" />
+    <property role="R4oN_" value="install and/or load a package" />
+    <property role="TrG5h" value="InstallOrLoad" />
+    <ref role="1TJDcQ" node="5mPDeVwiPap" resolve="Expr" />
+    <node concept="1TJgyi" id="1x1IHbNToun" role="1TKVEl">
+      <property role="TrG5h" value="libraryName" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="1x1IHbNToup" role="1TKVEl">
+      <property role="TrG5h" value="repo" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="1x1IHbNTqVm">
+    <property role="1pbfSe" value="203909544" />
+    <property role="TrG5h" value="InstallOrLoadFunction" />
+    <ref role="1TJDcQ" node="5mPDeVwiPap" resolve="Expr" />
+    <node concept="PrWs8" id="1x1IHbNTqVn" role="PzmwI">
+      <ref role="PrY4T" to="tpck:1_TrU5E6oyb" resolve="IDontSubstituteByDefault" />
+    </node>
+  </node>
 </model>
 

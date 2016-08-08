@@ -47,6 +47,7 @@
       </concept>
       <concept id="1068498886294" name="jetbrains.mps.baseLanguage.structure.AssignmentExpression" flags="nn" index="37vLTI" />
       <concept id="1225271177708" name="jetbrains.mps.baseLanguage.structure.StringType" flags="in" index="17QB3L" />
+      <concept id="1225271408483" name="jetbrains.mps.baseLanguage.structure.IsNotEmptyOperation" flags="nn" index="17RvpY" />
       <concept id="4972933694980447171" name="jetbrains.mps.baseLanguage.structure.BaseVariableDeclaration" flags="ng" index="19Szcq">
         <child id="5680397130376446158" name="type" index="1tU5fm" />
       </concept>
@@ -2082,6 +2083,85 @@
           </node>
           <node concept="la8eA" id="4Nx8wsWV0fB" role="lcghm">
             <property role="lacIc" value="\n" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="WtQ9Q" id="1x1IHbNToBH">
+    <ref role="WuzLi" to="6q58:1x1IHbNToum" resolve="InstallOrLoad" />
+    <node concept="11bSqf" id="1x1IHbNToBK" role="11c4hB">
+      <node concept="3clFbS" id="1x1IHbNToBL" role="2VODD2">
+        <node concept="3clFbJ" id="1x1IHbNTqiY" role="3cqZAp">
+          <node concept="3clFbS" id="1x1IHbNTqj0" role="3clFbx">
+            <node concept="lc7rE" id="1x1IHbNToWM" role="3cqZAp">
+              <node concept="la8eA" id="1x1IHbNToX0" role="lcghm">
+                <property role="lacIc" value="installOrLoad(&quot;" />
+              </node>
+              <node concept="l9hG8" id="1x1IHbNToYa" role="lcghm">
+                <node concept="2OqwBi" id="1x1IHbNTp0Z" role="lb14g">
+                  <node concept="117lpO" id="1x1IHbNToYV" role="2Oq$k0" />
+                  <node concept="3TrcHB" id="1x1IHbNTp5n" role="2OqNvi">
+                    <ref role="3TsBF5" to="6q58:1x1IHbNToun" resolve="libraryName" />
+                  </node>
+                </node>
+              </node>
+              <node concept="la8eA" id="1x1IHbNTqgT" role="lcghm">
+                <property role="lacIc" value="&quot;,&quot;" />
+              </node>
+              <node concept="l9hG8" id="1x1IHbNTqIO" role="lcghm">
+                <node concept="2OqwBi" id="1x1IHbNTqMz" role="lb14g">
+                  <node concept="117lpO" id="1x1IHbNTqKv" role="2Oq$k0" />
+                  <node concept="3TrcHB" id="1x1IHbNTqQV" role="2OqNvi">
+                    <ref role="3TsBF5" to="6q58:1x1IHbNToun" resolve="libraryName" />
+                  </node>
+                </node>
+              </node>
+              <node concept="la8eA" id="1x1IHbNTqTv" role="lcghm">
+                <property role="lacIc" value="&quot;)" />
+              </node>
+            </node>
+          </node>
+          <node concept="2OqwBi" id="1x1IHbNTqw6" role="3clFbw">
+            <node concept="2OqwBi" id="1x1IHbNTqmj" role="2Oq$k0">
+              <node concept="117lpO" id="1x1IHbNTqkg" role="2Oq$k0" />
+              <node concept="3TrcHB" id="1x1IHbNTqq8" role="2OqNvi">
+                <ref role="3TsBF5" to="6q58:1x1IHbNToun" resolve="libraryName" />
+              </node>
+            </node>
+            <node concept="17RvpY" id="1x1IHbNTqAl" role="2OqNvi" />
+          </node>
+          <node concept="9aQIb" id="1x1IHbNTqEA" role="9aQIa">
+            <node concept="3clFbS" id="1x1IHbNTqEB" role="9aQI4">
+              <node concept="lc7rE" id="1x1IHbNTqFS" role="3cqZAp">
+                <node concept="la8eA" id="1x1IHbNTqFT" role="lcghm">
+                  <property role="lacIc" value="installOrLoad(&quot;" />
+                </node>
+                <node concept="l9hG8" id="1x1IHbNTqFU" role="lcghm">
+                  <node concept="2OqwBi" id="1x1IHbNTqFV" role="lb14g">
+                    <node concept="117lpO" id="1x1IHbNTqFW" role="2Oq$k0" />
+                    <node concept="3TrcHB" id="1x1IHbNTqFX" role="2OqNvi">
+                      <ref role="3TsBF5" to="6q58:1x1IHbNToun" resolve="libraryName" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="la8eA" id="1x1IHbNTqFY" role="lcghm">
+                  <property role="lacIc" value="&quot;)" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="WtQ9Q" id="1x1IHbNTqVp">
+    <ref role="WuzLi" to="6q58:1x1IHbNTqVm" resolve="InstallOrLoadFunction" />
+    <node concept="11bSqf" id="1x1IHbNTqVs" role="11c4hB">
+      <node concept="3clFbS" id="1x1IHbNTqVt" role="2VODD2">
+        <node concept="lc7rE" id="1x1IHbNTqVF" role="3cqZAp">
+          <node concept="la8eA" id="1x1IHbNTqVT" role="lcghm">
+            <property role="lacIc" value="installOrLoad&lt;-function (lib,repo=&quot;http://cran.us.r-project.org&quot;){if(!require(lib,character.only=TRUE)){install.packages(library,repos=repo)\n  library(lib)}}" />
           </node>
         </node>
       </node>

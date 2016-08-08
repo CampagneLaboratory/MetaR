@@ -129,6 +129,7 @@
         <property id="1214560368769" name="emptyNoTargetText" index="39s7Ar" />
         <property id="1139852716018" name="noTargetText" index="1$x2rV" />
         <property id="1140017977771" name="readOnly" index="1Intyy" />
+        <property id="1140114345053" name="allowEmptyText" index="1O74Pk" />
         <reference id="1140103550593" name="relationDeclaration" index="1NtTu8" />
       </concept>
       <concept id="1073389214265" name="jetbrains.mps.lang.editor.structure.EditorCellModel" flags="ng" index="3EYTF0">
@@ -2681,6 +2682,28 @@
         </node>
       </node>
       <node concept="l2Vlx" id="50lwYX0Vvlf" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="1x1IHbNToux">
+    <ref role="1XX52x" to="6q58:1x1IHbNToum" resolve="InstallOrLoad" />
+    <node concept="3EZMnI" id="1x1IHbNTouA" role="2wV5jI">
+      <node concept="2iRfu4" id="1x1IHbNTouB" role="2iSdaV" />
+      <node concept="3F0ifn" id="1x1IHbNTouz" role="3EZMnx">
+        <property role="3F0ifm" value="installOrLoad" />
+      </node>
+      <node concept="3F0A7n" id="1x1IHbNTouJ" role="3EZMnx">
+        <ref role="1NtTu8" to="6q58:1x1IHbNToun" resolve="libraryName" />
+      </node>
+    </node>
+    <node concept="3EZMnI" id="1x1IHbNTouS" role="6VMZX">
+      <node concept="2iRfu4" id="1x1IHbNTouT" role="2iSdaV" />
+      <node concept="3F0ifn" id="1x1IHbNTouP" role="3EZMnx">
+        <property role="3F0ifm" value="Repository" />
+      </node>
+      <node concept="3F0A7n" id="1x1IHbNTov1" role="3EZMnx">
+        <property role="1O74Pk" value="true" />
+        <ref role="1NtTu8" to="6q58:1x1IHbNToup" resolve="repo" />
+      </node>
     </node>
   </node>
 </model>
