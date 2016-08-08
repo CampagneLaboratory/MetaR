@@ -728,6 +728,12 @@
             </node>
           </node>
         </node>
+        <node concept="1SiIV0" id="GHH7QccAv9" role="3bR37C">
+          <node concept="3bR9La" id="GHH7QccAva" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" node="3rWIEp7J4c1" resolve="org.campagnelab.metar.r.stubs" />
+          </node>
+        </node>
       </node>
       <node concept="1E1JtD" id="5KT3YWtJvBx" role="2G$12L">
         <property role="BnDLt" value="true" />
