@@ -19108,6 +19108,37 @@
         <node concept="1gZcZf" id="26cpLhjNFpi" role="2G3XIn" />
         <node concept="1gZcZf" id="52J4nYvcdxy" role="2G3XIn">
           <node concept="3_3kQU" id="52J4nYvcdxz" role="3_3kQL">
+            <property role="3_3kQV" value="load(&quot;" />
+          </node>
+          <node concept="3_3kQU" id="69$zvkLzi2s" role="3_3kQL">
+            <property role="3_3kQV" value="session" />
+            <node concept="17Uvod" id="69$zvkLzi2z" role="lGtFl">
+              <property role="P4ACc" value="901f5cf3-dc77-4c1e-bc5a-6382baee28b4/1680136183140337486/1680136183140337487" />
+              <property role="2qtEX9" value="text" />
+              <node concept="3zFVjK" id="69$zvkLzi2$" role="3zH0cK">
+                <node concept="3clFbS" id="69$zvkLzi2_" role="2VODD2">
+                  <node concept="3clFbF" id="69$zvkLzi3M" role="3cqZAp">
+                    <node concept="2OqwBi" id="69$zvkLzi9f" role="3clFbG">
+                      <node concept="30H73N" id="69$zvkLzi3L" role="2Oq$k0" />
+                      <node concept="2qgKlT" id="69$zvkLzikm" role="2OqNvi">
+                        <ref role="37wK5l" to="v8sa:2xF4TVcGGn0" resolve="getSessionPath" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3_3kQU" id="69$zvkLzi2v" role="3_3kQL">
+            <property role="3_3kQV" value="&quot;)" />
+          </node>
+        </node>
+        <node concept="1gZcZf" id="69$zvkLzhUC" role="2G3XIn">
+          <property role="1gZaPE" value="" />
+          <node concept="3_3kQU" id="69$zvkLzhUD" role="3_3kQL">
+            <property role="3_3kQV" value="" />
+          </node>
+          <node concept="3_3kQU" id="69$zvkLzhUE" role="3_3kQL">
             <property role="3_3kQV" value="checkIfVariableExists &lt;- function(var) {" />
           </node>
         </node>
