@@ -19106,33 +19106,6 @@
         </node>
         <node concept="1gZcZf" id="26cpLhjNFIR" role="2G3XIn" />
         <node concept="1gZcZf" id="26cpLhjNFpi" role="2G3XIn" />
-        <node concept="1gZcZf" id="26cpLhjNEsb" role="2G3XIn">
-          <node concept="3_3kQU" id="26cpLhjNEsc" role="3_3kQL">
-            <property role="3_3kQV" value="load(&quot;" />
-          </node>
-          <node concept="3_3kQU" id="26cpLhjK8th" role="3_3kQL">
-            <property role="3_3kQV" value="session" />
-            <node concept="17Uvod" id="26cpLhjK8ti" role="lGtFl">
-              <property role="P4ACc" value="901f5cf3-dc77-4c1e-bc5a-6382baee28b4/1680136183140337486/1680136183140337487" />
-              <property role="2qtEX9" value="text" />
-              <node concept="3zFVjK" id="26cpLhjK8tj" role="3zH0cK">
-                <node concept="3clFbS" id="26cpLhjK8tk" role="2VODD2">
-                  <node concept="3clFbF" id="26cpLhjK8tl" role="3cqZAp">
-                    <node concept="2OqwBi" id="26cpLhjK8tm" role="3clFbG">
-                      <node concept="30H73N" id="26cpLhjK8tn" role="2Oq$k0" />
-                      <node concept="2qgKlT" id="1e0sE7RxHXT" role="2OqNvi">
-                        <ref role="37wK5l" to="v8sa:2xF4TVcGGn0" resolve="getSessionPath" />
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="3_3kQU" id="26cpLhjK8ts" role="3_3kQL">
-            <property role="3_3kQV" value="&quot;);" />
-          </node>
-        </node>
         <node concept="1gZcZf" id="52J4nYvcdxy" role="2G3XIn">
           <node concept="3_3kQU" id="52J4nYvcdxz" role="3_3kQL">
             <property role="3_3kQV" value="checkIfVariableExists &lt;- function(var) {" />
