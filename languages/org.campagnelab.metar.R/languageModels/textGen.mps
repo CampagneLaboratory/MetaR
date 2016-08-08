@@ -2155,7 +2155,7 @@
       <node concept="3clFbS" id="1x1IHbNTqVt" role="2VODD2">
         <node concept="lc7rE" id="1x1IHbNTqVF" role="3cqZAp">
           <node concept="la8eA" id="1x1IHbNTqVT" role="lcghm">
-            <property role="lacIc" value="installOrLoad&lt;-function (lib,repo=&quot;http://cran.us.r-project.org&quot;){if(!require(lib,character.only=TRUE)){install.packages(library,repos=repo)\n  library(lib)}}" />
+            <property role="lacIc" value="installOrLoad&lt;-function (lib,repo=&quot;http://cran.us.r-project.org&quot;){if(!require(lib,character.only=TRUE)){install.packages(lib,repos=repo)\n  library(lib,character.only=TRUE)}}" />
           </node>
         </node>
       </node>
