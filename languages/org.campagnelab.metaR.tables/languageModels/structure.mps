@@ -363,7 +363,7 @@
       <ref role="PrY4T" node="7LvyiX4miiF" resolve="StatementDependencies" />
     </node>
     <node concept="PrWs8" id="7B51G8WfHbG" role="PzmwI">
-      <ref role="PrY4T" to="sg20:15COMTn5xlQ" resolve="IHasReferencableChildren" />
+      <ref role="PrY4T" to="sg20:15COMTn5xlQ" resolve="IHasReferenceableChildren" />
     </node>
     <node concept="1TJgyj" id="2WRhvFtuQGF" role="1TKVEi">
       <property role="20lmBu" value="reference" />
@@ -672,7 +672,7 @@
     <property role="1pbfSe" value="8063671" />
     <ref role="1TJDcQ" node="7LvyiX4miiC" resolve="Statement" />
     <node concept="PrWs8" id="7B51G8WfH9w" role="PzmwI">
-      <ref role="PrY4T" to="sg20:15COMTn5xlQ" resolve="IHasReferencableChildren" />
+      <ref role="PrY4T" to="sg20:15COMTn5xlQ" resolve="IHasReferenceableChildren" />
     </node>
     <node concept="1TJgyj" id="3BiNpr5GyuP" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -858,6 +858,9 @@
     <property role="TrG5h" value="PlotRefWithPreview" />
     <property role="1pbfSe" value="357768277" />
     <ref role="1TJDcQ" node="2GnvTFE7ITW" resolve="PlotRef" />
+    <node concept="PrWs8" id="21DQECc$kIL" role="PzmwI">
+      <ref role="PrY4T" to="sg20:15COMTnnsmm" resolve="IAtomic" />
+    </node>
   </node>
   <node concept="1TIwiD" id="7LvyiX3EFhY">
     <property role="TrG5h" value="StatementList" />
@@ -955,6 +958,7 @@
     <node concept="1TJgyi" id="7LvyiX4miiD" role="1TKVEl">
       <property role="TrG5h" value="id" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+      <node concept="asaX9" id="16Z5RhQV1jW" role="lGtFl" />
     </node>
     <node concept="PrWs8" id="7LvyiX4miiE" role="PzmwI">
       <ref role="PrY4T" node="7LvyiX4miiF" resolve="StatementDependencies" />
@@ -1116,7 +1120,7 @@
     <property role="1pbfSe" value="963867893" />
     <ref role="1TJDcQ" node="7LvyiX4miiC" resolve="Statement" />
     <node concept="PrWs8" id="7B51G8WfHbM" role="PzmwI">
-      <ref role="PrY4T" to="sg20:15COMTn5xlQ" resolve="IHasReferencableChildren" />
+      <ref role="PrY4T" to="sg20:15COMTn5xlQ" resolve="IHasReferenceableChildren" />
     </node>
     <node concept="PrWs8" id="7tPuoi18U2g" role="PzmwI">
       <ref role="PrY4T" node="bPLB43fxe2" resolve="PlotBuilderStatementI" />
@@ -1148,7 +1152,7 @@
     <property role="1pbfSe" value="1713275533" />
     <ref role="1TJDcQ" node="7LvyiX4miiC" resolve="Statement" />
     <node concept="PrWs8" id="7B51G8WfHbT" role="PzmwI">
-      <ref role="PrY4T" to="sg20:15COMTn5xlQ" resolve="IHasReferencableChildren" />
+      <ref role="PrY4T" to="sg20:15COMTn5xlQ" resolve="IHasReferenceableChildren" />
     </node>
     <node concept="1TJgyj" id="2rPl_HMXwGX" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -1414,7 +1418,7 @@
     <property role="1pbfSe" value="1160309689" />
     <ref role="1TJDcQ" node="7LvyiX4miiC" resolve="Statement" />
     <node concept="PrWs8" id="7B51G8WfHbQ" role="PzmwI">
-      <ref role="PrY4T" to="sg20:15COMTn5xlQ" resolve="IHasReferencableChildren" />
+      <ref role="PrY4T" to="sg20:15COMTn5xlQ" resolve="IHasReferenceableChildren" />
     </node>
     <node concept="1TJgyj" id="5HtHr3DXIeM" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -1534,7 +1538,7 @@
     <property role="TrG5h" value="FutureTableCreator" />
     <property role="1pbfSe" value="1161012579" />
     <node concept="PrWs8" id="7B51G8WfHaA" role="PrDN$">
-      <ref role="PrY4T" to="sg20:15COMTn5xlQ" resolve="IHasReferencableChildren" />
+      <ref role="PrY4T" to="sg20:15COMTn5xlQ" resolve="IHasReferenceableChildren" />
     </node>
     <node concept="1TJgyi" id="7S2MvlQNiVc" role="1TKVEl">
       <property role="TrG5h" value="inputChanged" />
@@ -2393,7 +2397,7 @@
       <ref role="PrY4T" node="2OXkbjQ303b" resolve="HasRandomEffects" />
     </node>
     <node concept="PrWs8" id="7B51G8WfHbW" role="PzmwI">
-      <ref role="PrY4T" to="sg20:15COMTn5xlQ" resolve="IHasReferencableChildren" />
+      <ref role="PrY4T" to="sg20:15COMTn5xlQ" resolve="IHasReferenceableChildren" />
     </node>
   </node>
   <node concept="1TIwiD" id="2OXkbjPjheB">

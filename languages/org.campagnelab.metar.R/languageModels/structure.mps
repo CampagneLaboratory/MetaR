@@ -65,6 +65,7 @@
   <node concept="1TIwiD" id="5mPDeVwiJFd">
     <property role="TrG5h" value="Prog" />
     <property role="1pbfSe" value="906010555" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="6efZaUgwyHx" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
@@ -568,7 +569,7 @@
     <property role="1pbfSe" value="544303275" />
     <ref role="1TJDcQ" node="5mPDeVwiPap" resolve="Expr" />
     <node concept="PrWs8" id="7B51G8WfH8q" role="PzmwI">
-      <ref role="PrY4T" to="sg20:15COMTn5xlQ" resolve="IHasReferencableChildren" />
+      <ref role="PrY4T" to="sg20:15COMTn5xlQ" resolve="IHasReferenceableChildren" />
     </node>
     <node concept="1TJgyj" id="5qM9mr9JOd6" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -1302,9 +1303,10 @@
   </node>
   <node concept="1TIwiD" id="4KQKRH2qB$9">
     <property role="1pbfSe" value="1902035836" />
-    <property role="3GE5qa" value="operators" />
+    <property role="3GE5qa" value="operators.user" />
     <property role="TrG5h" value="MagriteOperator" />
     <property role="34LRSv" value="%&gt;%" />
+    <property role="R4oN_" value="Magritte operator" />
     <ref role="1TJDcQ" node="4KQKRH2qvQL" resolve="UserOperator" />
   </node>
   <node concept="1TIwiD" id="4KQKRH2qcvb">
@@ -1323,9 +1325,10 @@
   </node>
   <node concept="1TIwiD" id="4KQKRH2rdxI">
     <property role="1pbfSe" value="1901880343" />
-    <property role="3GE5qa" value="operators" />
+    <property role="3GE5qa" value="operators.user" />
     <property role="TrG5h" value="DplyrOperator" />
     <property role="34LRSv" value="%.%" />
+    <property role="R4oN_" value="Dplyr operator" />
     <ref role="1TJDcQ" node="4KQKRH2qvQL" resolve="UserOperator" />
   </node>
   <node concept="1TIwiD" id="L2v$sc88Ua">
@@ -1345,7 +1348,7 @@
   </node>
   <node concept="1TIwiD" id="4KQKRH2qvQL">
     <property role="1pbfSe" value="1902067412" />
-    <property role="3GE5qa" value="operators" />
+    <property role="3GE5qa" value="operators.user" />
     <property role="TrG5h" value="UserOperator" />
     <property role="R5$K7" value="true" />
     <property role="R5$K2" value="false" />
@@ -1364,10 +1367,42 @@
   </node>
   <node concept="1TIwiD" id="7tPuoi13jr$">
     <property role="TrG5h" value="InMatchOperator" />
-    <property role="3GE5qa" value="operators" />
+    <property role="3GE5qa" value="operators.user" />
     <property role="34LRSv" value="%in%" />
     <property role="1pbfSe" value="125652888" />
-    <property role="R4oN_" value="The match operator" />
+    <property role="R4oN_" value="Match operator" />
+    <ref role="1TJDcQ" node="4KQKRH2qvQL" resolve="UserOperator" />
+  </node>
+  <node concept="1TIwiD" id="4Nx8wsWSf_f">
+    <property role="1pbfSe" value="1983767722" />
+    <property role="3GE5qa" value="operators" />
+    <property role="TrG5h" value="IntegerDivide" />
+    <property role="34LRSv" value="%/%" />
+    <property role="R4oN_" value="Integer divide, binary" />
+    <ref role="1TJDcQ" node="4KQKRH2qvQL" resolve="UserOperator" />
+  </node>
+  <node concept="1TIwiD" id="4Nx8wsWSg2e">
+    <property role="1pbfSe" value="1983765867" />
+    <property role="3GE5qa" value="operators.user" />
+    <property role="TrG5h" value="MatrixProduct" />
+    <property role="34LRSv" value="%*%" />
+    <property role="R4oN_" value="Matrix product, binary" />
+    <ref role="1TJDcQ" node="4KQKRH2qvQL" resolve="UserOperator" />
+  </node>
+  <node concept="1TIwiD" id="4Nx8wsWSgCt">
+    <property role="1pbfSe" value="1983763420" />
+    <property role="3GE5qa" value="operators" />
+    <property role="TrG5h" value="OuterProduct" />
+    <property role="34LRSv" value="%o%" />
+    <property role="R4oN_" value="Outer product, binary" />
+    <ref role="1TJDcQ" node="4KQKRH2qvQL" resolve="UserOperator" />
+  </node>
+  <node concept="1TIwiD" id="4Nx8wsWSh6v">
+    <property role="1pbfSe" value="1983761498" />
+    <property role="3GE5qa" value="operators" />
+    <property role="TrG5h" value="KroneckerProduct" />
+    <property role="34LRSv" value="%x%" />
+    <property role="R4oN_" value="Kronecker product, binary" />
     <ref role="1TJDcQ" node="4KQKRH2qvQL" resolve="UserOperator" />
   </node>
 </model>

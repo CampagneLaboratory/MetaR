@@ -6,6 +6,7 @@
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
+    <import index="4tsn" ref="r:97aeaa4f-346d-4633-b5a0-99879648272c(R3_1_3@stubs)" />
     <import index="6q58" ref="r:97268463-8a58-42b7-9dc6-fa004b7a4308(org.campagnelab.metar.R.structure)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="69j5" ref="r:cc2fd9c1-53e7-4805-a8bc-a07e69f2147b(org.campagnelab.metar.R.behavior)" implicit="true" />
@@ -63,6 +64,12 @@
       <concept id="5497648299878491908" name="jetbrains.mps.baseLanguage.structure.BaseVariableReference" flags="nn" index="1M0zk4">
         <reference id="5497648299878491909" name="baseVariableDeclaration" index="1M0zk5" />
       </concept>
+      <concept id="6329021646629104957" name="jetbrains.mps.baseLanguage.structure.TextCommentPart" flags="nn" index="3SKdUq">
+        <property id="6329021646629104958" name="text" index="3SKdUp" />
+      </concept>
+      <concept id="6329021646629104954" name="jetbrains.mps.baseLanguage.structure.SingleLineComment" flags="nn" index="3SKdUt">
+        <child id="6329021646629175155" name="commentPart" index="3SKWNk" />
+      </concept>
     </language>
     <language id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures">
       <concept id="1199569711397" name="jetbrains.mps.baseLanguage.closures.structure.ClosureLiteral" flags="nn" index="1bVj0M">
@@ -91,6 +98,52 @@
         <child id="1240395532443" name="queryBlock" index="3dlsAV" />
       </concept>
     </language>
+    <language id="3b58810c-8431-4bbb-99ea-b4671e02dd13" name="org.campagnelab.metar.R">
+      <concept id="489068675575040827" name="org.campagnelab.metar.R.structure.Not" flags="ng" index="20C$T_" />
+      <concept id="5770663561153558147" name="org.campagnelab.metar.R.structure.ParameterValue" flags="ng" index="gNblG">
+        <property id="5770663561153558418" name="id" index="gNbhX" />
+        <reference id="1556967766004741819" name="parameter" index="eUkdk" />
+        <child id="5770663561153558420" name="value" index="gNbhV" />
+      </concept>
+      <concept id="5770663561153557551" name="org.campagnelab.metar.R.structure.ParameterValues" flags="ng" index="gNbv0">
+        <child id="5770663561153557817" name="values" index="gNbrm" />
+      </concept>
+      <concept id="6176023809880707758" name="org.campagnelab.metar.R.structure.IfExpr" flags="ng" index="2PZJp0">
+        <child id="1229604057031924987" name="condition" index="oP3ar" />
+        <child id="1229604057031925044" name="body" index="oP3dk" />
+      </concept>
+      <concept id="6176023809880707756" name="org.campagnelab.metar.R.structure.FunctionCallExpr" flags="ng" index="2PZJp2">
+        <child id="3737166271524886452" name="id" index="134Gdo" />
+        <child id="3737166271524886450" name="parameters" index="134Gdu" />
+      </concept>
+      <concept id="6176023809880707757" name="org.campagnelab.metar.R.structure.BodyExpr" flags="ng" index="2PZJp3">
+        <child id="3737166271522071657" name="list" index="13uv25" />
+      </concept>
+      <concept id="6176023809880707749" name="org.campagnelab.metar.R.structure.NotExpr" flags="ng" index="2PZJpb" />
+      <concept id="6176023809880707768" name="org.campagnelab.metar.R.structure.StringLiteralExpr" flags="ng" index="2PZJpm">
+        <property id="1229604057012663630" name="value" index="pzxGI" />
+      </concept>
+      <concept id="6176023809880707743" name="org.campagnelab.metar.R.structure.UnaryOperatorExpr" flags="ng" index="2PZJpL">
+        <child id="489068675546663434" name="expression" index="22sOXk" />
+        <child id="489068675546663431" name="operator" index="22sOXp" />
+      </concept>
+      <concept id="4933197140516011539" name="org.campagnelab.metar.R.structure.PositionalParameterValue" flags="ng" index="V6WaU" />
+      <concept id="4933197140516011540" name="org.campagnelab.metar.R.structure.ParameterValueWithId" flags="ng" index="V6WaX" />
+      <concept id="3737166271522079190" name="org.campagnelab.metar.R.structure.Exprlist" flags="ng" index="13u1kU">
+        <child id="3737166271522079191" name="expressions" index="13u1kV" />
+      </concept>
+      <concept id="7431839982580115597" name="org.campagnelab.metar.R.structure.FunctionIdRef" flags="ng" index="3a69Ir">
+        <reference id="7431839982580117056" name="function" index="3a69Pm" />
+      </concept>
+      <concept id="1499760628227103368" name="org.campagnelab.metar.R.structure.IdentifierRef" flags="ng" index="1LhYbg">
+        <reference id="1499760628227131747" name="id" index="1Li74V" />
+      </concept>
+    </language>
+    <language id="3a13115c-633c-4c5c-bbcc-75c4219e9555" name="jetbrains.mps.lang.quotation">
+      <concept id="1196350785113" name="jetbrains.mps.lang.quotation.structure.Quotation" flags="nn" index="2c44tf">
+        <child id="1196350785114" name="quotedNode" index="2c44tc" />
+      </concept>
+    </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
       <concept id="1177026924588" name="jetbrains.mps.lang.smodel.structure.RefConcept_Reference" flags="nn" index="chp4Y">
         <reference id="1177026940964" name="conceptDeclaration" index="cht4Q" />
@@ -115,6 +168,7 @@
       <concept id="1171315804604" name="jetbrains.mps.lang.smodel.structure.Model_RootsOperation" flags="nn" index="2RRcyG">
         <reference id="1171315804605" name="concept" index="2RRcyH" />
       </concept>
+      <concept id="1171407110247" name="jetbrains.mps.lang.smodel.structure.Node_GetAncestorOperation" flags="nn" index="2Xjw5R" />
       <concept id="1176109685393" name="jetbrains.mps.lang.smodel.structure.Model_RootsIncludingImportedOperation" flags="nn" index="3lApI0">
         <reference id="1176109685394" name="concept" index="3lApI3" />
       </concept>
@@ -156,6 +210,7 @@
       </concept>
       <concept id="1204980550705" name="jetbrains.mps.baseLanguage.collections.structure.VisitAllOperation" flags="nn" index="2es0OD" />
       <concept id="1151702311717" name="jetbrains.mps.baseLanguage.collections.structure.ToListOperation" flags="nn" index="ANE8D" />
+      <concept id="1227022159410" name="jetbrains.mps.baseLanguage.collections.structure.AddFirstElementOperation" flags="nn" index="2Ke4WJ" />
       <concept id="1227022210526" name="jetbrains.mps.baseLanguage.collections.structure.ClearAllElementsOperation" flags="nn" index="2Kehj3" />
       <concept id="1203518072036" name="jetbrains.mps.baseLanguage.collections.structure.SmartClosureParameterDeclaration" flags="ig" index="Rh6nW" />
       <concept id="1160612413312" name="jetbrains.mps.baseLanguage.collections.structure.AddElementOperation" flags="nn" index="TSZUe" />
@@ -465,6 +520,130 @@
             </node>
           </node>
         </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2S6QgY" id="7UUlTHSXq6b">
+    <property role="TrG5h" value="InstallSessionPackage" />
+    <property role="2ZfUl0" value="true" />
+    <ref role="2ZfgGC" to="6q58:2xF4TVcCI7Y" resolve="SaveSession" />
+    <node concept="2S6ZIM" id="7UUlTHSXq6c" role="2ZfVej">
+      <node concept="3clFbS" id="7UUlTHSXq6d" role="2VODD2">
+        <node concept="3clFbF" id="7UUlTHSXvUR" role="3cqZAp">
+          <node concept="Xl_RD" id="7UUlTHSXvUQ" role="3clFbG">
+            <property role="Xl_RC" value="Add Session Package Installation Code" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2Sbjvc" id="7UUlTHSXq6e" role="2ZfgGD">
+      <node concept="3clFbS" id="7UUlTHSXq6f" role="2VODD2">
+        <node concept="3clFbH" id="7UUlTHSXAmr" role="3cqZAp" />
+        <node concept="3SKdUt" id="7vFZP$97Clg" role="3cqZAp">
+          <node concept="3SKdUq" id="4eN5Nwyz_Eu" role="3SKWNk">
+            <property role="3SKdUp" value="Create the if statement" />
+          </node>
+        </node>
+        <node concept="3cpWs8" id="4q8dPDmSHY" role="3cqZAp">
+          <node concept="3cpWsn" id="4q8dPDmSI4" role="3cpWs9">
+            <property role="TrG5h" value="packages" />
+            <node concept="3Tqbb2" id="4q8dPDmTg6" role="1tU5fm">
+              <ref role="ehGHo" to="6q58:5mPDeVwiPap" resolve="Expr" />
+            </node>
+            <node concept="2c44tf" id="4q8dPDmWyK" role="33vP2m">
+              <node concept="13u1kU" id="4q8dPDn0pD" role="2c44tc">
+                <node concept="2PZJp0" id="4q8dPDmCER" role="13u1kV">
+                  <node concept="2PZJpb" id="4q8dPDmCEU" role="oP3ar">
+                    <node concept="20C$T_" id="4q8dPDmCEV" role="22sOXp" />
+                    <node concept="2PZJp2" id="4q8dPDmCEW" role="22sOXk">
+                      <node concept="gNbv0" id="4q8dPDmCF2" role="134Gdu">
+                        <node concept="V6WaU" id="4q8dPDmCF3" role="gNbrm">
+                          <node concept="2PZJpm" id="4q8dPDmCF6" role="gNbhV">
+                            <property role="pzxGI" value="session" />
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="3a69Ir" id="4q8dPDmCMs" role="134Gdo">
+                        <ref role="1Li74V" to="4tsn:1yhT8VTI$87" resolve="require" />
+                        <ref role="3a69Pm" to="4tsn:1yhT8VTI$88" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="2PZJp3" id="4q8dPDmCF7" role="oP3dk">
+                    <node concept="13u1kU" id="4q8dPDmCF9" role="13uv25">
+                      <node concept="2PZJp2" id="4q8dPDmCFa" role="13u1kV">
+                        <node concept="gNbv0" id="4q8dPDmCFg" role="134Gdu">
+                          <node concept="V6WaU" id="4q8dPDmCFh" role="gNbrm">
+                            <node concept="2PZJpm" id="4q8dPDmCFk" role="gNbhV">
+                              <property role="pzxGI" value="session" />
+                            </node>
+                          </node>
+                          <node concept="V6WaX" id="4q8dPDmCFl" role="gNbrm">
+                            <property role="gNbhX" value="repos" />
+                            <ref role="eUkdk" to="4tsn:364jCD09EpR" resolve="repos" />
+                            <node concept="2PZJpm" id="4q8dPDmCFo" role="gNbhV">
+                              <property role="pzxGI" value="http://cran.us.r-project.org" />
+                            </node>
+                          </node>
+                        </node>
+                        <node concept="3a69Ir" id="4q8dPDmCMu" role="134Gdo">
+                          <ref role="3a69Pm" to="4tsn:364jCD09EpN" />
+                          <ref role="1Li74V" to="4tsn:364jCD09EpM" resolve="install.packages" />
+                        </node>
+                      </node>
+                      <node concept="2PZJp2" id="4q8dPDmCFp" role="13u1kV">
+                        <node concept="gNbv0" id="4q8dPDmCFv" role="134Gdu">
+                          <node concept="V6WaU" id="4q8dPDmCFw" role="gNbrm">
+                            <node concept="2PZJpm" id="4q8dPDmCFz" role="gNbhV">
+                              <property role="pzxGI" value="session" />
+                            </node>
+                          </node>
+                        </node>
+                        <node concept="3a69Ir" id="4q8dPDmCMw" role="134Gdo">
+                          <ref role="3a69Pm" to="4tsn:1yhT8VTIzyP" />
+                          <ref role="1Li74V" to="4tsn:1yhT8VTIzyO" resolve="library" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="4q8dPDmLoF" role="3cqZAp" />
+        <node concept="3clFbH" id="7vFZP$97DmH" role="3cqZAp" />
+        <node concept="3clFbH" id="7vFZP$97PNn" role="3cqZAp" />
+        <node concept="3SKdUt" id="4eN5NwyzDSI" role="3cqZAp">
+          <node concept="3SKdUq" id="4eN5NwyzEqC" role="3SKWNk">
+            <property role="3SKdUp" value="add the statement to the rootNode ProgramProg" />
+          </node>
+        </node>
+        <node concept="3clFbF" id="4eN5NwyxL8t" role="3cqZAp">
+          <node concept="2OqwBi" id="4eN5NwyxL8u" role="3clFbG">
+            <node concept="2OqwBi" id="4eN5NwyxL8v" role="2Oq$k0">
+              <node concept="2OqwBi" id="4eN5NwyxL8w" role="2Oq$k0">
+                <node concept="2Sf5sV" id="4eN5NwyxL8x" role="2Oq$k0" />
+                <node concept="2Xjw5R" id="4eN5NwyxL8y" role="2OqNvi">
+                  <node concept="1xMEDy" id="4eN5NwyxL8z" role="1xVPHs">
+                    <node concept="chp4Y" id="4eN5NwyxL8$" role="ri$Ld">
+                      <ref role="cht4Q" to="6q58:5mPDeVwiJFe" resolve="RScript" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3Tsc0h" id="4eN5NwyxL8_" role="2OqNvi">
+                <ref role="3TtcxE" to="6q58:14grA08Vlmy" />
+              </node>
+            </node>
+            <node concept="2Ke4WJ" id="4eN5NwyyoKH" role="2OqNvi">
+              <node concept="37vLTw" id="4q8dPDn11K" role="25WWJ7">
+                <ref role="3cqZAo" node="4q8dPDmSI4" resolve="packages" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="4eN5NwyxK_6" role="3cqZAp" />
       </node>
     </node>
   </node>

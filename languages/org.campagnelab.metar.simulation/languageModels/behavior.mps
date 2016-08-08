@@ -19,6 +19,7 @@
     <import index="guwi" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" />
     <import index="hgbr" ref="r:35e57e46-a34e-4190-bb18-c2596691e768(org.campagnelab.metar.simulation.structure)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
+    <import index="k6y1" ref="r:eeed3f2f-0d6f-41a1-91c7-0fff65bede58(org.campagnelab.instantrefresh.behavior)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
   </imports>
   <registry>
@@ -436,8 +437,8 @@
               <ref role="37wK5l" node="WAEVbt3RqB" resolve="initialize" />
               <node concept="2OqwBi" id="oeXtRX6W9b" role="37wK5m">
                 <node concept="13iPFW" id="oeXtRX6W5Q" role="2Oq$k0" />
-                <node concept="3TrcHB" id="oeXtRX6W$y" role="2OqNvi">
-                  <ref role="3TsBF5" to="jrxw:7LvyiX4miiD" resolve="id" />
+                <node concept="2qgKlT" id="16Z5RhQMrbB" role="2OqNvi">
+                  <ref role="37wK5l" to="k6y1:hlbLQwkRFj" resolve="id" />
                 </node>
               </node>
             </node>

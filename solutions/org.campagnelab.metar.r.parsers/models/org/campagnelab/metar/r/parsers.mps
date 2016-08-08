@@ -2712,10 +2712,38 @@
     <ref role="3c7qJ7" node="v1yTSnTwTB" resolve="R2" />
     <node concept="3fgY0T" id="7tPuoi13jqx" role="3fgY2E">
       <property role="22eE_H" value="2" />
+      <property role="3fgY0U" value="%x%" />
+      <property role="3fgY14" value="60" />
+      <ref role="22Gb7Y" to="6q58:4KQKRH2qvQL" resolve="UserOperator" />
+      <ref role="3fs7he" to="6q58:4Nx8wsWSh6v" resolve="KroneckerProduct" />
+    </node>
+    <node concept="3fgY0T" id="4Nx8wsWSUuI" role="3fgY2E">
+      <property role="22eE_H" value="2" />
+      <property role="3fgY0U" value="%*%" />
+      <property role="3fgY14" value="60" />
+      <ref role="22Gb7Y" to="6q58:4KQKRH2qvQL" resolve="UserOperator" />
+      <ref role="3fs7he" to="6q58:4Nx8wsWSg2e" resolve="MatrixProduct" />
+    </node>
+    <node concept="3fgY0T" id="4Nx8wsWSUvj" role="3fgY2E">
+      <property role="22eE_H" value="2" />
+      <property role="3fgY0U" value="%o%" />
+      <property role="3fgY14" value="60" />
+      <ref role="22Gb7Y" to="6q58:4KQKRH2qvQL" resolve="UserOperator" />
+      <ref role="3fs7he" to="6q58:4Nx8wsWSgCt" resolve="OuterProduct" />
+    </node>
+    <node concept="3fgY0T" id="4Nx8wsWSUub" role="3fgY2E">
+      <property role="22eE_H" value="2" />
       <property role="3fgY0U" value="%in%" />
       <property role="3fgY14" value="60" />
       <ref role="22Gb7Y" to="6q58:4KQKRH2qvQL" resolve="UserOperator" />
       <ref role="3fs7he" to="6q58:7tPuoi13jr$" resolve="InMatchOperator" />
+    </node>
+    <node concept="3fgY0T" id="4Nx8wsWSUvS" role="3fgY2E">
+      <property role="22eE_H" value="2" />
+      <property role="3fgY0U" value="%/%" />
+      <property role="3fgY14" value="60" />
+      <ref role="22Gb7Y" to="6q58:4KQKRH2qvQL" resolve="UserOperator" />
+      <ref role="3fs7he" to="6q58:4Nx8wsWSf_f" resolve="IntegerDivide" />
     </node>
     <node concept="3fgY0T" id="4KQKRH2qBwI" role="3fgY2E">
       <property role="22eE_H" value="2" />

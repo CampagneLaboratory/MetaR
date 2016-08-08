@@ -243,9 +243,6 @@
       <concept id="1138056282393" name="jetbrains.mps.lang.smodel.structure.SLinkListAccess" flags="nn" index="3Tsc0h">
         <reference id="1138056546658" name="link" index="3TtcxE" />
       </concept>
-      <concept id="1172424058054" name="jetbrains.mps.lang.smodel.structure.ConceptRefExpression" flags="nn" index="3TUQnm">
-        <reference id="1172424100906" name="conceptDeclaration" index="3TV0OU" />
-      </concept>
       <concept id="1228341669568" name="jetbrains.mps.lang.smodel.structure.Node_DetachOperation" flags="nn" index="3YRAZt" />
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
@@ -720,70 +717,6 @@
             </node>
             <node concept="liA8E" id="5d7YQINCXlr" role="2OqNvi">
               <ref role="37wK5l" to="cj4x:~EditorComponent.rebuildEditorContent():void" resolve="rebuildEditorContent" />
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
-  <node concept="2S6QgY" id="7LvyiX4mimK">
-    <property role="TrG5h" value="AssignNewIds" />
-    <ref role="2ZfgGC" to="jrxw:7LvyiX4mii$" resolve="Analysis" />
-    <node concept="2S6ZIM" id="7LvyiX4mimL" role="2ZfVej">
-      <node concept="3clFbS" id="7LvyiX4mimM" role="2VODD2">
-        <node concept="3clFbF" id="7LvyiX4mimN" role="3cqZAp">
-          <node concept="Xl_RD" id="7LvyiX4mimO" role="3clFbG">
-            <property role="Xl_RC" value="Assign New IDs to Statements" />
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="2Sbjvc" id="7LvyiX4mimP" role="2ZfgGD">
-      <node concept="3clFbS" id="7LvyiX4mimQ" role="2VODD2">
-        <node concept="3clFbF" id="7LvyiX4mimR" role="3cqZAp">
-          <node concept="2OqwBi" id="7LvyiX4mimS" role="3clFbG">
-            <node concept="2OqwBi" id="7LvyiX4mimT" role="2Oq$k0">
-              <node concept="2Sf5sV" id="7LvyiX4mimU" role="2Oq$k0" />
-              <node concept="2Rf3mk" id="7LvyiX4mimV" role="2OqNvi">
-                <node concept="1xMEDy" id="7LvyiX4mimW" role="1xVPHs">
-                  <node concept="chp4Y" id="7LvyiX4mimX" role="ri$Ld">
-                    <ref role="cht4Q" to="jrxw:7LvyiX4miiC" resolve="Statement" />
-                  </node>
-                </node>
-              </node>
-            </node>
-            <node concept="2es0OD" id="7LvyiX4mimY" role="2OqNvi">
-              <node concept="1bVj0M" id="7LvyiX4mimZ" role="23t8la">
-                <node concept="3clFbS" id="7LvyiX4min0" role="1bW5cS">
-                  <node concept="3clFbF" id="7LvyiX4min1" role="3cqZAp">
-                    <node concept="37vLTI" id="7LvyiX4min2" role="3clFbG">
-                      <node concept="2OqwBi" id="7LvyiX4min3" role="37vLTx">
-                        <node concept="3TUQnm" id="7LvyiX4min4" role="2Oq$k0">
-                          <ref role="3TV0OU" to="jrxw:7LvyiX4miiC" resolve="Statement" />
-                        </node>
-                        <node concept="2qgKlT" id="7LvyiX4min5" role="2OqNvi">
-                          <ref role="37wK5l" to="v8sa:7LvyiX4mikU" resolve="randomCreate" />
-                          <node concept="3cmrfG" id="7LvyiX4min6" role="37wK5m">
-                            <property role="3cmrfH" value="10" />
-                          </node>
-                        </node>
-                      </node>
-                      <node concept="2OqwBi" id="7LvyiX4min7" role="37vLTJ">
-                        <node concept="37vLTw" id="7LvyiX4min8" role="2Oq$k0">
-                          <ref role="3cqZAo" node="7LvyiX4mina" resolve="it" />
-                        </node>
-                        <node concept="3TrcHB" id="7LvyiX4min9" role="2OqNvi">
-                          <ref role="3TsBF5" to="jrxw:7LvyiX4miiD" resolve="id" />
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                </node>
-                <node concept="Rh6nW" id="7LvyiX4mina" role="1bW2Oz">
-                  <property role="TrG5h" value="it" />
-                  <node concept="2jxLKc" id="7LvyiX4minb" role="1tU5fm" />
-                </node>
-              </node>
             </node>
           </node>
         </node>
@@ -2623,14 +2556,14 @@
     </node>
   </node>
   <node concept="2S6QgY" id="L2v$sdbxG6">
-    <property role="TrG5h" value="ShowEffectedStatements" />
+    <property role="TrG5h" value="ShowAffectedStatements" />
     <property role="2ZfUl0" value="true" />
     <ref role="2ZfgGC" to="jrxw:7LvyiX4miiC" resolve="Statement" />
     <node concept="2S6ZIM" id="L2v$sdbxG7" role="2ZfVej">
       <node concept="3clFbS" id="L2v$sdbxG8" role="2VODD2">
         <node concept="3clFbF" id="L2v$sdbxOe" role="3cqZAp">
           <node concept="Xl_RD" id="L2v$sdbxOd" role="3clFbG">
-            <property role="Xl_RC" value="Show Statements That Would Be Effected by a Change" />
+            <property role="Xl_RC" value="Show Statements That Would Be Affected by a Change" />
           </node>
         </node>
       </node>
@@ -2824,14 +2757,14 @@
     </node>
   </node>
   <node concept="2S6QgY" id="L2v$sdgoAx">
-    <property role="TrG5h" value="ClearEffectedStatements" />
+    <property role="TrG5h" value="ClearAffectedStatements" />
     <property role="2ZfUl0" value="true" />
     <ref role="2ZfgGC" to="jrxw:7LvyiX4mii$" resolve="Analysis" />
     <node concept="2S6ZIM" id="L2v$sdgoAy" role="2ZfVej">
       <node concept="3clFbS" id="L2v$sdgoAz" role="2VODD2">
         <node concept="3clFbF" id="2xF4TVcWVf8" role="3cqZAp">
           <node concept="Xl_RD" id="2xF4TVcWVfa" role="3clFbG">
-            <property role="Xl_RC" value="Remove Markers for Effected Statements" />
+            <property role="Xl_RC" value="Remove Markers for Affected Statements" />
           </node>
         </node>
       </node>
@@ -2886,14 +2819,14 @@
     </node>
   </node>
   <node concept="2S6QgY" id="15COMTnnuK8">
-    <property role="TrG5h" value="ShowEffectedStatementsRScript" />
+    <property role="TrG5h" value="ShowAffectedStatementsRScript" />
     <property role="2ZfUl0" value="true" />
     <ref role="2ZfgGC" to="6q58:5mPDeVwiPap" resolve="Expr" />
     <node concept="2S6ZIM" id="15COMTnnuK9" role="2ZfVej">
       <node concept="3clFbS" id="15COMTnnuKa" role="2VODD2">
         <node concept="3clFbF" id="15COMTnnuKb" role="3cqZAp">
           <node concept="Xl_RD" id="15COMTnnuKc" role="3clFbG">
-            <property role="Xl_RC" value="Show Statements That Would Be Effected by a Change (RScript)" />
+            <property role="Xl_RC" value="Show Statements That Would Be Affected by a Change (RScript)" />
           </node>
         </node>
       </node>
@@ -3091,14 +3024,14 @@
     </node>
   </node>
   <node concept="2S6QgY" id="15COMTn$kE1">
-    <property role="TrG5h" value="ClearEffectedExpression" />
+    <property role="TrG5h" value="ClearAffectedExpression" />
     <property role="2ZfUl0" value="true" />
     <ref role="2ZfgGC" to="6q58:5mPDeVwiJFe" resolve="RScript" />
     <node concept="2S6ZIM" id="15COMTn$kE2" role="2ZfVej">
       <node concept="3clFbS" id="15COMTn$kE3" role="2VODD2">
         <node concept="3clFbF" id="15COMTn$kE4" role="3cqZAp">
           <node concept="Xl_RD" id="15COMTn$kE5" role="3clFbG">
-            <property role="Xl_RC" value="Remove Markers for Effected Expressions" />
+            <property role="Xl_RC" value="Remove Markers for Affected Expressions" />
           </node>
         </node>
       </node>
