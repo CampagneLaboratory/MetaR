@@ -11438,14 +11438,29 @@
                     </node>
                   </node>
                 </node>
-                <node concept="3clFbF" id="3eKzVSmyvHI" role="3cqZAp">
-                  <node concept="2OqwBi" id="3eKzVSmyvJu" role="3clFbG">
-                    <node concept="37vLTw" id="3eKzVSmyvHG" role="2Oq$k0">
-                      <ref role="3cqZAo" node="L2v$sdrkj3" resolve="m" />
+                <node concept="3clFbF" id="2yvMhGhqHy5" role="3cqZAp">
+                  <node concept="2OqwBi" id="2yvMhGhqHET" role="3clFbG">
+                    <node concept="2YIFZM" id="2yvMhGhqHBs" role="2Oq$k0">
+                      <ref role="37wK5l" to="bd8o:~ApplicationManager.getApplication():com.intellij.openapi.application.Application" resolve="getApplication" />
+                      <ref role="1Pybhc" to="bd8o:~ApplicationManager" resolve="ApplicationManager" />
                     </node>
-                    <node concept="3BYIHo" id="3eKzVSmyvQh" role="2OqNvi">
-                      <node concept="37vLTw" id="3eKzVSmyw34" role="3BYIHq">
-                        <ref role="3cqZAo" node="L2v$sdrkj9" resolve="rootNode" />
+                    <node concept="liA8E" id="2yvMhGhqHLf" role="2OqNvi">
+                      <ref role="37wK5l" to="bd8o:~Application.invokeLater(java.lang.Runnable):void" resolve="invokeLater" />
+                      <node concept="1bVj0M" id="2yvMhGhqI0b" role="37wK5m">
+                        <node concept="3clFbS" id="2yvMhGhqI0c" role="1bW5cS">
+                          <node concept="3clFbF" id="3eKzVSmyvHI" role="3cqZAp">
+                            <node concept="2OqwBi" id="3eKzVSmyvJu" role="3clFbG">
+                              <node concept="37vLTw" id="3eKzVSmyvHG" role="2Oq$k0">
+                                <ref role="3cqZAo" node="L2v$sdrkj3" resolve="m" />
+                              </node>
+                              <node concept="3BYIHo" id="3eKzVSmyvQh" role="2OqNvi">
+                                <node concept="37vLTw" id="3eKzVSmyw34" role="3BYIHq">
+                                  <ref role="3cqZAo" node="L2v$sdrkj9" resolve="rootNode" />
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                        </node>
                       </node>
                     </node>
                   </node>
