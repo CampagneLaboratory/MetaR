@@ -484,10 +484,14 @@
       <concept id="4079382982702596667" name="jetbrains.mps.baseLanguage.checkedDots.structure.CheckedDotExpression" flags="nn" index="2EnYce" />
     </language>
     <language id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures">
+      <concept id="1199542442495" name="jetbrains.mps.baseLanguage.closures.structure.FunctionType" flags="in" index="1ajhzC">
+        <child id="1199542457201" name="resultType" index="1ajl9A" />
+      </concept>
       <concept id="1199569711397" name="jetbrains.mps.baseLanguage.closures.structure.ClosureLiteral" flags="nn" index="1bVj0M">
         <child id="1199569906740" name="parameter" index="1bW2Oz" />
         <child id="1199569916463" name="body" index="1bW5cS" />
       </concept>
+      <concept id="1225797177491" name="jetbrains.mps.baseLanguage.closures.structure.InvokeFunctionOperation" flags="nn" index="1Bd96e" />
     </language>
     <language id="c7d5b9dd-a05f-4be2-bc73-f2e16994cc67" name="jetbrains.mps.baseLanguage.lightweightdsl">
       <concept id="8880393040217246788" name="jetbrains.mps.baseLanguage.lightweightdsl.structure.MethodParameterInstance" flags="ig" index="ffn8J">
@@ -13237,6 +13241,92 @@
     <property role="3GE5qa" value="changeListener" />
     <property role="TrG5h" value="MightBeDetached" />
     <node concept="3Tm1VV" id="7B51G8WbzAY" role="1B3o_S" />
+  </node>
+  <node concept="312cEu" id="2yvMhGgUDsn">
+    <property role="3GE5qa" value="changeListener" />
+    <property role="TrG5h" value="Util" />
+    <node concept="2YIFZL" id="2yvMhGgUDIx" role="jymVt">
+      <property role="TrG5h" value="backgroundTask" />
+      <property role="od$2w" value="false" />
+      <property role="DiZV1" value="false" />
+      <property role="2aFKle" value="false" />
+      <node concept="3clFbS" id="2yvMhGgUDI$" role="3clF47">
+        <node concept="3clFbF" id="2yvMhGgUDWr" role="3cqZAp">
+          <node concept="2OqwBi" id="2yvMhGgUDXA" role="3clFbG">
+            <node concept="2YIFZM" id="2yvMhGgUDWP" role="2Oq$k0">
+              <ref role="37wK5l" to="xygl:~ProgressManager.getInstance():com.intellij.openapi.progress.ProgressManager" resolve="getInstance" />
+              <ref role="1Pybhc" to="xygl:~ProgressManager" resolve="ProgressManager" />
+            </node>
+            <node concept="liA8E" id="2yvMhGgUDZS" role="2OqNvi">
+              <ref role="37wK5l" to="xygl:~ProgressManager.run(com.intellij.openapi.progress.Task):void" resolve="run" />
+              <node concept="2ShNRf" id="2yvMhGgUE69" role="37wK5m">
+                <node concept="YeOm9" id="2yvMhGgV7P1" role="2ShVmc">
+                  <node concept="1Y3b0j" id="2yvMhGgV7P4" role="YeSDq">
+                    <property role="2bfB8j" value="true" />
+                    <ref role="1Y3XeK" to="xygl:~Task$Backgroundable" resolve="Task.Backgroundable" />
+                    <ref role="37wK5l" to="xygl:~Task$Backgroundable.&lt;init&gt;(com.intellij.openapi.project.Project,java.lang.String)" resolve="Task.Backgroundable" />
+                    <node concept="3Tm1VV" id="2yvMhGgV7P5" role="1B3o_S" />
+                    <node concept="3clFb_" id="2yvMhGgV7P6" role="jymVt">
+                      <property role="1EzhhJ" value="false" />
+                      <property role="TrG5h" value="run" />
+                      <property role="DiZV1" value="false" />
+                      <property role="od$2w" value="false" />
+                      <node concept="3Tm1VV" id="2yvMhGgV7P7" role="1B3o_S" />
+                      <node concept="3cqZAl" id="2yvMhGgV7P9" role="3clF45" />
+                      <node concept="37vLTG" id="2yvMhGgV7Pa" role="3clF46">
+                        <property role="TrG5h" value="progressIndicator" />
+                        <node concept="3uibUv" id="2yvMhGgV7Pb" role="1tU5fm">
+                          <ref role="3uigEE" to="xygl:~ProgressIndicator" resolve="ProgressIndicator" />
+                        </node>
+                        <node concept="2AHcQZ" id="2yvMhGgV7Pc" role="2AJF6D">
+                          <ref role="2AI5Lk" to="mhfm:~NotNull" resolve="NotNull" />
+                        </node>
+                      </node>
+                      <node concept="3clFbS" id="2yvMhGgV7Pd" role="3clF47">
+                        <node concept="3clFbF" id="2yvMhGgVaaT" role="3cqZAp">
+                          <node concept="2OqwBi" id="2yvMhGgVayM" role="3clFbG">
+                            <node concept="37vLTw" id="2yvMhGgVaaS" role="2Oq$k0">
+                              <ref role="3cqZAo" node="2yvMhGgV936" resolve="code" />
+                            </node>
+                            <node concept="1Bd96e" id="2yvMhGgVazC" role="2OqNvi" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="37vLTw" id="2yvMhGgV8tR" role="37wK5m">
+                      <ref role="3cqZAo" node="2yvMhGgV83W" resolve="project" />
+                    </node>
+                    <node concept="37vLTw" id="2yvMhGgV8Zv" role="37wK5m">
+                      <ref role="3cqZAo" node="2yvMhGgV8vV" resolve="title" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="2yvMhGgUDyy" role="1B3o_S" />
+      <node concept="3cqZAl" id="2yvMhGgUDIr" role="3clF45" />
+      <node concept="37vLTG" id="2yvMhGgV936" role="3clF46">
+        <property role="TrG5h" value="code" />
+        <property role="3TUv4t" value="true" />
+        <node concept="1ajhzC" id="2yvMhGgV9bu" role="1tU5fm">
+          <node concept="3cqZAl" id="2yvMhGgV9hF" role="1ajl9A" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="2yvMhGgV8vV" role="3clF46">
+        <property role="TrG5h" value="title" />
+        <node concept="17QB3L" id="2yvMhGgV8AK" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="2yvMhGgV83W" role="3clF46">
+        <property role="TrG5h" value="project" />
+        <node concept="3uibUv" id="2yvMhGgV83V" role="1tU5fm">
+          <ref role="3uigEE" to="4nm9:~Project" resolve="Project" />
+        </node>
+      </node>
+    </node>
+    <node concept="3Tm1VV" id="2yvMhGgUDso" role="1B3o_S" />
   </node>
 </model>
 
