@@ -15,6 +15,7 @@
     <use id="f3347d8a-0e79-4f35-8ac9-1574f25c986f" name="jetbrains.mps.execution.commands" version="-1" />
     <use id="d7a92d38-f7db-40d0-8431-763b0c3c9f20" name="jetbrains.mps.lang.intentions" version="0" />
     <use id="13744753-c81f-424a-9c1b-cf8943bf4e86" name="jetbrains.mps.lang.sharedConcepts" version="0" />
+    <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="2" />
   </languages>
   <imports>
     <import index="hfuk" ref="r:b25dd364-bc3f-4a66-97d1-262009610c5e(jetbrains.mps.make)" />
@@ -495,6 +496,37 @@
       </concept>
       <concept id="1225797177491" name="jetbrains.mps.baseLanguage.closures.structure.InvokeFunctionOperation" flags="nn" index="1Bd96e" />
     </language>
+    <language id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc">
+      <concept id="5858074156537516430" name="jetbrains.mps.baseLanguage.javadoc.structure.ReturnBlockDocTag" flags="ng" index="x79VA">
+        <property id="5858074156537516431" name="text" index="x79VB" />
+      </concept>
+      <concept id="6832197706140518104" name="jetbrains.mps.baseLanguage.javadoc.structure.DocMethodParameterReference" flags="ng" index="zr_55" />
+      <concept id="6832197706140518103" name="jetbrains.mps.baseLanguage.javadoc.structure.BaseParameterReference" flags="ng" index="zr_5a">
+        <reference id="6832197706140518108" name="param" index="zr_51" />
+      </concept>
+      <concept id="5349172909345501395" name="jetbrains.mps.baseLanguage.javadoc.structure.BaseDocComment" flags="ng" index="P$AiS">
+        <child id="8465538089690331502" name="body" index="TZ5H$" />
+        <child id="5383422241790532083" name="tags" index="3nqlJM" />
+      </concept>
+      <concept id="5349172909345532724" name="jetbrains.mps.baseLanguage.javadoc.structure.MethodDocComment" flags="ng" index="P$JXv">
+        <child id="5858074156537516440" name="return" index="x79VK" />
+        <child id="8465538089690917625" name="param" index="TUOzN" />
+      </concept>
+      <concept id="8465538089690881930" name="jetbrains.mps.baseLanguage.javadoc.structure.ParameterBlockDocTag" flags="ng" index="TUZQ0">
+        <property id="8465538089690881934" name="text" index="TUZQ4" />
+        <child id="6832197706140518123" name="parameter" index="zr_5Q" />
+      </concept>
+      <concept id="8465538089690331500" name="jetbrains.mps.baseLanguage.javadoc.structure.CommentLine" flags="ng" index="TZ5HA">
+        <child id="8970989240999019149" name="part" index="1dT_Ay" />
+      </concept>
+      <concept id="8465538089690331492" name="jetbrains.mps.baseLanguage.javadoc.structure.DeprecatedBlockDocTag" flags="ng" index="TZ5HI">
+        <child id="2667874559098216723" name="text" index="3HnX3l" />
+      </concept>
+      <concept id="8970989240999019143" name="jetbrains.mps.baseLanguage.javadoc.structure.TextCommentLinePart" flags="ng" index="1dT_AC">
+        <property id="8970989240999019144" name="text" index="1dT_AB" />
+      </concept>
+      <concept id="2068944020170241612" name="jetbrains.mps.baseLanguage.javadoc.structure.ClassifierDocComment" flags="ng" index="3UR2Jj" />
+    </language>
     <language id="c7d5b9dd-a05f-4be2-bc73-f2e16994cc67" name="jetbrains.mps.baseLanguage.lightweightdsl">
       <concept id="8880393040217246788" name="jetbrains.mps.baseLanguage.lightweightdsl.structure.MethodParameterInstance" flags="ig" index="ffn8J">
         <reference id="8880393040217294897" name="decl" index="ffrpq" />
@@ -778,6 +810,31 @@
         <property role="TrG5h" value="value" />
         <node concept="17QB3L" id="7d3kpy2bdNN" role="1tU5fm" />
       </node>
+      <node concept="P$JXv" id="2yvMhGhttZx" role="lGtFl">
+        <node concept="TZ5HA" id="2yvMhGhttZy" role="TZ5H$">
+          <node concept="1dT_AC" id="2yvMhGhttZz" role="1dT_Ay">
+            <property role="1dT_AB" value="Sets a temporary property for a node that can only be accessed in the generation phase." />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="2yvMhGhttZ$" role="TUOzN">
+          <property role="TUZQ4" value="node" />
+          <node concept="zr_55" id="2yvMhGhttZA" role="zr_5Q">
+            <ref role="zr_51" node="7d3kpy2aIwN" resolve="node" />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="2yvMhGhttZB" role="TUOzN">
+          <property role="TUZQ4" value="key" />
+          <node concept="zr_55" id="2yvMhGhttZD" role="zr_5Q">
+            <ref role="zr_51" node="7d3kpy2gfPA" resolve="key" />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="2yvMhGhttZE" role="TUOzN">
+          <property role="TUZQ4" value="value" />
+          <node concept="zr_55" id="2yvMhGhttZG" role="zr_5Q">
+            <ref role="zr_51" node="7d3kpy2bdIi" resolve="value" />
+          </node>
+        </node>
+      </node>
     </node>
     <node concept="2tJIrI" id="7d3kpy2gmxr" role="jymVt" />
     <node concept="2YIFZL" id="7d3kpy2gm$H" role="jymVt">
@@ -847,6 +904,28 @@
           <ref role="3uigEE" node="7d3kpy2g8lS" resolve="UserObject" />
         </node>
       </node>
+      <node concept="P$JXv" id="2yvMhGhtu0N" role="lGtFl">
+        <node concept="TZ5HA" id="2yvMhGhtu0O" role="TZ5H$">
+          <node concept="1dT_AC" id="2yvMhGhtu0P" role="1dT_Ay">
+            <property role="1dT_AB" value="Gets a temporary property for a node that can only be accessed in the generation phase." />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="2yvMhGhtu0Q" role="TUOzN">
+          <property role="TUZQ4" value="node" />
+          <node concept="zr_55" id="2yvMhGhtu0S" role="zr_5Q">
+            <ref role="zr_51" node="7d3kpy2gm$S" resolve="node" />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="2yvMhGhtu0T" role="TUOzN">
+          <property role="TUZQ4" value="key" />
+          <node concept="zr_55" id="2yvMhGhtu0V" role="zr_5Q">
+            <ref role="zr_51" node="7d3kpy2gm$U" resolve="key" />
+          </node>
+        </node>
+        <node concept="x79VA" id="2yvMhGhtu0W" role="x79VK">
+          <property role="x79VB" value="Object" />
+        </node>
+      </node>
     </node>
     <node concept="2tJIrI" id="7d3kpy2gmz3" role="jymVt" />
     <node concept="2tJIrI" id="klQnOm74w$" role="jymVt" />
@@ -884,6 +963,22 @@
       <node concept="37vLTG" id="52J4nYvPkos" role="3clF46">
         <property role="TrG5h" value="node" />
         <node concept="3Tqbb2" id="52J4nYvPkot" role="1tU5fm" />
+      </node>
+      <node concept="P$JXv" id="2yvMhGhtrKz" role="lGtFl">
+        <node concept="TZ5HA" id="2yvMhGhtrK$" role="TZ5H$">
+          <node concept="1dT_AC" id="2yvMhGhtrK_" role="1dT_Ay">
+            <property role="1dT_AB" value="Checks if a node could be used with instant refresh. " />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="2yvMhGhtrKA" role="TUOzN">
+          <property role="TUZQ4" value="node that could contain this information" />
+          <node concept="zr_55" id="2yvMhGhtrKC" role="zr_5Q">
+            <ref role="zr_51" node="52J4nYvPkos" resolve="node" />
+          </node>
+        </node>
+        <node concept="x79VA" id="2yvMhGhtrKD" role="x79VK">
+          <property role="x79VB" value="boolean" />
+        </node>
       </node>
     </node>
     <node concept="2tJIrI" id="7RnpF1NUmEb" role="jymVt" />
@@ -995,6 +1090,28 @@
         <property role="TrG5h" value="model" />
         <node concept="H_c77" id="52J4nYvMeAt" role="1tU5fm" />
       </node>
+      <node concept="P$JXv" id="2yvMhGhtrL_" role="lGtFl">
+        <node concept="TZ5HA" id="2yvMhGhtrLA" role="TZ5H$">
+          <node concept="1dT_AC" id="2yvMhGhtrLB" role="1dT_Ay">
+            <property role="1dT_AB" value="Returns a list of all sessions inside a specific directory" />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="2yvMhGhtrLC" role="TUOzN">
+          <property role="TUZQ4" value="path to directory that contains session files" />
+          <node concept="zr_55" id="2yvMhGhtrLE" role="zr_5Q">
+            <ref role="zr_51" node="52J4nYvLcft" resolve="resultsDir" />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="2yvMhGhtrLF" role="TUOzN">
+          <property role="TUZQ4" value="model" />
+          <node concept="zr_55" id="2yvMhGhtrLH" role="zr_5Q">
+            <ref role="zr_51" node="52J4nYvMet1" resolve="model" />
+          </node>
+        </node>
+        <node concept="x79VA" id="2yvMhGhtrLI" role="x79VK">
+          <property role="x79VB" value="list of files" />
+        </node>
+      </node>
     </node>
     <node concept="3Tm1VV" id="7d3kpy2arRu" role="1B3o_S" />
   </node>
@@ -1007,6 +1124,13 @@
       <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
     </node>
     <node concept="3Tm1VV" id="7d3kpy2g8lT" role="1B3o_S" />
+    <node concept="3UR2Jj" id="2yvMhGhtoDy" role="lGtFl">
+      <node concept="TZ5HA" id="2yvMhGhtoDz" role="TZ5H$">
+        <node concept="1dT_AC" id="2yvMhGhtoD$" role="1dT_Ay">
+          <property role="1dT_AB" value="Enum that allows to give names to additional properties that can be read in the generation phase." />
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="312cEu" id="7jqSt7yalTx">
     <property role="TrG5h" value="PageComponent" />
@@ -1766,11 +1890,17 @@
     <node concept="3uibUv" id="7jqSt7$Ni5b" role="1zkMxy">
       <ref role="3uigEE" to="qqrq:~JBPanel" resolve="JBPanel" />
     </node>
+    <node concept="3UR2Jj" id="2yvMhGhtlsD" role="lGtFl">
+      <node concept="TZ5HA" id="2yvMhGhtlsE" role="TZ5H$">
+        <node concept="1dT_AC" id="2yvMhGhtlsF" role="1dT_Ay">
+          <property role="1dT_AB" value="Panel that is used to display the instant refresh preferences." />
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="312cEu" id="2n6JwcGgj0g">
     <property role="TrG5h" value="ChangedNodesHelper" />
     <property role="3GE5qa" value="utility" />
-    <node concept="2tJIrI" id="15COMTnRY9g" role="jymVt" />
     <node concept="2tJIrI" id="6CA2KfgYWjY" role="jymVt" />
     <node concept="2YIFZL" id="6CA2KfgYWVn" role="jymVt">
       <property role="TrG5h" value="isIgnoredNode" />
@@ -1797,6 +1927,11 @@
                 <node concept="1xIGOp" id="15COMTnQptP" role="1xVPHs" />
               </node>
             </node>
+          </node>
+        </node>
+        <node concept="3SKdUt" id="2yvMhGhtwEI" role="3cqZAp">
+          <node concept="3SKdUq" id="2yvMhGhtwEJ" role="3SKWNk">
+            <property role="3SKdUp" value="ignore changes in temporary instant refresh node" />
           </node>
         </node>
         <node concept="3clFbJ" id="15COMTmWX8v" role="3cqZAp">
@@ -1843,6 +1978,22 @@
       <node concept="37vLTG" id="6CA2KfgYXfq" role="3clF46">
         <property role="TrG5h" value="node" />
         <node concept="3Tqbb2" id="6CA2KfgYXfp" role="1tU5fm" />
+      </node>
+      <node concept="P$JXv" id="2yvMhGhtw$k" role="lGtFl">
+        <node concept="TZ5HA" id="2yvMhGhtw$l" role="TZ5H$">
+          <node concept="1dT_AC" id="2yvMhGhtw$m" role="1dT_Ay">
+            <property role="1dT_AB" value="Returns true if a node should not be considered as a node with any side effects (e.g. comment)" />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="2yvMhGhtw$n" role="TUOzN">
+          <property role="TUZQ4" value="node" />
+          <node concept="zr_55" id="2yvMhGhtw$p" role="zr_5Q">
+            <ref role="zr_51" node="6CA2KfgYXfq" resolve="node" />
+          </node>
+        </node>
+        <node concept="x79VA" id="2yvMhGhtw$q" role="x79VK">
+          <property role="x79VB" value="boolean" />
+        </node>
       </node>
     </node>
     <node concept="2tJIrI" id="L2v$sd4jQq" role="jymVt" />
@@ -1932,6 +2083,27 @@
         <property role="TrG5h" value="node" />
         <node concept="3Tqbb2" id="L2v$sd4kNG" role="1tU5fm" />
       </node>
+      <node concept="P$JXv" id="2yvMhGhtwX6" role="lGtFl">
+        <node concept="TZ5HA" id="2yvMhGhtwX7" role="TZ5H$">
+          <node concept="1dT_AC" id="2yvMhGhtwX8" role="1dT_Ay">
+            <property role="1dT_AB" value="Returns a list of nodes that are children of the current node and can be referenced by other nodes" />
+          </node>
+        </node>
+        <node concept="TZ5HA" id="2yvMhGhtxCW" role="TZ5H$">
+          <node concept="1dT_AC" id="2yvMhGhtxCX" role="1dT_Ay">
+            <property role="1dT_AB" value="Examples: declared variables in RScript nodes, generated tables in Analysis nodes" />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="2yvMhGhtwX9" role="TUOzN">
+          <property role="TUZQ4" value="node" />
+          <node concept="zr_55" id="2yvMhGhtwXb" role="zr_5Q">
+            <ref role="zr_51" node="L2v$sd4kNH" resolve="node" />
+          </node>
+        </node>
+        <node concept="x79VA" id="2yvMhGhtwXc" role="x79VK">
+          <property role="x79VB" value="list of nodes" />
+        </node>
+      </node>
     </node>
     <node concept="2tJIrI" id="5NwG7t5wRXk" role="jymVt" />
     <node concept="2YIFZL" id="15COMTnHBkU" role="jymVt">
@@ -2000,6 +2172,28 @@
       <node concept="37vLTG" id="15COMTnHEFt" role="3clF46">
         <property role="TrG5h" value="node" />
         <node concept="3Tqbb2" id="15COMTnHESn" role="1tU5fm" />
+      </node>
+      <node concept="P$JXv" id="2yvMhGhtxDa" role="lGtFl">
+        <node concept="TZ5HA" id="2yvMhGhtxDb" role="TZ5H$">
+          <node concept="1dT_AC" id="2yvMhGhtxDc" role="1dT_Ay">
+            <property role="1dT_AB" value="Invokes the find usage manager that finds other nodes that reference the current node" />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="2yvMhGhtxDd" role="TUOzN">
+          <property role="TUZQ4" value="model" />
+          <node concept="zr_55" id="2yvMhGhtxDf" role="zr_5Q">
+            <ref role="zr_51" node="15COMTnHEEf" resolve="model" />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="2yvMhGhtxDg" role="TUOzN">
+          <property role="TUZQ4" value="node" />
+          <node concept="zr_55" id="2yvMhGhtxDi" role="zr_5Q">
+            <ref role="zr_51" node="15COMTnHEFt" resolve="node" />
+          </node>
+        </node>
+        <node concept="x79VA" id="2yvMhGhtxDj" role="x79VK">
+          <property role="x79VB" value="list of references" />
+        </node>
       </node>
     </node>
     <node concept="2tJIrI" id="15COMTnIRFZ" role="jymVt" />
@@ -2084,6 +2278,33 @@
       <node concept="37vLTG" id="15COMTnIoWj" role="3clF46">
         <property role="TrG5h" value="changedUnit" />
         <node concept="3Tqbb2" id="15COMTnIpMb" role="1tU5fm" />
+      </node>
+      <node concept="P$JXv" id="2yvMhGhtxSc" role="lGtFl">
+        <node concept="TZ5HA" id="2yvMhGhtxSd" role="TZ5H$">
+          <node concept="1dT_AC" id="2yvMhGhtxSe" role="1dT_Ay">
+            <property role="1dT_AB" value="Get the first child of an RScript or Analysis node that is an ancestor of the changed unit and" />
+          </node>
+        </node>
+        <node concept="TZ5HA" id="2yvMhGhty4Z" role="TZ5H$">
+          <node concept="1dT_AC" id="2yvMhGhty50" role="1dT_Ay">
+            <property role="1dT_AB" value="has to be rerun as a full node." />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="2yvMhGhtxSf" role="TUOzN">
+          <property role="TUZQ4" value="source node that references the changed node" />
+          <node concept="zr_55" id="2yvMhGhtxSh" role="zr_5Q">
+            <ref role="zr_51" node="15COMTnHV1m" resolve="sourceNode" />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="2yvMhGhtxSi" role="TUOzN">
+          <property role="TUZQ4" value="changed node" />
+          <node concept="zr_55" id="2yvMhGhtxSk" role="zr_5Q">
+            <ref role="zr_51" node="15COMTnIoWj" resolve="changedUnit" />
+          </node>
+        </node>
+        <node concept="x79VA" id="2yvMhGhtxSl" role="x79VK">
+          <property role="x79VB" value="node" />
+        </node>
       </node>
     </node>
     <node concept="2tJIrI" id="3gtMiDCy1M0" role="jymVt" />
@@ -2206,6 +2427,28 @@
         <property role="TrG5h" value="parent" />
         <node concept="3Tqbb2" id="7B51G8Wb_Dc" role="1tU5fm" />
       </node>
+      <node concept="P$JXv" id="2yvMhGhtzL0" role="lGtFl">
+        <node concept="TZ5HA" id="2yvMhGhtzL1" role="TZ5H$">
+          <node concept="1dT_AC" id="2yvMhGhtzL2" role="1dT_Ay">
+            <property role="1dT_AB" value="See: getSourceUnit" />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="2yvMhGhtzL3" role="TUOzN">
+          <property role="TUZQ4" value="node" />
+          <node concept="zr_55" id="2yvMhGhtzL5" role="zr_5Q">
+            <ref role="zr_51" node="3gtMiDCy3oH" resolve="node" />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="2yvMhGhtzL6" role="TUOzN">
+          <property role="TUZQ4" value="parent of node" />
+          <node concept="zr_55" id="2yvMhGhtzL8" role="zr_5Q">
+            <ref role="zr_51" node="7B51G8Wb$$U" resolve="parent" />
+          </node>
+        </node>
+        <node concept="x79VA" id="2yvMhGhtzL9" role="x79VK">
+          <property role="x79VB" value="node" />
+        </node>
+      </node>
     </node>
     <node concept="2tJIrI" id="15COMTnHQjN" role="jymVt" />
     <node concept="2YIFZL" id="15COMTnouiA" role="jymVt">
@@ -2241,6 +2484,11 @@
                 </node>
               </node>
             </node>
+          </node>
+        </node>
+        <node concept="3SKdUt" id="2yvMhGhtA5t" role="3cqZAp">
+          <node concept="3SKdUq" id="2yvMhGhtA5u" role="3SKWNk">
+            <property role="3SKdUp" value="check if root of the change can be referenced by other expressions" />
           </node>
         </node>
         <node concept="3cpWs8" id="15COMTnouiC" role="3cqZAp">
@@ -2279,6 +2527,11 @@
             </node>
           </node>
         </node>
+        <node concept="3SKdUt" id="2yvMhGhtBwp" role="3cqZAp">
+          <node concept="3SKdUq" id="2yvMhGhtBwq" role="3SKWNk">
+            <property role="3SKdUp" value="if it can't be referenced, add it to the changelog" />
+          </node>
+        </node>
         <node concept="3clFbJ" id="3gtMiDCgydj" role="3cqZAp">
           <node concept="3clFbS" id="3gtMiDCgydl" role="3clFbx">
             <node concept="3clFbF" id="2xF4TVcC5db" role="3cqZAp">
@@ -2299,6 +2552,12 @@
               <ref role="3cqZAo" node="15COMTnouiD" resolve="changedExprWithChildren" />
             </node>
             <node concept="3w_OXm" id="3gtMiDCgyQ_" role="2OqNvi" />
+          </node>
+        </node>
+        <node concept="3clFbH" id="2yvMhGhtDJO" role="3cqZAp" />
+        <node concept="3SKdUt" id="2yvMhGhtD95" role="3cqZAp">
+          <node concept="3SKdUq" id="2yvMhGhtD96" role="3SKWNk">
+            <property role="3SKdUp" value="find nearest session" />
           </node>
         </node>
         <node concept="3cpWs8" id="2xF4TVcEAxO" role="3cqZAp">
@@ -2349,6 +2608,12 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbH" id="2yvMhGhtFPt" role="3cqZAp" />
+        <node concept="3SKdUt" id="2yvMhGhtF0K" role="3cqZAp">
+          <node concept="3SKdUq" id="2yvMhGhtF0L" role="3SKWNk">
+            <property role="3SKdUp" value="get all child nodes that can be references" />
+          </node>
+        </node>
         <node concept="3clFbF" id="15COMTnoH6L" role="3cqZAp">
           <node concept="2OqwBi" id="15COMTnoHuu" role="3clFbG">
             <node concept="X8dFx" id="3gtMiDCg$G8" role="2OqNvi">
@@ -2366,6 +2631,7 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbH" id="2yvMhGhtGzu" role="3cqZAp" />
         <node concept="3clFbF" id="15COMTnIwfo" role="3cqZAp">
           <node concept="1rXfSq" id="15COMTnIwfm" role="3clFbG">
             <ref role="37wK5l" node="15COMTnHRKv" resolve="findChangesGeneral" />
@@ -2541,6 +2807,37 @@
         <property role="TrG5h" value="parent" />
         <node concept="3Tqbb2" id="7B51G8WbNuG" role="1tU5fm" />
       </node>
+      <node concept="P$JXv" id="2yvMhGht$zc" role="lGtFl">
+        <node concept="TZ5HA" id="2yvMhGht$zd" role="TZ5H$">
+          <node concept="1dT_AC" id="2yvMhGht$ze" role="1dT_Ay">
+            <property role="1dT_AB" value="Find all expressions that are affected by a single changed expression." />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="2yvMhGht$zf" role="TUOzN">
+          <property role="TUZQ4" value="set of changed nodes" />
+          <node concept="zr_55" id="2yvMhGht$zh" role="zr_5Q">
+            <ref role="zr_51" node="15COMTnoukD" resolve="changelog" />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="2yvMhGht$zi" role="TUOzN">
+          <property role="TUZQ4" value="either Analysis or RScript" />
+          <node concept="zr_55" id="2yvMhGht$zk" role="zr_5Q">
+            <ref role="zr_51" node="15COMTnoukG" resolve="root" />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="2yvMhGht$zl" role="TUOzN">
+          <property role="TUZQ4" value="changed node" />
+          <node concept="zr_55" id="2yvMhGht$zn" role="zr_5Q">
+            <ref role="zr_51" node="15COMTnoukI" resolve="change" />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="2yvMhGht$zo" role="TUOzN">
+          <property role="TUZQ4" value="parent of changed node" />
+          <node concept="zr_55" id="2yvMhGht$zq" role="zr_5Q">
+            <ref role="zr_51" node="7B51G8WbNuF" resolve="parent" />
+          </node>
+        </node>
+      </node>
     </node>
     <node concept="2tJIrI" id="1e0sE7QWrLA" role="jymVt" />
     <node concept="2YIFZL" id="1e0sE7QWs_v" role="jymVt">
@@ -2549,6 +2846,7 @@
       <property role="DiZV1" value="false" />
       <property role="2aFKle" value="false" />
       <node concept="3clFbS" id="1e0sE7QWs_y" role="3clF47">
+        <node concept="3clFbH" id="2yvMhGhtHAC" role="3cqZAp" />
         <node concept="3clFbF" id="3gtMiDCw_Y3" role="3cqZAp">
           <node concept="2OqwBi" id="3gtMiDCwE3O" role="3clFbG">
             <node concept="2OqwBi" id="3gtMiDCwBEN" role="2Oq$k0">
@@ -2635,6 +2933,16 @@
                     </node>
                   </node>
                   <node concept="3clFbH" id="1e0sE7QVWQ1" role="3cqZAp" />
+                  <node concept="3SKdUt" id="2yvMhGhtJ0Y" role="3cqZAp">
+                    <node concept="3SKdUq" id="2yvMhGhtJ0Z" role="3SKWNk">
+                      <property role="3SKdUp" value="the minimum index is the lowest index of an expression root that has to be included as a changed node." />
+                    </node>
+                  </node>
+                  <node concept="3SKdUt" id="2yvMhGhtRrR" role="3cqZAp">
+                    <node concept="3SKdUq" id="2yvMhGhtRrS" role="3SKWNk">
+                      <property role="3SKdUp" value="It is either the index of the expression root of the first changed not or the index of the nearest session." />
+                    </node>
+                  </node>
                   <node concept="3cpWs8" id="2xF4TVcEyIb" role="3cqZAp">
                     <node concept="3cpWsn" id="2xF4TVcEyIe" role="3cpWs9">
                       <property role="TrG5h" value="minIndex" />
@@ -2697,8 +3005,18 @@
                     </node>
                   </node>
                   <node concept="3clFbH" id="1e0sE7QYcM3" role="3cqZAp" />
+                  <node concept="3SKdUt" id="2yvMhGhu1JV" role="3cqZAp">
+                    <node concept="3SKdUq" id="2yvMhGhu1JW" role="3SKWNk">
+                      <property role="3SKdUp" value="the reference has to be in the same model to be considered a change" />
+                    </node>
+                  </node>
                   <node concept="3clFbJ" id="1e0sE7QYBjJ" role="3cqZAp">
                     <node concept="3clFbS" id="1e0sE7QYBjL" role="3clFbx">
+                      <node concept="3SKdUt" id="2yvMhGhuHEW" role="3cqZAp">
+                        <node concept="3SKdUq" id="2yvMhGhuHEX" role="3SKWNk">
+                          <property role="3SKdUp" value="add identifier reference to the changelog if its identifier declaration is a indirectly referenced variable." />
+                        </node>
+                      </node>
                       <node concept="3cpWs8" id="1e0sE7R5x9$" role="3cqZAp">
                         <node concept="3cpWsn" id="1e0sE7R5x9B" role="3cpWs9">
                           <property role="TrG5h" value="positionalCond" />
@@ -2744,6 +3062,11 @@
                       </node>
                       <node concept="3clFbJ" id="3gtMiDCxiCG" role="3cqZAp">
                         <node concept="3clFbS" id="3gtMiDCxiCI" role="3clFbx">
+                          <node concept="3SKdUt" id="2yvMhGhurYR" role="3cqZAp">
+                            <node concept="3SKdUq" id="2yvMhGhurYS" role="3SKWNk">
+                              <property role="3SKdUp" value="add identifier to the list of indirectly referenced variables if a reference to it is a changed node." />
+                            </node>
+                          </node>
                           <node concept="3clFbF" id="1e0sE7QZxca" role="3cqZAp">
                             <node concept="1rXfSq" id="1e0sE7QZxc8" role="3clFbG">
                               <ref role="37wK5l" node="1e0sE7QZa$I" resolve="addToSetIf" />
@@ -2759,6 +3082,11 @@
                               <node concept="37vLTw" id="1e0sE7QZzex" role="37wK5m">
                                 <ref role="3cqZAo" node="1e0sE7QWyr8" resolve="changedVariables" />
                               </node>
+                            </node>
+                          </node>
+                          <node concept="3SKdUt" id="2yvMhGhuldD" role="3cqZAp">
+                            <node concept="3SKdUq" id="2yvMhGhuldE" role="3SKWNk">
+                              <property role="3SKdUp" value="add root of identifier declaration to changelog if its index is higher than the minimum index" />
                             </node>
                           </node>
                           <node concept="3clFbF" id="1e0sE7QZsQx" role="3cqZAp">
@@ -2847,6 +3175,43 @@
           <ref role="ehGHo" to="6q58:5mPDeVwiJFe" resolve="RScript" />
         </node>
       </node>
+      <node concept="P$JXv" id="2yvMhGhtHj$" role="lGtFl">
+        <node concept="TZ5HA" id="2yvMhGhtHj_" role="TZ5H$">
+          <node concept="1dT_AC" id="2yvMhGhtHjA" role="1dT_Ay">
+            <property role="1dT_AB" value="Add all variable references to the changelog that directly or indirectly reference changed nodes." />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="2yvMhGhtHjB" role="TUOzN">
+          <property role="TUZQ4" value="set of changed nodes" />
+          <node concept="zr_55" id="2yvMhGhtHjD" role="zr_5Q">
+            <ref role="zr_51" node="1e0sE7QWPl4" resolve="changelog" />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="2yvMhGhtHjE" role="TUOzN">
+          <property role="TUZQ4" value="nodes that are referenced but don't need to be rerun." />
+          <node concept="zr_55" id="2yvMhGhtHjG" role="zr_5Q">
+            <ref role="zr_51" node="1e0sE7QWyr8" resolve="changedVariables" />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="2yvMhGhtHjH" role="TUOzN">
+          <property role="TUZQ4" value="session node" />
+          <node concept="zr_55" id="2yvMhGhtHjJ" role="zr_5Q">
+            <ref role="zr_51" node="1e0sE7QWRxk" resolve="session" />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="2yvMhGhtHjK" role="TUOzN">
+          <property role="TUZQ4" value="changed expression" />
+          <node concept="zr_55" id="2yvMhGhtHjM" role="zr_5Q">
+            <ref role="zr_51" node="1e0sE7QWV56" resolve="changedExpr" />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="2yvMhGhtHjN" role="TUOzN">
+          <property role="TUZQ4" value="either Analysis or RScript" />
+          <node concept="zr_55" id="2yvMhGhtHjP" role="zr_5Q">
+            <ref role="zr_51" node="1e0sE7QWLBt" resolve="root" />
+          </node>
+        </node>
+      </node>
     </node>
     <node concept="2tJIrI" id="1e0sE7QY7jj" role="jymVt" />
     <node concept="2YIFZL" id="1e0sE7QZa$I" role="jymVt">
@@ -2889,6 +3254,31 @@
         <property role="TrG5h" value="set" />
         <node concept="2hMVRd" id="1e0sE7QZfnM" role="1tU5fm">
           <node concept="3Tqbb2" id="1e0sE7QZfnO" role="2hN53Y" />
+        </node>
+      </node>
+      <node concept="P$JXv" id="2yvMhGhu3Iu" role="lGtFl">
+        <node concept="TZ5HA" id="2yvMhGhu3Iv" role="TZ5H$">
+          <node concept="1dT_AC" id="2yvMhGhu3Iw" role="1dT_Ay">
+            <property role="1dT_AB" value="Add node to a set if it satisfies the condition" />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="2yvMhGhu3Ix" role="TUOzN">
+          <property role="TUZQ4" value="condition" />
+          <node concept="zr_55" id="2yvMhGhu3Iz" role="zr_5Q">
+            <ref role="zr_51" node="1e0sE7QZbgE" resolve="condition" />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="2yvMhGhu3I$" role="TUOzN">
+          <property role="TUZQ4" value="node" />
+          <node concept="zr_55" id="2yvMhGhu3IA" role="zr_5Q">
+            <ref role="zr_51" node="1e0sE7QZd86" resolve="node" />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="2yvMhGhu3IB" role="TUOzN">
+          <property role="TUZQ4" value="set of nodes" />
+          <node concept="zr_55" id="2yvMhGhu3ID" role="zr_5Q">
+            <ref role="zr_51" node="1e0sE7QZaWx" resolve="set" />
+          </node>
         </node>
       </node>
     </node>
@@ -3010,6 +3400,11 @@
             </node>
           </node>
         </node>
+        <node concept="3SKdUt" id="2yvMhGhu6ff" role="3cqZAp">
+          <node concept="3SKdUq" id="2yvMhGhu6fg" role="3SKWNk">
+            <property role="3SKdUp" value="If the changed not doesn't have any children that can be references, we can stop here." />
+          </node>
+        </node>
         <node concept="3clFbJ" id="15COMTnT59y" role="3cqZAp">
           <node concept="3clFbS" id="15COMTnT59$" role="3clFbx">
             <node concept="3cpWs6" id="15COMTnT7b7" role="3cqZAp" />
@@ -3085,6 +3480,11 @@
                                 </node>
                               </node>
                             </node>
+                            <node concept="3SKdUt" id="2yvMhGhujny" role="3cqZAp">
+                              <node concept="3SKdUq" id="2yvMhGhujnz" role="3SKWNk">
+                                <property role="3SKdUp" value="TODO find out what this line does and document it" />
+                              </node>
+                            </node>
                             <node concept="3clFbJ" id="1e0sE7P1W8M" role="3cqZAp">
                               <node concept="3clFbS" id="1e0sE7P1W8O" role="3clFbx">
                                 <node concept="3cpWs6" id="1e0sE7P1XAf" role="3cqZAp" />
@@ -3110,6 +3510,11 @@
                                     <ref role="3cqZAo" node="15COMTnHS5M" resolve="changedUnit" />
                                   </node>
                                 </node>
+                              </node>
+                            </node>
+                            <node concept="3SKdUt" id="2yvMhGhu6Ka" role="3cqZAp">
+                              <node concept="3SKdUq" id="2yvMhGhu6Kb" role="3SKWNk">
+                                <property role="3SKdUp" value="add changed node to temporary list if it is a new change" />
                               </node>
                             </node>
                             <node concept="3clFbJ" id="15COMTnHSca" role="3cqZAp">
@@ -3167,6 +3572,11 @@
           </node>
         </node>
         <node concept="3clFbH" id="15COMTnHScu" role="3cqZAp" />
+        <node concept="3SKdUt" id="2yvMhGhuawl" role="3cqZAp">
+          <node concept="3SKdUq" id="2yvMhGhuawm" role="3SKWNk">
+            <property role="3SKdUp" value="add all changes from the temporary list to the actual changelog" />
+          </node>
+        </node>
         <node concept="3clFbF" id="15COMTnHScv" role="3cqZAp">
           <node concept="2OqwBi" id="15COMTnHScw" role="3clFbG">
             <node concept="37vLTw" id="15COMTnHScx" role="2Oq$k0">
@@ -3177,6 +3587,11 @@
                 <ref role="3cqZAo" node="15COMTnHSbw" resolve="newChanges" />
               </node>
             </node>
+          </node>
+        </node>
+        <node concept="3SKdUt" id="2yvMhGhucPL" role="3cqZAp">
+          <node concept="3SKdUq" id="2yvMhGhucPM" role="3SKWNk">
+            <property role="3SKdUp" value="recursively find changes for each new found affected node." />
           </node>
         </node>
         <node concept="3clFbF" id="15COMTnHSc$" role="3cqZAp">
@@ -3213,6 +3628,31 @@
       </node>
       <node concept="3Tm1VV" id="15COMTnHRsN" role="1B3o_S" />
       <node concept="3cqZAl" id="15COMTnHRKt" role="3clF45" />
+      <node concept="P$JXv" id="2yvMhGhu4Cj" role="lGtFl">
+        <node concept="TZ5HA" id="2yvMhGhu4Ck" role="TZ5H$">
+          <node concept="1dT_AC" id="2yvMhGhu4Cl" role="1dT_Ay">
+            <property role="1dT_AB" value="Find all nodes that are affected by a single change" />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="2yvMhGhu4Cm" role="TUOzN">
+          <property role="TUZQ4" value="set of changed nodes" />
+          <node concept="zr_55" id="2yvMhGhu4Co" role="zr_5Q">
+            <ref role="zr_51" node="15COMTnHRUT" resolve="changelog" />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="2yvMhGhu4Cp" role="TUOzN">
+          <property role="TUZQ4" value="either Analysis or RScript node" />
+          <node concept="zr_55" id="2yvMhGhu4Cr" role="zr_5Q">
+            <ref role="zr_51" node="15COMTnHS47" resolve="root" />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="2yvMhGhu4Cs" role="TUOzN">
+          <property role="TUZQ4" value="changed node" />
+          <node concept="zr_55" id="2yvMhGhu4Cu" role="zr_5Q">
+            <ref role="zr_51" node="15COMTnHS5M" resolve="changedUnit" />
+          </node>
+        </node>
+      </node>
     </node>
     <node concept="2tJIrI" id="1e0sE7P1SBF" role="jymVt" />
     <node concept="2YIFZL" id="1e0sE7P1ThV" role="jymVt">
@@ -3265,6 +3705,33 @@
       <node concept="37vLTG" id="1e0sE7P1TBw" role="3clF46">
         <property role="TrG5h" value="child" />
         <node concept="3Tqbb2" id="1e0sE7P1TBv" role="1tU5fm" />
+      </node>
+      <node concept="P$JXv" id="2yvMhGhu47l" role="lGtFl">
+        <node concept="TZ5HA" id="2yvMhGhu47m" role="TZ5H$">
+          <node concept="1dT_AC" id="2yvMhGhu47n" role="1dT_Ay">
+            <property role="1dT_AB" value="Checks if the node is a referenceable child of a binary operator expressions." />
+          </node>
+        </node>
+        <node concept="TZ5HA" id="2yvMhGhu4z_" role="TZ5H$">
+          <node concept="1dT_AC" id="2yvMhGhu4zA" role="1dT_Ay">
+            <property role="1dT_AB" value="Example: (a) = 1, 1 + c -&gt; (d)" />
+          </node>
+          <node concept="1dT_AC" id="2yvMhGhu4zQ" role="1dT_Ay">
+            <property role="1dT_AB" value="" />
+          </node>
+          <node concept="1dT_AC" id="2yvMhGhu4zH" role="1dT_Ay">
+            <property role="1dT_AB" value="" />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="2yvMhGhu47o" role="TUOzN">
+          <property role="TUZQ4" value="node" />
+          <node concept="zr_55" id="2yvMhGhu47q" role="zr_5Q">
+            <ref role="zr_51" node="1e0sE7P1TBw" resolve="child" />
+          </node>
+        </node>
+        <node concept="x79VA" id="2yvMhGhu47r" role="x79VK">
+          <property role="x79VB" value="boolean" />
+        </node>
       </node>
     </node>
     <node concept="2tJIrI" id="15COMTnHRdE" role="jymVt" />
@@ -3336,6 +3803,36 @@
         <property role="TrG5h" value="change" />
         <node concept="3Tqbb2" id="6CA2KfgOtg9" role="1tU5fm">
           <ref role="ehGHo" to="jrxw:7LvyiX4miiC" resolve="Statement" />
+        </node>
+      </node>
+      <node concept="P$JXv" id="2yvMhGhu4$1" role="lGtFl">
+        <node concept="TZ5HA" id="2yvMhGhu4$2" role="TZ5H$">
+          <node concept="1dT_AC" id="2yvMhGhu4$3" role="1dT_Ay">
+            <property role="1dT_AB" value="Find all statements that are affect by a change in a single statement." />
+          </node>
+        </node>
+        <node concept="TZ5HA" id="2yvMhGhu4Cd" role="TZ5H$">
+          <node concept="1dT_AC" id="2yvMhGhu4Ce" role="1dT_Ay">
+            <property role="1dT_AB" value="See: findChangesGeneral" />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="2yvMhGhu4$4" role="TUOzN">
+          <property role="TUZQ4" value="set of changed nodes" />
+          <node concept="zr_55" id="2yvMhGhu4$6" role="zr_5Q">
+            <ref role="zr_51" node="6CA2KfgUfXG" resolve="changelog" />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="2yvMhGhu4$7" role="TUOzN">
+          <property role="TUZQ4" value="Analysis node" />
+          <node concept="zr_55" id="2yvMhGhu4$9" role="zr_5Q">
+            <ref role="zr_51" node="6CA2KfgOsvK" resolve="root" />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="2yvMhGhu4$a" role="TUOzN">
+          <property role="TUZQ4" value="changed statement" />
+          <node concept="zr_55" id="2yvMhGhu4$c" role="zr_5Q">
+            <ref role="zr_51" node="6CA2KfgOsYp" resolve="change" />
+          </node>
         </node>
       </node>
     </node>
@@ -3435,8 +3932,8 @@
                   <node concept="YeOm9" id="1Iyhq6EFq$t" role="2ShVmc">
                     <node concept="1Y3b0j" id="1Iyhq6EFq$w" role="YeSDq">
                       <property role="2bfB8j" value="true" />
-                      <ref role="1Y3XeK" node="1Iyhq6EEKey" resolve="ChangeListenerRunnable" />
                       <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
+                      <ref role="1Y3XeK" node="2yvMhGhsEFw" resolve="ChangeListener.ChangeListenerRunnable" />
                       <node concept="3Tm1VV" id="1Iyhq6EFq$x" role="1B3o_S" />
                       <node concept="3clFb_" id="1Iyhq6EFq$y" role="jymVt">
                         <property role="1EzhhJ" value="false" />
@@ -3800,6 +4297,25 @@
         </node>
       </node>
       <node concept="3Tm1VV" id="55a1UmAlG3D" role="1B3o_S" />
+      <node concept="P$JXv" id="2yvMhGhsGZl" role="lGtFl">
+        <node concept="TZ5HA" id="2yvMhGhsGZm" role="TZ5H$">
+          <node concept="1dT_AC" id="2yvMhGhsGZn" role="1dT_Ay">
+            <property role="1dT_AB" value="Attaches a change listener to a Analysis or RScript node." />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="2yvMhGhsGZo" role="TUOzN">
+          <property role="TUZQ4" value="Model" />
+          <node concept="zr_55" id="2yvMhGhsGZq" role="zr_5Q">
+            <ref role="zr_51" node="55a1UmAlG3F" resolve="model" />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="2yvMhGhsGZr" role="TUOzN">
+          <property role="TUZQ4" value="Project" />
+          <node concept="zr_55" id="2yvMhGhsGZt" role="zr_5Q">
+            <ref role="zr_51" node="55a1UmAstpQ" resolve="project" />
+          </node>
+        </node>
+      </node>
     </node>
     <node concept="2tJIrI" id="w24d1kmAct" role="jymVt" />
     <node concept="3clFb_" id="55a1UmAlGhl" role="jymVt">
@@ -3908,8 +4424,28 @@
         <node concept="H_c77" id="55a1UmAlGhC" role="1tU5fm" />
       </node>
       <node concept="3Tm1VV" id="55a1UmAlGh_" role="1B3o_S" />
+      <node concept="P$JXv" id="2yvMhGhsH87" role="lGtFl">
+        <node concept="TZ5HA" id="2yvMhGhsH88" role="TZ5H$">
+          <node concept="1dT_AC" id="2yvMhGhsH89" role="1dT_Ay">
+            <property role="1dT_AB" value="Detaches the change listener from a Analysis or RScript node." />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="2yvMhGhsH8a" role="TUOzN">
+          <property role="TUZQ4" value="Model" />
+          <node concept="zr_55" id="2yvMhGhsH8c" role="zr_5Q">
+            <ref role="zr_51" node="55a1UmAlGhB" resolve="model" />
+          </node>
+        </node>
+      </node>
     </node>
     <node concept="3Tm1VV" id="4mTRct5g3kQ" role="1B3o_S" />
+    <node concept="3UR2Jj" id="2yvMhGhsGQN" role="lGtFl">
+      <node concept="TZ5HA" id="2yvMhGhsGQO" role="TZ5H$">
+        <node concept="1dT_AC" id="2yvMhGhsGQP" role="1dT_Ay">
+          <property role="1dT_AB" value="Class that manages the lifecycle and initialization of ChangeListener instances." />
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="312cEu" id="4mTRct5iDfy">
     <property role="TrG5h" value="ChangeListener" />
@@ -3975,6 +4511,31 @@
       </node>
     </node>
     <node concept="2tJIrI" id="1e0sE7Qfgr9" role="jymVt" />
+    <node concept="312cEu" id="2yvMhGhsEFw" role="jymVt">
+      <property role="TrG5h" value="ChangeListenerRunnable" />
+      <property role="1sVAO0" value="true" />
+      <property role="3GE5qa" value="changeListener" />
+      <node concept="3clFb_" id="2yvMhGhsEFx" role="jymVt">
+        <property role="1EzhhJ" value="true" />
+        <property role="TrG5h" value="execute" />
+        <property role="od$2w" value="false" />
+        <property role="DiZV1" value="false" />
+        <property role="2aFKle" value="false" />
+        <node concept="3clFbS" id="2yvMhGhsEFy" role="3clF47" />
+        <node concept="3cqZAl" id="2yvMhGhsEFz" role="3clF45" />
+        <node concept="37vLTG" id="2yvMhGhsEF$" role="3clF46">
+          <property role="TrG5h" value="node" />
+          <node concept="3Tqbb2" id="2yvMhGhsEF_" role="1tU5fm" />
+        </node>
+        <node concept="37vLTG" id="2yvMhGhsEFA" role="3clF46">
+          <property role="TrG5h" value="parent" />
+          <node concept="3Tqbb2" id="2yvMhGhsEFB" role="1tU5fm" />
+        </node>
+        <node concept="3Tm1VV" id="2yvMhGhsEFC" role="1B3o_S" />
+      </node>
+      <node concept="3Tm1VV" id="2yvMhGhsEFD" role="1B3o_S" />
+    </node>
+    <node concept="2tJIrI" id="2yvMhGhsElq" role="jymVt" />
     <node concept="3clFbW" id="4mTRct5iF75" role="jymVt">
       <node concept="3cqZAl" id="4mTRct5iF76" role="3clF45" />
       <node concept="3clFbS" id="4mTRct5iF78" role="3clF47">
@@ -4054,6 +4615,12 @@
                                     </node>
                                   </node>
                                 </node>
+                                <node concept="3clFbH" id="2yvMhGhsw3O" role="3cqZAp" />
+                                <node concept="3SKdUt" id="2yvMhGhswiY" role="3cqZAp">
+                                  <node concept="3SKdUq" id="2yvMhGhswiZ" role="3SKWNk">
+                                    <property role="3SKdUp" value="the rootNode is only set in the remove event because a removed node can't access it's ancestors" />
+                                  </node>
+                                </node>
                                 <node concept="3clFbJ" id="1e0sE7Qfm8D" role="3cqZAp">
                                   <node concept="3clFbS" id="1e0sE7Qfm8F" role="3clFbx">
                                     <node concept="3clFbF" id="1e0sE7QfnMI" role="3cqZAp">
@@ -4084,6 +4651,11 @@
                                   </node>
                                 </node>
                                 <node concept="3clFbH" id="2yvMhGhdV$9" role="3cqZAp" />
+                                <node concept="3SKdUt" id="2yvMhGhszta" role="3cqZAp">
+                                  <node concept="3SKdUq" id="2yvMhGhsztb" role="3SKWNk">
+                                    <property role="3SKdUp" value="don't execute instan refresh if an RScript contains the PauseInstantRefresh node" />
+                                  </node>
+                                </node>
                                 <node concept="Jncv_" id="2yvMhGhdX_K" role="3cqZAp">
                                   <ref role="JncvD" to="6q58:5mPDeVwiJFe" resolve="RScript" />
                                   <node concept="37vLTw" id="2yvMhGhdYhq" role="JncvB">
@@ -4143,7 +4715,12 @@
                                     </node>
                                   </node>
                                 </node>
-                                <node concept="3clFbH" id="1x1IHbNjtKI" role="3cqZAp" />
+                                <node concept="3clFbH" id="2yvMhGhsA2e" role="3cqZAp" />
+                                <node concept="3SKdUt" id="2yvMhGhs_Uc" role="3cqZAp">
+                                  <node concept="3SKdUq" id="2yvMhGhs_Ud" role="3SKWNk">
+                                    <property role="3SKdUp" value="the parentNode is only set in the remove event because a removed node can't access it's ancestors" />
+                                  </node>
+                                </node>
                                 <node concept="3clFbJ" id="7B51G8Wbo$M" role="3cqZAp">
                                   <node concept="3clFbS" id="7B51G8Wbo$O" role="3clFbx">
                                     <node concept="3clFbF" id="7B51G8Wbr2s" role="3cqZAp">
@@ -4167,6 +4744,7 @@
                                     <node concept="3w_OXm" id="7B51G8WbpKs" role="2OqNvi" />
                                   </node>
                                 </node>
+                                <node concept="3clFbH" id="2yvMhGhsAKt" role="3cqZAp" />
                                 <node concept="3clFbJ" id="1e0sE7O$W2_" role="3cqZAp">
                                   <node concept="3clFbS" id="1e0sE7O$W2B" role="3clFbx">
                                     <node concept="3clFbF" id="1e0sE7O$XqG" role="3cqZAp">
@@ -4197,6 +4775,7 @@
                                     </node>
                                   </node>
                                 </node>
+                                <node concept="3clFbH" id="2yvMhGhsASA" role="3cqZAp" />
                                 <node concept="3clFbJ" id="1e0sE7Oxyyb" role="3cqZAp">
                                   <node concept="3clFbS" id="1e0sE7Oxyyd" role="3clFbx">
                                     <node concept="3clFbF" id="2PDL853KFqp" role="3cqZAp">
@@ -4222,7 +4801,7 @@
                                           <ref role="3cqZAo" node="1Iyhq6EELkR" resolve="runnable" />
                                         </node>
                                         <node concept="liA8E" id="1Iyhq6EEOv6" role="2OqNvi">
-                                          <ref role="37wK5l" node="1Iyhq6EEKkN" resolve="execute" />
+                                          <ref role="37wK5l" node="2yvMhGhsEFx" resolve="execute" />
                                           <node concept="37vLTw" id="19XLMXScist" role="37wK5m">
                                             <ref role="3cqZAo" node="1Iyhq6EENj9" resolve="currentNode" />
                                           </node>
@@ -4279,6 +4858,19 @@
                         </node>
                         <node concept="3Tm1VV" id="4mTRct5iM3B" role="1B3o_S" />
                         <node concept="3cqZAl" id="4mTRct5iM3C" role="3clF45" />
+                        <node concept="P$JXv" id="2yvMhGhs_EO" role="lGtFl">
+                          <node concept="TZ5HA" id="2yvMhGhs_EP" role="TZ5H$">
+                            <node concept="1dT_AC" id="2yvMhGhs_EQ" role="1dT_Ay">
+                              <property role="1dT_AB" value="this method is executed when the timer runs out" />
+                            </node>
+                          </node>
+                          <node concept="TUZQ0" id="2yvMhGhs_ER" role="TUOzN">
+                            <property role="TUZQ4" value="event" />
+                            <node concept="zr_55" id="2yvMhGhs_ET" role="zr_5Q">
+                              <ref role="zr_51" node="4mTRct5iM3r" resolve="evt" />
+                            </node>
+                          </node>
+                        </node>
                       </node>
                     </node>
                   </node>
@@ -4305,8 +4897,8 @@
       <node concept="37vLTG" id="1Iyhq6EELkR" role="3clF46">
         <property role="TrG5h" value="runnable" />
         <property role="3TUv4t" value="true" />
-        <node concept="3uibUv" id="1Iyhq6EELkQ" role="1tU5fm">
-          <ref role="3uigEE" node="1Iyhq6EEKey" resolve="ChangeListenerRunnable" />
+        <node concept="3uibUv" id="2yvMhGhsFYu" role="1tU5fm">
+          <ref role="3uigEE" node="2yvMhGhsEFw" resolve="ChangeListener.ChangeListenerRunnable" />
         </node>
       </node>
       <node concept="37vLTG" id="55a1UmAltHP" role="3clF46">
@@ -4413,6 +5005,22 @@
         <property role="TrG5h" value="root" />
         <node concept="3Tqbb2" id="1e0sE7OzBgY" role="1tU5fm">
           <ref role="ehGHo" to="l5qg:6efZaUfXFRm" resolve="IGenerateToRScript" />
+        </node>
+      </node>
+      <node concept="P$JXv" id="2yvMhGhsB0K" role="lGtFl">
+        <node concept="TZ5HA" id="2yvMhGhsB0L" role="TZ5H$">
+          <node concept="1dT_AC" id="2yvMhGhsB0M" role="1dT_Ay">
+            <property role="1dT_AB" value="Checks if instant refresh can be executed." />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="2yvMhGhsB0N" role="TUOzN">
+          <property role="TUZQ4" value="either RScript or Analysis node" />
+          <node concept="zr_55" id="2yvMhGhsB0P" role="zr_5Q">
+            <ref role="zr_51" node="1e0sE7OzBgZ" resolve="root" />
+          </node>
+        </node>
+        <node concept="x79VA" id="2yvMhGhsB0Q" role="x79VK">
+          <property role="x79VB" value="boolean" />
         </node>
       </node>
     </node>
@@ -4568,6 +5176,19 @@
         <property role="TrG5h" value="node" />
         <node concept="3Tqbb2" id="1Iyhq6EEQUf" role="1tU5fm" />
       </node>
+      <node concept="P$JXv" id="2yvMhGhsBzU" role="lGtFl">
+        <node concept="TZ5HA" id="2yvMhGhsBzV" role="TZ5H$">
+          <node concept="1dT_AC" id="2yvMhGhsBzW" role="1dT_Ay">
+            <property role="1dT_AB" value="First method that is called when a change happenes. It changes the timer accordingly." />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="2yvMhGhsBzX" role="TUOzN">
+          <property role="TUZQ4" value="changed node. This can be a property, a reference or a child." />
+          <node concept="zr_55" id="2yvMhGhsBzZ" role="zr_5Q">
+            <ref role="zr_51" node="1Iyhq6EEQUg" resolve="node" />
+          </node>
+        </node>
+      </node>
     </node>
     <node concept="2tJIrI" id="4mTRct5iEJf" role="jymVt" />
     <node concept="3clFb_" id="4mTRct5iDov" role="jymVt">
@@ -4671,6 +5292,7 @@
         </node>
       </node>
     </node>
+    <node concept="2tJIrI" id="2yvMhGhsBSm" role="jymVt" />
     <node concept="3clFb_" id="4mTRct5iDoL" role="jymVt">
       <property role="1EzhhJ" value="false" />
       <property role="TrG5h" value="nodeAdded" />
@@ -4784,6 +5406,11 @@
         </node>
       </node>
       <node concept="3clFbS" id="4mTRct5iDpo" role="3clF47">
+        <node concept="3SKdUt" id="2yvMhGhsCL0" role="3cqZAp">
+          <node concept="3SKdUq" id="2yvMhGhsCL1" role="3SKWNk">
+            <property role="3SKdUp" value="the child is not attached to a parent anymore" />
+          </node>
+        </node>
         <node concept="3cpWs8" id="4mTRct5iDpp" role="3cqZAp">
           <node concept="3cpWsn" id="4mTRct5iDpq" role="3cpWs9">
             <property role="TrG5h" value="child" />
@@ -4996,6 +5623,7 @@
       <node concept="3Tm1VV" id="6CA2KfgOVeW" role="1B3o_S" />
       <node concept="3cqZAl" id="6CA2KfgOVDD" role="3clF45" />
     </node>
+    <node concept="2tJIrI" id="2yvMhGhsCi_" role="jymVt" />
     <node concept="3Tm1VV" id="4mTRct5iDfz" role="1B3o_S" />
     <node concept="3uibUv" id="4mTRct5iDk0" role="EKbjA">
       <ref role="3uigEE" to="mhbf:~SNodeChangeListener" resolve="SNodeChangeListener" />
@@ -5063,30 +5691,13 @@
         </node>
       </node>
     </node>
-  </node>
-  <node concept="312cEu" id="1Iyhq6EEKey">
-    <property role="TrG5h" value="ChangeListenerRunnable" />
-    <property role="1sVAO0" value="true" />
-    <property role="3GE5qa" value="changeListener" />
-    <node concept="3clFb_" id="1Iyhq6EEKkN" role="jymVt">
-      <property role="1EzhhJ" value="true" />
-      <property role="TrG5h" value="execute" />
-      <property role="od$2w" value="false" />
-      <property role="DiZV1" value="false" />
-      <property role="2aFKle" value="false" />
-      <node concept="3clFbS" id="1Iyhq6EEKkQ" role="3clF47" />
-      <node concept="3cqZAl" id="1Iyhq6EEKkA" role="3clF45" />
-      <node concept="37vLTG" id="1Iyhq6EEKvU" role="3clF46">
-        <property role="TrG5h" value="node" />
-        <node concept="3Tqbb2" id="1Iyhq6EEKvT" role="1tU5fm" />
+    <node concept="3UR2Jj" id="2yvMhGhsvLa" role="lGtFl">
+      <node concept="TZ5HA" id="2yvMhGhsvLb" role="TZ5H$">
+        <node concept="1dT_AC" id="2yvMhGhsvLc" role="1dT_Ay">
+          <property role="1dT_AB" value="This class implements all methods for reacting to changes in nodes. It also schedules the re-execution of code." />
+        </node>
       </node>
-      <node concept="37vLTG" id="7B51G8WbsK0" role="3clF46">
-        <property role="TrG5h" value="parent" />
-        <node concept="3Tqbb2" id="7B51G8WbsVT" role="1tU5fm" />
-      </node>
-      <node concept="3Tm1VV" id="1Iyhq6EEKw6" role="1B3o_S" />
     </node>
-    <node concept="3Tm1VV" id="1Iyhq6EEKez" role="1B3o_S" />
   </node>
   <node concept="312cEu" id="2XoE5lRKrvx">
     <property role="TrG5h" value="TextGenHelper" />
@@ -6069,6 +6680,42 @@
           <node concept="17QB3L" id="2XoE5lRLfEO" role="11_B2D" />
         </node>
       </node>
+      <node concept="P$JXv" id="2yvMhGhttfn" role="lGtFl">
+        <node concept="TZ5HA" id="2yvMhGhttfo" role="TZ5H$">
+          <node concept="1dT_AC" id="2yvMhGhttfp" role="1dT_Ay">
+            <property role="1dT_AB" value="Invokes the text generation for a root node. This method is a slight modification of the builtin &quot;Preview files&quot; " />
+          </node>
+        </node>
+        <node concept="TZ5HA" id="2yvMhGhttIU" role="TZ5H$">
+          <node concept="1dT_AC" id="2yvMhGhttIV" role="1dT_Ay">
+            <property role="1dT_AB" value="action. Note: There is a new class TextGeneratorEngine that might be a better alternative." />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="2yvMhGhttfq" role="TUOzN">
+          <property role="TUZQ4" value="MPSProject" />
+          <node concept="zr_55" id="2yvMhGhttfs" role="zr_5Q">
+            <ref role="zr_51" node="2XoE5lRKJU6" resolve="mpsProject" />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="2yvMhGhttft" role="TUOzN">
+          <property role="TUZQ4" value="node inside a model that should be generated" />
+          <node concept="zr_55" id="2yvMhGhttfv" role="zr_5Q">
+            <ref role="zr_51" node="2XoE5lRL4O0" resolve="node" />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="2yvMhGhttfw" role="TUOzN">
+          <property role="TUZQ4" value="model" />
+          <node concept="zr_55" id="2yvMhGhttfy" role="zr_5Q">
+            <ref role="zr_51" node="2XoE5lRL8ba" resolve="model" />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="2yvMhGhttfz" role="TUOzN">
+          <property role="TUZQ4" value="method that is executed with the result of the generation as an argument." />
+          <node concept="zr_55" id="2yvMhGhttf_" role="zr_5Q">
+            <ref role="zr_51" node="2XoE5lRKx4J" resolve="callBack" />
+          </node>
+        </node>
+      </node>
     </node>
     <node concept="3Tm1VV" id="2XoE5lRKrvy" role="1B3o_S" />
   </node>
@@ -6257,6 +6904,13 @@
       </node>
       <node concept="3Tm1VV" id="55a1UmAs392" role="1B3o_S" />
       <node concept="3cqZAl" id="55a1UmAs3GL" role="3clF45" />
+      <node concept="P$JXv" id="2yvMhGhtv1B" role="lGtFl">
+        <node concept="TZ5HA" id="2yvMhGhtv1C" role="TZ5H$">
+          <node concept="1dT_AC" id="2yvMhGhtv1D" role="1dT_Ay">
+            <property role="1dT_AB" value="Removes all logging messages and notifies listening classes about it." />
+          </node>
+        </node>
+      </node>
     </node>
     <node concept="2tJIrI" id="2ZZbyE_yrvh" role="jymVt" />
     <node concept="3clFb_" id="2ZZbyE_yvtF" role="jymVt">
@@ -6417,6 +7071,28 @@
           <ref role="3uigEE" node="7PqnxC2B70V" resolve="MessageKind" />
         </node>
       </node>
+      <node concept="P$JXv" id="2yvMhGhtuBC" role="lGtFl">
+        <node concept="TZ5HA" id="2yvMhGhtuBD" role="TZ5H$">
+          <node concept="1dT_AC" id="2yvMhGhtuBE" role="1dT_Ay">
+            <property role="1dT_AB" value="Formats a logging message to look similar to the messages in the builtin Messages view." />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="2yvMhGhtuBF" role="TUOzN">
+          <property role="TUZQ4" value="message" />
+          <node concept="zr_55" id="2yvMhGhtuBH" role="zr_5Q">
+            <ref role="zr_51" node="2ZZbyE_ywSf" resolve="message" />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="2yvMhGhtuBI" role="TUOzN">
+          <property role="TUZQ4" value="logging type" />
+          <node concept="zr_55" id="2yvMhGhtuBK" role="zr_5Q">
+            <ref role="zr_51" node="2ZZbyE_yxIK" resolve="kind" />
+          </node>
+        </node>
+        <node concept="x79VA" id="2yvMhGhtuBL" role="x79VK">
+          <property role="x79VB" value="HTML formatted message" />
+        </node>
+      </node>
     </node>
     <node concept="2tJIrI" id="5$yUzN06tux" role="jymVt" />
     <node concept="3clFb_" id="5$yUzN079Is" role="jymVt">
@@ -6493,6 +7169,25 @@
         </node>
       </node>
       <node concept="3Tm1VV" id="asFbg5q_Sm" role="1B3o_S" />
+      <node concept="P$JXv" id="2yvMhGhtvqz" role="lGtFl">
+        <node concept="TZ5HA" id="2yvMhGhtvq$" role="TZ5H$">
+          <node concept="1dT_AC" id="2yvMhGhtvq_" role="1dT_Ay">
+            <property role="1dT_AB" value="Adds a new logging message and notifies listening classes about it." />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="2yvMhGhtvqA" role="TUOzN">
+          <property role="TUZQ4" value="message" />
+          <node concept="zr_55" id="2yvMhGhtvqC" role="zr_5Q">
+            <ref role="zr_51" node="asFbg5qA1b" resolve="message" />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="2yvMhGhtvqD" role="TUOzN">
+          <property role="TUZQ4" value="logging type" />
+          <node concept="zr_55" id="2yvMhGhtvqF" role="zr_5Q">
+            <ref role="zr_51" node="asFbg5qA1T" resolve="kind" />
+          </node>
+        </node>
+      </node>
     </node>
     <node concept="2tJIrI" id="2ZZbyE_ybr2" role="jymVt" />
     <node concept="3clFb_" id="2ZZbyE_yfzM" role="jymVt">
@@ -6660,6 +7355,25 @@
         </node>
       </node>
       <node concept="3Tm1VV" id="2ZZbyE_yBCv" role="1B3o_S" />
+      <node concept="P$JXv" id="2yvMhGhtvND" role="lGtFl">
+        <node concept="TZ5HA" id="2yvMhGhtvNE" role="TZ5H$">
+          <node concept="1dT_AC" id="2yvMhGhtvNF" role="1dT_Ay">
+            <property role="1dT_AB" value="Append text to the previous logging message and notifies listening classes about it." />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="2yvMhGhtvNG" role="TUOzN">
+          <property role="TUZQ4" value="message" />
+          <node concept="zr_55" id="2yvMhGhtvNI" role="zr_5Q">
+            <ref role="zr_51" node="2ZZbyE_yhW1" resolve="message" />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="2yvMhGhtvNJ" role="TUOzN">
+          <property role="TUZQ4" value="logging type" />
+          <node concept="zr_55" id="2yvMhGhtvNL" role="zr_5Q">
+            <ref role="zr_51" node="2ZZbyE_yiJx" resolve="kind" />
+          </node>
+        </node>
+      </node>
     </node>
     <node concept="2tJIrI" id="5$yUzN07tXw" role="jymVt" />
     <node concept="3clFb_" id="5$yUzN07vXe" role="jymVt">
@@ -6723,7 +7437,6 @@
     <node concept="2XrIbr" id="e_7xe$HtZ9" role="2XNbBy">
       <property role="TrG5h" value="addListeners" />
       <node concept="3clFbS" id="e_7xe$HtZa" role="3clF47">
-        <node concept="3clFbH" id="55a1UmArwUG" role="3cqZAp" />
         <node concept="3clFbF" id="55a1UmAr$GR" role="3cqZAp">
           <node concept="2OqwBi" id="55a1UmAr_od" role="3clFbG">
             <node concept="2OqwBi" id="55a1UmAr$Zi" role="2Oq$k0">
@@ -6913,6 +7626,13 @@
       </node>
       <node concept="3cqZAl" id="asFbg5qPpj" role="3clF45" />
       <node concept="3Tm1VV" id="asFbg5rIAw" role="1B3o_S" />
+      <node concept="P$JXv" id="2yvMhGhsZGG" role="lGtFl">
+        <node concept="TZ5HA" id="2yvMhGhsZGH" role="TZ5H$">
+          <node concept="1dT_AC" id="2yvMhGhsZGI" role="1dT_Ay">
+            <property role="1dT_AB" value="Converts all logging messages to a html document and displays it." />
+          </node>
+        </node>
+      </node>
     </node>
     <node concept="2XrIbr" id="70iH0fuDsxz" role="2XNbBy">
       <property role="TrG5h" value="isCompiling" />
@@ -6933,15 +7653,25 @@
       </node>
       <node concept="10P_77" id="70iH0fuDtc0" role="3clF45" />
       <node concept="3Tm1VV" id="70iH0fuDt84" role="1B3o_S" />
+      <node concept="P$JXv" id="2yvMhGhsZUu" role="lGtFl">
+        <node concept="TZ5HA" id="2yvMhGhsZUv" role="TZ5H$">
+          <node concept="1dT_AC" id="2yvMhGhsZUw" role="1dT_Ay">
+            <property role="1dT_AB" value="Returns true if instant refresh is currently busy processing a new change(generating, compiling...)" />
+          </node>
+        </node>
+        <node concept="TZ5HA" id="2yvMhGhsZX3" role="TZ5H$">
+          <node concept="1dT_AC" id="2yvMhGhsZX4" role="1dT_Ay">
+            <property role="1dT_AB" value="This method is thread-safe." />
+          </node>
+        </node>
+        <node concept="x79VA" id="2yvMhGhsZUx" role="x79VK">
+          <property role="x79VB" value="boolean" />
+        </node>
+      </node>
     </node>
     <node concept="2XrIbr" id="70iH0fuDtqm" role="2XNbBy">
       <property role="TrG5h" value="setCompiling" />
       <node concept="3clFbS" id="70iH0fuDtqn" role="3clF47">
-        <node concept="3SKdUt" id="2fZJWRlqGSx" role="3cqZAp">
-          <node concept="3SKdUq" id="2fZJWRlqGSz" role="3SKWNk">
-            <property role="3SKdUp" value="the compiling flag indicates that the tool is currently compiling/executing the script." />
-          </node>
-        </node>
         <node concept="3clFbF" id="2r6qUOXzzVa" role="3cqZAp">
           <node concept="2OqwBi" id="2r6qUOXz$6f" role="3clFbG">
             <node concept="2OqwBi" id="2r6qUOXzzZ0" role="2Oq$k0">
@@ -6970,6 +7700,24 @@
         <property role="TrG5h" value="b" />
         <node concept="10P_77" id="70iH0fuDuY_" role="1tU5fm" />
       </node>
+      <node concept="P$JXv" id="2yvMhGhsZW3" role="lGtFl">
+        <node concept="TZ5HA" id="2yvMhGhsZW4" role="TZ5H$">
+          <node concept="1dT_AC" id="2yvMhGhsZW5" role="1dT_Ay">
+            <property role="1dT_AB" value="Sets a flag that indicates that instant refresh is currently busy processing a new change(generating, compiling...)" />
+          </node>
+        </node>
+        <node concept="TZ5HA" id="2yvMhGhsZWX" role="TZ5H$">
+          <node concept="1dT_AC" id="2yvMhGhsZWY" role="1dT_Ay">
+            <property role="1dT_AB" value="This method is thread-safe." />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="2yvMhGhsZW6" role="TUOzN">
+          <property role="TUZQ4" value="boolean" />
+          <node concept="zr_55" id="2yvMhGhsZW8" role="zr_5Q">
+            <ref role="zr_51" node="70iH0fuDuYA" resolve="b" />
+          </node>
+        </node>
+      </node>
     </node>
     <node concept="2XrIbr" id="2dEHq9Q$CS_" role="2XNbBy">
       <property role="TrG5h" value="getListMessageAction" />
@@ -6985,6 +7733,16 @@
       </node>
       <node concept="3uibUv" id="2dEHq9Q$DRr" role="3clF45">
         <ref role="3uigEE" to="wyt6:~Runnable" resolve="Runnable" />
+      </node>
+      <node concept="P$JXv" id="2yvMhGhsZXn" role="lGtFl">
+        <node concept="TZ5HA" id="2yvMhGhsZXo" role="TZ5H$">
+          <node concept="1dT_AC" id="2yvMhGhsZXp" role="1dT_Ay">
+            <property role="1dT_AB" value="Returns a Runnable that invokes displayMessages" />
+          </node>
+        </node>
+        <node concept="x79VA" id="2yvMhGhsZXq" role="x79VK">
+          <property role="x79VB" value="Runnable" />
+        </node>
       </node>
     </node>
     <node concept="2UmK3q" id="1WgtElVUICo" role="2Um5zG">
@@ -7080,6 +7838,11 @@
                 </node>
               </node>
             </node>
+          </node>
+        </node>
+        <node concept="3SKdUt" id="2yvMhGhsZBL" role="3cqZAp">
+          <node concept="3SKdUq" id="2yvMhGhsZBM" role="3SKWNk">
+            <property role="3SKdUp" value="always set the caret position to the last position in the message view when a new message is added." />
           </node>
         </node>
         <node concept="3clFbF" id="asFbg5qxHT" role="3cqZAp">
@@ -7270,6 +8033,11 @@
       <property role="3EcmCg" value="Instant refresh" />
       <node concept="3y$hsl" id="6sEPvWAuUOB" role="3y$ekZ">
         <node concept="3clFbS" id="6sEPvWAuUOC" role="2VODD2">
+          <node concept="3SKdUt" id="2yvMhGhtiSa" role="3cqZAp">
+            <node concept="3SKdUq" id="2yvMhGhtiSb" role="3SKWNk">
+              <property role="3SKdUp" value="this block is executed when a change is made" />
+            </node>
+          </node>
           <node concept="3cpWs8" id="2ZZbyE_Ixvk" role="3cqZAp">
             <node concept="3cpWsn" id="2ZZbyE_Ixvl" role="3cpWs9">
               <property role="TrG5h" value="pageComponent" />
@@ -7444,6 +8212,11 @@
       </node>
       <node concept="3yzWfJ" id="6sEPvWAuUOD" role="3y$9q5">
         <node concept="3clFbS" id="6sEPvWAuUOE" role="2VODD2">
+          <node concept="3SKdUt" id="2yvMhGhthcU" role="3cqZAp">
+            <node concept="3SKdUq" id="2yvMhGhthcV" role="3SKWNk">
+              <property role="3SKdUp" value="this block resets all settings" />
+            </node>
+          </node>
           <node concept="3cpWs8" id="2ZZbyE_ItBj" role="3cqZAp">
             <node concept="3cpWsn" id="2ZZbyE_ItBk" role="3cpWs9">
               <property role="TrG5h" value="pageComponent" />
@@ -7656,6 +8429,11 @@
       </node>
       <node concept="3B8pKI" id="6sEPvWAuUOG" role="3B8L_j">
         <node concept="3clFbS" id="6sEPvWAuUOH" role="2VODD2">
+          <node concept="3SKdUt" id="2yvMhGhtjqD" role="3cqZAp">
+            <node concept="3SKdUq" id="2yvMhGhtjqE" role="3SKWNk">
+              <property role="3SKdUp" value="this block determines if a preference was modified." />
+            </node>
+          </node>
           <node concept="3cpWs8" id="2ZZbyE_II5i" role="3cqZAp">
             <node concept="3cpWsn" id="2ZZbyE_II5j" role="3cpWs9">
               <property role="TrG5h" value="pageComponent" />
@@ -8279,10 +9057,33 @@
           <ref role="3uigEE" to="jkm4:~MessageType" resolve="MessageType" />
         </node>
       </node>
+      <node concept="P$JXv" id="2yvMhGhtrYn" role="lGtFl">
+        <node concept="TZ5HA" id="2yvMhGhtrYo" role="TZ5H$">
+          <node concept="1dT_AC" id="2yvMhGhtrYp" role="1dT_Ay">
+            <property role="1dT_AB" value="Displays a message that pop-ups at the instant refresh tool tab position." />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="2yvMhGhtrYq" role="TUOzN">
+          <property role="TUZQ4" value="Project" />
+          <node concept="zr_55" id="2yvMhGhtrYs" role="zr_5Q">
+            <ref role="zr_51" node="7PqnxC2gW_s" resolve="project" />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="2yvMhGhtrYt" role="TUOzN">
+          <property role="TUZQ4" value="message" />
+          <node concept="zr_55" id="2yvMhGhtrYv" role="zr_5Q">
+            <ref role="zr_51" node="7PqnxC2gW_u" resolve="message" />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="2yvMhGhtrYw" role="TUOzN">
+          <property role="TUZQ4" value="logging message type" />
+          <node concept="zr_55" id="2yvMhGhtrYy" role="zr_5Q">
+            <ref role="zr_51" node="7PqnxC2gX2y" resolve="type" />
+          </node>
+        </node>
+      </node>
     </node>
     <node concept="2tJIrI" id="7PqnxC2gWsM" role="jymVt" />
-    <node concept="2tJIrI" id="7PqnxC2gVVR" role="jymVt" />
-    <node concept="2tJIrI" id="7ZtP2DEHJG5" role="jymVt" />
     <node concept="3Tm1VV" id="7ZtP2DEHIzv" role="1B3o_S" />
   </node>
   <node concept="312cEu" id="2WBVyJt1xni">
@@ -8486,6 +9287,13 @@
       <node concept="17QB3L" id="2ZZbyE_$eC0" role="3clF45" />
     </node>
     <node concept="2tJIrI" id="2ZZbyE_$ex_" role="jymVt" />
+    <node concept="3UR2Jj" id="2yvMhGhttRL" role="lGtFl">
+      <node concept="TZ5HA" id="2yvMhGhttRM" role="TZ5H$">
+        <node concept="1dT_AC" id="2yvMhGhttRN" role="1dT_Ay">
+          <property role="1dT_AB" value="Class that is used to measure the time between individual steps in the instant refresh action." />
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="312cEu" id="w24d1knBog">
     <property role="TrG5h" value="ChangeListenerSettings" />
@@ -8572,6 +9380,13 @@
     </node>
     <node concept="2tJIrI" id="w24d1knR0p" role="jymVt" />
     <node concept="3Tm1VV" id="w24d1knBoh" role="1B3o_S" />
+    <node concept="3UR2Jj" id="2yvMhGhsGLs" role="lGtFl">
+      <node concept="TZ5HA" id="2yvMhGhsGLt" role="TZ5H$">
+        <node concept="1dT_AC" id="2yvMhGhsGLu" role="1dT_Ay">
+          <property role="1dT_AB" value="Helper class for change listener preferences" />
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="312cEu" id="70iH0fuDvsl">
     <property role="TrG5h" value="ActionHelper" />
@@ -8917,6 +9732,19 @@
         <node concept="3Tqbb2" id="70iH0fuDDmb" role="1tU5fm" />
       </node>
       <node concept="3Tm1VV" id="70iH0fuDDm8" role="1B3o_S" />
+      <node concept="P$JXv" id="2yvMhGhtm9T" role="lGtFl">
+        <node concept="TZ5HA" id="2yvMhGhtm9U" role="TZ5H$">
+          <node concept="1dT_AC" id="2yvMhGhtm9V" role="1dT_Ay">
+            <property role="1dT_AB" value="Starts the instant refresh action." />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="2yvMhGhtm9W" role="TUOzN">
+          <property role="TUZQ4" value="node that is used inside the action " />
+          <node concept="zr_55" id="2yvMhGhtm9Y" role="zr_5Q">
+            <ref role="zr_51" node="70iH0fuDDma" resolve="node" />
+          </node>
+        </node>
+      </node>
     </node>
     <node concept="3Tm1VV" id="70iH0fuDvsm" role="1B3o_S" />
   </node>
@@ -8963,6 +9791,33 @@
         <node concept="3uibUv" id="70iH0fuH0of" role="1tU5fm">
           <ref role="3uigEE" to="4nm9:~Project" resolve="Project" />
         </node>
+      </node>
+      <node concept="P$JXv" id="2yvMhGht1Ei" role="lGtFl">
+        <node concept="TZ5HA" id="2yvMhGht1Ej" role="TZ5H$">
+          <node concept="1dT_AC" id="2yvMhGht1Ek" role="1dT_Ay">
+            <property role="1dT_AB" value="This class was used to first check if project is null and then return InstantRefresh tool. The tool can now " />
+          </node>
+        </node>
+        <node concept="TZ5HA" id="2yvMhGht1Fm" role="TZ5H$">
+          <node concept="1dT_AC" id="2yvMhGht1Fn" role="1dT_Ay">
+            <property role="1dT_AB" value="be access directly through the Project class." />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="2yvMhGht1El" role="TUOzN">
+          <property role="TUZQ4" value="Project" />
+          <node concept="zr_55" id="2yvMhGht1En" role="zr_5Q">
+            <ref role="zr_51" node="70iH0fuH0og" resolve="project" />
+          </node>
+        </node>
+        <node concept="x79VA" id="2yvMhGht1Eo" role="x79VK">
+          <property role="x79VB" value="InstantRefresh tool" />
+        </node>
+        <node concept="TZ5HI" id="2yvMhGht1ET" role="3nqlJM">
+          <node concept="TZ5HA" id="2yvMhGht1EU" role="3HnX3l" />
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="2yvMhGht1EV" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Deprecated" resolve="Deprecated" />
       </node>
     </node>
     <node concept="3Tm1VV" id="70iH0fuE3fR" role="1B3o_S" />
@@ -9204,6 +10059,13 @@
     <node concept="3uibUv" id="55a1UmArUj9" role="1zkMxy">
       <ref role="3uigEE" to="hyam:~MouseAdapter" resolve="MouseAdapter" />
     </node>
+    <node concept="3UR2Jj" id="2yvMhGht0Kp" role="lGtFl">
+      <node concept="TZ5HA" id="2yvMhGht0Kq" role="TZ5H$">
+        <node concept="1dT_AC" id="2yvMhGht0Kr" role="1dT_Ay">
+          <property role="1dT_AB" value="This listener class is used to display a context menu if a user right clicks the messages view in the tool." />
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="2uRRBy" id="55a1UmAsgRv">
     <property role="TrG5h" value="RegisterModelListener" />
@@ -9290,6 +10152,11 @@
             <node concept="liA8E" id="55a1UmAsTHM" role="2OqNvi">
               <ref role="37wK5l" to="33ny:~Iterator.hasNext():boolean" resolve="hasNext" />
             </node>
+          </node>
+        </node>
+        <node concept="3SKdUt" id="2yvMhGhsHAt" role="3cqZAp">
+          <node concept="3SKdUq" id="2yvMhGhsHAu" role="3SKWNk">
+            <property role="3SKdUp" value="register change listeners for every model in the current project" />
           </node>
         </node>
         <node concept="3clFbF" id="55a1UmAsV1e" role="3cqZAp">
@@ -9398,6 +10265,11 @@
             </node>
           </node>
         </node>
+        <node concept="3SKdUt" id="2yvMhGhsHNS" role="3cqZAp">
+          <node concept="3SKdUq" id="2yvMhGhsHNT" role="3SKWNk">
+            <property role="3SKdUp" value="detach change listeners from every model in the current project" />
+          </node>
+        </node>
         <node concept="3clFbF" id="55a1UmAsWqz" role="3cqZAp">
           <node concept="2OqwBi" id="55a1UmAsWq$" role="3clFbG">
             <node concept="37vLTw" id="55a1UmAsWq_" role="2Oq$k0">
@@ -9453,6 +10325,13 @@
       <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
     </node>
     <node concept="3Tm1VV" id="7PqnxC2B70W" role="1B3o_S" />
+    <node concept="3UR2Jj" id="2yvMhGhtnkk" role="lGtFl">
+      <node concept="TZ5HA" id="2yvMhGhtnkl" role="TZ5H$">
+        <node concept="1dT_AC" id="2yvMhGhtnkm" role="1dT_Ay">
+          <property role="1dT_AB" value="Type of logging message" />
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="312cEu" id="3UnGYxsYZdS">
     <property role="TrG5h" value="InstantRefreshComponent" />
@@ -10005,6 +10884,13 @@
       <node concept="3Tm6S6" id="3UnGYxsYZmU" role="1B3o_S" />
       <node concept="3cqZAl" id="3UnGYxsYZmV" role="3clF45" />
     </node>
+    <node concept="3UR2Jj" id="2yvMhGht0qc" role="lGtFl">
+      <node concept="TZ5HA" id="2yvMhGht0qd" role="TZ5H$">
+        <node concept="1dT_AC" id="2yvMhGht0qe" role="1dT_Ay">
+          <property role="1dT_AB" value="JPanel that is displayed in the Instant Refresh tool." />
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="sE7Ow" id="2PDL853KFoB">
     <property role="TrG5h" value="InstantRefreshDirectExecution" />
@@ -10185,6 +11071,11 @@
                           <node concept="1QHqEK" id="3zqZiqCuCAA" role="3cqZAp">
                             <node concept="1QHqEC" id="3zqZiqCuCAC" role="1QHqEI">
                               <node concept="3clFbS" id="3zqZiqCuCAE" role="1bW5cS">
+                                <node concept="3SKdUt" id="2yvMhGht3Zm" role="3cqZAp">
+                                  <node concept="3SKdUq" id="2yvMhGht3Zn" role="3SKWNk">
+                                    <property role="3SKdUp" value="find path of generated R script" />
+                                  </node>
+                                </node>
                                 <node concept="3cpWs8" id="3zqZiqCuJim" role="3cqZAp">
                                   <node concept="3cpWsn" id="3zqZiqCuJip" role="3cpWs9">
                                     <property role="TrG5h" value="iGen" />
@@ -10369,6 +11260,12 @@
                               </node>
                             </node>
                           </node>
+                          <node concept="3clFbH" id="2yvMhGht5gL" role="3cqZAp" />
+                          <node concept="3SKdUt" id="2yvMhGht6a0" role="3cqZAp">
+                            <node concept="3SKdUq" id="2yvMhGht6a1" role="3SKWNk">
+                              <property role="3SKdUp" value="set a flag to distinguish a &quot;normal&quot; run from a instant refresh run." />
+                            </node>
+                          </node>
                           <node concept="3clFbF" id="52J4nYvOxtB" role="3cqZAp">
                             <node concept="2YIFZM" id="52J4nYvOxtC" role="3clFbG">
                               <ref role="1Pybhc" node="3uD_HpV5Ij6" resolve="Utils" />
@@ -10383,6 +11280,12 @@
                               <node concept="Xl_RD" id="52J4nYvOxtF" role="37wK5m">
                                 <property role="Xl_RC" value="true" />
                               </node>
+                            </node>
+                          </node>
+                          <node concept="3clFbH" id="2yvMhGht6PM" role="3cqZAp" />
+                          <node concept="3SKdUt" id="2yvMhGht7Jr" role="3cqZAp">
+                            <node concept="3SKdUq" id="2yvMhGht7Js" role="3SKWNk">
+                              <property role="3SKdUp" value="generate r script for Analysis or RScript node" />
                             </node>
                           </node>
                           <node concept="3clFbF" id="2Iemm50Tmbm" role="3cqZAp">
@@ -10510,6 +11413,12 @@
                                                 </node>
                                               </node>
                                             </node>
+                                            <node concept="3clFbH" id="2yvMhGht8_i" role="3cqZAp" />
+                                            <node concept="3SKdUt" id="2yvMhGhteZ7" role="3cqZAp">
+                                              <node concept="3SKdUq" id="2yvMhGhteZ8" role="3SKWNk">
+                                                <property role="3SKdUp" value="call the RunConfigurationExecutor to make a few modificaitons before running the script" />
+                                              </node>
+                                            </node>
                                             <node concept="3cpWs8" id="3zqZiqCgRLi" role="3cqZAp">
                                               <node concept="3cpWsn" id="3zqZiqCgRLl" role="3cpWs9">
                                                 <property role="TrG5h" value="executionResult" />
@@ -10560,6 +11469,7 @@
                                                 </node>
                                               </node>
                                             </node>
+                                            <node concept="3clFbH" id="2yvMhGht8nA" role="3cqZAp" />
                                             <node concept="3cpWs8" id="3zqZiqCmTng" role="3cqZAp">
                                               <node concept="3cpWsn" id="3zqZiqCmTnj" role="3cpWs9">
                                                 <property role="TrG5h" value="process" />
@@ -11190,6 +12100,28 @@
         </node>
       </node>
       <node concept="3Tm1VV" id="3zqZiqBQ0CB" role="1B3o_S" />
+      <node concept="P$JXv" id="2yvMhGhtjI8" role="lGtFl">
+        <node concept="TZ5HA" id="2yvMhGhtjI9" role="TZ5H$">
+          <node concept="1dT_AC" id="2yvMhGhtjIa" role="1dT_Ay">
+            <property role="1dT_AB" value="Returns the model that needs to be generated" />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="2yvMhGhtjIb" role="TUOzN">
+          <property role="TUZQ4" value="current model" />
+          <node concept="zr_55" id="2yvMhGhtjId" role="zr_5Q">
+            <ref role="zr_51" node="3zqZiqBPYNp" resolve="cmodel" />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="2yvMhGhtjIe" role="TUOzN">
+          <property role="TUZQ4" value="available models" />
+          <node concept="zr_55" id="2yvMhGhtjIg" role="zr_5Q">
+            <ref role="zr_51" node="3zqZiqBPYNr" resolve="models" />
+          </node>
+        </node>
+        <node concept="x79VA" id="2yvMhGhtjIh" role="x79VK">
+          <property role="x79VB" value="model" />
+        </node>
+      </node>
     </node>
     <node concept="2YIFZL" id="3zqZiqBPZ06" role="jymVt">
       <property role="TrG5h" value="step" />
@@ -11283,6 +12215,36 @@
         </node>
       </node>
       <node concept="3Tm1VV" id="3zqZiqBQ0Ft" role="1B3o_S" />
+      <node concept="P$JXv" id="2yvMhGhtktj" role="lGtFl">
+        <node concept="TZ5HA" id="2yvMhGhtktk" role="TZ5H$">
+          <node concept="1dT_AC" id="2yvMhGhtktl" role="1dT_Ay">
+            <property role="1dT_AB" value="Shows the next step in a background task. It also displays the execution time of the last step and logs the new" />
+          </node>
+        </node>
+        <node concept="TZ5HA" id="2yvMhGhtkPb" role="TZ5H$">
+          <node concept="1dT_AC" id="2yvMhGhtkPc" role="1dT_Ay">
+            <property role="1dT_AB" value="message in the tool." />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="2yvMhGhtktm" role="TUOzN">
+          <property role="TUZQ4" value="Adapter that gives access to the progress monitor" />
+          <node concept="zr_55" id="2yvMhGhtkto" role="zr_5Q">
+            <ref role="zr_51" node="3zqZiqBPZ08" resolve="adapter" />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="2yvMhGhtktp" role="TUOzN">
+          <property role="TUZQ4" value="Message that should be displayed" />
+          <node concept="zr_55" id="2yvMhGhtktr" role="zr_5Q">
+            <ref role="zr_51" node="3zqZiqBPZ0a" resolve="message" />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="2yvMhGhtkts" role="TUOzN">
+          <property role="TUZQ4" value="local time watch" />
+          <node concept="zr_55" id="2yvMhGhtktu" role="zr_5Q">
+            <ref role="zr_51" node="3zqZiqBPZ0c" resolve="timeWatch" />
+          </node>
+        </node>
+      </node>
     </node>
     <node concept="2tJIrI" id="3zqZiqBPPCm" role="jymVt" />
     <node concept="3Tm1VV" id="3zqZiqBPOQA" role="1B3o_S" />
@@ -11525,6 +12487,11 @@
                         </node>
                       </node>
                       <node concept="3clFbH" id="26cpLhjL7JE" role="3cqZAp" />
+                      <node concept="3SKdUt" id="2yvMhGhsJih" role="3cqZAp">
+                        <node concept="3SKdUq" id="2yvMhGhsJii" role="3SKWNk">
+                          <property role="3SKdUp" value="load the session first" />
+                        </node>
+                      </node>
                       <node concept="3clFbF" id="26cpLhjoz01" role="3cqZAp">
                         <node concept="2OqwBi" id="26cpLhjo_wy" role="3clFbG">
                           <node concept="2OqwBi" id="26cpLhjo$8U" role="2Oq$k0">
@@ -11547,6 +12514,7 @@
                           </node>
                         </node>
                       </node>
+                      <node concept="3clFbH" id="2yvMhGhsJTQ" role="3cqZAp" />
                       <node concept="3clFbF" id="26cpLhjWZpg" role="3cqZAp">
                         <node concept="2OqwBi" id="26cpLhjWZ$1" role="3clFbG">
                           <node concept="37vLTw" id="26cpLhjWZpe" role="2Oq$k0">
@@ -11580,6 +12548,17 @@
                                         </node>
                                       </node>
                                     </node>
+                                  </node>
+                                </node>
+                                <node concept="3clFbH" id="2yvMhGhsKao" role="3cqZAp" />
+                                <node concept="3SKdUt" id="2yvMhGhsKBj" role="3cqZAp">
+                                  <node concept="3SKdUq" id="2yvMhGhsKBk" role="3SKWNk">
+                                    <property role="3SKdUp" value="automatically add a save session statement for each statement in an Analysis node. In RScript nodes" />
+                                  </node>
+                                </node>
+                                <node concept="3SKdUt" id="2yvMhGhsRna" role="3cqZAp">
+                                  <node concept="3SKdUq" id="2yvMhGhsRnb" role="3SKWNk">
+                                    <property role="3SKdUp" value="that user can add them manually." />
                                   </node>
                                 </node>
                                 <node concept="3clFbJ" id="2xF4TVcQWNs" role="3cqZAp">
@@ -11725,6 +12704,34 @@
         </node>
       </node>
       <node concept="3Tm1VV" id="L2v$sdrkjI" role="1B3o_S" />
+      <node concept="P$JXv" id="2yvMhGhsIgP" role="lGtFl">
+        <node concept="TZ5HA" id="2yvMhGhsIgQ" role="TZ5H$">
+          <node concept="1dT_AC" id="2yvMhGhsIgR" role="1dT_Ay">
+            <property role="1dT_AB" value="Populates the temporary Instant refresh node with statements and returns it." />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="2yvMhGhsIgS" role="TUOzN">
+          <property role="TUZQ4" value="either RScript or Analysis node" />
+          <node concept="zr_55" id="2yvMhGhsIgU" role="zr_5Q">
+            <ref role="zr_51" node="L2v$sdrkjE" resolve="originalNode" />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="2yvMhGhsIgV" role="TUOzN">
+          <property role="TUZQ4" value="statements that need to be rerun" />
+          <node concept="zr_55" id="2yvMhGhsIgX" role="zr_5Q">
+            <ref role="zr_51" node="L2v$sdrkjG" resolve="changedStatements" />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="2yvMhGhsIgY" role="TUOzN">
+          <property role="TUZQ4" value="session node that loads a saved session" />
+          <node concept="zr_55" id="2yvMhGhsIh0" role="zr_5Q">
+            <ref role="zr_51" node="26cpLhjoypg" resolve="loadSession" />
+          </node>
+        </node>
+        <node concept="x79VA" id="2yvMhGhsIh1" role="x79VK">
+          <property role="x79VB" value="Analysis node" />
+        </node>
+      </node>
     </node>
     <node concept="3Tm1VV" id="L2v$sdqWOv" role="1B3o_S" />
   </node>
@@ -11749,6 +12756,13 @@
       <node concept="17QB3L" id="26cpLhkiKMM" role="2lK19J" />
     </node>
     <node concept="3Tm1VV" id="26cpLhjX5gy" role="1B3o_S" />
+    <node concept="3UR2Jj" id="2yvMhGhtnhZ" role="lGtFl">
+      <node concept="TZ5HA" id="2yvMhGhtni0" role="TZ5H$">
+        <node concept="1dT_AC" id="2yvMhGhtni1" role="1dT_Ay">
+          <property role="1dT_AB" value="Saves basic information about statements that will be copied to a temporary node." />
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="312cEu" id="hlbLQwjCGO">
     <property role="3GE5qa" value="changeListener" />
@@ -11861,6 +12875,11 @@
                     </node>
                     <node concept="3eNFk2" id="hlbLQwkAks" role="3eNLev">
                       <node concept="3clFbS" id="hlbLQwkAkt" role="3eOfB_">
+                        <node concept="3SKdUt" id="2yvMhGhuQo8" role="3cqZAp">
+                          <node concept="3SKdUq" id="2yvMhGhuQo9" role="3SKWNk">
+                            <property role="3SKdUp" value="add all variables to a list that needs to be restored by a save session expression/statement" />
+                          </node>
+                        </node>
                         <node concept="3clFbF" id="hlbLQwkAku" role="3cqZAp">
                           <node concept="2OqwBi" id="hlbLQwkAkv" role="3clFbG">
                             <node concept="37vLTw" id="hlbLQwkAkw" role="2Oq$k0">
@@ -11904,6 +12923,12 @@
             <node concept="37vLTw" id="hlbLQwkLW1" role="2Oq$k0">
               <ref role="3cqZAo" node="hlbLQwkGvR" resolve="originalUnits" />
             </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="2yvMhGhsfsK" role="3cqZAp" />
+        <node concept="3SKdUt" id="2yvMhGhsfkp" role="3cqZAp">
+          <node concept="3SKdUq" id="2yvMhGhsfkq" role="3SKWNk">
+            <property role="3SKdUp" value="check if there are already saved sessions. if not we need to do a full run." />
           </node>
         </node>
         <node concept="3cpWs8" id="hlbLQwkAkG" role="3cqZAp">
@@ -12063,6 +13088,54 @@
       </node>
       <node concept="3Tm6S6" id="hlbLQwlffH" role="1B3o_S" />
       <node concept="3cqZAl" id="hlbLQwk_Y7" role="3clF45" />
+      <node concept="P$JXv" id="2yvMhGhsf_7" role="lGtFl">
+        <node concept="TZ5HA" id="2yvMhGhsf_8" role="TZ5H$">
+          <node concept="1dT_AC" id="2yvMhGhsf_9" role="1dT_Ay">
+            <property role="1dT_AB" value="Detects if a full run is needed. If not, copies the nodes that need to be rerun to a new node called InstantRefresh." />
+          </node>
+        </node>
+        <node concept="TZ5HA" id="2yvMhGhsh0Z" role="TZ5H$">
+          <node concept="1dT_AC" id="2yvMhGhsh10" role="1dT_Ay">
+            <property role="1dT_AB" value="In both cases the action InstantRefreshDirectExecution is executed." />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="2yvMhGhsf_a" role="TUOzN">
+          <property role="TUZQ4" value="either RScript or Analysis node" />
+          <node concept="zr_55" id="2yvMhGhsf_c" role="zr_5Q">
+            <ref role="zr_51" node="hlbLQwkAcw" resolve="rootNode" />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="2yvMhGhsf_d" role="TUOzN">
+          <property role="TUZQ4" value="nearest session for first changed unit" />
+          <node concept="zr_55" id="2yvMhGhsf_f" role="zr_5Q">
+            <ref role="zr_51" node="hlbLQwkAcY" resolve="sessionOfFirstUnit" />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="2yvMhGhsf_g" role="TUOzN">
+          <property role="TUZQ4" value="expressions/statements that need to be executed again" />
+          <node concept="zr_55" id="2yvMhGhsf_i" role="zr_5Q">
+            <ref role="zr_51" node="hlbLQwkBbr" resolve="changedUnits" />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="2yvMhGhsf_j" role="TUOzN">
+          <property role="TUZQ4" value="all expressions/statements in the RScript/Analysis" />
+          <node concept="zr_55" id="2yvMhGhsf_l" role="zr_5Q">
+            <ref role="zr_51" node="hlbLQwkGvR" resolve="originalUnits" />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="2yvMhGhsf_m" role="TUOzN">
+          <property role="TUZQ4" value="libraries that need to be loaded in the temporary node" />
+          <node concept="zr_55" id="2yvMhGhsf_o" role="zr_5Q">
+            <ref role="zr_51" node="hlbLQwkV84" resolve="dependencies" />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="2yvMhGhsf_p" role="TUOzN">
+          <property role="TUZQ4" value="Project" />
+          <node concept="zr_55" id="2yvMhGhsf_r" role="zr_5Q">
+            <ref role="zr_51" node="hlbLQwkAjf" resolve="project" />
+          </node>
+        </node>
+      </node>
     </node>
     <node concept="2tJIrI" id="2yvMhGgTJmr" role="jymVt" />
     <node concept="2YIFZL" id="2yvMhGgU1mS" role="jymVt">
@@ -12185,6 +13258,11 @@
                           </node>
                         </node>
                         <node concept="3clFbS" id="hlbLQwqxrz" role="3eOfB_">
+                          <node concept="3SKdUt" id="2yvMhGhsi_C" role="3cqZAp">
+                            <node concept="3SKdUq" id="2yvMhGhsi_D" role="3SKWNk">
+                              <property role="3SKdUp" value="expressions are not an instance of Statement, so we have to wrap them in an RExpressionList" />
+                            </node>
+                          </node>
                           <node concept="3cpWs8" id="hlbLQwqHS$" role="3cqZAp">
                             <node concept="3cpWsn" id="hlbLQwqHSB" role="3cpWs9">
                               <property role="TrG5h" value="RExpressionList" />
@@ -12332,6 +13410,40 @@
           <ref role="3uigEE" node="26cpLhjX5gx" resolve="StatementInfo" />
         </node>
       </node>
+      <node concept="P$JXv" id="2yvMhGhsied" role="lGtFl">
+        <node concept="TZ5HA" id="2yvMhGhsiee" role="TZ5H$">
+          <node concept="1dT_AC" id="2yvMhGhsief" role="1dT_Ay">
+            <property role="1dT_AB" value="Makes a list of statements that will be copied to a temporary node for a partial run." />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="2yvMhGhsieg" role="TUOzN">
+          <property role="TUZQ4" value="all expressions/statements in the RScript/Analysis" />
+          <node concept="zr_55" id="2yvMhGhsiei" role="zr_5Q">
+            <ref role="zr_51" node="2yvMhGgU3Vt" resolve="originalUnits" />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="2yvMhGhsiej" role="TUOzN">
+          <property role="TUZQ4" value="expressions/statements that need to be executed again" />
+          <node concept="zr_55" id="2yvMhGhsiel" role="zr_5Q">
+            <ref role="zr_51" node="2yvMhGgU4GR" resolve="changedUnits" />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="2yvMhGhsiem" role="TUOzN">
+          <property role="TUZQ4" value="either RScript or Analysis node" />
+          <node concept="zr_55" id="2yvMhGhsieo" role="zr_5Q">
+            <ref role="zr_51" node="2yvMhGgUdrw" resolve="rootNode" />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="2yvMhGhsiep" role="TUOzN">
+          <property role="TUZQ4" value="openapi Project node" />
+          <node concept="zr_55" id="2yvMhGhsier" role="zr_5Q">
+            <ref role="zr_51" node="2yvMhGgUhGM" resolve="project" />
+          </node>
+        </node>
+        <node concept="x79VA" id="2yvMhGhsies" role="x79VK">
+          <property role="x79VB" value="list of statements" />
+        </node>
+      </node>
     </node>
     <node concept="2tJIrI" id="3AkMIeXSzbK" role="jymVt" />
     <node concept="2YIFZL" id="3AkMIeXSzWv" role="jymVt">
@@ -12355,7 +13467,17 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="3AkMIeXS$nd" role="3cqZAp" />
+        <node concept="3SKdUt" id="2yvMhGhst7s" role="3cqZAp">
+          <node concept="3SKdUq" id="2yvMhGhst7t" role="3SKWNk">
+            <property role="3SKdUp" value="FIXME this method seems to be wrong." />
+          </node>
+        </node>
+        <node concept="3clFbH" id="2yvMhGhssPS" role="3cqZAp" />
+        <node concept="3SKdUt" id="2yvMhGhsoR9" role="3cqZAp">
+          <node concept="3SKdUq" id="2yvMhGhsoRa" role="3SKWNk">
+            <property role="3SKdUp" value="collect all load library expressions and add them to list." />
+          </node>
+        </node>
         <node concept="3clFbF" id="3AkMIeXS_63" role="3cqZAp">
           <node concept="2OqwBi" id="3AkMIeXS_64" role="3clFbG">
             <node concept="2OqwBi" id="3AkMIeXS_65" role="2Oq$k0">
@@ -12418,6 +13540,11 @@
           </node>
         </node>
         <node concept="3clFbH" id="3AkMIeXSB70" role="3cqZAp" />
+        <node concept="3SKdUt" id="2yvMhGhsrJC" role="3cqZAp">
+          <node concept="3SKdUq" id="2yvMhGhsrJD" role="3SKWNk">
+            <property role="3SKdUp" value="if the save session expression is used, add the definition of the load library function to the list." />
+          </node>
+        </node>
         <node concept="3clFbJ" id="3AkMIeXSAnO" role="3cqZAp">
           <node concept="3clFbS" id="3AkMIeXSAnP" role="3clFbx">
             <node concept="3clFbF" id="3AkMIeXSAnQ" role="3cqZAp">
@@ -12518,6 +13645,28 @@
         <property role="TrG5h" value="currentNode" />
         <node concept="3Tqbb2" id="3AkMIeXSBHn" role="1tU5fm" />
       </node>
+      <node concept="P$JXv" id="2yvMhGhsokT" role="lGtFl">
+        <node concept="TZ5HA" id="2yvMhGhsokU" role="TZ5H$">
+          <node concept="1dT_AC" id="2yvMhGhspc6" role="1dT_Ay">
+            <property role="1dT_AB" value="Adds the changed node and utility expressions to an ExprList" />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="2yvMhGhsokW" role="TUOzN">
+          <property role="TUZQ4" value="all descendants of an RScript" />
+          <node concept="zr_55" id="2yvMhGhsokY" role="zr_5Q">
+            <ref role="zr_51" node="3AkMIeXS$Z4" resolve="allExpressions" />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="2yvMhGhsokZ" role="TUOzN">
+          <property role="TUZQ4" value="current node that should be copied to the temporary node" />
+          <node concept="zr_55" id="2yvMhGhsol1" role="zr_5Q">
+            <ref role="zr_51" node="3AkMIeXSBm8" resolve="currentNode" />
+          </node>
+        </node>
+        <node concept="x79VA" id="2yvMhGhsol2" role="x79VK">
+          <property role="x79VB" value="ExprList" />
+        </node>
+      </node>
     </node>
     <node concept="2tJIrI" id="3AkMIeXStir" role="jymVt" />
     <node concept="2YIFZL" id="3AkMIeXSvqy" role="jymVt">
@@ -12606,6 +13755,34 @@
         <property role="TrG5h" value="variables" />
         <node concept="_YKpA" id="3AkMIeXSx2H" role="1tU5fm">
           <node concept="17QB3L" id="3AkMIeXSxd_" role="_ZDj9" />
+        </node>
+      </node>
+      <node concept="P$JXv" id="2yvMhGhstp2" role="lGtFl">
+        <node concept="TZ5HA" id="2yvMhGhstp3" role="TZ5H$">
+          <node concept="1dT_AC" id="2yvMhGhstp4" role="1dT_Ay">
+            <property role="1dT_AB" value="Creates a new LoadSession node." />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="2yvMhGhstp5" role="TUOzN">
+          <property role="TUZQ4" value="name of the session" />
+          <node concept="zr_55" id="2yvMhGhstp7" role="zr_5Q">
+            <ref role="zr_51" node="3AkMIeXSw64" resolve="name" />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="2yvMhGhstp8" role="TUOzN">
+          <property role="TUZQ4" value="libraries which need to be loaded" />
+          <node concept="zr_55" id="2yvMhGhstpa" role="zr_5Q">
+            <ref role="zr_51" node="3AkMIeXSwuI" resolve="dependencies" />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="2yvMhGhstpb" role="TUOzN">
+          <property role="TUZQ4" value="variables that need to be loaded after executing save session" />
+          <node concept="zr_55" id="2yvMhGhstpd" role="zr_5Q">
+            <ref role="zr_51" node="3AkMIeXSwTb" resolve="variables" />
+          </node>
+        </node>
+        <node concept="x79VA" id="2yvMhGhstpe" role="x79VK">
+          <property role="x79VB" value="LoadSession" />
         </node>
       </node>
     </node>
@@ -12775,6 +13952,42 @@
         </node>
       </node>
       <node concept="3Tm1VV" id="hlbLQwjGch" role="1B3o_S" />
+      <node concept="P$JXv" id="2yvMhGhstx7" role="lGtFl">
+        <node concept="TZ5HA" id="2yvMhGhstx8" role="TZ5H$">
+          <node concept="1dT_AC" id="2yvMhGhstx9" role="1dT_Ay">
+            <property role="1dT_AB" value="Finds affected expressions in RScript nodes after a change happened and delegates the execution to " />
+          </node>
+        </node>
+        <node concept="TZ5HA" id="2yvMhGhstI8" role="TZ5H$">
+          <node concept="1dT_AC" id="2yvMhGhstI9" role="1dT_Ay">
+            <property role="1dT_AB" value="visitIGenerateToScript." />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="2yvMhGhstxa" role="TUOzN">
+          <property role="TUZQ4" value="RScript node" />
+          <node concept="zr_55" id="2yvMhGhstxc" role="zr_5Q">
+            <ref role="zr_51" node="hlbLQwjGcj" resolve="rootNode" />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="2yvMhGhstxd" role="TUOzN">
+          <property role="TUZQ4" value="the node where a change happened" />
+          <node concept="zr_55" id="2yvMhGhstxf" role="zr_5Q">
+            <ref role="zr_51" node="hlbLQwjGcl" resolve="node" />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="2yvMhGhstxg" role="TUOzN">
+          <property role="TUZQ4" value="parent of node" />
+          <node concept="zr_55" id="2yvMhGhstxi" role="zr_5Q">
+            <ref role="zr_51" node="7B51G8WbylL" resolve="parent" />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="2yvMhGhstxj" role="TUOzN">
+          <property role="TUZQ4" value="openapi Project node" />
+          <node concept="zr_55" id="2yvMhGhstxl" role="zr_5Q">
+            <ref role="zr_51" node="hlbLQwjGcn" resolve="project" />
+          </node>
+        </node>
+      </node>
     </node>
     <node concept="2tJIrI" id="hlbLQwjonx" role="jymVt" />
     <node concept="2YIFZL" id="hlbLQwjHMq" role="jymVt">
@@ -12925,6 +14138,42 @@
         </node>
       </node>
       <node concept="3Tm1VV" id="hlbLQwjHPy" role="1B3o_S" />
+      <node concept="P$JXv" id="2yvMhGhstUG" role="lGtFl">
+        <node concept="TZ5HA" id="2yvMhGhsu2X" role="TZ5H$">
+          <node concept="1dT_AC" id="2yvMhGhsu2Y" role="1dT_Ay">
+            <property role="1dT_AB" value="Finds affected statements in Analysis nodes after a change happened and delegates the execution to " />
+          </node>
+        </node>
+        <node concept="TZ5HA" id="2yvMhGhsu6s" role="TZ5H$">
+          <node concept="1dT_AC" id="2yvMhGhsu6t" role="1dT_Ay">
+            <property role="1dT_AB" value="visitIGenerateToScript." />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="2yvMhGhstUJ" role="TUOzN">
+          <property role="TUZQ4" value="Analysis node" />
+          <node concept="zr_55" id="2yvMhGhstUL" role="zr_5Q">
+            <ref role="zr_51" node="hlbLQwjHPz" resolve="rootNode" />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="2yvMhGhstUM" role="TUOzN">
+          <property role="TUZQ4" value="the node where a change happened" />
+          <node concept="zr_55" id="2yvMhGhstUO" role="zr_5Q">
+            <ref role="zr_51" node="hlbLQwjHP_" resolve="changedNode" />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="2yvMhGhstUP" role="TUOzN">
+          <property role="TUZQ4" value="parent of node" />
+          <node concept="zr_55" id="2yvMhGhstUR" role="zr_5Q">
+            <ref role="zr_51" node="7B51G8WdCUS" resolve="parent" />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="2yvMhGhstUS" role="TUOzN">
+          <property role="TUZQ4" value="openapi Project node" />
+          <node concept="zr_55" id="2yvMhGhstUU" role="zr_5Q">
+            <ref role="zr_51" node="hlbLQwjHPB" resolve="project" />
+          </node>
+        </node>
+      </node>
     </node>
     <node concept="2tJIrI" id="hlbLQwjCUH" role="jymVt" />
     <node concept="2YIFZL" id="7B51G8WdErU" role="jymVt">
@@ -12996,6 +14245,28 @@
       <node concept="3Tqbb2" id="7B51G8WdEqH" role="3clF45">
         <ref role="ehGHo" to="jrxw:7LvyiX4miiC" resolve="Statement" />
       </node>
+      <node concept="P$JXv" id="2yvMhGhsu8d" role="lGtFl">
+        <node concept="TZ5HA" id="2yvMhGhsu8e" role="TZ5H$">
+          <node concept="1dT_AC" id="2yvMhGhsu8f" role="1dT_Ay">
+            <property role="1dT_AB" value="Returns the nearest ancestor of type Statement for a changed node. changedNode.parent might be null at this stage." />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="2yvMhGhsu8g" role="TUOzN">
+          <property role="TUZQ4" value="the node where a change happened" />
+          <node concept="zr_55" id="2yvMhGhsu8i" role="zr_5Q">
+            <ref role="zr_51" node="7B51G8WdEJf" resolve="changedNode" />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="2yvMhGhsu8j" role="TUOzN">
+          <property role="TUZQ4" value="parent of node" />
+          <node concept="zr_55" id="2yvMhGhsu8l" role="zr_5Q">
+            <ref role="zr_51" node="7B51G8WdEKc" resolve="parent" />
+          </node>
+        </node>
+        <node concept="x79VA" id="2yvMhGhsu8m" role="x79VK">
+          <property role="x79VB" value="Statement node" />
+        </node>
+      </node>
     </node>
     <node concept="2tJIrI" id="7B51G8WdDAl" role="jymVt" />
     <node concept="2YIFZL" id="hlbLQwkeeQ" role="jymVt">
@@ -13014,6 +14285,11 @@
               </node>
               <node concept="YBYNd" id="hlbLQwkeeY" role="2OqNvi" />
             </node>
+          </node>
+        </node>
+        <node concept="3SKdUt" id="2yvMhGhsur9" role="3cqZAp">
+          <node concept="3SKdUq" id="2yvMhGhsura" role="3SKWNk">
+            <property role="3SKdUp" value="Only units that implement IHasReferenceableChildren have an attached session object." />
           </node>
         </node>
         <node concept="2$JKZl" id="hlbLQwkeeZ" role="3cqZAp">
@@ -13101,6 +14377,22 @@
         </node>
       </node>
       <node concept="3Tm6S6" id="hlbLQwkefu" role="1B3o_S" />
+      <node concept="P$JXv" id="2yvMhGhsuea" role="lGtFl">
+        <node concept="TZ5HA" id="2yvMhGhsueb" role="TZ5H$">
+          <node concept="1dT_AC" id="2yvMhGhsuec" role="1dT_Ay">
+            <property role="1dT_AB" value="Finds the nearest session inside a analysis node for a given node." />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="2yvMhGhsued" role="TUOzN">
+          <property role="TUZQ4" value="node inside an Analysis node" />
+          <node concept="zr_55" id="2yvMhGhsuef" role="zr_5Q">
+            <ref role="zr_51" node="hlbLQwkefw" resolve="unit" />
+          </node>
+        </node>
+        <node concept="x79VA" id="2yvMhGhsueg" role="x79VK">
+          <property role="x79VB" value="node" />
+        </node>
+      </node>
     </node>
     <node concept="2tJIrI" id="2xF4TVcExoy" role="jymVt" />
     <node concept="2YIFZL" id="2xF4TVcExb_" role="jymVt">
@@ -13206,6 +14498,22 @@
         </node>
       </node>
       <node concept="3Tm1VV" id="2xF4TVcECHN" role="1B3o_S" />
+      <node concept="P$JXv" id="2yvMhGhsuyX" role="lGtFl">
+        <node concept="TZ5HA" id="2yvMhGhsuyY" role="TZ5H$">
+          <node concept="1dT_AC" id="2yvMhGhsuyZ" role="1dT_Ay">
+            <property role="1dT_AB" value="Finds the nearest sessions inside a analysis node for a given node." />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="2yvMhGhsuz0" role="TUOzN">
+          <property role="TUZQ4" value="node inside an RScript node" />
+          <node concept="zr_55" id="2yvMhGhsuz2" role="zr_5Q">
+            <ref role="zr_51" node="2xF4TVcExcd" resolve="unit" />
+          </node>
+        </node>
+        <node concept="x79VA" id="2yvMhGhsuz3" role="x79VK">
+          <property role="x79VB" value="node" />
+        </node>
+      </node>
     </node>
     <node concept="2tJIrI" id="2xF4TVcEv2H" role="jymVt" />
     <node concept="2tJIrI" id="26cpLhj_kJH" role="jymVt" />
@@ -13276,6 +14584,34 @@
         </node>
       </node>
       <node concept="3Tm6S6" id="hlbLQwkf40" role="1B3o_S" />
+      <node concept="P$JXv" id="2yvMhGhsuEi" role="lGtFl">
+        <node concept="TZ5HA" id="2yvMhGhsuEj" role="TZ5H$">
+          <node concept="1dT_AC" id="2yvMhGhsuEk" role="1dT_Ay">
+            <property role="1dT_AB" value="Checks if a session file exists for a specific session name." />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="2yvMhGhsuEl" role="TUOzN">
+          <property role="TUZQ4" value="either RScript or Analysis node" />
+          <node concept="zr_55" id="2yvMhGhsuEn" role="zr_5Q">
+            <ref role="zr_51" node="hlbLQwkf42" resolve="rootNode" />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="2yvMhGhsuEo" role="TUOzN">
+          <property role="TUZQ4" value="name of session" />
+          <node concept="zr_55" id="2yvMhGhsuEq" role="zr_5Q">
+            <ref role="zr_51" node="hlbLQwkf44" resolve="sessionName" />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="2yvMhGhsuEr" role="TUOzN">
+          <property role="TUZQ4" value="openapi Project node" />
+          <node concept="zr_55" id="2yvMhGhsuEt" role="zr_5Q">
+            <ref role="zr_51" node="hlbLQwkf46" resolve="project" />
+          </node>
+        </node>
+        <node concept="x79VA" id="2yvMhGhsuEu" role="x79VK">
+          <property role="x79VB" value="boolean" />
+        </node>
+      </node>
     </node>
     <node concept="2tJIrI" id="hlbLQwrzMC" role="jymVt" />
     <node concept="2YIFZL" id="26cpLhkiFpz" role="jymVt">
@@ -13350,6 +14686,34 @@
         </node>
       </node>
       <node concept="3Tm1VV" id="26cpLhkiFq1" role="1B3o_S" />
+      <node concept="P$JXv" id="2yvMhGhsuJb" role="lGtFl">
+        <node concept="TZ5HA" id="2yvMhGhsuJc" role="TZ5H$">
+          <node concept="1dT_AC" id="2yvMhGhsuJd" role="1dT_Ay">
+            <property role="1dT_AB" value="Returns the physical file path of a saved session" />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="2yvMhGhsuJe" role="TUOzN">
+          <property role="TUZQ4" value="either RScript or Analysis node" />
+          <node concept="zr_55" id="2yvMhGhsuJg" role="zr_5Q">
+            <ref role="zr_51" node="26cpLhkiFp_" resolve="rootNode" />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="2yvMhGhsuJh" role="TUOzN">
+          <property role="TUZQ4" value="name of session" />
+          <node concept="zr_55" id="2yvMhGhsuJj" role="zr_5Q">
+            <ref role="zr_51" node="26cpLhkiFpB" resolve="sessionName" />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="2yvMhGhsuJk" role="TUOzN">
+          <property role="TUZQ4" value="openapi Project node" />
+          <node concept="zr_55" id="2yvMhGhsuJm" role="zr_5Q">
+            <ref role="zr_51" node="26cpLhkiFpD" resolve="project" />
+          </node>
+        </node>
+        <node concept="x79VA" id="2yvMhGhsuJn" role="x79VK">
+          <property role="x79VB" value="path of session" />
+        </node>
+      </node>
     </node>
     <node concept="2tJIrI" id="hlbLQwjOLW" role="jymVt" />
     <node concept="3Tm1VV" id="hlbLQwjCGP" role="1B3o_S" />
@@ -13358,6 +14722,18 @@
     <property role="3GE5qa" value="changeListener" />
     <property role="TrG5h" value="MightBeDetached" />
     <node concept="3Tm1VV" id="7B51G8WbzAY" role="1B3o_S" />
+    <node concept="3UR2Jj" id="2yvMhGhstJW" role="lGtFl">
+      <node concept="TZ5HA" id="2yvMhGhstJX" role="TZ5H$">
+        <node concept="1dT_AC" id="2yvMhGhstJY" role="1dT_Ay">
+          <property role="1dT_AB" value="This attribute should be used for nodes that are used as a method parameter and that might already" />
+        </node>
+      </node>
+      <node concept="TZ5HA" id="2yvMhGhsGMB" role="TZ5H$">
+        <node concept="1dT_AC" id="2yvMhGhsGMC" role="1dT_Ay">
+          <property role="1dT_AB" value="be detached/ don't have a parent anymore." />
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="312cEu" id="2yvMhGgUDsn">
     <property role="3GE5qa" value="changeListener" />
@@ -13446,6 +14822,31 @@
         <property role="TrG5h" value="project" />
         <node concept="3uibUv" id="2yvMhGgV83V" role="1tU5fm">
           <ref role="3uigEE" to="4nm9:~Project" resolve="Project" />
+        </node>
+      </node>
+      <node concept="P$JXv" id="2yvMhGhsZb5" role="lGtFl">
+        <node concept="TZ5HA" id="2yvMhGhsZb6" role="TZ5H$">
+          <node concept="1dT_AC" id="2yvMhGhsZb7" role="1dT_Ay">
+            <property role="1dT_AB" value="Starts a new background task without any visible progress indicator." />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="2yvMhGhsZb8" role="TUOzN">
+          <property role="TUZQ4" value="Code that should be executed in the background" />
+          <node concept="zr_55" id="2yvMhGhsZba" role="zr_5Q">
+            <ref role="zr_51" node="2yvMhGgV936" resolve="code" />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="2yvMhGhsZbb" role="TUOzN">
+          <property role="TUZQ4" value="Title of the task (not visible)" />
+          <node concept="zr_55" id="2yvMhGhsZbd" role="zr_5Q">
+            <ref role="zr_51" node="2yvMhGgV8vV" resolve="title" />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="2yvMhGhsZbe" role="TUOzN">
+          <property role="TUZQ4" value="Project" />
+          <node concept="zr_55" id="2yvMhGhsZbg" role="zr_5Q">
+            <ref role="zr_51" node="2yvMhGgV83W" resolve="project" />
+          </node>
         </node>
       </node>
     </node>
