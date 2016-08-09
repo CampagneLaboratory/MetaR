@@ -3484,8 +3484,8 @@
                                     <node concept="3clFbF" id="hlbLQwF6rP" role="3cqZAp">
                                       <node concept="2OqwBi" id="hlbLQwF6wp" role="3clFbG">
                                         <node concept="2YIFZM" id="hlbLQwF6ux" role="2Oq$k0">
-                                          <ref role="37wK5l" node="7ZtP2DEHUg0" resolve="getInstance" />
                                           <ref role="1Pybhc" node="7ZtP2DEHIzu" resolve="Logging" />
+                                          <ref role="37wK5l" node="7ZtP2DEHUg0" resolve="getInstance" />
                                         </node>
                                         <node concept="liA8E" id="hlbLQwF6$g" role="2OqNvi">
                                           <ref role="37wK5l" node="7PqnxC2_Q2P" resolve="debug" />
@@ -3502,8 +3502,8 @@
                                     </node>
                                     <node concept="3clFbF" id="hlbLQwjJj$" role="3cqZAp">
                                       <node concept="2YIFZM" id="hlbLQwjJnj" role="3clFbG">
-                                        <ref role="37wK5l" node="hlbLQwjHMq" resolve="visitAnalysis" />
                                         <ref role="1Pybhc" node="hlbLQwjCGO" resolve="ChangeExecutor" />
+                                        <ref role="37wK5l" node="hlbLQwjHMq" resolve="visitAnalysis" />
                                         <node concept="1PxgMI" id="hlbLQwj0Fa" role="37wK5m">
                                           <ref role="1PxNhF" to="jrxw:7LvyiX4mii$" resolve="Analysis" />
                                           <node concept="37vLTw" id="hlbLQwiWDX" role="1PxMeX">
@@ -6886,17 +6886,22 @@
             <property role="3SKdUp" value="the compiling flag indicates that the tool is currently compiling/executing the script." />
           </node>
         </node>
-        <node concept="3clFbF" id="70iH0fuG4_g" role="3cqZAp">
-          <node concept="2OqwBi" id="70iH0fuG4Gk" role="3clFbG">
-            <node concept="2OqwBi" id="70iH0fuG4Ay" role="2Oq$k0">
-              <node concept="2WthIp" id="70iH0fuG4_e" role="2Oq$k0" />
-              <node concept="2BZ7hE" id="70iH0fuG4Dp" role="2OqNvi">
+        <node concept="3clFbF" id="2r6qUOXzzVa" role="3cqZAp">
+          <node concept="2OqwBi" id="2r6qUOXz$6f" role="3clFbG">
+            <node concept="2OqwBi" id="2r6qUOXzzZ0" role="2Oq$k0">
+              <node concept="2WthIp" id="2r6qUOXzzWU" role="2Oq$k0" />
+              <node concept="2BZ7hE" id="2r6qUOXz$2b" role="2OqNvi">
                 <ref role="2WH_rO" node="70iH0fuDqa7" resolve="compiling" />
               </node>
             </node>
-            <node concept="liA8E" id="70iH0fuG4J3" role="2OqNvi">
-              <ref role="37wK5l" to="i5cy:~AtomicBoolean.set(boolean):void" resolve="set" />
-              <node concept="37vLTw" id="70iH0fuG4Js" role="37wK5m">
+            <node concept="liA8E" id="2r6qUOXz$9f" role="2OqNvi">
+              <ref role="37wK5l" to="i5cy:~AtomicBoolean.compareAndSet(boolean,boolean):boolean" resolve="compareAndSet" />
+              <node concept="3fqX7Q" id="2r6qUOXz$9_" role="37wK5m">
+                <node concept="37vLTw" id="2r6qUOXz$ax" role="3fr31v">
+                  <ref role="3cqZAo" node="70iH0fuDuYA" resolve="b" />
+                </node>
+              </node>
+              <node concept="37vLTw" id="2r6qUOXz$c0" role="37wK5m">
                 <ref role="3cqZAo" node="70iH0fuDuYA" resolve="b" />
               </node>
             </node>
