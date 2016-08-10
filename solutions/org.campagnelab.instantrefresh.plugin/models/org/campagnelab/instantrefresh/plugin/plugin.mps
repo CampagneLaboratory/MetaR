@@ -3403,7 +3403,7 @@
         </node>
         <node concept="3SKdUt" id="2yvMhGhu6ff" role="3cqZAp">
           <node concept="3SKdUq" id="2yvMhGhu6fg" role="3SKWNk">
-            <property role="3SKdUp" value="If the changed not doesn't have any children that can be references, we can stop here." />
+            <property role="3SKdUp" value="If the changed node doesn't have any children that can be references, we can stop here." />
           </node>
         </node>
         <node concept="3clFbJ" id="15COMTnT59y" role="3cqZAp">
