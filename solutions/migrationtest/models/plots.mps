@@ -23,6 +23,11 @@
     <import index="9nc5" ref="r:d1a256e6-591a-459f-809c-7fc9df45e4d5(org.campagnelab.mps.XChart.types.roots)" implicit="true" />
   </imports>
   <registry>
+    <language id="95951e17-c0d6-47b9-b1b5-42a4ca186fc6" name="org.campagnelab.instantrefresh">
+      <concept id="1254484692210402710" name="org.campagnelab.instantrefresh.structure.IAtomic" flags="ng" index="16dhqS">
+        <property id="221363389440938160" name="ID" index="1MXi1$" />
+      </concept>
+    </language>
     <language id="c1747c67-8f42-4d83-9542-4a948aec17d9" name="org.campagnelab.metar.functions.importing">
       <concept id="2460923530829626766" name="org.campagnelab.metar.functions.importing.structure.FunctionDeclarationWrapper" flags="ng" index="28mg_B">
         <reference id="2460923530829627745" name="functionRef" index="28DJm8" />
@@ -59,7 +64,7 @@
       <concept id="8459500803719374384" name="org.campagnelab.metar.tables.structure.Plot" flags="ng" index="1FHg$p">
         <property id="8962032619586498917" name="width" index="ZHjxa" />
         <property id="8962032619586499111" name="height" index="ZHjG8" />
-        <property id="4166618652723451261" name="id" index="3ZMXzF" />
+        <property id="4166618652723451261" name="plotId" index="3ZMXzF" />
       </concept>
       <concept id="3402264987261651661" name="org.campagnelab.metar.tables.structure.ImportTable" flags="ng" index="3MjoWR">
         <reference id="3402264987261692715" name="table" index="3Mj2Vh" />
@@ -104,8 +109,10 @@
     <property role="TrG5h" value="hist" />
     <node concept="ZXjPh" id="6efZaUijZwA" role="S1EQ8">
       <property role="S1EQ6" value="OWKBULHHDK" />
+      <property role="1MXi1$" value="JKEXUTVCCI" />
       <node concept="3MjoWR" id="6efZaUijZyj" role="ZXjPg">
         <property role="S1EQ6" value="DPUESRPYNT" />
+        <property role="1MXi1$" value="BLFVMYJFGP" />
         <ref role="3Mj2Vh" node="2Yw6f5rDq1N" resolve="Table_LikeA.csv" />
         <node concept="3MlLWZ" id="6efZaUijZzp" role="3MjoVY">
           <property role="TrG5h" value="Table_LikeA.csv" />
@@ -115,6 +122,7 @@
       <node concept="YjSNG" id="6efZaUj5A$C" role="ZXjPg">
         <property role="S1EQ6" value="SEAWOGFCRB" />
         <property role="TrG5h" value="base" />
+        <property role="1MXi1$" value="LQACLTVSVE" />
         <ref role="Yj176" to="4tsn:5lRZ7X4U2$2" resolve="base" />
         <node concept="28mg_B" id="6efZaUj5AAH" role="Yj6Zy">
           <property role="TrG5h" value="abbreviate" />
@@ -4303,6 +4311,7 @@
       </node>
       <node concept="2p5owa" id="6efZaUijZwB" role="ZXjPg">
         <property role="S1EQ6" value="QFVUOIXAJX" />
+        <property role="1MXi1$" value="UCKQWDMMMY" />
         <node concept="1FHg$p" id="6efZaUijZwD" role="2p5QcQ">
           <property role="ZHjxa" value="200" />
           <property role="ZHjG8" value="200" />
@@ -4317,6 +4326,7 @@
       </node>
       <node concept="S1EQe" id="6efZaUiMhlG" role="ZXjPg">
         <property role="S1EQ6" value="RWLMLSKBBQ" />
+        <property role="1MXi1$" value="VWMCOCJOTL" />
       </node>
     </node>
   </node>

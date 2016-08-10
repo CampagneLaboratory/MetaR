@@ -84,6 +84,11 @@
         <child id="1199569916463" name="body" index="1bW5cS" />
       </concept>
     </language>
+    <language id="95951e17-c0d6-47b9-b1b5-42a4ca186fc6" name="org.campagnelab.instantrefresh">
+      <concept id="1254484692210402710" name="org.campagnelab.instantrefresh.structure.IAtomic" flags="ng" index="16dhqS">
+        <property id="221363389440938160" name="ID" index="1MXi1$" />
+      </concept>
+    </language>
     <language id="c7d5b9dd-a05f-4be2-bc73-f2e16994cc67" name="jetbrains.mps.baseLanguage.lightweightdsl">
       <concept id="3751132065236767083" name="jetbrains.mps.baseLanguage.lightweightdsl.structure.DependentTypeInstance" flags="ig" index="q3mfm">
         <reference id="3751132065236767084" name="decl" index="q3mfh" />
@@ -194,6 +199,7 @@
         <node concept="3SqFnK" id="3jxRpTzapMR" role="3cqZAp">
           <node concept="2DMOqp" id="3jxRpTzapMS" role="3SqFnn">
             <node concept="2i91V1" id="3jxRpTzhqC0" role="2DMOqq">
+              <property role="1MXi1$" value="AMPWMIHGOR" />
               <node concept="2DMOqv" id="3jxRpTzhrLB" role="lGtFl" />
             </node>
           </node>

@@ -25,6 +25,11 @@
     <import index="4tsn" ref="r:97aeaa4f-346d-4633-b5a0-99879648272c(R3_1_3@stubs)" implicit="true" />
   </imports>
   <registry>
+    <language id="95951e17-c0d6-47b9-b1b5-42a4ca186fc6" name="org.campagnelab.instantrefresh">
+      <concept id="1254484692210402710" name="org.campagnelab.instantrefresh.structure.IAtomic" flags="ng" index="16dhqS">
+        <property id="221363389440938160" name="ID" index="1MXi1$" />
+      </concept>
+    </language>
     <language id="3b58810c-8431-4bbb-99ea-b4671e02dd13" name="org.campagnelab.metar.R">
       <concept id="5770663561153558147" name="org.campagnelab.metar.R.structure.ParameterValue" flags="ng" index="gNblG">
         <child id="5770663561153558420" name="value" index="gNbhV" />
@@ -135,11 +140,14 @@
     <property role="TrG5h" value="Test with R" />
     <node concept="ZXjPh" id="5DjLoGcmdF9" role="S1EQ8">
       <property role="S1EQ6" value="MVTSFBUJRT" />
+      <property role="1MXi1$" value="LWBKCQQLUR" />
       <node concept="S1EQe" id="2o$O_6RRt2G" role="ZXjPg">
         <property role="S1EQ6" value="OFGOPXOSRN" />
+        <property role="1MXi1$" value="XLVRCMSIEE" />
       </node>
       <node concept="3MjoWR" id="6V45Bo3SnA6" role="ZXjPg">
         <property role="S1EQ6" value="EMUDMFJJYS" />
+        <property role="1MXi1$" value="TWMEMYHRUB" />
         <ref role="3Mj2Vh" to="lb3v:6V45Bo3SnAT" resolve="time-as-covariates-3.tsv" />
         <node concept="3MlLWZ" id="6V45Bo3SnCe" role="3MjoVY">
           <property role="TrG5h" value="TimeAsCovariateTable" />
@@ -149,6 +157,7 @@
       <node concept="YjSNG" id="1Oy_PeLCIh4" role="ZXjPg">
         <property role="S1EQ6" value="SPIBVVPOTJ" />
         <property role="TrG5h" value="stats" />
+        <property role="1MXi1$" value="YXSDNAJWXL" />
         <ref role="Yj176" to="4tsn:364jCD02GxB" resolve="stats" />
         <node concept="28mg_B" id="1Oy_PeLCIhu" role="Yj6Zy">
           <property role="TrG5h" value="acf" />
@@ -1922,6 +1931,7 @@
       <node concept="YjSNG" id="6W8tELyqWmG" role="ZXjPg">
         <property role="S1EQ6" value="HONSMIPCGO" />
         <property role="TrG5h" value="base" />
+        <property role="1MXi1$" value="PUGRIJFUSF" />
         <ref role="Yj176" to="4tsn:1yhT8VTIy6y" resolve="base" />
         <node concept="28mg_B" id="6W8tELyqWF6" role="Yj6Zy">
           <property role="TrG5h" value=".DLLInfo" />
@@ -6110,18 +6120,24 @@
       </node>
       <node concept="2pLU64" id="4EbLpru3D7c" role="ZXjPg">
         <property role="S1EQ6" value="VLWHUVDCON" />
+        <property role="1MXi1$" value="BMRIGCVMBW" />
         <node concept="2obFJT" id="4EbLpru3D7e" role="2pLU67">
           <ref role="2obFw0" to="4tsn:1yhT8VTIyMR" resolve="cat" />
           <node concept="2PZJp2" id="4EbLpru3Dyt" role="2obFJS">
+            <property role="1MXi1$" value="LTYGRYPKCL" />
             <node concept="gNbv0" id="4EbLpru3Dyu" role="134Gdu">
+              <property role="1MXi1$" value="OKORHUPCFR" />
               <node concept="V6WaU" id="4EbLpru3Dyv" role="gNbrm">
+                <property role="1MXi1$" value="DFSKQIGRDV" />
                 <node concept="2PZJpm" id="4EbLpru3DyV" role="gNbhV">
                   <property role="pzxGI" value="Combined Cohorts" />
+                  <property role="1MXi1$" value="AJGSIIJERU" />
                 </node>
               </node>
             </node>
             <node concept="3a69Ir" id="4EbLpru3Dys" role="134Gdo">
               <property role="TrG5h" value="cat" />
+              <property role="1MXi1$" value="XLEGDBXOJK" />
               <ref role="3a69Pm" to="4tsn:1yhT8VTIyMS" />
               <ref role="1Li74V" to="4tsn:1yhT8VTIyMR" resolve="cat" />
             </node>
@@ -6130,9 +6146,11 @@
       </node>
       <node concept="S1EQe" id="2o$O_6SdubA" role="ZXjPg">
         <property role="S1EQ6" value="SGJIMQOBXC" />
+        <property role="1MXi1$" value="OVNASGSLLN" />
       </node>
       <node concept="3os5Ol" id="2OXkbjPtsnV" role="ZXjPg">
         <property role="S1EQ6" value="WIWQHSQRDE" />
+        <property role="1MXi1$" value="RWKOBLKHAV" />
         <node concept="1k6nZU" id="2OXkbjPtsnX" role="3os5On">
           <node concept="3MHf5z" id="2OXkbjPNWo8" role="1k6nZZ">
             <ref role="3MHf5w" to="lb3v:6W8tELyxDBD" resolve="Donor Age" />
@@ -6164,43 +6182,62 @@
       </node>
       <node concept="1m0zHf" id="2o$O_6S9Vh_" role="ZXjPg">
         <property role="S1EQ6" value="OBIDLRNOHW" />
+        <property role="1MXi1$" value="INOSBVQQXL" />
         <node concept="13u1kU" id="2o$O_6S9VhB" role="1m0mKq">
+          <property role="1MXi1$" value="JEIUFQJUGV" />
           <node concept="2PZJp2" id="2o$O_6Sdu9P" role="13u1kV">
+            <property role="1MXi1$" value="VOVYWCIBHN" />
             <node concept="gNbv0" id="2o$O_6Sdu9V" role="134Gdu">
+              <property role="1MXi1$" value="DPNEYLKYYM" />
               <node concept="V6WaU" id="2o$O_6Sdu9W" role="gNbrm">
+                <property role="1MXi1$" value="NADMPWEYYO" />
                 <node concept="2PZJpm" id="2o$O_6Sdu9Z" role="gNbhV">
                   <property role="pzxGI" value="COMBINED_COHORT" />
+                  <property role="1MXi1$" value="UKFBJOMTWM" />
                 </node>
               </node>
             </node>
             <node concept="3a69Ir" id="2o$O_6SduaL" role="134Gdo">
+              <property role="1MXi1$" value="DVIUFJUKRE" />
               <ref role="3a69Pm" to="4tsn:364jCD04XC3" />
               <ref role="1Li74V" to="4tsn:364jCD04XC2" resolve="summary" />
             </node>
           </node>
-          <node concept="3cU4HJ" id="2o$O_6SduaP" role="13u1kV" />
+          <node concept="3cU4HJ" id="2o$O_6SduaP" role="13u1kV">
+            <property role="1MXi1$" value="AGNGGSDKQA" />
+          </node>
           <node concept="2PZJp2" id="2o$O_6S9W_3" role="13u1kV">
+            <property role="1MXi1$" value="KBWDXALEOP" />
             <node concept="gNbv0" id="2o$O_6S9W_9" role="134Gdu">
+              <property role="1MXi1$" value="VSFXUYCBET" />
               <node concept="V6WaU" id="2o$O_6S9W_B" role="gNbrm">
+                <property role="1MXi1$" value="GLRCJVQLHX" />
                 <node concept="2PZJpm" id="2o$O_6S9W_N" role="gNbhV">
                   <property role="pzxGI" value="Calculate effect confidence intervals:" />
+                  <property role="1MXi1$" value="FIARSXFCGO" />
                 </node>
               </node>
             </node>
             <node concept="3a69Ir" id="2o$O_6S9W_A" role="134Gdo">
+              <property role="1MXi1$" value="JTKRPNUQSD" />
               <ref role="3a69Pm" to="4tsn:1yhT8VTIyMS" />
               <ref role="1Li74V" to="4tsn:1yhT8VTIyMR" resolve="cat" />
             </node>
           </node>
           <node concept="2PZJp2" id="2o$O_6S9W$d" role="13u1kV">
+            <property role="1MXi1$" value="ATKMYEJROS" />
             <node concept="gNbv0" id="2o$O_6S9W$j" role="134Gdu">
+              <property role="1MXi1$" value="FYLNCIKOWG" />
               <node concept="V6WaU" id="2o$O_6S9W$k" role="gNbrm">
+                <property role="1MXi1$" value="PAGRSGMCWR" />
                 <node concept="2PZJpp" id="2o$O_6S9W$n" role="gNbhV">
                   <property role="TrG5h" value="COMBINED_COHORT" />
+                  <property role="1MXi1$" value="UVYPEFTSAT" />
                 </node>
               </node>
             </node>
             <node concept="3a69Ir" id="2o$O_6S9W$F" role="134Gdo">
+              <property role="1MXi1$" value="EVPJQEYFXE" />
               <ref role="3a69Pm" to="4tsn:364jCD02GJ0" />
               <ref role="1Li74V" to="4tsn:364jCD02GIZ" resolve="confint" />
             </node>
@@ -6211,6 +6248,7 @@
         <property role="S1EQ6" value="GFPXPEMUDX" />
         <property role="3oTQdC" value="allogenomics" />
         <property role="3oTQdF" value="null" />
+        <property role="1MXi1$" value="OCCTWPYHTJ" />
         <node concept="afgQW" id="2OXkbjQk5zY" role="3oTQd$">
           <ref role="afgo8" to="lb3v:6V45Bo3SnAT" resolve="time-as-covariates-3.tsv" />
         </node>

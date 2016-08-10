@@ -56,6 +56,11 @@
       </concept>
       <concept id="1168024337012" name="jetbrains.mps.lang.generator.structure.SourceSubstituteMacro_SourceNodeQuery" flags="in" index="3NFfHV" />
     </language>
+    <language id="95951e17-c0d6-47b9-b1b5-42a4ca186fc6" name="org.campagnelab.instantrefresh">
+      <concept id="1254484692210402710" name="org.campagnelab.instantrefresh.structure.IAtomic" flags="ng" index="16dhqS">
+        <property id="221363389440938160" name="ID" index="1MXi1$" />
+      </concept>
+    </language>
     <language id="3b58810c-8431-4bbb-99ea-b4671e02dd13" name="org.campagnelab.metar.R">
       <concept id="6176023809880707767" name="org.campagnelab.metar.R.structure.Identifier" flags="ng" index="2PZJpp" />
     </language>
@@ -87,6 +92,7 @@
     <ref role="3gUMe" to="rlu9:55b$yEt0tu_" resolve="BiomartinR" />
     <node concept="2PZJpp" id="55b$yEtsF$u" role="13RCb5">
       <property role="TrG5h" value="FromBiomart" />
+      <property role="1MXi1$" value="JPABYIGMAQ" />
       <node concept="raruj" id="55b$yEtsF$w" role="lGtFl" />
       <node concept="29HgVG" id="55b$yEtsF$y" role="lGtFl">
         <node concept="3NFfHV" id="55b$yEtsF$z" role="3NFExx">

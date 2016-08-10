@@ -106,6 +106,11 @@
       <concept id="1167756080639" name="jetbrains.mps.lang.generator.structure.PropertyMacro_GetPropertyValue" flags="in" index="3zFVjK" />
       <concept id="1168024337012" name="jetbrains.mps.lang.generator.structure.SourceSubstituteMacro_SourceNodeQuery" flags="in" index="3NFfHV" />
     </language>
+    <language id="95951e17-c0d6-47b9-b1b5-42a4ca186fc6" name="org.campagnelab.instantrefresh">
+      <concept id="1254484692210402710" name="org.campagnelab.instantrefresh.structure.IAtomic" flags="ng" index="16dhqS">
+        <property id="221363389440938160" name="ID" index="1MXi1$" />
+      </concept>
+    </language>
     <language id="3b58810c-8431-4bbb-99ea-b4671e02dd13" name="org.campagnelab.metar.R">
       <concept id="6176023809880707773" name="org.campagnelab.metar.R.structure.NullExpr" flags="ng" index="2PZJpj" />
       <concept id="6176023809880707767" name="org.campagnelab.metar.R.structure.Identifier" flags="ng" index="2PZJpp" />
@@ -173,6 +178,7 @@
             </node>
           </node>
           <node concept="2PZJpj" id="1sDyjSZgPSu" role="kOeD6">
+            <property role="1MXi1$" value="FPRXBICETM" />
             <node concept="29HgVG" id="1sDyjSZgPSx" role="lGtFl">
               <node concept="3NFfHV" id="1sDyjSZgPSy" role="3NFExx">
                 <node concept="3clFbS" id="1sDyjSZgPSz" role="2VODD2">
@@ -239,6 +245,7 @@
     <ref role="3gUMe" to="89bg:55Sa2wh1hYp" resolve="ColumnInMetar" />
     <node concept="2PZJpp" id="55Sa2wh3aYo" role="13RCb5">
       <property role="TrG5h" value="CopyColumn" />
+      <property role="1MXi1$" value="SFLURFNXBT" />
       <node concept="raruj" id="55Sa2wh3aYp" role="lGtFl" />
       <node concept="17Uvod" id="55Sa2wh3aYq" role="lGtFl">
         <property role="P4ACc" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/1169194658468/1169194664001" />

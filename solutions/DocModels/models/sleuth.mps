@@ -45,6 +45,11 @@
         <child id="5649132979619831351" name="compareWith" index="3PiHUO" />
       </concept>
     </language>
+    <language id="95951e17-c0d6-47b9-b1b5-42a4ca186fc6" name="org.campagnelab.instantrefresh">
+      <concept id="1254484692210402710" name="org.campagnelab.instantrefresh.structure.IAtomic" flags="ng" index="16dhqS">
+        <property id="221363389440938160" name="ID" index="1MXi1$" />
+      </concept>
+    </language>
     <language id="ecc862c9-5ab5-42ef-8703-2039019fb338" name="org.campagnelab.metar.models">
       <concept id="5124039371744206222" name="org.campagnelab.metar.models.structure.GroupFormula" flags="ng" index="10WucB">
         <child id="5124039371744206223" name="groupExpression" index="10WucA" />
@@ -124,10 +129,12 @@
     <property role="TrG5h" value="SleuthTutorial" />
     <node concept="ZXjPh" id="1c1rOX4QHwv" role="S1EQ8">
       <property role="S1EQ6" value="XSGJIOCNQJ" />
+      <property role="1MXi1$" value="LNTWVNGKPR" />
       <node concept="2WfBV1" id="1c1rOX4QHww" role="ZXjPg">
         <property role="8NYsT" value="false" />
         <property role="S1EQ6" value="UUICBUMTNK" />
         <property role="74Ptb" value="42427" />
+        <property role="1MXi1$" value="OOGVBUJHKG" />
         <node concept="10WucB" id="1c1rOX4QHwx" role="1f2fMI">
           <node concept="10WucX" id="1c1rOX4QHwy" role="10WucA" />
         </node>
@@ -192,8 +199,10 @@
       </node>
       <node concept="ZXjPh" id="1c1rOX4QHAu" role="ZXjPg">
         <property role="S1EQ6" value="WFJXWKVCEM" />
+        <property role="1MXi1$" value="WWROBCMINQ" />
         <node concept="3MjoWR" id="1c1rOX4QHD$" role="ZXjPg">
           <property role="S1EQ6" value="TAJYBHDVML" />
+          <property role="1MXi1$" value="MGWFELSEKS" />
           <ref role="3Mj2Vh" node="1c1rOX4QHDk" resolve="cuffdiff2_data_kallisto_results" />
           <node concept="3MlLWZ" id="1c1rOX4QHD_" role="3MjoVY">
             <property role="TrG5h" value="cuffdiff2_data_kallisto_results" />
@@ -205,6 +214,7 @@
           <property role="S1EQ6" value="PIOVJYIIHY" />
           <property role="74Ptb" value="42427" />
           <property role="48$wD" value="/Users/fac2003/Downloads/cuffdiff2_data_kallisto_results" />
+          <property role="1MXi1$" value="MERTGHLVRO" />
           <node concept="10WucB" id="1c1rOX4QHCs" role="1f2fMI">
             <node concept="10WucX" id="1c1rOX4QHCt" role="10WucA" />
           </node>
@@ -279,6 +289,7 @@
         <property role="8NYsT" value="false" />
         <property role="S1EQ6" value="VPOOPDLCWH" />
         <property role="74Ptb" value="42427" />
+        <property role="1MXi1$" value="NHAXOHYBAS" />
         <node concept="10WucB" id="1c1rOX4QHMg" role="1f2fMI">
           <node concept="10WucX" id="1c1rOX4QHMh" role="10WucA" />
         </node>
@@ -349,6 +360,7 @@
         <property role="8NYsT" value="false" />
         <property role="S1EQ6" value="YUWWXKVYMQ" />
         <property role="74Ptb" value="42427" />
+        <property role="1MXi1$" value="DMVODBEYTM" />
         <node concept="10WucB" id="1c1rOX4QHQY" role="1f2fMI">
           <node concept="10WucX" id="1c1rOX4QHQZ" role="10WucA" />
         </node>

@@ -79,6 +79,11 @@
         <property id="3213284430260319261" name="typePropertie" index="fo_kR" />
       </concept>
     </language>
+    <language id="95951e17-c0d6-47b9-b1b5-42a4ca186fc6" name="org.campagnelab.instantrefresh">
+      <concept id="1254484692210402710" name="org.campagnelab.instantrefresh.structure.IAtomic" flags="ng" index="16dhqS">
+        <property id="221363389440938160" name="ID" index="1MXi1$" />
+      </concept>
+    </language>
     <language id="5d6bde84-4ce4-4eb5-a37e-25a5edd55129" name="org.campagnelab.metar.tables">
       <concept id="2814838647967227455" name="org.campagnelab.metar.tables.structure.TSingleLineComment" flags="ng" index="nccVD">
         <child id="2814838647967227681" name="commentedStatement" index="nccZR" />
@@ -128,22 +133,27 @@
     <property role="TrG5h" value="BiomartWeb" />
     <node concept="ZXjPh" id="Hv0oaR8oQU" role="S1EQ8">
       <property role="S1EQ6" value="DQSBEXQGGU" />
+      <property role="1MXi1$" value="VCCOYJALDK" />
       <node concept="S1EQe" id="Hv0oaR8$OG" role="ZXjPg">
         <property role="S1EQ6" value="TDDSHOABYY" />
+        <property role="1MXi1$" value="GPBXGIVJJE" />
       </node>
       <node concept="nccVD" id="6AQ7lAdedsK" role="ZXjPg">
         <property role="S1EQ6" value="OXWBSPAFLT" />
+        <property role="1MXi1$" value="MPYRDLXKER" />
         <node concept="3SKdUq" id="6AQ7lAdedsO" role="nccZR">
           <property role="3SKdUp" value="change the queryBiomart http tfrom biomart to ensembl" />
         </node>
       </node>
       <node concept="S1EQe" id="Hv0oaR8$OI" role="ZXjPg">
         <property role="S1EQ6" value="DFCIAUQYPX" />
+        <property role="1MXi1$" value="PRIIMXQLCD" />
       </node>
       <node concept="1JfIxH" id="Hv0oaRd6uf" role="ZXjPg">
         <property role="S1EQ6" value="DUDOCIMOWP" />
         <property role="8NYsT" value="false" />
         <property role="12rW4U" value="http://www.ensembl.org" />
+        <property role="1MXi1$" value="NXXJBRVPWG" />
         <ref role="1KrPA$" node="16dayhkldFJ" resolve="Ensembl Genes 82" />
         <ref role="1L9wCD" node="16dayhkldGj" resolve="Homo sapiens genes (GRCh38.p3)" />
         <node concept="3MlLWZ" id="Hv0oaRd6uh" role="gr_HF">
@@ -32718,10 +32728,12 @@
     <property role="TrG5h" value="Biomart2" />
     <node concept="ZXjPh" id="16dayhkmkV6" role="S1EQ8">
       <property role="S1EQ6" value="QIDIBGONQF" />
+      <property role="1MXi1$" value="DCCIHYGUSV" />
       <node concept="1JfIxH" id="16dayhkmkVd" role="ZXjPg">
         <property role="S1EQ6" value="BBEWEVKGUM" />
         <property role="8NYsT" value="false" />
         <property role="12rW4U" value="http://www.ensembl.org" />
+        <property role="1MXi1$" value="GIQEHIEHQT" />
         <ref role="1KrPA$" node="16dayhkmkVi" resolve="Ensembl Genes 82" />
         <ref role="1L9wCD" node="16dayhkmkWM" resolve="Anas platyrhynchos genes (BGI_duck_1.0)" />
         <node concept="6klPq" id="16dayhkmm8o" role="6kkaP">

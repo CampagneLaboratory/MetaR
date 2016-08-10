@@ -46,6 +46,11 @@
         <property id="6329021646629104958" name="text" index="3SKdUp" />
       </concept>
     </language>
+    <language id="95951e17-c0d6-47b9-b1b5-42a4ca186fc6" name="org.campagnelab.instantrefresh">
+      <concept id="1254484692210402710" name="org.campagnelab.instantrefresh.structure.IAtomic" flags="ng" index="16dhqS">
+        <property id="221363389440938160" name="ID" index="1MXi1$" />
+      </concept>
+    </language>
     <language id="3b58810c-8431-4bbb-99ea-b4671e02dd13" name="org.campagnelab.metar.R">
       <concept id="489068675543418434" name="org.campagnelab.metar.R.structure.BitwiseAnd" flags="ng" index="22gccs" />
       <concept id="489068675543418428" name="org.campagnelab.metar.R.structure.GreaterThan" flags="ng" index="22gcdy" />
@@ -171,14 +176,17 @@
     <property role="TrG5h" value="UpSetTutorial" />
     <node concept="ZXjPh" id="1c1rOX4_brr" role="S1EQ8">
       <property role="S1EQ6" value="XCOGORIKKW" />
+      <property role="1MXi1$" value="BPLPFXJWIB" />
       <node concept="nccVD" id="1c1rOX4Jh7k" role="ZXjPg">
         <property role="S1EQ6" value="HVNJHXKIWL" />
+        <property role="1MXi1$" value="RMEHOJHOPG" />
         <node concept="3SKdUq" id="1c1rOX4Jh9u" role="nccZR">
           <property role="3SKdUp" value="with defined gene lists:" />
         </node>
       </node>
       <node concept="3WoeC_" id="1c1rOX4_brs" role="ZXjPg">
         <property role="S1EQ6" value="FBFXJRGRAE" />
+        <property role="1MXi1$" value="WTXKIEMEDO" />
         <node concept="3Wv0rH" id="1c1rOX4_brw" role="3WoeCz">
           <property role="TrG5h" value="List1" />
           <node concept="3Wv0rE" id="1c1rOX4_brz" role="3Wv3z6">
@@ -194,6 +202,7 @@
       </node>
       <node concept="3WoeC_" id="1c1rOX4_brN" role="ZXjPg">
         <property role="S1EQ6" value="GIQFJKYIKU" />
+        <property role="1MXi1$" value="SQLLQKTMKJ" />
         <node concept="3Wv0rH" id="1c1rOX4_brY" role="3WoeCz">
           <property role="TrG5h" value="List2" />
           <node concept="3Wv0rE" id="1c1rOX4_bs1" role="3Wv3z6">
@@ -215,9 +224,11 @@
       </node>
       <node concept="S1EQe" id="1c1rOX4HC5m" role="ZXjPg">
         <property role="S1EQ6" value="MJALHTCKLM" />
+        <property role="1MXi1$" value="PFCLJUFNYF" />
       </node>
       <node concept="1n$wJ6" id="1c1rOX4_bsz" role="ZXjPg">
         <property role="S1EQ6" value="EVLIXFBUOC" />
+        <property role="1MXi1$" value="YXIYOFHEIO" />
         <node concept="1n$C5x" id="1c1rOX4_dgJ" role="2obsJO">
           <ref role="1n$C5w" node="1c1rOX4_brw" resolve="List1" />
         </node>
@@ -233,12 +244,14 @@
       </node>
       <node concept="nccVD" id="1c1rOX4Jh34" role="ZXjPg">
         <property role="S1EQ6" value="SGRYKJXBBD" />
+        <property role="1MXi1$" value="DOAGUNXCUF" />
         <node concept="3SKdUq" id="1c1rOX4Jh56" role="nccZR">
           <property role="3SKdUp" value="with elements of a table:" />
         </node>
       </node>
       <node concept="3MjoWR" id="1c1rOX4HC80" role="ZXjPg">
         <property role="S1EQ6" value="AQELIWNVRB" />
+        <property role="1MXi1$" value="GFLPYQWDIH" />
         <ref role="3Mj2Vh" node="4DOwJpJxBw5" resolve="GSE59364_DC_all.csv" />
         <node concept="3MlLWZ" id="1c1rOX4HC9a" role="3MjoVY">
           <property role="TrG5h" value="GSE59364_DC_all.csv" />
@@ -247,14 +260,18 @@
       </node>
       <node concept="1n$wJ6" id="1c1rOX4HCaw" role="ZXjPg">
         <property role="S1EQ6" value="TSKWMXKAOU" />
+        <property role="1MXi1$" value="GGSFHEPARX" />
         <node concept="1nDwpS" id="1c1rOX4HCbY" role="2obsJO">
           <property role="TrG5h" value="LPS&gt;10" />
           <node concept="2v3moz" id="1c1rOX4HL$1" role="3id8N9">
+            <property role="1MXi1$" value="JAXLGOLCRF" />
             <node concept="2PZJpk" id="1c1rOX4HL$2" role="2v3moI">
               <property role="pzxG6" value="20" />
+              <property role="1MXi1$" value="SKHLKQSRHO" />
             </node>
             <node concept="1x8lzE" id="1c1rOX4HL$4" role="2v3mow">
               <property role="TrG5h" value="GSE59364_DC_all.csv" />
+              <property role="1MXi1$" value="TLUINXGRCE" />
               <ref role="1x8kiA" node="4$IC3Kj1JTD" resolve="A_DC_LPS" />
               <ref role="1YZnGS" node="1c1rOX4HC9a" resolve="GSE59364_DC_all.csv" />
             </node>
@@ -270,12 +287,15 @@
         <node concept="1nDwpS" id="1c1rOX4HCip" role="2obsJO">
           <property role="TrG5h" value="LPS&gt;20" />
           <node concept="2v3moz" id="1c1rOX4HLzt" role="3id8N9">
+            <property role="1MXi1$" value="IFFILBXVEU" />
             <node concept="2PZJpk" id="1c1rOX4HLzz" role="2v3moI">
               <property role="pzxG6" value="10" />
+              <property role="1MXi1$" value="JYDAYWLROH" />
             </node>
             <node concept="22gcdy" id="1c1rOX4HLzx" role="22hImy" />
             <node concept="1x8lzE" id="1c1rOX4HLzj" role="2v3mow">
               <property role="TrG5h" value="GSE59364_DC_all.csv" />
+              <property role="1MXi1$" value="FNUWVVGPCI" />
               <ref role="1x8kiA" node="4$IC3Kj1JT_" resolve="A_DC" />
               <ref role="1YZnGS" node="1c1rOX4HC9a" resolve="GSE59364_DC_all.csv" />
             </node>
@@ -284,18 +304,24 @@
         <node concept="1nDwpS" id="1c1rOX4Jhef" role="2obsJO">
           <property role="TrG5h" value="combined" />
           <node concept="2v3moz" id="1c1rOX4Jhf3" role="3id8N9">
+            <property role="1MXi1$" value="XJUKEDBVSU" />
             <node concept="2PZJp8" id="1c1rOX4Jhfo" role="2v3moI">
+              <property role="1MXi1$" value="JASYWQBSTB" />
               <node concept="2PZJpk" id="1c1rOX4Jhfr" role="2v3mow">
                 <property role="pzxG6" value="10" />
+                <property role="1MXi1$" value="CMXTGYVLTF" />
               </node>
               <node concept="22gccs" id="1c1rOX4Jhfs" role="22hImy" />
               <node concept="2v3moz" id="1c1rOX4JhfS" role="2v3moI">
+                <property role="1MXi1$" value="XWSDKKFGKB" />
                 <node concept="2PZJpk" id="1c1rOX4JhfY" role="2v3moI">
                   <property role="pzxG6" value="30" />
+                  <property role="1MXi1$" value="YXGKRMQOHI" />
                 </node>
                 <node concept="22gcdy" id="1c1rOX4JhfW" role="22hImy" />
                 <node concept="1x8lzE" id="1c1rOX4JhfI" role="2v3mow">
                   <property role="TrG5h" value="GSE59364_DC_all.csv" />
+                  <property role="1MXi1$" value="VOCEWAUUSU" />
                   <ref role="1x8kiA" node="4$IC3Kj1JTX" resolve="C2DC" />
                   <ref role="1YZnGS" node="1c1rOX4HC9a" resolve="GSE59364_DC_all.csv" />
                 </node>
@@ -304,6 +330,7 @@
             <node concept="22gcdy" id="1c1rOX4Jhf5" role="22hImy" />
             <node concept="1x8lzE" id="1c1rOX4Jhf6" role="2v3mow">
               <property role="TrG5h" value="GSE59364_DC_all.csv" />
+              <property role="1MXi1$" value="VPTGCPYMPR" />
               <ref role="1x8kiA" node="4$IC3Kj1JT_" resolve="A_DC" />
               <ref role="1YZnGS" node="1c1rOX4HC9a" resolve="GSE59364_DC_all.csv" />
             </node>
@@ -314,6 +341,7 @@
         <property role="S1EQ6" value="QLOYKLPEIW" />
         <property role="165MX6" value="10" />
         <property role="165MyL" value="10" />
+        <property role="1MXi1$" value="JVIPWMWXSK" />
         <ref role="Ss6T5" node="1c1rOX4HCa$" resolve="upset" />
         <node concept="2jXUOv" id="1c1rOX4JhzJ" role="2jX3UN">
           <property role="2jXUS1" value="upset.pdf" />

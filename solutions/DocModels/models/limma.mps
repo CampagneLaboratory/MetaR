@@ -45,6 +45,11 @@
       </concept>
       <concept id="1073239437375" name="jetbrains.mps.baseLanguage.structure.NotEqualsExpression" flags="nn" index="3y3z36" />
     </language>
+    <language id="95951e17-c0d6-47b9-b1b5-42a4ca186fc6" name="org.campagnelab.instantrefresh">
+      <concept id="1254484692210402710" name="org.campagnelab.instantrefresh.structure.IAtomic" flags="ng" index="16dhqS">
+        <property id="221363389440938160" name="ID" index="1MXi1$" />
+      </concept>
+    </language>
     <language id="ecc862c9-5ab5-42ef-8703-2039019fb338" name="org.campagnelab.metar.models">
       <concept id="5124039371744206219" name="org.campagnelab.metar.models.structure.BinaryExpression" flags="ng" index="10Wucy">
         <child id="5124039371744206221" name="right" index="10Wuc$" />
@@ -126,7 +131,7 @@
       <concept id="8459500803719374384" name="org.campagnelab.metar.tables.structure.Plot" flags="ng" index="1FHg$p">
         <property id="8962032619586498917" name="width" index="ZHjxa" />
         <property id="8962032619586499111" name="height" index="ZHjG8" />
-        <property id="4166618652723451261" name="id" index="3ZMXzF" />
+        <property id="4166618652723451261" name="plotId" index="3ZMXzF" />
       </concept>
       <concept id="3402264987261651661" name="org.campagnelab.metar.tables.structure.ImportTable" flags="ng" index="3MjoWR">
         <reference id="3402264987261692715" name="table" index="3Mj2Vh" />
@@ -186,9 +191,11 @@
     <property role="TrG5h" value="Limma doc pdfs" />
     <node concept="ZXjPh" id="4bcN0BgiJa5" role="S1EQ8">
       <property role="S1EQ6" value="YSYHAYPPGN" />
+      <property role="1MXi1$" value="IJBJNFXTHO" />
       <node concept="3cumlZ" id="4bcN0BgiOMF" role="ZXjPg">
         <property role="S1EQ6" value="BDDSJMKFAK" />
         <property role="8NYsT" value="false" />
+        <property role="1MXi1$" value="SPBNNUIGDD" />
         <node concept="3MlLWZ" id="4bcN0BgiOMH" role="3curr3">
           <ref role="3MlLW5" node="4bcN0BgiOMI" />
           <node concept="3Mpm39" id="4bcN0BgiOMI" role="3WeD9t">
@@ -214,9 +221,11 @@
       </node>
       <node concept="S1EQe" id="4bcN0BgiOO5" role="ZXjPg">
         <property role="S1EQ6" value="OHEEKOSBIC" />
+        <property role="1MXi1$" value="YVNYTQRAKF" />
       </node>
       <node concept="3MjoWR" id="4ssfE$b37gr" role="ZXjPg">
         <property role="S1EQ6" value="GQOWYYFLQG" />
+        <property role="1MXi1$" value="VAGBGKOFNK" />
         <ref role="3Mj2Vh" node="4DOwJpJxBw5" resolve="GSE59364_DC_all.csv" />
         <node concept="3MlLWZ" id="4bcN0BgjgE4" role="3MjoVY">
           <property role="TrG5h" value="GSE59364_DC_all.csv" />
@@ -225,10 +234,12 @@
       </node>
       <node concept="S1EQe" id="4ssfE$b37gt" role="ZXjPg">
         <property role="S1EQ6" value="GQJSIGIHWV" />
+        <property role="1MXi1$" value="BYLTNHRJPG" />
       </node>
       <node concept="3WuldX" id="4ssfE$b37gu" role="ZXjPg">
         <property role="S1EQ6" value="QESIRWFGDC" />
         <property role="8NYsT" value="false" />
+        <property role="1MXi1$" value="CPANPWCQDM" />
         <node concept="3MlLWZ" id="4ssfE$b37gv" role="3W64wA">
           <property role="TrG5h" value="filtered" />
           <ref role="3MlLW5" node="4ssfE$b37gw" resolve="filtered" />
@@ -460,11 +471,13 @@
       </node>
       <node concept="S1EQe" id="4ssfE$b37hG" role="ZXjPg">
         <property role="S1EQ6" value="FAELEDRXID" />
+        <property role="1MXi1$" value="TVYGUJVMCK" />
       </node>
       <node concept="3cumlZ" id="4ssfE$b37hH" role="ZXjPg">
         <property role="S1EQ6" value="UGDYQNNESA" />
         <property role="8NYsT" value="false" />
         <property role="1eMVx4" value="true" />
+        <property role="1MXi1$" value="KSRDVHNHDP" />
         <node concept="3MlLWZ" id="4ssfE$b37hI" role="3curr3">
           <property role="TrG5h" value="results" />
           <ref role="3MlLW5" node="4ssfE$b37hJ" resolve="results" />
@@ -766,6 +779,7 @@
         <property role="S1EQ6" value="WHIAOCVMVE" />
         <property role="3ggrk4" value="-10.0" />
         <property role="3ggrk3" value="0.20" />
+        <property role="1MXi1$" value="GVRCFUWQQJ" />
         <node concept="3MqhDd" id="1c1rOX4P9xX" role="3giYhA" />
         <node concept="1FHg$p" id="1c1rOX4P9xZ" role="2_9Z7z">
           <property role="ZHjxa" value="200" />

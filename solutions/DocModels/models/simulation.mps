@@ -54,6 +54,11 @@
         <reference id="436556547688972995" name="table" index="3Vkrsu" />
       </concept>
     </language>
+    <language id="95951e17-c0d6-47b9-b1b5-42a4ca186fc6" name="org.campagnelab.instantrefresh">
+      <concept id="1254484692210402710" name="org.campagnelab.instantrefresh.structure.IAtomic" flags="ng" index="16dhqS">
+        <property id="221363389440938160" name="ID" index="1MXi1$" />
+      </concept>
+    </language>
     <language id="5d6bde84-4ce4-4eb5-a37e-25a5edd55129" name="org.campagnelab.metar.tables">
       <concept id="8031339867720116703" name="org.campagnelab.metar.tables.structure.UsageTypeRef" flags="ng" index="2y_Ijh">
         <reference id="8031339867720116704" name="usage" index="2y_IjI" />
@@ -124,12 +129,15 @@
     <property role="TrG5h" value="Simulation" />
     <node concept="ZXjPh" id="3j3L3d7c8Oj" role="S1EQ8">
       <property role="S1EQ6" value="AQKDUEJWFL" />
+      <property role="1MXi1$" value="WOXOUQRPQT" />
       <node concept="S1EQe" id="3j3L3d7c8OJ" role="ZXjPg">
         <property role="S1EQ6" value="CADXPIUIVF" />
+        <property role="1MXi1$" value="DOPMUBDKRJ" />
       </node>
       <node concept="2YmjXt" id="3j3L3d7c8Ol" role="ZXjPg">
         <property role="S1EQ6" value="OEYRTDOGMD" />
         <property role="8NYsT" value="false" />
+        <property role="1MXi1$" value="PJSVCPLENE" />
         <node concept="3VlkzF" id="3j3L3d7c8Oo" role="2Ym92R">
           <ref role="3Vkrsu" to="vyx4:3j3L3d7c8On" resolve="CovariateForSimulateDataset_OEYRTDOGMD" />
         </node>
@@ -154,9 +162,11 @@
       </node>
       <node concept="S1EQe" id="6xCgpj7fqaA" role="ZXjPg">
         <property role="S1EQ6" value="INWOBSQPBK" />
+        <property role="1MXi1$" value="OVWIRJREPR" />
       </node>
       <node concept="S1EQe" id="6xCgpj7fqaK" role="ZXjPg">
         <property role="S1EQ6" value="PKOCGDCAUI" />
+        <property role="1MXi1$" value="ABIEMPWRER" />
       </node>
       <node concept="2YmjXt" id="6xCgpj7fxum" role="ZXjPg">
         <property role="S1EQ6" value="TOBBQGPXLW" />
@@ -165,6 +175,7 @@
         <property role="2Ym5Gb" value="20" />
         <property role="2QJ4vL" value="5" />
         <property role="EtNkl" value="100" />
+        <property role="1MXi1$" value="PHGVINEKRU" />
         <node concept="2Ym5Ia" id="6xCgpj7fxuZ" role="2Ym7rR">
           <property role="2QI5xJ" value="30" />
           <property role="2QI5xi" value="50" />

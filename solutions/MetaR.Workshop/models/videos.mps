@@ -16,6 +16,11 @@
     <import index="9nc5" ref="r:d1a256e6-591a-459f-809c-7fc9df45e4d5(org.campagnelab.mps.XChart.types.roots)" implicit="true" />
   </imports>
   <registry>
+    <language id="95951e17-c0d6-47b9-b1b5-42a4ca186fc6" name="org.campagnelab.instantrefresh">
+      <concept id="1254484692210402710" name="org.campagnelab.instantrefresh.structure.IAtomic" flags="ng" index="16dhqS">
+        <property id="221363389440938160" name="ID" index="1MXi1$" />
+      </concept>
+    </language>
     <language id="5d6bde84-4ce4-4eb5-a37e-25a5edd55129" name="org.campagnelab.metar.tables">
       <concept id="4451133196879828915" name="org.campagnelab.metar.tables.structure.TableRef" flags="ng" index="afgQW">
         <reference id="4451133196879830023" name="table" index="afgo8" />
@@ -403,8 +408,10 @@
     <property role="TrG5h" value="Reorder columns" />
     <node concept="ZXjPh" id="6v$G554bLYH" role="S1EQ8">
       <property role="S1EQ6" value="NBDCSONLPH" />
+      <property role="1MXi1$" value="LUPFNYIUIR" />
       <node concept="3MjoWR" id="6v$G554bLYK" role="ZXjPg">
         <property role="S1EQ6" value="FMGXMMIGQE" />
+        <property role="1MXi1$" value="KCNVWEHSLL" />
         <ref role="3Mj2Vh" node="6v$G554bLSc" resolve="normalized-and-stats.tsv" />
         <node concept="3MlLWZ" id="6v$G554bLYN" role="3MjoVY">
           <property role="TrG5h" value="normalized-and-stats.tsv" />
@@ -416,6 +423,7 @@
         <property role="34tvW_" value="10" />
         <property role="34tvWB" value="2" />
         <property role="34gX7q" value="true" />
+        <property role="1MXi1$" value="AXVJNXSXRI" />
         <node concept="afgQW" id="6v$G554bLZ1" role="34tvVl">
           <ref role="afgo8" node="6v$G554bLSc" resolve="normalized-and-stats.tsv" />
         </node>
@@ -423,6 +431,7 @@
       <node concept="BmouE" id="6v$G554bMm9" role="ZXjPg">
         <property role="8NYsT" value="false" />
         <property role="S1EQ6" value="TRMRWTQJTT" />
+        <property role="1MXi1$" value="KDYPBYPYAF" />
         <node concept="3MlLWZ" id="6v$G554bMma" role="BmrDM">
           <property role="TrG5h" value="reordered" />
           <ref role="3MlLW5" node="6v$G554bMmb" resolve="reordered" />
@@ -505,12 +514,14 @@
         <property role="34tvW_" value="4" />
         <property role="34tvWB" value="6" />
         <property role="34gX7q" value="true" />
+        <property role="1MXi1$" value="WVETHPXVBP" />
         <node concept="afgQW" id="6v$G554bMCw" role="34tvVl">
           <ref role="afgo8" node="6v$G554bMmb" resolve="reordered" />
         </node>
       </node>
       <node concept="2p5owa" id="6v$G554bQay" role="ZXjPg">
         <property role="S1EQ6" value="FXCIWTIMVO" />
+        <property role="1MXi1$" value="CJUXIUHTAQ" />
         <node concept="1FHg$p" id="6v$G554bQa$" role="2p5QcQ">
           <property role="ZHjxa" value="200" />
           <property role="ZHjG8" value="200" />
@@ -528,6 +539,7 @@
         <property role="313rra" value="1" />
         <property role="313rrk" value="1" />
         <property role="31lnkE" value="true" />
+        <property role="1MXi1$" value="VXJHSABEBM" />
         <node concept="1FHg$p" id="6v$G554bQnN" role="319mBM">
           <property role="ZHjxa" value="200" />
           <property role="ZHjG8" value="200" />
@@ -535,6 +547,7 @@
           <property role="TrG5h" value="preview" />
         </node>
         <node concept="31becx" id="6v$G554bQou" role="312phR">
+          <property role="1MXi1$" value="ICIXTVRTEW" />
           <ref role="312p7B" node="6v$G554bQa$" resolve="logFC_histogram" />
         </node>
       </node>
