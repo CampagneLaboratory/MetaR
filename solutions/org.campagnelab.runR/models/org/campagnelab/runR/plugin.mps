@@ -72,6 +72,8 @@
     <import index="ni5j" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util.regex(JDK/)" />
     <import index="3v5a" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.execution(MPS.IDEA/)" />
     <import index="sg20" ref="r:e17021d0-0144-4c70-acef-a4d3f9c3fa3b(org.campagnelab.instantrefresh.structure)" />
+    <import index="bd8o" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.openapi.application(MPS.IDEA/)" />
+    <import index="jkny" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.openapi.wm(MPS.IDEA/)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="6q58" ref="r:97268463-8a58-42b7-9dc6-fa004b7a4308(org.campagnelab.metar.R.structure)" implicit="true" />
     <import index="l5qg" ref="r:c3c8723d-4db5-4e18-902d-1cb272fe4ddf(org.campagnelab.metar.R.gen.structure)" implicit="true" />
@@ -1302,6 +1304,94 @@
         </node>
         <node concept="SfApY" id="3zqZiqCfT3F" role="3cqZAp">
           <node concept="3clFbS" id="3zqZiqCfT3H" role="SfCbr">
+            <node concept="3cpWs8" id="6QtBXc9ZLkW" role="3cqZAp">
+              <node concept="3cpWsn" id="6QtBXc9ZLkU" role="3cpWs9">
+                <property role="3TUv4t" value="true" />
+                <property role="TrG5h" value="fProject" />
+                <node concept="3uibUv" id="6QtBXc9ZLtm" role="1tU5fm">
+                  <ref role="3uigEE" to="4nm9:~Project" resolve="Project" />
+                </node>
+                <node concept="21ER0p" id="6QtBXc9ZLQ2" role="33vP2m" />
+              </node>
+            </node>
+            <node concept="3SKdUt" id="6QtBXca5Lry" role="3cqZAp">
+              <node concept="3SKdUq" id="6QtBXca5Lrz" role="3SKWNk">
+                <property role="3SKdUp" value="temporary solution for keeping the run tab open" />
+              </node>
+            </node>
+            <node concept="3clFbF" id="6QtBXc9YNoR" role="3cqZAp">
+              <node concept="2OqwBi" id="6QtBXc9Z6mS" role="3clFbG">
+                <node concept="2ShNRf" id="6QtBXc9Z5Ku" role="2Oq$k0">
+                  <node concept="1pGfFk" id="6QtBXc9Z6ju" role="2ShVmc">
+                    <ref role="37wK5l" to="33ny:~Timer.&lt;init&gt;()" resolve="Timer" />
+                  </node>
+                </node>
+                <node concept="liA8E" id="6QtBXc9Z6r6" role="2OqNvi">
+                  <ref role="37wK5l" to="33ny:~Timer.schedule(java.util.TimerTask,long):void" resolve="schedule" />
+                  <node concept="2ShNRf" id="6QtBXc9Z6tj" role="37wK5m">
+                    <node concept="YeOm9" id="6QtBXc9Z70A" role="2ShVmc">
+                      <node concept="1Y3b0j" id="6QtBXc9Z70D" role="YeSDq">
+                        <property role="2bfB8j" value="true" />
+                        <ref role="1Y3XeK" to="33ny:~TimerTask" resolve="TimerTask" />
+                        <ref role="37wK5l" to="33ny:~TimerTask.&lt;init&gt;()" resolve="TimerTask" />
+                        <node concept="3Tm1VV" id="6QtBXc9Z70E" role="1B3o_S" />
+                        <node concept="3clFb_" id="6QtBXc9Z70F" role="jymVt">
+                          <property role="1EzhhJ" value="false" />
+                          <property role="TrG5h" value="run" />
+                          <property role="DiZV1" value="false" />
+                          <property role="od$2w" value="false" />
+                          <node concept="3Tm1VV" id="6QtBXc9Z70G" role="1B3o_S" />
+                          <node concept="3cqZAl" id="6QtBXc9Z70I" role="3clF45" />
+                          <node concept="3clFbS" id="6QtBXc9Z70J" role="3clF47">
+                            <node concept="3clFbF" id="6QtBXca2uMt" role="3cqZAp">
+                              <node concept="2OqwBi" id="6QtBXca2uPW" role="3clFbG">
+                                <node concept="2YIFZM" id="6QtBXca2uOa" role="2Oq$k0">
+                                  <ref role="37wK5l" to="bd8o:~ApplicationManager.getApplication():com.intellij.openapi.application.Application" resolve="getApplication" />
+                                  <ref role="1Pybhc" to="bd8o:~ApplicationManager" resolve="ApplicationManager" />
+                                </node>
+                                <node concept="liA8E" id="6QtBXca2uUX" role="2OqNvi">
+                                  <ref role="37wK5l" to="bd8o:~Application.invokeLater(java.lang.Runnable):void" resolve="invokeLater" />
+                                  <node concept="1bVj0M" id="6QtBXca2vfk" role="37wK5m">
+                                    <node concept="3clFbS" id="6QtBXca2vfl" role="1bW5cS">
+                                      <node concept="3clFbF" id="6QtBXc9Y8cZ" role="3cqZAp">
+                                        <node concept="2OqwBi" id="6QtBXc9Y8A7" role="3clFbG">
+                                          <node concept="2OqwBi" id="6QtBXc9Y8lF" role="2Oq$k0">
+                                            <node concept="2YIFZM" id="6QtBXc9Y8g5" role="2Oq$k0">
+                                              <ref role="1Pybhc" to="jkny:~ToolWindowManager" resolve="ToolWindowManager" />
+                                              <ref role="37wK5l" to="jkny:~ToolWindowManager.getInstance(com.intellij.openapi.project.Project):com.intellij.openapi.wm.ToolWindowManager" resolve="getInstance" />
+                                              <node concept="37vLTw" id="6QtBXc9ZM3G" role="37wK5m">
+                                                <ref role="3cqZAo" node="6QtBXc9ZLkU" resolve="fProject" />
+                                              </node>
+                                            </node>
+                                            <node concept="liA8E" id="6QtBXc9Y8pZ" role="2OqNvi">
+                                              <ref role="37wK5l" to="jkny:~ToolWindowManager.getToolWindow(java.lang.String):com.intellij.openapi.wm.ToolWindow" resolve="getToolWindow" />
+                                              <node concept="Xl_RD" id="6QtBXc9Y8sZ" role="37wK5m">
+                                                <property role="Xl_RC" value="Run" />
+                                              </node>
+                                            </node>
+                                          </node>
+                                          <node concept="liA8E" id="6QtBXc9Y8FX" role="2OqNvi">
+                                            <ref role="37wK5l" to="jkny:~ToolWindow.show(java.lang.Runnable):void" resolve="show" />
+                                            <node concept="10Nm6u" id="6QtBXc9Y8IB" role="37wK5m" />
+                                          </node>
+                                        </node>
+                                      </node>
+                                    </node>
+                                  </node>
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3cmrfG" id="6QtBXc9Z7df" role="37wK5m">
+                    <property role="3cmrfH" value="1000" />
+                  </node>
+                </node>
+              </node>
+            </node>
             <node concept="3cpWs6" id="3zqZiqCfTxp" role="3cqZAp">
               <node concept="2OqwBi" id="3zqZiqBQI1V" role="3cqZAk">
                 <node concept="2ShNRf" id="3zqZiqBQGY3" role="2Oq$k0">
