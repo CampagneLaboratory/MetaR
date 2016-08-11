@@ -78,6 +78,7 @@
     <import index="r791" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:javax.swing.text(JDK/)" implicit="true" />
     <import index="n1uf" ref="r:cb035222-afa9-445c-8372-64c2390befab(org.campagnelab.metar.R.gen.behavior)" implicit="true" />
     <import index="yo81" ref="r:4ea5a78b-cb8a-4831-b227-f7860a22491d(jetbrains.mps.make.resources)" implicit="true" />
+    <import index="k6y1" ref="r:eeed3f2f-0d6f-41a1-91c7-0fff65bede58(org.campagnelab.instantrefresh.behavior)" implicit="true" />
   </imports>
   <registry>
     <language id="a247e09e-2435-45ba-b8d2-07e93feba96a" name="jetbrains.mps.baseLanguage.tuples">
@@ -631,9 +632,6 @@
       </concept>
       <concept id="1145383075378" name="jetbrains.mps.lang.smodel.structure.SNodeListType" flags="in" index="2I9FWS">
         <reference id="1145383142433" name="elementConcept" index="2I9WkF" />
-      </concept>
-      <concept id="1145404486709" name="jetbrains.mps.lang.smodel.structure.SemanticDowncastExpression" flags="nn" index="2JrnkZ">
-        <child id="1145404616321" name="leftExpression" index="2JrQYb" />
       </concept>
       <concept id="1212008292747" name="jetbrains.mps.lang.smodel.structure.Model_GetLongNameOperation" flags="nn" index="LkI2h" />
       <concept id="1171305280644" name="jetbrains.mps.lang.smodel.structure.Node_GetDescendantsOperation" flags="nn" index="2Rf3mk" />
@@ -9300,30 +9298,23 @@
                                 </node>
                                 <node concept="liA8E" id="3zqZiqBLTfs" role="2OqNvi">
                                   <ref role="37wK5l" to="33ny:~Map.put(java.lang.Object,java.lang.Object):java.lang.Object" resolve="put" />
-                                  <node concept="2OqwBi" id="3zqZiqBLTft" role="37wK5m">
-                                    <node concept="2OqwBi" id="3zqZiqBLTfu" role="2Oq$k0">
-                                      <node concept="2JrnkZ" id="3zqZiqBLTfv" role="2Oq$k0">
-                                        <node concept="37vLTw" id="3zqZiqBLTfw" role="2JrQYb">
-                                          <ref role="3cqZAo" node="3zqZiqBLTf$" resolve="statement" />
-                                        </node>
-                                      </node>
-                                      <node concept="liA8E" id="3zqZiqBLTfx" role="2OqNvi">
-                                        <ref role="37wK5l" to="mhbf:~SNode.getNodeId():org.jetbrains.mps.openapi.model.SNodeId" resolve="getNodeId" />
-                                      </node>
+                                  <node concept="2OqwBi" id="6QtBXc9ej2u" role="37wK5m">
+                                    <node concept="37vLTw" id="6QtBXc9ei$C" role="2Oq$k0">
+                                      <ref role="3cqZAo" node="3zqZiqBLTf$" resolve="unit" />
                                     </node>
-                                    <node concept="liA8E" id="3zqZiqBLTfy" role="2OqNvi">
-                                      <ref role="37wK5l" to="wyt6:~Object.toString():java.lang.String" resolve="toString" />
+                                    <node concept="2qgKlT" id="6QtBXc9ejxF" role="2OqNvi">
+                                      <ref role="37wK5l" to="k6y1:hlbLQwkRFj" resolve="id" />
                                     </node>
                                   </node>
                                   <node concept="37vLTw" id="3zqZiqBLTfz" role="37wK5m">
-                                    <ref role="3cqZAo" node="3zqZiqBLTf$" resolve="statement" />
+                                    <ref role="3cqZAo" node="3zqZiqBLTf$" resolve="unit" />
                                   </node>
                                 </node>
                               </node>
                             </node>
                           </node>
                           <node concept="Rh6nW" id="3zqZiqBLTf$" role="1bW2Oz">
-                            <property role="TrG5h" value="statement" />
+                            <property role="TrG5h" value="unit" />
                             <node concept="2jxLKc" id="3zqZiqBLTf_" role="1tU5fm" />
                           </node>
                         </node>
