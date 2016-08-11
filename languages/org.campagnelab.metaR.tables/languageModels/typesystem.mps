@@ -25,11 +25,15 @@
     <import index="ztlb" ref="r:989540b8-cc89-4ed5-ba78-cf2ce766b8ce(org.campagnelab.mps.XChart.structure)" />
     <import index="18ew" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.util(MPS.Core/)" />
     <import index="zn9m" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.openapi.util(MPS.IDEA/)" />
+    <import index="ccd1" ref="r:d4fc1ccf-1b20-4c10-aae7-94de66326394(org.campagnelab.instantrefresh.plugin.plugin)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="r8sq" ref="r:255861a3-240e-44f9-891d-2d789f4b6268(org.campagnelab.mps.XChart.types.structure)" implicit="true" />
     <import index="42z1" ref="r:61980467-5cf8-4450-9d24-d597512183ad(org.campagnelab.styles.behavior)" implicit="true" />
     <import index="k6y1" ref="r:eeed3f2f-0d6f-41a1-91c7-0fff65bede58(org.campagnelab.instantrefresh.behavior)" implicit="true" />
+    <import index="l5qg" ref="r:c3c8723d-4db5-4e18-902d-1cb272fe4ddf(org.campagnelab.metar.R.gen.structure)" implicit="true" />
+    <import index="sg20" ref="r:e17021d0-0144-4c70-acef-a4d3f9c3fa3b(org.campagnelab.instantrefresh.structure)" implicit="true" />
+    <import index="n1uf" ref="r:cb035222-afa9-445c-8372-64c2390befab(org.campagnelab.metar.R.gen.behavior)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -257,6 +261,7 @@
         <child id="1144104376918" name="parameter" index="1xVPHs" />
       </concept>
       <concept id="1179409122411" name="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" flags="nn" index="2qgKlT" />
+      <concept id="1143234257716" name="jetbrains.mps.lang.smodel.structure.Node_GetModelOperation" flags="nn" index="I4A8Y" />
       <concept id="1145383075378" name="jetbrains.mps.lang.smodel.structure.SNodeListType" flags="in" index="2I9FWS">
         <reference id="1145383142433" name="elementConcept" index="2I9WkF" />
       </concept>
@@ -3247,7 +3252,7 @@
     </node>
   </node>
   <node concept="18kY7G" id="7uYamNfloKc">
-    <property role="TrG5h" value="StatementMustHaveUniqueId" />
+    <property role="TrG5h" value="UnitMustHaveUniqueId" />
     <node concept="3clFbS" id="7uYamNfloKd" role="18ibNy">
       <node concept="3cpWs8" id="7uYamNfqMW5" role="3cqZAp">
         <node concept="3cpWsn" id="7uYamNfqMW8" role="3cpWs9">
@@ -3265,7 +3270,7 @@
                 </node>
               </node>
               <node concept="1YBJjd" id="7uYamNfpFma" role="2Oq$k0">
-                <ref role="1YBMHb" node="7uYamNflpD1" resolve="analysis" />
+                <ref role="1YBMHb" node="7uYamNflpD1" resolve="iGenerateToRScript" />
               </node>
             </node>
             <node concept="3$u5V9" id="7uYamNflx6n" role="2OqNvi">
@@ -3295,10 +3300,19 @@
         <node concept="3clFbS" id="7uYamNflpNE" role="3clFbx">
           <node concept="2MkqsV" id="7uYamNfl_HH" role="3cqZAp">
             <node concept="Xl_RD" id="7uYamNfl_HZ" role="2MkJ7o">
-              <property role="Xl_RC" value="Statements does not have unique identifiers" />
+              <property role="Xl_RC" value="Unit does not have unique identifiers" />
             </node>
             <node concept="1YBJjd" id="7uYamNfl_K3" role="2OEOjV">
-              <ref role="1YBMHb" node="7uYamNflpD1" resolve="analysis" />
+              <ref role="1YBMHb" node="7uYamNflpD1" resolve="iGenerateToRScript" />
+            </node>
+            <node concept="3Cnw8n" id="cisdhM155y" role="2OEOjU">
+              <ref role="QpYPw" node="cisdhM11wC" resolve="SetNewID" />
+              <node concept="3CnSsL" id="cisdhM15cX" role="3Coj4f">
+                <ref role="QkamJ" node="cisdhM11x_" resolve="root" />
+                <node concept="1YBJjd" id="cisdhM15jL" role="3CoRuB">
+                  <ref role="1YBMHb" node="7uYamNflpD1" resolve="iGenerateToRScript" />
+                </node>
+              </node>
             </node>
           </node>
         </node>
@@ -3322,8 +3336,115 @@
       </node>
     </node>
     <node concept="1YaCAy" id="7uYamNflpD1" role="1YuTPh">
-      <property role="TrG5h" value="analysis" />
-      <ref role="1YaFvo" to="jrxw:7LvyiX4mii$" resolve="Analysis" />
+      <property role="TrG5h" value="iGenerateToRScript" />
+      <ref role="1YaFvo" to="l5qg:6efZaUfXFRm" resolve="IGenerateToRScript" />
+    </node>
+  </node>
+  <node concept="Q5z_Y" id="cisdhM11wC">
+    <property role="TrG5h" value="SetNewID" />
+    <node concept="Q6JDH" id="cisdhM11x_" role="Q6Id_">
+      <property role="TrG5h" value="root" />
+      <node concept="3Tqbb2" id="cisdhM11xF" role="Q6QK4">
+        <ref role="ehGHo" to="l5qg:6efZaUfXFRm" resolve="IGenerateToRScript" />
+      </node>
+    </node>
+    <node concept="Q5ZZ6" id="cisdhM11wD" role="Q6x$H">
+      <node concept="3clFbS" id="cisdhM11wE" role="2VODD2">
+        <node concept="3clFbF" id="cisdhM11xR" role="3cqZAp">
+          <node concept="2OqwBi" id="cisdhM11Yc" role="3clFbG">
+            <node concept="2OqwBi" id="cisdhM11zt" role="2Oq$k0">
+              <node concept="QwW4i" id="cisdhM11xQ" role="2Oq$k0">
+                <ref role="QwW4h" node="cisdhM11x_" resolve="root" />
+              </node>
+              <node concept="2Rf3mk" id="cisdhM11Bo" role="2OqNvi">
+                <node concept="1xMEDy" id="cisdhM11Bq" role="1xVPHs">
+                  <node concept="chp4Y" id="cisdhM11Hu" role="ri$Ld">
+                    <ref role="cht4Q" to="sg20:15COMTnnsmm" resolve="IAtomic" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="2es0OD" id="cisdhM13wC" role="2OqNvi">
+              <node concept="1bVj0M" id="cisdhM13wE" role="23t8la">
+                <node concept="3clFbS" id="cisdhM13wF" role="1bW5cS">
+                  <node concept="3clFbF" id="cisdhM13yQ" role="3cqZAp">
+                    <node concept="2OqwBi" id="cisdhM13_s" role="3clFbG">
+                      <node concept="37vLTw" id="cisdhM13yP" role="2Oq$k0">
+                        <ref role="3cqZAo" node="cisdhM13wG" resolve="it" />
+                      </node>
+                      <node concept="2qgKlT" id="cisdhM13DC" role="2OqNvi">
+                        <ref role="37wK5l" to="k6y1:cisdhLTPr5" resolve="generateNewID" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="Rh6nW" id="cisdhM13wG" role="1bW2Oz">
+                  <property role="TrG5h" value="it" />
+                  <node concept="2jxLKc" id="cisdhM13wH" role="1tU5fm" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="cisdhM1443" role="3cqZAp" />
+        <node concept="3SKdUt" id="cisdhM140i" role="3cqZAp">
+          <node concept="3SKdUq" id="cisdhM140j" role="3SKWNk">
+            <property role="3SKdUp" value="delete instant refresh session files. They are useless at this point." />
+          </node>
+        </node>
+        <node concept="3clFbF" id="52J4nYvLguz" role="3cqZAp">
+          <node concept="2OqwBi" id="52J4nYvLgzH" role="3clFbG">
+            <node concept="2YIFZM" id="52J4nYvLgu_" role="2Oq$k0">
+              <ref role="1Pybhc" to="ccd1:7d3kpy2arRt" resolve="Helper" />
+              <ref role="37wK5l" to="ccd1:52J4nYvLbEh" resolve="getRSessionFiles" />
+              <node concept="2OqwBi" id="52J4nYvLguA" role="37wK5m">
+                <node concept="QwW4i" id="cisdhM13T7" role="2Oq$k0">
+                  <ref role="QwW4h" node="cisdhM11x_" resolve="root" />
+                </node>
+                <node concept="2qgKlT" id="52J4nYvLguC" role="2OqNvi">
+                  <ref role="37wK5l" to="n1uf:7klrZ4rJNMW" resolve="getResultsDir" />
+                </node>
+              </node>
+              <node concept="2OqwBi" id="52J4nYvMOQ1" role="37wK5m">
+                <node concept="QwW4i" id="cisdhM13WR" role="2Oq$k0">
+                  <ref role="QwW4h" node="cisdhM11x_" resolve="root" />
+                </node>
+                <node concept="I4A8Y" id="52J4nYvMOQ3" role="2OqNvi" />
+              </node>
+            </node>
+            <node concept="2es0OD" id="52J4nYvLgF3" role="2OqNvi">
+              <node concept="1bVj0M" id="52J4nYvLgF5" role="23t8la">
+                <node concept="3clFbS" id="52J4nYvLgF6" role="1bW5cS">
+                  <node concept="3clFbF" id="52J4nYvLgJx" role="3cqZAp">
+                    <node concept="2OqwBi" id="52J4nYvLgN$" role="3clFbG">
+                      <node concept="37vLTw" id="52J4nYvLgJw" role="2Oq$k0">
+                        <ref role="3cqZAo" node="52J4nYvLgF7" resolve="it" />
+                      </node>
+                      <node concept="liA8E" id="52J4nYvLgVn" role="2OqNvi">
+                        <ref role="37wK5l" to="guwi:~File.delete():boolean" resolve="delete" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="Rh6nW" id="52J4nYvLgF7" role="1bW2Oz">
+                  <property role="TrG5h" value="it" />
+                  <node concept="2jxLKc" id="52J4nYvLgF8" role="1tU5fm" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="cisdhM13MZ" role="3cqZAp" />
+      </node>
+    </node>
+    <node concept="QznSV" id="cisdhM14mY" role="QzAvj">
+      <node concept="3clFbS" id="cisdhM14mZ" role="2VODD2">
+        <node concept="3clFbF" id="cisdhM14rk" role="3cqZAp">
+          <node concept="Xl_RD" id="cisdhM14rj" role="3clFbG">
+            <property role="Xl_RC" value="Regenerate ids in this file and invalidate session files" />
+          </node>
+        </node>
+      </node>
     </node>
   </node>
 </model>
