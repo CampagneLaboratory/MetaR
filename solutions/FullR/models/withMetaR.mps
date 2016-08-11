@@ -23,11 +23,6 @@
     <import index="9nc5" ref="r:d1a256e6-591a-459f-809c-7fc9df45e4d5(org.campagnelab.mps.XChart.types.roots)" implicit="true" />
   </imports>
   <registry>
-    <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
-      <concept id="6329021646629104957" name="jetbrains.mps.baseLanguage.structure.TextCommentPart" flags="nn" index="3SKdUq">
-        <property id="6329021646629104958" name="text" index="3SKdUp" />
-      </concept>
-    </language>
     <language id="e633fc48-0aaf-45b5-9894-247b67cf0890" name="org.campagnelab.metar.biomart">
       <concept id="2014042025382514135" name="org.campagnelab.metar.biomart.structure.FilterRef" flags="ng" index="6klPq">
         <reference id="2014042025382515100" name="filterRef" index="6kk4h" />
@@ -147,6 +142,9 @@
         <child id="2267681875390710618" name="importedPackages" index="2TeiZW" />
       </concept>
       <concept id="1405249123671764619" name="org.campagnelab.metar.R.structure.PauseInstantRefresh" flags="ng" index="3ASxKE" />
+      <concept id="1747883545594267542" name="org.campagnelab.metar.R.structure.InstallOrLoad" flags="ng" index="3FD3P4">
+        <property id="1747883545594267543" name="libraryName" index="3FD3P5" />
+      </concept>
       <concept id="1499760628227103368" name="org.campagnelab.metar.R.structure.IdentifierRef" flags="ng" index="1LhYbg">
         <reference id="1499760628227131747" name="id" index="1Li74V" />
       </concept>
@@ -163,9 +161,6 @@
     <language id="5d6bde84-4ce4-4eb5-a37e-25a5edd55129" name="org.campagnelab.metar.tables">
       <concept id="4451133196879828915" name="org.campagnelab.metar.tables.structure.TableRef" flags="ng" index="afgQW">
         <reference id="4451133196879830023" name="table" index="afgo8" />
-      </concept>
-      <concept id="2814838647967227455" name="org.campagnelab.metar.tables.structure.TSingleLineComment" flags="ng" index="nccVD">
-        <child id="2814838647967227681" name="commentedStatement" index="nccZR" />
       </concept>
       <concept id="6106414325997850090" name="org.campagnelab.metar.tables.structure.FutureTableCreator" flags="ng" index="2$MLEj">
         <property id="9080041854829670092" name="inputChanged" index="8NYsT" />
@@ -368,115 +363,11 @@
     <node concept="3cU4HJ" id="3tvgWOBki6G" role="pZjJ2">
       <property role="1MXi1$" value="QAMXRDGUWX" />
     </node>
-    <node concept="1Nzj65" id="3tvgWOBlFme" role="pZjJ2">
-      <property role="1MXi1$" value="GHVJIGVKOU" />
-      <node concept="nccVD" id="3tvgWOBlJ8O" role="1Nzj64">
-        <property role="S1EQ6" value="PMEOQTRBAS" />
-        <property role="1MXi1$" value="IQWOKEFERK" />
-        <node concept="3SKdUq" id="3tvgWOBlJ8R" role="nccZR">
-          <property role="3SKdUp" value="The following lines are needed with version 1.9 (instant refresh does not yet support R scripts):" />
-        </node>
-      </node>
+    <node concept="3FD3P4" id="cisdhMiv_O" role="pZjJ2">
+      <property role="3FD3P5" value="ztable" />
     </node>
-    <node concept="2PZJp2" id="3tvgWOBl1d$" role="pZjJ2">
-      <property role="1MXi1$" value="NNFSSEUKOS" />
-      <node concept="gNbv0" id="3tvgWOBl1dE" role="134Gdu">
-        <property role="1MXi1$" value="AEXKLVHBYH" />
-        <node concept="V6WaU" id="3tvgWOBl1dF" role="gNbrm">
-          <property role="1MXi1$" value="AWDTPRMIDJ" />
-          <node concept="2PZJpm" id="3tvgWOBl1dI" role="gNbhV">
-            <property role="pzxGI" value="ztable" />
-            <property role="1MXi1$" value="NMNMQQDSWN" />
-          </node>
-        </node>
-      </node>
-      <node concept="3a69Ir" id="3tvgWOBl50g" role="134Gdo">
-        <property role="1MXi1$" value="NLYUQHQXNN" />
-        <ref role="1Li74V" to="4tsn:1yhT8VTIzyO" resolve="library" />
-        <ref role="3a69Pm" to="4tsn:1yhT8VTIzyP" />
-      </node>
-    </node>
-    <node concept="2PZJp0" id="3tvgWOBkism" role="pZjJ2">
-      <property role="1MXi1$" value="NCGXDSETBK" />
-      <node concept="2PZJpb" id="3tvgWOBkisn" role="oP3ar">
-        <property role="1MXi1$" value="DWNESPFYUD" />
-        <node concept="20C$T_" id="3tvgWOBkiso" role="22sOXp" />
-        <node concept="2PZJp2" id="3tvgWOBkisp" role="22sOXk">
-          <property role="1MXi1$" value="RVAWRWPXGS" />
-          <node concept="gNbv0" id="3tvgWOBkisq" role="134Gdu">
-            <property role="1MXi1$" value="ODGDATMKLY" />
-            <node concept="V6WaU" id="3tvgWOBkisr" role="gNbrm">
-              <property role="1MXi1$" value="MVNPOFNRSL" />
-              <node concept="2PZJpm" id="3tvgWOBkiss" role="gNbhV">
-                <property role="pzxGI" value="data.table" />
-                <property role="1MXi1$" value="WACUOECXPV" />
-              </node>
-            </node>
-          </node>
-          <node concept="3a69Ir" id="3tvgWOBkist" role="134Gdo">
-            <property role="1MXi1$" value="PDODJOHUMY" />
-            <ref role="3a69Pm" to="4tsn:1yhT8VTI$88" />
-            <ref role="1Li74V" to="4tsn:1yhT8VTI$87" resolve="require" />
-          </node>
-        </node>
-      </node>
-      <node concept="2PZJp3" id="3tvgWOBkisu" role="oP3dk">
-        <property role="1MXi1$" value="LENJRCCUBV" />
-        <node concept="13u1kU" id="3tvgWOBkisv" role="13uv25">
-          <property role="1MXi1$" value="NVWPFDXCAJ" />
-          <node concept="2PZJp2" id="3tvgWOBkisw" role="13u1kV">
-            <property role="1MXi1$" value="HUEPBOEGOD" />
-            <node concept="gNbv0" id="3tvgWOBkisx" role="134Gdu">
-              <property role="1MXi1$" value="ONWGNDYCVU" />
-              <node concept="V6WaU" id="3tvgWOBkisy" role="gNbrm">
-                <property role="1MXi1$" value="RXCFMFOLNJ" />
-                <node concept="2PZJpm" id="3tvgWOBkisz" role="gNbhV">
-                  <property role="pzxGI" value="data.table" />
-                  <property role="1MXi1$" value="FXCDDWKFTF" />
-                </node>
-              </node>
-              <node concept="V6WaX" id="3tvgWOBkis$" role="gNbrm">
-                <property role="gNbhX" value="repos" />
-                <property role="1MXi1$" value="RJDBHAWFBE" />
-                <ref role="eUkdk" to="4tsn:364jCD09EpR" resolve="repos" />
-                <node concept="2PZJpm" id="3tvgWOBkis_" role="gNbhV">
-                  <property role="pzxGI" value="http://cran.us.r-project.org" />
-                  <property role="1MXi1$" value="EBENANHBPI" />
-                </node>
-              </node>
-            </node>
-            <node concept="3a69Ir" id="3tvgWOBkisA" role="134Gdo">
-              <property role="1MXi1$" value="EXHBVBCQKF" />
-              <ref role="3a69Pm" to="4tsn:364jCD09EpN" />
-              <ref role="1Li74V" to="4tsn:364jCD09EpM" resolve="install.packages" />
-            </node>
-          </node>
-          <node concept="2PZJp2" id="3tvgWOBkisB" role="13u1kV">
-            <property role="1MXi1$" value="UAGYTGYDFV" />
-            <node concept="gNbv0" id="3tvgWOBkisC" role="134Gdu">
-              <property role="1MXi1$" value="RNCCAKWPJO" />
-              <node concept="V6WaU" id="3tvgWOBkisD" role="gNbrm">
-                <property role="1MXi1$" value="MCCYXECPNY" />
-                <node concept="2PZJpm" id="3tvgWOBkisE" role="gNbhV">
-                  <property role="pzxGI" value="data.table" />
-                  <property role="1MXi1$" value="GGXCYAFMQT" />
-                </node>
-              </node>
-            </node>
-            <node concept="3a69Ir" id="3tvgWOBkisF" role="134Gdo">
-              <property role="1MXi1$" value="ONHTORGEIU" />
-              <ref role="3a69Pm" to="4tsn:1yhT8VTIzyP" />
-              <ref role="1Li74V" to="4tsn:1yhT8VTIzyO" resolve="library" />
-            </node>
-          </node>
-          <node concept="2Tel4U" id="7tPuoi0SIyJ" role="2TeiZW">
-            <property role="TrG5h" value="data.table" />
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="3cU4HJ" id="3tvgWOBmp7A" role="pZjJ2">
-      <property role="1MXi1$" value="SOIECOJESP" />
+    <node concept="3FD3P4" id="PziuyJGDmg" role="pZjJ2">
+      <property role="3FD3P5" value="data.table" />
     </node>
     <node concept="2PZJp0" id="3tvgWOBkisG" role="pZjJ2">
       <property role="1MXi1$" value="FYKUWGHFMB" />
