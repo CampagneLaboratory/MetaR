@@ -141,7 +141,7 @@
       <concept id="6508763087483370850" name="org.campagnelab.metar.R.structure.HasPackageImports" flags="ng" index="1mNjzD">
         <child id="2267681875390710618" name="importedPackages" index="2TeiZW" />
       </concept>
-      <concept id="1405249123671764619" name="org.campagnelab.metar.R.structure.PauseInstantRefresh" flags="ng" index="3ASxKE" />
+      <concept id="2912443156784144894" name="org.campagnelab.metar.R.structure.SaveSession" flags="ng" index="3$Mv9w" />
       <concept id="1747883545594267542" name="org.campagnelab.metar.R.structure.InstallOrLoad" flags="ng" index="3FD3P4">
         <property id="1747883545594267543" name="libraryName" index="3FD3P5" />
       </concept>
@@ -352,7 +352,7 @@
           <property role="ZHjxa" value="200" />
           <property role="ZHjG8" value="200" />
           <property role="3ZMXzF" value="1" />
-          <property role="TrG5h" value="preview" />
+          <property role="TrG5h" value="preview2" />
         </node>
         <node concept="31becx" id="3tvgWOBbaJh" role="312phR">
           <property role="1MXi1$" value="VLTFXOGTRO" />
@@ -365,9 +365,11 @@
     </node>
     <node concept="3FD3P4" id="cisdhMiv_O" role="pZjJ2">
       <property role="3FD3P5" value="ztable" />
+      <property role="1MXi1$" value="OFFRQNSEEB" />
     </node>
     <node concept="3FD3P4" id="PziuyJGDmg" role="pZjJ2">
       <property role="3FD3P5" value="data.table" />
+      <property role="1MXi1$" value="KMYYUTINIV" />
     </node>
     <node concept="2PZJp0" id="3tvgWOBkisG" role="pZjJ2">
       <property role="1MXi1$" value="FYKUWGHFMB" />
@@ -52250,8 +52252,8 @@
         </node>
       </node>
     </node>
-    <node concept="3ASxKE" id="7tPuoi1598l" role="pZjJ2">
-      <property role="1MXi1$" value="YWOJWVJMKH" />
+    <node concept="3$Mv9w" id="5aTY44mTmeK" role="pZjJ2">
+      <property role="1MXi1$" value="DENANOPPMH" />
     </node>
     <node concept="1Nzj65" id="3tvgWOBkeW8" role="pZjJ2">
       <property role="1MXi1$" value="JOTTBIFUBN" />
