@@ -2634,24 +2634,6 @@
             <property role="3SKdUp" value="find nearest session" />
           </node>
         </node>
-        <node concept="3cpWs8" id="6QtBXc9lZwr" role="3cqZAp">
-          <node concept="3cpWsn" id="6QtBXc9lZws" role="3cpWs9">
-            <property role="TrG5h" value="session" />
-            <node concept="2YIFZM" id="6QtBXc9lZwt" role="33vP2m">
-              <ref role="1Pybhc" node="hlbLQwjCGO" resolve="ChangeExecutor" />
-              <ref role="37wK5l" node="2xF4TVcExb_" resolve="getNearestSessionForRScript" />
-              <node concept="1PxgMI" id="6QtBXc9m0QO" role="37wK5m">
-                <ref role="1PxNhF" to="sg20:15COMTnnsmm" resolve="IAtomic" />
-                <node concept="37vLTw" id="6QtBXc9m0y5" role="1PxMeX">
-                  <ref role="3cqZAo" node="15COMTnoukI" resolve="change" />
-                </node>
-              </node>
-            </node>
-            <node concept="3Tqbb2" id="6QtBXc9lZwy" role="1tU5fm">
-              <ref role="ehGHo" to="sg20:15COMTnnsmm" resolve="IAtomic" />
-            </node>
-          </node>
-        </node>
         <node concept="3cpWs8" id="1e0sE7R4mh9" role="3cqZAp">
           <node concept="3cpWsn" id="1e0sE7R4mhc" role="3cpWs9">
             <property role="TrG5h" value="changedExpr" />
@@ -2664,6 +2646,24 @@
               <node concept="37vLTw" id="7B51G8WbP1S" role="37wK5m">
                 <ref role="3cqZAo" node="7B51G8WbNuF" resolve="parent" />
               </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="6QtBXc9lZwr" role="3cqZAp">
+          <node concept="3cpWsn" id="6QtBXc9lZws" role="3cpWs9">
+            <property role="TrG5h" value="session" />
+            <node concept="2YIFZM" id="6QtBXc9lZwt" role="33vP2m">
+              <ref role="37wK5l" node="2xF4TVcExb_" resolve="getNearestSessionForRScript" />
+              <ref role="1Pybhc" node="hlbLQwjCGO" resolve="ChangeExecutor" />
+              <node concept="1PxgMI" id="6QtBXc9m0QO" role="37wK5m">
+                <ref role="1PxNhF" to="sg20:15COMTnnsmm" resolve="IAtomic" />
+                <node concept="37vLTw" id="4QZXGcYWRP1" role="1PxMeX">
+                  <ref role="3cqZAo" node="1e0sE7R4mhc" resolve="changedExpr" />
+                </node>
+              </node>
+            </node>
+            <node concept="3Tqbb2" id="6QtBXc9lZwy" role="1tU5fm">
+              <ref role="ehGHo" to="sg20:15COMTnnsmm" resolve="IAtomic" />
             </node>
           </node>
         </node>
