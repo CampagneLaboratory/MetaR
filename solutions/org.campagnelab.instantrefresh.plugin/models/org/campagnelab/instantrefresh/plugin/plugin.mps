@@ -2513,75 +2513,6 @@
       <property role="od$2w" value="false" />
       <property role="2aFKle" value="false" />
       <node concept="3clFbS" id="15COMTnouiB" role="3clF47">
-        <node concept="3clFbF" id="15COMTnBqWk" role="3cqZAp">
-          <node concept="2OqwBi" id="15COMTnBqWl" role="3clFbG">
-            <node concept="2YIFZM" id="15COMTnBqWm" role="2Oq$k0">
-              <ref role="1Pybhc" node="7ZtP2DEHIzu" resolve="Logging" />
-              <ref role="37wK5l" node="7ZtP2DEHUg0" resolve="getInstance" />
-            </node>
-            <node concept="liA8E" id="15COMTnBqWn" role="2OqNvi">
-              <ref role="37wK5l" node="7PqnxC2_Q2P" resolve="debug" />
-              <node concept="3cpWs3" id="15COMTnQX87" role="37wK5m">
-                <node concept="37vLTw" id="15COMTnQXhH" role="3uHU7w">
-                  <ref role="3cqZAo" node="15COMTnoukG" resolve="root" />
-                </node>
-                <node concept="3cpWs3" id="15COMTnQWN_" role="3uHU7B">
-                  <node concept="3cpWs3" id="15COMTnBrA8" role="3uHU7B">
-                    <node concept="Xl_RD" id="15COMTnBrr8" role="3uHU7B">
-                      <property role="Xl_RC" value="Invoking find changes in R script for " />
-                    </node>
-                    <node concept="37vLTw" id="15COMTnBs15" role="3uHU7w">
-                      <ref role="3cqZAo" node="15COMTnoukI" resolve="change" />
-                    </node>
-                  </node>
-                  <node concept="Xl_RD" id="15COMTnQWYl" role="3uHU7w">
-                    <property role="Xl_RC" value=" in " />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbH" id="6QtBXc9lVwM" role="3cqZAp" />
-        <node concept="3SKdUt" id="2yvMhGhtD95" role="3cqZAp">
-          <node concept="3SKdUq" id="2yvMhGhtD96" role="3SKWNk">
-            <property role="3SKdUp" value="find nearest session" />
-          </node>
-        </node>
-        <node concept="3cpWs8" id="6QtBXc9lZwr" role="3cqZAp">
-          <node concept="3cpWsn" id="6QtBXc9lZws" role="3cpWs9">
-            <property role="TrG5h" value="session" />
-            <node concept="2YIFZM" id="6QtBXc9lZwt" role="33vP2m">
-              <ref role="1Pybhc" node="hlbLQwjCGO" resolve="ChangeExecutor" />
-              <ref role="37wK5l" node="2xF4TVcExb_" resolve="getNearestSessionForRScript" />
-              <node concept="1PxgMI" id="6QtBXc9m0QO" role="37wK5m">
-                <ref role="1PxNhF" to="sg20:15COMTnnsmm" resolve="IAtomic" />
-                <node concept="37vLTw" id="6QtBXc9m0y5" role="1PxMeX">
-                  <ref role="3cqZAo" node="15COMTnoukI" resolve="change" />
-                </node>
-              </node>
-            </node>
-            <node concept="3Tqbb2" id="6QtBXc9lZwy" role="1tU5fm">
-              <ref role="ehGHo" to="sg20:15COMTnnsmm" resolve="IAtomic" />
-            </node>
-          </node>
-        </node>
-        <node concept="3cpWs8" id="1e0sE7R4mh9" role="3cqZAp">
-          <node concept="3cpWsn" id="1e0sE7R4mhc" role="3cpWs9">
-            <property role="TrG5h" value="changedExpr" />
-            <node concept="3Tqbb2" id="1e0sE7R4mh7" role="1tU5fm" />
-            <node concept="1rXfSq" id="2xF4TVcC6b_" role="33vP2m">
-              <ref role="37wK5l" node="3gtMiDCy343" resolve="getExpressionRoot" />
-              <node concept="37vLTw" id="2xF4TVcC6bA" role="37wK5m">
-                <ref role="3cqZAo" node="15COMTnoukI" resolve="change" />
-              </node>
-              <node concept="37vLTw" id="7B51G8WbP1S" role="37wK5m">
-                <ref role="3cqZAo" node="7B51G8WbNuF" resolve="parent" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbH" id="6QtBXc9oeKV" role="3cqZAp" />
         <node concept="1X3_iC" id="6QtBXc9rWod" role="lGtFl">
           <property role="3V$3am" value="statement" />
           <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
@@ -2670,6 +2601,75 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbF" id="15COMTnBqWk" role="3cqZAp">
+          <node concept="2OqwBi" id="15COMTnBqWl" role="3clFbG">
+            <node concept="2YIFZM" id="15COMTnBqWm" role="2Oq$k0">
+              <ref role="1Pybhc" node="7ZtP2DEHIzu" resolve="Logging" />
+              <ref role="37wK5l" node="7ZtP2DEHUg0" resolve="getInstance" />
+            </node>
+            <node concept="liA8E" id="15COMTnBqWn" role="2OqNvi">
+              <ref role="37wK5l" node="7PqnxC2_Q2P" resolve="debug" />
+              <node concept="3cpWs3" id="15COMTnQX87" role="37wK5m">
+                <node concept="37vLTw" id="15COMTnQXhH" role="3uHU7w">
+                  <ref role="3cqZAo" node="15COMTnoukG" resolve="root" />
+                </node>
+                <node concept="3cpWs3" id="15COMTnQWN_" role="3uHU7B">
+                  <node concept="3cpWs3" id="15COMTnBrA8" role="3uHU7B">
+                    <node concept="Xl_RD" id="15COMTnBrr8" role="3uHU7B">
+                      <property role="Xl_RC" value="Invoking find changes in R script for " />
+                    </node>
+                    <node concept="37vLTw" id="15COMTnBs15" role="3uHU7w">
+                      <ref role="3cqZAo" node="15COMTnoukI" resolve="change" />
+                    </node>
+                  </node>
+                  <node concept="Xl_RD" id="15COMTnQWYl" role="3uHU7w">
+                    <property role="Xl_RC" value=" in " />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="6QtBXc9lVwM" role="3cqZAp" />
+        <node concept="3SKdUt" id="2yvMhGhtD95" role="3cqZAp">
+          <node concept="3SKdUq" id="2yvMhGhtD96" role="3SKWNk">
+            <property role="3SKdUp" value="find nearest session" />
+          </node>
+        </node>
+        <node concept="3cpWs8" id="6QtBXc9lZwr" role="3cqZAp">
+          <node concept="3cpWsn" id="6QtBXc9lZws" role="3cpWs9">
+            <property role="TrG5h" value="session" />
+            <node concept="2YIFZM" id="6QtBXc9lZwt" role="33vP2m">
+              <ref role="1Pybhc" node="hlbLQwjCGO" resolve="ChangeExecutor" />
+              <ref role="37wK5l" node="2xF4TVcExb_" resolve="getNearestSessionForRScript" />
+              <node concept="1PxgMI" id="6QtBXc9m0QO" role="37wK5m">
+                <ref role="1PxNhF" to="sg20:15COMTnnsmm" resolve="IAtomic" />
+                <node concept="37vLTw" id="6QtBXc9m0y5" role="1PxMeX">
+                  <ref role="3cqZAo" node="15COMTnoukI" resolve="change" />
+                </node>
+              </node>
+            </node>
+            <node concept="3Tqbb2" id="6QtBXc9lZwy" role="1tU5fm">
+              <ref role="ehGHo" to="sg20:15COMTnnsmm" resolve="IAtomic" />
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="1e0sE7R4mh9" role="3cqZAp">
+          <node concept="3cpWsn" id="1e0sE7R4mhc" role="3cpWs9">
+            <property role="TrG5h" value="changedExpr" />
+            <node concept="3Tqbb2" id="1e0sE7R4mh7" role="1tU5fm" />
+            <node concept="1rXfSq" id="2xF4TVcC6b_" role="33vP2m">
+              <ref role="37wK5l" node="3gtMiDCy343" resolve="getExpressionRoot" />
+              <node concept="37vLTw" id="2xF4TVcC6bA" role="37wK5m">
+                <ref role="3cqZAo" node="15COMTnoukI" resolve="change" />
+              </node>
+              <node concept="37vLTw" id="7B51G8WbP1S" role="37wK5m">
+                <ref role="3cqZAo" node="7B51G8WbNuF" resolve="parent" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="6QtBXc9oeKV" role="3cqZAp" />
         <node concept="3SKdUt" id="2yvMhGhtA5t" role="3cqZAp">
           <node concept="3SKdUq" id="2yvMhGhtA5u" role="3SKWNk">
             <property role="3SKdUp" value="check if root of the change can be referenced by other expressions" />
@@ -4213,9 +4213,6 @@
                                                 <node concept="37vLTw" id="7B51G8WdCjN" role="37wK5m">
                                                   <ref role="3cqZAo" node="7B51G8WbubA" resolve="parent" />
                                                 </node>
-                                                <node concept="37vLTw" id="hlbLQwjKE$" role="37wK5m">
-                                                  <ref role="3cqZAo" node="55a1UmAssMR" resolve="project" />
-                                                </node>
                                               </node>
                                             </node>
                                           </node>
@@ -4291,9 +4288,6 @@
                                                   </node>
                                                   <node concept="37vLTw" id="7B51G8Wbz05" role="37wK5m">
                                                     <ref role="3cqZAo" node="7B51G8WbubA" resolve="parent" />
-                                                  </node>
-                                                  <node concept="37vLTw" id="hlbLQwjMA9" role="37wK5m">
-                                                    <ref role="3cqZAo" node="55a1UmAssMR" resolve="project" />
                                                   </node>
                                                 </node>
                                               </node>
@@ -12981,13 +12975,6 @@
           <node concept="17QB3L" id="7LvyiX4mikd" role="A3Ik2" />
         </node>
       </node>
-      <node concept="37vLTG" id="hlbLQwkAjf" role="3clF46">
-        <property role="TrG5h" value="project" />
-        <property role="3TUv4t" value="false" />
-        <node concept="3uibUv" id="hlbLQwkAjg" role="1tU5fm">
-          <ref role="3uigEE" to="4nm9:~Project" resolve="Project" />
-        </node>
-      </node>
       <node concept="3clFbS" id="hlbLQwk_Yc" role="3clF47">
         <node concept="3cpWs8" id="hlbLQwkAjO" role="3cqZAp">
           <node concept="3cpWsn" id="hlbLQwkAjP" role="3cpWs9">
@@ -13128,9 +13115,6 @@
                     <ref role="37wK5l" to="k6y1:hlbLQwkRFj" resolve="id" />
                   </node>
                 </node>
-                <node concept="37vLTw" id="2yvMhGgUiRi" role="37wK5m">
-                  <ref role="3cqZAo" node="hlbLQwkAjf" resolve="project" />
-                </node>
               </node>
             </node>
           </node>
@@ -13199,9 +13183,6 @@
                     </node>
                     <node concept="37vLTw" id="2yvMhGgUdb3" role="37wK5m">
                       <ref role="3cqZAo" node="hlbLQwkAcw" resolve="rootNode" />
-                    </node>
-                    <node concept="37vLTw" id="2yvMhGgUis3" role="37wK5m">
-                      <ref role="3cqZAo" node="hlbLQwkAjf" resolve="project" />
                     </node>
                   </node>
                 </node>
@@ -13308,12 +13289,6 @@
             <ref role="zr_51" node="hlbLQwkV84" resolve="dependencies" />
           </node>
         </node>
-        <node concept="TUZQ0" id="2yvMhGhsf_p" role="TUOzN">
-          <property role="TUZQ4" value="Project" />
-          <node concept="zr_55" id="2yvMhGhsf_r" role="zr_5Q">
-            <ref role="zr_51" node="hlbLQwkAjf" resolve="project" />
-          </node>
-        </node>
       </node>
     </node>
     <node concept="2tJIrI" id="2yvMhGgTJmr" role="jymVt" />
@@ -13338,13 +13313,6 @@
         <property role="TrG5h" value="rootNode" />
         <node concept="3Tqbb2" id="2yvMhGgUdrx" role="1tU5fm">
           <ref role="ehGHo" to="l5qg:6efZaUfXFRm" resolve="IGenerateToRScript" />
-        </node>
-      </node>
-      <node concept="37vLTG" id="2yvMhGgUhGM" role="3clF46">
-        <property role="TrG5h" value="project" />
-        <property role="3TUv4t" value="false" />
-        <node concept="3uibUv" id="2yvMhGgUhGN" role="1tU5fm">
-          <ref role="3uigEE" to="4nm9:~Project" resolve="Project" />
         </node>
       </node>
       <node concept="3clFbS" id="2yvMhGgU1mV" role="3clF47">
@@ -13579,9 +13547,6 @@
                                 <ref role="37wK5l" to="k6y1:hlbLQwkRFj" resolve="id" />
                               </node>
                             </node>
-                            <node concept="37vLTw" id="2yvMhGgUhVR" role="37wK5m">
-                              <ref role="3cqZAo" node="2yvMhGgUhGM" resolve="project" />
-                            </node>
                           </node>
                         </node>
                       </node>
@@ -13630,12 +13595,6 @@
           <property role="TUZQ4" value="either RScript or Analysis node" />
           <node concept="zr_55" id="2yvMhGhsieo" role="zr_5Q">
             <ref role="zr_51" node="2yvMhGgUdrw" resolve="rootNode" />
-          </node>
-        </node>
-        <node concept="TUZQ0" id="2yvMhGhsiep" role="TUOzN">
-          <property role="TUZQ4" value="openapi Project node" />
-          <node concept="zr_55" id="2yvMhGhsier" role="zr_5Q">
-            <ref role="zr_51" node="2yvMhGgUhGM" resolve="project" />
           </node>
         </node>
         <node concept="x79VA" id="2yvMhGhsies" role="x79VK">
@@ -14142,9 +14101,6 @@
                 <node concept="17QB3L" id="hlbLQwm8fn" role="kMuH3" />
               </node>
             </node>
-            <node concept="37vLTw" id="hlbLQwlX4_" role="37wK5m">
-              <ref role="3cqZAo" node="hlbLQwjGcn" resolve="project" />
-            </node>
           </node>
         </node>
       </node>
@@ -14165,13 +14121,6 @@
       <node concept="37vLTG" id="7B51G8WbylL" role="3clF46">
         <property role="TrG5h" value="parent" />
         <node concept="3Tqbb2" id="7B51G8WbylM" role="1tU5fm" />
-      </node>
-      <node concept="37vLTG" id="hlbLQwjGcn" role="3clF46">
-        <property role="TrG5h" value="project" />
-        <property role="3TUv4t" value="false" />
-        <node concept="3uibUv" id="hlbLQwjGco" role="1tU5fm">
-          <ref role="3uigEE" to="4nm9:~Project" resolve="Project" />
-        </node>
       </node>
       <node concept="3Tm1VV" id="hlbLQwjGch" role="1B3o_S" />
       <node concept="P$JXv" id="2yvMhGhstx7" role="lGtFl">
@@ -14201,12 +14150,6 @@
           <property role="TUZQ4" value="parent of node" />
           <node concept="zr_55" id="2yvMhGhstxi" role="zr_5Q">
             <ref role="zr_51" node="7B51G8WbylL" resolve="parent" />
-          </node>
-        </node>
-        <node concept="TUZQ0" id="2yvMhGhstxj" role="TUOzN">
-          <property role="TUZQ4" value="openapi Project node" />
-          <node concept="zr_55" id="2yvMhGhstxl" role="zr_5Q">
-            <ref role="zr_51" node="hlbLQwjGcn" resolve="project" />
           </node>
         </node>
       </node>
@@ -14328,9 +14271,6 @@
             <node concept="37vLTw" id="hlbLQwlclF" role="37wK5m">
               <ref role="3cqZAo" node="hlbLQwla_o" resolve="dependencies" />
             </node>
-            <node concept="37vLTw" id="hlbLQwlcOF" role="37wK5m">
-              <ref role="3cqZAo" node="hlbLQwjHPB" resolve="project" />
-            </node>
           </node>
         </node>
       </node>
@@ -14351,13 +14291,6 @@
       <node concept="37vLTG" id="7B51G8WdCUS" role="3clF46">
         <property role="TrG5h" value="parent" />
         <node concept="3Tqbb2" id="7B51G8WdDdK" role="1tU5fm" />
-      </node>
-      <node concept="37vLTG" id="hlbLQwjHPB" role="3clF46">
-        <property role="TrG5h" value="project" />
-        <property role="3TUv4t" value="false" />
-        <node concept="3uibUv" id="hlbLQwjHPC" role="1tU5fm">
-          <ref role="3uigEE" to="4nm9:~Project" resolve="Project" />
-        </node>
       </node>
       <node concept="3Tm1VV" id="hlbLQwjHPy" role="1B3o_S" />
       <node concept="P$JXv" id="2yvMhGhstUG" role="lGtFl">
@@ -14387,12 +14320,6 @@
           <property role="TUZQ4" value="parent of node" />
           <node concept="zr_55" id="2yvMhGhstUR" role="zr_5Q">
             <ref role="zr_51" node="7B51G8WdCUS" resolve="parent" />
-          </node>
-        </node>
-        <node concept="TUZQ0" id="2yvMhGhstUS" role="TUOzN">
-          <property role="TUZQ4" value="openapi Project node" />
-          <node concept="zr_55" id="2yvMhGhstUU" role="zr_5Q">
-            <ref role="zr_51" node="hlbLQwjHPB" resolve="project" />
           </node>
         </node>
       </node>
@@ -14700,9 +14627,6 @@
               <node concept="37vLTw" id="hlbLQwkf3N" role="37wK5m">
                 <ref role="3cqZAo" node="hlbLQwkf44" resolve="sessionName" />
               </node>
-              <node concept="37vLTw" id="hlbLQwkf3O" role="37wK5m">
-                <ref role="3cqZAo" node="hlbLQwkf46" resolve="project" />
-              </node>
             </node>
           </node>
         </node>
@@ -14742,13 +14666,7 @@
         <property role="TrG5h" value="sessionName" />
         <node concept="17QB3L" id="hlbLQwkf45" role="1tU5fm" />
       </node>
-      <node concept="37vLTG" id="hlbLQwkf46" role="3clF46">
-        <property role="TrG5h" value="project" />
-        <node concept="3uibUv" id="hlbLQwkf47" role="1tU5fm">
-          <ref role="3uigEE" to="4nm9:~Project" resolve="Project" />
-        </node>
-      </node>
-      <node concept="3Tm6S6" id="hlbLQwkf40" role="1B3o_S" />
+      <node concept="3Tm1VV" id="6QtBXcaeukJ" role="1B3o_S" />
       <node concept="P$JXv" id="2yvMhGhsuEi" role="lGtFl">
         <node concept="TZ5HA" id="2yvMhGhsuEj" role="TZ5H$">
           <node concept="1dT_AC" id="2yvMhGhsuEk" role="1dT_Ay">
@@ -14765,12 +14683,6 @@
           <property role="TUZQ4" value="name of session" />
           <node concept="zr_55" id="2yvMhGhsuEq" role="zr_5Q">
             <ref role="zr_51" node="hlbLQwkf44" resolve="sessionName" />
-          </node>
-        </node>
-        <node concept="TUZQ0" id="2yvMhGhsuEr" role="TUOzN">
-          <property role="TUZQ4" value="openapi Project node" />
-          <node concept="zr_55" id="2yvMhGhsuEt" role="zr_5Q">
-            <ref role="zr_51" node="hlbLQwkf46" resolve="project" />
           </node>
         </node>
         <node concept="x79VA" id="2yvMhGhsuEu" role="x79VK">
@@ -14844,12 +14756,6 @@
         <property role="TrG5h" value="sessionName" />
         <node concept="17QB3L" id="26cpLhkiFpC" role="1tU5fm" />
       </node>
-      <node concept="37vLTG" id="26cpLhkiFpD" role="3clF46">
-        <property role="TrG5h" value="project" />
-        <node concept="3uibUv" id="26cpLhkiFpE" role="1tU5fm">
-          <ref role="3uigEE" to="4nm9:~Project" resolve="Project" />
-        </node>
-      </node>
       <node concept="3Tm1VV" id="26cpLhkiFq1" role="1B3o_S" />
       <node concept="P$JXv" id="2yvMhGhsuJb" role="lGtFl">
         <node concept="TZ5HA" id="2yvMhGhsuJc" role="TZ5H$">
@@ -14867,12 +14773,6 @@
           <property role="TUZQ4" value="name of session" />
           <node concept="zr_55" id="2yvMhGhsuJj" role="zr_5Q">
             <ref role="zr_51" node="26cpLhkiFpB" resolve="sessionName" />
-          </node>
-        </node>
-        <node concept="TUZQ0" id="2yvMhGhsuJk" role="TUOzN">
-          <property role="TUZQ4" value="openapi Project node" />
-          <node concept="zr_55" id="2yvMhGhsuJm" role="zr_5Q">
-            <ref role="zr_51" node="26cpLhkiFpD" resolve="project" />
           </node>
         </node>
         <node concept="x79VA" id="2yvMhGhsuJn" role="x79VK">
