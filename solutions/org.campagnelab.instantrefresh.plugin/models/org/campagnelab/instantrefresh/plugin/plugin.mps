@@ -2703,20 +2703,37 @@
           </node>
         </node>
         <node concept="3clFbH" id="2yvMhGhtGzu" role="3cqZAp" />
-        <node concept="3clFbF" id="15COMTnIwfo" role="3cqZAp">
-          <node concept="1rXfSq" id="15COMTnIwfm" role="3clFbG">
-            <ref role="37wK5l" node="15COMTnHRKv" resolve="findChangesGeneral" />
-            <node concept="37vLTw" id="15COMTnIwFM" role="37wK5m">
-              <ref role="3cqZAo" node="15COMTnoukD" resolve="changelog" />
+        <node concept="3clFbJ" id="4QZXGcZmTn1" role="3cqZAp">
+          <node concept="3clFbS" id="4QZXGcZmTn2" role="3clFbx">
+            <node concept="3clFbF" id="4QZXGcZmTn3" role="3cqZAp">
+              <node concept="2OqwBi" id="4QZXGcZmTn4" role="3clFbG">
+                <node concept="37vLTw" id="4QZXGcZmTn5" role="2Oq$k0">
+                  <ref role="3cqZAo" node="15COMTnoukD" resolve="changelog" />
+                </node>
+                <node concept="TSZUe" id="4QZXGcZmTn6" role="2OqNvi">
+                  <node concept="37vLTw" id="4QZXGcZmUVG" role="25WWJ7">
+                    <ref role="3cqZAo" node="15COMTnouiD" resolve="changedExprWithChildren" />
+                  </node>
+                </node>
+              </node>
             </node>
-            <node concept="37vLTw" id="15COMTnIxjy" role="37wK5m">
-              <ref role="3cqZAo" node="15COMTnoukG" resolve="root" />
-            </node>
-            <node concept="37vLTw" id="15COMTnIyvA" role="37wK5m">
-              <ref role="3cqZAo" node="15COMTnouiD" resolve="changedExprWithChildren" />
+          </node>
+          <node concept="3fqX7Q" id="4QZXGcZmTn8" role="3clFbw">
+            <node concept="1rXfSq" id="4QZXGcZmTn9" role="3fr31v">
+              <ref role="37wK5l" node="6CA2KfgYWVn" resolve="isIgnoredNode" />
+              <node concept="37vLTw" id="4QZXGcZmUll" role="37wK5m">
+                <ref role="3cqZAo" node="15COMTnouiD" resolve="changedExprWithChildren" />
+              </node>
+              <node concept="2OqwBi" id="4QZXGcZmTnb" role="37wK5m">
+                <node concept="37vLTw" id="4QZXGcZmUDH" role="2Oq$k0">
+                  <ref role="3cqZAo" node="15COMTnouiD" resolve="changedExprWithChildren" />
+                </node>
+                <node concept="1mfA1w" id="4QZXGcZmTnd" role="2OqNvi" />
+              </node>
             </node>
           </node>
         </node>
+        <node concept="3clFbH" id="4QZXGcZmSFi" role="3cqZAp" />
         <node concept="3clFbF" id="1e0sE7QWYgP" role="3cqZAp">
           <node concept="1rXfSq" id="1e0sE7QWYgN" role="3clFbG">
             <ref role="37wK5l" node="1e0sE7QWs_v" resolve="checkReferences" />
@@ -3525,22 +3542,6 @@
                                   <node concept="liA8E" id="15COMTnHSc0" role="2OqNvi">
                                     <ref role="37wK5l" to="mhbf:~SReference.getSourceNode():org.jetbrains.mps.openapi.model.SNode" resolve="getSourceNode" />
                                   </node>
-                                </node>
-                              </node>
-                            </node>
-                            <node concept="3SKdUt" id="2yvMhGhujny" role="3cqZAp">
-                              <node concept="3SKdUq" id="2yvMhGhujnz" role="3SKWNk">
-                                <property role="3SKdUp" value="TODO find out what this line does and document it" />
-                              </node>
-                            </node>
-                            <node concept="3clFbJ" id="1e0sE7P1W8M" role="3cqZAp">
-                              <node concept="3clFbS" id="1e0sE7P1W8O" role="3clFbx">
-                                <node concept="3cpWs6" id="1e0sE7P1XAf" role="3cqZAp" />
-                              </node>
-                              <node concept="1rXfSq" id="1e0sE7P1WAj" role="3clFbw">
-                                <ref role="37wK5l" node="1e0sE7P1ThV" resolve="isReferenceableChildOfBinaryOperatorExpr" />
-                                <node concept="37vLTw" id="1e0sE7P1X42" role="37wK5m">
-                                  <ref role="3cqZAo" node="15COMTnHSbW" resolve="sourceNode" />
                                 </node>
                               </node>
                             </node>
