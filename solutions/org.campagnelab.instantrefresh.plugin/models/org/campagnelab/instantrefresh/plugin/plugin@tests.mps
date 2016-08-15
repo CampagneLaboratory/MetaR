@@ -13,6 +13,7 @@
   <imports>
     <import index="ccd1" ref="r:d4fc1ccf-1b20-4c10-aae7-94de66326394(org.campagnelab.instantrefresh.plugin.plugin)" />
     <import index="4tsn" ref="r:97aeaa4f-346d-4633-b5a0-99879648272c(R3_1_3@stubs)" />
+    <import index="sg20" ref="r:e17021d0-0144-4c70-acef-a4d3f9c3fa3b(org.campagnelab.instantrefresh.structure)" implicit="true" />
     <import index="6q58" ref="r:97268463-8a58-42b7-9dc6-fa004b7a4308(org.campagnelab.metar.R.structure)" implicit="true" />
   </imports>
   <registry>
@@ -186,6 +187,10 @@
       <concept id="1206482823744" name="jetbrains.mps.lang.smodel.structure.Model_AddRootOperation" flags="nn" index="3BYIHo">
         <child id="1206482823746" name="nodeArgument" index="3BYIHq" />
       </concept>
+      <concept id="1140137987495" name="jetbrains.mps.lang.smodel.structure.SNodeTypeCastExpression" flags="nn" index="1PxgMI">
+        <reference id="1140138128738" name="concept" index="1PxNhF" />
+        <child id="1140138123956" name="leftExpression" index="1PxMeX" />
+      </concept>
       <concept id="1138055754698" name="jetbrains.mps.lang.smodel.structure.SNodeType" flags="in" index="3Tqbb2">
         <reference id="1138405853777" name="concept" index="ehGHo" />
       </concept>
@@ -212,10 +217,71 @@
   </registry>
   <node concept="1lH9Xt" id="6MTLCgdwIdn">
     <property role="TrG5h" value="FindNearestSessionRScript" />
+    <node concept="2XrIbr" id="4QZXGcYWWYL" role="1qtyYc">
+      <property role="TrG5h" value="convertNodeToRoot" />
+      <node concept="3cqZAl" id="4QZXGcYWWYM" role="3clF45" />
+      <node concept="3clFbS" id="4QZXGcYWWYN" role="3clF47">
+        <node concept="3cpWs8" id="4QZXGcYWWYO" role="3cqZAp">
+          <node concept="3cpWsn" id="4QZXGcYWWYP" role="3cpWs9">
+            <property role="TrG5h" value="m" />
+            <node concept="H_c77" id="4QZXGcYWWYQ" role="1tU5fm" />
+            <node concept="2OqwBi" id="4QZXGcYWWYR" role="33vP2m">
+              <node concept="37vLTw" id="4QZXGcYWWYS" role="2Oq$k0">
+                <ref role="3cqZAo" node="4QZXGcYWWZ3" resolve="rootNode" />
+              </node>
+              <node concept="I4A8Y" id="4QZXGcYWWYT" role="2OqNvi" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="4QZXGcYWWYU" role="3cqZAp">
+          <node concept="2OqwBi" id="4QZXGcYWWYV" role="3clFbG">
+            <node concept="37vLTw" id="4QZXGcYWWYW" role="2Oq$k0">
+              <ref role="3cqZAo" node="4QZXGcYWWZ3" resolve="rootNode" />
+            </node>
+            <node concept="3YRAZt" id="4QZXGcYWWYX" role="2OqNvi" />
+          </node>
+        </node>
+        <node concept="3clFbF" id="4QZXGcYWWYY" role="3cqZAp">
+          <node concept="2OqwBi" id="4QZXGcYWWYZ" role="3clFbG">
+            <node concept="37vLTw" id="4QZXGcYWWZ0" role="2Oq$k0">
+              <ref role="3cqZAo" node="4QZXGcYWWYP" resolve="m" />
+            </node>
+            <node concept="3BYIHo" id="4QZXGcYWWZ1" role="2OqNvi">
+              <node concept="37vLTw" id="4QZXGcYWWZ2" role="3BYIHq">
+                <ref role="3cqZAo" node="4QZXGcYWWZ3" resolve="rootNode" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="37vLTG" id="4QZXGcYWWZ3" role="3clF46">
+        <property role="TrG5h" value="rootNode" />
+        <node concept="3Tqbb2" id="4QZXGcYWWZ4" role="1tU5fm" />
+      </node>
+      <node concept="P$JXv" id="4QZXGcYWWZ5" role="lGtFl">
+        <node concept="TZ5HA" id="4QZXGcYWWZ6" role="TZ5H$">
+          <node concept="1dT_AC" id="4QZXGcYWWZ7" role="1dT_Ay">
+            <property role="1dT_AB" value="Detaches a root node and adds it back as a root node because in tests they are attached to the NodesTestCase node." />
+          </node>
+        </node>
+      </node>
+      <node concept="3Tm6S6" id="4QZXGcYWWZ8" role="1B3o_S" />
+    </node>
     <node concept="1LZb2c" id="6MTLCgdwIk_" role="1SL9yI">
-      <property role="TrG5h" value="findSessionRootLevel" />
+      <property role="TrG5h" value="root1" />
       <node concept="3cqZAl" id="6MTLCgdwIkA" role="3clF45" />
       <node concept="3clFbS" id="6MTLCgdwIkE" role="3clF47">
+        <node concept="3clFbF" id="4QZXGcYWZw_" role="3cqZAp">
+          <node concept="2OqwBi" id="4QZXGcYWZwA" role="3clFbG">
+            <node concept="2WthIp" id="4QZXGcYWZwB" role="2Oq$k0" />
+            <node concept="2XshWL" id="4QZXGcYWZwC" role="2OqNvi">
+              <ref role="2WH_rO" node="4QZXGcYWWYL" resolve="convertNodeToRoot" />
+              <node concept="3xONca" id="4QZXGcYWZxR" role="2XxRq1">
+                <ref role="3xOPvv" node="4QZXGcYWZb5" resolve="r1" />
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3vlDli" id="6MTLCgdwIzY" role="3cqZAp">
           <node concept="3xONca" id="4QZXGcYIuhh" role="3tpDZB">
             <ref role="3xOPvv" node="6MTLCgdwIjN" resolve="session11" />
@@ -224,16 +290,27 @@
             <ref role="1Pybhc" to="ccd1:hlbLQwjCGO" resolve="ChangeExecutor" />
             <ref role="37wK5l" to="ccd1:2xF4TVcExb_" resolve="getNearestSessionForRScript" />
             <node concept="3xONca" id="6MTLCgdwK_S" role="37wK5m">
-              <ref role="3xOPvv" node="6MTLCgdwK_N" resolve="changedRootExpr1" />
+              <ref role="3xOPvv" node="6MTLCgdwK_N" resolve="c1" />
             </node>
           </node>
         </node>
       </node>
     </node>
     <node concept="1LZb2c" id="4QZXGcYIumd" role="1SL9yI">
-      <property role="TrG5h" value="findSessionrootLevel2" />
+      <property role="TrG5h" value="root2" />
       <node concept="3cqZAl" id="4QZXGcYIume" role="3clF45" />
       <node concept="3clFbS" id="4QZXGcYIumf" role="3clF47">
+        <node concept="3clFbF" id="4QZXGcYWZyM" role="3cqZAp">
+          <node concept="2OqwBi" id="4QZXGcYWZyN" role="3clFbG">
+            <node concept="2WthIp" id="4QZXGcYWZyO" role="2Oq$k0" />
+            <node concept="2XshWL" id="4QZXGcYWZyP" role="2OqNvi">
+              <ref role="2WH_rO" node="4QZXGcYWWYL" resolve="convertNodeToRoot" />
+              <node concept="3xONca" id="4QZXGcYWZGE" role="2XxRq1">
+                <ref role="3xOPvv" node="4QZXGcYWZif" resolve="r2" />
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3vlDli" id="4QZXGcYIumg" role="3cqZAp">
           <node concept="3xONca" id="4QZXGcYIuxD" role="3tpDZB">
             <ref role="3xOPvv" node="4QZXGcYIupm" resolve="session22" />
@@ -242,7 +319,49 @@
             <ref role="37wK5l" to="ccd1:2xF4TVcExb_" resolve="getNearestSessionForRScript" />
             <ref role="1Pybhc" to="ccd1:hlbLQwjCGO" resolve="ChangeExecutor" />
             <node concept="3xONca" id="4QZXGcYIu$3" role="37wK5m">
-              <ref role="3xOPvv" node="4QZXGcYIuoZ" resolve="changedRootExpr2" />
+              <ref role="3xOPvv" node="4QZXGcYIuoZ" resolve="c2" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1LZb2c" id="4QZXGcYWS9c" role="1SL9yI">
+      <property role="TrG5h" value="root3" />
+      <node concept="3cqZAl" id="4QZXGcYWS9d" role="3clF45" />
+      <node concept="3clFbS" id="4QZXGcYWS9e" role="3clF47">
+        <node concept="3clFbF" id="4QZXGcYWZID" role="3cqZAp">
+          <node concept="2OqwBi" id="4QZXGcYWZIE" role="3clFbG">
+            <node concept="2WthIp" id="4QZXGcYWZIF" role="2Oq$k0" />
+            <node concept="2XshWL" id="4QZXGcYWZIG" role="2OqNvi">
+              <ref role="2WH_rO" node="4QZXGcYWWYL" resolve="convertNodeToRoot" />
+              <node concept="3xONca" id="4QZXGcYX0bD" role="2XxRq1">
+                <ref role="3xOPvv" node="4QZXGcYWZwz" resolve="r3" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3vlDli" id="4QZXGcYWS9f" role="3cqZAp">
+          <node concept="3xONca" id="4QZXGcYWSvc" role="3tpDZB">
+            <ref role="3xOPvv" node="4QZXGcYWS80" resolve="session31" />
+          </node>
+          <node concept="2YIFZM" id="4QZXGcYWS9h" role="3tpDZA">
+            <ref role="37wK5l" to="ccd1:2xF4TVcExb_" resolve="getNearestSessionForRScript" />
+            <ref role="1Pybhc" to="ccd1:hlbLQwjCGO" resolve="ChangeExecutor" />
+            <node concept="1PxgMI" id="4QZXGcYWWcC" role="37wK5m">
+              <ref role="1PxNhF" to="sg20:15COMTnnsmm" resolve="IAtomic" />
+              <node concept="2YIFZM" id="4QZXGcYWVr_" role="1PxMeX">
+                <ref role="37wK5l" to="ccd1:3gtMiDCy343" resolve="getExpressionRoot" />
+                <ref role="1Pybhc" to="ccd1:2n6JwcGgj0g" resolve="ChangedNodesHelper" />
+                <node concept="3xONca" id="4QZXGcYWVvV" role="37wK5m">
+                  <ref role="3xOPvv" node="4QZXGcYWS85" resolve="c3" />
+                </node>
+                <node concept="2OqwBi" id="4QZXGcYWVJN" role="37wK5m">
+                  <node concept="3xONca" id="4QZXGcYWVD9" role="2Oq$k0">
+                    <ref role="3xOPvv" node="4QZXGcYWS85" resolve="c3" />
+                  </node>
+                  <node concept="1mfA1w" id="4QZXGcYWW0C" role="2OqNvi" />
+                </node>
+              </node>
             </node>
           </node>
         </node>
@@ -250,7 +369,7 @@
     </node>
     <node concept="1qefOq" id="6MTLCgdwIjE" role="1SKRRt">
       <node concept="2PZPSw" id="6MTLCgdwIjG" role="1qenE9">
-        <property role="TrG5h" value="1" />
+        <property role="TrG5h" value="root1" />
         <node concept="3$Mv9w" id="6MTLCgdwIjK" role="pZjJ2">
           <node concept="3xLA65" id="6MTLCgdwIjN" role="lGtFl">
             <property role="TrG5h" value="session11" />
@@ -265,14 +384,17 @@
           </node>
           <node concept="22gccq" id="6MTLCgdwIk1" role="22hImy" />
           <node concept="3xLA65" id="6MTLCgdwK_N" role="lGtFl">
-            <property role="TrG5h" value="changedRootExpr1" />
+            <property role="TrG5h" value="c1" />
           </node>
+        </node>
+        <node concept="3xLA65" id="4QZXGcYWZb5" role="lGtFl">
+          <property role="TrG5h" value="r1" />
         </node>
       </node>
     </node>
     <node concept="1qefOq" id="4QZXGcYIuoR" role="1SKRRt">
       <node concept="2PZPSw" id="4QZXGcYIuoS" role="1qenE9">
-        <property role="TrG5h" value="2" />
+        <property role="TrG5h" value="root2" />
         <node concept="3$Mv9w" id="4QZXGcYIuoT" role="pZjJ2">
           <node concept="3xLA65" id="4QZXGcYIuoU" role="lGtFl">
             <property role="TrG5h" value="session21" />
@@ -292,8 +414,42 @@
           </node>
           <node concept="22gccq" id="4QZXGcYIuoY" role="22hImy" />
           <node concept="3xLA65" id="4QZXGcYIuoZ" role="lGtFl">
-            <property role="TrG5h" value="changedRootExpr2" />
+            <property role="TrG5h" value="c2" />
           </node>
+        </node>
+        <node concept="3xLA65" id="4QZXGcYWZif" role="lGtFl">
+          <property role="TrG5h" value="r2" />
+        </node>
+      </node>
+    </node>
+    <node concept="1qefOq" id="4QZXGcYWS7V" role="1SKRRt">
+      <node concept="2PZPSw" id="4QZXGcYWS7W" role="1qenE9">
+        <property role="TrG5h" value="root3" />
+        <node concept="3$Mv9w" id="4QZXGcYWS7Z" role="pZjJ2">
+          <node concept="3xLA65" id="4QZXGcYWS80" role="lGtFl">
+            <property role="TrG5h" value="session31" />
+          </node>
+        </node>
+        <node concept="2PZJp3" id="4QZXGcYWS8P" role="pZjJ2">
+          <property role="1MXi1$" value="SSIRFUNPSS" />
+          <node concept="13u1kU" id="4QZXGcYWS8R" role="13uv25">
+            <property role="1MXi1$" value="WDJQMPEVXS" />
+            <node concept="2PZJp4" id="4QZXGcYWS81" role="13u1kV">
+              <node concept="2PZJpp" id="4QZXGcYWS82" role="2v3mow">
+                <property role="TrG5h" value="a" />
+              </node>
+              <node concept="2PZJpk" id="4QZXGcYWS83" role="2v3moI">
+                <property role="pzxG6" value="1" />
+              </node>
+              <node concept="22gccq" id="4QZXGcYWS84" role="22hImy" />
+              <node concept="3xLA65" id="4QZXGcYWS85" role="lGtFl">
+                <property role="TrG5h" value="c3" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3xLA65" id="4QZXGcYWZwz" role="lGtFl">
+          <property role="TrG5h" value="r3" />
         </node>
       </node>
     </node>
@@ -307,7 +463,7 @@
         </node>
         <node concept="1gZcZf" id="4QZXGcYUmjX" role="2G3XIn">
           <node concept="3_3kQU" id="4QZXGcYUmjY" role="3_3kQL">
-            <property role="3_3kQV" value="Every rootN node is a single test node." />
+            <property role="3_3kQV" value="Every rN node is a single test node." />
           </node>
           <node concept="3_3kQU" id="4QZXGcYUmk1" role="3_3kQL">
             <property role="3_3kQV" value="" />
@@ -491,7 +647,7 @@
             <node concept="2XshWL" id="4QZXGcYUkIQ" role="2OqNvi">
               <ref role="2WH_rO" node="4QZXGcYShfz" resolve="findChanges" />
               <node concept="3xONca" id="4QZXGcYUkIR" role="2XxRq1">
-                <ref role="3xOPvv" node="4QZXGcYIDb7" resolve="root1" />
+                <ref role="3xOPvv" node="4QZXGcYIDb7" resolve="r1" />
               </node>
               <node concept="3xONca" id="4QZXGcYUkK1" role="2XxRq1">
                 <ref role="3xOPvv" node="4QZXGcYUk8B" resolve="c11" />
@@ -508,7 +664,7 @@
             <node concept="2XshWL" id="4QZXGcYUgOQ" role="2OqNvi">
               <ref role="2WH_rO" node="4QZXGcYShfz" resolve="findChanges" />
               <node concept="3xONca" id="4QZXGcYUji8" role="2XxRq1">
-                <ref role="3xOPvv" node="4QZXGcYIDb7" resolve="root1" />
+                <ref role="3xOPvv" node="4QZXGcYIDb7" resolve="r1" />
               </node>
               <node concept="3xONca" id="4QZXGcYUjiH" role="2XxRq1">
                 <ref role="3xOPvv" node="4QZXGcYPPyx" resolve="c12" />
@@ -531,7 +687,7 @@
             <node concept="2XshWL" id="4QZXGcYSlao" role="2OqNvi">
               <ref role="2WH_rO" node="4QZXGcYShfz" resolve="findChanges" />
               <node concept="3xONca" id="4QZXGcYSlfm" role="2XxRq1">
-                <ref role="3xOPvv" node="4QZXGcYOVzw" resolve="root2" />
+                <ref role="3xOPvv" node="4QZXGcYOVzw" resolve="r2" />
               </node>
               <node concept="3xONca" id="4QZXGcYSlfV" role="2XxRq1">
                 <ref role="3xOPvv" node="4QZXGcYPgS$" resolve="c21" />
@@ -562,7 +718,7 @@
             <node concept="2XshWL" id="4QZXGcYSjvd" role="2OqNvi">
               <ref role="2WH_rO" node="4QZXGcYShfz" resolve="findChanges" />
               <node concept="3xONca" id="4QZXGcYSjwn" role="2XxRq1">
-                <ref role="3xOPvv" node="4QZXGcYS1r9" resolve="root3" />
+                <ref role="3xOPvv" node="4QZXGcYS1r9" resolve="r3" />
               </node>
               <node concept="3xONca" id="4QZXGcYSjTn" role="2XxRq1">
                 <ref role="3xOPvv" node="4QZXGcYS2h7" resolve="c31" />
@@ -596,7 +752,7 @@
             <node concept="2XshWL" id="4QZXGcYUiDM" role="2OqNvi">
               <ref role="2WH_rO" node="4QZXGcYShfz" resolve="findChanges" />
               <node concept="3xONca" id="4QZXGcYUjgY" role="2XxRq1">
-                <ref role="3xOPvv" node="4QZXGcYUh3U" resolve="root4" />
+                <ref role="3xOPvv" node="4QZXGcYUh3U" resolve="r4" />
               </node>
               <node concept="3xONca" id="4QZXGcYUjhz" role="2XxRq1">
                 <ref role="3xOPvv" node="4QZXGcYUiDx" resolve="c4" />
@@ -643,7 +799,7 @@
         </node>
         <node concept="3cU4HJ" id="4QZXGcYUlkf" role="pZjJ2" />
         <node concept="3xLA65" id="4QZXGcYIDb7" role="lGtFl">
-          <property role="TrG5h" value="root1" />
+          <property role="TrG5h" value="r1" />
         </node>
       </node>
     </node>
@@ -685,7 +841,7 @@
         </node>
         <node concept="3cU4HJ" id="4QZXGcYUllv" role="pZjJ2" />
         <node concept="3xLA65" id="4QZXGcYOVzw" role="lGtFl">
-          <property role="TrG5h" value="root2" />
+          <property role="TrG5h" value="r2" />
         </node>
       </node>
     </node>
@@ -745,7 +901,7 @@
         </node>
         <node concept="3cU4HJ" id="4QZXGcYUlnk" role="pZjJ2" />
         <node concept="3xLA65" id="4QZXGcYS1r9" role="lGtFl">
-          <property role="TrG5h" value="root3" />
+          <property role="TrG5h" value="r3" />
         </node>
       </node>
     </node>
@@ -843,7 +999,7 @@
           </node>
         </node>
         <node concept="3xLA65" id="4QZXGcYUh3U" role="lGtFl">
-          <property role="TrG5h" value="root4" />
+          <property role="TrG5h" value="r4" />
         </node>
       </node>
     </node>
