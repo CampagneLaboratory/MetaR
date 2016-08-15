@@ -9,6 +9,7 @@
     <use id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test" version="1" />
     <use id="3b58810c-8431-4bbb-99ea-b4671e02dd13" name="org.campagnelab.metar.R" version="1" />
     <use id="901f5cf3-dc77-4c1e-bc5a-6382baee28b4" name="org.campagnelab.textoutput" version="0" />
+    <use id="5d6bde84-4ce4-4eb5-a37e-25a5edd55129" name="org.campagnelab.metar.tables" version="2" />
   </languages>
   <imports>
     <import index="ccd1" ref="r:d4fc1ccf-1b20-4c10-aae7-94de66326394(org.campagnelab.instantrefresh.plugin.plugin)" />
@@ -201,6 +202,7 @@
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
+        <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
         <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
       </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
@@ -220,6 +222,7 @@
   </registry>
   <node concept="1lH9Xt" id="6MTLCgdwIdn">
     <property role="TrG5h" value="FindNearestSessionRScript" />
+    <property role="3GE5qa" value="rscript" />
     <node concept="1LZb2c" id="6MTLCgdwIk_" role="1SL9yI">
       <property role="TrG5h" value="r1" />
       <node concept="3cqZAl" id="6MTLCgdwIkA" role="3clF45" />
@@ -453,6 +456,7 @@
   </node>
   <node concept="1lH9Xt" id="4QZXGcYIyD5">
     <property role="TrG5h" value="FindChangedExprsMixedAssignments" />
+    <property role="3GE5qa" value="rscript" />
     <node concept="1qefOq" id="4QZXGcYXUsA" role="1SKRRt">
       <node concept="2PZPSw" id="4QZXGcYXUsB" role="1qenE9">
         <property role="TrG5h" value="r" />
@@ -705,6 +709,7 @@
   </node>
   <node concept="1lH9Xt" id="4QZXGcYY0_t">
     <property role="TrG5h" value="FindChangedExprsWithoutSession" />
+    <property role="3GE5qa" value="rscript" />
     <node concept="1LZb2c" id="4QZXGcYXW14" role="1SL9yI">
       <property role="TrG5h" value="r1" />
       <node concept="3cqZAl" id="4QZXGcYXW15" role="3clF45" />
@@ -1588,6 +1593,7 @@
   </node>
   <node concept="1lH9Xt" id="4QZXGcYY5sl">
     <property role="TrG5h" value="FindChangedExprsWithSession" />
+    <property role="3GE5qa" value="rscript" />
     <node concept="1qefOq" id="4QZXGcYXE5D" role="1SKRRt">
       <node concept="2PZPSw" id="4QZXGcYXE5E" role="1qenE9">
         <property role="TrG5h" value="r" />
