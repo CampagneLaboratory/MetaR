@@ -3374,7 +3374,7 @@
     </node>
     <node concept="2tJIrI" id="15COMTnou8v" role="jymVt" />
     <node concept="2YIFZL" id="15COMTnHRKv" role="jymVt">
-      <property role="TrG5h" value="findChangesGeneral" />
+      <property role="TrG5h" value="findChangesAnalysis" />
       <property role="od$2w" value="false" />
       <property role="DiZV1" value="false" />
       <property role="2aFKle" value="false" />
@@ -3387,7 +3387,7 @@
       <node concept="37vLTG" id="15COMTnHS47" role="3clF46">
         <property role="TrG5h" value="root" />
         <node concept="3Tqbb2" id="15COMTnHS48" role="1tU5fm">
-          <ref role="ehGHo" to="l5qg:6efZaUfXFRm" resolve="IGenerateToRScript" />
+          <ref role="ehGHo" to="jrxw:7LvyiX4mii$" resolve="Analysis" />
         </node>
       </node>
       <node concept="37vLTG" id="15COMTnHS5M" role="3clF46">
@@ -3653,7 +3653,7 @@
                 <node concept="3clFbS" id="15COMTnHScD" role="1bW5cS">
                   <node concept="3clFbF" id="15COMTnHScE" role="3cqZAp">
                     <node concept="1rXfSq" id="15COMTnHScF" role="3clFbG">
-                      <ref role="37wK5l" node="15COMTnHRKv" resolve="findChangesGeneral" />
+                      <ref role="37wK5l" node="15COMTnHRKv" resolve="findChangesAnalysis" />
                       <node concept="37vLTw" id="15COMTnHScG" role="37wK5m">
                         <ref role="3cqZAo" node="15COMTnHRUT" resolve="changelog" />
                       </node>
@@ -3792,107 +3792,6 @@
       </node>
     </node>
     <node concept="2tJIrI" id="15COMTnHRdE" role="jymVt" />
-    <node concept="2YIFZL" id="6CA2KfgOrf8" role="jymVt">
-      <property role="TrG5h" value="findChangesStatement" />
-      <property role="DiZV1" value="false" />
-      <property role="od$2w" value="false" />
-      <property role="2aFKle" value="false" />
-      <node concept="3clFbS" id="6CA2KfgOrfa" role="3clF47">
-        <node concept="3clFbF" id="15COMTnRttP" role="3cqZAp">
-          <node concept="2OqwBi" id="15COMTnRttQ" role="3clFbG">
-            <node concept="2YIFZM" id="15COMTnRttR" role="2Oq$k0">
-              <ref role="1Pybhc" node="7ZtP2DEHIzu" resolve="Logging" />
-              <ref role="37wK5l" node="7ZtP2DEHUg0" resolve="getInstance" />
-            </node>
-            <node concept="liA8E" id="15COMTnRttS" role="2OqNvi">
-              <ref role="37wK5l" node="7PqnxC2_Q2P" resolve="debug" />
-              <node concept="3cpWs3" id="15COMTnRttT" role="37wK5m">
-                <node concept="37vLTw" id="15COMTnRttU" role="3uHU7w">
-                  <ref role="3cqZAo" node="6CA2KfgOsvK" resolve="root" />
-                </node>
-                <node concept="3cpWs3" id="15COMTnRttV" role="3uHU7B">
-                  <node concept="3cpWs3" id="15COMTnRttW" role="3uHU7B">
-                    <node concept="Xl_RD" id="15COMTnRttX" role="3uHU7B">
-                      <property role="Xl_RC" value="Invoking find changes in Analysis node for " />
-                    </node>
-                    <node concept="37vLTw" id="7B51G8WdMky" role="3uHU7w">
-                      <ref role="3cqZAo" node="6CA2KfgOsYp" resolve="change" />
-                    </node>
-                  </node>
-                  <node concept="Xl_RD" id="15COMTnRttZ" role="3uHU7w">
-                    <property role="Xl_RC" value=" in " />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="15COMTnI5fV" role="3cqZAp">
-          <node concept="1rXfSq" id="15COMTnI5fT" role="3clFbG">
-            <ref role="37wK5l" node="15COMTnHRKv" resolve="findChangesGeneral" />
-            <node concept="37vLTw" id="15COMTnI6jR" role="37wK5m">
-              <ref role="3cqZAo" node="6CA2KfgUfXG" resolve="changelog" />
-            </node>
-            <node concept="37vLTw" id="15COMTnI7En" role="37wK5m">
-              <ref role="3cqZAo" node="6CA2KfgOsvK" resolve="root" />
-            </node>
-            <node concept="37vLTw" id="7B51G8WdMyz" role="37wK5m">
-              <ref role="3cqZAo" node="6CA2KfgOsYp" resolve="change" />
-            </node>
-          </node>
-        </node>
-      </node>
-      <node concept="3cqZAl" id="6CA2KfgVByC" role="3clF45" />
-      <node concept="3Tm1VV" id="6CA2KfgOrhc" role="1B3o_S" />
-      <node concept="37vLTG" id="6CA2KfgUfXG" role="3clF46">
-        <property role="TrG5h" value="changelog" />
-        <node concept="2hMVRd" id="L2v$scnmpw" role="1tU5fm">
-          <node concept="3Tqbb2" id="L2v$scnn2n" role="2hN53Y" />
-        </node>
-      </node>
-      <node concept="37vLTG" id="6CA2KfgOsvK" role="3clF46">
-        <property role="TrG5h" value="root" />
-        <node concept="3Tqbb2" id="6CA2KfgOsvJ" role="1tU5fm">
-          <ref role="ehGHo" to="jrxw:7LvyiX4mii$" resolve="Analysis" />
-        </node>
-      </node>
-      <node concept="37vLTG" id="6CA2KfgOsYp" role="3clF46">
-        <property role="TrG5h" value="change" />
-        <node concept="3Tqbb2" id="6CA2KfgOtg9" role="1tU5fm">
-          <ref role="ehGHo" to="jrxw:7LvyiX4miiC" resolve="Statement" />
-        </node>
-      </node>
-      <node concept="P$JXv" id="2yvMhGhu4$1" role="lGtFl">
-        <node concept="TZ5HA" id="2yvMhGhu4$2" role="TZ5H$">
-          <node concept="1dT_AC" id="2yvMhGhu4$3" role="1dT_Ay">
-            <property role="1dT_AB" value="Find all statements that are affect by a change in a single statement." />
-          </node>
-        </node>
-        <node concept="TZ5HA" id="2yvMhGhu4Cd" role="TZ5H$">
-          <node concept="1dT_AC" id="2yvMhGhu4Ce" role="1dT_Ay">
-            <property role="1dT_AB" value="See: findChangesGeneral" />
-          </node>
-        </node>
-        <node concept="TUZQ0" id="2yvMhGhu4$4" role="TUOzN">
-          <property role="TUZQ4" value="set of changed nodes" />
-          <node concept="zr_55" id="2yvMhGhu4$6" role="zr_5Q">
-            <ref role="zr_51" node="6CA2KfgUfXG" resolve="changelog" />
-          </node>
-        </node>
-        <node concept="TUZQ0" id="2yvMhGhu4$7" role="TUOzN">
-          <property role="TUZQ4" value="Analysis node" />
-          <node concept="zr_55" id="2yvMhGhu4$9" role="zr_5Q">
-            <ref role="zr_51" node="6CA2KfgOsvK" resolve="root" />
-          </node>
-        </node>
-        <node concept="TUZQ0" id="2yvMhGhu4$a" role="TUOzN">
-          <property role="TUZQ4" value="changed statement" />
-          <node concept="zr_55" id="2yvMhGhu4$c" role="zr_5Q">
-            <ref role="zr_51" node="6CA2KfgOsYp" resolve="change" />
-          </node>
-        </node>
-      </node>
-    </node>
     <node concept="2tJIrI" id="6CA2KfgV_Dt" role="jymVt" />
     <node concept="2tJIrI" id="6CA2KfgV_Hj" role="jymVt" />
     <node concept="3Tm1VV" id="2n6JwcGgj0h" role="1B3o_S" />
@@ -14028,16 +13927,16 @@
           </node>
         </node>
         <node concept="3clFbF" id="hlbLQwm0WO" role="3cqZAp">
-          <node concept="2YIFZM" id="hlbLQwm199" role="3clFbG">
-            <ref role="37wK5l" node="6CA2KfgOrf8" resolve="findChangesStatement" />
+          <node concept="2YIFZM" id="1z$HfMnXrK3" role="3clFbG">
+            <ref role="37wK5l" node="15COMTnHRKv" resolve="findChangesAnalysis" />
             <ref role="1Pybhc" node="2n6JwcGgj0g" resolve="ChangedNodesHelper" />
-            <node concept="37vLTw" id="hlbLQwm1wt" role="37wK5m">
+            <node concept="37vLTw" id="1z$HfMnXrK4" role="37wK5m">
               <ref role="3cqZAo" node="hlbLQwjHMu" resolve="changedStatements" />
             </node>
-            <node concept="37vLTw" id="hlbLQwm1Gy" role="37wK5m">
+            <node concept="37vLTw" id="1z$HfMnXrK5" role="37wK5m">
               <ref role="3cqZAo" node="hlbLQwjHPz" resolve="rootNode" />
             </node>
-            <node concept="37vLTw" id="hlbLQwm3sP" role="37wK5m">
+            <node concept="37vLTw" id="1z$HfMnXrK6" role="37wK5m">
               <ref role="3cqZAo" node="hlbLQwm30K" resolve="changedStatement" />
             </node>
           </node>
