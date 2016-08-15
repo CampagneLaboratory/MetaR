@@ -21,6 +21,7 @@
     <import index="6q58" ref="r:97268463-8a58-42b7-9dc6-fa004b7a4308(org.campagnelab.metar.R.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
+    <import index="l5qg" ref="r:c3c8723d-4db5-4e18-902d-1cb272fe4ddf(org.campagnelab.metar.R.gen.structure)" implicit="true" />
     <import index="69j5" ref="r:cc2fd9c1-53e7-4805-a8bc-a07e69f2147b(org.campagnelab.metar.R.behavior)" implicit="true" />
   </imports>
   <registry>
@@ -2557,7 +2558,8 @@
   </node>
   <node concept="2S6QgY" id="52J4nYvL4RF">
     <property role="TrG5h" value="InvalidateSessions" />
-    <ref role="2ZfgGC" to="jrxw:7LvyiX4mii$" resolve="Analysis" />
+    <property role="2ZfUl0" value="true" />
+    <ref role="2ZfgGC" to="l5qg:6efZaUfXFRm" resolve="IGenerateToRScript" />
     <node concept="2S6ZIM" id="52J4nYvL4RG" role="2ZfVej">
       <node concept="3clFbS" id="52J4nYvL4RH" role="2VODD2">
         <node concept="3clFbF" id="52J4nYvL4Ta" role="3cqZAp">
