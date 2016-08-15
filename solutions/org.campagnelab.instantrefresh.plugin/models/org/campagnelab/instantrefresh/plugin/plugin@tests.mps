@@ -13,8 +13,8 @@
   <imports>
     <import index="ccd1" ref="r:d4fc1ccf-1b20-4c10-aae7-94de66326394(org.campagnelab.instantrefresh.plugin.plugin)" />
     <import index="4tsn" ref="r:97aeaa4f-346d-4633-b5a0-99879648272c(R3_1_3@stubs)" />
-    <import index="sg20" ref="r:e17021d0-0144-4c70-acef-a4d3f9c3fa3b(org.campagnelab.instantrefresh.structure)" implicit="true" />
-    <import index="6q58" ref="r:97268463-8a58-42b7-9dc6-fa004b7a4308(org.campagnelab.metar.R.structure)" implicit="true" />
+    <import index="sg20" ref="r:e17021d0-0144-4c70-acef-a4d3f9c3fa3b(org.campagnelab.instantrefresh.structure)" />
+    <import index="6q58" ref="r:97268463-8a58-42b7-9dc6-fa004b7a4308(org.campagnelab.metar.R.structure)" />
   </imports>
   <registry>
     <language id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test">
@@ -35,6 +35,7 @@
       <concept id="1225978065297" name="jetbrains.mps.lang.test.structure.SimpleNodeTest" flags="ng" index="1LZb2c" />
     </language>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
+      <concept id="1465982738277781862" name="jetbrains.mps.baseLanguage.structure.PlaceholderMember" flags="ng" index="2tJIrI" />
       <concept id="1197027756228" name="jetbrains.mps.baseLanguage.structure.DotExpression" flags="nn" index="2OqwBi">
         <child id="1197027771414" name="operand" index="2Oq$k0" />
         <child id="1197027833540" name="operation" index="2OqNvi" />
@@ -94,6 +95,12 @@
       <concept id="1178549954367" name="jetbrains.mps.baseLanguage.structure.IVisible" flags="ng" index="1B3ioH">
         <child id="1178549979242" name="visibility" index="1B3o_S" />
       </concept>
+      <concept id="6329021646629104957" name="jetbrains.mps.baseLanguage.structure.TextCommentPart" flags="nn" index="3SKdUq">
+        <property id="6329021646629104958" name="text" index="3SKdUp" />
+      </concept>
+      <concept id="6329021646629104954" name="jetbrains.mps.baseLanguage.structure.SingleLineComment" flags="nn" index="3SKdUt">
+        <child id="6329021646629175155" name="commentPart" index="3SKWNk" />
+      </concept>
       <concept id="1146644602865" name="jetbrains.mps.baseLanguage.structure.PublicVisibility" flags="nn" index="3Tm1VV" />
     </language>
     <language id="95951e17-c0d6-47b9-b1b5-42a4ca186fc6" name="org.campagnelab.instantrefresh">
@@ -116,6 +123,9 @@
         <child id="489068675543818492" name="operator" index="22hImy" />
         <child id="6247096756517946182" name="left" index="2v3mow" />
         <child id="6247096756517946184" name="right" index="2v3moI" />
+      </concept>
+      <concept id="95082356239631565" name="org.campagnelab.metar.R.structure.CommentExpr" flags="ng" index="PgWwF">
+        <property id="95082356239631566" name="text" index="PgWwC" />
       </concept>
       <concept id="6176023809880707756" name="org.campagnelab.metar.R.structure.FunctionCallExpr" flags="ng" index="2PZJp2">
         <child id="3737166271524886452" name="id" index="134Gdo" />
@@ -169,6 +179,9 @@
         <child id="8427750732757990724" name="expected" index="3tpDZB" />
       </concept>
       <concept id="1171978097730" name="jetbrains.mps.baseLanguage.unitTest.structure.AssertEquals" flags="nn" index="3vlDli" />
+      <concept id="1172028177041" name="jetbrains.mps.baseLanguage.unitTest.structure.AssertIsNull" flags="nn" index="3ykFI1">
+        <child id="1172028236559" name="expression" index="3ykU8v" />
+      </concept>
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
       <concept id="1143226024141" name="jetbrains.mps.lang.smodel.structure.SModelType" flags="in" index="H_c77" />
@@ -208,26 +221,20 @@
   <node concept="1lH9Xt" id="6MTLCgdwIdn">
     <property role="TrG5h" value="FindNearestSessionRScript" />
     <node concept="1LZb2c" id="6MTLCgdwIk_" role="1SL9yI">
-      <property role="TrG5h" value="root1" />
+      <property role="TrG5h" value="r1" />
       <node concept="3cqZAl" id="6MTLCgdwIkA" role="3clF45" />
       <node concept="3clFbS" id="6MTLCgdwIkE" role="3clF47">
-        <node concept="3clFbF" id="4QZXGcYY7__" role="3cqZAp">
-          <node concept="2YIFZM" id="4QZXGcYY7AV" role="3clFbG">
-            <ref role="37wK5l" node="4QZXGcYY2uZ" resolve="convertNodeToRoot" />
-            <ref role="1Pybhc" node="4QZXGcYY1Rd" resolve="TestHelper" />
-            <node concept="3xONca" id="4QZXGcYY7Ds" role="37wK5m">
-              <ref role="3xOPvv" node="4QZXGcYWZb5" resolve="r1" />
-            </node>
-          </node>
-        </node>
         <node concept="3vlDli" id="6MTLCgdwIzY" role="3cqZAp">
           <node concept="3xONca" id="4QZXGcYIuhh" role="3tpDZB">
             <ref role="3xOPvv" node="6MTLCgdwIjN" resolve="s11" />
           </node>
-          <node concept="2YIFZM" id="6MTLCgdwIGd" role="3tpDZA">
-            <ref role="1Pybhc" to="ccd1:hlbLQwjCGO" resolve="ChangeExecutor" />
-            <ref role="37wK5l" to="ccd1:2xF4TVcExb_" resolve="getNearestSessionForRScript" />
-            <node concept="3xONca" id="6MTLCgdwK_S" role="37wK5m">
+          <node concept="2YIFZM" id="4QZXGcYZlAD" role="3tpDZA">
+            <ref role="37wK5l" node="2xF4TVcExb_" resolve="getNearestSession" />
+            <ref role="1Pybhc" node="4QZXGcYY1Rd" resolve="TestHelper" />
+            <node concept="3xONca" id="4QZXGcYZlCq" role="37wK5m">
+              <ref role="3xOPvv" node="4QZXGcYWZb5" resolve="r1" />
+            </node>
+            <node concept="3xONca" id="4QZXGcYZlEw" role="37wK5m">
               <ref role="3xOPvv" node="6MTLCgdwK_N" resolve="c1" />
             </node>
           </node>
@@ -235,41 +242,40 @@
       </node>
     </node>
     <node concept="1LZb2c" id="4QZXGcYIumd" role="1SL9yI">
-      <property role="TrG5h" value="root2" />
+      <property role="TrG5h" value="r2" />
       <node concept="3cqZAl" id="4QZXGcYIume" role="3clF45" />
       <node concept="3clFbS" id="4QZXGcYIumf" role="3clF47">
-        <node concept="3clFbF" id="4QZXGcYY7G1" role="3cqZAp">
-          <node concept="2YIFZM" id="4QZXGcYY7G2" role="3clFbG">
-            <ref role="1Pybhc" node="4QZXGcYY1Rd" resolve="TestHelper" />
-            <ref role="37wK5l" node="4QZXGcYY2uZ" resolve="convertNodeToRoot" />
-            <node concept="3xONca" id="4QZXGcYY7HO" role="37wK5m">
-              <ref role="3xOPvv" node="4QZXGcYWZif" resolve="r2" />
-            </node>
-          </node>
-        </node>
         <node concept="3vlDli" id="4QZXGcYIumg" role="3cqZAp">
           <node concept="3xONca" id="4QZXGcYIuxD" role="3tpDZB">
             <ref role="3xOPvv" node="4QZXGcYIupm" resolve="s22" />
           </node>
-          <node concept="2YIFZM" id="4QZXGcYIumi" role="3tpDZA">
-            <ref role="37wK5l" to="ccd1:2xF4TVcExb_" resolve="getNearestSessionForRScript" />
-            <ref role="1Pybhc" to="ccd1:hlbLQwjCGO" resolve="ChangeExecutor" />
-            <node concept="3xONca" id="4QZXGcYIu$3" role="37wK5m">
-              <ref role="3xOPvv" node="4QZXGcYIuoZ" resolve="c2" />
+          <node concept="2YIFZM" id="4QZXGcYZlHC" role="3tpDZA">
+            <ref role="37wK5l" node="2xF4TVcExb_" resolve="getNearestSession" />
+            <ref role="1Pybhc" node="4QZXGcYY1Rd" resolve="TestHelper" />
+            <node concept="3xONca" id="4QZXGcYZlUg" role="37wK5m">
+              <ref role="3xOPvv" node="4QZXGcYWZif" resolve="r2" />
+            </node>
+            <node concept="3xONca" id="4QZXGcYZlLn" role="37wK5m">
+              <ref role="3xOPvv" node="4QZXGcYIuoZ" resolve="c21" />
             </node>
           </node>
         </node>
       </node>
     </node>
     <node concept="1LZb2c" id="4QZXGcYWS9c" role="1SL9yI">
-      <property role="TrG5h" value="root3" />
+      <property role="TrG5h" value="r3" />
       <node concept="3cqZAl" id="4QZXGcYWS9d" role="3clF45" />
       <node concept="3clFbS" id="4QZXGcYWS9e" role="3clF47">
-        <node concept="3clFbF" id="4QZXGcYY7IO" role="3cqZAp">
-          <node concept="2YIFZM" id="4QZXGcYY7IP" role="3clFbG">
-            <ref role="1Pybhc" node="4QZXGcYY1Rd" resolve="TestHelper" />
+        <node concept="3SKdUt" id="4QZXGcYZo9k" role="3cqZAp">
+          <node concept="3SKdUq" id="4QZXGcYZo9l" role="3SKWNk">
+            <property role="3SKdUp" value="we need to manually convert r3 to root because getExpressionRoot is executed before the conversion happens." />
+          </node>
+        </node>
+        <node concept="3clFbF" id="4QZXGcYZnWf" role="3cqZAp">
+          <node concept="2YIFZM" id="4QZXGcYZnYC" role="3clFbG">
             <ref role="37wK5l" node="4QZXGcYY2uZ" resolve="convertNodeToRoot" />
-            <node concept="3xONca" id="4QZXGcYY7KS" role="37wK5m">
+            <ref role="1Pybhc" node="4QZXGcYY1Rd" resolve="TestHelper" />
+            <node concept="3xONca" id="4QZXGcYZo0u" role="37wK5m">
               <ref role="3xOPvv" node="4QZXGcYWZwz" resolve="r3" />
             </node>
           </node>
@@ -278,22 +284,25 @@
           <node concept="3xONca" id="4QZXGcYWSvc" role="3tpDZB">
             <ref role="3xOPvv" node="4QZXGcYWS80" resolve="s31" />
           </node>
-          <node concept="2YIFZM" id="4QZXGcYWS9h" role="3tpDZA">
-            <ref role="37wK5l" to="ccd1:2xF4TVcExb_" resolve="getNearestSessionForRScript" />
-            <ref role="1Pybhc" to="ccd1:hlbLQwjCGO" resolve="ChangeExecutor" />
-            <node concept="1PxgMI" id="4QZXGcYWWcC" role="37wK5m">
+          <node concept="2YIFZM" id="4QZXGcYZlN1" role="3tpDZA">
+            <ref role="37wK5l" node="2xF4TVcExb_" resolve="getNearestSession" />
+            <ref role="1Pybhc" node="4QZXGcYY1Rd" resolve="TestHelper" />
+            <node concept="3xONca" id="4QZXGcYZlXr" role="37wK5m">
+              <ref role="3xOPvv" node="4QZXGcYWZwz" resolve="r3" />
+            </node>
+            <node concept="1PxgMI" id="4QZXGcYZlPR" role="37wK5m">
               <ref role="1PxNhF" to="sg20:15COMTnnsmm" resolve="IAtomic" />
-              <node concept="2YIFZM" id="4QZXGcYWVr_" role="1PxMeX">
-                <ref role="37wK5l" to="ccd1:3gtMiDCy343" resolve="getExpressionRoot" />
+              <node concept="2YIFZM" id="4QZXGcYZlPS" role="1PxMeX">
                 <ref role="1Pybhc" to="ccd1:2n6JwcGgj0g" resolve="ChangedNodesHelper" />
-                <node concept="3xONca" id="4QZXGcYWVvV" role="37wK5m">
-                  <ref role="3xOPvv" node="4QZXGcYWS85" resolve="c3" />
+                <ref role="37wK5l" to="ccd1:3gtMiDCy343" resolve="getExpressionRoot" />
+                <node concept="3xONca" id="4QZXGcYZlPT" role="37wK5m">
+                  <ref role="3xOPvv" node="4QZXGcYWS85" resolve="c31" />
                 </node>
-                <node concept="2OqwBi" id="4QZXGcYWVJN" role="37wK5m">
-                  <node concept="3xONca" id="4QZXGcYWVD9" role="2Oq$k0">
-                    <ref role="3xOPvv" node="4QZXGcYWS85" resolve="c3" />
+                <node concept="2OqwBi" id="4QZXGcYZlPU" role="37wK5m">
+                  <node concept="3xONca" id="4QZXGcYZlPV" role="2Oq$k0">
+                    <ref role="3xOPvv" node="4QZXGcYWS85" resolve="c31" />
                   </node>
-                  <node concept="1mfA1w" id="4QZXGcYWW0C" role="2OqNvi" />
+                  <node concept="1mfA1w" id="4QZXGcYZlPW" role="2OqNvi" />
                 </node>
               </node>
             </node>
@@ -301,9 +310,31 @@
         </node>
       </node>
     </node>
+    <node concept="1LZb2c" id="4QZXGcYZitG" role="1SL9yI">
+      <property role="TrG5h" value="r4" />
+      <node concept="3cqZAl" id="4QZXGcYZitH" role="3clF45" />
+      <node concept="3clFbS" id="4QZXGcYZitI" role="3clF47">
+        <node concept="3ykFI1" id="4QZXGcYZmjQ" role="3cqZAp">
+          <node concept="2YIFZM" id="4QZXGcYZmjU" role="3ykU8v">
+            <ref role="37wK5l" node="2xF4TVcExb_" resolve="getNearestSession" />
+            <ref role="1Pybhc" node="4QZXGcYY1Rd" resolve="TestHelper" />
+            <node concept="3xONca" id="4QZXGcYZmlA" role="37wK5m">
+              <ref role="3xOPvv" node="4QZXGcYZi8G" resolve="r4" />
+            </node>
+            <node concept="3xONca" id="4QZXGcYZmnh" role="37wK5m">
+              <ref role="3xOPvv" node="4QZXGcYZi8F" resolve="c41" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="1qefOq" id="6MTLCgdwIjE" role="1SKRRt">
       <node concept="2PZPSw" id="6MTLCgdwIjG" role="1qenE9">
-        <property role="TrG5h" value="root1" />
+        <property role="TrG5h" value="r" />
+        <node concept="PgWwF" id="4QZXGcYZi1s" role="pZjJ2">
+          <property role="1MXi1$" value="MDPBOWGYKO" />
+          <property role="PgWwC" value="session on same level" />
+        </node>
         <node concept="3$Mv9w" id="6MTLCgdwIjK" role="pZjJ2">
           <node concept="3xLA65" id="6MTLCgdwIjN" role="lGtFl">
             <property role="TrG5h" value="s11" />
@@ -328,11 +359,15 @@
     </node>
     <node concept="1qefOq" id="4QZXGcYIuoR" role="1SKRRt">
       <node concept="2PZPSw" id="4QZXGcYIuoS" role="1qenE9">
-        <property role="TrG5h" value="root2" />
+        <property role="TrG5h" value="r" />
         <node concept="3$Mv9w" id="4QZXGcYIuoT" role="pZjJ2">
           <node concept="3xLA65" id="4QZXGcYIuoU" role="lGtFl">
             <property role="TrG5h" value="s21" />
           </node>
+        </node>
+        <node concept="PgWwF" id="4QZXGcYZi2s" role="pZjJ2">
+          <property role="1MXi1$" value="MDPBOWGYKO" />
+          <property role="PgWwC" value="multiple sessions on same level" />
         </node>
         <node concept="3$Mv9w" id="4QZXGcYIupl" role="pZjJ2">
           <node concept="3xLA65" id="4QZXGcYIupm" role="lGtFl">
@@ -348,7 +383,7 @@
           </node>
           <node concept="22gccq" id="4QZXGcYIuoY" role="22hImy" />
           <node concept="3xLA65" id="4QZXGcYIuoZ" role="lGtFl">
-            <property role="TrG5h" value="c2" />
+            <property role="TrG5h" value="c21" />
           </node>
         </node>
         <node concept="3xLA65" id="4QZXGcYWZif" role="lGtFl">
@@ -358,7 +393,11 @@
     </node>
     <node concept="1qefOq" id="4QZXGcYWS7V" role="1SKRRt">
       <node concept="2PZPSw" id="4QZXGcYWS7W" role="1qenE9">
-        <property role="TrG5h" value="root3" />
+        <property role="TrG5h" value="r" />
+        <node concept="PgWwF" id="4QZXGcYZi6u" role="pZjJ2">
+          <property role="1MXi1$" value="MDPBOWGYKO" />
+          <property role="PgWwC" value="session on higher level" />
+        </node>
         <node concept="3$Mv9w" id="4QZXGcYWS7Z" role="pZjJ2">
           <node concept="3xLA65" id="4QZXGcYWS80" role="lGtFl">
             <property role="TrG5h" value="s31" />
@@ -377,7 +416,7 @@
               </node>
               <node concept="22gccq" id="4QZXGcYWS84" role="22hImy" />
               <node concept="3xLA65" id="4QZXGcYWS85" role="lGtFl">
-                <property role="TrG5h" value="c3" />
+                <property role="TrG5h" value="c31" />
               </node>
             </node>
           </node>
@@ -387,12 +426,40 @@
         </node>
       </node>
     </node>
+    <node concept="1qefOq" id="4QZXGcYZi8w" role="1SKRRt">
+      <node concept="2PZPSw" id="4QZXGcYZi8x" role="1qenE9">
+        <property role="TrG5h" value="r" />
+        <node concept="PgWwF" id="4QZXGcYZi8y" role="pZjJ2">
+          <property role="1MXi1$" value="MDPBOWGYKO" />
+          <property role="PgWwC" value="session is missing" />
+        </node>
+        <node concept="2PZJp4" id="4QZXGcYZi8B" role="pZjJ2">
+          <node concept="2PZJpp" id="4QZXGcYZi8C" role="2v3mow">
+            <property role="TrG5h" value="a" />
+          </node>
+          <node concept="2PZJpk" id="4QZXGcYZi8D" role="2v3moI">
+            <property role="pzxG6" value="1" />
+          </node>
+          <node concept="22gccq" id="4QZXGcYZi8E" role="22hImy" />
+          <node concept="3xLA65" id="4QZXGcYZi8F" role="lGtFl">
+            <property role="TrG5h" value="c41" />
+          </node>
+        </node>
+        <node concept="3xLA65" id="4QZXGcYZi8G" role="lGtFl">
+          <property role="TrG5h" value="r4" />
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="1lH9Xt" id="4QZXGcYIyD5">
     <property role="TrG5h" value="FindChangedExprsMixedAssignments" />
     <node concept="1qefOq" id="4QZXGcYXUsA" role="1SKRRt">
       <node concept="2PZPSw" id="4QZXGcYXUsB" role="1qenE9">
         <property role="TrG5h" value="r" />
+        <node concept="PgWwF" id="4QZXGcYZgKd" role="pZjJ2">
+          <property role="1MXi1$" value="AWBRTHBTEK" />
+          <property role="PgWwC" value="left assignment + righgt assignment" />
+        </node>
         <node concept="2PZJp4" id="4QZXGcYXUzL" role="pZjJ2">
           <property role="1MXi1$" value="VJRSTHRDAN" />
           <node concept="2PZJpp" id="4QZXGcYXUzQ" role="2v3mow">
@@ -441,6 +508,10 @@
     <node concept="1qefOq" id="4QZXGcYXXon" role="1SKRRt">
       <node concept="2PZPSw" id="4QZXGcYXXoo" role="1qenE9">
         <property role="TrG5h" value="r" />
+        <node concept="PgWwF" id="4QZXGcYZgOw" role="pZjJ2">
+          <property role="1MXi1$" value="CIBLWCYLNU" />
+          <property role="PgWwC" value="right assignment + left assignment" />
+        </node>
         <node concept="2PZJp4" id="4QZXGcYXXuD" role="pZjJ2">
           <property role="1MXi1$" value="YWVCLCAJVG" />
           <node concept="2PZJpk" id="4QZXGcYXXuI" role="2v3mow">
@@ -920,6 +991,10 @@
     <node concept="1qefOq" id="4QZXGcYIyDk" role="1SKRRt">
       <node concept="2PZPSw" id="4QZXGcYIyDl" role="1qenE9">
         <property role="TrG5h" value="r" />
+        <node concept="PgWwF" id="4QZXGcYZhDO" role="pZjJ2">
+          <property role="1MXi1$" value="MFUIGYWHDE" />
+          <property role="PgWwC" value="simple left assignment" />
+        </node>
         <node concept="2PZJp4" id="4QZXGcYIyDo" role="pZjJ2">
           <node concept="2PZJpp" id="4QZXGcYIyDp" role="2v3mow">
             <property role="TrG5h" value="a" />
@@ -951,6 +1026,10 @@
     <node concept="1qefOq" id="4QZXGcYOVzp" role="1SKRRt">
       <node concept="2PZPSw" id="4QZXGcYOVzq" role="1qenE9">
         <property role="TrG5h" value="r" />
+        <node concept="PgWwF" id="4QZXGcYZhI7" role="pZjJ2">
+          <property role="1MXi1$" value="PVPUPFPDXI" />
+          <property role="PgWwC" value="assignment + referencing variable" />
+        </node>
         <node concept="2PZJp4" id="4QZXGcYOVzr" role="pZjJ2">
           <node concept="2PZJpp" id="4QZXGcYOVzs" role="2v3mow">
             <property role="TrG5h" value="a" />
@@ -1000,6 +1079,10 @@
     <node concept="1qefOq" id="4QZXGcYS1qT" role="1SKRRt">
       <node concept="2PZPSw" id="4QZXGcYS1qU" role="1qenE9">
         <property role="TrG5h" value="r" />
+        <node concept="PgWwF" id="4QZXGcYZhKl" role="pZjJ2">
+          <property role="1MXi1$" value="PVPUPFPDXI" />
+          <property role="PgWwC" value="assignment + 1 directly + 1 indirectly referencing variable" />
+        </node>
         <node concept="2PZJp4" id="4QZXGcYS1qV" role="pZjJ2">
           <node concept="2PZJpp" id="4QZXGcYS1qW" role="2v3mow">
             <property role="TrG5h" value="a" />
@@ -1067,6 +1150,10 @@
     <node concept="1qefOq" id="4QZXGcYUgUn" role="1SKRRt">
       <node concept="2PZPSw" id="4QZXGcYUgVL" role="1qenE9">
         <property role="TrG5h" value="r" />
+        <node concept="PgWwF" id="4QZXGcYZhP1" role="pZjJ2">
+          <property role="1MXi1$" value="OBEHTSGUCQ" />
+          <property role="PgWwC" value="function that affects a previously defined variable" />
+        </node>
         <node concept="2PZJpa" id="1e0sE7QWqJm" role="pZjJ2">
           <property role="1MXi1$" value="KWORJLYBWS" />
           <node concept="2PZJpp" id="1e0sE7QWqJn" role="2v3mow">
@@ -1242,6 +1329,46 @@
       </node>
       <node concept="3Tm1VV" id="4QZXGcYY2bL" role="1B3o_S" />
     </node>
+    <node concept="2YIFZL" id="2xF4TVcExb_" role="jymVt">
+      <property role="TrG5h" value="getNearestSession" />
+      <property role="DiZV1" value="false" />
+      <property role="od$2w" value="false" />
+      <property role="2aFKle" value="false" />
+      <node concept="3clFbS" id="2xF4TVcExbA" role="3clF47">
+        <node concept="3clFbF" id="4QZXGcYZlbk" role="3cqZAp">
+          <node concept="1rXfSq" id="4QZXGcYZlbl" role="3clFbG">
+            <ref role="37wK5l" node="4QZXGcYY2uZ" resolve="convertNodeToRoot" />
+            <node concept="37vLTw" id="4QZXGcYZlbm" role="37wK5m">
+              <ref role="3cqZAo" node="4QZXGcYZkPe" resolve="root" />
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs6" id="4QZXGcYZlut" role="3cqZAp">
+          <node concept="2YIFZM" id="4QZXGcYZl7j" role="3cqZAk">
+            <ref role="1Pybhc" to="ccd1:hlbLQwjCGO" resolve="ChangeExecutor" />
+            <ref role="37wK5l" to="ccd1:2xF4TVcExb_" resolve="getNearestSessionForRScript" />
+            <node concept="37vLTw" id="4QZXGcYZl9u" role="37wK5m">
+              <ref role="3cqZAo" node="2xF4TVcExcd" resolve="unit" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tqbb2" id="2xF4TVcExcc" role="3clF45">
+        <ref role="ehGHo" to="sg20:15COMTnnsmm" resolve="IAtomic" />
+      </node>
+      <node concept="37vLTG" id="4QZXGcYZkPe" role="3clF46">
+        <property role="TrG5h" value="root" />
+        <node concept="3Tqbb2" id="4QZXGcYZkRO" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="2xF4TVcExcd" role="3clF46">
+        <property role="TrG5h" value="unit" />
+        <node concept="3Tqbb2" id="2xF4TVcExce" role="1tU5fm">
+          <ref role="ehGHo" to="sg20:15COMTnnsmm" resolve="IAtomic" />
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="2xF4TVcECHN" role="1B3o_S" />
+    </node>
+    <node concept="2tJIrI" id="4QZXGcYZiOY" role="jymVt" />
     <node concept="2YIFZL" id="4QZXGcYY2uZ" role="jymVt">
       <property role="TrG5h" value="convertNodeToRoot" />
       <property role="DiZV1" value="false" />
@@ -1295,6 +1422,10 @@
     <node concept="1qefOq" id="4QZXGcYXE5D" role="1SKRRt">
       <node concept="2PZPSw" id="4QZXGcYXE5E" role="1qenE9">
         <property role="TrG5h" value="r" />
+        <node concept="PgWwF" id="4QZXGcYZh7c" role="pZjJ2">
+          <property role="1MXi1$" value="RHUPWVIJAX" />
+          <property role="PgWwC" value="load a from session" />
+        </node>
         <node concept="2PZJp4" id="4QZXGcYXE9A" role="pZjJ2">
           <property role="1MXi1$" value="MJVAEPJBXB" />
           <node concept="2PZJpp" id="4QZXGcYXE9F" role="2v3mow">
@@ -1351,6 +1482,10 @@
     <node concept="1qefOq" id="4QZXGcYYzZj" role="1SKRRt">
       <node concept="2PZPSw" id="4QZXGcYYzZk" role="1qenE9">
         <property role="TrG5h" value="r" />
+        <node concept="PgWwF" id="4QZXGcYZhiu" role="pZjJ2">
+          <property role="1MXi1$" value="VYXMNQQEBG" />
+          <property role="PgWwC" value="load a from session, don't rerun b but rerun expressions after d" />
+        </node>
         <node concept="2PZJp4" id="4QZXGcYY$0L" role="pZjJ2">
           <property role="1MXi1$" value="QKGCVWXPIW" />
           <node concept="2PZJpp" id="4QZXGcYY$0Q" role="2v3mow">
@@ -1479,6 +1614,10 @@
     <node concept="1qefOq" id="4QZXGcYY_jN" role="1SKRRt">
       <node concept="2PZPSw" id="4QZXGcYY_jO" role="1qenE9">
         <property role="TrG5h" value="r" />
+        <node concept="PgWwF" id="4QZXGcYZhoT" role="pZjJ2">
+          <property role="1MXi1$" value="VYXMNQQEBG" />
+          <property role="PgWwC" value="load a from session, rerun b and expressions after d" />
+        </node>
         <node concept="2PZJp4" id="4QZXGcYY_jP" role="pZjJ2">
           <property role="1MXi1$" value="QKGCVWXPIW" />
           <node concept="2PZJpp" id="4QZXGcYY_jQ" role="2v3mow">
