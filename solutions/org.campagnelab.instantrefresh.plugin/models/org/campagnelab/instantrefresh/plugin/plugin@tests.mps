@@ -2344,6 +2344,11 @@
             <property role="3_3kQV" value="unexpected results. Use it with caution." />
           </node>
         </node>
+        <node concept="1gZcZf" id="1z$HfMojQFK" role="2G3XIn">
+          <node concept="3_3kQU" id="1z$HfMojQFL" role="3_3kQL">
+            <property role="3_3kQV" value="How to executed the test: &quot;Run tests&quot; run configuration (Execute in same process must be checked) " />
+          </node>
+        </node>
       </node>
     </node>
   </node>
