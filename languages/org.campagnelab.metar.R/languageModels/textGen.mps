@@ -2056,32 +2056,6 @@
       </node>
     </node>
   </node>
-  <node concept="WtQ9Q" id="2xF4TVcGsL1">
-    <ref role="WuzLi" to="6q58:2xF4TVcCI7Y" resolve="SaveSession" />
-    <node concept="11bSqf" id="2xF4TVcGsL2" role="11c4hB">
-      <node concept="3clFbS" id="2xF4TVcGsL3" role="2VODD2">
-        <node concept="lc7rE" id="2xF4TVcGsLf" role="3cqZAp">
-          <node concept="la8eA" id="2xF4TVcGsLt" role="lcghm">
-            <property role="lacIc" value="save.image(&quot;" />
-          </node>
-          <node concept="l9hG8" id="2xF4TVcGFXa" role="lcghm">
-            <node concept="2OqwBi" id="2xF4TVcGG0h" role="lb14g">
-              <node concept="117lpO" id="2xF4TVcGFXV" role="2Oq$k0" />
-              <node concept="2qgKlT" id="1e0sE7RxHyk" role="2OqNvi">
-                <ref role="37wK5l" to="69j5:2xF4TVcGGn0" resolve="getSessionPath" />
-              </node>
-            </node>
-          </node>
-          <node concept="la8eA" id="2xF4TVcGGdv" role="lcghm">
-            <property role="lacIc" value="&quot;, safe=FALSE)" />
-          </node>
-          <node concept="la8eA" id="4Nx8wsWV0fB" role="lcghm">
-            <property role="lacIc" value="\n" />
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
   <node concept="WtQ9Q" id="1x1IHbNToBH">
     <ref role="WuzLi" to="6q58:1x1IHbNToum" resolve="InstallOrLoad" />
     <node concept="11bSqf" id="1x1IHbNToBK" role="11c4hB">
