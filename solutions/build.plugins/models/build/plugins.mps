@@ -358,6 +358,12 @@
         <ref role="398BVh" node="3gMg70bRmeS" resolve="mps_home" />
       </node>
     </node>
+    <node concept="2sgV4H" id="476zmS8UHK0" role="1l3spa">
+      <ref role="1l3spb" to="ffeo:ymnOULAEsd" resolve="mpsTesting" />
+      <node concept="398BVA" id="476zmS8UHOV" role="2JcizS">
+        <ref role="398BVh" node="3gMg70bRmeS" resolve="mps_home" />
+      </node>
+    </node>
     <node concept="1l3spV" id="3gMg70bRmfC" role="1l3spN">
       <node concept="3981dG" id="7XxitGzkyrX" role="39821P">
         <node concept="3_J27D" id="7XxitGzkyrY" role="Nbhlr">
@@ -437,6 +443,9 @@
       </node>
       <node concept="m$_yC" id="3gMg70bRmf_" role="m$_yJ">
         <ref role="m$_y1" to="ffeo:4k71ibbKLe8" resolve="jetbrains.mps.core" />
+      </node>
+      <node concept="m$_yC" id="476zmS8UHTP" role="m$_yJ">
+        <ref role="m$_y1" to="ffeo:ymnOULATpW" resolve="jetbrains.mps.testing" />
       </node>
       <node concept="m$_yC" id="3gMg70bWrwD" role="m$_yJ">
         <ref role="m$_y1" to="nr1s:2mFg1uCEgGJ" resolve="org.campagnelab.TextOutput" />

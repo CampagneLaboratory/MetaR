@@ -20,6 +20,7 @@
   <property name="artifacts.mpsCore" location="${mps_home}" />
   <property name="artifacts.mpsExecutionPlugin" location="${mps_home}" />
   <property name="artifacts.mpsJava" location="${mps_home}" />
+  <property name="artifacts.mpsTesting" location="${mps_home}" />
   <property file="${artifacts.mps}/build.properties" prefix="import.mps" />
   <property file="${artifacts.org.campagnelab.TextOutput}/build.properties" prefix="import.org.campagnelab.TextOutput" />
   <property file="${artifacts.org.campagnelab.mps.UI}/build.properties" prefix="import.org.campagnelab.mps.UI" />
@@ -70,6 +71,7 @@
         <version>${metaR_version}</version>
         <vendor url="http://metar.campagnelab.org" logo="/MPS16.png">Campagne Laboratory</vendor>
         <depends>jetbrains.mps.core</depends>
+        <depends>jetbrains.mps.testing</depends>
         <depends>org.campagnelab.TextOutput</depends>
         <depends>org.campagnelab.mps.UI</depends>
         <depends>XChart</depends>
