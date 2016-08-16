@@ -39,6 +39,7 @@
     <import index="eoo2" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.nio.file(JDK/)" />
     <import index="k6y1" ref="r:eeed3f2f-0d6f-41a1-91c7-0fff65bede58(org.campagnelab.instantrefresh.behavior)" />
     <import index="sg20" ref="r:e17021d0-0144-4c70-acef-a4d3f9c3fa3b(org.campagnelab.instantrefresh.structure)" />
+    <import index="ccd1" ref="r:d4fc1ccf-1b20-4c10-aae7-94de66326394(org.campagnelab.instantrefresh.plugin.plugin)" />
     <import index="fly8" ref="r:0dcf4c62-2291-4316-969f-47e1828e2475(org.campagnelab.metar.code.scopes)" implicit="true" />
     <import index="c17a" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.language(MPS.OpenAPI/)" implicit="true" />
   </imports>
@@ -10555,6 +10556,34 @@
           </node>
         </node>
       </node>
+    </node>
+    <node concept="13i0hz" id="1eLpaFq9MT5" role="13h7CS">
+      <property role="13i0iv" value="false" />
+      <property role="TrG5h" value="suppress" />
+      <property role="13i0it" value="false" />
+      <ref role="13i0hy" to="tpcu:2WmWrdnSpX7" resolve="suppress" />
+      <node concept="3Tm1VV" id="1eLpaFq9MT6" role="1B3o_S" />
+      <node concept="3clFbS" id="1eLpaFq9MTd" role="3clF47">
+        <node concept="3cpWs6" id="1eLpaFq9Nz3" role="3cqZAp">
+          <node concept="17R0WA" id="1eLpaFq9OoJ" role="3cqZAk">
+            <node concept="2OqwBi" id="1eLpaFq9NB$" role="3uHU7B">
+              <node concept="13iPFW" id="1eLpaFq9Nzg" role="2Oq$k0" />
+              <node concept="3TrcHB" id="1eLpaFq9NKn" role="2OqNvi">
+                <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+              </node>
+            </node>
+            <node concept="10M0yZ" id="1eLpaFq9Qc4" role="3uHU7w">
+              <ref role="1PxDUh" to="ccd1:L2v$sdqWOu" resolve="TempNodeCreator" />
+              <ref role="3cqZAo" to="ccd1:15COMTmWFQj" resolve="ROOT_NAME" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="37vLTG" id="1eLpaFq9MTe" role="3clF46">
+        <property role="TrG5h" value="child" />
+        <node concept="3Tqbb2" id="1eLpaFq9MTf" role="1tU5fm" />
+      </node>
+      <node concept="10P_77" id="1eLpaFq9MTg" role="3clF45" />
     </node>
   </node>
   <node concept="13h7C7" id="7LvyiX4mikT">
