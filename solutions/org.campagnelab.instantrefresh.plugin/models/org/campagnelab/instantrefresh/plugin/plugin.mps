@@ -3009,16 +3009,6 @@
                     </node>
                   </node>
                   <node concept="3clFbH" id="1e0sE7QVWQ1" role="3cqZAp" />
-                  <node concept="3SKdUt" id="2yvMhGhtJ0Y" role="3cqZAp">
-                    <node concept="3SKdUq" id="2yvMhGhtJ0Z" role="3SKWNk">
-                      <property role="3SKdUp" value="the minimum index is the lowest index of an expression root that has to be included as a changed node." />
-                    </node>
-                  </node>
-                  <node concept="3SKdUt" id="2yvMhGhtRrR" role="3cqZAp">
-                    <node concept="3SKdUq" id="2yvMhGhtRrS" role="3SKWNk">
-                      <property role="3SKdUp" value="It is either the index of the expression root of the first changed not or the index of the nearest session." />
-                    </node>
-                  </node>
                   <node concept="3cpWs8" id="2xF4TVcEyIb" role="3cqZAp">
                     <node concept="3cpWsn" id="2xF4TVcEyIe" role="3cpWs9">
                       <property role="TrG5h" value="minIndex" />
