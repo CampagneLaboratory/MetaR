@@ -590,7 +590,7 @@
         <property role="S1EQ6" value="TPASBFNGKB" />
         <property role="34tvW_" value="7" />
         <property role="34tvWB" value="3" />
-        <property role="34gX7q" value="true" />
+        <property role="34gX7q" value="false" />
         <property role="1MXi1$" value="NQWXHWAKAE" />
         <ref role="L_9Jz" node="5lDNWrJNeMM" resolve="TableStyle" />
         <node concept="afgQW" id="5lDNWrJN8mR" role="34tvVl">
@@ -1096,7 +1096,7 @@
       <node concept="3giYhJ" id="7eyWL1Lfque" role="ZXjPg">
         <property role="S1EQ6" value="ODLFSKRUXK" />
         <property role="3ggrk4" value="-1.0" />
-        <property role="3ggrk3" value="0.05" />
+        <property role="3ggrk3" value="0.015" />
         <property role="1MXi1$" value="JBYMTWKTSX" />
         <ref role="3p2qAn" node="4DOwJpJxC5G" resolve="ID" />
         <ref role="L_9Jz" node="6$xxyeHKDce" resolve="DefaultStyle" />
@@ -1123,7 +1123,7 @@
         <property role="S1EQ6" value="ACVUMWPSSV" />
         <property role="313rra" value="1" />
         <property role="313rrk" value="1" />
-        <property role="31lnkE" value="true" />
+        <property role="31lnkE" value="false" />
         <property role="1MXi1$" value="ITFDFAJHFQ" />
         <node concept="1FHg$p" id="63Ijj437q4n" role="319mBM">
           <property role="ZHjxa" value="500" />
@@ -1382,7 +1382,7 @@
         <property role="S1EQ6" value="TBSYLOWWVT" />
         <property role="34tvW_" value="2" />
         <property role="34tvWB" value="2" />
-        <property role="34gX7q" value="true" />
+        <property role="34gX7q" value="false" />
         <property role="1MXi1$" value="AWKRSGGOYX" />
         <node concept="afgQW" id="5lDNWrKdSkQ" role="34tvVl">
           <ref role="afgo8" node="4r50q8aI6DN" resolve="MergedResults" />

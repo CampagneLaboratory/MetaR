@@ -4,6 +4,7 @@
   <languages>
     <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="1" />
     <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="2" />
+    <use id="95951e17-c0d6-47b9-b1b5-42a4ca186fc6" name="org.campagnelab.instantrefresh" version="1" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -137,6 +138,9 @@
       <concept id="8970989240999019143" name="jetbrains.mps.baseLanguage.javadoc.structure.TextCommentLinePart" flags="ng" index="1dT_AC">
         <property id="8970989240999019144" name="text" index="1dT_AB" />
       </concept>
+    </language>
+    <language id="95951e17-c0d6-47b9-b1b5-42a4ca186fc6" name="org.campagnelab.instantrefresh">
+      <concept id="1419026042568227058" name="org.campagnelab.instantrefresh.structure.IgnoredPropertyAttribute" flags="ng" index="39ZXLo" />
     </language>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
       <concept id="1224240836180" name="jetbrains.mps.lang.structure.structure.DeprecatedNodeAnnotation" flags="ig" index="asaX9">
@@ -834,6 +838,7 @@
     <node concept="1TJgyi" id="2GnvTFEgwEK" role="1TKVEl">
       <property role="TrG5h" value="preview" />
       <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+      <node concept="39ZXLo" id="1eLpaFqjK0B" role="lGtFl" />
     </node>
     <node concept="PrWs8" id="2GnvTFEbGXW" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
@@ -2518,6 +2523,7 @@
     <node concept="1TJgyi" id="6$xxyeHo_vT" role="1TKVEl">
       <property role="TrG5h" value="preview" />
       <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+      <node concept="39ZXLo" id="1eLpaFqjK0D" role="lGtFl" />
     </node>
     <node concept="1TJgyj" id="6$xxyeHl7zQ" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
