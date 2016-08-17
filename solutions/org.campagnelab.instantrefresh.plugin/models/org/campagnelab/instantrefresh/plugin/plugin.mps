@@ -763,6 +763,7 @@
         <child id="1197932505799" name="map" index="3ElQJh" />
         <child id="1197932525128" name="key" index="3ElVtu" />
       </concept>
+      <concept id="1176501494711" name="jetbrains.mps.baseLanguage.collections.structure.IsNotEmptyOperation" flags="nn" index="3GX2aA" />
       <concept id="1172254888721" name="jetbrains.mps.baseLanguage.collections.structure.ContainsOperation" flags="nn" index="3JPx81" />
       <concept id="5686963296372573083" name="jetbrains.mps.baseLanguage.collections.structure.AbstractContainerType" flags="in" index="3O5elB">
         <child id="5686963296372573084" name="elementType" index="3O5elw" />
@@ -4658,6 +4659,7 @@
                                   </node>
                                 </node>
                                 <node concept="3clFbH" id="2yvMhGhsw3O" role="3cqZAp" />
+                                <node concept="3clFbH" id="1eLpaFqQyDO" role="3cqZAp" />
                                 <node concept="3SKdUt" id="2yvMhGhswiY" role="3cqZAp">
                                   <node concept="3SKdUq" id="2yvMhGhswiZ" role="3SKWNk">
                                     <property role="3SKdUp" value="the rootNode is only set in the remove event because a removed node can't access it's ancestors" />
@@ -4685,11 +4687,14 @@
                                       </node>
                                     </node>
                                   </node>
-                                  <node concept="2OqwBi" id="1e0sE7QfmSA" role="3clFbw">
-                                    <node concept="37vLTw" id="1e0sE7QfmvX" role="2Oq$k0">
-                                      <ref role="3cqZAo" node="1e0sE7QficJ" resolve="rootNode" />
+                                  <node concept="2OqwBi" id="1eLpaFqQ9C6" role="3clFbw">
+                                    <node concept="2OqwBi" id="1eLpaFqQ8H6" role="2Oq$k0">
+                                      <node concept="37vLTw" id="1eLpaFqQ8iF" role="2Oq$k0">
+                                        <ref role="3cqZAo" node="1Iyhq6EENj9" resolve="currentNode" />
+                                      </node>
+                                      <node concept="z$bX8" id="1eLpaFqQ98b" role="2OqNvi" />
                                     </node>
-                                    <node concept="3w_OXm" id="1e0sE7Qfn33" role="2OqNvi" />
+                                    <node concept="3GX2aA" id="1eLpaFqQaJJ" role="2OqNvi" />
                                   </node>
                                 </node>
                                 <node concept="3clFbH" id="2yvMhGhdV$9" role="3cqZAp" />
