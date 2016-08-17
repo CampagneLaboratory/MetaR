@@ -1369,8 +1369,8 @@
             <node concept="liA8E" id="1eLpaFqIX4_" role="2OqNvi">
               <ref role="37wK5l" to="dxuu:~JLabel.setIcon(javax.swing.Icon):void" resolve="setIcon" />
               <node concept="10M0yZ" id="1eLpaFqIX4A" role="37wK5m">
-                <ref role="1PxDUh" to="z2i8:~AllIcons$General" resolve="AllIcons.General" />
                 <ref role="3cqZAo" to="z2i8:~AllIcons$General.Help_small" resolve="Help_small" />
+                <ref role="1PxDUh" to="z2i8:~AllIcons$General" resolve="AllIcons.General" />
               </node>
             </node>
           </node>
@@ -1483,8 +1483,8 @@
             <node concept="liA8E" id="1eLpaFqIXnC" role="2OqNvi">
               <ref role="37wK5l" to="dxuu:~JLabel.setIcon(javax.swing.Icon):void" resolve="setIcon" />
               <node concept="10M0yZ" id="1eLpaFqIXnD" role="37wK5m">
-                <ref role="1PxDUh" to="z2i8:~AllIcons$General" resolve="AllIcons.General" />
                 <ref role="3cqZAo" to="z2i8:~AllIcons$General.Help_small" resolve="Help_small" />
+                <ref role="1PxDUh" to="z2i8:~AllIcons$General" resolve="AllIcons.General" />
               </node>
             </node>
           </node>
@@ -1597,8 +1597,8 @@
             <node concept="liA8E" id="1eLpaFqIXFo" role="2OqNvi">
               <ref role="37wK5l" to="dxuu:~JLabel.setIcon(javax.swing.Icon):void" resolve="setIcon" />
               <node concept="10M0yZ" id="1eLpaFqIXFp" role="37wK5m">
-                <ref role="1PxDUh" to="z2i8:~AllIcons$General" resolve="AllIcons.General" />
                 <ref role="3cqZAo" to="z2i8:~AllIcons$General.Help_small" resolve="Help_small" />
+                <ref role="1PxDUh" to="z2i8:~AllIcons$General" resolve="AllIcons.General" />
               </node>
             </node>
           </node>
@@ -2786,7 +2786,7 @@
               <ref role="1Pybhc" node="7ZtP2DEHIzu" resolve="Logging" />
             </node>
             <node concept="liA8E" id="6QtBXc9w9u$" role="2OqNvi">
-              <ref role="37wK5l" node="7ZtP2DEHJzN" resolve="info" />
+              <ref role="37wK5l" node="7PqnxC2_Q2P" resolve="debug" />
               <node concept="3cpWs3" id="6QtBXc9wb6A" role="37wK5m">
                 <node concept="37vLTw" id="6QtBXc9wbzW" role="3uHU7w">
                   <ref role="3cqZAo" node="15COMTnouiD" resolve="changedExprWithChildren" />
@@ -5685,20 +5685,6 @@
                 <ref role="3cqZAo" node="7MA3zyxKDWz" resolve="changedReference" />
               </node>
               <node concept="1mfA1w" id="7MA3zyxKFxe" role="2OqNvi" />
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="6CA2KfgPUAH" role="3cqZAp">
-          <node concept="2OqwBi" id="6CA2KfgPUAJ" role="3clFbG">
-            <node concept="2YIFZM" id="6CA2KfgPUAK" role="2Oq$k0">
-              <ref role="1Pybhc" node="7ZtP2DEHIzu" resolve="Logging" />
-              <ref role="37wK5l" node="7ZtP2DEHUg0" resolve="getInstance" />
-            </node>
-            <node concept="liA8E" id="6CA2KfgPUAL" role="2OqNvi">
-              <ref role="37wK5l" node="7ZtP2DEHJzN" resolve="info" />
-              <node concept="Xl_RD" id="6CA2KfgPUAM" role="37wK5m">
-                <property role="Xl_RC" value="reference changed" />
-              </node>
             </node>
           </node>
         </node>
@@ -11536,6 +11522,11 @@
                                                             </node>
                                                           </node>
                                                           <node concept="3clFbS" id="26cpLhjFtIR" role="3clF47">
+                                                            <node concept="3SKdUt" id="1eLpaFqJzY0" role="3cqZAp">
+                                                              <node concept="3SKdUq" id="1eLpaFqJzY1" role="3SKWNk">
+                                                                <property role="3SKdUp" value="this is the output that is produced while executing the process" />
+                                                              </node>
+                                                            </node>
                                                             <node concept="3clFbF" id="26cpLhjFA60" role="3cqZAp">
                                                               <node concept="2OqwBi" id="26cpLhjFA8N" role="3clFbG">
                                                                 <node concept="2YIFZM" id="26cpLhjFA87" role="2Oq$k0">
@@ -11543,7 +11534,7 @@
                                                                   <ref role="1Pybhc" node="7ZtP2DEHIzu" resolve="Logging" />
                                                                 </node>
                                                                 <node concept="liA8E" id="26cpLhjFAcj" role="2OqNvi">
-                                                                  <ref role="37wK5l" node="7ZtP2DEHJzN" resolve="info" />
+                                                                  <ref role="37wK5l" node="7PqnxC2_Q2P" resolve="debug" />
                                                                   <node concept="2OqwBi" id="26cpLhjF$3L" role="37wK5m">
                                                                     <node concept="37vLTw" id="26cpLhjFznq" role="2Oq$k0">
                                                                       <ref role="3cqZAo" node="26cpLhjFtIN" resolve="event" />
@@ -12806,7 +12797,7 @@
                   <ref role="1Pybhc" node="7ZtP2DEHIzu" resolve="Logging" />
                 </node>
                 <node concept="liA8E" id="1eLpaFpwkc2" role="2OqNvi">
-                  <ref role="37wK5l" node="7ZtP2DEHJzN" resolve="info" />
+                  <ref role="37wK5l" node="7PqnxC2_Q2P" resolve="debug" />
                   <node concept="Xl_RD" id="1eLpaFpwknd" role="37wK5m">
                     <property role="Xl_RC" value="Full run needed" />
                   </node>
