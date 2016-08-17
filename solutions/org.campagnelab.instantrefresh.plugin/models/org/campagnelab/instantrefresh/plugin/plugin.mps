@@ -86,6 +86,7 @@
     <import index="k8ev" ref="r:f39afe13-666a-48f2-9d7c-2f9366f78fe5(jetbrains.mps.typesystemEngine.checker)" />
     <import index="cj4x" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor(MPS.Editor/)" />
     <import index="sg20" ref="r:e17021d0-0144-4c70-acef-a4d3f9c3fa3b(org.campagnelab.instantrefresh.structure)" />
+    <import index="z2i8" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.icons(MPS.IDEA/)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="k6y1" ref="r:eeed3f2f-0d6f-41a1-91c7-0fff65bede58(org.campagnelab.instantrefresh.behavior)" implicit="true" />
     <import index="69j5" ref="r:cc2fd9c1-53e7-4805-a8bc-a07e69f2147b(org.campagnelab.metar.R.behavior)" implicit="true" />
@@ -1230,7 +1231,6 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="1e0sE7Ox7pz" role="3cqZAp" />
         <node concept="3cpWs8" id="1e0sE7OytDs" role="3cqZAp">
           <node concept="3cpWsn" id="1e0sE7OytDt" role="3cpWs9">
             <property role="TrG5h" value="typesystemCheckLabel" />
@@ -1243,6 +1243,47 @@
                 <node concept="Xl_RD" id="1e0sE7OytDx" role="37wK5m">
                   <property role="Xl_RC" value="Typesystem check" />
                 </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="1eLpaFqHJXE" role="3cqZAp">
+          <node concept="2OqwBi" id="1eLpaFqHKGD" role="3clFbG">
+            <node concept="37vLTw" id="1eLpaFqHJXC" role="2Oq$k0">
+              <ref role="3cqZAo" node="1e0sE7OytDt" resolve="typesystemCheckLabel" />
+            </node>
+            <node concept="liA8E" id="1eLpaFqHLoA" role="2OqNvi">
+              <ref role="37wK5l" to="dxuu:~JLabel.setIcon(javax.swing.Icon):void" resolve="setIcon" />
+              <node concept="10M0yZ" id="1eLpaFqHMgc" role="37wK5m">
+                <ref role="1PxDUh" to="z2i8:~AllIcons$General" resolve="AllIcons.General" />
+                <ref role="3cqZAo" to="z2i8:~AllIcons$General.Help_small" resolve="Help_small" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="1eLpaFqIy4Y" role="3cqZAp">
+          <node concept="2OqwBi" id="1eLpaFqIyOk" role="3clFbG">
+            <node concept="37vLTw" id="1eLpaFqIy4W" role="2Oq$k0">
+              <ref role="3cqZAo" node="1e0sE7OytDt" resolve="typesystemCheckLabel" />
+            </node>
+            <node concept="liA8E" id="1eLpaFqI$ZQ" role="2OqNvi">
+              <ref role="37wK5l" to="dxuu:~JLabel.setHorizontalTextPosition(int):void" resolve="setHorizontalTextPosition" />
+              <node concept="10M0yZ" id="1eLpaFqI_Ra" role="37wK5m">
+                <ref role="1PxDUh" to="dxuu:~SwingConstants" resolve="SwingConstants" />
+                <ref role="3cqZAo" to="dxuu:~SwingConstants.LEFT" resolve="LEFT" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="1eLpaFqHlNP" role="3cqZAp">
+          <node concept="2OqwBi" id="1eLpaFqHlNQ" role="3clFbG">
+            <node concept="37vLTw" id="1eLpaFqHmQ8" role="2Oq$k0">
+              <ref role="3cqZAo" node="1e0sE7OytDt" resolve="typesystemCheckLabel" />
+            </node>
+            <node concept="liA8E" id="1eLpaFqHlNS" role="2OqNvi">
+              <ref role="37wK5l" to="dxuu:~JComponent.setToolTipText(java.lang.String):void" resolve="setToolTipText" />
+              <node concept="Xl_RD" id="1eLpaFqHlNT" role="37wK5m">
+                <property role="Xl_RC" value="Toggles the check for errors" />
               </node>
             </node>
           </node>
@@ -1314,8 +1355,49 @@
               <node concept="1pGfFk" id="1e0sE7Ox8b2" role="2ShVmc">
                 <ref role="37wK5l" to="dxuu:~JLabel.&lt;init&gt;(java.lang.String)" resolve="JLabel" />
                 <node concept="Xl_RD" id="1e0sE7Ox8b3" role="37wK5m">
-                  <property role="Xl_RC" value="Enabled:" />
+                  <property role="Xl_RC" value="Enabled" />
                 </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="1eLpaFqIX4y" role="3cqZAp">
+          <node concept="2OqwBi" id="1eLpaFqIX4z" role="3clFbG">
+            <node concept="37vLTw" id="1eLpaFqIYuv" role="2Oq$k0">
+              <ref role="3cqZAo" node="1e0sE7Ox8aZ" resolve="isEnabledLabel" />
+            </node>
+            <node concept="liA8E" id="1eLpaFqIX4_" role="2OqNvi">
+              <ref role="37wK5l" to="dxuu:~JLabel.setIcon(javax.swing.Icon):void" resolve="setIcon" />
+              <node concept="10M0yZ" id="1eLpaFqIX4A" role="37wK5m">
+                <ref role="1PxDUh" to="z2i8:~AllIcons$General" resolve="AllIcons.General" />
+                <ref role="3cqZAo" to="z2i8:~AllIcons$General.Help_small" resolve="Help_small" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="1eLpaFqIX4E" role="3cqZAp">
+          <node concept="2OqwBi" id="1eLpaFqIX4F" role="3clFbG">
+            <node concept="37vLTw" id="1eLpaFqIYXN" role="2Oq$k0">
+              <ref role="3cqZAo" node="1e0sE7Ox8aZ" resolve="isEnabledLabel" />
+            </node>
+            <node concept="liA8E" id="1eLpaFqIX4H" role="2OqNvi">
+              <ref role="37wK5l" to="dxuu:~JLabel.setHorizontalTextPosition(int):void" resolve="setHorizontalTextPosition" />
+              <node concept="10M0yZ" id="1eLpaFqIX4I" role="37wK5m">
+                <ref role="1PxDUh" to="dxuu:~SwingConstants" resolve="SwingConstants" />
+                <ref role="3cqZAo" to="dxuu:~SwingConstants.LEFT" resolve="LEFT" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="1eLpaFqEi_S" role="3cqZAp">
+          <node concept="2OqwBi" id="1eLpaFqEjkE" role="3clFbG">
+            <node concept="37vLTw" id="1eLpaFqEly1" role="2Oq$k0">
+              <ref role="3cqZAo" node="1e0sE7Ox8aZ" resolve="isEnabledLabel" />
+            </node>
+            <node concept="liA8E" id="1eLpaFqEkdW" role="2OqNvi">
+              <ref role="37wK5l" to="dxuu:~JComponent.setToolTipText(java.lang.String):void" resolve="setToolTipText" />
+              <node concept="Xl_RD" id="1eLpaFqEkGc" role="37wK5m">
+                <property role="Xl_RC" value="Toggles the automatic detection and re-execution of changes" />
               </node>
             </node>
           </node>
@@ -1387,8 +1469,49 @@
               <node concept="1pGfFk" id="7PqnxC2_uVk" role="2ShVmc">
                 <ref role="37wK5l" to="dxuu:~JLabel.&lt;init&gt;(java.lang.String)" resolve="JLabel" />
                 <node concept="Xl_RD" id="7PqnxC2_uVl" role="37wK5m">
-                  <property role="Xl_RC" value="Debug mode:" />
+                  <property role="Xl_RC" value="Debug mode" />
                 </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="1eLpaFqIXn_" role="3cqZAp">
+          <node concept="2OqwBi" id="1eLpaFqIXnA" role="3clFbG">
+            <node concept="37vLTw" id="1eLpaFqIZt6" role="2Oq$k0">
+              <ref role="3cqZAo" node="7PqnxC2_uVh" resolve="useDebugModeLabel" />
+            </node>
+            <node concept="liA8E" id="1eLpaFqIXnC" role="2OqNvi">
+              <ref role="37wK5l" to="dxuu:~JLabel.setIcon(javax.swing.Icon):void" resolve="setIcon" />
+              <node concept="10M0yZ" id="1eLpaFqIXnD" role="37wK5m">
+                <ref role="1PxDUh" to="z2i8:~AllIcons$General" resolve="AllIcons.General" />
+                <ref role="3cqZAo" to="z2i8:~AllIcons$General.Help_small" resolve="Help_small" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="1eLpaFqIXnH" role="3cqZAp">
+          <node concept="2OqwBi" id="1eLpaFqIXnI" role="3clFbG">
+            <node concept="37vLTw" id="1eLpaFqIZWh" role="2Oq$k0">
+              <ref role="3cqZAo" node="7PqnxC2_uVh" resolve="useDebugModeLabel" />
+            </node>
+            <node concept="liA8E" id="1eLpaFqIXnK" role="2OqNvi">
+              <ref role="37wK5l" to="dxuu:~JLabel.setHorizontalTextPosition(int):void" resolve="setHorizontalTextPosition" />
+              <node concept="10M0yZ" id="1eLpaFqIXnL" role="37wK5m">
+                <ref role="1PxDUh" to="dxuu:~SwingConstants" resolve="SwingConstants" />
+                <ref role="3cqZAo" to="dxuu:~SwingConstants.LEFT" resolve="LEFT" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="1eLpaFqEGT8" role="3cqZAp">
+          <node concept="2OqwBi" id="1eLpaFqEGT9" role="3clFbG">
+            <node concept="37vLTw" id="1eLpaFqJ0rD" role="2Oq$k0">
+              <ref role="3cqZAo" node="7PqnxC2_uVh" resolve="useDebugModeLabel" />
+            </node>
+            <node concept="liA8E" id="1eLpaFqEGTb" role="2OqNvi">
+              <ref role="37wK5l" to="dxuu:~JComponent.setToolTipText(java.lang.String):void" resolve="setToolTipText" />
+              <node concept="Xl_RD" id="1eLpaFqEGTc" role="37wK5m">
+                <property role="Xl_RC" value="Toggles the visibility of debugging messages in the Instant Refresh tool" />
               </node>
             </node>
           </node>
@@ -1462,6 +1585,47 @@
                 <node concept="Xl_RD" id="2ZZbyE_lBmw" role="37wK5m">
                   <property role="Xl_RC" value="Compile changes after (ms)" />
                 </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="1eLpaFqIXFl" role="3cqZAp">
+          <node concept="2OqwBi" id="1eLpaFqIXFm" role="3clFbG">
+            <node concept="37vLTw" id="1eLpaFqJ0V2" role="2Oq$k0">
+              <ref role="3cqZAo" node="2ZZbyE_lBms" resolve="modelListenerTimeOutLabel" />
+            </node>
+            <node concept="liA8E" id="1eLpaFqIXFo" role="2OqNvi">
+              <ref role="37wK5l" to="dxuu:~JLabel.setIcon(javax.swing.Icon):void" resolve="setIcon" />
+              <node concept="10M0yZ" id="1eLpaFqIXFp" role="37wK5m">
+                <ref role="1PxDUh" to="z2i8:~AllIcons$General" resolve="AllIcons.General" />
+                <ref role="3cqZAo" to="z2i8:~AllIcons$General.Help_small" resolve="Help_small" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="1eLpaFqIXFt" role="3cqZAp">
+          <node concept="2OqwBi" id="1eLpaFqIXFu" role="3clFbG">
+            <node concept="37vLTw" id="1eLpaFqJ1qr" role="2Oq$k0">
+              <ref role="3cqZAo" node="2ZZbyE_lBms" resolve="modelListenerTimeOutLabel" />
+            </node>
+            <node concept="liA8E" id="1eLpaFqIXFw" role="2OqNvi">
+              <ref role="37wK5l" to="dxuu:~JLabel.setHorizontalTextPosition(int):void" resolve="setHorizontalTextPosition" />
+              <node concept="10M0yZ" id="1eLpaFqIXFx" role="37wK5m">
+                <ref role="1PxDUh" to="dxuu:~SwingConstants" resolve="SwingConstants" />
+                <ref role="3cqZAo" to="dxuu:~SwingConstants.LEFT" resolve="LEFT" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="1eLpaFqEHou" role="3cqZAp">
+          <node concept="2OqwBi" id="1eLpaFqEHov" role="3clFbG">
+            <node concept="37vLTw" id="1eLpaFqJ1TN" role="2Oq$k0">
+              <ref role="3cqZAo" node="2ZZbyE_lBms" resolve="modelListenerTimeOutLabel" />
+            </node>
+            <node concept="liA8E" id="1eLpaFqEHox" role="2OqNvi">
+              <ref role="37wK5l" to="dxuu:~JComponent.setToolTipText(java.lang.String):void" resolve="setToolTipText" />
+              <node concept="Xl_RD" id="1eLpaFqEHoy" role="37wK5m">
+                <property role="Xl_RC" value="After this timeout all changes that were made are re-executed" />
               </node>
             </node>
           </node>
