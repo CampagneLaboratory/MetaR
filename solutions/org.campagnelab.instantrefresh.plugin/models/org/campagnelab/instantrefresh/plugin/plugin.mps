@@ -1282,8 +1282,23 @@
             </node>
             <node concept="liA8E" id="1eLpaFqHlNS" role="2OqNvi">
               <ref role="37wK5l" to="dxuu:~JComponent.setToolTipText(java.lang.String):void" resolve="setToolTipText" />
-              <node concept="Xl_RD" id="1eLpaFqHlNT" role="37wK5m">
-                <property role="Xl_RC" value="Toggles the check for errors" />
+              <node concept="3cpWs3" id="1eLpaFqPmgK" role="37wK5m">
+                <node concept="Xl_RD" id="1eLpaFqPmdE" role="3uHU7w">
+                  <property role="Xl_RC" value="&lt;/html&gt;" />
+                </node>
+                <node concept="3cpWs3" id="1eLpaFqPmdy" role="3uHU7B">
+                  <node concept="3cpWs3" id="1eLpaFqPlUC" role="3uHU7B">
+                    <node concept="Xl_RD" id="1eLpaFqPlUI" role="3uHU7B">
+                      <property role="Xl_RC" value="&lt;html&gt;Toggles the check for errors.&lt;br /&gt;" />
+                    </node>
+                    <node concept="Xl_RD" id="1eLpaFqPmdC" role="3uHU7w">
+                      <property role="Xl_RC" value="Error checking consist of checking for incomplete or missing expressions but also of &lt;br /&gt;" />
+                    </node>
+                  </node>
+                  <node concept="Xl_RD" id="1eLpaFqPmHB" role="3uHU7w">
+                    <property role="Xl_RC" value="more advanced checks like incorrect use of statements." />
+                  </node>
+                </node>
               </node>
             </node>
           </node>
@@ -1396,8 +1411,29 @@
             </node>
             <node concept="liA8E" id="1eLpaFqEkdW" role="2OqNvi">
               <ref role="37wK5l" to="dxuu:~JComponent.setToolTipText(java.lang.String):void" resolve="setToolTipText" />
-              <node concept="Xl_RD" id="1eLpaFqEkGc" role="37wK5m">
-                <property role="Xl_RC" value="Toggles the automatic detection and re-execution of changes" />
+              <node concept="3cpWs3" id="1eLpaFqORrP" role="37wK5m">
+                <node concept="Xl_RD" id="1eLpaFqOKrI" role="3uHU7w">
+                  <property role="Xl_RC" value="&lt;/html&gt;" />
+                </node>
+                <node concept="3cpWs3" id="1eLpaFqOKv$" role="3uHU7B">
+                  <node concept="3cpWs3" id="1eLpaFqOLnl" role="3uHU7B">
+                    <node concept="10M0yZ" id="1eLpaFqOLP8" role="3uHU7w">
+                      <ref role="1PxDUh" node="L2v$sdqWOu" resolve="TempNodeCreator" />
+                      <ref role="3cqZAo" node="15COMTmWFQj" resolve="ROOT_NAME" />
+                    </node>
+                    <node concept="3cpWs3" id="1eLpaFqOKrA" role="3uHU7B">
+                      <node concept="Xl_RD" id="1eLpaFqOKrG" role="3uHU7B">
+                        <property role="Xl_RC" value="&lt;html&gt;Enable this option to automatically detect and re-execute changed expressions/statements.&lt;br /&gt;" />
+                      </node>
+                      <node concept="Xl_RD" id="1eLpaFqOKWd" role="3uHU7w">
+                        <property role="Xl_RC" value="The changes are copied to a new node called '" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="Xl_RD" id="1eLpaFqORT1" role="3uHU7w">
+                    <property role="Xl_RC" value="' and then executed." />
+                  </node>
+                </node>
               </node>
             </node>
           </node>
@@ -1510,8 +1546,18 @@
             </node>
             <node concept="liA8E" id="1eLpaFqEGTb" role="2OqNvi">
               <ref role="37wK5l" to="dxuu:~JComponent.setToolTipText(java.lang.String):void" resolve="setToolTipText" />
-              <node concept="Xl_RD" id="1eLpaFqEGTc" role="37wK5m">
-                <property role="Xl_RC" value="Toggles the visibility of debugging messages in the Instant Refresh tool" />
+              <node concept="3cpWs3" id="1eLpaFqOSPS" role="37wK5m">
+                <node concept="Xl_RD" id="1eLpaFqOSM2" role="3uHU7w">
+                  <property role="Xl_RC" value="&lt;/html&gt;" />
+                </node>
+                <node concept="3cpWs3" id="1eLpaFqOSLU" role="3uHU7B">
+                  <node concept="Xl_RD" id="1eLpaFqOSM0" role="3uHU7B">
+                    <property role="Xl_RC" value="&lt;html&gt;Toggles the visibility of additional messages in the Instant Refresh tool.&lt;br /&gt;" />
+                  </node>
+                  <node concept="Xl_RD" id="1eLpaFqOTix" role="3uHU7w">
+                    <property role="Xl_RC" value="They are useful for debugging purposes." />
+                  </node>
+                </node>
               </node>
             </node>
           </node>
@@ -1624,8 +1670,23 @@
             </node>
             <node concept="liA8E" id="1eLpaFqEHox" role="2OqNvi">
               <ref role="37wK5l" to="dxuu:~JComponent.setToolTipText(java.lang.String):void" resolve="setToolTipText" />
-              <node concept="Xl_RD" id="1eLpaFqEHoy" role="37wK5m">
-                <property role="Xl_RC" value="After this timeout all changes that were made are re-executed" />
+              <node concept="3cpWs3" id="1eLpaFqOUxm" role="37wK5m">
+                <node concept="Xl_RD" id="1eLpaFqOUw3" role="3uHU7w">
+                  <property role="Xl_RC" value="&lt;/html&gt;" />
+                </node>
+                <node concept="3cpWs3" id="1eLpaFqOX1R" role="3uHU7B">
+                  <node concept="Xl_RD" id="1eLpaFqOXuA" role="3uHU7w">
+                    <property role="Xl_RC" value="If the timer runs out the changed expressions/statements are re-executed." />
+                  </node>
+                  <node concept="3cpWs3" id="1eLpaFqOUvV" role="3uHU7B">
+                    <node concept="Xl_RD" id="1eLpaFqOUw1" role="3uHU7B">
+                      <property role="Xl_RC" value="&lt;html&gt;After the detection of changed expressions/statements a timer is started.&lt;br /&gt;" />
+                    </node>
+                    <node concept="Xl_RD" id="1eLpaFqOUXZ" role="3uHU7w">
+                      <property role="Xl_RC" value="If more changes are made within the time span that was defined in this setting, the timer is restarted.&lt;br /&gt;" />
+                    </node>
+                  </node>
+                </node>
               </node>
             </node>
           </node>
