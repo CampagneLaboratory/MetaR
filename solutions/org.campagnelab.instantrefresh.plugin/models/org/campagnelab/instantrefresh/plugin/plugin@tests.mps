@@ -206,6 +206,9 @@
       </concept>
     </language>
     <language id="f61473f9-130f-42f6-b98d-6c438812c2f6" name="jetbrains.mps.baseLanguage.unitTest">
+      <concept id="7080278351417106679" name="jetbrains.mps.baseLanguage.unitTest.structure.AssertInNotNull" flags="nn" index="2Hmddi">
+        <child id="7080278351417106681" name="expression" index="2Hmdds" />
+      </concept>
       <concept id="8427750732757990717" name="jetbrains.mps.baseLanguage.unitTest.structure.BinaryAssert" flags="nn" index="3tpDYu">
         <child id="8427750732757990725" name="actual" index="3tpDZA" />
         <child id="8427750732757990724" name="expected" index="3tpDZB" />
@@ -1913,7 +1916,16 @@
       <property role="DiZV1" value="false" />
       <property role="2aFKle" value="false" />
       <node concept="3clFbS" id="1eLpaFpuuv0" role="3clF47">
-        <node concept="3clFbH" id="1eLpaFpuMZe" role="3cqZAp" />
+        <node concept="2Hmddi" id="1eLpaFqiGV$" role="3cqZAp">
+          <node concept="2OqwBi" id="1eLpaFqiHit" role="2Hmdds">
+            <node concept="37vLTw" id="1eLpaFqiHeT" role="2Oq$k0">
+              <ref role="3cqZAo" node="1eLpaFpuux8" resolve="saveSession" />
+            </node>
+            <node concept="2qgKlT" id="1eLpaFqiHFq" role="2OqNvi">
+              <ref role="37wK5l" to="69j5:2xF4TVcGGn0" resolve="getSessionPath" />
+            </node>
+          </node>
+        </node>
         <node concept="3cpWs8" id="1eLpaFpu$Q3" role="3cqZAp">
           <node concept="3cpWsn" id="1eLpaFpu$Q6" role="3cpWs9">
             <property role="TrG5h" value="sessionPath" />
