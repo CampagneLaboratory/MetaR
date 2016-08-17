@@ -667,13 +667,6 @@
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
       <concept id="4222318806802425298" name="jetbrains.mps.lang.core.structure.SuppressErrorsAnnotation" flags="ng" index="15s5l7" />
-      <concept id="709746936026466394" name="jetbrains.mps.lang.core.structure.ChildAttribute" flags="ng" index="3VBwX9">
-        <property id="709746936026609031" name="linkId" index="3V$3ak" />
-        <property id="709746936026609029" name="linkRole" index="3V$3am" />
-      </concept>
-      <concept id="4452961908202556907" name="jetbrains.mps.lang.core.structure.BaseCommentAttribute" flags="ng" index="1X3_iC">
-        <child id="3078666699043039389" name="commentedNode" index="8Wnug" />
-      </concept>
     </language>
     <language id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections">
       <concept id="1204796164442" name="jetbrains.mps.baseLanguage.collections.structure.InternalSequenceOperation" flags="nn" index="23sCx2">
@@ -2965,22 +2958,6 @@
                   </node>
                   <node concept="3clFbJ" id="1e0sE7QYBjJ" role="3cqZAp">
                     <node concept="3clFbS" id="1e0sE7QYBjL" role="3clFbx">
-                      <node concept="1X3_iC" id="1eLpaFpUxs0" role="lGtFl">
-                        <property role="3V$3am" value="statement" />
-                        <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
-                        <node concept="3clFbF" id="1eLpaFpS8H0" role="8Wnug">
-                          <node concept="2OqwBi" id="1eLpaFpS9aA" role="3clFbG">
-                            <node concept="37vLTw" id="1eLpaFpS8GY" role="2Oq$k0">
-                              <ref role="3cqZAo" node="1e0sE7QWPl4" resolve="changelog" />
-                            </node>
-                            <node concept="TSZUe" id="1eLpaFpS9IW" role="2OqNvi">
-                              <node concept="37vLTw" id="1eLpaFpSaqe" role="25WWJ7">
-                                <ref role="3cqZAo" node="3gtMiDCy0nT" resolve="identifierRoot" />
-                              </node>
-                            </node>
-                          </node>
-                        </node>
-                      </node>
                       <node concept="3SKdUt" id="2yvMhGhuHEW" role="3cqZAp">
                         <node concept="3SKdUq" id="2yvMhGhuHEX" role="3SKWNk">
                           <property role="3SKdUp" value="add identifier reference to the changelog if its identifier declaration is a indirectly referenced variable." />
