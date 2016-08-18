@@ -1241,58 +1241,12 @@
             <node concept="2ShNRf" id="1e0sE7OytDv" role="33vP2m">
               <node concept="1pGfFk" id="1e0sE7OytDw" role="2ShVmc">
                 <ref role="37wK5l" to="dxuu:~JLabel.&lt;init&gt;(java.lang.String)" resolve="JLabel" />
-                <node concept="Xl_RD" id="1e0sE7OytDx" role="37wK5m">
-                  <property role="Xl_RC" value="Typesystem check" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="1eLpaFqHJXE" role="3cqZAp">
-          <node concept="2OqwBi" id="1eLpaFqHKGD" role="3clFbG">
-            <node concept="37vLTw" id="1eLpaFqHJXC" role="2Oq$k0">
-              <ref role="3cqZAo" node="1e0sE7OytDt" resolve="typesystemCheckLabel" />
-            </node>
-            <node concept="liA8E" id="1eLpaFqHLoA" role="2OqNvi">
-              <ref role="37wK5l" to="dxuu:~JLabel.setIcon(javax.swing.Icon):void" resolve="setIcon" />
-              <node concept="10M0yZ" id="1eLpaFqHMgc" role="37wK5m">
-                <ref role="1PxDUh" to="z2i8:~AllIcons$General" resolve="AllIcons.General" />
-                <ref role="3cqZAo" to="z2i8:~AllIcons$General.Help_small" resolve="Help_small" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="1eLpaFqIy4Y" role="3cqZAp">
-          <node concept="2OqwBi" id="1eLpaFqIyOk" role="3clFbG">
-            <node concept="37vLTw" id="1eLpaFqIy4W" role="2Oq$k0">
-              <ref role="3cqZAo" node="1e0sE7OytDt" resolve="typesystemCheckLabel" />
-            </node>
-            <node concept="liA8E" id="1eLpaFqI$ZQ" role="2OqNvi">
-              <ref role="37wK5l" to="dxuu:~JLabel.setHorizontalTextPosition(int):void" resolve="setHorizontalTextPosition" />
-              <node concept="10M0yZ" id="1eLpaFqI_Ra" role="37wK5m">
-                <ref role="1PxDUh" to="dxuu:~SwingConstants" resolve="SwingConstants" />
-                <ref role="3cqZAo" to="dxuu:~SwingConstants.LEFT" resolve="LEFT" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="1eLpaFqHlNP" role="3cqZAp">
-          <node concept="2OqwBi" id="1eLpaFqHlNQ" role="3clFbG">
-            <node concept="37vLTw" id="1eLpaFqHmQ8" role="2Oq$k0">
-              <ref role="3cqZAo" node="1e0sE7OytDt" resolve="typesystemCheckLabel" />
-            </node>
-            <node concept="liA8E" id="1eLpaFqHlNS" role="2OqNvi">
-              <ref role="37wK5l" to="dxuu:~JComponent.setToolTipText(java.lang.String):void" resolve="setToolTipText" />
-              <node concept="3cpWs3" id="1vbUObRXIOK" role="37wK5m">
-                <node concept="Xl_RD" id="1eLpaFqPmdE" role="3uHU7w">
-                  <property role="Xl_RC" value="&lt;/html&gt;" />
-                </node>
-                <node concept="3cpWs3" id="1vbUObRXHJl" role="3uHU7B">
-                  <node concept="Xl_RD" id="1vbUObRXGmh" role="3uHU7B">
-                    <property role="Xl_RC" value="&lt;html&gt;If this option is enabled, instant refresh is not executed " />
+                <node concept="3cpWs3" id="1vbUObS2chj" role="37wK5m">
+                  <node concept="Xl_RD" id="1vbUObS2chp" role="3uHU7B">
+                    <property role="Xl_RC" value="&lt;html&gt;&lt;b&gt;Typesystem check&lt;/b&gt; &lt;br /&gt;" />
                   </node>
-                  <node concept="Xl_RD" id="1vbUObRXJh_" role="3uHU7w">
-                    <property role="Xl_RC" value="when the typesystem reports errors for the current node." />
+                  <node concept="Xl_RD" id="1vbUObS2chr" role="3uHU7w">
+                    <property role="Xl_RC" value="If this option is enabled, instant refresh is not executed when the typesystem reports errors for the current node.&lt;/html&gt;" />
                   </node>
                 </node>
               </node>
@@ -1365,69 +1319,33 @@
             <node concept="2ShNRf" id="1e0sE7Ox8b1" role="33vP2m">
               <node concept="1pGfFk" id="1e0sE7Ox8b2" role="2ShVmc">
                 <ref role="37wK5l" to="dxuu:~JLabel.&lt;init&gt;(java.lang.String)" resolve="JLabel" />
-                <node concept="Xl_RD" id="1e0sE7Ox8b3" role="37wK5m">
-                  <property role="Xl_RC" value="Enabled" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="1eLpaFqIX4y" role="3cqZAp">
-          <node concept="2OqwBi" id="1eLpaFqIX4z" role="3clFbG">
-            <node concept="37vLTw" id="1eLpaFqIYuv" role="2Oq$k0">
-              <ref role="3cqZAo" node="1e0sE7Ox8aZ" resolve="isEnabledLabel" />
-            </node>
-            <node concept="liA8E" id="1eLpaFqIX4_" role="2OqNvi">
-              <ref role="37wK5l" to="dxuu:~JLabel.setIcon(javax.swing.Icon):void" resolve="setIcon" />
-              <node concept="10M0yZ" id="1eLpaFqIX4A" role="37wK5m">
-                <ref role="3cqZAo" to="z2i8:~AllIcons$General.Help_small" resolve="Help_small" />
-                <ref role="1PxDUh" to="z2i8:~AllIcons$General" resolve="AllIcons.General" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="1eLpaFqIX4E" role="3cqZAp">
-          <node concept="2OqwBi" id="1eLpaFqIX4F" role="3clFbG">
-            <node concept="37vLTw" id="1eLpaFqIYXN" role="2Oq$k0">
-              <ref role="3cqZAo" node="1e0sE7Ox8aZ" resolve="isEnabledLabel" />
-            </node>
-            <node concept="liA8E" id="1eLpaFqIX4H" role="2OqNvi">
-              <ref role="37wK5l" to="dxuu:~JLabel.setHorizontalTextPosition(int):void" resolve="setHorizontalTextPosition" />
-              <node concept="10M0yZ" id="1eLpaFqIX4I" role="37wK5m">
-                <ref role="1PxDUh" to="dxuu:~SwingConstants" resolve="SwingConstants" />
-                <ref role="3cqZAo" to="dxuu:~SwingConstants.LEFT" resolve="LEFT" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="1eLpaFqEi_S" role="3cqZAp">
-          <node concept="2OqwBi" id="1eLpaFqEjkE" role="3clFbG">
-            <node concept="37vLTw" id="1eLpaFqEly1" role="2Oq$k0">
-              <ref role="3cqZAo" node="1e0sE7Ox8aZ" resolve="isEnabledLabel" />
-            </node>
-            <node concept="liA8E" id="1eLpaFqEkdW" role="2OqNvi">
-              <ref role="37wK5l" to="dxuu:~JComponent.setToolTipText(java.lang.String):void" resolve="setToolTipText" />
-              <node concept="3cpWs3" id="1eLpaFqORrP" role="37wK5m">
-                <node concept="Xl_RD" id="1eLpaFqOKrI" role="3uHU7w">
-                  <property role="Xl_RC" value="&lt;/html&gt;" />
-                </node>
-                <node concept="3cpWs3" id="1eLpaFqOKv$" role="3uHU7B">
-                  <node concept="3cpWs3" id="1eLpaFqOLnl" role="3uHU7B">
-                    <node concept="10M0yZ" id="1eLpaFqOLP8" role="3uHU7w">
-                      <ref role="1PxDUh" node="L2v$sdqWOu" resolve="TempNodeCreator" />
-                      <ref role="3cqZAo" node="15COMTmWFQj" resolve="ROOT_NAME" />
+                <node concept="3cpWs3" id="1vbUObS3SlJ" role="37wK5m">
+                  <node concept="3cpWs3" id="1vbUObS3L2I" role="3uHU7B">
+                    <node concept="3cpWs3" id="1vbUObS3JV2" role="3uHU7B">
+                      <node concept="3cpWs3" id="1vbUObS3ILo" role="3uHU7B">
+                        <node concept="3cpWs3" id="1vbUObS3HEb" role="3uHU7B">
+                          <node concept="Xl_RD" id="1vbUObS3GBO" role="3uHU7B">
+                            <property role="Xl_RC" value="&lt;html&gt;&lt;b&gt;Enabled&lt;/b&gt; &lt;br /&gt;" />
+                          </node>
+                          <node concept="Xl_RD" id="1vbUObS3Ia4" role="3uHU7w">
+                            <property role="Xl_RC" value="Enable this option to automatically detect and re-execute changed expressions/statements.&lt;br /&gt;" />
+                          </node>
+                        </node>
+                        <node concept="Xl_RD" id="1eLpaFqOKWd" role="3uHU7w">
+                          <property role="Xl_RC" value="The changes are copied to a new node called '" />
+                        </node>
+                      </node>
+                      <node concept="10M0yZ" id="1eLpaFqOLP8" role="3uHU7w">
+                        <ref role="3cqZAo" node="15COMTmWFQj" resolve="ROOT_NAME" />
+                        <ref role="1PxDUh" node="L2v$sdqWOu" resolve="TempNodeCreator" />
+                      </node>
                     </node>
-                    <node concept="3cpWs3" id="1eLpaFqOKrA" role="3uHU7B">
-                      <node concept="Xl_RD" id="1eLpaFqOKrG" role="3uHU7B">
-                        <property role="Xl_RC" value="&lt;html&gt;Enable this option to automatically detect and re-execute changed expressions/statements.&lt;br /&gt;" />
-                      </node>
-                      <node concept="Xl_RD" id="1eLpaFqOKWd" role="3uHU7w">
-                        <property role="Xl_RC" value="The changes are copied to a new node called '" />
-                      </node>
+                    <node concept="Xl_RD" id="1vbUObS3SlP" role="3uHU7w">
+                      <property role="Xl_RC" value="' and then executed." />
                     </node>
                   </node>
-                  <node concept="Xl_RD" id="1eLpaFqORT1" role="3uHU7w">
-                    <property role="Xl_RC" value="' and then executed." />
+                  <node concept="Xl_RD" id="1vbUObS3SlR" role="3uHU7w">
+                    <property role="Xl_RC" value="&lt;/html&gt;" />
                   </node>
                 </node>
               </node>
@@ -1500,58 +1418,22 @@
             <node concept="2ShNRf" id="7PqnxC2_uVj" role="33vP2m">
               <node concept="1pGfFk" id="7PqnxC2_uVk" role="2ShVmc">
                 <ref role="37wK5l" to="dxuu:~JLabel.&lt;init&gt;(java.lang.String)" resolve="JLabel" />
-                <node concept="Xl_RD" id="7PqnxC2_uVl" role="37wK5m">
-                  <property role="Xl_RC" value="Debug mode" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="1eLpaFqIXn_" role="3cqZAp">
-          <node concept="2OqwBi" id="1eLpaFqIXnA" role="3clFbG">
-            <node concept="37vLTw" id="1eLpaFqIZt6" role="2Oq$k0">
-              <ref role="3cqZAo" node="7PqnxC2_uVh" resolve="useDebugModeLabel" />
-            </node>
-            <node concept="liA8E" id="1eLpaFqIXnC" role="2OqNvi">
-              <ref role="37wK5l" to="dxuu:~JLabel.setIcon(javax.swing.Icon):void" resolve="setIcon" />
-              <node concept="10M0yZ" id="1eLpaFqIXnD" role="37wK5m">
-                <ref role="3cqZAo" to="z2i8:~AllIcons$General.Help_small" resolve="Help_small" />
-                <ref role="1PxDUh" to="z2i8:~AllIcons$General" resolve="AllIcons.General" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="1eLpaFqIXnH" role="3cqZAp">
-          <node concept="2OqwBi" id="1eLpaFqIXnI" role="3clFbG">
-            <node concept="37vLTw" id="1eLpaFqIZWh" role="2Oq$k0">
-              <ref role="3cqZAo" node="7PqnxC2_uVh" resolve="useDebugModeLabel" />
-            </node>
-            <node concept="liA8E" id="1eLpaFqIXnK" role="2OqNvi">
-              <ref role="37wK5l" to="dxuu:~JLabel.setHorizontalTextPosition(int):void" resolve="setHorizontalTextPosition" />
-              <node concept="10M0yZ" id="1eLpaFqIXnL" role="37wK5m">
-                <ref role="1PxDUh" to="dxuu:~SwingConstants" resolve="SwingConstants" />
-                <ref role="3cqZAo" to="dxuu:~SwingConstants.LEFT" resolve="LEFT" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="1eLpaFqEGT8" role="3cqZAp">
-          <node concept="2OqwBi" id="1eLpaFqEGT9" role="3clFbG">
-            <node concept="37vLTw" id="1eLpaFqJ0rD" role="2Oq$k0">
-              <ref role="3cqZAo" node="7PqnxC2_uVh" resolve="useDebugModeLabel" />
-            </node>
-            <node concept="liA8E" id="1eLpaFqEGTb" role="2OqNvi">
-              <ref role="37wK5l" to="dxuu:~JComponent.setToolTipText(java.lang.String):void" resolve="setToolTipText" />
-              <node concept="3cpWs3" id="1eLpaFqOSPS" role="37wK5m">
-                <node concept="Xl_RD" id="1eLpaFqOSM2" role="3uHU7w">
-                  <property role="Xl_RC" value="&lt;/html&gt;" />
-                </node>
-                <node concept="3cpWs3" id="1eLpaFqOSLU" role="3uHU7B">
-                  <node concept="Xl_RD" id="1eLpaFqOSM0" role="3uHU7B">
-                    <property role="Xl_RC" value="&lt;html&gt;Toggles the visibility of additional messages in the Instant Refresh tool.&lt;br /&gt;" />
+                <node concept="3cpWs3" id="1vbUObS3QXn" role="37wK5m">
+                  <node concept="Xl_RD" id="1vbUObS3RuX" role="3uHU7w">
+                    <property role="Xl_RC" value="&lt;/html&gt;" />
                   </node>
-                  <node concept="Xl_RD" id="1eLpaFqOTix" role="3uHU7w">
-                    <property role="Xl_RC" value="They are useful for debugging purposes." />
+                  <node concept="3cpWs3" id="1vbUObS3Nrk" role="3uHU7B">
+                    <node concept="3cpWs3" id="1vbUObS3Mlm" role="3uHU7B">
+                      <node concept="Xl_RD" id="1vbUObS3GSj" role="3uHU7B">
+                        <property role="Xl_RC" value="&lt;html&gt;&lt;b&gt;Debug mode&lt;/b&gt; &lt;br /&gt;" />
+                      </node>
+                      <node concept="Xl_RD" id="1vbUObS3MOV" role="3uHU7w">
+                        <property role="Xl_RC" value="Toggles the visibility of additional messages in the Instant Refresh tool.&lt;br /&gt;" />
+                      </node>
+                    </node>
+                    <node concept="Xl_RD" id="1eLpaFqOTix" role="3uHU7w">
+                      <property role="Xl_RC" value="They are useful for debugging purposes." />
+                    </node>
                   </node>
                 </node>
               </node>
@@ -1624,63 +1506,27 @@
             <node concept="2ShNRf" id="2ZZbyE_lBmu" role="33vP2m">
               <node concept="1pGfFk" id="2ZZbyE_lBmv" role="2ShVmc">
                 <ref role="37wK5l" to="dxuu:~JLabel.&lt;init&gt;(java.lang.String)" resolve="JLabel" />
-                <node concept="Xl_RD" id="2ZZbyE_lBmw" role="37wK5m">
-                  <property role="Xl_RC" value="Compile changes after (ms)" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="1eLpaFqIXFl" role="3cqZAp">
-          <node concept="2OqwBi" id="1eLpaFqIXFm" role="3clFbG">
-            <node concept="37vLTw" id="1eLpaFqJ0V2" role="2Oq$k0">
-              <ref role="3cqZAo" node="2ZZbyE_lBms" resolve="modelListenerTimeOutLabel" />
-            </node>
-            <node concept="liA8E" id="1eLpaFqIXFo" role="2OqNvi">
-              <ref role="37wK5l" to="dxuu:~JLabel.setIcon(javax.swing.Icon):void" resolve="setIcon" />
-              <node concept="10M0yZ" id="1eLpaFqIXFp" role="37wK5m">
-                <ref role="3cqZAo" to="z2i8:~AllIcons$General.Help_small" resolve="Help_small" />
-                <ref role="1PxDUh" to="z2i8:~AllIcons$General" resolve="AllIcons.General" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="1eLpaFqIXFt" role="3cqZAp">
-          <node concept="2OqwBi" id="1eLpaFqIXFu" role="3clFbG">
-            <node concept="37vLTw" id="1eLpaFqJ1qr" role="2Oq$k0">
-              <ref role="3cqZAo" node="2ZZbyE_lBms" resolve="modelListenerTimeOutLabel" />
-            </node>
-            <node concept="liA8E" id="1eLpaFqIXFw" role="2OqNvi">
-              <ref role="37wK5l" to="dxuu:~JLabel.setHorizontalTextPosition(int):void" resolve="setHorizontalTextPosition" />
-              <node concept="10M0yZ" id="1eLpaFqIXFx" role="37wK5m">
-                <ref role="1PxDUh" to="dxuu:~SwingConstants" resolve="SwingConstants" />
-                <ref role="3cqZAo" to="dxuu:~SwingConstants.LEFT" resolve="LEFT" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="1eLpaFqEHou" role="3cqZAp">
-          <node concept="2OqwBi" id="1eLpaFqEHov" role="3clFbG">
-            <node concept="37vLTw" id="1eLpaFqJ1TN" role="2Oq$k0">
-              <ref role="3cqZAo" node="2ZZbyE_lBms" resolve="modelListenerTimeOutLabel" />
-            </node>
-            <node concept="liA8E" id="1eLpaFqEHox" role="2OqNvi">
-              <ref role="37wK5l" to="dxuu:~JComponent.setToolTipText(java.lang.String):void" resolve="setToolTipText" />
-              <node concept="3cpWs3" id="1eLpaFqOUxm" role="37wK5m">
-                <node concept="Xl_RD" id="1eLpaFqOUw3" role="3uHU7w">
-                  <property role="Xl_RC" value="&lt;/html&gt;" />
-                </node>
-                <node concept="3cpWs3" id="1eLpaFqOX1R" role="3uHU7B">
-                  <node concept="Xl_RD" id="1eLpaFqOXuA" role="3uHU7w">
-                    <property role="Xl_RC" value="If the timer runs out the changed expressions/statements are re-executed." />
+                <node concept="3cpWs3" id="1vbUObS3SwW" role="37wK5m">
+                  <node concept="3cpWs3" id="1vbUObS3Q3_" role="3uHU7B">
+                    <node concept="3cpWs3" id="1vbUObS3Pqf" role="3uHU7B">
+                      <node concept="3cpWs3" id="1vbUObS3OjG" role="3uHU7B">
+                        <node concept="Xl_RD" id="1vbUObS3Hbb" role="3uHU7B">
+                          <property role="Xl_RC" value="&lt;html&gt;&lt;b&gt;Compile changes after (ms)&lt;/b&gt; &lt;br /&gt;" />
+                        </node>
+                        <node concept="Xl_RD" id="1vbUObS3ONq" role="3uHU7w">
+                          <property role="Xl_RC" value="After the detection of changed expressions/statements a timer is started.&lt;br /&gt;" />
+                        </node>
+                      </node>
+                      <node concept="Xl_RD" id="1eLpaFqOUXZ" role="3uHU7w">
+                        <property role="Xl_RC" value="If more changes are made within the time span that was defined in this setting, the timer is restarted.&lt;br /&gt;" />
+                      </node>
+                    </node>
+                    <node concept="Xl_RD" id="1vbUObS3Sx2" role="3uHU7w">
+                      <property role="Xl_RC" value="If the timer runs out the changed expressions/statements are re-executed." />
+                    </node>
                   </node>
-                  <node concept="3cpWs3" id="1eLpaFqOUvV" role="3uHU7B">
-                    <node concept="Xl_RD" id="1eLpaFqOUw1" role="3uHU7B">
-                      <property role="Xl_RC" value="&lt;html&gt;After the detection of changed expressions/statements a timer is started.&lt;br /&gt;" />
-                    </node>
-                    <node concept="Xl_RD" id="1eLpaFqOUXZ" role="3uHU7w">
-                      <property role="Xl_RC" value="If more changes are made within the time span that was defined in this setting, the timer is restarted.&lt;br /&gt;" />
-                    </node>
+                  <node concept="Xl_RD" id="1vbUObS3Sx4" role="3uHU7w">
+                    <property role="Xl_RC" value="&lt;/html&gt;" />
                   </node>
                 </node>
               </node>
