@@ -1283,21 +1283,16 @@
             </node>
             <node concept="liA8E" id="1eLpaFqHlNS" role="2OqNvi">
               <ref role="37wK5l" to="dxuu:~JComponent.setToolTipText(java.lang.String):void" resolve="setToolTipText" />
-              <node concept="3cpWs3" id="1eLpaFqPmgK" role="37wK5m">
+              <node concept="3cpWs3" id="1vbUObRXIOK" role="37wK5m">
                 <node concept="Xl_RD" id="1eLpaFqPmdE" role="3uHU7w">
                   <property role="Xl_RC" value="&lt;/html&gt;" />
                 </node>
-                <node concept="3cpWs3" id="1eLpaFqPmdy" role="3uHU7B">
-                  <node concept="3cpWs3" id="1eLpaFqPlUC" role="3uHU7B">
-                    <node concept="Xl_RD" id="1eLpaFqPlUI" role="3uHU7B">
-                      <property role="Xl_RC" value="&lt;html&gt;Toggles the check for errors.&lt;br /&gt;" />
-                    </node>
-                    <node concept="Xl_RD" id="1eLpaFqPmdC" role="3uHU7w">
-                      <property role="Xl_RC" value="Error checking consist of checking for incomplete or missing expressions but also of &lt;br /&gt;" />
-                    </node>
+                <node concept="3cpWs3" id="1vbUObRXHJl" role="3uHU7B">
+                  <node concept="Xl_RD" id="1vbUObRXGmh" role="3uHU7B">
+                    <property role="Xl_RC" value="&lt;html&gt;If this option is enabled, instant refresh is not executed " />
                   </node>
-                  <node concept="Xl_RD" id="1eLpaFqPmHB" role="3uHU7w">
-                    <property role="Xl_RC" value="more advanced checks like incorrect use of statements." />
+                  <node concept="Xl_RD" id="1vbUObRXJh_" role="3uHU7w">
+                    <property role="Xl_RC" value="when the typesystem reports errors for the current node." />
                   </node>
                 </node>
               </node>
