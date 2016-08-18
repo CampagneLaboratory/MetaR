@@ -3334,18 +3334,6 @@
           <property role="3LESm3" value="fc1e36ca-84ab-465f-88c1-d0e0dc1d7c61" />
           <property role="2GAjPV" value="false" />
         </node>
-        <node concept="1SiIV0" id="6XCvDQz9Pa2" role="3bR37C">
-          <node concept="3bR9La" id="6XCvDQz9Pa3" role="1SiIV1">
-            <property role="3bR36h" value="false" />
-            <ref role="3bR37D" to="ffeo:mXGwHwhVPj" resolve="JDK" />
-          </node>
-        </node>
-        <node concept="1SiIV0" id="6XCvDQz9Pa4" role="3bR37C">
-          <node concept="3bR9La" id="6XCvDQz9Pa5" role="1SiIV1">
-            <property role="3bR36h" value="false" />
-            <ref role="3bR37D" node="3gMg70bRmfh" resolve="org.campagnelab.metar.tables" />
-          </node>
-        </node>
       </node>
       <node concept="1E1JtD" id="GHH7Qccmk4" role="2G$12L">
         <property role="BnDLt" value="true" />
