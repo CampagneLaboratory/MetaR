@@ -22,6 +22,7 @@
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="l5qg" ref="r:c3c8723d-4db5-4e18-902d-1cb272fe4ddf(org.campagnelab.metar.R.gen.structure)" implicit="true" />
     <import index="69j5" ref="r:cc2fd9c1-53e7-4805-a8bc-a07e69f2147b(org.campagnelab.metar.R.behavior)" implicit="true" />
+    <import index="k6y1" ref="r:eeed3f2f-0d6f-41a1-91c7-0fff65bede58(org.campagnelab.instantrefresh.behavior)" implicit="true" />
   </imports>
   <registry>
     <language id="13744753-c81f-424a-9c1b-cf8943bf4e86" name="jetbrains.mps.lang.sharedConcepts">
@@ -3210,6 +3211,32 @@
             <node concept="2Sf5sV" id="1x1IHbNOlBu" role="2Oq$k0" />
             <node concept="2qgKlT" id="1x1IHbNOlOl" role="2OqNvi">
               <ref role="37wK5l" to="69j5:1x1IHbNOliL" resolve="canRemoveNestedIExpressionLists" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2S6QgY" id="1vbUObS6hOf">
+    <property role="TrG5h" value="GenerateNewID" />
+    <property role="2ZfUl0" value="true" />
+    <ref role="2ZfgGC" to="jrxw:7LvyiX4miiC" resolve="Statement" />
+    <node concept="2S6ZIM" id="1vbUObS6hOg" role="2ZfVej">
+      <node concept="3clFbS" id="1vbUObS6hOh" role="2VODD2">
+        <node concept="3clFbF" id="1vbUObS6hOi" role="3cqZAp">
+          <node concept="Xl_RD" id="1vbUObS6hOj" role="3clFbG">
+            <property role="Xl_RC" value="Generate New ID" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2Sbjvc" id="1vbUObS6hOk" role="2ZfgGD">
+      <node concept="3clFbS" id="1vbUObS6hOl" role="2VODD2">
+        <node concept="3clFbF" id="1vbUObS6igj" role="3cqZAp">
+          <node concept="2OqwBi" id="1vbUObS6iiF" role="3clFbG">
+            <node concept="2Sf5sV" id="1vbUObS6igi" role="2Oq$k0" />
+            <node concept="2qgKlT" id="1vbUObS6iov" role="2OqNvi">
+              <ref role="37wK5l" to="k6y1:cisdhLTPr5" resolve="generateNewID" />
             </node>
           </node>
         </node>
