@@ -17,9 +17,18 @@ Extending MetaR
 
 
 In order to extend MetaR with new functionality you can follow these steps:
+<<<<<<< HEAD
 1. Create an empty MPS project (see the first few chapters of the MPS Language Workbench book, available here http://books.campagnelab.org).
 2. Create a new language in this project. Call it anything you like, but make sure to use an inverted domain name prefix (e.g., we use org.campagnelab because our lab owns the campagnelab.org domain). We'll assume you called the new language edu.mydomain.metar.extension.
 3. Add the org.campagnelab.metar.tables language to the new language you created. You should add it in the Dependencies tab of edu.mydomain.metar.extension. Again, see the book preview to learn how to do this. Set the type of dependency as extend (because you want to extend MetaR).
+=======
+
+1. Create an empty MPS project (see the first few chapters of the MPS Language Workbench book, available here http://books.campagnelab.org).
+
+2. Create a new language in this project. Call it anything you like, but make sure to use an inverted domain name prefix (e.g., we use org.campagnelab because our lab owns the campagnelab.org domain). We'll assume you called the new language edu.mydomain.metar.extension.
+
+3. Add the org.campagnelab.metar.tables language to the new language you created. You should add it in the Dependencies tab of edu.mydomain.metar.extension. Again, see the book preview to learn how to do this. Set the type of dependency as extend (because you want to extend MetaR).
+
 4. You are then ready to develop new MPS language concepts that extend those offered by MetaR. The key concept you can extend is org.campagnelab.metar.tables.Statement. See the MetaR documentation (Chapter 11) for a worked example showing how to create a new heatmap statement.
 
 Building from Source
