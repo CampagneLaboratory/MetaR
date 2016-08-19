@@ -153,12 +153,14 @@
     <property role="TrG5h" value="ColonsExpr" />
     <property role="OYydz" value="Colons" />
     <property role="1pbfSe" value="906033034" />
+    <property role="34LRSv" value="::" />
     <ref role="1TJDcQ" node="5qM9mr9JOd5" resolve="BinaryOperatorExpr" />
   </node>
   <node concept="1TIwiD" id="5mPDeVwiPat">
     <property role="TrG5h" value="DollarExpr" />
     <property role="OYydz" value="Dollar" />
     <property role="1pbfSe" value="906033035" />
+    <property role="34LRSv" value="$" />
     <ref role="1TJDcQ" node="5qM9mr9JOd5" resolve="BinaryOperatorExpr" />
     <node concept="PrWs8" id="1FArU_j7jF_" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
@@ -206,12 +208,14 @@
     <property role="TrG5h" value="MultiplicationExpr" />
     <property role="OYydz" value="Multiplication" />
     <property role="1pbfSe" value="906033040" />
+    <property role="34LRSv" value="*" />
     <ref role="1TJDcQ" node="5qM9mr9JOd5" resolve="BinaryOperatorExpr" />
   </node>
   <node concept="1TIwiD" id="5mPDeVwiPaz">
     <property role="TrG5h" value="AdditionExpr" />
     <property role="OYydz" value="Addition" />
     <property role="1pbfSe" value="906033041" />
+    <property role="34LRSv" value="+" />
     <ref role="1TJDcQ" node="5qM9mr9JOd5" resolve="BinaryOperatorExpr" />
   </node>
   <node concept="1TIwiD" id="5mPDeVwiPa$">
@@ -426,6 +430,7 @@
     <property role="TrG5h" value="HelpExpr" />
     <property role="OYydz" value="help" />
     <property role="1pbfSe" value="906033057" />
+    <property role="34LRSv" value="?" />
     <ref role="1TJDcQ" node="5mPDeVwiPap" resolve="Expr" />
     <node concept="1TJgyj" id="1_qnSjm34RR" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -530,24 +535,28 @@
     <property role="TrG5h" value="NullExpr" />
     <property role="OYydz" value="Null" />
     <property role="1pbfSe" value="906033067" />
+    <property role="34LRSv" value="NULL" />
     <ref role="1TJDcQ" node="5mPDeVwiPap" resolve="Expr" />
   </node>
   <node concept="1TIwiD" id="5mPDeVwiPaY">
     <property role="TrG5h" value="NAExpr" />
     <property role="OYydz" value="NA" />
     <property role="1pbfSe" value="906033068" />
+    <property role="34LRSv" value="NA" />
     <ref role="1TJDcQ" node="5mPDeVwiPap" resolve="Expr" />
   </node>
   <node concept="1TIwiD" id="5mPDeVwiPaZ">
     <property role="TrG5h" value="InfExpr" />
     <property role="OYydz" value="Inf" />
     <property role="1pbfSe" value="906033069" />
+    <property role="34LRSv" value="Inf" />
     <ref role="1TJDcQ" node="5mPDeVwiPap" resolve="Expr" />
   </node>
   <node concept="1TIwiD" id="5mPDeVwiPb0">
     <property role="TrG5h" value="NaNExpr" />
     <property role="OYydz" value="NaN" />
     <property role="1pbfSe" value="906033070" />
+    <property role="34LRSv" value="NaN" />
     <ref role="1TJDcQ" node="5mPDeVwiPap" resolve="Expr" />
   </node>
   <node concept="1TIwiD" id="5mPDeVwiPb1">
