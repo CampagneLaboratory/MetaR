@@ -1023,9 +1023,6 @@
             <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
             <ref role="1k5W1q" node="48xyd$eBO3v" resolve="IdentifierRef" />
             <ref role="34QXea" node="48xyd$eSg7b" resolve="FunctionCallExprKeyMap" />
-            <node concept="VPxyj" id="r9xlU5D4iU" role="3F10Kt">
-              <property role="VOm3f" value="false" />
-            </node>
             <node concept="OXEIz" id="48xyd$eQRjK" role="P5bDN" />
           </node>
         </node>
