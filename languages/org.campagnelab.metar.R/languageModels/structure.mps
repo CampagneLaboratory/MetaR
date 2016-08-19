@@ -1288,6 +1288,7 @@
   <node concept="1TIwiD" id="4KQKRH2qei2">
     <property role="1pbfSe" value="1902139395" />
     <property role="TrG5h" value="ColonExpr" />
+    <property role="34LRSv" value=":" />
     <ref role="1TJDcQ" node="5qM9mr9JOd5" resolve="BinaryOperatorExpr" />
   </node>
   <node concept="1TIwiD" id="1e0sE7PoAUb">
