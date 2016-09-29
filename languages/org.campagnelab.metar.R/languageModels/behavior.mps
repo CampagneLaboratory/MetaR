@@ -111,7 +111,7 @@
         <child id="1068580123161" name="ifTrue" index="3clFbx" />
         <child id="1206060520071" name="elsifClauses" index="3eNLev" />
       </concept>
-      <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" index="3clFbS">
+      <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
       </concept>
       <concept id="1068580123137" name="jetbrains.mps.baseLanguage.structure.BooleanConstant" flags="nn" index="3clFbT">
@@ -3643,26 +3643,6 @@
               <node concept="3TrcHB" id="7tPuoi13MTY" role="2OqNvi">
                 <ref role="3TsBF5" to="6q58:4KQKRH2qvQM" resolve="keyword" />
               </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
-  <node concept="13h7C7" id="6Yd7nhS$zOn">
-    <ref role="13h7C2" to="6q58:5mPDeVwiJFd" resolve="Prog" />
-    <node concept="13hLZK" id="6Yd7nhS$zOo" role="13h7CW">
-      <node concept="3clFbS" id="6Yd7nhS$zOp" role="2VODD2">
-        <node concept="3clFbF" id="6Yd7nhS$zOr" role="3cqZAp">
-          <node concept="2OqwBi" id="6Yd7nhS$$Li" role="3clFbG">
-            <node concept="2OqwBi" id="6Yd7nhS$$be" role="2Oq$k0">
-              <node concept="13iPFW" id="6Yd7nhS$zOq" role="2Oq$k0" />
-              <node concept="3Tsc0h" id="6Yd7nhS$$sL" role="2OqNvi">
-                <ref role="3TtcxE" to="6q58:14grA08Vlmy" />
-              </node>
-            </node>
-            <node concept="2DeJg1" id="6Yd7nhS$BK$" role="2OqNvi">
-              <ref role="1A0vxQ" to="6q58:P5JL27bo7k" resolve="EmptyExpr" />
             </node>
           </node>
         </node>
