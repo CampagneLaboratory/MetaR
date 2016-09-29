@@ -965,7 +965,10 @@
     <node concept="1TJgyi" id="7LvyiX4miiD" role="1TKVEl">
       <property role="TrG5h" value="id" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-      <node concept="asaX9" id="16Z5RhQV1jW" role="lGtFl" />
+      <node concept="asaX9" id="16Z5RhQV1jW" role="lGtFl">
+        <property role="YLQ7P" value="Use IAtomic.ID instead" />
+        <property role="YLPcu" value="2.0.0" />
+      </node>
     </node>
     <node concept="PrWs8" id="7LvyiX4miiE" role="PzmwI">
       <ref role="PrY4T" node="7LvyiX4miiF" resolve="StatementDependencies" />
