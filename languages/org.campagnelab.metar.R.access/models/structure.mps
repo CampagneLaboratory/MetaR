@@ -14,9 +14,9 @@
   <registry>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
+        <property id="6714410169261853888" name="conceptId" index="EcuMT" />
         <property id="4628067390765907488" name="conceptShortDescription" index="R4oN_" />
         <property id="5092175715804935370" name="conceptAlias" index="34LRSv" />
-        <property id="1587916991969465369" name="conceptId" index="1pbfSe" />
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
       </concept>
       <concept id="1071489090640" name="jetbrains.mps.lang.structure.structure.ConceptDeclaration" flags="ig" index="1TIwiD">
@@ -26,6 +26,7 @@
         <property id="1071599776563" name="role" index="20kJfa" />
         <property id="1071599893252" name="sourceCardinality" index="20lbJX" />
         <property id="1071599937831" name="metaClass" index="20lmBu" />
+        <property id="241647608299431140" name="linkId" index="IQ2ns" />
         <reference id="1071599976176" name="target" index="20lvS9" />
       </concept>
     </language>
@@ -38,12 +39,13 @@
   <node concept="1TIwiD" id="1e1bwEALdL4">
     <property role="TrG5h" value="ExposedTable" />
     <property role="R4oN_" value="a generated Table" />
-    <property role="1pbfSe" value="1169814962" />
+    <property role="EcuMT" value="1405455181998775364" />
     <ref role="1TJDcQ" to="6q58:5mPDeVwiPaR" resolve="Identifier" />
     <node concept="1TJgyj" id="1e1bwEBY62I" role="1TKVEi">
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="table" />
       <property role="20lbJX" value="1" />
+      <property role="IQ2ns" value="1405455182018928814" />
       <ref role="20lvS9" to="jrxw:2WRhvFto5F5" resolve="FutureTable" />
     </node>
   </node>
@@ -51,30 +53,33 @@
     <property role="TrG5h" value="ExposedColumn" />
     <property role="R4oN_" value="refer to a column" />
     <property role="34LRSv" value="$" />
-    <property role="1pbfSe" value="1715824394" />
+    <property role="EcuMT" value="4878268351238000594" />
     <ref role="1TJDcQ" to="6q58:5mPDeVwiPaR" resolve="Identifier" />
     <node concept="1TJgyj" id="4eN5Nwy$_eu" role="1TKVEi">
       <property role="20lmBu" value="reference" />
       <property role="20lbJX" value="1" />
       <property role="20kJfa" value="column" />
+      <property role="IQ2ns" value="4878268351238001566" />
       <ref role="20lvS9" to="ztlb:1UijAvvb9DJ" resolve="Column" />
     </node>
     <node concept="1TJgyj" id="7vFZP$95Chx" role="1TKVEi">
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="futureTable" />
       <property role="20lbJX" value="1" />
+      <property role="IQ2ns" value="8641281067910071393" />
       <ref role="20lvS9" to="jrxw:2WRhvFto5F5" resolve="FutureTable" />
     </node>
   </node>
   <node concept="1TIwiD" id="1e1bwEAoGG1">
     <property role="TrG5h" value="FilterWithIdsFromIdentifierinR" />
     <property role="34LRSv" value="from a R identifier" />
-    <property role="1pbfSe" value="1176241909" />
+    <property role="EcuMT" value="1405455181992348417" />
     <ref role="1TJDcQ" to="c07g:pr6WGEr6yC" resolve="FilterWithIds" />
     <node concept="1TJgyj" id="1jge5x_A4_z" role="1TKVEi">
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="id" />
       <property role="20lbJX" value="0..1" />
+      <property role="IQ2ns" value="1499760628227131747" />
       <ref role="20lvS9" to="6q58:5mPDeVwiPaR" resolve="Identifier" />
     </node>
   </node>

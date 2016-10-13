@@ -11,11 +11,11 @@
   <registry>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
+        <property id="6714410169261853888" name="conceptId" index="EcuMT" />
         <property id="4628067390765907488" name="conceptShortDescription" index="R4oN_" />
         <property id="4628067390765956807" name="final" index="R5$K2" />
         <property id="4628067390765956802" name="abstract" index="R5$K7" />
         <property id="5092175715804935370" name="conceptAlias" index="34LRSv" />
-        <property id="1587916991969465369" name="conceptId" index="1pbfSe" />
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
         <child id="1071489727084" name="propertyDeclaration" index="1TKVEl" />
       </concept>
@@ -32,12 +32,14 @@
         <child id="1169129564478" name="implements" index="PzmwI" />
       </concept>
       <concept id="1071489288299" name="jetbrains.mps.lang.structure.structure.PropertyDeclaration" flags="ig" index="1TJgyi">
+        <property id="241647608299431129" name="propertyId" index="IQ2nx" />
         <reference id="1082985295845" name="dataType" index="AX2Wp" />
       </concept>
       <concept id="1071489288298" name="jetbrains.mps.lang.structure.structure.LinkDeclaration" flags="ig" index="1TJgyj">
         <property id="1071599776563" name="role" index="20kJfa" />
         <property id="1071599893252" name="sourceCardinality" index="20lbJX" />
         <property id="1071599937831" name="metaClass" index="20lmBu" />
+        <property id="241647608299431140" name="linkId" index="IQ2ns" />
         <reference id="1071599976176" name="target" index="20lvS9" />
       </concept>
     </language>
@@ -52,10 +54,11 @@
   </registry>
   <node concept="PlHQZ" id="4FCgsrOfk9w">
     <property role="TrG5h" value="UseStyle" />
-    <property role="1pbfSe" value="1059423270" />
+    <property role="EcuMT" value="5397636476160524896" />
     <node concept="1TJgyj" id="32mm9410GdM" role="1TKVEi">
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="useStyle" />
+      <property role="IQ2ns" value="3501083140137599858" />
       <ref role="20lvS9" node="4FCgsrOfsVe" resolve="StyleContainer" />
     </node>
   </node>
@@ -64,12 +67,13 @@
     <property role="19KtqR" value="true" />
     <property role="MwhBj" value="${module}/icons/styles-2.png" />
     <property role="34LRSv" value="Style" />
-    <property role="1pbfSe" value="1059459220" />
+    <property role="EcuMT" value="5397636476160560846" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="4FCgsrOgnEU" role="1TKVEi">
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="extends" />
       <property role="20lbJX" value="0..1" />
+      <property role="IQ2ns" value="5397636476160801466" />
       <ref role="20lvS9" node="4FCgsrOfsVe" resolve="StyleContainer" />
     </node>
     <node concept="PrWs8" id="4FCgsrOfsVf" role="PzmwI">
@@ -79,13 +83,14 @@
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="elements" />
       <property role="20lbJX" value="0..n" />
+      <property role="IQ2ns" value="5397636476160567172" />
       <ref role="20lvS9" node="4FCgsrOfuu0" resolve="StyleElement" />
     </node>
   </node>
   <node concept="PlHQZ" id="4FCgsrOfuu0">
     <property role="TrG5h" value="StyleElement" />
     <property role="3GE5qa" value="" />
-    <property role="1pbfSe" value="1059465542" />
+    <property role="EcuMT" value="5397636476160567168" />
     <node concept="PrWs8" id="4FCgsrOfuu1" role="PrDN$">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
@@ -94,21 +99,21 @@
     <property role="TrG5h" value="XLabel" />
     <property role="34LRSv" value="X label" />
     <property role="3GE5qa" value="elements.strings" />
-    <property role="1pbfSe" value="1062135957" />
+    <property role="EcuMT" value="5397636476163237583" />
     <ref role="1TJDcQ" node="4FCgsrO$58w" resolve="StringStyleClass" />
   </node>
   <node concept="1TIwiD" id="4FCgsrOzJDD">
     <property role="TrG5h" value="YLabel" />
     <property role="34LRSv" value="Y label" />
     <property role="3GE5qa" value="elements.strings" />
-    <property role="1pbfSe" value="1064778799" />
+    <property role="EcuMT" value="5397636476165880425" />
     <ref role="1TJDcQ" node="4FCgsrO$58w" resolve="StringStyleClass" />
   </node>
   <node concept="1TIwiD" id="4FCgsrO$3l6">
     <property role="3GE5qa" value="elements.strings" />
     <property role="TrG5h" value="Title" />
     <property role="34LRSv" value="Title" />
-    <property role="1pbfSe" value="1064859404" />
+    <property role="EcuMT" value="5397636476165961030" />
     <ref role="1TJDcQ" node="4FCgsrO$58w" resolve="StringStyleClass" />
   </node>
   <node concept="1TIwiD" id="4FCgsrO$58w">
@@ -116,10 +121,11 @@
     <property role="TrG5h" value="StringStyleClass" />
     <property role="R5$K7" value="true" />
     <property role="R5$K2" value="false" />
-    <property role="1pbfSe" value="1064866790" />
+    <property role="EcuMT" value="5397636476165968416" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="4FCgsrO$58x" role="1TKVEl">
       <property role="TrG5h" value="value" />
+      <property role="IQ2nx" value="5397636476165968417" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
     <node concept="PrWs8" id="4FCgsrO$5ar" role="PzmwI">
@@ -131,14 +137,16 @@
     <property role="TrG5h" value="RangeStyleClass" />
     <property role="R5$K7" value="true" />
     <property role="R5$K2" value="false" />
-    <property role="1pbfSe" value="1064912537" />
+    <property role="EcuMT" value="5397636476166014163" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="4FCgsrO$i5Y" role="1TKVEl">
       <property role="TrG5h" value="min" />
+      <property role="IQ2nx" value="5397636476166021502" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
     <node concept="1TJgyi" id="4FCgsrO$i5Z" role="1TKVEl">
       <property role="TrG5h" value="max" />
+      <property role="IQ2nx" value="5397636476166021503" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
     <node concept="PrWs8" id="4FCgsrO$i5O" role="PzmwI">
@@ -149,14 +157,14 @@
     <property role="3GE5qa" value="elements.ranges" />
     <property role="TrG5h" value="XRange" />
     <property role="34LRSv" value="X range" />
-    <property role="1pbfSe" value="1064973083" />
+    <property role="EcuMT" value="5397636476166074709" />
     <ref role="1TJDcQ" node="4FCgsrO$gjj" resolve="RangeStyleClass" />
   </node>
   <node concept="1TIwiD" id="4FCgsrO$wBa">
     <property role="3GE5qa" value="elements.ranges" />
     <property role="TrG5h" value="YRange" />
     <property role="34LRSv" value="Y range" />
-    <property role="1pbfSe" value="1064979344" />
+    <property role="EcuMT" value="5397636476166080970" />
     <ref role="1TJDcQ" node="4FCgsrO$gjj" resolve="RangeStyleClass" />
   </node>
   <node concept="1TIwiD" id="32mm940cvTX">
@@ -164,13 +172,14 @@
     <property role="TrG5h" value="IntegerStyleClass" />
     <property role="R5$K7" value="true" />
     <property role="R5$K2" value="false" />
-    <property role="1pbfSe" value="818435854" />
+    <property role="EcuMT" value="3501083140123917949" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="32mm940cvV5" role="PzmwI">
       <ref role="PrY4T" node="4FCgsrOfuu0" resolve="StyleElement" />
     </node>
     <node concept="1TJgyi" id="32mm940cvV7" role="1TKVEl">
       <property role="TrG5h" value="value" />
+      <property role="IQ2nx" value="3501083140123918023" />
       <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
     </node>
   </node>
@@ -178,34 +187,37 @@
     <property role="3GE5qa" value="elements.ints" />
     <property role="TrG5h" value="Width" />
     <property role="34LRSv" value="Width" />
-    <property role="1pbfSe" value="818441911" />
+    <property role="EcuMT" value="3501083140123924006" />
     <ref role="1TJDcQ" node="32mm940cvTX" resolve="IntegerStyleClass" />
   </node>
   <node concept="1TIwiD" id="32mm940c_rd">
     <property role="3GE5qa" value="elements.ints" />
     <property role="TrG5h" value="Height" />
     <property role="34LRSv" value="Height" />
-    <property role="1pbfSe" value="818458462" />
+    <property role="EcuMT" value="3501083140123940557" />
     <ref role="1TJDcQ" node="32mm940cvTX" resolve="IntegerStyleClass" />
   </node>
   <node concept="1TIwiD" id="20o901rbdSG">
     <property role="3GE5qa" value="elements.colors" />
     <property role="TrG5h" value="Color" />
     <property role="34LRSv" value="Color" />
-    <property role="1pbfSe" value="2068120108" />
+    <property role="EcuMT" value="2312637992603016748" />
     <ref role="1TJDcQ" node="3i6SF3pDNRT" resolve="ColorStyleClass" />
     <node concept="1TJgyi" id="1xsIq4ftsG" role="1TKVEl">
       <property role="TrG5h" value="select" />
+      <property role="IQ2nx" value="27429407127623468" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
     <node concept="1TJgyj" id="1xsIq49QWT" role="1TKVEi">
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="byName" />
+      <property role="IQ2ns" value="27429407126155065" />
       <ref role="20lvS9" node="1xsIq45q0b" resolve="ColorValueByName" />
     </node>
     <node concept="1TJgyj" id="1xsIq48QYb" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="bYRGB" />
+      <property role="IQ2ns" value="27429407125893003" />
       <ref role="20lvS9" node="1xsIq44BOF" resolve="ColorValueByRGB" />
     </node>
   </node>
@@ -214,7 +226,7 @@
     <property role="TrG5h" value="ColorValue" />
     <property role="R5$K2" value="false" />
     <property role="R5$K7" value="true" />
-    <property role="1pbfSe" value="2068121178" />
+    <property role="EcuMT" value="2312637992603017818" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="20o901rp02H" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
@@ -224,7 +236,7 @@
     <property role="3GE5qa" value="elements.ints" />
     <property role="TrG5h" value="PixelsPerInch" />
     <property role="34LRSv" value="Pixels per inch" />
-    <property role="1pbfSe" value="836388725" />
+    <property role="EcuMT" value="3501083140141870820" />
     <ref role="1TJDcQ" node="32mm940cvTX" resolve="IntegerStyleClass" />
   </node>
   <node concept="1TIwiD" id="3i6SF3pDNRT">
@@ -232,7 +244,7 @@
     <property role="TrG5h" value="ColorStyleClass" />
     <property role="R5$K7" value="true" />
     <property role="R5$K2" value="false" />
-    <property role="1pbfSe" value="237904041" />
+    <property role="EcuMT" value="3784961786045218297" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="3i6SF3pDNSp" role="PzmwI">
       <ref role="PrY4T" node="4FCgsrOfuu0" resolve="StyleElement" />
@@ -243,7 +255,7 @@
     <property role="TrG5h" value="ColorValueByRGB" />
     <property role="34LRSv" value="#" />
     <property role="R4oN_" value="#RRGGBB" />
-    <property role="1pbfSe" value="2072776687" />
+    <property role="EcuMT" value="27429407124782379" />
     <ref role="1TJDcQ" node="20o901rbe9q" resolve="ColorValue" />
   </node>
   <node concept="1TIwiD" id="1xsIq45q0b">
@@ -252,7 +264,7 @@
     <property role="19KtqR" value="true" />
     <property role="34LRSv" value="Color by Name" />
     <property role="MwhBj" value="${module}/icons/color.png" />
-    <property role="1pbfSe" value="2072571151" />
+    <property role="EcuMT" value="27429407124987915" />
     <ref role="1TJDcQ" node="20o901rbe9q" resolve="ColorValue" />
   </node>
   <node concept="1TIwiD" id="1xsIq45ZRi">
@@ -261,12 +273,13 @@
     <property role="19KtqR" value="true" />
     <property role="34LRSv" value="Color Palette" />
     <property role="MwhBj" value="${module}/icons/palette.png" />
-    <property role="1pbfSe" value="2072416072" />
+    <property role="EcuMT" value="27429407125142994" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="1xsIq45ZRl" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="colors" />
       <property role="20lbJX" value="0..n" />
+      <property role="IQ2ns" value="27429407125142997" />
       <ref role="20lvS9" node="20o901rbdSG" resolve="Color" />
     </node>
     <node concept="PrWs8" id="1xsIq4iKmL" role="PzmwI">
@@ -277,11 +290,12 @@
     <property role="3GE5qa" value="elements.colors" />
     <property role="TrG5h" value="ColorPaletteRef" />
     <property role="34LRSv" value="Color palette" />
-    <property role="1pbfSe" value="2069071716" />
+    <property role="EcuMT" value="27429407128487350" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="1xsIq4iKmT" role="1TKVEi">
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="palette" />
+      <property role="IQ2ns" value="27429407128487353" />
       <ref role="20lvS9" node="1xsIq45ZRi" resolve="ColorPalette" />
     </node>
     <node concept="PrWs8" id="1xsIq4iKmR" role="PzmwI">
@@ -293,10 +307,11 @@
     <property role="TrG5h" value="BooleanStyleClass" />
     <property role="R5$K7" value="true" />
     <property role="R5$K2" value="false" />
-    <property role="1pbfSe" value="1507149100" />
+    <property role="EcuMT" value="2742007948273068321" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="2od$re07iA1" role="1TKVEl">
       <property role="TrG5h" value="value" />
+      <property role="IQ2nx" value="2742007948273068417" />
       <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
     </node>
     <node concept="PrWs8" id="2od$re07i_Z" role="PzmwI">
@@ -307,14 +322,14 @@
     <property role="3GE5qa" value="elements.booleans" />
     <property role="TrG5h" value="DrawBorder" />
     <property role="34LRSv" value="Draw border" />
-    <property role="1pbfSe" value="1507141626" />
+    <property role="EcuMT" value="2742007948273075795" />
     <ref role="1TJDcQ" node="2od$re07i$x" resolve="BooleanStyleClass" />
   </node>
   <node concept="1TIwiD" id="2od$re0qni_">
     <property role="3GE5qa" value="elements.colors" />
     <property role="TrG5h" value="BorderColor" />
     <property role="34LRSv" value="Border color" />
-    <property role="1pbfSe" value="1502149032" />
+    <property role="EcuMT" value="2742007948278068389" />
     <ref role="1TJDcQ" node="20o901rbdSG" resolve="Color" />
   </node>
 </model>

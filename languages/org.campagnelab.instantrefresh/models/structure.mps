@@ -19,7 +19,7 @@
         <child id="7588428831947959310" name="attributed" index="EQaZv" />
       </concept>
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
-        <property id="1587916991969465369" name="conceptId" index="1pbfSe" />
+        <property id="6714410169261853888" name="conceptId" index="EcuMT" />
         <child id="1071489727084" name="propertyDeclaration" index="1TKVEl" />
       </concept>
       <concept id="1169125989551" name="jetbrains.mps.lang.structure.structure.InterfaceConceptDeclaration" flags="ig" index="PlHQZ" />
@@ -27,6 +27,7 @@
         <reference id="1071489389519" name="extends" index="1TJDcQ" />
       </concept>
       <concept id="1071489288299" name="jetbrains.mps.lang.structure.structure.PropertyDeclaration" flags="ig" index="1TJgyi">
+        <property id="241647608299431129" name="propertyId" index="IQ2nx" />
         <reference id="1082985295845" name="dataType" index="AX2Wp" />
       </concept>
     </language>
@@ -40,24 +41,25 @@
     </language>
   </registry>
   <node concept="PlHQZ" id="15COMTnnsmm">
-    <property role="1pbfSe" value="1757845700" />
     <property role="TrG5h" value="IAtomic" />
+    <property role="EcuMT" value="1254484692210402710" />
     <node concept="1TJgyi" id="cisdhLTP2K" role="1TKVEl">
       <property role="TrG5h" value="ID" />
+      <property role="IQ2nx" value="221363389440938160" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
   </node>
   <node concept="PlHQZ" id="3lASLmo9rqd">
-    <property role="1pbfSe" value="846423646" />
     <property role="TrG5h" value="IIgnoreChanges" />
+    <property role="EcuMT" value="3848012613521094285" />
   </node>
   <node concept="PlHQZ" id="15COMTn5xlQ">
-    <property role="1pbfSe" value="1753147556" />
     <property role="TrG5h" value="IHasReferenceableChildren" />
+    <property role="EcuMT" value="1254484692205704566" />
   </node>
   <node concept="1TIwiD" id="1eLpaFqjFzM">
-    <property role="1pbfSe" value="301982308" />
     <property role="TrG5h" value="IgnoredPropertyAttribute" />
+    <property role="EcuMT" value="1419026042568227058" />
     <ref role="1TJDcQ" to="tpck:2ULFgo8_XDk" resolve="NodeAttribute" />
     <node concept="M6xJ_" id="1eLpaFqjFzN" role="lGtFl">
       <property role="Hh88m" value="ignoredChange" />
