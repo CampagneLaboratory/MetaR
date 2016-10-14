@@ -14,7 +14,7 @@
     <import index="ffeo" ref="r:874d959d-e3b4-4d04-b931-ca849af130dd(jetbrains.mps.ide.build)" />
     <import index="nr1s" ref="r:41c5e6e6-d21c-4739-aa05-3b0328c9486c(org.campagnelab.build.TextOutput)" />
     <import index="ael0" ref="r:cc7a346d-c5cf-4c03-b1fd-d5006736ae3a(org.campagnelab.build.UI)" />
-    <import index="9b59" ref="f4badde6-d2fb-4344-91d3-caedb26a938e/r:d2c1095a-594a-4ff4-97d7-a186cca5ed85(XChart.build/XChart.build)" />
+    <import index="9b59" ref="r:d2c1095a-594a-4ff4-97d7-a186cca5ed85(XChart.build)" />
     <import index="hc0n" ref="r:4f291851-4a14-4a46-acdb-b3df285248df(ANTLR.persistence.build)" />
     <import index="t9i9" ref="r:006098bf-146e-48ca-a752-e9a7c66a9eb3(org.campagnelab.build.NYoSh)" />
   </imports>
@@ -199,8 +199,8 @@
       <node concept="55IIr" id="3gMg70bWjqP" role="398pKh">
         <node concept="2Ry0Ak" id="3gMg70bWjqR" role="iGT6I">
           <property role="2Ry0Am" value=".." />
-          <node concept="2Ry0Ak" id="3gMg70bWjqV" role="2Ry0An">
-            <property role="2Ry0Am" value="NYoSh" />
+          <node concept="2Ry0Ak" id="4hXJ$8I9RMc" role="2Ry0An">
+            <property role="2Ry0Am" value="nyosh.core" />
           </node>
         </node>
       </node>
@@ -273,7 +273,7 @@
           <property role="2Ry0Am" value="build" />
           <node concept="2Ry0Ak" id="7OkpSXK7hSf" role="2Ry0An">
             <property role="2Ry0Am" value="artifacts" />
-            <node concept="2Ry0Ak" id="7OkpSXKgMRW" role="2Ry0An">
+            <node concept="2Ry0Ak" id="4hXJ$8Ib5g_" role="2Ry0An">
               <property role="2Ry0Am" value="org.campagnelab.mps.UI" />
             </node>
           </node>
@@ -489,7 +489,7 @@
           <ref role="398BVh" node="3gMg70bRmeX" resolve="org.campagnelab.goby.workbench.home" />
           <node concept="2Ry0Ak" id="7OkpSXK0npw" role="iGT6I">
             <property role="2Ry0Am" value="icons" />
-            <node concept="2Ry0Ak" id="7OkpSXK0np$" role="2Ry0An">
+            <node concept="2Ry0Ak" id="4hXJ$8I9RQy" role="2Ry0An">
               <property role="2Ry0Am" value="MPS16.png" />
             </node>
           </node>
