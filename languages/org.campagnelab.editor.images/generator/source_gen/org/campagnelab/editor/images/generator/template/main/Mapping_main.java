@@ -19,11 +19,11 @@ import jetbrains.mps.generator.runtime.GenerationException;
 import jetbrains.mps.generator.runtime.TemplateExecutionEnvironment;
 
 @Generated
-public class Mappingmain extends MapConfigBase implements TemplateMappingConfiguration {
+public class Mapping_main extends MapConfigBase implements TemplateMappingConfiguration {
   private final Collection<TemplateReductionRule> rules;
-  public Mappingmain(@NotNull TemplateModel model) {
+  public Mapping_main(@NotNull TemplateModel model) {
     super(new SNodePointer("r:4d30284c-d4f6-4b68-8efd-29ee046f3381(org.campagnelab.editor.images.generator.template.main@generator)", "5058245606295170995"), "main", model, false);
-    rules = TemplateUtil.<TemplateReductionRule>asCollection(new Mappingmain.ReductionRule0());
+    rules = TemplateUtil.<TemplateReductionRule>asCollection(new Mapping_main.ReductionRule0());
   }
   @Override
   public Collection<TemplateReductionRule> getReductionRules() {
@@ -37,7 +37,7 @@ public class Mappingmain extends MapConfigBase implements TemplateMappingConfigu
     public Collection<SNode> apply(@NotNull final TemplateContext context) throws GenerationException {
       final TemplateExecutionEnvironment environment = context.getEnvironment();
       Collection<SNode> tlist1 = null;
-      tlist1 = new Templatereduce__image().apply(environment, context);
+      tlist1 = new Template_reduce_image().apply(environment, context);
       return tlist1;
     }
   }

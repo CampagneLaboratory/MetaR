@@ -3,7 +3,6 @@
   <persistence version="9" />
   <languages>
     <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="3" />
-    <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
     <import index="tpc5" ref="r:00000000-0000-4000-0000-011c89590299(jetbrains.mps.lang.editor.editor)" />
@@ -71,7 +70,7 @@
         </node>
         <node concept="3F1sOY" id="37EhXvtG_Fk" role="3EZMnx">
           <property role="1$x2rV" value="&lt;no image provider&gt;" />
-          <ref role="1NtTu8" to="6hgq:h84GRuh" />
+          <ref role="1NtTu8" to="6hgq:h84GRuh" resolve="imagePathProvider" />
         </node>
         <node concept="VPM3Z" id="37EhXvtG_Fl" role="3F10Kt">
           <property role="VOm3f" value="false" />

@@ -23,7 +23,7 @@ public class TemplateModelImpl extends TemplateModelBase implements TemplateMode
   private final SModelReference model;
   public TemplateModelImpl(TemplateModule module) {
     super(module);
-    mappings = TemplateUtil.<TemplateMappingConfiguration>asCollection(new Mappingmain(this));
+    mappings = TemplateUtil.<TemplateMappingConfiguration>asCollection(new Mapping_main(this));
     switches = TemplateUtil.<TemplateSwitchMapping>asCollection();
     model = PersistenceFacade.getInstance().createModelReference("r:4d30284c-d4f6-4b68-8efd-29ee046f3381(org.campagnelab.editor.images.generator.template.main@generator)");
   }
@@ -45,7 +45,7 @@ public class TemplateModelImpl extends TemplateModelBase implements TemplateMode
     }
     if (template.equals(new SNodePointer("r:4d30284c-d4f6-4b68-8efd-29ee046f3381(org.campagnelab.editor.images.generator.template.main@generator)", "3219955940688842254"))) {
       TemplateUtil.assertTemplateParametersCount(template, 0, arguments.length);
-      return new Templatereduce__image();
+      return new Template_reduce_image();
     }
     return null;
   }

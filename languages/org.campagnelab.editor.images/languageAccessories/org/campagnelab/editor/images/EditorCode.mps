@@ -2,19 +2,13 @@
 <model ref="r:daca92ca-e9ce-48ae-833b-4f2157fecb32(org.campagnelab.editor.images.EditorCode)">
   <persistence version="9" />
   <languages>
-    <use id="ed6d7656-532c-4bc2-81d1-af945aeb8280" name="jetbrains.mps.baseLanguage.blTypes" version="0" />
-    <use id="9ded098b-ad6a-4657-bfd9-48636cfe8bc3" name="jetbrains.mps.lang.traceable" version="0" />
-    <use id="63650c59-16c8-498a-99c8-005c7ee9515d" name="jetbrains.mps.lang.access" version="0" />
     <use id="760a0a8c-eabb-4521-8bfd-65db761a9ba3" name="jetbrains.mps.baseLanguage.logging" version="0" />
-    <use id="443f4c36-fcf5-4eb6-9500-8d06ed259e3e" name="jetbrains.mps.baseLanguage.classifiers" version="0" />
-    <use id="28f9e497-3b42-4291-aeba-0a1039153ab1" name="jetbrains.mps.lang.plugin" version="0" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
     <import index="dxuu" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:javax.swing(JDK/)" />
     <import index="z1c3" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.project(MPS.Core/)" />
     <import index="w1kc" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.smodel(MPS.Core/)" />
-    <import index="18ew" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.util(MPS.Core/)" />
     <import index="z60i" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.awt(JDK/)" />
     <import index="5ueo" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.editor.runtime.style(MPS.Editor/)" />
     <import index="mhbf" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.model(MPS.OpenAPI/)" />
@@ -34,12 +28,10 @@
     <import index="alof" ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61/java:jetbrains.mps.ide.project(MPS.Platform/)" />
     <import index="4nm9" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.openapi.project(MPS.IDEA/)" />
     <import index="zgc3" ref="r:76cc9c6f-13c8-4c11-acaa-bbeee090d3e3(org.campagnelab.editor.listeners.plugin.plugin)" />
-    <import index="xnls" ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61/java:jetbrains.mps.ide.icons(MPS.Platform/)" />
     <import index="hox0" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor.style(MPS.Editor/)" />
     <import index="yyf4" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.util(MPS.OpenAPI/)" />
     <import index="uvcm" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.openapi.vfs.newvfs(MPS.IDEA/)" implicit="true" />
     <import index="22ra" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor.update(MPS.Editor/)" implicit="true" />
-    <import index="ude0" ref="f:diff_old#r:daca92ca-e9ce-48ae-833b-4f2157fecb32(org.campagnelab.editor.images.EditorCode@old)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -4374,30 +4366,15 @@
       <node concept="37vLTG" id="2Qyt1JMNWQz" role="3clF46">
         <property role="TrG5h" value="iconPath" />
         <property role="3TUv4t" value="false" />
-        <node concept="3uibUv" id="2Qyt1JMNWQ$" role="1tU5fm">
-          <ref role="3uigEE" to="wyt6:~String" resolve="String" />
-        </node>
+        <node concept="17QB3L" id="8hghQre55J" role="1tU5fm" />
       </node>
       <node concept="3clFbS" id="2Qyt1JMNWQ_" role="3clF47">
-        <node concept="3cpWs6" id="8hghQrcn3s" role="3cqZAp">
-          <node concept="2OqwBi" id="8hghQrcn3u" role="3cqZAk">
-            <node concept="2YIFZM" id="8hghQrcn3A" role="2Oq$k0">
-              <ref role="1Pybhc" to="g51k:~APICellAdapter" resolve="APICellAdapter" />
-              <ref role="37wK5l" to="g51k:~APICellAdapter.getIconManager(jetbrains.mps.openapi.editor.EditorContext):jetbrains.mps.ide.icons.CachingIconManager" resolve="getIconManager" />
-              <node concept="37vLTw" id="8hghQrcn3E" role="37wK5m">
-                <ref role="3cqZAo" to="ude0:2Qyt1JMNWQv" resolve="context" />
-              </node>
-            </node>
-            <node concept="liA8E" id="8hghQrcn3$" role="2OqNvi">
-              <ref role="37wK5l" to="xnls:~CachingIconManager.getIcon(jetbrains.mps.project.AbstractModule,java.lang.String):javax.swing.Icon" resolve="getIcon" />
-              <node concept="1rXfSq" id="8hghQrcn3C" role="37wK5m">
-                <ref role="37wK5l" to="ude0:2Qyt1JMNWQK" resolve="toAbstractModule" />
-                <node concept="37vLTw" id="8hghQrcn3w" role="37wK5m">
-                  <ref role="3cqZAo" to="ude0:2Qyt1JMNWQx" resolve="module" />
-                </node>
-              </node>
-              <node concept="37vLTw" id="8hghQrcn3y" role="37wK5m">
-                <ref role="3cqZAo" to="ude0:2Qyt1JMNWQz" resolve="iconPath" />
+        <node concept="3cpWs6" id="8hghQreine" role="3cqZAp">
+          <node concept="2ShNRf" id="8hghQreiLh" role="3cqZAk">
+            <node concept="1pGfFk" id="8hghQrekee" role="2ShVmc">
+              <ref role="37wK5l" to="dxuu:~ImageIcon.&lt;init&gt;(java.lang.String)" resolve="ImageIcon" />
+              <node concept="37vLTw" id="8hghQrekXd" role="37wK5m">
+                <ref role="3cqZAo" node="2Qyt1JMNWQz" resolve="iconPath" />
               </node>
             </node>
           </node>
