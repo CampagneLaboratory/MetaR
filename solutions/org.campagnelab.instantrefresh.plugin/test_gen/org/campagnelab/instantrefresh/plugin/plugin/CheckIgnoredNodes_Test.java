@@ -10,7 +10,7 @@ import junit.framework.Assert;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import org.jetbrains.mps.openapi.model.SNode;
-import jetbrains.mps.lang.test.behavior.NodeCheckOperation__BehaviorDescriptor;
+import jetbrains.mps.lang.test.behavior.INodesTestMethod__BehaviorDescriptor;
 
 @MPSLaunch
 public class CheckIgnoredNodes_Test extends BaseTransformationTest {
@@ -64,8 +64,8 @@ public class CheckIgnoredNodes_Test extends BaseTransformationTest {
     }
 
     public void test_NodeErrorCheck1419026042568005604() throws Exception {
-      SNode operation = SNodeOperations.cast(getRealNodeById("1419026042568005604"), MetaAdapterFactory.getConcept(0x8585453e6bfb4d80L, 0x98deb16074f1d86cL, 0x11b07797e20L, "jetbrains.mps.lang.test.structure.NodeCheckOperation"));
-      NodeCheckOperation__BehaviorDescriptor.perform_iddCRb6FLnvk.invoke(operation, this.getRealNodeById("1419026042568005592"));
+      SNode operation = SNodeOperations.cast(getRealNodeById("1419026042568005604"), MetaAdapterFactory.getInterfaceConcept(0x8585453e6bfb4d80L, 0x98deb16074f1d86cL, 0x1510445f8a2c272dL, "jetbrains.mps.lang.test.structure.INodesTestMethod"));
+      INodesTestMethod__BehaviorDescriptor.perform_id1kgh5YabdhC.invoke(operation, getRealNodeById("1419026042568005592"));
     }
 
   }
