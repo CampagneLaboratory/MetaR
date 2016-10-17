@@ -199,7 +199,7 @@
       <node concept="55IIr" id="3gMg70bWjqP" role="398pKh">
         <node concept="2Ry0Ak" id="3gMg70bWjqR" role="iGT6I">
           <property role="2Ry0Am" value=".." />
-          <node concept="2Ry0Ak" id="4hXJ$8I9RMc" role="2Ry0An">
+          <node concept="2Ry0Ak" id="5W9t3Am6FCl" role="2Ry0An">
             <property role="2Ry0Am" value="nyosh.core" />
           </node>
         </node>
@@ -320,25 +320,8 @@
         </node>
       </node>
     </node>
-    <node concept="2sgV4H" id="5QK6GxzsaNa" role="1l3spa">
+    <node concept="2sgV4H" id="5W9t3Am6o64" role="1l3spa">
       <ref role="1l3spb" to="t9i9:2mFg1uCD9ps" resolve="org.campagnelab.NYoSh" />
-      <node concept="55IIr" id="5QK6GxzsaRe" role="2JcizS">
-        <node concept="2Ry0Ak" id="5QK6GxzsaUL" role="iGT6I">
-          <property role="2Ry0Am" value=".." />
-          <node concept="2Ry0Ak" id="5QK6GxzsaUQ" role="2Ry0An">
-            <property role="2Ry0Am" value="NYoSh" />
-            <node concept="2Ry0Ak" id="5QK6GxzsaUV" role="2Ry0An">
-              <property role="2Ry0Am" value="build" />
-              <node concept="2Ry0Ak" id="5QK6GxzsaV0" role="2Ry0An">
-                <property role="2Ry0Am" value="artifacts" />
-                <node concept="2Ry0Ak" id="5QK6GxzsaV5" role="2Ry0An">
-                  <property role="2Ry0Am" value="org.campagnelab.NYoSh" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
     </node>
     <node concept="2sgV4H" id="3gMg70bWO4S" role="1l3spa">
       <ref role="1l3spb" to="ffeo:5D1dJ7xWer5" resolve="mpsCore" />
@@ -387,19 +370,6 @@
                   <property role="2Ry0Am" value="org.campagnelab.metar.R" />
                   <node concept="2Ry0Ak" id="7lol28iF1CX" role="2Ry0An">
                     <property role="2Ry0Am" value="R.parsers-1.0.1-complete.jar" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="28jJK3" id="3vYuQ8LHUFk" role="39821P">
-            <node concept="55IIr" id="3vYuQ8LHUFm" role="28jJRO">
-              <node concept="2Ry0Ak" id="3vYuQ8LHUIS" role="iGT6I">
-                <property role="2Ry0Am" value="solutions" />
-                <node concept="2Ry0Ak" id="3vYuQ8LHUJ3" role="2Ry0An">
-                  <property role="2Ry0Am" value="org.campagnelab.metar.biomart.runtime" />
-                  <node concept="2Ry0Ak" id="3vYuQ8LHUJe" role="2Ry0An">
-                    <property role="2Ry0Am" value="Biomart.jar" />
                   </node>
                 </node>
               </node>
@@ -753,6 +723,12 @@
           <node concept="3bR9La" id="476zmS8Uu9k" role="1SiIV1">
             <property role="3bR36h" value="false" />
             <ref role="3bR37D" to="ffeo:ymnOULAU0H" resolve="jetbrains.mps.lang.test" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="5W9t3Am6FGF" role="3bR37C">
+          <node concept="3bR9La" id="5W9t3Am6FGG" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" node="3gMg70bRmfh" resolve="org.campagnelab.metar.tables" />
           </node>
         </node>
       </node>
@@ -1603,6 +1579,12 @@
               <ref role="3bR37D" node="7lol28iFlnr" resolve="org.campagnelab.instantrefresh" />
             </node>
           </node>
+          <node concept="1SiIV0" id="5W9t3AnTk$N" role="3bR37C">
+            <node concept="3bR9La" id="5W9t3AnTk$O" role="1SiIV1">
+              <property role="3bR36h" value="false" />
+              <ref role="3bR37D" node="1c1rOX4CcUC" resolve="org.campagnelab.metar.R.inspect" />
+            </node>
+          </node>
         </node>
         <node concept="1SiIV0" id="7OkpSXK79E5" role="3bR37C">
           <node concept="3bR9La" id="7OkpSXK79E6" role="1SiIV1">
@@ -1971,18 +1953,6 @@
           <node concept="3bR9La" id="7U8jHwbepZo" role="1SiIV1">
             <property role="3bR36h" value="true" />
             <ref role="3bR37D" node="7U8jHwbep48" resolve="org.campagnelab.editor.listeners.plugin" />
-          </node>
-        </node>
-        <node concept="1SiIV0" id="7U8jHwbepZp" role="3bR37C">
-          <node concept="3bR9La" id="7U8jHwbepZq" role="1SiIV1">
-            <property role="3bR36h" value="false" />
-            <ref role="3bR37D" to="ffeo:2eDSGe9d1q1" resolve="MPS.Workbench" />
-          </node>
-        </node>
-        <node concept="1SiIV0" id="7U8jHwbepZr" role="3bR37C">
-          <node concept="3bR9La" id="7U8jHwbepZs" role="1SiIV1">
-            <property role="3bR36h" value="false" />
-            <ref role="3bR37D" to="ffeo:7Kfy9QB6Lg8" resolve="jetbrains.mps.runtime" />
           </node>
         </node>
       </node>
@@ -3424,7 +3394,7 @@
       </node>
     </node>
     <node concept="2_Ic$z" id="5Ak$p3hCPSn" role="3989C9">
-      <property role="TZNOO" value="1.6" />
+      <property role="TZNOO" value="1.8" />
       <property role="1ck6Xt" value="true" />
     </node>
     <node concept="2igEWh" id="5RQTS2oXhIU" role="1hWBAP">
