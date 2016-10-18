@@ -119,7 +119,6 @@
         <child id="489068675546663431" name="operator" index="22sOXp" />
       </concept>
       <concept id="6176023809880707741" name="org.campagnelab.metar.R.structure.DollarExpr" flags="ng" index="2PZJpN" />
-      <concept id="6176023809880707737" name="org.campagnelab.metar.R.structure.Expr" flags="ng" index="2PZJpR" />
       <concept id="6176023809880685262" name="org.campagnelab.metar.R.structure.RScript" flags="ng" index="2PZPSw" />
       <concept id="6176023809880685261" name="org.campagnelab.metar.R.structure.Prog" flags="ng" index="2PZPSz">
         <child id="1229604057017832866" name="expressions" index="pZjJ2" />
@@ -840,15 +839,16 @@
   </node>
   <node concept="2PZPSw" id="15COMTnnoGZ">
     <property role="TrG5h" value="test" />
-    <node concept="2PZJpa" id="15COMTnnoHV" role="pZjJ2">
-      <property role="1MXi1$" value="FOLOLENUVO" />
-      <node concept="2PZJpp" id="15COMTnnoHX" role="2v3mow">
-        <property role="TrG5h" value="a" />
-        <property role="1MXi1$" value="AIXKWAHPRR" />
+    <node concept="2PZJpa" id="40ZQfq1oaM2" role="pZjJ2">
+      <property role="1MXi1$" value="AVDOREYLTB" />
+      <node concept="22gccq" id="40ZQfq1oaM3" role="22hImy" />
+      <node concept="2PZJpk" id="40ZQfq1oaM4" role="2v3moI">
+        <property role="pzxG6" value="1" />
+        <property role="1MXi1$" value="XELUPSOLFG" />
       </node>
-      <node concept="22gccq" id="15COMTnnoIh" role="22hImy" />
-      <node concept="2PZJpR" id="1eLpaFqjy45" role="2v3moI">
-        <property role="1MXi1$" value="DFHXVNWMYE" />
+      <node concept="2PZJpp" id="40ZQfq1oaM5" role="2v3mow">
+        <property role="TrG5h" value="a" />
+        <property role="1MXi1$" value="MLKEHJTGNP" />
       </node>
     </node>
     <node concept="2PZJpa" id="15COMTnnoJm" role="pZjJ2">
@@ -858,9 +858,9 @@
         <property role="pzxG6" value="2" />
         <property role="1MXi1$" value="XELUPSOLFG" />
       </node>
-      <node concept="2PZJpp" id="15COMTnnoJD" role="2v3mow">
-        <property role="TrG5h" value="b" />
-        <property role="1MXi1$" value="MLKEHJTGNP" />
+      <node concept="1LhYbg" id="40ZQfq1oaS1" role="2v3mow">
+        <property role="1MXi1$" value="RHKGDVMKPK" />
+        <ref role="1Li74V" node="40ZQfq1oaM5" resolve="a" />
       </node>
     </node>
     <node concept="2v3moz" id="15COMTnnoK5" role="pZjJ2">
@@ -869,12 +869,12 @@
         <property role="1MXi1$" value="UURERYEIMF" />
         <node concept="1LhYbg" id="15COMTnnoKA" role="2v3mow">
           <property role="1MXi1$" value="WJACFWFVBD" />
-          <ref role="1Li74V" node="15COMTnnoHX" resolve="a" />
+          <ref role="1Li74V" node="40ZQfq1oaM5" resolve="a" />
         </node>
         <node concept="22gcd$" id="15COMTnnoKy" role="22hImy" />
         <node concept="1LhYbg" id="15COMTnnoKC" role="2v3moI">
           <property role="1MXi1$" value="NJJUCQKPAF" />
-          <ref role="1Li74V" node="15COMTnnoJD" resolve="b" />
+          <ref role="1Li74V" node="40ZQfq1oaM5" resolve="a" />
         </node>
       </node>
       <node concept="22gccq" id="15COMTnnoK9" role="22hImy" />
