@@ -106,17 +106,8 @@
       </concept>
     </language>
     <language id="982eb8df-2c96-4bd7-9963-11712ea622e5" name="jetbrains.mps.lang.resources">
-      <concept id="8974276187400029885" name="jetbrains.mps.lang.resources.structure.OldIconBundle" flags="ng" index="1QGGSo">
-        <child id="8974276187400029886" name="icons" index="1QGGSr" />
-      </concept>
       <concept id="8974276187400029883" name="jetbrains.mps.lang.resources.structure.FileIcon" flags="ng" index="1QGGSu">
-        <child id="6976585500156684809" name="iconExpression" index="3xaMm5" />
-      </concept>
-      <concept id="8974276187400029895" name="jetbrains.mps.lang.resources.structure.OldIconReference" flags="nn" index="1QGGTy">
-        <reference id="8974276187400029896" name="declaration" index="1QGGTH" />
-      </concept>
-      <concept id="8974276187400029888" name="jetbrains.mps.lang.resources.structure.OldIconDeclaration" flags="ng" index="1QGGT_">
-        <child id="8974276187400029889" name="iconExpression" index="1QGGT$" />
+        <property id="2756621024541341363" name="file" index="1iqoE4" />
       </concept>
     </language>
     <language id="28f9e497-3b42-4291-aeba-0a1039153ab1" name="jetbrains.mps.lang.plugin">
@@ -659,9 +650,6 @@
       <concept id="1139621453865" name="jetbrains.mps.lang.smodel.structure.Node_IsInstanceOfOperation" flags="nn" index="1mIQ4w">
         <child id="1177027386292" name="conceptArgument" index="cj9EA" />
       </concept>
-      <concept id="8339862546319741524" name="jetbrains.mps.lang.smodel.structure.ConceptFqNameRefExpression" flags="nn" index="3nh3qo">
-        <reference id="8339862546319741525" name="conceptDeclaration" index="3nh3qp" />
-      </concept>
       <concept id="1171999116870" name="jetbrains.mps.lang.smodel.structure.Node_IsNullOperation" flags="nn" index="3w_OXm" />
       <concept id="1172008320231" name="jetbrains.mps.lang.smodel.structure.Node_IsNotNullOperation" flags="nn" index="3x8VRR" />
       <concept id="1144100932627" name="jetbrains.mps.lang.smodel.structure.OperationParm_Inclusion" flags="ng" index="1xIGOp" />
@@ -1046,9 +1034,7 @@
       </node>
     </node>
     <node concept="1QGGSu" id="5gyVhZ17JkK" role="3GxumY">
-      <node concept="1QGGTy" id="7X_jMOXL0lt" role="3xaMm5">
-        <ref role="1QGGTH" node="7X_jMOXAA6q" resolve="RScript" />
-      </node>
+      <property role="1iqoE4" value="${module}/icons/R-icon-2.png" />
     </node>
     <node concept="yHkDC" id="5gyVhZ17JkL" role="yHkDi">
       <property role="TrG5h" value="myNode" />
@@ -1194,9 +1180,7 @@
     <property role="3GE5qa" value="R" />
     <property role="TrG5h" value="R Script" />
     <node concept="1QGGSu" id="5gyVhZ17Jma" role="1bitO_">
-      <node concept="1QGGTy" id="7X_jMOXJwiU" role="3xaMm5">
-        <ref role="1QGGTH" node="7X_jMOXAA6q" resolve="RScript" />
-      </node>
+      <property role="1iqoE4" value="${module}/icons/R-icon-2.png" />
     </node>
   </node>
   <node concept="RBi3j" id="5gyVhZ17Jmb">
@@ -2725,39 +2709,6 @@
       <ref role="3uigEE" to="wyt6:~Cloneable" resolve="Cloneable" />
     </node>
   </node>
-  <node concept="1QGGSo" id="5HtHr3Ek4ZU">
-    <property role="TrG5h" value="MetaR" />
-    <node concept="1QGGT_" id="5HtHr3Ew_B0" role="1QGGSr">
-      <property role="TrG5h" value="Table" />
-      <node concept="2YIFZM" id="zZYLnBI34" role="1QGGT$">
-        <ref role="37wK5l" to="sn11:277Nzj6qTH$" resolve="getIconForConceptFQName" />
-        <ref role="1Pybhc" to="sn11:277Nzj6qTEj" resolve="IconManager" />
-        <node concept="3nh3qo" id="zZYLnBIe$" role="37wK5m">
-          <ref role="3nh3qp" to="jrxw:2WRhvFtkykN" resolve="Table" />
-        </node>
-      </node>
-    </node>
-    <node concept="1QGGT_" id="7h1YMs6Ioi7" role="1QGGSr">
-      <property role="TrG5h" value="Analysis" />
-      <node concept="2YIFZM" id="zZYLnBKqR" role="1QGGT$">
-        <ref role="1Pybhc" to="sn11:277Nzj6qTEj" resolve="IconManager" />
-        <ref role="37wK5l" to="sn11:277Nzj6qTH$" resolve="getIconForConceptFQName" />
-        <node concept="3nh3qo" id="zZYLnBKqS" role="37wK5m">
-          <ref role="3nh3qp" to="jrxw:7LvyiX4mii$" resolve="Analysis" />
-        </node>
-      </node>
-    </node>
-    <node concept="1QGGT_" id="7X_jMOXAA6q" role="1QGGSr">
-      <property role="TrG5h" value="RScript" />
-      <node concept="2YIFZM" id="7X_jMOXBpQp" role="1QGGT$">
-        <ref role="37wK5l" to="sn11:277Nzj6qTH$" resolve="getIconForConceptFQName" />
-        <ref role="1Pybhc" to="sn11:277Nzj6qTEj" resolve="IconManager" />
-        <node concept="3nh3qo" id="7X_jMOXBpRO" role="37wK5m">
-          <ref role="3nh3qp" to="6q58:5mPDeVwiJFe" resolve="RScript" />
-        </node>
-      </node>
-    </node>
-  </node>
   <node concept="Zd50a" id="cvGLnZnSxc">
     <property role="TrG5h" value="Default" />
     <node concept="Zd509" id="5GUQLVLhjlv" role="Zd508">
@@ -3288,9 +3239,7 @@
     </node>
     <node concept="mfpdH" id="2sgkdoKtHQS" role="med8o" />
     <node concept="1QGGSu" id="7h1YMs6Iu0w" role="3Uehp1">
-      <node concept="1QGGTy" id="7h1YMs6IPB$" role="3xaMm5">
-        <ref role="1QGGTH" node="7h1YMs6Ioi7" resolve="Analysis" />
-      </node>
+      <property role="1iqoE4" value="${module}/icons/analysis.png" />
     </node>
   </node>
   <node concept="tC5Ba" id="2sgkdoKkXlG">
@@ -3547,9 +3496,7 @@
       <node concept="1oajcY" id="5wICCZJ10Bf" role="1oa70y" />
     </node>
     <node concept="1QGGSu" id="7h1YMs6IssW" role="3Uehp1">
-      <node concept="1QGGTy" id="7h1YMs6IsQf" role="3xaMm5">
-        <ref role="1QGGTH" node="7h1YMs6Ioi7" resolve="Analysis" />
-      </node>
+      <property role="1iqoE4" value="${module}/icons/analysis.png" />
     </node>
   </node>
   <node concept="sE7Ow" id="Hh86h6ldrp">
@@ -4321,9 +4268,7 @@
     </node>
     <node concept="mfpdH" id="Hh86h6FPrL" role="med8o" />
     <node concept="1QGGSu" id="7h1YMs6Ik7k" role="3Uehp1">
-      <node concept="1QGGTy" id="7h1YMs6IqGB" role="3xaMm5">
-        <ref role="1QGGTH" node="5HtHr3Ew_B0" resolve="Table" />
-      </node>
+      <property role="1iqoE4" value="${module}/icons/table.png" />
     </node>
   </node>
   <node concept="2LYoGX" id="1iB3OwqgnBo">
