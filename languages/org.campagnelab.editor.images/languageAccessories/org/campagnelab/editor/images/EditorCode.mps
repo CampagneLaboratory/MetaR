@@ -5065,23 +5065,42 @@
                               <node concept="3Tm1VV" id="8hghQrc2Bk" role="1B3o_S" />
                               <node concept="3cqZAl" id="8hghQrc2Bl" role="3clF45" />
                               <node concept="3clFbS" id="8hghQrc2Bm" role="3clF47">
-                                <node concept="3clFbF" id="8hghQrc2Bn" role="3cqZAp">
-                                  <node concept="2OqwBi" id="8hghQrc2Bo" role="3clFbG">
-                                    <node concept="2OqwBi" id="8hghQrc2Bp" role="2Oq$k0">
-                                      <node concept="2OqwBi" id="8hghQrc2Bq" role="2Oq$k0">
-                                        <node concept="37vLTw" id="8hghQrc2Br" role="2Oq$k0">
+                                <node concept="3clFbJ" id="1$_tCCdn4iA" role="3cqZAp">
+                                  <node concept="3clFbS" id="1$_tCCdn4iC" role="3clFbx">
+                                    <node concept="3clFbF" id="8hghQrc2Bn" role="3cqZAp">
+                                      <node concept="2OqwBi" id="8hghQrc2Bo" role="3clFbG">
+                                        <node concept="2OqwBi" id="8hghQrc2Bp" role="2Oq$k0">
+                                          <node concept="2OqwBi" id="8hghQrc2Bq" role="2Oq$k0">
+                                            <node concept="37vLTw" id="8hghQrc2Br" role="2Oq$k0">
+                                              <ref role="3cqZAo" node="2YRQibU3ef3" resolve="cell" />
+                                            </node>
+                                            <node concept="liA8E" id="8hghQrc2Bs" role="2OqNvi">
+                                              <ref role="37wK5l" to="g51k:~EditorCell_Basic.getEditorComponent():jetbrains.mps.openapi.editor.EditorComponent" resolve="getEditorComponent" />
+                                            </node>
+                                          </node>
+                                          <node concept="liA8E" id="8hghQrc2Bt" role="2OqNvi">
+                                            <ref role="37wK5l" to="cj4x:~EditorComponent.getUpdater():jetbrains.mps.openapi.editor.update.Updater" resolve="getUpdater" />
+                                          </node>
+                                        </node>
+                                        <node concept="liA8E" id="8hghQrc2Bu" role="2OqNvi">
+                                          <ref role="37wK5l" to="22ra:~Updater.update():void" resolve="update" />
+                                        </node>
+                                      </node>
+                                    </node>
+                                  </node>
+                                  <node concept="3fqX7Q" id="1$_tCCdn5br" role="3clFbw">
+                                    <node concept="2OqwBi" id="1$_tCCdn2sm" role="3fr31v">
+                                      <node concept="2OqwBi" id="1$_tCCdn23o" role="2Oq$k0">
+                                        <node concept="37vLTw" id="1$_tCCdn23p" role="2Oq$k0">
                                           <ref role="3cqZAo" node="2YRQibU3ef3" resolve="cell" />
                                         </node>
-                                        <node concept="liA8E" id="8hghQrc2Bs" role="2OqNvi">
+                                        <node concept="liA8E" id="1$_tCCdn23q" role="2OqNvi">
                                           <ref role="37wK5l" to="g51k:~EditorCell_Basic.getEditorComponent():jetbrains.mps.openapi.editor.EditorComponent" resolve="getEditorComponent" />
                                         </node>
                                       </node>
-                                      <node concept="liA8E" id="8hghQrc2Bt" role="2OqNvi">
-                                        <ref role="37wK5l" to="cj4x:~EditorComponent.getUpdater():jetbrains.mps.openapi.editor.update.Updater" resolve="getUpdater" />
+                                      <node concept="liA8E" id="1$_tCCdn3co" role="2OqNvi">
+                                        <ref role="37wK5l" to="cj4x:~EditorComponent.isDisposed():boolean" resolve="isDisposed" />
                                       </node>
-                                    </node>
-                                    <node concept="liA8E" id="8hghQrc2Bu" role="2OqNvi">
-                                      <ref role="37wK5l" to="22ra:~Updater.update():void" resolve="update" />
                                     </node>
                                   </node>
                                 </node>
