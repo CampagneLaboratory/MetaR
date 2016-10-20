@@ -32,7 +32,6 @@
     <import index="4tsn" ref="r:97aeaa4f-346d-4633-b5a0-99879648272c(R3_1_3@stubs)" />
     <import index="9nc5" ref="r:d1a256e6-591a-459f-809c-7fc9df45e4d5(org.campagnelab.mps.XChart.types.roots)" implicit="true" />
     <import index="wiqx" ref="r:6bfd7c1b-dea3-4f98-9ed3-bce7739b7a8d(org.campagnelab.metar.accessories.styles.colors)" implicit="true" />
-    <import index="sfo9" ref="f:diff_old#r:7808fd4b-bef8-4f17-bbc4-f13fb6c0aab7(Demo_with_continous_data@old)" implicit="true" />
   </imports>
   <registry>
     <language id="93bc01ac-08ca-4f11-9c7d-614d04055dfb" name="org.campagnelab.mps.editor2pdf">
@@ -374,6 +373,12 @@
     </node>
     <node concept="3MzsS1" id="2734ievegBi" role="3MzsBV">
       <property role="TrG5h" value="ignore" />
+    </node>
+    <node concept="3MzsS1" id="7t9bQxGhdfx" role="3MzsBV">
+      <property role="TrG5h" value="Random1" />
+    </node>
+    <node concept="3MzsS1" id="7t9bQxGhdfO" role="3MzsBV">
+      <property role="TrG5h" value="Random2" />
     </node>
     <node concept="2_mUhs" id="2734ievegBj" role="2yEZeN">
       <property role="TrG5h" value="LPS" />
@@ -4567,7 +4572,7 @@
           <ref role="3MzsBM" node="4bcN0BgkaKu" resolve="ageZ" />
         </node>
         <node concept="3MzsBX" id="4ssfE$bKejP" role="3MztjM">
-          <ref role="3MzsBM" to="sfo9:4ssfE$bCD_U" resolve="Random1" />
+          <ref role="3MzsBM" node="7t9bQxGhdfx" resolve="Random1" />
         </node>
         <node concept="3MzsBX" id="4ssfE$bKfgB" role="3MztjM">
           <ref role="3MzsBM" node="2734ievegBe" resolve="counts" />
@@ -4582,7 +4587,7 @@
           <ref role="3MzsBM" node="4bcN0BgkaKu" resolve="ageZ" />
         </node>
         <node concept="3MzsBX" id="4ssfE$bKejT" role="3MztjM">
-          <ref role="3MzsBM" to="sfo9:4ssfE$bCD_U" resolve="Random1" />
+          <ref role="3MzsBM" node="7t9bQxGhdfx" resolve="Random1" />
         </node>
         <node concept="3MzsBX" id="4ssfE$bKfgG" role="3MztjM">
           <ref role="3MzsBM" node="2734ievegBe" resolve="counts" />
@@ -4597,7 +4602,7 @@
           <ref role="3MzsBM" node="4bcN0BgkaKu" resolve="ageZ" />
         </node>
         <node concept="3MzsBX" id="4ssfE$bKejX" role="3MztjM">
-          <ref role="3MzsBM" to="sfo9:4ssfE$bCD_U" resolve="Random1" />
+          <ref role="3MzsBM" node="7t9bQxGhdfx" resolve="Random1" />
         </node>
         <node concept="3MzsBX" id="4ssfE$bKfgH" role="3MztjM">
           <ref role="3MzsBM" node="2734ievegBe" resolve="counts" />
@@ -4612,7 +4617,7 @@
           <ref role="3MzsBM" node="4bcN0BgkaKu" resolve="ageZ" />
         </node>
         <node concept="3MzsBX" id="4ssfE$bKek1" role="3MztjM">
-          <ref role="3MzsBM" to="sfo9:4ssfE$bCDB5" resolve="Random2" />
+          <ref role="3MzsBM" node="7t9bQxGhdfO" resolve="Random2" />
         </node>
         <node concept="3MzsBX" id="4ssfE$bKfgI" role="3MztjM">
           <ref role="3MzsBM" node="2734ievegBe" resolve="counts" />
@@ -4627,7 +4632,7 @@
           <ref role="3MzsBM" node="4bcN0BgkaKu" resolve="ageZ" />
         </node>
         <node concept="3MzsBX" id="4ssfE$bKek5" role="3MztjM">
-          <ref role="3MzsBM" to="sfo9:4ssfE$bCDB5" resolve="Random2" />
+          <ref role="3MzsBM" node="7t9bQxGhdfO" resolve="Random2" />
         </node>
         <node concept="3MzsBX" id="4ssfE$bKfgJ" role="3MztjM">
           <ref role="3MzsBM" node="2734ievegBe" resolve="counts" />
@@ -4642,7 +4647,7 @@
           <ref role="3MzsBM" node="4bcN0BgkaKu" resolve="ageZ" />
         </node>
         <node concept="3MzsBX" id="4ssfE$bKek9" role="3MztjM">
-          <ref role="3MzsBM" to="sfo9:4ssfE$bCDB5" resolve="Random2" />
+          <ref role="3MzsBM" node="7t9bQxGhdfO" resolve="Random2" />
         </node>
         <node concept="3MzsBX" id="4ssfE$bKfgK" role="3MztjM">
           <ref role="3MzsBM" node="2734ievegBe" resolve="counts" />
@@ -4798,10 +4803,10 @@
               <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
               <node concept="3MzsTm" id="3W3L4MKtuYQ" role="lGtFl">
                 <node concept="3MzsBX" id="3W3L4MKtuYR" role="3MztjM">
-                  <ref role="3MzsBM" to="sfo9:4ssfE$bCCUW" resolve="ageZ" />
+                  <ref role="3MzsBM" node="4bcN0BgkaKu" resolve="ageZ" />
                 </node>
                 <node concept="3MzsBX" id="3W3L4MKtuYS" role="3MztjM">
-                  <ref role="3MzsBM" to="sfo9:4ssfE$bCD_U" resolve="Random1" />
+                  <ref role="3MzsBM" node="7t9bQxGhdfx" resolve="Random1" />
                 </node>
                 <node concept="3MzsBX" id="3W3L4MKtuYT" role="3MztjM">
                   <ref role="3MzsBM" node="2734ievegBe" resolve="counts" />
@@ -4813,10 +4818,10 @@
               <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
               <node concept="3MzsTm" id="3W3L4MKtuYZ" role="lGtFl">
                 <node concept="3MzsBX" id="3W3L4MKtuZ0" role="3MztjM">
-                  <ref role="3MzsBM" to="sfo9:4ssfE$bCCUW" resolve="ageZ" />
+                  <ref role="3MzsBM" node="4bcN0BgkaKu" resolve="ageZ" />
                 </node>
                 <node concept="3MzsBX" id="3W3L4MKtuZ1" role="3MztjM">
-                  <ref role="3MzsBM" to="sfo9:4ssfE$bCD_U" resolve="Random1" />
+                  <ref role="3MzsBM" node="7t9bQxGhdfx" resolve="Random1" />
                 </node>
                 <node concept="3MzsBX" id="3W3L4MKtuZ2" role="3MztjM">
                   <ref role="3MzsBM" node="2734ievegBe" resolve="counts" />
@@ -4828,10 +4833,10 @@
               <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
               <node concept="3MzsTm" id="3W3L4MKtuZ8" role="lGtFl">
                 <node concept="3MzsBX" id="3W3L4MKtuZ9" role="3MztjM">
-                  <ref role="3MzsBM" to="sfo9:4ssfE$bCCUW" resolve="ageZ" />
+                  <ref role="3MzsBM" node="4bcN0BgkaKu" resolve="ageZ" />
                 </node>
                 <node concept="3MzsBX" id="3W3L4MKtuZa" role="3MztjM">
-                  <ref role="3MzsBM" to="sfo9:4ssfE$bCD_U" resolve="Random1" />
+                  <ref role="3MzsBM" node="7t9bQxGhdfx" resolve="Random1" />
                 </node>
                 <node concept="3MzsBX" id="3W3L4MKtuZb" role="3MztjM">
                   <ref role="3MzsBM" node="2734ievegBe" resolve="counts" />
@@ -4843,10 +4848,10 @@
               <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
               <node concept="3MzsTm" id="3W3L4MKtuZh" role="lGtFl">
                 <node concept="3MzsBX" id="3W3L4MKtuZi" role="3MztjM">
-                  <ref role="3MzsBM" to="sfo9:4ssfE$bCCUW" resolve="ageZ" />
+                  <ref role="3MzsBM" node="4bcN0BgkaKu" resolve="ageZ" />
                 </node>
                 <node concept="3MzsBX" id="3W3L4MKtuZj" role="3MztjM">
-                  <ref role="3MzsBM" to="sfo9:4ssfE$bCDB5" resolve="Random2" />
+                  <ref role="3MzsBM" node="7t9bQxGhdfO" resolve="Random2" />
                 </node>
                 <node concept="3MzsBX" id="3W3L4MKtuZk" role="3MztjM">
                   <ref role="3MzsBM" node="2734ievegBe" resolve="counts" />
@@ -4858,10 +4863,10 @@
               <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
               <node concept="3MzsTm" id="3W3L4MKtuZq" role="lGtFl">
                 <node concept="3MzsBX" id="3W3L4MKtuZr" role="3MztjM">
-                  <ref role="3MzsBM" to="sfo9:4ssfE$bCCUW" resolve="ageZ" />
+                  <ref role="3MzsBM" node="4bcN0BgkaKu" resolve="ageZ" />
                 </node>
                 <node concept="3MzsBX" id="3W3L4MKtuZs" role="3MztjM">
-                  <ref role="3MzsBM" to="sfo9:4ssfE$bCDB5" resolve="Random2" />
+                  <ref role="3MzsBM" node="7t9bQxGhdfO" resolve="Random2" />
                 </node>
                 <node concept="3MzsBX" id="3W3L4MKtuZt" role="3MztjM">
                   <ref role="3MzsBM" node="2734ievegBe" resolve="counts" />
@@ -4873,10 +4878,10 @@
               <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
               <node concept="3MzsTm" id="3W3L4MKtuZz" role="lGtFl">
                 <node concept="3MzsBX" id="3W3L4MKtuZ$" role="3MztjM">
-                  <ref role="3MzsBM" to="sfo9:4ssfE$bCCUW" resolve="ageZ" />
+                  <ref role="3MzsBM" node="4bcN0BgkaKu" resolve="ageZ" />
                 </node>
                 <node concept="3MzsBX" id="3W3L4MKtuZ_" role="3MztjM">
-                  <ref role="3MzsBM" to="sfo9:4ssfE$bCDB5" resolve="Random2" />
+                  <ref role="3MzsBM" node="7t9bQxGhdfO" resolve="Random2" />
                 </node>
                 <node concept="3MzsBX" id="3W3L4MKtuZA" role="3MztjM">
                   <ref role="3MzsBM" node="2734ievegBe" resolve="counts" />

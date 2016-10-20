@@ -8,7 +8,6 @@
   </languages>
   <imports>
     <import index="sbif" ref="r:83131207-8bbf-4552-944d-336f1a104b7d(Demo)" />
-    <import index="vyx4" ref="f:diff_old#r:f3a77e78-e1df-4d1d-beab-4c4d090cc4fa(simulation@old)" implicit="true" />
     <import index="9nc5" ref="r:d1a256e6-591a-459f-809c-7fc9df45e4d5(org.campagnelab.mps.XChart.types.roots)" implicit="true" />
   </imports>
   <registry>
@@ -133,32 +132,6 @@
       <node concept="S1EQe" id="3j3L3d7c8OJ" role="ZXjPg">
         <property role="S1EQ6" value="CADXPIUIVF" />
         <property role="1MXi1$" value="DOPMUBDKRJ" />
-      </node>
-      <node concept="2YmjXt" id="3j3L3d7c8Ol" role="ZXjPg">
-        <property role="S1EQ6" value="OEYRTDOGMD" />
-        <property role="8NYsT" value="false" />
-        <property role="1MXi1$" value="PJSVCPLENE" />
-        <node concept="3VlkzF" id="3j3L3d7c8Oo" role="2Ym92R">
-          <ref role="3Vkrsu" node="3j3L3d7c8On" resolve="CovariateForSimulateDataset_OEYRTDOGMD" />
-        </node>
-        <node concept="3MlLWZ" id="3j3L3d7c8Ou" role="3curr3">
-          <property role="TrG5h" value="simulate" />
-          <ref role="3MlLW5" to="vyx4:3j3L3d7c8Ov" resolve="simulate" />
-          <node concept="3Mpm39" id="3j3L3d7c8Ov" role="3WeD9t">
-            <property role="31Cu5t" value="&#9;" />
-            <property role="TrG5h" value="simulate" />
-          </node>
-        </node>
-        <node concept="2Ym5Ia" id="3j3L3d7c8Ow" role="2Ym7rR">
-          <property role="2QI5xJ" value="30" />
-          <property role="2QI5xi" value="50" />
-        </node>
-        <node concept="2Ym7rd" id="3j3L3d7c8Ox" role="2Ym7rP" />
-        <node concept="3ZW7eb" id="6xCgpj7fe11" role="lGtFl">
-          <property role="2ripvU" value="1" />
-          <property role="TrG5h" value="NewSimulateStatement" />
-          <ref role="KZaLW" node="3j3L3d7c8YU" resolve="ToDoc" />
-        </node>
       </node>
       <node concept="S1EQe" id="6xCgpj7fqaA" role="ZXjPg">
         <property role="S1EQ6" value="INWOBSQPBK" />
