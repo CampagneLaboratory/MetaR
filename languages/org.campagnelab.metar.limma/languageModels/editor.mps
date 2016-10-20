@@ -2,7 +2,7 @@
 <model ref="r:294dc9c3-90f3-4113-9114-56d2e56639b7(org.campagnelab.metar.limma.editor)">
   <persistence version="9" />
   <languages>
-    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="3" />
+    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="4" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -85,14 +85,14 @@
         <ref role="1k5W1q" to="8gqa:7Hltlm8H6Z1" resolve="Descriptive" />
       </node>
       <node concept="3F1sOY" id="7$n2ViPs1ln" role="3EZMnx">
-        <ref role="1NtTu8" to="jl4n:7$n2ViPrDvn" />
+        <ref role="1NtTu8" to="jl4n:7$n2ViPrDvn" resolve="countsTable" />
       </node>
       <node concept="3F0ifn" id="7$n2ViPs1lx" role="3EZMnx">
         <property role="3F0ifm" value="model:" />
         <ref role="1k5W1q" to="8gqa:7Hltlm8H6Z1" resolve="Descriptive" />
       </node>
       <node concept="3F1sOY" id="7$n2ViPs1lH" role="3EZMnx">
-        <ref role="1NtTu8" to="qrzj:4ssfE$85c87" />
+        <ref role="1NtTu8" to="qrzj:4ssfE$85c87" resolve="modelFormula" />
       </node>
       <node concept="3F0ifn" id="7$n2ViPs1lV" role="3EZMnx">
         <property role="3F0ifm" value="comparing" />
@@ -105,7 +105,7 @@
         </node>
       </node>
       <node concept="3F1sOY" id="7$n2ViPwM11" role="3EZMnx">
-        <ref role="1NtTu8" to="qrzj:4ssfE$85cdC" />
+        <ref role="1NtTu8" to="qrzj:4ssfE$85cdC" resolve="contrasts" />
       </node>
       <node concept="3F0ifn" id="7$n2ViPwM1S" role="3EZMnx">
         <property role="3F0ifm" value="-&gt;" />
@@ -115,14 +115,14 @@
         <node concept="Vb9p2" id="1EG$v9O8M3u" role="3F10Kt" />
       </node>
       <node concept="3F1sOY" id="7$n2ViPs1mb" role="3EZMnx">
-        <ref role="1NtTu8" to="jl4n:7$n2ViPrFPR" />
+        <ref role="1NtTu8" to="jl4n:7$n2ViPrFPR" resolve="destinationTable" />
       </node>
       <node concept="3F0ifn" id="1EG$v9O8M6w" role="3EZMnx">
         <property role="3F0ifm" value="normalized:" />
         <node concept="Vb9p2" id="1EG$v9O8M9E" role="3F10Kt" />
       </node>
       <node concept="3F1sOY" id="1EG$v9O8uk_" role="3EZMnx">
-        <ref role="1NtTu8" to="jl4n:1EG$v9O8udR" />
+        <ref role="1NtTu8" to="jl4n:1EG$v9O8udR" resolve="normalizedTable" />
       </node>
       <node concept="3EZMnI" id="4ssfE$9PSsp" role="3EZMnx">
         <node concept="VPM3Z" id="4ssfE$9PSsr" role="3F10Kt">
@@ -133,7 +133,7 @@
           <ref role="1k5W1q" to="8gqa:7Hltlm8H6Z1" resolve="Descriptive" />
         </node>
         <node concept="3F1sOY" id="4ssfE$9PTHw" role="3EZMnx">
-          <ref role="1NtTu8" to="jl4n:4ssfE$9PTBv" />
+          <ref role="1NtTu8" to="jl4n:4ssfE$9PTBv" resolve="adjustedCountsTable" />
         </node>
         <node concept="l2Vlx" id="4ssfE$9PSsu" role="2iSdaV" />
         <node concept="pkWqt" id="4ssfE$9PSsM" role="pqm2j">

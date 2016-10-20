@@ -2,7 +2,7 @@
 <model ref="r:991fd9b0-94e4-4893-b934-38044c833877(biomart)">
   <persistence version="9" />
   <languages>
-    <use id="5d6bde84-4ce4-4eb5-a37e-25a5edd55129" name="org.campagnelab.metar.tables" version="2" />
+    <use id="5d6bde84-4ce4-4eb5-a37e-25a5edd55129" name="org.campagnelab.metar.tables" version="3" />
     <use id="e633fc48-0aaf-45b5-9894-247b67cf0890" name="org.campagnelab.metar.biomart" version="0" />
     <use id="93bc01ac-08ca-4f11-9c7d-614d04055dfb" name="org.campagnelab.mps.editor2pdf" version="0" />
     <use id="5ec1cd3d-0a50-4049-a8fa-ae768d7baa25" name="org.campagnelab.mps.XChart" version="0" />

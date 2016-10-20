@@ -2,9 +2,10 @@
 <model ref="r:9f2bbfbf-f8b7-4b3b-92b1-b6a0e9642c10(org.campagnelab.metar.tables.structure)">
   <persistence version="9" />
   <languages>
-    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="1" />
+    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="3" />
     <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="2" />
     <use id="95951e17-c0d6-47b9-b1b5-42a4ca186fc6" name="org.campagnelab.instantrefresh" version="1" />
+    <use id="982eb8df-2c96-4bd7-9963-11712ea622e5" name="jetbrains.mps.lang.resources" version="2" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -17,6 +18,11 @@
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
+    <language id="982eb8df-2c96-4bd7-9963-11712ea622e5" name="jetbrains.mps.lang.resources">
+      <concept id="8974276187400029883" name="jetbrains.mps.lang.resources.structure.FileIcon" flags="ng" index="1QGGSu">
+        <property id="2756621024541341363" name="file" index="1iqoE4" />
+      </concept>
+    </language>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
       <concept id="1082485599095" name="jetbrains.mps.baseLanguage.structure.BlockStatement" flags="nn" index="9aQIb">
         <child id="1082485599096" name="statements" index="9aQI4" />
@@ -185,9 +191,9 @@
         <reference id="1169127628841" name="intfc" index="PrY4T" />
       </concept>
       <concept id="1071489090640" name="jetbrains.mps.lang.structure.structure.ConceptDeclaration" flags="ig" index="1TIwiD">
-        <property id="1160488491229" name="iconPath" index="MwhBj" />
         <property id="1096454100552" name="rootable" index="19KtqR" />
         <reference id="1071489389519" name="extends" index="1TJDcQ" />
+        <child id="6327362524875300597" name="icon" index="rwd14" />
         <child id="1169129564478" name="implements" index="PzmwI" />
       </concept>
       <concept id="1071489288299" name="jetbrains.mps.lang.structure.structure.PropertyDeclaration" flags="ig" index="1TJgyi">
@@ -253,7 +259,6 @@
     <property role="TrG5h" value="Table" />
     <property role="34LRSv" value="Table" />
     <property role="19KtqR" value="true" />
-    <property role="MwhBj" value="${module}/icons/table-2.png" />
     <property role="EcuMT" value="3402264987258987827" />
     <ref role="1TJDcQ" to="ztlb:37GCX3DaB_D" resolve="Tsvfile" />
     <node concept="1TJgyi" id="w5znaeSg5k" role="1TKVEl">
@@ -269,6 +274,9 @@
     </node>
     <node concept="PrWs8" id="2WRhvFtkJSi" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+    <node concept="1QGGSu" id="m2dhZuGNhs" role="rwd14">
+      <property role="1iqoE4" value="${module}/icons/table-2.png" />
     </node>
   </node>
   <node concept="1TIwiD" id="2WRhvFtldw4">
@@ -317,7 +325,6 @@
   </node>
   <node concept="1TIwiD" id="2WRhvFtn_YR">
     <property role="TrG5h" value="FutureTableRef" />
-    <property role="MwhBj" value="${module}/icons/table.png" />
     <property role="EcuMT" value="3402264987259789239" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="2WRhvFtnCb_" role="1TKVEi">
@@ -327,10 +334,12 @@
       <property role="IQ2ns" value="3402264987259798245" />
       <ref role="20lvS9" node="2WRhvFto5F5" resolve="FutureTable" />
     </node>
+    <node concept="1QGGSu" id="m2dhZuGNhm" role="rwd14">
+      <property role="1iqoE4" value="${module}/icons/table.png" />
+    </node>
   </node>
   <node concept="1TIwiD" id="2WRhvFto5F5">
     <property role="TrG5h" value="FutureTable" />
-    <property role="MwhBj" value="${module}/icons/table.png" />
     <property role="EcuMT" value="3402264987259919045" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="3BiNpr5U5Zb" role="1TKVEi">
@@ -358,6 +367,9 @@
     </node>
     <node concept="PrWs8" id="52J4nYvd$fn" role="PzmwI">
       <ref role="PrY4T" node="52J4nYvdvom" resolve="ISaveRVariableInSession" />
+    </node>
+    <node concept="1QGGSu" id="m2dhZuGNhr" role="rwd14">
+      <property role="1iqoE4" value="${module}/icons/table.png" />
     </node>
   </node>
   <node concept="1TIwiD" id="2WRhvFtuGFd">
@@ -481,7 +493,6 @@
     <property role="3GE5qa" value="annotations" />
     <property role="TrG5h" value="ColumnGroupContainer" />
     <property role="19KtqR" value="true" />
-    <property role="MwhBj" value="${module}/icons/columns-3.png" />
     <property role="EcuMT" value="3402264987265829888" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="6XP3gVdRJUX" role="1TKVEi">
@@ -497,6 +508,9 @@
       <property role="20lbJX" value="0..n" />
       <property role="IQ2ns" value="3402264987265829889" />
       <ref role="20lvS9" node="2WRhvFtICJV" resolve="ColumnGroup" />
+    </node>
+    <node concept="1QGGSu" id="m2dhZuGNht" role="rwd14">
+      <property role="1iqoE4" value="${module}/icons/columns-3.png" />
     </node>
   </node>
   <node concept="1TIwiD" id="2WRhvFtICK7">
@@ -573,7 +587,6 @@
   <node concept="1TIwiD" id="7lAbM$uOMoK">
     <property role="TrG5h" value="Plot" />
     <property role="3GE5qa" value="plots" />
-    <property role="MwhBj" value="${module}/icons/plot.png" />
     <property role="EcuMT" value="8459500803719374384" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="3BiNpr66hlX" role="1TKVEl">
@@ -598,6 +611,9 @@
     </node>
     <node concept="PrWs8" id="7lAbM$uP4Q5" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+    <node concept="1QGGSu" id="m2dhZuGNhl" role="rwd14">
+      <property role="1iqoE4" value="${module}/icons/plot.png" />
     </node>
   </node>
   <node concept="PlHQZ" id="6X05uba0Urd">
@@ -898,7 +914,6 @@
   <node concept="1TIwiD" id="2GnvTFE7ITW">
     <property role="3GE5qa" value="plots" />
     <property role="TrG5h" value="PlotRef" />
-    <property role="MwhBj" value="${module}/icons/plot.png" />
     <property role="EcuMT" value="3105090771424833148" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="2GnvTFE7ITX" role="1TKVEi">
@@ -907,6 +922,9 @@
       <property role="20lbJX" value="1" />
       <property role="IQ2ns" value="3105090771424833149" />
       <ref role="20lvS9" node="7lAbM$uOMoK" resolve="Plot" />
+    </node>
+    <node concept="1QGGSu" id="m2dhZuGNho" role="rwd14">
+      <property role="1iqoE4" value="${module}/icons/plot.png" />
     </node>
   </node>
   <node concept="1TIwiD" id="2GnvTFEeTMV">
@@ -974,7 +992,6 @@
     <property role="TrG5h" value="Analysis" />
     <property role="34LRSv" value="Analysis" />
     <property role="19KtqR" value="true" />
-    <property role="MwhBj" value="${module}/icons/analysis.png" />
     <property role="EcuMT" value="8962032619593737380" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="2od$re1E3yE" role="1TKVEl">
@@ -1012,6 +1029,9 @@
       <property role="IQ2ns" value="8962032619593737383" />
       <ref role="20lvS9" node="7LvyiX3EFhY" resolve="StatementList" />
     </node>
+    <node concept="1QGGSu" id="m2dhZuGNhq" role="rwd14">
+      <property role="1iqoE4" value="${module}/icons/analysis.png" />
+    </node>
   </node>
   <node concept="1TIwiD" id="7LvyiX4miiC">
     <property role="TrG5h" value="Statement" />
@@ -1045,7 +1065,6 @@
   <node concept="1TIwiD" id="4C4A90$OLbb">
     <property role="3GE5qa" value="plots" />
     <property role="TrG5h" value="PlotStyle" />
-    <property role="MwhBj" value="${module}/icons/style.png" />
     <property role="EcuMT" value="5333555603574035147" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="4C4A90$OQe6" role="1TKVEl">
@@ -1069,6 +1088,9 @@
     <node concept="asaX9" id="32mm941_Hcz" role="lGtFl">
       <property role="YLQ7P" value="Create a style with the styles language instead" />
       <property role="YLPcu" value="1.1.7" />
+    </node>
+    <node concept="1QGGSu" id="m2dhZuGNhp" role="rwd14">
+      <property role="1iqoE4" value="${module}/icons/style.png" />
     </node>
   </node>
   <node concept="1TIwiD" id="4C4A90$OO0Z">
@@ -1213,7 +1235,6 @@
   <node concept="1TIwiD" id="4cOBe2EdOid">
     <property role="3GE5qa" value="plots" />
     <property role="TrG5h" value="RenderStyle" />
-    <property role="MwhBj" value="${module}/icons/style.png" />
     <property role="EcuMT" value="4842667988072481933" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="4cOBe2EdOl5" role="1TKVEl">
@@ -1227,6 +1248,9 @@
     <node concept="asaX9" id="32mm941gYJ4" role="lGtFl">
       <property role="YLQ7P" value="Create a style with the styles language instead" />
       <property role="YLPcu" value="1.1.7" />
+    </node>
+    <node concept="1QGGSu" id="m2dhZuGNhn" role="rwd14">
+      <property role="1iqoE4" value="${module}/icons/style.png" />
     </node>
   </node>
   <node concept="1TIwiD" id="2rPl_HMV2so">

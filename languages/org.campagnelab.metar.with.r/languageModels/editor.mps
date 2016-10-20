@@ -2,7 +2,7 @@
 <model ref="r:d52e7483-1c15-4544-94bd-c5d2509a9687(org.campagnelab.metar.with.r.editor)">
   <persistence version="9" />
   <languages>
-    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="3" />
+    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="4" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -62,7 +62,7 @@
       </node>
       <node concept="2iRkQZ" id="5DjLoGckHeV" role="2iSdaV" />
       <node concept="3F1sOY" id="5DjLoGckHf3" role="3EZMnx">
-        <ref role="1NtTu8" to="mxmw:5DjLoGckEAh" />
+        <ref role="1NtTu8" to="mxmw:5DjLoGckEAh" resolve="expression" />
       </node>
       <node concept="3F0ifn" id="2o$O_6S9_xq" role="3EZMnx">
         <property role="3F0ifm" value="R ━━" />
@@ -80,10 +80,10 @@
     <node concept="3EZMnI" id="2o$O_6S9CyM" role="6VMZX">
       <node concept="l2Vlx" id="2o$O_6S9CyN" role="2iSdaV" />
       <node concept="1iCGBv" id="2o$O_6S9CyV" role="3EZMnx">
-        <ref role="1NtTu8" to="mxmw:5DjLoGckEAh" />
+        <ref role="1NtTu8" to="mxmw:5DjLoGckEAh" resolve="expression" />
         <node concept="1sVBvm" id="2o$O_6S9CyW" role="1sWHZn">
           <node concept="3F2HdR" id="2o$O_6S9Cz7" role="2wV5jI">
-            <ref role="1NtTu8" to="6q58:1XSraqAgkdq" />
+            <ref role="1NtTu8" to="6q58:1XSraqAgkdq" resolve="importedPackages" />
           </node>
         </node>
       </node>

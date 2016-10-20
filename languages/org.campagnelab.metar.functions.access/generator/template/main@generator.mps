@@ -14,9 +14,9 @@
     <use id="32f503e8-061b-451e-bcb0-fef56aa05eb9" name="org.campagnelab.metar.inspect" version="0" />
     <use id="ecf91126-e504-4aae-8ee7-3192d64e77f6" name="org.campagnelab.mps.XChart.types" version="0" />
     <use id="901f5cf3-dc77-4c1e-bc5a-6382baee28b4" name="org.campagnelab.textoutput" version="0" />
-    <use id="5d6bde84-4ce4-4eb5-a37e-25a5edd55129" name="org.campagnelab.metar.tables" version="1" />
+    <use id="5d6bde84-4ce4-4eb5-a37e-25a5edd55129" name="org.campagnelab.metar.tables" version="3" />
     <use id="3b58810c-8431-4bbb-99ea-b4671e02dd13" name="org.campagnelab.metar.R" version="1" />
-    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="1" />
+    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="3" />
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="4" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
@@ -186,12 +186,12 @@
                     <node concept="2OqwBi" id="37vylYNXtXa" role="3clFbG">
                       <node concept="2OqwBi" id="1sDyjSZgPS$" role="2Oq$k0">
                         <node concept="3TrEf2" id="1sDyjSZgPSB" role="2OqNvi">
-                          <ref role="3Tt5mk" to="89bg:YA$ymmojey" />
+                          <ref role="3Tt5mk" to="89bg:YA$ymmojey" resolve="call" />
                         </node>
                         <node concept="30H73N" id="1sDyjSZgPSC" role="2Oq$k0" />
                       </node>
                       <node concept="3TrEf2" id="37vylYNXurW" role="2OqNvi">
-                        <ref role="3Tt5mk" to="89bg:YA$ymny2Bt" />
+                        <ref role="3Tt5mk" to="89bg:YA$ymny2Bt" resolve="call" />
                       </node>
                     </node>
                   </node>
@@ -229,7 +229,7 @@
                 <node concept="2OqwBi" id="6efZaUj8KAU" role="3clFbG">
                   <node concept="30H73N" id="6efZaUj8K$c" role="2Oq$k0" />
                   <node concept="3TrEf2" id="6efZaUj8KNU" role="2OqNvi">
-                    <ref role="3Tt5mk" to="89bg:YA$ymny2Bt" />
+                    <ref role="3Tt5mk" to="89bg:YA$ymny2Bt" resolve="call" />
                   </node>
                 </node>
               </node>
@@ -264,7 +264,7 @@
                       <node concept="2OqwBi" id="55Sa2wh3aYw" role="2Oq$k0">
                         <node concept="30H73N" id="55Sa2wh3aYx" role="2Oq$k0" />
                         <node concept="3TrEf2" id="55Sa2wh3aYy" role="2OqNvi">
-                          <ref role="3Tt5mk" to="89bg:55Sa2wh1hYq" />
+                          <ref role="3Tt5mk" to="89bg:55Sa2wh1hYq" resolve="column" />
                         </node>
                       </node>
                       <node concept="2Xjw5R" id="55Sa2wh3aYz" role="2OqNvi">
@@ -300,7 +300,7 @@
                     <node concept="2OqwBi" id="55Sa2wh3aYR" role="2Oq$k0">
                       <node concept="30H73N" id="55Sa2wh3aYS" role="2Oq$k0" />
                       <node concept="3TrEf2" id="55Sa2wh3aYT" role="2OqNvi">
-                        <ref role="3Tt5mk" to="89bg:55Sa2wh1hYq" />
+                        <ref role="3Tt5mk" to="89bg:55Sa2wh1hYq" resolve="column" />
                       </node>
                     </node>
                     <node concept="3TrcHB" id="55Sa2wh3aYU" role="2OqNvi">

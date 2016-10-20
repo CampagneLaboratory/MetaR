@@ -2,14 +2,14 @@
 <model ref="r:648f7f3a-6e68-477c-9b9d-3aefa07150a0(org.campagnelab.editor.plugins.plugin)">
   <persistence version="9" />
   <languages>
-    <use id="28f9e497-3b42-4291-aeba-0a1039153ab1" name="jetbrains.mps.lang.plugin" version="0" />
+    <use id="28f9e497-3b42-4291-aeba-0a1039153ab1" name="jetbrains.mps.lang.plugin" version="1" />
     <use id="ef7bf5ac-d06c-4342-b11d-e42104eb9343" name="jetbrains.mps.lang.plugin.standalone" version="0" />
     <use id="63650c59-16c8-498a-99c8-005c7ee9515d" name="jetbrains.mps.lang.access" version="0" />
     <use id="443f4c36-fcf5-4eb6-9500-8d06ed259e3e" name="jetbrains.mps.baseLanguage.classifiers" version="0" />
-    <use id="982eb8df-2c96-4bd7-9963-11712ea622e5" name="jetbrains.mps.lang.resources" version="0" />
+    <use id="982eb8df-2c96-4bd7-9963-11712ea622e5" name="jetbrains.mps.lang.resources" version="2" />
     <use id="760a0a8c-eabb-4521-8bfd-65db761a9ba3" name="jetbrains.mps.baseLanguage.logging" version="0" />
-    <use id="5d6bde84-4ce4-4eb5-a37e-25a5edd55129" name="org.campagnelab.metar.tables" version="1" />
-    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="2" />
+    <use id="5d6bde84-4ce4-4eb5-a37e-25a5edd55129" name="org.campagnelab.metar.tables" version="3" />
+    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="4" />
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="4" />
   </languages>
   <imports>
@@ -29,9 +29,8 @@
   </imports>
   <registry>
     <language id="982eb8df-2c96-4bd7-9963-11712ea622e5" name="jetbrains.mps.lang.resources">
-      <concept id="8974276187400029883" name="jetbrains.mps.lang.resources.structure.IconResource" flags="ng" index="1QGGSu" />
-      <concept id="8974276187400029898" name="jetbrains.mps.lang.resources.structure.Resource" flags="ng" index="1QGGTJ">
-        <property id="8974276187400029899" name="path" index="1QGGTI" />
+      <concept id="8974276187400029883" name="jetbrains.mps.lang.resources.structure.FileIcon" flags="ng" index="1QGGSu">
+        <property id="2756621024541341363" name="file" index="1iqoE4" />
       </concept>
     </language>
     <language id="28f9e497-3b42-4291-aeba-0a1039153ab1" name="jetbrains.mps.lang.plugin">
@@ -332,7 +331,7 @@
       </node>
     </node>
     <node concept="1QGGSu" id="7iuWixLM6t_" role="1nVCmq">
-      <property role="1QGGTI" value="${module}/icons/table.png" />
+      <property role="1iqoE4" value="${module}/icons/table.png" />
     </node>
     <node concept="2xpOpl" id="7iuWixLQkhs" role="uR5co">
       <node concept="3clFbS" id="7iuWixLQkht" role="2VODD2">
@@ -508,7 +507,7 @@
       </node>
     </node>
     <node concept="1QGGSu" id="1xeqmqKNVkZ" role="3Uehp1">
-      <property role="1QGGTI" value="${module}/icons/table.png" />
+      <property role="1iqoE4" value="${module}/icons/table.png" />
     </node>
     <node concept="2ScWuX" id="1xeqmqLbJsj" role="tmbBb">
       <node concept="3clFbS" id="1xeqmqLbJsk" role="2VODD2">

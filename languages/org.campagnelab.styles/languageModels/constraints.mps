@@ -189,6 +189,10 @@
         <reference id="1177026940964" name="conceptDeclaration" index="cht4Q" />
       </concept>
       <concept id="1179409122411" name="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" flags="nn" index="2qgKlT" />
+      <concept id="2396822768958367367" name="jetbrains.mps.lang.smodel.structure.AbstractTypeCastExpression" flags="nn" index="$5XWr">
+        <reference id="6733348108486823428" name="concept" index="1m5ApE" />
+        <child id="6733348108486823193" name="leftExpression" index="1m5AlR" />
+      </concept>
       <concept id="1143234257716" name="jetbrains.mps.lang.smodel.structure.Node_GetModelOperation" flags="nn" index="I4A8Y" />
       <concept id="1182511038748" name="jetbrains.mps.lang.smodel.structure.Model_NodesIncludingImportedOperation" flags="nn" index="1j9C0f">
         <reference id="1182511038750" name="concept" index="1j9C0d" />
@@ -203,10 +207,7 @@
       <concept id="1172326502327" name="jetbrains.mps.lang.smodel.structure.Concept_IsExactlyOperation" flags="nn" index="3O6GUB">
         <child id="1206733650006" name="conceptArgument" index="3QVz_e" />
       </concept>
-      <concept id="1140137987495" name="jetbrains.mps.lang.smodel.structure.SNodeTypeCastExpression" flags="nn" index="1PxgMI">
-        <reference id="1140138128738" name="concept" index="1PxNhF" />
-        <child id="1140138123956" name="leftExpression" index="1PxMeX" />
-      </concept>
+      <concept id="1140137987495" name="jetbrains.mps.lang.smodel.structure.SNodeTypeCastExpression" flags="nn" index="1PxgMI" />
       <concept id="1138055754698" name="jetbrains.mps.lang.smodel.structure.SNodeType" flags="in" index="3Tqbb2">
         <reference id="1138405853777" name="concept" index="ehGHo" />
       </concept>
@@ -285,7 +286,7 @@
                               <ref role="3cqZAo" node="3i6SF3pziZz" resolve="it" />
                             </node>
                             <node concept="3TrEf2" id="2od$re2igG5" role="2OqNvi">
-                              <ref role="3Tt5mk" to="onla:32mm9410GdM" />
+                              <ref role="3Tt5mk" to="onla:32mm9410GdM" resolve="useStyle" />
                             </node>
                           </node>
                           <node concept="EsrRn" id="2od$re2igG2" role="3uHU7w" />
@@ -296,14 +297,14 @@
                               <ref role="3cqZAo" node="3i6SF3pziZz" resolve="it" />
                             </node>
                             <node concept="3TrEf2" id="2od$re2nJcq" role="2OqNvi">
-                              <ref role="3Tt5mk" to="onla:32mm9410GdM" />
+                              <ref role="3Tt5mk" to="onla:32mm9410GdM" resolve="useStyle" />
                             </node>
                           </node>
                           <node concept="2qgKlT" id="2od$re2nJcr" role="2OqNvi">
                             <ref role="37wK5l" to="42z1:2od$re2n_8R" resolve="isExtensionOf" />
                             <node concept="1PxgMI" id="2od$re2nJcs" role="37wK5m">
-                              <ref role="1PxNhF" to="onla:4FCgsrOfsVe" resolve="StyleContainer" />
-                              <node concept="EsrRn" id="2od$re2nJ_g" role="1PxMeX" />
+                              <ref role="1m5ApE" to="onla:4FCgsrOfsVe" resolve="StyleContainer" />
+                              <node concept="EsrRn" id="2od$re2nJ_g" role="1m5AlR" />
                             </node>
                           </node>
                         </node>
@@ -403,7 +404,7 @@
       </node>
     </node>
     <node concept="1N5Pfh" id="4FCgsrOgGuQ" role="1Mr941">
-      <ref role="1N5Vy1" to="onla:4FCgsrOgnEU" />
+      <ref role="1N5Vy1" to="onla:4FCgsrOgnEU" resolve="extends" />
       <node concept="13QW63" id="4FCgsrOjqmW" role="1N6uqs">
         <node concept="3clFbS" id="4FCgsrOjqmX" role="2VODD2">
           <node concept="3SKdUt" id="6pumIWoCFWx" role="3cqZAp">
@@ -417,8 +418,8 @@
                 <ref role="37wK5l" node="148oqpQ2cEq" resolve="StyleContainerExtendedSearchScope" />
                 <node concept="3kakTB" id="hDMFI8j" role="37wK5m" />
                 <node concept="1PxgMI" id="4FCgsrOjqvp" role="37wK5m">
-                  <ref role="1PxNhF" to="onla:4FCgsrOfsVe" resolve="StyleContainer" />
-                  <node concept="2rP1CM" id="73LS_qSKbnw" role="1PxMeX" />
+                  <ref role="1m5ApE" to="onla:4FCgsrOfsVe" resolve="StyleContainer" />
+                  <node concept="2rP1CM" id="73LS_qSKbnw" role="1m5AlR" />
                 </node>
               </node>
             </node>
@@ -510,7 +511,7 @@
                                     <ref role="3cqZAo" node="IOxL6x4oKh" resolve="node" />
                                   </node>
                                   <node concept="3TrEf2" id="4FCgsrOk86Y" role="2OqNvi">
-                                    <ref role="3Tt5mk" to="onla:4FCgsrOgnEU" />
+                                    <ref role="3Tt5mk" to="onla:4FCgsrOgnEU" resolve="extends" />
                                   </node>
                                 </node>
                                 <node concept="3x8VRR" id="4FCgsrOk8Cd" role="2OqNvi" />
@@ -522,7 +523,7 @@
                                     <ref role="3cqZAo" node="IOxL6x4oKh" resolve="node" />
                                   </node>
                                   <node concept="3TrEf2" id="4FCgsrOka5U" role="2OqNvi">
-                                    <ref role="3Tt5mk" to="onla:4FCgsrOgnEU" />
+                                    <ref role="3Tt5mk" to="onla:4FCgsrOgnEU" resolve="extends" />
                                   </node>
                                 </node>
                               </node>
@@ -815,7 +816,7 @@
   <node concept="1M2fIO" id="32mm9410H5w">
     <ref role="1M2myG" to="onla:4FCgsrOfk9w" resolve="UseStyle" />
     <node concept="1N5Pfh" id="32mm9410H8$" role="1Mr941">
-      <ref role="1N5Vy1" to="onla:32mm9410GdM" />
+      <ref role="1N5Vy1" to="onla:32mm9410GdM" resolve="useStyle" />
       <node concept="13QW63" id="32mm9410H8A" role="1N6uqs">
         <node concept="3clFbS" id="32mm9410H8B" role="2VODD2">
           <node concept="3clFbF" id="32mm9410HfD" role="3cqZAp">
@@ -823,8 +824,8 @@
               <node concept="1pGfFk" id="32mm9410HfF" role="2ShVmc">
                 <ref role="37wK5l" node="4FCgsrOprmq" resolve="UseStyleSearchScope" />
                 <node concept="1PxgMI" id="32mm9410HJx" role="37wK5m">
-                  <ref role="1PxNhF" to="onla:4FCgsrOfk9w" resolve="UseStyle" />
-                  <node concept="2rP1CM" id="32mm9410HFs" role="1PxMeX" />
+                  <ref role="1m5ApE" to="onla:4FCgsrOfk9w" resolve="UseStyle" />
+                  <node concept="2rP1CM" id="32mm9410HFs" role="1m5AlR" />
                 </node>
               </node>
             </node>
@@ -840,8 +841,8 @@
               <node concept="1pGfFk" id="32mm9410HVX" role="2ShVmc">
                 <ref role="37wK5l" node="4FCgsrOpsQL" resolve="UseStyleScope" />
                 <node concept="1PxgMI" id="32mm9410HVY" role="37wK5m">
-                  <ref role="1PxNhF" to="onla:4FCgsrOfk9w" resolve="UseStyle" />
-                  <node concept="2rP1CM" id="32mm9410HZH" role="1PxMeX" />
+                  <ref role="1m5ApE" to="onla:4FCgsrOfk9w" resolve="UseStyle" />
+                  <node concept="2rP1CM" id="32mm9410HZH" role="1m5AlR" />
                 </node>
               </node>
             </node>
@@ -884,7 +885,7 @@
                               <ref role="3cqZAo" node="3i6SF3p_oL8" resolve="it" />
                             </node>
                             <node concept="3TrEf2" id="2od$re2ifFO" role="2OqNvi">
-                              <ref role="3Tt5mk" to="onla:32mm9410GdM" />
+                              <ref role="3Tt5mk" to="onla:32mm9410GdM" resolve="useStyle" />
                             </node>
                           </node>
                           <node concept="nLn13" id="2od$re2ifFL" role="3uHU7w" />
@@ -898,14 +899,14 @@
                                     <ref role="3cqZAo" node="3i6SF3p_oL8" resolve="it" />
                                   </node>
                                   <node concept="3TrEf2" id="2od$re2nBJt" role="2OqNvi">
-                                    <ref role="3Tt5mk" to="onla:32mm9410GdM" />
+                                    <ref role="3Tt5mk" to="onla:32mm9410GdM" resolve="useStyle" />
                                   </node>
                                 </node>
                                 <node concept="2qgKlT" id="2od$re2nCUJ" role="2OqNvi">
                                   <ref role="37wK5l" to="42z1:2od$re2n_8R" resolve="isExtensionOf" />
                                   <node concept="1PxgMI" id="2od$re2nGCO" role="37wK5m">
-                                    <ref role="1PxNhF" to="onla:4FCgsrOfsVe" resolve="StyleContainer" />
-                                    <node concept="nLn13" id="2od$re2nGdS" role="1PxMeX" />
+                                    <ref role="1m5ApE" to="onla:4FCgsrOfsVe" resolve="StyleContainer" />
+                                    <node concept="nLn13" id="2od$re2nGdS" role="1m5AlR" />
                                   </node>
                                 </node>
                               </node>
@@ -1050,7 +1051,7 @@
     <property role="3GE5qa" value="elements.colors" />
     <ref role="1M2myG" to="onla:1xsIq4iKmQ" resolve="ColorPaletteRef" />
     <node concept="1N5Pfh" id="1xsIq4iKsT" role="1Mr941">
-      <ref role="1N5Vy1" to="onla:1xsIq4iKmT" />
+      <ref role="1N5Vy1" to="onla:1xsIq4iKmT" resolve="palette" />
       <node concept="3k9gUc" id="1xsIq4iKsV" role="3kmjI7">
         <node concept="3clFbS" id="1xsIq4iKsW" role="2VODD2">
           <node concept="3clFbF" id="1xsIq4iKQ0" role="3cqZAp">
@@ -1075,7 +1076,7 @@
               <node concept="2OqwBi" id="1xsIq4iM0f" role="37vLTJ">
                 <node concept="3kakTB" id="1xsIq4iLXK" role="2Oq$k0" />
                 <node concept="3TrEf2" id="1xsIq4iMAm" role="2OqNvi">
-                  <ref role="3Tt5mk" to="onla:1xsIq4iKmT" />
+                  <ref role="3Tt5mk" to="onla:1xsIq4iKmT" resolve="palette" />
                 </node>
               </node>
             </node>

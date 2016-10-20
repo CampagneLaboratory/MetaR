@@ -8,8 +8,8 @@
     <use id="b401a680-8325-4110-8fd3-84331ff25bef" name="jetbrains.mps.lang.generator" version="0" />
     <use id="289fcc83-6543-41e8-a5ca-768235715ce4" name="jetbrains.mps.lang.generator.generationParameters" version="0" />
     <use id="d7706f63-9be2-479c-a3da-ae92af1e64d5" name="jetbrains.mps.lang.generator.generationContext" version="0" />
-    <use id="aee9cad2-acd4-4608-aef2-0004f6a1cdbd" name="jetbrains.mps.lang.actions" version="0" />
-    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="1" />
+    <use id="aee9cad2-acd4-4608-aef2-0004f6a1cdbd" name="jetbrains.mps.lang.actions" version="3" />
+    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="3" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -188,7 +188,7 @@
             <node concept="2OqwBi" id="6HdeG84PN_k" role="33vP2m">
               <node concept="2Sf5sV" id="6HdeG84PNzr" role="2Oq$k0" />
               <node concept="3Tsc0h" id="6HdeG84PNR_" role="2OqNvi">
-                <ref role="3TtcxE" to="p6sl:4nKo47DZVJm" />
+                <ref role="3TtcxE" to="p6sl:4nKo47DZVJm" resolve="lines" />
               </node>
             </node>
           </node>
@@ -211,11 +211,11 @@
                   <ref role="3cqZAo" node="7LV$PmMGEyY" resolve="tryCatch" />
                 </node>
                 <node concept="3TrEf2" id="6HdeG84QV8q" role="2OqNvi">
-                  <ref role="3Tt5mk" to="8vtd:7LV$PmMyJV3" />
+                  <ref role="3Tt5mk" to="8vtd:7LV$PmMyJV3" resolve="try" />
                 </node>
               </node>
               <node concept="3Tsc0h" id="6HdeG84QWm$" role="2OqNvi">
-                <ref role="3TtcxE" to="p6sl:4nKo47DZVJm" />
+                <ref role="3TtcxE" to="p6sl:4nKo47DZVJm" resolve="lines" />
               </node>
             </node>
             <node concept="2Kehj3" id="6HdeG84R0Vl" role="2OqNvi" />
@@ -229,11 +229,11 @@
                   <ref role="3cqZAo" node="7LV$PmMGEyY" resolve="tryCatch" />
                 </node>
                 <node concept="3TrEf2" id="5O9cbgioO6j" role="2OqNvi">
-                  <ref role="3Tt5mk" to="8vtd:7LV$PmMyJV3" />
+                  <ref role="3Tt5mk" to="8vtd:7LV$PmMyJV3" resolve="try" />
                 </node>
               </node>
               <node concept="3Tsc0h" id="6HdeG84POnv" role="2OqNvi">
-                <ref role="3TtcxE" to="p6sl:4nKo47DZVJm" />
+                <ref role="3TtcxE" to="p6sl:4nKo47DZVJm" resolve="lines" />
               </node>
             </node>
             <node concept="X8dFx" id="6HdeG84PRfV" role="2OqNvi">
@@ -255,14 +255,14 @@
                 <ref role="3cqZAo" node="7LV$PmMGEyY" resolve="tryCatch" />
               </node>
               <node concept="3Tsc0h" id="5O9cbgioS44" role="2OqNvi">
-                <ref role="3TtcxE" to="tpck:4uZwTti3__2" />
+                <ref role="3TtcxE" to="tpck:4uZwTti3__2" resolve="smodelAttribute" />
               </node>
             </node>
             <node concept="X8dFx" id="5O9cbgip0Wi" role="2OqNvi">
               <node concept="2OqwBi" id="5O9cbgip0Wk" role="25WWJ7">
                 <node concept="2Sf5sV" id="5O9cbgip0Wl" role="2Oq$k0" />
                 <node concept="3Tsc0h" id="5O9cbgip0Wm" role="2OqNvi">
-                  <ref role="3TtcxE" to="tpck:4uZwTti3__2" />
+                  <ref role="3TtcxE" to="tpck:4uZwTti3__2" resolve="smodelAttribute" />
                 </node>
               </node>
             </node>
@@ -273,7 +273,7 @@
             <node concept="2OqwBi" id="5O9cbgip304" role="2Oq$k0">
               <node concept="2Sf5sV" id="5O9cbgip2Ey" role="2Oq$k0" />
               <node concept="3Tsc0h" id="5O9cbgip3hA" role="2OqNvi">
-                <ref role="3TtcxE" to="tpck:4uZwTti3__2" />
+                <ref role="3TtcxE" to="tpck:4uZwTti3__2" resolve="smodelAttribute" />
               </node>
             </node>
             <node concept="2Kehj3" id="5O9cbgip6$o" role="2OqNvi" />

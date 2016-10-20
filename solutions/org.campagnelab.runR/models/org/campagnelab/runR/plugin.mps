@@ -2,7 +2,7 @@
 <model ref="r:1b4467f9-9100-4799-aca8-5e1dda676616(org.campagnelab.runR.plugin)">
   <persistence version="9" />
   <languages>
-    <use id="28f9e497-3b42-4291-aeba-0a1039153ab1" name="jetbrains.mps.lang.plugin" version="0" />
+    <use id="28f9e497-3b42-4291-aeba-0a1039153ab1" name="jetbrains.mps.lang.plugin" version="1" />
     <use id="ef7bf5ac-d06c-4342-b11d-e42104eb9343" name="jetbrains.mps.lang.plugin.standalone" version="0" />
     <use id="f3347d8a-0e79-4f35-8ac9-1574f25c986f" name="jetbrains.mps.execution.commands" version="0" />
     <use id="760a0a8c-eabb-4521-8bfd-65db761a9ba3" name="jetbrains.mps.baseLanguage.logging" version="0" />
@@ -12,13 +12,13 @@
     <use id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections" version="0" />
     <use id="22e72e4c-0f69-46ce-8403-6750153aa615" name="jetbrains.mps.execution.configurations" version="0" />
     <use id="756e911c-3f1f-4a48-bdf5-a2ceb91b723c" name="jetbrains.mps.execution.settings" version="0" />
-    <use id="982eb8df-2c96-4bd7-9963-11712ea622e5" name="jetbrains.mps.lang.resources" version="0" />
+    <use id="982eb8df-2c96-4bd7-9963-11712ea622e5" name="jetbrains.mps.lang.resources" version="2" />
     <use id="63650c59-16c8-498a-99c8-005c7ee9515d" name="jetbrains.mps.lang.access" version="0" />
     <use id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core" version="1" />
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="4" />
-    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="2" />
+    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="4" />
     <use id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" name="jetbrains.mps.lang.typesystem" version="0" />
-    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="1" />
+    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="3" />
     <use id="ed6d7656-532c-4bc2-81d1-af945aeb8280" name="jetbrains.mps.baseLanguage.blTypes" version="0" />
     <use id="9ded098b-ad6a-4657-bfd9-48636cfe8bc3" name="jetbrains.mps.lang.traceable" version="0" />
     <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="2" />
@@ -675,10 +675,7 @@
         <child id="1140131861877" name="replacementNode" index="1P9ThW" />
       </concept>
       <concept id="1140133623887" name="jetbrains.mps.lang.smodel.structure.Node_DeleteOperation" flags="nn" index="1PgB_6" />
-      <concept id="1140137987495" name="jetbrains.mps.lang.smodel.structure.SNodeTypeCastExpression" flags="nn" index="1PxgMI">
-        <reference id="1140138128738" name="concept_old" index="1PxNhF" />
-        <child id="1140138123956" name="leftExpression_old" index="1PxMeX" />
-      </concept>
+      <concept id="1140137987495" name="jetbrains.mps.lang.smodel.structure.SNodeTypeCastExpression" flags="nn" index="1PxgMI" />
       <concept id="1138055754698" name="jetbrains.mps.lang.smodel.structure.SNodeType" flags="in" index="3Tqbb2">
         <reference id="1138405853777" name="concept" index="ehGHo" />
       </concept>
@@ -1067,8 +1064,8 @@
                         <node concept="2OqwBi" id="6W4RPA0zczm" role="3clFbG">
                           <node concept="2OqwBi" id="6W4RPA0zczn" role="2Oq$k0">
                             <node concept="1PxgMI" id="6W4RPA0zczo" role="2Oq$k0">
-                              <ref role="1PxNhF" to="jrxw:7LvyiX4mii$" resolve="Analysis" />
-                              <node concept="37vLTw" id="6W4RPA0zczp" role="1PxMeX">
+                              <ref role="1m5ApE" to="jrxw:7LvyiX4mii$" resolve="Analysis" />
+                              <node concept="37vLTw" id="6W4RPA0zczp" role="1m5AlR">
                                 <ref role="3cqZAo" node="6W4RPA0zczs" resolve="node" />
                               </node>
                             </node>
@@ -1106,8 +1103,8 @@
                               <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
                             </node>
                             <node concept="1PxgMI" id="6W4RPA0zdCg" role="2Oq$k0">
-                              <ref role="1PxNhF" to="6q58:5mPDeVwiJFe" resolve="RScript" />
-                              <node concept="37vLTw" id="6W4RPA0zdCh" role="1PxMeX">
+                              <ref role="1m5ApE" to="6q58:5mPDeVwiJFe" resolve="RScript" />
+                              <node concept="37vLTw" id="6W4RPA0zdCh" role="1m5AlR">
                                 <ref role="3cqZAo" node="6W4RPA0zdCj" resolve="node" />
                               </node>
                             </node>
@@ -2840,8 +2837,8 @@
                 </node>
                 <node concept="2OqwBi" id="5wICCZJ10zS" role="33vP2m">
                   <node concept="1PxgMI" id="5wICCZJ10zT" role="2Oq$k0">
-                    <ref role="1PxNhF" to="jrxw:2sgkdoKky$R" resolve="StatementCommentPart" />
-                    <node concept="2OqwBi" id="5wICCZJ10zU" role="1PxMeX">
+                    <ref role="1m5ApE" to="jrxw:2sgkdoKky$R" resolve="StatementCommentPart" />
+                    <node concept="2OqwBi" id="5wICCZJ10zU" role="1m5AlR">
                       <node concept="2OqwBi" id="5wICCZJ10zV" role="2Oq$k0">
                         <node concept="37vLTw" id="3GM_nagT__D" role="2Oq$k0">
                           <ref role="3cqZAo" node="5wICCZJ10zG" resolve="singleLineComment" />
@@ -9111,8 +9108,8 @@
                         <ref role="ehGHo" to="l5qg:6efZaUfXFRm" resolve="IGenerateToRScript" />
                       </node>
                       <node concept="1PxgMI" id="3zqZiqBLTdu" role="33vP2m">
-                        <ref role="1PxNhF" to="l5qg:6efZaUfXFRm" resolve="IGenerateToRScript" />
-                        <node concept="37vLTw" id="3zqZiqCsyU6" role="1PxMeX">
+                        <ref role="1m5ApE" to="l5qg:6efZaUfXFRm" resolve="IGenerateToRScript" />
+                        <node concept="37vLTw" id="3zqZiqCsyU6" role="1m5AlR">
                           <ref role="3cqZAo" node="3zqZiqCuj6C" resolve="theNode" />
                         </node>
                       </node>

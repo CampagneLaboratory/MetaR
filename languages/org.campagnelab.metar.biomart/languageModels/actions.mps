@@ -2,7 +2,7 @@
 <model ref="r:6f462b07-15bc-47d4-9686-184a01ba1859(org.campagnelab.metar.biomart.actions)">
   <persistence version="9" />
   <languages>
-    <use id="aee9cad2-acd4-4608-aef2-0004f6a1cdbd" name="jetbrains.mps.lang.actions" version="0" />
+    <use id="aee9cad2-acd4-4608-aef2-0004f6a1cdbd" name="jetbrains.mps.lang.actions" version="3" />
     <use id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior" version="0" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
@@ -277,7 +277,7 @@
                         <ref role="1M0zk5" node="6ULs$iIOfXD" resolve="filterRef" />
                       </node>
                       <node concept="3TrEf2" id="72b49AyDg2b" role="2OqNvi">
-                        <ref role="3Tt5mk" to="c07g:1JNk8OtCx6s" />
+                        <ref role="3Tt5mk" to="c07g:1JNk8OtCx6s" resolve="filterRef" />
                       </node>
                     </node>
                     <node concept="3TrcHB" id="72b49AyDg2c" role="2OqNvi">
@@ -324,7 +324,7 @@
                     <node concept="2OqwBi" id="6ULs$iIOlEF" role="3clFbG">
                       <node concept="1r4Lsj" id="6ULs$iIOlC6" role="2Oq$k0" />
                       <node concept="3TrEf2" id="6ULs$iIOlNO" role="2OqNvi">
-                        <ref role="3Tt5mk" to="c07g:72b49Azcmj8" />
+                        <ref role="3Tt5mk" to="c07g:72b49Azcmj8" resolve="filterListValue" />
                       </node>
                     </node>
                   </node>
@@ -336,7 +336,7 @@
                         <ref role="1M0zk5" node="6ULs$iIOiEM" resolve="filterRef" />
                       </node>
                       <node concept="3TrEf2" id="6ULs$iIOiF1" role="2OqNvi">
-                        <ref role="3Tt5mk" to="c07g:1JNk8OtCx6s" />
+                        <ref role="3Tt5mk" to="c07g:1JNk8OtCx6s" resolve="filterRef" />
                       </node>
                     </node>
                     <node concept="3TrcHB" id="6ULs$iIOiF2" role="2OqNvi">

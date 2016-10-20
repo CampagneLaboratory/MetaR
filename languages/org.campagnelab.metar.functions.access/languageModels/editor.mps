@@ -2,8 +2,8 @@
 <model ref="r:44db3f53-3da4-4cf7-b51d-a65f896d0feb(org.campagnelab.metar.functions.access.editor)">
   <persistence version="9" />
   <languages>
-    <use id="aee9cad2-acd4-4608-aef2-0004f6a1cdbd" name="jetbrains.mps.lang.actions" version="0" />
-    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="3" />
+    <use id="aee9cad2-acd4-4608-aef2-0004f6a1cdbd" name="jetbrains.mps.lang.actions" version="3" />
+    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="4" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -109,7 +109,7 @@
     <node concept="3EZMnI" id="4SiK8hIDZ_G" role="2wV5jI">
       <node concept="2iRfu4" id="4SiK8hIDZ_H" role="2iSdaV" />
       <node concept="3F1sOY" id="2ExvV8pt9qE" role="3EZMnx">
-        <ref role="1NtTu8" to="89bg:YA$ymmojey" />
+        <ref role="1NtTu8" to="89bg:YA$ymmojey" resolve="call" />
       </node>
     </node>
   </node>
@@ -123,7 +123,7 @@
       <node concept="1iCGBv" id="YA$ymny341" role="3EZMnx">
         <property role="1$x2rV" value="select function" />
         <property role="1cu_pB" value="1" />
-        <ref role="1NtTu8" to="89bg:YA$ymny2C_" />
+        <ref role="1NtTu8" to="89bg:YA$ymny2C_" resolve="ref" />
         <node concept="1sVBvm" id="YA$ymny342" role="1sWHZn">
           <node concept="3F0A7n" id="YA$ymny3u1" role="2wV5jI">
             <property role="1Intyy" value="true" />
@@ -137,7 +137,7 @@
                 <node concept="2OqwBi" id="YA$ymny348" role="2Oq$k0">
                   <node concept="pncrf" id="YA$ymny349" role="2Oq$k0" />
                   <node concept="3TrEf2" id="YA$ymny3HS" role="2OqNvi">
-                    <ref role="3Tt5mk" to="89bg:YA$ymny2Bt" />
+                    <ref role="3Tt5mk" to="89bg:YA$ymny2Bt" resolve="call" />
                   </node>
                 </node>
                 <node concept="3w_OXm" id="YA$ymny34b" role="2OqNvi" />
@@ -152,7 +152,7 @@
                 <node concept="2OqwBi" id="37vylYOaoEU" role="2Oq$k0">
                   <node concept="pncrf" id="37vylYOaoA8" role="2Oq$k0" />
                   <node concept="3TrEf2" id="37vylYOap7w" role="2OqNvi">
-                    <ref role="3Tt5mk" to="89bg:YA$ymny2Bt" />
+                    <ref role="3Tt5mk" to="89bg:YA$ymny2Bt" resolve="call" />
                   </node>
                 </node>
                 <node concept="3w_OXm" id="37vylYOapEd" role="2OqNvi" />
@@ -163,7 +163,7 @@
       </node>
       <node concept="3F1sOY" id="YA$ymny34c" role="3EZMnx">
         <property role="2ru_X1" value="true" />
-        <ref role="1NtTu8" to="89bg:YA$ymny2Bt" />
+        <ref role="1NtTu8" to="89bg:YA$ymny2Bt" resolve="call" />
         <ref role="1ERwB7" node="213CARpvNUu" resolve="CleanFunctionCall" />
         <node concept="3EZMnI" id="1hAe0O97fZL" role="2ruayu">
           <node concept="VPM3Z" id="1hAe0O97fZM" role="3F10Kt">
@@ -247,7 +247,7 @@
         <property role="3F0ifm" value="${" />
       </node>
       <node concept="1iCGBv" id="55Sa2wh1hZQ" role="3EZMnx">
-        <ref role="1NtTu8" to="89bg:55Sa2wh1hYq" />
+        <ref role="1NtTu8" to="89bg:55Sa2wh1hYq" resolve="column" />
         <node concept="1sVBvm" id="55Sa2wh1hZR" role="1sWHZn">
           <node concept="3F0A7n" id="55Sa2wh1hZS" role="2wV5jI">
             <property role="1Intyy" value="true" />

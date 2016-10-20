@@ -2,8 +2,9 @@
 <model ref="r:97268463-8a58-42b7-9dc6-fa004b7a4308(org.campagnelab.metar.R.structure)">
   <persistence version="9" />
   <languages>
-    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="-1" />
+    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="3" />
     <use id="5d6bde84-4ce4-4eb5-a37e-25a5edd55129" name="org.campagnelab.metar.tables" version="3" />
+    <use id="982eb8df-2c96-4bd7-9963-11712ea622e5" name="jetbrains.mps.lang.resources" version="2" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -15,6 +16,11 @@
     <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" implicit="true" />
   </imports>
   <registry>
+    <language id="982eb8df-2c96-4bd7-9963-11712ea622e5" name="jetbrains.mps.lang.resources">
+      <concept id="8974276187400029883" name="jetbrains.mps.lang.resources.structure.FileIcon" flags="ng" index="1QGGSu">
+        <property id="2756621024541341363" name="file" index="1iqoE4" />
+      </concept>
+    </language>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
       <concept id="1224240836180" name="jetbrains.mps.lang.structure.structure.DeprecatedNodeAnnotation" flags="ig" index="asaX9" />
       <concept id="1082978499127" name="jetbrains.mps.lang.structure.structure.ConstrainedDataTypeDeclaration" flags="ng" index="Az7Fb">
@@ -36,9 +42,9 @@
         <reference id="1169127628841" name="intfc" index="PrY4T" />
       </concept>
       <concept id="1071489090640" name="jetbrains.mps.lang.structure.structure.ConceptDeclaration" flags="ig" index="1TIwiD">
-        <property id="1160488491229" name="iconPath" index="MwhBj" />
         <property id="1096454100552" name="rootable" index="19KtqR" />
         <reference id="1071489389519" name="extends" index="1TJDcQ" />
+        <child id="6327362524875300597" name="icon" index="rwd14" />
         <child id="1169129564478" name="implements" index="PzmwI" />
       </concept>
       <concept id="1071489288299" name="jetbrains.mps.lang.structure.structure.PropertyDeclaration" flags="ig" index="1TJgyi">
@@ -87,7 +93,6 @@
     <property role="TrG5h" value="RScript" />
     <property role="OYydz" value="Program" />
     <property role="19KtqR" value="true" />
-    <property role="MwhBj" value="${module}/icons/R-icon-2.png" />
     <property role="EcuMT" value="6176023809880685262" />
     <ref role="1TJDcQ" node="5mPDeVwiJFd" resolve="Prog" />
     <node concept="PrWs8" id="3V2IUSrKJMt" role="PzmwI">
@@ -107,6 +112,9 @@
     </node>
     <node concept="PrWs8" id="52J4nYwn4__" role="PzmwI">
       <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
+    </node>
+    <node concept="1QGGSu" id="m2dhZuGWBX" role="rwd14">
+      <property role="1iqoE4" value="${module}/icons/R-icon-2.png" />
     </node>
   </node>
   <node concept="1TIwiD" id="5mPDeVwiPap">
@@ -1250,7 +1258,6 @@
   <node concept="1TIwiD" id="6efZaUgJXbW">
     <property role="TrG5h" value="Stubs" />
     <property role="19KtqR" value="true" />
-    <property role="MwhBj" value="${module}/icons/sutbs-5.png" />
     <property role="EcuMT" value="7174230558107489020" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="6efZaUgJXbX" role="1TKVEl">
@@ -1278,6 +1285,9 @@
     </node>
     <node concept="PrWs8" id="6efZaUgJXc1" role="PzmwI">
       <ref role="PrY4T" to="l5qg:6efZaUgJLSo" resolve="IExposeIdentifiers" />
+    </node>
+    <node concept="1QGGSu" id="m2dhZuGWBW" role="rwd14">
+      <property role="1iqoE4" value="${module}/icons/sutbs-5.png" />
     </node>
   </node>
   <node concept="1TIwiD" id="1XSraqAgjQs">

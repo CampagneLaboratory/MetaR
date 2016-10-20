@@ -2,7 +2,7 @@
 <model ref="r:36f92bcd-dc6d-4559-9680-d9c9ef56ab9e(org.campagnelab.metar.plots.editor)">
   <persistence version="9" />
   <languages>
-    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="3" />
+    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="4" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -69,7 +69,7 @@
         <property role="3F0ifm" value="with stats from" />
       </node>
       <node concept="3F1sOY" id="3jH$tF$DBnm" role="3EZMnx">
-        <ref role="1NtTu8" to="jugs:3jH$tF$DBmW" />
+        <ref role="1NtTu8" to="jugs:3jH$tF$DBmW" resolve="statsTable" />
       </node>
       <node concept="l2Vlx" id="3jH$tF$DBnc" role="2iSdaV" />
       <node concept="3F0ifn" id="3jH$tF$DF4r" role="3EZMnx">
@@ -82,7 +82,7 @@
         <property role="3F0ifm" value="label set:" />
       </node>
       <node concept="1iCGBv" id="3jH$tF$ROFw" role="3EZMnx">
-        <ref role="1NtTu8" to="jugs:3jH$tF$QJoy" />
+        <ref role="1NtTu8" to="jugs:3jH$tF$QJoy" resolve="geneList" />
         <ref role="1k5W1q" to="8gqa:7Hltlm8C$po" resolve="GeneListName" />
         <node concept="1sVBvm" id="3jH$tF$ROFy" role="1sWHZn">
           <node concept="3F0A7n" id="3jH$tF$ROFW" role="2wV5jI">
@@ -95,7 +95,7 @@
         <property role="3F0ifm" value="with" />
       </node>
       <node concept="1iCGBv" id="3AJ457wDFDV" role="3EZMnx">
-        <ref role="1NtTu8" to="jugs:3AJ457wDFB6" />
+        <ref role="1NtTu8" to="jugs:3AJ457wDFB6" resolve="geneName" />
         <ref role="1k5W1q" to="8gqa:7Hltlm8E96y" resolve="GroupName" />
         <node concept="1sVBvm" id="3AJ457wDFDX" role="1sWHZn">
           <node concept="3F0A7n" id="3AJ457wDFEX" role="2wV5jI">
@@ -108,10 +108,10 @@
         <property role="3F0ifm" value="-&gt;" />
       </node>
       <node concept="3F1sOY" id="3jH$tF$DBp8" role="3EZMnx">
-        <ref role="1NtTu8" to="jugs:5gXsBBL6Ceq" />
+        <ref role="1NtTu8" to="jugs:5gXsBBL6Ceq" resolve="plot" />
       </node>
       <node concept="1iCGBv" id="3AJ457wIweS" role="3EZMnx">
-        <ref role="1NtTu8" to="onla:32mm9410GdM" />
+        <ref role="1NtTu8" to="onla:32mm9410GdM" resolve="useStyle" />
         <ref role="1k5W1q" to="h23j:3edJYE6DDKe" resolve="StyleName" />
         <node concept="1sVBvm" id="3AJ457wIweU" role="1sWHZn">
           <node concept="3F0A7n" id="3AJ457wIwfO" role="2wV5jI">
@@ -126,19 +126,19 @@
         <property role="3F0ifm" value="log fold change column name" />
       </node>
       <node concept="3F1sOY" id="3AJ457wCOOv" role="3EZMnx">
-        <ref role="1NtTu8" to="jugs:3AJ457wCC3D" />
+        <ref role="1NtTu8" to="jugs:3AJ457wCC3D" resolve="logFC" />
       </node>
       <node concept="3F0ifn" id="3jH$tF$E4Iq" role="3EZMnx">
         <property role="3F0ifm" value="adjusted P value column name" />
       </node>
       <node concept="3F1sOY" id="3AJ457wCC6P" role="3EZMnx">
-        <ref role="1NtTu8" to="jugs:3AJ457wCC3Y" />
+        <ref role="1NtTu8" to="jugs:3AJ457wCC3Y" resolve="significanceLevelFDR" />
       </node>
       <node concept="3F0ifn" id="3jH$tF$DBpv" role="3EZMnx">
         <property role="3F0ifm" value="expression column name" />
       </node>
       <node concept="3F1sOY" id="3AJ457wCC8U" role="3EZMnx">
-        <ref role="1NtTu8" to="jugs:3AJ457wCC3o" />
+        <ref role="1NtTu8" to="jugs:3AJ457wCC3o" resolve="meanExpression" />
       </node>
       <node concept="3F0ifn" id="3jH$tF$DFHs" role="3EZMnx">
         <property role="3F0ifm" value="mininum AverageExpression=" />
@@ -160,7 +160,7 @@
       </node>
       <node concept="3F2HdR" id="3FhMZyLf61x" role="3EZMnx">
         <property role="S$F3r" value="true" />
-        <ref role="1NtTu8" to="jugs:kv77ytcHuc" />
+        <ref role="1NtTu8" to="jugs:kv77ytcHuc" resolve="sets" />
         <node concept="2iRkQZ" id="3FhMZyLf61$" role="2czzBx" />
       </node>
       <node concept="3F0ifn" id="3FhMZyLf62d" role="3EZMnx">
@@ -170,7 +170,7 @@
         <property role="3F0ifm" value="-&gt;" />
       </node>
       <node concept="3F1sOY" id="3FhMZyLf61X" role="3EZMnx">
-        <ref role="1NtTu8" to="jugs:kv77ytcHua" />
+        <ref role="1NtTu8" to="jugs:kv77ytcHua" resolve="plot" />
         <ref role="1k5W1q" to="8gqa:7Hltlm8D5QS" resolve="Plot" />
       </node>
       <node concept="2iRfu4" id="3FhMZyLf61i" role="2iSdaV" />
@@ -184,7 +184,7 @@
         <property role="3F0ifm" value="set" />
       </node>
       <node concept="1iCGBv" id="1c1rOX4$YT6" role="3EZMnx">
-        <ref role="1NtTu8" to="jugs:1c1rOX4$YSJ" />
+        <ref role="1NtTu8" to="jugs:1c1rOX4$YSJ" resolve="ids" />
         <ref role="1k5W1q" to="8gqa:7Hltlm8C$po" resolve="GeneListName" />
         <node concept="1sVBvm" id="1c1rOX4$YT8" role="1sWHZn">
           <node concept="3F0A7n" id="1c1rOX4$YTg" role="2wV5jI">
@@ -206,7 +206,7 @@
         <property role="3F0ifm" value="when true:" />
       </node>
       <node concept="3F1sOY" id="1c1rOX4HB0x" role="3EZMnx">
-        <ref role="1NtTu8" to="jugs:t0TZVlt6GR" />
+        <ref role="1NtTu8" to="jugs:t0TZVlt6GR" resolve="expression" />
       </node>
       <node concept="3F0ifn" id="1c1rOX4HRcW" role="3EZMnx">
         <property role="3F0ifm" value="name of set:" />

@@ -2,7 +2,7 @@
 <model ref="r:24158356-adae-4ddf-b4af-bca9f278ca70(org.campagnelab.metar.simulation.editor)">
   <persistence version="9" />
   <languages>
-    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="3" />
+    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="4" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -133,7 +133,7 @@
       </node>
       <node concept="3F2HdR" id="6kVgbi6ijRY" role="3EZMnx">
         <property role="2czwfO" value="," />
-        <ref role="1NtTu8" to="hgbr:2734ievAQvk" />
+        <ref role="1NtTu8" to="hgbr:2734ievAQvk" resolve="discreteFactors" />
         <node concept="l2Vlx" id="6kVgbi6ijS0" role="2czzBx" />
         <node concept="ljvvj" id="4lfKH_Jeftd" role="3F10Kt">
           <property role="VOm3f" value="true" />
@@ -151,7 +151,7 @@
         <ref role="1NtTu8" to="hgbr:4lfKH_Jefvc" resolve="effect_size" />
       </node>
       <node concept="3F1sOY" id="2734ievAQxj" role="3EZMnx">
-        <ref role="1NtTu8" to="hgbr:2734ievAQvm" />
+        <ref role="1NtTu8" to="hgbr:2734ievAQvm" resolve="continuousCovariate" />
         <node concept="lj46D" id="7hF4JJ2PFJL" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>
@@ -166,7 +166,7 @@
         </node>
       </node>
       <node concept="3F1sOY" id="7hF4JJ2KwEj" role="3EZMnx">
-        <ref role="1NtTu8" to="hgbr:7$n2ViPrFPR" />
+        <ref role="1NtTu8" to="hgbr:7$n2ViPrFPR" resolve="simulationTable" />
       </node>
     </node>
     <node concept="3EZMnI" id="2BlsMIUVTrV" role="6VMZX">
@@ -268,7 +268,7 @@
         </node>
       </node>
       <node concept="3F2HdR" id="2WRhvFtnx7L" role="3EZMnx">
-        <ref role="1NtTu8" to="ztlb:1UijAvvb9DO" />
+        <ref role="1NtTu8" to="ztlb:1UijAvvb9DO" resolve="columns" />
         <node concept="l2Vlx" id="2WRhvFtnx7N" role="2czzBx" />
         <node concept="pVoyu" id="2WRhvFtnx82" role="3F10Kt">
           <property role="VOm3f" value="true" />
@@ -295,7 +295,7 @@
   <node concept="24kQdi" id="oeXtRXnOfv">
     <ref role="1XX52x" to="hgbr:oeXtRXmVOQ" resolve="CovariateTableRef" />
     <node concept="1iCGBv" id="oeXtRXnOBV" role="2wV5jI">
-      <ref role="1NtTu8" to="hgbr:oeXtRXnOb3" />
+      <ref role="1NtTu8" to="hgbr:oeXtRXnOb3" resolve="table" />
       <node concept="1sVBvm" id="oeXtRXnOBX" role="1sWHZn">
         <node concept="3F0A7n" id="oeXtRXnOC4" role="2wV5jI">
           <property role="1Intyy" value="true" />
@@ -304,7 +304,7 @@
       </node>
     </node>
     <node concept="1iCGBv" id="oeXtRXnOC7" role="6VMZX">
-      <ref role="1NtTu8" to="hgbr:oeXtRXnOb3" />
+      <ref role="1NtTu8" to="hgbr:oeXtRXnOb3" resolve="table" />
       <node concept="1sVBvm" id="oeXtRXnOC8" role="1sWHZn">
         <node concept="PMmxH" id="oeXtRXnOCd" role="2wV5jI">
           <ref role="PMmxG" to="8gqa:AkpVsnx_dO" resolve="TableEditorInspectorComponent" />

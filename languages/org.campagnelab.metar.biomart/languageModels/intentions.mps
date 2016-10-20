@@ -3,7 +3,7 @@
   <persistence version="9" />
   <languages>
     <use id="d7a92d38-f7db-40d0-8431-763b0c3c9f20" name="jetbrains.mps.lang.intentions" version="0" />
-    <use id="aee9cad2-acd4-4608-aef2-0004f6a1cdbd" name="jetbrains.mps.lang.actions" version="0" />
+    <use id="aee9cad2-acd4-4608-aef2-0004f6a1cdbd" name="jetbrains.mps.lang.actions" version="3" />
     <use id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core" version="1" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
@@ -341,7 +341,7 @@
                                 <ref role="2Gs0qQ" node="1UH1ei6Cwkr" resolve="query" />
                               </node>
                               <node concept="3TrEf2" id="1UH1ei6CEZw" role="2OqNvi">
-                                <ref role="3Tt5mk" to="c07g:KwXu1WjUL4" />
+                                <ref role="3Tt5mk" to="c07g:KwXu1WjUL4" resolve="martDatabase" />
                               </node>
                             </node>
                             <node concept="3TrcHB" id="1UH1ei6CG6c" role="2OqNvi">
@@ -363,7 +363,7 @@
                                 <ref role="2Gs0qQ" node="1UH1ei6Cwkr" resolve="query" />
                               </node>
                               <node concept="3TrEf2" id="1UH1ei6CHdX" role="2OqNvi">
-                                <ref role="3Tt5mk" to="c07g:KwXu1X1JZ9" />
+                                <ref role="3Tt5mk" to="c07g:KwXu1X1JZ9" resolve="martDataset" />
                               </node>
                             </node>
                             <node concept="3TrcHB" id="1UH1ei6CGyr" role="2OqNvi">
@@ -382,7 +382,7 @@
                           <ref role="2Gs0qQ" node="1UH1ei6Cwkr" resolve="query" />
                         </node>
                         <node concept="3TrEf2" id="6mn2T7SJBQk" role="2OqNvi">
-                          <ref role="3Tt5mk" to="c07g:KwXu1X1JZ9" />
+                          <ref role="3Tt5mk" to="c07g:KwXu1X1JZ9" resolve="martDataset" />
                         </node>
                       </node>
                       <node concept="3x8VRR" id="6mn2T7SJCCU" role="2OqNvi" />
@@ -393,7 +393,7 @@
                           <ref role="2Gs0qQ" node="1UH1ei6Cwkr" resolve="query" />
                         </node>
                         <node concept="3TrEf2" id="6mn2T7SJ_TW" role="2OqNvi">
-                          <ref role="3Tt5mk" to="c07g:KwXu1WjUL4" />
+                          <ref role="3Tt5mk" to="c07g:KwXu1WjUL4" resolve="martDatabase" />
                         </node>
                       </node>
                       <node concept="3x8VRR" id="6mn2T7SJAua" role="2OqNvi" />
@@ -527,7 +527,7 @@
                                 </node>
                               </node>
                               <node concept="3Tsc0h" id="1UH1ei6Dk5H" role="2OqNvi">
-                                <ref role="3TtcxE" to="c07g:6Om6Mbm3Tzy" />
+                                <ref role="3TtcxE" to="c07g:6Om6Mbm3Tzy" resolve="databasesList" />
                               </node>
                             </node>
                             <node concept="1z4cxt" id="1UH1ei6Dk5I" role="2OqNvi">
@@ -573,7 +573,7 @@
                               </node>
                             </node>
                             <node concept="3TrEf2" id="1UH1ei6Dha2" role="2OqNvi">
-                              <ref role="3Tt5mk" to="c07g:KwXu1WjUL4" />
+                              <ref role="3Tt5mk" to="c07g:KwXu1WjUL4" resolve="martDatabase" />
                             </node>
                           </node>
                         </node>
@@ -584,7 +584,7 @@
                             <node concept="2OqwBi" id="1UH1ei6Dm6O" role="3clFbG">
                               <node concept="2OqwBi" id="1UH1ei6Dm6P" role="2Oq$k0">
                                 <node concept="3TrEf2" id="1UH1ei6Dm6R" role="2OqNvi">
-                                  <ref role="3Tt5mk" to="c07g:KwXu1WjUL4" />
+                                  <ref role="3Tt5mk" to="c07g:KwXu1WjUL4" resolve="martDatabase" />
                                 </node>
                                 <node concept="1y4W85" id="1UH1ei6Dmjb" role="2Oq$k0">
                                   <node concept="37vLTw" id="1UH1ei6Dmjc" role="1y58nS">
@@ -612,7 +612,7 @@
                           <node concept="2OqwBi" id="1UH1ei6Fm9P" role="2Oq$k0">
                             <node concept="2OqwBi" id="1UH1ei6FlOQ" role="2Oq$k0">
                               <node concept="3TrEf2" id="1UH1ei6FlOR" role="2OqNvi">
-                                <ref role="3Tt5mk" to="c07g:KwXu1WjUL4" />
+                                <ref role="3Tt5mk" to="c07g:KwXu1WjUL4" resolve="martDatabase" />
                               </node>
                               <node concept="1y4W85" id="1UH1ei6FlOS" role="2Oq$k0">
                                 <node concept="37vLTw" id="1UH1ei6FlOT" role="1y58nS">
@@ -624,7 +624,7 @@
                               </node>
                             </node>
                             <node concept="3Tsc0h" id="1UH1ei6FmmE" role="2OqNvi">
-                              <ref role="3TtcxE" to="c07g:KwXu1W7GU_" />
+                              <ref role="3TtcxE" to="c07g:KwXu1W7GU_" resolve="datasets" />
                             </node>
                           </node>
                           <node concept="1v1jN8" id="1UH1ei6FoKW" role="2OqNvi" />
@@ -643,7 +643,7 @@
                               </node>
                             </node>
                             <node concept="3TrEf2" id="1UH1ei6DjuR" role="2OqNvi">
-                              <ref role="3Tt5mk" to="c07g:KwXu1X1JZ9" />
+                              <ref role="3Tt5mk" to="c07g:KwXu1X1JZ9" resolve="martDataset" />
                             </node>
                           </node>
                           <node concept="2OqwBi" id="1UH1ei6Doj4" role="37vLTx">
@@ -658,11 +658,11 @@
                                   </node>
                                 </node>
                                 <node concept="3TrEf2" id="1UH1ei6DmLP" role="2OqNvi">
-                                  <ref role="3Tt5mk" to="c07g:KwXu1WjUL4" />
+                                  <ref role="3Tt5mk" to="c07g:KwXu1WjUL4" resolve="martDatabase" />
                                 </node>
                               </node>
                               <node concept="3Tsc0h" id="1UH1ei6Dnkz" role="2OqNvi">
-                                <ref role="3TtcxE" to="c07g:KwXu1W7GU_" />
+                                <ref role="3TtcxE" to="c07g:KwXu1W7GU_" resolve="datasets" />
                               </node>
                             </node>
                             <node concept="1z4cxt" id="1UH1ei6DraW" role="2OqNvi">
@@ -714,7 +714,7 @@
                                   </node>
                                 </node>
                                 <node concept="3TrEf2" id="1UH1ei6DxUD" role="2OqNvi">
-                                  <ref role="3Tt5mk" to="c07g:KwXu1X1JZ9" />
+                                  <ref role="3Tt5mk" to="c07g:KwXu1X1JZ9" resolve="martDataset" />
                                 </node>
                               </node>
                               <node concept="2qgKlT" id="1UH1ei6Dy_M" role="2OqNvi">
@@ -734,7 +734,7 @@
                           <node concept="2OqwBi" id="1UH1ei6FpqO" role="2Oq$k0">
                             <node concept="2OqwBi" id="1UH1ei6FpqP" role="2Oq$k0">
                               <node concept="3TrEf2" id="1UH1ei6FpJr" role="2OqNvi">
-                                <ref role="3Tt5mk" to="c07g:KwXu1X1JZ9" />
+                                <ref role="3Tt5mk" to="c07g:KwXu1X1JZ9" resolve="martDataset" />
                               </node>
                               <node concept="1y4W85" id="1UH1ei6FpqR" role="2Oq$k0">
                                 <node concept="37vLTw" id="1UH1ei6FpqS" role="1y58nS">
@@ -746,7 +746,7 @@
                               </node>
                             </node>
                             <node concept="3Tsc0h" id="1UH1ei6FpXb" role="2OqNvi">
-                              <ref role="3TtcxE" to="c07g:KwXu1WyoBF" />
+                              <ref role="3TtcxE" to="c07g:KwXu1WyoBF" resolve="attributes" />
                             </node>
                           </node>
                           <node concept="1v1jN8" id="1UH1ei6FtLL" role="2OqNvi" />
@@ -766,7 +766,7 @@
                                   </node>
                                 </node>
                                 <node concept="3TrEf2" id="1UH1ei6Fus2" role="2OqNvi">
-                                  <ref role="3Tt5mk" to="c07g:KwXu1X1JZ9" />
+                                  <ref role="3Tt5mk" to="c07g:KwXu1X1JZ9" resolve="martDataset" />
                                 </node>
                               </node>
                               <node concept="2qgKlT" id="1UH1ei6Fus3" role="2OqNvi">
@@ -786,7 +786,7 @@
                           <node concept="2OqwBi" id="1UH1ei6Fubv" role="2Oq$k0">
                             <node concept="2OqwBi" id="1UH1ei6Fubw" role="2Oq$k0">
                               <node concept="3TrEf2" id="1UH1ei6Fubx" role="2OqNvi">
-                                <ref role="3Tt5mk" to="c07g:KwXu1X1JZ9" />
+                                <ref role="3Tt5mk" to="c07g:KwXu1X1JZ9" resolve="martDataset" />
                               </node>
                               <node concept="1y4W85" id="1UH1ei6Fuby" role="2Oq$k0">
                                 <node concept="37vLTw" id="1UH1ei6Fubz" role="1y58nS">
@@ -798,7 +798,7 @@
                               </node>
                             </node>
                             <node concept="3Tsc0h" id="1UH1ei6FvdO" role="2OqNvi">
-                              <ref role="3TtcxE" to="c07g:1JNk8OtBUD9" />
+                              <ref role="3TtcxE" to="c07g:1JNk8OtBUD9" resolve="filters" />
                             </node>
                           </node>
                           <node concept="1v1jN8" id="1UH1ei6FubA" role="2OqNvi" />
@@ -989,7 +989,7 @@
                 <node concept="2OqwBi" id="2o$O_6SqhFi" role="2Oq$k0">
                   <node concept="2Sf5sV" id="2o$O_6SqhCs" role="2Oq$k0" />
                   <node concept="3TrEf2" id="2o$O_6SqhWc" role="2OqNvi">
-                    <ref role="3Tt5mk" to="c07g:KwXu1WjUL4" />
+                    <ref role="3Tt5mk" to="c07g:KwXu1WjUL4" resolve="martDatabase" />
                   </node>
                 </node>
                 <node concept="3TrcHB" id="2o$O_6SrxKe" role="2OqNvi">
@@ -1000,7 +1000,7 @@
                 <node concept="2OqwBi" id="2o$O_6Sqi2o" role="2Oq$k0">
                   <node concept="2Sf5sV" id="2o$O_6SqhZt" role="2Oq$k0" />
                   <node concept="3TrEf2" id="2o$O_6Srypz" role="2OqNvi">
-                    <ref role="3Tt5mk" to="c07g:KwXu1X1JZ9" />
+                    <ref role="3Tt5mk" to="c07g:KwXu1X1JZ9" resolve="martDataset" />
                   </node>
                 </node>
                 <node concept="3TrcHB" id="2o$O_6Srzkc" role="2OqNvi">
@@ -1011,7 +1011,7 @@
                 <node concept="2OqwBi" id="2o$O_6SqiDc" role="2Oq$k0">
                   <node concept="2Sf5sV" id="2o$O_6SqiAc" role="2Oq$k0" />
                   <node concept="3Tsc0h" id="2o$O_6SqiVc" role="2OqNvi">
-                    <ref role="3TtcxE" to="c07g:KwXu1WA3K5" />
+                    <ref role="3TtcxE" to="c07g:KwXu1WA3K5" resolve="martAttributes" />
                   </node>
                 </node>
                 <node concept="3$u5V9" id="2o$O_6SqmhC" role="2OqNvi">
@@ -1024,7 +1024,7 @@
                               <ref role="3cqZAo" node="2o$O_6SqmhG" resolve="it" />
                             </node>
                             <node concept="3TrEf2" id="2o$O_6SqmJO" role="2OqNvi">
-                              <ref role="3Tt5mk" to="c07g:KwXu1WyoBD" />
+                              <ref role="3Tt5mk" to="c07g:KwXu1WyoBD" resolve="attribute" />
                             </node>
                           </node>
                           <node concept="3TrcHB" id="2o$O_6SqwST" role="2OqNvi">
@@ -1045,11 +1045,11 @@
                   <node concept="2OqwBi" id="2o$O_6SqnBX" role="2Oq$k0">
                     <node concept="2Sf5sV" id="2o$O_6Sqnz9" role="2Oq$k0" />
                     <node concept="3Tsc0h" id="2o$O_6SqnX$" role="2OqNvi">
-                      <ref role="3TtcxE" to="c07g:1JNk8OtCx8S" />
+                      <ref role="3TtcxE" to="c07g:1JNk8OtCx8S" resolve="martFilters" />
                     </node>
                   </node>
                   <node concept="13MTOL" id="2o$O_6SqtCi" role="2OqNvi">
-                    <ref role="13MTZf" to="c07g:1JNk8OtCx6s" />
+                    <ref role="13MTZf" to="c07g:1JNk8OtCx6s" resolve="filterRef" />
                   </node>
                 </node>
                 <node concept="3$u5V9" id="2o$O_6SqvTs" role="2OqNvi">

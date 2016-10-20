@@ -2,8 +2,8 @@
 <model ref="r:5e0b7baa-a427-417f-968a-1e4912c5f643(org.campagnelab.styles.editor)">
   <persistence version="9" />
   <languages>
-    <use id="aee9cad2-acd4-4608-aef2-0004f6a1cdbd" name="jetbrains.mps.lang.actions" version="0" />
-    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="3" />
+    <use id="aee9cad2-acd4-4608-aef2-0004f6a1cdbd" name="jetbrains.mps.lang.actions" version="3" />
+    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="4" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -185,7 +185,7 @@
           </node>
         </node>
         <node concept="1iCGBv" id="4FCgsrOgnFe" role="3EZMnx">
-          <ref role="1NtTu8" to="onla:4FCgsrOgnEU" />
+          <ref role="1NtTu8" to="onla:4FCgsrOgnEU" resolve="extends" />
           <node concept="1sVBvm" id="4FCgsrOgnFg" role="1sWHZn">
             <node concept="3F0A7n" id="4FCgsrOgnFA" role="2wV5jI">
               <property role="1Intyy" value="true" />
@@ -199,7 +199,7 @@
         </node>
       </node>
       <node concept="3F2HdR" id="4FCgsrOfuHO" role="3EZMnx">
-        <ref role="1NtTu8" to="onla:4FCgsrOfuu4" />
+        <ref role="1NtTu8" to="onla:4FCgsrOfuu4" resolve="elements" />
         <node concept="l2Vlx" id="4FCgsrOfuHQ" role="2czzBx" />
         <node concept="lj46D" id="4FCgsrOfzrx" role="3F10Kt">
           <property role="VOm3f" value="true" />
@@ -334,7 +334,7 @@
                     <node concept="2OqwBi" id="1xsIq4fv5J" role="2Oq$k0">
                       <node concept="3GMtW1" id="1xsIq4fv5K" role="2Oq$k0" />
                       <node concept="3TrEf2" id="1xsIq4fv5L" role="2OqNvi">
-                        <ref role="3Tt5mk" to="onla:1xsIq48QYb" />
+                        <ref role="3Tt5mk" to="onla:1xsIq48QYb" resolve="bYRGB" />
                       </node>
                     </node>
                     <node concept="2DeJnY" id="1xsIq4fv5M" role="2OqNvi">
@@ -368,7 +368,7 @@
                     <node concept="2OqwBi" id="1xsIq4fv60" role="2Oq$k0">
                       <node concept="3GMtW1" id="1xsIq4fv61" role="2Oq$k0" />
                       <node concept="3TrEf2" id="1xsIq4fv62" role="2OqNvi">
-                        <ref role="3Tt5mk" to="onla:1xsIq49QWT" />
+                        <ref role="3Tt5mk" to="onla:1xsIq49QWT" resolve="byName" />
                       </node>
                     </node>
                     <node concept="2oxUTD" id="1xsIq4fv63" role="2OqNvi">
@@ -391,7 +391,7 @@
                   <node concept="2OqwBi" id="1xsIq4fA65" role="2Oq$k0">
                     <node concept="pncrf" id="1xsIq4fA66" role="2Oq$k0" />
                     <node concept="3TrEf2" id="1xsIq4fA67" role="2OqNvi">
-                      <ref role="3Tt5mk" to="onla:1xsIq48QYb" />
+                      <ref role="3Tt5mk" to="onla:1xsIq48QYb" resolve="bYRGB" />
                     </node>
                   </node>
                   <node concept="3w_OXm" id="1xsIq4fA68" role="2OqNvi" />
@@ -400,7 +400,7 @@
                   <node concept="2OqwBi" id="1xsIq4fA60" role="2Oq$k0">
                     <node concept="pncrf" id="1xsIq4fA61" role="2Oq$k0" />
                     <node concept="3TrEf2" id="1xsIq4fA62" role="2OqNvi">
-                      <ref role="3Tt5mk" to="onla:1xsIq49QWT" />
+                      <ref role="3Tt5mk" to="onla:1xsIq49QWT" resolve="byName" />
                     </node>
                   </node>
                   <node concept="3w_OXm" id="1xsIq4fA63" role="2OqNvi" />
@@ -416,7 +416,7 @@
       <node concept="2iRfu4" id="4FCgsrPetO$" role="2iSdaV" />
       <node concept="3F1sOY" id="1xsIq4hf45" role="3EZMnx">
         <property role="2ru_X1" value="true" />
-        <ref role="1NtTu8" to="onla:1xsIq48QYb" />
+        <ref role="1NtTu8" to="onla:1xsIq48QYb" resolve="bYRGB" />
         <node concept="3EZMnI" id="1hAe0O97fXf" role="2ruayu">
           <node concept="VPM3Z" id="1hAe0O97fXg" role="3F10Kt">
             <property role="VOm3f" value="false" />
@@ -425,7 +425,7 @@
         </node>
       </node>
       <node concept="1iCGBv" id="1xsIq4hi4r" role="3EZMnx">
-        <ref role="1NtTu8" to="onla:1xsIq49QWT" />
+        <ref role="1NtTu8" to="onla:1xsIq49QWT" resolve="byName" />
         <node concept="1sVBvm" id="1xsIq4hi4t" role="1sWHZn">
           <node concept="3F0A7n" id="1xsIq4hj4Y" role="2wV5jI">
             <property role="1Intyy" value="true" />
@@ -442,7 +442,7 @@
                 <node concept="2OqwBi" id="1xsIq4hlCu" role="2Oq$k0">
                   <node concept="pncrf" id="1xsIq4hlz4" role="2Oq$k0" />
                   <node concept="3TrEf2" id="1xsIq4hmdE" role="2OqNvi">
-                    <ref role="3Tt5mk" to="onla:1xsIq49QWT" />
+                    <ref role="3Tt5mk" to="onla:1xsIq49QWT" resolve="byName" />
                   </node>
                 </node>
                 <node concept="3x8VRR" id="1xsIq4hnzX" role="2OqNvi" />
@@ -476,7 +476,7 @@
         </node>
       </node>
       <node concept="3F2HdR" id="1xsIq4iiJ0" role="3EZMnx">
-        <ref role="1NtTu8" to="onla:1xsIq45ZRl" />
+        <ref role="1NtTu8" to="onla:1xsIq45ZRl" resolve="colors" />
         <node concept="lj46D" id="1xsIq4iiJ2" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>
@@ -551,7 +551,7 @@
         <property role="3F0ifm" value=":" />
       </node>
       <node concept="1iCGBv" id="1xsIq4jiIH" role="3EZMnx">
-        <ref role="1NtTu8" to="onla:1xsIq4iKmT" />
+        <ref role="1NtTu8" to="onla:1xsIq4iKmT" resolve="palette" />
         <node concept="1sVBvm" id="1xsIq4jiIJ" role="1sWHZn">
           <node concept="3F0A7n" id="1xsIq4jiIV" role="2wV5jI">
             <property role="1Intyy" value="true" />
@@ -610,7 +610,7 @@
     <node concept="3EZMnI" id="3edJYE6AOIX" role="2wV5jI">
       <node concept="1iCGBv" id="1xsIq3Y4WR" role="3EZMnx">
         <property role="1$x2rV" value="no style" />
-        <ref role="1NtTu8" to="onla:32mm9410GdM" />
+        <ref role="1NtTu8" to="onla:32mm9410GdM" resolve="useStyle" />
         <node concept="1sVBvm" id="1xsIq3Y4WS" role="1sWHZn">
           <node concept="3F0A7n" id="1xsIq3Y4WT" role="2wV5jI">
             <property role="1Intyy" value="true" />

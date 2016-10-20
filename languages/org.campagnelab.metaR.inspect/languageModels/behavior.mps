@@ -4,8 +4,8 @@
   <languages>
     <use id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior" version="0" />
     <use id="b401a680-8325-4110-8fd3-84331ff25bef" name="jetbrains.mps.lang.generator" version="0" />
-    <use id="aee9cad2-acd4-4608-aef2-0004f6a1cdbd" name="jetbrains.mps.lang.actions" version="0" />
-    <use id="5d6bde84-4ce4-4eb5-a37e-25a5edd55129" name="org.campagnelab.metar.tables" version="2" />
+    <use id="aee9cad2-acd4-4608-aef2-0004f6a1cdbd" name="jetbrains.mps.lang.actions" version="3" />
+    <use id="5d6bde84-4ce4-4eb5-a37e-25a5edd55129" name="org.campagnelab.metar.tables" version="3" />
     <use id="32f503e8-061b-451e-bcb0-fef56aa05eb9" name="org.campagnelab.metar.inspect" version="0" />
     <use id="5ec1cd3d-0a50-4049-a8fa-ae768d7baa25" name="org.campagnelab.mps.XChart" version="0" />
     <use id="901f5cf3-dc77-4c1e-bc5a-6382baee28b4" name="org.campagnelab.textoutput" version="0" />
@@ -15,7 +15,7 @@
     <use id="ed6d7656-532c-4bc2-81d1-af945aeb8280" name="jetbrains.mps.baseLanguage.blTypes" version="0" />
     <use id="9ded098b-ad6a-4657-bfd9-48636cfe8bc3" name="jetbrains.mps.lang.traceable" version="0" />
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="4" />
-    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="1" />
+    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="3" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -249,13 +249,13 @@
                                     </node>
                                   </node>
                                   <node concept="2pIpSj" id="6YH$XmRcDzU" role="2pJxcM">
-                                    <ref role="2pIpSl" to="tp25:g_PxNly" resolve="concept_old" />
+                                    <ref role="2pIpSl" to="tp25:5PLE6SbpWS4" resolve="concept" />
                                     <node concept="36bGnv" id="1oFAr6mRbS4" role="2pJxcZ">
                                       <ref role="36bGnp" to="jrxw:7LvyiX4miiC" resolve="Statement" />
                                     </node>
                                   </node>
                                   <node concept="2pIpSj" id="6YH$XmRcDzX" role="2pJxcM">
-                                    <ref role="2pIpSl" to="tp25:g_PxMaO" resolve="leftExpression_old" />
+                                    <ref role="2pIpSl" to="tp25:5PLE6SbpWOp" resolve="leftExpression" />
                                     <node concept="2pJPED" id="6YH$XmRcDzW" role="2pJxcZ">
                                       <ref role="2pJxaS" to="tpf8:gZ0H77W" resolve="TemplateFunctionParameter_sourceNode" />
                                     </node>
@@ -414,13 +414,13 @@
                                     </node>
                                   </node>
                                   <node concept="2pIpSj" id="79$YT4ld_l_" role="2pJxcM">
-                                    <ref role="2pIpSl" to="tp25:g_PxNly" resolve="concept_old" />
+                                    <ref role="2pIpSl" to="tp25:5PLE6SbpWS4" resolve="concept" />
                                     <node concept="36bGnv" id="79$YT4ld_lA" role="2pJxcZ">
                                       <ref role="36bGnp" to="jrxw:7LvyiX4miiC" resolve="Statement" />
                                     </node>
                                   </node>
                                   <node concept="2pIpSj" id="79$YT4ld_lC" role="2pJxcM">
-                                    <ref role="2pIpSl" to="tp25:g_PxMaO" resolve="leftExpression_old" />
+                                    <ref role="2pIpSl" to="tp25:5PLE6SbpWOp" resolve="leftExpression" />
                                     <node concept="2pJPED" id="79$YT4ld_lB" role="2pJxcZ">
                                       <ref role="2pJxaS" to="tpf8:gZ0H77W" resolve="TemplateFunctionParameter_sourceNode" />
                                     </node>

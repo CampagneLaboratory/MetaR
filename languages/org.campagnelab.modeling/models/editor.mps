@@ -2,7 +2,7 @@
 <model ref="r:842e0f75-fa8a-4bc8-bceb-075a6c3a8c98(org.campagnelab.modeling.editor)">
   <persistence version="9" />
   <languages>
-    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="3" />
+    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="4" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -49,31 +49,31 @@
         <property role="3F0ifm" value="learning curve with" />
       </node>
       <node concept="3F1sOY" id="4sETwl$2Muz" role="3EZMnx">
-        <ref role="1NtTu8" to="5j4l:3R5AwWRZRj7" />
+        <ref role="1NtTu8" to="5j4l:3R5AwWRZRj7" resolve="table" />
       </node>
       <node concept="3F0ifn" id="4sETwl$2Mx$" role="3EZMnx">
         <property role="3F0ifm" value="plot" />
       </node>
       <node concept="3F1sOY" id="4sETwl$2Mxg" role="3EZMnx">
-        <ref role="1NtTu8" to="5j4l:4sETwl$2Mu9" />
+        <ref role="1NtTu8" to="5j4l:4sETwl$2Mu9" resolve="performanceColumn" />
       </node>
       <node concept="3F0ifn" id="4sETwl$2My1" role="3EZMnx">
         <property role="3F0ifm" value="vs" />
       </node>
       <node concept="3F1sOY" id="4sETwl$2Myz" role="3EZMnx">
-        <ref role="1NtTu8" to="5j4l:4sETwl$2Mu4" />
+        <ref role="1NtTu8" to="5j4l:4sETwl$2Mu4" resolve="progressColumn" />
       </node>
       <node concept="3F0ifn" id="4sETwl$2MvL" role="3EZMnx">
         <property role="3F0ifm" value="by" />
       </node>
       <node concept="3F1sOY" id="4sETwl$2Mw7" role="3EZMnx">
-        <ref role="1NtTu8" to="5j4l:4sETwl$2Mu0" />
+        <ref role="1NtTu8" to="5j4l:4sETwl$2Mu0" resolve="by" />
       </node>
       <node concept="3F0ifn" id="4sETwl$2MuF" role="3EZMnx">
         <property role="3F0ifm" value="-&gt;" />
       </node>
       <node concept="3F1sOY" id="4sETwl$2MuV" role="3EZMnx">
-        <ref role="1NtTu8" to="5j4l:5d7YQINxjEO" />
+        <ref role="1NtTu8" to="5j4l:5d7YQINxjEO" resolve="plot" />
       </node>
       <node concept="l2Vlx" id="4sETwl$2Mup" role="2iSdaV" />
     </node>
@@ -88,7 +88,7 @@
         <property role="3F0ifm" value="with table" />
       </node>
       <node concept="3F1sOY" id="2OXSMi_pK2D" role="3EZMnx">
-        <ref role="1NtTu8" to="5j4l:2OXSMi_pK25" />
+        <ref role="1NtTu8" to="5j4l:2OXSMi_pK25" resolve="table" />
       </node>
       <node concept="3F0ifn" id="2OXSMi_pK2N" role="3EZMnx">
         <property role="3F0ifm" value="probability" />
@@ -100,7 +100,7 @@
         </node>
       </node>
       <node concept="3F1sOY" id="2OXSMi_pK2Z" role="3EZMnx">
-        <ref role="1NtTu8" to="5j4l:2OXSMi_pK27" />
+        <ref role="1NtTu8" to="5j4l:2OXSMi_pK27" resolve="predictedProbability" />
       </node>
       <node concept="3F0ifn" id="2OXSMi_pK3d" role="3EZMnx">
         <property role="3F0ifm" value="true labels:" />
@@ -112,7 +112,7 @@
         </node>
       </node>
       <node concept="3F1sOY" id="2OXSMi_pK3t" role="3EZMnx">
-        <ref role="1NtTu8" to="5j4l:2OXSMi_pK28" />
+        <ref role="1NtTu8" to="5j4l:2OXSMi_pK28" resolve="trueLabel" />
       </node>
       <node concept="3F0ifn" id="2OXSMi_pUY0" role="3EZMnx">
         <property role="3F0ifm" value="            " />
@@ -121,7 +121,7 @@
         <property role="3F0ifm" value="-&gt;" />
       </node>
       <node concept="3F1sOY" id="2OXSMi_pK4d" role="3EZMnx">
-        <ref role="1NtTu8" to="5j4l:2OXSMi_pK26" />
+        <ref role="1NtTu8" to="5j4l:2OXSMi_pK26" resolve="plot" />
       </node>
       <node concept="l2Vlx" id="2OXSMi_pK2n" role="2iSdaV" />
     </node>
@@ -154,7 +154,7 @@
         <property role="3F0ifm" value="with table" />
       </node>
       <node concept="3F1sOY" id="7tPuoi15oNN" role="3EZMnx">
-        <ref role="1NtTu8" to="5j4l:7tPuoi15o$8" />
+        <ref role="1NtTu8" to="5j4l:7tPuoi15o$8" resolve="table" />
       </node>
       <node concept="3F0ifn" id="7tPuoi15oNO" role="3EZMnx">
         <property role="3F0ifm" value="probability" />
@@ -166,7 +166,7 @@
         </node>
       </node>
       <node concept="3F1sOY" id="7tPuoi15oNR" role="3EZMnx">
-        <ref role="1NtTu8" to="5j4l:7tPuoi15o$a" />
+        <ref role="1NtTu8" to="5j4l:7tPuoi15o$a" resolve="predictedProbability" />
       </node>
       <node concept="3F0ifn" id="7tPuoi15oNS" role="3EZMnx">
         <property role="3F0ifm" value="true labels:" />
@@ -178,7 +178,7 @@
         </node>
       </node>
       <node concept="3F1sOY" id="7tPuoi15oNV" role="3EZMnx">
-        <ref role="1NtTu8" to="5j4l:7tPuoi15o$b" />
+        <ref role="1NtTu8" to="5j4l:7tPuoi15o$b" resolve="trueLabel" />
       </node>
       <node concept="3F0ifn" id="7tPuoi15oNW" role="3EZMnx">
         <property role="3F0ifm" value="            " />
@@ -187,7 +187,7 @@
         <property role="3F0ifm" value="-&gt;" />
       </node>
       <node concept="3F1sOY" id="7tPuoi15oNY" role="3EZMnx">
-        <ref role="1NtTu8" to="5j4l:7tPuoi15o$9" />
+        <ref role="1NtTu8" to="5j4l:7tPuoi15o$9" resolve="plot" />
       </node>
       <node concept="l2Vlx" id="7tPuoi15oNZ" role="2iSdaV" />
     </node>

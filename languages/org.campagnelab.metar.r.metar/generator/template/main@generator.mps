@@ -10,13 +10,13 @@
     <use id="544eb3a5-f68f-41ed-98e0-db6291e897fb" name="org.campagnelab.metar.R.inspect" version="0" />
     <use id="837afec3-cff0-45b1-a221-6b811148f87e" name="org.campagnelab.metar.R.gen" version="0" />
     <use id="32f503e8-061b-451e-bcb0-fef56aa05eb9" name="org.campagnelab.metar.inspect" version="0" />
-    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="1" />
+    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="3" />
     <use id="901f5cf3-dc77-4c1e-bc5a-6382baee28b4" name="org.campagnelab.textoutput" version="0" />
     <use id="5ec1cd3d-0a50-4049-a8fa-ae768d7baa25" name="org.campagnelab.mps.XChart" version="0" />
     <use id="ecf91126-e504-4aae-8ee7-3192d64e77f6" name="org.campagnelab.mps.XChart.types" version="0" />
     <use id="4caf0310-491e-41f5-8a9b-2006b3a94898" name="jetbrains.mps.execution.util" version="0" />
     <use id="43f31864-fc67-43f5-873e-ab79cc279a2d" name="org.campagnelab.styles" version="0" />
-    <use id="5d6bde84-4ce4-4eb5-a37e-25a5edd55129" name="org.campagnelab.metar.tables" version="2" />
+    <use id="5d6bde84-4ce4-4eb5-a37e-25a5edd55129" name="org.campagnelab.metar.tables" version="3" />
     <use id="ed6d7656-532c-4bc2-81d1-af945aeb8280" name="jetbrains.mps.baseLanguage.blTypes" version="0" />
     <use id="9ded098b-ad6a-4657-bfd9-48636cfe8bc3" name="jetbrains.mps.lang.traceable" version="0" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
@@ -234,7 +234,7 @@
                       <node concept="3clFbF" id="bPLB42SNd0" role="3cqZAp">
                         <node concept="2OqwBi" id="bPLB42SNcV" role="3clFbG">
                           <node concept="3TrEf2" id="bPLB42SNcY" role="2OqNvi">
-                            <ref role="3Tt5mk" to="jc6c:bPLB42ONwC" />
+                            <ref role="3Tt5mk" to="jc6c:bPLB42ONwC" resolve="expression" />
                           </node>
                           <node concept="30H73N" id="bPLB42SNcZ" role="2Oq$k0" />
                         </node>
@@ -280,7 +280,7 @@
                             <node concept="2OqwBi" id="1c1rOX4BOQ0" role="2Oq$k0">
                               <node concept="30H73N" id="1c1rOX4BONM" role="2Oq$k0" />
                               <node concept="3TrEf2" id="bPLB4385sy" role="2OqNvi">
-                                <ref role="3Tt5mk" to="jc6c:bPLB42ONwx" />
+                                <ref role="3Tt5mk" to="jc6c:bPLB42ONwx" resolve="plot" />
                               </node>
                             </node>
                             <node concept="2qgKlT" id="21DQECcCXDM" role="2OqNvi">
@@ -318,7 +318,7 @@
                                 <node concept="2OqwBi" id="1c1rOX4C4MR" role="2Oq$k0">
                                   <node concept="30H73N" id="1c1rOX4C4Kj" role="2Oq$k0" />
                                   <node concept="3TrEf2" id="bPLB42PNti" role="2OqNvi">
-                                    <ref role="3Tt5mk" to="jc6c:bPLB42ONwx" />
+                                    <ref role="3Tt5mk" to="jc6c:bPLB42ONwx" resolve="plot" />
                                   </node>
                                 </node>
                                 <node concept="2qgKlT" id="bPLB42PNRA" role="2OqNvi">
@@ -357,7 +357,7 @@
                                 <node concept="2OqwBi" id="1c1rOX4C5mj" role="2Oq$k0">
                                   <node concept="30H73N" id="1c1rOX4C5mk" role="2Oq$k0" />
                                   <node concept="3TrEf2" id="bPLB42PO04" role="2OqNvi">
-                                    <ref role="3Tt5mk" to="jc6c:bPLB42ONwx" />
+                                    <ref role="3Tt5mk" to="jc6c:bPLB42ONwx" resolve="plot" />
                                   </node>
                                 </node>
                                 <node concept="2qgKlT" id="bPLB42POfR" role="2OqNvi">

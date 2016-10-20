@@ -2,9 +2,9 @@
 <model ref="r:35fead51-f29e-4e6f-8d90-b1f21900276c(org.campagnelab.metar.sleuth.editor)">
   <persistence version="9" />
   <languages>
-    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="3" />
+    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="4" />
     <use id="c1ba4037-e4db-47d8-8b61-b3c805b648f2" name="org.campagnelab.ui" version="0" />
-    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="1" />
+    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="3" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -177,7 +177,7 @@
           </node>
         </node>
         <node concept="3F1sOY" id="1AaQBctBKt0" role="1QoVPY">
-          <ref role="1NtTu8" to="bx6g:7$n2ViPrDvn" />
+          <ref role="1NtTu8" to="bx6g:7$n2ViPrDvn" resolve="covariateTable" />
           <ref role="1k5W1q" to="8gqa:7Hltlm8A4_N" resolve="FutureTable" />
         </node>
       </node>
@@ -186,13 +186,13 @@
         <node concept="Vb9p2" id="1AaQBctF5$I" role="3F10Kt" />
       </node>
       <node concept="3F1sOY" id="1AaQBctEYTn" role="3EZMnx">
-        <ref role="1NtTu8" to="bx6g:4ssfE$85c87" />
+        <ref role="1NtTu8" to="bx6g:4ssfE$85c87" resolve="modelFormula" />
       </node>
       <node concept="3F0ifn" id="1AaQBctDXJW" role="3EZMnx">
         <property role="3F0ifm" value="-&gt;" />
       </node>
       <node concept="3F1sOY" id="1AaQBctDXL2" role="3EZMnx">
-        <ref role="1NtTu8" to="bx6g:1EG$v9O8udR" />
+        <ref role="1NtTu8" to="bx6g:1EG$v9O8udR" resolve="normalizedTable" />
         <ref role="1k5W1q" to="8gqa:7Hltlm8A4_N" resolve="FutureTable" />
       </node>
       <node concept="3F0ifn" id="1AaQBctBKt1" role="3EZMnx">
@@ -204,7 +204,7 @@
         </node>
       </node>
       <node concept="3F1sOY" id="3AJ457wKhip" role="3EZMnx">
-        <ref role="1NtTu8" to="bx6g:3AJ457wKgcg" />
+        <ref role="1NtTu8" to="bx6g:3AJ457wKgcg" resolve="test" />
         <node concept="lj46D" id="3AJ457wKhjY" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>
@@ -289,7 +289,7 @@
         <property role="3F0ifm" value=":" />
       </node>
       <node concept="3F1sOY" id="4T_K8eVbM5X" role="3EZMnx">
-        <ref role="1NtTu8" to="bx6g:4T_K8eVbLSR" />
+        <ref role="1NtTu8" to="bx6g:4T_K8eVbLSR" resolve="compareWith" />
       </node>
     </node>
   </node>
@@ -301,7 +301,7 @@
         <node concept="Vb9p2" id="3AJ457wKh0j" role="3F10Kt" />
       </node>
       <node concept="1iCGBv" id="3AJ457wNTDd" role="3EZMnx">
-        <ref role="1NtTu8" to="bx6g:3AJ457wNTBB" />
+        <ref role="1NtTu8" to="bx6g:3AJ457wNTBB" resolve="groupUsage" />
         <node concept="1sVBvm" id="3AJ457wNTDf" role="1sWHZn">
           <node concept="3F0A7n" id="3AJ457wRnkc" role="2wV5jI">
             <property role="1Intyy" value="true" />
@@ -313,7 +313,7 @@
         <property role="3F0ifm" value=":" />
       </node>
       <node concept="1iCGBv" id="3AJ457wKgYk" role="3EZMnx">
-        <ref role="1NtTu8" to="bx6g:3AJ457wKgWn" />
+        <ref role="1NtTu8" to="bx6g:3AJ457wKgWn" resolve="columnGroupFactor" />
         <node concept="1sVBvm" id="3AJ457wKgYm" role="1sWHZn">
           <node concept="3F0A7n" id="3AJ457wKgYA" role="2wV5jI">
             <property role="1Intyy" value="true" />

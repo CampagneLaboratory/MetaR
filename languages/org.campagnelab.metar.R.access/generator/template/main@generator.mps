@@ -8,7 +8,7 @@
     <use id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core" version="1" />
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="4" />
     <use id="901f5cf3-dc77-4c1e-bc5a-6382baee28b4" name="org.campagnelab.textoutput" version="0" />
-    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="2" />
+    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="4" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -142,7 +142,7 @@
                       <node concept="2OqwBi" id="6NqfZIYapGw" role="3uHU7B">
                         <node concept="2OqwBi" id="6NqfZIYap66" role="2Oq$k0">
                           <node concept="3TrEf2" id="6NqfZIYapoo" role="2OqNvi">
-                            <ref role="3Tt5mk" to="ifby:7vFZP$95Chx" />
+                            <ref role="3Tt5mk" to="ifby:7vFZP$95Chx" resolve="futureTable" />
                           </node>
                           <node concept="30H73N" id="6NqfZIYap6a" role="2Oq$k0" />
                         </node>
@@ -158,7 +158,7 @@
                       <node concept="2OqwBi" id="6NqfZIYawaS" role="2Oq$k0">
                         <node concept="30H73N" id="6NqfZIYaw3t" role="2Oq$k0" />
                         <node concept="3TrEf2" id="6NqfZIYawG9" role="2OqNvi">
-                          <ref role="3Tt5mk" to="ifby:4eN5Nwy$_eu" />
+                          <ref role="3Tt5mk" to="ifby:4eN5Nwy$_eu" resolve="column" />
                         </node>
                       </node>
                       <node concept="3TrcHB" id="6NqfZIYaxB8" role="2OqNvi">
@@ -193,7 +193,7 @@
                 <node concept="2OqwBi" id="6NqfZIYaYZO" role="3clFbG">
                   <node concept="2OqwBi" id="6NqfZIYaYZP" role="2Oq$k0">
                     <node concept="3TrEf2" id="6NqfZIYb0tE" role="2OqNvi">
-                      <ref role="3Tt5mk" to="ifby:1e1bwEBY62I" />
+                      <ref role="3Tt5mk" to="ifby:1e1bwEBY62I" resolve="table" />
                     </node>
                     <node concept="30H73N" id="6NqfZIYaYZR" role="2Oq$k0" />
                   </node>
@@ -237,7 +237,7 @@
                   <node concept="2OqwBi" id="1e1bwEAt7JK" role="2Oq$k0">
                     <node concept="30H73N" id="1e1bwEAt7ET" role="2Oq$k0" />
                     <node concept="3TrEf2" id="1e1bwEAJMma" role="2OqNvi">
-                      <ref role="3Tt5mk" to="ifby:1jge5x_A4_z" />
+                      <ref role="3Tt5mk" to="ifby:1jge5x_A4_z" resolve="id" />
                     </node>
                   </node>
                   <node concept="3TrcHB" id="1e1bwEAJMAF" role="2OqNvi">

@@ -2,7 +2,7 @@
 <model ref="r:1254a348-2730-4677-91b2-1e4f4bbc60a0(org.campagnelab.metar.R.inspect.editor)">
   <persistence version="9" />
   <languages>
-    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="3" />
+    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="4" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -165,7 +165,7 @@
         </node>
       </node>
       <node concept="3F1sOY" id="7LV$PmMyK5u" role="3EZMnx">
-        <ref role="1NtTu8" to="jdsq:1c1rOX4yHVq" />
+        <ref role="1NtTu8" to="jdsq:1c1rOX4yHVq" resolve="try" />
         <node concept="pVoyu" id="7LV$PmMyK5A" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>
@@ -204,7 +204,7 @@
         <property role="3F0ifm" value="try {" />
       </node>
       <node concept="3F1sOY" id="7LV$PmMtsc2" role="3EZMnx">
-        <ref role="1NtTu8" to="jdsq:7LV$PmMtls_" />
+        <ref role="1NtTu8" to="jdsq:7LV$PmMtls_" resolve="try" />
         <node concept="pVoyu" id="7LV$PmMuhx9" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>
@@ -233,7 +233,7 @@
                     <node concept="2OqwBi" id="7LV$PmMt$72" role="37vLTJ">
                       <node concept="3GMtW1" id="7LV$PmMt$5d" role="2Oq$k0" />
                       <node concept="3TrEf2" id="1c1rOX4yJgj" role="2OqNvi">
-                        <ref role="3Tt5mk" to="jdsq:7LV$PmMtlsC" />
+                        <ref role="3Tt5mk" to="jdsq:7LV$PmMtlsC" resolve="uponWarning" />
                       </node>
                     </node>
                   </node>
@@ -257,7 +257,7 @@
                     <node concept="2OqwBi" id="1c1rOX4yK4Q" role="37vLTJ">
                       <node concept="3GMtW1" id="1c1rOX4yK1Y" role="2Oq$k0" />
                       <node concept="3TrEf2" id="1c1rOX4yKkf" role="2OqNvi">
-                        <ref role="3Tt5mk" to="jdsq:7LV$PmMtlsH" />
+                        <ref role="3Tt5mk" to="jdsq:7LV$PmMtlsH" resolve="uponError" />
                       </node>
                     </node>
                   </node>
@@ -281,7 +281,7 @@
                     <node concept="2OqwBi" id="7LV$PmMt_Ev" role="37vLTJ">
                       <node concept="3GMtW1" id="7LV$PmMt_CE" role="2Oq$k0" />
                       <node concept="3TrEf2" id="1c1rOX4yKHI" role="2OqNvi">
-                        <ref role="3Tt5mk" to="jdsq:7LV$PmMtlsO" />
+                        <ref role="3Tt5mk" to="jdsq:7LV$PmMtlsO" resolve="finally" />
                       </node>
                     </node>
                   </node>
@@ -302,7 +302,7 @@
           <property role="3F0ifm" value="{" />
         </node>
         <node concept="3F1sOY" id="7LV$PmMtBoY" role="3EZMnx">
-          <ref role="1NtTu8" to="jdsq:7LV$PmMtlsC" />
+          <ref role="1NtTu8" to="jdsq:7LV$PmMtlsC" resolve="uponWarning" />
           <node concept="lj46D" id="7LV$PmMtFKW" role="3F10Kt">
             <property role="VOm3f" value="true" />
           </node>
@@ -329,7 +329,7 @@
                   <node concept="Bykcj" id="5yuMiu9RF1i" role="2OqNvi">
                     <node concept="1aIX9F" id="5yuMiu9RF1j" role="1xVPHs">
                       <node concept="26LbJo" id="1c1rOX4yIBc" role="1aIX9E">
-                        <ref role="26LbJp" to="jdsq:7LV$PmMtlsC" />
+                        <ref role="26LbJp" to="jdsq:7LV$PmMtlsC" resolve="uponWarning" />
                       </node>
                     </node>
                   </node>
@@ -351,7 +351,7 @@
           <property role="3F0ifm" value="{" />
         </node>
         <node concept="3F1sOY" id="7LV$PmMtFrz" role="3EZMnx">
-          <ref role="1NtTu8" to="jdsq:7LV$PmMtlsH" />
+          <ref role="1NtTu8" to="jdsq:7LV$PmMtlsH" resolve="uponError" />
           <node concept="pVoyu" id="7LV$PmMuhxo" role="3F10Kt">
             <property role="VOm3f" value="true" />
           </node>
@@ -378,7 +378,7 @@
                   <node concept="Bykcj" id="5yuMiu9RF1n" role="2OqNvi">
                     <node concept="1aIX9F" id="5yuMiu9RF1o" role="1xVPHs">
                       <node concept="26LbJo" id="1c1rOX4yJ6d" role="1aIX9E">
-                        <ref role="26LbJp" to="jdsq:7LV$PmMtlsH" />
+                        <ref role="26LbJp" to="jdsq:7LV$PmMtlsH" resolve="uponError" />
                       </node>
                     </node>
                   </node>
@@ -400,7 +400,7 @@
           <property role="3F0ifm" value="{" />
         </node>
         <node concept="3F1sOY" id="7LV$PmMtEzW" role="3EZMnx">
-          <ref role="1NtTu8" to="jdsq:7LV$PmMtlsO" />
+          <ref role="1NtTu8" to="jdsq:7LV$PmMtlsO" resolve="finally" />
           <node concept="pVoyu" id="7LV$PmMuhxs" role="3F10Kt">
             <property role="VOm3f" value="true" />
           </node>
@@ -427,7 +427,7 @@
                   <node concept="Bykcj" id="5yuMiu9RF1d" role="2OqNvi">
                     <node concept="1aIX9F" id="5yuMiu9RF1e" role="1xVPHs">
                       <node concept="26LbJo" id="1c1rOX4yKzn" role="1aIX9E">
-                        <ref role="26LbJp" to="jdsq:7LV$PmMtlsO" />
+                        <ref role="26LbJp" to="jdsq:7LV$PmMtlsO" resolve="finally" />
                       </node>
                     </node>
                   </node>
