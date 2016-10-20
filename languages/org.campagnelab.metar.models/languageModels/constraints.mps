@@ -10,7 +10,6 @@
     <import index="jrxw" ref="r:9f2bbfbf-f8b7-4b3b-92b1-b6a0e9642c10(org.campagnelab.metar.tables.structure)" />
     <import index="o8zo" ref="r:314576fc-3aee-4386-a0a5-a38348ac317d(jetbrains.mps.scope)" />
     <import index="qrzj" ref="r:33ebfe68-dd35-4984-bf5b-c6afb777446c(org.campagnelab.metar.models.structure)" />
-    <import index="izt2" ref="r:b5f8abba-ade6-48ed-8b03-df617183a3f0(org.campagnelab.metar.edgeR.structure)" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -120,7 +119,7 @@
     <property role="3GE5qa" value="contrasts" />
     <ref role="1M2myG" to="qrzj:4ssfE$7TB65" resolve="GroupRef" />
     <node concept="1N5Pfh" id="4ssfE$7TB7J" role="1Mr941">
-      <ref role="1N5Vy1" to="qrzj:4ssfE$7TB66" />
+      <ref role="1N5Vy1" to="qrzj:4ssfE$7TB66" resolve="group" />
       <node concept="13QW63" id="4ssfE$7TB7K" role="1N6uqs">
         <node concept="3clFbS" id="4ssfE$7TB7L" role="2VODD2">
           <node concept="3SKdUt" id="4ssfE$7TB7M" role="3cqZAp">
@@ -147,11 +146,11 @@
                         </node>
                       </node>
                       <node concept="3TrEf2" id="4ssfE$8dDfJ" role="2OqNvi">
-                        <ref role="3Tt5mk" to="qrzj:4ssfE$85c87" />
+                        <ref role="3Tt5mk" to="qrzj:4ssfE$85c87" resolve="modelFormula" />
                       </node>
                     </node>
                     <node concept="3TrEf2" id="4ssfE$7TB81" role="2OqNvi">
-                      <ref role="3Tt5mk" to="qrzj:4ssfE$7VtQf" />
+                      <ref role="3Tt5mk" to="qrzj:4ssfE$7VtQf" resolve="groupExpression" />
                     </node>
                   </node>
                   <node concept="2Rf3mk" id="4ssfE$7TB82" role="2OqNvi">
@@ -172,7 +171,7 @@
                               <ref role="3cqZAo" node="4ssfE$7TB8e" resolve="it" />
                             </node>
                             <node concept="3TrEf2" id="4ssfE$7TB8c" role="2OqNvi">
-                              <ref role="3Tt5mk" to="qrzj:4ssfE$7VtQi" />
+                              <ref role="3Tt5mk" to="qrzj:4ssfE$7VtQi" resolve="groupUsage" />
                             </node>
                           </node>
                           <node concept="2qgKlT" id="4ssfE$7TB8d" role="2OqNvi">
