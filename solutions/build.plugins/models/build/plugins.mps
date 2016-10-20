@@ -282,6 +282,23 @@
     </node>
     <node concept="2sgV4H" id="m2dhZuG0tN" role="1l3spa">
       <ref role="1l3spb" to="vh2l:7XxitGzkyrh" resolve="XChart" />
+      <node concept="55IIr" id="FXZ5xlIbgc" role="2JcizS">
+        <node concept="2Ry0Ak" id="FXZ5xlIbkz" role="iGT6I">
+          <property role="2Ry0Am" value=".." />
+          <node concept="2Ry0Ak" id="FXZ5xlIbkI" role="2Ry0An">
+            <property role="2Ry0Am" value="XChart" />
+            <node concept="2Ry0Ak" id="FXZ5xlIbkT" role="2Ry0An">
+              <property role="2Ry0Am" value="build" />
+              <node concept="2Ry0Ak" id="FXZ5xlIbl4" role="2Ry0An">
+                <property role="2Ry0Am" value="artifacts" />
+                <node concept="2Ry0Ak" id="FXZ5xlIblf" role="2Ry0An">
+                  <property role="2Ry0Am" value="XChart" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
     </node>
     <node concept="2sgV4H" id="HL4WxLn1bl" role="1l3spa">
       <ref role="1l3spb" to="hc0n:7twz7e84BNd" resolve="ANTLR" />
