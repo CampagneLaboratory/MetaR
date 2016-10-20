@@ -139,7 +139,7 @@
         <property role="8NYsT" value="false" />
         <property role="1MXi1$" value="PJSVCPLENE" />
         <node concept="3VlkzF" id="3j3L3d7c8Oo" role="2Ym92R">
-          <ref role="3Vkrsu" to="vyx4:3j3L3d7c8On" resolve="CovariateForSimulateDataset_OEYRTDOGMD" />
+          <ref role="3Vkrsu" node="3j3L3d7c8On" resolve="CovariateForSimulateDataset_OEYRTDOGMD" />
         </node>
         <node concept="3MlLWZ" id="3j3L3d7c8Ou" role="3curr3">
           <property role="TrG5h" value="simulate" />
@@ -157,7 +157,7 @@
         <node concept="3ZW7eb" id="6xCgpj7fe11" role="lGtFl">
           <property role="2ripvU" value="1" />
           <property role="TrG5h" value="NewSimulateStatement" />
-          <ref role="KZaLW" to="vyx4:3j3L3d7c8YU" resolve="ToDoc" />
+          <ref role="KZaLW" node="3j3L3d7c8YU" resolve="ToDoc" />
         </node>
       </node>
       <node concept="S1EQe" id="6xCgpj7fqaA" role="ZXjPg">

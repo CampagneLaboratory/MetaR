@@ -43,10 +43,12 @@
         <language slang="l:7866978e-a0f0-4cc7-81bc-4d213d9375e1:jetbrains.mps.lang.smodel" version="2" />
         <language slang="l:c72da2b9-7cce-4447-8389-f407dc1158b7:jetbrains.mps.lang.structure" version="1" />
         <language slang="l:9ded098b-ad6a-4657-bfd9-48636cfe8bc3:jetbrains.mps.lang.traceable" version="0" />
+        <language slang="l:95951e17-c0d6-47b9-b1b5-42a4ca186fc6:org.campagnelab.instantrefresh" version="1" />
         <language slang="l:3b58810c-8431-4bbb-99ea-b4671e02dd13:org.campagnelab.metar.R" version="1" />
         <language slang="l:7eba6a28-4cc2-47b9-a392-284573f2054a:org.campagnelab.metar.R.access" version="0" />
         <language slang="l:837afec3-cff0-45b1-a221-6b811148f87e:org.campagnelab.metar.R.gen" version="0" />
         <language slang="l:544eb3a5-f68f-41ed-98e0-db6291e897fb:org.campagnelab.metar.R.inspect" version="0" />
+        <language slang="l:e633fc48-0aaf-45b5-9894-247b67cf0890:org.campagnelab.metar.biomart" version="0" />
         <language slang="l:040d3459-0033-45bb-b823-4cfd22657c15:org.campagnelab.metar.biomartToR" version="1" />
         <language slang="l:64c90466-09b2-41ab-89f8-5085b3b9eca7:org.campagnelab.metar.functions.access" version="0" />
         <language slang="l:c1747c67-8f42-4d83-9542-4a948aec17d9:org.campagnelab.metar.functions.importing" version="0" />
