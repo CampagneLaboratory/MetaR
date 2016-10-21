@@ -280,18 +280,18 @@
         </node>
       </node>
     </node>
-    <node concept="2sgV4H" id="m2dhZuG0tN" role="1l3spa">
+    <node concept="2sgV4H" id="1woj2V3fCf0" role="1l3spa">
       <ref role="1l3spb" to="vh2l:7XxitGzkyrh" resolve="XChart" />
-      <node concept="55IIr" id="FXZ5xlIbgc" role="2JcizS">
-        <node concept="2Ry0Ak" id="FXZ5xlIbkz" role="iGT6I">
+      <node concept="55IIr" id="1woj2V3fCS2" role="2JcizS">
+        <node concept="2Ry0Ak" id="1woj2V3fCWq" role="iGT6I">
           <property role="2Ry0Am" value=".." />
-          <node concept="2Ry0Ak" id="FXZ5xlIbkI" role="2Ry0An">
+          <node concept="2Ry0Ak" id="1woj2V3fCWB" role="2Ry0An">
             <property role="2Ry0Am" value="XChart" />
-            <node concept="2Ry0Ak" id="FXZ5xlIbkT" role="2Ry0An">
+            <node concept="2Ry0Ak" id="1woj2V3fCWO" role="2Ry0An">
               <property role="2Ry0Am" value="build" />
-              <node concept="2Ry0Ak" id="FXZ5xlIbl4" role="2Ry0An">
+              <node concept="2Ry0Ak" id="1woj2V3fCX1" role="2Ry0An">
                 <property role="2Ry0Am" value="artifacts" />
-                <node concept="2Ry0Ak" id="FXZ5xlIblf" role="2Ry0An">
+                <node concept="2Ry0Ak" id="1woj2V3fCXe" role="2Ry0An">
                   <property role="2Ry0Am" value="XChart" />
                 </node>
               </node>
@@ -322,6 +322,18 @@
     </node>
     <node concept="2sgV4H" id="5W9t3Am6o64" role="1l3spa">
       <ref role="1l3spb" to="t9i9:2mFg1uCD9ps" resolve="org.campagnelab.NYoSh" />
+      <node concept="398BVA" id="1woj2V3fCxR" role="2JcizS">
+        <ref role="398BVh" node="3gMg70bRmeX" resolve="org.campagnelab.goby.workbench.home" />
+        <node concept="2Ry0Ak" id="1woj2V3fCNg" role="iGT6I">
+          <property role="2Ry0Am" value="build" />
+          <node concept="2Ry0Ak" id="1woj2V3fCRI" role="2Ry0An">
+            <property role="2Ry0Am" value="artifacts" />
+            <node concept="2Ry0Ak" id="1woj2V3fCRV" role="2Ry0An">
+              <property role="2Ry0Am" value="org.campagnelab.NYoSh" />
+            </node>
+          </node>
+        </node>
+      </node>
     </node>
     <node concept="2sgV4H" id="3gMg70bWO4S" role="1l3spa">
       <ref role="1l3spb" to="ffeo:5D1dJ7xWer5" resolve="mpsCore" />
@@ -423,7 +435,7 @@
       <node concept="m$_yC" id="3gMg70bWNNE" role="m$_yJ">
         <ref role="m$_y1" to="ael0:5KK2jWpWo0m" resolve="org.campagnelab.mps.UI" />
       </node>
-      <node concept="m$_yC" id="3gMg70bWNZD" role="m$_yJ">
+      <node concept="m$_yC" id="1woj2V3fCeY" role="m$_yJ">
         <ref role="m$_y1" to="vh2l:7XxitGzkyrN" resolve="XChart" />
       </node>
       <node concept="m$_yC" id="3gMg70bWOd1" role="m$_yJ">
@@ -776,6 +788,18 @@
           <node concept="3bR9La" id="6uoYBO0KhFb" role="1SiIV1">
             <property role="3bR36h" value="false" />
             <ref role="3bR37D" node="6uoYBO0KgLs" resolve="org.campagnelab.instantrefresh.plugin" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="4dXH2_MZv2Q" role="3bR37C">
+          <node concept="3bR9La" id="4dXH2_MZv2R" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" to="ffeo:1H905DlDUSw" resolve="MPS.OpenAPI" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="4dXH2_MZv2S" role="3bR37C">
+          <node concept="3bR9La" id="4dXH2_MZv2T" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" to="ffeo:7Kfy9QB6LfQ" resolve="jetbrains.mps.kernel" />
           </node>
         </node>
       </node>
@@ -1577,12 +1601,6 @@
             <node concept="3bR9La" id="7lol28iFmm2" role="1SiIV1">
               <property role="3bR36h" value="false" />
               <ref role="3bR37D" node="7lol28iFlnr" resolve="org.campagnelab.instantrefresh" />
-            </node>
-          </node>
-          <node concept="1SiIV0" id="5W9t3AnTk$N" role="3bR37C">
-            <node concept="3bR9La" id="5W9t3AnTk$O" role="1SiIV1">
-              <property role="3bR36h" value="false" />
-              <ref role="3bR37D" node="1c1rOX4CcUC" resolve="org.campagnelab.metar.R.inspect" />
             </node>
           </node>
         </node>
