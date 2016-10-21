@@ -489,6 +489,12 @@
       </node>
       <node concept="3k9gUc" id="2WRhvFtuQHI" role="3kmjI7">
         <node concept="3clFbS" id="2WRhvFtuQHJ" role="2VODD2">
+          <node concept="34ab3g" id="6h184lUNmOu" role="3cqZAp">
+            <property role="35gtTG" value="info" />
+            <node concept="Xl_RD" id="6h184lUNmOw" role="34bqiv">
+              <property role="Xl_RC" value="Setting new table child" />
+            </node>
+          </node>
           <node concept="3clFbF" id="2WRhvFtuRqV" role="3cqZAp">
             <node concept="37vLTI" id="2WRhvFtuRU5" role="3clFbG">
               <node concept="2ShNRf" id="2WRhvFtuRXd" role="37vLTx">

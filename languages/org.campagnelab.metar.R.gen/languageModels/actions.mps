@@ -29,6 +29,7 @@
       <concept id="1081236700937" name="jetbrains.mps.baseLanguage.structure.StaticMethodCall" flags="nn" index="2YIFZM">
         <reference id="1144433194310" name="classConcept" index="1Pybhc" />
       </concept>
+      <concept id="1070534058343" name="jetbrains.mps.baseLanguage.structure.NullLiteral" flags="nn" index="10Nm6u" />
       <concept id="1068431474542" name="jetbrains.mps.baseLanguage.structure.VariableDeclaration" flags="ng" index="33uBYm">
         <child id="1068431790190" name="initializer" index="33vP2m" />
       </concept>
@@ -40,6 +41,10 @@
       </concept>
       <concept id="1068580123155" name="jetbrains.mps.baseLanguage.structure.ExpressionStatement" flags="nn" index="3clFbF">
         <child id="1068580123156" name="expression" index="3clFbG" />
+      </concept>
+      <concept id="1068580123159" name="jetbrains.mps.baseLanguage.structure.IfStatement" flags="nn" index="3clFbJ">
+        <child id="1068580123160" name="condition" index="3clFbw" />
+        <child id="1068580123161" name="ifTrue" index="3clFbx" />
       </concept>
       <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
@@ -55,6 +60,11 @@
       <concept id="1107535904670" name="jetbrains.mps.baseLanguage.structure.ClassifierType" flags="in" index="3uibUv">
         <reference id="1107535924139" name="classifier" index="3uigEE" />
       </concept>
+      <concept id="1081773326031" name="jetbrains.mps.baseLanguage.structure.BinaryOperation" flags="nn" index="3uHJSO">
+        <child id="1081773367579" name="rightExpression" index="3uHU7w" />
+        <child id="1081773367580" name="leftExpression" index="3uHU7B" />
+      </concept>
+      <concept id="1073239437375" name="jetbrains.mps.baseLanguage.structure.NotEqualsExpression" flags="nn" index="3y3z36" />
     </language>
     <language id="aee9cad2-acd4-4608-aef2-0004f6a1cdbd" name="jetbrains.mps.lang.actions">
       <concept id="1158700664498" name="jetbrains.mps.lang.actions.structure.NodeFactories" flags="ng" index="37WguZ">
@@ -107,18 +117,28 @@
               </node>
             </node>
           </node>
-          <node concept="3clFbF" id="FXZ5xlKVB4" role="3cqZAp">
-            <node concept="2OqwBi" id="FXZ5xlKVH9" role="3clFbG">
-              <node concept="2YIFZM" id="FXZ5xlKVC9" role="2Oq$k0">
-                <ref role="37wK5l" to="ccd1:55a1UmAsk0l" resolve="getInstance" />
-                <ref role="1Pybhc" to="ccd1:4mTRct5g3kP" resolve="ModelChangeListenerManager" />
-              </node>
-              <node concept="liA8E" id="FXZ5xlKVQu" role="2OqNvi">
-                <ref role="37wK5l" to="ccd1:FXZ5xlJwPD" resolve="forceAttach" />
-                <node concept="1Q6Npb" id="FXZ5xlKVSe" role="37wK5m" />
-                <node concept="37vLTw" id="FXZ5xlKW5n" role="37wK5m">
-                  <ref role="3cqZAo" node="7SyL5U3L7S6" resolve="project" />
+          <node concept="3clFbJ" id="2co65D7j8vZ" role="3cqZAp">
+            <node concept="3clFbS" id="2co65D7j8w1" role="3clFbx">
+              <node concept="3clFbF" id="FXZ5xlKVB4" role="3cqZAp">
+                <node concept="2OqwBi" id="FXZ5xlKVH9" role="3clFbG">
+                  <node concept="2YIFZM" id="FXZ5xlKVC9" role="2Oq$k0">
+                    <ref role="37wK5l" to="ccd1:55a1UmAsk0l" resolve="getInstance" />
+                    <ref role="1Pybhc" to="ccd1:4mTRct5g3kP" resolve="ModelChangeListenerManager" />
+                  </node>
+                  <node concept="liA8E" id="FXZ5xlKVQu" role="2OqNvi">
+                    <ref role="37wK5l" to="ccd1:FXZ5xlJwPD" resolve="forceAttach" />
+                    <node concept="1Q6Npb" id="FXZ5xlKVSe" role="37wK5m" />
+                    <node concept="37vLTw" id="FXZ5xlKW5n" role="37wK5m">
+                      <ref role="3cqZAo" node="7SyL5U3L7S6" resolve="project" />
+                    </node>
+                  </node>
                 </node>
+              </node>
+            </node>
+            <node concept="3y3z36" id="2co65D7j96k" role="3clFbw">
+              <node concept="10Nm6u" id="2co65D7j97O" role="3uHU7w" />
+              <node concept="37vLTw" id="2co65D7j8y5" role="3uHU7B">
+                <ref role="3cqZAo" node="7SyL5U3L7S6" resolve="project" />
               </node>
             </node>
           </node>
