@@ -438,6 +438,9 @@
       <node concept="m$_yC" id="1woj2V3fCeY" role="m$_yJ">
         <ref role="m$_y1" to="vh2l:7XxitGzkyrN" resolve="XChart" />
       </node>
+      <node concept="m$_yC" id="692IOadTgrd" role="m$_yJ">
+        <ref role="m$_y1" to="t9i9:2mFg1uCD9qh" resolve="org.campagnelab.NYoSh" />
+      </node>
       <node concept="m$_yC" id="3gMg70bWOd1" role="m$_yJ">
         <ref role="m$_y1" to="ffeo:5CFKsRWBBql" resolve="jetbrains.mps.execution.api" />
       </node>
