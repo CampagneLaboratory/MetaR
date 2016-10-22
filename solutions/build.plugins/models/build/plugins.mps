@@ -17,6 +17,7 @@
     <import index="hc0n" ref="r:4f291851-4a14-4a46-acdb-b3df285248df(ANTLR.persistence.build)" />
     <import index="t9i9" ref="r:006098bf-146e-48ca-a752-e9a7c66a9eb3(org.campagnelab.build.NYoSh)" />
     <import index="vh2l" ref="r:64aeeca7-3a4b-4dcc-b81a-48f20fa34cb4(org.campangelab.xchart)" />
+    <import index="h9g5" ref="r:7aca3565-24aa-4c08-aaaf-0fe7bbf3b79f(org.campagnelab.build.Logger)" />
   </imports>
   <registry>
     <language id="479c7a8c-02f9-43b5-9139-d910cb22f298" name="jetbrains.mps.core.xml">
@@ -335,6 +336,21 @@
         </node>
       </node>
     </node>
+    <node concept="2sgV4H" id="4zZ0iHXekBJ" role="1l3spa">
+      <ref role="1l3spb" to="h9g5:7ZmC9JYEfXg" resolve="org.campagnelab.Logger" />
+      <node concept="398BVA" id="4zZ0iHXekNy" role="2JcizS">
+        <ref role="398BVh" node="3gMg70bRmeX" resolve="org.campagnelab.goby.workbench.home" />
+        <node concept="2Ry0Ak" id="4zZ0iHXekS1" role="iGT6I">
+          <property role="2Ry0Am" value="build" />
+          <node concept="2Ry0Ak" id="4zZ0iHXekSe" role="2Ry0An">
+            <property role="2Ry0Am" value="artifacts" />
+            <node concept="2Ry0Ak" id="4zZ0iHXekSr" role="2Ry0An">
+              <property role="2Ry0Am" value="org.campagnelab.Logger" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="2sgV4H" id="3gMg70bWO4S" role="1l3spa">
       <ref role="1l3spb" to="ffeo:5D1dJ7xWer5" resolve="mpsCore" />
       <node concept="398BVA" id="3gMg70bWO8A" role="2JcizS">
@@ -461,6 +477,9 @@
       </node>
       <node concept="m$_yC" id="6O5l2OdWZdV" role="m$_yJ">
         <ref role="m$_y1" to="hc0n:7twz7e84BNG" resolve="org.campagnelab.ANTLR" />
+      </node>
+      <node concept="m$_yC" id="4zZ0iHXekXT" role="m$_yJ">
+        <ref role="m$_y1" to="h9g5:7ZmC9JYEfXD" resolve="org.campagnelab.logger" />
       </node>
       <node concept="3_J27D" id="3gMg70bRmfA" role="m_cZH">
         <node concept="3Mxwew" id="3gMg70bRmfB" role="3MwsjC">
