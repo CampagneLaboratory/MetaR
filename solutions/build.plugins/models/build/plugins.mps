@@ -301,8 +301,25 @@
         </node>
       </node>
     </node>
-    <node concept="2sgV4H" id="5FSS0OjY$2q" role="1l3spa">
+    <node concept="2sgV4H" id="5FSS0OjZlI1" role="1l3spa">
       <ref role="1l3spb" to="hc0n:7twz7e84BNd" resolve="ANTLR" />
+      <node concept="55IIr" id="5FSS0OjZlSu" role="2JcizS">
+        <node concept="2Ry0Ak" id="5FSS0OjZlWR" role="iGT6I">
+          <property role="2Ry0Am" value=".." />
+          <node concept="2Ry0Ak" id="5FSS0OjZlX6" role="2Ry0An">
+            <property role="2Ry0Am" value="ANTLR" />
+            <node concept="2Ry0Ak" id="5FSS0OjZlXl" role="2Ry0An">
+              <property role="2Ry0Am" value="build" />
+              <node concept="2Ry0Ak" id="5FSS0OjZlX$" role="2Ry0An">
+                <property role="2Ry0Am" value="artifacts" />
+                <node concept="2Ry0Ak" id="5FSS0OjZlXN" role="2Ry0An">
+                  <property role="2Ry0Am" value="ANTLR" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
     </node>
     <node concept="2sgV4H" id="5W9t3Am6o64" role="1l3spa">
       <ref role="1l3spb" to="t9i9:2mFg1uCD9ps" resolve="org.campagnelab.NYoSh" />
