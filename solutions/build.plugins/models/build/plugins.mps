@@ -211,7 +211,7 @@
       <node concept="aVJcg" id="3gMg70bX6HN" role="aVJcv">
         <node concept="NbPM2" id="3gMg70bX6HM" role="aVJcq">
           <node concept="3Mxwew" id="3gMg70bX6HL" role="3MwsjC">
-            <property role="3MwjfP" value="2.0.2" />
+            <property role="3MwjfP" value="2.0.2.1" />
           </node>
         </node>
       </node>
@@ -301,25 +301,8 @@
         </node>
       </node>
     </node>
-    <node concept="2sgV4H" id="HL4WxLn1bl" role="1l3spa">
+    <node concept="2sgV4H" id="5FSS0OjY$2q" role="1l3spa">
       <ref role="1l3spb" to="hc0n:7twz7e84BNd" resolve="ANTLR" />
-      <node concept="55IIr" id="HL4WxLn1dT" role="2JcizS">
-        <node concept="2Ry0Ak" id="HL4WxLn1g3" role="iGT6I">
-          <property role="2Ry0Am" value=".." />
-          <node concept="2Ry0Ak" id="HL4WxLn1g8" role="2Ry0An">
-            <property role="2Ry0Am" value="ANTLR" />
-            <node concept="2Ry0Ak" id="HL4WxLn1gd" role="2Ry0An">
-              <property role="2Ry0Am" value="build" />
-              <node concept="2Ry0Ak" id="HL4WxLn1gi" role="2Ry0An">
-                <property role="2Ry0Am" value="artifacts" />
-                <node concept="2Ry0Ak" id="6uoYBO0KejR" role="2Ry0An">
-                  <property role="2Ry0Am" value="ANTLR" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
     </node>
     <node concept="2sgV4H" id="5W9t3Am6o64" role="1l3spa">
       <ref role="1l3spb" to="t9i9:2mFg1uCD9ps" resolve="org.campagnelab.NYoSh" />
@@ -475,7 +458,7 @@
       <node concept="m$_yC" id="3xLH8OVIJuk" role="m$_yJ">
         <ref role="m$_y1" to="ffeo:4O0hKJpjIV3" resolve="jetbrains.mps.ide.devkit" />
       </node>
-      <node concept="m$_yC" id="6O5l2OdWZdV" role="m$_yJ">
+      <node concept="m$_yC" id="5FSS0OjY$2y" role="m$_yJ">
         <ref role="m$_y1" to="hc0n:7twz7e84BNG" resolve="org.campagnelab.ANTLR" />
       </node>
       <node concept="m$_yC" id="4zZ0iHXekXT" role="m$_yJ">
