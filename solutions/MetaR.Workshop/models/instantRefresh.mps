@@ -3287,7 +3287,7 @@
                         <property role="gNbhX" value="col" />
                         <property role="1MXi1$" value="PDFRWKOLLB" />
                         <node concept="2PZJpm" id="16Z5RhQKOgK" role="gNbhV">
-                          <property role="pzxGI" value="red" />
+                          <property role="pzxGI" value="black" />
                           <property role="1MXi1$" value="HYBYNSKEFL" />
                         </node>
                       </node>
