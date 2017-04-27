@@ -2,7 +2,7 @@
 <model ref="r:d4fc1ccf-1b20-4c10-aae7-94de66326394(org.campagnelab.instantrefresh.plugin.plugin)">
   <persistence version="9" />
   <languages>
-    <use id="28f9e497-3b42-4291-aeba-0a1039153ab1" name="jetbrains.mps.lang.plugin" version="1" />
+    <use id="28f9e497-3b42-4291-aeba-0a1039153ab1" name="jetbrains.mps.lang.plugin" version="2" />
     <use id="ef7bf5ac-d06c-4342-b11d-e42104eb9343" name="jetbrains.mps.lang.plugin.standalone" version="-1" />
     <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="4" />
     <use id="63650c59-16c8-498a-99c8-005c7ee9515d" name="jetbrains.mps.lang.access" version="-1" />
@@ -514,10 +514,7 @@
         <child id="8465538089690331502" name="body" index="TZ5H$" />
         <child id="5383422241790532083" name="tags" index="3nqlJM" />
       </concept>
-      <concept id="5349172909345532724" name="jetbrains.mps.baseLanguage.javadoc.structure.MethodDocComment" flags="ng" index="P$JXv">
-        <child id="5858074156537516440" name="return" index="x79VK" />
-        <child id="8465538089690917625" name="param" index="TUOzN" />
-      </concept>
+      <concept id="5349172909345532724" name="jetbrains.mps.baseLanguage.javadoc.structure.MethodDocComment" flags="ng" index="P$JXv" />
       <concept id="8465538089690881930" name="jetbrains.mps.baseLanguage.javadoc.structure.ParameterBlockDocTag" flags="ng" index="TUZQ0">
         <property id="8465538089690881934" name="text" index="TUZQ4" />
         <child id="6832197706140518123" name="parameter" index="zr_5Q" />
@@ -834,19 +831,19 @@
             <property role="1dT_AB" value="Sets a temporary property for a node that can only be accessed in the generation phase." />
           </node>
         </node>
-        <node concept="TUZQ0" id="2yvMhGhttZ$" role="TUOzN">
+        <node concept="TUZQ0" id="2yvMhGhttZ$" role="3nqlJM">
           <property role="TUZQ4" value="node" />
           <node concept="zr_55" id="2yvMhGhttZA" role="zr_5Q">
             <ref role="zr_51" node="7d3kpy2aIwN" resolve="node" />
           </node>
         </node>
-        <node concept="TUZQ0" id="2yvMhGhttZB" role="TUOzN">
+        <node concept="TUZQ0" id="2yvMhGhttZB" role="3nqlJM">
           <property role="TUZQ4" value="key" />
           <node concept="zr_55" id="2yvMhGhttZD" role="zr_5Q">
             <ref role="zr_51" node="7d3kpy2gfPA" resolve="key" />
           </node>
         </node>
-        <node concept="TUZQ0" id="2yvMhGhttZE" role="TUOzN">
+        <node concept="TUZQ0" id="2yvMhGhttZE" role="3nqlJM">
           <property role="TUZQ4" value="value" />
           <node concept="zr_55" id="2yvMhGhttZG" role="zr_5Q">
             <ref role="zr_51" node="7d3kpy2bdIi" resolve="value" />
@@ -928,19 +925,19 @@
             <property role="1dT_AB" value="Gets a temporary property for a node that can only be accessed in the generation phase." />
           </node>
         </node>
-        <node concept="TUZQ0" id="2yvMhGhtu0Q" role="TUOzN">
+        <node concept="TUZQ0" id="2yvMhGhtu0Q" role="3nqlJM">
           <property role="TUZQ4" value="node" />
           <node concept="zr_55" id="2yvMhGhtu0S" role="zr_5Q">
             <ref role="zr_51" node="7d3kpy2gm$S" resolve="node" />
           </node>
         </node>
-        <node concept="TUZQ0" id="2yvMhGhtu0T" role="TUOzN">
+        <node concept="TUZQ0" id="2yvMhGhtu0T" role="3nqlJM">
           <property role="TUZQ4" value="key" />
           <node concept="zr_55" id="2yvMhGhtu0V" role="zr_5Q">
             <ref role="zr_51" node="7d3kpy2gm$U" resolve="key" />
           </node>
         </node>
-        <node concept="x79VA" id="2yvMhGhtu0W" role="x79VK">
+        <node concept="x79VA" id="2yvMhGhtu0W" role="3nqlJM">
           <property role="x79VB" value="Object" />
         </node>
       </node>
@@ -988,13 +985,13 @@
             <property role="1dT_AB" value="Checks if a node could be used with instant refresh. " />
           </node>
         </node>
-        <node concept="TUZQ0" id="2yvMhGhtrKA" role="TUOzN">
+        <node concept="TUZQ0" id="2yvMhGhtrKA" role="3nqlJM">
           <property role="TUZQ4" value="node that could contain this information" />
           <node concept="zr_55" id="2yvMhGhtrKC" role="zr_5Q">
             <ref role="zr_51" node="52J4nYvPkos" resolve="node" />
           </node>
         </node>
-        <node concept="x79VA" id="2yvMhGhtrKD" role="x79VK">
+        <node concept="x79VA" id="2yvMhGhtrKD" role="3nqlJM">
           <property role="x79VB" value="boolean" />
         </node>
       </node>
@@ -1114,19 +1111,19 @@
             <property role="1dT_AB" value="Returns a list of all sessions inside a specific directory" />
           </node>
         </node>
-        <node concept="TUZQ0" id="2yvMhGhtrLC" role="TUOzN">
+        <node concept="TUZQ0" id="2yvMhGhtrLC" role="3nqlJM">
           <property role="TUZQ4" value="path to directory that contains session files" />
           <node concept="zr_55" id="2yvMhGhtrLE" role="zr_5Q">
             <ref role="zr_51" node="52J4nYvLcft" resolve="resultsDir" />
           </node>
         </node>
-        <node concept="TUZQ0" id="2yvMhGhtrLF" role="TUOzN">
+        <node concept="TUZQ0" id="2yvMhGhtrLF" role="3nqlJM">
           <property role="TUZQ4" value="model" />
           <node concept="zr_55" id="2yvMhGhtrLH" role="zr_5Q">
             <ref role="zr_51" node="52J4nYvMet1" resolve="model" />
           </node>
         </node>
-        <node concept="x79VA" id="2yvMhGhtrLI" role="x79VK">
+        <node concept="x79VA" id="2yvMhGhtrLI" role="3nqlJM">
           <property role="x79VB" value="list of files" />
         </node>
       </node>
@@ -2150,13 +2147,13 @@
             <property role="1dT_AB" value="Returns true if a node should not be considered as a node with any side effects (e.g. comment)" />
           </node>
         </node>
-        <node concept="TUZQ0" id="2yvMhGhtw$n" role="TUOzN">
+        <node concept="TUZQ0" id="2yvMhGhtw$n" role="3nqlJM">
           <property role="TUZQ4" value="node of node to check" />
           <node concept="zr_55" id="2yvMhGhtw$p" role="zr_5Q">
             <ref role="zr_51" node="6CA2KfgYXfq" resolve="node" />
           </node>
         </node>
-        <node concept="x79VA" id="2yvMhGhtw$q" role="x79VK">
+        <node concept="x79VA" id="2yvMhGhtw$q" role="3nqlJM">
           <property role="x79VB" value="boolean" />
         </node>
       </node>
@@ -2254,13 +2251,13 @@
             <property role="1dT_AB" value="Examples: declared variables in RScript nodes, generated tables in Analysis nodes" />
           </node>
         </node>
-        <node concept="TUZQ0" id="2yvMhGhtwX9" role="TUOzN">
+        <node concept="TUZQ0" id="2yvMhGhtwX9" role="3nqlJM">
           <property role="TUZQ4" value="node" />
           <node concept="zr_55" id="2yvMhGhtwXb" role="zr_5Q">
             <ref role="zr_51" node="L2v$sd4kNH" resolve="node" />
           </node>
         </node>
-        <node concept="x79VA" id="2yvMhGhtwXc" role="x79VK">
+        <node concept="x79VA" id="2yvMhGhtwXc" role="3nqlJM">
           <property role="x79VB" value="list of nodes" />
         </node>
       </node>
@@ -2339,19 +2336,19 @@
             <property role="1dT_AB" value="Invokes the find usage manager that finds other nodes that reference the current node" />
           </node>
         </node>
-        <node concept="TUZQ0" id="2yvMhGhtxDd" role="TUOzN">
+        <node concept="TUZQ0" id="2yvMhGhtxDd" role="3nqlJM">
           <property role="TUZQ4" value="model" />
           <node concept="zr_55" id="2yvMhGhtxDf" role="zr_5Q">
             <ref role="zr_51" node="15COMTnHEEf" resolve="model" />
           </node>
         </node>
-        <node concept="TUZQ0" id="2yvMhGhtxDg" role="TUOzN">
+        <node concept="TUZQ0" id="2yvMhGhtxDg" role="3nqlJM">
           <property role="TUZQ4" value="node" />
           <node concept="zr_55" id="2yvMhGhtxDi" role="zr_5Q">
             <ref role="zr_51" node="15COMTnHEFt" resolve="node" />
           </node>
         </node>
-        <node concept="x79VA" id="2yvMhGhtxDj" role="x79VK">
+        <node concept="x79VA" id="2yvMhGhtxDj" role="3nqlJM">
           <property role="x79VB" value="list of references" />
         </node>
       </node>
@@ -2450,19 +2447,19 @@
             <property role="1dT_AB" value="has to be rerun as a full node." />
           </node>
         </node>
-        <node concept="TUZQ0" id="2yvMhGhtxSf" role="TUOzN">
+        <node concept="TUZQ0" id="2yvMhGhtxSf" role="3nqlJM">
           <property role="TUZQ4" value="source node that references the changed node" />
           <node concept="zr_55" id="2yvMhGhtxSh" role="zr_5Q">
             <ref role="zr_51" node="15COMTnHV1m" resolve="sourceNode" />
           </node>
         </node>
-        <node concept="TUZQ0" id="2yvMhGhtxSi" role="TUOzN">
+        <node concept="TUZQ0" id="2yvMhGhtxSi" role="3nqlJM">
           <property role="TUZQ4" value="changed node" />
           <node concept="zr_55" id="2yvMhGhtxSk" role="zr_5Q">
             <ref role="zr_51" node="15COMTnIoWj" resolve="changedUnit" />
           </node>
         </node>
-        <node concept="x79VA" id="2yvMhGhtxSl" role="x79VK">
+        <node concept="x79VA" id="2yvMhGhtxSl" role="3nqlJM">
           <property role="x79VB" value="node" />
         </node>
       </node>
@@ -2559,19 +2556,19 @@
             <property role="1dT_AB" value="See: getSourceUnit" />
           </node>
         </node>
-        <node concept="TUZQ0" id="2yvMhGhtzL3" role="TUOzN">
+        <node concept="TUZQ0" id="2yvMhGhtzL3" role="3nqlJM">
           <property role="TUZQ4" value="node" />
           <node concept="zr_55" id="2yvMhGhtzL5" role="zr_5Q">
             <ref role="zr_51" node="3gtMiDCy3oH" resolve="node" />
           </node>
         </node>
-        <node concept="TUZQ0" id="2yvMhGhtzL6" role="TUOzN">
+        <node concept="TUZQ0" id="2yvMhGhtzL6" role="3nqlJM">
           <property role="TUZQ4" value="parent of node" />
           <node concept="zr_55" id="2yvMhGhtzL8" role="zr_5Q">
             <ref role="zr_51" node="7B51G8Wb$$U" resolve="parent" />
           </node>
         </node>
-        <node concept="x79VA" id="2yvMhGhtzL9" role="x79VK">
+        <node concept="x79VA" id="2yvMhGhtzL9" role="3nqlJM">
           <property role="x79VB" value="node" />
         </node>
       </node>
@@ -2892,25 +2889,25 @@
             <property role="1dT_AB" value="Find all expressions that are affected by a single changed expression." />
           </node>
         </node>
-        <node concept="TUZQ0" id="2yvMhGht$zf" role="TUOzN">
+        <node concept="TUZQ0" id="2yvMhGht$zf" role="3nqlJM">
           <property role="TUZQ4" value="set of changed nodes" />
           <node concept="zr_55" id="2yvMhGht$zh" role="zr_5Q">
             <ref role="zr_51" node="15COMTnoukD" resolve="changelog" />
           </node>
         </node>
-        <node concept="TUZQ0" id="2yvMhGht$zi" role="TUOzN">
+        <node concept="TUZQ0" id="2yvMhGht$zi" role="3nqlJM">
           <property role="TUZQ4" value="either Analysis or RScript" />
           <node concept="zr_55" id="2yvMhGht$zk" role="zr_5Q">
             <ref role="zr_51" node="15COMTnoukG" resolve="root" />
           </node>
         </node>
-        <node concept="TUZQ0" id="2yvMhGht$zl" role="TUOzN">
+        <node concept="TUZQ0" id="2yvMhGht$zl" role="3nqlJM">
           <property role="TUZQ4" value="changed node" />
           <node concept="zr_55" id="2yvMhGht$zn" role="zr_5Q">
             <ref role="zr_51" node="15COMTnoukI" resolve="change" />
           </node>
         </node>
-        <node concept="TUZQ0" id="2yvMhGht$zo" role="TUOzN">
+        <node concept="TUZQ0" id="2yvMhGht$zo" role="3nqlJM">
           <property role="TUZQ4" value="parent of changed node" />
           <node concept="zr_55" id="2yvMhGht$zq" role="zr_5Q">
             <ref role="zr_51" node="7B51G8WbNuF" resolve="parent" />
@@ -3205,31 +3202,31 @@
             <property role="1dT_AB" value="Add all variable references to the changelog that directly or indirectly reference changed nodes." />
           </node>
         </node>
-        <node concept="TUZQ0" id="2yvMhGhtHjB" role="TUOzN">
+        <node concept="TUZQ0" id="2yvMhGhtHjB" role="3nqlJM">
           <property role="TUZQ4" value="set of changed nodes" />
           <node concept="zr_55" id="2yvMhGhtHjD" role="zr_5Q">
             <ref role="zr_51" node="1e0sE7QWPl4" resolve="changelog" />
           </node>
         </node>
-        <node concept="TUZQ0" id="2yvMhGhtHjE" role="TUOzN">
+        <node concept="TUZQ0" id="2yvMhGhtHjE" role="3nqlJM">
           <property role="TUZQ4" value="nodes that are referenced but don't need to be rerun." />
           <node concept="zr_55" id="2yvMhGhtHjG" role="zr_5Q">
             <ref role="zr_51" node="1e0sE7QWyr8" resolve="referencedIdentifiers" />
           </node>
         </node>
-        <node concept="TUZQ0" id="2yvMhGhtHjH" role="TUOzN">
+        <node concept="TUZQ0" id="2yvMhGhtHjH" role="3nqlJM">
           <property role="TUZQ4" value="session node" />
           <node concept="zr_55" id="2yvMhGhtHjJ" role="zr_5Q">
             <ref role="zr_51" node="1e0sE7QWRxk" resolve="session" />
           </node>
         </node>
-        <node concept="TUZQ0" id="2yvMhGhtHjK" role="TUOzN">
+        <node concept="TUZQ0" id="2yvMhGhtHjK" role="3nqlJM">
           <property role="TUZQ4" value="changed expression" />
           <node concept="zr_55" id="2yvMhGhtHjM" role="zr_5Q">
             <ref role="zr_51" node="1e0sE7QWV56" resolve="changedExpr" />
           </node>
         </node>
-        <node concept="TUZQ0" id="2yvMhGhtHjN" role="TUOzN">
+        <node concept="TUZQ0" id="2yvMhGhtHjN" role="3nqlJM">
           <property role="TUZQ4" value="either Analysis or RScript" />
           <node concept="zr_55" id="2yvMhGhtHjP" role="zr_5Q">
             <ref role="zr_51" node="1e0sE7QWLBt" resolve="root" />
@@ -3286,19 +3283,19 @@
             <property role="1dT_AB" value="Add node to a set if it satisfies the condition" />
           </node>
         </node>
-        <node concept="TUZQ0" id="2yvMhGhu3Ix" role="TUOzN">
+        <node concept="TUZQ0" id="2yvMhGhu3Ix" role="3nqlJM">
           <property role="TUZQ4" value="condition" />
           <node concept="zr_55" id="2yvMhGhu3Iz" role="zr_5Q">
             <ref role="zr_51" node="1e0sE7QZbgE" resolve="condition" />
           </node>
         </node>
-        <node concept="TUZQ0" id="2yvMhGhu3I$" role="TUOzN">
+        <node concept="TUZQ0" id="2yvMhGhu3I$" role="3nqlJM">
           <property role="TUZQ4" value="node" />
           <node concept="zr_55" id="2yvMhGhu3IA" role="zr_5Q">
             <ref role="zr_51" node="1e0sE7QZd86" resolve="node" />
           </node>
         </node>
-        <node concept="TUZQ0" id="2yvMhGhu3IB" role="TUOzN">
+        <node concept="TUZQ0" id="2yvMhGhu3IB" role="3nqlJM">
           <property role="TUZQ4" value="set of nodes" />
           <node concept="zr_55" id="2yvMhGhu3ID" role="zr_5Q">
             <ref role="zr_51" node="1e0sE7QZaWx" resolve="set" />
@@ -3653,19 +3650,19 @@
             <property role="1dT_AB" value="Find all nodes that are affected by a single change" />
           </node>
         </node>
-        <node concept="TUZQ0" id="2yvMhGhu4Cm" role="TUOzN">
+        <node concept="TUZQ0" id="2yvMhGhu4Cm" role="3nqlJM">
           <property role="TUZQ4" value="set of changed nodes" />
           <node concept="zr_55" id="2yvMhGhu4Co" role="zr_5Q">
             <ref role="zr_51" node="15COMTnHRUT" resolve="changelog" />
           </node>
         </node>
-        <node concept="TUZQ0" id="2yvMhGhu4Cp" role="TUOzN">
+        <node concept="TUZQ0" id="2yvMhGhu4Cp" role="3nqlJM">
           <property role="TUZQ4" value="either Analysis or RScript node" />
           <node concept="zr_55" id="2yvMhGhu4Cr" role="zr_5Q">
             <ref role="zr_51" node="15COMTnHS47" resolve="root" />
           </node>
         </node>
-        <node concept="TUZQ0" id="2yvMhGhu4Cs" role="TUOzN">
+        <node concept="TUZQ0" id="2yvMhGhu4Cs" role="3nqlJM">
           <property role="TUZQ4" value="changed node" />
           <node concept="zr_55" id="2yvMhGhu4Cu" role="zr_5Q">
             <ref role="zr_51" node="15COMTnHS5M" resolve="changedUnit" />
@@ -3750,13 +3747,13 @@
             <property role="1dT_AB" value="" />
           </node>
         </node>
-        <node concept="TUZQ0" id="2yvMhGhu47o" role="TUOzN">
+        <node concept="TUZQ0" id="2yvMhGhu47o" role="3nqlJM">
           <property role="TUZQ4" value="node" />
           <node concept="zr_55" id="2yvMhGhu47q" role="zr_5Q">
             <ref role="zr_51" node="1e0sE7P1TBw" resolve="child" />
           </node>
         </node>
-        <node concept="x79VA" id="2yvMhGhu47r" role="x79VK">
+        <node concept="x79VA" id="2yvMhGhu47r" role="3nqlJM">
           <property role="x79VB" value="boolean" />
         </node>
       </node>
@@ -4109,13 +4106,13 @@
             <property role="1dT_AB" value="Attaches a change listener to a Analysis or RScript node." />
           </node>
         </node>
-        <node concept="TUZQ0" id="2yvMhGhsGZo" role="TUOzN">
+        <node concept="TUZQ0" id="2yvMhGhsGZo" role="3nqlJM">
           <property role="TUZQ4" value="Model" />
           <node concept="zr_55" id="2yvMhGhsGZq" role="zr_5Q">
             <ref role="zr_51" node="55a1UmAlG3F" resolve="model" />
           </node>
         </node>
-        <node concept="TUZQ0" id="2yvMhGhsGZr" role="TUOzN">
+        <node concept="TUZQ0" id="2yvMhGhsGZr" role="3nqlJM">
           <property role="TUZQ4" value="Project" />
           <node concept="zr_55" id="2yvMhGhsGZt" role="zr_5Q">
             <ref role="zr_51" node="55a1UmAstpQ" resolve="project" />
@@ -4166,13 +4163,13 @@
             <property role="1dT_AB" value="Attaches a change listener to a Analysis or RScript node." />
           </node>
         </node>
-        <node concept="TUZQ0" id="FXZ5xlJwPV" role="TUOzN">
+        <node concept="TUZQ0" id="FXZ5xlJwPV" role="3nqlJM">
           <property role="TUZQ4" value="Model" />
           <node concept="zr_55" id="FXZ5xlJwPW" role="zr_5Q">
             <ref role="zr_51" node="FXZ5xlJwPN" resolve="model" />
           </node>
         </node>
-        <node concept="TUZQ0" id="FXZ5xlJwPX" role="TUOzN">
+        <node concept="TUZQ0" id="FXZ5xlJwPX" role="3nqlJM">
           <property role="TUZQ4" value="Project" />
           <node concept="zr_55" id="FXZ5xlJwPY" role="zr_5Q">
             <ref role="zr_51" node="FXZ5xlJwPP" resolve="project" />
@@ -4324,13 +4321,13 @@
             <property role="1dT_AB" value="Attaches a change listener to a Analysis or RScript node." />
           </node>
         </node>
-        <node concept="TUZQ0" id="FXZ5xlJ4$N" role="TUOzN">
+        <node concept="TUZQ0" id="FXZ5xlJ4$N" role="3nqlJM">
           <property role="TUZQ4" value="Model" />
           <node concept="zr_55" id="FXZ5xlJ4$O" role="zr_5Q">
             <ref role="zr_51" node="FXZ5xlJ4$F" resolve="model" />
           </node>
         </node>
-        <node concept="TUZQ0" id="FXZ5xlJ4$P" role="TUOzN">
+        <node concept="TUZQ0" id="FXZ5xlJ4$P" role="3nqlJM">
           <property role="TUZQ4" value="Project" />
           <node concept="zr_55" id="FXZ5xlJ4$Q" role="zr_5Q">
             <ref role="zr_51" node="FXZ5xlJ4$H" resolve="project" />
@@ -4462,7 +4459,7 @@
             <property role="1dT_AB" value="Detaches the change listener from a Analysis or RScript node." />
           </node>
         </node>
-        <node concept="TUZQ0" id="2yvMhGhsH8a" role="TUOzN">
+        <node concept="TUZQ0" id="2yvMhGhsH8a" role="3nqlJM">
           <property role="TUZQ4" value="Model" />
           <node concept="zr_55" id="2yvMhGhsH8c" role="zr_5Q">
             <ref role="zr_51" node="55a1UmAlGhB" resolve="model" />
@@ -4898,7 +4895,7 @@
                               <property role="1dT_AB" value="this method is executed when the timer runs out" />
                             </node>
                           </node>
-                          <node concept="TUZQ0" id="2yvMhGhs_ER" role="TUOzN">
+                          <node concept="TUZQ0" id="2yvMhGhs_ER" role="3nqlJM">
                             <property role="TUZQ4" value="event" />
                             <node concept="zr_55" id="2yvMhGhs_ET" role="zr_5Q">
                               <ref role="zr_51" node="4mTRct5iM3r" resolve="evt" />
@@ -5047,13 +5044,13 @@
             <property role="1dT_AB" value="Checks if instant refresh can be executed." />
           </node>
         </node>
-        <node concept="TUZQ0" id="2yvMhGhsB0N" role="TUOzN">
+        <node concept="TUZQ0" id="2yvMhGhsB0N" role="3nqlJM">
           <property role="TUZQ4" value="either RScript or Analysis node" />
           <node concept="zr_55" id="2yvMhGhsB0P" role="zr_5Q">
             <ref role="zr_51" node="1e0sE7OzBgZ" resolve="root" />
           </node>
         </node>
-        <node concept="x79VA" id="2yvMhGhsB0Q" role="x79VK">
+        <node concept="x79VA" id="2yvMhGhsB0Q" role="3nqlJM">
           <property role="x79VB" value="boolean" />
         </node>
       </node>
@@ -5216,7 +5213,7 @@
             <property role="1dT_AB" value="First method that is called when a change happenes. It changes the timer accordingly." />
           </node>
         </node>
-        <node concept="TUZQ0" id="2yvMhGhsBzX" role="TUOzN">
+        <node concept="TUZQ0" id="2yvMhGhsBzX" role="3nqlJM">
           <property role="TUZQ4" value="changed node. This can be a property, a reference or a child." />
           <node concept="zr_55" id="2yvMhGhsBzZ" role="zr_5Q">
             <ref role="zr_51" node="1Iyhq6EEQUg" resolve="node" />
@@ -6756,25 +6753,25 @@
             <property role="1dT_AB" value="action. Note: There is a new class TextGeneratorEngine that might be a better alternative." />
           </node>
         </node>
-        <node concept="TUZQ0" id="2yvMhGhttfq" role="TUOzN">
+        <node concept="TUZQ0" id="2yvMhGhttfq" role="3nqlJM">
           <property role="TUZQ4" value="MPSProject" />
           <node concept="zr_55" id="2yvMhGhttfs" role="zr_5Q">
             <ref role="zr_51" node="2XoE5lRKJU6" resolve="mpsProject" />
           </node>
         </node>
-        <node concept="TUZQ0" id="2yvMhGhttft" role="TUOzN">
+        <node concept="TUZQ0" id="2yvMhGhttft" role="3nqlJM">
           <property role="TUZQ4" value="node inside a model that should be generated" />
           <node concept="zr_55" id="2yvMhGhttfv" role="zr_5Q">
             <ref role="zr_51" node="2XoE5lRL4O0" resolve="node" />
           </node>
         </node>
-        <node concept="TUZQ0" id="2yvMhGhttfw" role="TUOzN">
+        <node concept="TUZQ0" id="2yvMhGhttfw" role="3nqlJM">
           <property role="TUZQ4" value="model" />
           <node concept="zr_55" id="2yvMhGhttfy" role="zr_5Q">
             <ref role="zr_51" node="2XoE5lRL8ba" resolve="model" />
           </node>
         </node>
-        <node concept="TUZQ0" id="2yvMhGhttfz" role="TUOzN">
+        <node concept="TUZQ0" id="2yvMhGhttfz" role="3nqlJM">
           <property role="TUZQ4" value="method that is executed with the result of the generation as an argument." />
           <node concept="zr_55" id="2yvMhGhttf_" role="zr_5Q">
             <ref role="zr_51" node="2XoE5lRKx4J" resolve="callBack" />
@@ -7147,19 +7144,19 @@
             <property role="1dT_AB" value="Formats a logging message to look similar to the messages in the builtin Messages view." />
           </node>
         </node>
-        <node concept="TUZQ0" id="2yvMhGhtuBF" role="TUOzN">
+        <node concept="TUZQ0" id="2yvMhGhtuBF" role="3nqlJM">
           <property role="TUZQ4" value="message" />
           <node concept="zr_55" id="2yvMhGhtuBH" role="zr_5Q">
             <ref role="zr_51" node="2ZZbyE_ywSf" resolve="message" />
           </node>
         </node>
-        <node concept="TUZQ0" id="2yvMhGhtuBI" role="TUOzN">
+        <node concept="TUZQ0" id="2yvMhGhtuBI" role="3nqlJM">
           <property role="TUZQ4" value="logging type" />
           <node concept="zr_55" id="2yvMhGhtuBK" role="zr_5Q">
             <ref role="zr_51" node="2ZZbyE_yxIK" resolve="kind" />
           </node>
         </node>
-        <node concept="x79VA" id="2yvMhGhtuBL" role="x79VK">
+        <node concept="x79VA" id="2yvMhGhtuBL" role="3nqlJM">
           <property role="x79VB" value="HTML formatted message" />
         </node>
       </node>
@@ -7245,13 +7242,13 @@
             <property role="1dT_AB" value="Adds a new logging message and notifies listening classes about it." />
           </node>
         </node>
-        <node concept="TUZQ0" id="2yvMhGhtvqA" role="TUOzN">
+        <node concept="TUZQ0" id="2yvMhGhtvqA" role="3nqlJM">
           <property role="TUZQ4" value="message" />
           <node concept="zr_55" id="2yvMhGhtvqC" role="zr_5Q">
             <ref role="zr_51" node="asFbg5qA1b" resolve="message" />
           </node>
         </node>
-        <node concept="TUZQ0" id="2yvMhGhtvqD" role="TUOzN">
+        <node concept="TUZQ0" id="2yvMhGhtvqD" role="3nqlJM">
           <property role="TUZQ4" value="logging type" />
           <node concept="zr_55" id="2yvMhGhtvqF" role="zr_5Q">
             <ref role="zr_51" node="asFbg5qA1T" resolve="kind" />
@@ -7431,13 +7428,13 @@
             <property role="1dT_AB" value="Append text to the previous logging message and notifies listening classes about it." />
           </node>
         </node>
-        <node concept="TUZQ0" id="2yvMhGhtvNG" role="TUOzN">
+        <node concept="TUZQ0" id="2yvMhGhtvNG" role="3nqlJM">
           <property role="TUZQ4" value="message" />
           <node concept="zr_55" id="2yvMhGhtvNI" role="zr_5Q">
             <ref role="zr_51" node="2ZZbyE_yhW1" resolve="message" />
           </node>
         </node>
-        <node concept="TUZQ0" id="2yvMhGhtvNJ" role="TUOzN">
+        <node concept="TUZQ0" id="2yvMhGhtvNJ" role="3nqlJM">
           <property role="TUZQ4" value="logging type" />
           <node concept="zr_55" id="2yvMhGhtvNL" role="zr_5Q">
             <ref role="zr_51" node="2ZZbyE_yiJx" resolve="kind" />
@@ -7764,7 +7761,7 @@
             <property role="1dT_AB" value="This method is thread-safe." />
           </node>
         </node>
-        <node concept="x79VA" id="2yvMhGhsZUx" role="x79VK">
+        <node concept="x79VA" id="2yvMhGhsZUx" role="3nqlJM">
           <property role="x79VB" value="boolean" />
         </node>
       </node>
@@ -7811,7 +7808,7 @@
             <property role="1dT_AB" value="This method is thread-safe." />
           </node>
         </node>
-        <node concept="TUZQ0" id="2yvMhGhsZW6" role="TUOzN">
+        <node concept="TUZQ0" id="2yvMhGhsZW6" role="3nqlJM">
           <property role="TUZQ4" value="boolean" />
           <node concept="zr_55" id="2yvMhGhsZW8" role="zr_5Q">
             <ref role="zr_51" node="70iH0fuDuYA" resolve="b" />
@@ -7840,7 +7837,7 @@
             <property role="1dT_AB" value="Returns a Runnable that invokes displayMessages" />
           </node>
         </node>
-        <node concept="x79VA" id="2yvMhGhsZXq" role="x79VK">
+        <node concept="x79VA" id="2yvMhGhsZXq" role="3nqlJM">
           <property role="x79VB" value="Runnable" />
         </node>
       </node>
@@ -9077,19 +9074,19 @@
             <property role="1dT_AB" value="Displays a message that pop-ups at the instant refresh tool tab position." />
           </node>
         </node>
-        <node concept="TUZQ0" id="2yvMhGhtrYq" role="TUOzN">
+        <node concept="TUZQ0" id="2yvMhGhtrYq" role="3nqlJM">
           <property role="TUZQ4" value="Project" />
           <node concept="zr_55" id="2yvMhGhtrYs" role="zr_5Q">
             <ref role="zr_51" node="7PqnxC2gW_s" resolve="project" />
           </node>
         </node>
-        <node concept="TUZQ0" id="2yvMhGhtrYt" role="TUOzN">
+        <node concept="TUZQ0" id="2yvMhGhtrYt" role="3nqlJM">
           <property role="TUZQ4" value="message" />
           <node concept="zr_55" id="2yvMhGhtrYv" role="zr_5Q">
             <ref role="zr_51" node="7PqnxC2gW_u" resolve="message" />
           </node>
         </node>
-        <node concept="TUZQ0" id="2yvMhGhtrYw" role="TUOzN">
+        <node concept="TUZQ0" id="2yvMhGhtrYw" role="3nqlJM">
           <property role="TUZQ4" value="logging message type" />
           <node concept="zr_55" id="2yvMhGhtrYy" role="zr_5Q">
             <ref role="zr_51" node="7PqnxC2gX2y" resolve="type" />
@@ -9752,7 +9749,7 @@
             <property role="1dT_AB" value="Starts the instant refresh action." />
           </node>
         </node>
-        <node concept="TUZQ0" id="2yvMhGhtm9W" role="TUOzN">
+        <node concept="TUZQ0" id="2yvMhGhtm9W" role="3nqlJM">
           <property role="TUZQ4" value="node that is used inside the action " />
           <node concept="zr_55" id="2yvMhGhtm9Y" role="zr_5Q">
             <ref role="zr_51" node="70iH0fuDDma" resolve="node" />
@@ -9817,17 +9814,17 @@
             <property role="1dT_AB" value="be access directly through the Project class." />
           </node>
         </node>
-        <node concept="TUZQ0" id="2yvMhGht1El" role="TUOzN">
+        <node concept="TZ5HI" id="2yvMhGht1ET" role="3nqlJM">
+          <node concept="TZ5HA" id="2yvMhGht1EU" role="3HnX3l" />
+        </node>
+        <node concept="TUZQ0" id="2yvMhGht1El" role="3nqlJM">
           <property role="TUZQ4" value="Project" />
           <node concept="zr_55" id="2yvMhGht1En" role="zr_5Q">
             <ref role="zr_51" node="70iH0fuH0og" resolve="project" />
           </node>
         </node>
-        <node concept="x79VA" id="2yvMhGht1Eo" role="x79VK">
+        <node concept="x79VA" id="2yvMhGht1Eo" role="3nqlJM">
           <property role="x79VB" value="InstantRefresh tool" />
-        </node>
-        <node concept="TZ5HI" id="2yvMhGht1ET" role="3nqlJM">
-          <node concept="TZ5HA" id="2yvMhGht1EU" role="3HnX3l" />
         </node>
       </node>
       <node concept="2AHcQZ" id="2yvMhGht1EV" role="2AJF6D">
@@ -12125,19 +12122,19 @@
             <property role="1dT_AB" value="Returns the model that needs to be generated" />
           </node>
         </node>
-        <node concept="TUZQ0" id="2yvMhGhtjIb" role="TUOzN">
+        <node concept="TUZQ0" id="2yvMhGhtjIb" role="3nqlJM">
           <property role="TUZQ4" value="current model" />
           <node concept="zr_55" id="2yvMhGhtjId" role="zr_5Q">
             <ref role="zr_51" node="3zqZiqBPYNp" resolve="cmodel" />
           </node>
         </node>
-        <node concept="TUZQ0" id="2yvMhGhtjIe" role="TUOzN">
+        <node concept="TUZQ0" id="2yvMhGhtjIe" role="3nqlJM">
           <property role="TUZQ4" value="available models" />
           <node concept="zr_55" id="2yvMhGhtjIg" role="zr_5Q">
             <ref role="zr_51" node="3zqZiqBPYNr" resolve="models" />
           </node>
         </node>
-        <node concept="x79VA" id="2yvMhGhtjIh" role="x79VK">
+        <node concept="x79VA" id="2yvMhGhtjIh" role="3nqlJM">
           <property role="x79VB" value="model" />
         </node>
       </node>
@@ -12245,19 +12242,19 @@
             <property role="1dT_AB" value="message in the tool." />
           </node>
         </node>
-        <node concept="TUZQ0" id="2yvMhGhtktm" role="TUOzN">
+        <node concept="TUZQ0" id="2yvMhGhtktm" role="3nqlJM">
           <property role="TUZQ4" value="Adapter that gives access to the progress monitor" />
           <node concept="zr_55" id="2yvMhGhtkto" role="zr_5Q">
             <ref role="zr_51" node="3zqZiqBPZ08" resolve="adapter" />
           </node>
         </node>
-        <node concept="TUZQ0" id="2yvMhGhtktp" role="TUOzN">
+        <node concept="TUZQ0" id="2yvMhGhtktp" role="3nqlJM">
           <property role="TUZQ4" value="Message that should be displayed" />
           <node concept="zr_55" id="2yvMhGhtktr" role="zr_5Q">
             <ref role="zr_51" node="3zqZiqBPZ0a" resolve="message" />
           </node>
         </node>
-        <node concept="TUZQ0" id="2yvMhGhtkts" role="TUOzN">
+        <node concept="TUZQ0" id="2yvMhGhtkts" role="3nqlJM">
           <property role="TUZQ4" value="local time watch" />
           <node concept="zr_55" id="2yvMhGhtktu" role="zr_5Q">
             <ref role="zr_51" node="3zqZiqBPZ0c" resolve="timeWatch" />
@@ -12722,25 +12719,25 @@
             <property role="1dT_AB" value="Populates the temporary Instant refresh node with statements and returns it." />
           </node>
         </node>
-        <node concept="TUZQ0" id="2yvMhGhsIgS" role="TUOzN">
+        <node concept="TUZQ0" id="2yvMhGhsIgS" role="3nqlJM">
           <property role="TUZQ4" value="either RScript or Analysis node" />
           <node concept="zr_55" id="2yvMhGhsIgU" role="zr_5Q">
             <ref role="zr_51" node="L2v$sdrkjE" resolve="originalNode" />
           </node>
         </node>
-        <node concept="TUZQ0" id="2yvMhGhsIgV" role="TUOzN">
+        <node concept="TUZQ0" id="2yvMhGhsIgV" role="3nqlJM">
           <property role="TUZQ4" value="statements that need to be rerun" />
           <node concept="zr_55" id="2yvMhGhsIgX" role="zr_5Q">
             <ref role="zr_51" node="L2v$sdrkjG" resolve="changedStatements" />
           </node>
         </node>
-        <node concept="TUZQ0" id="2yvMhGhsIgY" role="TUOzN">
+        <node concept="TUZQ0" id="2yvMhGhsIgY" role="3nqlJM">
           <property role="TUZQ4" value="session node that loads a saved session" />
           <node concept="zr_55" id="2yvMhGhsIh0" role="zr_5Q">
             <ref role="zr_51" node="26cpLhjoypg" resolve="loadSession" />
           </node>
         </node>
-        <node concept="x79VA" id="2yvMhGhsIh1" role="x79VK">
+        <node concept="x79VA" id="2yvMhGhsIh1" role="3nqlJM">
           <property role="x79VB" value="Analysis node" />
         </node>
       </node>
@@ -13382,31 +13379,31 @@
             <property role="1dT_AB" value="In both cases the action InstantRefreshDirectExecution is executed." />
           </node>
         </node>
-        <node concept="TUZQ0" id="2yvMhGhsf_a" role="TUOzN">
+        <node concept="TUZQ0" id="2yvMhGhsf_a" role="3nqlJM">
           <property role="TUZQ4" value="either RScript or Analysis node" />
           <node concept="zr_55" id="2yvMhGhsf_c" role="zr_5Q">
             <ref role="zr_51" node="hlbLQwkAcw" resolve="rootNode" />
           </node>
         </node>
-        <node concept="TUZQ0" id="2yvMhGhsf_d" role="TUOzN">
+        <node concept="TUZQ0" id="2yvMhGhsf_d" role="3nqlJM">
           <property role="TUZQ4" value="nearest session for first changed unit" />
           <node concept="zr_55" id="2yvMhGhsf_f" role="zr_5Q">
             <ref role="zr_51" node="hlbLQwkAcY" resolve="sessionOfFirstUnit" />
           </node>
         </node>
-        <node concept="TUZQ0" id="2yvMhGhsf_g" role="TUOzN">
+        <node concept="TUZQ0" id="2yvMhGhsf_g" role="3nqlJM">
           <property role="TUZQ4" value="expressions/statements that need to be executed again" />
           <node concept="zr_55" id="2yvMhGhsf_i" role="zr_5Q">
             <ref role="zr_51" node="hlbLQwkBbr" resolve="changedUnits" />
           </node>
         </node>
-        <node concept="TUZQ0" id="2yvMhGhsf_j" role="TUOzN">
+        <node concept="TUZQ0" id="2yvMhGhsf_j" role="3nqlJM">
           <property role="TUZQ4" value="all expressions/statements in the RScript/Analysis" />
           <node concept="zr_55" id="2yvMhGhsf_l" role="zr_5Q">
             <ref role="zr_51" node="hlbLQwkGvR" resolve="originalUnits" />
           </node>
         </node>
-        <node concept="TUZQ0" id="2yvMhGhsf_m" role="TUOzN">
+        <node concept="TUZQ0" id="2yvMhGhsf_m" role="3nqlJM">
           <property role="TUZQ4" value="libraries that need to be loaded in the temporary node" />
           <node concept="zr_55" id="2yvMhGhsf_o" role="zr_5Q">
             <ref role="zr_51" node="hlbLQwkV84" resolve="dependencies" />
@@ -13702,25 +13699,25 @@
             <property role="1dT_AB" value="Makes a list of statements that will be copied to a temporary node for a partial run." />
           </node>
         </node>
-        <node concept="TUZQ0" id="2yvMhGhsieg" role="TUOzN">
+        <node concept="TUZQ0" id="2yvMhGhsieg" role="3nqlJM">
           <property role="TUZQ4" value="all expressions/statements in the RScript/Analysis" />
           <node concept="zr_55" id="2yvMhGhsiei" role="zr_5Q">
             <ref role="zr_51" node="2yvMhGgU3Vt" resolve="originalUnits" />
           </node>
         </node>
-        <node concept="TUZQ0" id="2yvMhGhsiej" role="TUOzN">
+        <node concept="TUZQ0" id="2yvMhGhsiej" role="3nqlJM">
           <property role="TUZQ4" value="expressions/statements that need to be executed again" />
           <node concept="zr_55" id="2yvMhGhsiel" role="zr_5Q">
             <ref role="zr_51" node="2yvMhGgU4GR" resolve="changedUnits" />
           </node>
         </node>
-        <node concept="TUZQ0" id="2yvMhGhsiem" role="TUOzN">
+        <node concept="TUZQ0" id="2yvMhGhsiem" role="3nqlJM">
           <property role="TUZQ4" value="either RScript or Analysis node" />
           <node concept="zr_55" id="2yvMhGhsieo" role="zr_5Q">
             <ref role="zr_51" node="2yvMhGgUdrw" resolve="rootNode" />
           </node>
         </node>
-        <node concept="x79VA" id="2yvMhGhsies" role="x79VK">
+        <node concept="x79VA" id="2yvMhGhsies" role="3nqlJM">
           <property role="x79VB" value="list of statements" />
         </node>
       </node>
@@ -13938,19 +13935,19 @@
             <property role="1dT_AB" value="Adds the changed node and utility expressions to an ExprList" />
           </node>
         </node>
-        <node concept="TUZQ0" id="2yvMhGhsokW" role="TUOzN">
+        <node concept="TUZQ0" id="2yvMhGhsokW" role="3nqlJM">
           <property role="TUZQ4" value="all descendants of an RScript" />
           <node concept="zr_55" id="2yvMhGhsokY" role="zr_5Q">
             <ref role="zr_51" node="3AkMIeXS$Z4" resolve="allExpressions" />
           </node>
         </node>
-        <node concept="TUZQ0" id="2yvMhGhsokZ" role="TUOzN">
+        <node concept="TUZQ0" id="2yvMhGhsokZ" role="3nqlJM">
           <property role="TUZQ4" value="current node that should be copied to the temporary node" />
           <node concept="zr_55" id="2yvMhGhsol1" role="zr_5Q">
             <ref role="zr_51" node="3AkMIeXSBm8" resolve="currentNode" />
           </node>
         </node>
-        <node concept="x79VA" id="2yvMhGhsol2" role="x79VK">
+        <node concept="x79VA" id="2yvMhGhsol2" role="3nqlJM">
           <property role="x79VB" value="ExprList" />
         </node>
       </node>
@@ -14050,25 +14047,25 @@
             <property role="1dT_AB" value="Creates a new LoadSession node." />
           </node>
         </node>
-        <node concept="TUZQ0" id="2yvMhGhstp5" role="TUOzN">
+        <node concept="TUZQ0" id="2yvMhGhstp5" role="3nqlJM">
           <property role="TUZQ4" value="name of the session" />
           <node concept="zr_55" id="2yvMhGhstp7" role="zr_5Q">
             <ref role="zr_51" node="3AkMIeXSw64" resolve="name" />
           </node>
         </node>
-        <node concept="TUZQ0" id="2yvMhGhstp8" role="TUOzN">
+        <node concept="TUZQ0" id="2yvMhGhstp8" role="3nqlJM">
           <property role="TUZQ4" value="libraries which need to be loaded" />
           <node concept="zr_55" id="2yvMhGhstpa" role="zr_5Q">
             <ref role="zr_51" node="3AkMIeXSwuI" resolve="dependencies" />
           </node>
         </node>
-        <node concept="TUZQ0" id="2yvMhGhstpb" role="TUOzN">
+        <node concept="TUZQ0" id="2yvMhGhstpb" role="3nqlJM">
           <property role="TUZQ4" value="variables that need to be loaded after executing save session" />
           <node concept="zr_55" id="2yvMhGhstpd" role="zr_5Q">
             <ref role="zr_51" node="3AkMIeXSwTb" resolve="variables" />
           </node>
         </node>
-        <node concept="x79VA" id="2yvMhGhstpe" role="x79VK">
+        <node concept="x79VA" id="2yvMhGhstpe" role="3nqlJM">
           <property role="x79VB" value="LoadSession" />
         </node>
       </node>
@@ -14240,19 +14237,19 @@
             <property role="1dT_AB" value="visitIGenerateToScript." />
           </node>
         </node>
-        <node concept="TUZQ0" id="2yvMhGhstxa" role="TUOzN">
+        <node concept="TUZQ0" id="2yvMhGhstxa" role="3nqlJM">
           <property role="TUZQ4" value="RScript node" />
           <node concept="zr_55" id="2yvMhGhstxc" role="zr_5Q">
             <ref role="zr_51" node="hlbLQwjGcj" resolve="rootNode" />
           </node>
         </node>
-        <node concept="TUZQ0" id="2yvMhGhstxd" role="TUOzN">
+        <node concept="TUZQ0" id="2yvMhGhstxd" role="3nqlJM">
           <property role="TUZQ4" value="the node where a change happened" />
           <node concept="zr_55" id="2yvMhGhstxf" role="zr_5Q">
             <ref role="zr_51" node="hlbLQwjGcl" resolve="node" />
           </node>
         </node>
-        <node concept="TUZQ0" id="2yvMhGhstxg" role="TUOzN">
+        <node concept="TUZQ0" id="2yvMhGhstxg" role="3nqlJM">
           <property role="TUZQ4" value="parent of node" />
           <node concept="zr_55" id="2yvMhGhstxi" role="zr_5Q">
             <ref role="zr_51" node="7B51G8WbylL" resolve="parent" />
@@ -14410,19 +14407,19 @@
             <property role="1dT_AB" value="visitIGenerateToScript." />
           </node>
         </node>
-        <node concept="TUZQ0" id="2yvMhGhstUJ" role="TUOzN">
+        <node concept="TUZQ0" id="2yvMhGhstUJ" role="3nqlJM">
           <property role="TUZQ4" value="Analysis node" />
           <node concept="zr_55" id="2yvMhGhstUL" role="zr_5Q">
             <ref role="zr_51" node="hlbLQwjHPz" resolve="rootNode" />
           </node>
         </node>
-        <node concept="TUZQ0" id="2yvMhGhstUM" role="TUOzN">
+        <node concept="TUZQ0" id="2yvMhGhstUM" role="3nqlJM">
           <property role="TUZQ4" value="the node where a change happened" />
           <node concept="zr_55" id="2yvMhGhstUO" role="zr_5Q">
             <ref role="zr_51" node="hlbLQwjHP_" resolve="changedNode" />
           </node>
         </node>
-        <node concept="TUZQ0" id="2yvMhGhstUP" role="TUOzN">
+        <node concept="TUZQ0" id="2yvMhGhstUP" role="3nqlJM">
           <property role="TUZQ4" value="parent of node" />
           <node concept="zr_55" id="2yvMhGhstUR" role="zr_5Q">
             <ref role="zr_51" node="7B51G8WdCUS" resolve="parent" />
@@ -14506,19 +14503,19 @@
             <property role="1dT_AB" value="Returns the nearest ancestor of type Statement for a changed node. changedNode.parent might be null at this stage." />
           </node>
         </node>
-        <node concept="TUZQ0" id="2yvMhGhsu8g" role="TUOzN">
+        <node concept="TUZQ0" id="2yvMhGhsu8g" role="3nqlJM">
           <property role="TUZQ4" value="the node where a change happened" />
           <node concept="zr_55" id="2yvMhGhsu8i" role="zr_5Q">
             <ref role="zr_51" node="7B51G8WdEJf" resolve="changedNode" />
           </node>
         </node>
-        <node concept="TUZQ0" id="2yvMhGhsu8j" role="TUOzN">
+        <node concept="TUZQ0" id="2yvMhGhsu8j" role="3nqlJM">
           <property role="TUZQ4" value="parent of node" />
           <node concept="zr_55" id="2yvMhGhsu8l" role="zr_5Q">
             <ref role="zr_51" node="7B51G8WdEKc" resolve="parent" />
           </node>
         </node>
-        <node concept="x79VA" id="2yvMhGhsu8m" role="x79VK">
+        <node concept="x79VA" id="2yvMhGhsu8m" role="3nqlJM">
           <property role="x79VB" value="Statement node" />
         </node>
       </node>
@@ -14609,13 +14606,13 @@
             <property role="1dT_AB" value="Finds the nearest session inside a analysis node for a given node." />
           </node>
         </node>
-        <node concept="TUZQ0" id="2yvMhGhsued" role="TUOzN">
+        <node concept="TUZQ0" id="2yvMhGhsued" role="3nqlJM">
           <property role="TUZQ4" value="node inside an Analysis node" />
           <node concept="zr_55" id="2yvMhGhsuef" role="zr_5Q">
             <ref role="zr_51" node="hlbLQwkefw" resolve="unit" />
           </node>
         </node>
-        <node concept="x79VA" id="2yvMhGhsueg" role="x79VK">
+        <node concept="x79VA" id="2yvMhGhsueg" role="3nqlJM">
           <property role="x79VB" value="node" />
         </node>
       </node>
@@ -14718,13 +14715,13 @@
             <property role="1dT_AB" value="Finds the nearest sessions inside a analysis node for a given node." />
           </node>
         </node>
-        <node concept="TUZQ0" id="2yvMhGhsuz0" role="TUOzN">
+        <node concept="TUZQ0" id="2yvMhGhsuz0" role="3nqlJM">
           <property role="TUZQ4" value="node inside an RScript node" />
           <node concept="zr_55" id="2yvMhGhsuz2" role="zr_5Q">
             <ref role="zr_51" node="2xF4TVcExcd" resolve="unit" />
           </node>
         </node>
-        <node concept="x79VA" id="2yvMhGhsuz3" role="x79VK">
+        <node concept="x79VA" id="2yvMhGhsuz3" role="3nqlJM">
           <property role="x79VB" value="node" />
         </node>
       </node>
@@ -14795,19 +14792,19 @@
             <property role="1dT_AB" value="Checks if a session file exists for a specific session name." />
           </node>
         </node>
-        <node concept="TUZQ0" id="2yvMhGhsuEl" role="TUOzN">
+        <node concept="TUZQ0" id="2yvMhGhsuEl" role="3nqlJM">
           <property role="TUZQ4" value="either RScript or Analysis node" />
           <node concept="zr_55" id="2yvMhGhsuEn" role="zr_5Q">
             <ref role="zr_51" node="hlbLQwkf42" resolve="rootNode" />
           </node>
         </node>
-        <node concept="TUZQ0" id="2yvMhGhsuEo" role="TUOzN">
+        <node concept="TUZQ0" id="2yvMhGhsuEo" role="3nqlJM">
           <property role="TUZQ4" value="name of session" />
           <node concept="zr_55" id="2yvMhGhsuEq" role="zr_5Q">
             <ref role="zr_51" node="hlbLQwkf44" resolve="sessionName" />
           </node>
         </node>
-        <node concept="x79VA" id="2yvMhGhsuEu" role="x79VK">
+        <node concept="x79VA" id="2yvMhGhsuEu" role="3nqlJM">
           <property role="x79VB" value="boolean" />
         </node>
       </node>
@@ -14885,19 +14882,19 @@
             <property role="1dT_AB" value="Returns the physical file path of a saved session" />
           </node>
         </node>
-        <node concept="TUZQ0" id="2yvMhGhsuJe" role="TUOzN">
+        <node concept="TUZQ0" id="2yvMhGhsuJe" role="3nqlJM">
           <property role="TUZQ4" value="either RScript or Analysis node" />
           <node concept="zr_55" id="2yvMhGhsuJg" role="zr_5Q">
             <ref role="zr_51" node="26cpLhkiFp_" resolve="rootNode" />
           </node>
         </node>
-        <node concept="TUZQ0" id="2yvMhGhsuJh" role="TUOzN">
+        <node concept="TUZQ0" id="2yvMhGhsuJh" role="3nqlJM">
           <property role="TUZQ4" value="name of session" />
           <node concept="zr_55" id="2yvMhGhsuJj" role="zr_5Q">
             <ref role="zr_51" node="26cpLhkiFpB" resolve="sessionName" />
           </node>
         </node>
-        <node concept="x79VA" id="2yvMhGhsuJn" role="x79VK">
+        <node concept="x79VA" id="2yvMhGhsuJn" role="3nqlJM">
           <property role="x79VB" value="path of session" />
         </node>
       </node>
@@ -15017,19 +15014,19 @@
             <property role="1dT_AB" value="Starts a new background task without any visible progress indicator." />
           </node>
         </node>
-        <node concept="TUZQ0" id="2yvMhGhsZb8" role="TUOzN">
+        <node concept="TUZQ0" id="2yvMhGhsZb8" role="3nqlJM">
           <property role="TUZQ4" value="Code that should be executed in the background" />
           <node concept="zr_55" id="2yvMhGhsZba" role="zr_5Q">
             <ref role="zr_51" node="2yvMhGgV936" resolve="code" />
           </node>
         </node>
-        <node concept="TUZQ0" id="2yvMhGhsZbb" role="TUOzN">
+        <node concept="TUZQ0" id="2yvMhGhsZbb" role="3nqlJM">
           <property role="TUZQ4" value="Title of the task (not visible)" />
           <node concept="zr_55" id="2yvMhGhsZbd" role="zr_5Q">
             <ref role="zr_51" node="2yvMhGgV8vV" resolve="title" />
           </node>
         </node>
-        <node concept="TUZQ0" id="2yvMhGhsZbe" role="TUOzN">
+        <node concept="TUZQ0" id="2yvMhGhsZbe" role="3nqlJM">
           <property role="TUZQ4" value="Project" />
           <node concept="zr_55" id="2yvMhGhsZbg" role="zr_5Q">
             <ref role="zr_51" node="2yvMhGgV83W" resolve="project" />
