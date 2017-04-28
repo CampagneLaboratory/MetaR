@@ -1732,5 +1732,53 @@
       </node>
     </node>
   </node>
+  <node concept="13h7C7" id="4G_WAmId8IM">
+    <ref role="13h7C2" to="jugs:4G_WAmId7Qs" resolve="T_SNE" />
+    <node concept="13hLZK" id="4G_WAmId8IN" role="13h7CW">
+      <node concept="3clFbS" id="4G_WAmId8IO" role="2VODD2" />
+    </node>
+    <node concept="13i0hz" id="4G_WAmId8IX" role="13h7CS">
+      <property role="TrG5h" value="getPlot" />
+      <property role="13i0it" value="false" />
+      <property role="13i0iv" value="false" />
+      <ref role="13i0hy" to="v8sa:L2v$scW7kG" resolve="getPlot" />
+      <node concept="3Tm1VV" id="4G_WAmId8IY" role="1B3o_S" />
+      <node concept="3clFbS" id="4G_WAmId8J1" role="3clF47">
+        <node concept="3cpWs6" id="4G_WAmIdfWi" role="3cqZAp">
+          <node concept="2OqwBi" id="4G_WAmIdgaC" role="3cqZAk">
+            <node concept="13iPFW" id="4G_WAmIdfWp" role="2Oq$k0" />
+            <node concept="3TrEf2" id="4G_WAmIdgpK" role="2OqNvi">
+              <ref role="3Tt5mk" to="jugs:4G_WAmId7Qw" resolve="plot" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tqbb2" id="4G_WAmId8J2" role="3clF45">
+        <ref role="ehGHo" to="jrxw:7lAbM$uOMoK" resolve="Plot" />
+      </node>
+    </node>
+    <node concept="13i0hz" id="4G_WAmIdqNW" role="13h7CS">
+      <property role="TrG5h" value="dependencies" />
+      <property role="13i0it" value="false" />
+      <property role="13i0iv" value="false" />
+      <ref role="13i0hy" to="v8sa:7LvyiX4mim8" resolve="dependencies" />
+      <node concept="3Tm1VV" id="4G_WAmIdqNX" role="1B3o_S" />
+      <node concept="3clFbS" id="4G_WAmIdqNY" role="3clF47">
+        <node concept="3cpWs6" id="4G_WAmIdqNZ" role="3cqZAp">
+          <node concept="2ShNRf" id="4G_WAmIdqO0" role="3cqZAk">
+            <node concept="Tc6Ow" id="4G_WAmIdqO1" role="2ShVmc">
+              <node concept="17QB3L" id="4G_WAmIdqO2" role="HW$YZ" />
+              <node concept="Xl_RD" id="4G_WAmIdqO3" role="HW$Y0">
+                <property role="Xl_RC" value="Rtsne" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="A3Dl8" id="4G_WAmIdqO5" role="3clF45">
+        <node concept="17QB3L" id="4G_WAmIdqO6" role="A3Ik2" />
+      </node>
+    </node>
+  </node>
 </model>
 

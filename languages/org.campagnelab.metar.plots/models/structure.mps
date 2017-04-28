@@ -200,5 +200,49 @@
     <property role="EcuMT" value="95082356240931500" />
     <ref role="1TJDcQ" to="onla:4FCgsrO$58w" resolve="StringStyleClass" />
   </node>
+  <node concept="1TIwiD" id="4G_WAmId7Qs">
+    <property role="EcuMT" value="5415000645511183772" />
+    <property role="TrG5h" value="T_SNE" />
+    <property role="34LRSv" value="t-SNE" />
+    <property role="R4oN_" value="T-SNE plot" />
+    <ref role="1TJDcQ" to="jrxw:6WPhx9nlOjT" resolve="PlotBuilderStatement" />
+    <node concept="1TJgyi" id="4G_WAmId7Xn" role="1TKVEl">
+      <property role="IQ2nx" value="5415000645511184215" />
+      <property role="TrG5h" value="theta" />
+      <ref role="AX2Wp" to="6q58:48xyd$fpdmX" resolve="FloatingPointValue" />
+    </node>
+    <node concept="1TJgyi" id="4G_WAmId7Zr" role="1TKVEl">
+      <property role="IQ2nx" value="5415000645511184347" />
+      <property role="TrG5h" value="numIterations" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
+    <node concept="1TJgyi" id="4G_WAmId7Zu" role="1TKVEl">
+      <property role="IQ2nx" value="5415000645511184350" />
+      <property role="TrG5h" value="checkDuplicates" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+    <node concept="1TJgyi" id="4G_WAmIdCMW" role="1TKVEl">
+      <property role="IQ2nx" value="5415000645511318716" />
+      <property role="TrG5h" value="randomSeed" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
+    <node concept="1TJgyj" id="4G_WAmId7Qv" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="statsTable" />
+      <property role="20lbJX" value="1" />
+      <property role="IQ2ns" value="5415000645511183775" />
+      <ref role="20lvS9" to="jrxw:2WRhvFtn_YR" resolve="FutureTableRef" />
+    </node>
+    <node concept="1TJgyj" id="4G_WAmId7Qw" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="plot" />
+      <property role="20lbJX" value="1" />
+      <property role="IQ2ns" value="5415000645511183776" />
+      <ref role="20lvS9" to="jrxw:7lAbM$uOMoK" resolve="Plot" />
+    </node>
+    <node concept="PrWs8" id="4G_WAmId7Qt" role="PzmwI">
+      <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
+    </node>
+  </node>
 </model>
 
