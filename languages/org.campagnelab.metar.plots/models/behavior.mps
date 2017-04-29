@@ -1799,6 +1799,9 @@
               <node concept="Xl_RD" id="3a_cKoKkoH1" role="HW$Y0">
                 <property role="Xl_RC" value="ggplot2" />
               </node>
+              <node concept="Xl_RD" id="6TmyYlIA0sV" role="HW$Y0">
+                <property role="Xl_RC" value="stats" />
+              </node>
             </node>
           </node>
         </node>

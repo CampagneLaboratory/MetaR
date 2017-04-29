@@ -124,6 +124,19 @@
               </node>
             </node>
           </node>
+          <node concept="3clFbF" id="6TmyYlIA3yx" role="3cqZAp">
+            <node concept="37vLTI" id="6TmyYlIA5F4" role="3clFbG">
+              <node concept="3cmrfG" id="6TmyYlIA5Fy" role="37vLTx">
+                <property role="3cmrfH" value="1" />
+              </node>
+              <node concept="2OqwBi" id="6TmyYlIA3SM" role="37vLTJ">
+                <node concept="1r4Lsj" id="6TmyYlIA3yv" role="2Oq$k0" />
+                <node concept="3TrcHB" id="6TmyYlIA4$l" role="2OqNvi">
+                  <ref role="3TsBF5" to="jugs:6TmyYlIA3oo" resolve="numberOfClusters" />
+                </node>
+              </node>
+            </node>
+          </node>
           <node concept="3clFbF" id="2561NaNzQCQ" role="3cqZAp">
             <node concept="37vLTI" id="2561NaNzSbm" role="3clFbG">
               <node concept="3clFbT" id="2561NaNzSbK" role="37vLTx">

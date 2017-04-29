@@ -306,6 +306,19 @@
       <node concept="3F0A7n" id="4G_WAmIdCP5" role="3EZMnx">
         <ref role="1NtTu8" to="jugs:4G_WAmIdCMW" resolve="randomSeed" />
       </node>
+      <node concept="3F0ifn" id="6TmyYlIAwOb" role="3EZMnx">
+        <property role="3F0ifm" value="number of clusters" />
+        <node concept="pVoyu" id="6TmyYlIAwOc" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="lj46D" id="6TmyYlIAwOd" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="Vb9p2" id="6TmyYlIAwOe" role="3F10Kt" />
+      </node>
+      <node concept="3F0A7n" id="6TmyYlIAwOf" role="3EZMnx">
+        <ref role="1NtTu8" to="jugs:6TmyYlIA3oo" resolve="numberOfClusters" />
+      </node>
       <node concept="3F0ifn" id="4G_WAmId7RT" role="3EZMnx">
         <property role="3F0ifm" value="}" />
         <node concept="pVoyu" id="4G_WAmId7Sb" role="3F10Kt">

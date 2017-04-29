@@ -60,6 +60,7 @@
     </language>
     <language id="e6c108c3-0009-4034-b684-c506814ba197" name="org.campagnelab.metar.plots">
       <concept id="5415000645511183772" name="org.campagnelab.metar.plots.structure.T_SNE" flags="ng" index="3_4oZT">
+        <property id="7950696009688430104" name="numberOfClusters" index="0NFRX" />
         <property id="5415000645511184215" name="theta" index="3_4oOM" />
         <property id="5415000645511184350" name="checkDuplicates" index="3_4oQV" />
         <property id="5415000645511184347" name="numIterations" index="3_4oQY" />
@@ -2154,6 +2155,7 @@
         <property role="3_4oQY" value="1000" />
         <property role="3_4RVp" value="122332" />
         <property role="3_4oQV" value="true" />
+        <property role="0NFRX" value="2" />
         <node concept="3MlLWZ" id="2561NaN_7KZ" role="2iMLWB">
           <property role="TrG5h" value="Results" />
           <ref role="3MlLW5" node="2561NaN_7L0" resolve="Results" />
@@ -2211,7 +2213,7 @@
         </node>
         <node concept="31becx" id="6TmyYlI_Z7N" role="312phR">
           <property role="1MXi1$" value="AQLPFIKMVX" />
-          <ref role="312p7B" node="2561NaN_85T" resolve="plot tSNE" />
+          <ref role="312p7B" node="2561NaN_7L3" resolve="1223" />
         </node>
       </node>
     </node>
