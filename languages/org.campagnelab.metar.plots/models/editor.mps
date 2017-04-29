@@ -241,6 +241,14 @@
       </node>
       <node concept="3F1sOY" id="4G_WAmId7Rc" role="3EZMnx">
         <ref role="1NtTu8" to="jugs:4G_WAmId7Qw" resolve="plot" />
+        <ref role="1k5W1q" to="8gqa:7Hltlm8D5QS" resolve="Plot" />
+      </node>
+      <node concept="3F0ifn" id="2561NaN$WR9" role="3EZMnx">
+        <property role="3F0ifm" value="," />
+      </node>
+      <node concept="3F1sOY" id="2561NaN$WS9" role="3EZMnx">
+        <ref role="1NtTu8" to="jugs:2561NaNzhwl" resolve="tsneTable" />
+        <ref role="1k5W1q" to="8gqa:7Hltlm8A4_N" resolve="FutureTable" />
       </node>
       <node concept="3F0ifn" id="4G_WAmId7Ro" role="3EZMnx">
         <property role="3F0ifm" value="{" />

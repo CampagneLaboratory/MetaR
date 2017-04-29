@@ -240,8 +240,18 @@
       <property role="IQ2ns" value="5415000645511183776" />
       <ref role="20lvS9" to="jrxw:7lAbM$uOMoK" resolve="Plot" />
     </node>
+    <node concept="1TJgyj" id="2561NaNzhwl" role="1TKVEi">
+      <property role="IQ2ns" value="2397611765963495445" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="tsneTable" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" to="jrxw:2WRhvFto5F5" resolve="FutureTable" />
+    </node>
     <node concept="PrWs8" id="4G_WAmId7Qt" role="PzmwI">
       <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
+    </node>
+    <node concept="PrWs8" id="2561NaNzhws" role="PzmwI">
+      <ref role="PrY4T" to="jrxw:5iYlRBKtkRE" resolve="FutureTableCreator" />
     </node>
   </node>
 </model>

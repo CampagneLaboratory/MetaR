@@ -9,6 +9,7 @@
   <dependencies>
     <dependency reexport="false">9c4c21db-948a-44c6-8d32-16dd401e98b0(org.campagnelab.metar.r.stubs)</dependency>
     <dependency reexport="false">c1747c67-8f42-4d83-9542-4a948aec17d9(org.campagnelab.metar.functions.importing)</dependency>
+    <dependency reexport="false">067d1b0c-daf1-44f9-9fbd-e1dd4c6e26e8(org.campagnelab.metar.simulation)</dependency>
   </dependencies>
   <usedDevKits>
     <usedDevKit>8a3636fa-c6ec-4cb0-bc2a-b7143f2a4937(org.campagnelab.metaR)</usedDevKit>
@@ -44,6 +45,7 @@
     <language slang="l:32f503e8-061b-451e-bcb0-fef56aa05eb9:org.campagnelab.metar.inspect" version="0" />
     <language slang="l:049ed9e7-0f0d-4814-a373-a4b21e15b59e:org.campagnelab.metar.limma" version="1" />
     <language slang="l:ecc862c9-5ab5-42ef-8703-2039019fb338:org.campagnelab.metar.models" version="1" />
+    <language slang="l:e6c108c3-0009-4034-b684-c506814ba197:org.campagnelab.metar.plots" version="0" />
     <language slang="l:e4bb94f9-1202-448e-98f6-d108577add14:org.campagnelab.metar.r.metar" version="-1" />
     <language slang="l:067d1b0c-daf1-44f9-9fbd-e1dd4c6e26e8:org.campagnelab.metar.simulation" version="0" />
     <language slang="l:5d6bde84-4ce4-4eb5-a37e-25a5edd55129:org.campagnelab.metar.tables" version="3" />
@@ -86,6 +88,7 @@
     <module reference="32f503e8-061b-451e-bcb0-fef56aa05eb9(org.campagnelab.metar.inspect)" version="0" />
     <module reference="6f7a993a-c389-4f3d-a9c6-9dda8979ca77(org.campagnelab.metar.r.parsers)" version="0" />
     <module reference="9c4c21db-948a-44c6-8d32-16dd401e98b0(org.campagnelab.metar.r.stubs)" version="0" />
+    <module reference="067d1b0c-daf1-44f9-9fbd-e1dd4c6e26e8(org.campagnelab.metar.simulation)" version="0" />
     <module reference="5d6bde84-4ce4-4eb5-a37e-25a5edd55129(org.campagnelab.metar.tables)" version="0" />
     <module reference="5ec1cd3d-0a50-4049-a8fa-ae768d7baa25(org.campagnelab.mps.XChart)" version="0" />
     <module reference="ecf91126-e504-4aae-8ee7-3192d64e77f6(org.campagnelab.mps.XChart.types)" version="0" />

@@ -4909,9 +4909,9 @@
             <property role="1MXi1$" value="KMBPDUFEET" />
             <node concept="2PZJp2" id="1isxb6vl3Pb" role="134Gdo">
               <property role="1MXi1$" value="PARQPUKESM" />
-              <node concept="2PZJpp" id="1isxb6vl3Pd" role="134Gdo">
-                <property role="TrG5h" value="colorRampPalette" />
-                <property role="1MXi1$" value="VFBRPNUALP" />
+              <node concept="1LhYbg" id="2561NaNyhbm" role="134Gdo">
+                <property role="1MXi1$" value="WBKXAUUKRE" />
+                <ref role="1Li74V" to="4tsn:7EwhY3NNBh" resolve="colorRampPalette" />
               </node>
               <node concept="gNbv0" id="1isxb6vl3Pe" role="134Gdu">
                 <property role="1MXi1$" value="MWFQWWPUKH" />
