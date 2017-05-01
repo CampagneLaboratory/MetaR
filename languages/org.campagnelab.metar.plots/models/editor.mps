@@ -35,11 +35,15 @@
       <concept id="1186414536763" name="jetbrains.mps.lang.editor.structure.BooleanStyleSheetItem" flags="ln" index="VOi$J">
         <property id="1186414551515" name="flag" index="VOm3f" />
       </concept>
+      <concept id="1186414928363" name="jetbrains.mps.lang.editor.structure.SelectableStyleSheetItem" flags="ln" index="VPM3Z" />
       <concept id="1088013125922" name="jetbrains.mps.lang.editor.structure.CellModel_RefCell" flags="sg" stub="730538219795941030" index="1iCGBv">
         <child id="1088186146602" name="editorComponent" index="1sWHZn" />
       </concept>
       <concept id="1381004262292414836" name="jetbrains.mps.lang.editor.structure.ICellStyle" flags="ng" index="1k5N5V">
         <reference id="1381004262292426837" name="parentStyleClass" index="1k5W1q" />
+      </concept>
+      <concept id="1236262245656" name="jetbrains.mps.lang.editor.structure.MatchingLabelStyleClassItem" flags="ln" index="3mYdg7">
+        <property id="1238091709220" name="labelName" index="1413C4" />
       </concept>
       <concept id="1088185857835" name="jetbrains.mps.lang.editor.structure.InlineEditorComponent" flags="ig" index="1sVBvm" />
       <concept id="1139848536355" name="jetbrains.mps.lang.editor.structure.CellModel_WithRole" flags="ng" index="1$h60E">
@@ -47,6 +51,7 @@
         <reference id="1140103550593" name="relationDeclaration" index="1NtTu8" />
       </concept>
       <concept id="1073389446423" name="jetbrains.mps.lang.editor.structure.CellModel_Collection" flags="sn" stub="3013115976261988961" index="3EZMnI">
+        <property id="1160590353935" name="usesFolding" index="S$Qs1" />
         <child id="1106270802874" name="cellLayout" index="2iSdaV" />
         <child id="1073389446424" name="childCellModel" index="3EZMnx" />
       </concept>
@@ -256,68 +261,91 @@
           <property role="VOm3f" value="true" />
         </node>
         <node concept="Vb9p2" id="4G_WAmId7Vy" role="3F10Kt" />
-      </node>
-      <node concept="3F0ifn" id="4G_WAmId7Tp" role="3EZMnx">
-        <property role="3F0ifm" value="speed/accuracy (0 exact, default 0.5, larger is faster)" />
-        <node concept="lj46D" id="4G_WAmId7TK" role="3F10Kt">
-          <property role="VOm3f" value="true" />
+        <node concept="3mYdg7" id="4mOaJR2QNtM" role="3F10Kt">
+          <property role="1413C4" value="foldable" />
         </node>
-        <node concept="Vb9p2" id="4G_WAmId7WE" role="3F10Kt" />
       </node>
-      <node concept="3F0A7n" id="4G_WAmId7XD" role="3EZMnx">
-        <ref role="1NtTu8" to="jugs:4G_WAmId7Xn" resolve="theta" />
-      </node>
-      <node concept="3F0ifn" id="4G_WAmId7YE" role="3EZMnx">
-        <property role="3F0ifm" value="Number of iterations" />
-        <node concept="pVoyu" id="4G_WAmId7YW" role="3F10Kt">
-          <property role="VOm3f" value="true" />
+      <node concept="3EZMnI" id="4mOaJR2QR5A" role="3EZMnx">
+        <property role="S$Qs1" value="true" />
+        <node concept="VPM3Z" id="4mOaJR2QR5C" role="3F10Kt">
+          <property role="VOm3f" value="false" />
         </node>
-        <node concept="lj46D" id="4G_WAmId7YZ" role="3F10Kt">
-          <property role="VOm3f" value="true" />
+        <node concept="3F0ifn" id="4G_WAmId7Tp" role="3EZMnx">
+          <property role="3F0ifm" value="speed/accuracy (0 exact, default 0.5, larger is faster)" />
+          <node concept="lj46D" id="4G_WAmId7TK" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
+          <node concept="Vb9p2" id="4G_WAmId7WE" role="3F10Kt" />
         </node>
-        <node concept="Vb9p2" id="4G_WAmId7ZA" role="3F10Kt" />
-      </node>
-      <node concept="3F0A7n" id="4G_WAmId7ZH" role="3EZMnx">
-        <ref role="1NtTu8" to="jugs:4G_WAmId7Zr" resolve="numIterations" />
-      </node>
-      <node concept="3F0ifn" id="4G_WAmId80n" role="3EZMnx">
-        <property role="3F0ifm" value="check duplicates (recommended, slower for large tables)" />
-        <node concept="pVoyu" id="4G_WAmId80o" role="3F10Kt">
-          <property role="VOm3f" value="true" />
+        <node concept="3F0A7n" id="4G_WAmId7XD" role="3EZMnx">
+          <ref role="1NtTu8" to="jugs:4G_WAmId7Xn" resolve="theta" />
         </node>
-        <node concept="lj46D" id="4G_WAmId80p" role="3F10Kt">
-          <property role="VOm3f" value="true" />
+        <node concept="3F0ifn" id="4mOaJR2Qdi1" role="3EZMnx">
+          <property role="3F0ifm" value="perplexity" />
+          <node concept="Vb9p2" id="4mOaJR2Qdi3" role="3F10Kt" />
+          <node concept="pVoyu" id="4mOaJR2QdiL" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
+          <node concept="lj46D" id="4mOaJR2QdiQ" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
         </node>
-        <node concept="Vb9p2" id="4G_WAmId80q" role="3F10Kt" />
-      </node>
-      <node concept="3F0A7n" id="4G_WAmId80r" role="3EZMnx">
-        <ref role="1NtTu8" to="jugs:4G_WAmId7Zu" resolve="checkDuplicates" />
-      </node>
-      <node concept="3F0ifn" id="4G_WAmIdCP1" role="3EZMnx">
-        <property role="3F0ifm" value="random seed" />
-        <node concept="pVoyu" id="4G_WAmIdCP2" role="3F10Kt">
-          <property role="VOm3f" value="true" />
+        <node concept="3F0A7n" id="4mOaJR2Qdi4" role="3EZMnx">
+          <ref role="1NtTu8" to="jugs:4mOaJR2Qdgu" resolve="perplexity" />
         </node>
-        <node concept="lj46D" id="4G_WAmIdCP3" role="3F10Kt">
-          <property role="VOm3f" value="true" />
+        <node concept="3F0ifn" id="4G_WAmId7YE" role="3EZMnx">
+          <property role="3F0ifm" value="Number of iterations" />
+          <node concept="pVoyu" id="4G_WAmId7YW" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
+          <node concept="lj46D" id="4G_WAmId7YZ" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
+          <node concept="Vb9p2" id="4G_WAmId7ZA" role="3F10Kt" />
         </node>
-        <node concept="Vb9p2" id="4G_WAmIdCP4" role="3F10Kt" />
-      </node>
-      <node concept="3F0A7n" id="4G_WAmIdCP5" role="3EZMnx">
-        <ref role="1NtTu8" to="jugs:4G_WAmIdCMW" resolve="randomSeed" />
-      </node>
-      <node concept="3F0ifn" id="6TmyYlIAwOb" role="3EZMnx">
-        <property role="3F0ifm" value="number of clusters" />
-        <node concept="pVoyu" id="6TmyYlIAwOc" role="3F10Kt">
-          <property role="VOm3f" value="true" />
+        <node concept="3F0A7n" id="4G_WAmId7ZH" role="3EZMnx">
+          <ref role="1NtTu8" to="jugs:4G_WAmId7Zr" resolve="numIterations" />
         </node>
-        <node concept="lj46D" id="6TmyYlIAwOd" role="3F10Kt">
-          <property role="VOm3f" value="true" />
+        <node concept="3F0ifn" id="4G_WAmId80n" role="3EZMnx">
+          <property role="3F0ifm" value="check duplicates (recommended, slower for large tables)" />
+          <node concept="pVoyu" id="4G_WAmId80o" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
+          <node concept="lj46D" id="4G_WAmId80p" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
+          <node concept="Vb9p2" id="4G_WAmId80q" role="3F10Kt" />
         </node>
-        <node concept="Vb9p2" id="6TmyYlIAwOe" role="3F10Kt" />
-      </node>
-      <node concept="3F0A7n" id="6TmyYlIAwOf" role="3EZMnx">
-        <ref role="1NtTu8" to="jugs:6TmyYlIA3oo" resolve="numberOfClusters" />
+        <node concept="3F0A7n" id="4G_WAmId80r" role="3EZMnx">
+          <ref role="1NtTu8" to="jugs:4G_WAmId7Zu" resolve="checkDuplicates" />
+        </node>
+        <node concept="3F0ifn" id="4G_WAmIdCP1" role="3EZMnx">
+          <property role="3F0ifm" value="random seed" />
+          <node concept="pVoyu" id="4G_WAmIdCP2" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
+          <node concept="lj46D" id="4G_WAmIdCP3" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
+          <node concept="Vb9p2" id="4G_WAmIdCP4" role="3F10Kt" />
+        </node>
+        <node concept="3F0A7n" id="4G_WAmIdCP5" role="3EZMnx">
+          <ref role="1NtTu8" to="jugs:4G_WAmIdCMW" resolve="randomSeed" />
+        </node>
+        <node concept="3F0ifn" id="6TmyYlIAwOb" role="3EZMnx">
+          <property role="3F0ifm" value="number of clusters" />
+          <node concept="pVoyu" id="6TmyYlIAwOc" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
+          <node concept="lj46D" id="6TmyYlIAwOd" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
+          <node concept="Vb9p2" id="6TmyYlIAwOe" role="3F10Kt" />
+        </node>
+        <node concept="3F0A7n" id="6TmyYlIAwOf" role="3EZMnx">
+          <ref role="1NtTu8" to="jugs:6TmyYlIA3oo" resolve="numberOfClusters" />
+        </node>
+        <node concept="l2Vlx" id="4mOaJR2QR5F" role="2iSdaV" />
       </node>
       <node concept="3F0ifn" id="4G_WAmId7RT" role="3EZMnx">
         <property role="3F0ifm" value="}" />
@@ -325,6 +353,9 @@
           <property role="VOm3f" value="true" />
         </node>
         <node concept="Vb9p2" id="4G_WAmId7VF" role="3F10Kt" />
+        <node concept="3mYdg7" id="4mOaJR2QNvI" role="3F10Kt">
+          <property role="1413C4" value="foldable" />
+        </node>
       </node>
       <node concept="l2Vlx" id="4G_WAmId7QK" role="2iSdaV" />
     </node>

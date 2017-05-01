@@ -137,6 +137,19 @@
               </node>
             </node>
           </node>
+          <node concept="3clFbF" id="4mOaJR2QhSj" role="3cqZAp">
+            <node concept="37vLTI" id="4mOaJR2Qkmi" role="3clFbG">
+              <node concept="2OqwBi" id="4mOaJR2Qifl" role="37vLTJ">
+                <node concept="1r4Lsj" id="4mOaJR2QhSh" role="2Oq$k0" />
+                <node concept="3TrcHB" id="4mOaJR2Qjm5" role="2OqNvi">
+                  <ref role="3TsBF5" to="jugs:4mOaJR2Qdgu" resolve="perplexity" />
+                </node>
+              </node>
+              <node concept="Xl_RD" id="4mOaJR2QkFl" role="37vLTx">
+                <property role="Xl_RC" value="50" />
+              </node>
+            </node>
+          </node>
           <node concept="3clFbF" id="2561NaNzQCQ" role="3cqZAp">
             <node concept="37vLTI" id="2561NaNzSbm" role="3clFbG">
               <node concept="3clFbT" id="2561NaNzSbK" role="37vLTx">
