@@ -2033,7 +2033,7 @@
       <node concept="3clFbS" id="4KQKRH2t1yB" role="2VODD2">
         <node concept="lc7rE" id="4KQKRH2t1yN" role="3cqZAp">
           <node concept="la8eA" id="4KQKRH2t1zs" role="lcghm">
-            <property role="lacIc" value="%" />
+            <property role="lacIc" value=" %" />
           </node>
           <node concept="l9hG8" id="4KQKRH2t1zW" role="lcghm">
             <node concept="2OqwBi" id="4KQKRH2t1Bm" role="lb14g">
@@ -2044,7 +2044,7 @@
             </node>
           </node>
           <node concept="la8eA" id="4KQKRH2t1NT" role="lcghm">
-            <property role="lacIc" value="%" />
+            <property role="lacIc" value="% " />
           </node>
         </node>
       </node>
