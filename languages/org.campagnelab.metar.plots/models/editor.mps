@@ -360,5 +360,45 @@
       <node concept="l2Vlx" id="4G_WAmId7QK" role="2iSdaV" />
     </node>
   </node>
+  <node concept="24kQdi" id="KFBOh5CHNR">
+    <ref role="1XX52x" to="jugs:KFBOh5AR$h" resolve="Scatterplot" />
+    <node concept="3EZMnI" id="KFBOh5CHNT" role="2wV5jI">
+      <node concept="3F0ifn" id="KFBOh5CHO3" role="3EZMnx">
+        <property role="3F0ifm" value="scatterplot" />
+      </node>
+      <node concept="3F1sOY" id="KFBOh5CHOc" role="3EZMnx">
+        <ref role="1NtTu8" to="jugs:KFBOh5AR$o" resolve="inputTable" />
+        <ref role="1k5W1q" to="8gqa:7Hltlm8A4_N" resolve="FutureTable" />
+      </node>
+      <node concept="3F0ifn" id="KFBOh5CHOp" role="3EZMnx">
+        <property role="3F0ifm" value="x:" />
+      </node>
+      <node concept="3F1sOY" id="KFBOh5CHOE" role="3EZMnx">
+        <ref role="1NtTu8" to="jugs:2rPl_HNzcA_" resolve="x" />
+        <ref role="1k5W1q" to="8gqa:2rPl_HMU6tb" resolve="ColumnName" />
+      </node>
+      <node concept="3F0ifn" id="KFBOh5CHOZ" role="3EZMnx">
+        <property role="3F0ifm" value="y:" />
+      </node>
+      <node concept="3F1sOY" id="KFBOh5CHPo" role="3EZMnx">
+        <ref role="1NtTu8" to="jugs:2rPl_HNzcD3" resolve="y" />
+        <ref role="1k5W1q" to="8gqa:2rPl_HMU6tb" resolve="ColumnName" />
+      </node>
+      <node concept="3F0ifn" id="KFBOh5CHPP" role="3EZMnx">
+        <property role="3F0ifm" value="color:" />
+      </node>
+      <node concept="3F1sOY" id="KFBOh5CHQm" role="3EZMnx">
+        <ref role="1NtTu8" to="jugs:2rPl_HNzcDi" resolve="color" />
+      </node>
+      <node concept="3F0ifn" id="KFBOh5CXD4" role="3EZMnx">
+        <property role="3F0ifm" value="-&gt;" />
+      </node>
+      <node concept="3F1sOY" id="KFBOh5CXDH" role="3EZMnx">
+        <ref role="1NtTu8" to="jugs:KFBOh5AR$p" resolve="plot" />
+        <ref role="1k5W1q" to="8gqa:7Hltlm8D5QS" resolve="Plot" />
+      </node>
+      <node concept="l2Vlx" id="KFBOh5CHNW" role="2iSdaV" />
+    </node>
+  </node>
 </model>
 

@@ -67,6 +67,13 @@
       </concept>
     </language>
     <language id="e6c108c3-0009-4034-b684-c506814ba197" name="org.campagnelab.metar.plots">
+      <concept id="876969668028102929" name="org.campagnelab.metar.plots.structure.Scatterplot" flags="ng" index="19Gepl">
+        <child id="876969668028102936" name="inputTable" index="19Geps" />
+        <child id="876969668028102937" name="plot" index="19Gept" />
+        <child id="2807244893515991634" name="color" index="1lupK9" />
+        <child id="2807244893515991619" name="y" index="1lupKo" />
+        <child id="2807244893515991461" name="x" index="1lupZY" />
+      </concept>
       <concept id="5415000645511183772" name="org.campagnelab.metar.plots.structure.T_SNE" flags="ng" index="3_4oZT">
         <property id="7950696009688430104" name="numberOfClusters" index="0NFRX" />
         <property id="5022686753809028126" name="perplexity" index="27rfVz" />
@@ -112,12 +119,6 @@
         <child id="3105090771426088552" name="destination" index="319mBM" />
       </concept>
       <concept id="3105090771426712763" name="org.campagnelab.metar.tables.structure.PlotRefWithPreview" flags="ng" index="31becx" />
-      <concept id="6001041468486314166" name="org.campagnelab.metar.tables.structure.FitXByY" flags="ng" index="3wL1ft">
-        <child id="4451133196880278727" name="table" index="aeIV8" />
-        <child id="2807244893515991619" name="y" index="1lupKo" />
-        <child id="2807244893515991461" name="x" index="1lupZY" />
-        <child id="6001041468486400692" name="plot" index="3wKG7v" />
-      </concept>
       <concept id="8459500803719374384" name="org.campagnelab.metar.tables.structure.Plot" flags="ng" index="1FHg$p">
         <property id="8962032619586498917" name="width" index="ZHjxa" />
         <property id="8962032619586499111" name="height" index="ZHjG8" />
@@ -2603,22 +2604,25 @@
           <property role="TrG5h" value="1223" />
         </node>
       </node>
-      <node concept="3wL1ft" id="2561NaN_85S" role="ZXjPg">
-        <property role="1MXi1$" value="ORQMFECMCO" />
-        <node concept="1FHg$p" id="2561NaN_85T" role="3wKG7v">
-          <property role="ZHjxa" value="400" />
-          <property role="ZHjG8" value="400" />
-          <property role="3ZMXzF" value="4" />
-          <property role="TrG5h" value="plot tSNE" />
-        </node>
-        <node concept="afgQW" id="2561NaN_8gw" role="aeIV8">
+      <node concept="19Gepl" id="KFBOh5CXfa" role="ZXjPg">
+        <property role="1MXi1$" value="GMEWHWXRSY" />
+        <node concept="afgQW" id="KFBOh5CXCy" role="19Geps">
           <ref role="afgo8" node="2561NaN_7L0" resolve="Results" />
         </node>
-        <node concept="3MHf5z" id="2561NaN_8gq" role="1lupZY">
+        <node concept="1FHg$p" id="KFBOh5CXfe" role="19Gept">
+          <property role="ZHjxa" value="200" />
+          <property role="ZHjG8" value="200" />
+          <property role="3ZMXzF" value="1" />
+          <property role="TrG5h" value="scatterplot" />
+        </node>
+        <node concept="3MHf5z" id="KFBOh5CXCA" role="1lupZY">
           <ref role="3MHf5w" node="4mOaJR2Tvt$" resolve="TSNE1" />
         </node>
-        <node concept="3MHf5z" id="2561NaN_8gt" role="1lupKo">
+        <node concept="3MHf5z" id="KFBOh5CXCE" role="1lupKo">
           <ref role="3MHf5w" node="4mOaJR2Tvt_" resolve="TSNE2" />
+        </node>
+        <node concept="3MHf5z" id="KFBOh5CXCI" role="1lupK9">
+          <ref role="3MHf5w" node="4mOaJR2TvtA" resolve="cluster" />
         </node>
       </node>
       <node concept="313sG1" id="6TmyYlI_YXg" role="ZXjPg">
@@ -2629,7 +2633,7 @@
         <node concept="1FHg$p" id="6TmyYlI_YXh" role="319mBM">
           <property role="ZHjxa" value="200" />
           <property role="ZHjG8" value="200" />
-          <property role="3ZMXzF" value="1" />
+          <property role="3ZMXzF" value="6" />
           <property role="TrG5h" value="tsne" />
         </node>
         <node concept="31becx" id="6TmyYlI_Z7N" role="312phR">

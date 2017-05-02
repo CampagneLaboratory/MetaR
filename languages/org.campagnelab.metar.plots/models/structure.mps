@@ -264,5 +264,49 @@
       <ref role="PrY4T" to="jrxw:5iYlRBKtkRE" resolve="FutureTableCreator" />
     </node>
   </node>
+  <node concept="1TIwiD" id="KFBOh5AR$h">
+    <property role="EcuMT" value="876969668028102929" />
+    <property role="TrG5h" value="Scatterplot" />
+    <property role="34LRSv" value="scatterplot" />
+    <property role="R4oN_" value="Scatterplot (ggplot2)" />
+    <ref role="1TJDcQ" to="jrxw:6WPhx9nlOjT" resolve="PlotBuilderStatement" />
+    <node concept="1TJgyj" id="KFBOh5AR$o" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="inputTable" />
+      <property role="20lbJX" value="1" />
+      <property role="IQ2ns" value="876969668028102936" />
+      <ref role="20lvS9" to="jrxw:3R5AwWRY9uN" resolve="TableRef" />
+    </node>
+    <node concept="1TJgyj" id="KFBOh5AR$p" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="plot" />
+      <property role="20lbJX" value="1" />
+      <property role="IQ2ns" value="876969668028102937" />
+      <ref role="20lvS9" to="jrxw:7lAbM$uOMoK" resolve="Plot" />
+    </node>
+    <node concept="1TJgyj" id="2rPl_HNzcA_" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="x" />
+      <property role="20lbJX" value="1" />
+      <property role="IQ2ns" value="2807244893515991461" />
+      <ref role="20lvS9" to="jrxw:2WRhvFtwVip" resolve="ColumnRef" />
+    </node>
+    <node concept="1TJgyj" id="2rPl_HNzcD3" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="y" />
+      <property role="20lbJX" value="1" />
+      <property role="IQ2ns" value="2807244893515991619" />
+      <ref role="20lvS9" to="jrxw:2WRhvFtwVip" resolve="ColumnRef" />
+    </node>
+    <node concept="1TJgyj" id="2rPl_HNzcDi" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="color" />
+      <property role="IQ2ns" value="2807244893515991634" />
+      <ref role="20lvS9" to="jrxw:2WRhvFtwVip" resolve="ColumnRef" />
+    </node>
+    <node concept="PrWs8" id="KFBOh5AR$r" role="PzmwI">
+      <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
+    </node>
+  </node>
 </model>
 
