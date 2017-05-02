@@ -59,6 +59,7 @@
       <concept id="1068581242864" name="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" flags="nn" index="3cpWs8">
         <child id="1068581242865" name="localVariableDeclaration" index="3cpWs9" />
       </concept>
+      <concept id="1068581242869" name="jetbrains.mps.baseLanguage.structure.MinusExpression" flags="nn" index="3cpWsd" />
       <concept id="1068581242863" name="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" flags="nr" index="3cpWsn" />
       <concept id="1204053956946" name="jetbrains.mps.baseLanguage.structure.IMethodCall" flags="ng" index="1ndlxa">
         <reference id="1068499141037" name="baseMethodDeclaration" index="37wK5l" />
@@ -616,10 +617,23 @@
                       <node concept="3zFVjK" id="4mOaJR2T1CU" role="3zH0cK">
                         <node concept="3clFbS" id="4mOaJR2T1CV" role="2VODD2">
                           <node concept="3clFbF" id="4mOaJR2T1Lu" role="3cqZAp">
-                            <node concept="2OqwBi" id="4mOaJR2T25r" role="3clFbG">
-                              <node concept="30H73N" id="4mOaJR2T1Lt" role="2Oq$k0" />
-                              <node concept="3TrcHB" id="4mOaJR2T2Di" role="2OqNvi">
-                                <ref role="3TsBF5" to="ppvh:4mOaJR2RLZQ" resolve="percentile" />
+                            <node concept="2YIFZM" id="KFBOh5oSQj" role="3clFbG">
+                              <ref role="37wK5l" to="wyt6:~Float.toString(float):java.lang.String" resolve="toString" />
+                              <ref role="1Pybhc" to="wyt6:~Float" resolve="Float" />
+                              <node concept="3cpWsd" id="KFBOh5oQON" role="37wK5m">
+                                <node concept="3cmrfG" id="KFBOh5oQTK" role="3uHU7B">
+                                  <property role="3cmrfH" value="100" />
+                                </node>
+                                <node concept="2YIFZM" id="KFBOh5oPfx" role="3uHU7w">
+                                  <ref role="37wK5l" to="wyt6:~Float.parseFloat(java.lang.String):float" resolve="parseFloat" />
+                                  <ref role="1Pybhc" to="wyt6:~Float" resolve="Float" />
+                                  <node concept="2OqwBi" id="4mOaJR2T25r" role="37wK5m">
+                                    <node concept="30H73N" id="4mOaJR2T1Lt" role="2Oq$k0" />
+                                    <node concept="3TrcHB" id="4mOaJR2T2Di" role="2OqNvi">
+                                      <ref role="3TsBF5" to="ppvh:4mOaJR2RLZQ" resolve="percentile" />
+                                    </node>
+                                  </node>
+                                </node>
                               </node>
                             </node>
                           </node>

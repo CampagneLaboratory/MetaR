@@ -1321,23 +1321,22 @@
     <property role="3GE5qa" value="packages" />
     <property role="TrG5h" value="ShowScope" />
     <property role="EcuMT" value="2748552921020147563" />
-    <ref role="1TJDcQ" node="5mPDeVwiPap" resolve="Expr" />
     <node concept="1TJgyj" id="2o$O_6RN_cw" role="1TKVEi">
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="concept" />
       <property role="IQ2ns" value="2748552921020781344" />
       <ref role="20lvS9" to="tpce:f_TIwhg" resolve="ConceptDeclaration" />
     </node>
+    <node concept="PrWs8" id="KFBOh5ukqP" role="PzmwI">
+      <ref role="PrY4T" to="tpck:1_TrU5E6oyb" resolve="IDontSubstituteByDefault" />
+    </node>
   </node>
   <node concept="1TIwiD" id="P5JL27bo7k">
     <property role="TrG5h" value="EmptyExpr" />
-    <property role="34LRSv" value=" " />
     <property role="R4oN_" value="Empty R expression" />
     <property role="EcuMT" value="956380573594386900" />
+    <property role="34LRSv" value=" " />
     <ref role="1TJDcQ" node="5mPDeVwiPap" resolve="Expr" />
-    <node concept="PrWs8" id="1vbUObS9QNS" role="PzmwI">
-      <ref role="PrY4T" to="tpck:1_TrU5E6oyb" resolve="IDontSubstituteByDefault" />
-    </node>
   </node>
   <node concept="1TIwiD" id="3jH$tF$FDYM">
     <property role="3GE5qa" value="operators" />
