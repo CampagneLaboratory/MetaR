@@ -2432,9 +2432,59 @@
                 <node concept="3_3kQU" id="5jhuo0NxD5V" role="3_3kQL">
                   <property role="3_3kQV" value=", newcols)" />
                 </node>
+                <node concept="3_3kQU" id="5FXCeqAD0eB" role="3_3kQL">
+                  <property role="3_3kQV" value="" />
+                </node>
               </node>
               <node concept="1gZcZf" id="5jhuo0NxCFa" role="2G3XIn">
+                <node concept="3_3kQU" id="5FXCeqAD0fH" role="3_3kQL">
+                  <property role="3_3kQV" value="setcolorder(" />
+                </node>
+                <node concept="3_3kQU" id="5FXCeqAD0fI" role="3_3kQL">
+                  <property role="3_3kQV" value="adjusted" />
+                  <node concept="17Uvod" id="5FXCeqAD0fJ" role="lGtFl">
+                    <property role="P4ACc" value="901f5cf3-dc77-4c1e-bc5a-6382baee28b4/1680136183140337486/1680136183140337487" />
+                    <property role="2qtEX9" value="text" />
+                    <node concept="3zFVjK" id="5FXCeqAD0fK" role="3zH0cK">
+                      <node concept="3clFbS" id="5FXCeqAD0fL" role="2VODD2">
+                        <node concept="3clFbF" id="5FXCeqAD28n" role="3cqZAp">
+                          <node concept="2OqwBi" id="5FXCeqAD28o" role="3clFbG">
+                            <node concept="2OqwBi" id="5FXCeqAD28p" role="2Oq$k0">
+                              <node concept="30H73N" id="5FXCeqAD28q" role="2Oq$k0" />
+                              <node concept="3TrEf2" id="5FXCeqAD28r" role="2OqNvi">
+                                <ref role="3Tt5mk" to="jl4n:4ssfE$9PTBv" resolve="adjustedCountsTable" />
+                              </node>
+                            </node>
+                            <node concept="2qgKlT" id="5FXCeqAD28s" role="2OqNvi">
+                              <ref role="37wK5l" to="v8sa:52J4nYvd$7N" resolve="getVariableName" />
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="3_3kQU" id="5FXCeqAD0fQ" role="3_3kQL">
+                  <property role="3_3kQV" value=", newcols)" />
+                </node>
+                <node concept="3_3kQU" id="5FXCeqAD0fR" role="3_3kQL">
+                  <property role="3_3kQV" value="" />
+                </node>
                 <node concept="3_3kQU" id="5jhuo0Nx6A0" role="3_3kQL" />
+                <node concept="1W57fq" id="5FXCeqAEg$L" role="lGtFl">
+                  <node concept="3IZrLx" id="5FXCeqAEg$O" role="3IZSJc">
+                    <node concept="3clFbS" id="5FXCeqAEg$P" role="2VODD2">
+                      <node concept="3clFbF" id="5FXCeqAEg$V" role="3cqZAp">
+                        <node concept="2OqwBi" id="5FXCeqAEg$Q" role="3clFbG">
+                          <node concept="3TrcHB" id="5FXCeqAEifw" role="2OqNvi">
+                            <ref role="3TsBF5" to="jl4n:4ssfE$9PSrH" resolve="exportAdjustedCounts" />
+                          </node>
+                          <node concept="30H73N" id="5FXCeqAEg$U" role="2Oq$k0" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
               </node>
               <node concept="1gZcZf" id="5jhuo0Nx6c9" role="2G3XIn">
                 <node concept="3_3kQU" id="5jhuo0Nx6ca" role="3_3kQL">
