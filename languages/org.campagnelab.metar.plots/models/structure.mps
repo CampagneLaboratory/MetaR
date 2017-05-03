@@ -275,7 +275,7 @@
       <property role="20kJfa" value="inputTable" />
       <property role="20lbJX" value="1" />
       <property role="IQ2ns" value="876969668028102936" />
-      <ref role="20lvS9" to="jrxw:3R5AwWRY9uN" resolve="TableRef" />
+      <ref role="20lvS9" to="jrxw:2WRhvFtn_YR" resolve="FutureTableRef" />
     </node>
     <node concept="1TJgyj" id="KFBOh5AR$p" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
