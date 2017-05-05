@@ -12,6 +12,7 @@
     <import index="jl4n" ref="r:a4155731-8795-49bc-afc5-bf36983f9c0c(org.campagnelab.metar.limma.structure)" />
     <import index="bsh7" ref="r:b5a79e83-1f45-4318-b29a-9c06735f1376(org.campagnelab.metar.scnorm.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
+    <import index="ppvh" ref="r:7d9df0bf-9eee-4b78-9a3d-b5848869947e(org.campagnelab.metar.variance.structure)" />
   </imports>
   <registry>
     <language id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior">
@@ -312,6 +313,52 @@
       <node concept="2I9FWS" id="4ssfE$aY6L9" role="3clF45">
         <ref role="2I9WkF" to="jrxw:2WRhvFto5F5" resolve="FutureTable" />
       </node>
+    </node>
+  </node>
+  <node concept="13h7C7" id="1vkgFxq5Ea">
+    <ref role="13h7C2" to="bsh7:1vkgFxn_HR" resolve="CheckCountDepth" />
+    <node concept="13i0hz" id="1vkgFxqfSx" role="13h7CS">
+      <property role="TrG5h" value="devtoolsInstructions" />
+      <property role="13i0it" value="false" />
+      <property role="13i0iv" value="false" />
+      <ref role="13i0hy" to="v8sa:1vkgFx9C2w" resolve="devtoolsInstructions" />
+      <node concept="3Tm1VV" id="1vkgFxqfSy" role="1B3o_S" />
+      <node concept="3clFbS" id="1vkgFxqfSz" role="3clF47">
+        <node concept="3cpWs6" id="1vkgFxqfS$" role="3cqZAp">
+          <node concept="BsUDl" id="1vkgFxqfS_" role="3cqZAk">
+            <ref role="37wK5l" to="v8sa:1vkgFx9ZUS" resolve="makeSequence" />
+            <node concept="Xl_RD" id="1vkgFxqfSA" role="37wK5m">
+              <property role="Xl_RC" value="install_github(\&quot;rhondabacher/SCnorm\&quot;)" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="A3Dl8" id="1vkgFxqfSB" role="3clF45">
+        <node concept="17QB3L" id="1vkgFxqfSC" role="A3Ik2" />
+      </node>
+    </node>
+    <node concept="13i0hz" id="1vkgFxqfSD" role="13h7CS">
+      <property role="TrG5h" value="dependencies" />
+      <property role="13i0it" value="false" />
+      <property role="13i0iv" value="false" />
+      <ref role="13i0hy" to="v8sa:7LvyiX4mim8" resolve="dependencies" />
+      <node concept="3Tm1VV" id="1vkgFxqfSE" role="1B3o_S" />
+      <node concept="3clFbS" id="1vkgFxqfSF" role="3clF47">
+        <node concept="3cpWs6" id="1vkgFxqfSG" role="3cqZAp">
+          <node concept="BsUDl" id="1vkgFxqfSH" role="3cqZAk">
+            <ref role="37wK5l" to="v8sa:1vkgFx9ZUS" resolve="makeSequence" />
+            <node concept="Xl_RD" id="1vkgFxqfSI" role="37wK5m">
+              <property role="Xl_RC" value="SCnorm" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="A3Dl8" id="1vkgFxqfSJ" role="3clF45">
+        <node concept="17QB3L" id="1vkgFxqfSK" role="A3Ik2" />
+      </node>
+    </node>
+    <node concept="13hLZK" id="1vkgFxq5Eb" role="13h7CW">
+      <node concept="3clFbS" id="1vkgFxq5Ec" role="2VODD2" />
     </node>
   </node>
 </model>

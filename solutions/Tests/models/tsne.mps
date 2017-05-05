@@ -13,6 +13,7 @@
     <use id="837afec3-cff0-45b1-a221-6b811148f87e" name="org.campagnelab.metar.R.gen" version="0" />
     <use id="067d1b0c-daf1-44f9-9fbd-e1dd4c6e26e8" name="org.campagnelab.metar.simulation" version="0" />
     <use id="b6309371-fb17-4721-be78-90055928638e" name="org.campagnelab.metar.variance" version="0" />
+    <use id="ac875888-d381-40ac-8fad-78c941372a9e" name="org.campagnelab.metar.scnorm" version="0" />
     <devkit ref="8a3636fa-c6ec-4cb0-bc2a-b7143f2a4937(org.campagnelab.metaR)" />
   </languages>
   <imports>
@@ -64,6 +65,13 @@
     <language id="95951e17-c0d6-47b9-b1b5-42a4ca186fc6" name="org.campagnelab.instantrefresh">
       <concept id="1254484692210402710" name="org.campagnelab.instantrefresh.structure.IAtomic" flags="ng" index="16dhqS">
         <property id="221363389440938160" name="ID" index="1MXi1$" />
+      </concept>
+    </language>
+    <language id="ac875888-d381-40ac-8fad-78c941372a9e" name="org.campagnelab.metar.scnorm">
+      <concept id="26829229960092535" name="org.campagnelab.metar.scnorm.structure.CheckCountDepth" flags="ng" index="3x0gDX">
+        <property id="26829229960117094" name="filterCellProportion" index="3x0uDG" />
+        <property id="26829229960117109" name="folder" index="3x0uDZ" />
+        <child id="26829229956365057" name="countsTable" index="3xuyCb" />
       </concept>
     </language>
     <language id="e6c108c3-0009-4034-b684-c506814ba197" name="org.campagnelab.metar.plots">
@@ -178,17 +186,17 @@
         <property role="1MXi1$" value="MWJEDDKJYN" />
         <property role="2Ym5z5" value="80" />
         <property role="2Ym5Gb" value="100" />
-        <property role="2QJ4vL" value="3" />
+        <property role="2QJ4vL" value="30" />
         <property role="EtNkl" value="30" />
         <node concept="3VlkzF" id="6TmyYlI_irI" role="2Ym92R">
           <ref role="3Vkrsu" node="6TmyYlI_irH" resolve="CovariateForSimulateDataset_MWJEDDKJYN" />
         </node>
         <node concept="3MlLWZ" id="6TmyYlI_irM" role="3curr3">
-          <property role="TrG5h" value="simulate" />
-          <ref role="3MlLW5" node="6TmyYlI_irN" resolve="simulate" />
+          <property role="TrG5h" value="simulated" />
+          <ref role="3MlLW5" node="6TmyYlI_irN" resolve="simulated" />
           <node concept="3Mpm39" id="6TmyYlI_irN" role="3WeD9t">
             <property role="31Cu5t" value="&#9;" />
-            <property role="TrG5h" value="simulate" />
+            <property role="TrG5h" value="simulated" />
             <node concept="31JHg8" id="2g$roDkppPk" role="31JHgj">
               <property role="TrG5h" value="gene" />
               <ref role="1YeEjl" to="9nc5:1ID5TXdv_9L" resolve="String" />
@@ -1777,8 +1785,16 @@
           </node>
         </node>
       </node>
-      <node concept="S1EQe" id="4mOaJR2SEAX" role="ZXjPg">
-        <property role="1MXi1$" value="CBMRQETCAS" />
+      <node concept="S1EQe" id="1vkgFxPKx3" role="ZXjPg">
+        <property role="1MXi1$" value="KBGTHWEPAL" />
+      </node>
+      <node concept="3x0gDX" id="1vkgFxPKUm" role="ZXjPg">
+        <property role="1MXi1$" value="KUVCAVBKDK" />
+        <property role="3x0uDZ" value="/data/SCnorm" />
+        <property role="3x0uDG" value="1" />
+        <node concept="3MqhDd" id="1vkgFxPL74" role="3xuyCb">
+          <ref role="3Mqssv" node="6TmyYlI_irM" resolve="simulated" />
+        </node>
       </node>
       <node concept="3WuldX" id="4xHVHKwPRMR" role="ZXjPg">
         <property role="1MXi1$" value="HPBLUANJUQ" />
@@ -2552,7 +2568,7 @@
           </node>
         </node>
         <node concept="3MqhDd" id="4xHVHKwQ35$" role="aecac">
-          <ref role="3Mqssv" node="6TmyYlI_irM" resolve="simulate" />
+          <ref role="3Mqssv" node="6TmyYlI_irM" resolve="simulated" />
         </node>
       </node>
       <node concept="S1EQe" id="4xHVHKwQj$f" role="ZXjPg">
@@ -2592,7 +2608,7 @@
           </node>
         </node>
         <node concept="3MqhDd" id="2561NaN_7Vn" role="3_4oZU">
-          <ref role="3Mqssv" node="6TmyYlI_irM" resolve="simulate" />
+          <ref role="3Mqssv" node="6TmyYlI_irM" resolve="simulated" />
         </node>
         <node concept="1FHg$p" id="2561NaN_7L3" role="3_4oZ5">
           <property role="ZHjxa" value="200" />
