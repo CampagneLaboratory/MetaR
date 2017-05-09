@@ -10698,8 +10698,8 @@
                           <node concept="37vLTw" id="1vkgFxGo7v" role="2Oq$k0">
                             <ref role="3cqZAo" node="1vkgFxGo7x" resolve="statement" />
                           </node>
-                          <node concept="2qgKlT" id="1vkgFxGo7w" role="2OqNvi">
-                            <ref role="37wK5l" node="7LvyiX4mim8" resolve="dependencies" />
+                          <node concept="2qgKlT" id="2m5kVGMYRqY" role="2OqNvi">
+                            <ref role="37wK5l" node="2m5kVGMYQAC" resolve="devtoolsPackageNames" />
                           </node>
                         </node>
                       </node>
@@ -11014,6 +11014,24 @@
           <node concept="2ShNRf" id="7LvyiX4mime" role="3cqZAk">
             <node concept="kMnCb" id="7LvyiX4mimf" role="2ShVmc">
               <node concept="17QB3L" id="7LvyiX4mimg" role="kMuH3" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="13i0hz" id="2m5kVGMYQAC" role="13h7CS">
+      <property role="TrG5h" value="devtoolsPackageNames" />
+      <property role="13i0it" value="true" />
+      <property role="13i0iv" value="false" />
+      <node concept="3Tm1VV" id="2m5kVGMYQAD" role="1B3o_S" />
+      <node concept="A3Dl8" id="2m5kVGMYQAE" role="3clF45">
+        <node concept="17QB3L" id="2m5kVGMYQAF" role="A3Ik2" />
+      </node>
+      <node concept="3clFbS" id="2m5kVGMYQAG" role="3clF47">
+        <node concept="3cpWs6" id="2m5kVGMYQAH" role="3cqZAp">
+          <node concept="2ShNRf" id="2m5kVGMYQAI" role="3cqZAk">
+            <node concept="kMnCb" id="2m5kVGMYQAJ" role="2ShVmc">
+              <node concept="17QB3L" id="2m5kVGMYQAK" role="kMuH3" />
             </node>
           </node>
         </node>
