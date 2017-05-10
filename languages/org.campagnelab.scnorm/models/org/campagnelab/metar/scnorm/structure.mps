@@ -87,13 +87,6 @@
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" to="jrxw:2WRhvFtn_YR" resolve="FutureTableRef" />
     </node>
-    <node concept="1TJgyj" id="qFhSWmYdNM" role="1TKVEi">
-      <property role="IQ2ns" value="480556465136393458" />
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="outputPath" />
-      <property role="20lbJX" value="1" />
-      <ref role="20lvS9" to="jrxw:3qa402_vrOv" resolve="OutputFile" />
-    </node>
     <node concept="1TJgyi" id="qFhSWmY6PY" role="1TKVEl">
       <property role="IQ2nx" value="480556465136364926" />
       <property role="TrG5h" value="outputPrefix" />

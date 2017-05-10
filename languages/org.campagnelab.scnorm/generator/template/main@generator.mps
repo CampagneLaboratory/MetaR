@@ -13,6 +13,7 @@
     <import index="jdsq" ref="r:fc6a7b8b-2b37-4925-9f9b-72748c0f3c40(org.campagnelab.metar.R.inspect.structure)" />
     <import index="bsh7" ref="r:b5a79e83-1f45-4318-b29a-9c06735f1376(org.campagnelab.metar.scnorm.structure)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
+    <import index="p3na" ref="r:50a7e10c-efbd-4010-913a-6f2988b16e83(org.campagnelab.metar.scnorm.behavior)" implicit="true" />
     <import index="k6y1" ref="r:eeed3f2f-0d6f-41a1-91c7-0fff65bede58(org.campagnelab.instantrefresh.behavior)" implicit="true" />
   </imports>
   <registry>
@@ -442,14 +443,9 @@
                         <node concept="3clFbS" id="1vkgFxnFJY" role="2VODD2">
                           <node concept="3clFbF" id="qFhSWmXcSY" role="3cqZAp">
                             <node concept="2OqwBi" id="qFhSWmXflE" role="3clFbG">
-                              <node concept="2OqwBi" id="qFhSWmXdb5" role="2Oq$k0">
-                                <node concept="30H73N" id="qFhSWmXcSW" role="2Oq$k0" />
-                                <node concept="3TrEf2" id="qFhSWmXe$x" role="2OqNvi">
-                                  <ref role="3Tt5mk" to="bsh7:qFhSWmXdN9" resolve="output" />
-                                </node>
-                              </node>
-                              <node concept="2qgKlT" id="qFhSWmXfGZ" role="2OqNvi">
-                                <ref role="37wK5l" to="v8sa:3qa402_vtpo" resolve="getAbsolutePath" />
+                              <node concept="30H73N" id="qFhSWmXcSW" role="2Oq$k0" />
+                              <node concept="2qgKlT" id="qFhSWmYL0r" role="2OqNvi">
+                                <ref role="37wK5l" to="p3na:qFhSWmYbmX" resolve="getOutputPath" />
                               </node>
                             </node>
                           </node>

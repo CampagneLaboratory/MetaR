@@ -102,9 +102,6 @@
       <node concept="3F0ifn" id="qFhSWmXlXw" role="3EZMnx">
         <property role="3F0ifm" value="-&gt;" />
       </node>
-      <node concept="3F1sOY" id="qFhSWmYi70" role="3EZMnx">
-        <ref role="1NtTu8" to="bsh7:qFhSWmYdNM" resolve="outputPath" />
-      </node>
       <node concept="3F0ifn" id="qFhSWmYi7l" role="3EZMnx">
         <property role="3F0ifm" value="/" />
       </node>
