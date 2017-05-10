@@ -76,6 +76,17 @@
       </node>
       <node concept="3F1sOY" id="1vkgFx9nGU" role="3EZMnx">
         <ref role="1NtTu8" to="bsh7:1vkgFx9nG1" resolve="countsTable" />
+        <ref role="1k5W1q" to="8gqa:7Hltlm8A4_N" resolve="FutureTable" />
+      </node>
+      <node concept="3F1sOY" id="5X5p3g3lgpb" role="3EZMnx">
+        <ref role="1NtTu8" to="bsh7:5X5p3g3keEA" resolve="scanK" />
+      </node>
+      <node concept="3F0ifn" id="qFhSWmZ8Mi" role="3EZMnx">
+        <property role="3F0ifm" value="-&gt;" />
+      </node>
+      <node concept="3F1sOY" id="qFhSWmZ8Mz" role="3EZMnx">
+        <ref role="1NtTu8" to="bsh7:1vkgFx9nGj" resolve="normalizedTable" />
+        <ref role="1k5W1q" to="8gqa:7Hltlm8A4_N" resolve="FutureTable" />
       </node>
       <node concept="l2Vlx" id="1vkgFx9nGK" role="2iSdaV" />
     </node>
@@ -140,6 +151,27 @@
       <node concept="3F0A7n" id="1vkgFxnFJj" role="3EZMnx">
         <ref role="1NtTu8" to="bsh7:1vkgFxnFHA" resolve="filterCellProportion" />
       </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="5X5p3g3lgq9">
+    <ref role="1XX52x" to="bsh7:5X5p3g3keEH" resolve="FixedK" />
+    <node concept="3EZMnI" id="5X5p3g3lgqf" role="2wV5jI">
+      <node concept="l2Vlx" id="5X5p3g3lgqg" role="2iSdaV" />
+      <node concept="3F0ifn" id="5X5p3g3lgqb" role="3EZMnx">
+        <property role="3F0ifm" value="K=" />
+      </node>
+      <node concept="3F0A7n" id="5X5p3g3lgq$" role="3EZMnx">
+        <ref role="1NtTu8" to="bsh7:5X5p3g3keEI" resolve="K" />
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="5X5p3g3lgqE">
+    <ref role="1XX52x" to="bsh7:5X5p3g3keEG" resolve="ScanK" />
+    <node concept="3EZMnI" id="5X5p3g3lgqG" role="2wV5jI">
+      <node concept="3F0ifn" id="5X5p3g3lgqQ" role="3EZMnx">
+        <property role="3F0ifm" value="Scan values of K" />
+      </node>
+      <node concept="l2Vlx" id="5X5p3g3lgqJ" role="2iSdaV" />
     </node>
   </node>
 </model>

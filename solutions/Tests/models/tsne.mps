@@ -68,11 +68,17 @@
       </concept>
     </language>
     <language id="ac875888-d381-40ac-8fad-78c941372a9e" name="org.campagnelab.metar.scnorm">
+      <concept id="6865003381552900781" name="org.campagnelab.metar.scnorm.structure.FixedK" flags="ng" index="1s5oUp">
+        <property id="6865003381552900782" name="K" index="1s5oUq" />
+      </concept>
       <concept id="26829229960092535" name="org.campagnelab.metar.scnorm.structure.CheckCountDepth" flags="ng" index="3x0gDX">
         <property id="480556465136364926" name="outputPrefix" index="gkMFL" />
         <property id="26829229960117094" name="filterCellProportion" index="3x0uDG" />
-        <child id="480556465136393458" name="outputPath" index="gkTHX" />
         <child id="26829229956365057" name="countsTable" index="3xuyCb" />
+      </concept>
+      <concept id="26829229956365056" name="org.campagnelab.metar.scnorm.structure.SingleCellNormalize" flags="ng" index="3xuyCa">
+        <child id="6865003381552900774" name="scanK" index="1s5oUi" />
+        <child id="26829229956365075" name="normalizedTable" index="3xuyCp" />
       </concept>
     </language>
     <language id="e6c108c3-0009-4034-b684-c506814ba197" name="org.campagnelab.metar.plots">
@@ -3314,6 +3320,64 @@
           <ref role="3Mqssv" node="2m5kVGN5Bmq" resolve="simulated2.tsv" />
         </node>
       </node>
+      <node concept="3xuyCa" id="qFhSWmZH5H" role="ZXjPg">
+        <property role="8NYsT" value="false" />
+        <property role="1MXi1$" value="XYVMGUDSST" />
+        <property role="3x0uDG" value="0.1" />
+        <property role="gkMFL" value="" />
+        <node concept="3MlLWZ" id="qFhSWmZH5I" role="3xuyCp">
+          <property role="TrG5h" value="Normalized" />
+          <ref role="3MlLW5" node="qFhSWmZH5J" resolve="Normalized" />
+          <node concept="3Mpm39" id="qFhSWmZH5J" role="3WeD9t">
+            <property role="31Cu5t" value="&#9;" />
+            <property role="TrG5h" value="Normalized" />
+            <node concept="31JHg8" id="5X5p3g3lKSu" role="31JHgj">
+              <property role="TrG5h" value="gene" />
+              <ref role="1YeEjl" to="9nc5:1ID5TXdv_9L" resolve="String" />
+              <node concept="3MzsTm" id="5X5p3g3lKSx" role="lGtFl">
+                <node concept="3MzsBX" id="5X5p3g3lKSy" role="3MztjM">
+                  <ref role="3MzsBM" node="2561NaNyhw_" resolve="ID" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3MqhDd" id="qFhSWmZH63" role="3xuyCb">
+          <ref role="3Mqssv" node="2m5kVGN5Bmq" resolve="simulated2.tsv" />
+        </node>
+        <node concept="1s5oUp" id="5X5p3g3lm5M" role="1s5oUi">
+          <property role="1s5oUq" value="1" />
+        </node>
+      </node>
+      <node concept="3xuyCa" id="5X5p3g3lKDG" role="ZXjPg">
+        <property role="8NYsT" value="false" />
+        <property role="1MXi1$" value="UHMQUDULDU" />
+        <property role="3x0uDG" value="0.1" />
+        <property role="gkMFL" value="" />
+        <node concept="3MlLWZ" id="5X5p3g3lKDH" role="3xuyCp">
+          <property role="TrG5h" value="Normalized" />
+          <ref role="3MlLW5" node="5X5p3g3lKDI" resolve="Normalized" />
+          <node concept="3Mpm39" id="5X5p3g3lKDI" role="3WeD9t">
+            <property role="31Cu5t" value="&#9;" />
+            <property role="TrG5h" value="Normalized" />
+            <node concept="31JHg8" id="5X5p3g3lKV9" role="31JHgj">
+              <property role="TrG5h" value="gene" />
+              <ref role="1YeEjl" to="9nc5:1ID5TXdv_9L" resolve="String" />
+              <node concept="3MzsTm" id="5X5p3g3lKVc" role="lGtFl">
+                <node concept="3MzsBX" id="5X5p3g3lKVd" role="3MztjM">
+                  <ref role="3MzsBM" node="2561NaNyhw_" resolve="ID" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3MqhDd" id="5X5p3g3lKDM" role="3xuyCb">
+          <ref role="3Mqssv" node="2m5kVGN5Bmq" resolve="simulated2.tsv" />
+        </node>
+        <node concept="1s5oUp" id="5X5p3g3lKDN" role="1s5oUi">
+          <property role="1s5oUq" value="2" />
+        </node>
+      </node>
     </node>
   </node>
   <node concept="3Mpm39" id="2m5kVGN5Bal">
@@ -3891,28 +3955,40 @@
     <property role="TrG5h" value="Instant refresh" />
     <node concept="ZXjPh" id="2m5kVGN5B_w" role="S1EQ8">
       <property role="1MXi1$" value="ATDDXRKRCL" />
-      <node concept="1KribU" id="qFhSWmYE3T" role="ZXjPg">
-        <property role="1MXi1$" value="UPNHVVJDMS" />
+      <node concept="1KribU" id="5X5p3g3lm5U" role="ZXjPg">
+        <property role="1MXi1$" value="MFNQKGAFYC" />
         <property role="TrG5h" value="IHIBLIPUHM" />
-        <node concept="1P3wDJ" id="qFhSWmYE3U" role="1P3wDE">
+        <node concept="1P3wDJ" id="5X5p3g3lm5V" role="1P3wDE">
           <property role="1P3wDC" value="data.table" />
         </node>
-        <node concept="1P3wDJ" id="qFhSWmYE3V" role="1P3wDE">
+        <node concept="1P3wDJ" id="5X5p3g3lm5W" role="1P3wDE">
+          <property role="1P3wDC" value="SCnorm" />
+        </node>
+        <node concept="1P3wDJ" id="5X5p3g3lm5X" role="1P3wDE">
           <property role="1P3wDC" value="devtools" />
         </node>
       </node>
-      <node concept="3x0gDX" id="qFhSWmYE3W" role="ZXjPg">
-        <property role="1MXi1$" value="XYTRNQSSOP" />
+      <node concept="3xuyCa" id="5X5p3g3lm5Y" role="ZXjPg">
+        <property role="8NYsT" value="false" />
+        <property role="1MXi1$" value="YKQNLOPMVC" />
         <property role="3x0uDG" value="0.1" />
-        <property role="gkMFL" value="BCELL" />
-        <node concept="2jXUOv" id="qFhSWmYE3X" role="gkTHX" />
-        <node concept="3MqhDd" id="qFhSWmYE3Y" role="3xuyCb">
+        <property role="gkMFL" value="" />
+        <node concept="3MlLWZ" id="5X5p3g3lm5Z" role="3xuyCp">
+          <property role="TrG5h" value="Normalized" />
+          <ref role="3MlLW5" node="5X5p3g3lm60" resolve="Normalized" />
+          <node concept="3Mpm39" id="5X5p3g3lm60" role="3WeD9t">
+            <property role="31Cu5t" value="&#9;" />
+            <property role="TrG5h" value="Normalized" />
+          </node>
+        </node>
+        <node concept="3MqhDd" id="5X5p3g3lm61" role="3xuyCb">
           <ref role="3Mqssv" node="2m5kVGN5Bmq" resolve="simulated2.tsv" />
         </node>
+        <node concept="1s5oUp" id="5X5p3g3lm62" role="1s5oUi" />
       </node>
-      <node concept="1Kri3l" id="qFhSWmYE3Z" role="ZXjPg">
-        <property role="1MXi1$" value="KCUYTLBYQS" />
-        <property role="TrG5h" value="XYTRNQSSOP" />
+      <node concept="1Kri3l" id="5X5p3g3lm63" role="ZXjPg">
+        <property role="1MXi1$" value="COUPYNFLQX" />
+        <property role="TrG5h" value="YKQNLOPMVC" />
       </node>
     </node>
   </node>
