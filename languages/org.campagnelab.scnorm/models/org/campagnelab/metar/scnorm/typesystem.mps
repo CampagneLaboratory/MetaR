@@ -143,6 +143,52 @@
           <node concept="17RlXB" id="qFhSWmXAHH" role="2OqNvi" />
         </node>
       </node>
+      <node concept="3clFbJ" id="7qjkvVIgFQw" role="3cqZAp">
+        <node concept="3clFbS" id="7qjkvVIgFQy" role="3clFbx">
+          <node concept="2MkqsV" id="7qjkvVIgMiN" role="3cqZAp">
+            <node concept="Xl_RD" id="7qjkvVIgMj5" role="2MkJ7o">
+              <property role="Xl_RC" value="Some columns of the counts table must be marked with group \&quot;counts\&quot;" />
+            </node>
+            <node concept="2OqwBi" id="7qjkvVIgMvr" role="2OEOjV">
+              <node concept="1YBJjd" id="7qjkvVIgMkN" role="2Oq$k0">
+                <ref role="1YBMHb" node="qFhSWmXnPv" resolve="checkCountDepth" />
+              </node>
+              <node concept="3TrEf2" id="7qjkvVIgMMA" role="2OqNvi">
+                <ref role="3Tt5mk" to="bsh7:1vkgFx9nG1" resolve="countsTable" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="2OqwBi" id="7qjkvVIgK6n" role="3clFbw">
+          <node concept="2OqwBi" id="7qjkvVIgILn" role="2Oq$k0">
+            <node concept="2OqwBi" id="7qjkvVIgHN4" role="2Oq$k0">
+              <node concept="2OqwBi" id="7qjkvVIgHfO" role="2Oq$k0">
+                <node concept="2OqwBi" id="7qjkvVIgGbe" role="2Oq$k0">
+                  <node concept="1YBJjd" id="7qjkvVIgFSi" role="2Oq$k0">
+                    <ref role="1YBMHb" node="qFhSWmXnPv" resolve="checkCountDepth" />
+                  </node>
+                  <node concept="3TrEf2" id="7qjkvVIgGG$" role="2OqNvi">
+                    <ref role="3Tt5mk" to="bsh7:1vkgFx9nG1" resolve="countsTable" />
+                  </node>
+                </node>
+                <node concept="3TrEf2" id="7qjkvVIgHtQ" role="2OqNvi">
+                  <ref role="3Tt5mk" to="jrxw:2WRhvFtnCb_" resolve="table" />
+                </node>
+              </node>
+              <node concept="3TrEf2" id="7qjkvVIgIl0" role="2OqNvi">
+                <ref role="3Tt5mk" to="jrxw:2WRhvFto5FZ" resolve="table" />
+              </node>
+            </node>
+            <node concept="2qgKlT" id="7qjkvVIgJtu" role="2OqNvi">
+              <ref role="37wK5l" to="v8sa:5hNeoNXWkF" resolve="findColumnsWithGroup" />
+              <node concept="Xl_RD" id="7qjkvVIgJFX" role="37wK5m">
+                <property role="Xl_RC" value="counts" />
+              </node>
+            </node>
+          </node>
+          <node concept="1v1jN8" id="7qjkvVIgM6l" role="2OqNvi" />
+        </node>
+      </node>
     </node>
     <node concept="1YaCAy" id="qFhSWmXnPv" role="1YuTPh">
       <property role="TrG5h" value="checkCountDepth" />

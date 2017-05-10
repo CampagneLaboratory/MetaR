@@ -65,6 +65,12 @@
     <property role="34LRSv" value="SCnorm" />
     <property role="R4oN_" value="normalize with SCnorm" />
     <ref role="1TJDcQ" node="1vkgFxn_HR" resolve="CheckCountDepth" />
+    <node concept="1TJgyj" id="7qjkvVI4gJB" role="1TKVEi">
+      <property role="IQ2ns" value="8544263073409600487" />
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="condition" />
+      <ref role="20lvS9" to="jrxw:6X05uba6V6Y" resolve="UsageType" />
+    </node>
     <node concept="1TJgyj" id="1vkgFx9nGj" role="1TKVEi">
       <property role="IQ2ns" value="26829229956365075" />
       <property role="20lmBu" value="aggregation" />
@@ -81,6 +87,9 @@
     </node>
     <node concept="PrWs8" id="1vkgFx9nGm" role="PzmwI">
       <ref role="PrY4T" to="jrxw:5iYlRBKtkRE" resolve="FutureTableCreator" />
+    </node>
+    <node concept="PrWs8" id="7qjkvVI4imO" role="PzmwI">
+      <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
     </node>
   </node>
   <node concept="1TIwiD" id="1vkgFxn_HR">
