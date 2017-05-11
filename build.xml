@@ -10,7 +10,7 @@
   <property name="org.campagnelab.goby.workbench.home" location="${basedir}/../NYoSh.core" />
   <property name="metaR_version" value="2.1.0" />
   <property name="textoutput_version" value="3.0.0" />
-  <property name="ANTLR_version" value="1.1.2" />
+  <property name="ANTLR_version" value="1.1.3" />
   <property name="artifacts.mps" location="${mps_home}" />
   <property name="artifacts.org.campagnelab.TextOutput" location="${org.campagnelab.goby.workbench.home}/build/artifacts/org.campagnelab.TextOutput" />
   <property name="artifacts.org.campagnelab.mps.UI" location="${org.campagnelab.goby.workbench.home}/build/artifacts/org.campagnelab.mps.UI" />
@@ -1471,7 +1471,6 @@
           <module ref="d7eb0a2a-bd50-4576-beae-e4a89db35f20(jetbrains.mps.lang.scopes.runtime)" />
           <module ref="8fe4c62a-2020-4ff4-8eda-f322a55bdc9f(jetbrains.mps.refactoring.runtime)" />
           <module ref="9a4afe51-f114-4595-b5df-048ce3c596be(jetbrains.mps.runtime)" />
-          <module ref="9c4c21db-948a-44c6-8d32-16dd401e98b0(org.campagnelab.metar.r.stubs)" />
         </dependencies>
         <sources jar="org.campagnelab.metar.scnorm-src.jar" descriptor="org.campagnelab.metar.scnorm.mpl" />
       </module>
@@ -5930,7 +5929,7 @@
     </copy>
   </target>
   
-  <target name="java.compile.org.campagnelab.metar.scnorm" depends="java.compile.org.campagnelab.instantrefresh, java.compile.org.campagnelab.metar.R, java.compile.org.campagnelab.metar.R.access, java.compile.org.campagnelab.metar.R.gen, java.compile.org.campagnelab.metar.R.inspect, java.compile.org.campagnelab.metar.biomart, java.compile.org.campagnelab.metar.biomart.web, java.compile.org.campagnelab.metar.biomartToR, java.compile.org.campagnelab.metar.code, java.compile.org.campagnelab.metar.inspect, java.compile.org.campagnelab.metar.limma, java.compile.org.campagnelab.metar.models, java.compile.org.campagnelab.metar.plots, java.compile.org.campagnelab.metar.r.stubs, java.compile.org.campagnelab.metar.tables, java.compile.org.campagnelab.metar.variance, java.compile.org.campagnelab.styles, fetchDependencies">
+  <target name="java.compile.org.campagnelab.metar.scnorm" depends="java.compile.org.campagnelab.instantrefresh, java.compile.org.campagnelab.metar.R, java.compile.org.campagnelab.metar.R.gen, java.compile.org.campagnelab.metar.inspect, java.compile.org.campagnelab.metar.tables, java.compile.org.campagnelab.styles, fetchDependencies">
     <mkdir dir="${basedir}/languages/org.campagnelab.scnorm/source_gen" />
     <mkdir dir="${build.tmp}/java/out/org.campagnelab.metar.scnorm" />
     <javac destdir="${build.tmp}/java/out/org.campagnelab.metar.scnorm" fork="true" encoding="utf8" includeantruntime="false" source="1.8" target="1.8">
@@ -5957,21 +5956,9 @@
         <fileset file="${artifacts.mps}/lib/mps-platform.jar" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.instantrefresh" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.metar.R" />
-        <pathelement path="${build.tmp}/java/out/org.campagnelab.metar.R.access" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.metar.R.gen" />
-        <pathelement path="${build.tmp}/java/out/org.campagnelab.metar.R.inspect" />
-        <fileset file="${artifacts.mps}/plugins/mps-java/lib/mpsjava.jar" />
-        <pathelement path="${build.tmp}/java/out/org.campagnelab.metar.biomart" />
-        <pathelement path="${build.tmp}/java/out/org.campagnelab.metar.biomart.web" />
-        <pathelement path="${build.tmp}/java/out/org.campagnelab.metar.biomartToR" />
-        <pathelement path="${build.tmp}/java/out/org.campagnelab.metar.code" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.metar.inspect" />
-        <pathelement path="${build.tmp}/java/out/org.campagnelab.metar.limma" />
-        <pathelement path="${build.tmp}/java/out/org.campagnelab.metar.models" />
-        <pathelement path="${build.tmp}/java/out/org.campagnelab.metar.plots" />
-        <pathelement path="${build.tmp}/java/out/org.campagnelab.metar.r.stubs" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.metar.tables" />
-        <pathelement path="${build.tmp}/java/out/org.campagnelab.metar.variance" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.styles" />
         <fileset file="${basedir}/languages/org.campagnelab.metar.R/R.parsers-1.0.1-complete.jar" />
         <fileset file="${build.tmp}/deps/XChart/XChart__dl__lbrace_XChart_version_rbrace_.zip/XChart/lib/xchart-2.4.1-SNAPSHOT.jar" />
@@ -6002,7 +5989,7 @@
     </copy>
   </target>
   
-  <target name="java.compile.org.campagnelab.metar.scnorm#26829229956365054" depends="java.compile.org.campagnelab.instantrefresh, java.compile.org.campagnelab.metar.R, java.compile.org.campagnelab.metar.R.access, java.compile.org.campagnelab.metar.R.gen, java.compile.org.campagnelab.metar.R.inspect, java.compile.org.campagnelab.metar.biomart, java.compile.org.campagnelab.metar.biomart.web, java.compile.org.campagnelab.metar.biomartToR, java.compile.org.campagnelab.metar.code, java.compile.org.campagnelab.metar.inspect, java.compile.org.campagnelab.metar.plots, java.compile.org.campagnelab.metar.r.stubs, java.compile.org.campagnelab.metar.scnorm, java.compile.org.campagnelab.metar.tables, java.compile.org.campagnelab.styles, fetchDependencies">
+  <target name="java.compile.org.campagnelab.metar.scnorm#26829229956365054" depends="java.compile.org.campagnelab.instantrefresh, java.compile.org.campagnelab.metar.R, java.compile.org.campagnelab.metar.R.gen, java.compile.org.campagnelab.metar.inspect, java.compile.org.campagnelab.metar.scnorm, java.compile.org.campagnelab.metar.tables, java.compile.org.campagnelab.styles, fetchDependencies">
     <mkdir dir="${basedir}/languages/org.campagnelab.scnorm/generator/source_gen" />
     <mkdir dir="${build.tmp}/java/out/org.campagnelab.metar.scnorm#26829229956365054" />
     <javac destdir="${build.tmp}/java/out/org.campagnelab.metar.scnorm#26829229956365054" fork="true" encoding="utf8" includeantruntime="false" source="1.8" target="1.8">
@@ -6029,17 +6016,8 @@
         <fileset file="${artifacts.mps}/lib/mps-platform.jar" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.instantrefresh" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.metar.R" />
-        <pathelement path="${build.tmp}/java/out/org.campagnelab.metar.R.access" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.metar.R.gen" />
-        <pathelement path="${build.tmp}/java/out/org.campagnelab.metar.R.inspect" />
-        <fileset file="${artifacts.mps}/plugins/mps-java/lib/mpsjava.jar" />
-        <pathelement path="${build.tmp}/java/out/org.campagnelab.metar.biomart" />
-        <pathelement path="${build.tmp}/java/out/org.campagnelab.metar.biomart.web" />
-        <pathelement path="${build.tmp}/java/out/org.campagnelab.metar.biomartToR" />
-        <pathelement path="${build.tmp}/java/out/org.campagnelab.metar.code" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.metar.inspect" />
-        <pathelement path="${build.tmp}/java/out/org.campagnelab.metar.plots" />
-        <pathelement path="${build.tmp}/java/out/org.campagnelab.metar.r.stubs" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.metar.scnorm" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.metar.tables" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.styles" />
