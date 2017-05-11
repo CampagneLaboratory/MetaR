@@ -105,12 +105,10 @@
   <dependencies>
     <dependency reexport="false">5ec1cd3d-0a50-4049-a8fa-ae768d7baa25(org.campagnelab.mps.XChart)</dependency>
     <dependency reexport="false">049ed9e7-0f0d-4814-a373-a4b21e15b59e(org.campagnelab.metar.limma)</dependency>
-    <dependency reexport="false">ac875888-d381-40ac-8fad-78c941372a9e(org.campagnelab.metar.scnorm)</dependency>
     <dependency reexport="false">b6309371-fb17-4721-be78-90055928638e(org.campagnelab.metar.variance)</dependency>
     <dependency reexport="false" scope="generate-into">3b58810c-8431-4bbb-99ea-b4671e02dd13(org.campagnelab.metar.R)</dependency>
     <dependency reexport="false" scope="generate-into">5d6bde84-4ce4-4eb5-a37e-25a5edd55129(org.campagnelab.metar.tables)</dependency>
     <dependency reexport="false">6ed54515-acc8-4d1e-a16c-9fd6cfe951ea(MPS.Core)</dependency>
-    <dependency reexport="false">ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)</dependency>
     <dependency reexport="false">2d3c70e9-aab2-4870-8d8d-6036800e4103(jetbrains.mps.kernel)</dependency>
   </dependencies>
   <usedDevKits>
