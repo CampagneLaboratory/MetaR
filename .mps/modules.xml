@@ -59,12 +59,12 @@
       <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.metar.models/org.campagnelab.metar.models.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.metar.plots/org.campagnelab.metar.plots.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.metar.r.metar/org.campagnelab.metar.r.metar.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.metar.scnorm/org.campagnelab.metar.scnorm.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.metar.simulation/org.campagnelab.metar.simulation.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.metar.sleuth/org.campagnelab.metar.sleuth.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.metar.variance/org.campagnelab.metar.variance.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.metar.with.r/org.campagnelab.metar.with.r.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.modeling/org.campagnelab.modeling.mpl" folder="" />
-      <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.scnorm/org.campagnelab.metar.scnorm.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.styles/org.campagnelab.styles.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/DocModels/DocModels.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/FullR/FullR.msd" folder="" />

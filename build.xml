@@ -1477,35 +1477,35 @@
     </echoxml>
     <jar destfile="${build.tmp}/default/metaR__dl__lbrace_metaR_version_rbrace_.zip/metaR/languages/metaR/org.campagnelab.metar.scnorm.jar" duplicate="preserve">
       <fileset dir="${build.tmp}/java/out/org.campagnelab.metar.scnorm" />
-      <fileset dir="${basedir}/languages/org.campagnelab.scnorm" includes="icons/**, resources/**" />
-      <fileset dir="${basedir}/languages/org.campagnelab.scnorm/source_gen" includes="**/trace.info, **/exports, **/*.mps, **/checkpoints" />
+      <fileset dir="${basedir}/languages/org.campagnelab.metar.scnorm" includes="icons/**, resources/**" />
+      <fileset dir="${basedir}/languages/org.campagnelab.metar.scnorm/source_gen" includes="**/trace.info, **/exports, **/*.mps, **/checkpoints" />
       <fileset dir="${build.tmp}/default/org.campagnelab.metar.scnorm.jar" />
     </jar>
     <jar destfile="${build.tmp}/default/metaR__dl__lbrace_metaR_version_rbrace_.zip/metaR/languages/metaR/org.campagnelab.metar.scnorm-generator.jar" duplicate="preserve">
       <fileset dir="${build.tmp}/java/out/org.campagnelab.metar.scnorm#26829229956365054" />
     </jar>
-    <copyModels todir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.scnorm-generator-template">
-      <fileset dir="${basedir}/languages/org.campagnelab.scnorm/generator/template" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
+    <copyModels todir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.metar.scnorm-generator-template">
+      <fileset dir="${basedir}/languages/org.campagnelab.metar.scnorm/generator/template" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
     </copyModels>
-    <copyModels todir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.scnorm-models">
-      <fileset dir="${basedir}/languages/org.campagnelab.scnorm/models" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
+    <copyModels todir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.metar.scnorm-models">
+      <fileset dir="${basedir}/languages/org.campagnelab.metar.scnorm/models" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
     </copyModels>
     <jar destfile="${build.tmp}/default/metaR__dl__lbrace_metaR_version_rbrace_.zip/metaR/languages/metaR/org.campagnelab.metar.scnorm-src.jar" duplicate="preserve">
-      <fileset dir="${basedir}/languages/org.campagnelab.scnorm/generator/source_gen">
+      <fileset dir="${basedir}/languages/org.campagnelab.metar.scnorm/generator/source_gen">
         <exclude name="**/trace.info" />
         <exclude name="**/exports" />
         <exclude name="**/checkpoints" />
         <exclude name="**/*.mps" />
       </fileset>
-      <fileset dir="${basedir}/languages/org.campagnelab.scnorm/source_gen">
+      <fileset dir="${basedir}/languages/org.campagnelab.metar.scnorm/source_gen">
         <exclude name="**/trace.info" />
         <exclude name="**/exports" />
         <exclude name="**/checkpoints" />
         <exclude name="**/*.mps" />
       </fileset>
-      <zipfileset file="${basedir}/languages/org.campagnelab.scnorm/org.campagnelab.metar.scnorm.mpl" prefix="module" />
-      <zipfileset dir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.scnorm-generator-template" prefix="module/generator/template" />
-      <zipfileset dir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.scnorm-models" prefix="module/models" />
+      <zipfileset file="${basedir}/languages/org.campagnelab.metar.scnorm/org.campagnelab.metar.scnorm.mpl" prefix="module" />
+      <zipfileset dir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.metar.scnorm-generator-template" prefix="module/generator/template" />
+      <zipfileset dir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.metar.scnorm-models" prefix="module/models" />
     </jar>
     <mkdir dir="${build.tmp}/default/metaR__dl__lbrace_metaR_version_rbrace_.zip/metaR/languages" />
     <mkdir dir="${build.tmp}/default/metaR__dl__lbrace_metaR_version_rbrace_.zip/metaR/languages/metaR.R" />
@@ -1959,18 +1959,18 @@
   <target name="buildDependents" />
   
   <target name="fetchDependencies">
-    <mkdir dir="${build.tmp}/deps/org.campagnelab.TextOutput/org.campagnelab.TextOutput-_dl__lbrace_textoutput_version_rbrace_.zip" />
-    <unzip src="${artifacts.org.campagnelab.TextOutput}/org.campagnelab.TextOutput-${org.campagnelab.TextOutput.textoutput_version}.zip" dest="${build.tmp}/deps/org.campagnelab.TextOutput/org.campagnelab.TextOutput-_dl__lbrace_textoutput_version_rbrace_.zip" />
-    <mkdir dir="${build.tmp}/deps/ANTLR/ANTLR__dl__lbrace_ANTLR_version_rbrace_.zip" />
-    <unzip src="${artifacts.ANTLR}/ANTLR_${ANTLR.ANTLR_version}.zip" dest="${build.tmp}/deps/ANTLR/ANTLR__dl__lbrace_ANTLR_version_rbrace_.zip" />
+    <mkdir dir="${build.tmp}/deps/org.campagnelab.mps.UI/org.campagnelab.UI-_dl__lbrace_ui_version_rbrace_.zip" />
+    <unzip src="${artifacts.org.campagnelab.mps.UI}/org.campagnelab.UI-${org.campagnelab.mps.UI.ui_version}.zip" dest="${build.tmp}/deps/org.campagnelab.mps.UI/org.campagnelab.UI-_dl__lbrace_ui_version_rbrace_.zip" />
     <mkdir dir="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip" />
     <unzip src="${artifacts.org.campagnelab.NYoSh}/org.campagnelab.NYoSh-${org.campagnelab.NYoSh.nyosh_version}.zip" dest="${build.tmp}/deps/org.campagnelab.NYoSh/org.campagnelab.NYoSh-_dl__lbrace_nyosh_version_rbrace_.zip" />
     <mkdir dir="${build.tmp}/deps/org.campagnelab.Logger/org.campagnelab.logger-_dl__lbrace_logger.version_rbrace_.zip" />
     <unzip src="${artifacts.org.campagnelab.Logger}/org.campagnelab.logger-${org.campagnelab.Logger.logger.version}.zip" dest="${build.tmp}/deps/org.campagnelab.Logger/org.campagnelab.logger-_dl__lbrace_logger.version_rbrace_.zip" />
-    <mkdir dir="${build.tmp}/deps/org.campagnelab.mps.UI/org.campagnelab.UI-_dl__lbrace_ui_version_rbrace_.zip" />
-    <unzip src="${artifacts.org.campagnelab.mps.UI}/org.campagnelab.UI-${org.campagnelab.mps.UI.ui_version}.zip" dest="${build.tmp}/deps/org.campagnelab.mps.UI/org.campagnelab.UI-_dl__lbrace_ui_version_rbrace_.zip" />
     <mkdir dir="${build.tmp}/deps/XChart/XChart__dl__lbrace_XChart_version_rbrace_.zip" />
     <unzip src="${artifacts.XChart}/XChart_${XChart.XChart_version}.zip" dest="${build.tmp}/deps/XChart/XChart__dl__lbrace_XChart_version_rbrace_.zip" />
+    <mkdir dir="${build.tmp}/deps/org.campagnelab.TextOutput/org.campagnelab.TextOutput-_dl__lbrace_textoutput_version_rbrace_.zip" />
+    <unzip src="${artifacts.org.campagnelab.TextOutput}/org.campagnelab.TextOutput-${org.campagnelab.TextOutput.textoutput_version}.zip" dest="${build.tmp}/deps/org.campagnelab.TextOutput/org.campagnelab.TextOutput-_dl__lbrace_textoutput_version_rbrace_.zip" />
+    <mkdir dir="${build.tmp}/deps/ANTLR/ANTLR__dl__lbrace_ANTLR_version_rbrace_.zip" />
+    <unzip src="${artifacts.ANTLR}/ANTLR_${ANTLR.ANTLR_version}.zip" dest="${build.tmp}/deps/ANTLR/ANTLR__dl__lbrace_ANTLR_version_rbrace_.zip" />
   </target>
   
   <target name="build" depends="assemble" />
@@ -2168,7 +2168,7 @@
         <module file="${basedir}/languages/org.campagnelab.metar.models/org.campagnelab.metar.models.mpl" />
         <module file="${basedir}/languages/org.campagnelab.metar.plots/org.campagnelab.metar.plots.mpl" />
         <module file="${basedir}/languages/org.campagnelab.metar.r.metar/org.campagnelab.metar.r.metar.mpl" />
-        <module file="${basedir}/languages/org.campagnelab.scnorm/org.campagnelab.metar.scnorm.mpl" />
+        <module file="${basedir}/languages/org.campagnelab.metar.scnorm/org.campagnelab.metar.scnorm.mpl" />
         <module file="${basedir}/languages/org.campagnelab.metar.simulation/org.campagnelab.metar.simulation.mpl" />
         <module file="${basedir}/languages/org.campagnelab.metar.sleuth/org.campagnelab.metar.sleuth.mpl" />
         <module file="${basedir}/languages/org.campagnelab.metar.variance/org.campagnelab.metar.variance.mpl" />
@@ -5930,12 +5930,12 @@
   </target>
   
   <target name="java.compile.org.campagnelab.metar.scnorm" depends="java.compile.org.campagnelab.instantrefresh, java.compile.org.campagnelab.metar.R, java.compile.org.campagnelab.metar.R.gen, java.compile.org.campagnelab.metar.inspect, java.compile.org.campagnelab.metar.tables, java.compile.org.campagnelab.styles, fetchDependencies">
-    <mkdir dir="${basedir}/languages/org.campagnelab.scnorm/source_gen" />
+    <mkdir dir="${basedir}/languages/org.campagnelab.metar.scnorm/source_gen" />
     <mkdir dir="${build.tmp}/java/out/org.campagnelab.metar.scnorm" />
     <javac destdir="${build.tmp}/java/out/org.campagnelab.metar.scnorm" fork="true" encoding="utf8" includeantruntime="false" source="1.8" target="1.8">
       <compilerarg value="-Xlint:none" />
       <src>
-        <path location="${basedir}/languages/org.campagnelab.scnorm/source_gen" />
+        <path location="${basedir}/languages/org.campagnelab.metar.scnorm/source_gen" />
       </src>
       <classpath>
         <fileset file="${artifacts.mps}/lib/mps-behavior-api.jar" />
@@ -5985,17 +5985,17 @@
       </classpath>
     </javac>
     <copy todir="${build.tmp}/java/out/org.campagnelab.metar.scnorm">
-      <fileset dir="${basedir}/languages/org.campagnelab.scnorm/source_gen" excludes="**/*.java" />
+      <fileset dir="${basedir}/languages/org.campagnelab.metar.scnorm/source_gen" excludes="**/*.java" />
     </copy>
   </target>
   
   <target name="java.compile.org.campagnelab.metar.scnorm#26829229956365054" depends="java.compile.org.campagnelab.instantrefresh, java.compile.org.campagnelab.metar.R, java.compile.org.campagnelab.metar.R.gen, java.compile.org.campagnelab.metar.inspect, java.compile.org.campagnelab.metar.scnorm, java.compile.org.campagnelab.metar.tables, java.compile.org.campagnelab.styles, fetchDependencies">
-    <mkdir dir="${basedir}/languages/org.campagnelab.scnorm/generator/source_gen" />
+    <mkdir dir="${basedir}/languages/org.campagnelab.metar.scnorm/generator/source_gen" />
     <mkdir dir="${build.tmp}/java/out/org.campagnelab.metar.scnorm#26829229956365054" />
     <javac destdir="${build.tmp}/java/out/org.campagnelab.metar.scnorm#26829229956365054" fork="true" encoding="utf8" includeantruntime="false" source="1.8" target="1.8">
       <compilerarg value="-Xlint:none" />
       <src>
-        <path location="${basedir}/languages/org.campagnelab.scnorm/generator/source_gen" />
+        <path location="${basedir}/languages/org.campagnelab.metar.scnorm/generator/source_gen" />
       </src>
       <classpath>
         <fileset file="${artifacts.mps}/lib/mps-behavior-api.jar" />
@@ -6046,7 +6046,7 @@
       </classpath>
     </javac>
     <copy todir="${build.tmp}/java/out/org.campagnelab.metar.scnorm#26829229956365054">
-      <fileset dir="${basedir}/languages/org.campagnelab.scnorm/generator/source_gen" excludes="**/*.java" />
+      <fileset dir="${basedir}/languages/org.campagnelab.metar.scnorm/generator/source_gen" excludes="**/*.java" />
     </copy>
   </target>
   
@@ -6075,7 +6075,7 @@
     <delete dir="${basedir}/languages/org.campagnelab.metar.models/generator/source_gen" />
     <delete dir="${basedir}/languages/org.campagnelab.metar.plots/source_gen" />
     <delete dir="${basedir}/languages/org.campagnelab.metar.r.metar/source_gen" />
-    <delete dir="${basedir}/languages/org.campagnelab.scnorm/source_gen" />
+    <delete dir="${basedir}/languages/org.campagnelab.metar.scnorm/source_gen" />
     <delete dir="${basedir}/languages/org.campagnelab.metar.simulation/source_gen" />
     <delete dir="${basedir}/languages/org.campagnelab.metar.sleuth/source_gen" />
     <delete dir="${basedir}/languages/org.campagnelab.metaR.tables/generator/source_gen" />

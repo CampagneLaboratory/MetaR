@@ -3528,7 +3528,7 @@
           <node concept="2Ry0Ak" id="6uC_3DgUCNr" role="iGT6I">
             <property role="2Ry0Am" value="languages" />
             <node concept="2Ry0Ak" id="6uC_3DgUD0p" role="2Ry0An">
-              <property role="2Ry0Am" value="org.campagnelab.scnorm" />
+              <property role="2Ry0Am" value="org.campagnelab.metar.scnorm" />
               <node concept="2Ry0Ak" id="6uC_3DgUDdn" role="2Ry0An">
                 <property role="2Ry0Am" value="org.campagnelab.metar.scnorm.mpl" />
               </node>
