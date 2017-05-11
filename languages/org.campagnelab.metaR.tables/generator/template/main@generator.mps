@@ -1646,9 +1646,6 @@
                             <node concept="liA8E" id="4bcN0Bgl2hz" role="2OqNvi">
                               <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
                               <node concept="3cpWs3" id="4bcN0Bgl2h$" role="37wK5m">
-                                <node concept="Xl_RD" id="4bcN0Bgl2h_" role="3uHU7w">
-                                  <property role="Xl_RC" value=" &lt;- " />
-                                </node>
                                 <node concept="2OqwBi" id="4bcN0Bgl2hA" role="3uHU7B">
                                   <node concept="2GrUjf" id="4bcN0Bgl2hB" role="2Oq$k0">
                                     <ref role="2Gs0qQ" node="5qhB25D7jzU" resolve="col" />
@@ -1656,6 +1653,9 @@
                                   <node concept="liA8E" id="4bcN0Bgl2hC" role="2OqNvi">
                                     <ref role="37wK5l" to="18ew:~Triplet.first():java.lang.Object" resolve="first" />
                                   </node>
+                                </node>
+                                <node concept="Xl_RD" id="4bcN0Bgl2h_" role="3uHU7w">
+                                  <property role="Xl_RC" value=" &lt;- " />
                                 </node>
                               </node>
                             </node>
@@ -2495,7 +2495,7 @@
                             <node concept="liA8E" id="6yCrzs9ctUA" role="2OqNvi">
                               <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
                               <node concept="Xl_RD" id="6yCrzs9cuvp" role="37wK5m">
-                                <property role="Xl_RC" value=" &lt;- " />
+                                <property role="Xl_RC" value=" &lt;- data.table(" />
                               </node>
                             </node>
                           </node>
@@ -2516,7 +2516,7 @@
                             <node concept="liA8E" id="6yCrzs9cFhH" role="2OqNvi">
                               <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
                               <node concept="Xl_RD" id="6yCrzs9cGZq" role="37wK5m">
-                                <property role="Xl_RC" value="[,\&quot;" />
+                                <property role="Xl_RC" value=")[,\&quot;" />
                               </node>
                             </node>
                           </node>
