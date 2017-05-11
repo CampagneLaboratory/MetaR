@@ -200,8 +200,8 @@
       <node concept="55IIr" id="3gMg70bWjqP" role="398pKh">
         <node concept="2Ry0Ak" id="3gMg70bWjqR" role="iGT6I">
           <property role="2Ry0Am" value=".." />
-          <node concept="2Ry0Ak" id="$MrkDgfnmn" role="2Ry0An">
-            <property role="2Ry0Am" value="nyosh.core" />
+          <node concept="2Ry0Ak" id="6M6l4$ybPmc" role="2Ry0An">
+            <property role="2Ry0Am" value="NYoSh.core" />
           </node>
         </node>
       </node>

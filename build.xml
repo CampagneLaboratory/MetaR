@@ -7,7 +7,7 @@
   <property name="mps_home" location="" />
   <property name="org.campagnelab.metaR" value="./" />
   <property name="org.campagnelab.hta.results_dir" location="" />
-  <property name="org.campagnelab.goby.workbench.home" location="${basedir}/../nyosh.core" />
+  <property name="org.campagnelab.goby.workbench.home" location="${basedir}/../NYoSh.core" />
   <property name="metaR_version" value="2.1.0" />
   <property name="textoutput_version" value="3.0.0" />
   <property name="ANTLR_version" value="1.1.2" />
