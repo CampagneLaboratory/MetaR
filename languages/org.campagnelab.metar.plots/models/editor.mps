@@ -294,7 +294,7 @@
           <ref role="1NtTu8" to="jugs:4mOaJR2Qdgu" resolve="perplexity" />
         </node>
         <node concept="3F0ifn" id="4G_WAmId7YE" role="3EZMnx">
-          <property role="3F0ifm" value="Number of iterations" />
+          <property role="3F0ifm" value="number of iterations" />
           <node concept="pVoyu" id="4G_WAmId7YW" role="3F10Kt">
             <property role="VOm3f" value="true" />
           </node>
