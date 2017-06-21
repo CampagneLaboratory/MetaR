@@ -1299,15 +1299,24 @@
                   <node concept="37vLTw" id="L2v$sbU$kM" role="37vLTJ">
                     <ref role="3cqZAo" node="L2v$sbUzmN" resolve="node" />
                   </node>
-                  <node concept="2OqwBi" id="7LcbxnBzEA" role="37vLTx">
-                    <node concept="2OqwBi" id="3zqZiqCszW_" role="2Oq$k0">
-                      <node concept="RBKsg" id="3zqZiqCszTm" role="2Oq$k0" />
-                      <node concept="yHkDZ" id="3zqZiqCs$1a" role="2OqNvi">
-                        <ref role="yHkDY" node="5gyVhZ17JkL" resolve="myNode" />
+                  <node concept="2OqwBi" id="7LcbxnBMSZ" role="37vLTx">
+                    <node concept="2OqwBi" id="7LcbxnBzEA" role="2Oq$k0">
+                      <node concept="2OqwBi" id="3zqZiqCszW_" role="2Oq$k0">
+                        <node concept="RBKsg" id="3zqZiqCszTm" role="2Oq$k0" />
+                        <node concept="yHkDZ" id="3zqZiqCs$1a" role="2OqNvi">
+                          <ref role="yHkDY" node="5gyVhZ17JkL" resolve="myNode" />
+                        </node>
+                      </node>
+                      <node concept="2XshWL" id="7LcbxnBMvg" role="2OqNvi">
+                        <ref role="2WH_rO" to="awpe:7byHRlLCxOy" resolve="getNode" />
                       </node>
                     </node>
-                    <node concept="2XshWL" id="7LcbxnBMvg" role="2OqNvi">
-                      <ref role="2WH_rO" to="awpe:7byHRlLCxOy" resolve="getNode" />
+                    <node concept="liA8E" id="7LcbxnBNPY" role="2OqNvi">
+                      <ref role="37wK5l" to="mhbf:~SNodeReference.resolve(org.jetbrains.mps.openapi.module.SRepository):org.jetbrains.mps.openapi.model.SNode" resolve="resolve" />
+                      <node concept="2YIFZM" id="7LcbxnBOgh" role="37wK5m">
+                        <ref role="37wK5l" to="w1kc:~MPSModuleRepository.getInstance():jetbrains.mps.smodel.MPSModuleRepository" resolve="getInstance" />
+                        <ref role="1Pybhc" to="w1kc:~MPSModuleRepository" resolve="MPSModuleRepository" />
+                      </node>
                     </node>
                   </node>
                 </node>
