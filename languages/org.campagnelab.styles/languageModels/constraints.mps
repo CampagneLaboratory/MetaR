@@ -145,7 +145,6 @@
       </concept>
     </language>
     <language id="3f4bc5f5-c6c1-4a28-8b10-c83066ffa4a1" name="jetbrains.mps.lang.constraints">
-      <concept id="1957603573855863643" name="jetbrains.mps.lang.constraints.structure.ConstraintsMigration" flags="ng" index="5B0Pf" />
       <concept id="6702802731807351367" name="jetbrains.mps.lang.constraints.structure.ConstraintFunction_CanBeAChild" flags="in" index="9S07l" />
       <concept id="6702802731807420587" name="jetbrains.mps.lang.constraints.structure.ConstraintFunction_CanBeAParent" flags="ig" index="9SLcT" />
       <concept id="1202989531578" name="jetbrains.mps.lang.constraints.structure.ConstraintFunction_CanBeAChild_Old" flags="in" index="nKS2y" />
@@ -231,11 +230,6 @@
       </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
-      </concept>
-      <concept id="2482611074346661065" name="jetbrains.mps.lang.core.structure.ReviewMigration" flags="ng" index="13_zln">
-        <property id="2482611074346661078" name="reasonShort" index="13_zl8" />
-        <property id="2482611074346661073" name="todo" index="13_zlf" />
-        <property id="2482611074347169514" name="readableId" index="13BvtO" />
       </concept>
       <concept id="709746936026466394" name="jetbrains.mps.lang.core.structure.ChildAttribute" flags="ng" index="3VBwX9">
         <property id="709746936026609031" name="linkId" index="3V$3ak" />
@@ -449,15 +443,9 @@
                     <ref role="3cqZAo" node="7LcbxkVh_R" resolve="allowedItemsConcepts" />
                   </node>
                   <node concept="3JPx81" id="7LcbxkVhA8" role="2OqNvi">
-                    <node concept="2OqwBi" id="7LcbxkVhAd" role="25WWJ7">
-                      <node concept="FGMqu" id="7LcbxkVhAe" role="2OqNvi" />
-                      <node concept="2DD5aU" id="7LcbxkVhAc" role="2Oq$k0" />
-                      <node concept="13_zln" id="7LcbxkVmzo" role="lGtFl">
-                        <property role="13_zl8" value="unknown attributes" />
-                        <property role="13_zlf" value="This node should have been migrated, but has annotations not recognised by the migration. Please review this code and migrate manually if necessary. Unknown attribute: jetbrains.mps.lang.constraints.structure.ConstraintsMigration" />
-                        <property role="13BvtO" value="Migrate popular concept&lt;-&gt;node conversions" />
-                      </node>
-                      <node concept="5B0Pf" id="7LcbxkVhAf" role="lGtFl" />
+                    <node concept="2OqwBi" id="7LcbxkVDrx" role="25WWJ7">
+                      <node concept="2DD5aU" id="7LcbxkVCFt" role="2Oq$k0" />
+                      <node concept="FGMqu" id="7LcbxkVDXk" role="2OqNvi" />
                     </node>
                   </node>
                 </node>
@@ -1190,15 +1178,9 @@
                     <ref role="3cqZAo" node="7LcbxkVh$A" resolve="allowedItemsConcepts" />
                   </node>
                   <node concept="3JPx81" id="7LcbxkVh$R" role="2OqNvi">
-                    <node concept="2OqwBi" id="7LcbxkVh$W" role="25WWJ7">
-                      <node concept="FGMqu" id="7LcbxkVh$X" role="2OqNvi" />
-                      <node concept="2DD5aU" id="7LcbxkVh$V" role="2Oq$k0" />
-                      <node concept="13_zln" id="7LcbxkVmzn" role="lGtFl">
-                        <property role="13_zl8" value="unknown attributes" />
-                        <property role="13_zlf" value="This node should have been migrated, but has annotations not recognised by the migration. Please review this code and migrate manually if necessary. Unknown attribute: jetbrains.mps.lang.constraints.structure.ConstraintsMigration" />
-                        <property role="13BvtO" value="Migrate popular concept&lt;-&gt;node conversions" />
-                      </node>
-                      <node concept="5B0Pf" id="7LcbxkVh$Y" role="lGtFl" />
+                    <node concept="2OqwBi" id="7LcbxkVG8T" role="25WWJ7">
+                      <node concept="2DD5aU" id="7LcbxkVFiw" role="2Oq$k0" />
+                      <node concept="FGMqu" id="7LcbxkVGHB" role="2OqNvi" />
                     </node>
                   </node>
                 </node>
