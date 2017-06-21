@@ -60,7 +60,7 @@ public class TestHelper {
 
   public static void convertNodeToRoot(SNode rootNode) {
     SModel m = SNodeOperations.getModel(rootNode);
-    SNodeOperations.detachNode(rootNode);
+    SNodeOperations.deleteNode(rootNode);
     SModelOperations.addRootNode(m, rootNode);
   }
 }

@@ -187,7 +187,7 @@
   <node concept="bUwia" id="4oMvTh5TQYN">
     <property role="TrG5h" value="main" />
     <node concept="2rT7sh" id="hG092h3" role="2rTMjI">
-      <property role="TrG5h" value="cellFactoryMethod" />
+      <property role="TrG5h" value="cellFactory.factoryMethod" />
       <ref role="2rZz_L" to="tpee:fzclF8t" resolve="InstanceMethodDeclaration" />
       <ref role="2rTdP9" to="6hgq:37EhXvtDBER" resolve="Image" />
     </node>
@@ -437,7 +437,7 @@
           <node concept="3Tqbb2" id="2MJ_dSPaIHh" role="1tU5fm" />
         </node>
         <node concept="raruj" id="2MJ_dSPaIHi" role="lGtFl">
-          <ref role="2sdACS" node="hG092h3" resolve="cellFactoryMethod" />
+          <ref role="2sdACS" node="hG092h3" resolve="cellFactory.factoryMethod" />
         </node>
       </node>
       <node concept="3Tm1VV" id="h9B3Lpo" role="1B3o_S" />
