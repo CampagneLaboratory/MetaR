@@ -2,7 +2,7 @@
 <model ref="r:c1d88616-2c9c-4b09-bdac-ad369c281532(org.campagnelab.metar.with.r.behavior)">
   <persistence version="9" />
   <languages>
-    <use id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior" version="0" />
+    <use id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior" version="1" />
     <use id="ed6d7656-532c-4bc2-81d1-af945aeb8280" name="jetbrains.mps.baseLanguage.blTypes" version="0" />
     <use id="9ded098b-ad6a-4657-bfd9-48636cfe8bc3" name="jetbrains.mps.lang.traceable" version="0" />
     <use id="d8f591ec-4d86-4af2-9f92-a9e93c803ffa" name="jetbrains.mps.lang.scopes" version="0" />
@@ -122,20 +122,19 @@
         <child id="1144104376918" name="parameter" index="1xVPHs" />
       </concept>
       <concept id="1179409122411" name="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" flags="nn" index="2qgKlT" />
-      <concept id="8866923313515890008" name="jetbrains.mps.lang.smodel.structure.AsNodeOperation" flags="nn" index="FGMqu" />
       <concept id="1171305280644" name="jetbrains.mps.lang.smodel.structure.Node_GetDescendantsOperation" flags="nn" index="2Rf3mk" />
       <concept id="1139184414036" name="jetbrains.mps.lang.smodel.structure.LinkList_AddNewChildOperation" flags="nn" index="WFELt">
         <reference id="1139877738879" name="concept" index="1A0vxQ" />
       </concept>
       <concept id="1171407110247" name="jetbrains.mps.lang.smodel.structure.Node_GetAncestorOperation" flags="nn" index="2Xjw5R" />
-      <concept id="2644386474300074836" name="jetbrains.mps.lang.smodel.structure.ConceptIdRefExpression" flags="nn" index="35c_gC">
-        <reference id="2644386474300074837" name="conceptDeclaration" index="35c_gD" />
-      </concept>
       <concept id="1144101972840" name="jetbrains.mps.lang.smodel.structure.OperationParm_Concept" flags="ng" index="1xMEDy">
         <child id="1207343664468" name="conceptArgument" index="ri$Ld" />
       </concept>
       <concept id="1180636770613" name="jetbrains.mps.lang.smodel.structure.SNodeCreator" flags="nn" index="3zrR0B">
         <child id="1180636770616" name="createdType" index="3zrR0E" />
+      </concept>
+      <concept id="1219352745532" name="jetbrains.mps.lang.smodel.structure.NodeRefExpression" flags="nn" index="3B5_sB">
+        <reference id="1219352800908" name="referentNode" index="3B5MYn" />
       </concept>
       <concept id="1138055754698" name="jetbrains.mps.lang.smodel.structure.SNodeType" flags="in" index="3Tqbb2">
         <reference id="1138405853777" name="concept" index="ehGHo" />
@@ -254,11 +253,8 @@
             <node concept="37vLTw" id="2o$O_6RKs$D" role="3uHU7B">
               <ref role="3cqZAo" node="2o$O_6RKs_8" resolve="kind" />
             </node>
-            <node concept="2OqwBi" id="2o$O_6RKs$E" role="3uHU7w">
-              <node concept="35c_gC" id="2o$O_6RKs$F" role="2Oq$k0">
-                <ref role="35c_gD" to="6q58:5mPDeVwiPaR" resolve="Identifier" />
-              </node>
-              <node concept="FGMqu" id="2o$O_6RKs$G" role="2OqNvi" />
+            <node concept="3B5_sB" id="2o$O_6RKs$E" role="3uHU7w">
+              <ref role="3B5MYn" to="6q58:5mPDeVwiPaR" resolve="Identifier" />
             </node>
           </node>
         </node>
@@ -305,7 +301,7 @@
             <node concept="2OqwBi" id="2LUxRV$77t5" role="37vLTJ">
               <node concept="13iPFW" id="2LUxRV$77mB" role="2Oq$k0" />
               <node concept="3TrEf2" id="2LUxRV$77yU" role="2OqNvi">
-                <ref role="3Tt5mk" to="mxmw:5DjLoGckEAh" />
+                <ref role="3Tt5mk" to="mxmw:5DjLoGckEAh" resolve="expression" />
               </node>
             </node>
           </node>
@@ -316,11 +312,11 @@
               <node concept="2OqwBi" id="2LUxRV$am1U" role="2Oq$k0">
                 <node concept="13iPFW" id="2LUxRV$alY$" role="2Oq$k0" />
                 <node concept="3TrEf2" id="2LUxRV$amdh" role="2OqNvi">
-                  <ref role="3Tt5mk" to="mxmw:5DjLoGckEAh" />
+                  <ref role="3Tt5mk" to="mxmw:5DjLoGckEAh" resolve="expression" />
                 </node>
               </node>
               <node concept="3Tsc0h" id="2LUxRV$anIT" role="2OqNvi">
-                <ref role="3TtcxE" to="6q58:3ft5eLKDg7n" />
+                <ref role="3TtcxE" to="6q58:3ft5eLKDg7n" resolve="expressions" />
               </node>
             </node>
             <node concept="WFELt" id="2LUxRV$aq8f" role="2OqNvi">

@@ -2,7 +2,7 @@
 <model ref="r:b529dbda-0404-49cc-8ea7-5e3be6ecdd82(org.campagnelab.metar.simulation.constraints)">
   <persistence version="9" />
   <languages>
-    <use id="3f4bc5f5-c6c1-4a28-8b10-c83066ffa4a1" name="jetbrains.mps.lang.constraints" version="0" />
+    <use id="3f4bc5f5-c6c1-4a28-8b10-c83066ffa4a1" name="jetbrains.mps.lang.constraints" version="2" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -55,7 +55,7 @@
         <child id="1152963095733" name="propertySetter" index="1LXaQT" />
       </concept>
       <concept id="1147468365020" name="jetbrains.mps.lang.constraints.structure.ConstraintsFunctionParameter_node" flags="nn" index="EsrRn" />
-      <concept id="5676632058862809931" name="jetbrains.mps.lang.constraints.structure.ConstraintFunction_ReferentSearchScope_Scope" flags="in" index="13QW63" />
+      <concept id="5564765827938091039" name="jetbrains.mps.lang.constraints.structure.ConstraintFunction_ReferentSearchScope_Scope" flags="ig" index="3dgokm" />
       <concept id="1152959968041" name="jetbrains.mps.lang.constraints.structure.ConstraintFunction_PropertySetter" flags="in" index="1LLf8_" />
       <concept id="1213093968558" name="jetbrains.mps.lang.constraints.structure.ConceptConstraints" flags="ng" index="1M2fIO">
         <reference id="1213093996982" name="concept" index="1M2myG" />
@@ -103,7 +103,7 @@
               <node concept="2OqwBi" id="6za0MtWGI7D" role="2Oq$k0">
                 <node concept="EsrRn" id="6za0MtWGI51" role="2Oq$k0" />
                 <node concept="3TrEf2" id="6za0MtWGIyX" role="2OqNvi">
-                  <ref role="3Tt5mk" to="hgbr:2734ievAQvm" />
+                  <ref role="3Tt5mk" to="hgbr:2734ievAQvm" resolve="continuousCovariate" />
                 </node>
               </node>
               <node concept="2qgKlT" id="6za0MtWGJEJ" role="2OqNvi">
@@ -154,7 +154,7 @@
                   </node>
                 </node>
                 <node concept="3TrEf2" id="6za0MtWQWLa" role="2OqNvi">
-                  <ref role="3Tt5mk" to="hgbr:2734ievAQvm" />
+                  <ref role="3Tt5mk" to="hgbr:2734ievAQvm" resolve="continuousCovariate" />
                 </node>
               </node>
               <node concept="2qgKlT" id="6za0MtWQYKj" role="2OqNvi">
@@ -246,19 +246,19 @@
   <node concept="1M2fIO" id="oeXtRXmVPl">
     <ref role="1M2myG" to="hgbr:oeXtRXmVOQ" resolve="CovariateTableRef" />
     <node concept="1N5Pfh" id="oeXtRXmVPm" role="1Mr941">
-      <ref role="1N5Vy1" to="hgbr:oeXtRXnOb3" />
-      <node concept="13QW63" id="oeXtRXmVVs" role="1N6uqs">
-        <node concept="3clFbS" id="oeXtRXmVVt" role="2VODD2">
-          <node concept="3clFbF" id="oeXtRXn0yp" role="3cqZAp">
-            <node concept="2YIFZM" id="2MUPwqnaKDf" role="3clFbG">
+      <ref role="1N5Vy1" to="hgbr:oeXtRXnOb3" resolve="table" />
+      <node concept="3dgokm" id="oeXtRXmVVs" role="1N6uqs">
+        <node concept="3clFbS" id="7LcbxkVjuu" role="2VODD2">
+          <node concept="3clFbF" id="7LcbxkVjuv" role="3cqZAp">
+            <node concept="2YIFZM" id="7LcbxkVjuw" role="3clFbG">
               <ref role="1Pybhc" to="o8zo:4IP40Bi3e_R" resolve="ListScope" />
               <ref role="37wK5l" to="o8zo:4IP40Bi3eAf" resolve="forNamedElements" />
-              <node concept="2OqwBi" id="2MUPwqnaKDh" role="37wK5m">
-                <node concept="2OqwBi" id="2MUPwqnaKDi" role="2Oq$k0">
-                  <node concept="2rP1CM" id="oeXtRXn0Aq" role="2Oq$k0" />
-                  <node concept="I4A8Y" id="2MUPwqnaKDk" role="2OqNvi" />
+              <node concept="2OqwBi" id="7LcbxkVjux" role="37wK5m">
+                <node concept="2OqwBi" id="7LcbxkVjuy" role="2Oq$k0">
+                  <node concept="2rP1CM" id="7LcbxkVjuz" role="2Oq$k0" />
+                  <node concept="I4A8Y" id="7LcbxkVju$" role="2OqNvi" />
                 </node>
-                <node concept="3lApI0" id="2MUPwqnaKDl" role="2OqNvi">
+                <node concept="3lApI0" id="7LcbxkVju_" role="2OqNvi">
                   <ref role="3lApI3" to="hgbr:WAEVbt3F3q" resolve="CovariateTable" />
                 </node>
               </node>

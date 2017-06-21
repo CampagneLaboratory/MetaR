@@ -2,7 +2,7 @@
 <model ref="r:437ca43c-6323-49fb-979f-681501286fcd(org.campagnelab.metar.code.annotations)">
   <persistence version="9" />
   <languages>
-    <use id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior" version="0" />
+    <use id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior" version="1" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -526,7 +526,7 @@
                         <ref role="3cqZAo" node="3zjLmdD4LY9" resolve="toCheck" />
                       </node>
                       <node concept="3Tsc0h" id="3zjLmdCAUTD" role="2OqNvi">
-                        <ref role="3TtcxE" to="ztlb:1UijAvvb9DO" />
+                        <ref role="3TtcxE" to="ztlb:1UijAvvb9DO" resolve="columns" />
                       </node>
                     </node>
                     <node concept="3zZkjj" id="3zjLmdCAUTE" role="2OqNvi">
@@ -574,7 +574,7 @@
                         <ref role="3cqZAo" node="3zjLmdD4LY9" resolve="toCheck" />
                       </node>
                       <node concept="3Tsc0h" id="3zjLmdCAUTY" role="2OqNvi">
-                        <ref role="3TtcxE" to="ztlb:1UijAvvb9DO" />
+                        <ref role="3TtcxE" to="ztlb:1UijAvvb9DO" resolve="columns" />
                       </node>
                     </node>
                     <node concept="34oBXx" id="3zjLmdCAUTZ" role="2OqNvi" />
@@ -593,7 +593,7 @@
                           <ref role="3cqZAo" node="3zjLmdD4LY9" resolve="toCheck" />
                         </node>
                         <node concept="3Tsc0h" id="3zjLmdCAUU7" role="2OqNvi">
-                          <ref role="3TtcxE" to="ztlb:1UijAvvb9DO" />
+                          <ref role="3TtcxE" to="ztlb:1UijAvvb9DO" resolve="columns" />
                         </node>
                       </node>
                       <node concept="3zZkjj" id="3zjLmdCAUU8" role="2OqNvi">
@@ -1212,7 +1212,7 @@
                 </node>
               </node>
               <node concept="3TrEf2" id="2734ievDLoP" role="2OqNvi">
-                <ref role="3Tt5mk" to="ztlb:2SKvIxg2HCX" />
+                <ref role="3Tt5mk" to="ztlb:2SKvIxg2HCX" resolve="type" />
               </node>
             </node>
             <node concept="2OqwBi" id="2734ievDtkb" role="37vLTJ">
@@ -1443,7 +1443,7 @@
                   <ref role="3cqZAo" node="2MUPwqpuG01" resolve="table" />
                 </node>
                 <node concept="3Tsc0h" id="2734ievDJJt" role="2OqNvi">
-                  <ref role="3TtcxE" to="ztlb:1UijAvvb9DO" />
+                  <ref role="3TtcxE" to="ztlb:1UijAvvb9DO" resolve="columns" />
                 </node>
               </node>
               <node concept="3zZkjj" id="2734ievDJJu" role="2OqNvi">
@@ -2183,7 +2183,7 @@
                         </node>
                       </node>
                       <node concept="3Tsc0h" id="2MUPwqpq59n" role="2OqNvi">
-                        <ref role="3TtcxE" to="jrxw:2WRhvFtID48" />
+                        <ref role="3TtcxE" to="jrxw:2WRhvFtID48" resolve="groups" />
                       </node>
                     </node>
                     <node concept="1z4cxt" id="2MUPwqpqEc$" role="2OqNvi">
@@ -2198,15 +2198,15 @@
                                       <ref role="3cqZAo" node="2MUPwqpqEcC" resolve="it" />
                                     </node>
                                     <node concept="3TrEf2" id="2MUPwqpqGaP" role="2OqNvi">
-                                      <ref role="3Tt5mk" to="jrxw:2WRhvFtICK8" />
+                                      <ref role="3Tt5mk" to="jrxw:2WRhvFtICK8" resolve="columnGroup" />
                                     </node>
                                   </node>
                                   <node concept="3Tsc0h" id="2MUPwqpqGaQ" role="2OqNvi">
-                                    <ref role="3TtcxE" to="jrxw:6XP3gVdSYBs" />
+                                    <ref role="3TtcxE" to="jrxw:6XP3gVdSYBs" resolve="usesRefs" />
                                   </node>
                                 </node>
                                 <node concept="13MTOL" id="2MUPwqpqGaR" role="2OqNvi">
-                                  <ref role="13MTZf" to="jrxw:6XP3gVdSYBw" />
+                                  <ref role="13MTZf" to="jrxw:6XP3gVdSYBw" resolve="usage" />
                                 </node>
                               </node>
                               <node concept="3JPx81" id="2MUPwqpqGaS" role="2OqNvi">
@@ -2225,7 +2225,7 @@
                     </node>
                   </node>
                   <node concept="3TrEf2" id="2MUPwqpsRQS" role="2OqNvi">
-                    <ref role="3Tt5mk" to="jrxw:2WRhvFtICK8" />
+                    <ref role="3Tt5mk" to="jrxw:2WRhvFtICK8" resolve="columnGroup" />
                   </node>
                 </node>
               </node>
@@ -2377,7 +2377,7 @@
                     </node>
                   </node>
                   <node concept="3Tsc0h" id="2734ievCLgf" role="2OqNvi">
-                    <ref role="3TtcxE" to="jrxw:2WRhvFtID48" />
+                    <ref role="3TtcxE" to="jrxw:2WRhvFtID48" resolve="groups" />
                   </node>
                 </node>
                 <node concept="1z4cxt" id="2734ievCLgg" role="2OqNvi">
@@ -2392,15 +2392,15 @@
                                   <ref role="3cqZAo" node="2734ievCLgu" resolve="it" />
                                 </node>
                                 <node concept="3TrEf2" id="1yPZLM3fl9P" role="2OqNvi">
-                                  <ref role="3Tt5mk" to="jrxw:2WRhvFtICK8" />
+                                  <ref role="3Tt5mk" to="jrxw:2WRhvFtICK8" resolve="columnGroup" />
                                 </node>
                               </node>
                               <node concept="3Tsc0h" id="2734ievCLgq" role="2OqNvi">
-                                <ref role="3TtcxE" to="jrxw:6XP3gVdSYBs" />
+                                <ref role="3TtcxE" to="jrxw:6XP3gVdSYBs" resolve="usesRefs" />
                               </node>
                             </node>
                             <node concept="13MTOL" id="2734ievCLgr" role="2OqNvi">
-                              <ref role="13MTZf" to="jrxw:6XP3gVdSYBw" />
+                              <ref role="13MTZf" to="jrxw:6XP3gVdSYBw" resolve="usage" />
                             </node>
                           </node>
                           <node concept="3JPx81" id="2734ievCLgs" role="2OqNvi">
@@ -2419,7 +2419,7 @@
                 </node>
               </node>
               <node concept="3TrEf2" id="2734ievCLgw" role="2OqNvi">
-                <ref role="3Tt5mk" to="jrxw:2WRhvFtICK8" />
+                <ref role="3Tt5mk" to="jrxw:2WRhvFtICK8" resolve="columnGroup" />
               </node>
             </node>
           </node>

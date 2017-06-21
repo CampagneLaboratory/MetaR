@@ -2,7 +2,7 @@
 <model ref="r:eeed3f2f-0d6f-41a1-91c7-0fff65bede58(org.campagnelab.instantrefresh.behavior)">
   <persistence version="9" />
   <languages>
-    <use id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior" version="0" />
+    <use id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior" version="1" />
     <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="2" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
@@ -141,11 +141,11 @@
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
       <concept id="1179409122411" name="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" flags="nn" index="2qgKlT" />
       <concept id="1145383075378" name="jetbrains.mps.lang.smodel.structure.SNodeListType" flags="in" index="2I9FWS" />
+      <concept id="2644386474300074836" name="jetbrains.mps.lang.smodel.structure.ConceptIdRefExpression" flags="nn" index="35c_gC">
+        <reference id="2644386474300074837" name="conceptDeclaration" index="35c_gD" />
+      </concept>
       <concept id="1138056022639" name="jetbrains.mps.lang.smodel.structure.SPropertyAccess" flags="nn" index="3TrcHB">
         <reference id="1138056395725" name="property" index="3TsBF5" />
-      </concept>
-      <concept id="1172424058054" name="jetbrains.mps.lang.smodel.structure.ConceptRefExpression" flags="nn" index="3TUQnm">
-        <reference id="1172424100906" name="conceptDeclaration" index="3TV0OU" />
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
@@ -169,14 +169,14 @@
         <node concept="3clFbF" id="7LvyiX4milW" role="3cqZAp">
           <node concept="37vLTI" id="7LvyiX4milX" role="3clFbG">
             <node concept="2OqwBi" id="7LvyiX4milY" role="37vLTx">
-              <node concept="3TUQnm" id="7LvyiX4milZ" role="2Oq$k0">
-                <ref role="3TV0OU" to="sg20:15COMTnnsmm" resolve="IAtomic" />
-              </node>
               <node concept="2qgKlT" id="7LvyiX4mim0" role="2OqNvi">
                 <ref role="37wK5l" node="7LvyiX4mikU" resolve="randomCreate" />
                 <node concept="3cmrfG" id="7LvyiX4mim1" role="37wK5m">
                   <property role="3cmrfH" value="10" />
                 </node>
+              </node>
+              <node concept="35c_gC" id="7LcbxkVkQA" role="2Oq$k0">
+                <ref role="35c_gD" to="sg20:15COMTnnsmm" resolve="IAtomic" />
               </node>
             </node>
             <node concept="2OqwBi" id="7LvyiX4mim2" role="37vLTJ">

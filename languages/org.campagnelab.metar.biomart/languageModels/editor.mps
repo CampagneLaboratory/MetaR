@@ -2,7 +2,7 @@
 <model ref="r:638be9a7-9e21-4dc4-9119-d44fee84a7c4(org.campagnelab.metar.biomart.editor)">
   <persistence version="9" />
   <languages>
-    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="4" />
+    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="7" />
     <use id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core" version="1" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
@@ -178,7 +178,6 @@
       <concept id="1139867745658" name="jetbrains.mps.lang.smodel.structure.Node_ReplaceWithNewOperation" flags="nn" index="1_qnLN">
         <reference id="1139867957129" name="concept" index="1_rbq0" />
       </concept>
-      <concept id="1140133623887" name="jetbrains.mps.lang.smodel.structure.Node_DeleteOperation" flags="nn" index="1PgB_6" />
       <concept id="1138055754698" name="jetbrains.mps.lang.smodel.structure.SNodeType" flags="in" index="3Tqbb2">
         <reference id="1138405853777" name="concept" index="ehGHo" />
       </concept>
@@ -188,6 +187,7 @@
       <concept id="1138056282393" name="jetbrains.mps.lang.smodel.structure.SLinkListAccess" flags="nn" index="3Tsc0h">
         <reference id="1138056546658" name="link" index="3TtcxE" />
       </concept>
+      <concept id="1228341669568" name="jetbrains.mps.lang.smodel.structure.Node_DetachOperation" flags="nn" index="3YRAZt" />
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
@@ -928,7 +928,7 @@
           <node concept="3clFbF" id="6t_ylHwzKau" role="3cqZAp">
             <node concept="2OqwBi" id="6t_ylHwzKav" role="3clFbG">
               <node concept="0IXxy" id="6t_ylHwzKaw" role="2Oq$k0" />
-              <node concept="1PgB_6" id="6t_ylHwzKax" role="2OqNvi" />
+              <node concept="3YRAZt" id="6t_ylHwzKax" role="2OqNvi" />
             </node>
           </node>
           <node concept="3clFbH" id="4bkMdJpqWXB" role="3cqZAp" />
@@ -1004,7 +1004,7 @@
           <node concept="3clFbF" id="6t_ylHwzJP2" role="3cqZAp">
             <node concept="2OqwBi" id="6t_ylHwzJQj" role="3clFbG">
               <node concept="0IXxy" id="6t_ylHwzJP0" role="2Oq$k0" />
-              <node concept="1PgB_6" id="6t_ylHwzK7A" role="2OqNvi" />
+              <node concept="3YRAZt" id="6t_ylHwzK7A" role="2OqNvi" />
             </node>
           </node>
         </node>

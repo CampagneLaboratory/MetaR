@@ -2,7 +2,7 @@
 <model ref="r:a825255d-d147-4b16-a7db-fb151b917780(org.campagnelab.metar.sleuth.constraints)">
   <persistence version="9" />
   <languages>
-    <use id="3f4bc5f5-c6c1-4a28-8b10-c83066ffa4a1" name="jetbrains.mps.lang.constraints" version="0" />
+    <use id="3f4bc5f5-c6c1-4a28-8b10-c83066ffa4a1" name="jetbrains.mps.lang.constraints" version="2" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -51,7 +51,7 @@
       </concept>
       <concept id="1147468365020" name="jetbrains.mps.lang.constraints.structure.ConstraintsFunctionParameter_node" flags="nn" index="EsrRn" />
       <concept id="1212096972063" name="jetbrains.mps.lang.constraints.structure.ConstraintFunction_PropertyValidator" flags="in" index="QB0g5" />
-      <concept id="5676632058862809931" name="jetbrains.mps.lang.constraints.structure.ConstraintFunction_ReferentSearchScope_Scope" flags="in" index="13QW63" />
+      <concept id="5564765827938091039" name="jetbrains.mps.lang.constraints.structure.ConstraintFunction_ReferentSearchScope_Scope" flags="ig" index="3dgokm" />
       <concept id="1163200647017" name="jetbrains.mps.lang.constraints.structure.ConstraintFunctionParameter_referenceNode" flags="nn" index="3kakTB" />
       <concept id="1152959968041" name="jetbrains.mps.lang.constraints.structure.ConstraintFunction_PropertySetter" flags="in" index="1LLf8_" />
       <concept id="1213093968558" name="jetbrains.mps.lang.constraints.structure.ConceptConstraints" flags="ng" index="1M2fIO">
@@ -98,7 +98,7 @@
               <node concept="2OqwBi" id="3VGYaIWwcSu" role="37vLTJ">
                 <node concept="EsrRn" id="3VGYaIWwcOv" role="2Oq$k0" />
                 <node concept="3TrEf2" id="3VGYaIWwd3$" role="2OqNvi">
-                  <ref role="3Tt5mk" to="bx6g:7$n2ViPrDvn" />
+                  <ref role="3Tt5mk" to="bx6g:7$n2ViPrDvn" resolve="covariateTable" />
                 </node>
               </node>
             </node>
@@ -132,21 +132,21 @@
   <node concept="1M2fIO" id="3AJ457wUeN4">
     <ref role="1M2myG" to="bx6g:3AJ457wKgcv" resolve="WaldTest" />
     <node concept="1N5Pfh" id="3AJ457wUeN5" role="1Mr941">
-      <ref role="1N5Vy1" to="bx6g:3AJ457wKgWn" />
-      <node concept="13QW63" id="3AJ457wUrQ_" role="1N6uqs">
-        <node concept="3clFbS" id="3AJ457wUrQA" role="2VODD2">
-          <node concept="3cpWs6" id="3AJ457wUscO" role="3cqZAp">
-            <node concept="2YIFZM" id="3AJ457wUshj" role="3cqZAk">
+      <ref role="1N5Vy1" to="bx6g:3AJ457wKgWn" resolve="columnGroupFactor" />
+      <node concept="3dgokm" id="3AJ457wUrQ_" role="1N6uqs">
+        <node concept="3clFbS" id="7LcbxkVjuK" role="2VODD2">
+          <node concept="3cpWs6" id="7LcbxkVjuL" role="3cqZAp">
+            <node concept="2YIFZM" id="7LcbxkVjuM" role="3cqZAk">
               <ref role="37wK5l" to="o8zo:4IP40Bi3eAf" resolve="forNamedElements" />
               <ref role="1Pybhc" to="o8zo:4IP40Bi3e_R" resolve="ListScope" />
-              <node concept="2OqwBi" id="3AJ457wUsLQ" role="37wK5m">
-                <node concept="2OqwBi" id="3AJ457wUszs" role="2Oq$k0">
-                  <node concept="3kakTB" id="3AJ457wUsv_" role="2Oq$k0" />
-                  <node concept="3TrEf2" id="3AJ457wUsDt" role="2OqNvi">
-                    <ref role="3Tt5mk" to="bx6g:3AJ457wNTBB" />
+              <node concept="2OqwBi" id="7LcbxkVjuN" role="37wK5m">
+                <node concept="2OqwBi" id="7LcbxkVjuO" role="2Oq$k0">
+                  <node concept="3kakTB" id="7LcbxkVjuP" role="2Oq$k0" />
+                  <node concept="3TrEf2" id="7LcbxkVjuQ" role="2OqNvi">
+                    <ref role="3Tt5mk" to="bx6g:3AJ457wNTBB" resolve="groupUsage" />
                   </node>
                 </node>
-                <node concept="2qgKlT" id="3AJ457wUsRL" role="2OqNvi">
+                <node concept="2qgKlT" id="7LcbxkVjuR" role="2OqNvi">
                   <ref role="37wK5l" to="v8sa:6XP3gVdqO1y" resolve="columnGroupsWithThisUsageType" />
                 </node>
               </node>

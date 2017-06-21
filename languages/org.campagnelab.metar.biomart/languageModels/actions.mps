@@ -2,8 +2,8 @@
 <model ref="r:6f462b07-15bc-47d4-9686-184a01ba1859(org.campagnelab.metar.biomart.actions)">
   <persistence version="9" />
   <languages>
-    <use id="aee9cad2-acd4-4608-aef2-0004f6a1cdbd" name="jetbrains.mps.lang.actions" version="3" />
-    <use id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior" version="0" />
+    <use id="aee9cad2-acd4-4608-aef2-0004f6a1cdbd" name="jetbrains.mps.lang.actions" version="4" />
+    <use id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior" version="1" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -100,13 +100,13 @@
       <concept id="1146253292180" name="jetbrains.mps.lang.smodel.structure.Property_HasValue_Simple" flags="nn" index="3y1jeu">
         <child id="1146253292181" name="value" index="3y1jev" />
       </concept>
-      <concept id="1140133623887" name="jetbrains.mps.lang.smodel.structure.Node_DeleteOperation" flags="nn" index="1PgB_6" />
       <concept id="1138056022639" name="jetbrains.mps.lang.smodel.structure.SPropertyAccess" flags="nn" index="3TrcHB">
         <reference id="1138056395725" name="property" index="3TsBF5" />
       </concept>
       <concept id="1138056143562" name="jetbrains.mps.lang.smodel.structure.SLinkAccess" flags="nn" index="3TrEf2">
         <reference id="1138056516764" name="link" index="3Tt5mk" />
       </concept>
+      <concept id="1228341669568" name="jetbrains.mps.lang.smodel.structure.Node_DetachOperation" flags="nn" index="3YRAZt" />
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
@@ -295,7 +295,7 @@
                     <node concept="3clFbF" id="6ULs$iIOisy" role="3cqZAp">
                       <node concept="2OqwBi" id="6ULs$iIOiv2" role="3clFbG">
                         <node concept="1r4Lsj" id="6ULs$iIOisx" role="2Oq$k0" />
-                        <node concept="1PgB_6" id="6ULs$iIOiCb" role="2OqNvi" />
+                        <node concept="3YRAZt" id="6ULs$iIOiCb" role="2OqNvi" />
                       </node>
                     </node>
                   </node>
@@ -354,7 +354,7 @@
                     <node concept="3clFbF" id="6ULs$iIOiF7" role="3cqZAp">
                       <node concept="2OqwBi" id="6ULs$iIOiF8" role="3clFbG">
                         <node concept="1r4Lsj" id="6ULs$iIOiF9" role="2Oq$k0" />
-                        <node concept="1PgB_6" id="6ULs$iIOiFa" role="2OqNvi" />
+                        <node concept="3YRAZt" id="6ULs$iIOiFa" role="2OqNvi" />
                       </node>
                     </node>
                   </node>
