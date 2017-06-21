@@ -576,6 +576,7 @@
       <concept id="946964771156066588" name="jetbrains.mps.execution.settings.structure.EditorExpression" flags="nn" index="yHkDH">
         <reference id="946964771156066589" name="persistentPropertyDeclaration" index="yHkDG" />
       </concept>
+      <concept id="946964771156066591" name="jetbrains.mps.execution.settings.structure.CheckProperitesOperation" flags="nn" index="yHkDI" />
       <concept id="946964771156066566" name="jetbrains.mps.execution.settings.structure.CreateEditor_Function" flags="ig" index="yHkDR" />
       <concept id="946964771156066571" name="jetbrains.mps.execution.settings.structure.Dispose_Function" flags="ig" index="yHkDU" />
       <concept id="946964771156066574" name="jetbrains.mps.execution.settings.structure.PersistentPropertyReferenceOperation" flags="nn" index="yHkDZ">
@@ -702,10 +703,6 @@
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
       <concept id="4222318806802425298" name="jetbrains.mps.lang.core.structure.SuppressErrorsAnnotation" flags="ng" index="15s5l7" />
-      <concept id="779128492853369165" name="jetbrains.mps.lang.core.structure.SideTransformInfo" flags="ng" index="1KehLL">
-        <property id="779128492853934523" name="cellId" index="1K8rM7" />
-        <property id="779128492853699361" name="side" index="1Kfyot" />
-      </concept>
       <concept id="709746936026466394" name="jetbrains.mps.lang.core.structure.ChildAttribute" flags="ng" index="3VBwX9">
         <property id="709746936026609031" name="linkId" index="3V$3ak" />
         <property id="709746936026609029" name="linkRole" index="3V$3am" />
@@ -1155,28 +1152,15 @@
     </node>
     <node concept="yHkDk" id="5gyVhZ17Jlv" role="yHkHj">
       <node concept="3clFbS" id="5gyVhZ17Jlw" role="2VODD2">
-        <node concept="3clFbF" id="5gyVhZ17Jlx" role="3cqZAp">
-          <node concept="2OqwBi" id="5gyVhZ17Jly" role="3clFbG">
-            <node concept="2OqwBi" id="5gyVhZ17Jlz" role="2Oq$k0">
-              <node concept="2WthIp" id="5gyVhZ17Jl$" role="2Oq$k0" />
-              <node concept="yHkDZ" id="5gyVhZ17Jl_" role="2OqNvi">
+        <node concept="3clFbF" id="3QSKJdiRO6l" role="3cqZAp">
+          <node concept="2OqwBi" id="3QSKJdiROPw" role="3clFbG">
+            <node concept="2OqwBi" id="3QSKJdiROdZ" role="2Oq$k0">
+              <node concept="2WthIp" id="3QSKJdiRO6j" role="2Oq$k0" />
+              <node concept="yHkDZ" id="3QSKJdiROyi" role="2OqNvi">
                 <ref role="yHkDY" node="5gyVhZ17JkL" resolve="myNode" />
               </node>
             </node>
-            <node concept="liA8E" id="5gyVhZ17JlA" role="2OqNvi">
-              <ref role="37wK5l" to="ic0f:3oW7HLfqDqX" resolve="checkConfiguration" />
-              <node concept="0kSF2" id="7LcbxnA7P7" role="37wK5m">
-                <node concept="3uibUv" id="7LcbxnA7Pa" role="0kSFW">
-                  <ref role="3uigEE" to="ic0f:qCQmZRT2wq" resolve="PersistentConfigurationContext" />
-                </node>
-                <node concept="2WthIp" id="7LcbxnA7yO" role="0kSFX">
-                  <node concept="1KehLL" id="7LcbxnA7RY" role="lGtFl">
-                    <property role="1K8rM7" value="Constant_kpqhey_a0" />
-                    <property role="1Kfyot" value="right" />
-                  </node>
-                </node>
-              </node>
-            </node>
+            <node concept="yHkDI" id="3QSKJdiRPaj" role="2OqNvi" />
           </node>
         </node>
         <node concept="3clFbF" id="3R5AwWRWxYT" role="3cqZAp">
@@ -1187,15 +1171,7 @@
                 <ref role="yHkDY" node="5gyVhZ17Jlr" resolve="myRunParameters" />
               </node>
             </node>
-            <node concept="liA8E" id="3R5AwWRWCz1" role="2OqNvi">
-              <ref role="37wK5l" to="ic0f:3oW7HLfqDqX" resolve="checkConfiguration" />
-              <node concept="0kSF2" id="7LcbxnA7cs" role="37wK5m">
-                <node concept="3uibUv" id="7LcbxnA7cv" role="0kSFW">
-                  <ref role="3uigEE" to="ic0f:qCQmZRT2wq" resolve="PersistentConfigurationContext" />
-                </node>
-                <node concept="2WthIp" id="7LcbxnA4U8" role="0kSFX" />
-              </node>
-            </node>
+            <node concept="yHkDI" id="3QSKJdiRRzH" role="2OqNvi" />
           </node>
         </node>
       </node>
