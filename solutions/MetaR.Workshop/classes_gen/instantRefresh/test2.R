@@ -1,4 +1,4 @@
-# Generated with MetaR, http://metaR.campagnelab.org, from script "test2" on Fri Jun 23 15:19:10 EDT 2017
+# Generated with MetaR, http://metaR.campagnelab.org, from script "test2" on Fri Jun 23 16:35:50 EDT 2017
 installOrLoad<-function (lib,repo="http://cran.us.r-project.org"){if(!require(lib,character.only=TRUE)){install.packages(lib,repos=repo)
   library(lib,character.only=TRUE)}}
 installOrLoad("session")

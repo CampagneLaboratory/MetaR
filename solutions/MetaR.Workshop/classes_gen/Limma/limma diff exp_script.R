@@ -132,13 +132,13 @@ cat("STATEMENT_EXECUTED/OREJMCDMSY/\n");
 #empty line
 plot_IJDIRQOMKQ=function(t)
 {
-LegendFrame=data.frame(c("LPS=NO","LPS=NO","LPS=NO","LPS=YES","LPS=YES","LPS=YES","LPS=YES","LPS=YES","LPS=NO","LPS=NO","LPS=YES","LPS=YES","LPS=NO","LPS=NO"), c("B_DC","A_DC","C_DC","C3DCLPS","B_DC_LPS","C_DC_LPS","A_DC_LPS","C2DCLPS","C3DC","C2DC","DCLPS0910","DCLPS0913","DC0904","DC0907"))
+LegendFrame=data.frame(c("LPS=NO","LPS=NO","LPS=NO","LPS=YES","LPS=YES","LPS=YES","LPS=YES","LPS=YES","LPS=NO","LPS=NO","LPS=YES","LPS=YES","LPS=NO","LPS=NO"), c("A_DC","B_DC","C_DC","C3DCLPS","B_DC_LPS","A_DC_LPS","C_DC_LPS","C2DCLPS","C3DC","C2DC","DCLPS0910","DCLPS0913","DC0904","DC0907"))
 
 colnames(LegendFrame)=c("Group","SampleId")
 # reorder by group name:
 LegendFrameSorted=LegendFrame[order(LegendFrame$Group,LegendFrame$SampleId),]
 rownames(LegendFrameSorted)=NULL
-sampleNames=c("B_DC","A_DC","C_DC","C3DC","C2DC","DC0904","DC0907","C3DCLPS","B_DC_LPS","C_DC_LPS","A_DC_LPS","C2DCLPS","DCLPS0910","DCLPS0913")
+sampleNames=c("A_DC","B_DC","C_DC","C3DC","C2DC","DC0904","DC0907","C3DCLPS","B_DC_LPS","A_DC_LPS","C_DC_LPS","C2DCLPS","DCLPS0910","DCLPS0913")
 MX<-data.matrix(subset(t_1__FDR,  select=sampleNames))
 MX2<-MX
 #MX2=MX2[,order(LegendFrame$Group,LegendFrame$SampleId)]
@@ -150,7 +150,7 @@ annotations=data.frame(
 )
 
 
-#rownames(annotation)=c("B_DC", "A_DC", "C_DC", "C3DCLPS", "B_DC_LPS", "C_DC_LPS", "A_DC_LPS", "C2DCLPS", "C3DC", "C2DC", "DCLPS0910", "DCLPS0913", "DC0904", "DC0907")
+#rownames(annotation)=c("A_DC", "B_DC", "C_DC", "C3DCLPS", "B_DC_LPS", "A_DC_LPS", "C_DC_LPS", "C2DCLPS", "C3DC", "C2DC", "DCLPS0910", "DCLPS0913", "DC0904", "DC0907")
 rownames(MX2) = apply(subset(t_1__FDR,select=c("gene")),1, function(x) x)
 as.data.frame(LegendFrameSorted[,-2]) -> legend
 row.names(legend)=LegendFrameSorted$SampleId

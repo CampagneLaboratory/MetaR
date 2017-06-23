@@ -1,4 +1,4 @@
-# Generated with MetaR, http://metaR.campagnelab.org, from script "UNHumanDevelopmentReport" on Fri Jun 23 15:19:10 EDT 2017
+# Generated with MetaR, http://metaR.campagnelab.org, from script "UNHumanDevelopmentReport" on Fri Jun 23 16:35:50 EDT 2017
 installOrLoad<-function (lib,repo="http://cran.us.r-project.org"){if(!require(lib,character.only=TRUE)){install.packages(lib,repos=repo)
   library(lib,character.only=TRUE)}}
 installOrLoad("session")
@@ -29,8 +29,8 @@ mR2<-summary(lm(HDI~log(CPI),data=dat))$r.squared
 plot_MQNJCNTSAE<-function (){print(pc5)
 grid.text("Sources: Transparency International; UN Human Development Report",x=0.02,y=0.09,just="left",draw=TRUE)
 grid.segments(x0=0.81,x1=0.825,y0=0.90,y1=0.90,gp=gpar(col="black"),draw=TRUE)
-grid.text(paste0("R² = ",as.integer(mR2*100),"%"),x=0.835,y=0.90,gp=gpar(col="gray20"),draw=TRUE,just="left")
-grid.text(paste0("This is instant refresh!"),x="0.3",y="0.8",gp=gpar(col="black",fontsize=3),draw="TRUE",just="left")}
+grid.text(paste0("Ra² = ",as.integer(mR2*100),"%"),x=0.835,y=0.90,gp=gpar(col="gray20"),draw=TRUE,just="left")
+grid.text(paste0("This is instant refresh!"),x="0.2",y="0.8",gp=gpar(col="black",fontsize=30),draw="TRUE",just="left")}
 tryCatch({ 
 png("/Users/farcasia/MetaRProjectsForked/temp/metaR_results/instantRefresh/plot_MQNJCNTSAE_1.png",width=800,height=600)
 plot_MQNJCNTSAE()
