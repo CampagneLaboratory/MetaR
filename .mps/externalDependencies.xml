@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalDependencies">
+    <plugin id="XChart" />
+    <plugin id="org.campagnelab.ANTLR" />
+    <plugin id="org.campagnelab.Editor2PDF" />
+    <plugin id="org.campagnelab.NYoSh" />
+    <plugin id="org.campagnelab.background" />
+  </component>
+</project>
