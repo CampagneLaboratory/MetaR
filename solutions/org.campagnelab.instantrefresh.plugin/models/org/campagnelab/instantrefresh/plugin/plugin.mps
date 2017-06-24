@@ -389,9 +389,6 @@
         <child id="1206060619838" name="condition" index="3eO9$A" />
         <child id="1206060644605" name="statementList" index="3eOfB_" />
       </concept>
-      <concept id="1079359253375" name="jetbrains.mps.baseLanguage.structure.ParenthesizedExpression" flags="nn" index="1eOMI4">
-        <child id="1079359253376" name="expression" index="1eOMHV" />
-      </concept>
       <concept id="1081506762703" name="jetbrains.mps.baseLanguage.structure.GreaterThanExpression" flags="nn" index="3eOSWO" />
       <concept id="1081506773034" name="jetbrains.mps.baseLanguage.structure.LessThanExpression" flags="nn" index="3eOVzh" />
       <concept id="1081516740877" name="jetbrains.mps.baseLanguage.structure.NotExpression" flags="nn" index="3fqX7Q">
@@ -7886,15 +7883,13 @@
                 <ref role="2WH_rO" node="70iH0fuDDXj" resolve="mpsProject" />
               </node>
             </node>
-            <node concept="1eOMI4" id="70iH0fuDGtS" role="37vLTx">
-              <node concept="2YIFZM" id="70iH0fuDGji" role="1eOMHV">
-                <ref role="37wK5l" to="alof:~ProjectHelper.toMPSProject(com.intellij.openapi.project.Project):jetbrains.mps.project.Project" resolve="toMPSProject" />
-                <ref role="1Pybhc" to="alof:~ProjectHelper" resolve="ProjectHelper" />
-                <node concept="2OqwBi" id="70iH0fuDGjP" role="37wK5m">
-                  <node concept="2WthIp" id="70iH0fuDGjS" role="2Oq$k0" />
-                  <node concept="2BZ7hE" id="70iH0fuDGjU" role="2OqNvi">
-                    <ref role="2WH_rO" node="5DYTiejtNzv" resolve="project" />
-                  </node>
+            <node concept="2YIFZM" id="bjgPB5oMbi" role="37vLTx">
+              <ref role="37wK5l" to="alof:~ProjectHelper.fromIdeaProject(com.intellij.openapi.project.Project):jetbrains.mps.project.MPSProject" resolve="fromIdeaProject" />
+              <ref role="1Pybhc" to="alof:~ProjectHelper" resolve="ProjectHelper" />
+              <node concept="2OqwBi" id="bjgPB5oMbj" role="37wK5m">
+                <node concept="2WthIp" id="bjgPB5oMbk" role="2Oq$k0" />
+                <node concept="2BZ7hE" id="bjgPB5oMbl" role="2OqNvi">
+                  <ref role="2WH_rO" node="5DYTiejtNzv" resolve="project" />
                 </node>
               </node>
             </node>

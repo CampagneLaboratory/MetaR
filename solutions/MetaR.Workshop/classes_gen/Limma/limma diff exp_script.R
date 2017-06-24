@@ -4,12 +4,12 @@
 #Script generated from limma diff exp
 
 #Create installation dir for packages
-libDir <- "/Users/farcasia/.metaRlibs"
+libDir <- "/Users/fac2003/.metaRlibs"
 dir.create(file.path(libDir), showWarnings = FALSE, recursive = TRUE)
 .libPaths(c(libDir))
 
 #create the output dir
-dir.create(file.path("/Users/farcasia/MetaRProjectsForked/temp/metaR_results"), showWarnings = FALSE, recursive = TRUE)
+dir.create(file.path("/Users/fac2003/R_RESULTS"), showWarnings = FALSE, recursive = TRUE)
 if (!( require("limma")|require("edgeR") )) {
  if (!require("BiocInstaller")) { 
      source("http://bioconductor.org/biocLite.R", local=TRUE)  
@@ -33,14 +33,18 @@ library("edgeR")
 
 if (!require("plyr")) {install.packages("plyr",repos='http://cran.us.r-project.org'); library("plyr")};
 if (!require("Cairo")) {install.packages("Cairo",repos='http://cran.us.r-project.org'); library("Cairo")};
+if (!require("session")) {install.packages("session",repos='http://cran.us.r-project.org'); library("session")};
 if (!require("limma")) {install.packages("limma",repos='http://cran.us.r-project.org'); library("limma")};
 if (!require("data.table")) {install.packages("data.table",repos='http://cran.us.r-project.org'); library("data.table")};
 if (!require("edgeR")) {install.packages("edgeR",repos='http://cran.us.r-project.org'); library("edgeR")};
 if (!require("pheatmap")) {install.packages("pheatmap",repos='http://cran.us.r-project.org'); library("pheatmap")};
 
 
-GSE59364_DC_all.csv <- fread("/Users/farcasia/MetaRProjectsForked/MetaR/data/GSE59364_DC_all.csv", colClasses=c("character", "numeric", "numeric", "numeric", "numeric", "numeric", "numeric", "numeric", "numeric", "numeric", "numeric", "numeric", "numeric", "numeric", "numeric", "numeric", "numeric", "numeric", "numeric"))
+GSE59364_DC_all.csv <- fread("/Users/fac2003/MPSProjects/git/metar/data/GSE59364_DC_all.csv", colClasses=c("character", "numeric", "numeric", "numeric", "numeric", "numeric", "numeric", "numeric", "numeric", "numeric", "numeric", "numeric", "numeric", "numeric", "numeric", "numeric", "numeric", "numeric", "numeric"))
 cat("STATEMENT_EXECUTED/TXNMDJCBKD/\n");
+
+
+save.image("/Users/fac2003/R_RESULTS/Limma/TXNMDJCBKD.Rda", safe = FALSE);
 
 #empty line
 
@@ -48,9 +52,12 @@ filtered <- GSE59364_DC_all.csv[GSE59364_DC_all.csv$"gene" != "Total"]
 if (nrow(filtered)==0) {
   cat("Warning: Subset removed all rows of table GSE59364_DC_all.csv. Following statements may fail if they expect results after filtering.\n")
 }
-write.table(filtered,"/Users/farcasia/MetaRProjectsForked/temp/metaR_results/Limma/table_filtered_0.tsv)", row.names=FALSE, sep="\t") 
+write.table(filtered,"/Users/fac2003/R_RESULTS/Limma/table_filtered_0.tsv)", row.names=FALSE, sep="\t") 
 
 cat("STATEMENT_EXECUTED/HQQRDVRKTV/\n");
+
+
+save.image("/Users/fac2003/R_RESULTS/Limma/HQQRDVRKTV.Rda", safe = FALSE);
 
 #empty line
 
@@ -95,8 +102,11 @@ setcolorder(normalized, newcols)
 # TODO: change the below line to use constrasts from the limmaVoom statement:
 results <<- data.table(topTable(fit3,coef=1, number=nrow(countsTable)))
 cat("STATEMENT_EXECUTED/FANANXELGN/\n")
-write.table(results,"/Users/farcasia/MetaRProjectsForked/temp/metaR_results/Limma/table_results_0.tsv)", row.names=FALSE, sep="\t") 
+write.table(results,"/Users/fac2003/R_RESULTS/Limma/table_results_0.tsv)", row.names=FALSE, sep="\t") 
 cat("STATEMENT_EXECUTED/FANANXELGN/\n");
+
+
+save.image("/Users/fac2003/R_RESULTS/Limma/FANANXELGN.Rda", safe = FALSE);
 
 #empty line
 setkey(normalized, "gene")
@@ -116,29 +126,35 @@ MergedResults <- data.table(MergedResults)[,"genes":=MergedResults$"gene"]
 
 # Add the rename back source columns
 results <- plyr::rename(results, c("gene"="genes"))
-write.table(MergedResults,"/Users/farcasia/MetaRProjectsForked/temp/metaR_results/Limma/table_MergedResults_0.tsv)", row.names=FALSE, sep="\t") 
+write.table(MergedResults,"/Users/fac2003/R_RESULTS/Limma/table_MergedResults_0.tsv)", row.names=FALSE, sep="\t") 
 cat("STATEMENT_EXECUTED/QARBNQSJCO/\n");
+
+
+save.image("/Users/fac2003/R_RESULTS/Limma/QARBNQSJCO.Rda", safe = FALSE);
 
 #empty line
 
-t_1__FDR <- MergedResults[(MergedResults$"adj.P.Val" < 0.001) & (MergedResults$"logFC" > 3 | MergedResults$"logFC" < -3)]
+t_1__FDR <- MergedResults[(MergedResults$"adj.P.Val" < 0.0001) & (MergedResults$"logFC" > 3 | MergedResults$"logFC" < -3)]
 if (nrow(t_1__FDR)==0) {
   cat("Warning: Subset removed all rows of table MergedResults. Following statements may fail if they expect results after filtering.\n")
 }
-write.table(t_1__FDR,"/Users/farcasia/MetaRProjectsForked/temp/metaR_results/Limma/table_t_1__FDR_0.tsv)", row.names=FALSE, sep="\t") 
+write.table(t_1__FDR,"/Users/fac2003/R_RESULTS/Limma/table_t_1__FDR_0.tsv)", row.names=FALSE, sep="\t") 
 
 cat("STATEMENT_EXECUTED/OREJMCDMSY/\n");
+
+
+save.image("/Users/fac2003/R_RESULTS/Limma/OREJMCDMSY.Rda", safe = FALSE);
 
 #empty line
 plot_IJDIRQOMKQ=function(t)
 {
-LegendFrame=data.frame(c("LPS=NO","LPS=NO","LPS=NO","LPS=YES","LPS=YES","LPS=YES","LPS=YES","LPS=YES","LPS=NO","LPS=NO","LPS=YES","LPS=YES","LPS=NO","LPS=NO"), c("A_DC","B_DC","C_DC","C3DCLPS","B_DC_LPS","A_DC_LPS","C_DC_LPS","C2DCLPS","C3DC","C2DC","DCLPS0910","DCLPS0913","DC0904","DC0907"))
+LegendFrame=data.frame(c("LPS=NO","LPS=NO","LPS=NO","LPS=YES","LPS=YES","LPS=YES","LPS=YES","LPS=YES","LPS=NO","LPS=NO","LPS=YES","LPS=YES","LPS=NO","LPS=NO"), c("B_DC","A_DC","C_DC","C3DCLPS","C_DC_LPS","B_DC_LPS","A_DC_LPS","C2DCLPS","C3DC","C2DC","DCLPS0910","DCLPS0913","DC0904","DC0907"))
 
 colnames(LegendFrame)=c("Group","SampleId")
 # reorder by group name:
 LegendFrameSorted=LegendFrame[order(LegendFrame$Group,LegendFrame$SampleId),]
 rownames(LegendFrameSorted)=NULL
-sampleNames=c("A_DC","B_DC","C_DC","C3DC","C2DC","DC0904","DC0907","C3DCLPS","B_DC_LPS","A_DC_LPS","C_DC_LPS","C2DCLPS","DCLPS0910","DCLPS0913")
+sampleNames=c("B_DC","A_DC","C_DC","C3DC","C2DC","DC0904","DC0907","C3DCLPS","C_DC_LPS","B_DC_LPS","A_DC_LPS","C2DCLPS","DCLPS0910","DCLPS0913")
 MX<-data.matrix(subset(t_1__FDR,  select=sampleNames))
 MX2<-MX
 #MX2=MX2[,order(LegendFrame$Group,LegendFrame$SampleId)]
@@ -150,7 +166,7 @@ annotations=data.frame(
 )
 
 
-#rownames(annotation)=c("A_DC", "B_DC", "C_DC", "C3DCLPS", "B_DC_LPS", "A_DC_LPS", "C_DC_LPS", "C2DCLPS", "C3DC", "C2DC", "DCLPS0910", "DCLPS0913", "DC0904", "DC0907")
+#rownames(annotation)=c("B_DC", "A_DC", "C_DC", "C3DCLPS", "C_DC_LPS", "B_DC_LPS", "A_DC_LPS", "C2DCLPS", "C3DC", "C2DC", "DCLPS0910", "DCLPS0913", "DC0904", "DC0907")
 rownames(MX2) = apply(subset(t_1__FDR,select=c("gene")),1, function(x) x)
 as.data.frame(LegendFrameSorted[,-2]) -> legend
 row.names(legend)=LegendFrameSorted$SampleId
@@ -165,9 +181,9 @@ MX2<-MX2[complete.cases(MX2),]
 # Plot the heatmap:
 pheatmap(MX2,
          cluster_rows=TRUE,cluster_cols = FALSE,
-         border_color="grey60", 
-         #filename = "/Users/farcasia/MetaRProjectsForked/temp/metaR_results/Limma/plot_IJDIRQOMKQ_11.png",
-         color = colorRampPalette(c("#f1a340","#f7f7f7","#998ec3"))(100), 
+         border_color="NA", 
+         #filename = "/Users/fac2003/R_RESULTS/Limma/plot_IJDIRQOMKQ_11.png",
+         color = colorRampPalette(c("#d8b365","#f5f5f5","#5ab4ac"))(100), 
          clustering_distance_rows="manhattan",
          clustering_distance_cols="manhattan",
          clustering_method="complete",members = NULL,
@@ -180,10 +196,13 @@ pheatmap(MX2,
 cat("STATEMENT_EXECUTED/IJDIRQOMKQ/\n");
 
 }
-png(file="/Users/farcasia/MetaRProjectsForked/temp/metaR_results/Limma/plot_IJDIRQOMKQ_11.png", width=300, height=200)
+png(file="/Users/fac2003/R_RESULTS/Limma/plot_IJDIRQOMKQ_11.png", width=300, height=200)
 plot_IJDIRQOMKQ(t_1__FDR)
 ignore <- dev.off()
 cat("STATEMENT_EXECUTED/IJDIRQOMKQ/\n");
+
+
+save.image("/Users/fac2003/R_RESULTS/Limma/IJDIRQOMKQ.Rda", safe = FALSE);
 
 # Layout plots in a grid:
 plot_DRBRWPDAOE = function(ignore) 
@@ -193,17 +212,20 @@ layout(matrix(c(1:1), byrow=TRUE, 1, 1), widths=c(300.0), heights=c(200.0))
 plot_IJDIRQOMKQ(t_1__FDR);
 }
 
-png(file="/Users/farcasia/MetaRProjectsForked/temp/metaR_results/Limma/plot_DRBRWPDAOE_12.png", width=300.0, height=200.0)
+png(file="/Users/fac2003/R_RESULTS/Limma/plot_DRBRWPDAOE_12.png", width=300.0, height=200.0)
 plot_DRBRWPDAOE(null)
 ignore <- dev.off()
 cat("STATEMENT_EXECUTED/DRBRWPDAOE/\n");
 
-pdf("/Users/farcasia/MetaRProjectsForked/temp/metaR_results/Limma/heatmap.pdf", width=2.7777777777777777, height=2.7777777777777777, onefile=FALSE )
+
+save.image("/Users/fac2003/R_RESULTS/Limma/DRBRWPDAOE.Rda", safe = FALSE);
+
+pdf("/Users/fac2003/R_RESULTS/Limma/heatmap.pdf", width=2.7777777777777777, height=2.7777777777777777, onefile=FALSE )
 plot_IJDIRQOMKQ(t_1__FDR)
 ignore <- dev.off()
 cat("STATEMENT_EXECUTED/WLTYRLEFEQ/\n");
 
-write.table(results,"/Users/farcasia/MetaRProjectsForked/temp/metaR_results/Limma/results.tsv",sep="\t",row.names=FALSE ,quote=FALSE) 
+write.table(results,"/Users/fac2003/R_RESULTS/Limma/results.tsv",sep="\t",row.names=FALSE ,quote=FALSE) 
 cat("STATEMENT_EXECUTED/WMDDRAGDNN/\n");
 
 

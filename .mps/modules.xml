@@ -2,41 +2,6 @@
 <project version="4">
   <component name="MPSProject">
     <projectModules>
-      <modulePath path="$APPLICATION_PLUGINS_DIR$/metaR/languages/metaR.R/org.campagnelab.R.devkit" folder="" />
-      <modulePath path="$APPLICATION_PLUGINS_DIR$/metaR/languages/metaR.R/org.campagnelab.metar.R.access.jar!/META-INF/module.xml" folder="" />
-      <modulePath path="$APPLICATION_PLUGINS_DIR$/metaR/languages/metaR.R/org.campagnelab.metar.R.gen.jar!/META-INF/module.xml" folder="" />
-      <modulePath path="$APPLICATION_PLUGINS_DIR$/metaR/languages/metaR.R/org.campagnelab.metar.R.inspect.jar!/META-INF/module.xml" folder="" />
-      <modulePath path="$APPLICATION_PLUGINS_DIR$/metaR/languages/metaR.R/org.campagnelab.metar.R.jar!/META-INF/module.xml" folder="" />
-      <modulePath path="$APPLICATION_PLUGINS_DIR$/metaR/languages/metaR.R/org.campagnelab.metar.R.plugin.jar!/META-INF/module.xml" folder="" />
-      <modulePath path="$APPLICATION_PLUGINS_DIR$/metaR/languages/metaR.R/org.campagnelab.metar.functions.access.jar!/META-INF/module.xml" folder="" />
-      <modulePath path="$APPLICATION_PLUGINS_DIR$/metaR/languages/metaR.R/org.campagnelab.metar.r.metar.jar!/META-INF/module.xml" folder="" />
-      <modulePath path="$APPLICATION_PLUGINS_DIR$/metaR/languages/metaR.R/org.campagnelab.metar.r.parsers.jar!/META-INF/module.xml" folder="" />
-      <modulePath path="$APPLICATION_PLUGINS_DIR$/metaR/languages/metaR.R/org.campagnelab.metar.r.stubs.jar!/META-INF/module.xml" folder="" />
-      <modulePath path="$APPLICATION_PLUGINS_DIR$/metaR/languages/metaR/org.campagnelab.HTAnalysis.devkit" folder="" />
-      <modulePath path="$APPLICATION_PLUGINS_DIR$/metaR/languages/metaR/org.campagnelab.editor.csvviewer.jar!/META-INF/module.xml" folder="" />
-      <modulePath path="$APPLICATION_PLUGINS_DIR$/metaR/languages/metaR/org.campagnelab.editor.images.jar!/META-INF/module.xml" folder="" />
-      <modulePath path="$APPLICATION_PLUGINS_DIR$/metaR/languages/metaR/org.campagnelab.editor.listeners.plugin.jar!/META-INF/module.xml" folder="" />
-      <modulePath path="$APPLICATION_PLUGINS_DIR$/metaR/languages/metaR/org.campagnelab.editor.plugins.jar!/META-INF/module.xml" folder="" />
-      <modulePath path="$APPLICATION_PLUGINS_DIR$/metaR/languages/metaR/org.campagnelab.instantrefresh.jar!/META-INF/module.xml" folder="" />
-      <modulePath path="$APPLICATION_PLUGINS_DIR$/metaR/languages/metaR/org.campagnelab.instantrefresh.plugin.jar!/META-INF/module.xml" folder="" />
-      <modulePath path="$APPLICATION_PLUGINS_DIR$/metaR/languages/metaR/org.campagnelab.metar.accessories.jar!/META-INF/module.xml" folder="" />
-      <modulePath path="$APPLICATION_PLUGINS_DIR$/metaR/languages/metaR/org.campagnelab.metar.biomart.jar!/META-INF/module.xml" folder="" />
-      <modulePath path="$APPLICATION_PLUGINS_DIR$/metaR/languages/metaR/org.campagnelab.metar.biomart.web.jar!/META-INF/module.xml" folder="" />
-      <modulePath path="$APPLICATION_PLUGINS_DIR$/metaR/languages/metaR/org.campagnelab.metar.biomartToR.jar!/META-INF/module.xml" folder="" />
-      <modulePath path="$APPLICATION_PLUGINS_DIR$/metaR/languages/metaR/org.campagnelab.metar.code.jar!/META-INF/module.xml" folder="" />
-      <modulePath path="$APPLICATION_PLUGINS_DIR$/metaR/languages/metaR/org.campagnelab.metar.edgeR.jar!/META-INF/module.xml" folder="" />
-      <modulePath path="$APPLICATION_PLUGINS_DIR$/metaR/languages/metaR/org.campagnelab.metar.functions.importing.jar!/META-INF/module.xml" folder="" />
-      <modulePath path="$APPLICATION_PLUGINS_DIR$/metaR/languages/metaR/org.campagnelab.metar.inspect.jar!/META-INF/module.xml" folder="" />
-      <modulePath path="$APPLICATION_PLUGINS_DIR$/metaR/languages/metaR/org.campagnelab.metar.limma.jar!/META-INF/module.xml" folder="" />
-      <modulePath path="$APPLICATION_PLUGINS_DIR$/metaR/languages/metaR/org.campagnelab.metar.models.jar!/META-INF/module.xml" folder="" />
-      <modulePath path="$APPLICATION_PLUGINS_DIR$/metaR/languages/metaR/org.campagnelab.metar.plots.jar!/META-INF/module.xml" folder="" />
-      <modulePath path="$APPLICATION_PLUGINS_DIR$/metaR/languages/metaR/org.campagnelab.metar.simulation.jar!/META-INF/module.xml" folder="" />
-      <modulePath path="$APPLICATION_PLUGINS_DIR$/metaR/languages/metaR/org.campagnelab.metar.sleuth.jar!/META-INF/module.xml" folder="" />
-      <modulePath path="$APPLICATION_PLUGINS_DIR$/metaR/languages/metaR/org.campagnelab.metar.tables.jar!/META-INF/module.xml" folder="" />
-      <modulePath path="$APPLICATION_PLUGINS_DIR$/metaR/languages/metaR/org.campagnelab.metar.with.r.jar!/META-INF/module.xml" folder="" />
-      <modulePath path="$APPLICATION_PLUGINS_DIR$/metaR/languages/metaR/org.campagnelab.modeling.jar!/META-INF/module.xml" folder="" />
-      <modulePath path="$APPLICATION_PLUGINS_DIR$/metaR/languages/metaR/org.campagnelab.runR.jar!/META-INF/module.xml" folder="" />
-      <modulePath path="$APPLICATION_PLUGINS_DIR$/metaR/languages/metaR/org.campagnelab.styles.jar!/META-INF/module.xml" folder="" />
       <modulePath path="$PROJECT_DIR$/devkits/R/org.campagnelab.R.devkit" folder="" />
       <modulePath path="$PROJECT_DIR$/devkits/org.campagnelab.HTAnalysis.devkit" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.editor.csvviewer/org.campagnelab.editor.csvviewer.mpl" folder="" />
