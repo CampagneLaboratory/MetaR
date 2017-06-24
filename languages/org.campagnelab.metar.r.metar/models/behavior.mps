@@ -2,7 +2,7 @@
 <model ref="r:97a2494d-4233-439d-8aa2-c7f57005e6ea(org.campagnelab.metar.r.metar.behavior)">
   <persistence version="9" />
   <languages>
-    <use id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior" version="0" />
+    <use id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior" version="1" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -105,14 +105,13 @@
         <child id="1144104376918" name="parameter" index="1xVPHs" />
       </concept>
       <concept id="1179409122411" name="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" flags="nn" index="2qgKlT" />
-      <concept id="8866923313515890008" name="jetbrains.mps.lang.smodel.structure.AsNodeOperation" flags="nn" index="FGMqu" />
       <concept id="1171305280644" name="jetbrains.mps.lang.smodel.structure.Node_GetDescendantsOperation" flags="nn" index="2Rf3mk" />
       <concept id="1171407110247" name="jetbrains.mps.lang.smodel.structure.Node_GetAncestorOperation" flags="nn" index="2Xjw5R" />
-      <concept id="2644386474300074836" name="jetbrains.mps.lang.smodel.structure.ConceptIdRefExpression" flags="nn" index="35c_gC">
-        <reference id="2644386474300074837" name="conceptDeclaration" index="35c_gD" />
-      </concept>
       <concept id="1144101972840" name="jetbrains.mps.lang.smodel.structure.OperationParm_Concept" flags="ng" index="1xMEDy">
         <child id="1207343664468" name="conceptArgument" index="ri$Ld" />
+      </concept>
+      <concept id="1219352745532" name="jetbrains.mps.lang.smodel.structure.NodeRefExpression" flags="nn" index="3B5_sB">
+        <reference id="1219352800908" name="referentNode" index="3B5MYn" />
       </concept>
       <concept id="1138055754698" name="jetbrains.mps.lang.smodel.structure.SNodeType" flags="in" index="3Tqbb2">
         <reference id="1138405853777" name="concept" index="ehGHo" />
@@ -173,11 +172,8 @@
             </node>
           </node>
           <node concept="3clFbC" id="bPLB42PDx2" role="3clFbw">
-            <node concept="2OqwBi" id="bPLB42PDAg" role="3uHU7w">
-              <node concept="35c_gC" id="bPLB42PDyg" role="2Oq$k0">
-                <ref role="35c_gD" to="jrxw:7lAbM$uOMoK" resolve="Plot" />
-              </node>
-              <node concept="FGMqu" id="bPLB42PDWU" role="2OqNvi" />
+            <node concept="3B5_sB" id="bPLB42PDAg" role="3uHU7w">
+              <ref role="3B5MYn" to="jrxw:7lAbM$uOMoK" resolve="Plot" />
             </node>
             <node concept="37vLTw" id="bPLB42PDtQ" role="3uHU7B">
               <ref role="3cqZAo" node="bPLB42PDqx" resolve="kind" />
@@ -214,11 +210,8 @@
             </node>
           </node>
           <node concept="3clFbC" id="3tvgWOBkgDB" role="3clFbw">
-            <node concept="2OqwBi" id="3tvgWOBkgDC" role="3uHU7w">
-              <node concept="35c_gC" id="3tvgWOBkgDD" role="2Oq$k0">
-                <ref role="35c_gD" to="jrxw:2WRhvFtkykN" resolve="Table" />
-              </node>
-              <node concept="FGMqu" id="3tvgWOBkgDE" role="2OqNvi" />
+            <node concept="3B5_sB" id="3tvgWOBkgDC" role="3uHU7w">
+              <ref role="3B5MYn" to="jrxw:2WRhvFtkykN" resolve="Table" />
             </node>
             <node concept="37vLTw" id="3tvgWOBkgDF" role="3uHU7B">
               <ref role="3cqZAo" node="bPLB42PDqx" resolve="kind" />
@@ -293,7 +286,7 @@
             <node concept="2OqwBi" id="3tvgWOB793c" role="2Oq$k0">
               <node concept="13iPFW" id="3tvgWOB790o" role="2Oq$k0" />
               <node concept="3TrEf2" id="3tvgWOB79dF" role="2OqNvi">
-                <ref role="3Tt5mk" to="jc6c:bPLB42ONwx" />
+                <ref role="3Tt5mk" to="jc6c:bPLB42ONwx" resolve="plot" />
               </node>
             </node>
             <node concept="3TrcHB" id="3tvgWOB79pw" role="2OqNvi">
@@ -316,7 +309,7 @@
             <node concept="2OqwBi" id="3tvgWOB79rC" role="2Oq$k0">
               <node concept="13iPFW" id="3tvgWOB79rD" role="2Oq$k0" />
               <node concept="3TrEf2" id="3tvgWOB79rE" role="2OqNvi">
-                <ref role="3Tt5mk" to="jc6c:bPLB42ONwx" />
+                <ref role="3Tt5mk" to="jc6c:bPLB42ONwx" resolve="plot" />
               </node>
             </node>
             <node concept="3TrcHB" id="3tvgWOB79$S" role="2OqNvi">

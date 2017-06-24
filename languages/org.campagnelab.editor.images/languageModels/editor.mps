@@ -2,7 +2,7 @@
 <model ref="r:8890f3a9-057e-456b-881f-68d2f1d49b58(org.campagnelab.editor.images.editor)">
   <persistence version="9" />
   <languages>
-    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="4" />
+    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="7" />
   </languages>
   <imports>
     <import index="tpc5" ref="r:00000000-0000-4000-0000-011c89590299(jetbrains.mps.lang.editor.editor)" />
@@ -39,7 +39,6 @@
         <reference id="1140103550593" name="relationDeclaration" index="1NtTu8" />
       </concept>
       <concept id="1073389446423" name="jetbrains.mps.lang.editor.structure.CellModel_Collection" flags="sn" stub="3013115976261988961" index="3EZMnI">
-        <property id="1073389446425" name="vertical" index="3EZMnw" />
         <child id="1106270802874" name="cellLayout" index="2iSdaV" />
         <child id="1073389446424" name="childCellModel" index="3EZMnx" />
       </concept>
@@ -67,7 +66,6 @@
     <node concept="3EZMnI" id="37EhXvtDQZP" role="6VMZX">
       <node concept="l2Vlx" id="37EhXvtDQZS" role="2iSdaV" />
       <node concept="3EZMnI" id="37EhXvtG_Fi" role="3EZMnx">
-        <property role="3EZMnw" value="false" />
         <node concept="3F0ifn" id="37EhXvtG_Fj" role="3EZMnx">
           <property role="3F0ifm" value="image provider : " />
           <ref role="1k5W1q" to="tpc5:hF4H1c8" resolve="property" />

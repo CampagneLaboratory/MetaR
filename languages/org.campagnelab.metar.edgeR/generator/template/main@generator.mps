@@ -226,8 +226,8 @@
       <concept id="1179409122411" name="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" flags="nn" index="2qgKlT" />
       <concept id="7453996997717780434" name="jetbrains.mps.lang.smodel.structure.Node_GetSConceptOperation" flags="nn" index="2yIwOk" />
       <concept id="2396822768958367367" name="jetbrains.mps.lang.smodel.structure.AbstractTypeCastExpression" flags="nn" index="$5XWr">
-        <reference id="6733348108486823428" name="concept" index="1m5ApE" />
         <child id="6733348108486823193" name="leftExpression" index="1m5AlR" />
+        <child id="3906496115198199033" name="conceptArgument" index="3oSUPX" />
       </concept>
       <concept id="1143234257716" name="jetbrains.mps.lang.smodel.structure.Node_GetModelOperation" flags="nn" index="I4A8Y" />
       <concept id="1171305280644" name="jetbrains.mps.lang.smodel.structure.Node_GetDescendantsOperation" flags="nn" index="2Rf3mk" />
@@ -435,10 +435,12 @@
                   <ref role="3Tt5mk" to="qrzj:4ssfE$85c87" resolve="modelFormula" />
                 </node>
                 <node concept="1PxgMI" id="6XP3gVdIZ6$" role="2Oq$k0">
-                  <ref role="1m5ApE" to="izt2:7$n2ViPrAVb" resolve="EdgeRTest" />
                   <node concept="2OqwBi" id="6XP3gVdIXPn" role="1m5AlR">
                     <node concept="30H73N" id="6XP3gVdIXLe" role="2Oq$k0" />
                     <node concept="1mfA1w" id="6XP3gVdIYeh" role="2OqNvi" />
+                  </node>
+                  <node concept="chp4Y" id="7LcbxkVn0m" role="3oSUPX">
+                    <ref role="cht4Q" to="izt2:7$n2ViPrAVb" resolve="EdgeRTest" />
                   </node>
                 </node>
               </node>
@@ -536,10 +538,12 @@
                     <ref role="3Tt5mk" to="qrzj:4ssfE$85c87" resolve="modelFormula" />
                   </node>
                   <node concept="1PxgMI" id="6XP3gVdPo5J" role="2Oq$k0">
-                    <ref role="1m5ApE" to="izt2:7$n2ViPrAVb" resolve="EdgeRTest" />
                     <node concept="2OqwBi" id="6XP3gVdPo5K" role="1m5AlR">
                       <node concept="30H73N" id="6XP3gVdPo5L" role="2Oq$k0" />
                       <node concept="1mfA1w" id="6XP3gVdPo5M" role="2OqNvi" />
+                    </node>
+                    <node concept="chp4Y" id="7LcbxkVn0n" role="3oSUPX">
+                      <ref role="cht4Q" to="izt2:7$n2ViPrAVb" resolve="EdgeRTest" />
                     </node>
                   </node>
                 </node>

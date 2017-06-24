@@ -7,6 +7,7 @@ import jetbrains.mps.smodel.language.LanguageRuntime;
 import java.util.Collection;
 import jetbrains.mps.generator.runtime.TemplateMappingPriorityRule;
 import jetbrains.mps.generator.runtime.TemplateModel;
+import jetbrains.mps.smodel.language.LanguageRegistry;
 import jetbrains.mps.generator.runtime.TemplateUtil;
 import org.campagnelab.editor.images.generator.template.main.TemplateModelImpl;
 import java.util.Arrays;
@@ -15,18 +16,16 @@ import org.jetbrains.mps.openapi.module.SModuleReference;
 import org.jetbrains.mps.openapi.persistence.PersistenceFacade;
 import org.jetbrains.mps.openapi.language.SLanguage;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
-import jetbrains.mps.smodel.adapter.ids.MetaIdFactory;
 
 public class Generator extends TemplateModuleBase {
   private final LanguageRuntime sourceLanguage;
   private final Collection<TemplateMappingPriorityRule> priorities;
-  private final Collection<String> referencedGenerators;
   private TemplateModel[] models;
 
-  public Generator(LanguageRuntime sourceLanguage) {
+  public Generator(LanguageRegistry languageRegistry, LanguageRuntime sourceLanguage) {
+    super(languageRegistry);
     this.sourceLanguage = sourceLanguage;
-    priorities = TemplateUtil.asCollection(TemplateUtil.createStrictlyTogetherRule(TemplateUtil.createRefExternal("b3f5c7a4-7b05-4b90-857d-985d8f2af234(org.campagnelab.editor.images#1813939192108407208)", TemplateUtil.createRefLocal()), TemplateUtil.createRefExternal("0647eca7-da98-422a-8a8b-6ebc0bd014ea(jetbrains.mps.lang.editor#1129914002149)", TemplateUtil.createRefNormal("r:00000000-0000-4000-0000-011c8959029f(jetbrains.mps.lang.editor.generator.baseLanguage.template.main@generator)", "1096629760203"))));
-    referencedGenerators = TemplateUtil.<String>asCollection("jetbrains.mps.lang.editor/jetbrains.mps.lang.editor#1129914002149");
+    priorities = TemplateUtil.asCollection(TemplateUtil.createStrictlyTogetherRule(TemplateUtil.createRefExternal("b3f5c7a4-7b05-4b90-857d-985d8f2af234(org.campagnelab.editor.images#1813939192108407208)", TemplateUtil.createRefLocal()), TemplateUtil.createRefExternal("0647eca7-da98-422a-8a8b-6ebc0bd014ea(jetbrains.mps.lang.editor#1129914002149)", TemplateUtil.createRefNormal("r:00000000-0000-4000-0000-011c8959029f(jetbrains.mps.lang.editor.generator.baseLanguage.template.main@generator)", "1096629760203", "MAPPING_main"))));
   }
   @Override
   public String getAlias() {
@@ -55,10 +54,11 @@ public class Generator extends TemplateModuleBase {
 
   @Override
   public Collection<SLanguage> getTargetLanguages() {
-    SLanguage[] rv = new SLanguage[3];
-    rv[0] = MetaAdapterFactory.getLanguage(MetaIdFactory.langId(0xf3061a5392264cc5L, 0xa443f952ceaf5816L), "jetbrains.mps.baseLanguage");
-    rv[1] = MetaAdapterFactory.getLanguage(MetaIdFactory.langId(0xa247e09e243545baL, 0xb8d207e93feba96aL), "jetbrains.mps.baseLanguage.tuples");
-    rv[2] = MetaAdapterFactory.getLanguage(MetaIdFactory.langId(0x7866978ea0f04cc7L, 0x81bc4d213d9375e1L), "jetbrains.mps.lang.smodel");
+    SLanguage[] rv = new SLanguage[4];
+    rv[0] = MetaAdapterFactory.getLanguage(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, "jetbrains.mps.baseLanguage");
+    rv[1] = MetaAdapterFactory.getLanguage(0x760a0a8ceabb4521L, 0x8bfd65db761a9ba3L, "jetbrains.mps.baseLanguage.logging");
+    rv[2] = MetaAdapterFactory.getLanguage(0xa247e09e243545baL, 0xb8d207e93feba96aL, "jetbrains.mps.baseLanguage.tuples");
+    rv[3] = MetaAdapterFactory.getLanguage(0x7866978ea0f04cc7L, 0x81bc4d213d9375e1L, "jetbrains.mps.lang.smodel");
     return Arrays.asList(rv);
   }
 
@@ -69,7 +69,8 @@ public class Generator extends TemplateModuleBase {
   }
 
   @Override
-  public Collection<String> getReferencedModules() {
-    return referencedGenerators;
+  protected void fillReferencedGenerators(TemplateModuleBase.ReferencedGenerators referencedGenerators) {
+    referencedGenerators.extended("0647eca7-da98-422a-8a8b-6ebc0bd014ea(jetbrains.mps.lang.editor#1129914002149)");
+    referencedGenerators.employed("0647eca7-da98-422a-8a8b-6ebc0bd014ea(jetbrains.mps.lang.editor#1129914002149)");
   }
 }

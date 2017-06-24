@@ -13,7 +13,7 @@
     <use id="13744753-c81f-424a-9c1b-cf8943bf4e86" name="jetbrains.mps.lang.sharedConcepts" version="0" />
     <use id="ed6d7656-532c-4bc2-81d1-af945aeb8280" name="jetbrains.mps.baseLanguage.blTypes" version="0" />
     <use id="9ded098b-ad6a-4657-bfd9-48636cfe8bc3" name="jetbrains.mps.lang.traceable" version="0" />
-    <use id="aee9cad2-acd4-4608-aef2-0004f6a1cdbd" name="jetbrains.mps.lang.actions" version="3" />
+    <use id="aee9cad2-acd4-4608-aef2-0004f6a1cdbd" name="jetbrains.mps.lang.actions" version="4" />
     <use id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures" version="0" />
     <use id="e633fc48-0aaf-45b5-9894-247b67cf0890" name="org.campagnelab.metar.biomart" version="0" />
     <use id="901f5cf3-dc77-4c1e-bc5a-6382baee28b4" name="org.campagnelab.textoutput" version="0" />
@@ -24,9 +24,9 @@
     <use id="af754813-06c7-4cd1-8f24-cc91ec8e5d34" name="org.campagnelab.metar.with.r" version="0" />
     <use id="067d1b0c-daf1-44f9-9fbd-e1dd4c6e26e8" name="org.campagnelab.metar.simulation" version="0" />
     <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="3" />
-    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="4" />
-    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="4" />
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="4" />
+    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="7" />
+    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="8" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="5" />
     <use id="7eba6a28-4cc2-47b9-a392-284573f2054a" name="org.campagnelab.metar.R.access" version="0" />
     <use id="e4bb94f9-1202-448e-98f6-d108577add14" name="org.campagnelab.metar.r.metar" version="-1" />
     <devkit ref="8a3636fa-c6ec-4cb0-bc2a-b7143f2a4937(org.campagnelab.metaR)" />
@@ -52459,10 +52459,6 @@
     </node>
     <node concept="2PZJp2" id="1cI4GX2WvUA" role="pZjJ2">
       <property role="1MXi1$" value="UMCORFBKXF" />
-      <node concept="2PZJpp" id="1cI4GX2WvUF" role="134Gdo">
-        <property role="TrG5h" value="pdf" />
-        <property role="1MXi1$" value="CKIMLQCSVO" />
-      </node>
       <node concept="gNbv0" id="1cI4GX2WvUG" role="134Gdu">
         <property role="1MXi1$" value="KGGKIOXHHA" />
         <node concept="V6WaU" id="1cI4GX2WvUH" role="gNbrm">
@@ -52472,6 +52468,11 @@
             <property role="1MXi1$" value="ERRCPODFYY" />
           </node>
         </node>
+      </node>
+      <node concept="3a69Ir" id="7LcbxnyYht" role="134Gdo">
+        <property role="1MXi1$" value="UBWPUAJCXP" />
+        <ref role="3a69Pm" to="4tsn:7EwhY3NNKG" />
+        <ref role="1Li74V" to="4tsn:7EwhY3NNKF" resolve="pdf" />
       </node>
     </node>
     <node concept="2PZJp2" id="1cI4GX2UEwv" role="pZjJ2">
@@ -52496,10 +52497,6 @@
     </node>
     <node concept="2PZJp2" id="1cI4GX2Wwxm" role="pZjJ2">
       <property role="1MXi1$" value="QYYHQHKIYE" />
-      <node concept="2PZJpp" id="1cI4GX2Wwxr" role="134Gdo">
-        <property role="TrG5h" value="dev.off" />
-        <property role="1MXi1$" value="ITJKIVMTUF" />
-      </node>
       <node concept="gNbv0" id="1cI4GX2Wwxs" role="134Gdu">
         <property role="1MXi1$" value="LQJHYGUAFW" />
         <node concept="V6WaL" id="1cI4GX2Wwxt" role="gNbrm">
@@ -52508,6 +52505,11 @@
             <property role="1MXi1$" value="XMCWSGPAJL" />
           </node>
         </node>
+      </node>
+      <node concept="3a69Ir" id="7LcbxnyYhr" role="134Gdo">
+        <property role="1MXi1$" value="SPEODAPEAU" />
+        <ref role="3a69Pm" to="4tsn:7EwhY3NNEZ" />
+        <ref role="1Li74V" to="4tsn:7EwhY3NNEY" resolve="dev.off" />
       </node>
     </node>
     <node concept="3cU4HJ" id="1cI4GX2UA4C" role="pZjJ2">
@@ -57728,7 +57730,7 @@
       <ref role="1YeEjl" to="9nc5:1ID5TXdv_9L" resolve="String" />
       <node concept="3MzsTm" id="2734ievegJC" role="lGtFl">
         <node concept="3MzsBX" id="2734ievegJD" role="3MztjM">
-          <ref role="3MzsBM" to="5jh0:2734ievegBd" resolve="sample-key" />
+          <ref role="3MzsBM" node="1cI4GX321xj" resolve="sample-key" />
         </node>
       </node>
     </node>

@@ -13,11 +13,12 @@
     <use id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections" version="0" />
     <use id="049ed9e7-0f0d-4814-a373-a4b21e15b59e" name="org.campagnelab.metar.limma" version="1" />
     <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="3" />
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="4" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="5" />
     <devkit ref="8a3636fa-c6ec-4cb0-bc2a-b7143f2a4937(org.campagnelab.metaR)" />
   </languages>
   <imports>
     <import index="9nc5" ref="r:d1a256e6-591a-459f-809c-7fc9df45e4d5(org.campagnelab.mps.XChart.types.roots)" implicit="true" />
+    <import index="wiqx" ref="r:6bfd7c1b-dea3-4f98-9ed3-bce7739b7a8d(org.campagnelab.metar.accessories.styles.colors)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -230,8 +231,8 @@
       </concept>
     </language>
     <language id="43f31864-fc67-43f5-873e-ab79cc279a2d" name="org.campagnelab.styles">
-      <concept id="2742007948273068321" name="org.campagnelab.styles.structure.BooleanStyleClass" flags="ng" index="2A4byi">
-        <property id="2742007948273068417" name="value" index="2A4bwM" />
+      <concept id="27429407128487350" name="org.campagnelab.styles.structure.ColorPaletteRef" flags="ng" index="24aBtg">
+        <reference id="27429407128487353" name="palette" index="24aBtv" />
       </concept>
       <concept id="2742007948273075795" name="org.campagnelab.styles.structure.DrawBorder" flags="ng" index="2A4dvw" />
       <concept id="3501083140123917949" name="org.campagnelab.styles.structure.IntegerStyleClass" flags="ng" index="KDUrG">
@@ -568,8 +569,10 @@
   </node>
   <node concept="2YPoW8" id="6gze2t0OYlu">
     <property role="TrG5h" value="HeatmapStyle" />
-    <node concept="2A4dvw" id="6gze2t0OYlv" role="2YPqp2">
-      <property role="2A4bwM" value="true" />
+    <node concept="2A4dvw" id="6gze2t0OYlv" role="2YPqp2" />
+    <node concept="24aBtg" id="lr9htFXJjg" role="2YPqp2">
+      <property role="TrG5h" value="Diverging-BrownBlueLightWhite" />
+      <ref role="24aBtv" to="wiqx:1xsIq4yXdt" resolve="Diverging-BrownBlueLightWhite" />
     </node>
   </node>
   <node concept="S1EQb" id="6gze2t0OYlw">

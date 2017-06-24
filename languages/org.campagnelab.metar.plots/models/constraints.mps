@@ -2,7 +2,7 @@
 <model ref="r:411d12f9-2c26-44ce-81bd-39049505eb37(org.campagnelab.metar.plots.constraints)">
   <persistence version="9" />
   <languages>
-    <use id="3f4bc5f5-c6c1-4a28-8b10-c83066ffa4a1" name="jetbrains.mps.lang.constraints" version="0" />
+    <use id="3f4bc5f5-c6c1-4a28-8b10-c83066ffa4a1" name="jetbrains.mps.lang.constraints" version="2" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -80,7 +80,7 @@
   <node concept="1M2fIO" id="5hNeoNwORS">
     <ref role="1M2myG" to="jugs:3jH$tF$DBmP" resolve="MAPlot" />
     <node concept="1N5Pfh" id="5hNeoNwORT" role="1Mr941">
-      <ref role="1N5Vy1" to="jugs:3AJ457wDFB6" />
+      <ref role="1N5Vy1" to="jugs:3AJ457wDFB6" resolve="geneName" />
       <node concept="1dDu$B" id="5hNeoNwORW" role="1N6uqs">
         <ref role="1dDu$A" to="jrxw:2WRhvFtICJV" resolve="ColumnGroup" />
       </node>

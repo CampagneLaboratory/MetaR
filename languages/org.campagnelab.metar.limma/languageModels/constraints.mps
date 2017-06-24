@@ -2,7 +2,7 @@
 <model ref="r:9ca39b7c-3493-474a-a98a-a876ba24bec2(org.campagnelab.metar.limma.constraints)">
   <persistence version="9" />
   <languages>
-    <use id="3f4bc5f5-c6c1-4a28-8b10-c83066ffa4a1" name="jetbrains.mps.lang.constraints" version="0" />
+    <use id="3f4bc5f5-c6c1-4a28-8b10-c83066ffa4a1" name="jetbrains.mps.lang.constraints" version="2" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -102,7 +102,7 @@
                   <node concept="2OqwBi" id="4ssfE$9PZS4" role="37vLTJ">
                     <node concept="EsrRn" id="4ssfE$9PZPy" role="2Oq$k0" />
                     <node concept="3TrEf2" id="4ssfE$9Q0kz" role="2OqNvi">
-                      <ref role="3Tt5mk" to="jl4n:4ssfE$9PTBv" />
+                      <ref role="3Tt5mk" to="jl4n:4ssfE$9PTBv" resolve="adjustedCountsTable" />
                     </node>
                   </node>
                 </node>
@@ -112,7 +112,7 @@
                   <node concept="2OqwBi" id="4ssfE$9Q0GC" role="2Oq$k0">
                     <node concept="EsrRn" id="4ssfE$9Q0DN" role="2Oq$k0" />
                     <node concept="3TrEf2" id="4ssfE$9Q19f" role="2OqNvi">
-                      <ref role="3Tt5mk" to="jl4n:4ssfE$9PTBv" />
+                      <ref role="3Tt5mk" to="jl4n:4ssfE$9PTBv" resolve="adjustedCountsTable" />
                     </node>
                   </node>
                   <node concept="2qgKlT" id="4ssfE$9Q1IP" role="2OqNvi">
@@ -141,7 +141,7 @@
                 <node concept="2OqwBi" id="4ssfE$9PZlv" role="3uHU7B">
                   <node concept="EsrRn" id="4ssfE$9PZim" role="2Oq$k0" />
                   <node concept="3TrEf2" id="4ssfE$9PZzV" role="2OqNvi">
-                    <ref role="3Tt5mk" to="jl4n:4ssfE$9PTBv" />
+                    <ref role="3Tt5mk" to="jl4n:4ssfE$9PTBv" resolve="adjustedCountsTable" />
                   </node>
                 </node>
               </node>

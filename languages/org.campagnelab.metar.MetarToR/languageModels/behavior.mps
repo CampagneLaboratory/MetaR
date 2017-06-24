@@ -2,7 +2,7 @@
 <model ref="r:438bfdf3-5c62-455e-95e7-3a83de296ad1(org.campagnelab.metar.biomartToR.behavior)">
   <persistence version="9" />
   <languages>
-    <use id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior" version="0" />
+    <use id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior" version="1" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -326,7 +326,7 @@
                     </node>
                   </node>
                   <node concept="3Tsc0h" id="1e1bwEAnTlL" role="2OqNvi">
-                    <ref role="3TtcxE" to="c07g:6Om6Mbm3Tzy" />
+                    <ref role="3TtcxE" to="c07g:6Om6Mbm3Tzy" resolve="databasesList" />
                   </node>
                 </node>
               </node>
@@ -443,7 +443,7 @@
             <node concept="2OqwBi" id="pr6WGwUk_8" role="37vLTJ">
               <node concept="13iPFW" id="pr6WGwUkv3" role="2Oq$k0" />
               <node concept="3TrEf2" id="pr6WGwUkJ_" role="2OqNvi">
-                <ref role="3Tt5mk" to="rlu9:55b$yEt0CzD" />
+                <ref role="3Tt5mk" to="rlu9:55b$yEt0CzD" resolve="biomartref" />
               </node>
             </node>
             <node concept="2ShNRf" id="pr6WGwUl8P" role="37vLTx">
@@ -469,7 +469,7 @@
                     <node concept="2OqwBi" id="NCPzAX9ejl" role="2Oq$k0">
                       <node concept="13iPFW" id="NCPzAX9dWf" role="2Oq$k0" />
                       <node concept="3TrEf2" id="NCPzAX9eDR" role="2OqNvi">
-                        <ref role="3Tt5mk" to="rlu9:55b$yEt0CzD" />
+                        <ref role="3Tt5mk" to="rlu9:55b$yEt0CzD" resolve="biomartref" />
                       </node>
                     </node>
                     <node concept="2qgKlT" id="NCPzAX9f9M" role="2OqNvi">
@@ -499,7 +499,7 @@
     </node>
   </node>
   <node concept="13h7C7" id="1e1bwEALe1L">
-    <ref role="13h7C2" to="rlu9:1e1bwEALdL4" resolve="ExposedTable" />
+    <ref role="13h7C2" to="rlu9:1e1bwEALdL4" resolve="ExposedTable_old" />
     <node concept="13hLZK" id="1e1bwEALe1M" role="13h7CW">
       <node concept="3clFbS" id="1e1bwEALe1N" role="2VODD2" />
     </node>
@@ -515,7 +515,7 @@
             <node concept="2OqwBi" id="364jCCZMUWx" role="2Oq$k0">
               <node concept="13iPFW" id="364jCCZMU_z" role="2Oq$k0" />
               <node concept="3TrEf2" id="364jCCZMV8H" role="2OqNvi">
-                <ref role="3Tt5mk" to="rlu9:1e1bwEBY62I" />
+                <ref role="3Tt5mk" to="rlu9:1e1bwEBY62I" resolve="table_old" />
               </node>
             </node>
             <node concept="3TrcHB" id="364jCCZMVxP" role="2OqNvi">
@@ -528,7 +528,7 @@
     </node>
   </node>
   <node concept="13h7C7" id="4eN5Nwy_7gC">
-    <ref role="13h7C2" to="rlu9:4eN5Nwy$$Zi" resolve="ExposedColumn" />
+    <ref role="13h7C2" to="rlu9:4eN5Nwy$$Zi" resolve="ExposedColumn_old" />
     <node concept="13hLZK" id="4eN5Nwy_7gD" role="13h7CW">
       <node concept="3clFbS" id="4eN5Nwy_7gE" role="2VODD2" />
     </node>
